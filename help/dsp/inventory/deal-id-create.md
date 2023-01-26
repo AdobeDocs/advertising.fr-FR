@@ -3,7 +3,7 @@ title: Créer manuellement les détails de l’identifiant de transaction
 description: Découvrez comment saisir manuellement les détails d’un ID de transaction.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: cd9763a7-99d4-4881-9df9-b4e24c55be0f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%

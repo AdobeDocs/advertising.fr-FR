@@ -3,7 +3,7 @@ title: Paramètres des rapports personnalisés
 description: Reportez-vous à la description des paramètres de rapport personnalisés.
 feature: DSP Custom Reports
 exl-id: 1d37fc96-0f9b-4eb2-ba8d-9534f627adaf
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 **[!UICONTROL Select To Add As Report Headers]:**  Les colonnes de données, ou en-têtes, à inclure dans le rapport. Pour ajouter une colonne, développez la catégorie et cochez la case en regard de son nom. Toutes les mesures non disponibles sont désactivées. Les catégories de données disponibles sont les suivantes :
 
-* [!UICONTROL  Dimensions]
+* [!UICONTROL Dimensions]
 * [!UICONTROL Metrics]
 * [!UICONTROL Conversion Metrics] (triés par annonceur)
 * [!UICONTROL Custom Goals] (triés par annonceur)
@@ -142,5 +142,5 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 >* [Exécution d’un rapport personnalisé](/help/dsp/reports/report-run-now.md)
 >* [Paramètres des rapports personnalisés](/help/dsp/reports/report-settings.md)
 >* [À propos des destinations de rapport](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Colonnes de rapport disponibles](/help/dsp/reports/report-columns.md)
 
-* [Colonnes de rapport disponibles](/help/dsp/reports/report-columns.md)

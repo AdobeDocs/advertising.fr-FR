@@ -2,7 +2,7 @@
 user-guide-title: Intégrations à Adobe Experience Cloud
 user-guide-description: Découvrez les intégrations d’Advertising DSP et d’Advertising Search à d’autres produits et services Adobe Experience Cloud.
 breadcrumb-title: Intégrations à Experience Cloud
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 12%

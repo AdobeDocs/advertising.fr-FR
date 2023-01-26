@@ -3,9 +3,9 @@ title: Prise en charge de la publicité Adobe pour le Règlement général sur l
 description: Découvrez les types de requêtes de données pris en charge, les valeurs de configuration et de champ requises, ainsi que des exemples de requêtes d’accès aux API utilisant des ID de produit hérités et des champs de données renvoyés.
 feature: GDPR
 exl-id: 304d88d0-d63d-4b32-8d4d-c61ba2409adc
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Toutes ces étapes sont nécessaires pour Adobe Advertising. Pour plus d’infor
 
 ## Valeurs de champ requises dans les demandes JSON Adobe Advertising
 
-&quot;contexte de l’entreprise&quot; :
+`"company context":`
 
 * `"namespace": **imsOrgID**`
 * `"value":` &lt;*votre valeur d’identifiant de l’organisation IMS*>

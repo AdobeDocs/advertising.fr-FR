@@ -3,7 +3,7 @@ title: Colonnes dans les feuilles de calcul téléchargées/téléchargées
 description: Référencez les colonnes dans les feuilles de calcul AQ Excel téléchargées.
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!UICONTROL Goals] | [!UICONTROL Max Bid] | Offre maximale pour l’emplacement. | Oui |
 | [!UICONTROL Goals] | [!UICONTROL Flight Pacing] | La stratégie de fréquence de vol pour le placement : *[!UICONTROL Even]*, *[!UICONTROL slightly ahead]*, *[!UICONTROL frontload]* ou *[!UICONTROL aggressive frontload]*. | Oui |
 | [!UICONTROL Goals] | [!UICONTROL Intraday Pacing] | La stratégie de rythme intraday pour l’emplacement : *[!UICONTROL Even]* ou *[!UICONTROL ASAP]*. | Oui |
-| [!UICONTROL Goals] | [!UICONTROL  Pre-Bid Filters] | Tout critère de filtrage de pré-enchère à appliquer. | — |
+| [!UICONTROL Goals] | [!UICONTROL Pre-Bid Filters] | Tout critère de filtrage de pré-enchère à appliquer. | — |
 | [!UICONTROL Goals] | [!UICONTROL Bidding Rules] | si les règles d’offre (obsolètes) sont *[!UICONTROL ON]* ou *[!UICONTROL OFF]*. | — |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap] | La limite de fréquence Principale pour l’emplacement pendant la [!UICONTROL Frequency Cap Interval]. | Oui |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap Interval] | Intervalle de la limite de fréquence Principale : *[!UICONTROL Day]*, *[!UICONTROL Week]* ou *[!UICONTROL Month]*. | Oui |

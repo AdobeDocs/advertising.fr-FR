@@ -3,7 +3,7 @@ title: Cas d’utilisation
 description: En savoir plus sur les cas d’utilisation pour le partage de vos données multimédia Advertising DSP avec Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 21d80cf6-f817-495a-bae4-fc9e44f1eda4
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 48cab1494ee36e6ab2f12b2e87adedf62a21374f
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -34,17 +34,23 @@ Pour exécuter cet exemple en Audience Manager, procédez comme suit :<!-- The A
 
    Par exemple, pour nommer la caractéristique `Creative Trait 123`, utilisez la règle de caractéristique suivante :
 
-   `d_creative == 123 AND d_event == imp`
+   ```
+   d_creative == 123 AND d_event == imp
+   ```
 
 1. Créez une caractéristique pour capturer les utilisateurs qui cliquent ou convertissent.
 
    Par exemple, pour nommer cette caractéristique `Click and Converter`, utilisez la règle de caractéristique suivante :
 
-   `d_event == click OR d_event=conv`
+   ```
+   d_event == click OR d_event=conv
+   ```
 
 1. Créez un segment appelé `Retarget Users` pour renseigner les utilisateurs qui ont vu des éléments créatifs `123` mais n’a pas cliqué ni converti. Utilisez la règle de caractéristique suivante :
 
-   `Creative Trait 123 AND NOT Click and Converter`
+   ```
+   Creative Trait 123 AND NOT Click and Converter
+   ```
 
 1. Mappage du segment `Retarget Users` vers une destination et cibler les utilisateurs de la destination avec des `456`.
 

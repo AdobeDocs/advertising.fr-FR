@@ -3,7 +3,7 @@ title: Abonner et demander l’accès à [!DNL On Demand] Premium Offres d’inv
 description: Découvrez comment vous abonner à et demander l’accès à :[!DNL On Demand] les offres.
 feature: DSP On Demand Inventory
 exl-id: e66e5bad-526e-4b71-8072-332dd173f105
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -36,8 +36,7 @@ Une fois qu’un accord est conclu [approuvé](/help/dsp/inventory/on-demand-inv
 
    * Offres de **[!UICONTROL TV Broadcasters]**
 
-   * Offres des éditeurs qui acceptent les créations &quot;connectées&quot;
-      **[!UICONTROL Tune-In]**)
+   * traite des éditeurs qui acceptent les créations &quot;connectées&quot; (**[!UICONTROL Tune-In]**)
 
    * Transactions pour lesquelles l’éditeur a appliqué plus de 21 ciblages et accepte des publicités avec alcool (**[!UICONTROL Legal drinking age]**)
 
@@ -65,8 +64,7 @@ Une fois qu’un accord est conclu [approuvé](/help/dsp/inventory/on-demand-inv
 
    * Offres de **[!UICONTROL TV Broadcasters]**
 
-   * Offres des éditeurs qui acceptent les créations &quot;connectées&quot;
-      **[!UICONTROL Tune-In]**)
+   * traite des éditeurs qui acceptent les créations &quot;connectées&quot; (**[!UICONTROL Tune-In]**)
 
    * Transactions pour lesquelles l’éditeur a appliqué plus de 21 ciblages et accepte des publicités avec alcool (**[!UICONTROL Legal drinking age]**)
 
