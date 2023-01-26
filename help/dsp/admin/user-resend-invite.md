@@ -1,8 +1,8 @@
 ---
 title: Réenvoyer une invitation d’utilisateur en attente
 description: Découvrez comment renvoyer une invitation d’utilisateur en attente.
-exl-id: e326460b-8354-452e-aa35-00c82c7d76bf
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -17,9 +17,9 @@ Vous pouvez renvoyer une invitation à un utilisateur avec une invitation en att
 
 1. Effectuez l’une des opérations suivantes :
 
-   * Dans le menu principal, cliquez sur **[!UICONTROL Settings]>[!UICONTROL Users]**.
+   * Dans le menu principal, cliquez sur **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * Dans le menu principal, cliquez sur **[!UICONTROL Settings]>[!UICONTROL Account]**, puis cliquez sur **[!UICONTROL Edit users]**.
+   * Dans le menu principal, cliquez sur **[!UICONTROL Settings]** > **[!UICONTROL Account]**, puis cliquez sur **[!UICONTROL Edit users]**.
 
 1. Dans le **Invitations** , cliquez sur ![Réinitialiser](/help/dsp/assets/resend.png).
 

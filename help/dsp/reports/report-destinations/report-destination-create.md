@@ -2,8 +2,8 @@
 title: Création d’une destination de rapport
 description: Découvrez comment créer une destination pour la diffusion de rapports personnalisés.
 feature: DSP Custom Reports
-exl-id: 33c58a98-a7d3-4d05-99e7-5e55ba3e625a
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 2a8d6cef-9c33-4483-ac1e-93778a231962
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Création d’une destination de rapport
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Reports]>[!UICONTROL Report Destinations]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
 
 1. Cliquez sur **[!UICONTROL Add Destination]**.
 

@@ -2,8 +2,8 @@
 title: Archivage ou désarchivage d’une transaction privée
 description: Découvrez comment archiver ou ne plus archiver une transaction privée.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 6ecf90b6-a52f-42f3-aa3f-b2c489ea0aa8
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -24,8 +24,8 @@ Vous pouvez désarchiver à tout moment une transaction afin de restaurer son é
 
 ## Archiver une transaction privée
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
-1. Sur la ligne de la transaction, cliquez sur **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. Sur la ligne de la transaction, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -34,9 +34,9 @@ Vous pouvez désarchiver à tout moment une transaction afin de restaurer son é
 
 ## Désarchiver une transaction privée
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 1. Au-dessus de la liste des offres, cliquez sur ![Filtrer](/help/dsp/assets/filter.png); click **[!UICONTROL Status]** et sélectionnez *[!UICONTROL Archived]*; puis cliquez sur **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
-1. Sur la ligne de la transaction, cliquez sur **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. Sur la ligne de la transaction, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Unarchive]**.
 
 Si l’éditeur ou le SSP avait précédemment désactivé la transaction et que vous souhaitez l’utiliser à nouveau, contactez directement l’éditeur ou le SSP.

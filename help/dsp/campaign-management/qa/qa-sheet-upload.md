@@ -2,8 +2,8 @@
 title: Télécharger les paramètres de positionnement d’une campagne
 description: Découvrez comment charger des modifications dans les paramètres de placement clés d’une campagne à l’aide de feuilles de calcul AQ Excel.
 feature: DSP Placements
-exl-id: 0f5fdc7e-3a90-4b4b-a23c-75bed7703100
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 2ca7c019-ff5f-410d-b9c7-31ef1509f91e
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Pour publier des modifications sur certains types de paramètres d’emplacement
 
 1. Effectuez l’une des opérations suivantes :
 
-   * En regard du nom de la campagne, cliquez sur **[!UICONTROL ...]>[!UICONTROL Upload Excel QA sheet]**.
+   * En regard du nom de la campagne, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
-   * Cliquez sur le nom de la campagne pour en afficher les détails. Dans le coin supérieur droit, cliquez sur **[!UICONTROL ...]>[!UICONTROL Upload Excel QA sheet]**.
+   * Cliquez sur le nom de la campagne pour en afficher les détails. Dans le coin supérieur droit, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
 1. Dans le [!UICONTROL Edit in Excel] dialog :
 

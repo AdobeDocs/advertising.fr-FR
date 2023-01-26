@@ -2,8 +2,7 @@
 title: Modification des balises d’attribut pour un ID de transaction
 description: Découvrez comment créer et modifier les balises d’attribut pour un ID de transaction.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: 9a0190e7-26d0-4236-abbb-f1264b5d61e9
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -14,7 +13,7 @@ ht-degree: 0%
 
 Vous pouvez créer et attribuer des balises pour traiter les ID afin de regrouper des offres similaires. Lorsque vous créez ou modifiez un emplacement, vous pouvez rechercher l’inventaire disponible par nom de balise.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
 1. Sur la ligne de la transaction, cliquez sur ![Menu Options](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]**.
 

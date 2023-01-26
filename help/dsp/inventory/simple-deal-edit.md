@@ -2,8 +2,8 @@
 title: Modifier [!UICONTROL Simple Ad Serving] Paramètres de transaction
 description: Découvrez comment modifier les paramètres d’une [!UICONTROL Simple Ad Serving] accord.
 feature: DSP Simple Ad Serving
-exl-id: 025b299b-05ba-4e4e-ac92-8a738303bc32
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 48540a6c-54ee-4109-bdd6-293fbee5c3e5
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 1%
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 Vous pouvez modifier certains paramètres d’une [!UICONTROL Simple Ad Serving] l&#39;accord qui n&#39;est pas terminé.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Sur la ligne de la transaction, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+1. Sur la ligne de la transaction, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
 1. Modifiez la variable [paramètres de transaction](simple-deal-settings.md).
 

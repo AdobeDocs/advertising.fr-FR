@@ -2,8 +2,8 @@
 title: Afficher les informations sur les enchères pour une transaction privée
 description: Découvrez comment utiliser les insights d’enchères pour analyser la composition de l’opération d’une opération privée.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: 9d585bd4-59d5-401a-a68c-6ed656086252
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Auction Insights est un outil de dépannage qui vous permet d’analyser la composition des offres d’affaires privées garanties et non garanties. Grâce aux visualisations de données, cet outil affiche la tendance et les proportions relatives des valeurs reçues pour [attributs d’enchères clés](#auction-attributes) dans une période spécifique.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Sur la ligne de la transaction, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Auction Insights]**.
+1. Sur la ligne de la transaction, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**.
 
 >[!NOTE]
 >
->Les informations sur les enchères sont également disponibles via l’emplacement. [!UICONTROL Inspector] outil. Pour les ouvrir, [ouvrir l’emplacement ; [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) au [!UICONTROL Inventory tab], puis cliquez sur **[!UICONTROL ...]>[!UICONTROL Auction Insights]** dans la ligne d’opération.
+>Les informations sur les enchères sont également disponibles via l’emplacement. [!UICONTROL Inspector] outil. Pour les ouvrir, [ouvrir l’emplacement ; [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) au [!UICONTROL Inventory tab], puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** dans la ligne d’opération.
 
 ## Attributs d’enchère {#auction-attributes}
 

@@ -2,8 +2,8 @@
 title: Partage ou arrêt du partage d’un segment
 description: Découvrez comment partager ou arrêter le partage d’un segment d’exclusion de la vente personnalisé ou CCPA avec d’autres comptes d’utilisateurs DSP.
 feature: DSP Segments
-exl-id: 3a284c81-73ee-4efd-9532-5ae00a000dd9
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: ea5cafb3-58b0-4b05-9b02-c022466d9b8c
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Vous pouvez partager vos segments personnalisés et vos segments d’opposition 
 
 Vous pouvez également arrêter de partager un segment avec d’autres comptes d’utilisateurs DSP.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
 1. Placez le curseur sur la ligne de segment et cliquez sur **[!UICONTROL Share]**.
 

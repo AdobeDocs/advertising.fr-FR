@@ -2,8 +2,8 @@
 title: Archivage ou désarchivage d’un emplacement
 description: Découvrez comment archiver ou désarchiver un emplacement.
 feature: DSP Placements
-exl-id: 3d342f83-1bcb-4f80-b31a-2009bcdde565
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 4304452d-4573-46b3-892e-299950a75d4f
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Vous pouvez désarchiver à tout moment un emplacement pour restaurer son état 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
-1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -35,7 +35,7 @@ Vous pouvez désarchiver à tout moment un emplacement pour restaurer son état 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
-1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

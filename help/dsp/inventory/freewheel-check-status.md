@@ -2,8 +2,8 @@
 title: Vérification de l’état des publicités pour un [!DNL [!DNL FreeWheel]] Accord PG
 description: Découvrez comment trouver l’état des publicités pour [!DNL Freewheel] offres garanties par programmation.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 57c365f6-41cf-4ab6-b71d-fe9984eaf115
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -24,13 +24,13 @@ Pour toute question ou problème concernant le renvoi, contactez votre [!DNL Ado
 
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
 
-1. En regard du nom de la publicité, cliquez sur  **[!UICONTROL ...]>[!UICONTROL see Freewheel status]**.
+1. En regard du nom de la publicité, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL see Freewheel status]**.
 
-1. (Facultatif) Pour soumettre à nouveau une publicité à approbation, placez le curseur sur la ligne de publicité, puis cliquez sur **[!UICONTROL More]>[!UICONTROL Resubmit]**.
+1. (Facultatif) Pour soumettre à nouveau une publicité à approbation, placez le curseur sur la ligne de publicité, puis cliquez sur **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
 ## Vérifiez l’état à partir du [!UICONTROL Deals] Affichage
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -44,7 +44,7 @@ Pour toute question ou problème concernant le renvoi, contactez votre [!DNL Ado
 
    Pour les envois ayant échoué, la variable [!UICONTROL API] La colonne Réponse indique l’erreur. Pour obtenir la liste complète des codes d’erreur pour les envois ayant échoué et les étapes suivantes pour les corriger, voir &quot;[Codes d’erreur pour [!DNL FreeWheel] Envois de publicités](freewheel-error-codes.md).&quot;
 
-1. (Facultatif) Pour soumettre à nouveau une publicité à approbation, placez le curseur sur la ligne de publicité, puis cliquez sur **[!UICONTROL More]>[!UICONTROL Resubmit]**.
+1. (Facultatif) Pour soumettre à nouveau une publicité à approbation, placez le curseur sur la ligne de publicité, puis cliquez sur **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
 >[!MORELIKETHIS]
 >

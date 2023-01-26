@@ -2,8 +2,8 @@
 title: Modifier rapidement les paramètres de positionnement des clés
 description: Découvrez comment modifier rapidement les paramètres d’emplacement clés.
 feature: DSP Placements
-exl-id: 107ec263-a0f2-491b-8380-2cceaf51cae9
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Vous pouvez modifier le nom, l’état, l’offre maximale et le budget de l’e
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
-1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Quick Edit]**.
+1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
 1. Modifier l’une des options disponibles [paramètres de placement](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**, et **[!UICONTROL Budget]**.
 1. Cliquez sur **[!UICONTROL Apply]**.
 
@@ -37,5 +37,5 @@ Vous pouvez modifier le nom, l’état, l’offre maximale et le budget de l’e
 >* [Mettre en pause ou activer un emplacement](placement-pause-activate.md)
 >* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)
->* [Vidéo : Comment modifier des emplacements à l’aide des outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Vidéo : Comment modifier des emplacements à l’aide des outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

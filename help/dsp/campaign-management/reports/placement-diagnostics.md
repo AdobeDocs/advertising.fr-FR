@@ -2,8 +2,8 @@
 title: Affichage des rapports de diagnostic de placement
 description: Découvrez comment diagnostiquer les problèmes de configuration et de fréquence d’emplacement.
 feature: DSP Placements
-exl-id: d64406b6-83b5-4ae7-984c-98610fc1ee40
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Les outils suivants peuvent vous aider à diagnostiquer les problèmes de config
    1. Ouvrez les paramètres de placement :
       1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
       1. Cliquez sur le nom de la campagne, puis sur **[!UICONTROL Placements]**.
-      1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+      1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
    1. Dans le coin supérieur droit, cliquez sur ![Diagnostics de placement](/help/dsp/assets/placement-diagnostics.png) ou **[!UICONTROL Diagnostic]**.
 1. Effectuez l’une des opérations suivantes :
    * Pour afficher le journal des modifications :

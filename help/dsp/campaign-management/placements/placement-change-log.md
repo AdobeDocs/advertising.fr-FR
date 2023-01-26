@@ -2,8 +2,8 @@
 title: Affichage d’un journal des modifications d’emplacement
 description: Découvrez comment afficher les modifications apportées à l’emplacement.
 feature: DSP Placements
-exl-id: a57056bd-c467-4b81-90b1-528b85787a5e
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Vous pouvez trier les données selon la colonne Type, Modifié par ou Date de mo
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
-1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Change logs]**.
+1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 >[!MORELIKETHIS]
 >

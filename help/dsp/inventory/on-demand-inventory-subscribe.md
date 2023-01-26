@@ -2,8 +2,8 @@
 title: Abonner et demander l’accès à [!DNL On Demand] Premium Offres d’inventaire
 description: Découvrez comment vous abonner à et demander l’accès à :[!DNL On Demand] les offres.
 feature: DSP On Demand Inventory
-exl-id: e66e5bad-526e-4b71-8072-332dd173f105
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Une fois qu’un accord est conclu [approuvé](/help/dsp/inventory/on-demand-inv
 
 ## Abonnement à toutes les transactions d’un éditeur
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
 1. (Facultatif) Filtrez les offres ou les éditeurs disponibles selon l’un des critères suivants :
 
@@ -36,7 +36,8 @@ Une fois qu’un accord est conclu [approuvé](/help/dsp/inventory/on-demand-inv
 
    * Offres de **[!UICONTROL TV Broadcasters]**
 
-   * traite des éditeurs qui acceptent les créations &quot;connectées&quot; (**[!UICONTROL Tune-In]**)
+   * Offres des éditeurs qui acceptent les créations &quot;connectées&quot;
+      **[!UICONTROL Tune-In]**)
 
    * Transactions pour lesquelles l’éditeur a appliqué plus de 21 ciblages et accepte des publicités avec alcool (**[!UICONTROL Legal drinking age]**)
 
@@ -48,7 +49,7 @@ Une fois qu’un accord est conclu [approuvé](/help/dsp/inventory/on-demand-inv
 
 ## Demande d’accès à des transactions individuelles
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
 1. (Facultatif) Filtrez les offres ou les éditeurs disponibles selon l’un des critères suivants :
 
@@ -64,7 +65,8 @@ Une fois qu’un accord est conclu [approuvé](/help/dsp/inventory/on-demand-inv
 
    * Offres de **[!UICONTROL TV Broadcasters]**
 
-   * traite des éditeurs qui acceptent les créations &quot;connectées&quot; (**[!UICONTROL Tune-In]**)
+   * Offres des éditeurs qui acceptent les créations &quot;connectées&quot;
+      **[!UICONTROL Tune-In]**)
 
    * Transactions pour lesquelles l’éditeur a appliqué plus de 21 ciblages et accepte des publicités avec alcool (**[!UICONTROL Legal drinking age]**)
 

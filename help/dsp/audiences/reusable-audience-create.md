@@ -2,8 +2,8 @@
 title: Création d’une audience réutilisable
 description: Découvrez comment créer des audiences réutilisables composées de segments d’audience et d’autres audiences enregistrées.
 feature: DSP Audiences
-exl-id: 48e3dc4c-6e2d-452c-8d69-7e6211d808e0
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Vous pouvez enregistrer et gérer des audiences réutilisables, qui sont des groupes de segments d’audience et même d’autres audiences enregistrées, que vous pouvez utiliser comme cibles ou exclusions pour plusieurs emplacements.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]>[!UICONTROL All Audiences]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
 1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**.
 
@@ -62,9 +62,9 @@ Vous pouvez enregistrer et gérer des audiences réutilisables, qui sont des gro
 
       1. Copiez la logique de segment de l’audience existante de l’une des façons suivantes :
 
-         * Dans la vue Toutes les audiences, placez le curseur sur la ligne de l’audience, puis cliquez sur **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * Dans la vue Toutes les audiences, placez le curseur sur la ligne de l’audience, puis cliquez sur **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Dans les paramètres de l’audience existante, dans la partie supérieure du panneau de logique de segment, cliquez sur **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * Dans les paramètres de l’audience existante, dans la partie supérieure du panneau de logique de segment, cliquez sur **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * Dans un éditeur de texte, créez manuellement la logique de segment à l’aide des identifiants de segment alphanumériques et des [Syntaxe booléenne](audience-segment-logic-syntax.md)et copiez-le dans le presse-papiers.
       1. Cliquez sur **[!UICONTROL paste in an audience rule to begin building]**, collez la logique de segment existante dans le champ de saisie, puis cliquez sur **[!UICONTROL Apply]**.

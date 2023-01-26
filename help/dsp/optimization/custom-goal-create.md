@@ -2,8 +2,8 @@
 title: Création d’un objectif personnalisé
 description: Création d’un objectif personnalisé
 feature: DSP Optimization
-exl-id: 440ded21-92d3-41ad-839f-ebc8376aa932
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 81b0acfa-085d-495b-9516-576b952b1307
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -22,11 +22,11 @@ Pour créer un objectif personnalisé, le compte DSP doit être associé à un [
 
 1. Se connecter [!DNL Adobe Advertising Search] at (entreprises américaines) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) ou (sociétés dans tous les autres pays) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. Assurez-vous que les mesures que vous souhaitez inclure dans votre objectif ont été suivies, sont disponibles dans le produit et incluez un nom d’affichage :
-   1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
+   1. Dans le menu principal, cliquez sur **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
    1. Recherchez la mesure et assurez-vous que la variable **[!UICONTROL Show in UI and Reports]** est activé pour la mesure.
    1. Si la mesure ne contient pas de valeur dans la variable **[!UICONTROL Display Name]** , cliquez dans la cellule, saisissez le nom d’affichage, puis cliquez sur **[!UICONTROL Apply].**
 1. Créez l’objectif personnalisé en tant que *objectif*:
-   1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Objectives]**.
+   1. Dans le menu principal, cliquez sur **[!UICONTROL Search]** > **[!UICONTROL Optimization]>[!UICONTROL Objectives]**.
    1. Dans la barre d’outils, cliquez sur **[!UICONTROL Create objective].**
    1. Renseignez les paramètres de l&#39;objectif :
       1. Dans le **[!UICONTROL Change Objective Name]** , saisissez le nom de l’objectif.

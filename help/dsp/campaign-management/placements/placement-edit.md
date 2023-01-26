@@ -2,8 +2,8 @@
 title: Modifier un emplacement
 description: Découvrez comment modifier un emplacement.
 feature: DSP Placements
-exl-id: 135adad3-0bc0-4402-ac4a-a4fc71f78edf
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Vous pouvez modifier les paramètres d’un emplacement unique ou de plusieurs e
 
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
 
-1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
 1. Modifiez la variable [paramètres de placement](placement-settings.md).
 
@@ -88,5 +88,5 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
 >* [Paramètres d’emplacement](placement-settings.md)
 >* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [À propos de la correction des paramètres de positionnement d’une campagne à l’aide de feuilles de calcul](/help/dsp/campaign-management/qa/qa-about.md)
->* [Vidéo : Comment modifier des emplacements à l’aide des outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Vidéo : Comment modifier des emplacements à l’aide des outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

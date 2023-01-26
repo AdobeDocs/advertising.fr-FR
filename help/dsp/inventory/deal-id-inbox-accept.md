@@ -2,8 +2,8 @@
 title: Accepter un accord dans la [!UICONTROL Deal ID Inbox]
 description: Découvrez comment accepter une transaction privée que vous avez déjà négociée avec un éditeur sur [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom de [!DNL AdX]), and [!DNL Magnite DV+] (anciennement [!DNL Rubicon]) à l’aide de la boîte de réception Deal ID.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 55e8ca50-05f5-4f38-9fd5-afaed71315dc
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Utilisez la variable [!UICONTROL Deal ID inbox] pour accepter rapidement une tra
 >
 >Configuration d’offres garanties par la programmation avec les éditeurs sur [!DNL FreeWheel] nécessite des autorisations et des étapes supplémentaires. Voir &quot;[Présentation de la configuration de contrats sécurisés par programmation dans FreeWheel](freewheel-overview.md)&quot; pour plus d’informations.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. Au-dessus de la liste de [!UICONTROL Deals], cliquez sur la barre bleue pour ouvrir le [!UICONTROL Deal ID inbox].
 

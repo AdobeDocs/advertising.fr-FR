@@ -2,10 +2,10 @@
 title: Archivage ou désarchivage d’un module
 description: Découvrez comment archiver ou désarchiver un package.
 feature: DSP Packages
-exl-id: a8840f9e-e0ee-481d-80c2-66b56fc1882f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 12d1b498-2239-401a-8571-9210956e32b2
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Vous pouvez à tout moment désarchiver un package afin de restaurer son état p
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne pour ouvrir la [!UICONTROL Packages] vue.
-1. En regard du nom du module, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. En regard du nom du module, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -31,7 +31,7 @@ Vous pouvez à tout moment désarchiver un package afin de restaurer son état p
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne pour ouvrir la [!UICONTROL Packages] vue.
-1. En regard du nom du module, cliquez sur  **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. En regard du nom du module, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

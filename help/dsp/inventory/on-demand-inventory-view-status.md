@@ -2,8 +2,8 @@
 title: Afficher l’état de votre [!DNL On Demand] Traiter les demandes et les abonnements
 description: Découvrez comment afficher l’état de votre [!DNL On Demand] traiter les demandes et les abonnements.
 feature: DSP On Demand Inventory
-exl-id: 8dd6d922-c4a3-4ddb-bca9-f6f782da1320
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Une fois que vous avez demandé une transaction individuelle ou abonné à toutes les transactions d’un éditeur, vérifiez si l’éditeur a approuvé ou rejeté chaque transaction pour chaque annonceur de votre compte.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 1. Filtrez les offres disponibles pour inclure les offres que vous avez demandées ou auxquelles vous avez souscrit (**[!UICONTROL Currently subscribed to]**)**.
 1. Effectuez l’une des opérations suivantes :
    * Pour afficher les offres dans la variable [!UICONTROL Deal] afficher, cliquez sur **[!UICONTROL Deal view]**.

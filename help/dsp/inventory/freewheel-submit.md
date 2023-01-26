@@ -2,8 +2,8 @@
 title: Envoyer une publicité pour une opération PG à [!DNL FreeWheel]
 description: Découvrez comment demander l’approbation d’une publicité pour une transaction garantie par un programme avec un éditeur sur [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 6cb41f3b-29e4-4feb-9c31-578ab40bd4f7
-source-git-commit: 2459ae8803e26c68d9fca3a1bcf5b744eaafb72c
+exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -26,15 +26,13 @@ Une fois que [accepter une offre garantie par un programme avec un éditeur sur 
 
    1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
 
-   1. Cliquez sur  **[!UICONTROL ...]>[!UICONTROL Edit]** en regard du nom de la publicité.
+   1. Cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Edit]** en regard du nom de la publicité.
 
    1. Une fois les paramètres de publicité ouverts, copiez la clé publicitaire alphanumérique dans l’URL affichée dans la barre d’adresse du navigateur.
 
       Par exemple, dans l’URL suivante, la clé publicitaire est `3NtNC5ZbaGZtqbei8jD3`
 
-      ```
-      https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads
-      ```
+      `https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads`
 
 1. Envoyer la publicité à [!DNL Freewheel]:
 

@@ -2,8 +2,8 @@
 title: Duplication d’un rapport personnalisé
 description: Découvrez comment créer un rapport personnalisé en dupliquant un rapport existant.
 feature: DSP Custom Reports
-exl-id: 40f6d10d-5abf-410d-b382-6c8ddbc10921
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 20542bf8-69e9-44e0-9637-56b27f2de9ec
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 1%
@@ -16,7 +16,7 @@ Dupliquez un rapport personnalisé pour créer un rapport avec des paramètres s
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Reports]**.
 
-1. Dans la colonne Options de la ligne du rapport, cliquez sur **[!UICONTROL options]>[!UICONTROL Copy]**.
+1. Dans la colonne Options de la ligne du rapport, cliquez sur **[!UICONTROL options]** > **[!UICONTROL Copy]**.
 
 1. (Facultatif) Modifiez la variable [paramètres de rapport](/help/dsp/reports/report-settings.md) selon les besoins.
 
