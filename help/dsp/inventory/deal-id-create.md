@@ -2,23 +2,25 @@
 title: Créer manuellement les détails de l’identifiant de transaction
 description: Découvrez comment saisir manuellement les détails d’un ID de transaction.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: cd9763a7-99d4-4881-9df9-b4e24c55be0f
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
+source-git-commit: 2fe1ee7366c84f3a7d770aa3412fdde61829fe46
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
 # Créer manuellement les détails de l’identifiant de transaction
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**, puis sélectionnez **[!UICONTROL Deal ID]**.
 
 1. Saisissez le [paramètres de transaction](deal-id-settings.md):
 
    1. Dans le [!UICONTROL Deal ID basics] , indiquez les détails de l’opération et les annonceurs qui peuvent accéder à l’opération. Pour les offres garanties, vous devez également spécifier les dates de vol prévues et le nombre estimé d&#39;impressions, à des fins de suivi uniquement.
+
+      Vous pouvez suivre le rythme des offres garanties en incluant la colonne &quot;Calcul de l’impression PG&quot; dans la vue Inventaire > Transactions.
 
    1. (utilisateurs administrateurs uniquement) ; (facultatif) Dans le [!UICONTROL Technical] modifiez les paramètres par défaut si nécessaire.
 
