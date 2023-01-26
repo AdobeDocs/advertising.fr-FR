@@ -3,9 +3,9 @@ title: Adobe des intégrations Advertising avec Adobe Audience Manager
 description: Découvrez les différentes façons dont Adobe Advertising peut échanger des données avec Adobe Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Vous pouvez intégrer Adobe Advertising à l’Audience Manager de différentes 
 
 *Publicitaires inscrits avec [!DNL Advertising Search] only*
 
-Dans [!DNL [!DNL Search]], vous pouvez créer [!DNL Google Ads] Les clients Google correspondent aux audiences provenant d’ID d’utilisateur qui utilisent vos segments d’Audience Manager existants qui ont [!UICONTROL Adobe Media Optimizer (HTTP)] et [!UICONTROL Adobe Media Optimizer Batch Destination] comme destinations. ([!DNL Media Optimizer] est un ancien nom de [!DNL [!DNL Search]].) Cela inclut les segments Adobe Analytics publiés sur Adobe Experience Cloud et les segments créés dans Adobe Experience Cloud à l’aide de la variable [!DNL People core service]. Pour plus d’informations, voir l’aide intégrée au produit dans [!DNL [!DNL Search]].
+Dans [!DNL [!DNL Search]], vous pouvez créer [!DNL Google Ads] Les clients Google correspondent aux audiences provenant d’ID d’utilisateur qui utilisent vos segments d’Audience Manager existants qui ont [!UICONTROL Adobe Media Optimizer (HTTP)] et [!UICONTROL Adobe Media Optimizer Batch Destination] comme destinations. ([!DNL Media Optimizer] est un ancien nom de [!DNL [!DNL Search]].) Cela inclut les segments Adobe Analytics publiés sur Adobe Experience Cloud et les segments créés à l’aide de Adobe Experience Cloud. [!DNL Audience Library]. Pour plus d’informations, voir l’aide intégrée au produit dans [!DNL [!DNL Search]].
 
 [Audiences de correspondance client provenant d’ID utilisateur](https://support.google.com/google-ads/answer/9199250) fonctionne comme les audiences basées sur des balises de site web, mais un ID non lié aux PII est attribué aux membres d’audience uniques pour des avantages distincts par rapport aux audiences standard basées sur les balises de client et de site web.
 
