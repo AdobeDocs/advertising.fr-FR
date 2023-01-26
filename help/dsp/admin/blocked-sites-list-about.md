@@ -1,8 +1,8 @@
 ---
 title: À propos des listes de sites bloqués au niveau du compte et des annonceurs
 description: En savoir plus sur la liste des sites bloqués pour un compte ou un annonceur.
-exl-id: 1216d671-0cce-4401-a71e-948279a03845
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%

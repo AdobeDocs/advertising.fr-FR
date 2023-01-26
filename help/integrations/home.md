@@ -3,8 +3,9 @@ title: Nouveautés
 description: Découvrez les mises à jour apportées aux intégrations entre Adobe Advertising et d’autres produits et services dans Adobe Experience Cloud.
 cloud: Experience Cloud
 product: advertising cloud
-exl-id: 0808d101-3c6b-4671-b9e3-6f588427f8b5
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+index: true
+exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 | 19 avril 2021 | [!DNL Analytics for Advertising] | Découvrez pourquoi et comment ajouter des macros à vos [!DNL Flashtalking] balises publicitaires pour envoyer des données de clic à Adobe Analytics. | Voir &quot;[Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Flashtalking] Balises publicitaires](/help/integrations/analytics/macros-flashtalking.md).&quot; |
 | 27 octobre 2021 | [!DNL Analytics for Advertising] | Si votre entreprise souhaite ne plus utiliser l’Adobe Analytics hérité `visitorAPI.js` vers la bibliothèque [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) Bibliothèque (`alloy.js`) pour la collecte de données, vous devrez apporter quelques modifications pour activer le regroupement des identifiants. | Voir &quot;[En utilisant la variable [!DNL Last Event Service] Bibliothèque JavaScript avec Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md).&quot; |
 | 26 mai 2021 | Aide | Le chapitre &quot;[!DNL Analytics for Advertising]&quot; comprend désormais un sous-chapitre sur &quot;Utilisation [!DNL Analytics Marketing Channels].&quot; | Voir : &quot;[Principes fondamentaux des canaux marketing](/help/integrations/analytics/marketing-channels/mc-overview.md),&quot;[Utilisation d’identifiants Adobe Advertising pour créer [!DNL Analytics Marketing Channels] Règles de traitement](/help/integrations/analytics/marketing-channels/mc-ids.md),&quot;[Utilisation [!DNL Analytics Marketing Channels] avec Adobe des données Advertising](/help/integrations/analytics/marketing-channels/mc-ac-data.md),&quot; et &quot;[Pourquoi les données de canal peuvent-elles varier entre la publicité Adobe et [!DNL Analytics Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md).&quot; |
-| 26 mai 2021 | Aide | Lien vers tous les tutoriels vidéo sur [!DNL Analytics for Advertising] a été ajouté. | [Tutoriels vidéo sur les intégrations Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html) |
+| 26 mai 2021 | Aide | Lien vers tous les tutoriels vidéo sur [!DNL Analytics for Advertising] a été ajouté. | [Tutoriels vidéo sur les intégrations Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html) |
 
 {style=&quot;table-layout:auto&quot;}
 

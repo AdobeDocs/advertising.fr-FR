@@ -2,8 +2,8 @@
 title: Paramètres de campagne
 description: Reportez-vous à la description des paramètres de campagne disponibles.
 feature: DSP Campaigns
-exl-id: ff2e22ff-8073-4532-884b-36e0c1f22641
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 0%

@@ -2,8 +2,8 @@
 title: À propos de l’activation de segments authentifiés à partir des sources d’audience
 description: Découvrez comment ingérer des segments propriétaires à partir d’une plateforme de données client.
 feature: DSP Audiences
-exl-id: 3e6ede23-2b27-4b1d-bfa2-e823824633c4
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Pour plus d’informations sur les destinations, voir l’Experience Platform [G
 
 1. [Création d’une source d’audience](source-create.md) pour importer des audiences dans votre compte DSP ou un compte publicitaire.
 
-1. [Configurez une [!DNL Real-Time CDP] connexion de destination dans l’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).
+1. [Configurez une [!DNL Real-Time CDP] connexion de destination dans l’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).
 
 Pour obtenir une assistance supplémentaire, contactez votre [!DNL Adobe] équipe de compte ou `adcloud-support@adobe.com`.
 
@@ -42,7 +42,7 @@ Pour obtenir une assistance supplémentaire, contactez votre [!DNL Adobe] équip
 >* [Activation des segments authentifiés à partir de partenaires d’identification durables](source-durable-id.md)
 >* [Création d’une source d’audience pour activer les audiences propriétaires](source-create.md)
 >* [Paramètres de la source d’audience](source-settings.md)
->* [Connexion à Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Connexion à Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
 >* Adobe Experience Platform [Présentation du catalogue des destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [À propos de la gestion de l’audience](/help/dsp/audiences/audience-about.md)
 

@@ -2,10 +2,10 @@
 title: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 description: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 feature: Integration with Adobe Analytics
-exl-id: 34685e04-d4f9-4e27-b83e-b56164244b2b
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3278'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Si vous êtes connecté [!DNL Search], vous trouverez une liste de modèles d’
 
 #### Attribution de date d’événement dans Adobe Advertising
 
-Dans Adobe Advertising, vous pouvez générer des rapports sur les données de conversion en fonction de la date de clic/événement associée (la date de l’événement de clic ou d’impression) ou de la date de transaction (la date de conversion). Le concept de rapport de date de clic/d’événement n’existe pas dans [!DNL Analytics]; toutes les conversions suivies dans [!DNL Analytics] sont signalés par date de transaction. Par conséquent, une même conversion peut être signalée avec des dates différentes dans Adobe Advertising et [!DNL Analytics]. Prenons l’exemple d’un utilisateur qui clique sur une publicité le 1er janvier et effectue une conversion le 5 janvier. Si vous affichez les données de conversion par date d’événement dans Adobe Advertising, la conversion sera signalée le 1er janvier, lorsque le clic a eu lieu. Dans [!DNL Analytics], la même conversion sera signalée le 5 janvier.
+Dans Adobe Advertising, vous pouvez générer des rapports sur les données de conversion en fonction de la date de clic/événement associée (la date de l’événement de clic ou d’impression) ou de la date de transaction (la date de conversion). Le concept de rapport de date de clic/d’événement n’existe pas dans [!DNL Analytics]; toutes les conversions suivies dans [!DNL Analytics] sont signalés par date de transaction. Par conséquent, une même conversion peut être signalée avec des dates différentes dans Adobe Advertising et [!DNL Analytics]. Prenons l’exemple d’un utilisateur qui clique sur une publicité le 1er janvier et effectue une conversion le 5 janvier. Si vous consultez les données de conversion par date d’événement dans Adobe Advertising, la conversion sera signalée le 1er janvier, lorsque le clic a eu lieu. Dans [!DNL Analytics], la même conversion sera signalée le 5 janvier.
 
 ![Exemple de conversion attribuée à des dates différentes](/help/integrations/assets/a4adc-conversions-based-on.png)
 
@@ -153,17 +153,13 @@ Pour votre intégration, vous devez valider vos données de clics publicitaires 
 
 Dans [!DNL Analytics], l’une des méthodes les plus simples de validation [!DNL Analytics for Advertising] le suivi permet de comparer les clics aux instances à l’aide de la mesure calculée &quot;Clics jusqu’aux instances AMO ID&quot;, calculée comme suit :
 
-```
-Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
-```
+```Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)```
 
 [!UICONTROL AMO ID Instances] représente le nombre de fois où les AMO ID (`s_kwcid` ) sont suivis sur le site. Chaque fois qu’un utilisateur clique sur une publicité, une `s_kwcid` est ajouté à l’URL de la landing page. Le nombre de [!UICONTROL AMO ID Instances]est donc analogue au nombre de clics et peut être validé par rapport aux clics publicitaires réels. Nous constatons généralement un taux de correspondance de 80 % pour [!DNL Search] et un taux de correspondance de 30 % pour [!DNL DSP] trafic (lorsqu’il est filtré pour inclure uniquement les clics publicitaires) [!UICONTROL AMO ID Instances]). La différence d’attentes entre la recherche et l’affichage peut s’expliquer par le comportement de trafic attendu. La recherche capture l’intention et, en tant que telle, les utilisateurs ont généralement l’intention de cliquer sur les résultats de la recherche à partir de leur requête. Toutefois, les utilisateurs qui voient un affichage ou une publicité vidéo en ligne sont plus susceptibles de cliquer dessus involontairement, puis de rebondir à partir du site ou de quitter la nouvelle fenêtre qui se charge avant le suivi de l’activité de page.
 
 Dans les rapports Adobe Advertising, vous pouvez de même comparer des clics à des instances à l’aide du[!UICONTROL ef_id_instances]&quot; au lieu de [!UICONTROL AMO ID Instances]:
 
-```
-Clicks to [EF ID Instances = (ef_id_instances / Clicks)
-```
+```Clicks to [!UICONTROL EF ID Instances] = (ef_id_instances / Clicks)```
 
 Bien que vous vous attendiez à un taux de correspondance élevé entre l’AMO ID et l’EF ID, ne vous attendez pas à une parité de 100 %, car l’AMO ID et l’EF ID suivent fondamentalement différentes données, et cette différence peut entraîner de légères différences dans le total [!UICONTROL AMO ID Instances] et [!UICONTROL EF ID Instances]. Si le total [!UICONTROL AMO ID Instances] in [!DNL Analytics] différer de [!UICONTROL EF ID Instances] Toutefois, dans Adobe Advertising, de plus de 1 %, contactez votre [!DNL Adobe] l’équipe du compte pour obtenir de l’aide.
 
@@ -179,17 +175,13 @@ Le [AMO ID](ids.md) (paramètre de chaîne de requête s_kwcid) est utilisé pou
 
 Par exemple, supposons que nous ayons la page d’entrée suivante :
 
-```
-www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id
-```
+`www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id`
 
 où l’identifiant EF est &quot;`test_ef_id`&quot; et l’AMO ID est &quot;`test_amo_id`.&quot;
 
 Si une redirection côté site se produit, l’URL peut se présenter comme suit :
 
-```
-www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
-```
+`www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag`
 
 où l’identifiant EF est &quot;`test_ef_id`&quot; et l’AMO ID est &quot;`test_amo_id#redirectAnchorTag`.&quot;
 
@@ -231,7 +223,7 @@ Les données de clic peuvent également être enregistrées dans des environneme
 
 ### Utilisation de mesures de trafic Adobe Advertising pour les Dimensions publicitaires non Adobes
 
-Adobe Advertising fournit à Analytics [mesures de trafic spécifiques à la publicité et dimensions connexes issues de [!DNL DSP] et [!DNL Search]](advertising-metrics-in-analytics.md). Les mesures fournies par Adobe Advertising s’appliquent uniquement aux dimensions Adobe Advertising spécifiées et les données ne sont pas disponibles pour les autres dimensions dans [!DNL Analytics].
+Adobe Advertising fournit à Analytics [mesures de trafic spécifiques à la publicité et dimensions associées provenant de DSP et [!DNL [!DNL Search]]](advertising-metrics-in-analytics.md). Les mesures fournies par Adobe Advertising s’appliquent uniquement aux dimensions Adobe Advertising spécifiées et les données ne sont pas disponibles pour les autres dimensions dans [!DNL Analytics].
 
 Par exemple, si vous affichez la variable [!UICONTROL AMO Clicks] et [!UICONTROL AMO Cost] mesures par compte, qui est une dimension Publicité Adobe, vous verrez alors le total [!UICONTROL AMO Clicks] et [!UICONTROL AMO Cost] par compte.
 

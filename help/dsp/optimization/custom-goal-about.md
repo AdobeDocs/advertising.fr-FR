@@ -2,8 +2,8 @@
 title: À propos des objectifs personnalisés
 description: Découvrez les objectifs personnalisés pour définir vos événements de succès dans des modules optimisés pour le CPA le plus bas ou le ROAS le plus élevé.
 feature: DSP Optimization
-exl-id: 623cb1ef-85ab-4535-aa3a-8e6ec8ae15ee
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 806450b9-ce32-4f5c-a2ac-ba8e435ce36d
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%

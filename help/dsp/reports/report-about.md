@@ -2,8 +2,8 @@
 title: À propos des rapports personnalisés
 description: Découvrez les options de création manuelle de rapports personnalisés ou d’utilisation de modèles de rapports préconfigurés.
 feature: DSP Custom Reports
-exl-id: 59fc1894-1c9d-451d-b644-5640dd311547
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 321062f3-754b-4379-9587-003862c4221b
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%

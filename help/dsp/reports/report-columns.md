@@ -2,10 +2,10 @@
 title: Colonnes de rapport disponibles
 description: Reportez-vous à la description des colonnes disponibles dans les rapports personnalisés.
 feature: DSP Custom Reports
-exl-id: c96e46ae-2fb2-4364-9c51-f160c00693ba
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1660'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | La somme de [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)], et [!UICONTROL Billable Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | Pourcentage de vues qui ont visionné l’ensemble de la publicité. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | Nombre de vues qui ont visionné l’ensemble de la publicité. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | Pourcentage d’impressions affichables ayant visionné l’ensemble de la publicité. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | Achèvement affichable à 100 % (%)] | Pourcentage d’impressions affichables[!UICONTROL ayant visionné l’intégralité de la publicité. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completion Rate] | Pourcentage de vues qui ont consulté au moins un quartile de la publicité. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completions] | Nombre de vues qui ont consulté au moins un quartile de la publicité. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 50% Completion Rate] | Pourcentage de vues qui ont visionné au moins deux quartiles de la publicité. |

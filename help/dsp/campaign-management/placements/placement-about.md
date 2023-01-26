@@ -2,8 +2,8 @@
 title: À propos de la gestion des emplacements dans les DSP publicitaires
 description: Découvrez la gestion des emplacements.
 feature: DSP Placements
-exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -49,5 +49,6 @@ Pour chaque emplacement, vous pouvez ouvrir une vue détaillée ([la valeur [!UI
 >* [Création d’un emplacement](placement-create.md)
 >* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)
->* [Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)
+
+   >*[Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)
 

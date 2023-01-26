@@ -2,8 +2,8 @@
 title: Paramètres d’affichage des publicités natives
 description: Consultez la description des paramètres d’annonce disponibles pour les annonces d’affichage natives.
 feature: DSP Ads
-exl-id: 3ae59e63-ae64-41b2-8734-3df2da020c7c
-source-git-commit: 23cb7930ac8cd73a489e52992e86902c88364752
+exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
