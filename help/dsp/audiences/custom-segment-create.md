@@ -3,7 +3,7 @@ title: Création et implémentation d’un segment personnalisé
 description: Découvrez comment créer et mettre en oeuvre un segment personnalisé pour effectuer le suivi des utilisateurs exposés aux publicités ou des utilisateurs qui visitent vos pages web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
    1. Revenir à **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
-   2. Placez le curseur sur la ligne de segment et cliquez sur **[!UICONTROL Get Pixel]**.
+   1. Placez le curseur sur la ligne de segment et cliquez sur **[!UICONTROL Get Pixel]**.
 
       * Pour effectuer le suivi des visiteurs de bureau et mobiles sur une page web :
 

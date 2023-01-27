@@ -3,7 +3,7 @@ title: Duplication d’une publicité
 description: Découvrez comment dupliquer une publicité.
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Vous pouvez dupliquer une publicité dans la même campagne.
 
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
 
-1. En regard du nom de la publicité, cliquez sur  **... >[!UICONTROL Duplicate]**.
+1. En regard du nom de la publicité, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. Spécifiez les nouveaux paramètres d’annonce :
 

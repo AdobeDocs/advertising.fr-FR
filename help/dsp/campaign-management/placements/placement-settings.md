@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '3418'
+source-wordcount: '3416'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Insérez un code postal par ligne ou saisissez plusieurs valeurs séparées par 
 
    Vous pouvez rechercher la liste par mot-clé, clé, identifiant de transaction ou balise personnalisée.
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Tous [premium, non garanti [!UICONTROL On Demand] stock](/help/dsp/inventory/on-demand-inventory-about.md) (ou [!UICONTROL On Demand] [!DNL] Offres Roku pour [!DNL Roku] emplacements) auxquels vous vous êtes abonné [!DNL DSP]. Vous pouvez inclure et exclure [!UICONTROL On Demand] inventaire.
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Tous [premium, non garanti [!UICONTROL On Demand] stock](/help/dsp/inventory/on-demand-inventory-about.md) (ou [!UICONTROL On Demand] [!DNL Roku] offres [!DNL Roku] emplacements) auxquels vous vous êtes abonné [!DNL DSP]. Vous pouvez inclure et exclure [!UICONTROL On Demand] inventaire.
 
    Vous pouvez afficher la liste par source ou par flux. Lorsque vous affichez la liste par flux, vous pouvez effectuer des recherches par nom de flux, clé de flux ou par région d’éditeur, balise de catégorie ou balise de caractéristique sélectionnée.
 
@@ -188,14 +188,14 @@ Pour définir le ciblage des stocks :
    1. Cochez la case en regard du nom du type de stock.
    1. (Facultatif) Modifiez les sources pour inclure :
       1. Cliquez sur ![Modifier](/help/dsp/assets/edit.png).
-      1. ([!UICONTROL Public] et [!UICONTROL On Demand] inventory) Click *[!UICONTROL *View by Source]** ou **[!UICONTROL View by Feed]** pour modifier la manière dont les sources sont répertoriées.
+      1. ([!UICONTROL Public] et [!UICONTROL On Demand] inventory) Click **[!UICONTROL View by Source]** ou **[!UICONTROL View by Feed]** pour modifier la manière dont les sources sont répertoriées.
       1. (Le cas échéant) Filtrez l’inventaire selon vos besoins.
       1. Indiquez les sources à inclure et à exclure :
          * Pour inclure un [!UICONTROL Public] ou [!UICONTROL On Demand] source, cliquez sur **[!UICONTROL Include]** en regard du nom de la source.
          * À inclure [!UICONTROL Private] sources :
             * Pour inclure tout le stock dans une transaction, cliquez sur **[!UICONTROL Include all]** en regard du nom de l’opération.
             * Pour inclure une source de stock individuelle, développez le nom de l’opération, puis cochez la case en regard du nom de la source.
-         * Pour exclure une [!UICONTROL Public] ou [!UICONTROL On ] source, cliquez sur **[!UICONTROL Exclude]** en regard du nom de la source.
+         * Pour exclure une [!UICONTROL Public] ou [!UICONTROL On source], cliquez sur **[!UICONTROL Exclude]** en regard du nom de la source.
    1. (Facultatif) Pour télécharger un fichier CSV contenant les informations de ciblage à l’emplacement de téléchargement de votre navigateur, cliquez sur **[!UICONTROL Save & Export]**.
    1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -311,6 +311,7 @@ Vous pouvez éventuellement exporter la liste des sites ciblés et bloqués sous
 **[!UICONTROL Secondary Cap]:** (Facultatif) disponible lorsque vous incluez une valeur numérique [!UICONTROL Placement Cap]) Une limitation supplémentaire dans les limites de la limite de placement Principale. Sélectionnez le nombre d’impressions et la période (3 par 12 heures, par exemple).
 
 **[!UICONTROL Day Parting]:** (Facultatif) Jours spécifiques de la semaine et heure d’exécution des publicités. Pour définir des intervalles de créneaux horaires :
+
 1. Cliquez sur ![Modifier](/help/dsp/assets/edit.png).
 1. Sélectionnez le fuseau horaire applicable.
 1. Spécifiez les intervalles :

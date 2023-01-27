@@ -3,7 +3,7 @@ title: Partage d’une audience réutilisable
 description: Découvrez comment partager une audience réutilisable avec d’autres annonceurs disponibles pour votre compte.
 feature: DSP Audiences
 exl-id: c0369efe-464d-43d1-9b21-1113a38fc9bb
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Une fois que vous partagez une audience, vous ne pouvez plus arrêter de la part
 
 1. Placez le curseur sur la ligne de l’audience et cliquez sur **[!UICONTROL Share]**.
 
-1. Sélectionnez l’option pour **[!UICONTROL Share with all advertisers in my account ]**.
+1. Sélectionnez l’option pour **[!UICONTROL Share with all advertisers in my account]**.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 

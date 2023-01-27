@@ -2,7 +2,7 @@
 title: Modification de votre profil utilisateur
 description: Découvrez comment modifier votre profil utilisateur.
 exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -22,6 +22,7 @@ Votre profil de compte comprend vos informations de connexion et d’autres info
       1. En regard de l’élément existant **[!UICONTROL Email address]**, cliquez sur **[!UICONTROL Edit]**.
 
       1. Saisissez la nouvelle adresse email et le mot de passe existant du compte utilisateur.
+
       1. Cliquez sur **[!UICONTROL Continue]**.
    * Pour modifier le mot de passe du compte utilisateur :
 

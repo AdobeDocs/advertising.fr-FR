@@ -3,7 +3,7 @@ title: Joindre une publicité à un emplacement
 description: Découvrez comment joindre une publicité à un emplacement.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
 
-1. En regard du nom de la publicité, cliquez sur  **... >[!UICONTROL Add to Placements]**.
+1. En regard du nom de la publicité, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
 1. Dans l’écran Placer la publicité , effectuez l’une des opérations suivantes :
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
 
-1. En regard du nom de l’emplacement, cliquez sur  **... > [!UICONTROL Attach Ads].**
+1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
 1. Dans le [!UICONTROL Add Ad to Placement] effectuez l’une des opérations suivantes :
 
@@ -86,6 +86,7 @@ ht-degree: 1%
       1. Cliquez sur **[!UICONTROL Select an Ad].**
 
       1. Spécifiez les publicités :
+
          * Pour ajouter une publicité à la fois :
 
             1. En regard du nom de la publicité, cliquez sur **[!UICONTROL Select].**

@@ -3,7 +3,7 @@ title: Questions fréquentes à propos de Campaign Management
 description: En savoir plus sur la gestion des campagnes, notamment la période de latence des modifications et ce qui se passe lorsque vous apportez des modifications au budget pendant un vol.
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: Affichage d’un rapport détaillé pour une campagne
 description: Découvrez comment ouvrir un rapport au niveau de la campagne avec des sections sur la géographie, l’appareil, la visibilité et les données de performances de l’audience.
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -16,8 +16,8 @@ Le <!--legacy --> le rapport au niveau de la campagne comprend une présentation
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Effectuez l’une des opérations suivantes :
-   * Cliquez sur **... >[!UICONTROL View report]** dans la barre d’outils supérieure droite.
-   * En regard du nom de la campagne, cliquez sur  **... >[!UICONTROL View report]**.
+   * Cliquez sur **[!UICONTROL ...]** > **[!UICONTROL View report]** dans la barre d’outils supérieure droite.
+   * En regard du nom de la campagne, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >

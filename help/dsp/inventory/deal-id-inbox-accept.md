@@ -3,7 +3,7 @@ title: Accepter un accord dans la [!UICONTROL Deal ID Inbox]
 description: Découvrez comment accepter une transaction privée que vous avez déjà négociée avec un éditeur sur [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom de [!DNL AdX]), and [!DNL Magnite DV+] (anciennement [!DNL Rubicon]) à l’aide de la boîte de réception Deal ID.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%

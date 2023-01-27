@@ -3,7 +3,7 @@ title: Afficher un rapport détaillé pour un fichier privé, [!UICONTROL On Dem
 description: Découvrez comment ouvrir un rapport au niveau de l’opération.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
 exl-id: 8a2e142e-0a05-47c7-9888-935665f06ad3
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
