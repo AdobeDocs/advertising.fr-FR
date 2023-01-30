@@ -3,7 +3,7 @@ title: Devises prises en charge
 description: Consultez la liste des devises prises en charge.
 feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: f1beceb854c6ccb013897b79560d0329a9c0bc5a
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -49,3 +49,4 @@ Adobe Advertising prend en charge les devises suivantes.
 ## [!DNL Adobe Advertising Search]
 
 Toutes les devises prises en charge par les moteurs de recherche. Il s’agit de la même chose que [pris en charge par [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).
+
