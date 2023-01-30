@@ -3,7 +3,7 @@ title: Création d’une source d’audience pour activer les audiences proprié
 description: Découvrez comment créer une source pour importer des audiences dans votre compte ou un compte publicitaire.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -40,13 +40,13 @@ Créez une source pour importer des audiences dans votre compte DSP ou un compte
 
 1. Dans Experience Platform, créez une connexion de destination de DSP Advertising à l’aide du [!UICONTROL Source Key] qui a été généré dans les paramètres source DSP.
 
-   Pour obtenir des instructions sur l’activation de la connexion DSP destination, la sélection de segments et l’accès aux autorisations de contrôle, voir &quot;[Connexion Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).&quot;
+   Pour obtenir des instructions sur l’activation de la connexion DSP destination, la sélection de segments et l’accès aux autorisations de contrôle, voir &quot;[Connexion Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >
 >* [Paramètres de la source d’audience](source-settings.md)
 >* [À propos de l’activation de segments authentifiés à partir des sources d’audience](source-about.md)
 >* [Activation des segments authentifiés à partir de partenaires d’identification durables](source-durable-id.md)<!-- title?-->
->* [Connexion Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
+>* [Connexion Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [À propos de la gestion de l’audience](/help/dsp/audiences/audience-about.md)
 
