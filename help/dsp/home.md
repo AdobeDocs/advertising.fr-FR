@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 95b704237370057d60cef28013907da8526f32c9
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
 | 25 janvier 2023 | Offres | Une nouvelle colonne de dépense &quot;Traitement d’impression PG&quot; dans la vue Inventaire > Transactions affiche un traitement pour les offres garanties. | Voir &quot;[Modifier un mode Colonnes personnalisé](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
+| 4 janvier 2023 | [!UICONTROL Campaigns] | Un journal des modifications, qui affiche les modifications effectuées au cours de la période sélectionnée, est désormais disponible pour chaque campagne. Les journaux des modifications étaient déjà disponibles pour les modules et les emplacements. | Voir &quot;[Affichage du journal des modifications d’une campagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot;.&quot; |
 | 14 décembre 2022 | Emplacements, Publicités | (Fonctionnalité Ouvrir la version bêta) Nouveau &quot;[!UICONTROL Universal Video]&quot;les emplacements et les publicités vous permettent de cibler plusieurs environnements d’appareils pour l’inventaire VPAID et VAST à l’aide d’un seul emplacement vidéo.<br><br>Les emplacements vidéo universels incluent un paramètre &quot;Environnement de périphérique&quot; pour spécifier les cibles de type d’appareil ([!UICONTROL Desktop], [!UICONTROL Mobile], et [!UICONTROL Connected TV]). Les publicités vidéo universelles ne peuvent être liées qu’à des emplacements vidéo universels.<br><br>Les rapports personnalisés incluent la nouvelle dimension de niveau emplacement &quot;Environnement du périphérique&quot;. | Voir &quot;[Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)&quot; et &quot;[Colonnes de rapport disponibles](/help/dsp/reports/report-columns.md).&quot;<br><br>Voir aussi &quot;[Paramètres de publicité vidéo universelle](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot; et &quot;[Créer une publicité](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | 23 novembre 2022 | Offres | Le [!UICONTROL Inventory] > [!UICONTROL Deals] inclut désormais &quot;[!UICONTROL Deal Health]&quot;, qui indique l’état d’intégrité de chaque transaction privée : &quot;[!UICONTROL Success],&quot;[!UICONTROL Warning],&quot;[!UICONTROL Critical],&quot; ou &quot;[!UICONTROL Unavailable].&quot; Vous pouvez cliquer sur l’état pour afficher plus de détails, notamment les raisons pour lesquelles une transaction ne fonctionne pas ou ne dépense pas comme prévu, ainsi que les étapes de résolution des problèmes potentiels. | — |
 | 27 octobre 2022 | [!UICONTROL Campaigns] | Un journal des modifications, qui affiche les modifications effectuées au cours de la période sélectionnée, est désormais disponible pour chaque package et emplacement. | Voir &quot;[Affichage du journal des modifications d’un module](/help/dsp/campaign-management/packages/package-change-log.md)&quot; et &quot;[Affichage du journal des modifications d’un emplacement](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |

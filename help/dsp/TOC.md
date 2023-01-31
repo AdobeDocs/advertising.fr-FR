@@ -2,16 +2,16 @@
 type: Documentation
 role: User, Admin
 cloud: Experience Cloud
-solution: Advertising Cloud
+solution: Advertising, Advertising Cloud
 product: advertising cloud
 user-guide-title: Guide d’DSP de publicité
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide de DSP
 index: true
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 5%
       + [Dupliquer une campagne](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
       + [Affichage d’un rapport détaillé pour une campagne](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
       + [Archivage ou désarchivage d’une campagne](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
+      + [Affichage du journal des modifications d’une campagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [Paramètres de campagne](/help/dsp/campaign-management/campaigns/campaign-settings.md)
       + [Liste de contrôle de Campaign Launch](/help/dsp/campaign-management/campaign-launch-checklist.md)
    + Packages {#packages}

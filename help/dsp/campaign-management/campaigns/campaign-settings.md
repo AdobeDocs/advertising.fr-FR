@@ -3,9 +3,9 @@ title: Paramètres de campagne
 description: Reportez-vous à la description des paramètres de campagne disponibles.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -150,4 +150,5 @@ Pour estimer les impôts à retenir :
 >* [À propos de Campaign Management](campaign-about.md)
 >* [Création d’une campagne](campaign-create.md)
 >* [Modifier une campagne](campaign-edit.md)
+>* [Affichage du journal des modifications d’une campagne](campaign-change-log.md)
 
