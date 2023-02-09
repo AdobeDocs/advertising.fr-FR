@@ -3,9 +3,9 @@ title: 'Prise en charge de Adobe Advertising pour le California Consumer Privacy
 description: Découvrez les types de requêtes de données pris en charge, les valeurs de configuration et de champ requises, ainsi que des exemples de requêtes d’accès aux API à l’aide d’ID de produit hérités et de champs de données renvoyés.
 feature: CCPA
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: bc0015c134406fb020370def45a8588b5032587e
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---

@@ -3,9 +3,9 @@ title: 'Prise en charge de Adobe Advertising pour le California Consumer Privacy
 description: Découvrez la prise en charge de la capture des demandes d’opposition à la vente des consommateurs.
 feature: CCPA
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: cce2d73880fbc4b185b426f2e18c1b071dd511a1
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---

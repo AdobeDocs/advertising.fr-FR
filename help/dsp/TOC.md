@@ -4,19 +4,19 @@ role: User, Admin
 cloud: Experience Cloud
 solution: Advertising, Advertising Cloud
 product: advertising cloud
-user-guide-title: Guide d’DSP de publicité
+user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide de DSP
 index: true
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 85f748bae0efb52e96d8993dcc482b1b969fe6fe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '879'
+ht-degree: 6%
 
 ---
 
 
-# Guide d’DSP de publicité {#dsp}
+# Guide d’Advertising DSP {#dsp}
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
       + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
@@ -35,7 +35,7 @@ ht-degree: 0%
       + [Solutions multi-appareils](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Financement du compte](/help/dsp/introduction/billing/account-funding.md)
    + [Devises prises en charge](/help/dsp/currency.md)
-   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Assistance en matière de confidentialité des consommateurs et consommatrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Stratégies et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Solutions de mesure avancée](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
@@ -106,8 +106,8 @@ ht-degree: 0%
          + [Filtrage des données de campagne](/help/dsp/campaign-management/reports/campaign-data-filter.md)
          + [Tri d’une colonne](/help/dsp/campaign-management/reports/campaign-data-sort.md)
       + [Gestion des visualisations des données](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
-   + Correction des paramètres de positionnement d’une campagne à l’aide de feuilles de calcul {#qa-spreadsheet}
-      + [À propos de la correction des paramètres de positionnement d’une campagne à l’aide de feuilles de calcul](/help/dsp/campaign-management/qa/qa-about.md)
+   + Correction Des Paramètres De Placement À L’Aide De Feuilles De Calcul {#qa-spreadsheet}
+      + [À propos de la correction des paramètres de positionnement à l’aide de feuilles de calcul](/help/dsp/campaign-management/qa/qa-about.md)
       + [Télécharger les paramètres de positionnement d’une campagne](/help/dsp/campaign-management/qa/qa-sheet-download.md)
       + [Télécharger les paramètres de positionnement d’une campagne](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [Colonnes dans les feuilles de calcul téléchargées/téléchargées](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
@@ -126,7 +126,7 @@ ht-degree: 0%
    + [Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)
 + Audiences {#audiences}
    + [À propos de la gestion de l’audience](/help/dsp/audiences/audience-about.md)
-   + Gestion des segments {#segments}
+   + Segments {#segments}
       + [Création et implémentation d’un segment personnalisé](/help/dsp/audiences/custom-segment-create.md)
       + [!UICONTROL CCPA Opt-out-of-Sale] Segments {#ccpa-opt-out-of-sale-segments}
          + [A propos [!UICONTROL CCPA Opt-out-of-Sale] Segments](/help/dsp/audiences/ccpa-opt-out-about.md)
@@ -136,7 +136,7 @@ ht-degree: 0%
       + [Partage ou arrêt du partage d’un segment](/help/dsp/audiences/segment-share.md)
       + [Affichage des pixels de suivi pour un segment](/help/dsp/audiences/segment-view-pixels.md)
       + [Suppression d’un segment](/help/dsp/audiences/segment-delete.md)
-   + Gérer des audiences {#reusable-audiences}
+   + Audiences {#reusable-audiences}
       + [Création d’une audience réutilisable](/help/dsp/audiences/reusable-audience-create.md)
       + [Duplication d’une audience réutilisable](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Modification d’une audience réutilisable](/help/dsp/audiences/reusable-audience-edit.md)
@@ -147,7 +147,7 @@ ht-degree: 0%
       + [Suppression d’une audience réutilisable](/help/dsp/audiences/reusable-audience-delete.md)
       + [Paramètres d’audience](/help/dsp/audiences/audience-settings.md)
       + [Syntaxe de la logique de segment d’audience](/help/dsp/audiences/audience-segment-logic-syntax.md)
-   + Gérer les sources {#sources}
+   + Sources {#sources}
       + [À propos de l’activation de segments authentifiés à partir des sources d’audience](/help/dsp/audiences/sources/source-about.md)
       + [Activation des segments authentifiés à partir de partenaires d’ID durables](/help/dsp/audiences/sources/source-durable-id.md)
       + [Création d’une source d’audience pour activer les audiences propriétaires](/help/dsp/audiences/sources/source-create.md)

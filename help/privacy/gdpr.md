@@ -3,9 +3,9 @@ title: Prise en charge de la publicité Adobe pour le Règlement général sur l
 description: Découvrez les types de requêtes de données pris en charge, les valeurs de configuration et de champ requises, ainsi que des exemples de requêtes d’accès aux API utilisant des ID de produit hérités et des champs de données renvoyés.
 feature: GDPR
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 99ebf339504e053578dc90dbde41437c5f3774f6
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
