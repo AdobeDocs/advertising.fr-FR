@@ -3,7 +3,7 @@ title: Prise en charge de la publicité Adobe pour le Règlement général sur l
 description: Découvrez les types de requêtes de données pris en charge, les valeurs de configuration et de champ requises, ainsi que des exemples de requêtes d’accès aux API utilisant des ID de produit hérités et des champs de données renvoyés.
 feature: GDPR
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 3761e54d954c2913f8cbe7fe8a77eb2b3c854f98
+source-git-commit: 7c5472ee97635039a635bcdbd4e0cc384fd04299
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Pour plus d’informations sur ce que le RGPD signifie pour votre entreprise, vo
 
 Adobe Experience Platform permet aux entreprises d’effectuer les tâches suivantes :
 
-* Accédez aux données au niveau du cookie d’un sujet de données ou aux données au niveau de l’ID d’appareil (pour les publicités dans les applications mobiles) dans {{search-product-name}}, [!DNL Creative], [!DNL DSP]ou [!DNL DCO].
+* Accédez aux données au niveau du cookie d’un sujet de données ou aux données au niveau de l’ID d’appareil (pour les publicités dans les applications mobiles) dans [!DNL Search], [!DNL Creative], [!DNL DSP]ou [!DNL DCO].
 * Suppression des données au niveau du cookie stockées dans [!DNL Search], [!DNL Creative], [!DNL DSP]ou [!DNL DCO] pour les sujets des données utilisant un navigateur ; ou supprimer des données au niveau de l’ID stockées dans [!DNL DSP] pour les sujets des données qui utilisent des applications sur des appareils mobiles.
 * Vérifiez l’état d’une ou de toutes les requêtes existantes.
 
