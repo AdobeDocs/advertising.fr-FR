@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 425a5f38582a0c603417b67a665a7919dc26e1ac
+source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
+| 15 février 2023 | [!UICONTROL Campaigns] | Les options permettant d’afficher les journaux des modifications sous forme de graphique et d’ajouter des notes à n’importe quelle entrée ne sont pas en version bêta. | Voir &quot;[Affichage du journal des modifications d’une campagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md), Voir &quot;[Affichage du journal des modifications d’un module](/help/dsp/campaign-management/packages/package-change-log.md),&quot; et Voir &quot;[Affichage du journal des modifications d’un emplacement](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 3 février 2023 | [!UICONTROL Campaigns] | (Fonctionnalités bêta) Vous pouvez désormais afficher les journaux des modifications sous forme de graphique et ajouter des notes à n’importe quelle entrée. | Voir &quot;[Affichage du journal des modifications d’une campagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md), Voir &quot;[Affichage du journal des modifications d’un module](/help/dsp/campaign-management/packages/package-change-log.md),&quot; et Voir &quot;[Affichage du journal des modifications d’un emplacement](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 25 janvier 2023 | [!UICONTROL Deals] | Une nouvelle colonne de dépense &quot;Traitement d’impression PG&quot; dans la vue Inventaire > Transactions affiche un traitement pour les offres garanties. | Voir &quot;[Modifier un mode Colonnes personnalisé](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 4 janvier 2023 | [!UICONTROL Campaigns] | Un journal des modifications, qui affiche les modifications effectuées au cours de la période sélectionnée, est désormais disponible pour chaque campagne. Les journaux des modifications étaient déjà disponibles pour les modules et les emplacements. | Voir &quot;[Affichage du journal des modifications d’une campagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot;.&quot; |
