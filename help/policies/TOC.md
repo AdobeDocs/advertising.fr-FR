@@ -16,7 +16,7 @@ ht-degree: 39%
 ---
 
 
-# Stratégies et directives d’Adobe Advertising  {#policies}
+# Stratégies et directives d’Adobe Advertising {#policies}
 
 + [Stratégie des exigences en matière de publicités](/help/policies/ad-requirements-policy.md)
 + [Instructions de segments d’intégrité acceptables](/help/policies/health-segment-guidelines.md)
