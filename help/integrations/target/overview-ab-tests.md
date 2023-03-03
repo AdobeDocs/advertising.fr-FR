@@ -2,9 +2,9 @@
 title: Configuration de tests A/B pour les publicités Adobe dans Adobe Target
 description: Découvrez comment configurer un test A/B dans [!DNL Target] pour votre DSP et [!DNL Search] publicités.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 69a829a7fda684fcb2d698427f3ef5772d11433d
+source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Dans le cas de Google Campaign Manager 360 ou d’une conversation par Flash, me
 
 * [Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Google Campaign Manager 360] Balises publicitaires](/help/integrations/analytics/macros-google-campaign-manager.md)
 
-Contactez votre équipe de compte DSP et le groupe de solutions Advertising (aac-advertising-solutions-group@adobe.com) pour récupérer la clé d’emplacement requise et finaliser la configuration, et pour vous assurer que chaque URL de clic publicitaire est renseignée avec la clé d’emplacement.
+Contactez votre équipe de compte d’Adobe et le groupe de solutions Advertising (aac-advertising-solutions-group@adobe.com) pour récupérer la clé d’emplacement requise et finaliser la configuration, et pour vous assurer que chaque URL de clic publicitaire est renseignée avec la clé d’emplacement.
 
 ## Étape 2 : Configuration de la structure d’affichage publicitaire à l’aide de l’Audience Manager {#view-through-framework}
 
@@ -166,7 +166,7 @@ Les instructions suivantes présentent des informations relatives au cas d’uti
    * Expérience B : Utilisez la variable [!DNL Target] interface utilisateur pour personnaliser le modèle de landing page en fonction des ressources incluses dans le test (titres, copie, positionnement des boutons et éléments créatifs, par exemple).
    >[!NOTE]
    >
-   >Par exemple, contactez votre équipe de compte pour des cas d’utilisation de test créatif pour les tests créatifs.
+   >Par exemple, contactez votre équipe de compte d’Adobe pour des cas pratiques de test créatif.
 
 ## Étape 4 : Configurez vos [!DNL Analytics for Target] Analysis Workspace dans [!DNL Analytics]
 

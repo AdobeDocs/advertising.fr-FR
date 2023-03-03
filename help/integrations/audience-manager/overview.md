@@ -3,9 +3,9 @@ title: Adobe des intégrations Advertising avec Adobe Audience Manager
 description: Découvrez les différentes façons dont Adobe Advertising peut échanger des données avec Adobe Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Within [!DNL Search], vous pouvez créer des [!DNL Google Ads] Les clients Googl
 
 [Audiences de correspondance client provenant d’ID utilisateur](https://support.google.com/google-ads/answer/9199250) fonctionne comme les audiences basées sur des balises de site web, mais un ID non lié aux PII est attribué aux membres d’audience uniques pour des avantages distincts par rapport aux audiences standard basées sur les balises de client et de site web.
 
-Pour créer les ID utilisateur nécessaires, vous devez utiliser une balise JavaScript Adobe Advertising <!-- with a user ID parameter -->sur vos sites web. Contactez votre [!DNL Search] pour plus d’informations.
+Pour créer les ID utilisateur nécessaires, vous devez utiliser une balise JavaScript Adobe Advertising <!-- with a user ID parameter -->sur vos sites web. Pour plus d’informations, contactez votre équipe de compte d’Adobe.
 
 ![processus de création de segments](/help/integrations/assets/ad_search_user_id_pic.png)
 
