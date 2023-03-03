@@ -3,9 +3,9 @@ title: Création d’un objectif personnalisé
 description: Création d’un objectif personnalisé
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 2060ab016917a69ef8bf718d339a35eb62b1269e
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Vous pouvez créer des objectifs personnalisés sous la forme *objectifs* dans [!DNL Adobe Advertising Search].
 
-Pour créer un objectif personnalisé, le compte DSP doit être associé à un [!DNL Search] avec le même ID d’organisation Adobe Experience Cloud, depuis le [!DNL Search] paramètres du client. Si votre compte DSP n’est pas lié à un [!DNL Search] , contactez votre [!DNL Adobe] l&#39;équipe du compte.
+Pour créer un objectif personnalisé, le compte DSP doit être associé à un [!DNL Search] avec le même ID d’organisation Adobe Experience Cloud, depuis le [!DNL Search] paramètres du client. Si votre compte DSP n’est pas lié à un [!DNL Search] contactez votre équipe de compte d’Adobe.
 
 >[!TIP]
 >

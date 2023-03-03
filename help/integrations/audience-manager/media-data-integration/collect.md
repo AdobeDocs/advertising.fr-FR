@@ -3,9 +3,9 @@ title: Collecte de données de clics et d’impressions à partir de campagnes A
 description: Découvrez comment capturer des impressions basées sur des cookies et des événements de clic à partir de publicités Advertising DSP à l’aide de pixels d’Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Dans Audience Manager, créez une [source de données](https://experienceleague.
 
 ## Étape 2 : Implémentation des pixels d’événement d’impression et de clic sur les pages web {#implement-dsp-pixels}
 
-Les annonceurs peuvent créer et implémenter des balises d’événement pour leurs propres marques. Si nécessaire, contactez votre consultant Adobe Audience Manager ou votre [!DNL Adobe] gestionnaire de compte pour l’assistance.
+Les annonceurs peuvent créer et implémenter des balises d’événement pour leurs propres marques. Si nécessaire, contactez votre consultant Adobe Audience Manager ou votre équipe chargée du compte Adobe pour obtenir de l’aide.
 
 >[!NOTE]
 >

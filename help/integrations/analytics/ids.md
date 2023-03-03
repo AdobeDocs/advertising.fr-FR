@@ -3,9 +3,9 @@ title: Adobe des identifiants publicitaires utilisés par [!DNL Analytics]
 description: Adobe des identifiants publicitaires utilisés par [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ où :
 * `{userid}` est l’identifiant utilisateur numérique unique attribué par Adobe Advertising à l’annonceur.
 * `{sid}` est l’identifiant numérique utilisé par Adobe Advertising pour le réseau publicitaire spécifié, tel que `3` pour [!DNL Google Ads] ou `10` pour [!DNL Microsoft Advertising].
 
-Vous trouverez ci-dessous les formats AMO ID complets pour quelques réseaux publicitaires. Pour les formats AMO ID pour d’autres réseaux publicitaires, contactez votre [!DNL Adobe] l&#39;équipe du compte.
+Vous trouverez ci-dessous les formats AMO ID complets pour quelques réseaux publicitaires. Pour les formats AMO ID pour d’autres réseaux publicitaires, contactez votre équipe de compte Adobe.
 
 Format AMO ID pour [!DNL Google Ads]:
 

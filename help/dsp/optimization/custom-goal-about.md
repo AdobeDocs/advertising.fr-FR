@@ -3,9 +3,9 @@ title: À propos des objectifs personnalisés
 description: Découvrez les objectifs personnalisés pour définir vos événements de succès dans des modules optimisés pour le CPA le plus bas ou le ROAS le plus élevé.
 feature: DSP Optimization
 exl-id: 806450b9-ce32-4f5c-a2ac-ba8e435ce36d
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Chaque objectif personnalisé comprend une ou plusieurs mesures, ou *propriété
 >[!NOTE]
 >
 >* [!DNL Analytics] les dimensions et les segments ne sont pas disponibles pour l’optimisation Adobe Advertising.
->* Pour utiliser les événements Analytics dans DSP, utilisez [!DNL Adobe] l’équipe du compte pour configurer une intégration au niveau de l’annonceur.
+>* Pour utiliser les événements Analytics dans DSP, demandez à votre équipe de compte d’Adobe de configurer une intégration au niveau de l’annonceur.
 >* [!DNL Analytics] les événements personnalisés suivent cette convention d’affectation des noms : `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemple : `custom_event_16_examplersid`
 
 

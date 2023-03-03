@@ -3,9 +3,9 @@ title: Codes d’erreur pour [!DNL FreeWheel] Envois de publicités
 description: Référencez les codes d’erreur renvoyés pour les envois d’annonces à [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '684'
 ht-degree: 2%
 
 ---
@@ -33,13 +33,13 @@ Les messages d’erreur relatifs aux envois d’annonces ayant échoué peuvent 
 
 | Code | Signification | Description | Étapes suivantes |
 |--- |--- |--- |--- |
-| 401 | Non autorisé | Informations d’accès incorrectes, manquantes ou non valides. | Contactez votre [!DNL Adobe] l&#39;équipe du compte. |
-| 403 | Interdit | Le serveur a compris la demande mais refuse de l’autoriser. | Contactez votre [!DNL Adobe] l&#39;équipe du compte. |
-| 404 | Introuvable | La ressource que vous avez demandée n’est pas disponible. Si l’ID créatif est introuvable dans l’opération du PUT, un 404 est renvoyé. | Contactez votre [!DNL Adobe] l&#39;équipe du compte. |
-| 405 | Méthode non autorisée | Une requête d’une ressource a été effectuée à l’aide d’une méthode de requête non prise en charge par cette ressource (par exemple, en utilisant GET sur une méthode qui nécessite l’envoi de données par un POST ou en utilisant PUT sur une ressource en lecture seule). | Contactez votre [!DNL Adobe] l&#39;équipe du compte. |
-| 408 | Délai d’expiration de la requête | Un délai d’expiration s’est produit pendant le traitement de cette requête. Les dépassements de délai sont généralement dus à des demandes simultanées d’accès exclusif à certaines ressources. | Soumettez à nouveau la demande lorsque vous recevez ce statut. Si le problème persiste, contactez votre [!DNL Adobe] l&#39;équipe du compte. |
-| 422 | Entité non traitable | Ressource non valide. Cette erreur se produit lorsque le corps de la requête n’est pas valide ou que la ressource créée/mise à jour est non valide (par exemple, si l’ID de transaction est introuvable). Voir [Erreurs de l’API 422 de FreeWheel](#freewheel-422-errors) pour plus d’informations. | Contactez votre [!DNL Adobe] l&#39;équipe du compte. |
-| 500 | Erreur interne du serveur | Erreur du système API. | Contactez votre [!DNL Adobe] l&#39;équipe du compte. |
+| 401 | Non autorisé | Informations d’accès incorrectes, manquantes ou non valides. | Contactez votre équipe de compte d’Adobe. |
+| 403 | Interdit | Le serveur a compris la demande mais refuse de l’autoriser. | Contactez votre équipe de compte d’Adobe. |
+| 404 | Introuvable | La ressource que vous avez demandée n’est pas disponible. Si l’ID créatif est introuvable dans l’opération du PUT, un 404 est renvoyé. | Contactez votre équipe de compte d’Adobe. |
+| 405 | Méthode non autorisée | Une requête d’une ressource a été effectuée à l’aide d’une méthode de requête non prise en charge par cette ressource (par exemple, en utilisant GET sur une méthode qui nécessite l’envoi de données par un POST ou en utilisant PUT sur une ressource en lecture seule). | Contactez votre équipe de compte d’Adobe. |
+| 408 | Délai d’expiration de la requête | Un délai d’expiration s’est produit pendant le traitement de cette requête. Les dépassements de délai sont généralement dus à des demandes simultanées d’accès exclusif à certaines ressources. | Soumettez à nouveau la demande lorsque vous recevez ce statut. Si le problème persiste, contactez votre équipe de compte d’Adobe. |
+| 422 | Entité non traitable | Ressource non valide. Cette erreur se produit lorsque le corps de la requête n’est pas valide ou que la ressource créée/mise à jour est non valide (par exemple, si l’ID de transaction est introuvable). Voir [Erreurs de l’API 422 de FreeWheel](#freewheel-422-errors) pour plus d’informations. | Contactez votre équipe de compte d’Adobe. |
+| 500 | Erreur interne du serveur | Erreur du système API. | Contactez votre équipe de compte d’Adobe. |
 
 {style=&quot;table-layout:auto&quot;}
 

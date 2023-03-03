@@ -3,9 +3,9 @@ title: Solutions multi-appareils
 description: En savoir plus sur les fonctionnalités multi-appareils.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Avec l’attribution basée sur les personnes, vous pouvez attribuer des convers
 
 ### Activation de la mesure d’attribution basée sur les personnes
 
-Si vous souhaitez activer la mesure d’attribution entre appareils, contactez votre [!DNL Adobe] l&#39;équipe du compte.
+Si vous souhaitez activer la mesure d’attribution entre appareils, contactez votre équipe de compte d’Adobe.
 
 ### Configuration des rapports de conversion pour l’attribution des conversions entre appareils
 

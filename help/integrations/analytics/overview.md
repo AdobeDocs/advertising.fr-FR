@@ -3,9 +3,9 @@ title: Présentation de [!DNL Analytics for Advertising]
 description: Présentation de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Principaux avantages :
 
 Pour utiliser [!DNL Analytics] en tant qu’outil de reporting multimédia payant, votre entreprise a besoin d’une connexion Experience Cloud avec accès à Analysis Workspace. Votre équipe Adobe Advertising vous aidera à mapper vos données Adobe Advertising à des suites de rapports individuelles dans Analysis Workspace. Vous pouvez envoyer des données Adobe Advertising à n’importe quelle suite de rapports, mais vous devez connaître les suites de rapports qui ont été mappées à Adobe Advertising et celles qui ne l’ont pas fait. Selon la suite de rapports, cela peut modifier les données signalées.
 
-[Adobe des identifiants publicitaires dans [!DNL Analytics]](ids.md) fonctionne comme les autres eVars, avec une expiration personnalisée et persistante. Par défaut, l’intervalle de recherche en amont des attributions est défini sur 60 jours pendant la mise en oeuvre d’Adobe Advertising. Pour modifier ce paramètre, utilisez les [!DNL Adobe] l&#39;équipe du compte.
+[Adobe des identifiants publicitaires dans [!DNL Analytics]](ids.md) fonctionne comme les autres eVars, avec une expiration personnalisée et persistante. Par défaut, l’intervalle de recherche en amont des attributions est défini sur 60 jours pendant la mise en oeuvre d’Adobe Advertising. Pour modifier ce paramètre, contactez votre équipe de compte d’Adobe.
 
 Les dimensions Adobe Advertising sont ajoutées avec le suffixe &quot;(AMO ID)&quot; (par exemple, &quot;Type de publicité (AMO ID)&quot;). Voir &quot;[Adobe des mesures publicitaires dans Analysis Workspace](advertising-metrics-in-analytics.md)&quot; pour une liste des dimensions disponibles.
 

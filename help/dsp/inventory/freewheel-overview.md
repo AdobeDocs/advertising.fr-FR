@@ -3,9 +3,9 @@ title: Présentation de la configuration des contrats PG dans [!DNL Freewheel]
 description: Découvrez les conditions préalables et les étapes supplémentaires nécessaires à l’exécution de publicités pour des offres garanties par programmation avec les éditeurs sur [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Configuration d’offres garanties par la programmation avec les éditeurs sur [
 
 >[!PREREQUISITES]
 >
->Travaillez avec votre [!DNL Adobe] de l’équipe de compte pour vous assurer que [!DNL DSP] compte dispose des autorisations suivantes :
+>Collaborez avec votre équipe de compte d’Adobe pour vous assurer que votre [!DNL DSP] compte dispose des autorisations suivantes :
 >
 >* Autorisation d’utiliser la variable [!DNL FreeWheel] workflow garanti par la programmation, qui est requis pour envoyer une publicité pour une offre garantie par la programmation à [!DNL FreeWheel].
 >

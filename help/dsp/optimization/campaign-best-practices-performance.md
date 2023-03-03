@@ -3,9 +3,9 @@ title: Bonnes pratiques pour configurer des campagnes de performances
 description: Découvrez les bonnes pratiques pour configurer vos campagnes axées sur les performances, qui incluent des emplacements optimisés pour le CPA le plus bas ou le ROAS le plus élevé.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Pour optimiser l’échelle, utilisez [!UICONTROL Public] (Open Exchange) et [!U
 
 * **[!UICONTROL Device Targeting]**:
    * Inclure [!UICONTROL Computer], [!UICONTROL Mobile], et [!UICONTROL Tablet].
-   * Ne pas cibler [!UICONTROL Firefox] et [!UICONTROL Safari] en raison des limitations de ciblage et de mesure. Contactez votre [!DNL Adobe] équipe de compte pour en savoir plus [!DNL Adobe] prise en charge de [!DNL Safari ITP].
+   * Ne pas cibler [!UICONTROL Firefox] et [!UICONTROL Safari] en raison des limitations de ciblage et de mesure. Contactez votre équipe de compte d’Adobe pour plus d’informations sur [!DNL Adobe] prise en charge de [!DNL Safari ITP].
    * Si vous ciblez le trafic web mobile, désactivez tous les navigateurs mobiles, à l’exception de [!UICONTROL Chrome] et [!UICONTROL Edge].
 
 ### Sécurité des marques et qualité des médias

@@ -3,9 +3,9 @@ title: Fournisseurs de données tiers disponibles dans les DSP de publicité
 description: Consultez la liste de tous les fournisseurs de données tiers disponibles.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Les frais d’utilisation de chaque segment sont affichés en regard du nom du s
 * [!DNL TruSignal]
 * [!DNL Weborama]
 
-Pour plus d’informations sur l’importation de segments tiers personnalisés pour votre compte, contactez votre [!DNL Adobe] l&#39;équipe du compte.
+Pour plus d’informations sur l’importation de segments tiers personnalisés pour votre compte, contactez votre équipe de compte d’Adobe.
 
 >[!MORELIKETHIS]
 >

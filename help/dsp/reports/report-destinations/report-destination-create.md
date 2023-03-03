@@ -3,9 +3,9 @@ title: Création d’une destination de rapport
 description: Découvrez comment créer une destination pour la diffusion de rapports personnalisés.
 feature: DSP Custom Reports
 exl-id: 2a8d6cef-9c33-4483-ac1e-93778a231962
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '88'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> Si le rapport est configuré pour une diffusion sur n’importe quel type de FTP ou [!DNL Amazon S3] , vous ne recevrez pas de notifications si le rapport est annulé en raison d’erreurs. Si vous ne recevez pas les rapports attendus, contactez votre [!DNL Adobe] l&#39;équipe du compte pour savoir pourquoi.
+> Si le rapport est configuré pour une diffusion sur n’importe quel type de FTP ou [!DNL Amazon S3] , vous ne recevrez pas de notifications si le rapport est annulé en raison d’erreurs. Si vous ne recevez pas les rapports attendus, contactez votre équipe Compte Adobe pour en savoir plus.
 
 >[!MORELIKETHIS]
 >

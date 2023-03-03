@@ -3,9 +3,9 @@ title: 'Prise en charge de Adobe Advertising pour le California Consumer Privacy
 description: Découvrez la prise en charge de la capture des demandes d’opposition à la vente des consommateurs.
 feature: CCPA
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: cce2d73880fbc4b185b426f2e18c1b071dd511a1
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Vous pouvez récupérer des liens vers les rapports mensuels créés au cours de
 
 Cette fonctionnalité est disponible pour les organisations qui utilisent la variable [!DNL Trafficking API]. Consultez la documentation relative à la [!DNL Trafficking API] pour plus d’informations.
 
-Si votre entreprise n’utilise pas la variable [!DNL Trafficking API] mais est intéressé par plus d’informations, contactez votre [!DNL Adobe] l&#39;équipe du compte.
+Si votre entreprise n’utilise pas la variable [!DNL Trafficking API] mais pour plus d’informations, contactez votre équipe de compte d’Adobe.
 
 ## Annexe : Exemple [!UICONTROL CCPA Opt-Out-of-Sale] Demande d’utilisateurs d’API Privacy Service
 

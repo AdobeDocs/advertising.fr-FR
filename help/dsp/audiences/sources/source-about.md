@@ -3,9 +3,9 @@ title: À propos de l’activation de segments authentifiés à partir des sourc
 description: Découvrez comment ingérer des segments propriétaires à partir d’une plateforme de données client.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Pour plus d’informations sur les destinations, voir l’Experience Platform [G
 
 1. [Configurez une [!DNL Real-Time CDP] connexion de destination dans l’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).
 
-Pour obtenir une assistance supplémentaire, contactez votre [!DNL Adobe] équipe de compte ou `adcloud-support@adobe.com`.
+Pour obtenir une assistance supplémentaire, contactez votre équipe de compte d’Adobe ou `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

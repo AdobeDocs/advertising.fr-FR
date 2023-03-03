@@ -3,9 +3,9 @@ title: À propos des rapports personnalisés
 description: Découvrez les options de création manuelle de rapports personnalisés ou d’utilisation de modèles de rapports préconfigurés.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Vous pouvez générer les rapports une seule fois ou programmer leur génératio
 
 ## Rapports inter-comptes {#cross-account-reporting}
 
-Toute organisation disposant de plusieurs comptes DSP peut éventuellement activer des données inter-comptes dans des rapports personnalisés, en fonction des besoins de l’organisation. Par exemple, vous pouvez donner au compte A l’accès aux données du compte B et au compte B l’accès aux données du compte C (mais pas au compte A). Pour activer et configurer cette fonction, contactez votre [!DNL Adobe] l&#39;équipe du compte.
+Toute organisation disposant de plusieurs comptes DSP peut éventuellement activer des données inter-comptes dans des rapports personnalisés, en fonction des besoins de l’organisation. Par exemple, vous pouvez donner au compte A l’accès aux données du compte B et au compte B l’accès aux données du compte C (mais pas au compte A). Pour activer et configurer cette fonctionnalité, contactez votre équipe de compte d’Adobe.
 
 Une fois que la fonction est activée pour votre organisation, vous pouvez [filter](report-settings.md) l’un des types de rapports suivants par compte :  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)], et [!UICONTROL Conversion].
 

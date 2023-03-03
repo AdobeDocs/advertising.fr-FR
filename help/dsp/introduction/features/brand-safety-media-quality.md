@@ -3,9 +3,9 @@ title: Sécurité des marques et qualité des médias
 description: En savoir plus sur la sécurité de la marque et les fonctionnalités de qualité multimédia.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: '1354'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Lorsque vous incluez un site sur la liste des sites bloqués globalement comme c
 
 >[!NOTE]
 >
->Vous pouvez éventuellement contourner la liste des sites bloqués globaux pour les annonces d’affichage standard jointes à une transaction privée de confiance en activant le paramètre &quot;[!UICONTROL Allow unscreened sites]&quot; dans la variable [paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md). Si nécessaire, la variable [!DNL Adobe] l’équipe de compte peut également désactiver, de manière facultative, le blocage de site pour un accord public (au niveau de l’enchère) dans les paramètres de l’éditeur pour l’accord.
+>Vous pouvez éventuellement contourner la liste des sites bloqués globaux pour les annonces d’affichage standard jointes à une transaction privée de confiance en activant le paramètre &quot;[!UICONTROL Allow unscreened sites]&quot; dans la variable [paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md). Si nécessaire, l’équipe du compte d’Adobe peut également, de manière facultative, désactiver le blocage du site pour une transaction publique (au niveau de l’enchère) dans les paramètres de l’éditeur pour l’opération.
 
 #### Listes de sites bloqués au niveau du compte et des annonceurs
 
@@ -104,7 +104,7 @@ Tirez parti de nos intégrations tierces avec [!DNL Comscore], [!DNL DoubleVerif
 
 Vous pouvez définir des contrôles par défaut de blocage des fraudes avant offre pour chaque annonceur.<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, puis éventuellement [personnaliser les paramètres de chaque emplacement ;](/help/dsp/campaign-management/placements/placement-settings.md). Des frais supplémentaires peuvent s’appliquer lorsque vous utilisez cette fonction.
 
-Pour plus d’informations sur les fonctionnalités, contactez directement votre fournisseur préféré ou contactez votre [!DNL Adobe] l&#39;équipe du compte.
+Pour plus d’informations sur les fonctionnalités, contactez directement votre fournisseur préféré ou contactez votre équipe de compte d’Adobe.
 
 ![Logo Comscore](/help/dsp/assets/comscore-logo.png) ![Logo DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logo Integral Ad Science](/help/dsp/assets/ias-logo.png) ![Logo Peer39](/help/dsp/assets/peer39-logo.png)
 
@@ -126,7 +126,7 @@ Pour créer des segments de rubrique personnalisés :
 
 * Pour créer une [!DNL Comscore] et créer des segments personnalisés, vous pouvez demander une connexion pour [!DNL Activation Segment Manager] at [https://agents.comscore.com](https://agents.comscore.com). Voir [[!DNL Comscore] centre d’aide](https://comscoreactivation.zendesk.com/hc/) pour obtenir des instructions complètes sur la configuration de segments personnalisés. Les frais pour les segments personnalisés sont visibles dans [!DNL Segment Manager] lors de leur création.
 
-* Pour commencer à utiliser [!DNL Oracle Data Cloud], contactez [!DNL Oracle Data Cloud] ou [!DNL Adobe] l&#39;équipe du compte.
+* Pour commencer à utiliser [!DNL Oracle Data Cloud], contactez [!DNL Oracle Data Cloud] ou votre équipe de compte d’Adobe.
 
 ![Logo Comscore](/help/dsp/assets/comscore-logo.png) ![Logo du graphique](/help/dsp/assets/oracle-grapeshot-logo.png)
 
@@ -138,7 +138,7 @@ Une fois que vous avez créé une [!DNL DoubleVerify] segment de sécurité de l
 
 Vous pouvez définir une [!DNL DoubleVerify] identifiant de segment pour chaque annonceur<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, puis éventuellement [activer ou désactiver [!UICONTROL Authentic Brand Safety] pour chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). DSP facture votre compte pour l’utilisation de l’identifiant de segment.
 
-Pour plus d’informations sur les fonctionnalités, contactez [!DNL DoubleVerify] directement ou contactez votre [!DNL Adobe] l&#39;équipe du compte.
+Pour plus d’informations sur les fonctionnalités, contactez [!DNL DoubleVerify] ou contactez directement votre équipe de compte d’Adobe.
 
 ![Logo DoubleVerify](/help/dsp/assets/doubleverify-logo.png)
 

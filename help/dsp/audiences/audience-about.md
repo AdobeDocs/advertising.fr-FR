@@ -3,9 +3,9 @@ title: À propos de la gestion de l’audience dans Advertising DSP
 description: Découvrez les fonctionnalités de gestion de l’audience.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ DSP est une destination intégrée pour [la valeur [!DNL Adobe Real-Time Custome
 
 DSP peut également importer des segments tiers personnalisés, y compris des combinaisons complexes de segments tiers. Vous pouvez fournir les segments à n’importe quel groupe d’annonceurs, si nécessaire.
 
-Contactez votre [!DNL Adobe] pour plus d’informations.
+Pour plus d’informations, contactez votre équipe de compte d’Adobe.
 
 ## Audiences disponibles en tant que cibles de placement
 
@@ -104,11 +104,11 @@ Le [!UICONTROL Segments] view répertorie également les types de segments suiva
 
 * Tous les segments propriétaires importés sont disponibles pour l’utilisateur.
 
-   Vous ne pouvez pas modifier ni partager les segments propriétaires qui ont été partagés avec vous. Contactez votre [!DNL Adobe] l’équipe de compte si vous devez partager des segments propriétaires avec d’autres utilisateurs.
+   Vous ne pouvez pas modifier ni partager les segments propriétaires qui ont été partagés avec vous. Contactez votre équipe de compte d’Adobe si vous devez partager des segments propriétaires avec d’autres utilisateurs.
 
 * Tous les segments tiers personnalisés sont disponibles pour l’utilisateur.
 
-   Vous ne pouvez pas modifier ni partager des segments tiers qui ont été partagés avec vous. Contactez votre [!DNL Adobe] si vous devez partager des segments tiers avec d’autres utilisateurs.
+   Vous ne pouvez pas modifier ni partager des segments tiers qui ont été partagés avec vous. Contactez votre équipe de compte d’Adobe si vous devez partager des segments tiers avec d’autres utilisateurs.
 
 >[!MORELIKETHIS]
 >

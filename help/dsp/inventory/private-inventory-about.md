@@ -3,9 +3,9 @@ title: À propos du stock privé
 description: À propos du stock privé
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Les annonceurs qui cherchent au-delà de RTB peuvent utiliser l’inventaire pri
 
 ## ID de transaction
 
-Si vous avez des relations directes avec les éditeurs, vous pouvez rationaliser votre processus d’achat et votre workflow multimédia en utilisant vos propres transactions privées, avec leur inventaire et leur tarification négociés, dans vos placements de publicité DSP. DSP s’intègre à tous vos éditeurs lorsque vous configurez un compte. Si vous souhaitez accéder ultérieurement à d’autres éditeurs, contactez votre [!DNL Adobe] l’équipe du compte pour configurer l’accès. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+Si vous avez des relations directes avec les éditeurs, vous pouvez rationaliser votre processus d’achat et votre workflow multimédia en utilisant vos propres transactions privées, avec leur inventaire et leur tarification négociés, dans vos placements de publicité DSP. DSP s’intègre à tous vos éditeurs lorsque vous configurez un compte. Si vous souhaitez accéder ultérieurement à d’autres éditeurs, contactez votre équipe de compte d’Adobe pour configurer l’accès. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
 Toutes vos affaires privées avec un ID de transaction sont financées et facturées par [!DNL Adobe].
 

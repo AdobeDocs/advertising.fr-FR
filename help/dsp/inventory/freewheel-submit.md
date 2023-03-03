@@ -3,7 +3,7 @@ title: Envoyer une publicité pour une opération PG à [!DNL FreeWheel]
 description: Découvrez comment demander l’approbation d’une publicité pour une transaction garantie par un programme avec un éditeur sur [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Une fois que [accepter une offre garantie par un programme avec un éditeur sur 
 
 >[!PREREQUISITES]
 >
->Contactez votre équipe de compte d’Adobe pour vous assurer que votre [!DNL DSP] compte autorisé à utiliser la variable [!DNL FreeWheel] workflow garanti par la programmation.
+>Collaborez avec votre équipe de compte d’Adobe pour vous assurer que votre [!DNL DSP] compte autorisé à utiliser la variable [!DNL FreeWheel] workflow garanti par la programmation.
 
 1. Copiez la clé publicitaire de la publicité utilisée avec le [!DNL Freewheel] deal :
 
