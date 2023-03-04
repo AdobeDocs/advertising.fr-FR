@@ -2,7 +2,7 @@
 title: Solutions de mesure avancée
 description: Consultez la liste des solutions disponibles pour les mesures avancées.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 2207d7293920987db72c37ae25245574a5c0fcf5
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -93,4 +93,4 @@ Les packages de solution de mesure suivants sont disponibles pour valider le suc
 
 ## Plus d’informations
 
-Pour plus d’informations sur toutes les solutions de mesure avancées, en décrivant les informations de tarification, ainsi que les formats et régions disponibles pour chaque solution, contactez votre [!DNL Adobe] gestionnaire de succès client. Des études de cas spécifiques aux solutions sont également disponibles sur demande.
+Pour plus d’informations sur toutes les solutions de mesure avancées, en décrivant les informations de tarification ainsi que les formats et régions disponibles pour chaque solution, contactez votre équipe de compte d’Adobe. Des études de cas spécifiques aux solutions sont également disponibles sur demande.
