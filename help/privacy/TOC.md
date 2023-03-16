@@ -4,7 +4,7 @@ role: User, Admin
 cloud: Experience Cloud
 solution: Advertising
 product: advertising cloud
-user-guide-title: Assistance Adobe Advertising en matière de protection de la vie privée des client(e)s
+user-guide-title: Assistance Adobe Advertising en matière de protection de la vie privée des clients et clientes
 user-guide-description: Découvrez les contrôles de sécurité et de confidentialité qu’Adobe Advertising fournit pour aider les clients annonceurs à se conformer aux lois sur la confidentialité des consommateurs et consommatrices.
 breadcrumb-title: Assistance en matière de confidentialité des consommateurs et consommatrices
 index: true
@@ -16,7 +16,7 @@ ht-degree: 56%
 ---
 
 
-# Assistance Adobe Advertising en matière de protection de la vie privée des client(e)s {#privacy}
+# Assistance Adobe Advertising en matière de protection de la vie privée des clients et clientes {#privacy}
 
 + [À propos de la prise en charge des publicités Adobe pour la confidentialité des consommateurs](/help/privacy/home.md)
 + [Prise en charge du RGPD](/help/privacy/gdpr.md)
