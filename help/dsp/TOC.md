@@ -8,9 +8,9 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: b90c8d391bfd90a844e4c6bad37da193fa226397
+source-git-commit: d44b3834240e13904718912ac62df7c8fdbee963
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '883'
 ht-degree: 6%
 
 ---
@@ -113,7 +113,8 @@ ht-degree: 6%
       + [Colonnes dans les feuilles de calcul téléchargées/téléchargées](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [Macros DSP](/help/dsp/campaign-management/macros.md)
    + [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [Questions fréquentes à propos de Campaign Management](/help/dsp/campaign-management/campaign-management-faq.md)
+   + [Questions fréquentes à propos de Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+   + [Questions fréquentes à propos des vidéos universelles](/help/dsp/campaign-management/faq-universal-video.md)
 + Optimisation {#optimization}
    + [Comment [!DNL DSP] Optimisation des campagnes](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [Objectifs d’optimisation et utilisation](/help/dsp/optimization/optimization-goals.md)

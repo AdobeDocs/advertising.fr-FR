@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 251d6a0bed5b4f4b28afc5ecfe666a1e506cd7d5
 workflow-type: tm+mt
-source-wordcount: '3417'
+source-wordcount: '3421'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad specs for forecast]:** (Formats des publicités vidéo uniquement) Durée de la publicité et/ou spécifications de la publicité, qui sont utilisées pour calculer la projection des prévisions sur la droite. Les champs varient en fonction du type de publicité.
 
-**[!UICONTROL Environment]:** (Format de publicité vidéo universelle uniquement) Environnements de l’appareil (bureau, mobile, télévision connectée) à inclure comme cibles dans l’emplacement.
+**[!UICONTROL Environment]:** (Format de publicité vidéo universelle uniquement) Environnements de l’appareil (bureau, mobile, télévision connectée) à inclure comme cibles dans l’emplacement. Spécifiez au moins une valeur.
 
 **[!UICONTROL Placement tags]:** (Facultatif) Mots-clés ou surnoms pour vous aider à localiser cet emplacement.
 
@@ -468,5 +468,5 @@ Quel niveau de [Ads.txt](https://iabtechlab.com/ads-txt-about/) le filtrage pré
 >* [Modifier un emplacement](placement-edit.md)
 >* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Questions fréquentes à propos de Campaign Management](/help/dsp/campaign-management/campaign-management-faq.md)
+>* [Questions fréquentes à propos de Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
 

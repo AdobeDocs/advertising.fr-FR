@@ -3,9 +3,9 @@ title: Paramètres de publicité vidéo universelle
 description: Reportez-vous à la description des paramètres d’annonce disponibles pour les publicités vidéo universelles.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0c9e9c8d2a3444c623568d25262421be53c0c846
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Paramètres de publicité vidéo universelle
 
 *Fonctionnalité bêta ouverte*
+
+>[!NOTE]
+>
+>Les publicités vidéo universelles ne peuvent être associées qu’à des emplacements vidéo universels.
 
 ## [!UICONTROL Insert Ad Tag]
 
@@ -50,7 +54,7 @@ ht-degree: 0%
 
 **[!UICONTROL Video Format]:** Le format du lecteur de publicités pour l’inventaire potentiel : *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]* ou *[!UICONTROL VAST]*. La visibilité est toujours mesurée pour [!UICONTROL VPAID], mais [!UICONTROL VPAID & VAST] inclut un inventaire qui n’autorise pas la mesure de la visibilité. Tenez compte de cette distinction si les mesures de visibilité sont importantes pour votre campagne.
 
-Utilisation *[!UICONTROL VAST]*, qui n’autorise pas la mesure de la visibilité, lorsque vous ciblez une télévision connectée ou un inventaire nécessitant strictement le format VAST uniquement (provenant généralement de sources d’approvisionnement telles que Google Ad Manager, Appnexus, SpotX et FreeWheeler).
+Utilisation [!UICONTROL VAST], qui n’autorise pas la mesure de la visibilité, lorsque vous ciblez une télévision connectée ou un inventaire nécessitant strictement le format VAST uniquement (provenant généralement de sources d’approvisionnement telles que Google Ad Manager, Appnexus, SpotX et FreeWheeler). Utilisez également cette option pour un inventaire qui était précédemment compatible avec les emplacements/publicités standard preroll (VAST) ou Phone + Tablet Standard Pre-roll (VAST).
 
 **[!UICONTROL Clock Number]**: (Utilisé uniquement au Royaume-Uni ; disponible uniquement pour les utilisateurs autorisés) Identifiant unique utilisé pour s’assurer que la publicité appropriée est diffusée. Si ce paramètre n’est pas applicable, laissez-le vide.
 
@@ -72,6 +76,7 @@ Les paramètres suivants s’appliquent à chaque pixel que vous créez ou modif
 
 >[!MORELIKETHIS]
 >
+>* [Questions fréquentes à propos des vidéos universelles](/help/dsp/campaign-management/faq-universal-video.md)
 >* [A propos de la gestion des publicités](ad-about.md)
 >* [Créer une publicité unique](ad-create.md)
 >* [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)

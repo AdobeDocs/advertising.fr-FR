@@ -3,14 +3,18 @@ title: Joindre une publicité à un emplacement
 description: Découvrez comment joindre une publicité à un emplacement.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 1f35711c5543974f97ce2a9c35427636c1e5a6a9
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '543'
 ht-degree: 1%
 
 ---
 
 # Joindre une publicité à un emplacement
+
+>[!NOTE]
+>
+>Les publicités vidéo universelles ne peuvent être associées qu’à des emplacements vidéo universels.
 
 ## Ajout d’une nouvelle publicité à partir du [!UICONTROL Ads] Affichage
 
@@ -132,4 +136,5 @@ ht-degree: 1%
 >* [Modifier une publicité](ad-edit.md)
 >* [Liste des emplacements associés à une publicité](ad-list-placements.md)
 >* [Modification de la planification des publicités pour un emplacement](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [Questions fréquentes à propos des vidéos universelles](/help/dsp/campaign-management/faq-universal-video.md)
 

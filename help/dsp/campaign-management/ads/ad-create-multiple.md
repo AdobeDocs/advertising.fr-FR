@@ -3,9 +3,9 @@ title: Créer plusieurs publicités tierces
 description: Découvrez comment créer plusieurs publicités tierces à la fois.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: d072670b26e56e986df2a6690978df1e74237dad
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,15 @@ Vous pouvez transférer l’une des options suivantes : [!DNL DoubleClick] et [!
 
       1. Cliquez sur **[!UICONTROL Save & submit for review]**.
 
+>[!NOTE]
+>
+>Les publicités vidéo universelles ne peuvent être associées qu’à des emplacements vidéo universels.
+
 >[!MORELIKETHIS]
 >
 >* [A propos de la gestion des publicités](ad-about.md)
 >* [Spécifications des publicités](ad-specs.md)
 >* [Créer une publicité unique](ad-create.md)
 >* [Vidéo : Comment télécharger en bloc des balises publicitaires tierces](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [Questions fréquentes à propos des vidéos universelles](/help/dsp/campaign-management/faq-universal-video.md)
 
