@@ -2,14 +2,14 @@
 title: Questions fréquentes à propos des vidéos universelles
 description: En savoir plus sur les publicités vidéo universelles.
 feature: DSP Placements, DSP Ads
-source-git-commit: 8e0237355e834f4ae2b9ef1ed211e047b41cafe7
+source-git-commit: fe5340cbf495eb9498d89c18080307464d4067d9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
-# # FAQ sur la vidéo universelle
+# Questions fréquentes sur la vidéo universelle
 
 ## Comment créer des publicités et des emplacements de vidéos universels ?
 
@@ -23,7 +23,11 @@ Créez-les de la même manière que vous créez d’autres types d’emplacement
 
 1. Dans la même campagne que le placement vidéo universel, [créer une publicité vidéo universelle unique ;](/help/dsp/campaign-management/ads/ad-create.md) ou [créer plusieurs publicités vidéo universelles ;](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-   Si vous créez plusieurs publicités, veillez à spécifier &quot;[!UICONTROL Universal Video]&quot; comme [!UICONTROL Ad Type]. Pour [!DNL Google] ou [!DNL Flashtalking] une fois le fichier téléchargé, cliquez sur le champ Type de publicité dans le champ &quot;[!UICONTROL Review ad types]&quot; et modifiez-la. Pour les autres types de balises d’annonce, indiquez le type d’annonce dans le fichier de feuille de calcul que vous chargez.
+   Si vous créez plusieurs publicités, veillez à spécifier &quot;[!UICONTROL Universal Video]&quot; comme [!UICONTROL Ad Type]:
+
+   * Pour [!DNL Google] ou [!DNL Flashtalking] publicités : Dans le[!UICONTROL Review ad types]&quot; une fois le fichier téléchargé, cliquez sur le bouton **[!UICONTROL Ad Type]** champ et sélectionnez **[!UICONTROL Universal Video]**.
+
+   * Pour les autres types de balises d’annonce : Dans le fichier de feuille de calcul que vous chargez, spécifiez le champ Type de publicité pour chaque publicité comme **[!UICONTROL Universal Video]**.
 
 1. [Ouvrir les paramètres de publicité](/help/dsp/campaign-management/ads/ad-edit.md) pour chaque nouvelle publicité et sélectionnez le format vidéo approprié :
 
