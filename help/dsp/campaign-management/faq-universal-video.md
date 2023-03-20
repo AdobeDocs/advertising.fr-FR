@@ -2,9 +2,9 @@
 title: Questions fréquentes à propos des vidéos universelles
 description: En savoir plus sur les publicités vidéo universelles.
 feature: DSP Placements, DSP Ads
-source-git-commit: fe5340cbf495eb9498d89c18080307464d4067d9
+source-git-commit: 58cbb5b85a1dc790aaf762ba55fd2badeef6fe68
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,8 @@ Les objectifs incompatibles avec des emplacements de télévision connectés sta
 
 Utilisation **[!UICONTROL VAST]** dans l’un des scénarios suivants :
 
-* L’emplacement cible l’inventaire de la télévision connectée.
-* L’emplacement cible l’inventaire des vidéos provenant de Google Ad Manager, d’Appnexus, de SpotX ou de la roue libre. Ces SSP ne prennent pas en charge le format vidéo VPAID &amp; VAST.
+* Le placement cible l’inventaire de la télévision connectée.
+* L’emplacement cible l’inventaire vidéo à partir de Google Ad Manager, Appnexus, SpotX ou de la roue libre. Ces SSP ne prennent pas en charge le format vidéo VPAID &amp; VAST.
 
 ## Est-il possible de joindre plusieurs publicités vidéo universelles au même emplacement vidéo universel ?
 
