@@ -3,7 +3,7 @@ title: Présentation de [!DNL Analytics for Advertising]
 description: Présentation de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Présentation de [!DNL Analytics for Advertising]
 
-*Annonceurs avec DSP Advertising et[!DNL Advertising Search]*
+*Annonceurs avec DSP Advertising et[!DNL Advertising Search, Social, & Commerce]*
 
 [!DNL Analytics for Advertising] intègre Adobe Analytics et Adobe Advertising afin d’étendre et d’améliorer les fonctionnalités de chaque produit.
 
@@ -66,7 +66,7 @@ Sans nécessiter de pixels supplémentaires, [!DNL Analytics for Advertising] pe
 
    Vous pouvez utiliser [!DNL Analytics] segments pour le reciblage de site propriétaire dans [!DNL DSP] et des annonces de référencement payant.
 
-   ([!DNL Search] uniquement) Les annonceurs avec [!DNL Analytics] mais aucune Audience Manager ne peut également créer des audiences basées sur des balises de site web Google (listes de remarketing) et des audiences de correspondance de clients (listes de clients) à partir de [!DNL Analytics] segments partagés avec Experience Cloud.
+   ([!DNL Search, Social, & Commerce] uniquement) Les annonceurs avec [!DNL Analytics] mais aucune Audience Manager ne peut également créer des audiences basées sur des balises de site web Google (listes de remarketing) et des audiences de correspondance de clients (listes de clients) à partir de [!DNL Analytics] segments partagés avec Experience Cloud.
 
 ### Mesures de conversion de site en tant que signaux d’offre
 
@@ -82,7 +82,7 @@ Voir &quot;[Mesures Analytics dans Adobe Advertising](analytics-data-in-advertis
 
 ### Segments Analytics pour le reciblage de site
 
-Adobe Advertising peut ingérer [!DNL Analytics] segments à des fins de remarketing pour les DSP publicitaires et [!DNL Search] publicités utilisant l’intégration d’audiences Experience Cloud natives entre [!DNL Analytics] et Experience Cloud.
+Adobe Advertising peut ingérer [!DNL Analytics] segments à des fins de remarketing pour les DSP publicitaires et [!DNL Search, Social, & Commerce] publicités utilisant l’intégration d’audiences Experience Cloud natives entre [!DNL Analytics] et Experience Cloud.
 
 Pour accéder au [!DNL Analytics] segments, un compte publicitaire doit disposer de la variable [Service d’ID Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html) activée. Lorsque le service d’ID est activé, tous les segments Experience Cloud (y compris les segments créés dans [!DNL Analytics] et publiés sur des Experience Cloud, des segments créés dans Adobe Audience Manager, des segments créés dans Experience Cloud à l’aide du [!DNL People core service], et les segments créés dans Adobe Experience Platform et envoyés à Adobe Advertising par Audience Manager) deviennent disponibles dans Adobe Advertising dès qu’ils sont traités.
 

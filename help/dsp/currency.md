@@ -3,7 +3,7 @@ title: Devises prises en charge
 description: Consultez la liste des devises prises en charge.
 feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
-source-git-commit: 2d4d04204ac9df86f11a6ffee349d0cb0124b0e4
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Adobe Advertising prend en charge les devises suivantes.
 >
 > [!DNL DSP] ne propose la facturation que dans les devises suivantes : CAD, DKK, EUR, GBP, HKD, JPY, NZD, SGD et USD.
 
-## [!DNL Adobe Advertising Search]
+## [!DNL Adobe Advertising Search, Social, & Commerce]
 
 Toutes les devises prises en charge par les moteurs de recherche. Il s’agit de la même chose que [pris en charge par [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).
 

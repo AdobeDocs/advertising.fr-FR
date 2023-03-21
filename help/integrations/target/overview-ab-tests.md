@@ -1,15 +1,15 @@
 ---
 title: Configuration de tests A/B pour les publicités Adobe dans Adobe Target
-description: Découvrez comment configurer un test A/B dans [!DNL Target] pour votre DSP et [!DNL Search] publicités.
+description: Découvrez comment configurer un test A/B dans [!DNL Target] pour votre DSP et [!DNL Search, Social, & Commerce] publicités.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 0%
 
 ---
 
-# Configuration de tests A/B dans Adobe Target for Advertising DSP et [!DNL Advertising Search] Publicités
+# Configuration de tests A/B dans Adobe Target for Advertising DSP et [!DNL Advertising Search, Social, & Commerce] Publicités
 
 <!-- Add [!UICONTROL and [!DNL tags throughout as needed. -->
 

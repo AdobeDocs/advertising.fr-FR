@@ -3,7 +3,7 @@ title: Solutions multi-appareils
 description: En savoir plus sur les fonctionnalités multi-appareils.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Vous pouvez inclure les mesures suivantes dans les rapports personnalisés :
 
 *Publicitaires avec suivi des conversions Advertising par Adobe uniquement*
 
-Avec l’attribution basée sur les personnes, vous pouvez attribuer des conversions qui ont eu lieu sur un appareil différent de celui sur lequel l’exposition au média s’est produite. La mesure d’attribution basée sur les personnes est disponible dans DSP, [!DNL Adobe Advertising Creative], et [!DNL Adobe Advertising Search] pour les annonceurs qui ont implémenté des pixels de conversion Adobe Advertising sur leurs sites.
+Avec l’attribution basée sur les personnes, vous pouvez attribuer des conversions qui ont eu lieu sur un appareil différent de celui sur lequel l’exposition au média s’est produite. La mesure d’attribution basée sur les personnes est disponible dans DSP, [!DNL Adobe Advertising Creative], et [!DNL Adobe Advertising Search, Social, & Commerce] pour les annonceurs qui ont implémenté des pixels de conversion Adobe Advertising sur leurs sites.
 
 ### Activation de la mesure d’attribution basée sur les personnes
 

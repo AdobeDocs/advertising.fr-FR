@@ -3,7 +3,7 @@ title: Segments d’intégrité compatibles avec la publicité Adobe
 description: Consultez les instructions pour les segments d’audience et les tactiques acceptables liés à l’intégrité à utiliser comme alternatives au ciblage des segments d’audience liés à l’intégrité.
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe des directives de segment d’intégrité acceptables pour la publicité
 
-*Pour Adobe Advertising DSP et[!DNL Adobe Advertising Search]*
+*Pour Adobe Advertising DSP et[!DNL Adobe Advertising Search, Social, & Commerce]*
 
 Les directives suivantes décrivent les segments d’audience inacceptable et acceptable liés à la santé. Ils recommandent également des tactiques à utiliser comme alternative au ciblage des segments d’audience liés à la santé.
 

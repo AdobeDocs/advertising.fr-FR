@@ -3,7 +3,7 @@ title: Optimisation
 description: En savoir plus sur les fonctionnalités d’optimisation.
 feature: DSP Introduction, DSP Optimization
 exl-id: c60e58e7-ab16-49bd-9acf-e5b858755493
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Lorsque vous configurez une campagne par programmation, l’un des éléments cl
 
 La publicité DSP optimisée pour les mesures qui vous intéressent le plus en deux phases. Tout d’abord, il déplace les dépenses vers les emplacements ou les tactiques les plus performants, en fonction de l’objectif d’optimisation du package. Deuxièmement, il ajuste les enchères en temps réel pour refléter la valeur économique en temps réel qui équilibre a) la nécessité d&#39;exécuter intégralement votre budget avec b) les IPC choisis. Ensemble, ces phases d’optimisation garantissent que votre budget est dépensé efficacement pour atteindre les objectifs de votre campagne.
 
-Pour chacun de vos emplacements et modules, vous pouvez choisir un objectif d’optimisation. Les objectifs d’optimisation disponibles incluent des options prédéfinies, telles que &quot;[!UICONTROL Lowest Cost per Click],&quot; et les objectifs personnalisés que vous avez configurés en tant qu’objectifs dans [!DNL Adobe Advertising Search].
+Pour chacun de vos emplacements et modules, vous pouvez choisir un objectif d’optimisation. Les objectifs d’optimisation disponibles incluent des options prédéfinies, telles que &quot;[!UICONTROL Lowest Cost per Click],&quot; et les objectifs personnalisés que vous avez configurés en tant qu’objectifs dans [!DNL Advertising Search, Social, & Commerce].
 
 >[!MORELIKETHIS]
 >

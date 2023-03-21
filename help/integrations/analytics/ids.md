@@ -3,7 +3,7 @@ title: Adobe des identifiants publicitaires utilisés par [!DNL Analytics]
 description: Adobe des identifiants publicitaires utilisés par [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Annonceurs avec une intégration Advertising-Adobe Analytics Adobe uniquement*
 
-*Applicable au DSP de publicité et[!DNL Advertising Search]*
+*Applicable au DSP de publicité et[!DNL Advertising Search, Social, & Commerce]*
 
 Adobe Advertising utilise deux identifiants pour le suivi des performances sur site : la valeur *EF ID* et le *AMO ID*.
 
@@ -23,7 +23,7 @@ Lorsqu’une impression publicitaire se produit, Adobe Advertising crée les val
 Adobe Advertising fait la distinction entre un clic publicitaire ou une entrée d’affichage publicitaire sur le site web selon les critères suivants :
 
 * Une entrée d’affichage publicitaire est capturée lorsqu’un utilisateur se rend sur le site après avoir affiché une publicité, mais sans cliquer dessus. [!DNL Analytics] enregistre un affichage publicitaire si deux conditions sont remplies :
-   * Le visiteur ne dispose d’aucun clic publicitaire pour une [!DNL DSP] ou [!DNL Search] pendant la [intervalle de recherche en amont des clics](#lookback-a4adc).
+   * Le visiteur ne dispose d’aucun clic publicitaire pour une [!DNL DSP] ou [!DNL Search, Social, & Commerce] pendant la [intervalle de recherche en amont des clics](#lookback-a4adc).
    * Le visiteur a vu au moins une [!DNL DSP] pendant la [intervalle de recherche en amont des impressions](#lookback-a4adc). La dernière impression est transmise comme affichage publicitaire.
 * Une entrée de clic publicitaire est capturée lorsqu’un visiteur du site clique sur une publicité avant d’accéder au site. [!DNL Analytics] capture un clic publicitaire lorsque l’une des conditions suivantes se produit :
    * L’URL comprend un identifiant EF et un AMO ID, ajoutés à l’URL de la page d’entrée par Adobe Advertising.
@@ -112,7 +112,7 @@ où :
 * &lt;*Identifiant de canal*> peut être :
 
    * `AC` = DSP de publicité
-   * `AL` pour [!DNL Advertising Search]
+   * `AL` pour [!DNL Advertising Search, Social, & Commerce]
 
 * &lt;*Identifiant de publicité*> est utilisé comme identifiant unique généré par la publicité par un Adobe. Il sert de clé pour traduire les métadonnées d’entité Adobe Advertising en métadonnées lisibles. [!DNL Analytics] dimensions.
 
@@ -120,9 +120,9 @@ où :
 
 Exemple d’AMO ID : AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-### Format AMO ID pour [!DNL Search]
+### Format AMO ID pour [!DNL Search, Social, & Commerce]
 
-AMO ID pour [!DNL Search] suivent un format distinct pour chaque moteur de recherche. Le format de tous les moteurs de recherche commence par ce qui suit :
+AMO ID pour [!DNL Search, Social, & Commerce] suivent un format distinct pour chaque moteur de recherche. Le format de tous les moteurs de recherche commence par ce qui suit :
 
 ```
 AL!{userid}!{sid}
