@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
+source-git-commit: dc4ff4e836d1fba7fdf54bf3aa8e18dae3c5e24f
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
+| 20 mars 2023 | [!UICONTROL Campaigns] | En savoir plus sur les annonces et emplacements universels de vidéos, qui sont une fonctionnalité bêta ouverte. | Voir &quot;[Questions fréquentes sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 15 février 2023 | [!UICONTROL Campaigns] | Les options permettant d’afficher les journaux des modifications sous forme de graphique et d’ajouter des notes à n’importe quelle entrée ne sont pas en version bêta. | Voir &quot;[Affichage du journal des modifications d’une campagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md), Voir &quot;[Affichage du journal des modifications d’un module](/help/dsp/campaign-management/packages/package-change-log.md),&quot; et Voir &quot;[Affichage du journal des modifications d’un emplacement](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 3 février 2023 | [!UICONTROL Campaigns] | (Fonctionnalités bêta) Vous pouvez désormais afficher les journaux des modifications sous forme de graphique et ajouter des notes à n’importe quelle entrée. | Voir &quot;[Affichage du journal des modifications d’une campagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md), Voir &quot;[Affichage du journal des modifications d’un module](/help/dsp/campaign-management/packages/package-change-log.md),&quot; et Voir &quot;[Affichage du journal des modifications d’un emplacement](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 25 janvier 2023 | [!UICONTROL Deals] | Une nouvelle colonne de dépense &quot;Traitement d’impression PG&quot; dans la vue Inventaire > Transactions affiche un traitement pour les offres garanties. | Voir &quot;[Modifier un mode Colonnes personnalisé](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
@@ -49,7 +50,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 |  | [!DNL Freewheel] offres garanties par programmation | Vous pouvez désormais envoyer des publicités et vérifier leur état pour [!DNL Freewheel] offres garanties par programmation à partir de [!UICONTROL Ads] vue. Auparavant, vous ne pouviez effectuer les deux opérations qu’à partir du [!UICONTROL Deals] vue. | Voir &quot;[Envoyer une publicité pour une transaction garantie par un programme à [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] Offres garanties par la programmation](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 7 octobre 2021 | Aide | Tous [DSP et autre documentation Adobe Advertising](https://experienceleague.adobe.com/docs/advertising.html) on [!DNL Experience League] est désormais traduit automatiquement dans toutes les langues disponibles. Pour modifier la langue affichée, utilisez le menu &quot;Changer la langue&quot; en bas à gauche d’une page.<br>![Changer de langue](/help/dsp/assets/change-language.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- older entries:
 

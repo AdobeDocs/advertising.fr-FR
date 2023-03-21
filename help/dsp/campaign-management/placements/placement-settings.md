@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 251d6a0bed5b4f4b28afc5ecfe666a1e506cd7d5
+source-git-commit: 0836206b41789749a92bd9557a984896e710ec3a
 workflow-type: tm+mt
-source-wordcount: '3421'
+source-wordcount: '3433'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ ht-degree: 0%
 **[!UICONTROL Ad specs for forecast]:** (Formats des publicités vidéo uniquement) Durée de la publicité et/ou spécifications de la publicité, qui sont utilisées pour calculer la projection des prévisions sur la droite. Les champs varient en fonction du type de publicité.
 
 **[!UICONTROL Environment]:** (Format de publicité vidéo universelle uniquement) Environnements de l’appareil (bureau, mobile, télévision connectée) à inclure comme cibles dans l’emplacement. Spécifiez au moins une valeur.
+
+Dans les rapports personnalisés, la dimension &quot;Environnement de périphérique&quot; au niveau de l’emplacement indique l’environnement ciblé.
 
 **[!UICONTROL Placement tags]:** (Facultatif) Mots-clés ou surnoms pour vous aider à localiser cet emplacement.
 
