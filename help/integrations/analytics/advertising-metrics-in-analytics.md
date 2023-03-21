@@ -3,9 +3,9 @@ title: Adobe des mesures publicitaires dans Analysis Workspace
 description: Adobe des mesures publicitaires dans Analysis Workspace
 feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 5dd3772de945660e76321dac935de5ebcab5979a
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 >
 >* Adobe Advertising transmet les mesures et dimensions de trafic à [!DNL Analytics] tous les jours.
 >* [!DNL Analytics] capture les clics publicitaires et les affichages publicitaires Adobe en temps réel.
+   > Pour [!DNL Search, Social, & Commerce], cette fonctionnalité est prise en charge pour la plupart des réseaux publicitaires et des types de campagne. Voir &quot;Inventaire pris en charge&quot; dans la [!DNL Search, Social, & Commerce] Guide pour plus d’informations.<!-- add link when that's published in ExL -->
 
 
 ## Mesures de trafic d’Adobe Advertising
@@ -42,6 +43,32 @@ ht-degree: 0%
 | [!UICONTROL AMO Not Viewable Impressions] | Nombre d’impressions qui n’étaient pas visibles. Cette valeur est calculée comme suit : ([!UICONTROL AMO Measurable Impressions] - [!UICONTROL AMO Viewable]). |
 | [!UICONTROL AMO Measurable Impressions] | Nombre d’impressions diffusées pour lesquelles l’instrumentation de visibilité a été initialisée avec succès. Cette valeur est calculée en tant que (impressions instrumentées : nombre d’impressions non mesurables). |
 
+## Dimensions Adobe Advertising
+
+>[!NOTE]
+>
+>Toutes les dimensions Adobe Advertising dans [!DNL Analytics] sont suivis de &quot;(AMO ID)&quot;.
+
+| Dimension | Données Adobe Advertising applicables | Description |
+| ----------- | ---------- | ---------- |
+| [!UICONTROL Ad Platform (AMO ID)] | [!DNL DSP] et [!DNL Search, Social, & Commerce] data | DSP de publicité ou nom du moteur de recherche |
+| [!UICONTROL Account (AMO ID] | [!DNL DSP] et [!DNL Search, Social, & Commerce] data | Nom du compte. |
+| [!UICONTROL Network (AMO ID)] | [!DNL DSP] et [!DNL Search, Social, & Commerce] data | RTB ([!DNL DSP]) ou le nom du réseau publicitaire ([!DNL Search, Social, & Commerce]) |
+| [!UICONTROL Campaign (AMO ID)] | [!DNL DSP] et [!DNL Search, Social, & Commerce] data | Nom de la campagne. |
+| [!UICONTROL Optimization (AMO ID)] | [!DNL DSP] et [!DNL Search, Social, & Commerce] data | Le package ([!DNL DSP]) ou portefeuille ([!DNL Search, Social, & Commerce]) name. |
+| [!UICONTROL Placement (AMO ID)] | [!DNL DSP] data | Nom de l’emplacement. |
+| [!UICONTROL Ad Group (AMO ID)] | [!DNL Search, Social, & Commerce] data | Nom du groupe publicitaire. |
+| [!UICONTROL Keyword (AMO ID)] | [!DNL Search, Social, & Commerce] data | Mot-clé. |
+| [!UICONTROL Match Type (AMO ID)] | [!DNL Search, Social, & Commerce] data | Type de correspondance de recherche. |
+| [!UICONTROL Keyword Match Type (AMO ID)] | [!DNL Search, Social, & Commerce] data | Mot-clé et type de correspondance. |
+| [!UICONTROL Ad Type (AMO ID)] | [!DNL DSP] et [!DNL Search, Social, & Commerce] data | Le type d’annonce, tel que `text`, `video`, `display`ou `native`. |
+| [!UICONTROL Ad Title (AMO ID)] | [!DNL DSP] et [!DNL Search, Social, & Commerce] data | Type de publicité ([!DNL DSP]) ou titre de publicité ([!DNL Search, Social, & Commerce]). |
+| [!UICONTROL Ad Description (AMO ID)] | [!DNL DSP] et [!DNL Search, Social, & Commerce] data | Description de la publicité ([!DNL DSP]) ou du corps de la publicité ([!DNL Search, Social, & Commerce]). |
+| [!UICONTROL Ad Display URL (AMO ID)] | [!DNL Search, Social, & Commerce] data | URL affichée dans la publicité. |
+| [!UICONTROL Ad Destination URL (AMO ID)] | [!DNL Search, Social, & Commerce] data | URL de destination de la publicité. |
+| [!UICONTROL Landing Type (AMO ID)] | [!DNL DSP] et [!DNL Search, Social, & Commerce] data | Indique si l’entrée de la page d’entrée était un affichage publicitaire ou un clic publicitaire. |
+| [!UICONTROL Product Target (AMO ID)] | [!DNL Search, Social, & Commerce] data | Cible du produit d’une publicité avec une liste de produits. |
+
 ## Mesures calculées personnalisées utiles pour Adobe Advertising
 
 Envisagez de créer les mesures suivantes pour vos données Adobe Advertising.
@@ -51,32 +78,6 @@ Envisagez de créer les mesures suivantes pour vos données Adobe Advertising.
 * Taux d’impression visible ([!UICONTROL AMO Viewable Impressions] / [!UICONTROL AMO Measureable Impressions] * 100)
 * Coût par affichage ([!UICONTROL AMO Cost] / [!UICONTROL AMO Views])
 * Coût par clic ([!UICONTROL AMO Cost] / [!UICONTROL AMO Clicks])
-
-## Dimensions Adobe Advertising
-
->[!NOTE]
->
->Toutes les dimensions Adobe Advertising dans [!DNL Analytics] sont suivis de &quot;(AMO ID)&quot;.
-
-| Dimension | Données Adobe Advertising applicables | Description |
-| ----------- | ---------- | ---------- |
-| [!UICONTROL Ad Platform (AMO ID)] | [!DNL DSP] et [!DNL Search] data | DSP de publicité ou nom du moteur de recherche |
-| [!UICONTROL Account (AMO ID] | [!DNL DSP] et [!DNL Search] data | Nom du compte. |
-| [!UICONTROL Network (AMO ID)] | [!DNL DSP] et [!DNL Search] data | RTB ([!DNL DSP]) ou le nom du réseau publicitaire ([!DNL Search]) |
-| [!UICONTROL Campaign (AMO ID)] | [!DNL DSP] et [!DNL Search] data | Nom de la campagne. |
-| [!UICONTROL Optimization (AMO ID)] | [!DNL DSP] et [!DNL Search] data | Le package ([!DNL DSP]) ou portefeuille ([!DNL Search]) name. |
-| [!UICONTROL Placement (AMO ID)] | [!DNL DSP] data | Nom de l’emplacement. |
-| [!UICONTROL Ad Group (AMO ID)] | [!DNL Search] data | Nom du groupe publicitaire. |
-| [!UICONTROL Keyword (AMO ID)] | [!DNL Search] data | Mot-clé. |
-| [!UICONTROL Match Type (AMO ID)] | [!DNL Search] data | Type de correspondance de recherche. |
-| [!UICONTROL Keyword Match Type (AMO ID)] | [!DNL Search] data | Mot-clé et type de correspondance. |
-| [!UICONTROL Ad Type (AMO ID)] | [!DNL DSP] et [!DNL Search] data | Le type d’annonce, tel que `text`, `video`, `display`ou `native`. |
-| [!UICONTROL Ad Title (AMO ID)] | [!DNL DSP] et [!DNL Search] data | Type de publicité ([!DNL DSP]) ou titre de publicité ([!DNL Search]). |
-| [!UICONTROL Ad Description (AMO ID)] | [!DNL DSP] et [!DNL Search] data | Description de la publicité ([!DNL DSP]) ou du corps de la publicité ([!DNL Search]). |
-| [!UICONTROL Ad Display URL (AMO ID)] | [!DNL Search] data | URL affichée dans la publicité. |
-| [!UICONTROL Ad Destination URL (AMO ID)] | [!DNL Search] data | URL de destination de la publicité. |
-| [!UICONTROL Landing Type (AMO ID)] | [!DNL DSP] et [!DNL Search] data | Indique si l’entrée de la page d’entrée était un affichage publicitaire ou un clic publicitaire. |
-| [!UICONTROL Product Target (AMO ID)] | [!DNL Search] data | Cible du produit d’une publicité avec une liste de produits. |
 
 >[!MORELIKETHIS]
 >
