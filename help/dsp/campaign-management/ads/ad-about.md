@@ -3,9 +3,9 @@ title: À propos de la gestion des publicités dans les DSP publicitaires
 description: En savoir plus sur la gestion des publicités.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 9073400eb26957c63378bee90929009fcc82f78f
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ DSP prend en charge la diffusion de publicités par le biais de balises de servi
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
-Une fois vos publicités configurées, vous devrez joindre chaque publicité à un emplacement, qui inclut les paramètres de ciblage (tels que la géographie, l’audience, le périphérique et le ciblage d’inventaire) qui contrôleront la manière dont votre campagne sera diffusée. Vous pouvez joindre une publicité à un ou plusieurs emplacements.
+Une fois vos publicités configurées, associez-les à un emplacement, qui comprend les paramètres de ciblage (tels que la géographie, l’audience, le périphérique et le ciblage d’inventaire) qui contrôlent la manière dont votre campagne diffuse. Vous pouvez joindre une publicité à un ou plusieurs emplacements.
 
 ## Types de publicité disponibles {#ad-types}
 
@@ -27,7 +27,7 @@ Tous les types d’annonces suivants sont disponibles dans DSP. Pour obtenir des
 
 * **Publicités audio (tierces uniquement)**: Les publicités audio sont lues entre le contenu des sites d’éditeurs numériques et peuvent être exécutées de manière autonome sous la forme de fichiers audio ou avec des bannières d’accompagnement. L’audio est le meilleur moyen d’accroître la notoriété de la marque et d’interagir avec les publics en ligne. Indicateurs de performance clés pour l’inclusion audio [!UICONTROL Completion Rate] et [!UICONTROL Cost per Completion].
 
-* **Publicités affichées (tierces uniquement)**: Les publicités affichées sont des images animées ou statiques affichées dans les navigateurs web ou dans les applications. En cliquant sur l’unité publicitaire, l’utilisateur accède à un site ou à un microsite de marque. L’affichage est le meilleur outil utilisé pour générer des CPM efficaces, augmenter l’association des messages, ajouter des points de contact de marque ou de produit supplémentaires et faire descendre les utilisateurs dans l’entonnoir d’achat. Les indicateurs de performance clés pour l’affichage incluent [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions], et [!UICONTROL Cost per Conversion]. DSP prend en charge un large éventail de tailles de bannières publicitaires.
+* **Publicités affichées (tierces uniquement)**: Les publicités affichées sont des images animées ou statiques affichées dans les navigateurs web ou dans les applications. Cliquer sur l’unité publicitaire permet à l’utilisateur d’accéder à un site ou à un microsite de marque. L’affichage est le meilleur outil utilisé pour générer des CPM efficaces, augmenter l’association des messages, ajouter des points de contact de marque ou de produit supplémentaires et faire descendre les utilisateurs dans l’entonnoir d’achat. Les indicateurs de performance clés pour l’affichage incluent [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions], et [!UICONTROL Cost per Conversion]. DSP prend en charge un large éventail de tailles de bannières publicitaires.
 
 * **Publicités mobiles (tiers uniquement)**: Les publicités mobiles peuvent être au format vidéo preroll (VAST, MRAID) ou d’affichage standard. La vidéo preroll mobile peut être lancée automatiquement ou un clic pour être lue. Elle est préférable pour atteindre les visionneuses sur plusieurs écrans. L’affichage standard mobile est une image statique affichée dans les navigateurs web mobiles ou dans les applications. Il est préférable de l’utiliser pour compléter les achats de vidéos numériques, générer l’association des messages et ajouter des points de contact de marque ou de produit supplémentaires. Les publicités mobiles peuvent également fonctionner comme des prises de vue en plein écran ou comme des spots mobiles, qui sont des publicités mobiles à fort impact en plein écran et qui sont les mieux utilisées pour développer la notoriété de la marque pour les audiences mobiles et stimuler les conversions.
 
@@ -37,7 +37,11 @@ Tous les types d’annonces suivants sont disponibles dans DSP. Pour obtenir des
 
 * **Publicités TV connectées (tiers uniquement)**: Les publicités télévisées connectées sont affichées avant et pendant le contenu vidéo de la télévision de qualité supérieure. L’inventaire de toutes les télévisions connectées s’exécute sur les appareils télévisés, ce qui signifie que la vidéo est lue automatiquement dans un environnement en arrière-plan plein écran que les téléspectateurs ne peuvent pas ignorer. La télévision connectée est le format vidéo numérique le plus proche des publicités télévisées. Les indicateurs de performances clés de la télévision connectée incluent : [!UICONTROL Completion Rate].
 
-* **Publicités vidéo universelles (tierces uniquement)**: Les publicités vidéo universelles combinent toutes les fonctionnalités de la télévision connectée, des publicités preroll et mobiles preroll (VAST et VPAID) en une seule, et sont affichées avant et pendant le contenu vidéo. La publicité vidéo universelle peut être utilisée lors du ciblage de l’inventaire vidéo à partir des environnements de bureau, mobiles et de télévision connectée, ce qui évite d’avoir à créer plusieurs publicités vidéo. Les indicateurs de performances clés de la vidéo universelle incluent [!UICONTROL Completion Rate] et [!UICONTROL Viewability Rate].
+* **Publicités vidéo universelles (tierces uniquement)**: Les publicités vidéo universelles vous permettent de cibler l’inventaire vidéo des environnements de bureau, mobiles et de télévision connectés pour les inventaires VPAID et VAST à l’aide d’un seul emplacement vidéo. Elles combinent toutes les fonctionnalités des publicités preroll, mobiles et de télévision connectées et sont affichées avant et pendant le contenu vidéo. Les indicateurs de performance clés de la vidéo universelle incluent : [!UICONTROL Completion Rate] et [!UICONTROL Viewability Rate].
+
+   Les publicités vidéo universelles ne peuvent être associées qu’à des emplacements vidéo universels.
+
+   Voir &quot;[Questions fréquentes à propos des vidéos universelles](/help/dsp/campaign-management/faq-universal-video.md)&quot; pour plus d’informations sur les publicités vidéo universelles.
 
 ## DSP Approbations publicitaires
 
