@@ -3,9 +3,9 @@ title: Créer plusieurs publicités tierces
 description: Découvrez comment créer plusieurs publicités tierces à la fois.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: d072670b26e56e986df2a6690978df1e74237dad
+source-git-commit: 5139e6022cd5f5f11046d8f38bd0f1db91464928
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ Vous pouvez transférer l’une des options suivantes : [!DNL DoubleClick] et [!
 1. Une fois le transfert terminé, cliquez sur **[!UICONTROL Start Building Ads]**.
 
 1. Vérifiez les détails et l’état de chaque publicité :
+
+   1. (Publicités vidéo universelles utilisant [!DNL Google] ou [!DNL Flashtalking] ) Cliquez sur le bouton **[!UICONTROL Ad Type]** champ et sélectionnez **[!UICONTROL Universal Video]**.
+
+   1. (Publicités vidéo universelles) Pour chaque nouvelle publicité, cliquez sur ![edit](/help/dsp/assets/edit.png), sélectionnez la variable [format vidéo applicable](/help/dsp/campaign-management/ads/ad-settings-universal-video.md), puis cliquez sur **Enregistrer**.
 
    1. Vérifiez l’état de chaque publicité, en fonction des contrôles de validation sur la balise chargée.
 
