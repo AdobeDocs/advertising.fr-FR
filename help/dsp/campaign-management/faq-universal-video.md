@@ -2,20 +2,22 @@
 title: Questions fréquentes à propos des vidéos universelles
 description: En savoir plus sur les publicités vidéo universelles.
 feature: DSP Placements, DSP Ads
-source-git-commit: 1740c4ca3f70a0e3edb7e4ebaea0be3f0b731b16
+source-git-commit: 17a47e9d7ddb18b36da998d289f949e540beded8
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # Questions fréquentes à propos des vidéos universelles
 
+[Publicités vidéo universelles](/help/dsp/campaign-management/ads/ad-about.md) vous permettent de cibler l’inventaire des vidéos des environnements de bureau, mobiles et de télévision connectés pour les inventaires VPAID et VAST à l’aide d’un seul emplacement vidéo.
+
 ## Comment créer des publicités et des emplacements de vidéos universels ?
 
 Les emplacements vidéo universels ne peuvent contenir que des publicités vidéo universelles et les publicités vidéo universelles peuvent être associées uniquement à des emplacements vidéo universels.
 
-Créez-les de la même manière que vous créez d’autres types d’emplacements et de vidéos :
+Créez des emplacements et des publicités vidéo universels de la même manière que vous créez d’autres types d’emplacements et de vidéos :
 
 1. Dans la campagne souhaitée, [créer un emplacement vidéo universel ;](/help/dsp/campaign-management/placements/placement-create.md), en sélectionnant le [!UICONTROL Placement Type] **[!UICONTROL Universal Video]**.
 
