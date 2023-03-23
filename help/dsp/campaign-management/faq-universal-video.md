@@ -2,16 +2,16 @@
 title: Questions fréquentes à propos des vidéos universelles
 description: En savoir plus sur les publicités vidéo universelles.
 feature: DSP Placements, DSP Ads
-source-git-commit: 17a47e9d7ddb18b36da998d289f949e540beded8
+source-git-commit: 2caacfcbdb3c9d0d91ca26829de5829654f9ab8a
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Questions fréquentes à propos des vidéos universelles
 
-[Publicités vidéo universelles](/help/dsp/campaign-management/ads/ad-about.md) vous permettent de cibler l’inventaire des vidéos des environnements de bureau, mobiles et de télévision connectés pour les inventaires VPAID et VAST à l’aide d’un seul emplacement vidéo.
+[Publicités vidéo universelles](/help/dsp/campaign-management/ads/ad-about.md#ad-types) vous permettent de cibler l’inventaire des vidéos des environnements de bureau, mobiles et de télévision connectés pour les inventaires VPAID et VAST à l’aide d’un seul emplacement vidéo.
 
 ## Comment créer des publicités et des emplacements de vidéos universels ?
 
