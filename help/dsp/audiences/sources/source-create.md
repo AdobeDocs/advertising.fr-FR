@@ -3,16 +3,14 @@ title: Création d’une source d’audience pour activer les audiences proprié
 description: Découvrez comment créer une source pour importer des audiences dans votre compte ou un compte publicitaire.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 3347bfbaec92bb13428a39207954f895eb4f5d6d
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
 # Création d’une source d’audience pour activer les audiences propriétaires
-
-*Fonction bêta*
 
 <!-- Will this remain for admin users/Adobe Account Team users only? -->
 
@@ -22,7 +20,7 @@ Créez une source pour importer des audiences dans votre compte DSP ou un compte
 >
 >Après avoir créé une source pour le [!DNL Real-Time CDP], vous devrez activer votre [!DNL Real-Time CDP] audiences via la destination Adobe Advertising DSP dans [!DNL Real-Time CDP] pour commencer à les importer. Voir [les étapes du workflow d’activation ;](source-about.md#workflow-sources).
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Sources (BETA)].
+1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
 1. Cliquez sur [!UICONTROL Add Source].
 

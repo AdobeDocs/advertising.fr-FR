@@ -3,7 +3,7 @@ title: À propos de l’activation de segments authentifiés à partir des sourc
 description: Découvrez comment ingérer des segments propriétaires à partir d’une plateforme de données client.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
+source-git-commit: 68095fc77659826fae43f2453d17022ef1880807
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -13,7 +13,6 @@ ht-degree: 0%
 # À propos de l’activation de segments authentifiés à partir des sources d’audience
 
 <!-- Doesn't specifically explain what you can do in our UI -->
-*Fonction bêta*
 
 DSP peut ingérer des segments propriétaires composés de signaux authentifiés créés dans une plateforme de données client (CDP). Vous pouvez utiliser les segments ingérés comme cibles pour vos emplacements.
 
@@ -26,8 +25,6 @@ Dans [!DNL Real-time CDP], *destinations* sont des connexions à des plateformes
 Pour plus d’informations sur les destinations, voir l’Experience Platform [Guide des destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), y compris un aperçu du produit, des instructions pour [création d’espaces de travail de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) et [création de connexions à destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html), et [activation des données vers les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
 ### Processus d’utilisation de l’intégration DSP avec [!DNL Real-time CDP] {#workflow-sources}
-
-<!-- Make sure that titles make the distinctions clear -- everything can't be "Activate XXX." -->
 
 1. [Autoriser DSP traduire les segments de données client en [!DNL LiveRamp RampIDs]](source-durable-id.md) qui sont reconnaissables dans un environnement admissible.<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your Adobe Account Team will perform this configuration. -->
 
