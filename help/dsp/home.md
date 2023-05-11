@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: dc4ff4e836d1fba7fdf54bf3aa8e18dae3c5e24f
+source-git-commit: f8523b9157eb13ea0999d10dd19e9645906c50d0
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
+| Mars 2023 | [!UICONTROL Reports] | Une nouvelle [!UICONTROL Household Report] affiche les impressions, la portée et la fréquence sur différentes dimensions au niveau d’un foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil/d’un cookie. Le rapport comprend neuf dimensions : [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length], et créé par l’utilisateur [!UICONTROL Tags]. | Voir &quot;[À propos des rapports](/help/dsp/reports/report-about.md),&quot;[Paramètres des rapports](/help/dsp/reports/report-settings.md),&quot; et &quot;[Questions fréquentes à propos de [!UICONTROL Household] Rapport](/help/dsp/reports/faq-household-report.md).&quot; |
 | 20 mars 2023 | [!UICONTROL Campaigns] | En savoir plus sur les annonces et emplacements universels de vidéos, qui sont une fonctionnalité bêta ouverte. | Voir &quot;[Questions fréquentes sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 15 février 2023 | [!UICONTROL Campaigns] | Les options permettant d’afficher les journaux des modifications sous forme de graphique et d’ajouter des notes à n’importe quelle entrée ne sont pas en version bêta. | Voir &quot;[Affichage du journal des modifications d’une campagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md), Voir &quot;[Affichage du journal des modifications d’un module](/help/dsp/campaign-management/packages/package-change-log.md),&quot; et Voir &quot;[Affichage du journal des modifications d’un emplacement](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 3 février 2023 | [!UICONTROL Campaigns] | (Fonctionnalités bêta) Vous pouvez désormais afficher les journaux des modifications sous forme de graphique et ajouter des notes à n’importe quelle entrée. | Voir &quot;[Affichage du journal des modifications d’une campagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md), Voir &quot;[Affichage du journal des modifications d’un module](/help/dsp/campaign-management/packages/package-change-log.md),&quot; et Voir &quot;[Affichage du journal des modifications d’un emplacement](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
