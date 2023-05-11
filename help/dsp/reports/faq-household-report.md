@@ -1,9 +1,9 @@
 ---
 title: Questions fréquentes à propos de [!UICONTROL Household] Rapport
 description: En savoir plus sur les [!UICONTROL Household] , y compris la façon dont il diffère des autres rapports et la résolution des problèmes.
-source-git-commit: d88ea4ab2ad4a2ee54475346a24724b766b024fc
+source-git-commit: 95f81dafbe13f40487bad47f7dd41a6c80c589ee
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -34,15 +34,15 @@ Les mesures de conversion et les objectifs personnalisés ne sont pas pris en ch
 
 ## Quelle est la différence entre les mesures de chevauchement et de non-chevauchement ?
 
-La figure suivante présente trois mesures (Ménage unique, Ménage incrémentiel et Ménage incrémentiel (Chevauchement)) pour trois campagnes (A, B et C).
+La figure suivante présente trois mesures (Ménage unique atteint, Ménage incrémentiel atteint et Ménage incrémentiel (chevauchement))) pour trois campagnes (A, B et C).
 
 ![Illustration des mesures de chevauchement des ménages](/help/dsp/assets/household-overlap-metrics-illustration.png "Illustration des mesures de chevauchement des ménages")
 
-* Le Ménage unique atteint (total) fournit le Ménage unique atteint par chacune des campagnes ou la zone totale de chacun des cercles. Sur la figure, Ménage unique atteint par A = Ménage incrémentiel atteint par A + (A+C) + (A+B) +(A+B+C)
+* Le Ménage unique atteint (total) fournit le Ménage unique atteint par chacune des campagnes ou la zone totale de chacun des cercles. Sur la figure, Ménage unique atteint par A = Ménage incrémentiel atteint par A + (A+B) + (A+C) +(A+B+C)
 
 * Le foyer incrémentiel atteint est le foyer unique atteint uniquement par une campagne. Dans la figure, les ménages incrémentiels atteints par A, B, C sont les ménages incrémentiels atteints par A, B, C, respectivement.
 
-* Foyer incrémentiel (chevauchement) est le foyer unique atteint par la campagne ou la combinaison de campagnes. Dans la figure, le Ménage incrémentiel atteint par A, C est A+C.
+* Foyer incrémentiel (chevauchement) est le foyer unique atteint par la campagne ou la combinaison de campagnes. Sur la figure, le Ménage incrémentiel atteint par A, C est A+C.
 
 ## Workflow
 
