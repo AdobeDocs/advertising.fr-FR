@@ -3,16 +3,14 @@ title: Paramètres de publicité vidéo universelle
 description: Reportez-vous à la description des paramètres d’annonce disponibles pour les publicités vidéo universelles.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 0c9e9c8d2a3444c623568d25262421be53c0c846
+source-git-commit: d4af504a84d8fb356b2aca6d324e20fc0fb8fbbe
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
 
 # Paramètres de publicité vidéo universelle
-
-*Fonctionnalité bêta ouverte*
 
 >[!NOTE]
 >
