@@ -3,9 +3,9 @@ title: Archivage ou désarchivage d’un module
 description: Découvrez comment archiver ou désarchiver un package.
 feature: DSP Packages
 exl-id: 12d1b498-2239-401a-8571-9210956e32b2
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,5 @@ Vous pouvez à tout moment désarchiver un package afin de restaurer son état p
 >
 >* [Modification d’un module](package-edit.md)
 >* [Affichage du journal des modifications d’un module](package-change-log.md)
+>* [Mettre en pause ou activer un module](package-pause-activate.md)
 

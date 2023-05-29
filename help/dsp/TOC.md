@@ -8,9 +8,9 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: ce26d622bde31f289466c581a85724b93e4eae62
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '902'
 ht-degree: 6%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 6%
       + [Modifier une campagne](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [Dupliquer une campagne](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
       + [Affichage d’un rapport détaillé pour une campagne](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+      + [Mettre en pause ou activer une campagne](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)
       + [Archivage ou désarchivage d’une campagne](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
       + [Affichage du journal des modifications d’une campagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [Paramètres de campagne](/help/dsp/campaign-management/campaigns/campaign-settings.md)
@@ -56,6 +57,7 @@ ht-degree: 6%
       + [Modification d’un module](/help/dsp/campaign-management/packages/package-edit.md)
       + [Dupliquer un package](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [Joindre un emplacement à un package](/help/dsp/campaign-management/packages/package-attach-placement.md)
+      + [Mettre en pause ou activer un module](/help/dsp/campaign-management/packages/package-pause-activate.md)
       + [Archivage ou désarchivage d’un module](/help/dsp/campaign-management/packages/package-archive-unarchive.md)
       + [Affichage du journal des modifications d’un module](/help/dsp/campaign-management/packages/package-change-log.md)
       + [Paramètres du module](/help/dsp/campaign-management/packages/package-settings.md)
@@ -83,6 +85,7 @@ ht-degree: 6%
       + [Joindre une publicité à un emplacement](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Affichage d’un rapport détaillé pour une publicité](/help/dsp/campaign-management/ads/ad-view-report.md)
+      + [Mettre une publicité en pause ou l’activer](/help/dsp/campaign-management/ads/ad-pause-activate.md)
       + [Archivage ou désarchivage d’une publicité](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
       + Paramètres de publicité {#ad-settings}
          + [Paramètres de publicité audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)

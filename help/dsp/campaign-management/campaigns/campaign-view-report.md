@@ -3,9 +3,9 @@ title: Affichage d’un rapport détaillé pour une campagne
 description: Découvrez comment ouvrir un rapport au niveau de la campagne avec des sections sur la géographie, l’appareil, la visibilité et les données de performances de l’audience.
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,5 @@ Le <!--legacy --> le rapport au niveau de la campagne comprend une présentation
 >* [À propos des rapports In-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
 >* [Affichage du journal des modifications d’une campagne](campaign-change-log.md)
+>* [Mettre en pause ou activer une campagne](campaign-pause-activate.md)
 

@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 947b60c7c45a2994c1ab6020cd093780faa19864
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1331'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
+| 29 mai 2023 | [!UICONTROL Campaigns] | Vous pouvez désormais suspendre ou activer des campagnes, des packages et des publicités. Vous pouvez déjà suspendre et activer des emplacements. | Voir &quot;[Mettre en pause ou activer une campagne](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md),&quot;[Mettre en pause ou activer un module](/help/dsp/campaign-management/packages/package-pause-activate.md),&quot; et &quot;[Mettre une publicité en pause ou l’activer](/help/dsp/campaign-management/ads/ad-pause-activate.md).&quot; |
 | 24 mai 2023 | [!UICONTROL Campaigns] | Les emplacements et publicités vidéo universels sont désormais disponibles en général. | Voir &quot;[Questions fréquentes sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md),&quot;[Paramètres de publicité vidéo universelle](/help/dsp/campaign-management/ads/ad-settings-universal-video.md),&quot; et &quot;[Créer une publicité](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | Mars 2023 | [!UICONTROL Reports] | Une nouvelle [!UICONTROL Household Report] affiche les impressions, la portée et la fréquence sur différentes dimensions au niveau d’un foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil/d’un cookie. Le rapport comprend neuf dimensions : [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length], et créé par l’utilisateur [!UICONTROL Tags]. | Voir &quot;[À propos des rapports](/help/dsp/reports/report-about.md),&quot;[Paramètres des rapports](/help/dsp/reports/report-settings.md),&quot; et &quot;[Questions fréquentes à propos de [!UICONTROL Household] Rapport](/help/dsp/reports/faq-household-report.md).&quot; |
 | 20 mars 2023 | [!UICONTROL Campaigns] | En savoir plus sur les annonces et emplacements universels de vidéos, qui sont une fonctionnalité bêta ouverte. | Voir &quot;[Questions fréquentes sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md).&quot; |

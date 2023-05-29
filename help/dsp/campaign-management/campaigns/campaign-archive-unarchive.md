@@ -3,9 +3,9 @@ title: Archivage ou désarchivage d’une campagne
 description: Découvrez comment archiver ou désarchiver une campagne.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -36,3 +36,5 @@ Vous pouvez à tout moment désarchiver une campagne pour restaurer son état pr
 >
 >* [Modifier une campagne](campaign-edit.md)
 >* [Affichage du journal des modifications d’une campagne](campaign-change-log.md)
+>* [Mettre en pause ou activer une campagne](campaign-pause-activate.md)
+
