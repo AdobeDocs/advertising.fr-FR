@@ -1,7 +1,7 @@
 ---
 title: Modifier les paramètres directement dans une ligne
 description: Découvrez comment modifier les données dans les vues de gestion dans la ligne.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: cd5d4acf2319c1a0e9f9f1ead6e219b42d163077
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -25,4 +25,5 @@ ht-degree: 0%
    * (Valeurs de forme libre) Saisissez une nouvelle valeur, puis cliquez sur ![Enregistrer](/help/search-social-commerce/assets/select.png "Enregistrer") ou appuyez sur la touche **Entrée** clé.
    >[!MORELIKETHIS]
    >
-   >*[Créer et modifier des données de campagne en bloc à l’aide de la fonction Copier et coller](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+   >* [Créer et modifier des données de campagne en bloc à l’aide de la fonction Copier et coller](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+
