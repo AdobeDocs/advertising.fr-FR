@@ -9,7 +9,7 @@ user-guide-description: Ce guide explique les principales fonctionnalités, tâc
 breadcrumb-title: Guide de Advertising Search, Social et Commerce
 index: false
 hide: true
-source-git-commit: cd8367fbae2234cfdb937c5da8f21f94a615e92a
+source-git-commit: c42ad5b5944f9595431786e05dbab670f1eab02e
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 0%
@@ -404,5 +404,5 @@ ht-degree: 0%
       + [Afficher les propriétés de transaction suivies pour un annonceur](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
       + [Modification des propriétés de transaction disponibles dans les vues de gestion et les rapports](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)
       + [Modification du nom d’affichage d’une propriété de transaction](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md)
-   + [Obtenir de l’aide](get-help.md)
-   + [Glossaire](glossary.md)
++ [Obtenir de l’aide](get-help.md)
++ [Glossaire](glossary.md)
