@@ -3,8 +3,8 @@ title: Nouveautés
 description: Découvrez les dernières mises à jour et les nouvelles fonctionnalités de Advertising Search, Social et Commerce.
 cloud: Experience Cloud
 product: advertising cloud
-hide: true
-source-git-commit: d4cc25967f1e0738f7b7d74f33fe90eeabfeea1c
+index: false
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 1%
@@ -12,8 +12,6 @@ ht-degree: 1%
 ---
 
 # Nouveautés
-
-<!-- index: no -->
 
 Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 

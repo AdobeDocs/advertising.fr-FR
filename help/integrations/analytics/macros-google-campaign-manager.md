@@ -3,7 +3,7 @@ title: Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Google Campaig
 description: Découvrez pourquoi et comment ajouter [!DNL Analytics for Advertising] des macros à [!DNL Google Campaign Manager 360] balises publicitaires
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -41,10 +41,10 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 ```
 
 >[!NOTE]
->
->
 >* Si l’URL de la page d’entrée contient un symbole de hachage (#), qui n’est pas courant, placez la variable `amo` avant le symbole de hachage.
->* Si aucun autre paramètre n’est inclus après l’événement `amo` , puis ajoutez un paramètre (par exemple, &amp;a=b) après. Exemple :`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
+
+>
+>* >Si aucun autre paramètre n’est inclus après l’événement `amo` , puis ajoutez un paramètre (par exemple, &amp;a=b) après. Exemple :`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 
 ### Configuration du suffixe d’URL de page d’entrée au niveau des annonceurs
@@ -83,8 +83,7 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 Lorsqu’un utilisateur clique sur la publicité, [!DNL Google Campaign Manager 360] see `%pamo` dans le suffixe d’URL et insère dynamiquement la valeur de la variable `amo` dans l’URL.
 
 >[!MORELIKETHIS]
->
->* [Présentation de [!DNL Analytics for Advertising]](overview.md)
->* [Adobe des identifiants publicitaires utilisés par [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Flashtalking] Balises publicitaires](macros-flashtalking.md)
+* [Présentation de [!DNL Analytics for Advertising]](overview.md)
+* [Adobe des identifiants publicitaires utilisés par [!DNL Analytics]](/help/integrations/analytics/ids.md)
+* [Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Flashtalking] Balises publicitaires](macros-flashtalking.md)
 
