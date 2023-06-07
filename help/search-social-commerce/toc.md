@@ -9,9 +9,9 @@ user-guide-description: Ce guide explique les principales fonctionnalités, tâc
 breadcrumb-title: Guide de Advertising Search, Social et Commerce
 index: false
 hide: true
-source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
+source-git-commit: ba0604f0c8f07cad70aa1af66fe24db3ec8e541d
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1721'
 ht-degree: 0%
 
 ---
@@ -369,7 +369,11 @@ ht-degree: 0%
       + [Affichage d’alertes personnalisées](/help/search-social-commerce/alerts/alert-view.md)
       + [Exporter des données pour des alertes personnalisées](/help/search-social-commerce/alerts/alert-export-data.md)
    + [Afficher le rapport Historique des modifications](/help/search-social-commerce/reports/change-history-view.md)
-   + Recommendations {#recommendations}
+   + Informations sur Recommendations et les éditeurs {#recommendations}
+      + [À propos de la prise en charge des recommandations et des insights de l’éditeur](/help/search-social-commerce/recommendations/recommendation-support.md)
+      + [Affichez le journal des recommandations d’une [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
+      + [Appliquer ou ignorer une [!DNL Google Ads] recommandation](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
+      + [Bonnes pratiques relatives à l’utilisation des recommandations et des insights d’éditeur avec les portefeuilles](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + Outils {#tools}
    + [Modifier votre mot de passe](/help/search-social-commerce/tools/password-change.md)
    + Outils de création et de décodage des balises de suivi{#tracking}

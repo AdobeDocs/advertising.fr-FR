@@ -1,9 +1,9 @@
 ---
 title: Appliquer ou ignorer une [!DNL Google Ads] recommandation
 description: Découvrez comment afficher une [!DNL Google Ads] et comment appliquer ou rejeter la recommandation.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Affichez les actions recommandées et une explication des avantages des actions 
 >
 >Bien que les recommandations vous aident à améliorer les performances des campagnes, certaines peuvent ne pas correspondre à vos objectifs plus généraux. Par conséquent, il est préférable de consulter votre équipe de compte d’Adobe avant de mettre en oeuvre une recommandation.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
-1. Dans le coin supérieur droit, sélectionnez le compte.
+1. Dans le coin supérieur droit, sélectionnez le réseau publicitaire et le compte.
 
 1. (Facultatif) Filtrez les recommandations par catégorie et par type.
 
@@ -36,7 +36,7 @@ Affichez les actions recommandées et une explication des avantages des actions 
 
 >[!MORELIKETHIS]
 >
->* [Bonnes pratiques relatives à l’utilisation [!DNL Google Ads] recommandations avec des portfolios Search, Social et Commerce](google-recommendation-best-practices.md)
->* [A propos [!DNL Google Ads] prise en charge des recommandations](google-recommendation-support.md)
+>* [À propos de la prise en charge des recommandations et des insights de l’éditeur](recommendation-support.md)
 >* [Affichez le journal des recommandations d’une [!DNL Google Ads] account](google-recommendation-view-log.md)
+>* [Bonnes pratiques relatives à l’utilisation des recommandations et des insights d’éditeur avec les portefeuilles](recommendation-best-practices.md)
 
