@@ -1,9 +1,9 @@
 ---
 title: Gestion des fichiers de flux de données d’inventaire
 description: Découvrez comment configurer les paramètres qui contrôlent le traitement des données de flux.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a0cdc0de763feeafdea57e4233b48a2c39449e1f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Vous pouvez ouvrir ou télécharger un fichier de flux qui a été chargé manue
 
 Pour plus d’informations, voir l’aide en ligne de votre navigateur.
 
-## Chargement manuel d’un fichier de flux [#feed-file-upload]
+## Chargement manuel d’un fichier de flux {#feed-file-upload}
 
 >[!NOTE]
 > Si vous associez un modèle à un fichier téléchargé manuellement, puis que vous transférez par FTP un autre fichier portant le même nom, l’extension de fichier et la même casse grammaticale, le fichier FTP est alors utilisé lorsque vous propagez les données par le biais du modèle. Par exemple, myfile.csv remplace myfile.csv, mais Myfile.CSV ne le remplace pas.
