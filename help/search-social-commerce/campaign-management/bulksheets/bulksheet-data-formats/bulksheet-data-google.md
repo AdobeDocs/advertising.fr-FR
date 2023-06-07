@@ -1,9 +1,9 @@
 ---
 title: Données de feuille d’envoi groupé requises pour [!DNL Google Ads] comptes
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour [!DNL Google Ads] comptes.
-source-git-commit: 05a3424b67d084dbb664321c7a6ada0f99a840b2
+source-git-commit: e06d89ce5d7995bf3abc3ff1312a4a2c2c7448f1
 workflow-type: tm+mt
-source-wordcount: '6628'
+source-wordcount: '6630'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,32 @@ Pour créer et mettre à jour [!DNL Google Ads] les données de campagne en bloc
 
 ### Champs de campagne
 
-| Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. | | Nom de la campagne | Obligatoire | Nom unique qui identifie une campagne pour un compte. | | Budget de la campagne | Obligatoire : Créer<br><br>>Facultatif : Modification ou suppression | Une limite de dépenses journalière pour la campagne, avec ou sans symboles monétaires et ponctuation. Cette valeur remplace mais ne peut pas dépasser le budget du compte. | | Méthode de diffusion | Obligatoire : Créer<br><br>Facultatif : Modification ou suppression | | Type de canal | Obligatoire : Créer<br><br>Facultatif : Modification ou suppression | | Réseaux | Obligatoire : Créer<br><br>Facultatif : Modification ou suppression | | Nom de domaine DSA | Obligatoire : Créer<br><br>Facultatif : Modification ou suppression | | Langue du domaine DSA | Obligatoire : Créer<br><br>Facultatif : Modification ou suppression | | Priorité de la campagne | Obligatoire/Facultatif : Créer<br><br>Facultatif/s/a : Modification ou suppression | | Identifiant commercial | Obligatoire/Facultatif : Créer<br><br>Facultatif/s/a : Modification ou suppression | | Pays des ventes | Obligatoire/Facultatif : Créer<br><br>Facultatif/s/a : Modification ou suppression | | Filtre de portée du produit | Facultatif | | Langues | Facultatif | | Cibles de périphériques | Facultatif | | Cibles du système d’exploitation de l’appareil (mots-clés Google) | Facultatif | | Opérateurs de téléphonie mobile (mots-clés Google) | Facultatif | | Méthode de ciblage d’audience | n/a | | Suffixe de page d’entrée | <p>Facultatif | | Modèle de suivi | Facultatif | | État de la campagne | Facultatif : Créer ou modifier<br><br>Obligatoire : Supprimer | | \[Classification d’étiquette spécifique au annonceur\] | Facultatif | | Contraintes | Facultatif | | ID de campagne | Obligatoire uniquement lorsque vous modifiez le nom de la campagne, à moins que la ligne ne contienne un &quot;AMO ID&quot; pour la campagne. | | AMO ID | n/a : Créer<br><br>Obligatoire/Facultatif : Modification ou suppression |
+| Champ | Obligatoire ? |
+| ---- | ---- |
+| Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
+| Nom de la campagne | Obligatoire | Nom unique qui identifie une campagne pour un compte. |
+| Budget de la campagne | Obligatoire : Créer<br><br>>Facultatif : Modification ou suppression | Une limite de dépenses journalière pour la campagne, avec ou sans symboles monétaires et ponctuation. Cette valeur remplace mais ne peut pas dépasser le budget du compte. |
+| Méthode de diffusion | Obligatoire : Créer<br><br>Facultatif : Modification ou suppression |
+| Type de canal | Obligatoire : Créer<br><br>Facultatif : Modification ou suppression |
+| Réseaux | Obligatoire : Créer<br><br>Facultatif : Modification ou suppression |
+| Nom de domaine DSA | Obligatoire : Créer<br><br>Facultatif : Modification ou suppression |
+| DSA Domain Language | Obligatoire : Créer<br><br>Facultatif : Modification ou suppression |
+| Priorité de la campagne | Obligatoire/Facultatif : Créer<br><br>Facultatif/s/a : Modification ou suppression |
+| Identifiant du marchand | Obligatoire/Facultatif : Créer<br><br>Facultatif/s/a : Modification ou suppression |
+| Pays des ventes | Obligatoire/Facultatif : Créer<br><br>Facultatif/s/a : Modification ou suppression |
+| Filtre de portée du produit | Facultatif |
+| Langues | Facultatif |
+| Cibles d’appareil | Facultatif |
+| Cibles du système d’exploitation de l’appareil (mots-clés Google) | Facultatif |
+| Opérateurs de téléphonie mobile (mots-clés Google) | Facultatif |
+| Méthode de ciblage d’audience | n/a |
+| Suffixe de page d’entrée | <p>Facultatif |
+| Modèle de suivi | Facultatif |
+| État de la campagne | Facultatif : Créer ou modifier<br><br>Obligatoire : Supprimer |
+| \[Classification d’étiquette spécifique au annonceur\] | Facultatif |
+| Contraintes | Facultatif |
+| Identifiant de campagne | Obligatoire uniquement lorsque vous modifiez le nom de la campagne, à moins que la ligne ne contienne un &quot;AMO ID&quot; pour la campagne. |
+| AMO ID | n/a : Créer<br><br>Obligatoire/Facultatif : Modification ou suppression |
 
 ### Champs d’un groupe publicitaire
 
@@ -144,10 +169,10 @@ Pour créer et mettre à jour [!DNL Google Ads] les données de campagne en bloc
 
 ### Keyword fields
 
-Campaign Name
-Ad Group Name
-Keyword Status
-Max CPC
+| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
+| Campaign Name | Required |
+| Ad Group Name | Required  |
+| Max CPC | Optional |
 Tracking Template
 URLs (Base URL/Final URL, Destination URL)
 Exemption Request (Google Adwords)
@@ -159,6 +184,7 @@ Param2
 Quality Score
 Custom URL Param
 Label Classification
+Keyword Status
 
 | Field | Required? | Description |
 | ---- | ---- | ---- |
