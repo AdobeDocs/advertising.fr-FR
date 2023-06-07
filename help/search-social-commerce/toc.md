@@ -9,9 +9,9 @@ user-guide-description: Ce guide explique les principales fonctionnalités, tâc
 breadcrumb-title: Guide de Advertising Search, Social et Commerce
 index: false
 hide: true
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1690'
 ht-degree: 0%
 
 ---
@@ -372,12 +372,11 @@ ht-degree: 0%
    + Recommendations {#recommendations}
 + Outils {#tools}
    + [Modifier votre mot de passe](/help/search-social-commerce/tools/password-change.md)
-   + Outils de suivi des balises {#tracking}
-      + [Outils de création et de décodage du suivi pixels]{#pixel}
-         + [A propos des outils de création et de décodage des balises de suivi](/help/search-social-commerce/tools/tracking-tools-about.md)
-         + [Génération d’une URL de suivi des clics](/help/search-social-commerce/tools/click-tracking-url-generate.md)
-         + [Décodage d’une URL de suivi des clics](/help/search-social-commerce/tools/click-tracking-url-decode.md)
-         + [Génération d’une balise de conversion Advertising Adobe](/help/search-social-commerce/tools/conversion-tag-generate.md)
+   + Outils de création et de décodage des balises de suivi{#tracking}
+      + [A propos des outils de création et de décodage des balises de suivi](/help/search-social-commerce/tools/tracking-tools-about.md)
+      + [Génération d’une URL de suivi des clics](/help/search-social-commerce/tools/click-tracking-url-generate.md)
+      + [Décodage d’une URL de suivi des clics](/help/search-social-commerce/tools/click-tracking-url-decode.md)
+      + [Génération d’une balise de conversion Advertising Adobe](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + Chargement des données de conversion vers les réseaux publicitaires {#upload-ad-networks}
       + [Chargement des mesures de conversion dans [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [Activer le téléchargement des objectifs vers les réseaux publicitaires](/help/search-social-commerce/tools/objective-upload-to-networks.md)
