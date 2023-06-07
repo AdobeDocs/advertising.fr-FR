@@ -1,7 +1,7 @@
 ---
 title: Données de feuille d’envoi groupé requises pour [!DNL Google Ads] comptes
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour [!DNL Google Ads] comptes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f7ac5c69f96582d7f9a442a05c333baecc2215df
 workflow-type: tm+mt
 source-wordcount: '6276'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Pour créer et mettre à jour [!DNL Google Ads] les données de campagne en bloc
 {{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
 
 | Champ | Description |
-| ---- | ---- | ---- |
+| ---- | ---- |
 | Plateforme | (Inclus dans les feuilles d’envoi groupées générées à des fins d’information) La plateforme publicitaire. Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
 | Nom du compte | Nom unique qui identifie un compte réseau publicitaire. Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
 | Nom de la campagne | Nom unique qui identifie une campagne pour un compte. |
