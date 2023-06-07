@@ -1,7 +1,7 @@
 ---
 title: Inventaire pris en charge
 description: Référencez les réseaux publicitaires, les types de campagne et les types d’annonces pris en charge.
-source-git-commit: 95c7e67bb6f065567302f266959295ce8125c624
+source-git-commit: 2e16159c3d7d973a12a94128b41ebd05539b2f02
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 Vous trouverez ci-dessous les réseaux publicitaires, les types de campagne et les types d’annonces pris en charge, ainsi que les fonctionnalités disponibles pour chacun d’eux.
 
 | Source | Réseau | Type de campagne | Type de publicité | Synchronisation et affichage | Créer/modifier | Suivi[^1] | Optimiser | Rapport[^2] | Prise en charge d’Adobe Analytics[^3] |
-|----|----|----|----|----|----|----|----|----|----|----|
+|----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu] | Réseau de recherche | Manuel | Texte | Automatique via l’API | Utilisation [vues de gestion de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) et [bulles](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Oui | Campagnes avec stratégie d&#39;offre CPC manuelle uniquement | Données au niveau de la publicité | Données Analytics dans Search, Social et Commerce<br><br>Données au niveau des publicités de Search, Social, &amp; Commerce vers Analytics |
 | [!DNL Google Ads] | Tous [!DNL Google] flux | Découverte (fonctionnalité bêta) | Découverte (publicités d’une seule image)<br><br>Carrousel de détection (annonces carrousel multi-images) | Automatique via l’API | — | Oui | Dans les portefeuilles hybrides uniquement<br><br>Les cibles Offres et Stratégie d’offre sont définies au niveau de l’opération, ainsi que les budgets de l’opération, selon le type d’optimisation appliqué. | Données au niveau de la publicité | Données au niveau de l’annonce dans Search, Social et Commerce (à l’aide de la mise à niveau [code de suivi s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)[^4]<br><br>Données au niveau des publicités de Search, Social, &amp; Commerce vers Analytics |
 |  | Tous | Performance maximale standard (fonctionnalité bêta) | Tous les types | Automatique via l’API | Créer/modifier une campagne et charger des ressources publicitaires dans les paramètres de campagne dans la vue Campagnes<br><br>Seuls les paramètres requis sont disponibles. Pour les paramètres facultatifs et les groupes de liste, connectez-vous à [!DNL [!DNL Google Ads] Publicités] . | Oui | Dans les portefeuilles hybrides uniquement<br><br>Les cibles de la stratégie d’offre sont définies au niveau de l’opération, ainsi que les budgets de l’opération. | Données au niveau de la campagne<br><br>Les données relatives aux groupes répertoriés ne sont pas disponibles et le réseau publicitaire ne fournit pas de données au niveau de l’annonce. | Données Analytics dans Search, Social et Commerce<br><br>Données au niveau de la campagne, de Search, Social et Commerce à Analytics. Nécessite la mise à niveau [code de suivi s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). |
