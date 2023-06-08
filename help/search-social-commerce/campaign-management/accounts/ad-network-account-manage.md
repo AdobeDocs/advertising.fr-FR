@@ -1,9 +1,9 @@
 ---
 title: Gestion des comptes de réseau publicitaire
 description: Découvrez comment configurer et gérer les détails du compte pour un compte réseau publicitaire.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2080'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Pour activer la synchronisation ou le suivi d’un compte, vous devez créer un 
 
    1. Dans le **[!UICONTROL Account Details]** , saisissez les détails du compte.
 
-      Pour les réseaux publicitaires qui utilisent le type d’autorisation de connexion &quot;[!UICONTROL oAuth],&quot; permettent à Search, Social et Commerce d’accéder au compte à l’aide de la variable [Protocole d’autorisation OAuth](http://tools.ietf.org/html/draft-ietf-oauth-v2-22):
+      Pour les réseaux publicitaires qui utilisent le type d’autorisation de connexion &quot;[!UICONTROL oAuth],&quot; permettent à Search, Social et Commerce d’accéder au compte à l’aide de la variable [Protocole d’autorisation OAuth](https://oauth.net/2/):
 
       1. Saisissez le **[!UICONTROL Login]** pour le compte, saisissez éventuellement le mot de passe, puis cliquez sur **[!UICONTROL Authenticate]**.
 
@@ -45,8 +45,8 @@ Pour activer la synchronisation ou le suivi d’un compte, vous devez créer un 
       1. Copiez la chaîne d’authentification dans la fenêtre contextuelle qui s’ouvre, puis collez-la dans le **[!UICONTROL oAuth Token]** champ .
 
       1. Indiquez les détails restants du compte.
-   1. Cliquez sur **[!UICONTROL Set Account Tracking]**, puis saisissez les paramètres de suivi.
 
+   1. Cliquez sur **[!UICONTROL Set Account Tracking]**, puis saisissez les paramètres de suivi.
 
 1. Cliquez sur **[!UICONTROL Post]**.
 
@@ -82,7 +82,7 @@ Si les informations d’identification du compte changent, vous souhaitez modifi
 
 *Rôles utilisateur du gestionnaire de compte de l’agence, du gestionnaire de compte d’Adobe et de l’administrateur uniquement*
 
-Si Search, Social et Commerce accède au compte à l’aide de la variable [Protocole d’autorisation OAuth](http://tools.ietf.org/html/draft-ietf-oauth-v2-22) et les informations d’identification du compte changent, ou si un accès supplémentaire est nécessaire pour prendre en charge les nouvelles fonctionnalités de Search, Social et Commerce, vous devez obtenir un nouveau jeton d’accès pour le compte.
+Si Search, Social et Commerce accède au compte à l’aide de la variable [Protocole d’autorisation OAuth](https://oauth.net/2/) et les informations d’identification du compte changent, ou si un accès supplémentaire est nécessaire pour prendre en charge les nouvelles fonctionnalités de Search, Social et Commerce, vous devez obtenir un nouveau jeton d’accès pour le compte.
 
 Votre équipe de compte d’Adobe vous informera si de nouvelles fonctionnalités nécessitent un nouveau jeton.
 
@@ -146,7 +146,7 @@ Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commer
 
 **[!UICONTROL Login Details]: \[Type de connexion\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] uniquement) Si vous souhaitez autoriser des connexions au compte à l’aide des éléments suivants :
 
-* *[!UICONTROL oAuth]* (valeur par défaut) : Pour utiliser la variable [[!DNL OAuth] protocole d’autorisation](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* (valeur par défaut) : Pour utiliser la variable [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/).
 
 * *[!UICONTROL Password]:* Pour utiliser le mot de passe du client.
 
@@ -154,7 +154,7 @@ Pour [!DNL Microsoft Advertising] comptes, uniquement [!DNL oAuth]-authorized lo
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** (Tous les réseaux publicitaires sauf [!DNL Naver]) Nom ou identifiant de connexion pour activer l’accès de l’API au compte.
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled et tous les autres réseaux, à l’exception de [!DNL Baidu], [!DNL Meta], et [!DNL Yandex]) Jeton du compte pour autoriser les connexions à l’aide de la variable [[!DNL OAuth] protocole d’autorisation](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled et tous les autres réseaux, à l’exception de [!DNL Baidu], [!DNL Meta], et [!DNL Yandex]) Jeton du compte pour autoriser les connexions à l’aide de la variable [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/).
 
 **[!UICONTROL Login Details]: [!UICONTROL Password]:** (Tous les réseaux publicitaires sauf [!DNL Naver]) Mot de passe du compte. Pour les comptes activés par mot de passe sur [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], et [!DNL Yandex], ce champ est obligatoire. Pour [!DNL oAuth]comptes activés, ce champ est facultatif ; utilisez-le lorsque vous souhaitez chiffrer et enregistrer le mot de passe afin que le gestionnaire de compte puisse actualiser les jetons si nécessaire.
 
@@ -172,7 +172,6 @@ Les comptes qui utilisent le suivi des clics Advertising Adobe doivent inclure l
 >
 >* Ce champ n’est pas mis à jour par la variable [!UICONTROL Auto Upload] paramètre de suivi.
 >* Les suffixes d’URL finaux aux niveaux inférieurs remplacent le suffixe au niveau du compte. Pour faciliter la maintenance, utilisez uniquement le suffixe au niveau du compte, sauf si un suivi différent pour les composants de compte individuels est nécessaire. Pour configurer un suffixe au niveau du groupe publicitaire ou inférieur, utilisez l’éditeur du réseau publicitaire.
-
 
 **Fuseau horaire :** (Tous les réseaux publicitaires sauf [!DNL Baidu] et [!DNL Yahoo! Display Network]) Fuseau horaire de l’annonceur. Ce champ est modifiable et facultatif pour la nouvelle [!DNL Naver] comptes. Pour tous les autres réseaux de recherche, la valeur est automatiquement renseignée avec le fuseau horaire configuré pour le compte Search, Social, &amp; Commerce de l’annonceur une fois que vous avez enregistré l’enregistrement.
 
@@ -200,7 +199,6 @@ Les comptes qui utilisent le suivi des clics Advertising Adobe doivent inclure l
 >* Pour [!DNL Google Ads], évitez d’utiliser des macros, qui ne se substituent pas aux clics provenant de sources qui activent le suivi parallèle. Si l’annonceur doit utiliser des macros, l’équipe du compte d’Adobe doit collaborer avec le service clientèle ou l’équipe de mise en oeuvre pour les ajouter.
 >* Le modèle de suivi au niveau le plus granulaire remplace les valeurs à tous les niveaux supérieurs. Par exemple, si les paramètres du compte et les paramètres du mot-clé incluent tous deux une valeur, la valeur du mot-clé est appliquée.
 >* Si vous mettez à jour un modèle de suivi au niveau de la publicité, du lien de site ou du mot-clé, les publicités pertinentes sont soumises à nouveau pour révision. Vous pouvez mettre à jour vos modèles de suivi au niveau du compte, de la campagne ou du groupe publicitaire sans soumettre à nouveau vos publicités pour approbation.
-
 
 **[!UICONTROL Master Account ID]:** ([!DNL Microsoft Advertising] Comptes uniquement) L’identifiant d’un compte d’agence/de gestion associé au compte.
 
@@ -259,4 +257,3 @@ Pour que les données s’affichent dans les suites de rapports, soit (a) le s\_
 >* [A propos des comptes de réseau publicitaire](ad-network-account-about.md)
 >* [Gestion des comptes de centre commercial](merchant-account-manage.md)
 >* [Mettez à jour le code de suivi s\_kwcid pour un événement [!DNL Google Ads] account](update-skwcid-google.md)
-

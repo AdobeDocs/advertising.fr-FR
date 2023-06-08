@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Yahoo! Japan Ads] paramètres de mots-clés"
 description: Référencez les paramètres pour [!DNL Yahoo! Japan Ads] mots-clés.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés. Séparez plusieurs mot
 >* Vous pouvez créer des mots-clés négatifs à partir du [!UICONTROL Keywords] > [!UICONTROL Negatives] afficher et dans les paramètres du groupe publicitaire et de la campagne.
 >* Yahoo ! Les mots-clés japonais et les types de correspondance sont modifiables, ce qui signifie que vous pouvez les modifier sans supprimer le mot-clé existant.
 
-
 **[!UICONTROL Status]:** L’état d’affichage du mot-clé : *Principal* ou *En pause*. La valeur par défaut des nouveaux mots-clés est *Principal*.
 
 ## [!UICONTROL Bids]
@@ -32,9 +31,9 @@ Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés. Séparez plusieurs mot
 
 ## Espaces réservés
 
-**[!UICONTROL Param1]:** Chaîne à utiliser comme valeur de substitution si l’URL de base ou le modèle de suivi contient le paramètre `{param1}` [paramètre personnalisé](https://help.marketing.yahoo.co.jp/en?p=7195#customp).
+**[!UICONTROL Param1]:** Chaîne à utiliser comme valeur de substitution si l’URL de base ou le modèle de suivi contient le paramètre `{param1}` [paramètre personnalisé](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
-**[!UICONTROL Param2]:** Chaîne à utiliser comme valeur de substitution si l’URL de base ou le modèle de suivi contient le paramètre `{param2}` [paramètre personnalisé](https://help.marketing.yahoo.co.jp/en?p=7195#customp).
+**[!UICONTROL Param2]:** Chaîne à utiliser comme valeur de substitution si l’URL de base ou le modèle de suivi contient le paramètre `{param2}` [paramètre personnalisé](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
 ## Options d’URL
 
@@ -49,4 +48,3 @@ Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés. Séparez plusieurs mot
 >[!MORELIKETHIS]
 >
 >* [Gestion des mots-clés](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

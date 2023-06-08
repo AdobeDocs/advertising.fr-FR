@@ -1,9 +1,9 @@
 ---
 title: Gestion des comptes de commerce
 description: Découvrez comment configurer et gérer les détails d’un compte de centre commercial.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Pour afficher les données de produit et générer des modèles de suivi pour un
 
    1. Dans le [!UICONTROL Product Source] sélectionnez le centre commercial.
 
-   1. (Obligatoire pour [!DNL Google Ads] les comptes; facultatif pour [!DNL Microsoft Advertising] ) Autoriser Search, Social et Commerce à accéder au compte à l’aide de la variable [[!DNL OAuth] protocole d’autorisation](http://tools.ietf.org/html/draft-ietf-oauth-v2-22):
+   1. (Obligatoire pour [!DNL Google Ads] les comptes; facultatif pour [!DNL Microsoft Advertising] ) Autoriser Search, Social et Commerce à accéder au compte à l’aide de la variable [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] Comptes uniquement) Sélectionnez **[!UICONTROL oAuth]**.
 
@@ -98,13 +98,13 @@ Lorsque vous désactivez un compte marchand, Search, Social et Commerce ne se co
 
 **[!UICONTROL Product Source]:** Le réseau marchand. Vous ne pouvez pas modifier la valeur d’un compte existant.
 
-**[!UICONTROL OAuth Token]:** ([!DNL Google Merchant Center] uniquement) Jeton du compte pour autoriser les connexions à l’aide de la variable [[!DNL OAuth] protocole d’autorisation](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL OAuth Token]:** ([!DNL Google Merchant Center] uniquement) Jeton du compte pour autoriser les connexions à l’aide de la variable [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/).
 
 **[!UICONTROL Auth Type]:** ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] uniquement) Si vous souhaitez autoriser des connexions au compte à l’aide des éléments suivants :
 
 * *[!UICONTROL Client login]:* Pour utiliser la connexion du client.
 
-* *[!UICONTROL oAuth]* (valeur par défaut) : Pour utiliser la variable [[!DNL OAuth] protocole d’autorisation](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* (valeur par défaut) : Pour utiliser la variable [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/).
 
 **[!UICONTROL Access Key]:** ([!DNL Microsoft Merchant Center] uniquement) La clé d’accès du compte de développeur à utiliser.
 
@@ -130,4 +130,3 @@ Lorsque vous désactivez un compte marchand, Search, Social et Commerce ne se co
 >
 >* [A propos des comptes de réseau publicitaire](ad-network-account-about.md)
 >* [Gestion des comptes de réseau publicitaire](ad-network-account-manage.md)
-
