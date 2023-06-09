@@ -1,14 +1,14 @@
 ---
 title: Méthode de calcul des règles d’attribution
 description: Découvrez comment l’Adobe Advertising calcule chaque type de règle d’attribution.
-source-git-commit: 6436866ae7684a330f74c14e58ee30d365de80a1
+source-git-commit: d4237253af7110a3ed02595c466c01359f5601d4
 workflow-type: tm+mt
-source-wordcount: '2431'
+source-wordcount: '2439'
 ht-degree: 0%
 
 ---
 
-# Méthode de calcul des règles d’attribution pour l’Adobe Advertising
+# Méthode de calcul des règles d’attribution pour Adobe Advertising
 
 *Publicitaires avec suivi de conversion Adobe Advertising uniquement*
 
@@ -209,7 +209,7 @@ La série d’événements comprenant à la fois des impressions et des clics, l
 
 Attribution : Impression 1 = 6 USD, clic 1 = 54 USD, impression 2 = 6 USD, clic 2 = 54 USD (120 USD au total)
 
-#### Utilisation (Adobe Advertising DSP uniquement) de l’option Poids de remplacement d’impression ou (Recherche, Social et Commerce uniquement) d’un &quot;Poids de remplacement d’impression&quot; de 0 %
+#### Utilisation (par Adobe Advertising DSP uniquement) d’un poids de remplacement d’impression ou (recherche, Social et Commerce uniquement) d’un poids de remplacement d’impression de 0 %
 
 Comme la série d’événements comprenait à la fois des impressions et des clics, les impressions sont ignorées.
 
@@ -301,7 +301,7 @@ Lorsque le chemin de conversion inclut à la fois des clics payants et des impre
 
 * Dans DSP, les impressions sont ignorées et seuls les clics sont pondérés. DSP ne prend pas en compte les poids de remplacement d’impression pour l’attribution.
 
-<!-- ![U-shaped attribution percentages](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U-shaped event attribution percentages") -->
+![Pourcentages d’attribution en forme de U](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "Pourcentages d’attribution en forme de U")
 
 <!-- start examples as collapsible content -->
 
