@@ -1,9 +1,9 @@
 ---
 title: Colonnes de rapports pour les rapports de base et avancés
 description: Découvrez les colonnes de données disponibles pour les rapports de base et avancés.
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 7327c91b92b6471fa8da8767fc764de4226b4f91
 workflow-type: tm+mt
-source-wordcount: '3640'
+source-wordcount: '3653'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | Nombre d’impressions publicitaires au cours de la période spécifiée. |
 | [!UICONTROL Interaction Rate] | (Publicités vidéo) Nombre d’interactions divisé par le nombre de fois où la publicité (impressions vidéo et miniatures) a été affichée. |
 | [!UICONTROL Interactions] | (Publicités vidéo) Nombre de fois où des personnes ont regardé votre publicité. |
-| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <!-- ?????? insert definition --> |
+| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <i>true</i> lorsque le portfolio contient des campagnes avec la variable [!UICONTROL Maximize Clicks] stratégie d’offre et <i>false</i> dans le cas contraire. |
 | [!UICONTROL Keyword] | Mot-clé.<br><br><b>Remarque :</b> Si le rapport inclut des données provenant de groupes d’annonces dans des campagnes de recherche activées pour le contenu, cette colonne inclut les noms de groupes d’annonces applicables tels que &quot;(contenu de groupe d’annonces) Nom de votre groupe d’annonces&quot;. Pour un emplacement ciblé par un site dans une campagne de recherche, cette colonne ne comporte pas de valeur. |
 | [!UICONTROL Keyword ID] | Identifiant numérique attribué par Search, Social et Commerce au mot-clé. |
 | [!UICONTROL Keyword Status] | L’état du mot-clé auquel le terme recherché a été associé : <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Deleted]</i>ou <i>[!UICONTROL Disapproved]</i>. |
@@ -149,7 +149,7 @@ ht-degree: 0%
 | [!UICONTROL Product Groupings] | Groupe de produits parent. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] Liste de produits (publicités) Identifiant du produit affiché avec la publicité.<br><br><b>Remarque :</b> L’ID est capturé uniquement lorsque la liste de produits inclut le paramètre de suivi. `ev_plx=<GMC product ID>`, que vous devez ajouter dans [!DNL Google Merchant Center]. |
 | [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Le chiffre d’affaires de la propriété de transaction (1 pour un enregistrement ou 12 pour une commande de 12 USD). Si plusieurs unités d’offre ont le même ID de transaction, les recettes de l’ID de suivi sont fractionnées en fonction du nombre de clics à la date de clic spécifiée (lorsque les données de clic sont disponibles). |
-| [!UICONTROL Reach] | ([!DNL Meta] (publicités) Nombre de personnes qui ont vu vos publicités au moins une fois. Remarque : [!DNL Meta] les déduplications atteignent les profils utilisateur tous les jours, de sorte que les chiffres signalés par [!DNL Meta] et par Search, Social et Commerce peuvent différer. |
+| [!UICONTROL Reach] | ([!DNL Meta] publicités) Nombre de personnes qui ont vu vos publicités au moins une fois. Remarque : [!DNL Meta] les déduplications atteignent les profils utilisateur tous les jours, de sorte que les chiffres signalés par [!DNL Meta] et par Search, Social et Commerce peuvent différer. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) Région ou état américain/canadien d’où proviennent les impressions ou les clics. Il est déterminé à partir de l’adresse IP de l’utilisateur. |
 | [!UICONTROL SE Creative ID] | Identifiant de publicité attribué par le réseau. |
 | [!UICONTROL Search (Abs. Top) IS] | ([!DNL Google Ads] et [!DNL Microsoft Advertising]) Impressions que vous avez reçues au premier emplacement absolu (la toute première publicité au-dessus des résultats de la recherche organique), divisé par le nombre estimé d’impressions que vous pouviez recevoir au premier emplacement. Les pourcentages inférieurs à 10 % sont indiqués comme &quot;`<10%`&quot; ou &quot;`0.0999`.&quot; |
@@ -192,4 +192,3 @@ ht-degree: 0%
 >* [À propos des rapports de base et avancés](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
 >* [Génération d’un rapport de base ou avancé](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
 >* [Paramètres de base et avancés des rapports](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
-

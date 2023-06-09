@@ -9,9 +9,9 @@ user-guide-description: Ce guide explique les principales fonctionnalités, tâc
 breadcrumb-title: Guide de Advertising Search, Social et Commerce
 index: false
 hide: true
-source-git-commit: ba0604f0c8f07cad70aa1af66fe24db3ec8e541d
+source-git-commit: 71ffe30ca09a2be0def70fc230a4bfa7616c7bfa
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1722'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,10 @@ ht-degree: 0%
    + [Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md)
    + Intégration à Adobe Experience Cloud {#integrations}
       + [Intégration aux solutions et services Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)
-      + [Intégration à Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html)
-   + [Prise en charge de la confidentialité des utilisateurs (lien)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
-   + [Stratégies et directives (lien)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html)
+      + [Adobe [!DNL Analytics for Advertising] (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Intégration à Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [Prise en charge de la confidentialité des utilisateurs (lien)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Stratégies et directives (lien)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + Prise en main {#getting-started}
    + [Présentation de l’implémentation](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Configuration requise](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -85,7 +85,7 @@ ht-degree: 0%
             + [Formats de suivi des clics pour [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Formats de suivi des clics pour [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Paramètres de suivi facultatifs des URL de suivi des clics](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Cookies Adobe Advertising](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)
+      + [Adobe Advertising des cookies (lien)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [Le paramètre de suivi s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + Suivi des conversions {#conversion-tracking}
       + [Options de suivi des conversions](/help/search-social-commerce/tracking/conversion-tracking-about.md)
