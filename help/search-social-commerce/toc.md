@@ -9,9 +9,9 @@ user-guide-description: Ce guide explique les principales fonctionnalités, tâc
 breadcrumb-title: Guide de Advertising Search, Social et Commerce
 index: false
 hide: true
-source-git-commit: 71ffe30ca09a2be0def70fc230a4bfa7616c7bfa
+source-git-commit: 72dd7a51e024057a1135fa0cc641b236254c28d8
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
@@ -222,7 +222,6 @@ ht-degree: 0%
             + [Données de feuille d’envoi groupé requises pour [!DNL Yandex] comptes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + Automatisation des données de campagne à l’aide de flux de stock {#inventory-feeds}
          + [A propos de l’automatisation de la gestion des publicités à l’aide des flux d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
-         + [Workflow de gestion des données de campagne à l’aide de flux d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-workflow.md)
          + [Quand les composants de compte sont-ils créés ou supprimés par les flux de stock ?](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
          + [Configuration des paramètres des données de flux](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md)
          + [Gestion des fichiers de flux](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)

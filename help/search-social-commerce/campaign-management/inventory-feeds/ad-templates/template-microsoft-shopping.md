@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Microsoft® Ads] achats et paramètres de modèle pour les flux de stock"
 description: Référencez les paramètres pour [!DNL Microsoft® Ads] achat de modèles d’annonces pour les flux d’inventaire.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,6 @@ Utilisez les modèles d’annonces d’achat pour configurer des annonces d’ac
 >[!NOTE]
 >
 >* Les caractères suivants sont réservés à la désignation des noms de colonne et des noms de modificateur dans le modèle et sont donc interdits en tant que texte dans tous les champs d’attribut :  `[ ] < > `
-
 
 
 ## \[Au-dessus de tous les onglets\]
@@ -118,7 +117,7 @@ Utilisez les modèles d’annonces d’achat pour configurer des annonces d’ac
 
 **[!UICONTROL Ad Group Tracking Template]:** (Facultatif) Un modèle de suivi au niveau du groupe d’annonces qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi et incorpore l’URL finale dans un paramètre. Cette valeur remplace les paramètres au niveau du compte et de la campagne, mais les modèles de suivi à des niveaux plus granulaires remplacent cette valeur.
 
-Pour le suivi de conversion Adobe Advertising, il n’est pas nécessaire de saisir de valeur. La valeur au niveau de la campagne suffit.
+Pour le suivi des conversions par Adobe Advertising, il n’est pas nécessaire de saisir de valeur. La valeur au niveau de la campagne suffit.
 
 Pour les redirections et le suivi tiers, saisissez une valeur.
 
@@ -171,9 +170,7 @@ Pour les redirections et le suivi tiers, saisissez une valeur.
 >[!MORELIKETHIS]
 >
 >* [A propos de l’automatisation de la gestion des publicités à l’aide des flux d’inventaire](../inventory-feeds-about.md)
->* [Workflow de gestion des données de campagne à l’aide de flux d’inventaire](../inventory-feeds-workflow.md)
 >* [Gestion des modificateurs](../modifiers-manage.md)
 >* [Gestion des fichiers de flux de données d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 >* [Propager les données de flux par le biais de modèles](../feed-data-propagate.md)
 >* [Publier les données de campagne des flux d’inventaire vers les réseaux publicitaires](../propagated-data-post.md)
-

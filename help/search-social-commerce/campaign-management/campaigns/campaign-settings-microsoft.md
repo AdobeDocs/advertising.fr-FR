@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Microsoft Advertising] paramètres de campagne"
 description: Référencez les paramètres pour [!DNL Microsoft Advertising] campagnes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 0706f4dbc5f2a27e7d0cf43a6865d242865f9d36
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search and Display Network]:* Affiche uniquement les publicités textuelles sur le réseau de recherche.
 
-* *[!UICONTROL Shopping Network]:* Affiche les publicités et le tableau de bord de vos produits dans vos [!DNL Microsoft Merchant Center] catalogue de produits — sur le réseau d’achat
+* *[!UICONTROL Shopping Network]:* Affiche des publicités de produits pour vos produits dans votre [!DNL Microsoft Merchant Center] catalogue de produits — sur le réseau d’achat
 
 * *[!UICONTROL Audience]:* Affiche des publicités natives/affichées sur le [!DNL Microsoft Audience Network]. Vous pouvez : a) générer automatiquement des publicités basées sur le flux en liant la campagne à un magasin de centre commercial dans la variable [!UICONTROL Shopping Settings] ou b) créer des publicités réactives avec des ressources textuelles et des images téléchargées. Les deux options exigent que vous créiez des groupes d’annonces avec le ciblage des utilisateurs.
 
@@ -64,13 +64,13 @@ Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de 
 
 * *[!UICONTROL Target CPA]:* (Campagnes sur le réseau de recherche) Le réseau publicitaire (et non Search, Social et Commerce) optimise les offres sur la base d’une offre facultative. **[!UICONTROL Target CPA]** (coût par acquisition), qui est le montant moyen de 30 jours que vous souhaitez payer pour une acquisition (conversion). **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides (mais pas dans des portfolios standard) avec une stratégie de dépenses, à l’exception de [!UICONTROL Weekly] ou [!UICONTROL Google Target CPA].
 
-   La position moyenne et les données sur l&#39;offre du CPC ne sont pas disponibles pour les campagnes avec cette stratégie d&#39;offre.
+  La position moyenne et les données sur l&#39;offre du CPC ne sont pas disponibles pour les campagnes avec cette stratégie d&#39;offre.
 
 * *[!UICONTROL Target Impression Share]:* (Campagnes sur le réseau de recherche) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres afin d’atteindre un partage d’impression cible et une position publicitaire. Si vous le souhaitez, vous pouvez saisir une **[!UICONTROL Target Impression Share]** en pourcentage, la variable **[!UICONTROL Target Ad Position]**, et a **[!UICONTROL Max CPC]** (coût par clic). **Remarque :** Cette option n’est pas prise en charge dans les portefeuilles hybrides.
 
 * *[!UICONTROL Target Return on Ad Spend]:*  (Campagnes sur les réseaux de recherche et d’achat) Le réseau publicitaire, et non Search, Social et Commerce, optimise les offres en fonction de vos **[!UICONTROL Target ROAS]** (retour sur dépenses publicitaires), spécifié en pourcentage. Si vous le souhaitez, vous pouvez saisir une **[!UICONTROL Max CPC]** (coût par clic) pour s’assurer que le réseau publicitaire ne paie pas plus qu’un montant spécifique pour chaque clic. **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides (mais pas dans des portfolios standard) avec une stratégie de dépenses, à l’exception de [!UICONTROL Weekly] ou [!UICONTROL Google Target ROAS].
 
-   La position moyenne et les données sur l&#39;offre du CPC ne sont pas disponibles pour les campagnes avec cette stratégie d&#39;offre.
+  La position moyenne et les données sur l&#39;offre du CPC ne sont pas disponibles pour les campagnes avec cette stratégie d&#39;offre.
 
 ## [!UICONTROL Shopping Settings]
 
@@ -180,4 +180,3 @@ Pour plus d’informations sur la disponibilité, voir l’aide de Microsoft Adv
 >[!MORELIKETHIS]
 >
 >* [Gestion des campagnes](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

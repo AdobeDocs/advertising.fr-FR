@@ -1,7 +1,7 @@
 ---
 title: Gestion des mots-clés pouvant faire l’objet d’un offre
 description: Découvrez comment créer et gérer des mots-clés pouvant faire l’objet d’offres pour les groupes d’annonces de recherche.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 77069de8ff3367a3ffa6f84583b4a69f37aab88b
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -22,8 +22,7 @@ Vous pouvez créer et modifier des mots-clés pour rechercher des groupes d’an
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
-1. 
-   1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Créer](/help/search-social-commerce/assets/add.png "Créer").
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Créer](/help/search-social-commerce/assets/add.png "Créer").
 
 1. Sélectionnez le réseau publicitaire, le compte, la campagne et le groupe publicitaire, puis cliquez sur **[!UICONTROL Continue]**.
 
@@ -77,4 +76,3 @@ Le mot-clé existant est supprimé et un autre est créé lorsque :
 >* [[!DNL Yandex] paramètres de mots-clés](keyword-settings-yandex.md)
 >* [Créer des mots-clés négatifs](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [Modifier l’état des mots-clés et des mots-clés négatifs](keyword-status-edit.md)
-

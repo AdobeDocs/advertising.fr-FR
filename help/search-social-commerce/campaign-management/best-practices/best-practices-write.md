@@ -1,9 +1,9 @@
 ---
 title: Écrire une copie de publicité textuelle effective
 description: Découvrez les bonnes pratiques pour créer une copie de publicité efficace.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 6b93a29d121bd5a1cd887bf17023811e59fe85c3
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * Écrivez de puissants titres pour attirer des clients potentiels.
 
-* Insérez les mots-clés dans votre titre car c&#39;est ce que la plupart des gens recherchent. [^1]
+* Insérez les mots-clés dans votre titre car c&#39;est ce que la plupart des gens recherchent. [*]
 
 * Créez une copie de publicité conçue pour l’audience prévue.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 * Si vous proposez une remise, incluez le montant ou le pourcentage spécifique de la remise (par exemple, &quot;20 % de réduction&quot; ou &quot;Économisez 20 $ lors du premier achat).
 
-* Si possible, utilisez le mot-clé à la fois dans le titre et dans les deux lignes de la description/du corps. [^1]
+* Si possible, utilisez le mot-clé à la fois dans le titre et dans les deux lignes de la description/du corps. [*]
 
 * Incluez toujours un appel à l’action dans le texte, tel que &quot;Afficher&quot;, &quot;Exclure&quot;, &quot;Commande&quot; ou &quot;S’inscrire&quot;, afin d’augmenter le taux de clics publicitaires. Pour les publicités avec image, incluez l’appel à l’action sur un bouton permettant d’accéder à votre site web ; pour les publicités multimédias riches, incluez l’appel à l’action dans une première image.
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 * Cherchez ce que font vos concurrents. Examinez les principales publicités pour obtenir un espace (sur des sites comme www.spyfu.com) et essayez de comprendre quelles publicités fonctionnent.
 
-[^1]: Si vous utilisez l’insertion de mots-clés, utilisez la bonne mise en majuscules pour le code d’insertion :
+[*]: Si vous utilisez l’insertion de mots-clés, utilisez la bonne mise en majuscules pour le code d’insertion :
 
 `{keyword:default}` = tondeuses à gazon
 
@@ -84,4 +84,3 @@ ht-degree: 0%
 >
 >* [Analysez les rapports pour affiner vos mots-clés et vos paramètres de campagne](best-practices-analyze.md)
 >* [Optimiser les landing pages du site web](best-practices-optimize.md)
-

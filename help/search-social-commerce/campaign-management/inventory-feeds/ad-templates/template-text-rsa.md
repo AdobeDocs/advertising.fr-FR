@@ -1,9 +1,9 @@
 ---
 title: Paramètres de modèle de publicité textuelle et de recherche réactive pour les flux de stock
 description: Référencez les paramètres des annonces textuelles et des modèles d’annonces de recherche réactive pour les flux d’inventaire.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3329'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 >
 >* Les caractères suivants sont réservés à la désignation des noms de colonne et des noms de modificateur dans le modèle et sont donc interdits en tant que texte dans tous les champs d’attribut :  `[ ] < > `
 >* Dans [!DNL Yandex templates], vous pouvez utiliser les paramètres dynamiques. `{param1}` et `{param2}` uniquement dans les URL et vous ne pouvez pas utiliser l’insertion dynamique de prix dans les descriptions d’annonce.
-
 
 ## \[Au-dessus de tous les onglets\]
 
@@ -107,7 +106,7 @@ Lorsqu’aucune correspondance n’est trouvée, toutes les données de la campa
 
 * *[!UICONTROL Search]:* Pour placer des offres pour des listes de recherche sponsorisées.
 
-   ([!DNL Google Ads] campagnes) Pour inclure des offres sur les listes pour [!DNL Google Ads] partenaires de recherche, cochez la case en regard de **[!UICONTROL Search partners]**.
+  ([!DNL Google Ads] campagnes) Pour inclure des offres sur les listes pour [!DNL Google Ads] partenaires de recherche, cochez la case en regard de **[!UICONTROL Search partners]**.
 
 * *[!UICONTROL Content]:* Pour placer des offres pour des emplacements sur des listes réseau de contenu (affichage). **Remarque :** Vous ne pouvez pas créer d’emplacements à l’aide du modèle. Lorsque vous sélectionnez cette option, créez des emplacements pour chaque groupe d’annonces et spécifiez les pages du réseau d’affichage à cibler pour chaque groupe d’annonces à l’aide de l’une des options suivantes : <!-- insert link --> feuilles d’envoi groupées ou <!-- insert links --> les paramètres de groupe publicitaire et d’emplacement dans la variable [!UICONTROL Search] > [!UICONTROL Campaigns] vues.
 
@@ -135,7 +134,7 @@ Lorsqu’aucune correspondance n’est trouvée, toutes les données de la campa
 
 **[!UICONTROL Ad Group Tracking Template]:** (Comptes avec URL finales/avancées uniquement) Le modèle de suivi au niveau du groupe publicitaire, qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi et incorpore l’URL finale dans un paramètre.
 
-Pour le suivi de conversion Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;Redirection EF&quot; et &quot;Chargement automatique&quot;, Search, Social et Commerce ajoute automatiquement le code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
+Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;Redirection EF&quot; et &quot;Chargement automatique&quot;, Search, Social et Commerce ajoute automatiquement le code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
 
 Pour les redirections et le suivi tiers, saisissez une valeur. Pour indiquer l&#39;URL de la landing page :
 
@@ -171,7 +170,7 @@ Pour insérer un nom de colonne ou un groupe de modificateurs en tant que param�
 
    * Pour les mots-clés statiques : Correspondance large = `keyword`, modificateur de correspondance large = `+keyword`, ou Expression Correspondance = `"keyword"`
 
-      Vous ne pouvez pas saisir ici de mots-clés statiques avec une correspondance exacte et une syntaxe de correspondance standard, car ils sont entourés de crochets (`[]`), comme le sont les paramètres dynamiques.
+     Vous ne pouvez pas saisir ici de mots-clés statiques avec une correspondance exacte et une syntaxe de correspondance standard, car ils sont entourés de crochets (`[]`), comme le sont les paramètres dynamiques.
 
 * Pour [!DNL Yandex] templates :
 
@@ -186,7 +185,6 @@ Pour insérer un nom de colonne ou un groupe de modificateurs en tant que param�
 * Les correspondances négatives ne sont pas prises en charge.
 * Les modificateurs de correspondance large Google ont désormais le même comportement de correspondance que les correspondances d’expression pour certaines langues et vous ne pouvez pas créer de mots-clés de modification de correspondance large. Voir [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/10286719) pour plus d’informations.
 
-
 **[!UICONTROL Map Only]:** Ajoute de nouvelles publicités aux groupes publicitaires (ou aux campagnes pour [!DNL Yandex] comptes) dans lesquels les mots-clés spécifiés sont trouvés, plutôt que de créer de nouveaux mots-clés. Pour activer cette option, cochez la case. Lorsque cette option est activée, les variables Param 1 et Param 2 des mots-clés spécifiés ne s’appliquent pas, car les mots-clés existent.
 
 **[!UICONTROL Keyword Final URL]:** (Comptes avec URL finales/avancées ; (facultatif) URL de la page d’entrée vers laquelle les utilisateurs du réseau publicitaire sont redirigés lorsqu’ils cliquent sur votre publicité. Il doit inclure le même domaine que l’URL d’affichage et tous les paramètres de l’URL finale doivent correspondre aux paramètres de l’URL de la page d’entrée après le clic publicitaire. Il peut contenir des redirections dans le domaine de la landing page ou le sous-domaine, mais aucune redirection en dehors du domaine de la landing page.
@@ -194,9 +192,9 @@ Pour insérer un nom de colonne ou un groupe de modificateurs en tant que param�
 Si vous utilisez un [!DNL Google Merchant Center] flux et inclure cette valeur dans le[!DNL Link]&quot;, puis insérez cette colonne dans ce champ.
 
 >[!NOTE]
+>
 * Si vous générez des URL de suivi lorsque vous publiez des données propagées par le biais du modèle, les paramètres de suivi sont ajoutés à cette valeur en fonction des paramètres de suivi du compte.
 * ([!DNL Google Ads] ) Évitez d’utiliser des macros, qui ne se substituent pas aux clics provenant de sources qui activent le suivi parallèle. Si l’annonceur doit utiliser des macros, l’équipe du compte d’Adobe doit travailler avec le service clientèle ou l’équipe de mise en oeuvre pour les ajouter.
-
 
 **[!UICONTROL Keyword Tracking Template]:** (Comptes avec URL finales/avancées ; (facultatif) Le modèle de suivi, qui spécifie tous les paramètres de suivi et les redirections de domaine hors entrée et incorpore l’URL finale dans un paramètre. Le modèle de suivi au niveau le plus granulaire (avec le mot-clé comme le plus granulaire) remplace les valeurs à tous les autres niveaux.
 
@@ -327,9 +325,9 @@ Pour insérer un nom de colonne ou un groupe de modificateurs en tant que param�
 Si vous utilisez un [!DNL Google Merchant] Centrer le flux et inclure cette valeur dans le[!UICONTROL Link]&quot;, puis insérez cette colonne dans ce champ.
 
 >[!NOTE]
+>
 * Si vous générez des URL de suivi lorsque vous publiez des données propagées par le biais du modèle, les paramètres de suivi sont ajoutés à cette valeur en fonction des paramètres de suivi du compte.
 * ([!DNL Google Ads] comptes ) Évitez d’utiliser des macros, qui ne se substituent pas aux clics provenant de sources qui activent le suivi parallèle. Si l’annonceur doit utiliser des macros, l’équipe du compte d’Adobe doit collaborer avec le service clientèle ou l’équipe de mise en oeuvre pour les ajouter.
-
 
 **[!UICONTROL Tracking Template]:** (Comptes avec URL finales/avancées ; (facultatif) Le modèle de suivi, qui spécifie tous les paramètres de suivi et les redirections de domaine hors entrée et incorpore l’URL finale dans un paramètre. Le modèle de suivi au niveau le plus granulaire (avec le mot-clé comme le plus granulaire) remplace les valeurs à tous les autres niveaux.
 
@@ -344,10 +342,10 @@ Pour les redirections et le suivi tiers, saisissez une valeur. Pour indiquer l&#
 **\[Autres champs de publicité sous les champs de publicité d’origine\] :** (Facultatif) Un autre ensemble de copies d’annonces pour une publicité, qui peut être utilisé si l’une des lignes de la copie d’annonce d’origine dépasse la longueur maximale autorisée une fois que des paramètres dynamiques sont remplis avec des données pendant la propagation.
 
 >[!NOTE]
+>
 * Si la variable [!UICONTROL Prefill] est sélectionnée, puis les champs alternatifs sont préremplis avec les champs originaux et vous pouvez les modifier si nécessaire.
 * Seuls les champs de copie de publicité qui dépassent la longueur maximale sont remplacés par la valeur alternative. Par exemple, si seul un titre ou un titre d’origine est trop long, la variation de publicité générée utilise le titre ou titre de remplacement et les descriptions d’origine. Par conséquent, assurez-vous que l’autre copie de publicité est logique lorsqu’elle est combinée à la copie de publicité d’origine.
 * Si la copie de publicité d’origine répond aux exigences de longueur du moteur de recherche, la copie de publicité alternative est ignorée.
-
 
 **\[Composant\] [!UICONTROL Ad Label Classifications] > \[Classification et valeur d’étiquette\] :** (Facultatif) Valeurs de cinq classifications d’étiquettes existantes au maximum à affecter aux variations d’annonces créées ou modifiées à l’aide du modèle. Pour chaque composant de campagne auquel vous souhaitez affecter des classifications d’étiquettes :
 
@@ -384,10 +382,9 @@ Pour les redirections et le suivi tiers, saisissez une valeur. Pour indiquer l&#
 {{$include /help/_includes/inventory-feed-template-label-classifications.md}}
 
 >[!MORELIKETHIS]
+>
 * [A propos de l’automatisation de la gestion des publicités à l’aide des flux d’inventaire](../inventory-feeds-about.md)
-* [Workflow de gestion des données de campagne à l’aide de flux d’inventaire](../inventory-feeds-workflow.md)
 * [Gestion des modificateurs](../modifiers-manage.md)
 * [Gestion des fichiers de flux de données d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 * [Propager les données de flux par le biais de modèles](../feed-data-propagate.md)
 * [Publier les données de campagne des flux d’inventaire vers les réseaux publicitaires](../propagated-data-post.md)
-

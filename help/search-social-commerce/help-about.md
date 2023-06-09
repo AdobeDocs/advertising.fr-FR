@@ -1,9 +1,9 @@
 ---
 title: À propos de ce guide
 description: Découvrez ce qui est décrit dans chaque chapitre de ce guide.
-source-git-commit: 0b5a3e0e633e5d93ba048da7e4931f4bd777e1b0
+source-git-commit: b857bae4ea175c446072f5dacf82db3845993a45
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Des informations sur des groupes spécifiques de tâches et d’autres informati
 
 * La section &quot;Gestion de campagne&quot; explique comment configurer et gérer des composants de campagne pour vos comptes de réseau publicitaire.
 
-* &quot;Statistiques et rapports&quot; explique comment générer des informations publicitaires, générer des rapports détaillés et automatiser la production de rapports, créer et surveiller des alertes, afficher un journal des modifications apportées au compte de l’annonceur et afficher et appliquer des [!DNL Google Ads]Recommandations générées par .
+* &quot;Statistiques et rapports&quot; explique comment générer des informations publicitaires, générer des rapports détaillés et automatiser la production de rapports, créer et surveiller des alertes, afficher un journal des modifications apportées au compte de l’annonceur et afficher et appliquer des recommandations publicitaires générées par le réseau pour vos comptes.
 
 * &quot;Outils&quot; explique comment modifier votre mot de passe, utiliser des outils pour générer des balises de suivi des clics et des conversions, charger vos mesures de conversion dans [!DNL Google Ads] et vos objectifs de portfolio sur les réseaux publicitaires pour une optimisation hybride, chargez des mesures pour le suivi des campagnes et répliquez vos [!DNL Google Ads] campagnes dans vos [!DNL Microsoft Advertising] comptes.
 

@@ -1,9 +1,9 @@
 ---
 title: Gestion des modèles d’annonces pour les flux d’inventaire
 description: Découvrez la gestion des modèles d’annonces grâce auxquels vos données d’inventaire peuvent être traitées pour gérer la structure du compte et diffuser des publicités dynamiques.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Créez des modèles distincts pour les annonces textuelles étendues/étendues, 
       1. Cochez la case en regard du modèle à copier.
 
       1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Create/Clone]**, puis sélectionnez le réseau publicitaire approprié.
-   * (Pour modifier un modèle existant) En regard du nom du modèle, cliquez sur ![Paramètres d’affichage/de modification](/help/search-social-commerce/assets/settings.png "Paramètres d’affichage/de modification").
 
+   * (Pour modifier un modèle existant) En regard du nom du modèle, cliquez sur ![Paramètres d’affichage/de modification](/help/search-social-commerce/assets/settings.png "Paramètres d’affichage/de modification").
 
 1. Spécifiez les paramètres de la variable [modèle de publicité texte](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] modèle d&#39;annonce de shopping](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)ou [[!DNL Microsoft® Advertising] modèle d&#39;annonce de shopping](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
@@ -66,7 +66,6 @@ Créez des modèles distincts pour les annonces textuelles étendues/étendues, 
       >* Chaque groupe d’annonces peut inclure jusqu’à trois annonces de recherche réactive activées.
       >* Vous ne pouvez pas modifier les variations de publicités textuelles standard existantes, et les modèles existants ne génèrent plus de publicités textuelles standard.
       >* Si vous modifiez un modèle de variation de publicité, les publicités existantes peuvent être supprimées et de nouvelles peuvent être créées lorsque vous propagez les données par le modèle, [selon le type de publicité et le réseau publicitaire](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
-
 
       * Pour ajouter une variation publicitaire, procédez comme suit :
 
@@ -107,6 +106,7 @@ Créez des modèles distincts pour les annonces textuelles étendues/étendues, 
                >* Vous pouvez spécifier jusqu’à quatre champs de remplacement pour chaque champ de copie de publicité.
 
          * Pour supprimer une variation publicitaire, cliquez sur **[!UICONTROL Remove ETA Variation]** (pour les publicités textuelles étendues/étendues) ou **[!UICONTROL Remove RSA Variation]** (pour les annonces responsives sur le Réseau de Recherche) en regard de celle-ci, le cas échéant.
+
    1. (Modèles d’achat uniquement) Cliquez sur le bouton **[!UICONTROL Product Groups]** puis spécifiez des informations sur les groupes de produits que vous souhaitez cibler.
 
    1. (Facultatif) Cliquez sur le **[!UICONTROL Feed Filters]** , puis spécifiez les lignes du fichier de flux à propager.
@@ -120,10 +120,6 @@ Créez des modèles distincts pour les annonces textuelles étendues/étendues, 
          1. Cliquez sur **[!UICONTROL Add Label Classification]**.
 
          1. Sélectionnez la classification des étiquettes, puis sélectionnez une valeur existante ou saisissez une nouvelle valeur.
-
-
-
-
 
 1. Enregistrez le modèle :
 
@@ -158,9 +154,7 @@ Vous pouvez activer n’importe quel modèle de flux de données suspendu ou sus
 >[!MORELIKETHIS]
 >
 >* [A propos de l’automatisation de la gestion des publicités à l’aide des flux d’inventaire](../inventory-feeds-about.md)
->* [Workflow de gestion des données de campagne à l’aide de flux d’inventaire](../inventory-feeds-workflow.md)
 >* [Paramètres de modèle de publicité textuelle et de recherche réactive](template-text-rsa.md)
 >* [[!DNL Google Ads] achats et paramètres du modèle de publicité](template-google-shopping.md)
 >* [[!DNL Microsoft® Advertising] achats et paramètres du modèle de publicité](template-microsoft-shopping.md)
 >* [Propager les données de flux par le biais de modèles](../feed-data-propagate.md)
-
