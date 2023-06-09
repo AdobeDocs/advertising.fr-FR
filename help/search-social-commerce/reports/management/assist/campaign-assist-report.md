@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Campaign Assist Report]"
 description: En savoir plus sur les [!UICONTROL Campaign Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Vous pouvez afficher les données des 18 mois précédents.
 Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colonnes par défaut sont automatiquement incluses par défaut. Vous pouvez ajouter les colonnes personnalisées disponibles à partir de la section Colonnes des paramètres du rapport.
 
 | Colonne | Par défaut ? | Description |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Campaign] to [!UICONTROL 5th Campaign] | Par défaut | Les cinq premières campagnes dans le chemin de conversion qui se sont produites dans le [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j).<br><br>Si vous avez inclus l’une des options de rapport pour indiquer le réseau publicitaire, le nom du compte ou le type d’événement après le nom de l’entité, ces informations sont incluses après le nom de la campagne (par exemple : `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | [!UICONTROL Path Size] | Par défaut | Le nombre de campagnes dans le chemin de conversion qui se sont produites dans le rapport de l’annonceur [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Campaign] | Par défaut | Première campagne du chemin de conversion. |
@@ -57,4 +57,3 @@ Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colo
 >* [Le [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Aide aux paramètres des rapports](assist-report-settings.md)
 >* [Générer un rapport d’assistance](assist-report-generate.md)
-

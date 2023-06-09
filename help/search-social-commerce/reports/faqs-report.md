@@ -1,7 +1,7 @@
 ---
 title: Questions fréquentes sur les rapports
 description: Découvrez les réponses aux questions courantes sur les rapports de performances, notamment la résolution des problèmes liés aux données.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
 workflow-type: tm+mt
 source-wordcount: '3917'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Vous pouvez voir les conversions qui ont résulté d’un clic sur une [!DNL Goo
 
 * Les liens de site sont répertoriés comme `sl:<Sitelink text>`, par exemple `sl:See Current Offers`.
 
-   Vous pouvez également identifier un lien de site si vous incluez la variable [!UICONTROL Tracking URL] dans le rapport. Le [!UICONTROL Tracking URL] pour un lien de site comprend l’attribut `&ev_ltx=sl:<link-name>`.
+  Vous pouvez également identifier un lien de site si vous incluez la variable [!UICONTROL Tracking URL] dans le rapport. Le [!UICONTROL Tracking URL] pour un lien de site comprend l’attribut `&ev_ltx=sl:<link-name>`.
 
 >[!NOTE]
 >
@@ -75,11 +75,11 @@ Si vous générez un rapport plusieurs fois en utilisant les mêmes paramètres 
 
 * Les données de clic basées sur une date peuvent se trouver en dehors de la période spécifiée.
 
-   Si vous utilisez le paramètre de rapport &quot;[!UICONTROL Conversions based on click date],&quot; la plage de dates spécifiée s’applique à la date du clic au lieu de la date de la transaction. Si le rapport utilise également la règle d’attribution &quot;Premier événement&quot; ou &quot;Dernier événement&quot;, alors le premier ou le dernier événement ayant entraîné la conversion peut se trouver en dehors de la période spécifiée. Supposons, par exemple, qu’un utilisateur ait cliqué sur Mot-clé_1 le 30 avril, sur Mot-clé_2 le 20 mai et ait effectué une conversion le 21 mai. Si le rapport utilise le[!UICONTROL First Event]&quot;règle d’attribution et plage de dates du 1er au 21 mai, puis le premier événement (un clic sur Mot-clé_1 le 30 avril) n’est pas inclus dans le rapport. Si vous exécutez le rapport avec la même période, mais en utilisant le[!UICONTROL Last Event]&quot;règle d’attribution, la conversion est incluse dans le rapport, car le dernier clic s’est produit au cours de la période spécifiée.
+  Si vous utilisez le paramètre de rapport &quot;[!UICONTROL Conversions based on click date],&quot; la plage de dates spécifiée s’applique à la date du clic au lieu de la date de la transaction. Si le rapport utilise également la règle d’attribution &quot;Premier événement&quot; ou &quot;Dernier événement&quot;, alors le premier ou le dernier événement ayant entraîné la conversion peut se trouver en dehors de la période spécifiée. Supposons, par exemple, qu’un utilisateur ait cliqué sur Mot-clé_1 le 30 avril, sur Mot-clé_2 le 20 mai et ait effectué une conversion le 21 mai. Si le rapport utilise le[!UICONTROL First Event]&quot;règle d’attribution et plage de dates du 1er au 21 mai, puis le premier événement (un clic sur Mot-clé_1 le 30 avril) n’est pas inclus dans le rapport. Si vous exécutez le rapport avec la même période, mais en utilisant le[!UICONTROL Last Event]&quot;règle d’attribution, la conversion est incluse dans le rapport, car le dernier clic s’est produit au cours de la période spécifiée.
 
 * La sélection de filtre de portefeuille exclut certains des événements ayant conduit à la conversion.
 
-   Si vous créez des rapports sur un sous-ensemble de portefeuilles, il se peut que vous n’incluiez pas les campagnes qui incluaient l’événement auquel la conversion a été attribuée sous l’une des règles d’attribution. Supposons, par exemple, qu’un utilisateur clique sur Mot-clé_1 à partir de Portfolio_1, clique sur Mot-clé_2 à partir de Portfolio_2, puis effectue une conversion. Si le rapport utilise le[!UICONTROL First Event]&quot;règle d’attribution, alors Portfolio_1 doit être inclus pour que la conversion soit incluse dans le rapport. Cependant, si le rapport utilise la règle d’attribution &quot;Dernier événement&quot;, alors Portfolio_2 doit être inclus.
+  Si vous créez des rapports sur un sous-ensemble de portefeuilles, il se peut que vous n’incluiez pas les campagnes qui incluaient l’événement auquel la conversion a été attribuée sous l’une des règles d’attribution. Supposons, par exemple, qu’un utilisateur clique sur Mot-clé_1 à partir de Portfolio_1, clique sur Mot-clé_2 à partir de Portfolio_2, puis effectue une conversion. Si le rapport utilise le[!UICONTROL First Event]&quot;règle d’attribution, alors Portfolio_1 doit être inclus pour que la conversion soit incluse dans le rapport. Cependant, si le rapport utilise la règle d’attribution &quot;Dernier événement&quot;, alors Portfolio_2 doit être inclus.
 
 >[!TIP]
 >
@@ -152,9 +152,9 @@ Le rapport peut ne pas inclure de mesures de conversion pour lesquelles des conv
 
 +++Recettes manquantes dans les rapports.
 
-### Annonceurs utilisant des balises de conversion Adobe Advertising
+**Annonceurs utilisant des balises de conversion d’Adobe Advertising**
 
-#### Causes possibles
+*Causes possibles :*
 
 * Des mots-clés ou des publicités ont été ajoutés sans préfixe au préfixe de suivi des clics Search, Social, &amp; Commerce dans les modèles de suivi ou les URL de destination, ou le préfixe de suivi est incorrect.
 
@@ -164,7 +164,7 @@ Le rapport peut ne pas inclure de mesures de conversion pour lesquelles des conv
 
 * L’analyseur des recettes du client n’a pas été mis en oeuvre.
 
-#### Solution ou solution possible
+*Solution possible ou solution de contournement :*
 
 1. Vérifiez que les colonnes correctes sont incluses dans les rapports ou les vues de données. Si les colonnes correctes ne sont pas disponibles à ajouter, vous ou votre équipe de compte d’Adobe devez [rendre les propriétés de transaction disponibles pour les rapports](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
@@ -180,9 +180,9 @@ Le rapport peut ne pas inclure de mesures de conversion pour lesquelles des conv
 
    Si le client n’a pas été lancé ou est récemment lancé, l’assistance clientèle vérifie si un analyseur des recettes a été configuré. Si l’analyseur est configuré, il vérifie si Search, Social et Commerce reçoit des conversions de pixels et résout le problème.
 
-### Annonceurs envoyant des flux de données de conversion
+**Annonceurs envoyant des flux de données de conversion**
 
-#### Causes possibles
+*Causes possibles :*
 
 * Le fichier de flux n’a pas été livré, il n’a pas été complètement analysé ou il contenait des transactions orphelines.
 
@@ -192,7 +192,7 @@ Le rapport peut ne pas inclure de mesures de conversion pour lesquelles des conv
 >
 >Les données n’apparaissent généralement dans l’interface utilisateur que 2 à 4 heures après la réception du flux.
 
-#### Solution ou solution possible
+*Solution possible ou solution de contournement :*
 
 1. Vérifiez que les colonnes correctes sont incluses dans les rapports ou les vues de données. Si les colonnes correctes ne sont pas disponibles à ajouter, vous ou votre équipe de compte d’Adobe devez [rendre les propriétés de transaction disponibles pour les rapports](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
@@ -213,9 +213,9 @@ Le [!UICONTROL Geo Distribution Report] et [!UICONTROL Domain Referral Report] u
 
 +++Les données sur les recettes diffèrent des données sur les recettes propres à l’annonceur.
 
-### Annonceurs utilisant des balises de conversion Adobe Advertising
+**Annonceurs utilisant des balises de conversion d’Adobe Advertising**
 
-#### Causes possibles
+*Causes possibles :*
 
 * Search, Social et Commerce ignorent les recettes lorsque le cookie expire ou est supprimé, mais l’annonceur peut considérer qu’il s’agit d’une recette valide.
 
@@ -223,7 +223,7 @@ Le [!UICONTROL Geo Distribution Report] et [!UICONTROL Domain Referral Report] u
 
 * La balise de suivi de conversion n’est pas correctement implémentée sur toutes les pages web applicables ou a été modifiée.
 
-#### Solution ou solution possible
+*Solution possible ou solution de contournement :*
 
 1. Accédez à **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** et générer un [!UICONTROL Transaction Report]. Comparez les transactions reçues par Search, Social et Commerce aux données de l’annonceur.
 
@@ -235,13 +235,13 @@ Le [!UICONTROL Geo Distribution Report] et [!UICONTROL Domain Referral Report] u
 
    L’assistance clientèle tentera d’identifier les transactions manquantes, puis de rechercher les transactions et transactions orphelines qui ne sont pas venues d’une publicité (&quot;conversions sans corrélation&quot;).
 
-### Publicitaires avec des flux de données de conversion utilisant `ef_id` values
+**Publicitaires avec des flux de données de conversion utilisant `ef_id` values**
 
 Voir les causes possibles et les solutions pour les implémentations de pixels ci-dessus.
 
-### Publicitaires avec des flux de données de conversion utilisant des ID de transaction
+**Publicitaires avec des flux de données de conversion utilisant des ID de transaction**
 
-#### Causes possibles
+*Causes possibles :*
 
 * Search, Social et Commerce ignorent les recettes lorsque le cookie expire ou est supprimé, mais l’annonceur peut les considérer comme des recettes valides.
 
@@ -249,7 +249,7 @@ Voir les causes possibles et les solutions pour les implémentations de pixels c
 
 * Une conversion hors ligne a été signalée avant qu’une transaction en ligne ne se produise avec le même ID de transaction. La transaction en ligne doit avoir lieu en premier.
 
-#### Solution ou solution possible
+*Solution possible ou solution de contournement :*
 
 1. Accédez à **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** et générer un [!UICONTROL Transaction Report]. Comparez les transactions que Search, Social et Commerce a reçues avec les données de flux de l’annonceur.
 
@@ -259,9 +259,9 @@ Voir les causes possibles et les solutions pour les implémentations de pixels c
 
    L’assistance clientèle recherche les erreurs d’analyse des données et [transactions orphelines](/help/search-social-commerce/glossary.md#o-p).
 
-### Annonceurs avec d’autres types de flux de données de conversion
+**Annonceurs avec d’autres types de flux de données de conversion**
 
-#### Causes possibles
+*Causes possibles :*
 
 * Search, Social et Commerce ignorent les recettes lorsque le cookie expire ou est supprimé, mais l’annonceur peut considérer qu’il s’agit d’une recette valide.
 
@@ -279,7 +279,7 @@ Voir les causes possibles et les solutions pour les implémentations de pixels c
 
 * La logique de déduplication de l’annonceur diffère de la logique de recherche, de réseaux sociaux et de commerce.
 
-#### Solution ou solution possible
+*Solution possible ou solution de contournement :*
 
 1. Accédez à **[!UICONTROL Insights]&amp;[!UICONTROL Reports > Reports]** et générer un [!UICONTROL Transaction Report]. Comparez les transactions reçues par Search, Social et Commerce aux données de l’annonceur.
 
@@ -311,8 +311,8 @@ Le [!UICONTROL Portfolio Report] affiche les données des seules campagnes affec
 Les réseaux publicitaires ne fournissent pas l’identifiant nécessaire pour attribuer des recettes à une publicité individuelle pour ces campagnes. Par conséquent, les données de performances au niveau des publicités ne sont pas disponibles pour ces types de campagne dans la variable [!UICONTROL Ads] ou dans le [!UICONTROL Ad Variation Report]. Vous pouvez vous attendre à des incohérences entre le total des données au niveau de la publicité pour une campagne et le total des données de la campagne.
 +++
 
-+++Dans le [!UICONTROL Transaction Report], comment savoir quelle propriété de transaction provient d’un flux de données ou est suivie par le pixel de suivi Adobe Advertising ?
-Dans un rapport de transaction, vous pouvez déterminer si une propriété de transaction incluse a été suivie par le pixel de suivi Adobe Advertising si vous incluez la colonne personnalisée &quot;[!UICONTROL Tracking URL].&quot; Le suivi des URL avec le pixel de suivi Advertising Adobe commence par &quot;`http://pixel.everesttech.net`.&quot;
++++Dans le [!UICONTROL Transaction Report], comment savoir quelle propriété de transaction provient d’un flux de données ou est suivie par le pixel de suivi d’Adobe Advertising ?
+Dans un rapport de transaction, vous pouvez déterminer si une propriété de transaction incluse a été suivie par le pixel de suivi d’Adobe Advertising si vous incluez la colonne personnalisée &quot;[!UICONTROL Tracking URL].&quot; Le suivi des URL avec le pixel de suivi Advertising Adobe commence par &quot;`http://pixel.everesttech.net`.&quot;
 +++
 
 +++Les données de mon [!UICONTROL Transaction Report] ne correspond pas aux données de mon [!UICONTROL Keyword Report].

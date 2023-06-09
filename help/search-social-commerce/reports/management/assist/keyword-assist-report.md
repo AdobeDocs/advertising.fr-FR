@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Keyword Assist Report]"
 description: En savoir plus sur les [!UICONTROL Keyword Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Vous pouvez afficher les données des 18 mois précédents.
 Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colonnes par défaut sont automatiquement incluses par défaut. Vous pouvez ajouter les colonnes personnalisées disponibles à partir de la section Colonnes des paramètres du rapport.
 
 | Colonne | Par défaut ? | Description |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Keyword] to [!UICONTROL 5th Keyword] | Par défaut | Les cinq premiers clics de recherche payante ou d’emplacement dans le chemin de conversion qui s’est produit dans le [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Remarque :</b> Si le rapport inclut des emplacements provenant de campagnes de recherche activées sur le contenu (qui n’incluent pas de mots-clés), ces colonnes indiquent les noms de groupes d’annonces applicables, tels que &quot;(contenu de groupe) Votre nom de groupe d’annonces&quot;, à la place. |
 | [!UICONTROL Path Size] | Par défaut | Nombre de mots-clés et/ou d’emplacements dans le chemin de conversion qui se sont produits dans le rapport de l’annonceur [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Keyword] | Par défaut | Premier mot-clé ou emplacement dans le chemin de conversion. |
@@ -51,4 +51,3 @@ Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colo
 >* [Le [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [Aide aux paramètres des rapports](assist-report-settings.md)
 >* [Générer un rapport d’assistance](assist-report-generate.md)
-

@@ -1,14 +1,14 @@
 ---
 title: Méthode de calcul des règles d’attribution
-description: Découvrez comment Adobe Advertising calcule chaque type de règle d’attribution.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Découvrez comment l’Adobe Advertising calcule chaque type de règle d’attribution.
+source-git-commit: 6436866ae7684a330f74c14e58ee30d365de80a1
 workflow-type: tm+mt
-source-wordcount: '2438'
+source-wordcount: '2431'
 ht-degree: 0%
 
 ---
 
-# Méthode de calcul des règles d’attribution pour Adobe Advertising
+# Méthode de calcul des règles d’attribution pour l’Adobe Advertising
 
 *Publicitaires avec suivi de conversion Adobe Advertising uniquement*
 
@@ -22,8 +22,7 @@ Dans les rapports, les vues par défaut et personnalisées pour Advertising Sear
 >
 >* Les règles d’attribution s’appliquent aux clics sur les publicités payantes de n’importe quel canal et aux impressions sur les publicités affichées et sociales. Elles ne s’appliquent pas aux impressions pour les annonces de référencement payant, qui ne peuvent pas faire l’objet d’un suivi au niveau de l’événement.
 >* Adobe Advertising stocke toujours les événements suivants pour chaque internaute avant une conversion : a) le premier clic payant ; b) jusqu’à 10 clics pour chaque canal (recherche, réseaux sociaux ou affichage), y compris le premier clic ; et c) jusqu’à 10 impressions display. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-
-* Dans Advertising DSP et Advertising Creative, les définitions multi-appareils ne prennent en compte que le chemin d’événement de la règle d’attribution sélectionnée.<!-- cross-device attribution via LiveRamp only -->
+* Dans Advertising DSP et Advertising Creative, les définitions entre appareils ne prennent en compte que le chemin d’événement de la règle d’attribution sélectionnée.<!-- cross-device attribution via LiveRamp only -->
 * Dans les rapports et les vues de gestion, le nombre de décimales affichées pour une valeur dépend de la devise, mais Adobe Advertising stocke des valeurs plus précises.
 
 ## Dernier événement (valeur par défaut)
@@ -186,9 +185,6 @@ Lorsque le chemin de conversion inclut à la fois des clics payants et des impre
 
 ![Pourcentages d’attribution égaux](/help/search-social-commerce/assets/attribution-percent-even.png "Pourcentages d’attribution égaux")
 
-<!-- Add in
-Examples of event calculations
-
 <!-- start examples as collapsible content -->
 
 +++Exemples de calculs d’événement
@@ -305,7 +301,7 @@ Lorsque le chemin de conversion inclut à la fois des clics payants et des impre
 
 * Dans DSP, les impressions sont ignorées et seuls les clics sont pondérés. DSP ne prend pas en compte les poids de remplacement d’impression pour l’attribution.
 
-![Pourcentages d’attribution en forme de U](/help/search-social-commerce/assets/attribution-percent-u-shaped-event.png "Pourcentages d’attribution d’événement en forme de U")
+<!-- ![U-shaped attribution percentages](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U-shaped event attribution percentages") -->
 
 <!-- start examples as collapsible content -->
 

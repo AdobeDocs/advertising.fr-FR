@@ -1,7 +1,7 @@
 ---
 title: A propos des notifications
 description: Découvrez les notifications, notamment les différents types et catégories.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 1b38a7cd20eb2f9b773d01dc0444f45761b99647
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -20,11 +20,11 @@ Vous pouvez configurer vos paramètres de notification pour vous abonner ou vous
 
 * À partir d’un [!UICONTROL Notification Center] application web qui s’ouvre [!UICONTROL Notification Center] dans une fenêtre distincte en dehors de Search, Social et Commerce.
 
-   L’application se charge plus rapidement que la version normale du navigateur et est automatiquement mise à jour. Vous pouvez installer l’application et la gérer à l’aide du gestionnaire d’applications du navigateur.
+  L’application se charge plus rapidement que la version normale du navigateur et est automatiquement mise à jour. Vous pouvez installer l’application et la gérer à l’aide du gestionnaire d’applications du navigateur.
 
 * Des notifications push à votre navigateur.
 
-   Lorsque vous activez des notifications push, elles s’affichent conformément aux conventions de notification du navigateur.
+  Lorsque vous activez des notifications push, elles s’affichent conformément aux conventions de notification du navigateur.
 
 Vous pouvez afficher vos notifications, les marquer comme lues ou non et les supprimer.
 
@@ -50,7 +50,7 @@ Vous pouvez afficher vos notifications, les marquer comme lues ou non et les sup
 
    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifie que la variable [!UICONTROL Landing Page Suffix] est incorrecte, manquante ou contient un modèle SKWCID incorrect ; ou est remplacé à un niveau inférieur par une valeur incorrecte.
 
-   * **[!UICONTROL Manager Account Missing ]**: Notifications que Search, Social et Commerce ne dispose pas des informations d’identification pour une [compte de gestionnaire de réseau publicitaire](/help/search-social-commerce/admin/manager-accounts.md), qui servent à la configuration correcte des fonctions critiques.
+   * **[!UICONTROL Manager Account Missing]**: Notifications que Search, Social et Commerce ne dispose pas des informations d’identification pour une [compte de gestionnaire de réseau publicitaire](/help/search-social-commerce/admin/manager-accounts.md), qui servent à la configuration correcte des fonctions critiques.
 
 * [!UICONTROL Network Errors]
 
@@ -76,4 +76,3 @@ Vous pouvez afficher vos notifications, les marquer comme lues ou non et les sup
 >* [Modification des paramètres de notification](notification-edit.md)
 >* [Activation et désactivation des notifications push depuis [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Installez et désinstallez le [!UICONTROL Notification Center] application web](notification-app-install-uninstall.md)
-

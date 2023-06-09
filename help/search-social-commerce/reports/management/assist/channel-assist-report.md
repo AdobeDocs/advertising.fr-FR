@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Channel Assist Report]"
 description: En savoir plus sur les [!UICONTROL Channel Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Vous pouvez afficher les données des 18 mois précédents.
 Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colonnes par défaut sont automatiquement incluses par défaut. Vous pouvez ajouter les colonnes personnalisées disponibles à partir de la section Colonnes des paramètres du rapport.
 
 | Colonne | Par défaut ? | Description |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Event] to [!UICONTROL 5th Event] | Par défaut | Les cinq premiers types d’événement dans le chemin de conversion qui se sont produits dans le [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL Path Size] | Par défaut | Nombre de types d’événements dans le chemin de conversion qui se sont produits dans le rapport [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Event Type] | Par défaut | Type d’événement du premier événement (le plus ancien) dans le chemin de conversion. |
@@ -47,4 +47,3 @@ Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colo
 >* [Le [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Aide aux paramètres des rapports](assist-report-settings.md)
 >* [Générer un rapport d’assistance](assist-report-generate.md)
-
