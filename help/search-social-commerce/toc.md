@@ -7,9 +7,8 @@ archetype: end-user
 user-guide-title: Guide de Advertising Search, Social et Commerce
 user-guide-description: Ce guide explique les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, à l’optimisation et à la création de rapports sur vos campagnes publicitaires de recherche, de réseaux sociaux et de commerce.
 breadcrumb-title: Guide de Advertising Search, Social et Commerce
-index: false
-hide: true
-source-git-commit: 72dd7a51e024057a1135fa0cc641b236254c28d8
+index: true
+source-git-commit: 0f4fad34e1e381157b99467fca04c35501d1fb57
 workflow-type: tm+mt
 source-wordcount: '1714'
 ht-degree: 0%
