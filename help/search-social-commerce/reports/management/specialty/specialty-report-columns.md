@@ -1,7 +1,7 @@
 ---
 title: Colonnes de rapports pour les rapports spécialisés
 description: Découvrez les colonnes de données disponibles pour les rapports spécialisés.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: c2a6e14fe97d46185094dd4df3e75db35a505925
 workflow-type: tm+mt
 source-wordcount: '1925'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] uniquement ; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], et [!UICONTROL Keyword Daily Impression Share Report]) Le pourcentage de vos impressions publicitaires affichées en tant que première publicité au-dessus des résultats de la recherche organique. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] uniquement ; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], et [!UICONTROL Keyword Daily Impression Share Report]) Le pourcentage de vos impressions publicitaires affichées au-dessus des résultats de la recherche organique. |
 | [!UICONTROL Impressions] | Nombre d’impressions publicitaires au cours de la période spécifiée. |
-| [!UICONTROL Keyword] | Mot-clé.<br><br><b>Remarque :</i> Si le rapport inclut des données provenant de groupes d’annonces dans des campagnes de recherche activées pour le contenu, cette colonne inclut les noms de groupes d’annonces applicables tels que &quot;(contenu de groupe d’annonces) Nom de votre groupe d’annonces&quot;. Pour un emplacement ciblé par un site dans une campagne de recherche, cette colonne ne comporte pas de valeur. |
+| [!UICONTROL Keyword] | Mot-clé.<br><br><b>Remarque :</b> Si le rapport inclut des données provenant de groupes d’annonces dans des campagnes de recherche activées pour le contenu, cette colonne inclut les noms de groupes d’annonces applicables tels que &quot;(contenu de groupe d’annonces) Nom de votre groupe d’annonces&quot;. Pour un emplacement ciblé par un site dans une campagne de recherche, cette colonne ne comporte pas de valeur. |
 | [!UICONTROL Keyword ID] | Identifiant numérique attribué par Search, Social et Commerce au mot-clé. |
 | [!UICONTROL Keyword Status] | L’état du mot-clé auquel le terme recherché a été associé : *[!UICONTROL Active]*, *[!UICONTROL Paused]*, [!UICONTROL Deleted]*ou[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report]) La langue cible. |
@@ -119,4 +119,3 @@ ht-degree: 0%
 >* [À propos des rapports spécialisés](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
 >* [Génération d’un rapport de spécialité](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
 >* [Paramètres des rapports de spécialité](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
-
