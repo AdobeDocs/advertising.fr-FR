@@ -1,9 +1,9 @@
 ---
 title: Créer [!DNL Google Ads] audiences de correspondance client provenant de [!DNL Adobe] audiences
 description: Découvrez comment créer [!DNL Google Ads] Les clients correspondent aux audiences de vos audiences Adobe Analytics et d’Audience Manager existantes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Chaque nouvelle [!DNL Google] l’audience porte le même nom que l’audience d
 
    1. (Pour créer des audiences de liste de remarketing des identifiants utilisateur) Une [!DNL Adobe] l’utilisateur administrateur ou le gestionnaire de compte doit sélectionner le paramètre au niveau de l’annonceur pour activer les audiences de correspondance client. Les paramètres diffèrent selon qu’il s’agit d’un annonceur disposant d’une Audience Manager ou d’un annonceur disposant d’une [!DNL Analytics] uniquement.
 
-   1. Mettez en oeuvre le [Service Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) version 2.0 ou ultérieure.
+   1. Mettez en oeuvre le [Service Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html) version 2.0 ou ultérieure.
 
    1. Déployez la balise suivante aussi haut que possible sur les pages web de l’annonceur à partir desquelles l’audience doit être suivie.
 
@@ -80,11 +80,9 @@ Chaque nouvelle [!DNL Google] l’audience porte le même nom que l’audience d
 >
 >* Voir [[!DNL Google Ads] documentation sur le fonctionnement et les limitations des correspondances client](https://support.google.com/displayvideo/answer/9539301).
 
-
 >[!MORELIKETHIS]
 >
 >* [A propos des audiences](audience-about.md)
 >* [Créez un [!DNL Google Ads] audience de correspondance client provenant d’une liste de messagerie Adobe Campaign](google-audience-from-campaign-email-list.md)
 >* [Gestion des audiences de correspondance client à l’aide des listes de données client](audience-from-customer-data-list.md)
 >* [Gestion des audiences de remarketing dynamique](audience-dynamic-remarketing-manage.md)
-

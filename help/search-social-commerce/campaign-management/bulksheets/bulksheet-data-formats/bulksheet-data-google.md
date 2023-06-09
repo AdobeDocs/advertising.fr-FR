@@ -1,9 +1,9 @@
 ---
 title: Données de feuille d’envoi groupé requises pour [!DNL Google Ads] comptes
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour [!DNL Google Ads] comptes.
-source-git-commit: 6c1e9bffd072979975a933fceb1c6e1253399373
+source-git-commit: a1201866bab44b260c6e1e68ba215162504e618f
 workflow-type: tm+mt
-source-wordcount: '8631'
+source-wordcount: '8662'
 ht-degree: 1%
 
 ---
@@ -114,6 +114,8 @@ Pour créer et mettre à jour [!DNL Google Ads] les données de campagne en bloc
 
 <table style="table-layout:auto">
 
+[^1]: [!DNL Excel] convertit les grands nombres en notation scientifique (2.12E+09 pour 2115585666, par exemple) lorsqu’il ouvre le fichier. Pour afficher les chiffres de la notation standard, sélectionnez n’importe quelle cellule de la colonne et cliquez dans la barre de formule.
+
 ## Champs requis pour créer, modifier ou supprimer chaque composant de compte
 
 ### Champs de campagne
@@ -122,24 +124,24 @@ Pour créer et mettre à jour [!DNL Google Ads] les données de campagne en bloc
 | ---- | ---- |
 | Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
 | Nom de la campagne | Obligatoire | Nom unique qui identifie une campagne pour un compte. |
-| Budget de la campagne | Obligatoire : Créer<br><br>>Facultatif : Modification ou suppression | Une limite de dépenses journalière pour la campagne, avec ou sans symboles monétaires et ponctuation. Cette valeur remplace mais ne peut pas dépasser le budget du compte. |
-| Méthode de diffusion | Obligatoire : Créer<br><br>Facultatif : Modification ou suppression |
-| Type de canal | Obligatoire : Créer<br><br>Facultatif : Modification ou suppression |
-| Réseaux | Obligatoire : Créer<br><br>Facultatif : Modification ou suppression |
-| Nom de domaine DSA | Obligatoire : Créer<br><br>Facultatif : Modification ou suppression |
-| DSA Domain Language | Obligatoire : Créer<br><br>Facultatif : Modification ou suppression |
-| Priorité de la campagne | Obligatoire/Facultatif : Créer<br><br>Facultatif/s/a : Modification ou suppression |
-| Identifiant du marchand | Obligatoire/Facultatif : Créer<br><br>Facultatif/s/a : Modification ou suppression |
-| Pays des ventes | Obligatoire/Facultatif : Créer<br><br>Facultatif/s/a : Modification ou suppression |
-| Filtre de portée du produit | Facultatif |
+| Budget de la campagne | Requis pour créer une campagne. | Une limite de dépenses journalière pour la campagne, avec ou sans symboles monétaires et ponctuation. Cette valeur remplace mais ne peut pas dépasser le budget du compte. |
+| Méthode de diffusion | Requis pour créer une campagne. |
+| Type de canal | Requis pour créer une campagne. |
+| Réseaux | Requis pour créer une campagne. |
+| Nom de domaine DSA | Requis pour créer une campagne sur le réseau de recherche qui contiendra des annonces de recherche dynamique. |
+| DSA Domain Language | Requis pour créer une campagne sur le réseau de recherche qui contiendra des annonces de recherche dynamique. |
+| Priorité de la campagne | Requis pour créer une campagne d’achat. |
+| Identifiant du marchand | Requis pour créer une campagne d’achat. |
+| Pays des ventes | Requis pour créer une campagne d’achat. |
+| Filtre de portée du produit | (Campagnes d’achat) Facultatif |
 | Langues | Facultatif |
 | Cibles d’appareil | Facultatif |
 | Cibles du système d’exploitation de l’appareil (mots-clés Google) | Facultatif |
 | Opérateurs de téléphonie mobile (mots-clés Google) | Facultatif |
 | Méthode de ciblage d’audience | n/a |
-| Suffixe de page d’entrée | <p>Facultatif |
+| Suffixe de page d’entrée | Facultatif |
 | Modèle de suivi | Facultatif |
-| État de la campagne | Facultatif : Créer ou modifier<br><br>Obligatoire : Supprimer |
+| État de la campagne | Requis uniquement pour supprimer une campagne. |
 | \[Classification d’étiquette spécifique au annonceur\] | Facultatif |
 | Contraintes | Facultatif |
 | Identifiant de campagne | Obligatoire uniquement lorsque vous modifiez le nom de la campagne, à moins que la ligne ne contienne un &quot;AMO ID&quot; pour la campagne. |
@@ -154,12 +156,12 @@ Pour créer et mettre à jour [!DNL Google Ads] les données de campagne en bloc
 | Réseaux | n/a |
 | Niveau d’offre personnalisé du GDN | Facultatif |
 | Nom du groupe publicitaire | Obligatoire |
-| Type de groupe publicitaire | Obligatoire |
+| Type de groupe publicitaire | Requis pour créer un groupe publicitaire. |
 | CPC max | Facultatif |
 | CPC de contenu max | Facultatif |
 | Méthode de ciblage d’audience | Obligatoire |
 | Modèle de suivi | Facultatif |
-| État du groupe publicitaire | Facultatif : Créer ou modifier<br><br>Obligatoire : Supprimer |
+| État du groupe publicitaire | Requis uniquement pour supprimer un groupe publicitaire. |
 | \[Classification d’étiquette spécifique au annonceur\] | Facultatif |
 | Contraintes | Facultatif |
 | Identifiant du groupe publicitaire | Obligatoire uniquement lorsque vous modifiez le nom du groupe publicitaire, sauf si la ligne inclut un &quot;AMO ID&quot; pour le groupe publicitaire. |
@@ -174,13 +176,13 @@ Pour créer et mettre à jour [!DNL Google Ads] les données de campagne en bloc
 | Nom du groupe publicitaire | Obligatoire |
 | CPC max | Facultatif |
 | Mot-clé | Obligatoire |
-| Type de correspondance | Facultatif : Créer<br><br>Obligatoire/Facultatif : Modification ou suppression |
+| Type de correspondance | Une valeur pour le type de correspondance ou l’ID de mot-clé est requise pour modifier ou supprimer un mot-clé avec plusieurs types de correspondance. |
 | Modèle de suivi | Facultatif |
 | URL de base/URL finale | Facultatif |
 | Paramètre d’URL personnalisé | Facultatif |
 | Param1 | Facultatif |
 | Param2 | Facultatif |
-| État du mot-clé | Facultatif : Créer ou modifier<br><br>Obligatoire : Supprimer |
+| État du mot-clé | Requis uniquement pour supprimer un mot-clé. |
 | \[Classification d’étiquette spécifique au annonceur\] | Facultatif |
 | Contraintes | Facultatif |
 | Identifiant de campagne | Facultatif |
@@ -212,7 +214,7 @@ Pour créer et mettre à jour [!DNL Google Ads] les données de campagne en bloc
 
 ### Annonce de recherche dynamique étendue
 
-Ce type d’annonce est désormais appelé &quot;publicité de recherche dynamique&quot; dans [!DNL Google Ads]. Pour plus d’informations sur la création d’annonces de recherche dynamique, voir &quot;[Mise en oeuvre [!DNL Google Ads] annonces de recherche dynamique](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html?lang=en).&quot;
+Ce type d’annonce est désormais appelé &quot;publicité de recherche dynamique&quot; dans [!DNL Google Ads]. Pour plus d’informations sur la création d’annonces de recherche dynamique, voir &quot;[Mise en oeuvre [!DNL Google Ads] annonces de recherche dynamique](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html).&quot;
 
 Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot; dans la [!UICONTROL Download Bulksheet] boîte de dialogue.
 
@@ -235,7 +237,7 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 
 ### Champs de publicité de liste de produits/achats
 
-Pour plus d’informations sur la création d’annonces de shopping, voir &quot;[Mise en oeuvre de campagnes d’achat Google Ads](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html?lang=en).&quot;
+Pour plus d’informations sur la création d’annonces de shopping, voir &quot;[Mise en oeuvre de campagnes d’achat Google Ads](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html).&quot;
 
 Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot; dans la [!UICONTROL Download Bulksheet] boîte de dialogue.
 
@@ -266,9 +268,9 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Responsive Search Ad]&quot;
 | Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
 | Nom de la campagne | Obligatoire |
 | Nom du groupe publicitaire | Obligatoire | |
-| Titre de la publicité, Titre de la publicité 2-15 | Pour les annonces responsives sur le Réseau de Recherche, les champs Titre de la Publicité 2 et Titre de la Publicité 3 sont obligatoires, et tous les autres champs de Titre de la Publicité sont facultatifs. Pour supprimer la valeur existante pour un champ non obligatoire, utilisez la valeur `[delete]` (y compris les crochets). |
+| Titre de la publicité, Titre de la publicité 2-15 | Pour les annonces responsives sur le Réseau de Recherche, les champs Titre de la Publicité 2 et Titre de la Publicité 3 sont nécessaires pour créer une publicité. Tous les autres champs de Titre de la publicité sont facultatifs. Pour supprimer la valeur existante pour un champ non obligatoire, utilisez la valeur `[delete]` (y compris les crochets). |
 | Position du titre de la publicité 1-15 | Facultatif |
-| Description Ligne 1-4 | Pour les annonces responsives sur le Réseau de Recherche, la Description Ligne 1 et la Description Ligne 2 sont requises, et la Description Ligne 3 et la Description Ligne 4 sont facultatives. Pour supprimer la valeur existante, utilisez la valeur `[delete]` (y compris les crochets). |
+| Description Ligne 1-4 | Pour les annonces responsives sur le Réseau de Recherche, les lignes Description 1 et Description 2 sont nécessaires pour créer une publicité, tandis que les lignes Description 3 et Description 4 sont facultatives. Pour supprimer la valeur existante, utilisez la valeur `[delete]` (y compris les crochets). |
 | Description Ligne 1-4 Position | Facultatif |
 | Chemin d’affichage 1 | Facultatif |
 | Chemin d’affichage 2 | Facultatif |
@@ -324,6 +326,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 | Expression de ciblage automatique | Obligatoire lorsque le paramètre de campagne &quot;Utiliser le contenu de mon site web pour cibler mes publicités&quot; n’est pas activé ; facultatif dans le cas contraire. |
 | Type de correspondance | Facultatif |
 | État de la cible | Obligatoire pour supprimer une cible |
+| \[Classification d’étiquette spécifique au annonceur\] | Facultatif |
+| Contraintes | Facultatif |
 | Identifiant de campagne | Facultatif |
 | Identifiant du groupe publicitaire | Facultatif |
 | ID cible | Obligatoire uniquement lorsque vous modifiez ou supprimez la cible automatique, sauf si la ligne inclut un &quot;AMO ID&quot; pour la cible. |
@@ -376,14 +380,14 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 | ---- | ---- | ---- |
 | Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
 | Nom de la campagne | Obligatoire |
-| Emplacement | Requis pour créer ou modifier une cible d’emplacement. |
+| Emplacement | Obligatoire |
 | Type d’emplacement | Facultatif |
 | Ajustement de l&#39;offre | Facultatif |
 | État de l’emplacement | Requis uniquement pour supprimer une cible d’emplacement. |
 | Identifiant de campagne | Facultatif |
 | AMO ID | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’identifiant de campagne.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
-## Champs cibles des appareils au niveau de la campagne et du groupe publicitaire
+### Champs cibles des appareils au niveau de la campagne et du groupe publicitaire
 
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
@@ -398,7 +402,7 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 | Identifiant de la cible du périphérique | Obligatoire uniquement lorsque vous modifiez ou supprimez la cible, à moins que la ligne ne contienne un &quot;AMO ID&quot; pour la cible. |
 | AMO ID | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’identifiant cible du périphérique.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
-## Champs de ciblage/exclusion au niveau de la campagne et au niveau du groupe publicitaire
+### Champs de ciblage/exclusion au niveau de la campagne et au niveau du groupe publicitaire
 
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
@@ -413,8 +417,6 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 | Identifiant du groupe publicitaire | Facultatif ; applicable uniquement pour les cibles et exclusions au niveau du groupe publicitaire. |
 | Identifiant cible RLSA | Obligatoire uniquement lorsque vous modifiez ou supprimez la cible, à moins que la ligne ne contienne un &quot;AMO ID&quot; pour la cible. |
 | AMO ID | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’identifiant cible RLSA.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
-
-[^1]: [!DNL Excel] convertit les grands nombres en notation scientifique (2.12E+09 pour 2115585666, par exemple) lorsqu’il ouvre le fichier. Pour afficher les chiffres de la notation standard, sélectionnez n’importe quelle cellule de la colonne et cliquez dans la barre de formule.
 
 >[!MORELIKETHIS]
 >

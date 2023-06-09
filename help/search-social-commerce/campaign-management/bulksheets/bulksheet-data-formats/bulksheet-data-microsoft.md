@@ -1,10 +1,10 @@
 ---
 title: Données de feuille d’envoi groupé requises pour [!DNL Microsoft Advertising] comptes
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour [!DNL Microsoft Advertising] comptes.
-source-git-commit: f7ac5c69f96582d7f9a442a05c333baecc2215df
+source-git-commit: 964ee8431d9f1d03b0c9eec8906ab5a0b7940222
 workflow-type: tm+mt
-source-wordcount: '5147'
-ht-degree: 0%
+source-wordcount: '7615'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ Pour créer et mettre à jour [!DNL Microsoft Advertising] les données de campa
 | Type de partition | Type de partition pour le groupe de produits : <i>subdivisions</i> (s’il comporte des groupes de produits enfants) ou <i>unit</i> (lorsqu’il n’a aucun groupe de produits enfant). |
 | Titre de la publicité, Titre de la publicité 2-15 | (Publicités textuelles étendues, annonces multimédias, annonces réactives et annonces responsives uniquement) Les titres d’une publicité. La longueur maximale de chaque champ de titre de publicité est de 30 ou 15 caractères codés sur deux octets, y compris tout texte dynamique (comme les valeurs des mots-clés, `{Param2}` et `{Param3}` variables de substitution dynamiques et personnalisateurs de publicités).<br><br> Pour les annonces responsives sur le Réseau de Recherche, insérez un personnaliseur de Publicités au format suivant, où &quot;Texte par défaut&quot; est une valeur facultative à insérer lorsque votre fichier de flux n’inclut pas de valeur valide : `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`<br><br>Pour les publicités textuelles étendues, le titre de la publicité et le titre de la publicité 2 sont requis et le titre de la publicité 3 est facultatif. Microsoft Advertising a abandonné les publicités textuelles étendues en août 2022 et vous pouvez désormais uniquement créer des rapports et les supprimer.<br><br>Pour les annonces multimédias, les annonces réactives et les annonces responsives sur le Réseau de Recherche, le Titre de la publicité, le Titre de la publicité 2 et le Titre de la publicité 3 sont obligatoires, et tous les autres champs de titre de publicité sont facultatifs.<br><br>Pour supprimer la valeur existante pour un champ non obligatoire, utilisez la valeur `[delete]` (y compris les crochets).<br><br>Pour tous les types d’annonces, à l’exception des publicités textuelles étendues, la modification de la copie de la publicité supprime la publicité existante et crée une nouvelle publicité avec les mêmes propriétés. |
 | Position du titre de la publicité 1-15 | (Publicités de recherche réactive uniquement) ; (facultatif) position à laquelle épingler le titre de publicité correspondant : `[null]` (aucune valeur, ce qui rend le titre de la publicité éligible pour tous les postes), 1, 2 ou 3. Par exemple, si la valeur de la position du titre de la publicité est 1, le titre de la publicité n’apparaîtra que dans la position 1. Par défaut, tous les titres de publicité sont nuls (ne comportent aucune valeur). Pour supprimer la valeur existante, utilisez la valeur `[delete]` (y compris les crochets).<br><br><b>Remarque :</b> Vous pouvez épingler plusieurs titres de publicité à la même position. Le réseau publicitaire utilisera l’un des titres de publicité épinglés à la position. Il se peut que les titres épinglés à la position 3 ne s’affichent pas avec la publicité. |
-| Description Ligne 1-4 | (Publicités texte, annonces dynamiques de recherche, annonces multimédias, annonces réactives, annonces responsives de recherche et liens de site améliorés au niveau de la campagne uniquement) Corps d’une publicité ou d’un lien de site.<br><br>Pour les liens de site, vous pouvez utiliser à la fois la ligne de description 1 et la ligne de description 2 pour inclure du texte supplémentaire que le réseau publicitaire peut afficher sous le texte du lien. Chaque champ de description peut contenir jusqu’à 35 caractères sur un ou 17 caractères sur deux octets.<br><br>Pour les publicités, la longueur maximale de chaque champ de description est de 90 caractères ou 45 caractères codés sur deux octets, y compris tout texte dynamique (comme les valeurs des mots-clés et des personnalisateurs de publicités).<br><br>Pour les annonces responsives sur le Réseau de Recherche, insérez un personnaliseur de Publicités au format suivant, où le Texte par défaut est une valeur facultative à insérer lorsque votre fichier de Flux n’inclut pas de valeur valide : `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`<br><br>Pour les annonces textuelles et les annonces de recherche dynamique, la ligne de description 1 est requise et la ligne de description 2 est facultative.<br><br>Pour les annonces multimédias, les annonces réactives et les annonces responsives sur le Réseau de Recherche, la Description Ligne 1 et la Description Ligne 2 sont requises, et la Description Ligne 3 et la Description Ligne 4 sont facultatives.<br><br>Pour supprimer la valeur existante, utilisez la valeur `[delete]` (y compris les crochets).<br><br><b>Remarques :</b><ul><li>(Publicités textuelles standard) Le titre et le texte combinés doivent contenir au moins trois mots.</li><li>(Publicités textuelles étendues) Ce champ peut éventuellement inclure les variables de substitution dynamiques {Param2} et {Param3}. Si tel est le cas, la longueur maximale du texte de publicité est de 300 caractères sur un ou 150 caractères sur deux octets. Microsoft Advertising a abandonné les publicités textuelles étendues en août 2022 et vous pouvez désormais uniquement créer des rapports et les supprimer.</li><li>(Publicités de recherche dynamique) Le texte de substitution dynamique n’est pas autorisé.</li><li>Pour tous les types d’annonces, à l’exception des publicités textuelles étendues, la modification de la copie d’annonce supprime la publicité existante et en crée une nouvelle.</li></ul> |
+| Description Ligne 1-4 | (Publicités texte, annonces dynamiques de recherche, annonces multimédias, annonces réactives, annonces responsives de recherche et liens de site améliorés au niveau de la campagne uniquement) Corps d’une publicité ou d’un lien de site.<br><br>Pour les liens de site, vous pouvez utiliser à la fois la ligne de description 1 et la ligne de description 2 pour inclure du texte supplémentaire que le réseau publicitaire peut afficher sous le texte du lien. Chaque champ de description peut contenir jusqu’à 35 caractères sur un ou 17 caractères sur deux octets.<br><br>Pour les publicités, la longueur maximale de chaque champ de description est de 90 caractères ou 45 caractères codés sur deux octets, y compris tout texte dynamique (comme les valeurs des mots-clés et des personnalisateurs de publicités).<br><br>Pour les annonces responsives sur le Réseau de Recherche, insérez un personnaliseur de Publicités au format suivant, où le Texte par défaut est une valeur facultative à insérer lorsque votre fichier de Flux n’inclut pas de valeur valide : `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`<br><br>Pour les annonces textuelles et les annonces de recherche dynamique, la ligne de description 1 est requise et la ligne de description 2 est facultative.<br><br>Pour les annonces multimédias, les annonces réactives et les annonces responsives sur le Réseau de Recherche, la Description Ligne 1 et la Description Ligne 2 sont requises, et la Description Ligne 3 et la Description Ligne 4 sont facultatives.<br><br>Pour supprimer la valeur existante, utilisez la valeur `[delete]` (y compris les crochets).<br><br><b>Remarques :</b><ul><li>(Publicités textuelles standard) Le titre et le texte combinés doivent contenir au moins trois mots.</li><li>(Publicités textuelles étendues) Ce champ peut éventuellement inclure la variable {Param2} et {Param3} variables de substitution dynamiques. Si tel est le cas, la longueur maximale du texte de publicité est de 300 caractères sur un ou 150 caractères sur deux octets. Microsoft Advertising a abandonné les publicités textuelles étendues en août 2022 et vous pouvez désormais uniquement créer des rapports et les supprimer.</li><li>(Publicités de recherche dynamique) Le texte de substitution dynamique n’est pas autorisé.</li><li>Pour tous les types d’annonces, à l’exception des publicités textuelles étendues, la modification de la copie d’annonce supprime la publicité existante et en crée une nouvelle.</li></ul> |
 | Description Ligne 1-4 Position | (Publicités de recherche réactive uniquement) ; (facultatif) position à laquelle épingler la description correspondante : `[null]` (aucune valeur, ce qui rend la description éligible pour tous les postes), 1, 2 ou 3. Par exemple, si la position de la description 1 a une valeur de 1, alors la description 1 apparaîtra uniquement dans la position 1. Par défaut, aucune description n’est épinglée à une position.<br><br>Pour supprimer la valeur existante, utilisez la valeur `[delete]` (y compris les crochets).<br><br><b>Remarque :</b> Vous pouvez épingler plusieurs descriptions à la même position. Le réseau publicitaire utilise l’une des descriptions épinglées à la position. Il se peut que les descriptions épinglées à la position 2 ne s’affichent pas avec la publicité. |
 | Nom de l’entreprise | (Publicités multimédias uniquement) Nom de l’entreprise, avec un maximum de 25 caractères. |
 | Ligne de promotion | (Publicités avec liste de produits uniquement) Ligne de promotion unique à inclure à la liste de produits dans les résultats de recherche (par exemple, &quot;Livraison gratuite maintenant !). La longueur maximale est de 45 caractères.<br><br>La ligne de promotion peut apparaître à différents emplacements par rapport à la publicité (par exemple sous la publicité), selon l’emplacement de la publicité sur la page. |
@@ -67,7 +67,7 @@ Pour créer et mettre à jour [!DNL Microsoft Advertising] les données de campa
 | Type de création | Format de la publicité : <i>Publicité de recherche dynamique</i>, <i>Annonce textuelle développée</i>, <i>Annonce de recherche dynamique étendue</i>, <i>Publicité multimédia</i>, <i>Publicité de produit</i> (publicités commerciales) ou <i>Publicité de recherche réactive</i>ou <i>Publicité textuelle</i>. La valeur par défaut pour les nouvelles publicités est <i>Publicité textuelle</i>. |
 | Date de début du groupe publicitaire | Date à laquelle les offres peuvent être placées pour le groupe publicitaire, dans le fuseau horaire de l&#39;annonceur et dans l&#39;un des formats suivants : m/j/aaaa, m/j/aa, m-d-aaaa ou m-d-aaaa. Pour un nouveau groupe publicitaire, la date par défaut est la date actuelle. |
 | Date de fin du groupe publicitaire | La dernière date à laquelle les offres peuvent être placées pour le groupe publicitaire, dans le fuseau horaire de l&#39;annonceur et dans l&#39;un des formats suivants : m/j/aaaa, m/j/aa, m-d-aaaa ou m-d-aaaa. Pour un nouveau groupe publicitaire, la valeur par défaut est [blank] (c’est-à-dire, aucune date de fin). |
-| Modèle de suivi | (Facultatif) Le modèle de suivi, qui spécifie tous les paramètres de suivi et redirections de domaine hors d’entrée et incorpore l’URL finale dans un paramètre. Le modèle de suivi au niveau le plus granulaire (avec le mot-clé comme le plus granulaire) remplace les valeurs à tous les niveaux supérieurs.<br><br>Pour le suivi de conversion Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;Redirection EF&quot; et &quot;Chargement automatique&quot;, Search, Social et Commerce ajoute automatiquement le code de redirection et de suivi lorsque vous enregistrez l’enregistrement.<br><br>Pour les redirections et le suivi tiers, saisissez une valeur.<br><br>Pour obtenir la liste des paramètres qui indiquent les URL finales dans les modèles de suivi, consultez la documentation de Microsoft Advertising.<br><br> Pour supprimer la valeur existante, utilisez la valeur `[delete]` (y compris les crochets). |
+| Modèle de suivi | (Facultatif) Le modèle de suivi, qui spécifie tous les paramètres de suivi et redirections de domaine hors d’entrée et incorpore l’URL finale dans un paramètre. Le modèle de suivi au niveau le plus granulaire (avec le mot-clé comme le plus granulaire) remplace les valeurs à tous les niveaux supérieurs.<br><br>Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;Redirection EF&quot; et &quot;Chargement automatique&quot;, Search, Social et Commerce ajoute automatiquement le code de redirection et de suivi lorsque vous enregistrez l’enregistrement.<br><br>Pour les redirections et le suivi tiers, saisissez une valeur.<br><br>Pour obtenir la liste des paramètres qui indiquent les URL finales dans les modèles de suivi, consultez la documentation de Microsoft Advertising.<br><br> Pour supprimer la valeur existante, utilisez la valeur `[delete]` (y compris les crochets). |
 | Suffixe de page d’entrée | Tous les paramètres à ajouter à la fin des URL finales pour suivre les informations. Exemple : `param2=value1&param3=value2`<br><br>Voir &quot;[Formats de suivi des clics pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).&quot;<br><br>Les suffixes d’URL finaux aux niveaux inférieurs remplacent le suffixe au niveau du compte. Pour faciliter la maintenance, utilisez uniquement le suffixe au niveau du compte, sauf si un suivi différent pour les composants de compte individuels est nécessaire. Pour configurer un suffixe au niveau du groupe publicitaire ou inférieur, utilisez l’éditeur Microsoft Advertising. |
 | État du réseau de recherche | Indique s’il faut placer des publicités pour le groupe sur différents éléments du réseau de recherche :<ul><li><i>Tous :</i> Pour placer des publicités sur tous les réseaux de recherche Bing et les partenaires de recherche syndiqués.</li><li><i>OwnedAndOperatedOnly :</i>Pour placer des publicités uniquement sur Bing et Yahoo! sites web.</li><li><i>SyndicationSearchOnly :</i> Pour placer des publicités uniquement sur Bing et Yahoo! partenaires de recherche syndiqués.</li><li><i>Désactivé :</i> Pour placer des publicités sur le réseau de contenu uniquement (et non sur le réseau de recherche).</li></ul> Pour les nouveaux groupes d’annonces, la valeur par défaut est Activé. |
 | État du réseau de contenu | Obsolète |
@@ -110,96 +110,317 @@ Pour créer et mettre à jour [!DNL Microsoft Advertising] les données de campa
 
 <table style="table-layout:auto">
 
-<!-- EDIT ALL -- Copied from Google page -->
+[^1]: [!DNL Excel] convertit les grands nombres en notation scientifique (2.12E+09 pour 2115585666, par exemple) lorsqu’il ouvre le fichier. Pour afficher les chiffres de la notation standard, sélectionnez n’importe quelle cellule de la colonne et cliquez dans la barre de formule.
 
-<!-- 
+## Champs requis pour créer, modifier ou supprimer chaque composant de compte
 
-## Fields required to create, edit, or delete each account component
+### Champs de campagne
 
-### Campaign fields
+| Champ | Obligatoire ? |
+| ---- | ---- |
+| Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
+| Nom de la campagne | Obligatoire | Nom unique qui identifie une campagne pour un compte. |
+| Budget de la campagne | Requis pour créer une campagne. | Une limite de dépenses journalière pour la campagne, avec ou sans symboles monétaires et ponctuation. Cette valeur remplace mais ne peut pas dépasser le budget du compte. |
+| Type de canal | Requis pour créer une campagne. |
+| Méthode de diffusion | Facultatif |
+| Priorité de la campagne | Requis pour créer une campagne d’achat. |
+| Identifiant du marchand | Requis pour créer une campagne d’achat. |
+| Pays des ventes | Requis pour créer une campagne d’achat. |
+| Filtre de portée du produit | (Campagnes d’achat) Facultatif |
+| Nom de domaine DSA | Requis pour créer une campagne de type a) &quot;DynamicSearchAds&quot; ou b) &quot;Search&quot; lorsque l’élément ExperimentId n’est pas défini) |
+| DSA Domain Language | Requis pour créer une campagne de type a) &quot;DynamicSearchAds&quot; ou b) &quot;Search&quot; lorsque l’élément ExperimentId n’est pas défini) |
+| Modèle de suivi | Facultatif |
+| Suffixe de page d’entrée | <p>Facultatif |
+| Type de budget | Requis pour créer une campagne. |
+| Appareil | Facultatif |
+| Ajustement de l&#39;offre | Facultatif |
+| État de la campagne | Requis uniquement pour supprimer une campagne. |
+| \[Classification d’étiquette spécifique au annonceur\] | Facultatif |
+| Contraintes | Facultatif |
+| Identifiant de campagne | Obligatoire uniquement lorsque vous modifiez le nom de la campagne, à moins que la ligne ne contienne un &quot;AMO ID&quot; pour la campagne. |
+| AMO ID | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
-Campaign Name
-Campaign Budget
-Campaign Status
-Delivery Method
-Device OS Targets (Google Adwords)
-Device Targets
-Languages
-Mobile Carriers (Google Adwords)
-Networks
-Tracking Template
-Channel Type
-Campaign Priority
-Merchant ID
-Sales Country
-Product Scope Filter
-Audience Target Method
-DSA Domain Name
-DSA Domain Language
-Landing Page Suffix
-Label Classification
+### Champs d’un groupe publicitaire
 
-### Ad group fields
+| Champ | Obligatoire ? |
+| ---- | ---- |
+| Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
+| Nom de la campagne | Obligatoire |
+| Nom du groupe publicitaire | Obligatoire |
+| Type de groupe publicitaire | Requis pour créer un groupe publicitaire. |
+| Méthode de ciblage d’audience | Requis uniquement pour créer des groupes d’annonces d’audience. |
+| Date de début du groupe publicitaire | Facultatif |
+| Date de fin du groupe publicitaire | Facultatif |
+| Modèle de suivi | Facultatif |
+| État du réseau de recherche | (Campagnes sur le réseau de recherche uniquement) Facultatif |
+| Langues | Facultatif |
+| Appareil | Facultatif |
+| Ajustement de l&#39;offre | Facultatif |
+| État du groupe publicitaire | Requis uniquement pour supprimer un groupe publicitaire. |
+| \[Classification d’étiquette spécifique au annonceur\] | Facultatif |
+| Contraintes | Facultatif |
+| Identifiant du groupe publicitaire | Obligatoire uniquement lorsque vous modifiez le nom du groupe publicitaire, sauf si la ligne inclut un &quot;AMO ID&quot; pour le groupe publicitaire. |
+| AMO ID | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
-Campaign Name
-Ad Group Name
-Ad Group Type
-Networks
-Ad Group Status
-Max CPC
-Max Content CPC
-Tracking Template
-Audience Target Method
-Label Classification
+### Champs de mot-clé
 
+| Champ | Obligatoire ? | Description |
+| ---- | ---- | ---- |
+| Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
+| Nom de la campagne | Obligatoire |
+| Nom du groupe publicitaire | Obligatoire |
+| Mot-clé | Obligatoire |
+| Type de correspondance | Une valeur pour le type de correspondance ou l’ID de mot-clé est requise pour modifier ou supprimer un mot-clé avec plusieurs types de correspondance. |
+| CPC max | Facultatif |
+| URL de base/URL finale | Facultatif |
+| Paramètre d’URL personnalisé | Facultatif |
+| Modèle de suivi | Facultatif |
+| Param1 | Facultatif |
+| Param2 | Facultatif |
+| État du mot-clé | Requis uniquement pour supprimer un mot-clé. |
+| \[Classification d’étiquette spécifique au annonceur\] | Facultatif |
+| Contraintes | Facultatif |
+| Identifiant de campagne | Facultatif |
+| Identifiant du groupe publicitaire | Facultatif |
+| Identifiant du mot-clé | Obligatoire uniquement lorsque vous modifiez ou supprimez le mot-clé, sauf si la ligne comprend a) suffisamment de colonnes de propriétés pour identifier le mot-clé ou b) un &quot;AMO ID&quot;. |
+| AMO ID | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
-## Keyword fields
+### Champs d’annonces de recherche dynamique
 
-Campaign Name
-Ad Group Name
-Keyword Status
-Max CPC
-Tracking Template
-URLs (Base URL/Final URL, Destination URL)
-Exemption Request (Google Adwords)
-First Page Bid
-Keyword
-Match Type
-Param1
-Param2
-Quality Score
-Custom URL Param
-Label Classification
+>[!NOTE]
+>
+>La création de la prise en charge n’est pas disponible.
 
+Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot; dans la [!UICONTROL Download Bulksheet] boîte de dialogue.
 
-### Text/Product ad fields
+| Champ | Obligatoire ? | Description |
+| ---- | ---- | ---- |
+| Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
+| Nom de la campagne | Obligatoire |
+| Nom du groupe publicitaire | Obligatoire |
+| Description Ligne 1-2 | Obligatoire pour modifier la description. <b>Remarque :</b> Pour ce type d’annonce, la modification de la copie d’annonce supprime la publicité existante et en crée une nouvelle. |
+| Chemin d’affichage 1 | Requis pour modifier le champ. |
+| Chemin d’affichage 2 | Requis pour modifier le champ. |
+| Type de création | Requis pour créer ou modifier l’état d’une publicité de produit. |
+| Périphériques préférés des créatifs | Facultatif |
+| État de la publicité | Requis pour supprimer une publicité. |
+| \[Classification d’étiquette spécifique au annonceur\] | Facultatif |
+| Identifiant de campagne | Facultatif |
+| Identifiant du groupe publicitaire | Facultatif |
+| Identifiant de publicité | Obligatoire uniquement lorsque vous modifiez l’état de la publicité, sauf si la ligne comprend a) suffisamment de colonnes de propriétés de publicité pour identifier la publicité ou b) un &quot;AMO ID&quot;. Cependant, si vous n’incluez ni l’identifiant de publicité ni l’AMO ID et que les colonnes de propriétés de publicité correspondent à plusieurs publicités, l’état d’une seule des publicités change. |
+| AMO ID | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
-Uses "Creative (except RSA)" row in Download Bulksheet dialog
+### Champs de l’annonce de produit (achats)
 
-### Dynamic search ad fields
+Pour plus d’informations sur la création d’annonces de shopping, voir &quot;[Implémentation de campagnes d’achat Microsoft Advertising](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/microsoft-shopping-campaigns.html).&quot;
 
-Note: Create support not available
+Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot; dans la [!UICONTROL Download Bulksheet] boîte de dialogue.
 
-### Multimedia/Responsive ad fields
+| Champ | Obligatoire ? | Description |
+| ---- | ---- | ---- |
+| Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
+| Nom de la campagne | Obligatoire |
+| Nom du groupe publicitaire | Obligatoire |
+| Ligne de promotion | Facultatif |
+| URL de base/URL finale | Facultatif |
+| Paramètre d’URL personnalisé | Facultatif |
+| Type de création | Requis pour créer ou modifier l’état d’une publicité de produit. |
+| Modèle de suivi | Facultatif |
+| État de la publicité | Requis pour supprimer une publicité. |
+| \[Classification d’étiquette spécifique au annonceur\] | Facultatif |
+| Contraintes | Facultatif |
+| Identifiant de campagne | Facultatif |
+| Identifiant du groupe publicitaire | Facultatif |
+| Identifiant de publicité | Obligatoire uniquement lorsque vous modifiez l’état de la publicité, sauf si la ligne comprend a) suffisamment de colonnes de propriétés de publicité pour identifier la publicité ou b) un &quot;AMO ID&quot;. Cependant, si vous n’incluez ni l’identifiant de publicité ni l’AMO ID et que les colonnes de propriétés de publicité correspondent à plusieurs publicités, l’état d’une seule des publicités change. |
+| AMO ID | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
-### Responsive search ad fields
+### Champs de publicité réactifs (multimédia)
 
-Uses "Responsive Search Ad" row in Download Bulksheet dialog
+Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot; dans la [!UICONTROL Download Bulksheet] boîte de dialogue.
 
-### Dynamic search target (auto target) fields
-Note: Create support not available
+| Champ | Obligatoire ? | Description |
+| ---- | ---- | ---- |
+| Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
+| Nom de la campagne | Obligatoire |
+| Nom du groupe publicitaire | Obligatoire |
+| Titre de la publicité, Titre de la publicité 2-15 | Pour les publicités réactives, les champs Titre de la publicité, Titre de la publicité 2 et Titre de la publicité 3 sont nécessaires pour créer des publicités, et tous les autres champs de titre de publicité sont facultatifs. Pour supprimer la valeur existante pour un champ non obligatoire, utilisez la valeur `[delete]` (y compris les crochets). <b>Remarque :</b> Pour ce type d’annonce, la modification de la copie d’annonce supprime la publicité existante et en crée une nouvelle. |
+| Description Ligne 1-4 | Description Ligne 1 et Description Ligne 2 sont nécessaires pour créer des publicités. Description Ligne 3 et Description Ligne 4 sont facultatives. <b>Remarque :</b> Pour ce type d’annonce, la modification de la copie d’annonce supprime la publicité existante et en crée une nouvelle. |
+| Nom de l’entreprise | Requis pour créer ou supprimer une publicité. |
+| Appel à l’action | Obligatoire pour créer une publicité. |
+| Langue de l’appel à l’action | Obligatoire pour créer une publicité. |
+| URL de base/URL finale | Obligatoire pour créer une publicité. |
+| Type de création | Facultatif. |
+| Modèle de suivi | Facultatif |
+| État de la publicité | Requis pour supprimer une publicité. |
+| \[Classification d’étiquette spécifique au annonceur\] | Facultatif |
+| Identifiant de campagne | Facultatif |
+| Identifiant du groupe publicitaire | Facultatif |
+| Identifiant de publicité | Obligatoire uniquement lorsque vous modifiez l’état de la publicité, sauf si la ligne comprend a) suffisamment de colonnes de propriétés de publicité pour identifier la publicité ou b) un &quot;AMO ID&quot;. Cependant, si vous n’incluez ni l’identifiant de publicité ni l’AMO ID et que les colonnes de propriétés de publicité correspondent à plusieurs publicités, l’état d’une seule des publicités change. |
+| AMO ID | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
-### Shopping product group fields
+### Champs de publicité de recherche réactive
 
-### Campaign-level sitelink fields
+Pour ce type d’annonce, utilisez &quot;[!UICONTROL Responsive Search Ad]&quot; dans la [!UICONTROL Download Bulksheet] boîte de dialogue.
 
-### Location Target fields
+| Champ | Obligatoire ? | Description |
+| ---- | ---- | ---- |
+| Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
+| Nom de la campagne | Obligatoire |
+| Nom du groupe publicitaire | Obligatoire | |
+| Titre de la publicité, Titre de la publicité 2-15 | Pour les annonces responsives sur le Réseau de Recherche, les champs Titre de la Publicité 2 et Titre de la Publicité 3 sont nécessaires pour créer une publicité. Tous les autres champs de Titre de la publicité sont facultatifs. Pour supprimer la valeur existante pour un champ non obligatoire, utilisez la valeur `[delete]` (y compris les crochets). |
+| Position du titre de la publicité 1-15 | Facultatif |
+| Description Ligne 1-4 | Pour les annonces responsives sur le Réseau de Recherche, les lignes Description 1 et Description 2 sont nécessaires pour créer une publicité, tandis que les lignes Description 3 et Description 4 sont facultatives. Pour supprimer la valeur existante, utilisez la valeur `[delete]` (y compris les crochets). |
+| Description Ligne 1-4 Position | Facultatif |
+| Chemin d’affichage 1 | Facultatif |
+| Chemin d’affichage 2 | Facultatif |
+| URL de base/URL finale | Obligatoire pour créer une publicité. |
+| Paramètre d’URL personnalisé | Facultatif |
+| Type de création | Facultatif |
+| Modèle de suivi | Facultatif |
+| État de la publicité | Requis pour supprimer une publicité. |
+| \[Classification d’étiquette spécifique au annonceur\] | Facultatif |
+| Identifiant de campagne | Facultatif |
+| Identifiant du groupe publicitaire | Facultatif |
+| Identifiant de publicité | Obligatoire pour modifier ou supprimer des publicités, sauf si la ligne contient un &quot;AMO ID&quot;. |
+| AMO ID | Obligatoire pour modifier ou supprimer des publicités, sauf si vous incluez l’identifiant de publicité. |
 
-### Device Target fields
+### Champs de publicité textuelle
 
-### RLSA Target
+Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot; dans la [!UICONTROL Download Bulksheet] boîte de dialogue.
 
--->
+>[!NOTE]
+>
+>Les publicités textuelles étendues étaient obsolètes. Vous pouvez uniquement supprimer des publicités textuelles existantes.
+
+| Champ | Obligatoire ? | Description |
+| ---- | ---- | ---- |
+| Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
+| Nom de la campagne | Obligatoire |
+| Nom du groupe publicitaire | Obligatoire |
+| Titre de la publicité, Titre de la publicité 2-3 | Lecture seule |
+| Description Ligne 1-2 | Lecture seule |
+| Afficher l’URL | Lecture seule |
+| Chemin d’affichage 1 | Lecture seule |
+| Chemin d’affichage 2 | Lecture seule |
+| URL de base/URL finale | Lecture seule |
+| Paramètre d’URL personnalisé | Lecture seule |
+| Type de création | Facultatif |
+| Modèle de suivi | Lecture seule |
+| Périphériques préférés des créatifs | Lecture seule |
+| État de la publicité | Obligatoire |
+| \[Classification d’étiquette spécifique au annonceur\] | Facultatif |
+| Identifiant de campagne | Facultatif |
+| Identifiant du groupe publicitaire | Facultatif |
+| Identifiant de publicité | Obligatoire uniquement lorsque vous modifiez l’état de la publicité, sauf si la ligne contient un &quot;AMO ID&quot;. |
+| AMO ID | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’identifiant de publicité.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
+
+### Champs de cible de recherche dynamique (ciblage automatique)
+
+>[!NOTE]
+>
+>La création de la prise en charge n’est pas disponible.
+
+| Champ | Obligatoire ? | Description |
+| ---- | ---- | ---- |
+| Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
+| Nom de la campagne | Obligatoire |
+| Nom du groupe publicitaire | Obligatoire |
+| Expression de ciblage automatique | Obligatoire. |
+| Type de correspondance | Facultatif |
+| CPC max | Facultatif |
+| Paramètre d’URL personnalisé | Facultatif |
+| État de la cible | Obligatoire pour supprimer une cible |
+| \[Classification d’étiquette spécifique au annonceur\] | Facultatif |
+| Contraintes | Facultatif |
+| Identifiant de campagne | Facultatif |
+| Identifiant du groupe publicitaire | Facultatif |
+| ID cible | Obligatoire uniquement lorsque vous modifiez ou supprimez la cible automatique, sauf si la ligne inclut un &quot;AMO ID&quot; pour la cible. |
+| AMO ID | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
+
+### Shopping dans les champs du groupe de produits
+
+| Champ | Obligatoire ? | Description |
+| ---- | ---- | ---- |
+| Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
+| Nom de la campagne | Obligatoire |
+| Nom du groupe publicitaire | Obligatoire |
+| Type de correspondance | Requis pour créer un groupe de produits. |
+| CPC max | Requis pour créer un groupe de produits. |
+| Groupes de produits parents | Obligatoire |
+| Groupement de produits | Obligatoire |
+| Type de partition | Requis pour créer un groupe de produits. |
+| URL de base/URL finale | Obligatoire |
+| Modèle de suivi | Facultatif |
+| État du groupe de produits | Requis uniquement pour supprimer un groupe de produits. |
+| \[Classification d’étiquette spécifique au annonceur\] | Facultatif |
+| Contraintes | Facultatif |
+| Identifiant de campagne | Facultatif |
+| Identifiant du groupe publicitaire | Facultatif |
+| ID de groupe de produits | Obligatoire uniquement lorsque vous modifiez ou supprimez le groupe de produits, sauf si la ligne comprend a) suffisamment de colonnes de propriétés pour identifier le groupe de produits ou b) un &quot;AMO ID&quot;. |
+| AMO ID | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
+
+### Champs de lien de site au niveau de la campagne
+
+| Champ | Obligatoire ? | Description |
+| ---- | ---- | ---- |
+| Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
+| Nom de la campagne | Obligatoire |
+| Description Ligne 1 | Facultatif |
+| Description Line 2 | Facultatif |
+| Date de début | Facultatif |
+| Date de fin | Facultatif |
+| URL de base/URL finale | Obligatoire |
+| Paramètre d’URL personnalisé | Facultatif |
+| Modèle de suivi | Facultatif |
+| Périphériques préférés des créatifs | Facultatif |
+| Nom du lien | Obligatoire |
+| État du lien de site | Requis uniquement pour supprimer un lien de site. |
+| Identifiant de campagne | Facultatif |
+| Identifiant du lien de site | Obligatoire uniquement lorsque vous modifiez ou supprimez le lien du site, sauf si la ligne comprend a) suffisamment de colonnes de propriétés pour identifier le lien du site ou b) un &quot;AMO ID&quot;. Cependant, si vous n’incluez ni Sitelink Ad ID ni AMO ID et que les colonnes de propriétés correspondent à plusieurs liens de site, l’état d’un seul lien de site change.<br><br><b>Remarque :</b> Si vous modifiez les colonnes de propriétés sitelink à l’exception de Status (État) pour un lien de site existant et que vous n’incluez ni l’identifiant de lien de site ni l’AMO ID, un nouveau lien de site est créé et le lien de site existant n’est pas modifié. |
+| AMO ID | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
+
+### Champs cibles de l’emplacement
+
+| Champ | Obligatoire ? | Description |
+| ---- | ---- | ---- |
+| Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
+| Nom de la campagne | Obligatoire |
+| Emplacement | Obligatoire |
+| Type d’emplacement | Obligatoire pour créer une cible |
+| Ajustement de l&#39;offre | Facultatif |
+| État de l’emplacement | Requis uniquement pour supprimer une cible d’emplacement. |
+| Identifiant de campagne | Facultatif |
+| AMO ID | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’identifiant de campagne.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
+
+### Champs cibles des appareils au niveau de la campagne et du groupe publicitaire
+
+| Champ | Obligatoire ? | Description |
+| ---- | ---- | ---- |
+| Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
+| Nom de la campagne | Obligatoire |
+| Appareil | Requis pour supprimer une cible d’appareil. |
+| Ajustement de l&#39;offre | Facultatif |
+| Nom du groupe publicitaire | Requis pour les cibles d’appareil au niveau du groupe d’annonces. Non applicable pour les cibles d’appareil au niveau de la campagne. |
+| État de la cible du périphérique | Requis uniquement pour supprimer une cible d’appareil. |
+| Identifiant de campagne | Facultatif |
+| Identifiant du groupe publicitaire | Facultatif ; applicable uniquement pour les cibles d’appareil au niveau du groupe d’annonces. |
+| AMO ID | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’identifiant cible du périphérique.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
+
+### Champs cibles RLSA au niveau de la campagne et du groupe publicitaire
+
+| Champ | Obligatoire ? | Description |
+| ---- | ---- | ---- |
+| Nom du compte | Obligatoire, sauf si chaque ligne comprend un &quot;AMO ID&quot; pour l’entité. |
+| Nom de la campagne | Obligatoire |
+| Nom du groupe publicitaire | Requis pour les cibles au niveau du groupe d’annonces. Non applicable pour les cibles au niveau de la campagne. |
+| Audience | Requis pour créer une cible. |
+| Type de cible | Facultatif |
+| Ajustement de l&#39;offre | Facultatif |
+| État de la cible RLSA | Requis pour supprimer une cible. |
+| Identifiant de campagne | Facultatif |
+| Identifiant du groupe publicitaire | Facultatif ; applicable uniquement pour les cibles au niveau du groupe publicitaire. |
+| Identifiant cible RLSA | Obligatoire uniquement lorsque vous modifiez ou supprimez la cible, à moins que la ligne ne contienne un &quot;AMO ID&quot; pour la cible. |
+| AMO ID | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’identifiant cible RLSA.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
 >[!MORELIKETHIS]
 >
@@ -209,4 +430,3 @@ Note: Create support not available
 >* [Téléchargement/création d’un fichier de feuille d’envoi groupé](../bulksheet-download.md)
 >* [Formats de suivi des clics pour [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
 >* [Télécharger un fichier de feuille d’envoi groupé ou un fichier d’erreur corrigé](../bulksheet-upload.md)
-
