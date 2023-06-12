@@ -2,7 +2,7 @@
 title: Mettre en pause ou activer un module
 description: Découvrez comment suspendre ou activer un module.
 feature: DSP Packages
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 81f761e44b6f5a0bef9524468b57d97c021ef2b2
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -36,4 +36,3 @@ Tous les emplacements mis en pause dans un package avant de mettre le package en
 >* [Modification d’un module](package-edit.md)
 >* [Affichage du journal des modifications d’un module](package-change-log.md)
 >* [Archivage d’un module](package-archive-unarchive.md)
-
