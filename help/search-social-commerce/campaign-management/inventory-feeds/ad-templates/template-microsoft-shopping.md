@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Microsoft® Ads] achats et paramètres de modèle pour les flux de stock"
 description: Référencez les paramètres pour [!DNL Microsoft® Ads] achat de modèles d’annonces pour les flux d’inventaire.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ Utilisez les modèles d’annonces d’achat pour configurer des annonces d’ac
 
 **[!UICONTROL Ad Group Tracking Template]:** (Facultatif) Un modèle de suivi au niveau du groupe d’annonces qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi et incorpore l’URL finale dans un paramètre. Cette valeur remplace les paramètres au niveau du compte et de la campagne, mais les modèles de suivi à des niveaux plus granulaires remplacent cette valeur.
 
-Pour le suivi des conversions par Adobe Advertising, il n’est pas nécessaire de saisir de valeur. La valeur au niveau de la campagne suffit.
+Pour le suivi de conversion Adobe Advertising, il n’est pas nécessaire de saisir de valeur. La valeur au niveau de la campagne suffit.
 
 Pour les redirections et le suivi tiers, saisissez une valeur.
 
@@ -147,9 +147,9 @@ Pour les redirections et le suivi tiers, saisissez une valeur.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Unités sans groupes de produits enfants ; (facultatif) Le modèle de suivi pour le groupe de produits, qui spécifie tous les paramètres de suivi et redirections hors domaine d’entrée et incorpore l’URL finale dans un paramètre ValueTrack. Ce modèle remplace les modèles à des niveaux supérieurs.
+**[!UICONTROL Tracking Template]:** (Unités sans groupes de produits enfants ; (facultatif) Le modèle de suivi pour le groupe de produits, qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi et incorpore l’URL finale dans une [!DNL ValueTrack] . Ce modèle remplace les modèles à des niveaux supérieurs.
 
-Pour le suivi de conversion Adobe Advertising, il n’est pas nécessaire de saisir de valeur. La valeur au niveau de la campagne suffit.
+Pour le suivi des conversions par Adobe Advertising, il n’est pas nécessaire de saisir de valeur. La valeur au niveau de la campagne suffit.
 
 Pour les redirections et le suivi tiers, saisissez une valeur.
 

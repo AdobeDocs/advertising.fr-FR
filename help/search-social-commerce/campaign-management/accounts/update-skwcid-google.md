@@ -1,9 +1,9 @@
 ---
 title: "Mise à jour du code de suivi s\_kwcid pour un [!DNL Google Ads] account"
 description: Découvrez comment passer au code de suivi s_kwcid le plus récent pour une [!DNL Google Ads] compte .
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,8 @@ Toutes nouvelles [!DNL Google Ads] Les comptes utilisent automatiquement le nouv
 
 1. Une fois la migration commencée, mettez à jour les paramètres du suffixe de la page d’entrée (appelés &quot;suffixe URL final&quot; dans certains réseaux publicitaires) si nécessaire :
 
-   * Lorsque la fonction &quot;Chargement automatique&quot; est activée dans les paramètres de suivi, Search, Social et Commerce met automatiquement à jour le code de suivi dans le suffixe de page d’entrée pour ce compte et ses campagnes. Tu n&#39;es pas obligé de faire quoi que ce soit.
-   * Lorsque la fonction &quot;Chargement automatique&quot; n’est pas activée et que vous n’utilisez pas le s-kwcid côté serveur, vous devez mettre à jour manuellement le paramètre s\_kwcid dans les paramètres du suffixe de page d’entrée. Vous pouvez modifier manuellement les suffixes au niveau du compte et de la campagne dans les paramètres du compte et de la campagne ou en chargeant les modifications dans une feuille d’envoi groupé. Pour configurer un suffixe au niveau du groupe publicitaire ou inférieur, utilisez la méthode [!DNL Google Ads] éditeur.
+   * Lorsque la variable [!UICONTROL Auto Upload]&quot; est activée dans les paramètres de suivi. Search, Social et Commerce met automatiquement à jour le code de suivi dans le suffixe de page d’entrée pour ce compte et ses campagnes. Tu n&#39;es pas obligé de faire quoi que ce soit.
+   * Lorsque la variable [!UICONTROL Auto Upload]&quot; n’est pas activée et vous n’utilisez pas le s-kwcid côté serveur, vous devez mettre à jour manuellement le paramètre s\_kwcid dans les paramètres du suffixe de page d’entrée. Vous pouvez modifier manuellement les suffixes au niveau du compte et de la campagne dans les paramètres du compte et de la campagne ou en chargeant les modifications dans une feuille d’envoi groupé. Pour configurer un suffixe au niveau du groupe publicitaire ou inférieur, utilisez la méthode [!DNL Google Ads] éditeur.
    * Si vous incluez le paramètre s\_kwcid dans le paramètre URL de base de n’importe quel composant de campagne, déplacez-le vers le paramètre Suffixe de page d’entrée approprié.
 
 1. (Recommandé) Vérifiez les données de ce compte dans Analytics avant de migrer des comptes supplémentaires.

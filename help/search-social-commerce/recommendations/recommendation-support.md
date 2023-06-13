@@ -1,9 +1,9 @@
 ---
 title: À propos de la prise en charge des recommandations et des insights de l’éditeur
 description: Découvrez la prise en charge de l’affichage et de la gestion des recommandations et des informations de l’éditeur.
-source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 
 * Afficher en un coup d’oeil toutes les recommandations prises en charge qui n’ont pas été appliquées pour un [!DNL Google Ads]<!-- or [Microsoft Advertising]--> compte . Les informations de chaque recommandation incluent les détails, le type et la catégorie de recommandation, les mesures réelles et les mesures qui [!DNL Google Ads] prédit si la recommandation est appliquée et les entités affectées si la recommandation est appliquée. Les augmentations prévues des mesures sont surlignées en vert. Vous pouvez afficher les actions recommandées pour n’importe quelle recommandation. Vous pouvez également, si vous le souhaitez, filtrer la liste par catégorie et type de recommandation.
 
-   ![Interface utilisateur de Recommendations](/help/search-social-commerce/assets/recommendations-ui.png "Interface utilisateur de Recommendations")
+  ![Interface utilisateur de Recommendations](/help/search-social-commerce/assets/recommendations-ui.png "Interface utilisateur de Recommendations")
 
-   Les données sont disponibles en temps réel lorsque vous ouvrez la vue. Pour actualiser les données, cliquez sur ![Actualiser](/help/search-social-commerce/assets/refresh.png "Actualiser") en bas à gauche de la page.
+  Les données sont disponibles en temps réel lorsque vous ouvrez la vue. Pour actualiser les données, cliquez sur ![Actualiser](/help/search-social-commerce/assets/refresh.png "Actualiser") en bas à gauche de la page.
 
 * Appliquez et ignorez les recommandations pour un compte.
 
@@ -33,34 +33,33 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 | Catégorie de recommandations | Type de recommandation | Description |
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] (désormais appelé &quot;[!DNL Ads and assets]&quot; dans [!DNL Google Ads]) | [!UICONTROL Call extension] | Ajout d’extensions d’appel à une campagne |
-|  | [!UICONTROL Callout extension] | Ajout d’extensions de légende à une campagne |
-|  | [!UICONTROL Optimize ad rotation] | Utilisation de rotations de publicités optimisées |
-|  | [!UICONTROL Responsive search ad] | Ajout d’une annonce de recherche réactive |
-|  | [!UICONTROL Responsive search ad asset] | Ajout de ressources d’annonces de recherche réactive à une publicité |
-|  | [!UICONTROL Responsive search improve ad strength] | Suggestions pour améliorer la force de l’annonce pour une publicité de recherche réactive |
-|  | [!UICONTROL Sitelink extension] | Ajout d’extensions de lien de site à une campagne |
-|  | [!UICONTROL Text ad] | Ajouter des suggestions d’annonces |
+| | [!UICONTROL Callout extension] | Ajout d’extensions de légende à une campagne |
+| | [!UICONTROL Optimize ad rotation] | Utilisation de rotations de publicités optimisées |
+| | [!UICONTROL Responsive search ad] | Ajout d’une annonce de recherche réactive |
+| | [!UICONTROL Responsive search ad asset] | Ajout de ressources d’annonces de recherche réactive à une publicité |
+| | [!UICONTROL Responsive search improve ad strength] | Suggestions pour améliorer la force de l’annonce pour une publicité de recherche réactive |
+| | [!UICONTROL Sitelink extension] | Ajout d’extensions de lien de site à une campagne |
+| | [!UICONTROL Text ad] | Ajouter des suggestions d’annonces |
 | [!UICONTROL Automated campaigns] | [!UICONTROL Upgrade local campaign to performance max] | Mettre à niveau une campagne locale héritée à une campagne maximale de performances |
-|  | [!UICONTROL Upgrade smart shopping campaign to performance max] | Mettre à niveau une campagne d’achats intelligents héritée vers une campagne de performances maximales |
+| | [!UICONTROL Upgrade smart shopping campaign to performance max] | Mettre à niveau une campagne d’achats intelligents héritée vers une campagne de performances maximales |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Correction des campagnes limitées par le budget |
-|  | [!UICONTROL Enhanced CPC opt in] | Offre avec CPC amélioré |
-|  | [!UICONTROL Forecasting campaign budget] | Correction des campagnes qui devraient être limitées par le budget à l’avenir. |
-|  | [!UICONTROL Forecasting set Target ROAS] | Augmentez le budget avant un événement saisonnier prévu pour augmenter le trafic et modifiez la stratégie d’offre de l’option Maximiser la valeur de conversion en RSDP cible. |
-|  | [!UICONTROL Marginal ROI campaign budget] | Ajuster le budget de la campagne pour augmenter le ROI |
-|  | [!UICONTROL Maximize clicks opt in] | Offre avec optimisation des clics |
-|  | [!UICONTROL Maximize conversions opt in] | Offre avec optimisation des conversions |
-|  | [!UICONTROL Move unused budget] | Déplacement inutilisé vers les budgets limités |
-|  | [!UICONTROL Raise Target CPA bid too low] | Augmenter le CPA Target d’un montant recommandé lorsqu’il est trop faible et qu’il y a peu ou pas de conversions |
-|  | [!UICONTROL Target CPA opt in] | Offre avec Target CPA |
-|  | [!UICONTROL Target ROAS opt in] | Offre avec le RSDP Target |
+| | [!UICONTROL Enhanced CPC opt in] | Offre avec [!UICONTROL Enhanced CPC] |
+| | [!UICONTROL Forecasting campaign budget] | Correction des campagnes qui devraient être limitées par le budget à l’avenir. |
+| | [!UICONTROL Forecasting set Target ROAS] | Augmentez le budget avant un événement saisonnier prévu pour augmenter le trafic et modifiez la stratégie d’offre à partir de [!UICONTROL Maximize Conversion Value] to [!UICONTROL Target ROAS] |
+| | [!UICONTROL Marginal ROI campaign budget] | Ajuster le budget de la campagne pour augmenter le ROI |
+| | [!UICONTROL Maximize clicks opt in] | Offre avec [!UICONTROL Maximize Clicks] |
+| | [!UICONTROL Maximize conversions opt in] | Offre avec [!UICONTROL Maximize Conversions] |
+| | [!UICONTROL Move unused budget] | Déplacement inutilisé vers les budgets limités |
+| | [!UICONTROL Raise Target CPA bid too low] | Augmentez le [!UICONTROL Target CPA] d’une valeur recommandée lorsqu’elle est trop faible et qu’il y a peu ou pas de conversions |
+| | [!UICONTROL Target CPA opt in] | Offre avec [!UICONTROL Target CPA] |
+| | [!UICONTROL Target ROAS opt in] | Offre avec [!UICONTROL Target ROAS] |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | Développer la portée en mettant à jour une campagne pour utiliser l’extension d’affichage |
-|  | [!UICONTROL Keyword] | Ajouter de nouveaux mots-clés |
-|  | [!UICONTROL Search partners opt in] | Développer la portée avec les partenaires de recherche Google |
-|  | [!UICONTROL Use broad match keyword] | Utiliser une correspondance large pour les campagnes basées sur les conversions avec des enchères entièrement automatisées basées sur les conversions |
+| | [!UICONTROL Keyword] | Ajouter de nouveaux mots-clés |
+| | [!UICONTROL Search partners opt in] | Développer la portée avec [!DNL Google] partenaires de recherche |
+| | [!UICONTROL Use broad match keyword] | Utiliser une correspondance large pour les campagnes basées sur les conversions avec des enchères entièrement automatisées basées sur les conversions |
 
 >[!MORELIKETHIS]
 >
 >* [Affichez le journal des recommandations d’une [!DNL Google Ads] account](google-recommendation-view-log.md)
 >* [Appliquer ou ignorer une [!DNL Google Ads] recommandation](google-recommendation-apply-dismiss.md)
 >* [Bonnes pratiques relatives à l’utilisation des recommandations et des insights d’éditeur avec les portefeuilles](recommendation-best-practices.md)
-

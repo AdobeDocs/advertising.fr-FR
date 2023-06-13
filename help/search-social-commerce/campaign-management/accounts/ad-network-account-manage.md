@@ -1,9 +1,9 @@
 ---
 title: Gestion des comptes de réseau publicitaire
 description: Découvrez comment configurer et gérer les détails du compte pour un compte réseau publicitaire.
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ Pour [!DNL Microsoft Advertising] comptes, uniquement [!DNL oAuth]-authorized lo
 
 Exemple : `param1=value1&param2=value2`
 
-Les comptes qui utilisent le suivi des clics Advertising Adobe doivent inclure l’identifiant de clic du réseau publicitaire (`msclkid` pour [!DNL Microsoft Advertising]; `gclid` pour Google) dans le suffixe . Les comptes avec une intégration Adobe Analytics doivent utiliser la variable `s_kwcid` . Si le compte dispose d’une implémentation s\_kwcid côté serveur, le paramètre est automatiquement ajouté lorsqu’un utilisateur clique sur une publicité. sinon, vous devez l’ajouter manuellement ici. Voir [formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et [formats de suffixes requis pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Les comptes qui utilisent le suivi des clics par Adobe Advertising doivent inclure l’identifiant de clic du réseau publicitaire (`msclkid` pour [!DNL Microsoft Advertising]; `gclid` pour Google) dans le suffixe . Les comptes avec une intégration Adobe Analytics doivent utiliser la variable `s_kwcid` . Si le compte dispose d’une implémentation s\_kwcid côté serveur, le paramètre est automatiquement ajouté lorsqu’un utilisateur clique sur une publicité. sinon, vous devez l’ajouter manuellement ici. Voir [formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et [formats de suffixes requis pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
@@ -184,7 +184,7 @@ Les comptes qui utilisent le suivi des clics Advertising Adobe doivent inclure l
 
 * Pour incorporer l’URL finale :
 
-   * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste des paramètres permettant d’indiquer les URL finales dans les modèles de suivi, voir ([!DNL Microsoft Advertising] uniquement) [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou ([!DNL Google Ads] uniquement) les paramètres &quot;Modèle de suivi uniquement&quot; dans la section &quot;Paramètres ValueTrack disponibles&quot; dans la variable [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste des paramètres permettant d’indiquer les URL finales dans les modèles de suivi, voir ([!DNL Microsoft Advertising] uniquement) [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou ([!DNL Google Ads] uniquement) les paramètres &quot;Modèle de tracking uniquement&quot; dans la section &quot;Disponible&quot; [!DNL ValueTrack] Paramètres&quot; dans la variable [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] uniquement) Utiliser le paramètre `!{lpurl}` pour indiquer l&#39;URL de la landing page.
 
@@ -238,9 +238,9 @@ Les comptes qui utilisent le suivi des clics Advertising Adobe doivent inclure l
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **Format S\_kwcid** - (Existant [!DNL Google Ads] les comptes des annonceurs avec une intégration Advertising-Adobe Analytics Adobe et pour lesquels la variable s\_kwcid n’a pas encore été migrée) ;
+* **Format S\_kwcid** - (Existant [!DNL Google Ads] les comptes des annonceurs avec une intégration Adobe Advertising-Adobe Analytics et pour lesquels la variable s\_kwcid n’a pas encore été migrée) ;
 
-Ce compte utilise le format hérité du code de suivi s\_kwcid, ce qui permet à Adobe Advertising de partager les données relatives au compte avec Adobe Analytics. Le [format le plus récent](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) comprend des paramètres pour l’identifiant de campagne et l’identifiant du groupe publicitaire, qui sont nécessaires pour générer des rapports précis aux niveaux de la campagne et du groupe publicitaire pour [!DNL Google Ads] performances max des campagnes et des campagnes de brouillons et d’expériences dans Analytics :
+Ce compte utilise le format hérité du code de suivi s\_kwcid, ce qui permet à l’Adobe Advertising de partager les données relatives au compte avec Adobe Analytics. Le [format le plus récent](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) comprend des paramètres pour l’identifiant de campagne et l’identifiant du groupe publicitaire, qui sont nécessaires pour générer des rapports précis aux niveaux de la campagne et du groupe publicitaire pour [!DNL Google Ads] performances max des campagnes et des campagnes de brouillons et d’expériences dans Analytics :
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -248,7 +248,7 @@ Si ce compte doit générer des rapports aux niveaux de la campagne et du groupe
 
 Pour obtenir des instructions complètes, voir[Mettez à jour le code de suivi s\_kwcid pour un événement [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).&quot;
 
-**Noms de suites de rapports** - (Pour la redirection EF avec jeton uniquement ; publicitaires avec une intégration Advertising-Adobe Analytics Adobe ; (facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoie les données qu’il collecte à partir du réseau publicitaire, y compris les classifications d’entités et les données de clic pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.
+**Noms de suites de rapports** - (Pour la redirection EF avec jeton uniquement ; les publicitaires avec une intégration Adobe Advertising-Adobe Analytics ; (facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoie les données qu’il collecte à partir du réseau publicitaire, y compris les classifications d’entités et les données de clic pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.
 
 Pour que les données s’affichent dans les suites de rapports, soit (a) le s\_kwcid côté serveur doit être configuré pour le compte, soit (b) le paramètre au niveau de l’annonceur doit être défini sur &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; doit être activé. En outre, le compte Analytics de l’annonceur doit être configuré pour recevoir les données de Search, Social et Commerce. Pour plus d’informations, contactez votre gestionnaire de compte d’Adobe.
 

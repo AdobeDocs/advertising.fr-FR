@@ -1,9 +1,9 @@
 ---
 title: Paramètres de modèle de publicité textuelle et de recherche réactive pour les flux de stock
 description: Référencez les paramètres des annonces textuelles et des modèles d’annonces de recherche réactive pour les flux d’inventaire.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '3329'
+source-wordcount: '3317'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Lorsqu’aucune correspondance n’est trouvée, toutes les données de la campa
 
 * Pour incorporer l’URL finale :
 
-   * ([!DNL Google Ads] et [!DNL Microsoft® Advertising] uniquement) Pour obtenir une liste des paramètres permettant d’indiquer les URL finales dans les modèles de suivi, voir ([!DNL Microsoft® Advertising] uniquement) [[!DNL Microsoft® Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799/2) ou ([!DNL Google Ads] uniquement) les paramètres &quot;Modèle de suivi uniquement&quot; dans la section &quot;Paramètres ValueTrack disponibles&quot; dans la variable [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] et [!DNL Microsoft® Advertising] uniquement) Pour obtenir une liste des paramètres permettant d’indiquer les URL finales dans les modèles de suivi, voir ([!DNL Microsoft® Advertising] uniquement) [[!DNL Microsoft® Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799/2) ou ([!DNL Google Ads] uniquement) les paramètres &quot;Modèle de tracking uniquement&quot; dans la section &quot;Disponible&quot; [!DNL ValueTrack] Paramètres&quot; dans la variable [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] uniquement) Utiliser le paramètre `!{unescapedurl}` pour indiquer l&#39;URL de la landing page.
 
@@ -134,13 +134,13 @@ Lorsqu’aucune correspondance n’est trouvée, toutes les données de la campa
 
 **[!UICONTROL Ad Group Tracking Template]:** (Comptes avec URL finales/avancées uniquement) Le modèle de suivi au niveau du groupe publicitaire, qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi et incorpore l’URL finale dans un paramètre.
 
-Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;Redirection EF&quot; et &quot;Chargement automatique&quot;, Search, Social et Commerce ajoute automatiquement le code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
+Pour le suivi de conversion Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; Search, Social et Commerce ajoute automatiquement le code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
 
 Pour les redirections et le suivi tiers, saisissez une valeur. Pour indiquer l&#39;URL de la landing page :
 
 * Pour Yahoo ! Comptes Japan Ads, utilisez le paramètre {lpurl}.
 
-* Pour connaître les paramètres disponibles pour les comptes Microsoft® Advertising et Google Ads, reportez-vous à la section [[!DNL Microsoft® Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou les paramètres &quot;Modèle de suivi uniquement&quot; dans la section &quot;Paramètres ValueTrack disponibles&quot; dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+* Pour connaître les paramètres disponibles pour les comptes Microsoft® Advertising et Google Ads, reportez-vous à la section [[!DNL Microsoft® Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou les paramètres du &quot;Modèle de suivi uniquement&quot; dans la section sur &quot;Disponible [!DNL ValueTrack] Paramètres&quot; dans la variable [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
 Cette valeur remplace les paramètres au niveau du compte et de la campagne, mais les modèles de suivi à des niveaux plus granulaires (avec le mot-clé comme mot-clé le plus granulaire) remplacent cette valeur.
 
@@ -198,13 +198,13 @@ Si vous utilisez un [!DNL Google Merchant Center] flux et inclure cette valeur d
 
 **[!UICONTROL Keyword Tracking Template]:** (Comptes avec URL finales/avancées ; (facultatif) Le modèle de suivi, qui spécifie tous les paramètres de suivi et les redirections de domaine hors entrée et incorpore l’URL finale dans un paramètre. Le modèle de suivi au niveau le plus granulaire (avec le mot-clé comme le plus granulaire) remplace les valeurs à tous les autres niveaux.
 
-* Pour le suivi de conversion Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;Redirection EF&quot; et &quot;Chargement automatique&quot;, Search, Social et Commerce ajoute automatiquement le code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
+* Pour le suivi de conversion Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; Search, Social et Commerce ajoute automatiquement le code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
 
 * Vous pouvez éventuellement saisir des redirections et un suivi tiers.
 
 * Pour indiquer l&#39;URL de la landing page :
 
-   * ([!DNL Google Ads] et [!DNL Microsoft® Advertising] uniquement) Pour obtenir une liste des paramètres permettant d’indiquer les URL finales dans les modèles de suivi, voir ([!DNL Microsoft® Advertising] uniquement) [[!DNL Microsoft® Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou ([!DNL Google Ads] uniquement) les paramètres &quot;Modèle de suivi uniquement&quot; dans la section &quot;Paramètres ValueTrack disponibles&quot; dans la variable [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] et [!DNL Microsoft® Advertising] uniquement) Pour obtenir une liste des paramètres permettant d’indiquer les URL finales dans les modèles de suivi, voir ([!DNL Microsoft® Advertising] uniquement) [[!DNL Microsoft® Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou ([!DNL Google Ads] uniquement) les paramètres &quot;Modèle de tracking uniquement&quot; dans la section &quot;Disponible&quot; [!DNL ValueTrack] Paramètres&quot; dans la variable [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] uniquement) Utiliser le paramètre `!{lpurl}` pour indiquer l&#39;URL de la landing page.
 
@@ -337,7 +337,7 @@ Pour les redirections et le suivi tiers, saisissez une valeur. Pour indiquer l&#
 
 * Pour Yahoo ! Comptes Japan Ads, utilisez le paramètre {lpurl}.
 
-* Pour connaître les paramètres disponibles pour les comptes Microsoft® Advertising et Google Ads, reportez-vous à la section [[!DNL Microsoft® Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou les paramètres &quot;Modèle de suivi uniquement&quot; dans la section &quot;Paramètres ValueTrack disponibles&quot; dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+* Pour connaître les paramètres disponibles pour les comptes Microsoft® Advertising et Google Ads, reportez-vous à la section [[!DNL Microsoft® Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou les paramètres du &quot;Modèle de suivi uniquement&quot; dans la section sur &quot;Disponible [!DNL ValueTrack] Paramètres&quot; dans la variable [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
 **\[Autres champs de publicité sous les champs de publicité d’origine\] :** (Facultatif) Un autre ensemble de copies d’annonces pour une publicité, qui peut être utilisé si l’une des lignes de la copie d’annonce d’origine dépasse la longueur maximale autorisée une fois que des paramètres dynamiques sont remplis avec des données pendant la propagation.
 

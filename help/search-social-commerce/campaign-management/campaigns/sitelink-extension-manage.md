@@ -1,9 +1,9 @@
 ---
 title: Gestion des liens de site partagés
 description: Découvrez comment créer et gérer des extensions de lien de site partagées.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -92,12 +92,11 @@ Une fois l’enregistrement enregistré, l’URL de base inclut tous les paramè
 >* ([!DNL Google Ads]) Chaque lien de site d’une campagne ou d’un groupe publicitaire doit avoir une page d’entrée unique et le contenu de chaque page d’entrée de lien de site doit comporter environ 80 % de contenu unique. Par exemple, vous ne pouvez pas avoir de liens de site avec des liens vers plusieurs ancres dans la même page.
 >* ([!DNL Google Ads]) Évitez d’utiliser des macros, qui ne se substituent pas aux clics provenant de sources qui activent le suivi parallèle. Si l’annonceur doit utiliser des macros, l’équipe du compte d’Adobe doit travailler avec le service clientèle ou l’équipe de mise en oeuvre pour les ajouter.
 
-
 **[!UICONTROL Tracking Template]:** (Facultatif) Le modèle de suivi ou l’URL de suivi, qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi, et incorpore également l’URL de page d’entrée/finale dans un paramètre. Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
 
-* Pour le suivi de conversion Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;Redirection EF&quot; et &quot;Chargement automatique&quot;, Search, Social et Commerce préfixe automatiquement son propre code de suivi des clics lorsque vous enregistrez l’enregistrement.
+* Pour le suivi de conversion Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;Chargement automatique&quot;, Search, Social et Commerce préfixe automatiquement son propre code de suivi des clics lorsque vous enregistrez l’enregistrement.
 
-* Pour les paramètres pris en charge pour incorporer l’URL finale, voir la section ([!DNL Microsoft Advertising] uniquement) [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou ([!DNL Google Ads] uniquement) les paramètres &quot;Modèle de suivi uniquement&quot; dans la section &quot;Paramètres ValueTrack disponibles&quot; dans la variable [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+* Pour les paramètres pris en charge pour incorporer l’URL finale, voir la section ([!DNL Microsoft Advertising] uniquement) [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou ([!DNL Google Ads] uniquement) les paramètres &quot;Modèle de tracking uniquement&quot; dans la section &quot;Disponible&quot; [!DNL ValueTrack] Paramètres&quot; dans la variable [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
 * Vous pouvez éventuellement inclure des paramètres d’URL et des paramètres personnalisés définis pour la campagne, séparés par des esperluettes (&amp;), tels que `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -111,9 +110,7 @@ Une fois l’enregistrement enregistré, l’URL de base inclut tous les paramè
 >* ([!DNL Microsoft Advertising]) Vous pouvez mettre à jour vos modèles de suivi à n’importe quel niveau sans soumettre à nouveau vos publicités pour approbation.
 >* Pour [!DNL Google Ads], évitez d’utiliser des macros, qui ne se substituent pas aux clics provenant de sources qui activent le suivi parallèle. Si l’annonceur doit utiliser des macros, l’équipe du compte d’Adobe doit collaborer avec le service clientèle ou l’équipe de mise en oeuvre pour les ajouter.
 
-
 >[!MORELIKETHIS]
 >
 >* [À propos des extensions sitelink](sitelink-extension-about.md)
 >* [Association de liens de site partagés à des comptes, des campagnes et des groupes publicitaires](sitelink-extension-associate.md)
-
