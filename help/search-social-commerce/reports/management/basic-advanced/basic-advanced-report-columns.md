@@ -1,7 +1,8 @@
 ---
 title: Colonnes de rapports pour les rapports de base et avancés
 description: Découvrez les colonnes de données disponibles pour les rapports de base et avancés.
-source-git-commit: 7327c91b92b6471fa8da8767fc764de4226b4f91
+exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
+source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
 workflow-type: tm+mt
 source-wordcount: '3653'
 ht-degree: 0%
@@ -149,7 +150,7 @@ ht-degree: 0%
 | [!UICONTROL Product Groupings] | Groupe de produits parent. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] Liste de produits (publicités) Identifiant du produit affiché avec la publicité.<br><br><b>Remarque :</b> L’ID est capturé uniquement lorsque la liste de produits inclut le paramètre de suivi. `ev_plx=<GMC product ID>`, que vous devez ajouter dans [!DNL Google Merchant Center]. |
 | [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Le chiffre d’affaires de la propriété de transaction (1 pour un enregistrement ou 12 pour une commande de 12 USD). Si plusieurs unités d’offre ont le même ID de transaction, les recettes de l’ID de suivi sont fractionnées en fonction du nombre de clics à la date de clic spécifiée (lorsque les données de clic sont disponibles). |
-| [!UICONTROL Reach] | ([!DNL Meta] publicités) Nombre de personnes qui ont vu vos publicités au moins une fois. Remarque : [!DNL Meta] les déduplications atteignent les profils utilisateur tous les jours, de sorte que les chiffres signalés par [!DNL Meta] et par Search, Social et Commerce peuvent différer. |
+| [!UICONTROL Reach] | ([!DNL Meta] (publicités) Nombre de personnes qui ont vu vos publicités au moins une fois. Remarque : [!DNL Meta] les déduplications atteignent les profils utilisateur tous les jours, de sorte que les chiffres signalés par [!DNL Meta] et par Search, Social et Commerce peuvent différer. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) Région ou état américain/canadien d’où proviennent les impressions ou les clics. Il est déterminé à partir de l’adresse IP de l’utilisateur. |
 | [!UICONTROL SE Creative ID] | Identifiant de publicité attribué par le réseau. |
 | [!UICONTROL Search (Abs. Top) IS] | ([!DNL Google Ads] et [!DNL Microsoft Advertising]) Impressions que vous avez reçues au premier emplacement absolu (la toute première publicité au-dessus des résultats de la recherche organique), divisé par le nombre estimé d’impressions que vous pouviez recevoir au premier emplacement. Les pourcentages inférieurs à 10 % sont indiqués comme &quot;`<10%`&quot; ou &quot;`0.0999`.&quot; |
@@ -171,17 +172,8 @@ ht-degree: 0%
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) L’identifiant de l’utilisateur qui a effectué la transaction. |
 | [!UICONTROL Through Plays] | ([!DNL Meta] publicités) Nombre de vues qui ont visionné l’annonce dans son intégralité. |
 | [!UICONTROL Top of Page CPC] | (Campagnes Google uniquement) Le coût par clic (CPC) des publicités qui apparaissent en haut des pages de résultats de recherche au cours de la période spécifiée. |
-| [!UICONTROL Tracking URL] | (Mots-clés ciblés par la recherche uniquement) Le modèle de suivi ou l’URL de destination incorporé avec (le cas échéant) le code de suivi de recherche, de Social et de Commerce. |
-| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) La propriété de transaction spécifique à l’annonceur à laquelle la transaction est créditée. |
-| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) Heure à laquelle la propriété de transaction spécifiée a été créditée. |
-| [!UICONTROL User Account Type] | Obsolète |
-| [!UICONTROL User SE Account ID] | Identifiant numérique attribué par Search, Social et Commerce au réseau publicitaire. |
-| [!UICONTROL Video Average Play Time] | ([!DNL Meta] publicités) La durée moyenne de lecture d’une vidéo, y compris le temps passé à la relecture de la vidéo, pour une seule impression. |
-| [!UICONTROL Video Plays] | ([!DNL Meta] publicités) Nombre de fois où la lecture de la vidéo commence, à l’exception des lectures. |
-| [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], et [!UICONTROL VideoQuartile100Rate] | (Publicités vidéo) Pourcentage de vidéos lues à 25 %, 50 %, 75 % ou 100 % du parcours. |
-| [!UICONTROL View Rate] | (Publicités vidéo) Nombre d’affichages ou d’engagements divisé par le nombre de fois où la publicité (impressions de vidéos et de miniatures) a été affichée. |
-| [!UICONTROL Views] | (Publicités vidéo) Le nombre de fois où des personnes ont regardé votre publicité ou l’ont utilisée. |
-| [!UICONTROL ViewThroughConversions] | (Publicités sur le réseau d’audience) Le nombre de conversions qui ont résulté d’une ou de plusieurs impressions mais pas de clics. |
+
+| [!UICONTROL Tracking URL] | (Mots-clés ciblés par la recherche uniquement) Le modèle de suivi ou l’URL de destination incorporée avec (le cas échéant) le code de suivi de recherche, de Social et de Commerce. | | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) La propriété de transaction spécifique à l’annonceur à laquelle la transaction est créditée. | | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) Heure à laquelle la propriété de transaction spécifiée a été créditée. | | [!UICONTROL User Account Type] | Obsolète | | [!UICONTROL User SE Account ID] | Identifiant numérique attribué par Search, Social et Commerce au réseau publicitaire. | | [!UICONTROL Video Average Play Time] | ([!DNL Meta] publicités) La durée moyenne de lecture d’une vidéo, y compris le temps passé à la relecture de la vidéo, pour une seule impression. | | [!UICONTROL Video Plays] | ([!DNL Meta] publicités) Nombre de fois où la lecture de la vidéo commence, à l’exception des lectures. | | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], et [!UICONTROL VideoQuartile100Rate] | (Publicités vidéo) Pourcentage de vidéos lues à 25 %, 50 %, 75 % ou 100 % du parcours. | | [!UICONTROL View Rate] | (Publicités vidéo) Le nombre d’affichages ou d’engagements divisé par le nombre de fois où la publicité (impressions de vidéo et de miniatures) a été affichée. | | [!UICONTROL Views] | (Publicités vidéo) Le nombre de fois où des personnes ont regardé votre publicité ou l’ont utilisée. | | [!UICONTROL ViewThroughConversions] | (Publicités sur le réseau d’audience) Le nombre de conversions résultant d’une ou de plusieurs impressions, mais pas de clics. |
 
 <table style="table-layout:auto">
 
