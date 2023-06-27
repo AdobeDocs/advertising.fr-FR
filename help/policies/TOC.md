@@ -1,14 +1,10 @@
 ---
-type: Documentation
-role: User, Admin
-cloud: Experience Cloud
-solution: Advertising
-product: advertising cloud
+role: User
 user-guide-title: Politiques et directives d’Adobe Advertising
 user-guide-description: Découvrez les politiques et directives d’Advertising DSP et d’ [!DNL Advertising Search, Social, & Commerce].
 breadcrumb-title: Politiques et directives
 index: true
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 69%

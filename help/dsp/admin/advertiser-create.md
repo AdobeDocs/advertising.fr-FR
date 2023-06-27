@@ -1,7 +1,8 @@
 ---
 title: Création d’un compte Advertiser
 description: Découvrez comment créer un compte publicitaire.
-source-git-commit: ace64d46a8e0394d460f3894fe8823b048c28dc0
+role: User, Admin
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
@@ -25,14 +26,13 @@ Les annonceurs sont disponibles pour tous les utilisateurs du compte d’organis
       1. Spécifiez la variable [!UICONTROL General] paramètres.
 
       1. (Facultatif) Pour configurer les intégrations entre DSP et d’autres produits Adobe Experience Cloud, saisissez l’ID d’organisation Experience Cloud de l’annonceur dans la variable [!UICONTROL Adobe IMS IDs] , puis configurez les intégrations de produit dans la section [!UICONTROL Integrations] .
+
    1. (Facultatif) Dans le [!UICONTROL Targeting] , spécifiez les cibles par défaut pour chaque nouvel emplacement.
 
       Vous pouvez remplacer les cibles par défaut pour tout emplacement que vous créez.
-
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
 >* [Paramètres des annonceurs](/help/dsp/admin/advertiser-settings.md)
-

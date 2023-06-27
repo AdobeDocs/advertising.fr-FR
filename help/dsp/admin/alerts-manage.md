@@ -1,8 +1,9 @@
 ---
 title: Gestion des abonnements aux alertes
 description: Découvrez comment gérer les alertes par e-mail automatiques.
+role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -67,7 +68,7 @@ ht-degree: 0%
 
 * Pour ajouter un abonné à un abonnement, saisissez les adresses email dans le champ de saisie sous **[!UICONTROL Subscribers]**.
 
-   Séparez plusieurs adresses par des espaces.
+  Séparez plusieurs adresses par des espaces.
 
 * Pour supprimer un abonné à un abonnement, cliquez sur **[!UICONTROL X]** en regard de l’adresse électronique sous **[!UICONTROL Subscribers]**.
 

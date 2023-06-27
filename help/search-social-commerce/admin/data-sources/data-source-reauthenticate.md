@@ -1,7 +1,9 @@
 ---
 title: Réauthentifier un [!DNL Google Analytics] source de données
 description: Découvrez comment réauthentifier un [!DNL Google Analytics] source de données si vous modifiez le mot de passe associé ou si le certificat expire.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 9233e004-8607-444a-ba99-f63cb83a8b7a
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -29,10 +31,10 @@ Si vous modifiez le mot de passe du compte de messagerie utilisé pour une sourc
          >[!TIP]
          >
          >Pour vous assurer que uniquement [!DNL Google Analytics] Les propriétés et les vues sont disponibles dans Search, Social et Commerce. Connectez-vous à l’aide d’une adresse électronique qui a accès uniquement aux propriétés et aux vues.
+
    1. Cochez la case pour autoriser Search, Social et Commerce à accéder aux mesures du compte.
 
    1. Cliquez sur **[!UICONTROL Re-Authenticate]**.
-
 
 1. Cliquez sur **[!UICONTROL Post]**.
 
@@ -45,4 +47,3 @@ Si vous modifiez le mot de passe du compte de messagerie utilisé pour une sourc
 >* [Suspension de la synchronisation d’une source de données](data-source-pause.md)
 >* [[!DNL Google Analytics] paramètres de source de données](data-source-settings.md)
 >* [Annexe : Disponible [!DNL Google Analytics] mesures](data-source-ga-metrics.md)
-

@@ -1,10 +1,11 @@
 ---
 title: À propos des listes de sites bloqués au niveau du compte et des annonceurs
 description: En savoir plus sur la liste des sites bloqués pour un compte ou un annonceur.
+role: User, Admin
 exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
-source-git-commit: bd667a01a0579c1523dc975bffd3560ac2a056db
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -23,10 +24,8 @@ Les listes au niveau des annonceurs remplacent les listes au niveau du compte.
 >* Les utilisateurs peuvent également ajouter des sites ciblés à n’importe quel emplacement.
 >* Les listes de sites bloqués remplacent toujours les listes de sites ciblés. Si un emplacement exclut et inclut la même cible pour une publicité, la cible est exclue.
 
-
 >[!MORELIKETHIS]
 >
 >* [Modification d’une liste de sites bloqués au niveau du compte ou de l’annonceur](/help/dsp/admin/blocked-sites-list-edit.md)
 >* [Sécurité des marques et qualité des médias](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
-

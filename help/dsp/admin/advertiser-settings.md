@@ -1,7 +1,8 @@
 ---
 title: Paramètres du compte Advertiser
 description: Voir la description des paramètres de l’annonceur disponibles.
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+role: User, Admin
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -38,9 +39,9 @@ Les annonceurs qui disposent de produits Adobe Experience Cloud supplémentaires
 
 (Facultatif) Produits Experience Cloud supplémentaires liés au compte DSP. Les produits doivent être associés au même ID d’organisation Experience Cloud que celui fourni dans la variable [!UICONTROL Adobe IMS IDs] .
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Publicitaires avec [!DNL Advertising Search, Social, & Commerce] ou qui utilisent des pixels de conversion Adobe Advertising) A [!DNL Search, Social, & Commerce] compte avec lequel DSP échangera des données d’attribution.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Publicitaires avec [!DNL Advertising Search, Social, & Commerce] ou qui utilisent des pixels de conversion d’Adobe Advertising) A [!DNL Search, Social, & Commerce] compte avec lequel DSP échangera des données d’attribution.
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Publicitaires avec Adobe Analytics ; facultatif ; s’applique uniquement aux données collectées à l’aide des balises de suivi de conversion Adobe Advertising qui incluent une [!DNL EF Redirect] et jeton uniquement) Un ou plusieurs [!DNL Analytics] suites de rapports auxquelles DSP enverra les données collectées auprès des éditeurs et des partenaires côté offre. Analytics enverra également les données qu’il collecte du site du client à DSP.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Publicitaires avec Adobe Analytics ; facultatif ; s’applique uniquement aux données collectées à l’aide des balises de suivi de conversion d’Adobe Advertising qui incluent une [!DNL EF Redirect] et jeton uniquement) Un ou plusieurs [!DNL Analytics] suites de rapports auxquelles DSP enverra les données collectées auprès des éditeurs et des partenaires côté offre. Analytics enverra également les données qu’il collecte du site du client à DSP.
 
 Pour que les données s’affichent dans les suites de rapports, la variable [!DNL Search, Social, & Commerce] paramètre au niveau de l’annonceur sur &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; doit être activé. En outre, le [!DNL Analytics] doit être configuré pour recevoir les données d’Adobe Advertising.
 
@@ -55,7 +56,7 @@ Pour plus d’informations sur l’intégration à [!DNL Analytics], voir &quot;
 * Segments d’Audience Manager
 * [!DNL Analytics] segments publiés sur Adobe Experience Cloud
 * Segments créés à l’aide de Adobe Experience Cloud [!DNL Audience Library]
-* Segments créés dans Adobe Experience Platform et envoyés à Adobe Advertising par Audience Manager
+* Segments créés dans Adobe Experience Platform et envoyés à l’Adobe Advertising par Audience Manager
 
 La synchronisation initiale prend environ 24 heures. Ensuite, les données sont synchronisées en temps réel, avec un délai d’une à deux secondes.
 <!-- I don't think this is true anymore:
@@ -144,6 +145,5 @@ Vous pouvez remplacer le paramètre au niveau de l’annonceur au niveau de l’
 >[!MORELIKETHIS]
 >
 >* [Création d’un compte Advertiser](/help/dsp/admin/advertiser-create.md)
-
 
 <!-- >* [View the Advertiser List for the Account](/help/dsp/admin/advertiser-view.md) -->

@@ -1,14 +1,10 @@
 ---
-type: Documentation
-cloud: Experience Cloud
-solution: Advertising
-product: advertising cloud
-archetype: end-user
+role: User
 user-guide-title: Guide de Advertising Search, Social et Commerce
 user-guide-description: Ce guide explique les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires de recherche, de réseaux sociaux et de commerce.
 breadcrumb-title: Guide de Advertising Search, Social et Commerce
 index: true
-source-git-commit: 8d4bf0b53c8ddbc11111879c7e73adf3995e0ad8
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '1717'
 ht-degree: 0%
@@ -17,7 +13,7 @@ ht-degree: 0%
 
 # Guide de Advertising Search, Social et Commerce {#search-social-commerce}
 
-<!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
+<!-- When we  use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
 
 + [Nouveautés](home.md)
 + [À propos de ce guide](help-about.md)

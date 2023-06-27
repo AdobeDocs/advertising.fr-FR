@@ -1,8 +1,9 @@
 ---
 title: Modification d’une liste de sites bloqués au niveau du compte ou de l’annonceur
 description: Découvrez comment gérer la liste des sites bloqués pour un compte ou un annonceur.
+role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -26,6 +27,7 @@ ht-degree: 0%
       1. (Si des valeurs sont identifiées comme non valides) Cliquez sur le bouton **Coller dans les sites et applications** corrigez les valeurs, puis cliquez sur **Continuer**.
 
       1. Cliquez sur **Terminer**.
+
    * (Facultatif) Pour supprimer une ou plusieurs valeurs, effectuez l’une des opérations suivantes :
 
       * Pour supprimer toutes les valeurs, cliquez sur **Effacer tout**. Dans le message de confirmation, cliquez sur **OK**.
@@ -33,13 +35,11 @@ ht-degree: 0%
       * Pour supprimer une ou plusieurs valeurs, cochez la case en regard de chacune d’elles, puis cliquez sur **Supprimer cochée**.
 
       * Pour supprimer une seule valeur, cliquez sur **X** en regard de la valeur .
+
    * (Facultatif) Pour exporter la liste vers une feuille de calcul Excel Microsoft au format CSV (valeurs séparées par des virgules), cliquez sur **Exporter**.
-
-
 
 >[!MORELIKETHIS]
 >
 >* [À propos des listes de sites bloqués au niveau du compte et des annonceurs](/help/dsp/admin/blocked-sites-list-about.md)
-   > [Sécurité des marques et qualité des médias](/help/dsp/introduction/features/brand-safety-media-quality.md)
+> [Sécurité des marques et qualité des médias](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
-

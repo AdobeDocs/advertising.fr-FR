@@ -1,7 +1,9 @@
 ---
 title: Conditions préalables à la configuration d’un [!DNL Google Analytics] source de données
 description: Découvrez les étapes à suivre avant de configurer une [!DNL Google Analytics] source de données.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: cbb2ad6d-8494-4fa4-928c-238b25bda3a6
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -55,4 +57,3 @@ Répétez les tâches suivantes pour chaque [!DNL Google Analytics] combinaison 
 >* [Réauthentifier un [!DNL Google Analytics] source de données](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] paramètres de source de données](data-source-settings.md)
 >* [Annexe : Disponible [!DNL Google Analytics] mesures](data-source-ga-metrics.md)
-

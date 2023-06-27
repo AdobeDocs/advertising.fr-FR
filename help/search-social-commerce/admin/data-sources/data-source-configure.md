@@ -1,7 +1,9 @@
 ---
 title: Configurez une [!DNL Google Analytics] vue en tant que source de données
 description: Découvrez comment configurer une source de données à partir d’une [!DNL Google Analytics] vue.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -42,9 +44,10 @@ Pour intégrer des mesures pour plusieurs propriétés ou pour plusieurs vues po
          >
          >Si vous modifiez ultérieurement le mot de passe de ce compte de messagerie, toutes les connexions ouvertes au compte de messagerie sont fermées. Pour reprendre la synchronisation des données, revenez à cette page et [réauthentifier](data-source-reauthenticate.md).
 
-      1. Cochez la case pour autoriser Adobe Advertising à accéder aux mesures du compte.
+      1. Cochez la case pour autoriser l’Adobe Advertising à accéder aux mesures du compte.
 
       1. Cliquez sur **[!UICONTROL Authenticate]**.
+
    1. Dans le [!UICONTROL Account Details] , spécifiez la propriété et l’affichage des mesures à importer. En outre, spécifiez la dimension personnalisée renseignée avec la valeur du paramètre de chaîne de requête &quot;ef_id&quot;.
 
    1. Dans le [!UICONTROL Import Metrics] , spécifiez les mesures à inclure dans le ou les flux.
@@ -56,7 +59,6 @@ Pour intégrer des mesures pour plusieurs propriétés ou pour plusieurs vues po
       >[!DNL Google Analytics] autorise jusqu’à 10 mesures dans un seul flux de données. Search, Social et Commerce peuvent prendre en charge jusqu’à deux flux avec un total de 20 mesures, mais l’utilisation d’un deuxième flux double vos appels API à [!DNL Google Analytics]. Si vous disposez de nombreuses mesures, sélectionnez uniquement celles que vous souhaitez utiliser dans les objectifs d’optimisation. En savoir plus sur [Quotas et limites d’appel pour les demandes d’API à [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
 
    1. Dans le [!UICONTROL Metric Tag] , saisissez le nom de la balise à ajouter à chaque mesure pour la source de données.
-
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Post]**.
 
@@ -75,4 +77,3 @@ Pour intégrer des mesures pour plusieurs propriétés ou pour plusieurs vues po
 >* [Réauthentifier un [!DNL Google Analytics] source de données](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] paramètres de source de données](data-source-settings.md)
 >* [Annexe : Disponible [!DNL Google Analytics] mesures](data-source-ga-metrics.md)
-

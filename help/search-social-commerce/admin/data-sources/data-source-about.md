@@ -1,7 +1,9 @@
 ---
 title: A propos de la synchronisation [!DNL Google Analytics] mesures de conversion
 description: En savoir plus sur la synchronisation [!DNL Google Analytics] mesures de conversion pour l’optimisation et la création de rapports.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 0c263ced-3774-4d4b-9d61-65289cd74027
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Les étapes suivantes décrivent le processus de synchronisation des données de
 
    * Implémentation d’un jeton publicitaire Adobe (`ef_id` paramètre de chaîne de requête) dans les URL de la page d’entrée pour tous les comptes publicitaires applicables.
 
-   * Capture du jeton publicitaire Adobe (`ef_id` paramètre de chaîne de requête) dans un [!DNL Custom Dimension] in [!DNL Google Analytics].
+   * Capturer le jeton d’Adobe Advertising (`ef_id` paramètre de chaîne de requête) dans un [!DNL Custom Dimension] in [!DNL Google Analytics].
 
 1. (Administrateur de compte de l’agence, gestionnaire de compte de l’agence, [!DNL Adobe] gestionnaire de compte et utilisateurs administrateurs uniquement) [Création d’une source de données par [!DNL Google Analytics] combinaison de compte, de propriété et d’affichage](data-source-configure.md).
 
@@ -41,4 +43,3 @@ Les étapes suivantes décrivent le processus de synchronisation des données de
 >* [Réauthentifier un [!DNL Google Analytics] source de données](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] paramètres de source de données](data-source-settings.md)
 >* [Annexe : Disponible [!DNL Google Analytics] mesures](data-source-ga-metrics.md)
-
