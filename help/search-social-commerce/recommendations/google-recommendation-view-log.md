@@ -1,9 +1,10 @@
 ---
 title: Affichez le journal des recommandations d’une [!DNL Google Ads] account
 description: Découvrez comment afficher un journal de chaque recommandation appliquée pour une [!DNL Google Ads] compte .
-source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
+exl-id: 97db1e9e-6cd8-406f-8fd5-fbb85315fdf6
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -23,6 +24,6 @@ Les recommandations ignorées ne sont pas disponibles à partir du réseau publi
 >[!MORELIKETHIS]
 >
 >* [À propos de la prise en charge des recommandations et des insights de l’éditeur](recommendation-support.md)
+>* [Affichage des recommandations et des informations sur les performances de votre éditeur](recommendation-view.md)
 >* [Appliquer ou ignorer une [!DNL Google Ads] recommandation](google-recommendation-apply-dismiss.md)
 >* [Bonnes pratiques relatives à l’utilisation des recommandations et des insights d’éditeur avec les portefeuilles](recommendation-best-practices.md)
-

@@ -1,32 +1,47 @@
 ---
 title: À propos de la prise en charge des recommandations et des insights de l’éditeur
 description: Découvrez la prise en charge de l’affichage et de la gestion des recommandations et des informations de l’éditeur.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
+source-git-commit: de1b0b3ffbb8cbc3113e4e707b8ee2d647f60ca3
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # À propos de la prise en charge des recommandations et des insights de l’éditeur
 
-[!DNL Google Ads] les recommandations sont des suggestions de [!DNL Google Ads] pour améliorer les performances et l’efficacité de vos campagnes. Chaque recommandation fournit des suggestions personnalisées sur les différents aspects des performances d’une campagne (de l’ajout d’une ressource à l’augmentation du budget) en fonction de l’historique des performances de votre compte, des paramètres de campagne et des tendances au sein de l’ensemble de la campagne. [!DNL Google Ads].
+*[!DNL Google Ads]et [!DNL Microsoft® Advertising] comptes*
+
+*Fonction bêta pour [!DNL Microsoft® Advertising] comptes*
+
+[!DNL Google Ads] recommandations et [!DNL Microsoft® Advertising] les informations de performances sont des suggestions du réseau publicitaire pour améliorer les performances et l’efficacité de vos campagnes :
+
+* Chaque [!DNL Google Ads] la recommandation fournit des suggestions personnalisées sur les différents aspects des performances d’une campagne, depuis l’ajout d’une ressource jusqu’à l’augmentation du budget, en fonction de l’historique des performances de votre compte, des paramètres de campagne et des tendances dans l’ensemble de la campagne. [!DNL Google Ads].
+
+* Chaque [!DNL Microsoft® Advertising] les informations de performances vous alertent sur une fluctuation significative dans un compte de gestionnaire, un compte publicitaire ou une campagne ; identifie les causes possibles et suggère des actions pour optimiser les performances.
+
+## Le [!UICONTROL Recommendations & Publisher Insights] view
 
 Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights], vous pouvez :
 
-* Afficher en un coup d’oeil toutes les recommandations prises en charge qui n’ont pas été appliquées pour un [!DNL Google Ads]<!-- or [Microsoft Advertising]--> compte . Les informations de chaque recommandation incluent les détails, le type et la catégorie de recommandation, les mesures réelles et les mesures qui [!DNL Google Ads] prédit si la recommandation est appliquée et les entités affectées si la recommandation est appliquée. Les augmentations prévues des mesures sont surlignées en vert. Vous pouvez afficher les actions recommandées pour n’importe quelle recommandation. Vous pouvez également, si vous le souhaitez, filtrer la liste par catégorie et type de recommandation.
+* Afficher en un coup d’oeil toutes les recommandations prises en charge qui n’ont pas été appliquées pour un [!DNL Google Ads] compte ou toutes les informations de performances générées au cours des 30 derniers jours pour un événement [Microsoft® Advertising] compte . Les informations de chaque entrée incluent les détails de la recommandation/de l’insight et les entités affectées. Pour [!DNL Google Ads] comptes, les augmentations prévues des mesures sont surlignées en vert.
 
   ![Interface utilisateur de Recommendations](/help/search-social-commerce/assets/recommendations-ui.png "Interface utilisateur de Recommendations")
 
   Les données sont disponibles en temps réel lorsque vous ouvrez la vue. Pour actualiser les données, cliquez sur ![Actualiser](/help/search-social-commerce/assets/refresh.png "Actualiser") en bas à gauche de la page.
 
-* Appliquez et ignorez les recommandations pour un compte.
+* Pour [!DNL Google Ads] comptes :
 
-* Affichez les journaux de chaque recommandation qui a été appliquée pour un compte, y compris les entités concernées, qui ont appliqué la recommandation et l’horodatage.
+   * Affichez les détails d’une recommandation, puis appliquez ou ignorez directement une recommandation.
+
+   * Affichez le journal de chaque recommandation appliquée pour le compte, y compris les entités concernées, qui ont appliqué la recommandation, ainsi que l’horodatage.
+
+* Pour [Microsoft® Advertising] comptes, ouvrez le [!DNL Microsoft® Advertising] à partir de laquelle vous pouvez agir sur un insight spécifique.
 
 >[!NOTE]
 >
->Bien que les recommandations vous aident à améliorer les performances des campagnes, certaines peuvent ne pas correspondre à vos objectifs plus généraux. Par conséquent, il est préférable de consulter votre équipe de compte d’Adobe avant de mettre en oeuvre une recommandation.
+>Bien que les recommandations et les informations sur les performances du réseau publicitaire vous aident à améliorer les performances de la campagne, certaines peuvent ne pas correspondre à vos objectifs plus généraux. Par conséquent, il est préférable de consulter votre équipe de compte d’Adobe avant d’implémenter toute recommandation ou information.
 
 ## Types de recommandations pris en charge pour [!DNL Google Ads]
 
@@ -60,6 +75,7 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 
 >[!MORELIKETHIS]
 >
->* [Affichez le journal des recommandations d’une [!DNL Google Ads] account](google-recommendation-view-log.md)
+>* [Affichage des recommandations et des informations sur les performances de votre éditeur](recommendation-view.md)
 >* [Appliquer ou ignorer une [!DNL Google Ads] recommandation](google-recommendation-apply-dismiss.md)
+>* [Affichez le journal des recommandations d’une [!DNL Google Ads] account](google-recommendation-view-log.md)
 >* [Bonnes pratiques relatives à l’utilisation des recommandations et des insights d’éditeur avec les portefeuilles](recommendation-best-practices.md)

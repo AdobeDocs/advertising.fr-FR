@@ -1,14 +1,17 @@
 ---
 title: Bonnes pratiques relatives à l’utilisation des recommandations et des insights d’éditeur avec les portefeuilles
-description: Découvrez les bonnes pratiques d’utilisation [!DNL Google Ads] recommandations avec vos portfolios Search, Social et Commerce.
-source-git-commit: 0c2b4648b3f0d6d7e4ed60f03a3a9bce56e9cdd7
+description: Découvrez les bonnes pratiques d’utilisation de [!DNL Google Ads] recommandations avec vos portfolios Search, Social et Commerce.
+exl-id: 8362a0e1-9a0d-4287-a1dd-b7ec77985744
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Bonnes pratiques relatives à l’utilisation des recommandations et des insights d’éditeur avec les portefeuilles
+
+<!-- If we don't come up with similar ones for MS, then rename this file "... Google Ads ..." -->
 
 ## [!DNL Google Ads] recommendations
 
@@ -25,6 +28,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [À propos de la prise en charge des recommandations et des insights de l’éditeur](recommendation-support.md)
->* [Affichez le journal des recommandations d’une [!DNL Google Ads] account](google-recommendation-view-log.md)
+>* [Affichage des recommandations et des informations sur les performances de votre éditeur](recommendation-view.md)
 >* [Appliquer ou ignorer une [!DNL Google Ads] recommandation](google-recommendation-apply-dismiss.md)
-
+>* [Affichez le journal des recommandations d’une [!DNL Google Ads] account](google-recommendation-view-log.md)

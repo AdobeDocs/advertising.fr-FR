@@ -4,9 +4,9 @@ user-guide-title: Guide de Advertising Search, Social et Commerce
 user-guide-description: Ce guide explique les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires de recherche, de réseaux sociaux et de commerce.
 breadcrumb-title: Guide de Advertising Search, Social et Commerce
 index: true
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
@@ -368,8 +368,9 @@ ht-degree: 0%
    + [Afficher le rapport Historique des modifications](/help/search-social-commerce/reports/change-history-view.md)
    + Informations sur Recommendations et les éditeurs {#recommendations}
       + [À propos de la prise en charge des recommandations et des insights de l’éditeur](/help/search-social-commerce/recommendations/recommendation-support.md)
-      + [Affichez le journal des recommandations d’une [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
+      + [Affichage des recommandations et des informations sur les performances de votre éditeur](/help/search-social-commerce/recommendations/recommendation-view.md)
       + [Appliquer ou ignorer une [!DNL Google Ads] recommandation](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
+      + [Affichez le journal des recommandations d’une [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
       + [Bonnes pratiques relatives à l’utilisation des recommandations et des insights d’éditeur avec les portefeuilles](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + Outils {#tools}
    + [Modifier votre mot de passe](/help/search-social-commerce/tools/password-change.md)
