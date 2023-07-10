@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising Search, Social et Commerce
 user-guide-description: Ce guide décrit les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires liées aux moteurs de recherche, aux réseaux sociaux et au commerce.
 breadcrumb-title: Guide d’Advertising Search, Social et Commerce
 index: true
-source-git-commit: b1b1f67068dcd38f3e10d6e71db9827622f74da6
+source-git-commit: e9818b49ab4bd473ba7b17663c9dd1436915f667
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1737'
 ht-degree: 2%
 
 ---
@@ -254,6 +254,9 @@ ht-degree: 2%
       + [Analysez les rapports pour affiner vos mots-clés et vos paramètres de campagne](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [Écrire une copie de publicité textuelle effective](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
       + [Optimiser les landing pages du site web](/help/search-social-commerce/campaign-management/best-practices/best-practices-optimize.md)
+   + Gestion des ressources publicitaires {#assets}
+      + [À propos de [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
+      + [Création et chargement de ressources](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
    + [Nombre maximal d’objets par compte réseau publicitaire](/help/search-social-commerce/campaign-management/max-objects-per-ad-network.md)
    + [Questions fréquentes sur la gestion de campagne](/help/search-social-commerce/campaign-management/faqs-campaigns.md)
 + Statistiques et rapports {#insights-reports}

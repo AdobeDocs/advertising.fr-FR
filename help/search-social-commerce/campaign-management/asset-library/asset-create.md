@@ -1,9 +1,9 @@
 ---
 title: Création et chargement de ressources
 description: Découvrez comment créer des ressources d’image, vidéo et texte réutilisables et les télécharger dans votre [!DNL Google Ads] bibliothèque de ressources au niveau du compte.
-source-git-commit: 5051ca80724a6ea55bc270b9454a2276a72deea0
+source-git-commit: 6cb13fe9917daf6437af7df30ec7164120732faa
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,14 @@ ht-degree: 0%
 
       Vous pouvez publier jusqu’à 10 URL vidéo à la fois.
 
-      * Pour les ressources de texte, saisissez la chaîne de texte. Pour ajouter un autre actif de texte, cliquez sur **+ Ajouter** et saisissez une autre chaîne de texte.&lt;!— quel élément de copie de publicité — titre, brève description, longue description ? Aucun emplacement pour sélectionner l’élément. —>
+      * Pour les ressources de texte, saisissez la chaîne de texte. Pour ajouter un autre actif de texte, cliquez sur **+ Ajouter** et saisissez une autre chaîne de texte.
 
       Chaque ressource de texte peut contenir, au maximum, 1 000 caractères. Vous pouvez charger un maximum de 10 ressources de texte à la fois.
 
+      Vous pouvez ensuite utiliser les ressources de texte pour tout élément publicitaire de votre choix (titre ou brève description, par exemple), à condition qu’ils respectent les limites de caractères de cet élément publicitaire.
+
 1. Cliquez sur **[!UICONTROL Post]**.
+
+>[!MORELIKETHIS]
+>
+>*[À propos de [!UICONTROL Asset Library]](asset-library-about.md)
