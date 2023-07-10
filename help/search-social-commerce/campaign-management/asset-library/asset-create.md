@@ -1,7 +1,7 @@
 ---
 title: Création et chargement de ressources
 description: Découvrez comment créer des ressources d’image, vidéo et texte réutilisables et les télécharger dans votre [!DNL Google Ads] bibliothèque de ressources au niveau du compte.
-source-git-commit: 6cb13fe9917daf6437af7df30ec7164120732faa
+source-git-commit: d6d2b85b3be95a6f1162f87e2beccbdd4337b1f2
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
          1. Cliquez sur **[!UICONTROL +]** et sélectionnez des images sur votre appareil ou votre réseau.
 
-        Chaque image peut contenir, au maximum, 10 Mo. Vous pouvez télécharger un maximum de 200 Mo d’images à la fois.
+            Chaque image peut contenir, au maximum, 10 Mo. Vous pouvez télécharger un maximum de 200 Mo d’images à la fois.
 
          1. Pour chaque image :
 
@@ -48,16 +48,16 @@ ht-degree: 0%
 
       * Pour les ressources vidéo, saisissez l’URL d’une [!DNL YouTube] vidéo d&#39;au moins 10 secondes. Pour ajouter une autre ressource vidéo, cliquez sur **+ Ajouter** et saisissez une autre URL.
 
-      Vous pouvez publier jusqu’à 10 URL vidéo à la fois.
+        Vous pouvez publier jusqu’à 10 URL vidéo à la fois.
 
       * Pour les ressources de texte, saisissez la chaîne de texte. Pour ajouter un autre actif de texte, cliquez sur **+ Ajouter** et saisissez une autre chaîne de texte.
 
-      Chaque ressource de texte peut contenir, au maximum, 1 000 caractères. Vous pouvez charger un maximum de 10 ressources de texte à la fois.
+        Chaque ressource de texte peut contenir, au maximum, 1 000 caractères. Vous pouvez charger un maximum de 10 ressources de texte à la fois.
 
-      Vous pouvez ensuite utiliser les ressources de texte pour tout élément publicitaire de votre choix (titre ou brève description, par exemple), à condition qu’ils respectent les limites de caractères de cet élément publicitaire.
+        Vous pouvez ensuite utiliser les ressources de texte pour tout élément publicitaire de votre choix (titre ou brève description, par exemple), à condition qu’ils respectent les limites de caractères de cet élément publicitaire.
 
 1. Cliquez sur **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
 >
->*[À propos de [!UICONTROL Asset Library]](asset-library-about.md)
+>* [À propos de [!UICONTROL Asset Library]](asset-library-about.md)
