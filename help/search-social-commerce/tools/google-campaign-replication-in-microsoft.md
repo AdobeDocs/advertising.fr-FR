@@ -1,9 +1,10 @@
 ---
 title: Répliquer [!DNL Google Ads] campagnes dans [!DNL Microsoft® Advertising]
 description: Découvrez comment exporter vos campagnes synchronisées dans une [!DNL Google Ads] compte directement dans une synchronisation [!DNL Microsoft® Advertising] compte .
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Vous pouvez répliquer les types de campagnes suivants et leur structure de camp
 
 * [!DNL Google Display Network] campagnes, y compris des images publicitaires, dans [!DNL Microsoft® Advertising] campagnes d’audience sur Microsoft® Audience Network.
 
-   Si vous souhaitez répliquer des campagnes d’affichage basées sur des flux d’achat, répliquez d’abord vos [!DNL Google Merchant Center] offres de produits à [!DNL Microsoft® Merchant Center]. Lorsque vous répliquez les campagnes, sélectionnez la variable [!DNL Microsoft® Merchant Center] stockez dans les options d’importation pour lier le magasin à vos campagnes d’audience basées sur le flux.
+  Si vous souhaitez répliquer des campagnes d’affichage basées sur des flux d’achat, répliquez d’abord vos [!DNL Google Merchant Center] offres de produits à [!DNL Microsoft® Merchant Center]. Lorsque vous répliquez les campagnes, sélectionnez la variable [!DNL Microsoft® Merchant Center] stockez dans les options d’importation pour lier le magasin à vos campagnes d’audience basées sur le flux.
 
 * [!DNL Google Ads] campagnes de performances maximales, y compris les annonces d’inventaire local, en [!DNL Microsoft® Advertising] campagnes d’achats dynamiques.
 
@@ -58,7 +59,7 @@ Voir [de ce qui est importé d’ [!DNL Google Ads] campagnes](https://help.ads.
 
 1. (Facultatif) Ajoutez le suivi Rechercher, Social et Commerce dans la variable [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)ou [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) paramètres.
 
-## Modifier les détails d&#39;un traitement d&#39;import de campagne
+## Modification des paramètres de planification d’une tâche d’importation de campagne
 
 Voir [de ce qui est importé d’ [!DNL Google Ads] campagnes](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
@@ -66,15 +67,7 @@ Voir [de ce qui est importé d’ [!DNL Google Ads] campagnes](https://help.ads.
 
 1. Cochez la case en regard de la tâche d’importation, puis cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier").
 
-1. Modifiez la variable [paramètres d’importation](#campaign-import-settings).
-
-   1. Dans le **[!UICONTROL Select accounts]** , sélectionnez les comptes source et de destination, ainsi que l’identifiant d’identification qui [!DNL Microsoft® Advertising] nécessite .
-
-   1. Dans le **[!UICONTROL Select campaigns & ad groups]** , indiquez les campagnes et les groupes publicitaires à importer.
-
-   1. Dans le **[!UICONTROL Customize your import]** , spécifiez les types d’éléments à importer.
-
-   1. Dans le **[!UICONTROL Set schedule]** , indiquez quand exécuter la tâche d’importation.
+1. Dans le **[!UICONTROL Set schedule]** , spécifiez la variable [paramètres de planification](#campaign-import-settings).
 
 1. Cliquez sur **[!UICONTROL Post]**.
 
@@ -86,7 +79,7 @@ Vous pouvez répertorier toutes les tâches d’importation, y compris la source
 
    * Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
-      Par défaut, la vue s’ouvre sur la [!UICONTROL List of Import Jobs] .
+     Par défaut, la vue s’ouvre sur la [!UICONTROL List of Import Jobs] .
 
    * Dans la [[!UICONTROL Import Logs] tab](#campaign-import-log), cliquez sur le bouton **[!UICONTROL List of Import Jobs]** .
 
