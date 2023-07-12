@@ -2,9 +2,9 @@
 title: Répliquer [!DNL Google Ads] campagnes dans [!DNL Microsoft® Advertising]
 description: Découvrez comment exporter vos campagnes synchronisées dans une [!DNL Google Ads] compte directement dans une synchronisation [!DNL Microsoft® Advertising] compte .
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
-source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
+source-git-commit: 8d062e5c74c8f873ab5f2491659a32be47bb2afb
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -35,19 +35,19 @@ Toutes les informations sur les campagnes ne sont pas répliquées et vous devre
 
 Voir [de ce qui est importé d’ [!DNL Google Ads] campagnes](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
-1. Obtention d’un identifiant d’identification d’importation à partir de [!DNL Microsoft® Advertising] pour représenter votre [!DNL Google Ads] informations d’identification.
-
-   Génération automatique de [!DNL Microsoft® Advertising] les informations d’identification pour l’importation ne sont pas disponibles en raison de [!DNL Microsoft® Advertising] Limites des API. Contactez l’assistance technique d’Adobe ou votre équipe de compte d’Adobe. Ils généreront les informations d’identification et vous donneront l’identifiant.
-
-   Vous devez disposer de l’identifiant pour configurer la tâche d’importation.
-
 1. Dans le menu principal Rechercher, Social et commerce, cliquez sur **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Cliquez sur **[!UICONTROL +Import]**.
 
 1. Spécifiez la variable [paramètres d’importation](#campaign-import-settings):
 
-   1. Dans le **[!UICONTROL Select accounts]** , sélectionnez les comptes source et de destination, ainsi que l’identifiant d’identification qui [!DNL Microsoft® Advertising] nécessite .
+   1. Dans le **[!UICONTROL Select accounts]** section :
+
+      1. Sélectionnez les comptes source et de destination.
+
+      1. Cliquez sur **[!UICONTROL Get Credential Id from MSA]**.
+
+      1. Connectez-vous à la destination [!DNL Microsoft Advertising] , copiez l’identifiant d’identification affiché, puis collez la valeur dans la variable **[!UICONTROL Credential ID]** champ .
 
    1. Dans le **[!UICONTROL Select campaigns & ad groups]** , indiquez les campagnes et les groupes publicitaires à importer.
 
