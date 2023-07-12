@@ -2,7 +2,7 @@
 title: A propos des notifications
 description: Découvrez les notifications, notamment les différents types et catégories.
 exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
-source-git-commit: 7882e024ff11c20a5c2bf47fdc039345636da245
+source-git-commit: f3cc5ffae0d5d19c8542a46ffdb49478efa14522
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -49,26 +49,25 @@ Vous pouvez afficher vos notifications, les marquer comme lues ou non et les sup
 
    * **[!UICONTROL Manager Account Missing]**: Notifications que Search, Social et Commerce ne dispose pas des informations d’identification pour une [compte de gestionnaire de réseau publicitaire](/help/search-social-commerce/admin/manager-accounts.md), qui servent à la configuration correcte des fonctions critiques.
 
-<!--
-* [!UICONTROL Setup Errors]
-
-  * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect s_kwcid template; or it's overridden at a lower level by an incorrect value.
+  <!--
+  * [!UICONTROL Setup Errors]
   
-  * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
+    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect s_kwcid template; or it's overridden at a lower level by an incorrect value.
+    
+    * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
+  -->
 
--->
+   * [!UICONTROL Network Errors]
 
-* [!UICONTROL Network Errors]
+      * **[!UICONTROL Manager Account Auth Error]**: Notifications que Search, Social et Commerce n’a pas pu se synchroniser avec une [compte de gestionnaire de réseau publicitaire](/help/search-social-commerce/admin/manager-accounts.md) en raison d’informations d’identification non valides ou d’un jeton d’autorisation non valide ou arrivé à expiration.
 
-   * **[!UICONTROL Manager Account Auth Error]**: Notifications que Search, Social et Commerce n’a pas pu se synchroniser avec une [compte de gestionnaire de réseau publicitaire](/help/search-social-commerce/admin/manager-accounts.md) en raison d’informations d’identification non valides ou d’un jeton d’autorisation non valide ou arrivé à expiration.
+      * **[!UICONTROL Account Auth Error]**: Notifications que Search, Social et Commerce n’a pas pu accéder à une [compte réseau publicitaire](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) en raison d’informations d’identification non valides ou d’un jeton d’autorisation non valide ou arrivé à expiration.
 
-   * **[!UICONTROL Account Auth Error]**: Notifications que Search, Social et Commerce n’a pas pu accéder à une [compte réseau publicitaire](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) en raison d’informations d’identification non valides ou d’un jeton d’autorisation non valide ou arrivé à expiration.
+   * [!UICONTROL Data Upload]
 
-* [!UICONTROL Data Upload]
+      * **[!UICONTROL Direct File Upload]**: Utilisé pour une version bêta fermée
 
-   * **[!UICONTROL Direct File Upload]**: Utilisé pour une version bêta fermée
-
-   * **[!UICONTROL File Upload to Cloud Storage]**: Utilisé pour une version bêta fermée
+      * **[!UICONTROL File Upload to Cloud Storage]**: Utilisé pour une version bêta fermée
 
 <!--
 * [!UICONTROL Optimization]
