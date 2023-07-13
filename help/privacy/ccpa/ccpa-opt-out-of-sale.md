@@ -1,16 +1,17 @@
 ---
-title: 'Prise en charge de Adobe Advertising pour le California Consumer Privacy Act : Prise en charge de l’exclusion de la vente par les consommateurs'
+title: 'Prise en charge des Adobes Advertising pour le California Consumer Privacy Act : Prise en charge de l’exclusion de la vente par les consommateurs'
 description: Découvrez la prise en charge de la capture des demandes d’opposition à la vente des consommateurs.
 feature: CCPA
+role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising Support pour le California Consumer Privacy Act : Prise en charge de l’exclusion de la vente par les consommateurs
+# Prise en charge des Adobes Advertising pour le California Consumer Privacy Act : Prise en charge de l’exclusion de la vente par les consommateurs
 
 *Pour Adobe Advertising Demand Side Platform (DSP)*
 
@@ -22,15 +23,15 @@ Le California Consumer Privacy Act (CCPA) est la nouvelle loi californienne sur 
 
 En tant qu’entreprise, vous déterminerez les données personnelles que Adobe Experience Cloud traite et stocke pour vous.
 
-En tant que fournisseur de services, Adobe Advertising fournit une assistance à votre entreprise pour qu’elle remplisse ses obligations en vertu de la CCPA qui s’appliquent à l’utilisation des produits et services de publicité d’Adobe, y compris la gestion des demandes de consommateur d’accès et de suppression des informations personnelles et la gestion des demandes de consommateur de se désabonner de la vente des informations personnelles.
+En tant que fournisseur de services, Adobe Advertising fournit une assistance à votre entreprise pour qu’elle remplisse ses obligations en vertu de la CCPA qui s’appliquent à l’utilisation des produits et services d’Adobe Advertising, y compris la gestion des demandes des consommateurs d’accès et de suppression des informations personnelles et la gestion des demandes des consommateurs de se désinscrire de la vente des informations personnelles.
 
-Ce document décrit comment Adobe Advertising Demand Side Platform (DSP), en tant que fournisseur de services, soutient le droit du consommateur de se désinscrire de la &quot;vente&quot; des &quot;informations personnelles&quot;, car chaque terme est défini par le CCPA. Elle comprend des informations sur la manière de communiquer les demandes d’opposition à la vente à Adobe Advertising et de récupérer les rapports des demandes d’opposition à la vente de votre entreprise.
+Ce document décrit comment Adobe Advertising Demand Side Platform (DSP), en tant que fournisseur de services, soutient le droit du consommateur de se désinscrire de la &quot;vente&quot; des &quot;informations personnelles&quot;, car chaque terme est défini par la CCPA. Elle comprend des informations sur la manière de communiquer les demandes d’opposition à la vente à l’Adobe Advertising et de récupérer les rapports des demandes d’opposition à la vente de votre organisation.
 
-Pour plus d’informations sur la manière dont [!DNL Advertising Search, Social, & Commerce]; publicité créative; et [!DNL Advertising DCO] prendre en charge les droits d’accès et de suppression des informations personnelles des consommateurs, voir [Adobe Advertising Support pour le California Consumer Privacy Act : Prise en charge de l’accès et de la suppression des données des consommateurs](/help/privacy/ccpa/ccpa-access-delete.md).
+Pour plus d’informations sur la manière dont [!DNL Advertising Search, Social, & Commerce]; Advertising Creative; et [!DNL Advertising DCO] prendre en charge les droits d’accès et de suppression des informations personnelles des consommateurs, voir [Prise en charge des Adobes Advertising pour le California Consumer Privacy Act : Prise en charge de l’accès et de la suppression des données des consommateurs](/help/privacy/ccpa/ccpa-access-delete.md).
 
 Pour plus d’informations sur les services de confidentialité Adobe pour le CCPA, reportez-vous à la section [Centre de traitement des données personnelles des Adobes](https://www.adobe.com/privacy/ccpa.html).
 
-## Communication des demandes d’opposition à la vente aux consommateurs à des publicités Adobe
+## Communication aux Adobes Advertising de demandes d’opposition à la vente aux consommateurs
 
 Vous pouvez communiquer les demandes d’opposition à la vente des consommateurs à l’aide de l’une des méthodes suivantes :
 
@@ -54,24 +55,25 @@ Vous pouvez communiquer les demandes d’opposition à la vente des consommateur
 
    >[!IMPORTANT]
    >
-   >Les requêtes envoyées à certaines solutions Adobe Experience Cloud ne nécessitent pas la bibliothèque JavaScript, mais les requêtes envoyées à Adobe Advertising le requièrent.
+   >Les requêtes envoyées à certaines solutions Adobe Experience Cloud ne nécessitent pas la bibliothèque JavaScript, mais les requêtes d’Adobe Advertising le nécessitent.
 
    Vous devez déployer la bibliothèque sur la page web à partir de laquelle vos clients peuvent envoyer des demandes d’opposition à la vente, telles que le portail de confidentialité de votre entreprise. La bibliothèque vous aide à récupérer les cookies d’Adobe (ID d’espace de noms : `gsurferID`) afin que vous puissiez soumettre ces identités dans le cadre de demandes d’opposition à la vente via l’API Adobe Experience Platform Privacy Service.
 
-1. Identifiez votre ID d’organisation Experience Cloud et assurez-vous qu’il est lié à vos comptes Advertising Adobe.
+1. Identifiez votre ID d’organisation Experience Cloud et assurez-vous qu’il est lié à vos comptes d’Adobe Advertising.
 
    Un ID d’organisation Experience Cloud est une chaîne alphanumérique de 24 caractères accompagnée de &quot;@AdobeOrg&quot;. Un ID d’organisation a été attribué à la plupart des clients Experience Cloud. Si votre équipe marketing ou votre administrateur système d’Adobes interne ne connaît pas l’ID d’organisation ou ne sait pas s’il a été configuré, contactez l’assistance clientèle d’Adobe à l’adresse gdprsupport@adobe.com. Vous aurez besoin de l’ID d’organisation pour envoyer des requêtes à l’API de confidentialité à l’aide de la variable `imsOrgID` espace de noms.
 
    >[!IMPORTANT]
    >
-   >Contactez le représentant publicitaire Adobe de votre entreprise pour confirmer que tous les comptes Advertising Adobe de votre entreprise — y compris [!DNL DSP] des comptes ou des annonceurs, [!DNL Search, Social, & Commerce] les comptes et [!DNL Creative] ou [!DNL DCO] comptes : sont liés à l’ID d’organisation Experience Cloud.
+   >Contactez le représentant de l’Adobe Advertising de votre entreprise pour confirmer que tous les comptes d’Adobe Advertising de votre entreprise — y compris [!DNL DSP] des comptes ou des annonceurs, [!DNL Search, Social, & Commerce] les comptes et [!DNL Creative] ou [!DNL DCO] comptes : sont liés à l’ID d’organisation Experience Cloud.
 
-1. Utilisez l’API Adobe Experience Platform Privacy Service pour [envoi de demandes d’exclusion de la vente](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) pour Adobe la publicité au nom des consommateurs et pour vérifier le statut des requêtes existantes.
+1. Utilisez l’API Adobe Experience Platform Privacy Service pour [envoi de demandes d’exclusion de la vente](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) pour Adobe Advertising au nom des consommateurs et pour vérifier le statut des demandes existantes.
 
    Consultez l’ Annexe ci-dessous pour obtenir un exemple de demande d’opposition à la vente.
 
    >[!NOTE]
-   Si votre entreprise dispose de plusieurs ID d’organisation Experience Cloud, vous devez envoyer des demandes d’API distinctes pour chacun d’eux. Vous pouvez toutefois adresser une requête d’API à plusieurs sous-solutions Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], et [!DNL DCO]), avec un compte par sous-solution.
+   >
+   Si votre entreprise dispose de plusieurs ID d’organisation Experience Cloud, vous devez envoyer des demandes d’API distinctes pour chacun d’eux. Vous pouvez toutefois effectuer une requête API sur plusieurs sous-solutions Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], et [!DNL DCO]), avec un compte par sous-solution.
 
 Toutes ces étapes sont nécessaires pour recevoir le soutien d’Adobe Advertising. Pour plus d’informations à ce sujet et sur d’autres tâches connexes que vous devez effectuer à l’aide d’Adobe Experience Platform Privacy Service, et où trouver les éléments dont vous aurez besoin, voir [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
