@@ -3,9 +3,9 @@ title: Présentation de [!DNL Analytics for Advertising]
 description: Présentation de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+source-git-commit: d4306553d4ad7379672be5bff1bc5cc6f74f70bf
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,41 @@ Pour accéder au [!DNL Analytics] segments, un compte publicitaire doit disposer
 
 Pour plus d’informations sur le service Audiences Experience Cloud, voir [Audiences Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
 
-## Exemples d’utilisation de l’intégration
+## Exemples d’utilisation de l’intégration {#integration-examples}
 
 ### Utilisation des données d’Adobe Advertising dans Analysis Workspace
 
 Pour savoir comment utiliser vos données d’Adobe Advertising pour créer des rapports visuels dans Analysis Workspace, visionnez la vidéo &quot;[Présentation de Workspace et de la création de rapports](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
+
+#### Utilisation de conversions d’affichages publicitaires de la télévision connectée dans les rapports
+
+*Utilisateurs d’Advertising DSP uniquement*
+
+Vous pouvez mesurer l’efficacité de l’entonnoir complet de vos campagnes de télévision connectée (CTV) en liant l’exposition aux publicités sur les appareils CTV aux conversions sur site. Pour afficher vos mesures de conversion d’affichage publicitaire CTV, utilisez la vue Emplacement ou la vue Canal marketing dans Analysis Workspace.
+
+Utilisation de la vue Emplacement :
+
+1. Incluez des emplacements de dépenses CTV dans la vue de création de rapports.
+
+1. Incluez les mesures souhaitées, telles que &quot;Impressions&quot;, &quot;Clics&quot;, etc.
+
+1. Appliquez les filtres suivants :
+
+   Plateforme d’annonces publicitaires : `Advertising Cloud DSP`
+
+   Page d’entrée : `View-Through (CTV)`
+
+Utilisation de la vue Canal marketing :
+
+1. Inclure la dimension `Marketing Channel`.
+
+1. Incluez les mesures souhaitées, telles que &quot;Impressions&quot;, &quot;Clics&quot;, etc.
+
+1. Appliquez les filtres suivants :
+
+   Plateforme d’annonces publicitaires : `Advertising Cloud DSP`
+
+   Page d’entrée : `View-Through (CTV)`
 
 ### Création de tableaux de bord d’Adobe Advertising
 
@@ -112,4 +142,4 @@ Pour savoir comment créer un rapport d’entrée sur le site d’Adobe Advertis
 >* [Code JavaScript pour Analytics pour la publicité](/help/integrations/analytics/javascript.md)
 >* [Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising](data-variances.md)
 >* [Adobe Advertising des mesures dans Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
->* [[!DNL Analytics] Données dans Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
+>* [[!DNL Analytics] Données en Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
