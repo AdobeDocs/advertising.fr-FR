@@ -3,9 +3,9 @@ title: Présentation de [!DNL Analytics for Advertising]
 description: Présentation de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 232b253877195b0e0a1d47b0b28e6ed25a8b07d4
+source-git-commit: 562d6b4be50b5ba248ecfa12e8ff0b60556c326a
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -128,6 +128,10 @@ Utilisation de la vue Canal marketing :
 
    Page d’entrée : `View-Through (CTV)`
 
+>[!NOTE]
+>
+> Les conversions d’affichages publicitaires pour les emplacements CTV sont également disponibles dans la variable [DSP [!UICONTROL Household Conversions Report]](/help/dsp/reports/report-about.md).
+
 ### Création de tableaux de bord d’Adobe Advertising
 
 Pour savoir comment effectuer le suivi de vos données d’Adobe Advertising par rapport à vos objectifs dans Analysis Workspace, visionnez la vidéo &quot;[Création de tableaux de bord d’Adobe Advertising avec Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
@@ -143,5 +147,5 @@ Pour savoir comment créer un rapport d’entrée sur le site d’Adobe Advertis
 >* [ID d’Adobe Advertising utilisés par Analytics](ids.md)
 >* [Code JavaScript pour Analytics pour la publicité](/help/integrations/analytics/javascript.md)
 >* [Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising](data-variances.md)
->* [Adobe des mesures publicitaires dans Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [Adobe Advertising des mesures dans Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] Données en Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
