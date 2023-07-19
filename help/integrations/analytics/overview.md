@@ -3,7 +3,7 @@ title: Présentation de [!DNL Analytics for Advertising]
 description: Présentation de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: e1edbc29e9306afc68f805d198ef3e5ec7f25695
+source-git-commit: 232b253877195b0e0a1d47b0b28e6ed25a8b07d4
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 0%
@@ -100,9 +100,9 @@ Pour savoir comment utiliser vos données d’Adobe Advertising pour créer des 
 
 *Utilisateurs d’Advertising DSP uniquement*
 
-Vous pouvez mesurer l’efficacité de l’entonnoir complet de vos campagnes de télévision connectée (CTV) en liant l’exposition aux publicités sur les appareils CTV aux conversions sur site. Pour afficher vos mesures de conversion d’affichage publicitaire CTV, utilisez la vue Emplacement ou la vue Canal marketing dans Analysis Workspace.
+Vous pouvez mesurer l’efficacité de l’entonnoir complet de vos campagnes de télévision connectée (CTV) en liant l’exposition aux publicités sur les appareils CTV aux conversions sur site. La nouvelle [!UICONTROL Landing Type] filter &quot;[!UICONTROL View-through (CTV)]&quot; divise les conversions en lignes distinctes pour [!UICONTROL Click Through], [!UICONTROL View Through], et [!UICONTROL View Through (CTV)] valeurs.
 
-La nouvelle [!UICONTROL Landing Type] filter &quot;[!UICONTROL View-through (CTV)]&quot; divise les conversions en lignes distinctes pour [!UICONTROL Click Through], [!UICONTROL View Through], et [!UICONTROL View Through (CTV)] valeurs.
+Pour afficher vos mesures de conversion d’affichage publicitaire CTV, utilisez la vue Emplacement ou la vue Canal marketing dans Analysis Workspace.
 
 Utilisation de la vue Emplacement :
 
@@ -143,5 +143,5 @@ Pour savoir comment créer un rapport d’entrée sur le site d’Adobe Advertis
 >* [ID d’Adobe Advertising utilisés par Analytics](ids.md)
 >* [Code JavaScript pour Analytics pour la publicité](/help/integrations/analytics/javascript.md)
 >* [Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising](data-variances.md)
->* [Adobe Advertising des mesures dans Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [Adobe des mesures publicitaires dans Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] Données en Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
