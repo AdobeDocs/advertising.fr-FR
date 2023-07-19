@@ -1,9 +1,10 @@
 ---
 title: Chargement des mesures de conversion dans [!DNL Google Ads]
 description: Découvrez comment télécharger des mesures de conversion suivies par Search, Social et Commerce vers [!DNL Google Ads].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 88db66c2-12db-41cf-b6c4-ed821cb3b8ea
+source-git-commit: 00f9e5e3892be305f5d7c69161bdb7609f13f1bf
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 *Annonceurs avec [!DNL Google Ads] Comptes uniquement*
 
-Search, Social et Commerce peuvent éventuellement effectuer un chargement vers [!DNL Google Ads] toutes les mesures de conversion suivies pour [!DNL Google Ads] campagnes qui utilisent le service de suivi de conversion d’Adobe Advertising Adobe et les mesures de conversion synchronisées à partir d’Adobe Analytics. Cette option ne rend pas les conversions disponibles pour l’optimisation hybride. Si vous souhaitez utiliser vos conversions Adobe pour l’optimisation hybride, reportez-vous à la section &quot;[Activer le téléchargement des objectifs vers les réseaux publicitaires](objective-upload-to-networks.md).&quot;
+Search, Social et Commerce peuvent éventuellement effectuer un chargement vers [!DNL Google Ads] toutes les mesures de conversion suivies pour [!DNL Google Ads] les campagnes qui utilisent le service de suivi de conversion d’Adobe Advertising et les mesures de conversion synchronisées à partir d’Adobe Analytics. Cette option ne rend pas les conversions disponibles pour l’optimisation hybride. Si vous souhaitez utiliser vos conversions Adobe pour l’optimisation hybride, reportez-vous à la section &quot;[Activer le téléchargement des objectifs vers les réseaux publicitaires](objective-upload-to-networks.md).&quot;
 
 Les téléchargements quotidiens incluent le suivi `gclid` , la valeur de conversion définie à l’aide du modèle d’attribution au niveau de l’annonceur et l’horodatage. Si le modèle d’attribution est mis à jour, le téléchargement suivant utilise le nouveau modèle, mais les données antérieures ne sont pas mises à jour pour utiliser le nouveau modèle.
 
@@ -31,4 +32,3 @@ Les téléchargements quotidiens incluent le suivi `gclid` , la valeur de conver
 >[!MORELIKETHIS]
 >
 >* [Activer le téléchargement des objectifs vers les réseaux publicitaires](objective-upload-to-networks.md)
-
