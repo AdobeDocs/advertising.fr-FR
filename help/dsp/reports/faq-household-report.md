@@ -2,9 +2,9 @@
 title: Questions fréquentes sur les rapports sur les ménages
 description: En savoir plus sur la portée, la fréquence et les données de conversion des ménages, y compris sur la différence entre les rapports des ménages et les autres rapports et dépannage.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: e07038895e64a266f898619384c8b41024f71038
+source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Si votre entreprise dispose des [!DNL Analytics for Advertising], utilisez les d
 
 ## [!UICONTROL Household Reach & Frequency] et [!UICONTROL Household Conversions] Rapports et données provenant de [!DNL Advanced Measurement Services]
 
-Pour des rapports avancés sur la portée et la fréquence des ménages ou les conversions, la variable [[!DNL Strategic Advertising Consulting] équipe](/help/dsp/introduction/advanced-measurement-services.md) peuvent fournir des rapports hautement personnalisables ainsi que des recommandations stratégiques globales. Pour plus d’informations sur [!DNL Advanced Measurement Services], contactez votre équipe de compte d’Adobe.
+Pour des rapports avancés sur la portée et la fréquence des conversions basées sur les ménages, la variable [[!DNL Strategic Advertising Consulting] équipe](/help/dsp/introduction/advanced-measurement-services.md) peuvent fournir des rapports hautement personnalisables ainsi que des recommandations stratégiques globales. Pour plus d’informations sur [!DNL Advanced Measurement Services], contactez votre équipe de compte d’Adobe.
 
 ### Si j’utilise déjà [!DNL Advanced Measurement Services], pourquoi utiliser la variable [!UICONTROL Household Reach & Frequency] et [!UICONTROL Household Conversions] rapports ?
 
