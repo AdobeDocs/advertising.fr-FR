@@ -3,9 +3,9 @@ title: À propos des rapports personnalisés
 description: Découvrez les options de création manuelle de rapports personnalisés ou d’utilisation de modèles de rapports préconfigurés.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 858b00ec28158ada1edfc70a2efc3540fa46a376
+source-git-commit: b3c45f6ae5adcf7cd41060e4e724dbb8021c8c1b
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -36,30 +36,28 @@ Vous pouvez générer les rapports une seule fois ou programmer leur génératio
 
    * **[!UICONTROL Billing]:** Utilisez ce rapport pour comprendre les mesures de facturation clés, telles que les mesures de dépenses pour la facturation des médias par campagne.
 
-      >[!NOTE]
-      >
-      >Ce rapport contient des données sur le segment de facturation. Si une impression diffusée par un utilisateur ou un appareil appartient à plusieurs segments, un seul segment facturable est crédité de l’impression.
+     >[!NOTE]
+     >
+     >Ce rapport contient des données sur le segment de facturation. Si une impression diffusée par un utilisateur ou un appareil appartient à plusieurs segments, un seul segment facturable est crédité de l’impression.
 
-   * **[!UICONTROL Conversion]:** Utilisez ce rapport pour comprendre les performances de vos campagnes en fonction des mesures de conversion capturées à l’aide du suivi de conversion Adobe Advertising. Ce rapport comprend l’attribution multipoint.
+   * **[!UICONTROL Conversion]:** Utilisez ce rapport pour comprendre les performances de vos campagnes en fonction des mesures de conversion capturées à l’aide du suivi de conversion d’Adobe Advertising. Ce rapport comprend l’attribution multipoint.
 
    * **[!UICONTROL Device]:** Utilisez ce modèle prérenseigné pour afficher les mesures clés par dimensions liées à l’appareil.
 
    * **[!UICONTROL Frequency (by Impression)]:** Utilisez ce rapport pour comprendre la distribution des impressions affichées pour les visiteurs uniques (par exemple, le nombre de visiteurs uniques qui ont vu une impression, deux impressions, trois impressions, etc.). Les données sont disponibles par emplacement ou campagne.
 
-      >[!NOTE]
-      >
-      >* Les données sont disponibles après le 1er mars 2019.
-      >* La fréquence est estimée sur la base d&#39;un échantillonnage de données.
-      >* Pour certains inventaires, les éditeurs ne transmettent pas d’identifiant d’appareil, ce qui empêche le suivi des fréquences. Ce rapport inclut uniquement les impressions pour lesquelles un identifiant d’appareil était disponible.
-
+     >[!NOTE]
+     >
+     >* Les données sont disponibles après le 1er mars 2019.
+     >* La fréquence est estimée sur la base d&#39;un échantillonnage de données.
+     >* Pour certains inventaires, les éditeurs ne transmettent pas d’identifiant d’appareil, ce qui empêche le suivi des fréquences. Ce rapport inclut uniquement les impressions pour lesquelles un identifiant d’appareil était disponible.
 
    * **[!UICONTROL Frequency (by App/Site)]:** Utilisez ce rapport pour déterminer le nombre d’utilisateurs uniques auxquels ont accédé l’application ou le site. Vous pouvez également voir le nombre d’utilisateurs uniques auxquels vous avez accédé par le biais d’une application ou d’un site spécifique (&quot;utilisateurs uniques distincts&quot;).
 
-      >[!NOTE]
-      >
-      >* Les données sont disponibles après le 15 novembre 2018.
-      >* Pour certains inventaires privés, les éditeurs ne transmettent pas d’identifiant d’appareil, ce qui empêche le suivi des fréquences.
-
+     >[!NOTE]
+     >
+     >* Les données sont disponibles après le 15 novembre 2018.
+     >* Pour certains inventaires privés, les éditeurs ne transmettent pas d’identifiant d’appareil, ce qui empêche le suivi des fréquences.
 
    * **[!UICONTROL Geo]**: Utilisez ce modèle prérenseigné pour afficher les mesures clés par dimensions géographiques.
 
@@ -67,15 +65,16 @@ Vous pouvez générer les rapports une seule fois ou programmer leur génératio
 
    * **[!UICONTROL Segment]:** Utilisez ce modèle prérenseigné pour afficher les mesures clés par segment.
 
-      >[!NOTE]
-      >
-      >* Ce rapport est destiné à montrer les performances de différents segments ciblés. Elle utilise des données d’adhésion au segment. Lorsqu’une impression est diffusée sur une personne ou un appareil appartenant à deux segments ciblés ou plus, ce rapport comprend une ligne pour chaque segment. Pour cette raison, les totaux de ce rapport peuvent ne pas correspondre à la diffusion réelle.
-      >* Les mesures de conversion et les données d’objectif personnalisées pour les segments sont disponibles après le 2 août 2019. Toutes les autres données relatives aux segments sont disponibles à compter du 1er juin 2018.
-
+     >[!NOTE]
+     >
+     >* Ce rapport est destiné à montrer les performances de différents segments ciblés. Elle utilise des données d’adhésion au segment. Lorsqu’une impression est diffusée sur une personne ou un appareil appartenant à deux segments ciblés ou plus, ce rapport comprend une ligne pour chaque segment. Pour cette raison, les totaux de ce rapport peuvent ne pas correspondre à la diffusion réelle.
+     >* Les mesures de conversion et les données d’objectif personnalisées pour les segments sont disponibles après le 2 août 2019. Toutes les autres données relatives aux segments sont disponibles à compter du 1er juin 2018.
 
    * **[!UICONTROL Site]:** Par défaut, inclut les mesures standard, le total des dépenses nettes des médias et le total des dépenses nettes facturables par site.
 
-   * **[!UICONTROL Household]:** Utilisez ce rapport pour afficher les impressions, la portée et la fréquence d’une dimension unique dans les formats d’annonce au niveau d’un foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil/d’un cookie. Utilisez les insights pour optimiser votre mix média, améliorer les performances et identifier les opportunités de portée incrémentielle. Voir &quot;[Questions fréquentes sur les rapports sur les ménages](/help/dsp/reports/faq-household-report.md)&quot; pour plus d’informations.
+   * **[!UICONTROL Household Reach & Frequency]:** Utilisez ce rapport pour afficher les impressions, la portée et la fréquence d’une dimension unique dans les formats d’annonce au niveau d’un foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil/d’un cookie. Utilisez les insights pour optimiser votre mix média, améliorer les performances et identifier les opportunités de portée incrémentielle. Voir &quot;[Questions fréquentes sur les rapports sur les ménages](/help/dsp/reports/faq-household-report.md)&quot; pour plus d’informations.
+
+* **[!UICONTROL Household Conversions]:** Utilisez ce rapport pour afficher les conversions d’affichages publicitaires au niveau du foyer en fonction de l’adresse IP, plutôt qu’au niveau de l’appareil ou du cookie. Utilisez les insights pour mesurer et optimiser les performances de la campagne. Voir &quot;[Questions fréquentes sur les rapports sur les ménages](/help/dsp/reports/faq-household-report.md)&quot; pour plus d’informations.
 
 ## Rapports inter-comptes {#cross-account-reporting}
 
@@ -93,4 +92,3 @@ Vos paramètres de compte à l’adresse [!UICONTROL Settings] > [!UICONTROL Acc
 >* [À propos des rapports In-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonnes de rapport disponibles](/help/dsp/reports/report-columns.md)
 >* [A propos [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
-
