@@ -2,9 +2,9 @@
 title: Questions fréquentes sur les rapports sur les ménages
 description: En savoir plus sur la portée, la fréquence et les données de conversion des ménages, y compris sur la différence entre les rapports des ménages et les autres rapports et dépannage.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
+source-git-commit: bd925c41f7b949c56402edd4e2dc393f0c5bed57
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -75,9 +75,9 @@ Lorsqu’un emplacement comprend plusieurs balises, le rapport considère la cha
 
 Deux types de méthodes d’attribution sont pris en charge :
 
-* Unique : Compte le nombre de fois où une valeur de dimension (un appareil ou un emplacement, par exemple) se trouvait sur le chemin de la conversion.
+* [!UICONTROL Unique]: Compte le nombre de fois où une valeur de dimension (un appareil ou un emplacement, par exemple) se trouvait sur le chemin de la conversion.
 
-* MTA (Attribution multi-écrans) : Distribue le crédit de chaque conversion en fonction de la fréquence d’occurrence de la valeur de dimension (un appareil ou un emplacement, par exemple) sur le chemin de conversion. Par exemple, s’il y avait un total de 10 impressions avant conversion, dont 8 sur CTV et 2 sur Mobile, alors 80 % du crédit (0,8) est attribué aux écrans CTV et 0,2 à Mobile.
+* [!UICONTROL Multi-Touch Attribution (MTA)]: Distribue le crédit de chaque conversion en fonction de la fréquence d’occurrence de la valeur de dimension (un appareil ou un emplacement, par exemple) sur le chemin de conversion. Par exemple, s’il y avait un total de 10 impressions avant conversion, dont 8 sur CTV et 2 sur Mobile, alors 80 % du crédit (0,8) est attribué aux écrans CTV et 0,2 à Mobile.
 
 ### En quoi les rapports de conversion des ménages diffèrent-ils des rapports d’affichage publicitaire CTV dans Adobe Analytics ?
 
