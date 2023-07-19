@@ -3,7 +3,7 @@ title: À propos des rapports personnalisés
 description: Découvrez les options de création manuelle de rapports personnalisés ou d’utilisation de modèles de rapports préconfigurés.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: b3c45f6ae5adcf7cd41060e4e724dbb8021c8c1b
+source-git-commit: ab892528a2fbc0ed5994938ead23cd8e33e8b45f
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Vous pouvez générer les rapports une seule fois ou programmer leur génératio
 
    * **[!UICONTROL Household Reach & Frequency]:** Utilisez ce rapport pour afficher les impressions, la portée et la fréquence d’une dimension unique dans les formats d’annonce au niveau d’un foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil/d’un cookie. Utilisez les insights pour optimiser votre mix média, améliorer les performances et identifier les opportunités de portée incrémentielle. Voir &quot;[Questions fréquentes sur les rapports sur les ménages](/help/dsp/reports/faq-household-report.md)&quot; pour plus d’informations.
 
-* **[!UICONTROL Household Conversions]:** Utilisez ce rapport pour afficher les conversions d’affichages publicitaires au niveau du foyer en fonction de l’adresse IP, plutôt qu’au niveau de l’appareil ou du cookie. Utilisez les insights pour mesurer et optimiser les performances de la campagne. Voir &quot;[Questions fréquentes sur les rapports sur les ménages](/help/dsp/reports/faq-household-report.md)&quot; pour plus d’informations.
+   * **[!UICONTROL Household Conversions]:** Utilisez ce rapport pour afficher les conversions d’affichages publicitaires au niveau du foyer en fonction de l’adresse IP, plutôt qu’au niveau de l’appareil ou du cookie. Utilisez les insights pour mesurer et optimiser les performances de la campagne. Voir &quot;[Questions fréquentes sur les rapports sur les ménages](/help/dsp/reports/faq-household-report.md)&quot; pour plus d’informations.
 
 ## Rapports inter-comptes {#cross-account-reporting}
 
