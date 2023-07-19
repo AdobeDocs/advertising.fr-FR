@@ -1,10 +1,10 @@
 ---
 title: Questions fréquentes sur les rapports sur les ménages
-description: En savoir plus sur les données de rapport, notamment sur la manière dont la variable [!UICONTROL Household] Les rapports diffèrent des autres rapports et de la résolution des problèmes.
+description: En savoir plus sur la portée, la fréquence et les données de conversion des ménages, y compris sur la différence entre les rapports des ménages et les autres rapports et dépannage.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: 05f7d9c7a120828bda46d4f79796dfb419cca242
+source-git-commit: e07038895e64a266f898619384c8b41024f71038
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
