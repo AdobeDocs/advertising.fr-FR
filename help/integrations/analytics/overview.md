@@ -3,9 +3,9 @@ title: Présentation de [!DNL Analytics for Advertising]
 description: Présentation de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: d4306553d4ad7379672be5bff1bc5cc6f74f70bf
+source-git-commit: e1edbc29e9306afc68f805d198ef3e5ec7f25695
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,8 @@ Pour savoir comment utiliser vos données d’Adobe Advertising pour créer des 
 *Utilisateurs d’Advertising DSP uniquement*
 
 Vous pouvez mesurer l’efficacité de l’entonnoir complet de vos campagnes de télévision connectée (CTV) en liant l’exposition aux publicités sur les appareils CTV aux conversions sur site. Pour afficher vos mesures de conversion d’affichage publicitaire CTV, utilisez la vue Emplacement ou la vue Canal marketing dans Analysis Workspace.
+
+La nouvelle [!UICONTROL Landing Type] filter &quot;[!UICONTROL View-through (CTV)]&quot; divise les conversions en lignes distinctes pour [!UICONTROL Click Through], [!UICONTROL View Through], et [!UICONTROL View Through (CTV)] valeurs.
 
 Utilisation de la vue Emplacement :
 
