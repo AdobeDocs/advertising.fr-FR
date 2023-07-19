@@ -3,9 +3,9 @@ title: Présentation de [!DNL Analytics for Advertising]
 description: Présentation de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 562d6b4be50b5ba248ecfa12e8ff0b60556c326a
+source-git-commit: b9a126983556259aafddc73db8adcfd8f1cb86dd
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Pour utiliser [!DNL Analytics] en tant qu’outil de reporting multimédia payan
 
 [ID d’Adobe Advertising dans [!DNL Analytics]](ids.md) fonctionne comme les autres eVars, avec une expiration personnalisée et persistante. Par défaut, l’intervalle de recherche en amont des attributions est défini sur 60 jours pendant la mise en oeuvre de l’Adobe Advertising. Pour modifier ce paramètre, contactez votre équipe de compte d’Adobe.
 
-Les dimensions d’Adobe Advertising sont ajoutées avec le suffixe &quot;(AMO ID)&quot; (par exemple, &quot;Type de publicité (AMO ID)&quot;). Voir &quot;[Adobe Advertising des mesures dans Analysis Workspace](advertising-metrics-in-analytics.md)&quot; pour une liste des dimensions disponibles.
+Les dimensions d’Adobe Advertising sont ajoutées avec le suffixe &quot;(AMO ID)&quot; (par exemple, &quot;Type de publicité (AMO ID)&quot;). Voir &quot;[Adobe des mesures publicitaires dans Analysis Workspace](advertising-metrics-in-analytics.md)&quot; pour une liste des dimensions disponibles.
 
 >[!NOTE]
 >
@@ -127,10 +127,6 @@ Utilisation de la vue Canal marketing :
    Plateforme d’annonces publicitaires : `Advertising Cloud DSP`
 
    Page d’entrée : `View-Through (CTV)`
-
->[!NOTE]
->
-> Les conversions d’affichages publicitaires pour les emplacements CTV sont également disponibles dans la variable [DSP [!UICONTROL Household Conversions Report]](/help/dsp/reports/report-about.md).
 
 ### Création de tableaux de bord d’Adobe Advertising
 
