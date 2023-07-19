@@ -1,14 +1,15 @@
 ---
-title: Questions fréquentes sur les rapports
+title: FAQ sur les rapports personnalisés
 description: Découvrez les réponses aux questions courantes sur les rapports de performances, notamment la résolution des problèmes liés aux données.
-source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
+exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '3917'
+source-wordcount: '3919'
 ht-degree: 0%
 
 ---
 
-# Questions fréquentes sur les rapports
+# FAQ sur les rapports personnalisés
 
 ## Questions générales
 
@@ -208,12 +209,12 @@ Le rapport peut ne pas inclure de mesures de conversion pour lesquelles des conv
 +++
 
 +++Certains rapports avancés n’incluent pas les données de conversion fournies par un flux publicitaire.
-Le [!UICONTROL Geo Distribution Report] et [!UICONTROL Domain Referral Report] utilisez les données capturées par le biais du service de suivi de conversion Adobe Advertising et ne peuvent être générées que pour les annonceurs disposant du service. Les rapports n’incluent pas les données de conversion suivies en dehors du système de suivi de conversion Adobe Advertising.
+Le [!UICONTROL Geo Distribution Report] et [!UICONTROL Domain Referral Report] utilisez les données capturées par le biais du service de suivi de conversion Adobe Advertising et ne peuvent être générées que pour les annonceurs disposant du service. Les rapports n’incluent pas les données de conversion suivies en dehors du système de suivi de conversion d’Adobe Advertising.
 +++
 
 +++Les données sur les recettes diffèrent des données sur les recettes propres à l’annonceur.
 
-**Annonceurs utilisant des balises de conversion d’Adobe Advertising**
+**Annonceurs utilisant des balises de conversion Adobe Advertising**
 
 *Causes possibles :*
 

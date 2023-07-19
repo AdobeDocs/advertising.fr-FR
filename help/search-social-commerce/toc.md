@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising Search, Social et Commerce
 user-guide-description: Ce guide décrit les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires liées aux moteurs de recherche, aux réseaux sociaux et au commerce.
 breadcrumb-title: Guide d’Advertising Search, Social et Commerce
 index: true
-source-git-commit: 50c462fd58acd9cd36aace933ff56db43c2dbf48
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: '1720'
 ht-degree: 2%
 
 ---
@@ -349,7 +349,7 @@ ht-degree: 2%
             + [Paramètres du flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-settings.md)
          + [Accès FTP aux rapports](/help/search-social-commerce/reports/automation/ftp-reports.md)
       + [Méthode de calcul des règles d’attribution](/help/search-social-commerce/reports/attribution-rules.md)
-      + [Questions fréquentes sur les rapports](/help/search-social-commerce/reports/faqs-report.md)
+      + [FAQ sur les rapports personnalisés](/help/search-social-commerce/reports/faqs-report.md)
    + Notifications {#notifications}
       + [A propos des notifications](/help/search-social-commerce/notifications/notification-about.md)
       + [Afficher vos notifications](/help/search-social-commerce/notifications/notification-view.md)
