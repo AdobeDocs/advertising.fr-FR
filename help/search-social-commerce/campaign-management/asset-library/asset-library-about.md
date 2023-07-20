@@ -1,9 +1,9 @@
 ---
 title: "À propos de [!UICONTROL Asset Library]"
 description: Découvrez la bibliothèque de ressources de vos ressources publicitaires.
-source-git-commit: d6d2b85b3be95a6f1162f87e2beccbdd4337b1f2
+source-git-commit: b0244cf2d56026493bc1902abebbdb660e07b1e2
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Pour [!DNL Google Ads] comptes uniquement*
 
-*Fonction bêta*
+*Fonctionnalité bêta ouverte*
 
 Dans [!UICONTROL Campaigns] > [!UICONTROL Asset Library (Beta)], vous pouvez créer des ressources d’image, vidéo et texte réutilisables et les charger dans votre [!DNL Google Ads] bibliothèque de ressources au niveau du compte.
 
