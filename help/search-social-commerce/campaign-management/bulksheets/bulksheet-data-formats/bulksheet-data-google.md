@@ -2,9 +2,9 @@
 title: Données de feuille d’envoi groupé requises pour [!DNL Google Ads] comptes
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour [!DNL Google Ads] comptes.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
+source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
 workflow-type: tm+mt
-source-wordcount: '7729'
+source-wordcount: '7884'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Vous trouverez ci-dessous un tableau de tous les champs de données disponibles 
 
 Le tableau suivant décrit tous les champs de données disponibles.
 
-Pour les champs de données pertinents pour les entités de compte, voir &quot;[Champs requis pour créer, modifier ou supprimer chaque composant de compte](#bulksheet-fields-per-component-google).
+Pour les champs de données pertinents pour les entités de compte, voir &quot;[Champs requis pour créer, modifier ou supprimer chaque composant de compte](#bulksheet-fields-per-component-google).&quot;
 
 >[!NOTE]
 >
@@ -132,13 +132,13 @@ Pour les champs de données pertinents pour les entités de compte, voir &quot;[
 
 Les sections suivantes comprennent les champs relatifs à des entités de compte spécifiques.
 
-Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
-
 >[!NOTE]
 >
 >Lorsqu’un champ n’est pas applicable à une action, toute valeur saisie dans le champ est ignorée.
 
 ### Champs de campagne
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
 | Champ | Obligatoire ? |
 | ---- | ---- |
@@ -169,6 +169,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 ### Champs d’un groupe publicitaire
 
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
+
 | Champ | Obligatoire ? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
@@ -188,6 +190,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 | [!UICONTROL AMO ID] | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
 ### Champs de mot-clé
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
@@ -211,6 +215,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 | [!UICONTROL AMO ID] | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
 ### Champs de référencement
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
@@ -238,6 +244,8 @@ Ce type d’annonce est désormais appelé &quot;publicité de recherche dynamiq
 
 Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot; dans la [!UICONTROL Download Bulksheet] boîte de dialogue.
 
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
+
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
@@ -261,6 +269,8 @@ Pour plus d’informations sur la création d’annonces de shopping, voir &quot
 
 Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot; dans la [!UICONTROL Download Bulksheet] boîte de dialogue.
 
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
+
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
@@ -282,6 +292,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 ### Champs de publicité de recherche réactive
 
 Pour ce type d’annonce, utilisez &quot;[!UICONTROL Responsive Search Ad]&quot; dans la [!UICONTROL Download Bulksheet] boîte de dialogue.
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
@@ -308,6 +320,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Responsive Search Ad]&quot;
 ### Champs de publicité textuelle
 
 Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot; dans la [!UICONTROL Download Bulksheet] boîte de dialogue.
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
 >[!NOTE]
 >
@@ -337,6 +351,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 
 ### Champs de cible de recherche dynamique (ciblage automatique)
 
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
+
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
@@ -354,6 +370,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 | [!UICONTROL AMO ID] | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
 ### Shopping dans les champs du groupe de produits
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
@@ -377,6 +395,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 
 ### Champs de lien de site au niveau de la campagne et du groupe publicitaire
 
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
+
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
@@ -394,7 +414,9 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 | [!UICONTROL Sitelink ID] | Obligatoire uniquement lorsque vous modifiez ou supprimez le lien du site, sauf si la ligne comprend a) suffisamment de colonnes de propriétés pour identifier le lien du site ou b) un &quot;[!UICONTROL AMO ID].&quot; Cependant, si vous n’incluez aucun des [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID]  et que les colonnes de propriétés correspondent à plusieurs liens de site, l’état d’un seul lien de site change.<br><br><b>Remarque :</b> Si vous modifiez les colonnes de propriétés sitelink, sauf [!UICONTROL Status] pour un lien de site existant, et vous n’incluez pas le paramètre [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID], un nouveau lien de site est alors créé et le lien de site existant n’est pas modifié. |
 | [!UICONTROL AMO ID] | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
-### Champs cibles de l’emplacement
+### Cible de l’emplacement
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
@@ -408,6 +430,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 | [!UICONTROL AMO ID] | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez la variable [!UICONTROL Campaign ID].<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
 ### Champs cibles des appareils au niveau de la campagne et du groupe publicitaire
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
@@ -423,6 +447,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 | [!UICONTROL AMO ID] | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’identifiant cible du périphérique.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
 ### Champs de ciblage/exclusion au niveau de la campagne et au niveau du groupe publicitaire
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |

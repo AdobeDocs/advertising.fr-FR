@@ -2,9 +2,9 @@
 title: Données de feuille d’envoi groupé requises pour [!DNL Microsoft Advertising] comptes
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour [!DNL Microsoft Advertising] comptes.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
+source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
 workflow-type: tm+mt
-source-wordcount: '6744'
+source-wordcount: '6900'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Vous trouverez ci-dessous un tableau de tous les champs de données disponibles 
 
 Le tableau suivant décrit tous les champs de données disponibles.
 
-Pour les champs de données pertinents pour les entités de compte, voir &quot;[Champs requis pour créer, modifier ou supprimer chaque composant de compte](#bulksheet-fields-per-component-microsoft).
+Pour les champs de données pertinents pour les entités de compte, voir &quot;[Champs requis pour créer, modifier ou supprimer chaque composant de compte](#bulksheet-fields-per-component-microsoft).&quot;
 
 | Champ | Description |
 |----|----|
@@ -121,13 +121,13 @@ Pour les champs de données pertinents pour les entités de compte, voir &quot;[
 
 Les sections suivantes comprennent les champs relatifs à des entités de compte spécifiques.
 
-Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
-
 >[!NOTE]
 >
 >Lorsqu’un champ n’est pas applicable à une action, toute valeur saisie dans le champ est ignorée.
 
 ### Champs de campagne
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
 | Champ | Obligatoire ? |
 | ---- | ---- |
@@ -155,6 +155,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 ### Champs d’un groupe publicitaire
 
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
+
 | Champ | Obligatoire ? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
@@ -176,6 +178,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 | [!UICONTROL AMO ID] | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
 ### Champs de mot-clé
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
@@ -206,6 +210,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot; dans la [!UICONTROL Download Bulksheet] boîte de dialogue.
 
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
+
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
@@ -229,6 +235,8 @@ Pour plus d’informations sur la création d’annonces de shopping, voir &quot
 
 Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot; dans la [!UICONTROL Download Bulksheet] boîte de dialogue.
 
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
+
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
@@ -250,6 +258,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 ### Champs de publicité réactifs (multimédia)
 
 Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot; dans la [!UICONTROL Download Bulksheet] boîte de dialogue.
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
@@ -274,6 +284,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 ### Champs de publicité de recherche réactive
 
 Pour ce type d’annonce, utilisez &quot;[!UICONTROL Responsive Search Ad]&quot; dans la [!UICONTROL Download Bulksheet] boîte de dialogue.
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
@@ -305,6 +317,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 >
 >Les publicités textuelles étendues étaient obsolètes. Vous pouvez uniquement supprimer des publicités textuelles existantes.
 
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
+
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
@@ -333,6 +347,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 >
 >La création de la prise en charge n’est pas disponible.
 
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
+
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
@@ -351,6 +367,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 | [!UICONTROL AMO ID] | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
 ### Shopping dans les champs du groupe de produits
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
@@ -374,6 +392,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 
 ### Champs de lien de site au niveau de la campagne
 
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
+
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
@@ -394,6 +414,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 
 ### Champs cibles de l’emplacement
 
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
+
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
@@ -406,6 +428,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 | [!UICONTROL AMO ID] | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’identifiant de campagne.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
 ### Champs cibles des appareils au niveau de la campagne et du groupe publicitaire
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
@@ -420,6 +444,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 | [!UICONTROL AMO ID] | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’identifiant cible du périphérique.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
 ### Champs cibles RLSA au niveau de la campagne et du groupe publicitaire
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
 | Champ | Obligatoire ? | Description |
 | ---- | ---- | ---- |
