@@ -2,9 +2,9 @@
 title: Données de feuille d’envoi groupé requises pour [!DNL Google Ads] comptes
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour [!DNL Google Ads] comptes.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
+source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
 workflow-type: tm+mt
-source-wordcount: '7706'
+source-wordcount: '7729'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ Chaque feuille d’envoi groupé doit inclure les champs d’en-tête et les cha
 
 Vous trouverez ci-dessous un tableau de tous les champs de données disponibles et des tableaux supplémentaires indiquant les champs obligatoires pour ajouter, modifier ou supprimer des données pour des entités individuelles (telles que des campagnes et des mots-clés).
 
-## Tous les champs de données disponibles
+## Tous les champs de données disponibles {#bulksheet-fields-all-google}
 
-Le tableau suivant affiche tous les champs de données disponibles.
+Le tableau suivant décrit tous les champs de données disponibles.
 
 Pour les champs de données pertinents pour les entités de compte, voir &quot;[Champs requis pour créer, modifier ou supprimer chaque composant de compte](#bulksheet-fields-per-component-google).
 
@@ -129,6 +129,10 @@ Pour les champs de données pertinents pour les entités de compte, voir &quot;[
 [^1]: [!DNL Excel] convertit les grands nombres en notation scientifique (2.12E+09 pour 2115585666, par exemple) lorsqu’il ouvre le fichier. Pour afficher les chiffres de la notation standard, sélectionnez n’importe quelle cellule de la colonne et cliquez dans la barre de formule.
 
 ## Champs requis pour créer, modifier ou supprimer chaque composant de compte {#bulksheet-fields-per-component-google}
+
+Les sections suivantes comprennent les champs relatifs à des entités de compte spécifiques.
+
+Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
 >[!NOTE]
 >
