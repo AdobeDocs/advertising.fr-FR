@@ -1,9 +1,10 @@
 ---
 title: Données de feuille d’envoi groupé requises pour [!DNL Microsoft Advertising] comptes
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour [!DNL Microsoft Advertising] comptes.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
+source-git-commit: e4901c1ac6e73f27886e315136c3fe9b865cdd48
 workflow-type: tm+mt
-source-wordcount: '6595'
+source-wordcount: '6721'
 ht-degree: 1%
 
 ---
@@ -12,11 +13,15 @@ ht-degree: 1%
 
 Pour créer et mettre à jour [!DNL Microsoft Advertising] les données de campagne en bloc, vous pouvez utiliser des fichiers de feuilles d’envoi groupées Search, Social et Commerce au format spécifique pour [!DNL Microsoft Advertising] comptes. Vous pouvez effectuer l’une des opérations suivantes : [générer des fichiers de feuille de support pour les comptes existants ;](../bulksheet-download.md) dans le format de fichier requis ou b) créez-les manuellement (voir &quot;[Formats de fichier de feuille d’envoi groupé pris en charge](bulksheet-file-formats.md)&quot; pour obtenir des informations générales sur les formats de fichiers pris en charge).
 
-{{$include /help/_includes/bulksheet-appendices-intro.md}}
+Chaque feuille d’envoi groupé doit inclure les champs d’en-tête et les champs de données correspondants requis pour la [opérations spécifiques que vous souhaitez effectuer](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) (comme la création d’une publicité). Lorsqu’un champ n’est pas obligatoire, vous pouvez l’omettre dans les lignes d’en-tête et de données. Toutes les colonnes personnalisées sont supprimées lorsque vous chargez le fichier de feuille en bloc.
+
+Vous trouverez ci-dessous un tableau de tous les champs de données disponibles et des tableaux supplémentaires indiquant les champs obligatoires pour ajouter, modifier ou supprimer des données pour des entités individuelles (telles que des campagnes et des mots-clés).
 
 ## Tous les champs de données disponibles
 
-{{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+Le tableau suivant affiche tous les champs de données disponibles.
+
+Pour les champs de données pertinents pour les entités de compte, voir &quot;[Champs requis pour créer, modifier ou supprimer chaque composant de compte](#bulksheet-fields-per-component-microsoft).
 
 | Champ | Description |
 |----|----|
@@ -112,7 +117,11 @@ Pour créer et mettre à jour [!DNL Microsoft Advertising] les données de campa
 
 [^1]: [!DNL Excel] convertit les grands nombres en notation scientifique (2.12E+09 pour 2115585666, par exemple) lorsqu’il ouvre le fichier. Pour afficher les chiffres de la notation standard, sélectionnez n’importe quelle cellule de la colonne et cliquez dans la barre de formule.
 
-## Champs requis pour créer, modifier ou supprimer chaque composant de compte
+## Champs requis pour créer, modifier ou supprimer chaque composant de compte {#bulksheet-fields-per-component-microsoft}
+
+>[!NOTE]
+>
+>Lorsqu’un champ n’est pas applicable à une action, toute valeur saisie dans le champ est ignorée.
 
 ### Champs de campagne
 

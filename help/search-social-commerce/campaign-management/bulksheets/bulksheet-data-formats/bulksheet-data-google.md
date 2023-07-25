@@ -1,9 +1,10 @@
 ---
 title: Données de feuille d’envoi groupé requises pour [!DNL Google Ads] comptes
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour [!DNL Google Ads] comptes.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
+source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
 workflow-type: tm+mt
-source-wordcount: '7515'
+source-wordcount: '7706'
 ht-degree: 1%
 
 ---
@@ -12,11 +13,22 @@ ht-degree: 1%
 
 Pour créer et mettre à jour [!DNL Google Ads] les données de campagne en bloc, vous pouvez utiliser des fichiers de feuilles d’envoi groupées Search, Social et Commerce au format spécifique pour [!DNL Google Ads] comptes. Vous pouvez effectuer l’une des opérations suivantes : [générer des fichiers de feuille de support pour les comptes existants ;](../bulksheet-download.md) dans le format de fichier requis ou b) créez-les manuellement (voir &quot;[Formats de fichier de feuille d’envoi groupé pris en charge](bulksheet-file-formats.md)&quot; pour obtenir des informations générales sur les formats de fichiers pris en charge).
 
-{{$include /help/_includes/bulksheet-appendices-intro.md}}
+Chaque feuille d’envoi groupé doit inclure les champs d’en-tête et les champs de données correspondants requis pour la [opérations spécifiques que vous souhaitez effectuer](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) (comme la création d’une publicité). Lorsqu’un champ n’est pas obligatoire, vous pouvez l’omettre dans les lignes d’en-tête et de données. Toutes les colonnes personnalisées sont supprimées lorsque vous chargez le fichier de feuille en bloc.
+
+Vous trouverez ci-dessous un tableau de tous les champs de données disponibles et des tableaux supplémentaires indiquant les champs obligatoires pour ajouter, modifier ou supprimer des données pour des entités individuelles (telles que des campagnes et des mots-clés).
 
 ## Tous les champs de données disponibles
 
-{{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+Le tableau suivant affiche tous les champs de données disponibles.
+
+Pour les champs de données pertinents pour les entités de compte, voir &quot;[Champs requis pour créer, modifier ou supprimer chaque composant de compte](#bulksheet-fields-per-component-google).
+
+>[!NOTE]
+>
+>* Les valeurs de toutes les colonnes de texte sont sensibles à la casse.
+>* Lorsque vous créez un nouvel enregistrement sans inclure de valeurs pour tous les champs de données requis, les valeurs par défaut spécifiées sont alors attribuées à certains de ces champs.
+>* Pour les champs qui ne sont pas spécifiés ci-dessous, la valeur par défaut du réseau publicitaire est utilisée.
+>* Pour obtenir la liste des rangées de feuille d’envoi groupé disponibles dans la variable [!UICONTROL Download Bulksheet] dialog, voir[Lignes de feuille de support par réseau publicitaire](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).&quot;
 
 | Champ | Description |
 | ---- | ---- |
@@ -116,7 +128,11 @@ Pour créer et mettre à jour [!DNL Google Ads] les données de campagne en bloc
 
 [^1]: [!DNL Excel] convertit les grands nombres en notation scientifique (2.12E+09 pour 2115585666, par exemple) lorsqu’il ouvre le fichier. Pour afficher les chiffres de la notation standard, sélectionnez n’importe quelle cellule de la colonne et cliquez dans la barre de formule.
 
-## Champs requis pour créer, modifier ou supprimer chaque composant de compte
+## Champs requis pour créer, modifier ou supprimer chaque composant de compte {#bulksheet-fields-per-component-google}
+
+>[!NOTE]
+>
+>Lorsqu’un champ n’est pas applicable à une action, toute valeur saisie dans le champ est ignorée.
 
 ### Champs de campagne
 
