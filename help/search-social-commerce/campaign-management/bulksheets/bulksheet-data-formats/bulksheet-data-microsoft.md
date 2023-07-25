@@ -2,9 +2,9 @@
 title: Données de feuille d’envoi groupé requises pour [!DNL Microsoft Advertising] comptes
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour [!DNL Microsoft Advertising] comptes.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 9cdfe415c9ec2d7e7b65d5a46d208329d66ca14a
 workflow-type: tm+mt
-source-wordcount: '6900'
+source-wordcount: '6888'
 ht-degree: 1%
 
 ---
@@ -181,8 +181,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Obligatoire |
@@ -212,8 +212,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Obligatoire |
@@ -237,8 +237,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Obligatoire |
@@ -261,8 +261,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Obligatoire |
@@ -287,8 +287,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Responsive Search Ad]&quot;
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Obligatoire | |
@@ -319,8 +319,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Obligatoire |
@@ -349,8 +349,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Obligatoire |
@@ -370,8 +370,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Obligatoire |
@@ -394,8 +394,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | Description Ligne 1 | Facultatif |
@@ -416,8 +416,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Location] | Obligatoire |
@@ -431,8 +431,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Device] | Requis pour supprimer une cible d’appareil. |
@@ -447,8 +447,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Requis pour les cibles au niveau du groupe d’annonces. Non applicable pour les cibles au niveau de la campagne. |
