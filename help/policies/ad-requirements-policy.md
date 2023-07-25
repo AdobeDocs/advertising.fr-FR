@@ -1,22 +1,22 @@
 ---
-title: Stratégie des exigences publicitaires Adobe
+title: Stratégie de configuration des publicités Adobe Advertising
 description: Consultez la politique sur les exigences publicitaires.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 04980842afb60870b2beb851e3e80431ae0b037d
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2070'
 ht-degree: 0%
 
 ---
 
-# Stratégie des exigences publicitaires Adobe
+# Stratégie de configuration des publicités Adobe Advertising
 
-*Dernière mise à jour : 12 juillet 2021*
+*Dernière mise à jour : 12 juillet 2021 (à l’exception des noms de produits et de l’URL mis à jour de cette page)*
 
-*Pour Adobe Advertising DSP et Adobe Advertising Search*
+*Pour la recherche d’Adobes Advertising DSP et d’Adobes Advertising, Social et Commerce*
 
-Cette politique sur les exigences en matière de publicité (&quot;Stratégie&quot;) définit les exigences en matière de publicité distribuée via les services à la demande d’Adobe pour la publicité par Adobe (&quot;Services&quot;). Cette Politique est intégrée par référence dans le Contrat entre Adobe et le Client (&quot;vous&quot;) à l&#39;aide des Services à la demande. Les termes en majuscules utilisés dans la présente politique, mais non définis dans les présentes, auront la signification indiquée dans cette convention.
+Cette politique sur les exigences en matière de publicité (&quot;Stratégie&quot;) définit les exigences en matière de publicité distribuée via les services à la demande d’Adobe (&quot;Services&quot;). Cette Politique est intégrée par référence dans le Contrat entre Adobe et le Client (&quot;vous&quot;) à l&#39;aide des Services à la demande. Les termes en majuscules utilisés dans la présente politique, mais non définis dans les présentes, auront la signification indiquée dans cette convention.
 
 Adobe se réserve le droit de déterminer, à son seul jugement, si une publicité, ou le ou les sites web vers lesquels la publicité est redirigée ou liée, enfreint les exigences de la présente politique, dans laquelle un Adobe d&#39;événement peut rejeter cette publicité et/ou mettre fin ou suspendre l&#39;accès aux Services sur cette base.
 
@@ -26,7 +26,7 @@ Outre les exigences définies ci-dessous et dans le Contrat, vous devez respecte
 
 ### Exigences de création
 
-Toutes les publicités transmises, stockées, affichées, distribuées ou mises à votre disposition par l’intermédiaire des services à la demande doivent être conformes aux spécifications publicitaires contenues dans les spécifications publicitaires d’Adobe, telles qu’elles peuvent être revues par Adobe de temps à autre.
+Toutes les publicités transmises, stockées, affichées, distribuées ou mises à votre disposition par l&#39;intermédiaire des services à la demande doivent être conformes aux spécifications publicitaires contenues dans les spécifications publicitaires de l&#39;Adobe Advertising, telles qu&#39;elles peuvent être revues par Adobe de temps à autre.
 
 ### Publicités interdites
 
@@ -128,4 +128,3 @@ Vous ne pouvez pas utiliser les Services pour vous engager dans une discriminati
 >[!MORELIKETHIS]
 >
 >* [Instructions de segments d’intégrité acceptables](/help/policies/health-segment-guidelines.md)
-
