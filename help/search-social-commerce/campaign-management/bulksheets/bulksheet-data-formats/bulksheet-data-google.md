@@ -2,9 +2,9 @@
 title: Données de feuille d’envoi groupé requises pour [!DNL Google Ads] comptes
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour [!DNL Google Ads] comptes.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 25f9deef6302065a6576a07fcb880e81470886e5
 workflow-type: tm+mt
-source-wordcount: '7884'
+source-wordcount: '7839'
 ht-degree: 1%
 
 ---
@@ -143,8 +143,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 | Champ | Obligatoire ? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
-| [!UICONTROL Campaign Name] | Obligatoire | Nom unique qui identifie une campagne pour un compte. |
-| [!UICONTROL Campaign Budget] | Requis pour créer une campagne. | Une limite de dépenses journalière pour la campagne, avec ou sans symboles monétaires et ponctuation. Cette valeur remplace mais ne peut pas dépasser le budget du compte. |
+| [!UICONTROL Campaign Name] | Obligatoire |
+| [!UICONTROL Campaign Budget] | Requis pour créer une campagne. |
 | [!UICONTROL Delivery Method] | Requis pour créer une campagne. |
 | [!UICONTROL Channel Type] | Requis pour créer une campagne. |
 | [!UICONTROL Networks] | Requis pour créer une campagne. |
@@ -193,8 +193,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Obligatoire |
@@ -218,8 +218,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Obligatoire |
@@ -246,8 +246,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Obligatoire |
@@ -271,8 +271,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Creative (except RSA)]&quot
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Obligatoire |
@@ -295,8 +295,8 @@ Pour ce type d’annonce, utilisez &quot;[!UICONTROL Responsive Search Ad]&quot;
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Obligatoire | |
@@ -327,8 +327,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 >
 >Les publicités textuelles étendues ont été abandonnées en juin 2022. Vous pouvez uniquement supprimer des publicités textuelles existantes.
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Obligatoire |
@@ -353,8 +353,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Obligatoire |
@@ -373,8 +373,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Obligatoire |
@@ -397,8 +397,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Ad Group Name] | Requis pour les liens de site au niveau du groupe d’annonces. Non applicable pour les liens de site au niveau de la campagne. |
@@ -418,8 +418,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Location] | Obligatoire |
@@ -433,8 +433,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Device] | Requis pour créer ou modifier une cible d’appareil. |
@@ -450,8 +450,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 Pour une description de chaque champ de données, voir &quot;[Tous les champs de données disponibles](#bulksheet-fields-all-google).&quot;
 
-| Champ | Obligatoire ? | Description |
-| ---- | ---- | ---- |
+| Champ | Obligatoire ? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire, sauf si chaque ligne comprend un &quot;[!UICONTROL AMO ID]&quot; pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Bid Adjustment] | Facultatif |
