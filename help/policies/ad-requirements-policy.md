@@ -3,16 +3,16 @@ title: Stratégie de configuration des publicités Adobe Advertising
 description: Consultez la politique sur les exigences publicitaires.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: b81323c8f576617cc551963b7abd28575166f53a
+source-git-commit: 6255609563c595b921ef9867359cc57498571d73
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2070'
 ht-degree: 0%
 
 ---
 
 # Stratégie de configuration des publicités Adobe Advertising
 
-*Dernière mise à jour : 12 juillet 2021*
+*Dernière mise à jour : 12 juillet 2021 (à l’exception des noms de produits et de l’URL mis à jour de cette page)*
 
 *Pour la recherche d’Adobes Advertising DSP et d’Adobes Advertising, Social et Commerce*
 
@@ -32,7 +32,7 @@ Toutes les publicités transmises, stockées, affichées, distribuées ou mises 
 
 Vous devez vous assurer que vos publicités et le ou les sites web vers lesquels un lien publicitaire ou une redirection publicitaire ne contiennent ou ne promeuvent aucune des fonctionnalités suivantes :
 
-* **Contenu non autorisé**. Les publicités ne peuvent pas contenir de contenu illégal, ni promouvoir, encourager ou faciliter des activités, des produits ou des services illégaux. Cela comprend, sans s’y limiter, le contenu, les produits, les activités ou les services qui impliquent l’utilisation de drogues illicites ou d’accessoires de drogue (qu’ils soient illégaux au niveau étatique ou fédéral) ou qui violent les lois sur les valeurs mobilières. Aux fins de la présente Politique, les annonces concernant le contenu, les produits, les activités ou les services liés à la marijuana, au chanvre ou aux dérivés de ces substances, comme le canabidiol (CBD), sont interdites, à l’exception des seules exceptions suivantes : (1) produits dérivés du chanvre CBD (mais pas d&#39;autres produits CBD ou THC) aux États-Unis; et (2) les produits du cannabis dans les provinces canadiennes autorisées, à la fois sous réserve (a) de l&#39;entrée dans le périmètre de l&#39;Adobe applicable, (b) de la conformité aux obligations de diligence des Adobes et (c) de la permission des fournisseurs de médias et des lois applicables. Les provinces canadiennes admises sont l&#39;Alberta, la Colombie-Britannique, le Manitoba, le Nouveau-Brunswick, Terre-Neuve-et-Labrador, la Nouvelle-Écosse, l&#39;Ontario, l&#39;Île-du-Prince-Édouard et la Saskatchewan.
+* **Contenu non autorisé**. Les publicités ne peuvent pas contenir de contenu illégal, ni promouvoir, encourager ou faciliter des activités, des produits ou des services illégaux. Cela comprend, sans s’y limiter, le contenu, les produits, les activités ou les services qui impliquent l’utilisation de drogues illicites ou d’accessoires de drogue (qu’ils soient illégaux au niveau étatique ou fédéral) ou qui violent les lois sur les valeurs mobilières. Aux fins de la présente Politique, les annonces concernant le contenu, les produits, les activités ou les services qui se rapportent à la marijuana, au chanvre ou aux produits dérivés de ces substances, tels que le canabidiol (CBD), sont interdites, à l&#39;exception des seules exceptions suivantes : (1) les produits dérivés du chanvre CBD (mais pas d&#39;autres produits CBD ou THC) aux États-Unis ; et (2) les produits de cannabis dans les provinces canadiennes autorisées l’Adobe Rider applicable, (b) le respect des obligations de diligence Adobe et (c) comme autorisé par les fournisseurs de médias et les lois applicables. Les provinces canadiennes admises sont l&#39;Alberta, la Colombie-Britannique, le Manitoba, le Nouveau-Brunswick, Terre-Neuve-et-Labrador, la Nouvelle-Écosse, l&#39;Ontario, l&#39;Île-du-Prince-Édouard et la Saskatchewan.
 
 * **Violation des droits ou des contrats d&#39;un autre**. Les publicités ne peuvent violer ou enfreindre les droits ou le contrat d’un autre ou promouvoir un produit ou service qui participe à ces activités. Cela inclut la violation des droits de propriété intellectuelle et la violation de la vie privée, de la publicité ou d’autres droits personnels ou de propriété, y compris la promotion de services de partage de fichiers utilisés principalement pour enfreindre les droits d’auteur.
 
@@ -48,7 +48,7 @@ Vous devez vous assurer que vos publicités et le ou les sites web vers lesquels
 
 * **pharmacies en ligne**. Les publicités ne peuvent pas faire de la publicité pour les services pharmaceutiques qui mettent à disposition en ligne des médicaments sur ordonnance ou hors-ligne à des fins d’achat.
 
-* **Soins de santé**. Les publicités ne peuvent pas contenir d’allégations concernant des produits ou des services non approuvés par le gouvernement qui sont commercialisés de manière à indiquer (directement ou par implication) qu’ils sont efficaces pour prévenir, traiter ou guérir une maladie ou un mal. Les publicités ne peuvent pas faire la publicité de tests génériques directs vers le consommateur, à moins d&#39;être autorisées ou autorisées par le gouvernement ou les recrutements d&#39;essais cliniques.
+* **Soins médicaux**. Les publicités ne peuvent pas contenir d’allégations concernant des produits ou des services non approuvés par le gouvernement qui sont commercialisés de manière à indiquer (directement ou par implication) qu’ils sont efficaces pour prévenir, traiter ou guérir une maladie ou un mal. Les publicités ne peuvent pas faire la publicité de tests génériques directs vers le consommateur, à moins d&#39;être autorisées ou autorisées par le gouvernement ou les recrutements d&#39;essais cliniques.
 
 * **Tabac**. Les publicités ne peuvent offrir ni promouvoir la vente ou l&#39;utilisation de produits du tabac ou d&#39;accessoires, y compris les cigarettes électroniques.
 
@@ -64,7 +64,7 @@ Vous devez vous assurer que vos publicités et le ou les sites web vers lesquels
 
 * **Distraction d’annonces**. Les publicités ne peuvent pas contenir de fonctionnalités ou de contenu gênant, indésirables ou inconfortables, y compris des fonctionnalités de lecture automatique (telles que les publicités qui lisent automatiquement du contenu audio ou vidéo), du contenu qui clignote, se secoue, clignote ou contient des objets d’animation, du texte ou des images excessivement animés, des objets partagés localement (y compris les cookies Flash et le stockage local de HTML5) et des publicités qui interrompent l’expérience utilisateur (par exemple en superposant le contenu).
 
-* **Contenu politique**. Le contenu politique comprend des communications qui : (1) sont payés par tout candidat à un poste (fédéral, étatique, local ou international) ou à la campagne du candidat ; (2) sont payées par toute entité enregistrée ou signalée en vertu de la loi sur le financement des campagnes d&#39;une juridiction (fédérale, étatique, locale ou internationale) ; (3) défendre expressément ou contre tout candidat clairement identifié (fédéral, étatique, local ou international), ou (4) sont régis par une autre loi du financement des campagnes électorales de toute juridiction. Cette interdiction inclut, sans s&#39;y limiter, les publicités de plaidoyer qui sont directement ou indirectement liées à toute élection, campagne politique, candidat à une fonction publique, vote, initiative électorale, législation ou référendum.
+* **Contenu politique**. Le contenu politique comprend les communications qui : (1) sont payées par un candidat à un poste (fédéral, état, local, ou international) ou par une entité candidate ; (2) sont payées par toute entité enregistrée ou signalée en vertu de la loi sur le financement des campagnes de toute juridiction (fédérale, étatique, locale ou internationale) ; (3) plaident expressément pour ou contre tout candidat clairement identifié (fédéral, état, local ou international) ou (4) sont soumises à une autre réglementation de toute juridiction comme loi sur le financement des campagnes. Cette interdiction inclut, sans s&#39;y limiter, les publicités de plaidoyer qui sont directement ou indirectement liées à toute élection, campagne politique, candidat à une fonction publique, vote, initiative électorale, législation ou référendum.
 
 ### Publicités restreintes
 
@@ -108,7 +108,7 @@ Les Services ne peuvent pas être utilisés pour cibler des publicités destiné
    * Identification transgenre
    * Informations génétiques ou biométriques
    * Statut financier négatif (note de crédit, par exemple), casier judiciaire, historique ou condamnations
-   * les dossiers médicaux ou médicaux, y compris les dossiers de prescription
+   * les dossiers médicaux ou médicaux, y compris les dossiers de prescription ;
    * Relation ou état de relation lié à des difficultés personnelles (comme le divorce, le deuil)
    * Abus et traumatismes, y compris le statut de victime de crime, d&#39;abus ou d&#39;événement traumatique
    * Adhésion à un groupe marginalisé ou vulnérable, y compris basé sur la caste sociale, l&#39;immigration ou le statut de réfugié
@@ -119,7 +119,7 @@ Les Services ne peuvent pas être utilisés pour cibler des publicités destiné
    * Union syndicale
    * Toute autre catégorie spéciale de données personnelles
 
-* **Ciblage lié à l’intégrité**. Vous ne pouvez pas utiliser les Services pour collecter des données relatives à la santé sensible ou pour établir des inférences sur la santé sensible ou les traitements médicaux des utilisateurs. En particulier, vous ne pouvez pas utiliser les Services pour cibler des publicités pour l’un des éléments suivants : toute forme de cancer, de maladie mentale ou de maladies sexuellement transmissibles. Les publicités peuvent être ciblées pour des maladies non-sensibles telles que l&#39;acné, les allergies, l&#39;art dentaire, la vue, les brûlures d&#39;estomac, le rhume et la grippe, les sinus, les maux de tête, les premiers soins, les maux de gorge, la gestion de la glycémie, l&#39;alimentation et la condition physique, l&#39;élimination des cheveux et les vitamines et suppléments.
+* **Ciblage lié à l’intégrité**. Vous ne pouvez pas utiliser les Services pour collecter des données relatives à la santé sensible ou pour établir des inférences sur la santé sensible ou les traitements médicaux des utilisateurs. En particulier, vous ne pouvez pas utiliser les Services pour cibler des publicités pour n&#39;importe quelle forme de cancer, de maladie mentale ou de maladie sexuellement transmissible. Les publicités peuvent être ciblées pour des maladies non-sensibles telles que l&#39;acné, les allergies, l&#39;art dentaire, la vue, les brûlures d&#39;estomac, le rhume et la grippe, les sinus, les maux de tête, les premiers soins, les maux de gorge, la gestion de la glycémie, l&#39;alimentation et la condition physique, l&#39;élimination des cheveux et les vitamines et suppléments.
 
 ## Non-discrimination
 
@@ -127,4 +127,4 @@ Vous ne pouvez pas utiliser les Services pour vous engager dans une discriminati
 
 >[!MORELIKETHIS]
 >
->* [Instructions de segments d’intégrité acceptables](/help/policies/health-segment-guidelines.md)
+>* [Directives relatives aux segments d’intégrité acceptables](/help/policies/health-segment-guidelines.md)
