@@ -1,7 +1,9 @@
 ---
 title: Gestion des groupes de produits
 description: Découvrez comment créer et gérer des groupes de produits dans les campagnes d’achat.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 25912abd-1ddb-443f-a16d-7efe57093677
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]et [!DNL Microsoft Advertising] campagnes d&#39;achat uniquement*
 
-Vous pouvez créer et modifier des groupes de produits, ainsi que supprimer des groupes de produits et leurs groupes de produits enfants, dans la variable [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] vue.
+Vous pouvez créer et modifier des groupes de produits, ainsi que supprimer des groupes de produits et leurs groupes de produits enfants, dans la [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] vue.
 
 ## Créez un[!UICONTROL All Products]Groupe de produits
 
@@ -46,7 +48,7 @@ Une fois que vous avez créé au moins un &quot;tout compris&quot;[!UICONTROL Al
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans le sous-menu, cliquez sur **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
-1. (Facultatif) Pour afficher un groupe de produits et ses noeuds de groupe de produits enfants dans l’arborescence, placez le curseur au-dessus du nom du groupe de produits, cliquez sur ![Icône Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icône Menu"), puis sélectionnez **[!UICONTROL Tree View]**.
+1. (Facultatif) Pour afficher un groupe de produits et ses noeuds de groupe de produits enfants dans l’arborescence, placez le curseur sur le nom du groupe de produits, cliquez sur ![Icône Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icône Menu"), puis sélectionnez **[!UICONTROL Tree View]**.
 
 1. Placez le curseur sur le nom du groupe de produits, puis cliquez sur ![Menu déroulant Flèche](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menu déroulant Flèche"), puis sélectionnez **[!UICONTROL + Add Node]**.
 
@@ -60,13 +62,13 @@ Vous pouvez modifier le modèle d’offre et de suivi pour les noeuds de groupe 
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans le sous-menu, cliquez sur **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
-1. (Facultatif) Pour afficher un groupe de produits et ses noeuds de groupe de produits enfants dans l’arborescence, placez le curseur au-dessus du nom du groupe de produits, cliquez sur ![Icône Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icône Menu"), puis sélectionnez **[!UICONTROL Tree View]**.
+1. (Facultatif) Pour afficher un groupe de produits et ses noeuds de groupe de produits enfants dans l’arborescence, placez le curseur sur le nom du groupe de produits, cliquez sur ![Icône Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icône Menu"), puis sélectionnez **[!UICONTROL Tree View]**.
 
 1. Effectuez l’une des opérations suivantes :
 
    1. (Pour modifier les paramètres d’un seul noeud de groupe de produits) Placez le curseur sur le nom du groupe de produits, cliquez sur ![Icône Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icône Menu"), puis sélectionnez **[!UICONTROL + Edit Node]**.
 
-   1. (Pour modifier les paramètres d’un ou de plusieurs groupes publicitaires) Procédez comme suit :
+   1. (Pour modifier les paramètres d’un ou de plusieurs groupes d’annonces) Procédez comme suit :
 
       1. Cochez la case en regard de chaque noeud.
 
@@ -109,4 +111,3 @@ Vous pouvez supprimer tout groupe de produits (à l’exception d’un groupe &q
 >* [À propos des groupes de produits d’achat](product-group-about.md)
 >* [[!DNL Google Ads] paramètres du groupe de produits](product-group-settings-google.md)
 >* [[!DNL Microsoft Advertising] paramètres du groupe de produits](product-group-settings-microsoft.md)
-

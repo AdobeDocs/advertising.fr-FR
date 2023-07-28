@@ -1,7 +1,9 @@
 ---
 title: Gérer [!DNL Google Ads] emplacements
 description: Découvrez comment créer et gérer des emplacements abordables pour [!DNL Google Ads] groupes publicitaires.
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+exl-id: 91fee1eb-d1d5-4a1b-b1a6-369b98269100
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -61,7 +63,7 @@ Vous pouvez créer et modifier des emplacements pour des groupes publicitaires d
 
 **[!UICONTROL Placements]:** Sites sur le réseau de contenu sur lequel votre publicité peut apparaître. Saisissez une URL valide, telle que www.example.com, example.com ou www.example.com/shoes/kids. Pour spécifier plusieurs chaînes, séparez-les par des virgules ou saisissez-les sur des lignes distinctes. L’URL ne peut pas contenir de point d’interrogation (`?`). **Remarque :** Vous pouvez [exclure des emplacements de site web](placement-negative-create.md) de la [!UICONTROL Placements] > [!UICONTROL Negatives] afficher et dans les paramètres du groupe publicitaire et de la campagne.
 
-**[!UICONTROL Status]:** État d’affichage de l’emplacement : *Principal* (pour permettre l’enchère) la valeur par défaut), *En pause* (pour désactiver l’offre) ou *Supprimé* (pour supprimer l’emplacement ; emplacements existants uniquement).
+**[!UICONTROL Status]:** État d’affichage de l’emplacement : *Principal* (pour activer l’offre ; par défaut), *En pause* (pour désactiver l’offre) ou *Supprimé* (pour supprimer l’emplacement ; emplacements existants uniquement).
 
 ### [!UICONTROL Bids]
 

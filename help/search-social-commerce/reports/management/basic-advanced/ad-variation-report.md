@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Ad Variation Report]"
+title: '[!UICONTROL Ad Variation Report]'
 description: En savoir plus sur les [!UICONTROL Ad Variation Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 3f760c40-c9ff-4100-8b4a-80c98dca2460
+feature: Search Reports, Search Basic Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL Ad Variation Report]
 
-Le [!UICONTROL Ad Variation Report] inclut les données de conversion (facultatives), de clic et de coût pour chaque variante de publicité applicable (créative) ayant reçu des impressions dans un ou plusieurs groupes publicitaires. Par défaut, les données incluent une ligne pour chaque publicité applicable qui a reçu des impressions pour chaque unité de temps au cours de la période spécifiée. Les lignes sont dans l’ordre croissant d’abord par titre créatif (publicitaire), puis par réseau publicitaire par défaut.
+La variable [!UICONTROL Ad Variation Report] inclut les données de conversion (facultatives), de clic et de coût pour chaque variante de publicité applicable (créative) ayant reçu des impressions dans un ou plusieurs groupes publicitaires. Par défaut, les données incluent une ligne pour chaque publicité applicable qui a reçu des impressions pour chaque unité de temps au cours de la période spécifiée. Les lignes sont dans l’ordre croissant d’abord par titre créatif (publicitaire), puis par réseau publicitaire par défaut.
 
 Vous pouvez éventuellement inclure des classifications d’étiquettes spécifiques aux annonceurs.
 
@@ -49,4 +51,3 @@ Pour obtenir des descriptions de toutes les colonnes par défaut et personnalis�
 >* [À propos des rapports de base et avancés](basic-advanced-report-about.md)
 >* [Génération d’un rapport de base ou avancé](basic-advanced-report-generate.md)
 >* [Paramètres de base et avancés des rapports](basic-advanced-report-settings.md)
-

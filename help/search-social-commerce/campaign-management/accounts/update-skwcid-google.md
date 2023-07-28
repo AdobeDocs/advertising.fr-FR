@@ -1,7 +1,9 @@
 ---
-title: "Mise à jour du code de suivi s\_kwcid pour un [!DNL Google Ads] account"
+title: Mettre à jour le code de suivi s kwcid pour un [!DNL Google Ads] account
 description: Découvrez comment passer au code de suivi s_kwcid le plus récent pour une [!DNL Google Ads] compte .
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -10,19 +12,19 @@ ht-degree: 0%
 
 # Mettez à jour le code de suivi s\_kwcid pour un événement [!DNL Google Ads] account
 
-*Annonceurs avec une intégration Advertising-Adobe Analytics Adobe uniquement*
+*Publicitaires avec une intégration Adobe Advertising-Adobe Analytics uniquement*
 
 *[!DNL Google Ads]comptes uniquement*
 
 Le format hérité du code de suivi s\_kwcid pour existant [!DNL Google Ads] Les comptes ne prennent pas en charge certaines fonctionnalités d’Analytics, telles que la création de rapports aux niveaux de la campagne et du groupe publicitaire pour [!DNL Google Ads] campagnes de performances max, campagnes de brouillons et d’expériences, ainsi que d’autres cas d’utilisation dans lesquels la même combinaison ad+keyword+match type existe dans plusieurs campagnes.
 
-Le dernier format comprend des paramètres pour l’identifiant de campagne et l’identifiant du groupe publicitaire :
+Le format le plus récent comprend des paramètres pour l’identifiant de campagne et l’identifiant du groupe publicitaire :
 
 ```
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-Vous pouvez modifier, individuellement, le nouveau format pour l’un ou l’ensemble de vos comptes existants. Si vous ne disposez pas de campagnes ou de brouillons et de campagnes d’expérience de performances maximales, la migration vers le nouveau format est facultative.
+Vous pouvez modifier, individuellement, le nouveau format pour n’importe quel ou tous vos comptes existants. Si vous ne disposez pas de campagnes ou de brouillons et de campagnes d’expérience de performances maximales, la migration vers le nouveau format est facultative.
 
 Toutes nouvelles [!DNL Google Ads] Les comptes utilisent automatiquement le nouveau format s\_kwcid .
 
@@ -35,7 +37,7 @@ Toutes nouvelles [!DNL Google Ads] Les comptes utilisent automatiquement le nouv
 1. Cliquez sur **[!UICONTROL Set Account Tracking]**.
 1. Commencer la migration :
 
-   1. En regard de **[!UICONTROL S_KWCID FORMAT]** , cliquez sur **[!UICONTROL LEGACY S_KWCID FORMAT]**.
+   1. Suivant **[!UICONTROL S_KWCID FORMAT]** , cliquez sur **[!UICONTROL LEGACY S_KWCID FORMAT]**.
    1. Cliquez sur **[!UICONTROL Migrate to new s_kwcid format]**.
    1. Dans le message de confirmation, cochez la case, puis cliquez sur **[!UICONTROL Continue]**.
    1. Dans les paramètres du compte, cliquez sur **[!UICONTROL Post]**.

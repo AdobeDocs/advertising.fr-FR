@@ -1,7 +1,9 @@
 ---
 title: Modification d’une mesure personnalisée
 description: Découvrez comment modifier des mesures personnalisées, qui sont calculées à partir de mesures standard.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7b0c18d3-e4ed-49ad-aef7-d05b2a67ba2e
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
@@ -53,8 +55,8 @@ Si vous modifiez une mesure personnalisée qui est incluse en colonne dans l’u
 1. Cliquez sur **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
+>
 * [À propos des mesures personnalisées](custom-metric-about.md)
 * [Création d’une mesure personnalisée](custom-metric-create.md)
 * [Suppression d’une mesure personnalisée](custom-metric-delete.md)
 * [Paramètres de mesure personnalisés](custom-metric-settings.md)
-

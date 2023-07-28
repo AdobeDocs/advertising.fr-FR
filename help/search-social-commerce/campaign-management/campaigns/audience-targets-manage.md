@@ -1,7 +1,9 @@
 ---
 title: Gestion des cibles d’audience pour les campagnes et les groupes publicitaires
 description: Découvrez comment configurer et gérer les cibles d’audience pour vos [!DNL Google Ads] et [!DNL Microsoft® Advertising] campagnes et groupes publicitaires.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0016a69c-7642-4060-8125-947ffef6fb03
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -38,14 +40,13 @@ Vous pouvez configurer des cibles d’audience, modifier les modificateurs d’o
 
    1. Spécifiez les cibles :
 
-      1. (Facultatif) Pour développer une campagne avec ses groupes publicitaires enfants, cliquez sur son nom.
+      1. (Facultatif) Pour développer une campagne avec ses groupes d’annonces enfants, cliquez sur le nom de la campagne.
 
       1. (Facultatif) Pour filtrer une liste de campagnes ou de groupes publicitaires selon une chaîne de texte incluse dans le nom, cliquez sur ![Filtrer](/help/search-social-commerce/assets/filter.png "Filtrer") , saisissez ou collez la chaîne de texte dans le champ de saisie, puis appuyez sur la touche **[!UICONTROL Enter]** clé.
 
       1. Spécifiez chaque cible de campagne et de groupe publicitaire pour le réseau publicitaire spécifié en cliquant sur le cercle vide en regard de celui-ci, de sorte qu’une coche bleue (![Sélectionner](/help/search-social-commerce/assets/include.png "Sélectionner")) s’affiche.
 
       Vous ne pouvez pas configurer de cible pour une campagne parente et un groupe d’annonces enfants (qui utilise automatiquement la cible).
-
 
 1. Cliquez sur **[!UICONTROL Post]**.
 
@@ -59,8 +60,7 @@ Vous pouvez configurer des cibles d’audience, modifier les modificateurs d’o
 
    * *0 % :* Pour ne pas ajuster les offres pour les publicités de cette audience.
 
-   * /[*Autres valeurs comprises entre -90 % et 900 %*/]: Pour augmenter ou diminuer l’offre pour les publicités de cette audience. Par exemple, si l’offre au niveau du mot-clé est de 1 USD et que l’ajustement de l’offre pour une cible d’audience spécifique est de 50 %, l’offre pour cette audience passe à 1,50 USD.
-
+   * /[*Autres valeurs comprises entre -90 % et 900 %*/]: pour augmenter ou diminuer l’offre pour les publicités de cette audience. Par exemple, si l’offre au niveau du mot-clé est de 1 USD et que l’ajustement de l’offre pour une cible d’audience spécifique est de 50 %, l’offre pour cette audience passe à 1,50 USD.
 
 ## Modifier le modificateur d’offre pour les cibles d’audience
 
@@ -84,7 +84,7 @@ Vous pouvez modifier le modificateur d’offre et l’état des cibles d’audie
 
       1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier").
 
-      1. Modifiez la variable **[!UICONTROL Bid Modifier]** et/ou **[!UICONTROL Status]** champs.
+      1. Modifiez la variable **[!UICONTROL Bid Modifier]** et/ou **[!UICONTROL Status]** des champs.
 
          Pour le [!UICONTROL Bid Modifier] , vous avez la possibilité de modifier les valeurs existantes en une valeur spécifique ou d’augmenter ou de diminuer le montant d’un pourcentage spécifié ou d’un montant monétaire, avec une limite.
 
@@ -92,14 +92,13 @@ Vous pouvez modifier le modificateur d’offre et l’état des cibles d’audie
 
          * *0 % :* Pour ne pas ajuster les offres pour les publicités de cette audience.
 
-         * /[*Autres valeurs comprises entre -90 % et 900 %*/]: Pour augmenter ou diminuer l’offre pour les publicités de cette audience. Par exemple, si l’offre au niveau du mot-clé est de 1 USD et que l’ajustement de l’offre pour une cible d’audience spécifique est de 50 %, l’offre pour cette audience passe à 1,50 USD.
+         * /[*Autres valeurs comprises entre -90 % et 900 %*/]: pour augmenter ou diminuer l’offre pour les publicités de cette audience. Par exemple, si l’offre au niveau du mot-clé est de 1 USD et que l’ajustement de l’offre pour une cible d’audience spécifique est de 50 %, l’offre pour cette audience passe à 1,50 USD.
 
          Pour plusieurs cibles, vos modifications sont appliquées à toutes les cibles sélectionnées.
 
       1. (Facultatif) Cliquez sur **[!UICONTROL Additional Details]** et éventuellement saisir un nom et une description du projet.
 
       1. Cliquez sur **[!UICONTROL Post]**.
-
 
 ## Modifier l’état des cibles d’audience
 
@@ -127,4 +126,3 @@ Vous pouvez également supprimer une cible d’audience de recherche principale 
 >
 >* [A propos des audiences](audience-about.md)
 >* [Gestion des exclusions d’audience pour les campagnes et les groupes publicitaires](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
-

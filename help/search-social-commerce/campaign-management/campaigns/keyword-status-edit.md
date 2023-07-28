@@ -1,7 +1,9 @@
 ---
 title: Modifier l’état des mots-clés et des mots-clés négatifs
 description: Découvrez comment modifier l’état des mots-clés et des mots-clés négatifs.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c1562104-048e-486d-b20c-3c15f089324d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Vous pouvez également supprimer des mots-clés de recherche principal ou en pau
 
 1. (Facultatif) Filtrez la liste pour inclure des mots-clés spécifiques ou négatifs.
 
-1. Cochez la case en regard de chaque mot-clé admissible ou négatif dont vous souhaitez modifier l’état.
+1. Cochez la case en regard de chaque mot-clé admissible ou mot-clé négatif dont vous souhaitez modifier l’état.
 
    Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
@@ -35,4 +37,3 @@ Vous pouvez également supprimer des mots-clés de recherche principal ou en pau
 >* [A propos des mots-clés](keyword-about.md)
 >* [Gestion des mots-clés pouvant faire l’objet d’un offre](keyword-manage.md)
 >* [Créer des mots-clés négatifs](keyword-negative-create.md)
-

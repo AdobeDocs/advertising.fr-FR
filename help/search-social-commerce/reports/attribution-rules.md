@@ -1,16 +1,18 @@
 ---
 title: Méthode de calcul des règles d’attribution
 description: Découvrez comment l’Adobe Advertising calcule chaque type de règle d’attribution.
-source-git-commit: d4237253af7110a3ed02595c466c01359f5601d4
+exl-id: b61561fa-8c01-4989-9ef7-620d2b4c2c0b
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2439'
 ht-degree: 0%
 
 ---
 
-# Méthode de calcul des règles d’attribution pour Adobe Advertising
+# Méthode de calcul des règles d’attribution pour l’Adobe Advertising
 
-*Publicitaires avec suivi de conversion Adobe Advertising uniquement*
+*Publicitaires avec suivi de conversion des Adobes Advertising uniquement*
 
 <!-- Verify statements about cross-device events -->
 
@@ -20,7 +22,7 @@ Dans les rapports, les vues par défaut et personnalisées pour Advertising Sear
 
 >[!NOTE]
 >
->* Les règles d’attribution s’appliquent aux clics sur les publicités payantes de n’importe quel canal et aux impressions sur les publicités affichées et sociales. Elles ne s’appliquent pas aux impressions pour les annonces de référencement payant, qui ne peuvent pas faire l’objet d’un suivi au niveau de l’événement.
+>* Les règles d’attribution s’appliquent aux clics sur les publicités payantes de n’importe quel canal et aux impressions sur les publicités affichées et sociales. Elles ne s’appliquent pas aux impressions pour les annonces de référencement payant, qui ne peuvent pas être suivies au niveau de l’événement.
 >* Adobe Advertising stocke toujours les événements suivants pour chaque internaute avant une conversion : a) le premier clic payant ; b) jusqu’à 10 clics pour chaque canal (recherche, réseaux sociaux ou affichage), y compris le premier clic ; et c) jusqu’à 10 impressions display. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
 * Dans Advertising DSP et Advertising Creative, les définitions entre appareils ne prennent en compte que le chemin d’événement de la règle d’attribution sélectionnée.<!-- cross-device attribution via LiveRamp only -->
 * Dans les rapports et les vues de gestion, le nombre de décimales affichées pour une valeur dépend de la devise, mais Adobe Advertising stocke des valeurs plus précises.
@@ -39,7 +41,7 @@ Lorsque la conversion est précédée uniquement par des impressions, la convers
 
 ### Exemple avec tous les clics
 
-Chemin d’accès de l’événement : Click1, Click2, Click3, Conversion de 120 USD
+Chemin de l’événement : Click1, Click2, Click3, Conversion de 120 USD
 
 La conversion est attribuée à Click 3 pour un montant de 120 USD.
 
@@ -47,7 +49,7 @@ La conversion est attribuée à Click 3 pour un montant de 120 USD.
 
 **Remarque :** Les impressions ne s’appliquent qu’à partir des publicités display et sociales.
 
-Chemin d’accès de l’événement : Impression 1, Clic 1, Impression 2, Conversion de 120 USD
+Chemin de l’événement : Impression 1, Clic 1, Impression 2, Conversion de 120 USD
 
 La conversion est attribuée à Click 1 pour un montant de 120 USD.
 
@@ -55,7 +57,7 @@ La conversion est attribuée à Click 1 pour un montant de 120 USD.
 
 **Remarque :** Seules les impressions pour l’affichage et les publicités sociales s’appliquent.
 
-Chemin d’accès de l’événement : Impression 1, Impression 2, Impression 3, Conversion de 120 USD
+Chemin de l’événement : Impression 1, Impression 2, Impression 3, Conversion de 120 USD
 
 La conversion est attribuée à Impression 3. La conversion étant un affichage publicitaire, la méthode d’évaluation d’affichage publicitaire sélectionnée dans la section &quot;Attribution de conversion&quot; des paramètres du rapport est appliquée :
 
@@ -73,7 +75,7 @@ Attribue la conversion au premier clic payant de la série dans le rapport de l�
 
 Lorsque la conversion est précédée uniquement par des impressions, la conversion est considérée comme une *affichage publicitaire*, qui est pondéré selon le [définition du poids d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) ou — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire définie dans le rapport, l’affichage ou les paramètres personnalisés de la simulation.
 
-![Pourcentages d’attribution du premier événement](/help/search-social-commerce/assets/attribution-percent-first-event.png "Pourcentages d’attribution du premier événement")
+![Premiers pourcentages d’attribution d’événement](/help/search-social-commerce/assets/attribution-percent-first-event.png "Premiers pourcentages d’attribution d’événement")
 
 <!-- start examples as collapsible content -->
 
@@ -81,7 +83,7 @@ Lorsque la conversion est précédée uniquement par des impressions, la convers
 
 ### Exemple avec tous les clics
 
-Chemin d’accès de l’événement : Cliquez sur 1, cliquez sur 2, cliquez sur 3, Conversion de 120 USD
+Chemin de l’événement : cliquez sur 1, sur 2, sur 3, sur Conversion de 120 USD
 
 La conversion est attribuée à Click 1 pour un montant de 120 USD.
 
@@ -89,7 +91,7 @@ La conversion est attribuée à Click 1 pour un montant de 120 USD.
 
 **Remarque :** Les impressions ne s’appliquent qu’à partir des publicités display et sociales.
 
-Chemin d’accès de l’événement : Impression 1, Clic 1, Impression 2, Conversion de 120 USD
+Chemin de l’événement : Impression 1, Clic 1, Impression 2, Conversion de 120 USD
 
 La conversion est attribuée à Click 1 pour un montant de 120 USD.
 
@@ -97,7 +99,7 @@ La conversion est attribuée à Click 1 pour un montant de 120 USD.
 
 **Remarque :** Seules les impressions pour l’affichage et les publicités sociales s’appliquent.
 
-Chemin d’accès de l’événement : Impression 1, Impression 2, Impression 3, Conversion de 120 USD
+Chemin de l’événement : Impression 1, Impression 2, Impression 3, Conversion de 120 USD
 
 La conversion est attribuée à Impression 1. La conversion étant un affichage publicitaire, la méthode d’évaluation d’affichage publicitaire sélectionnée dans la section &quot;(Campagnes d’affichage) Attribution de conversion&quot; des paramètres du rapport est appliquée :
 
@@ -115,7 +117,7 @@ Attribue la conversion à tous les événements de la série qui se sont produit
 
 Lorsque la conversion est précédée uniquement par des impressions, la conversion est considérée comme une *affichage publicitaire*, qui est pondéré selon le [définition du poids d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) ou — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire définie dans le rapport, l’affichage ou les paramètres personnalisés de la simulation.
 
-Lorsque le chemin de conversion inclut à la fois des clics payants et des impressions, les impressions sont traitées différemment par différents produits Adobe Advertising :
+Lorsque le chemin de conversion inclut à la fois des clics payants et des impressions, les impressions sont traitées différemment par différents produits d’Adobe Advertising :
 
 * Dans Search, Social et Commerce, la variable [poids du remplacement d’impression](/help/search-social-commerce/glossary.md#i-j) — qui est spécifié dans le paramètre de poids de remplacement d’impression de l’annonceur et dans les paramètres de rapport, d’affichage ou de simulation personnalisés — est d’abord appliqué aux impressions.
 
@@ -129,15 +131,15 @@ Lorsque le chemin de conversion inclut à la fois des clics payants et des impre
 
 ### Exemple avec tous les clics
 
-Chemin d’accès de l’événement : Cliquez sur 1, cliquez sur 2, cliquez sur 3, Conversion de 120 USD
+Chemin de l’événement : cliquez sur 1, sur 2, sur 3, sur Conversion de 120 USD
 
-Attribution : Cliquez sur 1 = 60 USD, cliquez sur 2 = 40 USD, cliquez sur 3 = 20 USD (120 USD au total).
+Attribution : cliquez sur 1 = 60 USD, cliquez sur 2 = 40 USD, cliquez sur 3 = 20 USD (120 USD au total).
 
 ### Exemples avec des impressions et des clics
 
 **Remarque :** Les impressions ne s’appliquent qu’à partir des publicités display et sociales.
 
-Chemin d’accès de l’événement : Impression 1, Clic 1, Impression 2, Clic 2, Conversion de 120 USD
+Chemin de l’événement : Impression 1, Clic 1, Impression 2, Clic 2, Conversion de 120 USD
 
 #### (Recherche, Social et Commerce uniquement) Utilisation du &quot;poids de remplacement d’impression&quot; par défaut de 10 %
 
@@ -155,7 +157,7 @@ Attribution : Impression 1 = 0 USD, clic 1 = 80 USD, impression 2 = 0 USD, clic 
 
 **Remarque :** Seules les impressions pour les publicités affichées s’appliquent.
 
-Chemin d’accès de l’événement : Impression 1, Impression 2, Impression 3, Conversion de 120 USD
+Chemin de l’événement : Impression 1, Impression 2, Impression 3, Conversion de 120 USD
 
 Comme la conversion est une vue publicitaire, la méthode d’évaluation d’affichage publicitaire (plutôt que le poids de remplacement d’impression) est appliquée pour déterminer la valeur de chaque impression :
 
@@ -177,7 +179,7 @@ Attribue la conversion de manière égale à chaque événement de la série qui
 
 Lorsque la conversion est précédée uniquement par des impressions, la conversion est considérée comme une *affichage publicitaire*, qui est pondéré selon le [définition du poids d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) ou — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire définie dans le rapport, l’affichage ou les paramètres personnalisés de la simulation.
 
-Lorsque le chemin de conversion inclut à la fois des clics payants et des impressions, les impressions sont traitées différemment par différents produits Adobe Advertising :
+Lorsque le chemin de conversion inclut à la fois des clics payants et des impressions, les impressions sont traitées différemment par différents produits d’Adobe Advertising :
 
 * Dans Search, Social et Commerce, la variable [poids du remplacement d’impression](/help/search-social-commerce/glossary.md#i-j) — qui est spécifié dans le paramètre de poids de remplacement d’impression de l’annonceur et dans les paramètres de rapport, d’affichage ou de simulation personnalisés — est d’abord appliqué aux impressions.
 
@@ -191,17 +193,17 @@ Lorsque le chemin de conversion inclut à la fois des clics payants et des impre
 
 ### Exemple avec tous les clics
 
-Chemin d’accès de l’événement : Cliquez sur 1, cliquez sur 2, cliquez sur 3, conversion de 120 USD
+Chemin de l’événement : cliquez sur 1, sur 2, sur 3, sur une conversion de 120 USD
 
 Aucune impression n’a entraîné la conversion. Par conséquent, le poids du remplacement d’impression n’est pas applicable et la conversion est répartie équitablement entre les trois clics :
 
-Attribution : Cliquez sur 1 = 40 USD, cliquez sur 2 = 40 USD, cliquez sur 3 = 40 USD (120 USD au total).
+Attribution : cliquez sur 1 = 40 USD, cliquez sur 2 = 40 USD, cliquez sur 3 = 40 USD (120 USD au total).
 
 ### Exemples avec des impressions et des clics
 
 **Remarque :** Les impressions ne s’appliquent qu’à partir des publicités display et sociales.
 
-Chemin d’accès de l’événement : Impression 1, Clic 1, Impression 2, Clic 2, Conversion de 120 USD
+Chemin de l’événement : Impression 1, Clic 1, Impression 2, Clic 2, Conversion de 120 USD
 
 #### (Recherche, Social et Commerce uniquement) Utilisation du &quot;poids de remplacement d’impression&quot; par défaut de 10 %
 
@@ -219,7 +221,7 @@ Attribution : Impression 1 = 0 USD, clic 1 = 60 USD, impression 2 = 0 USD, clic 
 
 **Remarque :** Seules les impressions pour les publicités affichées s’appliquent.
 
-Chemin d’accès de l’événement : Impression 1, Impression 2, Impression 3, Conversion de 120 USD
+Chemin de l’événement : Impression 1, Impression 2, Impression 3, Conversion de 120 USD
 
 Comme la conversion est une vue publicitaire, la méthode d’évaluation d’affichage publicitaire (plutôt que le poids de remplacement d’impression) est appliquée pour déterminer la valeur de chaque impression :
 
@@ -237,7 +239,7 @@ Attribue la conversion à tous les événements de la série qui se sont produit
 
 Lorsque la conversion est précédée uniquement par des impressions, la conversion est considérée comme une *affichage publicitaire*, qui est pondéré selon le [définition du poids d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) ou — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire définie dans le rapport, l’affichage ou les paramètres personnalisés de la simulation.
 
-Lorsque le chemin de conversion inclut à la fois des clics payants et des impressions, les impressions sont traitées différemment par différents produits Adobe Advertising :
+Lorsque le chemin de conversion inclut à la fois des clics payants et des impressions, les impressions sont traitées différemment par différents produits d’Adobe Advertising :
 
 * Dans Search, Social et Commerce, la variable [poids du remplacement d’impression](/help/search-social-commerce/glossary.md#i-j) — qui est spécifié dans le paramètre de poids de remplacement d’impression de l’annonceur et dans les paramètres de rapport, d’affichage ou de simulation personnalisés — est d’abord appliqué aux impressions.
 
@@ -251,15 +253,15 @@ Lorsque le chemin de conversion inclut à la fois des clics payants et des impre
 
 ### Exemple avec tous les clics
 
-Chemin d’accès de l’événement : Cliquez sur 1, cliquez sur 2, cliquez sur 3, Conversion de 120 USD
+Chemin de l’événement : cliquez sur 1, sur 2, sur 3, sur Conversion de 120 USD
 
-Attribution : Cliquez sur 3 = 60 USD, cliquez sur 2 = 40 USD, cliquez sur 1 = 20 USD (120 USD au total).
+Attribution : cliquez sur 3 = 60 USD, cliquez sur 2 = 40 USD, cliquez sur 1 = 20 USD (120 USD au total).
 
 ### Exemples avec des impressions et des clics
 
 **Remarque :** Les impressions ne s’appliquent qu’à partir des publicités display et sociales.
 
-Chemin d’accès de l’événement : Impression 1, Clic 1, Impression 2, Clic 2, Conversion de 120 USD
+Chemin de l’événement : Impression 1, Clic 1, Impression 2, Clic 2, Conversion de 120 USD
 
 #### (Recherche, Social et Commerce uniquement) Utilisation du &quot;poids de remplacement d’impression&quot; par défaut de 10 %
 
@@ -277,13 +279,13 @@ Attribution : Impression 1 = 0 USD, clic 1 = 40 USD, impression 2 = 0 USD, clic 
 
 **Remarque :** Les impressions ne s’appliquent qu’à partir des publicités display et sociales.
 
-Chemin d’accès de l’événement : Impression 1, Impression 2, Impression 3, Conversion de 120 USD
+Chemin de l’événement : Impression 1, Impression 2, Impression 3, Conversion de 120 USD
 
 Comme la conversion est une vue publicitaire, la méthode d’évaluation d’affichage publicitaire (plutôt que le poids de remplacement d’impression) est appliquée pour déterminer la valeur de chaque impression :
 
-* Si le paramètre du rapport spécifie un poids d’affichage publicitaire pondéré, ce poids est appliqué aux valeurs d’impression. Par exemple, si le poids de l’affichage publicitaire est de 40 %, multipliez chaque valeur de &quot;Exemple avec tous les clics&quot; par 40 % : Impression 3 = 24 USD, Impression 2 = 16 USD, Impression 1 = 8 USD (48 USD au total)
+* Si le paramètre du rapport spécifie un poids d’affichage publicitaire pondéré, ce poids est appliqué aux valeurs d’impression. Par exemple, si le poids de l’affichage publicitaire est de 40 %, multipliez chaque valeur de &quot;Exemple avec tous les clics&quot; par 40 % : Impression 3 = 24 USD, Impression 2 = 16 USD, Impression 1 = 8 USD (48 USD au total).
 
-* Si le paramètre de rapport indique l’utilisation de valeurs brutes pour les affichages publicitaires, les 120 USD complets sont répartis entre les impressions : Impression 3 = 60 USD, Impression 2 = 40 USD, Impression 1 = 20 USD (120 USD au total)
+* Si le paramètre de rapport indique l’utilisation de valeurs brutes pour les affichages publicitaires, alors l’ensemble des 120 USD est divisé entre les impressions : Impression 3 = 60 USD, Impression 2 = 40 USD, Impression 1 = 20 USD (120 USD au total)
 
 +++
 
@@ -295,7 +297,7 @@ Attribue la conversion à tous les événements de la série qui se sont produit
 
 Lorsque la conversion est précédée uniquement par des impressions, la conversion est considérée comme une *affichage publicitaire*, qui est pondéré selon le [définition du poids d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) ou — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire définie dans le rapport, l’affichage ou les paramètres personnalisés de la simulation.
 
-Lorsque le chemin de conversion inclut à la fois des clics payants et des impressions, les impressions sont traitées différemment par différents produits Adobe Advertising :
+Lorsque le chemin de conversion inclut à la fois des clics payants et des impressions, les impressions sont traitées différemment par différents produits d’Adobe Advertising :
 
 * Dans Search, Social et Commerce, la variable [poids du remplacement d’impression](/help/search-social-commerce/glossary.md#i-j) — qui est spécifié dans le paramètre de poids de remplacement d’impression de l’annonceur et dans les paramètres de rapport, d’affichage ou de simulation personnalisés — est d’abord appliqué aux impressions.
 
@@ -309,15 +311,15 @@ Lorsque le chemin de conversion inclut à la fois des clics payants et des impre
 
 ### Exemple avec tous les clics
 
-Chemin d’accès de l’événement : Cliquez sur 1, cliquez sur 2, sur 3, sur 4, Conversion de 120 USD
+Chemin de l’événement : cliquez sur 1, sur 2, sur 3, sur 4, sur Conversion de 120 USD
 
-Attribution : Cliquez sur 1 = 36 USD, cliquez sur 2 = 24 USD, cliquez sur 3 = 24 USD, cliquez sur 4 = 36 USD (120 USD au total).
+Attribution : cliquez sur 1 = 36 USD, cliquez sur 2 = 24 USD, cliquez sur 3 = 24 USD, cliquez sur 4 = 36 USD (120 USD au total).
 
 ### Exemples avec des impressions et des clics
 
 **Remarque :** Les impressions ne s’appliquent qu’à partir des publicités display et sociales.
 
-Chemin d’accès de l’événement : Impression 1, Clic 1, Impression 2, Clic 2, Conversion de 120 USD
+Chemin de l’événement : Impression 1, Clic 1, Impression 2, Clic 2, Conversion de 120 USD
 
 #### (Recherche, Social et Commerce uniquement) Utilisation du &quot;poids de remplacement d’impression&quot; par défaut de 10 %
 
@@ -335,13 +337,13 @@ Attribution : Impression 1 = 0 USD, clic 1 = 60 USD, impression 2 = 0 USD, clic 
 
 **Remarque :** Seules les impressions pour les publicités affichées s’appliquent.
 
-Chemin d’accès de l’événement : Impression 1, Impression 2, Impression 3, Impression 4, Conversion de 120 USD
+Chemin de l’événement : Impression 1, Impression 2, Impression 3, Impression 4, Conversion de 120 USD
 
 Comme la conversion est une vue publicitaire, la méthode d’évaluation d’affichage publicitaire (plutôt que le poids de remplacement d’impression) est appliquée pour déterminer la valeur de chaque impression :
 
 * Si le paramètre du rapport spécifie un poids d’affichage publicitaire pondéré, ce poids est appliqué aux valeurs d’impression. Par exemple, si le poids de l’affichage publicitaire est de 40 %, cliquez sur 1 = 14,40 USD, cliquez sur 2 = 9,60 USD, cliquez sur 3 = 9,60 USD, cliquez sur 4 = 14,40 USD (48 USD au total).
 
-* Si le paramètre de rapport indique l’utilisation de valeurs brutes pour les affichages publicitaires, les 120 USD complets sont répartis entre les impressions : Cliquez sur 1 = 36 USD, cliquez sur 2 = 24 USD, cliquez sur 3 = 24 USD, cliquez sur 4 = 36 USD (120 USD au total).
+* Si le paramètre du rapport indique l’utilisation de valeurs brutes pour les affichages publicitaires, alors l’ensemble des 120 USD est divisé entre les impressions : cliquez sur 1 = 36 USD, cliquez sur 24 USD, cliquez sur 3 = 24 USD, cliquez sur 4 = 36 USD (120 USD total).
 
 +++
 

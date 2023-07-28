@@ -1,16 +1,18 @@
 ---
-title: Génération d’une balise de suivi de conversion Advertising Adobe
-description: Découvrez comment créer une balise de conversion Adobe Advertising pour effectuer le suivi de vos événements de conversion.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: Génération d’une balise de suivi de conversion d’Adobe Advertising
+description: Découvrez comment créer une balise de conversion d’Adobe Advertising pour effectuer le suivi de vos événements de conversion.
+exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
+feature: Search Tools, Search Tracking
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 0%
 
 ---
 
-# Génération d’une balise de suivi de conversion Advertising Adobe
+# Génération d’une balise de suivi de conversion d’Adobe Advertising
 
-*Publicitaires avec suivi de conversion Adobe Advertising uniquement*
+*Publicitaires avec suivi de conversion des Adobes Advertising uniquement*
 
 Créez une balise de conversion distincte pour chaque ensemble de mesures dont vous souhaitez effectuer le suivi et fournissez à l’annonceur ou à l’agence une liste de pages Web sur lesquelles insérer chacune d’elles.
 
@@ -46,17 +48,17 @@ Pour plus d’informations sur les différences entre les types de balises, voir
 
 **[!UICONTROL Tag Properties]:** Une ou plusieurs propriétés de transaction (mesures) à suivre lorsqu’un utilisateur final consulte une page contenant la balise de conversion. Pour ajouter une mesure à la liste, saisissez son nom dans le champ &quot;[!UICONTROL Add new property]&quot;, puis cliquez sur **[!UICONTROL Add]**.
 
-Lorsque plusieurs mesures sont suivies, elles sont unies par une esperluette (`&`) dans la balise , par exemple : `ev_Property1=<Property1>&ev_Property2=<Property2>`.
+Lorsque plusieurs mesures sont suivies, elles sont unies par une esperluette (`&`) dans la balise , par exemple `ev_Property1=<Property1>&ev_Property2=<Property2>`.
 
 >[!NOTE]
 >
->Les mesures ajoutées à cette liste ne sont enregistrées ni intégrées à la variable [!UICONTROL Transaction Properties] sur la liste [!UICONTROL Admin] . Cependant, des mesures sont ajoutées au [!UICONTROL Transaction Properties] répertorie automatiquement une fois Adobe Advertising rassemble les données d’une mesure, ce qui se produit lorsque la balise de conversion est implémentée sur une page et qu’un utilisateur final effectue une transaction qui ouvre cette page.
+>Les mesures ajoutées à cette liste ne sont enregistrées ni intégrées à la [!UICONTROL Transaction Properties] sur la liste [!UICONTROL Admin] . Cependant, des mesures sont ajoutées au [!UICONTROL Transaction Properties] répertorie automatiquement une fois qu’un Adobe Advertising collecte réellement les données d’une mesure, ce qui se produit lorsque la balise de conversion est implémentée sur une page et qu’un utilisateur final effectue une transaction qui ouvre cette page.
 
 **[!UICONTROL Include unique transaction IDs]:** (Facultatif) Inclut une propriété d’ID de transaction (`ev_transid=<transid>`) dans la balise . L’option est sélectionnée par défaut.
 
-Lorsque vous sélectionnez cette option, l’annonceur doit générer une valeur unique pour `<transid>` (par exemple, un identifiant de commande réel) une fois la transaction terminée et la transmettre à Adobe Advertising, comme `ev_transid=0123`. Adobe Advertising utilise l’ID de transaction pour éliminer les transactions en double avec le même ID de transaction et la même valeur de propriété. L’ID de transaction ne peut pas contenir d’esperluette (`&`), qui sont réservés en tant que séparateurs de paramètres. L’ID de transaction est inclus dans [la valeur [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md), que vous pouvez utiliser pour valider des données dans Search, Social et Commerce avec les données de l’annonceur.
+Lorsque vous sélectionnez cette option, l’annonceur doit générer une valeur unique pour `<transid>` (par exemple, un identifiant de commande réel) lorsque la transaction est terminée et que celle-ci est renvoyée à l’Adobe Advertising, par exemple : `ev_transid=0123`. Adobe Advertising utilise l’ID de transaction pour éliminer les transactions en double avec le même ID de transaction et la même valeur de propriété. L’ID de transaction ne peut pas contenir d’esperluette (`&`), qui sont réservés en tant que séparateurs de paramètres. L’ID de transaction est inclus dans [la valeur [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md), que vous pouvez utiliser pour valider des données dans Search, Social et Commerce avec les données de l’annonceur.
 
-Si les données n’incluent pas d’identifiant unique par transaction, Adobe Advertising en génère toujours un en fonction de l’heure de la transaction.
+Si les données ne contiennent pas d’identifiant unique par transaction, l’Adobe Advertising en génère toujours un en fonction de l’heure de la transaction.
 
 >[!NOTE]
 >
@@ -66,13 +68,13 @@ Si les données n’incluent pas d’identifiant unique par transaction, Adobe A
 
 **[!UICONTROL Segment users]:** Obsolète
 
-**[!UICONTROL JS Version]:** ([!DNL JavaScript] (balises uniquement) Quelle version de la variable [!DNL JavaScript] pour créer la balise : *[!UICONTROL v2]* (valeur par défaut) ou *[!UICONTROL v3]*.
+**[!UICONTROL JS Version]:** ([!DNL JavaScript] (balises uniquement) Quelle version de [!DNL JavaScript] pour créer la balise : *[!UICONTROL v2]* (valeur par défaut) ou *[!UICONTROL v3]*.
 
 Voir &quot;[Questions fréquentes sur les balises de suivi de conversion d’Adobe Advertising et de pages vues](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot; pour plus d’informations sur les différences.
 
 >[!MORELIKETHIS]
 >
->* [À propos des balises de suivi de conversion Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [À propos des balises de suivi de conversion d’Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
 >* [A propos des outils de création et de décodage des balises de suivi](tracking-tools-about.md)
 >* [Questions fréquentes sur les balises de suivi de conversion et de pages vues](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [Format des balises de suivi de conversion JavaScript version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
@@ -80,4 +82,3 @@ Voir &quot;[Questions fréquentes sur les balises de suivi de conversion d’Ado
 >* [Format des balises de suivi de conversion d’image](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 >* [Balise de mappage de conversion JavaScript Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
 >* [À propos de la gestion des propriétés de transaction d’un annonceur](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
-

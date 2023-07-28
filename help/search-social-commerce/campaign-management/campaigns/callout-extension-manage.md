@@ -1,7 +1,9 @@
 ---
 title: Gérer [!DNL Google Ads] Extensions de légende
 description: Découvrez comment créer et gérer [!DNL Google Ads] Extensions de légende.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5ac4ae56-6de6-4c35-aaf3-339011af16c5
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -56,7 +58,7 @@ Vous pouvez modifier une légende partagée à la fois.
 
 ## [!DNL Google Ads] paramètres de légende partagée {#shared-callout-settings}
 
-Pour plus d’informations [!DNL Google Ads] les stratégies et les raisons de la désapprobation des légendes, voir [exigences d’extension de légende](https://support.google.com/adspolicy/answer/1054212).
+Pour les [!DNL Google Ads] les stratégies et les raisons de la désapprobation des légendes, voir [exigences d’extension de légende](https://support.google.com/adspolicy/answer/1054212).
 
 **[!UICONTROL Callout Text]:** Le texte à afficher. Il peut contenir jusqu’à 25 caractères ou 12 caractères codés sur deux octets. Il ne peut pas inclure de points d’exclamation ou de ponctuation au début du texte.
 
@@ -74,4 +76,3 @@ Pour plus d’informations [!DNL Google Ads] les stratégies et les raisons de l
 >
 >* [A propos [!DNL Google Ads] Extensions de légende](callout-extension-about.md)
 >* [Associer [!DNL Google Ads] Extensions de légende partagées avec des campagnes ou des groupes publicitaires](callout-extension-associate.md)
-

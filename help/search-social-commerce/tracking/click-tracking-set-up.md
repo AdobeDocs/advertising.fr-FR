@@ -1,7 +1,9 @@
 ---
 title: Configuration du suivi des clics basé sur les cookies
 description: Découvrez comment configurer et valider les balises de suivi des clics.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 340aec08-a1a5-4aa5-b666-9c819c1709d0
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -14,7 +16,7 @@ Pour que Search, Social et Commerce effectuent le suivi des clics, les élément
 
 1. (Équipe du compte d’Adobe) Configurez l’annonceur comme client de pixel.
 
-1. [Définissez les options de suivi correctes pour chacun des comptes et campagnes de réseau publicitaire de l’annonceur.](#set-up-click-tracking-options).
+1. [Définissez les options de suivi correctes pour chacun des comptes et campagnes réseau publicitaires de l’annonceur.](#set-up-click-tracking-options).
 
 1. Si nécessaire, [générer des URL de suivi et les télécharger ;](#generate-upload-tracking-urls) pour certains éléments de campagne.
 
@@ -34,7 +36,7 @@ Pour que Search, Social et Commerce effectuent le suivi des clics, les élément
 
    1. Pour le [!UICONTROL Tracking Type] paramètre, sélectionnez **[!UICONTROL EF Redirect]**.
 
-   1. (Pour permettre à Search, Social et Commerce d’échanger des données avec Adobe Analytics ou de suivre les conversions qui se produisent dans [!DNL Apple Safari]) Sélectionnez la variable [!UICONTROL Redirect Type] option **[!UICONTROL Token]**.
+   1. (Pour permettre à Search, Social et Commerce d’échanger des données avec Adobe Analytics ou de suivre les conversions qui se produisent dans [!DNL Apple Safari]) Sélectionnez le [!UICONTROL Redirect Type] option **[!UICONTROL Token]**.
 
    1. (Facultatif) Activez la variable **[!UICONTROL Auto Upload]** pour charger automatiquement les nouvelles URL de suivi vers le réseau publicitaire lors de la prochaine synchronisation de Search, Social et Commerce avec celui-ci. Cette valeur est héritée comme valeur par défaut pour toutes les campagnes du compte, mais elle peut être remplacée au niveau de la campagne.
 
@@ -48,7 +50,7 @@ Pour que Search, Social et Commerce effectuent le suivi des clics, les élément
 
    1. Pour le [!UICONTROL Tracking Type] paramètre, sélectionnez **[!UICONTROL EF Redirect]**.
 
-   1. (Pour permettre à Search, Social et Commerce d’échanger des données avec Adobe Analytics ou de suivre les conversions qui se produisent dans [!DNL Apple Safari]) Sélectionnez la variable [!UICONTROL Redirect Type] option **[!UICONTROL Token]**.
+   1. (Pour permettre à Search, Social et Commerce d’échanger des données avec Adobe Analytics ou de suivre les conversions qui se produisent dans [!DNL Apple Safari]) Sélectionnez le [!UICONTROL Redirect Type] option **[!UICONTROL Token]**.
 
    1. (Facultatif) Activez la variable **[!UICONTROL Auto Upload]** pour charger automatiquement les nouvelles URL de suivi vers le réseau publicitaire lors de la prochaine synchronisation de Search, Social et Commerce avec celui-ci. Cette valeur est héritée comme valeur par défaut pour toutes les campagnes du compte, mais elle peut être remplacée au niveau de la campagne.
 
@@ -62,7 +64,7 @@ Vérifiez que la page d’entrée correcte s’ouvre pour l’URL de suivi des c
 
 1. Reproduisez un clic publicitaire en envoyant du trafic vers l’environnement d’évaluation de l’annonceur :
 
-   1. Dans un éditeur de texte, collez une URL de suivi des clics, modifiez l’URL de la page d’entrée pour qu’elle pointe vers la même page dans l’environnement d’évaluation de l’annonceur, puis collez la nouvelle URL dans la barre d’adresse de votre navigateur et appuyez sur la touche **[!DNL Enter]** clé.
+   1. Dans un éditeur de texte, collez une URL de suivi des clics, modifiez l’URL de la page d’entrée pour qu’elle pointe vers la même page dans l’environnement intermédiaire de l’annonceur, puis collez la nouvelle URL dans la barre d’adresse de votre navigateur et appuyez sur la touche **[!DNL Enter]** clé.
 
    1. Recherchez le cookie dans les cookies stockés de votre navigateur.
 
@@ -86,4 +88,3 @@ Vérifiez que la page d’entrée correcte s’ouvre pour l’URL de suivi des c
 >[!MORELIKETHIS]
 >
 >* [Quand et comment générer des URL de suivi des clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
-

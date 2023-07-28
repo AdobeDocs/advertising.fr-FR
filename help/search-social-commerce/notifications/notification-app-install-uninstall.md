@@ -1,7 +1,9 @@
 ---
 title: Installez et désinstallez le [!UICONTROL Notification Center] application web
 description: Découvrez comment installer et désinstaller le [!UICONTROL Notification Center] application web.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e1afc7c0-4bbb-44d6-9871-924580648fa9
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Installez et désinstallez le [!UICONTROL Notification Center] application web
 
-*Fonction bêta*
+*Fonctionnalité bêta*
 
 Vous pouvez recevoir et gérer des notifications en dehors de votre navigateur en installant une [!UICONTROL Notification Center] application web. L’application a la même apparence et la même fonctionnalité que [!UICONTROL Notification Center] dans Search, Social et Commerce. L’application est disponible pour [!DNL Google Chrome] 40 et plus ou [!DNL Microsoft® Edge] 17 et plus.
 
@@ -44,7 +46,7 @@ Vous pouvez désactiver ou désinstaller l’application à partir du gestionnai
 
 * Dans la [!DNL Edge] menu principal :
 
-   1. Dans la barre d’outils du navigateur, cliquez sur **...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**.
+   1. Dans la barre d’outils du navigateur, cliquez sur **..** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**.
 
    1. Dans le [!UICONTROL Install Notification Center] message de l’application, cliquez sur **[!UICONTROL Install]**.
 
@@ -54,7 +56,7 @@ Vous pouvez désactiver ou désinstaller l’application à partir du gestionnai
 
 ## Désinstallez le [!UICONTROL Notification Center] application web pour [!DNL Microsoft® Edge]
 
-1. Dans le [!DNL Edge] barre d’outils du navigateur, cliquez sur **...** > **[!UICONTROL Apps]** > **[!UICONTROL Manage apps]**. Vous pouvez également accéder à `edge://apps`.
+1. Dans le [!DNL Edge] barre d’outils du navigateur, cliquez sur **..** > **[!UICONTROL Apps]** > **[!UICONTROL Manage apps]**. Vous pouvez également accéder à `edge://apps`.
 
 1. Clic droit **[!UICONTROL Notification Center]** et cliquez sur **[!UICONTROL Uninstall]**.
 
@@ -66,4 +68,3 @@ Vous pouvez désactiver ou désinstaller l’application à partir du gestionnai
 >* [Supprimer une notification](notification-delete.md)
 >* [Modification des paramètres de notification](notification-edit.md)
 >* [Activation et désactivation des notifications push depuis [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Supprimer une notification
 description: Découvrez comment supprimer une notification.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: abf37a77-02e4-429f-adac-13ac954a78e7
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Supprimer une notification
 
-*Fonction bêta*
+*Fonctionnalité bêta*
 
 ## Supprimez une notification dans la fonction [!UICONTROL Notifications] panel
 
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 1. (Dans Rechercher, Social et Commerce) Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Notification Center Beta]**.
 
-1. (Facultatif) Pour filtrer vos notifications par type, cliquez sur *[!UICONTROL Notices]*, *[!UICONTROL Recommendations]*, *[!UICONTROL Warnings]* ou *[!UICONTROL Issues]*.
+1. (Facultatif) Pour filtrer vos notifications par type, cliquez sur *[!UICONTROL Notices]*, *[!UICONTROL Recommendations]*, *[!UICONTROL Warnings]*, ou *[!UICONTROL Issues]*.
 
 1. Cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete.png "Supprimer")  en regard de la notification.
 
@@ -34,4 +36,3 @@ ht-degree: 0%
 >* [Modification des paramètres de notification](notification-edit.md)
 >* [Activation et désactivation des notifications push depuis [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Installez et désinstallez le [!UICONTROL Notification Center] application web](notification-app-install-uninstall.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Gestion des informations d’identification des comptes de gestionnaire de réseau publicitaire
 description: Découvrez comment fournir des informations d’identification pour votre [!DNL Google Ads] comptes de gestion.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bde22f70-12a7-4eef-a141-dafeed9a7dc5
+feature: Search Admin
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -10,7 +12,7 @@ ht-degree: 1%
 
 # Gestion des informations d’identification des comptes de gestionnaire de réseau publicitaire
 
-*Fonction bêta*
+*Fonctionnalité bêta*
 
 *[!DNL Google Ads]comptes uniquement*
 
@@ -30,7 +32,7 @@ Une fois que vous avez ajouté les informations d’identification d’un compte
 
 1. Saisissez les informations de connexion pour le compte du gestionnaire.
 
-   Le **[!UICONTROL Manager Account ID]** et **[!UICONTROL Login Email]** sont obligatoires. Search, Social et Commerce capture et stocke automatiquement le jeton de compte à utiliser pour l’authentification.
+   La variable **[!UICONTROL Manager Account ID]** et **[!UICONTROL Login Email]** sont obligatoires. Search, Social et Commerce capture et stocke automatiquement le jeton de compte à utiliser pour l’authentification.
 
    Vous pouvez éventuellement inclure une **[!UICONTROL MCC Account Name]** pour l’identification dans Search, Social et Commerce et le compte. **[!UICONTROL Password]**. Saisissez le mot de passe à chiffrer et enregistrez-le afin que le gestionnaire de compte puisse actualiser les jetons si nécessaire.
 
@@ -48,7 +50,7 @@ Une fois que vous avez ajouté les informations d’identification d’un compte
 
 1. Saisissez les informations de connexion pour le compte du gestionnaire.
 
-   Le **[!UICONTROL Manager Account ID]** et **Adresse électronique de connexion** sont obligatoires. Search, Social et Commerce capture et stocke automatiquement le jeton de compte à utiliser pour l’authentification.
+   La variable **[!UICONTROL Manager Account ID]** et **Adresse électronique de connexion** sont obligatoires. Search, Social et Commerce capture et stocke automatiquement le jeton de compte à utiliser pour l’authentification.
 
    Vous pouvez éventuellement inclure une **[!UICONTROL MCC Account Name]** pour l’identification dans Search, Social et Commerce et le compte. **[!UICONTROL Password]**. Saisissez le mot de passe à chiffrer et enregistrez-le afin que le gestionnaire de compte puisse actualiser les jetons si nécessaire.
 
@@ -61,4 +63,3 @@ Une fois que vous avez ajouté les informations d’identification d’un compte
 >* [Activer le téléchargement des objectifs vers les réseaux publicitaires](/help/search-social-commerce/tools/objective-upload-to-networks.md)
 >* [Chargement des mesures de conversion dans [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
 >* [Modification des paramètres de notification](/help/search-social-commerce/notifications/notification-edit.md)
-

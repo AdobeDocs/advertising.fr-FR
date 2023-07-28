@@ -1,7 +1,9 @@
 ---
 title: Formats de suivi des clics pour [!DNL Baidu]
-description: En savoir plus sur les formats de suivi des clics pour [!DNL Baidu] comptes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Découvrez les formats de suivi des clics pour [!DNL Baidu] comptes.
+exl-id: a57ff0cf-0bcf-4d55-9a86-7551db8a08e7
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -22,15 +24,13 @@ Exemple :
 >
 >* `<advertiser_ID>` est une variable de l’identifiant unique de l’annonceur dans Adobe Advertising.
 >
->* Ce format indique que le transfert de jeton est activé pour la campagne (valeur par défaut). Si le transfert de jeton est désactivé, remplacez `cq?` after `<advertiser_ID>` avec `c?`.
+>* Ce format indique que la transmission de jetons est activée pour la campagne (valeur par défaut). Si la transmission de jeton est désactivée, remplacez `cq?` after `<advertiser_ID>` avec `c?`.
 >
 >* `<campaignID>` est une variable de l’identifiant de campagne numérique.
 >
 >* `<the landing page>` est une variable qui représente l’URL de votre site vers laquelle les utilisateurs finaux sont dirigés.
 
-
 >[!MORELIKETHIS]
 >
 >* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion Adobe Advertising](formats-click-tracking-about.md)
 >* [Formats du code de suivi s\_kwcid](skwcid-tracking-parameter.md)
-

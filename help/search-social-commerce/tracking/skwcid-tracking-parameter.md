@@ -1,7 +1,9 @@
 ---
 title: Le paramètre de suivi s_kwcid
 description: Découvrez le paramètre de suivi utilisé pour partager des données d’Adobe Advertising avec Adobe Analytics.
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+exl-id: 3f739f1c-3cb7-40d0-86ab-cf66afe6a06f
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -18,15 +20,15 @@ Adobe Advertising partage des données sur vos campagnes avec Adobe Analytics à
 
 * (Recommandé)<!--; the only option for Advertising DSP-->) La fonction s_kwcid côté serveur est mise en oeuvre.
 
-  Pour [!DNL Google Ads] et [!DNL Microsoft Advertising] des comptes [!UICONTROL Auto Upload] activée pour le compte ou la campagne, le serveur de pixels ajoute automatiquement le paramètre s_kwcid aux suffixes de votre page d’entrée lorsqu’un utilisateur clique sur une publicité. <!-- click a search ad or views a display ad --> avec le pixel Adobe Advertising.
+  Pour [!DNL Google Ads] et [!DNL Microsoft Advertising] compte avec la variable [!UICONTROL Auto Upload] activée pour le compte ou la campagne, le serveur de pixels ajoute automatiquement le paramètre s_kwcid aux suffixes de votre landing page lorsqu’un utilisateur clique sur une publicité <!-- click a search ad or views a display ad --> avec le pixel d’Adobe Advertising.
 
-  Pour d’autres réseaux publicitaires, ou [!DNL Google Ads] et [!DNL Microsoft Advertising] des comptes [!UICONTROL Auto Upload] désactivé, ajoutez manuellement le paramètre aux paramètres d’ajout au niveau du compte, qui l’ajoutent à vos URL de base.
+  Pour d’autres réseaux publicitaires, ou [!DNL Google Ads] et [!DNL Microsoft Advertising] compte avec la variable [!UICONTROL Auto Upload] désactivé, ajoutez manuellement le paramètre aux paramètres d’ajout au niveau du compte, qui l’ajoutent à vos URL de base.
 
 * <!-- (Search, Social, & Commerce only) -->La fonction s_kwcid côté serveur n’est pas implémentée et vous devez ajouter manuellement le paramètre s_kwcid à votre ([!DNL Google Ads] et [!DNL Microsoft Advertising]) suffixes de page d’entrée ou paramètres d’ajout au niveau du compte au niveau du compte (autres réseaux publicitaires).
 
 Pour mettre en oeuvre la fonction s_kwcid côté serveur ou déterminer la meilleure option pour votre entreprise, contactez votre équipe de compte d’Adobe.
 
-## Format s_kwcid pour les publicités Advertising DSP
+## Format s_kwcid pour les annonces publicitaires DSP
 
 `s_kwcid=AC!${TM_AD_ID}!${TM_PLACEMENT_ID}`
 
@@ -67,7 +69,7 @@ Il s’agit notamment des campagnes d’achat utilisant des [!DNL Google Merchan
 >[!NOTE]
 >
 >* Pour les annonces de recherche dynamique, {keyword} est renseignée avec la cible automatique.
->* Lorsque vous générez le suivi pour [!DNL Google] publicités commerciales, un paramètre d’ID de produit, `{adwords_producttargetid}`, est inséré avant le paramètre de mot-clé . Le paramètre d’ID de produit n’apparaît pas dans la variable [!DNL Google Ads] paramètres de suivi au niveau du compte et au niveau de la campagne.
+>* Lorsque vous générez le suivi pour [!DNL Google] publicités commerciales, un paramètre d’ID de produit, `{adwords_producttargetid}`, est inséré avant le paramètre de mot-clé . Le paramètre d’ID de produit n’apparaît pas dans la variable [!DNL Google Ads] paramètres de suivi au niveau du compte et de la campagne.
 >* Pour utiliser le code de suivi s_kwcid le plus récent, voir &quot;[Mettre à jour le code de suivi s_kwcid pour un [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).&quot;
 
 <!--

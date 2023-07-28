@@ -1,7 +1,9 @@
 ---
-title: Balise de mappage de conversion Adobe Advertising
-description: Découvrez la balise de mappage de conversion basée sur JavaScript pour ITP 2.2, qui permet à Adobe Advertising de suivre un événement de conversion qui se produit sur une page qui n’est pas la page d’entrée.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: Balise de mappage de conversion d’Adobe Advertising
+description: Découvrez la balise de mappage de conversion basée sur JavaScript pour ITP 2.2, qui permet à l’Adobe Advertising de suivre un événement de conversion qui se produit sur une page qui n’est pas la page d’entrée.
+exl-id: 6e2515da-2552-4f19-8344-1dee96cbf706
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -10,9 +12,9 @@ ht-degree: 0%
 
 # Balise de mappage de conversion JavaScript Adobe Advertising
 
-*Publicitaires avec suivi de conversion Adobe Advertising uniquement*
+*Publicitaires avec suivi de conversion des Adobes Advertising uniquement*
 
-La balise de mappage de conversion JavaScript Adobe Advertising, lorsqu’elle est utilisée en plus de la balise de suivi de conversion JavaScript v2 ou v3 Adobe Advertising, permet à Adobe Advertising de suivre un événement de conversion qui se produit sur une page qui n’est pas la page d’entrée. La solution ITP 2.2 stocke le cookie d’un utilisateur dans un stockage local dans un iFrame détenu par l’annonceur. Le stockage local peut ensuite conserver la valeur du cookie du clic en aval vers la page de conversion.
+La balise de mappage de conversion basée sur JavaScript Adobe Advertising, lorsqu’elle est utilisée en plus de la balise de suivi de conversion JavaScript v2 ou v3 Adobe Advertising, permet à l’Adobe Advertising de suivre un événement de conversion qui se produit sur une page qui n’est pas la page d’entrée. La solution ITP 2.2 stocke le cookie d’un utilisateur dans un stockage local dans un iFrame détenu par l’annonceur. Le stockage local peut ensuite conserver la valeur du cookie du clic en aval vers la page de conversion.
 
 Utilisez la balise de mappage de conversion pour vous assurer qu’Adobe Advertising peut suivre toutes les conversions qui se produisent dans les navigateurs Safari et Mozilla Firefox, ce qui limite la persistance des cookies propriétaires. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
@@ -32,15 +34,15 @@ Pour utiliser la balise de mappage de conversion :
 
 * Si votre organisation utilise un seul ID d’organisation, qui est utilisé pour votre compte Search, Social &amp; Commerce, utilisez la balise suivante :
 
-   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
+  `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
 
-   où remplacer `{AMO User ID}` avec l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
+  où remplacer `{AMO User ID}` avec l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
 
 * Si votre organisation utilise plusieurs ID d’organisation, utilisez la balise suivante :
 
-   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="{xxxxxx@AdobeOrg}" userid="{AMO User ID}"></script>`
+  `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="{xxxxxx@AdobeOrg}" userid="{AMO User ID}"></script>`
 
-   où :
+  où :
 
    * vous remplacez la valeur `{xxxxxx@AdobeOrg}` avec l’ID d’organisation pour lequel les conversions de la page sont suivies. Utilisez le même ID d’organisation pour toutes les pages de conversion.
 
@@ -48,30 +50,30 @@ Pour utiliser la balise de mappage de conversion :
 
 * Si vous utilisez un système de gestion des balises qui ne prend pas en charge l’ajout de la variable `imsorgid` à la balise de script, puis utilisez le code suivant à la place :
 
-   *Si votre organisation utilise un seul ID d’organisation :
+  *Si votre organisation utilise un seul ID d’organisation :
 
-   ```
-   <script>
-   window.ad_cloud = window.ad_cloud || {};
-   window.ad_cloud.userid = "{AMO User ID}"
-   </script>
-   <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-   ```
+  ```
+  <script>
+  window.ad_cloud = window.ad_cloud || {};
+  window.ad_cloud.userid = "{AMO User ID}"
+  </script>
+  <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+  ```
 
-   où remplacer `{AMO User ID}` avec l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
+  où remplacer `{AMO User ID}` avec l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
 
    * Si votre organisation utilise plusieurs ID d’organisation :
 
-      ```
-      <script>
-      window.ad_cloud = window.ad_cloud || {};
-      window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
-      window.ad_cloud.userid = "{AMO User ID}"
-      </script>
-      <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-      ```
+     ```
+     <script>
+     window.ad_cloud = window.ad_cloud || {};
+     window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
+     window.ad_cloud.userid = "{AMO User ID}"
+     </script>
+     <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+     ```
 
-      où :
+     où :
 
       * vous remplacez la valeur `{xxxxxx@AdobeOrg}` avec l’ID d’organisation pour lequel les conversions de la page sont suivies. Utilisez le même ID d’organisation pour toutes les pages de conversion.
 

@@ -1,7 +1,9 @@
 ---
 title: Données de campagne de publication générées à partir de flux vers les réseaux publicitaires
 description: Découvrez comment publier des données générées à partir de flux de données d’inventaire sur des réseaux publicitaires.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 14ce377c-9b71-48ac-8ead-cada9c06d52f
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -12,23 +14,23 @@ ht-degree: 0%
 
 *[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
 
-Vous pouvez publier des données de campagne générées à partir d’un flux lorsque vous propagez les données par le biais des modèles associés ou dans le cadre d’un processus distinct. Une fois que vous publiez des données, toutes les données propagées existantes sont supprimées de la variable [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], et [!UICONTROL Ads] listes.
+Vous pouvez publier des données de campagne générées à partir d’un flux lorsque vous propagez les données par le biais des modèles associés ou dans le cadre d’un processus distinct. Une fois que vous publiez des données, toutes les données propagées existantes sont supprimées de la variable [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], et [!UICONTROL Ads] des listes.
 
 Pour une publication réussie, tous les groupes publicitaires doivent être affectés aux campagnes, tous les mots-clés et publicités doivent être affectés aux groupes publicitaires et toutes les informations requises doivent être incluses sans violation de longueur.
 
 * Si vous avez utilisé l’option pour &quot;[!UICONTROL Propagate and Preview],&quot; puis [publier le fichier de feuille d’envoi groupé généré ;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md) (nommé &quot;`<feed file name>_<template name>`&quot;) de la fonction [!UICONTROL Bulksheets] vue.
 
-   Si vous ne l’aviez pas fait précédemment [valider vos landing pages ;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md), vous pouvez le faire avant de publier le fichier.
+  Si vous ne l’aviez pas fait précédemment [valider vos landing pages ;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md), vous pouvez le faire avant de publier le fichier.
 
 * Si vous avez utilisé l’option pour &quot;[!UICONTROL Propagate only],&quot; vous pouvez ensuite publier les données générées pour les composants avec la variable [[!UICONTROL New] status](propagated-data-status.md) dans une vue hiérarchique de campagne à partir de la vue [!UICONTROL Templates] .
 
-   >[!NOTE]
-   >
-   >Les composants principaux ou supprimés peuvent inclure des sous-composants nouveaux et les sous-composants peuvent être publiés si les données sont valides.
+  >[!NOTE]
+  >
+  >Les composants principaux ou supprimés peuvent inclure des sous-composants nouveaux et les sous-composants peuvent être publiés si les données sont valides.
 
-   >[!TIP]
-   >
-   >Si vous n’avez pas validé précédemment vos landing pages et que vous souhaitez le faire, [propager les données et les prévisualiser](feed-data-propagate.md) de la [!UICONTROL Bulksheets] plutôt que de la publier sur le réseau publicitaire. Vous pouvez alors [valider les URL ;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) avant de publier manuellement le fichier sur le réseau publicitaire.
+  >[!TIP]
+  >
+  >Si vous n’avez pas validé précédemment vos landing pages et que vous souhaitez le faire, [propagation des données et prévisualisation](feed-data-propagate.md) de la [!UICONTROL Bulksheets] plutôt que de la publier sur le réseau publicitaire. Vous pouvez alors [valider les URL ;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) avant de publier manuellement le fichier sur le réseau publicitaire.
 
    1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, qui s’ouvre sur le [!UICONTROL Templates] .
 
@@ -42,7 +44,7 @@ Pour une publication réussie, tous les groupes publicitaires doivent être affe
 
       * **[!UICONTROL Scheduling]:** Quand publier le fichier :
 
-         * *[!UICONTROL Post to search engine now]* (valeur par défaut) : Crée un fichier de feuille en bloc à partir des données de flux propagées et commence à le publier immédiatement.
+         * *[!UICONTROL Post to search engine now]* (valeur par défaut) : crée un fichier de feuille en vrac à partir des données de flux propagées et commence à les publier immédiatement.
 
          * *[!UICONTROL Post to search engine on these start/end times (in America/Los_Angeles time)]:* Crée un fichier de feuille d’envoi groupé et le publie ultérieurement. Indiquez les informations suivantes :
 
@@ -50,21 +52,21 @@ Pour une publication réussie, tous les groupes publicitaires doivent être affe
 
             * **[!UICONTROL End Time]:** Date et heure futures auxquelles les publicités publiées peuvent être suspendues ou supprimées en fonction de la variable [paramètre de données de flux](feed-settings-manage.md#feed-data-settings) pour &quot;[!UICONTROL When the Scheduled End Date is reached].&quot; Par défaut, l’heure de fin est à 00 h (12 h 00) 30 jours à partir d’aujourd’hui. Sélectionner **[!UICONTROL None]** pour que les données restent principales indéfiniment (ou jusqu’à ce que vous propagiez les nouvelles données pour le modèle) ou spécifier une date et une heure.
 
-               Pour spécifier une date, utilisez le format JJ/MM/AAAA ou JJ/M/AAAA ou cliquez sur [Calendrier](/help/search-social-commerce/assets/calendar.png "Calendrier") pour ouvrir le calendrier et [sélectionner une date ;](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Pour modifier une heure, saisissez l’heure au format 24 heures HH/MM ou H/M ou sélectionnez une heure (par intervalles de 30 minutes) dans la liste.
+              Pour spécifier une date, utilisez le format JJ/MM/AAAA ou JJ/M/AAAA ou cliquez sur [Calendrier](/help/search-social-commerce/assets/calendar.png "Calendrier") pour ouvrir le calendrier et [sélectionner une date ;](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Pour modifier une heure, saisissez l’heure au format 24 heures HH/MM ou H/M ou sélectionnez une heure (par intervalles de 30 minutes) dans la liste.
+
          * *[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crée un fichier de feuille en vrac disponible à partir du [!UICONTROL Search] > [!UICONTROL Bulksheets] vue. Vous pouvez éventuellement publier le fichier à partir de là.
 
-            Lorsque le fichier de feuille d’envoi groupé obtenu fait plus de 2 Mo, il est au format ZIP. Vous n’avez pas besoin de décompresser le fichier pour le publier.
+           Lorsque le fichier de feuille d’envoi groupé obtenu fait plus de 2 Mo, il est au format ZIP. Vous n’avez pas besoin de décompresser le fichier pour le publier.
+
       * **[!UICONTROL Generate Tracking URLs]:** Inclure ou non les URL de suivi des mots-clés et des variations publicitaires dans le fichier de feuille d’envoi groupé : *[!UICONTROL Yes]* (valeur par défaut) ou *[!UICONTROL No]*.
 
-         Si vous sélectionnez *[!UICONTROL Yes]*, les URL sont ensuite générées à partir des URL de base pour les mots-clés et les publicités, en fonction de la variable [!UICONTROL Tracking Methods] dans le [paramètres du compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) ou, si vous mappez des données avec des campagnes existantes, vers la variable [!UICONTROL Tracking Methods] des paramètres existants [paramètres de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md).
+        Si vous sélectionnez *[!UICONTROL Yes]*, les URL sont ensuite générées à partir des URL de base pour les mots-clés et les publicités, en fonction de la variable [!UICONTROL Tracking Methods] dans la variable [paramètres du compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) ou, si vous mappez des données avec des campagnes existantes, vers la variable [!UICONTROL Tracking Methods] des paramètres de la [paramètres de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md).
 
-         S’il existe des URL de suivi pour les éléments pertinents, elles ne sont pas regénérées tant que de nouvelles URL ne sont pas nécessaires (par exemple, si le type de correspondance du mot-clé, le texte créatif ou les paramètres de suivi du compte ont changé).
+        S’il existe des URL de suivi pour les éléments pertinents, elles ne sont pas regénérées tant que de nouvelles URL ne sont pas nécessaires (par exemple, si le type de correspondance du mot-clé, le texte créatif ou les paramètres de suivi du compte ont changé).
 
       * **[!UICONTROL Bulksheet Name]:** Nom du fichier de feuille d’envoi groupé à créer à partir des données de flux propagées. Par défaut, le fichier est nommé `<feed file name_file extension>_<feed template name>_<creation date in the format YYYYMMDDHHMMSS>.txt`. Vous pouvez renommer le fichier comme vous le souhaitez, mais il doit se terminer par l’une des extensions de fichier suivantes : `.tsv` (pour les valeurs séparées par des tabulations), `.txt` (pour le texte ASCII), `.csv` (pour les valeurs séparées par des virgules) ou `.zip` (pour un fichier TSV compressé). Pour les données contenant des caractères internationaux, utilisez le format TSV ou TXT.
 
-         Le fichier publié est disponible dans la variable [!UICONTROL Bulksheets] affichez pendant 30 jours si vous l’avez publiée ou non sur le réseau publicitaire.
-
-
+        Le fichier publié est disponible dans la variable [!UICONTROL Bulksheets] affichez pendant 30 jours si vous l’avez publiée ou non sur le réseau publicitaire.
 
 Le &quot;[!UICONTROL Last Prop. Status]&quot; affiche l’état de la tâche pour les modèles applicables.
 
@@ -72,11 +74,10 @@ Lorsque la feuille d’envoi groupé est créée, elle est répertoriée dans la
 
 >[!NOTE]
 >
->* Quelle que soit l’option de planification sélectionnée, les données spécifiées sont supprimées de la variable [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], et [!UICONTROL Ads] listes.
+>* Quelle que soit l’option de planification que vous avez sélectionnée, les données spécifiées sont supprimées de la variable [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], et [!UICONTROL Ads] des listes.
 >* Le traitement de grandes quantités de données prend plus de temps. Vous pouvez suivre la progression du fichier pendant le processus.
 >* Toutes les données publiées sont soumises au processus éditorial du réseau.
 >* Avant de publier un fichier de feuille d’envoi groupé, vous pouvez : [annuler la publication ;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md).
-
 
 >[!MORELIKETHIS]
 >
@@ -85,4 +86,3 @@ Lorsque la feuille d’envoi groupé est créée, elle est répertoriée dans la
 >* [Modification des données générées à partir de flux](propagated-data-edit.md)
 >* [Arrêt d’une tâche de publication pour les données de flux d’inventaire](stop-job.md)
 >* [Statuts des données générées à partir de flux](propagated-data-status.md)
-

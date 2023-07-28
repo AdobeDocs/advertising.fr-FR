@@ -1,7 +1,9 @@
 ---
 title: Suppression d’un modèle d’alerte personnalisé
 description: Découvrez comment supprimer vos modèles d’alerte.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7044ee80-ad90-4fad-8443-300f5ff0cee7
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -30,4 +32,3 @@ Vous ne pouvez supprimer que les modèles d’alerte que vous avez créés.
 >* [Paramètres du modèle d’alerte personnalisé](alert-template-settings.md)
 >* [Affichage d’alertes personnalisées](alert-view.md)
 >* [Exporter des données pour des alertes personnalisées](alert-export-data.md)
-

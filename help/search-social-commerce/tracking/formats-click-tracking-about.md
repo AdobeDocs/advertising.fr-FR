@@ -1,7 +1,9 @@
 ---
 title: À propos des formats d’URL de suivi des clics pour le service de suivi de conversion Adobe Advertising
 description: Découvrez les formats de suivi des clics pour les réseaux publicitaires pris en charge.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 12148caf-fde6-4ac2-b8b4-222409895dd7
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # À propos des formats d’URL de suivi des clics pour le service de suivi de conversion Adobe Advertising
 
-Les modèles de suivi, les suffixes de page d’entrée (suffixes d’URL finales) et les URL de destination pour les comptes publicitaires et les campagnes qui utilisent le service de suivi de conversion Advertising Adobe ont le format suivant :
+Les modèles de suivi, les suffixes de page d’entrée (suffixes d’URL finales) et les URL de destination pour les comptes publicitaires et les campagnes qui utilisent le service de suivi de conversion d’Adobe Advertising ont le format suivant :
 
 `http://pixel.everesttech.net/<advertiser_ID>/<token passing parameter>?ev_sid=<ad network ID>&<tracking ID>&url=<the landing page>`
 
@@ -43,4 +45,3 @@ Consultez les pages distinctes indiquant la variable [[!DNL Baidu] formats](form
 >* [Formats de suivi des clics pour les publicités sponsorisées sur [!DNL Yahoo! Japan Ads]](formats-click-tracking-yahoo-japan.md)
 >* [Formats de suivi des clics pour les publicités sponsorisées sur [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)
 >* [Formats de suivi des clics pour les publicités sponsorisées sur [!DNL Yandex]](formats-click-tracking-yandex.md)
-

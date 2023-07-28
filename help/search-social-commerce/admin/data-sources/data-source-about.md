@@ -3,7 +3,8 @@ title: A propos de la synchronisation [!DNL Google Analytics] mesures de convers
 description: En savoir plus sur la synchronisation [!DNL Google Analytics] mesures de conversion pour l’optimisation et la création de rapports.
 role: User, Admin
 exl-id: 0c263ced-3774-4d4b-9d61-65289cd74027
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -20,15 +21,15 @@ Search, Social et Commerce peuvent synchroniser les mesures de conversion pour u
 
 L’ensemble de l’utilisation de l’API pour les transferts de données est évalué dans un projet dans le [!DNL Google Analytics] compte . Vous pouvez afficher vos quotas pour ce projet dans [la valeur [!DNL Google API Console]](https://console.developers.google.com/apis/api/analytics-json.googleapis.com/quotas). Voir [!DNL Google Analytics] documentation pour plus d’informations [Quotas et limites d’appels pour les demandes d’API de création de rapports](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
 
-Les étapes suivantes décrivent le processus de synchronisation des données de conversion à partir de [!DNL Google Analytics].
+Les étapes suivantes décrivent le processus de synchronisation des données de conversion depuis [!DNL Google Analytics].
 
 1. [Effectuez les tâches préalables requises](data-source-prerequisites.md)
 
-   * Implémentation d’un jeton publicitaire Adobe (`ef_id` paramètre de chaîne de requête) dans les URL de la page d’entrée pour tous les comptes publicitaires applicables.
+   * Mise en oeuvre d’un jeton d’Adobe Advertising (`ef_id` paramètre de chaîne de requête) dans les URL de la page d’entrée pour tous les comptes publicitaires applicables.
 
    * Capturer le jeton d’Adobe Advertising (`ef_id` paramètre de chaîne de requête) dans un [!DNL Custom Dimension] in [!DNL Google Analytics].
 
-1. (Administrateur de compte de l’agence, gestionnaire de compte de l’agence, [!DNL Adobe] gestionnaire de compte et utilisateurs administrateurs uniquement) [Création d’une source de données par [!DNL Google Analytics] combinaison de compte, de propriété et d’affichage](data-source-configure.md).
+1. (Administrateur de compte de l’agence, gestionnaire de compte de l’agence, [!DNL Adobe] gestionnaire de compte et utilisateurs administrateurs uniquement) [Création d’une source de données par [!DNL Google Analytics] combinaison de compte, propriété et vue](data-source-configure.md).
 
    Pour intégrer des mesures pour plusieurs propriétés ou pour plusieurs vues pour une seule propriété, configurez une source de données distincte pour chacune d’elles.
 
@@ -37,7 +38,7 @@ Les étapes suivantes décrivent le processus de synchronisation des données de
 >[!MORELIKETHIS]
 >
 >* [Conditions préalables à la configuration d’un [!DNL Google Analytics] source de données](data-source-prerequisites.md)
->* [Configurez une [!DNL Google Analytics] vue en tant que source de données](data-source-configure.md)
+>* [Configurez une [!DNL Google Analytics] vue comme source de données](data-source-configure.md)
 >* [Modifier une [!DNL Google Analytics] source de données](data-source-edit.md)
 >* [Suspension de la synchronisation d’une source de données](data-source-pause.md)
 >* [Réauthentifier un [!DNL Google Analytics] source de données](data-source-reauthenticate.md)

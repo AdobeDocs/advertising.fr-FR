@@ -1,7 +1,9 @@
 ---
 title: Affectation de campagnes à un portfolio
-description: Découvrez comment inclure des campagnes dans des portfolios à des fins d’optimisation.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Découvrez comment inclure des campagnes dans des portfolios pour l’optimisation.
+exl-id: ecf9f45f-5e90-4acb-a880-21fd8c96499d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 L’affectation d’une campagne à un portefeuille optimisé permet à Search, Social et Commerce d’optimiser les offres et les budgets de campagne pour les mots-clés et les publicités de la campagne. Vous pouvez affecter des campagnes à un portfolio à partir de la fonction [!UICONTROL Campaigns] lors de la création du portfolio ou de la modification des paramètres d’un portfolio.
 
-Tous les types de campagnes et réseaux publicitaires ne sont pas éligibles à l’optimisation ; voir une liste de [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) que vous pouvez inclure dans un portfolio. De plus, vérifiez la prise en charge de l’optimisation pour chaque stratégie d’offre de campagne en consultant &quot;Types d’Portfolios éligibles par stratégie d’offre de campagne&quot; dans le chapitre &quot;Gestion des Portfolios&quot; du Guide d’optimisation, disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Tous les types de campagne et réseaux publicitaires ne sont pas éligibles à l’optimisation ; reportez-vous à la liste [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) que vous pouvez inclure dans un portfolio. De plus, vérifiez la prise en charge de l’optimisation pour chaque stratégie d’offre de campagne en consultant &quot;Types d’Portfolios éligibles par stratégie d’offre de campagne&quot; dans le chapitre &quot;Gestion des Portfolios&quot; du Guide d’optimisation, disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!NOTE]
 >
@@ -45,12 +47,12 @@ Tous les types de campagnes et réseaux publicitaires ne sont pas éligibles à 
       1. Développez un groupe de portefeuille dans ses portfolios enfants en cliquant sur [!UICONTROL Portfolio Group] nom.
 
       1. Sélectionnez le portfolio.
+
    * Pour rechercher un portfolio :
 
       1. Saisissez au moins trois lettres dans le champ de saisie.
 
       1. Dans les résultats de la recherche, cliquez sur **[!UICONTROL Select]** en regard du nom du portfolio.
-
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Additional Details]** et éventuellement saisir un nom et une description du projet.
 
@@ -66,7 +68,7 @@ Tous les types de campagnes et réseaux publicitaires ne sont pas éligibles à 
 
 1. Dans le menu de gauche, cliquez sur **[!UICONTROL Campaigns]**, puis modifiez les campagnes du portfolio :
 
-   * Pour ajouter toutes les campagnes filtrées dans le [!UICONTROL Available Campaigns] , cliquez sur ![Affecter toutes les campagnes à un portfolio](/help/search-social-commerce/assets/arrow-assign-all.png "Affecter toutes les campagnes à un portfolio").
+   * Pour ajouter toutes les campagnes filtrées dans la variable [!UICONTROL Available Campaigns] , cliquez sur ![Affecter toutes les campagnes à un portfolio](/help/search-social-commerce/assets/arrow-assign-all.png "Affecter toutes les campagnes à un portfolio").
 
    * Pour ajouter une campagne individuelle dans le [!UICONTROL Available Campaigns] , cliquez sur l’opération, puis faites glisser l’opération dans la section [!UICONTROL Assigned Campaigns] liste ou clic ![Affecter une campagne à un portfolio](/help/search-social-commerce/assets/arrow-assign.png "Affecter une campagne à un portfolio").
 
@@ -79,4 +81,3 @@ Tous les types de campagnes et réseaux publicitaires ne sont pas éligibles à 
 >[!MORELIKETHIS]
 >
 >* [Supprimer des campagnes d’un portfolio](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
-

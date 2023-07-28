@@ -1,7 +1,9 @@
 ---
 title: Filtrage des données par période
 description: Découvrez comment utiliser le filtre de période globale.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e67e843a-1a73-4ab1-9ef7-c97afeb999f6
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,18 +24,17 @@ Lorsque vous enregistrez une plage de dates spécifique pour une vue par défaut
 >* Pour afficher des données antérieures, accédez à la [[!UICONTROL Reports] view](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) et exécutez un rapport de base.
 >* Vous pouvez également enregistrer une période pour une [vue par défaut ou vue personnalisée](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
-
 ## Modifier le filtre de date globale dans les vues de campagne
 
 1. Au-dessus de tout tableau de données dans Rechercher > Campagnes > Campagnes, cliquez sur la période actuelle.
 
 1. Dans le **[!UICONTROL Date Range]** , indiquez la plage :
 
-   * Pour une plage de paramètres prédéfinis : Effectuez une sélection dans la liste des incréments de temps courants, allant de *[!UICONTROL Today]* to *[!UICONTROL Last 180 Days]*. La valeur par défaut est *[!UICONTROL Yesterday]*.
+   * Pour une période prédéfinie : effectuez une sélection dans la liste des incréments de temps communs, allant de *[!UICONTROL Today]* to *[!UICONTROL Last 180 Days]*. La valeur par défaut est *[!UICONTROL Yesterday]*.
 
-   * Pour une plage spécifique : Sélectionner **[!UICONTROL Custom Date Range]** , puis spécifiez la date de début et la date de fin.
+   * Pour une plage spécifique : sélectionnez **[!UICONTROL Custom Date Range]** , puis spécifiez la date de début et la date de fin.
 
-      Entrez des dates au format MM/JJ/AAAA ou MM-JJ-AAAA ou cliquez sur ![Icône Calendrier](/help/search-social-commerce/assets/calendar.png "Icône Calendrier") en regard de chaque champ pour ouvrir le calendrier et sélectionner une date.
+     Entrez des dates au format MM/JJ/AAAA ou MM-JJ-AAAA ou cliquez sur ![Icône Calendrier](/help/search-social-commerce/assets/calendar.png "Icône Calendrier") en regard de chaque champ pour ouvrir le calendrier et sélectionner une date.
 
 1. (Facultatif) Comparez les données de la période spécifiée avec celles d’une deuxième période :
 
@@ -45,7 +46,7 @@ Lorsque vous enregistrez une plage de dates spécifique pour une vue par défaut
 
    1. Choisissez comment exprimer la différence entre les données des deux périodes sélectionnées dans le &quot;\[&quot;_Champ de données_\] Différence&quot; :
 
-      * *[!UICONTROL Variance]* (valeur par défaut) : Affiche la différence sous la forme d’une valeur numérique.
+      * *[!UICONTROL Variance]* (valeur par défaut) : affiche la différence sous la forme d’une valeur numérique.
 
       * *[!UICONTROL % Change]:*  Affiche la différence en pourcentage.
 

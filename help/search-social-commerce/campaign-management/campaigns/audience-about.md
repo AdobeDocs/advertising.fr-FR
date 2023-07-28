@@ -1,7 +1,9 @@
 ---
 title: A propos des audiences
-description: En savoir plus sur les options de suivi, de création et de gestion [!DNL Google Ads] et [!DNL Microsoft® Advertising] audiences.
-source-git-commit: 0b77c54ee9214021c841b4c1cca0b3439ea71f6f
+description: Découvrez les options de suivi, de création et de gestion [!DNL Google Ads] et [!DNL Microsoft® Advertising] audiences.
+exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -18,13 +20,13 @@ Vous pouvez également créer et gérer des audiences à l’aide de segments ou
 
 * **Adobe des segments d’audience :** Les annonceurs disposant de comptes Adobe Audience Manager ou Adobe Analytics ouverts peuvent créer [!DNL Google Ads] les clients correspondent aux audiences de leurs [!DNL Adobe] segments :
 
-   * (Publicitaires avec [!DNL Analytics] les comptes qui n’ont pas non plus d’Audience Manager) Vous pouvez créer des [!DNL Google Ads] des audiences de correspondance client à l’aide d’identifiants utilisateur provenant de [!DNL Analytics] segments partagés avec Adobe Experience Cloud.
+   * (Publicitaires avec [!DNL Analytics] les comptes qui ne sont pas non plus Audiences Manager) Vous pouvez créer des [!DNL Google Ads] des audiences de correspondance client à l’aide d’identifiants utilisateur provenant de [!DNL Analytics] segments partagés avec Adobe Experience Cloud.
 
    * (Publicitaires disposant de comptes d’Audience Manager) Vous pouvez créer des [!DNL Google Ads] les clients correspondent à des audiences à l’aide d’identifiants d’utilisateur provenant de segments d’Audience Manager dont la destination est Search, Social et Commerce. Cela peut inclure les segments Adobe Analytics publiés sur Adobe Experience Cloud et les segments créés à l’aide de la bibliothèque d’audiences Adobe Experience Cloud.
 
-  Pour créer des audiences de correspondance client, le [!DNL Google Ads] account doit être [éligible pour une correspondance personnalisée](https://support.google.com/adspolicy/answer/6299717) et ont choisi [segments d’ID utilisateur](https://support.google.com/google-ads/answer/9199250). En outre, le compte de l’annonceur dans Search, Social et Commerce doit être configuré pour permettre la création d’audiences de correspondance client.<!-- For Analytics audiences: Analytics Only Integration. For Audience Manager, Enable CM/CRM option) -->
+  Pour créer des audiences de correspondance client, le [!DNL Google Ads] account doit être [éligible pour une correspondance personnalisée](https://support.google.com/adspolicy/answer/6299717) et ont choisi pour [segments d’ID utilisateur](https://support.google.com/google-ads/answer/9199250). En outre, le compte de l’annonceur dans Search, Social et Commerce doit être configuré pour permettre la création d’audiences de correspondance client.<!-- For Analytics audiences: Analytics Only Integration. For Audience Manager, Enable CM/CRM option) -->
 
-  [!DNL Adobe] les données de segment et les fichiers de synchronisation de cookies pour les audiences basées sur les données client sont synchronisés avec [!DNL Google Ads] tous les jours.
+  [!DNL Adobe] les données de segment et les fichiers de synchronisation de cookies pour les audiences basées sur les données client sont synchronisés avec [!DNL Google Ads] quotidien.
 
 * **Les listes de messagerie Adobe Campaign sont les suivantes :** Votre équipe de compte d’Adobe peut vous aider à configurer un workflow pour créer et mettre à jour un [!DNL Google Ads] audience de correspondance de client à partir d’une liste de courriers électroniques dans [!DNL Campaign].
 

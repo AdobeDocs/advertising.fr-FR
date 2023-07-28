@@ -1,7 +1,9 @@
 ---
 title: Suppression de flux de rapports de feuille de calcul
 description: Découvrez comment supprimer des flux de feuille de calcul.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: fbe8a578-8bcb-4755-96d0-e82aab313e5e
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -33,4 +35,3 @@ ht-degree: 0%
 >* [Paramètres du flux de rapports de feuille de calcul](spreadsheet-feed-settings.md)
 >* [Affichage ou enregistrement d’un fichier de flux de rapport de feuille de calcul](spreadsheet-feed-view-or-save.md)
 >* [Actualisation manuelle des flux de rapports de feuille de calcul](spreadsheet-feed-refresh.md)
-

@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Baidu] paramètres de campagne"
+title: '''[!DNL Baidu] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Baidu] campagnes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 842df637-e7dc-4493-bcdb-a29b478cd350
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -16,12 +18,12 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** Nom de campagne unique dans le compte. La longueur maximale est de 15 caractères codés sur deux octets.
+**[!UICONTROL Campaign Name]:** Nom de campagne unique dans le compte. La longueur maximale est de 15 caractères sur deux octets.
 
 **[!UICONTROL Ad Serving]:**
 Fréquence à laquelle le moteur de recherche diffuse vos principales publicités les unes par rapport aux autres au sein d’un groupe publicitaire :
 
-* *[!UICONTROL Rotate]* (valeur par défaut pour les nouvelles campagnes) : Chacune de vos publicités a la même probabilité d’entrer dans la vente aux enchères.
+* *[!UICONTROL Rotate]* (valeur par défaut pour les nouvelles campagnes) : chacune de vos publicités a la même probabilité d’accès aux enchères publicitaires.
 
 * *[!UICONTROL Optimize]:*  Le réseau publicitaire favorise les publicités qui ont de meilleurs résultats. Cela peut être incompatible avec vos objectifs d’entreprise et d’optimisation.
 
@@ -82,4 +84,3 @@ Fréquence à laquelle le moteur de recherche diffuse vos principales publicité
 >[!MORELIKETHIS]
 >
 >* [Gestion des campagnes](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

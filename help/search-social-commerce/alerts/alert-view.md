@@ -1,7 +1,9 @@
 ---
 title: Afficher une alerte personnalisée
 description: Découvrez comment répertorier vos instances d’alerte.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a2ba2a8c-7334-4a6e-9873-8a4f59b9717c
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -28,17 +30,17 @@ Si vous souhaitez modifier les campagnes ou les entités de campagne identifiée
 
       * (Facultatif) Pour ouvrir une vue filtrée des entités dans la vue de gestion de campagne appropriée, cliquez sur **[!UICONTROL Live View]**.
 
-         Par exemple, pour une alerte de niveau campagne, cette action ouvre la variable [!UICONTROL Campaigns] afficher avec une liste des campagnes qui répondent aux critères d’alerte.
+        Par exemple, pour une alerte de niveau campagne, cette action ouvre la variable [!UICONTROL Campaigns] afficher avec une liste des campagnes qui répondent aux critères d’alerte.
 
-         >[!NOTE]
-         >
-         >Si Search, Social et Commerce ont reçu des mises à jour de recettes ou que le réseau publicitaire a mis à jour les mesures de trafic depuis le déclenchement de l’alerte, les valeurs des mesures dans la vue Gestion de campagne peuvent différer des valeurs des mesures dans l’alerte d’origine.
+        >[!NOTE]
+        >
+        >Si Search, Social et Commerce ont reçu des mises à jour de recettes ou que le réseau publicitaire a mis à jour les mesures de trafic depuis le déclenchement de l’alerte, les valeurs des mesures dans la vue Gestion de campagne peuvent différer des valeurs des mesures dans l’alerte d’origine.
 
       * (Facultatif) Pour télécharger le rapport d’alerte, cliquez sur **[!UICONTROL Download]** et sélectionnez le format de fichier.
 
 ## Afficher une alerte dans la vue d’entité appropriée
 
-1. (Dans la vue d’entité appropriée) Ouvrez la vue de gestion de campagne pour le type d’entité ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads]ou [!UICONTROL Product Groups]).
+1. (Dans la vue d’entité appropriée) Ouvrez la vue de gestion de campagne pour le type d’entité ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads], ou [!UICONTROL Product Groups]).
 
 1. Dans le coin supérieur droit de la page, cliquez sur ![Notifications](/help/search-social-commerce/assets/notifications-panel.png "Notifications")
 
@@ -54,11 +56,11 @@ Si vous souhaitez modifier les campagnes ou les entités de campagne identifiée
 
       * (Facultatif) Pour ouvrir une vue filtrée des entités dans la vue de gestion de campagne appropriée, à partir de laquelle vous pouvez interagir avec les enregistrements d’entité, cliquez sur **[!UICONTROL Live View]**.
 
-         Par exemple, pour une alerte de niveau campagne, cette action ouvre la variable [!UICONTROL Campaigns] afficher avec une liste des campagnes qui répondent aux critères d’alerte.
+        Par exemple, pour une alerte de niveau campagne, cette action ouvre la variable [!UICONTROL Campaigns] afficher avec une liste des campagnes qui répondent aux critères d’alerte.
 
-         >[!NOTE]
-         >
-         >Si Search, Social et Commerce ont reçu des mises à jour de recettes ou que le réseau publicitaire a mis à jour les mesures de trafic depuis le déclenchement de l’alerte, les valeurs des mesures dans la vue Gestion de campagne peuvent différer des valeurs des mesures dans l’alerte d’origine.
+        >[!NOTE]
+        >
+        >Si Search, Social et Commerce ont reçu des mises à jour de recettes ou que le réseau publicitaire a mis à jour les mesures de trafic depuis le déclenchement de l’alerte, les valeurs des mesures dans la vue Gestion de campagne peuvent différer des valeurs des mesures dans l’alerte d’origine.
 
       * (Facultatif) Pour télécharger le rapport d’alerte, cliquez sur **[!UICONTROL Download]** et sélectionnez le format de fichier.
 
@@ -73,4 +75,3 @@ Si vous souhaitez modifier les campagnes ou les entités de campagne identifiée
 >* [Suppression d’un modèle d’alerte personnalisé](alert-template-delete.md)
 >* [Paramètres du modèle d’alerte personnalisé](alert-template-settings.md)
 >* [Exporter des données pour des alertes personnalisées](alert-export-data.md)
-

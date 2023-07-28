@@ -1,18 +1,20 @@
 ---
-title: "[!UICONTROL Campaign Assist Report]"
+title: '[!UICONTROL Campaign Assist Report]'
 description: En savoir plus sur les [!UICONTROL Campaign Assist Report].
-source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
+exl-id: 7fbc9c17-c77d-485b-8d51-5e5a153d7a2b
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
 
 ---
 
-# Le [!UICONTROL Campaign Assist Report]
+# La variable [!UICONTROL Campaign Assist Report]
 
 *Annonceurs avec suivi des clics Search, Social et Commerce et suivi des conversions à partir d’Adobe Advertising, Adobe Analytics (avec un [!DNL Analytics] intégration) ou fournie dans les flux à l’aide d’un jeton (`ef_id`) uniquement*
 
-Le [!UICONTROL Campaign Assist Report] indique les campagnes qui ont contribué au processus de conversion. Le rapport indique comment chaque modèle de campagnes dont les publicités ont entraîné une ou plusieurs conversions a contribué à vos conversions globales. Vous pouvez, par exemple, voir le nombre de conversions survenues lorsque les utilisateurs ont vu une publicité de la campagne A, puis cliqué sur une publicité de la campagne B, puis passé une commande. De même, vous pouvez déterminer le nombre de conversions survenues après l’interaction des utilisateurs avec des publicités issues de plus de 10 campagnes.
+La variable [!UICONTROL Campaign Assist Report] indique les campagnes qui ont contribué au processus de conversion. Le rapport indique comment chaque modèle de campagnes dont les publicités ont entraîné une ou plusieurs conversions a contribué à vos conversions globales. Vous pouvez, par exemple, voir le nombre de conversions survenues lorsque les utilisateurs ont vu une publicité de la campagne A, puis cliqué sur une publicité de la campagne B, puis passé une commande. De même, vous pouvez déterminer le nombre de conversions survenues après l’interaction des utilisateurs avec des publicités issues de plus de 10 campagnes.
 
 Les résultats du rapport incluent des données agrégées pour chaque modèle de campagne dans le chemin de conversion (jusqu’aux N premières campagnes) pour les événements qui se sont produits dans le rapport de l’annonceur. [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j). Si, par exemple, vous sélectionnez une taille de chemin de cinq (5), le rapport comprend des chemins de conversion comprenant jusqu’à cinq campagnes au plus tôt, avec une ligne pour chaque modèle de campagne dont les événements ont été suivis. Chaque ligne présente un modèle de campagne, y compris la première campagne dans le chemin et la dernière campagne qui a généré des conversions (même si la dernière campagne est en dehors de la taille de chemin spécifiée). Par défaut, les lignes sont dans l’ordre croissant en fonction du nombre de campagnes dans le chemin.
 
@@ -32,14 +34,14 @@ Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colo
 
 | Colonne | Par défaut ? | Description |
 | ---- | ---- | ---- |
-| [!UICONTROL 1st Campaign] to [!UICONTROL 5th Campaign] | Par défaut | Les cinq premières campagnes dans le chemin de conversion qui se sont produites dans le [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j).<br><br>Si vous avez inclus l’une des options de rapport pour indiquer le réseau publicitaire, le nom du compte ou le type d’événement après le nom de l’entité, ces informations sont incluses après le nom de la campagne (par exemple : `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
+| [!UICONTROL 1st Campaign] to [!UICONTROL 5th Campaign] | Par défaut | Les cinq premières campagnes dans le chemin de conversion qui se sont produites dans le [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j).<br><br>Si vous avez inclus l’une des options de rapport pour indiquer le réseau publicitaire, le nom du compte ou le type d’événement après le nom de l’entité, ces informations sont incluses après le nom de la campagne (par exemple `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | [!UICONTROL Path Size] | Par défaut | Le nombre de campagnes dans le chemin de conversion qui se sont produites dans le rapport de l’annonceur [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Campaign] | Par défaut | Première campagne du chemin de conversion. |
-| [!UICONTROL Last Campaign] | Par défaut | La dernière campagne qui a généré des conversions (même si le dernier mot-clé est en dehors de la taille de chemin spécifiée).<br><br>Si vous avez inclus l’une des options de rapport pour indiquer le réseau publicitaire, le nom du compte ou le type d’événement après le nom de l’entité, ces informations sont incluses après le nom de la campagne (par exemple : `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
+| [!UICONTROL Last Campaign] | Par défaut | La dernière campagne qui a généré des conversions (même si le dernier mot-clé est en dehors de la taille de chemin spécifiée).<br><br>Si vous avez inclus l’une des options de rapport pour indiquer le réseau publicitaire, le nom du compte ou le type d’événement après le nom de l’entité, ces informations sont incluses après le nom de la campagne (par exemple `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | \[Mesures personnalisées (dérivées) spécifiques aux annonceurs\] | Personnalisé | La valeur d’une mesure personnalisée que vous avez créée et calculée à partir de mesures existantes. |
 | \[Propriétés de transaction spécifiques aux annonceurs\] | Personnalisé | Nombre de conversions pour une propriété de transaction ou une mesure d’engagement du site spécifiée. |
 | [!UICONTROL % of Total] \[propriété de transaction\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie de rapport pour chaque propriété de transaction incluse) Le nombre de conversions pour une propriété de transaction spécifiée qui a résulté du modèle de campagne. |
-| [!UICONTROL 6th Campaign] to [!UICONTROL 20th Campaign] | Personnalisé | Les sixième à 20 campagnes dans le chemin de conversion qui s’est produit dans le rapport de l’annonceur [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j).<br><br>Si vous avez inclus l’une des options de rapport pour indiquer le réseau publicitaire, le nom du compte ou le type d’événement après le nom de l’entité, ces informations sont incluses après le nom de la campagne (par exemple : `"<"campaign name> [Baidu] [Account1] [click]`&quot;). |
+| [!UICONTROL 6th Campaign] to [!UICONTROL 20th Campaign] | Personnalisé | Les sixième à 20 campagnes dans le chemin de conversion qui s’est produit dans le rapport de l’annonceur [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j).<br><br>Si vous avez inclus l’une des options de rapport pour indiquer le réseau publicitaire, le nom du compte ou le type d’événement après le nom de l’entité, ces informations sont incluses après le nom de la campagne (par exemple `"<"campaign name> [Baidu] [Account1] [click]`&quot;). |
 | [!UICONTROL Avg. Conv. Latency (First Campaign To Conversion)] \[propriété de transaction\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport pour chaque propriété de transaction incluse) Latence moyenne en jours entre le premier événement (dans la première campagne) et une conversion. |
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[propriété de transaction\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport) Latence moyenne en jours entre le dernier événement (de la dernière campagne) et une conversion. |
 | [!UICONTROL EF Campaign ID] | Personnalisé | Identifiant numérique attribué à la campagne par Search, Social et Commerce. |
@@ -53,7 +55,7 @@ Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colo
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports d’aide](assist-report-about.md)
->* [Le [!UICONTROL Channel Assist Report]](channel-assist-report.md)
->* [Le [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
+>* [La variable [!UICONTROL Channel Assist Report]](channel-assist-report.md)
+>* [La variable [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Aide aux paramètres des rapports](assist-report-settings.md)
 >* [Générer un rapport d’assistance](assist-report-generate.md)

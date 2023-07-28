@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Baidu] Paramètres des publicités textuelles"
+title: '''[!DNL Baidu] Paramètres de publicité texte'
 description: Référencez les paramètres pour [!DNL Baidu] annonces textuelles.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 68165d1f-a7ef-4b2a-ae5d-36190fb49d77
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -44,4 +46,3 @@ ht-degree: 0%
 >
 >* [A propos des publicités](ad-about.md)
 >* [Gestion des publicités](ad-manage.md)
-

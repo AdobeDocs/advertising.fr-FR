@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft Advertising] paramètres de mots-clés"
+title: '''[!DNL Microsoft Advertising] paramètres de mots-clés'
 description: Référencez les paramètres pour [!DNL Microsoft Advertising] mots-clés.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 248f45c7-8b8c-46fe-a65a-66c50c630044
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -20,9 +22,8 @@ Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés. Séparez plusieurs mot
 
 >[!NOTE]
 >
->* Vous pouvez créer des mots-clés négatifs à partir du [!UICONTROL Keywords] > [!UICONTROL Negatives] afficher et dans les paramètres du groupe publicitaire et de la campagne.
+>* Vous pouvez créer des mots-clés négatifs à partir de la variable [!UICONTROL Keywords] > [!UICONTROL Negatives] afficher et dans les paramètres du groupe publicitaire et de la campagne.
 >* Modification d’un [!DNL Microsoft Advertising] Le mot-clé supprime le mot-clé existant et en crée un nouveau avec un nouvel identifiant de mot-clé. Toutefois, le fait de modifier le type de correspondance ne supprime pas le mot-clé existant.
-
 
 **[!UICONTROL Status]:** L’état d’affichage du mot-clé : *Principal* ou *En pause*. La valeur par défaut des nouveaux mots-clés est *Principal*.
 
@@ -53,4 +54,3 @@ Ce champ peut éventuellement inclure la variable `{Param2}` et `{Param3}` varia
 >[!MORELIKETHIS]
 >
 >* [Gestion des mots-clés](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

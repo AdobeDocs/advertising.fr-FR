@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] paramètres du groupe publicitaire"
+title: '''[!DNL Google Ads] paramètres du groupe publicitaire'
 description: Référencez les paramètres pour [!DNL Google Ads] groupes publicitaires.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 00aaa936-796f-4e22-9bee-4bb5121cd887
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -12,13 +14,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Adgroup Details]
 
-**[!UICONTROL Ad Group Name]:** Nom unique du groupe d’annonces dans la campagne. La longueur maximale est de 255 caractères codés sur deux octets.
+**[!UICONTROL Ad Group Name]:** Nom unique du groupe d’annonces dans la campagne. La longueur maximale est de 255 caractères sur deux octets.
 
-**[!UICONTROL Status]:** État d’affichage du groupe publicitaire : *Principal* ou *En pause*. La valeur par défaut pour les nouveaux groupes d’annonces est *Principal*.
+**[!UICONTROL Status]:** État d’affichage du groupe publicitaire : *Principal* ou *En pause*. La valeur par défaut pour les nouveaux groupes publicitaires est *Principal*.
 
 **[!UICONTROL Ad Group Type]:** (Campagnes publicitaires de recherche dynamique étendues uniquement) Type de groupe publicitaire :
 
-* *[!UICONTROL Search Standard]* (valeur par défaut) : Pour les publicités standard.
+* *[!UICONTROL Search Standard]* (valeur par défaut) : pour les publicités standard.
 
 * *[!UICONTROL Search Dynamic]:* Pour les annonces de recherche dynamique.
 
@@ -28,11 +30,11 @@ ht-degree: 0%
 
 * *[!UICONTROL Rotate forever]:*   Chacune de vos publicités entre plus régulièrement dans la vente aux enchères, ce qui permet à Search, Social et Commerce de noter vos publicités non seulement au taux de clics publicitaires, mais également sur les conversions.
 
-* *[!UICONTROL Use campaign setting]*(valeur par défaut pour les nouveaux groupes d’annonces) : Utilise le paramètre de rotation d’annonces existant au niveau de la campagne. **Remarque :** Le paramètre au niveau de la campagne n’est pas visible dans Search, Social et Commerce.
+* *[!UICONTROL Use campaign setting]*(valeur par défaut pour les nouveaux groupes d’annonces) : permet d’utiliser le paramètre de rotation d’annonces existant au niveau de la campagne. **Remarque :** Le paramètre au niveau de la campagne n’est pas visible dans Search, Social et Commerce.
 
-Si la campagne utilise une stratégie d’offre d’enchères dynamiques (telle que [!UICONTROL Target CPA], [!UICONTROL Target ROAS]ou [!UICONTROL Enhanced CPC]), puis [!DNL Google Ads] définit automatiquement l’option sur &quot;[!UICONTROL Optimize].&quot;
+Si la campagne utilise une stratégie d’offre d’enchères dynamiques (telle que [!UICONTROL Target CPA], [!UICONTROL Target ROAS], ou [!UICONTROL Enhanced CPC]), puis [!DNL Google Ads] définit automatiquement l’option sur &quot;[!UICONTROL Optimize].&quot;
 
-**[!UICONTROL Custom Bid Level]:** (Campagnes ciblant uniquement le réseau d’affichage) Comment proposer : par *[!UICONTROL Ad Group]* (valeur par défaut), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (Intérêts et remarketing dans Google Ads), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (site web), *[!UICONTROL Unknown]* ou *[!UICONTROL Vertical]*.
+**[!UICONTROL Custom Bid Level]:** (Campagnes ciblant le réseau d’affichage uniquement) Comment enchérir : par *[!UICONTROL Ad Group]* (valeur par défaut), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (Intérêts et remarketing dans Google Ads), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (site web), *[!UICONTROL Unknown]*, ou *[!UICONTROL Vertical]*.
 
 >[!NOTE]
 >
@@ -40,16 +42,15 @@ Si la campagne utilise une stratégie d’offre d’enchères dynamiques (telle 
 >* Lorsque vous enchérissez par âge, par sexe, par intérêt et par liste, ou verticalement pour des campagnes dans des portefeuilles, la fonctionnalité d’optimisation n’optimise pas les offres pour la dimension. En outre, toutes les attributions sont appliquées au groupe publicitaire.
 >* Les publicités sur le réseau de recherche utilisent toujours des offres sur les mots-clés.
 
-
 ## [!UICONTROL Budget Options]
 
 <!-- **[!UICONTROL Bid]:** -->
 
 {{$include /help/_includes/bid-ad-group.md}}
 
-**[!UICONTROL Target CPA]:** (Campagnes avec [!UICONTROL Target CPA] les enchères; (facultatif) Coût cible par acquisition (CPA) pour le groupe publicitaire. Cette valeur remplace la cible au niveau de la campagne.
+**[!UICONTROL Target CPA]:** (Campagnes avec [!UICONTROL Target CPA] enchères ; facultatif) Coût cible par acquisition (CPA) pour le groupe publicitaire. Cette valeur remplace la cible au niveau de la campagne.
 
-**[!UICONTROL Target ROAS]:** (Campagnes avec [!UICONTROL Target ROAS] les enchères; (facultatif) Le retour sur dépenses publicitaires cible (RSDP) du groupe publicitaire, en pourcentage. Cette valeur remplace la cible au niveau de la campagne.
+**[!UICONTROL Target ROAS]:** (Campagnes avec [!UICONTROL Target ROAS] enchères ; facultatif) Cible du retour sur dépenses publicitaires (ROAS) pour le groupe publicitaire, en pourcentage. Cette valeur remplace la cible au niveau de la campagne.
 
 ## [!UICONTROL Ad Group Targeting]
 
@@ -88,4 +89,3 @@ Si la campagne utilise une stratégie d’offre d’enchères dynamiques (telle 
 >[!MORELIKETHIS]
 >
 >* [Gestion des groupes d’annonces](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-

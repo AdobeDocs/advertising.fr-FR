@@ -1,7 +1,9 @@
 ---
 title: Mise en oeuvre [!DNL Naver] comptes de suivi uniquement
 description: Découvrez comment configurer des campagnes de suivi pour vos [!DNL Naver] afin que vous puissiez suivre, créer des rapports et visualiser les performances des publicités que vous achetez directement depuis le réseau publicitaire.
-source-git-commit: c4848da6c5489a5128a0424eef6a12f2c51caa12
+exl-id: 8013d4e8-0b4f-41a7-9c1b-10c55349930f
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -28,7 +30,7 @@ Vous pouvez effectuer le suivi des mesures de performances sur l’ensemble de v
 
       [!DNL Naver] ne fournit pas de prise en charge d’API pour charger les paramètres de suivi vers le réseau publicitaire. Vous pouvez toutefois générer des paramètres de suivi à l’aide de feuilles d’envoi groupées et les ajouter manuellement au réseau publicitaire (par étape 2). Pour générer les paramètres de suivi, vous devez utiliser le[!UICONTROL EF Redirect]&quot; méthode de suivi. Vous pouvez éventuellement ajouter les paramètres d’ajout de votre choix.
 
-      Search, Social et Commerce comprennent automatiquement le paramètre `ev_cl={ef_uniqueid}` dans les URL de suivi générées dans les feuilles d’envoi groupées du compte. Cet identifiant unique est utilisé pour faire correspondre les données de campagne à n’importe quel coût et cliquer sur les données que vous chargez.
+      Search, Social et Commerce incluent automatiquement le paramètre . `ev_cl={ef_uniqueid}` dans toutes les URL de suivi qu’elle génère dans les feuilles d’envoi groupées du compte. Cet identifiant unique est utilisé pour faire correspondre les données de campagne à n’importe quel coût et cliquer sur les données que vous chargez.
 
    1. Configurez les campagnes à suivre :
 
@@ -46,8 +48,9 @@ Vous pouvez effectuer le suivi des mesures de performances sur l’ensemble de v
 
 1. Configurez le suivi des campagnes :
 
-   1. Dans Search, Social et Commerce, [téléchargement d’un nouveau fichier de feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) à l’aide de l’option &quot;[!UICONTROL Generate Tracking URLs].&quot;
-   En utilisant le[!UICONTROL Generate Tracking URLs]&quot; renseigne la variable [!UICONTROL Destination URL] pour chaque mot-clé avec le code de suivi de recherche, Social et Commerce précédé du préfixe [!UICONTROL Base URL] .
+   1. Dans Search, Social et Commerce, [télécharger un nouveau fichier de feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) à l’aide de l’option &quot;[!UICONTROL Generate Tracking URLs].&quot;
+
+   En utilisant le[!UICONTROL Generate Tracking URLs]&quot; renseigne la variable [!UICONTROL Destination URL] pour chaque mot-clé avec le code de suivi Rechercher, Social et Commerce précédé du préfixe [!UICONTROL Base URL] .
 
    Voici un exemple de l’URL de destination avec suivi :
 
@@ -57,16 +60,15 @@ Vous pouvez effectuer le suivi des mesures de performances sur l’ensemble de v
 
       Vous pouvez ajouter les URL aux entités concernées en chargeant le fichier sur le réseau au sein de l’éditeur du réseau publicitaire. Dans ce cas, vous devrez peut-être supprimer certaines colonnes, en fonction des exigences de données du réseau. Sinon, vous devez saisir les URL manuellement sur le réseau.
 
-
 1. Téléchargez régulièrement des données sur les clics et les coûts agrégées quotidiennement à partir du réseau publicitaire pour les mots-clés ou les publicités de marque au niveau du groupe publicitaire dont vous effectuez le suivi, puis [charger les données de clics et de coûts](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md) pour rechercher, Social et Commerce dans le [format requis](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md).
 
    Incluez la hiérarchie complète du compte et toutes les mesures que vous souhaitez inclure. Search, Social et Commerce associe les données transférées aux données des campagnes existantes.
 
-1. (Facultatif) Si vous utilisez les balises du service de suivi de conversion Adobe Advertising dans vos pages web pour suivre les conversions qui ne sont pas suivies sur le réseau publicitaire, envoyez alors des fichiers de flux contenant des données de conversion agrégées quotidiennement à ajouter à vos campagnes de suivi.
+1. (Facultatif) Si vous utilisez les balises du service de suivi de conversion d’Adobe Advertising dans vos pages web pour suivre les conversions qui ne sont pas suivies sur le réseau publicitaire, envoyez alors des fichiers de flux contenant des données de conversion agrégées quotidiennement à ajouter à vos campagnes de suivi.
 
    Pour plus d’informations, contactez votre équipe de compte d’Adobe.
 
-Toutes les données de suivi chargées sont disponibles à partir de [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] dans le [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], et [!UICONTROL Keywords] vues. Il est également disponible pour les rapports dans la [!UICONTROL Insights & Reports] vue.
+Toutes les données de suivi transférées depuis [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] dans la fonction [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], et [!UICONTROL Keywords] vues. Il est également disponible pour les rapports dans la [!UICONTROL Insights & Reports] vue.
 
 >[!MORELIKETHIS]
 >
@@ -74,4 +76,3 @@ Toutes les données de suivi chargées sont disponibles à partir de [!UICONTROL
 >* [Chargement des mesures de trafic et de conversion pour [!DNL Naver] comptes de suivi uniquement](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
 >* [Exigences de données de mesure pour [!DNL Naver] comptes de suivi uniquement](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
 >* [Formats de suivi des clics pour [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
-

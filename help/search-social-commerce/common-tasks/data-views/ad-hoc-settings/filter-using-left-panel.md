@@ -1,7 +1,9 @@
 ---
 title: Filtrage des données à l’aide du panneau de navigation de gauche
 description: Découvrez comment filtrer les données à l’aide du panneau de navigation de gauche.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a0e88e85-e470-45dd-8d39-afddd27fd95b
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -16,4 +18,4 @@ Dans le panneau de navigation de gauche, vous pouvez :
 
 * Recherchez des campagnes par portefeuille ou groupe de portefeuille, puis filtrez-les selon l’état de l’entité et l’état du groupe de portefeuille, du portfolio et de la campagne. Cliquez sur un groupe de portefeuille, un portfolio ou une campagne dans le panneau pour charger les données du groupe de portefeuille, du portfolio ou de la campagne dans la vue d’entité actuelle.
 
-* Accédez à vos vues par défaut, modifiez-les et réinitialisez-les ; et accéder à vos vues personnalisées, les modifier et les supprimer. Cliquez sur le nom d’une vue pour charger la vue appropriée.
+* Accédez à vos vues par défaut, modifiez-les et réinitialisez-les, puis accédez à vos vues personnalisées, modifiez-les et supprimez-les. Cliquez sur le nom d’une vue pour charger la vue appropriée.

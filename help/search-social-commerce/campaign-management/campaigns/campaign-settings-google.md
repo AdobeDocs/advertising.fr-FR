@@ -2,7 +2,8 @@
 title: '''[!DNL Google Ads] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Google Ads] campagnes.
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
-source-git-commit: a71ea7b20cf1c72a2acfd7c743311c513e4239fc
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 0%
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 * *[!UICONTROL Search Network Only]:* Affiche les publicités sur le réseau de recherche, qui inclut [!DNL Google] résultats de recherche et, éventuellement, sites de partenaires de recherche. Vous devez spécifier des mots-clés pour chaque groupe publicitaire.
 
-* *[!UICONTROL Search with Display Select]:* Affiche les publicités sur le réseau de recherche (qui inclut [!DNL Google] résultats de recherche et, éventuellement, sites de partenaires de recherche) et affiche éventuellement des publicités sur les sites de réseau d’affichage. Sur le réseau d&#39;affichage, [!DNL Google Ads] affiche vos publicités de manière sélective à l’aide d’enchères automatisées, quelle que soit la stratégie d’offre de la campagne. Pour les annonces de recherche, indiquez des mots-clés pour chaque groupe d’annonces. pour les publicités affichées, spécifiez des emplacements et éventuellement des mots-clés pour chaque groupe publicitaire.
+* *[!UICONTROL Search with Display Select]:* Affiche les publicités sur le réseau de recherche (qui inclut [!DNL Google] résultats de recherche et, éventuellement, sites de partenaires de recherche) et affiche éventuellement des publicités sur les sites de réseau d’affichage. Sur le réseau d&#39;affichage, [!DNL Google Ads] affiche vos publicités de manière sélective à l’aide d’enchères automatisées, quelle que soit la stratégie d’offre de la campagne. Pour rechercher des publicités, spécifiez des mots-clés pour chaque groupe publicitaire. Pour les publicités affichées, spécifiez des emplacements et éventuellement des mots-clés pour chaque groupe publicitaire.
 
 * *[!UICONTROL Shopping Network]:* Affiche les publicités de produits, qui [!DNL Google] génère automatiquement en fonction de vos produits dans [!DNL Google Merchant Center] on [!DNL Google Shopping], la zone en regard de [!DNL Google] résultats de recherche (séparés des publicités textuelles) et (éventuellement) sites web de partenaires de recherche. Pour chaque groupe publicitaire de la campagne, vous pouvez spécifier des groupes de produits à promouvoir.
 
 * *[!UICONTROL Display Network Only]:* Affiche les publicités sur le réseau d’affichage. Pour chaque groupe d’annonces, vous devez spécifier des emplacements et éventuellement des mots-clés.
 
-* *[!UICONTROL Performance Max]:* (Fonction bêta) Affiche et optimise les conversions de vos publicités sur plusieurs canaux à l’aide de [!DNL Google Ads] enchères intelligentes. Dans les paramètres de l’opération, vous devez indiquer un ou plusieurs groupes de ressources, notamment des images, des logos, des titres, des descriptions, des vidéos facultatives et des signaux d’audience. [!DNL Google Ads] combine automatiquement les ressources pour diffuser des publicités en fonction du canal (comme [!DNL YouTube], [!DNL Gmail]ou [!DNL Search]).
+* *[!UICONTROL Performance Max]:* (Fonction bêta) Affiche et optimise les conversions de vos publicités sur plusieurs canaux à l’aide de [!DNL Google Ads] enchères intelligentes. Dans les paramètres de l’opération, vous devez indiquer un ou plusieurs groupes de ressources, notamment des images, des logos, des titres, des descriptions, des vidéos facultatives et des signaux d’audience. [!DNL Google Ads] combine automatiquement les ressources pour diffuser des publicités en fonction du canal (comme [!DNL YouTube], [!DNL Gmail], ou [!DNL Search]).
 
   **Remarques :**
 
@@ -73,9 +74,9 @@ ht-degree: 0%
 
 Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de réseaux sociaux et de commerce optimisé, Search, Social et Commerce optimise les offres de base et , lorsque le paramètre[!UICONTROL Auto adjust campaign budget limits]&quot; est activée : le budget de l’opération. Le réseau publicitaire optimise tous les ajustements d’offres et peut modifier les offres générées par Search, Social et Commerce au moment de la requête de l’utilisateur en fonction de données et d’informations propriétaires. **Attention :** Utilisez les campagnes eCPC dans les portfolios uniquement lorsque le total des conversions suivies sur le réseau publicitaire correspond à l’objectif du portfolio. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
 
-* *[!UICONTROL Manual CPC]* (valeur par défaut) : (Non disponible pour les campagnes de performances max.) Utilise le modèle coût par clic (CPC). Vous pouvez éventuellement autoriser le réseau publicitaire à modifier les offres pour la campagne :
+* *[!UICONTROL Manual CPC]* (valeur par défaut) : (non disponible pour les campagnes de performances max.) utilise le modèle coût par clic (CPC). Vous pouvez éventuellement autoriser le réseau publicitaire à modifier les offres pour la campagne :
 
-   * **[!UICONTROL Enable Enhanced CPC]** (désactivé par défaut) : C’est la même chose que d’utiliser le[!UICONTROL Enhanced CPC]&quot;.
+   * **[!UICONTROL Enable Enhanced CPC]** (désactivé par défaut) : il s’agit de la même chose que l’utilisation du paramètre[!UICONTROL Enhanced CPC]&quot;.
 
 * *[!UICONTROL Maximize Clicks]:* (Campagnes de recherche, d’affichage et d’achat) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres pour maximiser les clics. Si vous le souhaitez, vous pouvez saisir une **[!UICONTROL Max CPC]** (coût par clic) pour s’assurer que le réseau publicitaire ne paie pas plus qu’un montant spécifique pour chaque clic. **Attention :** Lorsque vous ajoutez une campagne avec cette stratégie à un portefeuille, les offres sont basées sur le poids des clics et non sur l’objectif du portefeuille.
 
@@ -83,19 +84,19 @@ Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de 
 
 * *[!UICONTROL Maximize Conversions]:* (Campagnes de recherche, d’affichage et de performances max.) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres pour maximiser les conversions. Si vous le souhaitez, vous pouvez saisir un **[!UICONTROL Target CPA]** (coût par acquisition). **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides, mais pas dans des portfolios standard.
 
-* *[!UICONTROL Target CPA]:* (Afficher les campagnes ; campagnes de recherche existantes) Le réseau publicitaire (et non Search, Social et Commerce) optimise les offres en fonction d’une **[!UICONTROL Target CPA]** (coût par acquisition), qui est le montant moyen de 30 jours que vous souhaitez payer pour une acquisition (conversion). **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides (mais pas dans des portfolios standard) avec une stratégie de dépenses, à l’exception de [!UICONTROL Weekly] ou [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]:* (Campagnes d’affichage ; campagnes de recherche existantes) Le réseau publicitaire, et non Search, Social et Commerce, optimise les offres en fonction d’une **[!UICONTROL Target CPA]** (coût par acquisition), qui est le montant moyen de 30 jours que vous souhaitez payer pour une acquisition (conversion). **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides (mais pas dans des portfolios standard) avec une stratégie de dépenses, à l’exception de [!UICONTROL Weekly] ou [!UICONTROL Google Target CPA].
 
   La position moyenne et les données sur l&#39;offre du CPC ne sont pas disponibles pour les campagnes avec cette stratégie d&#39;offre.
 
-  Pour les nouvelles campagnes de recherche, [!DNL Google Ads] a remplacé cette stratégie d’offre par la méthode [!UICONTROL Maximize Conversions] stratégie à l’aide d’une [!UICONTROL Target CPA] . Pour les campagnes de recherche existantes avec cette stratégie, vous pouvez uniquement modifier la valeur de la cible, ce qui modifie la stratégie en [!UICONTROL Maximize Conversions] stratégie utilisant la variable spécifiée [!UICONTROL Target CPA] .
+  Pour les nouvelles campagnes de recherche, [!DNL Google Ads] a remplacé cette stratégie d’offre par la méthode [!UICONTROL Maximize Conversions] stratégie utilisant une [!UICONTROL Target CPA] . Pour les campagnes de recherche existantes avec cette stratégie, vous pouvez uniquement modifier la valeur de la cible, ce qui modifie la stratégie en [!UICONTROL Maximize Conversions] stratégie utilisant la variable spécifiée [!UICONTROL Target CPA] .
 
 * *[!UICONTROL Target Impression Share]:* (Campagnes de recherche) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres pour obtenir un partage d’impression cible et une position publicitaire. Si vous le souhaitez, vous pouvez saisir une **[!UICONTROL Target Impression Share]** en pourcentage, la valeur **[!UICONTROL Target Ad Position]**, et a **[!UICONTROL Max CPC]** (coût par clic). **Remarque :** Cette option n’est pas prise en charge dans les portefeuilles.
 
-* *[!UICONTROL Target Return on Ad Spend]:*  (Campagnes d’affichage et d’achat ; campagnes de recherche existantes) Le réseau publicitaire (et non Search, Social et Commerce) optimise les offres en fonction d’une **[!UICONTROL Target ROAS]** (retour sur dépenses publicitaires), spécifié en pourcentage. **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides (mais pas dans des portfolios standard) avec une stratégie de dépenses, à l’exception de [!UICONTROL Weekly] ou [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:*  (Campagnes d’affichage et d’achat ; campagnes de recherche existantes) Le réseau publicitaire, et non Search, Social &amp; Commerce, optimise les offres en fonction d’une **[!UICONTROL Target ROAS]** (retour sur dépenses publicitaires), spécifié en pourcentage. **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides (mais pas dans des portfolios standard) avec une stratégie de dépenses, à l’exception de [!UICONTROL Weekly] ou [!UICONTROL Google Target ROAS].
 
   La position moyenne et les données sur l&#39;offre du CPC ne sont pas disponibles pour les campagnes avec cette stratégie d&#39;offre.
 
-  Pour les nouvelles campagnes de recherche, [!DNL Google Ads] a remplacé cette stratégie d’offre par la méthode [!UICONTROL Maximize Conversion Value] stratégie à l’aide d’une [!UICONTROL Target Return on Ad Spend value]. Pour les campagnes de recherche existantes avec cette stratégie, vous pouvez uniquement modifier la valeur de la cible, ce qui modifie la stratégie en [!UICONTROL Maximize Conversion Value] stratégie utilisant la variable spécifiée [!UICONTROL Target Return on Ad Spend] .
+  Pour les nouvelles campagnes de recherche, [!DNL Google Ads] a remplacé cette stratégie d’offre par la méthode [!UICONTROL Maximize Conversion Value] stratégie utilisant une [!UICONTROL Target Return on Ad Spend value]. Pour les campagnes de recherche existantes avec cette stratégie, vous pouvez uniquement modifier la valeur de la cible, ce qui modifie la stratégie en [!UICONTROL Maximize Conversion Value] stratégie utilisant la variable spécifiée [!UICONTROL Target Return on Ad Spend] .
 
 * *[!UICONTROL Viewable CPM]:* (Existant, lecture seule) [!DNL Gmail] campagnes uniquement) Le réseau publicitaire — et non Search, Social et Commerce — offre uniquement sur les publicités qui sont mesurées comme visibles. **Remarque :** L’optimisation de cette stratégie n’est prise en charge dans aucun type de portefeuille.
 
@@ -111,7 +112,7 @@ Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de 
 
 {{$include /help/_includes/merchant-id.md}}
 
-**[!UICONTROL Local Inventory Ads]:** (Campagnes d’achat uniquement ; les publicitaires participant déjà au programme d’achat local avec [!DNL Google Merchant Center] les magasins aux États-Unis, au Royaume-Uni, dans les États-Unis, en Grande-Bretagne, en France, en Afrique du Sud, en Afrique du Sud, en Afrique du Sud, en Afrique du Sud, en Afrique du Sud et en Afrique du Sud; (facultatif) Autorisations [!DNL Google Ads] pour ajouter automatiquement vos informations d’inventaire locales à vos publicités commerciales sur Google.com.
+**[!UICONTROL Local Inventory Ads]:** (Campagnes d’achat uniquement ; les annonceurs participant déjà au programme d’achat local avec [!DNL Google Merchant Center] magasins aux États-Unis, au Royaume-Uni, en France, en France, en Afrique du Sud, en Afrique du Sud, en Afrique du Sud, en Afrique du Sud, en Afrique du Sud, en Afrique du Sud, en Afrique du Sud, en Afrique du Sud, en Afrique du Sud, en Afrique du Sud, en Afrique du Sud ; facultatif). [!DNL Google Ads] pour ajouter automatiquement vos informations d’inventaire locales à vos publicités commerciales sur Google.com.
 
 **Conseil :** Si vous utilisez ce paramètre, n’excluez pas les publicités locales dans la variable [!UICONTROL Inventory Filter] .
 
@@ -145,15 +146,15 @@ Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de 
 
    * (Emplacements près d’une adresse ; cibles incluses uniquement) Cliquez sur **[!UICONTROL Radius Target]** (![Cible du rayon](/help/search-social-commerce/assets/radius-target.png "Cible du rayon")), puis cliquez sur **[!UICONTROL Address]**. Saisissez l’adresse et le rayon en kilomètres autour de l’adresse à cibler, puis cliquez sur **[!UICONTROL Add]**.
 
-   * (Emplacements à proximité des coordonnées géographiques ; cibles incluses uniquement) Cliquez sur **[!UICONTROL Radius Target]** (![Cible du rayon](/help/search-social-commerce/assets/radius-target.png "Cible du rayon")), puis cliquez sur **[!UICONTROL Coordinate]**. Saisissez la latitude et la longitude et le rayon en kilomètres autour de l’emplacement à cibler, puis cliquez sur **[!UICONTROL Add]**.
+   * (Emplacements proches des coordonnées géographiques ; cibles incluses uniquement) Cliquez sur **[!UICONTROL Radius Target]** (![Cible du rayon](/help/search-social-commerce/assets/radius-target.png "Cible du rayon")), puis cliquez sur **[!UICONTROL Coordinate]**. Saisissez la latitude et la longitude et le rayon en kilomètres autour de l’emplacement à cibler, puis cliquez sur **[!UICONTROL Add]**.
 
-   * (Emplacements près de votre [!DNL My Business] emplacements disponibles en tant qu’extensions d’emplacement ; cibles incluses uniquement) Cliquez sur **[!UICONTROL Location Group Target]** (![Groupe d’emplacements](/help/search-social-commerce/assets/location-group.png "Groupe d’emplacements")); peut éventuellement entrer dans un pays, un état, une région métropolitaine ou une ville pour faire glisser la liste des emplacements disponibles ; puis sélectionnez un ou plusieurs emplacements dans la liste de [!DNL Google My Business] emplacements. Spécifiez le rayon en kilomètres autour des emplacements à cibler, puis cliquez sur **[!UICONTROL Add]**.
+   * (Emplacements près de votre [!DNL My Business] emplacements disponibles en tant qu’extensions d’emplacement ; cibles incluses uniquement) Cliquez sur **[!UICONTROL Location Group Target]** (![Groupe d’emplacements](/help/search-social-commerce/assets/location-group.png "Groupe d’emplacements")) ; éventuellement, saisissez un pays, un état, une région métropolitaine ou une ville pour faire fléchir la liste des emplacements disponibles, puis sélectionnez un ou plusieurs emplacements dans la liste de [!DNL Google My Business] emplacements. Spécifiez le rayon en kilomètres autour des emplacements à cibler, puis cliquez sur **[!UICONTROL Add]**.
 
 * (Pour ajouter un ajustement d’offre pour un emplacement cible inclus) Saisissez une valeur d’ajustement d’offre :
 
-* 0 % : Pour ne pas ajuster les offres pour les publicités à cet emplacement.
+* 0 % : pour ne pas ajuster les offres pour les publicités à cet emplacement.
 
-* \[Autres valeurs comprises entre -90 % et 300 %\] : Pour augmenter ou diminuer l’offre pour les publicités situées à cet emplacement.
+* \[Autres valeurs de -90 % à 300 %\] : pour augmenter ou diminuer l’offre pour les publicités à cet emplacement.
 
 **Remarque :**
 
@@ -169,7 +170,7 @@ Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de 
 
 ## [!UICONTROL Advanced Device Options]
 
-**[!UICONTROL Mobile Carriers]:** (Afficher le réseau uniquement) des opérateurs de téléphonie mobile spécifiques à cibler ; les opérateurs sont triés par pays. Si vous n’en sélectionnez aucune, toutes sont ciblées.
+**[!UICONTROL Mobile Carriers]:** (Afficher le réseau uniquement) Transporteurs mobiles spécifiques à cibler ; les opérateurs sont triés par pays. Si vous n’en sélectionnez aucune, toutes sont ciblées.
 
 **[!UICONTROL Mobile Carriers]:** (Afficher le réseau uniquement) Systèmes d’exploitation spécifiques à cibler. Si vous n’en sélectionnez aucune, toutes sont ciblées.
 
@@ -265,7 +266,7 @@ Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de 
 
    1. (Facultatif) Sélectionnez des proportions supplémentaires, puis repositionnez et redimensionnez éventuellement l’image selon les besoins pour chaque rapport d’aspect sélectionné.
 
-      Une ressource est créée pour chaque rapport d’aspect sélectionné.
+      Une ressource est créée pour chaque format sélectionné.
 
    1. Cliquez sur **[!UICONTROL Proceed]**.
 
@@ -283,7 +284,7 @@ Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de 
 
    1. (Facultatif) Sélectionnez des proportions supplémentaires, puis repositionnez et redimensionnez éventuellement l’image selon les besoins pour chaque rapport d’aspect sélectionné.
 
-      Une ressource est créée pour chaque rapport d’aspect sélectionné.
+      Une ressource est créée pour chaque format sélectionné.
 
    1. Cliquez sur **[!UICONTROL Proceed]**.
 
@@ -291,9 +292,9 @@ Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de 
 
 **[!UICONTROL Videos]:** (Facultatif) L’URL pour au moins une et jusqu’à cinq, [!DNL YouTube] vidéos d’au moins 10 secondes.
 
-**[!UICONTROL Headlines]:** Au moins trois titres courts d’un maximum de 30 caractères chacun peuvent contenir jusqu’à cinq d’entre eux. Au moins un titre doit comporter 15 caractères ou moins. Si l’option de niveau campagne permettant d’activer l’extension d’URL finale est définie dans [!DNL Google Ads], puis [!DNL Google Ads] remplace cette valeur par un titre personnalisé basé sur le contenu de la landing page.
+**[!UICONTROL Headlines]:** Au moins trois titres courts d’un maximum de 30 caractères chacun, et cinq d’entre eux. Au moins un titre doit comporter 15 caractères ou moins. Si l’option de niveau campagne permettant d’activer l’extension d’URL finale est définie dans [!DNL Google Ads], puis [!DNL Google Ads] remplace cette valeur par un titre personnalisé basé sur le contenu de la landing page.
 
-**[!UICONTROL Long Headlines]:** Au moins un et jusqu’à cinq titres longs d’un maximum de 90 caractères chacun.
+**[!UICONTROL Long Headlines]:** Au moins un et jusqu’à cinq gros titres de 90 caractères chacun au maximum.
 
 **[!UICONTROL Descriptions]:** Au moins deux descriptions, et jusqu’à quatre descriptions, avec un maximum de 90 caractères chacune. Au moins une description doit comporter 30 caractères ou moins.
 

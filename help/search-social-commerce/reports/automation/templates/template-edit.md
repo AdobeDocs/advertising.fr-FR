@@ -1,7 +1,9 @@
 ---
 title: Modifier un modèle de rapport
 description: Découvrez comment modifier les paramètres de vos modèles de rapports réutilisables.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8e195b60-8c58-460b-bc61-19dd2452d332
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -32,4 +34,3 @@ Vous pouvez modifier les paramètres de tout modèle de rapport que vous avez cr
 >* [Créer un modèle de rapport](template-create.md)
 >* [Affichage d’un modèle de rapport](template-view.md)
 >* [Suppression de modèles de rapport](template-delete.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Paramètres de modèle de publicité textuelle et de recherche réactive pour les flux de stock
 description: Référencez les paramètres des annonces textuelles et des modèles d’annonces de recherche réactive pour les flux d’inventaire.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: ee3956f9-4367-40e4-bdb3-f04a8da9a5f1
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '3317'
 ht-degree: 0%
@@ -58,13 +60,13 @@ Utilisation [!UICONTROL Map Only] au niveau de la campagne, une structure de com
 
 * *[!UICONTROL Contains Exactly]:* Ajoute des données à une campagne existante dont le nom inclut la chaîne spécifiée, le cas échéant.
 
-* *[!UICONTROL Exactly Matches]* (valeur par défaut) : Ajoute des données à une campagne existante portant le même nom, le cas échéant.
+* *[!UICONTROL Exactly Matches]* (valeur par défaut) : ajoute des données à une campagne existante portant le même nom, le cas échéant.
 
 Lorsqu’aucune correspondance n’est trouvée, toutes les données de la campagne sont ignorées. Si plusieurs correspondances de campagne sont trouvées, les mots-clés et les publicités sont mappés à tous.
 
-**[!UICONTROL Campaign Tracking Template]:** (Comptes contenant uniquement des URL finales/avancées ; (facultatif) Le modèle de suivi au niveau de l’opération, qui spécifie tous les paramètres de suivi et redirections hors domaine d’entrée et incorpore l’URL finale dans un paramètre. Cette valeur remplace le paramètre au niveau du compte, mais les modèles de suivi à des niveaux plus granulaires (avec le mot-clé comme plus granulaire) remplacent cette valeur.
+**[!UICONTROL Campaign Tracking Template]:** (Comptes avec URL finales/avancées uniquement ; facultatif) Le modèle de suivi au niveau de la campagne, qui spécifie toutes les redirections de domaine hors entrée et paramètres de suivi et incorpore l’URL finale dans un paramètre. Cette valeur remplace le paramètre au niveau du compte, mais les modèles de suivi à des niveaux plus granulaires (avec le mot-clé comme plus granulaire) remplacent cette valeur.
 
-* Pour le suivi de conversion Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; Search, Social et Commerce ajoute automatiquement le code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
+* Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; Search, Social et Commerce ajoute automatiquement le code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
 
 * Pour incorporer l’URL finale :
 
@@ -134,13 +136,13 @@ Lorsqu’aucune correspondance n’est trouvée, toutes les données de la campa
 
 **[!UICONTROL Ad Group Tracking Template]:** (Comptes avec URL finales/avancées uniquement) Le modèle de suivi au niveau du groupe publicitaire, qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi et incorpore l’URL finale dans un paramètre.
 
-Pour le suivi de conversion Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; Search, Social et Commerce ajoute automatiquement le code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
+Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; Search, Social et Commerce ajoute automatiquement le code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
 
 Pour les redirections et le suivi tiers, saisissez une valeur. Pour indiquer l&#39;URL de la landing page :
 
 * Pour Yahoo ! Comptes Japan Ads, utilisez le paramètre {lpurl}.
 
-* Pour connaître les paramètres disponibles pour les comptes Microsoft® Advertising et Google Ads, reportez-vous à la section [[!DNL Microsoft® Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou les paramètres du &quot;Modèle de suivi uniquement&quot; dans la section sur &quot;Disponible [!DNL ValueTrack] Paramètres&quot; dans la variable [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+* Pour connaître les paramètres disponibles pour les comptes Microsoft® Advertising et Google Ads, voir la section [[!DNL Microsoft® Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou les paramètres du &quot;Modèle de suivi uniquement&quot; dans la section sur &quot;Disponible [!DNL ValueTrack] Paramètres&quot; dans la variable [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
 Cette valeur remplace les paramètres au niveau du compte et de la campagne, mais les modèles de suivi à des niveaux plus granulaires (avec le mot-clé comme mot-clé le plus granulaire) remplacent cette valeur.
 
@@ -174,9 +176,9 @@ Pour insérer un nom de colonne ou un groupe de modificateurs en tant que param�
 
 * Pour [!DNL Yandex] templates :
 
-   * Pour les paramètres dynamiques : Insérez le nom de la colonne, par exemple `[keyword]`. Pour indiquer le type de correspondance, utilisez la variable [[!DNL Yandex]syntaxe spécifique](https://yandex.com/support/direct/keywords/symbols-and-operators.html). **Remarque :** Pour les termes à correspondance large, utilisez la syntaxe suivante : Modificateur de correspondance large pour le premier terme de la colonne Mot-clé (comme +chaussures en daim bleu) = `+[keyword]`, modificateur de correspondance large pour chaque terme de la colonne Mot-clé (comme +bleu +daim +chaussures) = `+[keyword]+`
+   * Pour les paramètres dynamiques : insérez le nom de la colonne, par exemple `[keyword]`. Pour indiquer le type de correspondance, utilisez la variable [[!DNL Yandex]syntaxe spécifique](https://yandex.com/support/direct/keywords/symbols-and-operators.html). **Remarque :** Pour les termes à correspondance large, utilisez la syntaxe suivante : modificateur de correspondance large pour le premier terme de la colonne Mot-clé (chaussures + daim bleu, par exemple) = `+[keyword]`, modificateur de correspondance large pour chaque terme de la colonne Mot-clé (comme +bleu +daim +chaussures) = `+[keyword]+`
 
-   * Pour les mots-clés statiques : Seuls les mots-clés de recherche sont pris en charge. Utilisez la variable [[!DNL Yandex]syntaxe spécifique](https://yandex.com/support/direct/keywords/symbols-and-operators.html) pour le mot-clé. Brackets (`[]`) pour indiquer que l’ordre des mots n’est pas pris en charge.
+   * Pour les mots-clés statiques : seuls les mots-clés de recherche sont pris en charge. Utilisez la variable [[!DNL Yandex]syntaxe spécifique](https://yandex.com/support/direct/keywords/symbols-and-operators.html) pour le mot-clé. Brackets (`[]`) pour indiquer que l’ordre des mots n’est pas pris en charge.
 
 >[!NOTE]
 >
@@ -187,7 +189,7 @@ Pour insérer un nom de colonne ou un groupe de modificateurs en tant que param�
 
 **[!UICONTROL Map Only]:** Ajoute de nouvelles publicités aux groupes publicitaires (ou aux campagnes pour [!DNL Yandex] comptes) dans lesquels les mots-clés spécifiés sont trouvés, plutôt que de créer de nouveaux mots-clés. Pour activer cette option, cochez la case. Lorsque cette option est activée, les variables Param 1 et Param 2 des mots-clés spécifiés ne s’appliquent pas, car les mots-clés existent.
 
-**[!UICONTROL Keyword Final URL]:** (Comptes avec URL finales/avancées ; (facultatif) URL de la page d’entrée vers laquelle les utilisateurs du réseau publicitaire sont redirigés lorsqu’ils cliquent sur votre publicité. Il doit inclure le même domaine que l’URL d’affichage et tous les paramètres de l’URL finale doivent correspondre aux paramètres de l’URL de la page d’entrée après le clic publicitaire. Il peut contenir des redirections dans le domaine de la landing page ou le sous-domaine, mais aucune redirection en dehors du domaine de la landing page.
+**[!UICONTROL Keyword Final URL]:** (Comptes avec URL finales/avancées ; facultatif) URL de la page d’entrée vers laquelle les utilisateurs du réseau publicitaire sont redirigés lorsqu’ils cliquent sur votre publicité. Il doit inclure le même domaine que l’URL d’affichage et tous les paramètres de l’URL finale doivent correspondre aux paramètres de l’URL de la page d’entrée après le clic publicitaire. Il peut contenir des redirections dans le domaine de la landing page ou le sous-domaine, mais aucune redirection en dehors du domaine de la landing page.
 
 Si vous utilisez un [!DNL Google Merchant Center] flux et inclure cette valeur dans le[!DNL Link]&quot;, puis insérez cette colonne dans ce champ.
 
@@ -196,9 +198,9 @@ Si vous utilisez un [!DNL Google Merchant Center] flux et inclure cette valeur d
 * Si vous générez des URL de suivi lorsque vous publiez des données propagées par le biais du modèle, les paramètres de suivi sont ajoutés à cette valeur en fonction des paramètres de suivi du compte.
 * ([!DNL Google Ads] ) Évitez d’utiliser des macros, qui ne se substituent pas aux clics provenant de sources qui activent le suivi parallèle. Si l’annonceur doit utiliser des macros, l’équipe du compte d’Adobe doit travailler avec le service clientèle ou l’équipe de mise en oeuvre pour les ajouter.
 
-**[!UICONTROL Keyword Tracking Template]:** (Comptes avec URL finales/avancées ; (facultatif) Le modèle de suivi, qui spécifie tous les paramètres de suivi et les redirections de domaine hors entrée et incorpore l’URL finale dans un paramètre. Le modèle de suivi au niveau le plus granulaire (avec le mot-clé comme le plus granulaire) remplace les valeurs à tous les autres niveaux.
+**[!UICONTROL Keyword Tracking Template]:** (Comptes avec URL finales/avancées ; facultatif) Le modèle de suivi, qui spécifie tous les paramètres de suivi et redirections de domaine hors d’entrée et incorpore l’URL finale dans un paramètre. Le modèle de suivi au niveau le plus granulaire (avec le mot-clé comme le plus granulaire) remplace les valeurs à tous les autres niveaux.
 
-* Pour le suivi de conversion Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; Search, Social et Commerce ajoute automatiquement le code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
+* Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; Search, Social et Commerce ajoute automatiquement le code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
 
 * Vous pouvez éventuellement saisir des redirections et un suivi tiers.
 
@@ -212,7 +214,7 @@ Si vous utilisez un [!DNL Google Merchant Center] flux et inclure cette valeur d
 
 Si vous utilisez l’un ou l’autre des paramètres, vous avez la possibilité d’appliquer uniquement le paramètre aux nouveaux mots-clés ou de mettre également à jour les valeurs des mots-clés existants qui n’ont pas été créés à partir du modèle :
 
-* **[!UICONTROL Do Not Apply to Existing Keywords]** (valeur par défaut) : Il suffit d’insérer la valeur du paramètre pour les nouveaux mots-clés créés à l’aide du modèle.
+* **[!UICONTROL Do Not Apply to Existing Keywords]** (valeur par défaut) : insère simplement la valeur du paramètre pour les nouveaux mots-clés créés à l’aide du modèle.
 
 * **[!UICONTROL Apply to Existing Keywords: Constant]:** Outre la création de mots-clés à partir du flux, Search, Social et Commerce met également à jour la valeur du paramètre pour tous les mots-clés existants dans le groupe d’annonces qui n’ont pas été créés à l’aide du modèle. Saisissez une valeur numérique unique qui est utilisée pour tous ces mots-clés. Le modèle doit contenir au moins un mot-clé.
 
@@ -236,7 +238,7 @@ Les champs de données du fichier de flux peuvent contenir, au maximum, 25 carac
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] modèles uniquement) Chaîne à utiliser comme valeur de substitution dans une publicité si le titre, le texte, l’URL d’affichage ou l’URL finale contiennent le paramètre `{Param3}` chaîne de substitution dynamique. La longueur maximale est de 70 caractères, mais gardez à l’esprit la longueur maximale de l’élément publicitaire dans lequel vous l’utilisez (par exemple, un titre de publicité peut comporter jusqu’à 25 caractères).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** L’offre initiale pour chaque mot-clé avec le type de correspondance ou de publicité spécifié.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** L’offre initiale pour chaque mot-clé avec le type de correspondance ou de publicité spécifié.
 
 ## [!UICONTROL Ads]
 
@@ -264,7 +266,7 @@ Au moins un titre doit être disponible pour chaque poste. Si vous épinglez plu
 
 {{inventory-feed-template-insert-dynamic-parameter}}
 
-**[!UICONTROL Headline 3]:** ([!DNL Google Ads] modèles de publicités textuelles étendues uniquement ; (facultatif) Troisième titre d’une publicité. La longueur maximale (après le remplacement de tous les paramètres dynamiques) est de 30 caractères ou 15 caractères codés sur deux octets.
+**[!UICONTROL Headline 3]:** ([!DNL Google Ads] modèle de publicité textuelle développée uniquement ; facultatif) Troisième titre d’une publicité. La longueur maximale (après le remplacement de tous les paramètres dynamiques) est de 30 caractères ou 15 caractères codés sur deux octets.
 
 **[!UICONTROL Title]:** ([!DNL Yandex] uniquement) Titre, ou première ligne, d’une publicité. La limite est de 33 caractères.
 
@@ -274,7 +276,7 @@ Au moins un titre doit être disponible pour chaque poste. Si vous épinglez plu
 
 {{inventory-feed-template-insert-dynamic-parameter}}
 
-**[!UICONTROL Ad Text]:** (Publicité Microsoft® Publicités textuelles étendues uniquement) Corps d’une publicité. La longueur maximale (après le remplacement de tous les paramètres dynamiques) est de 80 caractères ou de 40 caractères codés sur deux octets (chinois, japonais et coréen, par exemple).
+**[!UICONTROL Ad Text]:** (Publicité Microsoft® Publicités textuelles étendues uniquement) Corps d’une publicité. La longueur maximale (après le remplacement de paramètres dynamiques) est de 80 caractères ou de 40 caractères codés sur deux octets (chinois, japonais et coréen, par exemple).
 
 ### [!UICONTROL Descriptions]
 
@@ -300,11 +302,11 @@ Si vous épinglez plusieurs descriptions à la même position, la publicité fin
 
 {{inventory-feed-template-insert-ad-customizer}}
 
-**[!UICONTROL Description 2]:** (modèles d’annonces textuelles étendues Google uniquement) ; (facultatif) Seconde ligne de la publicité. La longueur maximale (après le remplacement de paramètres dynamiques) est de 90 caractères ou de 45 caractères codés sur deux octets.
+**[!UICONTROL Description 2]:** (Modèles de publicités textuelles étendues Google uniquement ; facultatif) Seconde ligne de la publicité. La longueur maximale (après le remplacement de paramètres dynamiques) est de 90 caractères ou de 45 caractères codés sur deux octets.
 
 ### [!UICONTROL Path]
 
-**[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** (Texte étendu et annonces de recherche réactive uniquement) ; (facultatif) Un ou deux chemins d’URL à inclure consécutivement après l’URL de base. Il doit décrire plus en détail le produit ou le service de l’annonce. Par exemple, si vous ajoutez une [!UICONTROL Display Path 1] de &quot;chaussures&quot; et [!UICONTROL Display Path 2] de &quot;Extérieur&quot; à l’URL de base www.example.com, l’URL est www.example.com/Shoes/Outdoor. La longueur maximale (après le remplacement de paramètres dynamiques) de chaque champ est de 15 caractères ou 7 caractères codés sur deux octets.
+**[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** (Texte étendu et annonces responsives uniquement ; facultatif) Un ou deux chemins d’URL à inclure consécutivement après l’URL de base. Il doit décrire plus en détail le produit ou le service de l’annonce. Par exemple, si vous ajoutez une [!UICONTROL Display Path 1] de &quot;chaussures&quot; et [!UICONTROL Display Path 2] de &quot;Extérieur&quot; à l’URL de base www.example.com, l’URL est www.example.com/Shoes/Outdoor. La longueur maximale (après le remplacement de paramètres dynamiques) de chaque champ est de 15 caractères ou 7 caractères sur deux octets.
 
 Pour les annonces responsives sur le Réseau de Recherche, insérez un personnalisateur de Publicités aux formats suivants, où `Default text` est une valeur facultative à insérer lorsque votre fichier de flux n’inclut pas de valeur valide :
 
@@ -316,7 +318,7 @@ Pour les annonces responsives sur le Réseau de Recherche, insérez un personnal
 
 [!DNL Microsoft® Advertising] et [!DNL Yahoo! Japan Ads] ont rendu obsolètes la création et la modification d’annonces textuelles standard.
 
-**[!UICONTROL Base URL]:** (Comptes avec URL de destination uniquement) Page à laquelle les utilisateurs sont redirigés. Il peut inclure un code de redirection et de suivi tiers. Si vous utilisez le service de suivi de conversion Adobe Advertising et que les paramètres de campagne incluent l’utilisation de la variable [!UICONTROL EF Redirect] et en ajoutant le suivi au niveau de la publicité, puis Search, Social et Commerce ajoute automatiquement son propre code de redirection et de suivi à la publicité.
+**[!UICONTROL Base URL]:** (Comptes avec URL de destination uniquement) Page à laquelle les utilisateurs sont redirigés. Il peut inclure un code de redirection et de suivi tiers. Si vous utilisez le service de suivi de conversion d’Adobe Advertising et que les paramètres de campagne incluent l’utilisation de la variable [!UICONTROL EF Redirect] et en ajoutant le suivi au niveau de la publicité, puis Search, Social et Commerce ajoute automatiquement son propre code de redirection et de suivi à la publicité.
 
 Pour insérer un nom de colonne ou un groupe de modificateurs en tant que paramètre dynamique, cliquez dans le champ de saisie, puis sur un nom de colonne dans la liste de colonnes ou dans un [modifier le nom](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) dans le [!UICONTROL Modifiers] liste.
 
@@ -329,15 +331,15 @@ Si vous utilisez un [!DNL Google Merchant] Centrer le flux et inclure cette vale
 * Si vous générez des URL de suivi lorsque vous publiez des données propagées par le biais du modèle, les paramètres de suivi sont ajoutés à cette valeur en fonction des paramètres de suivi du compte.
 * ([!DNL Google Ads] comptes ) Évitez d’utiliser des macros, qui ne se substituent pas aux clics provenant de sources qui activent le suivi parallèle. Si l’annonceur doit utiliser des macros, l’équipe du compte d’Adobe doit collaborer avec le service clientèle ou l’équipe de mise en oeuvre pour les ajouter.
 
-**[!UICONTROL Tracking Template]:** (Comptes avec URL finales/avancées ; (facultatif) Le modèle de suivi, qui spécifie tous les paramètres de suivi et les redirections de domaine hors entrée et incorpore l’URL finale dans un paramètre. Le modèle de suivi au niveau le plus granulaire (avec le mot-clé comme le plus granulaire) remplace les valeurs à tous les autres niveaux.
+**[!UICONTROL Tracking Template]:** (Comptes avec URL finales/avancées ; facultatif) Le modèle de suivi, qui spécifie tous les paramètres de suivi et redirections de domaine hors d’entrée et incorpore l’URL finale dans un paramètre. Le modèle de suivi au niveau le plus granulaire (avec le mot-clé comme le plus granulaire) remplace les valeurs à tous les autres niveaux.
 
-Pour le suivi de conversion Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; Search, Social et Commerce ajoute automatiquement le code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
+Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; Search, Social et Commerce ajoute automatiquement le code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
 
 Pour les redirections et le suivi tiers, saisissez une valeur. Pour indiquer l&#39;URL de la landing page :
 
 * Pour Yahoo ! Comptes Japan Ads, utilisez le paramètre {lpurl}.
 
-* Pour connaître les paramètres disponibles pour les comptes Microsoft® Advertising et Google Ads, reportez-vous à la section [[!DNL Microsoft® Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou les paramètres du &quot;Modèle de suivi uniquement&quot; dans la section sur &quot;Disponible [!DNL ValueTrack] Paramètres&quot; dans la variable [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+* Pour connaître les paramètres disponibles pour les comptes Microsoft® Advertising et Google Ads, voir la section [[!DNL Microsoft® Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou les paramètres du &quot;Modèle de suivi uniquement&quot; dans la section sur &quot;Disponible [!DNL ValueTrack] Paramètres&quot; dans la variable [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
 **\[Autres champs de publicité sous les champs de publicité d’origine\] :** (Facultatif) Un autre ensemble de copies d’annonces pour une publicité, qui peut être utilisé si l’une des lignes de la copie d’annonce d’origine dépasse la longueur maximale autorisée une fois que des paramètres dynamiques sont remplis avec des données pendant la propagation.
 

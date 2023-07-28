@@ -1,7 +1,9 @@
 ---
 title: Gérer [!DNL Google Ads] cibles de recherche dynamique
 description: Découvrez comment créer et gérer [!DNL Google Ads] cibles de recherche dynamique.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 85b1455a-dda1-4bb9-b4be-d6e0a837fd9d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -72,7 +74,7 @@ Vous pouvez modifier l’état ou l’offre maximale d’une [!DNL Google Ads] c
 
 Vous pouvez suspendre toute cible de recherche dynamique principale dans un type de campagne pris en charge afin de ne plus l’utiliser pour les annonces de recherche dynamique du même groupe publicitaire. Vous pouvez ensuite les utiliser comme cibles en redéfinissant l’état de la publicité sur principal.
 
-Vous pouvez également supprimer n’importe quelle cible dynamique.
+Vous pouvez également supprimer toute cible dynamique.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
 
@@ -85,20 +87,20 @@ Vous pouvez également supprimer n’importe quelle cible dynamique.
    * Pour supprimer une ou plusieurs cibles dynamiques, procédez comme suit :
 
       1. Cochez la case en regard de chaque cible dynamique à supprimer.
-      Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+
+     Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       1. Dans la barre d’outils, cliquez sur ![Plus](/help/search-social-commerce/assets/more.png "Plus") et sélectionnez **[!UICONTROL Delete]**.
 
       1. Dans le message de confirmation, cliquez sur **[!UICONTROL Delete]**.
 
-
 ## [!DNL Google Ads] paramètres de cible de recherche dynamique {#dynamic-search-target-settings}
 
 ### [!UICONTROL Auto-Target Details]
 
-**[!UICONTROL Auto-targets]:** (Obligatoire lorsque vous ne spécifiez pas de domaine et de langue de site web dans le rapport [!UICONTROL DSA Options] section; lecture seule pour les cibles existantes) Cibles de recherche dynamique pour le groupe publicitaire :
+**[!UICONTROL Auto-targets]:** (Obligatoire lorsque vous ne spécifiez pas de domaine et de langue de site web dans le rapport [!UICONTROL DSA Options] section ; lecture seule pour les cibles existantes) Cibles de recherche dynamique pour le groupe publicitaire :
 
-* *[!UICONTROL All Targets]* (valeur par défaut) : Cible toutes les pages indexées.
+* *[!UICONTROL All Targets]* (valeur par défaut) : cible toutes les pages indexées.
 
 * *\[Cibles spécifiques\] :* Cible jusqu’à trois critères pour les pages indexées. Lorsque vous sélectionnez cette option, vous devez spécifier les critères en spécifiant les catégories d’informations et les valeurs spécifiques pour lesquelles cibler les publicités (par exemple, &quot;L’URL contient chaussures.exemple.com&quot;). Pour spécifier plusieurs critères, cliquez sur **[!UICONTROL + And]**. Les critères de ciblage incluent :
 
@@ -112,11 +114,11 @@ Vous pouvez également supprimer n’importe quelle cible dynamique.
 
 **État :** État des paramètres de la cible :
 
-* *[!UICONTROL Active]* (valeur par défaut) : Permet l’offre.
+* *[!UICONTROL Active]* (valeur par défaut) : active l’offre.
 
 * *[!UICONTROL Paused]:* Désactive l’offre.
 
-* *[!UICONTROL Deleted]* (cibles existantes uniquement) : Supprime les paramètres de la cible.
+* *[!UICONTROL Deleted]* (cibles existantes uniquement) : supprime les paramètres de la cible.
 
 ### [!UICONTROL Bids]
 
@@ -129,4 +131,3 @@ Vous pouvez également supprimer n’importe quelle cible dynamique.
 >[!MORELIKETHIS]
 >
 >* [A propos [!DNL Google Ads] cibles de recherche dynamique](dynamic-search-target-about.md)
-

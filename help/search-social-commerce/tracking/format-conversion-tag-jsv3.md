@@ -1,7 +1,9 @@
 ---
 title: Format des balises de suivi de conversion JavaScript version 3
 description: Référencez le format des balises de suivi de conversion JavaScript version 3.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1e177c52-f93c-4800-afb5-28f2336117b9
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -14,7 +16,7 @@ Le format suivant est destiné aux sites qui utilisent le protocole HTTPS. Pour 
 
 >[!NOTE]
 >
->Pour plus d’informations sur le moment où utiliser la version 2 ou la version 3, voir [Questions fréquentes sur les balises de suivi](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).
+>Pour plus d’informations sur l’utilisation de la version 2 ou de la version 3, voir [Questions fréquentes sur les balises de suivi](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).
 
 ```
 <script type='text/javascript'>
@@ -57,15 +59,14 @@ où :
 
 * `<transid>` est un identifiant de transaction unique (tel qu’un identifiant de commande réel) que l’annonceur génère et transmet pour identifier une transaction. Elle est incluse uniquement lorsque la variable[!UICONTROL Include unique transaction IDs]&quot; est sélectionnée.
 
-   Search, Social et Commerce utilise l’ID de transaction pour éliminer les transactions en double avec le même ID de transaction et la même valeur de propriété. L’ID de transaction est inclus dans la variable [!UICONTROL Transaction Report], que vous pouvez utiliser pour valider des données dans Adobe Advertising avec les données de l’annonceur. **Remarque :** Si les données de l’annonceur n’incluent pas d’identifiant unique par transaction, Search, Social et Commerce en génère toujours un en fonction de l’heure de la transaction.
+  Search, Social et Commerce utilise l’ID de transaction pour éliminer les transactions en double avec le même ID de transaction et la même valeur de propriété. L’ID de transaction est inclus dans la variable [!UICONTROL Transaction Report], que vous pouvez utiliser pour valider les données dans Adobe Advertising avec les données de l’annonceur. **Remarque :** Si les données de l’annonceur n’incluent pas d’identifiant unique par transaction, Search, Social et Commerce en génère toujours un en fonction de l’heure de la transaction.
 
 <!-- add more links -->
 
 >[!MORELIKETHIS]
 >
->* [À propos des balises de suivi de conversion Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Génération d’une balise de conversion Advertising Adobe](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [À propos des balises de suivi de conversion d’Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [Génération d’une balise de conversion d’Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [Questions fréquentes sur les balises de suivi de conversion et de pages vues](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [Format des balises de suivi de conversion JavaScript version 2](format-conversion-tag-jsv2.md)
 >* [Format des balises de suivi de conversion d’image](format-conversion-tag-image.md)
-

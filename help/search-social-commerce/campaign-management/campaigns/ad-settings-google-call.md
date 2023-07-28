@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] paramètres de publicité Appel uniquement"
+title: '''[!DNL Google Ads] paramètres de publicité Appel uniquement'
 description: Référencez les paramètres pour [!DNL Google Ads] publicités avec appel uniquement.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1f810c2b-9c30-43c6-bda6-07609423ef79
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Voir [!DNL Google Ads] help pour [limites publicitaires par compte](https://supp
 
 <!-- hiding section header since there's only one section -->
 
-**[!UICONTROL Business Name]:** Nom de l’entreprise. La longueur maximale est de 25 caractères ou 12 caractères codés sur deux octets.
+**[!UICONTROL Business Name]:** Nom de l’entreprise. La longueur maximale est de 25 caractères ou 12 caractères sur deux octets.
 
 **[!UICONTROL Country]:** (Facultatif) Pays dans lequel l’entreprise est implantée.
 
@@ -38,13 +40,13 @@ La syntaxe de substitution de mot-clé ne compte pas dans la longueur maximale. 
 
 La longueur maximale est de 35 caractères sur un ou 17 caractères sur deux octets. La syntaxe de substitution de mot-clé ne compte pas dans la longueur maximale. Par exemple, &quot;`{DisplayURL: example.com}`&quot; est traité comme 11 caractères (uniquement la partie &quot;example.com&quot;).
 
-**[!UICONTROL Verification URL]:** (Facultatif) Une page web sur laquelle le numéro de téléphone de votre publicité apparaît sous forme de texte, de sorte que [!DNL Google Ads] peut vérifier que le numéro de téléphone est valide. Il doit avoir le même domaine que l’URL d’affichage de la publicité.
+**[!UICONTROL Verification URL]:** (Facultatif) Une page web sur laquelle le numéro de téléphone de votre publicité s’affiche sous forme de texte, de sorte que [!DNL Google Ads] peut vérifier que le numéro de téléphone est valide. Il doit avoir le même domaine que l’URL d’affichage de la publicité.
 
 **[!UICONTROL Is Tracked]:** Active le suivi des appels et les conversions des appels uniquement.
 
-**[!UICONTROL Count calls as phone call conversions]:** (Lorsque &quot;[!UICONTROL Is Tracked]&quot; est sélectionné ; (facultatif) Attribue tous les appels qui résultent de l’annonce à un type spécifique de conversion d’appel téléphonique, lorsqu’un appel est spécifié. Sinon, [!DNL Google Ads] crée une action de conversion par défaut appelée &quot;[!UICONTROL Calls from ads]&quot; une fois qu’il enregistre au moins une conversion à partir de vos numéros de transfert, et qu’il lui attribue des appels.
+**[!UICONTROL Count calls as phone call conversions]:** (Lorsque &quot;[!UICONTROL Is Tracked]&quot; est sélectionné ; facultatif) Attribue tous les appels qui résultent de l’annonce à un type spécifique de conversion d’appel téléphonique, lorsqu’un appel est spécifié. Sinon, [!DNL Google Ads] crée une action de conversion par défaut appelée &quot;[!UICONTROL Calls from ads]&quot; une fois qu’il enregistre au moins une conversion à partir de vos numéros de transfert, et qu’il lui attribue des appels.
 
-**[!UICONTROL Count Action]:** (Lorsque &quot;[!UICONTROL Count calls as phone call conversions]&quot; est sélectionné ; (facultatif) Action de conversion existante à laquelle les appels sont attribués.
+**[!UICONTROL Count Action]:** (Lorsque &quot;[!UICONTROL Count calls as phone call conversions]&quot; est sélectionné ; facultatif) Action de conversion existante à laquelle les appels sont attribués.
 
 Vous pouvez créer et gérer des actions de conversion dans [!DNL Google Ads].
 
@@ -58,4 +60,3 @@ Vous pouvez créer et gérer des actions de conversion dans [!DNL Google Ads].
 >* [Gestion des publicités](ad-manage.md)
 >* [[!DNL Google Ads] paramètres d’annonce de recherche dynamique étendus](ad-settings-google-dsa.md)
 >* [[!DNL Google Ads] paramètres de publicité de recherche réactive](ad-settings-google-rsa.md)
-

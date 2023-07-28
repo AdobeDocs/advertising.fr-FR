@@ -3,7 +3,8 @@ title: Modifier une [!DNL Google Analytics] source de données
 description: Découvrez comment modifier la configuration d’un [!DNL Google Analytics] source de données.
 role: User, Admin
 exl-id: a23444f7-8f4c-42ba-b5fe-a325fb18136d
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 1%
@@ -28,7 +29,7 @@ ht-degree: 1%
 >
 >* [A propos de la synchronisation [!DNL Google Analytics] mesures de conversion](data-source-about.md)
 >* [Conditions préalables à la configuration d’un [!DNL Google Analytics] source de données](data-source-prerequisites.md)
->* [Configurez une [!DNL Google Analytics] vue en tant que source de données](data-source-configure.md)
+>* [Configurez une [!DNL Google Analytics] vue comme source de données](data-source-configure.md)
 >* [Suspension de la synchronisation d’une source de données](data-source-pause.md)
 >* [Réauthentifier un [!DNL Google Analytics] source de données](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] paramètres de source de données](data-source-settings.md)

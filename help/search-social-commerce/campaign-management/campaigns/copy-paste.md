@@ -1,14 +1,16 @@
 ---
-title: Créer et modifier des données de campagne en bloc à l’aide de la fonction copier-coller
+title: Créer et modifier des données de campagne en bloc à l’aide du copier-coller
 description: Découvrez comment gérer les données de campagne en bloc à l’aide de la fonction copier-coller.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 09454f19-221b-43bb-ac74-f2c121329422
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
 
 ---
 
-# Créer et modifier des données de campagne en bloc à l’aide de la fonction copier-coller
+# Créer et modifier des données de campagne en bloc à l’aide du copier-coller
 
 *[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], et [!DNL Yandex] comptes uniquement*
 
@@ -30,7 +32,7 @@ Vous pouvez utiliser cette fonction pour modifier des objets de campagne existan
 
    Vous pouvez également utiliser la commande de clavier &quot;copy&quot; de votre système d’exploitation, telle que **[!DNL Ctrl+C]** pour [!DNL Microsoft Windows] ou **[!DNL Command-C]** pour [!DNL Apple Mac].
 
-1. Dans le [!UICONTROL Copy to Clipboard] boîte de dialogue, cliquez sur **[!UICONTROL Continue]**. Lorsque les données sont prêtes à être copiées, cliquez sur **[!UICONTROL Copy]**.
+1. Dans le [!UICONTROL Copy to Clipboard] boîte de dialogue, cliquez **[!UICONTROL Continue]**. Lorsque les données sont prêtes à être copiées, cliquez sur **[!UICONTROL Copy]**.
 
 1. Collez les lignes dans [!DNL Excel] ou un autre éditeur.
 
@@ -38,13 +40,13 @@ Vous pouvez utiliser cette fonction pour modifier des objets de campagne existan
 
 1. Modifiez les données en fonction des exigences suivantes :
 
-   * Les données collées doivent inclure une rangée d’en-tête et les valeurs d’objet de campagne nécessaires. voir les colonnes de la feuille de support pour [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Publicités Google](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Publicité Microsoft](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo ! Réseau d’affichage](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md), [Yahoo ! Japon](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), et [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md). L&#39;ordre des colonnes n&#39;a pas d&#39;importance.
+   * Les données collées doivent inclure une rangée d’en-tête et les valeurs d’objet de campagne nécessaires. Pour [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Publicités Google](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Publicité Microsoft](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo ! Réseau d’affichage](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md), [Yahoo ! Japon](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), et [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md). L&#39;ordre des colonnes n&#39;a pas d&#39;importance.
 
-      * Pour les objets existants que vous souhaitez modifier, vous devez inclure toutes les colonnes d’ID, les noms d’entité et l’attribut à modifier. Ne modifiez pas l’identifiant numérique de l’objet.
+      * Pour les objets existants que vous souhaitez modifier, vous devez inclure toutes les colonnes d’identifiants, les noms d’entité et l’attribut à modifier. Ne modifiez pas l’identifiant numérique de l’objet.
 
       * Pour les nouveaux objets de campagne, incluez tous les noms et attributs d’entité pertinents, mais n’incluez pas d’ID d’objet (qui sont générés automatiquement). Par exemple, si vous créez une publicité, laissez le champ [!UICONTROL Ad ID] champ vide. Le réseau publicitaire crée automatiquement un identifiant lorsque vous publiez l’objet.
-   * La valeur de toute colonne non requise peut être nulle (vide), mais chaque ligne doit comporter le même nombre de valeurs séparées par des tabulations.
 
+   * La valeur de toute colonne non requise peut être nulle (vide), mais chaque ligne doit comporter le même nombre de valeurs séparées par des tabulations.
 
 1. Enregistrez les données en tant que valeurs séparées par des tabulations.
 
@@ -81,4 +83,3 @@ Vous pouvez utiliser cette fonction pour modifier des objets de campagne existan
 >* [Gestion des groupes d’annonces](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
 >* [Gestion des mots-clés](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
 >* [Gestion des publicités](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)
-

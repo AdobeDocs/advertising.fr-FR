@@ -1,7 +1,9 @@
 ---
 title: Activer le téléchargement des objectifs vers les réseaux publicitaires
 description: Découvrez comment télécharger des objectifs pour vos portefeuilles hybrides vers [!DNL Google Ads] et [!DNL Microsoft® Advertising].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -14,9 +16,9 @@ ht-degree: 0%
 
 *Publicitaires activés uniquement pour l’optimisation hybride*
 
-Si votre compte publicitaire est configuré pour utiliser l’optimisation hybride, Adobe Advertising peut éventuellement télécharger les objectifs des portfolios du compte vers [!DNL Google Ads] et [!DNL Microsoft® Advertising] en tant que conversions afin que vous puissiez les utiliser pour l’optimisation hybride.
+Si votre compte publicitaire est configuré pour utiliser l’optimisation hybride, Adobe Advertising peut éventuellement télécharger les objectifs des portefeuilles du compte vers [!DNL Google Ads] et [!DNL Microsoft® Advertising] en tant que conversions afin que vous puissiez les utiliser pour l’optimisation hybride.
 
-L’activation de cette option déclenche automatiquement un chargement pour les portfolios qui contiennent des campagnes avec des stratégies d’offres intelligentes. Search, Social et Commerce crée une conversion sur le réseau publicitaire pour chaque combinaison portefeuille-objectif applicable. Chaque conversion porte le nom `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`où `<portfolio_id>` est l’identifiant numérique de portefeuille et `<se_acctid/conversion_manager_se_acctid>` est l’identifiant numérique du compte réseau publicitaire ou du compte de gestionnaire. La conversion représente toutes les propriétés de transaction pondérées de l’objectif.
+L’activation de cette option déclenche automatiquement un chargement pour les portfolios qui contiennent des campagnes avec des stratégies d’offres intelligentes. Search, Social et Commerce crée une conversion sur le réseau publicitaire pour chaque combinaison portefeuille-objectif applicable. Chaque conversion porte le nom `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`, où `<portfolio_id>` est l’identifiant numérique de portefeuille et `<se_acctid/conversion_manager_se_acctid>` est l’identifiant numérique du compte réseau publicitaire ou du compte de gestionnaire. La conversion représente toutes les propriétés de transaction pondérées de l’objectif.
 
 Téléchargements vers [!DNL Google Ads] surviennent tous les jours à 06h00 dans le fuseau horaire de l’annonceur. Téléchargements vers [!DNL Microsoft® Advertising] surviennent tous les jours à 09h00 dans le fuseau horaire de l’annonceur.
 
@@ -26,7 +28,7 @@ Téléchargements vers [!DNL Google Ads] surviennent tous les jours à 06h00 dan
 
 1. Cochez la case en regard de **[!UICONTROL Enable Objective Upload]**.
 
-   Cette option est disponible uniquement si votre compte publicitaire est configuré pour utiliser l’optimisation hybride. Pour activer l’optimisation hybride, contactez votre équipe de compte Adobe.
+   Cette option est disponible uniquement si votre compte publicitaire est configuré pour utiliser l’optimisation hybride. Pour activer l’optimisation hybride, contactez votre équipe de compte d’Adobe.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -36,4 +38,3 @@ Téléchargements vers [!DNL Google Ads] surviennent tous les jours à 06h00 dan
 >
 >* [À propos de la gestion des propriétés de transaction d’un annonceur](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
 >* [Chargement des mesures de conversion dans [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
-

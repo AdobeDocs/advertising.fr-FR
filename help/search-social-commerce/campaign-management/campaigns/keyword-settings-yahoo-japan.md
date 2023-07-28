@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Yahoo! Japan Ads] paramètres de mots-clés"
+title: '''[!DNL Yahoo! Japan Ads] paramètres de mots-clés'
 description: Référencez les paramètres pour [!DNL Yahoo! Japan Ads] mots-clés.
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+exl-id: cfb6ad85-1478-44af-a132-6b41278acd32
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés. Séparez plusieurs mot
 
 >[!NOTE]
 >
->* Vous pouvez créer des mots-clés négatifs à partir du [!UICONTROL Keywords] > [!UICONTROL Negatives] afficher et dans les paramètres du groupe publicitaire et de la campagne.
+>* Vous pouvez créer des mots-clés négatifs à partir de la variable [!UICONTROL Keywords] > [!UICONTROL Negatives] afficher et dans les paramètres du groupe publicitaire et de la campagne.
 >* Yahoo ! Les mots-clés japonais et les types de correspondance sont modifiables, ce qui signifie que vous pouvez les modifier sans supprimer le mot-clé existant.
 
 **[!UICONTROL Status]:** L’état d’affichage du mot-clé : *Principal* ou *En pause*. La valeur par défaut des nouveaux mots-clés est *Principal*.

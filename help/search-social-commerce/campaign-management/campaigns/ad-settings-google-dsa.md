@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] paramètres d’annonce de recherche dynamique étendue"
+title: '''[!DNL Google Ads] paramètres d’annonces de recherche dynamique étendus'
 description: Référencez les paramètres pour [!DNL Google Ads] publicités de recherche dynamique étendues.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e7b3a4c2-1cdb-45d7-bf87-ca26947dd1a4
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
@@ -38,4 +40,3 @@ Voir l’aide de Google Ads pour [limites publicitaires par compte](https://supp
 >* [Gestion des publicités](ad-manage.md)
 >* [[!DNL Google Ads] paramètres d’annonce d’appel uniquement](ad-settings-google-call.md)
 >* [[!DNL Google Ads] paramètres de publicité de recherche réactive](ad-settings-google-rsa.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Création d’une classification d’étiquettes
 description: Découvrez comment créer une classification d’étiquettes pour regrouper les composants de votre compte.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a7f6ca43-e829-4295-96bc-27ce8858227a
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -30,4 +32,3 @@ Une fois que vous avez créé une classification d’étiquettes, vous pouvez cr
 >* [Suppression des valeurs de classification d’étiquette des composants de compte](classification-values-remove.md)
 >* [Supprimer des valeurs de classification d’étiquettes](classification-values-delete.md)
 >* [Supprimer des classifications d’étiquettes](classification-delete.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Écrire une copie de publicité textuelle effective
 description: Découvrez les bonnes pratiques pour créer une copie de publicité efficace.
-source-git-commit: c31c8615ecbd24b03c47563aee499fc1d865ea36
+exl-id: 17feba02-e49a-4550-aca8-d9b06d427a7e
+feature: Search Best Practices
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -50,7 +52,7 @@ ht-degree: 0%
 
 * Incluez le produit, le service et d’autres détails (tels que les promotions) dans la description/le corps.
 
-* Atteignez le point rapidement : inclure les informations les plus pertinentes sur la société en premier.
+* Soyez rapide : incluez d’abord les informations les plus pertinentes sur l’entreprise.
 
 * Associez votre publicité aux offres qui se trouvent sur la page d’entrée pour aider les utilisateurs à terminer le cycle de vente.
 
@@ -60,13 +62,13 @@ ht-degree: 0%
 
 * Si possible, utilisez le mot-clé à la fois dans le titre et dans les deux lignes de la description/du corps. [1]
 
-* Incluez toujours un appel à l’action dans le texte, tel que &quot;Afficher&quot;, &quot;Exclure&quot;, &quot;Commande&quot; ou &quot;S’inscrire&quot;, afin d’augmenter le taux de clics publicitaires. Pour les publicités avec image, incluez l’appel à l’action sur un bouton permettant d’accéder à votre site web ; pour les publicités multimédias riches, incluez l’appel à l’action dans une première image.
+* Incluez toujours un appel à l’action dans le texte, tel que &quot;Afficher&quot;, &quot;Exclure&quot;, &quot;Commande&quot; ou &quot;S’inscrire&quot;, pour augmenter le taux de clics publicitaires. Pour les publicités avec image, incluez l’appel à l’action sur un bouton lié à votre site web ; pour les publicités multimédias enrichies, incluez l’appel à l’action dans un cadre anticipé.
 
 * Soyez sensible à la manière dont l’annonceur souhaite que sa marque soit perçue. Par exemple, un annonceur peut ne pas vouloir que le mot &quot;bon marché&quot; apparaisse dans ses publicités.
 
 * Cherchez ce que font vos concurrents. Examinez les principales publicités pour obtenir un espace (sur des sites comme www.spyfu.com) et essayez de comprendre quelles publicités fonctionnent.
 
-[1]: Si vous utilisez l’insertion de mots-clés, utilisez la bonne mise en majuscules pour le code d’insertion :
+[1]: si vous utilisez l’insertion de mots-clés, utilisez la mise en majuscules correcte pour le code d’insertion :
 
 `{keyword:default}` = tondeuses à gazon
 

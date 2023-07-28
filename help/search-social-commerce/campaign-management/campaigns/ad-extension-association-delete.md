@@ -1,7 +1,9 @@
 ---
 title: Supprimer des associations d’extension d’annonce avec des campagnes et des groupes d’annonces
 description: Découvrez comment dissocier des extensions d’annonces avec des campagnes et des groupes d’annonces.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 89aa556b-65fa-43de-989a-f58f0bbcf1f2
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Vous pouvez supprimer les associations au niveau des campagnes et des groupes pu
 
 1. Cochez la case en regard de chaque association que vous souhaitez supprimer.
 
-   Pour plus d’informations sur la sélection de plusieurs lignes, &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Pour des conseils sur la sélection de plusieurs lignes, &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
 1. Dans la barre d’outils, cliquez sur ![Plus](/help/search-social-commerce/assets/more.png "Plus") et sélectionnez **[!UICONTROL Delete]**.
 
@@ -29,4 +31,3 @@ Vous pouvez supprimer les associations au niveau des campagnes et des groupes pu
 >* [Gérer [!DNL Google Ads] Extensions de légende](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
 >* [Gestion des extensions d’emplacement](location-extension-manage.md)
 >* [Gestion des extensions de lien de site](sitelink-extension-manage.md)
-

@@ -1,7 +1,9 @@
 ---
 title: À propos des extensions sitelink
 description: Découvrez les extensions de lien de site.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bf4ef112-7a9f-4e8a-8f04-06ed123c862a
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -16,9 +18,9 @@ Un lien de site est un lien texte supplémentaire dans une liste de publicités 
 
 Vous créez du texte et des paramètres de lien de site partagé, y compris les dates auxquelles les liens de site peuvent apparaître avec les publicités, au niveau du compte.
 
-## Le [!UICONTROL Sitelinks] et [!UICONTROL Associations] views
+## La variable [!UICONTROL Sitelinks] et [!UICONTROL Associations] views
 
-Le [!UICONTROL Extensions] > [!UICONTROL Sitelinks] bibliothèque dans [!UICONTROL Campaigns] > [!UICONTROL Campaigns] répertorie tous les liens de site au niveau du compte. Vous pouvez y créer et gérer vos liens de site partagés. Consultez l’aide sur le réseau publicitaire pour connaître le nombre maximal d’extensions de publicité par [[!DNL Google Ads] account](https://support.google.com/google-ads/answer/6372658) et par [[!DNL Microsoft® Advertising] account](https://help.ads.microsoft.com/#apex/3/en/52001). Les liens de site dans votre bibliothèque ne sont pas utilisés avec vos publicités tant que vous ne les affectez pas aux entités de compte.
+La variable [!UICONTROL Extensions] > [!UICONTROL Sitelinks] bibliothèque dans [!UICONTROL Campaigns] > [!UICONTROL Campaigns] répertorie tous les liens de site au niveau du compte. Vous pouvez y créer et gérer vos liens de site partagés. Consultez l’aide sur le réseau publicitaire pour connaître le nombre maximal d’extensions de publicité par [[!DNL Google Ads] account](https://support.google.com/google-ads/answer/6372658) et par [[!DNL Microsoft® Advertising] account](https://help.ads.microsoft.com/#apex/3/en/52001). Les liens de site dans votre bibliothèque ne sont pas utilisés avec vos publicités tant que vous ne les affectez pas aux entités de compte.
 
 Dans la [!UICONTROL Extensions] > [!UICONTROL Associations] vous pouvez affecter n’importe lequel de vos liens de site comme extensions possibles à toutes les publicités au niveau du compte ([!DNL Google Ads] uniquement), au niveau de la campagne ou au niveau du groupe publicitaire ([!DNL Google Ads] uniquement).
 
@@ -26,10 +28,9 @@ Dans la [!UICONTROL Extensions] > [!UICONTROL Associations] vous pouvez affecter
 
 Search, Social et Commerce associe les clics sur une extension d’annonce et la conversion qui en résulte au mot-clé associé à la publicité dans laquelle l’extension est incluse. Les données de clic ou de coût au niveau de l’extension ne sont pas disponibles dans Search, Social et Commerce. Toutefois, dans [la valeur [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md), vous pouvez déterminer si une transaction a résulté d’un lien de site (plutôt que de la publicité elle-même) lorsque la valeur de la colonne Type de lien est répertoriée comme `sl:<Sitelink text>`, par exemple sl:Voir Offres actives.
 
-Dans [!DNL Google Ads] et [!DNL Microsoft® Advertising], vous pouvez afficher le coût et cliquer sur les données dans le [!DNL Ad Extensions] .
+Dans [!DNL Google Ads] et [!DNL Microsoft® Advertising], vous pouvez afficher le coût et cliquer sur les données dans la variable [!DNL Ad Extensions] .
 
 >[!MORELIKETHIS]
 >
 >* [Gestion des extensions de lien de site partagé](sitelink-extension-manage.md)
 >* [Association d’extensions de lien de site partagées à des campagnes ou des groupes publicitaires](sitelink-extension-associate.md)
-

@@ -1,14 +1,16 @@
 ---
-title: "[!UICONTROL Forecast Accuracy Report]"
+title: '[!UICONTROL Forecast Accuracy Report]'
 description: Découvrez le rapport Précision des prévisions, y compris les colonnes de données.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
+feature: Search Reports, Search Model Accuracy Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
 
 ---
 
-# Le [!UICONTROL Forecast Accuracy Report]
+# La variable [!UICONTROL Forecast Accuracy Report]
 
 Le rapport indique la précision des modèles de coûts et de recettes par jour pour des portefeuilles spécifiques. Par défaut, il inclut les recettes quotidiennes prévues et réelles, le coût et les clics — ainsi que l&#39;exactitude des prévisions — pour chaque portefeuille. Il comprend les données des campagnes qui sont actuellement mappées aux portefeuilles.
 
@@ -24,7 +26,6 @@ Vous pouvez afficher les données des 18 mois précédents.
 >
 >* Lorsque des mots-clés du portefeuille sont associés à des contraintes de changement d’offre, le portefeuille est surchargé ou sous-dépensé en fonction du montant total dû au changement d’offre. Par conséquent, les colonnes de coûts prédites s’écartent des dépenses cibles par rapport à l’augmentation ou à la diminution des dépenses.
 
-
 ## Colonnes disponibles
 
 Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colonnes par défaut sont automatiquement incluses par défaut. Vous pouvez ajouter les colonnes personnalisées disponibles à partir de la fonction [!UICONTROL Columns] des paramètres du rapport.
@@ -32,7 +33,7 @@ Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colo
 | Colonne | Par défaut ? | Description |
 |----|----|----|
 | [!UICONTROL Portfolio] | Par défaut | Le portefeuille. |
-| [!UICONTROL Day of Week] | Par défaut | Le jour de la semaine rapportait : <i>[!UICONTROL Sunday]</i>, <i>[!UICONTROL Monday]</i>, <i>[!UICONTROL Tuesday]</i>, <i>[!UICONTROL Wednesday]</i>, <i>[!UICONTROL Thursday]</i>, <i>[!UICONTROL Friday]</i>ou <i>[!UICONTROL Saturday]</i>. |
+| [!UICONTROL Day of Week] | Par défaut | Le jour de la semaine rapportait : <i>[!UICONTROL Sunday]</i>, <i>[!UICONTROL Monday]</i>, <i>[!UICONTROL Tuesday]</i>, <i>[!UICONTROL Wednesday]</i>, <i>[!UICONTROL Thursday]</i>, <i>[!UICONTROL Friday]</i>, ou <i>[!UICONTROL Saturday]</i>. |
 | [!UICONTROL Start Date] | Par défaut | Le premier jour a été rapporté. |
 | [!UICONTROL End Date] | Par défaut | Le dernier jour rapporté. |
 | [!UICONTROL Predicted Revenue] | Par défaut | Les recettes prévues pour le portefeuille. |
@@ -53,7 +54,6 @@ Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colo
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports de précision des modèles](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
->* [Le [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+>* [La variable [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 >* [Génération d’un rapport de précision de modèle](model-accuracy-report-generate.md)
 >* [Paramètres du rapport Précision des modèles](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
-

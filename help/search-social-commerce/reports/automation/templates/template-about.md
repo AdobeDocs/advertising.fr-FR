@@ -1,7 +1,9 @@
 ---
 title: A propos des modèles de rapport
 description: Découvrez les modèles de rapport réutilisables.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 15f05c8c-7dcf-4965-9ded-155d79346634
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 Les modèles de rapport sont des dispositions de rapports prédéfinies que vous pouvez réutiliser lors de la génération de la plupart des rapports. L’utilisation de modèles vous permet de gagner du temps si vous souhaitez utiliser des paramètres autres que les paramètres par défaut ou exécuter des variantes d’un même rapport, ou si vous souhaitez exécuter le même rapport selon un planning régulier. Les modèles de rapport enregistrés sont disponibles dans la section Modèles de rapport de la page Rapports .
 
-Pour tout type de rapport de performances, vous pouvez enregistrer plusieurs modèles de rapport, les créer entièrement ou les baser sur des modèles existants. Vous pouvez également modifier les paramètres de tout modèle de rapport que vous avez créé. les nouveaux paramètres sont appliqués aux rapports qui utilisent le modèle généré ultérieurement. Vous pouvez exécuter des rapports pour un ou plusieurs modèles à tout moment.
+Pour tout type de rapport de performances, vous pouvez enregistrer plusieurs modèles de rapport, les créer entièrement ou les baser sur des modèles existants. Vous pouvez également modifier les paramètres de tout modèle de rapport que vous avez créé. Les nouveaux paramètres sont appliqués aux rapports qui utilisent le modèle généré ultérieurement. Vous pouvez exécuter des rapports pour un ou plusieurs modèles à tout moment.
 
 Vous pouvez également supprimer tout modèle à votre disposition. Lorsque vous supprimez un modèle qui comprend un planning, ce rapport n’est plus généré à l’avenir.
 
@@ -24,4 +26,3 @@ Vous pouvez gérer jusqu’à 100 modèles à la fois.
 >* [Modifier un modèle de rapport](template-edit.md)
 >* [Affichage d’un modèle de rapport](template-view.md)
 >* [Suppression de modèles de rapport](template-delete.md)
-

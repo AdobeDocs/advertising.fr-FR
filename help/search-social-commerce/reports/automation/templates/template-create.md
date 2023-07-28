@@ -1,7 +1,9 @@
 ---
 title: Créer un modèle de rapport
 description: Découvrez comment créer un modèle de rapport réutilisable.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cd734539-ab01-4106-9998-e2ed994209b2
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -26,7 +28,7 @@ Vous pouvez enregistrer plusieurs modèles de rapport pour n’importe quel type
 
       * Spécifiez les paramètres du rapport.
 
-         Le &quot;[!UICONTROL Save as Template]&quot; est automatiquement sélectionné.
+        Le &quot;[!UICONTROL Save as Template]&quot; est automatiquement sélectionné.
 
 * Pour créer un modèle basé sur un modèle existant :
 
@@ -36,7 +38,7 @@ Vous pouvez enregistrer plusieurs modèles de rapport pour n’importe quel type
 
    1. Cliquez sur le nom du modèle, puis modifiez les paramètres du rapport si nécessaire.
 
-   1. Cochez la case en regard de **[!UICONTROL Save as template]** (en regard du nom du rapport), saisissez un nouveau nom de rapport, puis cliquez sur **[!UICONTROL Update Template]**.
+   1. Cochez la case en regard de **[!UICONTROL Save as template]** (en regard du nom du rapport), saisissez un nouveau nom, puis cliquez sur **[!UICONTROL Update Template]**.
 
 >[!MORELIKETHIS]
 >
@@ -44,4 +46,3 @@ Vous pouvez enregistrer plusieurs modèles de rapport pour n’importe quel type
 >* [Modifier un modèle de rapport](template-edit.md)
 >* [Affichage d’un modèle de rapport](template-view.md)
 >* [Suppression de modèles de rapport](template-delete.md)
-

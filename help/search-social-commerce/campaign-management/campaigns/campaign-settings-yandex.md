@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Yandex] paramètres de campagne"
+title: '''[!DNL Yandex] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Yandex] campagnes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 33e73b90-7a37-4be7-b96d-02ef8bfdb79e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -14,9 +16,9 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Type]:** (Disponible uniquement lors de la création de la campagne) Où placer les publicités :
 
-* *[!UICONTROL Search Network Only]:* Affiche des publicités textuelles sur le réseau de recherche. Vous devez spécifier des mots-clés pour chaque groupe publicitaire.
+* *[!UICONTROL Search Network Only]:* Affiche des publicités texte sur le réseau de recherche. Vous devez spécifier des mots-clés pour chaque groupe publicitaire.
 
-* *[!UICONTROL Search and Display Network]:* Affiche des publicités textuelles sur le réseau de recherche et le [!DNL Yandex Advertising Network]. Pour les annonces de recherche, vous devez spécifier des mots-clés de recherche pour chaque groupe d’annonces. pour les publicités display, vous devez spécifier des mots-clés pour les sites web sur lesquels vous souhaitez faire de la publicité pour chaque groupe publicitaire.
+* *[!UICONTROL Search and Display Network]:* Affiche des publicités textuelles sur le réseau de recherche et le [!DNL Yandex Advertising Network]. Pour les publicités de recherche, vous devez spécifier des mots-clés de recherche pour chaque groupe publicitaire. Pour les publicités affichées, vous devez spécifier des mots-clés pour les sites web sur lesquels vous souhaitez faire de la publicité pour chaque groupe publicitaire.
 
 * *[!UICONTROL Display Network Only]:* Affiche des publicités textuelles sur la page [!DNL Yandex Advertising Network]. Pour chaque groupe d’annonces, vous devez spécifier des mots-clés pour les sites web sur lesquels vous souhaitez faire de la publicité.
 
@@ -77,4 +79,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Gestion des campagnes](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

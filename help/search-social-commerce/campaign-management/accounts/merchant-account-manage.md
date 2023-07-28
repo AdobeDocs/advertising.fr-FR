@@ -1,7 +1,9 @@
 ---
 title: Gestion des comptes de commerce
 description: Découvrez comment configurer et gérer les détails d’un compte de centre commercial.
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+exl-id: eca58f55-f056-46b3-b192-2849690e8bcc
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Search, Social et Commerce peuvent télécharger et afficher des données sur le
 
 >[!NOTE]
 >
->Vous ne pouvez pas supprimer un enregistrement de compte marchand. Vous pouvez désactiver l’accès à un compte en définissant le type de compte sur *disabled*.
+>Vous ne pouvez pas supprimer un enregistrement de compte marchand. Vous pouvez désactiver l’accès à un compte en définissant son type sur *disabled*.
 
 ## Création de détails de compte commercial {#create-merchant-account}
 
@@ -36,7 +38,7 @@ Pour afficher les données de produit et générer des modèles de suivi pour un
 
    1. Dans le [!UICONTROL Product Source] sélectionnez le centre commercial.
 
-   1. (Obligatoire pour [!DNL Google Ads] les comptes; facultatif pour [!DNL Microsoft Advertising] ) Autoriser Search, Social et Commerce à accéder au compte à l’aide de la variable [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/):
+   1. (Obligatoire pour [!DNL Google Ads] comptes ; facultatif pour [!DNL Microsoft Advertising] ) Autoriser Search, Social et Commerce à accéder au compte à l’aide de la variable [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] Comptes uniquement) Sélectionnez **[!UICONTROL oAuth]**.
 
@@ -66,7 +68,7 @@ Si les informations d’identification du compte changent ou si vous souhaitez a
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]\> [!UICONTROL Campaigns] \>[!UICONTROL Products]**, qui s’ouvre sur le [!UICONTROL Accounts] .
 
-1. En regard du nom du compte, cliquez sur ![Paramètres d’affichage/de modification](/help/search-social-commerce/assets/settings.png "Paramètres d’affichage/de modification").
+1. En regard du nom du compte, cliquez sur ![Afficher/modifier les paramètres](/help/search-social-commerce/assets/settings.png "Afficher/modifier les paramètres").
 
 1. Modifiez la variable [paramètres du compte commercial](#merchant-account-settings).
 
@@ -84,13 +86,13 @@ Lorsque vous désactivez un compte marchand, Search, Social et Commerce ne se co
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** , qui s’ouvre sur le [!UICONTROL Accounts] .
 
-1. En regard du nom du compte, cliquez sur ![Paramètres d’affichage/de modification](/help/search-social-commerce/assets/settings.png "Paramètres d’affichage/de modification").
+1. En regard du nom du compte, cliquez sur ![Afficher/modifier les paramètres](/help/search-social-commerce/assets/settings.png "Afficher/modifier les paramètres").
 
 1. Modifiez la variable [!UICONTROL EF Account Type] to **[!UICONTROL Disabled]**.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
-## Paramètres du compte commercial {#merchant-account-settings}
+## Paramètres du compte marchand {#merchant-account-settings}
 
 >[!NOTE]
 >
@@ -104,7 +106,7 @@ Lorsque vous désactivez un compte marchand, Search, Social et Commerce ne se co
 
 * *[!UICONTROL Client login]:* Pour utiliser la connexion du client.
 
-* *[!UICONTROL oAuth]* (valeur par défaut) : Pour utiliser la variable [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/).
+* *[!UICONTROL oAuth]* (valeur par défaut) : pour utiliser la variable [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/).
 
 **[!UICONTROL Access Key]:** ([!DNL Microsoft Merchant Center] uniquement) La clé d’accès du compte de développeur à utiliser.
 
@@ -118,7 +120,7 @@ Lorsque vous désactivez un compte marchand, Search, Social et Commerce ne se co
 
 **[!UICONTROL EF Account Type]:** Si Search, Social et Commerce accède au compte :
 
-* *[!UICONTROL Enabled]* (valeur par défaut) : Search, Social et Commerce peuvent se connecter au compte pour récupérer les données de produit.
+* *[!UICONTROL Enabled]* (valeur par défaut) : Search, Social et Commerce peut se connecter au compte pour récupérer les données de produit.
 
 * *[!UICONTROL Disabled]:* Search, Social et Commerce ne se connecte pas au compte et ne récupère donc pas les données de produit mises à jour. Les données collectées lors de l’activation du compte sont toujours stockées et les publicités existantes créées à l’aide des données de produit ne sont pas mises à jour, mises en pause ou supprimées selon le modèle de flux et les paramètres des données de flux.
 

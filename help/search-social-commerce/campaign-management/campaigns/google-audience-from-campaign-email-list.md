@@ -1,7 +1,9 @@
 ---
 title: Créez un [!DNL Google Ads] audience de correspondance client provenant d’une liste de messagerie Adobe Campaign
 description: Découvrez comment créer une [!DNL Google Ads] audience de correspondance client provenant d’une liste de messagerie Adobe Campaign existante.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 967580fc-52c3-42f5-8d60-18cb83bc714a
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -31,6 +33,7 @@ Pour ce faire, vous devez accéder à [!DNL Campaign] et un fichier XML contenan
       1. Saisissez l’URL et le numéro de port pour la variable [!DNL Adobe] Serveur SFTP et nom de dossier, nom d’utilisateur et mot de passe de l’annonceur.
 
       1. Cliquez sur **[!UICONTROL Save]**.
+
    1. Dans [!DNL Campaign Client], installez le package de données qui inclut le workflow requis pour envoyer les données d’email :
 
       1. Dans la barre de menus, accédez à **[!UICONTROL Tools]> [!UICONTROL Advanced] >[!UICONTROL Import Package]**.
@@ -40,6 +43,7 @@ Pour ce faire, vous devez accéder à [!DNL Campaign] et un fichier XML contenan
       1. Recherchez le fichier de package de données (`AMO_Workflow.xml`) sur l’appareil ou le réseau, puis cliquez sur **[!UICONTROL Next]**.
 
       1. Cliquez sur **[!UICONTROL Start]** et attendez que le workflow soit installé.
+
    1. Editez le workflow installé pour éditer éventuellement les filtres pour la requête de données et identifier le nouveau nom d&#39;audience et le compte SFTP externe :
 
       1. Accédez à **[!UICONTROL Administration]> [!UICONTROL Configuration] > [!UICONTROL Package management] >[!UICONTROL Installed packages]** et ouvrez le module.
@@ -51,29 +55,31 @@ Pour ce faire, vous devez accéder à [!DNL Campaign] et un fichier XML contenan
          * Editez les expressions de filtre.
 
          * Cliquez sur **[!UICONTROL Finish]**.
+
       1. Nommez le segment :
 
          * Dans le workflow, double-cliquez sur l&#39;activité **[!UICONTROL Data extraction (File)]**.
 
          * Sur la page **[!UICONTROL Data extraction (File)]** , dans le **[!UICONTROL File name]** , saisissez le nom du segment avec l’extension &quot;`.added`&quot; (comme PaidSubscribers.added).
 
-            Le nom du segment ne doit pas déjà exister. Le nom du segment est sensible à la casse. Il doit contenir des caractères ASCII, mais il ne peut pas contenir de traits de soulignement (`_`).
+           Le nom du segment ne doit pas déjà exister. Le nom du segment est sensible à la casse. Il doit contenir des caractères ASCII, mais il ne peut pas contenir de traits de soulignement (`_`).
 
-            Cependant, si vous souhaitez ajouter le segment à un [!DNL Google Ad] , puis ajoutez le nom du segment avec un trait de soulignement et le [!UICONTROL User SE Account ID] (Identifiant de recherche, de Social et de Commerce pour la variable [!DNL Google Ads] (et non l’identifiant de compte du réseau) :
+           Cependant, si vous souhaitez ajouter le segment à un [!DNL Google Ad] , puis ajoutez le nom du segment avec un trait de soulignement et le [!UICONTROL User SE Account ID] (Identifiant de recherche, de Social et de Commerce pour la variable [!DNL Google Ads] (et non l’identifiant de compte du réseau) :
 
-            `_<User SE Account ID>`
+           `_<User SE Account ID>`
 
-            Exemple : Paid_Subscribers_1234.added
+           Exemple : Paid_Subscribers_1234.added
 
-            >[!NOTE]
-            >
-            >Il s’agit d’une exception à la règle qui interdit les traits de soulignement dans le nom de fichier.
+           >[!NOTE]
+           >
+           >Il s’agit d’une exception à la règle qui interdit les traits de soulignement dans le nom de fichier.
 
-            Sinon, le segment est ajouté à tous les [!DNL Google Ads] comptes que Search, Social et Commerce synchronise pour l’annonceur.
+           Sinon, le segment est ajouté à tous les [!DNL Google Ads] comptes que Search, Social et Commerce synchronise pour l’annonceur.
 
          * Laissez l’option sur **[!UICONTROL Generate an outbound transition]** sélectionné.
 
          * Cliquez sur **[!UICONTROL Ok]**.
+
       1. Indiquez le compte externe auquel envoyer les données :
 
          * Dans le workflow, double-cliquez sur l&#39;activité **[!UICONTROL File Transfer]**.
@@ -86,13 +92,9 @@ Pour ce faire, vous devez accéder à [!DNL Campaign] et un fichier XML contenan
 
          * (Facultatif) Sur la page **[!UICONTROL Schedule]** , indiquez un autre planning pour le transfert de fichier.
 
-            Par défaut, le workflow est exécuté à 00:00 (minuit), ce qui garantit le traitement de tous les enregistrements. Pour minimiser la latence, planifiez l’exécution du workflow au plus tard à 18h00.
+           Par défaut, le workflow est exécuté à 00:00 (minuit), ce qui garantit le traitement de tous les enregistrements. Pour minimiser la latence, planifiez l’exécution du workflow au plus tard à 18h00.
 
          * Cliquez sur **[!UICONTROL Ok]**.
-
-
-
-
 
 Search, Social et Commerce vérifie le répertoire toutes les 30 minutes (à NN:30 et NN:59 dans le fuseau horaire de l’annonceur), déplace les fichiers qu’il trouve vers un autre emplacement, puis crée automatiquement une audience à partir des données et la transmet à Google à 22h00 (22h00). Search, Social et Commerce continue de rechercher toutes les 30 minutes des mises à jour (ajouts et soustractions) de la liste des emails et de mettre à jour l’audience sur la page [!DNL Google Ads] à 02h00 par jour.
 
@@ -106,11 +108,9 @@ Search, Social et Commerce vérifie le répertoire toutes les 30 minutes (à NN:
 >
 >* Voir [[!DNL Google Ads] documentation sur le fonctionnement et les limitations des correspondances client](https://support.google.com/displayvideo/answer/9539301).
 
-
 >[!MORELIKETHIS]
 >
 >* [A propos des audiences](audience-about.md)
 >* [Créer [!DNL Google Ads] audiences de correspondance client provenant de [!DNL Adobe] audiences](google-audience-from-adobe-audience.md)
 >* [Gestion des audiences de correspondance client à l’aide des listes de données client](audience-from-customer-data-list.md)
 >* [Gestion des audiences de remarketing dynamique](audience-dynamic-remarketing-manage.md)
-

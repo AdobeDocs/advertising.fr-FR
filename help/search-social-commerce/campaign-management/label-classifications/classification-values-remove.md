@@ -1,7 +1,9 @@
 ---
 title: Suppression des valeurs de classification d’étiquette des composants de compte
 description: Découvrez comment supprimer des associations entre les valeurs de classification d’étiquettes et les composants de compte.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0e7ef344-7f23-40bc-9841-dc0354ad7f07
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -26,7 +28,7 @@ La suppression d’une valeur de classification supprime l’association avec le
 
       * Cochez la case en regard de chaque ligne.
 
-         Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Plus](/help/search-social-commerce/assets/more.png "Plus"), puis cliquez sur **[!UICONTROL Classification]**.
 
@@ -40,7 +42,7 @@ La suppression d’une valeur de classification supprime l’association avec le
 
 1. (Facultatif) Saisissez des détails supplémentaires :
 
-   * En regard de **[!UICONTROL Additional Details]**, cliquez sur ![Ouvrir](/help/search-social-commerce/assets/chevron-up.png "Ouvrir") pour développer les détails.
+   * Suivant **[!UICONTROL Additional Details]**, cliquez sur ![Ouvrir](/help/search-social-commerce/assets/chevron-up.png "Ouvrir") pour développer les détails.
 
    * Saisissez un **[!UICONTROL Project Name]** et/ou facultatif **[!UICONTROL Description]**.
 
@@ -54,4 +56,3 @@ La suppression d’une valeur de classification supprime l’association avec le
 >* [Affectation de valeurs de classification à des composants de compte à l’aide de feuilles d’envoi groupées](classification-values-assign-bulksheets.md)
 >* [Supprimer des valeurs de classification d’étiquettes](classification-values-delete.md)
 >* [Supprimer des classifications d’étiquettes](classification-delete.md)
-

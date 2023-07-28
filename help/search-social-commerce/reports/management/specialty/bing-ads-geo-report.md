@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Bing Ads Geo Report]"
+title: '[!UICONTROL Bing Ads Geo Report]'
 description: En savoir plus sur les [!UICONTROL Bing Ads Geo Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b14e5039-4af6-43de-925c-429f537dad6a
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft® Advertising]comptes uniquement*
 
-Le [!UICONTROL Bing Ads Geo Report] inclut les données de mesure dérivées (facultatives), de clics, de coûts et de mesures par combinaison pays/région/code métro/ville pour chaque groupe publicitaire dans un ou plusieurs comptes. Par défaut, les données comprennent une ligne pour chaque combinaison pays/région/code métro/ville ayant reçu au moins une impression ou un clic pour chaque groupe publicitaire applicable pour chaque unité de temps au cours de la période spécifiée. Par défaut, les lignes sont dans l’ordre croissant en fonction du nom de la campagne, puis par pays, région, code métro, ville et groupe publicitaire. Le rapport n’inclut pas les données de conversion suivies par [!DNL Microsoft Advertising] nor [!DNL Adobe].
+La variable [!UICONTROL Bing Ads Geo Report] inclut les données de mesure dérivées (facultatives), de clics, de coûts et de mesures par combinaison pays/région/code métro/ville pour chaque groupe publicitaire dans un ou plusieurs comptes. Par défaut, les données comprennent une ligne pour chaque combinaison pays/région/code métro/ville ayant reçu au moins une impression ou un clic pour chaque groupe publicitaire applicable pour chaque unité de temps au cours de la période spécifiée. Par défaut, les lignes sont dans l’ordre croissant en fonction du nom de la campagne, puis par pays, région, code métro, ville et groupe publicitaire. Le rapport n’inclut pas les données de conversion suivies par [!DNL Microsoft Advertising] nor [!DNL Adobe].
 
 Vous pouvez afficher les données des deux mois précédents.
 
@@ -20,7 +22,6 @@ Vous pouvez afficher les données des deux mois précédents.
 >
 >* Les totaux de ce rapport peuvent différer des totaux des mêmes campagnes et périodes dans la variable [!UICONTROL Geo Distribution Report] (qui sont compilées par Search, Social et Commerce) en raison de différents fournisseurs et méthodologies pour déterminer les emplacements géographiques.
 >* Les données de ce rapport sont extraites chaque jour à 14 h (23 h) pour la veille. Par exemple, à 23h00 le 18 juin, il extrait les données du 17 juin. Si vous exécutez le rapport le 19 juin à 9h00 — avant que les données du 18 juin ne soient extraites — alors le rapport inclut les données jusqu’au 17 juin à 23h00.
-
 
 ## Colonnes par défaut
 
@@ -46,7 +47,7 @@ Pour obtenir des descriptions de toutes les colonnes par défaut et personnalis�
 * [!UICONTROL Ad Distribution]
 
 >[!MORELIKETHIS]
+>
 * [À propos des rapports spécialisés](specialty-report-about.md)
 * [Génération d’un rapport de spécialité](specialty-report-generate.md)
 * [Paramètres des rapports de spécialité](specialty-report-settings.md)
-

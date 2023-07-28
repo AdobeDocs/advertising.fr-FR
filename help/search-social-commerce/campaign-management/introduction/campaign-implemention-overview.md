@@ -1,7 +1,9 @@
 ---
 title: Présentation de l’implémentation des comptes et campagnes de réseau publicitaire
 description: Découvrez les tâches impliquées dans la configuration, la synchronisation et la gestion de vos comptes réseau publicitaires.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Une fois qu’une campagne est activée et éventuellement ajoutée à un portfo
 
 Cette page contient des informations sur tous les types de compte, y compris sur la configuration de la structure de campagne pour les comptes synchronisés. Pour obtenir des instructions supplémentaires sur la configuration des comptes de suivi uniquement pour [!DNL Naver], voir &quot;[Mise en oeuvre [!DNL Naver] comptes de suivi uniquement](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md).&quot;
 
-## Tâches de configuration initiales des comptes et campagnes
+## Tâches de configuration initiales des comptes et des campagnes
 
 [!DNL Adobe] et/ou votre agence travaillera avec vous comme suit :
 
@@ -43,14 +45,14 @@ Cette page contient des informations sur tous les types de compte, y compris sur
       * (Baidu, Google Ads, Microsoft Advertising, Yahoo ! Chargement des publicités Japon et des comptes Yandex uniquement [fichiers de feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contenant autant de données que vous le souhaitez pour un compte, puis les publiant sur les réseaux publicitaires.
 
       * (Baidu, Google Ads, Microsoft Advertising, Yahoo ! Japan Ads et comptes Yandex uniquement) Saisissez les données de composants individuels directement dans l’interface. Pour la plupart des types de campagne et d’annonce, vous pouvez créer des données au niveau de la campagne, du groupe d’annonces, du mot-clé individuel, de l’emplacement et de l’annonce.
+
       Certains types de campagne et d’annonce nécessitent toutefois des workflows uniques. Voir les instructions de configuration [[!DNL Microsoft Advertising] campagnes d&#39;achat](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md), [[!DNL Google Ads] annonces de recherche dynamique](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md), [[!DNL Google Ads] campagnes de performances max](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md), et [[!DNL Google Ads] campagnes d&#39;achat](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md).
 
    1. ([!DNL Naver] comptes de suivi uniquement) Télécharger [fichiers de feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) avec des données pour répliquer les campagnes, les groupes publicitaires et les mots-clés existants dans Search, Social et Commerce sans les publier dans [!DNL Naver].
 
-
 1. Configurez le suivi de toutes les publicités pour lesquelles Adobe Advertising effectuera le suivi des conversions :
 
-   1. (Annonceurs disposant du service de suivi de conversion Adobe Advertising) Si nécessaire, [configuration du suivi des clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) pour les publicités et, éventuellement, pour les mots-clés, les emplacements et les extensions de publicité en générant et en chargeant les URL de suivi des clics de Search, Social et Commerce.
+   1. (Annonceurs disposant du service de suivi de conversion d’Adobe Advertising) Si nécessaire, [configuration du suivi des clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) pour les publicités et, éventuellement, pour les mots-clés, les emplacements et les extensions de publicité en générant et en chargeant les URL de suivi des clics de Search, Social et Commerce.
 
       Pour [!DNL Google Ads] campagnes max de performances, configurez tout le suivi dans la variable [paramètres de suivi de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).
 
@@ -64,7 +66,7 @@ Cette page contient des informations sur tous les types de compte, y compris sur
 
    Pour plus d’informations sur la configuration du suivi, reportez-vous au chapitre &quot;Tracking&quot;.
 
-1. (Annonceurs avec Adobe Analytics) [Intégration d’Adobe Advertising et Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) pour qu&#39;ils puissent échanger des données.
+1. (Annonceurs avec Adobe Analytics) [Intégration d’Adobe Advertising et d’Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) pour qu&#39;ils puissent échanger des données.
 
 1. (Pour permettre à Search, Social et Commerce d’optimiser les offres et/ou les budgets de campagne ; [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) uniquement) [Affecter la campagne à un portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
@@ -84,8 +86,7 @@ Cette page contient des informations sur tous les types de compte, y compris sur
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des campagnes dans Search, Social et Commerce](campaign-management-about.md)
+>* [Gestion de campagnes dans Search, Social et Commerce](campaign-management-about.md)
 >* [Surveillez et gérez les performances de vos campagnes réseau publicitaires](monitor-performance-campaigns.md)
 >* [Données de conversion Google Ads dans Search, Social et Commerce](google-conversion-data.md)
 >* [Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md)
-

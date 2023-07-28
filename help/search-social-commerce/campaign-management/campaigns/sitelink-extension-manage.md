@@ -1,7 +1,9 @@
 ---
 title: Gestion des liens de site partagés
 description: Découvrez comment créer et gérer des extensions de lien de site partagées.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
@@ -56,7 +58,7 @@ Vous pouvez modifier un lien de site partagé à la fois.
 
 ## Paramètres des liens de site partagés {#shared-sitelink-settings}
 
-Pour connaître d’autres politiques et raisons de désapprobation des liens de site, reportez-vous à la section [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) et [[!DNL Microsoft Advertising]](https://about.ads.microsoft.com/en-us/resources/policies/ad-extensions-policies) exigences d’extension sitelink.
+Pour connaître d’autres politiques et raisons de désapprobation des liens de site, voir la section [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) et [[!DNL Microsoft Advertising]](https://about.ads.microsoft.com/en-us/resources/policies/ad-extensions-policies) exigences d’extension sitelink.
 
 ### [!UICONTROL Sitelink]
 
@@ -68,9 +70,9 @@ Pour connaître d’autres politiques et raisons de désapprobation des liens de
 
 **[!UICONTROL Status]:** État d’affichage du lien de site :  *[!UICONTROL Active]* ou *[!UICONTROL Deleted]* (liens de site existants uniquement). La valeur par défaut pour les nouveaux liens de site est *[!UICONTROL Active]*.
 
-**[!UICONTROL Description Line 1], [!UICONTROL Description Line 2]:** Texte supplémentaire que le moteur de recherche peut afficher sous le texte du lien. Pour inclure une description, saisissez les valeurs des deux champs de description. Chaque champ de description peut contenir jusqu’à 35 caractères sur un ou 17 caractères sur deux octets.
+**[!UICONTROL Description Line 1], [!UICONTROL Description Line 2]:** Texte supplémentaire qui peut s’afficher sous le texte du lien. Pour inclure une description, saisissez les valeurs des deux champs de description. Chaque champ de description peut contenir jusqu’à 35 caractères sur un ou 17 caractères sur deux octets.
 
-**[!UICONTROL Start Date]:** (Campagnes avec des liens de site hérités existants ou sans lien de site uniquement ; (facultatif) La première date à laquelle le lien de site peut être affiché avec les publicités dans la campagne. La valeur par défaut des nouveaux liens de site est le jour actuel. Pour spécifier une date de début future, saisissez une date au format MM/JJ/AAAA ou M/J/AAAA, ou cliquez et sélectionnez une date.
+**[!UICONTROL Start Date]:** (Campagnes avec des liens de site hérités existants ou pas de liens de site uniquement ; facultatif) Date à laquelle le lien de site peut être affiché pour les publicités dans la campagne. La valeur par défaut des nouveaux liens de site est le jour actuel. Pour spécifier une date de début future, saisissez une date au format MM/JJ/AAAA ou M/J/AAAA, ou cliquez et sélectionnez une date.
 
 **[!UICONTROL End Date]:** (Facultatif) Dernière date à laquelle le lien de site peut être affiché avec les publicités dans la campagne. Par défaut, le lien de site peut s’afficher indéfiniment. Pour spécifier une date de fin, saisissez une date au format MM/JJ/AAAA ou M/J/AAAA, ou cliquez et sélectionnez une date.
 
@@ -94,7 +96,7 @@ Une fois l’enregistrement enregistré, l’URL de base inclut tous les paramè
 
 **[!UICONTROL Tracking Template]:** (Facultatif) Le modèle de suivi ou l’URL de suivi, qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi, et incorpore également l’URL de page d’entrée/finale dans un paramètre. Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
 
-* Pour le suivi de conversion Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;Chargement automatique&quot;, Search, Social et Commerce préfixe automatiquement son propre code de suivi des clics lorsque vous enregistrez l’enregistrement.
+* Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;Chargement automatique&quot;, Search, Social et Commerce préfixe automatiquement son propre code de suivi des clics lorsque vous enregistrez l’enregistrement.
 
 * Pour les paramètres pris en charge pour incorporer l’URL finale, voir la section ([!DNL Microsoft Advertising] uniquement) [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou ([!DNL Google Ads] uniquement) les paramètres &quot;Modèle de tracking uniquement&quot; dans la section &quot;Disponible&quot; [!DNL ValueTrack] Paramètres&quot; dans la variable [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 

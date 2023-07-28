@@ -1,7 +1,9 @@
 ---
 title: Questions fréquentes sur le suivi
 description: Découvrez les réponses aux questions courantes sur le suivi, notamment les problèmes de dépannage.
-source-git-commit: f5e2044af460ebf561e075ed6b1fb057ed47acc3
+exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 ## Fonctionnalités de suivi
 
-+++Puis-je suivre les campagnes qu’Adobe Advertising ne gère pas ?
++++Puis-je suivre les campagnes que Adobe Advertising ne gère pas ?
 
 Oui. Si Search, Social et Commerce synchronise l’un de vos comptes de réseau publicitaire, celui-ci effectue le suivi des données de clic du réseau publicitaire pour toutes les [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) dans ce compte. Il effectue également le suivi des données de conversion si vous avez ajouté la redirection Search, Social &amp; Commerce vers vos URL de destination des publicités et/ou mots-clés ou des modèles de suivi et si vous avez mis en oeuvre le suivi de conversion dans vos pages de conversion. Clarifiez avec votre équipe de compte d’Adobe les campagnes dont vous souhaitez simplement effectuer le suivi dans Search, Social et Commerce et les campagnes que vous souhaitez qu’elles gèrent.
 +++
@@ -35,11 +37,11 @@ Les transactions en double peuvent se produire lorsqu’un utilisateur actualise
 
 Voici la logique de déduplication de l’Adobe Advertising :
 
-* **Lorsqu’un client envoie une valeur pour la variable `ev_transid` attribute:** Les requêtes de pixel suivantes sont considérées comme des doublons de la précédente si les éléments suivants sont identiques : la valeur `ev_transid`; l’identifiant de suivi pour le même mot-clé, la même publicité ou le même emplacement ; et la valeur d’une propriété de transaction spécifique.
+* **Lorsqu’un client envoie une valeur pour la variable `ev_transid` attribute:** Les requêtes de pixel suivantes sont considérées comme des doublons de la précédente si les éléments suivants sont identiques : `ev_transid`; l’identifiant de suivi pour le même mot-clé, la même publicité ou le même emplacement ; et la valeur d’une propriété de transaction spécifique.
 
   Par exemple, si plusieurs demandes de prêt possèdent le même ID de demande et le même montant de prêt pour le même mot-clé sur un réseau publicitaire spécifique, elles sont considérées comme des doublons et seule la première demande de prêt est comptabilisée.
 
-* **Lorsqu’un client n’envoie pas de valeur pour la variable `ev_transid` attribute:** Les transactions suivantes sont considérées comme des doublons de la précédente si elles partagent un ID de suivi pour le même mot-clé, publicité ou emplacement ; et la même valeur pour une propriété de transaction spécifique.
+* **Lorsqu’un client n’envoie pas de valeur pour la variable `ev_transid` attribute:** Les transactions suivantes sont considérées comme des doublons de la précédente si elles partagent un ID de suivi pour le même mot-clé, publicité ou emplacement, et la même valeur pour une propriété de transaction spécifique.
 
   Par exemple, si plusieurs demandes de prêt ont le même identifiant de mot-clé et le même montant de prêt, elles sont considérées comme des doublons et seule la première demande de prêt est comptabilisée.
 +++
@@ -116,7 +118,7 @@ L’URL d’un nouveau mot-clé ou d’une nouvelle publicité a été copiée �
 
 Cela ne doit pas se produire avec les publicités display ou sociales.
 
-**Solution possible ou solution de contournement**
+**Solution ou solution possible**
 
 * Si vous gérez vos propres mots-clés et annonces, créez un fichier de feuille d’envoi groupé avec les URL correctes pour les URL en double et publiez-le sur le compte approprié à l’aide de la variable **[!UICONTROL Generate Tracking URLs]** qui régénère les URL de tous les mots-clés et annonces.
 

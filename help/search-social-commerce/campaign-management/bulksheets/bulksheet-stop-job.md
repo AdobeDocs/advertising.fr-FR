@@ -1,7 +1,9 @@
 ---
 title: Arrêt d’une tâche de feuille d’envoi groupé en cours
 description: Découvrez comment arrêter une tâche de feuille d’envoi groupé en cours de traitement.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bfdc3c65-8dfc-4683-a39d-05d40078fd2d
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -28,4 +30,3 @@ Vous pouvez arrêter toute tâche de feuille d’envoi groupé, y compris la pub
 >
 >* [A propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées](bulksheet-about.md)
 >* [Suppression des feuilles d’envoi groupé et des fichiers d’erreur chargés](bulksheet-delete.md)
-

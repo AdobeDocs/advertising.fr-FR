@@ -1,7 +1,9 @@
 ---
 title: Activation et désactivation des notifications push depuis [!UICONTROL Notification Center]
 description: Découvrez comment activer et désactiver les notifications push depuis [!UICONTROL Notification Center].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 71d115d0-6190-4052-a299-d5e8cde8e46c
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Activation et désactivation des notifications push depuis [!UICONTROL Notification Center]
 
-*Fonction bêta*
+*Fonctionnalité bêta*
 
 Vous pouvez activer les notifications dans Search, Social et Commerce, où elles s’affichent en fonction des conventions de notification du navigateur. Sur les périphériques qui utilisent [!DNL Microsoft® Windows], les notifications s’affichent dans la partie inférieure droite de l’écran (barre d’état système). Activé [!DNL Apple Mac] appareils, notifications s’affichent dans le menu de droite.
 
@@ -42,7 +44,7 @@ Vous pouvez désactiver les notifications push selon la procédure standard du n
 
 ## Désactivation des notifications push
 
-Supprimer des notifications de `https://alert-center-ui-na.efrontier.com` dans le gestionnaire de notifications du navigateur. Par exemple, dans [!DNL Google Chrome], vous pouvez supprimer ou bloquer des notifications de sites spécifiés à l’adresse `chrome://settings/content/notifications`.
+Supprimer des notifications de `https://alert-center-ui-na.efrontier.com` dans le gestionnaire de notifications du navigateur. Par exemple, dans [!DNL Google Chrome], vous pouvez supprimer ou bloquer des notifications de sites spécifiés sur `chrome://settings/content/notifications`.
 
 Voir les instructions dans l’aide du navigateur.
 
@@ -54,4 +56,3 @@ Voir les instructions dans l’aide du navigateur.
 >* [Supprimer une notification](notification-delete.md)
 >* [Modification des paramètres de notification](notification-edit.md)
 >* [Installez et désinstallez le [!UICONTROL Notification Center] application web](notification-app-install-uninstall.md)
-

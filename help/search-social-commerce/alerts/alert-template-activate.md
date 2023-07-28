@@ -1,7 +1,9 @@
 ---
 title: Activation d’un modèle d’alerte personnalisé
 description: Découvrez comment activer un modèle d’alerte en pause.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6cf9ef6b-9f71-462c-b81e-a604d33c4fb7
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Vous pouvez activer les modèles d’alerte en pause.
 
    * (Pour activer un ou plusieurs modèles) Cochez la case en regard de chaque modèle d’alerte à activer. Dans la barre d’outils, cliquez sur ![Activer](/help/search-social-commerce/assets/activate.png "Activer"). Dans la boîte de dialogue, cliquez sur **[!UICONTROL Activate]**.
 
-      Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+     Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
 >[!MORELIKETHIS]
 >
@@ -32,4 +34,3 @@ Vous pouvez activer les modèles d’alerte en pause.
 >* [Paramètres du modèle d’alerte personnalisé](alert-template-settings.md)
 >* [Affichage d’alertes personnalisées](alert-view.md)
 >* [Exporter des données pour des alertes personnalisées](alert-export-data.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Génération d’une URL de suivi des clics
 description: Découvrez comment générer manuellement une URL de suivi des clics Search, Social et Commerce.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+feature: Search Tools, Search Tracking
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Générez une URL de suivi des clics Search, Social et Commerce à l’aide de l’outil de suivi des URL.
 
-*Publicitaires avec suivi de conversion Adobe Advertising uniquement*
+*Publicitaires avec suivi de conversion des Adobes Advertising uniquement*
 
 Pour plus d’informations sur le moment où vous devez générer et implémenter manuellement une URL de suivi des clics, voir &quot;[Quand et comment générer des URL de suivi des clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 
@@ -22,9 +24,9 @@ Pour plus d’informations sur le moment où vous devez générer et implémente
 
 1. Sélectionnez le compte réseau publicitaire dans la liste.
 
-   ([!DNL Google Ads] mots-clés ; texte, installation d’applications mobiles et annonces de recherche dynamique ; emplacements; les liens de site; et groupes de produits) Les balises de tracking du champ de modèle de suivi s’affichent. Ils n’incluent aucun paramètre d’ajout au niveau du compte. Passez à l’étape 4.
+   ([!DNL Google Ads] mots-clés ; texte, installation d’applications mobiles et annonces de recherche dynamique ; emplacements ; liens de site ; et groupes de produits) Les balises de suivi pour le champ de modèle de suivi s’affichent. Ils n’incluent aucun paramètre d’ajout au niveau du compte. Passez à l’étape 4.
 
-   Pour tous les autres types de balises, saisissez des informations pour générer une balise.
+   Pour tous les autres types de balises, saisissez les informations permettant de générer une balise.
 
 1. (Si nécessaire) Générez une balise :
 
@@ -78,9 +80,9 @@ Pour plus d’informations sur le moment où vous devez générer et implémente
 
 1. (Facultatif) Copiez les URL (commençant par &quot;http&quot; ou &quot;https&quot;) dans l’écran ou la page de sortie et implémentez-les dans le compte de recherche ou de réseau social.
 
-Pour les comptes disposant d’URL de destination, saisissez les valeurs dans la variable [!UICONTROL Base URL] champs.
+Pour les comptes disposant d’URL de destination, saisissez les valeurs dans la variable [!UICONTROL Base URL] des champs.
 
-Pour les comptes disposant d’URL finales, saisissez la valeur à l’écran dans le [!UICONTROL Tracking Template] champ . Vous devez ajouter un paramètre pour l’URL finale après l’événement `&url=` (par exemple, `{lpurl}`). Pour [!DNL Yahoo! Japan Ads] comptes, utiliser le paramètre `{lpurl}`. Pour une liste de [!DNL Google Ads] et [!DNL Microsoft® Advertising] pour indiquer les URL finales dans les modèles de tracking, voir la section [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348) (voir les paramètres &quot;Modèle de suivi uniquement&quot; dans la section &quot;Disponible&quot; [!DNL ValueTrack] Paramètres&quot;) et la variable [[!DNL Microsoft® Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+Pour les comptes disposant d’URL finales, saisissez la valeur à l’écran dans le [!UICONTROL Tracking Template] champ . Vous devez ajouter un paramètre pour l’URL finale après l’événement `&url=` (par exemple `{lpurl}`). Pour [!DNL Yahoo! Japan Ads] comptes, utiliser le paramètre `{lpurl}`. Pour une liste de [!DNL Google Ads] et [!DNL Microsoft® Advertising] pour indiquer les URL finales dans les modèles de tracking, voir la section [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348) (voir les paramètres &quot;Modèle de suivi uniquement&quot; dans la section &quot;Disponible&quot; [!DNL ValueTrack] Paramètres&quot;) et [[!DNL Microsoft® Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >

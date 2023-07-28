@@ -1,7 +1,9 @@
 ---
 title: A propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées
 description: Découvrez la fonctionnalité de feuille d’envoi groupé disponible par le réseau publicitaire, le workflow de feuille d’envoi groupé et la gestion des erreurs.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 207cc08b-8650-4243-b9fd-1c920b81c1f9
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 0%
@@ -26,11 +28,11 @@ Toutes les feuilles d’envoi groupé, les fichiers d’erreur de validation de 
 
 * **Télécharger et télécharger uniquement :** [!DNL Naver] comptes
 
-   Vous pouvez télécharger [!DNL Naver] données à utiliser dans Search, Social et Commerce, mais ne peuvent pas les publier sur le réseau publicitaire. Vous pouvez également télécharger vos données existantes (non synchronisées).
+  Vous pouvez télécharger des [!DNL Naver] données à utiliser dans Search, Social et Commerce, mais ne peuvent pas les publier sur le réseau publicitaire. Vous pouvez également télécharger vos données existantes (non synchronisées).
 
 * **Téléchargement des données uniquement :**  [!DNL Pinterest], [!DNL Yahoo Native], et [!DNL Yahoo! Display Network] comptes
 
-   Vous pouvez télécharger vos données existantes (non synchronisées).
+  Vous pouvez télécharger vos données existantes (non synchronisées).
 
 ## Présentation de l’utilisation des feuilles d’envoi groupées
 
@@ -40,7 +42,7 @@ Les étapes standard d’utilisation des feuilles d’envoi groupées pour les c
   [EDIT/RECREATE FILE to replace "search engine"]
 -->
 
-1. [Téléchargez les données d’un ou de plusieurs comptes, campagnes ou groupes publicitaires dans un fichier de feuille d’envoi groupé.](bulksheet-download.md). Vous pouvez éventuellement remplir manuellement une feuille d’envoi groupé spécifique au réseau publicitaire et télécharger le fichier.
+1. [Télécharger des données pour un ou plusieurs comptes, campagnes ou groupes publicitaires dans un fichier de feuille d’envoi groupé](bulksheet-download.md). Vous pouvez éventuellement remplir manuellement une feuille d’envoi groupé spécifique au réseau publicitaire et télécharger le fichier.
 
 1. [Validation des landing pages](bulksheet-validate-landing-pages.md) dans les URL de base (finales) ou de destination du fichier.
 
@@ -48,7 +50,7 @@ Les étapes standard d’utilisation des feuilles d’envoi groupées pour les c
 
    1. [Exporter le fichier](bulksheet-export.md) sur votre bureau et modifiez-le dans [!DNL Microsoft® Excel].
 
-   1. [Chargement manuel du fichier modifié](bulksheet-upload.md) vers Search, Social et Commerce ou [télécharger le fichier vers un compte FTP spécifié](bulksheet-ftp-account.md) pour la publication automatique.
+   1. [Chargement manuel du fichier modifié](bulksheet-upload.md) vers Search, Social et Commerce ou [télécharger le fichier vers un compte FTP spécifié ;](bulksheet-ftp-account.md) pour la publication automatique.
 
 1. (Pour les fichiers chargés manuellement) [Publier le fichier](bulksheet-post.md) sur le réseau publicitaire au fur et à mesure que vous le téléchargez ou plus tard.
 
@@ -84,4 +86,3 @@ Les informations de chaque fichier incluent l’état actuel de la tâche et le 
 >* [Télécharger une feuille d’envoi groupé ou un fichier d’erreur corrigé](bulksheet-upload.md)
 >* [Publier des feuilles d’envoi groupées ou des fichiers d’erreur corrigés](bulksheet-post.md)
 >* [Exportation d’un fichier de feuille d’envoi groupé généré ou transféré](bulksheet-export.md)
-

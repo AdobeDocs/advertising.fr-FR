@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] paramètres de mots-clés"
+title: '''[!DNL Google Ads] paramètres de mots-clés'
 description: Référencez les paramètres pour [!DNL Google Ads] mots-clés.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8834e852-214b-4b2c-9a95-4b1c802e800d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -19,15 +21,14 @@ Voir l’aide de Google Ads pour [limites de mots-clés par compte](https://supp
 **[!UICONTROL Keywords]:** Les mots-clés, y compris les [!DNL Google Ads] syntaxe correspondante pour les mots-clés et les espaces réservés. [!DNL Google Ads] Les comptes requièrent des mots-clés avec les attributs suivants :
 
 * La longueur maximale par mot-clé est de 80 caractères et ne peut pas dépasser 10 mots.
-* Le mot-clé ne peut contenir que des lettres, des chiffres et les caractères spéciaux suivants : space `# $ & _ - " [] ' + . / :`
+* Le mot-clé ne peut contenir que des lettres, des chiffres et les caractères spéciaux suivants : espace `# $ & _ - " [] ' + . / :`
 
 Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés. Séparez plusieurs mots-clés par des virgules ou saisissez-les sur des lignes distinctes.
 
 >[!NOTE]
 >
->* Vous pouvez créer des mots-clés négatifs à partir du [!UICONTROL Keywords] > [!UICONTROL Negatives] afficher et dans les paramètres du groupe publicitaire et de la campagne.
+>* Vous pouvez créer des mots-clés négatifs à partir de la variable [!UICONTROL Keywords] > [!UICONTROL Negatives] afficher et dans les paramètres du groupe publicitaire et de la campagne.
 >* Modification d’un [!DNL Google Ads] Le mot-clé ou le type de correspondance supprime le mot-clé existant et en crée un nouveau.
-
 
 **[!UICONTROL Status]:** L’état d’affichage du mot-clé : *Principal* ou *En pause*. La valeur par défaut des nouveaux mots-clés est *Principal*.
 
@@ -60,4 +61,3 @@ Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés. Séparez plusieurs mot
 >[!MORELIKETHIS]
 >
 >* [Gestion des mots-clés](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

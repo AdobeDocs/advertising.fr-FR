@@ -1,7 +1,9 @@
 ---
 title: Générer un rapport à partir d’un rapport existant
 description: Découvrez comment créer un rapport à l’aide d’un rapport généré précédemment.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 14df0a57-4b15-4383-8093-9ca88b0e028c
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 1%
@@ -26,4 +28,3 @@ ht-degree: 1%
 >* [Paramètres du rapport Précision des modèles](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
 >* [Paramètres des rapports de spécialité](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
 >* [Suppression de rapports](/help/search-social-commerce/reports/management/report-delete.md)
-

@@ -2,7 +2,8 @@
 title: Répliquer [!DNL Google Ads] campagnes dans [!DNL Microsoft® Advertising]
 description: Découvrez comment exporter vos campagnes synchronisées dans une [!DNL Google Ads] compte directement dans une synchronisation [!DNL Microsoft® Advertising] compte .
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
-source-git-commit: 8d062e5c74c8f873ab5f2491659a32be47bb2afb
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 0%
@@ -23,9 +24,9 @@ Vous pouvez répliquer les types de campagnes suivants et leur structure de camp
 
 * [!DNL Google Ads] campagnes de performances maximales, y compris les annonces d’inventaire local, en [!DNL Microsoft® Advertising] campagnes d’achats dynamiques.
 
-Vous pouvez choisir de mettre à jour les campagnes une seule fois ; quotidien hebdomadaire ou mensuel; ou selon les [!DNL Microsoft® Advertising]Le planning est recommandé. Vous pouvez éventuellement configurer des notifications à chaque exécution d’une tâche d’importation ou en cas d’erreurs ou de modifications. Une fois vos campagnes importées dans [!DNL Microsoft® Advertising], vous pouvez vérifier l’état de votre tâche d’importation, consulter les logs d’erreur, exécuter manuellement une tâche d’importation et modifier, mettre en pause, activer ou supprimer votre planning d’importation.
+Vous pouvez choisir de mettre à jour les campagnes une fois, tous les jours, toutes les semaines ou tous les mois, ou selon les [!DNL Microsoft® Advertising]Le planning est recommandé. Vous pouvez éventuellement configurer des notifications à chaque exécution d’une tâche d’importation ou en cas d’erreurs ou de modifications. Une fois que vous avez importé vos campagnes dans [!DNL Microsoft® Advertising], vous pouvez vérifier l’état de votre tâche d’importation, consulter les logs d’erreur, exécuter manuellement une tâche d’importation et modifier, mettre en pause, activer ou supprimer votre planning d’importation.
 
-Toutes les informations sur les campagnes ne sont pas répliquées et vous devrez peut-être ajouter des informations à votre [!DNL Microsoft® Advertising] campagnes. Pour plus d’informations sur les données importées, voir [!DNL Microsoft® Advertising] help sur &quot;[Éléments importés depuis [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851).&quot; Comme le suivi de recherche, de Social et de Commerce n’est pas importé, vous devez également ajouter le suivi dans la variable [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)ou [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) paramètres.
+Toutes les informations sur les campagnes ne sont pas répliquées et vous devrez peut-être ajouter des informations à votre [!DNL Microsoft® Advertising] campagnes. Pour plus d’informations sur les données importées, voir [!DNL Microsoft® Advertising] help sur &quot;[Éléments importés depuis [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851).&quot; Comme le suivi de recherche, de Social et de Commerce n’est pas importé, vous devez également ajouter le suivi dans la variable [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md), ou [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) paramètres.
 
 ## Répliquer [!DNL Google Ads] campagnes
 
@@ -57,7 +58,7 @@ Voir [de ce qui est importé d’ [!DNL Google Ads] campagnes](https://help.ads.
 
 1. Cliquez sur **[!UICONTROL Post]**.
 
-1. (Facultatif) Ajoutez le suivi Rechercher, Social et Commerce dans la variable [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)ou [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) paramètres.
+1. (Facultatif) Ajoutez le suivi Rechercher, Social et Commerce dans la variable [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md), ou [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) paramètres.
 
 ## Modification des paramètres de planification d’une tâche d’importation de campagne
 
@@ -81,7 +82,7 @@ Vous pouvez répertorier toutes les tâches d’importation, y compris la source
 
      Par défaut, la vue s’ouvre sur la [!UICONTROL List of Import Jobs] .
 
-   * Dans la [[!UICONTROL Import Logs] tab](#campaign-import-log), cliquez sur le bouton **[!UICONTROL List of Import Jobs]** .
+   * Dans la [[!UICONTROL Import Logs] tab](#campaign-import-log), cliquez sur le **[!UICONTROL List of Import Jobs]** .
 
 ## Exécution d’une tâche d’importation de campagne
 
@@ -119,9 +120,9 @@ Génération automatique de [!DNL Microsoft® Advertising] les informations d’
 
 * *[!UICONTROL Import all new and existing campaigns]:* Pour importer des données pour toutes les campagnes qui existent déjà et les campagnes qui n’existent pas dans [!DNL Microsoft® Advertising].
 
-* *[!UICONTROL Import specific campaigns and adgroups]:* Pour sélectionner des campagnes et des groupes d’annonces spécifiques.
+* *[!UICONTROL Import specific campaigns and adgroups]:* Pour sélectionner des campagnes et des groupes publicitaires spécifiques.
 
-   * Pour développer une campagne dans ses groupes d’annonces enfants, cliquez sur **[!UICONTROL >]** après le nom de la campagne.
+   * Pour développer une campagne dans ses groupes publicitaires enfants, cliquez sur **[!UICONTROL >]** après le nom de la campagne.
 
    * Pour sélectionner une campagne ou un groupe publicitaire, sélectionnez l’élément afin qu’une coche s’affiche.
 

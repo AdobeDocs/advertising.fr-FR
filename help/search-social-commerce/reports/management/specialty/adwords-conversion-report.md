@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL AdWords Conversion Report]"
+title: '[!UICONTROL AdWords Conversion Report]'
 description: En savoir plus sur les [!UICONTROL AdWords Conversion Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5c9252fd-b791-421b-a5d2-1f6279d38c45
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]compte avec [!DNL Google Ads] optimisation de la conversion uniquement*
 
-Le [!UICONTROL AdWords Conversion Report] inclut les données de coûts, de clics et d’impressions ; données de conversion par type de conversion suivi par [!DNL Google Ads Conversion Optimizer]; et (éventuellement) des données de mesure dérivées pour un ou plusieurs comptes, campagnes, groupes publicitaires, publicités ou mots-clés. Les données ne s’affichent que lorsque la variable [!DNL Google Ads Conversion Optimizer] est activée dans les paramètres d’offre de la campagne (Search, Social et Commerce n’optimise donc pas les offres pour la campagne). Par défaut, les données incluent une ligne pour chaque conversion pour chaque mot-clé applicable pour chaque unité de temps de la période spécifiée. Les lignes se trouvent dans l’ordre croissant par nom de groupe publicitaire, puis par mot-clé par défaut. Le rapport n’inclut pas les données de coût, de clic ou d’impression, ni les données de conversion suivies par [!DNL Adobe].
+La variable [!UICONTROL AdWords Conversion Report] inclut les données de coût, de clic et d’impression ; les données de conversion par type de conversion suivi par la variable [!DNL Google Ads Conversion Optimizer]; et (éventuellement) des données de mesure dérivées pour un ou plusieurs comptes, campagnes, groupes publicitaires, publicités ou mots-clés. Les données ne s’affichent que lorsque la variable [!DNL Google Ads Conversion Optimizer] est activée dans les paramètres d’offre de la campagne (Search, Social et Commerce n’optimise donc pas les offres pour la campagne). Par défaut, les données incluent une ligne pour chaque conversion pour chaque mot-clé applicable pour chaque unité de temps de la période spécifiée. Les lignes se trouvent dans l’ordre croissant par nom de groupe publicitaire, puis par mot-clé par défaut. Le rapport n’inclut pas les données de coût, de clic ou d’impression, ni les données de conversion suivies par [!DNL Adobe].
 
 Vous pouvez afficher les données des deux mois précédents.
 
@@ -48,7 +50,7 @@ Pour obtenir des descriptions de toutes les colonnes par défaut et personnalis�
 * [!UICONTROL Google Converted Clicks]
 
 >[!MORELIKETHIS]
+>
 * [À propos des rapports spécialisés](specialty-report-about.md)
 * [Génération d’un rapport de spécialité](specialty-report-generate.md)
 * [Paramètres des rapports de spécialité](specialty-report-settings.md)
-

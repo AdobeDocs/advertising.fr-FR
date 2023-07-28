@@ -1,7 +1,9 @@
 ---
 title: Modification des paramètres de notification
 description: Découvrez comment modifier les paramètres de vos notifications.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bcfbecf4-ed1d-4afe-a42d-e584d6837db8
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Modification des paramètres de notification
 
-*Fonction bêta*
+*Fonctionnalité bêta*
 
 Vous pouvez éventuellement vous abonner ou vous désabonner à des notifications par e-mail et web concernant les erreurs d’authentification du compte, à toutes vos alertes personnalisées déclenchées et à la fin de la variable [!UICONTROL Advertising Insights] que vous générez.
 
@@ -27,12 +29,12 @@ Vous pouvez éventuellement vous abonner ou vous désabonner à des notification
       * Pour vous désabonner de tous les types de notification, déplacez le curseur vers la gauche (désactivé).
 
       * Pour vous abonner à un ou plusieurs types de notification, déplacez le curseur vers la droite (activé).
+
    * (Lorsque [!UICONTROL Subscribe] est activé) Pour vous abonner aux notifications par e-mail, cochez la case dans la variable **[!UICONTROL Email]** colonne .
 
    * (Lorsque [!UICONTROL Subscribe] est désactivé) Pour vous abonner aux notifications web dans Search, Social et Commerce et aux notifications push si elles sont activées pour le navigateur, cochez la case dans la variable **[!UICONTROL Web]** colonne .
 
-      Les notifications web ne sont diffusées que lorsque vous [activation des notifications push](notifications-push-enable-disable.md) à votre navigateur.
-
+     Les notifications web ne sont diffusées que lorsque vous [activation des notifications push](notifications-push-enable-disable.md) à votre navigateur.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -44,4 +46,3 @@ Vous pouvez éventuellement vous abonner ou vous désabonner à des notification
 >* [Supprimer une notification](notification-delete.md)
 >* [Activation et désactivation des notifications push depuis [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Installez et désinstallez le [!UICONTROL Notification Center] application web](notification-app-install-uninstall.md)
-

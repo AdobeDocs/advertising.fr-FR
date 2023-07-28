@@ -1,7 +1,9 @@
 ---
 title: Mettre en pause un modèle d’alerte personnalisé
 description: Découvrez comment suspendre un modèle d’alerte principal.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a588ac21-7f77-4254-a773-a6f68c9f1090
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Vous pouvez suspendre les principaux modèles d’alerte.
 
    * (Pour suspendre un ou plusieurs modèles) Cochez la case en regard de chaque modèle d’alerte à suspendre. Dans la barre d’outils, cliquez sur ![Pause](/help/search-social-commerce/assets/pause.png "Pause") Dans la boîte de dialogue, cliquez sur **[!UICONTROL Pause]**.
 
-      Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+     Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
 >[!MORELIKETHIS]
 >
@@ -32,4 +34,3 @@ Vous pouvez suspendre les principaux modèles d’alerte.
 >* [Paramètres du modèle d’alerte personnalisé](alert-template-settings.md)
 >* [Affichage d’alertes personnalisées](alert-view.md)
 >* [Exporter des données pour des alertes personnalisées](alert-export-data.md)
-

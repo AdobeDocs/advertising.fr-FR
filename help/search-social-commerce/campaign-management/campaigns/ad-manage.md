@@ -1,7 +1,9 @@
 ---
 title: Gestion des publicités
 description: Découvrez comment créer et gérer des publicités.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9108bbfd-61e7-49fa-90ba-4eb276eb0897
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -32,24 +34,23 @@ Vous pouvez créer, modifier et modifier le statut des publicités à partir de 
 
    Pour plus d’informations sur les différents types d’annonces, voir &quot;[A propos des publicités](ad-about.md).&quot;
 
-1. Saisissez le [[!DNL Baidu] publicité textuelle](ad-settings-baidu-text.md), [[!DNL Google Ads] publicité d’appel uniquement](ad-settings-google-call.md), [[!DNL Google Ads] publicité de recherche dynamique étendue](ad-settings-google-dsa.md) (désormais appelé &quot;publicité de recherche dynamique&quot; dans Google Ads), [[!DNL Google Ads] publicité de recherche réactive](ad-settings-google-rsa.md), [[!DNL Microsoft Advertising] publicité de recherche dynamique étendue](ad-settings-microsoft-dsa.md), [[!DNL Microsoft Advertising] publicité multimédia](ad-settings-microsoft-multimedia.md), [[!DNL Microsoft Advertising] publicité produit](ad-settings-microsoft-product.md), [[!DNL Microsoft Advertising] publicité réactive (audience)](ad-settings-microsoft-responsive.md), [[!DNL Microsoft Advertising] publicité de recherche réactive](ad-settings-microsoft-rsa.md)ou [[!DNL Yandex] publicité textuelle](ad-settings-yandex-text.md) paramètres.
+1. Saisissez le [[!DNL Baidu] publicité textuelle](ad-settings-baidu-text.md), [[!DNL Google Ads] publicité d’appel uniquement](ad-settings-google-call.md), [[!DNL Google Ads] publicité de recherche dynamique étendue](ad-settings-google-dsa.md) (désormais appelé &quot;publicité de recherche dynamique&quot; dans Google Ads), [[!DNL Google Ads] publicité de recherche réactive](ad-settings-google-rsa.md), [[!DNL Microsoft Advertising] publicité de recherche dynamique étendue](ad-settings-microsoft-dsa.md), [[!DNL Microsoft Advertising] publicité multimédia](ad-settings-microsoft-multimedia.md), [[!DNL Microsoft Advertising] publicité produit](ad-settings-microsoft-product.md), [[!DNL Microsoft Advertising] publicité réactive (audience)](ad-settings-microsoft-responsive.md), [[!DNL Microsoft Advertising] publicité de recherche réactive](ad-settings-microsoft-rsa.md), ou [[!DNL Yandex] publicité textuelle](ad-settings-yandex-text.md) paramètres.
 
    >[!NOTE]
    >
-   >(Campagnes avec suivi de conversion Adobe Advertising) Si les paramètres du compte ou de la campagne spécifient le suivi uniquement au niveau du mot-clé, Search, Social et Commerce ne génère pas de suivi pour les publicités.
+   >(Campagnes avec suivi des conversions par Adobe Advertising) Si les paramètres du compte ou de la campagne spécifient le suivi uniquement au niveau des mots-clés, Search, Social et Commerce ne génère pas de suivi pour les publicités.
 
 1. Cliquez sur **[!UICONTROL Post]**.
 
-1. (Publicités commerciales dans les campagnes avec suivi de conversion Adobe Advertising ; (facultatif) Pour effectuer le suivi des clics sur la publicité, [générer une URL de suivi à l’aide de l’outil URL de suivi ;](/help/search-social-commerce/tools/click-tracking-url-generate.md)et l’ajouter manuellement aux paramètres du compte, de la campagne ou du groupe de produits.
+1. (Publicités commerciales dans les campagnes avec suivi des conversions par Adobe Advertising ; facultatif) Pour effectuer le suivi des clics sur la publicité, [générer une URL de suivi à l’aide de l’outil URL de suivi ;](/help/search-social-commerce/tools/click-tracking-url-generate.md)et l’ajouter manuellement aux paramètres du compte, de la campagne ou du groupe de produits.
 
 ## Modifier les paramètres de publicité
 
 >[!NOTE]
 >
->* Les types d’annonces suivants sont disponibles : *mutable*, ce qui signifie que vous pouvez modifier la copie ou l’image de la publicité et conserver le même ID : all [!DNL Google Ads] types d’annonces, à l’exception des annonces de recherche dynamique, et [!DNL Microsoft Advertising] publicités textuelles étendues.
+>* Les types d’annonces suivants sont : *mutable*, ce qui signifie que vous pouvez modifier la copie ou l’image de la publicité et conserver le même ID : tous [!DNL Google Ads] types d’annonces, à l’exception des annonces de recherche dynamique, et [!DNL Microsoft Advertising] publicités textuelles étendues.
 >* Toutes les autres publicités prises en charge *non modifiable*, ce qui signifie que la modification de la copie de publicité ou de l’image supprime la publicité existante et en crée une nouvelle. Les performances de la nouvelle publicité peuvent être volatiles pendant quelques semaines, tandis que Search, Social et Commerce rassemble suffisamment de données pour optimiser les offres.
 >* Vous ne pouvez pas modifier le contenu d’une publicité de produit, à l’exception de la ligne de promotion pour [!DNL Microsoft Advertising] publicités de produits. Vous pouvez toutefois suspendre ou supprimer une publicité.
-
 
 >[!TIP]
 >
@@ -69,7 +70,7 @@ Vous pouvez créer, modifier et modifier le statut des publicités à partir de 
 
       1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier").
 
-1. Modifiez la variable [[!DNL Baidu] publicité textuelle](ad-settings-baidu-text.md), [[!DNL Google Ads] publicité d’appel uniquement](ad-settings-google-call.md), [[!DNL Google Ads] publicité de recherche dynamique étendue](ad-settings-google-dsa.md) (désormais appelé &quot;publicité de recherche dynamique&quot; dans Google Ads), [[!DNL Google Ads] publicité de recherche réactive](ad-settings-google-rsa.md), [[!DNL Microsoft Advertising] publicité de recherche dynamique étendue](ad-settings-microsoft-dsa.md), [[!DNL Microsoft Advertising] publicité multimédia](ad-settings-microsoft-multimedia.md), [[!DNL Microsoft Advertising] publicité produit](ad-settings-microsoft-product.md), [[!DNL Microsoft Advertising] publicité réactive (audience)](ad-settings-microsoft-responsive.md), [[!DNL Microsoft Advertising] publicité de recherche réactive](ad-settings-microsoft-rsa.md)ou [[!DNL Yandex] publicité textuelle](ad-settings-yandex-text.md) paramètres.
+1. Modifiez la variable [[!DNL Baidu] publicité textuelle](ad-settings-baidu-text.md), [[!DNL Google Ads] publicité d’appel uniquement](ad-settings-google-call.md), [[!DNL Google Ads] publicité de recherche dynamique étendue](ad-settings-google-dsa.md) (désormais appelé &quot;publicité de recherche dynamique&quot; dans Google Ads), [[!DNL Google Ads] publicité de recherche réactive](ad-settings-google-rsa.md), [[!DNL Microsoft Advertising] publicité de recherche dynamique étendue](ad-settings-microsoft-dsa.md), [[!DNL Microsoft Advertising] publicité multimédia](ad-settings-microsoft-multimedia.md), [[!DNL Microsoft Advertising] publicité produit](ad-settings-microsoft-product.md), [[!DNL Microsoft Advertising] publicité réactive (audience)](ad-settings-microsoft-responsive.md), [[!DNL Microsoft Advertising] publicité de recherche réactive](ad-settings-microsoft-rsa.md), ou [[!DNL Yandex] publicité textuelle](ad-settings-yandex-text.md) paramètres.
 
    Pour plusieurs publicités, vous ne pouvez modifier que les champs communs à toutes les publicités sélectionnées, et vos modifications sont appliquées à toutes les publicités sélectionnées. Pour certains champs alphanumériques, vous pouvez remplacer des valeurs existantes par une valeur spécifique, remplacer une chaîne existante par une chaîne spécifiée, ajouter un préfixe spécifique au début de chaque valeur ou ajouter un suffixe à la fin de chaque valeur. Pour certains champs monétaires, vous pouvez modifier les valeurs existantes en une valeur spécifique ou augmenter ou diminuer le montant d’un pourcentage ou d’un montant monétaire spécifié, avec une limite.
 
@@ -114,4 +115,3 @@ Vous pouvez également supprimer toute publicité de recherche principale ou sus
 >* [[!DNL Microsoft Advertising] paramètres de publicité réactive (audience)](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft Advertising] paramètres de publicité de recherche réactive](ad-settings-microsoft-rsa.md)
 >* [[!DNL Yandex] paramètres de publicité texte](ad-settings-yandex-text.md)
-

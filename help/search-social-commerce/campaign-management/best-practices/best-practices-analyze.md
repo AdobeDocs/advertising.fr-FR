@@ -1,7 +1,9 @@
 ---
 title: Analysez les rapports pour affiner vos mots-clés et vos paramètres de campagne
 description: Découvrez les bonnes pratiques d’utilisation des rapports pour affiner vos mots-clés et paramètres de campagne.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: fe32561d-e910-40e0-8c37-889184b4e9c6
+feature: Search Best Practices
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -28,4 +30,3 @@ Pour plus d’informations sur l’ajustement de vos mots-clés et des paramètr
 >
 >* [Écrire une copie de publicité textuelle effective](best-practices-write.md)
 >* [Optimiser les landing pages du site web](best-practices-optimize.md)
-

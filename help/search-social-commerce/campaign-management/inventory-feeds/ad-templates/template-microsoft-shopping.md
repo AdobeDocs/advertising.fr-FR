@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Ads] achats et paramètres de modèle pour les flux de stock"
+title: '''[!DNL Microsoft® Ads] achats et paramètres de modèle pour les flux de stock'
 description: Référencez les paramètres pour [!DNL Microsoft® Ads] achat de modèles d’annonces pour les flux d’inventaire.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 64d0092a-bd63-48f4-8e15-f5585f7a022a
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -57,9 +59,9 @@ Utilisez les modèles d’annonces d’achat pour configurer des annonces d’ac
 
 **[!UICONTROL Campaign Tracking Template]:** (Facultatif pour les modèles de fichiers de flux client) Le modèle de suivi au niveau de la campagne, qui spécifie tous les paramètres de suivi et redirections hors domaine d’entrée et incorpore l’URL finale dans un paramètre. Cette valeur remplace le paramètre au niveau du compte, mais les modèles de suivi à des niveaux plus granulaires (avec le mot-clé comme plus granulaire) remplacent cette valeur.
 
-* Pour le suivi de conversion Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; effectuez l’une des opérations suivantes :
+* Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; effectuez l’une des opérations suivantes :
 
-   * (Recommandé) Utilisez la variable [format de modèle de suivi pour les campagnes d’achat Microsoft®](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Si l’intégralité du compte est dédiée aux publicités commerciales, vous pouvez définir un modèle de suivi au niveau du compte.
+   * (Recommandé) Utilisez la variable [format de modèle de suivi pour les campagnes Microsoft®](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Si l’intégralité du compte est dédiée aux publicités commerciales, vous pouvez définir un modèle de suivi au niveau du compte.
 
    * Si vous incluez à la place une valeur pour chaque produit dans le flux en utilisant le[!DNL bingads_redirect]&quot; (à l’aide de la variable [format correct](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)), puis saisissez le paramètre `{lpurl}`. Vous pouvez éventuellement ajouter des redirections et un suivi tiers au `{lpurl}` .
 
@@ -95,7 +97,7 @@ Utilisez les modèles d’annonces d’achat pour configurer des annonces d’ac
 
 {{$include /help/_includes/inventory-feed-template-campaign-initial-budget.md}}
 
-**[!UICONTROL Campaign Priority]:** La priorité avec laquelle la campagne est utilisée lorsque plusieurs campagnes font la promotion du même produit : *[!UICONTROL Low]* (valeur par défaut pour les nouvelles campagnes), *[!UICONTROL Medium]* ou *[!UICONTROL High]*. Lorsqu’un même produit est inclus dans plusieurs campagnes, le réseau publicitaire utilise d’abord la priorité de la campagne pour déterminer la campagne (et l’offre associée) éligible à l’enchère publicitaire. Lorsque toutes les campagnes ont la même priorité, la campagne avec l&#39;offre la plus élevée est éligible.
+**[!UICONTROL Campaign Priority]:** La priorité avec laquelle la campagne est utilisée lorsque plusieurs campagnes font la promotion du même produit : *[!UICONTROL Low]* (valeur par défaut pour les nouvelles campagnes), *[!UICONTROL Medium]*, ou *[!UICONTROL High]*. Lorsqu’un même produit est inclus dans plusieurs campagnes, le réseau publicitaire utilise d’abord la priorité de la campagne pour déterminer la campagne (et l’offre associée) éligible aux enchères publicitaires. Lorsque toutes les campagnes ont la même priorité, la campagne avec l&#39;offre la plus élevée est éligible.
 
 <!-- **[!UICONTROL Locations]:** -->
 
@@ -117,7 +119,7 @@ Utilisez les modèles d’annonces d’achat pour configurer des annonces d’ac
 
 **[!UICONTROL Ad Group Tracking Template]:** (Facultatif) Un modèle de suivi au niveau du groupe d’annonces qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi et incorpore l’URL finale dans un paramètre. Cette valeur remplace les paramètres au niveau du compte et de la campagne, mais les modèles de suivi à des niveaux plus granulaires remplacent cette valeur.
 
-Pour le suivi de conversion Adobe Advertising, il n’est pas nécessaire de saisir de valeur. La valeur au niveau de la campagne suffit.
+Pour le suivi des conversions par Adobe Advertising, il n’est pas nécessaire de saisir de valeur. La valeur au niveau de la campagne suffit.
 
 Pour les redirections et le suivi tiers, saisissez une valeur.
 
@@ -147,7 +149,7 @@ Pour les redirections et le suivi tiers, saisissez une valeur.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Unités sans groupes de produits enfants ; (facultatif) Le modèle de suivi pour le groupe de produits, qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi et incorpore l’URL finale dans une [!DNL ValueTrack] . Ce modèle remplace les modèles à des niveaux supérieurs.
+**[!UICONTROL Tracking Template]:** (Unités sans groupes de produits enfants ; facultatif) Le modèle de suivi pour le groupe de produits, qui spécifie toutes les redirections de domaine d’entrée et tous les paramètres de suivi et incorpore l’URL finale dans une [!DNL ValueTrack] . Ce modèle remplace les modèles à des niveaux supérieurs.
 
 Pour le suivi des conversions par Adobe Advertising, il n’est pas nécessaire de saisir de valeur. La valeur au niveau de la campagne suffit.
 

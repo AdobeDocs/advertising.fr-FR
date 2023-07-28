@@ -1,7 +1,9 @@
 ---
 title: Affectation de valeurs de classification à des composants de compte à l’aide de feuilles d’envoi groupées
 description: Découvrez comment utiliser des feuilles d’envoi groupé pour affecter des valeurs de classification aux composants du compte.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9bb38f28-d6bc-41f4-9c28-b391d9b9e412
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 7%
@@ -22,13 +24,13 @@ Les valeurs d’étiquette sont héritées par les entités enfants. Par conséq
 
 1. [Téléchargement d’une feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) qui comprend les entités auxquelles vous souhaitez affecter des valeurs de classification de libellé :
 
-   * Sur le [!UICONTROL Rows and Columns] , développez l’onglet [!UICONTROL Campaign] dans la [!UICONTROL Bulksheet Columns] volet.
+   * Sur le [!UICONTROL Rows and Columns] , développez la [!UICONTROL Campaign] dans la [!UICONTROL Bulksheet Columns] volet.
 
    * Développez l’objet [!UICONTROL Label Classification] liste.
 
    * Sélectionnez chaque classification pour laquelle vous souhaitez inclure une colonne dans le fichier de feuille d’envoi groupé.
 
-      Par exemple, si vous incluez les classifications de libellés &quot;Couleur&quot; et &quot;Géo&quot;, la feuille d’envoi groupée comprend les colonnes &quot;Couleur&quot; et &quot;Géo&quot;.
+     Par exemple, si vous incluez les classifications de libellés &quot;Couleur&quot; et &quot;Géo&quot;, la feuille d’envoi groupée comprend les colonnes &quot;Couleur&quot; et &quot;Géo&quot;.
 
 1. Ouvrez le fichier dans un éditeur et ajoutez des valeurs d’étiquette aux colonnes de classification des étiquettes pour les entités auxquelles les associer. La longueur maximale de chaque valeur est de 100 caractères. Elle peut contenir des caractères ASCII et non ASCII.
 
@@ -46,15 +48,15 @@ Cet exemple comprend des colonnes pour les classifications d’étiquettes &quot
 
 | Compte | Campagne | Groupe publicitaire | Mot-clé | Publicité | Emplacement | Étiquettes | Couleur | Géo |
 |---|---|---|---|---|---|---|---|---|
-| Acct1 | C1 |  |  |  |  |  | Vert |  |
-| Acct1 | C1 | AG1 |  |  |  |  |  |  |
-| Acct1 | C1 | AG1 | K1 |  |  |  |  | Royaume-Uni |
-| Acct1 | C1 | AG1 | K2 |  |  |  | Rouge | AU |
-| Acct1 | C1 | AG1 | K3 |  |  |  | Bleu | DE |
-| Acct1 | C1 | AG1 |  | A1 |  |  |  |  |
-| Acct1 | C1 | AG1 |  | A1 |  |  | Rouge |  |
-| Acct1 | C1 | AG1 |  |  | P1 |  | Rouge | AU |
-| Acct1 | C1 | AG1 |  |  | P2 |  | Bleu | DE |
+| Acct1 | C1 | | | | | | Vert | |
+| Acct1 | C1 | AG1 | | | | | | |
+| Acct1 | C1 | AG1 | K1 | | | | | UK |
+| Acct1 | C1 | AG1 | K2 | | | | Rouge | AU |
+| Acct1 | C1 | AG1 | K3 | | | | bleu | DE |
+| Acct1 | C1 | AG1 | | A1 | | | | |
+| Acct1 | C1 | AG1 | | A1 | | | Rouge | |
+| Acct1 | C1 | AG1 | | | P1 | | Rouge | AU |
+| Acct1 | C1 | AG1 | | | P2 | | bleu | DE |
 
 >[!MORELIKETHIS]
 >
@@ -64,4 +66,3 @@ Cet exemple comprend des colonnes pour les classifications d’étiquettes &quot
 >* [Suppression des valeurs de classification d’étiquette des composants de compte](classification-values-remove.md)
 >* [Supprimer des valeurs de classification d’étiquettes](classification-values-delete.md)
 >* [Supprimer des classifications d’étiquettes](classification-delete.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Validation des landing pages dans des fichiers de feuille d’envoi groupé
 description: Découvrez comment valider les URL de destination dans un fichier de feuille d’envoi groupé à un seul compte.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cf703687-1151-46f6-9540-12a83d41dfc8
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 Vous pouvez valider les landing pages dans toutes les URL de destination dans un fichier de feuille d’envoi groupé à un seul compte. Vous pouvez spécifier des expressions et des URL qui indiquent une page non valide et éventuellement signaler les redirections de page d’entrée comme des erreurs. Search, Social et Commerce recherchent les conditions spécifiées et les pages d’entrée manquantes (qui génèrent des erreurs HTTP 404 ou &quot;Not Found&quot;).
 
-Lorsqu’il détecte des erreurs, Search, Social et Commerce crée un fichier d’erreur de feuille d’envoi groupé qui inclut toutes les lignes de la feuille d’envoi groupé d’origine et les messages d’erreur pour toutes les lignes contenant une page d’entrée non valide. Les erreurs sont notées dans la variable [!UICONTROL EF Errors] colonne . La convention du nom de fichier est la suivante : `<bulksheet name>__lpv_errors.<extension used for the bulksheet>`.
+Lorsqu’il détecte des erreurs, Search, Social et Commerce crée un fichier d’erreur de feuille d’envoi groupé qui inclut toutes les lignes de la feuille d’envoi groupé d’origine et les messages d’erreur pour toutes les lignes contenant une page d’entrée non valide. Les erreurs sont notées dans la variable [!UICONTROL EF Errors] colonne . La convention du nom de fichier est `<bulksheet name>__lpv_errors.<extension used for the bulksheet>`.
 
 Vous pouvez ensuite télécharger le fichier, corriger les erreurs et charger le fichier corrigé, puis publier le fichier corrigé sur le compte réseau publicitaire.
 
@@ -22,7 +24,6 @@ Vous pouvez ensuite télécharger le fichier, corriger les erreurs et charger le
 >
 >* Cette fonction ne valide pas les valeurs de la colonne URL de base/URL finale.
 >* Vous pouvez publier des fichiers de feuille d’envoi groupé pendant leur validation, ou même si des erreurs sont détectées.
-
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
@@ -47,7 +48,6 @@ Au début de la tâche, une nouvelle ligne est ajoutée à la fonction [!UICONTR
 >* La validation des fichiers volumineux prend plus de temps.
 >* Les fichiers de feuilles d’envoi groupé pour plusieurs campagnes peuvent contenir jusqu’à 500 000 lignes de données. Si vous générez des données pour plusieurs campagnes et que les données combinées se composent de plus de 500 000 lignes, les données sont fractionnées par campagne en deux fichiers ou plus nommés `<bulksheet name>_1.tsv`, `<bulksheet name>_2.tsv`, etc.
 
-
 >[!MORELIKETHIS]
 >
 >* [A propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées](bulksheet-about.md)
@@ -56,4 +56,3 @@ Au début de la tâche, une nouvelle ligne est ajoutée à la fonction [!UICONTR
 >* [Arrêt d’une tâche de feuille d’envoi groupé en cours](bulksheet-stop-job.md)
 >* [Télécharger une feuille d’envoi groupé ou un fichier d’erreur corrigé](bulksheet-upload.md)
 >* [Exportation d’un fichier de feuille d’envoi groupé généré ou transféré](bulksheet-export.md)
-

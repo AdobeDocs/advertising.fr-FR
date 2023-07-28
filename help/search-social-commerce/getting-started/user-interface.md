@@ -1,7 +1,9 @@
 ---
 title: Organisation de l’interface utilisateur
 description: Découvrez où accéder à différentes fonctionnalités.
-source-git-commit: 5691766a5e3acca4e94f93f5a4d5c9a7007734b5
+exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Le haut de chaque page comprend le menu principal et d’autres menus de tâches
 
 ## Le menu principal
 
-Les options de menu principal de niveau supérieur sont basées sur les canaux publicitaires disponibles. Vous ne verrez que les canaux publicitaires qui s’appliquent à vous :
+Les options de menu principal de niveau supérieur sont basées sur les canaux publicitaires disponibles. Vous ne verrez que les canaux publicitaires qui vous concernent :
 
 * **[!UICONTROL DSP]** — (Lorsque vous avez accès à Adobe Advertising DSP (Demand Side Platform)) Pour gérer votre affichage et votre publicité TV connectée. Une [Guide DSP](https://experienceleague.adobe.com/docs/advertising/dsp/home.html) est disponible.
 
@@ -32,21 +34,21 @@ Sous , [!UICONTROL Search] , vous verrez les sous-menus suivants. Les options di
 
 * **[!UICONTROL Optimization]** — Ce menu contient des options pour gérer les objectifs de l’entreprise, gérer les portefeuilles en fonction des objectifs de votre entreprise et surveiller les performances de votre portefeuille, générer les portefeuilles croisés [!UICONTROL Spend Recommendation Report], gérez les contraintes d’offre, puis affichez et (certains utilisateurs) gérez vos [!DNL Google Ads] règles de valeur de conversion.
 
-   Une documentation distincte sur ces fonctionnalités est disponible dans la section [!UICONTROL Help] (![Menu Aide](/help/search-social-commerce/assets/help-main-menu.png "Menu Aide")).
+  Une documentation distincte sur ces fonctionnalités est disponible dans la section [!UICONTROL Help] (![Menu Aide](/help/search-social-commerce/assets/help-main-menu.png "Menu Aide")).
 
 * **[!UICONTROL Insights & Reports]** — Ce menu comprend des options pour générer des informations et des rapports détaillés, automatiser la production de rapports à l’aide de flux de feuille de calcul, créer et surveiller des alertes, configurer vos paramètres de notification, afficher des recommandations de réseau publicitaire et afficher un journal des modifications apportées au compte de l’annonceur.
 
-* **[!UICONTROL Tools]** — Ce menu comprend des options pour modifier le mot de passe de votre compte, générer des balises pour suivre les conversions à partir des pages du site web, générer et décoder des URL de suivi des clics et charger des mesures pour les campagnes de suivi de recherche.
+* **[!UICONTROL Tools]** — Ce menu comprend des options permettant de modifier le mot de passe de votre compte, de générer des balises pour suivre les conversions à partir des pages du site web, de générer et de décoder des URL de suivi des clics et de charger des mesures pour les campagnes de suivi de recherche.
 
-* **[!UICONTROL Admin]** — Le [!UICONTROL Admin] menu comprend des options permettant de modifier les noms d’affichage des propriétés de transaction d’un annonceur dans les tableaux de données et les rapports, de configurer les paramètres à synchroniser avec un compte Adobe Audience Manager et de synchroniser les mesures de conversion pour un compte spécifique. [!DNL Google Analytics] combinaison de compte, de propriété et d’affichage. Selon votre rôle, il peut vous permettre de gérer des comptes d’annonceurs, des comptes d’agence, des rôles d’utilisateur et des comptes d’utilisateurs.
+* **[!UICONTROL Admin]** — Le [!UICONTROL Admin] menu comprend des options permettant de modifier les noms d’affichage des propriétés de transaction d’un annonceur dans les tableaux de données et les rapports, de configurer les paramètres à synchroniser avec un compte Adobe Audience Manager et de synchroniser les mesures de conversion pour un compte spécifique. [!DNL Google Analytics] combinaison de compte, propriété et vue. Selon votre rôle, il peut vous permettre de gérer des comptes d’annonceurs, des comptes d’agence, des rôles d’utilisateur et des comptes d’utilisateurs.
 
-## Autres menus de tâches et d’informations sur la droite
+## Autres menus de tâches et informations sur la droite
 
 * (Le cas échéant) Une liste sélectionnable de publicitaires que vous gérez.
 
 * ![Notifications d’alertes](/help/search-social-commerce/assets/notifications-panel.png "Notifications d’alertes") Panneau répertoriant vos notifications Search, Social et Commerce.
 
-   Quand tu es [connecté via Adobe Experience Cloud](log-in.md), ce panneau affiche les notifications de l’Experience Cloud.
+  Quand tu es [connecté via Adobe Experience Cloud](log-in.md), ce panneau affiche les notifications de l’Experience Cloud.
 
 * ![Menu Aide](/help/search-social-commerce/assets/help-main-menu.png "Menu Aide") Un menu d’aide qui comprend des liens vers la documentation et d’autres informations.
 
@@ -54,10 +56,9 @@ Sous , [!UICONTROL Search] , vous verrez les sous-menus suivants. Les options di
 
 * ![Profil utilisateur](/help/search-social-commerce/assets/user-profile.png "Profil utilisateur") Lien vers votre profil, à partir duquel vous pouvez vous déconnecter.
 
-   Quand tu es [connecté via Adobe Experience Cloud](log-in.md), vous pouvez également modifier votre profil Experience Cloud, y compris votre mot de passe Experience Cloud et les paramètres de notification.
+  Quand tu es [connecté via Adobe Experience Cloud](log-in.md), vous pouvez également modifier votre profil Experience Cloud, y compris votre mot de passe Experience Cloud et les paramètres de notification.
 
 >[!MORELIKETHIS]
 >
 >* [Connexion](log-in.md)
 >* [Déconnexion](log-out.md)
-

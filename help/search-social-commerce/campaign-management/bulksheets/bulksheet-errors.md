@@ -1,7 +1,9 @@
 ---
 title: Erreurs de feuilles d’envoi groupé
 description: Raisons potentielles de référence de chaque erreur de feuille d’envoi groupé.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 0a259aca-2e9a-4e24-b4db-f8d0249d25d4
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 0%
@@ -42,8 +44,8 @@ Les erreurs suivantes peuvent être incluses dans la variable [!UICONTROL EF Err
 | Général | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | L&#39;opération a complètement échoué. Si le problème persiste, contactez votre équipe de compte d’Adobe. |
 | Toutes les entités | [!UICONTROL Invalid Fields.] \[champs non valides et erreur\] | Les données spécifiées sont manquantes ou non valides. |
 |  | [!UICONTROL Invalid Reference Given] | L’identifiant de l’entité sur le réseau publicitaire, ou l’identifiant d’une entité parent (tel que l’identifiant de compte), ne correspond pas à une entité dans Search, Social et Commerce. Cela peut se produire lorsque vous avez modifié l’ID dans la feuille d’envoi groupé. |
-|  | [!UICONTROL &lt;Entity> is deleted or expired] | L’entité a expiré ou a été supprimée et vous ne pouvez pas en modifier les propriétés. L’entité peut être supprimée lorsqu’une personne a modifié manuellement l’état. |
-|  | [!UICONTROL &lt;Entity> status should be Active or Paused] | (Nouvelles entités) Une nouvelle entité ne peut être que &quot;Principale&quot; ou &quot;En pause&quot;. |
+|  | [!UICONTROL <Entity> is deleted or expired] | L’entité a expiré ou a été supprimée et vous ne pouvez pas en modifier les propriétés. L’entité peut être supprimée lorsqu’une personne a modifié manuellement l’état. |
+|  | [!UICONTROL <Entity> status should be Active or Paused] | (Nouvelles entités) Une nouvelle entité ne peut être que &quot;Principale&quot; ou &quot;En pause&quot;. |
 |  | [!UICONTROL Duplicate Entries are present] | Plusieurs lignes sont incluses pour la même entité, avec des attributs différents dans chaque ligne. Consolidation des modifications sur une seule ligne. |
 |  | [!UICONTROL Invalid AMO ID given] | L’AMO ID de la ligne n’existe pas. Cela peut se produire si vous avez modifié l’identifiant dans la feuille d’envoi groupé. |
 |  | [!UICONTROL Invalid row given] | La ligne ne contient pas suffisamment d’informations pour déterminer le type d’entité. Modifiez la ligne pour inclure tous les champs requis pour le type d’entité. |
@@ -59,22 +61,22 @@ Les erreurs suivantes peuvent être incluses dans la variable [!UICONTROL EF Err
 | Tous les composants de groupe publicitaire | [!UICONTROL Adgroup creation failed] | Le groupe d’annonces parent n’a pas été créé. Cette entité n’a donc pas pu être créée. Cela peut être dû à une erreur dans les champs du groupe publicitaire ou à l’échec de la campagne parente. Assurez-vous que toutes les entités parentes contiennent tous les champs requis. |
 |  | [!UICONTROL Adgroup Row Missing] | Le groupe publicitaire parent spécifié n’existe pas. L’entité n’a donc pas pu être créée. Créez le groupe publicitaire parent dans une nouvelle ligne. |
 |  | [!UICONTROL Cannot modify Tracking Template at Keyword / Creative / Site Link level until Account has been migrated to use Upgraded URLs. Please retry after migration] | Le &quot;[!UICONTROL Tracking Template]&quot; concerne uniquement les comptes qui utilisent des URL finales/avancées. Supprimez la valeur jusqu’à ce que vous ayez migré le compte pour utiliser les URL finales/avancées. |
-| Publicité | [!UICONTROL Cannot modify attributes other than status code and url for &lt;ad type>] | (Types d’annonces autres que le texte, le texte étendu, le produit, l’installation de l’application et la recherche dynamique) Vous ne pouvez modifier que l’état et l’URL de ce type d’annonce. |
-|  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | Chaque groupe d’annonces peut inclure jusqu’à 50 annonces, et cette feuille d’envoi groupé en inclut plus de 50. Réduisez le nombre de publicités. |
+| Publicité | [!UICONTROL Cannot modify attributes other than status code and url for <ad type>] | (Types d’annonces autres que le texte, le texte étendu, le produit, l’installation de l’application et la recherche dynamique) Vous ne pouvez modifier que l’état et l’URL de ce type d’annonce. |
+|  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | Chaque groupe d’annonces peut inclure jusqu’à 50 annonces, et cette feuille d’envoi groupé en inclut plus de 50. Réduire le nombre de publicités. |
 |  | [!UICONTROL Cannot modify an ad which is either deleted/expired or under an deleted/expired campaign] | La publicité se trouve dans une entité parent expirée ou supprimée, vous ne pouvez donc pas la modifier. |
 | Mot-clé | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | La campagne ou le groupe publicitaire parent est supprimé ou expiré, vous ne pouvez donc pas modifier l’entité. |
 | Emplacement | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | La campagne ou le groupe publicitaire parent est supprimé ou expiré, vous ne pouvez donc pas modifier l’entité. |
-|  | [!UICONTROL Cannot specify placement bids for websites under Display Select enabled Campaign with Search and Display Networks] | (Publicités Google) Vous pouvez enchérir sur des emplacements uniquement dans les campagnes sur le réseau de recherche uniquement ou uniquement sur le réseau de contenu, mais pas sur les campagnes qui ciblent les réseaux de recherche et de contenu. |
-| Groupe de produits d’achat | [!UICONTROL Cannot delete Everything Else manually. It will be deleted automatically when all Product Group Conditions under the same parent are removed] | Chaque niveau de groupe de produits doit inclure un[!UICONTROL Everything Else]&quot;. Vous ne pouvez pas supprimer manuellement un[!UICONTROL Everything Else]&quot; groupe; il est automatiquement supprimé lorsque vous supprimez tous les autres groupes de produits au même niveau. |
+|  | [!UICONTROL Cannot specify placement bids for websites under Display Select enabled Campaign with Search and Display Networks] | (Publicités Google) Vous pouvez enchérir sur des emplacements uniquement dans les campagnes du réseau de recherche uniquement ou uniquement sur le réseau de contenu, mais pas sur les campagnes qui ciblent à la fois les réseaux de recherche et de contenu. |
+| Groupe de produits d’achat | [!UICONTROL Cannot delete Everything Else manually. It will be deleted automatically when all Product Group Conditions under the same parent are removed] | Chaque niveau de groupe de produits doit inclure un &quot;[!UICONTROL Everything Else]&quot;. Vous ne pouvez pas supprimer manuellement un &quot;[!UICONTROL Everything Else]&quot; ; il est automatiquement supprimé lorsque vous supprimez tous les autres groupes de produits au même niveau. |
 |  | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | La campagne ou le groupe publicitaire parent est supprimé ou expiré, vous ne pouvez donc pas modifier l’entité. |
-| Lien de site | [!UICONTROL Sitelinks Cannot update more than 10 site links per campaign] | ([!DNL Yandex] uniquement) Le message est inexact ; chaque campagne peut comporter jusqu’à quatre liens de site (et non pas 10), et cette feuille d’envoi groupé en comprend plus de quatre. Supprimez certains liens de site. |
+| Lien de site | [!UICONTROL Sitelinks Cannot update more than 10 site links per campaign] | ([!DNL Yandex] uniquement) Le message est inexact ; chaque campagne peut inclure jusqu’à quatre liens de site (et non pas 10), et cette feuille d’envoi groupé en inclut plus de quatre. Supprimez certains liens de site. |
 |  | [!UICONTROL Cannot update sitelinks under deleted/expired campaign] | La campagne parente a expiré ou a été supprimée, de sorte que vous ne pouvez pas modifier le lien de site. |
 |  | [!UICONTROL Creative creation failed] | ([!DNL Yandex]) Le lien de site n’a pas pu être créé, car la publicité n’a pas été créée. |
 | Cible de l’emplacement | [!UICONTROL Cannot modify locations under deleted campaigns or adgroups] | La campagne ou le groupe publicitaire parent est supprimé ou arrivé à expiration. Vous ne pouvez donc pas modifier les cibles d’emplacement. |
 | Exclusions | [!UICONTROL Other than status is modified] | Vous ne pouvez modifier que le statut d’une exclusion (&quot;[!UICONTROL Active]&quot; ou &quot;[!UICONTROL Deleted]&quot;). |
 | Cibles/audiences de la liste de remarketing Google | [!UICONTROL Invalid Audience given] | ([!DNL Google Ads] campagnes uniquement) La cible RLSA ne correspond pas à une RLSA existante (audience). Corrigez les valeurs de la variable[!UICONTROL Audience]&quot; et &quot;[!UICONTROL RLSA Target]&quot;. |
 
-### Erreurs de publication
+### Post errors
 
 Les erreurs suivantes se produisent dans [!UICONTROL EF Errors] fichiers uniquement. La plupart des erreurs de publication proviennent du réseau publicitaire et sont incluses dans un fichier SE Errors.
 
@@ -82,7 +84,7 @@ Les erreurs suivantes se produisent dans [!UICONTROL EF Errors] fichiers uniquem
 |----|----|----|
 | Général | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | L&#39;opération a complètement échoué. Si le problème persiste, contactez votre équipe de compte d’Adobe. |
 | Toutes les entités | [!UICONTROL Entity] est publié sur le réseau publicitaire | L’entité a été publiée sur le réseau publicitaire, mais elle n’a pas été synchronisée dans Search, Social et Commerce au même moment. Les données d’entité ne sont donc pas immédiatement disponibles dans Search, Social et Commerce. Le processus de synchronisation est maintenant déclenché automatiquement.<br><br>Lorsque de grandes quantités de données sont synchronisées, les données peuvent ne pas être disponibles dans Search, Social et Commerce pendant plusieurs heures ou plus. |
-| | [!UICONTROL Skipping &lt;ENTITY> creation since &lt;PARENT ENTITY> creation failed.] | L’entité parente n’a pas pu être créée. Cette entité enfant n’a donc pas été créée. |
+| | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | L’entité parente n’a pas pu être créée. Cette entité enfant n’a donc pas été créée. |
 
 >[!MORELIKETHIS]
 >

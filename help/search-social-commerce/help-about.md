@@ -1,7 +1,9 @@
 ---
 title: À propos de ce guide
 description: Découvrez ce qui est décrit dans chaque chapitre de ce guide.
-source-git-commit: b857bae4ea175c446072f5dacf82db3845993a45
+exl-id: fb47db6f-d579-472f-a0e3-7bbc92ceb9e5
+feature: Search Introduction
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -14,7 +16,7 @@ Des informations sur des groupes spécifiques de tâches et d’autres informati
 
 * &quot;Introduction&quot; présente les principales fonctionnalités de Advertising Search, Social et Commerce.
 
-* La section &quot;Prise en main&quot; explique les principales tâches impliquées dans l’implémentation d’un annonceur, depuis la configuration pour le lancement initial jusqu’à l’exécution de tâches de gestion en cours. et l’organisation de l’interface utilisateur.
+* La section &quot;Prise en main&quot; explique les principales tâches impliquées dans l’implémentation d’un annonceur, depuis la configuration pour le lancement initial jusqu’à l’exécution de tâches de gestion en cours, ainsi que la manière dont l’interface utilisateur est organisée.
 
 * Les &quot;tâches courantes&quot; expliquent comment configurer les différentes vues de données de performances en fonction de vos besoins et préférences d’informations, comment gérer des mesures personnalisées, comment gérer les classifications d’étiquettes et les contraintes d’offre, et comment exécuter d’autres tâches courantes.
 
@@ -26,7 +28,7 @@ Des informations sur des groupes spécifiques de tâches et d’autres informati
 
 * &quot;Outils&quot; explique comment modifier votre mot de passe, utiliser des outils pour générer des balises de suivi des clics et des conversions, charger vos mesures de conversion dans [!DNL Google Ads] et vos objectifs de portfolio sur les réseaux publicitaires pour une optimisation hybride, chargez des mesures pour le suivi des campagnes et répliquez vos [!DNL Google Ads] campagnes dans vos [!DNL Microsoft Advertising] comptes.
 
-* &quot;Administration&quot; explique comment gérer les données des annonceurs, notamment les propriétés de transaction collectées et les dates à exclure des prévisions du portefeuille. synchroniser vos mesures de conversion à partir d’une [!DNL Google Analytics] compte ; configurer divers paramètres au niveau de l’annonceur ; et (certains rôles) administrer des comptes d’utilisateurs, d’agences et d’annonceurs.
+* &quot;Administration&quot; explique comment gérer les données de l’annonceur, notamment les propriétés de transaction collectées et les dates à exclure des prévisions du portefeuille. synchronisez vos mesures de conversion à partir d’une [!DNL Google Analytics] ; configurez divers paramètres au niveau de l’annonceur ; et (certains rôles) administrez des comptes d’utilisateurs, d’agences et d’annonceurs.
 
 >[!NOTE]
 >

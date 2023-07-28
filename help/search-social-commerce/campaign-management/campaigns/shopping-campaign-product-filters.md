@@ -1,7 +1,9 @@
 ---
-title: "Filtres de produits de campagne commerciale"
+title: Filtres de produits de campagne d'achat
 description: Référencez les filtres de produits disponibles pour les groupes de produits d’achats.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9c4f3c64-5a51-49de-aeba-bcda8a379609
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
@@ -12,9 +14,9 @@ ht-degree: 0%
 
 Voir aussi [!DNL Google Ads] help &quot;[Gérer une campagne d’achat avec des groupes de produits](https://support.google.com/google-ads/answer/6275317)&quot; et la variable [!DNL Microsoft Advertising] help &quot;[Comprendre et utiliser des groupes de produits](https://help.ads.microsoft.com/#apex/bae/en/56782).&quot;
 
-| Réseau commercial | Dimension de produit | Attributs | Remarques |
+| Réseau d&#39;achat | Dimension de produit | Attributs | Remarques |
 |----|----|----|----|
-| [!DNL Google Ads], [!DNL Microsoft Advertising] | [!DNL Google Ads]: [!UICONTROL Category=]<br><br>Microsoft : [!UICONTROL Category 1=] to [!UICONTROL Category 5=] | \[ID de catégorie\] | — |
+| [!DNL Google Ads], [!DNL Microsoft Advertising] | [!DNL Google Ads]: [!UICONTROL Category=]<br><br>MICROSOFT : [!UICONTROL Category 1=] to [!UICONTROL Category 5=] | \[ID de catégorie\] | — |
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | [!UICONTROL Brand=] | \[Marque\] | — |
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | [!UICONTROL Item ID=] | \[ID de l’élément\] | — |
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | [!UICONTROL Condition] | [!UICONTROL New], [!UICONTROL Used], [!UICONTROL Refurbished], [!UICONTROL Unknown] | — |
@@ -35,4 +37,3 @@ Voir aussi [!DNL Google Ads] help &quot;[Gérer une campagne d’achat avec des 
 >* [[!DNL Microsoft Advertising] achats et paramètres de modèle pour les flux de stock](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
 >* [Données requises pour [!DNL Google Ads] bulles](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
 >* [Données requises pour [!DNL Microsoft Advertising] bulles](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Affichage ou enregistrement d’une [!DNL Advertising Insight]
 description: Découvrez comment afficher une [!DNL Advertising Insight] et enregistrez-le dans un fichier .
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 165a6036-c911-4c56-a820-c9d172e47ea4
+feature: Search Advertising Insights
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
@@ -29,4 +31,3 @@ ht-degree: 0%
 >* [A propos [!UICONTROL Advertising Insights]](insight-about.md)
 >* [Générer une [!DNL Advertising Insight]](insight-generate.md)
 >* [Suppression d’un [!DNL Advertising Insight]](insight-delete.md)
-

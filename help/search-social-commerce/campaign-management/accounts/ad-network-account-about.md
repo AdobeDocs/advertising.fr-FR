@@ -1,7 +1,9 @@
 ---
 title: A propos des comptes de réseau publicitaire
 description: Découvrez les comptes de réseau publicitaire dans Search, Social et Commerce.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -30,7 +32,7 @@ Pour plus d’informations sur la création et la modification des campagnes syn
 
 *[!DNL Naver]Comptes*
 
-Les campagnes de suivi vous permettent de suivre, de créer des rapports et de visualiser les performances des annonces que vous achetez directement sur le réseau publicitaire. Search, Social et Commerce ne synchronise pas les données avec le réseau publicitaire, n’enchère pas pour le compte ni ne fournit aucun type d’optimisation ou de simulations.
+Les campagnes de suivi vous permettent de suivre, de créer des rapports et de visualiser les performances des annonces que vous achetez directement sur le réseau publicitaire. Search, Social et Commerce ne synchronise pas les données avec le réseau publicitaire, n’enchère pas pour le compte et ne fournit aucun type d’optimisation ou de simulations.
 
 Pour permettre à Search, Social et Commerce d’attribuer des conversions aux clics, configurez les options de suivi dans l’enregistrement de compte et activez l’enregistrement de compte. Vous pouvez ensuite utiliser des feuilles d’envoi groupées pour générer des URL de suivi pour vos publicités et mots-clés, puis ajouter manuellement les URL de suivi dans la variable [!DNL Naver] gestionnaire de publicités.
 
@@ -41,4 +43,3 @@ Voir plus d’informations sur [!DNL Naver] campagnes de suivi uniquement, voir 
 >* [Gestion des comptes de réseau publicitaire](ad-network-account-manage.md)
 >* [Gestion des comptes de centre commercial](merchant-account-manage.md)
 >* [Mettez à jour le code de suivi s\_kwcid pour un événement [!DNL Google Ads] account](update-skwcid-google.md)
-

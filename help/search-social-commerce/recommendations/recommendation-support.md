@@ -2,7 +2,8 @@
 title: À propos de la prise en charge des recommandations et des insights de l’éditeur
 description: Découvrez la prise en charge de l’affichage et de la gestion des recommandations et des informations de l’éditeur.
 exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
-source-git-commit: de1b0b3ffbb8cbc3113e4e707b8ee2d647f60ca3
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
@@ -19,9 +20,9 @@ ht-degree: 0%
 
 * Chaque [!DNL Google Ads] la recommandation fournit des suggestions personnalisées sur les différents aspects des performances d’une campagne, depuis l’ajout d’une ressource jusqu’à l’augmentation du budget, en fonction de l’historique des performances de votre compte, des paramètres de campagne et des tendances dans l’ensemble de la campagne. [!DNL Google Ads].
 
-* Chaque [!DNL Microsoft® Advertising] les informations de performances vous alertent sur une fluctuation significative dans un compte de gestionnaire, un compte publicitaire ou une campagne ; identifie les causes possibles et suggère des actions pour optimiser les performances.
+* Chaque [!DNL Microsoft® Advertising] les informations de performances vous avertissent d’une fluctuation significative dans un compte de gestionnaire, un compte publicitaire ou une campagne ; identifient les causes possibles et suggèrent des actions pour optimiser les performances.
 
-## Le [!UICONTROL Recommendations & Publisher Insights] view
+## La variable [!UICONTROL Recommendations & Publisher Insights] view
 
 Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights], vous pouvez :
 
@@ -58,16 +59,16 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 | [!UICONTROL Automated campaigns] | [!UICONTROL Upgrade local campaign to performance max] | Mettre à niveau une campagne locale héritée à une campagne maximale de performances |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | Mettre à niveau une campagne d’achats intelligents héritée vers une campagne de performances maximales |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Correction des campagnes limitées par le budget |
-| | [!UICONTROL Enhanced CPC opt in] | Offre avec [!UICONTROL Enhanced CPC] |
+| | [!UICONTROL Enhanced CPC opt in] | Enchère avec [!UICONTROL Enhanced CPC] |
 | | [!UICONTROL Forecasting campaign budget] | Correction des campagnes qui devraient être limitées par le budget à l’avenir. |
 | | [!UICONTROL Forecasting set Target ROAS] | Augmentez le budget avant un événement saisonnier prévu pour augmenter le trafic et modifiez la stratégie d’offre à partir de [!UICONTROL Maximize Conversion Value] to [!UICONTROL Target ROAS] |
 | | [!UICONTROL Marginal ROI campaign budget] | Ajuster le budget de la campagne pour augmenter le ROI |
-| | [!UICONTROL Maximize clicks opt in] | Offre avec [!UICONTROL Maximize Clicks] |
-| | [!UICONTROL Maximize conversions opt in] | Offre avec [!UICONTROL Maximize Conversions] |
+| | [!UICONTROL Maximize clicks opt in] | Enchère avec [!UICONTROL Maximize Clicks] |
+| | [!UICONTROL Maximize conversions opt in] | Enchère avec [!UICONTROL Maximize Conversions] |
 | | [!UICONTROL Move unused budget] | Déplacement inutilisé vers les budgets limités |
-| | [!UICONTROL Raise Target CPA bid too low] | Augmentez le [!UICONTROL Target CPA] d’une valeur recommandée lorsqu’elle est trop faible et qu’il y a peu ou pas de conversions |
-| | [!UICONTROL Target CPA opt in] | Offre avec [!UICONTROL Target CPA] |
-| | [!UICONTROL Target ROAS opt in] | Offre avec [!UICONTROL Target ROAS] |
+| | [!UICONTROL Raise Target CPA bid too low] | Augmentez la variable [!UICONTROL Target CPA] d’une valeur recommandée lorsqu’elle est trop faible et qu’il y a peu ou pas de conversions |
+| | [!UICONTROL Target CPA opt in] | Enchère avec [!UICONTROL Target CPA] |
+| | [!UICONTROL Target ROAS opt in] | Enchère avec [!UICONTROL Target ROAS] |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | Développer la portée en mettant à jour une campagne pour utiliser l’extension d’affichage |
 | | [!UICONTROL Keyword] | Ajouter de nouveaux mots-clés |
 | | [!UICONTROL Search partners opt in] | Développer la portée avec [!DNL Google] partenaires de recherche |

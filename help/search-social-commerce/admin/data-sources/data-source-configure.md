@@ -1,20 +1,21 @@
 ---
-title: Configurez une [!DNL Google Analytics] vue en tant que source de données
+title: Configurez une [!DNL Google Analytics] vue comme source de données
 description: Découvrez comment configurer une source de données à partir d’une [!DNL Google Analytics] vue.
 role: User, Admin
 exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
 
 ---
 
-# Configurez une [!DNL Google Analytics] vue en tant que source de données
+# Configurez une [!DNL Google Analytics] vue comme source de données
 
 *Administrateurs de l’agence, responsables de compte de l’agence, gestionnaires de compte d’Adobe et administrateurs uniquement*
 
-Vous pouvez créer une source de données par [!DNL Google Analytics] combinaison de compte, de propriété et d’affichage.
+Vous pouvez créer une source de données par [!DNL Google Analytics] combinaison de compte, propriété et vue.
 
 Pour intégrer des mesures pour plusieurs propriétés ou pour plusieurs vues pour une seule propriété, configurez une source de données distincte pour chacune d’elles.
 
@@ -38,7 +39,7 @@ Pour intégrer des mesures pour plusieurs propriétés ou pour plusieurs vues po
 
          >[!TIP]
          >
-         >Pour vous assurer que uniquement [!DNL Google Analytics] les propriétés et les vues sont disponibles dans Adobe Advertising. Connectez-vous à l’aide d’une adresse électronique qui a accès uniquement à ces propriétés et vues.
+         >Pour vous assurer que uniquement [!DNL Google Analytics] les propriétés et les vues sont disponibles dans Adobe Advertising. connectez-vous à l’aide d’une adresse électronique qui n’a accès qu’à ces propriétés et vues.
 
          >[!NOTE]
          >
@@ -52,11 +53,11 @@ Pour intégrer des mesures pour plusieurs propriétés ou pour plusieurs vues po
 
    1. Dans le [!UICONTROL Import Metrics] , spécifiez les mesures à inclure dans le ou les flux.
 
-      Vous ne pouvez pas supprimer [!UICONTROL Pageviews], [!UICONTROL Sessions], [!UICONTROL Bounces]ou [!UICONTROL Session Duration], qui sont inclus automatiquement. Vous pouvez ajouter jusqu’à 16 mesures ou mesures valides supplémentaires sans données.
+      Vous ne pouvez pas supprimer [!UICONTROL Pageviews], [!UICONTROL Sessions], [!UICONTROL Bounces], ou [!UICONTROL Session Duration], qui sont inclus automatiquement. Vous pouvez ajouter jusqu’à 16 mesures ou mesures valides supplémentaires sans données.
 
       >[!WARNING]
       >
-      >[!DNL Google Analytics] autorise jusqu’à 10 mesures dans un seul flux de données. Search, Social et Commerce peuvent prendre en charge jusqu’à deux flux avec un total de 20 mesures, mais l’utilisation d’un deuxième flux double vos appels API à [!DNL Google Analytics]. Si vous disposez de nombreuses mesures, sélectionnez uniquement celles que vous souhaitez utiliser dans les objectifs d’optimisation. En savoir plus sur [Quotas et limites d’appel pour les demandes d’API à [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
+      >[!DNL Google Analytics] autorise jusqu’à 10 mesures dans un seul flux de données. Search, Social et Commerce peuvent prendre en charge jusqu’à deux flux avec un total de 20 mesures, mais l’utilisation d’un deuxième flux double vos appels API à [!DNL Google Analytics]. Si vous disposez de plusieurs mesures, sélectionnez uniquement celles que vous souhaitez utiliser dans les objectifs d’optimisation. En savoir plus sur [Quotas et limites d’appel pour les demandes d’API à [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
 
    1. Dans le [!UICONTROL Metric Tag] , saisissez le nom de la balise à ajouter à chaque mesure pour la source de données.
 
@@ -64,7 +65,7 @@ Pour intégrer des mesures pour plusieurs propriétés ou pour plusieurs vues po
 
    La source de données est nommée &quot;NomCompte > NomPropriété > NomVue&quot; et est automatiquement activée. Pour mettre en pause la source de données, voir &quot;[Suspension d’un flux à partir d’une source de données](data-source-pause.md).&quot;
 
-   Les mesures sont disponibles le lendemain de la fin de la synchronisation quotidienne des données, qui commence à 05h00 dans le fuseau horaire de l’annonceur. Une fois les mesures disponibles, elles sont visibles dans [[!UICONTROL Admin] > [!UICONTROL Transaction Properties]](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md). Chaque nouvelle propriété de transaction est nommée &quot;&quot;`ga:backEndMetricName_propertyID_viewID`,&quot; où &quot;backEndMetricName&quot; est le nom de mesure utilisé par l’API. Le nom d’affichage de chaque nouvelle propriété de transaction est &quot;`friendlyMetricName_ga:MetricTag`,&quot; où &quot;friendlyMetricName&quot; est le nom de la mesure qui apparaît dans [!DNL Google Analytics] et &quot;MetricTag&quot; correspond à la variable [!UICONTROL Metric Tag] définis dans les paramètres de la source de données.
+   Les mesures sont disponibles le lendemain de la fin de la synchronisation quotidienne des données, qui commence à 05h00 dans le fuseau horaire de l’annonceur. Une fois les mesures disponibles, elles sont visibles dans [[!UICONTROL Admin] > [!UICONTROL Transaction Properties]](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md). Chaque nouvelle propriété de transaction est nommée &quot;&quot;`ga:backEndMetricName_propertyID_viewID`,&quot; où &quot;backEndMetricName&quot; est le nom de mesure utilisé par l’API. Le nom d’affichage de chaque nouvelle propriété de transaction est &quot;`friendlyMetricName_ga:MetricTag`,&quot; où &quot;friendlyMetricName&quot; est le nom de la mesure qui apparaît dans [!DNL Google Analytics] et &quot;MetricTag&quot; correspond à [!UICONTROL Metric Tag] définis dans les paramètres de la source de données.
 
    Vous pouvez ajouter les mesures directement aux objectifs d’optimisation, de rapports et de vue de gestion de campagne et de portefeuille.
 

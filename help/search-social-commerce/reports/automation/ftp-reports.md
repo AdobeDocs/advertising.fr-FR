@@ -1,7 +1,9 @@
 ---
 title: Accès FTP aux rapports
 description: Découvrez comment recevoir des rapports à un emplacement FTP en lecture seule.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 69850b68-0309-4f07-b4cb-c14488219a4b
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -18,7 +20,7 @@ L’accès FTP aux rapports nécessite l’accès à un compte FTP spécifié. V
 
 * Contactez votre équipe de compte d’Adobe pour configurer un compte FTP pour l’accès aux rapports.
 
-   L’équipe vous fournira votre nom d’utilisateur et votre mot de passe.
+  L’équipe vous fournira votre nom d’utilisateur et votre mot de passe.
 
 ## Configurer des modèles de rapport pour une diffusion FTP
 
@@ -39,6 +41,7 @@ Pour générer des rapports dans votre répertoire FTP désigné, créez une [mo
       * `[SDATE]` — Pour inclure la date de début de la période du rapport.
 
       * `[EDATE]` — Pour inclure la date de fin de la période du rapport.
+
    * (Facultatif) `[CSV]` (en majuscules et entre crochets) pour créer des fichiers au format CSV plutôt qu’au format TSV par défaut.
 
    Exemple : `[TODAY]-Portfolio-FTP-[SDATE]-[EDATE]-[CSV]` crée un fichier tel que 202305051656-Portfolio-FTP-20230428-20110504.csv.
@@ -52,13 +55,12 @@ Pour générer des rapports dans votre répertoire FTP désigné, créez une [mo
 >* Pour envoyer par email des rapports terminés, il vous suffit de saisir les adresses de tous les destinataires de l&#39;email lors de la génération du rapport ou du modèle.
 >* Les rapports sont exécutés conformément aux calendriers spécifiés et sont envoyés au compte FTP dans l’heure qui suit leur exécution.
 
-
 ## Accès aux rapports dans un référentiel FTP
 
 Pour accéder à vos rapports, connectez-vous à l’un des hôtes FTP suivants à l’aide de la connexion à votre compte FTP (`amo<userID>rpt`, par exemple amo1234rpt) et un mot de passe ou une clé de connexion privée si celle-ci est configurée :
 
 * Clients internationaux : `ftp3.adobe.net`
-* Clients américains : `ftp5.adobe.net`
+* Clients des États-Unis : `ftp5.adobe.net`
 
 >[!NOTE]
 >
@@ -68,4 +70,3 @@ Pour accéder à vos rapports, connectez-vous à l’un des hôtes FTP suivants 
 >[!MORELIKETHIS]
 >
 >* [Créer un modèle de rapport](/help/search-social-commerce/reports/automation/templates/template-create.md)
-

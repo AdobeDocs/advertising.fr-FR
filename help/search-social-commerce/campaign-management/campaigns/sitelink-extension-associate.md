@@ -1,7 +1,9 @@
 ---
 title: Association de liens de site partagés à des comptes, des campagnes et des groupes publicitaires
 description: Découvrez comment attribuer des extensions de lien de site partagé à des comptes, campagnes et groupes publicitaires.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c7bd92ab-3768-4b6e-988a-32e644c3d583
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -25,16 +27,16 @@ Pour que vos liens de site apparaissent avec des publicités, vous devez dispose
 1. Saisissez les paramètres d’extension sitelink :
 
    1. Dans le [!UICONTROL Sitelinks] , sélectionnez les liens de site applicables dans une liste de tous les liens de site de votre bibliothèque.
+
    Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
    1. Dans le [!UICONTROL Assignment] , sélectionnez les comptes, les campagnes et les groupes publicitaires auxquels sont attribués les liens de site sélectionnés :
+
    * (Facultatif) Pour développer un compte afin d’afficher sa campagne, cliquez sur le nom du compte. De même, pour développer une campagne afin d’afficher ses groupes d’annonces enfants, cliquez sur le nom de la campagne.
 
    * (Facultatif) Pour filtrer une liste de campagnes ou de groupes publicitaires selon une chaîne de texte incluse dans le nom, cliquez sur ![Filtrer](/help/search-social-commerce/assets/filter.png "Filtrer") , saisissez ou collez la chaîne de texte dans le champ de saisie, puis appuyez sur la touche **Entrée** clé.
 
    * Sélectionnez le cercle (![Sélectionner](/help/search-social-commerce/assets/include.png "Sélectionner")) en regard de chaque entité à laquelle les liens de site sont attribués.
-
-
 
 1. Cliquez sur **[!UICONTROL Post]**.
 
@@ -42,4 +44,3 @@ Pour que vos liens de site apparaissent avec des publicités, vous devez dispose
 >
 >* [À propos des extensions sitelink](sitelink-extension-about.md)
 >* [Gestion des extensions de lien de site partagé](sitelink-extension-manage.md)
-

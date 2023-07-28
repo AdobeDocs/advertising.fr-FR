@@ -2,7 +2,8 @@
 title: A propos des notifications
 description: Découvrez les notifications, notamment les différents types et catégories.
 exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
-source-git-commit: f3cc5ffae0d5d19c8542a46ffdb49478efa14522
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # A propos des notifications
 
-*Fonction bêta*
+*Fonctionnalité bêta*
 
 Vous pouvez configurer vos paramètres de notification pour vous abonner ou vous désabonner à différents types d’alertes. Vous pouvez afficher vos notifications de l’une des manières suivantes :
 
@@ -19,7 +20,7 @@ Vous pouvez configurer vos paramètres de notification pour vous abonner ou vous
 
 * De [!UICONTROL Insights & Reports] > [!UICONTROL Notification Center Beta].
 
-* À partir d’un [!UICONTROL Notification Center] application web qui s’ouvre [!UICONTROL Notification Center] dans une fenêtre distincte en dehors de Search, Social et Commerce.
+* Depuis un [!UICONTROL Notification Center] application web qui s’ouvre [!UICONTROL Notification Center] dans une fenêtre distincte en dehors de Search, Social et Commerce.
 
   L’application se charge plus rapidement que la version normale du navigateur et est automatiquement mise à jour. Vous pouvez installer l’application et la gérer à l’aide du gestionnaire d’applications du navigateur.
 
@@ -31,23 +32,23 @@ Vous pouvez afficher vos notifications, les marquer comme lues ou non et les sup
 
 ## Types de notification
 
-* **[!UICONTROL Notices]**: Avis de gestion des versions, des temps d’arrêt et autres modifications.
+* **[!UICONTROL Notices]**: avis de gestion des versions, des temps d’arrêt et autres modifications.
 
-* **[!UICONTROL Recommendations]**: Possibilités identifiées pour améliorer les performances, mettre en oeuvre les bonnes pratiques, etc.
+* **[!UICONTROL Recommendations]**: opportunités identifiées pour améliorer les performances, mettre en oeuvre les bonnes pratiques, etc.
 
-* **[!UICONTROL Warnings]**: Problèmes qui nécessitent une attention particulière, mais qui ne sont pas essentiels à l’optimisation ou la gestion.
+* **[!UICONTROL Warnings]**: problèmes qui nécessitent une attention particulière, mais qui ne sont pas essentiels à l’optimisation ou la gestion.
 
-* **[!UICONTROL Issues]**: Problèmes critiques qui nécessitent une attention immédiate. Les notifications d’erreur d’autorisation de compte sont incluses.
+* **[!UICONTROL Issues]**: problèmes critiques nécessitant une attention immédiate. Les notifications d’erreur d’autorisation de compte sont incluses.
 
 ## Catégories de notification
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL UI Actions]**: Notifications de l’achèvement ou de l’échec des tâches exécutées en arrière-plan. Les types de tâche incluent [Tâches de feuille de support](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), des tâches de modification en masse dans le tableau de données ou à l’aide de la barre d’outils, des tâches d’affectation d’entité ou d’autres actions de l’interface utilisateur (synchronisation avec les réseaux publicitaires, collage de lignes ou changement de nom des entités, par exemple). Les affectations d’entité incluent l’attribution ou l’annulation de l’attribution d’un [valeur de classification de libellé](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) à n’importe quelle entité, en attribuant une campagne à un portefeuille et en attribuant ou en annulant l’affectation d’une contrainte à un portefeuille.<!--Link "constraint" to constraint-about.md if that file is ever public -->
+   * **[!UICONTROL UI Actions]**: notifications indiquant que les tâches effectuées en arrière-plan ont été terminées ou ont échoué. Les types de tâche incluent [Tâches de feuille de support](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), des tâches de modification en masse dans le tableau de données ou à l’aide de la barre d’outils, des tâches d’affectation d’entité ou d’autres actions de l’interface utilisateur (synchronisation avec les réseaux publicitaires, collage de lignes ou changement de nom des entités, par exemple). Les affectations d’entité incluent l’attribution ou l’annulation de l’attribution d’un [valeur de classification de libellé](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) à n’importe quelle entité, en attribuant une campagne à un portefeuille et en attribuant ou en annulant l’affectation d’une contrainte à un portefeuille.<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
-   * **[!UICONTROL Bulksheets]**: Notifie qu’une [opération bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) a été terminé ou a échoué.
+   * **[!UICONTROL Bulksheets]**: avertit qu’une [opération bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) a été terminé ou a échoué.
 
-   * **[!UICONTROL Manager Account Missing]**: Notifications que Search, Social et Commerce ne dispose pas des informations d’identification pour une [compte de gestionnaire de réseau publicitaire](/help/search-social-commerce/admin/manager-accounts.md), qui servent à la configuration correcte des fonctions critiques.
+   * **[!UICONTROL Manager Account Missing]**: notifications indiquant que Search, Social et Commerce n’a pas les informations d’identification pour une [compte de gestionnaire de réseau publicitaire](/help/search-social-commerce/admin/manager-accounts.md), qui servent à la configuration correcte des fonctions critiques.
 
   <!--
   * [!UICONTROL Setup Errors]
@@ -59,15 +60,15 @@ Vous pouvez afficher vos notifications, les marquer comme lues ou non et les sup
 
    * [!UICONTROL Network Errors]
 
-      * **[!UICONTROL Manager Account Auth Error]**: Notifications que Search, Social et Commerce n’a pas pu se synchroniser avec une [compte de gestionnaire de réseau publicitaire](/help/search-social-commerce/admin/manager-accounts.md) en raison d’informations d’identification non valides ou d’un jeton d’autorisation non valide ou arrivé à expiration.
+      * **[!UICONTROL Manager Account Auth Error]**: notifications que Search, Social et Commerce n’a pas pu se synchroniser avec une [compte de gestionnaire de réseau publicitaire](/help/search-social-commerce/admin/manager-accounts.md) en raison d’informations d’identification non valides ou d’un jeton d’autorisation non valide ou arrivé à expiration.
 
-      * **[!UICONTROL Account Auth Error]**: Notifications que Search, Social et Commerce n’a pas pu accéder à une [compte réseau publicitaire](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) en raison d’informations d’identification non valides ou d’un jeton d’autorisation non valide ou arrivé à expiration.
+      * **[!UICONTROL Account Auth Error]**: notifications indiquant que Search, Social et Commerce n’a pas pu accéder à un [compte réseau publicitaire](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) en raison d’informations d’identification non valides ou d’un jeton d’autorisation non valide ou arrivé à expiration.
 
    * [!UICONTROL Data Upload]
 
-      * **[!UICONTROL Direct File Upload]**: Utilisé pour une version bêta fermée
+      * **[!UICONTROL Direct File Upload]**: utilisé pour une version bêta fermée
 
-      * **[!UICONTROL File Upload to Cloud Storage]**: Utilisé pour une version bêta fermée
+      * **[!UICONTROL File Upload to Cloud Storage]**: utilisé pour une version bêta fermée
 
 <!--
 * [!UICONTROL Optimization]
@@ -75,13 +76,13 @@ Vous pouvez afficher vos notifications, les marquer comme lues ou non et les sup
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Custom Alerts]**: Notifie que [instances d’alerte](/help/search-social-commerce/alerts/alert-about.md) ont été déclenchées pour un modèle d’alerte.
+   * **[!UICONTROL Custom Alerts]**: notifications que [instances d’alerte](/help/search-social-commerce/alerts/alert-about.md) ont été déclenchées pour un modèle d’alerte.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: Notifie qu’une [flux de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) a été terminé ou a échoué.
+   * **[!UICONTROL Spreadsheet Feeds]**: avertit qu’une [flux de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) a été terminé ou a échoué.
 
-   * **[!UICONTROL Reports]**: Notifie qu’une [rapport personnalisé ou planifié](/help/search-social-commerce/reports/report-about.md) a été terminé ou a échoué.
+   * **[!UICONTROL Reports]**: avertit qu’une [rapport personnalisé ou planifié](/help/search-social-commerce/reports/report-about.md) a été terminé ou a échoué.
 
-   * **[!UICONTROL Advertising Insights]**: Notifie que [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) a été terminé ou a échoué.
+   * **[!UICONTROL Advertising Insights]**: notifications que [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) a été terminé ou a échoué.
 
 <!--
 * [!UICONTROL System]

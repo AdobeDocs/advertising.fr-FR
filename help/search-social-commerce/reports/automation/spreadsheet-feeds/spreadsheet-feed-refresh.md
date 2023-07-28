@@ -1,7 +1,9 @@
 ---
 title: Actualisation manuelle des flux de rapports de feuille de calcul
 description: Découvrez comment actualiser manuellement les données dans les flux de feuille de calcul.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2929d6a6-8823-4f2e-94b4-5348d6f7672a
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Yes]**.
 
-1. (Facultatif) Une fois qu’un flux est [!UICONTROL Update Status] is *[!UICONTROL Finished]*, cliquez sur **[!UICONTROL XLSX]** en regard du flux, puis ouvrez ou enregistrez le fichier selon la procédure normale de votre navigateur.
+1. (Facultatif) Une fois un flux [!UICONTROL Update Status] is *[!UICONTROL Finished]*, cliquez sur **[!UICONTROL XLSX]** en regard du flux, puis ouvrez ou enregistrez le fichier selon la procédure normale de votre navigateur.
 
 >[!MORELIKETHIS]
 >
@@ -35,4 +37,3 @@ ht-degree: 0%
 >* [Paramètres du flux de rapports de feuille de calcul](spreadsheet-feed-settings.md)
 >* [Affichage ou enregistrement d’un fichier de flux de rapport de feuille de calcul](spreadsheet-feed-view-or-save.md)
 >* [Suppression de flux de rapports de feuille de calcul](spreadsheet-feed-delete.md)
-

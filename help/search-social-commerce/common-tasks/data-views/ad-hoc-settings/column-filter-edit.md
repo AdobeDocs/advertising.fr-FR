@@ -1,7 +1,9 @@
 ---
 title: Modifier les filtres de colonnes
 description: Découvrez comment modifier les filtres de colonnes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6e42e006-089b-44b9-b9b1-66835b680413
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
@@ -28,17 +30,17 @@ ht-degree: 0%
 
          * (Filtres avec champs de saisie) Sélectionnez un opérateur dans le deuxième menu, saisissez la valeur appropriée, puis cliquez sur ![Mettre à jour le filtre](/help/search-social-commerce/assets/select.png "Mettre à jour le filtre").
 
-            Par exemple, si vous avez sélectionné le[!UICONTROL Clicks]&quot; et que vous souhaitez renvoyer uniquement les lignes contenant plus de 100 clics, puis sélectionnez *[!UICONTROL greater than]*&quot; et saisissez `100` dans le champ de saisie.
+           Par exemple, si vous avez sélectionné le[!UICONTROL Clicks]&quot; et que vous souhaitez renvoyer uniquement les lignes contenant plus de 100 clics, puis sélectionnez *[!UICONTROL greater than]*&quot; et saisissez `100` dans le champ de saisie.
 
-            Selon le type de données, les opérateurs disponibles peuvent inclure : *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]* ou *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* ou *[!UICONTROL no date].*
+           Selon le type de données, les opérateurs disponibles peuvent inclure : *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, ou *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]*, ou *[!UICONTROL no date].*
 
-            **Remarque :** Les valeurs de texte ne sont pas sensibles à la casse. Par exemple, si vous recherchez des campagnes dont le nom contient &quot;prêt&quot;, les résultats incluent &quot;Prêts aux consommateurs&quot; et &quot;Demande de prêt&quot;.
+           **Remarque :** Les valeurs de texte ne sont pas sensibles à la casse. Par exemple, si vous recherchez des campagnes dont le nom contient &quot;prêt&quot;, les résultats incluent &quot;Prêts aux consommateurs&quot; et &quot;Demande de prêt&quot;.
+
    * Pour modifier un filtre existant, cliquez sur le filtre, modifiez la définition du filtre, puis cliquez sur ![Mettre à jour le filtre](/help/search-social-commerce/assets/select.png "Mettre à jour le filtre").
 
    * Pour supprimer un filtre existant, cliquez sur **[!UICONTROL X]** en regard de la définition de filtre.
 
-
-1. ([!UICONTROL Keywords] affichage uniquement ; (facultatif) Sélectionnez ou désélectionnez le paramètre &quot;[!UICONTROL Include rows with no performance data].&quot;
+1. ([!UICONTROL Keywords] afficher uniquement ; facultatif) Sélectionnez ou désélectionnez le paramètre sur &quot;[!UICONTROL Include rows with no performance data].&quot;
 
    >[!WARNING]
    >
@@ -62,8 +64,8 @@ ht-degree: 0%
 
       * (Filtres avec champs de saisie) Sélectionnez un opérateur dans le deuxième menu, saisissez la valeur appropriée, puis cliquez sur ![Mettre à jour le filtre](/help/search-social-commerce/assets/select.png "Mettre à jour le filtre").
 
-         Par exemple, si vous avez sélectionné le[!UICONTROL Clicks]&quot; et que vous souhaitez renvoyer uniquement les lignes contenant plus de 100 clics, puis sélectionnez *[!UICONTROL greater than]*&quot; et saisissez `100` dans le champ de saisie
+        Par exemple, si vous avez sélectionné le[!UICONTROL Clicks]&quot; et que vous souhaitez renvoyer uniquement les lignes contenant plus de 100 clics, puis sélectionnez *[!UICONTROL greater than]*&quot; et saisissez `100` dans le champ de saisie
 
-         Selon le type de données, les opérateurs disponibles peuvent inclure : *[!UICONTROL greater than]*, *inférieur à*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *not contains* ou *commence par .*
+        Selon le type de données, les opérateurs disponibles peuvent inclure : *[!UICONTROL greater than]*, *inférieur à*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *not contains*, ou *commence par .*
 
-         **Remarque :** Les valeurs de texte ne sont pas sensibles à la casse. Par exemple, si vous recherchez des campagnes dont le nom contient &quot;prêt&quot;, les résultats incluent &quot;Prêts aux consommateurs&quot; et &quot;Demande de prêt&quot;.
+        **Remarque :** Les valeurs de texte ne sont pas sensibles à la casse. Par exemple, si vous recherchez des campagnes dont le nom contient &quot;prêt&quot;, les résultats incluent &quot;Prêts aux consommateurs&quot; et &quot;Demande de prêt&quot;.

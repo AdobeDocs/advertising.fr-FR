@@ -1,7 +1,9 @@
 ---
 title: Configuration requise
 description: Découvrez les exigences en matière de logiciels et de compte.
-source-git-commit: c7c1735f9459012ade5039e64e55d10343f8d0af
+exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -26,9 +28,9 @@ Vous avez besoin des logiciels et des informations de compte suivants.
 
 * (Pour afficher les fichiers exportés au format XLS) [!DNL Microsoft Excel] recommandé
 
-   Si vous utilisez une application autre que [!DNL Microsoft Excel] pour afficher les fichiers XLS exportés, les nombres, les dates, les heures et les devises peuvent ne pas être dans le bon format.
+  Si vous utilisez une application autre que [!DNL Microsoft Excel] pour afficher les fichiers XLS exportés, les nombres, les dates, les heures et les devises peuvent ne pas être dans le bon format.
 
-## Nom d’utilisateur et mot de passe
+## Nom et mot de passe utilisateur
 
 Pour vous connecter, vous avez besoin d’un nom d’utilisateur et d’un mot de passe. Votre équipe de compte d’Adobe configure votre compte d’utilisateur et crée votre nom d’utilisateur et votre mot de passe.
 

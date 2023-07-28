@@ -1,8 +1,9 @@
 ---
 title: Affichez le journal des recommandations d’une [!DNL Google Ads] account
-description: Découvrez comment afficher un journal de chaque recommandation appliquée pour une [!DNL Google Ads] compte .
+description: Découvrez comment afficher un journal de chaque recommandation qui a été appliquée pour une [!DNL Google Ads] compte .
 exl-id: 97db1e9e-6cd8-406f-8fd5-fbb85315fdf6
-source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%

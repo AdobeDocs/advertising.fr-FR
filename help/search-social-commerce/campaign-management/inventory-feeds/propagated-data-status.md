@@ -1,7 +1,9 @@
 ---
 title: Statuts des données générées à partir de flux
 description: Découvrez les états des données générées à partir des flux de données d’inventaire.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8e5e7649-a16b-4634-896a-7c216185b367
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Chaque composant peut avoir l’un des états suivants :
 
 * *[!UICONTROL Paused]:* Le composant est déjà en pause sur le réseau publicitaire, et vous ne pouvez pas modifier ses paramètres ici. Les composants en pause peuvent inclure des sous-composants qui sont [!UICONTROL New], qui peut être publié si les données sont valides.
 
-* *[!UICONTROL Deleted]:* Le composant a déjà été supprimé sur le réseau publicitaire et vous ne pouvez pas modifier ses paramètres ici. Les composants supprimés peuvent inclure des sous-composants qui sont [!UICONTROL New], qui peut être publié si les données sont valides.
+* *[!UICONTROL Deleted]:* Le composant a déjà été supprimé sur le réseau publicitaire et vous ne pouvez pas modifier ses paramètres ici. Les composants supprimés peuvent inclure des sous-composants [!UICONTROL New], qui peut être publié si les données sont valides.
 
 >[!MORELIKETHIS]
 >
@@ -31,4 +33,3 @@ Chaque composant peut avoir l’un des états suivants :
 >* [Modification des données générées à partir de flux](propagated-data-edit.md)
 >* [Données de campagne de publication générées à partir de flux vers les réseaux publicitaires](propagated-data-post.md)
 >* [Arrêt d’une tâche de publication pour les données de flux d’inventaire](stop-job.md)
-

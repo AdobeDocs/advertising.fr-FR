@@ -1,7 +1,9 @@
 ---
 title: Surveiller et gérer les performances de vos campagnes
 description: Découvrez comment surveiller les performances de chaque campagne et portefeuille et apporter des modifications pour atteindre vos objectifs.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cf3d015f-a171-45f2-be92-94f19b30e5ce
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -16,17 +18,17 @@ L’équipe Compte d’Adobe, l’équipe d’agence ou l’annonceur (selon les
 
 Surveillez de manière régulière les performances de chaque campagne en :
 
-* Affichage de la variable [alertes personnalisées](/help/search-social-commerce/alerts/alert-view.md) qui sont à votre disposition.
+* Affichage de la [alertes personnalisées](/help/search-social-commerce/alerts/alert-view.md) qui sont à votre disposition.
 
 * Affichage du résumé du compte et des détails de performances sur les campagnes incluses.
 
-* En cours [rapports](/help/search-social-commerce/reports/report-about.md), y compris [la valeur [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) (le cas échéant), [la valeur [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md), [la valeur [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)et des rapports de performances supplémentaires, le cas échéant. Lorsque vous utilisez des portefeuilles, veillez à comparer les performances prévues avec les performances réelles.
+* En cours [rapports](/help/search-social-commerce/reports/report-about.md), y compris [la valeur [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) (le cas échéant) [la valeur [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md), [la valeur [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)et des rapports de performances supplémentaires, le cas échéant. Lorsque vous utilisez des portefeuilles, veillez à comparer les performances prévues avec les performances réelles.
 
 ## Gérer les performances et ajuster les structures de campagne et de portefeuille
 
 En fonction des performances, vous devrez peut-être effectuer d’autres opérations commerciales, notamment :
 
-* Ajustement des structures de compte/de campagne pour tenir compte des modifications apportées à la stratégie marketing.
+* Ajustement des structures de compte/de campagne pour tenir compte des changements de stratégie marketing.
 
 * Ajout/modification/mise en pause/suppression de composants de campagne. Cela peut inclure le développement de jeux de mots-clés en fonction de l’analyse des termes de recherche et des ajustements en fonction du test de la copie d’annonce.
 
@@ -38,11 +40,10 @@ En fonction des performances, vous devrez peut-être effectuer d’autres opéra
 
 * (Le cas échéant) Ajuster les stratégies de portefeuille pour améliorer les performances et tirer parti des opportunités de croissance.
 
-   Pour plus d’informations, consultez le Guide d’optimisation disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
+  Pour plus d’informations, consultez le Guide d’optimisation disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des campagnes dans Search, Social et Commerce](campaign-management-about.md)
+>* [Gestion de campagnes dans Search, Social et Commerce](campaign-management-about.md)
 >* [Présentation de l’implémentation des comptes et campagnes de réseau publicitaire](campaign-implemention-overview.md)
 >* [Données de conversion Google Ads dans Search, Social et Commerce](google-conversion-data.md)
-

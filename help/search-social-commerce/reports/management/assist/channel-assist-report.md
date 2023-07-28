@@ -1,22 +1,24 @@
 ---
-title: "[!UICONTROL Channel Assist Report]"
+title: '[!UICONTROL Channel Assist Report]'
 description: En savoir plus sur les [!UICONTROL Channel Assist Report].
-source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
+exl-id: 49616327-72e9-49c6-90b9-91c7486e8417
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
 
 ---
 
-# Le [!UICONTROL Channel Assist Report]
+# La variable [!UICONTROL Channel Assist Report]
 
 *Annonceurs avec suivi des clics Search, Social et Commerce et suivi des conversions à partir d’Adobe Advertising, Adobe Analytics (avec un [!DNL Analytics] intégration) ou fournie dans les flux à l’aide d’un jeton (`ef_id`) uniquement*
 
-Le [!UICONTROL Channel Assist Report] indiquer comment différents canaux marketing (recherche ou réseaux sociaux à partir de Search, Social et Commerce ; ou display ou video de Advertising DSP) ont contribué au processus de conversion. Le rapport indique comment chaque modèle de types d’événement qui a entraîné une ou plusieurs conversions a contribué à vos conversions globales. Vous pouvez, par exemple, voir le nombre de conversions survenues lorsque les utilisateurs ont vu une impression d’annonce publicitaire, cliqué sur une publicité de recherche, puis passé une commande ; ou vous pouvez voir le nombre de conversions survenues après l’interaction des utilisateurs avec plus de 10 publicités. Les types d’événement incluent les clics de recherche, les impressions et les clics d’affichage, les impressions et les clics vidéo, ainsi que d’autres impressions et autres clics. <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
+La variable [!UICONTROL Channel Assist Report] indiquent comment différents canaux marketing (recherche ou réseaux sociaux à partir de Search, Social et Commerce ; ou affichage ou vidéo à partir de la DSP Advertising) ont facilité le processus de conversion. Le rapport indique comment chaque modèle de types d’événement qui a entraîné une ou plusieurs conversions a contribué à vos conversions globales. Vous pouvez, par exemple, déterminer le nombre de conversions survenues lorsque les utilisateurs ont vu pour la première fois une impression d’annonce publicitaire, puis cliqué sur une publicité de recherche, puis passé une commande. Vous pouvez également déterminer le nombre de conversions survenues après que les utilisateurs ont interagi avec plus de 10 publicités. Les types d’événement incluent les clics de recherche, les impressions et les clics d’affichage, les impressions et les clics vidéo, ainsi que d’autres impressions et autres clics. <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
 
-Les résultats du rapport incluent des données agrégées pour chaque modèle de types d’événement dans le chemin de conversion (jusqu’aux N premiers types d’événement) qui s’est produit dans le rapport de l’annonceur. [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j). Si, par exemple, vous sélectionnez une taille de chemin de cinq (5), le rapport comprend des chemins de conversion qui incluent jusqu’à cinq événements au plus tôt, avec une ligne pour chaque modèle de types d’événement suivi (par exemple &quot;clic de recherche&quot;, puis &quot;impression d’affichage&quot;). Chaque ligne présente un modèle d’événements, y compris le premier événement du chemin et le dernier événement ayant généré des conversions (même si le dernier événement se trouve en dehors de la taille de chemin spécifiée). Par défaut, les lignes sont dans l’ordre croissant en fonction du nombre d’événements dans le chemin.
+Les résultats du rapport incluent des données agrégées pour chaque modèle de types d’événement dans le chemin de conversion (jusqu’aux N premiers types d’événement) qui s’est produit dans le [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j). Si, par exemple, vous sélectionnez une taille de chemin de cinq (5), le rapport comprend des chemins de conversion qui incluent jusqu’à cinq événements au plus tôt, avec une ligne pour chaque modèle de types d’événement suivi (par exemple &quot;clic de recherche&quot;, puis &quot;impression d’affichage&quot;). Chaque ligne présente un modèle d’événements, y compris le premier événement du chemin et le dernier événement qui a généré des conversions (même si le dernier événement se trouve en dehors de la taille de chemin spécifiée). Par défaut, les lignes sont dans l’ordre croissant en fonction du nombre d’événements dans le chemin.
 
-Vous pouvez éventuellement inclure des données de conversion agrégées pour chaque ligne. Lorsque vous incluez des colonnes de conversions/recettes dans le rapport, chaque type de conversion est représenté en quatre colonnes, ce qui indique a) le nombre total de conversions, b) le pourcentage de vos conversions globales qui ont été attribuées à ce modèle d’événement, c) la latence moyenne de la journée entre le premier événement et une conversion, et d) la latence moyenne en jours entre le dernier événement et une conversion. Lorsque le chemin de conversion inclut plus d’événements que la taille de chemin spécifiée, le rapport inclut des lignes supplémentaires agrègant les données pour les conversions résultant du nombre plus élevé d’événements (comme tous les modèles qui incluaient six types d’événements).
+Vous pouvez éventuellement inclure des données de conversion agrégées pour chaque ligne. Lorsque vous incluez des colonnes de conversions/recettes dans le rapport, chaque type de conversion est représenté en quatre colonnes, ce qui indique a) le nombre total de conversions, b) le pourcentage de vos conversions globales qui ont été attribuées à ce modèle d’événement, c) la latence moyenne de la journée entre le premier événement et une conversion, et d) la latence moyenne en jours entre le dernier événement et une conversion. Lorsque le chemin de conversion inclut plus d’événements que la taille de chemin spécifiée, le rapport inclut des lignes supplémentaires agrègant les données pour les conversions résultant d’un nombre plus élevé d’événements (comme tous les modèles qui incluaient six types d’événements).
 
 Vous pouvez afficher les données des 18 mois précédents.
 
@@ -43,7 +45,7 @@ Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colo
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports d’aide](assist-report-about.md)
->* [Le [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
->* [Le [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
+>* [La variable [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
+>* [La variable [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Aide aux paramètres des rapports](assist-report-settings.md)
 >* [Générer un rapport d’assistance](assist-report-generate.md)

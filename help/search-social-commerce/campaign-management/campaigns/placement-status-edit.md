@@ -1,7 +1,9 @@
 ---
 title: Modifier l’état des emplacements et des emplacements négatifs
 description: Découvrez comment modifier l’état des emplacements et des emplacements négatifs pour [!DNL Google Ads].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7f025ba2-e71f-40bf-9057-f7d7abbea5da
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -35,4 +37,3 @@ Vous pouvez également supprimer un emplacement principal ou en pause ou un empl
 >* [À propos des emplacements](placement-about.md)
 >* [Gérer les emplacements pouvant faire l&#39;objet d&#39;un offre](placement-manage.md)
 >* [Créer des emplacements négatifs](placement-negative-create.md)
-

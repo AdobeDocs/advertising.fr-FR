@@ -1,7 +1,9 @@
 ---
 title: À propos des groupes de produits d’achat
 description: Découvrez les groupes de produits d’achats dans les campagnes d’achat.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c91e6fb5-3be1-4d21-b508-09f974058fc7
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Dans les campagnes d’achat, vos groupes de produits — pas les mots-clés —
 
 Vous configurez des groupes de produits au niveau du groupe d’annonces afin de déterminer les produits de vos comptes de centre commercial qui apparaissent dans les publicités du groupe d’annonces. Même si le groupe publicitaire n’inclut pas d’entités publicitaires, le réseau publicitaire affiche toujours des publicités pour les produits.
 
-Lorsqu’un même produit est inclus dans plusieurs campagnes, le réseau publicitaire utilise d’abord la priorité de la campagne pour déterminer la campagne (et l’offre associée) éligible à l’enchère publicitaire. Lorsque toutes les campagnes ont la même priorité, la campagne avec l&#39;offre la plus élevée est éligible.
+Lorsqu’un même produit est inclus dans plusieurs campagnes, le réseau publicitaire utilise d’abord la priorité de la campagne pour déterminer la campagne (et l’offre associée) éligible aux enchères publicitaires. Lorsque toutes les campagnes ont la même priorité, la campagne avec l&#39;offre la plus élevée est éligible.
 
 Pour plus d’informations sur [!DNL Google] campagnes d’achat et publicités, voir[Mise en oeuvre [!DNL Google Ads] campagnes d&#39;achat](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)&quot; et la variable [Documentation sur Google Ads](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1). Pour plus d’informations sur les campagnes d’achat Microsoft, voir &quot;[Mise en oeuvre [!DNL Microsoft® Advertising] campagnes d&#39;achat](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)&quot; et la variable [Documentation sur Microsoft Advertising](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500).
 
@@ -34,19 +36,19 @@ Au sein d’un groupe d’annonces, vous pouvez créer jusqu’à sept niveaux d
 
 ![Exemple de hiérarchie de groupes de produits](/help/search-social-commerce/assets/product-group-tree.png "Exemple de hiérarchie de groupes de produits")
 
-## Le [!UICONTROL Product Groups] view
+## La variable [!UICONTROL Product Groups] view
 
-Vous pouvez créer et modifier des groupes de produits, ainsi que supprimer des groupes de produits et leurs groupes de produits enfants, dans la variable [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] vue.
+Vous pouvez créer et modifier des groupes de produits, ainsi que supprimer des groupes de produits et leurs groupes de produits enfants, dans la [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] vue.
 
-## Suivi des données de performances pour les groupes de produits d’achat
+## Données de suivi et de performances pour les groupes de produits d’achat
 
-(Comptes/campagnes avec le paramètre[!UICONTROL EF Redirect]&quot;option de suivi&quot;) Pour permettre à Search, Social et Commerce d’effectuer le suivi des conversions pour les groupes de produits, [générer des URL de suivi pour les groupes de produits à l’aide de l’outil URL de suivi ;](/help/search-social-commerce/tools/click-tracking-url-generate.md), puis effectuez l’une des opérations suivantes :
+(Comptes/campagnes avec le paramètre[!UICONTROL EF Redirect]&quot;option de suivi&quot;) Pour permettre à Search, Social et Commerce de suivre les conversions des groupes de produits, [générer des URL de suivi pour les groupes de produits à l’aide de l’outil URL de suivi ;](/help/search-social-commerce/tools/click-tracking-url-generate.md), puis effectuez l’une des opérations suivantes :
 
 * (Obligatoire pour [!DNL Google Ads]; bonne pratique pour [!DNL Microsoft Advertising]) Ajoutez l’URL de suivi à la variable [!DNL Tracking Template] dans le paramètre du compte, de la campagne ou du groupe de produits. Pour simplifier la maintenance, ajoutez-les au niveau le plus élevé possible. Les paramètres d’ajout spécifiés pour le compte ou la campagne ne sont pas inclus.
 
-   >[!CAUTION]
-   >
-   >([!DNL Microsoft Advertising]) Utilisez cette option uniquement si vous n’incluez pas d’URL de suivi Search, Social et Commerce dans une colonne personnalisée du flux de produit. Si vous effectuez les deux, les URL comprennent deux redirections et provoqueront des liens rompus.
+  >[!CAUTION]
+  >
+  >([!DNL Microsoft Advertising]) Utilisez cette option uniquement si vous n’incluez pas d’URL de suivi Search, Social et Commerce dans une colonne personnalisée du flux de produit. Si vous effectuez les deux, les URL comprennent deux redirections et provoqueront des liens rompus.
 
 * ([!DNL Microsoft Advertising] uniquement) Ajoutez l’URL de suivi aux données du produit dans la variable [!DNL Microsoft Merchant Center] compte . Pour ce faire, incluez l’URL de suivi, ainsi que la valeur de la variable `link` ou `mobile_link` le cas échéant, dans une colonne personnalisée appelée [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) dans le flux de produit. Les URL générées à l’aide de cette méthode n’incluent aucun paramètre de suivi spécifié dans les paramètres du compte ou de la campagne dans Search, Social et Commerce.
 
@@ -59,4 +61,3 @@ Vous pouvez afficher des données sur les groupes de produits dans [la valeur [!
 >* [Mise en oeuvre [!DNL Google Ads] campagnes d&#39;achat](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
 >* [[!DNL Microsoft Advertising] paramètres du groupe de produits](product-group-settings-microsoft.md)
 >* [Mise en oeuvre [!DNL Microsoft® Advertising] campagnes d&#39;achat](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
-

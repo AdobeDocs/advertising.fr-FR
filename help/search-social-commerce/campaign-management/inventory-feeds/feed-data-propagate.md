@@ -1,7 +1,9 @@
 ---
 title: Propager les données de flux d’inventaire par le biais de modèles
 description: Découvrez comment propager des données de vos flux d’inventaire par le biais de modèles d’annonces afin de gérer la structure du compte et de diffuser des annonces dynamiques.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 40de75e8-8440-48f4-9fa7-1aeb2ae392c5
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -28,13 +30,14 @@ Lorsque vous propagez des données, vous pouvez éventuellement prévisualiser l
 
    * **[!UICONTROL Propagate Only]:** Pour afficher les données propagées sur la variable [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], et [!UICONTROL Ads] onglets. Vous pouvez toujours publier les données de n’importe quel composant et de ses sous-composants ultérieurement à partir de la fonction [!UICONTROL Templates] .
 
-   * **[!UICONTROL Propagate and Preview]:** Pour créer un fichier de feuille d’envoi groupé (appelé &quot;`<feed file name>_<template name>`&quot;), qui est disponible dans la variable [!UICONTROL Bulksheets] à des fins de révision (mais pas sur la [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], et [!UICONTROL Ads] onglets). Vous pouvez publier ultérieurement le fichier de feuille d’envoi groupé à partir de la [!UICONTROL Bulksheets] vue.
+   * **[!UICONTROL Propagate and Preview]:** Pour créer un fichier de feuille d’envoi groupé (appelé &quot;`<feed file name>_<template name>`&quot;), disponible dans la variable [!UICONTROL Bulksheets] à des fins de révision (mais pas sur la [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], et [!UICONTROL Ads] onglets). Vous pouvez publier ultérieurement le fichier de feuille d’envoi groupé à partir de la [!UICONTROL Bulksheets] vue.
 
-      Lorsque le fichier de feuille d’envoi groupé obtenu fait plus de 2 Mo, il est au format ZIP. Vous n’avez pas besoin de décompresser le fichier pour le publier.
+     Lorsque le fichier de feuille d’envoi groupé obtenu fait plus de 2 Mo, il est au format ZIP. Vous n’avez pas besoin de décompresser le fichier pour le publier.
 
    * **[!UICONTROL Propagate and Post to SE]:** Pour créer un fichier de feuille d’envoi groupé (appelé &quot;`<feed file name>_<template name>`&quot;) immédiatement placé en file d’attente pour publication sur le réseau publicitaire. Le fichier de feuille d’envoi groupé est disponible dans la [!UICONTROL Bulksheets] , mais elle n’est pas disponible sur la [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], et [!UICONTROL Ads] onglets.
 
-      Lorsque le fichier de feuille d’envoi groupé obtenu fait plus de 2 Mo, il est au format ZIP.
+     Lorsque le fichier de feuille d’envoi groupé obtenu fait plus de 2 Mo, il est au format ZIP.
+
    La &quot;Dernière Prop&quot;. La colonne État indique l’état de la tâche pour les modèles applicables.
 
    Une fois chaque action de propagation terminée, un résumé de propagation est ajouté à la variable [!UICONTROL Propagations] , indiquant le nombre de chaque type d’entité qui a été créé, mis en pause ou supprimé en fonction de la propagation. L’estimation n’inclut pas les modifications effectuées à partir du propre éditeur d’annonces du réseau publicitaire.
@@ -51,19 +54,19 @@ Lorsque vous propagez des données, vous pouvez éventuellement prévisualiser l
 
    * **[!UICONTROL Propagate Only]:** Pour afficher les données propagées sur la variable [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], et [!UICONTROL Ads] onglets. Vous pouvez toujours publier les données de n’importe quel composant et de ses sous-composants ultérieurement à partir de la fonction [!UICONTROL Templates] .
 
-   * **[!UICONTROL Propagate and Preview]:** Pour créer un fichier de feuille d’envoi groupé (appelé &quot;`<feed file name>_<template name>`&quot;), qui est disponible dans la variable [!UICONTROL Bulksheets] à des fins de révision (mais pas sur la [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], et [!UICONTROL Ads] onglets). Vous pouvez publier ultérieurement le fichier de feuille d’envoi groupé à partir de la [!UICONTROL Bulksheets] vue.
+   * **[!UICONTROL Propagate and Preview]:** Pour créer un fichier de feuille d’envoi groupé (appelé &quot;`<feed file name>_<template name>`&quot;), disponible dans la variable [!UICONTROL Bulksheets] à des fins de révision (mais pas sur la [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], et [!UICONTROL Ads] onglets). Vous pouvez publier ultérieurement le fichier de feuille d’envoi groupé à partir de la [!UICONTROL Bulksheets] vue.
 
-      Lorsque le fichier de feuille d’envoi groupé obtenu fait plus de 2 Mo, il est au format ZIP. Vous n’avez pas besoin de décompresser le fichier pour le publier.
+     Lorsque le fichier de feuille d’envoi groupé obtenu fait plus de 2 Mo, il est au format ZIP. Vous n’avez pas besoin de décompresser le fichier pour le publier.
 
    * **[!UICONTROL Propagate and Post to SE]:** Pour créer un fichier de feuille d’envoi groupé (appelé &quot;`<feed file name>_<template name>`&quot;) immédiatement placé en file d’attente pour publication sur le réseau publicitaire. Le fichier de feuille d’envoi groupé est disponible dans la [!UICONTROL Bulksheets] , mais elle n’est pas disponible sur la [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], et [!UICONTROL Ads] onglets.
 
-      Lorsque le fichier de feuille d’envoi groupé obtenu fait plus de 2 Mo, il est au format ZIP.
+     Lorsque le fichier de feuille d’envoi groupé obtenu fait plus de 2 Mo, il est au format ZIP.
 
 1. Dans la fenêtre contextuelle, cochez la case en regard de chaque modèle par lequel vous souhaitez propager les données du fichier de flux, puis cliquez sur **[!UICONTROL Propagate Feed]**.
 
    Tous les modèles associés au fichier sont répertoriés.
 
-Le [!UICONTROL Templates] s’ouvre, et le[!UICONTROL Last Prop. Status]&quot; affiche l’état de la tâche pour les modèles applicables.
+La variable [!UICONTROL Templates] s’ouvre, et le[!UICONTROL Last Prop. Status]&quot; affiche l’état de la tâche pour les modèles applicables.
 
 Une fois chaque action de propagation terminée, un résumé de propagation est ajouté à la variable [!UICONTROL Propagations] , indiquant le nombre de chaque type d’entité qui a été créé, mis en pause ou supprimé en fonction de la propagation. L’estimation n’inclut pas les modifications effectuées à partir du propre éditeur d’annonces du réseau publicitaire.
 
@@ -92,4 +95,3 @@ Vous pouvez arrêter une tâche de propagation pour les données de flux d’inv
 >* [Données de campagne de publication générées à partir de flux vers les réseaux publicitaires](propagated-data-post.md)
 >* [Arrêt d’une tâche de publication pour les données de flux d’inventaire](stop-job.md)
 >* [Statuts des données générées à partir de flux](propagated-data-status.md)
-

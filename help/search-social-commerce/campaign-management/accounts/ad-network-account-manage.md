@@ -1,7 +1,9 @@
 ---
 title: Gestion des comptes de réseau publicitaire
 description: Découvrez comment configurer et gérer les détails du compte pour un compte réseau publicitaire.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -132,7 +134,7 @@ Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commer
 
 ### Détails du compte
 
-**[!UICONTROL SE Account ID]:** (Tous les comptes sauf [!DNL Naver] et [!DNL Yandex] les comptes; Modifiable pour les nouveaux comptes uniquement) Identifiant de compte attribué par le réseau publicitaire.
+**[!UICONTROL SE Account ID]:** (Tous les comptes sauf [!DNL Naver] et [!DNL Yandex] Comptes ; modifiable uniquement pour les nouveaux comptes) Identifiant de compte attribué par le réseau publicitaire.
 
 >[!NOTE]
 >
@@ -146,7 +148,7 @@ Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commer
 
 **[!UICONTROL Login Details]: \[Type de connexion\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] uniquement) Si vous souhaitez autoriser des connexions au compte à l’aide des éléments suivants :
 
-* *[!UICONTROL oAuth]* (valeur par défaut) : Pour utiliser la variable [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/).
+* *[!UICONTROL oAuth]* (valeur par défaut) : pour utiliser la variable [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/).
 
 * *[!UICONTROL Password]:* Pour utiliser le mot de passe du client.
 
@@ -156,17 +158,17 @@ Pour [!DNL Microsoft Advertising] comptes, uniquement [!DNL oAuth]-authorized lo
 
 **[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled et tous les autres réseaux, à l’exception de [!DNL Baidu], [!DNL Meta], et [!DNL Yandex]) Jeton du compte pour autoriser les connexions à l’aide de la variable [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Tous les réseaux publicitaires sauf [!DNL Naver]) Mot de passe du compte. Pour les comptes activés par mot de passe sur [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], et [!DNL Yandex], ce champ est obligatoire. Pour [!DNL oAuth]comptes activés, ce champ est facultatif ; utilisez-le lorsque vous souhaitez chiffrer et enregistrer le mot de passe afin que le gestionnaire de compte puisse actualiser les jetons si nécessaire.
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Tous les réseaux publicitaires sauf [!DNL Naver]) Mot de passe du compte. Pour les comptes activés par mot de passe sur [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], et [!DNL Yandex], ce champ est obligatoire. Pour [!DNL oAuth]comptes activés, ce champ est facultatif. Utilisez-le lorsque vous souhaitez chiffrer et enregistrer le mot de passe afin que le gestionnaire de compte puisse actualiser les jetons si nécessaire.
 
 **[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Baidu] et [!DNL Yandex] Comptes uniquement) La clé d’accès du compte développeur à utiliser.
 
 **[!UICONTROL Currency]:** Abréviation de la devise utilisée pour le compte. Ce champ peut être modifié pour la nouvelle [!DNL Naver] comptes. Pour tous les autres réseaux de recherche, la valeur est renseignée automatiquement avec la devise configurée pour le compte sur le réseau publicitaire une fois l’enregistrement enregistré.
 
-**[!UICONTROL Landing Page Suffix]** ([!DNL Google Ads] et [!DNL Microsoft Advertising] les comptes uniquement; (facultatif) tout paramètre à ajouter à la fin des URL finales pour effectuer le suivi des informations ; incluez tous les paramètres dont votre entreprise doit effectuer le suivi.
+**[!UICONTROL Landing Page Suffix]** ([!DNL Google Ads] et [!DNL Microsoft Advertising] Comptes uniquement ; facultatif) Tout paramètre à ajouter à la fin des URL finales pour effectuer le suivi des informations ; incluez tous les paramètres dont votre entreprise doit effectuer le suivi.
 
 Exemple : `param1=value1&param2=value2`
 
-Les comptes qui utilisent le suivi des clics par Adobe Advertising doivent inclure l’identifiant de clic du réseau publicitaire (`msclkid` pour [!DNL Microsoft Advertising]; `gclid` pour Google) dans le suffixe . Les comptes avec une intégration Adobe Analytics doivent utiliser la variable `s_kwcid` . Si le compte dispose d’une implémentation s\_kwcid côté serveur, le paramètre est automatiquement ajouté lorsqu’un utilisateur clique sur une publicité. sinon, vous devez l’ajouter manuellement ici. Voir [formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et [formats de suffixes requis pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Les comptes qui utilisent le suivi des clics par Adobe Advertising doivent inclure l’identifiant de clic du réseau publicitaire (`msclkid` pour [!DNL Microsoft Advertising]; `gclid` pour Google) dans le suffixe . Les comptes avec une intégration Adobe Analytics doivent utiliser la variable `s_kwcid` . Si le compte dispose d’une implémentation s\_kwcid côté serveur, le paramètre est ajouté automatiquement lorsqu’un utilisateur clique sur une publicité. Dans le cas contraire, vous devez l’ajouter manuellement à cet emplacement. Voir [formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et [formats de suffixes requis pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
@@ -180,7 +182,7 @@ Les comptes qui utilisent le suivi des clics par Adobe Advertising doivent inclu
 * *Activé :* Search, Social et Commerce synchronise les données de campagne avec le compte (lorsqu’elles sont prises en charge) et envoie des offres automatisées et/ou des budgets de campagne pour les campagnes dans les portefeuilles.
 * *Désactivé :* La recherche, Social et Commerce arrêtent toutes les activités du compte. Les données collectées pendant que le compte était principal sont toujours stockées, mais les vues et les rapports de gestion de campagne n’incluent pas les données pour la période pendant laquelle le compte est suspendu. Vous pouvez réactiver ultérieurement le compte pour reprendre l’activité avec le compte.
 
-**Modèle de suivi** - ([!DNL Google Ads], [!DNL Microsoft Advertising], et [!DNL Yahoo! Japan Ads] les comptes uniquement; (facultatif) Le modèle de suivi par défaut du compte, qui spécifie tous les paramètres de suivi et redirections hors domaine d’entrée, et incorpore également l’URL de la page d’entrée/finale dans un paramètre. Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
+**Modèle de suivi** - ([!DNL Google Ads], [!DNL Microsoft Advertising], et [!DNL Yahoo! Japan Ads] Comptes uniquement ; facultatif) Le modèle de suivi par défaut du compte, qui spécifie tous les paramètres de suivi et redirections de domaine hors entrée et incorpore également l’URL de la page d’entrée/finale dans un paramètre. Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
 
 * Pour incorporer l’URL finale :
 
@@ -202,13 +204,13 @@ Les comptes qui utilisent le suivi des clics par Adobe Advertising doivent inclu
 
 **[!UICONTROL Master Account ID]:** ([!DNL Microsoft Advertising] Comptes uniquement) L’identifiant d’un compte d’agence/de gestion associé au compte.
 
-**[!UICONTROL MCC Account]:** ([!DNL Yandex] les comptes uniquement; (facultatif) Compte d’agence/de gestion associé au compte. Pour supprimer une association existante, sélectionnez &quot;[!UICONTROL No MCC Account].&quot;
+**[!UICONTROL MCC Account]:** ([!DNL Yandex] Comptes uniquement ; facultatif) un compte d’agence/de gestion associé au compte. Pour supprimer une association existante, sélectionnez &quot;[!UICONTROL No MCC Account].&quot;
 
 **[!UICONTROL Application ID]:** ([!DNL Yandex] Comptes uniquement) Jeton de développeur à utiliser pour le compte. Le même jeton est utilisé pour tous les [!DNL Yandex] comptes.
 
-**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] comptes dont le paramètre Compte partagé est désactivé uniquement ; (facultatif) Identifiant numérique de la campagne qui sera utilisée pour payer toutes les campagnes publicitaires du compte.
+**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] comptes dont le paramètre Compte partagé est désactivé uniquement ; facultatif) identifiant numérique de la campagne qui sera utilisé pour payer toutes les campagnes publicitaires du compte.
 
-**[!UICONTROL Finance Token]:** ([!DNL Yandex] comptes dont le paramètre Compte partagé est désactivé uniquement ; (facultatif) Jeton de développeur à utiliser pour les appels API liés à la finance, comme pour réaffecter l’argent du portefeuille entre les campagnes de l’annonceur, selon les besoins pour l’optimisation du portfolio.
+**[!UICONTROL Finance Token]:** ([!DNL Yandex] comptes pour lesquels le paramètre Compte partagé est désactivé uniquement ; facultatif) Jeton de développeur à utiliser pour les appels d’API liés à la finance, comme la réaffectation de l’argent du portefeuille entre les campagnes de l’annonceur, selon les besoins pour l’optimisation de portefeuille.
 
 ### Suivi de compte
 
@@ -240,17 +242,17 @@ Les comptes qui utilisent le suivi des clics par Adobe Advertising doivent inclu
 
 * **Format S\_kwcid** - (Existant [!DNL Google Ads] les comptes des annonceurs avec une intégration Adobe Advertising-Adobe Analytics et pour lesquels la variable s\_kwcid n’a pas encore été migrée) ;
 
-Ce compte utilise le format hérité du code de suivi s\_kwcid, ce qui permet à l’Adobe Advertising de partager les données relatives au compte avec Adobe Analytics. Le [format le plus récent](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) comprend des paramètres pour l’identifiant de campagne et l’identifiant du groupe publicitaire, qui sont nécessaires pour générer des rapports précis aux niveaux de la campagne et du groupe publicitaire pour [!DNL Google Ads] performances max des campagnes et des campagnes de brouillons et d’expériences dans Analytics :
+Ce compte utilise le format hérité du code de suivi s\_kwcid, ce qui permet à l’Adobe Advertising de partager les données relatives au compte avec Adobe Analytics. La variable [dernier format](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) comprend des paramètres pour l’identifiant de campagne et l’identifiant du groupe publicitaire, qui sont nécessaires pour générer des rapports précis aux niveaux de la campagne et du groupe publicitaire pour [!DNL Google Ads] performances max des campagnes et des campagnes de brouillons et d’expériences dans Analytics :
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
 Si ce compte doit générer des rapports aux niveaux de la campagne et du groupe publicitaire, cliquez sur le bouton [!UICONTROL Edit] (crayon), puis **[!UICONTROL Migrate to new s\_kwcid format]** pour changer le nouveau format. Pour les comptes qui n’incluent pas ces types de campagne, la migration vers le nouveau format est facultative, mais recommandée.
 
-Pour obtenir des instructions complètes, voir[Mettez à jour le code de suivi s\_kwcid pour un événement [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).&quot;
+Pour obtenir des instructions complètes, voir &quot;[Mettez à jour le code de suivi s\_kwcid pour un événement [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).&quot;
 
-**Noms de suites de rapports** - (Pour la redirection EF avec jeton uniquement ; les publicitaires avec une intégration Adobe Advertising-Adobe Analytics ; (facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoie les données qu’il collecte à partir du réseau publicitaire, y compris les classifications d’entités et les données de clic pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.
+**Noms de suites de rapports** - (Pour la redirection EF avec jeton uniquement ; les annonceurs avec une intégration Adobe Advertising-Adobe Analytics ; facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoie les données qu’ils collectent depuis le réseau publicitaire, y compris les classifications d’entités et les données de clic pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.
 
-Pour que les données s’affichent dans les suites de rapports, soit (a) le s\_kwcid côté serveur doit être configuré pour le compte, soit (b) le paramètre au niveau de l’annonceur doit être défini sur &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; doit être activé. En outre, le compte Analytics de l’annonceur doit être configuré pour recevoir les données de Search, Social et Commerce. Pour plus d’informations, contactez votre gestionnaire de compte d’Adobe.
+Pour que les données apparaissent dans les suites de rapports, soit (a) le s\_kwcid côté serveur doit être configuré pour le compte, soit (b) le paramètre au niveau de l’annonceur doit être défini sur &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; doit être activé. En outre, le compte Analytics de l’annonceur doit être configuré pour recevoir les données de Search, Social et Commerce. Pour plus d’informations, contactez votre gestionnaire de compte Adobe.
 
 >[!MORELIKETHIS]
 >

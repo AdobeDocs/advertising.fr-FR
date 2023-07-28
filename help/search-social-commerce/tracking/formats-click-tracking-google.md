@@ -1,7 +1,9 @@
 ---
 title: Formats de suivi des clics pour [!DNL Google Ads]
-description: En savoir plus sur les formats de suivi des clics pour [!DNL Google Ads] comptes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Découvrez les formats de suivi des clics pour [!DNL Google Ads] comptes.
+exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Formats de suivi des clics pour [!DNL Google Ads]
 
-Vous trouverez ci-dessous les formats de modèle de suivi de base et de suffixe de page d’entrée (suffixe d’URL final) requis par Search, Social et Commerce pour [!DNL Google Ads].
+Vous trouverez ci-dessous les formats de modèle de suivi de base et de suffixe de page d’entrée (suffixe URL final) requis par Search, Social et Commerce pour [!DNL Google Ads].
 
 ## Formats des modèles de tracking
 
@@ -28,18 +30,17 @@ Exemple :
 >
 >* `<advertiser_ID>` est une variable de l’identifiant unique de l’annonceur dans Adobe Advertising.
 >
->* Ce format indique que le transfert de jeton est activé pour la campagne (valeur par défaut). Si le transfert de jeton est désactivé, remplacez `cq?` after `<advertiser_ID>` avec `c?`.
+>* Ce format indique que la transmission de jetons est activée pour la campagne (valeur par défaut). Si la transmission de jeton est désactivée, remplacez `cq?` after `<advertiser_ID>` avec `c?`.
 >
->* Le [!DNL ValueTrack] Les paramètres pour indiquer les URL finales dans les modèles de suivi doivent être : `{lpurl}` ou `!{unescapedurl}`.
+>* La variable [!DNL ValueTrack] Les paramètres pour indiquer les URL finales dans les modèles de suivi doivent être : `{lpurl}` ou `!{unescapedurl}`.
 >
->* (Publicités texte) Lorsque vous enchérissez par mot-clé, le paramètre `ev_pl` (pour les emplacements) n’a aucune valeur. Lorsque vous enchérissez par emplacement, `ev_ln` (pour les mots-clés) n’a aucune valeur. Lorsque vous enchérissez par groupe publicitaire ou par une autre dimension, les deux `ev_ln` et `ev_pl` ne comportent aucune valeur.
+>* (Publicités texte) Lorsque vous enchérissez par mot-clé, le paramètre `ev_pl` (pour les emplacements) n’a aucune valeur. Lorsque vous enchérissez par emplacement, `ev_ln` (pour les mots-clés) n’a aucune valeur. Lorsque vous enchérissez par groupe publicitaire ou par une autre dimension, les deux `ev_ln` et `ev_pl` n’ont aucune valeur.
 >
 >* (Publicités de recherche dynamique) `{keyword}` indique l’expression de la cible de recherche dynamique, telle que `_cat:[VALUE]` ou `_url:[VALUE]`.
 >
 >* (Publicités de recherche dynamique) [!DNL Google Ads] détermine l’URL finale de manière dynamique, de sorte que vous n’ayez pas à en saisir une.
 >
->* (Liens de site) Vous pouvez identifier les conversions résultant d’un clic sur un lien de site en générant une [!UICONTROL Transaction Report]. Le [!UICONTROL Link Type] la valeur de colonne d’un lien de site est `sl:<Sitelink text>`, par exemple `sl:See Current Offers`.
-
+>* (Liens de site) Vous pouvez identifier les conversions résultant d’un clic sur un lien de site en générant une [!UICONTROL Transaction Report]. La variable [!UICONTROL Link Type] la valeur de colonne d’un lien de site est `sl:<Sitelink text>`, par exemple `sl:See Current Offers`.
 
 ### Réseau commercial
 
@@ -55,14 +56,13 @@ Exemple :
 >
 >* `<advertiser_ID>` est une variable de l’identifiant unique de l’annonceur dans Adobe Advertising.
 >
->* Ce format indique que le transfert de jeton est activé pour la campagne (valeur par défaut). Si le transfert de jeton est désactivé, remplacez `cq?` after `<advertiser_ID>` avec `c?`.
+>* Ce format indique que la transmission de jetons est activée pour la campagne (valeur par défaut). Si la transmission de jeton est désactivée, remplacez `cq?` after `<advertiser_ID>` avec `c?`.
 >
->* Le [!DNL ValueTrack] Les paramètres pour indiquer les URL finales dans les modèles de suivi doivent être : `{lpurl}` ou `!{unescapedurl}`.
+>* La variable [!DNL ValueTrack] Les paramètres pour indiquer les URL finales dans les modèles de suivi doivent être : `{lpurl}` ou `!{unescapedurl}`.
 >
 >* [!DNL Google Ads] utilise les URL de produit dans le flux Google Merchant Center comme URL finales, de sorte que vous n’ayez pas à saisir d’URL finales pour vos données de produit ou groupes de produits.
 >
->* Vous pouvez identifier les conversions résultant d’un clic sur une publicité d’achat en générant une [!UICONTROL Transaction Report]. Le [!UICONTROL Link Type] la valeur de colonne d’une publicité de produit est pla :`<product ID>`, par exemple `pla:8525822`.
-
+>* Vous pouvez identifier les conversions résultant d’un clic sur une publicité d’achat en générant une [!UICONTROL Transaction Report]. La variable [!UICONTROL Link Type] valeur de colonne pour une publicité de produit :`<product ID>`, par exemple `pla:8525822`.
 
 ## Formats des suffixes de landing page (suffixe URL final)
 
@@ -72,27 +72,25 @@ Les comptes qui utilisent le suivi de conversion d’Adobe Advertising doivent i
 
    * [!DNL Google Ads] les comptes qui utilisent la dernière `s_kwcid` format , qui prend en charge la création de rapports au niveau des campagnes et des groupes publicitaires pour les performances max des campagnes et les campagnes de brouillons et d’expériences :
 
-      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-      Si le compte comporte une implémentation s_kwcid côté serveur et le paramètre de compte ou de campagne &quot;[!UICONTROL Auto Upload]&quot; est activé, puis le paramètre est ajouté automatiquement. Sinon, vous devez l’ajouter manuellement.
+     Si le compte comporte une implémentation s_kwcid côté serveur et le paramètre de compte ou de campagne &quot;[!UICONTROL Auto Upload]&quot; est activé, puis le paramètre est ajouté automatiquement. Sinon, vous devez l’ajouter manuellement.
 
    * Toutes les autres [!DNL Google Ads] comptes :
 
-      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * Lorsque l’annonceur ne dispose pas d’une intégration Adobe Analytics, le suffixe doit inclure les éléments suivants :
 
-   `&ev_efid={gclid}:G:s`
+  `&ev_efid={gclid}:G:s`
 
 >[!NOTE]
 >
 >* Les suffixes de page d’entrée aux niveaux inférieurs remplacent le suffixe au niveau du compte. Pour faciliter la maintenance, utilisez uniquement le suffixe au niveau du compte, sauf si un suivi différent pour les composants de compte individuels est nécessaire. Pour configurer un suffixe au niveau du groupe publicitaire ou inférieur, utilisez l’éditeur du réseau publicitaire.
 >
->* (Publicités de recherche dynamique ; annonceurs avec Adobe Analytics et sans suivi côté serveur) Lorsque vous souhaitez inclure le suivi pour le flux inverse d’Adobe Advertising à Analytics, ajoutez la variable `s_kwcid` code de suivi à la fin du suffixe de page d’entrée au niveau du compte.
-
+>* (Publicités de recherche dynamique ; annonceurs avec Adobe Analytics et sans suivi côté serveur) Lorsque vous souhaitez inclure le suivi du flux inverse de l’Adobe Advertising à Analytics, ajoutez le `s_kwcid` code de suivi jusqu’à la fin du suffixe de page d’entrée au niveau du compte.
 
 >[!MORELIKETHIS]
 >
 >* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion Adobe Advertising](formats-click-tracking-about.md)
 >* [Formats du code de suivi s\_kwcid](skwcid-tracking-parameter.md)
-

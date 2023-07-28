@@ -1,7 +1,9 @@
 ---
 title: Gestion des fichiers de flux de données d’inventaire
 description: Découvrez comment configurer les paramètres qui contrôlent le traitement des données de flux.
-source-git-commit: a0cdc0de763feeafdea57e4233b48a2c39449e1f
+exl-id: 73d372de-2673-4190-94cf-2f07f4ce2493
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
 
-Si vous envoyez vos propres données de flux, vous devez charger des fichiers contenant les données de votre produit pour créer dynamiquement la structure de campagne, les publicités et les mots-clés, en fonction des données de votre produit. Vous pouvez ensuite les associer à des modèles de publicité spécifiques au réseau et traiter les données par le biais des modèles, puis publier les données sur les réseaux publicitaires appropriés. Vous pouvez associer plusieurs modèles à un fichier de flux, mais chaque modèle ne peut être associé qu’à un seul fichier de flux.
+Si vous envoyez vos propres données de flux, vous devez charger des fichiers contenant les données de votre produit pour créer dynamiquement la structure de campagne, les publicités et les mots-clés, en fonction des données de votre produit. Vous pouvez ensuite les associer à des modèles de publicité spécifiques au réseau et traiter les données par le biais des modèles, puis publier les données sur les réseaux publicitaires appropriés. Vous pouvez associer plusieurs modèles à un fichier de flux, mais chaque modèle peut être associé à un seul fichier de flux.
 
 >[!NOTE]
 >
@@ -20,17 +22,17 @@ Si vous envoyez vos propres données de flux, vous devez charger des fichiers co
 
 Vous pouvez charger et traiter des fichiers de flux de données de l’une des manières suivantes :
 
-* **Automatiquement via FTP :** Vous pouvez transférer des fichiers directement dans un répertoire FTP ; le service flux recherche de nouveaux fichiers toutes les deux heures. Après avoir chargé un fichier pour la première fois, vous pouvez l’associer à un modèle spécifique au réseau publicitaire. Par la suite, tous les fichiers que vous chargez portant le même nom sont automatiquement associés au même modèle. Selon la manière dont vous [configuration des paramètres des données de flux](feed-settings-manage.md), Search, Social et Commerce peuvent propager automatiquement les données de flux à l’aide de tous les modèles applicables et éventuellement publier les données de campagne et de publicité qui en résultent sur les réseaux publicitaires appropriés.
+* **Automatiquement via FTP :** Vous pouvez charger des fichiers directement dans un répertoire FTP ; le service de flux recherche les nouveaux fichiers toutes les deux heures. Après avoir chargé un fichier pour la première fois, vous pouvez l’associer à un modèle spécifique au réseau publicitaire. Par la suite, tous les fichiers que vous chargez portant le même nom sont automatiquement associés au même modèle. Selon la manière dont vous [configuration des paramètres des données de flux](feed-settings-manage.md), Search, Social et Commerce peuvent propager automatiquement les données de flux à l’aide de tous les modèles applicables et éventuellement publier les données de campagne et de publicité qui en résultent sur les réseaux publicitaires appropriés.
 
-   Pour configurer un répertoire FTP afin de déposer et de traiter automatiquement les fichiers de données, contactez votre équipe de compte d’Adobe.
+  Pour configurer un répertoire FTP afin de déposer et de traiter automatiquement les fichiers de données, contactez votre équipe de compte d’Adobe.
 
-* **Traitement manuel :** Vous pouvez manuellement [charger des fichiers de flux](#feed-file-upload) de la [!UICONTROL Advanced] (ACM). Après avoir associé un fichier de flux à un ou plusieurs réseaux d’annonces spécifiques [templates](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md), vous pouvez générer des données de campagne et de publicité en [propagation des données de flux via les modèles](feed-data-propagate.md) selon la variable [paramètres de données de flux](feed-settings-manage.md). Vous pouvez éventuellement prévisualiser les données générées dans les vues de hiérarchie de campagne, générer un fichier de feuille d’envoi groupé à des fins de révision ou générer un fichier de feuille d’envoi groupé en vue d’une publication immédiate sur le réseau publicitaire. Si vous ne publiez pas les données immédiatement, vous pouvez [prévisualiser](propagated-data-view.md) et [publier](propagated-data-post.md) plus tard. Vous pouvez le faire ultérieurement. [remplacer le fichier de flux existant par un nouveau fichier ;](#feed-file-replace) sans perdre d’associations de modèles existantes.
+* **Traitement manuel :** Vous pouvez manuellement [charger des fichiers de flux](#feed-file-upload) de la [!UICONTROL Advanced] (ACM). Après avoir associé un fichier de flux à un ou plusieurs réseaux publicitaires [templates](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md), vous pouvez générer des données de campagne et de publicité en [propagation des données de flux via les modèles](feed-data-propagate.md) en fonction de la variable [paramètres de données de flux](feed-settings-manage.md). Vous pouvez éventuellement prévisualiser les données générées dans les vues de hiérarchie de campagne, générer un fichier de feuille d’envoi groupé à des fins de révision ou générer un fichier de feuille d’envoi groupé en vue d’une publication immédiate sur le réseau publicitaire. Si vous ne publiez pas les données immédiatement, vous pouvez [prévisualiser](propagated-data-view.md) et [publier](propagated-data-post.md) plus tard. Vous pouvez le faire ultérieurement. [remplacer le fichier de flux existant par un nouveau fichier ;](#feed-file-replace) sans perdre d’associations de modèles existantes.
 
 ## Exigences relatives aux fichiers de flux
 
 Aucun champ de données spécifique n’est requis dans un fichier individuel, mais les éléments suivants sont requis pour chaque fichier :
 
-* La première ligne du fichier doit contenir les noms de colonne (également appelée *en-têtes*), qui correspondent aux paramètres dynamiques des modèles associés. Les lignes restantes doivent inclure des données correspondant aux noms des colonnes. Chaque ligne de données (ligne) ne doit se rapporte qu’à un seul composant de compte, tel qu’une campagne ou une publicité. Les valeurs de toutes les lignes doivent être séparées par des tabulations ou des virgules. Voir [Exemple de fichier CSV](#example-csv-feed-file) et [Exemple de fichier TSV](#example-tsv-feed-file) ci-dessous.
+* La première ligne du fichier doit contenir les noms de colonne (également appelée *en-têtes*), qui correspondent aux paramètres dynamiques des modèles associés. Les lignes restantes doivent inclure des données correspondant aux noms des colonnes. Chaque ligne de données (ligne) ne doit se rapporte qu’à un seul composant de compte, tel qu’une campagne ou une publicité. Les valeurs de toutes les lignes doivent être séparées par des tabulations ou des virgules. Voir [Exemple de fichier CSV](#example-csv-feed-file) et [Exemple de fichier TSV](#example-tsv-feed-file) ci-dessous
 
 * Le fichier peut être de n’importe quelle taille, mais doit avoir l’une des extensions de fichier suivantes : `.tsv` (pour les valeurs séparées par des tabulations), `.txt` (pour [!DNL Unicode](texte ASCII conforme), `.csv` (pour les valeurs séparées par des virgules) ou `.zip` (pour un seul fichier au format ZIP compressé, qui décompresse le fichier vers un fichier TSV).
 
@@ -76,7 +78,7 @@ shoes<TAB>Clarks<TAB>20
 
    * Supprimez les caractères altérés.
 
-## Affichage ou téléchargement d’un fichier de flux
+## Afficher ou télécharger un fichier de flux
 
 Vous pouvez ouvrir ou télécharger un fichier de flux qui a été chargé manuellement ou à l’aide de FTP.
 
@@ -111,7 +113,7 @@ Pour plus d’informations, voir l’aide en ligne de votre navigateur.
 
 Tous les champs du fichier sont validés. Vous ne pouvez pas publier les éléments dont la longueur de champ n’est pas valide plus tard tant que vous n’avez pas corrigé les valeurs. Tous les noms de colonne du fichier deviennent disponibles dans les modèles sous la forme de paramètres dynamiques.
 
-## Remplacement d’un fichier de flux {#feed-file-replace}
+## Remplacer un fichier de flux {#feed-file-replace}
 
 Lorsque vous remplacez un fichier de flux (même si le nouveau fichier a un nom ou une extension de fichier différent), toutes les associations de modèles existantes restent inchangées. Le nouveau fichier est utilisé lorsque vous propagez des données à l’aide de tous les modèles qui étaient initialement associés au fichier précédent.
 
@@ -122,6 +124,7 @@ Lorsque vous remplacez un fichier de flux (même si le nouveau fichier a un nom 
    * Dans le [!UICONTROL Feed] pour tout modèle applicable, cliquez sur ![Autres options](/help/search-social-commerce/assets/options.png "Autres options") et sélectionnez **[!UICONTROL Re-upload]**.
 
    * Dans la barre d’outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Feeds]**. Dans la liste des fichiers de flux, cochez la case en regard du nom de fichier existant. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Upload]**.
+
    >[!NOTE]
    >
    >Source du fichier de flux (&quot;[!UICONTROL FTP]&quot; ou &quot;&amp;mdash&quot; pour les fichiers chargés manuellement) est inclus dans la variable [!UICONTROL Source] colonne .
@@ -157,4 +160,3 @@ Vous pouvez supprimer tout fichier de flux qui a été chargé manuellement ou p
 >* [Données de campagne de publication générées à partir de flux vers les réseaux publicitaires](propagated-data-post.md)
 >* [Arrêt d’une tâche de publication pour les données de flux d’inventaire](stop-job.md)
 >* [Statuts des données générées à partir de flux](propagated-data-status.md)
-

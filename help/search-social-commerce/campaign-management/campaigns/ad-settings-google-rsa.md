@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] paramètres de publicité de recherche réactive"
+title: '''[!DNL Google Ads] paramètres de publicité de recherche réactive'
 description: Référencez les paramètres pour [!DNL Google Ads] annonces de recherche réactive.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e3c76f22-780d-4631-bcf2-af68d12810e2
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -52,4 +54,3 @@ Voir [!DNL Google Ads] help pour [limites publicitaires par compte](https://supp
 >* [Gestion des publicités](ad-manage.md)
 >* [[!DNL Google Ads] paramètres d’annonce d’appel uniquement](ad-settings-google-call.md)
 >* [[!DNL Google Ads] paramètres d’annonce de recherche dynamique étendus](ad-settings-google-dsa.md)
-

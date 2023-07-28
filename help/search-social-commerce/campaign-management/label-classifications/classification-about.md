@@ -1,7 +1,9 @@
 ---
 title: À propos des classifications d’étiquettes
 description: Découvrez comment utiliser des classifications d’étiquettes pour regrouper vos composants de compte.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a4777e7a-50c7-4521-a849-fb4661d94602
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Chaque entité éligible peut avoir des valeurs d’étiquette pour plusieurs cl
 
 ## La vue Classifications d’étiquettes
 
-Le [!UICONTROL Labels Classifications] dans le [!UICONTROL Search] > [!UICONTROL Campaigns] menu inclut [!UICONTROL Classifications] et [!UICONTROL Label Values] sous-vues. Vous pouvez afficher les données de vos classifications d’étiquettes, [create](classification-create.md) et [delete](classification-delete.md) classification des étiquettes et afficher les données relatives aux valeurs de classification des étiquettes. Par défaut, les données s’affichent pour vos classifications et valeurs d’étiquettes au niveau des mots-clés, mais vous pouvez éventuellement afficher les données de vos classifications et valeurs au niveau des annonces.
+La variable [!UICONTROL Labels Classifications] dans le [!UICONTROL Search] > [!UICONTROL Campaigns] menu inclut [!UICONTROL Classifications] et [!UICONTROL Label Values] sous-vues. Vous pouvez afficher les données de vos classifications d’étiquettes, [create](classification-create.md) et [delete](classification-delete.md) classification des étiquettes et afficher les données relatives aux valeurs de classification des étiquettes. Par défaut, les données s’affichent pour vos classifications et valeurs d’étiquettes au niveau des mots-clés, mais vous pouvez éventuellement afficher les données de vos classifications et valeurs au niveau des annonces.
 
 >[!MORELIKETHIS]
 >
@@ -34,4 +36,3 @@ Le [!UICONTROL Labels Classifications] dans le [!UICONTROL Search] > [!UICONTROL
 >* [Suppression des valeurs de classification d’étiquette des composants de compte](classification-values-remove.md)
 >* [Supprimer des valeurs de classification d’étiquettes](classification-values-delete.md)
 >* [Supprimer des classifications d’étiquettes](classification-delete.md)
-

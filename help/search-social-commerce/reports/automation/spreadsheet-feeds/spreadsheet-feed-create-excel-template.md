@@ -1,7 +1,9 @@
 ---
 title: Créez un [!DNL Excel] modèle pour un flux de rapport de feuille de calcul
 description: Découvrez comment créer des modèles de feuille de calcul spécialement formatés.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d675cb8c-b7a9-4d7b-8435-5dd662d151a3
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -14,13 +16,12 @@ ht-degree: 0%
 
 Pour créer des flux de feuille de calcul, vous devez d’abord créer des flux spécialement formatés. [!DNL Microsoft® Excel] modèles de feuille de calcul utilisant des modèles de rapport standard. Vous pouvez éventuellement personnaliser la variable [!DNL Excel] feuille de calcul pour inclure des colonnes et des graphiques supplémentaires.
 
-1. Dans **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, générez le type de rapport souhaité à l’aide d’un [!UICONTROL Date Aggregation] unité de &quot;[!UICONTROL Daily]&quot; et avec tous les autres paramètres de données de votre choix, en enregistrant le rapport comme modèle.
+1. Dans **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, générez le type de rapport souhaité à l’aide d’un [!UICONTROL Date Aggregation] unité de &quot;[!UICONTROL Daily]&quot; et avec tous les autres paramètres de données de votre choix, en enregistrant le rapport en tant que modèle.
 
    >[!NOTE]
    >
    > * Vous pouvez créer des flux de feuille de calcul pour [!UICONTROL Portfolio], [!UICONTROL Search Engine], [!UICONTROL Search Engine Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Ad Variation], [!UICONTROL Keyword], et [!UICONTROL Forecast Accuracy] rapports. Si vous utilisez la variable [!UICONTROL Ad Group Report], limitez le nombre de groupes d’annonces inclus pour des résultats plus rapides.
-   > * Le [!UICONTROL Date Range] l’unité définie dans le modèle n’est pas utilisée. Vous définirez les dates auxquelles actualiser les données lorsque vous configurez le flux de feuille de calcul ultérieurement.
-
+   > * La variable [!UICONTROL Date Range] l’unité définie dans le modèle n’est pas utilisée. Vous définirez les dates auxquelles actualiser les données lorsque vous configurez le flux de feuille de calcul ultérieurement.
 
 1. Une fois le rapport généré, accédez à **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** et exporter une version TSV ou XLS de la sortie du rapport vers un fichier.
 
@@ -43,10 +44,10 @@ Pour créer des flux de feuille de calcul, vous devez d’abord créer des flux 
          Ce nom d&#39;onglet spécifique permet d&#39;actualiser les données.
 
       4. (Facultatif) Ajoutez des colonnes personnalisées à droite des colonnes du modèle de rapport, si nécessaire.
-   1. (Facultatif) Sur une feuille de calcul distincte, créez un tableau croisé dynamique. Une fois que vous avez terminé, cliquez avec le bouton droit de la souris dans une cellule du tableau croisé dynamique, puis sélectionnez **[!UICONTROL Pivot Table Options]**, cliquez sur le bouton **[!UICONTROL Data]** puis sélectionnez **[!UICONTROL Refresh data when opening the file]**.
+
+   1. (Facultatif) Sur une feuille de calcul distincte, créez un tableau croisé dynamique. Une fois que vous avez terminé, cliquez avec le bouton droit de la souris dans une cellule du tableau croisé dynamique, puis sélectionnez **[!UICONTROL Pivot Table Options]**, cliquez sur le **[!UICONTROL Data]** puis sélectionnez **[!UICONTROL Refresh data when opening the file]**.
 
    1. Enregistrez le fichier en tant que [!DNL Excel] feuille de calcul au format .XLSX.
-
 
 >[!MORELIKETHIS]
 >
@@ -57,4 +58,3 @@ Pour créer des flux de feuille de calcul, vous devez d’abord créer des flux 
 >* [Affichage ou enregistrement d’un fichier de flux de rapport de feuille de calcul](spreadsheet-feed-view-or-save.md)
 >* [Actualisation manuelle des flux de rapports de feuille de calcul](spreadsheet-feed-refresh.md)
 >* [Suppression de flux de rapports de feuille de calcul](spreadsheet-feed-delete.md)
-

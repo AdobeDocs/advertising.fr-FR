@@ -1,7 +1,9 @@
 ---
 title: Gestion des modificateurs
-description: Découvrez comment configurer et gérer des modificateurs pour vos modèles d’annonces pour les flux de données d’inventaire.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Découvrez comment configurer et gérer des modificateurs pour vos modèles publicitaires pour les flux de données d’inventaire.
+exl-id: ade1472d-10e3-454e-8095-c579b48cfc01
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Les modificateurs sont des adjectifs ou des adverbes qui peuvent être ajoutés 
 
 Chaque groupe de modificateurs peut inclure autant de modificateurs que vous le souhaitez. Chaque modèle ne peut utiliser qu’un seul groupe de modificateurs.
 
-## Création d’un groupe de modificateurs
+## Créer un groupe de modificateurs
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
@@ -32,13 +34,13 @@ Chaque groupe de modificateurs peut inclure autant de modificateurs que vous le 
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
-## Modification d’un groupe de modificateurs
+## Modifier un groupe de modificateurs
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Modifiers]**.
 
-1. Dans la liste des groupes de modificateurs, cliquez sur le nom du groupe de modificateurs.
+1. Dans la liste des groupes de modificateurs, cliquez sur le nom du groupe.
 
 1. Modifiez les paramètres du groupe de modificateurs :
 
@@ -70,4 +72,3 @@ Chaque groupe de modificateurs peut inclure autant de modificateurs que vous le 
 >
 >* [À propos des flux d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
 >* [Gestion des modèles d’annonce](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Gestion des audiences de correspondance client à l’aide des listes de données client
 description: Découvrez comment créer et modifier [!DNL Google Ads] et [!DNL Microsoft® Advertising] des audiences de correspondance client provenant de vos listes de données client ;
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 734d8cb1-3915-410f-a0cc-0669d6575eab
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -10,15 +12,15 @@ ht-degree: 0%
 
 # Gérer [!DNL Google Ads] et [!DNL Microsoft® Advertising] audiences de correspondance client à l’aide de listes de données client
 
-Vous pouvez créer des [!DNL Google Ads] et [!DNL Microsoft® Advertising] des audiences de correspondance client provenant de vos listes de données client ; Vous pouvez également mettre à jour les [!DNL Google Ads] ou [!DNL Microsoft® Advertising] audience de correspondance du client, à l’exception de [!DNL Google Ads] audiences créées à partir d’un [!DNL Adobe] audience.
+Vous pouvez créer [!DNL Google Ads] et [!DNL Microsoft® Advertising] des audiences de correspondance client provenant de vos listes de données client ; Vous pouvez également mettre à jour les [!DNL Google Ads] ou [!DNL Microsoft® Advertising] audience de correspondance du client, à l’exception de [!DNL Google Ads] audiences créées à partir d’un [!DNL Adobe] audience.
 
-## Création d’une audience de correspondance de client à partir d’une liste de données de client
+## Création d’une audience de correspondance client à partir d’une liste de données client
 
 *[!DNL Google Ads]et [!DNL Microsoft® Advertising] comptes éligibles pour les correspondances client uniquement*
 
 Vous pouvez créer un [!DNL Google Ads] ou [!DNL Microsoft® Advertising] liste basée sur les données client à partir d’un fichier de données que vous générez à partir de votre système de gestion de la relation client (CRM).
 
-Pour [!DNL Microsoft® Advertising] compte, le fichier peut inclure des adresses électroniques. Pour [!DNL Google Ads] , le fichier peut inclure des adresses électroniques, des adresses postales ou des numéros de téléphone ; ID utilisateur ; ou des identifiants d’appareil mobile de votre système de gestion de la relation client.
+Pour [!DNL Microsoft® Advertising] compte, le fichier peut inclure des adresses électroniques. Pour [!DNL Google Ads] compte, le fichier peut inclure des adresses électroniques, des adresses postales ou des numéros de téléphone, des identifiants d’utilisateur ou des identifiants d’appareil mobile provenant de votre système de gestion de la relation client (CRM).
 
 >[!NOTE]
 >
@@ -42,7 +44,7 @@ Pour [!DNL Microsoft® Advertising] compte, le fichier peut inclure des adresses
 
    1. Téléchargez le fichier :
 
-      1. Sélectionnez la [!UICONTROL Data Upload Type]: *[!UICONTROL Emails, Phones, and/or Mailing Addresses]*, *[!UICONTROL User IDs]* ou *[!UICONTROL Mobile Device IDs]*.
+      1. Sélectionnez la variable [!UICONTROL Data Upload Type]: *[!UICONTROL Emails, Phones, and/or Mailing Addresses]*, *[!UICONTROL User IDs]*, ou *[!UICONTROL Mobile Device IDs]*.
 
          L’option ID utilisateur n’est disponible que pour [!DNL Google Ads] les publicitaires aux États-Unis qui sont inscrits pour [segments d’ID utilisateur](https://support.google.com/google-ads/answer/9199250)
 
@@ -52,11 +54,12 @@ Pour [!DNL Microsoft® Advertising] compte, le fichier peut inclure des adresses
 
          * ([!DNL Android™] apps) La variable [!DNL Android™] nom du module dans [!DNL Google Play], identifié par &quot;`id=<package_name>`.&quot;
 
-            Par exemple, dans https://play.google.com/store/apps/details?id=com.example.game, le nom du module est com.example.game.
+           Par exemple, dans https://play.google.com/store/apps/details?id=com.example.game, le nom du module est com.example.game.
 
-         * ([!DNL iOS] apps) L’ID de l’application dans la variable [!DNL iTunes App Store], identifié par &quot;`<idNNNNNNNNN>`&quot; à la fin de l’URL. Il est également disponible dans la [!DNL iOS Developer Console].
+         * ([!DNL iOS] apps) ID de l’application dans la variable [!DNL iTunes App Store], identifié par &quot;`<idNNNNNNNNN>`&quot; à la fin de l’URL. Il est également disponible dans la [!DNL iOS Developer Console].
 
-            Par exemple, dans https://itunes.apple.com/us/app/id284882215, l’ID est id284882215.
+           Par exemple, dans https://itunes.apple.com/us/app/id284882215, l’ID est id284882215.
+
          Votre équipe de développement a accès au [!UICONTROL App ID] pour la plateforme appropriée.
 
       1. Dans le [!UICONTROL Select File] champ, cliquez sur **[!UICONTROL Choose File]** et sélectionnez le fichier sur votre réseau ou périphérique.
@@ -64,6 +67,7 @@ Pour [!DNL Microsoft® Advertising] compte, le fichier peut inclure des adresses
       1. Cochez la case pour indiquer que vous acceptez les termes du [!DNL Adobe] et les stratégies de confidentialité du réseau publicitaire.
 
       1. Cliquez sur **[!UICONTROL Upload File]**.
+
    1. Indiquez le nombre de **[!UICONTROL Membership Days]**: nombre de jours pendant lesquels le cookie d’un utilisateur reste dans l’audience.
 
    Utilisez la durée pendant laquelle votre publicité doit être pertinente pour l’utilisateur. Les listes de clients n’expirent pas, sauf si vous saisissez une valeur.
@@ -74,7 +78,6 @@ Pour [!DNL Microsoft® Advertising] compte, le fichier peut inclure des adresses
 >
 >* Le traitement du fichier peut prendre jusqu’à 24 heures au réseau publicitaire.
 >* Voir [[!DNL Google Ads] documentation sur le fonctionnement et les limitations des correspondances client](https://support.google.com/displayvideo/answer/9539301).
-
 
 ## Modification d’une audience de correspondance client à l’aide d’une liste de données client
 
@@ -114,4 +117,3 @@ Les prénoms et les noms, adresses électroniques et numéros de téléphone doi
 >* [Créer [!DNL Google Ads] audiences de correspondance client provenant de [!DNL Adobe] audiences](google-audience-from-adobe-audience.md)
 >* [Créez un [!DNL Google Ads] audience de correspondance client provenant d’une liste de messagerie Adobe Campaign](google-audience-from-campaign-email-list.md)
 >* [Gestion des audiences de remarketing dynamique](audience-dynamic-remarketing-manage.md)
-

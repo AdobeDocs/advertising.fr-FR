@@ -1,7 +1,9 @@
 ---
 title: Gestion des groupes d’annonces
 description: Découvrez comment créer et gérer des groupes d’annonces.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -28,7 +30,7 @@ Vous pouvez créer des groupes d’annonces dans Search, Social &amp; Commerce p
 
 1. Sélectionnez le réseau publicitaire, le compte et la campagne, puis cliquez sur **[!UICONTROL Continue]**.
 
-1. Saisissez le [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Publicités Google](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Publicité Microsoft](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo ! Publicités au Japon](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)ou [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) paramètres du groupe publicitaire.
+1. Saisissez le [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Publicités Google](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Publicité Microsoft](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo ! Publicités au Japon](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), ou [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) paramètres du groupe publicitaire.
 
    Selon le réseau publicitaire, les paramètres peuvent être regroupés dans [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], et [!UICONTROL URL Options]. Pour configurer les paramètres de [!UICONTROL Negative Keywords] ou [!UICONTROL Negative Websites], lorsqu’elles sont disponibles, cliquez sur **[!UICONTROL Add Negative Keywords]** ou **[!UICONTROL Add Negative Websites]**, respectivement.
 
@@ -50,15 +52,15 @@ Vous pouvez modifier les paramètres de groupes d’annonces individuels. Vous p
 
    1. (Pour modifier les paramètres d’un seul groupe publicitaire) Placez le curseur sur le nom de l’entité, cliquez sur ![Icône Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icône Menu"), puis sélectionnez **[!UICONTROL Edit]**.
 
-   1. (Pour modifier les paramètres d’un ou de plusieurs groupes publicitaires) Procédez comme suit :
+   1. (Pour modifier les paramètres d’un ou de plusieurs groupes d’annonces) Procédez comme suit :
 
       * Cochez la case en regard de chaque groupe publicitaire.
 
-         Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier").
 
-1. Modifiez la variable [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Publicités Google](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Publicité Microsoft](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo ! Publicités au Japon](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)ou [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) paramètres du groupe publicitaire.
+1. Modifiez la variable [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Publicités Google](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Publicité Microsoft](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo ! Publicités au Japon](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), ou [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) paramètres du groupe publicitaire.
 
    Pour plusieurs groupes d’annonces, les paramètres peuvent être regroupés dans [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], et [!UICONTROL URL Options], selon le réseau publicitaire. Vous ne pouvez modifier que les champs communs à tous les groupes d’annonces sélectionnés, et vos modifications sont appliquées à tous les groupes d’annonces sélectionnés. Pour certains champs alphanumériques, vous avez la possibilité de remplacer des valeurs existantes par une valeur spécifique, de remplacer une chaîne existante par une chaîne spécifiée, d’ajouter un préfixe spécifique au début de chaque valeur ou d’ajouter un suffixe à la fin de chaque valeur. Pour certains champs monétaires, vous avez la possibilité de modifier les valeurs existantes en une valeur spécifiée ou d’augmenter ou de diminuer le montant d’un pourcentage ou d’un montant monétaire spécifié, avec une limite.
 
@@ -78,7 +80,7 @@ Vous pouvez également supprimer tout groupe publicitaire de recherche principal
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
 
-1. (Facultatif) Filtrez la liste pour inclure des groupes publicitaires spécifiques.
+1. (Facultatif) Filtrez la liste pour inclure des groupes d’annonces spécifiques.
 
 1. Cochez la case en regard de chaque groupe publicitaire dont vous souhaitez modifier l’état.
 
@@ -98,4 +100,3 @@ Vous pouvez également supprimer tout groupe publicitaire de recherche principal
 >* [Paramètres du groupe publicitaire Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
 >* [Yahoo ! Paramètres du groupe publicitaire Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
 >* [Paramètres des groupes d’annonces Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
-

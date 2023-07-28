@@ -1,13 +1,14 @@
 ---
 title: A propos de la personnalisation des données dans les vues de gestion de campagne
 description: Découvrez les types de données que vous pouvez personnaliser dans les vues de données de campagne.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a8e4020a-ed8e-4ccc-9aaf-8ba115fb9ea3
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
 
 ---
-
 
 # A propos de la personnalisation des données dans les vues de gestion de campagne
 
@@ -23,7 +24,7 @@ Dans la plupart des vues de données de campagne, vous pouvez personnaliser les 
 
    * Recherchez des campagnes par portefeuille ou groupe de portefeuille, puis filtrez-les selon l’état de l’entité et l’état du groupe de portefeuille, du portfolio et de la campagne. Cliquez sur un groupe de portefeuille, un portfolio ou une campagne dans le panneau pour charger les données du groupe de portefeuille, du portfolio ou de la campagne dans la vue d’entité actuelle.
 
-   * Accédez à vos vues par défaut, modifiez-les et réinitialisez-les ; et accéder à vos vues personnalisées, les modifier et les supprimer. Cliquez sur le nom d’une vue pour charger la vue appropriée.
+   * Accédez à vos vues par défaut, modifiez-les et réinitialisez-les, puis accédez à vos vues personnalisées, modifiez-les et supprimez-les. Cliquez sur le nom d’une vue pour charger la vue appropriée.
 
 * Appliquez des filtres sur toutes les colonnes de données disponibles pour modifier les données affichées dans l’onglet actif. Vous pouvez créer des filtres à partir des en-têtes de colonne ou d’un bouton de la barre d’outils. Les filtres sont conservés lorsque vous ouvrez des entités enfants. Par exemple, si vous affichez des campagnes avec \> 100 clics, puis ouvrez un groupe publicitaire dans cette campagne, seuls les groupes publicitaires avec \> 100 clics sont affichés.
 

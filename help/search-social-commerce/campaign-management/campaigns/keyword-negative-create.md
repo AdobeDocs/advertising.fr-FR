@@ -1,7 +1,9 @@
 ---
 title: Créer des mots-clés négatifs
 description: Découvrez comment créer des mots-clés négatifs pour les campagnes de recherche et les groupes publicitaires.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 683e5395-cb65-4d7f-a981-7fc9f84d4192
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -40,10 +42,9 @@ Vous pouvez créer des mots-clés négatifs pour un groupe publicitaire de reche
 
    * [!DNL Baidu] n’autorise qu’un seul type de correspondance par mot-clé par groupe publicitaire. Par exemple, le groupe d’annonces 1 ne peut pas inclure les deux `"keyword"` et `[keyword]`.
 
-   * [!DNL Google Ads]: Chaque mot-clé ne peut pas contenir plus de 10 mots et ne peut contenir que des lettres, des chiffres et les caractères spéciaux suivants : space `# $ & _ - " [ ] ' + . / :`
+   * [!DNL Google Ads]: chaque mot-clé ne peut pas contenir plus de 10 mots et ne peut contenir que des lettres, des chiffres et les caractères spéciaux suivants : espace `# $ & _ - " [ ] ' + . / :`
 
-   * [!DNL Yandex]: Chaque mot-clé peut contenir, au maximum, sept mots, à l’exception des mots-clés &quot;stop&quot;. Chaque [!DNL Yandex ad group] peut contenir un maximum de 200 mots-clés.
-
+   * [!DNL Yandex]: chaque mot-clé peut contenir au maximum sept mots, à l’exception des mots-clés &quot;arrêt&quot;. Chaque [!DNL Yandex ad group] peut contenir un maximum de 200 mots-clés.
 
 1. Cliquez sur **[!UICONTROL Post]**.
 
@@ -52,4 +53,3 @@ Vous pouvez créer des mots-clés négatifs pour un groupe publicitaire de reche
 >* [A propos des mots-clés](keyword-about.md)
 >* [Gestion des mots-clés pouvant faire l’objet d’un offre](keyword-manage.md)
 >* [Modifier l’état des mots-clés et des mots-clés négatifs](keyword-status-edit.md)
-

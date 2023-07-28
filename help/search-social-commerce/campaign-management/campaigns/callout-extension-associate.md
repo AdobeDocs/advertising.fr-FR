@@ -1,7 +1,9 @@
 ---
 title: Associer [!DNL Google Ads] Extensions de légende partagées avec des campagnes ou des groupes publicitaires
 description: Découvrez comment attribuer [!DNL Google Ads] extensions de légende partagées vers des campagnes ou des groupes publicitaires.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 17ee3de7-562e-4ed4-bf03-3b5e728d8a68
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -33,12 +35,11 @@ Attribuez au moins deux légendes par campagne ou groupe publicitaire pour que v
       * (Facultatif) Pour filtrer une liste de campagnes ou de groupes publicitaires selon une chaîne de texte incluse dans le nom, cliquez sur ![Filtrer](/help/search-social-commerce/assets/filter.png "Filtrer"), saisissez ou collez la chaîne de texte dans le champ de saisie, puis appuyez sur la touche **Entrée** clé.
 
       * Pour sélectionner une entité, cliquez sur le cercle en regard de celle-ci (![Sélectionner](/help/search-social-commerce/assets/include.png "Sélectionner")).
-   1. Cliquez sur **[!UICONTROL Post]**.
 
+   1. Cliquez sur **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
 >
 >* [A propos [!DNL Google Ads] Extensions de légende](callout-extension-about.md)
 >* [Gérer [!DNL Google Ads] Extensions de légende](callout-extension-manage.md)
 >* [Supprimer des associations d’extension d’annonce avec des campagnes et des groupes d’annonces](/help/search-social-commerce/campaign-management/campaigns/ad-extension-association-delete.md)
-

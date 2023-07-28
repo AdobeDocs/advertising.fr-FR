@@ -1,7 +1,9 @@
 ---
 title: Questions fréquentes sur les campagnes
 description: Reportez-vous aux réponses aux questions sur la gestion de campagne et les vues de données de campagne.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -34,7 +36,7 @@ En outre, [!DNL Google Ads] les mesures de performances au niveau de la campagne
 
 Le mot-clé ou la publicité existante est supprimé et un autre est créé lorsque :
 
-* ([!DNL Baidu], [!DNL Google Ads], et [!DNL Yandex]) Vous modifiez le nom d’un mot-clé.
+* ([!DNL Baidu], [!DNL Google Ads], et [!DNL Yandex]) Vous modifiez un nom de mot-clé.
 
 * ([!DNL Google Ads], [!DNL Microsoft Advertising], et [!DNL Yandex]) Vous modifiez le type de correspondance d’un mot-clé.
 
@@ -52,7 +54,7 @@ Une publicité ou un mot-clé existant est supprimé et un autre est créé lors
 
 * Les paramètres du modèle d’une publicité ont changé depuis la dernière propagation.
 
-* Un nouveau fichier de flux comprend une ligne pour une publicité ou un mot-clé qui a) se trouvait dans un fichier précédent mais b) a été omis depuis et a été mis en pause ou supprimé selon les paramètres des données du flux.
+* Un nouveau fichier de flux comprend une ligne pour une publicité ou un mot-clé qui a) se trouvait dans un fichier précédent mais b) a été omis depuis et a été mis en pause ou supprimé selon les paramètres des données de flux.
 
 Selon le [paramètres de données de flux](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings), une publicité existante ou un mot-clé peut être supprimé dans les cas suivants :
 
@@ -79,17 +81,17 @@ Vous pouvez utiliser la variable [!DNL Google Ads] [!DNL ValueTrack] parameters 
 
 * Inclure la désignation mobile comme serveur hôte à l’aide de `{ifmobile:m}{ifnotmobile:www}`.
 
-   Par exemple : `http://{ifmobile:m}{ifnotmobile:www}.example.com` emmène les utilisateurs mobiles à m.example.com et les utilisateurs non-mobiles à www.example.com.
+  Par exemple : `http://{ifmobile:m}{ifnotmobile:www}.example.com` emmène les utilisateurs mobiles à m.example.com et les utilisateurs non mobiles à www.example.com.
 
 * Inclure la désignation mobile comme domaine de niveau supérieur à l’aide de `{ifmobile:mobi}{ifnotmobile:com}`.
 
-   Par exemple : `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` emmène les utilisateurs mobiles à www.example.mobi et les utilisateurs non mobiles à www.example.com.
+  Par exemple : `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` emmène les utilisateurs mobiles à www.example.mobi et les utilisateurs non mobiles à www.example.com.
 
 Dans les deux cas, les URL de base avec suivi Search, Social et Commerce incluent le code non codé. `{}` balises et tous les paramètres supplémentaires ajoutés à l’URL de base.
 
 >[!NOTE]
 >
->Ne pas utiliser d’URL complète comme valeur pour les paramètres ifnotmobile et ifmobile ; utilisez uniquement la partie variable de l’URL (par exemple &quot;m&quot; contre &quot;www&quot; ou &quot;mobi&quot; contre &quot;com&quot;).
+>N’utilisez pas d’URL complète comme valeur pour les paramètres ifnotmobile et ifmobile ; utilisez uniquement la partie variable de l’URL (par exemple &quot;m&quot; contre &quot;www&quot; ou &quot;mobi&quot; contre &quot;com&quot;).
 
 +++
 
@@ -97,7 +99,7 @@ Dans les deux cas, les URL de base avec suivi Search, Social et Commerce incluen
 
 [!DNL Google Ads] les mesures de performances au niveau de la campagne sur le réseau de recherche pour la journée en cours sont extraites à 8h00 et 16h00 dans le fuseau horaire de l’annonceur.
 
-Dans le [!UICONTROL Campaigns] dans les deux [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] et le [!UICONTROL Optimization] > [!UICONTROL Portfolios] affichage, lorsque vous créez un rapport sur [!UICONTROL Today] Pour une période personnalisée qui inclut le jour en cours, les données comprennent les données les plus récemment extraites.
+Dans le [!UICONTROL Campaigns] dans les deux [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] et le [!UICONTROL Optimization] > [!UICONTROL Portfolios] affichage, lorsque vous créez un rapport sur [!UICONTROL Today] Pour une période personnalisée qui inclut le jour en cours, les données comprennent les données les plus récentes.
 
 >[!NOTE]
 >
@@ -107,11 +109,11 @@ Dans le [!UICONTROL Campaigns] dans les deux [!UICONTROL Search] > [!UICONTROL C
 
 +++([!DNL Google Ads] et [!DNL Microsoft Advertising]) Search, Social et Commerce prennent-ils en charge le suivi parallèle des publicités dans [!DNL Google Ads] ou [!DNL Microsoft Advertising]?
 
-Le suivi parallèle envoie les clients directement de votre publicité vers l’URL finale, et l’URL de votre modèle de suivi (avec mesure des clics) est chargée en arrière-plan ; par conséquent, votre landing page est chargée plus rapidement.
+Le suivi parallèle envoie les clients directement de votre publicité vers l’URL finale, et l’URL de votre modèle de suivi (avec mesure des clics) est chargée en arrière-plan. Par conséquent, votre page d’entrée est chargée plus rapidement.
 
-Search, Social et Commerce prend en charge le suivi parallèle des campagnes de recherche et d’achat à l’aide de l’identifiant de clic du réseau publicitaire (`msclkid` pour [!DNL Microsoft Advertising]; `gclid` pour [!DNL Google Ads]). Utilisez une [au niveau du compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) ou [niveau de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (appelé &quot;[!DNL final URL suffix]&quot; dans les réseaux publicitaires), qui est ajouté aux URL des pages d’entrée pour effectuer le suivi des clics sur les annonces enfants à partir des navigateurs qui prennent en charge le suivi parallèle. Voir [formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et [formats de suffixes requis pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Search, Social et Commerce prend en charge le suivi parallèle des campagnes de recherche et d’achat à l’aide de l’identifiant de clic du réseau publicitaire (`msclkid` pour [!DNL Microsoft Advertising]; `gclid` pour [!DNL Google Ads]). Utilisez une [niveau compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) ou [niveau de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (appelé &quot;[!DNL final URL suffix]&quot; dans les réseaux publicitaires), qui est ajouté aux URL des pages d’entrée pour effectuer le suivi des clics sur les annonces enfants à partir des navigateurs qui prennent en charge le suivi parallèle. Voir [formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et [formats de suffixes requis pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
-Lorsqu’un utilisateur consulte votre publicité sur un navigateur qui ne prend pas en charge le suivi parallèle, le réseau publicitaire utilise le suivi séquentiel à la place : les clients sont d’abord envoyés vers l’URL de votre modèle de suivi, qui peut rediriger les clients vers les serveurs de suivi intermédiaires avant de les rediriger vers l’URL finale. Tous les modèles de suivi pour un compte de réseau publicitaire doivent inclure le même paramètre d’identifiant de clic que celui utilisé dans la variable [!UICONTROL Landing Page Suffix]. Voir [Formats de modèle de suivi pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et le [Formats de modèle de suivi pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Lorsqu&#39;un utilisateur consulte votre publicité sur un navigateur qui ne prend pas en charge le suivi parallèle, le réseau publicitaire utilise à la place le suivi séquentiel : les clients sont d&#39;abord envoyés à l&#39;URL de votre modèle de suivi, ce qui peut rediriger les clients vers des serveurs de suivi intermédiaires avant de les rediriger vers l&#39;URL finale. Tous les modèles de suivi pour un compte de réseau publicitaire doivent inclure le même paramètre d’identifiant de clic que celui utilisé dans la variable [!UICONTROL Landing Page Suffix]. Voir [Formats de modèle de suivi pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et la variable [Formats de modèle de suivi pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++Pourquoi les URL de suivi de mes publicités incluent-elles &quot;`&EV_HASH={<hash>}`?&quot;
@@ -137,7 +139,7 @@ Si des éléments de ligne sont manquants dans le fichier de flux suivant et que
 
 +++(Flux d’inventaire des produits) Puis-je mettre à jour les prix de mes produits sans affecter le score de qualité d’une publicité ?
 
-Pour [!DNL Google Ads] campagnes, oui : Le [!DNL Google Ads] `{Param 1}` et `{Param 2}` vous permettent d’insérer dynamiquement des valeurs numériques dans une variation publicitaire sans supprimer ni recréer la publicité, et donc sans affecter le score de qualité.
+Pour [!DNL Google Ads] campaigns, yes: [!DNL Google Ads] `{Param 1}` et `{Param 2}` vous permettent d’insérer dynamiquement des valeurs numériques dans une variation publicitaire sans supprimer ni recréer la publicité, et donc sans affecter le score de qualité.
 
 Pour utiliser une `{Param 1}` ou `{Param 2}` pour les données de prix, mappez la colonne de prix de votre fichier de données avec cette variable dans les modèles de flux appropriés, puis incluez la variable dans vos modèles de variation publicitaire.
 

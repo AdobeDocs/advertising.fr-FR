@@ -2,7 +2,8 @@
 title: Données utilisées pour les rapports
 description: Découvrez les différents types de données disponibles dans les vues de données et les rapports personnalisés.
 exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
-source-git-commit: 3aad445fc1a5a0e2210209f181b9756047f44999
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -33,7 +34,7 @@ La plupart des rapports peuvent être personnalisés pour afficher uniquement le
 
 * **Mesures de conversion :** Le nombre total de conversions pour chaque publicité de [propriétés de transaction](/help/search-social-commerce/glossary.md#s-t)ou les données de transaction suivies vers un type de conversion. Cela peut inclure des mesures de conversion et d’engagement du site, mais pas des mesures calculées ni des mesures calculées avancées, qui sont synchronisées à partir d’Adobe Analytics.
 
-  Cela peut également inclure : [[!DNL Google Ads]-conversions trackées](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) et [[!DNL Google Analytics]-conversions trackées](/help/search-social-commerce/admin/data-sources/data-source-about.md) qui sont synchronisés pour le compte de l’annonceur.
+  Cela peut également inclure : [[!DNL Google Ads]-conversions suivies](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) et [[!DNL Google Analytics]-conversions suivies](/help/search-social-commerce/admin/data-sources/data-source-about.md) qui sont synchronisés pour le compte de l’annonceur.
 
 * **Mesures personnalisées :** Vos propres mesures, que vous dérivez en créant des formules basées sur des mesures existantes (telles que le coût par commande).
 

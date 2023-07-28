@@ -3,7 +3,8 @@ title: Disponible [!DNL Google Analytics] mesures
 description: Référencez la variable [!DNL Google Analytics] mesures disponibles pour les sources de données.
 role: User, Admin
 exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -28,9 +29,9 @@ Les mesures suivantes, à l’exception des exclusions indiquées, sont disponib
 | Session | ga:uniqueDimensionCombinations | — |
 | Conversions des objectifs | — | — |
 | Suivi de page | ga:entrées, ga:timeOnPage, ga:sorties | — |
-| Recherche interne | — | Les noms conviviaux de toutes les mesures de la recherche interne sont précédés de la valeur &quot;InternalSearch: &quot; |
+| Recherche interne | — | Les noms conviviaux de toutes les mesures de la recherche interne sont précédés de la valeur &quot;InternalSearch:&quot; |
 | Suivi des événements | — | — |
-| Commerce électronique | — | — |
+| eCommerce | — | — |
 | Interactions sociales | — | — |
 | Exceptions | — | — |
 | Variables ou colonnes personnalisées | ga:calcMetric_* | Les mesures calculées sont toujours exclues. |
@@ -39,7 +40,7 @@ Les mesures suivantes, à l’exception des exclusions indiquées, sont disponib
 >
 >* [A propos de la synchronisation [!DNL Google Analytics] mesures de conversion](data-source-about.md)
 >* [Conditions préalables à la configuration d’un [!DNL Google Analytics] source de données](data-source-prerequisites.md)
->* [Configurez une [!DNL Google Analytics] vue en tant que source de données](data-source-configure.md)
+>* [Configurez une [!DNL Google Analytics] vue comme source de données](data-source-configure.md)
 >* [Modifier une [!DNL Google Analytics] source de données](data-source-edit.md)
 >* [Suspension de la synchronisation d’une source de données](data-source-pause.md)
 >* [Réauthentifier un [!DNL Google Analytics] source de données](data-source-reauthenticate.md)

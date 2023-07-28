@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Yahoo! Japan Ads] paramètres de campagne"
+title: '''[!DNL Yahoo! Japan Ads] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Yahoo! Japan Ads] campagnes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f728a880-27d8-478a-8480-a00b0fcab293
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 ## \[Ecran de création de campagne\]
 
-**[!UICONTROL Campaign Type]:** (Disponible uniquement lors de la création de la campagne) Où placer les publicités : la seule option est *[!UICONTROL Search Network Only]* pour afficher des publicités textuelles sur le réseau de recherche.
+**[!UICONTROL Campaign Type]:** (Disponible uniquement lors de la création de la campagne) Où placer les publicités : la seule option est *[!UICONTROL Search Network Only]* pour afficher des publicités texte sur le réseau de recherche.
 
 ## [!UICONTROL Campaign Details]
 
@@ -30,7 +32,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Budget Options]
 
-**[!UICONTROL Budget]:** Le budget, qui est le montant que vous voulez dépenser tous les jours, en moyenne. Le budget quotidien minimum est de 100 yens.
+**[!UICONTROL Budget]:** Le budget, qui est le montant que vous voulez dépenser quotidiennement, en moyenne. Le budget quotidien minimum est de 100 yens.
 
 Si vous attribuez cette opération à un portefeuille pour lequel les limites du budget de l&#39;opération sont automatiquement ajustées, alors — selon les conditions de recherche — vous pouvez effectivement dépenser plus ou moins que le budget spécifié pour une période donnée.
 
@@ -93,4 +95,3 @@ Si vous attribuez cette opération à un portefeuille pour lequel les limites du
 >[!MORELIKETHIS]
 >
 >* [Gestion des campagnes](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

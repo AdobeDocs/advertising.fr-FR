@@ -1,7 +1,9 @@
 ---
 title: Gérer [!DNL Microsoft Advertising] audiences de remarketing dynamique
 description: Découvrez comment créer et gérer [!DNL Microsoft Advertising] audiences de remarketing dynamique.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6f0cb6a0-36cc-4a07-82a8-247191b6c4f5
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Pour plus d’informations sur le remarketing dynamique et sur la mise en oeuvre
 >
 >Pour [!DNL Microsoft Advertising] comptes, la balise JavaScript doit inclure la variable [ID de produit et paramètres de type de page](https://help.ads.microsoft.com/#apex/ads/en/56910/1/#exp85).
 
-1. Identifier le nom de la variable [!DNL Microsoft Advertising] balise UET (Universal Event Tracking) incluse dans les pages web à partir desquelles l’audience sera créée.
+1. Identifier le nom de la variable [!DNL Microsoft Advertising] balise de suivi d’événement universel (UET) incluse dans les pages web à partir desquelles l’audience sera créée.
 
    Vous aurez besoin du nom de la balise à une étape ultérieure.
 
@@ -42,7 +44,7 @@ Pour plus d’informations sur le remarketing dynamique et sur la mise en oeuvre
 
    1. Dans la liste de toutes les balises disponibles pour le compte de moteur de recherche, sélectionnez le nom de la variable [!DNL Microsoft Advertising] Balise UET incluse dans les pages web dont les utilisateurs comprendront l’audience.
 
-   1. Sélectionnez le type de visiteur pour l’audience, en fonction des actions du visiteur sur les pages web pertinentes : *[!UICONTROL General Visitors]*, *[!UICONTROL Product Searchers]*, *[!UICONTROL Product Viewers]*, *[!UICONTROL Past Buyers]* ou *[!UICONTROL Shopping Cart Abandoners]*.
+   1. Sélectionnez le type de visiteur pour l’audience, en fonction des actions du visiteur sur les pages web pertinentes : *[!UICONTROL General Visitors]*, *[!UICONTROL Product Searchers]*, *[!UICONTROL Product Viewers]*, *[!UICONTROL Past Buyers]*, ou *[!UICONTROL Shopping Cart Abandoners]*.
 
    1. Indiquez le nombre de **[!UICONTROL Membership Days]**: nombre de jours pendant lesquels le cookie d’un utilisateur reste dans l’audience. Les valeurs peuvent être comprises entre une (1) et 180.
 
@@ -54,7 +56,7 @@ Pour plus d’informations sur le remarketing dynamique et sur la mise en oeuvre
 >
 >Votre [!DNL Microsoft Advertising] les listes de remarketing dynamique peuvent faire l’objet d’un ciblage une fois qu’elles comprennent au moins 300 utilisateurs.
 
-## Modifier une audience de remarketing dynamique
+## Modification d’une audience de remarketing dynamique
 
 Vous pouvez modifier le nom et la source de données d’une [!DNL Microsoft Advertising] audience de remarketing dynamique. Vous ne pouvez pas modifier la valeur de la variable [!UICONTROL Membership Days] .
 
@@ -72,7 +74,7 @@ Vous pouvez modifier le nom et la source de données d’une [!DNL Microsoft Adv
 
    1. (Facultatif) Dans une liste de toutes les balises disponibles pour le compte réseau publicitaire, modifiez le nom de la variable [!DNL Microsoft Advertising] Balise UET incluse dans les pages web dont les utilisateurs comprendront l’audience.
 
-   1. (Facultatif) Modifiez le type de visiteur de l’audience, basé sur les actions du visiteur sur les pages web pertinentes : *[!UICONTROL General Visitors]*, *[!UICONTROL Product Searchers]*, *[!UICONTROL Product Viewers]*, *[!UICONTROL Past Buyers]* ou *[!UICONTROL Shopping Cart Abandoners]*.
+   1. (Facultatif) Modifiez le type de visiteur de l’audience, basé sur les actions du visiteur sur les pages web pertinentes : *[!UICONTROL General Visitors]*, *[!UICONTROL Product Searchers]*, *[!UICONTROL Product Viewers]*, *[!UICONTROL Past Buyers]*, ou *[!UICONTROL Shopping Cart Abandoners]*.
 
    1. Cliquez sur **[!UICONTROL Post]**.
 
@@ -94,4 +96,3 @@ Vous pouvez modifier le nom et la source de données d’une [!DNL Microsoft Adv
 >* [Créer [!DNL Google Ads] audiences de correspondance client provenant de [!DNL Adobe] audiences](google-audience-from-adobe-audience.md)
 >* [Créez un [!DNL Google Ads] audience de correspondance client provenant d’une liste de messagerie Adobe Campaign](google-audience-from-campaign-email-list.md)
 >* [Gestion des audiences de correspondance client à l’aide des listes de données client](audience-from-customer-data-list.md)
-

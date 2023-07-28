@@ -1,7 +1,9 @@
 ---
 title: Configuration d’un compte FTP pour le transfert des feuilles d’envoi groupées
 description: Découvrez comment demander un compte FTP pour télécharger des fichiers de feuille d’envoi groupé.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6867d705-b8ef-4066-81dd-8742a6f5b126
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -28,4 +30,3 @@ Les fichiers de feuille d’envoi groupé récupérés et les fichiers d’erreu
 >
 >* [A propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées](bulksheet-about.md)
 >* [Télécharger une feuille d’envoi groupé ou un fichier d’erreur corrigé](bulksheet-upload.md)
-

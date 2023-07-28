@@ -1,14 +1,16 @@
 ---
-title: Exigences relatives aux fichiers pour les fichiers de flux de conversion
+title: Exigences liées aux fichiers de flux de conversion
 description: Référencez les exigences relatives aux fichiers de flux de conversion.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7d865802-0ab9-4965-9618-6bc0667f4939
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
 
 ---
 
-# Exigences relatives aux fichiers pour les fichiers de flux de conversion
+# Exigences liées aux fichiers de flux de conversion
 
 Vous trouverez ci-dessous les exigences relatives au format de fichier, aux champs de données obligatoires et facultatifs, au nom de fichier et au protocole de transfert de fichier pour les fichiers de flux.
 
@@ -16,11 +18,11 @@ Vous trouverez ci-dessous les exigences relatives au format de fichier, aux cham
 
 Le fichier de données doit être au format texte plat (TXT), valeurs séparées par des virgules (CSV) ou valeurs séparées par des tabulations (TSV). Le fichier peut se composer d’une rangée d’en-tête et de rangées de données avec des valeurs séparées par des tabulations, des virgules ou un autre caractère (mais pas des espaces) :
 
-* **Ligne d’en-tête :** (Facultatif) La première ligne du fichier est un en-tête qui spécifie les noms de champ (ou noms de colonne) requis dans un ordre spécifique, séparés par des tabulations ou des virgules. Les noms de colonne requis incluent les propriétés de transaction dont Adobe Advertising effectue le suivi en tant que conversions.
+* **Ligne d’en-tête :** (Facultatif) La première ligne du fichier est un en-tête qui spécifie les noms de champ (ou noms de colonne) requis dans un ordre spécifique, séparés par des tabulations ou des virgules. Les noms de colonne requis incluent les propriétés de transaction dont le suivi par Adobe Advertising est effectué en tant que conversions.
 
 * **Lignes de données :** Chaque ligne suivante inclut des champs de données dans le même ordre que l’en-tête et séparés par des tabulations ou des virgules. Si le premier enregistrement n’est pas un en-tête, chaque ligne de données doit inclure tous les champs possibles, dans un ordre spécifié. Les valeurs de tous les identifiants et propriétés de transaction doivent être alphanumériques.
 
-   Lorsque plusieurs clics sur une ou plusieurs publicités conduisent à une transaction, vous devez déterminer l’identifiant de clic et l’identifiant de suivi auxquels attribuer la transaction. Un identifiant unique étant signalé pour chaque transaction, vous pouvez mettre à jour des transactions individuelles.
+  Lorsque plusieurs clics sur une ou plusieurs publicités conduisent à une transaction, vous devez déterminer l’identifiant de clic et l’identifiant de suivi auxquels attribuer la transaction. Un identifiant unique étant signalé pour chaque transaction, vous pouvez mettre à jour des transactions individuelles.
 
 ## Convention d’appellation des fichiers
 
@@ -32,10 +34,9 @@ Envoyez le fichier via le protocole de transfert SFTP, à l’aide du port 22. V
 
 >[!TIP]
 >
->Les flux de données de conversion sont traités plusieurs fois par jour. Chargez le flux quotidien dès que possible après minuit, heure locale, afin qu’Adobe Advertising puisse traiter vos données et les rendre disponibles dans l’interface utilisateur de création de rapports tôt le matin.
+>Les flux de données de conversion sont traités plusieurs fois par jour. Chargez le flux quotidien dès que possible après minuit, heure locale, afin que l’Adobe Advertising puisse traiter vos données et les rendre disponibles dans l’interface utilisateur de création de rapports tôt le matin.
 
 >[!MORELIKETHIS]
 >
 >* [Exigences de données pour les flux de données à l’aide des ID EF](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
 >* [Exigences de données pour les flux de données à l’aide d’un ID de transaction](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
-

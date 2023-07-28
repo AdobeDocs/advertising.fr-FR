@@ -1,7 +1,9 @@
 ---
 title: Création d’un flux de rapport de feuille de calcul
 description: Découvrez comment configurer des flux de feuille de calcul.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ed793de5-0df1-4fc3-be59-29adec4959f7
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -43,4 +45,3 @@ Configuration de flux de feuille de calcul à l’aide d’un format spécifique
 >* [Affichage ou enregistrement d’un fichier de flux de rapport de feuille de calcul](spreadsheet-feed-view-or-save.md)
 >* [Actualisation manuelle des flux de rapports de feuille de calcul](spreadsheet-feed-refresh.md)
 >* [Suppression de flux de rapports de feuille de calcul](spreadsheet-feed-delete.md)
-

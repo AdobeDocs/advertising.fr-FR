@@ -1,7 +1,9 @@
 ---
 title: Gérer [!DNL Google Ads] extensions d’emplacement
 description: Découvrez comment créer et gérer [!DNL Google Ads] extensions d’emplacement.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1a1aeb51-563e-453e-bd6f-ea1fa31b8f37
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Vous pouvez créer des extensions d’emplacement aux niveaux de la campagne et 
 
 ## Données de performance pour les extensions d’emplacement
 
-Le réseau publicitaire associe les clics sur une extension d’emplacement au mot-clé associé à la publicité dans laquelle l’extension est incluse.  Les données de clic ou de coût au niveau de l’extension ne sont pas disponibles dans Search, Social et Commerce. Dans [!DNL Google Ads], vous pouvez afficher le coût et cliquer sur les données dans le [!DNL Campaigns] onglet > [!DNL Ad Extensions] . Comme les extensions d’emplacement ne disposent pas d’URL pour le suivi, Search, Social et Commerce ne peut pas générer de rapports sur les données de conversion pour elles.
+Le réseau publicitaire associe les clics sur une extension d’emplacement au mot-clé associé à la publicité dans laquelle l’extension est incluse.  Les données de clic ou de coût au niveau de l’extension ne sont pas disponibles dans Search, Social et Commerce. Dans [!DNL Google Ads], vous pouvez afficher le coût et cliquer sur les données dans la variable [!DNL Campaigns] onglet > [!DNL Ad Extensions] . Comme les extensions d’emplacement ne disposent pas d’URL pour le suivi, Search, Social et Commerce ne peut pas générer de rapports sur les données de conversion pour elles.
 
 *[!DNL Google Ads]comptes uniquement*
 
@@ -62,7 +64,7 @@ Quels emplacements professionnels pour un [Lié Google Mon compte professionnel]
 
 * *[!UICONTROL Locations matching filter]:* Pour spécifier un nom d’entreprise et éventuellement jusqu’à trois catégories d’entreprises, par lesquelles filtrer les activités du compte lié.
 
-* *[!UICONTROL Locations I pick]:* Pour effectuer une sélection depuis une liste de toutes les activités du compte lié. Pour sélectionner une entreprise, cliquez sur son nom, puis sur pour la déplacer vers la colonne de droite.
+* *[!UICONTROL Locations I pick]:* Pour effectuer une sélection dans la liste de toutes les activités du compte lié. Pour sélectionner une entreprise, cliquez sur son nom, puis sur pour la déplacer vers la colonne de droite.
 
 * *[!UICONTROL Disable Locations]:* Désactive toutes les extensions d’emplacement pour les campagnes ou groupes d’annonces spécifiés.
 

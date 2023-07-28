@@ -1,7 +1,9 @@
 ---
 title: Exportation d’un fichier de feuille d’envoi groupé généré ou transféré
 description: Découvrez comment télécharger un fichier de feuille d’envoi groupé, y compris des fichiers d’erreur et des fichiers de validation de page d’entrée.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a6b5d6a6-c719-45a5-a68a-91cf05a2b4e2
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -29,4 +31,3 @@ Vous pouvez télécharger pendant 30 jours n’importe quel fichier de feuille d
 >* [Validation des landing pages dans des fichiers de feuille d’envoi groupé](bulksheet-validate-landing-pages.md)
 >* [Publier des feuilles d’envoi groupées ou des fichiers d’erreur corrigés](bulksheet-post.md)
 >* [Configuration d’un compte FTP pour le transfert des feuilles d’envoi groupées](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Synchronisation [!DNL Adobe] audiences
 description: Découvrez comment synchroniser les métadonnées, les données de hiérarchie et les données d’audience uniques pour votre [!DNL Adobe] audiences.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7d4a3c66-5013-412f-8937-d64c336751e3
+feature: Search Admin
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Direct Access]gestionnaires de clients et administrateurs uniquement*
 
-*Publicitaires avec une intégration Advertising-Adobe Audience Manager Adobe ou Advertising-Adobe Analytics Adobe uniquement*
+*Publicitaires avec une intégration Adobe Advertising-Adobe Audience Manager ou Adobe Advertising-Adobe Analytics uniquement*
 
 Vous pouvez autoriser Search, Social et Commerce à extraire des métadonnées, des données de hiérarchie et des données d’audience uniques pour l’ensemble des données d’un annonceur ou d’une agence. [!DNL Adobe] audiences dans [!UICONTROL Campaigns] > [!UICONTROL Audiences] vues. Ces informations incluent des données pour :
 
@@ -36,4 +38,3 @@ La synchronisation initiale prend environ 24 heures. Ensuite, les données sont 
 >
 >* [A propos des audiences](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
 >* [Intégration aux solutions et services Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
-

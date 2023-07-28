@@ -1,7 +1,9 @@
 ---
 title: À propos de la gestion des propriétés de transaction d’un annonceur
-description: Découvrez comment utiliser les propriétés de transaction suivies par Adobe Advertising pour un annonceur.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Découvrez comment utiliser les propriétés de transaction dont Adobe Advertising effectue le suivi pour un annonceur.
+exl-id: e5e4dc8a-04b0-4423-be1d-18f89453d264
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # À propos de la gestion des propriétés de transaction d’un annonceur
 
-Le [propriétés de transaction](/help/search-social-commerce/glossary.md#s-t) que Adobe Advertising effectue le suivi pour un annonceur, y compris [mesures de conversion et d’engagement du site synchronisées à partir d’Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md), sont utilisées dans Search, Social, &amp; Commerce et Advertising DSP.
+La variable [propriétés de transaction](/help/search-social-commerce/glossary.md#s-t) cet Adobe Advertising effectue le suivi pour un annonceur, y compris [mesures de conversion et d’engagement du site synchronisées à partir d’Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md), sont utilisées dans Search, Social, &amp; Commerce et Advertising DSP.
 
 * Dans Search, Social et Commerce, vous pouvez utiliser vos propriétés de transaction pour créer des objectifs, qui sont utilisés pour optimiser les portefeuilles. En outre, les données des propriétés de transaction peuvent être affichées en colonnes dans les vues de gestion de campagne et de portefeuille et dans les rapports.
 
@@ -25,4 +27,3 @@ Dans la liste des propriétés que vous rendez disponibles, chaque utilisateur a
 >* [Afficher les propriétés de transaction suivies pour un annonceur](transaction-property-view-tracked.md)
 >* [Modification des propriétés de transaction disponibles dans les vues de gestion et les rapports](transaction-property-edit-available.md)
 >* [Modification du nom d’affichage d’une propriété de transaction](transaction-property-edit-display-name.md)
-

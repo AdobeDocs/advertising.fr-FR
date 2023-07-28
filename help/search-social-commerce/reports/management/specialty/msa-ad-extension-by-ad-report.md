@@ -1,7 +1,8 @@
 ---
 title: "[!UICONTROL MSA Ad Extension by Ad Report]"
 description: En savoir plus sur les [!UICONTROL MSA Ad Extension by Ad Report].
-source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%

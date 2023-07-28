@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Keyword Daily Impression Share Report]"
+title: '[!UICONTROL Keyword Daily Impression Share Report]'
 description: En savoir plus sur les [!UICONTROL Keyword Daily Impression Share Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 177f7c9e-407f-4200-90a6-57b2fd569cf4
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]et [!DNL Microsoft® Advertising] comptes uniquement*
 
-Le [!UICONTROL Keyword Daily Impression Share Report] comprend des mesures de partage d’impression quotidiennes pour chaque mot-clé, le type de correspondance correspondant et le type d’appareil correspondant pour un ou plusieurs groupes publicitaires ou campagnes. Par défaut, les données comprennent une ligne pour chaque mot-clé, type de correspondance et périphérique qui a reçu au moins une impression ou un clic pour chaque groupe publicitaire applicable pour chaque jour de la période spécifiée. Par défaut, les lignes sont dans l’ordre croissant par date. Le rapport peut éventuellement inclure des données suivies par [!DNL Adobe] et les mesures dérivées.
+La variable [!UICONTROL Keyword Daily Impression Share Report] comprend des mesures de partage d’impression quotidiennes pour chaque mot-clé, le type de correspondance correspondant et le type d’appareil correspondant pour un ou plusieurs groupes publicitaires ou campagnes. Par défaut, les données comprennent une ligne pour chaque mot-clé, type de correspondance et périphérique qui a reçu au moins une impression ou un clic pour chaque groupe publicitaire applicable pour chaque jour de la période spécifiée. Par défaut, les lignes sont dans l’ordre croissant par date. Le rapport peut éventuellement inclure des données suivies par [!DNL Adobe] et les mesures dérivées.
 
 Les mesures de partage d’impression sont disponibles à 13h00 dans le fuseau horaire de l’annonceur pour la veille. Vous pouvez afficher les données des deux mois précédents.
 
@@ -49,4 +51,3 @@ Pour obtenir des descriptions de toutes les colonnes par défaut et personnalis�
 >* [À propos des rapports spécialisés](specialty-report-about.md)
 >* [Génération d’un rapport de spécialité](specialty-report-generate.md)
 >* [Paramètres des rapports de spécialité](specialty-report-settings.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Affichage ou enregistrement d’un rapport
 description: Découvrez comment afficher un rapport généré ou enregistrer un rapport en tant que fichier.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7e2e93f2-5c59-48e7-9acc-7b7ccf777f2e
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -26,7 +28,7 @@ Vous pouvez afficher un rapport dans le navigateur web, ou ouvrir ou enregistrer
 
       * **[!UICONTROL XLS]:**   Pour un [!DNL Excel] classeur avec une seule feuille de calcul (format XLSX). Le rapport comprend une feuille de calcul qui est étiquetée en haut avec les paramètres, avec une ligne pour chaque composant signalée lorsque les données du composant sont disponibles. Les lignes sans données sont omises.
 
-         Les rapports de base comprennent un total pour chaque colonne numérique.
+        Les rapports de base comprennent un total pour chaque colonne numérique.
 
       * **[!UICONTROL TSV]:** Pour un fichier TSV. Le rapport comprend les paramètres et une ligne pour chaque composant signalé.
 
@@ -42,4 +44,3 @@ Vous pouvez afficher un rapport dans le navigateur web, ou ouvrir ou enregistrer
 >* [Générer un rapport à partir d&#39;un modèle](/help/search-social-commerce/reports/management/report-generate-from-template.md)
 >* [Générer un rapport à partir d’un rapport existant](/help/search-social-commerce/reports/management/report-generate-from-existing.md)
 >* [Suppression de rapports](/help/search-social-commerce/reports/management/report-delete.md)
-

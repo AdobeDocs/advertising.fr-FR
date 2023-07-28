@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] paramètres de publicité du produit"
+title: '''[!DNL Microsoft® Advertising] paramètres de publicité du produit'
 description: Référencez les paramètres pour [!DNL Microsoft® Advertising] publicités de produits.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6a2d0549-d8fc-4ec8-bdec-7e49a43aeb7b
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -32,4 +34,3 @@ La ligne de promotion peut apparaître à différents emplacements par rapport �
 >* [[!DNL Microsoft® Advertising] paramètres de publicité multimédia](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft® Advertising] paramètres de publicité réactive (audience)](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft® Advertising] paramètres de publicité de recherche réactive](ad-settings-microsoft-rsa.md)
-

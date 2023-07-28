@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] paramètres de publicité de recherche réactive"
+title: '''[!DNL Microsoft® Advertising] paramètres de publicité de recherche réactive'
 description: Référencez les paramètres pour [!DNL Microsoft® Advertising] annonces de recherche réactive.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 4ee3c81a-38f4-448d-aea5-c062ab0a6f2a
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -53,4 +55,3 @@ Le format d’annonce de recherche réactive est disponible pour les annonces du
 >* [[!DNL Microsoft® Advertising] paramètres de publicité multimédia](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft® Advertising] paramètres de publicité de produit](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] paramètres de publicité réactive (audience)](ad-settings-microsoft-responsive.md)
-

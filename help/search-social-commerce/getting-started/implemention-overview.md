@@ -1,7 +1,9 @@
 ---
 title: Présentation de l’implémentation de Search, Social et Commerce
-description: En savoir plus
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Formation
+exl-id: 31a4cd6f-8b02-4762-8e68-c9f377389935
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Vous trouverez ci-dessous le processus général d’implémentation et d’util
 
 [!DNL Adobe] et/ou votre agence travaille avec vous comme suit :
 
-1. Évaluez vos objectifs généraux et élaborez des stratégies pour les atteindre :
+1. Évaluez vos objectifs commerciaux de haut niveau et élaborez des stratégies pour les atteindre :
 
    1. Identifiez votre modèle d’entreprise et vos objectifs marketing.
 
@@ -28,7 +30,7 @@ Vous trouverez ci-dessous le processus général d’implémentation et d’util
 
    1. Identifiez les mesures pour l’optimisation du portefeuille et la création de rapports.
 
-1. (Administrateur ou gestionnaire de compte) Configurez les comptes administratifs :
+1. (Administrateur ou gestionnaire de compte) Configurez les comptes d’administration :
 
    1. Configurez le compte de l’annonceur. Si une agence gère les données de l’annonceur, le compte de l’annonceur doit être associé au compte de l’agence.
 
@@ -42,9 +44,9 @@ Vous trouverez ci-dessous le processus général d’implémentation et d’util
 
    * Si les comptes ne contiennent pas déjà de données de campagne, ajoutez des campagnes, des groupes publicitaires, des mots-clés, des publicités et des emplacements dans Search, Social et Commerce ou depuis le réseau publicitaire.
 
-      Pour plus d’informations sur la configuration des campagnes de recherche, reportez-vous au chapitre d’aide sur &quot;Campaign Management&quot;.
+     Pour plus d’informations sur la configuration des campagnes de recherche, reportez-vous au chapitre d’aide sur &quot;Campaign Management&quot;.
 
-1. Configurez le suivi de toutes les publicités pour lesquelles vous souhaitez qu’Adobe Advertising effectue le suivi des conversions :
+1. Configurez le suivi de toutes les publicités pour lesquelles vous souhaitez que l’Adobe Advertising effectue le suivi des conversions :
 
    1. (Si nécessaire) Configurez le suivi des clics pour les publicités, et éventuellement pour les mots-clés, [!DNL Google Ads] emplacements et [!DNL Google Ads] en générant et en chargeant des URL de suivi des clics.
 
@@ -56,7 +58,7 @@ Vous trouverez ci-dessous le processus général d’implémentation et d’util
 
 1. Configurer des intégrations avec des produits supplémentaires :
 
-   1. (Publicitaires avec Adobe Analytics et/ou Adobe Audience Manager) Configurez des intégrations entre les différents comptes afin qu’Adobe Advertising puisse échanger des données avec eux.
+   1. (Publicitaires avec Adobe Analytics et/ou Adobe Audience Manager) Configurez des intégrations entre les différents comptes afin que l’Adobe Advertising puisse échanger des données avec eux.
 
       Consultez le guide sur &quot;[Intégrations avec Experience Cloud](/help/integrations/home.md).&quot;
 
@@ -70,9 +72,10 @@ Vous trouverez ci-dessous le processus général d’implémentation et d’util
 
       >[!NOTE]
       >
-      >Search, Social et Commerce effectue toujours le suivi et les rapports des données pour les campagnes qui ne sont pas affectées à des portefeuilles, mais n’optimise pas les offres pour ces derniers.
+      >Search, Social et Commerce effectue toujours le suivi et les rapports des données pour les campagnes qui ne sont pas affectées à des portefeuilles, mais cela n’optimise pas les offres pour ces derniers.
 
    1. Une fois que suffisamment de données sont disponibles pour créer une ligne de base, l’équipe peut lancer le portfolio, ce qui permet à Search, Social et Commerce d’optimiser les offres et/ou les budgets du portfolio, en fonction du type d’optimisation.
+
    Pour plus d’informations sur la configuration et le lancement de portefeuilles, voir l’aide sur &quot;Optimisation&quot;, disponible à partir de la page [!UICONTROL Help] (![Menu Aide](/help/search-social-commerce/assets/help-main-menu.png "Menu Aide")) en haut à droite de n’importe quelle page dans Search, Social et Commerce.
 
 1. Surveillez les performances de vos portefeuilles :

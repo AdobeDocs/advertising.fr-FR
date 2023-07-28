@@ -1,7 +1,9 @@
 ---
 title: Modification du nom d’affichage d’une propriété de transaction
 description: Découvrez comment modifier le nom de la propriété de transaction affiché dans les en-têtes de colonne dans vos rapports et vues de gestion.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 322be2d5-0d66-4d0c-a17a-619a1f6c0644
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -31,4 +33,3 @@ Vous ne pouvez pas supprimer un nom d’affichage existant.
 >* [À propos de la gestion des propriétés de transaction d’un annonceur](transaction-property-about.md)
 >* [Afficher les propriétés de transaction suivies pour un annonceur](transaction-property-view-tracked.md)
 >* [Modification des propriétés de transaction disponibles dans les vues de gestion et les rapports](transaction-property-edit-available.md)
-

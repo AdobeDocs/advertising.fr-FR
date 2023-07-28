@@ -1,18 +1,20 @@
 ---
-title: "[!UICONTROL Keyword Assist Report]"
+title: '[!UICONTROL Keyword Assist Report]'
 description: En savoir plus sur les [!UICONTROL Keyword Assist Report].
-source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
+exl-id: 07de2880-111b-498f-9f7f-ec15f89230ae
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
-# Le [!UICONTROL Keyword Assist Report]
+# La variable [!UICONTROL Keyword Assist Report]
 
 *Annonceurs avec suivi des clics Search, Social et Commerce et suivi des conversions à partir d’Adobe Advertising, Adobe Analytics (avec un [!DNL Analytics] intégration) ou fournie dans les flux à l’aide d’un jeton (`ef_id`) uniquement*
 
-Le [!UICONTROL Keyword Assist Report] indique les mots-clés ou les emplacements qui génèrent des clics. Le rapport présente chaque modèle de mots-clés de recherche payante ou d’emplacements ayant reçu des clics dans un chemin de conversion et indique comment ce modèle a contribué à vos conversions globales. Par exemple, vous constaterez le nombre de conversions survenues lorsque les utilisateurs ont d’abord cliqué sur une publicité résultant d’une recherche par mot-clé de &quot;chaussures en cuir&quot;, puis cliqué sur une publicité après une recherche par mot-clé de &quot;chaussures en daim&quot;, puis passé une commande. ou vous pouvez voir le nombre de conversions survenues après que des utilisateurs ont cliqué sur des publicités résultant de plus de 10 mots-clés.
+La variable [!UICONTROL Keyword Assist Report] indique les mots-clés ou les emplacements qui génèrent des clics. Le rapport présente chaque modèle de mots-clés de recherche payante ou d’emplacements ayant reçu des clics dans un chemin de conversion et indique comment ce modèle a contribué à vos conversions globales. Vous pouvez, par exemple, déterminer le nombre de conversions survenues lorsque les utilisateurs ont d’abord cliqué sur une publicité résultant d’une recherche par mot-clé de &quot;chaussures en cuir&quot;, puis cliqué sur une publicité après une recherche par mot-clé de &quot;chaussures en daim&quot;, puis passé une commande. Vous pouvez également déterminer le nombre de conversions survenues après que les utilisateurs ont cliqué sur des publicités issues de plus de 10 mots-clés.
 
 Les résultats du rapport incluent des données agrégées pour un maximum de N mots-clés de recherche payante ou de clics d’emplacement les plus anciens dans le chemin de conversion qui se sont produits dans les intervalles de recherche en amont des clics et des impressions de l’annonceur. Si, par exemple, vous sélectionnez une taille de chemin de cinq (5), le rapport se compose de chemins de conversion comprenant jusqu’aux cinq premiers mots-clés ou emplacements ayant reçu des clics, avec une ligne pour chaque modèle de clics suivi. Chaque ligne comprend le premier mot-clé ou l’emplacement dans le chemin et le dernier mot-clé ou emplacement qui a généré des conversions (même si le dernier mot-clé se trouve en dehors de la taille de chemin spécifiée). Par défaut, les lignes sont dans l’ordre croissant en fonction du nombre d’événements dans le chemin.
 
@@ -36,7 +38,7 @@ Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colo
 | [!UICONTROL Last Keyword] | Par défaut | Dernier mot-clé ou emplacement ayant généré des conversions (même si le dernier mot-clé se trouve en dehors de la taille de chemin spécifiée). |
 | \[Mesures personnalisées (dérivées) spécifiques aux annonceurs\] | Personnalisé | La valeur d’une mesure personnalisée que vous avez créée et calculée à partir de mesures existantes. |
 | \[Propriétés de transaction spécifiques aux annonceurs\] | Personnalisé | Nombre de conversions pour une propriété de transaction ou une mesure d’engagement du site spécifiée. |
-| [!UICONTROL % of Total] \[propriété de transaction\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport pour chaque propriété de transaction incluse) Le pourcentage de vos conversions globales entre les portefeuilles qui ont été attribués au mot-clé et/ou au modèle d’emplacement. |
+| [!UICONTROL % of Total] \[propriété de transaction\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport pour chaque propriété de transaction incluse) Le pourcentage de vos conversions globales entre les portfolios qui ont été attribués au mot-clé et/ou au modèle d’emplacement. |
 | [!UICONTROL 6th Keyword] to [!UICONTROL 10th Keyword] | Personnalisé | Le sixième à dixième mot-clé de recherche payante ou clics d’emplacement dans le chemin de conversion qui s’est produit dans le chemin de l’annonceur [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Remarque :</b> Si le rapport inclut des emplacements provenant de campagnes de recherche activées sur le contenu (qui n’incluent pas de mots-clés), ces colonnes indiquent les noms de groupes d’annonces applicables, tels que &quot;(contenu de groupe) Votre nom de groupe d’annonces&quot;, à la place. |
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[propriété de transaction\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport pour chaque propriété de transaction incluse) Latence moyenne en jours entre le premier événement (sur le premier mot-clé ou emplacement) et une conversion. |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[propriété de transaction\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport) Latence moyenne en jours entre le dernier événement (sur le dernier mot-clé ou emplacement) et une conversion. |
@@ -47,7 +49,7 @@ Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colo
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports d’aide](assist-report-about.md)
->* [Le [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
->* [Le [!UICONTROL Channel Assist Report]](channel-assist-report.md)
+>* [La variable [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
+>* [La variable [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [Aide aux paramètres des rapports](assist-report-settings.md)
 >* [Générer un rapport d’assistance](assist-report-generate.md)

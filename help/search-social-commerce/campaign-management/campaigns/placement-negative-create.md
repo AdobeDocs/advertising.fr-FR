@@ -1,7 +1,9 @@
 ---
 title: Créer des emplacements négatifs
 description: Découvrez comment créer des emplacements négatifs pour [!DNL Google Ads] campagnes et groupes publicitaires.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8bddfc12-de95-46c3-aa2d-bcce2a5e0de9
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -30,7 +32,7 @@ Vous pouvez créer des emplacements négatifs pour une [!DNL Google Ads] groupe 
 
    Pour spécifier plusieurs chaînes, séparez-les par des virgules ou saisissez-les sur des lignes distinctes. Les formats valides sont les suivants :
 
-   * Un site web : Saisissez une URL valide, telle que www.example.com. Reportez-vous aux formats autorisés dans la section &quot;Comment ajouter vos URL d’exclusion&quot; à l’adresse https://support.google.com/google-ads/answer/2454012.
+   * Un site web : saisissez une URL valide, telle que www.example.com. Reportez-vous aux formats autorisés dans la section &quot;Comment ajouter vos URL d’exclusion&quot; à l’adresse https://support.google.com/google-ads/answer/2454012.
 
    * Une rubrique, une catégorie ou un document vertical. Voir [[!DNL Google Ads] directives](https://support.google.com/google-ads/editor/answer/30517) et un [liste de tous les verticaux](https://developers.google.com/adwords/api/docs/appendix/verticals). Exemple : `category::Industries > Energy & Utilities > Oil & Gas`.
 
@@ -41,4 +43,3 @@ Vous pouvez créer des emplacements négatifs pour une [!DNL Google Ads] groupe 
 >* [À propos des emplacements](placement-about.md)
 >* [Gérer les emplacements pouvant faire l&#39;objet d&#39;un offre](placement-manage.md)
 >* [Modifier l’état des emplacements et des emplacements négatifs](placement-status-edit.md)
-

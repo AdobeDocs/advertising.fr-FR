@@ -1,7 +1,9 @@
 ---
 title: Suppression d’une mesure personnalisée
 description: Découvrez comment supprimer des mesures personnalisées, qui sont calculées à partir de mesures standard.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 531da1f7-6e20-4124-9e8c-e1816929c4d7
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Si la mesure personnalisée est incluse en tant que colonne dans la vue actuelle
 
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL OK]**.
 
-## Supprimer une mesure personnalisée d’un formulaire de rapport ou de modèle de rapport
+## Suppression d’une mesure personnalisée d’un formulaire de rapport ou de modèle de rapport
 
 1. Dans un formulaire de rapport ou de modèle de rapport, accédez au **[!UICONTROL Columns]** .
 
@@ -48,4 +50,3 @@ Si la mesure personnalisée est incluse en tant que colonne dans la vue actuelle
 >* [Création d’une mesure personnalisée](custom-metric-create.md)
 >* [Modification d’une mesure personnalisée](custom-metric-edit.md)
 >* [Paramètres de mesure personnalisés](custom-metric-settings.md)
-

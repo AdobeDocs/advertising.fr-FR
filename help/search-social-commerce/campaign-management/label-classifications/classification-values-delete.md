@@ -1,7 +1,9 @@
 ---
 title: Supprimer des valeurs de classification d’étiquettes
 description: Découvrez comment supprimer des valeurs pour les classifications d’étiquettes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 97c07598-4740-4e55-85e9-ef4e4e46daeb
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -40,4 +42,3 @@ La suppression des valeurs de classification d’étiquettes les rend indisponib
 >* [Affectation de valeurs de classification à des composants de compte à l’aide de feuilles d’envoi groupées](classification-values-assign-bulksheets.md)
 >* [Suppression des valeurs de classification d’étiquette des composants de compte](classification-values-remove.md)
 >* [Supprimer des classifications d’étiquettes](classification-delete.md)
-

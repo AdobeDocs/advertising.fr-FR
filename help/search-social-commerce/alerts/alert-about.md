@@ -1,7 +1,9 @@
 ---
 title: À propos des alertes personnalisées
-description: Découvrez les alertes personnalisées, notamment comment créer des modèles d’alerte et quand les alertes sont déclenchées.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Découvrez les alertes personnalisées, notamment la création de modèles d’alerte et le déclenchement des alertes.
+exl-id: d5264837-797c-4528-afbb-78e3a95a5b59
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Lorsqu’une instance d’alerte est déclenchée pour un modèle d’alerte :
 
 * L’alerte est répertoriée dans la variable [!UICONTROL Notifications] centrer dans la vue d’entité applicable, disponible dans la barre d’outils de droite. Les notifications restent dans la variable [!UICONTROL Notifications] centrer, sauf si vous les supprimez ou les marquez comme lus.
 
-Dans le [!UICONTROL Custom Alerts] vue, [!UICONTROL Alert Templates] affiche la liste de tous les modèles d’alerte créés pour le compte. vous pouvez créer, modifier, mettre en pause, réactiver et supprimer des modèles d’alerte. Le [!UICONTROL Triggered Alerts] affiche la liste des instances d’alerte générées.
+Dans le [!UICONTROL Custom Alerts] vue, [!UICONTROL Alert Templates] affiche la liste de tous les modèles d’alerte créés pour le compte. vous pouvez créer, modifier, mettre en pause, réactiver et supprimer des modèles d’alerte. La variable [!UICONTROL Triggered Alerts] affiche la liste des instances d’alerte générées.
 
 >[!MORELIKETHIS]
 >
@@ -34,4 +36,3 @@ Dans le [!UICONTROL Custom Alerts] vue, [!UICONTROL Alert Templates] affiche la 
 >* [Paramètres du modèle d’alerte personnalisé](alert-template-settings.md)
 >* [Affichage d’alertes personnalisées](alert-view.md)
 >* [Exporter des données pour des alertes personnalisées](alert-export-data.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Supprimez un rapport de données de performances ou un fichier de feuille d’envoi groupé du [!UICONTROL Downloads] menu
 description: Découvrez comment supprimer un rapport ou un fichier de feuille d’envoi groupé que vous avez téléchargé dans une vue de gestion de campagne.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bb25c2f1-3ade-44ad-b10a-b5684feffd8f
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La suppression d’un fichier de feuille d’envoi groupé le supprime de [!UICONTROL Downloads] et également à partir de la [!UICONTROL Bulksheets] vue.
+>La suppression d’un fichier de feuille d’envoi groupé le supprime de [!UICONTROL Downloads] et également depuis la liste [!UICONTROL Bulksheets] vue.
 
 1. Dans le menu principal, cliquez sur [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]et ouvrez n’importe quelle vue d’entité.
 

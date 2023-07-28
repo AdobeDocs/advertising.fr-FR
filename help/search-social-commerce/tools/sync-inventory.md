@@ -1,7 +1,9 @@
 ---
 title: Activation de la synchronisation d’inventaire supplémentaire
 description: Découvrez comment synchroniser [!DNL YouTube] campagnes et [!DNL Google Ads] et [!DNL Microsoft® Advertising] campagnes d’achats dynamiques.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 217c4677-828c-43ee-afeb-e100780c5494
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Ces types de campagnes sont facturés de la même manière que les autres types 
 
 1. Cochez la case en regard d’une option pour activer la synchronisation ou décochez une case pour désactiver la synchronisation.
 
-   *[!UICONTROL Enable Smart Shopping]:* ([!DNL Google Ads] campagnes; bêta pour [!DNL Microsoft® Advertising] campagnes) Pour synchroniser les campagnes d’achats intelligentes. Cette option est activée par défaut.
+   *[!UICONTROL Enable Smart Shopping]:* ([!DNL Google Ads] campagnes ; version bêta pour [!DNL Microsoft® Advertising] campagnes) Pour synchroniser les campagnes d’achats intelligentes. Cette option est activée par défaut.
 
    *[!UICONTROL Enable [!DNL YouTube]]:* ([!DNL Google Ads] campagnes uniquement) Pour synchroniser [!DNL YouTube] campagnes. Cette option est désactivée par défaut.
 
@@ -31,4 +33,3 @@ Ces types de campagnes sont facturés de la même manière que les autres types 
 >[!MORELIKETHIS]
 >
 >* [Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md)
-

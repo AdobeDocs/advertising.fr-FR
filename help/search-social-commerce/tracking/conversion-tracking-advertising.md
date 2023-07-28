@@ -1,22 +1,24 @@
 ---
-title: À propos des balises de suivi de conversion Adobe Advertising
-description: Découvrez comment utiliser les balises de suivi de conversion Adobe Advertising.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: À propos des balises de suivi de conversion d’Adobe Advertising
+description: Découvrez comment utiliser les balises de suivi de conversion d’Adobe Advertising.
+exl-id: 07403d60-6db2-47e7-977b-4b59c8797c3d
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
 
 ---
 
-# À propos des balises de suivi de conversion Adobe Advertising
+# À propos des balises de suivi de conversion d’Adobe Advertising
 
-Adobe Advertising effectue le suivi des conversions résultant des clics sur les publicités à l’aide des balises de suivi de conversion Adobe Advertising insérées dans les pages web qui s’ouvrent lorsqu’un événement de conversion se produit, par exemple une page &quot;succès&quot;. Les balises comprennent des informations intégrées pour envoyer les données de transaction, ainsi que le cookie Adobe Advertising de l’utilisateur, à un serveur de suivi, à partir duquel la transaction est créditée au clic ou à l’impression de publicité approprié (selon les paramètres d’attribution de conversion de l’annonceur).
+Adobe Advertising effectue le suivi des conversions résultant des clics sur les publicités à l’aide des balises de suivi de conversion d’Adobe Advertising insérées dans les pages web qui s’ouvrent lorsqu’un événement de conversion se produit, par exemple une page de &quot;succès&quot;. Les balises comprennent des informations intégrées pour envoyer les données de transaction, ainsi que le cookie d’Adobe Advertising de l’utilisateur, à un serveur de suivi, à partir duquel la transaction est créditée au clic ou à l’impression publicitaire approprié (selon les paramètres d’attribution de conversion de l’annonceur).
 
 >[!NOTE]
 >
 >Si l’utilisateur ne dispose pas d’un cookie valide, Adobe Advertising ne signale pas la conversion.
 
-Pour chaque ensemble de mesures de conversion dont vous souhaitez effectuer le suivi, vous devez créer une balise de conversion distincte. Fournissez à l’annonceur ou à l’agence la liste des pages Web sur lesquelles insérer chaque balise. Vous pouvez générer l’un des types de balises de conversion suivants. Voir &quot;[Génération d’une balise de conversion Advertising Adobe](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot; pour obtenir des instructions.
+Pour chaque ensemble de mesures de conversion dont vous souhaitez effectuer le suivi, vous devez créer une balise de conversion distincte. Fournissez à l’annonceur ou à l’agence la liste des pages Web sur lesquelles insérer chaque balise. Vous pouvez générer l’un des types de balises de conversion suivants. Voir &quot;[Génération d’une balise de conversion d’Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot; pour obtenir des instructions.
 
 * (Recommandé) Balises JavaScript (version 3 ou version 2), qui ne sont pas visibles dans les pages web.
 
@@ -29,10 +31,9 @@ Pour plus d’informations sur les différences entre les types de balises, voir
 >* Cette fonctionnalité n’ajoute pas de balises d’image ou JavaScript aux pages web de l’annonceur. Les balises doivent être ajoutées conformément à la procédure normale de mise à jour des pages web de l’annonceur.
 >* Veillez à prendre en compte le temps nécessaire à la mise en oeuvre des balises. Selon les politiques de l’entreprise, la mise en oeuvre peut prendre des semaines, voire des mois.
 
-
 ## Fonctionnalités des balises de suivi de conversion d’Adobe Advertising
 
-Le pixel de suivi de conversion permet à Adobe Advertising d’effectuer les opérations suivantes :
+Le pixel de suivi de conversion permet à l’Adobe Advertising d’effectuer les opérations suivantes :
 
 * Effectuez le suivi des données de conversion et créez des rapports au niveau des mots-clés pour les campagnes de recherche.
 
@@ -53,10 +54,9 @@ Le pixel de suivi de conversion permet à Adobe Advertising d’effectuer les op
 >[!MORELIKETHIS]
 >
 >* [Options de suivi des conversions](conversion-tracking-about.md)
->* [Génération d’une balise de conversion Advertising Adobe](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Génération d’une balise de conversion d’Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [Format des balises de suivi de conversion JavaScript version 3](format-conversion-tag-jsv3.md)
 >* [Format des balises de suivi de conversion JavaScript version 2](format-conversion-tag-jsv2.md)
 >* [Format des balises de suivi de conversion d’image](format-conversion-tag-image.md)
 >* [Questions fréquentes sur les balises de suivi de conversion et de pages vues](faqs-conversion-page-view-tracking-tags.md)
 >* [Balise de mappage de conversion JavaScript Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
-

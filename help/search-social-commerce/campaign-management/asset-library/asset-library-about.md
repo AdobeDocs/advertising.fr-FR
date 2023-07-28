@@ -1,7 +1,8 @@
 ---
 title: "À propos de [!UICONTROL Asset Library]"
 description: Découvrez la bibliothèque de ressources de vos ressources publicitaires.
-source-git-commit: 004f1c41578f0c046ccb81f17fbf812959433c87
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 0%

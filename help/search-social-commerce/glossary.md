@@ -1,7 +1,9 @@
 ---
 title: Glossaire
 description: Voir les définitions des termes clés.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
+feature: Search Introduction
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 **variation publicitaire :** N’importe quelle publicité dans un groupe publicitaire ou une stratégie publicitaire.
 
-**offre :** Terme Search, Social et Commerce pour une unité sur laquelle des offres sont placées. Pour la plupart des campagnes sur la plupart des réseaux, il s’agit d’un mot-clé et de son type de correspondance pour une campagne de recherche ou de contenu, un groupe de produits au niveau de l’unité (niveau de subdivisions le plus bas) pour une campagne d’achat ou une cible de recherche dynamique pour une campagne d’annonces de recherche dynamique. Lorsque le même mot-clé et la même combinaison de type de correspondance, le même groupe de produits ou la même cible de recherche dynamique se produisent dans plusieurs groupes publicitaires au sein d’une même campagne, toutes les instances sont considérées comme la même unité d’offre et ont donc la même offre.
+**offre :** Terme Search, Social et Commerce pour une unité sur laquelle des offres sont placées. Pour la plupart des campagnes sur la plupart des réseaux, il s’agit d’un mot-clé et de son type de correspondance pour une campagne de recherche ou de contenu, un groupe de produits au niveau de l’unité (le niveau de subdivisions le plus bas) pour une campagne d’achat ou une cible de recherche dynamique pour une campagne publicitaire de recherche dynamique. Lorsque le même mot-clé et la même combinaison de type de correspondance, le même groupe de produits ou la même cible de recherche dynamique se produisent dans plusieurs groupes publicitaires au sein d’une même campagne, toutes les instances sont considérées comme la même unité d’offre et ont donc la même offre.
 
 **Contrainte d’unité d’offre :** Voir &quot;Contrainte&quot;.
 
@@ -24,11 +26,11 @@ ht-degree: 0%
 
 **campaign :** Ensemble de groupes d’annonces d’un seul compte publicitaire qui partagent un budget, une période, un ciblage et d’autres paramètres. **Remarque :** [!DNL Baidu] ne possède pas le concept de campagnes, mais Search, Social et Commerce crée des pseudo-campagnes pour chaque ensemble de groupes d’annonces associés dans [!DNL Baidu] qui sont synchronisés dans Search, Social et Commerce.
 
-**champ sensible à la casse :** Une requête ou un champ sensible à la casse traite les lettres majuscules (C, par exemple) différemment des lettres minuscules (c, par exemple). Par exemple, Car est traité comme une valeur différente de Car.
+**champ sensible à la casse :** Une requête ou un champ sensible à la casse traite les majuscules (C, par exemple) différemment des minuscules (c, par exemple). Par exemple, Car est traité comme une valeur différente de Car.
 
 **cliquez sur :** Un seul utilisateur clique sur ou dans une publicité en ligne.
 
-**cliquez sur l’intervalle de recherche en amont :** Paramètre au niveau de l’annonceur qui spécifie le nombre de jours après un clic payant dans une série d’événements au cours desquels le clic peut être attribué à une conversion.
+**cliquez sur la fenêtre rétroactive :** Paramètre au niveau de l’annonceur qui spécifie le nombre de jours après un clic payant dans une série d’événements au cours desquels le clic peut être attribué à une conversion.
 
 **heure du clic :** Heure à laquelle un utilisateur final disposant d’une adresse IP unique clique pour la première fois sur une publicité dans le réseau publicitaire.
 
@@ -38,7 +40,7 @@ ht-degree: 0%
 
 **contrainte :** (Publicitaires avec portefeuilles ; applicable aux unités d’offre dans les portefeuilles standard uniquement) Règle pour l’enchère sur un mot-clé ou une publicité spécifique. Il remplace toutes les limites au niveau du portefeuille et la stratégie d’offre recommandée.
 
-**conversion :** l’achèvement d’une action après qu’un utilisateur final a cliqué sur une publicité, généralement capturée en tant que mesure ; les exemples incluent les inscriptions ou les achats. Une conversion peut comporter un ou plusieurs événements de transaction, mais les termes &quot;conversion&quot; et &quot;transaction&quot; sont souvent interchangeables.
+**conversion :** Fin d’une action après qu’un utilisateur final a cliqué sur une publicité, généralement capturée sous forme de mesure. Par exemple, des inscriptions ou des achats. Une conversion peut comporter un ou plusieurs événements de transaction, mais les termes &quot;conversion&quot; et &quot;transaction&quot; sont souvent interchangeables.
 
 **suivi des conversions :** Le suivi des conversions utilise des cookies pour effectuer le suivi a) des clics sur les publicités d’un annonceur sur les réseaux publicitaires et b) des transactions résultantes sur le site web de l’annonceur.
 
@@ -46,7 +48,7 @@ ht-degree: 0%
 
 **Modèle de coût :** (Publicitaires avec portefeuilles) La technologie Search, Social, &amp; Commerce qui prévoit le volume des coûts, l’offre requise pour gagner chaque poste ou emplacement, et le CPC (recherche) ou CPM (affichage) pour chaque unité d’offre à l’aide de données historiques et de techniques de prévision mathématique.
 
-**couverture du modèle de coût :** (Publicitaires avec portefeuilles) Nombre et/ou pourcentage d’unités d’offre ayant reçu au moins une impression au cours des sept derniers jours, de sorte que la fonctionnalité d’optimisation puisse créer des modèles de coûts. Toutes les unités d&#39;enchères ne disposent pas de modèles de coûts; ceux qui comptent dans la couverture du modèle de coût.
+**couverture du modèle de coût :** (Publicitaires avec portefeuilles) Nombre et/ou pourcentage d’unités d’offre ayant reçu au moins une impression au cours des sept derniers jours, de sorte que la fonctionnalité d’optimisation puisse créer des modèles de coûts. Toutes les unités d’offre n’ont pas de modèle de coût ; celles qui comptent dans la couverture du modèle de coût.
 
 **demi-vie du modèle de coût :** (Publicitaires avec portefeuilles) Le nombre de jours avant la date actuelle pour laquelle les données de coût sont considérées plus récentes et donc plus pertinentes pour les modèles de coûts.
 
@@ -102,7 +104,7 @@ ht-degree: 0%
 
 ## M-N {#m-n}
 
-**coût marginal :** Modification du coût total lorsque la quantité change d’une unité.
+**coût marginal :** Changement du coût total lorsque la quantité change d’une unité.
 
 **type de correspondance :** Option qui spécifie la manière dont les termes de recherche sont associés aux publicités. Les options varient selon le réseau publicitaire.
 
@@ -116,7 +118,7 @@ ht-degree: 0%
 
 **transaction orpheline :** Événement de transaction qui ne peut pas être associé à un mot-clé ou à une publicité spécifique.
 
-**pixel:** Image transparente d’un pixel par un pixel incorporée sur une page web à des fins de suivi. Les balises de suivi de conversion Adobe Advertising comprennent un pixel d’image HTML ou du code JavaScript pour effectuer le suivi des clics et des transactions qui en résultent.
+**pixel:** Image transparente d’un pixel par un pixel incorporée sur une page web à des fins de suivi. Les balises de suivi de conversion d’Adobe Advertising incluent un pixel d’image de HTML ou du code JavaScript pour effectuer le suivi des clics et des transactions qui en résultent.
 
 **placement :** Emplacement sur un réseau d’affichage dans lequel vos publicités peuvent apparaître. Il peut s’agir d’un site web entier, d’un sous-ensemble d’un site web ou d’une position publicitaire sur une page spécifique.
 
@@ -154,7 +156,7 @@ ht-degree: 0%
 
 **stratégie de dépenses :** (Publicitaires avec portefeuilles) Stratégie sélectionnée pour optimiser les enchères sur mots-clés/publicités pour un portefeuille.
 
-**`s_kwcid`:** Code de suivi qui permet à Adobe Advertising de partager des données sur les campagnes de recherche avec Adobe Analytics.
+**`s_kwcid`:** Code de suivi qui permet à l’Adobe Advertising de partager des données sur les campagnes de recherche avec Adobe Analytics.
 
 **URL de tracking :** Un modèle de suivi ou une URL de destination avec des paramètres supplémentaires ajoutés pour effectuer le suivi des informations sur les clics sur la publicité. Il peut inclure une URL de redirection permettant d’envoyer d’abord les utilisateurs à un serveur de suivi avant de les rediriger vers la page d’entrée de l’annonceur.
 
@@ -180,8 +182,8 @@ ht-degree: 0%
 
 * toutes les recettes, en tenant compte a) des poids affectés à chaque propriété de transaction dans l’objectif du portefeuille et, le cas échéant, b) du poids des affichages publicitaires/sociaux.
 
-* tous les clics, que la fonctionnalité d’optimisation prend en compte comme une propriété de transaction unique et est pondérée en fonction de la valeur de clic de l’objectif.
+* tous les clics, que la fonctionnalité d’optimisation prend en compte comme une propriété de transaction unique et est pondérée en fonction de la valeur de clic pour l’objectif.
 
-**XLS** ou **XLSX**: Format de fichier binaire pour [!DNL Microsoft Office Excel] classeurs .
+**XLS** ou **XLSX**: format de fichier binaire pour [!DNL Microsoft Office Excel] classeurs .
 
 ## Y-Z {#y-z}

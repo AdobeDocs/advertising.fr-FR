@@ -1,7 +1,9 @@
 ---
 title: Suivi des conversions Adobe Analytics
 description: Découvrez comment utiliser le suivi de conversion Adobe Analytics pour vos campagnes dans Adobe Advertising.
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *Publicitaires avec une intégration Adobe Advertising-Adobe Analytics uniquement*
 
-Pour les annonceurs disposant d’une intégration Adobe Advertising-Adobe Analytics, Advertising Cloud peut connecter vos clics publicitaires et vos impressions à l’aide des mesures d’engagement et de conversion du site suivies par [!DNL Analytics] lorsque vous utilisez une redirection avec jeton (`ef_id` ) dans vos URL de suivi des clics pour votre [enchères](/help/search-social-commerce/glossary.md#a-b). Le [!DNL Analytics] les données sont automatiquement envoyées à Advertising Cloud par le biais d’un fichier de flux quotidien.
+Pour les annonceurs disposant d’une intégration Adobe Advertising-Adobe Analytics, Advertising Cloud peut connecter vos clics publicitaires et vos impressions à l’aide des mesures d’engagement et de conversion du site suivies par [!DNL Analytics] lorsque vous utilisez une redirection avec jeton (`ef_id` ) dans vos URL de suivi des clics pour votre [enchères](/help/search-social-commerce/glossary.md#a-b). La variable [!DNL Analytics] les données sont automatiquement envoyées à Advertising Cloud par le biais d’un fichier de flux quotidien.
 
 Voir &quot;[Présentation de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}&quot; pour plus d’informations sur l’intégration.
 
@@ -24,7 +26,7 @@ Voir &quot;[Présentation de [!DNL Analytics for Advertising]](https://experienc
 
 1. Dans [!DNL Analytics], votre équipe de mise en oeuvre de Search, Social et Commerce modifie les paramètres de configuration suivants pour chaque suite de rapports :
 
-   * L’expiration de la variable `ef_id` L’eVar a été modifié pour correspondre à l’intervalle de recherche en amont des clics de l’annonceur pour Adobe Advertising.
+   * L’expiration de la variable `ef_id` L’eVar a été modifié pour correspondre à l’intervalle de recherche en amont des clics de l’annonceur pour l’Adobe Advertising.
 
    * Identifiant utilisateur de l’Adobe Advertising.
 
@@ -38,7 +40,7 @@ Voir &quot;[Présentation de [!DNL Analytics for Advertising]](https://experienc
 
    Cette étape préfixe une redirection vers le serveur de suivi d’Adobe Advertising (sauf pour [!DNL Google Ads] et [!DNL Microsoft Advertising] publicités dans les navigateurs qui prennent en charge le suivi parallèle) et ajoute un paramètre &quot;ef_id&quot; renseigné dynamiquement à l’URL au moment du clic publicitaire. Lorsque le suivi parallèle s’applique, les utilisateurs finaux sont envoyés directement de votre publicité vers votre URL finale, et l’URL de votre modèle de suivi (avec mesure des clics) est chargée en arrière-plan.
 
-Une fois l’intégration terminée, Search, Social et Commerce reçoit automatiquement toutes les données d’événement sur la page qui font l’objet d’un suivi dans [!DNL Analytics] pour les suites de rapports qui ont été configurées.
+Une fois l’intégration terminée, Search, Social et Commerce reçoit automatiquement toutes les données d’événement sur la page suivies dans [!DNL Analytics] pour les suites de rapports qui ont été configurées.
 
 >[!MORELIKETHIS]
 >

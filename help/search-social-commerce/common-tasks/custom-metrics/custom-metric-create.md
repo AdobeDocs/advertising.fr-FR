@@ -1,7 +1,9 @@
 ---
 title: Création d’une mesure personnalisée
 description: Découvrez comment configurer des mesures personnalisées, qui sont calculées à partir de mesures standard.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 14a768f5-3c7f-4e8e-bcd0-66b176052a25
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 1%
@@ -52,4 +54,3 @@ ht-degree: 1%
 >* [Modification d’une mesure personnalisée](custom-metric-edit.md)
 >* [Suppression d’une mesure personnalisée](custom-metric-delete.md)
 >* [Paramètres de mesure personnalisés](custom-metric-settings.md)
-

@@ -1,7 +1,9 @@
 ---
 title: A propos de l’automatisation de la gestion des publicités à l’aide des flux d’inventaire
 description: Découvrez la gestion avancée des campagnes, qui vous permet de gérer automatiquement la structure du compte et de diffuser des publicités dynamiques en fonction des données de votre inventaire de produits ou de services.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+exl-id: 2cbf08ce-728e-4d5b-b0a4-01aa244a6e29
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
 
-Le [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] vue pour la gestion avancée des campagnes vous permet de créer et de mettre à jour automatiquement la structure de votre compte réseau publicitaire et de diffuser des publicités dynamiques en fonction des données de votre inventaire de produits ou de services. Vous pouvez charger de nouveaux fichiers avec des données de produit tous les jours ou aussi souvent que vous le souhaitez, ou créer directement un lien vers une [!DNL Google] ou [!DNL Microsoft®] compte du centre commercial. Utilisez la fonctionnalité pour :
+La variable [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] la vue pour la gestion avancée des campagnes vous permet de créer et de mettre à jour automatiquement la structure de votre compte réseau publicitaire et de diffuser des publicités dynamiques en fonction des données de votre inventaire de produits ou de services. Vous pouvez charger de nouveaux fichiers avec des données de produit tous les jours ou aussi souvent que vous le souhaitez, ou créer directement un lien vers une [!DNL Google] ou [!DNL Microsoft®] compte du centre commercial. Utilisez la fonctionnalité pour :
 
 * Créez de nouvelles campagnes à partir de sources de données classées.
 
@@ -24,12 +26,12 @@ Pour configurer vos publicités, créez des modèles de flux d’inventaire cont
 
 | [!UICONTROL Ad Variation] Section du modèle | Modificateurs dans Search, Social et Commerce | Contenu du flux | Publicités résultantes |
 |----|----|----|----|
-| Titre : Acheter le \{ haut de gamme<i>Catégorie de produits</i>\} &lt;<i>CheapList</i>>.<br><br>Description 1 : Énorme inventaire de \{<i>Nom du produit</i>\}.<br><br>Description 2 : Disponible à l’adresse \{<i>Pourcentage de remise</i>\} % de remise. | Valeurs du groupe de modificateurs &quot;CheapList&quot; :<br><br>&quot;pour pas cher&quot;<br><br>&quot;avec remise&quot; | Catégorie de produits, Nom du produit, Pourcentage de remise<br>électronique,iPods,10<br><br>vêtements,chemises,15<br><br><b>Remarque :</b> Vous pouvez séparer les valeurs par des virgules ou des onglets. | <u>Achetez de l&#39;électronique haut de gamme pour un prix abordable.</u><br>Un énorme stock de tablettes. Disponible avec remise de 10 %.<br><br><u>Achetez de l&#39;électronique haut de gamme à moindre prix.</u><br>Un énorme stock de tablettes. Disponible avec remise de 10 %.<br><br><u>Achetez des vêtements haut de gamme pour bon marché.</u><br>Un énorme stock de chemises. Disponible avec remise de 15 %.<br><br><u>Achetez des vêtements haut de gamme à prix réduit.</u><br>Un énorme stock de chemises. Disponible avec remise de 15 %. |
+| Titre : Acheter un \{ haut de gamme<i>Catégorie de produits</i>\} &lt;<i>CheapList</i>>.<br><br>Description 1 : immense inventaire de \{<i>Nom du produit</i>\}.<br><br>Description 2 : Disponible à l’adresse \{<i>Pourcentage de remise</i>\} % de remise. | Valeurs du groupe de modificateurs &quot;CheapList&quot; :<br><br>&quot;pour pas cher&quot;<br><br>&quot;avec remise&quot; | Catégorie de produits, Nom du produit, Pourcentage de remise<br>électronique,iPods,10<br><br>vêtements,chemises,15<br><br><b>Remarque :</b> Vous pouvez séparer les valeurs par des virgules ou des onglets. | <u>Achetez de l&#39;électronique haut de gamme pour un prix abordable.</u><br>Un énorme stock de tablettes. Disponible avec remise de 10 %.<br><br><u>Achetez de l&#39;électronique haut de gamme à moindre prix.</u><br>Un énorme stock de tablettes. Disponible avec remise de 10 %.<br><br><u>Achetez des vêtements haut de gamme pour bon marché.</u><br>Un énorme stock de chemises. Disponible avec remise de 15 %.<br><br><u>Achetez des vêtements haut de gamme à prix réduit.</u><br>Un énorme stock de chemises. Disponible avec remise de 15 %. |
 
 Une fois les publicités générées, vous pouvez éventuellement les vérifier, puis les publier sur le réseau publicitaire.
 
 >[!NOTE]
->Pour créer ou modifier des données de campagne en bloc à l’aide de fichiers de feuille de calcul, reportez-vous à la section &quot;[A propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).&quot;
+>Pour créer ou modifier des données de campagne en bloc à l’aide de fichiers de feuille de calcul, voir &quot;[A propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).&quot;
 
 ## Workflow de gestion des données de campagne à l’aide de flux d’inventaire
 
@@ -41,13 +43,13 @@ Testez d’abord au moins un fichier de flux ou un compte, puis automatisez enti
 
    Si vous utilisez le répertoire FTP, le service de flux recherche les nouveaux fichiers toutes les deux heures.
 
-   Sinon, vous pouvez charger manuellement des fichiers dans le [!UICONTROL Advanced (ACM)] vue.
+   Sinon, vous pouvez charger manuellement des fichiers dans la variable [!UICONTROL Advanced (ACM)] vue.
 
 1. Définir [paramètres de traitement des données de flux](feed-settings-manage.md#feed-data-settings).
 
    Si vous utilisez le protocole FTP, ne publiez pas automatiquement des données sur les réseaux publicitaires au début. Une fois que vous avez vérifié la sortie de votre premier fichier et que vous êtes satisfait des résultats, vous pouvez modifier les paramètres.
 
-1. Chargez un fichier de données dans le répertoire FTP, [chargement manuel d’un fichier de données](feed-files-manage.md) dans le [!UICONTROL Advanced (ACM) view]ou [activer l’accès à un compte Google ou Microsoft® de centre commercial ;](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. Chargez un fichier de données dans le répertoire FTP, [charger manuellement un fichier de données](feed-files-manage.md) dans le [!UICONTROL Advanced (ACM) view], ou [activer l’accès à un compte Google ou Microsoft® de centre commercial ;](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 Pour charger manuellement des fichiers, vous pouvez attendre de créer un modèle qui utilise le fichier de données.
 
@@ -61,7 +63,7 @@ Pour charger manuellement des fichiers, vous pouvez attendre de créer un modèl
 
 1. [Publier les données](propagated-data-post.md) aux comptes réseau publicitaires appropriés.
 
-1. (Si vous utilisez FTP ou un compte de centre commercial pour transférer vos données ; (facultatif) Après avoir validé la sortie du premier fichier de flux, [modification des paramètres](feed-settings-manage.md#feed-data-settings) pour propager automatiquement les données suivantes par le biais des modèles associés et les publier sur les réseaux publicitaires appropriés.
+1. (Si vous utilisez FTP ou un compte de centre commercial pour transférer vos données, facultatif) Après avoir validé la sortie du premier fichier de flux, [modification des paramètres](feed-settings-manage.md#feed-data-settings) pour propager automatiquement les données suivantes par le biais des modèles associés et les publier sur les réseaux publicitaires appropriés.
 
 1. (Si vous disposez de nouveaux fichiers de données) Au besoin, téléchargez de nouveaux fichiers, propagez les données par le biais de modèles, puis publiez les données sur le réseau publicitaire approprié. Vous pouvez éventuellement propager et publier les données en une seule étape.
 

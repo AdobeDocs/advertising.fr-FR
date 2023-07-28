@@ -2,7 +2,8 @@
 title: À propos des rapports spécialisés
 description: En savoir plus sur les rapports spécialisés.
 exl-id: a5232434-cdb5-451f-aa65-6536c97c4a52
-source-git-commit: 8d4bf0b53c8ddbc11111879c7e73adf3995e0ad8
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # À propos des rapports spécialisés
 
-La plupart des rapports spécialisés se composent uniquement des données collectées par les réseaux publicitaires. Le [!UICONTROL Google Ads Shopping Performance Report], [!UICONTROL Keyword Impression Share Report], et [!UICONTROL Campaign Impression Share Report], toutefois, peut inclure les données de recettes collectées par [!DNL Adobe]. Tous les utilisateurs ont accès aux rapports spécialisés.
+La plupart des rapports spécialisés se composent uniquement des données collectées par les réseaux publicitaires. La variable [!UICONTROL Google Ads Shopping Performance Report], [!UICONTROL Keyword Impression Share Report], et [!UICONTROL Campaign Impression Share Report], toutefois, peut inclure les données de recettes collectées par [!DNL Adobe]. Tous les utilisateurs ont accès aux rapports spécialisés.
 
 >[!NOTE]
 >
@@ -19,31 +20,31 @@ La plupart des rapports spécialisés se composent uniquement des données colle
 
 ## Types de rapports spécialisés
 
-* [Le [!UICONTROL AdWords and Bing Audience Target Report]](/help/search-social-commerce/reports/management/specialty/adwords-bing-audience-target-report.md)
+* [La variable [!UICONTROL AdWords and Bing Audience Target Report]](/help/search-social-commerce/reports/management/specialty/adwords-bing-audience-target-report.md)
 
-* [Le [!UICONTROL AdWords Conversion Report]](/help/search-social-commerce/reports/management/specialty/adwords-conversion-report.md)
+* [La variable [!UICONTROL AdWords Conversion Report]](/help/search-social-commerce/reports/management/specialty/adwords-conversion-report.md)
 
-* [Le [!UICONTROL AdWords Geo Report]](/help/search-social-commerce/reports/management/specialty/adwords-geo-report.md)
+* [La variable [!UICONTROL AdWords Geo Report]](/help/search-social-commerce/reports/management/specialty/adwords-geo-report.md)
 
-* [Le [!UICONTROL AdWords Search Query Report]](/help/search-social-commerce/reports/management/specialty/adwords-search-query-report.md)
+* [La variable [!UICONTROL AdWords Search Query Report]](/help/search-social-commerce/reports/management/specialty/adwords-search-query-report.md)
 
-* [Le [!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/reports/management/specialty/adwords-shopping-performance-report.md)
+* [La variable [!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/reports/management/specialty/adwords-shopping-performance-report.md)
 
-* [Le [!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-geo-report.md)
+* [La variable [!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-geo-report.md)
 
-* [Le [!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-search-query-report.md)
+* [La variable [!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-search-query-report.md)
 
-* [Le [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
+* [La variable [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
 
-* [Le [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
+* [La variable [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
 
-* [Le [!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
+* [La variable [!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
 
-* [Le [!UICONTROL MSA Ad Extension by Ad Report]](msa-ad-extension-detail-report.md)
+* [La variable [!UICONTROL MSA Ad Extension by Ad Report]](msa-ad-extension-detail-report.md)
 
-* [Le [!UICONTROL MSA Ad Extension by Keyword Report]](msa-ad-extension-by-keyword-report.md)
+* [La variable [!UICONTROL MSA Ad Extension by Keyword Report]](msa-ad-extension-by-keyword-report.md)
 
-* [Le [!UICONTROL MSA Ad Extension Detail Report]](msa-ad-extension-by-ad-report.md)
+* [La variable [!UICONTROL MSA Ad Extension Detail Report]](msa-ad-extension-by-ad-report.md)
 
 >[!MORELIKETHIS]
 >

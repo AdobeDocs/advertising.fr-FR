@@ -1,7 +1,8 @@
 ---
 title: Création et chargement de ressources
 description: Découvrez comment créer des ressources d’image, vidéo et texte réutilisables et les télécharger dans votre [!DNL Google Ads] bibliothèque de ressources au niveau du compte.
-source-git-commit: 004f1c41578f0c046ccb81f17fbf812959433c87
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 1. Spécifiez chaque type de ressource :
 
-   1. Sélectionnez la **[!UICONTROL Asset Type]**.
+   1. Sélectionnez la variable **[!UICONTROL Asset Type]**.
 
    1. Téléchargez ou saisissez la ressource :
 
@@ -30,7 +31,7 @@ ht-degree: 0%
 
          1. Cliquez sur **[!UICONTROL +]** et sélectionnez des images sur votre appareil ou votre réseau.
 
-            Chaque image peut contenir, au maximum, 10 Mo. Vous pouvez télécharger un maximum de 200 Mo d’images à la fois.
+            Chaque image peut atteindre 10 Mo au maximum. Vous pouvez télécharger un maximum de 200 Mo d’images à la fois.
 
          1. Pour chaque image :
 
@@ -42,7 +43,7 @@ ht-degree: 0%
 
             1. (Facultatif) Sélectionnez des proportions supplémentaires, puis repositionnez et redimensionnez éventuellement l’image selon les besoins pour chaque rapport d’aspect sélectionné.
 
-               Une ressource est créée pour chaque rapport d’aspect sélectionné.
+               Une ressource est créée pour chaque format sélectionné.
 
             1. Cliquez sur **[!UICONTROL Proceed]**.
 

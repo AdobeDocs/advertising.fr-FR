@@ -1,19 +1,20 @@
 ---
-title: FAQ sur les rapports personnalisés
+title: Questions fréquentes sur les rapports personnalisés
 description: Découvrez les réponses aux questions courantes sur les rapports de performances, notamment la résolution des problèmes liés aux données.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
-source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '3919'
 ht-degree: 0%
 
 ---
 
-# FAQ sur les rapports personnalisés
+# Questions fréquentes sur les rapports personnalisés
 
 ## Questions générales
 
-+++Que se passe-t-il si la période du rapport commence avant que les données du rapport ne soient disponibles ?
++++Que faire si la période du rapport commence avant que les données du rapport ne soient disponibles ?
 Le rapport est généré, mais il ne comprend que les données des dates pour lesquelles des données sont disponibles. Pour plus d’informations sur le moment où les données sont disponibles pour chaque type de rapport, voir &quot;[Données utilisées pour les rapports](data-used-for-reports.md).&quot;
 +++
 
@@ -28,19 +29,19 @@ Lorsque vous signalez des conversions par date de clic, les données incluent le
 +++Que se passe-t-il si je modifie l’intervalle de recherche en amont des clics ou l’intervalle de recherche en amont des impressions ?
 (Publicitaires avec service de suivi de conversion Advertising basé sur les pixels uniquement) Les données relatives aux événements résultant du clic initial sont collectées pour une période plus longue ou plus courte.
 
-d’un annonceur ; [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j) déterminer le nombre de jours après un clic payant ou une impression d’affichage (respectivement) au cours de laquelle l’événement peut être attribué à une conversion ; La modification d’une valeur sur une période plus longue ou plus courte peut s’avérer importante pour les annonceurs qui disposent d’un clic sur les recettes particulièrement court ou long ou qui affichent des périodes d’impression sur les recettes.
+d’un annonceur [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j) déterminer le nombre de jours après un clic payant ou une impression d’affichage (respectivement) au cours de laquelle l’événement peut être attribué à une conversion ; La modification d’une valeur sur une période plus longue ou plus courte peut s’avérer importante pour les annonceurs qui disposent d’un clic sur les recettes particulièrement court ou long ou qui affichent des périodes d’impression sur les recettes.
 
-**Bonne pratique :** Assurez-vous que les intervalles de recherche en amont sont plus longs que les heures de clic vers le chiffre d’affaires et d’affichage d’impression vers le chiffre d’affaires pour la plupart de vos mots-clés ou publicités. Lorsqu’elles sont plus courtes, certaines conversions ne sont pas associées au clic ou à l’impression initial.
+**Bonne pratique :** Assurez-vous que les intervalles de recherche en amont sont plus longs que les heures de clic vers le chiffre d’affaires et d’affichage d’impression vers le chiffre d’affaires pour la plupart de vos mots-clés ou annonces. Lorsqu’elles sont plus courtes, certaines conversions ne sont pas associées au clic ou à l’impression initial.
 +++
 
 +++Comment savoir quelles conversions ont résulté d’une [!DNL Google Ads] extension de publicité ou liste de produits ?
-Vous pouvez voir les conversions qui ont résulté d’un clic sur une [!DNL Google Ads] extension de publicité (plutôt que sur la publicité elle-même) ou sur une liste de produits en générant une [!UICONTROL Transaction Report]. Le [!UICONTROL Link Type] La valeur de colonne indique le type et le titre d’un lien sur lequel l’utilisateur a cliqué :
+Vous pouvez voir les conversions qui ont résulté d’un clic sur une [!DNL Google Ads] extension de publicité (plutôt que sur la publicité elle-même) ou sur une liste de produits en générant une [!UICONTROL Transaction Report]. La variable [!UICONTROL Link Type] La valeur de colonne indique le type et le titre d’un lien sur lequel l’utilisateur a cliqué :
 
 * Les listes de produits sont répertoriées comme `pla:<product ID>`, par exemple `pla:8525822`.
 
 * Les liens de site sont répertoriés comme `sl:<Sitelink text>`, par exemple `sl:See Current Offers`.
 
-  Vous pouvez également identifier un lien de site si vous incluez la variable [!UICONTROL Tracking URL] dans le rapport. Le [!UICONTROL Tracking URL] pour un lien de site comprend l’attribut `&ev_ltx=sl:<link-name>`.
+  Vous pouvez également identifier un lien de site si vous incluez la variable [!UICONTROL Tracking URL] dans le rapport. La variable [!UICONTROL Tracking URL] pour un lien de site comprend l’attribut `&ev_ltx=sl:<link-name>`.
 
 >[!NOTE]
 >
@@ -48,7 +49,7 @@ Vous pouvez voir les conversions qui ont résulté d’un clic sur une [!DNL Goo
 
 +++
 
-+++&quot;[!UICONTROL Keyword]&quot; dans mon rapport, la colonne comprend une valeur &quot;(contenu du groupe) &lt;*nom du groupe publicitaire*>.&quot;
++++Le[!UICONTROL Keyword]&quot; dans mon rapport, la colonne comprend une valeur &quot;(contenu du groupe) &lt;*nom du groupe publicitaire*>.&quot;
 Lorsque la ligne comprend des données pour des campagnes de recherche activées sur le contenu, des campagnes d’affichage ou des campagnes sur les réseaux sociaux (qui n’incluent pas de mots-clés), la variable [!UICONTROL Keyword] affiche le nom du groupe d’annonces concerné à la place.
 +++
 
@@ -78,7 +79,7 @@ Si vous générez un rapport plusieurs fois en utilisant les mêmes paramètres 
 
   Si vous utilisez le paramètre de rapport &quot;[!UICONTROL Conversions based on click date],&quot; la plage de dates spécifiée s’applique à la date du clic au lieu de la date de la transaction. Si le rapport utilise également la règle d’attribution &quot;Premier événement&quot; ou &quot;Dernier événement&quot;, alors le premier ou le dernier événement ayant entraîné la conversion peut se trouver en dehors de la période spécifiée. Supposons, par exemple, qu’un utilisateur ait cliqué sur Mot-clé_1 le 30 avril, sur Mot-clé_2 le 20 mai et ait effectué une conversion le 21 mai. Si le rapport utilise le[!UICONTROL First Event]&quot;règle d’attribution et plage de dates du 1er au 21 mai, puis le premier événement (un clic sur Mot-clé_1 le 30 avril) n’est pas inclus dans le rapport. Si vous exécutez le rapport avec la même période, mais en utilisant le[!UICONTROL Last Event]&quot;règle d’attribution, la conversion est incluse dans le rapport, car le dernier clic s’est produit au cours de la période spécifiée.
 
-* La sélection de filtre de portefeuille exclut certains des événements ayant conduit à la conversion.
+* La sélection de filtre de portefeuille exclut certains des événements qui ont conduit à la conversion.
 
   Si vous créez des rapports sur un sous-ensemble de portefeuilles, il se peut que vous n’incluiez pas les campagnes qui incluaient l’événement auquel la conversion a été attribuée sous l’une des règles d’attribution. Supposons, par exemple, qu’un utilisateur clique sur Mot-clé_1 à partir de Portfolio_1, clique sur Mot-clé_2 à partir de Portfolio_2, puis effectue une conversion. Si le rapport utilise le[!UICONTROL First Event]&quot;règle d’attribution, alors Portfolio_1 doit être inclus pour que la conversion soit incluse dans le rapport. Cependant, si le rapport utilise la règle d’attribution &quot;Dernier événement&quot;, alors Portfolio_2 doit être inclus.
 
@@ -91,12 +92,12 @@ Si vous générez un rapport plusieurs fois en utilisant les mêmes paramètres 
 +++Les champs de données individuels sont incorrects, bien que les totaux soient corrects.
 Cette situation peut se produire lorsque les formats de mesure utilisent des entiers :
 
-* Si vous créez un [mesure personnalisée](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) avec le format *Nombre sans décimales* (qui affiche les données sous forme d’entiers) et les inclut dans un affichage ou un rapport qui utilise une règle d’attribution de conversion pondérée ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More]ou [!UICONTROL Even Distribution]), la sortie s’affiche sous forme d’entiers, et non de décimales. Dans ce cas, des champs de données individuels peuvent être incorrects, bien que les totaux soient corrects. Par exemple, si une commande est divisée uniformément entre trois événements, une commande (au lieu de 0,33) est attribuée à chacun des trois événements. Pour résoudre le problème, [modification du format de mesure](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md) to *Nombre à 2 points décimaux*.
+* Si vous créez un [mesure personnalisée](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) avec le format *Nombre sans décimales* (qui affiche les données sous forme d’entiers) et les inclut dans un affichage ou un rapport qui utilise une règle d’attribution de conversion pondérée ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More], ou [!UICONTROL Even Distribution]), la sortie s’affiche sous forme d’entiers, et non de décimales. Dans ce cas, des champs de données individuels peuvent être incorrects, bien que les totaux soient corrects. Par exemple, si une commande est divisée uniformément entre trois événements, une commande (au lieu de 0,33) est attribuée à chacun des trois événements. Pour résoudre le problème, [modification du format de mesure](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md) to *Nombre à 2 décimales*.
 
-* De même, si une mesure de recettes est envoyée sous forme d’entier, le même problème se produit. (Le format des recettes est contrôlé par la balise de conversion qui envoie les données.) Pour résoudre le problème, [création d’une mesure personnalisée](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) composé uniquement de la mesure des recettes et du format *Nombre à 2 points décimaux*et l’inclure dans les vues et les rapports plutôt que dans la mesure d’origine.
+* De même, si une mesure de recettes est envoyée sous forme d’entier, le même problème se produit. (Le format des recettes est contrôlé par la balise de conversion qui envoie les données.) Pour résoudre le problème, [création d’une mesure personnalisée](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) composé uniquement de la mesure des recettes et du format *Nombre à 2 décimales*et l’inclure dans les vues et les rapports plutôt que dans la mesure d’origine.
 +++
 
-+++Lorsque des données de clics ou de recettes sont manquantes, comment puis-je les empêcher d’affecter les futures offres ?
++++Lorsque des données de clics ou de recettes sont manquantes, comment empêcher qu’elles n’affectent les futures offres ?
 Des problèmes de clic sur les données se produisent lorsque Search, Social et Commerce n’est pas synchronisé avec le réseau publicitaire. Contactez votre équipe de compte d’Adobe pour synchroniser manuellement le compte. Si des données de clic sont manquantes pour une journée entière, demandez à votre équipe de compte d’Adobe d’exclure cette journée des modèles de coûts.
 
 Des problèmes de données sur les recettes peuvent se produire en raison d’un problème de suivi ou de fichier de flux. Contactez votre équipe de compte d’Adobe pour enquêter sur le problème. Si des données sur les recettes sont manquantes pour une journée entière, demandez à votre équipe de compte d’Adobe d’exclure cette journée des modèles de recettes.
@@ -117,7 +118,7 @@ Vous pouvez voir des valeurs décimales dans les cas suivants :
 ## Mesures de performances standard
 
 +++Les données de clic sont absentes des rapports.
-Les raisons suivantes expliquent souvent l’absence de données de clic.
+Vous trouverez ci-dessous les raisons courantes de l’absence de données de clic.
 
 | Cause | Détection/Analyse | Résolution |
 |---|---|---|
@@ -130,7 +131,7 @@ Lorsque le réseau publicitaire envoie des mises à jour aux données précéden
 
 En outre, lorsque vous comparez les données de partage d’impression agrégées sur une période, les données des rapports Search, Social et Commerce peuvent différer des données des rapports du réseau publicitaire. Cette différence est due à la manière dont les données sont signalées par l’API du réseau publicitaire, que Search, Social et Commerce utilise pour extraire des données. Par exemple, pour [!DNL Google Ads] data:
 
-* Pour la plupart des mesures de partage d’impression, [!DNL Google Ads] limite la limite inférieure ou supérieure des valeurs signalées pour les valeurs inférieures à 10 % ou supérieures à 90 %. Les données sont signalées comme étant de 0,0999 pour &lt;10 % et de 0,9001 pour >90 %
+* Pour la plupart des mesures de partage d’impression, [!DNL Google Ads] limite la limite inférieure ou supérieure des valeurs signalées pour les valeurs inférieures à 10 % ou supérieures à 90 %. Les données sont signalées comme étant de 0,099 pour &lt;10 % et de 0,9001 pour >90 %
 
 * Lorsqu’il existe un mélange de données plafonnées et non plafonnées au cours de la période, Search, Social et Commerce agrège les données de partage d’impression à l’aide des valeurs envoyées en l’état dans l’API, en utilisant 0,0999 pour les lignes comportant &lt;10 % et 0,9001 pour les lignes comportant plus de 90 %. Cette agrégation peut générer une variance de la variable [!DNL Google Ads] données pré-agrégées, car [!DNL Google Ads] peuvent utiliser des valeurs en pourcentage réel, telles que 7 ou 97 %.
 +++
@@ -197,24 +198,24 @@ Le rapport peut ne pas inclure de mesures de conversion pour lesquelles des conv
 
 1. Vérifiez que les colonnes correctes sont incluses dans les rapports ou les vues de données. Si les colonnes correctes ne sont pas disponibles à ajouter, vous ou votre équipe de compte d’Adobe devez [rendre les propriétés de transaction disponibles pour les rapports](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
-1. Exécutez la variable [!UICONTROL Portfolio Report]. S’il est vide, exécutez le [!UICONTROL Campaign Report] et [!UICONTROL Search Engine Report] pour voir si les recettes apparaissent dans ces rapports. Si tel est le cas, les campagnes peuvent ne pas être affectées au portfolio approprié.
+1. Exécutez la variable [!UICONTROL Portfolio Report]. S’il est vide, exécutez la variable [!UICONTROL Campaign Report] et [!UICONTROL Search Engine Report] pour voir si les recettes apparaissent dans ces rapports. Si tel est le cas, les campagnes peuvent ne pas être affectées au portfolio approprié.
 
 1. Vérifiez que le fichier a bien été envoyé au serveur de recettes et qu’il respecte le même format et la même convention d’appellation que les fichiers précédents.
 
    Si le format ou la convention d’affectation des noms de fichier a changé, corrigez le fichier et renvoyez-le.
 
-1. Si le fichier a été envoyé, [Contacter l’assistance clientèle](/help/search-social-commerce/get-help.md).
+1. Si le fichier a été envoyé, alors [Contacter l’assistance clientèle](/help/search-social-commerce/get-help.md).
 
    L’assistance clientèle vérifie si le fichier a été reçu et analysé. Si le fichier a été traité sans erreur, il vérifie les transactions orphelines.
 +++
 
 +++Certains rapports avancés n’incluent pas les données de conversion fournies par un flux publicitaire.
-Le [!UICONTROL Geo Distribution Report] et [!UICONTROL Domain Referral Report] utilisez les données capturées par le biais du service de suivi de conversion Adobe Advertising et ne peuvent être générées que pour les annonceurs disposant du service. Les rapports n’incluent pas les données de conversion suivies en dehors du système de suivi de conversion d’Adobe Advertising.
+La variable [!UICONTROL Geo Distribution Report] et [!UICONTROL Domain Referral Report] utilisez les données capturées par le biais du service de suivi de conversion Adobe Advertising et ne peuvent être générées que pour les annonceurs disposant du service. Les rapports n’incluent pas les données de conversion suivies en dehors du système de suivi de conversion d’Adobe Advertising.
 +++
 
 +++Les données sur les recettes diffèrent des données sur les recettes propres à l’annonceur.
 
-**Annonceurs utilisant des balises de conversion Adobe Advertising**
+**Annonceurs utilisant des balises de conversion d’Adobe Advertising**
 
 *Causes possibles :*
 
@@ -297,27 +298,27 @@ Voir les causes possibles et les solutions pour les implémentations de pixels c
 ## Rapports spécifiques
 
 +++Le paramètre [!UICONTROL Portfolio Report] afficher les mêmes chiffres que la variable [!UICONTROL Portfolios] vue ?
-Le [!UICONTROL Portfolio Report] et le [!UICONTROL Portfolios] afficher les mêmes données lorsque tous les filtres pour la vue, les paramètres du rapport et les colonnes de données pour la vue et le rapport sont identiques. Par exemple, si la variable [!UICONTROL Portfolios] La vue affiche les portefeuilles qui sont &quot;[!UICONTROL All but inactive]&quot; pour la période &quot;[!UICONTROL Last 7 days]&quot; et uniquement avec les colonnes de données par défaut affichées, puis une [!UICONTROL Portfolio Report] l’utilisation des paramètres par défaut affiche des données identiques. Si vous modifiez l’un des paramètres du rapport ou utilisez différents filtres dans la variable [!UICONTROL Portfolios] , les valeurs des données peuvent être différentes.
+La variable [!UICONTROL Portfolio Report] et la variable [!UICONTROL Portfolios] afficher les mêmes données lorsque tous les filtres pour la vue, les paramètres du rapport et les colonnes de données pour la vue et le rapport sont identiques. Par exemple, si la variable [!UICONTROL Portfolios] affiche les portefeuilles qui sont &quot;[!UICONTROL All but inactive]&quot; pour la période &quot;[!UICONTROL Last 7 days]&quot; et uniquement avec les colonnes de données par défaut affichées, puis une [!UICONTROL Portfolio Report] l’utilisation des paramètres par défaut affiche des données identiques. Si vous modifiez l’un des paramètres du rapport ou utilisez différents filtres dans la variable [!UICONTROL Portfolios] , les valeurs des données peuvent être différentes.
 +++
 
 +++Les données de mon [!UICONTROL Portfolio Report] ne correspond pas aux données de mon [!UICONTROL Search Engine Report] ou [!UICONTROL Search Engine Account Report].
-Le [!UICONTROL Portfolio Report] affiche les données des seules campagnes affectées aux portefeuilles spécifiés, mais la variable [!UICONTROL Search Engine Report] et [!UICONTROL Search Engine Account Report] peuvent également inclure des données pour les campagnes qui ne sont pas affectées à un portfolio.
+La variable [!UICONTROL Portfolio Report] affiche les données des seules campagnes affectées aux portefeuilles spécifiés, mais la variable [!UICONTROL Search Engine Report] et [!UICONTROL Search Engine Account Report] peuvent également inclure des données pour les campagnes qui ne sont pas affectées à un portfolio.
 +++
 
 +++Comment est la variable [!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report] différent du niveau du portfolio [!UICONTROL Model Accuracy Report]?
-(Uniquement le gestionnaire de compte de l’agence, le gestionnaire de compte d’Adobe et les utilisateurs administrateurs) La variable [!UICONTROL Forecast Accuracy Report] disponible à partir de [!UICONTROL Reports] > [!UICONTROL Model Accuracy] fournit les mêmes données qu’au niveau du portfolio ; [!UICONTROL Model Accuracy Report] mais vous pouvez l’exécuter sur plusieurs portefeuilles et modifier la règle d’attribution. Vous pouvez également exécuter et planifier le rapport à l’aide de paramètres personnalisés. Vous pouvez également l’utiliser pour créer des flux de feuille de calcul. En outre, la variable [!UICONTROL Forecast Accuracy Report] est plus précis que le rapport existant au niveau du portfolio, car il évalue la précision des recettes à l’aide des objectifs historiques du portfolio plutôt que de l’objectif actuel et représente plus précisément les données du fuseau horaire applicable.
+(Uniquement le gestionnaire de compte de l’agence, le gestionnaire de compte Adobe et les utilisateurs administrateurs) La variable [!UICONTROL Forecast Accuracy Report] disponible à partir de [!UICONTROL Reports] > [!UICONTROL Model Accuracy] fournit les mêmes données qu’au niveau du portfolio ; [!UICONTROL Model Accuracy Report] mais vous pouvez l’exécuter sur plusieurs portefeuilles et modifier la règle d’attribution. Vous pouvez également exécuter et planifier le rapport à l’aide de paramètres personnalisés. Vous pouvez également l’utiliser pour créer des flux de feuille de calcul. En outre, la variable [!UICONTROL Forecast Accuracy Report] est plus précis que le rapport existant au niveau du portfolio, car il évalue la précision des recettes à l’aide des objectifs historiques du portfolio plutôt que de l’objectif actuel et représente plus précisément les données du fuseau horaire applicable.
 +++
 
 +++Les données au niveau de la publicité ne sont pas disponibles pour [!DNL Google Ads] publicité de recherche dynamique (DSA), niveau de performance maximal, achats intelligents et [!DNL YouTube] campagnes.
-Les réseaux publicitaires ne fournissent pas l’identifiant nécessaire pour attribuer des recettes à une publicité individuelle pour ces campagnes. Par conséquent, les données de performances au niveau des publicités ne sont pas disponibles pour ces types de campagne dans la variable [!UICONTROL Ads] ou dans le [!UICONTROL Ad Variation Report]. Vous pouvez vous attendre à des incohérences entre le total des données au niveau de la publicité pour une campagne et le total des données de la campagne.
+Les réseaux publicitaires ne fournissent pas l’identifiant nécessaire pour attribuer des recettes à une publicité individuelle pour ces campagnes. Par conséquent, les données de performances au niveau de l’annonce ne sont pas disponibles pour ces types de campagne dans la variable [!UICONTROL Ads] ou dans la fonction [!UICONTROL Ad Variation Report]. Vous pouvez vous attendre à des incohérences entre le total des données au niveau de la publicité pour une campagne et le total des données de la campagne.
 +++
 
 +++Dans le [!UICONTROL Transaction Report], comment savoir quelle propriété de transaction provient d’un flux de données ou est suivie par le pixel de suivi d’Adobe Advertising ?
-Dans un rapport de transaction, vous pouvez déterminer si une propriété de transaction incluse a été suivie par le pixel de suivi d’Adobe Advertising si vous incluez la colonne personnalisée &quot;[!UICONTROL Tracking URL].&quot; Le suivi des URL avec le pixel de suivi Advertising Adobe commence par &quot;`http://pixel.everesttech.net`.&quot;
+Dans un rapport de transaction, vous pouvez déterminer si une propriété de transaction incluse a été suivie par le pixel de suivi d’Adobe Advertising si vous incluez la colonne personnalisée &quot;[!UICONTROL Tracking URL].&quot; Le suivi des URL avec le pixel de suivi d’Adobe Advertising commence par &quot;`http://pixel.everesttech.net`.&quot;
 +++
 
 +++Les données de mon [!UICONTROL Transaction Report] ne correspond pas aux données de mon [!UICONTROL Keyword Report].
-Lorsque vous générez les deux rapports par portefeuille, les données sont différentes si vous générez la variable [!UICONTROL Keyword Report] en utilisant des données historiques (c’est-à-dire en fonction de la configuration du portfolio aux dates spécifiées) plutôt qu’en utilisant des données pour les campagnes actives. Lorsque vous générez la variable [!UICONTROL Transaction Report] par portfolio, il inclut les données des campagnes actuelles du portfolio.
+Lorsque vous générez les deux rapports par portefeuille, les données sont différentes si vous générez la variable [!UICONTROL Keyword Report] en utilisant des données historiques (c’est-à-dire en fonction de la configuration du portefeuille au cours des dates spécifiées) plutôt qu’en utilisant des données pour les campagnes actives. Lorsque vous générez la variable [!UICONTROL Transaction Report] par portfolio, il inclut les données des campagnes actuelles du portfolio.
 +++
 
 ## Flux de feuille de calcul
@@ -325,17 +326,17 @@ Lorsque vous générez les deux rapports par portefeuille, les données sont dif
 +++La sortie du rapport comprend un mélange de plages de dates.
 Vous pouvez voir différentes périodes si le flux agrège les données à l’aide d’un niveau d’agrégation de données autre que &quot;[!UICONTROL Daily].&quot;
 
-Pour résoudre ce problème, mettez à jour le flux de feuille de calcul afin d’inclure les données agrégées quotidiennement. Cette tâche comprend la mise à jour du modèle de rapport, la génération d’un rapport à l’aide du modèle et la création d’un [!DNL Microsoft® Excel] à l’aide du rapport, puis en mettant à jour les paramètres du flux afin d’inclure le nouveau modèle Excel. Pour plus d’informations, voir[Modifier les paramètres du flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
+Pour résoudre ce problème, mettez à jour le flux de feuille de calcul afin d’inclure les données agrégées quotidiennement. Cette tâche comprend la mise à jour du modèle de rapport, la génération d’un rapport à l’aide du modèle et la création d’un [!DNL Microsoft® Excel] à l’aide du rapport, puis en mettant à jour les paramètres du flux afin d’inclure le nouveau modèle Excel. Pour plus d’informations, voir &quot;[Modifier les paramètres du flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++Un flux de feuille de calcul génère une erreur interne.
 Cette erreur peut se produire si vous modifiez les colonnes du modèle de rapport sans mettre à jour le [!DNL Microsoft® Excel] modèle en conséquence.
 
-Pour résoudre ce problème, mettez à jour le flux de feuille de calcul afin d’inclure les nouvelles colonnes. Cette tâche comprend la mise à jour du modèle de rapport, la génération d’un rapport à l’aide du modèle et la création d’un [!DNL Excel] à l’aide du rapport, puis en mettant à jour les paramètres du flux afin d’inclure le nouveau modèle Excel. Pour plus d’informations, voir[Modifier les paramètres du flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
+Pour résoudre ce problème, mettez à jour le flux de feuille de calcul afin d’inclure les nouvelles colonnes. Cette tâche comprend la mise à jour du modèle de rapport, la génération d’un rapport à l’aide du modèle et la création d’un [!DNL Excel] à l’aide du rapport, puis en mettant à jour les paramètres du flux afin d’inclure le nouveau modèle Excel. Pour plus d’informations, voir &quot;[Modifier les paramètres du flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++Lorsque j’essaie d’ouvrir un flux de feuille de calcul dans [!DNL Excel], [!DNL Excel] signale une erreur &quot;contenu illisible&quot; et les données sont supprimées du contenu récupéré.
-Lorsque la variable [!DNL Microsoft® Excel] ne trie pas les données par date de début dans l’ordre croissant, le flux de feuille de calcul peut contenir des lignes vides. En particulier, [!DNL Excel] signale l’erreur &quot;Excel a trouvé du contenu illisible dans &#39;&lt;*nom du rapport*>.xlsx.&#39; Voulez-vous récupérer le contenu du classeur ? Si vous approuvez la source de ce classeur, cliquez sur oui.&quot; Si vous cliquez sur &quot;Oui&quot;, le message suivant s’affiche : &quot;Supprimés d’enregistrements : Informations sur la cellule de la /xl/worksheets/sheet1.xml partie &quot; et le flux de feuille de calcul comprend des lignes vides.
+Lorsque la variable [!DNL Microsoft® Excel] ne trie pas les données par date de début dans l’ordre croissant, le flux de feuille de calcul peut contenir des lignes vides. En particulier, [!DNL Excel] signale l’erreur &quot;Excel a trouvé du contenu illisible dans &#39;&lt;*nom du rapport*>.xlsx.&#39; Voulez-vous récupérer le contenu du classeur ? Si vous approuvez la source de ce classeur, cliquez sur oui.&quot; Si vous cliquez sur &quot;Oui&quot;, le message suivant s’affiche : &quot;Enenregistrements supprimés : informations de cellule de la partie /xl/worksheets/sheet1.xml&quot; et le flux de feuille de calcul comprend des lignes vides.
 
-Pour résoudre le problème, modifiez la variable [!DNL Excel] modèle associé au flux pour trier les données par [!DNL Start date in Ascending (Oldest to Newest) order], puis transférez le modèle mis à jour via les paramètres de flux de feuille de calcul. Pour plus d’informations, voir[Modification des flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
+Pour résoudre le problème, modifiez la variable [!DNL Excel] modèle associé au flux pour trier les données par [!DNL Start date in Ascending (Oldest to Newest) order], puis transférez le modèle mis à jour via les paramètres de flux de feuille de calcul. Pour plus d’informations, voir &quot;[Modification des flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++

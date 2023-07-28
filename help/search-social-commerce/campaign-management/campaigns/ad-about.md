@@ -1,7 +1,9 @@
 ---
 title: Gestion des publicités
 description: Découvrez les publicités dans Search, Social et Commerce, y compris les types d’annonces disponibles.
-source-git-commit: eaf08dedb14bdf0c0be087e48c79bbf21b0990aa
+exl-id: 92ae631a-c35a-40ec-9d40-ebce13e3311b
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], et [!DNL Yandex] comptes uniquement*
 
-Une publicité peut être affichée sur un site web cible (pour le contenu ou les campagnes ciblées par un emplacement) ; lorsqu’un utilisateur recherche l’un des mots-clés du groupe publicitaire (pour des campagnes de recherche) ou du contenu de votre site web (annonces de recherche dynamique dans [!DNL Google Ads] campagnes de recherche uniquement); ou lorsqu’un utilisateur effectue une recherche pertinente pour l’un des éléments de votre [!DNL Google Merchant Center] ou [!DNL Microsoft® Merchant Center] flux de produits (publicités commerciales dans [!DNL Google Ads] ou publicités de produits dans [!DNL Microsoft® Advertising] campagnes).
+Une publicité peut être affichée sur un site web cible (pour des campagnes de contenu ou ciblées par des emplacements), lorsqu’un utilisateur recherche l’un des mots-clés du groupe publicitaire (pour des campagnes de recherche) ou du contenu de votre site web (annonces de recherche dynamique dans [!DNL Google Ads] (campagnes de recherche uniquement) ; ou lorsqu’un utilisateur effectue une recherche pertinente pour l’un des éléments de votre [!DNL Google Merchant Center] ou [!DNL Microsoft® Merchant Center] flux de produits (publicités commerciales dans [!DNL Google Ads] ou publicités de produits dans [!DNL Microsoft® Advertising] campagnes).
 
 ## Types de publicité disponibles
 
@@ -28,9 +30,9 @@ Vous pouvez créer et gérer des types d’annonces pris en charge pour les grou
 
 * **Publicités d’appel uniquement** pour [!DNL Google Ads] campagnes sur le réseau de recherche. Les publicités par appel uniquement sont des publicités textuelles qui incluent un numéro de téléphone. Vous pouvez éventuellement utiliser une [!DNL Google Ads]numéro de transfert attribué pour la création de rapports d’appels avancés.
 
-* **Annonces de recherche dynamique étendues** (désormais appelées simplement &quot;annonces de recherche dynamique&quot; sur les réseaux publicitaires) pour [!DNL Google Ads] et [!DNL Microsoft® Advertising] groupes d’annonces de recherche dynamique dans les campagnes de recherche. Les annonces de recherche dynamique utilisent le contenu de votre site web, plutôt que des mots-clés, pour décider quand afficher vos annonces. Le réseau publicitaire génère dynamiquement le titre, sélectionne l’URL de la landing page et l’URL d’affichage, puis génère automatiquement l’URL finale.
+* **Annonces de recherche dynamique étendues** (désormais appelées simplement &quot;annonces de recherche dynamique&quot; sur les réseaux publicitaires) pour [!DNL Google Ads] et [!DNL Microsoft® Advertising] groupes publicitaires de recherche dynamique dans les campagnes de recherche. Les annonces de recherche dynamique utilisent le contenu de votre site web, plutôt que des mots-clés, pour décider quand afficher vos annonces. Le réseau publicitaire génère dynamiquement le titre, sélectionne l’URL de la landing page et l’URL d’affichage, puis génère automatiquement l’URL finale.
 
-  Vous pouvez définir les pages de vos sites web dont le contenu est utilisé pour cibler vos annonces de recherche dynamique en configurant des cibles de recherche dynamique spécifiques pour le groupe d’annonces. Pour [!DNL Google Ads], vous pouvez créer des cibles de recherche dynamique dans Search, Social et Commerce. pour [!DNL Microsoft® Advertising], vous devez les créer dans [!DNL Microsoft® Advertising]. Dans [!DNL Google Ads] campagnes, vous pouvez éventuellement spécifier un domaine et une langue du site web dans le[!DNL DSA Options]&quot; plutôt que de créer des cibles de recherche dynamique ou en plus.
+  Vous pouvez définir les pages de vos sites web dont le contenu est utilisé pour cibler vos annonces de recherche dynamique en configurant des cibles de recherche dynamique spécifiques pour le groupe d’annonces. Pour [!DNL Google Ads], vous pouvez créer des cibles de recherche dynamique dans Search, Social et Commerce ; pour [!DNL Microsoft® Advertising], vous devez les créer dans [!DNL Microsoft® Advertising]. Dans [!DNL Google Ads] campagnes, vous pouvez éventuellement spécifier un domaine et une langue du site web dans le[!DNL DSA Options]&quot; plutôt que de créer des cibles de recherche dynamique ou en plus.
 
   Lorsque le terme de recherche d’un utilisateur correspond exactement à un mot-clé dans l’une de vos campagnes basées sur des mots-clés, une publicité de la campagne basée sur des mots-clés s’affiche à la place d’une publicité de recherche dynamique. Le réseau d’annonces affiche une publicité de recherche dynamique au lieu d’une publicité ciblée par des mots-clés lorsque le terme de recherche de l’utilisateur correspond à une correspondance large ou à une correspondance d’expression avec l’un de vos mots-clés et que votre publicité de recherche dynamique a un rang d’annonce supérieur.
 
@@ -40,7 +42,7 @@ Vous pouvez créer et gérer des types d’annonces pris en charge pour les grou
 
 * Lignes de promotion pour **[!DNL Microsoft® Advertising]annonces de produits (achats)** sur le réseau commercial. Les publicités commerciales utilisent des produits dans votre [!DNL Microsoft® Merchant Center] flux produit, au lieu de mots-clés, pour décider comment et où afficher vos publicités. Les URL de copie de publicité et de page d’entrée sont générées automatiquement à partir des informations sur vos produits dans le flux, mais vous pouvez éventuellement configurer des lignes de promotion pour les inclure dans le groupe d’annonces.
 
-  Vous pouvez contrôler les produits affichés avec votre [!DNL Microsoft® Advertising] des publicités d’achat en configurant des groupes de produits distincts pour le groupe d’annonces, à partir de la variable [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] vue.
+  Vous pouvez contrôler quels produits s’affichent avec votre [!DNL Microsoft® Advertising] des publicités d’achat en configurant des groupes de produits distincts pour le groupe d’annonces, à partir du [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] vue.
 
   Pour plus d’informations sur le workflow des annonces de produits/achats, voir &quot;[Mise en oeuvre [!DNL Microsoft® Advertising] campagnes d&#39;achat](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md).&quot;  Pour plus d’informations sur les publicités de produits, voir [Documentation sur Microsoft® Advertising](https://help.ads.microsoft.com/#apex/3/en/51082).
 
@@ -50,7 +52,7 @@ Vous pouvez créer et gérer des types d’annonces pris en charge pour les grou
 >
 >[!DNL Google Ads] ne fournissez pas de données, en dehors de ses éditeurs natifs, sur les combinaisons de texte qui étaient affichées en tant que publicités. Pour plus d’informations sur la création de rapports pour chaque combinaison de texte, voir [Documentation sur Google Ads](https://support.google.com/google-ads/answer/7684791).
 
-## Le [!UICONTROL Ads] view
+## La variable [!UICONTROL Ads] view
 
 Vous pouvez créer, modifier et modifier le statut des publicités à partir de la [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Ads] vue.
 
@@ -64,7 +66,7 @@ Cependant, il n’est pas disponible pour [!DNL Google Ads] publicité de recher
 |---|---|
 | [!DNL Google Ads] publicité de recherche dynamique (DSA) | Campagne, groupe publicitaire |
 | [!DNL Google Ads] performance max | Campagne |
-| [!DNL Google Ads] shopping, shopping intelligent | Campagne, groupe publicitaire |
+| [!DNL Google Ads] shopping, achats intelligents | Campagne, groupe publicitaire |
 | [!DNL Google Ads] [!DNL YouTube] | Campagne, groupe publicitaire |
 
 >[!MORELIKETHIS]
