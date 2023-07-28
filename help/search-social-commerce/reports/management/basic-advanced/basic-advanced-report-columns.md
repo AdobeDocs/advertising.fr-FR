@@ -3,9 +3,9 @@ title: Colonnes de rapports pour les rapports de base et avancés
 description: Découvrez les colonnes de données disponibles pour les rapports de base et avancés.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: d0b5107363336d5c946f4011e56dc83d2165397d
+source-git-commit: 7ffdd97387815098994f85c4368e60b2b44838dd
 workflow-type: tm+mt
-source-wordcount: '3606'
+source-wordcount: '3603'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
 | [!UICONTROL Network Ad Group ID] | Identifiant du groupe publicitaire attribué par le réseau. |
 | [!UICONTROL Network Campaign ID] | Identifiant de campagne attribué par le réseau. |
 | [!UICONTROL Objective Name] | L&#39;objectif du portefeuille. |
-| [!UICONTROL Objective Value] | Le total des conversions pondérées tel que calculé en fonction de l’objectif actuel du portfolio. Voir &quot;[valeur de l’objectif](/help/search-social-commerce/glossary.md#o-p).&quot; |
+| [!UICONTROL Objective Value] | Le total des conversions pondérées tel que calculé en fonction de l’objectif actuel du portfolio. |
 | [!UICONTROL Objective Value Calculation] | Calcul utilisé pour dériver la valeur d’objectif. |
 | [!UICONTROL Outbound Clicks] | ([!DNL Meta] publicités) Nombre de clics sur des liens au sein de publicités qui découragent les personnes [!DNL Meta]Propriétés détenues. |
 | [!UICONTROL Parent Product Groupings] | La hiérarchie complète des groupes de produits parents, avec `>>` entre les niveaux (par exemple, `All Products>>CategoryL1=Animals`), le cas échéant. |
