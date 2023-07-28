@@ -3,9 +3,9 @@ title: Glossaire
 description: Voir les définitions des termes clés.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 2ea9830c24ec7bdc10c3774b9a97c659b6ea1747
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2073'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,8 @@ ht-degree: 0%
 
 **coût marginal :** Changement du coût total lorsque la quantité change d’une unité.
 
+**valeur de coût marginal par rapport à l&#39;objectif :** La modification des coûts nécessaire pour augmenter la valeur de l’objectif d’une (1). Celui-ci a la même valeur que la colonne héritée &quot;Coût marginal/Recettes&quot;.
+
 **type de correspondance :** Option qui spécifie la manière dont les termes de recherche sont associés aux publicités. Les options varient selon le réseau publicitaire.
 
 **offre minimale :** 1) Montant minimum à payer par impression ou pour 1 000 impressions. 2) Pour les mots-clés de recherche, offre minimale requise pour un mot-clé donné en fonction de son score de qualité. L&#39;offre minimale est généralement le montant le moins élevé que vous puissiez payer par clic pour que votre mot-clé affiche des publicités.
@@ -113,6 +115,14 @@ ht-degree: 0%
 ## O-P {#o-p}
 
 **objectif :** (Publicitaires avec portefeuilles) Objectif qu’un client définit pour atteindre son objectif commercial dans le cadre d’un portefeuille spécifique ou d’une campagne d’affichage, par exemple pour maximiser les bénéfices ou atteindre une cible de vente spécifique. Un objectif est constitué des mesures de conversion (également appelées propriétés des transactions) à suivre et à optimiser pour le portefeuille, ainsi que des poids relatifs de ces mesures.
+
+**Valeur de l’objectif :** (Publicitaires avec portefeuilles) Le total des conversions pondérées tel que calculé en fonction de l’objectif actuel du portfolio, notamment :
+
+* toutes les conversions, en prenant en compte a) les poids affectés à chaque conversion dans la fonction objective du portfolio et, le cas échéant, b) le poids des affichages publicitaires.
+
+* tous les clics, que la fonctionnalité d’optimisation prend en compte pour une seule conversion et est pondérée en fonction de la valeur de clic de l’objectif.
+
+Cette valeur est identique à celle de la colonne héritée &quot;Recettes pondérées&quot;.
 
 **fonctionnalité d’optimisation :** (Publicitaires avec portefeuilles) Technologie d’offres sur les mots-clés Search, Social et Commerce, qui détermine la stratégie optimale de gestion des offres et des budgets pour un portefeuille en fonction de son objectif commercial.
 
@@ -178,11 +188,7 @@ ht-degree: 0%
 
 ## W-X {#w-x}
 
-**revenus pondérés :** (Publicitaires avec portefeuilles) Le total des recettes, qui inclut :
-
-* toutes les recettes, en tenant compte a) des poids affectés à chaque propriété de transaction dans l’objectif du portefeuille et, le cas échéant, b) du poids des affichages publicitaires/sociaux.
-
-* tous les clics, que la fonctionnalité d’optimisation prend en compte comme une propriété de transaction unique et est pondérée en fonction de la valeur de clic pour l’objectif.
+**revenus pondérés :** Voir &quot;Valeur objective&quot;.
 
 **XLS** ou **XLSX**: format de fichier binaire pour [!DNL Microsoft Office Excel] classeurs .
 
