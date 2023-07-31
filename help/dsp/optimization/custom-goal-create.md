@@ -3,7 +3,7 @@ title: Création d’un objectif personnalisé
 description: Création d’un objectif personnalisé
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 7ed95f58f317420e6c5104779ca95d081c717247
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Pour créer un objectif personnalisé, le compte DSP doit être associé à un [
 
 1. Se connecter [!DNL Advertising Search, Social, & Commerce] at (utilisateurs en Amérique du Nord) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) ou (tous les autres utilisateurs) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. Assurez-vous que les mesures que vous souhaitez inclure dans votre objectif ont été suivies, sont disponibles dans le produit et incluez un nom d’affichage :
-   1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+   1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
    1. Recherchez la mesure et assurez-vous que la variable **[!UICONTROL Show in UI and Reports]** est activé pour la mesure.
    1. Si la mesure n’a pas de valeur dans la variable **[!UICONTROL Display Name]** , cliquez dans la cellule, saisissez le nom d’affichage, puis cliquez sur **[!UICONTROL Apply].**
 1. Créez l’objectif personnalisé en tant que *objectif*:

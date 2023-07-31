@@ -3,7 +3,7 @@ title: Génération d’une balise de suivi de conversion d’Adobe Advertising
 description: Découvrez comment créer une balise de conversion d’Adobe Advertising pour effectuer le suivi de vos événements de conversion.
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Créez une balise de conversion distincte pour chaque ensemble de mesures dont v
 
 >[!NOTE]
 >
->Chaque mesure de la nouvelle balise de conversion est automatiquement répertoriée dans [!UICONTROL Admin] > [!UICONTROL Conversions], même si elle n’est pas implémentée ou si les pages web sur lesquelles elle se trouve n’ont reçu aucun clic. Ce comportement diffère du comportement des mesures dans les balises créées manuellement ou ailleurs, qui ne sont pas répertoriées dans [!UICONTROL Admin] > [!UICONTROL Conversions] jusqu’à ce que l’une des pages web sur laquelle elle se trouve ait reçu un clic. Dans tous les cas, toutefois, chaque mesure est initialement exclue des objectifs, des rapports et des vues du portfolio jusqu’à ce que vous les rendiez explicitement disponibles. Toutefois, avant d’ajouter les mesures aux objectifs du portfolio, pensez d’abord à rendre les mesures disponibles et à les ajouter aux rapports pour vérifier quand elles reçoivent des clics.
+>Chaque mesure de la nouvelle balise de conversion est automatiquement répertoriée dans [!UICONTROL Admin] > [!UICONTROL Transaction Properties], même si elle n’est pas implémentée ou si les pages web sur lesquelles elle se trouve n’ont reçu aucun clic. Ce comportement diffère du comportement des mesures dans les balises créées manuellement ou ailleurs, qui ne sont pas répertoriées dans [!UICONTROL Admin] > [!UICONTROL Transaction Properties] jusqu’à ce que l’une des pages web sur laquelle elle se trouve ait reçu un clic. Dans tous les cas, toutefois, chaque mesure est initialement exclue des objectifs, des rapports et des vues du portfolio jusqu’à ce que vous les rendiez explicitement disponibles. Toutefois, avant d’ajouter les mesures aux objectifs du portfolio, pensez d’abord à rendre les mesures disponibles et à les ajouter aux rapports pour vérifier quand elles reçoivent des clics.
 
 ## Paramètres des balises de conversion Adobe Advertising {#conversion-tag-settings}
 
@@ -81,4 +81,4 @@ Voir &quot;[Questions fréquentes sur les balises de suivi de conversion d’Ado
 >* [Format des balises de suivi de conversion JavaScript version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
 >* [Format des balises de suivi de conversion d’image](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 >* [Balise de mappage de conversion JavaScript Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
->* [À propos de la gestion des mesures de conversion d’un annonceur](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
+>* [À propos de la gestion des propriétés de transaction d’un annonceur](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)

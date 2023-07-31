@@ -4,7 +4,7 @@ description: Découvrez comment configurer une source de données à partir d’
 role: User, Admin
 exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
 feature: Search Admin, Search Data Sources
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Pour intégrer des mesures pour plusieurs propriétés ou pour plusieurs vues po
 
    La source de données est nommée &quot;NomCompte > NomPropriété > NomVue&quot; et est automatiquement activée. Pour mettre en pause la source de données, voir &quot;[Suspension d’un flux à partir d’une source de données](data-source-pause.md).&quot;
 
-   Les mesures sont disponibles le lendemain de la fin de la synchronisation quotidienne des données, qui commence à 05h00 dans le fuseau horaire de l’annonceur. Une fois les mesures disponibles, elles sont visibles dans [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md). Chaque nouvelle mesure de conversion est nommée &quot;&quot;`ga:backEndMetricName_propertyID_viewID`,&quot; où &quot;backEndMetricName&quot; est le nom de mesure utilisé par l’API. Le nom d’affichage de chaque nouvelle mesure de conversion est &quot;`friendlyMetricName_ga:MetricTag`,&quot; où &quot;friendlyMetricName&quot; est le nom de la mesure qui apparaît dans [!DNL Google Analytics] et &quot;MetricTag&quot; correspond à [!UICONTROL Metric Tag] définis dans les paramètres de la source de données.
+   Les mesures sont disponibles le lendemain de la fin de la synchronisation quotidienne des données, qui commence à 05h00 dans le fuseau horaire de l’annonceur. Une fois les mesures disponibles, elles sont visibles dans [[!UICONTROL Admin] > [!UICONTROL Transaction Properties]](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md). Chaque nouvelle mesure de conversion est nommée &quot;&quot;`ga:backEndMetricName_propertyID_viewID`,&quot; où &quot;backEndMetricName&quot; est le nom de mesure utilisé par l’API. Le nom d’affichage de chaque nouvelle mesure de conversion est &quot;`friendlyMetricName_ga:MetricTag`,&quot; où &quot;friendlyMetricName&quot; est le nom de la mesure qui apparaît dans [!DNL Google Analytics] et &quot;MetricTag&quot; correspond à [!UICONTROL Metric Tag] définis dans les paramètres de la source de données.
 
    Vous pouvez ajouter les mesures directement aux objectifs d’optimisation, de rapports et de vue de gestion de campagne et de portefeuille.
 

@@ -3,7 +3,7 @@ title: '''[!DNL Google Ads] données de conversion"'
 description: En savoir plus sur les types [!DNL Google Ads]Données de conversion suivies disponibles dans Search, Social et Commerce.
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
 feature: Search Campaign Management
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Jusqu’à trois mesures pour chaque [[!DNL Google Ads]conversion suivie](https:
 
 >[!NOTE]
 >
->* Si vous disposez de plusieurs comptes portant le même nom de conversion, il se peut que des noms de conversion en double s’affichent dans Adobe Advertising. Si cela se produit, [modifier le nom d’affichage ;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) pour l’une des mesures en double dans [!UICONTROL Admin] > [!UICONTROL Conversions]. La création de rapports n’est pas exacte lorsque deux mesures différentes portent le même nom.
+>* Si vous disposez de plusieurs comptes portant le même nom de conversion, il se peut que des noms de conversion en double s’affichent dans Adobe Advertising. Si cela se produit, [modifier le nom d’affichage ;](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) pour l’une des mesures en double dans [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. La création de rapports n’est pas exacte lorsque deux mesures différentes portent le même nom.
 >* Les données au niveau de l’unité d’offre correspondent aux données de [!DNL Google Ads] au même niveau. Cependant, [!DNL Google Ads]Les données de conversion propres aux niveaux supérieurs peuvent inclure des conversions supplémentaires qui ne sont pas attribuées aux unités d’offre enfants. Les données de Search, Social et Commerce sont toujours cumulées à partir du niveau de l’unité d’offre. Par exemple, un rapport au niveau de la campagne peut ne pas présenter les mêmes totaux qu’un rapport au niveau de la campagne dans Google Ads.
 >* La variance de données est généralement inférieure après la synchronisation matinale par rapport à plus tard dans la journée, lorsque des conversions supplémentaires n’ont pas encore été synchronisées. Nous vous recommandons de valider les données le matin.
 >* Les données de conversion ne sont pas disponibles pour [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App], et [!DNL YouTube] publicités. Filtrez ces types d’annonces lorsque vous comparez des données dans [!DNL Google Ads] avec des données dans Search, Social et Commerce.
@@ -94,4 +94,4 @@ Dans Search, Social et Commerce, utilisez l’option d’affichage ou de rapport
 >
 >* [Présentation de l’implémentation des comptes et campagnes de réseau publicitaire](campaign-implemention-overview.md)
 >* [Surveillez et gérez les performances de vos campagnes réseau publicitaires](monitor-performance-campaigns.md)
->* [Afficher les mesures de conversion suivies pour un annonceur](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
+>* [Afficher les propriétés de transaction suivies pour un annonceur](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
