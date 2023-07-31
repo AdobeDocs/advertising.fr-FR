@@ -3,7 +3,7 @@ title: Présentation de l’implémentation des comptes et campagnes de réseau 
 description: Découvrez les tâches impliquées dans la configuration, la synchronisation et la gestion de vos comptes réseau publicitaires.
 exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
 feature: Search Campaign Management
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Cette page contient des informations sur tous les types de compte, y compris sur
 
    Pour plus d’informations sur les portefeuilles, consultez le Guide d’optimisation disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
-1. (Si de nouvelles conversions sont suivies pour l’annonceur) [Rendre les conversions disponibles](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) pour les rapports, les vues de gestion de campagne et les objectifs du portfolio.
+1. (Si de nouvelles conversions sont suivies pour l’annonceur) [Rendre les conversions disponibles](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) pour les rapports, les vues de gestion de campagne et les objectifs du portfolio.
 
 1. Pour chaque campagne, vérifiez que Search, Social et Commerce reçoit les données de clics et de coûts du réseau publicitaire et validez les données de recettes affichées dans Search, Social et Commerce avec les propres données de recettes de l’annonceur.
 

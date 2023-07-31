@@ -4,7 +4,7 @@ user-guide-title: Guide d’Advertising Search, Social et Commerce
 user-guide-description: Ce guide décrit les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires liées aux moteurs de recherche, aux réseaux sociaux et au commerce.
 breadcrumb-title: Guide d’Advertising Search, Social et Commerce
 index: true
-source-git-commit: c71fc077131b1366980e53b13f0a6a94b6dcae44
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '1720'
 ht-degree: 2%
@@ -404,10 +404,10 @@ ht-degree: 2%
       + [Réauthentifier un [!DNL Google Analytics] source de données](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [[!DNL Google Analytics] paramètres de source de données](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
       + [Annexe : Disponible [!DNL Google Analytics] mesures](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
-   + Gestion des mesures de conversion d’un annonceur{#conversion-metrics}
-      + [À propos de la gestion des mesures de conversion d’un annonceur](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
-      + [Afficher les mesures de conversion suivies pour un annonceur](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
-      + [Modification des mesures de conversion disponibles dans les vues de gestion et les rapports](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
-      + [Modification du nom d’affichage d’une mesure de conversion](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
+   + Gestion des propriétés de transaction d’un annonceur{#transaction-properties}
+      + [À propos de la gestion des propriétés de transaction d’un annonceur](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
+      + [Afficher les propriétés de transaction suivies pour un annonceur](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
+      + [Modification des propriétés de transaction disponibles dans les vues de gestion et les rapports](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)
+      + [Modification du nom d’affichage d’une propriété de transaction](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md)
 + [Obtenir de l’aide](get-help.md)
 + [Glossaire](glossary.md)

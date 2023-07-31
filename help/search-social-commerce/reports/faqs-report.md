@@ -3,7 +3,7 @@ title: Questions fréquentes sur les rapports personnalisés
 description: Découvrez les réponses aux questions courantes sur les rapports de performances, notamment la résolution des problèmes liés aux données.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '3920'
 ht-degree: 0%
@@ -168,7 +168,7 @@ Le rapport peut ne pas inclure de mesures de conversion pour lesquelles des conv
 
 *Solution possible ou solution de contournement :*
 
-1. Vérifiez que les colonnes correctes sont incluses dans les rapports ou les vues de données. Si les colonnes correctes ne sont pas disponibles à ajouter, vous ou votre équipe de compte d’Adobe devez [rendre les mesures de conversion disponibles pour les rapports ;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
+1. Vérifiez que les colonnes correctes sont incluses dans les rapports ou les vues de données. Si les colonnes correctes ne sont pas disponibles à ajouter, vous ou votre équipe de compte d’Adobe devez [rendre les mesures de conversion disponibles pour les rapports ;](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. Vérifiez que les balises de suivi de conversion correctes sont implémentées sur toutes les pages web applicables. Si nécessaire, demandez à votre équipe de compte d’Adobe de créer une transaction de test pour chaque balise de suivi de conversion applicable et de capturer les détails de la transaction, tels que le `transactionid` et les détails du cookie (tels que `trackingid`, `clickid`, etc.).
 
@@ -196,7 +196,7 @@ Le rapport peut ne pas inclure de mesures de conversion pour lesquelles des conv
 
 *Solution possible ou solution de contournement :*
 
-1. Vérifiez que les colonnes correctes sont incluses dans les rapports ou les vues de données. Si les colonnes correctes ne sont pas disponibles à ajouter, vous ou votre équipe de compte d’Adobe devez [rendre les mesures de conversion disponibles pour les rapports ;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
+1. Vérifiez que les colonnes correctes sont incluses dans les rapports ou les vues de données. Si les colonnes correctes ne sont pas disponibles à ajouter, vous ou votre équipe de compte d’Adobe devez [rendre les mesures de conversion disponibles pour les rapports ;](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. Exécutez la variable [!UICONTROL Portfolio Report]. S’il est vide, exécutez la variable [!UICONTROL Campaign Report] et [!UICONTROL Search Engine Report] pour voir si les recettes apparaissent dans ces rapports. Si tel est le cas, les campagnes peuvent ne pas être affectées au portfolio approprié.
 
