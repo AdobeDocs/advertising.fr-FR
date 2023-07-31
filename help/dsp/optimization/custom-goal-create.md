@@ -3,9 +3,9 @@ title: Création d’un objectif personnalisé
 description: Création d’un objectif personnalisé
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 7ed95f58f317420e6c5104779ca95d081c717247
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Pour créer un objectif personnalisé, le compte DSP doit être associé à un [
 
 1. Se connecter [!DNL Advertising Search, Social, & Commerce] at (utilisateurs en Amérique du Nord) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) ou (tous les autres utilisateurs) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. Assurez-vous que les mesures que vous souhaitez inclure dans votre objectif ont été suivies, sont disponibles dans le produit et incluez un nom d’affichage :
-   1. Dans le menu principal, cliquez sur **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
+   1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
    1. Recherchez la mesure et assurez-vous que la variable **[!UICONTROL Show in UI and Reports]** est activé pour la mesure.
-   1. Si la mesure ne contient pas de valeur dans la variable **[!UICONTROL Display Name]** , cliquez dans la cellule, saisissez le nom d’affichage, puis cliquez sur **[!UICONTROL Apply].**
+   1. Si la mesure n’a pas de valeur dans la variable **[!UICONTROL Display Name]** , cliquez dans la cellule, saisissez le nom d’affichage, puis cliquez sur **[!UICONTROL Apply].**
 1. Créez l’objectif personnalisé en tant que *objectif*:
    1. Dans le menu principal, cliquez sur **[!UICONTROL Search]** > **[!UICONTROL Optimization]>[!UICONTROL Objectives]**.
    1. Dans la barre d’outils, cliquez sur **[!UICONTROL Create objective].**
@@ -37,45 +37,43 @@ Pour créer un objectif personnalisé, le compte DSP doit être associé à un [
 
          >[!NOTE]
          >
-         > Toutes les propriétés de transaction suivies pour l’annonceur sont répertoriées par défaut dans la variable [!UICONTROL Available Properties] liste.
+         > Toutes les mesures de conversion suivies pour l’annonceur sont répertoriées par défaut dans la variable [!UICONTROL Available Properties] liste.
 
-         * Pour importer un fichier CSV avec des propriétés et leur poids, cliquez sur **[!UICONTROL Import]** et localisez le fichier à importer.
+         * Pour importer un fichier CSV avec des mesures de conversion et leur poids, cliquez sur **[!UICONTROL Import]** et localisez le fichier à importer.
 
-            Les propriétés importées doivent déjà exister pour l’annonceur ; les noms ne sont pas sensibles à la casse.
+           Les mesures de conversion importées doivent déjà exister pour l’annonceur ; les noms ne respectent pas la casse.
 
-            Les propriétés importées remplacent toutes les propriétés existantes spécifiées.
+           Les mesures de conversion importées remplacent toutes les propriétés existantes spécifiées.
 
-         * Pour spécifier manuellement la première propriété avec le poids par défaut (1), sélectionnez dans la liste de toutes les propriétés de transaction suivies pour l’annonceur.
+         * Pour spécifier manuellement la première mesure de conversion avec le poids par défaut (1), sélectionnez dans la liste de toutes les mesures de conversion suivies pour l’annonceur.
 
-         * Pour ajouter manuellement une autre propriété avec le poids par défaut (1), cliquez sur **[!UICONTROL +]** .
+         * Pour ajouter manuellement une autre mesure de conversion avec le poids par défaut (1), cliquez sur **[!UICONTROL +]** .
 
-            >[!TIP]
-            >
-            > Pour rechercher une propriété dans la liste, saisissez une chaîne n’importe où dans le nom de la propriété.
+           >[!TIP]
+           >
+           > Pour rechercher une mesure dans la liste, saisissez une chaîne n’importe où dans le nom de la mesure.
 
-         * Pour ajouter manuellement plusieurs propriétés, cliquez sur **[!UICONTROL Add Multiple Properties].** Pour chaque propriété à ajouter, cliquez sur le nom de la propriété dans la variable [!UICONTROL Available Properties] et faites-le glisser dans la [!UICONTROL Added Properties] colonne . Lorsque vous avez terminé d’ajouter des propriétés, cliquez sur **[!UICONTROL Add]**.
+         * Pour ajouter manuellement plusieurs mesures de conversion, cliquez sur **[!UICONTROL Add Multiple Properties].** Pour chaque mesure de conversion à ajouter, cliquez sur le nom de la mesure dans la variable [!UICONTROL Available Properties] et faites-le glisser dans la [!UICONTROL Added Properties] colonne . Lorsque vous avez terminé d’ajouter des mesures, cliquez sur **[!UICONTROL Add]**.
 
-            >[!TIP]
-            >
-            >* Pour rechercher une propriété dans la liste, saisissez une chaîne n’importe où dans le nom de la propriété dans le champ de saisie.
-            >* Pour filtrer la liste afin d’exclure les propriétés qui sont exclues dans les rapports, sélectionnez l’option . **[!UICONTROL Hide properties excluded from reports].**
+           >[!TIP]
+           >
+           >* Pour rechercher une mesure dans la liste, saisissez une chaîne n’importe où dans le nom de la mesure dans le champ de saisie.
+           >* Pour filtrer la liste afin d’exclure les mesures qui sont exclues des rapports, sélectionnez l’option . **[!UICONTROL Hide properties excluded from reports].**
 
+         * (Lorsque l’objectif contient plusieurs mesures de conversion) Pour modifier le poids d’une mesure par rapport aux autres mesures de l’objectif, saisissez des valeurs dans la variable **[!UICONTROL Weight]** champs.
 
-         * (Lorsque l’objectif contient plusieurs propriétés) Pour modifier le poids d’une propriété par rapport aux autres propriétés de l’objectif, saisissez des valeurs dans la variable **[!UICONTROL Weight]** champ(s).
       1. Au bas des paramètres, cliquez sur **[!UICONTROL Save]**.
-
 
 Une fois que vous avez créé un objectif, vous pouvez l’affecter à un module DSP en tant qu’objectif personnalisé lorsque l’objectif d’optimisation est &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; ou &quot;[!UICONTROL Lowest CPA - Custom Goal].&quot;
 
 >[!TIP]
 >
->Pour des performances optimales, les mesures combinées de l’objectif personnalisé (objectif) doivent totaliser au moins dix conversions par jour. Dans le cas contraire, la bonne pratique consiste à ajouter à l’objectif des événements de prise en charge supplémentaires (propriétés de transaction), tels que des pages de produit ou des démarrages d’application. Voir [Bonnes pratiques pour créer un objectif personnalisé](custom-goal-best-practices.md) pour obtenir des instructions.
+>Pour des performances optimales, les mesures combinées de l’objectif personnalisé (objectif) doivent totaliser au moins dix conversions par jour. Dans le cas contraire, la bonne pratique consiste à ajouter à l’objectif des mesures de conversion supplémentaires, telles que des pages de produits ou des démarrages d’application, qui prennent en charge la conversion. Voir [Bonnes pratiques pour la création d’un objectif personnalisé](custom-goal-best-practices.md) pour obtenir des instructions.
 
 >[!MORELIKETHIS]
 >
 >* [À propos des objectifs personnalisés](custom-goal-about.md)
->* [Bonnes pratiques pour créer un objectif personnalisé](custom-goal-best-practices.md)
+>* [Bonnes pratiques pour la création d’un objectif personnalisé](custom-goal-best-practices.md)
 >* [Objectifs d’optimisation et utilisation](optimization-goals.md)
 >* [Paramètres du module](/help/dsp/campaign-management/packages/package-settings.md)
 > * [Optimisation des campagnes par DSP](optimization-how-dsp-optimizes-campaigns.md)
-

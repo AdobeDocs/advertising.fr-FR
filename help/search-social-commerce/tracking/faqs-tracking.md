@@ -3,7 +3,7 @@ title: Questions fréquentes sur le suivi
 description: Découvrez les réponses aux questions courantes sur le suivi, notamment les problèmes de dépannage.
 exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -37,11 +37,11 @@ Les transactions en double peuvent se produire lorsqu’un utilisateur actualise
 
 Voici la logique de déduplication de l’Adobe Advertising :
 
-* **Lorsqu’un client envoie une valeur pour la variable `ev_transid` attribute:** Les requêtes de pixel suivantes sont considérées comme des doublons de la précédente si les éléments suivants sont identiques : `ev_transid`; l’identifiant de suivi pour le même mot-clé, la même publicité ou le même emplacement ; et la valeur d’une propriété de transaction spécifique.
+* **Lorsqu’un client envoie une valeur pour la variable `ev_transid` attribute:** Les requêtes de pixel suivantes sont considérées comme des doublons de la précédente si les éléments suivants sont identiques : `ev_transid`; l’identifiant de suivi pour le même mot-clé, la même publicité ou le même emplacement ; et la valeur d’une mesure de conversion spécifique.
 
   Par exemple, si plusieurs demandes de prêt possèdent le même ID de demande et le même montant de prêt pour le même mot-clé sur un réseau publicitaire spécifique, elles sont considérées comme des doublons et seule la première demande de prêt est comptabilisée.
 
-* **Lorsqu’un client n’envoie pas de valeur pour la variable `ev_transid` attribute:** Les transactions suivantes sont considérées comme des doublons de la précédente si elles partagent un ID de suivi pour le même mot-clé, publicité ou emplacement, et la même valeur pour une propriété de transaction spécifique.
+* **Lorsqu’un client n’envoie pas de valeur pour la variable `ev_transid` attribute:** Les transactions suivantes sont considérées comme des doublons de la précédente si elles partagent un ID de suivi pour le même mot-clé, une même publicité ou un même emplacement et la même valeur pour une mesure de conversion spécifique.
 
   Par exemple, si plusieurs demandes de prêt ont le même identifiant de mot-clé et le même montant de prêt, elles sont considérées comme des doublons et seule la première demande de prêt est comptabilisée.
 +++
@@ -57,9 +57,9 @@ Dans le compte ou la campagne, remplacez la méthode de suivi par &quot;[!UICONT
 
 ## Questions relatives aux données
 
-+++Comment savoir quelle propriété de transaction provient d’un flux de données ou est suivie par la balise de suivi de conversion d’Adobe Advertising ?
++++Comment savoir quelle mesure de conversion provient d’un flux de données ou est suivie par la balise de suivi de conversion d’Adobe Advertising ?
 
-Dans un [!UICONTROL Transaction Report], vous pouvez déterminer si une propriété de transaction incluse a été suivie par le pixel de suivi de conversion d’Adobe Advertising si vous avez inclus la colonne personnalisée &quot;[!UICONTROL Tracking URL].&quot; Le suivi des URL avec le pixel de suivi d’Adobe Advertising commence par `http://pixel.everesttech.net`.
+Dans un [!UICONTROL Transaction Report], vous pouvez déterminer si une mesure de conversion incluse a été suivie par le pixel de suivi de conversion d’Adobe Advertising si vous avez inclus la colonne personnalisée &quot;[!UICONTROL Tracking URL].&quot; Le suivi des URL avec le pixel de suivi d’Adobe Advertising commence par `http://pixel.everesttech.net`.
 +++
 
 +++Que sont les transactions orphelines ?

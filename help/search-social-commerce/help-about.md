@@ -3,7 +3,7 @@ title: À propos de ce guide
 description: Découvrez ce qui est décrit dans chaque chapitre de ce guide.
 exl-id: fb47db6f-d579-472f-a0e3-7bbc92ceb9e5
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Des informations sur des groupes spécifiques de tâches et d’autres informati
 
 * &quot;Outils&quot; explique comment modifier votre mot de passe, utiliser des outils pour générer des balises de suivi des clics et des conversions, charger vos mesures de conversion dans [!DNL Google Ads] et vos objectifs de portfolio sur les réseaux publicitaires pour une optimisation hybride, chargez des mesures pour le suivi des campagnes et répliquez vos [!DNL Google Ads] campagnes dans vos [!DNL Microsoft Advertising] comptes.
 
-* &quot;Administration&quot; explique comment gérer les données de l’annonceur, notamment les propriétés de transaction collectées et les dates à exclure des prévisions du portefeuille. synchronisez vos mesures de conversion à partir d’une [!DNL Google Analytics] ; configurez divers paramètres au niveau de l’annonceur ; et (certains rôles) administrez des comptes d’utilisateurs, d’agences et d’annonceurs.
+* &quot;Administration&quot; explique comment gérer les données des annonceurs, y compris les mesures de conversion collectées et les dates à exclure des prévisions du portefeuille ; synchronisez vos mesures de conversion à partir d’un [!DNL Google Analytics] ; configurez divers paramètres au niveau de l’annonceur ; et (certains rôles) administrez des comptes d’utilisateurs, d’agences et d’annonceurs.
 
 >[!NOTE]
 >

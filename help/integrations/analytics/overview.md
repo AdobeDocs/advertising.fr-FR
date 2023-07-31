@@ -3,9 +3,9 @@ title: Présentation de [!DNL Analytics for Advertising]
 description: Présentation de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: b9a126983556259aafddc73db8adcfd8f1cb86dd
+source-git-commit: c71fc077131b1366980e53b13f0a6a94b6dcae44
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ L’intégration permet aux annonceurs de suivre les interactions de site par cl
 
 En outre, Adobe Advertising peut accéder aux vastes données propriétaires qui [!DNL Analytics] collecte à l’aide de [!DNL Analytics] balises déjà présentes sur le site. Cela permet une gestion plus robuste des parcours, un remarketing propriétaire et des rapports sur les sites de médias payants. Adobe Advertising peut utiliser la variable [!DNL Analytics] données pour l’optimisation des dépenses et des offres.
 
-Lorsqu&#39;elle est correctement employée, [!DNL Analytics for Advertising] brouille les lignes entre deux rôles traditionnels : la gestion des parcours publicitaires (l’acte d’envoyer des utilisateurs sur le site par le biais de publicités) et la compréhension de cet engagement par le biais de web analytics.
+Lorsqu&#39;elle est correctement employée, [!DNL Analytics for Advertising] brouille les lignes entre deux rôles traditionnels : la gestion des parcours publicitaires (l’acte d’envoyer des utilisateurs sur le site par le biais de publicités) et la compréhension de l’engagement sur le site par le biais d’analyses web.
 
 Principaux avantages :
 
@@ -41,13 +41,13 @@ Principaux avantages :
 [!DNL Analytics for Advertising] améliore les rapports et les informations sur la manière dont votre publicité entraîne le comportement du site en vous permettant d’effectuer les opérations suivantes :
 
 * Utiliser des identifiants d’affichage et de clic publicitaire d’Adobe Advertising persistant dans [!DNL Analytics] pour comprendre l’engagement du site.
-* Profitez d’Analysis Workspace pour mieux comprendre les points d’entrée sur le site et le comportement des visites. Vous pouvez accéder aux données de dimension et d’événement de média payant, qui incluent les noms des entités de campagne d’Adobe Advertising (jusqu’aux emplacements et publicités) et leurs mesures associées, telles que les clics, les impressions et les coûts.
+* Tirer parti d’Analysis Workspace pour mieux comprendre les points d’entrée sur le site et le comportement des visites. Vous pouvez accéder aux données de dimension et d’événement de média payant, qui incluent les noms des entités de campagne d’Adobe Advertising (jusqu’aux emplacements et publicités) et leurs mesures associées, telles que les clics, les impressions et les coûts.
 
 Pour utiliser [!DNL Analytics] en tant qu’outil de reporting multimédia payant, votre entreprise a besoin d’une connexion Experience Cloud avec accès à Analysis Workspace. Votre équipe d’Adobes Advertising vous aidera à mapper vos données d’Adobe Advertising à des suites de rapports individuelles dans Analysis Workspace. Vous pouvez envoyer des données d’Adobe Advertising à n’importe quelle suite de rapports, mais vous devez connaître les suites de rapports qui ont été mappées à l’Adobe Advertising et celles qui ne l’ont pas fait. Selon la suite de rapports, cela peut modifier les données signalées.
 
 [ID d’Adobe Advertising dans [!DNL Analytics]](ids.md) fonctionne comme les autres eVars, avec une expiration personnalisée et persistante. Par défaut, l’intervalle de recherche en amont des attributions est défini sur 60 jours pendant la mise en oeuvre de l’Adobe Advertising. Pour modifier ce paramètre, contactez votre équipe de compte d’Adobe.
 
-Les dimensions d’Adobe Advertising sont ajoutées avec le suffixe &quot;(AMO ID)&quot; (par exemple, &quot;Type de publicité (AMO ID)&quot;). Voir &quot;[Adobe des mesures publicitaires dans Analysis Workspace](advertising-metrics-in-analytics.md)&quot; pour une liste des dimensions disponibles.
+Les dimensions d’Adobe Advertising sont ajoutées avec le suffixe &quot;(AMO ID)&quot; (par exemple, &quot;Type de publicité (AMO ID)&quot;). Voir &quot;[Adobe Advertising des mesures dans Analysis Workspace](advertising-metrics-in-analytics.md)&quot; pour une liste des dimensions disponibles.
 
 >[!NOTE]
 >
@@ -66,17 +66,17 @@ Sans nécessiter de pixels supplémentaires, [!DNL Analytics for Advertising] pe
 
   Vous pouvez utiliser [!DNL Analytics] segments pour le reciblage de site propriétaire dans [!DNL DSP] et des annonces de référencement payant.
 
-  ([!DNL Search, Social, & Commerce] uniquement) Les annonceurs avec [!DNL Analytics] mais aucune Audience Manager ne peut également créer des audiences basées sur des balises de site web Google (listes de remarketing) et des audiences de correspondance de clients (listes de clients) à partir de [!DNL Analytics] segments partagés avec Experience Cloud.
+  ([!DNL Search, Social, & Commerce] uniquement) Les annonceurs avec [!DNL Analytics] mais aucune Audience Manager ne peut également créer des audiences basées sur des balises de site web Google (listes de remarketing) et des audiences de correspondance de clients (listes de clients) depuis [!DNL Analytics] segments partagés avec Experience Cloud.
 
 ### Mesures de conversion de site en tant que signaux d’offre
 
-Vous pouvez utiliser vos événements standard et personnalisés depuis [!DNL Analytics] pour établir des objectifs pondérés dans l’Adobe Advertising. Les objectifs informent les décisions d’offre pour votre [!DNL DSP] packages et portefeuilles de recherche.
+Vous pouvez utiliser vos événements standard et personnalisés à partir de [!DNL Analytics] pour établir des objectifs pondérés dans l’Adobe Advertising. Les objectifs informent les décisions d’offre pour votre [!DNL DSP] packages et portefeuilles de recherche.
 
 >[!NOTE]
 >
 > Vous ne pouvez pas mapper les mesures calculées à partir de [!DNL Analytics] dans l’Adobe Advertising.
 
-Votre équipe d’Adobes Advertising vous aidera à identifier et à mapper les événements applicables aux performances de médias payants dans Adobe Advertising, où ils apparaîtront dans [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
+Votre équipe d’Adobes Advertising vous aidera à identifier et à mapper les événements applicables aux performances de médias payants dans Adobe Advertising, où ils apparaîtront dans [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
 
 Voir &quot;[Mesures Analytics dans Adobe Advertising](analytics-data-in-advertising.md)&quot; pour une liste de mesures disponibles.
 
@@ -84,7 +84,7 @@ Voir &quot;[Mesures Analytics dans Adobe Advertising](analytics-data-in-advertis
 
 Adobe Advertising peut être ingéré [!DNL Analytics] segments à des fins de remarketing pour les DSP publicitaires et [!DNL Search, Social, & Commerce] publicités utilisant l’intégration d’audiences Experience Cloud natives entre [!DNL Analytics] et Experience Cloud.
 
-Pour accéder au [!DNL Analytics] segments, un compte publicitaire doit disposer de la variable [Service d’ID Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html) activée. Lorsque le service d’ID est activé, tous les segments Experience Cloud (y compris les segments créés dans [!DNL Analytics] et publiés sur des Experience Cloud, des segments créés dans Adobe Audience Manager, des segments créés dans Experience Cloud à l’aide du [!DNL People core service], et les segments créés dans Adobe Experience Platform et envoyés à l’Adobe Advertising par Audience Manager) deviennent disponibles dans Adobe Advertising dès qu’ils sont traités.
+Pour accéder au [!DNL Analytics] segments, un compte publicitaire doit disposer de la variable [Service d’ID d’Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html) activée. Lorsque le service d’ID est activé, tous les segments Experience Cloud (y compris les segments créés dans [!DNL Analytics] et publiés sur des Experience Cloud, des segments créés dans Adobe Audience Manager, des segments créés dans Experience Cloud à l’aide du [!DNL People core service], et les segments créés dans Adobe Experience Platform et envoyés à l’Adobe Advertising par Audience Manager) deviennent disponibles dans Adobe Advertising dès qu’ils sont traités.
 
 [!DNL Analytics] sont disponibles sous 24 heures et sont mises à jour quotidiennement.
 
@@ -112,7 +112,7 @@ Utilisation de la vue Emplacement :
 
 1. Appliquez les filtres suivants :
 
-   Plateforme d’annonces publicitaires : `Advertising Cloud DSP`
+   Plateforme publicitaire : `Advertising Cloud DSP`
 
    Page d’entrée : `View-Through (CTV)`
 
@@ -124,7 +124,7 @@ Utilisation de la vue Canal marketing :
 
 1. Appliquez les filtres suivants :
 
-   Plateforme d’annonces publicitaires : `Advertising Cloud DSP`
+   Plateforme publicitaire : `Advertising Cloud DSP`
 
    Page d’entrée : `View-Through (CTV)`
 

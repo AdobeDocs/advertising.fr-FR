@@ -3,9 +3,9 @@ title: Questions fréquentes sur les rapports personnalisés
 description: Découvrez les réponses aux questions courantes sur les rapports de performances, notamment la résolution des problèmes liés aux données.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '3919'
+source-wordcount: '3920'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ La fonctionnalité d’optimisation crée quotidiennement ses modèles de recett
 Si vous ne souhaitez pas que les données de la période affectent les offres futures, vous pouvez choisir d’exclure ces dates du modèle. Contactez votre équipe de compte d’Adobe pour exclure les dates.
 +++
 
-+++Puis-je créer un rapport sur une mesure de propriété spécifique, telle que [!UICONTROL Device] ou [!UICONTROL Objective Name]?
++++Puis-je créer un rapport sur une mesure de propriété de compte spécifique, telle que [!UICONTROL Device] ou [!UICONTROL Objective Name]?
 Pour les rapports d’entité de campagne ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report], et [!UICONTROL Product Group Report]), les données de mesures sont agrégées dynamiquement par les colonnes de propriétés que vous incluez dans le rapport. Vous pouvez éventuellement supprimer la colonne clé du rapport et inclure uniquement les colonnes de propriétés pour lesquelles vous souhaitez agréger les données.
 
 Par exemple, si vous générez une [!UICONTROL Keyword Report] qui inclut la variable [!UICONTROL Ad Group] et  Colonnes d’appareil, puis, par défaut, le rapport agrège les mesures pour chaque mot-clé par groupe publicitaire et type d’appareil. Toutefois, si vous supprimez la variable [!UICONTROL Keyword] avant de générer le rapport, le rapport génère dynamiquement des mesures pour les groupes d’annonces spécifiés par type d’appareil.
@@ -107,7 +107,7 @@ Des problèmes de données sur les recettes peuvent se produire en raison d’un
 Par défaut, toutes les données monétaires des rapports sont présentées au format en dollars (1 000,00, par exemple). Pour afficher la valeur dans le bon format de devise (mais sans aucun symbole de devise dans les formats CSV et TSV), ajoutez le &quot;[!UICONTROL Currency]&quot; au rapport. Si le rapport inclut des données pour des comptes avec des devises différentes, alors tout[!UICONTROL Total]&quot;les valeurs monétaires sont simplement la somme de tous les nombres de la colonne, quelle que soit la devise.
 +++
 
-+++Pourquoi vois-je des valeurs décimales pour une propriété de transaction qui doit être un nombre naturel (1, 2, etc.) ?
++++Pourquoi vois-je des valeurs décimales pour une mesure de conversion qui doit être un nombre naturel (1, 2, etc.) ?
 Vous pouvez voir des valeurs décimales dans les cas suivants :
 
 * Si vous avez exécuté le rapport à l’aide d’un paramètre de règle d’attribution de conversion autre que [!UICONTROL Last Event] ou [!UICONTROL First Event], les recettes peuvent alors être fractionnées entre plusieurs événements du chemin de conversion.
@@ -162,13 +162,13 @@ Le rapport peut ne pas inclure de mesures de conversion pour lesquelles des conv
 
 * La balise de suivi de conversion n’est pas correctement implémentée sur toutes les pages web applicables ou a été modifiée.
 
-* Les propriétés de transaction suivies par Search, Social et Commerce sont exclues des rapports et ne sont donc pas visibles.
+* Les mesures de conversion suivies par Search, Social et Commerce sont exclues des rapports et ne sont donc pas visibles.
 
 * L’analyseur des recettes du client n’a pas été mis en oeuvre.
 
 *Solution possible ou solution de contournement :*
 
-1. Vérifiez que les colonnes correctes sont incluses dans les rapports ou les vues de données. Si les colonnes correctes ne sont pas disponibles à ajouter, vous ou votre équipe de compte d’Adobe devez [rendre les propriétés de transaction disponibles pour les rapports](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Vérifiez que les colonnes correctes sont incluses dans les rapports ou les vues de données. Si les colonnes correctes ne sont pas disponibles à ajouter, vous ou votre équipe de compte d’Adobe devez [rendre les mesures de conversion disponibles pour les rapports ;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. Vérifiez que les balises de suivi de conversion correctes sont implémentées sur toutes les pages web applicables. Si nécessaire, demandez à votre équipe de compte d’Adobe de créer une transaction de test pour chaque balise de suivi de conversion applicable et de capturer les détails de la transaction, tels que le `transactionid` et les détails du cookie (tels que `trackingid`, `clickid`, etc.).
 
@@ -188,7 +188,7 @@ Le rapport peut ne pas inclure de mesures de conversion pour lesquelles des conv
 
 * Le fichier de flux n’a pas été livré, il n’a pas été complètement analysé ou il contenait des transactions orphelines.
 
-* Les propriétés de transaction appropriées sont exclues des rapports et ne sont donc pas visibles.
+* Les mesures de conversion appropriées sont exclues des rapports et ne sont donc pas visibles.
 
 >[!NOTE]
 >
@@ -196,7 +196,7 @@ Le rapport peut ne pas inclure de mesures de conversion pour lesquelles des conv
 
 *Solution possible ou solution de contournement :*
 
-1. Vérifiez que les colonnes correctes sont incluses dans les rapports ou les vues de données. Si les colonnes correctes ne sont pas disponibles à ajouter, vous ou votre équipe de compte d’Adobe devez [rendre les propriétés de transaction disponibles pour les rapports](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Vérifiez que les colonnes correctes sont incluses dans les rapports ou les vues de données. Si les colonnes correctes ne sont pas disponibles à ajouter, vous ou votre équipe de compte d’Adobe devez [rendre les mesures de conversion disponibles pour les rapports ;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. Exécutez la variable [!UICONTROL Portfolio Report]. S’il est vide, exécutez la variable [!UICONTROL Campaign Report] et [!UICONTROL Search Engine Report] pour voir si les recettes apparaissent dans ces rapports. Si tel est le cas, les campagnes peuvent ne pas être affectées au portfolio approprié.
 
@@ -313,8 +313,8 @@ La variable [!UICONTROL Portfolio Report] affiche les données des seules campag
 Les réseaux publicitaires ne fournissent pas l’identifiant nécessaire pour attribuer des recettes à une publicité individuelle pour ces campagnes. Par conséquent, les données de performances au niveau de l’annonce ne sont pas disponibles pour ces types de campagne dans la variable [!UICONTROL Ads] ou dans la fonction [!UICONTROL Ad Variation Report]. Vous pouvez vous attendre à des incohérences entre le total des données au niveau de la publicité pour une campagne et le total des données de la campagne.
 +++
 
-+++Dans le [!UICONTROL Transaction Report], comment savoir quelle propriété de transaction provient d’un flux de données ou est suivie par le pixel de suivi d’Adobe Advertising ?
-Dans un rapport de transaction, vous pouvez déterminer si une propriété de transaction incluse a été suivie par le pixel de suivi d’Adobe Advertising si vous incluez la colonne personnalisée &quot;[!UICONTROL Tracking URL].&quot; Le suivi des URL avec le pixel de suivi d’Adobe Advertising commence par &quot;`http://pixel.everesttech.net`.&quot;
++++Dans le [!UICONTROL Transaction Report], comment savoir quelle mesure de conversion provient d’un flux de données ou est suivie par le pixel de suivi d’Adobe Advertising ?
+Dans un rapport de transaction, vous pouvez déterminer si une mesure de conversion incluse a été suivie par le pixel de suivi d’Adobe Advertising si vous avez inclus la colonne personnalisée &quot;[!UICONTROL Tracking URL].&quot; Le suivi des URL avec le pixel de suivi d’Adobe Advertising commence par &quot;`http://pixel.everesttech.net`.&quot;
 +++
 
 +++Les données de mon [!UICONTROL Transaction Report] ne correspond pas aux données de mon [!UICONTROL Keyword Report].

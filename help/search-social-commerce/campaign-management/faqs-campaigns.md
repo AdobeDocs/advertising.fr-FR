@@ -3,7 +3,7 @@ title: Questions fréquentes sur les campagnes
 description: Reportez-vous aux réponses aux questions sur la gestion de campagne et les vues de données de campagne.
 exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Selon le [paramètres de données de flux](/help/search-social-commerce/campaign
 
 +++([!DNL Google Ads] campagnes) Modifications des noms d’affichage de mes [!DNL Google]Les conversions trackées ont été annulées.
 
-Si vous modifiez les noms d’affichage des propriétés de transaction dans Search, Social et Commerce, vos modifications sont remplacées par les noms configurés dans [!DNL Google Ads]. Apportez toute modification au nom dans [!DNL Google Ads].
+Si vous modifiez les noms d’affichage des mesures de conversion dans Search, Social et Commerce, vos modifications sont remplacées par les noms configurés dans [!DNL Google Ads]. Apportez toute modification au nom dans [!DNL Google Ads].
 +++
 
 +++(Campagnes Google Ads) Puis-je utiliser un budget partagé pour les campagnes dans les portefeuilles ?

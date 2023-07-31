@@ -3,7 +3,7 @@ title: Données utilisées pour les rapports
 description: Découvrez les différents types de données disponibles dans les vues de données et les rapports personnalisés.
 exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Search, Social et Commerce comprend un ensemble complet de rapports de performances reposant sur les données de clic et de conversion. Vous pouvez afficher des données de performances de base pour les différents composants d’un portfolio ou d’un compte publicitaire à partir de la [!UICONTROL Portfolios] et [!UICONTROL Campaigns] vues et en générant divers rapports de base et avancés.
 
-Les annonceurs qui utilisent le service de suivi de conversion Adobe Advertising peuvent également identifier le nombre de clics pour un emplacement géographique ou le nom de domaine d’un site web référent, la manière dont les publicités dans chaque canal et les différents événements menant à une conversion contribuent au taux de conversion global et la distribution des conversions pour un seul canal. [propriété de transaction](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) par canal marketing. Les rapports disponibles varient en fonction du type de compte d’utilisateur. L’équipe Compte d’Adobe a accès à tous les rapports.
+Les annonceurs qui utilisent le service de suivi de conversion Adobe Advertising peuvent également identifier le nombre de clics pour un emplacement géographique ou le nom de domaine d’un site web référent, la manière dont les publicités dans chaque canal et les différents événements menant à une conversion contribuent au taux de conversion global et la distribution des conversions pour un seul canal. [mesure de conversion](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) par canal marketing. Les rapports disponibles varient en fonction du type de compte d’utilisateur. L’équipe Compte d’Adobe a accès à tous les rapports.
 
 La plupart des rapports peuvent être personnalisés pour afficher uniquement les informations que vous souhaitez afficher. Les mesures standard suivantes sont disponibles dans la plupart des rapports et sont calculées au niveau de la publicité :
 
@@ -32,7 +32,7 @@ La plupart des rapports peuvent être personnalisés pour afficher uniquement le
 
    * **[!UICONTROL Estimated Clicks]:** (Inclus dans les rapports avancés pour les annonceurs disposant uniquement du service de suivi de conversion d’Adobe Advertising) Nombre total de clics estimés pour une ville ou le nom de domaine d’un site web référent. Cela peut inclure les données des réseaux publicitaires pour lesquels un annonceur ne dispose pas de compte publicitaire.
 
-* **Mesures de conversion :** Le nombre total de conversions pour chaque publicité de [propriétés de transaction](/help/search-social-commerce/glossary.md#s-t)ou les données de transaction suivies vers un type de conversion. Cela peut inclure des mesures de conversion et d’engagement du site, mais pas des mesures calculées ni des mesures calculées avancées, qui sont synchronisées à partir d’Adobe Analytics.
+* **Mesures de conversion :** Nombre total de conversions pour chacune des mesures de conversion de l’annonceur ou des données de transaction suivies vers une mesure de conversion. Cela peut inclure des mesures de conversion et d’engagement du site, mais pas des mesures calculées ni des mesures calculées avancées, qui sont synchronisées à partir d’Adobe Analytics.
 
   Cela peut également inclure : [[!DNL Google Ads]-conversions suivies](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) et [[!DNL Google Analytics]-conversions suivies](/help/search-social-commerce/admin/data-sources/data-source-about.md) qui sont synchronisés pour le compte de l’annonceur.
 

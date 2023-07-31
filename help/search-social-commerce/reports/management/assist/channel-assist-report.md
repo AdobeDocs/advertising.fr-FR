@@ -3,7 +3,7 @@ title: '[!UICONTROL Channel Assist Report]'
 description: En savoir plus sur les [!UICONTROL Channel Assist Report].
 exl-id: 49616327-72e9-49c6-90b9-91c7486e8417
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colo
 | [!UICONTROL First Event Type] | Par défaut | Type d’événement du premier événement (le plus ancien) dans le chemin de conversion. |
 | [!UICONTROL Last Event Type] | Par défaut | Type d’événement du dernier événement qui a généré des conversions (même si le dernier événement se trouve en dehors de la taille de chemin spécifiée). |
 | \[Mesures personnalisées (dérivées) spécifiques aux annonceurs\] | Personnalisé | La valeur d’une mesure personnalisée que vous avez créée et calculée à partir de mesures existantes. |
-| \[Propriétés de transaction spécifiques aux annonceurs\] | Personnalisé | Nombre de conversions pour une propriété de transaction ou une mesure d’engagement du site spécifiée. |
-| [!UICONTROL % of Total] \[propriété de transaction\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport pour chaque propriété de transaction incluse) Le pourcentage de vos conversions globales entre les portefeuilles qui ont été attribués au modèle d’événement. |
+| \[Mesures de conversion spécifiques aux annonceurs\] | Personnalisé | Nombre de conversions pour une mesure de conversion spécifiée ou une mesure d’engagement du site. |
+| [!UICONTROL % of Total] \[mesure de conversion\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport pour chaque mesure de conversion incluse) Le pourcentage de vos conversions globales entre les portefeuilles qui ont été attribués au modèle d’événement. |
 | [!UICONTROL 6th Event] to [!UICONTROL 30th Event] | Personnalisé | Les sixième à 30e types d’événements dans le chemin de conversion qui s’est produit dans le rapport de l’annonceur [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j). |
-| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[propriété de transaction\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport pour chaque propriété de transaction incluse) Latence moyenne en jours entre le premier événement et une conversion. |
-| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[propriété de transaction\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport) Latence moyenne en jours entre le dernier événement et une conversion. |
+| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[mesure de conversion\] | Automatique | (Non disponible dans les paramètres du rapport, mais automatiquement inclus dans la sortie du rapport pour chaque mesure de conversion incluse) Latence moyenne en jours entre le premier événement et une conversion. |
+| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[mesure de conversion\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport) Latence moyenne en jours entre le dernier événement et une conversion. |
 | [!UICONTROL Path Frequency] | Personnalisé | Nombre de fois où le chemin d’accès de cette ligne s’est produit avant la conversion. |
 
 >[!MORELIKETHIS]

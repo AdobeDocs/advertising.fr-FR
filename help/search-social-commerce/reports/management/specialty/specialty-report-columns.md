@@ -3,7 +3,7 @@ title: Colonnes de rapports pour les rapports spécialisés
 description: Découvrez les colonnes de données disponibles pour les rapports spécialisés.
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 | Colonne | Description |
 |----|----|
 | \[Mesures personnalisées (dérivées) spécifiques aux annonceurs\] | La valeur d’une mesure personnalisée que vous avez créée et calculée à partir de mesures existantes. |
-| \[Propriétés de transaction spécifiques aux annonceurs\] | Nombre de conversions pour une propriété de transaction ou une mesure d’engagement du site spécifiée. |
+| \[Mesures de conversion spécifiques aux annonceurs\] | Nombre de conversions pour une mesure de conversion spécifiée ou une mesure d’engagement du site. |
 | [!UICONTROL Account Name] | Nom du compte. |
 | [!UICONTROL Account Number] | ([!UICONTROL MSA Ad Extension] rapports) Identifiant de compte attribué par le réseau publicitaire. |
 | [!UICONTROL Account Status] | ([!UICONTROL MSA Ad Extension] (Rapports) État du compte : *[!UICONTROL Active]*, *[!UICONTROL Paused]*, ou *[!UICONTROL Inactive]*. |

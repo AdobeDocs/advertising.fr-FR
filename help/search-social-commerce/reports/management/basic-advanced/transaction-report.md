@@ -3,7 +3,7 @@ title: '[!UICONTROL Transaction Report]'
 description: En savoir plus sur les [!UICONTROL Transaction Report].
 exl-id: 879c6dc0-6667-4e63-8403-bc2f2ee5ba3c
 feature: Search Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 La variable [!UICONTROL Transaction Report] fournit des détails au niveau de la transaction pour les mots-clés actuels dans les groupes publicitaires dans les campagnes de recherche et d’affichage, ainsi que pour les jeux de publicités dans les campagnes sociales, dans des portefeuilles ou des comptes publicitaires spécifiés (le cas échéant). Vous pouvez éventuellement inclure des mesures de conversion. Vous pouvez comparer les résultats de ce rapport aux données de transaction de l’annonceur afin de vérifier que Search, Social et Commerce signale toutes les transactions de l’annonceur.
 
-Par défaut, le rapport inclut des données pour les transactions survenues au cours de la période spécifiée. Les données pour chaque transaction incluent l’ID de transaction, les heures de clic/impression et de transaction, le type de conversion, la propriété de transaction et les données de recettes pour la propriété de transaction (1 pour une inscription ou 12 pour une commande de 12 $) pour chaque mot-clé ou combinaison de publicité/groupe publicitaire/campagne/portefeuille. Par défaut, les lignes sont dans l’ordre croissant d’abord par heure de transaction, puis par heure de clic.
+Par défaut, le rapport inclut des données pour les transactions survenues au cours de la période spécifiée. Les données pour chaque transaction incluent l’ID de transaction, les heures de clic/impression et de transaction, le type de conversion, la mesure de conversion et les données de recettes pour la mesure de conversion (par exemple, 1 pour une inscription ou 12 pour une commande de 12 $) pour chaque mot-clé ou combinaison publicité/groupe publicitaire/campagne/portefeuille. Par défaut, les lignes sont dans l’ordre croissant d’abord par heure de transaction, puis par heure de clic.
 
 Vous pouvez afficher les données des 45 jours précédents.
 

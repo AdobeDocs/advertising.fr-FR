@@ -3,9 +3,9 @@ title: Glossaire
 description: Voir les définitions des termes clés.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 2ea9830c24ec7bdc10c3774b9a97c659b6ea1747
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **contrainte :** (Publicitaires avec portefeuilles ; applicable aux unités d’offre dans les portefeuilles standard uniquement) Règle pour l’enchère sur un mot-clé ou une publicité spécifique. Il remplace toutes les limites au niveau du portefeuille et la stratégie d’offre recommandée.
 
-**conversion :** Fin d’une action après qu’un utilisateur final a cliqué sur une publicité, généralement capturée sous forme de mesure. Par exemple, des inscriptions ou des achats. Une conversion peut comporter un ou plusieurs événements de transaction, mais les termes &quot;conversion&quot; et &quot;transaction&quot; sont souvent interchangeables.
+**conversion :** Fin d’une action après qu’un utilisateur final a cliqué sur une publicité, généralement capturée comme mesure. Par exemple, les inscriptions et les achats et ils peuvent représenter des décomptes ou des montants monétaires. Une conversion peut comporter un ou plusieurs événements de transaction, mais les termes &quot;conversion&quot; et &quot;transaction&quot; sont souvent interchangeables.
 
 **suivi des conversions :** Le suivi des conversions utilise des cookies pour effectuer le suivi a) des clics sur les publicités d’un annonceur sur les réseaux publicitaires et b) des transactions résultantes sur le site web de l’annonceur.
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 ## O-P {#o-p}
 
-**objectif :** (Publicitaires avec portefeuilles) Objectif qu’un client définit pour atteindre son objectif commercial dans le cadre d’un portefeuille spécifique ou d’une campagne d’affichage, par exemple pour maximiser les bénéfices ou atteindre une cible de vente spécifique. Un objectif est constitué des mesures de conversion (également appelées propriétés des transactions) à suivre et à optimiser pour le portefeuille, ainsi que des poids relatifs de ces mesures.
+**objectif :** (Publicitaires avec portefeuilles) Objectif qu’un client définit pour atteindre son objectif commercial dans le cadre d’un portefeuille spécifique ou d’une campagne d’affichage, par exemple pour maximiser les bénéfices ou atteindre une cible de vente spécifique. Un objectif consiste à effectuer le suivi et l’optimisation des mesures de conversion pour le portefeuille, ainsi qu’à déterminer leur poids relatif.
 
 **Valeur de l’objectif :** (Publicitaires avec portefeuilles) Le total des conversions pondérées tel que calculé en fonction de l’objectif actuel du portfolio, notamment :
 
@@ -138,9 +138,9 @@ Cette valeur est identique à celle de la colonne héritée &quot;Recettes pond�
 
 **PPC :** Voir &quot;paiement par clic&quot;.
 
-**property:** Voir &quot;propriété de transaction&quot;.
+**property:** Voir &quot;mesure de conversion&quot;.
 
-**heure de la propriété :** Heure à laquelle une transaction individuelle a lieu. Lorsqu’une transaction inclut des transactions de relance associées (par exemple, un client qui s’enregistre d’abord pour un essai gratuit et s’abonne ensuite à un service payant), chaque transaction dispose de son propre temps de propriété.
+**heure de la propriété :** Heure à laquelle un événement de conversion individuel se produit. Lorsqu’un événement comprend des événements de relance associés (par exemple, un client qui s’enregistre d’abord pour un essai gratuit et s’abonne ensuite à un service payant), chaque événement a sa propre heure de propriété.
 
 ## Q-R {#q-r}
 
@@ -174,7 +174,7 @@ Cette valeur est identique à celle de la colonne héritée &quot;Recettes pond�
 
 **transaction ID :** Identifiant spécifié par l’annonceur qui identifie une transaction. Lorsqu’une transaction comprend plusieurs événements, ils ont tous le même ID de transaction.
 
-**propriété de transaction :** Attribut d’une transaction, tel que le type de transaction/conversion, le montant en dollars d’une vente ou un type de produit vendu (par exemple, &quot;Pistes de vente&quot;, &quot;Montant de la vente&quot; ou &quot;1 an&quot;. Inscriptions,&quot; respectivement. Dans Search, Social et Commerce, les propriétés de transaction sont mesurées en fonction de l’objectif d’un portfolio et sont identifiées dans l’ID de suivi. Les termes &quot;propriété de transaction&quot; et &quot;conversion&quot;<!-- type-->&quot; sont souvent utilisés de manière interchangeable.
+**propriété de transaction :** Voir &quot;conversion&quot;.
 
 **temps de transaction :** Heure à laquelle un clic ou une impression est converti en transaction. Lorsqu’une transaction se compose de plusieurs événements de transaction (par exemple, lorsqu’un client s’inscrit pour la première fois à un essai gratuit et s’abonne ensuite à un service payant), le temps de transaction provient du premier événement de la chaîne (s’inscrivant pour l’essai gratuit).
 

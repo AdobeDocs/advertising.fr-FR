@@ -3,7 +3,7 @@ title: Exigences liées aux fichiers de flux de conversion
 description: Référencez les exigences relatives aux fichiers de flux de conversion.
 exl-id: 7d865802-0ab9-4965-9618-6bc0667f4939
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -18,9 +18,9 @@ Vous trouverez ci-dessous les exigences relatives au format de fichier, aux cham
 
 Le fichier de données doit être au format texte plat (TXT), valeurs séparées par des virgules (CSV) ou valeurs séparées par des tabulations (TSV). Le fichier peut se composer d’une rangée d’en-tête et de rangées de données avec des valeurs séparées par des tabulations, des virgules ou un autre caractère (mais pas des espaces) :
 
-* **Ligne d’en-tête :** (Facultatif) La première ligne du fichier est un en-tête qui spécifie les noms de champ (ou noms de colonne) requis dans un ordre spécifique, séparés par des tabulations ou des virgules. Les noms de colonne requis incluent les propriétés de transaction dont le suivi par Adobe Advertising est effectué en tant que conversions.
+* **Ligne d’en-tête :** (Facultatif) La première ligne du fichier est un en-tête qui spécifie les noms de champ (ou noms de colonne) requis dans un ordre spécifique, séparés par des tabulations ou des virgules. Les noms de colonne requis incluent les mesures de conversion dont le suivi Adobe Advertising est effectué en tant que conversions.
 
-* **Lignes de données :** Chaque ligne suivante inclut des champs de données dans le même ordre que l’en-tête et séparés par des tabulations ou des virgules. Si le premier enregistrement n’est pas un en-tête, chaque ligne de données doit inclure tous les champs possibles, dans un ordre spécifié. Les valeurs de tous les identifiants et propriétés de transaction doivent être alphanumériques.
+* **Lignes de données :** Chaque ligne suivante inclut des champs de données dans le même ordre que l’en-tête et séparés par des tabulations ou des virgules. Si le premier enregistrement n’est pas un en-tête, chaque ligne de données doit inclure tous les champs possibles, dans un ordre spécifié. Les valeurs de tous les identifiants et mesures de conversion doivent être alphanumériques.
 
   Lorsque plusieurs clics sur une ou plusieurs publicités conduisent à une transaction, vous devez déterminer l’identifiant de clic et l’identifiant de suivi auxquels attribuer la transaction. Un identifiant unique étant signalé pour chaque transaction, vous pouvez mettre à jour des transactions individuelles.
 

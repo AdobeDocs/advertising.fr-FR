@@ -3,7 +3,7 @@ title: Sécurité des marques et qualité des médias
 description: En savoir plus sur la sécurité de la marque et les fonctionnalités de qualité multimédia.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 09ccb4790906e64834e52fb28956fe41997cbd1b
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 0%
@@ -22,9 +22,9 @@ En plus d’offrir une gestion centralisée de la qualité, nous pensons à donn
 
 ## Initiatives de qualité
 
-### Vérification de l’inventaire avec [!DNL Ads.txt] Assistance
+### Vérification du stock avec [!DNL Ads.txt] Assistance
 
-[[!DNL Ads.txt], qui signifie [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt) est une initiative lancée par la [!DNL Interactive Advertising Bureau] ([!DNL IAB]) en juin 2017 afin de faciliter la représentation adéquate des stocks sur le marché ouvert, et de lutter ainsi contre les sources illégitimes de trafic et d’usurpation de domaine. Les éditeurs et les distributeurs participants déclarent publiquement les entreprises autorisées à vendre leur inventaire numérique et la nature de ces relations, en maintenant une `ads.txt` au niveau supérieur du domaine (par exemple `example.com/ads.txt`).
+[[!DNL Ads.txt], qui signifie [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt) est une initiative lancée par la [!DNL Interactive Advertising Bureau] ([!DNL IAB]) en juin 2017 afin de faciliter la représentation adéquate des stocks sur le marché ouvert, et de lutter ainsi contre les sources illégitimes de trafic et d’usurpation de domaine. Les éditeurs et les distributeurs participants déclarent publiquement les entreprises autorisées à vendre leur inventaire numérique, ainsi que la nature de ces relations, en maintenant une `ads.txt` au niveau supérieur du domaine (par exemple `example.com/ads.txt`).
 
 Prise en charge des DSP [!DNL ads.txt] en lisant les `ads.txt` et vous donner la possibilité d’acheter uniquement auprès d’un [!DNL ads.txt] vendeurs. Par exemple, en faisant correspondre les vendeurs, nous voyons accéder aux `nytimes.com` au New York Times&#39; `ads.txt` , nous pouvons identifier celles qui sont légitimes et celles qui ne le sont pas, et nous bloquerons les contrevenants si l&#39;emplacement est configuré pour n&#39;acheter qu&#39;auprès de vendeurs vérifiés. <!-- can we actually mention NY Times? -->
 
@@ -60,11 +60,11 @@ Le mapping de l’inventaire est le processus détaillé de révision et d’int
 
 * **Mosaïque :** Nous examinons la présence de la marque dans l’écosystème global pour classer l’inventaire selon différents niveaux. Vous pouvez [cibler vos emplacements](/help/dsp/campaign-management/placements/placement-settings.md) à ces niveaux pour le niveau de portée souhaité :
 
-   * **[!UICONTROL T1]** - Nom de la marque, sites reconnaissables à l’échelle internationale
+   * **[!UICONTROL T1]** — Nom de la marque, sites reconnaissables à l’échelle internationale
 
-   * **[!UICONTROL T2]** - Sites d’une grande beauté, actualisés, sans contenu généré par l’utilisateur, et généralement peu reconnus au niveau mondial
+   * **[!UICONTROL T2]** — Sites de grande qualité, actualisés, sans contenu généré par l’utilisateur, et généralement peu reconnus au niveau mondial
 
-   * **[!UICONTROL T3]** - Contenu généré par l’utilisateur et contenu de niche
+   * **[!UICONTROL T3]** — Contenu généré par l’utilisateur et contenu de niche
 
 * **Classification de site :** Pour faciliter le ciblage et le blocage du contenu, nous balisons chaque propriété avec une catégorie de site DSP définie en fonction du contenu de la propriété. Vous pouvez [cibler ou exclure ces catégories de site pour chaque emplacement ;](/help/dsp/campaign-management/placements/placement-settings.md) en fonction des objectifs de placement.
 
@@ -74,7 +74,7 @@ DSP fournit à la fois une liste de sites bloqués globalement et la possibilit�
 
 #### DSP Liste globale des sites bloqués {#global-blocked-sites}
 
-DSP tient à jour une liste de sites bloqués globalement considérés comme dangereux pour l’exécution des publicités. Cette liste contient des sites présentant des contenus répréhensibles (tels que la haine ou la terreur) et des sites infectés par des robots, des faux preroll, des domaines discordants et d&#39;autres activités frauduleuses.
+DSP tient à jour une liste de sites bloqués à l’échelle mondiale de sites considérés comme dangereux pour l’exécution des publicités. Cette liste contient des sites présentant des contenus répréhensibles (tels que la haine ou la terreur) et des sites infectés par des robots, des faux preroll, des domaines discordants et d&#39;autres activités frauduleuses.
 
 Dans le cadre de notre initiative de sécurité des marques (Brand Safety) visant à éradiquer les activités qui fraudent les publicitaires, tous les sites sont analysés à l’aide des mesures figurant dans la liste des sites bloqués du graphique. Tous les sites qui ne réussissent pas les contrôles de sécurité de la marque sont ajoutés à la liste des sites bloqués globalement. DSP gère cette liste de manière dynamique. Aussi, les sites peuvent-ils s’y placer ou la quitter à tout moment, en fonction des dernières analyses de sécurité de la marque.
 
@@ -108,7 +108,7 @@ Pour plus d’informations sur les fonctionnalités, contactez directement votre
 
 ![Logo Comscore](/help/dsp/assets/comscore-logo.png) ![Logo DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logo Integral Ad Science](/help/dsp/assets/ias-logo.png) ![Logo Peer39](/help/dsp/assets/peer39-logo.png)
 
-### Visibilité avant offre {#pre-bid-viewability}
+### Visibilité avant l’offre {#pre-bid-viewability}
 
 Filtres de visibilité avant offre optimisés par nos partenaires de pointe [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]), et [!DNL Integral Ad Science] permettent aux annonceurs de s’assurer que leurs campagnes correspondent aux objectifs de performances de visionnage souhaités dans l’inventaire des vidéos et des affichages.
 
@@ -145,5 +145,4 @@ Pour plus d’informations sur les fonctionnalités, contactez [!DNL DoubleVerif
 >[!MORELIKETHIS]
 >
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
-
 <!-- >* [Advertiser Account Settings](/help/dsp/admin/advertiser-settings.md) -->

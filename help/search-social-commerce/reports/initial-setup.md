@@ -3,7 +3,7 @@ title: Tâches de configuration initiales des rapports
 description: Découvrez comment rendre les mesures disponibles dans les rapports et comment automatiser les rapports.
 exl-id: 0f55aae9-6898-4967-a377-190a13dff6fd
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Les nouveaux utilisateurs doivent effectuer les tâches de configuration initiales suivantes :
 
-* Rendre les propriétés de transaction dont l’Adobe Advertising effectue le suivi pour un annonceur [disponibles pour les rapports et autres vues](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)et éventuellement [renommer l’un des noms de propriété ;](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) qui s’affichent en en-têtes de colonne pour être lisibles.
+* Mesures de conversion suivies par l’Adobe Advertising pour un annonceur [disponibles pour les rapports et autres vues](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)et éventuellement [renommer l’une des mesures de conversion](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) qui s’affichent en en-têtes de colonne pour être lisibles.
 
   Les propriétés des transactions ne sont pas disponibles pour les rapports, sauf si vous les rendez spécifiquement disponibles.
 
-  Si vous commencez plus tard à suivre une nouvelle propriété de transaction, vous devrez répéter cette tâche.
+  Si vous commencez par suivre une nouvelle mesure de conversion, vous devrez répéter cette tâche.
 
 * (Facultatif) Automatisez la génération des rapports :
 

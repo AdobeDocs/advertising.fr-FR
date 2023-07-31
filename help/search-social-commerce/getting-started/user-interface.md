@@ -3,7 +3,7 @@ title: Organisation de l’interface utilisateur
 description: Découvrez où accéder à différentes fonctionnalités.
 exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Sous , [!UICONTROL Search] , vous verrez les sous-menus suivants. Les options di
 
 * **[!UICONTROL Tools]** — Ce menu comprend des options permettant de modifier le mot de passe de votre compte, de générer des balises pour suivre les conversions à partir des pages du site web, de générer et de décoder des URL de suivi des clics et de charger des mesures pour les campagnes de suivi de recherche.
 
-* **[!UICONTROL Admin]** — Le [!UICONTROL Admin] menu comprend des options permettant de modifier les noms d’affichage des propriétés de transaction d’un annonceur dans les tableaux de données et les rapports, de configurer les paramètres à synchroniser avec un compte Adobe Audience Manager et de synchroniser les mesures de conversion pour un compte spécifique. [!DNL Google Analytics] combinaison de compte, propriété et vue. Selon votre rôle, il peut vous permettre de gérer des comptes d’annonceurs, des comptes d’agence, des rôles d’utilisateur et des comptes d’utilisateurs.
+* **[!UICONTROL Admin]** — Le [!UICONTROL Admin] menu comprend des options permettant de modifier les noms d’affichage des mesures de conversion d’un annonceur dans les tableaux de données et les rapports, de configurer les paramètres à synchroniser avec un compte Adobe Audience Manager et de synchroniser les mesures de conversion pour un compte spécifique. [!DNL Google Analytics] combinaison de compte, propriété et vue. Selon votre rôle, il peut vous permettre de gérer des comptes d’annonceurs, des comptes d’agence, des rôles d’utilisateur et des comptes d’utilisateurs.
 
 ## Autres menus de tâches et informations sur la droite
 

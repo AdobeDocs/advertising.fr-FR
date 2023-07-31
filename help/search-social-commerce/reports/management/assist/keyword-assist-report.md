@@ -3,7 +3,7 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: En savoir plus sur les [!UICONTROL Keyword Assist Report].
 exl-id: 07de2880-111b-498f-9f7f-ec15f89230ae
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -37,11 +37,11 @@ Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colo
 | [!UICONTROL First Keyword] | Par défaut | Premier mot-clé ou emplacement dans le chemin de conversion. |
 | [!UICONTROL Last Keyword] | Par défaut | Dernier mot-clé ou emplacement ayant généré des conversions (même si le dernier mot-clé se trouve en dehors de la taille de chemin spécifiée). |
 | \[Mesures personnalisées (dérivées) spécifiques aux annonceurs\] | Personnalisé | La valeur d’une mesure personnalisée que vous avez créée et calculée à partir de mesures existantes. |
-| \[Propriétés de transaction spécifiques aux annonceurs\] | Personnalisé | Nombre de conversions pour une propriété de transaction ou une mesure d’engagement du site spécifiée. |
-| [!UICONTROL % of Total] \[propriété de transaction\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport pour chaque propriété de transaction incluse) Le pourcentage de vos conversions globales entre les portfolios qui ont été attribués au mot-clé et/ou au modèle d’emplacement. |
+| \[Mesures de conversion spécifiques aux annonceurs\] | Personnalisé | Nombre de conversions pour une mesure de conversion spécifiée ou une mesure d’engagement du site. |
+| [!UICONTROL % of Total] \[mesure de conversion\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport pour chaque mesure de conversion incluse) Le pourcentage de vos conversions globales entre les portefeuilles qui ont été attribués au mot-clé et/ou au modèle d’emplacement. |
 | [!UICONTROL 6th Keyword] to [!UICONTROL 10th Keyword] | Personnalisé | Le sixième à dixième mot-clé de recherche payante ou clics d’emplacement dans le chemin de conversion qui s’est produit dans le chemin de l’annonceur [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Remarque :</b> Si le rapport inclut des emplacements provenant de campagnes de recherche activées sur le contenu (qui n’incluent pas de mots-clés), ces colonnes indiquent les noms de groupes d’annonces applicables, tels que &quot;(contenu de groupe) Votre nom de groupe d’annonces&quot;, à la place. |
-| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[propriété de transaction\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport pour chaque propriété de transaction incluse) Latence moyenne en jours entre le premier événement (sur le premier mot-clé ou emplacement) et une conversion. |
-| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[propriété de transaction\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport) Latence moyenne en jours entre le dernier événement (sur le dernier mot-clé ou emplacement) et une conversion. |
+| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[mesure de conversion\] | Automatique | (Non disponible dans les paramètres du rapport, mais automatiquement inclus dans la sortie du rapport pour chaque mesure de conversion incluse) Latence moyenne en jours entre le premier événement (sur le premier mot-clé ou emplacement) et une conversion. |
+| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[mesure de conversion\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport) Latence moyenne en jours entre le dernier événement (sur le dernier mot-clé ou emplacement) et une conversion. |
 | [!UICONTROL Path Frequency] | Personnalisé | Nombre de fois où le chemin d’accès de cette ligne s’est produit avant la conversion. |
 
 >[!MORELIKETHIS]

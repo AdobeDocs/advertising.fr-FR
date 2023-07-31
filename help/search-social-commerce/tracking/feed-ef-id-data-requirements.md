@@ -3,7 +3,7 @@ title: Exigences de données pour les flux de données à l’aide des ID EF
 description: Référencez les exigences de données pour les flux de données à l’aide des identifiants EF.
 exl-id: 15e76f3a-c376-4e7b-b3c8-ca76fd427002
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Vous trouverez ci-dessous les champs d’en-tête et les champs de données corr
 
 ## Exemple
 
-L’exemple de fichier suivant inclut des données pour deux propriétés de transaction (Produit et Recettes).
+L’exemple de fichier suivant inclut des données pour deux mesures de conversion (Produit et Recettes).
 
 ```
 EF ID,Client Transaction ID, Transaction Date,Product,Revenue
