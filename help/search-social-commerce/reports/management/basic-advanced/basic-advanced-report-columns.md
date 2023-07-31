@@ -3,7 +3,7 @@ title: Colonnes de rapports pour les rapports de base et avancés
 description: Découvrez les colonnes de données disponibles pour les rapports de base et avancés.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 7ffdd97387815098994f85c4368e60b2b44838dd
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '3603'
 ht-degree: 0%
@@ -186,8 +186,6 @@ ht-degree: 0%
 | [!UICONTROL View Rate] | (Publicités vidéo) Nombre d’affichages ou d’engagements divisé par le nombre de fois où la publicité (impressions de vidéos et de miniatures) a été affichée. |
 | [!UICONTROL Views] | (Publicités vidéo) Le nombre de fois où des personnes ont regardé votre publicité ou l’ont utilisée. |
 | [!UICONTROL ViewThroughConversions] | (Publicités sur le réseau d’audience) Le nombre de conversions qui ont résulté d’une ou de plusieurs impressions mais pas de clics. |
-
-<table style="table-layout:auto">
 
 <!-- HOW IS MARKET TYPE DIFFERENT FROM CHANNEL TYPE? And what are all possible values for each? -->
 

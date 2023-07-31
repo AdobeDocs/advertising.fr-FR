@@ -3,7 +3,7 @@ title: Inventaire pris en charge
 description: Référencez les réseaux publicitaires, les types de campagne et les types d’annonces pris en charge.
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -50,8 +50,6 @@ Vous trouverez ci-dessous les réseaux publicitaires, les types de campagne et l
 | [!DNL Yahoo Native] (La prise en charge des synchronisations a pris fin en 2022) | Réseau natif | Native | Texte | —<br><br>Les informations de compte héritées jusqu’au 10 mars 2022 sont disponibles en lecture seule. | — | — | — | —<br><br>Données héritées au niveau des publicités synchronisées jusqu’au 10 mars 2022. | Données Analytics dans Search, Social et Commerce, mais pas inversement |
 | [!DNL Yandex] | Réseau de recherche | Rechercher | Texte | Automatique via l’API | Utilisation [vues de gestion de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [bulles](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), et [flux de gestion des stocks](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | Oui | Campagnes avec stratégie d&#39;offre CPC uniquement | Données au niveau de la publicité | Données Analytics dans Search, Social et Commerce<br><br>Données au niveau des publicités de Search, Social, &amp; Commerce vers Analytics |
 | | Réseau d’affichage | Affichage/Contenu | Texte | Automatique via l’API | Utilisation [vues de gestion de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [bulles](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), et [flux de gestion des stocks](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | Oui | Campagnes avec stratégie d&#39;offre CPC uniquement | Données au niveau de la publicité | Données Analytics dans Search, Social et Commerce<br><br>Données au niveau des publicités de Search, Social, &amp; Commerce vers Analytics |
-
-<table style="table-layout:auto">
 
 [^1]: pour la plupart des réseaux publicitaires et des types de campagne, lorsque vous activez le paramètre[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload]&quot;paramètres de suivi pour une campagne principale (définis au niveau de la campagne ou hérités des paramètres du compte), Search, Social &amp; Commerce crée et charge automatiquement les URL de suivi pour les composants du groupe publicitaire sur le réseau publicitaire chaque fois qu’il se synchronise avec celui-ci. Dans le cas contraire, vous devez générer les URL de suivi et les ajouter aux paramètres du compte, de la campagne ou du composant de campagne. Voir &quot;[Quand et comment générer des URL de suivi des clics par réseau publicitaire et par objet](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 

@@ -3,7 +3,7 @@ title: Paramètres des rapports de spécialité
 description: Découvrez les paramètres requis et facultatifs pour les rapports spécialisés.
 exl-id: b64163fd-030d-4183-abe4-a9cb021884a4
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2995'
 ht-degree: 0%
@@ -37,8 +37,6 @@ ht-degree: 0%
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (Facultatif ; disponible uniquement lorsque la variable[!UICONTROL Save as template]&quot; est sélectionnée) Lorsque vous souhaitez exécuter le rapport : <i>[!UICONTROL Now]</i> (pour exécuter le rapport une seule fois ; par défaut), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Jour de la semaine]</i>, ou <i>[!UICONTROL Every Month] [Jour du mois]</i>. Pour toutes les périodes à l’exception de <i>[!UICONTROL Now]</i>, sélectionnez l’heure dans le fuseau horaire de l’annonceur, à partir de 9h00. |
 |  | [!UICONTROL Email Recipients] | <b>Remarque :</b>  Ce paramètre est utilisé uniquement lorsque des notifications par e-mail pour [!UICONTROL Reports] are [activé dans [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>Adresses électroniques des utilisateurs de recherche, de réseaux sociaux et de commerce enregistrés auxquels envoyer des notifications lorsque le rapport est terminé ou annulé en raison d’erreurs. Par défaut, l’adresse de votre compte utilisateur est renseignée. Pour spécifier plusieurs adresses, séparez-les par des virgules, des espaces ou de nouvelles lignes. Lorsque l’exécution du rapport est planifiée à plusieurs reprises, une notification est envoyée chaque fois qu’un rapport est terminé. |
 |  | [!UICONTROL Email Notification] | <b>Remarque :</b>  Ce paramètre est utilisé uniquement lorsque des notifications par e-mail pour [!UICONTROL Reports] are [activé dans [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(Lorsque [!UICONTROL Email Recipients] sont spécifiées) Que inclure dans les notifications électroniques à des adresses spécifiées :<ul><li><i>[!UICONTROL Notification Only]</i> (valeur par défaut) : pour envoyer uniquement une notification de la fin ou de l’échec du rapport, sans pièces jointes. La notification comprend des liens de téléchargement temporaires pour tous les formats de rapport.</li><li><i>[!UICONTROL XLS Attachment]:</i> Pour inclure une copie du rapport terminé au format XLS si le fichier est inférieur à environ 10 Mo. Les fichiers de plus de 1 Mo sont compressés.</li><li><i>[!UICONTROL TSV Attachment]:</i> Pour inclure une copie du rapport complété au format TSV si le fichier est inférieur à environ 10 Mo. Les fichiers de plus de 1 Mo sont compressés.</li><li><i>[!UICONTROL CSV Attachment]:</i> Pour inclure une copie du rapport terminé au format CSV si le fichier est inférieur à environ 10 Mo. Les fichiers de plus de 1 Mo sont compressés. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

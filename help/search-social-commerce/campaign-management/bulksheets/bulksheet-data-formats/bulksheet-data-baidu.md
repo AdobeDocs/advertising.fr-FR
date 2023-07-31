@@ -3,7 +3,7 @@ title: Données de feuille d’envoi groupé requises pour [!DNL Baidu] comptes
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour [!DNL Baidu] comptes.
 exl-id: 9066f3d5-5de1-4efe-bd61-6c877e106920
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '1882'
 ht-degree: 0%
@@ -64,8 +64,6 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 | [!UICONTROL AMO ID] | n/a : Créer<br>Facultatif : modification et suppression | n/a : Créer<br>Facultatif : modification et suppression | n/a : Créer<br>Facultatif : modification et suppression | n/a : Créer<br>Facultatif : modification et suppression | n/a : Créer<br>Facultatif : modification et suppression | (Dans les feuilles d’envoi groupées générées) Une [!DNL Adobe]Identifiant unique généré pour une entité synchronisée. Pour les annonces de recherche réactive, l’AMO ID est requis pour modifier ou supprimer les annonces, sauf si vous incluez la variable [!UICONTROL Ad ID]. Pour modifier les données de tous les autres types d’entité avec un AMO ID, celui-ci doit les modifier ou les supprimer, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 | [!UICONTROL EF Error Message] | n/a | n/a | n/a | n/a | n/a | (Inclus dans les feuilles d’envoi groupées générées à des fins d’information) Espace réservé pour l’affichage des messages d’erreur de Search, Social et Commerce concernant les données de la ligne ; les messages d’erreur sont inclus dans [!UICONTROL EF Errors] fichiers . Cette valeur n’est pas publiée sur le réseau publicitaire. |
 | [!UICONTROL SE Error Message] | n/a | n/a | n/a | n/a | n/a | (Inclus dans les feuilles d’envoi groupées générées à des fins d’information) Espace réservé pour l’affichage des messages d’erreur du réseau publicitaire concernant les données de la ligne ; les messages d’erreur sont inclus dans [!UICONTROL SE Errors] fichiers . Cette valeur n’est pas publiée sur le réseau publicitaire. |
-
-<table style="table-layout:auto">
 
 [^1]: Excel convertit les grands nombres en notation scientifique (par exemple, 2.12E+09 pour 2115585666) lorsqu’il ouvre le fichier. Pour afficher les chiffres de la notation standard, sélectionnez n’importe quelle cellule de la colonne et cliquez dans la barre de formule.
 

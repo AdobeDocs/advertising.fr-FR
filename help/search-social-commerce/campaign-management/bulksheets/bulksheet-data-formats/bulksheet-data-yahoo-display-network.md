@@ -3,7 +3,7 @@ title: Données de feuilles d’envoi groupé pour [!DNL Yahoo! Display Network]
 description: Référencez les champs d’en-tête et de données dans les feuilles d’envoi groupées téléchargées pour [!DNL Yahoo! Display Network] comptes.
 exl-id: 233a7e1f-328b-4ff8-9e38-66c3185414b6
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
@@ -52,8 +52,6 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Keyword ID] | n/a | n/a | Si inclus | Identifiant unique qui identifie un mot-clé existant. |
 | [!UICONTROL AMO ID] | n/a | n/a | n/a | (Dans les feuilles d’envoi groupées générées) Identifiant unique généré par l’Adobe pour une entité synchronisée. |
 | [!UICONTROL EF Error Message] | n/a | n/a | n/a | (Inclus dans les feuilles d’envoi groupées générées à des fins d’information) Espace réservé pour l’affichage des messages d’erreur de Search, Social et Commerce concernant les données de la ligne ; les messages d’erreur sont inclus dans [!UICONTROL EF Errors] fichiers . |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

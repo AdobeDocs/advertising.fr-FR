@@ -3,7 +3,7 @@ title: Données de feuilles d’envoi groupé pour [!DNL Yahoo! Japan] comptes
 description: Référencez les champs d’en-tête et de données dans les feuilles d’envoi groupées téléchargées pour [!DNL Yahoo! Japan] comptes.
 exl-id: b68edbc1-0054-4dac-be3f-4df3c4e00ba9
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2581'
 ht-degree: 1%
@@ -68,8 +68,6 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 | [!UICONTROL AMO ID] | n/a : Créer<br><br>Facultatif : modification ou suppression | n/a : Créer<br><br>Facultatif : modification ou suppression | n/a : Créer<br><br>Facultatif : modification ou suppression | n/a : Créer<br><br>Facultatif : modification ou suppression | n/a | (Dans les feuilles d’envoi groupées générées) Une [!DNL Adobe]Identifiant unique généré pour une entité synchronisée. Pour les annonces de recherche réactive, la variable [!UICONTROL AMO ID] est requis pour modifier ou supprimer des publicités, sauf si vous incluez la variable [!UICONTROL Ad ID]. Pour modifier les données de tous les autres types d’entité avec un [!UICONTROL AMO ID], la variable [!UICONTROL AMO ID] est requis pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 | [!UICONTROL EF Error Message] | n/a | n/a | n/a | n/a | n/a | (Inclus dans les feuilles d’envoi groupées générées à des fins d’information) Espace réservé pour l’affichage des messages d’erreur de Search, Social et Commerce concernant les données de la ligne ; les messages d’erreur sont inclus dans [!UICONTROL EF Errors] fichiers . Cette valeur n’est pas publiée sur le réseau publicitaire. |
 | [!UICONTROL SE Error Message] | n/a | n/a | n/a | n/a | n/a | (Inclus dans les feuilles d’envoi groupées générées à des fins d’information) Espace réservé pour l’affichage des messages d’erreur du réseau publicitaire concernant les données de la ligne ; les messages d’erreur sont inclus dans [!UICONTROL SE Errors] fichiers . Cette valeur n’est pas publiée sur le réseau publicitaire. |
-
-<table style="table-layout:auto">
 
 [^1]: Excel convertit les grands nombres en notation scientifique (par exemple, 2.12E+09 pour 2115585666) lorsqu’il ouvre le fichier. Pour afficher les chiffres de la notation standard, sélectionnez n’importe quelle cellule de la colonne et cliquez dans la barre de formule.
 

@@ -3,7 +3,7 @@ title: '[!UICONTROL Forecast Accuracy (Actuals) Report]'
 description: En savoir plus sur les [!UICONTROL Forecast Accuracy (Actuals) Report], y compris les colonnes de données.
 exl-id: ff49284a-2d13-48bf-a172-3bd461db7a3c
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -32,8 +32,6 @@ Vous trouverez ci-dessous les colonnes qui sont automatiquement incluses dans ch
 | [!UICONTROL Impressions] | Par défaut | Nombre total d’impressions. |
 | [!UICONTROL Clicks] | Par défaut | Nombre total de clics. |
 | [!UICONTROL Cost] | Par défaut | Le coût total. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

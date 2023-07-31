@@ -3,7 +3,7 @@ title: Données de feuille d’envoi groupé requises pour [!DNL Microsoft Adver
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour [!DNL Microsoft Advertising] comptes.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '6888'
 ht-degree: 1%
@@ -113,8 +113,6 @@ Pour les champs de données pertinents pour les entités de compte, voir &quot;[
 | [!UICONTROL SE Error Message] | (Inclus dans les feuilles d’envoi groupées générées à des fins d’information) Espace réservé pour l’affichage des messages d’erreur du réseau publicitaire concernant les données de la ligne ; les messages d’erreur sont inclus dans [!UICONTROL SE Errors] fichiers . Cette valeur n’est pas publiée sur le réseau publicitaire. |
 | [!UICONTROL Exemption Request] | (Inclus dans les feuilles d’envoi groupées générées à des fins d’information) Espace réservé pour l’affichage des noms et du texte des stratégies publicitaires Google violées par une publicité. |
 | [!UICONTROL Retail Hash] | (Inclus à des fins d’informations dans les feuilles d’envoi groupées générées à l’aide d’Advanced Campaign Management) Code de hachage alphanumérique (par exemple, f9639f40cdf56524b541e5dacf55a991) qui indique que l’élément a été généré à l’aide de la vue avancée (ACM). |
-
-<table style="table-layout:auto">
 
 [^1]: [!DNL Excel] convertit les grands nombres en notation scientifique (2.12E+09 pour 2115585666, par exemple) lorsqu’il ouvre le fichier. Pour afficher les chiffres de la notation standard, sélectionnez n’importe quelle cellule de la colonne et cliquez dans la barre de formule.
 
