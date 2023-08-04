@@ -3,9 +3,9 @@ title: A propos des contrats garantis par programmation
 description: Découvrez les offres garanties par programmation (PG) et les SSP certifiées pour les fournir.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: 700a38baba3e9abc871e23e95faba6715d661eb9
+source-git-commit: 1a684a2fc2834b03e010eaaefaa5132c439796a3
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ Une transaction (PG) garantie par un programme est un achat garanti effectué di
 * En règle générale, l’opération a une priorité plus élevée sur le serveur d’annonces de l’éditeur.
 * Les demandes d&#39;offre ne sont pas réservées à un seul accord ou à un seul acheteur.
 * Plusieurs types de vidéos sont pris en charge sur un seul identifiant de transaction.
-* Les publicités gérées par l’éditeur sont acceptées par Google Authorized Buyers SSP.
+* Les publicités gérées par les éditeurs sont acceptées via [!DNL Google Authorized Buyers] SSP.
 * Les SSP et les éditeurs disposent de SLA de diffusion.
 
-Les offres PG nécessitent un emplacement et des publicités par défaut PG (ou 1x1 pixel pour les publicités gérées par l’éditeur) afin que DSP puisse renvoyer une requête à chaque demande d’offre et répondre aux contrats de niveau de diffusion avec les SSP. Une fois que vous avez configuré l’emplacement par défaut PG obligatoire, vous pouvez également cibler l’opération PG à d’autres emplacements.
+Les offres PG nécessitent un emplacement et des publicités par défaut PG (ou un pixel 1x1 pour les publicités gérées par l’éditeur) afin que DSP puisse renvoyer une requête à chaque demande d’offre et répondre aux contrats de niveau de diffusion avec les SSP. Une fois que vous avez configuré l’emplacement par défaut PG obligatoire, vous pouvez également cibler l’opération PG à d’autres emplacements.
 
 ## SSP certifiés pour les contrats PG en DSP
 
