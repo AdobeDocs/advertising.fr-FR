@@ -1,11 +1,11 @@
 ---
 title: Accepter un accord dans la [!UICONTROL Deal ID Inbox]
-description: Découvrez comment accepter une transaction privée que vous avez déjà négociée avec un éditeur sur [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom de [!DNL AdX]), and [!DNL Magnite DV+] (anciennement [!DNL Rubicon]) à l’aide de la boîte de réception Deal ID.
+description: Découvrez comment accepter une transaction privée que vous avez déjà négociée avec un éditeur sur [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom [!DNL AdX]), and [!DNL Magnite DV+] (anciennement [!DNL Rubicon]) à l’aide de la boîte de réception Deal ID.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c4816e7cebe9db2a344f7268ed5615bb672f387d
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Utilisateurs dans DSP comptes mappés sur des comptes SSP uniquement*
 
-Utilisez la variable [!UICONTROL Deal ID inbox] pour accepter rapidement une transaction privée que vous avez déjà négociée avec un éditeur le [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom de [!DNL AdX]), et [!DNL Magnite DV+] (anciennement [!DNL Rubicon]).
+Utilisez la variable [!UICONTROL Deal ID inbox] pour accepter rapidement une transaction privée que vous avez déjà négociée avec un éditeur le [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom [!DNL AdX]), et [!DNL Magnite DV+] (anciennement [!DNL Rubicon]).
 
 >[!NOTE]
 >
@@ -44,9 +44,9 @@ Utilisez la variable [!UICONTROL Deal ID inbox] pour accepter rapidement une tra
 
    1. Cliquez sur **[!UICONTROL Save]**.
 
-1. (Offres garanties par programmation uniquement) Suivez les invites pour sélectionner une publicité pour l’opération et créer un emplacement par défaut garanti par programmation qui cible l’opération.
+1. (Offres garanties par programmation uniquement) Suivez les invites pour sélectionner une publicité, ou 1x1 pixel de suivi pour les publicités gérées par l’éditeur, pour l’opération et créez un emplacement par défaut garanti par programmation qui cible l’opération.
 
-Une fois que vous avez accepté un accord, il est déplacé de la [!UICONTROL Deal ID inbox] au [!UICONTROL Inventory] > [!UICONTROL Deals] et l’opération est disponible en tant que source d’inventaire privée dans chaque emplacement [!UICONTROL Inventory Targeting] .
+Une fois que vous avez accepté un accord, il est déplacé de la [!UICONTROL Deal ID inbox] à la fonction [!UICONTROL Inventory] > [!UICONTROL Deals] et l’opération est disponible en tant que source d’inventaire privée dans chaque emplacement [!UICONTROL Inventory Targeting] .
 
 >[!MORELIKETHIS]
 >
@@ -55,4 +55,3 @@ Une fois que vous avez accepté un accord, il est déplacé de la [!UICONTROL De
 >* [Envoyer une publicité pour une transaction sécurisée par programmation [!DNL FreeWheel]](freewheel-submit.md)
 >* [A propos des contrats garantis par programmation](programmatic-guaranteed-about.md)
 >* [Présentation des fonctionnalités du stock](inventory-overview.md)
-
