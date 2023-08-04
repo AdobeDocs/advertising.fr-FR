@@ -3,7 +3,7 @@ title: Création manuelle des détails de l’identifiant de transaction
 description: Découvrez comment saisir manuellement les détails d’un ID de transaction.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 9dd60e9892b02cb3d19479b007ee1a7d70a1987d
+source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    1. Cliquez sur **[!UICONTROL Save]**.
 
-1. (Offres garanties uniquement) Sélectionnez les publicités à utiliser pour l’opération (ou un pixel 1x1 pour les publicités gérées par l’éditeur) et créez un emplacement par défaut garanti par la programmation (PG).
+1. (Offres garanties uniquement) Sélectionnez les publicités à utiliser pour l’opération (ou le pixel 1x1 pour les publicités gérées par l’éditeur) et créez un emplacement par défaut garanti par la programmation (PG).
 
    Les emplacements PG par défaut garantissent que votre transaction renvoie toujours une offre pour chaque demande d’offre. Si vous ne créez pas d’emplacement PG par défaut, tous les emplacements qui ciblent l’opération ne placent pas d’offres à moins qu’ils ne soient correctement configurés. Vous devez toujours créer un emplacement PG par défaut. Dans le [!UICONTROL Placements] vue, les emplacements PG par défaut ont une [!UICONTROL Sub-type] valeur de colonne de &quot;[!UICONTROL PG Default].&quot;
 
