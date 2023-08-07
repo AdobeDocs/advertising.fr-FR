@@ -3,9 +3,9 @@ title: Configuration d’un contrat garanti programmatique
 description: Découvrez comment configurer un contrat PG garanti par programmation que vous avez négocié avec un éditeur.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: f887524a22dd5d665dcfc38b1a4ce2a1242638d7
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Utilisez cette méthode pour tous les autres SSP.
 
 1. [Configuration manuelle des détails de l’ID de transaction](deal-id-create.md).
 
-1. Une fois l’opération enregistrée, sélectionnez les publicités (ou le pixel de suivi 1x1 pour les publicités gérées par l’éditeur) qui seront utilisées pour l’opération et créez un emplacement par défaut PG, le cas échéant.
+1. Une fois l’opération enregistrée, sélectionnez les publicités (ou pixels de suivi 1x1 pour les publicités gérées par l’éditeur) qui seront utilisées pour l’opération et créez un emplacement par défaut PG, le cas échéant.
 
    La création d’un emplacement par défaut PG pour l’opération est obligatoire pour diffuser 100 % de votre achat. Ce type d’emplacement n’a pas de ciblage, DSP peut donc renvoyer une offre à chaque demande d’offre de l’éditeur.
 

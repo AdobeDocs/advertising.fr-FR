@@ -3,9 +3,9 @@ title: Création manuelle des détails de l’identifiant de transaction
 description: Découvrez comment saisir manuellement les détails d’un ID de transaction.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: 93600a6e5afe7e0ae3f22111c0adb0ccc3b5b4bb
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
       1. Dans la liste des publicités disponibles, cochez la case en regard de chaque publicité à utiliser pour l’opération.
 
-      1. Pour les publicités gérées par l’éditeur, un pixel de suivi 1x1 sera automatiquement appliqué une fois l’annonceur et la campagne sélectionnés.
+         Pour chaque publicité gérée par l’éditeur, un pixel de suivi 1x1 est automatiquement appliqué après la sélection d’un annonceur et d’une campagne.
 
       1. Cliquez sur **[!UICONTROL Apply]**.
 
