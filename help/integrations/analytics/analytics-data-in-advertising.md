@@ -3,9 +3,9 @@ title: '''[!DNL Analytics] Données en Adobe Advertising"'
 description: '''[!DNL Analytics] Données en Adobe Advertising"'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
-source-git-commit: b382184072af88273570fc045d0bcebe24ed81fb
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ L’affichage des nouveaux segments dans Adobe Advertising prend entre 24 et 48 
 
 >[!NOTE]
 >
->* [!DNL Analytics] transmet les événements de l’eVar EF ID en Adobe Advertising.  L’intégration par défaut ne prend pas en charge l’envoi de mesures calculées ou d’autres dimensions (eVars) dans Adobe Advertising. Toutefois, si la mesure calculée peut être entièrement capturée dans un événement personnalisé, l’Adobe Advertising peut ingérer l’événement personnalisé.
+>* [!DNL Analytics] transmet des événements pour l’identifiant EF ; [!DNL eVar] dans l’Adobe Advertising.  L’intégration par défaut ne prend pas en charge l’envoi de mesures calculées ou d’autres dimensions ([!DNL eVars]) dans Adobe Advertising. Toutefois, si la mesure calculée peut être entièrement capturée dans un événement personnalisé, l’Adobe Advertising peut ingérer l’événement personnalisé.
 >* [!DNL Analytics] transmet les données à Adobe Advertising toutes les heures.
 
 * [!UICONTROL Timespent_secs_1stvisit]: nombre de secondes écoulées sur le site au cours de la première visite du visiteur.
@@ -56,9 +56,9 @@ L’affichage des nouveaux segments dans Adobe Advertising prend entre 24 et 48 
 
 Ces mesures sont spécifiques à la suite de rapports. Par conséquent, les mesures disponibles varient pour chaque client et suite de rapports.
 
-### Mesures de conversion personnalisées créées à partir d’eVars et de props
+### Mesures de conversion personnalisées créées à partir de [!DNL eVars] et [!DNL Props]
 
-Les mesures disponibles varient pour chaque client. Voir &quot;[Création de mesures de conversion à partir d’eVars et de props Adobe Analytics](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot;
+Les mesures disponibles varient pour chaque client. Voir &quot;[Création de mesures de conversion à partir d’Adobe Analytics [!DNL eVars] et [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot;
 
 ### Mesures de conversion réservées
 

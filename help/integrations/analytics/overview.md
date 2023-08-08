@@ -3,9 +3,9 @@ title: Présentation de [!DNL Analytics for Advertising]
 description: Présentation de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,13 @@ Principaux avantages :
 
 Pour utiliser [!DNL Analytics] en tant qu’outil de reporting multimédia payant, votre entreprise a besoin d’une connexion Experience Cloud avec accès à Analysis Workspace. Votre équipe d’Adobes Advertising vous aidera à mapper vos données d’Adobe Advertising à des suites de rapports individuelles dans Analysis Workspace. Vous pouvez envoyer des données d’Adobe Advertising à n’importe quelle suite de rapports, mais vous devez connaître les suites de rapports qui ont été mappées à l’Adobe Advertising et celles qui ne l’ont pas fait. Selon la suite de rapports, cela peut modifier les données signalées.
 
-[ID d’Adobe Advertising dans [!DNL Analytics]](ids.md) fonctionne comme les autres eVars, avec une expiration personnalisée et persistante. Par défaut, l’intervalle de recherche en amont des attributions est défini sur 60 jours pendant la mise en oeuvre de l’Adobe Advertising. Pour modifier ce paramètre, contactez votre équipe de compte d’Adobe.
+[ID d’Adobe Advertising dans [!DNL Analytics]](ids.md) fonctionne comme autre [!DNL eVars], avec une expiration personnalisée et persistante. Par défaut, l’intervalle de recherche en amont des attributions est défini sur 60 jours pendant la mise en oeuvre de l’Adobe Advertising. Pour modifier ce paramètre, contactez votre équipe de compte d’Adobe.
 
 Les dimensions d’Adobe Advertising sont ajoutées avec le suffixe &quot;(AMO ID)&quot; (par exemple, &quot;Type de publicité (AMO ID)&quot;). Voir &quot;[Adobe Advertising des mesures dans Analysis Workspace](advertising-metrics-in-analytics.md)&quot; pour une liste des dimensions disponibles.
 
 >[!NOTE]
 >
-> Lorsque vous affichez des données d’Adobe Advertising (ou tout autre jeu de données) dans [!DNL Analytics], sachez que les mesures et les rapports sont basés sur les règles définies dans [!DNL Analytics]. Les données peuvent être différentes de celles que vous voyez dans d’autres systèmes de création de rapports, tels que les rapports sur les serveurs de publicités, [!DNL DSP] rapports ou rapports de moteur de recherche. Pour comprendre les différences de données entre les [!DNL Analytics], vous devez savoir à quel moment les données d’eVar expirent, ce qui définit une visite, ce qui est considéré comme une attribution Dernière touche par rapport à une attribution persistante totale, et d’autres facteurs. Pour plus d’informations, voir [Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising](data-variances.md).
+> Lorsque vous affichez des données d’Adobe Advertising (ou tout autre jeu de données) dans [!DNL Analytics], sachez que les mesures et les rapports sont basés sur les règles définies dans [!DNL Analytics]. Les données peuvent être différentes de celles que vous voyez dans d’autres systèmes de création de rapports, tels que les rapports sur les serveurs de publicités, [!DNL DSP] rapports ou rapports de moteur de recherche. Pour comprendre les différences de données entre les [!DNL Analytics], vous devez savoir quand [!DNL eVar] les données expirent, ce qui définit une visite, ce qui est considéré comme une attribution Dernière touche par rapport à l’attribution persistante totale, et d’autres facteurs. Pour plus d’informations, voir [Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising](data-variances.md).
 
 ## Utilisation d’Analytics pour optimiser les campagnes et les Portfolios Adobe Advertising
 
