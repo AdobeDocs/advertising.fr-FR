@@ -2,9 +2,9 @@
 title: "Création de mesures de conversion à partir d’Adobe Analytics [!DNL eVars] et props"
 description: "Configurer des mesures d’événement de succès personnalisées à l’aide de [!DNL eVar]- et [!DNL prop]données de niveau 1."
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: f6f3e0b3cc867b817ce40c7ba06c76885948edbe
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 *Annonceurs avec une intégration Adobe Advertising-Adobe Analytics uniquement*
 
-Vous pouvez utiliser les mesures d’événement de succès pour optimiser DSP modules et les campagnes Search, Social et Commerce en fonction des données de site Adobe Analytics qui correspondent le mieux aux objectifs de votre marque. Vous pouvez configurer des mesures d’événement de succès personnalisées en fonction des [votre existant [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) et [your [!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) par l’entonnoir [!DNL eVar]- et [!DNL prop]données de niveau -niveau dans un événement. Autre [!DNL Analytics] les mesures, y compris les mesures de conversion standard, personnalisées et réservées, ainsi que les mesures de trafic, sont automatiquement disponibles dans DSP et dans Search, Social et Commerce.
+Vous pouvez utiliser les mesures d’événement de succès pour optimiser DSP modules et les campagnes Search, Social et Commerce en fonction des données de site Adobe Analytics qui correspondent le mieux aux objectifs de votre marque. Vous pouvez configurer des mesures d’événement de succès personnalisées en fonction des [votre existant [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) et [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) par l’entonnoir [!DNL eVar]- et [!DNL prop]données de niveau -niveau dans un événement. Autre [!DNL Analytics] les mesures, y compris les mesures de conversion standard, personnalisées et réservées, ainsi que les mesures de trafic, sont automatiquement disponibles dans DSP et dans Search, Social et Commerce.
 
 ![Exemple d’utilisation](/help/integrations/assets/a4adc-conversion-evar-example.jpg "Exemple d’utilisation")
 
