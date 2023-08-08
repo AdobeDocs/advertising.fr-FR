@@ -3,9 +3,9 @@ title: Gestion de campagnes dans Search, Social et Commerce
 description: Découvrez les fonctionnalités de gestion de campagne dans Search, Social et Commerce.
 exl-id: e6fca48d-1f6c-4d36-a10d-e1a5db859a37
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: d23b5a3c56c35fc5abbeafde681b9f584bf1c905
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Pour plus d’informations sur le tracking, consultez le chapitre &quot;Tracking
 
 Pour [réseaux publicitaires et types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md), vous pouvez regrouper vos campagnes dans des portefeuilles, chacun ayant un objectif commercial spécifique et un objectif de budget ou de performance spécifique. Dans les portfolios standard, Search, Social et Commerce optimise les offres sur les mots-clés CPC et les budgets de campagne. Les portefeuilles hybrides combinent les technologies d’optimisation de Search, Social et Commerce et vos réseaux publicitaires.
 
-Pour plus d’informations sur les options de portefeuille disponibles et sur la configuration des portefeuilles, reportez-vous au chapitre du guide d’optimisation intitulé &quot;Gestion des Portfolios&quot;, disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Pour plus d’informations sur les options de portefeuille disponibles et sur la configuration des portefeuilles, reportez-vous au chapitre du guide d’optimisation intitulé &quot;Portfolios&quot;, disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Les vues de gestion de campagne
 
