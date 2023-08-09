@@ -2,9 +2,9 @@
 title: Obtenir de l’aide
 description: Découvrez comment afficher l’aide en ligne et les ressources de la communauté et comment obtenir une assistance technique.
 exl-id: 956117ea-9e3e-4ee0-b6cf-67ee5f2bc77a
-source-git-commit: e0bcead14a3638ee013925336b38382ab205d69d
+source-git-commit: 56d6c890616c23ec64234705d84dddb41442eb87
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,14 @@ Vous pouvez ouvrir l’aide en ligne à partir de n’importe quelle page de l�
 
 Recherchez des réponses à vos questions dans la section [Forums de la communauté Adobe Advertising](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
 
-## Contact Adobe
+## Contact [!DNL Adobe]
 
-| Pour... | Contactez-nous à l’adresse |
-| ---- | ---- |
-| Problèmes liés aux produits ou aux comptes dans Search, Social &amp; Commerce | Contactez votre équipe de compte d’Adobe. |
-| Commentaires sur Search, Social et Commerce | Dans le menu supérieur, cliquez sur ![Aide](/help/search-social-commerce/assets/help-main-menu.png "Aide") > **[!UICONTROL Provide Feedback]**, saisissez votre message, puis cliquez sur **[!UICONTROL Send Feedback]**. |
+Pour les problèmes de compte ou de produit Search, Social et Social, effectuez l’une des opérations suivantes :
 
-### Informations à inclure pour les problèmes de produit
+* Contactez votre équipe de compte d’Adobe.
 
-Fournissez des étapes détaillées pour reproduire le problème, le nom et la version du navigateur, toute donnée pertinente et des informations sur la résolution préliminaire des problèmes que vous avez effectuée.
+* Dans le menu supérieur, cliquez sur ![Aide](/help/search-social-commerce/assets/help-main-menu.png "Aide") > **[!UICONTROL Provide Feedback]**, saisissez votre message, puis cliquez sur **[!UICONTROL Send Feedback]**. |
+
+Fournissez des étapes détaillées pour reproduire le problème, toutes les données pertinentes et des informations sur la résolution préliminaire des problèmes que vous avez effectuée. Si vous signalez le problème à votre équipe de compte d’Adobe, incluez également le nom et la version du navigateur.
 
 Pour les problèmes de rapport, ne supprimez pas le rapport et indiquez son nom et son URL.
