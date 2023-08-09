@@ -3,9 +3,9 @@ title: Questions fréquentes sur les rapports personnalisés
 description: Découvrez les réponses aux questions courantes sur les rapports de performances, notamment la résolution des problèmes liés aux données.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 68fb5d737b76e7b388f15a2fdd1f57ce9cd6a3e2
 workflow-type: tm+mt
-source-wordcount: '3920'
+source-wordcount: '3912'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Vous trouverez ci-dessous les raisons courantes de l’absence de données de cl
 
 | Cause | Détection/Analyse | Résolution |
 |---|---|---|
-| Le processus qui récupère les données de clic du compte publicitaire a échoué. | Il n’existe aucun moyen systématique de détecter ce problème, mais vous pouvez remarquer qu’une campagne n’indique aucun coût ou aucune information sur les clics, même si le compte publicitaire a dépensé de l’argent. | Contactez le service clientèle à l’adresse &lt;*votre compte utilisateur Search, Social &amp; Commerce*>@support\.efrontier\.com.<!-- Escaped periods and using HTML code for angle brackets --><br><br>Si les données sont manquantes pendant plus de 24 heures, excluez ces dates des prévisions de coût jusqu&#39;à ce que les données soient récupérées. Votre équipe de compte d’Adobe peut exclure les dates. |
+| Le processus qui récupère les données de clic du compte publicitaire a échoué. | Il n’existe aucun moyen systématique de détecter ce problème, mais vous pouvez remarquer qu’une campagne n’indique aucun coût ou aucune information sur les clics, même si le compte publicitaire a dépensé de l’argent. | Contactez votre équipe de compte d’Adobe.<br><br>Si les données sont manquantes pendant plus de 24 heures, excluez ces dates des prévisions de coût jusqu&#39;à ce que les données soient récupérées. Votre équipe de compte d’Adobe peut exclure les dates. |
 | Un problème de facturation entre l’annonceur et le réseau publicitaire empêche le compte publicitaire de dépenser. | Il n’existe aucun moyen systématique de détecter ce problème, mais vous pouvez remarquer qu’une campagne n’indique aucun coût ou aucune information sur les clics. | Si vous savez qu’un compte publicitaire n’a pas pu être utilisé en raison d’un problème de facturation, excluez ces dates des prévisions de coût. Votre équipe de compte d’Adobe peut exclure les dates. |
 +++
 
