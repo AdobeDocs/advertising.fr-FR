@@ -3,7 +3,7 @@ title: Activer le téléchargement des objectifs vers les réseaux publicitaires
 description: Découvrez comment télécharger des objectifs pour vos portefeuilles hybrides vers [!DNL Google Ads] et [!DNL Microsoft® Advertising].
 exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
 feature: Search Tools
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -36,5 +36,5 @@ Téléchargements vers [!DNL Google Ads] surviennent tous les jours à 06h00 dan
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des propriétés de transaction d’un annonceur](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
+>* [À propos de la gestion des mesures de conversion d’un annonceur](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
 >* [Chargement des mesures de conversion dans [!DNL Google Ads]](conversion-metrics-upload-to-google.md)

@@ -3,7 +3,7 @@ title: Intégration aux solutions et services Adobe Experience Cloud
 description: Découvrez les intégrations de Search, Social et Commerce avec les solutions et services Adobe Experience Cloud.
 exl-id: e8b521f5-f426-4c50-9df4-361a047c9ff0
 feature: Search Introduction
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Advertising Search, Social et Commerce est intégré à ce qui suit : [!DNL Adob
 
      >[!NOTE]
      >
-     >Par défaut, la variable [!DNL Analytics] Les mesures ne sont pas visibles dans les écrans de recherche, de Social et de Commerce. Vous devez explicitement [rendre les mesures disponibles dans les vues, les portefeuilles et les rapports de gestion de campagne](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) après la balise [!DNL Adobe] l’équipe de mise en oeuvre a configuré des événements standard ou personnalisés sélectionnés à transmettre à Adobe Advertising. Vous pouvez éventuellement modifier les noms des mesures affichées (sans les modifier dans [!DNL Analytics]). Vous pouvez rendre les mesures visibles dans l’interface utilisateur et les renommer à partir de [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
+     >Par défaut, la variable [!DNL Analytics] Les mesures ne sont pas visibles dans les écrans de recherche, de Social et de Commerce. Vous devez explicitement [rendre les mesures disponibles dans les vues, les portefeuilles et les rapports de gestion de campagne](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) après la balise [!DNL Adobe] l’équipe de mise en oeuvre a configuré des événements standard ou personnalisés sélectionnés à transmettre à Adobe Advertising. Vous pouvez éventuellement modifier les noms des mesures affichées (sans les modifier dans [!DNL Analytics]). Vous pouvez rendre les mesures visibles dans l’interface utilisateur et les renommer à partir de [!UICONTROL Admin] > [!UICONTROL Conversions].
 
    * Annonceurs avec [!DNL Analytics] mais l’Audience Manager ne peut pas [create [!DNL Google Ads] audiences de correspondance client](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) de [!DNL Analytics] segments partagés avec Adobe Experience Cloud. Pour être éligible, un annonceur doit mettre en oeuvre la variable [Service Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html) et déployer une balise sur ses sites web. Vous pouvez ensuite utiliser les audiences dans [!DNL Google Ads] campagnes au niveau de la campagne ou au niveau du groupe publicitaire [Cibles](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) ou [exclusions](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md).
 

@@ -3,7 +3,7 @@ title: Présentation de [!DNL Analytics for Advertising]
 description: Présentation de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Vous pouvez utiliser vos événements standard et personnalisés à partir de [!
 >
 > Vous ne pouvez pas mapper les mesures calculées à partir de [!DNL Analytics] dans l’Adobe Advertising.
 
-Votre équipe d’Adobes Advertising vous aidera à identifier et à mapper les événements applicables aux performances de médias payants dans Adobe Advertising, où ils apparaîtront dans [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
+Votre équipe d’Adobes Advertising vous aidera à identifier et à mapper les événements applicables aux performances de médias payants dans Adobe Advertising, où ils apparaîtront dans [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
 
 Voir &quot;[Mesures Analytics dans Adobe Advertising](analytics-data-in-advertising.md)&quot; pour une liste de mesures disponibles.
 
