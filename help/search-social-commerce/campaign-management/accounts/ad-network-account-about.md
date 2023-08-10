@@ -3,7 +3,7 @@ title: A propos des comptes de réseau publicitaire
 description: Découvrez les comptes de réseau publicitaire dans Search, Social et Commerce.
 exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -42,4 +42,4 @@ Voir plus d’informations sur [!DNL Naver] campagnes de suivi uniquement, voir 
 >
 >* [Gestion des comptes de réseau publicitaire](ad-network-account-manage.md)
 >* [Gestion des comptes de centre commercial](merchant-account-manage.md)
->* [Mettez à jour le code de suivi s\_kwcid pour un événement [!DNL Google Ads] account](update-skwcid-google.md)
+>* [Mettre à jour le code de suivi AMO ID pour un [!DNL Google Ads] account](update-amo-id-google.md)

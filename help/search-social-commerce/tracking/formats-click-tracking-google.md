@@ -3,9 +3,9 @@ title: Formats de suivi des clics pour [!DNL Google Ads]
 description: Découvrez les formats de suivi des clics pour [!DNL Google Ads] comptes.
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ Les comptes qui utilisent le suivi de conversion d’Adobe Advertising doivent i
 
 * Lorsque l’annonceur dispose d’une intégration Adobe Analytics, le suffixe doit inclure l’un des éléments suivants :
 
-   * [!DNL Google Ads] les comptes qui utilisent la dernière `s_kwcid` format , qui prend en charge la création de rapports au niveau des campagnes et des groupes publicitaires pour les performances max des campagnes et les campagnes de brouillons et d’expériences :
+   * [!DNL Google Ads] les comptes qui utilisent le dernier format AMO ID (en commençant par `s_kwcid`), qui prend en charge la création de rapports au niveau des campagnes et des groupes publicitaires pour les performances maximales des campagnes et les campagnes de brouillons et d’expériences :
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Si le compte comporte une implémentation s_kwcid côté serveur et le paramètre de compte ou de campagne &quot;[!UICONTROL Auto Upload]&quot; est activé, puis le paramètre est ajouté automatiquement. Sinon, vous devez l’ajouter manuellement.
+     Si le compte comporte une implémentation AMO ID côté serveur et le paramètre de compte ou de campagne &quot;[!UICONTROL Auto Upload]&quot; est activé, puis le paramètre est ajouté automatiquement. Sinon, vous devez l’ajouter manuellement.
 
    * Toutes les autres [!DNL Google Ads] comptes :
 
@@ -88,9 +88,9 @@ Les comptes qui utilisent le suivi de conversion d’Adobe Advertising doivent i
 >
 >* Les suffixes de page d’entrée aux niveaux inférieurs remplacent le suffixe au niveau du compte. Pour faciliter la maintenance, utilisez uniquement le suffixe au niveau du compte, sauf si un suivi différent pour les composants de compte individuels est nécessaire. Pour configurer un suffixe au niveau du groupe publicitaire ou inférieur, utilisez l’éditeur du réseau publicitaire.
 >
->* (Publicités de recherche dynamique ; annonceurs avec Adobe Analytics et sans suivi côté serveur) Lorsque vous souhaitez inclure le suivi du flux inverse de l’Adobe Advertising à Analytics, ajoutez le `s_kwcid` code de suivi jusqu’à la fin du suffixe de page d’entrée au niveau du compte.
+>* (Publicités de recherche dynamique ; annonceurs avec Adobe Analytics et sans suivi côté serveur) Lorsque vous souhaitez inclure le suivi du flux inverse d’Adobe Advertising à Analytics, ajoutez le code de suivi AMO ID à la fin du suffixe de la page d’entrée au niveau du compte.
 
 >[!MORELIKETHIS]
 >
 >* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion Adobe Advertising](formats-click-tracking-about.md)
->* [Formats du code de suivi s\_kwcid](skwcid-tracking-parameter.md)
+>* [Formats du code de suivi AMO ID](skwcid-tracking-parameter.md)
