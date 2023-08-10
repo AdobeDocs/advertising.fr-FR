@@ -2,7 +2,7 @@
 title: Création d’une balise de conversion pour [!DNL Google Ads]
 description: Découvrez comment créer une [!DNL Google Ads] balise de conversion.
 feature: Conversions
-source-git-commit: 8f08151013ec63df14843733a0c83badcceba4c3
+source-git-commit: 395421c69214c3b0370523909047a924af23ea55
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Une fois que vous avez ajouté les balises à votre site web et qu’elles comme
 
 **[!UICONTROL Conversion Name]:** Nom unique de la mesure de conversion.
 
-**\[Catégorie de l’objectif\] :** La catégorie de conversion. Les catégories disponibles varient en fonction du type de conversion. Pour *[!UICONTROL Calls to a phone number on your website]* et *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]&quot; est sélectionné par défaut.
+**\[Catégorie de conversion\] :** La catégorie de conversion. Les catégories disponibles varient en fonction du type de conversion. Pour *[!UICONTROL Calls to a phone number on your website]* et *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]&quot; est sélectionné par défaut.
 
 **\[Type d’action\] :** Si l’objectif est un *[!UICONTROL Primary action used for bidding optimization]* ou *[!UICONTROL Secondary action not used for bidding optimization]*.
 
