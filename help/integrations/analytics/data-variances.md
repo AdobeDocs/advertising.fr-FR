@@ -3,9 +3,9 @@ title: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 description: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '3267'
+source-wordcount: '3268'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Dans [!DNL Analytics], l’une des méthodes les plus simples de validation [!DN
 Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
 ```
 
-[!UICONTROL AMO ID Instances] représente le nombre de fois où les AMO ID (`s_kwcid` ) sont suivis sur le site. Chaque fois qu’un utilisateur clique sur une publicité, une `s_kwcid` est ajouté à l’URL de la landing page. Le nombre de [!UICONTROL AMO ID Instances]est donc analogue au nombre de clics et peut être validé par rapport aux clics publicitaires réels. Nous constatons généralement un taux de correspondance de 80 % pour [!DNL Search, Social, & Commerce] et un taux de correspondance de 30 % pour [!DNL DSP] trafic (lorsqu’il est filtré pour inclure uniquement les clics publicitaires) [!UICONTROL AMO ID Instances]). La différence d’attentes entre la recherche et l’affichage peut s’expliquer par le comportement de trafic attendu. La recherche capture l’intention et, en tant que telle, les utilisateurs ont généralement l’intention de cliquer sur les résultats de la recherche à partir de leur requête. Toutefois, les utilisateurs qui voient un affichage ou une publicité vidéo en ligne sont plus susceptibles de cliquer dessus involontairement, puis de rebondir à partir du site ou de quitter la nouvelle fenêtre qui se charge avant le suivi de l’activité de page.
+[!UICONTROL AMO ID Instances] représente le nombre de fois où [AMO ID](ids.md) sont suivis sur le site. Chaque fois qu’un utilisateur clique sur une publicité, un AMO ID (`s_kwcid`) est ajouté à l’URL de la page d’entrée. Le nombre de [!UICONTROL AMO ID Instances]est donc analogue au nombre de clics et peut être validé par rapport aux clics publicitaires réels. Nous constatons généralement un taux de correspondance de 80 % pour [!DNL Search, Social, & Commerce] et un taux de correspondance de 30 % pour [!DNL DSP] trafic (lorsqu’il est filtré pour inclure uniquement les clics publicitaires) [!UICONTROL AMO ID Instances]). La différence d’attentes entre la recherche et l’affichage peut s’expliquer par le comportement de trafic attendu. La recherche capture l’intention et, en tant que telle, les utilisateurs ont généralement l’intention de cliquer sur les résultats de la recherche à partir de leur requête. Toutefois, les utilisateurs qui voient un affichage ou une publicité vidéo en ligne sont plus susceptibles de cliquer dessus involontairement, puis de rebondir à partir du site ou de quitter la nouvelle fenêtre qui se charge avant le suivi de l’activité de page.
 
 Dans les rapports d’Adobe Advertising, vous pouvez comparer de la même manière les clics aux instances à l’aide du[!UICONTROL ef_id_instances]&quot; au lieu de [!UICONTROL AMO ID Instances]:
 

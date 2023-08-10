@@ -1,32 +1,32 @@
 ---
 title: Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Google Campaign Manager 360] Balises publicitaires
-description: Découvrez pourquoi et comment ajouter [!DNL Analytics for Advertising] des macros à [!DNL Google Campaign Manager 360] balises publicitaires
+description: Découvrez pourquoi et comment ajouter [!DNL Analytics for Advertising] des macros à vos [!DNL Google Campaign Manager 360] balises publicitaires
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
 
 # Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Google Campaign Manager 360] Balises publicitaires
 
-*Annonceurs avec une intégration Advertising-Adobe Analytics Adobe uniquement*
+*Annonceurs avec une intégration Adobe Advertising-Adobe Analytics uniquement*
 
 *Applicable aux DSP Advertising uniquement*
 
-Si vous utilisez des balises de publicité de [!DNL Google Campaign Manager 360] pour vos publicités Advertising DSP, ajoutez [!DNL Analytics for Advertising] des paramètres des URL de votre landing page à l’aide de la variable [`%p` macro](https://support.google.com/campaignmanager/table/6096962). Enregistrement des paramètres `s_kwcid` et `ef_id` paramètres de chaîne de requête dans l’URL de la page d’entrée, ce qui permet à Adobe Advertising d’envoyer des données de clic pour les publicités à Adobe Analytics.
+Si vous utilisez des balises de publicité de [!DNL Google Campaign Manager 360] pour vos publicités Advertising DSP, ajoutez [!DNL Analytics for Advertising] des paramètres des URL de votre landing page à l’aide de la variable [`%p` macro](https://support.google.com/campaignmanager/table/6096962). Les paramètres enregistrent l’AMO ID (`s_kwcid`) et `ef_id` paramètres de chaîne de requête dans l’URL de la page d’entrée, ce qui permet à l’Adobe Advertising d’envoyer des données de clic pour les publicités à Adobe Analytics.
 
-Utilisez des macros pour [!DNL Campaign Manager 360] publicités display et vidéo pour les types suivants de [!DNL Analytics for Advertising] implémentations :
+Utilisez des macros pour [!DNL Campaign Manager 360] publicités display et vidéo pour les types suivants de [!DNL Analytics for Advertising] Implémentations :
 
-* **Les annonceurs qui utilisent la variable [!DNL Adobe] [!DNL Analytics for Advertising] Code JavaScript implémenté sur leurs sites web**: Le code JavaScript enregistre déjà la variable `s_kwcid` et `ef_id` paramètres de chaîne de requête. Cependant, l’utilisation de macros étend le suivi pour inclure les conversions basées sur les clics lorsque les cookies tiers ne sont pas pris en charge. Il est recommandé d’ajouter les macros des sections suivantes à vos balises publicitaires afin de capturer des données de clics publicitaires supplémentaires qui ne sont pas capturées par le biais du code JavaScript.
+* **Les annonceurs qui utilisent la variable [!DNL Adobe] [!DNL Analytics for Advertising] Code JavaScript implémenté sur leurs sites web**: le code JavaScript enregistre déjà l’AMO ID (`s_kwcid`) et `ef_id` paramètres de chaîne de requête. Cependant, l’utilisation de macros étend le suivi pour inclure les conversions basées sur les clics lorsque les cookies tiers ne sont pas pris en charge. Il est recommandé d’ajouter les macros des sections suivantes à vos balises publicitaires afin de capturer des données de clics publicitaires supplémentaires qui ne sont pas capturées par le biais du code JavaScript.
 
 >[!NOTE]
 >
 >Le code JavaScript est une solution pour le suivi des clics uniquement lorsque des cookies sont toujours disponibles. Une fois les cookies arrêtés, la mise en oeuvre des macros suivantes est nécessaire.
 
-* **Annonceurs dont les sites web n’utilisent pas la variable [!DNL Analytics for Advertising] Code JavaScript et s’appuient sur [!DNL Analytics] transfert côté serveur pour les données de clic publicitaire uniquement** (sans données d’affichage publicitaire) : Les macros suivantes sont requises pour signaler l’activité de clics sur site provenant des publicités que vous achetez via Adobe Advertising.
+* **Annonceurs dont les sites web n’utilisent pas la variable [!DNL Analytics for Advertising] Code JavaScript et s’appuient sur [!DNL Analytics] transfert côté serveur pour les données de clic publicitaire uniquement** (sans aucune donnée d’affichage publicitaire) : les macros suivantes sont requises pour signaler les activités de clics sur site effectuées à partir de publicités achetées via Adobe Advertising.
 
 ## Ajout de macros à la fonction [!DNL Google Campaign Manager 360] Publicités
 
@@ -41,11 +41,9 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 ```
 
 >[!NOTE]
->* Si l’URL de la page d’entrée contient un symbole de hachage (#), qui n’est pas courant, placez la variable `amo` avant le symbole de hachage.
-
 >
->* >Si aucun autre paramètre n’est inclus après l’événement `amo` , puis ajoutez un paramètre (par exemple, &amp;a=b) après. Exemple :`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
-
+>>* Si l’URL de la page d’entrée contient un symbole de hachage (#), qui n’est pas courant, placez la variable `amo` avant le symbole de hachage.
+>* Si aucun autre paramètre n’est inclus après l’événement `amo` , puis ajoutez un paramètre (par exemple, &amp;a=b) après. Exemple :`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### Configuration du suffixe d’URL de page d’entrée au niveau des annonceurs
 
@@ -83,7 +81,7 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 Lorsqu’un utilisateur clique sur la publicité, [!DNL Google Campaign Manager 360] see `%pamo` dans le suffixe d’URL et insère dynamiquement la valeur de la variable `amo` dans l’URL.
 
 >[!MORELIKETHIS]
-* [Présentation de [!DNL Analytics for Advertising]](overview.md)
-* [Adobe des identifiants publicitaires utilisés par [!DNL Analytics]](/help/integrations/analytics/ids.md)
-* [Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Flashtalking] Balises publicitaires](macros-flashtalking.md)
-
+>
+>* [Présentation de [!DNL Analytics for Advertising]](overview.md)
+>* [ID d’Adobe Advertising utilisés par [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Flashtalking] Balises publicitaires](macros-flashtalking.md)

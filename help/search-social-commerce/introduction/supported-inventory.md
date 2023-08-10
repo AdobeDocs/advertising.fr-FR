@@ -3,7 +3,7 @@ title: Inventaire pris en charge
 description: Référencez les réseaux publicitaires, les types de campagne et les types d’annonces pris en charge.
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
+source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 0%
@@ -57,4 +57,4 @@ Vous trouverez ci-dessous les réseaux publicitaires, les types de campagne et l
 
 [^3]: nécessite une intégration avec Adobe Analytics. Voir &quot;[Présentation d’Analytics for Adobe Advertising](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html).&quot;
 
-[^4]: [!DNL Analytics] Les données sont envoyées à Search, Social et Commerce à l’aide du paramètre de suivi AMO ID mis à niveau (s_kwcid), quel que soit le format AMO ID que vous utilisez normalement pour le compte. Si vous utilisez normalement l’ancienne version de l’AMO ID, nous vous recommandons d’effectuer une mise à niveau vers le nouveau format AMO ID pour une expérience optimale. Cependant, même si vos données de clics/coûts et vos données de recettes sont suivies à l’aide de différents AMO ID, les deux ensembles de données sont entièrement classifiés et agrégés sous la même campagne et le même compte.
+[^4]: [!DNL Analytics] Les données sont envoyées à Search, Social et Commerce à l’aide du paramètre de suivi AMO ID mis à niveau (en commençant par `s_kwcid`), quel que soit le format d’AMO ID que vous utilisez normalement pour le compte. Si vous utilisez normalement l’ancienne version de l’AMO ID, nous vous recommandons d’effectuer une mise à niveau vers le nouveau format AMO ID pour une expérience optimale. Cependant, même si vos données de clics/coûts et vos données de recettes sont suivies à l’aide de différents AMO ID, les deux ensembles de données sont entièrement classifiés et agrégés sous la même campagne et le même compte.

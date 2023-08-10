@@ -3,9 +3,9 @@ title: Glossaire
 description: Voir les définitions des termes clés.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 **groupe publicitaire :** Ensemble de publicités et leurs mots-clés, emplacements et groupes de produits associés pour une campagne.
 
 **variation publicitaire :** N’importe quelle publicité dans un groupe publicitaire ou une stratégie publicitaire.
+
+**AMO ID :** Code de suivi qui permet à l’Adobe Advertising de partager des données sur les campagnes avec Adobe Analytics. Elle commence par `s_kwcid=`.
 
 **offre :** Terme Search, Social et Commerce pour une unité sur laquelle des offres sont placées. Pour la plupart des campagnes sur la plupart des réseaux, il s’agit d’un mot-clé et de son type de correspondance pour une campagne de recherche ou de contenu, un groupe de produits au niveau de l’unité (le niveau de subdivisions le plus bas) pour une campagne d’achat ou une cible de recherche dynamique pour une campagne publicitaire de recherche dynamique. Lorsque le même mot-clé et la même combinaison de type de correspondance, le même groupe de produits ou la même cible de recherche dynamique se produisent dans plusieurs groupes publicitaires au sein d’une même campagne, toutes les instances sont considérées comme la même unité d’offre et ont donc la même offre.
 
@@ -166,7 +168,7 @@ Cette valeur est identique à celle de la colonne héritée &quot;Recettes pond�
 
 **stratégie de dépenses :** (Publicitaires avec portefeuilles) Stratégie sélectionnée pour optimiser les enchères sur mots-clés/publicités pour un portefeuille.
 
-**`s_kwcid`:** Code de suivi qui permet à l’Adobe Advertising de partager des données sur les campagnes de recherche avec Adobe Analytics.
+**`s_kwcid`:** Voir &quot;AMO ID&quot;.
 
 **URL de tracking :** Un modèle de suivi ou une URL de destination avec des paramètres supplémentaires ajoutés pour effectuer le suivi des informations sur les clics sur la publicité. Il peut inclure une URL de redirection permettant d’envoyer d’abord les utilisateurs à un serveur de suivi avant de les rediriger vers la page d’entrée de l’annonceur.
 
