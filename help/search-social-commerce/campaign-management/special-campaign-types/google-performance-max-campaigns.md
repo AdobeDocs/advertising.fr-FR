@@ -3,9 +3,9 @@ title: Mise en oeuvre [!DNL Google Ads] campagnes de performances max
 description: En savoir plus sur le workflow de configuration [!DNL Google Ads] campagnes de performances max.
 exl-id: afad96b2-d4a6-41ee-ad84-38aa1306d73e
 feature: Search Campaign Management
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Dans [!DNL Google Ads] performances max des campagnes, vous ne configurez pas de groupes publicitaires, de publicités ou de mots-clés. Au lieu de cela, dans les paramètres de l’opération, vous définissez un ou plusieurs groupes de ressources, qui comprennent des titres, des descriptions et des images, logos et [!DNL YouTube videos]. [!DNL Google Ads] combine automatiquement les ressources pour diffuser des publicités en fonction du canal (comme [!DNL YouTube], [!DNL Gmail], ou [!DNL Search]).
 
-Vous pouvez afficher vos campagnes de performances max existantes, avec les données de performances au format tableau et graphique de tendances, au format [!DNL Campaigns] vue ; les données ne sont pas disponibles à des niveaux inférieurs. Les données de performances au niveau de la campagne sont également disponibles dans les rapports et dans Adobe Analytics (pour les annonceurs qui disposent d’un [Intégration d’Analytics](/help/integrations/analytics/overview.md). Pour afficher les données de performances pour les campagnes de performances max dans [!DNL Analytics], la campagne doit utiliser la variable [code de suivi AMO ID mis à niveau](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) (qui effectue le suivi de l’identifiant de campagne et de l’identifiant du groupe publicitaire).
+Vous pouvez afficher vos campagnes de performances max existantes, avec les données de performances au format tableau et graphique de tendances, au format [!DNL Campaigns] vue ; les données ne sont pas disponibles à des niveaux inférieurs. Les données de performances au niveau de la campagne sont également disponibles dans les rapports et dans Adobe Analytics (pour les annonceurs qui disposent d’un [Intégration d’Analytics](/help/integrations/analytics/overview.md). Pour afficher les données de performances pour les campagnes de performances max dans [!DNL Analytics], la campagne doit utiliser la variable [code de suivi AMO ID mis à niveau](/help/integrations/analytics/ids.md#amo-id-formats) (qui effectue le suivi de l’identifiant de campagne et de l’identifiant du groupe publicitaire).
 
 >[!NOTE]
 >

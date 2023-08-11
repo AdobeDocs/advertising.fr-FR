@@ -3,9 +3,9 @@ title: Mise en oeuvre [!DNL Google Ads] annonces de recherche dynamique
 description: En savoir plus sur le workflow de configuration [!DNL Google Ads] annonces de recherche dynamique.
 exl-id: 4c806824-b582-46dc-8d88-85c73bfb0944
 feature: Search Campaign Management
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Vous pouvez configurer des annonces de recherche dynamique soit individuellement
 
    1. (Facultatif) Configurez un modèle de suivi au niveau de la campagne, qui remplace le modèle de suivi au niveau du compte, mais qui peut être remplacé aux niveaux inférieurs.
 
-      (Publicitaires avec Adobe Analytics sans suivi côté serveur) Pour inclure le suivi du flux inverse de Search, Social et Commerce vers Analytics, ajoutez le code de suivi AMO ID aux paramètres d’ajout au niveau du compte, qui ajoutent le code à l’URL finale. Voir &quot;[Le paramètre de suivi AMO ID](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md).&quot;
+      (Publicitaires avec Adobe Analytics sans suivi côté serveur) Pour inclure le suivi du flux inverse de Search, Social et Commerce vers Analytics, ajoutez le code de suivi AMO ID aux paramètres d’ajout au niveau du compte, qui ajoutent le code à l’URL finale. Voir &quot;[ID d’Adobe Advertising utilisés par [!DNL Analytics]](/help/integrations/analytics/ids.md).&quot;
 
 1. [Création d’un groupe d’annonces](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) dans la campagne, notamment les étapes suivantes :
 
