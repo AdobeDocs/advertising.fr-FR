@@ -3,7 +3,7 @@ title: Formats de suivi des clics pour [!DNL Google Ads]
 description: Découvrez les formats de suivi des clics pour [!DNL Google Ads] comptes.
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%
@@ -93,4 +93,4 @@ Les comptes qui utilisent le suivi de conversion d’Adobe Advertising doivent i
 >[!MORELIKETHIS]
 >
 >* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion Adobe Advertising](formats-click-tracking-about.md)
->* [Formats du code de suivi AMO ID](skwcid-tracking-parameter.md)
+>* [Formats du code de suivi AMO ID](amo-id-tracking-parameter.md)

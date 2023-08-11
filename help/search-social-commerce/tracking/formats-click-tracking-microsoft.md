@@ -3,7 +3,7 @@ title: Formats de suivi des clics pour [!DNL Microsoft Advertising]
 description: Découvrez les formats de suivi des clics pour [!DNL Microsoft Advertising] comptes.
 exl-id: 725981db-1b9a-4c89-b95d-98d07ec99756
 feature: Search Tracking
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -107,4 +107,4 @@ Les comptes qui utilisent le suivi de conversion d’Adobe Advertising doivent i
 >[!MORELIKETHIS]
 >
 >* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion Adobe Advertising](formats-click-tracking-about.md)
->* [Formats du code de suivi AMO ID](skwcid-tracking-parameter.md)
+>* [Formats du code de suivi AMO ID](amo-id-tracking-parameter.md)

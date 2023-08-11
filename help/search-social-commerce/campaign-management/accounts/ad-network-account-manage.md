@@ -3,7 +3,7 @@ title: Gestion des comptes de réseau publicitaire
 description: Découvrez comment configurer et gérer les détails du compte pour un compte réseau publicitaire.
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '2086'
 ht-degree: 0%
@@ -242,7 +242,7 @@ Les comptes qui utilisent le suivi des clics par Adobe Advertising doivent inclu
 
 * **Format S_kwcid** - (Existant [!DNL Google Ads] les comptes des annonceurs avec une intégration Adobe Advertising-Adobe Analytics et pour lesquels l’AMO ID (s_kwcid) n’a pas déjà été migré ;
 
-Ce compte utilise le format hérité du code de suivi AMO ID, ce qui permet à l’Adobe Advertising de partager les données relatives au compte avec Adobe Analytics. La variable [dernier format](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) comprend des paramètres pour l’identifiant de campagne et l’identifiant du groupe publicitaire, qui sont nécessaires pour générer des rapports précis aux niveaux de la campagne et du groupe publicitaire pour [!DNL Google Ads] performances max des campagnes et des campagnes de brouillons et d’expériences dans Analytics :
+Ce compte utilise le format hérité du code de suivi AMO ID, ce qui permet à l’Adobe Advertising de partager les données relatives au compte avec Adobe Analytics. La variable [dernier format](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) comprend des paramètres pour l’identifiant de campagne et l’identifiant du groupe publicitaire, qui sont nécessaires pour générer des rapports précis aux niveaux de la campagne et du groupe publicitaire pour [!DNL Google Ads] performances max des campagnes et des campagnes de brouillons et d’expériences dans Analytics :
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

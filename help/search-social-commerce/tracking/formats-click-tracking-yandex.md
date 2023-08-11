@@ -3,7 +3,7 @@ title: Formats de suivi des clics pour [!DNL Yandex]
 description: Découvrez les formats de suivi des clics pour [!DNL Yandex] comptes.
 exl-id: cf1d6c4b-9bcd-4b82-919f-c14dbaff9a76
 feature: Search Tracking
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -39,4 +39,4 @@ Exemple :
 >[!MORELIKETHIS]
 >
 >* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion Adobe Advertising](formats-click-tracking-about.md)
->* [Formats du code de suivi AMO ID](skwcid-tracking-parameter.md)
+>* [Formats du code de suivi AMO ID](amo-id-tracking-parameter.md)
