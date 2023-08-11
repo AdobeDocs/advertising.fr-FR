@@ -6,8 +6,8 @@ breadcrumb-title: Guide d’Advertising Search, Social et Commerce
 index: true
 source-git-commit: 4fff88683c524b4844104102ed09c0a6b08e5701
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
