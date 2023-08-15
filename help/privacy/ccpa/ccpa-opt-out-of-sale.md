@@ -1,17 +1,17 @@
 ---
-title: 'Prise en charge des Adobes Advertising pour le California Consumer Privacy Act : Prise en charge de l’exclusion de la vente par les consommateurs'
+title: 'Prise en charge des Adobes Advertising pour le California Consumer Privacy Act : prise en charge de l’exclusion de la vente pour les consommateurs'
 description: Découvrez la prise en charge de la capture des demandes d’opposition à la vente des consommateurs.
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
 
-# Prise en charge des Adobes Advertising pour le California Consumer Privacy Act : Prise en charge de l’exclusion de la vente par les consommateurs
+# Prise en charge des Adobes Advertising pour le California Consumer Privacy Act : prise en charge de l’exclusion de la vente par les consommateurs
 
 *Pour Adobe Advertising Demand Side Platform (DSP)*
 
@@ -27,18 +27,18 @@ En tant que fournisseur de services, Adobe Advertising fournit une assistance à
 
 Ce document décrit comment Adobe Advertising Demand Side Platform (DSP), en tant que fournisseur de services, soutient le droit du consommateur de se désinscrire de la &quot;vente&quot; des &quot;informations personnelles&quot;, car chaque terme est défini par la CCPA. Elle comprend des informations sur la manière de communiquer les demandes d’opposition à la vente à l’Adobe Advertising et de récupérer les rapports des demandes d’opposition à la vente de votre organisation.
 
-Pour plus d’informations sur la manière dont [!DNL Advertising Search, Social, & Commerce]; Advertising Creative; et [!DNL Advertising DCO] prendre en charge les droits d’accès et de suppression des informations personnelles des consommateurs, voir [Prise en charge des Adobes Advertising pour le California Consumer Privacy Act : Prise en charge de l’accès et de la suppression des données des consommateurs](/help/privacy/ccpa/ccpa-access-delete.md).
+Pour plus d’informations sur la manière dont [!DNL Advertising Search, Social, & Commerce]; Advertising Creative ; et [!DNL Advertising DCO] prendre en charge les droits d’accès et de suppression des informations personnelles des consommateurs, voir [Prise en charge des Adobes Advertising pour le California Consumer Privacy Act : prise en charge de l’accès aux données et de la suppression des clients](/help/privacy/ccpa/ccpa-access-delete.md).
 
-Pour plus d’informations sur les services de confidentialité Adobe pour le CCPA, reportez-vous à la section [Centre de traitement des données personnelles des Adobes](https://www.adobe.com/privacy/ccpa.html).
+Pour plus d’informations sur les services de confidentialité Adobe pour le CCPA, voir la section [Centre de traitement des données personnelles Adobe](https://www.adobe.com/privacy/ccpa.html).
 
 ## Communication aux Adobes Advertising de demandes d’opposition à la vente aux consommateurs
 
 Vous pouvez communiquer les demandes d’opposition à la vente des consommateurs à l’aide de l’une des méthodes suivantes :
 
 * un segment d’opposition à la vente des informations personnelles créé dans Advertising DSP
-* API Adobe Experience Platform Privacy Service
+* API ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE
 
-### Méthode 1 : Communication des demandes d’opposition à la vente des informations personnelles du CCPA à l’aide d’une [!UICONTROL CCPA Opt-Out-of-Sale] Segment dans le DSP de publicité
+### Méthode 1 : communication des demandes d’opposition à la vente des informations personnelles du CCPA à l’aide d’une [!UICONTROL CCPA Opt-Out-of-Sale] Segment dans le DSP de publicité
 
 >[!NOTE]
 >
@@ -47,9 +47,9 @@ Vous pouvez communiquer les demandes d’opposition à la vente des consommateur
 1. Connectez-vous au compte de l’annonceur dans le DSP Advertising à l’adresse [https://advertising.adobe.com/](https://advertising.adobe.com/).
 1. [Créez un segment d’opposition à la vente des informations personnelles (CCPA) et implémentez le pixel de segment pour capturer les demandes d’opposition.](/help/dsp/audiences/ccpa-opt-out-segment-create.md).
 
-### Méthode 2 : Communication des demandes d’opposition à la vente des informations personnelles du CCPA à l’aide de l’API Adobe Experience Platform Privacy Service
+### Méthode 2 : communication des demandes d’opposition à la vente des informations personnelles du CCPA à l’aide de l’API Adobe Experience Platform Privacy Service
 
-*Les annonceurs n’ont affecté qu’un ID d’organisation Adobe Experience Cloud*
+*Les annonceurs ont affecté un ID d’organisation Adobe Experience Cloud uniquement*
 
 1. Déployez une bibliothèque JavaScript pour récupérer les cookies de votre client. La même bibliothèque, `AdobePrivacy.js`, est utilisé pour toutes les solutions Adobe Experience Cloud.
 
@@ -73,24 +73,24 @@ Vous pouvez communiquer les demandes d’opposition à la vente des consommateur
 
    >[!NOTE]
    >
-   Si votre entreprise dispose de plusieurs ID d’organisation Experience Cloud, vous devez envoyer des demandes d’API distinctes pour chacun d’eux. Vous pouvez toutefois effectuer une requête API sur plusieurs sous-solutions Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], et [!DNL DCO]), avec un compte par sous-solution.
+   Si votre entreprise dispose de plusieurs ID d’organisation Experience Cloud, vous devez envoyer des demandes d’API distinctes pour chacun d’eux. Vous pouvez toutefois effectuer une requête d’API sur plusieurs sous-solutions Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], et [!DNL DCO]), avec un compte par sous-solution.
 
-Toutes ces étapes sont nécessaires pour recevoir le soutien d’Adobe Advertising. Pour plus d’informations à ce sujet et sur d’autres tâches connexes que vous devez effectuer à l’aide d’Adobe Experience Platform Privacy Service, et où trouver les éléments dont vous aurez besoin, voir [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Toutes ces étapes sont nécessaires pour recevoir le soutien d’Adobe Advertising. Pour plus d’informations à ce sujet et sur d’autres tâches connexes que vous devez effectuer à l’aide de Adobe Experience Platform Privacy Service, et où trouver les éléments dont vous aurez besoin, voir [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Récupération des rapports des consommateurs qui ont soumis des demandes d’exclusion de la vente
 
-Adobe Advertising génère des rapports mensuels sur les identifiants que les clients ont envoyés pour les demandes d’exclusion de la vente pour le compte. Chaque rapport est disponible sous la forme d’un fichier texte de données séparées par des tabulations compressé au format GZIP. Les données consolident les demandes capturées à l’aide des segments d’opposition à la vente des CCPA qui ont été créés dans Advertising DSP et les envois effectués via l’API du Privacy Service. Les identifiants utilisateur capturés dans les segments d’opposition à la vente des informations personnelles (CCPA) sont identifiés par le segment et par l’annonceur. Les rapports sont générés le premier de chaque mois pour le mois précédent. Par exemple, la liste mensuelle des utilisateurs pour juin est disponible le 1er juillet.
+Adobe Advertising génère des rapports mensuels sur les identifiants que les clients ont envoyés pour les demandes d’exclusion de la vente pour le compte. Chaque rapport est disponible sous la forme d’un fichier texte de données séparées par des tabulations compressé au format GZIP. Les données consolident les demandes capturées à l’aide des segments d’opposition à la vente des CCPA qui ont été créés dans Advertising DSP et tous les envois effectués via l’API du Privacy Service. Les identifiants utilisateur capturés dans les segments d’opposition à la vente des informations personnelles (CCPA) sont identifiés par le segment et par l’annonceur. Les rapports sont générés le premier de chaque mois pour le mois précédent. Par exemple, la liste mensuelle des utilisateurs pour juin est disponible le 1er juillet.
 
-Vous pouvez récupérer des liens vers les rapports mensuels créés au cours des trois mois précédents, soit à partir de l’DSP Advertising, soit à l’aide de l’DSP Advertising. [!DNL Trafficking API]. Chaque lien est valide pendant sept jours, mais est actualisé chaque fois qu’un client tente d’en récupérer un.
+Vous pouvez récupérer des liens vers les rapports mensuels créés au cours des trois mois précédents, soit à partir de l’DSP Advertising, soit à l’aide de l’DSP Advertising [!DNL Trafficking API]. Chaque lien est valide pendant sept jours, mais est actualisé chaque fois qu’un client tente d’en récupérer un.
 
-### Méthode 1 : Récupération des rapports d’exclusion de la vente par les consommateurs dans les DSP de publicité
+### Méthode 1 : récupération des rapports d’exclusion de la vente par les consommateurs dans les DSP de publicité
 
 1. Connectez-vous au compte de l’annonceur dans le DSP Advertising à l’adresse [https://advertising.adobe.com/](https://advertising.adobe.com/).
 1. [Récupération des rapports](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md).
 
-### Méthode 2 : Récupération des rapports d’exclusion de la vente par les consommateurs à l’aide du DSP de publicité [!DNL Trafficking API]
+### Méthode 2 : récupération des rapports d’exclusion de la vente pour les consommateurs à l’aide de la DSP de publicité [!DNL Trafficking API]
 
-Cette fonctionnalité est disponible pour les organisations qui utilisent la variable [!DNL Trafficking API]. Consultez la documentation relative à la [!DNL Trafficking API] pour plus d’informations.
+Cette fonctionnalité est disponible pour les organisations qui utilisent la variable [!DNL Trafficking API]. Reportez-vous à la documentation de la section [!DNL Trafficking API] pour plus d’informations.
 
 Si votre entreprise n’utilise pas la variable [!DNL Trafficking API] mais pour plus d’informations, contactez votre équipe de compte d’Adobe.
 

@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Google Ads] campagnes.
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2025'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
   **Remarques :**
 
-   * Seuls les paramètres requis sont disponibles. Pour connaître les paramètres facultatifs, connectez-vous au [!DNL Google Ads] éditeur.
+   * Seuls les paramètres requis sont disponibles. Pour les paramètres facultatifs, connectez-vous au [!DNL Google Ads] éditeur.
 
    * Liens vers [!DNL Google Merchant Center] les flux de produit ne sont pas pris en charge.
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Bid Only]:*  Afficher les publicités même aux personnes qui ne sont pas associées aux audiences cibles tant qu’elles répondent à d’autres cibles au niveau du groupe publicitaire. Vous pouvez toutefois augmenter les chances d&#39;affichage des publicités à des audiences spécifiques en définissant des offres plus élevées pour ces audiences.
 
-**[!UICONTROL Status]:** Etat d&#39;affichage de l&#39;opération : *Principal* ou *En pause*. La valeur par défaut pour les nouvelles campagnes publicitaires est *Principal*.
+**[!UICONTROL Status]:** Etat d&#39;affichage de l&#39;opération : *Actif* ou *En pause*. La valeur par défaut pour les nouvelles campagnes publicitaires est *Actif*.
 
 <!-- **[!UICONTROL End Date]:** -->
 
