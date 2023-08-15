@@ -3,9 +3,9 @@ title: Création d’un objectif personnalisé
 description: Création d’un objectif personnalisé
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Pour créer un objectif personnalisé, le compte DSP doit être associé à un [
 
       1. Au bas des paramètres, cliquez sur **[!UICONTROL Save]**.
 
-Une fois que vous avez créé un objectif, vous pouvez l’affecter à un module DSP en tant qu’objectif personnalisé lorsque l’objectif d’optimisation est &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; ou &quot;[!UICONTROL Lowest CPA - Custom Goal].&quot;
+Une fois que vous avez créé un objectif, vous pouvez l’affecter à un module DSP en tant qu’objectif personnalisé lorsque l’objectif d’optimisation se termine par &quot;&quot;[!UICONTROL - Custom Goal]&quot; (par exemple,[!UICONTROL Highest ROAS - Custom Goal]&quot;).
 
 >[!TIP]
 >
