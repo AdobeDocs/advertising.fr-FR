@@ -3,9 +3,9 @@ title: ID d’Adobe Advertising utilisés par [!DNL Analytics]
 description: ID d’Adobe Advertising utilisés par [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 426f6e25f0189221986cc42d186bfa60f5268ef1
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,20 @@ ht-degree: 0%
 
 Adobe Advertising utilise deux identifiants pour le suivi des performances sur site : *EF ID* et la variable *AMO ID*.
 
-Lorsqu’une impression de publicité se produit, Adobe Advertising crée les valeurs AMO ID et EF ID et les stocke. Lorsqu’un visiteur qui a vu une publicité arrive sur le site sans cliquer sur une publicité, [!DNL Analytics] appelle ces valeurs de l’Adobe Advertising à la variable [!DNL Analytics for Advertising] Code JavaScript. Pour le trafic d’affichage publicitaire, [!DNL Analytics] génère un ID supplémentaire (`SDID`), utilisé pour associer l’EF ID et l’AMO ID à [!DNL Analytics]. Pour le trafic de clics publicitaires, ces identifiants sont inclus dans l’URL de la page d’entrée à l’aide de la variable `s_kwcid` et `ef_id` paramètres de chaîne de requête.
+Lorsqu’une impression de publicité se produit, Adobe Advertising crée les valeurs AMO ID et EF ID et les stocke. Lorsqu’un visiteur qui a vu une publicité arrive sur le site sans cliquer sur une publicité, [!DNL Analytics] appelle ces valeurs de l’Adobe Advertising à la variable [!DNL Analytics for Advertising] Code JavaScript. Pour le trafic d’affichage publicitaire, [!DNL Analytics] génère un ID supplémentaire (`SDID`), utilisé pour associer l’EF ID et l’AMO ID à [!DNL Analytics]. Pour le trafic de clics publicitaires, ces identifiants sont inclus dans l’URL de la page d’entrée à l’aide de la variable `ef_id` et `s_kwcid` (pour l’AMO ID) Paramètres de chaîne de requête.
 
 L’Adobe Advertising fait la distinction entre une entrée de clic publicitaire ou d’affichage publicitaire sur le site web selon les critères suivants :
 
 * Une entrée d’affichage publicitaire est capturée lorsqu’un utilisateur se rend sur le site après avoir affiché une publicité, mais sans cliquer dessus. [!DNL Analytics] enregistre un affichage publicitaire si deux conditions sont remplies :
+
    * Le visiteur ne dispose d’aucun clic publicitaire pour une [!DNL DSP] ou [!DNL Search, Social, & Commerce] pendant la [intervalle de recherche en amont des clics](#lookback-a4adc).
+
    * Le visiteur en a vu au moins une [!DNL DSP] pendant la [intervalle de recherche en amont des impressions](#lookback-a4adc). La dernière impression est transmise comme affichage publicitaire.
+
 * Une entrée de clic publicitaire est capturée lorsqu’un visiteur du site clique sur une publicité avant d’accéder au site. [!DNL Analytics] capture un clic publicitaire lorsque l’une des conditions suivantes se produit :
+
    * L’URL comprend un EF ID et un AMO ID, ajoutés par Adobe Advertising à l’URL de la page d’entrée.
+
    * L’URL ne contient aucun code de suivi, mais le code JavaScript de l’Adobe Advertising détecte un clic au cours des deux dernières minutes.
 
 ![Basé sur les vues des Adobes Advertising [!DNL Analytics] integration](/help/integrations/assets/a4adc-view-through-process.png)
@@ -100,6 +105,38 @@ Les identifiants EF sont soumis à la limite d’identifiant unique de 500 000 d
 L’AMO ID effectue le suivi de chaque combinaison d’annonces unique à un niveau moins granulaire et est utilisé pour [!DNL Analytics] classification des données et ingestion de mesures publicitaires (telles que les impressions, les clics et les coûts) à partir d’Adobe Advertising. L’AMO ID est stocké dans une [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou la dimension rVar (AMO ID) et est utilisée exclusivement pour la création de rapports dans [!DNL Analytics].
 
 L’AMO ID est également appelé `s_kwcid`, qui est parfois prononcé en tant que &quot;[!DNL the squid].&quot;
+
+### Méthodes de mise en oeuvre d’AMO ID
+
+Le paramètre est ajouté à vos URL de suivi de l’une des manières suivantes :
+
+* (Recommandé) La fonction d’insertion côté serveur est mise en oeuvre.
+
+   * DSP clients : le serveur de pixels ajoute automatiquement le paramètre s_kwcid aux suffixes de votre page d’entrée lorsqu’un utilisateur final affiche une publicité avec le pixel Adobe Advertising.
+
+   * Clients Search, Social et Commerce :
+
+      * Pour [!DNL Google Ads] et [!DNL Microsoft® Advertising] compte avec la variable [!UICONTROL Auto Upload] activée pour le compte ou la campagne, le serveur de pixels ajoute automatiquement le paramètre s_kwcid aux suffixes de votre page d’entrée lorsqu’un utilisateur clique sur une publicité avec le pixel Adobe Advertising.
+
+      * Pour d’autres réseaux publicitaires, ou [!DNL Google Ads] et [!DNL Microsoft® Advertising] compte avec la variable [!UICONTROL Auto Upload] désactivé, ajoutez manuellement le paramètre aux paramètres d’ajout au niveau du compte, qui l’ajoutent à vos URL de base.
+
+* La fonction d’insertion côté serveur n’est pas mise en oeuvre :
+
+   * DSP clients :
+
+      * Pour [!DNL Flashtalking] balises publicitaires, insérer manuellement des macros supplémentaires par &quot;[Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Flashtalking] Balises publicitaires](/help/integrations/analytics/macros-flashtalking.md).&quot;
+
+      * Pour [!DNL Google Campaign Manager 360] balises publicitaires, insérer manuellement des macros supplémentaires par &quot;[Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Google Campaign Manager 360] Balises publicitaires](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+
+  <!--  * For all other ads, XXXX. -->
+
+   * Clients Search, Social et Commerce :
+
+      * Pour ([!DNL Google Ads] et [!DNL Microsoft® Advertising]) publicités, ajoutez manuellement le paramètre AMO ID à vos suffixes de page d’entrée.
+
+      * Pour les publicités sur tous les autres réseaux publicitaires, ajoutez manuellement le paramètre AMO ID aux paramètres d’ajout au niveau du compte, qui l’ajoutent à vos URL de base.
+
+Pour mettre en oeuvre la fonction d’insertion côté serveur ou déterminer la meilleure option pour votre entreprise, contactez votre équipe de compte d’Adobe.
 
 ### Formats AMO ID {#amo-id-formats}
 
