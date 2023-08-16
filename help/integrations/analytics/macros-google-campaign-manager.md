@@ -3,7 +3,7 @@ title: Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Google Campaig
 description: Découvrez pourquoi et comment ajouter [!DNL Analytics for Advertising] des macros à vos [!DNL Google Campaign Manager 360] balises publicitaires
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
+source-git-commit: aa41ba08ba83bfacbc2541c0f0d90336b3c36305
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -43,7 +43,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 >[!NOTE]
 >
 >>* Si l’URL de la page d’entrée contient un symbole de hachage (#), qui n’est pas courant, placez la variable `amo` avant le symbole de hachage.
->* Si aucun autre paramètre n’est inclus après l’événement `amo` , puis ajoutez un paramètre (par exemple, &amp;a=b) après. Exemple :`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
+>* Si aucun autre paramètre n’est inclus après l’événement `amo` , puis ajoutez un paramètre (par exemple, &amp;a=b) après. Exemple : `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### Configuration du suffixe d’URL de page d’entrée au niveau des annonceurs
 
