@@ -3,9 +3,9 @@ title: Formats de suivi des clics pour [!DNL Google Ads]
 description: Découvrez les formats de suivi des clics pour [!DNL Google Ads] comptes.
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 0c2603303dd9401b2d6fad2893f5a84cb457ed3a
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ Les comptes qui utilisent le suivi de conversion d’Adobe Advertising doivent i
 
 * Lorsque l’annonceur dispose d’une intégration Adobe Analytics, le suffixe doit inclure l’un des éléments suivants :
 
-   * [!DNL Google Ads] les comptes qui utilisent le dernier format AMO ID (en commençant par `s_kwcid`), qui prend en charge la création de rapports au niveau des campagnes et des groupes publicitaires pour les performances maximales des campagnes et les campagnes de brouillons et d’expériences :
+   * [!DNL Google Ads] les comptes qui utilisent la dernière [Format AMO ID](/help/integrations/analytics/ids.md#amo-id-formats) (en commençant par `s_kwcid`), qui prend en charge la création de rapports au niveau des campagnes et des groupes publicitaires pour les performances maximales des campagnes et les campagnes de brouillons et d’expériences :
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Si le compte comporte une implémentation AMO ID côté serveur et le paramètre de compte ou de campagne &quot;[!UICONTROL Auto Upload]&quot; est activé, puis le paramètre est ajouté automatiquement. Sinon, vous devez l’ajouter manuellement.
+     Si le compte comporte une implémentation AMO ID côté serveur et le paramètre de compte ou de campagne &quot;[!UICONTROL Auto Upload]&quot; est activé, puis le paramètre est ajouté automatiquement. Sinon, vous devez l’ajouter manuellement. Voir &quot;Méthodes de mise en oeuvre de l’AMO ID&quot; dans &quot;[ID d’Adobe Advertising utilisés par [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
 
    * Toutes les autres [!DNL Google Ads] comptes :
 

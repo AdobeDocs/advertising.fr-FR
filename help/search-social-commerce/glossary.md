@@ -3,7 +3,7 @@ title: Glossaire
 description: Voir les définitions des termes clés.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: 11aaafc7f6b888a2cf341cbd7416c609450324fb
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **variation publicitaire :** N’importe quelle publicité dans un groupe publicitaire ou une stratégie publicitaire.
 
-**AMO ID :** Code de suivi qui permet à l’Adobe Advertising de partager des données sur les campagnes avec Adobe Analytics. Elle commence par `s_kwcid=`.
+**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Code de suivi qui permet à l’Adobe Advertising de partager des données sur les campagnes avec Adobe Analytics. Elle commence par `s_kwcid=`.
 
 **offre :** Terme Search, Social et Commerce pour une unité sur laquelle des offres sont placées. Pour la plupart des campagnes sur la plupart des réseaux, il s’agit d’un mot-clé et de son type de correspondance pour une campagne de recherche ou de contenu, un groupe de produits au niveau de l’unité (le niveau de subdivisions le plus bas) pour une campagne d’achat ou une cible de recherche dynamique pour une campagne publicitaire de recherche dynamique. Lorsque le même mot-clé et la même combinaison de type de correspondance, le même groupe de produits ou la même cible de recherche dynamique se produisent dans plusieurs groupes publicitaires au sein d’une même campagne, toutes les instances sont considérées comme la même unité d’offre et ont donc la même offre.
 
