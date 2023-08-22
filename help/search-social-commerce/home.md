@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: cbbbd4260fc7545fb778b14d0b82cd4911e9a5a5
+source-git-commit: 846c85525059d1cbd2e61b6a494fb62f88db0096
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
+| 15 août 2023 | Mesures de conversion | [!UICONTROL Admin] > [!DNL Transaction Properties] inclut désormais un[!UICONTROL Source]&quot;, qui indique la source de chaque mesure, telle que [!UICONTROL Adobe Advertising], [!UICONTROL Adobe Analytics], [!UICONTROL Google Ads], ou [!UICONTROL Custom Feed]. | Voir &quot;[Afficher les mesures de conversion suivies pour un annonceur](conversion-metric-view-tracked.md).&quot; |
 | 9 août 2023 | Mesures de conversion | [!UICONTROL Admin] > [!DNL Transaction Properties] a été renommé [!UICONTROL Conversions]. | Voir &quot;[À propos de la gestion des mesures de conversion d’un annonceur](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).&quot; |
 |  | [!DNL Google] balises de suivi de conversion | Un écran mis à jour pour créer [!DNL Google] les balises de suivi de conversion sont disponibles à partir de [!UICONTROL Admin] > [!UICONTROL Conversions]. L’écran hérité à l’adresse [!UICONTROL Tools] > [!UICONTROL Google Ads Conversion Tags] sera supprimé à l’avenir. | Voir &quot;[Création d’une balise de conversion pour [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).&quot; |
 |  | [!DNL Google] balises de suivi de conversion | Lorsque vous créez une [!DNL Google] balise de suivi de conversion, vous pouvez maintenant spécifier une catégorie de conversion à suivre. | Voir &quot;[Création d’une balise de conversion pour [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).&quot; |
