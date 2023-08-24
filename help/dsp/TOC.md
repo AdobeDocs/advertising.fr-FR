@@ -4,7 +4,7 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: b505a40d04fc57fce245d111f58a614bd6756c65
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 6%
@@ -73,7 +73,7 @@ ht-degree: 6%
    + Publicités {#ads}
       + [A propos de la gestion des publicités](/help/dsp/campaign-management/ads/ad-about.md)
       + [Partenaires certifiés du service publicitaire](/help/dsp/campaign-management/ads/certified-ad-servers.md)
-      + [Créer une publicité unique](/help/dsp/campaign-management/ads/ad-create.md)
+      + [Création d’une publicité unique](/help/dsp/campaign-management/ads/ad-create.md)
       + [Créer plusieurs publicités tierces](/help/dsp/campaign-management/ads/ad-create-multiple.md)
       + [Créer des publicités avec [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [Modifier une publicité](/help/dsp/campaign-management/ads/ad-edit.md)
@@ -96,7 +96,7 @@ ht-degree: 6%
       + [À propos des rapports In-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Exportation de données à partir d’une vue Campaign Management](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [Affichage des sites, publicités et détails de fréquence d’un emplacement](/help/dsp/campaign-management/reports/placement-details-view.md)
-      + [Affichage des rapports de diagnostic de placement](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+      + [Affichage des rapports de diagnostic d’emplacement](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + Gérer les vues de données {#data-views}
          + [À propos des vues de données de campagne](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
          + [Modification du mode Colonnes](/help/dsp/campaign-management/reports/column-view-change.md)
@@ -105,10 +105,10 @@ ht-degree: 6%
          + [Filtrage des données de campagne](/help/dsp/campaign-management/reports/campaign-data-filter.md)
          + [Tri d’une colonne](/help/dsp/campaign-management/reports/campaign-data-sort.md)
       + [Gestion des visualisations des données](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
-   + Correction Des Paramètres De Placement À L’Aide De Feuilles De Calcul {#qa-spreadsheet}
+   + Corriger les paramètres de positionnement à l’aide de feuilles de calcul {#qa-spreadsheet}
       + [À propos de la correction des paramètres de positionnement à l’aide de feuilles de calcul](/help/dsp/campaign-management/qa/qa-about.md)
-      + [Télécharger les paramètres de positionnement d’une campagne](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [Télécharger les paramètres de positionnement d’une campagne](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
+      + [Télécharger les paramètres de positionnement dans une feuille de calcul](/help/dsp/campaign-management/qa/qa-sheet-download.md)
+      + [Charger les paramètres de positionnement dans une feuille de calcul](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [Colonnes dans les feuilles de calcul téléchargées/téléchargées](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [Macros DSP](/help/dsp/campaign-management/macros.md)
    + [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
@@ -125,7 +125,7 @@ ht-degree: 6%
    + [Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)
 + Audiences {#audiences}
-   + [À propos de la gestion de l’audience](/help/dsp/audiences/audience-about.md)
+   + [Gestion de l’audience](/help/dsp/audiences/audience-about.md)
    + Segments {#segments}
       + [Création et implémentation d’un segment personnalisé](/help/dsp/audiences/custom-segment-create.md)
       + [!UICONTROL CCPA Opt-out-of-Sale] Segments {#ccpa-opt-out-of-sale-segments}
@@ -182,7 +182,7 @@ ht-degree: 6%
             + [Configuration d’un contrat garanti programmatique](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel] Offres garanties par la programmation {#freewheel}
                + [Présentation de la configuration de transactions garanties par la programmation dans [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
-               + [Envoyer une publicité pour une transaction garantie par un programme à [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
+               + [Envoyer une annonce pour une transaction sécurisée par programmation à [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
                + [Vérification de l’état des publicités pour [!DNL FreeWheel] Offres garanties par la programmation](/help/dsp/inventory/freewheel-check-status.md)
                + [Codes d’erreur pour les envois d’annonce FreeWheel](/help/dsp/inventory/freewheel-error-codes.md)
       + [Modifier les paramètres d’opération privée](/help/dsp/inventory/deal-id-edit.md)
@@ -197,7 +197,7 @@ ht-degree: 6%
       + [Créez un [!UICONTROL Simple Ad Serving] Deal](/help/dsp/inventory/simple-deal-create.md)
       + [Modifier [!UICONTROL Simple Ad Serving] Paramètres de transaction](/help/dsp/inventory/simple-deal-edit.md)
       + [[!UICONTROL Simple Ad Serving] Paramètres de transaction](/help/dsp/inventory/simple-deal-settings.md)
-   + [Afficher un rapport détaillé pour une transaction](/help/dsp/inventory/deal-view-report.md)
+   + [Affichage d’un rapport détaillé pour une transaction](/help/dsp/inventory/deal-view-report.md)
 + Rapports personnalisés {#custom-reports}
    + [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
    + [Créer un rapport personnalisé](/help/dsp/reports/report-create.md)
@@ -219,10 +219,10 @@ ht-degree: 6%
    + Utilisateurs {#users}
       + [Invitation d’un nouvel utilisateur](/help/dsp/admin/user-invite.md)
       + [Réenvoyer une invitation d’utilisateur en attente](/help/dsp/admin/user-resend-invite.md)
-      + [Annuler l’invitation d’un utilisateur en attente](/help/dsp/admin/user-uninvite.md)
+      + [Annulation de l’invitation d’un utilisateur en attente](/help/dsp/admin/user-uninvite.md)
    + Sites bloqués {#sites}
       + [À propos des listes de sites bloqués au niveau du compte et des annonceurs](/help/dsp/admin/blocked-sites-list-about.md)
-      + [Modification d’une liste de sites bloqués au niveau du compte ou de l’annonceur](/help/dsp/admin/blocked-sites-list-edit.md)
+      + [Modification d’une liste de sites bloqués au niveau du compte ou des annonceurs](/help/dsp/admin/blocked-sites-list-edit.md)
    + Notifications {#notifications}
       + [A propos des abonnements aux alertes](/help/dsp/admin/alerts-about.md)
       + [Gestion des abonnements aux alertes](/help/dsp/admin/alerts-manage.md)

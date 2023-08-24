@@ -1,20 +1,22 @@
 ---
-title: Télécharger les paramètres de positionnement d’une campagne
-description: Découvrez comment télécharger les paramètres d’emplacement d’une campagne à l’aide de feuilles de calcul AQ Excel.
+title: Télécharger les paramètres de positionnement dans une feuille de calcul
+description: Découvrez comment télécharger les paramètres de placement dans des feuilles de calcul.
 feature: DSP Placements
 exl-id: dd65eec8-9616-4eca-b6b9-b904b3e65141
-source-git-commit: 735bbe90e313dfe93408d72875654830d96f0889
+source-git-commit: d8c59b2c39a4c0f7c9dca92cdc8081de7debf629
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
 
-# Télécharger les paramètres de positionnement d’une campagne
+# Télécharger les paramètres de positionnement dans une feuille de calcul
 
-Vous pouvez télécharger les paramètres d’emplacement d’une campagne au format XLSX (feuille de calcul Excel).
+Vous pouvez télécharger les paramètres de placement au format XLSX (feuille de calcul Excel).
 
 Si nécessaire, vous pourrez modifier ultérieurement la [sélectionner des champs](qa-sheet-columns.md) dans le fichier téléchargé et [charger les modifications](qa-sheet-upload.md) à DSP.
+
+## Paramètres de téléchargement pour tous les emplacements d’une campagne
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -34,9 +36,23 @@ Si nécessaire, vous pourrez modifier ultérieurement la [sélectionner des cham
 
    Le fichier est enregistré dans le dossier Téléchargements du navigateur. Voir &quot;[Colonnes dans les feuilles de calcul téléchargées/téléchargées](qa-sheet-columns.md)&quot; pour une liste des colonnes incluses.
 
+## Paramètres de téléchargement pour un ou plusieurs emplacements
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
+
+1. Cliquez sur le nom de la campagne.
+
+1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
+
+1. Cochez la case en regard de chaque emplacement dont vous souhaitez télécharger les paramètres.
+
+1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]**.
+
+Le fichier est automatiquement enregistré dans le dossier Téléchargement du navigateur. Voir &quot;[Colonnes dans les feuilles de calcul téléchargées/téléchargées](qa-sheet-columns.md)&quot; pour une liste des colonnes incluses.
+
 >[!MORELIKETHIS]
 >
->* [À propos de la correction des paramètres de positionnement d’une campagne à l’aide de feuilles de calcul](qa-about.md)
->* [Télécharger les paramètres de positionnement d’une campagne](qa-sheet-upload.md)
+>* [À propos de la correction des paramètres de positionnement à l’aide de feuilles de calcul](qa-about.md)
+>* [Charger les paramètres de positionnement dans une feuille de calcul](qa-sheet-upload.md)
 >* [Colonnes dans les feuilles de calcul téléchargées/téléchargées](qa-sheet-columns.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

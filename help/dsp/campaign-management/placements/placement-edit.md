@@ -3,9 +3,9 @@ title: Modifier un emplacement
 description: Découvrez comment modifier un emplacement.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,11 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
 
 1. Dans la barre de menu des opérations en bloc, cliquez sur **[!UICONTROL Edit]**.
 
-1. Pour chaque paramètre à modifier :
+1. Pour chaque paramètre que vous souhaitez modifier :
 
    1. Sélectionnez le paramètre dans la liste.
 
-   1. Sélectionnez la **[!UICONTROL Edit Mode]**.
+   1. Sélectionnez la variable **[!UICONTROL Edit Mode]**.
 
       Les options varient selon les paramètres, mais peuvent inclure :
 
@@ -62,7 +62,7 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
 
       * **Effacer** (pour supprimer toutes les valeurs existantes)
 
-      * **Réduire** (pour diminuer une valeur existante d’une valeur spécifiée)
+      * **Diminuer** (pour diminuer une valeur existante d’une valeur spécifiée)
 
       * **Augmenter** (pour augmenter une valeur existante d’un montant spécifié)
 
@@ -71,8 +71,8 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
       * **Pause** (pour suspendre des publicités)
 
       * **Supprimer** (pour supprimer des valeurs spécifiées)
-   1. Modifiez la variable [paramètre d&#39;emplacement](placement-settings.md).
 
+   1. Modifiez la variable [paramètre d&#39;emplacement](placement-settings.md).
 
 1. Cliquez sur **[!UICONTROL Submit]**.
 
@@ -87,6 +87,5 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
 >* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)
 >* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [À propos de la correction des paramètres de positionnement d’une campagne à l’aide de feuilles de calcul](/help/dsp/campaign-management/qa/qa-about.md)
+>* [À propos de la correction des paramètres de positionnement à l’aide de feuilles de calcul](/help/dsp/campaign-management/qa/qa-about.md)
 >* [Vidéo : Comment modifier des emplacements à l’aide des outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
-
