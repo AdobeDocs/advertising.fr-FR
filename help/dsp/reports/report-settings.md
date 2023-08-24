@@ -3,9 +3,9 @@ title: Paramètres des rapports personnalisés
 description: Reportez-vous à la description des paramètres de rapport personnalisés.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
+source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -126,11 +126,13 @@ Voir &quot;[Colonnes de rapport disponibles](report-columns.md)&quot; pour des d
 * *[!UICONTROL sFTP]:* Pour envoyer le rapport terminé à un ou plusieurs emplacements SFTP, que vous indiquez dans la variable **[!UICONTROL Destination Name]** champ .
 * *[!UICONTROL FTP]:* Pour envoyer le rapport terminé à un ou plusieurs emplacements FTP, que vous indiquez dans la variable **[!UICONTROL Destination Name]** champ .
 * *[!UICONTROL FTP SSL](Actuellement en version bêta) :* Pour envoyer le rapport terminé à un ou plusieurs emplacements SSL FTP, que vous indiquez dans la variable **[!UICONTROL Destination Name]** champ .
-* *[!UICONTROL Email]:* Pour indiquer la ou les adresses électroniques auxquelles envoyer les rapports ou notifications terminés si le rapport est annulé en raison d’erreurs. Pour spécifier plusieurs adresses, séparez-les par des virgules ou des espaces.
+* *[!UICONTROL Email]:* Pour indiquer la ou les adresses électroniques auxquelles envoyer les rapports ou notifications terminés si le rapport est annulé en raison d’erreurs.
 
 >[!NOTE]
 >
 > Vous ne pouvez pas modifier le type de destination une fois le rapport enregistré.
+
+**[!UICONTROL Email]:** (Type de destination de l’email uniquement) Pour chaque adresse, saisissez l’adresse et cliquez sur **+**.
 
 **[!UICONTROL Destination Name]:** (Types de destination S3, FTP, sFTP et FTP SSL uniquement) Les noms des destinations de rapport vers lesquelles le rapport personnalisé sera envoyé.
 
@@ -148,9 +150,13 @@ Voir &quot;[Colonnes de rapport disponibles](report-columns.md)&quot; pour des d
 
 **[!UICONTROL Frequency]:** (Pour chaque [!UICONTROL Destination Name]) À quelle fréquence envoyer le rapport à la destination : *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, ou *[!UICONTROL Monthly]*.
 
+**[!UICONTROL Start Day]:** (Pour chaque [!UICONTROL Destination Name] avec un [!UICONTROL Frequency] de *[!UICONTROL Weekly]* ou *[!UICONTROL Monthly]*) Quel jour générer le rapport. Pour les rapports hebdomadaires, sélectionnez le jour de la semaine. Pour les rapports mensuels, sélectionnez le jour numérique du mois.
+
 ## [!UICONTROL Save Report] Section
 
-**[!UICONTROL Send & Save]:** Quand envoyer le rapport : *[!UICONTROL On Schedule]* ou *[!UICONTROL Run Now]*. Les rapports planifiés sont remis avant 9h00 dans le fuseau horaire du compte.
+**[!UICONTROL When to Generate]:** Quand générer le rapport : *[!UICONTROL On Schedule]* ou *[!UICONTROL Run Now]*. Les rapports planifiés sont remis avant 9h00 dans le fuseau horaire du compte.
+
+**[!UICONTROL End Date]:** Date d’expiration du rapport, qui peut atteindre quatre mois. Avant l’expiration d’un rapport, tous les destinataires de messagerie spécifiés reçoivent une alerte sept jours et un jour avant la date d’expiration. Pour prolonger le rapport, modifiez la date d’expiration dans les paramètres du rapport.
 
 >[!NOTE]
 >
