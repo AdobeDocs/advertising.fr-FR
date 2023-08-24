@@ -3,9 +3,9 @@ title: Configuration requise
 description: Découvrez les exigences en matière de logiciels et de compte.
 exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 2fc49a64366ee9fbf05b5eb4bbda37badcf9b763
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,13 @@ Vous avez besoin des logiciels et des informations de compte suivants.
 
 Pour vous connecter, vous avez besoin d’un nom d’utilisateur et d’un mot de passe. Votre équipe de compte d’Adobe configure votre compte d’utilisateur et crée votre nom d’utilisateur et votre mot de passe.
 
-## Paramètres de langue de l’ordinateur et du navigateur
+## Paramètres de l’ordinateur et du navigateur
+
+### Paramètres du site du navigateur
+
+Pour afficher les aperçus d’image pour certains types de publicités/de ressources, désactivez les bloqueurs de publicités/bloqueurs de contenu pour les `efrontier.com` en autorisant une exception pour le site. Gérez les bloqueurs d’annonces dans les paramètres du site ou du site web de votre navigateur ou (dans Firefox) en modifiant les paramètres des extensions de navigateur du bloqueur d’annonces que vous avez installées.
+
+### Paramètres de langue de l’ordinateur et du navigateur
 
 Les informations suivantes déterminent les jeux de caractères à utiliser et les formats à utiliser pour afficher des nombres, des dates, des heures et des devises :
 

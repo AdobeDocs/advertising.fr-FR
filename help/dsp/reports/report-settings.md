@@ -3,7 +3,7 @@ title: Paramètres des rapports personnalisés
 description: Reportez-vous à la description des paramètres de rapport personnalisés.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 54e60a47c54eaac687fd0b385a94b25818b66b71
+source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]** Nom du rapport. La longueur maximale est de 180 caractères.
 
-**[!UICONTROL Report Type]** Le type de rapport : *[!UICONTROL Custom]* (qui inclut la plupart des options disponibles), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* ou *[!UICONTROL Household Conversions]*.
+**[!UICONTROL Report Type]** Le type de rapport : *[!UICONTROL Custom]* (qui inclut la plupart des options disponibles), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]*, ou *[!UICONTROL Household Conversions]*.
 
 ## [!UICONTROL Apply Filters] Section
 
@@ -48,13 +48,13 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
   >[!NOTE]
   >
-  > Le [!UICONTROL Household Reach & Frequency] ne peut inclure qu’une seule dimension.
+  > La variable [!UICONTROL Household Reach & Frequency] ne peut inclure qu’une seule dimension.
 
 * [!UICONTROL Metrics]
 
   >[!NOTE]
   >
-  >Le [!UICONTROL Household Reach & Frequency] Le rapport peut inclure des mesures de chevauchement ou des mesures de non-chevauchement, mais pas les deux.
+  >La variable [!UICONTROL Household Reach & Frequency] Le rapport peut inclure des mesures de chevauchement ou des mesures de non-chevauchement, mais pas les deux.
 
 * [!UICONTROL Conversion Metrics] (triés par annonceur)
 
@@ -64,7 +64,7 @@ Voir &quot;[Colonnes de rapport disponibles](report-columns.md)&quot; pour des d
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** L’ordre des en-têtes de colonne. Vous pouvez faire glisser et déposer n’importe quelle colonne pour personnaliser l’ordre.
 
-**[!UICONTROL Format]:** Génération ou non d’un rapport dans *[!UICONTROL CSV]* (valeurs séparées par des virgules) ou *[!UICONTROL Tab]* format (valeurs séparées par des tabulations).
+**[!UICONTROL Format]:** Génération d’un rapport dans *[!UICONTROL CSV]* (valeurs séparées par des virgules) ou *[!UICONTROL Tab]* format (valeurs séparées par des tabulations).
 
 **[!UICONTROL Headers]:** Si *[!UICONTROL Include]* ou *[!UICONTROL Do Not Include]* en-têtes de colonne.
 
@@ -72,13 +72,13 @@ Voir &quot;[Colonnes de rapport disponibles](report-columns.md)&quot; pour des d
 
 **[!UICONTROL Attribution Rule Settings]:** Les paramètres varient selon le type de rapport :
 
-* **\[Type d’attribution\] :** ([!UICONTROL Household Conversion] rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes; publicitaires avec suivi de conversion des Adobes Advertising uniquement) Dans le rapport, comment attribuer des données de conversion dans une série d’événements qui mènent à une conversion :
+* **\[Type d’attribution\] :** ([!UICONTROL Household Conversion] rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes ; annonceurs avec suivi de conversion des Adobes Advertising uniquement) Dans le rapport, comment attribuer des données de conversion dans une série d’événements qui mènent à une conversion :
 
    * *[!UICONTROL Unique]:* (La valeur par défaut) Compte le nombre de fois où une valeur de dimension (un appareil ou un emplacement, par exemple) a été placée sur le chemin de la conversion.
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]:*  Distribue le crédit de chaque conversion en fonction de la fréquence d’occurrence de la valeur de dimension (un appareil ou un emplacement, par exemple) sur le chemin de conversion. Par exemple, s’il y avait un total de 10 impressions avant conversion, dont 8 sur CTV et 2 sur Mobile, alors 80 % du crédit (0,8) est attribué aux écrans CTV et 0,2 à Mobile.
 
-* **\[Type de règle\] :** (Tous) [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], et [!UICONTROL Site] rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes; publicitaires avec suivi de conversion des Adobes Advertising uniquement) Dans le rapport, comment attribuer des données de conversion dans une série d’événements qui mènent à une conversion. Vous pouvez choisir plusieurs règles si vous souhaitez comparer les différences entre les règles.
+* **\[Type de règle\] :** (Tous) [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], et [!UICONTROL Site] rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes ; annonceurs avec suivi de conversion des Adobes Advertising uniquement) Dans le rapport, comment attribuer des données de conversion dans une série d’événements qui mènent à une conversion. Vous pouvez choisir plusieurs règles si vous souhaitez comparer les différences entre les règles.
 
   >[!NOTE]
   >
@@ -102,9 +102,9 @@ Voir &quot;[Colonnes de rapport disponibles](report-columns.md)&quot; pour des d
 
   <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-* **Recherche en amont :** ([!UICONTROL Household Conversion] rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes; publicitaires avec suivi des conversions par Adobe Advertising uniquement) Dans le rapport, nombre maximal de jours après un événement d’impression auquel un événement de conversion peut être attribué. La valeur par défaut est *[!UICONTROL 30 days]*, et la limite est de 92 jours.
+* **Recherche en amont :** ([!UICONTROL Household Conversion] rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes ; annonceurs avec suivi de conversion des Adobes Advertising uniquement) Dans le rapport, nombre maximal de jours après un événement d’impression auquel un événement de conversion peut être attribué. La valeur par défaut est *[!UICONTROL 30 days]*, et la limite est de 92 jours.
 
-**[!UICONTROL Paths as Columns]:**  (Tous) [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], et [!UICONTROL Site] rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] Colonnes) Quels types de conversions signaler les événements précédents qui se sont produits sur le même appareil ? Vous pouvez inclure jusqu’à trois types. Pour chaque type sélectionné, une colonne distincte est incluse pour chaque mesure de conversion et est ajoutée avec le suffixe spécifié ([!UICONTROL (tl)], [!UICONTROL (ct)]ou [!UICONTROL (vt)]) :
+**[!UICONTROL Paths as Columns]:**  (Tous) [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], et [!UICONTROL Site] rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] Colonnes) Quels types de conversions signaler les événements précédents qui se sont produits sur le même appareil ? Vous pouvez inclure jusqu’à trois types. Pour chaque type sélectionné, une colonne distincte est incluse pour chaque mesure de conversion et est ajoutée avec le suffixe spécifié ([!UICONTROL (tl)], [!UICONTROL (ct)], ou [!UICONTROL (vt)]) :
 
 * *[!UICONTROL Total (TL) = CT + VT \* VT weight]:* Inclut des conversions attribuées aux clics (CT pour les clics publicitaires) et aux impressions (VT pour les affichages publicitaires). Les conversions attribuées aux impressions sont multipliées par le poids d’affichage publicitaire spécifié. Le poids par défaut de l’affichage publicitaire est de 100 %, ce qui signifie que les conversions attribuées aux impressions sont comptabilisées à 100 % de la valeur des conversions attribuées aux clics.
 
@@ -146,7 +146,7 @@ Voir &quot;[Colonnes de rapport disponibles](report-columns.md)&quot; pour des d
 
       La nouvelle destination est désormais disponible dans la liste des destinations existantes et vous pouvez éventuellement l’ajouter au rapport.
 
-**[!UICONTROL Frequency]:** (Pour chaque [!UICONTROL Destination Name] À quelle fréquence envoyer le rapport à la destination : *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]* ou *[!UICONTROL Monthly]*.
+**[!UICONTROL Frequency]:** (Pour chaque [!UICONTROL Destination Name]) À quelle fréquence envoyer le rapport à la destination : *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, ou *[!UICONTROL Monthly]*.
 
 ## [!UICONTROL Save Report] Section
 
