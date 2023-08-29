@@ -3,18 +3,16 @@ title: Bonnes pratiques pour configurer des campagnes de performances
 description: Découvrez les bonnes pratiques pour configurer vos campagnes axées sur les performances, qui incluent des emplacements optimisés pour le CPA le plus bas ou le ROAS le plus élevé.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
+source-git-commit: ce35295fcb003b1cc0a171d171317601eadf6288
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
 
 # Bonnes pratiques pour configurer des campagnes de performances
 
-DSP peut optimiser vos campagnes axées sur les performances pour les placements dont le coût par acquisition est le plus faible (CPA) ou le retour sur dépenses publicitaires le plus élevé (ROAS).
-
-Consultez les bonnes pratiques suivantes pour les campagnes de performances :
+DSP peut optimiser vos campagnes axées sur les performances. Consultez les bonnes pratiques suivantes pour les campagnes de performances :
 
 * Étape 1 - Définition de votre objectif
 * Étape 2 - Définition de votre stratégie
@@ -24,7 +22,7 @@ Consultez les bonnes pratiques suivantes pour les campagnes de performances :
 
 ## Étape 1 - Définition de votre objectif
 
-Il est important de comprendre l&#39;objectif de la campagne, par exemple atteindre le meilleur retour sur investissement possible ou le CPA le plus bas possible. Les campagnes de performances ont des [objectifs d’optimisation](/help/dsp/optimization/optimization-goals.md) qui se termine par &quot;[!UICONTROL - Custom Goal]&quot; (par exemple,[!UICONTROL Highest ROAS - Custom Goal]&quot;). Pour chaque kit de l&#39;opération, vous allez définir l&#39;objectif visé en conséquence.
+Il est important de comprendre l&#39;objectif de la campagne, par exemple atteindre le meilleur retour sur investissement possible ou le CPA le plus bas possible. Les campagnes de performances ont des [objectifs d’optimisation](/help/dsp/optimization/optimization-goals.md) qui se termine par &quot;[!UICONTROL - Custom Goal]&quot; (par exemple,[!UICONTROL Highest ROAS - Custom Goal]&quot;). Pour chaque package de l&#39;opération, vous spécifiez l&#39;objectif d&#39;optimisation en conséquence.
 
 ![objectif d’optimisation](/help/dsp/assets/optimization-goals.png)
 
