@@ -3,9 +3,9 @@ title: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 description: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
 workflow-type: tm+mt
-source-wordcount: '3268'
+source-wordcount: '3265'
 ht-degree: 0%
 
 ---
@@ -154,10 +154,10 @@ La variable [!DNL Paid Search Detection] Les rapports vous permettent d’identi
 
 Pour votre intégration, vous devez valider vos données de clics publicitaires afin de vous assurer que toutes les pages de votre site effectuent correctement le suivi des clics publicitaires.
 
-Dans [!DNL Analytics], l’une des méthodes les plus simples de validation [!DNL Analytics for Advertising] le suivi permet de comparer les clics aux instances à l’aide de la mesure calculée &quot;Clics jusqu’aux instances AMO ID&quot;, calculée comme suit :
+Dans [!DNL Analytics], l’une des méthodes les plus simples de validation [!DNL Analytics for Advertising] Le suivi permet de comparer les clics aux instances à l’aide d’un &quot;clic vers [!UICONTROL AMO ID Instances]&quot; mesure calculée, qui est calculée comme suit :
 
 ```
-Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
+Clicks to [!UICONTROL AMO ID Instances] = ([!UICONTROL AMO ID Instances] / Adobe Advertising Clicks)
 ```
 
 [!UICONTROL AMO ID Instances] représente le nombre de fois où [AMO ID](ids.md) sont suivis sur le site. Chaque fois qu’un utilisateur clique sur une publicité, un AMO ID (`s_kwcid`) est ajouté à l’URL de la page d’entrée. Le nombre de [!UICONTROL AMO ID Instances]est donc analogue au nombre de clics et peut être validé par rapport aux clics publicitaires réels. Nous constatons généralement un taux de correspondance de 80 % pour [!DNL Search, Social, & Commerce] et un taux de correspondance de 30 % pour [!DNL DSP] trafic (lorsqu’il est filtré pour inclure uniquement les clics publicitaires) [!UICONTROL AMO ID Instances]). La différence d’attentes entre la recherche et l’affichage peut s’expliquer par le comportement de trafic attendu. La recherche capture l’intention et, en tant que telle, les utilisateurs ont généralement l’intention de cliquer sur les résultats de la recherche à partir de leur requête. Toutefois, les utilisateurs qui voient un affichage ou une publicité vidéo en ligne sont plus susceptibles de cliquer dessus involontairement, puis de rebondir à partir du site ou de quitter la nouvelle fenêtre qui se charge avant le suivi de l’activité de page.
@@ -236,19 +236,19 @@ Les données de clic peuvent également être enregistrées dans des environneme
 
 Adobe Advertising fournit à Analytics [mesures de trafic spécifiques à la publicité et dimensions connexes issues de [!DNL DSP] et [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Les mesures fournies par l’Adobe Advertising s’appliquent uniquement aux dimensions d’Adobe Advertising spécifiées et les données ne sont pas disponibles pour les autres dimensions dans [!DNL Analytics].
 
-Par exemple, si vous affichez la variable [!UICONTROL AMO Clicks] et [!UICONTROL AMO Cost] mesures par compte, qui est une dimension Adobe Advertising, vous verrez alors le total [!UICONTROL AMO Clicks] et [!UICONTROL AMO Cost] par compte.
+Par exemple, si vous affichez la variable [!UICONTROL Adobe Advertising Clicks] et [!UICONTROL Adobe Advertising Cost] mesures par compte, qui est une dimension Adobe Advertising, vous verrez alors le total [!UICONTROL Adobe Advertising Clicks] et [!UICONTROL Adobe Advertising Cost] par compte.
 
 ![Exemple de mesures d’Adobe Advertising dans un rapport utilisant une dimension d’Adobe Advertising](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-Toutefois, si vous affichez la variable [!UICONTROL AMO Clicks] et [!UICONTROL AMO Cost] mesures par une dimension sur la page (telle que Page), pour laquelle l’Adobe Advertising ne fournit pas de données, puis la variable [!UICONTROL AMO Clicks] et [!UICONTROL AMO Cost] pour chaque page sera zéro (0).
+Toutefois, si vous affichez la variable [!UICONTROL Adobe Advertising Clicks] et [!UICONTROL Adobe Advertising Cost] mesures par une dimension sur la page (telle que Page), pour laquelle l’Adobe Advertising ne fournit pas de données, puis la variable [!UICONTROL Adobe Advertising Clicks] et [!UICONTROL Adobe Advertising Cost] pour chaque page sera zéro (0).
 
 ![Exemple de mesures d’Adobe Advertising dans un rapport utilisant une dimension non prise en charge](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 
 ### Utilisation [!UICONTROL AMO ID Instances] comme substitut des clics avec des Dimensions non Adobes Advertising
 
-Puisque vous ne pouvez pas utiliser [!UICONTROL AMO Clicks] avec les dimensions sur site, vous pouvez rechercher un équivalent aux clics. Vous pouvez être tenté d’utiliser les visites comme substitut, mais elles ne sont pas la meilleure option, car chaque visiteur peut avoir plusieurs visites. (Voir[Différence entre les clics et les visites](#clicks-vs-visits).&quot; Nous vous recommandons plutôt d’utiliser [!UICONTROL AMO ID Instances]: nombre de captures de l’AMO ID. while [!UICONTROL AMO ID Instances] ne correspondra pas [!UICONTROL AMO Clicks] exactement, il s’agit de la meilleure option pour mesurer le trafic de clics sur le site. Pour plus d’informations, voir &quot;[Validation des données pour [!DNL Analytics for Advertising]](#data-validation).&quot;
+Puisque vous ne pouvez pas utiliser [!UICONTROL Adobe Advertising Clicks] avec les dimensions sur site, vous pouvez rechercher un équivalent aux clics. Vous pouvez être tenté d’utiliser les visites comme substitut, mais elles ne sont pas la meilleure option, car chaque visiteur peut avoir plusieurs visites. (Voir[Différence entre les clics et les visites](#clicks-vs-visits).&quot; Nous vous recommandons plutôt d’utiliser [!UICONTROL AMO ID Instances]: nombre de captures de l’AMO ID. while [!UICONTROL AMO ID Instances] ne correspondra pas [!UICONTROL Adobe Advertising Clicks] exactement, il s’agit de la meilleure option pour mesurer le trafic de clics sur le site. Pour plus d’informations, voir &quot;[Validation des données pour [!DNL Analytics for Advertising]](#data-validation).&quot;
 
-![Exemple d&#39;un [!UICONTROL AMO ID Instances] au lieu de [!UICONTROL AMO Clicks] pour une dimension non prise en charge](/help/integrations/assets/a4adc-amo-id-instances.png)
+![Exemple d&#39;un [!UICONTROL AMO ID Instances] au lieu de [!UICONTROL Adobe Advertising Clicks] pour une dimension non prise en charge](/help/integrations/assets/a4adc-amo-id-instances.png)
 
 >[!MORELIKETHIS]
 >
