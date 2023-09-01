@@ -1,16 +1,16 @@
 ---
-title: Affichage des rapports de diagnostic de placement
+title: Affichage des rapports de diagnostic d’emplacement
 description: Découvrez comment diagnostiquer les problèmes de configuration et de fréquence d’emplacement.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 622d971a0c583cfde8610025f0a83481c4ae2188
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
-# Affichage des rapports de diagnostic de placement
+# Affichage des rapports de diagnostic d’emplacement
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
@@ -21,11 +21,11 @@ Les outils suivants peuvent vous aider à diagnostiquer les problèmes de config
 * **[!UICONTROL Non Bids]:** Indique pourquoi DSP n’a pas enchéri sur l’emplacement.
 
 1. Ouvrez le rapport Diagnostics :
-   1. Ouvrez les paramètres de placement :
+   1. Ouvrez les paramètres d’emplacement :
       1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
       1. Cliquez sur le nom de la campagne, puis sur **[!UICONTROL Placements]**.
       1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
-   1. Dans le coin supérieur droit, cliquez sur ![Diagnostics de placement](/help/dsp/assets/placement-diagnostics.png) ou **[!UICONTROL Diagnostic]**.
+   1. Dans le coin supérieur droit, cliquez sur ![Diagnostics de placement](/help/dsp/assets/placement-diagnostics.png).
 1. Effectuez l’une des opérations suivantes :
    * Pour afficher le journal des modifications :
       1. Cliquez sur **[!UICONTROL Change Log]**.
@@ -46,5 +46,5 @@ Les outils suivants peuvent vous aider à diagnostiquer les problèmes de config
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports In-Platform](campaign-reports-about.md)
+>* [Afficher le rapport Prévision de positionnement](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
-
