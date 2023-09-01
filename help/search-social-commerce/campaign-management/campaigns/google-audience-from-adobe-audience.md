@@ -3,9 +3,9 @@ title: Créer [!DNL Google Ads] audiences de correspondance client provenant de 
 description: Découvrez comment créer [!DNL Google Ads] Les clients correspondent aux audiences de vos audiences Adobe Analytics et d’Audience Manager existantes.
 exl-id: 17cf0729-bc13-4ec3-918e-039ecdc91a41
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aa913130d0f611c4164ef8bdca57983d8c6c0405
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Chaque nouvelle [!DNL Google] l’audience porte le même nom que l’audience o
 
 1. Renseignez les conditions préalables si nécessaire :
 
-   1. (Pour créer des audiences de liste de remarketing des identifiants utilisateur) Une [!DNL Adobe] l’utilisateur administrateur ou le gestionnaire de compte doit sélectionner le paramètre au niveau de l’annonceur pour activer les audiences de correspondance client. Les paramètres diffèrent selon qu’il s’agit d’un annonceur disposant d’une Audience Manager ou d’un annonceur disposant de [!DNL Analytics] uniquement.
+   1. (Pour créer des audiences de liste de remarketing des identifiants utilisateur) Une [!DNL Adobe] l’utilisateur administrateur ou le gestionnaire de compte doit sélectionner le paramètre au niveau de l’annonceur pour activer les audiences de correspondance client.
 
    1. Mettez en oeuvre le [Service Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html) version 2.0 ou ultérieure.
 
@@ -40,7 +40,9 @@ Chaque nouvelle [!DNL Google] l’audience porte le même nom que l’audience o
 
       `<script src="//pixel.everesttech.net/rlsa/<Advertising_Cloud_UserID>" type="text/javascript"> </script>`
 
-      where `Advertising_Cloud_UserID` est l’identifiant utilisateur unique attribué à l’annonceur. Exemple :  `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
+      where `Advertising_Cloud_UserID` est l’identifiant utilisateur numérique unique attribué à l’annonceur.
+
+      Exemple : `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
    1. (Si ce n’est pas déjà fait) Un utilisateur autorisé doit configurer le compte de l’annonceur pour [synchronisation avec le compte d’organisation de l’annonceur dans Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
