@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Google Ads] campagnes.
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
 feature: Search Campaign Management
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 7588e82bc64eb1c3eda0b04cabfc6510ee3c06c3
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -254,43 +254,59 @@ Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de 
 
 **[!UICONTROL Final URL]:** URL finale de toutes les publicités créées à partir du groupe de ressources. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** Jusqu’à quinze images pour la publicité, dont les tailles suivantes : 1) au moins trois images carrées, 2) au moins trois images paysage et 3) au moins une image portrait. Voir [[!DNL Google Ads] spécifications d’image](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Pour télécharger des images :
+**[!UICONTROL Images]:** Jusqu’à quinze images pour la publicité, dont les tailles suivantes : 1) au moins trois images carrées, 2) au moins trois images paysage et 3) au moins une image portrait. Voir [[!DNL Google Ads] spécifications d’image](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Vous pouvez soit télécharger des images, soit les sélectionner parmi les [!UICONTROL Asset Library] — mais pas les deux dans la même opération.
 
-1. Cliquez sur **[!UICONTROL +]** et sélectionnez des images sur votre appareil ou votre réseau.
+* Pour télécharger des images :
 
-1. Pour chaque image :
+   1. Sur le [!UICONTROL Upload from computer] , cliquez sur **[!UICONTROL +]** et sélectionnez des images sur votre appareil ou votre réseau.
 
-   1. Sélectionnez les proportions.
+   1. Pour chaque image :
 
-   1. Faites glisser et positionnez la zone de recadrage si nécessaire pour sélectionner la partie visible de l’image, puis redimensionnez la partie visible de l’image si nécessaire.
+      1. Sélectionnez les proportions.
 
-   1. (Facultatif) Sélectionnez des proportions supplémentaires, puis repositionnez et redimensionnez éventuellement l’image selon les besoins pour chaque rapport d’aspect sélectionné.
+      1. Faites glisser et positionnez la zone de recadrage si nécessaire pour sélectionner la partie visible de l’image, puis redimensionnez la partie visible de l’image si nécessaire.
 
-      Une ressource est créée pour chaque format sélectionné.
+      1. (Facultatif) Sélectionnez des proportions supplémentaires, puis repositionnez et redimensionnez éventuellement l’image selon les besoins pour chaque rapport d’aspect sélectionné.
 
-   1. Cliquez sur **[!UICONTROL Proceed]**.
+         Une ressource est créée pour chaque format sélectionné.
 
-1. Lorsque vous avez terminé de spécifier des images, cliquez sur **[!UICONTROL Upload]**.
+      1. Cliquez sur **[!UICONTROL Proceed]**.
 
-**[!UICONTROL Logos]:** Au moins un logo carré (1:1) et un logo paysage (4:1). Vous pouvez inclure jusqu’à cinq de chaque taille. Voir [[!DNL Google Ads] spécifications](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Pour télécharger des images :
+   1. Lorsque vous avez terminé de spécifier des images, cliquez sur **[!UICONTROL Upload]**.
 
-1. Cliquez sur **[!UICONTROL +]** et sélectionnez des images sur votre appareil ou votre réseau.
+* Pour sélectionner des images dans votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez les images.
 
-1. Pour chaque image :
+**[!UICONTROL Logos]:** Au moins un logo carré (1:1) et un logo paysage (4:1). Vous pouvez inclure jusqu’à cinq de chaque taille. Voir [[!DNL Google Ads] spécifications](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Vous pouvez soit télécharger des images, soit les sélectionner parmi les [!UICONTROL Asset Library] — mais pas les deux dans la même opération.
 
-   1. Sélectionnez les proportions.
+* Pour télécharger des images :
 
-   1. Faites glisser et positionnez la zone de recadrage si nécessaire pour sélectionner la partie visible de l’image, puis redimensionnez la partie visible de l’image si nécessaire.
+   1. Sur le [!UICONTROL Upload from computer] , cliquez sur **[!UICONTROL +]** et sélectionnez des images sur votre appareil ou votre réseau.
 
-   1. (Facultatif) Sélectionnez des proportions supplémentaires, puis repositionnez et redimensionnez éventuellement l’image selon les besoins pour chaque rapport d’aspect sélectionné.
+   1. Pour chaque image :
 
-      Une ressource est créée pour chaque format sélectionné.
+      1. Sélectionnez les proportions.
 
-   1. Cliquez sur **[!UICONTROL Proceed]**.
+      1. Faites glisser et positionnez la zone de recadrage si nécessaire pour sélectionner la partie visible de l’image, puis redimensionnez la partie visible de l’image si nécessaire.
 
-1. Lorsque vous avez terminé de spécifier des images, cliquez sur **[!UICONTROL Upload]**.
+      1. (Facultatif) Sélectionnez des proportions supplémentaires, puis repositionnez et redimensionnez éventuellement l’image selon les besoins pour chaque rapport d’aspect sélectionné.
 
-**[!UICONTROL Videos]:** (Facultatif) L’URL pour au moins une et jusqu’à cinq, [!DNL YouTube] vidéos d’au moins 10 secondes.
+         Une ressource est créée pour chaque format sélectionné.
+
+      1. Cliquez sur **[!UICONTROL Proceed]**.
+
+   1. Lorsque vous avez terminé de spécifier des images, cliquez sur **[!UICONTROL Upload]**.
+
+* Pour sélectionner des images dans votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez les images.
+
+**[!UICONTROL Videos]:** (Facultatif) Au moins un et jusqu’à cinq, [!DNL YouTube] vidéos d’au moins 10 secondes.  Vous pouvez saisir des URL ou les sélectionner parmi les [!UICONTROL Asset Library] — mais pas les deux dans la même opération.
+
+* Pour saisir des URL :
+
+   1. Sur le [!UICONTROL Upload from computer] , saisissez une URL.
+
+   1. (Facultatif) Pour ajouter une autre URL, cliquez sur [!UICONTROL + Add]** et saisissez l’URL.
+
+* Pour sélectionner des vidéos dans [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez les vidéos.
 
 **[!UICONTROL Headlines]:** Au moins trois titres courts d’un maximum de 30 caractères chacun, et cinq d’entre eux. Au moins un titre doit comporter 15 caractères ou moins. Si l’option de niveau campagne permettant d’activer l’extension d’URL finale est définie dans [!DNL Google Ads], puis [!DNL Google Ads] remplace cette valeur par un titre personnalisé basé sur le contenu de la landing page.
 
@@ -302,7 +318,24 @@ Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de 
 
 **[!UICONTROL Business Name]:** Nom de l’entreprise, avec un maximum de 25 caractères.
 
+**[!UICONTROL Audience Signal]:** (Facultatif) [!DNL Google Ads] audiences à utiliser comme signaux d’audience pour la campagne. [!DNL Google Ads] Les modèles d’apprentissage automatique utilisent les audiences pour trouver des internautes similaires à cibler et peuvent également afficher des publicités à des audiences qui ne sont pas spécifiées comme signaux pour vous aider à atteindre vos objectifs de performances. Choisissez les audiences les plus susceptibles d’être converties.
+
+>[!NOTE]
+>Les signaux d’audience sont différents de [cibles d’audience au niveau de la campagne et du groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+
 **[!UICONTROL Add new asset group]:** Permet de spécifier un autre groupe de ressources.
+
+## [!UICONTROL Conversion Goals]
+
+**[!UICONTROL Conversion Goal]:** Si *[!UICONTROL Use account conversion goals for this campaign]* (valeur par défaut) ou *[!UICONTROL Use campaign specific conversion goals]*. Si vous choisissez de spécifier des objectifs de conversion pour la campagne, sélectionnez des objectifs standard et/ou créez un objectif personnalisé pour la campagne.
+
+Les objectifs sont synchronisés quotidiennement. Il se peut donc que les objectifs existants créés au cours des 24 heures précédentes ne soient pas répertoriés. Pour mettre à jour la liste, [synchroniser manuellement les données du réseau publicitaire ;](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+
+Pour créer un objectif de conversion personnalisé, cliquez sur **[!UICONTROL + Add custom goal]**, saisissez le nom personnalisé de l’objectif, puis sélectionnez l’option [actions de conversion](https://support.google.com/google-ads/answer/6032150) à inclure dans l’objectif personnalisé, puis cliquez sur **[!UICONTROL Save]**. **Remarque :** Chaque campagne ne peut avoir qu’un seul objectif personnalisé.
+
+>[!TIP]
+>
+>Si la campagne fait partie d’un portfolio, utilisez les mêmes objectifs de conversion que l’objectif du portfolio. L’utilisation d’objectifs de conversion différents peut avoir une incidence sur les performances du portefeuille.
 
 >[!MORELIKETHIS]
 >
