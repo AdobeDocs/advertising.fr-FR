@@ -3,9 +3,9 @@ title: Partenaires SSP
 description: Consultez la liste des plateformes côté offre et des partenaires d’échange ouverts disponibles.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 85fb7665ae2b6252c359ea254dbc783d73a4a078
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 >
 >Tous les partenariats SSP peuvent être modifiés. Cette liste reflète les partenariats actuels.
 
-| SSP répertorié | Société | ID de siège | Prise en charge garantie par les programmes | Région | Devise prise en charge | Bureau vidéo | Mobile de la vidéo | Video CTV | Afficher le bureau | Afficher le mobile | Affichage natif | Ordinateur de bureau audio et mobile |
+| SSP répertorié | Société | ID de siège | Prise en charge garantie par les programmes | Région | Devise prise en charge | Bureau vidéo | Mobile vidéo | Video CTV | Afficher le bureau | Afficher le mobile | Affichage natif | Ordinateur de bureau audio et mobile |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | [!DNL Adap.tv] | [!DNL Verizon Media Group] | [!DNL TubeMogul] ou Adobe Advertising | Non | Global | USD | X | X | X |  |  |  |  |
 | [!DNL AdColony] (précédemment [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | Non | Global | USD |  | x |  | x | x |  |  |
@@ -31,16 +31,16 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 | [!DNL Equativ] (anciennement [!DNL SmartAdServer]) |  | [!DNL TubeMogul] ou Adobe Advertising | Non | Global | USD, EUR | x | x |  | x | x |  |  |
 | [!DNL FreeWheel] (anciennement [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] ou Adobe Advertising | Oui | Global | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
 | [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | Non | Global | USD | x | x |  |  |  |  |  |
-| [!DNL Google AdX] (now [!DNL Google Authorized Buyers]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe UE - 94893418<br>Adobe APAC - 89185975 | Oui | Global | USD, BRL | x | x | x | x | x |  | x |
+| [!DNL Google AdX] (now [!DNL Google Authorized Buyers]) | [!DNL Google] | ADOBE NA - 44912714<br>ADOBE UE - 94893418<br>Adobe APAC - 89185975 | Oui | Global | USD, BRL | x | x | x | x | x |  | x |
 | [!DNL GumGum] |  | Adobe Advertising | Non | US/CA | USD | x | x |  | x | x |  |  |
-| [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | Non | Global | USD | x | x | x | x | x |  |  |
+| [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | Non | Global | USD | x | x | x | x | x | | |
 | [!DNL Magnite CTV] | [!DNL Magnite] (anciennement [!DNL Telaria] et [!DNL Tremor]) | [!DNL TubeMogul] ou Adobe Advertising | Oui | Global | AUD, USD | x | x | x |  |  |  |  |
 | [!DNL Magnite DV+] | [!DNL Magnite] (anciennement [!DNL Telaria] et [!DNL Tremor]) | [!DNL TubeMogul] ou Adobe Advertising | Oui | Global | USD | x | x | x | x | x |  | x |
 | [!DNL MoPub] | [!DNL Twitter] | [!DNL TubeMogul] | Non | Global | USD |  | x |  |  |  |  |  |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] ou Adobe Advertising | Oui | Global | USD | x |  |  | x | x |  |  |
 | [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] ou Adobe Advertising | Non | Global | USD | x | x | x | x | x |  |  |
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] ou Adobe Advertising | Non | Global | USD | x | x |  | x | x | x |  |
-| [!DNL SmartClip] |  | Adobe Advertising | Non | EMEA | Toutes les devises | x | x | x | x | x |  |  |
+| [!DNL SmartClip] |  | Adobe Advertising | Oui | EMEA | Toutes les devises | x | x | x | x | x |  |  |
 | [!DNL SmartStream] |  | Adobe Advertising | Non | EMEA | EUR, USD | x | x |  |  |  |  |  |
 | [!DNL Sortable] |  | Adobe Advertising | Non | CA | USD |  |  |  | x | x |  |  |
 | [!DNL Soundcast] |  | Adobe Advertising | Oui | Global | EUR, USD |  |  |  |  |  |  | x |
@@ -54,9 +54,8 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 | [!DNL Unruly] | [!DNL Tremor] | Adobe Advertising | Non | États-Unis + EMEA | USD | x | x |  |  |  |  |  |
 | [!DNL Yahoo] | [!DNL Verizon Media Group] | [!DNL TubeMogul] ou Adobe Advertising | Non | Global | USD |  |  |  | x | x |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
 >* [Présentation des fonctionnalités du stock](inventory-overview.md)
-
