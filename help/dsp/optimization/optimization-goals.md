@@ -3,7 +3,7 @@ title: Objectifs d’optimisation et utilisation
 description: Référencez les objectifs d’optimisation disponibles et déterminez à quel moment les utiliser.
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: 900a8e876e99b3d826c8934a266a3c4e1b226a1c
+source-git-commit: 42f10200bb28f4509a04ac69d415e7254537b769
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -34,6 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Lowest vCPM (Moat - MRC)] | Avec l’optimisation au niveau du package, l’allocation du budget donne la priorité aux emplacements avec les vCPM les plus faibles.<br><br>Les évaluations des enchères donnent la priorité à vCPM. Si les objectifs de dépenses sont atteints, alors DSP tente d&#39;équilibrer la réduction des CPM avec une plus grande visibilité. | Type de campagne : branding<br><br>Évaluation : CPM efficace et vCPM le plus élevé<br><br>Types d’annonces : preroll, Display<br><br><b>Remarque :</b> Utilisez cet objectif pour obtenir le meilleur CPM.<br><br>Pour garantir un CPM maximal, utilisez-le comme offre maximale pour l’emplacement.<br><br>Ce paramètre fonctionne mieux lorsque des données tierces provenant de [!DNL Moat] informe l’algorithme. Utilisez cet objectif uniquement lorsque vous avez activé la variable [!DNL Moat] intégration pour la campagne. |
 | [!UICONTROL Always Max Bid and Maximize Reach] | Cet objectif tente d’atteindre la portée maximale du foyer avec un nombre donné d’impressions, en utilisant toujours l’offre max au niveau de l’emplacement. Si les objectifs de dépenses sont atteints, alors le DSP devient plus sélectif et les offres pour une vente aux enchères uniquement lorsqu&#39;il y a une chance d&#39;atteindre une portée unique incrémentielle. | Type de campagne : branding<br><br>Benchmark : Optimiser la portée<br><br>Types d’annonces : preroll, Display, CTV, Native, Audio et Vidéo universelle |
 | [!UICONTROL Lowest Cost per Reach] | Cet objectif vise à atteindre un maximum de portée des ménages avec un budget donné. Si les objectifs de dépenses sont atteints, alors les offres DSP varient selon la chance d’atteindre une portée unique incrémentielle. | Type de campagne : branding<br><br>Évaluation : coût effectif par portée<br><br>Types d’annonces : preroll, Display, CTV, Native, Audio et Vidéo universelle |
+
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
