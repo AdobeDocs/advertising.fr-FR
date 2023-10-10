@@ -4,10 +4,10 @@ description: Découvrez les dernières mises à jour et les nouvelles fonctionna
 cloud: Experience Cloud
 product: advertising cloud
 index: true
-exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: ba500532712d002547e5e067d1a0af4e3202daad
+exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
+source-git-commit: 4c851ce01c69460b3d1f1c7357af377718eb8488
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
+| 7 octobre 2023 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | Deux nouveaux rapports spécialisés pour [!DNL Microsoft Advertising] les comptes affichent les performances au niveau de la campagne par distribution publicitaire (recherche ou audience) et/ou réseau (comme [!DNL Microsoft] sites et sélectionnez le trafic ou l’audience) :<ul><li>[!UICONTROL MSA Network Performance Report]: comprend des mesures de trafic de base (coût, clics, impressions), conversions et recettes.</li><li>[!UICONTROL MSA Network Impression Share Report]: comprend les mesures de partage d’impression et les mesures de trafic de base (coût, clics, impressions).</li></ul> | — |
 | 14 septembre 2023 | [!UICONTROL Campaigns] | ([!DNL Google Ads] campagnes de performances max.) Dans les groupes de ressources d’une campagne, vous pouvez désormais sélectionner parmi des ressources de texte existantes dans vos [!UICONTROL Asset Library]. Vous pouvez également charger de nouvelles ressources de texte. | — |
 | 5 septembre 2023 | Campagnes | ([!DNL Google Ads] campagnes) Pour tous les types de campagnes disponibles, vous pouvez désormais choisir des objectifs de conversion existants ou en créer de nouveaux, dans les paramètres de la campagne.</li> | Voir &quot;[[!DNL Google Ads] paramètres de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | | Campagnes | ([!DNL Google Ads] campagnes max de performances) Les nouvelles fonctionnalités vous permettent d’effectuer les opérations suivantes :<ul><li>Sélectionnez des objectifs de conversion existants ou créez-en de nouveaux pour une campagne, comme mentionné ci-dessus.</li><li>Sélectionnez parmi les ressources existantes dans votre [!UICONTROL Asset Library] pour les images, les logos et les vidéos dans les paramètres de performances max. de la campagne. Vous pouvez également charger de nouvelles ressources.</li><li>(Facultatif) Indiquez des signaux d’audience pour vos groupes de ressources de performances maximales en sélectionnant [!DNL Google Ads] audiences. [!DNL Google Ads] Les modèles d’apprentissage automatique utilisent les audiences pour trouver des internautes similaires à cibler et peuvent également afficher des publicités à des audiences qui ne sont pas spécifiées comme signaux pour vous aider à atteindre vos objectifs de performances. **Remarque :** Les signaux d’audience sont différents de [cibles d’audience au niveau de la campagne et du groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).</li></ul> | Voir &quot;[[!DNL Google Ads] paramètres de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
