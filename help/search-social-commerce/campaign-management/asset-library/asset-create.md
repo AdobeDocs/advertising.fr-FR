@@ -1,17 +1,18 @@
 ---
 title: Création et chargement de ressources
-description: Découvrez comment créer des ressources d’image, vidéo et texte réutilisables et les télécharger dans votre [!DNL Google Ads] bibliothèque de ressources au niveau du compte.
+description: Découvrez comment créer des ressources d’image, vidéo et texte réutilisables et les télécharger dans votre [!DNL Google Ads] et [!DNL Microsoft® Advertising] bibliothèques de ressources au niveau du compte.
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
+source-git-commit: 68c082131378974bf95534050b8ddf2db0ae394b
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Création et chargement de ressources
 
-*Pour [!DNL Google Ads] comptes uniquement*
+*Pour [!DNL Google Ads] et [!DNL Microsoft® Advertising] comptes uniquement*
 
 *Fonctionnalité bêta ouverte*
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
         Vous pouvez publier jusqu’à 10 URL vidéo à la fois.
 
-      * Pour les ressources de texte, saisissez la chaîne de texte. Pour ajouter un autre actif de texte, cliquez sur **+ Ajouter** et saisissez une autre chaîne de texte.
+      * ([!DNL Google Ads] Comptes uniquement) Pour les ressources texte, saisissez la chaîne de texte. Pour ajouter un autre actif de texte, cliquez sur **+ Ajouter** et saisissez une autre chaîne de texte.
 
         Chaque ressource de texte peut contenir, au maximum, 1 000 caractères. Vous pouvez charger un maximum de 10 ressources de texte à la fois.
 
