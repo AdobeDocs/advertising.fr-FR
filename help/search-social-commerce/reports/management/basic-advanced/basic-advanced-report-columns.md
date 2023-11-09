@@ -1,9 +1,9 @@
 ---
 title: Colonnes de rapports pour les rapports de base et avancés
 description: Découvrez les colonnes de données disponibles pour les rapports de base et avancés.
-exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
+exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 0e82baca53d27dea4207cb2eef3f4be7a9f99fb5
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 0%
@@ -23,10 +23,10 @@ ht-degree: 0%
 | [!UICONTROL 7-Day Revenue Accuracy] | ([!UICONTROL Portfolio Report]) Précision moyenne des prévisions de recettes pour les sept jours précédents, sans tenir compte du jour en cours (et non de la période spécifiée du rapport), exprimée en pourcentage. |
 | [!UICONTROL Account] | Nom du compte. |
 | [!UICONTROL Account Status] | État du compte dans Search, Social et Commerce : <ul><li><i>[!UICONTROL Enabled]:</i> (Par défaut) Pour les réseaux publicitaires synchronisés, Search, Social et Commerce peut se connecter au compte de réseau publicitaire pour récupérer les données de campagne. D’autres fonctionnalités applicables, telles que l’optimisation et la génération de suivi, sont activées.<br><br>Pour les réseaux publicitaires non synchronisés, des fonctionnalités applicables telles que l’optimisation et/ou la génération de suivi sont disponibles.</li><li><i>[!UICONTROL Disabled]:</i> Pour les réseaux publicitaires synchronisés, Search, Social et Commerce ne se connecte pas au compte réseau publicitaire et ne récupère donc pas les données de campagne. D’autres fonctionnalités applicables, telles que l’optimisation et la génération de suivi, sont désactivées. Les données collectées lors de l’activation du compte sont toujours stockées, mais toutes les vues de gestion de campagne et tous les rapports que vous créez à l’avenir n’incluront pas de données pour la période pendant laquelle le compte est désactivé.<br><br>Pour les réseaux publicitaires non synchronisés, les fonctionnalités applicables telles que l’optimisation et/ou la génération de suivi ne sont pas disponibles.</li></ul> |
-| [!UICONTROL Active Ad Groups] | Nombre de principaux groupes publicitaires. |
-| [!UICONTROL Active Ads/Creatives] | Nombre de publicités/créations principales. |
-| [!UICONTROL Active Campaigns] | Nombre de principales campagnes. |
-| [!UICONTROL Active Keywords] | Nombre de mots-clés principaux. |
+| [!UICONTROL Active Ad Groups] | Nombre de groupes d’annonces actifs. |
+| [!UICONTROL Active Ads/Creatives] | Nombre de publicités/créations actives. |
+| [!UICONTROL Active Campaigns] | Nombre de campagnes actives. |
+| [!UICONTROL Active Keywords] | Nombre de mots-clés actifs. |
 | [!UICONTROL Ad Group] | Groupe publicitaire. |
 | [!UICONTROL Ad Group ID] | Identifiant numérique attribué par Search, Social et Commerce au groupe publicitaire. |
 | [!UICONTROL Ad Group Status] | État du groupe publicitaire : <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, ou <i>[!UICONTROL Deleted]</i>. |
@@ -48,7 +48,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising], et [!DNL Yahoo! Japan Ads] campagnes) Ajustement d’offre mobile au niveau de la campagne en cours, qui détermine la manière dont les offres sont ajustées lorsque la publicité est affichée sur un appareil mobile. |
 | [!UICONTROL Campaign Start Date] | Premier jour où les offres ont été/sont placées pour la campagne. |
 | [!UICONTROL Campaign Status] | État de la campagne : <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Ended]</i>, ou <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Campaign Type] | Le type de campagne, tel que <i>[!UICONTROL Audience (Image)]</i>, <i>[!UICONTROL Audience (Feed)]</i>, <i>[!UICONTROL Discovery]</i>, <i>[!UICONTROL Search and Display]</i>, <i>[!UICONTROL Standard Display]</i>, <i>[!UICONTROL Standard Performance Max]</i>, <i>[!UICONTROL Standard Search]</i>, <i>[!UICONTROL Standard Shopping]</i>, <i>[!UICONTROL Video]</i>, ou <i>[!UICONTROL Others]</i>. |
+| [!UICONTROL Campaign Type] | Le type de campagne, tel que <i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>, <i>[!UICONTROL Audience (Image)]</i>, <i>[!UICONTROL Audience (Video)]</i>, <i>[!UICONTROL Brand Shopping]</i>, <i>[!UICONTROL Discovery]</i>, <i>[!UICONTROL Search and Display]</i>, <i>[!UICONTROL Standard Display]</i>, <i>[!UICONTROL Standard Performance Max]</i>, <i>[!UICONTROL Standard Search]</i>, <i>[!UICONTROL Standard Shopping]</i>, <i>[!UICONTROL Store Ad]</i>, <i>[!UICONTROL Video]</i>, ou <i>[!UICONTROL Others]</i>. |
 | [!UICONTROL Channel Type] | Type de canal marketing : <i>[!UICONTROL Search]</i> ou <i>[!UICONTROL Content]</i>. Cette colonne n’est pas incluse lorsque la variable [!UICONTROL Search/Content] dans les paramètres du rapport est &quot;[!UICONTROL Combined].&quot; |
 | [!UICONTROL City] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Transaction Report]) Ville d’où proviennent les clics. Il est déterminé à partir de l’adresse IP de l’utilisateur. |
 | [!UICONTROL Click Match Type] | Type de correspondance du mot-clé pour la publicité sur laquelle l’utilisateur a cliqué. Il s’agit de la même chose que la variable [!UICONTROL Listing Match Type] à l’exception de [!DNL Microsoft Advertising] mots-clés avec plusieurs types de correspondance. Pour [!DNL Microsoft Advertising] mots-clés, il s’agit du type de correspondance sur lequel l’utilisateur a cliqué. |
@@ -58,9 +58,9 @@ ht-degree: 0%
 | [!UICONTROL Client ID1], [!UICONTROL Client Id 1] | ([!UICONTROL Keyword Report], [!UICONTROL Ad Variation Report], et [!UICONTROL Transaction Report]; mises en oeuvre de suivi basées sur les flux) Identifiant de suivi spécifique au client pour le mot-clé ou la publicité, qui a été envoyé dans le fichier de flux. |
 | [!UICONTROL Client Id 2] | ([!UICONTROL Keyword Report] et [!UICONTROL Transaction Report]; mises en oeuvre de suivi basées sur les flux) Identifiant de suivi spécifique au client pour le mot-clé ou la publicité, qui a été envoyé dans le fichier de flux. |
 | [!UICONTROL Client Transaction ID] | ([!UICONTROL Transaction Report]) L’ID de transaction unique. |
-| [!UICONTROL Constraint End Date] | ([!UICONTROL Constraint Report]) Le dernier jour où la contrainte est principale. |
+| [!UICONTROL Constraint End Date] | ([!UICONTROL Constraint Report]) Le dernier jour où la contrainte est active. |
 | [!UICONTROL Constraint Name] | ([!UICONTROL Constraint Report]) Nom de la contrainte. |
-| [!UICONTROL Constraint Start Date] | ([!UICONTROL Constraint Report]) Le premier jour où la contrainte est principale. |
+| [!UICONTROL Constraint Start Date] | ([!UICONTROL Constraint Report]) Le premier jour où la contrainte est active. |
 | [!UICONTROL Constraint Status] | ([!UICONTROL Constraint Report]) État de la contrainte :  <i>[!UICONTROL Active]</i> ou <i>[!UICONTROL Paused]</i>. |
 | [!UICONTROL Constraint Type] | ([!UICONTROL Constraint Report]) Le type de contrainte :  <i>[!UICONTROL Bid/Pos Constraint]</i>, <i>[!UICONTROL Bid Shift]</i>, <i>[!UICONTROL Campaign Budget]</i>, <i>[!UICONTROL Context Sensitive Bid]</i>, <i>[!UICONTROL Incremental Bidding]</i>, <i>[!UICONTROL Max CPA]</i>, <i>[!UICONTROL Min Margin]</i>, <i>[!UICONTROL Variable Bid Position]</i>, <i>[!UICONTROL Search Engine Min Bid]</i>, ou <i>[!UICONTROL Variable Position]</i>. |
 | [!UICONTROL Constraints] | Les noms de toutes les contraintes applicables sur l’entité, séparés par des virgules. |
