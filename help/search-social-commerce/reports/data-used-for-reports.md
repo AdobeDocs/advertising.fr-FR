@@ -1,9 +1,9 @@
 ---
 title: Données utilisées pour les rapports
 description: Découvrez les différents types de données disponibles dans les vues de données et les rapports personnalisés.
-exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
+exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: 840c7f6295b73a784725c301a78ae89c827fd45e
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Selon la règle d’attribution que vous spécifiez pour le rapport, les donnée
 | [!UICONTROL Assist Reports] | Tous | Les 18 mois précédents. |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | L&#39;année précédente. |
 | | [!UICONTROL RSA Assets Report] | À partir du 10 août 2022. |
-| | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report] | Les 180 derniers jours. |
+| | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | Les 180 derniers jours. |
 | | Toutes les autres [!UICONTROL Specialty Reports] | Les deux (2) mois précédents. |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | Les 18 mois précédents. |
 | [!UICONTROL Change History Report] | — | Les 31 jours précédents. |

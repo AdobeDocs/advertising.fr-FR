@@ -4,10 +4,10 @@ user-guide-title: Guide d’Advertising Search, Social et Commerce
 user-guide-description: Ce guide décrit les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires liées aux moteurs de recherche, aux réseaux sociaux et au commerce.
 breadcrumb-title: Guide d’Advertising Search, Social et Commerce
 index: true
-source-git-commit: 4fff88683c524b4844104102ed09c0a6b08e5701
+source-git-commit: fb95be48fae44a4ca365fe501253c185e76d64be
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1732'
+ht-degree: 2%
 
 ---
 
@@ -317,6 +317,8 @@ ht-degree: 0%
                + [La variable [!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)
                + [La variable [!UICONTROL MSA Ad Extension by Keyword Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-keyword-report.md)
                + [La variable [!UICONTROL MSA Ad Extension Detail Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-ad-report.md)
+               + [La variable [!UICONTROL MSA Network Impression Share Report]](/help/search-social-commerce/reports/management/specialty/msa-network-impression-share-report.md)
+               + [La variable [!UICONTROL MSA Network Performance Report]](/help/search-social-commerce/reports/management/specialty/msa-network-performance-report.md)
             + [Génération d’un rapport de spécialité](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
             + [Paramètres des rapports de spécialité](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
             + [Colonnes de rapports pour les rapports spécialisés](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
