@@ -1,9 +1,9 @@
 ---
 title: Répliquer [!DNL Google Ads] campagnes dans [!DNL Microsoft® Advertising]
 description: Découvrez comment exporter vos campagnes synchronisées dans une [!DNL Google Ads] compte directement dans une synchronisation [!DNL Microsoft® Advertising] compte .
-exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: f857da54ff75ba7b8065b8c08d6d28eb54445b48
+source-git-commit: 877333330df84ff5c8bd7ee1bfc837de492877fb
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Vous pouvez répliquer les types de campagnes suivants et leur structure de camp
 
   Si vous souhaitez répliquer des campagnes d’affichage basées sur des flux d’achat, répliquez d’abord vos [!DNL Google Merchant Center] offres de produits à [!DNL Microsoft® Merchant Center]. Lorsque vous répliquez les campagnes, sélectionnez la variable [!DNL Microsoft® Merchant Center] stockez dans les options d’importation pour lier le magasin à vos campagnes d’audience basées sur le flux.
 
-* [!DNL Google Ads] campagnes de performances maximales, y compris les annonces d’inventaire local, en [!DNL Microsoft® Advertising] campagnes d’achats dynamiques.
+* [!DNL Google Ads] campagnes de performances maximales, y compris les annonces d’inventaire local, en [!DNL Microsoft® Advertising] campagnes de performances max.
 
 Vous pouvez choisir de mettre à jour les campagnes une fois, tous les jours, toutes les semaines ou tous les mois, ou selon les [!DNL Microsoft® Advertising]Le planning est recommandé. Vous pouvez éventuellement configurer des notifications à chaque exécution d’une tâche d’importation ou en cas d’erreurs ou de modifications. Une fois que vous avez importé vos campagnes dans [!DNL Microsoft® Advertising], vous pouvez vérifier l’état de votre tâche d’importation, consulter les logs d’erreur, exécuter manuellement une tâche d’importation et modifier, mettre en pause, activer ou supprimer votre planning d’importation.
 
