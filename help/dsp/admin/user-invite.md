@@ -1,9 +1,9 @@
 ---
 title: Invitation d’un nouvel utilisateur pour votre compte d’organisation
 description: Découvrez comment inviter un nouvel utilisateur à rejoindre le compte.
-role: User, Admin
+role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -33,6 +33,6 @@ Si nécessaire, vous pouvez annuler l’invitation d’un utilisateur avec une i
 >[!MORELIKETHIS]
 >
 >* [Réenvoyer une invitation d’utilisateur en attente](user-resend-invite.md)
->* [Annuler l’invitation d’un utilisateur en attente](user-uninvite.md)
+>* [Annulation de l’invitation d’un utilisateur en attente](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->
