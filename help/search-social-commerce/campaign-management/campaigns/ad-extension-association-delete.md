@@ -1,11 +1,11 @@
 ---
 title: Supprimer des associations d’extension d’annonce avec des campagnes et des groupes d’annonces
 description: Découvrez comment dissocier des extensions d’annonces avec des campagnes et des groupes d’annonces.
-exl-id: 89aa556b-65fa-43de-989a-f58f0bbcf1f2
+exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: bd7d7ed571ef281f534ab45dc92f20be9445b055
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -29,5 +29,4 @@ Vous pouvez supprimer les associations au niveau des campagnes et des groupes pu
 >[!MORELIKETHIS]
 >
 >* [Gérer [!DNL Google Ads] Extensions de légende](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
->* [Gestion des extensions d’emplacement](location-extension-manage.md)
 >* [Gestion des extensions de lien de site](sitelink-extension-manage.md)
