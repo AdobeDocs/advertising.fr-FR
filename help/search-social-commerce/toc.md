@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising Search, Social et Commerce
 user-guide-description: Ce guide décrit les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires liées aux moteurs de recherche, aux réseaux sociaux et au commerce.
 breadcrumb-title: Guide d’Advertising Search, Social et Commerce
 index: true
-source-git-commit: fb95be48fae44a4ca365fe501253c185e76d64be
+source-git-commit: cdb86533b46b196fe7a3394ab9e4fc8209a3df69
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '1729'
 ht-degree: 2%
 
 ---
@@ -189,7 +189,6 @@ ht-degree: 2%
                + [A propos [!DNL Google Ads] Extensions de légende](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
                + [Gérer [!DNL Google Ads] Extensions de légende](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
                + [Associer [!DNL Google Ads] Extensions de légende partagées avec des campagnes ou des groupes publicitaires](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
-            + [Gérer [!DNL Google Ads] extensions d’emplacement](/help/search-social-commerce/campaign-management/campaigns/location-extension-manage.md)
             + Extensions de lien de site {#sitelinks}
                + [À propos des extensions sitelink](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-about.md)
                + [Gestion des liens de site partagés](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md)
