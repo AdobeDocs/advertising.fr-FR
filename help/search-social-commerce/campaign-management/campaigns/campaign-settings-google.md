@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Google Ads] campagnes.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
+source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,6 @@ Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de 
    * (Emplacements près d’une adresse ; cibles incluses uniquement) Cliquez sur **[!UICONTROL Radius Target]** (![Cible du rayon](/help/search-social-commerce/assets/radius-target.png "Cible du rayon")), puis cliquez sur **[!UICONTROL Address]**. Saisissez l’adresse et le rayon en kilomètres autour de l’adresse à cibler, puis cliquez sur **[!UICONTROL Add]**.
 
    * (Emplacements proches des coordonnées géographiques ; cibles incluses uniquement) Cliquez sur **[!UICONTROL Radius Target]** (![Cible du rayon](/help/search-social-commerce/assets/radius-target.png "Cible du rayon")), puis cliquez sur **[!UICONTROL Coordinate]**. Saisissez la latitude et la longitude et le rayon en kilomètres autour de l’emplacement à cibler, puis cliquez sur **[!UICONTROL Add]**.
-
-   * (Emplacements près de votre [!DNL My Business] emplacements disponibles en tant qu’extensions d’emplacement ; cibles incluses uniquement) Cliquez sur **[!UICONTROL Location Group Target]** (![Groupe d’emplacements](/help/search-social-commerce/assets/location-group.png "Groupe d’emplacements")) ; éventuellement, saisissez un pays, un état, une région métropolitaine ou une ville pour faire fléchir la liste des emplacements disponibles, puis sélectionnez un ou plusieurs emplacements dans la liste de [!DNL Google My Business] emplacements. Spécifiez le rayon en kilomètres autour des emplacements à cibler, puis cliquez sur **[!UICONTROL Add]**.
 
 * (Pour ajouter un ajustement d’offre pour un emplacement cible inclus) Saisissez une valeur d’ajustement d’offre :
 
