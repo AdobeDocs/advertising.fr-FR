@@ -1,8 +1,9 @@
 ---
-title: "Le [!UICONTROL MSA Network Performance Report]"
+title: La variable [!UICONTROL MSA Network Performance Report]
 description: En savoir plus sur les [!UICONTROL MSA Network Performance Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 3bfe4b55a74e160a9d5182dd1eb7c7cec1ae8ca3
+exl-id: da2b85e9-5e78-4a1c-9268-8686f025e80c
+source-git-commit: 22fd10dec43c43c6f03860e6e4839a8bb8d56017
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
