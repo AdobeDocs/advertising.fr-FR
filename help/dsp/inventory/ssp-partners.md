@@ -3,9 +3,9 @@ title: Partenaires SSP
 description: Consultez la liste des plateformes côté offre et des partenaires d’échange ouverts disponibles.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 4e4d5ac29b7da2a93788d6faba30d243e3442805
+source-git-commit: dda4a3dcd8d2cb35269ffcb6c600efdde57f2c90
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 >[!NOTE]
 >
 >Tous les partenariats SSP peuvent être modifiés. Cette liste reflète les partenariats actuels.
+
+>[!TIP]
+>
+>Le tableau suivant est large. Utilisez la barre de défilement située au bas du tableau pour afficher l’intégralité du contenu.
 
 | SSP répertorié | Société | Identifiant du siège | Prise en charge garantie par les programmes | Région | Devise prise en charge | Bureau vidéo | Mobile vidéo | Video CTV | Afficher le bureau | Afficher le mobile | Affichage natif | Ordinateur de bureau audio et mobile |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
