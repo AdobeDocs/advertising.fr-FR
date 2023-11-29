@@ -3,16 +3,16 @@ title: Inventaire pris en charge
 description: Référencez les réseaux publicitaires, les types de campagne et les types d’annonces pris en charge.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: b42f4065b6fd346dbee2ddfa802ca6947772c963
+source-git-commit: 06a14b364e41ca37725abb279b40cfa79bd3fd23
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2712'
 ht-degree: 0%
 
 ---
 
 # Inventaire pris en charge
 
-Vous trouverez ci-dessous les réseaux publicitaires, les types de campagne et les types d’annonces pris en charge, ainsi que les fonctionnalités disponibles pour chacun d’eux.
+Vous trouverez ci-dessous les réseaux publicitaires, les types de campagne et les types d’annonces pris en charge, ainsi que les fonctionnalités disponibles pour chaque type d’annonce.
 
 >[!TIP]
 >
