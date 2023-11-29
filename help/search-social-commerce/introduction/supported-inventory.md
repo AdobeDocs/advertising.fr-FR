@@ -3,7 +3,7 @@ title: Inventaire pris en charge
 description: Référencez les réseaux publicitaires, les types de campagne et les types d’annonces pris en charge.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 8540bfad431c82c52f54e17d7d82c0ac94213663
+source-git-commit: b42f4065b6fd346dbee2ddfa802ca6947772c963
 workflow-type: tm+mt
 source-wordcount: '2710'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Vous trouverez ci-dessous les réseaux publicitaires, les types de campagne et l
 
 >[!TIP]
 >
->Le tableau suivant est large. Si nécessaire, utilisez la barre de défilement située au bas du tableau pour afficher l’intégralité du contenu. Vous pouvez également masquer temporairement la table des matières en cliquant sur ![Masquer la table des matières](/help/dsp/assets/hide-toc.png "Masquer la table des matières") en haut du volet gauche.
+>Le tableau suivant est large. Si nécessaire, utilisez la barre de défilement située au bas du tableau pour afficher l’intégralité du contenu. Vous pouvez également masquer temporairement la table des matières en cliquant sur ![Masquer la table des matières](/help/search-social-commerce/assets/hide-toc.png "Masquer la table des matières") en haut du volet gauche.
 
 | Source | Réseau | Type de campagne | Type de publicité | Synchronisation et affichage | Créer/modifier | Suivi[^1] | Optimiser | Rapport[^2] | Assistance Adobe Analytics[^3] |
 |----|----|----|----|----|----|----|----|----|----|
