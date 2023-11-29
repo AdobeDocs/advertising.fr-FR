@@ -1,16 +1,16 @@
 ---
-title: Modification d’une liste de sites bloqués au niveau du compte ou de l’annonceur
+title: Modification d’une liste de sites bloqués au niveau du compte ou des annonceurs
 description: Découvrez comment gérer la liste des sites bloqués pour un compte ou un annonceur.
 role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 0e771df5470c287702850a227f9ac20d5679b775
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
 
-# Modification d’une liste de sites bloqués au niveau du compte ou de l’annonceur
+# Modification d’une liste de sites bloqués au niveau du compte ou des annonceurs
 
 1. Dans le menu principal, cliquez sur **Paramètres > Sites.**
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
       * Pour supprimer une seule valeur, cliquez sur **X** en regard de la valeur .
 
-   * (Facultatif) Pour exporter la liste vers une feuille de calcul Excel Microsoft au format CSV (valeurs séparées par des virgules), cliquez sur **Exporter**.
+   * (Facultatif) Pour exporter la liste vers un [!DNL Microsoft Excel]  feuille de calcul au format CSV (valeurs séparées par des virgules), cliquez sur **Exporter**.
 
 >[!MORELIKETHIS]
 >
