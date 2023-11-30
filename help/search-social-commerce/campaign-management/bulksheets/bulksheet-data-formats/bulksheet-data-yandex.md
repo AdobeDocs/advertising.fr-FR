@@ -3,9 +3,9 @@ title: Données de feuille d’envoi groupé requises pour [!DNL Yandex] comptes
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour [!DNL Yandex] comptes.
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 85a828367ebce0c9bdb851bd7b639cd2f870012a
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1907'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 
 >[!TIP]
 >
->Le tableau suivant est large. Si nécessaire, utilisez la barre de défilement située au bas du tableau pour afficher l’intégralité du contenu. Vous pouvez également masquer temporairement la table des matières en cliquant sur ![Masquer la table des matières](/help/search-social-commerce/assets/hide-toc.png "Masquer la table des matières") en haut du volet gauche.
+>Le tableau suivant est large. Si nécessaire, utilisez la barre de défilement située au bas du tableau pour afficher l’intégralité du contenu. Vous pouvez également masquer temporairement la table des matières ou le volet de droite en cliquant sur ![Masquer le volet](/help/search-social-commerce/assets/hide-pane.png "Masquer le volet") en haut du volet gauche ou droit.
 
 | Champ | Campagne | Groupe publicitaire | Mot-clé | Publicité textuelle | Lien de site | Description |
 |----|----|-----|-----|----|----|----|

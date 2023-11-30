@@ -3,9 +3,9 @@ title: Données de feuille d’envoi groupé requises pour [!DNL Baidu] comptes
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour [!DNL Baidu] comptes.
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: 255bdcd1e14bd1204b3b0a73034029ba7f4ef965
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '1930'
+source-wordcount: '1932'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 
 >[!TIP]
 >
->Le tableau suivant est large. Si nécessaire, utilisez la barre de défilement située au bas du tableau pour afficher l’intégralité du contenu. Vous pouvez également masquer temporairement la table des matières en cliquant sur ![Masquer la table des matières](/help/search-social-commerce/assets/hide-toc.png "Masquer la table des matières") en haut du volet gauche.
+>Le tableau suivant est large. Si nécessaire, utilisez la barre de défilement située au bas du tableau pour afficher l’intégralité du contenu. Vous pouvez également masquer temporairement la table des matières ou le volet de droite en cliquant sur ![Masquer le volet](/help/search-social-commerce/assets/hide-pane.png "Masquer le volet") en haut du volet gauche ou droit.
 
 | Champ | Campagne | Groupe publicitaire | Mot-clé | Publicité textuelle | Cible de l’emplacement | Description |
 |----|----|----|----|----|----|----|
