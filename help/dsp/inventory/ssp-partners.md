@@ -3,9 +3,9 @@ title: Partenaires SSP
 description: Consultez la liste des plateformes côté offre et des partenaires d’échange ouverts disponibles.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
+source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 
 >[!TIP]
 >
->Le tableau suivant est large. Si nécessaire, utilisez la barre de défilement située au bas du tableau pour afficher l’intégralité du contenu. Vous pouvez également masquer temporairement la table des matières ou le volet de droite en cliquant sur ![Masquer le volet](/help/dsp/assets/hide-pane.png "Masquer le volet") en haut du volet gauche ou droit.
+>Le tableau suivant est large. Si nécessaire, utilisez la barre de défilement située au bas du tableau pour afficher l’intégralité du contenu. Vous pouvez également masquer temporairement la table des matières ou le volet de droite en cliquant sur ![Masquer le volet gauche](/help/dsp/assets/hide-left-pane.png "Masquer le volet gauche") en haut du volet gauche ou ![Masquer le volet droit](/help/dsp/assets/hide-right-pane.png "Masquer le volet droit") en haut du volet de droite.
 
 | SSP répertorié | Société | Identifiant du siège | Prise en charge garantie par les programmes | Région | Devise prise en charge | Bureau vidéo | Mobile vidéo | Video CTV | Afficher le bureau | Afficher le mobile | Affichage natif | Ordinateur de bureau audio et mobile |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
