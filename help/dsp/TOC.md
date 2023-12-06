@@ -4,10 +4,10 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: 7d5f3028f3f8ff23a97274c182c37477a69c3f48
+source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 6%
+source-wordcount: '931'
+ht-degree: 3%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 6%
       + [Solutions multi-appareils](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Financement du compte](/help/dsp/introduction/billing/account-funding.md)
    + [Devises prises en charge](/help/dsp/currency.md)
-   + [Assistance en matière de confidentialité des consommateurs et consommatrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Prise en charge de la confidentialité des clients](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Stratégies et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Solutions de mesure avancée](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Présentation de la structure Campaign Management](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -215,6 +215,15 @@ ht-degree: 6%
       + [Modifier une [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
       + [Suppression d’une [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] Paramètres](/help/dsp/reports/report-destinations/report-destination-settings.md)
++ Planificateur {#planner}
+   + [À propos de l’outil de planification DSP](/help/dsp/planner/planner-about.md)
+   + [Créer un plan de portée télévisée connectée](/help/dsp/planner/planner-create.md)
+   + [Duplication d’un plan de portée télévisée connecté](/help/dsp/planner/planner-duplicate.md)
+   + [Modification d’un plan de portée télévisée connecté](/help/dsp/planner/planner-edit.md)
+   + [Paramètres des plans de portée TV connectés](/help/dsp/planner/planner-settings.md)
+   + [Exporter une prévision pour un plan de portée TV connecté](/help/dsp/planner/planner-export.md)
+   + [Régénération des prévisions pour un plan de portée télévisée connecté](/help/dsp/planner/planner-forecast.md)
+   + [Archivage d’un plan de portée télévisée connecté](/help/dsp/planner/planner-archive.md)
 + Administration {#admin}
    + [Modification de votre profil](/help/dsp/admin/user-own-profile-edit.md)
    + Utilisateurs {#users}
@@ -229,4 +238,4 @@ ht-degree: 6%
       + [Gestion des abonnements aux alertes](/help/dsp/admin/alerts-manage.md)
 + [Intégrations à Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [Assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html)
-+ [Notes de mise à jour d’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Notes de mise à jour de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
