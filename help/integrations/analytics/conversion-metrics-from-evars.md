@@ -1,10 +1,11 @@
 ---
-title: "Création de mesures de conversion à partir d’Adobe Analytics [!DNL eVars] et props"
-description: "Configurer des mesures d’événement de succès personnalisées à l’aide de [!DNL eVar]- et [!DNL prop]données de niveau 1."
+title: Création de mesures de conversion à partir d’Adobe Analytics [!DNL eVars] et props
+description: Configurer des mesures d’événement de succès personnalisées à l’aide de [!DNL eVar]- et [!DNL prop]données de niveau 1.
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: 71ffd021b31154a2ed2a522049f656a13d364d00
+exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
+source-git-commit: 686ca84a34117bcb4f4d5f295ed27bb308e6f287
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -64,6 +65,4 @@ Pour plus d’informations sur la création d’objectifs, consultez le chapitre
 >[!MORELIKETHIS]
 >
 >* [[!DNL Analytics] Données en Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
-<!--
->* [](/help/search-social-commerce/admin/conversion-metrics/ ????????)
--->
+>* [Afficher les mesures de conversion suivies pour un annonceur](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
