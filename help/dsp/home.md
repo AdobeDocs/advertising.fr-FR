@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 0c1880f667ce497637cdf218ed49aaa20d35b652
+source-git-commit: b01b1044e33743a7690c25a8294e35e5cd19ca07
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1808'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
 | 6 décembre 2023 | Planificateur | (Fonction bêta) Le nouvel outil de planification permet de prévoir la portée unique au niveau du foyer des placements de télévision connectée (CTV) en fonction de critères de ciblage et de budget spécifiés. Après avoir évalué plusieurs plans, vous pouvez mettre en oeuvre des modules et des emplacements qui correspondent le mieux aux résultats souhaités. | Voir &quot;[À propos de l’outil de planification DSP](/help/dsp/planner/planner-about.md).&quot; |
+| 27 septembre 2023 | Optimisation | Deux nouveaux objectifs d’optimisation basés sur la portée, **[!UICONTROL Always Max Bid and Maximize Reach]** et **[!UICONTROL Lowest Cost per Reach]**, vous aident à atteindre le plus grand nombre de foyers uniques possible en fonction du même niveau d’impression ou de dépenses, respectivement. Les deux objectifs sont disponibles au niveau du module et au niveau de l’emplacement. | Voir &quot;[Objectifs d’optimisation et utilisation](/help/dsp/optimization/optimization-goals.md).&quot; |
 | 23 août 2023 | [!UICONTROL Placements] | Le nouvel outil de prévision des emplacements affiche le nombre prévu d’impressions, de dépenses et l’offre maximale optimale pour une stratégie de ciblage particulière. Les prévisions sont calculées en fonction de l’inventaire global disponible avec l’emplacement et les utilisateurs uniques disponibles. | Voir &quot;[Afficher le rapport Prévision de positionnement](/help/dsp/campaign-management/reports/placement-forecast.md).&quot; |
 |  |  | Vous pouvez désormais associer rapidement plusieurs publicités à des emplacements en téléchargeant un fichier de feuille de calcul pour une campagne ou pour un ou plusieurs emplacements, en modifiant le fichier afin d’inclure des valeurs dans le nouveau[!UICONTROL Attached Ad ID]&quot;, puis téléchargez le fichier modifié. Utilisez la colonne pour ajouter des publicités à l’emplacement sans les supprimer.<br><br>Pour télécharger une liste de noms d’annonces et les [!UICONTROL Ad ID]s, accédez au [!UICONTROL Ads] créer une vue personnalisée qui inclut le [!UICONTROL ID] puis exporter les données. | Voir &quot;[Télécharger les paramètres de positionnement dans une feuille de calcul](/help/dsp/campaign-management/qa/qa-sheet-download.md),&quot;[Colonnes de paramètre d’emplacement dans les feuilles de calcul téléchargées/téléchargées](/help/dsp/campaign-management/qa/qa-sheet-columns.md),&quot; et &quot;[Charger les paramètres de positionnement dans une feuille de calcul](/help/dsp/campaign-management/qa/qa-sheet-upload.md).&quot;<br><br>Voir aussi &quot;[Exportation de données à partir d’une vue Campaign Management](/help/dsp/campaign-management/reports/campaign-export-data.md).&quot; |
 |  | [!UICONTROL Custom Reports] | Les rapports personnalisés disposent désormais d’un [!UICONTROL End Date], dans un délai pouvant aller jusqu’à quatre mois. Pour les rapports existants, la date d’expiration est le 24 septembre 2023.<br><br>Avant l’expiration d’un rapport, tous les destinataires de messagerie spécifiés reçoivent une alerte sept jours et un jour avant la date d’expiration. Pour prolonger le rapport, modifiez la date d’expiration dans les paramètres du rapport. | Voir &quot;[Modifier un rapport personnalisé](/help/dsp/reports/report-edit.md)&quot; et &quot;[Paramètres des rapports personnalisés](/help/dsp/reports/report-settings.md).&quot; |
