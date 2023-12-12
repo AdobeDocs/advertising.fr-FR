@@ -3,16 +3,16 @@ title: Création et implémentation d’un segment personnalisé
 description: Découvrez comment créer et mettre en oeuvre un segment personnalisé pour effectuer le suivi des utilisateurs exposés aux publicités ou des utilisateurs qui visitent vos pages web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 67b59f4f066d25f323620b83b5a0cb49beb3ee04
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # Création et implémentation d’un segment personnalisé
 
-Vous pouvez collecter vos propres données d’audience propriétaires en créant et en implémentant un segment DSP personnalisé. Vous pouvez utiliser ce segment pour effectuer le suivi a) des utilisateurs exposés aux publicités provenant de périphériques de bureau, mobiles et CTV, et b) des utilisateurs qui visitent des pages web spécifiques. Vous pouvez ensuite recibler les utilisateurs du segment avec des publicités supplémentaires ou empêcher les utilisateurs du segment de recevoir des publicités supplémentaires.
+Vous pouvez collecter vos propres données d’audience propriétaires en créant et en implémentant un segment DSP personnalisé. Vous pouvez utiliser ce segment pour effectuer le suivi a) des utilisateurs exposés aux publicités provenant d’ordinateurs de bureau et de périphériques mobiles et b) des utilisateurs qui visitent des pages web spécifiques. Vous pouvez ensuite recibler les utilisateurs du segment avec des publicités supplémentaires ou empêcher les utilisateurs du segment de recevoir des publicités supplémentaires.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
    1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**.
 
-   1. Saisissez un **[!UICONTROL Segment Name]**.
+   1. Saisissez une variable **[!UICONTROL Segment Name]**.
 
    1. Pour le **[!UICONTROL Segment Type]**, sélectionnez *[!UICONTROL Custom]*.
 
@@ -47,12 +47,12 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
          1. Fournissez la balise au contact de l’annonceur ou du site web pour le déploiement.
 
             Le service informatique de l’annonceur ou un autre groupe peut avoir besoin de planifier le déploiement de la balise ou d’être informé de ce déploiement.
-      * Pour effectuer le suivi des utilisateurs exposés à une unité publicitaire sur des appareils de bureau, mobiles ou CTV :
+
+      * Pour effectuer le suivi des utilisateurs exposés à une unité publicitaire sur un ordinateur de bureau ou sur des appareils mobiles :
 
          1. Copiez la balise de suivi d’impression, étiquetée &quot;[!UICONTROL Desktop or mobile ads].&quot;
 
-
-1. Ajoutez la balise au [!UICONTROL Pixel] pour chaque publicité appropriée ou au [!UICONTROL Event Pixels] de la section [[!UICONTROL Tracking] paramètres pour chaque emplacement approprié](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+1. Ajoutez la balise à l’une des options suivantes : [!UICONTROL Pixel] pour chaque publicité appropriée ou au [!UICONTROL Event Pixels] de la [[!UICONTROL Tracking] paramètres pour chaque emplacement approprié](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 Une fois qu’une balise de suivi est implémentée, vous pouvez utiliser le segment dans les cibles ou exclusions d’audience pour n’importe quel emplacement.
 
@@ -62,7 +62,7 @@ Une fois qu’une balise de suivi est implémentée, vous pouvez utiliser le seg
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion de l’audience](audience-about.md)
+>* [Gestion de l’audience](audience-about.md)
 >* [Modifier les informations sur le segment](segment-edit.md)
 >* [Suppression d’un segment](segment-delete.md)
 >* [Affichage des pixels de suivi pour un segment](segment-view-pixels.md)
@@ -71,4 +71,3 @@ Une fois qu’une balise de suivi est implémentée, vous pouvez utiliser le seg
 >* [Création d’une audience réutilisable](reusable-audience-create.md)
 >* [Fournisseurs de données tiers disponibles](third-party-data-providers.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
-
