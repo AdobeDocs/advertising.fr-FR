@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '930'
 ht-degree: 3%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 3%
       + [Modifier rapidement les paramètres de positionnement des clés](/help/dsp/campaign-management/placements/placement-quick-edit.md)
       + [Dupliquer un emplacement](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Joindre une publicité à un emplacement](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
-      + [Modification de la planification des publicités pour un emplacement](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+      + [Modification des planifications de publicité pour les emplacements](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [Affichage d’un rapport détaillé pour un emplacement](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [Affichage du journal des modifications d’un emplacement](/help/dsp/campaign-management/placements/placement-change-log.md)
       + [Mettre en pause ou activer un emplacement](/help/dsp/campaign-management/placements/placement-pause-activate.md)

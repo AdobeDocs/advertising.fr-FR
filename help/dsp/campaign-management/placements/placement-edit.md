@@ -3,9 +3,9 @@ title: Modifier un emplacement
 description: Découvrez comment modifier un emplacement.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: e0bd3d4ff50b32dd44ba413b83445866de6f3a75
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
 >* [Modifier rapidement les paramètres de positionnement des clés](placement-quick-edit.md)
 >* [Création d’un emplacement](placement-create.md)
 >* [Dupliquer un emplacement](placement-duplicate.md)
->* [Modification de la planification des publicités pour un emplacement](placement-edit-ad-schedule.md)
+>* [Modification des planifications de publicité pour les emplacements](placement-edit-ad-schedule.md)
 >* [Mettre en pause ou activer un emplacement](placement-pause-activate.md)
 >* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)

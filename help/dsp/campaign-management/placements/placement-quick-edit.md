@@ -3,9 +3,9 @@ title: Modifier rapidement les paramètres de positionnement des clés
 description: Découvrez comment modifier rapidement les paramètres d’emplacement clés.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,8 @@ Vous pouvez modifier le nom, l’état, l’offre maximale et le budget de l’e
 >* [Création d’un emplacement](placement-create.md)
 >* [Modifier un emplacement](placement-edit.md)
 >* [Dupliquer un emplacement](placement-duplicate.md)
->* [Modification de la planification des publicités pour un emplacement](placement-edit-ad-schedule.md)
+>* [Modification des planifications de publicité pour les emplacements](placement-edit-ad-schedule.md)
 >* [Mettre en pause ou activer un emplacement](placement-pause-activate.md)
 >* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)
 >* [Vidéo : Comment modifier des emplacements à l’aide des outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
-

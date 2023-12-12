@@ -3,9 +3,9 @@ title: Affichage d’un journal des modifications d’emplacement
 description: Découvrez comment afficher les modifications apportées à l’emplacement.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: bcd4da87642125f173befb1cdff43330ec1145bc
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Vous pouvez trier les données selon la colonne Type, Modifié par ou Date de mo
 
    * Pour ajouter une note à une entrée, placez le curseur au-dessus de la balise [!UICONTROL Notes] pour la ligne, puis cliquez sur **[!UICONTROL Add Notes]**. Saisissez du texte dans les champs de saisie, puis cliquez sur **[!UICONTROL Save]**.
 
-   * Pour afficher les détails d’une entrée dans une fenêtre contextuelle, placez le curseur sur la [!UICONTROL Notes] pour la ligne, puis cliquez sur **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Pour afficher les détails d’une entrée dans une fenêtre contextuelle, placez le curseur au-dessus de la fenêtre [!UICONTROL Notes] pour la ligne, puis cliquez sur **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 
 >[!MORELIKETHIS]
@@ -39,7 +39,6 @@ Vous pouvez trier les données selon la colonne Type, Modifié par ou Date de mo
 >* [Création d’un emplacement](placement-create.md)
 >* [Modifier un emplacement](placement-edit.md)
 >* [Dupliquer un emplacement](placement-duplicate.md)
->* [Modification de la planification des publicités pour un emplacement](placement-edit-ad-schedule.md)
+>* [Modification des planifications de publicité pour les emplacements](placement-edit-ad-schedule.md)
 >* [Mettre en pause ou activer un emplacement](placement-pause-activate.md)
 >* [Paramètres d’emplacement](placement-settings.md)
-
