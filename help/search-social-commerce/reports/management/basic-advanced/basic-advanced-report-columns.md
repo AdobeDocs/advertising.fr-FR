@@ -3,9 +3,9 @@ title: Colonnes de rapports pour les rapports de base et avancés
 description: Découvrez les colonnes de données disponibles pour les rapports de base et avancés.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 2a4920bc8a9b45061fb0b3773e5a90954ce2dff5
+source-git-commit: 6b820606208b662eaa1f5c4d2e63bb08f1ac5885
 workflow-type: tm+mt
-source-wordcount: '3755'
+source-wordcount: '3749'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 0%
 | [!UICONTROL User SE Account ID] | Identifiant numérique attribué par Search, Social et Commerce au réseau publicitaire. |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] campagnes uniquement) La durée moyenne de lecture d’une vidéo, y compris le temps passé à la relecture de la vidéo, pour une seule impression. |
 | [!UICONTROL Video Plays] | ([!DNL Meta] campagnes uniquement) Nombre de fois où la lecture de la vidéo commence, à l’exception des lectures. |
-| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count], et [!UICONTROLVVidéo lue à 100 %] | (Publicités vidéo) Nombre de vidéos lues 25 %, 50 %, 75 % ou 100 % du parcours. |
+| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count], et [!UICONTROL Video Played at 100 Percent Count] | (Publicités vidéo) Nombre de vidéos lues 25 %, 50 %, 75 % ou 100 % du parcours. |
 | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], et [!UICONTROL VideoQuartile100Rate] | (Publicités vidéo) Pourcentage de vidéos lues à 25 %, 50 %, 75 % ou 100 % du parcours. |
 | [!UICONTROL View Rate] | (Publicités vidéo) Nombre d’affichages ou d’engagements divisé par le nombre de fois où la publicité (impressions de vidéos et de miniatures) a été affichée. |
 | [!UICONTROL Views] | (Publicités vidéo) Le nombre de fois où des personnes ont regardé votre publicité ou l’ont utilisée. |
