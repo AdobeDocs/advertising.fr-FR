@@ -3,9 +3,9 @@ title: Colonnes de rapports pour les rapports de base et avancés
 description: Découvrez les colonnes de données disponibles pour les rapports de base et avancés.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 0e82baca53d27dea4207cb2eef3f4be7a9f99fb5
+source-git-commit: 2a4920bc8a9b45061fb0b3773e5a90954ce2dff5
 workflow-type: tm+mt
-source-wordcount: '3598'
+source-wordcount: '3755'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 0%
 | [!UICONTROL Ad Group Type] | Type de groupe publicitaire, tel que <i>[!UICONTROL Audience]</i> (pour les campagnes d’audience uniquement), <i>[!UICONTROL Discovery]</i> (pour les campagnes de découverte uniquement), <i>[!UICONTROL Display]</i> (pour les campagnes display uniquement), <i>[!UICONTROL Search Dynamic]</i> (pour les annonces de recherche dynamique uniquement), <i>[!UICONTROL Search Standard]</i> (pour les annonces responsives sur le Réseau de Recherche et les annonces textuelles étendues existantes uniquement), <i>[!UICONTROL Shopping Showcase]</i>, <i>[!UICONTROL Shopping Product]</i> (pour les campagnes d’achat standard uniquement) ou <i>[!UICONTROL Shopping Smart]</i> (pour les campagnes d’achats dynamiques). Pour certains types de campagne, une seule campagne peut inclure plusieurs types d’annonces. |
 | [!UICONTROL Ad Groups] | Nombre de groupes d’annonces auxquels la valeur d’étiquette est affectée. |
 | [!UICONTROL AD Name] | Nom du groupe publicitaire ; même valeur que [!UICONTROL Ad Group]. |
+| [!UICONTROL Ad Recall Lift] | ([!DNL Meta] campagnes uniquement) Nombre estimé de personnes qui se souviendront de votre publicité dans les deux jours. |
+| [!UICONTROL Ad Recall Rate] | ([!DNL Meta] campagnes uniquement) Nombre estimé de personnes qui se souviendront de votre publicité dans les deux jours, divisé par le nombre de personnes que vous avez atteint, en pourcentage. |
 | [!UICONTROL Ad Size] | Dimensions de la publicité. |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] publicités de recherche réactive) L’efficacité de la publicité : <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i>, ou <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising], et [!DNL Yahoo! Japan Ads] campagnes) Ajustement d’offre mobile au niveau du groupe d’annonces actuel, qui détermine la manière dont les offres sont ajustées lorsque la publicité est affichée sur un appareil mobile. |
@@ -46,6 +48,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign] | La campagne. |
 | [!UICONTROL Campaign Budget] | Le budget de l’opération. |
 | [!UICONTROL Campaign MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising], et [!DNL Yahoo! Japan Ads] campagnes) Ajustement d’offre mobile au niveau de la campagne en cours, qui détermine la manière dont les offres sont ajustées lorsque la publicité est affichée sur un appareil mobile. |
+| [!UICONTROL Campaign Product Scope Filter] | (Campagnes utilisant uniquement le réseau d’achat) Produits de votre compte marchand pour lesquels des publicités de produits peuvent être créées pour la campagne. |
 | [!UICONTROL Campaign Start Date] | Premier jour où les offres ont été/sont placées pour la campagne. |
 | [!UICONTROL Campaign Status] | État de la campagne : <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Ended]</i>, ou <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Campaign Type] | Le type de campagne, tel que <i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>, <i>[!UICONTROL Audience (Image)]</i>, <i>[!UICONTROL Audience (Video)]</i>, <i>[!UICONTROL Brand Shopping]</i>, <i>[!UICONTROL Discovery]</i>, <i>[!UICONTROL Search and Display]</i>, <i>[!UICONTROL Standard Display]</i>, <i>[!UICONTROL Standard Performance Max]</i>, <i>[!UICONTROL Standard Search]</i>, <i>[!UICONTROL Standard Shopping]</i>, <i>[!UICONTROL Store Ad]</i>, <i>[!UICONTROL Video]</i>, ou <i>[!UICONTROL Others]</i>. |
@@ -106,6 +109,7 @@ ht-degree: 0%
 | [!UICONTROL Estimated Impressions] | (Afficher uniquement les campagnes) Nombre estimé d’impressions d’annonces suivies par Search, Social et Commerce. Cette valeur peut être différente de la valeur de la variable [!UICONTROL Impressions] (lorsqu’elle est disponible), qui indique la valeur fournie par les réseaux publicitaires. |
 | [!UICONTROL Exclude (yes/no)] | Si les enchères sont exclues (<i>[!UICONTROL Yes]</i>) ou les enchères sont autorisées (<i>[!UICONTROL No]</i>) pour les publicités pour les produits correspondants. |
 | [!UICONTROL First Page CPC] | (Campagnes Google uniquement) Le coût par clic (CPC) des publicités qui apparaissent sur la première page des résultats de recherche au cours de la période spécifiée. |
+| [!UICONTROL Frequency] | ([!DNL Meta] campagnes uniquement) Le nombre moyen de fois où une personne a vu votre publicité. |
 | `GGL*`, `GGL_CT*`, et `GGL_XD_CT*` [[!DNL Google Ads]- conversions suivies] | ([!DNL Google Ads] campagnes sur les réseaux de recherche et d’achat) [!DNL Google Ads]-conversions suivies, avec jusqu’à trois mesures distinctes pour chaque conversion :<ul><li>`GGL*` — (Lorsque vous en effectuez le suivi) La valeur de conversion du mot-clé, commençant par le préfixe &quot;GGL&quot; (tel que Achat GGL).</li><li>`GGL_CT*` — Nombre (décompte) de conversions, commençant par le préfixe &quot;GGL_CT&quot; (tel que GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (Lorsque disponible pour le type de conversion, lorsque vous en effectuez le suivi) Le nombre (nombre) de conversions entre appareils, tel que mesuré par [!DNL Google Ads] commençant par le préfixe &quot;GGL_XD_CT_&quot; (tel que GGL_XD_CT_Purchase).</li></ul><br>Chaque conversion est enregistrée par unité d’offre et date de clic ; elle n’est pas disponible au niveau de l’événement. Pour plus d’informations sur [!DNL Google Ads]- conversions suivies, voir &quot;[[!DNL Google Ads] données de conversion dans Search, Social et Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).&quot; |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] uniquement) Le pourcentage de vos impressions publicitaires affichées en tant que première publicité au-dessus des résultats de la recherche organique. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] uniquement) Le pourcentage de vos impressions publicitaires affichées au-dessus des résultats de la recherche organique. |
@@ -127,16 +131,17 @@ ht-degree: 0%
 | [!UICONTROL Market Type] | Type de marché :  <i>[!UICONTROL search]</i> ou <i>[!UICONTROL social]</i> |
 | [!UICONTROL Max Spend % Target] | (Campagnes dans des portfolios avec [!UICONTROL ROI], [!UICONTROL CPT], ou [!UICONTROL Marginal Cost per Transaction] stratégies de dépenses) Cible maximale du budget quotidien pour le portefeuille. |
 | [!UICONTROL Max Spend (%)] | ([!UICONTROL Network Constraint Report]) Pourcentage maximal des dépenses du portefeuille configurées pour le réseau publicitaire. Pour les portefeuilles utilisant le type de contrainte &quot;[!UICONTROL Min-Max],&quot; il s’agit de la variable [!UICONTROL Max %] . Pour les portefeuilles utilisant le type de contrainte &quot;[!UICONTROL Target Spend],&quot; il s’agit de la variable [!UICONTROL Target Spend] . |
-| [!UICONTROL Method ID] | ([!UICONTROL Portfolio Report])  <!-- ???????? Insert value --> |
+| [!UICONTROL Method ID] | ([!UICONTROL Portfolio Report]) |
 | [!UICONTROL Metro Code] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) Code de métro numérique à partir duquel sont nés les impressions ou les clics (par exemple, us-751 pour Denver). Il est déterminé à partir de l’adresse IP de l’utilisateur de recherche. |
 | [!UICONTROL Min Spend (%)] | ([!UICONTROL Network Constraint Report]) Pourcentage minimal des dépenses du portfolio configuré pour le réseau publicitaire. Pour les portefeuilles utilisant le type de contrainte &quot;[!UICONTROL Min-Max],&quot; il s’agit de la variable [!UICONTROL Min %] , si une variable [!UICONTROL Min %] est configuré. Pour les portefeuilles utilisant le type de contrainte &quot;[!UICONTROL Target Spend],&quot; il s’agit de la variable [!UICONTROL Target Spend] . |
 | [!UICONTROL Network Account ID] | Identifiant de compte attribué par le réseau. |
 | [!UICONTROL Network Ad Group ID] | Identifiant du groupe publicitaire attribué par le réseau. |
 | [!UICONTROL Network Campaign ID] | Identifiant de campagne attribué par le réseau. |
+| [!UICONTROL Network Campaign Objective] | ([!DNL Meta] campagnes uniquement) L’objectif de la campagne. |
 | [!UICONTROL Objective Name] | L&#39;objectif du portefeuille. |
 | [!UICONTROL Objective Value] | Le total des conversions pondérées tel que calculé en fonction de l’objectif actuel du portfolio. |
 | [!UICONTROL Objective Value Calculation] | Calcul utilisé pour dériver la valeur d’objectif. |
-| [!UICONTROL Outbound Clicks] | ([!DNL Meta] publicités) Nombre de clics sur des liens au sein de publicités qui découragent les personnes [!DNL Meta]Propriétés détenues. |
+| [!UICONTROL Outbound Clicks] | ([!DNL Meta] campagnes uniquement) Le nombre de clics sur les liens des publicités qui retirent des personnes [!DNL Meta]Propriétés détenues. |
 | [!UICONTROL Parent Product Groupings] | La hiérarchie complète des groupes de produits parents, avec `>>` entre les niveaux (par exemple, `All Products>>CategoryL1=Animals`), le cas échéant. |
 | [!UICONTROL Partition Type] | Le type de groupe de produits : <i>[!UICONTROL Sub-Division]</i> (groupes de produits parents) ou <i>[!UICONTROL Unit]</i> (le niveau le plus bas des groupes de produits enfants, qui a une offre). |
 | [!UICONTROL Path Position] | ([!UICONTROL Transaction Report]) Position de l’événement dans le chemin de conversion. |
@@ -150,10 +155,12 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Target] | ([!UICONTROL Portfolio Report]) Cible quotidienne de la stratégie de dépenses du portefeuille. Pour les stratégies quotidiennes/mensuelles et par jour de la semaine/du mois, la cible du jour en cours s’affiche. |
 | [!UICONTROL Preferred Devices] | ([!DNL Google Ads], [!DNL Microsoft Advertising], et [!DNL Yahoo! Japan Ads] campagnes) Si les paramètres de publicité donnent la préférence à <i>[!UICONTROL Mobile ads]</i> ou <i>[!UICONTROL All ads]</i>. |
 | [!UICONTROL Product Group ID] | Identifiant numérique attribué par le réseau publicitaire au groupe de produits. |
+| [!UICONTROL Product Group Name] | Nom du groupe de produits. |
+| [!UICONTROL Product Group Status] | État du groupe de produits. |
 | [!UICONTROL Product Groupings] | Groupe de produits parent. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] Liste de produits (publicités) Identifiant du produit affiché avec la publicité.<br><br><b>Remarque :</b> L’ID est capturé uniquement lorsque la liste de produits inclut le paramètre de suivi. `ev_plx=<GMC product ID>`, dans lequel vous devez ajouter des [!DNL Google Merchant Center]. |
 | [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Les recettes de la mesure de conversion (par exemple 1 pour un enregistrement ou 12 pour une commande de 12 USD). Si plusieurs unités d’offre ont le même ID de transaction, les recettes de l’ID de suivi sont fractionnées en fonction du nombre de clics à la date de clic spécifiée (lorsque les données de clic sont disponibles). |
-| [!UICONTROL Reach] | ([!DNL Meta] (publicités) Nombre de personnes qui ont vu vos publicités au moins une fois. Remarque : [!DNL Meta] les déduplications atteignent les profils utilisateur tous les jours, de sorte que les chiffres signalés par [!DNL Meta] et par Search, Social et Commerce peuvent différer. |
+| [!UICONTROL Reach] | ([!DNL Meta] campagnes uniquement) Nombre de personnes qui ont vu vos publicités au moins une fois. Remarque : [!DNL Meta] les déduplications atteignent les profils utilisateur tous les jours, de sorte que les chiffres signalés par [!DNL Meta] et par Search, Social et Commerce peuvent différer. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) Région ou état américain/canadien d’où proviennent les impressions ou les clics. Il est déterminé à partir de l’adresse IP de l’utilisateur. |
 | [!UICONTROL SE Creative ID] | Identifiant de publicité attribué par le réseau. |
 | [!UICONTROL Search (Abs. Top) IS] | ([!DNL Google Ads] et [!DNL Microsoft Advertising]) Impressions que vous avez reçues au premier emplacement absolu (la toute première publicité au-dessus des résultats de la recherche organique), divisé par le nombre estimé d’impressions que vous pouviez recevoir au premier emplacement. Les pourcentages inférieurs à 10 % sont indiqués comme &quot;`<10%`&quot; ou &quot;`0.0999`.&quot; |
@@ -173,15 +180,17 @@ ht-degree: 0%
 | [!UICONTROL Start Date] | Le premier jour a été rapporté. |
 | [!UICONTROL State] | (Rapport de répartition géographique, [!UICONTROL Keyword Report]) État d’où provient la transaction. Il est déterminé à partir de l’adresse IP de l’utilisateur. |
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) L’identifiant de l’utilisateur qui a effectué la transaction. |
-| [!UICONTROL Through Plays] | ([!DNL Meta] publicités) Nombre de vues qui ont visionné l’annonce dans son intégralité. |
+| [!UICONTROL Thru Plays] | ([!DNL Meta] campagnes uniquement) Nombre de vues qui ont visionné l’ensemble de la publicité. |
 | [!UICONTROL Top of Page CPC] | (Campagnes Google uniquement) Le coût par clic (CPC) des publicités qui apparaissent en haut des pages de résultats de recherche au cours de la période spécifiée. |
 | [!UICONTROL Tracking URL] | (Mots-clés ciblés par la recherche uniquement) Le modèle de suivi ou l’URL de destination incorporé avec (le cas échéant) le code de suivi de recherche, de Social et de Commerce. |
 | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) Mesure de conversion spécifique à l’annonceur à laquelle la transaction est créditée. |
 | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) Heure à laquelle la mesure de conversion spécifiée a été créditée. |
+| [!UICONTROL Two Second Continuous Video Plays] | ([!DNL Meta] campagnes uniquement) Le nombre de fois où la vidéo a été lue pendant au moins deux secondes continues. |
 | [!UICONTROL User Account Type] | Obsolète |
 | [!UICONTROL User SE Account ID] | Identifiant numérique attribué par Search, Social et Commerce au réseau publicitaire. |
-| [!UICONTROL Video Average Play Time] | ([!DNL Meta] publicités) La durée moyenne de lecture d’une vidéo, y compris le temps passé à la relecture de la vidéo, pour une seule impression. |
-| [!UICONTROL Video Plays] | ([!DNL Meta] publicités) Nombre de fois où la lecture de la vidéo commence, à l’exception des lectures. |
+| [!UICONTROL Video Average Play Time] | ([!DNL Meta] campagnes uniquement) La durée moyenne de lecture d’une vidéo, y compris le temps passé à la relecture de la vidéo, pour une seule impression. |
+| [!UICONTROL Video Plays] | ([!DNL Meta] campagnes uniquement) Nombre de fois où la lecture de la vidéo commence, à l’exception des lectures. |
+| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count], et [!UICONTROLVVidéo lue à 100 %] | (Publicités vidéo) Nombre de vidéos lues 25 %, 50 %, 75 % ou 100 % du parcours. |
 | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], et [!UICONTROL VideoQuartile100Rate] | (Publicités vidéo) Pourcentage de vidéos lues à 25 %, 50 %, 75 % ou 100 % du parcours. |
 | [!UICONTROL View Rate] | (Publicités vidéo) Nombre d’affichages ou d’engagements divisé par le nombre de fois où la publicité (impressions de vidéos et de miniatures) a été affichée. |
 | [!UICONTROL Views] | (Publicités vidéo) Le nombre de fois où des personnes ont regardé votre publicité ou l’ont utilisée. |
