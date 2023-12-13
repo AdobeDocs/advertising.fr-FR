@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 38d6d70d03c12aab1a7caee6e589a2fdeaf78ad4
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -9,9 +9,9 @@ ht-degree: 0%
 
 <!-- Search CRUD and bulk edit of Microsoft entity settings -->
 
-**[!UICONTROL Tracking Template]:** (Facultatif) Le modèle de suivi ou l’URL de suivi, qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi, et incorpore également l’URL de page d’entrée/finale dans un paramètre. Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
+**[!UICONTROL Tracking Template]:** (Facultatif ; non disponible pour toutes les entités) Le modèle de suivi ou l’URL de suivi, qui spécifie toutes les redirections de domaine hors entrée et tous les paramètres de suivi, et incorpore également l’URL de page d’entrée/finale dans un paramètre. Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
 
-Pour le suivi de conversion Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; Search, Social et Commerce préfixe automatiquement son propre code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
+Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; Search, Social et Commerce préfixe automatiquement son propre code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
 
 * Pour les paramètres pris en charge pour incorporer l’URL finale, voir [[!DNL Microsoft Advertising] documentation sur les paramètres pour indiquer l’URL finale](https://help.ads.microsoft.com/#apex/3/en/56799).
 
@@ -25,4 +25,3 @@ Pour le suivi de conversion Adobe Advertising, qui est appliqué lorsque les par
 >
 >* Le modèle de suivi au niveau le plus granulaire remplace les valeurs à tous les niveaux supérieurs. Par exemple, si les paramètres du compte et les paramètres du mot-clé incluent tous deux une valeur, la valeur du mot-clé est appliquée.
 >* Vous pouvez mettre à jour vos modèles de suivi à n’importe quel niveau sans soumettre à nouveau vos publicités pour approbation.
-
