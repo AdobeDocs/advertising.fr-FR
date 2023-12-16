@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: cde3e59564eeaeb1659715e77c30f2c7beae687e
+source-git-commit: d8980d697c0a3a05af2ef2d5d947efe68c67e073
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
+| 11 décembre 2023 | Aide | Un nouveau document explique comment configurer des tests A/B dans [!DNL Target] pour le trafic de clics publicitaires provenant des publicités dans Search, Social et Commerce, ainsi que des conseils sur la mesure et la visualisation de vos tests dans [!DNL Analytics]. | Voir &quot;[Configuration de tests A/B dans Adobe Target pour les annonces Search, Social et Commerce](/help/integrations/target/ab-tests-search.md).&quot; |
 | 8 août 2023 | [!DNL Analytics for Advertising] | Certains [!DNL Analytics] les mesures d’événement de succès, y compris les mesures de conversion standard, personnalisées et réservées, ainsi que les mesures de trafic, sont automatiquement disponibles dans DSP et dans Search, Social et Commerce. Désormais, vous pouvez également configurer vos propres mesures de succès en fonction de vos [!DNL Analytics] [!DNL eVars] et [!DNL props] par l’entonnoir [!DNL eVar]- et [!DNL prop]données de niveau -1 dans un événement de succès personnalisé. | Voir &quot;[Création de mesures de conversion à partir d’Adobe Analytics [!DNL eVars] et [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot; |
 | 13 juillet 2023 | Reporting | (DSP utilisateurs avec [!DNL Analytics for Advertising]) Les conversions d’affichages publicitaires pour les emplacements de télévision connectée (CTV) sont désormais incluses dans les données de conversion disponibles dans Adobe Analytics. | Voir la section &quot;Exemples d’utilisation de l’intégration&quot; dans &quot;[Présentation de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
 | 1er novembre 2022 | Aide | Un nouveau document explique comment mettre en oeuvre le partage de signal de clics et d’affichages publicitaires entre Advertising DSP et Adobe Target, configurer une activité de test A/B dans [!DNL Target] pour vos annonces DSP et comment configurer Adobe Analytics Analysis Workspace pour afficher les données de test. | Voir &quot;[Configuration de tests A/B dans Adobe Target pour les publicités DSP](/help/integrations/target/ab-tests-dsp.md).&quot; |
