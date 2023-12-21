@@ -3,9 +3,9 @@ title: Création d’une source d’audience pour activer les audiences proprié
 description: Découvrez comment créer une source pour importer des audiences dans votre compte ou un compte publicitaire.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 3347bfbaec92bb13428a39207954f895eb4f5d6d
+source-git-commit: 6c918b387067237de5d1eae42ae8ad253884d761
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -14,37 +14,38 @@ ht-degree: 0%
 
 <!-- Will this remain for admin users/Adobe Account Team users only? -->
 
-Créez une source pour importer des audiences dans votre compte DSP ou un compte publicitaire. Actuellement, vous pouvez importer des audiences depuis [la valeur [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html).
+Créez une source dans DSP pour importer des audiences propriétaires vers votre compte DSP ou un compte publicitaire.
 
->[!NOTE]
->
->Après avoir créé une source pour le [!DNL Real-Time CDP], vous devrez activer votre [!DNL Real-Time CDP] audiences via la destination Adobe Advertising DSP dans [!DNL Real-Time CDP] pour commencer à les importer. Voir [les étapes du workflow d’activation ;](source-about.md#workflow-sources).
+Pour connaître les étapes supplémentaires requises pour ingérer des segments à partir de plateformes de données client spécifiques, voir [les workflows d’activation spécifiques à l’audience ;](source-about.md)
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
-1. Cliquez sur [!UICONTROL Add Source].
+1. Cliquez sur **[!UICONTROL Add Source]**.
 
-1. Dans le [!UICONTROL Select a Type] sélectionnez le type de source.
+1. Dans le [!UICONTROL Select a Type] , sélectionnez le type de source.
 
-   *[!UICONTROL RT-CDP]*: Ce type de source, pour [la valeur [!DNL Adobe Real-Time Customer Data Profile]](source-about.md), est la seule option.
+   * *[!UICONTROL RT-CDP]*: [La variable [!DNL Adobe Real-Time Customer Data Platform]](source-about.md).
+
+   <!-- * *[!UICONTROL ActionIQ]*: The [[!DNL ActionIQ] customer data platform](source-about.md). -->
+
+   * *[!UICONTROL Tealium CDP]*: la variable [[!DNL Tealium] plateforme de données client](source-about.md).
 
 1. Spécifiez la variable [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* ou *[!UICONTROL Account]*.
 
 1. Saisissez le reste [paramètres source](source-settings.md).
 
-   Conserver une copie du [!UICONTROL Source Key] qui est généré. Vous aurez besoin de la valeur plus tard.
+   Conserver une copie de la fonction [!UICONTROL Source Key] qui est généré. Vous aurez besoin de la valeur plus tard.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
-1. Dans Experience Platform, créez une connexion de destination de DSP Advertising à l’aide du [!UICONTROL Source Key] qui a été généré dans les paramètres source DSP.
-
-   Pour obtenir des instructions sur l’activation de la connexion DSP destination, la sélection de segments et l’accès aux autorisations de contrôle, voir &quot;[Connexion Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+>[!NOTE]
+>
+>Après avoir créé une source pour votre plateforme de données client, vous devrez effectuer d’autres étapes. Voir [workflow d’activation pour [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> et la variable [workflow d’activation pour [!DNL Tealium]](source-tealium.md).
 
 >[!MORELIKETHIS]
 >
 >* [Paramètres de la source d’audience](source-settings.md)
 >* [À propos de l’activation de segments authentifiés à partir des sources d’audience](source-about.md)
->* [Activation des segments authentifiés à partir de partenaires d’identification durables](source-durable-id.md)<!-- title?-->
+>* [Activation des segments authentifiés à partir des partenaires d’ID universels](source-universal-id.md)<!-- title?-->
 >* [Connexion Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* [À propos de la gestion de l’audience](/help/dsp/audiences/audience-about.md)
-
+>* [Gestion de l’audience](/help/dsp/audiences/audience-about.md)

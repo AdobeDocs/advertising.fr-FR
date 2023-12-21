@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: eb4db7c91d98cd14e9006f0647f964cdf054962f
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '949'
 ht-degree: 3%
 
 ---
@@ -150,7 +150,11 @@ ht-degree: 3%
       + [Syntaxe de la logique de segment d’audience](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + Sources {#sources}
       + [À propos de l’activation de segments authentifiés à partir des sources d’audience](/help/dsp/audiences/sources/source-about.md)
-      + [Activation des segments authentifiés à partir de partenaires d’ID durables](/help/dsp/audiences/sources/source-durable-id.md)
+      + Workflows par plateforme de données client {#sources-workflows}
+         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
+            + [Processus d’utilisation de l’intégration DSP avec [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+            + [Activation des segments authentifiés à partir des partenaires d’ID universels](/help/dsp/audiences/sources/source-universal-id.md)
+         + [Processus d’utilisation de l’intégration DSP avec [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
       + [Création d’une source d’audience pour activer les audiences propriétaires](/help/dsp/audiences/sources/source-create.md)
       + [Paramètres de la source d’audience](/help/dsp/audiences/sources/source-settings.md)
    + [Fournisseurs de données tiers disponibles](/help/dsp/audiences/third-party-data-providers.md)
