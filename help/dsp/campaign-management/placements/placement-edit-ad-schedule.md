@@ -3,9 +3,9 @@ title: Modification des planifications de publicité pour les emplacements
 description: Découvrez comment modifier les plannings de publicité pour les publicités liées aux emplacements.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: d993ffe4a7dceed36ecbae85642e82de271432cd
+source-git-commit: 042cd16591869668339a27fa36de57aa1825dd51
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,15 @@ Vous pouvez modifier les dates de vol planifiées et la rotation des publicités
 
    ![Notification de téléchargement prêt](/help/dsp/assets/download-ready.png "Notification de téléchargement prêt")
 
-1. Ouvrez le fichier téléchargé, modifiez les informations de vol selon les besoins, puis enregistrez le fichier mis à jour :
+1. Ouvrez le fichier téléchargé, modifiez les champs d’informations de vol pour chaque ligne d’annonce à inclure dans le vol, puis enregistrez le fichier mis à jour :
 
-   * Pour ajouter un vol, indiquez les dates de vol pour chaque ligne d’annonce à inclure dans le vol à l’aide de la variable **[!UICONTROL Flight N Start Date]** et **[!UICONTROL Flight N End Date]** colonnes. Utilisez le format AAAA-MM-JJ pour chaque date.
+   **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (par exemple [!UICONTROL Flight 1 Start Date] et [!UICONTROL Flight 1 End Date]) : les premières et dernières dates du vol. Utilisez le format AAAA-MM-JJ pour chaque date. Toutes les publicités avec des champs de date de vol vides sont traitées comme des publicités non participantes.
 
-     Par exemple, pour les publicités dans le premier vol, saisissez des valeurs dans la variable [!UICONTROL Flight 1 Start Date] et [!UICONTROL Flight 1 End Date] des champs. Si les lignes de publicité ne sont pas déjà incluses dans le fichier, entrez les informations de publicité requises dans les nouvelles lignes.
+   **[!UICONTROL Flight N Weight]** (par exemple [!UICONTROL Flight 1 Weight]) : comment faire pivoter les publicités pour un vol. Saisissez une valeur :
 
-     Toutes les publicités avec des champs de date de vol vides sont traitées comme des publicités non participantes.
+   * Pour faire pivoter uniformément les publicités d’un vol, saisissez &quot;**[!UICONTROL Even]**&quot;.
 
-   * Pour faire pivoter uniformément les publicités d’un vol, saisissez &quot;**[!UICONTROL Even]**&quot; dans le **[!UICONTROL Flight N Weight]** (par exemple, [!UICONTROL Flight 1 Weight]).
-
-   * Pour faire pivoter inégalement les publicités d’un vol, indiquez le poids relatif de rotation de chaque publicité, en pourcentage, dans la variable **[!UICONTROL Flight N Weight]** (par exemple, [!UICONTROL Flight 1 Weight]).
-
-     Le poids total de chaque vol doit être de 100.
+   * Pour faire pivoter les publicités d’un vol de manière inégale, indiquez le poids relatif de rotation de chaque publicité, en pourcentage. Le poids total du vol doit être de 100.
 
 1. Téléchargez le modèle de planification des publicités modifié :
 
