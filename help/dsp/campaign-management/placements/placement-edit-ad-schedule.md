@@ -3,44 +3,52 @@ title: Modification des planifications de publicité pour les emplacements
 description: Découvrez comment modifier les plannings de publicité pour les publicités liées aux emplacements.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 0b89d346aa7d1443e50605e1300a6a3645fe9b21
+source-git-commit: d993ffe4a7dceed36ecbae85642e82de271432cd
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 # Modification des planifications de publicité pour les emplacements
 
-<!--
+## Modification des planifications de publicité pour un ou plusieurs emplacements
 
-## Edit the Ad Schedules for One or More Placements
+Vous pouvez modifier les dates de vol planifiées et la rotation des publicités associées à plusieurs emplacements à l’aide d’une [!DNL Microsoft Excel] feuille de calcul. Chaque publicité peut être active pendant plusieurs vols.
 
-You can change the scheduled flight dates and ad rotation for the ads attached to multiple placements using a [!DNL Microsoft Excel] spreadsheet. Each ad can be active during multiple flights.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
-1. In the main menu, click **[!UICONTROL Campaigns]**.
+1. Cliquez sur le nom de la campagne.
 
-1. Click the name of the campaign.
+1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
 
-1. In the submenu, click **[!UICONTROL Placements]**.
+1. Cochez la case en regard de chaque emplacement dont vous souhaitez télécharger les données publicitaires.
 
-1. Select the check box next to each placement whose ad data you want to download.
+1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Download Custom Ad Schedule Sheet]**.
 
-1. In the bulk actions toolbar, click **[!UICONTROL ...]** > **[!UICONTROL Download Custom Ad Schedule Sheet]**.
+1. Lorsque le fichier est disponible, cliquez sur **[!UICONTROL Download]** dans la notification située en haut de la page du navigateur pour télécharger un fichier de feuille de calcul (au format XLSX) selon la procédure normale de votre navigateur.
 
-1. When the file is available, click **[!UICONTROL Download]** in the notification at the top of the browser page to download a worksheet file (in XLSX format) according to your browser's normal procedure..
+   ![Notification de téléchargement prêt](/help/dsp/assets/download-ready.png "Notification de téléchargement prêt")
 
-   ![Download Ready notification](/help/dsp/assets/download-ready.png "Download Ready notification")
+1. Ouvrez le fichier téléchargé, modifiez les informations de vol selon les besoins, puis enregistrez le fichier mis à jour :
 
-1. Open the downloaded file and edit the flight dates as needed.
+   * Pour ajouter un vol, indiquez les dates de vol pour chaque ligne d’annonce à inclure dans le vol à l’aide de la variable **[!UICONTROL Flight N Start Date]** et **[!UICONTROL Flight N End Date]** colonnes. Utilisez le format AAAA-MM-JJ pour chaque date.
 
-1. Upload the edited ad schedule template:
+     Par exemple, pour les publicités dans le premier vol, saisissez des valeurs dans la variable [!UICONTROL Flight 1 Start Date] et [!UICONTROL Flight 1 End Date] des champs. Si les lignes de publicité ne sont pas déjà incluses dans le fichier, entrez les informations de publicité requises dans les nouvelles lignes.
 
-   1. Select the check box next to each applicable placement.
+     Toutes les publicités avec des champs de date de vol vides sont traitées comme des publicités non participantes.
 
-   1. In the bulk actions toolbar, click **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]**, and specify the file to upload.
+   * Pour faire pivoter uniformément les publicités d’un vol, saisissez &quot;**[!UICONTROL Even]**&quot; dans le **[!UICONTROL Flight N Weight]** (par exemple, [!UICONTROL Flight 1 Weight]).
 
--->
+   * Pour faire pivoter inégalement les publicités d’un vol, indiquez le poids relatif de rotation de chaque publicité, en pourcentage, dans la variable **[!UICONTROL Flight N Weight]** (par exemple, [!UICONTROL Flight 1 Weight]).
+
+     Le poids total de chaque vol doit être de 100.
+
+1. Téléchargez le modèle de planification des publicités modifié :
+
+   1. Cochez la case en regard de chaque emplacement approprié.
+
+   1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]**, puis spécifiez le fichier à télécharger.
 
 ## Modification de la planification des publicités pour un emplacement unique
 
