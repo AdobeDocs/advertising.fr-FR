@@ -3,9 +3,9 @@ title: Modification des planifications de publicité pour les emplacements
 description: Découvrez comment modifier les plannings de publicité pour les publicités liées aux emplacements.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: a001d7fbde6ef1346383925db9179d824eb7bb78
+source-git-commit: bc45e96cf091cba3872b20f6ea691e369b29982f
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Vous pouvez modifier les dates de vol planifiées et la rotation des publicités
 
       * Pour faire pivoter uniformément les publicités d’un vol, saisissez `[!UICONTROL Even]`.
 
-      * Pour faire pivoter les publicités d’un vol de manière inégale, indiquez le poids relatif de rotation de chaque publicité, en pourcentage. Le poids total du vol doit être de 100.
+      * Pour faire pivoter inégalement les publicités d’un vol, indiquez le poids relatif de rotation de chaque publicité, sous forme de pourcentage (par exemple : `40` pour 40 %). Le poids total du vol doit être de 100.
 
 1. Téléchargez le modèle de planification des publicités modifié :
 
