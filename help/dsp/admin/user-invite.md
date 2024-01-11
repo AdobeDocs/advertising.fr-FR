@@ -3,18 +3,16 @@ title: Invitation d’un nouvel utilisateur pour votre compte d’organisation
 description: Découvrez comment inviter un nouvel utilisateur à rejoindre le compte.
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
+source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
 # Invitation d’un nouvel utilisateur pour votre compte d’organisation
 
-*Utilisateurs de l’administrateur uniquement*
-
-Vous pouvez inviter un nouvel utilisateur pour le compte. Une fois que l’utilisateur a accepté l’invitation, il a accès à tous les publicitaires pour le compte. Les nouveaux utilisateurs disposent par défaut d’un accès en lecture seule.
+Les utilisateurs administrateurs peuvent inviter un nouvel utilisateur pour le compte. Une fois que l’utilisateur a accepté l’invitation, il a accès à tous les publicitaires pour le compte. Les nouveaux utilisateurs disposent par défaut d’un accès en lecture seule.
 
 Si nécessaire, vous pouvez annuler l’invitation d’un utilisateur avec une invitation en attente.
 

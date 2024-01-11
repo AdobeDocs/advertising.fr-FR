@@ -3,18 +3,16 @@ title: Réenvoyer une invitation d’utilisateur en attente
 description: Découvrez comment renvoyer une invitation d’utilisateur en attente.
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
+source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
 
 # Réenvoyer une invitation d’utilisateur en attente
 
-*Utilisateurs de l’administrateur uniquement*
-
-Vous pouvez renvoyer une invitation à un utilisateur avec une invitation en attente pour le compte de l’organisation.
+Les utilisateurs administrateurs peuvent renvoyer une invitation à un utilisateur avec une invitation en attente pour le compte de l’organisation.
 
 1. Effectuez l’une des opérations suivantes :
 

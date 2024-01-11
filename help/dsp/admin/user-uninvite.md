@@ -3,18 +3,16 @@ title: Annulation de l’invitation d’un utilisateur en attente
 description: Découvrez comment annuler une invitation d’utilisateur en attente.
 role: Admin
 exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
-source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
+source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
 # Annulation de l’invitation d’un utilisateur en attente
 
-*Utilisateurs de l’administrateur uniquement*
-
-Vous pouvez annuler l’invitation d’un utilisateur avec une invitation en attente. La non-invitation d’un utilisateur invalide le jeton dans le lien d’invitation envoyé à l’adresse électronique spécifiée.
+Les utilisateurs administrateurs peuvent annuler l’invitation d’un utilisateur avec une invitation en attente. La non-invitation d’un utilisateur invalide le jeton dans le lien d’invitation envoyé à l’adresse électronique spécifiée.
 
 1. Effectuez l’une des opérations suivantes :
 
