@@ -1,18 +1,18 @@
 ---
 title: Gestion des mots-clés pouvant faire l’objet d’un offre
 description: Découvrez comment créer et gérer des mots-clés pouvant faire l’objet d’offres pour les groupes d’annonces de recherche.
-exl-id: c52364bf-a55a-444e-bde8-88d46c2f4813
+exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
 
 # Gestion des mots-clés pouvant faire l’objet d’un offre
 
-*[!DNL Baidu], [!DNL Google Ads] et [!DNL Microsoft® Advertising], et [!DNL Yahoo! Japan Ads], et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads]et [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], et existants [!DNL Baidu] comptes uniquement*
 
 Vous pouvez créer et modifier des mots-clés pour rechercher des groupes publicitaires dans [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) qui ciblent les réseaux de recherche et d’affichage/natifs dans une [compte réseau publicitaire synchronisé](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 

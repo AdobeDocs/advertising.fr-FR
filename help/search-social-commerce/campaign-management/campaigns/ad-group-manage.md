@@ -1,18 +1,18 @@
 ---
 title: Gestion des groupes d’annonces
 description: Découvrez comment créer et gérer des groupes d’annonces.
-exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # Gestion des groupes d’annonces
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], et existants [!DNL Baidu] comptes uniquement*
 
 Un groupe d’annonces comprend un ensemble de publicités et leurs mots-clés associés. Un groupe publicitaire d’une campagne qui cible le réseau d’affichage peut également inclure des emplacements, qui sont des emplacements sur le réseau d’affichage dans lequel vos publicités peuvent apparaître. Les paramètres du groupe publicitaire, qui s’appliquent à tous les composants du groupe publicitaire, varient selon le réseau publicitaire.
 
@@ -74,9 +74,9 @@ Vous pouvez modifier les paramètres de groupes d’annonces individuels. Vous p
 
 ## Modification de l’état des groupes publicitaires
 
-Vous pouvez suspendre n’importe quel groupe publicitaire de recherche principal pour désactiver l’offre sur celui-ci. Vous pourrez reprendre l’enchère ultérieurement en redéfinissant l’état sur principal.
+Vous pouvez suspendre n’importe quel groupe publicitaire de recherche actif pour désactiver l’offre sur celui-ci. Vous pouvez reprendre l’enchère ultérieurement en redéfinissant l’état sur actif.
 
-Vous pouvez également supprimer tout groupe publicitaire de recherche principal ou en pause. Les groupes d’annonces supprimés sont supprimés du réseau d’annonces. Ils sont toujours visibles, mais on ne peut pas les changer.
+Vous pouvez également supprimer tout groupe publicitaire de recherche actif ou en pause. Les groupes d’annonces supprimés sont supprimés du réseau d’annonces. Ils sont toujours visibles, mais on ne peut pas les changer.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
 

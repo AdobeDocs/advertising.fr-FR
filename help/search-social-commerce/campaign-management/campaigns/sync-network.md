@@ -1,24 +1,24 @@
 ---
 title: Synchronisation manuelle des données du réseau publicitaire
 description: Découvrez comment déclencher manuellement la synchronisation de votre structure de campagne et des entités de campagne pour les réseaux publicitaires pris en charge.
-exl-id: da437f37-800a-4c56-b5c1-7c985ddd45c8
+exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # Synchronisation manuelle des données du réseau publicitaire
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising] (anciennement [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising] (anciennement [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], [!DNL Yandex], et existants [!DNL Baidu] comptes uniquement*
 
-La synchronisation est le processus par lequel Search, Social et Commerce rassemble les informations mises à jour des comptes réseau publicitaires de chaque annonceur sur [réseaux publicitaires pris en charge](/help/search-social-commerce/introduction/supported-inventory.md). Ces données comprennent la structure de campagne et les entités de campagne de l’annonceur, y compris la plupart de leurs attributs qui sont gérés ou signalés dans Search, Social et Commerce. Elle n’inclut pas les données de clic, ni les offres et les modificateurs d’offre entrés en dehors de Search, Social et Commerce, qui sont regroupés séparément.
+La synchronisation est le processus par lequel Search, Social et Commerce rassemble les informations mises à jour pour les comptes réseau d’annonces connectés de chaque annonceur sur [réseaux publicitaires pris en charge](/help/search-social-commerce/introduction/supported-inventory.md). Ces données comprennent la structure de campagne et les entités de campagne de l’annonceur, y compris la plupart de leurs attributs qui sont gérés ou signalés dans Search, Social et Commerce. Elle n’inclut pas les données de clic, ni les offres et les modificateurs d’offre entrés en dehors de Search, Social et Commerce, qui sont regroupés séparément.
 
 Search, Social et Commerce se synchronise automatiquement (se synchronise) avec vos comptes de réseau publicitaire une fois par jour, ainsi que chaque fois qu’il détecte une nouvelle campagne sur l’un de vos réseaux publicitaires. En outre, elle envoie immédiatement toutes les modifications apportées aux données de campagne depuis Search, Social et Commerce vers le réseau publicitaire.
 
-Vous pouvez demander manuellement la synchronisation de toutes les campagnes principales et suspendues dans des comptes spécifiés ou dans des campagnes principales et suspendues spécifiques. Cette tâche rassemble sur le réseau publicitaire les entités nouvelles ou modifiées.
+Vous pouvez demander manuellement la synchronisation de toutes les campagnes actives et en pause dans des comptes spécifiés ou dans des campagnes actives et en pause spécifiques. Cette tâche rassemble sur le réseau publicitaire les entités nouvelles ou modifiées.
 
 Pour les campagnes avec le[!UICONTROL Auto Upload]&quot;, l’opération de synchronisation génère et publie également les codes de suivi manquants ou qui doivent être modifiés dans les modèles de suivi ou les URL de destination. Les URL sont générées en fonction des paramètres définis dans les paramètres de tracking des paramètres du compte ou de la campagne. S’il existe des URL de suivi pour les éléments pertinents, elles ne sont pas regénérées tant que de nouvelles URL ne sont pas nécessaires (par exemple, si le type de correspondance du mot-clé, le texte créatif ou les paramètres de suivi du compte ont changé).
 

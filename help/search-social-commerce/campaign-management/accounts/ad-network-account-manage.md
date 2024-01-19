@@ -1,11 +1,11 @@
 ---
 title: Gestion des comptes de réseau publicitaire
 description: Découvrez comment configurer et gérer les détails du compte pour un compte réseau publicitaire.
-exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
+exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,18 @@ ht-degree: 0%
 
 Vous trouverez ci-dessous des instructions sur la création et la modification des détails d’un compte réseau, en actualisant la variable [!DNL oAuth] pour un compte et en désactivant les comptes.
 
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, voir &quot;[Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+
 ## Création de détails de compte réseau publicitaire {#create-account}
 
 *Rôles utilisateur du gestionnaire de compte de l’agence, du gestionnaire de compte d’Adobe et de l’administrateur uniquement*
 
-Pour activer la synchronisation ou le suivi d’un compte, vous devez créer un enregistrement de compte correspondant contenant les options de suivi et les informations d’identification d’accès au compte, et avec l’état . *principal*. Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, voir &quot;[Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+Pour activer la synchronisation ou le suivi d’un compte, vous devez créer un enregistrement de compte correspondant contenant les options de suivi et les informations d’identification d’accès au compte, et avec l’état . *active*.
 
 >[!NOTE]
 >
->Pour créer un compte réel sur le réseau publicitaire, rendez-vous sur le site web du réseau publicitaire.
+>* La prise en charge n’est pas disponible pour les nouvelles [!DNL Baidu] comptes.
+>* Pour créer un compte réel sur le réseau publicitaire, rendez-vous sur le site web du réseau publicitaire.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Dans le sous-menu, cliquez sur **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -110,7 +113,7 @@ Votre équipe de compte d’Adobe vous informera si de nouvelles fonctionnalité
 
 *Rôles utilisateur du gestionnaire de compte de l’agence, du gestionnaire de compte d’Adobe et de l’administrateur uniquement*
 
-Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commerce synchronise les données de campagne avec le compte (lorsqu’il est pris en charge) et envoie des offres automatisées et/ou des budgets de campagne pour les campagnes dans les portefeuilles. Lorsque vous désactivez un compte de réseau publicitaire, Search, Social et Commerce arrête toutes les activités du compte. Les données collectées pendant que le compte était principal sont toujours stockées, mais les vues et les rapports de gestion de campagne n’incluent pas les données de la période pendant laquelle le compte est désactivé. Vous pouvez par la suite réactiver le compte pour reprendre l’activité avec le compte.
+Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commerce synchronise les données de campagne avec le compte (lorsqu’il est pris en charge) et envoie des offres automatisées et/ou des budgets de campagne pour les campagnes dans les portefeuilles. Lorsque vous désactivez un compte de réseau publicitaire, Search, Social et Commerce arrête toutes les activités du compte. Les données collectées pendant que le compte était actif sont toujours stockées, mais les vues et les rapports de gestion de campagne n’incluent pas les données de la période pendant laquelle le compte est désactivé. Vous pouvez par la suite réactiver le compte pour reprendre l’activité avec le compte.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Dans le sous-menu, cliquez sur **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -156,11 +159,11 @@ Pour [!DNL Microsoft Advertising] comptes, uniquement [!DNL oAuth]-authorized lo
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** (Tous les réseaux publicitaires sauf [!DNL Naver]) Nom ou identifiant de connexion pour activer l’accès de l’API au compte.
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled et tous les autres réseaux, à l’exception de [!DNL Baidu], [!DNL Meta], et [!DNL Yandex]) Jeton du compte pour autoriser les connexions à l’aide de la variable [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled et tous les autres réseaux, à l’exception de [!DNL Meta] et [!DNL Yandex]) Jeton du compte pour autoriser les connexions à l’aide de la variable [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Tous les réseaux publicitaires sauf [!DNL Naver]) Mot de passe du compte. Pour les comptes activés par mot de passe sur [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], et [!DNL Yandex], ce champ est obligatoire. Pour [!DNL oAuth]comptes activés, ce champ est facultatif. Utilisez-le lorsque vous souhaitez chiffrer et enregistrer le mot de passe afin que le gestionnaire de compte puisse actualiser les jetons si nécessaire.
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Tous les réseaux publicitaires sauf [!DNL Naver]) Mot de passe du compte. Pour les comptes activés par mot de passe sur [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], et [!DNL Yandex], ce champ est obligatoire. Pour [!DNL oAuth]comptes activés, ce champ est facultatif. Utilisez-le lorsque vous souhaitez chiffrer et enregistrer le mot de passe afin que le gestionnaire de compte puisse actualiser les jetons si nécessaire.
 
-**[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Baidu] et [!DNL Yandex] Comptes uniquement) La clé d’accès du compte développeur à utiliser.
+**[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Yandex] Comptes uniquement) La clé d’accès du compte développeur à utiliser.
 
 **[!UICONTROL Currency]:** Abréviation de la devise utilisée pour le compte. Ce champ peut être modifié pour la nouvelle [!DNL Naver] comptes. Pour tous les autres réseaux de recherche, la valeur est renseignée automatiquement avec la devise configurée pour le compte sur le réseau publicitaire une fois l’enregistrement enregistré.
 
@@ -180,7 +183,7 @@ Les comptes qui utilisent le suivi des clics par Adobe Advertising doivent inclu
 **État :** État du compte dans Search, Social et Commerce :
 
 * *Activé :* Search, Social et Commerce synchronise les données de campagne avec le compte (lorsqu’elles sont prises en charge) et envoie des offres automatisées et/ou des budgets de campagne pour les campagnes dans les portefeuilles.
-* *Désactivé :* La recherche, Social et Commerce arrêtent toutes les activités du compte. Les données collectées pendant que le compte était principal sont toujours stockées, mais les vues et les rapports de gestion de campagne n’incluent pas les données pour la période pendant laquelle le compte est suspendu. Vous pouvez réactiver ultérieurement le compte pour reprendre l’activité avec le compte.
+* *Désactivé :* La recherche, Social et Commerce arrêtent toutes les activités du compte. Les données collectées pendant que le compte était actif sont toujours stockées, mais les vues et les rapports de gestion de campagne n’incluent pas les données pour la période pendant laquelle le compte est suspendu. Vous pouvez réactiver ultérieurement le compte pour reprendre l’activité avec le compte.
 
 **Modèle de suivi** - ([!DNL Google Ads], [!DNL Microsoft Advertising], et [!DNL Yahoo! Japan Ads] Comptes uniquement ; facultatif) Le modèle de suivi par défaut du compte, qui spécifie tous les paramètres de suivi et redirections de domaine hors entrée et incorpore également l’URL de la page d’entrée/finale dans un paramètre. Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
 

@@ -1,18 +1,18 @@
 ---
 title: Gestion des publicités
 description: Découvrez comment créer et gérer des publicités.
-exl-id: 9108bbfd-61e7-49fa-90ba-4eb276eb0897
+exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
 
 # Gestion des publicités
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], et existants [!DNL Baidu] comptes uniquement*
 
 Vous pouvez créer, modifier et modifier le statut des publicités à partir de la [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Ads] vue.
 
@@ -82,9 +82,9 @@ Vous pouvez créer, modifier et modifier le statut des publicités à partir de 
 
 ## Modifier le statut des publicités
 
-Vous pouvez suspendre une principale publicité pour désactiver l&#39;offre sur celle-ci. Vous pourrez reprendre l’enchère ultérieurement en redéfinissant l’état sur principal.
+Vous pouvez suspendre une publicité active pour désactiver l’offre sur celle-ci. Vous pouvez reprendre l’enchère ultérieurement en redéfinissant l’état sur actif.
 
-Vous pouvez également supprimer toute publicité de recherche principale ou suspendue. Les publicités supprimées sont supprimées du réseau publicitaire. Ils sont toujours visibles, mais vous ne pouvez pas les changer.
+Vous pouvez également supprimer toute publicité de recherche active ou suspendue. Les publicités supprimées sont supprimées du réseau publicitaire. Ils sont toujours visibles, mais vous ne pouvez pas les changer.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]>[!UICONTROL Ads]**.
 

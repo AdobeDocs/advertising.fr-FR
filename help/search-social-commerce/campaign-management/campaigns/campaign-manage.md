@@ -1,18 +1,18 @@
 ---
 title: Gestion des campagnes
 description: Découvrez comment créer et gérer des campagnes publicitaires.
-exl-id: 9406e4bd-d5a2-4744-ab71-fc52428e3af6
+exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 8521d686c9bd499dbe89b5acf27595c381041b44
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
 # Gestion des campagnes
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], et existants [!DNL Baidu] comptes uniquement*
 
 Une campagne est le composant principal d’un compte de réseau publicitaire. Pour la plupart des types de campagne, il se compose d’un ensemble de groupes publicitaires ou de jeux de publicités. Les paramètres de campagne incluent les paramètres de budget de campagne, les cibles de publicité et les paramètres de suivi facultatifs pour toutes les publicités de la campagne. Les paramètres de suivi au niveau de la campagne remplacent les paramètres au niveau du compte, mais peuvent eux-mêmes être remplacés à un niveau inférieur.
 

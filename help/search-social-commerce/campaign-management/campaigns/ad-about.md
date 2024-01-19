@@ -1,18 +1,18 @@
 ---
 title: Gestion des publicités
 description: Découvrez les publicités dans Search, Social et Commerce, y compris les types d’annonces disponibles.
-exl-id: 92ae631a-c35a-40ec-9d40-ebce13e3311b
+exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
 
 # A propos des publicités
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], et existants [!DNL Baidu] comptes uniquement*
 
 Une publicité peut être affichée sur un site web cible (pour des campagnes de contenu ou ciblées par des emplacements), lorsqu’un utilisateur recherche l’un des mots-clés du groupe publicitaire (pour des campagnes de recherche) ou du contenu de votre site web (annonces de recherche dynamique dans [!DNL Google Ads] (campagnes de recherche uniquement) ; ou lorsqu’un utilisateur effectue une recherche pertinente pour l’un des éléments de votre [!DNL Google Merchant Center] ou [!DNL Microsoft® Merchant Center] flux de produits (publicités commerciales dans [!DNL Google Ads] ou publicités de produits dans [!DNL Microsoft® Advertising] campagnes).
 

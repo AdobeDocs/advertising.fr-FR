@@ -1,11 +1,11 @@
 ---
 title: A propos des comptes de réseau publicitaire
 description: Découvrez les comptes de réseau publicitaire dans Search, Social et Commerce.
-exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
+exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Search, Social et Commerce peuvent effectuer le suivi de n’importe quel compte
 
 ## Comptes synchronisés via les API
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising] (anciennement [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], et [!DNL Yandex] comptes*
+*[!DNL Google Ads], [!DNL Microsoft Advertising] (anciennement [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex], et existants [!DNL Baidu] comptes*
 
 Synchronisations de Search, Social et Commerce (*syncs*) avec les comptes réseau d’annonces pris en charge afin que vous puissiez suivre, créer des rapports et visualiser les performances de vos annonces. Pour tous les réseaux publicitaires, à l’exception de [!DNL Yahoo! Display Network], vous pouvez éventuellement gérer les campagnes de votre compte dans Search, Social et Commerce. [!DNL Yahoo! Display Network], les campagnes sont en lecture seule. Pour tous les réseaux publicitaires, vous pouvez permettre à la fonctionnalité d’optimisation d’optimiser les offres sur les publicités dans les comptes gérés en les ajoutant aux portefeuilles.
 
-Pour permettre la synchronisation d’un compte, l’enregistrement du compte doit contenir les informations d’identification d’accès au compte et être activé (principal).
+Pour permettre la synchronisation d’un compte, l’enregistrement du compte doit contenir les informations d’identification d’accès au compte et être activé (actif).
 
 Lors de la synchronisation, Search, Social et Commerce extrait les structures de campagne de l’annonceur et les entités de campagne prises en charge, y compris la plupart de leurs attributs gérés ou signalés dans Search, Social et Commerce. Elle n’inclut pas les données de clic, ni les offres et les modificateurs d’offre entrés en dehors de Search, Social et Commerce, qui sont regroupés séparément. Search, Social et Commerce se synchronise automatiquement avec vos comptes de réseau publicitaire une fois par jour, ainsi que chaque fois qu’il détecte une nouvelle campagne sur l’un de vos réseaux publicitaires. En outre, elle envoie immédiatement toutes les modifications apportées aux données de campagne depuis Search, Social et Commerce vers le réseau publicitaire. Vous pouvez éventuellement demander une synchronisation manuelle si nécessaire.
 

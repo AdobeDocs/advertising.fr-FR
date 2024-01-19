@@ -1,18 +1,18 @@
 ---
 title: Créer des mots-clés négatifs
 description: Découvrez comment créer des mots-clés négatifs pour les campagnes de recherche et les groupes publicitaires.
-exl-id: 683e5395-cb65-4d7f-a981-7fc9f84d4192
+exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
 
 # Créer des mots-clés négatifs
 
-*[!DNL Baidu], [!DNL Google Ads] et [!DNL Microsoft® Advertising], et [!DNL Yahoo! Japan Ads] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], et existants [!DNL Baidu] comptes uniquement*
 
 Vous pouvez créer des mots-clés négatifs pour un groupe publicitaire de recherche ou une campagne qui cible la recherche ou le réseau d’affichage/natif. Les mots-clés négatifs ne déclenchent pas de publicités.
 

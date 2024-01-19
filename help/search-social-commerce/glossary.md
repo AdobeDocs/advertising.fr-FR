@@ -1,11 +1,11 @@
 ---
 title: Glossaire
 description: Voir les définitions des termes clés.
-exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
+exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 11aaafc7f6b888a2cf341cbd7416c609450324fb
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## C-D {#c-d}
 
-**campaign :** Ensemble de groupes d’annonces d’un seul compte publicitaire qui partagent un budget, une période, un ciblage et d’autres paramètres. **Remarque :** [!DNL Baidu] ne possède pas le concept de campagnes, mais Search, Social et Commerce crée des pseudo-campagnes pour chaque ensemble de groupes d’annonces associés dans [!DNL Baidu] qui sont synchronisés dans Search, Social et Commerce.
+**campaign :** Ensemble de groupes d’annonces d’un seul compte publicitaire qui partagent un budget, une période, un ciblage et d’autres paramètres. **Remarque :** [!DNL Baidu] ne possède pas le concept de campagnes, mais Search, Social et Commerce crée des pseudo-campagnes pour chaque ensemble de groupes d’annonces associés dans les groupes existants. [!DNL Baidu] comptes synchronisés dans Search, Social et Commerce.
 
 **champ sensible à la casse :** Une requête ou un champ sensible à la casse traite les majuscules (C, par exemple) différemment des minuscules (c, par exemple). Par exemple, Car est traité comme une valeur différente de Car.
 
