@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Microsoft® Advertising] campagnes.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 22fd10dec43c43c6f03860e6e4839a8bb8d56017
+source-git-commit: 0b68db50d7f4c40eb2742c3906b79c5347c05f66
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Maximize Conversion Value]:* (Recherche et achats/réseaux d’achats intelligents, campagnes de performances max.) Le réseau publicitaire, et non Search, Social et Commerce, optimise les offres pour maximiser la valeur de conversion. Si vous le souhaitez, vous pouvez saisir un **[!UICONTROL Target Return on Ad Spend]** (RSDP) en pourcentage. **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides, mais pas dans des portfolios standard.
 
-* *[!UICONTROL Maximize Conversions]:* (Campagnes sur le réseau de recherche) <!-- future: and audience network -->, campagnes de performances max.) Le réseau publicitaire (et non Search, Social et Commerce) optimise les offres pour maximiser les conversions. Si vous le souhaitez, vous pouvez saisir un **[!UICONTROL Target CPC]** (coût par clic)<!-- future: ; for audience campaigns, you can also enter an optional [!UICONTROL Target CPA] (cost per acquisition) -->. **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides, mais pas dans des portfolios standard.
+* *[!UICONTROL Maximize Conversions]:* (Campagnes et campagnes de performances maximales sur le réseau de recherche ou d’audience (mais pas les vidéos d’audience ni la télévision connectée) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres pour maximiser les conversions. Si vous le souhaitez, vous pouvez saisir un **[!UICONTROL Target CPC]** (coût par clic). Pour les campagnes d’audience, vous pouvez également saisir une **[!UICONTROL Target CPA]** (coût par acquisition). **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides, mais pas dans des portfolios standard.
 
 * *[!UICONTROL Target CPA]:* (Campagnes sur le réseau de recherche) Le réseau publicitaire (et non Search, Social et Commerce) optimise les offres sur la base d’une option. **[!UICONTROL Target CPA]** (coût par acquisition), qui est le montant moyen de 30 jours que vous souhaitez payer pour une acquisition (conversion). **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides (mais pas dans des portfolios standard) avec une stratégie de dépenses, à l’exception de [!UICONTROL Weekly] ou [!UICONTROL Google Target CPA].
 
