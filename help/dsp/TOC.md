@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: eb4db7c91d98cd14e9006f0647f964cdf054962f
+source-git-commit: 4e620124d066e048ffffd8025cb98058f46ff42a
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '945'
 ht-degree: 3%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 3%
       + [Modifier un emplacement](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Modifier rapidement les paramètres de positionnement des clés](/help/dsp/campaign-management/placements/placement-quick-edit.md)
       + [Dupliquer un emplacement](/help/dsp/campaign-management/placements/placement-duplicate.md)
-      + [Joindre une publicité à un emplacement](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [Joindre des publicités à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
       + [Modification des planifications de publicité pour les emplacements](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [Affichage d’un rapport détaillé pour un emplacement](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [Affichage du journal des modifications d’un emplacement](/help/dsp/campaign-management/placements/placement-change-log.md)
@@ -78,7 +78,7 @@ ht-degree: 3%
       + [Créer des publicités avec [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [Modifier une publicité](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplication d’une publicité](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Joindre une publicité à un emplacement](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [Joindre des publicités à des emplacements](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Affichage d’un rapport détaillé pour une publicité](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Mettre une publicité en pause ou l’activer](/help/dsp/campaign-management/ads/ad-pause-activate.md)

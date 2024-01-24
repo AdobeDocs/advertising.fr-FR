@@ -3,9 +3,9 @@ title: Modifier un emplacement
 description: Découvrez comment modifier un emplacement.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: c64d53949b8655f6b7efeaf4d10407a26cf9e9e8
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,6 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
    1. Sélectionnez la variable **[!UICONTROL Edit Mode]**.
 
       Les options varient selon les paramètres, mais peuvent inclure :
-
-      * **Ajouter** (pour joindre des publicités)
 
       * **Ajouter** (pour conserver les valeurs existantes et ajouter de nouvelles valeurs)
 

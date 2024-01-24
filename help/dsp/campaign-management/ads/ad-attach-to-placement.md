@@ -1,132 +1,80 @@
 ---
-title: Joindre une publicité à un emplacement
-description: Découvrez comment joindre une publicité à un emplacement.
+title: Joindre des publicités à des emplacements
+description: Découvrez comment joindre une publicité à des emplacements.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 796af195bf935fa6ad9d83d9aa17931b9a640855
+source-git-commit: 2690117dd4edb66a1bdbdca307bc4f91b0efc059
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
-# Joindre une publicité à un emplacement
+# Joindre des publicités à des emplacements
 
 >[!NOTE]
 >
 >Les publicités vidéo universelles ne peuvent être associées qu’à des emplacements vidéo universels.
 
-## Ajout d’une nouvelle publicité à partir du [!UICONTROL Ads] Affichage
+## Joindre des publicités à des emplacements {#attach-ads-campaign}
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
 1. Cliquez sur le nom de la campagne.
 
-1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
+1. Ouvrez le [!UICONTROL Ad Tools] d’une des manières suivantes :
 
-1. En regard du nom de la publicité, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+   * (Dans la [!UICONTROL Packages] , [!UICONTROL Placements], ou [!UICONTROL Ads] ) Dans le coin supérieur droit, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-1. Dans l’écran Placer la publicité , effectuez l’une des opérations suivantes :
+   * (Dans la [!UICONTROL Placements] (vue) En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
-   * Pour créer un emplacement pour la publicité, procédez comme suit :
+   * (Dans la [!UICONTROL Ads] (vue) En regard du nom de la publicité, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
-      1. Cliquez sur **[!UICONTROL Create New Placement]**.
+1. Dans le [!UICONTROL Edit] pour chaque groupe de publicités à joindre à des emplacements, procédez comme suit :
 
-      1. Saisissez le [paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md), puis cliquez sur **[!UICONTROL Create Placement]**.
+   1. (Facultatif) Recherchez des emplacements et des publicités spécifiques de l’une des façons suivantes :
 
-   * Pour ajouter la publicité à un ou plusieurs emplacements existants :
+      * Au-dessus des tableaux, cliquez sur ![Filtrer](/help/dsp/assets/filter.png) et filtrer les listes par type d’emplacement, statut d’emplacement, type d’annonce ou état de publicité.
 
-      1. Cliquez sur **[!UICONTROL Select a Placement].**
+      * Dans les tableaux de droite et de gauche, recherchez des chaînes de texte spécifiques dans les noms d’emplacement et de publicité.
 
-      1. Effectuez l’une des opérations suivantes :
+   1. Dans le tableau de gauche, cochez la case en regard de chaque emplacement auquel joindre les publicités.
 
-         * Pour ajouter une publicité à la fois :
+   1. Dans le tableau de droite, cochez la case en regard de chaque publicité à joindre aux emplacements sélectionnés.
 
-            1. En regard du nom de la publicité, cliquez sur **[!UICONTROL Select].**
+      Seules les publicités applicables au type d’emplacement et qui ne sont pas déjà jointes aux emplacements sélectionnés peuvent être sélectionnées.
 
-            1. (Facultatif) Pour chaque publicité supplémentaire à joindre, cliquez sur **[!UICONTROL Attach to Other Placement]**. En regard du nom de la publicité, cliquez sur **[!UICONTROL Select].**
+   1. En bas à droite, cliquez sur  **[!UICONTROL Attach]**.
 
-         * Pour joindre la publicité à 20 emplacements à la fois :
+1. (Facultatif) Pour revenir aux vues détaillées de la campagne, cliquez sur ![Revenir au dossier](/help/dsp/assets/breadcrumb-return.png "Revenir au dossier") à gauche de [!UICONTROL Ad Tools] et sélectionnez le nom de la campagne.
 
-            1. Cochez la case en regard de **Sélection en bloc.&quot;
+## Afficher les publicités liées aux emplacements {#view-ads-campaign}
 
-            1. Cochez la case en regard de chaque emplacement auquel joindre la publicité.
-
-            1. Cliquez sur **[!UICONTROL Attach]**.
-
-      1. Dans l’onglet Terminer et réviser , sélectionnez l’une des options suivantes :
-
-         * Pour revenir à la vue Publicités, cliquez sur **[!UICONTROL I'm done for now]**.
-
-         * Pour joindre la publicité à un autre emplacement, cliquez sur **[!UICONTROL Attach To Other Placement]**.
-
-## Ajout d’une publicité nouvelle ou existante à partir du [!UICONTROL Placements] Affichage
+<!-- should be a separate page, combined with "List the Placements Associated with an Ad" (although that pertains to a single ad only), or maybe just rename this topic -->
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
 1. Cliquez sur le nom de la campagne.
 
-1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
+1. Ouvrez le [!UICONTROL Ad Tools] d’une des manières suivantes :
 
-1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+   * (Dans la [!UICONTROL Packages] , [!UICONTROL Placements], ou [!UICONTROL Ads] ) Dans le coin supérieur droit, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-1. Dans le [!UICONTROL Add Ad to Placement] effectuez l’une des opérations suivantes :
+   * (Pour afficher les publicités associées à un emplacement spécifique) Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
-   * Pour créer une publicité, procédez comme suit :
+   * (Pour afficher les emplacements auxquels une publicité est jointe ou peut être jointe) Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**. En regard d’un nom de publicité, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
-      1. Cliquez sur **[!UICONTROL Create a New Ad]**.
+1. Basculez vers le **[!UICONTROL View]** dans le coin supérieur droit.
 
-      1. Saisissez les paramètres de publicité pour [annonces audio](ad-settings-audio.md), [télévision connectée](ad-settings-connected-tv.md), [publicités display](ad-settings-display.md), [annonces mobiles](ad-settings-mobile.md), [annonces natives](ad-settings-native.md), ou [publicités preroll](ad-settings-pre-roll.md).
+1. (Facultatif) Recherchez des emplacements et des publicités spécifiques si nécessaire :
 
-      1. Cliquez sur **[!UICONTROL Save & Submit for Review]**.
+   * Au-dessus du tableau de gauche, filtrez les listes par type d’emplacement, statut d’emplacement, type d’annonce ou état de publicité.
 
-         La variable [révision publicitaire](ad-about.md) pour la nouvelle publicité prend entre 24 et 48 heures et inclut des vérifications pour les catégories sensibles, la fonctionnalité de clic sur l’URL et le rendu d’aperçu. La variable [!UICONTROL Status] indique si DSP a approuvé la publicité. Les publicités rompues peuvent avoir un état en attente de plus de 24 à 48 heures, vous avez donc le temps de corriger les erreurs avant qu’elles ne soient rejetées.
+   * Dans les tableaux de droite et de gauche, recherchez des chaînes de texte spécifiques dans le nom de l’emplacement ou de la publicité.
 
-         >[!NOTE]
-         >
-         >Votre publicité ne sera diffusée que si DSP et le SSP ont tous deux approuvé le contenu créatif. Chaque SSP possède ses propres exigences et processus d’approbation.
+1. Cliquez sur n’importe quelle ligne d’emplacement dans le tableau de gauche pour afficher les publicités jointes dans le tableau de droite.
 
-   * Pour sélectionner des publicités existantes :
-
-      1. Cliquez sur **[!UICONTROL Select an Ad].**
-
-      1. Spécifiez les publicités :
-
-         * Pour ajouter une publicité à la fois :
-
-            1. En regard du nom de la publicité, cliquez sur **[!UICONTROL Select].**
-
-            1. (Facultatif) Pour chaque publicité supplémentaire à joindre, cliquez sur **[!UICONTROL Add Another Ad]**. En regard du nom de la publicité, cliquez sur **[!UICONTROL Select].**
-
-         * Pour ajouter jusqu’à 20 publicités à la fois :
-
-            1. Cochez la case en regard de **[!UICONTROL Bulk Select]**.&quot;
-
-            1. Cochez la case en regard de chaque publicité à ajouter.
-
-            1. Cliquez sur **[!UICONTROL Attach]**.
-
-      1. (Facultatif) Pour remplacer la période de vol par défaut et la rotation des publicités pour des publicités spécifiques à l’emplacement :
-
-         1. Cliquez sur **[!UICONTROL Custom Schedule Ads]**.
-
-         1. Effectuez l’une des opérations suivantes :
-
-            * Pour ajouter un vol, cliquez sur **[!UICONTROL Add Flight]**, puis spécifiez la date de début et la date de fin.
-
-            * Pour ajouter un vol existant à une publicité, cliquez sur **[!UICONTROL +]** dans la ligne publicitaire de la colonne &quot;vol&quot;.
-
-            * Pour supprimer un vol existant d’une publicité, cliquez sur **[!UICONTROL x]** dans la ligne publicitaire de la colonne &quot;vol&quot;.
-
-            * (Lorsque plusieurs publicités ont le même vol) Pour faire pivoter les publicités de manière inégale, cliquez sur **[!UICONTROL Even Rotation]** dans les informations sur le vol, puis saisissez le poids relatif de rotation de chaque publicité, sous forme de pourcentage.
-
-              Le poids total doit être égal à 100.
-
-         1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Continue]**.
-
-         1. Vérifiez les détails du vol, puis cliquez sur **[!UICONTROL Save & Finish]**.
-
-      1. Cliquez sur **[!UICONTROL I'm done for now]**.
+1. (Facultatif) Pour joindre d’autres publicités aux emplacements de la campagne, passez à la variable **[!UICONTROL Edit]** dans le coin supérieur droit. Voir l’étape 4 de la procédure précédente, &quot;[Joindre des publicités à des emplacements](#attach-ads-campaign),&quot; pour obtenir des instructions.
 
 >[!MORELIKETHIS]
 >

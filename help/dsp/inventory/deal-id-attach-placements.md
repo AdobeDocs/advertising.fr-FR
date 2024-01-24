@@ -3,10 +3,10 @@ title: Définition des emplacements et publicités pour une transaction privée
 description: Découvrez comment utiliser une offre privée avec des emplacements et publicités supplémentaires.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: d6d295119bc974a87840e757877c1507237a6fa2
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 1%
+source-wordcount: '281'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ Pour les offres non garanties, vous pouvez spécifier l’opération en tant que
 
 Pour les offres PG garanties par programmation, vous pouvez créer des emplacements avec des publicités spécifiées à partir de la variable [!UICONTROL Deals] vue.
 
-Vous pouvez également [Ajout de nouvelles publicités à des emplacements existants](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) à tout moment associé aux offres PG et non garanties.
+Vous pouvez également [Ajout de publicités à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) à tout moment associé aux offres PG et non garanties.
 
 ## Définition d’une transaction non garantie comme cible d’inventaire pour un emplacement
 
@@ -40,12 +40,11 @@ Vous pouvez également [Ajout de nouvelles publicités à des emplacements exist
 
       1. Saisissez le nom de l’emplacement.
 
-      1. (Facultatif) Modifiez la variable [paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md), y compris le remplacement de l’offre par défaut, qui est automatiquement renseignée avec la valeur CPM de l’opération ; la modification de la période ; ou joindre d’autres publicités.
+      1. (Facultatif) Modifiez la variable [paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md), y compris le remplacement de l’offre par défaut, qui est automatiquement renseignée avec la valeur CPM de l’opération, la modification de la période ou l’ajout d’annonces supplémentaires.
 
       L’opération est automatiquement ciblée dans la section Cibles de l’inventaire . Toutes les autres options de ciblage ne sont pas applicables.
 
       1. Cliquez sur **[!UICONTROL Create placement]**.
-
 
 L’emplacement commencera à s’exécuter une fois que l’éditeur aura activé votre ID d’opération PG.
 
@@ -57,7 +56,6 @@ L’emplacement commencera à s’exécuter une fois que l’éditeur aura activ
 >
 >* [À propos du stock privé](private-inventory-about.md)
 >* [Liste des emplacements et des publicités pour une transaction privée](/help/dsp/inventory/private-deal-view-placements.md)
->* [Créer manuellement les détails de l’identifiant de transaction](deal-id-create.md)
+>* [Création manuelle des détails de l’identifiant de transaction](deal-id-create.md)
 >* [Paramètres d’ID de transaction manuelle](deal-id-settings.md)
 >* [Configuration d’un contrat garanti programmatique](programmatic-guaranteed-set-up.md)
-
