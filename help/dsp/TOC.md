@@ -4,7 +4,7 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: 4e620124d066e048ffffd8025cb98058f46ff42a
+source-git-commit: ec7c6fbced3ba1133da9212bedcb929410f0b6da
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 3%
