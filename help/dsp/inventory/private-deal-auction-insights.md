@@ -3,9 +3,9 @@ title: Afficher les informations sur les enchères pour une transaction privée
 description: Découvrez comment utiliser les insights d’enchères pour analyser la composition de l’opération d’une opération privée.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Auction Insights est un outil de dépannage qui vous permet d’analyser la comp
 
 >[!NOTE]
 >
->Les informations sur les enchères sont également disponibles via l’emplacement. [!UICONTROL Inspector] outil. Pour les ouvrir, [ouvrir l’emplacement ; [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) au [!UICONTROL Inventory tab], puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** dans la ligne d’opération.
+>Les informations sur les enchères sont également disponibles via l’emplacement. [!UICONTROL Inspector] outil. Pour les ouvrir, [ouvrir l’emplacement ; [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) à la fonction [!UICONTROL Inventory tab], puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** dans la ligne d’opération.
 
 ## Attributs d’enchère {#auction-attributes}
 
@@ -50,6 +50,5 @@ Des graphiques de surface sont disponibles pour les attributs d’enchères suiv
 >
 >* [À propos du stock privé](private-inventory-about.md)
 >* [Définition des emplacements et des publicités pour un identifiant de transaction](deal-id-attach-placements.md)
->* [Afficher un rapport détaillé pour une transaction](deal-view-report.md)
->* [À propos des rapports In-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
-
+>* [Affichage d’un rapport détaillé pour une transaction](deal-view-report.md)
+>* [À propos des rapports de performance dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)

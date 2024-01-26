@@ -3,21 +3,21 @@ title: À propos des rapports personnalisés
 description: Découvrez les options de création manuelle de rapports personnalisés ou d’utilisation de modèles de rapports préconfigurés.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 085e2c40ae65a5bb93c3d1a13036342d2670226b
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
 
 # À propos des rapports personnalisés
 
-Les rapports personnalisés vous permettent de personnaliser le contenu et la remise des données de votre rapport à l’aide des dimensions de campagne (comme l’annonceur, l’emplacement, les sites ou les zones géographiques) et des mesures qui vous intéressent le plus. Vous pouvez effectuer l’une des opérations suivantes :
+Les rapports personnalisés vous permettent de personnaliser le contenu et la remise des données de votre rapport à l’aide des dimensions de campagne (comme l’annonceur, l’emplacement, les sites ou les zones géographiques) et des mesures qui vous intéressent le plus. Vous pouvez :
 
 * Configurez complètement les rapports de performances de campagne à un niveau granulaire.
 * Choisissez parmi des modèles de rapport préconfigurés et personnalisez-les éventuellement davantage.
 
-Vous pouvez générer les rapports une seule fois ou programmer leur génération quotidienne, hebdomadaire ou mensuelle à 03h00 dans le fuseau horaire spécifié. Une fois qu’un rapport est généré, il est remis à chaque destinataire d’email spécifié ou lié. [destinations de rapport](/help/dsp/reports/report-destinations/report-destination-about.md) des types suivants :
+Vous pouvez générer les rapports une seule fois ou programmer leur génération quotidienne, hebdomadaire ou mensuelle à 03h00 dans le fuseau horaire spécifié. Une fois un rapport généré, il est remis à chaque destinataire d&#39;email spécifié ou lié. [destinations de rapport](/help/dsp/reports/report-destinations/report-destination-about.md) des types suivants :
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -59,7 +59,7 @@ Vous pouvez générer les rapports une seule fois ou programmer leur génératio
      >* Les données sont disponibles après le 15 novembre 2018.
      >* Pour certains inventaires privés, les éditeurs ne transmettent pas d’identifiant d’appareil, ce qui empêche le suivi des fréquences.
 
-   * **[!UICONTROL Geo]**: Utilisez ce modèle prérenseigné pour afficher les mesures clés par dimensions géographiques.
+   * **[!UICONTROL Geo]**: utilisez ce modèle prérenseigné pour afficher les mesures clés par dimensions géographiques.
 
    * **[!UICONTROL Margin]:** Utilisez ce rapport pour afficher les mesures clés telles que les marges, les bénéfices et d’autres mesures de dépenses par campagne ou emplacement.
 
@@ -80,7 +80,7 @@ Vous pouvez générer les rapports une seule fois ou programmer leur génératio
 
 Toute organisation disposant de plusieurs comptes DSP peut éventuellement activer des données inter-comptes dans des rapports personnalisés, en fonction des besoins de l’organisation. Par exemple, vous pouvez donner au compte A l’accès aux données du compte B et au compte B l’accès aux données du compte C (mais pas au compte A). Pour activer et configurer cette fonctionnalité, contactez votre équipe de compte d’Adobe.
 
-Une fois que la fonction est activée pour votre organisation, vous pouvez [filter](report-settings.md) l’un des types de rapports suivants par compte :  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)], et [!UICONTROL Conversion].
+Une fois la fonction activée pour votre organisation, vous pouvez [filter](report-settings.md) l’un des types de rapports suivants par compte :  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)], et [!UICONTROL Conversion].
 
 Vos paramètres de compte à l’adresse [!UICONTROL Settings] > [!UICONTROL Account] indiquez a) les autres comptes dont les données sont disponibles pour votre compte et b) les autres comptes qui peuvent accéder aux données de votre compte.
 
@@ -89,6 +89,6 @@ Vos paramètres de compte à l’adresse [!UICONTROL Settings] > [!UICONTROL Acc
 >* [Créer un rapport personnalisé](/help/dsp/reports/report-create.md)
 >* [Paramètres des rapports personnalisés](/help/dsp/reports/report-settings.md)
 >* [Questions fréquentes sur les rapports sur les ménages](/help/dsp/reports/faq-household-report.md)
->* [À propos des rapports In-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [À propos des rapports de performance dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonnes de rapport disponibles](/help/dsp/reports/report-columns.md)
 >* [A propos [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

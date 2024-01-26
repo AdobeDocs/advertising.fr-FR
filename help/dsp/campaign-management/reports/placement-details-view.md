@@ -3,9 +3,9 @@ title: Affichage des détails sur les sites, les publicités, la fréquence et l
 description: Découvrez comment afficher les sites, publicités, fréquence et données d’inventaire ciblés pour un emplacement.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ L&#39;emplacement [!UICONTROL Inspector] répertorie tous les sites, publicités
       1. Cliquez sur le nom de la campagne.
 
       1. Cliquez sur le bouton **[!UICONTROL Placements]** .
+
    * Afficher tous les emplacements dans le package parent :
 
       1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
@@ -32,7 +33,6 @@ L&#39;emplacement [!UICONTROL Inspector] répertorie tous les sites, publicités
       1. Cliquez sur le bouton **[!UICONTROL Packages]** .
 
       1. Cliquez sur le nom du package parent.
-
 
 1. Placez le curseur sur la ligne d’emplacement, puis cliquez sur **[!UICONTROL More]**, puis cliquez sur une option :
 
@@ -44,12 +44,9 @@ L&#39;emplacement [!UICONTROL Inspector] répertorie tous les sites, publicités
 
    * Pour afficher toutes les offres ciblées par l’emplacement, cliquez sur **[!UICONTROL Inventory]**.
 
-1. (Facultatif) [Modification du mode Colonnes](column-view-change.md) selon les besoins pour afficher les mesures requises.
+1. (Facultatif) [Modification du mode Colonnes](campaign-data-views-manage.md#column-view-change) selon les besoins pour afficher les mesures requises.
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports In-Platform](campaign-reports-about.md)
->* [À propos des vues de données de campagne](campaign-data-views-about.md)
->* [Modification du mode Colonnes](column-view-change.md)
->* [Gestion des visualisations des données](campaign-data-visualization-manage.md)
-
+>* [À propos des rapports de performance dans les vues Campaign Management](campaign-reports-about.md)
+>* [Gestion des vues de données de campagne](campaign-data-views-manage.md)

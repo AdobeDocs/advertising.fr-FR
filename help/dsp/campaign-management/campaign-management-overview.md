@@ -3,9 +3,9 @@ title: Présentation de Campaign Management dans les DSP publicitaires
 description: Découvrez la hiérarchie et les composants de la gestion de campagne.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,6 @@ DSP campagnes présentent la hiérarchie suivante :
    * Package(s)
       * Emplacement(s)
          * Publicités
-
 <!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
 In Advertising DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
@@ -45,7 +44,7 @@ A [placement](/help/dsp/campaign-management/placements/placement-about.md) stock
 
 Une fois vos publicités configurées, vous devrez joindre chaque publicité à un emplacement. Vous pouvez joindre une seule publicité à un ou plusieurs emplacements.
 
-Toutes les publicités principales et approuvées d’un emplacement principal dans une principale campagne peuvent être exécutées en fonction des paramètres de ciblage de l’emplacement.
+Toutes les publicités actives et approuvées d’un emplacement actif dans une campagne active peuvent être exécutées en fonction des paramètres de ciblage de l’emplacement.
 
 >[!MORELIKETHIS]
 >
@@ -55,7 +54,6 @@ Toutes les publicités principales et approuvées d’un emplacement principal d
 >* [A propos de la gestion des publicités](/help/dsp/campaign-management/ads/ad-about.md)
 >* [Liste de contrôle de Campaign Launch](/help/dsp/campaign-management/campaign-launch-checklist.md)
 >* [Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [À propos des rapports In-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [À propos des vues de données de campagne](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
+>* [À propos des rapports de performance dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Gestion des vues de données de campagne](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
 >* [Vidéo : DSP structure de compte et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
-

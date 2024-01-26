@@ -3,16 +3,16 @@ title: Affichage d’un rapport détaillé pour une campagne
 description: Découvrez comment ouvrir un rapport au niveau de la campagne avec des sections sur la géographie, l’appareil, la visibilité et les données de performances de l’audience.
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
 
 # Affichage d’un rapport détaillé pour une campagne
 
-Le <!--legacy --> le rapport au niveau de la campagne comprend une présentation et des sections sur [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], et [!UICONTROL Audience Performance] data.
+La variable <!--legacy --> le rapport au niveau de la campagne comprend une présentation et des sections sur [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], et [!UICONTROL Audience Performance] data.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Effectuez l’une des opérations suivantes :
@@ -23,8 +23,7 @@ Le <!--legacy --> le rapport au niveau de la campagne comprend une présentation
 >
 >* [Affichage d’un rapport détaillé pour un emplacement](/help/dsp/campaign-management/placements/placement-view-report.md)
 >* [Affichage d’un rapport détaillé pour une publicité](/help/dsp/campaign-management/ads/ad-view-report.md)
->* [À propos des rapports In-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [À propos des rapports de performance dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
 >* [Affichage du journal des modifications d’une campagne](campaign-change-log.md)
 >* [Mettre en pause ou activer une campagne](campaign-pause-activate.md)
-

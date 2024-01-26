@@ -3,10 +3,10 @@ title: Créer un rapport personnalisé
 description: Découvrez comment créer un rapport personnalisé.
 feature: DSP Custom Reports
 exl-id: f895529b-dc69-4c74-bca6-3f7617f41ceb
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 4%
+source-wordcount: '54'
+ht-degree: 0%
 
 ---
 
@@ -24,6 +24,5 @@ ht-degree: 4%
 >* [Modifier un rapport personnalisé](/help/dsp/reports/report-edit.md)
 >* [Suppression d’un rapport personnalisé](/help/dsp/reports/report-delete.md)
 >* [Paramètres des rapports personnalisés](/help/dsp/reports/report-settings.md)
->* [À propos des rapports In-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [À propos des rapports de performance dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonnes de rapport disponibles](/help/dsp/reports/report-columns.md)
-
