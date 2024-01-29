@@ -3,9 +3,9 @@ title: Affichage d’un rapport détaillé pour une publicité
 description: Découvrez comment ouvrir un rapport au niveau de l’annonce avec des données d’aperçu, de géographie et de visibilité.
 feature: DSP Ads, DSP Campaign Data Views
 exl-id: 61e964af-b133-4c86-9672-27167ac6bad1
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -23,5 +23,5 @@ La variable <!--legacy --> le rapport au niveau des publicités inclut [!UICONTR
 >
 >* [Affichage d’un rapport détaillé pour un emplacement](/help/dsp/campaign-management/placements/placement-view-report.md)
 >* [Affichage d’un rapport détaillé pour une campagne](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [À propos des rapports de performance dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Types de rapports de performances dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)

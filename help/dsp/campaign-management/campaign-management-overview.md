@@ -3,9 +3,9 @@ title: Présentation de Campaign Management dans les DSP publicitaires
 description: Découvrez la hiérarchie et les composants de la gestion de campagne.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,6 @@ Toutes les publicités actives et approuvées d’un emplacement actif dans une 
 >* [A propos de la gestion des publicités](/help/dsp/campaign-management/ads/ad-about.md)
 >* [Liste de contrôle de Campaign Launch](/help/dsp/campaign-management/campaign-launch-checklist.md)
 >* [Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [À propos des rapports de performance dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Types de rapports de performances dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Gestion des vues de données de campagne](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
 >* [Vidéo : DSP structure de compte et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

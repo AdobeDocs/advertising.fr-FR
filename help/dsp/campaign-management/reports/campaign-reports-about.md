@@ -1,16 +1,16 @@
 ---
-title: À propos des rapports de performance dans les vues Campaign Management
+title: Types de rapports de performances dans les vues Campaign Management
 description: Découvrez les données du rapport incluses dans les vues de gestion de campagne.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 3f1095fe08e6bc6bf9c942b70295ac06d64ff852
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
 
-# À propos des rapports de performance dans les vues Campaign Management
+# Types de rapports de performances dans les vues Campaign Management
 
 Les vues de gestion de campagne incluent des données de rapport complètes. Les rapports disponibles vous aident à identifier les packages et emplacements performants et ceux qui nécessitent votre attention. Les boutons d’action rapide vous rendent également plus productif.
 
@@ -62,49 +62,26 @@ Dans chaque onglet d’entité, chaque ligne comprend par défaut des mesures de
 An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
 -->
 
-### Placement [!UICONTROL Inspector] {#placement-inspector}
-
-Pour chaque emplacement, vous pouvez : [ouvrir une (vue détaillée) [!UICONTROL Inspector])](placement-details-view.md), qui comprend les données détaillées suivantes :
-
-* **[!UICONTROL Sites]:** Tous les sites sur lesquels l’emplacement a eu des impressions.
-
-  La variable [!UICONTROL Sites] comprend des fonctions de recherche et de filtrage, les mêmes options d’affichage en colonnes standard et personnalisées que celles disponibles sur la page principale, ainsi qu’un [!UICONTROL Exclude] de chaque ligne afin que vous puissiez exclure rapidement un site de l’emplacement.
-
-* **[!UICONTROL Ads]:** Toutes les publicités de l’emplacement.
-
-  La variable [!UICONTROL Ads] comprend les fonctions de recherche et de filtrage, les mêmes options d’affichage en colonnes standard et personnalisées que celles disponibles sur la page principale et des boutons d’action rapide dans chaque ligne, tels que [!UICONTROL Pause] (afin que vous puissiez rapidement suspendre une publicité).
-
-* **[!UICONTROL Frequency]:** Données pour chaque niveau de fréquence publicitaire de l’emplacement, notamment :
-   * le niveau de fréquence des publicités (par exemple &quot;1&quot; pour toutes les instances où les utilisateurs ont vu une publicité une fois) ;
-   * le nombre estimé unique d’appareils/navigateurs ou de personnes (en fonction des [!UICONTROL Cross Device Level] pour la campagne) qui a reçu des impressions au niveau de fréquence spécifié
-   * nombre estimé d’impressions au niveau de fréquence spécifié
-   * la fréquence moyenne estimée pour le niveau de fréquence spécifié. Cette valeur est égale à (Impressions estimées)/(Uniques estimées).
-
-* **[!UICONTROL Inventory]:** Informations sur toutes les offres ciblées par l’emplacement.
-
-  La variable [!UICONTROL Inventory] permet de résoudre rapidement les problèmes en affichant les statistiques de performances, telles que [!UICONTROL Auctions], [!UICONTROL Bids], et [!UICONTROL Win Rate]. L’onglet comprend des fonctions de recherche et de filtrage, les mêmes options d’affichage en colonnes standard et personnalisées que celles disponibles sur la page principale, ainsi que des boutons d’action rapide dans chaque ligne, y compris [!UICONTROL Edit], [!UICONTROL View Report], et [[!UICONTROL Auction Insights] pour résoudre d’autres problèmes](/help/dsp/inventory/private-deal-auction-insights.md).
-
-#### Dépannage de l’inventaire
-
-| Problème | Cause possible | Actions à entreprendre |
-| -----------| ---------- | ---------- |
-| [!UICONTROL Zero Auctions] | L’éditeur n’a pas commencé à envoyer de requêtes d’offre. | Contactez l’éditeur pour activer l’opération. |
-| | L’opération a été mal configurée, par exemple en saisissant un identifiant d’opération externe incorrect. | Confirmez les détails de l’opération et modifiez-la. |
-| [!UICONTROL Auctions but no Bids] | Le ciblage de l’emplacement ne correspond pas aux requêtes d’offre entrantes pour l’opération. <br><br> Par exemple, un emplacement peut cibler une zone géographique qui n’est pas éligible à l’opération. | Modifiez les cibles d’emplacement selon les besoins afin d’éviter les non-correspondances de ciblage. |
-| | L’emplacement ne comporte pas de publicité active avec le type de média requis pour l’opération. | Créez et joignez une publicité avec le type de média approprié à l’emplacement. |
-| | Le placement n&#39;a pas le budget adéquat. | Augmentez le budget d’emplacement afin d’autoriser l’enchère sur les requêtes entrantes. |
-| | Les dates de vol de placement ne chevauchent pas les dates de remise de l’impression pour l’opération. | Modifiez les dates de vol de l’emplacement selon les besoins. |
-| [!UICONTROL Low Win Rate] | L’offre maximale de l’emplacement (plancher ou fixe) est inférieure au minimum requis par l’offre. | Augmenter le [!UICONTROL Max Bid] selon les besoins. |
-| | L’emplacement utilise des filtres avant offre qui limitent l’offre. | Réduisez les seuils des filtres pré-enchère pour autoriser plus d’offres. |
-| | Le ciblage de l’audience pour l’emplacement est trop restrictif. | Vérifiez si les cibles d’audience spécifiées disposent de suffisamment d’utilisateurs actifs et développez l’audience si possible. |
-
-![Inspecteur de placement](/help/dsp/assets/placement-inspector.png)
-
-Vous pouvez exporter les données du [!UICONTROL Sites], [!UICONTROL Ads], ou [!UICONTROL Frequency] dans le dossier de téléchargement par défaut de votre navigateur sous la forme d’un rapport au format XLSM.
-
 ### Autres types de rapports au niveau des campagnes
 
-Pour d’autres ventilations de données, voir [les pages de rapports au niveau de la campagne ;](/help/dsp/campaign-management/campaigns/campaign-view-report.md). La variable <!--legacy --> le rapport comprend des sections sur [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], et [!UICONTROL Audience Performance] data.
+Pour d’autres ventilations de données, voir [les pages de rapports au niveau de la campagne ;](/help/dsp/campaign-management/campaigns/campaign-view-report.md). Le rapport comprend des sections sur [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], et [!UICONTROL Audience Performance] data.
+
+### Autres types de rapports au niveau de l’emplacement
+
+Pour d’autres ventilations de données, voir [les pages de rapports au niveau de l’emplacement ;](/help/dsp/campaign-management/placements/placement-view-report.md). Le rapport comprend des sections sur [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications], et [!UICONTROL Ads] data.
+
+En outre, vous pouvez afficher les données suivantes dans les paramètres d’emplacement :
+
+* [A (vue détaillée [!UICONTROL Inspector])](placement-details-view.md), qui affiche tous les sites, publicités, données de fréquence et offres ciblés pour un emplacement.
+
+* A [rapport des prévisions de placement](/help/dsp/campaign-management/reports/placement-forecast.md)
+
+* [Rapports de diagnostic de placement](/help/dsp/campaign-management/reports/placement-diagnostics.md).
+
+
+### Autres types de rapports au niveau des annonces
+
+Pour d’autres ventilations de données, voir [les pages de création de rapports au niveau des annonces ;](/help/dsp/campaign-management/ads/ad-view-report.md). Le rapport comprend : [!UICONTROL Overview], [!UICONTROL Geography], et [!UICONTROL Viewability] data.
 
 >[!MORELIKETHIS]
 >

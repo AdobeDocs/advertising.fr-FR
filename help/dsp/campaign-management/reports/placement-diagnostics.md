@@ -3,9 +3,9 @@ title: Affichage des rapports de diagnostic d’emplacement
 description: Découvrez comment diagnostiquer les problèmes de configuration et de fréquence d’emplacement.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ Les outils suivants peuvent vous aider à diagnostiquer les problèmes de config
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports de performance dans les vues Campaign Management](campaign-reports-about.md)
+>* [Types de rapports de performances dans les vues Campaign Management](campaign-reports-about.md)
 >* [Afficher le rapport Prévision de positionnement](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -3,9 +3,9 @@ title: Exportation de données à partir d’une vue Campaign Management
 description: Découvrez comment exporter les données d'une vue de gestion de campagne de n'importe quel type vers un fichier de feuille de calcul.
 feature: DSP Campaign Data Views
 exl-id: 181b2648-5c8c-47e5-b4bc-5733dd7f47b7
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -30,5 +30,5 @@ Vous pouvez exporter un instantané de la vue actuelle de gestion de campagne fi
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports de performance dans les vues Campaign Management](campaign-reports-about.md)
+>* [Types de rapports de performances dans les vues Campaign Management](campaign-reports-about.md)
 >* [Gestion des vues de données de campagne](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

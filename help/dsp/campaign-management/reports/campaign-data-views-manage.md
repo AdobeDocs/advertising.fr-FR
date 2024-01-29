@@ -2,9 +2,9 @@
 title: Gestion des vues de données de campagne
 description: Découvrez comment personnaliser vos vues de données pour les campagnes, les packages, les emplacements et les publicités.
 feature: DSP Campaign Data Views
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ En bas à droite d’une page, en regard de **[!UICONTROL Items per page]** , s�
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports de performance dans les vues Campaign Management](campaign-reports-about.md)
+>* [Types de rapports de performances dans les vues Campaign Management](campaign-reports-about.md)
 >* [Affichage des sites, publicités et détails de fréquence d’un emplacement](placement-details-view.md)
 >* [Afficher le rapport Prévision de positionnement](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Affichage des rapports de diagnostic d’emplacement](placement-diagnostics.md)
