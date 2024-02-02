@@ -1,11 +1,11 @@
 ---
 title: Mettez à jour le code de suivi AMO ID (s_kwcid) pour une [!DNL Google Ads] account
 description: Découvrez comment passer au code de suivi AMO ID le plus récent pour une [!DNL Google Ads] compte .
-exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
+exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 515c049a45d795fd973b5fcead5f96e71dbf844a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 *[!DNL Google Ads]comptes uniquement*
 
-Le format hérité du [Code de suivi AMO ID](/help/integrations/analytics/ids.md#amo-id-formats) pour existant [!DNL Google Ads] Les comptes ne prennent pas en charge certaines fonctionnalités d’Analytics, telles que la création de rapports aux niveaux de la campagne et du groupe publicitaire pour [!DNL Google Ads] campagnes de performances max, campagnes de brouillons et d’expériences, ainsi que d’autres cas d’utilisation dans lesquels la même combinaison ad+keyword+match type existe dans plusieurs campagnes.
+Format hérité (avant octobre 2019) pour la variable [Code de suivi AMO ID](/help/integrations/analytics/ids.md#amo-id-formats) pour existant [!DNL Google Ads] Les comptes ne prennent pas en charge certaines fonctionnalités d’Analytics, telles que la création de rapports aux niveaux de la campagne et du groupe publicitaire pour [!DNL Google Ads] campagnes de performances max, campagnes de brouillons et d’expériences, ainsi que d’autres cas d’utilisation dans lesquels la même combinaison ad+keyword+match type existe dans plusieurs campagnes.
 
-Le format le plus récent comprend des paramètres pour l’identifiant de campagne et l’identifiant du groupe publicitaire :
+Le format actuel comprend des paramètres pour l’identifiant de campagne et l’identifiant du groupe publicitaire :
 
 ```
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-Vous pouvez modifier, individuellement, le nouveau format pour n’importe quel ou tous vos comptes existants. Si vous ne disposez pas de campagnes ou de brouillons et de campagnes d’expérience de performances maximales, la migration vers le nouveau format est facultative.
+Vous pouvez modifier le format actuel de n’importe quel ou de tous vos comptes existants, individuellement. Si vous ne disposez pas de campagnes ou de brouillons et de campagnes d’expérience de performances maximales, la migration vers le nouveau format est facultative.
 
-Toutes nouvelles [!DNL Google Ads] Les comptes utilisent automatiquement le nouveau format AMO ID.
+Toutes nouvelles [!DNL Google Ads] Les comptes utilisent automatiquement le format AMO ID actuel.
 
 >[!NOTE]
 >

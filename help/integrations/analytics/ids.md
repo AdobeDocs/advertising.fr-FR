@@ -3,9 +3,9 @@ title: ID d’Adobe Advertising utilisés par [!DNL Analytics]
 description: ID d’Adobe Advertising utilisés par [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 3e6c90c1fc36ffc8fd404b5fe589f1f79f69a096
+source-git-commit: 0d48ceda77783cd8b5fd9e609da424dcfa94f278
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ L’AMO ID est également appelé `s_kwcid`, qui est parfois prononcé en tant q
 
 Le paramètre est ajouté à vos URL de suivi de l’une des manières suivantes :
 
-* (Recommandé) La fonction d’insertion côté serveur est mise en oeuvre.
+* (Recommandé) Lorsque la fonction d’insertion côté serveur est mise en oeuvre.
 
    * DSP clients : le serveur de pixels ajoute automatiquement le paramètre s_kwcid aux suffixes de votre page d’entrée lorsqu’un utilisateur final affiche une publicité avec le pixel Adobe Advertising.
 
@@ -120,7 +120,7 @@ Le paramètre est ajouté à vos URL de suivi de l’une des manières suivantes
 
       * Pour d’autres réseaux publicitaires, ou [!DNL Google Ads] et [!DNL Microsoft® Advertising] compte avec la variable [!UICONTROL Auto Upload] désactivé, ajoutez manuellement le paramètre à votre [paramètres d’ajout au niveau du compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, qui l’ajoute à vos URL de base.
 
-* La fonction d’insertion côté serveur n’est pas mise en oeuvre :
+* Lorsque la fonction d’insertion côté serveur n’est pas mise en oeuvre :
 
    * DSP clients : le [Code JavaScript](javascript.md) enregistre automatiquement les clics publicitaires et les affichages publicitaires. Lorsqu’un navigateur ne prend pas en charge les cookies tiers, vous pouvez toujours effectuer le suivi des conversions par clic pour les types d’annonces suivants :
 
@@ -152,7 +152,7 @@ où :
 
 Exemple d’AMO ID : AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-#### Formats AMO ID pour les annonces Search, Social &amp; Commerce
+#### Formats AMO ID pour les annonces Search, Social &amp; Commerce {#amo-id-format-search}
 
 Les paramètres varient selon le réseau publicitaire, mais les paramètres suivants sont communs à tous :
 
