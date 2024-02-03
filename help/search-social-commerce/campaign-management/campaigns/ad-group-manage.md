@@ -3,9 +3,9 @@ title: Gestion des groupes d’annonces
 description: Découvrez comment créer et gérer des groupes d’annonces.
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 06febcd91ff8576c8bf93c8e74475b297e0415bf
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Vous pouvez créer des groupes d’annonces dans Search, Social &amp; Commerce p
 
 1. Saisissez le [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Publicités Google](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Publicité Microsoft](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo ! Publicités au Japon](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), ou [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) paramètres du groupe publicitaire.
 
-   Selon le réseau publicitaire, les paramètres peuvent être regroupés dans [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], et [!UICONTROL URL Options]. Pour configurer les paramètres de [!UICONTROL Negative Keywords] ou [!UICONTROL Negative Websites], lorsqu’elles sont disponibles, cliquez sur **[!UICONTROL Add Negative Keywords]** ou **[!UICONTROL Add Negative Websites]**, respectivement.
+   Selon le réseau publicitaire, les paramètres peuvent être regroupés dans [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], et [!UICONTROL URL Options]. Pour configurer les paramètres de [!UICONTROL Adgroup Frequency Cap Settings], [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], lorsqu’elles sont disponibles, cliquez sur **[!UICONTROL Add Frequency Cap Settings]**, **[!UICONTROL Add Negative Keywords]**, ou **[!UICONTROL Add Negative Websites]**, respectivement.
 
 1. Cliquez sur **[!UICONTROL Post]**.
 

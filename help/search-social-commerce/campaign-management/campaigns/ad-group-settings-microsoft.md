@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Microsoft Advertising] paramètres du groupe publicitaire'
 description: Référencez les paramètres pour [!DNL Microsoft Advertising] groupes publicitaires.
-exl-id: 5dfa766d-2a42-455d-a340-e72e11a38032
+exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: a31179383fa9c1c9f6eb697d0aa3dd3301d41823
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Name]:** Nom unique du groupe d’annonces dans la campagne. La longueur maximale est de 128 caractères.
 
-**[!UICONTROL Status]:** État d’affichage du groupe publicitaire : *Principal* ou *En pause*. La valeur par défaut pour les nouveaux groupes publicitaires est *Principal*.
+**[!UICONTROL Status]:** État d’affichage du groupe publicitaire : *Actif* ou *En pause*. La valeur par défaut pour les nouveaux groupes publicitaires est *Actif*.
 
-**[!UICONTROL Ad Language]:** Langue cible des publicités.<!-- Which campaign types? Not there for audience image-based ad groups. -->
+**[!UICONTROL Ad Language]:** (Campagnes de recherche) Langue cible des publicités.
 
 <!-- **[!UICONTROL Start Date]:** -->
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Networks]
 
-**[!UICONTROL Networks]:** Comment et où placer des publicités dans le groupe publicitaire :
+**[!UICONTROL Networks]:** (Rechercher des publicités) Comment et où placer des publicités dans le groupe publicitaire :
 
 * *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* (valeur par défaut) : pour enchérir sur le réseau de recherche.
 
@@ -105,6 +105,8 @@ Pour [!DNL Microsoft Advertising] groupes publicitaires du réseau d’audience,
 <!-- **[!UICONTROL Custom Parameters]:** -->
 
 {{$include /help/_includes/custom-parameters.md}}
+
+**[!UICONTROL Adgroup Frequency Cap Settings]:** (Facultatif) Le nombre de fois où des publicités d’un client seront diffusées à partir du groupe publicitaire. Saisissez une valeur et sélectionnez l’unité de temps (*[!UICONTROL Hour]*, *[!UICONTROL Day]*, ou *[!UICONTROL Week]*).
 
 ## [!UICONTROL Negative Keywords]
 

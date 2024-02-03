@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Microsoft® Advertising] campagnes.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 0b68db50d7f4c40eb2742c3906b79c5347c05f66
+source-git-commit: 6b5c37b02191cf7097eb547f9ad58f347824579c
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 0%
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 * *[!UICONTROL Microsoft® Store Ads Campaign]:* (Fonction bêta) Promotion de vos applications et jeux disponibles dans la variable [!DNL Microsoft® Store]. Vous pouvez créer des groupes d’annonces enfants, des groupes de produits et des publicités de produits facultatives pour la campagne ; [!DNL Microsoft® Advertising] crée automatiquement des publicités pour les groupes de produits.
 
-* *[!UICONTROL Audience Video]:* (Fonction bêta) Affiche des publicités vidéo standard sur le réseau d’audience.
+* *[!UICONTROL Audience CTV Video]:* (Fonction bêta) Affiche les publicités vidéo de la télévision connectée (CTV) sur le réseau d’audience.
 
-* *[!UICONTROL Audience Video]:* (Fonction bêta) Affiche les publicités vidéo de la télévision connectée (CTV) sur le réseau d’audience.
+* *[!UICONTROL Audience Video]:* (Fonction bêta) Affiche des publicités vidéo standard sur le réseau d’audience.
 
 * *[!UICONTROL Performance Max]:* (Fonction bêta) Affiche plusieurs types d’annonces sur tous les réseaux. Attribuer des groupes de ressources séparément dans le [!DNL Microsoft® Advertising] éditeur de publicités.
 
