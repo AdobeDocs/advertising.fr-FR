@@ -3,9 +3,9 @@ title: Joindre des publicités à des emplacements
 description: Découvrez comment joindre une publicité à des emplacements.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 550ccbaf6844b9e9bb10ba5fef7a3cc4e5f2ad9b
+source-git-commit: 972284a41dda4a7d7948f1763ba3674413a22954
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. (Facultatif) Recherchez des emplacements et des publicités spécifiques de l’une des façons suivantes :
 
-      * Au-dessus des tableaux, cliquez sur ![Filtrer](/help/dsp/assets/filter.png) et filtrer les listes par package, type d’emplacement, état d’emplacement, type d’annonce ou état de publicité.
+      * Au-dessus du tableau de gauche, cliquez sur ![Filtrer](/help/dsp/assets/filter.png) et filtrer les listes par package, type d’emplacement, état d’emplacement, type d’annonce ou état de publicité.
 
       * Dans les tableaux de droite et de gauche, recherchez des chaînes de texte spécifiques dans les noms d’emplacement et de publicité.
 
