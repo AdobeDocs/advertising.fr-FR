@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 523bc488bf586901eb7302d9c03dda3cd1f98f2b
+source-git-commit: b0a8cf0784340ebe0fc495ef300aa40036455823
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
+| 7 février 2024 | [!UICONTROL Placements] et [!UICONTROL Ads] | La variable [!UICONTROL Ads Tool] dispose désormais d’un filtre de package. | Voir &quot;[Joindre des publicités à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 | 24 janvier 2024 | [!UICONTROL Placements] et [!UICONTROL Ads] | Le workflow d’association de publicités à des emplacements a été repensé. | Voir &quot;[Joindre des publicités à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 | 10 janvier 2024 | [!UICONTROL Placements] | Vous pouvez désormais personnaliser rapidement la planification des publicités pour plusieurs emplacements à l’aide d’une feuille de calcul :<ul><li>Vous pouvez télécharger un modèle de planification des publicités pour les emplacements. Vous pouvez modifier les dates de vol et la rotation des publicités dans le fichier téléchargé, si nécessaire.</li><li>Vous pouvez ensuite charger le modèle de planification des publicités modifié.</li></ul> | Voir &quot;[Modification des planifications de publicité pour les emplacements](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md).&quot; |
 | 21 décembre 2023 | [!UICONTROL Audiences] | La documentation est désormais disponible pour le partage de données propriétaires à partir du [!DNL Tealium] plateforme de données client avec DSP [!DNL Amazon Web Services]. Vous pouvez cibler vos emplacements DSP sur les segments à l’aide de [!DNL RampIDs]. Dans les paramètres de placement de [!UICONTROL Audience Targeting], les segments partagés sont disponibles dans la variable [!UICONTROL First Party Segments] liste. | Voir &quot;[À propos de l’activation de segments authentifiés à partir des sources d’audience](/help/dsp/audiences/sources/source-about.md)&quot; et &quot;[Processus d’utilisation de l’intégration DSP avec [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot; |
