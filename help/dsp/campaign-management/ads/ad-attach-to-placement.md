@@ -3,9 +3,9 @@ title: Joindre des publicités à des emplacements
 description: Découvrez comment joindre une publicité à des emplacements.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 55a9dd36d64fa42b7ff21714bae6e5afd04d1389
+source-git-commit: 550ccbaf6844b9e9bb10ba5fef7a3cc4e5f2ad9b
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. (Facultatif) Recherchez des emplacements et des publicités spécifiques de l’une des façons suivantes :
 
-      * Au-dessus des tableaux, cliquez sur ![Filtrer](/help/dsp/assets/filter.png) et filtrer les listes par type d’emplacement, statut d’emplacement, type d’annonce ou état de publicité.
+      * Au-dessus des tableaux, cliquez sur ![Filtrer](/help/dsp/assets/filter.png) et filtrer les listes par package, type d’emplacement, état d’emplacement, type d’annonce ou état de publicité.
 
       * Dans les tableaux de droite et de gauche, recherchez des chaînes de texte spécifiques dans les noms d’emplacement et de publicité.
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. (Facultatif) Recherchez des emplacements et des publicités spécifiques si nécessaire :
 
-   * Au-dessus du tableau de gauche, filtrez les listes par package, type d’emplacement, état d’emplacement, type d’annonce ou état de publicité.
+   * Au-dessus du tableau de gauche, cliquez sur ![Filtrer](/help/dsp/assets/filter.png) et filtrer les listes par package, type d’emplacement, état d’emplacement, type d’annonce ou état de publicité.
 
    * Dans les tableaux de droite et de gauche, recherchez des chaînes de texte spécifiques dans le nom de l’emplacement ou de la publicité.
 
