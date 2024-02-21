@@ -1,11 +1,11 @@
 ---
 title: Gestion des comptes de commerce
 description: Découvrez comment configurer et gérer les détails d’un compte de centre commercial.
-exl-id: eca58f55-f056-46b3-b192-2849690e8bcc
+exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 35a27d075d5de7c3526cd6522376671954b608db
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,14 @@ Pour afficher les données de produit et générer des modèles de suivi pour un
 1. Spécifiez la variable [paramètres du compte commercial](#merchant-account-settings):
 
    1. Dans le [!UICONTROL Product Source] sélectionnez le centre commercial.
+
+   <!--
+
+   1. ([!DNL Meta Ads] accounts only) Log in to the [!DNL Meta Ads] account.
+
+   And are there additional steps just for Meta? If so, create a separate procedure for it.
+   
+   -->
 
    1. (Obligatoire pour [!DNL Google Ads] comptes ; facultatif pour [!DNL Microsoft Advertising] ) Autoriser Search, Social et Commerce à accéder au compte à l’aide de la variable [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/):
 
