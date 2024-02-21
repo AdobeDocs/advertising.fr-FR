@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1e5dee912a4c3cdbab5c389725b9d48a354d0b7d
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '931'
 ht-degree: 3%
 
 ---
@@ -98,6 +98,7 @@ ht-degree: 3%
       + [Affichage des détails sur les sites, les publicités, la fréquence et le stock pour un emplacement](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [Afficher le rapport Prévision de positionnement](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [Affichage des rapports de diagnostic d’emplacement](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+      + [Affichage des alertes](/help/dsp/campaign-management/reports/campaign-alerts.md)
       + [Gestion des vues de données de campagne](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
    + Corriger les paramètres de positionnement à l’aide de feuilles de calcul {#qa-spreadsheet}
       + [À propos de la correction des paramètres de positionnement à l’aide de feuilles de calcul](/help/dsp/campaign-management/qa/qa-about.md)

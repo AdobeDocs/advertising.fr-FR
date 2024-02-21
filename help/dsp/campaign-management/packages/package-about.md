@@ -3,9 +3,9 @@ title: À propos de la gestion de modules dans Advertising DSP
 description: Découvrez la gestion des packages.
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 2b0513691e5db2db28222d4cf7edf8bca2f014ca
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Utilisez les packages pour regrouper des emplacements à diffuser selon un budge
 
 Vous pouvez créer des packages manuellement ou en dupliquant des packages existants. Vous pouvez également modifier et joindre des emplacements à n’importe quel module.
 
-## Le [!UICONTROL Packages] Tableau de bord
+## La variable [!UICONTROL Packages] Tableau de bord
 
-Le [!UICONTROL Packages] Le tableau de bord centralise les performances et les rapports économiques sur l’ensemble de vos stratégies de modules, fournissant des instantanés rapides des performances de vos modules au cours d’une période spécifiée.
+La variable [!UICONTROL Packages] Le tableau de bord centralise les performances et les rapports économiques sur l’ensemble de vos stratégies de modules, fournissant des instantanés rapides des performances de vos modules au cours d’une période spécifiée.
 
 ![Tableau de bord des packages](/help/dsp/assets/package-dashboard.png)
 
@@ -30,7 +30,7 @@ Il affiche également les mesures de fréquence et de diffusion par package, par
 >
 >Vous pouvez personnaliser davantage le contenu et la diffusion du reporting de package via [rapports personnalisés](/help/dsp/reports/report-about.md).
 
-Pour afficher tous les emplacements d’un module, cliquez sur son nom.
+Pour afficher tous les emplacements d’un package, ainsi que les dates d’envol du package, cliquez sur le nom du package.
 
 >[!MORELIKETHIS]
 >
@@ -39,4 +39,3 @@ Pour afficher tous les emplacements d’un module, cliquez sur son nom.
 >* [Joindre un emplacement à un package](package-attach-placement.md)
 >* [Affichage du journal des modifications d’un module](package-change-log.md)
 >* [Paramètres du module](package-settings.md)
-
