@@ -4,10 +4,10 @@ user-guide-title: Assistance Adobe Advertising en matière de protection de la v
 user-guide-description: Découvrez les contrôles de sécurité et de confidentialité qu’Adobe Advertising fournit pour aider les clients annonceurs à se conformer aux lois sur la confidentialité des consommateurs et consommatrices.
 breadcrumb-title: Assistance en matière de confidentialité des consommateurs et consommatrices
 index: true
-source-git-commit: 0f5283d114b60901777cef065f7647223671c086
+source-git-commit: 56f24a247ae129ab7050a10e91a79a4f1bbcdd01
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 50%
+source-wordcount: '64'
+ht-degree: 56%
 
 ---
 
@@ -19,4 +19,3 @@ ht-degree: 50%
 + Prise en charge de la CCPA {#ccpa}
    + [Prise en charge du CCPA : accès et suppression des données client](/help/privacy/ccpa/ccpa-access-delete.md)
    + [(DSP uniquement) Prise en charge du CCPA : droit d’opposition des consommateurs](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
-+ [Accord pour le partage de données avec Google Ads](/help/privacy/dma-agreement.md)
