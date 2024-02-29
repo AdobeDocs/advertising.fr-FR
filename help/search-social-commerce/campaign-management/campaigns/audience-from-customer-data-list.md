@@ -1,11 +1,11 @@
 ---
 title: Gestion des audiences de correspondance client à l’aide des listes de données client
 description: Découvrez comment créer et modifier [!DNL Google Ads] et [!DNL Microsoft® Advertising] des audiences de correspondance client provenant de vos listes de données client ;
-exl-id: 734d8cb1-3915-410f-a0cc-0669d6575eab
+exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 588b6b5887903e5912fc68a18ef142d908026870
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Pour [!DNL Microsoft® Advertising] compte, le fichier peut inclure des adresses
 
            Par exemple, dans https://play.google.com/store/apps/details?id=com.example.game, le nom du module est com.example.game.
 
-         * ([!DNL iOS] apps) ID de l’application dans la variable [!DNL iTunes App Store], identifié par &quot;`<idNNNNNNNNN>`&quot; à la fin de l’URL. Il est également disponible dans la [!DNL iOS Developer Console].
+         * ([!DNL iOS] apps) ID de l’application dans la variable [!DNL iTunes App Store], identifié par &quot;`<idNNNNNNNNN>`&quot; à la fin de l’URL. Elle est également disponible dans la [!DNL iOS Developer Console].
 
            Par exemple, dans https://itunes.apple.com/us/app/id284882215, l’ID est id284882215.
 
@@ -65,6 +65,10 @@ Pour [!DNL Microsoft® Advertising] compte, le fichier peut inclure des adresses
       1. Dans le [!UICONTROL Select File] champ, cliquez sur **[!UICONTROL Choose File]** et sélectionnez le fichier sur votre réseau ou périphérique.
 
       1. Cochez la case pour indiquer que vous acceptez les termes du [!DNL Adobe] et les stratégies de confidentialité du réseau publicitaire.
+
+      1. (Création d’annonceurs [!DNL Google Ads] Audiences qui exercent des activités dans l’Espace économique européen (EEE) ou au Royaume-Uni (Royaume-Uni) ; facultatif) Si vous avez obtenu le consentement des utilisateurs de l’EEE et du Royaume-Uni pour télécharger leurs données à des fins publicitaires, cochez la case en regard de **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+
+      [!DNL Google Ads] ignore toutes les données pour les utilisateurs de l’EEE et du Royaume-Uni ayant un état de consentement non spécifié. Cela peut entraîner des incohérences de données et des problèmes de performances.
 
       1. Cliquez sur **[!UICONTROL Upload File]**.
 

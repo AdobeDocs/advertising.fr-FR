@@ -1,11 +1,11 @@
 ---
 title: Questions fréquentes sur les campagnes
-description: Reportez-vous aux réponses aux questions sur la gestion de campagne et les vues de données de campagne.
-exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
+description: Reportez-vous aux réponses aux questions concernant la gestion de campagne et les vues de données de campagne.
+exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 295d576cff59f1313a317473db6e5f271d55e7da
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 +++Puis-je déplacer des campagnes et des composants d’un compte à un autre ?
 
-Ne déplacez pas ou ne copiez pas un composant de campagne ou de campagne, qui possède un identifiant unique, vers un compte avec un identifiant de compte différent. Cela entraînera des erreurs de données.
+Ne déplacez pas ou ne copiez pas un composant de campagne ou de campagne, qui possède un identifiant unique, vers un compte avec un identifiant de compte différent. Cela entraîne des erreurs de données.
 +++
 
 +++Quand les données de clic sont-elles mises à jour à partir des réseaux publicitaires ?
@@ -26,11 +26,11 @@ Le processus d’extraction des données de clics de la veille à partir des mot
 En outre, [!DNL Google Ads] les mesures de performances au niveau de la campagne sur le réseau de recherche pour la journée en cours sont extraites à 8h00 et 16h00 dans le fuseau horaire de l’annonceur.
 +++
 
-+++Quelles actions entraînent la perte de leur historique pour les mots-clés et les publicités ?
++++Quelles actions entraînent la perte d’historique des mots-clés et des publicités ?
 
 >[!NOTE]
 >
->(Publicitaires avec portefeuilles) Attendez-vous à ce que les performances des nouvelles combinaisons de mots-clés et de types de correspondance soient volatiles pendant que Search, Social et Commerce rassemble les données pour créer de nouveaux modèles.
+>(Publicitaires avec portefeuilles) Attendez-vous à ce que les performances des nouvelles combinaisons de mots-clés et de types de correspondance soient volatiles pendant que Search, Social et Commerce rassemble les données pour créer des modèles à leur place.
 
 **Actions dans [!UICONTROL Search] > [!UICONTROL Campaigns] vues, dans le processus de publication de la feuille d’envoi groupé et dans le propre éditeur du réseau publicitaire :**
 
@@ -38,11 +38,11 @@ Le mot-clé ou la publicité existante est supprimé et un autre est créé lors
 
 * ([!DNL Baidu], [!DNL Google Ads], et [!DNL Yandex]) Vous modifiez un nom de mot-clé.
 
-* ([!DNL Google Ads], [!DNL Microsoft Advertising], et [!DNL Yandex]) Vous modifiez le type de correspondance d’un mot-clé.
+* ([!DNL Google Ads], [!DNL Microsoft® Advertising], et [!DNL Yandex]) Vous modifiez le type de correspondance d’un mot-clé.
 
 * Vous déplacez un mot-clé entre les groupes publicitaires.
 
-* ([!DNL Google Ads] annonces de recherche dynamique, [!DNL Microsoft Advertising] publicités textuelles étendues et tous les types d’annonces sur d’autres réseaux publicitaires pris en charge) Vous modifiez une copie de publicité (titre/titre ou description) ou une image publicitaire.
+* ([!DNL Google Ads] annonces de recherche dynamique, [!DNL Microsoft® Advertising] publicités textuelles étendues et tous les types d’annonces sur d’autres réseaux publicitaires pris en charge) Vous modifiez une copie de publicité (titre/titre ou description) ou une image publicitaire.
 
 * Vous déplacez une publicité entre les groupes publicitaires.
 
@@ -54,7 +54,7 @@ Une publicité ou un mot-clé existant est supprimé et un autre est créé lors
 
 * Les paramètres du modèle d’une publicité ont changé depuis la dernière propagation.
 
-* Un nouveau fichier de flux comprend une ligne pour une publicité ou un mot-clé qui a) se trouvait dans un fichier précédent mais b) a été omis depuis et a été mis en pause ou supprimé selon les paramètres des données de flux.
+* Un nouveau fichier de flux comprend une ligne pour une publicité ou un mot-clé qui a) se trouvait dans un fichier précédent mais b) a été omis depuis et a été mis en pause ou supprimé selon les paramètres des données du flux.
 
 Selon le [paramètres de données de flux](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings), une publicité existante ou un mot-clé peut être supprimé dans les cas suivants :
 
@@ -99,7 +99,7 @@ Dans les deux cas, les URL de base avec suivi Search, Social et Commerce incluen
 
 [!DNL Google Ads] les mesures de performances au niveau de la campagne sur le réseau de recherche pour la journée en cours sont extraites à 8h00 et 16h00 dans le fuseau horaire de l’annonceur.
 
-Dans le [!UICONTROL Campaigns] dans les deux [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] et le [!UICONTROL Optimization] > [!UICONTROL Portfolios] affichage, lorsque vous créez un rapport sur [!UICONTROL Today] Pour une période personnalisée qui inclut le jour en cours, les données comprennent les données les plus récentes.
+Dans le [!UICONTROL Campaigns] dans les deux [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] et le [!UICONTROL Optimization] > [!UICONTROL Portfolios] affichage, lorsque vous créez un rapport sur [!UICONTROL Today] Pour une période personnalisée qui inclut le jour en cours, les données incluent les données synchronisées les plus récentes.
 
 >[!NOTE]
 >
@@ -107,13 +107,21 @@ Dans le [!UICONTROL Campaigns] dans les deux [!UICONTROL Search] > [!UICONTROL C
 
 +++
 
-+++([!DNL Google Ads] et [!DNL Microsoft Advertising]) Search, Social et Commerce prennent-ils en charge le suivi parallèle des publicités dans [!DNL Google Ads] ou [!DNL Microsoft Advertising]?
++++Quelle est la différence entre un modèle de suivi et un suffixe de landing page ?
 
-Le suivi parallèle envoie les clients directement de votre publicité vers l’URL finale, et l’URL de votre modèle de suivi (avec mesure des clics) est chargée en arrière-plan. Par conséquent, votre page d’entrée est chargée plus rapidement.
+Utilisez un suffixe de page d’entrée uniquement pour les réseaux publicitaires qui prennent en charge le suivi parallèle. Dans Search, Social et Commerce, les modèles de suivi et les suffixes de page d’entrée doivent inclure un identifiant de clic du réseau publicitaire, mais les modèles de suivi incluent des paramètres de suivi supplémentaires.
 
-Search, Social et Commerce prend en charge le suivi parallèle des campagnes de recherche et d’achat à l’aide de l’identifiant de clic du réseau publicitaire (`msclkid` pour [!DNL Microsoft Advertising]; `gclid` pour [!DNL Google Ads]). Utilisez une [niveau compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) ou [niveau de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (appelé &quot;[!DNL final URL suffix]&quot; dans les réseaux publicitaires), qui est ajouté aux URL des pages d’entrée pour effectuer le suivi des clics sur les annonces enfants à partir des navigateurs qui prennent en charge le suivi parallèle. Voir [formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et [formats de suffixes requis pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Consultez la prochaine FAQ sur [prise en charge du suivi parallèle](#parallel-tracking) pour plus d’informations sur le chargement des modèles de suivi et des suffixes de page d’entrée lorsqu’un utilisateur clique sur une publicité.
 
-Lorsqu&#39;un utilisateur consulte votre publicité sur un navigateur qui ne prend pas en charge le suivi parallèle, le réseau publicitaire utilise à la place le suivi séquentiel : les clients sont d&#39;abord envoyés à l&#39;URL de votre modèle de suivi, ce qui peut rediriger les clients vers des serveurs de suivi intermédiaires avant de les rediriger vers l&#39;URL finale. Tous les modèles de suivi pour un compte de réseau publicitaire doivent inclure le même paramètre d’identifiant de clic que celui utilisé dans la variable [!UICONTROL Landing Page Suffix]. Voir [Formats de modèle de suivi pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et la variable [Formats de modèle de suivi pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
++++
+
++++([!DNL Google Ads] et [!DNL Microsoft® Advertising]) Search, Social et Commerce prennent-ils en charge le suivi parallèle des publicités dans [!DNL Google Ads] ou [!DNL Microsoft® Advertising]? {#parallel-tracking}
+
+Le suivi parallèle envoie directement les clients de votre publicité à votre URL finale, qui peut inclure des paramètres ajoutés à un suffixe d’URL final ou &quot;suffixe de page d’entrée&quot;. L’URL de votre modèle de suivi (avec des paramètres supplémentaires pour la mesure des clics) est chargée séparément en arrière-plan. Par conséquent, votre landing page est chargée plus rapidement.
+
+Search, Social et Commerce prend en charge le suivi parallèle des campagnes de recherche et d’achat à l’aide de l’identifiant de clic du réseau publicitaire (`msclkid` pour [!DNL Microsoft® Advertising]; `gclid` pour [!DNL Google Ads]). Utilisez une [niveau compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) ou [niveau de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (appelé &quot;[!DNL final URL suffix]&quot; dans les réseaux publicitaires), qui est ajouté aux URL des pages d’entrée pour effectuer le suivi des clics sur les annonces enfants à partir des navigateurs qui prennent en charge le suivi parallèle. Voir [formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et [formats de suffixes requis pour [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+
+Lorsqu&#39;un utilisateur consulte votre publicité sur un navigateur qui ne prend pas en charge le suivi parallèle, le réseau publicitaire utilise à la place le suivi séquentiel : les clients sont d&#39;abord envoyés à l&#39;URL de votre modèle de suivi, ce qui peut rediriger les clients vers les serveurs de suivi intermédiaires avant de les rediriger vers l&#39;URL finale (qui peut inclure des paramètres supplémentaires dans un suffixe de page d&#39;entrée). Tous les modèles de suivi pour un compte de réseau publicitaire doivent inclure le même paramètre d’identifiant de clic que celui utilisé dans la variable [!UICONTROL Landing Page Suffix]. Voir [Formats de modèle de suivi pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et la variable [Formats de modèle de suivi pour [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++Pourquoi les URL de suivi de mes publicités incluent-elles &quot;`&EV_HASH={<hash>}`?&quot;
@@ -129,7 +137,7 @@ Cela dépend des besoins commerciaux de l’annonceur.
 
 Lorsque vous suspendez des publicités, elles sont réactivées si vous renvoyez la même publicité ou si le niveau de stock dépasse le minimum. Vous pouvez ainsi conserver l’historique de la publicité.
 
-Lorsque vous supprimez des publicités et les soumettez à nouveau, de nouvelles publicités sont créées et des données historiques doivent être cumulées. Toutefois, si vous ne prévoyez pas de soumettre à nouveau des publicités supprimées, il n’est pas important de disposer de données historiques.
+Lorsque vous supprimez des publicités et les soumettez à nouveau, de nouvelles publicités sont créées et des données historiques doivent être cumulées pour les nouvelles publicités. Toutefois, si vous ne prévoyez pas de soumettre à nouveau des publicités supprimées, il n’est pas important de disposer de données historiques.
 +++
 
 +++(Flux d’inventaire des produits) Si je supprime un modèle d’annonce, puis en crée un nouveau, identique, les éléments manquants dans le fichier de flux suivant sont-ils suspendus (lorsque les paramètres du fichier de flux sont configurés pour le faire) ?
@@ -150,7 +158,7 @@ Lorsque vous envoyez des données, les champs de données de la variable [!UICON
 
 +++Mes campagnes générées à partir de flux de stock comportent de nombreuses transactions orphelines.
 
-Si la variable [paramètres de données de flux](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) sont configurés pour supprimer des publicités dans diverses situations, puis toute conversion différée qui se produit après des clics sur la publicité peut entraîner [transactions orphelines](/help/search-social-commerce/glossary.md#o-p). La bonne pratique consiste à suspendre les publicités au lieu de les supprimer. Si une publicité n’a toujours pas reçu de recettes après une longue période, vous pouvez la supprimer par le biais d’une feuille d’envoi groupée ou de la vue de gestion des publicités.
+Si la variable [paramètres de données de flux](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) sont configurés pour supprimer des publicités dans diverses situations, puis toute conversion différée qui se produit après des clics sur la publicité peut entraîner [transactions orphelines](/help/search-social-commerce/glossary.md#o-p). La bonne pratique consiste à suspendre les publicités au lieu de les supprimer. Si une publicité n’a encore reçu aucune recette au bout d’un certain temps, vous pouvez la supprimer par le biais d’une feuille d’envoi groupé ou de la vue de gestion des publicités.
 +++
 
 ## Problèmes de performances liés aux comptes et aux campagnes

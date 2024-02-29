@@ -1,11 +1,11 @@
 ---
 title: Activer le téléchargement des objectifs vers les réseaux publicitaires
 description: Découvrez comment télécharger des objectifs pour vos portefeuilles hybrides vers [!DNL Google Ads] et [!DNL Microsoft® Advertising].
-exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
+exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: 0fb03410e67be28d24496c948b52399c8465e041
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Téléchargements vers [!DNL Google Ads] surviennent tous les jours à 06h00 dan
 1. Cochez la case en regard de **[!UICONTROL Enable Objective Upload]**.
 
    Cette option est disponible uniquement si votre compte publicitaire est configuré pour utiliser l’optimisation hybride. Pour activer l’optimisation hybride, contactez votre équipe de compte d’Adobe.
+
+1. (Publicitaires avec [!DNL Google Ads] Comptes qui commercent dans l’Espace économique européen (EEE) ou au Royaume-Uni (Royaume-Uni) ; facultatif) Si vous avez obtenu le consentement des utilisateurs de l’EEE et du Royaume-Uni pour télécharger leurs données à des fins publicitaires, cochez la case en regard de **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
