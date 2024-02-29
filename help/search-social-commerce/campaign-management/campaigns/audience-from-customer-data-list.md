@@ -3,7 +3,7 @@ title: Gestion des audiences de correspondance client à l’aide des listes de 
 description: Découvrez comment créer et modifier [!DNL Google Ads] et [!DNL Microsoft® Advertising] des audiences de correspondance client provenant de vos listes de données client ;
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 588b6b5887903e5912fc68a18ef142d908026870
+source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Pour [!DNL Microsoft® Advertising] compte, le fichier peut inclure des adresses
 
       1. Cochez la case pour indiquer que vous acceptez les termes du [!DNL Adobe] et les stratégies de confidentialité du réseau publicitaire.
 
-      1. (Création d’annonceurs [!DNL Google Ads] Audiences qui exercent des activités dans l’Espace économique européen (EEE) ou au Royaume-Uni (Royaume-Uni) ; facultatif) Si vous avez obtenu le consentement des utilisateurs de l’EEE et du Royaume-Uni pour télécharger leurs données à des fins publicitaires, cochez la case en regard de **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+      1. (Création d’annonceurs [!DNL Google Ads] Audiences qui exercent des activités dans l’Espace économique européen (EEE) ou au Royaume-Uni (Royaume-Uni) ; facultatif) Si vous avez recueilli le consentement des utilisateurs de l’EEE et du Royaume-Uni pour télécharger leurs données à des fins publicitaires, cochez la case en regard de **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
       [!DNL Google Ads] ignore toutes les données pour les utilisateurs de l’EEE et du Royaume-Uni ayant un état de consentement non spécifié. Cela peut entraîner des incohérences de données et des problèmes de performances.
 
