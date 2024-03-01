@@ -3,9 +3,9 @@ title: Activation des segments authentifiés à partir des partenaires d’ID un
 description: Découvrez comment activer des audiences authentifiées par le biais d’une solution d’ID universelle.
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: e9ff454428d0256402a2ef2fa74f8bd45bd7592f
+source-git-commit: 5d031fe746dc5051320e5d2092f9148b5a8a1bd5
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Pour activer les audiences authentifiées par le biais d’une solution d’ID u
 
 1. Pour chaque option, contactez `adcloud-support@adobe.com` pour activer les paramètres suivants dans DSP, ce qui vous permettra de cibler les segments authentifiés dans DSP campagnes une seule fois. [toutes les étapes du workflow d’activation sont terminées.](source-adobe-rtcdp.md):
 
-   1. [!DNL LiveRamp] [!DNL RampID] configuration de campagne avant le partage de segments à partir de [!DNL Real-Time CDP].
+   * [!DNL LiveRamp] [!DNL RampID] configuration de campagne avant le partage de segment à partir de [!DNL Real-Time CDP]
 
-   1. Au niveau du compte &quot;[!UICONTROL LiveRamp segments]&quot;.
+   * Au niveau du compte &quot;[!UICONTROL LiveRamp segments]Option &quot;
 
 1. (Utilisateurs partageant manuellement des segments authentifiés depuis [!DNL LiveRamp]) Effectuez les étapes suivantes dans la section [!DNL LiveRamp] [!DNL Connect] tableau de bord :
 
