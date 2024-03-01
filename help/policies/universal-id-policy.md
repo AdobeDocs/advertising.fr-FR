@@ -4,9 +4,9 @@ description: Consultez la politique d’utilisation des ID universels.
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: 90c4e8055b8438e7375968980f5344d7497fbc8f
+source-git-commit: b870d2cb7d8c6304016af0c7fbec1e56511bdac1
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -29,21 +29,25 @@ Outre les exigences définies ci-dessous et dans le Contrat, vous devez respecte
 
 En choisissant d’utiliser les identifiants universels mis à votre disposition via les services, vous acceptez de vous assurer que toutes les données client transmises, stockées, affichées, distribuées ou mises à votre disposition par l’intermédiaire des services à la demande sont conformes aux spécifications d’ID universel suivantes et à toutes les autres exigences de la présente politique, telles que modifiées par [!DNL Adobe] de temps en temps.
 
-Vous avez collecté des données client directement auprès d’utilisateurs ou sous licence d’une autre partie qui a collecté (i) les données client directement auprès des utilisateurs auxquels de telles données se rapportent ou (ii) obtenu les données client via des intermédiaires qui ont obtenu les données d’une autre partie qui a collecté ces données de l’utilisateur, à condition que vous puissiez identifier la partie d’origine qui a collecté les données client des utilisateurs auxquels les données se rapportent.
+* Vous avez collecté des données client directement auprès d’utilisateurs ou sous licence d’une autre partie qui a collecté (i) les données client directement auprès des utilisateurs auxquels de telles données se rapportent ou (ii) obtenu les données client via des intermédiaires qui ont obtenu les données d’une autre partie qui a collecté ces données de l’utilisateur, à condition que vous puissiez identifier la partie d’origine qui a collecté les données client des utilisateurs auxquels les données se rapportent.
 
-Les données client ne sont pas issues de la mise au rebut Web ou de l’achat d’une base de données à partir d’une source déconnectée de la collection d’origine des données.
+* Les données client ne sont pas issues de la mise au rebut Web ou de l’achat d’une base de données à partir d’une source déconnectée de la collection d’origine des données.
 
-Vous avez fourni tous les avis et obtenu tous les consentements requis pour divulguer les données client à [!DNL Adobe] et ses partenaires aux fins définies dans le Contrat.
+* Vous avez fourni tous les avis et obtenu tous les consentements requis pour divulguer les données client à [!DNL Adobe] et ses partenaires aux fins définies dans le Contrat.
 
-Les données client ne concernent aucune personne (i) qui a exercé une option que vous avez directement ou indirectement engagée à honorer en ce qui concerne la création ou l’utilisation de données pour des audiences ciblées (&quot;Opt-out&quot;), (ii) que vous connaissez comme mineure (mineure étant des individus de moins de la majorité définis par la loi dans n’importe quelle juridiction applicable), (iii) dont vous savez effectivement que cette personne souffre d’un état de santé particulier, ou (iv) qui est un résident de l’un des éléments suivants : [Pays interdits figurant sur la pièce A](#prohibited-countries) héréto.
+* Les données client ne concernent aucune personne (i) qui a exercé une option que vous avez directement ou indirectement engagée à honorer en ce qui concerne la création ou l’utilisation de données pour des audiences ciblées (&quot;Opt-out&quot;), (ii) que vous connaissez comme mineure (une mineure étant des individus de moins de la majorité définis par la loi dans n’importe quelle juridiction applicable), ou (iii) dont vous possédez la connaissance réelle que cette personne souffre d’un état de santé particulier.
 
-Si vous recevez un droit d’opposition à la suite des données en vigueur, vous n’utiliserez plus l’ID universel de cet utilisateur.
+* Si vous recevez un droit d’opposition à la date d’entrée en vigueur du contrat, vous n’utiliserez plus l’identifiant universel de cet utilisateur.
+
+### UID2 - Pays interdits
+
+En choisissant d’utiliser les UID2 Universal ID via les Services, vous acceptez de vous assurer que toutes les données client transmises, stockées, affichées, distribuées ou mises à votre disposition par l’intermédiaire des Services à la demande pour une utilisation de ce type en rapport avec les UID2 Universal ID ne sont liées à aucune personne qui réside dans l’un des [UID2 Pays interdits sur la liste de l’exposition A](#prohibited-countries-uid2) héréto.
 
 ## Non-discrimination
 
 Vous ne pouvez pas utiliser les Services pour vous engager dans une discrimination en violation de la loi, y compris en ciblant à tort des groupes spécifiques de personnes à des fins publicitaires, en excluant à tort des groupes spécifiques de personnes de la vue publicitaire, ou en présentant du contenu discriminatoire dans les publicités. Il vous incombe d’utiliser les Services de manière responsable afin d’éviter toute discrimination à l’égard des classes protégées, notamment, mais sans s’y limiter, de vous assurer que vos publicités n’ont pas un impact disparate sur les classes protégées.
 
-## Exposition A : Pays interdits {#prohibited-countries}
+## Pièce A : UID2 - Pays interdits {#prohibited-countries-uid2}
 
 ### Pays de l’UE
 
