@@ -3,7 +3,7 @@ title: Données de campagne de publication générées à partir de flux vers le
 description: Découvrez comment publier des données générées à partir de flux de données d’inventaire sur des réseaux publicitaires.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
+source-git-commit: c27665b979ad8e37fd4f92385bb7339af4354d5f
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Pour une publication réussie, tous les groupes publicitaires doivent être affe
 
             * **[!UICONTROL End Time]:** Date et heure futures auxquelles les publicités publiées peuvent être suspendues ou supprimées en fonction de la variable [paramètre de données de flux](feed-settings-manage.md#feed-data-settings) pour &quot;[!UICONTROL When the Scheduled End Date is reached].&quot; Par défaut, l’heure de fin est à 00 h (12 h 00) 30 jours à partir d’aujourd’hui. Sélectionner **[!UICONTROL None]** pour que les données restent actives indéfiniment (ou jusqu’à ce que vous propagiez de nouvelles données pour le modèle), ou spécifiez une date et une heure.
 
-              Pour spécifier une date, utilisez le format JJ/MM/AAAA ou JJ/M/AAAA ou cliquez sur [Calendrier](/help/search-social-commerce/assets/calendar.png "Calendrier") pour ouvrir le calendrier et [sélectionner une date ;](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Pour modifier une heure, saisissez l’heure au format 24 heures HH/MM ou H/M ou sélectionnez une heure (par intervalles de 30 minutes) dans la liste.
+              Pour spécifier une date, utilisez le format JJ/MM/AAAA ou JJ/M/AAAA ou cliquez sur ![Calendrier](/help/search-social-commerce/assets/calendar.png "Calendrier") pour ouvrir le calendrier et [sélectionner une date ;](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Pour modifier une heure, saisissez l’heure au format 24 heures HH/MM ou H/M ou sélectionnez une heure (par intervalles de 30 minutes) dans la liste.
 
          * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crée un fichier de feuille en vrac disponible à partir du [!UICONTROL Search] > [!UICONTROL Bulksheets] vue. Vous pouvez éventuellement publier le fichier à partir de là.
 
