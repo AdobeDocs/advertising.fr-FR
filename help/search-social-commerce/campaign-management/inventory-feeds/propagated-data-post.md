@@ -1,11 +1,11 @@
 ---
 title: Données de campagne de publication générées à partir de flux vers les réseaux publicitaires
 description: Découvrez comment publier des données générées à partir de flux de données d’inventaire sur des réseaux publicitaires.
-exl-id: 14ce377c-9b71-48ac-8ead-cada9c06d52f
+exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Pour une publication réussie, tous les groupes publicitaires doivent être affe
 
   >[!NOTE]
   >
-  >Les composants principaux ou supprimés peuvent inclure des sous-composants nouveaux et les sous-composants peuvent être publiés si les données sont valides.
+  >Les composants actifs ou supprimés peuvent inclure des sous-composants nouveaux et les sous-composants peuvent être publiés si les données sont valides.
 
   >[!TIP]
   >
@@ -50,11 +50,11 @@ Pour une publication réussie, tous les groupes publicitaires doivent être affe
 
             * **[!UICONTROL Start Time]:** Date et heure futures auxquelles le fichier de feuille d’envoi groupé doit être publié sur le réseau publicitaire. Par défaut, le fichier est envoyé à 00:00 (12:00) le jour suivant. **Remarque :** Pour les fichiers volumineux nécessitant un traitement plus long, les données publiées ne sont pas disponibles immédiatement dans les vues de gestion de campagne ou dans le gestionnaire d’annonces du réseau.
 
-            * **[!UICONTROL End Time]:** Date et heure futures auxquelles les publicités publiées peuvent être suspendues ou supprimées en fonction de la variable [paramètre de données de flux](feed-settings-manage.md#feed-data-settings) pour &quot;[!UICONTROL When the Scheduled End Date is reached].&quot; Par défaut, l’heure de fin est à 00 h (12 h 00) 30 jours à partir d’aujourd’hui. Sélectionner **[!UICONTROL None]** pour que les données restent principales indéfiniment (ou jusqu’à ce que vous propagiez les nouvelles données pour le modèle) ou spécifier une date et une heure.
+            * **[!UICONTROL End Time]:** Date et heure futures auxquelles les publicités publiées peuvent être suspendues ou supprimées en fonction de la variable [paramètre de données de flux](feed-settings-manage.md#feed-data-settings) pour &quot;[!UICONTROL When the Scheduled End Date is reached].&quot; Par défaut, l’heure de fin est à 00 h (12 h 00) 30 jours à partir d’aujourd’hui. Sélectionner **[!UICONTROL None]** pour que les données restent actives indéfiniment (ou jusqu’à ce que vous propagiez de nouvelles données pour le modèle), ou spécifiez une date et une heure.
 
               Pour spécifier une date, utilisez le format JJ/MM/AAAA ou JJ/M/AAAA ou cliquez sur [Calendrier](/help/search-social-commerce/assets/calendar.png "Calendrier") pour ouvrir le calendrier et [sélectionner une date ;](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Pour modifier une heure, saisissez l’heure au format 24 heures HH/MM ou H/M ou sélectionnez une heure (par intervalles de 30 minutes) dans la liste.
 
-         * *[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crée un fichier de feuille en vrac disponible à partir du [!UICONTROL Search] > [!UICONTROL Bulksheets] vue. Vous pouvez éventuellement publier le fichier à partir de là.
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crée un fichier de feuille en vrac disponible à partir du [!UICONTROL Search] > [!UICONTROL Bulksheets] vue. Vous pouvez éventuellement publier le fichier à partir de là.
 
            Lorsque le fichier de feuille d’envoi groupé obtenu fait plus de 2 Mo, il est au format ZIP. Vous n’avez pas besoin de décompresser le fichier pour le publier.
 
