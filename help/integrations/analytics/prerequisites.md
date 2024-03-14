@@ -3,9 +3,9 @@ title: Conditions préalables et informations clés relatives à la mise en oeuv
 description: Conditions préalables et informations clés relatives à la mise en oeuvre [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: e7773c31c1834b05731b4711ae237cde481e5639
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Consultez les informations suivantes avant d’intégrer Adobe Advertising à Ad
    * Service Experience Cloud Identity : `visitorAPI.js` version 2.0 ou ultérieure
 * Toute version d’Adobe Analytics (y compris [!DNL Prime], [!DNL Premium], ou [!DNL Ultimate])
 * ADOBE ANALYTICS : `appMeasurement.js` version 2.1 ou ultérieure
+* (Clients d’Advertising DSP) Et [Fragment de code JavaScript Advertising DSP](javascript.md) déployé dans vos pages web pour effectuer le suivi des visites d’affichage publicitaire.
 
 >[!TIP]
 >
@@ -89,7 +90,7 @@ Contactez votre équipe de compte Adobe pour connaître les derniers environneme
 
 * L’intégration ne transmet que [!DNL Analytics] événements standard et personnalisés à Adobe Advertising pour l’optimisation des offres des efforts publicitaires et des médias payants ultérieurs. Ça ne passe pas. [!DNL Analytics] segments, mesures calculées et [!DNL eVars] à Adobe Advertising pour l’optimisation de l’offre.
 
-* Adobe Advertising crée des identifiants persistants dans [!DNL Analytics] en fonction de la dernière publicité sur laquelle l’utilisateur a cliqué ou visionné avant d’accéder au site, en fonction de la variable [fenêtres de recherche en amont des clics et des affichages publicitaires](#lookback-a4adc) configuré dans Adobe Advertising. Si un visiteur du site devait avoir les deux types d’interactions d’entrée sur le site dans son profil et que le clic se trouve dans la période de recherche arrière, l’identifiant de clic publicitaire du visiteur remplacerait l’identifiant d’affichage publicitaire pour la création de rapports sur le site.
+* Adobe Advertising crée des identifiants persistants dans [!DNL Analytics] en fonction de la dernière publicité sur laquelle l’utilisateur a cliqué ou visionné avant d’accéder au site, en fonction de la variable [fenêtres de recherche en amont des clics et des affichages publicitaires](#lookback-a4adc) configuré dans Adobe Advertising. Si le profil d’un visiteur du site comporte les deux types d’interactions d’entrée sur le site et que le clic se trouve pendant la période de recherche arrière, l’identifiant de clic publicitaire du visiteur remplace l’identifiant d’affichage publicitaire pour la création de rapports sur le site.
 
 * [!DNL Analytics for Advertising] le suivi des conversions dans Adobe Analytics utilise un intervalle de recherche en amont de suivi configurable (60 jours par défaut). Les rapports d’Adobe Advertising reflètent les conversions et l’engagement du site tout au long de cette période de recherche arrière de suivi.
 
