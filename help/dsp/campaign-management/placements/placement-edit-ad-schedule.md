@@ -3,7 +3,7 @@ title: Modification des planifications de publicité pour les emplacements
 description: Découvrez comment modifier les plannings de publicité pour les publicités liées aux emplacements.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: bc45e96cf091cba3872b20f6ea691e369b29982f
+source-git-commit: 02a643662b00e2aed6dccf80cf8eeaf04d3d5c34
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -60,21 +60,21 @@ Vous pouvez modifier les dates de vol planifiées et la rotation des publicités
 
 1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
 
-   1. Effectuez l’une des opérations suivantes :
+1. Effectuez l’une des opérations suivantes :
 
-      * Pour ajouter un vol, cliquez sur **[!UICONTROL Add Flight]**, puis spécifiez la date de début et la date de fin.
+   * Pour ajouter un vol, cliquez sur **[!UICONTROL Add Flight]**, puis spécifiez la date de début et la date de fin.
 
-      * Pour ajouter un vol existant à une publicité, cliquez sur **[!UICONTROL +]** dans la ligne publicitaire de la colonne &quot;vol&quot;.
+   * Pour ajouter un vol existant à une publicité, cliquez sur **[!UICONTROL +]** dans la ligne publicitaire de la colonne &quot;vol&quot;.
 
-      * Pour supprimer un vol existant d’une publicité, cliquez sur **[!UICONTROL x]** dans la ligne publicitaire de la colonne &quot;vol&quot;.
+   * Pour supprimer un vol existant d’une publicité, cliquez sur **[!UICONTROL x]** dans la ligne publicitaire de la colonne &quot;vol&quot;.
 
       * (Lorsque plusieurs publicités ont le même vol) Pour faire pivoter les publicités de manière inégale, cliquez sur **[!UICONTROL Even Rotation]** dans les informations sur le vol, puis saisissez le poids relatif de rotation de chaque publicité, sous forme de pourcentage.
 
         Le poids total doit être égal à 100.
 
-   1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Continue]**.
+1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Continue]**.
 
-   1. Vérifiez les détails du vol, puis cliquez sur **[!UICONTROL Save & Finish]**.
+1. Vérifiez les détails du vol, puis cliquez sur **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
