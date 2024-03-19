@@ -3,7 +3,7 @@ title: Syntaxe de la logique de segment d’audience
 description: Référencez la syntaxe que vous pouvez utiliser pour définir la logique pour les segments d’audience.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -24,7 +24,6 @@ Lorsque vous créez des audiences réutilisables, vous pouvez définir manuellem
 >* Tous les groupes de segments spécifiés sont inclus, sauf s’ils sont précédés de ! (qui les exclut).
 >* Vous pouvez [recherche de l’identifiant de segment pour une audience](reusable-audience-clipboard.md) de [!UICONTROL Audiences] > [!UICONTROL All audiences].
 
-
 Par exemple, la logique suivante :
 
 ```
@@ -44,8 +43,7 @@ signifie (en anglais brut)
 >[!MORELIKETHIS]
 >
 >* [Copie de la clé de segment d’une audience réutilisable dans le Presse-papiers](reusable-audience-clipboard.md)
->* [À propos de la gestion de l’audience](audience-about.md)
+>* [Gestion de l’audience](audience-about.md)
 >* [Création d’une audience réutilisable](reusable-audience-create.md)
 >* [Paramètres d’audience](audience-settings.md)
 >* [Fournisseurs de données tiers disponibles](third-party-data-providers.md)
-

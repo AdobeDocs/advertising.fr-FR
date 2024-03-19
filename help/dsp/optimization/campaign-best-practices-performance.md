@@ -3,9 +3,9 @@ title: Bonnes pratiques pour configurer des campagnes de performances
 description: Découvrez les bonnes pratiques pour configurer vos campagnes axées sur les performances, qui incluent des emplacements optimisés pour le CPA le plus bas ou le ROAS le plus élevé.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: ce35295fcb003b1cc0a171d171317601eadf6288
+source-git-commit: efd169f5e1e191f7635abf5b7a325e3483395165
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
@@ -151,8 +151,8 @@ Utiliser le filtrage contextuel, le blocage des fraudes avant offre et/ou [!UICO
 
 ## Étape 5 - Utilisation des ressources créatives appropriées
 
-* La bonne pratique consiste à inclure autant de tailles d’annonces uniques que possible pour optimiser la portée. Le modèle d’affichage universel vous permet de télécharger n’importe quelle taille d’affichage standard.
-* Assurez-vous que tous les emplacements contiennent *au moins* toutes les tailles d’affichage principales (300x250, 728x90, 160x600, 300x600, 320x50 et 300x50).
+* La bonne pratique consiste à inclure autant de tailles d’annonces uniques que possible pour optimiser la portée. Le modèle d’affichage universel vous permet de télécharger n’importe quelle taille d’affichage standard.
+* Assurez-vous que tous les emplacements contiennent *au moins* toutes les tailles d’affichage principales (300x250, 728x90, 160x600, 300x600, 320x50 et 300x50).
 * Mettez fréquemment à jour les éléments créatifs pour éviter la fatigue créative.
 
 >[!MORELIKETHIS]
