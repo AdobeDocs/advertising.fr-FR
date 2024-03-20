@@ -2,16 +2,15 @@
 title: Duplication d’un plan de portée télévisée connecté
 description: Découvrez comment créer un plan de portée TV connecté à l’aide des paramètres d’un plan existant.
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: 80dab57a-e56d-4a77-a1d5-c3e705f54fb9
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
 # Duplication d’un plan de portée télévisée connecté
-
-*Fonction bêta*
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Planner]**.
 

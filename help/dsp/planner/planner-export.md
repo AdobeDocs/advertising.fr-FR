@@ -2,16 +2,15 @@
 title: Exporter une prévision pour un plan de portée TV connecté
 description: Découvrez comment exporter la prévision pour un plan de portée TV connecté.
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: f4bad569-1b56-439a-8c41-92a24a710476
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
 
 # Exporter une prévision pour un plan de portée TV connecté
-
-*Fonction bêta*
 
 Vous pouvez exporter le [!UICONTROL Budget vs Reach] prévision d’une [!DNL Microsoft® Excel] feuille de calcul** avec [!UICONTROL Budget] et [!UICONTROL Reach] colonnes.
 

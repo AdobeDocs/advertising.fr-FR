@@ -2,16 +2,15 @@
 title: Régénération des prévisions pour un plan de portée télévisée connecté
 description: Découvrez comment créer une nouvelle prévision pour un plan de portée TV connecté.
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: ec3de39c-c2b3-4004-8d86-eb6479608121
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
 # Régénération des prévisions pour un plan de portée télévisée connecté
-
-*Fonction bêta*
 
 Vous pouvez régénérer la prévision pour un plan de portée télévisée connecté en fonction des dernières données observées.
 
