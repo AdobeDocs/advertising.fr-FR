@@ -4,9 +4,9 @@ description: Découvrez la prise en charge de la capture des demandes d’opposi
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 7613d49698bf303afad521e94471c11cd2a3e556
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -59,9 +59,9 @@ Vous pouvez communiquer les demandes d’opposition à la vente des consommateur
 
    Vous devez déployer la bibliothèque sur la page web à partir de laquelle vos clients peuvent envoyer des demandes d’opposition à la vente, telles que le portail de confidentialité de votre entreprise. La bibliothèque vous aide à récupérer les cookies d’Adobe (ID d’espace de noms : `gsurferID`) afin que vous puissiez soumettre ces identités dans le cadre de demandes d’opposition à la vente via l’API Adobe Experience Platform Privacy Service.
 
-1. Identifiez votre ID d’organisation Experience Cloud et assurez-vous qu’il est lié à vos comptes d’Adobe Advertising.
+1. Identifiez l’ID d’organisation de votre Experience Cloud et assurez-vous qu’il est lié à vos comptes d’Adobe Advertising.
 
-   Un ID d’organisation Experience Cloud est une chaîne alphanumérique de 24 caractères accompagnée de &quot;@AdobeOrg&quot;. Un ID d’organisation a été attribué à la plupart des clients Experience Cloud. Si votre équipe marketing ou votre administrateur système d’Adobes interne ne connaît pas l’ID d’organisation ou ne sait pas s’il a été configuré, contactez l’assistance clientèle d’Adobe à l’adresse gdprsupport@adobe.com. Vous aurez besoin de l’ID d’organisation pour envoyer des requêtes à l’API de confidentialité à l’aide de la variable `imsOrgID` espace de noms.
+   Un ID d’organisation Experience Cloud est une chaîne alphanumérique de 24 caractères accompagnée de &quot;@AdobeOrg&quot;. Un ID d’organisation a été attribué à la plupart des clients Experience Cloud. Si votre équipe marketing ou votre administrateur système d’Adobes interne ne connaît pas votre ID d’organisation ou ne sait pas s’il a été configuré, contactez votre équipe de compte d’Adobe. Vous aurez besoin de l’ID d’organisation pour envoyer des requêtes à l’API de confidentialité à l’aide de la variable `imsOrgID` espace de noms.
 
    >[!IMPORTANT]
    >
@@ -73,7 +73,7 @@ Vous pouvez communiquer les demandes d’opposition à la vente des consommateur
 
    >[!NOTE]
    >
-   Si votre entreprise dispose de plusieurs ID d’organisation Experience Cloud, vous devez envoyer des demandes d’API distinctes pour chacun d’eux. Vous pouvez toutefois effectuer une requête d’API sur plusieurs sous-solutions Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], et [!DNL DCO]), avec un compte par sous-solution.
+   >Si votre entreprise dispose de plusieurs ID d’organisation Experience Cloud, vous devez envoyer des demandes d’API distinctes pour chacun d’eux. Vous pouvez toutefois effectuer une requête d’API sur plusieurs sous-solutions Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], et [!DNL DCO]), avec un compte par sous-solution.
 
 Toutes ces étapes sont nécessaires pour recevoir le soutien d’Adobe Advertising. Pour plus d’informations à ce sujet et sur d’autres tâches connexes que vous devez effectuer à l’aide de Adobe Experience Platform Privacy Service, et où trouver les éléments dont vous aurez besoin, voir [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
@@ -90,7 +90,7 @@ Vous pouvez récupérer des liens vers les rapports mensuels créés au cours de
 
 ### Méthode 2 : récupération des rapports d’exclusion de la vente pour les consommateurs à l’aide de la DSP de publicité [!DNL Trafficking API]
 
-Cette fonctionnalité est disponible pour les organisations qui utilisent la variable [!DNL Trafficking API]. Reportez-vous à la documentation de la section [!DNL Trafficking API] pour plus d’informations.
+Cette fonctionnalité est disponible pour les organisations qui utilisent la variable [!DNL Trafficking API]. Reportez-vous à la documentation de la section [!DNL Trafficking API] pour plus d’informations.<!-- Add link to API doc once it's published. -->
 
 Si votre entreprise n’utilise pas la variable [!DNL Trafficking API] mais pour plus d’informations, contactez votre équipe de compte d’Adobe.
 
