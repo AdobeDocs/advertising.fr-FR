@@ -4,7 +4,7 @@ description: Découvrez les types de requêtes de données pris en charge, les v
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 5edcd810c86f3b3ae65ccc92748177fa8cd0765e
+source-git-commit: 2e2d95ab2a6add695c3852a06e256b6db980779d
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Toutes ces étapes sont nécessaires pour recevoir le soutien d’Adobe Advertis
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (qui indique que la variable [!DNL adcloud] espace du cookie)
+   * `"namespace": **411**` (qui indique que la variable [!DNL adCloud] espace du cookie)
 
    * `"value":` &lt;*la valeur de l’ID de cookie du client réel telle qu’elle est récupérée à partir de`AdobePrivacy.js`*>
 
