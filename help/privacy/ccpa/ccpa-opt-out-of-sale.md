@@ -4,7 +4,7 @@ description: Découvrez la prise en charge de la capture des demandes d’opposi
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7613d49698bf303afad521e94471c11cd2a3e556
+source-git-commit: 7378ea6e6907aa4067bd3e73160a8e71c925ec9d
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%
@@ -121,17 +121,17 @@ curl -X POST \
             "type": "standard"
           },
           {
-            "namespace": "AdCloud",
+            "namespace": "adCloud",
             "type": "standard",
             "value":  "Wqersioejr-wdg",
           }
     ],
-    "include": ["AdCloud"],
+    "include": ["adCloud"],
     "regulation": "ccpa"
 }'
 ```
 
 où :
 
-* `"namespace": "AdCloud"` indique que la variable `AdCloud` espace de cookie et la valeur correspondante est l’ID de cookie du client tel qu’il est récupéré à partir de `AdobePrivacy.js`
-* `"include": ["AdCloud"]` indique que la demande s’applique à Adobe Advertising
+* `"namespace": "adCloud"` indique que la variable `adCloud` espace de cookie et la valeur correspondante est l’ID de cookie du client tel qu’il est récupéré à partir de `AdobePrivacy.js`
+* `"include": ["adCloud"]` indique que la demande s’applique à Adobe Advertising
