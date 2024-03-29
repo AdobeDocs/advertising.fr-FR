@@ -1,11 +1,11 @@
 ---
 title: A propos des notifications
 description: Découvrez les notifications, notamment les différents types et catégories.
-exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
+exl-id: 79495e1c-72ce-476f-83df-c4d95391f51c
 feature: Search Notifications
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 955f19647d49c31f70b8ec574734b44a9b490d52
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -44,25 +44,11 @@ Vous pouvez afficher vos notifications, les marquer comme lues ou non et les sup
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL UI Actions]**: notifications indiquant que les tâches effectuées en arrière-plan ont été terminées ou ont échoué. Les types de tâche incluent [Tâches de feuille de support](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), des tâches de modification en masse dans le tableau de données ou à l’aide de la barre d’outils, des tâches d’affectation d’entité ou d’autres actions de l’interface utilisateur (synchronisation avec les réseaux publicitaires, collage de lignes ou changement de nom des entités, par exemple). Les affectations d’entité incluent l’attribution ou l’annulation de l’attribution d’un [valeur de classification de libellé](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) à n’importe quelle entité, en attribuant une campagne à un portefeuille et en attribuant ou en annulant l’affectation d’une contrainte à un portefeuille.<!--Link "constraint" to constraint-about.md if that file is ever public -->
-
    * **[!UICONTROL Bulksheets]**: avertit qu’une [opération bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) a été terminé ou a échoué.
 
-   * **[!UICONTROL Manager Account Missing]**: notifications indiquant que Search, Social et Commerce n’a pas les informations d’identification pour une [compte de gestionnaire de réseau publicitaire](/help/search-social-commerce/admin/manager-accounts.md), qui servent à la configuration correcte des fonctions critiques.
+   * **[!UICONTROL Manager Account Missing]**: notifications indiquant que Search, Social et Commerce n’a pas les informations d’identification pour une [compte de gestionnaire de réseau publicitaire](/help/search-social-commerce/admin/manager-accounts.md), qui sont requises pour la configuration correcte des fonctions critiques.
 
-  <!--
-  * [!UICONTROL Setup Errors]
-  
-    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect [AMO ID template](/help/integrations/analytics/ids.md#amo-id-formats); or it's overridden at a lower level by an incorrect value.
-    
-    * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
-  -->
-
-   * [!UICONTROL Network Errors]
-
-      * **[!UICONTROL Manager Account Auth Error]**: notifications que Search, Social et Commerce n’a pas pu se synchroniser avec une [compte de gestionnaire de réseau publicitaire](/help/search-social-commerce/admin/manager-accounts.md) en raison d’informations d’identification non valides ou d’un jeton d’autorisation non valide ou arrivé à expiration.
-
-      * **[!UICONTROL Account Auth Error]**: notifications indiquant que Search, Social et Commerce n’a pas pu accéder à un [compte réseau publicitaire](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) en raison d’informations d’identification non valides ou d’un jeton d’autorisation non valide ou arrivé à expiration.
+   * **[!UICONTROL UI Actions]**: notifications indiquant que les tâches effectuées en arrière-plan ont été terminées ou ont échoué. Les types de tâche incluent [Tâches de feuille de support](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), des tâches de modification en masse dans le tableau de données ou à l’aide de la barre d’outils, des tâches d’affectation d’entité ou d’autres actions de l’interface utilisateur (synchronisation avec les réseaux publicitaires, collage de lignes ou changement de nom des entités, par exemple). Les affectations d’entité incluent l’attribution ou l’annulation de l’attribution d’un [valeur de classification de libellé](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) à n’importe quelle entité, en attribuant une campagne à un portefeuille et en attribuant ou en annulant l’affectation d’une contrainte à un portefeuille.<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
    * [!UICONTROL Data Upload]
 
@@ -70,22 +56,51 @@ Vous pouvez afficher vos notifications, les marquer comme lues ou non et les sup
 
       * **[!UICONTROL File Upload to Cloud Storage]**: utilisé pour une version bêta fermée
 
-<!--
-* [!UICONTROL Optimization]
--->
+   * [!UICONTROL Network Errors]
+
+      * **[!UICONTROL Account Auth Error]**: notifications indiquant que Search, Social et Commerce n’a pas pu accéder à un [compte réseau publicitaire](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) en raison d’informations d’identification non valides ou d’un jeton d’autorisation non valide ou arrivé à expiration.
+
+      * **[!UICONTROL Account Missing]**: notifications indiquant que Search, Social et Commerce n’a pas les informations d’identification pour une [compte réseau publicitaire](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+
+      * **[!UICONTROL Manager Account Auth Error]**: notifications que Search, Social et Commerce n’a pas pu se synchroniser avec une [compte de gestionnaire de réseau publicitaire](/help/search-social-commerce/admin/manager-accounts.md) en raison d’informations d’identification non valides ou d’un jeton d’autorisation non valide ou arrivé à expiration.
+
+  <!--
+  * [!UICONTROL Setup Errors]
+  
+    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect [AMO ID template](/help/integrations/analytics/ids.md#amo-id-formats); or it's overridden at a lower level by an incorrect value.
+    
+    * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are required for the correct setup of critical functions.
+  -->
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Custom Alerts]**: notifications que [instances d’alerte](/help/search-social-commerce/alerts/alert-about.md) ont été déclenchées pour un modèle d’alerte.
+   * **[!UICONTROL Advertising Insights]**: notifications que [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) a été terminé ou a échoué.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: avertit qu’une [flux de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) a été terminé ou a échoué.
+   * **[!UICONTROL Custom Alerts]**: notifications que [instances d’alerte](/help/search-social-commerce/alerts/alert-about.md) ont été déclenchées pour un modèle d’alerte.
 
    * **[!UICONTROL Reports]**: avertit qu’une [rapport personnalisé ou planifié](/help/search-social-commerce/reports/report-about.md) a été terminé ou a échoué.
 
-   * **[!UICONTROL Advertising Insights]**: notifications que [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) a été terminé ou a échoué.
+   * **[!UICONTROL Spreadsheet Feeds]**: avertit qu’une [flux de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) a été terminé ou a échoué.
+
+<!--
+* [!UICONTROL Optimization]
+
+  * **[!UICONTROL Accuracy]**: 
+
+-->
+
+<!--
+* [!UICONTROL Portfolio Management]
+
+  * **[!UICONTROL Simulation Report]**: 
+
+-->
 
 <!--
 * [!UICONTROL System]
+
+  * **[!UICONTROL Change Management]**: 
+
 -->
 
 >[!MORELIKETHIS]
