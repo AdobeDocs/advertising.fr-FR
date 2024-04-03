@@ -3,9 +3,9 @@ title: Bonnes pratiques pour la création d’un objectif personnalisé
 description: Découvrez les bonnes pratiques pour créer des objectifs personnalisés afin de définir vos événements de succès.
 feature: DSP Optimization, DSP Best Practices
 exl-id: 8b1247cd-083d-4c8c-8588-9e8c03c4cc67
-source-git-commit: 2c2f65f45fb7515068cee36493f514ce2e456e75
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Les exemples suivants montrent comment configurer des objectifs qui ciblent une seule mesure de conversion.
 
-### Exemple pour une campagne avec le[!UICONTROL Highest ROAS - Custom Goal]&quot;Objectif d’optimisation
+### Exemple pour une campagne avec le[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;Objectif d’optimisation
 
-Si l’objectif de votre campagne est le chiffre d’affaires ([!UICONTROL Highest ROAS - Custom Goal]), votre objectif personnalisé (objectif) comprend le paramètre &quot;&quot;[!UICONTROL Revenue]&quot; avec un poids d’un (1).
+Si l’objectif de votre campagne est le chiffre d’affaires ([!UICONTROL Highest Return on Ad Spend (ROAS)]), votre objectif personnalisé (objectif) comprend le paramètre &quot;&quot;[!UICONTROL Revenue]&quot; avec un poids d’un (1).
 
 ![exemple d’un objectif personnalisé ROAS avec une mesure de conversion unique](/help/dsp/assets/custom-goal-roas.png)
 
@@ -28,7 +28,7 @@ Si l’objectif de votre campagne est le chiffre d’affaires ([!UICONTROL Highe
 >
 > Par exemple, une conversion de 250 $ avec un poids de 1 est signalée comme étant de 250 $. Si la mesure de conversion se voit attribuer un poids de 0,5, la conversion de 250 $ est signalée comme étant de 125 $ en Adobe Advertising (250 $ Conversion * 0,5 [!UICONTROL Property Weight] = 125 $).
 
-### Exemple pour une campagne avec le[!UICONTROL Lowest CPA - Custom Goal]&quot;Objectif d’optimisation
+### Exemple pour une campagne avec le[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;Objectif d’optimisation
 
 Si l’objectif de votre campagne est le coût par acquisition le plus faible et qu’il ne nécessite qu’un seul événement de succès, vous allez inclure cette mesure (dans l’exemple suivant, &quot;Envoi de demande&quot;). La bonne pratique consiste à définir le poids sur un (1).
 
