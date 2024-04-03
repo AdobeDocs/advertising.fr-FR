@@ -3,9 +3,9 @@ title: Gestion des campagnes
 description: Découvrez comment créer et gérer des campagnes publicitaires.
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 813b2a100df7381bdcea1c44a37f86e65ee5794f
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -101,8 +101,8 @@ Vous pouvez également supprimer toute campagne de recherche active ou suspendue
 
 >[!MORELIKETHIS]
 >
->* [Paramètres de campagne Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
+>* [[!DNL Baidu] paramètres de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] paramètres de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
->* [Paramètres de campagne Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
->* [Yahoo ! Paramètres de campagne Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
->* [Paramètres de campagne Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
+>* [[!DNL Microsoft Advertising] paramètres de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
+>* [[!DNL Yahoo! Japan Ads] paramètres de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+>* [[!DNL Yandex] paramètres de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)

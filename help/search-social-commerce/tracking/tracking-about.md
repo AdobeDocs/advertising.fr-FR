@@ -1,11 +1,11 @@
 ---
 title: À propos du suivi pour Search, Social et Commerce
 description: Découvrez les options de suivi pour Search, Social et Commerce.
-exl-id: 0a26f67c-8b3b-4fa1-ac24-a8461624cfc5
+exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aeb5f9a903290926afc27fe32c32646561850cc1
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Si vous souhaitez effectuer le suivi de campagnes sur des réseaux publicitaires
 
 ### Balises de suivi des clics
 
-Votre équipe de mise en oeuvre de Search, Social et Commerce configure le suivi des clics en mettant à jour les modèles de suivi et les URL de destination pour les annonces, les mots-clés, les emplacements, les groupes de produits et les extensions de lien de site dans vos campagnes publicitaires synchronisées afin d’inclure une chaîne d’ID de suivi unique et une redirection d’Adobe Advertising. Ils ajoutent également le suivi aux suffixes de page d’entrée (suffixes d’URL finaux) pour votre [!DNL Google Ads] et [!DNL Microsoft Advertising] comptes et campagnes.
+Votre équipe de mise en oeuvre de Search, Social et Commerce configure le suivi des clics en mettant à jour les modèles de suivi et les URL de destination pour les annonces, les mots-clés, les emplacements, les groupes de produits et les extensions de lien de site dans vos campagnes publicitaires synchronisées afin d’inclure une chaîne d’ID de suivi unique et une redirection d’Adobe Advertising. Ils ajoutent également le suivi aux suffixes de page d’entrée (suffixes d’URL finaux) pour votre [!DNL Google Ads] et [!DNL Microsoft® Advertising] comptes et campagnes.
 
 Les paramètres de suivi permettent à l’Adobe Advertising de suivre les clics au niveau des mots-clés (campagnes de recherche) ou au niveau des variantes d’annonces (campagnes de recherche avec ciblage de contenu ou de site, campagnes d’affichage et campagnes sur les réseaux sociaux). Chaque fois qu’un utilisateur consulte une publicité d’affichage/de contenu ou clique sur l’une de vos publicités, le réseau publicitaire envoie l’événement aux serveurs de pixels d’Adobe Advertising à l’aide d’une balise de suivi des clics associée au mot-clé ou à la publicité. Pour les clics :
 
-* Pour les publicités Google Ads et Microsoft Advertising sur les navigateurs qui prennent en charge le suivi parallèle, le réseau publicitaire envoie d’abord le clic à votre site web, puis aux serveurs de pixels d’Adobe Advertising, qui placent ensuite un cookie sur l’ordinateur de l’utilisateur, s’il n’existe pas déjà.
+* Pour [!DNL Google Ads] et [!DNL Microsoft® Advertising] publicités sur les navigateurs qui prennent en charge le suivi parallèle, le réseau publicitaire envoie d’abord le clic à votre site web, puis aux serveurs de pixels d’Adobe Advertising, qui placent ensuite un cookie sur l’ordinateur de l’utilisateur, le cas échéant.
 
 * Dans tous les autres cas, le réseau publicitaire envoie directement le clic aux serveurs de pixels Adobe Advertising. Le serveur de pixel place un cookie sur l’ordinateur de l’utilisateur (s’il n’existe pas déjà), puis redirige l’utilisateur vers l’URL appropriée de votre site web. L’expérience globale de l’utilisateur final est la même que celle qui se présenterait sans redirection.
 

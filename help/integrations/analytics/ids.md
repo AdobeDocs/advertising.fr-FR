@@ -3,9 +3,9 @@ title: ID d’Adobe Advertising utilisés par [!DNL Analytics]
 description: ID d’Adobe Advertising utilisés par [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 0d48ceda77783cd8b5fd9e609da424dcfa94f278
+source-git-commit: 9374f5ef6aaff1f638022bc878c7af190e31888f
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1686'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ où :
 * `gclid` est la valeur [!DNL Google Click ID] (GCLID).
 * `s` est le type de réseau (&quot;s&quot; pour la recherche).
 
-#### Publicités de recherche Microsoft Advertising
+#### [!DNL Microsoft Advertising] annonces de recherche
 
 ```
 {msclkid}:G:s
