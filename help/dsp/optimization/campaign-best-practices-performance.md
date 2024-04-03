@@ -3,7 +3,7 @@ title: Bonnes pratiques pour configurer des campagnes de performances
 description: Découvrez les bonnes pratiques pour configurer vos campagnes axées sur les performances, qui incluent des emplacements optimisés pour le CPA le plus bas ou le ROAS le plus élevé.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
+source-git-commit: b3a03aa34bbdcf668a71d6810362d735c21961d7
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Utilisez également les paramètres suivants.
 
 * **Budget :** DSP essaiera toujours d’allouer 100 % du budget du package de manière égale entre tous les emplacements d’un package. Si un emplacement a de faibles dépenses ou pas de dépenses, nous vous recommandons de limiter le budget de l’emplacement afin de permettre une plus grande partie du budget à affecter aux emplacements à l’échelle. Prévoyez de 24 à 48 heures pour que les modifications du budget soient calibrées.
 
-* **Objectifs d’optimisation :** Utilisez l’un des deux objectifs d’optimisation des performances, *[!UICONTROL Highest ROAS]* ou *[!UICONTROL Lowest CPA]*, selon l’objectif du module. Ces objectifs optimisent automatiquement le package vers les emplacements de CPA les plus élevés ou les plus bas, respectivement.
+* **Objectifs d’optimisation :** Utilisez l’un des deux objectifs d’optimisation des performances, *[!UICONTROL Highest Return on Ad Spend]* ou *[!UICONTROL Lowest Cost per Acquisition]*, selon l’objectif du module. Ces objectifs optimisent automatiquement le package vers les emplacements de CPA les plus élevés ou les plus bas, respectivement.
 
 * **Objectifs personnalisés :**
    * Si un nouveau module a le même objectif qu’un module existant, vous pouvez éventuellement lier le module existant afin que l’algorithme puisse utiliser les données d’apprentissage automatique existantes.
