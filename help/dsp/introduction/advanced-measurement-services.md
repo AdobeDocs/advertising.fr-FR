@@ -2,9 +2,9 @@
 title: Solutions de mesure avancée
 description: Consultez la liste des solutions disponibles pour les mesures avancées.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: fed8daa79688d65d1b64ae8145cc1d1d0d84f11a
+source-git-commit: c06cbb80d9215ef7ce93d801520369ae8e316189
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ Les packages de solution de mesure suivants sont disponibles pour valider le suc
 
   Comprenez comment les audiences et les tactiques se chevauchent au niveau de la personne, y compris les expositions dans plusieurs environnements numériques, tels que les environnements de bureau, mobiles, natifs et audio.
 
-* **Portée sur les personnes utilisant les ID croisés**
+   * **Portée sur les personnes utilisant les ID croisés**
 
-  Quantifiez la portée unique et le chevauchement entre les cookies et les RampID, ainsi que le coût par mesure par type d’ID. Démontrez l’efficacité du test des RampID pour identifier la portée incrémentielle par rapport aux segments basés sur les cookies dans plusieurs environnements numériques, tels que les ordinateurs de bureau, les appareils mobiles, natifs et audio.
+     Quantifiez la portée unique et le chevauchement entre les cookies et les RampID, ainsi que le coût par mesure par type d’ID. Démontrez l’efficacité du test des RampID pour identifier la portée incrémentielle par rapport aux segments basés sur les cookies dans plusieurs environnements numériques, tels que les ordinateurs de bureau, les appareils mobiles, natifs et audio.
 
 * **[!DNL Dynata]Enquêtes basées sur des panneaux**
 
@@ -76,10 +76,6 @@ Les packages de solution de mesure suivants sont disponibles pour valider le suc
    * Portée, fréquence et mesure des conversions basées sur les ménages
 
      Tout client qui souhaite comprendre la portée/la portée incrémentielle et l’efficacité basée sur les coûts et/ou les mesures de conversion sur plusieurs tactiques numériques
-
-   * Portée sur les personnes utilisant les ID croisés
-
-     Tout client qui cherche à quantifier la portée unique et le chevauchement entre les cookies et les RampID et le coût par mesure par type d’ID pour plusieurs tactiques numériques.
 
    * Portée sur plusieurs écrans, fréquence et mesure des conversions
 
