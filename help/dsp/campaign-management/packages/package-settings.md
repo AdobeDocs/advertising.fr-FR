@@ -1,127 +1,127 @@
 ---
-title: Paramètres du module
-description: Reportez-vous à la description des paramètres de package disponibles.
+title: Paramètres du package
+description: Voir les descriptions des paramètres de package disponibles.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 0606614cc4fca842b800c089afa0303b67ecba5f
+source-git-commit: cb57ada624bdc810a0d6921e89deba832a2b16d9
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
-# Paramètres du module
+# Paramètres du package
 
 ## [!UICONTROL Basic Details]
 
-**[!UICONTROL Name]:** Nom du module. La longueur maximale est de 60 caractères.
+**[!UICONTROL Name]:** Nom du package. La longueur maximale est de 60 caractères.
 
-**[!UICONTROL Description]:** (Facultatif) Description du module.
+**[!UICONTROL Description]:** (Facultatif) Description du package.
 
-**[!UICONTROL 3rd Party Billed Fees]:** (Facultatif) Des frais tiers statiques à suivre en tant que coût non facturable :
+**[!UICONTROL 3rd Party Billed Fees]:** (Facultatif) Frais de tiers statiques à suivre en tant que coûts non facturables :
 
 >[!NOTE]
 >
->Les frais facturables sont reflétés dans la variable [!UICONTROL Net CPM] mesure.
+>Les frais facturables sont reflétés dans les [!UICONTROL Net CPM] métrique.
 >
-* **[!UICONTROL CPM]:** Le coût par 1 000 impressions (CPM).
+* **[!UICONTROL CPM]:** Coût par 1 000 impressions (CPM).
 
-* **[!UICONTROL CPM Description]:** Description des frais CPM.
+* **[!UICONTROL CPM Description]:** Une description des frais de CPM.
 
-Vous pouvez remplacer le paramètre au niveau du module à l’adresse [niveau de placement](/help/dsp/campaign-management/placements/placement-settings.md).
+Vous pouvez remplacer le paramètre au niveau du package à l’adresse [niveau de placement](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ## [!UICONTROL Goals & Budget]
 
-**[!UICONTROL Pacing & Capping]:** (Lecture seule pour les modules existants) À quel niveau placer et limiter les emplacements dans le module :
+**[!UICONTROL Pacing & Capping]:** (Lecture seule pour les packages existants) À quel niveau placer et limiter les emplacements dans le package :
 
-* **[!UICONTROL Package level pacing]:** Cette stratégie de fréquence fonctionne en plaçant et en plafonnant tous les emplacements inclus sous la forme *group*. Cette stratégie garantit que tous les emplacements d’un package donné sont optimisés de manière holistique, en répartissant les dépenses en fonction des performances et de l’échelle sur certains indicateurs clés de performance (IPC).
+* **[!UICONTROL Package level pacing]:** Cette stratégie de fréquence fonctionne en régulant et en plafonnant tous les emplacements inclus en tant que *groupe*. Cette stratégie permet de s’assurer que tous les emplacements au sein d’un package donné sont optimisés de manière holistique, en distribuant les dépenses en fonction des performances et en les mettant à l’échelle vers des indicateurs de performances clés (IPC) sélectionnés.
 
-* **[!UICONTROL Placement level pacing]:**  Cette stratégie de fréquence fonctionne en effectuant un rythme et un plafonnement de tous les emplacements inclus. *individuellement*. La bonne pratique consiste à utiliser cette stratégie uniquement pour exécuter des marchés privés garantis.
+* **[!UICONTROL Placement level pacing]:**  Cette stratégie de stimulation fonctionne en stimulant et en plafonnant tous les emplacements inclus *individuellement*. La bonne pratique consiste à utiliser cette stratégie uniquement pour exécuter des transactions de marché privé garanties.
 
-**[!UICONTROL Flight Dates]:** Date de début et date de fin du package.
+**[!UICONTROL Flight Dates]:** La date de début et de fin du package.
 
-Si vous le souhaitez, vous pouvez créer des vols de fréquence variable pour le kit, sélectionnez *[!UICONTROL *Activate Custom Flighting]** et configurez les vols personnalisés dans le [!UICONTROL Flighting] ci-dessous. Une fois que vous avez activé le vol personnalisé et enregistré le package, vous ne pouvez pas désactiver le vol personnalisé.
+Pour créer éventuellement des vols à fréquence inégale pour le package, sélectionnez *[!UICONTROL *Activate Custom Flighting]** et configurer les vols personnalisés dans le [!UICONTROL Flighting] section ci-dessous. Une fois que vous avez activé la mise en surbrillance personnalisée et enregistré le package, vous ne pouvez plus désactiver la mise en surbrillance.
 
 >[!NOTE]
 >
->* Les dates de vol doivent être incluses dans les dates de vol de l&#39;opération. De plus, les dates de vols de tous les emplacements affectés à ce package doivent être incluses dans ces dates.
-> * Vous ne pouvez pas modifier la date de début du module lorsque l’éclairage personnalisé est activé.
+>* Les dates des vols doivent être incluses dans les dates des vols de la campagne. En outre, les dates de vol pour tous les emplacements affectés à ce package doivent être incluses dans ces dates.
+> * Vous ne pouvez pas modifier la date de début du package lorsque le vol personnalisé est activé.
 
-**[!UICONTROL Budget]:** (Packages avec une fréquence au niveau du package uniquement) Le plafond budgétaire brut et l’intervalle de budget.
+**[!UICONTROL Budget]:** (Packages avec fréquence au niveau du package uniquement) La limite du budget brut et l’intervalle budgétaire.
 
-Pour les modules avec un vol personnalisé, l’intervalle de budget est toujours *[!UICONTROL All time]*. Pour les packages sans vol personnalisé, spécifiez l’intervalle de budget : *[!UICONTROL All time],* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
+Pour les packages avec vols personnalisés, l’intervalle budgétaire est toujours *[!UICONTROL All time]*. Pour les packages sans vol personnalisé, indiquez l&#39;intervalle budgétaire : *[!UICONTROL All time],* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
 
-**[!UICONTROL Gross Budget]:** (Modules avec un rythme au niveau des packages et gestion dynamique des marges uniquement) Le plafond brut du budget pour la durée du package.
+**[!UICONTROL Gross Budget]:** (Packages avec régulation au niveau du package et gestion dynamique des marges uniquement) Limite du budget brut pour la durée du package.
 
-**[!UICONTROL Optimization Goal]:** (Modules avec un rythme au niveau du module uniquement) L’objectif d’optimisation du module. Consultez les descriptions de chaque objectif d’optimisation à l’adresse [Objectifs d’optimisation et utilisation](/help/dsp/optimization/optimization-goals.md).
+**[!UICONTROL Optimization Goal]:** (Packages avec fréquence au niveau du package uniquement) Objectif d’optimisation pour le package. Consultez les descriptions de chaque objectif d’optimisation à l’adresse . [Objectifs d’optimisation et utilisation](/help/dsp/optimization/optimization-goals.md).
 
-**[!UICONTROL Custom Goal for Model Learning]:** (Modules avec le[!UICONTROL Highest Return on Ad Spend]&quot; et &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;objectifs d’optimisation uniquement) A [objectif personnalisé](/help/dsp/optimization/custom-goal-about.md) qui inclut les recettes ou les événements de conversion utilisés pour calculer la mesure CPA ou ROAS. L’objectif personnalisé peut éventuellement inclure d’autres événements d’entonnoir supérieur pondérés (tels que les visites de pages et les ajouts au panier) à utiliser en plus de la mesure CPA ou ROAS pour l’optimisation du package. Pour plus d’informations sur les bonnes pratiques relatives aux objectifs personnalisés et aux campagnes qui les utilisent, voir  [Bonnes pratiques pour la création d’un objectif personnalisé](/help/dsp/optimization/custom-goal-best-practices.md) et [Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md).
+**[!UICONTROL Custom Goal for Model Learning]:** (Packages avec le[!UICONTROL Highest Return on Ad Spend]« et »[!UICONTROL Lowest Cost per Acquisition] » objectifs d’optimisation uniquement) A [objectif personnalisé](/help/dsp/optimization/custom-goal-about.md) qui inclut les revenus ou les événements de conversion utilisés pour calculer la mesure CPA ou ROAS. L’objectif personnalisé peut éventuellement inclure des événements supplémentaires pondérés de l’entonnoir supérieur (tels que les visites de page et les ajouts au panier) à utiliser en plus de la mesure CPA ou ROAS pour l’optimisation des packages. Pour plus d’informations sur les bonnes pratiques relatives aux objectifs personnalisés et aux campagnes qui les utilisent, voir  [Bonnes pratiques pour créer un objectif personnalisé](/help/dsp/optimization/custom-goal-best-practices.md) et [Bonnes pratiques relatives à la configuration des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md).
 
-**[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Facultatif ; inclut le paramètre[!UICONTROL Highest Return on Ad Spend]&quot; et &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;objectifs d’optimisation uniquement) Indique au modèle d’optimisation de n’apprendre que des conversions basées sur les clics. Dans le cas contraire, le modèle d’optimisation tire les leçons des conversions basées sur les clics et les impressions.
+**[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Facultatif ; packages avec «[!UICONTROL Highest Return on Ad Spend]« et »[!UICONTROL Lowest Cost per Acquisition] » objectifs d’optimisation uniquement) Indique au modèle d’optimisation de n’apprendre que des conversions basées sur les clics. Sinon, le modèle d’optimisation tire parti des conversions basées sur les clics et les impressions.
 
-**[!UICONTROL Conversion Metric]:** (Facultatif ; inclut le paramètre[!UICONTROL Highest Return on Ad Spend]&quot; et &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;objectifs d’optimisation uniquement) L’événement de conversion final (par exemple, les inscriptions) ou le montant d’événement/vente de recettes (tels que les achats et les valeurs d’achat) à utiliser pour calculer le retour sur dépenses publicitaires ou le coût par acquisition. Effectuez une sélection dans une liste de tous les événements mappés à l’objectif personnalisé sélectionné.
+**[!UICONTROL Conversion Metric]:** (Facultatif ; packages avec «[!UICONTROL Highest Return on Ad Spend]« et »[!UICONTROL Lowest Cost per Acquisition]« objectifs d’optimisation uniquement) Événement de conversion final (tel que les inscriptions) ou montant de l’événement/de la vente de chiffre d’affaires (tel que les achats et les valeurs d’achat) à utiliser pour calculer le retour sur dépenses publicitaires ou le coût par acquisition. Effectuez une sélection dans une liste de tous les événements principaux (« mesures d’objectif ») mappés à l’objectif personnalisé sélectionné. Si la liste est vide, modifiez l’objectif personnalisé afin d’inclure au moins l’un des événements sous-jacents en tant que mesure d’objectif.
 
-**[!UICONTROL Package Goal Type]:** (Modules avec objectifs d’optimisation personnalisés uniquement) L’objectif du module. Ce paramètre permet de déterminer comment optimiser le module :
+**[!UICONTROL Package Goal Type]:** (Packages avec des objectifs d’optimisation personnalisés uniquement) Objectif du package. Ce paramètre permet de déterminer comment optimiser le package :
 
-* *[!UICONTROL Prospecting]:* Les forfaits de prospection se concentrent sur l&#39;acquisition de nouveaux clients.
+* *[!UICONTROL Prospecting]:* Les forfaits de prospection visent à acquérir de nouveaux clients.
 
-* *[!UICONTROL Retargeting]:* Les modules de reciblage se concentrent sur la réexposition des visiteurs ou clients précédents.
+* *[!UICONTROL Retargeting]:* Les packages de reciblage se concentrent sur la réexposition des visiteurs ou des clients précédents.
 
-* *[!UICONTROL Other]:* Tous les autres usages.
+* *[!UICONTROL Other]:* À toutes autres fins.
 
-**[!UICONTROL Linked Package for Optimization Learnings Carryover]:** (Modules avec objectifs d’optimisation personnalisés uniquement) Autre module dont les données historiques sont utilisées comme entrée pour optimiser le module.
+**[!UICONTROL Linked Package for Optimization Learnings Carryover]:** (Packages avec des objectifs d’optimisation personnalisés uniquement) Autre package dont les données historiques sont utilisées comme entrée pour l’optimisation du package.
 
-**[!UICONTROL Target]:** (Modules avec un rythme au niveau du module uniquement) Objectif cible, utilisé pour effectuer le suivi des performances.
+**[!UICONTROL Target]:** (Packages avec fréquence au niveau du package uniquement) Objectif cible, utilisé pour effectuer le suivi des performances.
 
 >[!NOTE]
 >
 >Ce champ n’est qu’une référence et n’est pas utilisé pour la prise de décision.
 
-**[!UICONTROL Frequency Cap]:** (Modules avec une fréquence au niveau du module uniquement) Nombre de fois où un appareil ou une personne unique (selon la variable [!UICONTROL Cross Device Level] pour la campagne) peuvent être diffusées des publicités à partir du package. Les options incluent *[!UICONTROL Unlimited]* ou un montant spécifique par jour, semaine ou mois.
+**[!UICONTROL Frequency Cap]:** (Packages avec fréquence au niveau du package uniquement) Nombre de fois qu’un appareil ou une personne unique (selon le spécifié [!UICONTROL Cross Device Level] pour la campagne) peuvent être diffusés à partir du package. Les options incluent : *[!UICONTROL Unlimited]* ou un montant spécifique par jour, semaine ou mois.
 
 >[!NOTE]
 >
->* Vous pouvez définir des limites de fréquence aux niveaux de la campagne, du kit et de l’emplacement. DSP respecte la limite de fréquence la plus stricte de la hiérarchie de l&#39;opération.
+>* Vous pouvez définir des limites de fréquence au niveau de la campagne, du package et de l’emplacement. DSP respecte la limite de fréquence la plus stricte dans la hiérarchie de la campagne.
 >* La bonne pratique consiste à définir des limites de fréquence pour la prospection et le reciblage au niveau du package.
-> * Des plafonds de fréquence plus élevés se traduisent par des dépenses et des impressions plus élevées, mais une portée moindre. Les limites de fréquence plus basses se traduisent par des dépenses et des impressions plus faibles, mais une portée plus élevée.
+> * Des limitations de fréquence plus élevées entraînent des dépenses et des impressions plus élevées, mais une portée plus faible. Des limitations de fréquence plus faibles entraînent des dépenses et des impressions plus faibles, mais une portée plus élevée.
 
-**[!UICONTROL Pace on]:** (Modules avec mise en page au niveau du module uniquement) Sur quoi repose l’application :
+**[!UICONTROL Pace on]:** (Packages avec fréquence au niveau du package uniquement) Sur quoi la fréquence est basée :
 
-* *[!UICONTROL Budget]:* (Par défaut) Cette option produit autant d’impressions que possible dans le budget alloué du module.
+* *[!UICONTROL Budget]:* (Par défaut) Cette option génère autant d’impressions que possible dans le budget alloué au package.
 
-* *[!UICONTROL Impressions]:* Cette option permet de délivrer des impressions jusqu’à ce qu’une quantité spécifiée soit atteinte au cours d’un intervalle spécifié. Lorsque vous sélectionnez cette option, indiquez le nombre d’impressions et l’intervalle : *Tout le temps* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
+* *[!UICONTROL Impressions]:* Cette option délivre des impressions jusqu’à ce qu’une quantité spécifiée soit atteinte dans un intervalle spécifié. Lorsque vous sélectionnez cette option, indiquez le nombre d’impressions et l’intervalle : *À tout moment,* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
 
-**[!UICONTROL Flight pacing]:** (Modules avec fréquence au niveau du module uniquement) Comment espacer et diffuser sur l’ensemble du vol :
+**[!UICONTROL Flight pacing]:** (Packages avec fréquence au niveau du package uniquement) Comment effectuer la fréquence et la diffusion sur l’ensemble du vol :
 
-* *[!UICONTROL Even]:* Effectue un espacement uniforme de la diffusion à chaque vol, avec une cible de 50 % de la diffusion dans la première moitié du vol.
+* *[!UICONTROL Even]:* La livraison se fait de manière uniforme sur chaque vol, avec un objectif de 50% de la livraison dans la première moitié du vol.
 
-* *[!UICONTROL Slightly Ahead]:* (La valeur par défaut) Accélère la diffusion, de sorte qu’elle se termine à 55 à 65 % à mi-chemin de la durée du vol.
+* *[!UICONTROL Slightly Ahead]:* (Valeur par défaut) Accélère la diffusion afin qu’elle soit terminée à 55-65 % au milieu de la durée du vol.
 
-* *[!UICONTROL Frontload]:* Accélère la diffusion de sorte qu’elle soit de 65 à 75 % complète à mi-chemin du vol.
+* *[!UICONTROL Frontload]:* Accélère la livraison de sorte qu&#39;elle soit terminée à 65-75 % au milieu du vol.
 
-* *[!UICONTROL Aggressive Frontload]:* Accélère la diffusion de sorte qu’elle soit complète à 75 à 85 % à mi-chemin du vol.
+* *[!UICONTROL Aggressive Frontload]:* Accélère la livraison de sorte qu&#39;elle soit terminée à 75-85 % au milieu du vol.
 
-**[!UICONTROL Intraday pacing]:** (Modules avec une fréquence au niveau du module uniquement) Comment espacer et diffuser chaque jour pendant le vol :
+**[!UICONTROL Intraday pacing]:** (Packages avec fréquence au niveau du package uniquement) Comment effectuer la fréquence et la diffusion sur chaque jour du vol :
 
-* *[!UICONTROL Even]:* (Par défaut) Lance la diffusion en fonction de la disponibilité du stock. En règle générale, plus de publicités sont diffusées par heure dans la journée, lorsque le volume des enchères est plus élevé et moins de publicités sont diffusées le matin et le soir.
+* *[!UICONTROL Even]:* (Valeur par défaut) Mise à l’échelle de la diffusion en fonction de la disponibilité du stock. Généralement, plus de publicités sont diffusées par heure pendant la journée, lorsque le volume des enchères est plus élevé, et moins de publicités sont diffusées le matin et le soir.
 
-* *[!UICONTROL ASAP]:* Accélère la diffusion à deux fois la vitesse de *Même*.
+* *[!UICONTROL ASAP]:* Accélère la diffusion à une vitesse deux fois supérieure à *Événement*.
 
   >[!CAUTION]
   >
-  >Cette option peut avoir une incidence négative sur les performances. Utilisez-le uniquement lorsque vous priorisez entièrement la diffusion et que vous dépensez plus que l’optimisation des performances.
+  >Cette option peut avoir une incidence négative sur les performances. Utilisez-le uniquement lorsque vous donnez la priorité absolue à la diffusion et aux dépenses plutôt qu’à l’optimisation des performances.
 
 ## [!UICONTROL Flighting]
 
-(Modules avec une fréquence au niveau du module et avec &quot;[!UICONTROL Activate Custom Flighting]&quot; activée&quot;) Périodes de vol personnalisées dans l’ensemble [!UICONTROL Flight Dates] spécifié dans la variable [!UICONTROL Goals & Budget] .
+(Packages avec fréquence au niveau du package et avec «[!UICONTROL Activate Custom Flighting] » activé) Périodes de vol personnalisées dans l’ensemble [!UICONTROL Flight Dates] spécifié dans le [!UICONTROL Goals & Budget] section.
 
-Pour chaque vol, indiquez la date de début, la date de fin et le nombre cible d&#39;impressions. Pour ajouter un autre vol, cliquez sur **[!UICONTROL Add Flight]**.
+Pour chaque vol, saisissez la date de début, la date de fin et le nombre d’impressions cible. Pour ajouter un autre vol, cliquez sur **[!UICONTROL Add Flight]**.
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion de modules](package-about.md)
->* [Création d’un module](package-create.md)
->* [Modification d’un module](package-edit.md)
+>* [À propos de la gestion des packages](package-about.md)
+>* [Création d’un package](package-create.md)
+>* [Modification d’un package](package-edit.md)
 >* [Joindre un emplacement à un package](package-attach-placement.md)
->* [Affichage du journal des modifications d’un module](package-change-log.md)
->* [Questions fréquentes à propos de Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+>* [Affichage du journal des modifications d’un package](package-change-log.md)
+>* [Questions fréquentes sur Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
