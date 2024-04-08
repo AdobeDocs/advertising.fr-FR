@@ -2,9 +2,9 @@
 title: Objectifs personnalisés
 description: Découvrez les objectifs personnalisés pour définir vos événements de succès dans des packages optimisés pour la CPA la plus faible ou le retour sur investissement le plus élevé.
 feature: DSP Optimization
-source-git-commit: c5973ac62ea6925252438dbd67d934303a23ccf3
+source-git-commit: 6dba85185789c365bd72787eb0fa16ef90bf6b9e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Pour créer un objectif personnalisé, le compte DSP doit être lié à un [!DNL
 
 Dans les paramètres du package DSP pour les packages qui utilisent l’objectif d’optimisation « [!UICONTROL Highest Return on Ad Spend (ROAS)"] ou «[!UICONTROL Lowest Cost per Acquisition (CPA)], » le nom de l’objectif est désormais inclus dans [!UICONTROL Custom Goals] liste. Lorsque vous sélectionnez l’objectif en tant qu’objectif personnalisé d’un package, le [!UICONTROL Conversion Metric] la liste inclut toutes les mesures d’objectif pour l’objectif.
 
-## Bonnes pratiques pour créer un objectif personnalisé [#custom-goal-best-practices]
+## Bonnes pratiques pour créer un objectif personnalisé {#custom-goal-best-practices}
 
 ### Objectifs personnalisés avec une mesure unique
 
