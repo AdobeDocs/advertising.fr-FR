@@ -3,7 +3,7 @@ title: Paramètres de suivi facultatifs des URL de suivi des clics
 description: Découvrez les paramètres de suivi facultatifs Search, Social et Commerce et les paramètres de suivi spécifiques au réseau publicitaire que vous pouvez ajouter à vos URL de suivi des clics.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: cc312009303f86a2f9eddcc98f33d7e2c22fcb85
+source-git-commit: c750d9872dc15d541883f397d88a4c3c4d4aeaf0
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Paramètres de suivi facultatifs des URL de suivi des clics
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo Native], [!DNL Yahoo! Japan], et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan], et [!DNL Yandex] comptes uniquement*
 
 Au lieu d’utiliser uniquement les paramètres de suivi standard pour une URL finale ou une URL de destination, vous pouvez ajouter d’autres paramètres pour effectuer le suivi de données spécifiques pour un compte de réseau publicitaire. Vous pouvez ajouter n’importe quelle combinaison des paramètres suivants dans les paramètres du compte ou dans les paramètres de l’opération :
 
