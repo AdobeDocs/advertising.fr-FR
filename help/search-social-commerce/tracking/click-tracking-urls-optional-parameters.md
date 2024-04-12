@@ -3,9 +3,9 @@ title: Paramètres de suivi facultatifs des URL de suivi des clics
 description: Découvrez les paramètres de suivi facultatifs Search, Social et Commerce et les paramètres de suivi spécifiques au réseau publicitaire que vous pouvez ajouter à vos URL de suivi des clics.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: 3460011a707608c172920801196837f7a278e2c0
+source-git-commit: cc312009303f86a2f9eddcc98f33d7e2c22fcb85
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -66,12 +66,16 @@ Voir [https://support.google.com/google-ads/answer/2375447](https://support.goog
 
 Voir [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 
+&quot;&quot;&quot;&quot;&lt; Mise à jour en amont
 ## [!DNL Yahoo Native] paramètres de suivi dynamique
 
 Voir [https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters](https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters).
 
 ## [!DNL Yahoo! Japan Ads] paramètres de suivi dynamique
-
+=======
+## Yahoo ! Paramètres de suivi dynamique des annonces japonaises
+>>>>>>>>>>Modifications bloquées
+> 
 Voir [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## [!DNL Yandex] paramètres de suivi dynamique
@@ -80,4 +84,4 @@ Voir [https://yandex.com/support/direct/statistics/url-tags.html](https://yandex
 
 >[!MORELIKETHIS]
 >
->* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion Adobe Advertising](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
+* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion Adobe Advertising](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
