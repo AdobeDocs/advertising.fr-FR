@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 820fbfb2b572df628976b03d186e5704ecd092a9
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '3511'
+source-wordcount: '3516'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,7 @@ Insérez un code postal par ligne ou saisissez plusieurs valeurs séparées par 
 
 **[!UICONTROL Inventory Sources]:** Sources d’inventaire à inclure ou à exclure en tant que cibles. Pour la plupart des types d’emplacements, tous les types d’inventaire et toutes les sources pour chaque type sont inclus par défaut. Pour [!DNL Roku] emplacements, vous devez spécifier le type d’inventaire et les sources. Vous pouvez choisir parmi les types de stock suivants :
 
-* [!UICONTROL Public]: (tous les types d’emplacements, à l’exception de Roku) tout stock d’échange ouvert auquel DSP a accès. Vous pouvez inclure et exclure l’inventaire public.
+* [!UICONTROL Public]: (tous les types d’emplacements, à l’exception de Roku) tous les exchanges ouverts auxquels DSP a accès. Vous pouvez inclure et exclure l’inventaire public.
 
   Vous pouvez afficher la liste par source ou par flux. Lorsque vous affichez la liste par flux, vous pouvez effectuer une recherche par nom de flux, clé de flux ou balise de caractéristique sélectionnée.
 
@@ -475,6 +475,7 @@ Quel niveau de [Ads.txt](https://iabtechlab.com/ads-txt-about/) filtrage pré-en
 >* [À propos de la gestion des emplacements](placement-about.md)
 >* [Création d’un emplacement](placement-create.md)
 >* [Modifier un emplacement](placement-edit.md)
+>* [Gestion des multiplicateurs d’offre pour les emplacements](placement-manage-bid-multipliers.md)
 >* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Questions fréquentes à propos de Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)

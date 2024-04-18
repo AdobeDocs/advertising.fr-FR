@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: 79de03696624146d7c82e8658229d19059dc1713
+source-git-commit: c5f26fba0dcf26e0017d881b5ccd9101f98ff43f
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '923'
 ht-degree: 3%
 
 ---
@@ -63,6 +63,7 @@ ht-degree: 3%
       + [Modifier un emplacement](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Modifier rapidement les paramètres de positionnement des clés](/help/dsp/campaign-management/placements/placement-quick-edit.md)
       + [Dupliquer un emplacement](/help/dsp/campaign-management/placements/placement-duplicate.md)
+      + [Gestion des multiplicateurs d’offre pour les emplacements](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [Joindre des publicités à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
       + [Modification des planifications de publicité pour les emplacements](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [Affichage d’un rapport détaillé pour un emplacement](/help/dsp/campaign-management/placements/placement-view-report.md)

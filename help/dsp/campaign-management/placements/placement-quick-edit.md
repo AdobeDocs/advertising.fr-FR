@@ -3,9 +3,9 @@ title: Modifier rapidement les paramètres de positionnement des clés
 description: Découvrez comment modifier rapidement les paramètres d’emplacement clés.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Vous pouvez modifier le nom, l’état, l’offre maximale et le budget de l’e
 >* [Création d’un emplacement](placement-create.md)
 >* [Modifier un emplacement](placement-edit.md)
 >* [Dupliquer un emplacement](placement-duplicate.md)
+>* [Gestion des multiplicateurs d’offre pour les emplacements](placement-manage-bid-multipliers.md)
 >* [Modification des planifications de publicité pour les emplacements](placement-edit-ad-schedule.md)
 >* [Mettre en pause ou activer un emplacement](placement-pause-activate.md)
 >* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
