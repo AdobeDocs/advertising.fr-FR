@@ -2,9 +2,9 @@
 title: Gestion des multiplicateurs d’offre pour les emplacements
 description: Découvrez comment créer et modifier des multiplicateurs d’offre pour des cibles d’emplacement spécifiées.
 feature: DSP Placements
-source-git-commit: 6994a15af080057889607c0e28dd519a1ddb28de
+source-git-commit: b3932c066e0ecd29e57152f0654ee4b0d9e0dda1
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '409'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Vous pouvez configurer des modificateurs d’offre uniquement pour les cibles in
 
 * **Cibles d’audience :** segments, tranches horaires et rubriques
 
-* **ads.txt cibles :** (Lorsque vous vous désabonnez de ads.txt) uniquement ads.txt sellers, ads.txt direct sellers et ads.txt sellers plus des sites sans ads.txt.
+* **ads.txt cibles :** (Lorsque vous vous désabonnez de ads.txt, ce qui vous permet d’acheter des stocks à tous les vendeurs) ads.txt uniquement, ads.txt direct sellers, ads.txt sellers plus sites sans ads.txt <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
 
 ## Nombre maximal de multiplicateurs d’offre par type de cible {#bid-multiplier-limits-by-target}
 
