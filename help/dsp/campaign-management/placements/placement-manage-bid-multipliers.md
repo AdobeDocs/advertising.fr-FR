@@ -2,7 +2,7 @@
 title: Gestion des multiplicateurs d’offre pour les emplacements
 description: Découvrez comment créer et modifier des multiplicateurs d’offre pour des cibles d’emplacement spécifiées.
 feature: DSP Placements
-source-git-commit: 7a794394d9338cb2608ce3d89c90b122f8eee9dc
+source-git-commit: 6994a15af080057889607c0e28dd519a1ddb28de
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 3%
@@ -15,7 +15,7 @@ Cette fonctionnalité vous permet de modifier les multiplicateurs d’offre pour
 
 Pour modifier les cibles sélectionnées pour vos emplacements, voir &quot;[Modifier un emplacement](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
-<!--  
+<!-- 
 ## Manage the Bid Multipliers for a Single Placement
 -->
 
