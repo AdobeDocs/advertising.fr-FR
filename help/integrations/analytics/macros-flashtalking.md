@@ -3,9 +3,9 @@ title: Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Flashtalking] 
 description: Découvrez pourquoi et comment ajouter [!DNL Analytics for Advertising] des macros à vos [!DNL Flashtalking] balises publicitaires
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca8260e643f24787f7918249906f3f38f3bbef6d
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -32,21 +32,33 @@ Utilisez des macros pour [!DNL Flashtalking] publicités display et vidéo pour 
 
 Dans le [!DNL Flashtalking] paramètres de balise publicitaire, ajoutez la macro suivante à la fin de l’URL de clic publicitaire dans le `Clicktag` field :
 
-```html
-?[ftqs:[AdobeAMO]]
+```
+[ftqs:[AdobeAMO]]
 ```
 
-Exemple :  `https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+Il s’agit de la première ou de la seule chaîne de requête après l’URL de base, puis séparez-la de l’URL de base avec une `?`. Si l’URL de base contient plusieurs chaînes de requête, commencez la première chaîne par une `?` et chaque chaîne suivante avec un `&`.
+
+Exemples :
+
+`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+
+`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## Balises de publicité vidéo
 
 Dans le [!DNL Flashtalking] paramètres de balise publicitaire, ajoutez la macro suivante à la fin de l’URL de clic publicitaire dans le `Clicktag` field :
 
-```html
-?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
+```
+[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-Exemple :  `https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+Il s’agit de la première ou de la seule chaîne de requête après l’URL de base, puis séparez-la de l’URL de base avec une `?`. Si l’URL de base contient plusieurs chaînes de requête, commencez la première chaîne par une `?` et chaque chaîne suivante avec un `&`.
+
+Exemples :
+
+`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+
+`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >
