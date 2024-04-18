@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Google Ads] campagnes.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
+source-git-commit: 66f6f659e46d2a08e0f7b958be8f60ba5e9720b3
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '2378'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Enhanced CPC]:* (Non disponible pour la performance maximale ou existant, lecture seule) [!DNL Gmail] campagnes) Utilise le modèle de coût par clic amélioré du réseau publicitaire, qui permet au réseau publicitaire de modifier automatiquement l’offre coût par clic (CPC) pour chaque enchère afin d’optimiser les conversions à l’aide des conversions spécifiées dans le réseau publicitaire (et non dans Search, Social et Commerce), tout en essayant de maintenir le CPC moyen en dessous du CPC maximum.
 
-Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de réseaux sociaux et de commerce optimisé, Search, Social et Commerce optimise les offres de base et , lorsque le paramètre[!UICONTROL Auto adjust campaign budget limits]&quot; est activée : le budget de l’opération. Le réseau publicitaire optimise tous les ajustements d’offres et peut modifier les offres générées par Search, Social et Commerce au moment de la requête de l’utilisateur en fonction de données et d’informations propriétaires. **Attention :** Utilisez les campagnes eCPC dans les portfolios uniquement lorsque le total des conversions suivies sur le réseau publicitaire correspond à l’objectif du portfolio. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
+Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de réseaux sociaux et de Commerce optimisé, Search, Social et Commerce optimise les offres de base et , lorsque le paramètre[!UICONTROL Auto adjust campaign budget limits]&quot; est activée : le budget de l’opération. Le réseau publicitaire optimise tous les ajustements d’offres et peut modifier les offres générées par Search, Social et Commerce au moment de la requête de l’utilisateur en fonction de données et d’informations propriétaires. **Attention :** Utilisez les campagnes eCPC dans les portfolios uniquement lorsque le total des conversions suivies sur le réseau publicitaire correspond à l’objectif du portfolio. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
 
 * *[!UICONTROL Manual CPC]* (valeur par défaut) : (non disponible pour les campagnes de performances max.) utilise le modèle coût par clic (CPC). Vous pouvez éventuellement autoriser le réseau publicitaire à modifier les offres pour la campagne :
 
@@ -84,7 +84,7 @@ Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de 
 
 * *[!UICONTROL Maximize Conversions]:* (Campagnes de recherche, d’affichage et de performances max.) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres pour maximiser les conversions. Si vous le souhaitez, vous pouvez saisir un **[!UICONTROL Target CPA]** (coût par acquisition). **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides, mais pas dans des portfolios standard.
 
-* *[!UICONTROL Target CPA]:* (Campagnes d’affichage ; campagnes de recherche existantes) Le réseau publicitaire, et non Search, Social et Commerce, optimise les offres en fonction d’une **[!UICONTROL Target CPA]** (coût par acquisition), qui est le montant moyen de 30 jours que vous souhaitez payer pour une acquisition (conversion). **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides (mais pas dans des portfolios standard) avec une stratégie de dépenses, à l’exception de [!UICONTROL Weekly] ou [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]:* (Campagnes d’affichage ; campagnes de recherche existantes) Le réseau publicitaire, et non Search, Social et Commerce, optimise les offres sur la base d’un **[!UICONTROL Target CPA]** (coût par acquisition), qui est le montant moyen de 30 jours que vous souhaitez payer pour une acquisition (conversion). **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides (mais pas dans des portfolios standard) avec une stratégie de dépenses, à l’exception de [!UICONTROL Weekly] ou [!UICONTROL Google Target CPA].
 
   La position moyenne et les données sur l&#39;offre du CPC ne sont pas disponibles pour les campagnes avec cette stratégie d&#39;offre.
 
@@ -92,7 +92,7 @@ Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de 
 
 * *[!UICONTROL Target Impression Share]:* (Campagnes de recherche) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres pour obtenir un partage d’impression cible et une position publicitaire. Si vous le souhaitez, vous pouvez saisir une **[!UICONTROL Target Impression Share]** en pourcentage, la valeur **[!UICONTROL Target Ad Position]**, et a **[!UICONTROL Max CPC]** (coût par clic). **Remarque :** Cette option n’est pas prise en charge dans les portefeuilles.
 
-* *[!UICONTROL Target Return on Ad Spend]:*  (Campagnes d’affichage et d’achat ; campagnes de recherche existantes) Le réseau publicitaire, et non Search, Social &amp; Commerce, optimise les offres en fonction d’une **[!UICONTROL Target ROAS]** (retour sur dépenses publicitaires), spécifié en pourcentage. **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides (mais pas dans des portfolios standard) avec une stratégie de dépenses, à l’exception de [!UICONTROL Weekly] ou [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:*  (Campagnes d’affichage et d’achat ; campagnes de recherche existantes) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres en fonction d’une **[!UICONTROL Target ROAS]** (retour sur dépenses publicitaires), spécifié en pourcentage. **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides (mais pas dans des portfolios standard) avec une stratégie de dépenses, à l’exception de [!UICONTROL Weekly] ou [!UICONTROL Google Target ROAS].
 
   La position moyenne et les données sur l&#39;offre du CPC ne sont pas disponibles pour les campagnes avec cette stratégie d&#39;offre.
 
@@ -156,7 +156,7 @@ Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de 
 
 **Remarque :**
 
-* Search, Social et Commerce ne fournit pas d’ajustements d’enchères auto-ajustés pour les cibles d’emplacement suivantes en raison de limitations dans les données que la variable [!DNL Google Ads] fournit pour mapper les emplacements des surfeurs aux cibles d’emplacement :
+* Search, Social et Commerce ne fournit pas d’ajustement d’offre ajusté automatiquement pour les cibles d’emplacement suivantes en raison de limitations des données que la variable [!DNL Google Ads] fournit pour mapper les emplacements des surfeurs aux cibles d’emplacement :
 
    * Cibles de rayon.
 

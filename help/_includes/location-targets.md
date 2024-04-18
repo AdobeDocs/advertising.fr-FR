@@ -1,13 +1,15 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 6b4dd1b8912703a5d45ffa872fe0231716cfb9a5
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 # Champ Cibles de position dans certains paramètres de campagne et dans les paramètres du groupe publicitaire MS
 
-**[!UICONTROL Location Targets]:** Emplacements géographiques d’utilisateurs spécifiques à inclure ou à exclure en tant que cibles. Par défaut, tous les emplacements sont ciblés. Vous pouvez inclure et exclure des utilisateurs dans n’importe quelle combinaison d’emplacements. Les exclusions remplacent toujours les inclusions.
+<!-- MS performance max campaigns, MSA ad groups, Baidu campaigns, YJP campaigns -->
+
+**[!UICONTROL Location Targets]:** (Lorsque cela est possible) Emplacements géographiques d’utilisateurs spécifiques à inclure ou exclure en tant que cibles. Par défaut, tous les emplacements sont ciblés. Vous pouvez inclure et exclure des utilisateurs dans n’importe quelle combinaison d’emplacements. Les exclusions remplacent toujours les inclusions.
 
 * Pour cibler tous les emplacements, ne sélectionnez aucun emplacement.
 

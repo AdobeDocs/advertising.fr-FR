@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Microsoft® Advertising] paramètres d’annonces de recherche dynamique étendus'
 description: Référencez les paramètres pour [!DNL Microsoft® Advertising] publicités de recherche dynamique étendues.
-exl-id: 73ac6cca-717e-46d2-a060-f1eafd754245
+exl-id: 232a57fc-2823-4d82-aa02-3e670430979f
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: bb3c366d702cdf2604388720313a7d23938d902a
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Les eDSA (Dynamic Search Ads) étendues sont disponibles uniquement dans les gro
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 
-**[!UICONTROL Description Line 2]:** (Facultatif) Seconde ligne pour la publicité. La longueur maximale est de 90 caractères sur un octet ou de 45 caractères sur deux octets.
-
 {{$include /help/_includes/display-path1-2.md}}
+
+**[!UICONTROL Description Line 2]:** (Facultatif) Seconde ligne pour la publicité. La longueur maximale est de 90 caractères sur un octet ou de 45 caractères sur deux octets.
 
 <!-- **[!UICONTROL Status]:** -->
 
