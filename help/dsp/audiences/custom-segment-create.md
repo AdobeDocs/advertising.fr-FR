@@ -3,9 +3,9 @@ title: Création et implémentation d’un segment personnalisé
 description: Découvrez comment créer et mettre en oeuvre un segment personnalisé pour effectuer le suivi des utilisateurs exposés aux publicités ou des utilisateurs qui visitent vos pages web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 67b59f4f066d25f323620b83b5a0cb49beb3ee04
+source-git-commit: 9fc4c123fb682bbc2aee0ae72931c63d31f020be
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,33 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 >
 >Pour effectuer le suivi des ID d’utilisateurs à partir des demandes d’opposition à la vente des consommateurs sur votre site web, en vertu de la California Consumer Privacy Act (CCPA), créez une [Segment d’exclusion de la vente du CCPA](ccpa-opt-out-segment-create.md).
 
+## Conditions préalables pour les segments permettant d’effectuer le suivi des ID5
+
+*Fonction bêta*
+
+* Avant de générer un segment pour suivre les utilisateurs associés aux ID5, vous devez signer un accord avec [!DNL ID5] et obtenir l’ID de partenaire de votre entreprise. Contactez votre équipe de compte d’Adobe pour obtenir des instructions.
+
+* Pour la mesure dans Adobe Analytics, vous devez :
+
+   1. Compléter tout [conditions préalables à la mise en oeuvre [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) et la variable [AMO ID et EF ID dans vos URL de suivi](/help/integrations/analytics/ids.md).
+
+   1. Ajoutez le paramètre suivant à vos pages web avant ou dans la variable [Code JavaScript requis pour [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) — n’importe où avant l’initialisation du dernier service d’événement.
+
+      `window.id5PartnerId=Your_ID5_PartnerID;`
+
+      Exemple :
+
+      ```
+      <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
+      <script>
+        window.id5PartnerId=Your_ID5_PartnerID;
+             if("undefined" != typeof AdCloudEvent)
+                 AdCloudEvent('IMS ORG Id','rsid');
+      </script>
+      ```
+
+## Création et implémentation d’un segment personnalisé
+
 1. Créez le segment :
 
    1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
@@ -28,9 +55,19 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
    1. Pour le **[!UICONTROL Segment Type]**, sélectionnez *[!UICONTROL Custom]*.
 
-   1. Saisissez le **[!UICONTROL Segment Window]**: nombre de jours pendant lesquels le cookie d’un utilisateur reste dans le segment.
+   1. Saisissez le **[!UICONTROL Lookback Window]**: nombre de jours pendant lesquels le cookie d’un utilisateur reste dans le segment.
 
       La fenêtre par défaut est de 45 jours. Saisissez une valeur comprise entre 1 (1) et 365.
+
+   1. Cliquez sur **[!UICONTROL Advanced]** pour développer les paramètres avancés, puis sélectionnez les types d’identifiants d’utilisateur dont la balise de segment va effectuer le suivi :
+
+      * *[!UICONTROL Cookies]:* (Par défaut) La balise de segment effectue le suivi des cookies.
+
+      * [!UICONTROL Universal IDs (Beta)]:
+
+         * *[!UICONTROL ID5]:* La balise de segment est suivie. [!DNL ID5] ID. Les impressions diffusées aux identifiants universels n’engendrent aucuns frais.
+
+        **[!UICONTROL Terms of Service]:** Les conditions d’utilisation des identifiants universels. Vous ou un autre utilisateur du compte DSP devez accepter les termes une fois avant de pouvoir utiliser des identifiants universels pour un nouveau type d’identifiant. Pour les clients disposant de contrats de service géré, votre équipe de compte d’Adobe obtiendra votre consentement et acceptera les conditions pour le compte de votre organisation. Pour lire les termes, cliquez sur **>**. Pour accepter les termes, faites défiler l’écran jusqu’au bas des termes et cliquez sur **[!UICONTROL Accept]**.
 
    1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -51,6 +88,20 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
       * Pour effectuer le suivi des utilisateurs exposés à une unité publicitaire sur un ordinateur de bureau ou sur des appareils mobiles :
 
          1. Copiez la balise de suivi d’impression, étiquetée &quot;[!UICONTROL Desktop or mobile ads].&quot;
+
+   1. (Balises pour les segments qui effectuent le suivi [!DNL ID5] ID pour les visiteurs de bureau et mobiles sur une page web) Dans la balise copiée, remplacez `ID5_PARTNER_ID` avec l’identifiant du partenaire qui [!DNL ID5] affectée à votre organisation.
+
+   Par exemple, si l’ID de partenaire ID5 est `abcde` et la balise de segment générée est
+
+   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+   replace `ID5_PARTNER_ID` avec `abcde` dans la balise pour obtenir ce qui suit :
+
+   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+   Votre entreprise a reçu l’identifiant du partenaire lorsqu’elle a signé un accord avec [!DNL ID5]. Si vous ne connaissez pas votre identifiant de partenaire, contactez votre équipe de compte d’Adobe.
+
+   Cette étape n’est pas nécessaire pour le suivi des balises. [!DNL ID5] Identifiants pour les utilisateurs exposés à une unité publicitaire sur un ordinateur de bureau ou des appareils mobiles.
 
 1. Ajoutez la balise à l’une des options suivantes : [!UICONTROL Pixel] pour chaque publicité appropriée ou au [!UICONTROL Event Pixels] de la [[!UICONTROL Tracking] paramètres pour chaque emplacement approprié](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
