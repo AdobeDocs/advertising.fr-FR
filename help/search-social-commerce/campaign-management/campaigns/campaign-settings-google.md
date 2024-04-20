@@ -3,7 +3,7 @@ title: '''[!DNL Google Ads] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Google Ads] campagnes.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 66f6f659e46d2a08e0f7b958be8f60ba5e9720b3
+source-git-commit: 7b31fb7939f44aa99826bea3f183897683189eae
 workflow-type: tm+mt
 source-wordcount: '2378'
 ht-degree: 0%
@@ -342,7 +342,7 @@ Vous pouvez saisir du texte ou sélectionner des ressources dans le [!UICONTROL 
 
 **[!UICONTROL Business Name]:** Nom de l’entreprise, avec un maximum de 25 caractères.
 
-**[!UICONTROL Audience Signal]:** (Facultatif) [!DNL Google Ads] audiences à utiliser comme signaux d’audience pour la campagne. [!DNL Google Ads] Les modèles d’apprentissage automatique utilisent les audiences pour trouver des internautes similaires à cibler et peuvent également afficher des publicités à des audiences qui ne sont pas spécifiées comme signaux pour vous aider à atteindre vos objectifs de performances. Choisissez les audiences les plus susceptibles d’être converties.
+**[!UICONTROL Audience Signal]:** (Facultatif) [!DNL Google Ads] audiences à utiliser comme signaux d’audience pour la campagne. [!DNL Google Ads] les modèles d’apprentissage automatique utilisent les audiences pour trouver des internautes similaires à cibler et peuvent également afficher des publicités à des audiences qui ne sont pas spécifiées comme signaux pour vous aider à atteindre vos objectifs de performances. Choisissez les audiences les plus susceptibles d’être converties.
 
 >[!NOTE]
 >Les signaux d’audience sont différents de [cibles d’audience au niveau de la campagne et du groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
@@ -364,3 +364,4 @@ Pour créer un objectif de conversion personnalisé, cliquez sur **[!UICONTROL +
 >[!MORELIKETHIS]
 >
 >* [Gestion des campagnes](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+
