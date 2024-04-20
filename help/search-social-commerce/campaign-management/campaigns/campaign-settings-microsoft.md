@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Microsoft® Advertising] campagnes.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 6b5c37b02191cf7097eb547f9ad58f347824579c
+source-git-commit: 96ff5244c5baedf009c1bac05b609611607bd867
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1904'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]:* Affiche des publicités natives/affichées sur le [!DNL Microsoft® Audience Network]. Vous pouvez : a) générer automatiquement des publicités basées sur le flux en liant la campagne à un magasin de centre commercial dans la variable [!UICONTROL Shopping Settings] ou b) créer des publicités réactives avec des ressources textuelles et des images téléchargées. Les deux options exigent que vous créiez des groupes d’annonces avec le ciblage des utilisateurs.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Fonction bêta) Promotion de vos produits par le biais de revendeurs liés sur les réseaux de recherche et d’audience. Vous pouvez créer des groupes d’annonces enfants et des groupes de produits (applications à promouvoir), ainsi que des publicités de produits facultatives pour la campagne ; [!DNL Microsoft® Advertising] crée automatiquement des publicités pour les groupes de produits.
+* *[!UICONTROL Shopping Campaigns for Brands]:* (Fonction bêta) Promotion de vos produits par le biais de revendeurs liés sur les réseaux de recherche et d’audience. Vous pouvez créer des groupes d’annonces enfants et des groupes de produits (applications à promouvoir), ainsi que des publicités de produits facultatives pour la campagne ; [!DNL Microsoft® Advertising] crée automatiquement des publicités pour les groupes de produits. Pour les campagnes d’achat de marques, utilisez la stratégie d’offre [!UICONTROL Manual CPC]; pour les promotions d’achats pour les marques, utilisez la stratégie d’offre [!UICONTROL Cost per Sale].
 
 * *[!UICONTROL Microsoft® Store Ads Campaign]:* (Fonction bêta) Promotion de vos applications et jeux disponibles dans la variable [!DNL Microsoft® Store]. Vous pouvez créer des groupes d’annonces enfants, des groupes de produits et des publicités de produits facultatives pour la campagne ; [!DNL Microsoft® Advertising] crée automatiquement des publicités pour les groupes de produits.
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]:* (Fonction bêta) Affiche des publicités vidéo standard sur le réseau d’audience.
 
-* *[!UICONTROL Performance Max]:* (Fonction bêta) Affiche plusieurs types d’annonces sur tous les réseaux. Attribuer des groupes de ressources séparément dans le [!DNL Microsoft® Advertising] éditeur de publicités.
+* *[!UICONTROL Performance Max]:* (Fonction bêta) Affiche plusieurs types d’annonces sur tous les réseaux à l’aide de [!DNL Microsoft Advertising] enchères intelligentes. Dans les paramètres de l&#39;opération, vous devez indiquer un ou plusieurs groupes de ressources, notamment des images, des logos, des titres, des descriptions, un appel à l&#39;action facultatif et des signaux d&#39;audience. Le réseau publicitaire combine automatiquement les ressources pour diffuser des publicités en fonction du canal.
 
 ## [!UICONTROL Campaign Details]
 
@@ -58,11 +58,15 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** Stratégie d’offre pour la campagne :
 
+* *[!UICONTROL Cost per Sale]:* (Campagnes d’achat uniquement) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres en fonction des **[!UICONTROL Target CPS]** (coût par vente). Vous ne payez que lorsqu’un clic sur votre produit et qu’une vente a lieu dans les 24 heures. **Remarque :** Utilisez cette option pour les campagnes dans des portfolios hybrides, mais pas dans des portfolios standard.<!-- Verify all -->
+
+  Une fois que vous avez enregistré une campagne d’achat pour les marques avec cette stratégie d’offre, vous ne pouvez pas modifier la stratégie d’offre. Pour les autres types de campagne d’achat, cette stratégie est disponible uniquement pour les nouvelles campagnes.
+
 * *[!UICONTROL CPV]* (Campagnes vidéo Audience CTV uniquement) Utilise le modèle de coût par vue (CPV). <!-- Campaigns with this bid strategy aren't optimized when they're included in portfolios. -->
 
 * *[!UICONTROL Enhanced CPC]:* (Campagnes sur l’audience, la recherche et les réseaux d’achats) Utilise le modèle de coût par clic amélioré du réseau publicitaire, qui permet au réseau publicitaire de modifier automatiquement l’offre coût par clic (CPC) pour chaque enchère afin d’optimiser les conversions à l’aide des conversions spécifiées dans le réseau publicitaire (et non dans Search, Social et Commerce), tout en essayant de maintenir le CPC moyen en dessous du CPC maximum.
 
-  Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de réseaux sociaux et de commerce optimisé, Search, Social et Commerce optimise les offres de base et , lorsque le paramètre[!UICONTROL Auto adjust campaign budget limits]&quot; est activée : le budget de l’opération. Le réseau publicitaire optimise tous les ajustements d’offres et peut modifier les offres générées par Search, Social et Commerce au moment de la requête de l’utilisateur en fonction de données et d’informations propriétaires. **Attention :** Utilisez les campagnes eCPC dans les portfolios uniquement lorsque le total des conversions suivies sur le réseau publicitaire correspond à l’objectif du portfolio.
+  Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de réseaux sociaux et de Commerce optimisé, Search, Social et Commerce optimise les offres de base et , lorsque le paramètre[!UICONTROL Auto adjust campaign budget limits]&quot; est activée : le budget de l’opération. Le réseau publicitaire optimise tous les ajustements d’offres et peut modifier les offres générées par Search, Social et Commerce au moment de la requête de l’utilisateur en fonction de données et d’informations propriétaires. **Attention :** Utilisez les campagnes eCPC dans les portfolios uniquement lorsque le total des conversions suivies sur le réseau publicitaire correspond à l’objectif du portfolio.
 
 * *[!UICONTROL Manual CPC]*: (campagnes commerciales pour les marques ; [!DNL Microsoft Store Ads] campagnes ; obsolète de [!DNL Microsoft® Advertising] en 2021 pour les autres types de campagne) Utilise le modèle coût par clic (CPC). Pour certains types d’annonces, vous pouvez éventuellement autoriser le réseau publicitaire à modifier les offres pour la campagne :
 
@@ -104,7 +108,6 @@ Une fois que vous avez lié la campagne à un magasin et enregistré les paramè
 
 {{$include /help/_includes/merchant-id.md}}
 
-
 **[!UICONTROL Products]:** (Campagnes d’audience liées uniquement à un magasin du centre commercial) Les produits à faire de la publicité. Par défaut, *[!UICONTROL All products]* est sélectionnée. Pour promouvoir uniquement les produits avec des attributs spécifiques, sélectionnez *[!UICONTROL Filter products]* et indiquez jusqu’à sept combinaisons de dimension et d’attribut de produit sur lesquelles filtrer vos produits. Toutes les valeurs spécifiées doivent s’appliquer pour que les publicités s’affichent pour le produit. Par exemple, pour afficher des publicités pour des produits pour animaux de compagnie Acme, vous pouvez créer des filtres. `Custom Label 1=animals`, `Category=pet supplies`, et `Brand=Acme Pet Supplies`.
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
@@ -112,6 +115,8 @@ Une fois que vous avez lié la campagne à un magasin et enregistré les paramè
 {{$include /help/_includes/inventory-filter.md}}
 
 ## [!UICONTROL Campaign Targeting]
+
+**[!UICONTROL Languages]:** (Campagnes max de performances uniquement) Langue de la publicité, qui doit correspondre à la langue des sites sur lesquels votre publicité apparaîtra. [!DNL Microsoft Advertising] détermine la langue d’un utilisateur à partir de divers signaux, y compris la requête de l’utilisateur, le pays de l’éditeur et le paramètre de langue de l’utilisateur.
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -192,6 +197,103 @@ Pour plus d’informations sur la disponibilité, voir l’aide de Microsoft® A
 <!-- **[!UICONTROL Append Parameters]:** -->
 
 {{$include /help/_includes/append-parameters.md}}
+
+## [!UICONTROL Asset Groups] (par groupe de ressources)
+
+**[!UICONTROL Asset Group Name]:** Nom du dossier de ressources (groupe de ressources).
+
+**[!UICONTROL Asset Group Status]:** État du groupe de ressources : *[!UICONTROL Active]* ou *[!UICONTROL Paused]*.
+
+**[!UICONTROL Final URL]:** URL finale de toutes les publicités créées à partir du groupe de ressources.
+
+**[!UICONTROL Images]:** Jusqu’à 20 images pour la publicité, dont au moins une image carrée et une image paysage. Voir [[!DNL Microsoft Advertising] directives relatives aux images](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Vous pouvez soit télécharger des images, soit les sélectionner parmi les [!UICONTROL Asset Library] — mais pas les deux dans la même opération.
+
+* Pour télécharger des images :
+
+   1. Sur le [!UICONTROL Upload from Device] , cliquez sur **[!UICONTROL +]** et sélectionnez des images sur votre appareil ou votre réseau.
+
+   1. Pour chaque image :
+
+      1. Sélectionnez les proportions.
+
+      1. Faites glisser et positionnez la zone de recadrage si nécessaire pour sélectionner la partie visible de l’image, puis redimensionnez la partie visible de l’image si nécessaire.
+
+      1. (Facultatif) Sélectionnez des proportions supplémentaires, puis repositionnez et redimensionnez éventuellement l’image selon les besoins pour chaque rapport d’aspect sélectionné.
+
+         Une ressource est créée pour chaque format sélectionné.
+
+      1. Cliquez sur **[!UICONTROL Proceed]**.
+
+   1. Lorsque vous avez terminé de spécifier des images, cliquez sur **[!UICONTROL Upload]**.
+
+* Pour sélectionner des images dans votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez les images.
+
+**[!UICONTROL Logos]:** Au moins un logo. Vous pouvez inclure jusqu’à cinq. Voir [[!DNL Microsoft Advertising] directives relatives aux ressources](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Vous pouvez soit télécharger des images, soit les sélectionner parmi les [!UICONTROL Asset Library] — mais pas les deux dans la même opération.
+
+* Pour télécharger des images :
+
+   1. Sur le [!UICONTROL Upload from Device] , cliquez sur **[!UICONTROL +]** et sélectionnez des images sur votre appareil ou votre réseau.
+
+   1. Pour chaque image :
+
+      1. Sélectionnez les proportions.
+
+      1. Faites glisser et positionnez la zone de recadrage si nécessaire pour sélectionner la partie visible de l’image, puis redimensionnez la partie visible de l’image si nécessaire.
+
+      1. (Facultatif) Sélectionnez des proportions supplémentaires, puis repositionnez et redimensionnez éventuellement l’image selon les besoins pour chaque rapport d’aspect sélectionné.
+
+         Une ressource est créée pour chaque format sélectionné.
+
+      1. Cliquez sur **[!UICONTROL Proceed]**.
+
+   1. Lorsque vous avez terminé de spécifier des images, cliquez sur **[!UICONTROL Upload]**.
+
+* Pour sélectionner des images dans votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez les images.
+
+**[!UICONTROL Headlines]:** Au moins trois titres courts d’un maximum de 15 caractères chacun avec un maximum de 30 caractères. Vous pouvez saisir du texte ou sélectionner des ressources dans le [!UICONTROL Asset Library] — mais pas les deux dans la même opération.
+
+* Pour saisir du texte :
+
+   1. Sur le [!UICONTROL Enter Text] , saisissez le texte.
+
+   1. (Facultatif) Pour ajouter une autre chaîne, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
+
+* Pour sélectionner des ressources dans [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez les ressources.
+
+**[!UICONTROL Long Headlines]:** Au moins un et jusqu’à cinq gros titres de 90 caractères chacun au maximum. Vous pouvez saisir du texte ou sélectionner des ressources dans le [!UICONTROL Asset Library] — mais pas les deux dans la même opération.
+
+* Pour saisir du texte :
+
+   1. Sur le [!UICONTROL Enter Text] , saisissez le texte.
+
+   1. (Facultatif) Pour ajouter une autre chaîne, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
+
+* Pour sélectionner des ressources dans [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez les ressources.
+
+**[!UICONTROL Descriptions]:** Au moins deux descriptions, et jusqu’à cinq descriptions, avec un maximum de 90 caractères chacune. Vous pouvez saisir du texte ou sélectionner des ressources dans le [!UICONTROL Asset Library] — mais pas les deux dans la même opération.
+
+* Pour saisir du texte :
+
+   1. Sur le [!UICONTROL Enter Text] , saisissez le texte.
+
+   1. (Facultatif) Pour ajouter une autre chaîne, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
+
+* Pour sélectionner des ressources dans [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez les ressources.
+
+**[!UICONTROL Call to Action]:** Appel à l’action à inclure dans la publicité. Par défaut, *[!UICONTROL Act Now]* est sélectionnée.
+
+**[!UICONTROL Business Name]:** Nom de l’entreprise, avec un maximum de 25 caractères. Il ne peut pas contenir de scripts, de HTMLS ou d’autres langages de balisage.
+
+**[!UICONTROL Audience Signal]:** (Facultatif) [!DNL Microsoft Advertising] audiences à utiliser comme signaux d’audience pour la campagne. [!DNL Microsoft Advertising] Les modèles d’apprentissage automatique utilisent les audiences pour trouver des internautes similaires à cibler et peuvent également afficher des publicités à des audiences qui ne sont pas spécifiées comme signaux pour vous aider à atteindre vos objectifs de performances. Choisissez les audiences les plus susceptibles d’être converties.
+
+>[!NOTE]
+>Les signaux d’audience sont différents de [cibles d’audience au niveau du groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+
+<!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
+
+{{$include /help/_includes/display-path1-2.md}}
+
+**[!UICONTROL Add new asset group]:** Permet de spécifier un autre groupe de ressources.
 
 ## [!UICONTROL Conversion Goals]
 
