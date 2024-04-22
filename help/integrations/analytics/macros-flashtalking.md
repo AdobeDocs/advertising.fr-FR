@@ -3,7 +3,7 @@ title: Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Flashtalking] 
 description: Découvrez pourquoi et comment ajouter [!DNL Analytics for Advertising] des macros à vos [!DNL Flashtalking] balises publicitaires
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 2a124481f98a5b5f17d613becacb0bdfa6935836
+source-git-commit: c6a7d99875d54d7ff807f94b8fdd7a903c05b6e5
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Dans le [!DNL Flashtalking] paramètres de balise publicitaire, ajoutez la macro
 [ftqs:[AdobeAMO]]
 ```
 
-Il s’agit de la première ou de la seule chaîne de requête après l’URL de base, puis séparez-la de l’URL de base avec une `?`. Si l’URL de base contient plusieurs chaînes de requête, commencez la première chaîne par une `?` et chaque chaîne suivante avec un `&`.
+S’il s’agit de la première ou de la seule chaîne de requête après l’URL de base, séparez-la de l’URL de base par une `?`. Si l’URL de base contient plusieurs chaînes de requête, commencez la première chaîne par une `?` et chaque chaîne suivante avec un `&`.
 
 Exemples :
 
@@ -52,7 +52,7 @@ Dans le [!DNL Flashtalking] paramètres de balise publicitaire, ajoutez la macro
 [%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-Il s’agit de la première ou de la seule chaîne de requête après l’URL de base, puis séparez-la de l’URL de base avec une `?`. Si l’URL de base contient plusieurs chaînes de requête, commencez la première chaîne par une `?` et chaque chaîne suivante avec un `&`.
+S’il s’agit de la première ou de la seule chaîne de requête après l’URL de base, séparez-la de l’URL de base par une `?`. Si l’URL de base contient plusieurs chaînes de requête, commencez la première chaîne par une `?` et chaque chaîne suivante avec un `&`.
 
 Exemples :
 
