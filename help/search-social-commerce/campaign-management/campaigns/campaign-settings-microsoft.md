@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Microsoft® Advertising] campagnes.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: 8d1ff29322799ff7905ee808703e00f5190ae8af
 workflow-type: tm+mt
 source-wordcount: '1912'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** Stratégie d’offre pour la campagne :
 
-* *[!UICONTROL Cost per Sale]:* (Campagnes d’achat uniquement) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres en fonction des **[!UICONTROL Target CPS]** (coût par vente). Vous ne payez que lorsqu’un clic sur votre produit et qu’une vente a lieu dans les 24 heures. **Remarque :** N’incluez pas de campagnes avec cette stratégie d’offre dans les portefeuilles. L’optimisation de la recherche, de Social et de Commerce n’est pas disponible pour les campagnes avec cette stratégie d’offre.
+* *[!UICONTROL Cost per Sale]:* (Campagnes d’achat uniquement) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres en fonction des [!UICONTROL Target CPS] (coût par vente). Vous ne payez que lorsqu’un clic sur votre produit et qu’une vente a lieu dans les 24 heures. **Remarque :** N’incluez pas de campagnes avec cette stratégie d’offre dans les portefeuilles. L’optimisation de la recherche, de Social et de Commerce n’est pas disponible pour les campagnes avec cette stratégie d’offre.
 
   Une fois que vous avez enregistré une campagne d’achat pour les marques avec cette stratégie d’offre, vous ne pouvez pas modifier la stratégie d’offre. Pour les autres types de campagne d’achat, cette stratégie est disponible uniquement pour les nouvelles campagnes.
 
