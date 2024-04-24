@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] paramètres du groupe publicitaire'
 description: Référencez les paramètres pour [!DNL Microsoft® Advertising] groupes publicitaires.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 7339af39250f0328bc6e8d530a2d7f04286132e5
+source-git-commit: 2407d29fb4061e6b3181b86c335c52a8384c4ca3
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 Pour [!DNL Microsoft® Advertising] groupes publicitaires du réseau d’audience, les modificateurs d’offre pour les cibles de localisation ne sont pas optimisés dans les portefeuilles standard avec le paramètre &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
 
-**[!UICONTROL Genre]:** (Groupes publicitaires dans [!UICONTROL Audience CTV Video] ; disponible aux États-Unis, CA, BR, MX, UK, DE, ES, FR, IT, AU, MY et TH<!-- should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->) Les genres cibles, qui déterminent les programmes et les canaux sur lesquels vos publicités apparaissent :
+**[!UICONTROL Genre]:** (Groupes publicitaires dans [!UICONTROL Audience CTV Video] ; disponible aux États-Unis, CA, BR, MX, UK, DE, ES, FR, IT, AU, MY et TH<!-- Should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->) Les genres cibles, qui déterminent les programmes et les canaux sur lesquels vos publicités apparaissent :
 
 * *[!UICONTROL All genres]:* (La valeur par défaut) Cible tous les genres.
 
