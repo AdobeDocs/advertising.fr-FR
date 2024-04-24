@@ -3,9 +3,9 @@ title: À propos de la prise en charge des recommandations et des insights de l�
 description: Découvrez la prise en charge de l’affichage et de la gestion des recommandations et des informations de l’éditeur.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 250e6c7aaeb64c811b3648ac1aee2a7bd0a6f753
+source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -16,29 +16,27 @@ ht-degree: 0%
 
 *Fonction bêta pour [!DNL Microsoft® Advertising] comptes*
 
-[!DNL Google Ads] recommandations et [!DNL Microsoft® Advertising] les informations de performances sont des suggestions du réseau publicitaire pour améliorer les performances et l’efficacité de vos campagnes :
+[!DNL Google Ads] et [!DNL Microsoft® Advertising] les recommandations et les insights sont des suggestions du réseau publicitaire pour améliorer les performances et l’efficacité de vos campagnes :
 
 * Chaque [!DNL Google Ads] la recommandation fournit des suggestions personnalisées sur les différents aspects des performances d’une campagne, depuis l’ajout d’une ressource jusqu’à l’augmentation du budget, en fonction de l’historique des performances de votre compte, des paramètres de campagne et des tendances dans l’ensemble de la campagne. [!DNL Google Ads].
 
-* Chaque [!DNL Microsoft® Advertising] les informations de performances vous avertissent d’une fluctuation significative dans un compte de gestionnaire, un compte publicitaire ou une campagne ; identifient les causes possibles et suggèrent des actions pour optimiser les performances.
+* Chaque [!DNL Microsoft® Advertising] les informations de performances et les recommandations suggèrent des modifications pour optimiser les performances de campagne en fonction des algorithmes d’apprentissage automatique et des bonnes pratiques.
 
 ## La variable [!UICONTROL Recommendations & Publisher Insights] view
 
 Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights], vous pouvez :
 
-* Afficher en un coup d’oeil toutes les recommandations prises en charge qui n’ont pas été appliquées pour un [!DNL Google Ads] compte ou toutes les informations de performances générées au cours des 30 derniers jours pour un événement [Microsoft® Advertising] compte . Les informations de chaque entrée incluent les détails de la recommandation/de l’insight et les entités affectées. Pour [!DNL Google Ads] comptes, les augmentations prévues des mesures sont surlignées en vert.
+* Afficher en un coup d’oeil toutes les recommandations prises en charge qui n’ont pas été appliquées pour un compte. Les informations de chaque entrée incluent le type de recommandation, la variable [!DNL Adobe] recommandation, les mesures affectées, l’entité affectée et un lien vers plus de détails. Les augmentations prévues des mesures sont surlignées en vert.
 
   ![Interface utilisateur de Recommendations](/help/search-social-commerce/assets/recommendations-ui.png "Interface utilisateur de Recommendations")
 
   Les données sont disponibles en temps réel lorsque vous ouvrez la vue. Pour actualiser les données, cliquez sur ![Actualiser](/help/search-social-commerce/assets/refresh.png "Actualiser") en bas à gauche de la page.
 
-* Pour [!DNL Google Ads] comptes :
+* Pour [Microsoft® Advertising] comptes, voir en un coup d’oeil chaque insight de performance générée au cours des 30 derniers jours pour un événement [Microsoft® Advertising] compte . Les statistiques fournissent des informations similaires aux recommandations, mais dans un format différent. Chaque insight inclut la date, une description du problème, l’entité concernée, la cause racine (qui peut inclure des liens vers d’autres détails) et l’action suggérée avec un lien pour ouvrir l’éditeur de publicité Microsoft®, à partir duquel vous pouvez agir sur l’insight spécifique.
 
-   * Affichez les détails d’une recommandation, puis appliquez ou ignorez directement une recommandation.
+* Affichez les détails d’une recommandation, puis appliquez ou ignorez-la directement.
 
-   * Affichez le journal de chaque recommandation appliquée pour le compte, y compris les entités concernées, qui ont appliqué la recommandation, ainsi que l’horodatage.
-
-* Pour [Microsoft® Advertising] comptes, ouvrez le [!DNL Microsoft® Advertising] à partir de laquelle vous pouvez agir sur un insight spécifique.
+* Affichez le journal de chaque recommandation appliquée pour le compte, y compris les entités concernées, qui ont appliqué la recommandation, ainsi que l’horodatage.
 
 >[!NOTE]
 >
@@ -80,9 +78,17 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 | | [!UICONTROL Search partners opt in] | Développer la portée avec [!DNL Google] partenaires de recherche |
 | | [!UICONTROL Use broad match keyword] | Utiliser une correspondance large pour les campagnes basées sur les conversions avec des enchères entièrement automatisées basées sur les conversions |
 
+## Types de recommandations pris en charge pour [!DNL Microsoft Advertising]
+
+| Catégorie de recommandations | Type de recommandation | Description |
+| --- | --- | --- |
+| [!UICONTROL Ads and extensions] | [!UICONTROL Responsive search ad] | Ajout d’une annonce de recherche réactive |
+| [!UICONTROL Bidding and budgets] | [!UICONTROL Campaign budget] | Correction des campagnes limitées par le budget |
+| [!UICONTROL Keywords and targeting] | [!UICONTROL Keyword] | Ajouter de nouveaux mots-clés provenant de toutes les sources |
+
 >[!MORELIKETHIS]
 >
 >* [Affichage des recommandations et des informations sur les performances de votre éditeur](recommendation-view.md)
->* [Appliquer ou ignorer une [!DNL Google Ads] recommandation](google-recommendation-apply-dismiss.md)
->* [Affichez le journal des recommandations d’une [!DNL Google Ads] account](google-recommendation-view-log.md)
->* [Bonnes pratiques relatives à l’utilisation des recommandations et des insights d’éditeur avec les portefeuilles](recommendation-best-practices.md)
+>* [Appliquer ou supprimer une recommandation d’éditeur](recommendation-apply-dismiss.md)
+>* [Affichage du journal des recommandations de l’éditeur pour un compte](recommendation-view-log.md)
+>* [Bonnes pratiques relatives à l’utilisation des recommandations d’éditeur avec des portefeuilles](recommendation-best-practices.md)

@@ -1,22 +1,26 @@
 ---
-title: Bonnes pratiques relatives à l’utilisation des recommandations et des insights d’éditeur avec les portefeuilles
+title: Bonnes pratiques relatives à l’utilisation des recommandations d’éditeur avec des portefeuilles
 description: Découvrez les bonnes pratiques d’utilisation [!DNL Google Ads] recommandations avec vos portfolios Search, Social et Commerce.
-exl-id: 8362a0e1-9a0d-4287-a1dd-b7ec77985744
+exl-id: 2ed14f8a-da35-4341-86b8-776973faee66
 feature: Search Recommendations
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
-# Bonnes pratiques relatives à l’utilisation des recommandations et des insights d’éditeur avec les portefeuilles
+# Bonnes pratiques relatives à l’utilisation des recommandations d’éditeur avec des portefeuilles
 
-<!-- If we don't come up with similar ones for MS, then rename this file "... Google Ads ..." -->
+<!-- Add info for MS once we have it ..." 
+
+*[!DNL Google Ads] and [!DNL Microsoft® Advertising] accounts*
+
+-->
 
 ## [!DNL Google Ads] recommendations
 
-| Type de recommandation | Description | Application automatique de Recommendations avec des Portfolios de recherche, de réseaux sociaux et de commerce ? | Commentaires |
+| Type de recommandation | Description | Application automatique de Recommendations avec des Portfolios de recherche, de Social et de Commerce ? | Commentaires |
 |--- |--- |--- |--- |
 | [!UICONTROL Ads] et les extensions (désormais appelées &quot;Publicités et ressources&quot; dans [!DNL Google Ads]) | Recommendations pour ajouter/modifier des publicités et des ressources | Il peut être appliqué automatiquement, mais les publicitaires doivent consulter manuellement les recommandations. | La révision des recommandations est nécessaire pour s’assurer que les annonces responsives sur le Réseau de Recherche sont alignées sur les exigences des annonceurs. |
 | [!UICONTROL Automated campaigns] | Recommendations pour les campagnes automatisées (campagnes locales et intelligentes) | Non disponible dans Search, Social et Commerce. | — |
@@ -30,5 +34,5 @@ ht-degree: 0%
 >
 >* [À propos de la prise en charge des recommandations et des insights de l’éditeur](recommendation-support.md)
 >* [Affichage des recommandations et des informations sur les performances de votre éditeur](recommendation-view.md)
->* [Appliquer ou ignorer une [!DNL Google Ads] recommandation](google-recommendation-apply-dismiss.md)
->* [Affichez le journal des recommandations d’une [!DNL Google Ads] account](google-recommendation-view-log.md)
+>* [Appliquer ou supprimer une recommandation d’éditeur](recommendation-apply-dismiss.md)
+>* [Affichage du journal des recommandations de l’éditeur pour un compte](recommendation-view-log.md)

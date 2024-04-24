@@ -4,7 +4,7 @@ user-guide-title: Guide d’Advertising Search, Social et Commerce
 user-guide-description: Ce guide décrit les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires liées aux moteurs de recherche, aux réseaux sociaux et au commerce.
 breadcrumb-title: Guide d’Advertising Search, Social et Commerce
 index: true
-source-git-commit: 198dc41ba0ae1cd55e18c34e04cd2ea2297aa127
+source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 2%
@@ -103,7 +103,7 @@ ht-degree: 2%
    + [Questions fréquentes sur le suivi](/help/search-social-commerce/tracking/faqs-tracking.md)
 + Gestion de campagne {#campaign-management}
    + Introduction {#campaign-management-intro}
-      + [Gestion de campagnes dans Search, Social et Commerce](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
+      + [Gestion de campagne dans Search, Social et Commerce](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
       + [Présentation de l’implémentation des comptes et campagnes de réseau publicitaire](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
       + [Surveillez et gérez les performances de vos campagnes réseau publicitaires](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
       + [[!DNL Google Ads] données de conversion dans Search, Social et Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
@@ -374,9 +374,9 @@ ht-degree: 2%
    + Informations sur Recommendations et les éditeurs {#recommendations}
       + [À propos de la prise en charge des recommandations et des insights de l’éditeur](/help/search-social-commerce/recommendations/recommendation-support.md)
       + [Affichage des recommandations et des informations sur les performances de votre éditeur](/help/search-social-commerce/recommendations/recommendation-view.md)
-      + [Appliquer ou ignorer une [!DNL Google Ads] recommandation](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
-      + [Affichez le journal des recommandations d’une [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
-      + [Bonnes pratiques relatives à l’utilisation des recommandations et des insights d’éditeur avec les portefeuilles](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
+      + [Appliquer ou supprimer une recommandation d’éditeur](/help/search-social-commerce/recommendations/recommendation-apply-dismiss.md)
+      + [Affichage du journal des recommandations de l’éditeur pour un compte](/help/search-social-commerce/recommendations/recommendation-view-log.md)
+      + [Bonnes pratiques relatives à l’utilisation des recommandations d’éditeur avec des portefeuilles](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + Outils {#tools}
    + [Modifier votre mot de passe](/help/search-social-commerce/tools/password-change.md)
    + Outils de création et de décodage des balises de suivi{#tracking}
