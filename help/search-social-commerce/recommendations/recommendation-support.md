@@ -3,9 +3,9 @@ title: À propos de la prise en charge des recommandations et des insights de l�
 description: Découvrez la prise en charge de l’affichage et de la gestion des recommandations et des informations de l’éditeur.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 7f45a89dbff37592eec9991c47ade3094ca024a8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 
   Les données sont disponibles en temps réel lorsque vous ouvrez la vue. Pour actualiser les données, cliquez sur ![Actualiser](/help/search-social-commerce/assets/refresh.png "Actualiser") en bas à gauche de la page.
 
-* Pour [Microsoft® Advertising] comptes, voir en un coup d’oeil chaque insight de performance générée au cours des 30 derniers jours pour un événement [Microsoft® Advertising] compte . Les statistiques fournissent des informations similaires aux recommandations, mais dans un format différent. Chaque insight inclut la date, une description du problème, l’entité concernée, la cause racine (qui peut inclure des liens vers d’autres détails) et l’action suggérée avec un lien pour ouvrir l’éditeur de publicité Microsoft®, à partir duquel vous pouvez agir sur l’insight spécifique.
+* Pour [DNL Microsoft® Advertising] comptes, voir en un coup d’oeil chaque insight de performance générée au cours des 30 derniers jours pour un événement [DNL Microsoft® Advertising] compte . Les statistiques fournissent des informations similaires aux recommandations, mais dans un format différent. Chaque insight inclut la date, une description du problème, l’entité concernée, la cause racine (qui peut inclure des liens vers d’autres détails) et l’action suggérée avec un lien pour ouvrir l’éditeur de publicité Microsoft®, à partir duquel vous pouvez agir sur l’insight spécifique.
 
 * Affichez les détails d’une recommandation, puis appliquez ou ignorez-la directement.
 

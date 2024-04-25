@@ -1,11 +1,11 @@
 ---
 title: Génération d’une URL de suivi des clics
 description: Découvrez comment générer manuellement une URL de suivi des clics Search, Social et Commerce.
-exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Pour plus d’informations sur le moment où vous devez générer et implémente
 
            Le fichier peut contenir jusqu’à 10 000 lignes.
 
-         * ([!DNL Google Merchant Center] groupes de produits et [Microsoft® Advertising] publicités de produit) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] groupes de produits et [DNL Microsoft® Advertising] publicités de produit) `product name <tab> ** <tab> landing_page`
 
            where `product name` est le nom du produit et `landing_page` est une URL de page d’entrée ou une URL de base valide.
 
