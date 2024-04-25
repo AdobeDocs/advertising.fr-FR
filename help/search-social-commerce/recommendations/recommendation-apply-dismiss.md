@@ -3,7 +3,7 @@ title: Appliquer ou supprimer une recommandation d’éditeur
 description: Découvrez comment afficher, appliquer ou ignorer une recommandation d’éditeur.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -48,3 +48,4 @@ Affichez les actions recommandées, ainsi qu’une explication des raisons pour 
 >* [Affichage des recommandations et des informations sur les performances de votre éditeur](recommendation-view.md)
 >* [Affichage du journal des recommandations de l’éditeur pour un compte](recommendation-view-log.md)
 >* [Bonnes pratiques relatives à l’utilisation des recommandations d’éditeur avec des portefeuilles](recommendation-best-practices.md)
+

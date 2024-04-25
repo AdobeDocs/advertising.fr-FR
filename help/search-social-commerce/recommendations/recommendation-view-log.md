@@ -3,7 +3,7 @@ title: Affichage du journal des recommandations de l’éditeur pour un compte
 description: Découvrez comment afficher un journal de chaque recommandation qui a été appliquée pour une [!DNL Google Ads] ou [!DNL Microsoft Advertising] compte .
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -32,3 +32,4 @@ Les recommandations ignorées ne sont pas disponibles à partir du réseau publi
 >* [Affichage des recommandations et des informations sur les performances de votre éditeur](recommendation-view.md)
 >* [Appliquer ou supprimer une recommandation d’éditeur](recommendation-apply-dismiss.md)
 >* [Bonnes pratiques relatives à l’utilisation des recommandations d’éditeur avec des portefeuilles](recommendation-best-practices.md)
+
