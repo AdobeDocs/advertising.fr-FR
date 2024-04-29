@@ -3,9 +3,9 @@ title: Activer le téléchargement des objectifs vers les réseaux publicitaires
 description: Découvrez comment télécharger des objectifs pour vos portefeuilles hybrides vers [!DNL Google Ads] et [!DNL Microsoft® Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 7b857f2f75f05685d0776c710a442088a72f590c
+source-git-commit: a61bdd9c68420a16a01057d8a3ac03d659d2ad3f
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,33 @@ ht-degree: 0%
 
 *Publicitaires activés uniquement pour l’optimisation hybride*
 
-Si votre compte publicitaire est configuré pour utiliser l’optimisation hybride, Adobe Advertising peut éventuellement télécharger les objectifs des portefeuilles du compte vers [!DNL Google Ads] et [!DNL Microsoft® Advertising] en tant que conversions afin que vous puissiez les utiliser pour l’optimisation hybride.
+Search, Social et Commerce peuvent télécharger les objectifs des portfolios d’un compte publicitaire vers [!DNL Google Ads] et [!DNL Microsoft® Advertising] vous pouvez donc les utiliser pour l’optimisation hybride. Vos objectifs téléchargés sont disponibles en tant qu’actions de conversion pour les objectifs de conversion personnalisés au niveau du compte et de la campagne.
 
-L’activation de cette option déclenche automatiquement un chargement pour les portfolios qui contiennent des campagnes avec des stratégies d’offres intelligentes. Search, Social et Commerce crée une conversion sur le réseau publicitaire pour chaque combinaison portefeuille-objectif applicable. Chaque conversion porte le nom `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`, où `<portfolio_id>` est l’identifiant numérique de portefeuille et `<se_acctid/conversion_manager_se_acctid>` est l’identifiant numérique du compte réseau publicitaire ou du compte de gestionnaire. La conversion représente toutes les mesures de conversion pondérées de l’objectif.
+L’activation de cette option déclenche automatiquement un chargement pour les objectifs dans les portfolios qui contiennent des campagnes avec des stratégies d’offres intelligentes. Search, Social et Commerce crée une conversion sur le réseau publicitaire pour chaque objectif applicable. La conversion représente toutes les mesures de conversion pondérées de l’objectif. Chaque conversion porte l’un des noms suivants :
+
+* `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
+
+  where `<network_ID>` est l’identifiant numérique utilisé par Search, Social et Commerce pour le réseau publicitaire, `<objective_id>` est l’identifiant d’objectif numérique, et `<network_account_ID>` est l’identifiant numérique du compte réseau publicitaire ou du compte de gestionnaire.
+
+* (Ancien format qui sera obsolète à l’avenir) `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`
+
+  where `<portfolio_id>` est l’identifiant numérique de portefeuille et `<se_acctid/conversion_manager_se_acctid>` est l’identifiant numérique du compte réseau publicitaire ou du compte de gestionnaire.
+
+  Votre équipe de compte d’Adobe vous aidera à migrer les noms de vos actions de conversion existantes dans le réseau publicitaire avant que l’ancien format ne soit abandonné. Pendant la période de migration, les téléchargements de l’ancien et du nouveau format s’exécuteront en parallèle. La modélisation et l’optimisation ne sont pas affectées, car les nouvelles actions de conversion s’affichent initialement avec l’état &quot;secondaire&quot; (non optimisé) et avec 90 jours de données de renvoi.
 
 Téléchargements vers [!DNL Google Ads] surviennent tous les jours à 06h00 dans le fuseau horaire de l’annonceur. Téléchargements vers [!DNL Microsoft® Advertising] surviennent tous les jours à 09h00 dans le fuseau horaire de l’annonceur.
 
-<!-- Note to self: Conversions tracked by Google Ads and by the Microsoft Advertising universal event tracking (UET) tag aren't re-uploaded to the ad networks. -->
+>[!IMPORTANT]
+>
+>Les conversions suivies par Google Ads et par la balise de suivi d’événement universel (UET) Microsoft Advertising ne sont pas rechargées vers les réseaux publicitaires. Si vous les incluez dans un objectif, ajoutez-les aux objectifs de la campagne dans l’éditeur du réseau publicitaire.
+
+<!--
+>[!IMPORTANT]
+>
+>Objectives for hybrid portfolios may include conversion goals from multiple ad networks and other types of conversion metrics. However, the individual campaigns in the portfolio can't include conversion goals that aren't included in the portfolio's objective; using additional conversion goals may impact portfolio performance.
+-->
+
+<!-- Can conversions from events triggered on other ad networks be included in the portfolio (and just be ignored)? -->
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
@@ -33,6 +53,8 @@ Téléchargements vers [!DNL Google Ads] surviennent tous les jours à 06h00 dan
 1. Cliquez sur **[!UICONTROL Save]**.
 
 1. (Si les conversions sont suivies au niveau du compte de gestionnaire) [Ajout des informations d’identification de votre compte de gestionnaire](/help/search-social-commerce/admin/manager-accounts.md) at **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+
+Une fois le chargement quotidien terminé, vous pouvez vérifier que les actions de conversion s’affichent dans le réseau publicitaire.
 
 >[!MORELIKETHIS]
 >

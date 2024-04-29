@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Google Ads] campagnes.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: ce17567bbf1a409cc2894e48188235b7473b914c
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2431'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,13 @@ Pour créer un objectif de conversion personnalisé, cliquez sur **[!UICONTROL +
 
 >[!TIP]
 >
->Si la campagne fait partie d’un portfolio, utilisez les mêmes objectifs de conversion que l’objectif du portfolio. L’utilisation d’objectifs de conversion différents peut avoir une incidence sur les performances du portefeuille.
+>Pour les campagnes dans des portfolios hybrides pour lesquelles vous téléchargez des objectifs vers le réseau publicitaire, la bonne pratique consiste à utiliser des objectifs au niveau de la campagne qui correspondent aux objectifs de conversion dans l’objectif du portfolio. Toutefois, si les objectifs de la campagne incluent [!DNL Google]les conversions suivies, puis les ajouter dans la variable [!DNL Google Ads] car ils ne seront pas rechargés sur le réseau publicitaire avec l’objectif . En outre, dans la variable [!DNL Google Ads] Supprimez les actions de conversion de la campagne comme objectifs par défaut du compte en les marquant comme objectifs secondaires (et non primaires).
+
+<!-- Check on this:
+>If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>
+>The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
+-->
 
 >[!MORELIKETHIS]
 >
