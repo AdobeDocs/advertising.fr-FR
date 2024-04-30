@@ -3,9 +3,9 @@ title: Afficher le rapport Prévision de positionnement
 description: Afficher le nombre d’impressions, les dépenses et les prévisions maximales optimales pour une stratégie de ciblage spécifique pour un emplacement.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1596fb810d8eb0c3e7ebb0a955bf82ed5bbc22f5
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ L’outil de prévision d’emplacement affiche le nombre d’impressions prévu
 
 >[!NOTE]
 >
+>* Les codes postaux ne sont pas pris en compte dans les calculs des prévisions de placement.
 >* Aucune prévision n’est générée pour les placements dont le ciblage est garanti par un programme uniquement, car la disponibilité et les dépenses sont déterministes.
 
 ## Informations dans les prévisions
