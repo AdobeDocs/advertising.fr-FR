@@ -3,7 +3,7 @@ title: Paramètres des publicités mobiles
 description: Consultez la description des paramètres d’annonce disponibles pour les annonces mobiles.
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 *Nouveaux formats de publicités vidéo mobiles uniquement*
 
-**[!UICONTROL URL]** ou **[!UICONTROL Ad Tag]**: Balise publicitaire VAST tierce ou balise publicitaire contenant des ressources créatives et des pixels de suivi
+**[!UICONTROL URL]** ou **[!UICONTROL Ad Tag]**: balise publicitaire VAST tierce ou balise publicitaire contenant des ressources créatives et des pixels de suivi.
 
-**[!UICONTROL Ad Title]** ou **[!UICONTROL Title]**: Nom de la publicité utilisée dans la variable [!UICONTROL Ads] afficher et générer des rapports.
+**[!UICONTROL Ad Title]** ou **[!UICONTROL Title]**: nom de la publicité utilisée dans la variable [!UICONTROL Ads] afficher et générer des rapports.
 
 >[!TIP]
 >
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Utilisez un nom facile à trouver lorsque vous joignez la publicité à un emplacement, dans la vue Publicités et dans les rapports. Par exemple, décrivez le type d’unité et certains attributs clés (tels que l’aperçu du produit Vacances) : Gamer 300x250&quot;).
+> Utilisez un nom facile à trouver lorsque vous joignez la publicité à un emplacement, dans la vue Publicités et dans les rapports. Par exemple, décrivez le type d’unité et certains attributs clés (tels que &quot;Holiday Product Preview: 300x250 Gamer&quot;).
 
-**\[Source de publicité\]**: (Lecture seule) *[!UICONTROL 3rd party]*.
+**\[Source de publicité\]**: (lecture seule) *[!UICONTROL 3rd party]*.
 
 **[!UICONTROL Display Code]:** URL de la ressource créative tierce. Quelconque [timestamp] et [[timestamp]] seront remplacés par des valeurs réelles.
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Utilisez un nom facile à trouver lorsque vous joignez la publicité à un emplacement, dans la vue Publicités et dans les rapports. Par exemple, décrivez le type d’unité et certains attributs clés (tels que l’aperçu du produit Vacances) : 30sec Phone Preroll&quot;).
+> Utilisez un nom facile à trouver lorsque vous joignez la publicité à un emplacement, dans la vue Publicités et dans les rapports. Par exemple, décrivez le type d’unité et certains attributs clés (tels que l’ aperçu du produit Vacances : Preroll 30s Phone&quot;).
 
 **[!UICONTROL Width]| [!UICONTROL Ad Unit Width]:** Largeur de l’unité publicitaire entière. Cette option peut être verrouillée selon le type d’unité publicitaire sélectionné.
 
@@ -68,17 +68,17 @@ Il s’agit de la même chose que la variable **[!UICONTROL Width]** champ .
 
 Il s’agit de la même chose que la variable **[!UICONTROL Height]** champ .
 
-**[!UICONTROL Show Controls]:** Où inclure des commandes vidéo pour la publicité : *[!UICONTROL Under]*, *[!UICONTROL Over]*, *[!UICONTROL Bottom]* ou *[!UICONTROL None]* (valeur par défaut).
+**[!UICONTROL Show Controls]:** Où inclure des commandes vidéo pour la publicité : *[!UICONTROL Under]*, *[!UICONTROL Over]*, *[!UICONTROL Bottom]*, ou *[!UICONTROL None]* (valeur par défaut).
 
 **[!UICONTROL Preserve Aspect Ratio]:** Conserver les proportions de largeur et de hauteur de la vidéo (*[!UICONTROL Yes]*) ou pour étirer la vidéo afin de remplir l’espace disponible (*[!UICONTROL No]*).
 
 **[!UICONTROL Close Button Delay]:** (Certains types d’annonces) Le nombre de secondes pour retarder l’affichage du bouton de fermeture.
 
-**[!UICONTROL VAST Tag]:** (Publicités utilisant uniquement des balises VAST ; lecture seule) La balise VAST tierce que vous avez saisie en tant que ressource créative.
+**[!UICONTROL VAST Tag]:** (Publicités utilisant uniquement des balises VAST ; lecture seule) Balise VAST tierce que vous avez saisie en tant que ressource créative.
 
 **[!UICONTROL Final VAST Tag]:** (Publicités utilisant uniquement des balises VAST ; lecture seule) La balise VAST tierce que vous avez saisie en tant que ressource créative avec les éléments nécessaires [Macros de suivi des DSP publicitaires](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
 
-**[!UICONTROL Wmode]:** (Certains types d’annonces) Mode fenêtre : *[!UICONTROL window]*, *[!UICONTROL transparent]* ou *[!UICONTROL opaque]*.
+**[!UICONTROL Wmode]:** (Certains types d’annonces) Mode fenêtre : *[!UICONTROL window]*, *[!UICONTROL transparent]*, ou *[!UICONTROL opaque]*.
 
 ### [!UICONTROL Pixel]
 
@@ -88,13 +88,13 @@ Les paramètres suivants s’appliquent à chaque pixel que vous créez ou modif
 
 **[!UICONTROL Integration Event]:** Événement qui déclenche le déclenchement du pixel. Pour ce type d’annonce, utilisez des pixels qui se déclenchent sur la variable *[!UICONTROL Impression]* ou *[!UICONTROL Click-through]*.
 
-**[!UICONTROL Pixel Type]:** Si le pixel est un *[!UICONTROL IMG URL]* (fichier image 1x1 pixel), *[!UICONTROL HTML]* ou *[!UICONTROL JavaScript URL]*.
+**[!UICONTROL Pixel Type]:** Si le pixel est un *[!UICONTROL IMG URL]* (fichier image 1x1 pixel), *[!UICONTROL HTML]*, ou *[!UICONTROL JavaScript URL]*.
 
-**[!UICONTROL Pixel URL or Code]:** L’URL de l’image en pixels, au format approprié pour la variable [!UICONTROL Pixel Type].
+**[!UICONTROL Pixel URL or Code]:** L’URL de l’image en pixels, au format approprié pour l’objet [!UICONTROL Pixel Type].
 
 **[!UICONTROL Pixel Name]:** Nom du pixel. Utilisez un nom qui vous aide à identifier facilement le pixel.
 
-**[!UICONTROL Pixel Provider]:** Fournisseur de pixels : *[!UICONTROL None]*, *[!UICONTROL Nielsen]* ou *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** Fournisseur de pixels : *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, ou *[!UICONTROL IAS]*.
 
 ### [!UICONTROL Sharing]
 
@@ -103,8 +103,7 @@ Obsolète
 >[!MORELIKETHIS]
 >
 >* [A propos de la gestion des publicités](ad-about.md)
->* [Créer une publicité unique](ad-create.md)
+>* [Création d’une publicité unique](ad-create.md)
 >* [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Spécifications des publicités](ad-specs.md)
 >* [Macros DSP](/help/dsp/campaign-management/macros.md)
-

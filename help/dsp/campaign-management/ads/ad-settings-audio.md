@@ -3,9 +3,9 @@ title: Paramètres de publicité audio
 description: Reportez-vous à la description des paramètres de publicité disponibles pour les publicités audio.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL]**: URL de la balise VAST.
 
-**[!UICONTROL Title]**: Nom du fichier qui sera utilisé dans la variable [!UICONTROL Ads] afficher et générer des rapports.
+**[!UICONTROL Title]**: nom du fichier qui sera utilisé dans la variable [!UICONTROL Ads] afficher et générer des rapports.
 
 >[!TIP]
 >
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Utilisez un nom facile à trouver lorsque vous joignez la publicité à un emplacement, dans la variable [!UICONTROL Ads] et dans les rapports. Par exemple, décrivez le type d’unité et certains attributs clés (tels que l’aperçu du produit Vacances) : Audio 30sec&quot;).
+> Utilisez un nom facile à trouver lorsque vous joignez la publicité à un emplacement, dans la variable [!UICONTROL Ads] et dans les rapports. Par exemple, décrivez le type d’unité et certains attributs clés (tels que l’ Aperçu du produit de vacances : Audio 30sec).
 
 **[!UICONTROL Ad Duration]:** Longueur du fichier audio. Il est automatiquement défini comme [!UICONTROL 15] ou [!UICONTROL 30], selon l’unité publicitaire sélectionnée.
 
@@ -54,19 +54,18 @@ Les paramètres suivants s’appliquent à chaque pixel que vous créez ou modif
 
 **[!UICONTROL Integration Event]:** Événement qui déclenche le déclenchement du pixel. Pour ce type d’annonce, utilisez des pixels qui se déclenchent sur la variable *[!UICONTROL Impression]* ou *[!UICONTROL Click-through]*.
 
-**[!UICONTROL Pixel Type]:** Si le pixel est un *[!UICONTROL IMG UR]L* (fichier image 1x1 pixel), *[!UICONTROL HTML]* ou *[!UICONTROL JavaScript URL]*.
+**[!UICONTROL Pixel Type]:** Si le pixel est un *[!UICONTROL IMG URL]* (fichier image 1x1 pixel), *[!UICONTROL HTML]*, ou *[!UICONTROL JavaScript URL]*.
 
 **[!UICONTROL Pixel URL or Code]:** URL de l’image en pixels, au format approprié pour le type de pixel spécifié.
 
 **[!UICONTROL Pixel Name]:** Nom du pixel. Utilisez un nom qui vous aide à identifier facilement le pixel.
 
-**[!UICONTROL Pixel Provider]:** Fournisseur de pixels : *[!UICONTROL None]*, *[!UICONTROL Nielsen]* ou *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** Fournisseur de pixels :*[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, ou *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
 >* [A propos de la gestion des publicités](ad-about.md)
->* [Créer une publicité unique](ad-create.md)
+>* [Création d’une publicité unique](ad-create.md)
 >* [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Spécifications des publicités](ad-specs.md)
 >* [Macros DSP](/help/dsp/campaign-management/macros.md)
-
