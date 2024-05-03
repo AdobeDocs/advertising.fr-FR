@@ -3,9 +3,9 @@ title: Modifier un emplacement
 description: Découvrez comment modifier un emplacement.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: df89207a61235ccf83d2c4b898ac60598f8e2877
+source-git-commit: e794f6ee4731479cd1961201ac479d66216a3200
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,13 @@ ht-degree: 0%
 
 Vous pouvez modifier les paramètres d’un emplacement unique ou de plusieurs emplacements à la fois.
 
+<!-- Some placements don't have these options. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
 >[!NOTE]
 >
->Vous pouvez également télécharger les paramètres d’un ou de plusieurs emplacements, ou de tous les emplacements d’une campagne, au format XLSX (feuille de calcul Excel), apporter des modifications à un sous-ensemble de champs et les charger à nouveau en une seule fois dans DSP. Voir &quot;[Vérification et correction des paramètres de positionnement à l’aide de feuilles de calcul](placement-qa.md).&quot;
-
-<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+>Vous pouvez également télécharger les paramètres d’un ou de plusieurs emplacements, ou de tous les emplacements d’une campagne, au format XLSX (feuille de calcul Excel), apporter des modifications à un sous-ensemble limité de champs clés et les charger à la fois dans DSP. Voir &quot;[Vérification et correction des paramètres de positionnement à l’aide de feuilles de calcul](placement-qa.md).&quot;
 
 ## Modifier rapidement les paramètres de positionnement des clés {#placement-quick-edit}
-
-<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
 Vous pouvez modifier le nom, l’état, l’offre maximale et le budget de l’emplacement sans ouvrir les paramètres d’emplacement complets.
 
