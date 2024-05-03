@@ -3,9 +3,9 @@ title: Modifier un emplacement
 description: Découvrez comment modifier un emplacement.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 787bf675c24fe22a5ca3c9fd599135f81ddd5296
+source-git-commit: df89207a61235ccf83d2c4b898ac60598f8e2877
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Modifier un emplacement
 
 Vous pouvez modifier les paramètres d’un emplacement unique ou de plusieurs emplacements à la fois.
+
+>[!NOTE]
+>
+>Vous pouvez également télécharger les paramètres d’un ou de plusieurs emplacements, ou de tous les emplacements d’une campagne, au format XLSX (feuille de calcul Excel), apporter des modifications à un sous-ensemble de champs et les charger à nouveau en une seule fois dans DSP. Voir &quot;[Vérification et correction des paramètres de positionnement à l’aide de feuilles de calcul](placement-qa.md).&quot;
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
