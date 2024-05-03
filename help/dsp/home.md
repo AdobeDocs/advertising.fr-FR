@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 17635ae4b61913d631ccb2a875ee550602831178
+source-git-commit: 01cc40d455b0f1b95d3cfe4b93e862627e2025d3
 workflow-type: tm+mt
 source-wordcount: '2771'
 ht-degree: 0%
@@ -15,10 +15,7 @@ ht-degree: 0%
 # Nouveautés
 
 Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
-<!--
-|  | Ads, Pixels |  |  | 
--->
->>
+
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
 | 2 mai 2024 | Publicités, pixels | Vous pouvez télécharger les paramètres de toutes les publicités d’une campagne au format XLSX (feuille de calcul Excel) à des fins de révision à partir de [!UICONTROL Ad Tools] vue. | Voir &quot;[Vérification des paramètres des publicités à l’aide de feuilles de calcul](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
