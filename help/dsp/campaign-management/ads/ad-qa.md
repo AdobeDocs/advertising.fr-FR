@@ -2,7 +2,7 @@
 title: Vérification des paramètres des publicités à l’aide de feuilles de calcul
 description: Découvrez comment vérifier les paramètres des publicités à l’aide de feuilles de calcul.
 feature: DSP Ads
-source-git-commit: a2e444a6cd5dcca6f02b92dec05321f4df4b0045
+source-git-commit: c67e0c83ba8836462ce83fad24721cd1b27de318
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -43,5 +43,5 @@ Vous pouvez télécharger les paramètres de toutes les publicités d’une camp
 >[!MORELIKETHIS]
 >
 >* [Modifier une publicité](/help/dsp/campaign-management/ads/ad-edit.md)
->* [Paramètres de publicité](/help/dsp/campaign-management/ads/placeadment-settings.md)
+>* [Paramètres de publicité](/help/dsp/campaign-management/ads/ad-settings.md)
 >* [Joindre des publicités à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
