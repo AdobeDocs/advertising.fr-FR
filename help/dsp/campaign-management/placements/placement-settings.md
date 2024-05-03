@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: caab8c3163a7ffdbc0b5ef28176b2ee73f83b6e8
 workflow-type: tm+mt
-source-wordcount: '3516'
+source-wordcount: '3540'
 ht-degree: 0%
 
 ---
@@ -309,6 +309,7 @@ Vous pouvez éventuellement exporter la liste des sites ciblés et bloqués sous
 
 * Pour sélectionner une audience existante, cliquez sur ![Sélectionner](/help/dsp/assets/chevron-down.png) en regard de [!UICONTROL Excluded Audiences], puis sélectionnez l’audience.
 * Pour créer une audience, cliquez sur ![Sélectionner](/help/dsp/assets/chevron-down.png) en regard de [!UICONTROL Excluded Audiences], puis sélectionnez **+ Créer une audience**. Pour obtenir des instructions, voir [Création d’une audience réutilisable](/help/dsp/audiences/reusable-audience-create.md), en commençant par l’étape 3.
+* Pour sélectionner des segments d’audience spécifiques, cliquez sur **[!UICONTROL Select segments for this placement only]**. Sélectionnez la logique du segment ; pour obtenir des instructions, reportez-vous à l’étape 6 de &quot;[Création d’une audience réutilisable](/help/dsp/audiences/reusable-audience-create.md).&quot; Lorsque vous avez terminé, cliquez sur **Enregistrer**.
 
 **[!UICONTROL Cross Device Targeting]:** (Disponible lorsque vous sélectionnez au moins un segment ou une audience et que la variable [campaign est configuré pour le ciblage multi-appareils basé sur les personnes](/help/dsp/campaign-management/campaigns/campaign-settings.md). Permet d’étendre le ciblage sur tous les appareils connus d’une personne (selon la représentation graphique des appareils spécifiée dans les paramètres de la campagne), même sur les appareils qui ne figurent pas dans les segments spécifiés. Les frais peuvent s&#39;appliquer en fonction du graphique spécifié pour l&#39;opération. Les données de Device Graph sont disponibles uniquement en Amérique du Nord.
 
