@@ -3,10 +3,10 @@ title: Raccourcis clavier
 description: Référencez les raccourcis clavier disponibles dans les paramètres d’emplacement.
 feature: DSP Placements
 exl-id: d1711166-8f20-4641-a1f5-c865a40ad387
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 0%
+source-wordcount: '97'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ Dans les paramètres d’emplacement, utilisez les raccourcis clavier pour navig
 | Paramètres d’emplacement | t | Vous déplace vers la [!UICONTROL Tracking] paramètres |
 | Paramètres d’emplacement | l | Vous déplace vers la [!UICONTROL Adobe Labs] paramètres |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- | Legacy placement settings | npv | Lets you create a new video placement | -->
 <!-- | Legacy placement settings | npd | Lets you create a new display placement | -->
@@ -35,6 +35,5 @@ Dans les paramètres d’emplacement, utilisez les raccourcis clavier pour navig
 >[!MORELIKETHIS]
 >
 >* [Création d’un emplacement](/help/dsp/campaign-management/placements/placement-create.md)
->* [Modifier un emplacement](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Modifier les emplacements](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
-

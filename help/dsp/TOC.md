@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '901'
 ht-degree: 3%
 
 ---
@@ -60,8 +60,8 @@ ht-degree: 3%
    + Emplacements {#placements}
       + [À propos de la gestion des emplacements](/help/dsp/campaign-management/placements/placement-about.md)
       + [Création d’un emplacement](/help/dsp/campaign-management/placements/placement-create.md)
-      + [Modifier un emplacement](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [Vérification et correction des paramètres de positionnement à l’aide de feuilles de calcul](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [Vérification et modification des paramètres d’emplacement à l’aide de feuilles de calcul](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [Modifier les emplacements](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Dupliquer un emplacement](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Gestion des multiplicateurs d’offre pour les emplacements](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [Joindre des publicités à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -77,6 +77,7 @@ ht-degree: 3%
       + [Création d’une publicité unique](/help/dsp/campaign-management/ads/ad-create.md)
       + [Créer plusieurs publicités tierces](/help/dsp/campaign-management/ads/ad-create-multiple.md)
       + [Créer des publicités avec [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [Vérification des paramètres des publicités à l’aide de feuilles de calcul](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Modifier une publicité](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplication d’une publicité](/help/dsp/campaign-management/ads/ad-duplicate.md)
       + [Joindre des publicités à des emplacements](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->

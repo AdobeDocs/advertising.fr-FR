@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 9586b743df5af61db81f781224bed28b02e0c4a8
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '3540'
+source-wordcount: '3539'
 ht-degree: 0%
 
 ---
@@ -477,7 +477,7 @@ Quel niveau de [Ads.txt](https://iabtechlab.com/ads-txt-about/) filtrage pré-en
 >
 >* [À propos de la gestion des emplacements](placement-about.md)
 >* [Création d’un emplacement](placement-create.md)
->* [Modifier un emplacement](placement-edit.md)
+>* [Modifier les emplacements](placement-edit.md)
 >* [Gestion des multiplicateurs d’offre pour les emplacements](placement-manage-bid-multipliers.md)
 >* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)

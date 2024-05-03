@@ -3,9 +3,9 @@ title: Modification des planifications de publicité pour les emplacements
 description: Découvrez comment modifier les plannings de publicité pour les publicités liées aux emplacements.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 02a643662b00e2aed6dccf80cf8eeaf04d3d5c34
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,6 @@ Vous pouvez modifier les dates de vol planifiées et la rotation des publicités
 >[!MORELIKETHIS]
 >
 >* [À propos de la gestion des emplacements](placement-about.md)
->* [Modifier un emplacement](placement-edit.md)
+>* [Modifier les emplacements](placement-edit.md)
 >* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)

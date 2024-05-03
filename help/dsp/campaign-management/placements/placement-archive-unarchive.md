@@ -1,11 +1,11 @@
 ---
 title: Archivage ou désarchivage d’un emplacement
-description: Découvrez comment archiver ou désarchiver un emplacement.
+description: Découvrez comment archiver ou ne plus archiver un emplacement.
 feature: DSP Placements
 exl-id: 4304452d-4573-46b3-892e-299950a75d4f
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Masquez un emplacement qui n’est pas utilisé en l’archivant. La seule action que vous pouvez effectuer sur un emplacement archivé est de le désarchiver. Les emplacements archivés ne s’affichent pas par défaut, mais restent disponibles pour la création de rapports.
 
-Vous pouvez désarchiver à tout moment un emplacement pour restaurer son état précédent.
+Vous pouvez désarchiver à tout moment un emplacement afin de restaurer son état précédent.
 
 ## Archiver un emplacement
 
@@ -41,6 +41,5 @@ Vous pouvez désarchiver à tout moment un emplacement pour restaurer son état 
 >[!MORELIKETHIS]
 >
 >* [Mettre en pause ou activer un emplacement](placement-pause-activate.md)
->* [Modifier un emplacement](placement-edit.md)
+>* [Modifier les emplacements](placement-edit.md)
 >* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
-

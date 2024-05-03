@@ -3,9 +3,9 @@ title: Modifier rapidement les paramètres de positionnement des clés
 description: Découvrez comment modifier rapidement les paramètres d’emplacement clés.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Vous pouvez modifier le nom, l’état, l’offre maximale et le budget de l’e
 
 >[!TIP]
 >
-> Pour modifier un paramètre d’emplacement, voir[Modifier un emplacement](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+> Pour modifier un paramètre d’emplacement, voir[Modifier les emplacements](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
@@ -31,7 +31,7 @@ Vous pouvez modifier le nom, l’état, l’offre maximale et le budget de l’e
 >
 >* [À propos de la gestion des emplacements](placement-about.md)
 >* [Création d’un emplacement](placement-create.md)
->* [Modifier un emplacement](placement-edit.md)
+>* [Modifier les emplacements](placement-edit.md)
 >* [Dupliquer un emplacement](placement-duplicate.md)
 >* [Gestion des multiplicateurs d’offre pour les emplacements](placement-manage-bid-multipliers.md)
 >* [Modification des planifications de publicité pour les emplacements](placement-edit-ad-schedule.md)

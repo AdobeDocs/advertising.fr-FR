@@ -1,16 +1,16 @@
 ---
-title: Vérification et correction des paramètres de positionnement à l’aide de feuilles de calcul
+title: Vérification et modification des paramètres d’emplacement à l’aide de feuilles de calcul
 description: Découvrez comment vérifier et modifier des paramètres d’emplacement clés à l’aide de feuilles de calcul.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
-# Vérification et correction des paramètres de positionnement à l’aide de feuilles de calcul
+# Vérification et modification des paramètres d’emplacement à l’aide de feuilles de calcul
 
 Vous pouvez télécharger les paramètres d’un ou de plusieurs emplacements, ou de tous les emplacements d’une campagne, au format XLSX (feuille de calcul Excel) pour révision. Utilisez cette fonctionnalité pour passer rapidement en revue les détails suivants :
 
@@ -22,7 +22,7 @@ Vous pouvez ensuite apporter des modifications à la sélection des champs et le
 
 >[!TIP]
 >
->Pour apporter des modifications plus importantes aux paramètres d’emplacement, utilisez la variable [modification en masse](/help/dsp/campaign-management/placements/placement-edit.md).
+>Pour modifier d’autres champs pour un ou plusieurs emplacements, voir &quot;[Modifier les emplacements](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 ## Paramètres de téléchargement pour tous les emplacements d’une campagne
 
@@ -193,5 +193,5 @@ Le fichier est automatiquement enregistré dans le dossier Téléchargement du n
 
 >[!MORELIKETHIS]
 >
->* [Modifier un emplacement](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Modifier les emplacements](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

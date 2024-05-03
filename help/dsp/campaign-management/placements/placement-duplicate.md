@@ -3,9 +3,9 @@ title: Duplication de placements
 description: Découvrez comment dupliquer un ou plusieurs emplacements.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,10 @@ Dupliquez un ou plusieurs emplacements pour créer des emplacements avec des par
 
 * Créer plusieurs doublons d’emplacements
 * Dupliquer des emplacements dans les publicitaires et campagnes d’origine ou dans des emplacements différents
-* (Pour les emplacements dupliqués dans les campagnes d’origine) Vous pouvez éventuellement dupliquer les publicités d’origine.
+* (Pour les emplacements dupliqués dans les campagnes d’origine) Vous pouvez éventuellement dupliquer les publicités d’origine
 * Modifier l’état et les dates de vol des nouveaux emplacements
 
-Voir &quot;[Ce qui n’est pas dupliqué](#placement-not-duplicated)&quot; pour une liste de paramètres d’emplacement qui ne sont pas dupliqués.
+Voir &quot;[Éléments non dupliqués](#placement-not-duplicated)&quot; pour une liste de paramètres d’emplacement qui ne sont pas dupliqués.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -55,7 +55,7 @@ Voir &quot;[Ce qui n’est pas dupliqué](#placement-not-duplicated)&quot; pour 
 
 1. Cliquez sur **[!UICONTROL Submit]**.
 
-## Ce qui n’est pas dupliqué {#placement-not-duplicated}
+## Éléments non dupliqués {#placement-not-duplicated}
 
 Tous les paramètres des emplacements d’origine sont dupliqués sauf :
 
@@ -73,7 +73,6 @@ Tous les paramètres des emplacements d’origine sont dupliqués sauf :
 >
 >* [À propos de la gestion des emplacements](placement-about.md)
 >* [Création d’un emplacement](placement-create.md)
->* [Modifier un emplacement](placement-edit.md)
+>* [Modifier les emplacements](placement-edit.md)
 >* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)
-

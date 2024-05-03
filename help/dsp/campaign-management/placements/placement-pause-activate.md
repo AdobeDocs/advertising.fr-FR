@@ -3,16 +3,16 @@ title: Mettre en pause ou activer un emplacement
 description: Découvrez comment suspendre ou activer un emplacement.
 feature: DSP Placements
 exl-id: cd58d8f7-8dd0-433b-9272-a4fc1e3e98d9
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
 # Mettre en pause ou activer un emplacement
 
-Suspendre un emplacement actif ou activer un emplacement suspendu lorsqu’il se trouve dans le planning de vol configuré.
+Suspendre un emplacement en direct ou activer un emplacement en pause lorsqu’il se trouve dans le planning de vol configuré.
 
 ## Mettre en pause un emplacement réel
 
@@ -31,6 +31,5 @@ Suspendre un emplacement actif ou activer un emplacement suspendu lorsqu’il se
 >[!MORELIKETHIS]
 >
 >* [Archivage ou désarchivage d’un emplacement](placement-archive-unarchive.md)
->* [Modifier un emplacement](placement-edit.md)
+>* [Modifier les emplacements](placement-edit.md)
 >* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
-
