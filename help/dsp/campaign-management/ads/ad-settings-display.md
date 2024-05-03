@@ -3,9 +3,9 @@ title: Paramètres d’affichage des publicités
 description: Consultez la description des paramètres d’annonce disponibles pour les annonces affichées.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
+source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Les paramètres suivants concernent les publicités standard.
 
 ### [!UICONTROL Pixel]
 
-Tous les pixels de suivi d’événement existants pour l’emplacement sont automatiquement joints. Vous pouvez désolidariser des pixels existants et créer de nouveaux pixels si nécessaire, en fonction des besoins de suivi pour l’annonce individuelle.
+Tous les pixels de suivi d’événement existants pour l’emplacement sont automatiquement joints. Vous pouvez désolidariser des pixels existants et créer de nouveaux pixels si nécessaire, en fonction des besoins de suivi pour l’annonce individuelle. **Conseil :** Pour modifier les pixels de suivi tiers de plusieurs publicités à la fois dans un emplacement à l’aide de la variable [!UICONTROL Ad Tools] vue, voir[Joindre des pixels de suivi tiers à des publicités dans un emplacement](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
 
 Les paramètres suivants s’appliquent à chaque pixel que vous créez ou modifiez.
 

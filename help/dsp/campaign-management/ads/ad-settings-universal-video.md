@@ -3,9 +3,9 @@ title: Paramètres de publicité vidéo universelle
 description: Consultez les descriptions des paramètres d’annonce disponibles pour les publicités vidéo universelles.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
+source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Utilisation [!UICONTROL VAST], qui n’autorise pas la mesure de la visibilité,
 
 ### [!UICONTROL Pixel]
 
-Tous les pixels de suivi d’événement existants pour l’emplacement sont automatiquement joints. Vous pouvez désolidariser des pixels existants et créer de nouveaux pixels si nécessaire, en fonction des besoins de suivi pour l’annonce individuelle.
+Tous les pixels de suivi d’événement existants pour l’emplacement sont automatiquement joints. Vous pouvez désolidariser des pixels existants et créer de nouveaux pixels si nécessaire, en fonction des besoins de suivi pour l’annonce individuelle. **Conseil :** Pour modifier les pixels de suivi tiers de plusieurs publicités à la fois dans un emplacement à l’aide de la variable [!UICONTROL Ad Tools] vue, voir[Joindre des pixels de suivi tiers à des publicités dans un emplacement](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
 
 Les paramètres suivants s’appliquent à chaque pixel que vous créez ou modifiez.
 
