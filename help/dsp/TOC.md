@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: c5f26fba0dcf26e0017d881b5ccd9101f98ff43f
+source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '897'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 3%
       + [À propos de la gestion des emplacements](/help/dsp/campaign-management/placements/placement-about.md)
       + [Création d’un emplacement](/help/dsp/campaign-management/placements/placement-create.md)
       + [Modifier un emplacement](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [Modifier rapidement les paramètres de positionnement des clés](/help/dsp/campaign-management/placements/placement-quick-edit.md)
+      + [Vérification et correction des paramètres de positionnement à l’aide de feuilles de calcul](/help/dsp/campaign-management/placements/placement-qa.md)
       + [Dupliquer un emplacement](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Gestion des multiplicateurs d’offre pour les emplacements](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [Joindre des publicités à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -101,11 +101,6 @@ ht-degree: 3%
       + [Affichage des rapports de diagnostic d’emplacement](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [Affichage des alertes](/help/dsp/campaign-management/reports/campaign-alerts.md)
       + [Gestion des vues de données de campagne](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + Corriger les paramètres de positionnement à l’aide de feuilles de calcul {#qa-spreadsheet}
-      + [À propos de la correction des paramètres de positionnement à l’aide de feuilles de calcul](/help/dsp/campaign-management/qa/qa-about.md)
-      + [Télécharger les paramètres de positionnement dans une feuille de calcul](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [Charger les paramètres de positionnement dans une feuille de calcul](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
-      + [Colonnes dans les feuilles de calcul téléchargées/téléchargées](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [Macros DSP](/help/dsp/campaign-management/macros.md)
    + [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
    + [Questions fréquentes à propos de Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)

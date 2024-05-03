@@ -3,9 +3,9 @@ title: Modifier un emplacement
 description: Découvrez comment modifier un emplacement.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: 787bf675c24fe22a5ca3c9fd599135f81ddd5296
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,24 @@ Vous pouvez modifier les paramètres d’un emplacement unique ou de plusieurs e
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
+## Modifier rapidement les paramètres de positionnement des clés {#placement-quick-edit}
+
+<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
+Vous pouvez modifier le nom, l’état, l’offre maximale et le budget de l’emplacement sans ouvrir les paramètres d’emplacement complets.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
+1. Cliquez sur le nom de la campagne.
+1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
+1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. Modifier l’une des options disponibles [paramètres de placement](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**, et **[!UICONTROL Budget]**.
+1. Cliquez sur **[!UICONTROL Apply]**.
+
 ## Modification d’un emplacement unique
 
 >[!TIP]
 >
-> Pour modifier uniquement le nom, l’état, l’offre maximale et le budget de l’emplacement, voir &quot;[Modifier rapidement les paramètres de positionnement des clés](/help/dsp/campaign-management/placements/placement-quick-edit.md).&quot;
+> Pour modifier uniquement le nom, l’état, l’offre maximale et le budget de l’emplacement, voir &quot;[Modifier rapidement les paramètres de positionnement des clés](#placement-quick-edit).&quot;
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -77,7 +90,7 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
 >[!MORELIKETHIS]
 >
 >* [À propos de la gestion des emplacements](placement-about.md)
->* [Modifier rapidement les paramètres de positionnement des clés](placement-quick-edit.md)
+>* [Vérification et correction des paramètres de positionnement à l’aide de feuilles de calcul](placement-qa.md)
 >* [Création d’un emplacement](placement-create.md)
 >* [Dupliquer un emplacement](placement-duplicate.md)
 >* [Gestion des multiplicateurs d’offre pour les emplacements](placement-manage-bid-multipliers.md)
@@ -87,5 +100,4 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
 >* [Paramètres d’emplacement](placement-settings.md)
 >* [Afficher le rapport Prévision de positionnement](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [À propos de la correction des paramètres de positionnement à l’aide de feuilles de calcul](/help/dsp/campaign-management/qa/qa-about.md)
 >* [Vidéo : Comment modifier des emplacements à l’aide des outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
