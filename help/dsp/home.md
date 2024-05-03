@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 17635ae4b61913d631ccb2a875ee550602831178
 workflow-type: tm+mt
-source-wordcount: '2744'
+source-wordcount: '2771'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 >>
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
-| 2 mai 2024 | Publicités, pixels | La variable [!UICONTROL Ad Tools] afficher > [!UICONTROL Attach Pixels] Cet onglet affiche les pixels de suivi tiers associés à vos publicités et fournit un nouveau workflow pour joindre des pixels à une ou plusieurs publicités et pour désolidariser des pixels existants. | Voir &quot;[Joindre des publicités à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
+| 2 mai 2024 | Publicités, pixels | Vous pouvez télécharger les paramètres de toutes les publicités d’une campagne au format XLSX (feuille de calcul Excel) à des fins de révision à partir de [!UICONTROL Ad Tools] vue. | Voir &quot;[Vérification des paramètres des publicités à l’aide de feuilles de calcul](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
+| |  | La variable [!UICONTROL Ad Tools] afficher > [!UICONTROL Attach Pixels] Cet onglet affiche les pixels de suivi tiers associés à vos publicités et fournit un nouveau workflow pour joindre des pixels à une ou plusieurs publicités et pour désolidariser des pixels existants. | Voir &quot;[Joindre des publicités à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 |  | Emplacements, audiences | Vous pouvez désormais exclure des emplacements des segments d’audience individuels ou des audiences non réutilisables via des outils de modification en masse ou l’éditeur d’emplacement. | Voir &quot;[Modifier les emplacements](/help/dsp/campaign-management/placements/placement-edit.md)&quot; et &quot;[Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 18 avril 2024 | Emplacements | Vous pouvez désormais créer et gérer des modificateurs d’offre, par lesquels une offre est multipliée pour augmenter ou diminuer l’offre, pour des types de cible spécifiés pour un emplacement. Le modificateur d’offre par défaut est 1,00, ce qui signifie qu’aucune augmentation ou diminution n’est effectuée ; les valeurs peuvent être comprises entre 0,10 et 10,00. Par exemple, un modificateur d’offre de 0,50 réduit une offre de 6 USD à 3 (0,50 x 6). Lorsqu’une enchère est admissible pour plusieurs modificateurs d’offre, tous les modificateurs d’offre applicables sont multipliés. Les modificateurs d’offre n’augmentent jamais l’offre à plus que l’offre maximale. | Voir &quot;[Gestion des multiplicateurs d’offre pour les emplacements](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
 | 3 avril 2024 | Partenaires d’inventaire | Le siège Adobe Advertising de l&#39;UE pour [!DNL Google Authorized Buyers] a été fusionné avec le siège actuel de l&#39;APAC. | Voir &quot;[Partenaires SSP](/help/dsp/inventory/ssp-partners.md).&quot; |
