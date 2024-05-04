@@ -2,9 +2,9 @@
 title: Vérification des paramètres des publicités à l’aide de feuilles de calcul
 description: Découvrez comment vérifier les paramètres des publicités à l’aide de feuilles de calcul.
 feature: DSP Ads
-source-git-commit: ba940f8476463a6804f024b1597be74ffc5a6c0c
+source-git-commit: 24e6339d7217c02c993702e203acda362c25fd0e
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 Vous pouvez télécharger les paramètres de toutes les publicités d’une campagne au format XLSX (feuille de calcul Excel) pour révision.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? And does it include all possible settings, or just a subset?  -->
 
->[!TIP]
+>[!NOTE]
 >
->*Pour modifier les paramètres de votre publicité, utilisez la variable [modification en masse](/help/dsp/campaign-management/ads/ad-edit.md).
+>*Pour modifier les paramètres de votre publicité, voir [Modifier une publicité](/help/dsp/campaign-management/ads/ad-edit.md).
 >*Pour modifier les pixels de suivi tiers pour plusieurs publicités à la fois ou joindre des publicités à des emplacements, voir &quot;[Joindre des publicités à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot;
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
