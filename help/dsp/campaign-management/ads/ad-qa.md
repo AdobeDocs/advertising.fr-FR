@@ -1,17 +1,17 @@
 ---
-title: Vérification des paramètres des publicités à l’aide de feuilles de calcul
-description: Découvrez comment vérifier les paramètres des publicités à l’aide de feuilles de calcul.
+title: Vérification des détails des publicités à l’aide de feuilles de calcul
+description: Découvrez comment consulter les détails de la publicité, y compris les paramètres de publicité et les emplacements associés, à l’aide de feuilles de calcul.
 feature: DSP Ads
-source-git-commit: 24e6339d7217c02c993702e203acda362c25fd0e
+source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# Vérification des paramètres des publicités à l’aide de feuilles de calcul
+# Vérification des détails des publicités à l’aide de feuilles de calcul
 
-Vous pouvez télécharger les paramètres de toutes les publicités d’une campagne au format XLSX (feuille de calcul Excel) pour révision.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? And does it include all possible settings, or just a subset?  -->
+Vous pouvez télécharger au format XLSX (feuille de calcul Excel) des informations détaillées sur toutes les publicités d’une campagne en vue de les consulter. Les détails incluent les paramètres de publicité et les emplacements associés.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? -->
 
 >[!NOTE]
 >
