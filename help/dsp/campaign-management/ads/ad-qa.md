@@ -2,7 +2,7 @@
 title: Vérification des détails des publicités à l’aide de feuilles de calcul
 description: Découvrez comment consulter les détails de la publicité, y compris les paramètres de publicité et les emplacements associés, à l’aide de feuilles de calcul.
 feature: DSP Ads
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: fd197543d9f96bfb29784402a4510bd200888b60
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
