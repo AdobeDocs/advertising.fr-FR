@@ -3,9 +3,9 @@ title: Présentation de Campaign Management dans les DSP publicitaires
 description: Découvrez la hiérarchie et les composants de la gestion de campagne.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ A [placement](/help/dsp/campaign-management/placements/placement-about.md) stock
 
 [Publicités](/help/dsp/campaign-management/ads/ad-about.md) inclure des ressources de création et des URL de suivi ; Vous pouvez charger des balises de diffusion de publicités tierces individuellement ou en bloc à l’aide de feuilles de balises partenaires ou du modèle de balise en bloc. Vous pouvez également créer manuellement des publicités d’affichage natives pour DSP à diffuser.
 
-Une fois vos publicités configurées, vous devrez joindre chaque publicité à un emplacement. Vous pouvez joindre une seule publicité à un ou plusieurs emplacements.
+Une fois vos publicités configurées, vous devez joindre chaque publicité à un emplacement pour commencer à exécuter la publicité. Vous pouvez joindre une seule publicité à un ou plusieurs emplacements.
 
 Toutes les publicités actives et approuvées d’un emplacement actif dans une campagne active peuvent être exécutées en fonction des paramètres de ciblage de l’emplacement.
 

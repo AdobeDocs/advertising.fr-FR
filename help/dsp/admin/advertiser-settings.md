@@ -2,9 +2,9 @@
 title: Paramètres du compte Advertiser
 description: Voir la description des paramètres de l’annonceur disponibles.
 role: User, Admin
-source-git-commit: 201eb485e196dc0823dd6d592f67f62122c214b1
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Si vous sélectionnez *[!UICONTROL Other]*, l’annonceur ne pourra pas accéder à DSP [!DNL On Demand Inventory].
+>Si vous sélectionnez *[!UICONTROL Other]*, l’annonceur ne peut pas accéder DSP [!DNL On Demand Inventory].
 
 **[!UICONTROL Advertiser URL]:** Page d’accueil de l’annonceur ou URL du site web principal (en commençant par `http://` ou `https://`).
 
-**[!UICONTROL Share all private exchange feeds into this advertiser]:** (Nouveaux comptes publicitaires uniquement) met tous les flux d’échange privés configurés pour le compte DSP de l’organisation à la disposition de l’annonceur.
+**[!UICONTROL Share all private exchange feeds into this advertiser]:** (Nouveaux comptes publicitaires uniquement) Rend tous les flux d’exchange privés configurés pour le compte DSP de l’organisation disponibles pour l’annonceur.
 
 ### [!UICONTROL Adobe IMS IDs]
 
@@ -39,7 +39,7 @@ Les annonceurs qui disposent de produits Adobe Experience Cloud supplémentaires
 
 (Facultatif) Produits Experience Cloud supplémentaires liés au compte DSP. Les produits doivent être associés au même ID d’organisation Experience Cloud fourni dans la variable [!UICONTROL Adobe IMS IDs] .
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Publicitaires avec [!DNL Advertising Search, Social, & Commerce] ou qui utilisent des pixels de conversion d’Adobe Advertising) A [!DNL Search, Social, & Commerce] compte avec lequel DSP échangera des données d’attribution.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Publicitaires avec [!DNL Advertising Search, Social, & Commerce] ou qui utilisent des pixels de conversion d’Adobe Advertising) A [!DNL Search, Social, & Commerce] compte avec lequel DSP exchange les données d’attribution.
 
 **[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Publicitaires avec Adobe Analytics ; facultatif ; applicable uniquement aux données collectées à l’aide des balises de suivi de conversion d’Adobe Advertising qui incluent une [!DNL EF Redirect] et jeton uniquement) Un ou plusieurs [!DNL Analytics] suites de rapports auxquelles DSP enverra les données collectées auprès des éditeurs et des partenaires côté offre. Analytics enverra également les données qu’il collecte du site du client à DSP.
 
@@ -47,7 +47,7 @@ Pour que les données s’affichent dans les suites de rapports, le [!DNL Search
 
 >[!WARNING]
 >
->Si vous supprimez une suite de rapports précédemment liée, DSP n’échangera plus de données avec cette suite. Vous pouvez vous attendre à voir les fluctuations des données.
+>Si vous supprimez une suite de rapports précédemment liée, DSP n’exchange plus les données de cette suite. Vous pouvez vous attendre à voir les fluctuations des données.
 
 Pour plus d’informations sur l’intégration à [!DNL Analytics], voir &quot;[Présentation de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 

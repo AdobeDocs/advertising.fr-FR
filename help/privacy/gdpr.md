@@ -4,9 +4,9 @@ description: Découvrez les types de requêtes de données pris en charge, les v
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 80072930c0506a017a927ce53eaad900a2642e92
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour Adobe Ad
 
 1. Utilisez l’une des méthodes suivantes : [API ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (pour les requêtes automatisées) ou la variable [Interface utilisateur du Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr) (pour les demandes ad hoc) pour envoyer des demandes d’accès et de suppression à l’Adobe Advertising pour le compte des sujets des données et pour vérifier le statut des demandes existantes.
 
-   Pour les annonceurs qui disposent d’une application mobile pour interagir avec les sujets des données et lancer des campagnes avec DSP, vous devez télécharger les SDK mobiles prêts pour la confidentialité pour les Experience Cloud. Les SDK mobiles permettent aux contrôleurs de données de définir des indicateurs d’état d’exclusion, de récupérer l’identifiant de l’appareil du sujet de données (ID d’espace de noms : `deviceID`) et envoyer des requêtes à l’API du Privacy Service. Votre application mobile requiert un SDK version 4.15.0 ou supérieure.
+   Pour les annonceurs qui disposent d’une application mobile afin d’interagir avec les sujets des données et de lancer des campagnes avec DSP, vous devez télécharger les SDK mobiles prêts pour la confidentialité pour Experience Cloud. Les SDK mobiles permettent aux contrôleurs de données de définir des indicateurs d’état d’exclusion, de récupérer l’identifiant de l’appareil du sujet de données (ID d’espace de noms : `deviceID`) et envoyer des requêtes à l’API du Privacy Service. Votre application mobile requiert un SDK version 4.15.0 ou supérieure.
 
    Lorsque vous soumettez une demande d’accès d’un sujet de données, l’API du Privacy Service renvoie les informations d’un sujet de données en fonction du cookie spécifié ou de l’ID d’appareil, que vous devez ensuite renvoyer au sujet de données.
 
@@ -73,7 +73,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour Adobe Ad
    >
    >Si votre société dispose de plusieurs ID d’organisation Experience Cloud, vous devez envoyer des demandes d’API distinctes pour chacun d’eux. Vous pouvez toutefois effectuer une requête d’API sur plusieurs sous-solutions Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], et [!DNL DCO]), avec un compte par sous-solution.
 
-Toutes ces étapes sont nécessaires à l&#39;Adobe Advertising. Pour plus d’informations à ce sujet et sur d’autres tâches connexes que vous devez effectuer à l’aide de Adobe Experience Platform Privacy Service, et où trouver les éléments dont vous aurez besoin, voir &quot;[Présentation du Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).&quot;
+Toutes ces étapes sont nécessaires à l&#39;Adobe Advertising. Pour plus d’informations à ce sujet et sur d’autres tâches connexes que vous devez effectuer à l’aide de Adobe Experience Platform Privacy Service, et où trouver les éléments nécessaires, voir &quot;[Présentation du Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).&quot;
 
 ## Valeurs de champ requises dans les demandes JSON d’Adobe Advertising
 

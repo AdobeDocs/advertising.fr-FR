@@ -3,9 +3,9 @@ title: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 description: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: fb0634643e40b67e50461823f976a93129e2f038
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '3217'
+source-wordcount: '3216'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ L’intervalle de recherche en amont pour [!DNL Marketing Channels] peuvent êtr
 
 Les rapports d’Adobe Advertising capturent uniquement les médias payants qui transitent par Adobe Advertising (recherche payante pour [!DNL Advertising Search, Social, & Commerce] publicités et affichage pour les publicités (publicités DSP), alors que [!DNL Marketing Channels] Les rapports peuvent effectuer le suivi de tous les canaux numériques. Cela peut entraîner une incohérence dans le canal pour lequel une conversion est attribuée.
 
-Par exemple, les canaux de recherche payante et de recherche naturelle ont souvent une relation symbiotique, dans laquelle chaque canal s’aide l’autre. La variable [!DNL Marketing Channels] le rapport attribuera certaines conversions à la recherche naturelle, ce qui n’est pas le cas de cet Adobe Advertising, car il ne suit pas la recherche naturelle.
+Par exemple, les canaux de recherche payante et de recherche naturelle ont souvent une relation symbiotique, dans laquelle chaque canal s’aide l’autre. La variable [!DNL Marketing Channels] Le rapport attribue certaines conversions à la recherche naturelle, ce qui n’est pas le cas de l’Adobe Advertising, car il ne suit pas la recherche naturelle.
 
 Prenons également le cas d’un client qui consulte une publicité display, clique sur une publicité de recherche payante, clique dans un message électronique, puis passe une commande de 30 USD. Même en cas d’Adobe Advertising et [!DNL Marketing Channels] toutes deux utilisent le modèle d’attribution Dernière touche, la conversion sera toujours attribuée différemment à chacune d’elles. Adobe Advertising n’a pas accès à la variable [!UICONTROL Email] , de sorte qu’il créditerait la recherche payante pour la conversion. [!DNL Marketing Channels], cependant, a accès aux trois canaux, de sorte qu’il créditerait [!UICONTROL Email] pour la conversion.
 

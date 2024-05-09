@@ -3,9 +3,9 @@ title: Création d’une source d’audience pour activer les audiences proprié
 description: Découvrez comment créer une source pour importer des audiences dans votre compte ou un compte publicitaire.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 6c918b387067237de5d1eae42ae8ad253884d761
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Pour connaître les étapes supplémentaires requises pour ingérer des segments
 
 >[!NOTE]
 >
->Après avoir créé une source pour votre plateforme de données client, vous devrez effectuer d’autres étapes. Voir [workflow d’activation pour [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> et la variable [workflow d’activation pour [!DNL Tealium]](source-tealium.md).
+>Après avoir créé une source pour votre plateforme de données client, vous devez effectuer d’autres étapes. Voir [workflow d’activation pour [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> et la variable [workflow d’activation pour [!DNL Tealium]](source-tealium.md).
 
 >[!MORELIKETHIS]
 >

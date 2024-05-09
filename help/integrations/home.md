@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: f6b23b79d2a7f8d743849efc9182198ef5b39b4a
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 | 17 août 2022 | Aide | Un nouveau chapitre explique toutes les façons dont Adobe Advertising est intégré à Adobe Audience Manager. | Consultez le chapitre &quot;Intégration avec Adobe Audience Manager&quot;, qui comprend une présentation de &quot;[Adobe Advertising des intégrations avec Adobe Audience Manager](/help/integrations/audience-manager/overview.md).&quot; |
 | 27 avril 2021 | [!DNL Analytics for Advertising] | Découvrez pourquoi et comment ajouter [!DNL Analytics for Advertising] des macros à vos [!DNL Google Campaign Manager 360] balises publicitaires pour envoyer des données de clic à Adobe Analytics. | Voir &quot;[Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Google Campaign Manager 360] Balises publicitaires](/help/integrations/analytics/macros-google-campaign-manager.md).&quot; |
 | 19 avril 2021 | [!DNL Analytics for Advertising] | Découvrez pourquoi et comment ajouter des macros à vos [!DNL Flashtalking] balises publicitaires pour envoyer des données de clic à Adobe Analytics. | Voir &quot;[Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Flashtalking] Balises publicitaires](/help/integrations/analytics/macros-flashtalking.md).&quot; |
-| 27 octobre 2021 | [!DNL Analytics for Advertising] | Si votre entreprise souhaite ne plus utiliser l’Adobe Analytics hérité `visitorAPI.js` vers la bibliothèque [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) Bibliothèque (`alloy.js`) pour la collecte de données, vous devrez apporter quelques modifications pour activer le regroupement des identifiants. | Voir &quot;[En utilisant la variable [!DNL Last Event Service] Bibliothèque JavaScript avec Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md).&quot; |
+| 27 octobre 2021 | [!DNL Analytics for Advertising] | Si votre entreprise souhaite ne plus utiliser l’Adobe Analytics hérité `visitorAPI.js` vers la bibliothèque [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) Bibliothèque (`alloy.js`) pour la collecte de données, vous devez apporter quelques modifications pour activer le regroupement des identifiants. | Voir &quot;[En utilisant la variable [!DNL Last Event Service] Bibliothèque JavaScript avec Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md).&quot; |
 | 26 mai 2021 | Aide | Le chapitre &quot;[!DNL Analytics for Advertising]&quot; comprend désormais un sous-chapitre sur &quot;Utilisation [!DNL Analytics Marketing Channels].&quot; | Voir : &quot;[Principes fondamentaux des canaux marketing](/help/integrations/analytics/marketing-channels/mc-overview.md),&quot;[Utilisation des identifiants d’Adobe Advertising à créer [!DNL Analytics Marketing Channels] Règles de traitement](/help/integrations/analytics/marketing-channels/mc-ids.md),&quot;[Utilisation [!DNL Analytics Marketing Channels] avec données d’Adobe Advertising](/help/integrations/analytics/marketing-channels/mc-ac-data.md),&quot; et &quot;[Pourquoi les données du canal peuvent varier entre l’Adobe Advertising et [!DNL Analytics Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md).&quot; |
 | 26 mai 2021 | Aide | Lien vers tous les tutoriels vidéo sur [!DNL Analytics for Advertising] a été ajouté. | Voir : &quot;[Tutoriels vidéo sur les intégrations Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html).&quot; |
 
