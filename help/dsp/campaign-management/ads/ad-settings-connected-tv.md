@@ -3,9 +3,9 @@ title: Paramètres des publicités télévisées connectées
 description: Reportez-vous à la description des paramètres de publicité disponibles pour les publicités télévisées connectées.
 feature: DSP Ads
 exl-id: d8e47f7e-7480-400f-8ffa-ecf41ce2ebfb
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL]**: URL de la balise VAST.
 
-**[!UICONTROL Title]**: nom du fichier qui sera utilisé dans la vue Publicités et les rapports.
+**[!UICONTROL Title]**: nom du fichier utilisé dans la vue Publicités et les rapports.
 
 >[!TIP]
 >

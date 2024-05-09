@@ -1,16 +1,16 @@
 ---
-title: Créer une publicité unique
+title: Création d’une publicité unique
 description: Découvrez comment créer une publicité tierce unique.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 4af30f6fa6a81ce7f1a6879244178c84580caa0f
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
 
-# Créer une publicité unique
+# Création d’une publicité unique
 
 Vous pouvez créer une publicité d’affichage native individuelle ou tierce dans divers [types de publicités](ad-about.md#ad-types).
 
@@ -22,11 +22,11 @@ Pour créer plusieurs publicités tierces à la fois, voir [Créer plusieurs pub
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
-1. Cliquez sur le nom de la campagne dans laquelle la publicité sera incluse.
+1. Cliquez sur le nom de la campagne dans laquelle inclure la publicité.
 
-1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**. Dans le [!UICONTROL Ad Types] dans le menu, cliquez sur le bouton [type d&#39;annonce](ad-about.md#ad-types).
+1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**. Dans le [!UICONTROL Ad Types] , cliquez sur la [type d&#39;annonce](ad-about.md#ad-types).
 
-1. Spécifiez les paramètres de publicité pour [annonces audio](ad-settings-audio.md), [télévision connectée](ad-settings-connected-tv.md), [publicités display](ad-settings-display.md), [annonces mobiles](ad-settings-mobile.md), [annonces natives](ad-settings-native.md), [publicités preroll](ad-settings-pre-roll.md)ou [publicités vidéo universelles](ad-settings-universal-video.md):
+1. Spécifiez les paramètres de publicité pour [annonces audio](ad-settings-audio.md), [télévision connectée](ad-settings-connected-tv.md), [publicités display](ad-settings-display.md), [annonces mobiles](ad-settings-mobile.md), [annonces natives](ad-settings-native.md), [publicités preroll](ad-settings-pre-roll.md), ou [publicités vidéo universelles](ad-settings-universal-video.md):
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ Pour créer plusieurs publicités tierces à la fois, voir [Créer plusieurs pub
 
 1. Une fois la publicité terminée, cliquez sur **[!UICONTROL Save & Submit for Review]**.
 
-   Le [révision publicitaire](ad-about.md) prend entre 24 et 48 heures et comprend des vérifications des catégories sensibles, la fonctionnalité de clic sur l’URL et le rendu d’aperçu. La colonne État indique si DSP a approuvé la publicité. Les publicités rompues peuvent avoir un état en attente de plus de 24 à 48 heures, vous avez donc le temps de corriger les erreurs avant qu’elles ne soient rejetées.
+   La variable [révision publicitaire](ad-about.md) prend entre 24 et 48 heures et comprend des vérifications des catégories sensibles, la fonctionnalité de clic sur l’URL et le rendu d’aperçu. La colonne État indique si DSP a approuvé la publicité. Les publicités rompues peuvent avoir un état en attente de plus de 24 à 48 heures, vous avez donc le temps de corriger les erreurs avant qu’elles ne soient rejetées.
 
    >[!NOTE]
    >
@@ -55,4 +55,3 @@ Pour créer plusieurs publicités tierces à la fois, voir [Créer plusieurs pub
 >* [Modifier une publicité](ad-edit.md)
 >* [Spécifications des publicités](ad-specs.md)
 >* [Questions fréquentes à propos des vidéos universelles](/help/dsp/campaign-management/faq-universal-video.md)
-

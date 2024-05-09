@@ -1,9 +1,9 @@
 ---
 title: A propos [!UICONTROL CCPA Opt-out-of-Sale] Segments et rapports
-description: Découvrez comment créer des segments pour effectuer le suivi des identifiants à partir des demandes d’opposition à la vente des informations personnelles (CCPA) et comment récupérer des rapports sur les identifiants.
+description: Découvrez comment créer des segments pour effectuer le suivi des ID à partir des demandes d’opposition à la vente des informations personnelles du CCPA et comment récupérer des rapports sur les ID.
 feature: CCPA, DSP Segments
 exl-id: 28b5e00b-a695-46f1-abbf-7bbd78f05411
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -26,8 +26,7 @@ Vous pouvez [récupérer les liens vers les rapports mensuels ;](ccpa-opt-out-se
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertising Support pour le California Consumer Privacy Act : Prise en charge de l’exclusion des clients](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [Prise en charge des Adobes Advertising pour le California Consumer Privacy Act : prise en charge de l’exclusion des clients](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [Créez et implémentez une [!UICONTROL CCPA Opt-Out-of-Sale] Segment](ccpa-opt-out-segment-create.md)
 >* [Récupération des rapports d’exclusion de la vente pour les consommateurs](ccpa-opt-out-segment-report-retrieve.md)
->* [À propos de la gestion de l’audience](audience-about.md)
-
+>* [Gestion de l’audience](audience-about.md)

@@ -3,9 +3,9 @@ title: Paramètres de publicité audio
 description: Reportez-vous à la description des paramètres de publicité disponibles pour les publicités audio.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL]**: URL de la balise VAST.
 
-**[!UICONTROL Title]**: nom du fichier qui sera utilisé dans la variable [!UICONTROL Ads] afficher et générer des rapports.
+**[!UICONTROL Title]**: nom du fichier utilisé dans la variable [!UICONTROL Ads] afficher et générer des rapports.
 
 >[!TIP]
 >
@@ -44,7 +44,7 @@ Ce champ peut être affiché ou non, selon les permissions du compte.
 
 **[!UICONTROL Final VAST Tag]:** (Publicités utilisant uniquement des balises VAST) URL de la source publicitaire tierce avec les [Macros de suivi des DSP publicitaires](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
 
-**[!UICONTROL Select Rate]:** (Utilisateurs avec autorisation uniquement) Taux négocié à l’avance et facturés par l’intermédiaire de l’Adobe, ou l’un des taux que vous avez négociés et dont la facturation sera effectuée par l’intermédiaire du fournisseur. Pour ajouter un taux, contactez votre équipe de compte d’Adobe.
+**[!UICONTROL Select Rate]:** (Utilisateurs avec autorisation uniquement) Taux négocié à l’avance et facturés par l’intermédiaire de l’Adobe, ou l’un des taux que vous avez négociés et facturés par l’intermédiaire du fournisseur. Pour ajouter un taux, contactez votre équipe de compte d’Adobe.
 
 ### [!UICONTROL Pixel]
 

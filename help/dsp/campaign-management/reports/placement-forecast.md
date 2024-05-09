@@ -3,9 +3,9 @@ title: Afficher le rapport Prévision de positionnement
 description: Afficher le nombre d’impressions, les dépenses et les prévisions maximales optimales pour une stratégie de ciblage spécifique pour un emplacement.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 2ecf1eacb2a47c20e0c05f9ff62386869b644ba6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Les prévisions comprennent les informations suivantes :
 
    * L’emplacement utilise un nouveau type d’annonce pour la campagne.
 
-     Un emplacement est généralement un ensemble de plusieurs modèles d’annonces, tels que définis par des plateformes côté offre. Ainsi, même si l’emplacement existe depuis longtemps, le modèle d’annonce sous-jacent peut être nouveau et l’outil de prévision ne sera pas en mesure de prévoir.
+     Un emplacement est généralement un ensemble de plusieurs modèles d’annonces, tels que définis par des plateformes côté offre. Ainsi, même si l’emplacement existe depuis longtemps, si le modèle d’annonce sous-jacent est nouveau, l’outil de prévision ne peut pas créer de prévision.
 
 ## Ouvrir le rapport Prévision de positionnement
 

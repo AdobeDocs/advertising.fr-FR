@@ -3,9 +3,9 @@ title: Syntaxe de la logique de segment d’audience
 description: Référencez la syntaxe que vous pouvez utiliser pour définir la logique pour les segments d’audience.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ signifie (en anglais brut)
 
 >[!NOTE]
 >
->Dans les paramètres d’emplacement, vous pouvez utiliser des audiences enregistrées comme audiences à cibler explicitement ou comme audiences distinctes à exclure du ciblage. Assurez-vous que votre logique de segment reflète l’objectif pour lequel vous utiliserez l’audience.
+>Dans les paramètres d’emplacement, vous pouvez utiliser des audiences enregistrées comme audiences à cibler explicitement ou comme audiences distinctes à exclure du ciblage. Assurez-vous que votre logique de segment reflète l’objectif de l’utilisation de l’audience.
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: Collecte de données de clics et d’impressions à partir de campagnes A
 description: Découvrez comment capturer des impressions basées sur des cookies et des événements de clic à partir de publicités Advertising DSP à l’aide de pixels d’Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -14,22 +14,22 @@ ht-degree: 0%
 
 *Publicitaires avec DSP Advertising uniquement*
 
-*Annonceurs avec une intégration Advertising-Adobe Audience Manager par Adobe uniquement*
+*Annonceurs avec une intégration Adobe Advertising-Adobe Audience Manager uniquement*
 
 Ce document explique comment baliser les publicités Advertising DSP pour capturer des événements d’impression et de clic basés sur des cookies à l’aide de pixels d’Audience Manager, ainsi que des tâches supplémentaires nécessaires à l’utilisation des données.
 
 Les pixels d’événement ne capturent pas les événements qui se produisent dans des environnements sans cookie, tels que les applications mobiles et la télévision connectée (CTV).
 
-## Étape 1 : Configuration d’une source de données dans Audience Manager {#set-up-data-source}
+## Étape 1 : configuration d’une source de données dans Audience Manager {#set-up-data-source}
 
 Dans Audience Manager, créez une [source de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) pour les données d’impression DSP et de clic. Inclure l’ID de source de données [dans chaque balise d’événement](#implement-dsp-pixels) afin que tous les événements suivis soient attribués à la source de données.
 
 >[!NOTE]
 > Il est possible de collecter toutes les données d’impression et de clic pour les campagnes publicitaires s’exécutant sur plusieurs DSP au sein d’une seule source de données.
 
-## Étape 2 : Implémentation des pixels d’événement d’impression et de clic sur les pages web {#implement-dsp-pixels}
+## Étape 2 : implémentation des pixels d’impression et d’événement de clic sur les pages web {#implement-dsp-pixels}
 
-Les annonceurs peuvent créer et implémenter des balises d’événement pour leurs propres marques. Si nécessaire, contactez votre consultant Adobe Audience Manager ou votre équipe chargée du compte Adobe pour obtenir de l’aide.
+Les annonceurs peuvent créer et implémenter des balises d’événement pour leurs propres marques. Si nécessaire, contactez votre consultant Adobe Audience Manager ou votre équipe de compte d’Adobe pour obtenir de l’aide.
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Où :
 
 * `${TM_CAMPAIGN_ID_NUM}` est l’identifiant de campagne numérique dans DSP. Si vous souhaitez coder en dur un identifiant de campagne individuel au lieu d’utiliser la macro DSP, localisez l’identifiant dans les paramètres de la campagne.
 
-* Chaque [parameter](#key-value-pairs) est précédé du préfixe `&` et est au format `d_parameter=parameter_id`où `parameter` est remplacé par la paire clé-valeur du nouveau champ. Exemple : `&d_placement=${TM_PLACEMENT_ID_NUM}`
+* Chaque [parameter](#key-value-pairs) est précédé du préfixe `&` et est au format `d_parameter=parameter_id`, où `parameter` est remplacé par la paire clé-valeur du nouveau champ. Exemple : `&d_placement=${TM_PLACEMENT_ID_NUM}`
 
 ### Paramètres comme paires clé-valeur {#parameters}
 
@@ -75,9 +75,9 @@ Où :
     
     Exemple : `&amp;d_placement=${TM_PLACEMENT_ID_NUM}`
 
-Les deux types de pixels peuvent contenir des paramètres supplémentaires sous la forme *paires clé-valeur* pour collecter des caractéristiques ou fournir des métadonnées de campagne (un nom d’emplacement ou un nom de campagne, par exemple) pour d’autres rapports. Une paire clé-valeur se compose de deux éléments connexes : a *key*, qui est une constante qui définit le jeu de données, et une *value*, qui est une variable qui appartient au jeu.
+Les deux types de pixels peuvent contenir des paramètres supplémentaires sous la forme *paires clé-valeur* pour collecter des caractéristiques ou fournir des métadonnées de campagne (un nom d’emplacement ou un nom de campagne, par exemple) pour d’autres rapports. Une paire clé-valeur se compose de deux éléments connexes : une *key*, qui est une constante qui définit le jeu de données, et une *value*, qui est une variable qui appartient au jeu.
 
-Dans la paire clé-valeur, la variable valeur peut être soit un identifiant codé en dur, soit un identifiant codé en dur. *macro*, qui est une petite unité de code autonome remplacée dynamiquement par les valeurs correspondantes lors du chargement de la balise publicitaire pour le suivi de campagne et d’utilisateur. Pour les paramètres relatifs aux campagnes, vous pouvez utiliser [Macros DSP](/help/dsp/campaign-management/macros.md) au lieu d’utiliser des macros d’Audience Manager pour envoyer les attributs de campagne avec les données d’impression ou de clic correspondantes à l’Audience Manager, en utilisant un seul pixel sur toutes les publicités. Les macros DSP que vous insérez dans les pixels de l’événement doivent être des valeurs appropriées pour les paires clé-valeur que vous incluez dans les pixels. Par exemple, pour la variable `d_placement` clé, vous utiliseriez la macro DSP `${TM_PLACEMENT_ID_NUM}` comme valeur pour capturer les identifiants d’emplacement générés par la macro Adobe Advertising.
+Dans la paire clé-valeur, la variable valeur peut être soit un identifiant codé en dur, soit un identifiant codé en dur. *macro*, qui est une petite unité de code autonome remplacée dynamiquement par les valeurs correspondantes lors du chargement de la balise publicitaire pour le suivi de campagne et d’utilisateur. Pour les paramètres relatifs aux campagnes, vous pouvez utiliser [Macros DSP](/help/dsp/campaign-management/macros.md) au lieu d’utiliser des macros d’Audience Manager pour envoyer les attributs de campagne avec les données d’impression ou de clic correspondantes à l’Audience Manager, en utilisant un seul pixel sur toutes les publicités. Les macros DSP que vous insérez dans les pixels de l’événement doivent être des valeurs appropriées pour les paires clé-valeur que vous incluez dans les pixels. Par exemple, pour la variable `d_placement` clé, utilisez la macro DSP `${TM_PLACEMENT_ID_NUM}` comme valeur pour capturer les identifiants d’emplacement générés par la macro Adobe Advertising.
 
 Pour obtenir la liste des macros prises en charge par Audience Manager pour les pixels d’événement d’impression, voir &quot;[Capture des données d’impression de campagne via des appels de pixel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs).&quot;
 
@@ -89,7 +89,6 @@ Pour obtenir la liste des macros prises en charge par Audience Manager pour les 
 >* Pour créer des rapports d’Audience Optimization, des paramètres supplémentaires sont requis.
 >* Dans les paires clé-valeur, remplacez les valeurs par la valeur appropriée. [Macros DSP](/help/dsp/campaign-management/macros.md) vous pouvez donc utiliser un seul pixel pour toutes les publicités dans toutes les campagnes. Par exemple, modifiez `d_campaign=[%campaignID%]`to `d_campaign=${TM_CAMPAIGN_ID_NUM}` pour capturer les identifiants de campagne générés par la macro Adobe Advertising.
 >* Si nécessaire, vous pouvez créer vos propres paramètres avec des valeurs codées en dur. Exemple : `d_DSP=AdCloud`
-
 
 Exemple de pixel d&#39;événement d&#39;impression :
 
@@ -117,11 +116,11 @@ Une fois les balises d’événement implémentées, les données sont transmise
 
 ### Créez un [!DNL Amazon S3] Intervalle et source de données
 
-Une fois vos données stockées sur les serveurs d’Audience Manager, vous devez créer une [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]), puis une source de données, à laquelle toutes les données de pixel seront envoyées. Contactez votre conseiller en Audience Manager ou [Assistance clientèle](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html) si vous avez besoin d&#39;aide.
+Une fois vos données stockées sur les serveurs d’Audience Manager, vous devez créer une [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]), puis une source de données, à laquelle toutes les données de pixel sont envoyées. Contactez votre conseiller en Audience Manager ou [Assistance clientèle](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html) si vous avez besoin d&#39;aide.
 
 ### Création de caractéristiques d’Audience Manager et de segments
 
-Vos données d’événement seront transférées dans l’Audience Manager en tant que [signaux inutilisés](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Création manuelle [caractéristiques basées sur des règles](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) à partir des données ingérées, puis créez des [segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) en utilisant ces caractéristiques, avant de pouvoir utiliser les données dans les rapports.
+Vos données d’événement seront transmises en Audience Manager sous la forme [signaux inutilisés](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Création manuelle [caractéristiques basées sur des règles](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) à partir des données ingérées, puis créez des [segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) en utilisant ces caractéristiques, avant de pouvoir utiliser les données dans les rapports.
 
 Exemple de caractéristique qui renseigne les données au niveau de l’utilisateur pour les utilisateurs exposés à un contenu créatif spécifique dans DSP :
 
@@ -135,4 +134,3 @@ Exemple de caractéristique qui renseigne les données au niveau de l’utilisat
 >* [Macros DSP](/help/dsp/campaign-management/macros.md)
 >* [Présentation de l’envoi DSP données d’exposition aux médias à Adobe Audience Manager](overview.md)
 >* [Cas d’utilisation](use-cases.md)
-

@@ -3,9 +3,9 @@ title: Création d’un emplacement
 description: Découvrez comment créer un emplacement.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
-1. Cliquez sur le nom de la campagne dans laquelle l&#39;emplacement sera inclus.
+1. Cliquez sur le nom de la campagne dans laquelle inclure l&#39;emplacement.
 
 1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**. Dans le [!UICONTROL Placement Types] dans le menu, cliquez sur le type d’emplacement.
 

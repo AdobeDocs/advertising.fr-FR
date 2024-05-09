@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] paramètres du groupe publicitaire'
 description: Référencez les paramètres pour [!DNL Microsoft® Advertising] groupes publicitaires.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 2407d29fb4061e6b3181b86c335c52a8384c4ca3
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -114,7 +114,7 @@ Le placement de la publicité télévisée (CTV) dépend de la qualité vidéo e
 
 {{$include /help/_includes/custom-parameters.md}}
 
-**[!UICONTROL Adgroup Frequency Cap Settings]:** (Facultatif) Le nombre de fois où des publicités d’un client seront diffusées à partir du groupe publicitaire. Saisissez une valeur et sélectionnez l’unité de temps (*[!UICONTROL Hour]*, *[!UICONTROL Day]*, ou *[!UICONTROL Week]*).
+**[!UICONTROL Adgroup Frequency Cap Settings]:** (Facultatif) Le nombre de fois où des publicités peuvent être diffusées à un client à partir du groupe publicitaire. Saisissez une valeur et sélectionnez l’unité de temps (*[!UICONTROL Hour]*, *[!UICONTROL Day]*, ou *[!UICONTROL Week]*).
 
 ## [!UICONTROL Negative Keywords]
 

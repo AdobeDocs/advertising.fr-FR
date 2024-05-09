@@ -3,9 +3,9 @@ title: Paramètres d’affichage des publicités
 description: Consultez la description des paramètres d’annonce disponibles pour les annonces affichées.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Les paramètres suivants concernent les publicités standard.
 
 **[!UICONTROL Certified Vendors]:** (Bannières publicitaires extensibles tierces uniquement) Fournisseur certifié pour lequel la publicité est disponible : *[!UICONTROL DCM]* ([!DNL Google DoubleClick for Advertisers]), *[!UICONTROL Flashtalking]*, *[!UICONTROL Sizmek]*, ou *[!UICONTROL Jivox]*.
 
-**[!UICONTROL Display Code]:** (Publicités tierces uniquement) URL de la ressource créative tierce. Quelconque [timestamp] et [[timestamp]] seront remplacés par des valeurs réelles.
+**[!UICONTROL Display Code]:** (Publicités tierces uniquement) URL de la ressource créative tierce. Quelconque [timestamp] et [[timestamp]] sont remplacés par des valeurs réelles.
 
 **[!UICONTROL Final Display Code]:** (Publicités tierces uniquement) URL de la ressource créative tierce, avec les [Macros de suivi des DSP publicitaires](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
 
@@ -44,7 +44,7 @@ Les paramètres suivants concernent les publicités standard.
 
 >[!IMPORTANT]
 >
-> La taille de l’annonce déclarée dans les champs largeur et hauteur sera mise en correspondance avec les demandes d’offre entrantes. Vous pouvez rencontrer des problèmes de diffusion si les dimensions de l’annonce ne correspondent pas à la taille de l’annonce déclarée.
+> La taille de l’annonce déclarée dans les champs largeur et hauteur correspond aux demandes d’offre entrantes. Vous pouvez rencontrer des problèmes de diffusion si les dimensions de l’annonce ne correspondent pas à la taille de l’annonce déclarée.
 
 ### [!UICONTROL Pixel]
 

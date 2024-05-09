@@ -3,9 +3,9 @@ title: Définition des emplacements et publicités pour une transaction privée
 description: Découvrez comment utiliser une offre privée avec des emplacements et publicités supplémentaires.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: d6d295119bc974a87840e757877c1507237a6fa2
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Vous pouvez également [Ajout de publicités à des emplacements](/help/dsp/camp
 
        1. Sélectionnez l’annonceur, la campagne et le type d’annonce. Vous pouvez éventuellement sélectionner l’état d’une publicité pour filtrer les publicités.
        
-       1. Dans la liste des publicités disponibles, cochez la case en regard de chaque publicité qui sera utilisée pour l’opération.
+       1. Dans la liste des publicités disponibles, cochez la case en regard de chaque publicité à utiliser pour l’opération.
        
        1. Cliquez sur **[!UICONTROL Apply]**.
    
@@ -46,7 +46,7 @@ Vous pouvez également [Ajout de publicités à des emplacements](/help/dsp/camp
 
       1. Cliquez sur **[!UICONTROL Create placement]**.
 
-L’emplacement commencera à s’exécuter une fois que l’éditeur aura activé votre ID d’opération PG.
+L’emplacement commence à s’exécuter une fois que l’éditeur a activé votre ID d’opération PG.
 
 >[!NOTE]
 >

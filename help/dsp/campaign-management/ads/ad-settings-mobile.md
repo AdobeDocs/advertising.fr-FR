@@ -3,9 +3,9 @@ title: Paramètres des publicités mobiles
 description: Consultez la description des paramètres d’annonce disponibles pour les annonces mobiles.
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **\[Source de publicité\]**: (lecture seule) *[!UICONTROL 3rd party]*.
 
-**[!UICONTROL Display Code]:** URL de la ressource créative tierce. Quelconque [timestamp] et [[timestamp]] seront remplacés par des valeurs réelles.
+**[!UICONTROL Display Code]:** URL de la ressource créative tierce. Quelconque [timestamp] et [[timestamp]] sont remplacés par des valeurs réelles.
 
 **[!UICONTROL Final Display Code]:** URL de la ressource créative tierce, avec les [Macros de suivi des DSP publicitaires](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
 

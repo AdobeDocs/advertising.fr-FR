@@ -3,9 +3,9 @@ title: Conditions préalables et informations clés relatives à la mise en oeuv
 description: Conditions préalables et informations clés relatives à la mise en oeuvre [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: e7773c31c1834b05731b4711ae237cde481e5639
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Consultez les informations suivantes avant d’intégrer Adobe Advertising à Ad
 
 Fournissez les informations suivantes à l’équipe de mise en oeuvre d’Adobe Advertising :
 
-* La variable [!DNL Analytics] identifiant de suite de rapports qui sera utilisé pour la création de rapports sur l’activité de médias payants et pour alimenter l’activité du site à des fins d’optimisation et de création de rapports dans Adobe Advertising.
+* La variable [!DNL Analytics] identifiant de suite de rapports à utiliser pour la création de rapports sur l’activité de médias payants et pour alimenter l’activité du site à des fins d’optimisation et de création de rapports dans Adobe Advertising
 * ID d’organisation Experience Cloud de l’entreprise (ID d’organisation).
 
 Vous trouverez ces deux identifiants sur la page [Onglet Résumé du débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).

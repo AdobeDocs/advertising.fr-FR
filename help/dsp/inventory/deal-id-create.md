@@ -3,9 +3,9 @@ title: Création manuelle des détails de l’identifiant de transaction
 description: Découvrez comment saisir manuellement les détails d’un ID de transaction.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 93600a6e5afe7e0ae3f22111c0adb0ccc3b5b4bb
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    Vous pouvez éventuellement utiliser l’opération comme cible d’inventaire dans d’autres emplacements, mais vous devez les configurer correctement pour placer des offres.
 
-   1. Dans le [!UICONTROL Ad & Campaign Selection] sélectionnez les publicités qui seront utilisées pour l’opération :
+   1. Dans le [!UICONTROL Ad & Campaign Selection] , sélectionnez les publicités à utiliser pour l’opération :
 
       1. Sélectionnez l’annonceur, la campagne et le type d’annonce. Vous pouvez éventuellement sélectionner l’état d’une publicité pour filtrer les publicités.
 

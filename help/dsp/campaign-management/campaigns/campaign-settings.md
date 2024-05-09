@@ -3,9 +3,9 @@ title: Paramètres de campagne
 description: Reportez-vous à la description des paramètres de campagne disponibles.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Lorsque vous choisissez *[!UICONTROL Yes],* indiquez le type de marge et le mont
 
 * **[!UICONTROL Fixed Margin %]:** (Campagnes avec des marges fixes uniquement) Balises par défaut pour chaque ordre d’insertion. <!-- impression? -->, en pourcentage. Ce montant est déduit du montant [!UICONTROL Gross Budget] pour définir le budget net de l&#39;opération.
 
-* **[!UICONTROL Budget Reserve %]:** (Campagnes avec des marges fixes uniquement) ; (facultatif) réserve un pourcentage spécifié de la valeur [!UICONTROL Gross Budget] comme une protection. Ce montant est déduit du montant [!UICONTROL Gross Budget] pour définir le budget net de l&#39;opération.
+* **[!UICONTROL Budget Reserve %]:** (Campagnes avec des marges fixes uniquement ; facultatif) réserve un pourcentage spécifié de la variable [!UICONTROL Gross Budget] comme une protection. Ce montant est déduit du montant [!UICONTROL Gross Budget] pour définir le budget net de l&#39;opération.
 
 **[!UICONTROL Gross Budget]:** (Campagnes avec gestion des marges uniquement) Le budget brut de l’opération, avant l’application des ajustements marginaux spécifiés.
 
@@ -50,7 +50,7 @@ Vous pouvez éventuellement ajouter un budget brut quotidien, hebdomadaire ou me
 
 1. Saisissez le **[!UICONTROL Gross Budget]** et sélectionnez l’intervalle de budget : *[!UICONTROL Daily],* *[!UICONTROL Weekly],* ou *[!UICONTROL Monthly]*.
 
-Le budget net total, qui correspond au plafond de dépenses de l&#39;opération, est automatiquement calculé à partir des paramètres de la marge et est indiqué sous cette valeur.
+Le budget net total, qui correspond au plafond de dépenses de l&#39;opération, est calculé automatiquement sur la base des paramètres de marge et est renseigné sous cette valeur.
 
 **[!UICONTROL Budget]:** (Campagnes sans gestion des marges) Le budget global de l’opération.
 
@@ -78,22 +78,21 @@ Pour estimer les impôts à retenir :
 >
 >* Vous pouvez également configurer ces valeurs dans les paramètres de frais du compte.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-
 **[!UICONTROL Cross Device Level]:** (Lecture seule pour les campagnes existantes créées depuis le 22 juin 2020 ; non disponible pour les campagnes créées avant le 22 juin 2020) Niveau auquel DSP ciblera les publicités et appliquera des limites de fréquence : *Même appareil* pour cibler un appareil ou *Personnes* pour cibler une personne sur tous ses appareils connus.
 
-**[!UICONTROL Device Graph]:** (Lecture seule pour les campagnes existantes) ; campagnes avec ciblage interpériphérique basé sur les personnes uniquement) Graphique d’appareil à utiliser pour le ciblage interpériphérique et la gestion des fréquences :
+**[!UICONTROL Device Graph]:** (Lecture seule pour les campagnes existantes ; campagnes avec ciblage interpériphérique basé sur les personnes uniquement) Graphique d’appareil à utiliser pour le ciblage interpériphérique et la gestion des fréquences :
 
 * *[!UICONTROL LiveRamp - U.S. only]:* Disponible pour tous les annonceurs pour un ciblage multi-appareils à 0,35 CPM pour les impressions diffusées à l’aide de la variable [!DNL LiveRamp] Device Graph (c’est-à-dire, pour les appareils introuvables dans les segments d’audience ciblés). Vous pouvez configurer le ciblage sur plusieurs appareils au niveau de l’emplacement.
 
-   Cette option est également disponible pour tous les annonceurs, sans frais, pour la gestion des fréquences et la mesure d’attribution.
+  Cette option est également disponible pour tous les annonceurs, sans frais, pour la gestion des fréquences et la mesure d’attribution.
 
-**[!UICONTROL Frequency Cap]:** (Facultatif) Le nombre de fois où un appareil ou une personne unique (en fonction de la variable [!UICONTROL Cross Device Level]) seront diffusées à partir de la campagne. Les options incluent *[!UICONTROL Unlimited]* ou un montant spécifique par jour, semaine ou mois.
+**[!UICONTROL Frequency Cap]:** (Facultatif) Le nombre de fois où un appareil ou une personne unique (en fonction de la variable [!UICONTROL Cross Device Level]) peuvent être des publicités diffusées à partir de la campagne. Les options incluent *[!UICONTROL Unlimited]* ou un montant spécifique par jour, semaine ou mois.
 
 >[!NOTE]
 >
 > Vous pouvez définir des limites de fréquence aux niveaux de la campagne, du kit et de l’emplacement. DSP respectera le plafond de fréquence le plus strict de la hiérarchie de l&#39;opération.
 
-**[!UICONTROL Packages]:** Le [packages](/help/dsp/campaign-management/packages/package-about.md) à inclure dans la campagne. Sélectionnez les packages existants et/ou créez des packages à inclure. Si vous créez des modules, reportez-vous à la description de la variable [paramètres du package](/help/dsp/campaign-management/packages/package-settings.md) pour plus d’informations.
+**[!UICONTROL Packages]:** La variable [packages](/help/dsp/campaign-management/packages/package-about.md) à inclure dans la campagne. Sélectionnez les packages existants et/ou créez des packages à inclure. Si vous créez des modules, reportez-vous à la description de la variable [paramètres du package](/help/dsp/campaign-management/packages/package-settings.md) pour plus d’informations.
 
 ## [!UICONTROL Campaign Measurement]
 
@@ -109,13 +108,13 @@ Pour estimer les impôts à retenir :
 
 * **[!UICONTROL Measure On]:** Inventaire sur lequel mesurer : *[!UICONTROL Display and VPAID video inventory]* (valeur par défaut) ou *[!UICONTROL Display, VPAID & VAST video inventory]*.
 
-   >[!NOTE]
-   >
-   >La visibilité des vidéos est mesurable sur l’inventaire VPAID uniquement.
+  >[!NOTE]
+  >
+  >La visibilité des vidéos est mesurable sur l’inventaire VPAID uniquement.
 
-* **[!UICONTROL IAS Account ID (AnID)]:** (Publicitaires avec leurs propres [!DNL IAS] les comptes; (facultatif) La variable [!DNL IAS] ID de compte, qui [!DNL IAS] facturera directement pour l’utilisation.
+* **[!UICONTROL IAS Account ID (AnID)]:** (Publicitaires avec leurs propres [!DNL IAS] Comptes ; facultatif) L’organisation [!DNL IAS] ID de compte, qui [!DNL IAS] facturera directement pour l’utilisation.
 
-* **[!UICONTROL IAS Team ID]:** (Publicitaires avec leurs propres [!DNL IAS] les comptes; (facultatif) Identifiant de l’équipe pour le [!DNL IAS] , qui [!DNL IAS] facturera directement pour l’utilisation. <!-- verify -->
+* **[!UICONTROL IAS Team ID]:** (Publicitaires avec leurs propres [!DNL IAS] Comptes ; facultatif) ID d’équipe pour l’organisation [!DNL IAS] , qui [!DNL IAS] facturera directement pour l’utilisation. <!-- verify -->
 
 **[!UICONTROL MOAT]:** (Facultatif) Active [!DNL MOAT] mesure et reporting de la visibilité, de la fraude, de la sécurité de la marque et de la vérification de l’audience. Des frais supplémentaires s’appliquent.
 
@@ -123,17 +122,17 @@ Pour estimer les impôts à retenir :
 
 **[!UICONTROL Nielsen]:** (Facultatif) Active [!DNL Nielsen] mesure et création de rapports sur la vérification des audiences, à l’aide des paramètres spécifiés. Des frais supplémentaires s’appliquent.
 
-* **[!UICONTROL Target Gender]:** Le genre à cibler : *[!UICONTROL Both]* (valeur par défaut), *[!UICONTROL Male]* ou *[!UICONTROL Female]*
+* **[!UICONTROL Target Gender]:** Le genre à cibler : *[!UICONTROL Both]* (valeur par défaut), *[!UICONTROL Male]*, ou *[!UICONTROL Female]*
 
-* **[!UICONTROL Target Age]:** La tranche d’âge à cibler. Utilisez les curseur gauche et droit pour réduire la plage selon vos besoins.
+* **[!UICONTROL Target Age]:** Période à cibler. Utilisez les curseur gauche et droit pour réduire la plage selon vos besoins.
 
 * **[!UICONTROL Target Country]:** (Facultatif) Un pays à cibler. [!DNL Nielsen] mesurera uniquement les impressions diffusées dans les pays pris en charge.
 
 **[!UICONTROL comScore vCE]:** (Facultatif) Active [!DNL Comscore validated Campaign Essentials (vCE)] mesure et création de rapports sur la vérification des audiences, à l’aide des paramètres spécifiés. Des frais supplémentaires s’appliquent.
 
-* **[!UICONTROL Target Gender]:** Le genre à cibler : *[!UICONTROL Both]* (valeur par défaut), *[!UICONTROL Male]* ou *[!UICONTROL Female]*
+* **[!UICONTROL Target Gender]:** Le genre à cibler : *[!UICONTROL Both]* (valeur par défaut), *[!UICONTROL Male]*, ou *[!UICONTROL Female]*
 
-* **[!UICONTROL Target Age]:** La tranche d’âge à cibler. Utilisez les curseur gauche et droit pour réduire la plage selon vos besoins.
+* **[!UICONTROL Target Age]:** Période à cibler. Utilisez les curseur gauche et droit pour réduire la plage selon vos besoins.
 
 * **[!UICONTROL Target Country]:** (Facultatif) Un pays à cibler. [!DNL Comscore] mesurera uniquement les impressions diffusées dans les pays pris en charge.
 
@@ -151,4 +150,3 @@ Pour estimer les impôts à retenir :
 >* [Création d’une campagne](campaign-create.md)
 >* [Modifier une campagne](campaign-edit.md)
 >* [Affichage du journal des modifications d’une campagne](campaign-change-log.md)
-

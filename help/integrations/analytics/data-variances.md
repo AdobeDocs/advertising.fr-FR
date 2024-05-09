@@ -3,9 +3,9 @@ title: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 description: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3212'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Dans l’exemple suivant, supposons qu’un visiteur ait reçu une publicité le
 
 ![Exemple de conversion d’affichage publicitaire attribuée dans [!DNL Analytics] mais pas Adobe Advertising](/help/integrations/assets/a4adc-viewthrough-example.png)
 
-Une autre cause d’incohérences est que, dans l’Adobe Advertising, vous pouvez affecter des conversions d’affichage publicitaire à une *poids d’affichage publicitaire* qui est relatif au poids attribué à une conversion basée sur les clics. La pondération d’affichage publicitaire par défaut est de 40 %, ce qui signifie qu’une conversion d’affichage publicitaire est comptabilisée comme 40 % de la valeur d’une conversion basée sur les clics. [!DNL Analytics] ne fournit aucune pondération des conversions d’affichage publicitaire de ce type. Ainsi, par exemple, une commande de recettes de 100 USD capturée dans [!DNL Analytics] est réduite à 40 USD en Adobe Advertising si vous utilisez le poids d’affichage publicitaire par défaut, soit une différence de 60 USD.
+Une autre cause d’incohérences est que, dans l’Adobe Advertising, vous pouvez affecter des conversions d’affichage publicitaire à une *poids d’affichage publicitaire* qui est relatif au poids attribué à une conversion basée sur les clics. La pondération d’affichage publicitaire par défaut est de 40 %, ce qui signifie qu’une conversion d’affichage publicitaire est comptabilisée comme 40 % de la valeur d’une conversion basée sur les clics. [!DNL Analytics] ne fournit aucune pondération des conversions d’affichage publicitaire de ce type. Ainsi, par exemple, une commande de recettes de 100 USD capturée dans [!DNL Analytics] est remise à 40 USD en Adobe Advertising si vous utilisez le poids d’affichage publicitaire par défaut, soit une différence de 60 USD.
 
 Tenez compte de ces différences lors de la comparaison des conversions d’affichage publicitaire entre Adobe Advertising et [!DNL Analytics] rapports.
 
@@ -96,7 +96,7 @@ Si vous êtes connecté [!DNL Search, Social, & Commerce], vous pouvez trouver u
 
 #### Attribution de date d’événement dans l’Adobe Advertising
 
-Dans l’Adobe Advertising, vous pouvez signaler les données de conversion soit par date de clic/événement associé (date de l’événement de clic ou d’impression), soit par date de transaction (date de conversion). Le concept de rapport de date de clic/d’événement n’existe pas dans [!DNL Analytics]; toutes les conversions suivies dans [!DNL Analytics] sont signalés par date de transaction. Par conséquent, une même conversion peut être signalée avec des dates différentes dans l’Adobe Advertising et [!DNL Analytics]. Prenons l’exemple d’un utilisateur qui clique sur une publicité le 1er janvier et effectue une conversion le 5 janvier. Si vous affichez les données de conversion par date d’événement dans l’Adobe Advertising, la conversion sera signalée le 1er janvier, lorsque le clic a eu lieu. Dans [!DNL Analytics], la même conversion sera signalée le 5 janvier.
+Dans l’Adobe Advertising, vous pouvez signaler les données de conversion soit par date de clic/événement associé (date de l’événement de clic ou d’impression), soit par date de transaction (date de conversion). Le concept de rapport de date de clic/d’événement n’existe pas dans [!DNL Analytics]; toutes les conversions suivies dans [!DNL Analytics] sont signalés par date de transaction. Par conséquent, une même conversion peut être signalée avec des dates différentes dans l’Adobe Advertising et [!DNL Analytics]. Prenons l’exemple d’un utilisateur qui clique sur une publicité le 1er janvier et effectue une conversion le 5 janvier. Si vous affichez les données de conversion par date d’événement dans l’Adobe Advertising, la conversion est signalée le 1er janvier, lorsque le clic a eu lieu. Dans [!DNL Analytics], la même conversion est signalée le 5 janvier.
 
 ![Exemple de conversion attribuée à des dates différentes](/help/integrations/assets/a4adc-conversions-based-on.png)
 
@@ -240,7 +240,7 @@ Par exemple, si vous affichez la variable [!UICONTROL Adobe Advertising Clicks] 
 
 ![Exemple de mesures d’Adobe Advertising dans un rapport utilisant une dimension d’Adobe Advertising](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-Toutefois, si vous affichez la variable [!UICONTROL Adobe Advertising Clicks] et [!UICONTROL Adobe Advertising Cost] mesures par une dimension sur la page (telle que Page), pour laquelle l’Adobe Advertising ne fournit pas de données, puis la variable [!UICONTROL Adobe Advertising Clicks] et [!UICONTROL Adobe Advertising Cost] pour chaque page sera zéro (0).
+Toutefois, si vous affichez la variable [!UICONTROL Adobe Advertising Clicks] et [!UICONTROL Adobe Advertising Cost] mesures par une dimension sur la page (telle que Page), pour laquelle l’Adobe Advertising ne fournit pas de données, puis la variable [!UICONTROL Adobe Advertising Clicks] et [!UICONTROL Adobe Advertising Cost] pour chaque page est zéro (0).
 
 ![Exemple de mesures d’Adobe Advertising dans un rapport utilisant une dimension non prise en charge](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 

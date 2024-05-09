@@ -3,9 +3,9 @@ title: Paramètres des rapports personnalisés
 description: Reportez-vous à la description des paramètres de rapport personnalisés.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Voir &quot;[Colonnes de rapport disponibles](report-columns.md)&quot; pour des d
 
 **[!UICONTROL Email]:** (Type de destination de l’email uniquement) Pour chaque adresse, saisissez l’adresse et cliquez sur **+**.
 
-**[!UICONTROL Destination Name]:** (Types de destination S3, FTP, sFTP et FTP SSL uniquement) Les noms des destinations de rapport vers lesquelles le rapport personnalisé sera envoyé.
+**[!UICONTROL Destination Name]:** (Types de destination S3, FTP, sFTP et FTP SSL uniquement) Les noms des destinations de rapport auxquelles le rapport personnalisé est envoyé.
 
 * Pour spécifier une destination existante, sélectionnez un nom de destination dans la liste. Vous pouvez sélectionner plusieurs noms de destination séparément.
 

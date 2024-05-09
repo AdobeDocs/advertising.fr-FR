@@ -3,9 +3,9 @@ title: Optimisation des campagnes par DSP
 description: Découvrez comment DSP optimise les packages dans vos campagnes.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ Cette page décrit comment le moteur d’optimisation DSP, optimisé par [!DNL A
 
 Les objectifs d’optimisation des packages fonctionnent à deux niveaux :
 
-* Pour chaque package : DSP alloue le budget à chaque emplacement dans le package en fonction des performances de l’emplacement par rapport à l’indicateur de performance clé sélectionné.
+* Pour chaque package : DSP alloue le budget à chaque emplacement dans le package en fonction des performances de l’emplacement par rapport au KPI sélectionné.
 
-* Pour chaque emplacement/mise aux enchères dans le kit : DSP calcule la valeur en temps réel des indicateurs de performance clés économiques pour chaque enchère, puis utilise cette valeur pour déterminer l’offre.
+* Pour chaque placement/mise aux enchères dans le package : DSP calcule la valeur des IPC économiques en temps réel pour chaque mise aux enchères par emplacement, puis utilise cette valeur pour déterminer l’offre.
 
-   >[!NOTE]
-   >
-   >La valeur économique peut être fortement pondérée en fonction de la qualité des dépenses d&#39;un placement. Si un placement est derrière son objectif de dépense, il sera alors autorisé à acheter des enchères de moindre qualité. Si un placement atteint facilement son objectif de dépense, il se concentrera sur des enchères de meilleure qualité.
+  >[!NOTE]
+  >
+  >La valeur économique peut être fortement pondérée en fonction de la qualité des dépenses d&#39;un placement. Si un placement est derrière son objectif de dépense, alors il est autorisé à acheter des enchères de qualité inférieure. Si un placement atteint facilement son objectif de dépense, alors l&#39;accent est mis sur des enchères de meilleure qualité.
 
 ## Optimisation des packages
 
@@ -36,7 +36,7 @@ Voir [Objectifs d’optimisation et utilisation](optimization-goals.md) pour dé
 
 ### Packages qui donnent la priorité au taux de performance
 
-Pour les objectifs d’optimisation qui donnent la priorité au taux de performance, DSP prédit les performances de chaque enchère et toujours les offres à l’offre maximale. Voici quelques exemples d’objectifs d’optimisation applicables : [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate], etc.
+Pour les objectifs d’optimisation qui donnent la priorité au taux de performance, DSP prédit les performances de chaque enchère et toujours les offres à l’offre maximale. Voici quelques exemples d’objectifs d’optimisation applicables [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate], etc.
 
 Ce mode d’optimisation fonctionne bien si :
 
@@ -48,9 +48,9 @@ Ce mode d’optimisation fonctionne bien si :
 
 #### Logique de traitement {#pacing-logic-performance}
 
-* Si les dépenses suivent le rythme, les enchères deviendront plus sélectives, de sorte que vous n&#39;enchérisserez que sur les enchères prédites à des taux de performance élevés.
+* Si les dépenses suivent le rythme, les enchères deviennent plus sélectives, de sorte que vous n&#39;enchérisserez que sur les enchères prédites à des taux de performance élevés.
 
-* Si les dépenses sont en retard, les enchères deviendront moins sélectives, de sorte que vous enchérisserez sur les enchères prédites avoir des taux de performance plus bas afin de rattraper l&#39;objectif de rythme.
+* Si les dépenses sont en retard, les enchères deviennent moins sélectives, de sorte que vous enchérisserez sur les enchères prédites avoir des taux de performance plus bas afin de rattraper l&#39;objectif de rythme.
 
 #### Effacement de l’ombrage du prix/de l’offre {#clearing-price-performance}
 
@@ -58,7 +58,7 @@ Après avoir exécuté la logique de rythme, DSP exécute l’offre proposée pa
 
 ### Packages qui donnent la priorité à l’équilibrage de l’efficacité des coûts avec le taux de performance
 
-Pour certains objectifs d’optimisation, DSP prédit les performances de chaque enchère et ajuste automatiquement les prix de l’offre, sans jamais dépasser les [!UICONTROL Max Bid]. Voici quelques exemples d’objectifs d’optimisation applicables : [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click], etc.
+Pour certains objectifs d’optimisation, DSP prédit les performances de chaque enchère et ajuste automatiquement les prix de l’offre, sans jamais dépasser les [!UICONTROL Max Bid]. Voici quelques exemples d’objectifs d’optimisation applicables [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click], etc.
 
 #### Logique de traitement {#pacing-logic-balanced}
 
@@ -89,4 +89,3 @@ Voir [Filtres de pré-offre au niveau de l’emplacement et comment les utiliser
 >* [Objectifs d’optimisation et utilisation](optimization-goals.md)
 >* [Filtres de pré-offre au niveau de l’emplacement et comment les utiliser](optimization-pre-bid-filters.md)
 >* [Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)
-

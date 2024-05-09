@@ -2,9 +2,9 @@
 title: Gestion des multiplicateurs d’offre pour les emplacements
 description: Découvrez comment créer et modifier des multiplicateurs d’offre pour des cibles d’emplacement spécifiées.
 feature: DSP Placements
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Pour tous les emplacements sélectionnés, vous pouvez soit modifier manuellemen
 
    * Pour ajuster manuellement les valeurs du multiplicateur d&#39;offre, déplacez-vous vers chaque onglet spécifique à la cible ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], et[!UICONTROL Brand Safety]) et modifiez les valeurs existantes pour les cibles de placement.
 
-   Les mêmes modifications seront apportées à tous les emplacements sélectionnés.
+   Les mêmes modifications s’appliquent à tous les emplacements sélectionnés.
 
    * Pour charger un fichier CSV avec des valeurs de multiplicateur d’offre qui remplaceront les valeurs existantes :
 

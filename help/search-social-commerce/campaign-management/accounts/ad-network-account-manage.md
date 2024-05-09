@@ -3,9 +3,9 @@ title: Gestion des comptes de réseau publicitaire
 description: Découvrez comment configurer et gérer les détails du compte pour un compte réseau publicitaire.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Si les informations d’identification du compte changent, vous souhaitez modifi
 
 *Rôles utilisateur du gestionnaire de compte de l’agence, du gestionnaire de compte d’Adobe et de l’administrateur uniquement*
 
-Si Search, Social et Commerce accède au compte à l’aide de la variable [Protocole d’autorisation OAuth](https://oauth.net/2/) et les informations d’identification du compte changent, ou si un accès supplémentaire est nécessaire pour prendre en charge les nouvelles fonctionnalités de Search, Social et Commerce, vous devez obtenir un nouveau jeton d’accès pour le compte.
+Si Search, Social et Commerce accèdent au compte à l’aide de la variable [Protocole d’autorisation OAuth](https://oauth.net/2/) et les informations d’identification du compte changent, ou si un accès supplémentaire est nécessaire pour prendre en charge les nouvelles fonctionnalités de Search, Social et Commerce, vous devez obtenir un nouveau jeton d’accès pour le compte.
 
 Votre équipe de compte d’Adobe vous informera si de nouvelles fonctionnalités nécessitent un nouveau jeton.
 
@@ -113,7 +113,7 @@ Votre équipe de compte d’Adobe vous informera si de nouvelles fonctionnalité
 
 *Rôles utilisateur du gestionnaire de compte de l’agence, du gestionnaire de compte d’Adobe et de l’administrateur uniquement*
 
-Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commerce synchronise les données de campagne avec le compte (lorsqu’il est pris en charge) et envoie des offres automatisées et/ou des budgets de campagne pour les campagnes dans les portefeuilles. Lorsque vous désactivez un compte de réseau publicitaire, Search, Social et Commerce arrête toutes les activités du compte. Les données collectées pendant que le compte était actif sont toujours stockées, mais les vues et les rapports de gestion de campagne n’incluent pas les données de la période pendant laquelle le compte est désactivé. Vous pouvez par la suite réactiver le compte pour reprendre l’activité avec le compte.
+Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commerce synchronise les données de campagne avec le compte (lorsqu’il est pris en charge) et envoie des offres automatisées et/ou des budgets de campagne pour les campagnes dans les portefeuilles. Lorsque vous désactivez un compte de réseau publicitaire, Search, Social et Commerce arrête toute activité sur le compte. Les données collectées pendant que le compte était actif sont toujours stockées, mais les vues et les rapports de gestion de campagne n’incluent pas les données de la période pendant laquelle le compte est désactivé. Vous pouvez par la suite réactiver le compte pour reprendre l’activité avec le compte.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Dans le sous-menu, cliquez sur **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -147,7 +147,7 @@ Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commer
 
 >[!NOTE]
 >
->Si vous disposez d’une intégration Search, Social, &amp; Commerce-Adobe Analytics et que vous modifiez le nom du compte de recherche, informez votre équipe de compte d’Adobe afin qu’elle puisse mettre à jour le mappage.
+>Si vous disposez d’une intégration Search, Social et Commerce-Adobe Analytics et que vous modifiez le nom du compte de recherche, informez votre équipe de compte d’Adobe afin qu’elle puisse mettre à jour le mappage.
 
 **[!UICONTROL Login Details]: \[Type de connexion\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] uniquement) Si vous souhaitez autoriser des connexions au compte à l’aide des éléments suivants :
 
@@ -178,7 +178,7 @@ Les comptes qui utilisent le suivi des clics par Adobe Advertising doivent inclu
 >* Ce champ n’est pas mis à jour par la variable [!UICONTROL Auto Upload] paramètre de suivi.
 >* Les suffixes d’URL finaux aux niveaux inférieurs remplacent le suffixe au niveau du compte. Pour faciliter la maintenance, utilisez uniquement le suffixe au niveau du compte, sauf si un suivi différent pour les composants de compte individuels est nécessaire. Pour configurer un suffixe au niveau du groupe publicitaire ou inférieur, utilisez l’éditeur du réseau publicitaire.
 
-**Fuseau horaire :** (Tous les réseaux publicitaires sauf [!DNL Baidu] et [!DNL Yahoo! Display Network]) Fuseau horaire de l’annonceur. Ce champ est modifiable et facultatif pour la nouvelle [!DNL Naver] comptes. Pour tous les autres réseaux de recherche, la valeur est automatiquement renseignée avec le fuseau horaire configuré pour le compte Search, Social, &amp; Commerce de l’annonceur une fois que vous avez enregistré l’enregistrement.
+**Fuseau horaire :** (Tous les réseaux publicitaires sauf [!DNL Baidu] et [!DNL Yahoo! Display Network]) Fuseau horaire de l’annonceur. Ce champ est modifiable et facultatif pour la nouvelle [!DNL Naver] comptes. Pour tous les autres réseaux de recherche, la valeur est automatiquement renseignée avec le fuseau horaire configuré pour le compte Search, Social et Commerce de l’annonceur une fois que vous avez enregistré l’enregistrement.
 
 **État :** État du compte dans Search, Social et Commerce :
 
@@ -211,7 +211,7 @@ Les comptes qui utilisent le suivi des clics par Adobe Advertising doivent inclu
 
 **[!UICONTROL Application ID]:** ([!DNL Yandex] Comptes uniquement) Jeton de développeur à utiliser pour le compte. Le même jeton est utilisé pour tous les [!DNL Yandex] comptes.
 
-**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] comptes dont le paramètre Compte partagé est désactivé uniquement ; facultatif) identifiant numérique de la campagne qui sera utilisé pour payer toutes les campagnes publicitaires du compte.
+**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] comptes dont le paramètre Compte partagé est désactivé uniquement ; facultatif) identifiant numérique de la campagne utilisée pour payer toutes les campagnes publicitaires dans le compte.
 
 **[!UICONTROL Finance Token]:** ([!DNL Yandex] comptes pour lesquels le paramètre Compte partagé est désactivé uniquement ; facultatif) Jeton de développeur à utiliser pour les appels d’API liés à la finance, comme la réaffectation de l’argent du portefeuille entre les campagnes de l’annonceur, selon les besoins pour l’optimisation de portefeuille.
 
@@ -253,7 +253,7 @@ Si ce compte doit générer des rapports aux niveaux de la campagne et du groupe
 
 Pour obtenir des instructions complètes, voir &quot;[Mettre à jour le code de suivi AMO ID pour un [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot;
 
-**Noms de suites de rapports** - (Pour la redirection EF avec jeton uniquement ; les annonceurs avec une intégration Adobe Advertising-Adobe Analytics ; facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoie les données qu’ils collectent depuis le réseau publicitaire, y compris les classifications d’entités et les données de clic pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.
+**Noms de suites de rapports** - (Pour une redirection EF avec jeton uniquement ; les annonceurs avec une intégration Adobe Advertising-Adobe Analytics ; facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoient les données qu’ils collectent à partir du réseau publicitaire, y compris les classifications d’entités et les données de clic pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.
 
 Pour que les données s’affichent dans les suites de rapports, soit (a) la fonction AMO ID côté serveur doit être configurée pour le compte, soit (b) le paramètre au niveau de l’annonceur sur &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; doit être activé. En outre, le compte Analytics de l’annonceur doit être configuré pour recevoir les données de Search, Social et Commerce. Pour plus d’informations, contactez votre gestionnaire de compte Adobe.
 

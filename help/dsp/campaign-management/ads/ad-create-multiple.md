@@ -3,9 +3,9 @@ title: Créer plusieurs publicités tierces
 description: Découvrez comment créer plusieurs publicités tierces à la fois.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 5139e6022cd5f5f11046d8f38bd0f1db91464928
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ Vous pouvez transférer l’une des options suivantes : [!DNL DoubleClick] et [!
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
-1. Cliquez sur le nom de la campagne dans laquelle la publicité sera incluse.
+1. Cliquez sur le nom de la campagne dans laquelle inclure la publicité.
 
 1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**. Dans la section Types de publicité du menu, cliquez sur **[!UICONTROL Bulk upload ads]**.
 
-1. Sélectionnez le serveur publicitaire sur lequel la publicité est hébergée : *[!UICONTROL DoubleClick]*, *[!UICONTROL Flashtalking]* ou *[!UICONTROL Other]*.
+1. Sélectionnez le serveur publicitaire sur lequel la publicité est hébergée : *[!UICONTROL DoubleClick]*, *[!UICONTROL Flashtalking]*, ou *[!UICONTROL Other]*.
 
 1. ([!DNL DoubleClick] et [!DNL Flashtalking] publicités) Sélectionnez le type de balise à utiliser pour chaque ressource vidéo et chaque ressource d’affichage. Les options disponibles varient en fonction du serveur de publicités.
 
-1. (Publicités sur tous les serveurs de publicités, à l’exception de [!DNL DoubleClick] et [!DNL Flashtalking]) Cliquez sur **[!UICONTROL Download this template]** pour télécharger un modèle dans [!DNL Microsoft Excel] format de feuille de calcul (XLSX), que vous pouvez renseigner avec des données de publicité et enregistrer localement. Les colonnes requises incluent [!UICONTROL Ad Name], [!UICONTROL VAST/VPAID URL or Ad Tag], et [!UICONTROL Ad Types].
+1. (Publicités sur tous les serveurs de publicités, à l’exception de [!DNL DoubleClick] et [!DNL Flashtalking]) Cliquez **[!UICONTROL Download this template]** pour télécharger un modèle dans [!DNL Microsoft Excel] format de feuille de calcul (XLSX), que vous pouvez renseigner avec des données de publicité et enregistrer localement. Les colonnes requises incluent [!UICONTROL Ad Name], [!UICONTROL VAST/VPAID URL or Ad Tag], et [!UICONTROL Ad Types].
 
 1. Cliquez sur **[!UICONTROL Upload]** et sélectionnez un fichier aux formats .xlsx ou .xls sur votre appareil ou votre réseau.
 
@@ -60,7 +60,7 @@ Vous pouvez transférer l’une des options suivantes : [!DNL DoubleClick] et [!
 
    * Cliquez sur **[!UICONTROL Done]**.
 
-   * (Si une publicité est refusée ; (facultatif) Pour modifier l’enregistrement de la publicité et la soumettre de nouveau pour révision :
+   * (Si une publicité est refusée ; facultatif) Pour modifier l’enregistrement de publicité et la soumettre de nouveau pour révision :
 
       1. Cliquez sur le nom de la publicité.
 
@@ -76,7 +76,6 @@ Vous pouvez transférer l’une des options suivantes : [!DNL DoubleClick] et [!
 >
 >* [A propos de la gestion des publicités](ad-about.md)
 >* [Spécifications des publicités](ad-specs.md)
->* [Créer une publicité unique](ad-create.md)
+>* [Création d’une publicité unique](ad-create.md)
 >* [Vidéo : Comment télécharger en bloc des balises publicitaires tierces](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 >* [Questions fréquentes à propos des vidéos universelles](/help/dsp/campaign-management/faq-universal-video.md)
-

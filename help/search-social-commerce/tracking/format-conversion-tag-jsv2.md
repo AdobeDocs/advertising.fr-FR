@@ -1,11 +1,11 @@
 ---
 title: Format des balises de suivi de conversion JavaScript version 2
 description: Référencez le format des balises de suivi de conversion JavaScript version 2.
-exl-id: c4845694-10ac-41f8-bafb-ca813e42d190
+exl-id: 75e96f97-a3f0-4f5b-8bbb-4b1e8986f01a
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ où :
 
 * `<ef-userid>` est un identifiant utilisateur numérique unique attribué par Search, Social et Commerce à l’annonceur.
 
-* `<propertyname>` est la conversion qui sera suivie. Par exemple, si vous effectuez le suivi d’une conversion appelée &quot;enregistrement&quot;, la balise inclura le paramètre . `ev_registration=<registration>`, et vous devez transmettre les recettes réelles pour chaque transaction (comme `ev_registration=1`). Lorsque plusieurs propriétés sont suivies, elles sont unies par une esperluette (`&`), par exemple `ev_registration=<registration>&ev_sale=<sale>` (par exemple, `ev_registration=1&ev_sale=12.99`). **Remarque :**  Le nom de la propriété ne peut pas contenir de caractères spéciaux.
+* `<propertyname>` correspond à la conversion à suivre. Par exemple, si vous effectuez le suivi d’une conversion appelée &quot;enregistrement&quot;, la balise inclura le paramètre . `ev_registration=<registration>`, et vous devez transmettre les recettes réelles pour chaque transaction (comme `ev_registration=1`). Lorsque plusieurs propriétés sont suivies, elles sont unies par une esperluette (`&`), par exemple `ev_registration=<registration>&ev_sale=<sale>` (par exemple, `ev_registration=1&ev_sale=12.99`). **Remarque :**  Le nom de la propriété ne peut pas contenir de caractères spéciaux.
 
 * `<transid>` est un identifiant de transaction unique (tel qu’un identifiant de commande réel) que l’annonceur génère et transmet pour identifier une transaction. Elle est incluse uniquement lorsque la variable[!UICONTROL Include unique transaction IDs]&quot; est sélectionnée.
 

@@ -3,9 +3,9 @@ title: Paramètres de destination du rapport
 description: Consultez les détails requis pour les destinations de votre rapport, par type de destination.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Les détails requis pour les destinations de rapport hors courrier électronique
 
 **[!UICONTROL Name]:** Un nom qui vous aide à identifier la destination.
 
-**[!UICONTROL S3 Bucket URL]:** Chemin d’accès complet au dossier sur la [!DNL Amazon Simple Storage Service] (S3) vers lequel le rapport sera chargé. Exemple : `s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]:** Chemin d’accès complet au dossier sur la [!DNL Amazon Simple Storage Service] (S3) vers lequel le rapport est chargé. Exemple : `s3://dsp_account/reports`
 
 **[!UICONTROL Access Key ID]:** L’identifiant de clé d’accès à ([!DNL Amazon S3]) (fourni par [!DNL Amazon]).
 
@@ -40,7 +40,7 @@ Les détails requis pour les destinations de rapport hors courrier électronique
 
 **[!UICONTROL Password]:** Mot de passe de connexion au serveur.
 
-**[!UICONTROL Path (Optional)]:** Chemin d’accès au serveur vers lequel les fichiers seront chargés.
+**[!UICONTROL Path (Optional)]:** Chemin d’accès au serveur vers lequel les fichiers sont chargés.
 
 ## [!UICONTROL SFTP]
 
@@ -54,7 +54,7 @@ Les détails requis pour les destinations de rapport hors courrier électronique
 
 **[!UICONTROL Password]:** Mot de passe de connexion au serveur.
 
-**[!UICONTROL Path (Optional)]:** Chemin d’accès au serveur vers lequel les fichiers seront chargés.
+**[!UICONTROL Path (Optional)]:** Chemin d’accès au serveur vers lequel les fichiers sont chargés.
 
 ## [!UICONTROL FTP SSL]
 
@@ -68,7 +68,7 @@ Les détails requis pour les destinations de rapport hors courrier électronique
 
 **[!UICONTROL Password]:** Mot de passe de connexion au serveur.
 
-**[!UICONTROL Path (Optional)]:** Chemin d’accès au serveur vers lequel les fichiers seront chargés.
+**[!UICONTROL Path (Optional)]:** Chemin d’accès au serveur vers lequel les fichiers sont chargés.
 
 >[!MORELIKETHIS]
 >
@@ -76,4 +76,3 @@ Les détails requis pour les destinations de rapport hors courrier électronique
 >* [Créez un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [Modifier une [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Suppression d’une [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-
