@@ -1,11 +1,11 @@
 ---
 title: Gestion des cibles d’audience pour les campagnes et les groupes publicitaires
 description: Découvrez comment configurer et gérer les cibles d’audience pour vos [!DNL Google Ads] et [!DNL Microsoft® Advertising] campagnes et groupes publicitaires.
-exl-id: 0016a69c-7642-4060-8125-947ffef6fb03
+exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Vous pouvez configurer des cibles d’audience, modifier les modificateurs d’o
 
       1. (Facultatif) Pour filtrer une liste de campagnes ou de groupes publicitaires selon une chaîne de texte incluse dans le nom, cliquez sur ![Filtrer](/help/search-social-commerce/assets/filter.png "Filtrer") , saisissez ou collez la chaîne de texte dans le champ de saisie, puis appuyez sur la touche **[!UICONTROL Enter]** clé.
 
-      1. Spécifiez chaque cible de campagne et de groupe publicitaire pour le réseau publicitaire spécifié en cliquant sur le cercle vide en regard de celui-ci, de sorte qu’une coche bleue (![Sélectionner](/help/search-social-commerce/assets/include.png "Sélectionner")) s’affiche.
+      1. Spécifiez chaque cible de campagne et de groupe publicitaire pour le réseau publicitaire spécifié en cliquant sur le cercle vide adjacent afin d’obtenir une coche bleue (![Sélectionner](/help/search-social-commerce/assets/include.png "Sélectionner")) s’affiche.
 
       Vous ne pouvez pas configurer de cible pour une campagne parente et un groupe d’annonces enfants (qui utilise automatiquement la cible).
 
@@ -102,9 +102,9 @@ Vous pouvez modifier le modificateur d’offre et l’état des cibles d’audie
 
 ## Modifier l’état des cibles d’audience
 
-Vous pouvez suspendre une cible d’audience principale pour désactiver l’offre sur celle-ci. Vous pourrez reprendre l’enchère ultérieurement en redéfinissant l’état sur principal.
+Vous pouvez suspendre une cible d’audience active pour désactiver l’offre sur celle-ci. Vous pouvez reprendre l’enchère ultérieurement en redéfinissant l’état sur actif.
 
-Vous pouvez également supprimer une cible d’audience de recherche principale ou suspendue.
+Vous pouvez également supprimer une cible d’audience de recherche active ou suspendue.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 

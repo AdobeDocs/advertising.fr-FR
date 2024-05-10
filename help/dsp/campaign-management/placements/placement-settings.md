@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3535'
 ht-degree: 0%
 
 ---
@@ -258,7 +258,7 @@ Les publicités sortantes apparaissent généralement sur le contenu sous la for
       1. Cliquez sur **[!UICONTROL Search]**.
       1. Saisissez un mot-clé, sélectionnez un niveau de site et/ou sélectionnez une catégorie de site.
       1. Dans les résultats de recherche, sélectionnez les sites à exclure :
-         * Pour exclure un site individuel, cochez la case en regard de celui-ci.
+         * Pour exclure un site individuel, cochez la case adjacente.
          * (Lorsque plus de 50 résultats sont disponibles) Pour exclure les 50 premiers résultats, cliquez sur **[!UICONTROL Exclude these 50]**. Pour exclure tous les résultats de recherche, cliquez sur **[!UICONTROL Exclude these \<*NN *\>]**.
    * Pour saisir les noms de domaine :
       1. Cliquez sur **[!UICONTROL Paste]**.
@@ -289,7 +289,7 @@ Vous pouvez éventuellement exporter la liste des sites ciblés et bloqués sous
       1. Cliquez sur **[!UICONTROL Search]**.
       1. Saisissez un mot-clé, sélectionnez un niveau de site et/ou sélectionnez une catégorie de site.
       1. Dans les résultats de recherche, sélectionnez les sites à inclure :
-         * Pour exclure un site individuel, cochez la case en regard de celui-ci.
+         * Pour exclure un site individuel, cochez la case adjacente.
          * (Lorsque plus de 50 résultats sont disponibles) Pour inclure les 50 premiers résultats, cliquez sur **[!UICONTROL Include these 50]**. Pour inclure tous les résultats de la recherche, cliquez sur **[!UICONTROL Include these \<*NN *\>]**.
    * Pour saisir les noms de domaine :
       1. click **[!UICONTROL Paste]**.

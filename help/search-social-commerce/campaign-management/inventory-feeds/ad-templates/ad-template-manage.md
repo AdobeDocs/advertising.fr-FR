@@ -3,9 +3,9 @@ title: Gestion des modèles d’annonces pour les flux d’inventaire
 description: Découvrez la gestion des modèles d’annonces grâce auxquels vos données d’inventaire peuvent être traitées pour gérer la structure du compte et diffuser des publicités dynamiques.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ Créez des modèles distincts pour les annonces textuelles étendues/étendues, 
                >* Si la copie de publicité d’origine répond aux exigences de longueur du moteur de recherche, la copie de publicité alternative est ignorée.
                >* Vous pouvez spécifier jusqu’à quatre champs de remplacement pour chaque champ de copie de publicité.
 
-         * Pour supprimer une variation publicitaire, cliquez sur **[!UICONTROL Remove ETA Variation]** (pour les publicités textuelles étendues/étendues) ou **[!UICONTROL Remove RSA Variation]** (pour les annonces responsives sur le Réseau de Recherche) en regard de celle-ci, le cas échéant.
+         * Pour supprimer une variation publicitaire, cliquez sur **[!UICONTROL Remove ETA Variation]** (pour les publicités textuelles étendues/étendues) ou **[!UICONTROL Remove RSA Variation]** (pour les publicités de recherche réactive) en regard de la variation publicitaire, le cas échéant.
 
    1. (Modèles d’achat uniquement) Cliquez sur le bouton **[!UICONTROL Product Groups]** puis spécifiez des informations sur les groupes de produits que vous souhaitez cibler.
 

@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] paramètres du groupe publicitaire'
 description: Référencez les paramètres pour [!DNL Microsoft® Advertising] groupes publicitaires.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -76,33 +76,33 @@ Le placement de la publicité télévisée (CTV) dépend de la qualité vidéo e
 
 * Pour cibler toutes les valeurs, ne sélectionnez aucune valeur.
 
-* Pour inclure une valeur, cliquez une fois sur le cercle situé à côté de celle-ci afin qu’une coche bleue (![Inclure](/help/search-social-commerce/assets/include.png "Inclure")) s’affiche. Vous pouvez éventuellement augmenter ou diminuer les offres d’un pourcentage spécifique pour chaque sexe ciblé.
+* Pour inclure une valeur, cliquez une fois sur le cercle adjacent afin d’obtenir une coche bleue (![Inclure](/help/search-social-commerce/assets/include.png "Inclure")) s’affiche. Vous pouvez éventuellement augmenter ou diminuer les offres d’un pourcentage spécifique pour chaque sexe ciblé.
 
-* Pour exclure une valeur, cliquez deux fois sur le cercle en regard de celle-ci afin d’obtenir une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
+* Pour exclure une valeur, cliquez deux fois sur le cercle adjacent afin d’obtenir une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
 
 **[!UICONTROL Age]:** (Groupes publicitaires d’audiences ; facultatif) Catégories d’âge spécifiques à inclure ou à exclure en tant que cibles : *[!UICONTROL 18-24]*, *[!UICONTROL 25-34]*, *[!UICONTROL 35-49]*, *[!UICONTROL 50-64]*, *[!UICONTROL 65+]*, et *[!UICONTROL Unknown]*. Par défaut, toutes les pages sont ciblées. Les exclusions remplacent toujours les inclusions.
 
 * Pour cibler toutes les valeurs, ne sélectionnez aucune valeur.
 
-* Pour inclure une valeur, cliquez une fois sur le cercle situé à côté de celle-ci afin qu’une coche bleue (![Inclure](/help/search-social-commerce/assets/include.png "Inclure")) s’affiche. Vous pouvez éventuellement augmenter ou diminuer les offres d’un pourcentage spécifique pour chaque âge ciblé.
+* Pour inclure une valeur, cliquez une fois sur le cercle adjacent afin d’obtenir une coche bleue (![Inclure](/help/search-social-commerce/assets/include.png "Inclure")) s’affiche. Vous pouvez éventuellement augmenter ou diminuer les offres d’un pourcentage spécifique pour chaque âge ciblé.
 
-* Pour exclure une valeur, cliquez deux fois sur le cercle en regard de celle-ci afin d’obtenir une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
+* Pour exclure une valeur, cliquez deux fois sur le cercle adjacent afin d’obtenir une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
 
 **[!UICONTROL Industry]:** (Groupes d’audiences ; facultatif) industries spécifiques à inclure ou à exclure en tant que cibles. Par défaut, tous les secteurs sont ciblés. Les exclusions remplacent toujours les inclusions.
 
 * Pour cibler toutes les valeurs, ne sélectionnez aucune valeur.
 
-* Pour inclure une valeur, cliquez une fois sur le cercle situé à côté de celle-ci afin qu’une coche bleue (![Inclure](/help/search-social-commerce/assets/include.png "Inclure")) s’affiche. Vous pouvez éventuellement augmenter ou diminuer les offres d’un pourcentage spécifique pour chaque secteur ciblé.
+* Pour inclure une valeur, cliquez une fois sur le cercle adjacent afin d’obtenir une coche bleue (![Inclure](/help/search-social-commerce/assets/include.png "Inclure")) s’affiche. Vous pouvez éventuellement augmenter ou diminuer les offres d’un pourcentage spécifique pour chaque secteur ciblé.
 
-* Pour exclure une valeur, cliquez deux fois sur le cercle en regard de celle-ci afin d’obtenir une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
+* Pour exclure une valeur, cliquez deux fois sur le cercle adjacent afin d’obtenir une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
 
 **[!UICONTROL Job Function Targets]:** (Groupes d’audiences ; facultatif) Fonctions de tâche spécifiques à inclure ou à exclure en tant que cibles. Par défaut, toutes les fonctions de tâche sont ciblées. Les exclusions remplacent toujours les inclusions.
 
 * Pour cibler toutes les valeurs, ne sélectionnez aucune valeur.
 
-* Pour inclure une valeur, cliquez une fois sur le cercle situé à côté de celle-ci afin qu’une coche bleue (![Inclure](/help/search-social-commerce/assets/include.png "Inclure")) s’affiche. Vous pouvez éventuellement augmenter ou diminuer les offres d’un pourcentage spécifique pour chaque fonction de tâche ciblée.
+* Pour inclure une valeur, cliquez une fois sur le cercle adjacent afin d’obtenir une coche bleue (![Inclure](/help/search-social-commerce/assets/include.png "Inclure")) s’affiche. Vous pouvez éventuellement augmenter ou diminuer les offres d’un pourcentage spécifique pour chaque fonction de tâche ciblée.
 
-* Pour exclure une valeur, cliquez deux fois sur le cercle en regard de celle-ci afin d’obtenir une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
+* Pour exclure une valeur, cliquez deux fois sur le cercle adjacent afin d’obtenir une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
 
 ## [!UICONTROL URL Options]
 

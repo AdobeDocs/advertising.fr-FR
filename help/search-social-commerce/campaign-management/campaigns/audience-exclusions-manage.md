@@ -1,11 +1,11 @@
 ---
 title: Gestion des exclusions d’audience pour les campagnes et les groupes publicitaires
 description: Découvrez comment configurer et gérer les exclusions d’audience pour vos [!DNL Google Ads] et [!DNL Microsoft® Advertising] campagnes et groupes publicitaires.
-exl-id: 0b05d980-d736-4b44-8317-c90de687dbd4
+exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ Vous pouvez également supprimer les exclusions d’audience.
 
       1. Effectuez l’une des opérations suivantes :
 
-         * Spécifiez chaque exclusion de groupe d’annonces en cliquant sur le cercle à côté afin qu’une coche rouge s’affiche (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
+         * Spécifiez chaque exclusion de groupe publicitaire en cliquant sur le cercle adjacent afin qu’une coche rouge s’affiche (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
 
-         * Spécifiez chaque exclusion de campagne en cliquant sur le cercle à côté de celle-ci, de sorte qu’une coche rouge s’affiche (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
+         * Définissez chaque exclusion de campagne en cliquant sur le cercle adjacent afin d’obtenir une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
 
 1. Cliquez sur **[!UICONTROL Post]**.
 

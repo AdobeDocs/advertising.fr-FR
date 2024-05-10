@@ -1,11 +1,11 @@
 ---
 title: Associer [!DNL Google Ads] Extensions de légende partagées avec des campagnes ou des groupes publicitaires
 description: Découvrez comment attribuer [!DNL Google Ads] extensions de légende partagées vers des campagnes ou des groupes publicitaires.
-exl-id: 17ee3de7-562e-4ed4-bf03-3b5e728d8a68
+exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Attribuez au moins deux légendes par campagne ou groupe publicitaire pour que v
 
       * (Facultatif) Pour filtrer une liste de campagnes ou de groupes publicitaires selon une chaîne de texte incluse dans le nom, cliquez sur ![Filtrer](/help/search-social-commerce/assets/filter.png "Filtrer"), saisissez ou collez la chaîne de texte dans le champ de saisie, puis appuyez sur la touche **Entrée** clé.
 
-      * Pour sélectionner une entité, cliquez sur le cercle en regard de celle-ci (![Sélectionner](/help/search-social-commerce/assets/include.png "Sélectionner")).
+      * Pour sélectionner une entité, cliquez sur le cercle adjacent (![Sélectionner](/help/search-social-commerce/assets/include.png "Sélectionner")).
 
    1. Cliquez sur **[!UICONTROL Post]**.
 

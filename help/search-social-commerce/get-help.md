@@ -1,10 +1,10 @@
 ---
 title: Obtenir de l’aide
 description: Découvrez comment afficher l’aide en ligne et les ressources de la communauté et comment obtenir une assistance technique.
-exl-id: 956117ea-9e3e-4ee0-b6cf-67ee5f2bc77a
-source-git-commit: 56d6c890616c23ec64234705d84dddb41442eb87
+exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ Vous pouvez ouvrir l’aide en ligne à partir de n’importe quelle page de l�
 
 ## Ouvrir l’aide en ligne
 
-* Pour afficher la description d’un terme avec une icône d’aide (![Icône Aide](/help/search-social-commerce/assets/help-field.png "Icône Aide") ) en regard, placez le curseur sur l’icône d’aide jusqu’à ce que vous ayez terminé ou cliquez dans la fenêtre contextuelle d’aide pour faire défiler le contenu.
+* Pour afficher une description d’un terme avec une icône d’aide adjacente (![Icône Aide](/help/search-social-commerce/assets/help-field.png "Icône Aide") ), placez le curseur sur l’icône d’aide jusqu’à ce que vous ayez terminé ou cliquez dans la fenêtre contextuelle d’aide pour faire défiler le contenu.
 
-  Pour ouvrir des liens dans une rubrique d’aide, vous devrez peut-être configurer les paramètres de votre navigateur afin d’autoriser les fenêtres contextuelles du site Search, Social &amp; Commerce que vous utilisez (par exemple, https://enterprise-na.efrontier.com pour les utilisateurs d’Amérique du Nord ou https://enterprise-intl.efrontier.com pour tous les autres utilisateurs).
+  Pour ouvrir des liens dans une rubrique d’aide, vous devrez peut-être configurer les paramètres de votre navigateur afin d’autoriser les fenêtres contextuelles du site Search, Social et Commerce que vous utilisez (comme https://enterprise-na.efrontier.com pour les utilisateurs d’Amérique du Nord ou https://enterprise-intl.efrontier.com pour tous les autres utilisateurs).
 
 * Pour ouvrir des ensembles d’aide complets expliquant comment utiliser toutes les fonctionnalités, cliquez sur les liens suivants en haut d’une page :
 
@@ -31,7 +31,7 @@ Recherchez des réponses à vos questions dans la section [Forums de la communau
 
 ## Contact [!DNL Adobe]
 
-Pour les problèmes de compte ou de produit Search, Social et Social, effectuez l’une des opérations suivantes :
+Pour les problèmes liés aux produits ou aux comptes Search, Social et Commerce, effectuez l’une des opérations suivantes :
 
 * Contactez votre équipe de compte d’Adobe.
 

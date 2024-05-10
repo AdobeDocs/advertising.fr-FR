@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Google Ads] campagnes.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2426'
 ht-degree: 0%
 
 ---
@@ -136,9 +136,9 @@ Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de 
 
    * (Pays, états, régions métropolitaines ou villes) Cliquez sur **[!UICONTROL Location Target]** (![Cible de l’emplacement](/help/search-social-commerce/assets/location-target.png "Cible de l’emplacement")) et localisez les emplacements à inclure et exclure :
 
-      * Pour inclure un emplacement et ses emplacements enfants, cliquez une fois sur le cercle en regard de celui-ci pour qu’une coche bleue (![Inclure](/help/search-social-commerce/assets/include.png "Inclure")) s’affiche.
+      * Pour inclure un emplacement et ses emplacements enfants, cliquez une fois sur le cercle adjacent afin d’obtenir une coche bleue (![Inclure](/help/search-social-commerce/assets/include.png "Inclure")) s’affiche.
 
-      * Pour exclure un emplacement, cliquez deux fois sur le cercle en regard de celui-ci afin d’obtenir une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
+      * Pour exclure un emplacement, cliquez deux fois sur le cercle adjacent afin d’obtenir une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
 
       * Pour développer un emplacement dans ses sous-composants (États, régions métropolitaines ou villes des États-Unis, par exemple), cliquez sur le nom de l’emplacement.
 

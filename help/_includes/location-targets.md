@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6b4dd1b8912703a5d45ffa872fe0231716cfb9a5
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 * Pour cibler tous les emplacements, ne sélectionnez aucun emplacement.
 
-* Pour inclure un emplacement et ses emplacements enfants, cliquez une fois sur le cercle en regard de celui-ci pour qu’une coche bleue (![Inclure](/help/search-social-commerce/assets/include.png "Inclure")) s’affiche. Vous pouvez éventuellement augmenter ou diminuer les offres d’un pourcentage spécifique pour chaque emplacement ciblé.
+* Pour inclure un emplacement et ses emplacements enfants, cliquez une fois sur le cercle adjacent afin d’obtenir une coche bleue (![Inclure](/help/search-social-commerce/assets/include.png "Inclure")) s’affiche. Vous pouvez éventuellement augmenter ou diminuer les offres d’un pourcentage spécifique pour chaque emplacement ciblé.
 
-* Pour exclure un emplacement, cliquez deux fois sur le cercle en regard de celui-ci afin d’obtenir une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
+* Pour exclure un emplacement, cliquez deux fois sur le cercle adjacent afin d’obtenir une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
 
 * Pour développer un emplacement dans ses sous-composants (états, préfectures, régions ou villes, par exemple), cliquez sur le nom de l’emplacement.
 
