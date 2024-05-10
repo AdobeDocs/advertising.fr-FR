@@ -3,9 +3,9 @@ title: Création d’un emplacement
 description: Découvrez comment créer un emplacement.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
       Certains champs ont des valeurs par défaut que vous pouvez remplacer.
 
-      Si le module auquel l’emplacement est affecté a une fréquence au niveau du module, vos objectifs et paramètres de fréquence refléteront les paramètres du module.
+      Si le module auquel l’emplacement est affecté a une fréquence au niveau du module, vos objectifs et paramètres de fréquence reflètent les paramètres du module.
 
    1. (Facultatif) Dans la variable [!UICONTROL Geo-Targeting] , réduisez les emplacements inclus ou exclus.
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
          1. (Facultatif) Pour chaque publicité supplémentaire que vous souhaitez créer pour l’emplacement, cliquez sur **[!UICONTROL Attach Another Ad]**, puis répétez les étapes 1 à 3.
 
-         1. Si vous ne joignez aucune publicité existante, cliquez sur **[!UICONTROL I'm done for now]**.
+         1. Si vous ne souhaitez joindre aucune publicité existante, cliquez sur **[!UICONTROL I'm done for now]**.
 
       * Pour joindre des publicités existantes dans la campagne :
 

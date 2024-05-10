@@ -3,7 +3,7 @@ title: Optimisation des campagnes par DSP
 description: Découvrez comment DSP optimise les packages dans vos campagnes.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -32,7 +32,7 @@ DSP peut optimiser votre diffusion de deux manières fondamentales, avec 20 vari
 
 * Donner la priorité à l’équilibrage de l’efficacité des coûts avec le taux de performance
 
-Voir [Objectifs d’optimisation et utilisation](optimization-goals.md) pour déterminer quel objectif d’optimisation vous aidera à atteindre vos IPC.
+Voir [Objectifs d’optimisation et utilisation](optimization-goals.md) pour déterminer quel objectif d’optimisation peut vous aider à atteindre vos IPC.
 
 ### Packages qui donnent la priorité au taux de performance
 
@@ -48,9 +48,9 @@ Ce mode d’optimisation fonctionne bien si :
 
 #### Logique de traitement {#pacing-logic-performance}
 
-* Si les dépenses suivent le rythme, les enchères deviennent plus sélectives, de sorte que vous n&#39;enchérisserez que sur les enchères prédites à des taux de performance élevés.
+* Si les dépenses suivent le rythme, les enchères deviennent plus sélectives, de sorte que vous ne faites que enchérir sur les enchères dont les taux de performance sont élevés.
 
-* Si les dépenses sont en retard, les enchères deviennent moins sélectives, de sorte que vous enchérisserez sur les enchères prédites avoir des taux de performance plus bas afin de rattraper l&#39;objectif de rythme.
+* Si les dépenses sont en retard, les enchères deviennent moins sélectives, de sorte que vous enchérissez sur les enchères prédites avoir des taux de performance plus bas afin de rattraper l&#39;objectif de rythme.
 
 #### Effacement de l’ombrage du prix/de l’offre {#clearing-price-performance}
 
@@ -80,7 +80,7 @@ Les filtres de pré-enchère de placement constituent la méthode la plus strict
 >
 >Les filtres de pré-enchères disponibles varient en fonction du type de publicité. Par exemple, pour un emplacement d’affichage standard, vous pouvez filtrer par taux de clics publicitaires et visibilité, mais pas par taux d’achèvement.
 
-Voir [Filtres de pré-offre au niveau de l’emplacement et comment les utiliser](optimization-pre-bid-filters.md) pour déterminer quel filtre de pré-enchère vous aidera à atteindre vos IPC.
+Voir [Filtres de pré-offre au niveau de l’emplacement et comment les utiliser](optimization-pre-bid-filters.md) pour déterminer quel filtre de pré-enchère peut vous aider à atteindre vos IPC.
 
 >[!MORELIKETHIS]
 >

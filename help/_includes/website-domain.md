@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # Champ Domaine de site web dans les paramètres de campagne de recherche GGL et MS
 
-**[!UICONTROL Website Domain]:** (Recherche sur le réseau uniquement) applicable aux annonces de recherche dynamique étendue uniquement) Domaine racine (exemple.com) ou sous-domaine (tel que chaussures.exemple.com) du site web dont le contenu sera utilisé par le réseau publicitaire pour cibler vos annonces de recherche dynamique.
+**[!UICONTROL Website Domain]:** (Réseau de recherche uniquement ; applicable aux annonces de recherche dynamique étendue uniquement) Domaine racine (tel que example.com) ou sous-domaine (tel que shoes.example.com) du site web dont le contenu que le réseau publicitaire doit utiliser pour cibler vos annonces de recherche dynamique.
 
 **Remarques :**
 

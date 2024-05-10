@@ -3,9 +3,9 @@ title: Présentation de [!DNL Analytics for Advertising]
 description: Présentation de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ En outre, Adobe Advertising peut accéder aux vastes données propriétaires qui
 
 Lorsqu&#39;elle est correctement employée, [!DNL Analytics for Advertising] brouille les lignes entre deux rôles traditionnels : la gestion des parcours publicitaires (l’acte d’envoyer des utilisateurs sur le site par le biais de publicités) et la compréhension de l’engagement sur le site par le biais d’analyses web.
 
-Principaux avantages :
+Avantages du Principal :
 
 * Envoyer [!DNL Analytics] segments directement vers Adobe Advertising pour le remarketing de site propriétaire.
 * Utilisation [!DNL Analytics] événements personnalisés et standard en tant que signaux de conversion pour optimiser la publicité multimédia payante.
@@ -76,7 +76,7 @@ Vous pouvez utiliser vos événements standard et personnalisés à partir de [!
 >
 > Vous ne pouvez pas mapper les mesures calculées à partir de [!DNL Analytics] dans l’Adobe Advertising.
 
-Votre équipe d’Adobes Advertising vous aidera à identifier et à mapper les événements applicables aux performances de médias payants dans Adobe Advertising, où ils apparaîtront dans [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
+Votre équipe d’Adobes Advertising vous aidera à identifier et à mapper les événements applicables aux performances de médias payants dans Adobe Advertising, où ils sont répertoriés dans [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
 
 Voir &quot;[Mesures Analytics dans Adobe Advertising](analytics-data-in-advertising.md)&quot; pour une liste de mesures disponibles.
 

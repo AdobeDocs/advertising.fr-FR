@@ -1,11 +1,11 @@
 ---
 title: Questions fréquentes sur les rapports personnalisés
 description: Découvrez les réponses aux questions courantes sur les rapports de performances, notamment la résolution des problèmes liés aux données.
-exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3912'
+source-wordcount: '3922'
 ht-degree: 0%
 
 ---
@@ -53,8 +53,8 @@ Vous pouvez voir les conversions qui ont résulté d’un clic sur une [!DNL Goo
 Lorsque la ligne comprend des données pour des campagnes de recherche activées sur le contenu, des campagnes d’affichage ou des campagnes sur les réseaux sociaux (qui n’incluent pas de mots-clés), la variable [!UICONTROL Keyword] affiche le nom du groupe d’annonces concerné à la place.
 +++
 
-+++En raison des changements saisonniers ou du marché, mes rapports présentent des données atypiques. Cela aura-t-il une incidence sur les offres une fois les conditions modifiées ?
-La fonctionnalité d’optimisation crée quotidiennement ses modèles de recettes pour chaque unité d’offre afin de s’assurer qu’elle identifie les tendances et qu’elle y répond immédiatement, et les modèles intègrent des données historiques à long terme pour aider à prédire les performances saisonnières. Le paramètre de demi-vie du modèle de revenus du portefeuille<!-- add link to glossary? --> détermine également le degré de pondération des données sur les recettes récentes. La bonne pratique consiste à réduire la demi-vie pendant une période de performance atypique, mais à l’augmenter après l’ajustement du modèle de revenu. Si vous avez des questions sur l’ajustement de la demi-vie nécessaire, contactez votre équipe de compte d’Adobe.
++++En raison des changements saisonniers ou du marché, mes rapports présentent des données atypiques. Cela a-t-il une incidence sur les offres une fois les conditions modifiées ?
+La fonctionnalité d’optimisation crée quotidiennement ses modèles de recettes pour chaque unité d’offre afin de s’assurer qu’elle identifie les tendances et qu’elle y répond immédiatement, et les modèles intègrent des données historiques à long terme pour aider à prédire les performances saisonnières. Le paramètre de demi-vie du modèle de revenus du portefeuille<!-- add link to glossary? --> détermine également le degré de pondération des données sur les recettes récentes. La bonne pratique consiste à réduire la demi-vie pendant une période de performance atypique, mais à l’augmenter après l’ajustement du modèle de revenu. Si vous avez des questions sur la nécessité d’ajuster la demi-vie, contactez votre équipe de compte d’Adobe.
 
 Si vous ne souhaitez pas que les données de la période affectent les offres futures, vous pouvez choisir d’exclure ces dates du modèle. Contactez votre équipe de compte d’Adobe pour exclure les dates.
 +++
@@ -133,7 +133,7 @@ En outre, lorsque vous comparez les données de partage d’impression agrégée
 
 * Pour la plupart des mesures de partage d’impression, [!DNL Google Ads] limite la limite inférieure ou supérieure des valeurs signalées pour les valeurs inférieures à 10 % ou supérieures à 90 %. Les données sont signalées comme étant de 0,099 pour &lt;10 % et de 0,9001 pour >90 %
 
-* Lorsqu’il existe un mélange de données plafonnées et non plafonnées au cours de la période, Search, Social et Commerce agrège les données de partage d’impression à l’aide des valeurs envoyées en l’état dans l’API, en utilisant 0,0999 pour les lignes comportant &lt;10 % et 0,9001 pour les lignes comportant plus de 90 %. Cette agrégation peut générer une variance de la variable [!DNL Google Ads] données pré-agrégées, car [!DNL Google Ads] peuvent utiliser des valeurs en pourcentage réel, telles que 7 ou 97 %.
+* Lorsqu’il existe un mélange de données plafonnées et non plafonnées au cours de la période, Search, Social et Commerce agrège les données de partage d’impression à l’aide des valeurs envoyées en l’état dans l’API, en utilisant 0,099 pour les lignes comportant &lt;10 % et 0,9001 pour les lignes comportant plus de 90 %. Cette agrégation peut générer une variance de la variable [!DNL Google Ads] données pré-agrégées, car [!DNL Google Ads] peuvent utiliser des valeurs en pourcentage réel, telles que 7 ou 97 %.
 +++
 
 +++Les données de performance dans les rapports diffèrent des données de [!DNL Google Analytics].
@@ -143,7 +143,7 @@ Les deux systèmes mesurent des données différentes, vous devriez donc vous at
 
 * [!DNL Google Analytics] affiche toutes les données de trafic, tandis que Search, Social et Commerce (et [!DNL Google Ads]) filtre les clics non valides (tels que les clics excessifs et répétés).
 
-* [!DNL Google Analytics] inclut les données sur les clics et les recettes pour tous les clics. Search, Social et Commerce ne peut pas effectuer le suivi des données de clics et de recettes pour les publicités et les mots-clés dont les URL de suivi sont incorrectes ou manquantes.
+* [!DNL Google Analytics] inclut les données sur les clics et les recettes pour tous les clics. Search, Social et Commerce ne peuvent pas effectuer le suivi des données de clics et de recettes pour les publicités et les mots-clés dont les URL de suivi sont incorrectes ou manquantes.
 +++
 
 ## Mesures de conversion
@@ -158,7 +158,7 @@ Le rapport peut ne pas inclure de mesures de conversion pour lesquelles des conv
 
 *Causes possibles :*
 
-* Des mots-clés ou des publicités ont été ajoutés sans préfixe au préfixe de suivi des clics Search, Social, &amp; Commerce dans les modèles de suivi ou les URL de destination, ou le préfixe de suivi est incorrect.
+* Des mots-clés ou des publicités ont été ajoutés sans ajouter le préfixe de suivi des clics Search, Social et Commerce aux modèles de suivi ou aux URL de destination, ou le préfixe de suivi est incorrect.
 
 * La balise de suivi de conversion n’est pas correctement implémentée sur toutes les pages web applicables ou a été modifiée.
 
@@ -206,7 +206,7 @@ Le rapport peut ne pas inclure de mesures de conversion pour lesquelles des conv
 
 1. Si le fichier a été envoyé, alors [Contacter l’assistance clientèle](/help/search-social-commerce/get-help.md).
 
-   L’assistance clientèle vérifie si le fichier a été reçu et analysé. Si le fichier a été traité sans erreur, il vérifie les transactions orphelines.
+   L’assistance clientèle vérifie si le fichier a été reçu et analysé. Si le fichier a été traité sans erreur, il recherche les transactions orphelines.
 +++
 
 +++Certains rapports avancés n’incluent pas les données de conversion fournies par un flux publicitaire.
@@ -219,7 +219,7 @@ La variable [!UICONTROL Geo Distribution Report] et [!UICONTROL Domain Referral 
 
 *Causes possibles :*
 
-* Search, Social et Commerce ignorent les recettes lorsque le cookie expire ou est supprimé, mais l’annonceur peut considérer qu’il s’agit d’une recette valide.
+* La recherche, Social et Commerce ignorent les recettes lorsque le cookie expire ou est supprimé, mais l’annonceur peut considérer qu’il s’agit d’une recette valide.
 
 * Le trafic vers la page de l’annonceur provient d’un signet ou d’une recherche organique plutôt que d’une publicité.
 
@@ -231,7 +231,7 @@ La variable [!UICONTROL Geo Distribution Report] et [!UICONTROL Domain Referral 
 
 1. Si certaines transactions sont incorrectes ou manquantes, assurez-vous que la balise de suivi de conversion appropriée est implémentée sur toutes les pages web applicables et n’a pas été modifiée, sauf si votre équipe de compte d’Adobe vous a conseillé de le faire. Une balise peut être manquante ou modifiée si le site web a été récemment mis à jour.
 
-   Search, Social et Commerce s’attend à des URL bien formées (avec des paramètres dans des paires nom-valeur) au sein de la variable `ef_transaction_properties` et dans la variable `src` de l’élément `img` balise .
+   Search, Social et Commerce s’attendent à des URL bien formées (avec des paramètres dans des paires nom-valeur) au sein de la variable `ef_transaction_properties` et dans la variable `src` de l’élément `img` balise .
 
 1. Si vous ne pouvez pas déterminer et résoudre le problème, alors [Contacter l’assistance clientèle](/help/search-social-commerce/get-help.md).
 
@@ -245,7 +245,7 @@ Voir les causes possibles et les solutions pour les implémentations de pixels c
 
 *Causes possibles :*
 
-* Search, Social et Commerce ignorent les recettes lorsque le cookie expire ou est supprimé, mais l’annonceur peut les considérer comme des recettes valides.
+* La recherche, Social et Commerce ignorent les recettes lorsque le cookie expire ou est supprimé, mais l’annonceur peut les considérer comme des recettes valides.
 
 * Le trafic vers la page de l’annonceur provient d’un signet ou d’une recherche organique plutôt que d’une publicité.
 
@@ -253,7 +253,7 @@ Voir les causes possibles et les solutions pour les implémentations de pixels c
 
 *Solution possible ou solution de contournement :*
 
-1. Accédez à **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** et générer un [!UICONTROL Transaction Report]. Comparez les transactions que Search, Social et Commerce a reçues avec les données de flux de l’annonceur.
+1. Accédez à **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** et générer un [!UICONTROL Transaction Report]. Comparez les transactions que Search, Social et Commerce ont reçues avec les données de flux de l’annonceur.
 
 1. Si une transaction dans le fichier de flux est manquante dans le rapport, vérifiez si une transaction en ligne avec le même ID de transaction (suivi via le pixel) s’est produite avant la conversion hors ligne.
 
@@ -265,13 +265,13 @@ Voir les causes possibles et les solutions pour les implémentations de pixels c
 
 *Causes possibles :*
 
-* Search, Social et Commerce ignorent les recettes lorsque le cookie expire ou est supprimé, mais l’annonceur peut considérer qu’il s’agit d’une recette valide.
+* La recherche, Social et Commerce ignorent les recettes lorsque le cookie expire ou est supprimé, mais l’annonceur peut considérer qu’il s’agit d’une recette valide.
 
 * Le trafic vers la page de l’annonceur provient d’un signet ou d’une recherche organique plutôt que d’une publicité.
 
 * Il y a [transactions orphelines](/help/search-social-commerce/glossary.md#o-p), ainsi Search, Social et Commerce ne comptabilise pas toutes les recettes qu’il doit générer.
 
-* L’annonceur a validé un rapport de recherche, de réseaux sociaux et de commerce en fonction d’un ensemble de données différent de celui qu’il a envoyé dans le flux.
+* L’annonceur a validé un rapport de recherche, Social et Commerce en fonction d’un ensemble de données différent de celui qu’il a envoyé dans le flux.
 
 * Les identifiants de transaction (`ev_transid` n’ont pas été envoyées, ne sont pas uniques ou sont incorrectes.
 
@@ -279,7 +279,7 @@ Voir les causes possibles et les solutions pour les implémentations de pixels c
 
 * Des erreurs se produisaient lors de l’analyse du fichier.
 
-* La logique de déduplication de l’annonceur diffère de la logique de recherche, de réseaux sociaux et de commerce.
+* La logique de déduplication de l’annonceur diffère de la logique de recherche, de Social et de Commerce.
 
 *Solution possible ou solution de contournement :*
 

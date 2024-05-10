@@ -3,9 +3,9 @@ title: ID d’Adobe Advertising utilisés par [!DNL Analytics]
 description: ID d’Adobe Advertising utilisés par [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 9374f5ef6aaff1f638022bc878c7af190e31888f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1684'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ L’identifiant EF est un jeton unique utilisé par Adobe Advertising pour assoc
 
 >[!NOTE]
 >
->Les identifiants EF sont sensibles à la casse. Si [!DNL Analytics] l’implémentation force le suivi des URL en minuscules, puis l’Adobe Advertising ne reconnaît pas l’identifiant EF. Cela aura un impact sur les offres et les rapports d’Adobe Advertising, mais n’aura aucune incidence sur les rapports d’Adobe Advertising dans les [!DNL Analytics].
+>Les identifiants EF sont sensibles à la casse. Si [!DNL Analytics] l’implémentation force le suivi des URL en minuscules, puis l’Adobe Advertising ne reconnaît pas l’identifiant EF. Cela a un impact sur les offres et les rapports d’Adobe Advertising, mais n’a aucun impact sur les rapports d’Adobe Advertising dans [!DNL Analytics].
 
 #### [!DNL Google Ads] annonces de recherche
 

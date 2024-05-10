@@ -3,9 +3,9 @@ title: Sécurité des marques et qualité des médias
 description: En savoir plus sur la sécurité de la marque et les fonctionnalités de qualité multimédia.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 09ccb4790906e64834e52fb28956fe41997cbd1b
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ DSP tient à jour une liste de sites bloqués à l’échelle mondiale de sites 
 
 Dans le cadre de notre initiative de sécurité des marques (Brand Safety) visant à éradiquer les activités qui fraudent les publicitaires, tous les sites sont analysés à l’aide des mesures figurant dans la liste des sites bloqués du graphique. Tous les sites qui ne réussissent pas les contrôles de sécurité de la marque sont ajoutés à la liste des sites bloqués globalement. DSP gère cette liste de manière dynamique. Aussi, les sites peuvent-ils s’y placer ou la quitter à tout moment, en fonction des dernières analyses de sécurité de la marque.
 
-Lorsque vous incluez un site sur la liste des sites bloqués globalement comme cible d’emplacement, le site est marqué d’un point d’exclamation rouge (!). Cela indique que les publicités ne s’exécuteront pas sur le site marqué.
+Lorsque vous incluez un site sur la liste des sites bloqués globalement comme cible d’emplacement, le site est marqué d’un point d’exclamation rouge (!). Cela indique que les publicités ne s’exécutent pas sur le site marqué.
 
 >[!NOTE]
 >

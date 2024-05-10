@@ -3,9 +3,9 @@ title: Collecte de données de clics et d’impressions à partir de campagnes A
 description: Découvrez comment capturer des impressions basées sur des cookies et des événements de clic à partir de publicités Advertising DSP à l’aide de pixels d’Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Où :
 
 * `[Audience Manager customer domain]` est le nom de domaine qui enverra des événements d’impression ou de clic à [!DNL Adobe].
 
-* `[source id]` est l’identifiant de la variable [source de données](#set-up-data-source) dans laquelle vous allez suivre DSP données d’impression et de clic.
+* `[source id]` est l’identifiant de la variable [source de données](#set-up-data-source) dans lequel vous effectuez le suivi DSP données d’impression et de clic.
 
 * `[redirect URL]` est l’URL de redirection codée en double. Si vous utilisez un outil de codage en ligne, tel que www.urlencoder.org, exécutez la chaîne via l’encodeur et codez à nouveau le résultat.
 
@@ -120,7 +120,7 @@ Une fois vos données stockées sur les serveurs d’Audience Manager, vous deve
 
 ### Création de caractéristiques d’Audience Manager et de segments
 
-Vos données d’événement seront transmises en Audience Manager sous la forme [signaux inutilisés](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Création manuelle [caractéristiques basées sur des règles](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) à partir des données ingérées, puis créez des [segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) en utilisant ces caractéristiques, avant de pouvoir utiliser les données dans les rapports.
+Vos données d’événement sont transmises en Audience Manager sous la forme [signaux inutilisés](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Création manuelle [caractéristiques basées sur des règles](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) à partir des données ingérées, puis créez des [segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) en utilisant ces caractéristiques, avant de pouvoir utiliser les données dans les rapports.
 
 Exemple de caractéristique qui renseigne les données au niveau de l’utilisateur pour les utilisateurs exposés à un contenu créatif spécifique dans DSP :
 

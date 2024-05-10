@@ -3,9 +3,9 @@ title: Paramètres de campagne
 description: Reportez-vous à la description des paramètres de campagne disponibles.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Pour estimer les impôts à retenir :
 
 >[!NOTE]
 >
-> Vous pouvez définir des limites de fréquence aux niveaux de la campagne, du kit et de l’emplacement. DSP respectera le plafond de fréquence le plus strict de la hiérarchie de l&#39;opération.
+> Vous pouvez définir des limites de fréquence aux niveaux de la campagne, du kit et de l’emplacement. DSP respecte la limite de fréquence la plus stricte de la hiérarchie de l&#39;opération.
 
 **[!UICONTROL Packages]:** La variable [packages](/help/dsp/campaign-management/packages/package-about.md) à inclure dans la campagne. Sélectionnez les packages existants et/ou créez des packages à inclure. Si vous créez des modules, reportez-vous à la description de la variable [paramètres du package](/help/dsp/campaign-management/packages/package-settings.md) pour plus d’informations.
 
@@ -126,7 +126,7 @@ Pour estimer les impôts à retenir :
 
 * **[!UICONTROL Target Age]:** Période à cibler. Utilisez les curseur gauche et droit pour réduire la plage selon vos besoins.
 
-* **[!UICONTROL Target Country]:** (Facultatif) Un pays à cibler. [!DNL Nielsen] mesurera uniquement les impressions diffusées dans les pays pris en charge.
+* **[!UICONTROL Target Country]:** (Facultatif) Un pays à cibler. [!DNL Nielsen] mesure les impressions diffusées dans les pays pris en charge uniquement.
 
 **[!UICONTROL comScore vCE]:** (Facultatif) Active [!DNL Comscore validated Campaign Essentials (vCE)] mesure et création de rapports sur la vérification des audiences, à l’aide des paramètres spécifiés. Des frais supplémentaires s’appliquent.
 
@@ -134,7 +134,7 @@ Pour estimer les impôts à retenir :
 
 * **[!UICONTROL Target Age]:** Période à cibler. Utilisez les curseur gauche et droit pour réduire la plage selon vos besoins.
 
-* **[!UICONTROL Target Country]:** (Facultatif) Un pays à cibler. [!DNL Comscore] mesurera uniquement les impressions diffusées dans les pays pris en charge.
+* **[!UICONTROL Target Country]:** (Facultatif) Un pays à cibler. [!DNL Comscore] mesure les impressions diffusées dans les pays pris en charge uniquement.
 
 ### [!UICONTROL 1st Party Metrics]
 

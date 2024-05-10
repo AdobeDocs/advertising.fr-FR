@@ -3,7 +3,7 @@ title: Présentation de Campaign Management dans les DSP publicitaires
 description: Découvrez la hiérarchie et les composants de la gestion de campagne.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -19,7 +19,7 @@ DSP campagnes présentent la hiérarchie suivante :
       * Emplacement(s)
          * Publicités
 <!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
-In Advertising DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
+In Advertising DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package includes placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
 
 ## [!UICONTROL Campaigns]

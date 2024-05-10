@@ -3,9 +3,9 @@ title: Macros sur les DSP publicitaires
 description: Référencez les macros disponibles pour le suivi général et pour effectuer le suivi des clics sur les publicités tierces.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: bb404dd1ff2fda5e37435ac892e2a0f6beba0b33
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---

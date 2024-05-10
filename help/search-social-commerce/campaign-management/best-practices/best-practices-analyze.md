@@ -1,11 +1,11 @@
 ---
 title: Analysez les rapports pour affiner vos mots-clés et vos paramètres de campagne
 description: Découvrez les bonnes pratiques d’utilisation des rapports pour affiner vos mots-clés et paramètres de campagne.
-exl-id: fe32561d-e910-40e0-8c37-889184b4e9c6
+exl-id: f1e3834b-2a6c-4d41-9355-70435a9e83e6
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Les rapports avancés peuvent vous aider à prendre des décisions stratégiques
 
 * Soyez prudent lorsque vous excluez des sites web de vos campagnes, car les changements de contenu et de marché peuvent rapidement modifier la valeur du trafic d’un site.
 
-Pour plus d’informations sur l’ajustement de vos mots-clés et des paramètres de campagne, voir &quot;Ajustement des stratégies de portefeuille&quot; dans la section Portfolios du guide d’optimisation, disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Pour plus d’informations sur l’ajustement de vos mots-clés et des paramètres de campagne, voir &quot;Ajustement des stratégies de portefeuille&quot; dans la section Portfolios du Guide d’optimisation, disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!TIP]
 >

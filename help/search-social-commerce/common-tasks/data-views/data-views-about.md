@@ -1,11 +1,11 @@
 ---
 title: A propos de la personnalisation des données dans les vues de gestion de campagne
 description: Découvrez les types de données que vous pouvez personnaliser dans les vues de données de campagne.
-exl-id: a8e4020a-ed8e-4ccc-9aaf-8ba115fb9ea3
+exl-id: 89f36865-9275-494e-ac33-d41fa30faa2a
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---

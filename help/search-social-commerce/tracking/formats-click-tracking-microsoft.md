@@ -1,11 +1,11 @@
 ---
 title: Formats de suivi des clics pour [!DNL Microsoft Advertising]
 description: Découvrez les formats de suivi des clics pour [!DNL Microsoft Advertising] comptes.
-exl-id: 725981db-1b9a-4c89-b95d-98d07ec99756
+exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Exemple :
 >
 >* `{TargetId}` représente l’identifiant de a) le mot-clé ou b) la liste de remarketing et le mot-clé (audience) qui ont déclenché la publicité (par exemple, &quot;kwd-123:aud-456&quot; pour un mot-clé et une liste de remarketing ou &quot;kwd-123&quot; pour le mot-clé uniquement).
 >
->* (Facultatif) Au lieu de saisir des modèles de suivi au niveau du compte, de la campagne, du groupe publicitaire ou du groupe de produits, vous pouvez ajouter l’URL de suivi aux données du produit dans la variable [!DNL Microsoft Merchant Center] compte . Pour ce faire, incluez l’URL de suivi, ainsi que la valeur dans le`link`&quot; ou &quot;`mobile_link`&quot;, selon le cas, dans une colonne personnalisée &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; dans le flux de produit. La valeur de la propriété`bingads_redirect`&quot; remplacera les valeurs du champ &quot;`link`&quot; et &quot;`mobile_link`&quot;. Les URL générées à l’aide de cette méthode n’incluent aucun paramètre de suivi spécifié dans les paramètres de compte ou de campagne de recherche, de Social et de Commerce.
+>* (Facultatif) Au lieu de saisir des modèles de suivi au niveau du compte, de la campagne, du groupe publicitaire ou du groupe de produits, vous pouvez ajouter l’URL de suivi aux données du produit dans la variable [!DNL Microsoft Merchant Center] compte . Pour ce faire, incluez l’URL de suivi, ainsi que la valeur dans le`link`&quot; ou &quot;`mobile_link`&quot;, selon le cas, dans une colonne personnalisée &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; dans le flux de produit. La valeur de la propriété`bingads_redirect`&quot; remplace les valeurs du champ &quot;`link`&quot; et &quot;`mobile_link`&quot;. Les URL générées à l’aide de cette méthode n’incluent aucun paramètre de suivi spécifié dans les paramètres de compte ou de campagne Search, Social et Commerce.
 
 ## Formats des suffixes de landing page (suffixe URL final)
 

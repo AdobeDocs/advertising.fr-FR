@@ -1,11 +1,11 @@
 ---
 title: Configuration d’un compte FTP pour le transfert des feuilles d’envoi groupées
 description: Découvrez comment demander un compte FTP pour télécharger des fichiers de feuille d’envoi groupé.
-exl-id: 6867d705-b8ef-4066-81dd-8742a6f5b126
+exl-id: c8c70638-10ea-476c-8b02-921adb091ef9
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Les fichiers de feuille d’envoi groupé récupérés et les fichiers d’erreu
 
 1. Contactez votre équipe de compte d’Adobe pour configurer un compte FTP afin de télécharger les fichiers de feuille d’envoi groupé.
 
-   Votre équipe de compte d’Adobe vous fournira l’emplacement FTP ainsi que votre nom d’utilisateur et votre mot de passe.
+   Votre équipe de compte d’Adobe vous fournit l’emplacement FTP ainsi que votre nom d’utilisateur et votre mot de passe.
 
 1. (Facultatif) Pour recevoir des notifications par e-mail sur les fichiers de feuille d’envoi groupé traités à partir de votre compte FTP, demandez à votre équipe de compte d’Adobe.
 

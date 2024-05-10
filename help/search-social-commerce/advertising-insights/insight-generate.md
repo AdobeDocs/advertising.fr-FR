@@ -1,11 +1,11 @@
 ---
 title: Générer une [!DNL Advertising Insight]
 description: Découvrez comment créer une [!DNL Advertising Insight].
-exl-id: 242095c9-25f0-4954-b1a8-5ea3db312afd
+exl-id: e6b692be-189e-4c6c-a536-e6c78801853d
 feature: Search Advertising Insights
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    2. (La plupart des insights) Sélectionnez le portefeuille à analyser.
 
-      En règle générale, tous les portfolios optimisés et principaux qui contiennent des campagnes principales sont disponibles. Pour obtenir quelques informations, vous pouvez filtrer la liste des portefeuilles à inclure. **[!UICONTROL Only Optimized Portfolios]**.
+      En règle générale, tous les portfolios optimisés et actifs contenant des campagnes actives sont disponibles. Pour obtenir quelques informations, vous pouvez filtrer la liste des portefeuilles à inclure. **[!UICONTROL Only Optimized Portfolios]**.
 
       Pour [!UICONTROL Day of Week] les insights, seuls les portefeuilles qui ont assez dépensé et qui ont également dépensé pour cibler les deux derniers jours sont disponibles.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 4. Cliquez sur **[!UICONTROL Generate Insight]**.
 
-   Vous recevrez une notification lorsque la tâche sera terminée ou échouera en fonction de votre [paramètres de notification configurés](/help/search-social-commerce/notifications/notification-edit.md) pour [!UICONTROL Advertising Insights].
+   Vous recevez une notification lorsque la tâche est terminée ou échoue en fonction de votre [paramètres de notification configurés](/help/search-social-commerce/notifications/notification-edit.md) pour [!UICONTROL Advertising Insights].
 
 >[!MORELIKETHIS]
 >

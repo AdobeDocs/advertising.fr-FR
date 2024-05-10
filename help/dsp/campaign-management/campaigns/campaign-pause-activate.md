@@ -2,9 +2,10 @@
 title: Mettre en pause ou activer une campagne
 description: Découvrez comment suspendre ou activer une campagne active.
 feature: DSP Campaigns
-source-git-commit: bd02a305083a52ada68ea4a3f83b308687273968
+exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Suspendre une campagne en direct ou activer une campagne suspendue lorsqu’elle se trouve dans le planning de diffusion configuré.
 
-Tous les emplacements suspendus avant la mise en pause d’une campagne restent suspendus lors de l’activation de la campagne.
+Tous les emplacements qui sont en pause avant de suspendre une campagne restent en pause lors de l’activation de la campagne.
 
 ## Suspendre une campagne
 

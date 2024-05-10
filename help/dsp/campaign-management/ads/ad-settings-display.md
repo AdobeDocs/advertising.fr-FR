@@ -3,9 +3,9 @@ title: Paramètres d’affichage des publicités
 description: Consultez la description des paramètres d’annonce disponibles pour les annonces affichées.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Les paramètres suivants concernent les publicités standard.
 
 **[!UICONTROL Final Display Code]:** (Publicités tierces uniquement) URL de la ressource créative tierce, avec les [Macros de suivi des DSP publicitaires](/help/dsp/campaign-management/macros.md) insérés, le cas échéant.
 
-**[!UICONTROL Ad Size]:** Largeur et hauteur de la publicité. Ce doit être une [taille d’affichage standard prise en charge](ad-specs.md). Vous pouvez saisir manuellement la taille de la publicité avant de la télécharger ou saisir une [!UICONTROL Display Code]. Si vous ne saisissez pas la taille de la publicité, les dimensions de la balise publicitaire ou de publicité chargée sont automatiquement saisies en lecture seule. Notez que la publicité affichée ne sera pas enregistrée si les dimensions ne se trouvent pas dans l’affichage standard sous forme de tailles, par exemple 301x250 au lieu de 300x250.
+**[!UICONTROL Ad Size]:** Largeur et hauteur de la publicité. Ce doit être une [taille d’affichage standard prise en charge](ad-specs.md). Vous pouvez saisir manuellement la taille de la publicité avant de la télécharger ou saisir une [!UICONTROL Display Code]. Si vous ne saisissez pas la taille de la publicité, les dimensions de la balise publicitaire ou de publicité chargée sont automatiquement saisies en lecture seule.
 
 >[!IMPORTANT]
 >

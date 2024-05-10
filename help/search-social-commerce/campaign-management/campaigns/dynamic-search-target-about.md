@@ -1,11 +1,11 @@
 ---
 title: A propos [!DNL Google Ads] cibles de recherche dynamique
 description: En savoir plus [!DNL Google Ads] cibles de recherche dynamique.
-exl-id: 3936455b-926a-4a3f-b3df-54e92cdfdc99
+exl-id: e6a8a426-5848-4161-99f3-1140aa3e4b9f
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]comptes uniquement*
 
-Les cibles de recherche dynamique définissent si le réseau publicitaire utilisera l’ensemble ou un sous-ensemble des pages de votre site web pour cibler vos annonces de recherche dynamique. Configurez des cibles de recherche dynamique au niveau du groupe d’annonces ; elles s’appliquent à toutes les annonces de recherche dynamique du même groupe d’annonces.
+Les cibles de recherche dynamique définissent si le réseau publicitaire utilise l’ensemble ou un sous-ensemble des pages de votre site web pour cibler vos annonces de recherche dynamique. Configurez des cibles de recherche dynamique au niveau du groupe d’annonces ; elles s’appliquent à toutes les annonces de recherche dynamique du même groupe d’annonces.
 
 Selon les paramètres de votre campagne, des cibles de recherche dynamique peuvent être obligatoires ou facultatives :
 

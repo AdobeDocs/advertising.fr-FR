@@ -1,11 +1,11 @@
 ---
 title: Exigences liées aux fichiers de flux de conversion
 description: Référencez les exigences relatives aux fichiers de flux de conversion.
-exl-id: 7d865802-0ab9-4965-9618-6bc0667f4939
+exl-id: abc28394-3e00-447f-a04e-078fa9883a64
 feature: Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Le nom de fichier doit inclure la date et être cohérent. Par exemple, si vous 
 
 ## Protocole de transfert de fichiers
 
-Envoyez le fichier via le protocole de transfert SFTP, à l’aide du port 22. Vous devrez fournir vos informations de clé publique.  Votre équipe de compte d’Adobe ou l’équipe de mise en oeuvre vous indiqueront l’emplacement du serveur, ainsi que les informations d’identification requises pour que votre système puisse transférer les fichiers.
+Envoyez le fichier via le protocole de transfert SFTP, à l’aide du port 22. Vous devrez fournir vos informations de clé publique.  Votre équipe de compte d’Adobe ou l’équipe de mise en oeuvre vous fournit l’emplacement du serveur ainsi que les informations d’identification requises pour que votre système puisse transférer les fichiers.
 
 >[!TIP]
 >

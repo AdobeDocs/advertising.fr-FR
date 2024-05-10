@@ -1,9 +1,9 @@
 ---
 title: Accès FTP aux rapports
 description: Découvrez comment recevoir des rapports à un emplacement FTP en lecture seule.
-exl-id: 69850b68-0309-4f07-b4cb-c14488219a4b
+exl-id: eca9f033-5b1b-4afa-926b-b4c31e2dede3
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -20,7 +20,7 @@ L’accès FTP aux rapports nécessite l’accès à un compte FTP spécifié. V
 
 * Contactez votre équipe de compte d’Adobe pour configurer un compte FTP pour l’accès aux rapports.
 
-  L’équipe vous fournira votre nom d’utilisateur et votre mot de passe.
+  L’équipe vous fournit votre nom d’utilisateur et votre mot de passe.
 
 ## Configurer des modèles de rapport pour une diffusion FTP
 

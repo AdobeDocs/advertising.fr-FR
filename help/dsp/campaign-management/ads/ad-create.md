@@ -3,7 +3,7 @@ title: Création d’une publicité unique
 description: Découvrez comment créer une publicité tierce unique.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Pour créer plusieurs publicités tierces à la fois, voir [Créer plusieurs pub
 
    >[!NOTE]
    >
-   >Votre publicité ne sera diffusée que si DSP et le SSP ont tous deux approuvé le contenu créatif. Chaque SSP possède ses propres exigences et processus d’approbation.
+   >Votre publicité ne peut être diffusée que si DSP et le SSP ont tous deux approuvé le contenu créatif. Chaque SSP possède ses propres exigences et processus d’approbation.
 
 >[!MORELIKETHIS]
 >

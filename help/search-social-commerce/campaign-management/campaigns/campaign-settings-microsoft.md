@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Microsoft® Advertising] campagnes.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -301,7 +301,7 @@ Pour plus d’informations sur la disponibilité, voir l’aide de Microsoft® A
 
 >[!TIP]
 >
->Pour les portefeuilles hybrides pour lesquels vous téléchargez des objectifs vers le réseau publicitaire, la bonne pratique consiste à utiliser des objectifs au niveau de la campagne correspondant aux objectifs de conversion dans l’objectif du portfolio. Toutefois, si les objectifs de la campagne incluent les conversions suivies par la variable [!DNL Microsoft Advertising] balise de suivi d’événement universel (UET), puis ajoutez-les dans la balise [!DNL Microsoft Advertising] car ils ne seront pas rechargés sur le réseau publicitaire avec l’objectif . En outre, dans la variable [!DNL Microsoft Advertising] Supprimez les actions de conversion de la campagne comme objectifs par défaut du compte en désélectionnant &quot;inclure dans les conversions&quot;.
+>Pour les portefeuilles hybrides pour lesquels vous téléchargez des objectifs vers le réseau publicitaire, la bonne pratique consiste à utiliser des objectifs au niveau de la campagne correspondant aux objectifs de conversion dans l’objectif du portfolio. Toutefois, si les objectifs de la campagne incluent les conversions suivies par la variable [!DNL Microsoft Advertising] balise de suivi d’événement universel (UET), puis ajoutez-les dans la balise [!DNL Microsoft Advertising] car ils ne sont pas rechargés sur le réseau publicitaire avec l’objectif . En outre, dans la variable [!DNL Microsoft Advertising] Supprimez les actions de conversion de la campagne comme objectifs par défaut du compte en désélectionnant &quot;inclure dans les conversions&quot;.
 
 <!-- Check on this:
 >If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.

@@ -3,9 +3,9 @@ title: À propos des groupes de produits d’achat
 description: Découvrez les groupes de produits d’achats dans les campagnes d’achat.
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 4ed0d225dafcb07e8a563ef7e723cd247da5e1a9
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Vous pouvez créer et modifier des groupes de produits, ainsi que supprimer des 
 
   >[!CAUTION]
   >
-  >([!DNL Microsoft® Advertising]) Utilisez cette option uniquement si vous n’incluez pas d’URL de suivi Search, Social et Commerce dans une colonne personnalisée du flux de produit. Si vous effectuez les deux, les URL comprennent deux redirections et provoqueront des liens rompus.
+  >([!DNL Microsoft® Advertising]) Utilisez cette option uniquement si vous n’incluez pas d’URL de suivi Search, Social et Commerce dans une colonne personnalisée du flux de produit. Si vous effectuez les deux, les URL comprennent deux redirections et provoquent des liens rompus.
 
 * ([!DNL Microsoft® Advertising] uniquement) Ajoutez l’URL de suivi aux données du produit dans la variable [!DNL Microsoft® Merchant Center] compte . Pour ce faire, incluez l’URL de suivi, ainsi que la valeur de la variable `link` ou `mobile_link` le cas échéant, dans une colonne personnalisée appelée [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) dans le flux de produit. Les URL générées à l’aide de cette méthode n’incluent aucun paramètre de suivi spécifié dans les paramètres du compte ou de la campagne dans Search, Social et Commerce.
 

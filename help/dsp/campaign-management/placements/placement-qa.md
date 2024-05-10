@@ -3,9 +3,9 @@ title: Vérification et modification des paramètres d’emplacement à l’aide
 description: Découvrez comment vérifier et modifier des paramètres d’emplacement clés à l’aide de feuilles de calcul.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 Vous pouvez télécharger les paramètres d’un ou de plusieurs emplacements, ou de tous les emplacements d’une campagne, au format XLSX (feuille de calcul Excel) pour révision. Utilisez cette fonctionnalité pour passer rapidement en revue les détails suivants :
 
 * Les audiences ciblées par la campagne.
-* Lorsque les emplacements commencent à être distribués et lorsqu’ils s’arrêteront.
+* Lorsque les emplacements commencent à être distribués et lorsqu’ils s’arrêtent.
 * Les publicités associées aux emplacements.
 
 Vous pouvez ensuite apporter des modifications à la sélection des champs et les charger à nouveau en une seule fois dans DSP. Les champs modifiables incluent les noms des emplacements, les états, les offres, les budgets, les stratégies de fréquence et les limites de fréquence.

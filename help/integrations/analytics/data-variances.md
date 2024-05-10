@@ -3,9 +3,9 @@ title: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 description: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3212'
+source-wordcount: '3205'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ Si un intervalle de recherche en amont des rapports ou un modèle d’attributio
 
 * **Exemple d’incohérences dues à des intervalles de recherche en amont différents :**
 
-  Supposons que l’Adobe Advertising ait une période de recherche en amont des clics de 60 jours et que [!DNL Analytics] dispose d’un intervalle de recherche en amont de 30 jours. Supposons également qu’un utilisateur se rende sur le site par le biais d’une publicité qui fait l’objet d’un suivi par Adobe Advertising, quitte le site, puis revient le 45e jour et effectue une conversion. Adobe Advertising attribuera la conversion à la visite initiale, car la conversion s’est produite dans l’intervalle de recherche en amont de 60 jours. [!DNL Analytics], toutefois, ne peut pas attribuer la conversion à la visite initiale, car la conversion s’est produite après l’expiration de l’intervalle de recherche en amont de 30 jours. Dans cet exemple, Adobe Advertising signale un nombre de conversions plus élevé que [!DNL Analytics] le cas échéant.
+  Supposons que l’Adobe Advertising ait une période de recherche en amont des clics de 60 jours et que [!DNL Analytics] dispose d’un intervalle de recherche en amont de 30 jours. Supposons également qu’un utilisateur se rende sur le site par le biais d’une publicité qui fait l’objet d’un suivi par Adobe Advertising, quitte le site, puis revient le 45e jour et effectue une conversion. Adobe Advertising attribue la conversion à la visite initiale, car la conversion s’est produite dans l’intervalle de recherche en amont de 60 jours. [!DNL Analytics], toutefois, ne peut pas attribuer la conversion à la visite initiale, car la conversion s’est produite après l’expiration de l’intervalle de recherche en amont de 30 jours. Dans cet exemple, Adobe Advertising signale un nombre de conversions plus élevé que [!DNL Analytics] le fait.
 
   ![Exemple de conversion attribuée dans Adobe Advertising mais pas [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
 
 * **Exemple d’incohérences causées par différents modèles d’attribution :**
 
-  Supposons qu’un utilisateur interagisse avec trois publicités Adobe Advertising différentes avant la conversion, avec les recettes comme type de conversion. Si un rapport d’Adobe Advertising utilise un modèle de distribution uniforme pour l’attribution, il attribuera les recettes de manière uniforme sur toutes les publicités. If [!DNL Analytics] utilise toutefois le modèle d’attribution Dernière touche , puis il attribuera les recettes à la dernière publicité. Dans l’exemple suivant, Adobe Advertising attribue 10 USD sur les 30 USD des recettes capturées à chacune des trois publicités, alors que [!DNL Analytics] attribue tous les 30 USD de recettes à la dernière publicité affichée par l’utilisateur. Lorsque vous comparez des rapports d’Adobe Advertising et [!DNL Analytics], vous pouvez vous attendre à voir l’impact de la différence dans l’attribution.
+  Supposons qu’un utilisateur interagisse avec trois publicités Adobe Advertising différentes avant la conversion, avec les recettes comme type de conversion. Si un rapport d’Adobe Advertising utilise un modèle de distribution uniforme pour l’attribution, il attribue les recettes de manière uniforme sur toutes les publicités. If [!DNL Analytics] utilise toutefois le modèle d’attribution Dernière touche , puis il attribue les recettes à la dernière publicité. Dans l’exemple suivant, Adobe Advertising attribue 10 USD sur les 30 USD des recettes capturées à chacune des trois publicités, alors que [!DNL Analytics] attribue tous les 30 USD de recettes à la dernière publicité affichée par l’utilisateur. Lorsque vous comparez des rapports d’Adobe Advertising et [!DNL Analytics], vous pouvez vous attendre à voir l’impact de la différence dans l’attribution.
 
   ![Différentes recettes attribuées à l’Adobe Advertising et [!DNL Analytics] selon différents modèles d’attribution](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -110,7 +110,7 @@ Dans l’Adobe Advertising, vous pouvez signaler les données de conversion soit
 
 ### Modèles d’attribution potentiellement différents dans [!DNL Marketing Channels]
 
-Le plus [!DNL Marketing Channels] les rapports sont configurés avec [!UICONTROL Last Touch] l’attribution, pour laquelle le dernier canal marketing détecté se voit attribuer 100 % de la valeur de conversion. Utilisation de différents modèles d’attribution pour la variable [!DNL Marketing Channels] les rapports et les rapports d’Adobe Advertising entraîneront des incohérences dans les conversions attribuées.
+Le plus [!DNL Marketing Channels] les rapports sont configurés avec [!UICONTROL Last Touch] l’attribution, pour laquelle le dernier canal marketing détecté se voit attribuer 100 % de la valeur de conversion. Utilisation de différents modèles d’attribution pour la variable [!DNL Marketing Channels] les rapports et les rapports d’Adobe Advertising génèrent des incohérences dans les conversions attribuées.
 
 ### Une fenêtre de recherche en amont potentiellement différente dans [!DNL Marketing Channels]
 
@@ -230,13 +230,13 @@ Les clics et les clics publicitaires peuvent varier sensiblement en raison de cl
 
 Les sites chargés sur des périphériques mobiles sont également moins susceptibles de générer des clics publicitaires en raison de largeurs de bande plus faibles ou de la puissance de traitement disponible, ce qui entraîne un chargement plus long des landing pages. Il n’est pas rare que 50 à 70 % des clics ne génèrent pas de clics publicitaires. Dans les environnements mobiles, la différence peut atteindre 90 % en raison de la combinaison d’un navigateur plus lent et de la plus grande probabilité que l’utilisateur clique accidentellement sur la publicité lors du défilement de la page ou de la tentative de fermeture de la publicité.
 
-Les données de clic peuvent également être enregistrées dans des environnements qui ne peuvent pas enregistrer les clics publicitaires avec les mécanismes de suivi actuels (tels que les clics vers ou depuis une application mobile) ou pour lesquels l’annonceur a déployé une seule approche de suivi (par exemple, avec l’approche JavaScript d’affichage publicitaire, les navigateurs qui bloquent les cookies tiers effectuent le suivi des clics, mais pas des clics publicitaires). Adobe recommande vivement de déployer les méthodes de suivi des URL de clics et des affichages publicitaires JavaScript pour optimiser la couverture des clics publicitaires pouvant faire l’objet d’un suivi.
+Les données de clic peuvent également être enregistrées dans des environnements qui ne peuvent pas enregistrer les clics publicitaires avec les mécanismes de suivi actuels (tels que les clics vers ou depuis une application mobile) ou pour lesquels l’annonceur a déployé une seule approche de suivi (par exemple, avec l’approche JavaScript d’affichage publicitaire, les navigateurs qui bloquent les cookies tiers effectuent le suivi des clics, mais pas les clics publicitaires). Adobe recommande vivement de déployer les méthodes de suivi des URL de clics et des affichages publicitaires JavaScript pour optimiser la couverture des clics publicitaires pouvant faire l’objet d’un suivi.
 
 ### Utilisation de mesures de trafic Adobe Advertising pour les Dimensions non Adobes Advertising
 
 Adobe Advertising fournit à Analytics [mesures de trafic spécifiques à la publicité et dimensions connexes issues de [!DNL DSP] et [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Les mesures fournies par l’Adobe Advertising s’appliquent uniquement aux dimensions d’Adobe Advertising spécifiées et les données ne sont pas disponibles pour les autres dimensions dans [!DNL Analytics].
 
-Par exemple, si vous affichez la variable [!UICONTROL Adobe Advertising Clicks] et [!UICONTROL Adobe Advertising Cost] mesures par compte, qui est une dimension Adobe Advertising, vous verrez alors le total [!UICONTROL Adobe Advertising Clicks] et [!UICONTROL Adobe Advertising Cost] par compte.
+Par exemple, si vous affichez la variable [!UICONTROL Adobe Advertising Clicks] et [!UICONTROL Adobe Advertising Cost] mesures par compte, qui est une dimension d’Adobe Advertising, puis le total [!UICONTROL Adobe Advertising Clicks] et [!UICONTROL Adobe Advertising Cost] s’affichent par compte.
 
 ![Exemple de mesures d’Adobe Advertising dans un rapport utilisant une dimension d’Adobe Advertising](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
@@ -246,7 +246,7 @@ Toutefois, si vous affichez la variable [!UICONTROL Adobe Advertising Clicks] et
 
 ### Utilisation [!UICONTROL AMO ID Instances] comme substitut des clics avec des Dimensions non Adobes Advertising
 
-Puisque vous ne pouvez pas utiliser [!UICONTROL AMO Clicks] avec les dimensions sur site, vous pouvez rechercher un équivalent aux clics. Vous pouvez être tenté d’utiliser les visites comme substitut, mais elles ne sont pas la meilleure option, car chaque visiteur peut avoir plusieurs visites. (Voir[Différence entre les clics et les visites](#clicks-vs-visits).&quot; Nous vous recommandons plutôt d’utiliser [!UICONTROL AMO ID Instances]: nombre de captures de l’AMO ID. while [!UICONTROL AMO ID Instances] ne correspondra pas [!UICONTROL AMO Clicks] exactement, il s’agit de la meilleure option pour mesurer le trafic de clics sur le site. Pour plus d’informations, voir &quot;[Validation des données de clic publicitaire pour [!DNL Analytics for Advertising]](#data-validation).&quot;
+Puisque vous ne pouvez pas utiliser [!UICONTROL AMO Clicks] avec les dimensions sur site, vous pouvez rechercher un équivalent aux clics. Vous pouvez être tenté d’utiliser les visites comme substitut, mais elles ne sont pas la meilleure option, car chaque visiteur peut avoir plusieurs visites. (Voir[Différence entre les clics et les visites](#clicks-vs-visits).&quot; Nous vous recommandons plutôt d’utiliser [!UICONTROL AMO ID Instances]: nombre de captures de l’AMO ID. while [!UICONTROL AMO ID Instances] ne correspond pas à [!UICONTROL AMO Clicks] exactement, il s’agit de la meilleure option pour mesurer le trafic de clics sur le site. Pour plus d’informations, voir &quot;[Validation des données de clic publicitaire pour [!DNL Analytics for Advertising]](#data-validation).&quot;
 
 ![Exemple d&#39;un [!UICONTROL AMO ID Instances] au lieu de [!UICONTROL Adobe Advertising Clicks] pour une dimension non prise en charge](/help/integrations/assets/a4adc-amo-id-instances.png)
 

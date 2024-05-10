@@ -3,9 +3,9 @@ title: À propos des rapports spécialisés
 description: En savoir plus sur les rapports spécialisés.
 exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 879cc2fa13475c90e92367b9fa0a9fa3d6203d7d
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,6 @@ La plupart des rapports spécialisés se composent uniquement des données colle
 
 >[!MORELIKETHIS]
 >
-* [Génération d’un rapport de spécialité](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
-* [Paramètres des rapports de spécialité](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
-* [Colonnes de rapports pour les rapports spécialisés](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
+>* [Génération d’un rapport de spécialité](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
+>* [Paramètres des rapports de spécialité](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [Colonnes de rapports pour les rapports spécialisés](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)

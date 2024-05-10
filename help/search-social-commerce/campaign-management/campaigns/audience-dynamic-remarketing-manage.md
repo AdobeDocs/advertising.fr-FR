@@ -1,11 +1,11 @@
 ---
 title: Gérer [!DNL Microsoft Advertising] audiences de remarketing dynamique
 description: Découvrez comment créer et gérer [!DNL Microsoft Advertising] audiences de remarketing dynamique.
-exl-id: 6f0cb6a0-36cc-4a07-82a8-247191b6c4f5
+exl-id: 52faab75-e723-4e59-aac6-b4d0c4c1cf60
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft Advertising]comptes uniquement*
 
-Vous pouvez créer un [!DNL Microsoft Advertising] audience de remarketing dynamique lorsque vous utilisez la balise de conversion JavaScript et de suivi d’audience du moteur de recherche sur vos pages web. Chaque audience est créée à l’aide d’une balise spécifique incluse dans les pages web dont les utilisateurs constitueront l’audience. Vous pouvez créer plusieurs audiences avec la même balise de suivi. Vous pouvez également modifier le nom et la source de données des audiences existantes ou supprimer les audiences existantes.
+Vous pouvez créer un [!DNL Microsoft Advertising] audience de remarketing dynamique lorsque vous utilisez la balise de conversion JavaScript et de suivi d’audience du moteur de recherche sur vos pages web. Chaque audience est créée à l’aide d’une balise spécifique incluse dans les pages web dont les utilisateurs composent l’audience. Vous pouvez créer plusieurs audiences avec la même balise de suivi. Vous pouvez également modifier le nom et la source de données des audiences existantes ou supprimer les audiences existantes.
 
 Les audiences de remarketing dynamique ont le type d’audience &quot;[!UICONTROL Dynamic Remarketing] \&lt;visitor type=&quot;&quot;>&quot; (par exemple, &quot;Dynamic Remarketing Antérieurement Buyers&quot;).
 
@@ -42,7 +42,7 @@ Pour plus d’informations sur le remarketing dynamique et sur la mise en oeuvre
 
    1. Saisissez le **[!UICONTROL Audience Name]**.
 
-   1. Dans la liste de toutes les balises disponibles pour le compte de moteur de recherche, sélectionnez le nom de la variable [!DNL Microsoft Advertising] Balise UET incluse dans les pages web dont les utilisateurs comprendront l’audience.
+   1. Dans la liste de toutes les balises disponibles pour le compte de moteur de recherche, sélectionnez le nom de la variable [!DNL Microsoft Advertising] Balise UET incluse dans les pages web dont les utilisateurs composent l’audience.
 
    1. Sélectionnez le type de visiteur pour l’audience, en fonction des actions du visiteur sur les pages web pertinentes : *[!UICONTROL General Visitors]*, *[!UICONTROL Product Searchers]*, *[!UICONTROL Product Viewers]*, *[!UICONTROL Past Buyers]*, ou *[!UICONTROL Shopping Cart Abandoners]*.
 
@@ -72,7 +72,7 @@ Vous pouvez modifier le nom et la source de données d’une [!DNL Microsoft Adv
 
    1. (Facultatif) Modifiez la variable **[!UICONTROL Audience Name]**.
 
-   1. (Facultatif) Dans une liste de toutes les balises disponibles pour le compte réseau publicitaire, modifiez le nom de la variable [!DNL Microsoft Advertising] Balise UET incluse dans les pages web dont les utilisateurs comprendront l’audience.
+   1. (Facultatif) Dans une liste de toutes les balises disponibles pour le compte réseau publicitaire, modifiez le nom de la variable [!DNL Microsoft Advertising] Balise UET incluse dans les pages web dont les utilisateurs composent l’audience.
 
    1. (Facultatif) Modifiez le type de visiteur de l’audience, basé sur les actions du visiteur sur les pages web pertinentes : *[!UICONTROL General Visitors]*, *[!UICONTROL Product Searchers]*, *[!UICONTROL Product Viewers]*, *[!UICONTROL Past Buyers]*, ou *[!UICONTROL Shopping Cart Abandoners]*.
 

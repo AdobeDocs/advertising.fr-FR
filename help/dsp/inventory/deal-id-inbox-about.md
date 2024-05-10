@@ -1,9 +1,9 @@
 ---
 title: À propos de [!UICONTROL Deal ID Inbox]
-description: En savoir plus sur les [!UICONTROL Deal ID inbox] qui vous permet d’accepter les offres privées que vous avez déjà négociées avec les éditeurs sur [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom de [!DNL AdX]), and [!DNL Magnite DV+] (anciennement [!DNL Rubicon]).
+description: En savoir plus sur les [!UICONTROL Deal ID inbox] qui vous permet d’accepter les offres privées que vous avez déjà négociées avec les éditeurs sur [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom [!DNL AdX]), and [!DNL Magnite DV+] (anciennement [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # À propos de [!UICONTROL Deal ID Inbox]
 
-Le DSP de la publicité [!UICONTROL Deal ID inbox] vous permet de configurer rapidement des offres que DSP a importées depuis des éditeurs par le biais de plateformes côté offre (SSP), afin que vous n’ayez pas à configurer chaque opération manuellement. Vous pouvez accepter les offres d’inventaire privé garanties et non garanties que vous avez déjà négociées avec les éditeurs sur [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom de [!DNL AdX]), et [!DNL Magnite DV+] (anciennement [!DNL Rubicon]) de la variable [!UICONTROL Deal ID inbox].
+Le DSP de la publicité [!UICONTROL Deal ID inbox] vous permet de configurer rapidement des offres que DSP a importées depuis des éditeurs par le biais de plateformes côté offre (SSP), afin que vous n’ayez pas à configurer chaque opération manuellement. Vous pouvez accepter les offres d’inventaire privé garanties et non garanties que vous avez déjà négociées avec les éditeurs sur [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement connu sous le nom [!DNL AdX]), et [!DNL Magnite DV+] (anciennement [!DNL Rubicon]) de la variable [!UICONTROL Deal ID inbox].
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ DSP actualise automatiquement tous les détails de la transaction tous les jours
 
 ## Implémentation de [!UICONTROL Deal ID Inbox]
 
-Pour recevoir vos offres dans la variable [!UICONTROL Deal ID inbox], vos comptes SSP doivent mapper le compte DSP de votre organisation à votre compte SSP. DSP partagera les noms de compte de l’organisation avec les SSP appropriés. Contactez votre équipe de compte d’Adobe pour obtenir des instructions.
+Pour recevoir vos offres dans la variable [!UICONTROL Deal ID inbox], vos comptes SSP doivent mapper le compte DSP de votre organisation à votre compte SSP. DSP peut partager les noms de compte de l’organisation avec les SSP appropriés. Contactez votre équipe de compte d’Adobe pour obtenir des instructions.
 
 Pendant les négociations de l’opération, demandez à l’éditeur d’envoyer l’opération à votre acheteur au lieu du compte DSP parent. L’identifiant de l’opération peut être un nom ou un identifiant, selon le SSP.
 
@@ -47,15 +47,15 @@ Pendant les négociations de l’opération, demandez à l’éditeur d’envoye
 
 * **Transactions de révision** pour vérifier que le SSP a envoyé l’éditeur, les dates de vol, le CPM et d’autres détails de transaction corrects. Si l’éditeur a commis une erreur, contactez-les en dehors de DSP afin qu’il puisse corriger et renvoyer l’opération.
 
-* **Accepter des accords** après révision, et ils n’apparaîtront plus dans la variable [!UICONTROL Deal ID inbox]. Les offres acceptées sont répertoriées dans la section [!UICONTROL Inventory] > [!UICONTROL Deals] et sont prêts à cibler dans les emplacements des annonceurs.
+* **Accepter des accords** après révision, et ils n’apparaissent plus dans la variable [!UICONTROL Deal ID inbox]. Les offres acceptées sont répertoriées dans la section [!UICONTROL Inventory] > [!UICONTROL Deals] et sont prêts à cibler dans les emplacements des annonceurs.
 
-* **Ignorer les transactions** qui ne sont pas nécessaires ou non sollicités. Les offres ignorées sont déplacées vers la variable [!UICONTROL Ignored Deals] dans l’onglet [!UICONTROL Deal ID inbox], qui sert d’archive. DSP n’alerte pas les SSP et les éditeurs lorsque vous ignorez une transaction.
+* **Ignorer les transactions** qui ne sont pas nécessaires ou non sollicités. Les offres ignorées sont déplacées vers la variable [!UICONTROL Ignored Deals] dans la [!UICONTROL Deal ID inbox], qui sert d’archive. DSP n’alerte pas les SSP et les éditeurs lorsque vous ignorez une transaction.
 
 * **Modifier les détails des offres déjà acceptées** de [!UICONTROL Inventory] > [!UICONTROL Deals] (pas dans la variable [!UICONTROL Deal ID inbox]). De même, lorsque les éditeurs envoient des modifications aux offres, les publicitaires sont chargés de mettre en oeuvre ces modifications dans [!UICONTROL Inventory] > [!UICONTROL Deals] car la variable [!UICONTROL Deal ID inbox] ne synchronise pas les modifications des SSP après la configuration des offres.
 
 ## Quels types d&#39;accords ne peuvent être acceptés ?
 
-Lorsqu’une liste d’offres n’inclut pas une ![Accepter](/help/dsp/assets/accept.png) ou une [!UICONTROL Accept] , vous ne pouvez pas l’accepter à partir du [!UICONTROL Deal ID inbox]. Au lieu de cela, vous pouvez [créer manuellement les détails de l’ID de transaction ;](/help/dsp/inventory/deal-id-create.md).
+Lorsqu’une liste d’offres n’inclut pas une ![Accepter](/help/dsp/assets/accept.png) ou une [!UICONTROL Accept] , vous ne pouvez pas l’accepter à partir du [!UICONTROL Deal ID inbox]. Vous pouvez plutôt : [créer manuellement les détails de l’ID de transaction ;](/help/dsp/inventory/deal-id-create.md).
 
 Vous ne pouvez pas accepter les types d’offres suivants :
 
@@ -75,4 +75,3 @@ Les détails de l’accord incluent la raison pour laquelle l’accord n’est p
 >
 >* [Acceptation d’une transaction dans la boîte de réception Deal ID](deal-id-inbox-accept.md)
 >* [Présentation des fonctionnalités du stock](inventory-overview.md)
-

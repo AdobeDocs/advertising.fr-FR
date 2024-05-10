@@ -3,7 +3,7 @@ title: A propos [!UICONTROL Report Destinations]
 description: Découvrez la gestion des emplacements de diffusion pour vos rapports personnalisés.
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -25,15 +25,15 @@ Vous pouvez créer et gérer des emplacements de diffusion, appelés *[!DNL repo
 >
 > Vous pouvez également envoyer vos rapports personnalisés aux destinataires par e-mail, qui ne nécessitent pas de destination de rapport enregistrée. Dans les paramètres du rapport, vous pouvez spécifier des destinataires de courrier électronique plutôt que des destinations enregistrées.
 
-## Le [!UICONTROL Report Destinations] Affichage
+## La variable [!UICONTROL Report Destinations] Affichage
 
-Le [!UICONTROL Report Destinations] La vue affiche toutes vos destinations existantes et le nombre de rapports liés à chacune d’elles. Vous pouvez filtrer la liste par type de destination.
+La variable [!UICONTROL Report Destinations] La vue affiche toutes vos destinations existantes et le nombre de rapports liés à chacune d’elles. Vous pouvez filtrer la liste par type de destination.
 
 Vous pouvez créer de nouvelles destinations et modifier et supprimer des destinations existantes à partir de cette vue.
 
 >[!NOTE]
 >
->La mise à jour des informations d’identification de vos destinations de rapport existantes n’interrompt pas l’envoi des rapports tant que ces informations d’identification sont valides.
+>La mise à jour des informations d’identification de vos destinations de rapport existantes n’interrompt pas l’envoi des rapports tant que les informations d’identification sont valides.
 
 ![Destinations de rapports](/help/dsp/assets/report-destinations.png)
 
@@ -43,4 +43,3 @@ Vous pouvez créer de nouvelles destinations et modifier et supprimer des destin
 >* [[!UICONTROL Report Destination] Paramètres](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Modifier une [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Suppression d’une [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-

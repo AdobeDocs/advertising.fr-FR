@@ -3,9 +3,9 @@ title: Données de feuille d’envoi groupé requises pour [!DNL Google Ads] com
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour [!DNL Google Ads] comptes.
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '7860'
+source-wordcount: '7855'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,8 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 | [!UICONTROL Delivery Method] | Requis pour créer une campagne. |
 | [!UICONTROL Channel Type] | Requis pour créer une campagne. |
 | [!UICONTROL Networks] | Requis pour créer une campagne. |
-| [!UICONTROL DSA Domain Name] | Requis pour créer une campagne sur le réseau de recherche qui contiendra des annonces de recherche dynamique. |
-| [!UICONTROL DSA Domain Language] | Requis pour créer une campagne sur le réseau de recherche qui contiendra des annonces de recherche dynamique. |
+| [!UICONTROL DSA Domain Name] | Requis pour créer une campagne avec des annonces de recherche dynamique sur le réseau de recherche. |
+| [!UICONTROL DSA Domain Language] | Requis pour créer une campagne avec des annonces de recherche dynamique sur le réseau de recherche. |
 | [!UICONTROL Campaign Priority] | Requis pour créer une campagne d’achat. |
 | [!UICONTROL Merchant ID] | Requis pour créer une campagne d’achat. |
 | [!UICONTROL Sales Country] | Requis pour créer une campagne d’achat. |
@@ -410,7 +410,7 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 | [!UICONTROL Sitelink Status] | Requis uniquement pour supprimer un lien de site. |
 | [!UICONTROL Campaign ID] | Facultatif |
 | [!UICONTROL Ad Group ID] | Facultatif |
-| [!UICONTROL Sitelink ID] | Obligatoire uniquement lorsque vous modifiez ou supprimez le lien du site, sauf si la ligne comprend a) suffisamment de colonnes de propriétés pour identifier le lien du site ou b) un &quot;[!UICONTROL AMO ID].&quot; Cependant, si vous n’incluez aucun des [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID]  et que les colonnes de propriétés correspondent à plusieurs liens de site, l’état d’un seul lien de site change.<br><br><b>Remarque :</b> Si vous modifiez les colonnes de propriétés sitelink à l’exception de [!UICONTROL Status] pour un lien de site existant, et vous n’incluez pas le paramètre [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID], un nouveau lien de site est alors créé et le lien de site existant n’est pas modifié. |
+| [!UICONTROL Sitelink ID] | Obligatoire uniquement lorsque vous modifiez ou supprimez le lien du site, sauf si la ligne comprend a) suffisamment de colonnes de propriétés pour identifier le lien du site ou b) un &quot;[!UICONTROL AMO ID].&quot; Cependant, si vous n’incluez aucun des [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID]  et les colonnes de propriétés correspondent à plusieurs liens de site, puis l’état d’un seul lien de site change.<br><br><b>Remarque :</b> Si vous modifiez les colonnes de propriétés sitelink à l’exception de [!UICONTROL Status] pour un lien de site existant, et vous n’incluez pas le paramètre [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID], un nouveau lien de site est alors créé et le lien de site existant n’est pas modifié. |
 | [!UICONTROL AMO ID] | Obligatoire pour modifier ou supprimer les données, sauf si vous incluez l’ID d’entité et l’ID d’entité parent.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’identifiant sur le réseau publicitaire. |
 
 ### Cible de l’emplacement

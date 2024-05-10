@@ -1,11 +1,11 @@
 ---
 title: Suivi des conversions Adobe Analytics
 description: Découvrez comment utiliser le suivi de conversion Adobe Analytics pour vos campagnes dans Adobe Advertising.
-exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
+exl-id: c72cc988-5b51-4e1a-8cb6-6c3ca2a0226b
 feature: Search Tracking
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Voir &quot;[Présentation de [!DNL Analytics for Advertising]](https://experienc
 
 >[!PREREQUISITES]
 >
-> Fuseaux horaires dans le compte publicitaire Search, Social &amp; Commerce, le [!DNL Analytics] les suites de rapports et les comptes de réseau publicitaire doivent correspondre. S’ils ne correspondent pas, les écarts de données existent entre les systèmes.
+> Fuseaux horaires dans le compte publicitaire Search, Social et Commerce, le [!DNL Analytics] les suites de rapports et les comptes de réseau publicitaire doivent correspondre. S’ils ne correspondent pas, des écarts de données se produisent sur l’ensemble des systèmes.
 
 ## Présentation de l’implémentation
 
@@ -32,7 +32,7 @@ Voir &quot;[Présentation de [!DNL Analytics for Advertising]](https://experienc
 
    * Événements standard et personnalisés à utiliser pour l’optimisation.
 
-1. Dans Search, Social et Commerce, votre équipe d’implémentation :
+1. Dans Search, Social et Commerce, votre équipe de mise en oeuvre :
 
    1. Synchronise la hiérarchie des comptes de réseau publicitaire existants dans Search, Social et Commerce.
 

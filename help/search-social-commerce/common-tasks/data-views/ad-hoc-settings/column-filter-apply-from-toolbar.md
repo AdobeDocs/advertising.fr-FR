@@ -1,9 +1,9 @@
 ---
 title: Application de filtres de données à partir de la barre d’outils
 description: Découvrez comment filtrer les données de page de la barre d’outils.
-exl-id: 922cc148-e6dc-428b-a7f3-1da3780df326
+exl-id: fc1dca75-b0e5-48fd-90ee-f09c158e3e8b
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Vous pouvez appliquer autant de filtres que vous le souhaitez à une vue. Tous l
 
            Selon le type de données, les opérateurs disponibles peuvent inclure : *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]*, ou *[!UICONTROL no date].*
 
-           **Remarque :** Les valeurs de texte ne sont pas sensibles à la casse. Par exemple, si vous filtrez par campagnes dont le nom contient &quot;prêt&quot;, les résultats seront les &quot;Prêts aux consommateurs&quot; et les &quot;demandes de prêt&quot;.
+           **Remarque :** Les valeurs de texte ne sont pas sensibles à la casse. Par exemple, si vous filtrez par campagnes dont le nom contient &quot;prêt&quot;, les résultats incluent &quot;Prêts aux consommateurs&quot; et &quot;Demande de prêt&quot;.
 
          * ([!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Product Groups], [!UICONTROL Placements], et [!UICONTROL Auto Targets] vues uniquement ; facultatif) Modifiez le paramètre en &quot;[!UICONTROL Include rows with performance data only].&quot;
 

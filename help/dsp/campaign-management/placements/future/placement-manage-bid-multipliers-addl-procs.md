@@ -2,7 +2,7 @@
 title: Gestion des multiplicateurs d’offre pour les emplacements
 description: Découvrez comment créer et modifier des multiplicateurs d’offre pour des cibles d’emplacement spécifiées.
 feature: DSP Placements
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Pour tous les emplacements sélectionnés, vous pouvez soit modifier manuellemen
 
      >[!NOTE]
      >
-     >Si vous laissez un champ vide, toutes les valeurs de ce type de cible sont supprimées.<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there will be only one data row applicable for all. -->
+     >Si vous laissez un champ vide, toutes les valeurs de ce type de cible sont supprimées.<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there only one data row is applicable for all. -->
 
       1. Cliquez sur **[!UICONTROL CSV Edit]** en haut à droite.
 

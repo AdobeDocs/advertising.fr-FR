@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Baidu] Paramètres de publicité texte'
 description: Référencez les paramètres pour [!DNL Baidu] annonces textuelles.
-exl-id: 68165d1f-a7ef-4b2a-ae5d-36190fb49d77
+exl-id: 1c914e8a-e39b-477e-9c19-919ffedc30c7
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **[!UICONTROL Display URL]:** URL affichée dans une publicité. La longueur maximale est de 35 caractères sur un octet.
 
-**[!UICONTROL Mobile Preferred]:** (Facultatif) Permet au réseau d’afficher l’extension de publicité ou d’annonce aux utilisateurs d’appareils mobiles plutôt qu’aux utilisateurs d’ordinateurs de bureau ou de tablettes. Par défaut, l’option n’est pas activée et la publicité s’affiche sur n’importe quel type d’appareil.
+**[!UICONTROL Mobile Preferred]:** (Facultatif) Permet au réseau d’afficher l’extension de publicité ou d’annonce aux utilisateurs d’appareils mobiles plutôt qu’aux utilisateurs d’ordinateurs de bureau ou de tablettes. Par défaut, l’option n’est pas activée et la publicité peut apparaître sur n’importe quel type d’appareil.
 
 >[!NOTE]
 >

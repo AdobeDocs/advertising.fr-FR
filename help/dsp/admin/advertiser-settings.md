@@ -2,9 +2,9 @@
 title: Paramètres du compte Advertiser
 description: Voir la description des paramètres de l’annonceur disponibles.
 role: User, Admin
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,13 @@ Les annonceurs qui disposent de produits Adobe Experience Cloud supplémentaires
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Publicitaires avec [!DNL Advertising Search, Social, & Commerce] ou qui utilisent des pixels de conversion d’Adobe Advertising) A [!DNL Search, Social, & Commerce] compte avec lequel DSP exchange les données d’attribution.
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Publicitaires avec Adobe Analytics ; facultatif ; applicable uniquement aux données collectées à l’aide des balises de suivi de conversion d’Adobe Advertising qui incluent une [!DNL EF Redirect] et jeton uniquement) Un ou plusieurs [!DNL Analytics] suites de rapports auxquelles DSP enverra les données collectées auprès des éditeurs et des partenaires côté offre. Analytics enverra également les données qu’il collecte du site du client à DSP.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Publicitaires avec Adobe Analytics ; facultatif ; applicable uniquement aux données collectées à l’aide des balises de suivi de conversion d’Adobe Advertising qui incluent une [!DNL EF Redirect] et jeton uniquement) Un ou plusieurs [!DNL Analytics] suites de rapports auxquelles DSP envoie les données qu’elle collecte auprès des éditeurs et des partenaires côté offre. Analytics envoie également les données qu’il collecte du site du client à DSP.
 
 Pour que les données s’affichent dans les suites de rapports, le [!DNL Search, Social, & Commerce] le paramètre au niveau de l’annonceur doit être activé. En outre, le [!DNL Analytics] doit être configuré pour recevoir les données d’Adobe Advertising.
 
 >[!WARNING]
 >
->Si vous supprimez une suite de rapports précédemment liée, DSP n’exchange plus les données de cette suite. Vous pouvez vous attendre à voir les fluctuations des données.
+>Si vous supprimez une suite de rapports précédemment liée, DSP n’exchange plus les données avec cette suite. Vous pouvez vous attendre à voir les fluctuations des données.
 
 Pour plus d’informations sur l’intégration à [!DNL Analytics], voir &quot;[Présentation de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 
@@ -110,15 +110,15 @@ Types de sites à bloquer en fonction du trafic frauduleux et des activités sus
 
 **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** Par défaut, bloque tout le trafic non valide à 100 %, y compris le trafic sur les appareils détournés, pour les nouveaux emplacements. Des frais supplémentaires peuvent s’appliquer.
 
-**[!UICONTROL Also block sites with]:** (Facultatif) Un niveau supplémentaire de fraude et de trafic non valide qui entraînera DSP bloquer les publicités par défaut :  *[!UICONTROL None]* (valeur par défaut, qui ne bloque pas le trafic supplémentaire), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]*, ou *[!UICONTROL >25% Average Fraud/IVT levels]*. Des frais supplémentaires peuvent s’appliquer.
+**[!UICONTROL Also block sites with]:** (Facultatif) Un niveau supplémentaire de fraude et de trafic non valide qui provoque DSP blocage des publicités par défaut :  *[!UICONTROL None]* (valeur par défaut, qui ne bloque pas le trafic supplémentaire), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]*, ou *[!UICONTROL >25% Average Fraud/IVT levels]*. Des frais supplémentaires peuvent s’appliquer.
 
 ##### [!UICONTROL Peer 39] {#peer-39-fraud}
 
-**[!UICONTROL Block sites that are]:** (Facultatif) Un ou plusieurs types de fraude qui entraîneront DSP bloquer les publicités par défaut : *[!UICONTROL Fraud]* (qui bloque tous les sites escroqués), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*, et/ou *[!UICONTROL Fraud: Zero Ads]*. Des frais supplémentaires peuvent s’appliquer.
+**[!UICONTROL Block sites that are]:** (Facultatif) Un ou plusieurs types de fraude qui DSP bloquer les publicités par défaut : *[!UICONTROL Fraud]* (qui bloque tous les sites escroqués), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*, et/ou *[!UICONTROL Fraud: Zero Ads]*. Des frais supplémentaires peuvent s’appliquer.
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 
-**[!UICONTROL Block sites that are]:** (Facultatif) Un type d’activité suspecte sur un site web ou une application qui DSP par défaut bloquer les publicités : *[!UICONTROL None]* (la valeur par défaut, qui ne bloque pas les publicités basées sur des activités suspectes), *[!UICONTROL Suspicious Activity - High Risk]*, ou *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Des frais supplémentaires peuvent s’appliquer.
+**[!UICONTROL Block sites that are]:** (Facultatif) Un type d’activité de site web ou d’application suspecte qui entraîne DSP bloquer les publicités par défaut : *[!UICONTROL None]* (la valeur par défaut, qui ne bloque pas les publicités basées sur des activités suspectes), *[!UICONTROL Suspicious Activity - High Risk]*, ou *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Des frais supplémentaires peuvent s’appliquer.
 
 #### [!UICONTROL Ads.text]
 

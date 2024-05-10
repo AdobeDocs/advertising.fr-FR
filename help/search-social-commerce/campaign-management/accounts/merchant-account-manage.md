@@ -3,9 +3,9 @@ title: Gestion des comptes de commerce
 description: Découvrez comment configurer et gérer les détails d’un compte de centre commercial.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: 35a27d075d5de7c3526cd6522376671954b608db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Rôles utilisateur du gestionnaire de compte de l’agence, du gestionnaire de compte d’Adobe et de l’administrateur uniquement*
 
-Search, Social et Commerce peuvent télécharger et afficher des données sur les produits chaque jour pour l’un des comptes Google Merchant Center ou Microsoft Merchant Center d’un annonceur. En outre, Search, Social et Commerce peut automatiser la création d’annonces en fonction du contenu du compte marchand. Pour travailler directement avec les données de produits dans Search, Social et Commerce, vous devez créer un enregistrement de compte correspondant contenant les informations d’identification d’accès au compte et avec accès. *enabled*.
+Search, Social et Commerce peut télécharger et afficher des données de produit chaque jour pour l’un des comptes Google Merchant Center ou Microsoft Merchant Center d’un annonceur. En outre, Search, Social et Commerce peut automatiser la création des publicités en fonction du contenu du compte marchand. Pour travailler directement avec les données de produit dans Search, Social et Commerce, vous devez créer un enregistrement de compte correspondant contenant les informations d’identification d’accès au compte et avec accès. *enabled*.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Pour afficher les données de produit et générer des modèles de suivi pour un
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
-   Les données d’attribut pour tous les produits du compte sont disponibles dans Search, Social et Commerce après le prochain processus de synchronisation quotidien (environ 06:00 dans le fuseau horaire local de l’utilisateur). Vous pouvez ensuite utiliser les données de produit pour automatiser la création d’annonces à l’aide de flux d’inventaire.
+   Les données d’attribut pour tous les produits du compte sont disponibles dans Search, Social et Commerce après le prochain processus de synchronisation quotidien (vers 6 h dans le fuseau horaire local de l’utilisateur). Vous pouvez ensuite utiliser les données de produit pour automatiser la création d’annonces à l’aide de flux d’inventaire.
 
 ## Modification des détails du compte commercial {#edit-merchant-account}
 
@@ -134,7 +134,7 @@ Lorsque vous désactivez un compte marchand, Search, Social et Commerce ne se co
 
 **[!UICONTROL Account ID]:** Identifiant du compte marchand. Si vous ne disposez que d’un seul compte avec les informations de connexion spécifiées, cette valeur est facultative.
 
-**[!UICONTROL Time Zone]:** Fuseau horaire de l’annonceur. Utilisez le même fuseau horaire configuré pour les informations de compte Search, Social et Commerce de l’annonceur (qui est défini lors de la création du compte). Vous ne pouvez pas modifier la valeur d’un compte existant.
+**[!UICONTROL Time Zone]:** Fuseau horaire de l’annonceur. Utilisez le même fuseau horaire configuré pour les informations de compte Search, Social et Commerce de l’annonceur (qui sont définies lors de la création du compte). Vous ne pouvez pas modifier la valeur d’un compte existant.
 
 >[!MORELIKETHIS]
 >

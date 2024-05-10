@@ -3,9 +3,9 @@ title: Organisation de l’interface utilisateur
 description: Découvrez où accéder à différentes fonctionnalités.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: de3c12275d5a6f05e52a8c080c26d93e837d9f71
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Le haut de chaque page comprend le menu principal et d’autres menus de tâches
 
 ## [!UICONTROL Search] menus
 
-Sous , [!UICONTROL Search] , vous verrez les sous-menus suivants. Les options disponibles sont déterminées par votre rôle :
+La variable [!UICONTROL Search] inclut les sous-menus suivants. Les options disponibles sont déterminées par votre rôle :
 
 * **[!UICONTROL Campaigns]** — Ce menu comprend des options d’affichage et de gestion des informations sur les comptes publicitaires et les campagnes que vous gérez ou dont vous effectuez le suivi. Selon le réseau publicitaire et votre rôle, vous pouvez créer et modifier des comptes, des campagnes et leurs composants. Vous pouvez également gérer les classifications d’étiquettes, que vous pouvez affecter à divers composants de compte.
 

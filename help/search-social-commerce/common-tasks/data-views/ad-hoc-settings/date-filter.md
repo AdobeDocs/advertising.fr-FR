@@ -1,11 +1,11 @@
 ---
 title: Filtrage des données par période
 description: Découvrez comment utiliser le filtre de période globale.
-exl-id: e67e843a-1a73-4ab1-9ef7-c97afeb999f6
+exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Le même filtre de période globale est appliqué à la plupart des vues de données de campagne, pour tous vos annonceurs, à l’exception des vues par défaut et personnalisées pour lesquelles vous avez enregistré des périodes spécifiques. La période par défaut du système pour les vues de gestion de campagne est &quot;Hier&quot;.
 
-Vos paramètres de période sont enregistrés dans un cookie spécifique au navigateur. Dès lors, toutes les modifications apportées au filtre de période sont utilisées pour tous vos annonceurs chaque fois que vous vous connectez à l’aide de la même application de navigateur, jusqu’à ce que vous modifiiez le filtre ou supprimiez le cookie. Chaque application de navigateur que vous utilisez stockera les paramètres de filtre de période dans un cookie différent.
+Vos paramètres de période sont enregistrés dans un cookie spécifique au navigateur. Dès lors, toutes les modifications apportées au filtre de période sont utilisées pour tous vos annonceurs chaque fois que vous vous connectez à l’aide de la même application de navigateur, jusqu’à ce que vous modifiiez le filtre ou supprimiez le cookie. Chaque application de navigateur que vous utilisez stocke les paramètres de filtre de période dans un cookie différent.
 
 Lorsque vous enregistrez une plage de dates spécifique pour une vue par défaut ou personnalisée, cette plage est appliquée chaque fois que vous appliquez la vue, quelle que soit l’application du navigateur que vous utilisez.
 

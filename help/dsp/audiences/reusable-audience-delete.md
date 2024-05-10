@@ -3,7 +3,7 @@ title: Suppression d’une audience réutilisable
 description: Découvrez comment supprimer une audience réutilisable.
 feature: DSP Audiences
 exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Vous pouvez supprimer une audience qui n’est utilisée dans aucun emplacement ou dans d’autres audiences réutilisables.
 
-Si une audience est actuellement utilisée, vous aurez la possibilité d’exporter une [!DNL Microsoft Excel] feuille de calcul présentant tous les emplacements et audiences qui utilisent l’audience.
+Si une audience est actuellement utilisée, vous avez la possibilité d’exporter une [!DNL Microsoft Excel] feuille de calcul présentant tous les emplacements et audiences qui utilisent l’audience.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
@@ -28,7 +28,7 @@ Si une audience est actuellement utilisée, vous aurez la possibilité d’expor
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion de l’audience](audience-about.md)
+>* [Gestion de l’audience](audience-about.md)
 >* [Création d’une audience réutilisable](reusable-audience-create.md)
 >* [Duplication d’une audience réutilisable](reusable-audience-duplicate.md)
 >* [Modification d’une audience réutilisable](reusable-audience-edit.md)
@@ -39,4 +39,3 @@ Si une audience est actuellement utilisée, vous aurez la possibilité d’expor
 >* [Paramètres d’audience](audience-settings.md)
 >* [Syntaxe de la logique de segment d’audience](audience-segment-logic-syntax.md)
 >* [Fournisseurs de données tiers disponibles](third-party-data-providers.md)
-

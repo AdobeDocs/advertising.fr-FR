@@ -3,9 +3,9 @@ title: Création et implémentation d’un segment personnalisé
 description: Découvrez comment créer et mettre en oeuvre un segment personnalisé pour effectuer le suivi des utilisateurs exposés aux publicités ou des utilisateurs qui visitent vos pages web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: fcce2b2ba7ab9717e83b05ddf8f22399f6b2e28e
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -59,13 +59,13 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
       La fenêtre par défaut est de 45 jours. Saisissez une valeur comprise entre 1 (1) et 365.
 
-   1. Cliquez sur **[!UICONTROL Advanced]** pour développer les paramètres avancés, puis sélectionnez les types d’identifiants d’utilisateur dont la balise de segment va effectuer le suivi :
+   1. Cliquez sur **[!UICONTROL Advanced]** pour développer les paramètres avancés, puis sélectionnez les types d’identifiants utilisateur suivis par la balise de segment :
 
       * *[!UICONTROL Cookies]:* (Par défaut) La balise de segment effectue le suivi des cookies.
 
       * [!UICONTROL Universal IDs (Beta)]:
 
-         * *[!UICONTROL ID5]:* La balise de segment est suivie. [!DNL ID5] ID. Les impressions diffusées aux identifiants universels n’engendrent aucuns frais.
+         * *[!UICONTROL ID5]:* La balise de segment effectue le suivi [!DNL ID5] ID. Les impressions diffusées aux identifiants universels n’engendrent aucuns frais.
 
         **[!UICONTROL Terms of Service]:** Les conditions d’utilisation des identifiants universels. Vous ou un autre utilisateur du compte DSP devez accepter les termes une fois avant de pouvoir utiliser des identifiants universels pour un nouveau type d’identifiant. Pour les clients disposant de contrats de service géré, votre équipe de compte d’Adobe obtiendra votre consentement et acceptera les conditions pour le compte de votre organisation. Pour lire les termes, cliquez sur **>**. Pour accepter les termes, faites défiler l’écran jusqu’au bas des termes et cliquez sur **[!UICONTROL Accept]**.
 

@@ -3,9 +3,9 @@ title: Paramètres des rapports personnalisés
 description: Reportez-vous à la description des paramètres de rapport personnalisés.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -122,10 +122,10 @@ Voir &quot;[Colonnes de rapport disponibles](report-columns.md)&quot; pour des d
 
 **[!UICONTROL Destination Type]:** Sélectionnez l’un des types de destinations suivants :
 
-* *[!UICONTROL S3]:* Pour envoyer le rapport terminé à un ou plusieurs [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]), que vous préciserez dans la variable **[!UICONTROL Destination Name]** champ .
-* *[!UICONTROL sFTP]:* Pour envoyer le rapport terminé à un ou plusieurs emplacements SFTP, que vous indiquez dans la variable **[!UICONTROL Destination Name]** champ .
-* *[!UICONTROL FTP]:* Pour envoyer le rapport terminé à un ou plusieurs emplacements FTP, que vous indiquez dans la variable **[!UICONTROL Destination Name]** champ .
-* *[!UICONTROL FTP SSL](Actuellement en version bêta) :* Pour envoyer le rapport terminé à un ou plusieurs emplacements SSL FTP, que vous indiquez dans la variable **[!UICONTROL Destination Name]** champ .
+* *[!UICONTROL S3]:* Pour envoyer le rapport terminé à un ou plusieurs [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]), que vous devez spécifier dans la variable **[!UICONTROL Destination Name]** champ .
+* *[!UICONTROL sFTP]:* Pour envoyer le rapport terminé à un ou plusieurs emplacements SFTP, que vous devez spécifier dans la variable **[!UICONTROL Destination Name]** champ .
+* *[!UICONTROL FTP]:* Pour envoyer le rapport terminé à un ou plusieurs emplacements FTP, que vous devez indiquer dans la variable **[!UICONTROL Destination Name]** champ .
+* *[!UICONTROL FTP SSL](Actuellement en version bêta) :* Pour envoyer le rapport terminé à un ou plusieurs emplacements SSL FTP, que vous devez spécifier dans la variable **[!UICONTROL Destination Name]** champ .
 * *[!UICONTROL Email]:* Pour indiquer la ou les adresses électroniques auxquelles envoyer les rapports ou notifications terminés si le rapport est annulé en raison d’erreurs.
 
 >[!NOTE]

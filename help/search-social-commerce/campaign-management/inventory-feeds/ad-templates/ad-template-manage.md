@@ -1,11 +1,11 @@
 ---
 title: Gestion des modèles d’annonces pour les flux d’inventaire
 description: Découvrez la gestion des modèles d’annonces grâce auxquels vos données d’inventaire peuvent être traitées pour gérer la structure du compte et diffuser des publicités dynamiques.
-exl-id: b26fc32a-76bc-470a-8ce5-fbaad4b3ca71
+exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ En plus de créer de nouveaux modèles à partir de zéro, vous pouvez éventuel
 
 Une fois que vous avez créé un modèle et que vous l’avez associé à un fichier de flux de données ou à un compte de centre commercial, vous pouvez propager les données du fichier par le biais du modèle afin de créer des données de campagne et une structure de compte, créant éventuellement un fichier de feuille d’envoi groupé à des fins de révision ou de publication immédiate sur le réseau publicitaire.
 
-Tout modèle peut être activé, mis en pause ou supprimé. Les données de flux ne peuvent être propagées automatiquement que par le biais de principaux modèles. Vous pouvez toutefois propager manuellement les données par le biais d’un modèle suspendu.
+Tout modèle peut être activé, mis en pause ou supprimé. Les données de flux ne peuvent être propagées automatiquement que par le biais de modèles actifs. Vous pouvez toutefois propager manuellement les données par le biais d’un modèle suspendu.
 
 ## Créer, cloner ou modifier un modèle de flux
 
@@ -86,7 +86,7 @@ Créez des modèles distincts pour les annonces textuelles étendues/étendues, 
             >[!NOTE]
             >
             >* Si la variable [!UICONTROL Prefill] est sélectionnée, puis les champs alternatifs sont préremplis avec les champs originaux et vous pouvez les modifier si nécessaire.
-            >* Seuls les champs de copie de publicité qui dépassent la longueur maximale sont remplacés par la valeur alternative. Par exemple, si seul un titre ou un titre d’origine est trop long, la variation de publicité générée utilise le titre ou titre de remplacement et la ou les descriptions d’origine. Par conséquent, assurez-vous que l’autre copie de publicité a un sens lorsqu’elle est combinée avec la copie de publicité d’origine.
+            >* Seuls les champs de copie de publicité qui dépassent la longueur maximale sont remplacés par la valeur alternative. Par exemple, si seul un titre ou un titre d’origine est trop long, la variation de publicité générée utilise le titre ou titre de remplacement et la ou les descriptions d’origine. Par conséquent, assurez-vous que l’autre copie de publicité est logique lorsqu’elle est combinée à la copie de publicité d’origine.
             >* Si la copie de publicité d’origine répond aux exigences de longueur du moteur de recherche, la copie de publicité alternative est ignorée.
             >* Vous pouvez spécifier jusqu’à quatre champs de remplacement pour chaque champ de copie de publicité.
 
@@ -103,7 +103,7 @@ Créez des modèles distincts pour les annonces textuelles étendues/étendues, 
                >[!NOTE]
                >
                >* Si la variable [!UICONTROL Prefill] est sélectionnée, puis les champs alternatifs sont préremplis avec les champs originaux et vous pouvez les modifier si nécessaire.
-               >* Seuls les champs de copie de publicité qui dépassent la longueur maximale sont remplacés par la valeur alternative. Par exemple, si seul un titre ou un titre d’origine est trop long, la variation de publicité générée utilise le titre ou titre de remplacement et la ou les descriptions d’origine. Par conséquent, assurez-vous que l’autre copie de publicité a un sens lorsqu’elle est combinée avec la copie de publicité d’origine.
+               >* Seuls les champs de copie de publicité qui dépassent la longueur maximale sont remplacés par la valeur alternative. Par exemple, si seul un titre ou un titre d’origine est trop long, la variation de publicité générée utilise le titre ou titre de remplacement et la ou les descriptions d’origine. Par conséquent, assurez-vous que l’autre copie de publicité est logique lorsqu’elle est combinée à la copie de publicité d’origine.
                >* Si la copie de publicité d’origine répond aux exigences de longueur du moteur de recherche, la copie de publicité alternative est ignorée.
                >* Vous pouvez spécifier jusqu’à quatre champs de remplacement pour chaque champ de copie de publicité.
 
@@ -131,7 +131,7 @@ Créez des modèles distincts pour les annonces textuelles étendues/étendues, 
 
 ## Modifier l’état des modèles de flux
 
-Vous pouvez activer n’importe quel modèle de flux de données suspendu ou suspendre tout modèle de flux de données principal.
+Vous pouvez activer n’importe quel modèle de flux de données suspendu ou suspendre tout modèle de flux de données actif.
 
 >[!NOTE]
 >
