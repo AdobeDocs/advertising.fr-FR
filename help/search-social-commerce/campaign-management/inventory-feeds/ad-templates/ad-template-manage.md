@@ -3,7 +3,7 @@ title: Gestion des modèles d’annonces pour les flux d’inventaire
 description: Découvrez la gestion des modèles d’annonces grâce auxquels vos données d’inventaire peuvent être traitées pour gérer la structure du compte et diffuser des publicités dynamiques.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Gestion des modèles d’annonces pour les flux d’inventaire
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
 
-Avant ou après le chargement des données, vous pouvez créer des modèles d’annonces spécifiques au moteur de recherche par le biais desquels vos données peuvent être traitées. Vous pouvez créer des modèles pour les annonces textuelles et les annonces textuelles étendues, [!DNL Google Ads] et [!DNL Microsoft® Advertising] annonces de recherche réactive et pour [!DNL Google Ads] et [!DNL Microsoft® Advertising] publicités commerciales.
+Avant ou après le chargement des données, vous pouvez créer des modèles d’annonces spécifiques au moteur de recherche par le biais desquels vos données peuvent être traitées. Vous pouvez créer des modèles pour les annonces textuelles et les annonces textuelles étendues, [!DNL Google Ads] et [!DNL Microsoft Advertising] annonces de recherche réactive et pour [!DNL Google Ads] et [!DNL Microsoft Advertising] publicités commerciales.
 
-Vous pouvez associer chaque modèle à un fichier de flux, [!DNL Google Merchant Center] compte ou [!DNL Microsoft® Merchant Center] et vous pouvez associer plusieurs modèles au même fichier ou compte de flux. Un modèle d’annonce peut inclure des variables qui sont remplacées par des colonnes de données réelles provenant d’un fichier chargé ou d’un compte. Dans la plupart des cas, les variables peuvent également inclure [un groupe de modificateurs ;](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) Configurez dans Search, Social et Commerce pour créer plusieurs publicités, mots-clés, campagnes ou groupes d’annonces pour chaque ligne du fichier de données. Les options de modèle vous permettent de créer une nouvelle structure de compte (campagnes, groupes publicitaires, mots-clés) pour les publicités ou de les mapper à la structure de compte existante.
+Vous pouvez associer chaque modèle à un fichier de flux, [!DNL Google Merchant Center] compte ou [!DNL Microsoft Merchant Center] et vous pouvez associer plusieurs modèles au même fichier ou compte de flux. Un modèle d’annonce peut inclure des variables qui sont remplacées par des colonnes de données réelles provenant d’un fichier chargé ou d’un compte. Dans la plupart des cas, les variables peuvent également inclure [un groupe de modificateurs ;](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) Configurez dans Search, Social et Commerce pour créer plusieurs publicités, mots-clés, campagnes ou groupes d’annonces pour chaque ligne du fichier de données. Les options de modèle vous permettent de créer une nouvelle structure de compte (campagnes, groupes publicitaires, mots-clés) pour les publicités ou de les mapper à la structure de compte existante.
 
 En plus de créer de nouveaux modèles à partir de zéro, vous pouvez éventuellement créer de nouveaux modèles en clonant des modèles existants et en éditant des modèles existants.
 
@@ -26,7 +26,7 @@ Tout modèle peut être activé, mis en pause ou supprimé. Les données de flux
 
 ## Créer, cloner ou modifier un modèle de flux
 
-Créez des modèles distincts pour les annonces textuelles étendues/étendues, les annonces de recherche réactive, [!DNL Google Ads] publicités commerciales et [!DNL Microsoft® Advertising] publicités commerciales.
+Créez des modèles distincts pour les annonces textuelles étendues/étendues, les annonces de recherche réactive, [!DNL Google Ads] publicités commerciales et [!DNL Microsoft Advertising] publicités commerciales.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, qui s’ouvre sur le [!UICONTROL Templates] .
 
@@ -42,7 +42,7 @@ Créez des modèles distincts pour les annonces textuelles étendues/étendues, 
 
    * (Pour modifier un modèle existant) En regard du nom du modèle, cliquez sur ![Afficher/modifier les paramètres](/help/search-social-commerce/assets/settings.png "Afficher/modifier les paramètres").
 
-1. Spécifiez les paramètres de la variable [modèle de publicité texte](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] modèle d&#39;annonce de shopping](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md), ou [[!DNL Microsoft® Advertising] modèle d&#39;annonce de shopping](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
+1. Spécifiez les paramètres de la variable [modèle de publicité texte](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] modèle d&#39;annonce de shopping](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md), ou [[!DNL Microsoft Advertising] modèle d&#39;annonce de shopping](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
    1. Dans la partie supérieure de la fenêtre des paramètres du modèle, indiquez le nom du modèle et le compte approprié.
 
@@ -158,5 +158,5 @@ Vous pouvez activer n’importe quel modèle de flux de données suspendu ou sus
 >* [A propos de l’automatisation de la gestion des publicités à l’aide des flux d’inventaire](../inventory-feeds-about.md)
 >* [Paramètres de modèle de publicité textuelle et de recherche réactive](template-text-rsa.md)
 >* [[!DNL Google Ads] achats et paramètres du modèle de publicité](template-google-shopping.md)
->* [[!DNL Microsoft® Advertising] achats et paramètres du modèle de publicité](template-microsoft-shopping.md)
+>* [[!DNL Microsoft Advertising] achats et paramètres du modèle de publicité](template-microsoft-shopping.md)
 >* [Propager les données de flux par le biais de modèles](../feed-data-propagate.md)

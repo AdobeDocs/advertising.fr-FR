@@ -1,18 +1,18 @@
 ---
 title: Gestion des exclusions d’audience pour les campagnes et les groupes publicitaires
-description: Découvrez comment configurer et gérer les exclusions d’audience pour vos [!DNL Google Ads] et [!DNL Microsoft® Advertising] campagnes et groupes publicitaires.
+description: Découvrez comment configurer et gérer les exclusions d’audience pour vos [!DNL Google Ads] et [!DNL Microsoft Advertising] campagnes et groupes publicitaires.
 exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
-# Gestion des exclusions d’audience pour votre [!DNL Google Ads] et [!DNL Microsoft® Advertising] campagnes et groupes publicitaires
+# Gestion des exclusions d’audience pour votre [!DNL Google Ads] et [!DNL Microsoft Advertising] campagnes et groupes publicitaires
 
-*[!DNL Google Ads]et [!DNL Microsoft® Advertising] only*
+*[!DNL Google Ads]et [!DNL Microsoft Advertising] only*
 
 Vous pouvez exclure des audiences spécifiques en tant que cibles pour des groupes publicitaires et des campagnes spécifiques. L’exclusion d’une audience permet de s’assurer que ces personnes ne reçoivent pas de publicités dans les groupes publicitaires et les campagnes spécifiés.
 

@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] paramètres du groupe publicitaire'
-description: Référencez les paramètres pour [!DNL Microsoft® Advertising] groupes publicitaires.
+title: '''[!DNL Microsoft Advertising] paramètres du groupe publicitaire'
+description: Référencez les paramètres pour [!DNL Microsoft Advertising] groupes publicitaires.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] paramètres du groupe publicitaire
+# [!DNL Microsoft Advertising] paramètres du groupe publicitaire
 
 ## [!UICONTROL Adgroup Details]
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]:** (Rechercher des publicités) Comment et où placer des publicités dans le groupe publicitaire :
 
-* *[!UICONTROL Only Microsoft® Advertising and Yahoo! websites]* (valeur par défaut) : pour enchérir sur le réseau de recherche.
+* *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* (valeur par défaut) : pour enchérir sur le réseau de recherche.
 
-* *[!UICONTROL Only Microsoft® Advertising and Yahoo! syndicated search partners]:* Pour lancer des offres publicitaires sur des sites partenaires syndiqués.
+* *[!UICONTROL Only Microsoft Advertising and Yahoo! syndicated search partners]:* Pour lancer des offres publicitaires sur des sites partenaires syndiqués.
 
 * *[!UICONTROL Content network]:* Obsolète
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/location-targets.md}}
 
-Pour [!DNL Microsoft® Advertising] groupes publicitaires du réseau d’audience, les modificateurs d’offre pour les cibles de localisation ne sont pas optimisés dans les portefeuilles standard avec le paramètre &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
+Pour [!DNL Microsoft Advertising] groupes publicitaires du réseau d’audience, les modificateurs d’offre pour les cibles de localisation ne sont pas optimisés dans les portefeuilles standard avec le paramètre &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
 
 **[!UICONTROL Genre]:** (Groupes publicitaires dans [!UICONTROL Audience CTV Video] ; disponible aux États-Unis, CA, BR, MX, UK, DE, ES, FR, IT, AU, MY et TH<!-- Should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->) Les genres cibles, qui déterminent les programmes et les canaux sur lesquels vos publicités apparaissent :
 
@@ -130,7 +130,7 @@ Le placement de la publicité télévisée (CTV) dépend de la qualité vidéo e
 
 **[!UICONTROL Negative Websites]:** (Campagnes sur le réseau d’affichage/natif uniquement ; facultatif) Sites sur le réseau d’affichage sur lequel vous ne souhaitez pas que vos publicités s’affichent. Saisissez une URL valide, telle que www.example.com. Pour spécifier plusieurs chaînes, séparez-les par des virgules ou saisissez-les sur des lignes distinctes.
 
-Pour plus d’informations sur la disponibilité, voir [!DNL Microsoft® Advertising] help to &quot;[Empêcher l’affichage des publicités sur des sites web spécifiques](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+Pour plus d’informations sur la disponibilité, voir [!DNL Microsoft Advertising] help to &quot;[Empêcher l’affichage des publicités sur des sites web spécifiques](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 >[!MORELIKETHIS]
 >

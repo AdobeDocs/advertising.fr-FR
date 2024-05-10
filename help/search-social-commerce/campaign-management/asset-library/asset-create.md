@@ -1,18 +1,18 @@
 ---
 title: Création et chargement de ressources
-description: Découvrez comment créer des ressources d’image, vidéo et texte réutilisables et les télécharger dans votre [!DNL Google Ads] et [!DNL Microsoft® Advertising] bibliothèques de ressources au niveau du compte.
+description: Découvrez comment créer des ressources d’image, vidéo et texte réutilisables et les télécharger dans votre [!DNL Google Ads] et [!DNL Microsoft Advertising] bibliothèques de ressources au niveau du compte.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: 68c082131378974bf95534050b8ddf2db0ae394b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
 # Création et chargement de ressources
 
-*Pour [!DNL Google Ads] et [!DNL Microsoft® Advertising] comptes uniquement*
+*Pour [!DNL Google Ads] et [!DNL Microsoft Advertising] comptes uniquement*
 
 *Fonctionnalité bêta ouverte*
 

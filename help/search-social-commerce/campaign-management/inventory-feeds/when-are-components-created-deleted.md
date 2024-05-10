@@ -1,18 +1,18 @@
 ---
 title: Quand les composants de compte sont-ils créés ou supprimés par les flux de stock ?
 description: Découvrez les situations dans lesquelles créer et supprimer des composants de compte lorsque vous publiez des flux d’inventaire.
-exl-id: 93b31996-15dd-4215-ae9d-39327910f712
+exl-id: 39a3cc2c-f956-4a89-a69d-687a27a38a1e
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
 
 # Quand les composants de compte sont-ils créés ou supprimés par les flux de stock ?
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
 
 Lorsqu’un fichier de flux d’inventaire est propagé par un modèle, les composants de compte sont créés et supprimés comme suit.
 
@@ -23,9 +23,9 @@ Lorsqu’un fichier de flux d’inventaire est propagé par un modèle, les comp
 | Scénario | Exemple | Action |
 |----|----|----|
 | Les données de flux incluent une nouvelle valeur pour une colonne utilisée dans le nom d’une campagne, le nom du groupe publicitaire, le mot-clé ou le groupe de produits. | Fichiers précédents :<br>Campaign=Hats<br>Campaign=Gants<br><br>Nouveau fichier :<br>Campaign=Shoes | Une nouvelle campagne, un nouveau groupe publicitaire, un nouveau mot-clé ou un nouveau groupe de produits est créé s’il n’existe pas sur le réseau publicitaire. |
-| Les données de flux contiennent une nouvelle valeur pour une colonne utilisée dans une publicité. | Fichier précédent : une publicité avec prix=20 inclus<br><br>Nouveau fichier : pour la même publicité, price=10 | Lorsque la copie de la publicité pour [!DNL Microsoft® Advertising] publicités textuelles étendues, [!DNL Yahoo! Japan ads], ou [!DNL Yandex] les publicités sont modifiées, la publicité existante est supprimée et une nouvelle est créée.<br><br>Lorsque la copie de la publicité est modifiée pour d’autres types de publicité ou lorsque la colonne applicable est utilisée pour une [!DNL Google Ads] paramètre publicitaire ({param1} ou {param2}) dans une publicité, la publicité existante est mise à jour. |
+| Les données de flux contiennent une nouvelle valeur pour une colonne utilisée dans une publicité. | Fichier précédent : une publicité avec prix=20 inclus<br><br>Nouveau fichier : pour la même publicité, price=10 | Lorsque la copie de la publicité pour [!DNL Microsoft Advertising] publicités textuelles étendues, [!DNL Yahoo! Japan ads], ou [!DNL Yandex] les publicités sont modifiées, la publicité existante est supprimée et une nouvelle est créée.<br><br>Lorsque la copie de la publicité est modifiée pour d’autres types de publicité ou lorsque la colonne applicable est utilisée pour une [!DNL Google Ads] paramètre publicitaire ({param1} ou {param2}) dans une publicité, la publicité existante est mise à jour. |
 | Les paramètres du modèle pour la campagne, le groupe publicitaire, le mot-clé ou le groupe de produits ont changé depuis la dernière propagation. | Paramètre précédent : Mot-clé=[Mot-clé]<br><br>Nouveau paramètre : Mot-clé=&lt;color>[Mot-clé] | Une nouvelle campagne, un nouveau groupe publicitaire, un nouveau mot-clé ou un nouveau groupe de produits est créé s’il n’existe pas sur le réseau publicitaire. |
-| Les paramètres du modèle d’une publicité ont changé depuis la dernière propagation. | Paramètre précédent : description de la publicité=&quot;Acheter [category] maintenant.&quot;<br><br>Nouveau paramètre : Description de la publicité=&quot;Acheter [marque] maintenant.&quot; | Lorsque la copie de la publicité pour [!DNL Microsoft® Advertising] publicités textuelles étendues, [!DNL Yahoo! Japan ads], ou [!DNL Yandex] les publicités sont modifiées, la publicité existante est supprimée et une nouvelle est créée.<br><br>Lorsque la copie de la publicité est modifiée pour d’autres types de publicité ou lorsque la modification reflète une modification dans la colonne utilisée pour un seul type [!DNL Google Ads] paramètre publicitaire ({param1} ou {param2}) dans une publicité, la publicité existante est mise à jour. |
+| Les paramètres du modèle d’une publicité ont changé depuis la dernière propagation. | Paramètre précédent : description de la publicité=&quot;Acheter [category] maintenant.&quot;<br><br>Nouveau paramètre : Description de la publicité=&quot;Acheter [marque] maintenant.&quot; | Lorsque la copie de la publicité pour [!DNL Microsoft Advertising] publicités textuelles étendues, [!DNL Yahoo! Japan ads], ou [!DNL Yandex] les publicités sont modifiées, la publicité existante est supprimée et une nouvelle est créée.<br><br>Lorsque la copie de la publicité est modifiée pour d’autres types de publicité ou lorsque la modification reflète une modification dans la colonne utilisée pour un seul type [!DNL Google Ads] paramètre publicitaire ({param1} ou {param2}) dans une publicité, la publicité existante est mise à jour. |
 | Les nouvelles données de flux n’incluent pas de ligne pour une campagne ou un groupe publicitaire existant. | n/a | Les campagnes et groupes publicitaires existants restent inchangés. |
 | Les nouvelles données de flux n’incluent pas de ligne pour un groupe publicitaire, une publicité, un mot-clé ou un groupe de produits existant. | n/a | Le groupe publicitaire, la publicité, le mot-clé ou le groupe de produits existant reste en l’état, est suspendu ou est supprimé, selon les [paramètres de données de flux](feed-settings-manage.md#feed-data-settings). |
 | Les nouvelles données de flux pour un groupe de produits parent existant n’incluent pas de lignes pour ses groupes de produits enfants existants. | n/a | Le groupe de produits parent existant reste tel quel ou est supprimé, selon la variable [paramètres de données de flux](feed-settings-manage.md#feed-data-settings). <b>Remarque :</b> Si les paramètres de données de flux sont configurés pour suspendre les éléments de ligne manquants, le groupe de produits parent est toujours supprimé car vous ne pouvez pas suspendre les groupes de produits. |

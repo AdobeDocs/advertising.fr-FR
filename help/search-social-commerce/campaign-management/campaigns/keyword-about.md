@@ -3,7 +3,7 @@ title: A propos des mots-clés
 description: Découvrez les options pour les mots-clés "bidable" et "négatif".
 exl-id: d94c6f3f-0ea3-4792-8a6d-78f3a2af80e8
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # A propos des mots-clés
 
-*[!DNL Google Ads]et [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], et existants [!DNL Baidu] comptes uniquement*
+*[!DNL Google Ads]et [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], et existants [!DNL Baidu] comptes uniquement*
 
 Un mot-clé est un mot ou une expression associé à une publicité. Les paramètres de mot-clé comprennent le type de correspondance de mot-clé, les offres maximales à utiliser lorsque votre publicité est déclenchée par le mot-clé et les paramètres de suivi facultatifs (certains réseaux publicitaires). Les paramètres au niveau du mot-clé remplacent les paramètres du groupe publicitaire ou de la campagne.
 

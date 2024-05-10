@@ -3,7 +3,7 @@ title: Questions fréquentes sur les campagnes
 description: Reportez-vous aux réponses aux questions concernant la gestion de campagne et les vues de données de campagne.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 295d576cff59f1313a317473db6e5f271d55e7da
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -38,11 +38,11 @@ Le mot-clé ou la publicité existante est supprimé et un autre est créé lors
 
 * ([!DNL Baidu], [!DNL Google Ads], et [!DNL Yandex]) Vous modifiez un nom de mot-clé.
 
-* ([!DNL Google Ads], [!DNL Microsoft® Advertising], et [!DNL Yandex]) Vous modifiez le type de correspondance d’un mot-clé.
+* ([!DNL Google Ads], [!DNL Microsoft Advertising], et [!DNL Yandex]) Vous modifiez le type de correspondance d’un mot-clé.
 
 * Vous déplacez un mot-clé entre les groupes publicitaires.
 
-* ([!DNL Google Ads] annonces de recherche dynamique, [!DNL Microsoft® Advertising] publicités textuelles étendues et tous les types d’annonces sur d’autres réseaux publicitaires pris en charge) Vous modifiez une copie de publicité (titre/titre ou description) ou une image publicitaire.
+* ([!DNL Google Ads] annonces de recherche dynamique, [!DNL Microsoft Advertising] publicités textuelles étendues et tous les types d’annonces sur d’autres réseaux publicitaires pris en charge) Vous modifiez une copie de publicité (titre/titre ou description) ou une image publicitaire.
 
 * Vous déplacez une publicité entre les groupes publicitaires.
 
@@ -109,24 +109,24 @@ Dans le [!UICONTROL Campaigns] dans les deux [!UICONTROL Search] > [!UICONTROL C
 
 +++Quelle est la différence entre un modèle de suivi et un suffixe de landing page ?
 
-Utilisez un suffixe de page d’entrée uniquement pour les réseaux publicitaires qui prennent en charge le suivi parallèle. Dans Search, Social et Commerce, les modèles de suivi et les suffixes de page d’entrée doivent inclure un identifiant de clic du réseau publicitaire, mais les modèles de suivi incluent des paramètres de suivi supplémentaires.
+Utilisez un suffixe de page d’entrée uniquement pour les réseaux publicitaires qui prennent en charge le suivi parallèle. Dans Search, Social et Commerce, les modèles de suivi et les suffixes de page d’entrée doivent inclure un identifiant de clic provenant du réseau publicitaire, mais les modèles de suivi incluent des paramètres de suivi supplémentaires.
 
 Consultez la prochaine FAQ sur [prise en charge du suivi parallèle](#parallel-tracking) pour plus d’informations sur le chargement des modèles de suivi et des suffixes de page d’entrée lorsqu’un utilisateur clique sur une publicité.
 
 +++
 
-+++([!DNL Google Ads] et [!DNL Microsoft® Advertising]) Search, Social et Commerce prennent-ils en charge le suivi parallèle des publicités dans [!DNL Google Ads] ou [!DNL Microsoft® Advertising]? {#parallel-tracking}
++++([!DNL Google Ads] et [!DNL Microsoft Advertising]) Search, Social et Commerce prennent-ils en charge le suivi parallèle des publicités dans [!DNL Google Ads] ou [!DNL Microsoft Advertising]? {#parallel-tracking}
 
 Le suivi parallèle envoie directement les clients de votre publicité à votre URL finale, qui peut inclure des paramètres ajoutés à un suffixe d’URL final ou &quot;suffixe de page d’entrée&quot;. L’URL de votre modèle de suivi (avec des paramètres supplémentaires pour la mesure des clics) est chargée séparément en arrière-plan. Par conséquent, votre landing page est chargée plus rapidement.
 
-Search, Social et Commerce prend en charge le suivi parallèle des campagnes de recherche et d’achat à l’aide de l’identifiant de clic du réseau publicitaire (`msclkid` pour [!DNL Microsoft® Advertising]; `gclid` pour [!DNL Google Ads]). Utilisez une [niveau compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) ou [niveau de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (appelé &quot;[!DNL final URL suffix]&quot; dans les réseaux publicitaires), qui est ajouté aux URL des pages d’entrée pour effectuer le suivi des clics sur les annonces enfants à partir des navigateurs qui prennent en charge le suivi parallèle. Voir [formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et [formats de suffixes requis pour [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Search, Social et Commerce prend en charge le suivi parallèle des campagnes de recherche et d’achat à l’aide de l’identifiant de clic du réseau publicitaire (`msclkid` pour [!DNL Microsoft Advertising]; `gclid` pour [!DNL Google Ads]). Utilisez une [niveau compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) ou [niveau de campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (appelé &quot;[!DNL final URL suffix]&quot; dans les réseaux publicitaires), qui est ajouté aux URL des pages d’entrée pour effectuer le suivi des clics sur les annonces enfants à partir des navigateurs qui prennent en charge le suivi parallèle. Voir [formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et [formats de suffixes requis pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
-Lorsqu&#39;un utilisateur consulte votre publicité sur un navigateur qui ne prend pas en charge le suivi parallèle, le réseau publicitaire utilise à la place le suivi séquentiel : les clients sont d&#39;abord envoyés à l&#39;URL de votre modèle de suivi, ce qui peut rediriger les clients vers les serveurs de suivi intermédiaires avant de les rediriger vers l&#39;URL finale (qui peut inclure des paramètres supplémentaires dans un suffixe de page d&#39;entrée). Tous les modèles de suivi pour un compte de réseau publicitaire doivent inclure le même paramètre d’identifiant de clic que celui utilisé dans la variable [!UICONTROL Landing Page Suffix]. Voir [Formats de modèle de suivi pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et la variable [Formats de modèle de suivi pour [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Lorsqu&#39;un utilisateur consulte votre publicité sur un navigateur qui ne prend pas en charge le suivi parallèle, le réseau publicitaire utilise à la place le suivi séquentiel : les clients sont d&#39;abord envoyés à l&#39;URL de votre modèle de suivi, ce qui peut rediriger les clients vers les serveurs de suivi intermédiaires avant de les rediriger vers l&#39;URL finale (qui peut inclure des paramètres supplémentaires dans un suffixe de page d&#39;entrée). Tous les modèles de suivi pour un compte de réseau publicitaire doivent inclure le même paramètre d’identifiant de clic que celui utilisé dans la variable [!UICONTROL Landing Page Suffix]. Voir [Formats de modèle de suivi pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et la variable [Formats de modèle de suivi pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++Pourquoi les URL de suivi de mes publicités incluent-elles &quot;`&EV_HASH={<hash>}`?&quot;
 
-Lorsque vous chargez des publicités à l’aide d’une [flux d’inventaire des produits](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) pour un compte avec la redirection de pixel Search, Social et Commerce et avec un suivi au niveau des mots-clés et des créations, alors Search, Social et Commerce ajoute le paramètre de hachage et la valeur au modèle de suivi de l’annonce ou à l’URL de destination pour identifier qu’elle a été créée à l’aide de la fonction de flux d’inventaire.
+Lorsque vous chargez des publicités à l’aide d’une [flux d’inventaire des produits](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) pour un compte avec la redirection de pixel Search, Social et Commerce et avec un suivi de niveau mots-clés et créatif, Search, Social et Commerce ajoute le paramètre de hachage et la valeur au modèle de suivi de l’annonce ou à l’URL de destination pour identifier qu’elle a été créée à l’aide de la fonction de flux d’inventaire.
 +++
 
 ## Flux de stock

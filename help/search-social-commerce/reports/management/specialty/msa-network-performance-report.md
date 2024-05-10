@@ -3,18 +3,18 @@ title: La variable [!UICONTROL MSA Network Performance Report]
 description: En savoir plus sur les [!UICONTROL MSA Network Performance Report].
 feature: Search Reports, Search Specialty Reports
 exl-id: da2b85e9-5e78-4a1c-9268-8686f025e80c
-source-git-commit: 22fd10dec43c43c6f03860e6e4839a8bb8d56017
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
 # La variable [!UICONTROL MSA Network Performance Report]
 
-*[!DNL Microsoft® Advertising]comptes uniquement*
+*[!DNL Microsoft Advertising]comptes uniquement*
 
-Ce rapport présente les performances au niveau de la campagne (coût, clics, impressions et [!DNL Microsoft® Advertising]- recettes suivies) par distribution de publicités (recherche ou audience) pour spécifié [!DNL Microsoft® Advertising] comptes.
+Ce rapport présente les performances au niveau de la campagne (coût, clics, impressions et [!DNL Microsoft Advertising]- recettes suivies) par distribution de publicités (recherche ou audience) pour spécifié [!DNL Microsoft Advertising] comptes.
 
 Lorsque vous exécutez un rapport avec uniquement des colonnes de mesures et sans dimensions, le rapport généré contient deux lignes dupliquées : l’une avec des données agrégées, l’autre avec toutes les mesures.
 

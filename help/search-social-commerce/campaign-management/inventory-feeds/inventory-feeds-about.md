@@ -1,28 +1,28 @@
 ---
 title: A propos de l’automatisation de la gestion des publicités à l’aide des flux d’inventaire
 description: Découvrez la gestion avancée des campagnes, qui vous permet de gérer automatiquement la structure du compte et de diffuser des publicités dynamiques en fonction des données de votre inventaire de produits ou de services.
-exl-id: 2cbf08ce-728e-4d5b-b0a4-01aa244a6e29
+exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # A propos de l’automatisation de la gestion des publicités à l’aide des flux d’inventaire
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
 
-La variable [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] la vue pour la gestion avancée des campagnes vous permet de créer et de mettre à jour automatiquement la structure de votre compte réseau publicitaire et de diffuser des publicités dynamiques en fonction des données de votre inventaire de produits ou de services. Vous pouvez charger de nouveaux fichiers avec des données de produit tous les jours ou aussi souvent que vous le souhaitez, ou créer directement un lien vers une [!DNL Google] ou [!DNL Microsoft®] compte du centre commercial. Utilisez la fonctionnalité pour :
+La variable [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] la vue pour la gestion avancée des campagnes vous permet de créer et de mettre à jour automatiquement la structure de votre compte réseau publicitaire et de diffuser des publicités dynamiques en fonction des données de votre inventaire de produits ou de services. Vous pouvez charger de nouveaux fichiers avec des données de produit tous les jours ou aussi souvent que vous le souhaitez, ou créer directement un lien vers une [!DNL Google] ou [!DNL Microsoft] compte du centre commercial. Utilisez la fonctionnalité pour :
 
 * Créez de nouvelles campagnes à partir de sources de données classées.
 
-* Mettre à jour dynamiquement le texte et les annonces responsives sur le Réseau de Recherche, [!DNL Google Ads] publicités commerciales, ou [!DNL Microsoft® Advertising] des publicités commerciales chaque fois que de nouvelles données sont traitées, à l’aide de variables dynamiques pour les éléments de données modifiables (tels que le prix ou la quantité). Chaque fois que vous modifiez les données, les publicités existantes sont supprimées et de nouvelles sont créées.
+* Mettre à jour dynamiquement le texte et les annonces responsives sur le Réseau de Recherche, [!DNL Google Ads] publicités commerciales, ou [!DNL Microsoft Advertising] des publicités commerciales chaque fois que de nouvelles données sont traitées, à l’aide de variables dynamiques pour les éléments de données modifiables (tels que le prix ou la quantité). Chaque fois que vous modifiez les données, les publicités existantes sont supprimées et de nouvelles sont créées.
 
 * Suspendre ou supprimer automatiquement des groupes publicitaires, des mots-clés et des publicités lorsque le stock chute en dessous d’un niveau spécifique, selon une date de fin spécifiée, ou lorsqu’un composant existant est omis des données de flux.
 
-Pour configurer vos publicités, créez des modèles de flux d’inventaire contenant des variables (espaces réservés), puis remplacez les variables par les colonnes de données réelles d’un fichier chargé ou d’un [Compte Google ou Microsoft® de centre commercial synchronisé](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). Les variables peuvent également inclure des groupes de modificateurs configurés dans un fichier ou des lignes individuelles du fichier pour créer plusieurs publicités, mots-clés, campagnes ou groupes d’annonces pour chaque ligne applicable du fichier de données. Par exemple, si vous utilisez une variable de groupe de modificateurs dans un titre de publicité, et que le groupe de modificateurs inclut deux modificateurs (&quot;pour économique&quot; et &quot;à remise&quot;), deux publicités distinctes sont créées pour chaque produit — une pour chaque modificateur. Pour [!DNL Google Ads] et [!DNL Microsoft® Advertising] annonces de recherche dynamique, vous pouvez également inclure des valeurs pour les personnalisateurs d’annonces.
+Pour configurer vos publicités, créez des modèles de flux d’inventaire contenant des variables (espaces réservés), puis remplacez les variables par les colonnes de données réelles d’un fichier chargé ou d’un [Compte Google ou Microsoft Merchant Center synchronisé](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). Les variables peuvent également inclure des groupes de modificateurs configurés dans un fichier ou des lignes individuelles du fichier pour créer plusieurs publicités, mots-clés, campagnes ou groupes d’annonces pour chaque ligne applicable du fichier de données. Par exemple, si vous utilisez une variable de groupe de modificateurs dans un titre de publicité, et que le groupe de modificateurs inclut deux modificateurs (&quot;pour économique&quot; et &quot;à remise&quot;), deux publicités distinctes sont créées pour chaque produit — une pour chaque modificateur. Pour [!DNL Google Ads] et [!DNL Microsoft Advertising] annonces de recherche dynamique, vous pouvez également inclure des valeurs pour les personnalisateurs d’annonces.
 
 | [!UICONTROL Ad Variation] Section du modèle | Modificateurs dans Search, Social et Commerce | Contenu du flux | Publicités résultantes |
 |----|----|----|----|
@@ -35,7 +35,7 @@ Une fois les publicités générées, vous pouvez éventuellement les vérifier,
 
 ## Workflow de gestion des données de campagne à l’aide de flux d’inventaire
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
 
 Testez d’abord au moins un fichier de flux ou un compte, puis automatisez entièrement le processus ou continuez à le contrôler à chaque étape :
 
@@ -49,7 +49,7 @@ Testez d’abord au moins un fichier de flux ou un compte, puis automatisez enti
 
    Si vous utilisez le protocole FTP, ne publiez pas automatiquement des données sur les réseaux publicitaires au début. Une fois que vous avez vérifié la sortie de votre premier fichier et que vous êtes satisfait des résultats, vous pouvez modifier les paramètres.
 
-1. Chargez un fichier de données dans le répertoire FTP, [charger manuellement un fichier de données](feed-files-manage.md) dans le [!UICONTROL Advanced (ACM) view], ou [activer l’accès à un compte Google ou Microsoft® de centre commercial ;](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. Chargez un fichier de données dans le répertoire FTP, [charger manuellement un fichier de données](feed-files-manage.md) dans le [!UICONTROL Advanced (ACM) view], ou [activer l’accès à un compte Google ou Microsoft Merchant Center ;](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 Pour charger manuellement des fichiers, vous pouvez attendre de créer un modèle qui utilise le fichier de données.
 

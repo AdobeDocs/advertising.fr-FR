@@ -1,11 +1,11 @@
 ---
 title: Téléchargement de données à partir d’une vue de gestion de campagne
 description: Découvrez comment télécharger des données à partir de la plupart des vues de gestion de campagne.
-exl-id: 0bbb02df-2ee0-4610-b60a-ca2b58daadbb
+exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Vous pouvez télécharger des données à partir de la variable [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] sauf pour les [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences], et [!UICONTROL Extensions] vues. Vous pouvez télécharger l’un des éléments suivants :
 
-* Un rapport dans [!DNL XLSM] (prenant en charge les macros [!DNL Microsoft® Excel] format (feuille de calcul). Si vous sélectionnez des lignes spécifiques dans la vue, le rapport inclut alors une ligne pour chaque ligne sélectionnée. Si vous ne sélectionnez aucune ligne, une ligne est créée pour chaque ligne de la vue.
+* Un rapport dans [!DNL XLSM] (prenant en charge les macros [!DNL Microsoft Excel] format (feuille de calcul). Si vous sélectionnez des lignes spécifiques dans la vue, le rapport inclut alors une ligne pour chaque ligne sélectionnée. Si vous ne sélectionnez aucune ligne, une ligne est créée pour chaque ligne de la vue.
 
 * Fichier de feuille d’envoi groupé au format TXT qui comprend toutes les entités enfants pertinentes. Si vous sélectionnez des lignes pour des entités sur plusieurs réseaux publicitaires, un fichier est créé pour chaque réseau publicitaire approprié. Si vous ne sélectionnez aucune ligne, un fichier est créé pour chaque réseau publicitaire représenté dans la vue. Les fichiers de feuilles d’envoi groupé générés pour différents réseaux publicitaires incluent différentes colonnes de données.
 

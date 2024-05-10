@@ -2,8 +2,8 @@
 title: Modification des mesures de conversion disponibles dans les vues de gestion et les rapports
 description: Découvrez comment rendre les mesures de conversion disponibles dans vos vues et rapports de gestion.
 feature: Conversions
-exl-id: a8f3a2d6-4203-42db-96cd-faf02d20d247
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Modification des mesures de conversion disponibles dans les vues de gestion et les rapports
 
-Lors du suivi d’un Adobe Advertising [conversion](/help/search-social-commerce/glossary.md#c-d) pour un annonceur, elle est initialement exclue des objectifs du portfolio, des rapports et des vues de gestion. Pour rendre une mesure de conversion visible, vous devez la rendre explicitement disponible, puis, éventuellement, modifier le nom d’affichage par défaut, qui est le nom affiché. La seule exception concerne le suivi des conversions par [!DNL Google Ads], [!DNL Google Analytics], et [!DNL Microsoft® Advertising] les balises de suivi d’événement universel sont automatiquement disponibles et visibles.
+Lors du suivi d’un Adobe Advertising [conversion](/help/search-social-commerce/glossary.md#c-d) pour un annonceur, elle est initialement exclue des objectifs du portfolio, des rapports et des vues de gestion. Pour rendre une mesure de conversion visible, vous devez la rendre explicitement disponible, puis, éventuellement, modifier le nom d’affichage par défaut, qui est le nom affiché. La seule exception concerne le suivi des conversions par [!DNL Google Ads], [!DNL Google Analytics], et [!DNL Microsoft Advertising] les balises de suivi d’événement universel sont automatiquement disponibles et visibles.
 
 De même, vous pouvez masquer une mesure de conversion des objectifs du portfolio, des rapports et des vues de gestion. Lorsque vous masquez une mesure de conversion qui était auparavant visible, elle est supprimée des mesures dérivées qui contiennent la mesure de conversion.
 
@@ -50,10 +50,10 @@ Dans la liste des mesures de conversion disponibles, chaque utilisateur ayant ac
 
 >[!NOTE]
 >
->Si Adobe Advertising collecte des données pour les nouvelles mesures de conversion, alors les nouvelles mesures — à l’exception des conversions suivies par [!DNL Google Ads], [!DNL Google Analytics], et [!DNL Microsoft® Advertising] balises de suivi d’événement universel : sont automatiquement exclues des vues de gestion et des rapports jusqu’à ce que vous les incluiez. Nouvelles conversions suivies par [!DNL Google Ads], [!DNL Google Analytics], et [!DNL Microsoft® Advertising] les balises de suivi d’événement universel sont toujours disponibles automatiquement.
+>Si Adobe Advertising collecte des données pour les nouvelles mesures de conversion, alors les nouvelles mesures — à l’exception des conversions suivies par [!DNL Google Ads], [!DNL Google Analytics], et [!DNL Microsoft Advertising] balises de suivi d’événement universel : sont automatiquement exclues des vues de gestion et des rapports jusqu’à ce que vous les incluiez. Nouvelles conversions suivies par [!DNL Google Ads], [!DNL Google Analytics], et [!DNL Microsoft Advertising] les balises de suivi d’événement universel sont toujours disponibles automatiquement.
 
 >[!MORELIKETHIS]
 >
-* [À propos de la gestion des mesures de conversion d’un annonceur](conversion-metric-about.md)
-* [Afficher les mesures de conversion suivies pour un annonceur](conversion-metric-view-tracked.md)
-* [Modification du nom d’affichage d’une mesure de conversion](conversion-metric-edit-display-name.md)
+>* [À propos de la gestion des mesures de conversion d’un annonceur](conversion-metric-about.md)
+>* [Afficher les mesures de conversion suivies pour un annonceur](conversion-metric-view-tracked.md)
+>* [Modification du nom d’affichage d’une mesure de conversion](conversion-metric-edit-display-name.md)

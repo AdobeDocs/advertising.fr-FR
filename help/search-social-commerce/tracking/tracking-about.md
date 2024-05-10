@@ -3,7 +3,7 @@ title: À propos du suivi pour Search, Social et Commerce
 description: Découvrez les options de suivi pour Search, Social et Commerce.
 exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-source-git-commit: aeb5f9a903290926afc27fe32c32646561850cc1
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # À propos du suivi pour Search, Social et Commerce
 
-Pour effectuer le suivi des performances de vos publicités, Search, Social et Commerce nécessite des données d’impression, de clic, de coût et de conversion (transaction) pour vos publicités. Search, Social et Commerce utilisent ces données pour créer les modèles de prévision de données dont il a besoin pour optimiser vos portfolios publicitaires.
+Pour effectuer le suivi des performances de vos publicités, Search, Social et Commerce nécessite des données d’impression, de clic, de coût et de conversion (transaction) pour vos publicités. Search, Social et Commerce utilisent ces données pour créer les modèles de prévision de données dont il a besoin pour optimiser vos portefeuilles publicitaires.
 
 ## Données de coûts, de clics et d’impressions
 
@@ -22,11 +22,11 @@ Si vous souhaitez effectuer le suivi de campagnes sur des réseaux publicitaires
 
 ### Balises de suivi des clics
 
-Votre équipe de mise en oeuvre de Search, Social et Commerce configure le suivi des clics en mettant à jour les modèles de suivi et les URL de destination pour les annonces, les mots-clés, les emplacements, les groupes de produits et les extensions de lien de site dans vos campagnes publicitaires synchronisées afin d’inclure une chaîne d’ID de suivi unique et une redirection d’Adobe Advertising. Ils ajoutent également le suivi aux suffixes de page d’entrée (suffixes d’URL finaux) pour votre [!DNL Google Ads] et [!DNL Microsoft® Advertising] comptes et campagnes.
+Votre équipe de mise en oeuvre de Search, Social et Commerce configure le suivi des clics en mettant à jour les modèles de suivi et les URL de destination pour les annonces, les mots-clés, les emplacements, les groupes de produits et les extensions de lien de site dans vos campagnes publicitaires synchronisées afin d’inclure une chaîne d’ID de suivi unique et une redirection d’Adobe Advertising. Ils ajoutent également le suivi aux suffixes de page d’entrée (suffixes d’URL finaux) pour votre [!DNL Google Ads] et [!DNL Microsoft Advertising] comptes et campagnes.
 
 Les paramètres de suivi permettent à l’Adobe Advertising de suivre les clics au niveau des mots-clés (campagnes de recherche) ou au niveau des variantes d’annonces (campagnes de recherche avec ciblage de contenu ou de site, campagnes d’affichage et campagnes sur les réseaux sociaux). Chaque fois qu’un utilisateur consulte une publicité d’affichage/de contenu ou clique sur l’une de vos publicités, le réseau publicitaire envoie l’événement aux serveurs de pixels d’Adobe Advertising à l’aide d’une balise de suivi des clics associée au mot-clé ou à la publicité. Pour les clics :
 
-* Pour [!DNL Google Ads] et [!DNL Microsoft® Advertising] publicités sur les navigateurs qui prennent en charge le suivi parallèle, le réseau publicitaire envoie d’abord le clic à votre site web, puis aux serveurs de pixels d’Adobe Advertising, qui placent ensuite un cookie sur l’ordinateur de l’utilisateur, le cas échéant.
+* Pour [!DNL Google Ads] et [!DNL Microsoft Advertising] publicités sur les navigateurs qui prennent en charge le suivi parallèle, le réseau publicitaire envoie d’abord le clic à votre site web, puis aux serveurs de pixels d’Adobe Advertising, qui placent ensuite un cookie sur l’ordinateur de l’utilisateur, le cas échéant.
 
 * Dans tous les autres cas, le réseau publicitaire envoie directement le clic aux serveurs de pixels Adobe Advertising. Le serveur de pixel place un cookie sur l’ordinateur de l’utilisateur (s’il n’existe pas déjà), puis redirige l’utilisateur vers l’URL appropriée de votre site web. L’expérience globale de l’utilisateur final est la même que celle qui se présenterait sans redirection.
 
@@ -34,7 +34,7 @@ Le cookie est défini dans la variable [!DNL Adobe] domain (`everesttech.net`) c
 
 ## Données de conversion
 
-Lorsqu’un client clique sur une publicité ou consulte une publicité ou un publicité sociale, Search, Social et Commerce doit mettre en correspondance chaque conversion résultante avec le clic d’origine ou l’affichage/impression sociale.
+Lorsqu’un client clique sur une publicité ou consulte une publicité ou un affichage sur un réseau social, Search, Social et Commerce doit mettre en correspondance chaque conversion résultante avec le clic ou l’affichage/impression sociale d’origine.
 
 L’annonceur joue un rôle dans la fourniture des données de conversion pour tous les clics et impressions display/social. Les données de conversion peuvent inclure des informations sur tout type d’événement qui se produit sur un site web et qui peut être utilisé pour l’optimisation des offres. Vous pouvez fournir des données de conversion en implémentant du code de suivi de conversion dans les pages de conversion de l’annonceur (par exemple, la page &quot;succès&quot; qui s’affiche une fois qu’un client a effectué une transaction) ou en envoyant un fichier de flux quotidien contenant des données de conversion capturées par une autre méthode.
 

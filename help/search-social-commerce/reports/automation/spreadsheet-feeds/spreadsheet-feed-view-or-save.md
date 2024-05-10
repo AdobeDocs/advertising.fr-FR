@@ -1,9 +1,9 @@
 ---
 title: Affichage ou enregistrement d’un fichier de flux de rapport de feuille de calcul
 description: Découvrez comment afficher un flux de feuille de calcul et l’enregistrer dans un fichier.
-exl-id: 3f8af6fb-6652-4434-bd88-ef1a0e10efd1
+exl-id: b229ab9e-a48a-4487-8434-0fdcf7139d8f
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Pour les rapports de base et les rapports de précision des modèles uniquement*
 
-Vous pouvez afficher n’importe quel flux de feuille de calcul généré ou l’enregistrer dans un fichier. Les fichiers de flux de feuille de calcul se trouvent dans[!DNL Microsoft® Excel] Format XLSX.
+Vous pouvez afficher n’importe quel flux de feuille de calcul généré ou l’enregistrer dans un fichier. Les fichiers de flux de feuille de calcul se trouvent dans[!DNL Microsoft Excel] Format XLSX.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 

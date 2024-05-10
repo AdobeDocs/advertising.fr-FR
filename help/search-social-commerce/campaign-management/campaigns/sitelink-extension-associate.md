@@ -1,22 +1,22 @@
 ---
 title: Association de liens de site partagés à des comptes, des campagnes et des groupes publicitaires
 description: Découvrez comment attribuer des extensions de lien de site partagé à des comptes, campagnes et groupes publicitaires.
-exl-id: c7bd92ab-3768-4b6e-988a-32e644c3d583
+exl-id: 5baa66a9-aac7-4ddd-a322-6578a571166b
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
 # Association de liens de site partagés à des comptes, des campagnes et des groupes publicitaires
 
-*[!DNL Google Ads]et [!DNL Microsoft® Advertising] only*
+*[!DNL Google Ads]et [!DNL Microsoft Advertising] only*
 
-Vous pouvez créer des extensions d’annonce en attribuant des liens de site à partir de votre [!DNL Sitelinks] pour comptabiliser les entités, à utiliser uniquement sur le réseau de recherche. Pour [!DNL Google Ads] comptes, vous pouvez attribuer des liens de site aux comptes ou aux campagnes et aux groupes publicitaires sur le réseau de recherche. Pour [!DNL Microsoft® Advertising] comptes, vous pouvez affecter des liens de site aux campagnes sur le réseau de recherche (ainsi qu’aux comptes et aux groupes publicitaires au sein du [!DNL Microsoft® Advertising] gestionnaire de publicités).
+Vous pouvez créer des extensions d’annonce en attribuant des liens de site à partir de votre [!DNL Sitelinks] pour comptabiliser les entités, à utiliser uniquement sur le réseau de recherche. Pour [!DNL Google Ads] comptes, vous pouvez attribuer des liens de site aux comptes ou aux campagnes et aux groupes publicitaires sur le réseau de recherche. Pour [!DNL Microsoft Advertising] comptes, vous pouvez affecter des liens de site aux campagnes sur le réseau de recherche (ainsi qu’aux comptes et aux groupes publicitaires au sein du [!DNL Microsoft Advertising] gestionnaire de publicités).
 
-Pour que vos liens de site apparaissent avec des publicités, vous devez disposer d’au moins six liens de site principaux pour les ordinateurs de bureau et les appareils mobiles. Vous pouvez affecter jusqu’à 20 liens de site par compte, campagne ou groupe publicitaire.
+Pour que vos liens de site apparaissent avec des publicités, vous devez disposer d’au moins six liens de site actifs pour les ordinateurs de bureau et les appareils mobiles. Vous pouvez affecter jusqu’à 20 liens de site par compte, campagne ou groupe publicitaire.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 

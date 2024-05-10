@@ -3,7 +3,7 @@ title: Questions fréquentes sur les rapports personnalisés
 description: Découvrez les réponses aux questions courantes sur les rapports de performances, notamment la résolution des problèmes liés aux données.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -326,17 +326,17 @@ Lorsque vous générez les deux rapports par portefeuille, les données sont dif
 +++La sortie du rapport comprend un mélange de plages de dates.
 Vous pouvez voir différentes périodes si le flux agrège les données à l’aide d’un niveau d’agrégation de données autre que &quot;[!UICONTROL Daily].&quot;
 
-Pour résoudre ce problème, mettez à jour le flux de feuille de calcul afin d’inclure les données agrégées quotidiennement. Cette tâche comprend la mise à jour du modèle de rapport, la génération d’un rapport à l’aide du modèle et la création d’un [!DNL Microsoft® Excel] à l’aide du rapport, puis en mettant à jour les paramètres du flux afin d’inclure le nouveau modèle Excel. Pour plus d’informations, voir &quot;[Modifier les paramètres du flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
+Pour résoudre ce problème, mettez à jour le flux de feuille de calcul afin d’inclure les données agrégées quotidiennement. Cette tâche comprend la mise à jour du modèle de rapport, la génération d’un rapport à l’aide du modèle et la création d’un [!DNL Microsoft Excel] à l’aide du rapport, puis en mettant à jour les paramètres du flux afin d’inclure le nouveau modèle Excel. Pour plus d’informations, voir &quot;[Modifier les paramètres du flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++Un flux de feuille de calcul génère une erreur interne.
-Cette erreur peut se produire si vous modifiez les colonnes du modèle de rapport sans mettre à jour le [!DNL Microsoft® Excel] modèle en conséquence.
+Cette erreur peut se produire si vous modifiez les colonnes du modèle de rapport sans mettre à jour le [!DNL Microsoft Excel] modèle en conséquence.
 
 Pour résoudre ce problème, mettez à jour le flux de feuille de calcul afin d’inclure les nouvelles colonnes. Cette tâche comprend la mise à jour du modèle de rapport, la génération d’un rapport à l’aide du modèle et la création d’un [!DNL Excel] à l’aide du rapport, puis en mettant à jour les paramètres du flux afin d’inclure le nouveau modèle Excel. Pour plus d’informations, voir &quot;[Modifier les paramètres du flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++Lorsque j’essaie d’ouvrir un flux de feuille de calcul dans [!DNL Excel], [!DNL Excel] signale une erreur &quot;contenu illisible&quot; et les données sont supprimées du contenu récupéré.
-Lorsque la variable [!DNL Microsoft® Excel] ne trie pas les données par date de début dans l’ordre croissant, le flux de feuille de calcul peut contenir des lignes vides. En particulier, [!DNL Excel] signale l’erreur &quot;Excel a trouvé du contenu illisible dans &#39;&lt;*nom du rapport*>.xlsx.&#39; Voulez-vous récupérer le contenu du classeur ? Si vous approuvez la source de ce classeur, cliquez sur oui.&quot; Si vous cliquez sur &quot;Oui&quot;, le message suivant s’affiche : &quot;Enenregistrements supprimés : informations de cellule de la partie /xl/worksheets/sheet1.xml&quot; et le flux de feuille de calcul comprend des lignes vides.
+Lorsque la variable [!DNL Microsoft Excel] ne trie pas les données par date de début dans l’ordre croissant, le flux de feuille de calcul peut contenir des lignes vides. En particulier, [!DNL Excel] signale l’erreur &quot;Excel a trouvé du contenu illisible dans &#39;&lt;*nom du rapport*>.xlsx.&#39; Voulez-vous récupérer le contenu du classeur ? Si vous approuvez la source de ce classeur, cliquez sur oui.&quot; Si vous cliquez sur &quot;Oui&quot;, le message suivant s’affiche : &quot;Enenregistrements supprimés : informations de cellule de la partie /xl/worksheets/sheet1.xml&quot; et le flux de feuille de calcul comprend des lignes vides.
 
 Pour résoudre le problème, modifiez la variable [!DNL Excel] modèle associé au flux pour trier les données par [!DNL Start date in Ascending (Oldest to Newest) order], puis transférez le modèle mis à jour via les paramètres de flux de feuille de calcul. Pour plus d’informations, voir &quot;[Modification des flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++

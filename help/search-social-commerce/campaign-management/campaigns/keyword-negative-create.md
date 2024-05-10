@@ -3,7 +3,7 @@ title: Créer des mots-clés négatifs
 description: Découvrez comment créer des mots-clés négatifs pour les campagnes de recherche et les groupes publicitaires.
 exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Créer des mots-clés négatifs
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], et existants [!DNL Baidu] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], et existants [!DNL Baidu] comptes uniquement*
 
 Vous pouvez créer des mots-clés négatifs pour un groupe publicitaire de recherche ou une campagne qui cible la recherche ou le réseau d’affichage/natif. Les mots-clés négatifs ne déclenchent pas de publicités.
 
@@ -30,7 +30,7 @@ Vous pouvez créer des mots-clés négatifs pour un groupe publicitaire de reche
 
 1. Saisissez les mots-clés négatifs. Utilisez la syntaxe suivante, sans signe moins (`-`) :
 
-   * Correspondance large négative : `keyword` (non pris en charge par [!DNL Microsoft® Advertising])
+   * Correspondance large négative : `keyword` (non pris en charge par [!DNL Microsoft Advertising])
 
    * Correspondance d’expression négative : `"keyword"`
 
@@ -38,7 +38,7 @@ Vous pouvez créer des mots-clés négatifs pour un groupe publicitaire de reche
 
    Séparez plusieurs valeurs par des virgules ou saisissez-les sur des lignes distinctes. Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés négatifs en une seule opération. Voir également les exigences et restrictions suivantes :
 
-   * Longueur maximale des caractères : [!DNL Baidu]: 30 sur un ou 15 sur deux octets ; [!DNL Microsoft® Advertising]: 100 sur un ou 50 sur deux octets ; [!DNL Google Ads] et [!DNL Yahoo! Japan Ads]: 80 sur un ou 40 sur deux octets.
+   * Longueur maximale des caractères : [!DNL Baidu]: 30 sur un ou 15 sur deux octets ; [!DNL Microsoft Advertising]: 100 sur un ou 50 sur deux octets ; [!DNL Google Ads] et [!DNL Yahoo! Japan Ads]: 80 sur un ou 40 sur deux octets.
 
    * [!DNL Baidu] n’autorise qu’un seul type de correspondance par mot-clé par groupe publicitaire. Par exemple, le groupe d’annonces 1 ne peut pas inclure les deux `"keyword"` et `[keyword]`.
 

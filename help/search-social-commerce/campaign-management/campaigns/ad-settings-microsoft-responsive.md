@@ -1,18 +1,18 @@
 ---
-title: '[!DNL Microsoft® Advertising] paramètres de publicité réactive'
-description: Référencez les paramètres pour [!DNL Microsoft® Advertising] annonces réactives.
+title: '[!DNL Microsoft Advertising] paramètres de publicité réactive'
+description: Référencez les paramètres pour [!DNL Microsoft Advertising] annonces réactives.
 exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management
-source-git-commit: dae8d3726b48240a2cad7d3e188694f72934295f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] paramètres de publicité réactive (audience)
+# [!DNL Microsoft Advertising] paramètres de publicité réactive (audience)
 
-Le format de publicité réactive est disponible pour les publicités basées sur des images, des vidéos et des télévisions connectées basées sur des vidéos sur le [!DNL Microsoft® Audience Network]. Le réseau publicitaire rassemble dynamiquement les publicités réactives à l’aide des combinaisons les plus efficaces d’éléments publicitaires.
+Le format de publicité réactive est disponible pour les publicités basées sur des images, des vidéos et des télévisions connectées basées sur des vidéos sur le [!DNL Microsoft Audience Network]. Le réseau publicitaire rassemble dynamiquement les publicités réactives à l’aide des combinaisons les plus efficaces d’éléments publicitaires.
 
 ## [!UICONTROL Ad Settings] (pour les publicités vidéo) et [!UICONTROL Audience CTV Video Ad Details]
 
@@ -28,7 +28,7 @@ Le format de publicité réactive est disponible pour les publicités basées su
 
 **[!UICONTROL Images]:** Jusqu’à 15 images JPEG ou PNG pour la publicité. Insérez au moins une image avec un format 1,91:1. Voir les dimensions et dimensions autorisées pour [images d&#39;audience publicitaire](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
 
-Pour les publicités d’audience, [!DNL Microsoft® Advertising] recadre automatiquement cette image pour tous les proportions possibles.
+Pour les publicités d’audience, [!DNL Microsoft Advertising] recadre automatiquement cette image pour tous les proportions possibles.
 
 <!-- Instructions -->
 
@@ -56,7 +56,7 @@ Pour les publicités d’audience, [!DNL Microsoft® Advertising] recadre automa
 >
 >* [A propos des publicités](ad-about.md)
 >* [Gestion des publicités](ad-manage.md)
->* [[!DNL Microsoft® Advertising] paramètres d’annonce de recherche dynamique étendus](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft® Advertising] paramètres de publicité multimédia](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft® Advertising] paramètres de publicité de produit](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] paramètres de publicité de recherche réactive](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] paramètres d’annonce de recherche dynamique étendus](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] paramètres de publicité multimédia](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] paramètres de publicité de produit](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] paramètres de publicité de recherche réactive](ad-settings-microsoft-rsa.md)

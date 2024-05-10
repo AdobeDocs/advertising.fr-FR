@@ -1,9 +1,9 @@
 ---
 title: Gestion des modificateurs
 description: Découvrez comment configurer et gérer des modificateurs pour vos modèles publicitaires pour les flux de données d’inventaire.
-exl-id: ade1472d-10e3-454e-8095-c579b48cfc01
+exl-id: 74c9a7c7-0979-4f78-9225-43bc6c94acd7
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Gestion des modificateurs
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
 
 Les modificateurs sont des adjectifs ou des adverbes qui peuvent être ajoutés ou supprimés d’une phrase sans modifier la structure de base de la phrase. Vous pouvez créer des groupes de modificateurs à utiliser comme variables dans divers champs de données dans les modèles de données de flux. En incluant des modificateurs dans les champs de structure de compte (campagne et groupe publicitaire), les mots-clés, les URL de base et les publicités, vous créez une valeur pour chaque valeur de modificateur associée. Par exemple, si vous utilisez une variable de groupe de modificateurs dans un titre de publicité, et que le groupe de modificateurs comprend trois modificateurs (&quot;bon marché&quot;, &quot;réduction&quot; et &quot;abordable&quot;), trois publicités distinctes sont créées pour chaque ligne de données du flux de données — une pour chaque modificateur. De même, si vous incluez un groupe de modificateurs avec plusieurs valeurs dans l’URL de base d’un groupe publicitaire, un ensemble de mots-clés est créé pour chacune des URL de base résultantes.
 
 Chaque groupe de modificateurs peut inclure autant de modificateurs que vous le souhaitez. Chaque modèle ne peut utiliser qu’un seul groupe de modificateurs.
 
-## Créer un groupe de modificateurs
+## Création d’un groupe de modification
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 

@@ -3,7 +3,7 @@ title: À propos de la prise en charge des recommandations et des insights de l�
 description: Découvrez la prise en charge de l’affichage et de la gestion des recommandations et des informations de l’éditeur.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d6808281dc3ba26a48ae33079c2f411705f43ddd
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # À propos de la prise en charge des recommandations et des insights de l’éditeur
 
-*[!DNL Google Ads]et [!DNL Microsoft® Advertising] comptes*
+*[!DNL Google Ads]et [!DNL Microsoft Advertising] comptes*
 
-*Fonction bêta pour [!DNL Microsoft® Advertising] comptes*
+*Fonction bêta pour [!DNL Microsoft Advertising] comptes*
 
-[!DNL Google Ads] et [!DNL Microsoft® Advertising] les recommandations et les insights sont des suggestions du réseau publicitaire pour améliorer les performances et l’efficacité de vos campagnes :
+[!DNL Google Ads] et [!DNL Microsoft Advertising] les recommandations et les insights sont des suggestions du réseau publicitaire pour améliorer les performances et l’efficacité de vos campagnes :
 
 * Chaque [!DNL Google Ads] la recommandation fournit des suggestions personnalisées sur les différents aspects des performances d’une campagne, depuis l’ajout d’une ressource jusqu’à l’augmentation du budget, en fonction de l’historique des performances de votre compte, des paramètres de campagne et des tendances dans l’ensemble de la campagne. [!DNL Google Ads].
 
-* Chaque [!DNL Microsoft® Advertising] les informations de performances et les recommandations suggèrent des modifications pour optimiser les performances de campagne en fonction des algorithmes d’apprentissage automatique et des bonnes pratiques.
+* Chaque [!DNL Microsoft Advertising] les informations de performances et les recommandations suggèrent des modifications pour optimiser les performances de campagne en fonction des algorithmes d’apprentissage automatique et des bonnes pratiques.
 
 ## La variable [!UICONTROL Recommendations & Publisher Insights] view
 
@@ -32,7 +32,7 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 
   Les données sont disponibles en temps réel lorsque vous ouvrez la vue. Pour actualiser les données, cliquez sur ![Actualiser](/help/search-social-commerce/assets/refresh.png "Actualiser") en bas à gauche de la page.
 
-* Pour [!DNL Microsoft® Advertising] comptes, voir en un coup d’oeil chaque insight de performance générée au cours des 30 derniers jours pour un événement [!DNL Microsoft® Advertising] compte . Les statistiques fournissent des informations similaires aux recommandations, mais dans un format différent. Chaque insight inclut la date, une description du problème, l’entité affectée, la cause racine (qui peut inclure des liens vers d’autres détails) et l’action suggérée avec un lien pour ouvrir le [!DNL Microsoft® Advertising] à partir de laquelle vous pouvez agir sur les informations spécifiques.
+* Pour [!DNL Microsoft Advertising] comptes, voir en un coup d’oeil chaque insight de performance générée au cours des 30 derniers jours pour un événement [!DNL Microsoft Advertising] compte . Les statistiques fournissent des informations similaires aux recommandations, mais dans un format différent. Chaque insight inclut la date, une description du problème, l’entité affectée, la cause racine (qui peut inclure des liens vers d’autres détails) et l’action suggérée avec un lien pour ouvrir le [!DNL Microsoft Advertising] à partir de laquelle vous pouvez agir sur les informations spécifiques.
 
 * Affichez les détails d’une recommandation, puis appliquez ou ignorez-la directement.
 

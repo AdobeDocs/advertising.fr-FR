@@ -1,20 +1,20 @@
 ---
 title: Propager les données de flux d’inventaire par le biais de modèles
 description: Découvrez comment propager des données de vos flux d’inventaire par le biais de modèles d’annonces afin de gérer la structure du compte et de diffuser des annonces dynamiques.
-exl-id: 40de75e8-8440-48f4-9fa7-1aeb2ae392c5
+exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
 
 # Propager les données de flux d’inventaire par le biais de modèles
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
 
-Après avoir créé un modèle de flux spécifique au réseau publicitaire et associé un fichier de flux ou un [!DNL Google] ou [!DNL Microsoft®] compte de centre commercial avec celui-ci, vous pouvez créer dynamiquement des publicités en propageant les données de flux par le biais du modèle en fonction de la variable [paramètres de données de flux](feed-settings-manage.md). Lors de la propagation, les noms des colonnes dans le modèle sont remplacés par des valeurs de données dans le flux. Les campagnes générées et leurs composants possèdent les paramètres par défaut, sauf indication contraire du modèle. Selon les options de modèle, Search, Social et Commerce crée une nouvelle structure de compte (campagnes, groupes publicitaires, mots-clés) pour les annonces ou mappe les annonces à la structure de compte existante.
+Après avoir créé un modèle de flux spécifique au réseau publicitaire et associé un fichier de flux ou un [!DNL Google] ou [!DNL Microsoft] compte de centre commercial avec celui-ci, vous pouvez créer dynamiquement des publicités en propageant les données de flux par le biais du modèle en fonction de la variable [paramètres de données de flux](feed-settings-manage.md). Lors de la propagation, les noms des colonnes dans le modèle sont remplacés par des valeurs de données dans le flux. Les campagnes générées et leurs composants possèdent les paramètres par défaut, sauf indication contraire du modèle. Selon les options de modèle, Search, Social et Commerce crée une nouvelle structure de compte (campagnes, groupes publicitaires, mots-clés) pour les annonces ou mappe les annonces à la structure de compte existante.
 
 Lorsque de nouvelles données de flux contiennent de nouvelles valeurs de données pour un élément ou que le modèle a changé, les publicités existantes sont supprimées et de nouvelles sont créées. Si la seule modification est la désignation de [!DNL Google Ads] Param 1 et Param 2, alors seules ces valeurs sont mises à jour. Les publicités en double (la même copie de publicité et la même page d’entrée) ne sont jamais créées.
 

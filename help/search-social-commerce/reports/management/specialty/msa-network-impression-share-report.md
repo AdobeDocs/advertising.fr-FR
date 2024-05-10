@@ -3,18 +3,18 @@ title: La variable [!UICONTROL MSA Network Impression Share Report]
 description: En savoir plus sur les [!UICONTROL MSA Network Impression Share Report].
 feature: Search Reports, Search Specialty Reports
 exl-id: 274f7bac-5eea-4e21-bcdb-ebf6250c4959
-source-git-commit: 22fd10dec43c43c6f03860e6e4839a8bb8d56017
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
 # La variable [!UICONTROL MSA Network Impression Share Report]
 
-*[!DNL Microsoft® Advertising]comptes uniquement*
+*[!DNL Microsoft Advertising]comptes uniquement*
 
-Ce rapport présente les mesures de partage d’impression au niveau de la campagne et les mesures de trafic de base (coût, clics, impressions) par distribution publicitaire (recherche ou audience) et réseau (telles que [!DNL Microsoft] sites et sélectionner le trafic ou l’audience) pour les [!DNL Microsoft® Advertising] comptes.
+Ce rapport présente les mesures de partage d’impression au niveau de la campagne et les mesures de trafic de base (coût, clics, impressions) par distribution publicitaire (recherche ou audience) et réseau (telles que [!DNL Microsoft] sites et sélectionner le trafic ou l’audience) pour les [!DNL Microsoft Advertising] comptes.
 
 Lorsque vous exécutez un rapport avec uniquement des colonnes de mesures et sans dimensions, le rapport généré contient deux lignes dupliquées : l’une avec des données agrégées, l’autre avec toutes les mesures.
 

@@ -1,9 +1,9 @@
 ---
 title: Affichage des données générées à partir de flux
 description: Découvrez comment afficher les données générées à partir de flux de données d’inventaire.
-exl-id: 961155ac-a9d3-42e4-904b-b968e9f3383b
+exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Affichage des données générées à partir de flux
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
 
 Lorsque vous propagez des données de flux sans les publier simultanément sur le réseau publicitaire, vous pouvez prévisualiser les données de l’une des manières suivantes. Vous pouvez éventuellement [post data](propagated-data-post.md) de chaque emplacement aux réseaux publicitaires appropriés.
 

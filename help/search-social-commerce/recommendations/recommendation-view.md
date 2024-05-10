@@ -1,9 +1,9 @@
 ---
 title: Affichage des recommandations et des informations sur les performances de l’éditeur
-description: Découvrez comment afficher le [!DNL Google Ads] recommandations et [!DNL Microsoft® Advertising] informations de performances de vos comptes réseau publicitaire.
+description: Découvrez comment afficher le [!DNL Google Ads] recommandations et [!DNL Microsoft Advertising] informations de performances de vos comptes réseau publicitaire.
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Affichage des recommandations et des informations sur les performances de votre éditeur
 
-*[!DNL Google Ads]et [!DNL Microsoft® Advertising] comptes*
+*[!DNL Google Ads]et [!DNL Microsoft Advertising] comptes*
 
-*Fonction bêta pour [!DNL Microsoft® Advertising] comptes*
+*Fonction bêta pour [!DNL Microsoft Advertising] comptes*
 
 ## Afficher les recommandations de votre éditeur
 
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 1. Dans le coin supérieur droit, sélectionnez le réseau publicitaire et le compte.
 
-   Pour [!DNL Microsoft® Advertising] les comptes, [!UICONTROL Recommendations] pour le compte sont répertoriés par défaut.
+   Pour [!DNL Microsoft Advertising] les comptes, [!UICONTROL Recommendations] pour le compte sont répertoriés par défaut.
 
 1. Dans le [!UICONTROL Actions] pour la ligne, cliquez sur **[!UICONTROL View]**. Si la recommandation comporte des sous-recommandations, cliquez sur **[!UICONTROL View]** en regard de la sous-recommandation.
 
    Vous pouvez [appliquer ou supprimer](recommendation-apply-dismiss.md) recommandations du réseau publicitaire.
 
-## Affichez vos [!DNL Microsoft® Advertising] informations sur les performances
+## Affichez vos [!DNL Microsoft Advertising] informations sur les performances
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
@@ -36,9 +36,9 @@ ht-degree: 0%
 
 1. Cliquez sur **[!UICONTROL Insights]** au-dessus du tableau de données.
 
-1. Lorsque la variable [!UICONTROL Actions] pour la ligne comprend une action, vous pouvez éventuellement cliquer sur **[!UICONTROL Click here]** pour ouvrir le [!DNL Microsoft® Advertising] à partir de laquelle vous pouvez agir sur l’insight.
+1. Lorsque la variable [!UICONTROL Actions] pour la ligne comprend une action, vous pouvez éventuellement cliquer sur **[!UICONTROL Click here]** pour ouvrir le [!DNL Microsoft Advertising] à partir de laquelle vous pouvez agir sur l’insight.
 
-   Si vous n’êtes pas connecté à la variable [!DNL Microsoft® Advertising] , vous êtes d’abord dirigé vers l’écran de connexion.
+   Si vous n’êtes pas connecté à la variable [!DNL Microsoft Advertising] , vous êtes d’abord dirigé vers l’écran de connexion.
 
 >[!MORELIKETHIS]
 >

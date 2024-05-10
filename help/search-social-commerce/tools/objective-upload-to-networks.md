@@ -1,9 +1,9 @@
 ---
 title: Activer le téléchargement des objectifs vers les réseaux publicitaires
-description: Découvrez comment télécharger des objectifs pour vos portefeuilles hybrides vers [!DNL Google Ads] et [!DNL Microsoft® Advertising].
+description: Découvrez comment télécharger des objectifs pour vos portefeuilles hybrides vers [!DNL Google Ads] et [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Activer le téléchargement des objectifs vers les réseaux publicitaires
 
-*Annonceurs avec [!DNL Google Ads] et [!DNL Microsoft® Advertising] comptes uniquement*
+*Annonceurs avec [!DNL Google Ads] et [!DNL Microsoft Advertising] comptes uniquement*
 
 *Publicitaires activés uniquement pour l’optimisation hybride*
 
-Search, Social et Commerce peuvent télécharger les objectifs des portfolios d’un compte publicitaire vers [!DNL Google Ads] et [!DNL Microsoft® Advertising] vous pouvez donc les utiliser pour l’optimisation hybride. Vos objectifs téléchargés sont disponibles en tant qu’actions de conversion pour les objectifs de conversion personnalisés au niveau du compte et de la campagne.
+Search, Social et Commerce peuvent télécharger les objectifs des portfolios d’un compte publicitaire vers [!DNL Google Ads] et [!DNL Microsoft Advertising] vous pouvez donc les utiliser pour l’optimisation hybride. Vos objectifs téléchargés sont disponibles en tant qu’actions de conversion pour les objectifs de conversion personnalisés au niveau du compte et de la campagne.
 
 L’activation de cette option déclenche automatiquement un chargement pour les objectifs dans les portfolios qui contiennent des campagnes avec des stratégies d’offres intelligentes. Search, Social et Commerce crée une conversion sur le réseau publicitaire pour chaque objectif applicable. La conversion représente toutes les mesures de conversion pondérées de l’objectif. Chaque conversion porte l’un des noms suivants :
 
@@ -30,7 +30,7 @@ L’activation de cette option déclenche automatiquement un chargement pour les
 
   Votre équipe de compte d’Adobe vous aidera à migrer les noms de vos actions de conversion existantes dans le réseau publicitaire avant que l’ancien format ne soit abandonné. Pendant la période de migration, les téléchargements de l’ancien et du nouveau format s’exécuteront en parallèle. La modélisation et l’optimisation ne sont pas affectées, car les nouvelles actions de conversion apparaissent initialement avec l’état &quot;secondaire&quot; (non optimisé) et avec 90 jours de données de renvoi.
 
-Téléchargements vers [!DNL Google Ads] surviennent tous les jours à 06h00 dans le fuseau horaire de l’annonceur. Téléchargements vers [!DNL Microsoft® Advertising] surviennent tous les jours à 09h00 dans le fuseau horaire de l’annonceur.
+Téléchargements vers [!DNL Google Ads] surviennent tous les jours à 06h00 dans le fuseau horaire de l’annonceur. Téléchargements vers [!DNL Microsoft Advertising] surviennent tous les jours à 09h00 dans le fuseau horaire de l’annonceur.
 
 >[!IMPORTANT]
 >

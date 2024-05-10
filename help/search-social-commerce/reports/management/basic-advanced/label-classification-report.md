@@ -3,7 +3,7 @@ title: '[!UICONTROL Label Classification Report]'
 description: En savoir plus sur les [!UICONTROL Label Classification Report].
 exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Vous pouvez afficher les données des 36 mois précédents.
 
 >[!NOTE]
 >
->* La création de rapports par classification d’étiquettes au niveau de la publicité n’est pas disponible pour [!DNL Microsoft® Advertising] campagnes d’annonces de recherche dynamique (DSA).
+>* La création de rapports par classification d’étiquettes au niveau de la publicité n’est pas disponible pour [!DNL Microsoft Advertising] campagnes d’annonces de recherche dynamique (DSA).
 >* Plusieurs classifications d’étiquettes peuvent s’appliquer à la même entité. Par conséquent, le total de chaque mesure peut être supérieur au total réel de l’entité. Par exemple, supposons qu’un mot-clé &quot;chaussures en daim&quot; ait deux valeurs d’étiquette, &quot;daim&quot; et &quot;chaussures&quot;, et que le mot-clé ait reçu 100 clics. La colonne Clics affiche &quot;100&quot; pour chacune de ces valeurs d’étiquette, donc le total des deux lignes est &quot;200&quot;.
 * Toutes les modifications apportées aux classifications d’étiquettes et aux valeurs d’étiquettes enfants pour une entité sont visibles en environ une heure.
 

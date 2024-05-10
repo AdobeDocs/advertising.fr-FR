@@ -3,7 +3,7 @@ title: Gestion des mots-clés pouvant faire l’objet d’un offre
 description: Découvrez comment créer et gérer des mots-clés pouvant faire l’objet d’offres pour les groupes d’annonces de recherche.
 exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gestion des mots-clés pouvant faire l’objet d’un offre
 
-*[!DNL Google Ads]et [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], et existants [!DNL Baidu] comptes uniquement*
+*[!DNL Google Ads]et [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], et existants [!DNL Baidu] comptes uniquement*
 
 Vous pouvez créer et modifier des mots-clés pour rechercher des groupes publicitaires dans [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) qui ciblent les réseaux de recherche et d’affichage/natifs dans une [compte réseau publicitaire synchronisé](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
@@ -28,7 +28,7 @@ Vous pouvez créer et modifier des mots-clés pour rechercher des groupes public
 
 1. Sélectionnez le réseau publicitaire, le compte, la campagne et le groupe publicitaire, puis cliquez sur **[!UICONTROL Continue]**.
 
-1. Saisissez le [[!DNL Baidu] paramètres de mots-clés](keyword-settings-baidu.md), [[!DNL Google Ads] paramètres de mots-clés](keyword-settings-google.md), [[!DNL Microsoft® Advertising] paramètres de mots-clés](keyword-settings-microsoft.md), [[!DNL Yahoo! Japan Ads] paramètres de mots-clés](keyword-settings-yahoo-japan.md), ou [[!DNL Yandex] paramètres de mots-clés](keyword-settings-yandex.md).
+1. Saisissez le [[!DNL Baidu] paramètres de mots-clés](keyword-settings-baidu.md), [[!DNL Google Ads] paramètres de mots-clés](keyword-settings-google.md), [[!DNL Microsoft Advertising] paramètres de mots-clés](keyword-settings-microsoft.md), [[!DNL Yahoo! Japan Ads] paramètres de mots-clés](keyword-settings-yahoo-japan.md), ou [[!DNL Yandex] paramètres de mots-clés](keyword-settings-yandex.md).
 
    Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés dans une seule opération. Séparez plusieurs mots-clés par des virgules ou saisissez-les sur des lignes distinctes.
 
@@ -44,7 +44,7 @@ Le mot-clé existant est supprimé et un autre est créé lorsque :
 
 * ([!DNL Baidu], [!DNL Google Ads], et [!DNL Yandex]) Vous modifiez un nom de mot-clé.
 
-* ([!DNL Google Ads], [!DNL Microsoft® Advertising], et [!DNL Yandex]) Vous modifiez le type de correspondance d’un mot-clé.
+* ([!DNL Google Ads], [!DNL Microsoft Advertising], et [!DNL Yandex]) Vous modifiez le type de correspondance d’un mot-clé.
 
 >[!TIP]
 >
@@ -58,7 +58,7 @@ Le mot-clé existant est supprimé et un autre est créé lorsque :
 
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier") .
 
-1. Modifiez la variable [[!DNL Baidu] paramètres de mots-clés](keyword-settings-baidu.md), [[!DNL Google Ads] paramètres de mots-clés](keyword-settings-google.md), [[!DNL Microsoft® Advertising] paramètres de mots-clés](keyword-settings-microsoft.md), [[!DNL Yahoo! Japan Ads] paramètres de mots-clés](keyword-settings-yahoo-japan.md), ou [[!DNL Yandex] paramètres de mots-clés](keyword-settings-yandex.md).
+1. Modifiez la variable [[!DNL Baidu] paramètres de mots-clés](keyword-settings-baidu.md), [[!DNL Google Ads] paramètres de mots-clés](keyword-settings-google.md), [[!DNL Microsoft Advertising] paramètres de mots-clés](keyword-settings-microsoft.md), [[!DNL Yahoo! Japan Ads] paramètres de mots-clés](keyword-settings-yahoo-japan.md), ou [[!DNL Yandex] paramètres de mots-clés](keyword-settings-yandex.md).
 
    Pour plusieurs mots-clés, vous ne pouvez modifier que les champs communs à tous les mots-clés sélectionnés, et vos modifications sont appliquées à tous les mots-clés sélectionnés. Pour certains champs alphanumériques, vous avez la possibilité de remplacer des valeurs existantes par une valeur spécifique, de remplacer une chaîne existante par une chaîne spécifiée, d’ajouter un préfixe spécifique au début de chaque valeur ou d’ajouter un suffixe à la fin de chaque valeur. Pour certains champs monétaires, vous avez la possibilité de modifier les valeurs existantes en une valeur spécifiée ou d’augmenter ou de diminuer le montant d’un pourcentage ou d’un montant monétaire spécifié, avec une limite.
 
@@ -73,7 +73,7 @@ Le mot-clé existant est supprimé et un autre est créé lorsque :
 >* [A propos des mots-clés](keyword-about.md)
 >* [[!DNL Baidu] paramètres de mots-clés](keyword-settings-baidu.md)
 >* [[!DNL Google Ads] paramètres de mots-clés](keyword-settings-google.md)
->* [[!DNL Microsoft® Advertising] paramètres de mots-clés](keyword-settings-microsoft.md)
+>* [[!DNL Microsoft Advertising] paramètres de mots-clés](keyword-settings-microsoft.md)
 >* [[!DNL Yahoo! Japan Ads] paramètres de mots-clés](keyword-settings-yahoo-japan.md)
 >* [[!DNL Yandex] paramètres de mots-clés](keyword-settings-yandex.md)
 >* [Créer des mots-clés négatifs](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)

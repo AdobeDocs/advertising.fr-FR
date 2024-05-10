@@ -1,34 +1,34 @@
 ---
 title: Gestion des audiences de correspondance client à l’aide des listes de données client
-description: Découvrez comment créer et modifier [!DNL Google Ads] et [!DNL Microsoft® Advertising] des audiences de correspondance client provenant de vos listes de données client ;
+description: Découvrez comment créer et modifier [!DNL Google Ads] et [!DNL Microsoft Advertising] des audiences de correspondance client provenant de vos listes de données client ;
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
 
 ---
 
-# Gérer [!DNL Google Ads] et [!DNL Microsoft® Advertising] audiences de correspondance client à l’aide de listes de données client
+# Gérer [!DNL Google Ads] et [!DNL Microsoft Advertising] audiences de correspondance client à l’aide de listes de données client
 
-Vous pouvez créer [!DNL Google Ads] et [!DNL Microsoft® Advertising] des audiences de correspondance client provenant de vos listes de données client ; Vous pouvez également mettre à jour les [!DNL Google Ads] ou [!DNL Microsoft® Advertising] audience de correspondance du client, à l’exception de [!DNL Google Ads] audiences créées à partir d’un [!DNL Adobe] audience.
+Vous pouvez créer [!DNL Google Ads] et [!DNL Microsoft Advertising] des audiences de correspondance client provenant de vos listes de données client ; Vous pouvez également mettre à jour les [!DNL Google Ads] ou [!DNL Microsoft Advertising] audience de correspondance du client, à l’exception de [!DNL Google Ads] audiences créées à partir d’un [!DNL Adobe] audience.
 
 ## Création d’une audience de correspondance client à partir d’une liste de données client
 
-*[!DNL Google Ads]et [!DNL Microsoft® Advertising] comptes éligibles pour les correspondances client uniquement*
+*[!DNL Google Ads]et [!DNL Microsoft Advertising] comptes éligibles pour les correspondances client uniquement*
 
-Vous pouvez créer un [!DNL Google Ads] ou [!DNL Microsoft® Advertising] liste basée sur les données client à partir d’un fichier de données que vous générez à partir de votre système de gestion de la relation client (CRM).
+Vous pouvez créer un [!DNL Google Ads] ou [!DNL Microsoft Advertising] liste basée sur les données client à partir d’un fichier de données que vous générez à partir de votre système de gestion de la relation client (CRM).
 
-Pour [!DNL Microsoft® Advertising] compte, le fichier peut inclure des adresses électroniques. Pour [!DNL Google Ads] compte, le fichier peut inclure des adresses électroniques, des adresses postales ou des numéros de téléphone, des identifiants d’utilisateur ou des identifiants d’appareil mobile provenant de votre système de gestion de la relation client (CRM).
+Pour [!DNL Microsoft Advertising] compte, le fichier peut inclure des adresses électroniques. Pour [!DNL Google Ads] compte, le fichier peut inclure des adresses électroniques, des adresses postales ou des numéros de téléphone, des identifiants d’utilisateur ou des identifiants d’appareil mobile provenant de votre système de gestion de la relation client (CRM).
 
 >[!NOTE]
 >
->Search, Social et Commerce ne stocke aucune des données client que vous chargez ou provenant de la variable [!DNL Adobe] segments utilisés pour créer ou modifier une [!DNL Google Ads] ou [!DNL Microsoft® Advertising] audience.
+>Search, Social et Commerce ne stocke aucune des données de client que vous chargez ou provenant du [!DNL Adobe] segments utilisés pour créer ou modifier une [!DNL Google Ads] ou [!DNL Microsoft Advertising] audience.
 
 1. Générez un fichier avec les données client au format requis.
 
-   Les prénoms et les noms, adresses électroniques et numéros de téléphone doivent être hachés à l’aide de l’algorithme SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Pour [!DNL Google Ads] audiences, voir [!DNL Google Ads] documentation sur &quot;[Instructions de mise en forme pour le chargement de données hachées](https://support.google.com/google-ads/answer/7476159)&quot; pour une liste des champs d’informations de contact et des exigences autorisées. Pour [!DNL Microsoft® Advertising] audiences, voir [!DNL Microsoft® Advertising] documentation sur [préparation des listes de correspondance client](https://help.ads.microsoft.com/#apex/ads/en/56921). Vous pouvez éventuellement télécharger un [!DNL Microsoft® Excel] modèle pour les coordonnées.
+   Les prénoms et les noms, adresses électroniques et numéros de téléphone doivent être hachés à l’aide de l’algorithme SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Pour [!DNL Google Ads] audiences, voir [!DNL Google Ads] documentation sur &quot;[Instructions de mise en forme pour le chargement de données hachées](https://support.google.com/google-ads/answer/7476159)&quot; pour une liste des champs d’informations de contact et des exigences autorisées. Pour [!DNL Microsoft Advertising] audiences, voir [!DNL Microsoft Advertising] documentation sur [préparation des listes de correspondance client](https://help.ads.microsoft.com/#apex/ads/en/56921). Vous pouvez éventuellement télécharger un [!DNL Microsoft Excel] modèle pour les coordonnées.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
@@ -85,13 +85,13 @@ Pour [!DNL Microsoft® Advertising] compte, le fichier peut inclure des adresses
 
 ## Modification d’une audience de correspondance client à l’aide d’une liste de données client
 
-Vous pouvez mettre à jour les [!DNL Google Ads] ou [!DNL Microsoft® Advertising] audience de correspondance du client, à l’exception de [!DNL Google Ads] audiences créées à partir d’un [!DNL Adobe] audience. Vous pouvez charger des données pour ajouter, supprimer ou remplacer toutes les données existantes pour l’audience.
+Vous pouvez mettre à jour les [!DNL Google Ads] ou [!DNL Microsoft Advertising] audience de correspondance du client, à l’exception de [!DNL Google Ads] audiences créées à partir d’un [!DNL Adobe] audience. Vous pouvez charger des données pour ajouter, supprimer ou remplacer toutes les données existantes pour l’audience.
 
 Les données doivent être du même type que la liste des clients d’origine (adresses électroniques, adresses postales, numéros de téléphone, identifiants d’utilisateur ou identifiants d’appareil mobile pour une application spécifique sur un système d’exploitation mobile spécifique).
 
 1. Générez un fichier avec les données client au format requis pour le type de données existant.
 
-Les prénoms et les noms, adresses électroniques et numéros de téléphone doivent être hachés à l’aide de l’algorithme SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Pour [!DNL Google Ads] audiences, voir [!DNL Google Ads] documentation sur &quot;[Instructions de mise en forme pour le chargement de données hachées](https://support.google.com/google-ads/answer/7476159)&quot; pour une liste des champs d’informations de contact et des exigences autorisées. Pour [!DNL Microsoft® Advertising] audiences, voir [!DNL Microsoft® Advertising] documentation sur [préparation des listes de correspondance client](https://help.ads.microsoft.com/#apex/ads/en/56921). Vous pouvez éventuellement télécharger un [!DNL Microsoft® Excel] modèle pour les coordonnées.
+Les prénoms et les noms, adresses électroniques et numéros de téléphone doivent être hachés à l’aide de l’algorithme SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Pour [!DNL Google Ads] audiences, voir [!DNL Google Ads] documentation sur &quot;[Instructions de mise en forme pour le chargement de données hachées](https://support.google.com/google-ads/answer/7476159)&quot; pour une liste des champs d’informations de contact et des exigences autorisées. Pour [!DNL Microsoft Advertising] audiences, voir [!DNL Microsoft Advertising] documentation sur [préparation des listes de correspondance client](https://help.ads.microsoft.com/#apex/ads/en/56921). Vous pouvez éventuellement télécharger un [!DNL Microsoft Excel] modèle pour les coordonnées.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 

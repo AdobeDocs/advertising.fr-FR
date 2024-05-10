@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] paramètres du groupe de produits'
-description: Référencez les paramètres pour [!DNL Microsoft® Advertising] des groupes de produits d’achat.
-exl-id: a34511ef-f5bc-4d93-a56e-90348f670ad6
+title: '''[!DNL Microsoft Advertising] paramètres du groupe de produits'
+description: Référencez les paramètres pour [!DNL Microsoft Advertising] des groupes de produits d’achat.
+exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] paramètres du groupe de produits
+# [!DNL Microsoft Advertising] paramètres du groupe de produits
 
 ## Groupes de produits &quot;Tous produits&quot;
 
@@ -52,4 +52,4 @@ Ce modèle remplace les modèles à des niveaux supérieurs et n’est utilisé 
 >* [À propos des groupes de produits d’achat](product-group-about.md)
 >* [Gestion des groupes de produits](product-group-manage.md)
 >* [Filtres de produits de campagne d&#39;achat](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [Mise en oeuvre [!DNL Microsoft® Advertising] campagnes d&#39;achat](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [Mise en oeuvre [!DNL Microsoft Advertising] campagnes d&#39;achat](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)

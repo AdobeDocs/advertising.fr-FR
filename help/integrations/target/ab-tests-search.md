@@ -1,8 +1,8 @@
 ---
 title: Configuration de tests A/B pour les annonces Adobe Advertising Search, Social et Commerce dans Adobe Target
-description: Découvrez comment configurer un test A/B dans [!DNL Target] pour votre [!DNL Google Ads] et [!DNL Microsoft® Advertising] publicités dans Search, Social et Commerce.
+description: Découvrez comment configurer un test A/B dans [!DNL Target] pour votre [!DNL Google Ads] et [!DNL Microsoft Advertising] publicités dans Search, Social et Commerce.
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
-source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 *Annonceurs avec Advertising Search, Social et Commerce uniquement*
 
-*[!DNL Google Ads]et [!DNL Microsoft® Advertising] comptes uniquement*
+*[!DNL Google Ads]et [!DNL Microsoft Advertising] comptes uniquement*
 
-Adobe Advertising et Adobe Target facilitent la configuration des tests A/B d’expérience de page d’entrée pour le trafic publicitaire numérique [!DNL Google Ads] et [!DNL Microsoft® Advertising] à :
+Adobe Advertising et Adobe Target facilitent la configuration des tests A/B d’expérience de page d’entrée pour le trafic publicitaire numérique [!DNL Google Ads] et [!DNL Microsoft Advertising] à :
 
 * Améliorez les taux de conversion (CVR) et les mesures d’efficacité d’acquisition (telles que CPA, CPL et CAC).
 
@@ -29,7 +29,7 @@ Consultez les sections suivantes pour connaître les conditions préalables et l
 
 ### Produits requis
 
-* Recherche, réseaux sociaux et commerce
+* Recherche, Social et Commerce
 * [!DNL Target]
 
 ### Produits et intégrations recommandés
@@ -40,7 +40,7 @@ Consultez les sections suivantes pour connaître les conditions préalables et l
 
 * [[!DNL Analytics] pour [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) integration
 
-## Étape 1 : Création d’une activité de test A/B dans [!DNL Target] Recherche, Social et Commerce
+## Étape 1 : Création d’une activité de test A/B dans [!DNL Target] pour Search, Social et Commerce
 
 Les instructions suivantes présentent des informations relatives au cas d’utilisation de Search, Social et Commerce.
 

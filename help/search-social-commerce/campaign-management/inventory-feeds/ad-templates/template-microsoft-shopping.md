@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Ads] achats et paramètres de modèle pour les flux de stock'
-description: Référencez les paramètres pour [!DNL Microsoft® Ads] achat de modèles d’annonces pour les flux d’inventaire.
-exl-id: 64d0092a-bd63-48f4-8e15-f5585f7a022a
+title: '''[!DNL Microsoft Ads] achats et paramètres de modèle pour les flux de stock'
+description: Référencez les paramètres pour [!DNL Microsoft Ads] achat de modèles d’annonces pour les flux d’inventaire.
+exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Ads] achats et paramètres de modèle pour les flux de stock
+# [!DNL Microsoft Ads] achats et paramètres de modèle pour les flux de stock
 
 Utilisez les modèles d’annonces d’achat pour configurer des annonces d’achat.
 
@@ -61,7 +61,7 @@ Utilisez les modèles d’annonces d’achat pour configurer des annonces d’ac
 
 * Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; effectuez l’une des opérations suivantes :
 
-   * (Recommandé) Utilisez la variable [format de modèle de suivi pour les campagnes Microsoft®](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Si l’intégralité du compte est dédiée aux publicités commerciales, vous pouvez définir un modèle de suivi au niveau du compte.
+   * (Recommandé) Utilisez la variable [format de modèle de suivi pour les campagnes d’achat Microsoft](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Si l’intégralité du compte est dédiée aux publicités commerciales, vous pouvez définir un modèle de suivi au niveau du compte.
 
    * Si vous incluez à la place une valeur pour chaque produit dans le flux en utilisant le[!DNL bingads_redirect]&quot; (à l’aide de la variable [format correct](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)), puis saisissez le paramètre `{lpurl}`. Vous pouvez éventuellement ajouter des redirections et un suivi tiers au `{lpurl}` .
 

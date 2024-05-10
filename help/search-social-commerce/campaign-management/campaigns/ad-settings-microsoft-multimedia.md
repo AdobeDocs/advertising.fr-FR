@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] paramètres de publicité multimédia'
-description: Référencez les paramètres pour [!DNL Microsoft® Advertising] annonces multimédias.
-exl-id: b7ce413c-ee7a-420a-8791-e2666cc33eba
+title: '''[!DNL Microsoft Advertising] paramètres de publicité multimédia'
+description: Référencez les paramètres pour [!DNL Microsoft Advertising] annonces multimédias.
+exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] paramètres de publicité multimédia
+# [!DNL Microsoft Advertising] paramètres de publicité multimédia
 
 Les annonces multimédias sont disponibles sur le réseau de recherche. Le réseau publicitaire rassemble dynamiquement les publicités multimédias à l’aide des combinaisons les plus efficaces d’éléments publicitaires.
 
@@ -54,7 +54,7 @@ Voir les dimensions et dimensions autorisées pour [annonces multimédias](https
 >
 >* [A propos des publicités](ad-about.md)
 >* [Gestion des publicités](ad-manage.md)
->* [[!DNL Microsoft® Advertising] paramètres d’annonce de recherche dynamique étendus](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft® Advertising] paramètres de publicité de produit](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] paramètres de publicité réactive (audience)](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft® Advertising] paramètres de publicité de recherche réactive](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] paramètres d’annonce de recherche dynamique étendus](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] paramètres de publicité de produit](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] paramètres de publicité réactive (audience)](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] paramètres de publicité de recherche réactive](ad-settings-microsoft-rsa.md)

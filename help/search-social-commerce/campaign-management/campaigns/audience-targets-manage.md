@@ -1,20 +1,20 @@
 ---
 title: Gestion des cibles d’audience pour les campagnes et les groupes publicitaires
-description: Découvrez comment configurer et gérer les cibles d’audience pour vos [!DNL Google Ads] et [!DNL Microsoft® Advertising] campagnes et groupes publicitaires.
+description: Découvrez comment configurer et gérer les cibles d’audience pour vos [!DNL Google Ads] et [!DNL Microsoft Advertising] campagnes et groupes publicitaires.
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
 
 ---
 
-# Gestion des cibles d’audience pour votre [!DNL Google Ads] et [!DNL Microsoft® Advertising] campagnes et groupes publicitaires
+# Gestion des cibles d’audience pour votre [!DNL Google Ads] et [!DNL Microsoft Advertising] campagnes et groupes publicitaires
 
-*[!DNL Google Ads]et [!DNL Microsoft® Advertising] only*
+*[!DNL Google Ads]et [!DNL Microsoft Advertising] only*
 
-[!DNL Google Ads] campagnes et groupes publicitaires, et [!DNL Microsoft® Advertising] groupes publicitaires peuvent cibler des audiences spécifiques du même réseau publicitaire. Le réseau publicitaire détermine la taille d’une audience qui doit pouvoir être ciblée.
+[!DNL Google Ads] campagnes et groupes publicitaires, et [!DNL Microsoft Advertising] groupes publicitaires peuvent cibler des audiences spécifiques du même réseau publicitaire. Le réseau publicitaire détermine la taille d’une audience qui doit pouvoir être ciblée.
 
 >[!NOTE]
 >

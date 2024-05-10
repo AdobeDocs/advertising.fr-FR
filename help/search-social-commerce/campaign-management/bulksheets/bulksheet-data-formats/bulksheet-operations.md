@@ -1,9 +1,9 @@
 ---
 title: Opérations que vous pouvez effectuer dans des feuilles d’envoi groupées
 description: Référencez des informations générales sur l’ajout, la modification et la suppression de données de campagne à l’aide de feuilles d’envoi groupées.
-exl-id: 82969bb8-dff8-48e7-b37d-1446a2a90072
+exl-id: 17ec9307-6dfd-45cb-b8bd-d0d7fcbf2d41
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Les règles suivantes s’appliquent à l’utilisation des composants de campag
 
       * ([!UICONTROL Google Ads] uniquement) [!UICONTROL Description Line 1], [!UICONTROL Description Line 2]
 
-      * ([!DNL Google Ads] et [!DNL Microsoft® Advertising] uniquement) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
+      * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
 
 >[!NOTE]
 >

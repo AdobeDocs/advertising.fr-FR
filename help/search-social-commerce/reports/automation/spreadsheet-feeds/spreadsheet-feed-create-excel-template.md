@@ -1,9 +1,9 @@
 ---
 title: Créez un [!DNL Excel] modèle pour un flux de rapport de feuille de calcul
 description: Découvrez comment créer des modèles de feuille de calcul spécialement formatés.
-exl-id: d675cb8c-b7a9-4d7b-8435-5dd662d151a3
+exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Pour les rapports de base et les rapports de précision des modèles uniquement*
 
-Pour créer des flux de feuille de calcul, vous devez d’abord créer des flux spécialement formatés. [!DNL Microsoft® Excel] modèles de feuille de calcul utilisant des modèles de rapport standard. Vous pouvez éventuellement personnaliser la variable [!DNL Excel] feuille de calcul pour inclure des colonnes et des graphiques supplémentaires.
+Pour créer des flux de feuille de calcul, vous devez d’abord créer des flux spécialement formatés. [!DNL Microsoft Excel] modèles de feuille de calcul utilisant des modèles de rapport standard. Vous pouvez éventuellement personnaliser la variable [!DNL Excel] feuille de calcul pour inclure des colonnes et des graphiques supplémentaires.
 
 1. Dans **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, générez le type de rapport souhaité à l’aide d’un [!UICONTROL Date Aggregation] unité de &quot;[!UICONTROL Daily]&quot; et avec tous les autres paramètres de données de votre choix, en enregistrant le rapport en tant que modèle.
 

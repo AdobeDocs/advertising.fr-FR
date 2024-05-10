@@ -3,7 +3,7 @@ title: Créer un plan de portée télévisée connectée
 description: Découvrez comment créer un plan de portée TV connecté.
 feature: DSP Planner
 exl-id: 88b1fb23-f856-44ed-a955-844a329efb98
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    Une fois le plan enregistré, la sortie prévisionnelle s’affiche.
 
-1. Pour exporter le [!UICONTROL Budget vs Reach] prévision d’une [!DNL Microsoft® Excel] feuille de calcul**, cliquez sur **[!UICONTROL ...]** dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Export]**.
+1. Pour exporter le [!UICONTROL Budget vs Reach] prévision d’une [!DNL Microsoft Excel] feuille de calcul**, cliquez sur **[!UICONTROL ...]** dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

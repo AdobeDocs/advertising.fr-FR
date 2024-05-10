@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Bing Ads Geo Report]'
 description: En savoir plus sur les [!UICONTROL Bing Ads Geo Report].
-exl-id: b14e5039-4af6-43de-925c-429f537dad6a
+exl-id: 8829ac72-d622-485d-abfb-310778f266b7
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Bing Ads Geo Report]
 
-*[!DNL Microsoft® Advertising]comptes uniquement*
+*[!DNL Microsoft Advertising]comptes uniquement*
 
 La variable [!UICONTROL Bing Ads Geo Report] inclut les données de mesure dérivées (facultatives), de clics, de coûts et de mesures par combinaison pays/région/code métro/ville pour chaque groupe publicitaire dans un ou plusieurs comptes. Par défaut, les données comprennent une ligne pour chaque combinaison pays/région/code métro/ville ayant reçu au moins une impression ou un clic pour chaque groupe publicitaire applicable pour chaque unité de temps au cours de la période spécifiée. Par défaut, les lignes sont dans l’ordre croissant en fonction du nom de la campagne, puis par pays, région, code métro, ville et groupe publicitaire. Le rapport n’inclut pas les données de conversion suivies par [!DNL Microsoft Advertising] nor [!DNL Adobe].
 
@@ -48,6 +48,6 @@ Pour obtenir des descriptions de toutes les colonnes par défaut et personnalis�
 
 >[!MORELIKETHIS]
 >
-* [À propos des rapports spécialisés](specialty-report-about.md)
-* [Génération d’un rapport de spécialité](specialty-report-generate.md)
-* [Paramètres des rapports de spécialité](specialty-report-settings.md)
+>* [À propos des rapports spécialisés](specialty-report-about.md)
+>* [Génération d’un rapport de spécialité](specialty-report-generate.md)
+>* [Paramètres des rapports de spécialité](specialty-report-settings.md)

@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Campaign Daily Impression Share Report]'
 description: En savoir plus sur les [!UICONTROL Campaign Daily Impression Share Report].
-exl-id: 85243fd0-0c39-4e73-b798-48710f887985
+exl-id: 0c77277f-e4a8-4c4b-83e8-0ad83402d81f
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Campaign Daily Impression Share Report]
 
-*[!DNL Google Ads]et [!DNL Microsoft® Advertising] comptes uniquement*
+*[!DNL Google Ads]et [!DNL Microsoft Advertising] comptes uniquement*
 
 La variable [!UICONTROL Campaign Daily Impression Share Report] inclut des mesures de partage d’impression quotidiennes par type d’appareil pour une ou plusieurs campagnes. Par défaut, les données comprennent une ligne pour chaque campagne qui a reçu au moins une impression ou un clic par jour au cours de la période spécifiée, et les lignes sont dans l’ordre croissant par date. Le rapport peut éventuellement inclure des données suivies par [!DNL Adobe] et les mesures dérivées.
 

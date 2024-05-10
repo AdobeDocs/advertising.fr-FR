@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] paramètres de publicité de recherche réactive'
-description: Référencez les paramètres pour [!DNL Microsoft® Advertising] annonces de recherche réactive.
-exl-id: 4ee3c81a-38f4-448d-aea5-c062ab0a6f2a
+title: '''[!DNL Microsoft Advertising] paramètres de publicité de recherche réactive'
+description: Référencez les paramètres pour [!DNL Microsoft Advertising] annonces de recherche réactive.
+exl-id: 470008e1-7c7d-49a6-b542-fe384c473c97
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] paramètres de publicité de recherche réactive
+# [!DNL Microsoft Advertising] paramètres de publicité de recherche réactive
 
 Le format d’annonce de recherche réactive est disponible pour les annonces du réseau de recherche. Le réseau publicitaire rassemble dynamiquement les annonces responsives sur le Réseau de Recherche à l’aide des combinaisons les plus efficaces d’éléments Publicitaires.
 
@@ -51,7 +51,7 @@ Le format d’annonce de recherche réactive est disponible pour les annonces du
 >
 >* [A propos des publicités](ad-about.md)
 >* [Gestion des publicités](ad-manage.md)
->* [[!DNL Microsoft® Advertising] paramètres d’annonce de recherche dynamique étendus](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft® Advertising] paramètres de publicité multimédia](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft® Advertising] paramètres de publicité de produit](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] paramètres de publicité réactive (audience)](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] paramètres d’annonce de recherche dynamique étendus](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] paramètres de publicité multimédia](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] paramètres de publicité de produit](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] paramètres de publicité réactive (audience)](ad-settings-microsoft-responsive.md)

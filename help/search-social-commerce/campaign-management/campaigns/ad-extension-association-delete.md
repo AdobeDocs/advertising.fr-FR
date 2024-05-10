@@ -3,7 +3,7 @@ title: Supprimer des associations d’extension d’annonce avec des campagnes e
 description: Découvrez comment dissocier des extensions d’annonces avec des campagnes et des groupes d’annonces.
 exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
 feature: Search Campaign Management
-source-git-commit: bd7d7ed571ef281f534ab45dc92f20be9445b055
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Supprimer des associations d’extension d’annonce avec des campagnes et des groupes d’annonces
 
-*[!DNL Google Ads]et [!DNL Microsoft® Advertising] only*
+*[!DNL Google Ads]et [!DNL Microsoft Advertising] only*
 
 Vous pouvez supprimer les associations au niveau des campagnes et des groupes publicitaires avec n’importe quel emplacement, téléphone et extension de lien de site.
 

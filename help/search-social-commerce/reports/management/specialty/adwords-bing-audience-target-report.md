@@ -1,20 +1,20 @@
 ---
 title: '[!UICONTROL AdWords and Bing Audience Target Report]'
 description: En savoir plus sur les [!UICONTROL AdWords and Bing Audience Target Report].
-exl-id: 02c12266-f11b-4478-a511-8ee464dbb061
+exl-id: 083a5316-e4ec-45f5-a9ae-901cf5eecef4
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL AdWords and Bing Audience Target Report]
 
-*[!DNL Google Ads]et [!DNL Microsoft® Advertising] comptes uniquement*
+*[!DNL Google Ads]et [!DNL Microsoft Advertising] comptes uniquement*
 
-La variable [!UICONTROL AdWords and Bing Audience Target Report] inclut les données de mesure dérivées (facultatives), de clics, d’impressions et de coûts par cible d’audience ([!DNL Google Ads] les audiences basées sur les données client, in-marché et similaires et vos [!DNL Microsoft® Advertising] remarketing, personnalisé, correspondance client, audiences similaires et in-marché ) pour un ou plusieurs groupes publicitaires ou campagnes. Par défaut, les données comprennent une ligne pour chaque audience qui a reçu au moins une impression ou un clic pour chaque groupe publicitaire applicable pour chaque unité de temps au cours de la période spécifiée. Les lignes sont dans l’ordre croissant par nom de groupe publicitaire, puis par audience par défaut. Le rapport comprend les données de conversion suivies par [!DNL Adobe] pour les cibles de liste de remarketing uniquement.
+La variable [!UICONTROL AdWords and Bing Audience Target Report] inclut les données de mesure dérivées (facultatives), de clics, d’impressions et de coûts par cible d’audience ([!DNL Google Ads] les audiences basées sur les données client, in-marché et similaires et vos [!DNL Microsoft Advertising] remarketing, personnalisé, correspondance client, audiences similaires et in-marché ) pour un ou plusieurs groupes publicitaires ou campagnes. Par défaut, les données comprennent une ligne pour chaque audience qui a reçu au moins une impression ou un clic pour chaque groupe publicitaire applicable pour chaque unité de temps au cours de la période spécifiée. Les lignes sont dans l’ordre croissant par nom de groupe publicitaire, puis par audience par défaut. Le rapport comprend les données de conversion suivies par [!DNL Adobe] pour les cibles de liste de remarketing uniquement.
 
 Vous pouvez afficher les données jusqu’à l’année précédente.
 
@@ -42,6 +42,6 @@ Pour obtenir des descriptions de toutes les colonnes par défaut et personnalis�
 
 >[!MORELIKETHIS]
 >
-* [À propos des rapports spécialisés](specialty-report-about.md)
-* [Génération d’un rapport de spécialité](specialty-report-generate.md)
-* [Paramètres des rapports de spécialité](specialty-report-settings.md)
+>* [À propos des rapports spécialisés](specialty-report-about.md)
+>* [Génération d’un rapport de spécialité](specialty-report-generate.md)
+>* [Paramètres des rapports de spécialité](specialty-report-settings.md)

@@ -3,7 +3,7 @@ title: ID d’Adobe Advertising utilisés par [!DNL Analytics]
 description: ID d’Adobe Advertising utilisés par [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 0%
@@ -116,9 +116,9 @@ Le paramètre est ajouté à vos URL de suivi de l’une des manières suivantes
 
    * Clients Search, Social et Commerce :
 
-      * Pour [!DNL Google Ads] et [!DNL Microsoft® Advertising] compte avec la variable [!UICONTROL Auto Upload] activée pour le compte ou la campagne, le serveur de pixels ajoute automatiquement le paramètre s_kwcid aux suffixes de votre page d’entrée lorsqu’un utilisateur clique sur une publicité avec le pixel Adobe Advertising.
+      * Pour [!DNL Google Ads] et [!DNL Microsoft Advertising] compte avec la variable [!UICONTROL Auto Upload] activée pour le compte ou la campagne, le serveur de pixels ajoute automatiquement le paramètre s_kwcid aux suffixes de votre page d’entrée lorsqu’un utilisateur clique sur une publicité avec le pixel Adobe Advertising.
 
-      * Pour d’autres réseaux publicitaires, ou [!DNL Google Ads] et [!DNL Microsoft® Advertising] compte avec la variable [!UICONTROL Auto Upload] désactivé, ajoutez manuellement le paramètre à votre [paramètres d’ajout au niveau du compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, qui l’ajoute à vos URL de base.
+      * Pour d’autres réseaux publicitaires, ou [!DNL Google Ads] et [!DNL Microsoft Advertising] compte avec la variable [!UICONTROL Auto Upload] désactivé, ajoutez manuellement le paramètre à votre [paramètres d’ajout au niveau du compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, qui l’ajoute à vos URL de base.
 
 * Lorsque la fonction d’insertion côté serveur n’est pas mise en oeuvre :
 
@@ -130,7 +130,7 @@ Le paramètre est ajouté à vos URL de suivi de l’une des manières suivantes
 
    * Clients Search, Social et Commerce :
 
-      * Pour ([!DNL Google Ads] et [!DNL Microsoft® Advertising]) publicités, ajoutez manuellement le paramètre AMO ID aux suffixes de votre page d’entrée, idéalement au niveau de la balise [niveau de compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} sauf si un suivi différent des composants de compte individuels est nécessaire.
+      * Pour ([!DNL Google Ads] et [!DNL Microsoft Advertising]) publicités, ajoutez manuellement le paramètre AMO ID aux suffixes de votre page d’entrée, idéalement au niveau de la balise [niveau de compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} sauf si un suivi différent des composants de compte individuels est nécessaire.
 
       * Pour les publicités sur tous les autres réseaux publicitaires, ajoutez manuellement le paramètre AMO ID à votre [paramètres d’ajout au niveau du compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, qui l’ajoute à vos URL de base.
 

@@ -1,9 +1,9 @@
 ---
 title: Gestion des fichiers de flux de données d’inventaire
 description: Découvrez comment configurer les paramètres qui contrôlent le traitement des données de flux.
-exl-id: 73d372de-2673-4190-94cf-2f07f4ce2493
+exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gestion des fichiers de flux de données d’inventaire
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
 
 Si vous envoyez vos propres données de flux, vous devez charger des fichiers contenant les données de votre produit pour créer dynamiquement la structure de campagne, les publicités et les mots-clés, en fonction des données de votre produit. Vous pouvez ensuite les associer à des modèles de publicité spécifiques au réseau et traiter les données par le biais des modèles, puis publier les données sur les réseaux publicitaires appropriés. Vous pouvez associer plusieurs modèles à un fichier de flux, mais chaque modèle peut être associé à un seul fichier de flux.
 

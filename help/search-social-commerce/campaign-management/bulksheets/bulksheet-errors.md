@@ -1,11 +1,11 @@
 ---
 title: Erreurs de feuilles d’envoi groupé
 description: Raisons potentielles de référence de chaque erreur de feuille d’envoi groupé.
-exl-id: 0a259aca-2e9a-4e24-b4db-f8d0249d25d4
+exl-id: dc3559b0-05c0-4896-b9e9-67084f56ab80
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Les erreurs suivantes peuvent être incluses dans la variable [!UICONTROL EF Err
 | Catégorie | Message | Description |
 |----|----|----|
 | Général | [!UICONTROL Internal Error: Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | L’opération a complètement échoué en raison d’une erreur non classée ou non gérée. Si le problème persiste, contactez votre équipe de compte d’Adobe pour enquêter sur la cause. |
-| | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Search, Social et Commerce n’ont pas pu se synchroniser avec le réseau publicitaire avant de créer la feuille d’envoi groupé. Aucune feuille d’envoi groupé n’a donc été créée. Si le problème persiste, contactez votre équipe de compte d’Adobe. |
+| | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Les solutions Search, Social et Commerce n’ont pas pu se synchroniser avec le réseau publicitaire avant de créer la feuille d’envoi groupé. Aucune feuille d’envoi groupé n’a donc été créée. Si le problème persiste, contactez votre équipe de compte d’Adobe. |
 
 ### Erreurs de chargement
 
@@ -43,15 +43,15 @@ Les erreurs suivantes peuvent être incluses dans la variable [!UICONTROL EF Err
 |----|----|----|
 | Général | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | L&#39;opération a complètement échoué. Si le problème persiste, contactez votre équipe de compte d’Adobe. |
 | Toutes les entités | [!UICONTROL Invalid Fields.] \[champs non valides et erreur\] | Les données spécifiées sont manquantes ou non valides. |
-|  | [!UICONTROL Invalid Reference Given] | L’identifiant de l’entité sur le réseau publicitaire, ou l’identifiant d’une entité parent (tel que l’identifiant de compte), ne correspond pas à une entité dans Search, Social et Commerce. Cela peut se produire lorsque vous avez modifié l’ID dans la feuille d’envoi groupé. |
+|  | [!UICONTROL Invalid Reference Given] | L’identifiant de l’entité sur le réseau publicitaire, ou l’identifiant d’une entité parente (comme l’identifiant de compte), ne correspond pas à une entité dans Search, Social et Commerce. Cela peut se produire lorsque vous avez modifié l’ID dans la feuille d’envoi groupé. |
 |  | [!UICONTROL <Entity> is deleted or expired] | L’entité a expiré ou a été supprimée et vous ne pouvez pas en modifier les propriétés. L’entité peut être supprimée lorsqu’une personne a modifié manuellement l’état. |
-|  | [!UICONTROL <Entity> status should be Active or Paused] | (Nouvelles entités) Une nouvelle entité ne peut être que &quot;Principale&quot; ou &quot;En pause&quot;. |
+|  | [!UICONTROL <Entity> status should be Active or Paused] | (Nouvelles entités) Une nouvelle entité peut uniquement être &quot;Actif&quot; ou &quot;En pause&quot;. |
 |  | [!UICONTROL Duplicate Entries are present] | Plusieurs lignes sont incluses pour la même entité, avec des attributs différents dans chaque ligne. Consolidation des modifications sur une seule ligne. |
 |  | [!UICONTROL Invalid AMO ID given] | L’AMO ID de la ligne n’existe pas. Cela peut se produire si vous avez modifié l’identifiant dans la feuille d’envoi groupé. |
 |  | [!UICONTROL Invalid row given] | La ligne ne contient pas suffisamment d’informations pour déterminer le type d’entité. Modifiez la ligne pour inclure tous les champs requis pour le type d’entité. |
 | Comptes | [!UICONTROL Provide Valid Account Details] | (Feuilles d’envoi groupées pour plusieurs comptes) Les identifiants de compte ne sont pas inclus dans toutes les lignes. Saisissez les valeurs de l’une des combinaisons de colonnes suivantes pour chaque ligne : a) &quot;[!UICONTROL AMO ID]&quot; ou b) &quot;[!UICONTROL Account Name]&quot; et &quot;[!UICONTROL Platform].&quot; |
-|  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | Search, Social et Commerce n’a pas accès au compte réseau publicitaire. Vous ne pouvez donc pas créer ni modifier les données de campagne. Assurez-vous que les informations d’identification du compte de recherche sont correctes et que le compte est activé. |
-| Campagne | [!UICONTROL Invalid Shopping Country specified] | (Campagnes d’achat) La valeur de la variable[!UICONTROL Sales Country]&quot; n’est pas valide. Consultez la liste des pays valides [pour [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable) et [pour [!DNL Microsoft® Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083). |
+|  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | Search, Social et Commerce n’a pas accès au compte de réseau publicitaire. Vous ne pouvez donc pas créer ni modifier les données de campagne. Assurez-vous que les informations d’identification du compte de recherche sont correctes et que le compte est activé. |
+| Campagne | [!UICONTROL Invalid Shopping Country specified] | (Campagnes d’achat) La valeur de la variable[!UICONTROL Sales Country]&quot; n’est pas valide. Consultez la liste des pays valides [pour [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable) et [pour [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083). |
 | Tous les composants de campagne | [!UICONTROL Campaign creation failed] | La campagne parente n’a pas été créée. Cette entité n’a donc pas été créée. Assurez-vous que toutes les entités parentes contiennent tous les champs requis. |
 | Groupe publicitaire | [!UICONTROL Campaign Row missing] | La campagne parente spécifiée n’existe pas. Le groupe publicitaire n’a donc pas été créé. Créez la campagne parente dans une nouvelle ligne. |
 |  | [!UICONTROL New adgroup has both keywords and placement] | Un groupe publicitaire peut contenir des mots-clés ou des emplacements, mais pas les deux. Créez des groupes d’annonces distincts pour les mots-clés et les emplacements. |
@@ -83,7 +83,7 @@ Les erreurs suivantes se produisent dans [!UICONTROL EF Errors] fichiers uniquem
 | Catégorie | Message | Description |
 |----|----|----|
 | Général | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | L&#39;opération a complètement échoué. Si le problème persiste, contactez votre équipe de compte d’Adobe. |
-| Toutes les entités | [!UICONTROL Entity] est publié sur le réseau publicitaire | L’entité a été publiée sur le réseau publicitaire, mais elle n’a pas été synchronisée dans Search, Social et Commerce au même moment. Les données d’entité ne sont donc pas immédiatement disponibles dans Search, Social et Commerce. Le processus de synchronisation est maintenant déclenché automatiquement.<br><br>Lorsque de grandes quantités de données sont synchronisées, les données peuvent ne pas être disponibles dans Search, Social et Commerce pendant plusieurs heures ou plus. |
+| Toutes les entités | [!UICONTROL Entity] est publié sur le réseau publicitaire | L’entité a été publiée sur le réseau publicitaire, mais elle n’a pas été synchronisée simultanément avec Search, Social et Commerce. Les données d’entité ne sont donc pas immédiatement disponibles dans Search, Social et Commerce. Le processus de synchronisation est maintenant déclenché automatiquement.<br><br>Lorsque de grandes quantités de données sont synchronisées, les données peuvent ne pas être disponibles dans Search, Social et Commerce pendant plusieurs heures ou plus. |
 | | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | L’entité parente n’a pas pu être créée. Cette entité enfant n’a donc pas été créée. |
 
 >[!MORELIKETHIS]

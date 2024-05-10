@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] paramètres de campagne'
-description: Référencez les paramètres pour [!DNL Microsoft® Advertising] campagnes.
+title: '''[!DNL Microsoft Advertising] paramètres de campagne'
+description: Référencez les paramètres pour [!DNL Microsoft Advertising] campagnes.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1966'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] paramètres de campagne
+# [!DNL Microsoft Advertising] paramètres de campagne
 
 ## \[Ecran de création de campagne\]
 
@@ -18,19 +18,19 @@ ht-degree: 0%
 
 * *[!UICONTROL Search]:* Affiche des publicités textuelles sur le réseau de recherche.
 
-* *[!UICONTROL Shopping Network]:* Affiche des publicités de produits pour vos produits dans votre [!DNL Microsoft® Merchant Center] catalogue de produits — sur le réseau d’achat.
+* *[!UICONTROL Shopping Network]:* Affiche des publicités de produits pour vos produits dans votre [!DNL Microsoft Merchant Center] catalogue de produits — sur le réseau d’achat.
 
-* *[!UICONTROL Audience]:* Affiche des publicités natives/affichées sur le [!DNL Microsoft® Audience Network]. Vous pouvez : a) générer automatiquement des publicités basées sur le flux en liant la campagne à un magasin de centre commercial dans la variable [!UICONTROL Shopping Settings] ou b) créer des publicités réactives avec des ressources textuelles et des images téléchargées. Les deux options exigent que vous créiez des groupes d’annonces avec le ciblage des utilisateurs.
+* *[!UICONTROL Audience]:* Affiche des publicités natives/affichées sur le [!DNL Microsoft Audience Network]. Vous pouvez : a) générer automatiquement des publicités basées sur le flux en liant la campagne à un magasin de centre commercial dans la variable [!UICONTROL Shopping Settings] ou b) créer des publicités réactives avec des ressources textuelles et des images téléchargées. Les deux options exigent que vous créiez des groupes d’annonces avec le ciblage des utilisateurs.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Fonction bêta) Promotion de vos produits par le biais de revendeurs liés sur les réseaux de recherche et d’audience. Vous pouvez créer des groupes d’annonces enfants et des groupes de produits (applications à promouvoir), ainsi que des publicités de produits facultatives pour la campagne ; [!DNL Microsoft® Advertising] crée automatiquement des publicités pour les groupes de produits. Pour les campagnes d’achat de marques, utilisez la stratégie d’offre [!UICONTROL Manual CPC]; pour les promotions d’achats pour les marques, utilisez la stratégie d’offre [!UICONTROL Cost per Sale].
+* *[!UICONTROL Shopping Campaigns for Brands]:* (Fonction bêta) Promotion de vos produits par le biais de revendeurs liés sur les réseaux de recherche et d’audience. Vous pouvez créer des groupes d’annonces enfants et des groupes de produits (applications à promouvoir), ainsi que des publicités de produits facultatives pour la campagne ; [!DNL Microsoft Advertising] crée automatiquement des publicités pour les groupes de produits. Pour les campagnes d’achat de marques, utilisez la stratégie d’offre [!UICONTROL Manual CPC]; pour les promotions d’achats pour les marques, utilisez la stratégie d’offre [!UICONTROL Cost per Sale].
 
-* *[!UICONTROL Microsoft® Store Ads Campaign]:* (Fonction bêta) Promotion de vos applications et jeux disponibles dans la variable [!DNL Microsoft® Store]. Vous pouvez créer des groupes d’annonces enfants, des groupes de produits et des publicités de produits facultatives pour la campagne ; [!DNL Microsoft® Advertising] crée automatiquement des publicités pour les groupes de produits.
+* *[!UICONTROL Microsoft Store Ads Campaign]:* (Fonction bêta) Promotion de vos applications et jeux disponibles dans la variable [!DNL Microsoft Store]. Vous pouvez créer des groupes d’annonces enfants, des groupes de produits et des publicités de produits facultatives pour la campagne ; [!DNL Microsoft Advertising] crée automatiquement des publicités pour les groupes de produits.
 
 * *[!UICONTROL Audience CTV Video]:* (Fonction bêta) Affiche les publicités vidéo de la télévision connectée (CTV) sur le réseau d’audience.
 
 * *[!UICONTROL Audience Video]:* (Fonction bêta) Affiche des publicités vidéo standard sur le réseau d’audience.
 
-* *[!UICONTROL Performance Max]:* (Fonction bêta) Affiche plusieurs types d’annonces sur tous les réseaux à l’aide de [!DNL Microsoft® Advertising] enchères intelligentes. Dans les paramètres de l&#39;opération, vous devez indiquer un ou plusieurs groupes de ressources, notamment des images, des logos, des titres, des descriptions, un appel à l&#39;action facultatif et des signaux d&#39;audience. Le réseau publicitaire combine automatiquement les ressources pour diffuser des publicités en fonction du canal.
+* *[!UICONTROL Performance Max]:* (Fonction bêta) Affiche plusieurs types d’annonces sur tous les réseaux à l’aide de [!DNL Microsoft Advertising] enchères intelligentes. Dans les paramètres de l&#39;opération, vous devez indiquer un ou plusieurs groupes de ressources, notamment des images, des logos, des titres, des descriptions, un appel à l&#39;action facultatif et des signaux d&#39;audience. Le réseau publicitaire combine automatiquement les ressources pour diffuser des publicités en fonction du canal.
 
 ## [!UICONTROL Campaign Details]
 
@@ -68,11 +68,11 @@ ht-degree: 0%
 
   Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de réseaux sociaux et de Commerce optimisé, Search, Social et Commerce optimise les offres de base et , lorsque le paramètre[!UICONTROL Auto adjust campaign budget limits]&quot; est activée : le budget de l’opération. Le réseau publicitaire optimise tous les ajustements d’offres et peut modifier les offres générées par Search, Social et Commerce au moment de la requête de l’utilisateur en fonction de données et d’informations propriétaires. **Attention :** Utilisez les campagnes eCPC dans les portfolios uniquement lorsque le total des conversions suivies sur le réseau publicitaire correspond à l’objectif du portfolio.
 
-* *[!UICONTROL Manual CPC]*: (campagnes commerciales pour les marques ; [!DNL Microsoft® Store Ads] campagnes ; obsolète de [!DNL Microsoft® Advertising] en 2021 pour les autres types de campagne) Utilise le modèle coût par clic (CPC). Pour certains types d’annonces, vous pouvez éventuellement autoriser le réseau publicitaire à modifier les offres pour la campagne :
+* *[!UICONTROL Manual CPC]*: (campagnes commerciales pour les marques ; [!DNL Microsoft Store Ads] campagnes ; obsolète de [!DNL Microsoft Advertising] en 2021 pour les autres types de campagne) Utilise le modèle coût par clic (CPC). Pour certains types d’annonces, vous pouvez éventuellement autoriser le réseau publicitaire à modifier les offres pour la campagne :
 
    * **[!UICONTROL Enable Enhanced CPC]** (désactivée par défaut) : cette option est identique à l’utilisation de l’option &quot;[!UICONTROL Enhanced CPC]&quot;.
 
-* *[!UICONTROL Manual CPA]:* ([!DNL Microsoft® Store Ads] campagnes) Utilise le modèle de coût par acquisition (CPA).
+* *[!UICONTROL Manual CPA]:* ([!DNL Microsoft Store Ads] campagnes) Utilise le modèle de coût par acquisition (CPA).
 
 * *[!UICONTROL Manual CPM]* (Campagnes d’audience et campagnes vidéo d’audience uniquement) Utilise le modèle coût par millier d’impressions (CPM), pour lequel vous spécifiez les dépenses à dépenser pour 1 000 impressions vues. Les campagnes avec cette stratégie d’offre ne sont pas optimisées lorsqu’elles sont incluses dans les portefeuilles.
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 <!-- **[!UICONTROL Campaign Priority]:** -->
 
-**[!UICONTROL Link with Microsoft® Merchant Center]:** (Campagnes d’audience uniquement ; facultatif) associe la campagne à un magasin de centre commercial spécifique pour les publicités automatisées basées sur les flux plutôt que les publicités réactives. Lorsque vous sélectionnez cette option, indiquez la variable [!UICONTROL Merchant ID] et [!UICONTROL Products]. Vous devez créer des groupes publicitaires pour la campagne, mais vous n’avez pas besoin de créer des publicités.
+**[!UICONTROL Link with Microsoft Merchant Center]:** (Campagnes d’audience uniquement ; facultatif) associe la campagne à un magasin de centre commercial spécifique pour les publicités automatisées basées sur les flux plutôt que les publicités réactives. Lorsque vous sélectionnez cette option, indiquez la variable [!UICONTROL Merchant ID] et [!UICONTROL Products]. Vous devez créer des groupes publicitaires pour la campagne, mais vous n’avez pas besoin de créer des publicités.
 
 Une fois que vous avez lié la campagne à un magasin et enregistré les paramètres, vous ne pouvez pas modifier cette option.
 
@@ -116,7 +116,7 @@ Une fois que vous avez lié la campagne à un magasin et enregistré les paramè
 
 ## [!UICONTROL Campaign Targeting]
 
-**[!UICONTROL Languages]:** (Campagnes max sur les performances uniquement) Langue de la publicité, qui doit correspondre à la langue des sites sur lesquels votre publicité peut apparaître. [!DNL Microsoft® Advertising] détermine la langue d’un utilisateur à partir de divers signaux, y compris la requête de l’utilisateur, le pays de l’éditeur et le paramètre de langue de l’utilisateur.
+**[!UICONTROL Languages]:** (Campagnes max sur les performances uniquement) Langue de la publicité, qui doit correspondre à la langue des sites sur lesquels votre publicité peut apparaître. [!DNL Microsoft Advertising] détermine la langue d’un utilisateur à partir de divers signaux, y compris la requête de l’utilisateur, le pays de l’éditeur et le paramètre de langue de l’utilisateur.
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -164,7 +164,7 @@ Une fois que vous avez lié la campagne à un magasin et enregistré les paramè
 
 **[!UICONTROL Negative Websites]:** (Campagnes sur le réseau d’affichage/natif uniquement ; facultatif) Sites sur le réseau d’affichage sur lequel vous ne souhaitez pas que vos publicités s’affichent. Saisissez une URL valide, telle que www.example.com. Pour spécifier plusieurs chaînes, séparez-les par des virgules ou saisissez-les sur des lignes distinctes.
 
-Pour plus d’informations sur la disponibilité, voir l’aide de Microsoft® Advertising à &quot;[Empêcher l’affichage des publicités sur des sites web spécifiques](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+Pour plus d’informations sur la disponibilité, voir l’aide de Microsoft Advertising en &quot;[Empêcher l’affichage des publicités sur des sites web spécifiques](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 ## [!UICONTROL Campaign Tracking]
 
@@ -206,7 +206,7 @@ Pour plus d’informations sur la disponibilité, voir l’aide de Microsoft® A
 
 **[!UICONTROL Final URL]:** URL finale de toutes les publicités créées à partir du groupe de ressources.
 
-**[!UICONTROL Images]:** Jusqu’à 20 images pour la publicité, dont au moins une image carrée et une image paysage. Voir [[!DNL Microsoft® Advertising] directives relatives aux images](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Vous pouvez soit télécharger des images, soit les sélectionner parmi les [!UICONTROL Asset Library] — mais pas les deux dans la même opération.
+**[!UICONTROL Images]:** Jusqu’à 20 images pour la publicité, dont au moins une image carrée et une image paysage. Voir [[!DNL Microsoft Advertising] directives relatives aux images](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Vous pouvez soit télécharger des images, soit les sélectionner parmi les [!UICONTROL Asset Library] — mais pas les deux dans la même opération.
 
 * Pour télécharger des images :
 
@@ -228,7 +228,7 @@ Pour plus d’informations sur la disponibilité, voir l’aide de Microsoft® A
 
 * Pour sélectionner des images dans votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez les images.
 
-**[!UICONTROL Logos]:** Au moins un logo. Vous pouvez inclure jusqu’à cinq. Voir [[!DNL Microsoft® Advertising] directives relatives aux ressources](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Vous pouvez soit télécharger des images, soit les sélectionner parmi les [!UICONTROL Asset Library] — mais pas les deux dans la même opération.
+**[!UICONTROL Logos]:** Au moins un logo. Vous pouvez inclure jusqu’à cinq. Voir [[!DNL Microsoft Advertising] directives relatives aux ressources](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Vous pouvez soit télécharger des images, soit les sélectionner parmi les [!UICONTROL Asset Library] — mais pas les deux dans la même opération.
 
 * Pour télécharger des images :
 
@@ -284,7 +284,7 @@ Pour plus d’informations sur la disponibilité, voir l’aide de Microsoft® A
 
 **[!UICONTROL Business Name]:** Nom de l’entreprise, avec un maximum de 25 caractères. Il ne peut pas contenir de scripts, de HTMLS ou d’autres langages de balisage.
 
-**[!UICONTROL Audience Signal]:** (Facultatif) [!DNL Microsoft® Advertising] audiences à utiliser comme signaux d’audience pour la campagne. [!DNL Microsoft® Advertising] Les modèles d’apprentissage automatique utilisent les audiences pour trouver des internautes similaires à cibler et peuvent également afficher des publicités à des audiences qui ne sont pas spécifiées comme signaux pour vous aider à atteindre vos objectifs de performances. Choisissez les audiences les plus susceptibles d’être converties.
+**[!UICONTROL Audience Signal]:** (Facultatif) [!DNL Microsoft Advertising] audiences à utiliser comme signaux d’audience pour la campagne. [!DNL Microsoft Advertising] Les modèles d’apprentissage automatique utilisent les audiences pour trouver des internautes similaires à cibler et peuvent également afficher des publicités à des audiences qui ne sont pas spécifiées comme signaux pour vous aider à atteindre vos objectifs de performances. Choisissez les audiences les plus susceptibles d’être converties.
 
 >[!NOTE]
 >Les signaux d’audience sont différents de [cibles d’audience au niveau du groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).

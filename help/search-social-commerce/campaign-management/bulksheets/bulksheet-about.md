@@ -1,11 +1,11 @@
 ---
 title: A propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées
 description: Découvrez la fonctionnalité de feuille d’envoi groupé disponible par le réseau publicitaire, le workflow de feuille d’envoi groupé et la gestion des erreurs.
-exl-id: 207cc08b-8650-4243-b9fd-1c920b81c1f9
+exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Toutes les feuilles d’envoi groupé, les fichiers d’erreur de validation de 
 
 ## Fonctionnalité par réseau publicitaire
 
-* **Téléchargez, chargez et publiez :**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], et [!DNL Yandex] comptes
+* **Téléchargez, chargez et publiez :**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], et [!DNL Yandex] comptes
 
 * **Télécharger et télécharger uniquement :** [!DNL Naver] comptes
 
@@ -48,9 +48,9 @@ Les étapes standard d’utilisation des feuilles d’envoi groupées pour les c
 
 1. Lorsque vous devez ajouter des données ou apporter des corrections :
 
-   1. [Exporter le fichier](bulksheet-export.md) sur votre bureau et modifiez-le dans [!DNL Microsoft® Excel].
+   1. [Exporter le fichier](bulksheet-export.md) sur votre bureau et modifiez-le dans [!DNL Microsoft Excel].
 
-   1. [Chargement manuel du fichier modifié](bulksheet-upload.md) vers Search, Social et Commerce ou [télécharger le fichier vers un compte FTP spécifié ;](bulksheet-ftp-account.md) pour la publication automatique.
+   1. [Chargement manuel du fichier modifié](bulksheet-upload.md) vers Search, Social &amp; Commerce ou [télécharger le fichier vers un compte FTP spécifié ;](bulksheet-ftp-account.md) pour la publication automatique.
 
 1. (Pour les fichiers chargés manuellement) [Publier le fichier](bulksheet-post.md) sur le réseau publicitaire au fur et à mesure que vous le téléchargez ou plus tard.
 
@@ -58,7 +58,7 @@ Les étapes standard d’utilisation des feuilles d’envoi groupées pour les c
 
 ## Gestion des erreurs lors du transfert et de la publication de données de campagne
 
-Les services de recherche, Social et Commerce chargent et publient autant de lignes de données que possible à partir d’une feuille de calcul de campagne, y compris les URL de suivi qu’ils génèrent si nécessaire.
+Le module de recherche, Social et Commerce télécharge et publie autant de lignes de données que possible à partir d’une feuille de calcul de campagne, y compris les URL de suivi qu’il génère si nécessaire.
 
 Lorsque des erreurs se produisent lors de l’opération de feuille d’envoi groupé, l’un des deux types de fichiers d’erreur suivants est généré :
 

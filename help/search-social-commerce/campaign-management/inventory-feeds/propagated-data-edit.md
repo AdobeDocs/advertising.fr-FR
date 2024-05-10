@@ -1,9 +1,9 @@
 ---
 title: Modification des données générées à partir de flux
 description: Découvrez comment modifier les données générées à partir de flux de données d’inventaire.
-exl-id: 5f866557-e44b-4fd9-9683-f7fbaf6d308b
+exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Modification des données générées à partir de flux
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
 
 Lorsque vous propagez des données de flux sans les publier simultanément sur le réseau publicitaire, vous pouvez modifier les données de l’une des façons suivantes. Vous pouvez éventuellement [post data](propagated-data-post.md) de chaque emplacement aux réseaux publicitaires appropriés :
 

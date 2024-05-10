@@ -3,7 +3,7 @@ title: Paramètres de suivi facultatifs des URL de suivi des clics
 description: Découvrez les paramètres de suivi facultatifs Search, Social et Commerce et les paramètres de suivi spécifiques au réseau publicitaire que vous pouvez ajouter à vos URL de suivi des clics.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: c743e0dec75578d739a704ef94f96dd7be4f982e
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Paramètres de suivi facultatifs des URL de suivi des clics
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan], et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan], et [!DNL Yandex] comptes uniquement*
 
 Au lieu d’utiliser uniquement les paramètres de suivi standard pour une URL finale ou une URL de destination, vous pouvez ajouter d’autres paramètres pour effectuer le suivi de données spécifiques pour un compte de réseau publicitaire. Vous pouvez ajouter n’importe quelle combinaison des paramètres suivants dans les paramètres du compte ou dans les paramètres de l’opération :
 
@@ -47,7 +47,7 @@ Tous les paramètres suivants doivent être spécifiés sous la forme d’une pa
 | <code>{custom_code}</code> | Pour insérer des données de la colonne &quot;Paramètre d’URL personnalisé&quot; dans un fichier de feuille d’envoi groupé chargé dans l’URL de suivi. {custom_code} ne peut être utilisé qu’à la fin de la valeur d’une ou de plusieurs paires clé-valeur dans l’URL de suivi. Exemples :  <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>Remarque :</b> Pour insérer la valeur personnalisée du fichier de feuille d’envoi groupé dans l’URL de suivi, téléchargez le fichier de feuille d’envoi groupé à l’aide de l’option &quot;Générer les URL de suivi&quot;. Pour plus d’informations sur l’utilisation des fichiers de feuille d’envoi groupé, voir &quot;[A propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).&quot; |
 | <code>{ef_uniqueid}</code> | Pour insérer l’identifiant unique créé par Adobe Advertising. Ajout automatique lorsque la méthode de suivi est &quot;Redirection EF&quot;. |
 | <code>{ef_userid}</code> | Pour insérer l’identifiant utilisateur unique attribué par l’Adobe Advertising à l’annonceur. |
-| <code>{ef_sid}</code> | Pour insérer l’identifiant numérique attribué par Search, Social et Commerce au réseau publicitaire : <i>[!UICONTROL 3]</i> pour [!DNL Google Ads], <i>[!UICONTROL 10]</i> pour [!DNL Microsoft®® Advertising], <i>[!UICONTROL 45]</i> pour [!DNL Meta], <i>[!UICONTROL 86]</i> pour [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> pour [!DNL Naver], <i>[!UICONTROL 88]</i> pour [!DNL Baidu], <i>[!UICONTROL 90]</i> pour [!DNL Yandex], <i>[!UICONTROL 94]</i> pour [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> pour [!DNL Yahoo Native] (obsolète) ou <i>[!UICONTROL 106]</i> pour [!DNL Pinterest] (obsolète). |
+| <code>{ef_sid}</code> | Pour insérer l’identifiant numérique attribué par Search, Social et Commerce au réseau publicitaire : <i>[!UICONTROL 3]</i> pour [!DNL Google Ads], <i>[!UICONTROL 10]</i> pour [!DNL Microsoft® Advertising], <i>[!UICONTROL 45]</i> pour [!DNL Meta], <i>[!UICONTROL 86]</i> pour [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> pour [!DNL Naver], <i>[!UICONTROL 88]</i> pour [!DNL Baidu], <i>[!UICONTROL 90]</i> pour [!DNL Yandex], <i>[!UICONTROL 94]</i> pour [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> pour [!DNL Yahoo Native] (obsolète) ou <i>[!UICONTROL 106]</i> pour [!DNL Pinterest] (obsolète). |
 | <code>{ef_searchengine}</code> | Pour insérer le nom du réseau publicitaire. |
 | <code>{ef_campaign}</code> | Pour insérer le nom de la campagne. |
 | <code>{ef_campaignid}</code> | Pour insérer l’identifiant de campagne. <b>Remarque :</b> L’identifiant d’une nouvelle campagne n’est pas créé tant que la campagne n’a pas été publiée sur le réseau publicitaire. Si le compte utilise le[!UICONTROL EF Redirect]&quot; et &quot;Téléchargement automatique&quot;, puis Adobe Advertising insère automatiquement l’identifiant de campagne dans les URL de destination ou les URL finales appropriées le lendemain. Si le compte n’utilise pas le[!UICONTROL EF Redirect]&quot; et [!UICONTROL Auto Upload]&quot; et que vous souhaitez insérer l’identifiant de campagne dans les URL de destination ou les URL finales appropriées, vous devez créer la campagne, télécharger un fichier de feuille d’envoi groupé pour la nouvelle campagne, à l’aide de l’option &quot;Générer les URL de suivi&quot;, puis publier le fichier sur le réseau publicitaire. |
@@ -55,14 +55,14 @@ Tous les paramètres suivants doivent être spécifiés sous la forme d’une pa
 | <code>{ef_adgroupid}</code> | Pour insérer l’identifiant du groupe publicitaire. <b>Remarque :</b> L’identifiant d’un nouveau groupe publicitaire n’est pas créé tant que le groupe publicitaire n’a pas été publié sur le réseau publicitaire. Si le compte utilise le[!UICONTROL EF Redirect]&quot; et &quot;Téléchargement automatique&quot;, puis Adobe Advertising insère automatiquement l’identifiant du groupe publicitaire dans les URL de destination ou les URL finales appropriées le lendemain. Si le compte n’utilise pas la variable[!UICONTROL EF Redirect]&quot; et [!UICONTROL Auto Upload]&quot; et que vous souhaitez insérer l’identifiant du groupe publicitaire dans les URL de destination ou les URL finales appropriées, vous devez créer le groupe publicitaire, télécharger un fichier de feuille d’envoi groupé pour le nouveau groupe publicitaire, à l’aide de l’option &quot;Générer les URL de suivi&quot;, puis publier le fichier sur le réseau publicitaire. |
 | <code>{ef_keyword}</code> | Pour insérer le mot-clé. |
 | <code>{ef_keywordid}</code> | Pour insérer l’ID de mot-clé. <b>Remarque :</b> L’identifiant d’un nouveau mot-clé n’est pas créé tant que le mot-clé n’a pas été publié sur le réseau publicitaire. Si le compte utilise le[!UICONTROL EF Redirect]&quot; et [!UICONTROL Auto Upload]&quot;, puis Adobe Advertising insère automatiquement le mot-clé ID dans les URL de destination ou les URL finales appropriées le lendemain. Si le compte n’utilise pas le[!UICONTROL EF Redirect]&quot; et [!UICONTROL Auto Upload]&quot; et que vous souhaitez insérer l’ID de mot-clé dans les URL de destination ou les URL finales appropriées, vous devez créer le mot-clé, télécharger un fichier de feuille d’envoi pour le nouveau mot-clé, à l’aide de l’option &quot;Générer les URL de suivi&quot;, puis publier le fichier sur le réseau publicitaire. |
-| <code>{ef_matchtype}</code> | Pour insérer le type de correspondance du mot-clé &quot;Large&quot;, &quot;Exact&quot; ou &quot;Expression&quot;. Inclus automatiquement pour [!DNL Google Ads] et [!DNL Microsoft® Advertising] par le &quot;[!UICONTROL EF Redirect]&quot; méthode de suivi. |
+| <code>{ef_matchtype}</code> | Pour insérer le type de correspondance du mot-clé &quot;Large&quot;, &quot;Exact&quot; ou &quot;Expression&quot;. Inclus automatiquement pour [!DNL Google Ads] et [!DNL Microsoft Advertising] par le &quot;[!UICONTROL EF Redirect]&quot; méthode de suivi. |
 | <code>{ef_adid}</code> | Pour insérer l’identifiant de publicité. <b>Remarque :</b> L’identifiant d’une nouvelle publicité n’est pas créé tant que la publicité n’a pas été publiée sur le réseau publicitaire. Si le compte utilise le[!UICONTROL EF Redirect]&quot; et [!UICONTROL Auto Upload]&quot;, puis Adobe Advertising insère automatiquement l’ID de publicité dans les URL de destination ou les URL finales appropriées le lendemain. Si le compte n’utilise pas le[!UICONTROL EF Redirect]&quot; et [!UICONTROL Auto Upload]&quot; et que vous souhaitez insérer l’ID de publicité dans les URL de destination ou les URL finales appropriées, vous devez créer la publicité, télécharger un fichier de feuille d’envoi groupé pour la nouvelle publicité, à l’aide de l’option &quot;Générer les URL de suivi&quot;, puis publier le fichier sur le réseau publicitaire. |
 
 ## [!DNL Google Ads] paramètres de suivi dynamique
 
 Voir [https://support.google.com/google-ads/answer/2375447](https://support.google.com/google-ads/answer/2375447).
 
-## [!DNL Microsoft® Advertising] paramètres de suivi dynamique
+## [!DNL Microsoft Advertising] paramètres de suivi dynamique
 
 Voir [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 

@@ -3,7 +3,7 @@ title: Modification d’un plan de portée télévisée connecté
 description: Découvrez comment modifier les paramètres d’un plan de portée TV connecté.
 feature: DSP Planner
 exl-id: 675a09d1-9548-416d-bfa6-a6242149b255
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -24,7 +24,7 @@ La modification des paramètres du plan génère une nouvelle prévision.
 
    Une fois le plan enregistré, la sortie prévisionnelle s’affiche.
 
-1. Pour exporter le [!UICONTROL Budget vs Reach] prévision d’une [!DNL Microsoft® Excel] feuille de calcul**, cliquez sur **[!UICONTROL ...]** dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Export]**.
+1. Pour exporter le [!UICONTROL Budget vs Reach] prévision d’une [!DNL Microsoft Excel] feuille de calcul**, cliquez sur **[!UICONTROL ...]** dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

@@ -1,9 +1,9 @@
 ---
 title: Exporter des données pour des alertes personnalisées
 description: Découvrez comment exporter des données pour une alerte déclenchée vers un fichier.
-exl-id: c6c3d977-8ee8-4393-a6c7-8f7b9ca5c913
+exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Exporter des données pour des alertes personnalisées
 
-Vous pouvez exporter des données pour une alerte déclenchée ou des données pour la dernière alerte déclenchée pour un modèle d’alerte en tant que [!DNL Microsoft® Excel] classeur ([XLS](/help/search-social-commerce/glossary.md#w-x) ), des valeurs séparées par des tabulations ([TSV](/help/search-social-commerce/glossary.md#s-t)) ou une valeur séparée par des virgules ([CSV](/help/search-social-commerce/glossary.md#c-d)). Les rapports téléchargeables sont disponibles pendant dix jours après le déclenchement de l’alerte, puis sont automatiquement supprimés.
+Vous pouvez exporter des données pour une alerte déclenchée ou des données pour la dernière alerte déclenchée pour un modèle d’alerte en tant que [!DNL Microsoft Excel] classeur ([XLS](/help/search-social-commerce/glossary.md#w-x) ), des valeurs séparées par des tabulations ([TSV](/help/search-social-commerce/glossary.md#s-t)) ou une valeur séparée par des virgules ([CSV](/help/search-social-commerce/glossary.md#c-d)). Les rapports téléchargeables sont disponibles pendant dix jours après le déclenchement de l’alerte, puis sont automatiquement supprimés.
 
 1. Effectuez l’une des opérations suivantes :
 

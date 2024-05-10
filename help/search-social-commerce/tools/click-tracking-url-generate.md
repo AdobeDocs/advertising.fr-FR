@@ -3,7 +3,7 @@ title: Génération d’une URL de suivi des clics
 description: Découvrez comment générer manuellement une URL de suivi des clics Search, Social et Commerce.
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: a4d892b413dde26a96f03c797991c4df17da7562
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Pour plus d’informations sur le moment où vous devez générer et implémente
 
            Exemple : http://www.example.com/travel.html
 
-         * ([!DNL Microsoft® Advertising] sitelinks) `sitelink <tab> ** <tab> landing_page`
+         * ([!DNL Microsoft Advertising] sitelinks) `sitelink <tab> ** <tab> landing_page`
 
            where `sitelink` est le nom du lien de site et `landing_page` est une URL de page d’entrée ou une URL de base valide.
 
@@ -48,7 +48,7 @@ Pour plus d’informations sur le moment où vous devez générer et implémente
 
            Le fichier peut contenir jusqu’à 10 000 lignes.
 
-         * ([!DNL Google Merchant Center] groupes de produits et [!DNL Microsoft® Advertising] publicités de produit) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] groupes de produits et [!DNL Microsoft Advertising] publicités de produit) `product name <tab> ** <tab> landing_page`
 
            where `product name` est le nom du produit et `landing_page` est une URL de page d’entrée ou une URL de base valide.
 
@@ -64,13 +64,13 @@ Pour plus d’informations sur le moment où vous devez générer et implémente
 
            Exemple : http://www.example.com/travel.html
 
-         * ([!DNL Microsoft® Advertising] sitelinks) `sitelink**landing_page`
+         * ([!DNL Microsoft Advertising] sitelinks) `sitelink**landing_page`
 
            where `sitelink` est le nom du lien de site et `landing_page` est une URL de page d’entrée ou une URL de base valide.
 
            Exemple : `Careers**http://www.example.com/careers.html`
 
-         * ([!DNL Google Merchant Center] groupes de produits et [!DNL Microsoft® Advertising] publicités de produit) `product name**landing_page`
+         * ([!DNL Google Merchant Center] groupes de produits et [!DNL Microsoft Advertising] publicités de produit) `product name**landing_page`
 
            where `product name` est le nom du produit et `landing_page` est une URL de page d’entrée ou une URL de base valide.
 
@@ -82,7 +82,7 @@ Pour plus d’informations sur le moment où vous devez générer et implémente
 
 Pour les comptes disposant d’URL de destination, saisissez les valeurs dans la variable [!UICONTROL Base URL] des champs.
 
-Pour les comptes disposant d’URL finales, saisissez la valeur à l’écran dans le [!UICONTROL Tracking Template] champ . Vous devez ajouter un paramètre pour l’URL finale après l’événement `&url=` (par exemple `{lpurl}`). Pour [!DNL Yahoo! Japan Ads] comptes, utiliser le paramètre `{lpurl}`. Pour une liste de [!DNL Google Ads] et [!DNL Microsoft® Advertising] pour indiquer les URL finales dans les modèles de tracking, voir la section [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348) (voir les paramètres &quot;Modèle de suivi uniquement&quot; dans la section &quot;Disponible&quot; [!DNL ValueTrack] Paramètres&quot;) et [[!DNL Microsoft® Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+Pour les comptes disposant d’URL finales, saisissez la valeur à l’écran dans le [!UICONTROL Tracking Template] champ . Vous devez ajouter un paramètre pour l’URL finale après l’événement `&url=` (par exemple `{lpurl}`). Pour [!DNL Yahoo! Japan Ads] comptes, utiliser le paramètre `{lpurl}`. Pour une liste de [!DNL Google Ads] et [!DNL Microsoft Advertising] pour indiquer les URL finales dans les modèles de tracking, voir la section [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348) (voir les paramètres &quot;Modèle de suivi uniquement&quot; dans la section &quot;Disponible&quot; [!DNL ValueTrack] Paramètres&quot;) et [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >

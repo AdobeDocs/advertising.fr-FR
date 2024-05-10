@@ -1,18 +1,18 @@
 ---
 title: Configuration des paramètres des données de flux
 description: Découvrez comment configurer les paramètres qui contrôlent le traitement des données de flux.
-exl-id: fc72d1bc-aac7-4280-80c6-4fc53a96a49f
+exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
 
 # Configuration des paramètres des données de flux
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
 
 Vous pouvez configurer la gestion des groupes publicitaires, des mots-clés et des publicités dans les fichiers de données de flux, ainsi que le traitement des données dans les fichiers FTP, via les paramètres du flux.
 
@@ -63,7 +63,7 @@ Vous pouvez configurer la gestion des groupes publicitaires, des mots-clés et d
 
 * *[!UICONTROL None]* (valeur par défaut) : ne modifiez pas les composants existants.
 
-**[!UICONTROL Missing line items in an FTP feed/GMC account]:** Que faire des éléments existants lorsque 1) ils ne sont pas inclus a) dans un nouveau fichier de flux qui a été chargé dans un répertoire FTP ou b) dans un compte de centre commercial la prochaine fois que Search, Social et Commerce s’y synchronise, ou 2) s’ils ne sont pas associés à des campagnes ou des groupes publicitaires existants par l’intermédiaire de la [!UICONTROL Map Only] dans le modèle.
+**[!UICONTROL Missing line items in an FTP feed/GMC account]:** Que faire des éléments existants lorsque 1) ils ne sont pas inclus a) dans un nouveau fichier de flux qui a été chargé dans un répertoire FTP ou b) dans un compte de centre commercial la prochaine fois que Search, Social et Commerce se synchronise avec eux, ou 2) lorsqu’ils ne sont pas mappés à des campagnes ou des groupes publicitaires existants par le biais de la [!UICONTROL Map Only] dans le modèle.
 
 * *[!UICONTROL Delete]:* Supprimer les composants existants.
 
@@ -95,7 +95,7 @@ Le niveau de stock de chaque élément de ligne provient d’une colonne dans le
 >[!NOTE]
 >
 >* Pour les fichiers FTP, le service de flux recherche les mises à jour dans le répertoire FTP toutes les deux heures (heures paires dans le fuseau horaire PST). Cette option traite tous les fichiers qui ont été chargés depuis la dernière vérification.
->* Pour les comptes de centre commercial, Search, Social et Commerce se synchronise avec le compte tous les jours vers 6 h dans le fuseau horaire de l’annonceur. Cette option traite toutes les données qui ont été mises à jour depuis la dernière synchronisation.
+>* Pour les comptes de centre commercial, Search, Social et Commerce se synchronise avec le compte tous les jours vers 06h00 dans le fuseau horaire de l’annonceur. Cette option traite toutes les données qui ont été mises à jour depuis la dernière synchronisation.
 >* Les données propagées sont disponibles à partir de la variable [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], et [!UICONTROL Ads] onglets jusqu’à ce que les données soient publiées sur le réseau publicitaire ou sur le [!UICONTROL Bulksheets] vue.
 
 **[!UICONTROL Post to the SE]:** (Les annonceurs qui chargent des fichiers de données par FTP ou un compte de centre commercial) Crée automatiquement des fichiers de feuille d’envoi groupé dans les formats appropriés pour les réseaux publicitaires pertinents une fois que de nouvelles données sont propagées par le biais des modèles applicables. Cette option supprime également les données de la variable [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], et [!UICONTROL Ads] onglets, sauf si des sous-composants comportent des erreurs.
