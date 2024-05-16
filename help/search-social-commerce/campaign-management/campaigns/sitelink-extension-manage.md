@@ -1,11 +1,11 @@
 ---
 title: Gestion des liens de site partagés
 description: Découvrez comment créer et gérer des extensions de lien de site partagées.
-exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c3b8e387cfc38d195e77761791e689fd094d8f39
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Vous pouvez modifier un lien de site partagé à la fois.
 
 ## Paramètres des liens de site partagés {#shared-sitelink-settings}
 
-Pour connaître d’autres politiques et raisons de désapprobation des liens de site, voir la section [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) et [[!DNL Microsoft Advertising]](https://about.ads.microsoft.com/en-us/resources/policies/ad-extensions-policies) exigences d’extension sitelink.
+Pour connaître d’autres politiques et raisons de désapprobation des liens de site, voir la section [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) et [[!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/ext60206) exigences d’extension sitelink.
 
 ### [!UICONTROL Sitelink]
 
