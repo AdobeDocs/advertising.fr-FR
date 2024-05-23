@@ -2,9 +2,9 @@
 title: Gestion des multiplicateurs d’offre pour les emplacements
 description: Découvrez xxx
 feature: DSP Placements
-source-git-commit: 85e1338b841cd9615f7d2881185487ae79743303
+source-git-commit: b6758541b59f1fd924a2fe83c769f5ba385409aa
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,19 @@ ht-degree: 0%
 
      La plupart des catégories cibles répertorient les sous-catégories sur la gauche. Cliquez sur une sous-catégorie pour gérer les multiplicateurs d’offre pour cette sous-catégorie, le cas échéant.
 
-   * Pour charger un fichier CSV avec des valeurs de multiplicateur d’offre afin de remplacer les valeurs existantes :
+   * Pour charger un fichier CSV avec des valeurs de multiplicateur d’offre afin de remplacer toutes les valeurs existantes :
 
       1. Cliquez sur **[!UICONTROL CSV File Edit]** en haut à droite.
 
-      1. a) cliquez sur **[!UICONTROL Download Template]** et saisissez les cibles en utilisant la même syntaxe que celle visible dans l&#39;interface utilisateur et les valeurs du multiplicateur d&#39;offre correspondantes ou b) éditez un modèle téléchargé précédemment avec les mêmes informations. Enregistrez le fichier modifié sur votre périphérique ou réseau.
+      1. a) cliquez sur **[!UICONTROL Download Template]** et modifiez le fichier ou b) modifiez un modèle précédemment téléchargé. Enregistrez le fichier modifié sur votre périphérique ou réseau.
+
+         Les modèles téléchargés incluent une feuille pour chaque type de cible (par exemple, Pays, Sources et Catégorie de site). Seuls les multiplicateurs d’offre existants avec des valeurs autres que 1.0 sont inclus.
+
+         * Pour ajouter un multiplicateur d&#39;offre pour une cible existante, saisissez la cible en utilisant la même syntaxe que celle visible dans l&#39;interface utilisateur et la valeur du multiplicateur d&#39;offre correspondante.
+
+         * Pour supprimer un modificateur d’offre, définissez la valeur du multiplicateur d’offre sur 1,0 ou supprimez toutes les informations de la ligne.
+
+         ![Exemple de ligne dans un fichier de feuille de calcul de multiplicateur d’offre](/help/dsp/assets/bid-multiplier-spreadsheet.png "Exemple de ligne dans un fichier de feuille de calcul de multiplicateur d’offre")
 
       1. Cliquez sur **[!UICONTROL Next]** pour accéder au [!UICONTROL Upload File] et a) faites glisser et déposez le fichier modifié dans la zone ou b) cliquez dans la zone pour sélectionner le fichier à partir de votre appareil ou de votre réseau.
 
@@ -59,17 +67,25 @@ ht-degree: 0%
 
    Les mêmes modifications s’appliquent à tous les emplacements sélectionnés.
 
-   * Pour charger un fichier CSV avec des valeurs de multiplicateur d’offre qui remplaceront les valeurs existantes :
+* Pour charger un fichier CSV avec des valeurs de multiplicateur d’offre afin de remplacer toutes les valeurs existantes :
 
-     >[!NOTE]
-     >
-     >Si vous laissez un champ vide, toutes les valeurs de ce type de cible sont supprimées.<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there only one data row is applicable for all. -->
+   1. Cliquez sur **[!UICONTROL CSV File Edit]** en haut à droite.
 
-      1. Cliquez sur **[!UICONTROL CSV Edit]** en haut à droite.
+   1. a) cliquez sur **[!UICONTROL Download Template]** et modifiez le fichier ou b) modifiez un modèle précédemment téléchargé. Enregistrez le fichier modifié sur votre périphérique ou réseau.
 
-      1. a) cliquez sur **[!UICONTROL Download Template]** et modifiez les valeurs du multiplicateur d&#39;offre ou b) modifiez un modèle téléchargé précédemment. Enregistrez le fichier modifié sur votre périphérique ou réseau.
+      Les modèles téléchargés incluent une feuille pour chaque type de cible (par exemple, Pays, Sources et Catégorie de site). Seuls les multiplicateurs d’offre existants avec des valeurs autres que 1.0 sont inclus.
 
-      1. A) faites glisser et déposez le fichier modifié dans la zone ou b) cliquez dans la zone pour sélectionner le fichier sur votre périphérique ou réseau.
+      * Pour ajouter un multiplicateur d&#39;offre pour une cible existante, saisissez la cible en utilisant la même syntaxe que celle visible dans l&#39;interface utilisateur et la valeur du multiplicateur d&#39;offre correspondante.
+
+      * Pour supprimer un modificateur d’offre, définissez la valeur du multiplicateur d’offre sur 1,0 ou supprimez toutes les informations de la ligne.
+
+      ![Exemple de ligne dans un fichier de feuille de calcul de multiplicateur d’offre](/help/dsp/assets/bid-multiplier-spreadsheet.png "Exemple de ligne dans un fichier de feuille de calcul de multiplicateur d’offre")
+
+   1. Cliquez sur **[!UICONTROL CSV Edit]** en haut à droite.
+
+   1. a) cliquez sur **[!UICONTROL Download Template]** et modifiez les valeurs du multiplicateur d&#39;offre ou b) modifiez un modèle téléchargé précédemment. Enregistrez le fichier modifié sur votre périphérique ou réseau.
+
+   1. A) faites glisser et déposez le fichier modifié dans la zone ou b) cliquez dans la zone pour sélectionner le fichier sur votre périphérique ou réseau.
 
    1. Cliquez sur **[!UICONTROL Upload]**.
 
