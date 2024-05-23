@@ -3,9 +3,9 @@ title: Gestion des multiplicateurs d’offre pour les emplacements
 description: Découvrez comment créer et modifier des multiplicateurs d’offre pour vos cibles d’emplacement.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 5f358bbc63a5767649f42551f05cfae9fdc2b445
+source-git-commit: c23da6494c6d4ce89735f3f63f89f5320ca02a40
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '543'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,11 @@ Cette fonctionnalité fonctionne avec vos cibles d’emplacement existantes. Pou
 
 1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-1. Réglez manuellement les multiplicateurs d’offres pour la cible éligible ou en chargeant un fichier CSV avec des valeurs cibles :
+1. Ajustez les multiplicateurs d’offres pour les cibles éligibles :
 
-   * Pour ajuster manuellement les valeurs du multiplicateur d’offre, déplacez-vous vers chaque [onglet spécifique à la cible](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], et [!UICONTROL Brand Safety]) et modifiez les valeurs existantes pour les cibles de placement. La plupart des catégories cibles répertorient les sous-catégories sur la gauche. Cliquez sur une sous-catégorie pour gérer les multiplicateurs d’offre pour cette sous-catégorie, le cas échéant.
+   * Pour ajuster manuellement les valeurs du multiplicateur d’offre, déplacez-vous vers chaque [onglet spécifique à la cible](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], et [!UICONTROL Brand Safety]) et modifiez les valeurs existantes pour les cibles de placement.
+
+     La plupart des catégories cibles répertorient les sous-catégories sur la gauche. Cliquez sur une sous-catégorie pour gérer les multiplicateurs d’offre pour cette sous-catégorie, le cas échéant.
 
    * Pour charger un fichier CSV avec des valeurs de multiplicateur d’offre afin de remplacer les valeurs existantes :
 
