@@ -3,9 +3,9 @@ title: Gestion des multiplicateurs d’offre pour les emplacements
 description: Découvrez comment créer et modifier des multiplicateurs d’offre pour vos cibles d’emplacement.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: c23da6494c6d4ce89735f3f63f89f5320ca02a40
+source-git-commit: 2c6e21dd63c5d0c8e0d0c82bcacd0851c56c6084
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '613'
 ht-degree: 2%
 
 ---
@@ -34,11 +34,19 @@ Cette fonctionnalité fonctionne avec vos cibles d’emplacement existantes. Pou
 
      La plupart des catégories cibles répertorient les sous-catégories sur la gauche. Cliquez sur une sous-catégorie pour gérer les multiplicateurs d’offre pour cette sous-catégorie, le cas échéant.
 
-   * Pour charger un fichier CSV avec des valeurs de multiplicateur d’offre afin de remplacer les valeurs existantes :
+   * Pour charger un fichier CSV avec des valeurs de multiplicateur d’offre afin de remplacer toutes les valeurs existantes :
 
       1. Cliquez sur **[!UICONTROL CSV File Edit]** en haut à droite.
 
-      1. a) cliquez sur **[!UICONTROL Download Template]** et saisissez les cibles en utilisant la même syntaxe que celle visible dans l&#39;interface utilisateur et les valeurs du multiplicateur d&#39;offre correspondantes ou b) éditez un modèle téléchargé précédemment avec les mêmes informations. Enregistrez le fichier modifié sur votre périphérique ou réseau.
+      1. a) cliquez sur **[!UICONTROL Download Template]** et modifiez le fichier ou b) modifiez un modèle précédemment téléchargé. Enregistrez le fichier modifié sur votre périphérique ou réseau.
+
+         Les modèles téléchargés incluent une feuille pour chaque type de cible (par exemple, Pays, Sources et Catégorie de site). Seuls les multiplicateurs d’offre existants avec des valeurs autres que 1.0 sont inclus.
+
+         * Pour ajouter un multiplicateur d&#39;offre pour une cible existante, saisissez la cible en utilisant la même syntaxe que celle visible dans l&#39;interface utilisateur et la valeur du multiplicateur d&#39;offre correspondante.
+
+         * Pour supprimer un modificateur d’offre, définissez la valeur du multiplicateur d’offre sur 1,0 ou supprimez toutes les informations de la ligne.
+
+         ![Exemple de ligne dans un fichier de feuille de calcul de multiplicateur d’offre](/help/dsp/assets/bid-multiplier-spreadsheet.png "Exemple de ligne dans un fichier de feuille de calcul de multiplicateur d’offre")
 
       1. Cliquez sur **[!UICONTROL Next]** pour accéder au [!UICONTROL Upload File] et a) faites glisser et déposez le fichier modifié dans la zone ou b) cliquez dans la zone pour sélectionner le fichier à partir de votre appareil ou de votre réseau.
 
