@@ -3,7 +3,7 @@ title: Gestion des multiplicateurs d’offre pour les emplacements
 description: Découvrez comment créer et modifier des multiplicateurs d’offre pour vos cibles d’emplacement.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 2c6e21dd63c5d0c8e0d0c82bcacd0851c56c6084
+source-git-commit: c0dd18a3ce8759214813b7303c590a28febf1b37
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 2%
@@ -40,7 +40,7 @@ Cette fonctionnalité fonctionne avec vos cibles d’emplacement existantes. Pou
 
       1. a) cliquez sur **[!UICONTROL Download Template]** et modifiez le fichier ou b) modifiez un modèle précédemment téléchargé. Enregistrez le fichier modifié sur votre périphérique ou réseau.
 
-         Les modèles téléchargés incluent une feuille pour chaque type de cible (par exemple, Pays, Sources et Catégorie de site). Seuls les multiplicateurs d’offre existants avec des valeurs autres que 1.0 sont inclus.
+         Les feuilles de calcul téléchargées comprennent une feuille pour chaque type de cible (par exemple, Pays, Sources et Catégorie de site). Seuls les multiplicateurs d’offre existants avec des valeurs &lt; 1.0 ou > 1.0 sont inclus.
 
          * Pour ajouter un multiplicateur d&#39;offre pour une cible existante, saisissez la cible en utilisant la même syntaxe que celle visible dans l&#39;interface utilisateur et la valeur du multiplicateur d&#39;offre correspondante.
 

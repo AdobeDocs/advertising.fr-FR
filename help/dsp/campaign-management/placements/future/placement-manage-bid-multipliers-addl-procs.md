@@ -2,7 +2,7 @@
 title: Gestion des multiplicateurs d’offre pour les emplacements
 description: Découvrez xxx
 feature: DSP Placements
-source-git-commit: b6758541b59f1fd924a2fe83c769f5ba385409aa
+source-git-commit: c0dd18a3ce8759214813b7303c590a28febf1b37
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
       1. a) cliquez sur **[!UICONTROL Download Template]** et modifiez le fichier ou b) modifiez un modèle précédemment téléchargé. Enregistrez le fichier modifié sur votre périphérique ou réseau.
 
-         Les modèles téléchargés incluent une feuille pour chaque type de cible (par exemple, Pays, Sources et Catégorie de site). Seuls les multiplicateurs d’offre existants avec des valeurs autres que 1.0 sont inclus.
+         Les feuilles de calcul téléchargées comprennent une feuille pour chaque type de cible (par exemple, Pays, Sources et Catégorie de site). Seuls les multiplicateurs d’offre existants avec des valeurs &lt; 1.0 ou > 1.0 sont inclus.
 
          * Pour ajouter un multiplicateur d&#39;offre pour une cible existante, saisissez la cible en utilisant la même syntaxe que celle visible dans l&#39;interface utilisateur et la valeur du multiplicateur d&#39;offre correspondante.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
    1. a) cliquez sur **[!UICONTROL Download Template]** et modifiez le fichier ou b) modifiez un modèle précédemment téléchargé. Enregistrez le fichier modifié sur votre périphérique ou réseau.
 
-      Les modèles téléchargés incluent une feuille pour chaque type de cible (par exemple, Pays, Sources et Catégorie de site). Seuls les multiplicateurs d’offre existants avec des valeurs autres que 1.0 sont inclus.
+      Les feuilles de calcul téléchargées comprennent une feuille pour chaque type de cible (par exemple, Pays, Sources et Catégorie de site). Seuls les multiplicateurs d’offre existants avec des valeurs &lt; 1.0 ou > 1.0 sont inclus.
 
       * Pour ajouter un multiplicateur d&#39;offre pour une cible existante, saisissez la cible en utilisant la même syntaxe que celle visible dans l&#39;interface utilisateur et la valeur du multiplicateur d&#39;offre correspondante.
 
