@@ -3,7 +3,7 @@ title: Gestion des multiplicateurs d’offre pour les emplacements
 description: Découvrez comment créer et modifier des multiplicateurs d’offre pour vos cibles d’emplacement.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: c0dd18a3ce8759214813b7303c590a28febf1b37
+source-git-commit: feae52e59b1a59d23ca0ec6ff76c6e6114b61461
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 2%
