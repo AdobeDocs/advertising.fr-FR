@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 3ffd3fdbe61d66a7c3a181e07559727b5db83a7e
+source-git-commit: 62ed2870c84a72662832bd21e0820a517f7c3d00
 workflow-type: tm+mt
 source-wordcount: '2912'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
-| 22 mai 2024 | Optimisation des packages CTV | Dans les modules comportant les objectifs d’optimisation &quot;CPA la plus basse&quot; et &quot;RSDP la plus élevée&quot;, les modèles de performances des publicités télévisées connectées utilisent désormais les données de plusieurs points de contact dans le chemin de conversion pour un apprentissage automatique plus rapide et plus robuste. Les modules existants sont mis à niveau pour utiliser l’optimisation multi-touch et aucune action n’est requise. | — |
+| 22 mai 2024 | Optimisation, publicités TV connectées | Dans les modules comportant les objectifs d’optimisation &quot;CPA la plus basse&quot; et &quot;RSDP la plus élevée&quot;, les modèles de performances des publicités télévisées connectées utilisent désormais les données de plusieurs points de contact dans le chemin de conversion pour un apprentissage automatique plus rapide et plus robuste. Les modules existants sont mis à niveau pour utiliser l’optimisation multi-touch et aucune action n’est requise. | — |
 | 20 mai 2024 | Publicités TV connectées, pixels, reciblage de segments | (Version bêta ouverte ; disponible uniquement aux États-Unis et aux États-Unis) Vous pouvez désormais recibler les segments d’audience exposés à une campagne CTV avec des publicités supplémentaires pour améliorer la publicité cross-canal :<ol><li>Configurez un segment d’exposition des publicités et copiez la balise de suivi d’impression dans le placement CTV ou la publicité de votre choix pour commencer le suivi du segment.</li><li>Dans l’emplacement de reciblage, sélectionnez le segment d’exposition CTV dans le [!UICONTROL Audience Targeting] .</li></ol> | Voir &quot;[Création et implémentation d’un segment personnalisé](/help/dsp/audiences/custom-segment-create.md)&quot; et &quot;[Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2 mai 2024 | Publicités, pixels | Vous pouvez télécharger les paramètres de publicité et les associations d’emplacement pour toutes les publicités d’une campagne au format XLSX (feuille de calcul Excel) en vue de les consulter à partir de la [!UICONTROL Ad Tools] vue. | Voir &quot;[Vérification des détails des publicités à l’aide de feuilles de calcul](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
 | |  | La variable [!UICONTROL Ad Tools] afficher > [!UICONTROL Attach Pixels] Cet onglet affiche les pixels de suivi tiers associés à vos publicités et fournit un nouveau workflow pour joindre des pixels à une ou plusieurs publicités et pour désolidariser des pixels existants. | Voir &quot;[Joindre des publicités à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
