@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft Advertising] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Microsoft Advertising] campagnes.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 0f128b569f8c005c4f72a0c85ebf59e9fed53320
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
   Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de réseaux sociaux et de Commerce optimisé, Search, Social et Commerce optimise les offres de base et , lorsque le paramètre[!UICONTROL Auto adjust campaign budget limits]&quot; est activée : le budget de l’opération. Le réseau publicitaire optimise tous les ajustements d’offres et peut modifier les offres générées par Search, Social et Commerce au moment de la requête de l’utilisateur en fonction de données et d’informations propriétaires. **Attention :** Utilisez les campagnes eCPC dans les portfolios uniquement lorsque le total des conversions suivies sur le réseau publicitaire correspond à l’objectif du portfolio.
 
-* *[!UICONTROL Manual CPC]*: (campagnes commerciales pour les marques ; [!DNL Microsoft Store Ads] campagnes ; obsolète de [!DNL Microsoft Advertising] en 2021 pour les autres types de campagne) Utilise le modèle coût par clic (CPC). Pour certains types d’annonces, vous pouvez éventuellement autoriser le réseau publicitaire à modifier les offres pour la campagne :
+* *[!UICONTROL Manual CPC]*: (campagnes commerciales pour les marques ; [!DNL Microsoft Store Ads] campagnes ; obsolète pour les autres types de campagne) Utilise le modèle coût par clic (CPC). Pour certains types d’annonces, vous pouvez éventuellement autoriser le réseau publicitaire à modifier les offres pour la campagne :
 
    * **[!UICONTROL Enable Enhanced CPC]** (désactivée par défaut) : cette option est identique à l’utilisation de l’option &quot;[!UICONTROL Enhanced CPC]&quot;.
 
