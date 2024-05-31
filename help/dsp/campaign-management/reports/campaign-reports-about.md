@@ -3,7 +3,7 @@ title: Types de rapports de performances dans les vues Campaign Management
 description: Découvrez les données du rapport incluses dans les vues de gestion de campagne.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: c7860d98edbf44b71d97c3800edf47a409606b74
+source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
@@ -78,7 +78,7 @@ En outre, vous pouvez afficher les données suivantes dans les paramètres d’e
 
 * [A (vue détaillée [!UICONTROL Inspector])](placement-details-view.md), qui affiche tous les sites, publicités, données de fréquence et offres ciblés pour un emplacement.
 
-* A [rapport des prévisions de placement](/help/dsp/campaign-management/reports/placement-forecast.md)
+* A [rapport des prévisions de placement](/help/dsp/campaign-management/reports/placement-forecast.md).
 
 * [Rapports de diagnostic de placement](/help/dsp/campaign-management/reports/placement-diagnostics.md).
 
