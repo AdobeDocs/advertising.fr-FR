@@ -3,9 +3,9 @@ title: Conditions préalables et informations clés relatives à la mise en oeuv
 description: Conditions préalables et informations clés relatives à la mise en oeuvre [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 63b91d84118c6b84fe72ae1c3ac1a9f68d7201fc
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,9 @@ Consultez les informations suivantes avant d’intégrer Adobe Advertising à Ad
 * Toute version d’Adobe Analytics (y compris [!DNL Prime], [!DNL Premium], ou [!DNL Ultimate])
 * ADOBE ANALYTICS : `appMeasurement.js` version 2.1 ou ultérieure
 * (Clients d’Advertising DSP) Et [Fragment de code JavaScript Advertising DSP](javascript.md) déployé dans vos pages web pour effectuer le suivi des visites d’affichage publicitaire.
+* Le paramètre AMO ID dans les URL de suivi de vos publicités.
+
+  Le paramètre est ajouté automatiquement aux URL de suivi dans certains cas, mais vous devrez peut-être l’ajouter manuellement. Dans &quot;ID d’Adobe Advertising utilisés par [!DNL Analytics]/help/integrations/analytics/ids.md,&quot; voir &quot;[Méthodes de mise en oeuvre d’AMO ID](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
 
 >[!TIP]
 >
