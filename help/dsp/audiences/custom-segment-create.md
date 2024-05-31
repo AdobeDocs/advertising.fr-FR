@@ -3,9 +3,9 @@ title: Création et implémentation d’un segment personnalisé
 description: Découvrez comment créer et mettre en oeuvre un segment personnalisé pour effectuer le suivi des utilisateurs exposés aux publicités ou des utilisateurs qui visitent vos pages web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
+source-git-commit: 99091cd673fd064908fec4a89e28d2ddb448e9a8
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,20 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
          1. Copiez la balise de suivi des pages vues, étiquetée &quot;[!UICONTROL Desktop or mobile websites].&quot;
 
+         1. (Balises pour les segments qui effectuent le suivi [!DNL ID5] ID) Dans la balise copiée, remplacez `ID5_PARTNER_ID` avec l’identifiant du partenaire qui [!DNL ID5] affectée à votre organisation.
+
+            Par exemple, si l’ID de partenaire ID5 est `abcde` et la balise de segment générée est
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            replace `ID5_PARTNER_ID` avec `abcde` dans la balise pour obtenir ce qui suit :
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            Votre entreprise a reçu l’identifiant du partenaire lorsqu’elle a signé un accord avec [!DNL ID5]. Si vous ne connaissez pas votre identifiant de partenaire, contactez votre équipe de compte d’Adobe.
+
+            Cette étape n’est pas nécessaire pour le suivi des balises. [!DNL ID5] Identifiants pour les utilisateurs exposés à une unité publicitaire sur un ordinateur de bureau ou des appareils mobiles.
+
          1. Fournissez la balise au contact de l’annonceur ou du site web pour le déploiement.
 
             Le service informatique de l’annonceur ou un autre groupe peut avoir besoin de planifier le déploiement de la balise ou d’être informé de ce déploiement.
@@ -89,21 +103,7 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
          1. Copiez la balise de suivi d’impression, étiquetée &quot;[!UICONTROL Desktop or mobile ads].&quot;
 
-   1. (Balises pour les segments qui effectuent le suivi [!DNL ID5] ID pour les visiteurs de bureau et mobiles sur une page web) Dans la balise copiée, remplacez `ID5_PARTNER_ID` avec l’identifiant du partenaire qui [!DNL ID5] affectée à votre organisation.
-
-   Par exemple, si l’ID de partenaire ID5 est `abcde` et la balise de segment générée est
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   replace `ID5_PARTNER_ID` avec `abcde` dans la balise pour obtenir ce qui suit :
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   Votre entreprise a reçu l’identifiant du partenaire lorsqu’elle a signé un accord avec [!DNL ID5]. Si vous ne connaissez pas votre identifiant de partenaire, contactez votre équipe de compte d’Adobe.
-
-   Cette étape n’est pas nécessaire pour le suivi des balises. [!DNL ID5] Identifiants pour les utilisateurs exposés à une unité publicitaire sur un ordinateur de bureau ou des appareils mobiles.
-
-1. Ajoutez la balise à l’une des options suivantes : [!UICONTROL Pixel] pour chaque publicité appropriée ou au [!UICONTROL Event Pixels] de la [[!UICONTROL Tracking] paramètres pour chaque emplacement approprié](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. Ajoutez la balise à l’une des options suivantes : [!UICONTROL Pixel] pour chaque publicité appropriée ou au [!UICONTROL Event Pixels] de la [[!UICONTROL Tracking] paramètres pour chaque emplacement approprié](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 Une fois qu’une balise de suivi est implémentée, vous pouvez utiliser le segment dans les cibles ou exclusions d’audience pour n’importe quel emplacement.
 

@@ -3,9 +3,9 @@ title: Affichage des pixels de suivi pour un segment
 description: Découvrez comment afficher les pixels de suivi pour un segment d’exclusion de vente personnalisé ou CCPA.
 feature: DSP Segments
 exl-id: 3b67ab72-d7bb-45a0-b5ba-e4b811b7d2b3
-source-git-commit: 80781301b60ba07a195a3e0e0f7dd14f770a0e55
+source-git-commit: e7b8dff87472d09ee1444104761f3b13e555ed9c
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 1. Placez le curseur sur la ligne de segment et cliquez sur **[!UICONTROL Get Pixel]**.
 
-   La balise de suivi des pages vues, qui effectue le suivi des visiteurs de bureau et mobiles sur une page web, est étiquetée &quot;[!UICONTROL Desktop or mobile websites].&quot; Ajoutez-le aux pages dont vous souhaitez effectuer le suivi des vues.
+   * La balise de suivi des pages vues, qui effectue le suivi des visiteurs de bureau et mobiles sur une page web, est étiquetée &quot;[!UICONTROL Desktop or mobile websites].&quot; Pour les segments qui effectuent le suivi [!DNL ID5] ID, remplacer `ID5_PARTNER_ID` dans la balise copiée avec l’ID de partenaire qui [!DNL ID5] affectée à votre organisation. Voir &quot;[Création et implémentation d’un segment personnalisé](/help/dsp/audiences/custom-segment-create.md).&quot;
 
-   (Segments personnalisés uniquement) La balise de suivi d’impression, qui effectue le suivi des utilisateurs exposés à une unité publicitaire sur un ordinateur de bureau, un appareil mobile ou un appareil CTV, est étiquetée &quot;[!UICONTROL Desktop or mobile ads].&quot; Ajoutez-le aux annonces dont vous souhaitez effectuer le suivi ; vous pouvez éventuellement ajouter la balise à un emplacement pour la joindre par défaut à toutes les annonces associées à l’emplacement.
+     Ajoutez-le aux pages dont vous souhaitez effectuer le suivi des vues.
 
-1. (Si nécessaire) Copiez la ou les balises appropriées et fournissez-les au contact de l’annonceur ou du site web pour le déploiement.
+   * (Segments personnalisés uniquement) La balise de suivi d’impression, qui effectue le suivi des utilisateurs exposés à une unité publicitaire sur un ordinateur de bureau, un appareil mobile ou un appareil CTV, est étiquetée &quot;[!UICONTROL Desktop or mobile ads].&quot; Ajoutez-le aux annonces dont vous souhaitez effectuer le suivi ; vous pouvez éventuellement ajouter la balise à un emplacement pour la joindre par défaut à toutes les annonces associées à l’emplacement.
 
-   Une fois qu’une balise de suivi est implémentée, vous pouvez utiliser le segment dans les cibles ou exclusions d’audience pour n’importe quel emplacement.
+Une fois qu’une balise de suivi est implémentée, vous pouvez utiliser le segment dans les cibles ou exclusions d’audience pour n’importe quel emplacement.
 
 >[!MORELIKETHIS]
 >
