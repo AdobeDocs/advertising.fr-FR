@@ -3,9 +3,9 @@ title: Création et implémentation d’un segment personnalisé
 description: Découvrez comment créer et mettre en oeuvre un segment personnalisé pour effectuer le suivi des utilisateurs exposés aux publicités ou des utilisateurs qui visitent vos pages web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
 * Pour la mesure dans Adobe Analytics, vous devez :
 
-   1. Compléter tout [conditions préalables à la mise en oeuvre [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) et la variable [AMO ID et EF ID dans vos URL de suivi](/help/integrations/analytics/ids.md).
+   1. Compléter tout [conditions préalables à la mise en oeuvre [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md), et assurez-vous que la variable [AMO ID et EF ID](/help/integrations/analytics/ids.md) sont renseignées dans vos URL de suivi.
 
    1. Ajoutez le paramètre suivant à vos pages web avant ou dans la variable [Code JavaScript requis pour [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) — n’importe où avant l’initialisation du dernier service d’événement.
 
