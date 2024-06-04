@@ -3,9 +3,9 @@ title: Création et implémentation d’un segment personnalisé
 description: Découvrez comment créer et mettre en oeuvre un segment personnalisé pour effectuer le suivi des utilisateurs exposés aux publicités ou des utilisateurs qui visitent vos pages web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 99091cd673fd064908fec4a89e28d2ddb448e9a8
+source-git-commit: 2fe54fbcd9711e714246f074ede086910b538b80
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
 *Fonction bêta*
 
-* Avant de générer un segment pour suivre les utilisateurs associés aux ID5, vous devez signer un accord avec [!DNL ID5] et obtenir l’ID de partenaire de votre entreprise. Contactez votre équipe de compte d’Adobe pour obtenir des instructions.
+* Avant de générer un segment pour effectuer le suivi des utilisateurs associés aux ID 5, vous devez signer un accord avec [!DNL ID5] et obtenir l’ID de partenaire de votre entreprise. Contactez votre équipe de compte d’Adobe pour obtenir des instructions.
 
 * Pour la mesure dans Adobe Analytics, vous devez :
 
@@ -42,6 +42,8 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
       ```
+
+   1. Utilisez n’importe quel outil de débogage de navigateur pour vérifier que chaque appel est lancé vers le domaine. `lasteventf-tm.everesttech.net` et contient le paramètre `_les_id5` avec un ID5 crypté comme valeur.
 
 ## Création et implémentation d’un segment personnalisé
 

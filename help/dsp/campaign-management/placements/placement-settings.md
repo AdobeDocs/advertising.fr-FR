@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '3535'
+source-wordcount: '3789'
 ht-degree: 0%
 
 ---
@@ -311,11 +311,25 @@ Vous pouvez éventuellement exporter la liste des sites ciblés et bloqués sous
 
 * Pour créer une audience, cliquez sur ![Sélectionner](/help/dsp/assets/chevron-down.png) en regard de [!UICONTROL Excluded Audiences], puis sélectionnez **+ Créer une audience**. Pour obtenir des instructions, voir [Création d’une audience réutilisable](/help/dsp/audiences/reusable-audience-create.md), en commençant par l’étape 3.
 
-* Pour sélectionner des segments d’audience spécifiques, cliquez sur **[!UICONTROL Select segments for this placement only]**. Sélectionnez la logique du segment ; pour obtenir des instructions, reportez-vous à l’étape 6 de &quot;[Création d’une audience réutilisable](/help/dsp/audiences/reusable-audience-create.md).&quot; Lorsque vous avez terminé, cliquez sur **Enregistrer**.
+**[!UICONTROL Targeting]:** Types d’ID utilisateur à cibler. Vous ne pouvez pas modifier ce paramètre une fois le placement actif (c’est-à-dire après le début du vol).
 
-**[!UICONTROL Cross Device Targeting]:** (Disponible lorsque vous sélectionnez au moins un segment ou une audience et que la variable [campaign est configuré pour le ciblage multi-appareils basé sur les personnes](/help/dsp/campaign-management/campaigns/campaign-settings.md). Permet d’étendre le ciblage sur tous les appareils connus d’une personne (selon la représentation graphique des appareils spécifiée dans les paramètres de la campagne), même sur les appareils qui ne figurent pas dans les segments spécifiés. Les frais peuvent s&#39;appliquer en fonction du graphique spécifié pour l&#39;opération. Les données de Device Graph sont disponibles uniquement en Amérique du Nord.
+Lorsque vous sélectionnez à la fois des ID hérités et des ID universels, la préférence d’offre est accordée aux ID universels.
 
-**[!UICONTROL Placement Cap]:** (Facultatif) Le nombre de fois où un appareil ou une personne unique (en fonction de la variable [!UICONTROL Cross Device Level] pour la campagne) sont des publicités diffusées à partir de l’emplacement. Les options incluent *[!UICONTROL Unlimited]* ou un montant spécifique par jour, semaine ou mois.
+* *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (valeur par défaut) cible les utilisateurs en fonction de leurs cookies, identifiants de publicité mobile ou identifiants de télévision (CTV) connectés. Les identifiants sont sélectionnés en fonction de l’inventaire du navigateur, de l’application ou de la technologie CTV.
+
+* *[!UICONTROL Universal ID Beta]*: cible les identifiants axés sur la confidentialité des utilisateurs ; sélectionnez un type d’identifiant. Les options disponibles sont déterminées par les cibles géographiques sélectionnées dans la variable [!UICONTROL Geo-Targeting] . Utilisation avec [[!DNL RampID] segments importés directement vers DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [segments pour lesquels DSP convertit vos informations d’identification personnelles en identifiants universels](/help/dsp/audiences/sources/source-about.md), ou [segments personnalisés qui effectuent le suivi des identifiants universels](/help/dsp/audiences/custom-segment-create.md).
+
+   * *[!UICONTROL ID5]*: cibles [!DNL ID5] ID créés de manière probabiliste à partir d’adresses électroniques et d’autres signaux.<!-- What countries/geos are these available for? Everywhere?--> Les ID5 sont disponibles sans frais. **Remarque :** Segments tiers à partir de [!DNL Eyeota] peuvent inclure des ID5.
+
+   * *[!UICONTROL RampID]*: cibles [!DNL LiveRamp] [!DNL RampIDs] Nombre d’utilisateurs connectés à votre site à l’aide de leurs adresses électroniques.<!-- Verify --> [!DNL RampIDs] sont disponibles pour les utilisateurs en Amérique du Nord, en Australie et en Nouvelle-Zélande.
+
+   * *[!UICONTROL Unified ID2.0]*: cibles [!DNL Unified ID2.0] (UID2) ID des utilisateurs connectés à votre site à l’aide de leurs adresses électroniques.<!-- Verify -->[!DNL UID2 IDs] ne sont pas disponibles pour les utilisateurs de l’Espace économique européen et de certains pays supplémentaires. Voir [liste des pays interdits](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+
+  **[!UICONTROL Terms of service]**: les conditions d’utilisation des identifiants universels. Vous ou un autre utilisateur du compte DSP devez accepter les termes une fois avant de pouvoir convertir les données en un nouveau type d’ID. Pour les clients disposant de contrats de service géré, votre équipe de compte d’Adobe obtiendra votre consentement et acceptera les conditions pour le compte de votre organisation. Pour lire les termes, cliquez sur **>**. Pour accepter les termes, faites défiler l’écran jusqu’au bas des termes et cliquez sur **[!UICONTROL Accept]**.
+
+**[!UICONTROL Cross Device Targeting]:** (Disponible lorsque la variable [campaign est configuré pour le ciblage multi-appareils basé sur les personnes](/help/dsp/campaign-management/campaigns/campaign-settings.md), vous ciblez les ID hérités uniquement (et non les ID universels) et vous sélectionnez au moins un segment ou une audience. Permet d’étendre le ciblage sur tous les appareils connus d’une personne (selon la représentation graphique des appareils spécifiée dans les paramètres de la campagne), même sur les appareils qui ne figurent pas dans les segments spécifiés. Les frais peuvent s&#39;appliquer en fonction du graphique spécifié pour l&#39;opération. Les données de Device Graph sont disponibles uniquement en Amérique du Nord.
+
+**[!UICONTROL Placement Cap]:** (Facultatif) Le nombre de fois où un appareil, un identifiant universel ou une personne unique (en fonction de la variable [!UICONTROL Cross Device Level] pour la campagne et le [!UICONTROL Targeting] ) peuvent être diffusées à partir de l’emplacement. Les options incluent *[!UICONTROL Unlimited]* ou un montant spécifique par jour, semaine ou mois.
 
 >[!NOTE]
 >

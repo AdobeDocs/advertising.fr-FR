@@ -3,16 +3,16 @@ title: Modifier les emplacements
 description: Découvrez comment modifier un emplacement.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
 
 # Modifier les emplacements
 
-Vous pouvez modifier les paramètres d’un emplacement unique ou de plusieurs emplacements à la fois.
+Vous pouvez modifier les paramètres d’un emplacement unique ou de plusieurs emplacements à la fois. Certains paramètres ne peuvent pas être modifiés une fois l’emplacement actif.
 
 <!-- Some placements don't have these options. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 

@@ -3,9 +3,9 @@ title: À propos des rapports personnalisés
 description: Découvrez les options de création manuelle de rapports personnalisés ou d’utilisation de modèles de rapports préconfigurés.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1d8f7c8a365b53a0345ef4155802802acbf3f027
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Vous pouvez générer les rapports une seule fois ou programmer leur génératio
 
 * Modèles de rapport préconfigurés
 
-   * **[!UICONTROL Billing]:** Utilisez ce rapport pour comprendre les mesures de facturation clés, telles que les mesures de dépenses pour la facturation des médias par campagne.
+   * **[!UICONTROL Billing]:** Utilisez ce rapport pour comprendre les mesures de facturation clés, telles que les mesures de dépenses pour la facturation des médias par campagne. Les données ne sont pas disponibles pour les emplacements qui ciblent des identifiants universels.
 
      >[!NOTE]
      >
@@ -61,7 +61,7 @@ Vous pouvez générer les rapports une seule fois ou programmer leur génératio
 
    * **[!UICONTROL Geo]**: utilisez ce modèle prérenseigné pour afficher les mesures clés par dimensions géographiques.
 
-   * **[!UICONTROL Margin]:** Utilisez ce rapport pour afficher les mesures clés telles que les marges, les bénéfices et d’autres mesures de dépenses par campagne ou emplacement.
+   * **[!UICONTROL Margin]:** Utilisez ce rapport pour afficher les mesures clés telles que les marges, les bénéfices et d’autres mesures de dépenses par campagne ou emplacement. Les données ne sont pas disponibles pour les emplacements qui ciblent des identifiants universels.
 
    * **[!UICONTROL Segment]:** Utilisez ce modèle prérenseigné pour afficher les mesures clés par segment.
 
@@ -72,9 +72,9 @@ Vous pouvez générer les rapports une seule fois ou programmer leur génératio
 
    * **[!UICONTROL Site]:** Par défaut, inclut les mesures standard, le total des dépenses nettes des médias et le total des dépenses nettes facturables par site.
 
-   * **[!UICONTROL Household Reach & Frequency]:** Utilisez ce rapport pour afficher les impressions, la portée et la fréquence d’une dimension unique dans les formats d’annonce au niveau d’un foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil/d’un cookie. Utilisez les insights pour optimiser votre mix média, améliorer les performances et identifier les opportunités de portée incrémentielle. Voir &quot;[Questions fréquentes sur les rapports sur les ménages](/help/dsp/reports/faq-household-report.md)&quot; pour plus d’informations.
+   * **[!UICONTROL Household Reach & Frequency]:** Utilisez ce rapport pour afficher les impressions, la portée et la fréquence d’une dimension unique dans les formats d’annonce au niveau d’un foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil/d’un cookie. Utilisez les insights pour optimiser votre mix média, améliorer les performances et identifier les opportunités de portée incrémentielle. Voir &quot;[Questions fréquentes sur les rapports sur les ménages](/help/dsp/reports/faq-household-report.md)&quot; pour plus d’informations. Les données ne sont pas disponibles pour les emplacements qui ciblent des identifiants universels.
 
-   * **[!UICONTROL Household Conversions]:** Utilisez ce rapport pour afficher les conversions d’affichages publicitaires au niveau du foyer en fonction de l’adresse IP, plutôt qu’au niveau de l’appareil ou du cookie. Utilisez les insights pour mesurer et optimiser les performances de la campagne. Voir &quot;[Questions fréquentes sur les rapports sur les ménages](/help/dsp/reports/faq-household-report.md)&quot; pour plus d’informations.
+   * **[!UICONTROL Household Conversions]:** Utilisez ce rapport pour afficher les conversions d’affichages publicitaires au niveau du foyer en fonction de l’adresse IP, plutôt qu’au niveau de l’appareil ou du cookie. Utilisez les insights pour mesurer et optimiser les performances de la campagne. Voir &quot;[Questions fréquentes sur les rapports sur les ménages](/help/dsp/reports/faq-household-report.md)&quot; pour plus d’informations. Les données ne sont pas disponibles pour les emplacements qui ciblent des identifiants universels.
 
 ## Rapports inter-comptes {#cross-account-reporting}
 

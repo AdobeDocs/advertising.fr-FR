@@ -3,9 +3,9 @@ title: Affichage des détails sur une audience réutilisable
 description: Découvrez comment afficher la configuration et la taille de l’audience pour une audience réutilisable.
 feature: DSP Audiences
 exl-id: b7ef5af5-0b82-474b-b769-135f80ba5460
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 5f96a9b1097137a337733be4f1df9bd6b9670626
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 1. Placez le curseur sur la ligne de l’audience et cliquez sur **[!UICONTROL View Details]**.
 
-1. (Facultatif) Pour afficher le nombre principal ou total de membres de l’audience par type d’appareil, cliquez sur ![Ventilation du périphérique](/help/dsp/assets/device-breakdown.png) en regard de **[!UICONTROL Active]** ou **[!UICONTROL Total]** taille de l’audience.
+1. (Facultatif) Pour afficher le nombre de membres actifs ou total de l’audience par type d’appareil (pour les identifiants basés sur des cookies) et par type d’identifiant universel, cliquez sur ![Ventilation du périphérique](/help/dsp/assets/device-breakdown.png) en regard de **[!UICONTROL Active]** ou **[!UICONTROL Total]** taille de l’audience.
 
 1. (Facultatif) Pour modifier les paramètres de l’audience, cliquez sur **[!UICONTROL Edit Audience]** et [modification du nom et de la configuration de l’audience](reusable-audience-edit.md).
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion de l’audience](audience-about.md)
+>* [Gestion de l’audience](audience-about.md)
 >* [Création d’une audience réutilisable](reusable-audience-create.md)
 >* [Duplication d’une audience réutilisable](reusable-audience-duplicate.md)
 >* [Modification d’une audience réutilisable](reusable-audience-edit.md)
@@ -33,4 +33,3 @@ ht-degree: 0%
 >* [Paramètres d’audience](audience-settings.md)
 >* [Syntaxe de la logique de segment d’audience](audience-segment-logic-syntax.md)
 >* [Fournisseurs de données tiers disponibles](third-party-data-providers.md)
-

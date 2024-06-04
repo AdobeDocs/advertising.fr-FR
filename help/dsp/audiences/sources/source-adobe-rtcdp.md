@@ -1,34 +1,53 @@
 ---
-title: Processus d’utilisation de l’intégration DSP avec [!DNL Adobe] [!DNL Real-time CDP]
+title: Utilisation de l’intégration DSP avec [!DNL Adobe] [!DNL Real-time CDP]
 description: Découvrez comment activer DSP d’ingérer votre [!DNL Adobe] [!DNL Real-time CDP] segments propriétaires.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
+source-git-commit: 09151885a21e3f62df72d55802db8c2b2a3e4575
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
-# Processus d’utilisation de l’intégration DSP avec [!DNL Adobe Real-Time CDP]
+# Convertir les ID utilisateur à partir de [!DNL Adobe Real-Time CDP] vers des ID universels
 
-1. [Autoriser DSP traduire les segments de données client en [!DNL LiveRamp RampIDs]](source-universal-id.md) qui sont reconnaissables dans un environnement admissible.<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your Adobe Account Team will perform this configuration. -->
+*Fonction bêta*
 
-1. [Création d’une source d’audience](source-create.md) pour importer des audiences dans votre compte DSP ou un compte publicitaire.
+Utilisation de l’intégration DSP avec [la valeur [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), qui fait partie de Adobe Experience Platform, pour convertir vos adresses électroniques hachées en identifiants universels pour la publicité ciblée.
 
-1. Dans Experience Platform, configurez une connexion de destination de DSP Advertising à l’aide du [!UICONTROL Source Key] qui a été généré dans les paramètres source DSP.
+1. (Pour convertir des adresses électroniques en [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; annonceurs avec [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Configurez le suivi pour [!DNL Analytics] mesure :
+
+   1. (Si vous ne l’avez pas déjà fait) Complétez tous les [conditions préalables à la mise en oeuvre [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) et la variable [AMO ID et EF ID dans vos URL de suivi](/help/integrations/analytics/ids.md).
+
+   1. Inscrivez-vous auprès du partenaire d’ID universel et déployez le code spécifique à l’ID universel sur vos pages web pour faire correspondre les conversions des identifiants sur les navigateurs de bureau et les navigateurs web mobiles (mais pas les applications mobiles) aux affichages publicitaires :
+
+      * **Pour [!DNL RampIDs]:** Vous devez déployer une balise JavaScript supplémentaire sur vos pages web pour faire correspondre les conversions des identifiants des navigateurs de bureau et web mobile (mais pas les applications mobiles) aux affichages publicitaires. Contactez votre équipe de compte d’Adobe, qui vous donnera des instructions pour vous inscrire à une [!DNL LiveRamp] [!DNL LaunchPad] de [!DNL LiveRamp] Solutions de trafic d’authentification. L&#39;inscription est gratuite, mais vous devez signer un accord. Une fois que vous vous êtes enregistré, votre équipe de compte d’Adobe génère et fournit une balise unique que votre organisation doit implémenter sur vos pages web.
+
+1. [Création d’une source d’audience](source-create.md) pour importer des audiences dans votre compte DSP ou un compte publicitaire. Vous pouvez choisir de convertir vos identifiants d’utilisateur en l’un des [formats d’ID universels disponibles](source-about.md).
+
+   Les paramètres de la source comprennent une clé source générée automatiquement, que vous utiliserez à l’étape suivante.
+
+1. Dans Adobe Experience Platform, configurez une connexion DSP destination Advertising à l’aide du [!UICONTROL Source Key] qui a été généré dans les paramètres source DSP.
 
    Pour obtenir des instructions sur l’activation de la connexion DSP destination, la sélection de segments et l’accès aux autorisations de contrôle, voir &quot;[Connexion Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
-Pour obtenir une assistance supplémentaire, contactez votre équipe de compte d’Adobe ou `adcloud-support@adobe.com`.
+   Les adresses électroniques source doivent être hachées à l’aide de l’algorithme SHA-256.
 
+1. Une fois toutes les étapes terminées, vérifiez dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le segment est renseigné dans les 24 heures. Comparez le nombre d’identifiants universels au nombre d’adresses électroniques hachées d’origine.
+
+   Le taux de traduction des adresses électroniques hachées en identifiants universels doit être supérieur à 90 %. Par exemple, si vous envoyez 100 adresses électroniques hachées à partir de votre plateforme de données client, elles doivent être traduites en plus de 90 identifiants universels. Un taux de traduction de 90 % ou moins est un problème. Pour plus d’informations sur la manière dont les décomptes de segments peuvent varier, voir &quot;[Causes des écarts de données entre les ID de courrier électronique et les ID universels](#universal-ids-data-variances).&quot;
+
+   Pour obtenir une assistance en matière de dépannage, contactez votre équipe de compte d’Adobe ou `adcloud-support@adobe.com`.
+
+Les segments sont actualisés toutes les 24 heures. Cependant, l’inclusion dans un segment expire après 30 jours pour garantir la conformité à la confidentialité. Par conséquent, actualisez les audiences en les repoussant de Real-Time CDP tous les 30 jours ou moins.
 
 >[!MORELIKETHIS]
 >
->* [Activation des segments authentifiés à partir des partenaires d’ID universels](source-universal-id.md)
->* [Création d’une source d’audience pour activer les audiences propriétaires](source-create.md)
+>* [Création d’une source d’audience pour activer les audiences d’ID universelles](source-create.md)
 >* [Paramètres de la source d’audience](source-settings.md)
 >* [Adobe Advertising DSP la connexion](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* Adobe Experience Platform [Présentation du catalogue des destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
->* [Processus d’utilisation de l’intégration DSP avec [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
+>* [Importation manuelle de segments authentifiés depuis [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Convertir les ID utilisateur à partir de [!DNL Tealium] vers des ID universels](/help/dsp/audiences/sources/source-tealium.md)
 >* [Gestion de l’audience](/help/dsp/audiences/audience-about.md)

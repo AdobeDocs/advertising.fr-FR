@@ -3,7 +3,7 @@ title: Code JavaScript pour [!DNL Analytics for Advertising]
 description: Code JavaScript pour [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 0%
@@ -25,6 +25,38 @@ Lors de la première page vue d’une visite sur le site, le code JavaScript d�
 >La logique de suivi JavaScript de l’Adobe Advertising se produit côté Adobe et n’a donc pratiquement aucun impact sur le temps de chargement de la page.
 >
 >En revanche, la logique de la variable [!DNL DCM] connecteur de données vers [!DNL Analytics] (en utilisant [!DNL Google Campaign Manager 360]) pour les DSP de publicité se produit côté client. L’assemblage côté client ralentit le chargement de la page et augmente le risque de perte de données. Cela se produit car la variable [!DNL Analytics] JavaScript doit effectuer un ping [!DNL DoubleClick] et attendez [!DNL DoubleClick] pour transmettre les dernières données de clic/impression à [!DNL Analytics]. Lorsque la variable [!DNL DSP] l’équipe configure les [!DNL DCM] connecteur de données, vous devez spécifier la durée pendant laquelle vous souhaitez retarder la page.
+
+<!--
+## Deploying the JavaScript Code
+
+All users must deploy the standard JavaScript code.
+
+Users who want to convert first-party segments from their customer data platforms to [!DNL RampIDs] or [!DNL ID5] IDs [!!!!VERIFY that it's not needed for importing segments directly from LiveRamp] must also deploy ID partner-specific JavaScript code to match conversions to view-throughs.
+
+### The Standard Code
+
+The standard JavaScript library consists of two lines that allow [!DNL Analytics] and Adobe Advertising to communicate with each other. If the [!DNL Analytics for Advertising] integration was completed during the Adobe Advertising implementation, then you should have already received this code with instructions on how to deploy it.
+
+#### Implementations that use the Experience Cloud Identity Service `visitorAPI.js` code
+
+```
+<script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
+<script>
+     if("undefined" != typeof AdCloudEvent) 
+          AdCloudEvent('IMS ORG Id','rsid');
+</script>
+```
+
+#### Implementations that use the Experience Platform [!DNL Web SDK] `alloy.js`code
+
+### Additional Code to Import First-Party Segments to [!DNL RampIDs] and [!DNL ID5] IDs
+
+   * For [!DNL RampIDs], Contact your Adobe Account Team, who will give you instructions to register for a [!DNL LiveRamp] [!DNL LaunchPad] tag. Registration is free, but you must sign an agreement. Once you register, your Adobe Account Team will generate and provide a unique tag for your organization to implement on your webpages.
+
+    [MAYBE PUT THIS BELOW] Place the [!DNL LaunchPad] tag on every page of your website, preferably as the first script within the page head tags but as high within the page head tags as possible.
+
+   * For [!DNL ID5] IDs: Contact your Adobe Account Team, who will give you instructions to register for the tag with ID5. Registration is free, but you must sign an agreement. Once you register, a member of ID5’s technical team will provide a unique tag for your organization to implement on your webpages.
+-->
 
 ## Déploiement du code JavaScript
 

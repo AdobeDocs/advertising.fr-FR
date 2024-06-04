@@ -3,9 +3,9 @@ title: Paramètres de campagne
 description: Reportez-vous à la description des paramètres de campagne disponibles.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Pour estimer les impôts à retenir :
 >
 >* Vous pouvez également configurer ces valeurs dans les paramètres de frais du compte.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-**[!UICONTROL Cross Device Level]:** (Lecture seule pour les campagnes existantes créées depuis le 22 juin 2020 ; non disponible pour les campagnes créées avant le 22 juin 2020) Niveau auquel DSP ciblera les publicités et appliquera des limites de fréquence : *Même appareil* pour cibler un appareil ou *Personnes* pour cibler une personne sur tous ses appareils connus.
+**[!UICONTROL Cross Device Level]:** (Lecture seule pour les campagnes existantes créées depuis le 22 juin 2020 ; non disponible pour les campagnes créées avant le 22 juin 2020) Niveau auquel DSP cible les publicités et applique des limites de fréquence : *Même appareil* pour cibler un appareil ou *Personnes* pour cibler une personne sur tous ses appareils connus. **Remarque :** La prise en charge inter-appareils n’est pas disponible pour les emplacements qui ciblent les identifiants universels.
 
 **[!UICONTROL Device Graph]:** (Lecture seule pour les campagnes existantes ; campagnes avec ciblage interpériphérique basé sur les personnes uniquement) Graphique d’appareil à utiliser pour le ciblage interpériphérique et la gestion des fréquences :
 
@@ -86,7 +86,9 @@ Pour estimer les impôts à retenir :
 
   Cette option est également disponible pour tous les annonceurs, sans frais, pour la gestion des fréquences et la mesure d’attribution.
 
-**[!UICONTROL Frequency Cap]:** (Facultatif) Le nombre de fois où un appareil ou une personne unique (en fonction de la variable [!UICONTROL Cross Device Level]) peuvent être des publicités diffusées à partir de la campagne. Les options incluent *[!UICONTROL Unlimited]* ou un montant spécifique par jour, semaine ou mois.
+  La prise en charge inter-appareils s’applique uniquement aux emplacements qui ciblent des ID hérités, mais pas aux emplacements qui ciblent des ID universels (y compris [!DNL LiveRamps]). Le ciblage, la gestion des fréquences et l’attribution pour les identifiants universels sont appliqués au niveau des identifiants uniquement.
+
+**[!UICONTROL Frequency Cap]:** (Facultatif) Le nombre de fois où un appareil, un identifiant universel ou une personne unique (en fonction de la variable [!UICONTROL Cross Device Level] et de l’emplacement [!UICONTROL Targeting] ) peuvent être diffusées à partir de la campagne. Les options incluent *[!UICONTROL Unlimited]* ou un montant spécifique par jour, semaine ou mois.
 
 >[!NOTE]
 >
