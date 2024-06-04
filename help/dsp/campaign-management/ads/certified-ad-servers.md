@@ -3,9 +3,9 @@ title: Partenaires certifiés du service publicitaire
 description: Voir tous les serveurs de publicités et unités publicitaires certifiés.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 35ee9b5fbb41bb3fd62e36fb28d11dbb7ee36ade
+source-git-commit: af73b56336b3d676a9bc4f6c02835ef1e12ddda3
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X | | X | |
 | [!DNL Inskin] | | | X | | Les habillages à fort impact (y compris les publicités conversationnelles Cavai) doivent être diffusés à partir d’un identifiant d’offre d’affichage 180x150 sur le réseau d’inventaire Inpeau. |
 | [!DNL Jivox] | | X | | | |
-| [!DNL Kargo] | | X | | X | Ancre, BYOC, Survol, Ventilation, Ventilation et Sidekick 320x50 ; Sortie 300x250 ; Élevé ; Affichage de bureau standard (aucun identifiant de module externe de publicité spécifique n’est requis) ; Ancre vidéo (VAST uniquement) ; CTV via [!DNL Pubmatic]</br></br>Contactez votre équipe de compte d’Adobe pour obtenir de l’aide sur la configuration des unités d’annonce. |
+| [!DNL Kargo] | | X | | X | Ancre, BYOC, Survol, Ventilation, Ventilation, Piste et Sidekick 320x50 ; Sortie 300x250 ; Écran de bureau standard (aucun identifiant de module externe de publicité spécifique n’est requis) ; Ancre vidéo (VAST uniquement) ; CTV via [!DNL Pubmatic]</br></br>Contactez votre équipe de compte d’Adobe pour obtenir de l’aide sur la configuration des unités d’annonce. |
 | [!DNL Linkstorm] | | | X | | |
 | [!DNL mCanvas] | | | X | | |
 | [!DNL Medialets] | | X | | | |
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!DNL SundaySky] | | | | X | |
 | [!DNL Teads] | | X | | | Aucune prise en charge n’est disponible pour VPAID dans l’inventaire en amont. |
 | [!DNL Trueffect] | | X | | | |
-| [!DNL Undertone] | | | X | | Unité publicitaire personnalisée de saisie de page chargée 180x150 dans DSP</br></br>Lorsque la bourse d’index transmet une enchère de 180 x 150 et DSP des offres sur l’enchère et diffuse une impression, le créatif se développe en une publicité display pleine page.</br></br>Initialement certifié pour les unités publicitaires Grabber (Grabber) de page, Adhésion extensible et Maj d’écran. Cette opération doit être certifiée, avec les étapes indiquées pour les processus. |
+| [!DNL Undertone] | | | X | | Unité publicitaire personnalisée de saisie de page chargée 180x150 dans DSP</br></br>Lorsque l’Exchange d’index transmet une enchère de 180 x 150 et DSP des offres sur l’enchère et diffuse une impression, le créatif se développe en une publicité display pleine page.</br></br>Initialement certifié pour les unités publicitaires Grabber (Grabber) de page, Adhésion extensible et Maj d’écran. Cette opération doit être certifiée, avec les étapes indiquées pour les processus. |
 | [!DNL Vox] | | | X | | [!DNL Athena] unités d’annonces |
 | [!DNL Wunderkind] | | X | | | |
 
