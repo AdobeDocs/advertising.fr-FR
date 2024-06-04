@@ -3,7 +3,7 @@ title: Partenaires certifiés du service publicitaire
 description: Voir tous les serveurs de publicités et unités publicitaires certifiés.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: af73b56336b3d676a9bc4f6c02835ef1e12ddda3
+source-git-commit: a0f078d93a5cbd408e3eba996ec29102d0422bc1
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X | | X | |
 | [!DNL Inskin] | | | X | | Les habillages à fort impact (y compris les publicités conversationnelles Cavai) doivent être diffusés à partir d’un identifiant d’offre d’affichage 180x150 sur le réseau d’inventaire Inpeau. |
 | [!DNL Jivox] | | X | | | |
-| [!DNL Kargo] | | X | | X | Ancre, BYOC, Survol, Ventilation, Ventilation, Piste et Sidekick 320x50 ; Sortie 300x250 ; Écran de bureau standard (aucun identifiant de module externe de publicité spécifique n’est requis) ; Ancre vidéo (VAST uniquement) ; CTV via [!DNL Pubmatic]</br></br>Contactez votre équipe de compte d’Adobe pour obtenir de l’aide sur la configuration des unités d’annonce. |
+| [!DNL Kargo] | | X | | X | Ancre, BYOC, Survol, Ventilation, Ventilation, Exécution, Sidekick 300 x 250 ; Écran de bureau standard (aucun identifiant de module externe de publicité spécifique n’est requis) ; Ancre vidéo (VAST uniquement) ; CTV via [!DNL Pubmatic]</br></br>Contactez votre équipe de compte d’Adobe pour obtenir de l’aide sur la configuration des unités d’annonce. |
 | [!DNL Linkstorm] | | | X | | |
 | [!DNL mCanvas] | | | X | | |
 | [!DNL Medialets] | | X | | | |
