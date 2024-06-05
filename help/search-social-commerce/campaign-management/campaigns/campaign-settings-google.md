@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Google Ads] campagnes.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: fd5a78a0eb2982ee85ca2d2b6a3cd79a0821d965
 workflow-type: tm+mt
-source-wordcount: '2426'
+source-wordcount: '2424'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Display Network Only]:* Affiche les publicités sur le réseau d’affichage. Pour chaque groupe d’annonces, vous devez spécifier des emplacements et pouvez éventuellement spécifier des mots-clés.
 
-* *[!UICONTROL Performance Max]:* (Fonction bêta) Affiche et optimise les conversions de vos publicités sur plusieurs canaux à l’aide de [!DNL Google Ads] enchères intelligentes. Dans les paramètres de l’opération, vous devez indiquer un ou plusieurs groupes de ressources, notamment des images, des logos, des titres, des descriptions, des vidéos facultatives et des signaux d’audience. [!DNL Google Ads] combine automatiquement les ressources pour diffuser des publicités en fonction du canal (comme [!DNL YouTube], [!DNL Gmail], ou [!DNL Search]).
+* *[!UICONTROL Performance Max]:* Affiche et optimise les conversions de vos publicités sur plusieurs canaux à l’aide de [!DNL Google Ads] enchères intelligentes. Dans les paramètres de l’opération, vous devez indiquer un ou plusieurs groupes de ressources, notamment des images, des logos, des titres, des descriptions, des vidéos facultatives et des signaux d’audience. [!DNL Google Ads] combine automatiquement les ressources pour diffuser des publicités en fonction du canal (comme [!DNL YouTube], [!DNL Gmail], ou [!DNL Search]).
 
   **Remarques :**
 
