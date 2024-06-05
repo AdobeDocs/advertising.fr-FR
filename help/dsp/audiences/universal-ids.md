@@ -3,7 +3,7 @@ title: Prise en charge de l’activation des ID universels
 description: Découvrez la prise en charge de l’importation de vos segments d’ID universels, de la création de segments personnalisés pour effectuer le suivi des identifiants universels et de la conversion d’autres identifiants d’utilisateur dans vos segments propriétaires en identifiants universels pour un ciblage sans cookie.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 503b1efbf95ac242a2c9e3db0764dc7b228137e0
+source-git-commit: c1f4df1d5c3f6b32597f59285f25bf0b9da5fb91
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 0%
@@ -25,11 +25,6 @@ DSP prend en charge les identifiants universels basés sur les personnes pour le
 * Vous pouvez créer des segments personnalisés qui effectuent le suivi des utilisateurs associés aux ID universels ID 5 qui sont exposés à des publicités provenant d’ordinateurs de bureau et d’appareils mobiles et qui visitent des pages web spécifiques. ID5 utilise un modèle probabiliste pour attribuer un ID dérivé de divers signaux de l’utilisateur et des signaux du navigateur. Pour obtenir des instructions, voir &quot;[Création et implémentation d’un segment personnalisé](/help/dsp/audiences/custom-segment-create.md).&quot;
 
 * Segments tiers à partir de [!DNL Eyeota] et certains autres fournisseurs peuvent inclure automatiquement des ID5, en plus des utilisateurs suivis par des cookies ou des ID d’appareil. Les détails du segment incluent la taille de chaque type. Les frais d’utilisation habituels pour chaque segment, indiqués en regard du nom du segment, s’appliquent ; aucun frais supplémentaire n’est facturé pour les ID 5.
-
-<!-- Make above statement more generic when other ID types are available 
-
-* Some third-party segment vendors have started including universal IDs in their segments, and you can use them in saved audiences and as placement targets without any extra steps or extra fees.
--->
 
 ## Reporting par type d’ID universel
 
