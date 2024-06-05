@@ -3,9 +3,9 @@ title: Prise en charge de l’activation des ID universels
 description: Découvrez la prise en charge de l’importation de vos segments d’ID universels, de la création de segments personnalisés pour effectuer le suivi des identifiants universels et de la conversion d’autres identifiants d’utilisateur dans vos segments propriétaires en identifiants universels pour un ciblage sans cookie.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 2d8edb7e5c32ba7077a7f4e6550ed22ec680b1fc
+source-git-commit: 503b1efbf95ac242a2c9e3db0764dc7b228137e0
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -103,13 +103,17 @@ Suivez les bonnes pratiques suivantes pour [!DNL RampID]Segments basés sur ID5 
 
 ## Causes des écarts de données entre les ID de courrier électronique et les ID universels {#universal-ids-data-variances}
 
-Il existe deux raisons d’écarts entre les ID de courrier électronique haché traduits en [!DNL RampIDs]:
+* ID de courrier électronique haché traduits en ID5 :
 
-* Lorsque plusieurs profils utilisent le même ID d’adresse électronique, le nombre de segments DSP peut être inférieur au nombre de profils dans votre plateforme de données client. Dans Adobe Photoshop, par exemple, vous pouvez créer un compte de société et un compte personnel à l’aide d’un seul ID de courrier électronique. Mais si les deux profils appartiennent au même segment, ils correspondent à un ID d’email et correspondant à un [!DNL RampID].
+  Le modèle probabiliste présente une variance d’erreur de +/- 5 %. Cela signifie qu’il peut surestimer ou sous-estimer le nombre d’audiences de 5 %.
 
-* A [!DNL RampID] peut être mis à niveau vers une nouvelle valeur. If [!DNL LiveRamp] ne reconnaît pas un ID d’adresse électronique ou ne peut pas le mapper à un ID existant ; [!DNL RampID] dans sa base de données, puis il affecte une nouvelle [!DNL RampID] à l’ID d’adresse électronique. À l’avenir, lorsqu’ils pourront mapper l’e-mail à un autre [!DNL RampID] ou peuvent recueillir plus d’informations sur le même ID d’e-mail, ils mettent à niveau la variable [!DNL RampID] à une nouvelle valeur. [!DNL LiveRamp] fait référence à cette action comme mise à niveau à partir d’un &quot;dérivé&quot; [!DNL RampID] à un &quot;conservé&quot; [!DNL RampID]. Cependant, DSP n’obtient pas de mappages entre les mappages dérivés et gérés. [!DNL RampIDs] et ne peut donc pas supprimer la version précédente de l’ID RampID du segment DSP. Dans ce cas, le nombre de segments peut être supérieur au nombre de profils.
+* ID de courrier électronique haché convertis en [!DNL RampIDs]:
 
-  Exemple : un utilisateur se connecte au [!DNL Adobe] et visite la page Photoshop. If [!DNL LiveRamp] ne contient aucune information existante sur l’ID d’adresse électronique, puis il lui affecte un [!DNL RampID], par exemple D123. Quinze jours plus tard, l’utilisateur consulte la même page, mais [!DNL LiveRamp] a mis à niveau la variable [!DNL RampID] pendant ces 15 jours et a réaffecté la fonction [!DNL RampID] au M123. Même si le segment de la plateforme de données client &quot;Photoshop Enthusiast&quot; ne comporte qu’un seul e-mail pour l’utilisateur, le segment DSP comporte deux RampID : D123 et M123.
+   * Lorsque plusieurs profils utilisent le même ID d’adresse électronique, le nombre de segments DSP peut être inférieur au nombre de profils dans votre plateforme de données client. Dans Adobe Photoshop, par exemple, vous pouvez créer un compte de société et un compte personnel à l’aide d’un seul ID de courrier électronique. Mais si les deux profils appartiennent au même segment, ils correspondent à un ID d’email et correspondant à un [!DNL RampID].
+
+   * A [!DNL RampID] peut être mis à niveau vers une nouvelle valeur. If [!DNL LiveRamp] ne reconnaît pas un ID d’adresse électronique ou ne peut pas le mapper à un ID existant ; [!DNL RampID] dans sa base de données, puis il affecte une nouvelle [!DNL RampID] à l’ID d’adresse électronique. À l’avenir, lorsqu’ils pourront mapper l’e-mail à un autre [!DNL RampID] ou peuvent recueillir plus d’informations sur le même ID d’e-mail, ils mettent à niveau la variable [!DNL RampID] à une nouvelle valeur. [!DNL LiveRamp] fait référence à cette action comme mise à niveau à partir d’un &quot;dérivé&quot; [!DNL RampID] à un &quot;conservé&quot; [!DNL RampID]. Cependant, DSP n’obtient pas de mappages entre les mappages dérivés et gérés. [!DNL RampIDs] et ne peut donc pas supprimer la version précédente de l’ID RampID du segment DSP. Dans ce cas, le nombre de segments peut être supérieur au nombre de profils.
+
+     Exemple : un utilisateur se connecte au [!DNL Adobe] et visite la page Photoshop. If [!DNL LiveRamp] ne contient aucune information existante sur l’ID d’adresse électronique, puis il lui affecte un [!DNL RampID], par exemple D123. Quinze jours plus tard, l’utilisateur consulte la même page, mais [!DNL LiveRamp] a mis à niveau la variable [!DNL RampID] pendant ces 15 jours et a réaffecté la fonction [!DNL RampID] au M123. Même si le segment de la plateforme de données client &quot;Photoshop Enthusiast&quot; ne comporte qu’un seul e-mail pour l’utilisateur, le segment DSP comporte deux RampID : D123 et M123.
 
 ## Dépannage
 
