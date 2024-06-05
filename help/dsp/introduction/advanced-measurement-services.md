@@ -2,9 +2,9 @@
 title: Solutions de mesure avancée
 description: Consultez la liste des solutions disponibles pour les mesures avancées.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 06275b37fd5e9449cbf80bcff4f55aaaa8a99b55
+source-git-commit: 226b9a78b00f547da840c27663241f91dfca92d3
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -25,14 +25,26 @@ Les packages de solution de mesure suivants sont disponibles pour valider le suc
 
 * **Portée, fréquence et conversions basées sur les ménages**
 
-  Découvrez la portée totale de l’opération au niveau des ménages, ainsi que la contribution des différents écrans. Les options de création de rapports incluent :
+  Identifiez la portée totale de l’opération au niveau des ménages et la contribution des différents écrans. Les options de création de rapports incluent :
+
+   * Portée, fréquence et conversion des identifiants croisés (sans cookie)
+
+      * Quantifiez la portée, le chevauchement et les conversions uniques/incrémentiels au niveau d’un foyer par type d’ID sans cookie (RampID, ID5) dans plusieurs environnements, y compris la télévision connectée (CTV) et numérique (bureau, mobile, natif et audio).
+
+      * Démontrez l’efficacité du test des ID sans cookie pour identifier la portée incrémentielle par rapport aux segments basés sur des cookies.
 
    * Durée moyenne de conversion
+
    * Fréquence de conversion
-   * Rapport de télévision connectée (CTV)
+
+   * Création de rapports CTV
+
    * Incrémentation de l’application CTV
+
    * Reporting sur plusieurs écrans (Digital &amp; CTV)
+
    * Création de rapports sur plusieurs écrans plus (Digital, CTV et TV)
+
    * Portée et fréquence des messages In-Segment numériques
 
 * **Portée et conversions basées sur les personnes**
@@ -42,6 +54,11 @@ Les packages de solution de mesure suivants sont disponibles pour valider le suc
    * **Portée sur les personnes utilisant les ID croisés**
 
      Quantifiez la portée unique et le chevauchement entre les cookies et les RampID, ainsi que le coût par mesure par type d’ID. Démontrez l’efficacité du test des RampID pour identifier la portée incrémentielle par rapport aux segments basés sur les cookies dans plusieurs environnements numériques, tels que les ordinateurs de bureau, les appareils mobiles, natifs et audio.
+
+* **Effet halo sur les rapports de recherche**
+
+  Quantifiez l’impact de l’exposition à la télévision numérique et aux publicités numériques sur le nombre de clics de recherche, les conversions de recherche et le retour sur investissement au niveau des foyers dans l’application CTV, le mot-clé de recherche, le moteur de recherche, ainsi que les niveaux d’audience et de tactique personnalisés.
+
 
 * **[!DNL Dynata]Enquêtes basées sur des panneaux**
 
