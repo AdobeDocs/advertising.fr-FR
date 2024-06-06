@@ -1,22 +1,20 @@
 ---
 title: Gestion des informations d’identification des comptes de gestionnaire de réseau publicitaire
 description: Découvrez comment fournir des informations d’identification pour votre [!DNL Google Ads] comptes de gestion.
-exl-id: bde22f70-12a7-4eef-a141-dafeed9a7dc5
+exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 4cf04fc7ea22e50b5f56cd278ad9a1aac724edf7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 1%
+source-wordcount: '324'
+ht-degree: 0%
 
 ---
 
 # Gestion des informations d’identification des comptes de gestionnaire de réseau publicitaire
 
-*Fonctionnalité bêta*
-
 *[!DNL Google Ads]comptes uniquement*
 
-Indiquez les informations d’identification de votre [!DNL Google Ads] de gérer les comptes vers lesquels vous souhaitez que Search, Social et Commerce charge les conversions entre comptes. Utilisez cette fonctionnalité si vous souhaitez) télécharger [!DNL Adobe]mesures de conversion entre comptes suivis en une [!DNL Google Ads] compte de gestionnaire ou b) transférer des objectifs de portefeuille qui incluent des conversions entre comptes en [!DNL Google Ads] pour l’optimisation hybride.
+Indiquez les informations d’identification de votre [!DNL Google Ads] gérer les comptes vers lesquels vous souhaitez que Search, Social et Commerce charge les conversions entre comptes. Utilisez cette fonctionnalité si vous souhaitez) télécharger [!DNL Adobe]mesures de conversion entre comptes suivis en une [!DNL Google Ads] compte de gestionnaire ou b) transférer des objectifs de portefeuille qui incluent des conversions entre comptes en [!DNL Google Ads] pour l’optimisation hybride.
 
 <!-- [Maybe later: and c) sync conversion value rules for accounts that use cross-account conversion tracking with Google Ads.] -->
 

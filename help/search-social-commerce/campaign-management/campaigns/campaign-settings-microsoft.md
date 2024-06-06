@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft Advertising] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Microsoft Advertising] campagnes.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 0f128b569f8c005c4f72a0c85ebf59e9fed53320
+source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]:* Affiche des publicités natives/affichées sur le [!DNL Microsoft Audience Network]. Vous pouvez : a) générer automatiquement des publicités basées sur le flux en liant la campagne à un magasin de centre commercial dans la variable [!UICONTROL Shopping Settings] ou b) créer des publicités réactives avec des ressources textuelles et des images téléchargées. Les deux options exigent que vous créiez des groupes d’annonces avec le ciblage des utilisateurs.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Fonction bêta) Promotion de vos produits par le biais de revendeurs liés sur les réseaux de recherche et d’audience. Vous pouvez créer des groupes d’annonces enfants et des groupes de produits (applications à promouvoir), ainsi que des publicités de produits facultatives pour la campagne ; [!DNL Microsoft Advertising] crée automatiquement des publicités pour les groupes de produits. Pour les campagnes d’achat de marques, utilisez la stratégie d’offre [!UICONTROL Manual CPC]; pour les promotions d’achats pour les marques, utilisez la stratégie d’offre [!UICONTROL Cost per Sale].
+* *[!UICONTROL Shopping Campaigns for Brands]:* Promotion de vos produits par le biais de détaillants liés sur les réseaux de recherche et d’audience. Vous pouvez créer des groupes d’annonces enfants et des groupes de produits (applications à promouvoir), ainsi que des publicités de produits facultatives pour la campagne ; [!DNL Microsoft Advertising] crée automatiquement des publicités pour les groupes de produits. Pour les campagnes d’achat de marques, utilisez la stratégie d’offre [!UICONTROL Manual CPC]; pour les promotions d’achats pour les marques, utilisez la stratégie d’offre [!UICONTROL Cost per Sale].
 
-* *[!UICONTROL Microsoft Store Ads Campaign]:* (Fonction bêta) Promotion de vos applications et jeux disponibles dans la variable [!DNL Microsoft Store]. Vous pouvez créer des groupes d’annonces enfants, des groupes de produits et des publicités de produits facultatives pour la campagne ; [!DNL Microsoft Advertising] crée automatiquement des publicités pour les groupes de produits.
+* *[!UICONTROL Microsoft Store Ads Campaign]:* Promeut vos applications et jeux disponibles dans la variable [!DNL Microsoft Store]. Vous pouvez créer des groupes d’annonces enfants, des groupes de produits et des publicités de produits facultatives pour la campagne ; [!DNL Microsoft Advertising] crée automatiquement des publicités pour les groupes de produits.
 
-* *[!UICONTROL Audience CTV Video]:* (Fonction bêta) Affiche les publicités vidéo de la télévision connectée (CTV) sur le réseau d’audience.
+* *[!UICONTROL Audience CTV Video]:* Affiche les publicités vidéo de la télévision connectée (CTV) sur le réseau d’audience.
 
-* *[!UICONTROL Audience Video]:* (Fonction bêta) Affiche des publicités vidéo standard sur le réseau d’audience.
+* *[!UICONTROL Audience Video]:* Affiche des publicités vidéo standard sur le réseau d’audience.
 
-* *[!UICONTROL Performance Max]:* (Fonction bêta) Affiche plusieurs types d’annonces sur tous les réseaux à l’aide de [!DNL Microsoft Advertising] enchères intelligentes. Dans les paramètres de l&#39;opération, vous devez indiquer un ou plusieurs groupes de ressources, notamment des images, des logos, des titres, des descriptions, un appel à l&#39;action facultatif et des signaux d&#39;audience. Le réseau publicitaire combine automatiquement les ressources pour diffuser des publicités en fonction du canal.
+* *[!UICONTROL Performance Max]:* Affiche plusieurs types d’annonces sur tous les réseaux à l’aide de [!DNL Microsoft Advertising] enchères intelligentes. Dans les paramètres de l&#39;opération, vous devez indiquer un ou plusieurs groupes de ressources, notamment des images, des logos, des titres, des descriptions, un appel à l&#39;action facultatif et des signaux d&#39;audience. Le réseau publicitaire combine automatiquement les ressources pour diffuser des publicités en fonction du canal.
 
 ## [!UICONTROL Campaign Details]
 
