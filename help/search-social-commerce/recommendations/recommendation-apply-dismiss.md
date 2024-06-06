@@ -3,7 +3,7 @@ title: Appliquer ou supprimer une recommandation d’éditeur
 description: Découvrez comment afficher, appliquer ou ignorer une recommandation d’éditeur.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
+source-git-commit: bd0c158ca27258fa7600553462bf4fedbabc9089
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Appliquer ou supprimer une recommandation d’éditeur
 
-*[!DNL Google Ads]et [!DNL Microsoft® Advertising] comptes*
+*[!DNL Google Ads]et [!DNL Microsoft Advertising] comptes*
 
-*Fonction bêta pour [!DNL Microsoft® Advertising] comptes*
+*Fonction bêta pour [!DNL Microsoft Advertising] comptes*
 
 Affichez les actions recommandées, ainsi qu’une explication des raisons pour lesquelles ces actions seraient bénéfiques, pour une recommandation d’éditeur. Vous pouvez ensuite appliquer la recommandation lorsqu’elle s’aligne sur les objectifs de votre entreprise, puis ignorer une recommandation lorsqu’elle ne l’est pas.
 
@@ -26,7 +26,7 @@ Affichez les actions recommandées, ainsi qu’une explication des raisons pour 
 
 1. Dans le coin supérieur droit, sélectionnez le réseau publicitaire et le compte.
 
-   Pour [!DNL Microsoft® Advertising] les comptes, [!UICONTROL Recommendations] pour le compte sont répertoriés par défaut.
+   Pour [!DNL Microsoft Advertising] les comptes, [!UICONTROL Recommendations] pour le compte sont répertoriés par défaut.
 
 1. (Facultatif) Filtrez les recommandations par catégorie et par type.
 

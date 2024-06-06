@@ -3,7 +3,7 @@ title: Affichage du journal des recommandations de l’éditeur pour un compte
 description: Découvrez comment afficher un journal de chaque recommandation qui a été appliquée pour une [!DNL Google Ads] ou [!DNL Microsoft Advertising] compte .
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
+source-git-commit: d12b4905218b7c1057e7987f1a49a8691557455d
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Affichage des recommandations de l’éditeur pour un compte
 
-*[!DNL Google Ads]et [!DNL Microsoft® Advertising] comptes*
+*[!DNL Google Ads]et [!DNL Microsoft Advertising] comptes*
 
-*Fonction bêta pour [!DNL Microsoft® Advertising] comptes*
+*Fonction bêta pour [!DNL Microsoft Advertising] comptes*
 
 Vous pouvez afficher le journal de chaque recommandation qui a été appliquée pour une [!DNL Google Ads] ou [!DNL Microsoft Advertising] compte . Les informations incluent la catégorie de recommandation, le type de recommandation, les entités concernées, l’utilisateur qui a appliqué la recommandation et l’horodatage.
 
