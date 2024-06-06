@@ -3,9 +3,9 @@ title: Convertir les ID utilisateur à partir de [!DNL Tealium] vers des ID univ
 description: Découvrez comment activer DSP d’ingérer votre [!DNL Tealium] segments propriétaires.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -153,7 +153,7 @@ Pour obtenir une assistance en matière de dépannage, contactez votre équipe d
 >[!MORELIKETHIS]
 >
 >* [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md)
->* [Création d’une source d’audience pour activer les audiences d’ID universelles](source-create.md)
+>* [Gestion des sources d’audience pour activer les audiences d’ID universelles](source-manage.md)
 >* [Paramètres de la source d’audience](source-settings.md)
 >* [Convertir les ID utilisateur à partir de [!DNL Adobe Real-Time CDP] vers des ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Gestion de l’audience](/help/dsp/audiences/audience-about.md)

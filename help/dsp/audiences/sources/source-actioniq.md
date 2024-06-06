@@ -2,9 +2,9 @@
 title: "Convertir les ID utilisateur à partir de [!DNL ActionIQ] à des ID universels"
 description: "Découvrez comment activer DSP d’ingérer votre [!DNL ActionIQ] segments propriétaires."
 feature: DSP Audiences
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Les segments sont actualisés toutes les 24 heures.
 >[!MORELIKETHIS]
 >
 >* [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md)
->* [Création d’une source d’audience pour activer les audiences d’ID universelles](source-create.md)
+>* [Gestion des sources d’audience pour activer les audiences d’ID universelles](source-manage.md)
 >* [Paramètres de la source d’audience](source-settings.md)
 >* [Convertir les ID utilisateur à partir de [!DNL Adobe Real-Time CDP] vers des ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Convertir les ID utilisateur à partir de [!DNL Tealium] vers des ID universels](/help/dsp/audiences/sources/source-tealium.md)

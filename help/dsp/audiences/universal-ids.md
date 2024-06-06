@@ -3,9 +3,9 @@ title: Prise en charge de l’activation des ID universels
 description: Découvrez la prise en charge de l’importation de vos segments d’ID universels, de la création de segments personnalisés pour effectuer le suivi des identifiants universels et de la conversion d’autres identifiants d’utilisateur dans vos segments propriétaires en identifiants universels pour un ciblage sans cookie.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: c1f4df1d5c3f6b32597f59285f25bf0b9da5fb91
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Si vous ne parvenez pas à résoudre le problème, contactez votre équipe de co
 
 >[!MORELIKETHIS]
 >
->* [Création d’une source d’audience pour activer les audiences d’ID universelles](/help/dsp/audiences/sources/source-create.md)
+>* [Gestion des sources d’audience pour activer les audiences d’ID universelles](/help/dsp/audiences/sources/source-manage.md)
 >* [Convertir les ID utilisateur à partir de [!DNL Adobe Real-Time CDP] vers des ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Convertir les ID utilisateur à partir de [!DNL Tealium] vers des ID universels](/help/dsp/audiences/sources/source-tealium.md)
 >* [Création et implémentation d’un segment personnalisé](/help/dsp/audiences/custom-segment-create.md)

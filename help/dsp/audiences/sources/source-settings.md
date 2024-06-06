@@ -3,9 +3,9 @@ title: Paramètres de la source d’audience
 description: Découvrez les paramètres des sources d’audience.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: 16a796e02150b00c77c825d7f54c6e390c85214a
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Pour [!DNL RampID] et [!DNL Unified ID2.0], le fournisseur recherche chaque adre
 
 >[!MORELIKETHIS]
 >
->* [Création d’une source d’audience pour activer les audiences d’ID universelles](source-create.md)
+>* [Gestion des sources d’audience pour activer les audiences d’ID universelles](source-manage.md)
 >* [À propos des sources d’audience propriétaires](source-about.md)
 >* [Importation manuelle de segments authentifiés depuis [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Adobe Advertising DSP la connexion](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
