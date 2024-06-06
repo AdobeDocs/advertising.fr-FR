@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 048752e0f9a5d95c22bd9acb4b70034b5f833494
 workflow-type: tm+mt
-source-wordcount: '2915'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ Les fonctionnalités suivantes sont nouvelles ou récemment modifiées.
 
 | Date | Fonctionnalité | Description | Pour plus d’informations |
 | ---- | ------- | ----------- | -------------------- |
+| 5 juin 2024 | Emplacements | Vous pouvez désormais gérer les multiplicateurs d’offres pour plusieurs emplacements à la fois à l’aide d’une feuille de calcul. | Voir &quot;[Gestion des multiplicateurs d’offre pour les emplacements](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
+|  | Sources d’audience | Vous pouvez maintenant modifier les types d’ID universels vers lesquels l’audience source est traduite et afficher un journal des modifications. | Voir &quot;[Gestion des sources d’audience pour activer les audiences d’ID universelles](/help/dsp/audiences/sources/source-manage.md).&quot; |
 | 22 mai 2024 | Optimisation, publicités TV connectées | Dans les modules comportant les objectifs d’optimisation &quot;CPA la plus basse&quot; et &quot;RSDP la plus élevée&quot;, les modèles de performances des publicités télévisées connectées utilisent désormais les données de plusieurs points de contact dans le chemin de conversion pour un apprentissage automatique plus rapide et plus robuste. Les modules existants sont mis à niveau pour utiliser l’optimisation multi-touch et aucune action n’est requise. | — |
 | 20 mai 2024 | Publicités TV connectées, pixels, reciblage de segments | (Version bêta ouverte ; disponible uniquement aux États-Unis et aux États-Unis) Vous pouvez désormais recibler les segments d’audience exposés à une campagne TV connectée avec des publicités supplémentaires pour améliorer la publicité cross-canal :<ol><li>Configurez un segment d’exposition des publicités et copiez la balise de suivi d’impression dans le placement TV connecté souhaité ou la publicité pour commencer le suivi du segment.</li><li>Dans l’emplacement de reciblage, sélectionnez le segment d’exposition TV connecté dans la [!UICONTROL Audience Targeting] .</li></ol> | Voir &quot;[Création et implémentation d’un segment personnalisé](/help/dsp/audiences/custom-segment-create.md)&quot; et &quot;[Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2 mai 2024 | Publicités, pixels | Vous pouvez télécharger les paramètres de publicité et les associations d’emplacement pour toutes les publicités d’une campagne au format XLSX (feuille de calcul Excel) en vue de les consulter à partir de la [!UICONTROL Ad Tools] vue. | Voir &quot;[Vérification des détails des publicités à l’aide de feuilles de calcul](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
