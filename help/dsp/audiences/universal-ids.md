@@ -3,7 +3,7 @@ title: Prise en charge de l’activation des ID universels
 description: Découvrez la prise en charge de l’importation de vos segments d’ID universels, de la création de segments personnalisés pour effectuer le suivi des identifiants universels et de la conversion d’autres identifiants d’utilisateur dans vos segments propriétaires en identifiants universels pour un ciblage sans cookie.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Si vous ne voyez pas le nombre d’utilisateurs ou si les tailles de votre audie
 
 * Assurez-vous que le code approprié et universel propre au partenaire d’ID est implémenté sur votre site web pour faire correspondre les événements sur site et les expositions publicitaires. Travaillez avec votre [!DNL LiveRamp] ou [!DNL ID5] le cas échéant.
 
-* (Pour [!DNL RampIDs] et [!DNL UID 2.0] ID) Assurez-vous que la variable [DSP source de données est correctement configurée](/help/dsp/audiences/sources/source-settings.md)et que les comptes d’utilisateurs sont renseignés pour les segments d’audience générés.
+* (Pour [!DNL RampIDs] et [!DNL UID 2.0] ID) Assurez-vous que la variable [DSP source de données est correctement configurée](/help/dsp/audiences/sources/source-manage.md#source-settings)et que les comptes d’utilisateurs sont renseignés pour les segments d’audience générés.
 
 * Si votre portée est inférieure à ce que vous attendez, vérifiez que la logique du segment d’audience n’est pas trop granulaire.
 

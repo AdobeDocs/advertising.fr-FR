@@ -3,7 +3,7 @@ title: Gestion des sources d’audience pour activer les audiences d’ID univer
 description: Découvrez comment créer et gérer une source pour importer des audiences de votre plateforme de données client et les convertir en segments contenant des ID universels.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -44,7 +44,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Spécifiez la variable [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* ou *[!UICONTROL Account]*.
 
-1. Saisissez le reste [paramètres source](source-settings.md).
+1. Saisissez le reste [paramètres source](#source-settings).
 
    Conserver une copie de la fonction [!UICONTROL Source Key] qui est généré. Vous aurez besoin de la valeur plus tard.
 
@@ -69,7 +69,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. Placez le curseur sur la ligne source et cliquez sur **[!UICONTROL Edit]**.
 
-1. Modifiez la variable [ID sélectionnés pour la source](source-settings.md).
+1. Modifiez la variable [ID sélectionnés pour la source](#source-settings).
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -101,7 +101,7 @@ Vous pouvez afficher des détails sur les modifications apportées à un enregis
 
 1. (Facultatif) Pour ouvrir le journal dans un écran de détail plus grand, placez le curseur sur la ligne source et cliquez sur **[!UICONTROL View Details]**.
 
-## Paramètres de la source d’audience
+## Paramètres de la source d’audience {#source-settings}
 
 **[!UICONTROL Data Visibility Level]:** Si les segments sont disponibles pour un seul annonceur ayant accès au compte (*[!UICONTROL Advertiser]*) ou à tous les annonceurs ayant accès au compte *[!UICONTROL Account]*.
 
