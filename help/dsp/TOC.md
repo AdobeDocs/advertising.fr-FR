@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '899'
 ht-degree: 3%
 
 ---
@@ -143,7 +143,6 @@ ht-degree: 3%
          + [Convertir les ID utilisateur à partir de [!DNL Adobe Real-Time CDP] vers des ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
          + [Convertir les ID utilisateur à partir de [!DNL Tealium] vers des ID universels](/help/dsp/audiences/sources/source-tealium.md)
       + [Gestion des sources d’audience pour activer les audiences d’ID universelles](/help/dsp/audiences/sources/source-manage.md)
-      + [Paramètres de la source d’audience](/help/dsp/audiences/sources/source-settings.md)
    + [Importation manuelle de segments authentifiés depuis [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [Fournisseurs de données tiers disponibles](/help/dsp/audiences/third-party-data-providers.md)
 + Inventaire {#inventory}

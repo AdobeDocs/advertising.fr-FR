@@ -3,9 +3,9 @@ title: À propos des sources d’audience propriétaires
 description: Découvrez comment convertir d’autres identifiants d’utilisateur dans vos segments propriétaires en identifiants universels pour un ciblage sans cookie.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,6 @@ Vous pouvez partager les données propriétaires de votre entreprise à partir d
 >* [Convertir les ID utilisateur à partir de [!DNL Adobe Real-Time CDP] vers des ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Convertir les ID utilisateur à partir de [!DNL Tealium] vers des ID universels](/help/dsp/audiences/sources/source-tealium.md)
 >* [Gestion des sources d’audience pour activer les audiences d’ID universelles](source-manage.md)
->* [Paramètres de la source d’audience](source-settings.md)
 >* [Prise en charge de l’activation des ID universels](/help/dsp/audiences/universal-ids.md)
 >* [Gestion de l’audience](/help/dsp/audiences/audience-about.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

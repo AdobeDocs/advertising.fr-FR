@@ -2,9 +2,9 @@
 title: Convertir les ID utilisateur à partir de [!DNL Optimizely] vers des ID universels
 description: Découvrez comment activer DSP d’ingérer votre [!DNL Optimizely] segments propriétaires.
 feature: DSP Audiences
-source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
+source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,6 @@ Pour obtenir une assistance en matière de dépannage, contactez votre équipe d
 >
 >* [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md)
 >* [Gestion des sources d’audience pour activer les audiences d’ID universelles](source-manage.md)
->* [Paramètres de la source d’audience](source-settings.md)
 >* [Convertir les ID utilisateur à partir de [!DNL Adobe Real-Time CDP] vers des ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Convertir les ID utilisateur à partir de [!DNL Tealium] vers des ID universels](/help/dsp/audiences/sources/source-tealium.md)
 >* [Gestion de l’audience](/help/dsp/audiences/audience-about.md)
