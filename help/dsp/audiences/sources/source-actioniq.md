@@ -2,7 +2,7 @@
 title: "Convertir les ID utilisateur à partir de [!DNL ActionIQ] à des ID universels"
 description: "Découvrez comment activer DSP d’ingérer votre [!DNL ActionIQ] segments propriétaires."
 feature: DSP Audiences
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Il y a <!-- NN --> étapes de partage de données depuis [!DNL ActionIQ] avec DS
 
 ## Étape 1 : création d’une source d’audience dans DSP {#source-create}
 
-1. [Création d’une source d’audience](source-create.md) pour importer des audiences dans votre compte DSP ou un compte publicitaire, en spécifiant la variable [formats d’ID universels](source-about.md) dans lequel vous souhaitez convertir vos identifiants utilisateur.
+1. [Création d’une source d’audience](source-manage.md) pour importer des audiences dans votre compte DSP ou un compte publicitaire, en spécifiant la variable [formats d’ID universels](source-about.md) dans lequel vous souhaitez convertir vos identifiants utilisateur.
 
 1. Après avoir créé la source de l’audience, partagez la clé de code source avec la variable [!DNL ActionIQ] utilisateur.
 
