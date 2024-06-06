@@ -3,9 +3,9 @@ title: Gestion des sources d’audience pour activer les audiences d’ID univer
 description: Découvrez comment créer et gérer une source pour importer des audiences de votre plateforme de données client et les convertir en segments contenant des ID universels.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
+source-git-commit: 9411089703ce0b9502c1c2522cce999c3a5fafbf
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 *Fonction bêta*
 
-Créez une source dans DSP pour chaque audience propriétaire de votre plateforme de données client que vous souhaitez convertir en segments contenant des types d’ID universels spécifiés. Vous pouvez importer les segments dans le compte DSP de votre entreprise ou dans un compte publicitaire. Les frais de données sont appliqués en fonction des types d’ID universels sélectionnés.
-
-Des étapes supplémentaires sont nécessaires pour ingérer les audiences à partir de chaque plateforme de données client. Consultez la note à la fin de la procédure.
+Créez une source dans DSP pour chaque audience propriétaire de votre plateforme de données client que vous souhaitez convertir en segments contenant des types d’ID universels spécifiés. Vous pouvez importer les segments dans le compte DSP de votre entreprise ou dans un compte publicitaire. Les frais de données sont appliqués en fonction des types d’ID universels sélectionnés. Une fois que vous avez créé une source, des étapes supplémentaires sont nécessaires pour ingérer les audiences à partir de chaque plateforme de données client. Consultez la note à la fin de la procédure de création d’une source.
 
 Vous pouvez ensuite modifier les types d’ID universels vers lesquels l’audience source est traduite et afficher un journal des modifications.
 
