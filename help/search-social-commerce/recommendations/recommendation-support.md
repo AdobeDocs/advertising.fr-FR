@@ -3,9 +3,9 @@ title: À propos de la prise en charge des recommandations et des insights de l�
 description: Découvrez la prise en charge de l’affichage et de la gestion des recommandations et des informations de l’éditeur.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # À propos de la prise en charge des recommandations et des insights de l’éditeur
 
 *[!DNL Google Ads]et [!DNL Microsoft Advertising] comptes*
-
-*Fonction bêta pour [!DNL Microsoft Advertising] comptes*
 
 [!DNL Google Ads] et [!DNL Microsoft Advertising] les recommandations et les insights sont des suggestions du réseau publicitaire pour améliorer les performances et l’efficacité de vos campagnes :
 

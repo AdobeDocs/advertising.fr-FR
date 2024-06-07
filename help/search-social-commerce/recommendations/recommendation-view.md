@@ -3,9 +3,9 @@ title: Affichage des recommandations et des informations sur les performances de
 description: Découvrez comment afficher le [!DNL Google Ads] recommandations et [!DNL Microsoft Advertising] informations de performances de vos comptes réseau publicitaire.
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Affichage des recommandations et des informations sur les performances de votre éditeur
 
 *[!DNL Google Ads]et [!DNL Microsoft Advertising] comptes*
-
-*Fonction bêta pour [!DNL Microsoft Advertising] comptes*
 
 ## Afficher les recommandations de votre éditeur
 

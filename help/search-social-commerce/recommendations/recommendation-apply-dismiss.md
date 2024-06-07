@@ -3,9 +3,9 @@ title: Appliquer ou supprimer une recommandation d’éditeur
 description: Découvrez comment afficher, appliquer ou ignorer une recommandation d’éditeur.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: bd0c158ca27258fa7600553462bf4fedbabc9089
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Appliquer ou supprimer une recommandation d’éditeur
 
 *[!DNL Google Ads]et [!DNL Microsoft Advertising] comptes*
-
-*Fonction bêta pour [!DNL Microsoft Advertising] comptes*
 
 Affichez les actions recommandées, ainsi qu’une explication des raisons pour lesquelles ces actions seraient bénéfiques, pour une recommandation d’éditeur. Vous pouvez ensuite appliquer la recommandation lorsqu’elle s’aligne sur les objectifs de votre entreprise, puis ignorer une recommandation lorsqu’elle ne l’est pas.
 
