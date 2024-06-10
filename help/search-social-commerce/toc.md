@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising Search, Social et Commerce
 user-guide-description: Ce guide décrit les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires liées aux moteurs de recherche, aux réseaux sociaux et au commerce.
 breadcrumb-title: Guide d’Advertising Search, Social et Commerce
 index: true
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1694'
 ht-degree: 2%
 
 ---
@@ -249,9 +249,7 @@ ht-degree: 2%
       + [Suppression des valeurs de classification d’étiquette des composants de compte](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
       + [Supprimer des valeurs de classification d’étiquettes](/help/search-social-commerce/campaign-management/label-classifications/classification-values-delete.md)
       + [Supprimer des classifications d’étiquettes](/help/search-social-commerce/campaign-management/label-classifications/classification-delete.md)
-   + Gestion des ressources publicitaires {#assets}
-      + [À propos de [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
-      + [Création et chargement de ressources](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
+   + [Affichage et création de ressources publicitaires](/help/search-social-commerce/campaign-management/asset-view-create.md)
    + Bonnes pratiques relatives aux campagnes de recherche {#best-practices-search}
       + [Analysez les rapports pour affiner vos mots-clés et vos paramètres de campagne](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [Écrire une copie de publicité textuelle effective](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
