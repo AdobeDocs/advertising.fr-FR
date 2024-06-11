@@ -3,9 +3,9 @@ title: Partenaires certifiés du service publicitaire
 description: Voir tous les serveurs de publicités et unités publicitaires certifiés.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: a0f078d93a5cbd408e3eba996ec29102d0422bc1
+source-git-commit: 8dc79126a63f2c20f8fdaa666c0197ec6583b78e
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,7 @@ ht-degree: 0%
 | [!DNL Pubmatic] | | | | X | VAST uniquement |
 | [!DNL RevJet] | | | | X | VAST uniquement |
 | [!DNL Seedtag] | | X | X | | |
+| [!DNL Sharethrough] | | | | | CTV, natif et en flux sortant uniquement |
 | [!DNL Sizmek] | X | X | | X | OLV et CTV</br></br>Pour que les balises s’affichent dans l’interface utilisateur, enveloppez la balise avec `<a>` balises (au début et à la fin). Voir l’exemple de balise ci-dessous :</br></br>`<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>` |
 | [!DNL Spaceback] | | X | | | |
 | [!DNL Spirable] | | X | | | |
