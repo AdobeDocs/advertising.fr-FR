@@ -3,9 +3,9 @@ title: Convertir les ID utilisateur à partir de [!DNL Tealium] vers des ID univ
 description: Découvrez comment activer DSP d’ingérer votre [!DNL Tealium] segments propriétaires.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
+source-git-commit: 2d045640b5bdf8dfba70d0f7da3ac012fd86e82e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,6 @@ Utilisez l’intégration DSP avec la [!DNL Tealium] plateforme de données clie
 1. [Dupliquer le connecteur existant dans [!DNL Tealium] continuer à partager des segments](#duplicate-connector).
 
 1. [Comparer le nombre d’identifiants universels au nombre d’adresses électroniques hachées](#compare-id-count).
-
-Les segments doivent être disponibles en DSP dans les 24 heures et être actualisés toutes les 24 heures.
 
 ## Étape 1 : configuration du suivi pour [!DNL Analytics] mesure {#analytics-tracking}
 
@@ -142,7 +140,7 @@ Vous ne pouvez avoir qu’un seul connecteur par segment et un seul segment par 
 
 ## Étape 6 : Comparaison du nombre d’identifiants universels avec le nombre d’adresses électroniques hachées {#compare-id-count}
 
-Une fois toutes les étapes terminées, vérifiez dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le segment est renseigné dans les 24 heures. Comparez le nombre d’identifiants universels au nombre d’adresses électroniques hachées d’origine.
+Une fois toutes les étapes effectuées, les segments doivent être disponibles dans DSP dans les 24 heures. Vérifier dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le segment est renseigné dans les 24 heures. Comparez le nombre d’identifiants universels au nombre d’adresses électroniques hachées d’origine.
 
 Le taux de traduction des adresses électroniques hachées en identifiants universels doit être supérieur à 90 %. Par exemple, si vous envoyez 100 adresses électroniques hachées à partir de votre plateforme de données client, elles doivent être traduites en plus de 90 identifiants universels. Un taux de traduction de 90 % ou moins est un problème. Pour plus d’informations sur la manière dont les décomptes de segments peuvent varier, voir &quot;[Causes des écarts de données entre les ID de courrier électronique et les ID universels](#universal-ids-data-variances).&quot;
 

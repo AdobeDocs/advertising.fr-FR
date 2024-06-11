@@ -2,14 +2,16 @@
 title: Convertir les ID utilisateur à partir de [!DNL Amperity] vers des ID universels
 description: Découvrez comment activer DSP d’ingérer votre [!DNL Amperity] segments propriétaires.
 feature: DSP Audiences
-source-git-commit: 29fd744ba993e65b43cdf24a49b57208f0b06177
+source-git-commit: dab24efea38951373ec1ada571b10d9843409baf
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # Convertir les ID utilisateur à partir de [!DNL Amperity] vers des ID universels
+
+*Fonction bêta*
 
 Utilisez l’intégration DSP avec la [!DNL Amperity] plateforme de données client pour convertir les adresses électroniques hachées propriétaires de votre entreprise en identifiants universels pour la publicité ciblée.
 
