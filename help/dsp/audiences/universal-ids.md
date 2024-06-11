@@ -3,9 +3,9 @@ title: Prise en charge de l’activation des ID universels
 description: Découvrez la prise en charge de l’importation de vos segments d’ID universels, de la création de segments personnalisés pour effectuer le suivi des identifiants universels et de la conversion d’autres identifiants d’utilisateur dans vos segments propriétaires en identifiants universels pour un ciblage sans cookie.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 4b8dc6e691516d87e391802b54664b96ad603b75
+source-git-commit: d3991123110617968ce858fd76c12fa039acc2d6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
