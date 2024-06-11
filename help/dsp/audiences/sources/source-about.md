@@ -3,9 +3,9 @@ title: À propos des sources d’audience propriétaires
 description: Découvrez comment convertir d’autres identifiants d’utilisateur dans vos segments propriétaires en identifiants universels pour un ciblage sans cookie.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,15 @@ Pour permettre DSP d’ingérer votre [!DNL Adobe] [!DNL Real-time CDP] segments
 
 ### [!DNL ActionIQ]
 
-Vous pouvez partager les données propriétaires de votre entreprise à partir du [!DNL Action IQ] plateforme de données client avec DSP pour convertir vos adresses électroniques hachées en identifiants universels pour la publicité ciblée dans DSP. Cette intégration nécessite une personnalisation. Pour plus d’informations, contactez votre équipe de compte d’Adobe.
+Vous pouvez partager les données propriétaires de votre entreprise à partir du [!DNL ActionIQ] plateforme de données client avec DSP pour convertir vos adresses électroniques hachées en identifiants universels pour la publicité ciblée dans DSP. Cette intégration nécessite une personnalisation. Pour plus d’informations, contactez votre équipe de compte d’Adobe.
+
+### [!DNL Amperity]
+
+Vous pouvez partager les données propriétaires de votre entreprise à partir du [!DNL Amperity] plateforme de données client avec DSP pour convertir vos adresses électroniques hachées en identifiants universels pour la publicité ciblée dans DSP. Pour plus d’informations, voir &quot;[Convertir les ID utilisateur à partir de [!DNL Amperity] vers des ID universels](/help/dsp/audiences/sources/source-amperity.md).&quot;
+
+### [!DNL Optimizely]
+
+Vous pouvez partager les données propriétaires de votre entreprise à partir du [!DNL Optimizely] plateforme de données client avec DSP pour convertir vos adresses électroniques hachées en identifiants universels pour la publicité ciblée dans DSP. Pour plus d’informations, voir &quot;[Convertir les ID utilisateur à partir de [!DNL Optimizely] vers des ID universels](/help/dsp/audiences/sources/source-optimizely.md).&quot;
 
 ### [!DNL Tealium]
 
@@ -88,13 +96,11 @@ Vous pouvez partager les données propriétaires de votre entreprise à partir d
 
 >[!MORELIKETHIS]
 >
->* [Convertir les ID utilisateur à partir de [!DNL Adobe Real-Time CDP] vers des ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [Convertir les ID utilisateur à partir de [!DNL Tealium] vers des ID universels](/help/dsp/audiences/sources/source-tealium.md)
 >* [Gestion des sources d’audience pour activer les audiences d’ID universelles](source-manage.md)
 >* [Prise en charge de l’activation des ID universels](/help/dsp/audiences/universal-ids.md)
+>* [Convertir les ID utilisateur à partir de [!DNL Adobe Real-Time CDP] vers des ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Convertir les ID utilisateur à partir de [!DNL Amperity] vers des ID universels](/help/dsp/audiences/sources/source-amperity.md)
+>* [Convertir les ID utilisateur à partir de [!DNL Optimizely] vers des ID universels](/help/dsp/audiences/sources/source-optimizely.md)
+>* [Convertir les ID utilisateur à partir de [!DNL Tealium] vers des ID universels](/help/dsp/audiences/sources/source-tealium.md)
 >* [Gestion de l’audience](/help/dsp/audiences/audience-about.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

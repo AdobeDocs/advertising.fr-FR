@@ -3,9 +3,9 @@ title: Convertir les ID utilisateur à partir de [!DNL Tealium] vers des ID univ
 description: Découvrez comment activer DSP d’ingérer votre [!DNL Tealium] segments propriétaires.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -52,31 +52,31 @@ Pour convertir des adresses électroniques en [!DNL RampIDs] ou [!DNL ID5] ID, v
 
 ## Étape 3 : Préparation et partage des données de mappage de segments {#map-data}
 
-1. L’annonceur doit préparer et partager les données de mappage de segments :
+L’annonceur doit préparer et partager les données de mappage de segments.
 
-   1. L’annonceur doit préparer les données dans [!DNL Tealium]:
+1. L’annonceur doit préparer les données dans [!DNL Tealium]:
 
-      1. Hachez les ID d’email pour l’audience de l’annonceur à l’aide de l’algorithme SHA-256.
+   1. Hachez les ID d’email pour l’audience de l’annonceur à l’aide de l’algorithme SHA-256.
 
-      1. Faites correspondre la colonne contenant des ID de courrier électronique haché à l’attribut du type d’identifiant visiteur.
+   1. Faites correspondre la colonne contenant des ID de courrier électronique haché à l’attribut du type d’identifiant visiteur.
 
-      1. Créez l’audience avec la fonction `Tealium_visitor_id` attribut. Appliquez l’enrichissement approprié pour déclencher l’audience. Voir [[!DNL Tealium] documentation sur les attributs d’identifiant visiteur](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
+   1. Créez l’audience avec la fonction `Tealium_visitor_id` attribut. Appliquez l’enrichissement approprié pour déclencher l’audience. Voir [[!DNL Tealium] documentation sur les attributs d’identifiant visiteur](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
 
-   1. L’annonceur doit fournir des données de mappage de segments à l’équipe du compte d’Adobe pour créer les segments dans DSP. Utilisez les noms et valeurs de colonne suivants dans un fichier de valeurs séparées par des virgules :
+1. L’annonceur doit fournir des données de mappage de segments à l’équipe du compte d’Adobe pour créer les segments dans DSP. Utilisez les noms et valeurs de colonne suivants dans un fichier de valeurs séparées par des virgules :
 
-      * **Clé de segment externe :** Clé de segment externe que vous allez spécifier ultérieurement dans les paramètres d’action du connecteur dans [!DNL Tealium]. La convention de dénomination recommandée est &quot;`<DSP source key>_<Tealium segment name>`,&quot; par exemple &quot;57bf424dc10_coffee-drinkers&quot;. Pour la clé source DSP, utilisez le [!UICONTROL Source Key] dans les paramètres de source d’audience DSP.
+   * **Clé de segment externe :** Clé de segment externe que vous allez spécifier ultérieurement dans les paramètres d’action du connecteur dans [!DNL Tealium]. La convention de dénomination recommandée est &quot;`<DSP source key>_<Tealium segment name>`,&quot; par exemple &quot;57bf424dc10_coffee-drinkers&quot;. Pour la clé source DSP, utilisez le [!UICONTROL Source Key] dans les paramètres de source d’audience DSP.
 
-      * **Nom du segment :** Nom du segment.
+   * **Nom du segment :** Nom du segment.
 
-      * **Description du segment :** Objectif ou règle du segment, ou les deux.
+   * **Description du segment :** Objectif ou règle du segment, ou les deux.
 
-      * **ID parent :** Conserver vide
+   * **ID parent :** Conserver vide
 
-      * **CPM vidéo :** 0
+   * **CPM vidéo :** 0
 
-      * **Afficher CPM :** 0
+   * **Afficher CPM :** 0
 
-      * **Fenêtre de segment :** Durée de vie du segment.
+   * **Fenêtre de segment :** Durée de vie du segment.
 
 ## Étape 4 : Création de connecteurs dans [!DNL Tealium] pour partager des données de segment {#tealium-connector}
 
@@ -154,9 +154,5 @@ Pour obtenir une assistance en matière de dépannage, contactez votre équipe d
 >
 >* [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md)
 >* [Gestion des sources d’audience pour activer les audiences d’ID universelles](source-manage.md)
->* [Convertir les ID utilisateur à partir de [!DNL Adobe Real-Time CDP] vers des ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Prise en charge de l’activation des ID universels](/help/dsp/audiences/universal-ids.md)
 >* [Gestion de l’audience](/help/dsp/audiences/audience-about.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

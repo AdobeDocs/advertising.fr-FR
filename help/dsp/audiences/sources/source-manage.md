@@ -3,9 +3,9 @@ title: Gestion des sources d’audience pour activer les audiences d’ID univer
 description: Découvrez comment créer et gérer une source pour importer des audiences de votre plateforme de données client et les convertir en segments contenant des ID universels.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: f24aec0588f0298c5a3aa63226bd05bd4fa95f92
+source-git-commit: 78b1a8a8e0567afb0c172c7bef1a639ab5b47bab
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,10 @@ You can create one source for each combination of universal ID partner and data 
 
    * *[!UICONTROL ActionIQ]*: la variable [!DNL ActionIQ] plateforme de données client.
 
+   * *[!UICONTROL Amperity]*: la variable [!DNL Amperity] plateforme de données client.
+
+   * *[!UICONTROL Optimizely]*: la variable [!DNL Optimizely]: la variable [!DNL Amperity] plateforme de données client.
+
    * *[!UICONTROL Tealium CDP]*: (utilisateurs configurés uniquement) La variable [!DNL Tealium] plateforme de données client.
 
 1. Spécifiez la variable [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* ou *[!UICONTROL Account]*.
@@ -50,7 +54,7 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->Après avoir créé une source pour votre plateforme de données client, vous devrez effectuer d’autres étapes. Voir [workflow pour importer des audiences depuis [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> et la variable [workflow pour importer des audiences depuis [!DNL Tealium]](source-tealium.md).
+>Une fois que vous avez créé une source pour votre plateforme de données client, vous devez suivre d’autres étapes pour importer votre audience. Voir [workflow pour [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> la valeur [workflow pour [!DNL Amperity]](source-amperity.md), la variable [workflow pour [!DNL Optimizely]](source-optimizely.md), et la variable [workflow pour [!DNL Tealium]](source-tealium.md).
 
 ## Modification des types d’ID d’une source d’audience
 
@@ -131,6 +135,9 @@ Pour [!DNL RampID] et [!DNL Unified ID2.0], le fournisseur recherche chaque adre
 >[!MORELIKETHIS]
 >
 >* [À propos des sources d’audience propriétaires](source-about.md)
->* [Importation manuelle de segments authentifiés depuis [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Adobe Advertising DSP la connexion](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Prise en charge de l’activation des ID universels](/help/dsp/audiences/universal-ids.md)
+>* [Convertir les ID utilisateur à partir de [!DNL Adobe Real-Time CDP] vers des ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Convertir les ID utilisateur à partir de [!DNL Amperity] vers des ID universels](/help/dsp/audiences/sources/source-amperity.md)
+>* [Convertir les ID utilisateur à partir de [!DNL Optimizely] vers des ID universels](/help/dsp/audiences/sources/source-optimizely.md)
+>* [Convertir les ID utilisateur à partir de [!DNL Tealium] vers des ID universels](/help/dsp/audiences/sources/source-tealium.md)
 >* [Gestion de l’audience](/help/dsp/audiences/audience-about.md)
