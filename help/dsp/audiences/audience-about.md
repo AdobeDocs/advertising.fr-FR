@@ -3,7 +3,7 @@ title: À propos de la gestion de l’audience dans Advertising DSP
 description: Découvrez les fonctionnalités de gestion de l’audience.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: f6c562a02cdca5eda8c0b8ec692e55e7ea656bb0
+source-git-commit: ac3ceaf0e1d9f1708896d17ab413d23f366c4b36
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 0%
@@ -149,7 +149,7 @@ Les segments traduits peuvent être inclus dans les audiences réutilisables et 
 >* [Création et implémentation d’un segment personnalisé](custom-segment-create.md)
 >* [Créez et implémentez une [!UICONTROL CCPA Opt-Out-of-Sale] Segment](ccpa-opt-out-segment-create.md)
 >* [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md)
->* [Gestion des sources d’audience pour activer les audiences d’ID universelles](source-manage.md)
+>* [Gestion des sources d’audience pour activer les audiences d’ID universelles](/help/dsp/audiences/sources/source-manage.md)
 >* [Importation manuelle de segments authentifiés depuis [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Fournisseurs de données tiers disponibles](third-party-data-providers.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
