@@ -3,9 +3,9 @@ title: Bonnes pratiques pour configurer des campagnes de performances
 description: Découvrez les bonnes pratiques pour configurer vos campagnes axées sur les performances, qui incluent des emplacements optimisés pour le CPA le plus bas ou le ROAS le plus élevé.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 802c75920bb11f262cbe0d76d2554971aaf35831
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,7 @@ Il est important de comprendre l&#39;objectif de la campagne, par exemple attein
 
 ![objectif d’optimisation](/help/dsp/assets/optimization-goals.png)
 
-Vous devez également déterminer le ou les événements de succès qui mènent à l’objectif global et créer des objectifs personnalisés en conséquence. Pour chaque module, spécifiez un objectif personnalisé à utiliser avec l’objectif d’optimisation général pour les rapports et l’optimisation algorithmique à l’aide de [!DNL Adobe Sensei]. Pour plus d’informations sur la création d’objectifs personnalisés, voir [Bonnes pratiques pour la création d’un objectif personnalisé](custom-goal.md#custom-goal-best-practices).
-
-![objectifs personnalisés](/help/dsp/assets/objective-goals.png)
+Vous devez également déterminer le ou les événements de succès qui mènent à l’objectif global et créer des objectifs personnalisés en conséquence. Pour chaque module, spécifiez un objectif personnalisé à utiliser avec l’objectif d’optimisation général pour les rapports et l’optimisation algorithmique à l’aide de [!DNL Adobe Sensei]. Pour plus d’informations sur la création d’objectifs personnalisés, y compris les bonnes pratiques, voir [Objectifs personnalisés](custom-goal.md).
 
 ## Étape 2 - Définition de votre stratégie
 
