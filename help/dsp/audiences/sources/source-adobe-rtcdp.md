@@ -3,9 +3,9 @@ title: Utilisation de l’intégration DSP avec [!DNL Adobe] [!DNL Real-time CDP
 description: Découvrez comment activer DSP d’ingérer votre [!DNL Adobe] [!DNL Real-time CDP] segments propriétaires.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 33766fc210da032102bdc07a0db4ce348b12fe92
+source-git-commit: 7963623d20686553629e2aa7ad76b4fd48403555
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Utilisation de l’intégration DSP avec [la valeur [!DNL Adobe Real-Time Custom
 
    Pour obtenir une assistance en matière de dépannage, contactez votre équipe de compte d’Adobe ou `adcloud-support@adobe.com`.
 
-Les segments sont actualisés toutes les 24 heures. Cependant, l’inclusion dans un segment expire après 30 jours pour garantir la conformité à la confidentialité. Par conséquent, actualisez les audiences en les repoussant de Real-Time CDP tous les 30 jours ou moins.
+Les segments sont actualisés toutes les 24 heures. Cependant, l’inclusion dans un segment expire après 30 jours par défaut ou après une période d’expiration spécifiée par le client. Actualisez vos segments en les republiant à partir de Real-Time CDP avant l’expiration. Pour demander une expiration de segment personnalisée, contactez votre équipe de compte d’Adobe.
 
 >[!MORELIKETHIS]
 >
