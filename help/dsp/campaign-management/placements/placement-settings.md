@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 74b7ccc97339663c8baba633ff2baedfb13cba80
+source-git-commit: 80b584c124e247e97e8a21153abf30072c361c42
 workflow-type: tm+mt
-source-wordcount: '3789'
+source-wordcount: '3857'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ Les publicités sortantes apparaissent généralement sur le contenu sous la for
 
 **[!UICONTROL Traffic type]:** Types de trafic à cibler. Les options incluent **[!UICONTROL Websites]** et **[!UICONTROL Apps]**.
 
-**[!UICONTROL Site tier]:** (Disponible lorsque **[!UICONTROL Paste list of targeted sites]** is *[!UICONTROL Off]*) La qualité des sites à cibler. Les niveaux 1 à 3 sont tous sécurisés pour la marque et ont été testés et approuvés par l’équipe de mappage DSP.
+**[!UICONTROL Site tier]:** (Disponible lorsque **[!UICONTROL Paste list of targeted sites]** is *[!UICONTROL Off]*) La qualité des sites à cibler. Les niveaux 1 à 3 sont tous sécurisés pour la marque et ont été approuvés par l’équipe de mappage DSP.
 
 * *[!UICONTROL Tier 1]:* Sites et applications Premium reconnaissables au plan national.
 
@@ -346,7 +346,7 @@ Lorsque vous sélectionnez à la fois des ID hérités et des ID universels, la 
    * Pour sélectionner manuellement un intervalle, cliquez à l’intérieur d’une cellule, puis faites-le glisser pour sélectionner l’intervalle.
 1. Cliquez sur **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Facultatif ; disponible pour les annonceurs configurés avec [!DNL Proximic by Comscore] et [!DNL Grapeshot] segments) Noms ou identifiants de segments spécifiques provenant de [!DNL Proximic by Comscore] et [!DNL Grapeshot] à inclure en tant que cibles. Des frais supplémentaires peuvent s’appliquer pour cette fonctionnalité. Pour activer cette fonctionnalité et configurer les segments de rubrique, contactez votre équipe de compte d’Adobe.
+**[!UICONTROL Topic Targeting]:** (Facultatif ; disponible pour les annonceurs configurés avec [!DNL Proximic by Comscore] et [!DNL Oracle Data Cloud] segments) Noms ou identifiants de segments spécifiques provenant de [!DNL Proximic by Comscore] et [!DNL Oracle Data Cloud] (anciennement [!DNL Grapeshot]) à inclure en tant que cibles. Des frais supplémentaires peuvent s’appliquer pour cette fonctionnalité. Pour activer cette fonctionnalité et configurer les segments de rubrique, contactez votre équipe de compte d’Adobe.
 
 Pour spécifier le ciblage de rubrique :
 
@@ -361,7 +361,7 @@ Pour spécifier le ciblage de rubrique :
 >
 >* Le ciblage de rubrique limite l’inventaire sur lequel l’emplacement peut enchérir. Par conséquent, utilisez le ciblage de rubrique pour seulement un faible pourcentage de votre achat global.
 >
->* Configurez tout ciblage négatif dans le segment sur [!DNL Proximic by Comscore] ou [!DNL Grapeshot].
+>* Configurez tout ciblage négatif dans le segment sur [!DNL Proximic by Comscore] ou [!DNL Oracle Data Cloud].
 
 **[!UICONTROL Device Targeting]:** (Facultatif) Des informations spécifiques sur les appareils, notamment les types d’appareils, les fabricants, les systèmes d’exploitation, les navigateurs et les types de connectivité, à inclure et exclure en tant que cibles. Pour spécifier le ciblage des périphériques :
 
@@ -435,6 +435,8 @@ Quel niveau de [Ads.txt](https://iabtechlab.com/ads-txt-about/) filtrage pré-en
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: pour donner la priorité à l’achat du stock auprès des revendeurs directs et des revendeurs autorisés d’un domaine.
 * *[!UICONTROL Ads.txt sellers only]*: pour acheter un stock uniquement auprès des revendeurs directs et des revendeurs autorisés d’un domaine.
 * *[!UICONTROL Ads.txt sellers only]*: pour acheter un inventaire uniquement auprès des vendeurs directs autorisés d’un domaine.
+
+**[!UICONTROL Attention Targeting]:** (Emplacements de télévision standard, d’affichage, de vidéo, mobiles et connectés) Cibles [!DNL Adelaide] pré-enchérissez des segments avec un niveau d’attention spécifique (élevé, moyen ou faible) en fonction du site, du format et de la taille de publicité spécifiés. Les segments sont mis à jour toutes les semaines. **Remarque :** Utilisation [!DNL Adelaide] les segments pour le ciblage engendrent des frais CPM pour chaque impression diffusée avec [!DNL Adelaide] ciblage de l’attention ; ces frais sont différents des frais pour [mesure de l&#39;attention](/help/dsp/campaign-management/campaigns/campaign-settings.md). Pour les emplacements interactifs preroll, les frais sont facturés uniquement pour les impressions VAST.
 
 **[!UICONTROL DoubleVerify Authentic Brand Safety]:** (Les annonceurs configurés avec la variable [!UICONTROL DoubleVerify Authentic Brand Safety] Option) Active [!DNL DoubleVerify Authentic Brand Safety], qui bloque les impressions après l’offre à l’aide des règles de sécurité de marque personnalisées configurées pour l’identifiant de segment spécifié. DSP facture votre compte pour l’utilisation de l’identifiant de segment spécifié dans les paramètres de l’annonceur.
 

@@ -3,9 +3,9 @@ title: Paramètres de campagne
 description: Reportez-vous à la description des paramètres de campagne disponibles.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: e231afad3153d8861adf2510a6a2039d781ee1a5
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -122,21 +122,27 @@ Pour estimer les impôts à retenir :
 
 #### Vérification de l’audience
 
-**[!UICONTROL Nielsen]:** (Facultatif) Active [!DNL Nielsen] mesure et création de rapports sur la vérification des audiences, à l’aide des paramètres spécifiés. Des frais supplémentaires s’appliquent.
-
-* **[!UICONTROL Target Gender]:** Le genre à cibler : *[!UICONTROL Both]* (valeur par défaut), *[!UICONTROL Male]*, ou *[!UICONTROL Female]*
-
-* **[!UICONTROL Target Age]:** Période à cibler. Utilisez les curseur gauche et droit pour réduire la plage selon vos besoins.
-
-* **[!UICONTROL Target Country]:** (Facultatif) Un pays à cibler. [!DNL Nielsen] mesure les impressions diffusées dans les pays pris en charge uniquement.
-
-**[!UICONTROL comScore vCE]:** (Facultatif) Active [!DNL Comscore validated Campaign Essentials (vCE)] mesure et création de rapports sur la vérification des audiences, à l’aide des paramètres spécifiés. Des frais supplémentaires s’appliquent.
+**[!UICONTROL comScore Campaign Ratings]:** (Facultatif) Active la mesure [!DNL Comscore des campagnes validées et la création de rapports sur la vérification de l’audience, à l’aide des paramètres spécifiés. Des frais supplémentaires s’appliquent.
 
 * **[!UICONTROL Target Gender]:** Le genre à cibler : *[!UICONTROL Both]* (valeur par défaut), *[!UICONTROL Male]*, ou *[!UICONTROL Female]*
 
 * **[!UICONTROL Target Age]:** Période à cibler. Utilisez les curseur gauche et droit pour réduire la plage selon vos besoins.
 
 * **[!UICONTROL Target Country]:** (Facultatif) Un pays à cibler. [!DNL Comscore] mesure les impressions diffusées dans les pays pris en charge uniquement.
+
+### [!UICONTROL Attention Measurement]
+
+**[!UICONTROL Adelaide]:** Active le suivi au niveau de l’emplacement [!UICONTROL Attention Score] mesure (le nombre moyen pondéré d’unités d’attention sur l’ensemble des impressions) de [!DNL Adelaide]. Les mesures sont disponibles pour tous les types d’emplacements, à l’exception de [!DNL Roku] Une télévision connectée, un preroll VPAID et un son qui n&#39;est pas un podcast. DSP associe automatiquement une balise JavaScript à tous les créatifs associés, et [!DNL Adelaide] effectue le suivi des données d’exposition et les envoie DSP tous les jours. Vous pouvez utiliser la date pour optimiser manuellement vos dépenses en faveur des tactiques de placement avec de meilleurs scores d’attention.
+
+La variable [!UICONTROL Attention Score] est disponible dans le champ [!UICONTROL Metrics] de la section [!UICONTROL Campaigns], [!UICONTROL Packages], et [!UICONTROL Placements] et sur la [!UICONTROL Sites], [!UICONTROL Ads], et [!UICONTROL Inventory] des onglets [affichage des détails de placement](/help/dsp/campaign-management/reports/placement-details-view.md).
+
+Utilisation [!DNL Adelaide] les segments pour la mesure engendrent des frais CPM pour chaque impression diffusée à partir de publicités avec [!DNL Adelaide] balises de mesure. Ces frais sont différents des frais pour [ciblage de l’attention au niveau de l’emplacement](/help/dsp/campaign-management/placements/placement-settings.md).
+
+<!--
+Example JavaScript tag:
+
+`<script src="https://www.example.com/aam?asid=0123456789&ad=${TM_AD_ID_NUM}&adv=${TM_ADVERTISER_ID}&ca=${TM_CAMPAIGN_ID_NUM}&df=${NS_PLATFORM_ID}&dt=${NS_DEVICE_GROUPING}&pl=${TM_PLACEMENT_ID_NUM}&ra=${TM_RANDOM}&st=${TM_SITE_URL_URLENC}"></script>`
+-->
 
 ### [!UICONTROL 1st Party Metrics]
 
