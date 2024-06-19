@@ -3,7 +3,7 @@ title: À propos de la gestion de l’audience dans Advertising DSP
 description: Découvrez les fonctionnalités de gestion de l’audience.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: ac3ceaf0e1d9f1708896d17ab413d23f366c4b36
+source-git-commit: 31f20bcfb79265326f515218a02d8a4fa3efd586
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Vous pouvez cibler vos emplacements sur tous les types d’audiences suivants.
 
 * Tous les segments de données tiers personnalisés importés.
 
-* (Emplacements ciblant les États-Unis uniquement) [Tous les segments de données tiers disponibles pour DSP clients provenant de plus de 30 fournisseurs](/help/dsp/audiences/third-party-data-providers.md), y compris [!DNL Acxiom], [!DNL Datalogix], [!DNL eXelate] ([!DNL Nielsen]), [!DNL Lotame], [!DNL Oracle], [!DNL Quantcast], et bien d’autres.
+* (Emplacements ciblant les États-Unis uniquement) [Tous les segments de données tiers disponibles pour DSP clients provenant de plus de 30 fournisseurs](/help/dsp/audiences/third-party-data-providers.md), y compris [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL Neustar], et bien d’autres.
 
   Vous pouvez cibler des segments spécifiques, qui ciblent les utilisateurs en fonction des données d’audience (par exemple, les utilisateurs avec des données démographiques, des centres d’intérêt ou des intentions spécifiques et/ou des profils comportementaux). Vous pouvez naviguer par fournisseur de données et par catégorie, rechercher des segments par nom ou identifiant de segment, ou filtrer les résultats par fournisseur de données, taille totale des segments, nombre de navigateurs Web ou nombre d’appareils.
 

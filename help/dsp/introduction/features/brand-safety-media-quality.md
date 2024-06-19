@@ -3,9 +3,9 @@ title: Sécurité des marques et qualité des médias
 description: En savoir plus sur la sécurité de la marque et les fonctionnalités de qualité multimédia.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -118,9 +118,9 @@ Vous pouvez définir des filtres de visibilité par défaut pour chaque annonceu
 
 ### Ciblage de rubrique
 
-DSP ciblage de rubrique vous permet de cibler ou de bloquer des listes de mots-clés en exploitant nos partenaires contextuels de pointe [!DNL Comscore] et [!DNL Oracle Data Cloud] ([!DNL Grapeshot]). Le ciblage des rubriques vous permet de vous assurer que vos publicités sont toujours diffusées dans un environnement qui s’aligne sur votre marque, que ce soit en bloquant des contenus nocifs ou en veillant à dépenser dans un contexte qui garantit un meilleur résultat.
+DSP ciblage de rubrique vous permet de cibler ou de bloquer des listes de mots-clés en exploitant nos partenaires contextuels de pointe [!DNL Comscore] et [!DNL Oracle Data Cloud] (anciennement [!DNL Grapeshot]). Le ciblage des rubriques vous permet de vous assurer que vos publicités sont toujours diffusées dans un environnement qui s’aligne sur votre marque, que ce soit en bloquant des contenus nocifs ou en veillant à dépenser dans un contexte qui garantit un meilleur résultat.
 
-Le ciblage des rubriques nécessite de créer des segments de rubrique personnalisés directement avec [!DNL Comscore] ou [!DNL Grapeshot] (en utilisant [!DNL Oracle Data Cloud]). Une fois créés dans la plateforme partenaire, vous pouvez [cibler ou exclure un identifiant de segment dans la variable [!UICONTROL Audience Targeting] section pour chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). Des frais supplémentaires peuvent s’appliquer pour cette fonctionnalité.
+Le ciblage des rubriques nécessite de créer des segments de rubrique personnalisés directement avec la plateforme partenaire. Une fois les segments créés, vous pouvez [cibler ou exclure un identifiant de segment dans la variable [!UICONTROL Audience Targeting] section pour chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). Des frais supplémentaires peuvent s’appliquer pour cette fonctionnalité.
 
 Pour créer des segments de rubrique personnalisés :
 

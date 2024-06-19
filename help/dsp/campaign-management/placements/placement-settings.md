@@ -3,7 +3,7 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 74b7ccc97339663c8baba633ff2baedfb13cba80
 workflow-type: tm+mt
 source-wordcount: '3789'
 ht-degree: 0%
@@ -346,7 +346,7 @@ Lorsque vous sélectionnez à la fois des ID hérités et des ID universels, la 
    * Pour sélectionner manuellement un intervalle, cliquez à l’intérieur d’une cellule, puis faites-le glisser pour sélectionner l’intervalle.
 1. Cliquez sur **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Facultatif ; disponible pour les annonceurs configurés avec [!DNL Comscore] et [!DNL Grapeshot] segments) Noms ou identifiants de segments spécifiques provenant de [!DNL Comscore] et [!DNL Grapeshot] à inclure en tant que cibles. Des frais supplémentaires peuvent s’appliquer pour cette fonctionnalité. Pour activer cette fonctionnalité et configurer les segments de rubrique, contactez votre équipe de compte d’Adobe.
+**[!UICONTROL Topic Targeting]:** (Facultatif ; disponible pour les annonceurs configurés avec [!DNL Proximic by Comscore] et [!DNL Grapeshot] segments) Noms ou identifiants de segments spécifiques provenant de [!DNL Proximic by Comscore] et [!DNL Grapeshot] à inclure en tant que cibles. Des frais supplémentaires peuvent s’appliquer pour cette fonctionnalité. Pour activer cette fonctionnalité et configurer les segments de rubrique, contactez votre équipe de compte d’Adobe.
 
 Pour spécifier le ciblage de rubrique :
 
@@ -361,7 +361,7 @@ Pour spécifier le ciblage de rubrique :
 >
 >* Le ciblage de rubrique limite l’inventaire sur lequel l’emplacement peut enchérir. Par conséquent, utilisez le ciblage de rubrique pour seulement un faible pourcentage de votre achat global.
 >
->* Configurez tout ciblage négatif dans le segment sur [!DNL Comscore] ou [!DNL Grapeshot].
+>* Configurez tout ciblage négatif dans le segment sur [!DNL Proximic by Comscore] ou [!DNL Grapeshot].
 
 **[!UICONTROL Device Targeting]:** (Facultatif) Des informations spécifiques sur les appareils, notamment les types d’appareils, les fabricants, les systèmes d’exploitation, les navigateurs et les types de connectivité, à inclure et exclure en tant que cibles. Pour spécifier le ciblage des périphériques :
 

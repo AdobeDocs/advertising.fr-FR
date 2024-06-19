@@ -3,7 +3,7 @@ title: Fournisseurs de données tiers disponibles dans les DSP de publicité
 description: Consultez la liste de tous les fournisseurs de données tiers disponibles.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 95da7e35150a8f6e55e33539e04804c1f2ac4fb4
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -18,44 +18,33 @@ Les catégories de données et les segments pour les fournisseurs de données ti
 
 Les frais d’utilisation de chaque segment sont affichés en regard du nom du segment dans les paramètres d’emplacement et les paramètres d’audience enregistrés.
 
-* [!DNL Acxiom]
 * [!DNL Adsquare]
-* [!DNL Alliant]
-* [!DNL Behaviour]
-* [!DNL Comscore]
-* [!DNL Cross Pixel]
-* [!DNL Crossix]
-* [!DNL Datalogix]
+* [!DNL Audiences by Oracle (BlueKai)]
 * [!DNL digitalAudience]
+* [!DNL DLX Mobile]
 * [!DNL eXelate] ([!DNL Nielsen])
-* [!DNL Experian]
 * [!DNL Eyeota]
-* [!DNL Foursquare]
-* [!DNL GFK]
+* [!DNL Factual]
+* [!DNL Fraud Protection]
 * [!DNL Ibehaviour]
-* [!DNL Iri]
-* [!DNL IXI]
-* [!DNL Kantar]
-* [!DNL Krux]
+* [!DNL Intimate Merger (Japan)]
 * [!DNL LiveRamp]
 * [!DNL Lotame]
 * [!DNL Navegg]
 * [!DNL Neustar]
-* [!DNL Nielsen]
 * [!DNL NinthDecimal]
-* [!DNL Oracle]
-* [!DNL Quantcast]
 * [!DNL Semcasting]
 * [!DNL TailTarget]
-* [!DNL Tapad]
+* [!DNL Tapfwd]
 * [!DNL TruSignal]
+* [!DNL TubeMogul Performance Audiences]
 * [!DNL Weborama]
+* [!DNL Zeotap]
 
 Pour plus d’informations sur l’importation de segments tiers personnalisés pour votre compte, contactez votre équipe de compte d’Adobe.
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion de l’audience](audience-about.md)
+>* [Gestion de l’audience](audience-about.md)
 >* [Création d’une audience réutilisable](reusable-audience-create.md)
 >* [Paramètres d’audience](audience-settings.md)
-
