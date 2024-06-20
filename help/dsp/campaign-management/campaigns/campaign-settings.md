@@ -3,7 +3,7 @@ title: Paramètres de campagne
 description: Reportez-vous à la description des paramètres de campagne disponibles.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: d572a406be9271c6ca14d35740f04d15ddbf7364
+source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Pour estimer les impôts à retenir :
 
 #### Vérification de l’audience
 
-**[!UICONTROL comScore Campaign Ratings]:** (Facultatif) Active [!DNL Comscore] validé [!DNL Campaign Ratings] mesure et création de rapports sur la vérification des audiences, à l’aide des paramètres spécifiés. Des frais supplémentaires s’appliquent.
+**[!UICONTROL Comscore Campaign Ratings]:** (Facultatif) Active [!DNL Comscore] validé [!DNL Campaign Ratings] mesure et création de rapports sur la vérification des audiences, à l’aide des paramètres spécifiés. Des frais supplémentaires s’appliquent.
 
 * **[!UICONTROL Target Gender]:** Le genre à cibler : *[!UICONTROL Both]* (valeur par défaut), *[!UICONTROL Male]*, ou *[!UICONTROL Female]*
 

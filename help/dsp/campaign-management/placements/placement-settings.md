@@ -3,7 +3,7 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: e2eca3b77882716c15fc3cde331d211efcd3fb8a
+source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
 workflow-type: tm+mt
 source-wordcount: '3858'
 ht-degree: 0%
@@ -444,7 +444,7 @@ Quel niveau de [Ads.txt](https://iabtechlab.com/ads-txt-about/) filtrage pré-en
 
 >[!NOTE]
 >
->([!DNL Roku] emplacements) Fournisseurs tiers de suivi approuvés par [!DNL Roku] include [!DNL Acxiom], [!DNL comScore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], et [!DNL Research Now].
+>([!DNL Roku] emplacements) Fournisseurs tiers de suivi approuvés par [!DNL Roku] include [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], et [!DNL Research Now].
 
 **[!UICONTROL Event Pixels]:** (Facultatif) Pixels de suivi d’événements tiers à joindre par défaut à toutes les nouvelles publicités de l’emplacement. Pour spécifier les pixels d’événement :
 
