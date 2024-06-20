@@ -3,9 +3,9 @@ title: Sécurité des marques et qualité des médias
 description: En savoir plus sur la sécurité de la marque et les fonctionnalités de qualité multimédia.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
+source-git-commit: e8cb734e313b6aecfb75dfcbf70347efe83254a5
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -100,13 +100,13 @@ Vous pouvez définir des contrôles de filtre contextuel par défaut pour chaque
 
 ### Blocage des fraudes avant offre
 
-Tirez parti de nos intégrations tierces avec [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], et [!DNL Peer39] pour bloquer le trafic non humain de vos campagnes. Ces intégrations fournissent des fonctionnalités de blocage avant enchères leaders du secteur afin de minimiser le trafic général et sophistiqué non valide (GIVT et SIVT) dans vos campagnes.
+Tirez parti de nos intégrations tierces avec [!DNL DoubleVerify], [!DNL Integral Ad Science], et [!DNL Peer39] pour bloquer le trafic non humain de vos campagnes. Ces intégrations fournissent des fonctionnalités de blocage avant enchères leaders du secteur afin de minimiser le trafic général et sophistiqué non valide (GIVT et SIVT) dans vos campagnes.
 
 Vous pouvez définir des contrôles par défaut de blocage des fraudes avant offre pour chaque annonceur.<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, puis éventuellement [personnaliser les paramètres de chaque emplacement ;](/help/dsp/campaign-management/placements/placement-settings.md). Des frais supplémentaires peuvent s’appliquer lorsque vous utilisez cette fonction.
 
 Pour plus d’informations sur les fonctionnalités, contactez directement votre fournisseur préféré ou contactez votre équipe de compte d’Adobe.
 
-![Logo Comscore](/help/dsp/assets/comscore-logo.png) ![Logo DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logo Integral Ad Science](/help/dsp/assets/ias-logo.png) ![Logo Peer39](/help/dsp/assets/peer39-logo.png)
+![Logo DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logo Integral Ad Science](/help/dsp/assets/ias-logo.png) ![Logo Peer39](/help/dsp/assets/peer39-logo.png)
 
 ### Visibilité avant l’offre {#pre-bid-viewability}
 
@@ -115,6 +115,16 @@ Filtres de visibilité avant offre optimisés par nos partenaires de pointe [!DN
 Vous pouvez définir des filtres de visibilité par défaut pour chaque annonceur.<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, puis éventuellement [personnaliser les paramètres de chaque emplacement ;](/help/dsp/campaign-management/placements/placement-settings.md). Des frais supplémentaires peuvent s’appliquer lorsque vous utilisez cette fonction.
 
 ![Logo DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logo Oracle Advertising](/help/dsp/assets/oracle-advertising-logo.png) ![Logo Integral Ad Science](/help/dsp/assets/ias-logo.png)
+
+### Ciblage et mesure de l’attention
+
+[!DNL Adobe's] partenariat avec [!DNL Adelaide] fournit aux annonceurs une prise en charge de la mesure Adélaïde ;[!DNL Attention Units],&quot; qui mesure la qualité du média en fonction du suivi visuel, de l’exposition et des données de résultat.
+
+[Ciblage de l’attention avant offre au niveau de l’emplacement](/help/dsp/campaign-management/placements/placement-settings.md) permet aux annonceurs de cibler des niveaux d’attention spécifiques afin d’améliorer l’engagement des clients.
+
+En outre, les annonceurs peuvent activer [suivi au niveau de l’emplacement [!UICONTROL Attention Score] metric](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) (le nombre moyen pondéré de [!DNL Attention Units] sur l’ensemble des impressions) pour toute campagne afin de déterminer les tactiques de placement qui produisent les meilleurs résultats commerciaux.
+
+Des frais supplémentaires s’appliquent pour chaque fonctionnalité distincte.
 
 ### Ciblage de rubrique
 

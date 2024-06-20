@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 80b584c124e247e97e8a21153abf30072c361c42
+source-git-commit: e2eca3b77882716c15fc3cde331d211efcd3fb8a
 workflow-type: tm+mt
-source-wordcount: '3857'
+source-wordcount: '3858'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ Pour spécifier le ciblage de rubrique :
 >
 >* Le ciblage de rubrique limite l’inventaire sur lequel l’emplacement peut enchérir. Par conséquent, utilisez le ciblage de rubrique pour seulement un faible pourcentage de votre achat global.
 >
->* Configurez tout ciblage négatif dans le segment sur [!DNL Proximic by Comscore] ou [!DNL Oracle Data Cloud].
+>* Configurez tout ciblage négatif dans le segment sur [!DNL Proximic by Comscore] ou [!DNL Oracle Data Cloud] (anciennement [!DNL Grapeshot]).
 
 **[!UICONTROL Device Targeting]:** (Facultatif) Des informations spécifiques sur les appareils, notamment les types d’appareils, les fabricants, les systèmes d’exploitation, les navigateurs et les types de connectivité, à inclure et exclure en tant que cibles. Pour spécifier le ciblage des périphériques :
 
