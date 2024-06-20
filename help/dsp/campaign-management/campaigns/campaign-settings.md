@@ -3,9 +3,9 @@ title: Paramètres de campagne
 description: Reportez-vous à la description des paramètres de campagne disponibles.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4aff26ef50d970b8440e2cf07b5f835d2b5a6599
+source-git-commit: d572a406be9271c6ca14d35740f04d15ddbf7364
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -130,9 +130,9 @@ Pour estimer les impôts à retenir :
 
 * **[!UICONTROL Target Country]:** (Facultatif) Un pays à cibler. [!DNL Comscore] mesure les impressions diffusées dans les pays pris en charge uniquement.
 
-### [!UICONTROL Attention Measurement]
+### [!UICONTROL Attention Measurement]{#attention-measurement}
 
-**[!UICONTROL Adelaide]:** Active le suivi au niveau de l’emplacement [!UICONTROL Attention Score] mesure (le nombre moyen pondéré d’unités d’attention sur l’ensemble des impressions) de [!DNL Adelaide]. Les mesures sont disponibles pour tous les types d’emplacements, à l’exception de [!DNL Roku] Une télévision connectée, un preroll VPAID et un son qui n&#39;est pas un podcast. DSP associe automatiquement une balise JavaScript à tous les créatifs associés, et [!DNL Adelaide] effectue le suivi des données d’exposition et les envoie DSP tous les jours. Vous pouvez utiliser la date pour optimiser manuellement vos dépenses en faveur des tactiques de placement avec de meilleurs scores d’attention.
+**[!UICONTROL Adelaide]:** Active le suivi au niveau de l’emplacement [!UICONTROL Attention Score] mesure (le nombre moyen pondéré [!DNL Adelaide] &quot;[!DNL Attention Units]&quot; sur toutes les impressions). Les mesures sont disponibles pour tous les types d’emplacements, à l’exception de [!DNL Roku] Une télévision connectée, un preroll VPAID et un son qui n&#39;est pas un podcast. DSP associe automatiquement une balise JavaScript à tous les créatifs associés, et [!DNL Adelaide] effectue le suivi des données d’exposition et les envoie DSP tous les jours. Vous pouvez utiliser la date pour optimiser manuellement vos dépenses en faveur des tactiques de placement avec de meilleurs scores d’attention.
 
 La variable [!UICONTROL Attention Score] est disponible dans le champ [!UICONTROL Metrics] de la section [!UICONTROL Campaigns], [!UICONTROL Packages], et [!UICONTROL Placements] et sur la [!UICONTROL Sites], [!UICONTROL Ads], et [!UICONTROL Inventory] des onglets [affichage des détails de placement](/help/dsp/campaign-management/reports/placement-details-view.md).
 
