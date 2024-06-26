@@ -3,9 +3,9 @@ title: Partenaires SSP
 description: Consultez la liste des plateformes côté offre (SSP) disponibles et des partenaires exchange ouverts.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: fc58392d060e97f99b12ef41b96c09a0e3fb9aa1
+source-git-commit: 3bb03e0896fca0e7d58d4726939d18577f458e2c
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | Non | US/CA | USD | x | x | x | x | x |  |  |
 | [!DNL FreeWheel] (anciennement [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] ou Adobe Advertising | Oui | Global | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
 | [!DNL Google Authorized Buyers] (anciennement [!DNL Google AdX]) | [!DNL Google] | ADOBE NA - 44912714<br>Adobe APAC et UE - 89185975 | Oui | Global | USD, BRL | x | x | x | x | x |  | x |
-| [!DNL GumGum] |  | Adobe Advertising | Non | Global | USD | x | x |  | x | x |  | Durée de connexion en magasin : 21x21, vidéo mobile en temps de connexion en emplacement : 22x22, temps de connexion en emplacement : 24x24, tableau de bord en emplacement : 25x25, vitesse d’accès en emplacement : 26x26, super skin : 29x29, Coin extensible En Écran : 20x20 |
+| [!DNL GumGum] |  | Adobe Advertising | Non | Global | USD | x | x |  | x | x |  | |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | Non | Global | USD | x | x | x | x | x | | |
 | [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] (anciennement [!DNL Telaria] et [!DNL Tremor]) | [!DNL TubeMogul] ou Adobe Advertising | Oui | Global | AUD, USD | x | x | x |  |  |  |  |
 | [!DNL Magnite DV+] | [!DNL Magnite] (anciennement [!DNL Telaria] et [!DNL Tremor]) | [!DNL TubeMogul] ou Adobe Advertising | Oui | Global | USD | x | x | x | x | x |  | x |
