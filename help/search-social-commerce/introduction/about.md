@@ -1,24 +1,24 @@
 ---
 title: À propos de Adobe Advertising Search, Social et Commerce
-description: En savoir plus sur Search, Social et Commerce.
-exl-id: 0cfd82f7-26b6-4e61-b9a5-718f4eda83c1
+description: Découvrez Search, Social et Commerce.
+exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 3c1f534ef13b040f450d21753e91a14efd20bfaf
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
 
 # À propos de Adobe Advertising Search, Social et Commerce
 
-[!DNL Adobe] est le leader du marché et de la technologie dans les solutions d’expérience client. Adobe Advertising simplifie la diffusion de campagnes publicitaires cross-canal pour la gestion de campagnes de marque et de performance sur n’importe quel écran, dans n’importe quel format. Adobe Advertising se compose de trois sous-solutions : Advertising Search, Social et Commerce pour les canaux de recherche, d’achat, de réseaux sociaux, d’audience et de performances maximales ; Advertising DSP (Demand Side Platform) pour les canaux d’affichage ; et Advertising Creative pour la création d’expériences utilisateur pour vos publicités.
+[!DNL Adobe] est le leader du marché et de la technologie dans les solutions d’expérience client. Adobe Advertising simplifie la diffusion de campagnes publicitaires cross-canal pour la gestion de campagnes de marque et de performance sur n’importe quel écran, dans n’importe quel format. Adobe Advertising se compose de trois sous-solutions : Advertising Search, Social et Commerce pour les canaux de recherche, d’achat, de réseaux sociaux, d’audience et de performances max. ; Advertising DSP (Demand Side Platform) pour les canaux d’affichage ; et Advertising Creative pour la création d’expériences utilisateur pour vos publicités.
 
-Dans le cadre de l’Adobe Advertising, Advertising Search, Social et Commerce combine la gestion des publicités portefeuille haut de gamme avec des prévisions de campagnes intelligentes et une diffusion d’annonces ciblée pour la publicité optimisée pour les données.
+Dans le cadre de l’Adobe Advertising, Advertising Search, Social et Commerce combine la gestion des publicités portefeuille haut de gamme avec des prévisions de campagnes intelligentes et une diffusion ciblée pour la publicité optimisée pour les données.
 
 ## Technologie axée sur l’IA pour l’optimisation des publicités
 
-Search, Social et Commerce automatise et optimise la gestion des offres et des budgets pour les campagnes publicitaires à l’échelle des réseaux publicitaires dans les limites des objectifs commerciaux, des mesures, du budget et d’autres contraintes commerciales d’un annonceur. Il effectue le suivi de l’historique des clics, des coûts et des conversions pour chacun des mots-clés et publicités d’un annonceur, ainsi que des informations sur le paysage des offres sur chaque canal marketing. Grâce à une approche basée sur la théorie du portefeuille, la fonctionnalité d’optimisation compare toutes les attributions possibles de votre budget à l’échelle d’un portefeuille entier de campagnes afin de déterminer les offres et les budgets de campagne qui généreront le meilleur retour sur dépenses publicitaires. Elle exécute donc les offres et les budgets en conséquence. La fonctionnalité d’optimisation surveille en permanence les mots-clés et les publicités d’un annonceur, en ajustant dynamiquement les offres et les budgets au fur et à mesure que la marketplace change.
+Search, Social et Commerce automatise et optimise la gestion des offres et des budgets pour les campagnes publicitaires au sein des réseaux publicitaires dans les limites des objectifs commerciaux, des mesures, du budget et d’autres contraintes commerciales d’un annonceur. Il effectue le suivi de l’historique des clics, des coûts et des conversions pour chacun des mots-clés et publicités d’un annonceur, ainsi que des informations sur le paysage des offres sur chaque canal marketing. Grâce à une approche basée sur la théorie du portefeuille, la fonctionnalité d’optimisation compare toutes les attributions possibles de votre budget à l’échelle d’un portefeuille entier de campagnes afin de déterminer les offres et les budgets de campagne qui généreront le meilleur retour sur dépenses publicitaires. Elle exécute donc les offres et les budgets en conséquence. La fonctionnalité d’optimisation surveille en permanence les mots-clés et les publicités d’un annonceur, en ajustant dynamiquement les offres et les budgets au fur et à mesure que la marketplace change.
 
 Plusieurs types d’optimisation sont disponibles, ce qui permet à Search, Social et Commerce et au réseau publicitaire de contrôler à différents degrés l’optimisation des offres. Selon le type d’optimisation, vous pouvez optimiser vos portefeuilles à l’aide des conversions suivies par Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics]ou d’autres flux d’entreprise propriétaires.
 
@@ -28,15 +28,21 @@ Pour plus d’informations, reportez-vous au chapitre Portfolio du Guide d’opt
 
 ## Interface de gestion des publicités
 
-Search, Social et Commerce fournit une gestion, une optimisation, un suivi et des rapports complets des campagnes sur vos réseaux publicitaires. Dans les vues de la gestion des publicités, vous pouvez :
+Search, Social et Commerce fournit une gestion de campagne, une optimisation, un suivi et des rapports complets sur vos réseaux publicitaires. Dans les vues de la gestion des publicités, vous pouvez :
 
-* Synchronisez vos comptes publicitaires pour les réseaux publicitaires pris en charge ; configurez et gérez de nombreux types de campagne manuellement à l’aide de feuilles d’envoi groupées et automatiquement à l’aide de flux de données d’inventaire ; et, éventuellement, regroupez vos campagnes et vos ensembles de publicités dans différents types de portefeuilles à des fins d’optimisation.
+* **Gestion de campagne :**  Synchronisez vos comptes publicitaires pour les réseaux publicitaires pris en charge, puis configurez et gérez de nombreux types de campagne manuellement à l’aide de feuilles d’envoi groupées et automatiquement à l’aide de flux de données d’inventaire.
 
-* Configurez l’accès à d’autres campagnes publicitaires pour lesquelles vous souhaitez uniquement effectuer le suivi et créer des rapports. Cela peut inclure le chargement de données de campagne et de mesures.
+* **Optimisation :** Regroupez vos campagnes et jeux de publicités dans différents types de portfolios à des fins d’optimisation. Utilisez les simulations de portefeuille pour prédire l’impact des modifications apportées à la stratégie de dépenses et aux autres paramètres du portefeuille.
 
-* Surveillez et analysez les performances de vos portfolios et de toute autre campagne dont vous effectuez le suivi au moyen de vues de données de performances et de rapports détaillés et personnalisables. Pour les portefeuilles, les insights prescriptifs fournissent également des données visuelles exploitables que vous pouvez utiliser pour améliorer les performances.
+* **Suivi de campagne :** Configurez l’accès à d’autres campagnes publicitaires pour lesquelles vous souhaitez uniquement effectuer le suivi et créer des rapports. Cela peut inclure le chargement de données de campagne et de mesures.
 
-* Pour une visibilité optimale des données de performances qui vous importe, vous pouvez configurer les différentes vues de données de performances en fonction de vos besoins et préférences. Vous pouvez également automatiser la production de rapports à l’aide de modèles de rapport et de flux de feuille de calcul. Vous pouvez inclure des mesures de conversion d’Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics]et vos autres flux d’entreprise propriétaires dans les vues de données et les rapports.
+* **Reporting :** Surveillez et analysez les performances de vos portfolios et de toute autre campagne dont vous effectuez le suivi au moyen de vues de données de performances et de rapports détaillés et personnalisables. Vous pouvez inclure des mesures de conversion d’Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics]et vos autres flux d’entreprise propriétaires dans les vues de données et les rapports.
+
+   * Configurez les différentes vues de données de performances pour une visibilité optimale des données de performances qui vous intéressent.
+
+   * Automatisez la production de rapports à l’aide de modèles de rapport et de flux de feuille de calcul.
+
+   * Pour les portefeuilles, les insights prescriptifs fournissent également des données visuelles exploitables que vous pouvez utiliser pour améliorer les performances.
 
 Voir &quot;[Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md)&quot; pour plus d’informations sur la prise en charge de différents réseaux publicitaires et types d’annonces.
 
