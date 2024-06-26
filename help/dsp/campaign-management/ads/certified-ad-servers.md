@@ -3,7 +3,7 @@ title: Partenaires certifiés du service publicitaire
 description: Voir tous les serveurs de publicités et unités publicitaires certifiés.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 1c9c7ff2340d4abf4c64f015172b5e0a33b3e1fe
+source-git-commit: 8ae5e4fc84ace4dc4e8b637545e95f5e0cff912c
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!DNL Eyereturn] | | X | | | |
 | [!DNL Flashtalking] | X | X | | X | |
 | [!DNL Frequency] | X | | | | |
-| [!DNL GumGum] | | | X | | Durée de connexion en magasin : 21x21, vidéo mobile en temps de connexion en emplacement : 22x22, temps de connexion en emplacement : 24x24, tableau de bord en emplacement : 25x25, vitesse d’accès en emplacement : 26x26, super skin : 29x29, Coin extensible En Écran : 20x20 |
+| [!DNL GumGum] | | | X | | Délai d’attente en emplacement : 21x21 ; temps d’attente en emplacement Vidéo mobile : 22x22 ; temps d’attente en emplacement Bureau : 24x24 ; Panneaux d’alimentation en emplacement : 25x25 ; Vitesse d’emplacement en emplacement : 26x26 ; Super Skin : 29x29 ; Coin extensible En Écran : 20x20 |
 | [!DNL HUMAN] (Anciennement [!DNL White Ops]) | X | X | | X | |
 | [!DNL IAS] | X | X | | X | |
 | [!DNL IBM] | | X | | X | |
