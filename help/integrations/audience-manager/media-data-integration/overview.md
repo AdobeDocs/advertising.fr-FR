@@ -3,9 +3,9 @@ title: Présentation de l’envoi DSP données d’exposition aux médias à Ado
 description: Découvrez comment utiliser les pixels d’événement d’Audience Manager pour capturer les données de niveau impression et de clic des campagnes Advertising DSP
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: 49f7225840ddaf26a37376ffaf7b93207f3ff2f7
+source-git-commit: aec57b49e636d63fc6967af8764ed62f239f31bb
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ DSP ne vous charge pas d&#39;envoyer ces signaux à l&#39;Audience Manager. Cepe
 
 ## Suivi des données
 
-Les pixels d’impression d’Audience Manager et d’événement de clic sont basés sur des cookies. Les pixels ne capturent pas les événements qui se produisent dans des environnements sans cookie, tels que les applications mobiles et la télévision connectée (CTV).<!-- Verify if this is still correct. -->
+Les pixels d’impression d’Audience Manager et d’événement de clic sont basés sur des cookies. Les pixels ne capturent pas les événements qui se produisent dans des environnements sans cookie, tels que les applications mobiles.<!-- Verify if this is still correct. -->
 
 ### Pixels de suivi d’impression
 
