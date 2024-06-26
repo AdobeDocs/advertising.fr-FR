@@ -3,9 +3,9 @@ title: Partenaires certifiés du service publicitaire
 description: Voir tous les serveurs de publicités et unités publicitaires certifiés.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 8dc79126a63f2c20f8fdaa666c0197ec6583b78e
+source-git-commit: 1e8d7913d672edace4b3c72dd150d7828c5d355c
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!DNL Eyereturn] | | X | | | |
 | [!DNL Flashtalking] | X | X | | X | |
 | [!DNL Frequency] | X | | | | |
-| [!DNL Gum Gum] | | | X | | |
+| [!DNL Gum Gum] | | | X | | Durée de connexion en magasin : 21x21, vidéo mobile en temps de connexion en emplacement : 22x22, temps de connexion en emplacement : 24x24, tableau de bord en emplacement : 25x25, vitesse d’accès en emplacement : 26x26, super skin : 29x29, Coin extensible En Écran : 20x20 |
 | [!DNL HUMAN] (Anciennement [!DNL White Ops]) | X | X | | X | |
 | [!DNL IAS] | X | X | | X | |
 | [!DNL IBM] | | X | | X | |
