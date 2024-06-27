@@ -3,9 +3,9 @@ title: Glossaire
 description: Voir les définitions des termes clés.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 5555bc8ec7e407596252cd385cf1410f7fe959a6
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2074'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,13 @@ ht-degree: 0%
 
 **[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Code de suivi qui permet à l’Adobe Advertising de partager des données sur les campagnes avec Adobe Analytics. Elle commence par `s_kwcid=`.
 
-**offre :** Terme Search, Social et Commerce pour une unité sur laquelle des offres sont placées. Pour la plupart des campagnes sur la plupart des réseaux, il s’agit d’un mot-clé et de son type de correspondance pour une campagne de recherche ou de contenu, un groupe de produits au niveau de l’unité (le niveau de subdivisions le plus bas) pour une campagne d’achat ou une cible de recherche dynamique pour une campagne publicitaire de recherche dynamique. Lorsque le même mot-clé et la même combinaison de type de correspondance, le même groupe de produits ou la même cible de recherche dynamique se produisent dans plusieurs groupes publicitaires au sein d’une même campagne, toutes les instances sont considérées comme la même unité d’offre et ont donc la même offre.
+**offre :** Terme Rechercher, Social et Commerce pour une unité sur laquelle des offres sont placées.
+
+* Pour les campagnes CPC, il s’agit d’un mot-clé et de son type de correspondance pour une campagne de recherche ou de contenu, un groupe de produits au niveau de l’unité (le niveau de subdivisions le plus bas) pour une campagne d’achat ou une cible de recherche dynamique pour une campagne d’annonces de recherche dynamique. Lorsque le même mot-clé et la même combinaison de type de correspondance, le même groupe de produits ou la même cible de recherche dynamique se produisent dans plusieurs groupes publicitaires au sein d’une même campagne, toutes les instances sont considérées comme la même unité d’offre et ont donc la même offre.
+
+* Pour les campagnes avec la variable [!DNL Maximize Clicks], [!DNL Maximize Conversion Value], [!DNL Maximize Conversions], [!DNL Target Cost Per Acquisition], ou [!DNL Target Return on Ad Spend] dépensez des stratégies, chaque campagne est une unité d&#39;enchères.
+
+* Pour les campagnes sur [!DNL Yahoo! Display Network], qui n’utilise pas de mots-clés, toutes les publicités d’un groupe publicitaire ont la même offre et sont considérées comme la même unité d’offre.
 
 **Contrainte d’unité d’offre :** Voir &quot;Contrainte&quot;.
 
@@ -48,7 +54,7 @@ ht-degree: 0%
 
 **exactitude des coûts :** (Publicitaires avec portefeuilles) Dépense réelle pour un portefeuille divisée par les dépenses prévues.
 
-**Modèle de coût :** (Publicitaires avec portefeuilles) La technologie Search, Social, &amp; Commerce qui prévoit le volume des coûts, l’offre requise pour gagner chaque poste ou emplacement, et le CPC (recherche) ou CPM (affichage) pour chaque unité d’offre à l’aide de données historiques et de techniques de prévision mathématique.
+**Modèle de coût :** (Publicitaires avec portefeuilles) Technologie de recherche, de Social et de Commerce qui prévoit le volume des coûts, l’offre requise pour gagner chaque poste ou emplacement et le CPC (recherche) ou CPM (affichage) pour chaque unité d’offre à l’aide de données historiques et de techniques de prévision mathématique.
 
 **couverture du modèle de coût :** (Publicitaires avec portefeuilles) Nombre et/ou pourcentage d’unités d’offre ayant reçu au moins une impression au cours des sept derniers jours, de sorte que la fonctionnalité d’optimisation puisse créer des modèles de coûts. Toutes les unités d’offre n’ont pas de modèle de coût ; celles qui comptent dans la couverture du modèle de coût.
 
@@ -130,7 +136,7 @@ Cette valeur est identique à celle de la colonne héritée &quot;Recettes pond�
 
 **transaction orpheline :** Événement de transaction qui ne peut pas être associé à un mot-clé ou à une publicité spécifique.
 
-**pixel:** Image transparente d’un pixel par un pixel incorporée sur une page web à des fins de suivi. Les balises de suivi de conversion d’Adobe Advertising incluent un pixel d’image de HTML ou du code JavaScript pour effectuer le suivi des clics et des transactions qui en résultent.
+**pixel:** Image transparente d’un pixel par un pixel incorporée sur une page web à des fins de suivi. Les balises de suivi de conversion d’Adobe Advertising incluent un pixel d’image d’HTML ou du code JavaScript pour effectuer le suivi des clics et des transactions qui en résultent.
 
 **placement :** Emplacement sur un réseau d’affichage dans lequel vos publicités peuvent apparaître. Il peut s’agir d’un site web entier, d’un sous-ensemble d’un site web ou d’une position publicitaire sur une page spécifique.
 
@@ -154,7 +160,7 @@ Cette valeur est identique à celle de la colonne héritée &quot;Recettes pond�
 
 **exactitude des recettes :** (Publicitaires avec portefeuilles) Le chiffre d’affaires réel d’un portefeuille divisé par le chiffre d’affaires prévu.
 
-**modèle de revenu :** (Publicitaires avec portefeuilles) La technologie Search, Social, &amp; Commerce qui prédit le taux de conversion et le retour estimé pour chaque unité d’offre, en fonction des données de clic (recherche et réseaux sociaux) ou des données d’impression (affichage) et des données de conversion de l’annonceur.
+**modèle de revenu :** (Publicitaires avec portefeuilles) La technologie Search, Social et Commerce qui prédit le taux de conversion et le retour estimé pour chaque unité d’offre, en fonction des données de clic (recherche et réseaux sociaux) ou des données d’impression (affichage) et des données de conversion de l’annonceur.
 
 **couverture du modèle de revenu :** (Publicitaires avec portefeuilles) Le nombre et/ou le pourcentage d’unités d’offre d’un portefeuille avec des modèles de recettes. Les unités d’offre peuvent avoir des modèles de recettes même si elles n’ont pas reçu de recettes mais ont reçu des impressions.
 

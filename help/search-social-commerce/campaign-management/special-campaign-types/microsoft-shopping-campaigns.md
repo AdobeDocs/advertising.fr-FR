@@ -3,7 +3,7 @@ title: Mise en oeuvre [!DNL Microsoft Advertising] campagnes d'achat
 description: En savoir plus sur le workflow de configuration [!DNL Microsoft Advertising] campagnes d’achat.
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d5d4dee4356d941ea9cae74b9385add00e0480c3
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Vous pouvez configurer des campagnes d’achat à l’aide de [modèles de flux 
 
 1. [Création d’un groupe d’annonces](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) dans la campagne, puis définissez l’offre par défaut pour toutes les publicités.
 
-Vous pouvez remplacer l’offre par défaut pour des groupes de produits individuels.
+   Vous pouvez remplacer l’offre par défaut pour des groupes de produits individuels.
 
 1. Créez des groupes de produits pour le groupe publicitaire :
 

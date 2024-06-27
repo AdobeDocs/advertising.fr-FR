@@ -1,11 +1,11 @@
 ---
 title: Mise en oeuvre [!DNL Google Ads] campagnes d'achat
 description: En savoir plus sur le workflow de configuration [!DNL Google Ads] campagnes d’achat.
-exl-id: aab61d94-861f-4072-b044-f9ae6759e028
+exl-id: d80370d9-534d-4854-b7d3-1384a84320ad
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 3c702a01df1186e74c4f329a08199ce829be0827
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Vous pouvez configurer des campagnes d’achat à l’aide de [modèles de flux 
 
 1. Configurez vos [!DNL Google Merchant Center] et le renseigner avec des données de produit.
 
-1. [Autoriser Search, Social et Commerce à télécharger les données à partir de la variable [!DNL Google Merchant Center] account](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. [Autoriser la recherche, Social et Commerce à télécharger les données à partir du [!DNL Google Merchant Center] account](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 1. [Créer une campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) sur le réseau commercial.
 
 1. [Création d’un groupe d’annonces](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) dans la campagne, puis définissez l’offre par défaut pour toutes les publicités.
 
-Vous pouvez remplacer l’offre par défaut pour des groupes de produits individuels.
+   Vous pouvez remplacer l’offre par défaut pour des groupes de produits individuels.
 
 1. Créez des groupes de produits pour le groupe publicitaire :
 
