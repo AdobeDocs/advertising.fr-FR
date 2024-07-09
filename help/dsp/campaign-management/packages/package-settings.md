@@ -3,9 +3,9 @@ title: Paramètres du module
 description: Reportez-vous à la description des paramètres de package disponibles.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: c2de7424ecae0ad30792eaa459c8d9bfd3ff3b7c
+source-git-commit: 81415330017ee207fa1aa43ffdf2fe3205d88e9a
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Pour les modules avec un vol personnalisé, l’intervalle de budget est toujour
 
 (Packages avec fréquence au niveau du package) Les périodes de vol du package, y compris les périodes de vol personnalisées dans l’ensemble [!UICONTROL Flight Dates] pour le module. Vous pouvez configurer des vols personnalisés uniquement lorsque la variable [!UICONTROL Activate Custom Flighting] est activée dans la variable [!UICONTROL Goals & Budget] .
 
-**[DNL Flight N]:** (Disponible uniquement lorsque la variable [!UICONTROL Activate Custom Flighting] est activée) Pour chaque vol, indiquez la date de début, la date de fin et l’objectif de dépense cible. Pour ajouter un autre vol, cliquez sur **[!UICONTROL Add Flight]**.
+**[!DNL Flight N]:** (Disponible uniquement lorsque la variable [!UICONTROL Activate Custom Flighting] est activée) Pour chaque vol, indiquez la date de début, la date de fin et l’objectif de dépense cible. Pour ajouter un autre vol, cliquez sur **[!UICONTROL Add Flight]**.
 
 Pour les modules existants, vous pouvez éventuellement saisir une valeur dans la variable [!UICONTROL Rollover] pour tout vol afin d&#39;ajouter un budget potentiel non dépensé au prochain vol. La valeur projetée dans la variable [!UICONTROL Adjusted Goal (Goal + Rollover)] est modifiée en conséquence.<!-- clarify usage -->
 
