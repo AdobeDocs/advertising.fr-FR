@@ -3,9 +3,9 @@ title: Paramètres du module
 description: Reportez-vous à la description des paramètres de package disponibles.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 5a173c53bdd0a5673c968b1ebc6348a40e99c80c
+source-git-commit: a8227e42c49e30d6b73daf51e4f62da05f6508f3
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,14 @@ Vous pouvez remplacer le paramètre au niveau du module à l’adresse [niveau d
 
 * **[!UICONTROL Placement level pacing]:**  Cette stratégie de fréquence fonctionne en effectuant un rythme et un plafonnement de tous les emplacements inclus. *individuellement*. La bonne pratique consiste à utiliser cette stratégie uniquement pour exécuter des marchés privés garantis.
 
-**[!UICONTROL Flight Dates]:** Date de début et date de fin du package.
-
-Si vous le souhaitez, vous pouvez créer des vols de fréquence variable pour le kit, sélectionnez *[!UICONTROL *Activate Custom Flighting]** et configurez les vols personnalisés dans le [!UICONTROL Flighting] ci-dessous. Une fois que vous avez activé le vol personnalisé et enregistré le package, vous ne pouvez pas désactiver le vol personnalisé.
+**[!UICONTROL Flight Dates]:** La date de début et la date de fin globales du package. Les dates de vol doivent être incluses dans les dates de vol de l&#39;opération.
 
 >[!NOTE]
 >
->* Les dates de vol doivent être incluses dans les dates de vol de l&#39;opération. De plus, les dates de vols de tous les emplacements affectés à ce package doivent être incluses dans ces dates.
+>* Les dates de vol de tous les emplacements affectés à ce package doivent être incluses dans ces dates.
 > * Vous ne pouvez pas modifier la date de début du module lorsque l’éclairage personnalisé est activé.
+
+**[!UICONTROL *Activate Custom Flighting]:** Permet de créer des vols d&#39;espacement inégal pour le kit dans la variable [!UICONTROL Flighting] ci-dessous. Une fois que vous avez activé le vol personnalisé et enregistré le package, vous ne pouvez pas désactiver le vol personnalisé ni modifier la date de début du package.
 
 **[!UICONTROL Budget]:** (Packages avec une fréquence au niveau du package uniquement) Le plafond budgétaire brut et l’intervalle de budget.
 
