@@ -3,16 +3,16 @@ title: Convertir les ID utilisateur à partir de [!DNL Tealium] vers des ID univ
 description: Découvrez comment activer DSP d’ingérer votre [!DNL Tealium] segments propriétaires.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 84ecc81745c6445d08cd743abfd412d62eddde86
+source-git-commit: 44c2fcad42be2d25524a49cdc9cb4184297cd3a1
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
 
 # Convertir les ID utilisateur à partir de [!DNL Tealium] vers des ID universels
 
-*Fonction bêta*
+*Fonctionnalité Beta*
 
 Utilisez l’intégration DSP avec la [!DNL Tealium] plateforme de données client pour convertir les adresses électroniques hachées propriétaires de votre entreprise en identifiants universels pour la publicité ciblée. Le processus utilise la variable [!DNL Amazon Web Services] (AWS) connecteur de prise de feu. Procédez comme suit pour partager des données de Tealium avec DSP :
 
@@ -38,7 +38,7 @@ Pour convertir des adresses électroniques en [!DNL RampIDs] ou [!DNL ID5] ID, v
 
 1. Inscrivez-vous auprès du partenaire d’ID universel et déployez le code spécifique à l’ID universel sur vos pages web pour faire correspondre les conversions des identifiants sur les navigateurs de bureau et les navigateurs web mobiles (mais pas les applications mobiles) aux affichages publicitaires :
 
-   * **Pour [!DNL RampIDs]:** Vous devez déployer une balise JavaScript supplémentaire sur vos pages web pour faire correspondre les conversions des identifiants des navigateurs de bureau et web mobile (mais pas les applications mobiles) aux affichages publicitaires. Contactez votre équipe de compte d’Adobe, qui vous donnera des instructions pour vous inscrire à une [!DNL LiveRamp] [!DNL LaunchPad] de [!DNL LiveRamp] Solutions de trafic d’authentification. L&#39;inscription est gratuite, mais vous devez signer un accord. Une fois que vous vous êtes enregistré, votre équipe de compte d’Adobe génère et fournit une balise unique que votre organisation doit implémenter sur vos pages web.
+   * **Pour [!DNL RampIDs]:** Vous devez déployer une balise JavaScript supplémentaire sur vos pages web pour faire correspondre les conversions des identifiants sur les navigateurs de bureau et les navigateurs web mobiles (mais pas les applications mobiles) aux affichages publicitaires. Contactez votre équipe de compte d’Adobe, qui vous donnera des instructions pour vous inscrire à une [!DNL LiveRamp] [!DNL LaunchPad] de [!DNL LiveRamp] Solutions de trafic d’authentification. L&#39;inscription est gratuite, mais vous devez signer un accord. Une fois que vous vous êtes enregistré, votre équipe de compte d’Adobe génère et fournit une balise unique que votre organisation doit implémenter sur vos pages web.
 
 ## Étape 2 : création d’une source d’audience dans DSP {#source-create}
 
@@ -140,9 +140,11 @@ Vous ne pouvez avoir qu’un seul connecteur par segment et un seul segment par 
 
 ## Étape 6 : Comparaison du nombre d’identifiants universels avec le nombre d’adresses électroniques hachées {#compare-id-count}
 
-Une fois toutes les étapes effectuées, les segments doivent être disponibles dans DSP dans les 24 heures. Vérifier dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le segment est renseigné dans les 24 heures. Comparez le nombre d’identifiants universels au nombre d’adresses électroniques hachées d’origine.
+Les segments doivent être disponibles dans DSP dans les 24 heures. Une fois DSP les données du segment reçues, le nombre d’audiences doit être visible dans les neuf (9) heures.
 
-Le taux de traduction des adresses électroniques hachées en identifiants universels doit être supérieur à 90 %. Par exemple, si vous envoyez 100 adresses électroniques hachées à partir de votre plateforme de données client, elles doivent être traduites en plus de 90 identifiants universels. Un taux de traduction de 90 % ou moins est un problème. Pour plus d’informations sur la manière dont les décomptes de segments peuvent varier, voir &quot;[Causes des écarts de données entre les ID de courrier électronique et les ID universels](#universal-ids-data-variances).&quot;
+Vérifier dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le segment renseigne et comparez le nombre d’identifiants universels au nombre d’adresses électroniques hachées d’origine.
+
+Le taux de traduction des adresses électroniques hachées en identifiants universels doit être supérieur à 90 % ; le taux de traduction pour [!DNL RampIDs] doit en particulier être de 95 % si toutes les adresses électroniques hachées sont uniques. Par exemple, si vous envoyez 100 adresses électroniques hachées à partir de votre plateforme de données client, elles doivent être traduites vers au moins 95. [!DNL RampIDs] ou plus de 90 autres types d’identifiants universels. Un taux de traduction plus faible est un problème. Pour plus d’informations sur la manière dont les décomptes de segments peuvent varier, voir &quot;[Causes des écarts de données entre les ID de courrier électronique et les ID universels](#universal-ids-data-variances).&quot;
 
 Les segments sont actualisés toutes les 24 heures. Cependant, l’inclusion dans un segment expire après 30 jours par défaut ou après une période d’expiration spécifiée par le client. Actualisez vos segments en les repoussant depuis [!DNL Tealium] avant l’expiration. Pour demander une expiration de segment personnalisée, contactez votre équipe de compte d’Adobe.
 

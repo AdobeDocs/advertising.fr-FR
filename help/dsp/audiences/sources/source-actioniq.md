@@ -2,16 +2,16 @@
 title: "Convertir les ID utilisateur à partir de [!DNL ActionIQ] à des ID universels"
 description: "Découvrez comment activer DSP d’ingérer votre [!DNL ActionIQ] segments propriétaires."
 feature: DSP Audiences
-source-git-commit: 87080d8152ccf3aa9249a88379ecc9f919c0854d
+source-git-commit: 4292083dac92860854dca30f7897e1b0279f68ec
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
 
 # Convertir les ID utilisateur à partir de [!DNL ActionIQ] vers des ID universels
 
-*Fonction bêta*
+*Fonctionnalité Beta*
 
 Utilisez l’intégration DSP avec la [!DNL ActionIQ] plateforme de données client pour convertir vos adresses électroniques hachées en identifiants universels pour la publicité ciblée.
 
@@ -27,9 +27,14 @@ Il y a <!-- NN --> étapes de partage de données depuis [!DNL ActionIQ] avec DS
 
 1. Après avoir créé la source de l’audience, partagez la clé de code source avec la variable [!DNL ActionIQ] utilisateur.
 
-1. Une fois toutes les étapes terminées, vérifiez dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le segment est renseigné dans les 24 heures. Comparez le nombre d’identifiants universels au nombre d’adresses électroniques hachées d’origine.
+1. 
+   <!-- ActionIQ-specific step(s) -->
 
-   Le taux de traduction des adresses électroniques hachées en identifiants universels doit être supérieur à 90 %. Par exemple, si vous envoyez 100 adresses électroniques hachées à partir de votre plateforme de données client, elles doivent être traduites en plus de 90 identifiants universels. Un taux de traduction de 90 % ou moins est un problème. Pour plus d’informations sur la manière dont les décomptes de segments peuvent varier, voir &quot;[Causes des écarts de données entre les ID de courrier électronique et les ID universels](#universal-ids-data-variances).&quot;
+1. Vérifier dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le segment renseigne et comparez le nombre d’identifiants universels au nombre d’adresses électroniques hachées d’origine.
+
+   Les segments doivent être disponibles dans DSP dans les 24 heures. Une fois DSP les données du segment reçues, le nombre d’audiences doit être visible dans les neuf (9) heures.
+
+   Le taux de traduction des adresses électroniques hachées en identifiants universels doit être supérieur à 90 % ; le taux de traduction pour [!DNL RampIDs] doit en particulier être de 95 % si toutes les adresses électroniques hachées sont uniques. Par exemple, si vous envoyez 100 adresses électroniques hachées à partir de votre plateforme de données client, elles doivent être traduites vers au moins 95. [!DNL RampIDs] ou plus de 90 autres types d’identifiants universels. Un taux de traduction plus faible est un problème. Pour plus d’informations sur la manière dont les décomptes de segments peuvent varier, voir &quot;[Causes des écarts de données entre les ID de courrier électronique et les ID universels](#universal-ids-data-variances).&quot;
 
    Pour obtenir une assistance en matière de dépannage, contactez votre équipe de compte d’Adobe ou `adcloud-support@adobe.com`.
 

@@ -3,9 +3,9 @@ title: Convertir les ID utilisateur à partir de [!DNL Optimizely] vers des ID u
 description: Découvrez comment activer DSP d’ingérer votre [!DNL Optimizely] segments propriétaires.
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-source-git-commit: 31713da81bbb1eb840de0f8e0d40013b42cd3140
+source-git-commit: 49902a99b78f867dd71c0cd15b97342a70abbc97
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -56,13 +56,15 @@ L’annonceur doit préparer et transmettre les données à l’aide de la varia
 
    * **Code du compte :** Il s’agit du code de compte DSP alphanumérique, que vous pouvez trouver dans DSP à l’adresse [!UICONTROL Settings] > [!UICONTROL Account].
 
-Les segments doivent être disponibles dans DSP dans les 24 heures et sont actualisés comme configurés pour l’annonceur. Quelle que soit la fréquence d’actualisation du segment, l’inclusion dans un segment expire par défaut après 30 jours ou après une période d’expiration spécifiée par le client. Actualisez vos segments en les repoussant depuis [!DNL Optimizely] avant l’expiration. Pour demander une expiration de segment personnalisée, contactez votre équipe de compte d’Adobe.
+Les segments seront actualisés comme configurés pour l’annonceur. Quelle que soit la fréquence d’actualisation du segment, l’inclusion dans un segment expire par défaut après 30 jours ou après une période d’expiration spécifiée par le client. Actualisez vos segments en les repoussant depuis [!DNL Optimizely] avant l’expiration. Pour demander une expiration de segment personnalisée, contactez votre équipe de compte d’Adobe.
 
 ## Étape 4 : Comparaison du nombre d’identifiants universels avec le nombre d’adresses électroniques hachées {#compare-id-count}
 
-Une fois toutes les étapes terminées, vérifiez dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le segment est disponible et qu’il est renseigné dans les 24 heures. Comparez le nombre d’identifiants universels au nombre d’adresses électroniques hachées d’origine.
+Les segments doivent être disponibles dans DSP dans les 24 heures. Une fois DSP les données du segment reçues, le nombre d’audiences doit être visible dans les neuf (9) heures.
 
-Le taux de traduction des adresses électroniques hachées en identifiants universels doit être supérieur à 90 %. Par exemple, si vous envoyez 100 adresses électroniques hachées à partir de votre plateforme de données client, elles doivent être traduites en plus de 90 identifiants universels. Un taux de traduction de 90 % ou moins est un problème. Pour plus d’informations sur la manière dont les décomptes de segments peuvent varier, voir &quot;[Causes des écarts de données entre les ID de courrier électronique et les ID universels](#universal-ids-data-variances).&quot;
+Vérifier dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le segment est disponible et qu’il est en train de remplir, et comparez le nombre d’identifiants universels au nombre d’adresses électroniques hachées d’origine.
+
+Le taux de traduction des adresses électroniques hachées en identifiants universels doit être supérieur à 90 % ; le taux de traduction pour [!DNL RampIDs] doit en particulier être de 95 % si toutes les adresses électroniques hachées sont uniques. Par exemple, si vous envoyez 100 adresses électroniques hachées à partir de votre plateforme de données client, elles doivent être traduites vers au moins 95. [!DNL RampIDs] ou plus de 90 autres types d’identifiants universels. Un taux de traduction plus faible est un problème. Pour plus d’informations sur la manière dont les décomptes de segments peuvent varier, voir &quot;[Causes des écarts de données entre les ID de courrier électronique et les ID universels](#universal-ids-data-variances).&quot;
 
 Pour obtenir une assistance en matière de dépannage, contactez votre équipe de compte d’Adobe ou `adcloud-support@adobe.com`.
 

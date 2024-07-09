@@ -2,16 +2,17 @@
 title: Convertir les ID utilisateur à partir de [!DNL Amperity] vers des ID universels
 description: Découvrez comment activer DSP d’ingérer votre [!DNL Amperity] segments propriétaires.
 feature: DSP Audiences
-source-git-commit: 25bcc2eefa4dc7873ab8189122d43da336e3e046
+exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
+source-git-commit: ed74f3fa3d0036e0dc8a529b05452567527f68a1
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
 
 # Convertir les ID utilisateur à partir de [!DNL Amperity] vers des ID universels
 
-*Fonction bêta*
+*Fonctionnalité Beta*
 
 Utilisez l’intégration DSP avec la [!DNL Amperity] plateforme de données client pour convertir les adresses électroniques hachées propriétaires de votre entreprise en identifiants universels pour la publicité ciblée.
 
@@ -35,7 +36,7 @@ Pour convertir des adresses électroniques en [!DNL RampIDs] ou [!DNL ID5] ID, v
 
 1. Inscrivez-vous auprès du partenaire d’ID universel et déployez le code spécifique à l’ID universel sur vos pages web pour faire correspondre les conversions des identifiants sur les navigateurs de bureau et les navigateurs web mobiles (mais pas les applications mobiles) aux affichages publicitaires :
 
-   * **Pour [!DNL RampIDs]:** Vous devez déployer une balise JavaScript supplémentaire sur vos pages web pour faire correspondre les conversions des identifiants des navigateurs de bureau et web mobile (mais pas les applications mobiles) aux affichages publicitaires. Contactez votre équipe de compte d’Adobe, qui vous donnera des instructions pour vous inscrire à une [!DNL LiveRamp] [!DNL LaunchPad] de [!DNL LiveRamp] Solutions de trafic d’authentification. L&#39;inscription est gratuite, mais vous devez signer un accord. Une fois que vous vous êtes enregistré, votre équipe de compte d’Adobe génère et fournit une balise unique que votre organisation doit implémenter sur vos pages web.
+   * **Pour [!DNL RampIDs]:** Vous devez déployer une balise JavaScript supplémentaire sur vos pages web pour faire correspondre les conversions des identifiants sur les navigateurs de bureau et les navigateurs web mobiles (mais pas les applications mobiles) aux affichages publicitaires. Contactez votre équipe de compte d’Adobe, qui vous donnera des instructions pour vous inscrire à une [!DNL LiveRamp] [!DNL LaunchPad] de [!DNL LiveRamp] Solutions de trafic d’authentification. L&#39;inscription est gratuite, mais vous devez signer un accord. Une fois que vous vous êtes enregistré, votre équipe de compte d’Adobe génère et fournit une balise unique que votre organisation doit implémenter sur vos pages web.
 
 ## Étape 2 : création d’une source d’audience dans DSP {#source-create}
 
@@ -73,13 +74,15 @@ L’annonceur doit préparer et partager les données de mappage de segments.
 
 1. L’annonceur doit ensuite confirmer auprès de l’équipe du compte d’Adobe que les données de segment ont été reçues.
 
-Les segments doivent être disponibles dans DSP dans les 24 heures et être actualisés selon la configuration de l’annonceur dans [!DNL Amperity]. Quelle que soit la fréquence d’actualisation du segment, l’inclusion dans un segment expire par défaut après 30 jours ou après une période d’expiration spécifiée par le client. Actualisez vos segments en les repoussant depuis [!DNL Amperity] avant l’expiration. Pour demander une expiration de segment personnalisée, contactez votre équipe de compte d’Adobe.
+Les segments doivent être disponibles dans DSP dans les 24 heures. Vérifier dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le segment est disponible et est renseigné.
+
+Les segments seront actualisés comme configurés pour l’annonceur dans [!DNL Amperity]. Quelle que soit la fréquence d’actualisation du segment, l’inclusion dans un segment expire par défaut après 30 jours ou après une période d’expiration spécifiée par le client. Actualisez vos segments en les repoussant depuis [!DNL Amperity] avant l’expiration. Pour demander une expiration de segment personnalisée, contactez votre équipe de compte d’Adobe.
 
 ## Étape 5 : Comparaison du nombre d’identifiants universels avec le nombre d’adresses électroniques hachées {#compare-id-count}
 
-Une fois toutes les étapes terminées, vérifiez dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le segment est disponible et qu’il est renseigné dans les 24 heures. Comparez le nombre d’identifiants universels au nombre d’adresses électroniques hachées d’origine.
+Une fois DSP les données du segment reçues, le nombre d’audiences doit être visible dans les neuf (9) heures. Dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) comparez le nombre d’identifiants universels au nombre d’adresses électroniques hachées d’origine.
 
-Le taux de traduction des adresses électroniques hachées en identifiants universels doit être supérieur à 90 %. Par exemple, si vous envoyez 100 adresses électroniques hachées à partir de votre plateforme de données client, elles doivent être traduites en plus de 90 identifiants universels. Un taux de traduction de 90 % ou moins est un problème. Pour plus d’informations sur la manière dont les décomptes de segments peuvent varier, voir &quot;[Causes des écarts de données entre les ID de courrier électronique et les ID universels](#universal-ids-data-variances).&quot;
+Le taux de traduction des adresses électroniques hachées en identifiants universels doit être supérieur à 90 % ; le taux de traduction pour [!DNL RampIDs] doit en particulier être de 95 % si toutes les adresses électroniques hachées sont uniques. Par exemple, si vous envoyez 100 adresses électroniques hachées à partir de votre plateforme de données client, elles doivent être traduites vers au moins 95. [!DNL RampIDs] ou plus de 90 autres types d’identifiants universels. Un taux de traduction plus faible est un problème. Pour plus d’informations sur la manière dont les décomptes de segments peuvent varier, voir &quot;[Causes des écarts de données entre les ID de courrier électronique et les ID universels](#universal-ids-data-variances).&quot;
 
 Pour obtenir une assistance en matière de dépannage, contactez votre équipe de compte d’Adobe ou `adcloud-support@adobe.com`.
 
