@@ -3,9 +3,9 @@ title: Convertir les ID utilisateur à partir de [!DNL Amperity] vers des ID uni
 description: Découvrez comment activer DSP d’ingérer votre [!DNL Amperity] segments propriétaires.
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: ed74f3fa3d0036e0dc8a529b05452567527f68a1
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Les segments seront actualisés comme configurés pour l’annonceur dans [!DNL 
 
 Une fois DSP les données du segment reçues, le nombre d’audiences doit être visible dans les neuf (9) heures. Dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) comparez le nombre d’identifiants universels au nombre d’adresses électroniques hachées d’origine.
 
-Le taux de traduction des adresses électroniques hachées en identifiants universels doit être supérieur à 90 % ; le taux de traduction pour [!DNL RampIDs] doit en particulier être de 95 % si toutes les adresses électroniques hachées sont uniques. Par exemple, si vous envoyez 100 adresses électroniques hachées à partir de votre plateforme de données client, elles doivent être traduites vers au moins 95. [!DNL RampIDs] ou plus de 90 autres types d’identifiants universels. Un taux de traduction plus faible est un problème. Pour plus d’informations sur la manière dont les décomptes de segments peuvent varier, voir &quot;[Causes des écarts de données entre les ID de courrier électronique et les ID universels](#universal-ids-data-variances).&quot;
+Pour plus d’informations sur les taux de traduction des identifiants acceptables et sur les raisons pour lesquelles les nombres de segments peuvent varier, voir &quot;[Écarts de données entre les ID de courrier électronique et les ID universels](#universal-ids-data-variances).&quot;
 
 Pour obtenir une assistance en matière de dépannage, contactez votre équipe de compte d’Adobe ou `adcloud-support@adobe.com`.
 
