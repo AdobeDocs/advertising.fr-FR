@@ -3,9 +3,9 @@ title: Utilisation de l’intégration DSP avec [!DNL Adobe] [!DNL Real-time CDP
 description: Découvrez comment activer DSP d’ingérer votre [!DNL Adobe] [!DNL Real-time CDP] segments propriétaires.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,15 @@ Utilisation de l’intégration DSP avec [la valeur [!DNL Adobe Real-Time Custom
 
 1. Vérifier dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le segment renseigne et comparez le nombre d’identifiants universels au nombre d’adresses électroniques hachées d’origine.
 
-   Les segments doivent être disponibles dans DSP dans les 24 heures. Une fois DSP les données du segment reçues, le nombre d’audiences doit être visible dans les neuf (9) heures.
-
-   Pour plus d’informations sur les taux de traduction des identifiants acceptables et sur les raisons pour lesquelles les nombres de segments peuvent varier, voir &quot;[Écarts de données entre les ID de courrier électronique et les ID universels](#universal-ids-data-variances).&quot;
-
-   Pour obtenir une assistance en matière de dépannage, contactez votre équipe de compte d’Adobe ou `adcloud-support@adobe.com`.
+   Les segments doivent être disponibles dans DSP dans les 24 heures. Une fois DSP les données du segment reçues, le nombre d’audiences doit être visible dans les neuf (9) heures. Pour plus d’informations sur les taux de traduction des identifiants acceptables et sur les raisons pour lesquelles les nombres de segments peuvent varier, voir &quot;[Écarts de données entre les ID de courrier électronique et les ID universels](#universal-ids-data-variances).&quot;
 
 Les segments sont actualisés toutes les 24 heures. Cependant, l’inclusion dans un segment expire après 30 jours par défaut ou après une période d’expiration spécifiée par le client. Actualisez vos segments en les republiant à partir de Real-Time CDP avant l’expiration. Pour demander une expiration de segment personnalisée, contactez votre équipe de compte d’Adobe.
+
+## Dépannage
+
+Pour résoudre les problèmes de taux de traduction et de nombre d’utilisateurs, voir &quot;[Prise en charge de l’activation des ID universels](/help/dsp/audiences/universal-ids.md).&quot;
+
+Pour résoudre les problèmes liés à la procédure de conversion, contactez votre équipe de compte Adobe ou `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: Convertir les ID utilisateur à partir de [!DNL Amperity] vers des ID uni
 description: Découvrez comment activer DSP d’ingérer votre [!DNL Amperity] segments propriétaires.
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -80,11 +80,15 @@ Les segments seront actualisés comme configurés pour l’annonceur dans [!DNL 
 
 ## Étape 5 : Comparaison du nombre d’identifiants universels avec le nombre d’adresses électroniques hachées {#compare-id-count}
 
-Une fois DSP les données du segment reçues, le nombre d’audiences doit être visible dans les neuf (9) heures. Dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) comparez le nombre d’identifiants universels au nombre d’adresses électroniques hachées d’origine.
+Une fois DSP les données du segment reçues, le nombre d’audiences doit être visible dans les neuf (9) heures.
 
-Pour plus d’informations sur les taux de traduction des identifiants acceptables et sur les raisons pour lesquelles les nombres de segments peuvent varier, voir &quot;[Écarts de données entre les ID de courrier électronique et les ID universels](#universal-ids-data-variances).&quot;
+Dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) comparez le nombre d’identifiants universels au nombre d’adresses électroniques hachées d’origine. Pour plus d’informations sur les taux de traduction des identifiants acceptables et sur les raisons pour lesquelles les nombres de segments peuvent varier, voir &quot;[Écarts de données entre les ID de courrier électronique et les ID universels](#universal-ids-data-variances).&quot;
 
-Pour obtenir une assistance en matière de dépannage, contactez votre équipe de compte d’Adobe ou `adcloud-support@adobe.com`.
+## Dépannage
+
+Pour résoudre les problèmes de taux de traduction et de nombre d’utilisateurs, voir &quot;[Prise en charge de l’activation des ID universels](/help/dsp/audiences/universal-ids.md).&quot;
+
+Pour résoudre les problèmes liés à la procédure de conversion, contactez votre équipe de compte Adobe ou `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
