@@ -3,7 +3,7 @@ title: Paramètres du module
 description: Reportez-vous à la description des paramètres de package disponibles.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 78b8f6cd689e5faf4b0cbd2b41983b00663448a4
+source-git-commit: 644847918f6f6dd86dec80ad89128c31a0c0284b
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 **[!UICONTROL 3rd Party Billed Fees]:** (Facultatif) Des frais tiers statiques à suivre en tant que coût non facturable :
 
+* **[!UICONTROL CPM]:** Le coût par 1 000 impressions (CPM).
+
+* **[!UICONTROL Description]:** Description des frais CPM.
+
 >[!NOTE]
 >
 >Les frais facturables sont reflétés dans la variable [!UICONTROL Net CPM] mesure.
->
-* **[!UICONTROL CPM]:** Le coût par 1 000 impressions (CPM).
-
-* **[!UICONTROL CPM Description]:** Description des frais CPM.
 
 Vous pouvez remplacer le paramètre au niveau du module à l’adresse [niveau de placement](/help/dsp/campaign-management/placements/placement-settings.md).
 
@@ -45,7 +45,7 @@ Vous pouvez remplacer le paramètre au niveau du module à l’adresse [niveau d
 >* Les dates de vol de tous les emplacements affectés à ce package doivent être incluses dans ces dates.
 > * Vous ne pouvez pas modifier la date de début du module lorsque l’éclairage personnalisé est activé.
 
-**[!UICONTROL Activate Custom Flighting]:** Permet de créer des vols d&#39;espacement inégal pour le kit dans la variable [!UICONTROL Flighting] ci-dessous. Une fois que vous avez activé le vol personnalisé et enregistré le package, vous ne pouvez pas désactiver le vol personnalisé ni modifier la date de début du package.
+**[!UICONTROL *Activate Custom Flighting]:** Permet de créer des vols d&#39;espacement inégal pour le kit dans la variable [!UICONTROL Flighting] ci-dessous. Une fois que vous avez activé le vol personnalisé et enregistré le package, vous ne pouvez pas désactiver le vol personnalisé ni modifier la date de début du package.
 
 **[!UICONTROL Budget]:** (Packages avec une fréquence au niveau du package uniquement) Le plafond budgétaire brut et l’intervalle de budget.
 
