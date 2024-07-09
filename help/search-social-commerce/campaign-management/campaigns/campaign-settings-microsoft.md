@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft Advertising] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Microsoft Advertising] campagnes.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
+source-git-commit: 096271a2e9daddc20f7f5f4e0063fda21974c8a1
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '2001'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
   Une fois que vous avez enregistré une campagne d’achat pour les marques avec cette stratégie d’offre, vous ne pouvez pas modifier la stratégie d’offre. Pour les autres types de campagne d’achat, cette stratégie est disponible uniquement pour les nouvelles campagnes.
 
-* *[!UICONTROL CPV]* (Campagnes vidéo Audience CTV uniquement) Utilise le modèle de coût par vue (CPV). <!-- Campaigns with this bid strategy aren't optimized when they're included in portfolios. -->
+* *[!UICONTROL CPV]* (Campagnes vidéo Audience CTV uniquement) Utilise le modèle de coût par vue (CPV). Search, Social et Commerce ne fournit pas d’optimisation pour les campagnes avec cette stratégie d’offre incluse dans les portefeuilles.
 
 * *[!UICONTROL Enhanced CPC]:* (Campagnes sur l’audience, la recherche et les réseaux d’achats) Utilise le modèle de coût par clic amélioré du réseau publicitaire, qui permet au réseau publicitaire de modifier automatiquement l’offre coût par clic (CPC) pour chaque enchère afin d’optimiser les conversions à l’aide des conversions spécifiées dans le réseau publicitaire (et non dans Search, Social et Commerce), tout en essayant de maintenir le CPC moyen en dessous du CPC maximum.
 
@@ -164,7 +164,7 @@ Une fois que vous avez lié la campagne à un magasin et enregistré les paramè
 
 **[!UICONTROL Negative Websites]:** (Campagnes sur le réseau d’affichage/natif uniquement ; facultatif) Sites sur le réseau d’affichage sur lequel vous ne souhaitez pas que vos publicités s’affichent. Saisissez une URL valide, telle que www.example.com. Pour spécifier plusieurs chaînes, séparez-les par des virgules ou saisissez-les sur des lignes distinctes.
 
-Pour plus d’informations sur la disponibilité, voir l’aide de Microsoft Advertising en &quot;[Empêcher l’affichage des publicités sur des sites web spécifiques](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+Pour plus d’informations sur la disponibilité, voir l’aide d’Microsoft Advertising sur &quot;[Empêcher l’affichage des publicités sur des sites web spécifiques](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 ## [!UICONTROL Campaign Tracking]
 
@@ -282,7 +282,7 @@ Pour plus d’informations sur la disponibilité, voir l’aide de Microsoft Adv
 
 **[!UICONTROL Call to Action]:** Appel à l’action à inclure dans la publicité. Par défaut, *[!UICONTROL Act Now]* est sélectionnée.
 
-**[!UICONTROL Business Name]:** Nom de l’entreprise, avec un maximum de 25 caractères. Il ne peut pas contenir de scripts, de HTMLS ou d’autres langages de balisage.
+**[!UICONTROL Business Name]:** Nom de l’entreprise, avec un maximum de 25 caractères. Il ne peut pas contenir de scripts, d’HTML ou d’autres langages de balisage.
 
 **[!UICONTROL Audience Signal]:** (Facultatif) [!DNL Microsoft Advertising] audiences à utiliser comme signaux d’audience pour la campagne. [!DNL Microsoft Advertising] Les modèles d’apprentissage automatique utilisent les audiences pour trouver des internautes similaires à cibler et peuvent également afficher des publicités à des audiences qui ne sont pas spécifiées comme signaux pour vous aider à atteindre vos objectifs de performances. Choisissez les audiences les plus susceptibles d’être converties.
 
@@ -301,13 +301,9 @@ Pour plus d’informations sur la disponibilité, voir l’aide de Microsoft Adv
 
 >[!TIP]
 >
->Pour les portefeuilles hybrides pour lesquels vous téléchargez des objectifs vers le réseau publicitaire, la bonne pratique consiste à utiliser des objectifs au niveau de la campagne correspondant aux objectifs de conversion dans l’objectif du portfolio. Toutefois, si les objectifs de la campagne incluent les conversions suivies par la variable [!DNL Microsoft Advertising] balise de suivi d’événement universel (UET), puis ajoutez-les dans la balise [!DNL Microsoft Advertising] car ils ne sont pas rechargés sur le réseau publicitaire avec l’objectif . En outre, dans la variable [!DNL Microsoft Advertising] Supprimez les actions de conversion de la campagne comme objectifs par défaut du compte en désélectionnant &quot;inclure dans les conversions&quot;.
-
-<!-- Check on this:
->If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>Si la campagne fait partie d’un portfolio hybride, la bonne pratique consiste à utiliser des objectifs au niveau de la campagne qui correspondent aux objectifs de conversion dans l’objectif du portfolio ; l’inclusion d’objectifs de conversion supplémentaires peut avoir une incidence sur les performances du portfolio.
 >
->The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
--->
+> Toutefois, pour les campagnes dans des portefeuilles hybrides pour lesquels vous [télécharger des objectifs sur le réseau publicitaire ;](/help/search-social-commerce/tools/objective-upload-to-networks.md), effectuez les opérations suivantes dans l’éditeur du réseau publicitaire au lieu d’ici : a) ajoutez la mesure d’objectif du portefeuille de recherche, de réseaux sociaux et de Commerce (qui commence par &quot;O_ACS_OBJ&quot;) en tant qu’objectif de conversion pour la campagne, et b) ajoutez les objectifs de campagne qui incluent les conversions suivies par [!DNL Microsoft Advertising] balise de suivi d’événement universel (UET), car les mesures suivies par le réseau publicitaire ne sont pas transférées vers le réseau publicitaire avec l’objectif .
 
 >[!MORELIKETHIS]
 >

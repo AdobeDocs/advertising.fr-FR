@@ -3,9 +3,9 @@ title: Activer le téléchargement des objectifs vers les réseaux publicitaires
 description: Découvrez comment télécharger des objectifs pour vos portefeuilles hybrides vers [!DNL Google Ads] et [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: d703b0d0134dbd16b2672b13d2ea63e4f102e105
+source-git-commit: 39936c6834012432447d3216d8463937996b0017
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 Search, Social et Commerce peuvent télécharger les objectifs des portfolios d’un compte publicitaire vers [!DNL Google Ads] et [!DNL Microsoft Advertising] vous pouvez donc les utiliser pour l’optimisation hybride. Vos objectifs téléchargés sont disponibles en tant qu’actions de conversion pour les objectifs de conversion personnalisés au niveau du compte et de la campagne.
 
-L’activation de cette option déclenche automatiquement un chargement pour les objectifs dans les portfolios qui contiennent des campagnes avec des stratégies d’offres intelligentes. Search, Social et Commerce crée une conversion sur le réseau publicitaire pour chaque objectif applicable. La conversion représente toutes les mesures de conversion pondérées de l’objectif au niveau de l’identifiant de clic (EF ID). Chaque conversion porte l’un des noms suivants :
+L’activation de cette option déclenche automatiquement un chargement pour les objectifs dans les portfolios qui contiennent des campagnes avec des stratégies d’offres intelligentes. Search, Social et Commerce crée une conversion sur le réseau publicitaire pour chaque objectif applicable. La conversion représente toutes les mesures de conversion pondérées de l’objectif au niveau de l’identifiant de clic (EF ID). Pour [!DNL Google Ads] clics, l’identifiant EF est [!DNL Google Ads] `gclid`; pour [!DNL Microsoft Advertising] clics, l’identifiant EF est [!DNL Microsoft Advertising] `msclkid`. En raison de cet identifiant de clic, les données de conversion peuvent être mappées au mot-clé spécifique et à l’heure des clics.
+
+Chaque conversion chargée porte l’un des noms suivants :
 
 * `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
 
@@ -34,15 +36,7 @@ Téléchargements vers [!DNL Google Ads] surviennent tous les jours à 06h00 dan
 
 >[!IMPORTANT]
 >
->Les conversions suivies par Google Ads et par la balise de suivi universel d’événement (UET) Microsoft Advertising ne sont pas rechargées vers les réseaux publicitaires. Si vous les incluez dans un objectif, ajoutez-les aux objectifs de la campagne dans l’éditeur du réseau publicitaire.
-
-<!--
->[!IMPORTANT]
->
->Objectives for hybrid portfolios may include conversion goals from multiple ad networks and other types of conversion metrics. However, the individual campaigns in the portfolio can't include conversion goals that aren't included in the portfolio's objective; using additional conversion goals may impact portfolio performance.
--->
-
-<!-- Can conversions from events triggered on other ad networks be included in the portfolio (and just be ignored)? -->
+>Les conversions suivies par Google Ads et par la balise de suivi universel d’événement (UET) Microsoft Advertising ne sont pas rechargées vers les réseaux publicitaires. Si vous les incluez dans un objectif, vous devez les ajouter aux objectifs de campagne dans l’éditeur du réseau publicitaire.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 

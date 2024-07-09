@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] paramètres de campagne'
 description: Référencez les paramètres pour [!DNL Google Ads] campagnes.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: fd5a78a0eb2982ee85ca2d2b6a3cd79a0821d965
+source-git-commit: 977314f07d1299d9b94680861b046161bb444228
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2450'
 ht-degree: 0%
 
 ---
@@ -359,13 +359,9 @@ Pour créer un objectif de conversion personnalisé, cliquez sur **[!UICONTROL +
 
 >[!TIP]
 >
->Pour les campagnes dans des portfolios hybrides pour lesquelles vous téléchargez des objectifs vers le réseau publicitaire, la bonne pratique consiste à utiliser des objectifs au niveau de la campagne qui correspondent aux objectifs de conversion dans l’objectif du portfolio. Toutefois, si les objectifs de la campagne incluent [!DNL Google]les conversions suivies, puis les ajouter dans la variable [!DNL Google Ads] car ils ne sont pas rechargés sur le réseau publicitaire avec l’objectif . En outre, dans la variable [!DNL Google Ads] Supprimez les actions de conversion de la campagne comme objectifs par défaut du compte en les marquant comme objectifs secondaires (et non primaires).
-
-<!-- Check on this:
->If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>Si la campagne fait partie d’un portfolio hybride, la bonne pratique consiste à utiliser des objectifs au niveau de la campagne qui correspondent aux objectifs de conversion dans l’objectif du portfolio ; l’inclusion d’objectifs de conversion supplémentaires peut avoir une incidence sur les performances du portfolio.
 >
->The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
--->
+>Toutefois, pour les campagnes dans des portefeuilles hybrides pour lesquels vous [télécharger des objectifs sur le réseau publicitaire ;](/help/search-social-commerce/tools/objective-upload-to-networks.md), effectuez les opérations suivantes dans l’éditeur du réseau publicitaire au lieu d’ici : a) ajoutez la mesure d’objectif du portefeuille de recherche, de réseaux sociaux et de Commerce (qui commence par &quot;O_ACS_OBJ&quot;) en tant qu’action de conversion pour la campagne, et b) ajoutez les objectifs de campagne qui incluent [!DNL Google]-conversions suivies, car les mesures suivies par le réseau publicitaire ne sont pas transférées vers le réseau publicitaire avec l’objectif.
 
 >[!MORELIKETHIS]
 >
