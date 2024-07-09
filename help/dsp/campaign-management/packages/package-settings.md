@@ -3,9 +3,9 @@ title: Paramètres du module
 description: Reportez-vous à la description des paramètres de package disponibles.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 1ae55a0c4750e25429c954c406352b2235805016
+source-git-commit: 5a173c53bdd0a5673c968b1ebc6348a40e99c80c
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -120,12 +120,10 @@ Pour chaque vol, indiquez la date de début, la date de fin et l’objectif de d
 Pour les modules existants, vous pouvez éventuellement saisir une valeur dans la variable [!UICONTROL Rollover] pour tout vol afin d&#39;ajouter un budget potentiel non dépensé au prochain vol. La valeur projetée dans la variable [!UICONTROL Adjusted Goal (Goal + Rollover)] est modifiée en conséquence.<!-- clarify usage -->
 
 >[!MORELIKETHIS]
-
-Pour e
->>
-* [À propos de la gestion de modules](package-about.md)
+>
+>* [À propos de la gestion de modules](package-about.md)
 >* [Création d’un module](package-create.md)
-* [Modification d’un module](package-edit.md)
-* [Joindre un emplacement à un package](package-attach-placement.md)
-* [Affichage du journal des modifications d’un module](package-change-log.md)
-* [Questions fréquentes à propos de Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+>* [Modification d’un module](package-edit.md)
+>* [Joindre un emplacement à un package](package-attach-placement.md)
+>* [Affichage du journal des modifications d’un module](package-change-log.md)
+>* [Questions fréquentes à propos de Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
