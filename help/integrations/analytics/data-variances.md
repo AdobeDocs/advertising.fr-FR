@@ -3,9 +3,9 @@ title: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 description: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1f27738d383c8c420155d6d12c98c646bba7d7b4
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ Les annonceurs qui utilisent la variable [!DNL Analytics for Advertising] <!-- (
 
 La variable [!DNL Analytics for Advertising] l’intégration utilise deux variables ([!DNL eVars] ou [!DNL rVars] \[réservé [!DNL eVars]]\) pour capturer la variable [EF ID et AMO ID](ids.md). Ces variables sont configurées avec un seul intervalle de recherche en amont (l’heure à laquelle les clics publicitaires et les affichages publicitaires sont attribués) et un modèle d’attribution. Sauf indication contraire, les variables sont configurées pour correspondre à l’intervalle de recherche en amont des clics par défaut au niveau de l’annonceur et au modèle d’attribution dans Adobe Advertising.
 
-Cependant, les intervalles de recherche en amont et les modèles d’attribution peuvent être configurés dans Analytics comme dans le [!DNL eVars]) et en Adobe Advertising. En outre, dans l’Adobe Advertising, le modèle d’attribution est configurable non seulement au niveau de l’annonceur (pour l’optimisation des offres), mais également dans les vues de données et les rapports individuels (à des fins de création de rapports uniquement). Par exemple, une organisation peut préférer utiliser le modèle d’attribution distribution paire pour l’optimisation, mais utiliser l’attribution Dernière touche pour les rapports dans les DSP de publicité ou [!DNL Advertising Search, Social, & Commerce]. La modification des modèles d’attribution modifie le nombre de conversions attribuées.
+Cependant, les intervalles de recherche en amont et les modèles d’attribution peuvent être configurés dans Analytics comme dans le [!DNL eVars]) et en Adobe Advertising. En outre, dans l’Adobe Advertising, le modèle d’attribution est configurable non seulement au niveau de l’annonceur (pour l’optimisation des offres), mais également dans les vues de données et les rapports individuels (à des fins de création de rapports uniquement). Par exemple, une organisation peut préférer utiliser le modèle d’attribution de distribution uniforme pour l’optimisation, mais utiliser l’attribution Dernière touche pour les rapports dans Advertising DSP ou [!DNL Advertising Search, Social, & Commerce]. La modification des modèles d’attribution modifie le nombre de conversions attribuées.
 
 Si un intervalle de recherche en amont des rapports ou un modèle d’attribution est modifié dans un produit et non dans l’autre, les mêmes rapports de chaque système affichent des données distinctes :
 
 * **Exemple d’incohérences dues à des intervalles de recherche en amont différents :**
 
-  Supposons que l’Adobe Advertising ait une période de recherche en amont des clics de 60 jours et que [!DNL Analytics] dispose d’un intervalle de recherche en amont de 30 jours. Supposons également qu’un utilisateur se rende sur le site par le biais d’une publicité qui fait l’objet d’un suivi par Adobe Advertising, quitte le site, puis revient le 45e jour et effectue une conversion. Adobe Advertising attribue la conversion à la visite initiale, car la conversion s’est produite dans l’intervalle de recherche en amont de 60 jours. [!DNL Analytics], toutefois, ne peut pas attribuer la conversion à la visite initiale, car la conversion s’est produite après l’expiration de l’intervalle de recherche en amont de 30 jours. Dans cet exemple, Adobe Advertising signale un nombre de conversions plus élevé que [!DNL Analytics] le fait.
+  Supposons que l’Adobe Advertising dispose d’une période de recherche en amont des clics de 60 jours et que [!DNL Analytics] dispose d’un intervalle de recherche en amont de 30 jours. Supposons également qu’un utilisateur se rende sur le site par le biais d’une publicité qui fait l’objet d’un suivi par Adobe Advertising, quitte le site, puis revient le 45e jour et effectue une conversion. Adobe Advertising attribue la conversion à la visite initiale, car la conversion s’est produite dans l’intervalle de recherche en amont de 60 jours. [!DNL Analytics], toutefois, ne peut pas attribuer la conversion à la visite initiale, car la conversion s’est produite après l’expiration de l’intervalle de recherche en amont de 30 jours. Dans cet exemple, Adobe Advertising signale un nombre de conversions plus élevé que [!DNL Analytics] le fait.
 
   ![Exemple de conversion attribuée dans Adobe Advertising mais pas [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
 
@@ -50,7 +50,7 @@ Ces mêmes concepts s’appliquent à tout autre canal, tel que les canaux qui u
 
 #### Différentes fenêtres de recherche en amont pour le suivi des affichages publicitaires {#impression-lookback}
 
-Dans Adobe Advertising, l’attribution est basée sur les clics et les impressions, et vous pouvez configurer différents intervalles de recherche en amont pour les clics et les impressions. Dans [!DNL Analytics]Toutefois, l’attribution est basée sur les clics publicitaires et les affichages publicitaires et vous n’avez pas la possibilité de définir différentes fenêtres d’attribution pour les clics publicitaires et les affichages publicitaires ; le suivi pour chaque commence à la visite initiale du site. Une impression peut se produire le même jour ou plusieurs jours avant qu’un affichage publicitaire ne se produise, ce qui peut avoir un impact sur l’endroit où la fenêtre d’attribution commence dans chaque système.
+Dans Adobe Advertising, l’attribution est basée sur les clics et les impressions, et vous pouvez configurer différents intervalles de recherche en amont pour les clics et les impressions. Dans [!DNL Analytics]Toutefois, l’attribution est basée sur les clics publicitaires et les affichages publicitaires et vous n’avez pas la possibilité de définir différentes fenêtres d’attribution pour les clics publicitaires et les affichages publicitaires ; le suivi pour chaque commence à la visite initiale du site. Une impression peut se produire le même jour ou plusieurs jours avant qu’un affichage publicitaire ne se produise, et le timing peut avoir une incidence sur le début de la fenêtre d’attribution dans chaque système.
 
 En règle générale, la majorité des conversions d’affichages publicitaires se produisent assez rapidement pour que les deux systèmes attribuent du crédit. Cependant, certaines conversions peuvent se produire en dehors de l’intervalle de recherche en amont des impressions de l’Adobe Advertising, mais dans la variable [!DNL Analytics] intervalle de recherche en amont ; ces conversions sont attribuées à l’affichage publicitaire dans [!DNL Analytics] mais pas à l&#39;impression en Adobe Advertising.
 
@@ -118,7 +118,7 @@ L’intervalle de recherche en amont pour [!DNL Marketing Channels] peuvent êtr
 
 ### Différente attribution de canaux dans [!DNL Marketing Channels]
 
-Les rapports d’Adobe Advertising capturent uniquement les médias payants qui transitent par Adobe Advertising (recherche payante pour [!DNL Advertising Search, Social, & Commerce] publicités et affichage pour les publicités (publicités DSP), alors que [!DNL Marketing Channels] Les rapports peuvent effectuer le suivi de tous les canaux numériques. Cela peut entraîner une incohérence dans le canal pour lequel une conversion est attribuée.
+Les rapports d’Adobe Advertising capturent uniquement les médias payants qui transitent par Adobe Advertising (recherche payante pour [!DNL Advertising Search, Social, & Commerce] publicités et affichage pour les publicités Advertising DSP), alors que [!DNL Marketing Channels] Les rapports peuvent effectuer le suivi de tous les canaux numériques. Cela peut entraîner une incohérence dans le canal pour lequel une conversion est attribuée.
 
 Par exemple, les canaux de recherche payante et de recherche naturelle ont souvent une relation symbiotique, dans laquelle chaque canal s’aide l’autre. La variable [!DNL Marketing Channels] Le rapport attribue certaines conversions à la recherche naturelle, ce qui n’est pas le cas de l’Adobe Advertising, car il ne suit pas la recherche naturelle.
 
@@ -154,31 +154,60 @@ La variable [!DNL Paid Search Detection] Les rapports vous permettent d’identi
 
 Pour votre intégration, vous devez valider vos données de clics publicitaires afin de vous assurer que toutes les pages de votre site effectuent correctement le suivi des clics publicitaires.
 
-Dans [!DNL Analytics], l’une des méthodes les plus simples de validation [!DNL Analytics for Advertising] Le suivi permet de comparer les clics aux instances à l’aide d’un &quot;clic vers [!UICONTROL AMO ID Instances]&quot; mesure calculée, qui est calculée comme suit :
+Dans [!DNL Analytics], l’une des méthodes les plus simples de validation [!DNL Analytics for Advertising] le suivi permet de comparer les instances aux clics à l’aide d’une mesure calculée &quot;Instances AMO ID à des clics d’Adobe Advertising&quot;, qui est calculée comme suit :
 
 ```
-Clicks to [!UICONTROL AMO ID Instances] = ([!UICONTROL AMO ID Instances] / Adobe Advertising Clicks)
+AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
-[!UICONTROL AMO ID Instances] représente le nombre de fois où [AMO ID](ids.md) sont suivis sur le site. Chaque fois qu’un utilisateur clique sur une publicité, un AMO ID (`s_kwcid`) est ajouté à l’URL de la page d’entrée. Le nombre de [!UICONTROL AMO ID Instances]est donc analogue au nombre de clics et peut être validé par rapport aux clics publicitaires réels. Nous constatons généralement un taux de correspondance de 80 % pour [!DNL Search, Social, & Commerce] et un taux de correspondance de 30 % pour [!DNL DSP] trafic (lorsqu’il est filtré pour inclure uniquement les clics publicitaires) [!UICONTROL AMO ID Instances]). La différence d’attentes entre la recherche et l’affichage peut s’expliquer par le comportement de trafic attendu. La recherche capture l’intention et, en tant que telle, les utilisateurs ont généralement l’intention de cliquer sur les résultats de la recherche à partir de leur requête. Toutefois, les utilisateurs qui voient un affichage ou une publicité vidéo en ligne sont plus susceptibles de cliquer dessus involontairement, puis de rebondir à partir du site ou de quitter la nouvelle fenêtre qui se charge avant le suivi de l’activité de page.
+[!UICONTROL AMO ID Instances] représente le nombre de fois où [AMO ID](ids.md) sont suivis sur le site. Chaque fois qu’un utilisateur clique sur une publicité, un AMO ID (`s_kwcid`) est ajouté à l’URL de la page d’entrée. Le nombre de [!UICONTROL AMO ID Instances]est donc analogue au nombre de clics et peut être validé par rapport aux clics publicitaires réels. Nous constatons généralement un taux de correspondance de 85 % pour [!DNL Search, Social, & Commerce] et un taux de correspondance de 30 % pour [!DNL DSP] trafic (lorsqu’il est filtré pour inclure uniquement les clics publicitaires) [!UICONTROL AMO ID Instances]). La différence d’attentes entre la recherche et l’affichage peut s’expliquer par le comportement de trafic attendu. La recherche capture l’intention et, en tant que telle, les utilisateurs ont généralement l’intention de cliquer sur les résultats de la recherche à partir de leur requête. Toutefois, les utilisateurs qui voient un affichage ou une publicité vidéo en ligne sont plus susceptibles de cliquer dessus involontairement, puis de rebondir à partir du site ou de quitter la nouvelle fenêtre qui se charge avant le suivi de l’activité de page.
 
-Dans les rapports d’Adobe Advertising, vous pouvez comparer de la même manière les clics aux instances à l’aide du[!UICONTROL ef_id_instances]&quot; au lieu de [!UICONTROL AMO ID Instances]:
+Dans les rapports d’Adobe Advertising, vous pouvez comparer de la même manière les instances aux clics à l’aide du[!UICONTROL EF ID Instances]&quot; au lieu de [!UICONTROL AMO ID Instances]:
 
 ```
-Clicks to [EF ID Instances = (ef_id_instances / Clicks)
+EF ID Instances to Adobe Advertising Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 Bien que vous vous attendiez à un taux de correspondance élevé entre l’AMO ID et l’EF ID, ne vous attendez pas à une parité de 100 %, car l’AMO ID et l’EF ID suivent fondamentalement différentes données, et cette différence peut entraîner de légères différences dans le total [!UICONTROL AMO ID Instances] et [!UICONTROL EF ID Instances]. Si le total [!UICONTROL AMO ID Instances] in [!DNL Analytics] différer de [!UICONTROL EF ID Instances] Toutefois, en Adobe Advertising de plus de 1 %, contactez votre équipe de compte d’Adobe pour obtenir de l’aide.
 
 Pour plus d’informations sur l’AMO ID et l’EF ID, voir [ID d’Adobe Advertising utilisés par Analytics](ids.md).
 
-Voici un exemple d’espace de travail permettant d’effectuer le suivi des clics vers des instances.
+<!--  Need to create a new report to show tracking instances to clicks, instead of clicks to instances as shown, and replace this screenshot.
 
-![Exemple d’espace de travail pour le suivi des clics vers des instances](/help/integrations/assets/a4adc-clicks-to-instances-example.png)
+The following is an example of a workspace to track clicks to instances.
+
+![Example of a workspace to track clicks to instances to clicks](/help/integrations/assets/a4adc-clicks-to-instances-example.png)
+-->
+
+### Résolution des problèmes de disparité entre les clics et les instances
+
+Si la variable [!UICONTROL EF ID Instances]-to-[!UICONTROL Adobe Advertising Clicks] Le ratio est inférieur à 85 %, puis vérifiez les éléments suivants :
+
+* Le suivi des clics est-il manquant pour le compte ou à un sous-niveau quelconque, ou avez-vous un suivi des clics en double (par exemple, aux niveaux du compte et de la campagne) ?
+
+  Dans Search, Social et Commerce, [télécharger une feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) pour que le compte vérifie les URL de tracking.
+
+  En outre, dans [!DNL Analytics], vous pouvez voir si l’AMO ID et l’EF IF sont ajoutés de manière cohérente à l’aide d’un &quot;[!DNL AMO ID] to [!DNL EF ID]&quot; mesure calculée, qui est calculée comme suit :
+
+  ```
+  [!DNL AMO ID] to [!DNL EF ID] = ([!UICONTROL AMO ID] / [!DNL EF ID])
+  ```
+
+  Une valeur supérieure à 100 % indique qu’il manque plus d’ID EF que d’AMO ID.
+
+* La page d’entrée présente-t-elle un problème de chargement de sorte que l’AMO ID et l’EF ID ne soient pas capturés ?
+
+* L’URL de la page d’entrée est-elle redirigée de sorte que l’AMO ID et l’EF ID soient perdus ?
+
+* Toutes les landing pages utilisent-elles la suite de rapports configurée ?
+
+>[!NOTE]
+>
+>En théorie, il est possible qu&#39;une instance ait plusieurs clics. Veillez à rechercher les clics sur différents appareils (ordinateurs de bureau, appareils mobiles et tablette, par exemple).
 
 ## Comparaison de jeux de données dans [!DNL Analytics for Advertising] Contre en Adobe Advertising
 
-La variable [AMO ID](ids.md) (paramètre de chaîne de requête s_kwcid) est utilisé pour la création de rapports dans [!DNL Analytics], et la variable [EF ID](ids.md) est utilisé pour la création de rapports dans Adobe Advertising. Comme il s’agit de valeurs distinctes, il est possible qu’une valeur soit corrompue ou non ajoutée à la page d’entrée.
+La variable [AMO ID](ids.md) (paramètre de chaîne de requête s_kwcid) est utilisé pour la création de rapports dans [!DNL Analytics], et la variable [EF ID](ids.md) (paramètre de chaîne de requête ef_id) est utilisé pour la création de rapports dans Adobe Advertising. Comme il s’agit de valeurs distinctes, il est possible qu’une valeur soit corrompue ou non ajoutée à la page d’entrée.
 
 Par exemple, supposons que nous ayons la page d’entrée suivante :
 
@@ -230,7 +259,7 @@ Les clics et les clics publicitaires peuvent varier sensiblement en raison de cl
 
 Les sites chargés sur des périphériques mobiles sont également moins susceptibles de générer des clics publicitaires en raison de largeurs de bande plus faibles ou de la puissance de traitement disponible, ce qui entraîne un chargement plus long des landing pages. Il n’est pas rare que 50 à 70 % des clics ne génèrent pas de clics publicitaires. Dans les environnements mobiles, la différence peut atteindre 90 % en raison de la combinaison d’un navigateur plus lent et de la plus grande probabilité que l’utilisateur clique accidentellement sur la publicité lors du défilement de la page ou de la tentative de fermeture de la publicité.
 
-Les données de clic peuvent également être enregistrées dans des environnements qui ne peuvent pas enregistrer les clics publicitaires avec les mécanismes de suivi actuels (tels que les clics vers ou depuis une application mobile) ou pour lesquels l’annonceur a déployé une seule approche de suivi (par exemple, avec l’approche JavaScript d’affichage publicitaire, les navigateurs qui bloquent les cookies tiers effectuent le suivi des clics, mais pas les clics publicitaires). Adobe recommande vivement de déployer les méthodes de suivi des URL de clics et des affichages publicitaires JavaScript pour optimiser la couverture des clics publicitaires pouvant faire l’objet d’un suivi.
+Les données de clic peuvent également être enregistrées dans des environnements qui ne peuvent pas enregistrer les clics publicitaires avec les mécanismes de suivi actuels (tels que les clics vers ou depuis une application mobile) ou pour lesquels l’annonceur a déployé une seule approche de suivi (par exemple, avec l’approche JavaScript d’affichage publicitaire, les navigateurs qui bloquent les cookies tiers effectuent le suivi des clics, mais pas les clics publicitaires). Adobe recommande de déployer les méthodes de suivi des URL de clics et des affichages publicitaires JavaScript pour une raison essentielle : optimiser la couverture des clics publicitaires pouvant faire l’objet d’un suivi.
 
 ### Utilisation de mesures de trafic Adobe Advertising pour les Dimensions non Adobes Advertising
 
