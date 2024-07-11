@@ -3,23 +3,23 @@ title: Objectifs personnalisés
 description: Découvrez les objectifs personnalisés pour définir vos événements de succès dans des modules optimisés pour le CPA le plus bas ou le ROAS le plus élevé.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: ef732108b248995a6b321e991fa122caaa40e2fe
+source-git-commit: 42fca0c829c708281703a6a1ea59c42dc7ac9f0d
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
 
 # Objectifs personnalisés
 
-Les objectifs personnalisés définissent les événements de succès dont un annonceur a besoin pour atteindre ses objectifs commerciaux. Chaque module qui utilise l’objectif d’optimisation &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; doit inclure un objectif personnalisé pour atteindre l’objectif d’optimisation général. Vous pouvez créer des objectifs personnalisés sous la forme *objectifs* in [!DNL Advertising Search, Social, & Commerce].
+Les objectifs personnalisés définissent les événements de succès dont un annonceur a besoin pour atteindre ses objectifs commerciaux. Chaque module qui utilise l’objectif d’optimisation &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; doit inclure un objectif personnalisé pour atteindre l’objectif d’optimisation général. Vous pouvez créer des objectifs personnalisés sous la forme *objectifs* in [!DNL Advertising Search, Social, & Commerce]. Le nom de chaque objectif pour DSP doit comporter le préfixe &quot;ADSP_&quot;.
 
 <!-- update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-Chaque objectif personnalisé (objectif) comprend une ou plusieurs mesures de conversion et les poids relatifs de ces mesures. Seuls les poids non mobiles sont pris en compte pour DSP objectifs personnalisés. Les mesures de conversion disponibles comprennent toutes les mesures suivies à l’aide du pixel de conversion d’Adobe Advertising et par le biais d’Adobe Analytics.
+Chaque objectif personnalisé (objectif) comprend une ou plusieurs mesures de conversion et les poids relatifs de ces mesures. Les mesures de conversion disponibles comprennent toutes les mesures suivies à l’aide du pixel de conversion d’Adobe Advertising et par le biais d’Adobe Analytics. Seuls les poids non mobiles sont pris en compte pour DSP objectifs personnalisés, mais ils sont utilisés pour tous les types d’annonces.
 
 Supposons, par exemple, que trois mesures de conversion soient pertinentes pour un module spécifique dans l’une de vos campagnes : &quot;Téléchargement du PDF&quot; (20 USD), &quot;Enregistrement par e-mail&quot; (30 USD) et &quot;Confirmation de commande&quot; (40 USD). Si vous souhaitez donner du poids en fonction de la valeur monétaire ponctuelle de l’action du client, les poids relatifs des mesures seront de 1, 1,5 et 2.
 
