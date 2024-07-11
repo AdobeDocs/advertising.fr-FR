@@ -3,7 +3,7 @@ title: Paramètres du module
 description: Reportez-vous à la description des paramètres de package disponibles.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 644847918f6f6dd86dec80ad89128c31a0c0284b
+source-git-commit: 9a7d73a281dba1331f00dd9ff75fafdc057413d0
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Pour les modules avec un vol personnalisé, l’intervalle de budget est toujour
 
 **[!UICONTROL Optimization Goal]:** (Modules avec un rythme au niveau du module uniquement) L’objectif d’optimisation du module. Consultez les descriptions de chaque objectif d’optimisation à l’adresse [Objectifs d’optimisation et utilisation](/help/dsp/optimization/optimization-goals.md).
 
-**[!UICONTROL Custom Goal for Model Learning]:** (Modules avec le[!UICONTROL Highest Return on Ad Spend]&quot; et &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;objectifs d’optimisation uniquement) A [objectif personnalisé](/help/dsp/optimization/custom-goal.md) qui inclut les recettes ou les événements de conversion utilisés pour calculer la mesure CPA ou ROAS. L’objectif personnalisé peut éventuellement inclure d’autres événements d’entonnoir supérieur pondérés (tels que les visites de pages et les ajouts au panier) à utiliser en plus de la mesure CPA ou ROAS pour l’optimisation du package. Pour plus d’informations sur les bonnes pratiques relatives aux objectifs personnalisés et aux campagnes qui les utilisent, voir [Bonnes pratiques pour la création d’un objectif personnalisé](/help/dsp/optimization/custom-goal.md#custom-goal-best-practices) et [Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md).<!-- At some point, all of the objectives will be prefixed with "ADSP " -->
+**[!UICONTROL Custom Goal for Model Learning]:** (Modules avec le[!UICONTROL Highest Return on Ad Spend]&quot; et &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;objectifs d’optimisation uniquement) A [objectif personnalisé](/help/dsp/optimization/custom-goal.md) qui inclut les recettes ou les événements de conversion utilisés pour calculer la mesure CPA ou ROAS. L’objectif personnalisé peut éventuellement inclure d’autres événements d’entonnoir supérieur pondérés (tels que les visites de pages et les ajouts au panier) à utiliser en plus de la mesure CPA ou ROAS pour l’optimisation du package. Pour plus d’informations sur les objectifs personnalisés, y compris les bonnes pratiques de création pour les objectifs personnalisés et les campagnes qui les utilisent, voir &quot;[Objectifs personnalisés](/help/dsp/optimization/custom-goal.md)&quot; et &quot;[Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md).&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Facultatif ; inclut le paramètre[!UICONTROL Highest Return on Ad Spend]&quot; et &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;objectifs d’optimisation uniquement) Indique au modèle d’optimisation de n’apprendre que des conversions basées sur les clics. Dans le cas contraire, le modèle d’optimisation tire les leçons des conversions basées sur les clics et les impressions.
 

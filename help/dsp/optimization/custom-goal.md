@@ -3,9 +3,9 @@ title: Objectifs personnalisés
 description: Découvrez les objectifs personnalisés pour définir vos événements de succès dans des modules optimisés pour le CPA le plus bas ou le ROAS le plus élevé.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: ef732108b248995a6b321e991fa122caaa40e2fe
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,13 @@ Les objectifs personnalisés définissent les événements de succès dont un an
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-Chaque objectif personnalisé comprend une ou plusieurs mesures de conversion et les poids relatifs de ces mesures. Les mesures de conversion disponibles comprennent toutes les mesures suivies à l’aide du pixel de conversion d’Adobe Advertising et par le biais d’Adobe Analytics.
+Chaque objectif personnalisé (objectif) comprend une ou plusieurs mesures de conversion et les poids relatifs de ces mesures. Seuls les poids non mobiles sont pris en compte pour DSP objectifs personnalisés. Les mesures de conversion disponibles comprennent toutes les mesures suivies à l’aide du pixel de conversion d’Adobe Advertising et par le biais d’Adobe Analytics.
 
 Supposons, par exemple, que trois mesures de conversion soient pertinentes pour un module spécifique dans l’une de vos campagnes : &quot;Téléchargement du PDF&quot; (20 USD), &quot;Enregistrement par e-mail&quot; (30 USD) et &quot;Confirmation de commande&quot; (40 USD). Si vous souhaitez donner du poids en fonction de la valeur monétaire ponctuelle de l’action du client, les poids relatifs des mesures seront de 1, 1,5 et 2.
 
 Une fois que [créer un objectif personnalisé ;](#custom-goal-create), vous pouvez [l’affecter à un module](/help/dsp/campaign-management/packages/package-settings.md) pour la création de rapports et l’optimisation algorithmique à l’aide d’Adobe Sensei.
+
+Les recommandations de poids sont générées automatiquement pour les mesures DSP attribuées dans les objectifs et peuvent appliquer toutes les recommandations de poids en un seul clic. Tous les changements de poids apportés aux objectifs dotés du préfixe &quot;ADSP_&quot; sont appliqués algorithmiquement dans DSP dans un délai de deux jours. Pour plus d’informations sur les recommandations relatives au poids, reportez-vous au chapitre du Guide d’optimisation intitulé &quot;Nouveaux objectifs (Beta)&quot;, disponible dans Search, Social et Commerce.
 
 ## Création d’un objectif personnalisé {#custom-goal-create}
 
@@ -49,9 +51,15 @@ Pour créer un objectif personnalisé, le compte DSP doit être associé à un [
 
    1. Dans la barre d’outils, cliquez sur ![Créer](/help/dsp/assets/create-search-ui.png "Créer").
 
-   1. Saisissez les paramètres de l’objectif, y compris les mesures associées et leur poids numérique relatif pour les appareils non mobiles et mobiles, puis enregistrez l’objectif.
+   1. Saisissez les paramètres de l’objectif, y compris les mesures associées et leur poids numérique relatif pour les appareils non mobiles, puis enregistrez l’objectif. Tenez compte des points suivants :
 
-      Au moins une mesure doit avoir le type de mesure *[!UICONTROL Goal]*.
+      * Pour les objectifs utilisés pour les packages Advertising DSP, le nom de l’objectif doit être précédé du préfixe &quot;ADSP_&quot; tel que &quot;ADSP_Inscriptions&quot;. Le préfixe n’est pas sensible à la casse.
+
+      * Inclure uniquement les mesures attribuées à DSP. Toutes les mesures attribuées à Search, Social et Commerce ou à tout autre réseau publicitaire sont ignorées.
+
+      * Au moins une mesure doit avoir le type de mesure *[!UICONTROL Goal]*.
+
+      * DSP utilise les poids non mobiles pour toutes les publicités. Les poids mobiles spécifiés sont ignorés.
 
       >[!NOTE]
       >
