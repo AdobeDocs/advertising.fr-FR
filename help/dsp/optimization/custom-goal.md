@@ -3,9 +3,9 @@ title: Objectifs personnalisés
 description: Découvrez les objectifs personnalisés pour définir vos événements de succès dans des modules optimisés pour le CPA le plus bas ou le ROAS le plus élevé.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: 42fca0c829c708281703a6a1ea59c42dc7ac9f0d
+source-git-commit: 290eea50fe3c52a534ad6ab4fcf6d857b13230aa
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Les exemples suivants montrent comment configurer des objectifs qui ciblent une 
 
 #### Exemple pour une campagne avec le[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;Objectif d’optimisation
 
-Si l’objectif de votre campagne est le chiffre d’affaires ([!UICONTROL Highest Return on Ad Spend (ROAS)]), les recettes provenant de tous les types d’appareils sont également importantes pour vous, puis incluez le[!UICONTROL Revenue]&quot;mesure avec un poids non mobile (pour les conversions à partir d’un appareil non mobile) d’un (1) et un poids mobile (pour les conversions à partir d’un appareil mobile) d’un (1). Sélection du type de mesure *[!UICONTROL Goal]*.
+Si l’objectif de votre campagne est le chiffre d’affaires ([!UICONTROL Highest Return on Ad Spend (ROAS)]), les recettes provenant de tous les types d’appareils sont également importantes pour vous, puis incluez le[!UICONTROL Revenue]&quot;avec un poids non mobile d’un (1) ; le poids mobile est ignoré. Sélection du type de mesure *[!UICONTROL Goal]*.
 
 <!-- update image or delete 
 
@@ -90,13 +90,11 @@ Si l’objectif de votre campagne est le chiffre d’affaires ([!UICONTROL Highe
 
 >[!NOTE]
 >
-> Un poids mobile ou un poids non mobile d’une (1) équivaut à une (1) valeur pour chaque 1 $ de chiffre d’affaires suivi.
->
-> Par exemple, une conversion de 250 $ avec un poids non mobile d’un (1) est signalée comme 250 $ pour les conversions. Si la mesure de conversion se voit attribuer un poids non mobile de 0,5, la conversion de 250 $ d’un appareil non mobile est signalée comme étant de 125 $ en Adobe Advertising (250 $ Conversion * 0,5 [!UICONTROL Non-mobile Weight] = 125 $).
+> Un poids non mobile d’une (1) équivaut à la valeur d’une (1) pour chaque 1 $ de recettes suivi pour les publicités affichées sur n’importe quel appareil. Par exemple, une conversion de 250 $ avec un poids non mobile d’un (1) est signalée comme 250 $ pour les conversions. Si la mesure de conversion se voit attribuer un poids non mobile de 0,5, la conversion de 250 $ est signalée comme étant de 125 $ en Adobe Advertising (Conversion de 250 $ * 0,5). [!UICONTROL Non-mobile Weight] = 125 $).
 
 #### Exemple pour une campagne avec le[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;Objectif d’optimisation
 
-Si l’objectif de votre campagne est le coût par acquisition le plus bas (CPA) et qu’il ne nécessite qu’un seul événement de succès (par exemple &quot;Envoi de demande&quot;), incluez cette mesure et spécifiez le type de mesure comme *[!UICONTROL Goal]*. La bonne pratique consiste à définir le poids non mobile et le poids mobile sur un (1).
+Si l’objectif de votre campagne est le coût par acquisition le plus bas (CPA) et qu’il ne nécessite qu’un seul événement de succès (par exemple &quot;Envoi de demande&quot;), incluez cette mesure et spécifiez le type de mesure comme *[!UICONTROL Goal]*. La bonne pratique consiste à définir le poids non mobile sur un (1) ; le poids mobile est ignoré.
 
 <!-- update image or delete 
 
@@ -106,13 +104,13 @@ Si l’objectif de votre campagne est le coût par acquisition le plus bas (CPA)
 
 >[!NOTE]
 >
-> Un poids mobile ou un poids non mobile d’une (1) équivaut à une (1) valeur pour chaque conversion suivie. Par exemple, si 10 conversions d’envoi de demande sont suivies, 10 conversions d’envoi de demande sont signalées. Toutefois, si la mesure de conversion se voit attribuer un poids non mobile de 0,5, les 10 conversions non mobiles sont signalées comme étant de cinq (5) en Adobe Advertising (10 conversions * 0,5). [!UICONTROL Non-mobile Weight] = 5).
+> Un poids non mobile d’une (1) équivaut à la valeur d’une (1) pour chaque conversion suivie pour les publicités affichées sur n’importe quel appareil. Par exemple, si 10 conversions d’envoi de demande sont suivies, 10 conversions d’envoi de demande sont signalées. Toutefois, si la mesure de conversion se voit attribuer un poids non mobile de 0,5, les 10 conversions sont signalées comme étant de cinq (5) en Adobe Advertising (10 conversions * 0,5). [!UICONTROL Non-mobile Weight] = 5).
 
 ### Objectifs personnalisés avec plusieurs mesures
 
 Il existe deux scénarios dans lesquels vous utiliseriez plusieurs mesures dans un objectif personnalisé :
 
-* L’objectif de votre campagne comporte plusieurs événements de succès. Par exemple, vous annoncez peut-être plusieurs actions sur site (téléchargement de PDF, contact avec nous et inscription par e-mail), et toutes ces actions contribuent à votre objectif de CPA. Si l’objectif comprend les trois mesures distinctes, chacune avec des poids non mobiles et mobiles d’une (1), la variable [!DNL Adobe Sensei] l’algorithme traite chaque mesure et chaque type d’appareil utilisateur avec la même importance. Si les différentes mesures et les différents types d’appareils ont des coûts ou une importance variables, vous ajustez leur poids relatif en conséquence.
+* L’objectif de votre campagne comporte plusieurs événements de succès. Par exemple, vous annoncez peut-être plusieurs actions sur site (téléchargement de PDF, contact avec nous et inscription par e-mail), et toutes ces actions contribuent à votre objectif de CPA. Si l’objectif comprend les trois mesures distinctes, chacune avec un poids non mobile d’un (1), la variable [!DNL Adobe Sensei] l’algorithme traite chaque mesure et chaque type d’appareil utilisateur avec la même importance. Si les différentes mesures ont des coûts ou une importance variables, vous ajustez leur poids relatif en conséquence.
 
 <!-- update image or delete it and adjust the wording above
 
@@ -124,7 +122,7 @@ Il existe deux scénarios dans lesquels vous utiliseriez plusieurs mesures dans 
 
   Lorsque vous ajoutez des mesures de prise en charge à un objectif personnalisé, pondérez-les en fonction de leur importance relative par rapport à l’événement de succès principal et gardez à l’esprit la quantité de points de données. Cela permet à l’algorithme Adobe Sensei d’équilibrer plusieurs mesures et d’optimiser en fonction de votre objectif.
 
-  L’exemple d’objectif suivant comprend trois mesures, chacune avec un poids non mobile différent : envoi de la demande = 1, démarrage de la demande = 0,1 et page d’entrée des annonceurs = 0,01. Cela signifie que chaque conversion d’envoi d’application à partir d’appareils non mobiles a la même valeur pour votre entreprise qu’une moyenne de 10 conversions de démarrage d’application à partir d’appareils non mobiles et de 100 conversions de page d’entrée des annonceurs à partir d’appareils non mobiles.
+  L’exemple d’objectif suivant comprend trois mesures, chacune avec un poids non mobile différent : envoi de la demande = 1, démarrage de la demande = 0,1 et page d’entrée des annonceurs = 0,01. Cela signifie que chaque conversion d’envoi de demande a la même valeur pour votre entreprise qu’une moyenne de 10 conversions de démarrage de demande et 100 conversions de page d’entrée des annonceurs.
 
 <!-- update image or delete it and adjust the wording above
 
