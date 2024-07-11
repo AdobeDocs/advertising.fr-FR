@@ -3,9 +3,9 @@ title: Activer le téléchargement des objectifs vers les réseaux publicitaires
 description: Découvrez comment télécharger des objectifs pour vos portefeuilles hybrides vers [!DNL Google Ads] et [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 39936c6834012432447d3216d8463937996b0017
+source-git-commit: aaad3eb6cd33f4342c46ffb244227a00fbcb4e44
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Téléchargements vers [!DNL Google Ads] surviennent tous les jours à 06h00 dan
 
 ## Méthode de calcul de l’objectif pondéré
 
-L’objectif pondéré transmis au réseau publicitaire est la somme de toutes les valeurs de mesure collectées, à l’exception des conversions suivies par [!DNL Google Ads] ou par [!DNL Microsoft Advertising] balise de suivi d’événement universel (UET).
+L’objectif pondéré transmis au réseau publicitaire est la somme de toutes les valeurs de mesure collectées, à l’exception des conversions suivies par [!DNL Google Ads] ou par [!DNL Microsoft Advertising] balise de suivi d’événement universel (UET). La valeur est calculée en utilisant la méthode d’attribution configurée pour le compte Search, Social et Commerce de l’annonceur.
 
 Supposons, par exemple, que la mesure d’objectif de l’objectif soit Ajouts au panier avec un poids de 25, et que vos mesures d’assistance incluent GGL_Lead et Recettes avec un poids de 1 et Téléchargements avec un poids de 0,5.
 
@@ -70,6 +70,12 @@ Supposons qu’un mot-clé ait entraîné les actions suivantes pour le portefeu
 * 5 GGL_Lead
 
 GGL_Lead n’est pas inclus dans le calcul/chargement, car il s’agit d’une mesure suivie par Google Ads. La valeur objective pondérée est donc calculée comme suit : ((10 x 25) + (500 x 1) + (50 x 0,5)) = 775.
+
+>[!TIP]
+>
+>Vous pouvez afficher les données relatives aux recettes pondérées par Adobe Advertising dans les rapports du réseau publicitaire. Il est recommandé de comparer les recettes pondérées à la valeur [!DNL Google Ads] &quot;Tout conv. (par conv. time)&quot; ou la variable [!DNL Microsoft Advertising] mesure &quot;Toutes les conv. &quot;recettes&quot;, segmenté selon la mesure O_ACS_OBJ*.<!--clarify -->
+
+dans l’éditeur du réseau publicitaire ;
 
 ## Résolution des problèmes liés aux objectifs manquants
 
