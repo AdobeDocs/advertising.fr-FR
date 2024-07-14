@@ -2,9 +2,9 @@
 title: Paramètres du compte Advertiser
 description: Voir la description des paramètres de l’annonceur disponibles.
 role: User, Admin
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 55190d02a2cdf74c39968ccd91abfecc2ce5539d
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -17,41 +17,41 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser Name]:** Nom de l’annonceur.
 
-**[!UICONTROL Category]:** Catégorie dans laquelle l’entreprise de l’annonceur fonctionne. La catégorie est communiquée aux éditeurs lorsque vous enchérissez sur l’inventaire. Veillez à choisir une catégorie qui s&#39;aligne sur vos publicités, sinon les éditeurs peuvent rejeter vos publicités.
+**[!UICONTROL Category]:** catégorie dans laquelle l’entreprise de l’annonceur fonctionne. La catégorie est communiquée aux éditeurs lorsque vous enchérissez sur l’inventaire. Veillez à choisir une catégorie qui s&#39;aligne sur vos publicités, sinon les éditeurs peuvent rejeter vos publicités.
 
 >[!NOTE]
 >
->Si vous sélectionnez *[!UICONTROL Other]*, l’annonceur ne peut pas accéder DSP [!DNL On Demand Inventory].
+>Si vous sélectionnez *[!UICONTROL Other]*, l’annonceur ne peut pas accéder à DSP [!DNL On Demand Inventory].
 
-**[!UICONTROL Advertiser URL]:** Page d’accueil de l’annonceur ou URL du site web principal (en commençant par `http://` ou `https://`).
+**[!UICONTROL Advertiser URL]:** Page d’accueil de l’annonceur ou URL du site web principal (commençant par `http://` ou `https://`).
 
-**[!UICONTROL Share all private exchange feeds into this advertiser]:** (Nouveaux comptes publicitaires uniquement) Rend tous les flux d’exchange privés configurés pour le compte DSP de l’organisation disponibles pour l’annonceur.
+**[!UICONTROL Share all private exchange feeds into this advertiser]:** (Nouveaux comptes d’annonceur uniquement) met tous les flux d’exchange privés configurés pour le compte DSP de l’organisation à la disposition de l’annonceur.
 
 ### [!UICONTROL Adobe IMS IDs]
 
-Les annonceurs qui disposent de produits Adobe Experience Cloud supplémentaires peuvent partager des données sur certains produits à l’aide de l’identifiant unique de l’entreprise pour l’Experience Cloud. Vous pouvez configurer des intégrations de produits spécifiques dans le [!UICONTROL Integrations] .
+Les annonceurs qui disposent de produits Adobe Experience Cloud supplémentaires peuvent partager des données sur certains produits à l’aide de l’identifiant unique de l’entreprise pour l’Experience Cloud. Vous pouvez configurer des intégrations de produits spécifiques dans la section [!UICONTROL Integrations] .
 
-**[!UICONTROL Account IMS org and ID]:** (Publicitaires avec des produits Experience Cloud supplémentaires sous licence via un compte Experience Cloud avec plusieurs annonceurs ; facultatif) Identifiant d’organisation Experience Cloud de l’annonceur.
+**[!UICONTROL Account IMS org and ID]:** (Publicitaires disposant de produits Experience Cloud supplémentaires sous licence via un compte Experience Cloud avec plusieurs annonceurs ; facultatif) Identifiant d’organisation Experience Cloud de l’annonceur.
 
-**[!UICONTROL Advertiser IMS org and ID]:** (Publicitaires disposant de licences directes pour des produits Experience Cloud supplémentaires ; facultatif) Identifiant d’organisation Experience Cloud de l’annonceur.
+**[!UICONTROL Advertiser IMS org and ID]:** (Publicitaires disposant de licences directes pour des produits Experience Cloud supplémentaires ; facultatif) ID d’organisation Experience Cloud de l’annonceur.
 
 ### [!UICONTROL Integrations]
 
-(Facultatif) Produits Experience Cloud supplémentaires liés au compte DSP. Les produits doivent être associés au même ID d’organisation Experience Cloud fourni dans la variable [!UICONTROL Adobe IMS IDs] .
+(Facultatif) Produits Experience Cloud supplémentaires liés au compte DSP. Les produits doivent être associés au même ID d’organisation Experience Cloud fourni dans la section [!UICONTROL Adobe IMS IDs] .
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Publicitaires avec [!DNL Advertising Search, Social, & Commerce] ou qui utilisent des pixels de conversion d’Adobe Advertising) A [!DNL Search, Social, & Commerce] compte avec lequel DSP exchange les données d’attribution.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Publicitaires avec [!DNL Advertising Search, Social, & Commerce] ou qui utilisent des pixels de conversion d’Adobe Advertising) Un compte [!DNL Search, Social, & Commerce] avec lequel DSP exchange des données d’attribution.
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Publicitaires avec Adobe Analytics ; facultatif ; applicable uniquement aux données collectées à l’aide des balises de suivi de conversion d’Adobe Advertising qui incluent une [!DNL EF Redirect] et jeton uniquement) Un ou plusieurs [!DNL Analytics] suites de rapports auxquelles DSP envoie les données qu’elle collecte auprès des éditeurs et des partenaires côté offre. Analytics envoie également les données qu’il collecte du site du client à DSP.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Publicitaires avec Adobe Analytics ; facultatif ; applicable uniquement aux données collectées à l’aide des balises de suivi de conversion d’Adobe Advertising qui incluent un [!DNL EF Redirect] et un jeton uniquement) Une ou plusieurs [!DNL Analytics] suites de rapports auxquelles DSP envoie les données collectées auprès des éditeurs et des partenaires côté offre. Analytics envoie également les données qu’il collecte du site du client à DSP.
 
-Pour que les données s’affichent dans les suites de rapports, le [!DNL Search, Social, & Commerce] le paramètre au niveau de l’annonceur doit être activé. En outre, le [!DNL Analytics] doit être configuré pour recevoir les données d’Adobe Advertising.
+Pour que les données apparaissent dans les suites de rapports, le paramètre au niveau de l’annonceur [!DNL Search, Social, & Commerce] approprié doit être activé. En outre, le compte [!DNL Analytics] de l’annonceur doit être configuré pour recevoir des données d’Adobe Advertising.
 
 >[!WARNING]
 >
 >Si vous supprimez une suite de rapports précédemment liée, DSP n’exchange plus les données avec cette suite. Vous pouvez vous attendre à voir les fluctuations des données.
 
-Pour plus d’informations sur l’intégration à [!DNL Analytics], voir &quot;[Présentation de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
+Pour plus d’informations sur l’intégration à [!DNL Analytics], voir &quot;[Présentation de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)&quot;.
 
-**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Publicitaires avec Adobe Audience Manager ou Adobe Analytics ; facultatif) Une Audience Manager ou [!DNL Analytics] compte à partir duquel DSP extrait les métadonnées de segment, les données de hiérarchie et les données d’audience uniques pour toutes les audiences d’Adobe de l’annonceur. Cela inclut les données pour :
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Annonceurs avec Adobe Audience Manager ou Adobe Analytics ; facultatif) Un compte d’Audience Manager ou [!DNL Analytics] à partir duquel DSP extrait des métadonnées de segment, des données de hiérarchie et des données d’audience uniques pour toutes les audiences d’Adobe de l’annonceur. Cela inclut les données pour :
 
 * Segments d’Audience Manager
 * [!DNL Analytics] segments publiés sur Adobe Experience Cloud
@@ -72,63 +72,103 @@ Vous pouvez éventuellement configurer des cibles par défaut pour les nouveaux 
 
 ### [!UICONTROL Geo-targeting]
 
-**[!UICONTROL Countries]:** Pays par défaut pour le géociblage de chaque emplacement. Les utilisateurs peuvent modifier le pays et configurer un ciblage géographique plus spécifique pour chaque emplacement.
+**[!UICONTROL Countries]:** pays par défaut pour le géociblage de chaque emplacement. Les utilisateurs peuvent modifier le pays et configurer un ciblage géographique plus spécifique pour chaque emplacement.
 
 ### [!UICONTROL Audience Targeting]
 
-**[!UICONTROL Audiences to exclude]:** Les audiences ou segments à supprimer par défaut. Les utilisateurs peuvent modifier les exclusions pour chaque emplacement.
+**[!UICONTROL Audiences to exclude]:** Toutes les audiences ou tous les segments à supprimer par défaut. Les utilisateurs peuvent modifier les exclusions pour chaque emplacement.
 
 ### [!UICONTROL Media Quality]
 
 #### [!UICONTROL Contextual Filtering]
 
-Types de [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], et [!DNL Peer39] filtres contextuels à appliquer. Vous pouvez remplacer les paramètres au niveau de l’annonceur au niveau de l’ [niveau de placement](/help/dsp/campaign-management/placements/placement-settings.md).
+Types de filtres contextuels [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] et [!DNL Peer39] à appliquer. Vous pouvez remplacer les paramètres au niveau de l’annonceur au [niveau d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-context}
 
-**[!UICONTROL Block sites that are]:** (Facultatif) Un ou plusieurs types de contexte d’inventaire à bloquer par défaut. Des frais supplémentaires peuvent s’appliquer.
+**[!UICONTROL Block sites that are]:** (facultatif) Un ou plusieurs types de contexte d’inventaire à bloquer par défaut. Des frais supplémentaires peuvent s’appliquer.
 
 ##### [!UICONTROL Peer 39] {#peer39-context}
 
-**[!UICONTROL Target sites that are]:** (Facultatif) Un ou plusieurs types d’attributs d’inventaire à cibler par défaut. Des frais supplémentaires peuvent s’appliquer.
+**[!UICONTROL Target sites that are]:** (facultatif) Un ou plusieurs types d’attributs d’inventaire à cibler par défaut. Des frais supplémentaires peuvent s’appliquer.
 
 ##### [!UICONTROL ComScore]
 
-**[!UICONTROL Block sites that are]:** (Facultatif) Un ou plusieurs types d’attributs d’inventaire à bloquer par défaut. Des frais supplémentaires peuvent s’appliquer.
+**[!UICONTROL Block sites that are]:** (facultatif) Un ou plusieurs types d’attributs d’inventaire à bloquer par défaut. Des frais supplémentaires peuvent s’appliquer.
 
 ##### [!UICONTROL Integral Ad Science] {#ias-context}
 
-**[!UICONTROL Adult Content]:** (Facultatif) Degré de contenu adulte pour lequel bloquer les publicités par défaut : *[!UICONTROL Do Not Block]* (valeur par défaut), *[!UICONTROL Standard]*, ou *[!UICONTROL Strict]*. Des frais supplémentaires peuvent s’appliquer.
+**[!UICONTROL Adult Content]:** (facultatif) degré de contenu adulte pour lequel bloquer les publicités par défaut : *[!UICONTROL Do Not Block]* (valeur par défaut), *[!UICONTROL Standard]* ou *[!UICONTROL Strict]*. Des frais supplémentaires peuvent s’appliquer.
 
-**[!UICONTROL Alcohol Content]:** (Facultatif) Le degré de contenu d’alcool pour lequel bloquer les publicités par défaut : *[!UICONTROL Do Not Block]* (valeur par défaut), *[!UICONTROL Standard]*, ou *[!UICONTROL Strict]*. Des frais supplémentaires peuvent s’appliquer.
+**[!UICONTROL Alcohol Content]:** (Facultatif) Le degré de contenu d’alcool pour lequel bloquer les publicités par défaut : *[!UICONTROL Do Not Block]* (valeur par défaut), *[!UICONTROL Standard]* ou *[!UICONTROL Strict]*. Des frais supplémentaires peuvent s’appliquer.
 
 #### [!UICONTROL Pre-Bid Fraud Blocking]
 
-Types de sites à bloquer en fonction du trafic frauduleux et des activités suspectes mesurées par [!DNL DoubleVerify], [!DNL Integral Ad Science], et [!DNL Peer39]. Vous pouvez remplacer les paramètres au niveau de l’annonceur au niveau de l’ [niveau de placement](/help/dsp/campaign-management/placements/placement-settings.md).
+Types de sites à bloquer en fonction du trafic frauduleux et des activités suspectes mesurées par [!DNL DoubleVerify], [!DNL Integral Ad Science] et [!DNL Peer39]. Vous pouvez remplacer les paramètres au niveau de l’annonceur au [niveau d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-fraud}
 
 **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** Par défaut, bloque tout le trafic non valide à 100 %, y compris le trafic sur les appareils détournés, pour les nouveaux emplacements. Des frais supplémentaires peuvent s’appliquer.
 
-**[!UICONTROL Also block sites with]:** (Facultatif) Un niveau supplémentaire de fraude et de trafic non valide qui provoque DSP blocage des publicités par défaut :  *[!UICONTROL None]* (valeur par défaut, qui ne bloque pas le trafic supplémentaire), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]*, ou *[!UICONTROL >25% Average Fraud/IVT levels]*. Des frais supplémentaires peuvent s’appliquer.
+**[!UICONTROL Also block sites with]:** (Facultatif) Un niveau supplémentaire de fraude et de trafic non valide qui provoque DSP blocage des publicités par défaut : *[!UICONTROL None]* (valeur par défaut, qui ne bloque pas le trafic supplémentaire), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* ou *[!UICONTROL >25% Average Fraud/IVT levels]*. Des frais supplémentaires peuvent s’appliquer.
 
 ##### [!UICONTROL Peer 39] {#peer-39-fraud}
 
-**[!UICONTROL Block sites that are]:** (Facultatif) Un ou plusieurs types de fraude qui DSP bloquer les publicités par défaut : *[!UICONTROL Fraud]* (qui bloque tous les sites escroqués), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*, et/ou *[!UICONTROL Fraud: Zero Ads]*. Des frais supplémentaires peuvent s’appliquer.
+**[!UICONTROL Block sites that are]:** (Facultatif) Un ou plusieurs types de fraude qui DSP bloquer les publicités par défaut : *[!UICONTROL Fraud]* (qui bloque tous les sites présentant une fraude), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]* et/ou *[!UICONTROL Fraud: Zero Ads]*. Des frais supplémentaires peuvent s’appliquer.
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 
-**[!UICONTROL Block sites that are]:** (Facultatif) Un type d’activité de site web ou d’application suspecte qui entraîne DSP bloquer les publicités par défaut : *[!UICONTROL None]* (la valeur par défaut, qui ne bloque pas les publicités basées sur des activités suspectes), *[!UICONTROL Suspicious Activity - High Risk]*, ou *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Des frais supplémentaires peuvent s’appliquer.
+**[!UICONTROL Block sites that are]:** (Facultatif) Type d’activité de site Web ou d’application suspecte qui entraîne DSP bloquer les publicités par défaut : *[!UICONTROL None]* (valeur par défaut, qui ne bloque pas les publicités en fonction d’activités suspectes), *[!UICONTROL Suspicious Activity - High Risk]* ou *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Des frais supplémentaires peuvent s’appliquer.
+
+#### [!UICONTROL Pre-Bid Viewability]
+
+Des filtres facultatifs de visibilité avant l’offre par [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) et [!DNL Integral Ad Science] à appliquer aux emplacements. Les valeurs par défaut au niveau de l’annonceur sont sélectionnées pour les nouveaux emplacements. Vous pouvez remplacer les paramètres au niveau de l’annonceur au [niveau d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md).
+
+>[!NOTE]
+>
+>[!DNL Oracle] abandonnera son activité publicitaire d’ici le 30 septembre 2024, y compris tous les services de [!DNL MOAT].
+
+##### [!UICONTROL DoubleVerify] {#doubleverify-viewability}
+
+###### Vidéo
+
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. Avec cette option, sélectionnez le critère.
+
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Avec cette option, sélectionnez le critère.
+
+** **[!UICONTROL Include URL's whose average player size composition is]**. Avec cette option, sélectionnez le critère.
+
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+
+###### Affichage
+
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Avec cette option, sélectionnez le critère.
+
+* **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
+
+* **[!UICONTROL Include Apps and URL's whose average entire creative (100% of pixels) viewable duration is]**. Avec cette option, sélectionnez le critère.
+
+* **[!UICONTROL Impressions with Insufficient BXD Performance Data]**
+
+##### [!UICONTROL Integral Ad Science] {#ias-viewability}
+
+Un filtre **[!UICONTROL Video Viewability Targets]** facultatif et un filtre **[!UICONTROL Display Viewability Targets]** facultatif. Des frais supplémentaires peuvent s’appliquer.
+
+##### [!UICONTROL Moat] {#moat-viewability}
+
+Un filtre **[!UICONTROL Video Viewability Standard]** facultatif et un filtre **[!UICONTROL Display Viewability Standard]** facultatif. Des frais supplémentaires peuvent s’appliquer.
 
 #### [!UICONTROL Ads.text]
 
-**[!UICONTROL Ads.txt Filtering]:** Par défaut, quel niveau de [[!DNL Ads.txt] filtrage pré-enchère](https://iabtechlab.com/ads-txt-about/) à utiliser en exploitant les [!DNL Authorized Digital Sellers] list :
-* *[!UICONTROL Opt out of ads.txt (default)]*: pour acheter un stock à tous les vendeurs.
-* *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: pour donner la priorité à l’achat du stock auprès des revendeurs directs et des revendeurs autorisés d’un domaine.
-* *[!UICONTROL Ads.txt sellers only]*: pour acheter un stock uniquement auprès des revendeurs directs et des revendeurs autorisés d’un domaine.
-* *[!UICONTROL Ads.txt sellers only]*: pour acheter un inventaire uniquement auprès des vendeurs directs autorisés d’un domaine.
+**[!UICONTROL Ads.txt Filtering]:** Par défaut, quel niveau de [[!DNL Ads.txt] filtrage avant offre](https://iabtechlab.com/ads-txt-about/) à utiliser en exploitant la liste [!DNL Authorized Digital Sellers] de chaque éditeur :
+* *[!UICONTROL Opt out of ads.txt (default)]* : pour acheter un stock à tous les vendeurs.
+* *[!UICONTROL Ads.txt sellers + sites without ads.txt]* : pour donner la priorité à l’achat de l’inventaire auprès des revendeurs directs autorisés d’un domaine.
+* *[!UICONTROL Ads.txt sellers only]* : pour acheter des stocks uniquement auprès des revendeurs directs et des revendeurs autorisés d’un domaine.
+* *[!UICONTROL Ads.txt sellers only]* : pour acheter un inventaire uniquement auprès des vendeurs directs autorisés d’un domaine.
 
-Vous pouvez remplacer le paramètre au niveau de l’annonceur à l’adresse [niveau de placement](/help/dsp/campaign-management/placements/placement-settings.md).
+Vous pouvez remplacer le paramètre au niveau de l’annonceur au [niveau d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md).
 
 #### [!UICONTROL Safe Site Block]
 
@@ -136,14 +176,14 @@ Vous pouvez remplacer le paramètre au niveau de l’annonceur à l’adresse [n
 
 #### [!UICONTROL DoubleVerify Authentic Brand Safety]
 
-**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] clients uniquement ; facultatif) Identifiant du segment de sécurité de la marque associé à la variable [!DNL DoubleVerify] compte .
+**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] clients uniquement ; facultatif) ID de segment de sécurité de la marque associé au compte [!DNL DoubleVerify] de l’organisation.
 
-**[!UICONTROL Enable Authentic Brand Safety]:** (Facultatif) Par défaut, la fonction active [!DNL DoubleVerify] Authentification de sécurité des marques, qui bloque les impressions après l’offre à l’aide des règles de sécurité de marque personnalisées configurées pour l’identifiant de segment spécifié. DSP facture votre compte pour l’utilisation de l’identifiant de segment.
+**[!UICONTROL Enable Authentic Brand Safety]:** (Facultatif) Permet par défaut d’activer l’ [!DNL DoubleVerify] Authdential Brand Safety , qui bloque les impressions après l’enchère à l’aide des règles de sécurité de marque personnalisées configurées pour l’identifiant de segment spécifié. DSP facture votre compte pour l’utilisation de l’identifiant de segment.
 
 Vous pouvez remplacer le paramètre au niveau de l’annonceur au niveau de l’emplacement.
 
 >[!MORELIKETHIS]
 >
->* [Création d’un compte Advertiser](/help/dsp/admin/advertiser-create.md)
+>* [Créer un compte Advertiser](/help/dsp/admin/advertiser-create.md)
 
 <!-- >* [View the Advertiser List for the Account](/help/dsp/admin/advertiser-view.md) -->
