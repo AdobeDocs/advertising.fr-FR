@@ -1,25 +1,25 @@
 ---
-title: Fournisseurs de données tiers disponibles dans les DSP de publicité
+title: Fournisseurs de données tiers disponibles dans Advertising DSP
 description: Consultez la liste de tous les fournisseurs de données tiers disponibles.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 95da7e35150a8f6e55e33539e04804c1f2ac4fb4
+source-git-commit: 8921023b03865e73f71f49d320e092070035ecce
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
 
 <!-- feature: audiences -->
 
-# Fournisseurs de données tiers disponibles dans les DSP de publicité
+# Fournisseurs de données tiers disponibles dans Advertising DSP
 
 Les catégories de données et les segments pour les fournisseurs de données tiers suivants sont disponibles en tant que cibles d’emplacement dans DSP. Ces segments sont disponibles pour les audiences principalement américaines.
 
 Les frais d’utilisation de chaque segment sont affichés en regard du nom du segment dans les paramètres d’emplacement et les paramètres d’audience enregistrés.
 
 * [!DNL Adsquare]
-* [!DNL Audiences by Oracle (BlueKai)]
+* [!DNL Audiences by Oracle (BlueKai)] (à l’expiration le 30 septembre 2024)
 * [!DNL digitalAudience]
 * [!DNL DLX Mobile]
 * [!DNL eXelate] ([!DNL Nielsen])
@@ -37,7 +37,6 @@ Les frais d’utilisation de chaque segment sont affichés en regard du nom du s
 * [!DNL TailTarget]
 * [!DNL Tapfwd]
 * [!DNL TruSignal]
-* [!DNL TubeMogul Performance Audiences]
 * [!DNL Weborama]
 * [!DNL Zeotap]
 
@@ -45,6 +44,6 @@ Pour plus d’informations sur l’importation de segments tiers personnalisés 
 
 >[!MORELIKETHIS]
 >
->* [Gestion de l’audience](audience-about.md)
+>* [À propos de la gestion de l’audience](audience-about.md)
 >* [Création d’une audience réutilisable](reusable-audience-create.md)
 >* [Paramètres d’audience](audience-settings.md)
