@@ -3,16 +3,16 @@ title: Stratégie de configuration des publicités Adobe Advertising
 description: Consultez la politique sur les exigences publicitaires.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 1136589913b2648dd33fa2f6aae6d1aa13f94289
+source-git-commit: 703031baac908e2024d877f031ff164370528383
 workflow-type: tm+mt
-source-wordcount: '2190'
+source-wordcount: '2191'
 ht-degree: 0%
 
 ---
 
 # Stratégie de configuration des publicités Adobe Advertising
 
-*Dernière mise à jour : 17 juillet 2024<!-- (except for formatting changes unrelated to content)-->*
+*Dernière mise à jour de la stratégie : 17 juillet 2024<!-- (except for formatting changes unrelated to content)-->*
 
 *Pour la recherche par Adobe Advertising DSP et par Adobe Advertising, Social et Commerce*
 
