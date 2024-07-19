@@ -1,11 +1,11 @@
 ---
 title: Suppression des feuilles d’envoi groupé et des fichiers d’erreur chargés
 description: Découvrez comment supprimer les fichiers de feuille d’envoi groupé et les fichiers d’erreur.
-exl-id: d4769ae4-f39c-4d33-b8c7-66e97e63a56f
+exl-id: a4cdceb4-6013-46b6-95bc-5536e45e34d2
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,6 @@ Vous pouvez supprimer manuellement les fichiers de feuille d’envoi groupé, le
 
 >[!MORELIKETHIS]
 >
->* [A propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées](bulksheet-about.md)
->* [Arrêt d’une tâche de feuille d’envoi groupé en cours](bulksheet-stop-job.md)
->* [Exportation d’un fichier de feuille d’envoi groupé généré ou transféré](bulksheet-export.md)
+>* [À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées](bulksheet-about.md)
+>* [Arrêter une tâche de feuille d’envoi groupé en cours](bulksheet-stop-job.md)
+>* [Exporter un fichier de feuille d’envoi groupé généré ou téléchargé](bulksheet-export.md)

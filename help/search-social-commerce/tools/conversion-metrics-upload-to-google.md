@@ -1,6 +1,6 @@
 ---
-title: Chargement des mesures de conversion dans [!DNL Google Ads]
-description: Découvrez comment télécharger des mesures de conversion suivies par Search, Social et Commerce vers [!DNL Google Ads].
+title: Chargement des mesures de conversion vers  [!DNL Google Ads]
+description: Découvrez comment charger des mesures de conversion de suivi de recherche, de Social et de Commerce vers  [!DNL Google Ads].
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
 source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# Chargement des mesures de conversion dans [!DNL Google Ads]
+# Chargement des mesures de conversion vers [!DNL Google Ads]
 
-*Annonceurs avec [!DNL Google Ads] Comptes uniquement*
+*Annonceurs avec [!DNL Google Ads] comptes uniquement*
 
-Search, Social et Commerce peuvent éventuellement effectuer un chargement vers [!DNL Google Ads] toutes les mesures de conversion suivies pour [!DNL Google Ads] des campagnes qui utilisent le service de suivi de conversion d’Adobe Advertising. Cette option ne rend pas les conversions disponibles pour l’optimisation hybride. Si vous souhaitez utiliser vos conversions Adobe pour l’optimisation hybride, voir &quot;[Activer le téléchargement des objectifs vers les réseaux publicitaires](objective-upload-to-networks.md).&quot;
+Search, Social et Commerce peuvent éventuellement charger vers [!DNL Google Ads] toutes les mesures de conversion suivies pour les campagnes [!DNL Google Ads] qui utilisent le service de suivi de conversion d’Adobe Advertising. Cette option ne rend pas les conversions disponibles pour l’optimisation hybride. Si vous souhaitez utiliser vos conversions d’Adobe pour une optimisation hybride, voir &quot;[Activer le téléchargement d’objectifs vers les réseaux publicitaires](objective-upload-to-networks.md)&quot;.
 
-Les téléchargements quotidiens incluent le suivi `gclid` , la valeur de conversion définie à l’aide du modèle d’attribution au niveau de l’annonceur et l’horodatage. Si le modèle d’attribution est mis à jour, le téléchargement suivant utilise le nouveau modèle, mais les données antérieures ne sont pas mises à jour pour utiliser le nouveau modèle.
+Les téléchargements quotidiens incluent la valeur `gclid` suivie, la valeur de conversion définie à l’aide du modèle d’attribution au niveau de l’annonceur et l’horodatage. Si le modèle d’attribution est mis à jour, le téléchargement suivant utilise le nouveau modèle, mais les données antérieures ne sont pas mises à jour pour utiliser le nouveau modèle.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Les téléchargements quotidiens incluent le suivi `gclid` , la valeur de conver
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
-1. (Si les conversions sont suivies au niveau du compte de gestionnaire) [Ajout des informations d’identification de votre compte de gestionnaire](/help/search-social-commerce/admin/manager-accounts.md) at **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+1. (Si vos conversions sont suivies au niveau du compte du gestionnaire) [Ajoutez des informations d’identification pour votre compte du gestionnaire](/help/search-social-commerce/admin/manager-accounts.md) à l’adresse **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
 
 >[!MORELIKETHIS]
 >

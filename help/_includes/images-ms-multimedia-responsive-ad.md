@@ -12,7 +12,7 @@ ht-degree: 0%
 Pour télécharger des images :
 
 1. Pour chaque image :
-   1. Cliquez sur **[!UICONTROL +]** et sélectionnez une image sur votre périphérique ou réseau.
+   1. Cliquez sur **[!UICONTROL +]** et sélectionnez une image sur votre appareil ou réseau.
    1. Sélectionnez les proportions.
    1. Faites glisser et positionnez la zone de recadrage selon les besoins pour sélectionner la partie visible de l’image, puis cliquez sur **[!UICONTROL Proceed]**.
-1. Lorsque vous avez terminé de spécifier des images, cliquez sur **[!UICONTROL Upload]**.
+1. Lorsque vous avez terminé de spécifier les images, cliquez sur **[!UICONTROL Upload]**.

@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Advertising] paramètres d’annonces de recherche dynamique étendus'
-description: Référencez les paramètres pour [!DNL Microsoft Advertising] publicités de recherche dynamique étendues.
+title: '[!DNL Microsoft Advertising] Paramètres d’annonce de recherche dynamique étendue'
+description: Référencez les paramètres pour les  [!DNL Microsoft Advertising] annonces de recherche dynamique étendues.
 exl-id: 232a57fc-2823-4d82-aa02-3e670430979f
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -16,13 +16,13 @@ Les eDSA (Dynamic Search Ads) étendues sont disponibles uniquement dans les gro
 
 ## [!UICONTROL Expanded Dynamic Search Ad Details]
 
-**[!UICONTROL Description Line 1]:** Corps de la publicité. La longueur maximale est de 90 caractères sur un octet ou de 45 caractères sur deux octets.
+**[!UICONTROL Description Line 1]:** corps de la publicité. La longueur maximale est de 90 caractères sur un octet ou de 45 caractères sur deux octets.
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 
 {{$include /help/_includes/display-path1-2.md}}
 
-**[!UICONTROL Description Line 2]:** (Facultatif) Seconde ligne pour la publicité. La longueur maximale est de 90 caractères sur un octet ou de 45 caractères sur deux octets.
+**[!UICONTROL Description Line 2]:** (facultatif) deuxième ligne pour la publicité. La longueur maximale est de 90 caractères sur un octet ou de 45 caractères sur deux octets.
 
 <!-- **[!UICONTROL Status]:** -->
 
@@ -37,8 +37,8 @@ Les eDSA (Dynamic Search Ads) étendues sont disponibles uniquement dans les gro
 >[!MORELIKETHIS]
 >
 >* [A propos des publicités](ad-about.md)
->* [Gestion des publicités](ad-manage.md)
->* [[!DNL Microsoft Advertising] paramètres de publicité multimédia](ad-settings-microsoft-multimedia.md)
+>* [Gérer les publicités](ad-manage.md)
+>* [[!DNL Microsoft Advertising]  Paramètres de publicité multimédia](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft Advertising] paramètres de publicité de produit](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising] paramètres de publicité réactive (audience)](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft Advertising] paramètres de publicité de recherche réactive](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] Paramètres de publicité réactive (audience)](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising]  Paramètres de publicité de recherche réactive ](ad-settings-microsoft-rsa.md)

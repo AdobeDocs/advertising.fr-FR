@@ -18,17 +18,17 @@ Vous pouvez arrêter de partager une transaction avec des comptes afin de suppri
 
 >[!NOTE]
 >
-> Vous pouvez également [modifier les publicitaires individuels ayant accès au compte ;](deal-id-edit-advertisers.md).
+> Vous pouvez également [modifier les annonceurs individuels ayant accès au compte](deal-id-edit-advertisers.md).
 
 ## Partage d’un ID de transaction avec des comptes
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. Sur la ligne de la transaction, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Share]**.
+1. Dans la ligne de la transaction, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
 1. Pour chaque compte à partager :
 
-   1. Saisissez le **[!UICONTROL Email Address]** pour le compte ayant accès à l’opération.
+   1. Saisissez le **[!UICONTROL Email Address]** du compte ayant accès à l’opération.
 
    1. Cliquez sur **[!UICONTROL Share]**.
 
@@ -36,15 +36,14 @@ Vous pouvez arrêter de partager une transaction avec des comptes afin de suppri
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. Sur la ligne de la transaction, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Share]**.
+1. Dans la ligne de la transaction, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
-1. En regard de [!UICONTROL Account Email] value, click **[!UICONTROL Unshare].**
+1. En regard de la valeur [!UICONTROL Account Email], cliquez sur **[!UICONTROL Unshare].**
 
 1. Cliquez sur **[!UICONTROL Cancel]** pour fermer la fenêtre.
 
 >[!MORELIKETHIS]
 >
->* [À propos du stock privé](private-inventory-about.md)
+>* [À propos de l’inventaire privé](private-inventory-about.md)
 >* [Modification des annonceurs ayant accès à un ID de transaction](/help/dsp/inventory/deal-id-edit-advertisers.md)
 >* [Paramètres d’ID de transaction manuelle](deal-id-settings.md)
-

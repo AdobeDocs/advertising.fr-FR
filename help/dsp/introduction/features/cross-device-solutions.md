@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Solutions multi-appareils
 
-Intégration de la DSP Advertising à [!DNL LiveRamp] vous permet d’étendre votre audience à tous les appareils connus d’une personne, et pas seulement aux appareils suivis par votre marque. L’intégration fournit également une mesure de limitation et d’attribution des fréquences sur tous les appareils.
+L’intégration d’Advertising DSP avec [!DNL LiveRamp] vous permet d’étendre votre audience à tous les appareils connus d’une personne, et pas seulement aux appareils dont votre marque a fait le suivi. L’intégration fournit également une mesure de limitation et d’attribution des fréquences sur tous les appareils.
 
 Lorsque vous utilisez un graphique d’appareil basé sur les personnes pris en charge, vous pouvez :
 
@@ -20,7 +20,7 @@ Lorsque vous utilisez un graphique d’appareil basé sur les personnes pris en 
 * Équilibrer l’exposition en comprenant et en plafonnant la fréquence entre les individus.
 * Stratégies de test qui exposent ou convertissent des audiences sur plusieurs canaux ou appareils.
 
-## Avantages de la variable [!DNL LiveRamp] Device Graph
+## Avantages du graphique de périphérique [!DNL LiveRamp]
 
 * Fournit un pool de données déterministes, y compris les données client hors ligne.
 
@@ -30,7 +30,7 @@ Lorsque vous utilisez un graphique d’appareil basé sur les personnes pris en 
 
 * Est gratuit pour le plafonnement des fréquences et la mesure d’attribution
 
-* Le prix de l’impression étendue (impressions diffusées uniquement en utilisant la variable [!DNL LiveRamp] Graphique d’appareil plutôt que sur les appareils trouvés dans les segments d’audience ciblés)
+* Prix à 0,35 CPM pour les impressions étendues (impressions diffusées uniquement à l’aide du graphique d’appareil [!DNL LiveRamp] plutôt que sur les appareils trouvés dans les segments d’audience ciblés)
 
   Le taux est répercuté sur votre carte de taux de compte.
 
@@ -40,13 +40,13 @@ La gestion des fréquences basée sur les personnes vous permet de spécifier de
 
 ### Activation de la gestion des fréquences basée sur les personnes
 
-* **Campagnes :** Lorsque vous créez une campagne, vous pouvez spécifier une [!UICONTROL Cross-Device Level] . Activez &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People],&quot; et sélectionnez une représentation graphique des appareils. Le graphique d’appareil spécifié est utilisé pour le ciblage entre appareils au niveau de l’emplacement et pour la gestion des fréquences basée sur les personnes au niveau de la campagne, du package et de l’emplacement. Les limites de fréquence s’appliquent à tous les périphériques connus d’une personne.
+* **Campagnes :** Lorsque vous créez une campagne, vous pouvez spécifier un paramètre [!UICONTROL Cross-Device Level]. Activez &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]&quot; et sélectionnez une représentation graphique des appareils. Le graphique d’appareil spécifié est utilisé pour le ciblage entre appareils au niveau de l’emplacement et pour la gestion des fréquences basée sur les personnes au niveau de la campagne, du package et de l’emplacement. Les limites de fréquence s’appliquent à tous les périphériques connus d’une personne.
 
 Pour plus d’informations, voir [Paramètres de campagne](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-Une fois une campagne enregistrée, vous ne pouvez pas la modifier. [!UICONTROL Cross Device Level] .
+Une fois une campagne enregistrée, vous ne pouvez pas modifier son paramètre [!UICONTROL Cross Device Level].
 
-* **Packages :**  Vous pouvez éventuellement définir des limites de fréquence supplémentaires au niveau du package. DSP respecte la limite de fréquence la plus stricte de la hiérarchie de l&#39;opération.
+* **Packages :** Vous pouvez éventuellement définir des limites de fréquence supplémentaires au niveau du package. DSP respecte la limite de fréquence la plus stricte de la hiérarchie de l&#39;opération.
 
 * **Emplacements :** Vous pouvez éventuellement définir des limites de fréquence supplémentaires au niveau de l’emplacement. DSP respecte la limite de fréquence la plus stricte de la hiérarchie de l&#39;opération.
 
@@ -56,29 +56,29 @@ Le ciblage basé sur les personnes vous permet de trouver des clients sur les or
 
 ### Activation du ciblage basé sur les personnes
 
-* **Campagnes :** Lorsque vous créez une campagne, vous pouvez spécifier une [!UICONTROL Cross-Device Level] . Activez &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People],&quot; et sélectionnez une représentation graphique des appareils. Le graphique d’appareil spécifié est utilisé pour le ciblage entre appareils au niveau de l’emplacement et pour la gestion des fréquences basée sur les personnes.
+* **Campagnes :** Lorsque vous créez une campagne, vous pouvez spécifier un paramètre [!UICONTROL Cross-Device Level]. Activez &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]&quot; et sélectionnez une représentation graphique des appareils. Le graphique d’appareil spécifié est utilisé pour le ciblage entre appareils au niveau de l’emplacement et pour la gestion des fréquences basée sur les personnes.
 
 Pour plus d’informations, voir [Paramètres de campagne](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-* **Emplacements :** Lorsque vous sélectionnez des cibles d’audience pour un emplacement dans une campagne avec une représentation graphique spécifique des appareils, une [!UICONTROL Cross-Device Targeting] permet d’étendre le ciblage sur tous les appareils connus d’une personne (selon la représentation graphique des appareils spécifiée dans les paramètres de campagne), y compris sur les appareils qui ne figurent pas dans les segments spécifiés.
+* **Emplacements :** Lorsque vous sélectionnez des cibles d’audience pour un emplacement dans une campagne avec une représentation graphique des appareils spécifiée, une option [!UICONTROL Cross-Device Targeting] vous permet d’étendre le ciblage sur tous les appareils connus d’une personne (selon la représentation graphique des appareils spécifiée dans les paramètres de campagne), même sur les appareils qui ne figurent pas dans les segments spécifiés.
 
 ### Configuration des rapports pour le ciblage basé sur les personnes
 
 Vous pouvez inclure les mesures suivantes dans les rapports personnalisés :
 
-* **Impressions étendues :** (Dans la variable [!UICONTROL Build Your Report] section sous [!UICONTROL Metrics] > [!UICONTROL Std. Metrics]) Le volume d’impressions incrémentielles diffusées en utilisant une représentation graphique des appareils (qui est introuvable dans les segments d’audience d’origine). Cette mesure est également utilisée pour calculer les frais applicables associés à l’utilisation d’une représentation graphique des appareils tiers.
+* **Impressions étendues :** (dans la section [!UICONTROL Build Your Report] sous [!UICONTROL Metrics] > [!UICONTROL Std. Metrics]) Volume d’impressions incrémentielles diffusées en utilisant une représentation graphique des appareils (et introuvables dans les segments d’audience d’origine). Cette mesure est également utilisée pour calculer les frais applicables associés à l’utilisation d’une représentation graphique des appareils tiers.
 
-  Pour déterminer le coût de vos impressions étendues au cours d’une période, exécutez un rapport personnalisé qui comprend la variable [!UICONTROL Extended Impressions] puis multipliez le nombre total d’impressions étendues par 0,0035 $ (0,35/1000 impressions).
+  Pour déterminer le coût de vos impressions étendues au cours d’une période, exécutez un rapport personnalisé qui inclut la colonne [!UICONTROL Extended Impressions], puis multipliez le nombre total d’impressions étendues par 0,0035 $ (impressions de 0,35/1000 $).
 
-  Le coût agrégé est également inclus dans la variable [!UICONTROL Billable Other Net Spend] colonne (sous [!UICONTROL Metrics] > [!UICONTROL Spend]), bien que cette mesure inclut également d’autres frais de campagne que vous avez peut-être ajoutés.
+  Le coût agrégé est également inclus dans la colonne [!UICONTROL Billable Other Net Spend] (sous [!UICONTROL Metrics] > [!UICONTROL Spend]), bien que cette mesure inclut également d’autres frais de campagne que vous avez peut-être ajoutés.
 
-* **Device Graph :** (Dans la variable [!UICONTROL Build Your Report] section sous [!UICONTROL Dimensions] > [!UICONTROL Campaign]) Graphique d’appareil sélectionné pour une campagne, un package ou un emplacement spécifique.
+* **Graphique d’appareil :** (dans la section [!UICONTROL Build Your Report] sous [!UICONTROL Dimensions] > [!UICONTROL Campaign]) Graphique d’appareil sélectionné pour une campagne, un package ou un emplacement spécifique.
 
 ## Mesure d’attribution basée sur les personnes
 
 *Annonceurs avec suivi des conversions par Adobe Advertising uniquement*
 
-Avec l’attribution basée sur les personnes, vous pouvez attribuer des conversions qui ont eu lieu sur un appareil différent de celui sur lequel l’exposition au média s’est produite. La mesure d’attribution basée sur les personnes est disponible dans DSP, [!DNL Adobe Advertising Creative], et [!DNL Adobe Advertising Search, Social, & Commerce] pour les annonceurs qui ont implémenté des pixels de conversion d’Adobe Advertising sur leurs sites.
+Avec l’attribution basée sur les personnes, vous pouvez attribuer des conversions qui ont eu lieu sur un appareil différent de celui sur lequel l’exposition au média s’est produite. La mesure d’attribution basée sur les personnes est disponible sur DSP, [!DNL Adobe Advertising Creative] et [!DNL Adobe Advertising Search, Social, & Commerce] pour les annonceurs qui ont implémenté des pixels de conversion d’Adobe Advertising sur leurs sites.
 
 ### Activation de la mesure d’attribution basée sur les personnes
 
@@ -88,17 +88,17 @@ Si vous souhaitez activer la mesure d’attribution entre appareils, contactez v
 
 #### Paramètres du rapport de conversion
 
-Lorsqu’un graphique d’appareil est activé pour la mesure d’attribution, la variable [!UICONTROL Conversion] Le rapport comprend un [!UICONTROL Cross-Device Breakout] qui vous permet d’inclure jusqu’à trois colonnes distinctes pour chaque mesure de conversion, notamment :
+Lorsqu’un graphique d’appareil est activé pour la mesure d’attribution, le rapport [!UICONTROL Conversion] comprend un paramètre [!UICONTROL Cross-Device Breakout] qui vous permet d’inclure jusqu’à trois colonnes distinctes pour chaque mesure de conversion, notamment :
 
-* &lt;*Conversion*>[!UICONTROL (tp)]: inclut le nombre total de conversions (nombre total de personnes), qui inclut à la fois les conversions sur les mêmes appareils et les conversions sur plusieurs appareils (le cas échéant). Dans le rapport, &quot;[!UICONTROL (tp)]&quot; est ajouté au nom de la mesure de conversion, au type de règle et aux types de conversion dans le chemin de conversion (par exemple, &quot;Réponses(le)(tl)(tp)).
+* &lt;*Conversion*>[!UICONTROL (tp)] : inclut le nombre total de conversions (nombre total de personnes), qui inclut les conversions sur le même appareil et les conversions sur plusieurs appareils (le cas échéant). Dans le rapport, &quot;[!UICONTROL (tp)]&quot; est ajouté au nom de la mesure de conversion, au type de règle et aux types de conversion dans le chemin de conversion (par exemple, &quot;Réponses(le)(tl)(tp)).
 
-* &lt;*Conversion*>[!UICONTROL (sd)]: (facultatif) comprend uniquement les conversions pour lesquelles un seul appareil a été suivi dans le chemin de conversion. Dans le rapport, &quot;[!UICONTROL (sd)]&quot; est ajouté au nom de la mesure de conversion, au type de règle et aux types de conversion dans le chemin de conversion (par exemple, &quot;Réponses(le)(tl)(sd)).
+* &lt;*Conversion*>[!UICONTROL (sd)] : (facultatif) comprend uniquement les conversions pour lesquelles un seul appareil a été suivi dans le chemin de conversion. Dans le rapport, &quot;[!UICONTROL (sd)]&quot; est ajouté au nom de la mesure de conversion, au type de règle et aux types de conversion dans le chemin de conversion (par exemple, &quot;Réponses(le)(tl)(sd)).
 
-* &lt;*Conversion*>[!UICONTROL (xd)]: (facultatif) comprend uniquement les conversions pour lesquelles plusieurs appareils ont été suivis dans le chemin de conversion. Dans le rapport, &quot;[!UICONTROL (xd)]&quot; est ajouté au nom de la mesure de conversion, au type de règle et aux types de conversion dans le chemin de conversion (par exemple, &quot;Réponses(le)(tl)(xd)).
+* &lt;*Conversion*>[!UICONTROL (xd)] : (facultatif) comprend uniquement les conversions pour lesquelles plusieurs appareils ont été suivis dans le chemin de conversion. Dans le rapport, &quot;[!UICONTROL (xd)]&quot; est ajouté au nom de la mesure de conversion, au type de règle et aux types de conversion dans le chemin de conversion (par exemple, &quot;Réponses(le)(tl)(xd)).
 
 #### Interprétation du rapport de conversion
 
-Trier le pourcentage de conversions totales qui sont multi-appareils ([!UICONTROL (xd)]/[!UICONTROL (tl)]) de haut à bas pour comprendre ce qui génère des conversions inter-appareils supérieures à la moyenne. Vous pouvez l’utiliser pour informer votre stratégie de création ou de ciblage afin de mettre en correspondance la messagerie et l’investissement des canaux avec le comportement des utilisateurs.
+Triez le pourcentage de conversions totales qui sont multi-appareils ([!UICONTROL (xd)]/[!UICONTROL (tl)]) de haut à bas pour comprendre ce qui génère des conversions inter-appareils au-dessus de la moyenne. Vous pouvez l’utiliser pour informer votre stratégie de création ou de ciblage afin de mettre en correspondance la messagerie et l’investissement des canaux avec le comportement des utilisateurs.
 
 * Modules : découvrez les modules qui génèrent le plus de conversions totales et ceux qui présentent un pourcentage élevé de conversions entre appareils. Cela peut vous aider à comprendre où dépenser.
 
@@ -112,7 +112,7 @@ Trier le pourcentage de conversions totales qui sont multi-appareils ([!UICONTRO
 
 >[!MORELIKETHIS]
 >
->* [Paramètres des rapports](/help/dsp/reports/report-settings.md)
+>* [Paramètres de rapport](/help/dsp/reports/report-settings.md)
 >* [Paramètres de campagne](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [Paramètres du module](/help/dsp/campaign-management/packages/package-settings.md)
->* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md)

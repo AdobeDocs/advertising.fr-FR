@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL On Demand] Premium Éditeurs d''inventaire en Europe, au Moyen-Orient et en Afrique'
-description: '''[!DNL On Demand] Premium Éditeurs d''inventaire en Europe, au Moyen-Orient et en Afrique'
+title: '''[!DNL On Demand] Premium Éditeurs d''inventaire en Europe, au Moyen-Orient et en Afrique'''
+description: '''[!DNL On Demand] Premium Éditeurs d''inventaire en Europe, au Moyen-Orient et en Afrique'''
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] Premium Éditeurs d’inventaire en Europe, au Moyen-Orient et en Afrique
+# [!DNL On Demand] Éditeurs d’inventaire Premium en Europe, au Moyen-Orient et en Afrique
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
@@ -169,67 +169,66 @@ ht-degree: 0%
 | [!DNL OhMyMag] | Suisse |
 | [!DNL U.S. News] | Suisse |
 | [!DNL USA Today] | Suisse |
-| [!DNL AOL] | Royaume-Uni |
-| [!DNL BBC] | Royaume-Uni |
-| [!DNL Bleacher Report] | Royaume-Uni |
-| [!DNL Bloomberg] | Royaume-Uni |
-| [!DNL CBS Interactive] | Royaume-Uni |
-| [!DNL CNN International] | Royaume-Uni |
-| [!DNL Conde Nast] | Royaume-Uni |
-| [!DNL DailyMail] | Royaume-Uni |
-| [!DNL Daily Star] | Royaume-Uni |
-| [!DNL DAZN] ([!DNL Perform Media]) | Royaume-Uni |
-| [!DNL Dennis Publishing] | Royaume-Uni |
-| [!DNL Digiteka] | Royaume-Uni |
-| [!DNL ebay] | Royaume-Uni |
-| [!DNL eDreams Odigeo] | Royaume-Uni |
-| [!DNL ESI Media] | Royaume-Uni |
-| [!DNL Express] | Royaume-Uni |
-| [!DNL Flipboard] | Royaume-Uni |
-| [!DNL Future] | Royaume-Uni |
-| [!DNL Gameloft] | Royaume-Uni |
-| [!DNL Gentside] | Royaume-Uni |
-| [!DNL GiveMeSport] | Royaume-Uni |
-| [!DNL Hearst] | Royaume-Uni |
-| [!DNL King] | Royaume-Uni |
-| [!DNL Ladbible] | Royaume-Uni |
-| [!DNL Metro.co.uk] | Royaume-Uni |
-| [!DNL MSN] | Royaume-Uni |
-| [!DNL Mumsnet] | Royaume-Uni |
-| [!DNL National Rail] | Royaume-Uni |
-| [!DNL NBC Universal] | Royaume-Uni |
-| [!DNL Netmums] | Royaume-Uni |
-| [!DNL News UK] | Royaume-Uni |
-| [!DNL New York Times] | Royaume-Uni |
-| [!DNL OhMyMag] | Royaume-Uni |
-| [!DNL Ok!] | Royaume-Uni |
-| [!DNL Rakuten] | Royaume-Uni |
-| [!DNL Samba] | Royaume-Uni |
-| [!DNL Sky] | Royaume-Uni |
-| [!DNL Skyscanner] | Royaume-Uni |
-| [!DNL Snack Media] | Royaume-Uni |
-| [!DNL Spotify] | Royaume-Uni |
-| [!DNL Tapjoy] | Royaume-Uni |
-| [!DNL Targetspot] | Royaume-Uni |
-| [!DNL The Box Plus Network] | Royaume-Uni |
-| [!DNL The Telegraph] | Royaume-Uni |
-| [!DNL Thomson Reuters] | Royaume-Uni |
-| [!DNL Time Inc] | Royaume-Uni |
-| [!DNL Travel Supermarket] | Royaume-Uni |
-| [!DNL Trinity Mirror Group] | Royaume-Uni |
-| [!DNL U.S. News] | Royaume-Uni |
-| [!DNL USA Today] | Royaume-Uni |
-| [!DNL Vox Media] | Royaume-Uni |
-| [!DNL Vungle] | Royaume-Uni |
-| [!DNL Yahoo] | Royaume-Uni |
+| [!DNL AOL] | UK |
+| [!DNL BBC] | UK |
+| [!DNL Bleacher Report] | UK |
+| [!DNL Bloomberg] | UK |
+| [!DNL CBS Interactive] | UK |
+| [!DNL CNN International] | UK |
+| [!DNL Conde Nast] | UK |
+| [!DNL DailyMail] | UK |
+| [!DNL Daily Star] | UK |
+| [!DNL DAZN] ([!DNL Perform Media]) | UK |
+| [!DNL Dennis Publishing] | UK |
+| [!DNL Digiteka] | UK |
+| [!DNL ebay] | UK |
+| [!DNL eDreams Odigeo] | UK |
+| [!DNL ESI Media] | UK |
+| [!DNL Express] | UK |
+| [!DNL Flipboard] | UK |
+| [!DNL Future] | UK |
+| [!DNL Gameloft] | UK |
+| [!DNL Gentside] | UK |
+| [!DNL GiveMeSport] | UK |
+| [!DNL Hearst] | UK |
+| [!DNL King] | UK |
+| [!DNL Ladbible] | UK |
+| [!DNL Metro.co.uk] | UK |
+| [!DNL MSN] | UK |
+| [!DNL Mumsnet] | UK |
+| [!DNL National Rail] | UK |
+| [!DNL NBC Universal] | UK |
+| [!DNL Netmums] | UK |
+| [!DNL News UK] | UK |
+| [!DNL New York Times] | UK |
+| [!DNL OhMyMag] | UK |
+| [!DNL Ok!] | UK |
+| [!DNL Rakuten] | UK |
+| [!DNL Samba] | UK |
+| [!DNL Sky] | UK |
+| [!DNL Skyscanner] | UK |
+| [!DNL Snack Media] | UK |
+| [!DNL Spotify] | UK |
+| [!DNL Tapjoy] | UK |
+| [!DNL Targetspot] | UK |
+| [!DNL The Box Plus Network] | UK |
+| [!DNL The Telegraph] | UK |
+| [!DNL Thomson Reuters] | UK |
+| [!DNL Time Inc] | UK |
+| [!DNL Travel Supermarket] | UK |
+| [!DNL Trinity Mirror Group] | UK |
+| [!DNL U.S. News] | UK |
+| [!DNL USA Today] | UK |
+| [!DNL Vox Media] | UK |
+| [!DNL Vungle] | UK |
+| [!DNL Yahoo] | UK |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [A propos [!DNL On Demand] Inventaire Premium](on-demand-inventory-about.md)
->* [Abonner et demander l’accès à [!DNL On Demand] Inventaire Premium](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] Éditeurs Premium d’inventaire dans l’Asie-Pacifique](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Éditeurs Premium d’inventaire en Australie et en Nouvelle-Zélande](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Éditeurs Premium d’inventaire en Amérique du Nord](on-demand-inventory-publishers-na.md)
-
+>* [À propos de [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
+>* [Abonner et demander l’accès à [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand]  Éditeurs d’inventaire Premium en Asie-Pacifique](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand]  Éditeurs d’inventaire Premium en Australie et en Nouvelle-Zélande](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand]  Éditeurs d’inventaire Premium en Amérique du Nord](on-demand-inventory-publishers-na.md)

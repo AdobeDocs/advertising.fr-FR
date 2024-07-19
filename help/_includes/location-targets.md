@@ -9,13 +9,13 @@ ht-degree: 0%
 
 <!-- MS performance max campaigns, MSA ad groups, Baidu campaigns, YJP campaigns -->
 
-**[!UICONTROL Location Targets]:** (Lorsque cela est possible) Emplacements géographiques d’utilisateurs spécifiques à inclure ou exclure en tant que cibles. Par défaut, tous les emplacements sont ciblés. Vous pouvez inclure et exclure des utilisateurs dans n’importe quelle combinaison d’emplacements. Les exclusions remplacent toujours les inclusions.
+**[!UICONTROL Location Targets]:** (le cas échéant) emplacements géographiques d’utilisateurs spécifiques à inclure ou exclure en tant que cibles. Par défaut, tous les emplacements sont ciblés. Vous pouvez inclure et exclure des utilisateurs dans n’importe quelle combinaison d’emplacements. Les exclusions remplacent toujours les inclusions.
 
 * Pour cibler tous les emplacements, ne sélectionnez aucun emplacement.
 
-* Pour inclure un emplacement et ses emplacements enfants, cliquez une fois sur le cercle adjacent afin d’obtenir une coche bleue (![Inclure](/help/search-social-commerce/assets/include.png "Inclure")) s’affiche. Vous pouvez éventuellement augmenter ou diminuer les offres d’un pourcentage spécifique pour chaque emplacement ciblé.
+* Pour inclure un emplacement et ses emplacements enfants, cliquez une fois sur le cercle adjacent afin qu’une coche bleue (![Include](/help/search-social-commerce/assets/include.png "Include")) s’affiche. Vous pouvez éventuellement augmenter ou diminuer les offres d’un pourcentage spécifique pour chaque emplacement ciblé.
 
-* Pour exclure un emplacement, cliquez deux fois sur le cercle adjacent afin d’obtenir une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
+* Pour exclure un emplacement, cliquez deux fois sur le cercle adjacent afin qu’une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")) s’affiche.
 
 * Pour développer un emplacement dans ses sous-composants (états, préfectures, régions ou villes, par exemple), cliquez sur le nom de l’emplacement.
 

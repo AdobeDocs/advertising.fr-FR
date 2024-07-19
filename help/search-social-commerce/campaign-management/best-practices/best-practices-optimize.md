@@ -1,9 +1,9 @@
 ---
 title: Optimiser les landing pages du site web
 description: Découvrez les bonnes pratiques relatives à l’optimisation des landing pages de votre site web.
-exl-id: 87379fb1-c737-4ac0-80c1-26c79feb45d8
+exl-id: cd94277c-a340-4161-8630-86a249eb3465
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Pour améliorer l’expérience utilisateur et les taux de conversion, il est im
 
 >[!TIP]
 >
->Pour plus d’informations sur les bonnes pratiques spécifiques aux campagnes dans les portefeuilles, voir également le Guide d’optimisation > Gestion des Portfolios > Bonnes pratiques pour les Portfolios , disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Pour plus d’informations sur les bonnes pratiques spécifiques aux campagnes dans les portefeuilles, reportez-vous également à la section Guide d’optimisation > Gestion des Portfolios > Bonnes pratiques pour les Portfolios , disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Concevoir des landing pages efficaces
 
@@ -34,7 +34,7 @@ Vous trouverez ci-dessous quelques conseils pour concevoir des landing pages qui
 
 * Utilisez une bonne conception de page ; une bonne conception peut immédiatement générer la confiance, un sentiment de familiarité et de crédibilité. Personnalisez vos boutons de formulaire pour les rendre plus visibles. N’utilisez pas le bouton standard généré par le navigateur avec le mot &quot;Envoyer&quot;. Utilisez une mise en page à deux colonnes, avec l’élément exploitable dans la colonne principale et les informations de prise en charge dans la deuxième colonne.
 
-* Fournir des indicateurs de crédibilité et de sécurité. Les logos et les phoques aident à réduire l’anxiété des visiteurs. Il s’agit des [!DNL Verisign], [!DNL BBB] logo, [!DNL eTrust], [!DNL HackerSafe], garanties de satisfaction, offres de remboursement, etc. Incluez une déclaration de confidentialité chaque fois que des informations sont collectées. Placez ces indicateurs aussi près que possible de l’élément exploitable.
+* Fournir des indicateurs de crédibilité et de sécurité. Les logos et les phoques aident à réduire l’anxiété des visiteurs. Il s&#39;agit notamment de [!DNL Verisign], [!DNL BBB] logo, [!DNL eTrust], [!DNL HackerSafe], garanties de satisfaction, offres de remboursement, etc. Incluez une déclaration de confidentialité chaque fois que des informations sont collectées. Placez ces indicateurs aussi près que possible de l’élément exploitable.
 
 * Offrez une incitation, comme la livraison gratuite de cadeaux, des remises ou un rapport ou livre électronique gratuit. Un visiteur qui accède à une page d’entrée fait des achats et a besoin d’une incitation pour rester sur une page et terminer l’offre. L’incitation doit être l’un des éléments les plus importants de la page.
 
@@ -52,7 +52,7 @@ Vous trouverez ci-dessous quelques conseils pour concevoir des landing pages qui
 
 ## Tester l’impact des landing pages
 
-Pour voir l’impact de la modification de la landing page (lorsque tout le reste est constant), exécutez [la valeur [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md), qui inclut l’URL d’affichage et l’URL de base/finale ou de destination pour chaque publicité.
+Pour voir l’impact de la modification de la page d’entrée (lorsque tout le reste est constant), exécutez [le [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md), qui inclut l’URL d’affichage et l’URL de base/finale ou de destination pour chaque publicité.
 
 >[!MORELIKETHIS]
 >

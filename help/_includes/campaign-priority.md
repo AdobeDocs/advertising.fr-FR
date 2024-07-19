@@ -7,6 +7,8 @@ ht-degree: 0%
 ---
 # Champ Priorité de la campagne dans les paramètres de campagne d’achat GGL et MS en grille et dans les modèles ACM
 
-**[!UICONTROL Campaign Priority]:** (Campagnes d’achat uniquement ; lecture seule pour les campagnes existantes) La priorité avec laquelle la campagne est utilisée lorsque plusieurs campagnes font de la publicité pour le même produit : *[!UICONTROL Low]* (valeur par défaut pour les nouvelles campagnes), *[!UICONTROL Medium]* ou *[!UICONTROL High]*.
+**[!UICONTROL Campaign Priority]:** (campagnes commerciales uniquement ; lecture seule pour les campagnes existantes) La priorité avec laquelle la campagne est utilisée lorsque plusieurs campagnes font de la publicité
+Même produit : *[!UICONTROL Low]* (valeur par défaut pour les nouvelles campagnes), *[!UICONTROL Medium]* ou *[!UICONTROL High]*.
 
-Lorsqu’un même produit est inclus dans plusieurs campagnes, le réseau publicitaire utilise d’abord la priorité de la campagne pour déterminer la campagne (et l’offre associée) éligible à l’enchère publicitaire. Lorsque toutes les campagnes ont la même priorité, la campagne avec l&#39;offre la plus élevée est éligible.
+Lorsqu’un même produit est inclus dans plusieurs campagnes, le réseau publicitaire utilise d’abord la priorité de la campagne pour déterminer la campagne (et l’offre associée) éligible.
+pour la vente aux enchères publicitaires. Lorsque toutes les campagnes ont la même priorité, la campagne avec l&#39;offre la plus élevée est éligible.

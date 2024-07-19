@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Vous pouvez éventuellement charger des fichiers de feuille d’envoi groupé pour les réseaux publicitaires pris en charge vers un compte FTP spécifié pour la récupération et la publication automatique. Le répertoire est analysé toutes les heures et de nouveaux fichiers sont publiés dans l’ordre dans lequel ils sont reçus.
 
-Les fichiers de feuille d’envoi groupé récupérés et les fichiers d’erreur créés lors de la publication sont répertoriés dans la variable [!DNL Bulksheets] vue.
+Les fichiers de feuille d’envoi groupé récupérés et les fichiers d’erreur créés lors de la publication sont répertoriés dans la vue [!DNL Bulksheets].
 
 >[!NOTE]
 >
@@ -28,5 +28,5 @@ Les fichiers de feuille d’envoi groupé récupérés et les fichiers d’erreu
 
 >[!MORELIKETHIS]
 >
->* [A propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées](bulksheet-about.md)
+>* [À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées](bulksheet-about.md)
 >* [Télécharger une feuille d’envoi groupé ou un fichier d’erreur corrigé](bulksheet-upload.md)

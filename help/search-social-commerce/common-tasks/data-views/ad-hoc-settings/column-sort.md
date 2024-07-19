@@ -1,21 +1,21 @@
 ---
 title: Réorganiser une colonne
 description: Découvrez comment trier à nouveau les colonnes.
-exl-id: 14f66a19-232d-4f68-b939-c5c512025ec9
+exl-id: 934e1f7e-a34d-4973-8219-27876cf50f0f
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
 
 # Réorganiser une colonne
 
-1. (Lorsque disponible) Dans la partie droite de l’en-tête de colonne, cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-expand.png "Flèche vers le bas").
+1. (Lorsqu’il est disponible) Sur le côté droit de l’en-tête de colonne, cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-expand.png "Flèche vers le bas").
 
 1. Sélectionnez l&#39;option de tri :
 
-   * *Tri croissant* (A à Z ou 1 à 10)
+   * *Tri croissant* (de A à Z ou de 1 à 10)
 
-   * *Tri décroissant* (Z à A ou 10 à 1)
+   * *Tri descendant* (de Z à A ou de 10 à 1)

@@ -66,9 +66,9 @@ Chaque groupe de modificateurs peut inclure autant de modificateurs que vous le 
 
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Yes]**.
 
-1. (Si nécessaire) [Supprimer les références au modificateur](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) de tous les modèles applicables.
+1. (Si nécessaire) [Supprimez les références au modificateur](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) de tous les modèles applicables.
 
 >[!MORELIKETHIS]
 >
 >* [À propos des flux d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
->* [Gestion des modèles d’annonce](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
+>* [Gérer les modèles d’annonces](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)

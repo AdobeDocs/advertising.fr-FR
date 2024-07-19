@@ -5,7 +5,7 @@ role: User, Admin
 source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -19,15 +19,15 @@ Les annonceurs sont disponibles pour tous les utilisateurs du compte d’organis
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
-1. Spécifiez la variable [paramètres de l’annonceur](advertiser-settings.md):
+1. Spécifiez les [paramètres de l&#39;annonceur](advertiser-settings.md) :
 
-   1. Dans le [!UICONTROL General] settings :
+   1. Dans les paramètres [!UICONTROL General] :
 
-      1. Spécifiez la variable [!UICONTROL General] paramètres.
+      1. Spécifiez les paramètres [!UICONTROL General].
 
-      1. (Facultatif) Pour configurer les intégrations entre DSP et d’autres produits Adobe Experience Cloud, saisissez l’ID d’organisation Experience Cloud de l’annonceur dans la variable [!UICONTROL Adobe IMS IDs] , puis configurez les intégrations de produit dans la section [!UICONTROL Integrations] .
+      1. (Facultatif) Pour configurer des intégrations entre DSP et d’autres produits Adobe Experience Cloud, saisissez l’ID d’organisation Experience Cloud de l’annonceur dans la section [!UICONTROL Adobe IMS IDs] , puis configurez les intégrations de produit dans la section [!UICONTROL Integrations] .
 
-   1. (Facultatif) Dans le [!UICONTROL Targeting] , spécifiez les cibles par défaut pour chaque nouvel emplacement.
+   1. (Facultatif) Dans les sections [!UICONTROL Targeting] , spécifiez les cibles par défaut pour chaque nouvel emplacement.
 
       Vous pouvez remplacer les cibles par défaut pour tout emplacement que vous créez.
 
@@ -35,4 +35,4 @@ Les annonceurs sont disponibles pour tous les utilisateurs du compte d’organis
 
 >[!MORELIKETHIS]
 >
->* [Paramètres des annonceurs](/help/dsp/admin/advertiser-settings.md)
+>* [Paramètres du publicitaire](/help/dsp/admin/advertiser-settings.md)

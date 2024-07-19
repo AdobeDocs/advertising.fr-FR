@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
-*Fonction bêta*
+*Fonctionnalité Beta*
 
 L’outil de planification vous permet de prévoir la portée unique au niveau du foyer des placements de télévision connectée (CTV) en fonction de critères de ciblage et de budget spécifiés avant de commencer à dépenser pour l’inventaire. Après avoir évalué plusieurs plans de portée, vous pouvez mettre en oeuvre le plan qui s’aligne le mieux sur les résultats souhaités dans vos modules et emplacements.
 
@@ -26,16 +26,16 @@ Chaque prévision se compose d’une courbe de prévision du budget de la porté
 
 ![Prévision du planificateur](/help/dsp/assets/planner-forecast.png "Prévision du planificateur")
 
-La sortie de la prévision comprend également un [!UICONTROL Inventory Breakdown] qui montre comment les différents éditeurs contribuent à une portée unique, offrant des opportunités de découverte précieuses.
+La sortie des prévisions comprend également une section [!UICONTROL Inventory Breakdown] qui montre comment les différents éditeurs contribuent à une portée unique, offrant de précieuses opportunités de découverte.
 
 >[!NOTE]
 >
->* La variable [!UICONTROL Inventory Breakdown] affiche des données uniquement pour les propriétés privées et [!UICONTROL On Demand] inventaire.
+>* La section [!UICONTROL Inventory Breakdown] affiche uniquement les données des inventaires privés et [!UICONTROL On Demand].
 >* La portée unique estimée affichée pour deux éditeurs peut se chevaucher.
 
 ## Vue Plan
 
-Dans le [!UICONTROL Planner] Vous pouvez afficher vos plans de portée CTV existants et en créer de nouveaux.
+Dans la vue [!UICONTROL Planner], vous pouvez afficher vos plans de portée CTV existants et en créer de nouveaux.
 
 Vous pouvez également modifier, dupliquer, exporter, archiver ou régénérer la prévision pour n’importe quel plan.
 
@@ -43,13 +43,13 @@ Vous pouvez également modifier, dupliquer, exporter, archiver ou régénérer l
 
 +++Quels types d’inventaire l’outil de planification prend-il en charge ?
 
-L’outil de planification prend en charge tous les types d’inventaire, y compris les stocks garantis par programmation (PG), les marchés privés (PMP), [!UICONTROL On Demand], et public. Pour générer des prévisions précises, incluez des offres d’au moins 50 000 impressions au cours des sept derniers jours.
+L’outil de planification prend en charge tous les types d’inventaire, y compris les programmes garantis (PG), le marché privé (PMP), [!UICONTROL On Demand] et le public. Pour générer des prévisions précises, incluez des offres d’au moins 50 000 impressions au cours des sept derniers jours.
 
 +++
 
-+++Pourquoi est-ce que je vois &quot;[!UICONTROL Unable to generate forecast]?&quot;
++++Pourquoi est-ce que je vois &quot;[!UICONTROL Unable to generate forecast]&quot; ?
 
-Une des raisons les plus courantes de cette erreur est un budget insuffisant ou une offre maximale. Pour de meilleurs résultats, utilisez un budget minimum de 5000 USD. Si la variable [!UICONTROL Connected TV] le type de support est sélectionné, saisissez une offre maximale d&#39;au moins 10 USD.
+Une des raisons les plus courantes de cette erreur est un budget insuffisant ou une offre maximale. Pour de meilleurs résultats, utilisez un budget minimum de 5000 USD. Si le type de média [!UICONTROL Connected TV] est sélectionné, saisissez une offre maximale d’au moins 10 USD.
 
 Assurez-vous également que les éditeurs ou les offres inclus sont actifs et ont une activité d’impression récente.
 
@@ -69,15 +69,15 @@ Le planificateur génère des prévisions basées sur les dernières données ob
 
 +++Puis-je enregistrer le résultat des prévisions du planificateur ?
 
-Oui, vous pouvez exporter une prévision dans une [!DNL Microsoft Excel] feuille de calcul en cliquant sur **[!UICONTROL ...]** > **[!UICONTROL Export]** en haut à droite. La feuille de calcul capture les informations affichées dans la courbe de budget de la portée à l’aide de deux colonnes de données : [!UICONTROL Budget] et [!UICONTROL Reach].
+Oui, vous pouvez exporter une prévision dans une feuille de calcul [!DNL Microsoft Excel] en cliquant sur **[!UICONTROL ...]** > **[!UICONTROL Export]** dans le coin supérieur droit. La feuille de calcul capture les informations affichées dans la courbe de budget de la portée à l’aide de deux colonnes de données : [!UICONTROL Budget] et [!UICONTROL Reach].
 
 >[!MORELIKETHIS]
 >
 >* [À propos de l’outil de planification DSP](planner-about.md)
->* [Créer un plan de portée télévisée connectée](planner-create.md)
->* [Duplication d’un plan de portée télévisée connecté](planner-duplicate.md)
->* [Modification d’un plan de portée télévisée connecté](planner-edit.md)
->* [Exportation d’un plan de portée TV connecté](planner-export.md)
+>* [ Créer un plan de portée télévisée connectée ](planner-create.md)
+>* [Duplication d’un plan de portée TV connecté](planner-duplicate.md)
+>* [Modifier un plan de portée TV connecté](planner-edit.md)
+>* [Exporter un plan de portée TV connecté](planner-export.md)
 >* [Régénération des prévisions pour un plan de portée télévisée connecté](planner-forecast.md)
->* [Archivage d’un plan de portée télévisée connecté](planner-archive.md)
->* [Paramètres des plans de portée TV connectés](planner-settings.md)
+>* [ Archivage d’un plan de portée TV connecté](planner-archive.md)
+>* [Paramètres des plans de portée télévisée connectés](planner-settings.md)

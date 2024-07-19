@@ -1,12 +1,12 @@
 ---
 title: Générer un rapport à partir d'un modèle
 description: Découvrez comment créer un rapport à l'aide d'un modèle de rapport.
-exl-id: 353e2a88-a3fc-4a53-afd4-b18b776357db
+exl-id: cb918323-cb7e-407c-bfa3-ec3d8753ecbb
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Templates]** .
+1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
 
 1. Cliquez sur le nom du modèle.
 
@@ -24,8 +24,8 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [A propos des rapports](/help/search-social-commerce/reports/report-about.md)
->* [Paramètres de base et avancés des rapports](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
->* [Paramètres du rapport Précision des modèles](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
->* [Paramètres des rapports de spécialité](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
->* [Suppression de rapports](/help/search-social-commerce/reports/management/report-delete.md)
+>* [À propos des rapports](/help/search-social-commerce/reports/report-about.md)
+>* [ Paramètres de rapport de base et avancés ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
+>* [ Paramètres de rapport de précision du modèle ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [Paramètres de rapport de spécialité](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [Supprimer des rapports](/help/search-social-commerce/reports/management/report-delete.md)

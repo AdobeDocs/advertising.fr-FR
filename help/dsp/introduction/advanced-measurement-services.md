@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Solutions de mesure avancée
 
-Les annonceurs ont souvent du mal à comprendre où leur meilleur dollar dans les médias doit être dépensé, ou à quantifier l&#39;impact de leurs publicités en ligne. Dans un paysage multimédia axé sur les données, la mesure d’attribution offre une solution à ce défi. La variable [!DNL Strategic Advertising Consulting] L’équipe aide les partenaires de marque et d’agence à mesurer la manière dont les éléments de leur [!DNL Adobe] les relations prennent vie grâce à la publicité. Grâce à de puissantes offres de mesure d’attribution, l’équipe peut déployer des stratégies de ciblage organisées à l’aide d’un cadre de mesure sophistiqué, ce qui facilite la liaison des décisions prises par les marques aux résultats concrets qui motivent leurs activités. L’équipe peut vous aider à :
+Les annonceurs ont souvent du mal à comprendre où leur meilleur dollar dans les médias doit être dépensé, ou à quantifier l&#39;impact de leurs publicités en ligne. Dans un paysage multimédia axé sur les données, la mesure d’attribution offre une solution à ce défi. L’équipe [!DNL Strategic Advertising Consulting] aide les partenaires de marque et d’agence à mesurer la manière dont les éléments de leurs connexions [!DNL Adobe] prennent vie grâce à la publicité. Grâce à de puissantes offres de mesure d’attribution, l’équipe peut déployer des stratégies de ciblage organisées à l’aide d’un cadre de mesure sophistiqué, ce qui facilite la liaison des décisions prises par les marques aux résultats concrets qui motivent leurs activités. L’équipe peut vous aider à :
 
 * Activation des études de mesure dans des campagnes de médias numériques entonnoir complètes
 
@@ -23,7 +23,7 @@ Les annonceurs ont souvent du mal à comprendre où leur meilleur dollar dans le
 
 Les packages de solution de mesure suivants sont disponibles pour valider le succès de vos campagnes publicitaires :
 
-* **Portée, fréquence et conversions basées sur les ménages**
+* **Portée, fréquence et conversions basées sur le foyer**
 
   Identifiez la portée totale de l’opération au niveau des ménages et la contribution des différents écrans. Les options de création de rapports incluent :
 
@@ -68,7 +68,7 @@ Les packages de solution de mesure suivants sont disponibles pour valider le suc
 
   Comprenez l’incrémentalité liée à l’exposition aux publicités et la manière dont l’investissement multimédia entraîne un changement du comportement d’achat et des visites incrémentielles avec des mesures telles que l’effet d’incrémentalité, le coût par visite incrémentielle et les informations sur les visites.
 
-* **Informations sur les transactions**
+* **Statistiques sur les transactions**
 
   Enrichissez votre stratégie de campagne avec des données déterministes sur les ventes de crédit et de débit grâce à des analyses de segments, de marchés concurrentiels et d’acheteurs.
 
@@ -76,13 +76,13 @@ Les packages de solution de mesure suivants sont disponibles pour valider le suc
 
   Déterminez l’influence de l’exposition aux publicités sur les ventes à l’aide de données de crédit et de débit robustes et déterministes.
 
-* **Designer d’expérience (tests A/B)**
+* **Experience Designer (test A/B)**
 
   Comparez le comportement et l’opinion des groupes d’échantillons randomisés et mutuellement exclusifs à l’aide de tests A/B simples et clairs.
 
 ## Trouver l’ajustement idéal de mesure : solutions verticales
 
-* **N’importe quelle verticale :**
+* **Tout Vertical :**
 
    * Experience Designer (Placebo et tests A/B)
 
@@ -108,7 +108,7 @@ Les packages de solution de mesure suivants sont disponibles pour valider le suc
 
    * Mesure du trafic de pied
 
-* **QSR, Retail, Travel :**
+* **QSR, Vente au détail, Voyage :**
 
    * Informations sur les transactions
 

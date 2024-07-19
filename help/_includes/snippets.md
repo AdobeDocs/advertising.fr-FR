@@ -11,11 +11,11 @@ ht-degree: 0%
 
 <!-- Duplicated from include file because one file has multiple occurrences, which ExL doesn't support. -->
 
-**[!UICONTROL Tracking Template]:** (Facultatif) Le modèle de suivi ou l’URL de suivi, qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi, et incorpore également l’URL de la page d’entrée/finale dans une [!DNL ValueTrack] . Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
+**[!UICONTROL Tracking Template]:** (Facultatif) Le modèle de suivi ou l’URL de suivi, qui spécifie toutes les redirections de domaine hors entrée et tous les paramètres de suivi et incorpore également l’URL de page d’entrée/finale dans un paramètre [!DNL ValueTrack]. Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
 
-Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; Search, Social et Commerce préfixe automatiquement son propre code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
+Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload]&quot;, Search, Social et Commerce préfixe automatiquement son propre code de redirection et de suivi lors de l’enregistrement.
 
-* Pour les paramètres pris en charge pour incorporer l’URL finale, voir [[!DNL Google Ads] la documentation pour la prise en charge [!DNL ValueTrack] formats](https://support.google.com/google-ads/answer/6305348). (Accédez aux paramètres &quot;Modèle de suivi uniquement&quot; dans la section &quot;Disponible&quot; [!DNL ValueTrack] Paramètres.&quot;)
+* Pour les paramètres pris en charge afin d’incorporer l’URL finale, consultez la documentation [[!DNL Google Ads] pour les  [!DNL ValueTrack] formats](https://support.google.com/google-ads/answer/6305348) pris en charge. (Accédez aux paramètres &quot;Modèle de suivi uniquement&quot; dans la section &quot;Paramètres disponibles [!DNL ValueTrack]&quot;.)
 
 * Vous pouvez éventuellement inclure des paramètres d’URL et des paramètres personnalisés définis pour la campagne, séparés par des esperluettes (&amp;), tels que {lpurl}?matchtype={matchtype}&amp;device={device}.
 
@@ -27,15 +27,15 @@ Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les
 >* Le modèle de suivi au niveau le plus granulaire remplace les valeurs à tous les niveaux supérieurs. Par exemple, si les paramètres du compte et les paramètres du mot-clé incluent tous deux une valeur, la valeur du mot-clé est appliquée.
 >* Si vous mettez à jour un modèle de suivi au niveau de la publicité, du lien de site ou du mot-clé, les publicités pertinentes sont soumises à nouveau pour révision. Vous pouvez mettre à jour vos modèles de suivi au niveau du compte, de la campagne ou du groupe publicitaire sans soumettre à nouveau vos publicités pour approbation.
 
-## Champ Modèle de suivi pour [!DNL Microsoft Advertising] entities {#tracking-template-microsoft}
+## Champ Modèle de suivi pour les entités [!DNL Microsoft Advertising] {#tracking-template-microsoft}
 
 <!-- Search CRUD and bulk edit of Microsoft entity settings -->
 
-**[!UICONTROL Tracking Template]:** (Facultatif) Le modèle de suivi ou l’URL de suivi, qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi, et incorpore également l’URL de page d’entrée/finale dans un paramètre. Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
+**[!UICONTROL Tracking Template]:** (Facultatif) Le modèle de suivi ou l’URL de suivi, qui spécifie toutes les redirections de domaine d’entrée et tous les paramètres de suivi et incorpore également l’URL de page d’entrée/finale dans un paramètre. Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
 
-Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; Search, Social et Commerce préfixe automatiquement son propre code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
+Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload]&quot;, Search, Social et Commerce préfixe automatiquement son propre code de redirection et de suivi lors de l’enregistrement.
 
-* Pour les paramètres pris en charge pour incorporer l’URL finale, voir [[!DNL Microsoft Advertising] documentation sur les paramètres pour indiquer l’URL finale](https://help.ads.microsoft.com/#apex/3/en/56799).
+* Pour les paramètres pris en charge pour incorporer l’URL finale, consultez la [[!DNL Microsoft Advertising] documentation sur les paramètres pour indiquer l’URL finale](https://help.ads.microsoft.com/#apex/3/en/56799).
 
 * Vous pouvez éventuellement inclure des paramètres d’URL et des paramètres personnalisés définis pour la campagne, séparés par des esperluettes (&amp;), tels que {lpurl}?matchtype={matchtype}&amp;device={device}.
 
@@ -50,12 +50,12 @@ Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les
 
 ## Modèle de publicité textuelle - Remarque expliquant comment insérer un paramètre dynamique {#inventory-feed-template-insert-dynamic-parameter}
 
-Pour insérer un nom de colonne ou un groupe de modificateurs en tant que paramètre dynamique, cliquez dans le champ de saisie, puis sur un nom de colonne dans la liste de colonnes ou dans un [modifier le nom](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) dans la liste Modificateurs. Pour insérer la variable [!DNL Param1] ou [!DNL Param2] , saisissez la valeur `{param1:default text}` ou `{param2:default text}`, où &quot;texte par défaut&quot; est du texte utilisé si la colonne de paramètre du fichier de flux est vide pour une ligne de publicité.
+Pour insérer un nom de colonne ou un groupe de modificateurs en tant que paramètre dynamique, cliquez dans le champ de saisie, puis cliquez sur un nom de colonne dans la liste des colonnes ou sur un [nom de modificateur](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) dans la liste Modificateurs. Pour insérer la variable [!DNL Param1] ou [!DNL Param2], saisissez la valeur `{param1:default text}` ou `{param2:default text}`, où &quot;texte par défaut&quot; est du texte utilisé si la colonne de paramètre du fichier de flux est vide pour une ligne de publicité.
 
 ## Modèle de publicité textuelle - Remarque expliquant comment insérer un personnalisateur de publicité {#inventory-feed-template-insert-ad-customizer}
 
 Pour insérer un personnalisateur de publicités, utilisez les formats suivants, où `Default text` est une valeur facultative à insérer lorsque votre fichier de flux n’inclut pas de valeur valide :
 
-* [!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}`, par exemple `{CUSTOMIZER.Discount:10%}`
+* [!DNL Google Ads] : `{CUSTOMIZER.AdCustomizerName:Default text}`, par exemple `{CUSTOMIZER.Discount:10%}`
 
-* [!DNL Microsoft Advertising]: `{CUSTOMIZER.Attribute name:Default text}`, par exemple `{CUSTOMIZER.Discount:10%}`
+* [!DNL Microsoft Advertising] : `{CUSTOMIZER.Attribute name:Default text}`, par exemple `{CUSTOMIZER.Discount:10%}`

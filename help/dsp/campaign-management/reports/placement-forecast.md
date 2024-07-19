@@ -27,17 +27,17 @@ Les prévisions comprennent les informations suivantes :
 
 * **[!UICONTROL Summary]:**
 
-   * **[!UICONTROL Estimated CPM]:** Coût estimé par millier d’impressions (eCPM) que les paramètres de ciblage peuvent espérer atteindre.
+   * **[!UICONTROL Estimated CPM]:** coût estimé par millier d’impressions (eCPM) que les paramètres de ciblage peuvent espérer atteindre.
 
-   * **[!UICONTROL Budget]:** Budget estimé pour les paramètres de ciblage.
+   * **[!UICONTROL Budget]:** budget estimé pour les paramètres de ciblage.
 
-   * **[!UICONTROL Impression]:** Nombre estimé d’impressions pour les paramètres de ciblage.
+   * **[!UICONTROL Impression]:** nombre estimé d’impressions pour les paramètres de ciblage.
 
-* **[!UICONTROL Budget Yield Curve]:** Nombre estimé d’impressions que l’emplacement peut diffuser à différents niveaux de budget si tous les autres paramètres de ciblage sont identiques.
+* **[!UICONTROL Budget Yield Curve]:** nombre estimé d’impressions que l’emplacement peut fournir à différents niveaux de budget si tous les autres paramètres de ciblage sont identiques.
 
-* **[!UICONTROL Max Bid Yield Curve]:** Les dépenses estimées pour l’emplacement à différents niveaux d’offre max, lorsque tous les autres paramètres de ciblage sont identiques.
+* **[!UICONTROL Max Bid Yield Curve]:** dépense estimée pour l’emplacement à différents niveaux d’offre max, lorsque tous les autres paramètres de ciblage sont identiques.
 
-* **[!UICONTROL Message]:** Fournit des informations sur la production prévue, y compris tous les scénarios dans lesquels la prévision n’a pas pu être générée. Il met également en évidence les paramètres de ciblage examinés, mais non pris en compte dans ce scénario, en raison d’un manque de données.
+* **[!UICONTROL Message]:** Fournit des informations sur la sortie prévue, y compris tous les scénarios dans lesquels la prévision n’a pas pu être générée. Il met également en évidence les paramètres de ciblage examinés, mais non pris en compte dans ce scénario, en raison d’un manque de données.
 
 ### Calcul du budget
 
@@ -71,9 +71,9 @@ Les prévisions comprennent les informations suivantes :
 
 1. Cliquez sur le nom de la campagne, puis sur **[!UICONTROL Placements]**.
 
-1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. Recherchez la variable **[!UICONTROL Forecast]** dans le coin supérieur droit. Si nécessaire, cliquez sur ![Prévisions](/help/dsp/assets/placement-forecast.png).
+1. Recherchez la section **[!UICONTROL Forecast]** dans le coin supérieur droit. Si nécessaire, cliquez sur ![Forecast](/help/dsp/assets/placement-forecast.png).
 
    >[!NOTE]
    >
@@ -83,4 +83,4 @@ Les prévisions comprennent les informations suivantes :
 >
 >* [Types de rapports de performances dans les vues Campaign Management](campaign-reports-about.md)
 >* [Affichage des rapports de diagnostic d’emplacement](/help/dsp/campaign-management/reports/placement-diagnostics.md)
->* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -18,13 +18,13 @@ Les utilisateurs administrateurs peuvent renvoyer une invitation à un utilisate
 
    * Dans le menu principal, cliquez sur **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * Dans le menu principal, cliquez sur **[!UICONTROL Settings]** > **[!UICONTROL Account]**, puis cliquez sur **[!UICONTROL Edit users]**.
+   * Dans le menu principal, cliquez sur **[!UICONTROL Settings]** > **[!UICONTROL Account]**, puis sur **[!UICONTROL Edit users]**.
 
-1. Dans le **Invitations** , cliquez sur ![Réinitialiser](/help/dsp/assets/resend.png).
+1. Dans la section **Invitations**, cliquez sur ![Renvoyer](/help/dsp/assets/resend.png).
 
 >[!MORELIKETHIS]
 >
 >* [Invitation d’un nouvel utilisateur pour votre compte d’organisation](user-invite.md)
->* [Annulation de l’invitation d’un utilisateur en attente](user-uninvite.md)
+>* [Annuler l’invitation d’un utilisateur en attente](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

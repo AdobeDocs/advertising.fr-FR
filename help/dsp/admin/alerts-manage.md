@@ -5,7 +5,7 @@ role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
 source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 1. En haut de la liste Notifications, cliquez sur **[!UICONTROL Add Subscription]**.
 
-1. Saisissez un *Nom de l’abonnement** pour les alertes.
+1. Saisissez un *Nom d’abonnement** unique pour les alertes.
 
-1. Dans le **[!UICONTROL Add Alerts]** section :
+1. Dans la section **[!UICONTROL Add Alerts]** :
 
    1. Sélectionnez le premier type d’alerte.
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    1. (Facultatif) Pour ajouter une alerte supplémentaire à l’abonnement, cliquez sur **[!UICONTROL Add Alert]** et créez l’alerte.
 
-1. Dans le **[!UICONTROL Add Subscriber Email Addresses]** , saisissez chaque adresse électronique qui recevra les alertes, puis appuyez sur la touche **[!UICONTROL Enter]** clé.
+1. Dans le champ **[!UICONTROL Add Subscriber Email Addresses]** , saisissez chaque adresse électronique qui recevra les alertes, puis appuyez sur la touche **[!UICONTROL Enter]**.
 
 1. Cliquez sur **Enregistrer**.
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
       Les paramètres varient selon le type d’alerte.
 
-   1. (Facultatif) Pour exécuter immédiatement l’alerte, sélectionnez **[!UICONTROL Alert immediately]**. Par défaut, l’alerte est exécutée. <!-- at what time? -->.
+   1. (Facultatif) Pour exécuter immédiatement l’alerte, sélectionnez **[!UICONTROL Alert immediately]**. Par défaut, l’alerte est exécutée <!-- at what time? -->.
 
    1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    1. Modifiez les paramètres de l’alerte.
 
-   1. (Facultatif) Pour exécuter immédiatement l’alerte, sélectionnez **[!UICONTROL Alert immediately]**. Par défaut, l’alerte est exécutée. <!-- at what time? -->.
+   1. (Facultatif) Pour exécuter immédiatement l’alerte, sélectionnez **[!UICONTROL Alert immediately]**. Par défaut, l’alerte est exécutée <!-- at what time? -->.
 
    1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -66,11 +66,11 @@ ht-degree: 0%
 
 ## Gestion des abonnés à un abonnement
 
-* Pour ajouter un abonné à un abonnement, saisissez les adresses email dans le champ de saisie sous **[!UICONTROL Subscribers]**.
+* Pour ajouter un abonné à un abonnement, saisissez les adresses électroniques dans le champ de saisie sous **[!UICONTROL Subscribers]**.
 
   Séparez plusieurs adresses par des espaces.
 
-* Pour supprimer un abonné à un abonnement, cliquez sur **[!UICONTROL X]** en regard de l’adresse électronique sous **[!UICONTROL Subscribers]**.
+* Pour supprimer l’abonné à un abonnement, cliquez sur **[!UICONTROL X]** en regard de l’adresse électronique sous **[!UICONTROL Subscribers]**.
 
 ## Désactivation ou activation d’un abonnement
 
@@ -84,4 +84,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[A propos des abonnements aux alertes](alerts-about.md)
+>[ À propos des abonnements aux alertes ](alerts-about.md)

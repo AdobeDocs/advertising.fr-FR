@@ -16,13 +16,13 @@ Lorsque vous créez des audiences réutilisables, vous pouvez définir manuellem
 
 * () pour indiquer un groupe
 * `||` pour [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
-* &amp; &amp; [!DNL AND]
-* ! pour [!DNL NOT] (exclude)
+* &amp;&amp; pour [!DNL AND]
+* ! pour [!DNL NOT] (exclure)
 
 >[!NOTE]
 >
 >* Tous les groupes de segments spécifiés sont inclus, sauf s’ils sont précédés de ! (qui les exclut).
->* Vous pouvez [recherche de l’identifiant de segment pour une audience](reusable-audience-clipboard.md) de [!UICONTROL Audiences] > [!UICONTROL All audiences].
+>* Vous pouvez [trouver l’identifiant de segment pour une audience](reusable-audience-clipboard.md) depuis [!UICONTROL Audiences] > [!UICONTROL All audiences].
 
 Par exemple, la logique suivante :
 
@@ -42,8 +42,8 @@ signifie (en anglais brut)
 
 >[!MORELIKETHIS]
 >
->* [Copie de la clé de segment d’une audience réutilisable dans le Presse-papiers](reusable-audience-clipboard.md)
->* [Gestion de l’audience](audience-about.md)
+>* [Copiez la clé de segment d’une audience réutilisable dans le Presse-papiers](reusable-audience-clipboard.md)
+>* [À propos de la gestion de l’audience](audience-about.md)
 >* [Création d’une audience réutilisable](reusable-audience-create.md)
 >* [Paramètres d’audience](audience-settings.md)
 >* [Fournisseurs de données tiers disponibles](third-party-data-providers.md)

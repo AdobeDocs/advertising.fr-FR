@@ -1,11 +1,11 @@
 ---
 title: Formats de suivi des clics pour [!DNL Yandex]
-description: Découvrez les formats de suivi des clics pour [!DNL Yandex] comptes.
-exl-id: cf1d6c4b-9bcd-4b82-919f-c14dbaff9a76
+description: Découvrez les formats de suivi des clics pour les comptes  [!DNL Yandex] .
+exl-id: bcbd369b-b98d-491c-a921-58bf79e01744
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -24,19 +24,19 @@ Exemple :
 >
 >* `<advertiser_ID>` est une variable de l’identifiant unique de l’annonceur dans Adobe Advertising.
 >
->* Ce format indique que la transmission de jetons est activée pour la campagne (valeur par défaut). Si la transmission de jeton est désactivée, remplacez `cq?` after `<advertiser_ID>` avec `c?`.
+>* Ce format indique que la transmission de jetons est activée pour la campagne (valeur par défaut). Si le transfert de jeton est désactivé, remplacez `cq?` après `<advertiser_ID>` par `c?`.
 >
 >* `<the landing page>` est une variable qui représente l’URL de votre site vers laquelle les utilisateurs finaux sont dirigés.
 >
->* `source_type`  est le type de correspondance.
+>* `source_type` est le type de correspondance.
 >
->* `source` indique si la publicité a été affichée sur un site de recherche ou de contenu.
+>* `source` indique si la publicité a été affichée sur un site de recherche ou basé sur du contenu.
 >
 >* `position` est le numéro de position de la publicité dans le bloc. Pour le trafic hors recherche, la valeur est &quot;0&quot;.
 >
->* `position_type` est le bloc dans lequel la publicité a été affichée. [!DNL Yandex]. Valeurs possibles : &quot;premium&quot; (bloc supérieur), &quot;other&quot; (bloc de droite) ou &quot;none&quot; (trafic hors recherche).
+>* `position_type` est le bloc dans lequel la publicité a été affichée sur [!DNL Yandex]. Valeurs possibles : &quot;premium&quot; (bloc supérieur), &quot;other&quot; (bloc de droite) ou &quot;none&quot; (trafic hors recherche).
 
 >[!MORELIKETHIS]
 >
->* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion Adobe Advertising](formats-click-tracking-about.md)
+>* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion d’Adobe Advertising](formats-click-tracking-about.md)
 >* [Formats AMO ID](/help/integrations/analytics/ids.md#amo-id-formats)

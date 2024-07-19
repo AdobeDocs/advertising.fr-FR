@@ -24,11 +24,11 @@ Vous pouvez exporter un instantané de la vue actuelle de gestion de campagne fi
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]** et ouvrez la vue à exporter.
 
-1. Dans la barre d’outils supérieure droite, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Export]**.
+1. Dans la barre d’outils supérieure droite, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Export]**.
 
    Le fichier est enregistré dans le dossier Téléchargements par défaut de votre navigateur.
 
 >[!MORELIKETHIS]
 >
 >* [Types de rapports de performances dans les vues Campaign Management](campaign-reports-about.md)
->* [Gestion des vues de données de campagne](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [Gérer vos vues de données de campagne](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

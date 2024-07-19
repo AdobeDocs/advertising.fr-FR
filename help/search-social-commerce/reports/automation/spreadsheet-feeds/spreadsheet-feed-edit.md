@@ -14,33 +14,33 @@ ht-degree: 0%
 
 *Pour les rapports de base et les rapports de précision des modèles uniquement*
 
-Vous pouvez modifier le modèle de rapport, [!DNL Microsoft Excel] et d’autres paramètres sont utilisés pour un flux de feuille de calcul.
+Vous pouvez modifier le modèle de rapport, le modèle [!DNL Microsoft Excel] et d’autres paramètres utilisés pour un flux de feuille de calcul.
 
 >[!NOTE]
 >
-> Si vous éditez les colonnes du modèle de rapport ou utilisez un nouveau modèle de rapport ou un modèle mis à jour, vous devez mettre à jour la variable [!DNL Excel] modèle en conséquence et chargez-le à nouveau.
+> Si vous éditez les colonnes du modèle de rapport ou utilisez un nouveau modèle de rapport ou un modèle de rapport mis à jour, vous devez mettre à jour le modèle [!DNL Excel] en conséquence et le charger à nouveau.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
-1. (Facultatif) Pour mettre à jour le modèle de rapport ou la variable [!DNL Excel] modèle utilisé pour le flux de feuille de calcul :
+1. (Facultatif) Pour mettre à jour le modèle de rapport ou le modèle [!DNL Excel] utilisé pour le flux de feuille de calcul :
 
-   * (Facultatif) Pour utiliser un modèle de rapport différent ou mis à jour pour le flux, [créer [!DNL Excel] modèle de rapport](spreadsheet-feed-create-excel-template.md).
+   * (Facultatif) Pour utiliser un modèle de rapport différent ou mis à jour pour le flux, [ créez un modèle  [!DNL Excel] pour le modèle de rapport](spreadsheet-feed-create-excel-template.md).
 
-     Vous devrez charger le modèle de rapport et le nouveau [!DNL Excel] à l’étape suivante.
+     Vous devrez charger le modèle de rapport et le nouveau fichier [!DNL Excel] à l’étape suivante.
 
-   * (Facultatif) Pour simplement ajouter des colonnes personnalisées au [!DNL Excel] modèle, insérez les colonnes à droite des colonnes du modèle de rapport, puis enregistrez le fichier en tant que [!DNL Excel] feuille de calcul au format .XLSX. Vous devrez charger la nouvelle [!DNL Excel] à l’étape suivante.
+   * (Facultatif) Pour simplement ajouter des colonnes personnalisées au modèle [!DNL Excel], insérez les colonnes à droite des colonnes du modèle de rapport, puis enregistrez le fichier sous forme de feuille de calcul [!DNL Excel] au format .XLSX. Vous devrez charger le nouveau fichier [!DNL Excel] à l’étape suivante.
 
 1. Modifiez les paramètres du flux de la feuille de calcul :
 
    * Dans le menu principal, cliquez sur **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
 
-   * En regard du nom du flux de la feuille de calcul, cliquez sur ![Bouton Afficher/modifier les paramètres](/help/search-social-commerce/assets/settings.png "Bouton Afficher/modifier les paramètres").
+   * En regard du nom du flux de la feuille de calcul, cliquez sur le bouton ![Afficher/modifier les paramètres](/help/search-social-commerce/assets/settings.png "Bouton Afficher/modifier les paramètres").
 
-   * Dans le [!UICONTROL Edit Spreadsheet Feed] de la boîte de dialogue, modifiez la variable [paramètres de flux de feuille de calcul](spreadsheet-feed-settings.md).
+   * Dans la boîte de dialogue [!UICONTROL Edit Spreadsheet Feed], modifiez les [ paramètres de flux de feuille de calcul ](spreadsheet-feed-settings.md).
 
    * Cliquez sur **[!UICONTROL Submit]**.
 
-   * (Facultatif) Une fois que la variable [!UICONTROL Update Status] is *[!UICONTROL Finished]*, cliquez sur **[!UICONTROL XLSX]** en regard du flux, puis ouvrez ou enregistrez le fichier selon la procédure normale de votre navigateur.
+   * (Facultatif) Une fois que le [!UICONTROL Update Status] du flux est *[!UICONTROL Finished]*, cliquez sur **[!UICONTROL XLSX]** en regard du flux, puis ouvrez ou enregistrez le fichier selon la procédure normale de votre navigateur.
 
      >[!NOTE]
      >
@@ -50,10 +50,10 @@ Vous pouvez modifier le modèle de rapport, [!DNL Microsoft Excel] et d’autres
 
 >[!MORELIKETHIS]
 >
->* [A propos des flux de rapports de feuille de calcul](spreadsheet-feed-about.md)
->* [Création d’un flux de rapport de feuille de calcul](spreadsheet-feed-create.md)
->* [Créez un [!DNL Excel] modèle pour un flux de rapport de feuille de calcul](spreadsheet-feed-create-excel-template.md)
+>* [À propos des flux de rapports de feuille de calcul](spreadsheet-feed-about.md)
+>* [Créer un flux de rapport de feuille de calcul](spreadsheet-feed-create.md)
+>* [ Créez un  [!DNL Excel] modèle pour un flux de rapport de feuille de calcul](spreadsheet-feed-create-excel-template.md)
 >* [Modifier les paramètres du flux de rapports de feuille de calcul](spreadsheet-feed-edit.md)
 >* [Paramètres du flux de rapports de feuille de calcul](spreadsheet-feed-settings.md)
->* [Affichage ou enregistrement d’un fichier de flux de rapport de feuille de calcul](spreadsheet-feed-view-or-save.md)
+>* [ Afficher ou enregistrer un fichier de flux de rapport de feuille de calcul ](spreadsheet-feed-view-or-save.md)
 >* [Actualisation manuelle des flux de rapports de feuille de calcul](spreadsheet-feed-refresh.md)

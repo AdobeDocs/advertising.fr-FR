@@ -22,23 +22,23 @@ Vous pouvez trier les données selon la colonne Type, Modifié par ou Date de mo
 
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
 
-1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 1. (Facultatif) Effectuez l’une des opérations suivantes :
 
    * Pour basculer entre l’affichage des données sous forme de tableau uniquement et dans les formulaires de tableau et de graphique, cliquez sur ![Vue Tableau et graphique](/help/dsp/assets/table-plus-chart-view.png "Vue Tableau et graphique") ou ![Vue Tableau](/help/dsp/assets/table-view.png "Vue Tableau") dans la barre d’outils supérieure droite.
 
-   * Pour ajouter une note à une entrée, placez le curseur au-dessus de la balise [!UICONTROL Notes] pour la ligne, puis cliquez sur **[!UICONTROL Add Notes]**. Saisissez du texte dans les champs de saisie, puis cliquez sur **[!UICONTROL Save]**.
+   * Pour ajouter une note à une entrée, placez le curseur sur la colonne [!UICONTROL Notes] de la ligne, puis cliquez sur **[!UICONTROL Add Notes]**. Saisissez du texte dans les champs de saisie, puis cliquez sur **[!UICONTROL Save]**.
 
-   * Pour afficher les détails d’une entrée dans une fenêtre contextuelle, placez le curseur au-dessus de la fenêtre [!UICONTROL Notes] pour la ligne, puis cliquez sur **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Pour afficher les détails d’une entrée dans une fenêtre contextuelle, placez le curseur sur la colonne [!UICONTROL Notes] de la ligne, puis cliquez sur **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 
 >[!MORELIKETHIS]
 >
 >* [À propos de la gestion des emplacements](placement-about.md)
->* [Création d’un emplacement](placement-create.md)
->* [Modifier les emplacements](placement-edit.md)
+>* [Créer un emplacement](placement-create.md)
+>* [Modifier des emplacements](placement-edit.md)
 >* [Dupliquer un emplacement](placement-duplicate.md)
->* [Modification des planifications de publicité pour les emplacements](placement-edit-ad-schedule.md)
+>* [Modifier les planifications de publicité pour les emplacements](placement-edit-ad-schedule.md)
 >* [Mettre en pause ou activer un emplacement](placement-pause-activate.md)
->* [Paramètres d’emplacement](placement-settings.md)
+>* [Paramètres de placement](placement-settings.md)

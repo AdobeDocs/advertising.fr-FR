@@ -5,7 +5,7 @@ source-wordcount: '20'
 ht-degree: 0%
 
 ---
-# Documentation sur Advertising DSP
+# Documentation Advertising DSP
 
 Il s’agit du dossier pour DSP documentation d’aide.
 

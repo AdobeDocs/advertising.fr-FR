@@ -1,11 +1,11 @@
 ---
 title: Configuration du suivi des clics basé sur les cookies
 description: Découvrez comment configurer et valider les balises de suivi des clics.
-exl-id: 340aec08-a1a5-4aa5-b666-9c819c1709d0
+exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -16,47 +16,47 @@ Pour que Search, Social et Commerce effectuent le suivi des clics, les élément
 
 1. (Équipe du compte d’Adobe) Configurez l’annonceur comme client de pixel.
 
-1. [Définissez les options de suivi correctes pour chacun des comptes et campagnes réseau publicitaires de l’annonceur.](#set-up-click-tracking-options).
+1. [Spécifiez les options de suivi correctes pour chacun des comptes réseau de publicités et campagnes de l’annonceur](#set-up-click-tracking-options).
 
-1. Si nécessaire, [générer des URL de suivi et les télécharger ;](#generate-upload-tracking-urls) pour certains éléments de campagne.
+1. Si nécessaire, [générez des URL de suivi et chargez-les](#generate-upload-tracking-urls) pour certains éléments de campagne.
 
-1. [Validez le format de quelques URL de suivi des clics et testez-les pour vérifier que la page d’entrée correcte s’ouvre.](#validate-tracking-urls).
+1. [Validez le format de quelques URL de suivi des clics et testez-les pour vérifier que la page d’entrée correcte s’ouvre](#validate-tracking-urls).
 
 ## Configuration des options de suivi pour les comptes de réseau publicitaire et les campagnes {#set-up-click-tracking-options}
 
-*Responsable de compte de l&#39;Agence, [!DNL Adobe] rôles utilisateur de gestionnaire de compte et d’administrateur uniquement*
+*Gestionnaire de compte de l’agence, [!DNL Adobe] gestionnaire de compte et rôles utilisateur administrateur uniquement*
 
 1. Pour chaque compte réseau publicitaire, procédez comme suit :
 
    1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]>[!UICONTROL Accounts]**.
 
-   1. Placez le curseur sur le nom du compte, puis cliquez sur ![Icône Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icône Menu"), puis sélectionnez **[!UICONTROL Edit]**.
+   1. Placez le curseur sur le nom du compte, cliquez sur ![Icône Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icône Menu"), puis sélectionnez **[!UICONTROL Edit]**.
 
    1. Cliquez sur **[!UICONTROL Set Account Tracking]**.
 
-   1. Pour le [!UICONTROL Tracking Type] paramètre, sélectionnez **[!UICONTROL EF Redirect]**.
+   1. Pour le paramètre [!UICONTROL Tracking Type], sélectionnez **[!UICONTROL EF Redirect]**.
 
-   1. (Pour permettre à Search, Social et Commerce d’échanger des données avec Adobe Analytics ou de suivre les conversions qui se produisent dans [!DNL Apple Safari]) Sélectionnez le [!UICONTROL Redirect Type] option **[!UICONTROL Token]**.
+   1. (Pour permettre à Search, Social et Commerce d’exchange des données avec Adobe Analytics ou de suivre les conversions qui se produisent dans [!DNL Apple Safari]) Sélectionnez l’option [!UICONTROL Redirect Type] **[!UICONTROL Token]**.
 
-   1. (Facultatif) Activez la variable **[!UICONTROL Auto Upload]** pour charger automatiquement les nouvelles URL de suivi vers le réseau publicitaire lors de la prochaine synchronisation de Search, Social et Commerce avec celui-ci. Cette valeur est héritée comme valeur par défaut pour toutes les campagnes du compte, mais elle peut être remplacée au niveau de la campagne.
+   1. (Facultatif) Activez l’option **[!UICONTROL Auto Upload]** pour charger automatiquement de nouvelles URL de suivi sur le réseau publicitaire lors de la prochaine synchronisation de Search, Social et Commerce avec celui-ci. Cette valeur est héritée comme valeur par défaut pour toutes les campagnes du compte, mais elle peut être remplacée au niveau de la campagne.
 
 1. Pour chaque campagne, procédez comme suit :
 
    1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
-   1. Placez le curseur sur le nom de la campagne, puis cliquez sur ![Icône Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icône Menu"), puis sélectionnez **[!UICONTROL Edit]**.
+   1. Placez le curseur sur le nom de la campagne, cliquez sur ![Icône Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icône Menu"), puis sélectionnez **[!UICONTROL Edit]**.
 
-   1. Cliquez sur **[!UICONTROL Set Campaign Tracking]**. Sélectionnez ensuite l’option pour **[!UICONTROL Override Account Tracking]**.
+   1. Cliquez sur **[!UICONTROL Set Campaign Tracking]**. Sélectionnez ensuite l’option **[!UICONTROL Override Account Tracking]**.
 
-   1. Pour le [!UICONTROL Tracking Type] paramètre, sélectionnez **[!UICONTROL EF Redirect]**.
+   1. Pour le paramètre [!UICONTROL Tracking Type], sélectionnez **[!UICONTROL EF Redirect]**.
 
-   1. (Pour permettre à Search, Social et Commerce d’échanger des données avec Adobe Analytics ou de suivre les conversions qui se produisent dans [!DNL Apple Safari]) Sélectionnez le [!UICONTROL Redirect Type] option **[!UICONTROL Token]**.
+   1. (Pour permettre à Search, Social et Commerce d’exchange des données avec Adobe Analytics ou de suivre les conversions qui se produisent dans [!DNL Apple Safari]) Sélectionnez l’option [!UICONTROL Redirect Type] **[!UICONTROL Token]**.
 
-   1. (Facultatif) Activez la variable **[!UICONTROL Auto Upload]** pour charger automatiquement les nouvelles URL de suivi vers le réseau publicitaire lors de la prochaine synchronisation de Search, Social et Commerce avec celui-ci. Cette valeur est héritée comme valeur par défaut pour toutes les campagnes du compte, mais elle peut être remplacée au niveau de la campagne.
+   1. (Facultatif) Activez l’option **[!UICONTROL Auto Upload]** pour charger automatiquement de nouvelles URL de suivi sur le réseau publicitaire lors de la prochaine synchronisation de Search, Social et Commerce avec celui-ci. Cette valeur est héritée comme valeur par défaut pour toutes les campagnes du compte, mais elle peut être remplacée au niveau de la campagne.
 
 ## Génération et chargement des URL de suivi {#generate-upload-tracking-urls}
 
-Voir &quot;[Quand et comment générer des URL de suivi des clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
+Voir &quot;[Quand et comment générer des URL de suivi des clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)&quot;.
 
 ### Test du format des URL de suivi des clics {#validate-tracking-urls}
 
@@ -64,7 +64,7 @@ Vérifiez que la page d’entrée correcte s’ouvre pour l’URL de suivi des c
 
 1. Reproduisez un clic publicitaire en envoyant du trafic vers l’environnement d’évaluation de l’annonceur :
 
-   1. Dans un éditeur de texte, collez une URL de suivi des clics, modifiez l’URL de la page d’entrée pour qu’elle pointe vers la même page dans l’environnement intermédiaire de l’annonceur, puis collez la nouvelle URL dans la barre d’adresse de votre navigateur et appuyez sur la touche **[!DNL Enter]** clé.
+   1. Dans un éditeur de texte, collez une URL de suivi des clics, modifiez l’URL de la page d’entrée pour qu’elle pointe vers la même page dans l’environnement d’évaluation de l’annonceur, puis collez la nouvelle URL dans la barre d’adresse de votre navigateur et appuyez sur la touche **[!DNL Enter]**.
 
    1. Recherchez le cookie dans les cookies stockés de votre navigateur.
 
@@ -83,7 +83,7 @@ Vérifiez que la page d’entrée correcte s’ouvre pour l’URL de suivi des c
 
 1. Répétez l’étape 1 pour chaque domaine en utilisant une page d’entrée différente en conséquence.
 
-1. Si nécessaire, vérifiez que Search, Social et Commerce peut afficher les pixels des identifiants de transaction (`ev_transid`) générés pendant le test.
+1. Si nécessaire, vérifiez que Search, Social et Commerce peut voir les pixels des identifiants de transaction (`ev_transid`) générés pendant le test.
 
 >[!MORELIKETHIS]
 >

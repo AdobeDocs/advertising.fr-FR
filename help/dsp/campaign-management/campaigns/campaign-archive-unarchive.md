@@ -19,22 +19,21 @@ Vous pouvez à tout moment désarchiver une campagne pour restaurer son état pr
 ## Archivage d’une campagne
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
-1. En regard du nom de la campagne, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. En regard du nom de la campagne, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Pour afficher les campagnes archivées, filtrez la variable [!UICONTROL Campaigns] view : click ![Bouton Filtrer](/help/dsp/assets/filter.png), cliquez sur **[!UICONTROL Campaign status]** et sélectionnez **[!UICONTROL Archived]**, puis cliquez sur **[!UICONTROL Apply].**
+>Pour afficher les campagnes archivées, filtrez la vue [!UICONTROL Campaigns] : cliquez sur ![Bouton de filtrage](/help/dsp/assets/filter.png), cliquez sur **[!UICONTROL Campaign status]**, sélectionnez **[!UICONTROL Archived]**, puis cliquez sur **[!UICONTROL Apply].**
 
 ## Désarchiver une campagne
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
-1. En regard du nom de la campagne, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. En regard du nom de la campagne, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
 >* [Modifier une campagne](campaign-edit.md)
->* [Affichage du journal des modifications d’une campagne](campaign-change-log.md)
->* [Mettre en pause ou activer une campagne](campaign-pause-activate.md)
-
+>* [Afficher le journal des modifications d’une campagne](campaign-change-log.md)
+>* [Suspendre ou activer une campagne](campaign-pause-activate.md)

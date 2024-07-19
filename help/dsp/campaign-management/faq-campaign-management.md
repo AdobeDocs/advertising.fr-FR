@@ -40,10 +40,10 @@ ht-degree: 0%
 
 * Comment le rythme des packages change-t-il le dernier jour d’un vol ?
 
-  Le dernier jour d&#39;un vol, la journée est réduite de 24 heures à 23 heures afin que le budget de la formule ne soit pas dépassé. En outre, la stratégie de remplissage du module passe automatiquement à &quot;[!UICONTROL Frontload],&quot; même s’il est défini sur &quot;[!UICONTROL even].&quot; Cela signifie que 65 % du budget quotidien doit être affecté avant 11h30 heure de l’Est.
+  Le dernier jour d&#39;un vol, la journée est réduite de 24 heures à 23 heures afin que le budget de la formule ne soit pas dépassé. En outre, la stratégie de remplissage de la fréquence du package passe automatiquement à &quot;[!UICONTROL Frontload]&quot;, même s’il est défini sur &quot;[!UICONTROL even]&quot;. Cela signifie que 65 % du budget quotidien doit être affecté avant 11h30 heure de l’Est.
 
 >[!MORELIKETHIS]
 >
 >* [Paramètres du module](/help/dsp/campaign-management/packages/package-settings.md)
->* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [Paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [ Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md)

@@ -1,11 +1,11 @@
 ---
 title: A propos des modèles de rapport
 description: Découvrez les modèles de rapport réutilisables.
-exl-id: 15f05c8c-7dcf-4965-9ded-155d79346634
+exl-id: 8ac30a16-7fa9-4da3-9375-98efd05c6e74
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -24,5 +24,5 @@ Vous pouvez gérer jusqu’à 100 modèles à la fois.
 >
 >* [Créer un modèle de rapport](template-create.md)
 >* [Modifier un modèle de rapport](template-edit.md)
->* [Affichage d’un modèle de rapport](template-view.md)
->* [Suppression de modèles de rapport](template-delete.md)
+>* [Afficher un modèle de rapport](template-view.md)
+>* [Supprimer des modèles de rapport](template-delete.md)

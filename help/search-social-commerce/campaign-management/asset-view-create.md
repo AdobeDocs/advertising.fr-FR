@@ -1,6 +1,6 @@
 ---
-title: Affichez et créez des ressources publicitaires à partir de vos [!UICONTROL Asset Library]
-description: Découvrez comment afficher et créer des ressources d’image, de vidéo et de texte réutilisables pour vos [!DNL Google Ads] et [!DNL Microsoft Advertising] bibliothèques de ressources au niveau du compte.
+title: Afficher et créer des ressources publicitaires à partir de votre [!UICONTROL Asset Library]
+description: Découvrez comment afficher et créer des ressources d’image, vidéo et texte réutilisables pour vos bibliothèques de ressources au niveau du compte  [!DNL Google Ads] et  [!DNL Microsoft Advertising] .
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
 source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Affichez et créez des ressources publicitaires à partir de vos [!UICONTROL Asset Library]
+# Afficher et créer des ressources publicitaires à partir de votre [!UICONTROL Asset Library]
 
-*Pour [!DNL Google Ads] et [!DNL Microsoft Advertising] comptes uniquement*
+*Pour les comptes [!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement*
 
-Dans [!UICONTROL Campaigns] > [!UICONTROL Asset Library], vous pouvez afficher toutes les images, vidéos et (pour [!DNL Google Ads] uniquement) des ressources de texte dans vos [!DNL Google Ads] et [!DNL Microsoft Advertising] bibliothèques de ressources au niveau du compte. Vous pouvez également créer des ressources pour un compte de réseau publicitaire et les charger dans le réseau publicitaire.
+Dans [!UICONTROL Campaigns] > [!UICONTROL Asset Library], vous pouvez afficher toutes les ressources d’image, vidéo et texte réutilisables (pour [!DNL Google Ads] uniquement) dans vos bibliothèques de ressources au niveau du compte [!DNL Google Ads] et [!DNL Microsoft Advertising]. Vous pouvez également créer des ressources pour un compte de réseau publicitaire et les charger dans le réseau publicitaire.
 
 Vous pouvez utiliser n’importe quelle ressource pour vos campagnes de performances maximales.
 
@@ -28,7 +28,7 @@ Vous pouvez utiliser n’importe quelle ressource pour vos campagnes de performa
 
 1. Spécifiez chaque type de ressource :
 
-   1. Sélectionnez la variable **[!UICONTROL Asset Type]**.
+   1. Sélectionnez le **[!UICONTROL Asset Type]**.
 
    1. Téléchargez ou saisissez la ressource :
 
@@ -52,11 +52,11 @@ Vous pouvez utiliser n’importe quelle ressource pour vos campagnes de performa
 
             1. Cliquez sur **[!UICONTROL Proceed]**.
 
-      * Pour les ressources vidéo, saisissez l’URL d’une [!DNL YouTube] vidéo d&#39;au moins 10 secondes. Pour ajouter une autre ressource vidéo, cliquez sur **+ Ajouter** et saisissez une autre URL.
+      * Pour les ressources vidéo, saisissez l’URL d’une vidéo [!DNL YouTube] d’au moins 10 secondes. Pour ajouter une autre ressource vidéo, cliquez sur **+ Ajouter** et saisissez une autre URL.
 
         Vous pouvez publier jusqu’à 10 URL vidéo à la fois.
 
-      * ([!DNL Google Ads] Comptes uniquement) Pour les ressources texte, saisissez la chaîne de texte. Pour ajouter un autre actif de texte, cliquez sur **+ Ajouter** et saisissez une autre chaîne de texte.
+      * ([!DNL Google Ads] comptes uniquement) Pour les ressources de texte, saisissez la chaîne de texte. Pour ajouter un autre actif de texte, cliquez sur **+ Ajouter** et saisissez une autre chaîne de texte.
 
         Chaque ressource de texte peut contenir, au maximum, 1 000 caractères. Vous pouvez charger un maximum de 10 ressources de texte à la fois.
 

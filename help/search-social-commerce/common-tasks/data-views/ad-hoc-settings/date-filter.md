@@ -21,33 +21,33 @@ Lorsque vous enregistrez une plage de dates spécifique pour une vue par défaut
 >[!NOTE]
 >
 >* Vous pouvez afficher les données des 13 mois précédents, mais les vues personnalisées existantes ne peuvent inclure des données que pour les 180 jours précédents.
->* Pour afficher des données antérieures, accédez à la [[!UICONTROL Reports] view](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) et exécutez un rapport de base.
->* Vous pouvez également enregistrer une période pour une [vue par défaut ou vue personnalisée](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
+>* Pour afficher des données antérieures, accédez à la [[!UICONTROL Reports] vue](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) et exécutez un rapport de base.
+>* Vous pouvez également enregistrer une période pour une [vue par défaut ou une vue personnalisée](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
 ## Modifier le filtre de date globale dans les vues de campagne
 
 1. Au-dessus de tout tableau de données dans Rechercher > Campagnes > Campagnes, cliquez sur la période actuelle.
 
-1. Dans le **[!UICONTROL Date Range]** , indiquez la plage :
+1. Dans le champ **[!UICONTROL Date Range]** , spécifiez la plage :
 
-   * Pour une période prédéfinie : effectuez une sélection dans la liste des incréments de temps communs, allant de *[!UICONTROL Today]* to *[!UICONTROL Last 180 Days]*. La valeur par défaut est *[!UICONTROL Yesterday]*.
+   * Pour une plage de paramètres prédéfinis : effectuez une sélection dans la liste des incréments de temps communs, allant de *[!UICONTROL Today]* à *[!UICONTROL Last 180 Days]*. La valeur par défaut est *[!UICONTROL Yesterday]*.
 
    * Pour une plage spécifique : sélectionnez **[!UICONTROL Custom Date Range]** , puis spécifiez la date de début et la date de fin.
 
-     Entrez des dates au format MM/JJ/AAAA ou MM-JJ-AAAA ou cliquez sur ![Icône Calendrier](/help/search-social-commerce/assets/calendar.png "Icône Calendrier") en regard de chaque champ pour ouvrir le calendrier et sélectionner une date.
+     Saisissez les dates au format MM/JJ/AAAA ou MM-JJ-AAAA, ou cliquez sur ![Icône Calendrier](/help/search-social-commerce/assets/calendar.png "Icône Calendrier") en regard de chaque champ pour ouvrir le calendrier et sélectionner une date.
 
 1. (Facultatif) Comparez les données de la période spécifiée avec celles d’une deuxième période :
 
-   1. Déplacer le **[!UICONTROL Comparison]** curseur vers *[!UICONTROL On]*.
+   1. Déplacez le curseur **[!UICONTROL Comparison]** vers *[!UICONTROL On]*.
 
-      Lorsque vous sélectionnez cette option, deux colonnes supplémentaires sont ajoutées pour chaque colonne de données ordinaire. Par exemple, au lieu d’inclure une seule colonne pour &quot;[!UICONTROL Impressions],&quot; le tableau comprend des colonnes pour &quot;[!UICONTROL Impressions R1],&quot;[!UICONTROL Impressions R2],&quot; et &quot;[!UICONTROL Impressions Diff].&quot;  Si vous exportez les données, les mêmes colonnes sont indiquées sous la forme &quot;[!UICONTROL Impressions Range 1],&quot;[!UICONTROL Impressions Range 2],&quot; et &quot;[!UICONTROL Impressions Difference].&quot;
+      Lorsque vous sélectionnez cette option, deux colonnes supplémentaires sont ajoutées pour chaque colonne de données ordinaire. Par exemple, au lieu d’inclure une seule colonne pour &quot;[!UICONTROL Impressions]&quot;, la table inclut des colonnes pour &quot;[!UICONTROL Impressions R1]&quot;, &quot;[!UICONTROL Impressions R2]&quot; et &quot;[!UICONTROL Impressions Diff]&quot;.  Si vous exportez les données, les mêmes colonnes sont spécifiées en tant que &quot;[!UICONTROL Impressions Range 1]&quot;, &quot;[!UICONTROL Impressions Range 2]&quot; et &quot;[!UICONTROL Impressions Difference]&quot;.
 
    1. Indiquez la deuxième période.
 
-   1. Choisissez comment exprimer la différence entre les données des deux périodes sélectionnées dans le &quot;\[&quot;_Champ de données_\] Différence&quot; :
+   1. Choisissez comment exprimer la différence entre les données des deux plages de dates sélectionnées dans la colonne &quot;\[_Champ de données_\] Différence&quot; :
 
       * *[!UICONTROL Variance]* (valeur par défaut) : affiche la différence sous la forme d’une valeur numérique.
 
-      * *[!UICONTROL % Change]:*  Affiche la différence en pourcentage.
+      * *[!UICONTROL % Change]:* affiche la différence en pourcentage.
 
 1. Cliquez sur **[!UICONTROL Apply]**.

@@ -5,8 +5,8 @@ source-wordcount: '28'
 ht-degree: 0%
 
 ---
-# Documentation sur les règles et les directives d’Adobe Advertising
+# Documentation sur les stratégies et les directives d’Adobe Advertising
 
-Il s’agit du dossier de la documentation d’aide sur les stratégies et directives publicitaires entre Adobes.
+Il s’agit du dossier de documentation d’aide sur les stratégies et les consignes Adobes Advertising.
 
 **Remarque : Cette page n’est pas publiée dans la documentation destinée aux clients.**

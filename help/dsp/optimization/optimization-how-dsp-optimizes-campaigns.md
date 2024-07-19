@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Optimisation des campagnes par le DSP Advertising
+# Optimisation des campagnes par Advertising DSP
 
 Cette page décrit comment le moteur d’optimisation DSP, optimisé par [!DNL Adobe Sensei], optimise les modules de vos campagnes. Pour obtenir des conseils et des astuces sur la façon d’optimiser manuellement vos campagnes, contactez votre équipe de compte d’Adobe. <!-- add link to trading playbook if we add it to help -->
 
@@ -32,17 +32,17 @@ DSP peut optimiser votre diffusion de deux manières fondamentales, avec 20 vari
 
 * Donner la priorité à l’équilibrage de l’efficacité des coûts avec le taux de performance
 
-Voir [Objectifs d’optimisation et utilisation](optimization-goals.md) pour déterminer quel objectif d’optimisation peut vous aider à atteindre vos IPC.
+Voir [Objectifs d’optimisation et Comment les utiliser](optimization-goals.md) pour déterminer quel objectif d’optimisation peut vous aider à atteindre vos IPC.
 
 ### Packages qui donnent la priorité au taux de performance
 
-Pour les objectifs d’optimisation qui donnent la priorité au taux de performance, DSP prédit les performances de chaque enchère et toujours les offres à l’offre maximale. Voici quelques exemples d’objectifs d’optimisation applicables [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate], etc.
+Pour les objectifs d’optimisation qui donnent la priorité au taux de performance, DSP prédit les performances de chaque enchère et toujours les offres à l’offre maximale. [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate], etc. sont des exemples d’objectifs d’optimisation applicables.
 
 Ce mode d’optimisation fonctionne bien si :
 
 * Vous connaissez déjà le niveau de CPM effectif/acceptable (par exemple, une référence historique).
 
-* Vous êtes prêt à ajuster manuellement la variable [!UICONTROL Max Bid] pour chaque emplacement si vous rencontrez des problèmes de mise à l’échelle.
+* Si vous rencontrez des problèmes de mise à l’échelle, vous êtes prêt à ajuster manuellement le [!UICONTROL Max Bid] pour chaque emplacement.
 
 * Vous privilégiez l&#39;échelle par rapport à l&#39;efficacité.
 
@@ -58,15 +58,15 @@ Après avoir exécuté la logique de rythme, DSP exécute l’offre proposée pa
 
 ### Packages qui donnent la priorité à l’équilibrage de l’efficacité des coûts avec le taux de performance
 
-Pour certains objectifs d’optimisation, DSP prédit les performances de chaque enchère et ajuste automatiquement les prix de l’offre, sans jamais dépasser les [!UICONTROL Max Bid]. Voici quelques exemples d’objectifs d’optimisation applicables [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click], etc.
+Pour certains objectifs d’optimisation, DSP prédit les performances de chaque enchère et ajuste automatiquement les prix de l’offre, sans dépasser les [!UICONTROL Max Bid] d’un emplacement. Parmi les exemples d’objectifs d’optimisation applicables, citons [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click], etc.
 
 #### Logique de traitement {#pacing-logic-balanced}
 
 * Si les dépenses suivent le rythme, DSP deviennent alors plus sensibles aux prix, offrant des montants plus bas pour échanger le taux de victoire avec le plan de rattrapage.
 
-* Si une mesure de performances est également en cours d’équilibrage (tous les objectifs sauf [!UICONTROL Lowest CPM]), les indicateurs de performance clés prévus sont fusionnés dans le montant de l’offre. Par conséquent, vous proposez une offre plus élevée pour les enchères qui devraient être plus performantes selon le &quot;coût par&quot;.
+* Si une mesure de performance est également en cours d’équilibrage (tous les objectifs sauf [!UICONTROL Lowest CPM]), l’indicateur de performance clé prédit est fusionné dans le montant de l’offre. Par conséquent, vous proposez une offre plus élevée pour les enchères qui devraient être plus performantes selon le &quot;coût par&quot;.
 
-* Si les dépenses sont en retard, DSP devient moins sensible aux prix et propose des montants plus élevés, jusqu&#39;à la [!UICONTROL Max Bid], pour échanger le taux de victoire avec le plan d’entraînement.
+* Si les dépenses sont en retard, alors DSP devient moins sensible aux prix et propose des montants plus élevés, jusqu&#39;à [!UICONTROL Max Bid], pour échanger le taux de victoire avec le plan d&#39;entraînement.
 
 #### Effacement de l’ombrage du prix/de l’offre {#clearing-price-balanced}
 
@@ -80,12 +80,12 @@ Les filtres de pré-enchère de placement constituent la méthode la plus strict
 >
 >Les filtres de pré-enchères disponibles varient en fonction du type de publicité. Par exemple, pour un emplacement d’affichage standard, vous pouvez filtrer par taux de clics publicitaires et visibilité, mais pas par taux d’achèvement.
 
-Voir [Filtres de pré-offre au niveau de l’emplacement et comment les utiliser](optimization-pre-bid-filters.md) pour déterminer quel filtre de pré-enchère peut vous aider à atteindre vos IPC.
+Voir [ Filtres pré-enchères au niveau de l’emplacement et Comment les utiliser ](optimization-pre-bid-filters.md) pour déterminer quel filtre pré-enchère peut vous aider à atteindre vos IPC.
 
 >[!MORELIKETHIS]
 >
 >* [Paramètres du module](/help/dsp/campaign-management/packages/package-settings.md)
->* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Objectifs d’optimisation et utilisation](optimization-goals.md)
->* [Filtres de pré-offre au niveau de l’emplacement et comment les utiliser](optimization-pre-bid-filters.md)
->* [Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Objectifs d’optimisation et comment les utiliser](optimization-goals.md)
+>* [Filtres de pré-offre de niveau placement et comment les utiliser](optimization-pre-bid-filters.md)
+>* [Performance de dépannage](/help/dsp/optimization/troubleshooting-performance.md)

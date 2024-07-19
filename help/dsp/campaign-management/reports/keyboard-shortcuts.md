@@ -12,18 +12,18 @@ ht-degree: 1%
 
 # Raccourcis clavier
 
-Dans les paramètres d’emplacement, utilisez les raccourcis clavier pour naviguer rapidement.<!-- and to create ads and placements -->.
+Dans les paramètres d’emplacement, utilisez les raccourcis clavier pour naviguer rapidement <!-- and to create ads and placements -->.
 
 | Page(s) applicable(s) | Raccourci | Description |
 | ---------------| ----------- | ---------------------- |
-| Paramètres d’emplacement | o | Vous déplace vers la [!UICONTROL Goals] paramètres |
-| Paramètres d’emplacement | g | Vous déplace vers la [!UICONTROL Geos] paramètres |
-| Paramètres d’emplacement | i | Vous déplace vers la [!UICONTROL Inventory] paramètres |
-| Paramètres d’emplacement | s | Vous déplace vers la [!UICONTROL Sites] paramètres |
-| Paramètres d’emplacement | a | Vous déplace vers la [!UICONTROL Audience] paramètres |
-| Paramètres d’emplacement | b | Vous déplace vers la [!UICONTROL Brand Safety] paramètres |
-| Paramètres d’emplacement | t | Vous déplace vers la [!UICONTROL Tracking] paramètres |
-| Paramètres d’emplacement | l | Vous déplace vers la [!UICONTROL Adobe Labs] paramètres |
+| Paramètres d’emplacement | o | Vous déplace vers les paramètres [!UICONTROL Goals] |
+| Paramètres d’emplacement | g | Vous déplace vers les paramètres [!UICONTROL Geos] |
+| Paramètres d’emplacement | i | Vous déplace vers les paramètres [!UICONTROL Inventory] |
+| Paramètres d’emplacement | s | Vous déplace vers les paramètres [!UICONTROL Sites] |
+| Paramètres d’emplacement | a | Vous déplace vers les paramètres [!UICONTROL Audience] |
+| Paramètres d’emplacement | b | Vous déplace vers les paramètres [!UICONTROL Brand Safety] |
+| Paramètres d’emplacement | t | Vous déplace vers les paramètres [!UICONTROL Tracking] |
+| Paramètres d’emplacement | l | Vous déplace vers les paramètres [!UICONTROL Adobe Labs] |
 
 {style="table-layout:auto"}
 
@@ -34,6 +34,6 @@ Dans les paramètres d’emplacement, utilisez les raccourcis clavier pour navig
 
 >[!MORELIKETHIS]
 >
->* [Création d’un emplacement](/help/dsp/campaign-management/placements/placement-create.md)
->* [Modifier les emplacements](/help/dsp/campaign-management/placements/placement-edit.md)
->* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Créer un emplacement](/help/dsp/campaign-management/placements/placement-create.md)
+>* [Modifier des emplacements](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md)

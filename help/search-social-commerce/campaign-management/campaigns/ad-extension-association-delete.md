@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Supprimer des associations d’extension d’annonce avec des campagnes et des groupes d’annonces
 
-*[!DNL Google Ads]et [!DNL Microsoft Advertising] only*
+*[!DNL Google Ads]et [!DNL Microsoft Advertising] uniquement*
 
 Vous pouvez supprimer les associations au niveau des campagnes et des groupes publicitaires avec n’importe quel emplacement, téléphone et extension de lien de site.
 
@@ -20,7 +20,7 @@ Vous pouvez supprimer les associations au niveau des campagnes et des groupes pu
 
 1. Cochez la case en regard de chaque association que vous souhaitez supprimer.
 
-   Pour des conseils sur la sélection de plusieurs lignes, &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Pour obtenir des conseils sur la sélection de plusieurs lignes, &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
 1. Dans la barre d’outils, cliquez sur ![Plus](/help/search-social-commerce/assets/more.png "Plus") et sélectionnez **[!UICONTROL Delete]**.
 
@@ -28,5 +28,5 @@ Vous pouvez supprimer les associations au niveau des campagnes et des groupes pu
 
 >[!MORELIKETHIS]
 >
->* [Gérer [!DNL Google Ads] Extensions de légende](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
->* [Gestion des extensions de lien de site](sitelink-extension-manage.md)
+>* [Gérer [!DNL Google Ads] les extensions d’appel](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
+>* [Gérer les extensions de lien de site](sitelink-extension-manage.md)

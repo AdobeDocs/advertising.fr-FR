@@ -1,9 +1,9 @@
 ---
 title: Décodage d’une URL de suivi des clics
 description: Découvrez comment supprimer le code de suivi des clics Search, Social et Commerce d’une URL de base.
-exl-id: e6567cfa-317f-405f-92fc-61ac9274a317
+exl-id: 2f40f6a9-afc9-4e9d-9233-40e29a7f50d8
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Décodage d’une URL de suivi des clics Search, Social et Commerce
 
-*Publicitaires avec suivi de conversion des Adobes Advertising uniquement*
+*Annonceurs avec suivi des conversions par Adobe Advertising uniquement*
 
-Vous pouvez voir où une URL de destination envoie réellement un utilisateur en supprimant le code de suivi des clics Search, Social &amp; Commerce de l’URL de base.
+Vous pouvez voir où une URL de destination envoie réellement un utilisateur en supprimant le code de suivi des clics Search, Social et Commerce de l’URL de base.
 
 >[!NOTE]
 >
@@ -34,5 +34,5 @@ Vous pouvez voir où une URL de destination envoie réellement un utilisateur en
 
 >[!MORELIKETHIS]
 >
->* [A propos des outils de création et de décodage des balises de suivi](tracking-tools-about.md)
->* [Générez une URL de suivi des clics Search, Social et Commerce à l’aide de l’outil de suivi des URL.](click-tracking-url-generate.md)
+>* [À propos des outils pour créer et décoder des balises de suivi](tracking-tools-about.md)
+>* [Générer une URL de suivi des clics Search, Social et Commerce à l’aide de l’outil URL de suivi](click-tracking-url-generate.md)

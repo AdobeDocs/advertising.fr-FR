@@ -20,21 +20,21 @@ ht-degree: 0%
 
 1. Cliquez sur le nom de la campagne dans laquelle inclure l&#39;emplacement.
 
-1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**. Dans le [!UICONTROL Placement Types] dans le menu, cliquez sur le type d’emplacement.
+1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**. Dans la section [!UICONTROL Placement Types] du menu, cliquez sur le type d’emplacement.
 
    Le type d’emplacement détermine le type d’annonce que l’emplacement peut inclure.
 
-1. Saisissez le [paramètres de placement](placement-settings.md):
+1. Saisissez les [paramètres de placement](placement-settings.md) :
 
-   1. Spécifiez la variable [!UICONTROL Placement Basics] paramètres.
+   1. Spécifiez les paramètres [!UICONTROL Placement Basics].
 
-   1. Dans le [!UICONTROL Goals] , spécifiez la variable [!UICONTROL Gross Budget] et, éventuellement, spécifier des objectifs d’emplacement supplémentaires.
+   1. Dans la section [!UICONTROL Goals] , spécifiez les [!UICONTROL Gross Budget] et éventuellement des objectifs de placement supplémentaires.
 
       Certains champs ont des valeurs par défaut que vous pouvez remplacer.
 
       Si le module auquel l’emplacement est affecté a une fréquence au niveau du module, vos objectifs et paramètres de fréquence reflètent les paramètres du module.
 
-   1. (Facultatif) Dans la variable [!UICONTROL Geo-Targeting] , réduisez les emplacements inclus ou exclus.
+   1. (Facultatif) Dans la section [!UICONTROL Geo-Targeting], réduisez les emplacements inclus ou exclus.
 
       Si vous n’identifiez pas des emplacements spécifiques, tous les emplacements sont ciblés.
 
@@ -42,29 +42,29 @@ ht-degree: 0%
       >
       >Les emplacements de ville et de zone desservie ne sont pas disponibles pour les emplacements Roku.
 
-   1. Dans le [!UICONTROL Inventory Targeting] , réduisez les sources d’inventaire à inclure ou à exclure.
+   1. Dans la section [!UICONTROL Inventory Targeting] , réduisez les sources d’inventaire à inclure ou à exclure.
 
-      Pour la plupart des types d’emplacements, tous les types d’inventaire et toutes les sources pour chaque type sont inclus par défaut. Pour [!DNL Roku] emplacements, vous devez spécifier le type d’inventaire et les sources.
+      Pour la plupart des types d’emplacements, tous les types d’inventaire et toutes les sources pour chaque type sont inclus par défaut. Pour les [!DNL Roku] emplacements, vous devez spécifier le type d’inventaire et les sources.
 
-   1. (Facultatif) Dans la variable [!UICONTROL Site Targeting] , limitez les sites à cibler et spécifiez les sites à exclure.
+   1. (Facultatif) Dans la section [!UICONTROL Site Targeting], restreignez les sites que vous souhaitez cibler et spécifiez les sites à exclure.
 
-   1. (Facultatif) Dans la variable [!UICONTROL Audience Targeting] section :
+   1. (Facultatif) Dans la section [!UICONTROL Audience Targeting] :
 
       1. Circonscrivez le public. Cela inclut la sélection des segments d’audience à cibler dans l’emplacement.
 
-         Pour [!DNL Roku] emplacements, vous pouvez exploiter [L’audience unique de DSP avec [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) en incluant un ou plusieurs segments d’audience pouvant être mis en correspondance avec la variable [!DNL Roku] Jeu de données déterministes (opt-in).
+         Pour [!DNL Roku] emplacements, vous pouvez tirer parti de la correspondance d’audience unique de [DSP avec [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) en incluant un ou plusieurs segments d’audience pouvant être mis en correspondance avec le jeu de données déterministe [!DNL Roku] (inclus).
 
       1. (Pour les campagnes avec un ciblage au niveau des personnes ; facultatif) Lorsque l’emplacement cible une ou plusieurs audiences spécifiques, activez le ciblage au niveau des personnes sur plusieurs périphériques.
 
-         Le ciblage multi-appareils basé sur les personnes est fourni par [!DNL LiveRamp] utilisation des données américaines uniquement. Le service est disponible pour tous les annonceurs à 0,35 CPM pour les impressions diffusées à l’aide de la variable [!DNL LiveRamp] Device Graph (c’est-à-dire, pour les appareils introuvables dans les segments d’audience ciblés).
+         Le ciblage multi-appareils basé sur les personnes est fourni par [!DNL LiveRamp] à l’aide de données américaines uniquement. Le service est disponible pour tous les annonceurs à 0,35 CPM pour les impressions diffusées à l’aide de la représentation graphique des appareils [!DNL LiveRamp] (c’est-à-dire pour les appareils qui ne figurent pas dans les segments ciblés).
 
-   1. (Facultatif) Dans la variable [!DNL Brand Safety and Media Targeting] , appliquez des restrictions de sécurité à la marque pour vos emplacements.
+   1. (Facultatif) Dans la section [!DNL Brand Safety and Media Targeting], appliquez des restrictions de sécurité de marque à vos emplacements.
 
-   1. (Facultatif) Dans la variable [!DNL Tracking] , saisissez des pixels d’événement tiers ou des pixels de conversion pour les publicités de l’emplacement.
+   1. (Facultatif) Dans la section [!DNL Tracking], saisissez des pixels d’événement tiers ou des pixels de conversion pour les publicités de l’emplacement.
 
       >[!NOTE]
       >
-      >([!DNL Roku] emplacements) Fournisseurs de pixels tiers approuvés par [!DNL Roku] include [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], et [!DNL Research Now].
+      >([!DNL Roku] emplacements) Les fournisseurs de pixels tiers approuvés par [!DNL Roku] comprennent [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk] et [!DNL Research Now].
 
 1. Cliquez sur **[!UICONTROL Create Placement]**.
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
          1. Cliquez sur **[!UICONTROL Create a New Ad].**
 
-         1. Spécifiez les paramètres de publicité pour [annonces audio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [télévision connectée](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [publicités display](/help/dsp/campaign-management/ads/ad-settings-display.md), [annonces mobiles](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [annonces natives](/help/dsp/campaign-management/ads/ad-settings-native.md), [publicités preroll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md), ou [publicités vidéo universelles](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
+         1. Spécifiez les paramètres de publicité pour les [publicités audio](/help/dsp/campaign-management/ads/ad-settings-audio.md), la [télévision connectée](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), les [publicités d&#39;affichage](/help/dsp/campaign-management/ads/ad-settings-display.md), les [publicités mobiles](/help/dsp/campaign-management/ads/ad-settings-mobile.md), les [publicités natives](/help/dsp/campaign-management/ads/ad-settings-native.md), les [publicités preroll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md) ou les [publicités vidéo universelles](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
         >[!NOTE]
         >
@@ -100,7 +100,7 @@ ht-degree: 0%
 
             1. En regard du nom de la publicité, cliquez sur **[!UICONTROL Select].**
 
-            1. (Facultatif) Pour chaque publicité supplémentaire à joindre, cliquez sur **[!UICONTROL Attach Another Ad]**, puis répétez le processus.
+            1. (Facultatif) Pour chaque publicité supplémentaire que vous souhaitez joindre, cliquez sur **[!UICONTROL Attach Another Ad]**, puis répétez le processus.
 
          * Pour ajouter jusqu’à 20 publicités à la fois :
 
@@ -120,9 +120,9 @@ ht-degree: 0%
 
             * Pour ajouter un vol, cliquez sur **[!UICONTROL Add Flight]**, puis spécifiez la date de début et la date de fin.
 
-            * Pour ajouter un vol existant à une publicité, cliquez sur **[!UICONTROL +]** dans la ligne publicitaire de la colonne &quot;vol&quot;.
+            * Pour ajouter un vol existant à une publicité, cliquez sur **[!UICONTROL +]** dans la ligne de publicité pour la colonne de vol.
 
-            * Pour supprimer un vol existant d’une publicité, cliquez sur **[!UICONTROL x]** dans la ligne publicitaire de la colonne &quot;vol&quot;.
+            * Pour supprimer un vol existant d’une publicité, cliquez sur **[!UICONTROL x]** dans la ligne de publicité pour la colonne de contrôle.
 
             * (Lorsque plusieurs publicités ont le même vol) Pour faire pivoter les publicités de manière inégale, cliquez sur **[!UICONTROL Even Rotation]** dans les informations sur le vol, puis saisissez le poids relatif de rotation de chaque publicité, sous forme de pourcentage.
 
@@ -135,14 +135,14 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [À propos de la gestion des emplacements](placement-about.md)
->* [Modifier les emplacements](placement-edit.md)
->* [Gestion des multiplicateurs d’offre pour les emplacements](placement-manage-bid-multipliers.md)
->* [Modification des planifications de publicité pour les emplacements](placement-edit-ad-schedule.md)
+>* [Modifier des emplacements](placement-edit.md)
+>* [Gérer les multiplicateurs d’offre pour les emplacements](placement-manage-bid-multipliers.md)
+>* [Modifier les planifications de publicité pour les emplacements](placement-edit-ad-schedule.md)
 >* [Mettre en pause ou activer un emplacement](placement-pause-activate.md)
->* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
->* [Paramètres d’emplacement](placement-settings.md)
+>* [Afficher le journal des modifications d’un emplacement](placement-change-log.md)
+>* [Paramètres de placement](placement-settings.md)
 >* [Afficher le rapport Prévision de positionnement](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [Questions fréquentes à propos des vidéos universelles](/help/dsp/campaign-management/faq-universal-video.md)
+>* [ Questions fréquentes à propos de la vidéo universelle ](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vidéo : Création d’un emplacement d’affichage standard](https://video.tv.adobe.com/v/340454)
+>* [Performance de dépannage](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Vidéo : Comment créer un emplacement d’affichage standard](https://video.tv.adobe.com/v/340454)

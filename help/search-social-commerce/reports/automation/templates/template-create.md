@@ -1,11 +1,11 @@
 ---
 title: Créer un modèle de rapport
 description: Découvrez comment créer un modèle de rapport réutilisable.
-exl-id: cd734539-ab01-4106-9998-e2ed994209b2
+exl-id: 322d0c15-bd93-4372-be1e-80d2d7c7fe8d
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -16,33 +16,33 @@ Vous pouvez enregistrer plusieurs modèles de rapport pour n’importe quel type
 
 * Pour créer entièrement un modèle, effectuez l’une des opérations suivantes :
 
-   * Dans la [!UICONTROL Reports] créer un rapport, en cochant la case en regard de l’option **[!UICONTROL Save as template]**, en regard du nom du rapport.
+   * Dans l’onglet [!UICONTROL Reports] , créez un rapport en cochant la case en regard de **[!UICONTROL Save as template]**, située en regard du nom du rapport.
 
-   * Dans la [!UICONTROL Templates] tab :
+   * Dans l’onglet [!UICONTROL Templates] :
 
       * Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-      * Cliquez sur le bouton **[!UICONTROL Templates]** .
+      * Cliquez sur l’onglet **[!UICONTROL Templates]** .
 
       * Cliquez sur **[!UICONTROL Create Template]** et sélectionnez la catégorie du rapport.
 
       * Spécifiez les paramètres du rapport.
 
-        Le &quot;[!UICONTROL Save as Template]&quot; est automatiquement sélectionné.
+        Le paramètre &quot;[!UICONTROL Save as Template]&quot; est automatiquement sélectionné.
 
 * Pour créer un modèle basé sur un modèle existant :
 
    1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-   1. Cliquez sur le bouton **[!UICONTROL Templates]** .
+   1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
 
    1. Cliquez sur le nom du modèle, puis modifiez les paramètres du rapport si nécessaire.
 
-   1. Cochez la case en regard de **[!UICONTROL Save as template]** (en regard du nom du rapport), saisissez un nouveau nom, puis cliquez sur **[!UICONTROL Update Template]**.
+   1. Cochez la case en regard de **[!UICONTROL Save as template]** (située en regard du nom du rapport), saisissez un nouveau nom de rapport, puis cliquez sur **[!UICONTROL Update Template]**.
 
 >[!MORELIKETHIS]
 >
->* [A propos des modèles de rapport](template-about.md)
+>* [ À propos des modèles de rapport](template-about.md)
 >* [Modifier un modèle de rapport](template-edit.md)
->* [Affichage d’un modèle de rapport](template-view.md)
->* [Suppression de modèles de rapport](template-delete.md)
+>* [Afficher un modèle de rapport](template-view.md)
+>* [Supprimer des modèles de rapport](template-delete.md)

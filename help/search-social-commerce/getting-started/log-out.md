@@ -1,11 +1,11 @@
 ---
 title: Déconnexion
 description: Découvrez où vous déconnecter.
-exl-id: cebb97ca-8fa6-4b29-a3f7-613beb422450
+exl-id: b19b19ea-ca74-4605-b2a3-0515659b58f5
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Votre session de connexion se termine automatiquement si la fenêtre de votre navigateur est inactive pendant 30 minutes.
 
-* Dans le coin supérieur droit d’une page, cliquez sur ![Profil utilisateur](/help/search-social-commerce/assets/user-profile.png "Profil utilisateur"), puis cliquez sur **[!UICONTROL Sign Out]**.
+* Dans le coin supérieur droit d’une page, cliquez sur ![Profil utilisateur](/help/search-social-commerce/assets/user-profile.png "Profil utilisateur"), puis sur **[!UICONTROL Sign Out]**.
 
 >[!MORELIKETHIS]
 >

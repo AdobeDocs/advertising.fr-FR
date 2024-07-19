@@ -5,7 +5,7 @@ feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -20,57 +20,57 @@ Les publicités sont diffusées par défaut sur les appareils de bureau, mobiles
 
 ### Serveurs publicitaires tiers pris en charge
 
-Vous pouvez utiliser des feuilles de balises à partir de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid], et [!DNL Sizmek]. Pour obtenir la liste complète des fournisseurs pris en charge, voir &quot;[Partenaires certifiés du service publicitaire](certified-ad-servers.md).&quot;
+Vous pouvez utiliser des feuilles de balises de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] et [!DNL Sizmek]. Pour obtenir la liste complète des fournisseurs pris en charge, voir &quot;[Partenaires certifiés du service d’annonces](certified-ad-servers.md)&quot;.
 
-### Conditions requises pour les ressources vidéo haute définition (requis)
+### Conditions requises pour l’Assets vidéo haute définition (obligatoire)
 
-**Type de balise vidéo :** VPAID 2.0 JavaScript ou VAST (CTV). Toutes les unités publicitaires VPAID doivent respecter les conditions suivantes : [Spécification VPAID 2.0](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) comme défini par l’IAB (Interactive Advertising Bureau).
+**Type de balise vidéo :** JavaScript VPAID 2.0 ou VAST (CTV). Toutes les unités publicitaires VPAID doivent se conformer à la [spécification VPAID 2.0](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) telle que définie par l’Interactive Advertising Bureau (IAB).
 
 **Codec vidéo :** MP4/H.264
 
-**Résolution :** 1280x720 pour 720p, 1920x1080 pour 1080p
+**Résolution :** 1 280 x 720 pour 720p, 1 920 x 1 080 pour 1 080p
 
 **Débit :** 1 500 à 2 500 Kbit/s pour 720p, 2 500 à 3 500 Kbit/s pour 1 080p
 
-**H.264 Profil/niveau :** High profile, niveau 3.1 pour 720p; Profil élevé, niveau 4.0 pour 1080p
+**H.264 Profil/Niveau :** Profil élevé, niveau 3.1 pour 720p ; profil élevé, niveau 4.0 pour 1080p
 
 **Taux d’images vidéo :** 29,970 ips (communément appelé 30 ips) pour les pays NTSC, 25 ips pour les pays PAL, 23,976 ips (communément appelé 24 ips) pour le contenu d’affichage de film
 
-**Espace colorimétrique vidéo :** 4:2:0 sous-échantillonnage YUV Chroma
+**Espace colorimétrique vidéo :** 4:2:0 sous-échantillonnage de la chroma YUV
 
 **Entrelacement vidéo :** Analyse progressive, c’est-à-dire non entrelacée. Pas de mouvement à l’intérieur du champ (cadres de fusion) ni d’entrelacement.
 
-**Leaders (Slate) :** Non autorisé
+**Leaders (Slate):** Non autorisé
 
 **Codec audio :** AAC-LC ou HE-AACv1
 
 **Débit audio :** 128-192 Kbit/s pour AAC-LC, 64-128 Kbit/s pour HE-AACv1
 
-**Canal audio :** Mélange stéréo 2 canaux
+**Canal audio :** Combinaison stéréo 2 canaux
 
 **Taux d’échantillonnage audio :** 44,1 kHercules ou 48 kHercules, selon le matériau source
 
-**Niveaux audio :** 24 LKFS (+/- 2,0 dB) aux États-Unis selon le ATSC A/85 ; 23 LUFS (+/- 1.0) dans l&#39;UE selon l&#39;EBU R128
+**Niveaux audio :** 24 LKFS (+/- 2.0 dB) aux États-Unis selon l’ATSC A/85 ; 23 LUFS (+/- 1.0) dans l’UE selon l’EBU R128
 
 #### Exigences supplémentaires de l’éditeur pour les publicités télévisées connectées
 
-* **Réseau A+E :** Voir Réseau A+E [spécifications publicitaires](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
+* **Réseau A+E :** Voir les [spécifications de publicité](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf) du réseau A+E
 
-* **Découverte :** Voir Découverte [spécifications publicitaires](/help/dsp/assets/discovery-networks-ad-specs.pdf).
+* **Discovery:** Voir [spécifications de publicité](/help/dsp/assets/discovery-networks-ad-specs.pdf) de Discovery.
 
-* **Disney (y compris Hulu) :** Voir Disney&#39;s [spécifications publicitaires](https://hulu.disneyadsales.com/ad-products/video-commercial/).
+* **Disney (y compris Hulu):** Voir les [spécifications de publicité](https://hulu.disneyadsales.com/ad-products/video-commercial/) de Disney.
 
-* **HBO Max :** Voir HBO Max [spécifications publicitaires](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
+* **HBO Max :** Voir les [spécifications de publicité](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx) de HBO Max.
 
-* **NBCUniversal :**
+* **NBCUnival:**
 
    * [Vidéo numérique](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
    * [Livestream](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
-   * [Piège](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
+   * [Pic](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
-* **Paramètre :** Voir Paramètres [spécifications publicitaires](https://www.paramount.com/digital-ads).
+* **Paramount :** Voir les [spécifications de publicité](https://www.paramount.com/digital-ads) de Paramount.
 
 ## Publicités affichées
 
@@ -82,15 +82,15 @@ Les publicités sont diffusées par défaut sur les ordinateurs de bureau et les
 
 **Image :** GIF, JPG/JPEG, PNG
 
-**HTML5 :** Types de fichiers image : GIF, JPG/JPEG, PNG, SVG
+**HTML5:** Types de fichiers image : GIF, JPG/JPEG, PNG, SVG
 
-### Conditions requises pour les ressources d’image (requis)
+### Conditions requises pour Image Assets (obligatoire)
 
 Universal Display est pris en charge.
 
-**Tailles d’annonce recommandées :** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250, 300x60 0, 320x50, 320x480, 480x60, 640x480, 88x31, 728x90, 970x250, 970x90
+**Tailles d’annonces recommandées :** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250, 300x600, 320x50, 320x480, 480x60, 640x480, 88x31, 728x90, 970x250, 970x 90
 
-**Serveurs d’annonces tiers pris en charge :** Vous pouvez utiliser des feuilles de balises à partir de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid], et [!DNL Sizmek]. Pour obtenir la liste complète des fournisseurs pris en charge, voir &quot;[Partenaires certifiés du service publicitaire](certified-ad-servers.md).&quot;
+**Serveurs d’annonces tiers pris en charge :** Vous pouvez utiliser des feuilles de balises de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] et [!DNL Sizmek]. Pour obtenir la liste complète des fournisseurs pris en charge, voir &quot;[Partenaires certifiés du service d’annonces](certified-ad-servers.md)&quot;.
 
 ## Publicités audio
 
@@ -100,50 +100,50 @@ Ordinateur de bureau, mobile, tablette, haut-parleurs intelligents et télévisi
 
 ### Serveurs publicitaires tiers pris en charge
 
-Vous pouvez utiliser des feuilles de balises à partir de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid], et [!DNL Sizmek]. Pour obtenir la liste complète des fournisseurs pris en charge, voir &quot;[Partenaires certifiés du service publicitaire](certified-ad-servers.md).&quot;
+Vous pouvez utiliser des feuilles de balises de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] et [!DNL Sizmek]. Pour obtenir la liste complète des fournisseurs pris en charge, voir &quot;[Partenaires certifiés du service d’annonces](certified-ad-servers.md)&quot;.
 
-### Conditions requises pour les ressources audio (requis)
+### Conditions requises pour Audio Assets (obligatoire)
 
 **Type de fichier :** MP3, OGG, AAC
 
-**Leaders (ardoise) :**  Non autorisé
+**Leaders (ardoise) :** Non autorisé
 
 **Taille maximale du fichier :** 2 Mo
 
 **Débit :** 128
 
-**Longueur du fichier :** 0 à 60 s
+**Longueur du fichier :** 0-60 s
 
 #### Exigences supplémentaires pour les éditeurs
 
 * **[!DNL iHeartRadio]**
-   * Longueur : 5, 15, 30 ou 60 secondes
+   * Durée : 5, 15, 30 ou 60 secondes
    * Type de fichier : MP3
    * Taille maximale du fichier : 320 Kbit/s
    * Volume : 44,1 kGHz
 
 * **[!DNL Pandora]**
-   * Longueur : 15 ou 30 secondes
-   * Type de fichier : MP4 (in-app), MP3 (bureau)
+   * Durée : 15 ou 30 secondes
+   * Type de fichier : MP4 (in-app), MP3 (poste de travail)
    * Taille maximale du fichier : 2,2 Mo
 
 * **[!DNL SoundCloud]**
-   * Longueur : 6, 15 ou 30 secondes
+   * Durée : 6, 15 ou 30 secondes
    * Type de fichier : MP3
    * Taille maximale du fichier : 5 Mo
 
 * **[!DNL Spotify]**
-   * Longueur : Jusqu’à 30 secondes
+   * Durée : jusqu’à 30 secondes
    * Type de fichier : OGG
    * Taille maximale du fichier : 500 Mo
-   * Volume : RMS normalisé à -14; dBFS pic normalisé à -0,2 dBFS
+   * Volume : RMS normalisé à -14 ; pic dBFS normalisé à -0,2 dBFS
 
 * **[!DNL TargetSpot]**
-   * Longueur : 15, 30 ou 60 secondes
+   * Durée : 15, 30 ou 60 secondes
    * Type de fichier : MP3
 
 * **[!DNL TuneIn]**
-   * Longueur : 10, 15 ou 30 secondes
+   * Durée : 10, 15 ou 30 secondes
    * Type de fichier : MP3, OGG
    * Volume : 44,1 kGHz
 
@@ -156,27 +156,27 @@ Vous pouvez utiliser des feuilles de balises à partir de [!DNL DCM], [!DNL Flas
 * **[!DNL iHeartRadio]:**
    * Type de fichier : JPEG, JPG, PNG, GIF, SWF, HTML
    * Taille maximale du fichier : 2,2 Mo
-   * Dimensions : 300x250
+   * Dimensions : 300 x 250
 
 * **[!DNL Pandora]:**
    * Type de fichier : JPEG, GIF
    * Taille maximale du fichier : Taille : 100 Ko
-   * Dimensions : 300x250 (mobile ou bureau) ou 500x500 (bureau)
+   * Dimensions : 300 x 250 (mobile ou ordinateur de bureau) ou 500 x 500 (ordinateur de bureau)
 
 * **[!DNL SoundCloud]:**
    * Type de fichier : JPG statique, PNG
-   * Taille maximale du fichier : Moins de 400 Ko
+   * Taille de fichier maximale : moins de 400 Ko
    * Dimensions : 1 024 x 1 024
 
 * **[!DNL Spotify]:**
    * Type de fichier : JPG statique, PNG
    * Taille maximale du fichier : 200 Ko
-   * Dimensions : 300x250
+   * Dimensions : 300 x 250
 
 * **[!DNL TuneIn]:**
    * Type de fichier : JPEG, JPG, PNG, GIF, HTML
    * Taille maximale du fichier : 2 Mo
-   * Dimensions : 300x250
+   * Dimensions : 300 x 250
 
 ## Publicités d’affichage natives
 
@@ -186,23 +186,23 @@ Chaque publicité peut inclure une image fixe ou un GIF mobile (paragraphe de fi
 
 Les publicités sont diffusées par défaut sur les ordinateurs de bureau et les appareils mobiles. Le ciblage des périphériques est disponible pour ajuster la diffusion.
 
-### Ressources requises pour tous les formats natifs du flux
+### Assets requise pour tous les formats natifs du flux
 
 #### Ressource image
 
-**Résolution :** 600 x 600 pixels au minimum ; minimum recommandé de 1 200 x 627 px
+**Résolution :** Minimum 600 x 600 px ; minimum recommandé de 1 200 x 627 px
 
 **Type de fichier :** JPEG (image publicitaire ou image de couverture de publicité vidéo), GIF (cinemograph)
 
-**Taille de fichier :** Moins de 1 Mo (l’image ne doit pas contenir de texte.)
+**Taille de fichier :** Moins de 1 Mo (l’image doit être sans texte).
 
 #### Logo du annonceur
 
-**Résolution :** 80x80px minimum ; Minimum recommandé 300 x 300 px
+**Résolution :** 80 x 80 px minimum ; minimum recommandé de 300 x 300 px
 
 **Type de fichier :** JPEG ou PNG.
 
-**Format :**  Rapport 1x1
+**Format :** rapport 1x1
 
 >[!NOTE]
 >
@@ -212,15 +212,15 @@ Les publicités sont diffusées par défaut sur les ordinateurs de bureau et les
 
 **Titre :** 200 caractères maximum ; 25 caractères recommandés
 
-**Légende :** 200 caractères maximum ; 100 caractères recommandés
+**Légende :** 200 caractères au maximum ; 100 caractères recommandés
 
-**Sponsorisé par :** 200 caractères maximum ; 30 caractères recommandés
+**Parrainé par :** 200 caractères au maximum ; 30 caractères recommandés
 
-**Appel à l&#39;action (MoPub uniquement) :** 15 caractères maximum
+**Appel à l’action (MoPub uniquement) :** 15 caractères maximum
 
 >[!NOTE]
 >
->La mise en page finale est définie par l’éditeur au moment de l’exécution. Si une publicité dépasse le nombre de caractères recommandé, certains fournisseurs d’inventaire peuvent ne pas diffuser la publicité, ou l’éditeur ou le fournisseur de services de messagerie peut tronquer le texte.
+>La disposition finale est définie par l’éditeur au moment de l’exécution. Si une publicité dépasse le nombre de caractères recommandé, certains fournisseurs d’inventaire peuvent ne pas diffuser la publicité, ou l’éditeur ou le fournisseur de services de messagerie peut tronquer le texte.
 
 #### URL de page d’entrée
 
@@ -228,18 +228,17 @@ URL de clic publicitaire avec des outils de suivi de clics facultatifs.
 
 Conditions requises pour les outils de suivi des clics :
 
-* Pixels de suivi d’impression tiers : Format d’URL d’image 1x1 uniquement
+* Pixels de suivi d’impression tiers : format d’URL d’image 1x1 uniquement
 
-* Suivi JavaScript de visibilité : Pris en charge uniquement pour IAS ; Images 1x1 au format JS.append uniquement
+* Suivi JavaScript de la visibilité : pris en charge pour IAS uniquement ; images 1x1 au format JS.append uniquement
 
-* pixels de suivi des clics tiers : Redirection vers la landing page incorporée dans l’URL (redirection HTTP 302)
+* pixels de suivi des clics tiers : Doit rediriger vers la page d’entrée incorporée dans l’URL (redirection HTTP 302)
 
 * Les outils de suivi des clics de la plateforme de gestion des données (DMP) avec 200 réponses ou plus ne sont pas pris en charge.
 
 >[!MORELIKETHIS]
 >
->* [A propos de la gestion des publicités](ad-about.md)
+>* [À propos de la gestion des publicités](ad-about.md)
 >* [Créer une publicité unique](ad-create.md)
 >* [Créer plusieurs publicités tierces](ad-create-multiple.md)
 >* [Modifier une publicité](ad-edit.md)
-

@@ -18,9 +18,9 @@ Une fois que vous partagez une audience, vous ne pouvez plus arrêter de la part
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
-1. Placez le curseur sur la ligne de l’audience et cliquez sur **[!UICONTROL Share]**.
+1. Placez le curseur sur la ligne d’audience et cliquez sur **[!UICONTROL Share]**.
 
-1. Sélectionnez l’option pour **[!UICONTROL Share with all advertisers in my account]**.
+1. Sélectionnez l’option **[!UICONTROL Share with all advertisers in my account]**.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -28,13 +28,12 @@ Une fois que vous partagez une audience, vous ne pouvez plus arrêter de la part
 >
 >* [À propos de la gestion de l’audience](audience-about.md)
 >* [Création d’une audience réutilisable](reusable-audience-create.md)
->* [Duplication d’une audience réutilisable](reusable-audience-duplicate.md)
->* [Modification d’une audience réutilisable](reusable-audience-edit.md)
->* [Affichage des détails sur une audience réutilisable](reusable-audience-view-details.md)
->* [Exportation d’une audience réutilisable](reusable-audience-export.md)
->* [Copie de la clé de segment d’une audience réutilisable dans le Presse-papiers](reusable-audience-clipboard.md)
+>* [Dupliquer une audience réutilisable](reusable-audience-duplicate.md)
+>* [Modifier une audience réutilisable](reusable-audience-edit.md)
+>* [ Afficher les détails d’une audience réutilisable](reusable-audience-view-details.md)
+>* [Exporter une audience réutilisable](reusable-audience-export.md)
+>* [Copiez la clé de segment d’une audience réutilisable dans le Presse-papiers](reusable-audience-clipboard.md)
 >* [Suppression d’une audience réutilisable](reusable-audience-delete.md)
 >* [Paramètres d’audience](audience-settings.md)
 >* [Syntaxe de la logique de segment d’audience](audience-segment-logic-syntax.md)
 >* [Fournisseurs de données tiers disponibles](third-party-data-providers.md)
-

@@ -1,5 +1,5 @@
 ---
-title: Assistance Adobe Advertising en matière de protection de la vie privée des clients
+title: Assistance Adobe Advertising en matière de protection de la vie privée des clients et clientes
 description: Adobe Advertising fournit des contrôles de sécurité et de confidentialité pour aider les clients annonceurs à se conformer aux lois sur la confidentialité des consommateurs.
 cloud: Experience Cloud
 product: advertising cloud
@@ -12,7 +12,7 @@ ht-degree: 20%
 
 ---
 
-# Assistance Adobe Advertising en matière de protection de la vie privée des clients
+# Assistance Adobe Advertising en matière de protection de la vie privée des clients et clientes
 
 Adobe Advertising fournit des contrôles de sécurité et de confidentialité pour aider les clients annonceurs à se conformer aux lois suivantes sur la confidentialité des consommateurs :
 

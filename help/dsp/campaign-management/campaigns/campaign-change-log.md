@@ -18,21 +18,20 @@ Vous pouvez trier les données selon n’importe quelle colonne, à l’exceptio
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
-1. En regard du nom de la campagne, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. En regard du nom de la campagne, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 1. (Facultatif) Effectuez l’une des opérations suivantes :
 
    * Pour basculer entre l’affichage des données sous forme de tableau uniquement et dans les formulaires de tableau et de graphique, cliquez sur ![Vue Tableau et graphique](/help/dsp/assets/table-plus-chart-view.png "Vue Tableau et graphique") ou ![Vue Tableau](/help/dsp/assets/table-view.png "Vue Tableau") dans la barre d’outils supérieure droite.
 
-   * Pour ajouter une note à une entrée, placez le curseur au-dessus de la balise [!UICONTROL Notes] pour la ligne, puis cliquez sur **[!UICONTROL Add Notes]**. Saisissez du texte dans les champs de saisie, puis cliquez sur **[!UICONTROL Save]**.
+   * Pour ajouter une note à une entrée, placez le curseur sur la colonne [!UICONTROL Notes] de la ligne, puis cliquez sur **[!UICONTROL Add Notes]**. Saisissez du texte dans les champs de saisie, puis cliquez sur **[!UICONTROL Save]**.
 
-   * Pour afficher les détails d’une entrée dans une fenêtre contextuelle, placez le curseur sur la [!UICONTROL Notes] pour la ligne, puis cliquez sur **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Pour afficher les détails d’une entrée dans une fenêtre contextuelle, placez le curseur sur la colonne [!UICONTROL Notes] de la ligne, puis cliquez sur **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >
 >* [À propos de Campaign Management](campaign-about.md)
->* [Création d’une campagne](campaign-create.md)
+>* [Créer une campagne](campaign-create.md)
 >* [Modifier une campagne](campaign-edit.md)
 >* [Paramètres de campagne](campaign-settings.md)
->* [Mettre en pause ou activer une campagne](campaign-pause-activate.md)
-
+>* [Suspendre ou activer une campagne](campaign-pause-activate.md)

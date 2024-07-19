@@ -32,7 +32,7 @@ DSP ne vous charge pas d&#39;envoyer ces signaux à l&#39;Audience Manager. Cepe
 
 * Vous pouvez exploiter les données de campagne pour des cas d’utilisation tels que la limitation de la fréquence dans les créatifs, le reciblage des utilisateurs qui ont été exposés à des campagnes précédentes et l’analyse du comportement et des points d’entrée du site en aval.
 
-* Les données agrégées offrent une vue unifiée des performances de campagne, permettent d’identifier les chemins de conversion personnalisés et peuvent être utilisés pour améliorer la séquence d’événements qui mènent à des conversions par le biais de l’Audience Manager. [!DNL Audience Optimization Reports] ou au moyen d’une [[!DNL Audience Analytics] intégration avec Adobe Analytics](/help/integrations/audience-manager/audience-analytics.md).
+* Les données agrégées offrent une vue unifiée des performances de campagne, permettent d’identifier les chemins de conversion personnalisés et peuvent être utilisés pour améliorer la séquence d’événements qui conduisent à des conversions par le biais de l’Audience Manager [!DNL Audience Optimization Reports] ou d’une [[!DNL Audience Analytics] intégration avec Adobe Analytics](/help/integrations/audience-manager/audience-analytics.md).
 
 ## Suivi des données
 
@@ -40,17 +40,17 @@ Les pixels d’impression d’Audience Manager et d’événement de clic sont b
 
 ### Pixels de suivi d’impression
 
-L’Audience Manager effectue le suivi des données d’impression pour une publicité lorsque vous associez un pixel de suivi d’événement transparent de 1xl à la publicité. Le pixel d’événement est chargé chaque fois que la publicité est diffusée à un utilisateur et chargée par le navigateur web. Le pixel est chargé à partir d’un sous-domaine spécifique au client de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), qui est un domaine hérité pour l’Audience Manager et qui contient des paramètres en tant que paires clé-valeur. L’appel d’événement collecte les données d’impression et de conversion et les envoie aux serveurs de collecte de données d’Audience Manager.
+L’Audience Manager effectue le suivi des données d’impression pour une publicité lorsque vous associez un pixel de suivi d’événement transparent de 1xl à la publicité. Le pixel d’événement est chargé chaque fois que la publicité est diffusée à un utilisateur et chargée par le navigateur web. Le pixel est chargé à partir d’un sous-domaine spécifique au client [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), qui est un domaine hérité pour l’Audience Manager, et contient des paramètres en tant que paires clé-valeur. L’appel d’événement collecte les données d’impression et de conversion et les envoie aux serveurs de collecte de données d’Audience Manager.
 
 ### Pixels de suivi des clics
 
-L’Audience Manager effectue le suivi des clics de la même manière que les impressions, sauf qu’elle ne charge pas le pixel d’événement transparent chaque fois que la publicité est diffusée. Au lieu de cela, les données de clic sont suivies dans l’URL de clic publicitaire de la publicité. La publicité pointe vers un sous-domaine spécifique au client de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), qui est un domaine hérité à des fins d’Audience Manager, pour traitement par les serveurs de collecte de données d’Audience Manager. Le serveur redirige ensuite l’utilisateur vers la page d’entrée prévue. L’URL contient des paramètres en tant que paires clé-valeur.
+L’Audience Manager effectue le suivi des clics de la même manière que les impressions, sauf qu’elle ne charge pas le pixel d’événement transparent chaque fois que la publicité est diffusée. Au lieu de cela, les données de clic sont suivies dans l’URL de clic publicitaire de la publicité. La publicité pointe vers un sous-domaine spécifique au client [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), qui est un domaine hérité pour l’Audience Manager, pour le traitement par les serveurs de collecte de données d’Audience Manager. Le serveur redirige ensuite l’utilisateur vers la page d’entrée prévue. L’URL contient des paramètres en tant que paires clé-valeur.
 
 >[!NOTE]
 >
->Si votre entreprise utilise [!DNL Analytics] suivi, il se peut que vous n’ayez pas besoin d’un suivi des clics d’Audience Manager. Adobe Analytics capture les signaux de clics et peut les envoyer à l’Audience Manager via [transfert côté serveur](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Si votre organisation utilise le suivi [!DNL Analytics], il se peut que vous n’ayez pas besoin du suivi des clics d’Audience Manager. Adobe Analytics capture les signaux de clic et peut les envoyer à l’Audience Manager par le biais du [transfert côté serveur](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 >[!MORELIKETHIS]
 >
->* [Collecte de données de clics et d’impressions à partir des campagnes Advertising DSP](collect.md)
+>* [Collecter les données de clics et d’impressions à partir des campagnes Advertising DSP](collect.md)
 >* [Cas d’utilisation](use-cases.md)

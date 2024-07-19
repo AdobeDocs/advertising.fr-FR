@@ -23,8 +23,7 @@ La suppression d’un segment d’opposition à la vente personnalisé ou CCPA l
 >[!MORELIKETHIS]
 >
 >* [À propos de la gestion de l’audience](audience-about.md)
->* [Création d’un segment personnalisé](custom-segment-create.md)
+>* [Créer un segment personnalisé](custom-segment-create.md)
 >* [Modifier les informations sur le segment](segment-edit.md)
->* [Affichage des pixels de suivi pour un segment](segment-view-pixels.md)
->* [Partage ou arrêt du partage d’un segment](segment-share.md)
-
+>* [Afficher les pixels de suivi pour un segment](segment-view-pixels.md)
+>* [Partager ou arrêter le partage d’un segment](segment-share.md)

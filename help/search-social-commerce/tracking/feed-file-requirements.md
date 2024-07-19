@@ -20,7 +20,7 @@ Le fichier de données doit être au format texte plat (TXT), valeurs séparées
 
 * **Ligne d’en-tête :** (Facultatif) La première ligne du fichier est un en-tête qui spécifie les noms de champ (ou noms de colonne) requis dans un ordre spécifique, séparés par des tabulations ou des virgules. Les noms de colonne requis incluent les mesures de conversion dont le suivi Adobe Advertising est effectué en tant que conversions.
 
-* **Lignes de données :** Chaque ligne suivante inclut des champs de données dans le même ordre que l’en-tête et séparés par des tabulations ou des virgules. Si le premier enregistrement n’est pas un en-tête, chaque ligne de données doit inclure tous les champs possibles, dans un ordre spécifié. Les valeurs de tous les identifiants et mesures de conversion doivent être alphanumériques.
+* **Lignes de données :** Chaque ligne suivante inclut des champs de données dans le même ordre que l’en-tête et séparés par des onglets ou des virgules. Si le premier enregistrement n’est pas un en-tête, chaque ligne de données doit inclure tous les champs possibles, dans un ordre spécifié. Les valeurs de tous les identifiants et mesures de conversion doivent être alphanumériques.
 
   Lorsque plusieurs clics sur une ou plusieurs publicités conduisent à une transaction, vous devez déterminer l’identifiant de clic et l’identifiant de suivi auxquels attribuer la transaction. Un identifiant unique étant signalé pour chaque transaction, vous pouvez mettre à jour des transactions individuelles.
 
@@ -39,4 +39,4 @@ Envoyez le fichier via le protocole de transfert SFTP, à l’aide du port 22. V
 >[!MORELIKETHIS]
 >
 >* [Exigences de données pour les flux de données à l’aide des ID EF](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
->* [Exigences de données pour les flux de données à l’aide d’un ID de transaction](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
+>* [ Exigences de données pour les flux de données à l’aide d’un ID de transaction ](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)

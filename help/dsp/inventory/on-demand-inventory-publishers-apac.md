@@ -1,11 +1,11 @@
 ---
-title: '''[!DNL On Demand] Premium Éditeurs d''inventaire en Asie-Pacifique'
-description: Voir la [!DNL On Demand] des éditeurs d’inventaire haut de gamme dans la région Asie-Pacifique.
+title: '''[!DNL On Demand] Éditeurs d''inventaire Premium en Asie-Pacifique'''
+description: Consultez les  [!DNL On Demand] éditeurs d’inventaire haut de gamme disponibles dans la région Asie-Pacifique.
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ ht-degree: 0%
 | [!DNL Investopedia] | Malaisie |
 | [!DNL Malay Mail Online] | Malaisie |
 | [!DNL Malaysiakini] | Malaisie |
-| [!DNL Media Prima]Groupe | Malaisie |
+| [!DNL Media Prima]Group | Malaisie |
 | [!DNL The Asian Parent - Malaysia] | Malaisie |
 | [!DNL Thomson Reuters] | Malaisie |
 | [!DNL Time Inc] | Malaisie |
@@ -367,13 +367,12 @@ ht-degree: 0%
 | [!DNL Yan.vn] | Vietnam |
 | [!DNL Zing.vn] | Vietnam |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [A propos [!DNL On Demand] Inventaire Premium](on-demand-inventory-about.md)
->* [Abonner et demander l’accès à [!DNL On Demand] Inventaire Premium](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] Éditeurs Premium d’inventaire en Australie et en Nouvelle-Zélande](on-demand-inventory-publishers-anz.md)
+>* [À propos de [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
+>* [Abonner et demander l’accès à [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand]  Éditeurs d’inventaire Premium en Australie et en Nouvelle-Zélande](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] Premium Éditeurs d’inventaire en Europe, au Moyen-Orient et en Afrique](on-demand-inventory-publishers-emea.md)
 >* [[!DNL On Demand Premium] Éditeurs d’inventaire en Amérique du Nord](on-demand-inventory-publishers-na.md)
-

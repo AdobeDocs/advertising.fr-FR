@@ -12,16 +12,16 @@ ht-degree: 0%
 
 # Exporter une prévision pour un plan de portée TV connecté
 
-Vous pouvez exporter le [!UICONTROL Budget vs Reach] prévision d’une [!DNL Microsoft Excel] feuille de calcul** avec [!UICONTROL Budget] et [!UICONTROL Reach] colonnes.
+Vous pouvez exporter la prévision [!UICONTROL Budget vs Reach] vers une feuille de calcul [!DNL Microsoft Excel]** avec des colonnes [!UICONTROL Budget] et [!UICONTROL Reach].
 
-* Dans une prévision générée, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Export]** en haut à droite.
+* Dans une prévision générée, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Export]** dans le coin supérieur droit.
 
 >[!MORELIKETHIS]
 >
 >* [À propos de l’outil de planification DSP](planner-about.md)
->* [Créer un plan de portée télévisée connectée](planner-create.md)
->* [Duplication d’un plan de portée télévisée connecté](planner-duplicate.md)
->* [Modification d’un plan de portée télévisée connecté](planner-edit.md)
+>* [ Créer un plan de portée télévisée connectée ](planner-create.md)
+>* [Duplication d’un plan de portée TV connecté](planner-duplicate.md)
+>* [Modifier un plan de portée TV connecté](planner-edit.md)
 >* [Régénération des prévisions pour un plan de portée télévisée connecté](planner-forecast.md)
->* [Archivage d’un plan de portée télévisée connecté](planner-archive.md)
->* [Paramètres des plans de portée TV connectés](planner-settings.md)
+>* [ Archivage d’un plan de portée TV connecté](planner-archive.md)
+>* [Paramètres des plans de portée télévisée connectés](planner-settings.md)

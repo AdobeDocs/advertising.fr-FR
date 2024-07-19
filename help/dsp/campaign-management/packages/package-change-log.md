@@ -20,21 +20,20 @@ Vous pouvez trier les données selon n’importe quelle colonne, à l’exceptio
 
 1. Cliquez sur le nom de la campagne.
 
-1. Sur le **[!UICONTROL Packages]** , en regard du nom du module, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. Dans l’onglet **[!UICONTROL Packages]**, en regard du nom du package, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 1. (Facultatif) Effectuez l’une des opérations suivantes :
 
    * Pour basculer entre l’affichage des données sous forme de tableau uniquement et dans les formulaires de tableau et de graphique, cliquez sur ![Vue Tableau et graphique](/help/dsp/assets/table-plus-chart-view.png "Vue Tableau et graphique") ou ![Vue Tableau](/help/dsp/assets/table-view.png "Vue Tableau") dans la barre d’outils supérieure droite.
 
-   * Pour ajouter une note à une entrée, placez le curseur au-dessus de la balise [!UICONTROL Notes] pour la ligne, puis cliquez sur **[!UICONTROL Add Notes]**. Saisissez du texte dans les champs de saisie, puis cliquez sur **[!UICONTROL Save]**.
+   * Pour ajouter une note à une entrée, placez le curseur sur la colonne [!UICONTROL Notes] de la ligne, puis cliquez sur **[!UICONTROL Add Notes]**. Saisissez du texte dans les champs de saisie, puis cliquez sur **[!UICONTROL Save]**.
 
-   * Pour afficher les détails d’une entrée dans une fenêtre contextuelle, placez le curseur sur la [!UICONTROL Notes] pour la ligne, puis cliquez sur **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Pour afficher les détails d’une entrée dans une fenêtre contextuelle, placez le curseur sur la colonne [!UICONTROL Notes] de la ligne, puis cliquez sur **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >
 >* [À propos de la gestion de modules](package-about.md)
->* [Création d’un module](package-create.md)
->* [Modification d’un module](package-edit.md)
+>* [Créer un module](package-create.md)
+>* [Modifier un module](package-edit.md)
 >* [Joindre un emplacement à un package](package-attach-placement.md)
 >* [Paramètres du module](package-settings.md)
-

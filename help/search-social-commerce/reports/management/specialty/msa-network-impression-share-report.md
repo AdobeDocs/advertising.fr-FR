@@ -1,6 +1,6 @@
 ---
-title: La variable [!UICONTROL MSA Network Impression Share Report]
-description: En savoir plus sur les [!UICONTROL MSA Network Impression Share Report].
+title: Le [!UICONTROL MSA Network Impression Share Report]
+description: Découvrez [!UICONTROL MSA Network Impression Share Report].
 feature: Search Reports, Search Specialty Reports
 exl-id: 274f7bac-5eea-4e21-bcdb-ebf6250c4959
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# La variable [!UICONTROL MSA Network Impression Share Report]
+# Le [!UICONTROL MSA Network Impression Share Report]
 
 *[!DNL Microsoft Advertising]comptes uniquement*
 
-Ce rapport présente les mesures de partage d’impression au niveau de la campagne et les mesures de trafic de base (coût, clics, impressions) par distribution publicitaire (recherche ou audience) et réseau (telles que [!DNL Microsoft] sites et sélectionner le trafic ou l’audience) pour les [!DNL Microsoft Advertising] comptes.
+Ce rapport présente les mesures de partage d’impression au niveau de la campagne et les mesures de trafic de base (coût, clics, impressions) par distribution publicitaire (recherche ou audience) et réseau (par exemple, [!DNL Microsoft] sites et sélection du trafic ou de l’audience) pour des comptes [!DNL Microsoft Advertising] spécifiés.
 
 Lorsque vous exécutez un rapport avec uniquement des colonnes de mesures et sans dimensions, le rapport généré contient deux lignes dupliquées : l’une avec des données agrégées, l’autre avec toutes les mesures.
 
-Vous pouvez afficher les données des 180 derniers jours. Search, Social et Commerce extrait les données de [!DNL Microsoft Advertising] en temps réel et la génération de rapports avec un volume de données plus important peut prendre plusieurs minutes.
+Vous pouvez afficher les données des 180 derniers jours. Search, Social et Commerce extraient les données de [!DNL Microsoft Advertising] en temps réel et la génération de rapports avec un volume de données plus important peut prendre plusieurs minutes.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Vous pouvez afficher les données des 180 derniers jours. Search, Social et Comm
 
 ## Colonnes par défaut
 
-Pour obtenir des descriptions de toutes les colonnes par défaut et personnalisées, voir &quot;[Colonnes de rapports pour les rapports spécialisés](specialty-report-columns.md).&quot;
+Pour obtenir des descriptions de toutes les colonnes par défaut et personnalisées, voir &quot;[Colonnes de rapports pour les rapports spécialisés](specialty-report-columns.md)&quot;.
 
 * [!UICONTROL SE Account Name]
 * [!UICONTROL Campaign Name]
@@ -53,6 +53,6 @@ Pour obtenir des descriptions de toutes les colonnes par défaut et personnalis�
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports spécialisés](specialty-report-about.md)
->* [Génération d’un rapport de spécialité](specialty-report-generate.md)
->* [Paramètres des rapports de spécialité](specialty-report-settings.md)
->* [Colonnes de rapports pour les rapports spécialisés](specialty-report-columns.md)
+>* [Générer un rapport de spécialité](specialty-report-generate.md)
+>* [Paramètres de rapport de spécialité](specialty-report-settings.md)
+>* [Colonnes de rapport pour les rapports spécialisés](specialty-report-columns.md)

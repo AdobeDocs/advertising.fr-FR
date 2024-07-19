@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # A propos des comptes de réseau publicitaire
 
-*Rôles utilisateur du gestionnaire de compte de l’agence, du gestionnaire de compte d’Adobe et de l’administrateur uniquement*
+*Gestionnaire de compte de l’agence, gestionnaire de compte d’Adobe et rôles utilisateur administrateur uniquement*
 
 Search, Social et Commerce peuvent effectuer le suivi de n’importe quel compte d’annonceur sur les réseaux publicitaires pris en charge. Pour activer le suivi d’un compte, vous devez créer un enregistrement de compte correspondant. Vous devez configurer les détails du compte pour n’importe quel type de compte, que Search, Social et Commerce se synchronise ou optimise les offres et les budgets sur ses publicités.
 
 ## Comptes synchronisés via les API
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising] (anciennement [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex], et existants [!DNL Baidu] comptes*
+*[!DNL Google Ads], [!DNL Microsoft Advertising] (anciennement [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex] et comptes [!DNL Baidu] existants*
 
-Synchronisations de Search, Social et Commerce (*syncs*) avec les comptes réseau d’annonces pris en charge afin que vous puissiez suivre, créer des rapports et visualiser les performances de vos annonces. Pour tous les réseaux publicitaires, à l’exception de [!DNL Yahoo! Display Network], vous pouvez éventuellement gérer les campagnes de votre compte dans Search, Social et Commerce. [!DNL Yahoo! Display Network], les campagnes sont en lecture seule. Pour tous les réseaux publicitaires, vous pouvez permettre à la fonctionnalité d’optimisation d’optimiser les offres sur les publicités dans les comptes gérés en les ajoutant aux portefeuilles.
+Search, Social et Commerce se synchronise (*synchronise*) avec les comptes de réseau publicitaire pris en charge afin que vous puissiez effectuer le suivi, créer des rapports et visualiser les performances de vos publicités. Pour tous les réseaux publicitaires, à l’exception de [!DNL Yahoo! Display Network], vous pouvez éventuellement gérer les campagnes de votre compte dans Search, Social et Commerce ; [!DNL Yahoo! Display Network], les campagnes sont en lecture seule. Pour tous les réseaux publicitaires, vous pouvez permettre à la fonctionnalité d’optimisation d’optimiser les offres sur les publicités dans les comptes gérés en les ajoutant aux portefeuilles.
 
 Pour permettre la synchronisation d’un compte, l’enregistrement du compte doit contenir les informations d’identification d’accès au compte et être activé (actif).
 
@@ -32,14 +32,14 @@ Pour plus d’informations sur la création et la modification des campagnes syn
 
 *[!DNL Naver]Comptes*
 
-Les campagnes de suivi vous permettent de suivre, de créer des rapports et de visualiser les performances des annonces que vous achetez directement sur le réseau publicitaire. Search, Social et Commerce ne synchronise pas les données avec le réseau publicitaire, n’enchère pas pour le compte et ne fournit aucun type d’optimisation ou de simulations.
+Les campagnes de suivi vous permettent de suivre, de créer des rapports et de visualiser les performances des annonces que vous achetez directement sur le réseau publicitaire. Search, Social et Commerce ne synchronise pas les données avec le réseau publicitaire, n’enchère pas le compte et ne fournit aucun type d’optimisation ou de simulations.
 
-Pour permettre à Search, Social et Commerce d’attribuer des conversions aux clics, configurez les options de suivi dans l’enregistrement de compte et activez l’enregistrement de compte. Vous pouvez ensuite utiliser des feuilles d’envoi groupées pour générer des URL de suivi pour vos publicités et mots-clés, puis ajouter manuellement les URL de suivi dans la variable [!DNL Naver] gestionnaire de publicités.
+Pour permettre à Search, Social et Commerce d’attribuer des conversions aux clics, configurez les options de suivi dans l’enregistrement de compte et activez l’enregistrement de compte. Vous pouvez ensuite utiliser des feuilles d’envoi groupées pour générer des URL de suivi pour vos publicités et mots-clés, et ajouter manuellement les URL de suivi dans le gestionnaire de publicités [!DNL Naver].
 
-Voir plus d’informations sur [!DNL Naver] campagnes de suivi uniquement, voir &quot;[Mise en oeuvre [!DNL Naver] comptes de suivi uniquement](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md).&quot;
+Pour plus d’informations sur les [!DNL Naver] campagnes de suivi uniquement, voir &quot;[Implémentation [!DNL Naver] comptes de suivi uniquement](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)&quot;.
 
 >[!MORELIKETHIS]
 >
->* [Gestion des comptes de réseau publicitaire](ad-network-account-manage.md)
->* [Gestion des comptes de centre commercial](merchant-account-manage.md)
->* [Mettre à jour le code de suivi AMO ID pour un [!DNL Google Ads] account](update-amo-id-google.md)
+>* [Gérer des comptes réseau publicitaires](ad-network-account-manage.md)
+>* [Gérer les comptes de centre commercial](merchant-account-manage.md)
+>* [Mettre à jour le code de suivi AMO ID pour un  [!DNL Google Ads] compte](update-amo-id-google.md)

@@ -1,6 +1,6 @@
 ---
 title: Formats de suivi des clics pour [!DNL Microsoft Advertising]
-description: Découvrez les formats de suivi des clics pour [!DNL Microsoft Advertising] comptes.
+description: Découvrez les formats de suivi des clics pour les comptes  [!DNL Microsoft Advertising] .
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Formats de suivi des clics pour [!DNL Microsoft Advertising]
 
-Vous trouverez ci-dessous les formats de modèle de suivi de base et de suffixe de page d’entrée (suffixe URL final) requis par Search, Social et Commerce pour [!DNL Microsoft Advertising].
+Vous trouverez ci-dessous les formats de modèle de suivi de base et de suffixe de page d’entrée (suffixe d’URL final) requis par Search, Social et Commerce pour [!DNL Microsoft Advertising].
 
 ## Formats des modèles de tracking
 
@@ -30,7 +30,7 @@ Exemple :
 >
 >* `<advertiser_ID>` est une variable de l’identifiant unique de l’annonceur dans Adobe Advertising.
 >
->* Ce format indique que la transmission de jetons est activée pour la campagne (valeur par défaut). Si la transmission de jeton est désactivée, remplacez `cq?` after `<advertiser_ID>` avec `c?`.
+>* Ce format indique que la transmission de jetons est activée pour la campagne (valeur par défaut). Si le transfert de jeton est désactivé, remplacez `cq?` après `<advertiser_ID>` par `c?`.
 >
 >* `{TargetId}` représente l’identifiant de a) le mot-clé ou b) la liste de remarketing et le mot-clé (audience) qui ont déclenché la publicité (par exemple, &quot;kwd-123:aud-456&quot; pour un mot-clé et une liste de remarketing ou &quot;kwd-123&quot; pour le mot-clé uniquement).
 
@@ -46,13 +46,13 @@ Exemple :
 >
 >* `<advertiser_ID>` est une variable de l’identifiant unique de l’annonceur dans Adobe Advertising.
 >
->* Ce format indique que la transmission de jetons est activée pour la campagne (valeur par défaut). Si la transmission de jeton est désactivée, remplacez `cq?` after `<advertiser_ID>` avec `c?`.
+>* Ce format indique que la transmission de jetons est activée pour la campagne (valeur par défaut). Si le transfert de jeton est désactivé, remplacez `cq?` après `<advertiser_ID>` par `c?`.
 >
 >* `{TargetId}` représente l’identifiant de a) le mot-clé ou b) la liste de remarketing et le mot-clé (audience) qui ont déclenché la publicité (par exemple, &quot;kwd-123:aud-456&quot; pour un mot-clé et une liste de remarketing ou &quot;kwd-123&quot; pour le mot-clé uniquement).
 >
->* `{adextensionid}` n’est pas utilisée.
+>* `{adextensionid}` n’est pas utilisé.
 >
->* (Liens de site) Vous pouvez identifier les conversions résultant d’un clic sur un lien de site en générant une [!UICONTROL Transaction Report]. La variable [!UICONTROL Link Type] la valeur de colonne d’un lien de site est `sl:<Sitelink text>`, par exemple `sl:See Current Offers`.
+>* (Liens de site) Vous pouvez voir les conversions résultant d’un clic sur un lien de site en générant un [!UICONTROL Transaction Report]. La valeur de colonne [!UICONTROL Link Type] pour un lien de site est `sl:<Sitelink text>`, comme `sl:See Current Offers`.
 
 ### Réseau commercial
 
@@ -68,11 +68,11 @@ Exemple :
 >
 >* `<advertiser_ID>` est une variable de l’identifiant unique de l’annonceur dans Adobe Advertising.
 >
->* Ce format indique que la transmission de jetons est activée pour la campagne (valeur par défaut). Si la transmission de jeton est désactivée, remplacez `cq?` after `<advertiser_ID>` avec `c?`.
+>* Ce format indique que la transmission de jetons est activée pour la campagne (valeur par défaut). Si le transfert de jeton est désactivé, remplacez `cq?` après `<advertiser_ID>` par `c?`.
 >
 >* `{TargetId}` représente l’identifiant de a) le mot-clé ou b) la liste de remarketing et le mot-clé (audience) qui ont déclenché la publicité (par exemple, &quot;kwd-123:aud-456&quot; pour un mot-clé et une liste de remarketing ou &quot;kwd-123&quot; pour le mot-clé uniquement).
 >
->* (Facultatif) Au lieu de saisir des modèles de suivi au niveau du compte, de la campagne, du groupe publicitaire ou du groupe de produits, vous pouvez ajouter l’URL de suivi aux données du produit dans la variable [!DNL Microsoft Merchant Center] compte . Pour ce faire, incluez l’URL de suivi, ainsi que la valeur dans le`link`&quot; ou &quot;`mobile_link`&quot;, selon le cas, dans une colonne personnalisée &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; dans le flux de produit. La valeur de la propriété`bingads_redirect`&quot; remplace les valeurs du champ &quot;`link`&quot; et &quot;`mobile_link`&quot;. Les URL générées à l’aide de cette méthode n’incluent aucun paramètre de suivi spécifié dans les paramètres de compte ou de campagne Search, Social et Commerce.
+>* (Facultatif) Au lieu de saisir des modèles de suivi au niveau du compte, de la campagne, du groupe publicitaire ou du groupe de produits, vous pouvez ajouter l’URL de suivi aux données de produit dans le compte [!DNL Microsoft Merchant Center]. Pour ce faire, incluez l’URL de suivi, ainsi que la valeur dans le champ &quot;`link`&quot; ou &quot;`mobile_link`&quot;, le cas échéant, dans une colonne personnalisée &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; dans le flux de produit. La valeur du champ &quot;`bingads_redirect`&quot; remplace les valeurs des champs &quot;`link`&quot; et &quot;`mobile_link`&quot;. Les URL générées à l’aide de cette méthode n’incluent aucun paramètre de suivi spécifié dans les paramètres de compte ou de campagne Search, Social et Commerce.
 
 ## Formats des suffixes de landing page (suffixe URL final)
 
@@ -106,5 +106,5 @@ Les comptes qui utilisent le suivi de conversion d’Adobe Advertising doivent i
 
 >[!MORELIKETHIS]
 >
->* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion Adobe Advertising](formats-click-tracking-about.md)
+>* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion d’Adobe Advertising](formats-click-tracking-about.md)
 >* [Formats AMO ID](/help/integrations/analytics/ids.md#amo-id-formats)

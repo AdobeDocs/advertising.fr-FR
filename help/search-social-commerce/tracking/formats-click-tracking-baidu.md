@@ -1,9 +1,9 @@
 ---
 title: Formats de suivi des clics pour [!DNL Baidu]
-description: Découvrez les formats de suivi des clics pour [!DNL Baidu] comptes.
-exl-id: a57ff0cf-0bcf-4d55-9a86-7551db8a08e7
+description: Découvrez les formats de suivi des clics pour les comptes  [!DNL Baidu] .
+exl-id: 4f4ed518-aa25-4a29-b263-c01f78b69b92
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Exemple :
 >
 >* `<advertiser_ID>` est une variable de l’identifiant unique de l’annonceur dans Adobe Advertising.
 >
->* Ce format indique que la transmission de jetons est activée pour la campagne (valeur par défaut). Si la transmission de jeton est désactivée, remplacez `cq?` after `<advertiser_ID>` avec `c?`.
+>* Ce format indique que la transmission de jetons est activée pour la campagne (valeur par défaut). Si le transfert de jeton est désactivé, remplacez `cq?` après `<advertiser_ID>` par `c?`.
 >
 >* `<campaignID>` est une variable de l’identifiant de campagne numérique.
 >
@@ -32,5 +32,5 @@ Exemple :
 
 >[!MORELIKETHIS]
 >
->* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion Adobe Advertising](formats-click-tracking-about.md)
+>* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion d’Adobe Advertising](formats-click-tracking-about.md)
 >* [Formats AMO ID](/help/integrations/analytics/ids.md#amo-id-formats)

@@ -1,12 +1,12 @@
 ---
 title: Affectation de valeurs de classification à des composants de compte à l’aide de feuilles d’envoi groupées
 description: Découvrez comment utiliser des feuilles d’envoi groupé pour affecter des valeurs de classification aux composants du compte.
-exl-id: 9bb38f28-d6bc-41f4-9c28-b391d9b9e412
+exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 7%
+source-wordcount: '479'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ Les valeurs d’étiquette sont héritées par les entités enfants. Par conséq
 
 >[!NOTE]
 >
->Les mots-clés et la copie de publicité pour certains réseaux publicitaires et types de campagne sont les suivants : [non modifiable](/help/search-social-commerce/campaign-management/faqs-campaigns.md), ce qui signifie que les modifier supprime l’entité existante et en crée une nouvelle. Lorsqu’une entité existante est ainsi supprimée, la classification de libellés n’est pas affectée à la nouvelle entité.
+>Les mots-clés et la copie de publicités pour certains réseaux publicitaires et types de campagne sont [non modifiable](/help/search-social-commerce/campaign-management/faqs-campaigns.md), ce qui signifie que leur modification supprime l’entité existante et en crée une nouvelle. Lorsqu’une entité existante est ainsi supprimée, la classification de libellés n’est pas affectée à la nouvelle entité.
 
-1. [Téléchargement d’une feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) qui comprend les entités auxquelles vous souhaitez affecter des valeurs de classification de libellé :
+1. [Téléchargez une feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) qui comprend les entités auxquelles vous souhaitez affecter des valeurs de classification d’étiquettes :
 
-   * Sur le [!UICONTROL Rows and Columns] , développez la [!UICONTROL Campaign] dans la [!UICONTROL Bulksheet Columns] volet.
+   * Sur l’onglet [!UICONTROL Rows and Columns] , développez la liste [!UICONTROL Campaign] dans le volet [!UICONTROL Bulksheet Columns].
 
-   * Développez l’objet [!UICONTROL Label Classification] liste.
+   * Développez la liste [!UICONTROL Label Classification].
 
    * Sélectionnez chaque classification pour laquelle vous souhaitez inclure une colonne dans le fichier de feuille d’envoi groupé.
 
@@ -38,7 +38,7 @@ Les valeurs d’étiquette sont héritées par les entités enfants. Par conséq
 
    Outre l’ajout de valeurs, vous pouvez également supprimer des valeurs existantes en les supprimant des lignes correspondantes. Pour supprimer des valeurs d’une entité parente et de ses entités enfants, a) incluez uniquement la ligne d’entité parente et supprimez la valeur de classification existante ou b) incluez l’entité parente et ses entités enfants, et supprimez la valeur de classification existante de toutes les lignes parentes et enfants.
 
-1. [Chargement du fichier](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) pour créer les associations.
+1. [Téléchargez le fichier](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) pour créer les associations.
 
 Les valeurs de libellé transférées sont visibles dans les vues d’entité appropriées.
 
@@ -48,21 +48,21 @@ Cet exemple comprend des colonnes pour les classifications d’étiquettes &quot
 
 | Compte | Campagne | Groupe publicitaire | Mot-clé | Publicité | Emplacement | Étiquettes | Couleur | Géo |
 |---|---|---|---|---|---|---|---|---|
-| Acct1 | C1 | | | | | | Vert | |
-| Acct1 | C1 | AG1 | | | | | | |
-| Acct1 | C1 | AG1 | K1 | | | | | UK |
-| Acct1 | C1 | AG1 | K2 | | | | Rouge | AU |
-| Acct1 | C1 | AG1 | K3 | | | | bleu | DE |
-| Acct1 | C1 | AG1 | | A1 | | | | |
-| Acct1 | C1 | AG1 | | A1 | | | Rouge | |
-| Acct1 | C1 | AG1 | | | P1 | | Rouge | AU |
-| Acct1 | C1 | AG1 | | | P2 | | bleu | DE |
+| Act1 | C1 | | | | | | Vert | |
+| Act1 | C1 | AG1 | | | | | | |
+| Act1 | C1 | AG1 | K1 | | | | | UK |
+| Act1 | C1 | AG1 | K2 | | | | Rouge | AU |
+| Act1 | C1 | AG1 | K3 | | | | bleu | DE |
+| Act1 | C1 | AG1 | | A1 | | | | |
+| Act1 | C1 | AG1 | | A1 | | | Rouge | |
+| Act1 | C1 | AG1 | | | P1 | | Rouge | AU |
+| Act1 | C1 | AG1 | | | P2 | | bleu | DE |
 
 >[!MORELIKETHIS]
 >
 >* [À propos des classifications d’étiquettes](classification-about.md)
->* [Création d’une classification d’étiquettes](classification-create.md)
->* [Affectation de valeurs de classification à des composants de compte à partir des vues de gestion de campagne](classification-values-assign-campaign-management.md)
->* [Suppression des valeurs de classification d’étiquette des composants de compte](classification-values-remove.md)
->* [Supprimer des valeurs de classification d’étiquettes](classification-values-delete.md)
+>* [Créer une classification d’étiquettes](classification-create.md)
+>* [Attribuer des valeurs de classification aux composants de compte à partir des vues de gestion de campagne](classification-values-assign-campaign-management.md)
+>* [Supprimer les valeurs de classification d’étiquette des composants de compte](classification-values-remove.md)
+>* [ Supprimer des valeurs de classification d’étiquettes](classification-values-delete.md)
 >* [Supprimer des classifications d’étiquettes](classification-delete.md)

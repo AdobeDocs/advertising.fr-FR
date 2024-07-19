@@ -7,15 +7,15 @@ ht-degree: 0%
 ---
 # Champ Type de suivi dans les paramètres du compte et de l’opération
 
-**[!UICONTROL Tracking Type]:** Méthode de génération des URL :
+**[!UICONTROL Tracking Type]:** Méthode par laquelle les URL sont générées :
 
-* *[!UICONTROL EF Redirect]* (valeur par défaut) : Pour les clients qui souhaitent utiliser le service de suivi de conversion Adobe Advertising. Cette méthode génère des identifiants de suivi des clics uniques et redirige les utilisateurs vers le serveur Adobe Advertising à des fins de suivi avant de les envoyer à la page d’entrée du client.
+* *[!UICONTROL EF Redirect]* (valeur par défaut) : pour les clients qui souhaitent utiliser le service de suivi de conversion d’Adobe Advertising. Cette méthode génère des identifiants de suivi des clics uniques et redirige les utilisateurs vers le serveur Adobe Advertising à des fins de suivi avant de les envoyer à la page d’entrée du client.
 
-   Cette méthode propose des options de suivi par défaut que vous pouvez éventuellement personnaliser et vous pouvez également spécifier des paramètres à ajouter à chaque URL.
+  Cette méthode propose des options de suivi par défaut que vous pouvez éventuellement personnaliser et vous pouvez également spécifier des paramètres à ajouter à chaque URL.
 
-* *[!UICONTROL No EF Redirect]:* Pour les clients qui souhaitent utiliser uniquement leurs propres codes de suivi des clics. Search, Social et Commerce ne fournit pas d’ID de suivi des clics ni de codes de redirection. Pour les comptes comportant des URL de destination, chaque URL de destination est identique à l’URL de base.
+* *[!UICONTROL No EF Redirect]:* Pour les clients qui souhaitent utiliser uniquement leurs propres codes de suivi des clics. Search, Social et Commerce ne fournit pas d’identifiants de suivi des clics ni de codes de redirection. Pour les comptes comportant des URL de destination, chaque URL de destination est identique à l’URL de base.
 
-   **Remarques :**
+  **Notes :**
 
    * Seul le gestionnaire de compte d’agence, le gestionnaire de compte d’Adobe et les utilisateurs administrateurs peuvent modifier cette valeur.
    * Si vous modifiez la méthode de suivi, vous devez régénérer les URL de suivi pour le compte.

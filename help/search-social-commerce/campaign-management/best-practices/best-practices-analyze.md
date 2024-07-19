@@ -24,7 +24,7 @@ Pour plus d’informations sur l’ajustement de vos mots-clés et des paramètr
 
 >[!TIP]
 >
->Pour plus d’informations sur les bonnes pratiques spécifiques aux campagnes dans les portefeuilles, voir également le Guide d’optimisation > Gestion des Portfolios > Bonnes pratiques pour les Portfolios , disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Pour plus d’informations sur les bonnes pratiques spécifiques aux campagnes dans les portefeuilles, reportez-vous également à la section Guide d’optimisation > Gestion des Portfolios > Bonnes pratiques pour les Portfolios , disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >

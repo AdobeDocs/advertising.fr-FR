@@ -5,7 +5,7 @@ feature: DSP Segments
 exl-id: 1df6bf2a-4008-46ec-8b4a-e3d0c8322e44
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Vous pouvez modifier le nom et l’intervalle de recherche en amont d’un segme
 
 1. Modifiez les informations du segment :
 
-   1. (Facultatif) Modifiez le segment. **[!UICONTROL Name]**.
+   1. (Facultatif) Modifiez le segment **[!UICONTROL Name]**.
 
       Chaque nom de segment doit être unique pour le type de segment.
 
-   1. (Segments personnalisés uniquement) ; (facultatif) Modifiez la variable **[!UICONTROL Segment Window]**: nombre de jours pendant lesquels le cookie d’un utilisateur reste dans le segment.
+   1. (Segments personnalisés uniquement ; facultatif) Modifiez le **[!UICONTROL Segment Window]**, qui est le nombre de jours pendant lesquels le cookie d’un utilisateur reste dans le segment.
 
       Saisissez une valeur comprise entre 1 (1) et 365.
 
@@ -33,8 +33,7 @@ Vous pouvez modifier le nom et l’intervalle de recherche en amont d’un segme
 >[!MORELIKETHIS]
 >
 >* [À propos de la gestion de l’audience](audience-about.md)
->* [Création d’un segment personnalisé](custom-segment-create.md)
->* [Suppression d’un segment](segment-delete.md)
->* [Affichage des pixels de suivi pour un segment](segment-view-pixels.md)
->* [Partage ou arrêt du partage d’un segment](segment-share.md)
-
+>* [Créer un segment personnalisé](custom-segment-create.md)
+>* [Supprimer un segment](segment-delete.md)
+>* [Afficher les pixels de suivi pour un segment](segment-view-pixels.md)
+>* [Partager ou arrêter le partage d’un segment](segment-share.md)

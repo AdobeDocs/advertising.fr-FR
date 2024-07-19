@@ -1,7 +1,7 @@
 ---
 role: User
 user-guide-title: Politiques et directives d’Adobe Advertising
-user-guide-description: En savoir plus sur les politiques et les directives relatives aux DSP de publicité et [!DNL Advertising Search, Social, & Commerce].
+user-guide-description: Découvrez les stratégies et les directives pour Advertising DSP et  [!DNL Advertising Search, Social, & Commerce].
 breadcrumb-title: Politiques et directives
 index: true
 source-git-commit: 87971361638d5d7d36c07b8c322a533f79705745
@@ -17,4 +17,4 @@ ht-degree: 35%
 + [Stratégie des exigences en matière de publicités](/help/policies/ad-requirements-policy.md)
 + [Stratégie des exigences d’ID universelle](/help/policies/universal-id-policy.md)
 + [Directives relatives aux segments d’intégrité acceptables](/help/policies/health-segment-guidelines.md)
-+ [[!DNL DSP] Instructions d’utilisation des données](/help/policies/data-usage-guidelines.md)
++ [[!DNL DSP] Consignes d’utilisation des données](/help/policies/data-usage-guidelines.md)

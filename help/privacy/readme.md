@@ -5,8 +5,8 @@ source-wordcount: '26'
 ht-degree: 0%
 
 ---
-# Documentation du support à la confidentialité pour les clients pour Adobe Advertising
+# Documentation du service confidentialité client pour Adobe Advertising
 
-Ce dossier est destiné à la prise en charge de Adobe Advertising pour la confidentialité des consommateurs.
+Ce dossier est destiné à la prise en charge des Adobes Advertising pour la confidentialité des consommateurs.
 
 **Remarque : Cette page n’est pas publiée dans la documentation destinée aux clients.**

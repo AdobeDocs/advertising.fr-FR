@@ -1,5 +1,5 @@
 ---
-title: Macros sur les DSP publicitaires
+title: Macros Advertising DSP
 description: Référencez les macros disponibles pour le suivi général et pour effectuer le suivi des clics sur les publicités tierces.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Macros sur les DSP publicitaires
+# Macros Advertising DSP
 
 Une macro est une courte commande ou un raccourci pour une instruction et suit généralement le format `${MACRO_NAME}`. Les macros incluses dans le code créatif ou les URL de clic publicitaire se développent en une chaîne de code plus longue que le serveur d’annonces peut comprendre. Le serveur de publicités DSP exécute les macros lorsque la publicité est diffusée ou fait l’objet d’un clic.
 
@@ -34,7 +34,7 @@ Utilisez des macros de suivi générales pour tous les types de balises et d’a
 | ` ${TM_CLICK_URL_URLENC}` | URL de redirection codée, qui permet aux serveurs d’annonces de suivre et de comptabiliser les clics publicitaires. Lorsque la publicité est diffusée, si l’utilisateur clique dessus, la macro est activée et le clic est enregistré et comptabilisé à des fins de création de rapports. N’utilisez pas cette macro à moins que vous ne créiez des publicités tierces et que votre fournisseur ne nécessite pas de codage d’URL. | string |
 | `${TM_FEED_ID}` | Clé du placement du média (feedKey). | string |
 | `${TM_FEED_ID_NUM}` | L’identifiant de l’emplacement du média. | entier |
-| ` ${TM_MACRO_PLACEMENT_SITE_KEY` | Clé de site de l’emplacement. Requis pour [!DNL AppsFlyer] cliquez sur trackers pour les annonces d’installation d’applications mobiles.<!-- should map to placement_site_key column of placement_site table --> | string |
+| ` ${TM_MACRO_PLACEMENT_SITE_KEY` | Clé de site de l’emplacement. Requis pour les [!DNL AppsFlyer] outils de suivi des clics pour les annonces d’installation d’applications mobiles.<!-- should map to placement_site_key column of placement_site table --> | string |
 | `${TM_PLACEMENT_ID}` | Clé d’emplacement (cpKey). | string |
 | `${TM_PLACEMENT_ID_NUM}` | L’ID d’emplacement. | entier |
 | `${TM_RANDOM}` | Mise en cache : nombre aléatoire compris entre 1 et 1000000. | long |
@@ -56,14 +56,14 @@ Utilisez des macros de suivi générales pour tous les types de balises et d’a
 
 | Macro | Description du remplacement | Type |
 | ----- | ----------------------- | ---- |
-| `${CS_PLATFORM_ID}` | ([!DNL ComScore]) Identifiant de la plateforme, qui correspond au système d’exploitation de l’appareil :<ul><li>`ios` = [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` lorsque la plateforme n’est pas l’une des options ci-dessus ;</li></ul> | varchar(50) |
-| `${CS_DEVICE_MODEL}` | ([!DNL ComScore]) Nom du modèle de l’appareil, codé en URL. | string |
+| `${CS_PLATFORM_ID}` | ([!DNL ComScore]) ID de plateforme, qui correspond au système d’exploitation de l’appareil :<ul><li>`ios` = [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` lorsque la plateforme n’est pas l’une des valeurs ci-dessus</li></ul> | varchar(50) |
+| `${CS_DEVICE_MODEL}` | ([!DNL ComScore]) Nom du modèle d’appareil, encodé en URL. | string |
 | `${CS_IMPLEMENTATION_TYPE}` | ([!DNL ComScore]) Environnement dans lequel la publicité a été diffusée :<ul><li>`a` = application mobile</li><li>`b` = site web mobile</li></ul> | string (`a` ou `b`) |
-| `${NS_PLATFORM_ID}` | ([!DNL Nielsen]) Identifiant de la plateforme, qui correspond au système d’exploitation de l’appareil :<ul><li>`ios`= [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` lorsque la plateforme n’est pas l’une des options ci-dessus ;</li></ul> | string |
+| `${NS_PLATFORM_ID}` | ([!DNL Nielsen]) ID de plateforme, qui correspond au système d’exploitation de l’appareil :<ul><li>`ios`= [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` lorsque la plateforme n’est pas l’une des valeurs ci-dessus</li></ul> | string |
 | `${NS_DEVICE_GROUPING}` | ([!DNL Nielsen]) Type d’appareil sur lequel la publicité était visionneuse :<ul><li>`TAB` = tablette</li><li>`PHN` = mobile</li><li>`computer` = ordinateur</li></ul> | string |
-| `${UOO}` | ([!DNL Nielsen]) Si l’utilisateur a désactivé le suivi publicitaire :<ul><li>`1` (Indicateur DNT = 1) = l’utilisateur a désactivé le suivi des publicités</li><li>`0` (Indicateur DNT = 0) = l’utilisateur s’est abonné au suivi des publicités</li></ul> | entier (`0` ou `1`) |
-| `${TM_BUNDLE}` | La variable [!DNL iOS] ou [!DNL Android] ID de lot de la boutique d’applications. Exemples : com.zynga.wwf2.free ou id804379658 | string |
-| `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}` indique si l’enchérisseur détermine que la demande d’offre provient de l’Union européenne et requiert l’application du RGPD :<ul><li>`1` = Le RGPD doit être appliqué</li><li>`0` = Le RGPD ne doit pas être appliqué</li></ul>`gdpr_consent=${GDPR_CONSENT}` est la valeur de consentement transmise par le partenaire fournisseur dans la demande d’offre entrante :<ul><li>Dans la plupart des cas, il s’agit d’une chaîne de consentement encodée en base64url, ou daisybit (exemple : BN5lERiOMYEdiAKAWXEND1HoSBE6CAFAApAMgBkIDIgM0AgOJxAnQA)</li><li>`0` = aucun consentement</li><li>`1` = consentement</li></ul> | daisybit ou integer |
+| `${UOO}` | ([!DNL Nielsen]) Indique si l’utilisateur a désactivé le suivi publicitaire :<ul><li>`1` (indicateur DNT = 1) = l’utilisateur a désactivé le suivi des publicités</li><li>`0` (indicateur DNT = 0) = l’utilisateur s’est abonné au suivi des publicités</li></ul> | integer (`0` ou `1`) |
+| `${TM_BUNDLE}` | ID de lot de la boutique d’applications [!DNL iOS] ou [!DNL Android]. Exemples : com.zynga.wwf2.free ou id804379658 | string |
+| `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}` indique si l’enchérisseur détermine que la demande d’offre provient de l’Union européenne et nécessite l’application du RGPD :<ul><li>`1` = Le RGPD doit être appliqué</li><li>`0` = Le RGPD ne doit pas être appliqué</li></ul>`gdpr_consent=${GDPR_CONSENT}` est la valeur de consentement transmise au partenaire d’approvisionnement dans la demande d’offre entrante :<ul><li>Dans la plupart des cas, il s’agit d’une chaîne de consentement encodée en base64url, ou daisybit (exemple : BN5lERiOMYEdiAKAWXEND1HoSBE6CAFAApAMgBkIDIgM0AgOJxAnQA)</li><li>`0` = aucun consentement</li><li>`1` = consentement</li></ul> | daisybit ou integer |
 
 {style="table-layout:auto"}
 
@@ -80,14 +80,14 @@ Pour effectuer un suivi précis des clics pour les publicités à l’aide de ba
 
 DSP insère automatiquement les macros d’affichage des clics dans une balise d’affichage tierce lorsque vous :
 
-* Exportation des balises publicitaires à partir d’un partenaire de serveur de publicités <!-- [Needs PM confirmation.] -->
-* Chargement en masse [!DNL Flashtalking] ou [!DNL Google DoubleClick for Advertisers] balises publicitaires directement dans DSP
+* Exporter des balises publicitaires d’un partenaire de serveur de publicités <!-- [Needs PM confirmation.] -->
+* Chargement en masse de [!DNL Flashtalking] ou de [!DNL Google DoubleClick for Advertisers] balises publicitaires directement dans DSP
 
 Si une macro de clic est manquante lors de la création d’une publicité display, DSP affiche un message d’avertissement vous invitant à insérer manuellement la macro de clic d’affichage appropriée dans la zone appropriée de la balise.
 
 ## [!DNL Analytics for Advertising] Macros
 
-Pour les macros supplémentaires disponibles spécifiquement pour [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) clients, voir &quot;[Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Flashtalking] Balises publicitaires](/help/integrations/analytics/macros-flashtalking.md)&quot; et &quot;[Ajouter [!DNL Analytics for Advertising] Macros vers [!DNL Google Campaign Manager 360] Balises publicitaires](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+Pour obtenir des macros supplémentaires disponibles spécifiquement pour les clients [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md), voir &quot;[Ajouter [!DNL Analytics for Advertising] des macros à [!DNL Flashtalking] Balises publicitaires](/help/integrations/analytics/macros-flashtalking.md)&quot; et &quot;[Ajouter [!DNL Analytics for Advertising] des macros à [!DNL Google Campaign Manager 360] Balises publicitaires](/help/integrations/analytics/macros-google-campaign-manager.md)&quot;.
 
 ## Dépannage des erreurs de macro
 
@@ -101,9 +101,9 @@ Des erreurs sont générées si des caractères sont manquants au début ou à l
 >[!MORELIKETHIS]
 >
 >* [Paramètres de publicité audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [Paramètres des publicités télévisées connectées](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [Paramètres d’affichage des publicités](/help/dsp/campaign-management/ads/ad-settings-display.md)
->* [Paramètres des publicités mobiles](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [ Paramètres de publicité télévisée connectée ](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [Paramètres d’affichage de la publicité](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Paramètres de publicité mobile](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
 >* [Paramètres de publicité native](/help/dsp/campaign-management/ads/ad-settings-native.md)
 >* [Paramètres de publicité preroll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 >* [Paramètres de publicité vidéo universelle](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

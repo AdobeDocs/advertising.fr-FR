@@ -1,24 +1,24 @@
 ---
 title: Méthode de calcul des règles d’attribution
 description: Découvrez comment l’Adobe Advertising calcule chaque type de règle d’attribution.
-exl-id: b61561fa-8c01-4989-9ef7-620d2b4c2c0b
+exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '2439'
+source-wordcount: '2716'
 ht-degree: 0%
 
 ---
 
 # Méthode de calcul des règles d’attribution pour l’Adobe Advertising
 
-*Publicitaires avec suivi de conversion des Adobes Advertising uniquement*
+*Annonceurs avec suivi des conversions par Adobe Advertising uniquement*
 
 <!-- Verify statements about cross-device events -->
 
 La règle d’attribution au niveau de l’annonceur est utilisée pour attribuer des données de conversion, potentiellement sur plusieurs canaux publicitaires, dans une série d’événements qui mènent à une conversion.
 
-Dans les rapports, les vues par défaut et personnalisées pour Advertising Search, Social &amp; Commerce (Search, Social, &amp; Commerce) et (certains rôles utilisateur) les simulations au niveau du portefeuille pour Search, Social, &amp; Commerce, la règle sélectionnée n’est utilisée que pour les données d’affichage, de rapport ou de simulation. Les différentes règles d’attribution sont appliquées comme suit.
+Dans les rapports, les vues par défaut et personnalisées pour Advertising Search, Social et Commerce (Search, Social et Commerce) et (certains rôles utilisateur) les simulations au niveau du portfolio pour Search, Social et Commerce, la règle sélectionnée n’est utilisée que pour les données d’affichage, de rapport ou de simulation. Les différentes règles d’attribution sont appliquées comme suit.
 
 >[!NOTE]
 >
@@ -29,11 +29,11 @@ Dans les rapports, les vues par défaut et personnalisées pour Advertising Sear
 
 ## Dernier événement (valeur par défaut)
 
-Attribue la conversion au dernier clic payant de la série dans le rapport [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) ou, si aucun clic payant n’a eu lieu, à la dernière impression dans le rapport [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j).
+Attribue la conversion au dernier clic payant de la série dans la [fenêtre de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) de l’annonceur ou, si aucun clic payant n’a eu lieu, à la dernière impression dans la [fenêtre de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j) de l’annonceur.
 
-Lorsque la conversion est précédée uniquement par des impressions, la conversion est considérée comme une *affichage publicitaire*, qui est pondéré selon le [définition du poids d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) ou — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire définie dans le rapport, l’affichage ou les paramètres personnalisés de la simulation.
+Lorsque la conversion est précédée uniquement par des impressions, elle est considérée comme une *vue-publicitaire*, qui est pondérée soit en fonction de la [pondération d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) de l’annonceur, soit — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire spécifiée dans le rapport, la vue ou les paramètres personnalisés de la simulation.
 
-![Pourcentages d’attribution des derniers événements](/help/search-social-commerce/assets/attribution-percent-last-event.png "Pourcentages d’attribution des derniers événements")
+![Pourcentages d’attribution du dernier événement](/help/search-social-commerce/assets/attribution-percent-last-event.png "Pourcentages d’attribution du dernier événement")
 
 <!-- start examples as collapsible content -->
 
@@ -71,11 +71,11 @@ La conversion est attribuée à Impression 3. La conversion étant un affichage 
 
 ## Premier événement
 
-Attribue la conversion au premier clic payant de la série dans le rapport de l’annonceur. [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) ou, si aucun clic payant n’a eu lieu, à la première impression dans le rapport [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j). Cette règle est disponible uniquement pour les événements sur des appareils uniques.
+Attribue la conversion au premier clic payant de la série dans la [fenêtre de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) de l’annonceur ou, si aucun clic payant n’a eu lieu, à la première impression dans la [fenêtre de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j) de l’annonceur. Cette règle est disponible uniquement pour les événements sur des appareils uniques.
 
-Lorsque la conversion est précédée uniquement par des impressions, la conversion est considérée comme une *affichage publicitaire*, qui est pondéré selon le [définition du poids d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) ou — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire définie dans le rapport, l’affichage ou les paramètres personnalisés de la simulation.
+Lorsque la conversion est précédée uniquement par des impressions, la conversion est considérée comme une *vue-publicitaire*, qui est pondérée soit en fonction de la [pondération d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) de l’annonceur, soit — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire spécifiée dans les paramètres de rapport, d’affichage ou de simulation personnalisée.
 
-![Premiers pourcentages d’attribution d’événement](/help/search-social-commerce/assets/attribution-percent-first-event.png "Premiers pourcentages d’attribution d’événement")
+![Premier pourcentage d’attribution d’événement](/help/search-social-commerce/assets/attribution-percent-first-event.png "Premier pourcentage d’attribution d’événement")
 
 <!-- start examples as collapsible content -->
 
@@ -101,7 +101,8 @@ La conversion est attribuée à Click 1 pour un montant de 120 USD.
 
 Chemin de l’événement : Impression 1, Impression 2, Impression 3, Conversion de 120 USD
 
-La conversion est attribuée à Impression 1. La conversion étant un affichage publicitaire, la méthode d’évaluation d’affichage publicitaire sélectionnée dans la section &quot;(Campagnes d’affichage) Attribution de conversion&quot; des paramètres du rapport est appliquée :
+La conversion est attribuée à Impression 1. La conversion étant un affichage publicitaire, la méthode d’évaluation d’affichage publicitaire sélectionnée dans la conversion &quot;(Campagnes d’affichage)&quot;
+La section Attribution des paramètres du rapport est appliquée :
 
 * Si le paramètre de rapport indique un poids d’affichage publicitaire pondéré, ce poids est appliqué à l’affichage publicitaire. Par exemple, si le poids d’affichage publicitaire de l’annonceur est de 40 %, alors 120 x 40 % = 48 USD, donc 48 USD sont attribués à Impression 1.
 
@@ -113,17 +114,17 @@ La conversion est attribuée à Impression 1. La conversion étant un affichage 
 
 ## Poids - Premier événement Plus
 
-Attribue la conversion à tous les événements de la série qui se sont produits dans le rapport [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j), mais donne le plus de poids au premier événement et successivement moins de poids aux événements suivants. Cette règle est disponible pour les événements sur des appareils uniques uniquement.
+Attribue la conversion à tous les événements de la série qui se sont produits dans la [fenêtre de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et la [fenêtre de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j) de l’annonceur, mais donne le plus de poids au premier événement et, successivement, moins de poids aux événements suivants. Cette règle est disponible pour les événements sur des appareils uniques uniquement.
 
-Lorsque la conversion est précédée uniquement par des impressions, la conversion est considérée comme une *affichage publicitaire*, qui est pondéré selon le [définition du poids d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) ou — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire définie dans le rapport, l’affichage ou les paramètres personnalisés de la simulation.
+Lorsque la conversion est précédée uniquement par des impressions, la conversion est considérée comme une *vue-publicitaire*, qui est pondérée soit en fonction de la [pondération d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) de l’annonceur, soit — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire spécifiée dans les paramètres de rapport, d’affichage ou de simulation personnalisée.
 
 Lorsque le chemin de conversion inclut à la fois des clics payants et des impressions, les impressions sont traitées différemment par différents produits d’Adobe Advertising :
 
-* Dans Search, Social et Commerce, la variable [poids du remplacement d’impression](/help/search-social-commerce/glossary.md#i-j) — qui est spécifié dans le paramètre de poids de remplacement d’impression de l’annonceur et dans les paramètres de rapport, d’affichage ou de simulation personnalisés — est d’abord appliqué aux impressions.
+* Dans Search, Social et Commerce, le [poids de remplacement d’impression](/help/search-social-commerce/glossary.md#i-j) — spécifié dans le paramètre de poids de remplacement d’impression de l’annonceur et dans les paramètres de rapport, d’affichage ou de simulation personnalisés — est d’abord appliqué aux impressions.
 
 * Dans DSP, les impressions sont ignorées et seuls les clics sont pondérés. DSP ne prend pas en compte les poids de remplacement d’impression pour l’attribution.
 
-![Poids du premier événement plus de pourcentages d’attribution](/help/search-social-commerce/assets/attribution-percent-weight-first-more.png "Poids du premier événement plus de pourcentages d’attribution")
+![Poids le premier événement plus de pourcentages d’attribution](/help/search-social-commerce/assets/attribution-percent-weight-first-more.png "Poids le premier événement plus de pourcentages d’attribution")
 
 <!-- start examples as collapsible content -->
 
@@ -147,7 +148,7 @@ La série d’événements comprenant à la fois des impressions et des clics, l
 
 Attribution : Impression 1 = 8 USD, clic 1 = 72 USD, impression 2 = 4 USD, clic 2 = 36 USD (120 USD au total)
 
-#### Utilisation (DSP uniquement) de l’option Aucun poids de remplacement d’impression ou (Recherche, Social et Commerce uniquement) d’un &quot;poids de remplacement d’impression&quot; de 0 %
+#### En utilisant (DSP uniquement) aucun poids de remplacement d’impression ou (recherche, Social et Commerce uniquement) un &quot;poids de remplacement d’impression&quot; de 0 %
 
 Comme la série d’événements comprenait à la fois des impressions et des clics, les impressions sont ignorées.
 
@@ -175,13 +176,13 @@ Comme la conversion est une vue publicitaire, la méthode d’évaluation d’af
 >
 >Cette règle est disponible uniquement pour les événements sur des appareils uniques.
 
-Attribue la conversion de manière égale à chaque événement de la série qui s’est produit dans le rapport [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j).
+Attribue la conversion de manière égale à chaque événement de la série qui s’est produit dans la [fenêtre de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) de l’annonceur et la [fenêtre de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j).
 
-Lorsque la conversion est précédée uniquement par des impressions, la conversion est considérée comme une *affichage publicitaire*, qui est pondéré selon le [définition du poids d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) ou — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire définie dans le rapport, l’affichage ou les paramètres personnalisés de la simulation.
+Lorsque la conversion est précédée uniquement par des impressions, la conversion est considérée comme une *vue-publicitaire*, qui est pondérée soit en fonction de la [pondération d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) de l’annonceur, soit — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire spécifiée dans les paramètres de rapport, d’affichage ou de simulation personnalisée.
 
 Lorsque le chemin de conversion inclut à la fois des clics payants et des impressions, les impressions sont traitées différemment par différents produits d’Adobe Advertising :
 
-* Dans Search, Social et Commerce, la variable [poids du remplacement d’impression](/help/search-social-commerce/glossary.md#i-j) — qui est spécifié dans le paramètre de poids de remplacement d’impression de l’annonceur et dans les paramètres de rapport, d’affichage ou de simulation personnalisés — est d’abord appliqué aux impressions.
+* Dans Search, Social et Commerce, le [poids de remplacement d’impression](/help/search-social-commerce/glossary.md#i-j) — spécifié dans le paramètre de poids de remplacement d’impression de l’annonceur et dans les paramètres de rapport, d’affichage ou de simulation personnalisés — est d’abord appliqué aux impressions.
 
 * Dans DSP, les impressions sont ignorées et seuls les clics sont pondérés. DSP ne prend pas en compte les poids de remplacement d’impression pour l’attribution.
 
@@ -235,17 +236,17 @@ Comme la conversion est une vue publicitaire, la méthode d’évaluation d’af
 
 ## Poids du dernier événement plus
 
-Attribue la conversion à tous les événements de la série qui se sont produits dans le rapport [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j), mais donne le plus de poids au dernier événement et, successivement, moins de poids aux événements précédents.
+Attribue la conversion à tous les événements de la série qui se sont produits dans la [fenêtre de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) de l’annonceur et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j), mais donne le plus de poids au dernier événement et, successivement, moins de poids aux événements précédents.
 
-Lorsque la conversion est précédée uniquement par des impressions, la conversion est considérée comme une *affichage publicitaire*, qui est pondéré selon le [définition du poids d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) ou — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire définie dans le rapport, l’affichage ou les paramètres personnalisés de la simulation.
+Lorsque la conversion est précédée uniquement par des impressions, la conversion est considérée comme une *vue-publicitaire*, qui est pondérée soit en fonction de la [pondération d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) de l’annonceur, soit — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire spécifiée dans les paramètres de rapport, d’affichage ou de simulation personnalisée.
 
 Lorsque le chemin de conversion inclut à la fois des clics payants et des impressions, les impressions sont traitées différemment par différents produits d’Adobe Advertising :
 
-* Dans Search, Social et Commerce, la variable [poids du remplacement d’impression](/help/search-social-commerce/glossary.md#i-j) — qui est spécifié dans le paramètre de poids de remplacement d’impression de l’annonceur et dans les paramètres de rapport, d’affichage ou de simulation personnalisés — est d’abord appliqué aux impressions.
+* Dans Search, Social et Commerce, le [poids de remplacement d’impression](/help/search-social-commerce/glossary.md#i-j) — spécifié dans le paramètre de poids de remplacement d’impression de l’annonceur et dans les paramètres de rapport, d’affichage ou de simulation personnalisés — est d’abord appliqué aux impressions.
 
 * Dans DSP, les impressions sont ignorées et seuls les clics sont pondérés. DSP ne prend pas en compte les poids de remplacement d’impression pour l’attribution.
 
-![Poids du dernier événement plus de pourcentages d’attribution](/help/search-social-commerce/assets/attribution-percent-weight-last-more.png "Poids du dernier événement plus de pourcentages d’attribution")
+![Poids le dernier événement plus de pourcentages d’attribution](/help/search-social-commerce/assets/attribution-percent-weight-last-more.png "Poids le dernier événement plus de pourcentages d’attribution")
 
 <!-- start examples as collapsible content -->
 
@@ -269,7 +270,7 @@ La série d’événements comprenant à la fois des impressions et des clics, l
 
 Attribution : Impression 1 = 4 USD, clic 1 = 36 USD, impression 2 = 8 USD, clic 2 = 72 USD (120 USD au total)
 
-#### Utilisation (DSP uniquement) de l’option Aucun poids de remplacement d’impression ou (Recherche, Social et Commerce uniquement) d’un &quot;poids de remplacement d’impression&quot; de 0 %
+#### En utilisant (DSP uniquement) aucun poids de remplacement d’impression ou (recherche, Social et Commerce uniquement) un &quot;poids de remplacement d’impression&quot; de 0 %
 
 Comme la série d’événements comprenait à la fois des impressions et des clics, les impressions sont ignorées.
 
@@ -293,13 +294,13 @@ Comme la conversion est une vue publicitaire, la méthode d’évaluation d’af
 
 ## En forme de U
 
-Attribue la conversion à tous les événements de la série qui se sont produits dans le rapport [intervalle de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j), mais donne le plus de poids aux premiers et derniers événements, avec successivement moins de poids aux événements au milieu du chemin de conversion.
+Attribue la conversion à tous les événements de la série qui se sont produits dans la [fenêtre de recherche en amont des clics](/help/search-social-commerce/glossary.md#c-d) et la [fenêtre de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j) de l’annonceur, mais donne le plus de poids au premier et aux derniers événements, avec successivement moins de poids aux événements au milieu du chemin de conversion.
 
-Lorsque la conversion est précédée uniquement par des impressions, la conversion est considérée comme une *affichage publicitaire*, qui est pondéré selon le [définition du poids d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) ou — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire définie dans le rapport, l’affichage ou les paramètres personnalisés de la simulation.
+Lorsque la conversion est précédée uniquement par des impressions, la conversion est considérée comme une *vue-publicitaire*, qui est pondérée soit en fonction de la [pondération d’affichage publicitaire](/help/search-social-commerce/glossary.md#uv) de l’annonceur, soit — comme spécifié — en fonction de la méthode d’évaluation d’affichage publicitaire spécifiée dans les paramètres de rapport, d’affichage ou de simulation personnalisée.
 
 Lorsque le chemin de conversion inclut à la fois des clics payants et des impressions, les impressions sont traitées différemment par différents produits d’Adobe Advertising :
 
-* Dans Search, Social et Commerce, la variable [poids du remplacement d’impression](/help/search-social-commerce/glossary.md#i-j) — qui est spécifié dans le paramètre de poids de remplacement d’impression de l’annonceur et dans les paramètres de rapport, d’affichage ou de simulation personnalisés — est d’abord appliqué aux impressions.
+* Dans Search, Social et Commerce, le [poids de remplacement d’impression](/help/search-social-commerce/glossary.md#i-j) — spécifié dans le paramètre de poids de remplacement d’impression de l’annonceur et dans les paramètres de rapport, d’affichage ou de simulation personnalisés — est d’abord appliqué aux impressions.
 
 * Dans DSP, les impressions sont ignorées et seuls les clics sont pondérés. DSP ne prend pas en compte les poids de remplacement d’impression pour l’attribution.
 

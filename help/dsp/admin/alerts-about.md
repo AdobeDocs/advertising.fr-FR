@@ -1,6 +1,6 @@
 ---
 title: A propos des abonnements aux alertes
-description: En savoir plus sur les alertes automatiques par e-mail.
+description: En savoir plus sur les alertes automatiques par email.
 role: User, Admin
 exl-id: f3578f10-4f66-4133-a6e0-1ca8001dd2c9
 source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
@@ -62,4 +62,4 @@ Vous pouvez ajouter ou supprimer des alertes d’un abonnement, modifier les uti
 
 >[!MORELIKETHIS]
 >
->[Gestion des abonnements aux alertes](alerts-manage.md)
+>[Gérer les abonnements aux alertes](alerts-manage.md)

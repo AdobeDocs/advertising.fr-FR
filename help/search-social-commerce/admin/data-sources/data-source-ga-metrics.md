@@ -1,19 +1,19 @@
 ---
-title: Disponible [!DNL Google Analytics] mesures
-description: Référencez la variable [!DNL Google Analytics] mesures disponibles pour les sources de données.
+title: Mesures disponibles [!DNL Google Analytics]
+description: Référencez les mesures  [!DNL Google Analytics]  disponibles pour les sources de données.
 role: User, Admin
-exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
+exl-id: 434c569d-7869-4874-90a5-5af18bc8157e
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-# Annexe : Disponible [!DNL Google Analytics] mesures
+# Annexe - Mesures [!DNL Google Analytics] disponibles
 
-Les mesures suivantes, à l’exception des exclusions indiquées, sont disponibles lorsqu’elles sont activées dans l’implémentation du client dans [!DNL Google Analytics].
+Les mesures suivantes, à l’exception des exclusions notées, sont disponibles lorsqu’elles sont activées dans l’implémentation du client dans [!DNL Google Analytics].
 
 <!-- Notes as FYI to self:
 >[!NOTE]
@@ -38,10 +38,10 @@ Les mesures suivantes, à l’exception des exclusions indiquées, sont disponib
 
 >[!MORELIKETHIS]
 >
->* [A propos de la synchronisation [!DNL Google Analytics] mesures de conversion](data-source-about.md)
->* [Conditions préalables à la configuration d’un [!DNL Google Analytics] source de données](data-source-prerequisites.md)
->* [Configurez une [!DNL Google Analytics] vue comme source de données](data-source-configure.md)
+>* [ À propos de la synchronisation  [!DNL Google Analytics] mesures de conversion](data-source-about.md)
+>* [ Conditions préalables à la configuration d’une  [!DNL Google Analytics] source de données](data-source-prerequisites.md)
+>* [ Configuration d’une  [!DNL Google Analytics] vue en tant que source de données](data-source-configure.md)
 >* [Modifier une [!DNL Google Analytics] source de données](data-source-edit.md)
->* [Suspension de la synchronisation d’une source de données](data-source-pause.md)
->* [Réauthentifier un [!DNL Google Analytics] source de données](data-source-reauthenticate.md)
+>* [Suspendre la synchronisation d’une source de données](data-source-pause.md)
+>* [Réauthentifier une [!DNL Google Analytics] source de données](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] paramètres de source de données](data-source-settings.md)

@@ -1,9 +1,9 @@
 ---
 title: Formats de suivi des clics pour [!DNL Naver]
-description: Découvrez les formats de suivi des clics pour [!DNL Naver] comptes.
-exl-id: ff243eb5-d768-4e5c-b5b3-015fe22c9d5a
+description: Découvrez les formats de suivi des clics pour les comptes  [!DNL Naver] .
+exl-id: b438652e-6e98-4223-8169-2bfb37500670
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
@@ -24,11 +24,11 @@ Exemple :
 >
 >* `<advertiser_ID>` est une variable de l’identifiant unique de l’annonceur dans Adobe Advertising.
 >
->* Ce format indique que la transmission de jetons est activée pour la campagne (valeur par défaut). Si la transmission de jeton est désactivée, remplacez `cq?` after `<advertiser_ID>` avec `c?`.
+>* Ce format indique que la transmission de jetons est activée pour la campagne (valeur par défaut). Si le transfert de jeton est désactivé, remplacez `cq?` après `<advertiser_ID>` par `c?`.
 >
 * `<the landing page>` est une variable qui représente l’URL de votre site vers laquelle les utilisateurs finaux sont dirigés.
 
 >[!MORELIKETHIS]
 >
->* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion Adobe Advertising](formats-click-tracking-about.md)
+>* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion d’Adobe Advertising](formats-click-tracking-about.md)
 >* [Formats AMO ID](/help/integrations/analytics/ids.md#amo-id-formats)

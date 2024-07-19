@@ -1,16 +1,16 @@
 ---
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: Découvrez le rapport Précision des prévisions, y compris les colonnes de données.
-exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
+exl-id: f0c42323-eb0d-461a-ab09-440fd1bfc960
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
-# La variable [!UICONTROL Forecast Accuracy Report]
+# Le [!UICONTROL Forecast Accuracy Report]
 
 Le rapport indique la précision des modèles de coûts et de recettes par jour pour des portefeuilles spécifiques. Par défaut, il inclut les recettes quotidiennes prévues et réelles, le coût et les clics — ainsi que l&#39;exactitude des prévisions — pour chaque portefeuille. Il comprend les données des campagnes qui sont actuellement mappées aux portefeuilles.
 
@@ -18,9 +18,9 @@ Vous pouvez afficher les données des 18 mois précédents.
 
 >[!NOTE]
 >
->* Ce rapport fournit les mêmes données que le niveau du portfolio. [!UICONTROL Model Accuracy Report] mais vous pouvez l’exécuter sur plusieurs portefeuilles et modifier la règle d’attribution. Vous pouvez également exécuter et planifier le rapport à l’aide de paramètres personnalisés. Vous pouvez également l’utiliser pour créer des flux de feuille de calcul.
+>* Ce rapport fournit les mêmes données que le [!UICONTROL Model Accuracy Report] au niveau du portfolio, sauf que vous pouvez l’exécuter sur plusieurs portefeuilles et que vous pouvez modifier la règle d’attribution. Vous pouvez également exécuter et planifier le rapport à l’aide de paramètres personnalisés. Vous pouvez également l’utiliser pour créer des flux de feuille de calcul.
 >
->* La bonne pratique consiste à consulter la variable [!UICONTROL Forecast Accuracy Report] pendant au moins les sept derniers jours, car, quelle que soit la stratégie de dépenses du portefeuille, la plupart des portefeuilles voient une tendance quotidienne de la semaine. La fonctionnalité d’optimisation prend cette tendance en compte et alloue les dépenses en conséquence.
+>* La bonne pratique consiste à afficher le [!UICONTROL Forecast Accuracy Report] pendant au moins les sept derniers jours, car, quelle que soit la stratégie de dépenses du portfolio, la plupart des portefeuilles affichent une tendance quotidienne de la semaine. La fonctionnalité d’optimisation prend cette tendance en compte et alloue les dépenses en conséquence.
 >
 >* Pour les prévisions de coûts, un écart de 10 % au cours des sept derniers jours est considéré comme acceptable, de sorte que les dépenses réelles comprises entre 90 % et 110 % des dépenses prévues sont correctes. Pour les prévisions de recettes, un écart de 15 % au cours des sept derniers jours est considéré comme acceptable, de sorte que les recettes réelles comprises entre 85 % et 115 % des dépenses prévues sont correctes. Les prévisions avec des écarts plus élevés doivent être étudiées.
 >
@@ -28,12 +28,12 @@ Vous pouvez afficher les données des 18 mois précédents.
 
 ## Colonnes disponibles
 
-Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colonnes par défaut sont automatiquement incluses par défaut. Vous pouvez ajouter les colonnes personnalisées disponibles à partir de la fonction [!UICONTROL Columns] des paramètres du rapport.
+Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colonnes par défaut sont automatiquement incluses par défaut. Vous pouvez ajouter les colonnes personnalisées disponibles à partir de la section [!UICONTROL Columns] des paramètres du rapport.
 
 | Colonne | Par défaut ? | Description |
 |----|----|----|
 | [!UICONTROL Portfolio] | Par défaut | Le portefeuille. |
-| [!UICONTROL Day of Week] | Par défaut | Le jour de la semaine rapportait : <i>[!UICONTROL Sunday]</i>, <i>[!UICONTROL Monday]</i>, <i>[!UICONTROL Tuesday]</i>, <i>[!UICONTROL Wednesday]</i>, <i>[!UICONTROL Thursday]</i>, <i>[!UICONTROL Friday]</i>, ou <i>[!UICONTROL Saturday]</i>. |
+| [!UICONTROL Day of Week] | Par défaut | Le jour de la semaine signalé : <i>[!UICONTROL Sunday]</i>, <i>[!UICONTROL Monday]</i>, <i>[!UICONTROL Tuesday]</i>, <i>[!UICONTROL Wednesday]</i>, <i>[!UICONTROL Thursday]</i>, <i>[!UICONTROL Friday]</i> ou <i>[!UICONTROL Saturday]</i>. |
 | [!UICONTROL Start Date] | Par défaut | Le premier jour a été rapporté. |
 | [!UICONTROL End Date] | Par défaut | Le dernier jour rapporté. |
 | [!UICONTROL Predicted Revenue] | Par défaut | Les recettes prévues pour le portefeuille. |
@@ -51,7 +51,7 @@ Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colo
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports de précision des modèles](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
->* [La variable [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [Génération d’un rapport de précision de modèle](model-accuracy-report-generate.md)
->* [Paramètres du rapport Précision des modèles](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [À propos des rapports de précision de modèle](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [ [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+>* [Générer un rapport de précision de modèle](model-accuracy-report-generate.md)
+>* [ Paramètres de rapport de précision du modèle ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)

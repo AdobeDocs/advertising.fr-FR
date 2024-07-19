@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Champ d’état dans les paramètres de publicité
 
-**[!UICONTROL Status]:** État d’affichage de la publicité : *Principal* (pour permettre l’enchère) la valeur par défaut), *En pause* (pour désactiver l’offre) ou *Supprimé* (pour supprimer la publicité) ; publicités existantes uniquement).
+**[!UICONTROL Status]:** État d’affichage de la publicité : *Active* (pour activer l’offre ; par défaut), *En pause* (pour désactiver l’offre) ou *Supprimée*} (pour supprimer la publicité ; publicités existantes uniquement).

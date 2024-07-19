@@ -5,7 +5,7 @@ role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
 source-git-commit: 0e771df5470c287702850a227f9ac20d5679b775
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
    * (Facultatif) Pour coller ou saisir jusqu’à 10 000 valeurs :
 
-      1. Cliquez sur **Coller dans Sites/applications**.
+      1. Cliquez sur **Coller dans Sites/Apps**.
 
       1. Dans le champ de saisie, saisissez ou collez une valeur par ligne, puis cliquez sur **Continuer**.
 
-      1. (Si des valeurs sont identifiées comme non valides) Cliquez sur le bouton **Coller dans les sites et applications** corrigez les valeurs, puis cliquez sur **Continuer**.
+      1. (Si des valeurs sont identifiées comme non valides) Cliquez sur l’onglet **Coller dans les sites et applications**, corrigez les valeurs, puis cliquez sur **Continuer**.
 
       1. Cliquez sur **Terminer**.
 
@@ -34,12 +34,12 @@ ht-degree: 0%
 
       * Pour supprimer une ou plusieurs valeurs, cochez la case en regard de chacune d’elles, puis cliquez sur **Supprimer cochée**.
 
-      * Pour supprimer une seule valeur, cliquez sur **X** en regard de la valeur .
+      * Pour supprimer une seule valeur, cliquez sur **X** en regard de la valeur.
 
-   * (Facultatif) Pour exporter la liste vers un [!DNL Microsoft Excel]  feuille de calcul au format CSV (valeurs séparées par des virgules), cliquez sur **Exporter**.
+   * (Facultatif) Pour exporter la liste vers une feuille de calcul [!DNL Microsoft Excel] au format CSV (valeurs séparées par des virgules), cliquez sur **Exporter**.
 
 >[!MORELIKETHIS]
 >
 >* [À propos des listes de sites bloqués au niveau du compte et des annonceurs](/help/dsp/admin/blocked-sites-list-about.md)
 > [Sécurité des marques et qualité des médias](/help/dsp/introduction/features/brand-safety-media-quality.md)
->* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md)

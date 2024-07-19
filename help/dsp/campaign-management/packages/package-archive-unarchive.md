@@ -19,24 +19,23 @@ Vous pouvez à tout moment désarchiver un package afin de restaurer son état p
 ## Archivage d’un module
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
-1. Cliquez sur le nom de la campagne pour ouvrir la [!UICONTROL Packages] vue.
-1. En regard du nom du module, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. Cliquez sur le nom de la campagne pour ouvrir la vue [!UICONTROL Packages].
+1. En regard du nom du package, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Pour afficher les packages archivés, filtrez la variable [!UICONTROL Packages] view : click ![Bouton Filtrer](/help/dsp/assets/filter.png), cliquez sur **[!UICONTROL Package status]** et sélectionnez **[!UICONTROL Archived]**, puis cliquez sur **[!UICONTROL Apply].**
+>Pour afficher les packages archivés, filtrez la vue [!UICONTROL Packages] : cliquez sur ![Bouton de filtrage](/help/dsp/assets/filter.png), cliquez sur **[!UICONTROL Package status]**, sélectionnez **[!UICONTROL Archived]**, puis cliquez sur **[!UICONTROL Apply].**
 
 ## Désarchiver un package
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
-1. Cliquez sur le nom de la campagne pour ouvrir la [!UICONTROL Packages] vue.
-1. En regard du nom du module, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. Cliquez sur le nom de la campagne pour ouvrir la vue [!UICONTROL Packages].
+1. En regard du nom du package, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
->* [Modification d’un module](package-edit.md)
->* [Affichage du journal des modifications d’un module](package-change-log.md)
->* [Mettre en pause ou activer un module](package-pause-activate.md)
-
+>* [Modifier un module](package-edit.md)
+>* [Afficher le journal des modifications d’un package](package-change-log.md)
+>* [Suspendre ou activer un module](package-pause-activate.md)

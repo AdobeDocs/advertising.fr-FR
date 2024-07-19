@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Keyword Report]'
-description: En savoir plus sur les [!UICONTROL Keyword Report].
-exl-id: e274e363-2ac5-4ba6-a2df-7786c3c3423f
+description: Découvrez [!UICONTROL Keyword Report].
+exl-id: eb2c7cb8-3f0d-4ae6-a1e2-127de315e1ce
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Keyword Report]
 
-La variable [!UICONTROL Keyword Report] inclut les données de conversion de coût, de clic et (éventuellement) pour les mots-clés ayant reçu des impressions au sein d’un ou de plusieurs groupes publicitaires. Vous pouvez éventuellement filtrer les données afin de n’inclure que les mots-clés contenant une chaîne de texte spécifique. Par défaut, les données incluent une ligne pour chaque mot-clé applicable et combinaison de type de correspondance qui a reçu des impressions pour chaque unité de temps au cours de la période spécifiée. Les lignes sont dans l’ordre croissant d’abord par date de début de l’unité de temps, puis par coût par défaut.
+[!UICONTROL Keyword Report] comprend les données de conversion de coût, de clic et (éventuellement) pour les mots-clés qui ont reçu des impressions au sein d’un ou de plusieurs groupes publicitaires. Vous pouvez éventuellement filtrer les données afin de n’inclure que les mots-clés contenant une chaîne de texte spécifique. Par défaut, les données incluent une ligne pour chaque mot-clé applicable et combinaison de type de correspondance qui a reçu des impressions pour chaque unité de temps au cours de la période spécifiée. Les lignes sont dans l’ordre croissant d’abord par date de début de l’unité de temps, puis par coût par défaut.
 
 Vous pouvez éventuellement inclure des classifications d’étiquettes spécifiques aux annonceurs.
 
@@ -20,11 +20,11 @@ Vous pouvez afficher les données des 36 mois précédents.
 
 >[!NOTE]
 >
->Si le rapport inclut des données provenant de groupes d’annonces dans des campagnes de recherche activées pour le contenu, la variable [!UICONTROL Keyword] dans le rapport terminé, la colonne comprend les noms de groupes d’annonces applicables, tels que &quot;(contenu du groupe publicitaire) Votre nom de groupe d’annonces&quot;.
+>Si le rapport inclut des données provenant de groupes d’annonces dans des campagnes de recherche activées pour le contenu, la colonne [!UICONTROL Keyword] du rapport terminé inclut les noms de groupes d’annonces applicables, tels que &quot;(contenu du groupe d’annonces) Nom de votre groupe d’annonces&quot;.
 
 ## Colonnes par défaut
 
-Pour obtenir des descriptions de toutes les colonnes par défaut et personnalisées, voir &quot;[Colonnes de rapports pour les rapports de base et avancés](basic-advanced-report-columns.md).&quot;
+Pour obtenir des descriptions de toutes les colonnes par défaut et personnalisées, voir &quot;[Colonnes de rapport pour les rapports de base et avancés](basic-advanced-report-columns.md)&quot;.
 
 * [!UICONTROL Keyword]
 * [!UICONTROL Keyword Status]
@@ -48,5 +48,5 @@ Pour obtenir des descriptions de toutes les colonnes par défaut et personnalis�
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports de base et avancés](basic-advanced-report-about.md)
->* [Génération d’un rapport de base ou avancé](basic-advanced-report-generate.md)
->* [Paramètres de base et avancés des rapports](basic-advanced-report-settings.md)
+>* [Générer un rapport de base ou avancé](basic-advanced-report-generate.md)
+>* [ Paramètres de rapport de base et avancés ](basic-advanced-report-settings.md)

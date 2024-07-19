@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Keyword Daily Impression Share Report]'
-description: En savoir plus sur les [!UICONTROL Keyword Daily Impression Share Report].
+description: Découvrez [!UICONTROL Keyword Daily Impression Share Report].
 exl-id: 761864db-a6ef-4155-8959-6c2c90f14a6b
 feature: Search Reports, Search Specialty Reports
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 *[!DNL Google Ads]et [!DNL Microsoft Advertising] comptes uniquement*
 
-La variable [!UICONTROL Keyword Daily Impression Share Report] comprend des mesures de partage d’impression quotidiennes pour chaque mot-clé, le type de correspondance correspondant et le type d’appareil correspondant pour un ou plusieurs groupes publicitaires ou campagnes. Par défaut, les données comprennent une ligne pour chaque mot-clé, type de correspondance et périphérique qui a reçu au moins une impression ou un clic pour chaque groupe publicitaire applicable pour chaque jour de la période spécifiée. Par défaut, les lignes sont dans l’ordre croissant par date. Le rapport peut éventuellement inclure des données suivies par [!DNL Adobe] et les mesures dérivées.
+[!UICONTROL Keyword Daily Impression Share Report] comprend des mesures de partage d’impressions quotidiennes pour chaque mot-clé, le type de correspondance correspondant et le type d’appareil correspondant pour un ou plusieurs groupes publicitaires ou campagnes. Par défaut, les données comprennent une ligne pour chaque mot-clé, type de correspondance et périphérique qui a reçu au moins une impression ou un clic pour chaque groupe publicitaire applicable pour chaque jour de la période spécifiée. Par défaut, les lignes sont dans l’ordre croissant par date. Le rapport peut éventuellement inclure des données suivies par [!DNL Adobe] et des mesures dérivées.
 
 Les mesures de partage d’impression sont disponibles à 13h00 dans le fuseau horaire de l’annonceur pour la veille. Vous pouvez afficher les données des deux mois précédents.
 
 ## Colonnes par défaut
 
-Pour obtenir des descriptions de toutes les colonnes par défaut et personnalisées, voir &quot;[Colonnes de rapports pour les rapports spécialisés](specialty-report-columns.md).&quot;
+Pour obtenir des descriptions de toutes les colonnes par défaut et personnalisées, voir &quot;[Colonnes de rapports pour les rapports spécialisés](specialty-report-columns.md)&quot;.
 
 * [!UICONTROL Keyword]
 * [!UICONTROL Keyword Status]
@@ -49,5 +49,5 @@ Pour obtenir des descriptions de toutes les colonnes par défaut et personnalis�
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports spécialisés](specialty-report-about.md)
->* [Génération d’un rapport de spécialité](specialty-report-generate.md)
->* [Paramètres des rapports de spécialité](specialty-report-settings.md)
+>* [Générer un rapport de spécialité](specialty-report-generate.md)
+>* [Paramètres de rapport de spécialité](specialty-report-settings.md)

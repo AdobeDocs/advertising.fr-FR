@@ -17,18 +17,17 @@ Vous pouvez créer et attribuer des balises pour traiter les ID afin de regroupe
 
 1. Sur la ligne de la transaction, cliquez sur ![Menu Options](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]**.
 
-1. Dans le [!UICONTROL Ad & Deal Tagging] effectuez l’une des opérations suivantes :
+1. Dans les paramètres [!UICONTROL Ad & Deal Tagging], effectuez l’une des opérations suivantes :
 
-   * Pour attribuer une balise existante à l’opération, cochez la case en regard de l’opération dans le [!UICONTROL Custom Tags] liste.
+   * Pour attribuer une balise existante à l’opération, cochez la case en regard de l’opération dans la liste [!UICONTROL Custom Tags].
 
-   * Pour créer une balise et l’associer à l’opération, saisissez son nom dans le champ **[!UICONTROL Create new tag(s)]** puis cliquez sur **[!UICONTROL Create and Associate Tag]**.
+   * Pour créer une balise et l’associer à l’opération, saisissez le nom de la balise dans le champ **[!UICONTROL Create new tag(s)]**, puis cliquez sur **[!UICONTROL Create and Associate Tag]**.
 
-   * Pour supprimer une balise existante de l’opération, décochez la case en regard de l’opération dans la variable [!UICONTROL Custom Tags] liste.
+   * Pour supprimer une balise existante de l’opération, décochez la case en regard de l’opération dans la liste [!UICONTROL Custom Tags].
 
 1. Cliquez sur **[!UICONTROL Update]**.
 
 >[!MORELIKETHIS]
 >
->* [À propos du stock privé](private-inventory-about.md)
+>* [À propos de l’inventaire privé](private-inventory-about.md)
 >* [Modifier les paramètres d’opération privée](/help/dsp/inventory/deal-id-edit.md)
-

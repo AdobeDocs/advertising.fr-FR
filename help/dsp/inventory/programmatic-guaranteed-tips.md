@@ -5,8 +5,8 @@ feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 41a2a307-5cb2-4b41-bb3b-edee1e15c5fa
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+source-wordcount: '147'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Lors de la négociation d&#39;un contrat garanti par un programme, l&#39;acheteu
 ## Responsabilités de l’acheteur dans le cadre d’un contrat garanti par un programme
 
 * Configuration et activation des transactions
-* Création d&#39;un placement garanti par programme
+* Création d&#39;un placement garanti par un programme
 * Dépannage
 * Suivi des diffusions
 * Exécution d’un taux d’offre/de réponse de 95 % à 100 %
@@ -45,7 +45,6 @@ Lors de la négociation d&#39;un contrat garanti par un programme, l&#39;acheteu
 
 >[!MORELIKETHIS]
 >
->* [A propos des contrats garantis par programmation](programmatic-guaranteed-about.md)
->* [Configuration d’un contrat garanti programmatique](programmatic-guaranteed-set-up.md)
+>* [À propos des transactions garanties par programmation](programmatic-guaranteed-about.md)
+>* [Configuration d’une transaction sécurisée par programmation](programmatic-guaranteed-set-up.md)
 >* [Partenaires SSP](ssp-partners.md)
-

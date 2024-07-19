@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Champ URL de base dans la plupart des paramètres de mot-clé et de lien de site
 
-**[!UICONTROL Base URL]:** URL de la page d’entrée vers laquelle les utilisateurs du moteur de recherche sont redirigés lorsqu’ils cliquent sur votre publicité. Incluez les paramètres qui déterminent le contenu de la page. Les URL de base au niveau des mots-clés et des liens de site remplacent celles au niveau des publicités.
+**[!UICONTROL Base URL]:** URL de la page d’entrée vers laquelle les utilisateurs de moteur de recherche sont dirigés lorsqu’ils cliquent sur votre publicité. Incluez les paramètres qui déterminent le contenu de la page. Les URL de base au niveau des mots-clés et des liens de site remplacent celles au niveau des publicités.
 
 Une fois l’enregistrement enregistré, l’URL de base inclut tous les paramètres d’ajout configurés pour la campagne ou le compte.

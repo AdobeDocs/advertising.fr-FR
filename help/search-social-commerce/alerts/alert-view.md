@@ -1,9 +1,9 @@
 ---
 title: Afficher une alerte personnalisée
 description: Découvrez comment répertorier vos instances d’alerte.
-exl-id: a2ba2a8c-7334-4a6e-9873-8a4f59b9717c
+exl-id: 0a5260f6-8651-451e-841c-600be371cc3f
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Affichage d’alertes personnalisées
 
-Vous pouvez afficher une liste de toutes les instances d’alerte à partir des modèles d’alerte du [!UICONTROL Triggered Alerts] visualisez et depuis la vue de gestion de campagne appropriée.
+Vous pouvez afficher une liste de toutes les instances d’alerte à partir des modèles d’alerte à partir de la vue [!UICONTROL Triggered Alerts] et de la vue de gestion de campagne appropriée.
 
 Si vous souhaitez modifier les campagnes ou les entités de campagne identifiées dans une alerte, vous pouvez ouvrir une vue filtrée en lecture seule contenant les données de l’alerte. Vous pouvez ensuite ouvrir une vue filtrée des entités dans la vue de gestion de campagne appropriée.
 
-## Affichage des alertes dans [!UICONTROL Triggered Alerts] view
+## Afficher des alertes dans la vue [!UICONTROL Triggered Alerts]
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**.
 
@@ -30,7 +30,7 @@ Si vous souhaitez modifier les campagnes ou les entités de campagne identifiée
 
       * (Facultatif) Pour ouvrir une vue filtrée des entités dans la vue de gestion de campagne appropriée, cliquez sur **[!UICONTROL Live View]**.
 
-        Par exemple, pour une alerte de niveau campagne, cette action ouvre la variable [!UICONTROL Campaigns] afficher avec une liste des campagnes qui répondent aux critères d’alerte.
+        Par exemple, pour une alerte de niveau campagne, cette action ouvre la vue [!UICONTROL Campaigns] avec une liste des campagnes répondant aux critères d’alerte.
 
         >[!NOTE]
         >
@@ -40,13 +40,13 @@ Si vous souhaitez modifier les campagnes ou les entités de campagne identifiée
 
 ## Afficher une alerte dans la vue d’entité appropriée
 
-1. (Dans la vue d’entité appropriée) Ouvrez la vue de gestion de campagne pour le type d’entité ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads], ou [!UICONTROL Product Groups]).
+1. (Dans la vue d’entité appropriée) Ouvrez la vue de gestion de campagne pour le type d’entité ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] ou [!UICONTROL Product Groups]).
 
 1. Dans le coin supérieur droit de la page, cliquez sur ![Notifications](/help/search-social-commerce/assets/notifications-panel.png "Notifications")
 
-1. Dans le [!UICONTROL Notifications] , cliquez sur le bouton **[!UICONTROL Alerts]** .
+1. Dans la vue [!UICONTROL Notifications], cliquez sur l’onglet **[!UICONTROL Alerts]** .
 
-1. Cliquez sur le nom de l’alerte pour ouvrir la [!UICONTROL Triggered Alerts]avec l’alerte répertoriée.
+1. Cliquez sur le nom de l’alerte pour ouvrir la vue [!UICONTROL Triggered Alerts]avec l’alerte répertoriée.
 
 1. (Facultatif) Ouvrez une vue filtrée des entités répondant aux critères d’alerte :
 
@@ -56,7 +56,7 @@ Si vous souhaitez modifier les campagnes ou les entités de campagne identifiée
 
       * (Facultatif) Pour ouvrir une vue filtrée des entités dans la vue de gestion de campagne appropriée, à partir de laquelle vous pouvez interagir avec les enregistrements d’entité, cliquez sur **[!UICONTROL Live View]**.
 
-        Par exemple, pour une alerte de niveau campagne, cette action ouvre la variable [!UICONTROL Campaigns] afficher avec une liste des campagnes qui répondent aux critères d’alerte.
+        Par exemple, pour une alerte de niveau campagne, cette action ouvre la vue [!UICONTROL Campaigns] avec une liste des campagnes répondant aux critères d’alerte.
 
         >[!NOTE]
         >
@@ -68,10 +68,10 @@ Si vous souhaitez modifier les campagnes ou les entités de campagne identifiée
 >[!MORELIKETHIS]
 >
 >* [À propos des alertes personnalisées](alert-about.md)
->* [Création d’un modèle d’alerte personnalisé](alert-template-create.md)
+>* [Créer un modèle d’alerte personnalisé](alert-template-create.md)
 >* [Modifier un modèle d’alerte personnalisé](alert-template-edit.md)
->* [Mettre en pause un modèle d’alerte personnalisé](alert-template-pause.md)
->* [Activation d’un modèle d’alerte personnalisé](alert-template-activate.md)
->* [Suppression d’un modèle d’alerte personnalisé](alert-template-delete.md)
->* [Paramètres du modèle d’alerte personnalisé](alert-template-settings.md)
+>* [Suspendre un modèle d’alerte personnalisé](alert-template-pause.md)
+>* [Activer un modèle d’alerte personnalisé](alert-template-activate.md)
+>* [ Supprimer un modèle d’alerte personnalisé](alert-template-delete.md)
+>* [ Paramètres du modèle d’alerte personnalisé](alert-template-settings.md)
 >* [Exporter des données pour des alertes personnalisées](alert-export-data.md)

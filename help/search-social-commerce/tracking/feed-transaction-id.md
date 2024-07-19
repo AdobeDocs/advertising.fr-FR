@@ -1,9 +1,9 @@
 ---
 title: Suivi des conversions à l’aide d’un flux d’ID de transaction
 description: Découvrez comment utiliser un flux d’ID de transaction pour les données de suivi de conversion.
-exl-id: 58f231a6-970b-46b4-824b-67b3d3f83051
+exl-id: 3341ac20-d435-4387-99da-7b874e53c2e7
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -20,15 +20,15 @@ Lorsqu’un annonceur effectue des transactions en ligne et hors ligne, il peut 
 
 ## Présentation de l’implémentation
 
-*Responsable de compte de l&#39;Agence, [!DNL Adobe] rôles utilisateur de gestionnaire de compte et d’administrateur uniquement*
+*Gestionnaire de compte de l’agence, [!DNL Adobe] gestionnaire de compte et rôles utilisateur administrateur uniquement*
 
-1. Utiliser les options de suivi de compte ou de campagne &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload]&quot; pour générer automatiquement une URL de destination ou une URL finale pour chaque mot-clé (pour le suivi au niveau des mots-clés) ou publicité (pour le suivi au niveau des publicités) dans le compte ou la campagne.
+1. Utilisez les options de suivi de compte ou de campagne &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload]&quot; pour générer automatiquement une URL de destination ou une URL finale pour chaque mot-clé (pour le suivi au niveau du mot-clé) ou publicité (pour le suivi au niveau de la publicité) dans le compte ou la campagne.
 
 1. Configurez le suivi de conversion d’Adobe Advertising pour les conversions en ligne. Ce processus est identique à celui des annonceurs qui effectuent un suivi de conversion basé sur les pixels Adobe Advertising. Il est important de générer des balises de conversion qui incluent un paramètre pour un ID de transaction unique (`ev_transid=<transid>`).
 
 1. Pour la partie hors ligne de chaque transaction, l’annonceur génère le même ID de transaction qui a été utilisé dans la partie en ligne de la transaction à inclure dans le fichier de flux.
 
-1. L’annonceur télécharge un fichier avec la variable [données de conversion requises](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md) à l’emplacement désigné du serveur.
+1. L’annonceur charge un fichier avec les [ données de conversion requises](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md) vers l’emplacement de serveur désigné.
 
 1. Les services techniques analysent les données de conversion dans les fichiers chargés, puis chargent les données dans Adobe Advertising. Adobe Advertising effectue ensuite le suivi des données par rapport à des mots-clés, publicités et emplacements individuels, puis crée une prévision de recettes pour chacun d’eux.
 
@@ -36,5 +36,5 @@ Lorsqu’un annonceur effectue des transactions en ligne et hors ligne, il peut 
 
 >[!MORELIKETHIS]
 >
->* [Exigences liées aux fichiers de flux de conversion](feed-file-requirements.md)
->* [Exigences de données pour les flux de données à l’aide d’un ID de transaction](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
+>* [Exigences liées aux fichiers pour les fichiers de flux de conversion](feed-file-requirements.md)
+>* [ Exigences de données pour les flux de données à l’aide d’un ID de transaction ](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)

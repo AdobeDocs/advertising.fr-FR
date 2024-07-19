@@ -1,9 +1,9 @@
 ---
 title: Suppression de flux de rapports de feuille de calcul
 description: Découvrez comment supprimer des flux de feuille de calcul.
-exl-id: fbe8a578-8bcb-4755-96d0-e82aab313e5e
+exl-id: 762e4438-3986-4ae9-92af-335563c23bf7
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -28,10 +28,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [A propos des flux de rapports de feuille de calcul](spreadsheet-feed-about.md)
->* [Création d’un flux de rapport de feuille de calcul](spreadsheet-feed-create.md)
->* [Créez un [!DNL Excel] modèle pour un flux de rapport de feuille de calcul](spreadsheet-feed-create-excel-template.md)
+>* [À propos des flux de rapports de feuille de calcul](spreadsheet-feed-about.md)
+>* [Créer un flux de rapport de feuille de calcul](spreadsheet-feed-create.md)
+>* [ Créez un  [!DNL Excel] modèle pour un flux de rapport de feuille de calcul](spreadsheet-feed-create-excel-template.md)
 >* [Modifier les paramètres du flux de rapports de feuille de calcul](spreadsheet-feed-edit.md)
 >* [Paramètres du flux de rapports de feuille de calcul](spreadsheet-feed-settings.md)
->* [Affichage ou enregistrement d’un fichier de flux de rapport de feuille de calcul](spreadsheet-feed-view-or-save.md)
+>* [ Afficher ou enregistrer un fichier de flux de rapport de feuille de calcul ](spreadsheet-feed-view-or-save.md)
 >* [Actualisation manuelle des flux de rapports de feuille de calcul](spreadsheet-feed-refresh.md)

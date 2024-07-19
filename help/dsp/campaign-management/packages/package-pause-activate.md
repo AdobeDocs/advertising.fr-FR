@@ -2,7 +2,8 @@
 title: Mettre en pause ou activer un module
 description: Découvrez comment suspendre ou activer un module.
 feature: DSP Packages
-source-git-commit: 81f761e44b6f5a0bef9524468b57d97c021ef2b2
+exl-id: c4a6fb08-14db-4c8b-ab7a-0bbc0f201390
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -18,8 +19,8 @@ Tous les emplacements mis en pause dans un package avant de mettre le package en
 ## Mettre un package en pause
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
-1. Cliquez sur le nom de la campagne pour ouvrir la [!UICONTROL Packages] vue.
-1. En regard du nom du module, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. Cliquez sur le nom de la campagne pour ouvrir la vue [!UICONTROL Packages].
+1. En regard du nom du package, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 >[!NOTE]
 >
@@ -28,11 +29,11 @@ Tous les emplacements mis en pause dans un package avant de mettre le package en
 ## Activation d’un module
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
-1. Cliquez sur le nom de la campagne pour ouvrir la [!UICONTROL Packages] vue.
-1. En regard du nom du module, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. Cliquez sur le nom de la campagne pour ouvrir la vue [!UICONTROL Packages].
+1. En regard du nom du package, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
 
 >[!MORELIKETHIS]
 >
->* [Modification d’un module](package-edit.md)
->* [Affichage du journal des modifications d’un module](package-change-log.md)
->* [Archivage d’un module](package-archive-unarchive.md)
+>* [Modifier un module](package-edit.md)
+>* [Afficher le journal des modifications d’un package](package-change-log.md)
+>* [Archiver un package](package-archive-unarchive.md)

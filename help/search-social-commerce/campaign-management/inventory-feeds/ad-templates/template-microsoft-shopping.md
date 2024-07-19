@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Ads] achats et paramètres de modèle pour les flux de stock'
-description: Référencez les paramètres pour [!DNL Microsoft Ads] achat de modèles d’annonces pour les flux d’inventaire.
+title: Paramètres de modèle d’annonce d’achat "[!DNL Microsoft Ads]" pour les flux d’inventaire
+description: Référencez les paramètres pour  [!DNL Microsoft Ads] acheter des modèles d’annonces pour les flux d’inventaire.
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Ads] achats et paramètres de modèle pour les flux de stock
+# [!DNL Microsoft Ads] paramètres de modèle d’annonce d’achat pour les flux d’inventaire
 
 Utilisez les modèles d’annonces d’achat pour configurer des annonces d’achat.
 
 >[!NOTE]
 >
->* Les caractères suivants sont réservés à la désignation des noms de colonne et des noms de modificateur dans le modèle et sont donc interdits en tant que texte dans tous les champs d’attribut :  `[ ] < > `
+>* Les caractères suivants sont réservés à la désignation des noms de colonne et des noms de modificateur dans le modèle et sont donc interdits en tant que texte dans tous les champs d&#39;attribut : `[ ] < > `
 
 
 ## \[Au-dessus de tous les onglets\]
@@ -57,13 +57,13 @@ Utilisez les modèles d’annonces d’achat pour configurer des annonces d’ac
 
 {{$include /help/_includes/inventory-feed-template-shopping-campaign-map-method.md}}
 
-**[!UICONTROL Campaign Tracking Template]:** (Facultatif pour les modèles de fichiers de flux client) Le modèle de suivi au niveau de la campagne, qui spécifie tous les paramètres de suivi et redirections hors domaine d’entrée et incorpore l’URL finale dans un paramètre. Cette valeur remplace le paramètre au niveau du compte, mais les modèles de suivi à des niveaux plus granulaires (avec le mot-clé comme plus granulaire) remplacent cette valeur.
+**[!UICONTROL Campaign Tracking Template]:** (Facultatif pour les modèles de fichiers de flux client) Le modèle de suivi au niveau de la campagne, qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi et incorpore l’URL finale dans un paramètre. Cette valeur remplace le paramètre au niveau du compte, mais les modèles de suivi à des niveaux plus granulaires (avec le mot-clé comme plus granulaire) remplacent cette valeur.
 
-* Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload],&quot; effectuez l’une des opérations suivantes :
+* Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload]&quot;, effectuez l’une des opérations suivantes&quot; :
 
-   * (Recommandé) Utilisez la variable [format de modèle de suivi pour les campagnes d’achat Microsoft](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Si l’intégralité du compte est dédiée aux publicités commerciales, vous pouvez définir un modèle de suivi au niveau du compte.
+   * (Recommandé) Utilisez le [format de modèle de suivi pour les campagnes d’achats Microsoft](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Si l’intégralité du compte est dédiée aux publicités commerciales, vous pouvez définir un modèle de suivi au niveau du compte.
 
-   * Si vous incluez à la place une valeur pour chaque produit dans le flux en utilisant le[!DNL bingads_redirect]&quot; (à l’aide de la variable [format correct](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)), puis saisissez le paramètre `{lpurl}`. Vous pouvez éventuellement ajouter des redirections et un suivi tiers au `{lpurl}` .
+   * Si vous incluez à la place une valeur pour chaque produit dans le flux à l’aide de la colonne &quot;[!DNL bingads_redirect]&quot; (en utilisant le [format correct](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)), entrez le paramètre `{lpurl}`. Vous pouvez éventuellement ajouter des redirections et un suivi tiers au paramètre `{lpurl}`.
 
 * Pour les redirections et le suivi tiers, saisissez une valeur.
 
@@ -71,9 +71,10 @@ Utilisez les modèles d’annonces d’achat pour configurer des annonces d’ac
 
 {{$include /help/_includes/final-url-suffix.md}}
 
-**[!UICONTROL Merchant ID]:** Identifiant client du compte marchand dont les produits sont utilisés pour la campagne.
+**[!UICONTROL Merchant ID]:** ID client du compte marchand dont les produits sont utilisés pour la campagne.
 
-**[!UICONTROL Sales Country]:** Pays dans lequel les produits de la campagne sont vendus. Les produits étant associés aux pays cibles, ce paramètre détermine les produits faisant l’objet d’une publicité dans la campagne.
+**[!UICONTROL Sales Country]:** pays dans lequel les produits de la campagne sont vendus. Les produits étant associés
+avec les pays cibles, ce paramètre détermine les produits qui sont annoncés dans la campagne.
 
 <!-- **[!UICONTROL Stock Level]:** -->
 
@@ -97,7 +98,9 @@ Utilisez les modèles d’annonces d’achat pour configurer des annonces d’ac
 
 {{$include /help/_includes/inventory-feed-template-campaign-initial-budget.md}}
 
-**[!UICONTROL Campaign Priority]:** La priorité avec laquelle la campagne est utilisée lorsque plusieurs campagnes font la promotion du même produit : *[!UICONTROL Low]* (valeur par défaut pour les nouvelles campagnes), *[!UICONTROL Medium]*, ou *[!UICONTROL High]*. Lorsqu’un même produit est inclus dans plusieurs campagnes, le réseau publicitaire utilise d’abord la priorité de la campagne pour déterminer la campagne (et l’offre associée) éligible aux enchères publicitaires. Lorsque toutes les campagnes ont la même priorité, la campagne avec l&#39;offre la plus élevée est éligible.
+**[!UICONTROL Campaign Priority]:** Priorité avec laquelle la campagne est utilisée lorsque plusieurs campagnes font de la publicité pour la variable
+même produit : *[!UICONTROL Low]* (valeur par défaut pour les nouvelles campagnes), *[!UICONTROL Medium]* ou *[!UICONTROL High]*. Lorsque le même produit est inclus dans plusieurs campagnes, le réseau publicitaire utilise
+la priorité de la campagne doit d’abord déterminer la campagne (et l’offre associée) éligible à l’enchère publicitaire. Lorsque toutes les campagnes ont la même priorité, la campagne avec l&#39;offre la plus élevée est éligible.
 
 <!-- **[!UICONTROL Locations]:** -->
 
@@ -117,7 +120,7 @@ Utilisez les modèles d’annonces d’achat pour configurer des annonces d’ac
 
 {{$include /help/_includes/inventory-feed-template-ad-group-map-method.md }}
 
-**[!UICONTROL Ad Group Tracking Template]:** (Facultatif) Un modèle de suivi au niveau du groupe d’annonces qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi et incorpore l’URL finale dans un paramètre. Cette valeur remplace les paramètres au niveau du compte et de la campagne, mais les modèles de suivi à des niveaux plus granulaires remplacent cette valeur.
+**[!UICONTROL Ad Group Tracking Template]:** (facultatif) modèle de suivi au niveau du groupe publicitaire, qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi et incorpore l’URL finale dans un paramètre. Cette valeur remplace les paramètres au niveau du compte et de la campagne, mais les modèles de suivi à des niveaux plus granulaires remplacent cette valeur.
 
 Pour le suivi des conversions par Adobe Advertising, il n’est pas nécessaire de saisir de valeur. La valeur au niveau de la campagne suffit.
 
@@ -139,7 +142,7 @@ Pour les redirections et le suivi tiers, saisissez une valeur.
 
 ## [!UICONTROL Product Groups]
 
-**[!UICONTROL Tier 1]:** Le groupe de produits par défaut, tout compris, &quot;[!UICONTROL All products].&quot; Vous ne pouvez pas supprimer ce groupe de produits parent, mais il est automatiquement supprimé lorsque tous les niveaux inférieurs sont absents du flux.
+**[!UICONTROL Tier 1]:** groupe de produits par défaut, tout compris, &quot;[!UICONTROL All products]&quot;. Vous ne pouvez pas supprimer ce groupe de produits parent, mais il est automatiquement supprimé lorsque tous les niveaux inférieurs sont absents du flux.
 
 <!-- **[!UICONTROL Tier 2 - Tier 8]:** -->
 
@@ -149,7 +152,8 @@ Pour les redirections et le suivi tiers, saisissez une valeur.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Unités sans groupes de produits enfants ; facultatif) Le modèle de suivi pour le groupe de produits, qui spécifie toutes les redirections de domaine d’entrée et tous les paramètres de suivi et incorpore l’URL finale dans une [!DNL ValueTrack] . Ce modèle remplace les modèles à des niveaux supérieurs.
+**[!UICONTROL Tracking Template]:** (Unités sans groupes de produits enfants ; facultatif) Le modèle de suivi du produit
+, qui spécifie tous les paramètres de suivi et redirections de domaine hors d’entrée et incorpore l’URL finale dans un paramètre [!DNL ValueTrack] . Ce modèle remplace les modèles à des niveaux supérieurs.
 
 Pour le suivi des conversions par Adobe Advertising, il n’est pas nécessaire de saisir de valeur. La valeur au niveau de la campagne suffit.
 
@@ -171,8 +175,8 @@ Pour les redirections et le suivi tiers, saisissez une valeur.
 
 >[!MORELIKETHIS]
 >
->* [A propos de l’automatisation de la gestion des publicités à l’aide des flux d’inventaire](../inventory-feeds-about.md)
+>* [À propos de l’automatisation de la gestion des publicités à l’aide de flux d’inventaire](../inventory-feeds-about.md)
 >* [Gestion des modificateurs](../modifiers-manage.md)
 >* [Gestion des fichiers de flux de données d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 >* [Propager les données de flux par le biais de modèles](../feed-data-propagate.md)
->* [Publier les données de campagne des flux d’inventaire vers les réseaux publicitaires](../propagated-data-post.md)
+>* [ Publier les données de campagne des flux d’inventaire vers les réseaux publicitaires ](../propagated-data-post.md)

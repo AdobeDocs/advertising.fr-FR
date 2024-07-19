@@ -14,11 +14,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vous pouvez également exécuter un rapport personnalisé lorsque vous [create](report-create.md) ou [edit](report-edit.md) c&#39;est le cas.
+>Vous pouvez également exécuter un rapport personnalisé lorsque vous le [créez](report-create.md) ou [modifiez](report-edit.md).
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Reports]**.
 
-1. Dans le [!UICONTROL Options] pour la ligne du rapport, cliquez sur **[!UICONTROL options]** > **[!UICONTROL Run Now]**.
+1. Dans la colonne [!UICONTROL Options] de la ligne du rapport, cliquez sur **[!UICONTROL options]** > **[!UICONTROL Run Now]**.
 
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL OK]**.
 
@@ -28,8 +28,7 @@ ht-degree: 0%
 >
 >* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
 >* [Créer un rapport personnalisé](/help/dsp/reports/report-create.md)
->* [Duplication d’un rapport personnalisé](/help/dsp/reports/report-copy.md)
+>* [Dupliquer un rapport personnalisé](/help/dsp/reports/report-copy.md)
 >* [Modifier un rapport personnalisé](/help/dsp/reports/report-edit.md)
->* [Paramètres des rapports personnalisés](/help/dsp/reports/report-settings.md)
+>* [Paramètres de rapport personnalisés](/help/dsp/reports/report-settings.md)
 >* [Colonnes de rapport disponibles](/help/dsp/reports/report-columns.md)
-

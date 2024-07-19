@@ -21,19 +21,19 @@ Vous pouvez à tout moment désarchiver une publicité pour restaurer son état 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
-1. En regard du nom de la publicité, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. En regard du nom de la publicité, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Pour afficher les publicités archivées, filtrez la variable [!UICONTROL Ads] view : click ![[!UICONTROL Filter] button](/help/dsp/assets/filter.png), cliquez sur **[!UICONTROL Ad status]** et sélectionnez **[!UICONTROL Archived]**, puis cliquez sur **[!UICONTROL Apply].**
+>Pour afficher les publicités archivées, filtrez la vue [!UICONTROL Ads] : cliquez sur le bouton ![[!UICONTROL Filter] ](/help/dsp/assets/filter.png), cliquez sur **[!UICONTROL Ad status]**, sélectionnez **[!UICONTROL Archived]**, puis cliquez sur **[!UICONTROL Apply].**
 
 ## Désarchiver une publicité
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
-1. En regard du nom de la publicité, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. En regard du nom de la publicité, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
@@ -41,4 +41,3 @@ Vous pouvez à tout moment désarchiver une publicité pour restaurer son état 
 >* [Créer une publicité unique](ad-create.md)
 >* [Créer plusieurs publicités tierces](ad-create-multiple.md)
 >* [Modifier une publicité](ad-edit.md)
-

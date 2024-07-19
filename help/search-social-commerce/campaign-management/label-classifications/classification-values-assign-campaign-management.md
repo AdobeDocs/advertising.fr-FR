@@ -1,11 +1,11 @@
 ---
 title: Affectation de valeurs de classification à des composants de compte à partir des vues de gestion de campagne
 description: Découvrez comment affecter des valeurs de classification aux composants de compte.
-exl-id: 7e55d7d8-5e12-409b-ad5d-c53cbf24c7c9
+exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Les valeurs d’étiquette sont héritées par les entités enfants. Par conséq
 
 >[!NOTE]
 >
->Les mots-clés et la copie de publicité pour certains réseaux publicitaires et types de campagne sont les suivants : [non modifiable](/help/search-social-commerce/campaign-management/faqs-campaigns.md), ce qui signifie que les modifier supprime l’entité existante et en crée une nouvelle. Lorsqu’une entité existante est ainsi supprimée, la classification de libellés n’est pas affectée à la nouvelle entité.
+>Les mots-clés et la copie de publicités pour certains réseaux publicitaires et types de campagne sont [non modifiable](/help/search-social-commerce/campaign-management/faqs-campaigns.md), ce qui signifie que leur modification supprime l’entité existante et en crée une nouvelle. Lorsqu’une entité existante est ainsi supprimée, la classification de libellés n’est pas affectée à la nouvelle entité.
 
 1. Cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, puis sélectionnez la vue du composant de compte.
 
@@ -32,9 +32,9 @@ Les valeurs d’étiquette sont héritées par les entités enfants. Par conséq
 
       * Cochez la case en regard de chaque ligne correspondante.
 
-        Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      * Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Plus](/help/search-social-commerce/assets/more.png "Plus"), puis cliquez sur **[!UICONTROL Classification]**.
+      * Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Plus](/help/search-social-commerce/assets/more.png "Plus"), puis sur **[!UICONTROL Classification]**.
 
 1. Dans le [!UICONTROL Assignment Details], effectuez l’une des opérations suivantes :
 
@@ -42,7 +42,7 @@ Les valeurs d’étiquette sont héritées par les entités enfants. Par conséq
 
      La longueur maximale de chaque valeur est de 100 caractères. Elle peut contenir des caractères ASCII et non ASCII.
 
-   * Pour attribuer des valeurs de classification spécifiées sans supprimer des valeurs existantes, sélectionnez **[!UICONTROL Assign]**.
+   * Pour attribuer des valeurs de classification spécifiées sans supprimer les valeurs existantes, sélectionnez **[!UICONTROL Assign]**.
 
    * Pour supprimer des valeurs de classification spécifiques actuellement attribuées, sélectionnez **[!UICONTROL Remove]**.
 
@@ -54,15 +54,15 @@ Les valeurs d’étiquette sont héritées par les entités enfants. Par conséq
 
 1. Pour chaque valeur de classification applicable, procédez comme suit :
 
-   1. Dans le **[!UICONTROL Classification]** , indiquez le nom de la classification :
+   1. Dans la colonne **[!UICONTROL Classification]**, indiquez le nom de la classification :
 
       * Pour utiliser une classification existante, cliquez sur son nom pour la développer.
 
       * Pour créer une classification, cliquez sur [!UICONTROL +]. Dans le champ de saisie, saisissez le nom de la classification, puis cliquez sur ![Enregistrer](/help/search-social-commerce/assets/select.png "Enregistrer") pour enregistrer immédiatement la classification.
 
-        Le nom doit être composé de [Caractères ASCII 32 à 126](https://www.asciitable.com/), et la longueur maximale est de 27 caractères sur un octet.
+        Le nom doit être composé de [caractères ASCII 32 à 126](https://www.asciitable.com/), et la longueur maximale est de 27 caractères sur un octet.
 
-   1. Dans le **[!UICONTROL Value Name]** , indiquez le nom de la valeur :
+   1. Dans la colonne **[!UICONTROL Value Name]**, indiquez le nom de la valeur :
 
       * Pour utiliser une valeur existante, cliquez sur le nom de la valeur pour la sélectionner.
 
@@ -72,17 +72,17 @@ Les valeurs d’étiquette sont héritées par les entités enfants. Par conséq
 
 1. (Facultatif) Saisissez des détails supplémentaires :
 
-   1. Suivant **[!UICONTROL Additional Details]**, cliquez sur ![Ouvrir](/help/search-social-commerce/assets/chevron-up.png "Ouvrir") pour développer les détails.
+   1. En regard de **[!UICONTROL Additional Details]**, cliquez sur ![Ouvrir](/help/search-social-commerce/assets/chevron-up.png "Ouvrir") pour développer les détails.
 
-   1. Saisissez un **[!UICONTROL Project Name]** et/ou facultatif **[!UICONTROL Description]**.
+   1. Saisissez un **[!UICONTROL Project Name]** facultatif et/ou un **[!UICONTROL Description]** facultatif.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
 >* [À propos des classifications d’étiquettes](classification-about.md)
->* [Création d’une classification d’étiquettes](classification-create.md)
->* [Affectation de valeurs de classification à des composants de compte à l’aide de feuilles d’envoi groupées](classification-values-assign-bulksheets.md)
->* [Suppression des valeurs de classification d’étiquette des composants de compte](classification-values-remove.md)
->* [Supprimer des valeurs de classification d’étiquettes](classification-values-delete.md)
+>* [Créer une classification d’étiquettes](classification-create.md)
+>* [Attribuer des valeurs de classification aux composants de compte à l’aide de feuilles d’envoi groupées](classification-values-assign-bulksheets.md)
+>* [Supprimer les valeurs de classification d’étiquette des composants de compte](classification-values-remove.md)
+>* [ Supprimer des valeurs de classification d’étiquettes](classification-values-delete.md)
 >* [Supprimer des classifications d’étiquettes](classification-delete.md)

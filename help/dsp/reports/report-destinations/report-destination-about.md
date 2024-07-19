@@ -1,5 +1,5 @@
 ---
-title: A propos [!UICONTROL Report Destinations]
+title: À propos de [!UICONTROL Report Destinations]
 description: Découvrez la gestion des emplacements de diffusion pour vos rapports personnalisés.
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# A propos [!UICONTROL Report Destinations]
+# À propos de [!UICONTROL Report Destinations]
 
-Vous pouvez créer et gérer des emplacements de diffusion, appelés *[!DNL report destinations]*, pour vos rapports personnalisés. Une fois que vous avez configuré les destinations de rapport, vous pouvez configurer chacun de vos rapports personnalisés pour qu’ils soient diffusés à un ou plusieurs emplacements d’un seul type de destination. Une fois que vous avez enregistré un rapport, vous ne pouvez pas modifier le type de destination.
+Vous pouvez créer et gérer des emplacements de diffusion appelés *[!DNL report destinations]* pour vos rapports personnalisés. Une fois que vous avez configuré les destinations de rapport, vous pouvez configurer chacun de vos rapports personnalisés pour qu’ils soient diffusés à un ou plusieurs emplacements d’un seul type de destination. Une fois que vous avez enregistré un rapport, vous ne pouvez pas modifier le type de destination.
 
 ## Disponible [!UICONTROL Destination Types]
 
@@ -25,9 +25,9 @@ Vous pouvez créer et gérer des emplacements de diffusion, appelés *[!DNL repo
 >
 > Vous pouvez également envoyer vos rapports personnalisés aux destinataires par e-mail, qui ne nécessitent pas de destination de rapport enregistrée. Dans les paramètres du rapport, vous pouvez spécifier des destinataires de courrier électronique plutôt que des destinations enregistrées.
 
-## La variable [!UICONTROL Report Destinations] Affichage
+## La vue [!UICONTROL Report Destinations]
 
-La variable [!UICONTROL Report Destinations] La vue affiche toutes vos destinations existantes et le nombre de rapports liés à chacune d’elles. Vous pouvez filtrer la liste par type de destination.
+La vue [!UICONTROL Report Destinations] affiche toutes vos destinations existantes et le nombre de rapports liés à chacune d’elles. Vous pouvez filtrer la liste par type de destination.
 
 Vous pouvez créer de nouvelles destinations et modifier et supprimer des destinations existantes à partir de cette vue.
 
@@ -39,7 +39,7 @@ Vous pouvez créer de nouvelles destinations et modifier et supprimer des destin
 
 >[!MORELIKETHIS]
 >
->* [Créez un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Créer un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [[!UICONTROL Report Destination] Paramètres](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [Modifier une [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Suppression d’une [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Modifier un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+>* [Supprimer un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)

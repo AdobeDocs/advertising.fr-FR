@@ -18,16 +18,16 @@ Vous pouvez arrêter de publier les données de campagne générées à partir d
 
 * Pendant que les données sont toujours en cours de propagation, arrêtez la tâche de propagation afin qu’aucune donnée ne soit disponible pour publication :
 
-   1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, qui s’ouvre sur le [!UICONTROL Templates] .
+   1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** pour accéder à l’onglet [!UICONTROL Templates].
 
-   1. Dans le[!UICONTROL Last Prop. Status]&quot; en regard du nom du modèle, cliquez sur **[!UICONTROL Cancel]**.
+   1. Dans la colonne &quot;[!UICONTROL Last Prop. Status]&quot; en regard du nom du modèle, cliquez sur **[!UICONTROL Cancel]**.
 
-* Si les données sont déjà propagées, [annuler la tâche de publication à partir de la fonction [!UICONTROL Bulksheets] view](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md).
+* Si les données sont déjà propagées, [annulez la tâche de publication à partir de la vue [!UICONTROL Bulksheets]](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md).
 
 >[!MORELIKETHIS]
 >
 >* [À propos des flux d’inventaire](inventory-feeds-about.md)
 >* [Affichage des données générées à partir de flux](propagated-data-view.md)
->* [Modification des données générées à partir de flux](propagated-data-edit.md)
+>* [Modifier les données générées à partir de flux](propagated-data-edit.md)
 >* [Données de campagne de publication générées à partir de flux vers les réseaux publicitaires](propagated-data-post.md)
->* [Statuts des données générées à partir de flux](propagated-data-status.md)
+>* [États des données générées à partir de flux](propagated-data-status.md)

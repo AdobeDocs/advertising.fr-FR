@@ -5,8 +5,8 @@ source-wordcount: '31'
 ht-degree: 0%
 
 ---
-# Documentation diverse pour Adobe Advertising
+# Documentation diverse pour l’Adobe Advertising
 
-Ce dossier est destiné aux fichiers image et autres fichiers de ressources pour les fichiers du dossier /privacy/ uniquement.
+Ce dossier est réservé aux fichiers image et autres fichiers ressource pour les fichiers du dossier /privacy/ .
 
 **Remarque : Cette page n’est pas publiée dans la documentation destinée aux clients.**

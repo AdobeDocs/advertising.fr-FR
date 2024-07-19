@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL On Demand] Premium Éditeurs d’inventaire en Australie et en Nouvelle-Zélande'
-description: Voir la [!DNL On Demand] éditeurs d’inventaire haut de gamme en Australie et en Nouvelle-Zélande.
+title: '[!DNL On Demand] Éditeurs d’inventaire Premium en Australie et en Nouvelle-Zélande'
+description: Voir les éditeurs d’inventaire  [!DNL On Demand] Premium disponibles en Australie et en Nouvelle-Zélande.
 feature: DSP On Demand Inventory
 exl-id: 9c494ad0-eb35-464e-b154-3f56c02968f1
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] Éditeurs Premium d’inventaire en Australie et en Nouvelle-Zélande{#on-demand-inventory-publishers-anz}
+# [!DNL On Demand] Éditeurs d’inventaire Premium en Australie et en Nouvelle-Zélande{#on-demand-inventory-publishers-anz}
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
@@ -92,13 +92,12 @@ ht-degree: 0%
 | [!DNL WWE] | Australie/Nouvelle-Zélande |
 | [!DNL Yahoo] | Australie/Nouvelle-Zélande |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [A propos [!DNL On Demand] Inventaire Premium](on-demand-inventory-about.md)
->* [Abonner et demander l’accès à [!DNL On Demand] Inventaire Premium](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] Éditeurs Premium d’inventaire dans l’Asie-Pacifique](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand Premium] Les éditeurs d’inventaire en Europe, au Moyen-Orient et en Afrique](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Éditeurs Premium d’inventaire en Amérique du Nord](on-demand-inventory-publishers-na.md)
-
+>* [À propos de [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
+>* [Abonner et demander l’accès à [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand]  Éditeurs d’inventaire Premium en Asie-Pacifique](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand Premium] Inventaire des éditeurs en Europe, au Moyen-Orient et en Afrique](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand]  Éditeurs d’inventaire Premium en Amérique du Nord](on-demand-inventory-publishers-na.md)

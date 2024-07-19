@@ -24,11 +24,11 @@ Affichez les actions recommandées, ainsi qu’une explication des raisons pour 
 
 1. Dans le coin supérieur droit, sélectionnez le réseau publicitaire et le compte.
 
-   Pour [!DNL Microsoft Advertising] les comptes, [!UICONTROL Recommendations] pour le compte sont répertoriés par défaut.
+   Pour les comptes [!DNL Microsoft Advertising], les [!UICONTROL Recommendations] du compte sont répertoriés par défaut.
 
 1. (Facultatif) Filtrez les recommandations par catégorie et par type.
 
-1. Dans le [!UICONTROL Actions] pour la ligne de recommandation ou d’informations, cliquez sur **[!UICONTROL View]**.
+1. Dans la colonne [!UICONTROL Actions] de la ligne de recommandation ou d’informations, cliquez sur **[!UICONTROL View]**.
 
 1. (Recommendations avec sous-recommandations) Cliquez sur **[!UICONTROL View]** en regard de la sous-recommandation.
 
@@ -42,8 +42,8 @@ Affichez les actions recommandées, ainsi qu’une explication des raisons pour 
 
 >[!MORELIKETHIS]
 >
->* [À propos de la prise en charge des recommandations et des insights de l’éditeur](recommendation-support.md)
->* [Affichage des recommandations et des informations sur les performances de votre éditeur](recommendation-view.md)
->* [Affichage du journal des recommandations de l’éditeur pour un compte](recommendation-view-log.md)
->* [Bonnes pratiques relatives à l’utilisation des recommandations d’éditeur avec des portefeuilles](recommendation-best-practices.md)
+>* [ À propos de la prise en charge des recommandations et des insights de l’éditeur ](recommendation-support.md)
+>* [ Afficher les recommandations de l’éditeur et les informations sur les performances](recommendation-view.md)
+>* [Afficher le journal des recommandations de l’éditeur pour un compte](recommendation-view-log.md)
+>* [ Bonnes pratiques pour l’utilisation des recommandations d’éditeur avec des portefeuilles](recommendation-best-practices.md)
 

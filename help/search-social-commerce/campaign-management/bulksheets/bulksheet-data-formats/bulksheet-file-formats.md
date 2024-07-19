@@ -1,11 +1,11 @@
 ---
 title: Formats de fichiers de feuille d’envoi groupé pris en charge
 description: Référencez les exigences générales de fichier pour les feuilles d’envoi groupées.
-exl-id: b14aaf11-e2e9-4f7c-b6bc-831f668b93a6
+exl-id: f3daf036-8f0c-4c75-9c76-2734abd850ec
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Lorsque vous créez/téléchargez une feuille d’envoi groupé, elle est créé
 
 ## Contenu de base d’une feuille de support
 
-Le premier enregistrement (ligne) d’un fichier de feuille d’envoi groupé contient un ensemble de noms de colonne spécifiques, connus collectivement sous le nom de <i>header</i>. Les noms des colonnes dans l’en-tête sont dans un ordre spécifié et correspondent à chacun des champs des enregistrements de données suivants. Les noms des colonnes requis dans l’en-tête varient en fonction du réseau publicitaire.
+Le premier enregistrement (ligne) d’un fichier de feuille d’envoi groupé contient un ensemble de noms de colonne spécifiques, connus collectivement sous le nom d’<i>en-tête</i>. Les noms des colonnes dans l’en-tête sont dans un ordre spécifié et correspondent à chacun des champs des enregistrements de données suivants. Les noms des colonnes requis dans l’en-tête varient en fonction du réseau publicitaire.
 
 Chaque enregistrement (ligne) suivant contient des données, avec des champs contenant des valeurs (ou aucune valeur) pour chaque colonne de l’en-tête.
 
@@ -59,15 +59,15 @@ Les champs de données des fichiers CSV et TXT délimités par des virgules doiv
 
   Exemple : `Cruises,5000,Caribbean,,,`
 
-* Tout champ peut éventuellement être entouré de guillemets doubles (`""`).
+* Tout champ peut éventuellement être inclus entre guillemets doubles (`""`).
 
-  Exemple :  `"Cruises","5000","Caribbean",`
+  Exemple : `"Cruises","5000","Caribbean",`
 
 * Les champs avec des virgules incorporées doivent être entourés de guillemets doubles (`""`).
 
   Exemple : `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
 
-* Les champs avec guillemets doubles incorporés doivent être entourés de guillemets doubles (`""`).
+* Les champs avec des guillemets doubles incorporés doivent être entourés de guillemets doubles (`""`).
 
   Exemple : `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
 
@@ -77,7 +77,7 @@ Les champs de données des fichiers CSV et TXT délimités par des virgules doiv
 
 >[!MORELIKETHIS]
 >
->* [A propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées](../bulksheet-about.md)
->* [Opérations que vous pouvez effectuer dans des feuilles d’envoi groupées](bulksheet-operations.md)
->* [Annexe : Erreurs de feuilles d’envoi groupé](../bulksheet-errors.md)
->* [Téléchargement/création d’un fichier de feuille d’envoi groupé](../bulksheet-download.md)
+>* [À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées](../bulksheet-about.md)
+>* [Opérations que vous pouvez effectuer dans les feuilles d’envoi groupé](bulksheet-operations.md)
+>* [Annexe - Erreurs de feuilles d’envoi groupé](../bulksheet-errors.md)
+>* [Télécharger/créer un fichier de feuille d’envoi groupé](../bulksheet-download.md)

@@ -15,24 +15,24 @@ ht-degree: 0%
 1. Dans le menu principal, cliquez sur **[!UICONTROL Planner]**.
 
 1. 
-   1. Placez le curseur sur la ligne de plan et cliquez sur **[!UICONTROL More]** > **[!UICONTROL Duplicate]**.
+   1. Placez le curseur sur la ligne Plan et cliquez sur **[!UICONTROL More]** > **[!UICONTROL Duplicate]**.
 
-1. (Facultatif) Modifiez le nom du plan et [paramètres du plan](planner-settings.md).
+1. (Facultatif) Modifiez le nom du plan et les [paramètres du plan](planner-settings.md).
 
-   Par défaut, le nouveau plan est appelé &quot;`<existing plan name> duplicate`.&quot;
+   Par défaut, le nouveau plan est appelé &quot;`<existing plan name> duplicate`&quot;.
 
 1. Cliquez sur **[!UICONTROL Save and Forecast]**.
 
    Une fois le plan enregistré, la sortie prévisionnelle s’affiche.
 
-1. Pour exporter le [!UICONTROL Budget vs Reach] prévision d’une [!DNL Microsoft Excel] feuille de calcul**, cliquez sur **[!UICONTROL ...]** dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Export]**.
+1. (Facultatif) Pour exporter la prévision [!UICONTROL Budget vs Reach] vers une feuille de calcul [!DNL Microsoft Excel]**, cliquez sur **[!UICONTROL ...]** dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
 >* [À propos de l’outil de planification DSP](planner-about.md)
->* [Créer un plan de portée télévisée connectée](planner-create.md)
->* [Modification d’un plan de portée télévisée connecté](planner-edit.md)
->* [Exportation d’un plan de portée TV connecté](planner-export.md)
+>* [ Créer un plan de portée télévisée connectée ](planner-create.md)
+>* [Modifier un plan de portée TV connecté](planner-edit.md)
+>* [Exporter un plan de portée TV connecté](planner-export.md)
 >* [Régénération des prévisions pour un plan de portée télévisée connecté](planner-forecast.md)
->* [Archivage d’un plan de portée télévisée connecté](planner-archive.md)
->* [Paramètres des plans de portée TV connectés](planner-settings.md)
+>* [ Archivage d’un plan de portée TV connecté](planner-archive.md)
+>* [Paramètres des plans de portée télévisée connectés](planner-settings.md)

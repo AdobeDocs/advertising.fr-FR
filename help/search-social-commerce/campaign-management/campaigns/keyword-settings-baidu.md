@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Baidu] paramètres de mots-clés'
-description: Référencez les paramètres pour [!DNL Baidu] mots-clés.
-exl-id: 70ecb5da-1056-4d87-82ba-ac03e0c81761
+title: Paramètres des mots-clés '[!DNL Baidu]'
+description: Référencez les paramètres de  [!DNL Baidu] mots-clés.
+exl-id: 3b3a578b-06f1-486f-9ade-9104e0a1dd5f
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
 
-# [!DNL Baidu] paramètres de mots-clés
+# [!DNL Baidu] paramètres de mot-clé
 
 ## [!UICONTROL Keyword Details]
 
@@ -19,16 +19,16 @@ ht-degree: 0%
 Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés. Séparez plusieurs mots-clés par des virgules ou saisissez-les sur des lignes distinctes. Utilisez la syntaxe suivante :
 
 * `keyword` pour une correspondance large
-* `"keyword"` correspondant à l’expression
-* `[keyword]` correspondant exactement à
+* `"keyword"` pour la correspondance d’expression
+* `[keyword]` pour une correspondance exacte
 
 >[!NOTE]
 >
->* [!DNL Baidu] n’autorise qu’un seul type de correspondance par mot-clé par groupe publicitaire. Par exemple, le groupe d’annonces 1 ne peut pas inclure les deux `"keyword"` et `[keyword]`.
->* Vous pouvez créer des mots-clés négatifs à partir de la variable [!UICONTROL Keywords] > [!UICONTROL Negatives] afficher et dans les paramètres du groupe publicitaire et de la campagne.
->* Modification d’un [!DNL Baidu] Le mot-clé supprime le mot-clé existant et en crée un nouveau avec un nouvel identifiant de mot-clé. Toutefois, le fait de modifier le type de correspondance ne supprime pas le mot-clé existant.
+>* [!DNL Baidu] n’autorise qu’un seul type de correspondance par mot-clé et par groupe publicitaire. Par exemple, le groupe d’annonces 1 ne peut pas inclure à la fois `"keyword"` et `[keyword]`.
+>* Vous pouvez créer des mots-clés négatifs à partir de la vue [!UICONTROL Keywords] > [!UICONTROL Negatives] et dans les paramètres du groupe publicitaire et de la campagne.
+>* La modification d&#39;un mot-clé [!DNL Baidu] supprime le mot-clé existant et en crée un nouveau avec un nouvel identifiant de mot-clé. Toutefois, le fait de modifier le type de correspondance ne supprime pas le mot-clé existant.
 
-**[!UICONTROL Status]:** L’état d’affichage du mot-clé : *Principal* ou *En pause*. La valeur par défaut des nouveaux mots-clés est *Principal*.
+**[!UICONTROL Status]:** État d’affichage du mot-clé : *Actif* ou *En pause*. La valeur par défaut des nouveaux mots-clés est *Active*.
 
 ## [!UICONTROL Bids]
 
@@ -38,12 +38,13 @@ Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés. Séparez plusieurs mot
 
 ## Options d’URL
 
-**[!UICONTROL Base URL]:** (Campagnes avec suivi au niveau des mots-clés uniquement ; facultatif) URL de la page d’entrée vers laquelle les utilisateurs sont redirigés lorsqu’ils cliquent sur votre publicité. Il peut inclure un code de redirection et de suivi tiers. Si vous saisissez une valeur, elle remplace l’URL de base de la publicité.
+**[!UICONTROL Base URL]:** (Campagnes avec suivi au niveau des mots-clés uniquement ; facultatif) URL de la page d’entrée vers laquelle les utilisateurs sont dirigés lorsqu’ils cliquent sur votre publicité. Elle peut inclure
+code de redirection et de suivi tiers. Si vous saisissez une valeur, elle remplace l’URL de base de la publicité.
 
 Une fois l’enregistrement enregistré, l’URL de base inclut tous les paramètres d’ajout configurés pour la campagne ou le compte.
 
-Si vous utilisez le service de suivi de conversion d’Adobe Advertising et que les paramètres de campagne incluent l’utilisation de la variable [!UICONTROL EF Redirect] et en ajoutant le suivi au niveau des mots-clés, puis Search, Social et Commerce ajoute automatiquement son propre code de suivi des clics.
+Si vous utilisez le service de suivi de conversion d’Adobe Advertising et que les paramètres de campagne incluent l’utilisation de [!UICONTROL EF Redirect] et l’ajout du suivi au niveau du mot-clé, Search, Social et Commerce ajoute automatiquement son propre code de suivi des clics.
 
 >[!MORELIKETHIS]
 >
->* [Gestion des mots-clés](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [Gérer les mots-clés](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

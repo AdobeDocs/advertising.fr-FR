@@ -1,11 +1,11 @@
 ---
 title: Validation des landing pages dans des fichiers de feuille d’envoi groupé
 description: Découvrez comment valider les URL de destination dans un fichier de feuille d’envoi groupé à un seul compte.
-exl-id: cf703687-1151-46f6-9540-12a83d41dfc8
+exl-id: 191cb1bc-54a9-4c6c-a29c-f3cbae08e0d8
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 *Comptes avec URL de destination uniquement*
 
-Vous pouvez valider les landing pages dans toutes les URL de destination dans un fichier de feuille d’envoi groupé à un seul compte. Vous pouvez spécifier des expressions et des URL qui indiquent une page non valide et éventuellement signaler les redirections de page d’entrée comme des erreurs. Search, Social et Commerce recherchent les conditions spécifiées et les pages d’entrée manquantes (qui génèrent des erreurs HTTP 404 ou &quot;Not Found&quot;).
+Vous pouvez valider les landing pages dans toutes les URL de destination dans un fichier de feuille d’envoi groupé à un seul compte. Vous pouvez spécifier des expressions et des URL qui indiquent une page non valide et éventuellement signaler les redirections de page d’entrée comme des erreurs. Search, Social et Commerce recherche les conditions spécifiées et les pages d’entrée manquantes (qui entraînent des erreurs HTTP 404 ou &quot;Not Found&quot;).
 
-Lorsqu’il détecte des erreurs, Search, Social et Commerce crée un fichier d’erreur de feuille d’envoi groupé qui inclut toutes les lignes de la feuille d’envoi groupé d’origine et les messages d’erreur pour toutes les lignes contenant une page d’entrée non valide. Les erreurs sont notées dans la variable [!UICONTROL EF Errors] colonne . La convention du nom de fichier est `<bulksheet name>__lpv_errors.<extension used for the bulksheet>`.
+Lorsqu’il détecte des erreurs, Search, Social et Commerce crée un fichier d’erreur de feuille d’envoi groupé qui inclut toutes les lignes de la feuille d’envoi groupé d’origine et les messages d’erreur pour toutes les lignes comportant une page d’entrée non valide. Les erreurs sont notées dans la colonne [!UICONTROL EF Errors]. La convention de nom de fichier est `<bulksheet name>__lpv_errors.<extension used for the bulksheet>`.
 
 Vous pouvez ensuite télécharger le fichier, corriger les erreurs et charger le fichier corrigé, puis publier le fichier corrigé sur le compte réseau publicitaire.
 
@@ -31,17 +31,17 @@ Vous pouvez ensuite télécharger le fichier, corriger les erreurs et charger le
 
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Validate URLs]**.
 
-1. Dans la boîte de dialogue, saisissez des informations dans les champs, puis cliquez sur **[!UICONTROL Apply]**:
+1. Dans la boîte de dialogue, saisissez des informations dans les champs, puis cliquez sur **[!UICONTROL Apply]** :
 
-   **[!UICONTROL Enter case-sensitive text or phrases that indicate an invalid page(one per line)]:** Texte dans le corps d&#39;une landing page indiquant que la page n&#39;est pas valide. Pour spécifier plusieurs valeurs, saisissez-les sur des lignes distinctes.
+   **[!UICONTROL Enter case-sensitive text or phrases that indicate an invalid page(one per line)]:** Texte dans le corps d’une landing page indiquant que la page n’est pas valide. Pour spécifier plusieurs valeurs, saisissez-les sur des lignes distinctes.
 
-   **[!UICONTROL Enter invalid landing pages(one per line):]** URL des pages non valides en tant que landing pages. Pour spécifier plusieurs valeurs, saisissez-les sur des lignes distinctes.
+   **[!UICONTROL Enter invalid landing pages(one per line):]** URL des pages non valides en tant que pages d’entrée. Pour spécifier plusieurs valeurs, saisissez-les sur des lignes distinctes.
 
-   **[!UICONTROL User Agent:]** Comment l’agent de validation de page d’entrée est identifié sur le serveur web sur lequel réside la page d’entrée. La valeur par défaut est celle qui attribue les vues par l’agent à un anonyme. [!DNL Mozilla Firefox] utilisateur. Si le serveur web bloque les demandes provenant de l’anonymat [!DNL Mozilla Firefox] utilisateurs, puis saisissez le nom d’un autre agent. Par exemple, pour [!DNL Googlebot], saisissez `Googlebot/2.1;+http://www.google.com/bot.html`.
+   **[!UICONTROL User Agent:]** Comment l’agent de validation de page d’entrée est identifié sur le serveur web sur lequel réside la page d’entrée. La valeur par défaut est default, qui attribue les vues par l’agent à un utilisateur anonyme [!DNL Mozilla Firefox]. Si le serveur web bloque les demandes des utilisateurs anonymes [!DNL Mozilla Firefox], saisissez le nom d&#39;un autre agent. Par exemple, pour [!DNL Googlebot], saisissez `Googlebot/2.1;+http://www.google.com/bot.html`.
 
-   **[!UICONTROL Report redirects as errors]:** Lorsqu’une landing page est redirigée vers une autre page (par exemple, si la landing page est manquante et que le site affiche une page de remplacement), la variable [!UICONTROL ER Errors] dans le fichier d&#39;erreur de la landing page, la colonne indique l&#39;URL vers laquelle la landing page est redirigée.
+   **[!UICONTROL Report redirects as errors]:** Lorsqu’une landing page est redirigée vers une autre page (par exemple, si la landing page est manquante et que le site affiche une page de remplacement), la colonne [!UICONTROL ER Errors] du fichier d’erreur de la landing page indique l’URL vers laquelle la landing page est redirigée.
 
-Au début de la tâche, une nouvelle ligne est ajoutée à la fonction [!UICONTROL Bulksheets view]. Une fois le fichier créé, une notification par e-mail est envoyée avec un lien vers le fichier. Selon la quantité de données compilées, la notification par email peut prendre plusieurs minutes ou plus. Vous pouvez télécharger le fichier pour le modifier, puis le charger à nouveau pour le publier, ou publier le fichier tel quel. Toutefois, si la génération du fichier échoue, un fichier d’erreur est répertorié sur la variable [!UICONTROL Bulksheet Management] et une notification électronique est envoyée avec un lien vers le fichier d’erreur.
+Lorsque la tâche démarre, une nouvelle ligne est ajoutée à la [!UICONTROL Bulksheets view]. Une fois le fichier créé, une notification par e-mail est envoyée avec un lien vers le fichier. Selon la quantité de données compilées, la notification par email peut prendre plusieurs minutes ou plus. Vous pouvez télécharger le fichier pour le modifier, puis le charger à nouveau pour le publier, ou publier le fichier tel quel. Toutefois, si la génération du fichier échoue, un fichier d’erreur est répertorié sur la page [!UICONTROL Bulksheet Management] et une notification par e-mail est envoyée avec un lien vers le fichier d’erreur.
 
 >[!NOTE]
 >
@@ -50,9 +50,9 @@ Au début de la tâche, une nouvelle ligne est ajoutée à la fonction [!UICONTR
 
 >[!MORELIKETHIS]
 >
->* [A propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées](bulksheet-about.md)
->* [Suppression des feuilles d’envoi groupé et des fichiers d’erreur chargés](bulksheet-delete.md)
->* [Publier des feuilles d’envoi groupées ou des fichiers d’erreur corrigés](bulksheet-post.md)
->* [Arrêt d’une tâche de feuille d’envoi groupé en cours](bulksheet-stop-job.md)
+>* [À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées](bulksheet-about.md)
+>* [Supprimer les feuilles d’envoi groupées et les fichiers d’erreur chargés](bulksheet-delete.md)
+>* [ Publier des feuilles d’envoi groupées ou des fichiers d’erreur corrigés](bulksheet-post.md)
+>* [Arrêter une tâche de feuille d’envoi groupé en cours](bulksheet-stop-job.md)
 >* [Télécharger une feuille d’envoi groupé ou un fichier d’erreur corrigé](bulksheet-upload.md)
->* [Exportation d’un fichier de feuille d’envoi groupé généré ou transféré](bulksheet-export.md)
+>* [Exporter un fichier de feuille d’envoi groupé généré ou téléchargé](bulksheet-export.md)

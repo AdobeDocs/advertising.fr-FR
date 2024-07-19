@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # Définition des emplacements et publicités pour une transaction privée
 
-Pour les offres non garanties, vous pouvez spécifier l’opération en tant que cible d’inventaire pour les nouveaux emplacements du [!UICONTROL Placements] vue.
+Pour les offres non garanties, vous pouvez spécifier l’opération en tant que cible d’inventaire pour les nouveaux emplacements à partir de la vue [!UICONTROL Placements].
 
-Pour les offres PG garanties par programmation, vous pouvez créer des emplacements avec des publicités spécifiées à partir de la variable [!UICONTROL Deals] vue.
+Pour les offres PG garanties par la programmation, vous pouvez créer des emplacements avec des publicités spécifiées à partir de la vue [!UICONTROL Deals].
 
-Vous pouvez également [Ajout de publicités à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) à tout moment associé aux offres PG et non garanties.
+Vous pouvez également [joindre des publicités à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) associés à des offres PG et non garanties à tout moment.
 
 ## Définition d’une transaction non garantie comme cible d’inventaire pour un emplacement
 
-* [Créez un emplacement à partir du [!UICONTROL Placements] view](/help/dsp/campaign-management/placements/placement-create.md). Dans le [!UICONTROL Inventory Targeting] , sélectionnez l’opération privée.
+* [Créez un emplacement à partir de la vue [!UICONTROL Placements]](/help/dsp/campaign-management/placements/placement-create.md). Dans les paramètres [!UICONTROL Inventory Targeting], sélectionnez l’opération privée.
 
 ## Joindre des emplacements et des publicités à un contrat PG
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Sur la ligne de la transaction, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Attach New Placement]**.
+1. Dans la ligne de la transaction, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Attach New Placement]**.
 
-1. Dans le [!UICONTROL Ad & Campaign Selection] sélectionnez les publicités à utiliser pour l’emplacement :
+1. Dans les paramètres [!UICONTROL Ad & Campaign Selection], sélectionnez les publicités à utiliser pour l’emplacement :
 
        1. Sélectionnez l’annonceur, la campagne et le type d’annonce. Vous pouvez éventuellement sélectionner l’état d’une publicité pour filtrer les publicités.
        
@@ -40,7 +40,7 @@ Vous pouvez également [Ajout de publicités à des emplacements](/help/dsp/camp
 
       1. Saisissez le nom de l’emplacement.
 
-      1. (Facultatif) Modifiez la variable [paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md), y compris le remplacement de l’offre par défaut, qui est automatiquement renseignée avec la valeur CPM de l’opération, la modification de la période ou l’ajout d’annonces supplémentaires.
+      1. (Facultatif) Modifiez les [paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md), y compris le remplacement de l’offre par défaut, qui est automatiquement renseignée avec la valeur CPM de l’opération, la modification de la période ou l’ajout d’annonces en pièce jointe.
 
       L’opération est automatiquement ciblée dans la section Cibles de l’inventaire . Toutes les autres options de ciblage ne sont pas applicables.
 
@@ -54,8 +54,8 @@ L’emplacement commence à s’exécuter une fois que l’éditeur a activé vo
 
 >[!MORELIKETHIS]
 >
->* [À propos du stock privé](private-inventory-about.md)
+>* [À propos de l’inventaire privé](private-inventory-about.md)
 >* [Liste des emplacements et des publicités pour une transaction privée](/help/dsp/inventory/private-deal-view-placements.md)
->* [Création manuelle des détails de l’identifiant de transaction](deal-id-create.md)
+>* [Créer manuellement des détails sur l’identifiant de transaction](deal-id-create.md)
 >* [Paramètres d’ID de transaction manuelle](deal-id-settings.md)
->* [Configuration d’un contrat garanti programmatique](programmatic-guaranteed-set-up.md)
+>* [Configuration d’une transaction sécurisée par programmation](programmatic-guaranteed-set-up.md)

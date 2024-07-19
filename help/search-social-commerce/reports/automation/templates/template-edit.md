@@ -1,9 +1,9 @@
 ---
 title: Modifier un modèle de rapport
 description: Découvrez comment modifier les paramètres de vos modèles de rapports réutilisables.
-exl-id: 8e195b60-8c58-460b-bc61-19dd2452d332
+exl-id: f986bc75-e42c-4388-8cb1-305100678b1b
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Vous pouvez modifier les paramètres de tout modèle de rapport que vous avez cr
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Templates]** .
+1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
 
 1. Cliquez sur le nom du modèle.
 
@@ -24,13 +24,13 @@ Vous pouvez modifier les paramètres de tout modèle de rapport que vous avez cr
 
    >[!NOTE]
    >
-   > Lorsque vous modifiez les paramètres, il n’est pas nécessaire de cocher la case en regard de &quot;[!UICONTROL Save as template]&quot; dans la variable [!UICONTROL Scheduling and Delivery] . Vous êtes alors invité à créer un modèle portant un nom différent.
+   > Lorsque vous modifiez les paramètres, il n’est pas nécessaire de cocher la case en regard de &quot;[!UICONTROL Save as template]&quot; dans la section [!UICONTROL Scheduling and Delivery]. Vous êtes alors invité à créer un modèle portant un nom différent.
 
 1. Cliquez sur **[!UICONTROL Update Template]**.
 
 >[!MORELIKETHIS]
 >
->* [A propos des modèles de rapport](template-about.md)
+>* [ À propos des modèles de rapport](template-about.md)
 >* [Créer un modèle de rapport](template-create.md)
->* [Affichage d’un modèle de rapport](template-view.md)
->* [Suppression de modèles de rapport](template-delete.md)
+>* [Afficher un modèle de rapport](template-view.md)
+>* [Supprimer des modèles de rapport](template-delete.md)

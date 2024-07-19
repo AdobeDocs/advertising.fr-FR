@@ -1,22 +1,22 @@
 ---
-title: Données de feuilles d’envoi groupé pour [!DNL Yahoo! Display Network] comptes
-description: Référencez les champs d’en-tête et de données dans les feuilles d’envoi groupées téléchargées pour [!DNL Yahoo! Display Network] comptes.
-exl-id: 233a7e1f-328b-4ff8-9e38-66c3185414b6
+title: Données de feuille d’envoi groupé pour les comptes  [!DNL Yahoo! Display Network]
+description: Référencez les champs d’en-tête et de données dans les feuilles d’envoi groupées téléchargées pour les comptes  [!DNL Yahoo! Display Network] .
+exl-id: 8d938009-6edc-4420-8863-21ed241616f8
 feature: Search Bulksheets
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
-# Annexe : Données de feuille d’envoi groupé pour [!DNL Yahoo! Display Network] comptes
+# Annexe : Données de feuille d’envoi groupé pour les comptes [!DNL Yahoo! Display Network]
 
 <!-- 
 [Re-add "Required" to title, file name, and TOC if you add the ability to create/edit campaigns using YDN bulksheets. Then will also need to add more text below, like for the other SEs.]
 -->
 
-Vous pouvez télécharger des données pour [!DNL Yahoo! Display Network] comptes en bloc, mais ne peuvent pas télécharger ni publier de feuilles d’envoi groupé sur le réseau publicitaire.
+Vous pouvez télécharger les données des comptes [!DNL Yahoo! Display Network] en bloc, mais ne pouvez pas télécharger ni publier de feuilles d’envoi groupé sur le réseau publicitaire.
 
 <!-- Hiding because this is probably too long a list to be useful.
 
@@ -41,18 +41,18 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Description Line 1] | n/a | n/a | Si inclus | Première ligne du corps d’une publicité. |
 | [!UICONTROL Description Line 2] | n/a | n/a | Si inclus | La deuxième ligne du corps d’une publicité. |
 | [!UICONTROL Base URL/Final URL] | n/a | n/a | Si inclus | URL de la page d’entrée vers laquelle les utilisateurs finaux sont pris lorsqu’ils cliquent sur votre publicité, y compris les paramètres d’ajout configurés pour la campagne ou le compte. Les URL de base/finale au niveau du mot-clé remplacent les URL au niveau de la publicité et au-delà. |
-| [!UICONTROL Destination URL] | n/a | n/a | n/a | (Inclus dans les feuilles d’envoi groupées générées à des fins d’information ; non publiés sur le réseau publicitaire) Pour les comptes avec des URL de destination, cette valeur est l’URL qui lie une publicité à une URL/page d’entrée de base sur le site web de l’annonceur (parfois via un autre site qui effectue le suivi des clics, puis redirige l’utilisateur vers la page d’entrée). Il comprend tous les paramètres d’ajout configurés pour la campagne ou le compte Search, Social &amp; Commerce. Si vous avez généré des URL de suivi, cette valeur est basée sur les paramètres de suivi définis dans les paramètres de votre compte et de vos campagnes. Si vous avez ajouté des paramètres spécifiques au réseau publicitaire, ils peuvent être remplacés par les paramètres équivalents pour Search, Social et Commerce. |
+| [!UICONTROL Destination URL] | n/a | n/a | n/a | (Inclus dans les feuilles d’envoi groupées générées à des fins d’information ; non publiés sur le réseau publicitaire) Pour les comptes avec des URL de destination, cette valeur est l’URL qui lie une publicité à une URL/page d’entrée de base sur le site web de l’annonceur (parfois via un autre site qui effectue le suivi des clics, puis redirige l’utilisateur vers la page d’entrée). Il comprend tous les paramètres d’ajout configurés pour la campagne ou le compte Search, Social et Commerce. Si vous avez généré des URL de suivi, cette valeur est basée sur les paramètres de suivi définis dans les paramètres de votre compte et de vos campagnes. Si vous avez ajouté des paramètres spécifiques au réseau publicitaire, ils peuvent être remplacés par les paramètres équivalents pour Search, Social et Commerce. |
 | \[Classification d’étiquette spécifique au annonceur\] | Si inclus | Si inclus | Si inclus | (Nommé pour une classification d’étiquettes spécifique à l’annonceur, telle que &quot;Couleur&quot; pour une classification d’étiquettes appelée Couleur) Une valeur pour la classification spécifiée qui est associée à l’entité. |
 | [!UICONTROL Constraints] | Si inclus | Si inclus | n/a | Contrainte affectée à l’entité. |
-| [!UICONTROL Campaign Status] | Si inclus | n/a | n/a | Etat d&#39;affichage de l&#39;opération : <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, ou <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Ad Group Status] | n/a | Si inclus | n/a | État d’affichage du groupe publicitaire : <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, ou <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Keyword Status] | n/a | n/a | Si inclus | L’état d’affichage du mot-clé : <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, ou <i>[!UICONTROL Deleted]</i> (mots-clés existants uniquement). |
+| [!UICONTROL Campaign Status] | Si inclus | n/a | n/a | État d’affichage de la campagne : <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> ou <i>[!UICONTROL Deleted]</i>. |
+| [!UICONTROL Ad Group Status] | n/a | Si inclus | n/a | État d’affichage du groupe publicitaire : <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> ou <i>[!UICONTROL Deleted]</i>. |
+| [!UICONTROL Keyword Status] | n/a | n/a | Si inclus | État d’affichage du mot-clé : <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> ou <i>[!UICONTROL Deleted]</i> (mots-clés existants uniquement). |
 | [!UICONTROL Campaign ID] | Si inclus | Si inclus | Si inclus | Identifiant unique qui identifie une campagne existante. |
 | [!UICONTROL Ad Group ID] | n/a | Si inclus | Si inclus | Identifiant unique qui identifie un groupe publicitaire existant. |
 | [!UICONTROL Keyword ID] | n/a | n/a | Si inclus | Identifiant unique qui identifie un mot-clé existant. |
 | [!UICONTROL AMO ID] | n/a | n/a | n/a | (Dans les feuilles d’envoi groupées générées) Identifiant unique généré par l’Adobe pour une entité synchronisée. |
-| [!UICONTROL EF Error Message] | n/a | n/a | n/a | (Inclus dans les feuilles d’envoi groupées générées à des fins d’information) Espace réservé pour l’affichage des messages d’erreur de Search, Social et Commerce concernant les données de la ligne ; les messages d’erreur sont inclus dans [!UICONTROL EF Errors] fichiers . |
+| [!UICONTROL EF Error Message] | n/a | n/a | n/a | (Inclus dans les feuilles d’envoi groupées générées à des fins d’information) Espace réservé pour l’affichage des messages d’erreur de Search, Social et Commerce concernant les données de la ligne ; les messages d’erreur sont inclus dans les fichiers [!UICONTROL EF Errors]. |
 
 >[!MORELIKETHIS]
 >
->* [Téléchargement/création d’un fichier de feuille d’envoi groupé](../bulksheet-download.md)
+>* [Télécharger/créer un fichier de feuille d’envoi groupé](../bulksheet-download.md)

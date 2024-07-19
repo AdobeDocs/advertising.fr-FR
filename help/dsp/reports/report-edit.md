@@ -15,17 +15,17 @@ ht-degree: 0%
 1. Dans le menu principal, cliquez sur **[!UICONTROL Reports]**.
 1. Effectuez l’une des opérations suivantes :
    * Cliquez sur le nom du rapport.
-   * Dans le [!UICONTROL Options] pour la ligne du rapport, cliquez sur **[!UICONTROL options]** > **[!UICONTROL Edit]**.
-1. Modifiez la variable [paramètres de rapport](/help/dsp/reports/report-settings.md).
+   * Dans la colonne [!UICONTROL Options] de la ligne du rapport, cliquez sur **[!UICONTROL options]** > **[!UICONTROL Edit]**.
+1. Modifiez les [paramètres de rapport](/help/dsp/reports/report-settings.md).
 1. Cliquez sur **[!UICONTROL Edit Custom Report]**.
 
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
 >* [Créer un rapport personnalisé](/help/dsp/reports/report-create.md)
->* [Duplication d’un rapport personnalisé](/help/dsp/reports/report-copy.md)
->* [Exécution d’un rapport personnalisé](/help/dsp/reports/report-run-now.md)
->* [Suppression d’un rapport personnalisé](/help/dsp/reports/report-delete.md)
->* [Paramètres des rapports personnalisés](/help/dsp/reports/report-settings.md)
+>* [Dupliquer un rapport personnalisé](/help/dsp/reports/report-copy.md)
+>* [Exécuter un rapport personnalisé](/help/dsp/reports/report-run-now.md)
+>* [Supprimer un rapport personnalisé](/help/dsp/reports/report-delete.md)
+>* [Paramètres de rapport personnalisés](/help/dsp/reports/report-settings.md)
 >* [Types de rapports de performances dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonnes de rapport disponibles](/help/dsp/reports/report-columns.md)

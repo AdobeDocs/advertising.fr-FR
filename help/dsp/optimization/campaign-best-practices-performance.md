@@ -18,11 +18,11 @@ DSP peut optimiser vos campagnes axées sur les performances. Consultez les bonn
 * Étape 2 - Définition de votre stratégie
 * Étape 3 - Création de modules
 * Étape 4 - Création de la structure de placement
-* Étape 5 - Utilisation des ressources créatives appropriées
+* Étape 5 - Utilisation de la bonne Assets créative
 
 ## Étape 1 - Définition de votre objectif
 
-Il est important de comprendre l&#39;objectif de la campagne, par exemple atteindre le meilleur retour sur investissement possible ou le CPA le plus bas possible. Les campagnes de performances ont la variable [objectifs d’optimisation](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; Pour chaque package de l&#39;opération, définissez l&#39;objectif d&#39;optimisation en conséquence.
+Il est important de comprendre l&#39;objectif de la campagne, par exemple atteindre le meilleur retour sur investissement possible ou le CPA le plus bas possible. Les campagnes de performances ont les [objectifs d’optimisation](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;. Pour chaque package de l&#39;opération, définissez l&#39;objectif d&#39;optimisation en conséquence.
 
 ![objectif d’optimisation](/help/dsp/assets/optimization-goals.png)
 
@@ -43,7 +43,7 @@ Les packages entonnoir supérieur incluent des emplacements avec un ciblage trè
    * Ciblage contextuel.
    * Ciblage de site/catégorie.
 
-* Utiliser le ciblage d’exécution de réseau (RON) : il est important d’inclure une exécution de placement de réseau sans ciblage d’audience et avec un ciblage d’inventaire étendu. Cela permet à la variable [!DNL Adobe Sensei] pour rechercher les utilisateurs de valeur qui peuvent avoir des cookies plus récents qui n’ont pas encore été classés dans une audience.
+* Utiliser le ciblage d’exécution de réseau (RON) : il est important d’inclure une exécution de placement de réseau sans ciblage d’audience et avec un ciblage d’inventaire étendu. Cela permet à l’algorithme [!DNL Adobe Sensei] de rechercher des utilisateurs précieux qui peuvent avoir de nouveaux cookies qui n’ont pas encore été classés dans une audience.
 
 ### Stratégies de reciblage
 
@@ -65,31 +65,31 @@ Utilisez également les paramètres suivants.
 
 ### Objectifs et budget
 
-* **Traitement et limitation :** Pour sélectionner un objectif d’optimisation du CPA ou du RSDP, le package doit utiliser un rythme au niveau du package. Cela permet de s’assurer que tous les emplacements du module sont optimisés pour répartir les dépenses selon les performances et l’échelle en fonction des objectifs sélectionnés.
+* **Traitement et limitation :** Pour sélectionner un objectif d’optimisation du CPA ou ROAS, le package doit utiliser un traitement au niveau du package. Cela permet de s’assurer que tous les emplacements du module sont optimisés pour répartir les dépenses selon les performances et l’échelle en fonction des objectifs sélectionnés.
 
-* **Dates de vol :** (Packages de prospection) Lorsque votre campagne s’exécute pendant plus de 25 jours, utilisez le [!UICONTROL Activate Custom Flighting] fonction . Tout d’abord, définissez un vol personnalisé pour les 10 premiers jours à environ 75 % du budget quotidien nécessaire pour réduire les dépenses pendant la *phase d&#39;apprentissage*. Définissez ensuite un second vol personnalisé pour le reste du budget.
+* **Dates de vol :** (Packages de prospection) Lorsque votre campagne s’exécute pendant plus de 25 jours, utilisez la fonction [!UICONTROL Activate Custom Flighting]. Tout d&#39;abord, définissez un vol personnalisé pour les 10 premiers jours à environ 75 % du budget quotidien nécessaire pour réduire les dépenses pendant la *phase d&#39;apprentissage*. Définissez ensuite un second vol personnalisé pour le reste du budget.
 
   Par exemple, si vous avez 100 000 $ à dépenser en 30 jours, définissez le budget du vol 1 (Jours 1 à 10) sur 25 000 $ (75 % x 100 $,000/30 jours = 2 500 $ par jour). Utilisez le budget restant de 75 000 $ pour le vol 2 (jours 11-30).
 
-* **Budget :** DSP tente toujours d’allouer 100 % du budget du package de manière égale entre tous les emplacements d’un package. Si un emplacement a de faibles dépenses ou pas de dépenses, nous vous recommandons de limiter le budget de l’emplacement afin de permettre une plus grande partie du budget à affecter aux emplacements à l’échelle. Prévoyez de 24 à 48 heures pour que les modifications du budget soient calibrées.
+* **Budget :** DSP toujours tenter d&#39;allouer 100 % du budget du package uniformément entre tous les emplacements d&#39;un package. Si un emplacement a de faibles dépenses ou pas de dépenses, nous vous recommandons de limiter le budget de l’emplacement afin de permettre une plus grande partie du budget à affecter aux emplacements à l’échelle. Prévoyez de 24 à 48 heures pour que les modifications du budget soient calibrées.
 
-* **Objectifs d’optimisation :** Utilisez l’un des deux objectifs d’optimisation des performances, *[!UICONTROL Highest Return on Ad Spend]* ou *[!UICONTROL Lowest Cost per Acquisition]*, selon l’objectif du module. Ces objectifs optimisent automatiquement le package vers les emplacements de CPA les plus élevés ou les plus bas, respectivement.
+* **Objectifs d’optimisation :** utilisez l’un des deux objectifs d’optimisation des performances, *[!UICONTROL Highest Return on Ad Spend]* ou *[!UICONTROL Lowest Cost per Acquisition]*, selon l’objectif du module. Ces objectifs optimisent automatiquement le package vers les emplacements de CPA les plus élevés ou les plus bas, respectivement.
 
 * **Objectifs personnalisés :**
    * Si un nouveau module a le même objectif qu’un module existant, vous pouvez éventuellement lier le module existant afin que l’algorithme puisse utiliser les données d’apprentissage automatique existantes.
-   * Saisissez les [!UICONTROL Target CPA] ou [!UICONTROL Target ROAS].
+   * Saisissez le [!UICONTROL Target CPA] ou [!UICONTROL Target ROAS] approprié.
 
-* **Navigation de vol et fréquence intermédiaire :** Pour les deux types de fréquence, sélectionnez *[!UICONTROL Even]* pour maximiser vos objectifs de performances en effectuant un rythme uniforme tout au long de la journée et tout au long du vol.
+* **Navigation de vol et fréquence intermédiaire :** Pour les deux types de fréquence, sélectionnez *[!UICONTROL Even]* pour optimiser vos objectifs de performances en effectuant un rythme uniforme tout au long de la journée et tout au long du vol.
 
   >[!CAUTION]
   >
-  >Utilisation *[!UICONTROL FrontLoad]* et *[!UICONTROL Aggressive Front Load]* pour le rythme de vol et *[!UICONTROL ASAP]* la fréquence d’inactivité uniquement lorsque vous priorisez complètement la diffusion et que vous dépensez plus que l’optimisation des performances, car ces stratégies peuvent avoir une incidence négative sur les indicateurs de performance clés souhaités.
+  >Utilisez *[!UICONTROL FrontLoad]* et *[!UICONTROL Aggressive Front Load]* pour le rythme des vols et *[!UICONTROL ASAP]* le rythme des trajets uniquement lorsque vous priorisez entièrement la diffusion et dépensez sur l’optimisation des performances, car ces stratégies peuvent avoir une incidence négative sur les IPC de performances souhaités.
 
 ## Étape 4 - Création de la structure de placement
 
 Moins c&#39;est plus. Si vous pouvez configurer moins de six emplacements par package, le budget disponible peut dynamiquement passer aux emplacements les plus performants plus facilement.
 
-Veillez également à ajouter chaque emplacement à un module avec un type d’objectif de module de *[!UICONTROL Prospecting]* ou *[!UICONTROL Retargeting]*, selon le cas.
+Veillez également à ajouter chaque emplacement à un package avec un type d’objectif de package *[!UICONTROL Prospecting]* ou *[!UICONTROL Retargeting]*, selon le cas.
 
 Voici les paramètres d’emplacement recommandés pour les campagnes de performances.
 
@@ -97,26 +97,26 @@ Voici les paramètres d’emplacement recommandés pour les campagnes de perform
 
 Vous devez configurer l’optimisation du CPA ou du RSDP au niveau du package (voir Etape 3 - Créer des packages), mais vous pouvez ajouter des paramètres de niveau de placement supplémentaires.
 
-* **Enchère max :**
+* **Offre maxi :**
    * Pour les emplacements de prospection, utilisez une offre maximale basse (5 $).
    * Pour recibler des emplacements, utilisez une offre maximale élevée (12 $).
 
-* **Filtres avant offre :** Réduisez ou évitez idéalement de définir des filtres de pré-enchère agressifs, ce qui empêche l’emplacement d’atteindre une échelle suffisante. Les bonnes pratiques sont les suivantes :
+* **Filtres avant offre :** limitez ou évitez idéalement de définir des filtres avant offre agressifs, ce qui empêche l’emplacement d’atteindre l’échelle. Les bonnes pratiques sont les suivantes :
 
    * Utilisez un (1) filtre pré-enchère par emplacement. L’utilisation de plusieurs filtres de pré-enchère requiert que les deux soient satisfaits, ce qui réduit l’échelle.
 
    * Envisagez de définir des filtres de pré-enchère moins stricts dans les cas où un ciblage supplémentaire (comme l’audience, la géolocalisation et le ciblage du site) est appliqué.
 
-Consultez la description du moment où utiliser chaque filtre de pré-enchère à l’adresse [Filtres de pré-offre au niveau de l’emplacement et comment les utiliser](/help/dsp/optimization/optimization-pre-bid-filters.md).
+Consultez la description du moment où utiliser chaque filtre de pré-offre à l’adresse [Filtres de pré-offre de niveau emplacement et Comment les utiliser](/help/dsp/optimization/optimization-pre-bid-filters.md).
 
 ### Inventaire
 
-Pour optimiser l’échelle, utilisez [!UICONTROL Public] (Ouvrir l’Exchange) et [!UICONTROL On Demand] inventaire.
+Pour agrandir l&#39;échelle, utilisez l&#39;inventaire [!UICONTROL Public] (Ouvrir l&#39;Exchange) et [!UICONTROL On Demand].
 
 ### Ciblage de site
 
-* **[!UICONTROL Traffic Type]**: [!UICONTROL Websites] only
-* **[!UICONTROL Site Tier]**: [!UICONTROL All sites]
+* **[!UICONTROL Traffic Type]** : [!UICONTROL Websites] uniquement
+* **[!UICONTROL Site Tier]** : [!UICONTROL All sites]
 
 ### Ciblage d’audience
 
@@ -138,16 +138,16 @@ Pour optimiser l’échelle, utilisez [!UICONTROL Public] (Ouvrir l’Exchange) 
    * Pour les emplacements de prospection, utilisez des plafonds de fréquence serrés (une impression par jour).
    * Pour le reciblage des emplacements, définissez la limite d’emplacement principal sur 6 à 10 impressions par jour et la limite secondaire sur une impression par heure.
 
-* **[!UICONTROL Device Targeting]**:
-   * Inclure [!UICONTROL Computer], [!UICONTROL Mobile], et [!UICONTROL Tablet].
-   * Ne pas cibler [!UICONTROL Firefox] et [!UICONTROL Safari] en raison des limitations de ciblage et de mesure. Contactez votre équipe de compte d’Adobe pour en savoir plus sur [!DNL Adobe] prise en charge de [!DNL Safari ITP].
-   * Si vous ciblez le trafic web mobile, désactivez tous les navigateurs mobiles, à l’exception de [!UICONTROL Chrome] et [!UICONTROL Edge].
+* **[!UICONTROL Device Targeting]** :
+   * Incluez [!UICONTROL Computer], [!UICONTROL Mobile] et [!UICONTROL Tablet].
+   * Ne ciblez pas [!UICONTROL Firefox] et [!UICONTROL Safari] en raison des limites de ciblage et de mesure. Contactez votre équipe de compte d’Adobe pour plus d’informations sur la prise en charge de [!DNL Adobe] pour [!DNL Safari ITP].
+   * Si vous ciblez le trafic web mobile, désactivez tous les navigateurs mobiles sauf [!UICONTROL Chrome] et [!UICONTROL Edge].
 
 ### Sécurité des marques et qualité des médias
 
-Utiliser le filtrage contextuel, le blocage des fraudes avant offre et/ou [!UICONTROL Ads.txt] le filtrage limite l’échelle de vos emplacements, mais vous pouvez les utiliser si nécessaire.
+Le filtrage contextuel, le blocage des fraudes avant offre et/ou le filtrage [!UICONTROL Ads.txt] limitent l’échelle de vos emplacements, mais les utilisent si nécessaire.
 
-## Étape 5 - Utilisation des ressources créatives appropriées
+## Étape 5 - Utilisation de la bonne Assets créative
 
 * La bonne pratique consiste à inclure autant de tailles d’annonces uniques que possible pour optimiser la portée. Le modèle d’affichage universel vous permet de télécharger n’importe quelle taille d’affichage standard.
 * Assurez-vous que tous les emplacements contiennent *au moins* toutes les tailles d’affichage principales (300x250, 728x90, 160x600, 300x600, 320x50 et 300x50).
@@ -156,8 +156,8 @@ Utiliser le filtrage contextuel, le blocage des fraudes avant offre et/ou [!UICO
 >[!MORELIKETHIS]
 >
 >* [Paramètres du module](/help/dsp/campaign-management/packages/package-settings.md)
->* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
-> * [Optimisation des campagnes par DSP](optimization-how-dsp-optimizes-campaigns.md)
->* [Objectifs d’optimisation et utilisation](optimization-goals.md)
->* [Filtres de pré-offre au niveau de l’emplacement et comment les utiliser](optimization-pre-bid-filters.md)
->* [Liste de contrôle de Campaign Launch](/help/dsp/campaign-management/campaign-launch-checklist.md)
+>* [Paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md)
+> * [Comment DSP optimise vos campagnes](optimization-how-dsp-optimizes-campaigns.md)
+>* [Objectifs d’optimisation et comment les utiliser](optimization-goals.md)
+>* [Filtres de pré-offre de niveau placement et comment les utiliser](optimization-pre-bid-filters.md)
+>* [Liste de contrôle de lancement de campagne](/help/dsp/campaign-management/campaign-launch-checklist.md)

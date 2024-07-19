@@ -39,7 +39,7 @@ Les offres PG nécessitent un emplacement et des publicités par défaut PG (ou 
 
 >[!MORELIKETHIS]
 >
->* [Conseils pour négocier un accord garanti programmatique](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [Configuration d’un contrat garanti programmatique](programmatic-guaranteed-set-up.md)
+>* [Conseils pour négocier un accord garanti par un programme](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [Configuration d’une transaction sécurisée par programmation](programmatic-guaranteed-set-up.md)
 >* [Partenaires SSP](ssp-partners.md)
->* [Présentation des fonctionnalités du stock](inventory-overview.md)
+>* [Présentation des fonctionnalités d’inventaire](inventory-overview.md)

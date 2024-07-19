@@ -1,12 +1,12 @@
 ---
 title: Création d’une mesure personnalisée
 description: Découvrez comment configurer des mesures personnalisées, qui sont calculées à partir de mesures standard.
-exl-id: 14a768f5-3c7f-4e8e-bcd0-66b176052a25
+exl-id: a9ce503a-67ee-477e-8f79-31b4a9c6e51a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -22,35 +22,35 @@ ht-degree: 1%
 
 1. Sous la liste des colonnes qui s’ouvre, cliquez sur ![Créer une mesure personnalisée](/help/search-social-commerce/assets/add.png) **[!UICONTROL Create New Custom Metric]**.
 
-1. Spécifiez la variable [paramètres de mesure personnalisés](custom-metric-settings.md).
+1. Spécifiez les [paramètres de mesure personnalisés](custom-metric-settings.md).
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
 ## Créer une mesure personnalisée à partir d’un formulaire de rapport ou de modèle de rapport
 
-1. Dans un formulaire de rapport ou de modèle de rapport, accédez au **[!UICONTROL Columns]** .
+1. Dans un formulaire de rapport ou de modèle de rapport, accédez à l’onglet **[!UICONTROL Columns]** .
 
 1. Dans la section de droite, cliquez sur **[!UICONTROL Create]**.
 
-1. Spécifiez la variable [paramètres de mesure personnalisés](custom-metric-settings.md).
+1. Spécifiez les [paramètres de mesure personnalisés](custom-metric-settings.md).
 
 1. Cliquez sur **[!UICONTROL Submit]**.
 
-## Créez une mesure personnalisée à partir du [!UICONTROL Portfolios] views
+## Création d’une mesure personnalisée à partir des vues [!UICONTROL Portfolios]
 
 1. Au-dessus du tableau de données, cliquez sur ![Modifier la vue sélectionnée](/help/search-social-commerce/assets/view-settings.png "Modifier la vue sélectionnée").
 
-1. Cliquez sur le bouton **[!UICONTROL Columns]** .
+1. Cliquez sur l’onglet **[!UICONTROL Columns]** .
 
 1. Dans la section de droite, cliquez sur **[!UICONTROL Create]**.
 
-1. Spécifiez la variable [paramètres de mesure personnalisés](custom-metric-settings.md).
+1. Spécifiez les [paramètres de mesure personnalisés](custom-metric-settings.md).
 
 1. Cliquez sur **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
 >
 >* [À propos des mesures personnalisées](custom-metric-about.md)
->* [Modification d’une mesure personnalisée](custom-metric-edit.md)
->* [Suppression d’une mesure personnalisée](custom-metric-delete.md)
+>* [Modifier une mesure personnalisée](custom-metric-edit.md)
+>* [Supprimer une mesure personnalisée](custom-metric-delete.md)
 >* [Paramètres de mesure personnalisés](custom-metric-settings.md)

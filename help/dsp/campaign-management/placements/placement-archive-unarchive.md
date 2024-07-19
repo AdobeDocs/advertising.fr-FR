@@ -23,23 +23,23 @@ Vous pouvez désarchiver à tout moment un emplacement afin de restaurer son ét
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
-1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Pour afficher les emplacements archivés, filtrez la variable [!UICONTROL Placements] view : click ![Bouton Filtrer](/help/dsp/assets/filter.png), cliquez sur **[!UICONTROL Placement status]** et sélectionnez **[!UICONTROL Archived]**, puis cliquez sur **[!UICONTROL Apply].**
+>Pour afficher les emplacements archivés, filtrez la vue [!UICONTROL Placements] : cliquez sur ![Bouton de filtrage](/help/dsp/assets/filter.png), cliquez sur **[!UICONTROL Placement status]**, sélectionnez **[!UICONTROL Archived]**, puis cliquez sur **[!UICONTROL Apply].**
 
 ## Désarchiver un emplacement
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
-1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
 >* [Mettre en pause ou activer un emplacement](placement-pause-activate.md)
->* [Modifier les emplacements](placement-edit.md)
->* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
+>* [Modifier des emplacements](placement-edit.md)
+>* [Afficher le journal des modifications d’un emplacement](placement-change-log.md)

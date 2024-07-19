@@ -1,11 +1,11 @@
 ---
 title: Écrire une copie de publicité textuelle effective
 description: Découvrez les bonnes pratiques pour créer une copie de publicité efficace.
-exl-id: 17feba02-e49a-4550-aca8-d9b06d427a7e
+exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Pour plus d’informations sur les bonnes pratiques spécifiques aux campagnes dans les portefeuilles, voir également le Guide d’optimisation > Gestion des Portfolios > Bonnes pratiques pour les Portfolios , disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Pour plus d’informations sur les bonnes pratiques spécifiques aux campagnes dans les portefeuilles, reportez-vous également à la section Guide d’optimisation > Gestion des Portfolios > Bonnes pratiques pour les Portfolios , disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Exigences générales pour tous les réseaux publicitaires
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 * Les points d&#39;exclamation sont interdits dans les titres et les titres, mais ils sont autorisés dans les lignes de description. Un seul est autorisé dans la description.
 
-* Les caractères spéciaux tels que `@,~,\, ^,>,<` sont interdites.
+* Les caractères spéciaux tels que `@,~,\, ^,>,<` sont interdits.
 
-* Les raccourcis ou l’utilisation de symboles pour remplacer des mots sont interdits. Par exemple, vous ne pouvez pas utiliser &quot;U&quot; pour remplacer &quot;vous&quot; ou &quot;`@`&quot; pour remplacer &quot;at.&quot;
+* Les raccourcis ou l’utilisation de symboles pour remplacer des mots sont interdits. Par exemple, vous ne pouvez pas utiliser &quot;U&quot; pour remplacer &quot;vous&quot; ou &quot;`@`&quot; pour remplacer &quot;at&quot;.
 
 * Les expressions superlatives, telles que &quot;Meilleur&quot; ou &quot;#1&quot;, sont interdites à moins que cette distinction n’ait été vérifiée par un tiers et que la vérification soit clairement affichée sur votre site web.
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 * Associez votre publicité aux offres qui se trouvent sur la page d’entrée pour aider les utilisateurs à terminer le cycle de vente.
 
-* Utilisez des expressions telles que &quot;Livraison gratuite&quot;, &quot;Retours faciles&quot;, &quot;Échanges gratuits et Retours en magasin&quot; et &quot;cadeaux gratuits&quot; pour augmenter le taux de clics publicitaires.
+* Utilisez des expressions telles que &quot;Livraison gratuite&quot;, &quot;Retours faciles&quot;, &quot;Exchanges gratuits et retours en magasin&quot; et &quot;cadeaux gratuits&quot; pour augmenter le taux de clics publicitaires.
 
 * Si vous proposez une remise, incluez le montant ou le pourcentage spécifique de la remise (par exemple, &quot;20 % de réduction&quot; ou &quot;Économisez 20 $ lors du premier achat).
 
@@ -68,19 +68,19 @@ ht-degree: 0%
 
 * Cherchez ce que font vos concurrents. Examinez les principales publicités pour obtenir un espace (sur des sites comme www.spyfu.com) et essayez de comprendre quelles publicités fonctionnent.
 
-[1]: si vous utilisez l’insertion de mots-clés, utilisez la mise en majuscules correcte pour le code d’insertion :
+[1] : si vous utilisez l’insertion de mots-clés, utilisez la mise en majuscules correcte pour le code d’insertion :
 
 `{keyword:default}` = tondeuses à gazon
 
 `{Keyword:default}` = tondeuses à gazon
 
-`{KeyWord:default}` = tondeuses à gazon
+`{KeyWord:default}` = tondeuse à gazon
 
-`{KEYWord:default}` = LONGUES (qui n’est autorisée que si &quot;LONGUE&quot; est une marque)
+`{KEYWord:default}` = tondeuses LAWN (qui n’est autorisée que si &quot;LAWN&quot; est une marque)
 
 `{KeyWORD:default}` = LONGUERIE (qui n’est autorisée que si &quot;LONGUEURS&quot; est une marque)
 
-`{KEYWORD:default}` = LONGUEURS (qui n’est autorisée que si &quot;LONGUES DE LAN&quot; est une marque)
+`{KEYWORD:default}` = LONGUEURS (ce qui n’est autorisé que si &quot;LONGUERIES&quot; est une marque)
 
 >[!MORELIKETHIS]
 >

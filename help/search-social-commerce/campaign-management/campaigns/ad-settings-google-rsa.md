@@ -1,24 +1,24 @@
 ---
-title: '''[!DNL Google Ads] paramètres de publicité de recherche réactive'
-description: Référencez les paramètres pour [!DNL Google Ads] annonces de recherche réactive.
-exl-id: e3c76f22-780d-4631-bcf2-af68d12810e2
+title: '[!DNL Google Ads] Paramètres des annonces de recherche réactive'
+description: Référencez les paramètres pour les  [!DNL Google Ads] annonces responsives sur la Recherche.
+exl-id: ba2a08eb-91fc-4a8c-81c5-a9e28f6abdbf
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Ads] paramètres de publicité de recherche réactive
 
-[!DNL Google Ads] assemblages dynamiques [annonces de recherche réactive](https://support.google.com/google-ads/answer/7684791?hl=en) (RSA) avec jusqu’à trois titres et deux descriptions.
+[!DNL Google Ads] assemble dynamiquement les [annonces responsives sur la Recherche](https://support.google.com/google-ads/answer/7684791?hl=en) (RSA) avec jusqu’à trois titres et deux descriptions.
 
 >[!NOTE]
 >
 >Chaque groupe d’annonces peut inclure jusqu’à trois annonces de recherche réactive activées.
 
-Voir [!DNL Google Ads] help pour [limites publicitaires par compte](https://support.google.com/google-ads/answer/6372658?hl=en).
+Voir l’ [!DNL Google Ads] aide pour [ limites de publicité par compte](https://support.google.com/google-ads/answer/6372658?hl=en).
 
 ## [!UICONTROL Responsive Search Ad Details]
 
@@ -51,6 +51,6 @@ Voir [!DNL Google Ads] help pour [limites publicitaires par compte](https://supp
 >[!MORELIKETHIS]
 >
 >* [A propos des publicités](ad-about.md)
->* [Gestion des publicités](ad-manage.md)
->* [[!DNL Google Ads] paramètres d’annonce d’appel uniquement](ad-settings-google-call.md)
->* [[!DNL Google Ads] paramètres d’annonce de recherche dynamique étendus](ad-settings-google-dsa.md)
+>* [Gérer les publicités](ad-manage.md)
+>* [[!DNL Google Ads] Paramètres de publicité appel uniquement](ad-settings-google-call.md)
+>* [[!DNL Google Ads]  Paramètres d’annonce de recherche dynamique étendue ](ad-settings-google-dsa.md)

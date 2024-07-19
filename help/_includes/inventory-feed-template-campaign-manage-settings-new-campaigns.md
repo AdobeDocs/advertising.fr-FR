@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Modèle de publicité texte - Gérer les paramètres pour les nouvelles campagnes
 
-**[!UICONTROL Manage Settings for NEW Campaigns]:**(Facultatif) Permet de configurer les paramètres des campagnes créées.
+**[!UICONTROL Manage Settings for NEW Campaigns]:**(Facultatif) Permet de configurer les paramètres de toutes les campagnes créées.

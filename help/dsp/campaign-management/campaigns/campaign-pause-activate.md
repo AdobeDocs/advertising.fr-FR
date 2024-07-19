@@ -19,7 +19,7 @@ Tous les emplacements qui sont en pause avant de suspendre une campagne restent 
 ## Suspendre une campagne
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
-1. En regard du nom de la campagne, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. En regard du nom de la campagne, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 >[!NOTE]
 >
@@ -28,9 +28,9 @@ Tous les emplacements qui sont en pause avant de suspendre une campagne restent 
 ## Activation d’une campagne
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
-1. En regard du nom de la campagne, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. En regard du nom de la campagne, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
 
 >[!MORELIKETHIS]
 >
 >* [Modifier une campagne](campaign-edit.md)
->* [Archivage d’une campagne](campaign-archive-unarchive.md)
+>* [Archiver une campagne](campaign-archive-unarchive.md)

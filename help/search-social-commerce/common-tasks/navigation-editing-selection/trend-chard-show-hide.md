@@ -1,9 +1,9 @@
 ---
 title: Afficher et masquer un graphique des tendances
 description: Découvrez comment afficher et masquer un graphique des tendances pour les données dans certaines vues de gestion de campagne.
-exl-id: 9360e0c1-a326-4b1f-8c80-a4a5049ff024
+exl-id: fa58b123-648f-4a95-86f0-3c38fa89cb28
 feature: Search Common Tasks
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Afficher et masquer un graphique des tendances
 
-Vous pouvez afficher un graphique des tendances pour les données de la [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]-[!UICONTROL Keywords], [!UICONTROL Ads], et [!UICONTROL Product Groups] vues.
+Vous pouvez afficher un graphique des tendances pour les données dans les vues [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]-[!UICONTROL Keywords], [!UICONTROL Ads] et [!UICONTROL Product Groups].
 
 Par défaut, le graphique présente le nombre de clics par rapport au coût au cours de la période sélectionnée pour les comptes utilisant une devise spécifiée. Vous pouvez éventuellement modifier les mesures à comparer et, lorsque vous disposez de comptes avec plusieurs devises, modifier la devise pour laquelle inclure des données.
 
@@ -20,7 +20,7 @@ Par défaut, le graphique présente le nombre de clics par rapport au coût au c
 >
 >Les graphiques de tendances ne sont pas disponibles lorsque vous comparez les données de deux périodes.
 
-1. Au-dessus du tableau de données, cliquez sur ![Graphiques](/help/search-social-commerce/assets/trend-chart.png "Graphiques") pour afficher un graphique des tendances masqué ou masquer un graphique des tendances visible.
+1. Au-dessus du tableau de données, cliquez sur ![Graphiques](/help/search-social-commerce/assets/trend-chart.png "Graphiques") pour afficher un graphique des tendances masqué ou pour masquer un graphique des tendances visible.
 
 1. (Facultatif pour les graphiques de tendance visibles) Sélectionnez une devise différente et différentes mesures à comparer :
 

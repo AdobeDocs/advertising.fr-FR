@@ -24,13 +24,13 @@ Toutes les feuilles d’envoi groupé, les fichiers d’erreur de validation de 
 
 ## Fonctionnalité par réseau publicitaire
 
-* **Téléchargez, chargez et publiez :**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], et [!DNL Yandex] comptes
+* **Télécharger, charger et publier :** [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising] et [!DNL Yandex] comptes
 
-* **Télécharger et télécharger uniquement :** [!DNL Naver] comptes
+* **Télécharger et charger uniquement :** [!DNL Naver] comptes
 
-  Vous pouvez télécharger des [!DNL Naver] données à utiliser dans Search, Social et Commerce, mais ne peuvent pas les publier sur le réseau publicitaire. Vous pouvez également télécharger vos données existantes (non synchronisées).
+  Vous pouvez charger des données [!DNL Naver] à utiliser dans Search, Social et Commerce, mais ne pouvez pas les publier sur le réseau publicitaire. Vous pouvez également télécharger vos données existantes (non synchronisées).
 
-* **Téléchargement des données uniquement :**  [!DNL Pinterest], [!DNL Yahoo Native], et [!DNL Yahoo! Display Network] comptes
+* **Télécharger des données uniquement :** [!DNL Pinterest], [!DNL Yahoo Native] et [!DNL Yahoo! Display Network] comptes
 
   Vous pouvez télécharger vos données existantes (non synchronisées).
 
@@ -42,17 +42,17 @@ Les étapes standard d’utilisation des feuilles d’envoi groupées pour les c
   [EDIT/RECREATE FILE to replace "search engine"]
 -->
 
-1. [Télécharger des données pour un ou plusieurs comptes, campagnes ou groupes publicitaires dans un fichier de feuille d’envoi groupé](bulksheet-download.md). Vous pouvez éventuellement remplir manuellement une feuille d’envoi groupé spécifique au réseau publicitaire et télécharger le fichier.
+1. [Téléchargez les données d’un ou de plusieurs comptes, campagnes ou groupes publicitaires dans un fichier de feuille d’envoi groupé](bulksheet-download.md). Vous pouvez éventuellement remplir manuellement une feuille d’envoi groupé spécifique au réseau publicitaire et télécharger le fichier.
 
-1. [Validation des landing pages](bulksheet-validate-landing-pages.md) dans les URL de base (finales) ou de destination du fichier.
+1. [Validez les landing pages](bulksheet-validate-landing-pages.md) dans les URL de base (finales) ou les URL de destination dans le fichier.
 
 1. Lorsque vous devez ajouter des données ou apporter des corrections :
 
-   1. [Exporter le fichier](bulksheet-export.md) sur votre bureau et modifiez-le dans [!DNL Microsoft Excel].
+   1. [Exportez le fichier](bulksheet-export.md) vers votre bureau et modifiez-le dans [!DNL Microsoft Excel].
 
-   1. [Chargement manuel du fichier modifié](bulksheet-upload.md) vers Search, Social &amp; Commerce ou [télécharger le fichier vers un compte FTP spécifié ;](bulksheet-ftp-account.md) pour la publication automatique.
+   1. [ Chargez manuellement le fichier modifié](bulksheet-upload.md) dans Search, Social et Commerce ou [ chargez le fichier sur un compte FTP spécifié](bulksheet-ftp-account.md) pour une publication automatique.
 
-1. (Pour les fichiers chargés manuellement) [Publier le fichier](bulksheet-post.md) sur le réseau publicitaire au fur et à mesure que vous le téléchargez ou plus tard.
+1. (Pour les fichiers chargés manuellement) [Publiez le fichier](bulksheet-post.md) sur le réseau publicitaire au fur et à mesure de son chargement ou plus tard.
 
 1. (Si nécessaire) Téléchargez de nouveaux fichiers d’erreur, corrigez les lignes et republiez le fichier.
 
@@ -62,13 +62,13 @@ Le module de recherche, Social et Commerce télécharge et publie autant de lign
 
 Lorsque des erreurs se produisent lors de l’opération de feuille d’envoi groupé, l’un des deux types de fichiers d’erreur suivants est généré :
 
-* **[!UICONTROL EF Errors]:**  Lorsqu’un fichier ou des lignes individuelles du fichier ne peuvent pas être chargés ou traités, un fichier d’erreur appelé `<uploaded file name>_ef_errors.<extension used for the bulksheet>` est créée. Si le problème concerne des lignes individuelles, ces lignes sont incluses, avec une explication de chaque erreur afin qu’elles puissent être corrigées.
+* **[!UICONTROL EF Errors]:** Lorsqu’un fichier ou des lignes individuelles du fichier ne peuvent pas être chargés ou traités, un fichier d’erreur appelé `<uploaded file name>_ef_errors.<extension used for the bulksheet>` est créé. Si le problème concerne des lignes individuelles, ces lignes sont incluses, avec une explication de chaque erreur afin qu’elles puissent être corrigées.
 
-* **[!UICONTROL SE Errors]:**  Lorsqu’un fichier est publié mais que le réseau publicitaire n’accepte pas toutes ou une partie des données, un fichier d’erreur appelé `<uploaded file name>_se_errors.<extension used for the bulksheet>` est créée. Lorsque certaines lignes ont été acceptées, mais pas toutes, le fichier d’erreur affiche les lignes qui n’ont pas été publiées et une explication de chaque erreur afin qu’elles puissent être corrigées. Les messages d’erreur sont affichés dans les trois dernières colonnes de chaque ligne.
+* **[!UICONTROL SE Errors]:** Lorsqu’un fichier est publié mais que le réseau publicitaire n’accepte pas toutes ou une partie des données, un fichier d’erreur appelé `<uploaded file name>_se_errors.<extension used for the bulksheet>` est créé. Lorsque certaines lignes ont été acceptées, mais pas toutes, le fichier d’erreur affiche les lignes qui n’ont pas été publiées et une explication de chaque erreur afin qu’elles puissent être corrigées. Les messages d’erreur sont affichés dans les trois dernières colonnes de chaque ligne.
 
 >[!NOTE]
 >
->Si vous publiez des [!DNL Google Ads] les publicités qui enfreignent les politiques publicitaires du réseau publicitaire, mais qui peuvent être admissibles à des exemptions, sont alors automatiquement republiées avec les demandes d’exemption. Si la demande d’exemption échoue, les informations sur la violation sont incluses dans le fichier d’erreur.
+>Si vous publiez des [!DNL Google Ads] publicités qui enfreignent les politiques publicitaires du réseau publicitaire mais peuvent être admissibles à des exemptions, ces publicités sont automatiquement republiées avec des demandes d’exemption. Si la demande d’exemption échoue, les informations sur la violation sont incluses dans le fichier d’erreur.
 
 Vous pouvez télécharger l’un ou l’autre des types de fichiers d’erreur, apporter des corrections directement dans les lignes, puis télécharger à nouveau et publier le fichier.
 
@@ -76,13 +76,13 @@ Les fichiers d’erreur sont automatiquement supprimés au bout de 30 jours, sau
 
 ## Informations sur chaque fichier
 
-Tous les fichiers de données, fichiers et fichiers d’erreur téléchargés sont disponibles à partir de [!UICONTROL Search] > [!UICONTROL Bulksheets].
+Tous les fichiers de données, fichiers chargés et fichiers d’erreur téléchargés sont disponibles à partir de [!UICONTROL Search] > [!UICONTROL Bulksheets].
 
 Les informations de chaque fichier incluent l’état actuel de la tâche et le pourcentage de la tâche terminée, la date de création, (le cas échéant) la date à laquelle elle a été ou sera publiée sur le réseau publicitaire spécifié, la date de suppression planifiée et le nom de connexion de l’utilisateur qui a lancé la tâche.
 
 >[!MORELIKETHIS]
 >
->* [Téléchargement/création d’un fichier de feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
+>* [Télécharger/créer un fichier de feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
 >* [Télécharger une feuille d’envoi groupé ou un fichier d’erreur corrigé](bulksheet-upload.md)
->* [Publier des feuilles d’envoi groupées ou des fichiers d’erreur corrigés](bulksheet-post.md)
->* [Exportation d’un fichier de feuille d’envoi groupé généré ou transféré](bulksheet-export.md)
+>* [ Publier des feuilles d’envoi groupées ou des fichiers d’erreur corrigés](bulksheet-post.md)
+>* [Exporter un fichier de feuille d’envoi groupé généré ou téléchargé](bulksheet-export.md)

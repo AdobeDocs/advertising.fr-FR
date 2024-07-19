@@ -12,16 +12,16 @@ ht-degree: 0%
 
 # Affichage d’un rapport détaillé pour une publicité
 
-La variable <!--legacy --> le rapport au niveau des publicités inclut [!UICONTROL Overview], [!UICONTROL Geography], et [!UICONTROL Viewability] data.
+Le rapport au niveau de la publicité <!--legacy --> comprend les données [!UICONTROL Overview], [!UICONTROL Geography] et [!UICONTROL Viewability].
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
-1. En regard du nom de la publicité, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
+1. En regard du nom de la publicité, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >
->* [Affichage d’un rapport détaillé pour un emplacement](/help/dsp/campaign-management/placements/placement-view-report.md)
->* [Affichage d’un rapport détaillé pour une campagne](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+>* [Afficher un rapport détaillé pour un emplacement](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Afficher un rapport détaillé pour une campagne](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 >* [Types de rapports de performances dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)

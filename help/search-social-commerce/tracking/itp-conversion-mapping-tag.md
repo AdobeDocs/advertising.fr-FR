@@ -1,30 +1,30 @@
 ---
 title: Balise de mappage de conversion d’Adobe Advertising
-description: Découvrez la balise de mappage de conversion basée sur JavaScript pour ITP 2.2, qui permet à l’Adobe Advertising de suivre un événement de conversion qui se produit sur une page qui n’est pas la page d’entrée.
-exl-id: 6e2515da-2552-4f19-8344-1dee96cbf706
+description: Découvrez la balise de mappage de conversion JavaScript pour ITP 2.2, qui permet à l’Adobe Advertising de suivre un événement de conversion qui se produit sur une page qui n’est pas la page d’entrée.
+exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
 
 # Balise de mappage de conversion JavaScript Adobe Advertising
 
-*Publicitaires avec suivi de conversion des Adobes Advertising uniquement*
+*Annonceurs avec suivi des conversions par Adobe Advertising uniquement*
 
-La balise de mappage de conversion basée sur JavaScript Adobe Advertising, lorsqu’elle est utilisée en plus de la balise de suivi de conversion JavaScript v2 ou v3 Adobe Advertising, permet à l’Adobe Advertising de suivre un événement de conversion qui se produit sur une page qui n’est pas la page d’entrée. La solution ITP 2.2 stocke le cookie d’un utilisateur dans un stockage local dans un iFrame détenu par l’annonceur. Le stockage local peut ensuite conserver la valeur du cookie du clic en aval vers la page de conversion.
+La balise de mappage de conversion basée sur JavaScript Adobe Advertising, lorsqu’elle est utilisée en plus de la balise de suivi de conversion Adobe Advertising JavaScript v2 ou v3, permet à l’Adobe Advertising de suivre un événement de conversion qui se produit sur une page qui n’est pas la page d’entrée. La solution ITP 2.2 stocke le cookie d’un utilisateur dans un stockage local dans un iFrame détenu par l’annonceur. Le stockage local peut ensuite conserver la valeur du cookie du clic en aval vers la page de conversion.
 
 Utilisez la balise de mappage de conversion pour vous assurer qu’Adobe Advertising peut suivre toutes les conversions qui se produisent dans les navigateurs Safari et Mozilla Firefox, ce qui limite la persistance des cookies propriétaires. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
 Pour utiliser la balise de mappage de conversion :
 
-1. [Déployer la balise de mappage de conversion](#deploy-conversion-mapping-tag).
+1. [Déployez la balise de mappage de conversion](#deploy-conversion-mapping-tag).
 
-1. Si votre entreprise utilise plusieurs identifiants d’organisation du service Adobe Experience Cloud Identity (auparavant appelés identifiants d’organisation IMS), [mettre à jour vos balises de conversion](#update-conversion-tags) pour inclure l’ID d’organisation.
+1. Si votre organisation utilise plusieurs identifiants d’organisation du service Adobe Experience Cloud Identity (anciennement appelés identifiants d’organisation IMS), [ mettez à jour vos balises de conversion](#update-conversion-tags) pour inclure l’identifiant d’organisation.
 
-1. [Validation du déploiement des balises](#validate-conversion-mapping).
+1. [Validez le déploiement de balise](#validate-conversion-mapping).
 
 ## Déployer la balise de mappage de conversion JavaScript pour ITP 2.2 {#deploy-conversion-mapping-tag}
 
@@ -32,11 +32,11 @@ Pour utiliser la balise de mappage de conversion :
 >
 >Si vous utilisez la balise de mappage de conversion JavaScript pour ITP 2.0, remplacez la balise existante dans toutes les pages de conversion par l’une des balises suivantes.<!-- any other instructions, too? Point them to the other page on Track Conversions from Safari...." -->
 
-* Si votre organisation utilise un seul ID d’organisation, qui est utilisé pour votre compte Search, Social &amp; Commerce, utilisez la balise suivante :
+* Si votre organisation utilise un seul ID d’organisation, qui est utilisé pour votre compte Search, Social et Commerce, utilisez la balise suivante :
 
   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
 
-  où remplacer `{AMO User ID}` avec l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
+  où vous remplacez `{AMO User ID}` par l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
 
 * Si votre organisation utilise plusieurs ID d’organisation, utilisez la balise suivante :
 
@@ -44,11 +44,11 @@ Pour utiliser la balise de mappage de conversion :
 
   où :
 
-   * vous remplacez la valeur `{xxxxxx@AdobeOrg}` avec l’ID d’organisation pour lequel les conversions de la page sont suivies. Utilisez le même ID d’organisation pour toutes les pages de conversion.
+   * vous remplacez la valeur `{xxxxxx@AdobeOrg}` par l’ID d’organisation pour lequel les conversions de la page sont suivies. Utilisez le même ID d’organisation pour toutes les pages de conversion.
 
-   * vous remplacez `{AMO User ID}` avec l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
+   * vous remplacez `{AMO User ID}` par l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
 
-* Si vous utilisez un système de gestion des balises qui ne prend pas en charge l’ajout de la variable `imsorgid` à la balise de script, puis utilisez le code suivant à la place :
+* Si vous utilisez un système de gestion des balises qui ne prend pas en charge l’ajout de la variable `imsorgid` à la balise de script, utilisez plutôt le code suivant :
 
   *Si votre organisation utilise un seul ID d’organisation :
 
@@ -60,7 +60,7 @@ Pour utiliser la balise de mappage de conversion :
   <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
   ```
 
-  où remplacer `{AMO User ID}` avec l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
+  où vous remplacez `{AMO User ID}` par l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
 
    * Si votre organisation utilise plusieurs ID d’organisation :
 
@@ -75,9 +75,9 @@ Pour utiliser la balise de mappage de conversion :
 
      où :
 
-      * vous remplacez la valeur `{xxxxxx@AdobeOrg}` avec l’ID d’organisation pour lequel les conversions de la page sont suivies. Utilisez le même ID d’organisation pour toutes les pages de conversion.
+      * vous remplacez la valeur `{xxxxxx@AdobeOrg}` par l’ID d’organisation pour lequel les conversions de la page sont suivies. Utilisez le même ID d’organisation pour toutes les pages de conversion.
 
-      * vous remplacez `{AMO User ID}` avec l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
+      * vous remplacez `{AMO User ID}` par l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
 
 Si vous ne connaissez pas la valeur de votre ID d’organisation ou de votre ID d’utilisateur Search, Social et Commerce, demandez à votre gestionnaire de compte d’Adobe.
 
@@ -108,7 +108,7 @@ S’il est placé dans une balise iframe ou conteneur, alors :
 
 ## Mettre à jour vos balises de conversion JavaScript {#update-conversion-tags}
 
-Si votre entreprise utilise plusieurs ID d’organisation, ajoutez l’ID d’organisation pour lequel les conversions d’une page sont suivies dans vos balises de conversion JavaScript existantes.
+Si votre organisation utilise plusieurs ID d’organisation, ajoutez l’ID d’organisation pour lequel les conversions d’une page sont suivies dans vos balises de conversion JavaScript existantes.
 
 Si votre organisation utilise un ID d’organisation, cette étape n’est pas nécessaire.
 
@@ -118,7 +118,7 @@ Ajoutez la chaîne suivante au début de la balise de script de conversion :
 
 `ef_imsorgid="{xxxxxx@AdobeOrg}";`
 
-où vous remplacez la valeur `{xxxxxx@AdobeOrg}` avec l’ID d’organisation pour lequel les conversions de la page sont suivies.
+où vous remplacez la valeur `{xxxxxx@AdobeOrg}` par l’ID d’organisation pour lequel les conversions de la page sont suivies.
 
 Exemple :
 
@@ -144,11 +144,11 @@ effp();
 
 ### Balises JavaScript V3
 
-Après `window.EF` est définie, ajoutez la chaîne suivante :
+Une fois `window.EF` défini, ajoutez la chaîne suivante :
 
 `window.EF.imsorgid = "{xxxxxx@AdobeOrg}";`
 
-où vous remplacez la valeur `{xxxxxx@AdobeOrg}` avec l’ID d’organisation pour lequel les conversions de la page sont suivies.
+où vous remplacez la valeur `{xxxxxx@AdobeOrg}` par l’ID d’organisation pour lequel les conversions de la page sont suivies.
 
 Exemple :
 

@@ -5,8 +5,8 @@ source-wordcount: '28'
 ht-degree: 0%
 
 ---
-# Modèle de publicité texte - État
+# Modèle de publicité textuelle - État
 
-**[!UICONTROL Status]:** Statut du modèle : *[!UICONTROL Active]*, *[!UICONTROL Paused]* ou *[!UICONTROL Deleted]*.
+**[!UICONTROL Status]:** État du modèle : *[!UICONTROL Active]*, *[!UICONTROL Paused]* ou *[!UICONTROL Deleted]*.
 
-Les données de flux ne peuvent être propagées automatiquement que par le biais de principaux modèles. Vous pouvez toutefois propager manuellement les données par le biais d’un modèle suspendu.
+Les données de flux ne peuvent être propagées automatiquement que par le biais de modèles actifs. Vous pouvez toutefois propager manuellement les données par le biais d’un modèle suspendu.

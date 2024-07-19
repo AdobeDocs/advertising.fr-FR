@@ -14,16 +14,16 @@ ht-degree: 0%
 
 Affichez une liste d’emplacements associés à une publicité pour afficher les données de performances par emplacement et modifier les paramètres d’emplacement si nécessaire.
 
-Voir aussi &quot;[Afficher les publicités liées aux emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign).&quot;
+Voir aussi &quot;[Afficher les publicités liées aux emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign)&quot;.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
-1. En regard du nom de la publicité, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
+1. En regard du nom de la publicité, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
 
 >[!MORELIKETHIS]
 >
->* [A propos de la gestion des publicités](ad-about.md)
+>* [À propos de la gestion des publicités](ad-about.md)
 >* [Modifier une publicité](ad-edit.md)
->* [Modifier les emplacements](/help/dsp/campaign-management/placements/placement-edit.md)
->* [Affichage d’un rapport détaillé pour un emplacement](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Modifier des emplacements](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Afficher un rapport détaillé pour un emplacement](/help/dsp/campaign-management/placements/placement-view-report.md)

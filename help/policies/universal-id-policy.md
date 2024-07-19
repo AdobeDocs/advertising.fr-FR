@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Dernière mise à jour : 29 février 2024
 
-Cette stratégie des exigences d’ID universel (&quot;Stratégie&quot;) définit les exigences relatives à l’utilisation d’identifiants universels en rapport avec des publicités distribuées via [!DNL Adobe's] Services à la demande pour Adobe Advertising (&quot;Services&quot;). Cette politique est intégrée par référence dans l&#39;accord entre [!DNL Adobe] et le client (&quot;vous&quot;) à l’aide des services à la demande. Les termes en majuscules utilisés dans la présente politique, mais non définis dans les présentes, auront la signification indiquée dans cette convention.
+Cette politique sur les exigences d’ID universel (&quot;Policy&quot;) définit les exigences relatives à l’utilisation d’identifiants universels en rapport avec des publicités distribuées via [!DNL Adobe's] On-demand Services for Adobe Advertising (&quot;Services&quot;). Cette politique est intégrée par référence dans le contrat entre [!DNL Adobe] et le client (&quot;vous&quot;) à l’aide des services à la demande. Les termes en majuscules utilisés dans la présente politique, mais non définis dans les présentes, auront la signification indiquée dans cette convention.
 
-[!DNL Adobe] se réserve le droit de déterminer, à son seul jugement, si une publicité ou le ou les sites web vers lesquels la publicité est redirigée ou liée, violent les exigences de la présente politique, auquel cas [!DNL Adobe] peut refuser cette publicité et/ou mettre fin ou suspendre l’accès aux Services sur cette base.
+[!DNL Adobe] se réserve le droit de déterminer, à son seul jugement, si une publicité ou le ou les sites web vers lesquels la publicité est redirigée ou liée, enfreint les exigences de cette politique, auquel cas [!DNL Adobe] peut rejeter cette publicité et/ou mettre fin ou suspendre l’accès aux Services sur cette base.
 
 Outre les exigences définies ci-dessous et dans le Contrat, vous devez respecter les exigences imposées par chaque fournisseur d’ID universel avec lequel vous choisissez d’interagir ainsi que celles imposées par toute plateforme côté offre (SSP) ou toute autre plateforme utilisée pour diffuser vos publicités. Il vous incombe de comprendre et de respecter les politiques des éditeurs et des plateformes par le biais desquelles vous diffusez des publicités.
 
@@ -24,13 +24,13 @@ Outre les exigences définies ci-dessous et dans le Contrat, vous devez respecte
 
 ### Données interdites
 
-En choisissant d’utiliser les identifiants universels mis à votre disposition via les services, vous acceptez de vous assurer que toutes les données client transmises, stockées, affichées, distribuées ou mises à votre disposition par l’intermédiaire des services à la demande sont conformes aux spécifications d’ID universel suivantes et à toutes les autres exigences de la présente politique, telles que modifiées par [!DNL Adobe] de temps en temps.
+En choisissant d’utiliser les ID universels mis à disposition via les services, vous acceptez de vous assurer que toutes les données client transmises, stockées, affichées, distribuées ou mises à votre disposition par l’intermédiaire des services à la demande sont conformes aux spécifications d’ID universel suivantes et à toutes les autres exigences de cette politique, comme peut le modifier [!DNL Adobe] de temps à autre.
 
 * Vous avez collecté des données client directement auprès d’utilisateurs ou sous licence d’une autre partie qui a collecté (i) les données client directement auprès des utilisateurs auxquels de telles données se rapportent ou (ii) obtenu les données client via des intermédiaires qui ont obtenu les données d’une autre partie qui a collecté ces données de l’utilisateur, à condition que vous puissiez identifier la partie d’origine qui a collecté les données client des utilisateurs auxquels les données se rapportent.
 
 * Les données client ne sont pas issues de la mise au rebut Web ou de l’achat d’une base de données à partir d’une source déconnectée de la collection d’origine des données.
 
-* Vous avez fourni tous les avis et obtenu tous les consentements requis pour divulguer les données client à [!DNL Adobe] et ses partenaires aux fins définies dans le Contrat.
+* Vous avez fourni tous les avis et obtenu tous les consentements requis pour divulguer les données du client à [!DNL Adobe] et ses partenaires aux fins définies dans le contrat.
 
 * Les données client ne concernent aucune personne (i) qui a exercé une option que vous avez directement ou indirectement engagée à honorer en ce qui concerne la création ou l’utilisation de données pour des audiences ciblées (&quot;Opt-out&quot;), (ii) que vous connaissez comme mineure (une mineure étant des individus de moins de la majorité définis par la loi dans n’importe quelle juridiction applicable), ou (iii) dont vous possédez la connaissance réelle que cette personne souffre d’un état de santé particulier.
 
@@ -38,7 +38,7 @@ En choisissant d’utiliser les identifiants universels mis à votre disposition
 
 ### UID2 - Pays interdits
 
-En choisissant d’utiliser les UID2 Universal ID via les Services, vous acceptez de vous assurer que toutes les données client transmises, stockées, affichées, distribuées ou mises à votre disposition par l’intermédiaire des Services à la demande pour une utilisation de ce type en rapport avec les UID2 Universal ID ne sont liées à aucune personne qui réside dans l’un des [UID2 Pays interdits sur la liste de l’exposition A](#prohibited-countries-uid2) héréto.
+En choisissant d’utiliser des UID2 Universal ID via les Services, vous acceptez de vous assurer que toutes les données client transmises, stockées, affichées, distribuées ou mises à votre disposition par l’intermédiaire des Services à la demande pour une telle utilisation en rapport avec les UID2 Universal ID ne se rapportent à aucune personne résidant dans l’un des [pays interdit UID2 répertorié dans l’pièce A](#prohibited-countries-uid2) ci-dessous.
 
 ## Non-discrimination
 

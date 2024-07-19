@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Modèle de publicité textuelle - Carte de campagne uniquement
 
-**[!UICONTROL Map Only]:** (Facultatif) Mappe tous les nouveaux groupes d’annonces (non disponible pour [!DNL Yandex]), des mots-clés et des publicités aux campagnes existantes, plutôt que de créer de nouvelles campagnes. Si vous activez cette option, sélectionnez la méthode de mappage.
+**[!UICONTROL Map Only]:** (facultatif) mappe tous les nouveaux groupes publicitaires (non disponibles pour [!DNL Yandex]), mots-clés et publicités aux campagnes existantes, plutôt que de créer de nouvelles campagnes. Si vous activez cette option, sélectionnez la méthode de mappage.
 
-Utilisation [!UICONTROL Map Only] au niveau de la campagne, une structure de compte existante est étroitement liée à la taxonomie du produit et est facilement mappée au flux de données.
+L’utilisation de [!UICONTROL Map Only] au niveau de la campagne nécessite une structure de compte existante qui est étroitement liée à la taxonomie du produit et correspond facilement au flux de données.

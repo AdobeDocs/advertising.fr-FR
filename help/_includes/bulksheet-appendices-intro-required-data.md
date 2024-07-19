@@ -14,5 +14,4 @@ Le tableau suivant indique les champs obligatoires, facultatifs ou non applicabl
 >* Les valeurs de toutes les colonnes de texte sont sensibles à la casse.
 >* Lorsque vous créez un nouvel enregistrement sans inclure de valeurs pour tous les champs de données requis, les valeurs par défaut spécifiées sont alors attribuées à certains de ces champs.
 >* Pour les champs qui ne sont pas spécifiés ci-dessous, la valeur par défaut du réseau publicitaire est utilisée.
->* Pour obtenir la liste des rangées de feuille d’envoi groupé disponibles dans la variable [!UICONTROL Download Bulksheet] dialog, voir[Lignes de feuille de support par réseau publicitaire](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).&quot;
-
+>* Pour obtenir la liste des lignes de feuille d’envoi groupé disponibles dans la boîte de dialogue [!UICONTROL Download Bulksheet], voir &quot;[Lignes de feuille d’envoi groupé par réseau publicitaire](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)&quot;.

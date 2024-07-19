@@ -1,9 +1,9 @@
 ---
 title: Suppression d’une mesure personnalisée
 description: Découvrez comment supprimer des mesures personnalisées, qui sont calculées à partir de mesures standard.
-exl-id: 531da1f7-6e20-4124-9e8c-e1816929c4d7
+exl-id: 8956afa3-d165-4a5b-b68b-99d519cf6ab6
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -28,25 +28,25 @@ Si la mesure personnalisée est incluse en tant que colonne dans la vue actuelle
 
 ## Suppression d’une mesure personnalisée d’un formulaire de rapport ou de modèle de rapport
 
-1. Dans un formulaire de rapport ou de modèle de rapport, accédez au **[!UICONTROL Columns]** .
+1. Dans un formulaire de rapport ou de modèle de rapport, accédez à l’onglet **[!UICONTROL Columns]** .
 
-1. Cliquez sur le nom de la colonne dans la colonne de gauche ou de droite, puis cliquez sur **[!UICONTROL Delete]** dans la section droite.
+1. Cliquez sur le nom de la colonne dans la colonne de gauche ou de droite, puis cliquez sur **[!UICONTROL Delete]** dans la section de droite.
 
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Yes]**.
 
-## Suppression d’une mesure personnalisée du [!UICONTROL Portfolios] views
+## Suppression d’une mesure personnalisée des vues [!UICONTROL Portfolios]
 
 1. Au-dessus du tableau de données, cliquez sur ![Modifier la vue sélectionnée](/help/search-social-commerce/assets/view-settings.png "Modifier la vue sélectionnée").
 
-1. Cliquez sur le bouton **[!UICONTROL Columns]** .
+1. Cliquez sur l’onglet **[!UICONTROL Columns]** .
 
-1. Cliquez sur le nom de la colonne dans la variable [!UICONTROL Available Metrics] ou [!UICONTROL Table Columns] , puis cliquez sur **[!UICONTROL Delete]** dans la section droite.
+1. Cliquez sur le nom de la colonne dans la liste [!UICONTROL Available Metrics] ou [!UICONTROL Table Columns], puis cliquez sur **[!UICONTROL Delete]** dans la section de droite.
 
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Yes]**.
 
 >[!MORELIKETHIS]
 >
 >* [À propos des mesures personnalisées](custom-metric-about.md)
->* [Création d’une mesure personnalisée](custom-metric-create.md)
->* [Modification d’une mesure personnalisée](custom-metric-edit.md)
+>* [Créer une mesure personnalisée](custom-metric-create.md)
+>* [Modifier une mesure personnalisée](custom-metric-edit.md)
 >* [Paramètres de mesure personnalisés](custom-metric-settings.md)

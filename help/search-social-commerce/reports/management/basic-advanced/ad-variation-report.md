@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Ad Variation Report]'
-description: En savoir plus sur les [!UICONTROL Ad Variation Report].
-exl-id: 3f760c40-c9ff-4100-8b4a-80c98dca2460
+description: Découvrez [!UICONTROL Ad Variation Report].
+exl-id: e12f2dee-b430-444f-9204-73fed4e33e29
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Ad Variation Report]
 
-La variable [!UICONTROL Ad Variation Report] inclut les données de conversion (facultatives), de clic et de coût pour chaque variante de publicité applicable (créative) ayant reçu des impressions dans un ou plusieurs groupes publicitaires. Par défaut, les données incluent une ligne pour chaque publicité applicable qui a reçu des impressions pour chaque unité de temps au cours de la période spécifiée. Les lignes sont dans l’ordre croissant d’abord par titre créatif (publicitaire), puis par réseau publicitaire par défaut.
+[!UICONTROL Ad Variation Report] comprend les données de conversion de coût, de clic et (éventuellement) pour chaque variante d’annonce applicable (créative) ayant reçu des impressions dans un ou plusieurs groupes publicitaires. Par défaut, les données incluent une ligne pour chaque publicité applicable qui a reçu des impressions pour chaque unité de temps au cours de la période spécifiée. Les lignes sont dans l’ordre croissant d’abord par titre créatif (publicitaire), puis par réseau publicitaire par défaut.
 
 Vous pouvez éventuellement inclure des classifications d’étiquettes spécifiques aux annonceurs.
 
@@ -20,11 +20,11 @@ Vous pouvez afficher les données des 36 mois précédents.
 
 >[!NOTE]
 >
->Les données au niveau de la publicité ne sont pas disponibles pour [!DNL Google Ads] publicité de recherche dynamique (DSA), niveau de performance maximal, achats intelligents et [!DNL YouTube] campagnes. Si vous disposez de ces types de campagne, attendez-vous à des incohérences entre le total des données au niveau de la publicité pour une campagne et le total des données pour la campagne.
+>Les données au niveau de la publicité ne sont pas disponibles pour les campagnes [!DNL Google Ads] de recherche dynamique (DSA), de performance maximale, d’achats intelligents et [!DNL YouTube]. Si vous disposez de ces types de campagne, attendez-vous à des incohérences entre le total des données au niveau de la publicité pour une campagne et le total des données pour la campagne.
 
 ## Colonnes par défaut
 
-Pour obtenir des descriptions de toutes les colonnes par défaut et personnalisées, voir &quot;[Colonnes de rapports pour les rapports de base et avancés](basic-advanced-report-columns.md).&quot;
+Pour obtenir des descriptions de toutes les colonnes par défaut et personnalisées, voir &quot;[Colonnes de rapport pour les rapports de base et avancés](basic-advanced-report-columns.md)&quot;.
 
 * [!UICONTROL Creative Title, Creative Title2 - Creative Title15]
 * [!UICONTROL Creative Name]
@@ -49,5 +49,5 @@ Pour obtenir des descriptions de toutes les colonnes par défaut et personnalis�
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports de base et avancés](basic-advanced-report-about.md)
->* [Génération d’un rapport de base ou avancé](basic-advanced-report-generate.md)
->* [Paramètres de base et avancés des rapports](basic-advanced-report-settings.md)
+>* [Générer un rapport de base ou avancé](basic-advanced-report-generate.md)
+>* [ Paramètres de rapport de base et avancés ](basic-advanced-report-settings.md)

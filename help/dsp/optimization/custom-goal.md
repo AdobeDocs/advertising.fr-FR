@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Objectifs personnalisés
 
-Les objectifs personnalisés définissent les événements de succès dont un annonceur a besoin pour atteindre ses objectifs commerciaux. Chaque module qui utilise l’objectif d’optimisation &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; doit inclure un objectif personnalisé pour atteindre l’objectif d’optimisation général. Vous pouvez créer des objectifs personnalisés sous la forme *objectifs* in [!DNL Advertising Search, Social, & Commerce]. Le nom de chaque objectif pour DSP doit comporter le préfixe &quot;ADSP_&quot;.
+Les objectifs personnalisés définissent les événements de succès dont un annonceur a besoin pour atteindre ses objectifs commerciaux. Chaque module qui utilise l’objectif d’optimisation &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; doit inclure un objectif personnalisé pour atteindre l’objectif d’optimisation général. Vous pouvez créer des objectifs personnalisés en tant que *objectifs* dans [!DNL Advertising Search, Social, & Commerce]. Le nom de chaque objectif pour DSP doit comporter le préfixe &quot;ADSP_&quot;.
 
 <!-- update image or omit it
 
@@ -23,29 +23,29 @@ Chaque objectif personnalisé (objectif) comprend une ou plusieurs mesures de co
 
 Supposons, par exemple, que trois mesures de conversion soient pertinentes pour un module spécifique dans l’une de vos campagnes : &quot;Téléchargement du PDF&quot; (20 USD), &quot;Enregistrement par e-mail&quot; (30 USD) et &quot;Confirmation de commande&quot; (40 USD). Si vous souhaitez donner du poids en fonction de la valeur monétaire ponctuelle de l’action du client, les poids relatifs des mesures seront de 1, 1,5 et 2.
 
-Une fois que [créer un objectif personnalisé ;](#custom-goal-create), vous pouvez [l’affecter à un module](/help/dsp/campaign-management/packages/package-settings.md) pour la création de rapports et l’optimisation algorithmique à l’aide d’Adobe Sensei.
+Une fois que vous [ avez créé un objectif personnalisé ](#custom-goal-create), vous pouvez [ l&#39;affecter à un package ](/help/dsp/campaign-management/packages/package-settings.md) pour la création de rapports et l&#39;optimisation algorithmique à l&#39;aide d&#39;Adobe Sensei.
 
 Les recommandations de poids sont générées automatiquement pour les mesures DSP attribuées dans les objectifs et peuvent appliquer toutes les recommandations de poids en un seul clic. Tous les changements de poids apportés aux objectifs dotés du préfixe &quot;ADSP_&quot; sont appliqués algorithmiquement dans DSP dans un délai de deux jours. Pour plus d’informations sur les recommandations relatives au poids, reportez-vous au chapitre du Guide d’optimisation intitulé &quot;Nouveaux objectifs (Beta)&quot;, disponible dans Search, Social et Commerce.
 
 ## Création d’un objectif personnalisé {#custom-goal-create}
 
-Pour créer un objectif personnalisé, le compte DSP doit être associé à un [!DNL Search, Social, & Commerce] avec le même ID d’organisation Adobe Experience Cloud, depuis le [!DNL Search, Social, & Commerce] paramètres du client. Si votre compte DSP n’est pas lié à un [!DNL Search, Social, & Commerce] , puis contactez votre équipe de compte d’Adobe.
+Pour créer un objectif personnalisé, le compte DSP doit être lié à un compte [!DNL Search, Social, & Commerce] avec le même ID d’organisation Adobe Experience Cloud, depuis les paramètres du client [!DNL Search, Social, & Commerce]. Si votre compte DSP n&#39;est pas lié à un compte [!DNL Search, Social, & Commerce], contactez votre équipe de compte d&#39;Adobe.
 
-1. Connexion à [!DNL Advertising Search, Social, & Commerce] at (utilisateurs en Amérique du Nord) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) ou (tous les autres utilisateurs) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. Connectez-vous à [!DNL Advertising Search, Social, & Commerce] à (utilisateurs en Amérique du Nord) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) ou (tous les autres utilisateurs) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 
 1. Assurez-vous que les mesures que vous souhaitez inclure dans votre objectif ont été suivies, sont disponibles dans le produit et incluez un nom d’affichage :
 
    1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
 
-   1. Recherchez la mesure et assurez-vous que la variable **[!UICONTROL Show in UI and Reports]** est activé pour la mesure.
+   1. Recherchez la mesure et assurez-vous que **[!UICONTROL Show in UI and Reports]** est activé pour la mesure.
 
       >[!NOTE]
       >
-      >* [!DNL Analytics] les événements personnalisés suivent cette convention d’affectation des noms : `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemple : `custom_event_16_examplersid`
+      >* [!DNL Analytics] événements personnalisés suivent cette convention d’affectation des noms : `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemple : `custom_event_16_examplersid`
 
-   1. Si la mesure n’a pas de valeur dans la variable **[!UICONTROL Display Name]** , puis cliquez dans la cellule, saisissez le nom d’affichage et cliquez sur **[!UICONTROL Apply].**
+   1. Si la mesure ne contient pas de valeur dans la colonne **[!UICONTROL Display Name]**, cliquez dans la cellule, saisissez le nom d’affichage, puis cliquez sur **[!UICONTROL Apply].**
 
-1. Créez l’objectif personnalisé en tant que *objectif*:
+1. Créez l’objectif personnalisé en tant qu’ *objectif* :
 
    1. Dans le menu principal, cliquez sur **[!UICONTROL Search]** > **[!UICONTROL Optimization]>[!UICONTROL New Objectives Beta]**.
 
@@ -63,14 +63,14 @@ Pour créer un objectif personnalisé, le compte DSP doit être associé à un [
 
       >[!NOTE]
       >
-      >* [!DNL Analytics] les événements personnalisés suivent cette convention d’affectation des noms : `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemple : `custom_event_16_examplersid`
-      >* [!DNL Analytics] les dimensions et les segments ne sont pas disponibles pour l’optimisation des Adobes Advertising.
+      >* [!DNL Analytics] événements personnalisés suivent cette convention d’affectation des noms : `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemple : `custom_event_16_examplersid`
+      >* [!DNL Analytics] dimensions et segments ne sont pas disponibles pour l’optimisation des Adobes Advertising.
 
       >[!TIP]
       >
       >Pour des performances optimales, les mesures combinées de l’objectif personnalisé (objectif) doivent totaliser au moins dix conversions par jour. Dans le cas contraire, la bonne pratique consiste à ajouter à l’objectif des mesures de conversion supplémentaires, telles que des pages de produits ou des démarrages d’application, qui prennent en charge la conversion. Voir [Bonnes pratiques pour la création d’un objectif personnalisé](#custom-goal-best-practices) pour obtenir des instructions.
 
-Dans les paramètres du module DSP pour les modules qui utilisent l’objectif d’optimisation &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],&quot; le nom de l’objectif est désormais inclus dans la variable [!UICONTROL Custom Goals] liste. Lorsque vous sélectionnez l’objectif comme objectif personnalisé pour un module, la variable [!UICONTROL Conversion Metric] liste comprend toutes les mesures d’objectif pour l’objectif.
+Dans les paramètres de module DSP pour les modules qui utilisent l’objectif d’optimisation &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]&quot; ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;, le nom de l’objectif est désormais inclus dans la liste [!UICONTROL Custom Goals]. Lorsque vous sélectionnez l’objectif comme objectif personnalisé pour un package, la liste [!UICONTROL Conversion Metric] inclut toutes les mesures d’objectif pour l’objectif.
 
 ## Bonnes pratiques pour la création d’un objectif personnalisé {#custom-goal-best-practices}
 
@@ -78,9 +78,9 @@ Dans les paramètres du module DSP pour les modules qui utilisent l’objectif d
 
 Les exemples suivants montrent comment configurer des objectifs qui ciblent une seule mesure de conversion.
 
-#### Exemple pour une campagne avec le[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;Objectif d’optimisation
+#### Exemple pour une campagne avec l’objectif d’optimisation &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;
 
-Si l’objectif de votre campagne est le chiffre d’affaires ([!UICONTROL Highest Return on Ad Spend (ROAS)]), les recettes provenant de tous les types d’appareils sont également importantes pour vous, puis incluez le[!UICONTROL Revenue]&quot;avec un poids non mobile d’un (1) ; le poids mobile est ignoré. Sélection du type de mesure *[!UICONTROL Goal]*.
+Si l’objectif de votre campagne est le chiffre d’affaires ([!UICONTROL Highest Return on Ad Spend (ROAS)]) et que les recettes provenant de tous les types d’appareils sont également importantes pour vous, incluez la mesure &quot;[!UICONTROL Revenue]&quot; avec un poids non mobile de un (1) ; le poids mobile est ignoré. Sélectionnez le type de mesure *[!UICONTROL Goal]*.
 
 <!-- update image or delete 
 
@@ -90,11 +90,11 @@ Si l’objectif de votre campagne est le chiffre d’affaires ([!UICONTROL Highe
 
 >[!NOTE]
 >
-> Un poids non mobile d’une (1) équivaut à la valeur d’une (1) pour chaque 1 $ de recettes suivi pour les publicités affichées sur n’importe quel appareil. Par exemple, une conversion de 250 $ avec un poids non mobile d’un (1) est signalée comme 250 $ pour les conversions. Si la mesure de conversion se voit attribuer un poids non mobile de 0,5, la conversion de 250 $ est signalée comme étant de 125 $ en Adobe Advertising (Conversion de 250 $ * 0,5). [!UICONTROL Non-mobile Weight] = 125 $).
+> Un poids non mobile d’une (1) équivaut à la valeur d’une (1) pour chaque 1 $ de recettes suivi pour les publicités affichées sur n’importe quel appareil. Par exemple, une conversion de 250 $ avec un poids non mobile d’un (1) est signalée comme 250 $ pour les conversions. Si la mesure de conversion se voit attribuer un poids non mobile de 0,5, la conversion de 250 $ est signalée comme étant de 125 $ en Adobe Advertising (250 $ Conversion * 0,5 [!UICONTROL Non-mobile Weight] = 125 $).
 
-#### Exemple pour une campagne avec le[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;Objectif d’optimisation
+#### Exemple pour une campagne avec l’objectif d’optimisation &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;
 
-Si l’objectif de votre campagne est le coût par acquisition le plus bas (CPA) et qu’il ne nécessite qu’un seul événement de succès (par exemple &quot;Envoi de demande&quot;), incluez cette mesure et spécifiez le type de mesure comme *[!UICONTROL Goal]*. La bonne pratique consiste à définir le poids non mobile sur un (1) ; le poids mobile est ignoré.
+Si l’objectif de votre campagne est le coût par acquisition le plus bas (CPA) et qu’il ne nécessite qu’un seul événement de succès (tel que &quot;Envoi de demande&quot;), incluez cette mesure et spécifiez le type de mesure *[!UICONTROL Goal]*. La bonne pratique consiste à définir le poids non mobile sur un (1) ; le poids mobile est ignoré.
 
 <!-- update image or delete 
 
@@ -104,13 +104,13 @@ Si l’objectif de votre campagne est le coût par acquisition le plus bas (CPA)
 
 >[!NOTE]
 >
-> Un poids non mobile d’une (1) équivaut à la valeur d’une (1) pour chaque conversion suivie pour les publicités affichées sur n’importe quel appareil. Par exemple, si 10 conversions d’envoi de demande sont suivies, 10 conversions d’envoi de demande sont signalées. Toutefois, si la mesure de conversion se voit attribuer un poids non mobile de 0,5, les 10 conversions sont signalées comme étant de cinq (5) en Adobe Advertising (10 conversions * 0,5). [!UICONTROL Non-mobile Weight] = 5).
+> Un poids non mobile d’une (1) équivaut à la valeur d’une (1) pour chaque conversion suivie pour les publicités affichées sur n’importe quel appareil. Par exemple, si 10 conversions d’envoi de demande sont suivies, 10 conversions d’envoi de demande sont signalées. Cependant, si la mesure de conversion se voit attribuer un poids non mobile de 0,5, alors les 10 conversions sont signalées comme étant de cinq (5) en Adobe Advertising (10 conversions * 0,5 [!UICONTROL Non-mobile Weight] = 5).
 
 ### Objectifs personnalisés avec plusieurs mesures
 
 Il existe deux scénarios dans lesquels vous utiliseriez plusieurs mesures dans un objectif personnalisé :
 
-* L’objectif de votre campagne comporte plusieurs événements de succès. Par exemple, vous annoncez peut-être plusieurs actions sur site (téléchargement de PDF, contact avec nous et inscription par e-mail), et toutes ces actions contribuent à votre objectif de CPA. Si l’objectif comprend les trois mesures distinctes, chacune avec un poids non mobile d’un (1), la variable [!DNL Adobe Sensei] l’algorithme traite chaque mesure et chaque type d’appareil utilisateur avec la même importance. Si les différentes mesures ont des coûts ou une importance variables, vous ajustez leur poids relatif en conséquence.
+* L’objectif de votre campagne comporte plusieurs événements de succès. Par exemple, vous annoncez peut-être plusieurs actions sur site (téléchargement de PDF, contact avec nous et inscription par e-mail), et toutes ces actions contribuent à votre objectif de CPA. Si l’objectif comprend les trois mesures distinctes, chacune avec un poids non mobile d’une (1), l’algorithme [!DNL Adobe Sensei] traite chacune des mesures et des types d’appareils utilisateur avec la même importance. Si les différentes mesures ont des coûts ou une importance variables, vous ajustez leur poids relatif en conséquence.
 
 <!-- update image or delete it and adjust the wording above
 
@@ -130,10 +130,10 @@ Il existe deux scénarios dans lesquels vous utiliseriez plusieurs mesures dans 
 
 -->
 
-Si, à la place, vous aviez pondéré les visites de page d’entrée de manière égale par rapport aux envois de demande, le nombre naturellement plus élevé de visites de page d’entrée pourrait dépasser votre objectif et augmenter le nombre de visites de page d’entrée.<!--reword-->
+Si, au lieu de cela, vous aviez pondéré les visites de page d’entrée de manière égale aux envois d’application, le nombre naturellement plus élevé de visites de page d’entrée pourrait dépasser votre objectif et augmenter le nombre de visites de page d’entrée.<!--reword-->
 
 >[!MORELIKETHIS]
 >
->* [Objectifs d’optimisation et utilisation](optimization-goals.md)
+>* [Objectifs d’optimisation et comment les utiliser](optimization-goals.md)
 >* [Paramètres du module](/help/dsp/campaign-management/packages/package-settings.md)
-> * [Optimisation des campagnes par DSP](optimization-how-dsp-optimizes-campaigns.md)
+> * [Comment DSP optimise vos campagnes](optimization-how-dsp-optimizes-campaigns.md)

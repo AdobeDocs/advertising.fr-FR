@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Dans la plupart des vues de données de campagne, vous pouvez personnaliser les données qui apparaissent dans le tableau de données. Vous pouvez personnaliser les données comme suit :
 
-* Modifiez les paramètres de l’ensemble de votre vue par défaut pour une vue d’entité spécifique (telle que [!UICONTROL Campaigns]) pour inclure un ordre de colonne spécifique, des filtres, une période, une règle d’attribution, etc. et appliquer temporairement les paramètres ou les enregistrer. Vous pouvez également créer d’autres vues personnalisées et appliquer n’importe laquelle de vos vues à tout moment.
+* Modifiez les paramètres de votre vue par défaut complète pour une vue d’entité spécifique (telle que [!UICONTROL Campaigns]) afin d’inclure un ordre de colonnes spécifique, des filtres, une période, une règle d’attribution, etc., et appliquez temporairement les paramètres ou enregistrez-les. Vous pouvez également créer d’autres vues personnalisées et appliquer n’importe laquelle de vos vues à tout moment.
 
-* Modifiez les colonnes et leur ordre de tri à partir du [!UICONTROL Columns] sur le côté droit de la barre d’outils ou modifiez rapidement les colonnes de n’importe quel en-tête de colonne de la vue.
+* Modifiez les colonnes et leur ordre de tri à partir de l’icône [!UICONTROL Columns] sur le côté droit de la barre d’outils ou modifiez rapidement les colonnes de n’importe quel en-tête de colonne de la vue.
 
 * Dans le panneau de navigation de gauche, vous pouvez :
 
@@ -32,4 +32,4 @@ Dans la plupart des vues de données de campagne, vous pouvez personnaliser les 
 
 * Triez à nouveau les données en fonction des valeurs d’une colonne spécifique.
 
-* Déterminer s’il faut afficher 25 lignes, 50 lignes, 100 lignes, 200 lignes ou [!UICONTROL Continuous Scroll] en bas à droite d’une page.
+* Déterminez si vous souhaitez afficher 25 lignes, 50 lignes, 100 lignes, 200 lignes ou [!UICONTROL Continuous Scroll] en bas à droite d’une page.

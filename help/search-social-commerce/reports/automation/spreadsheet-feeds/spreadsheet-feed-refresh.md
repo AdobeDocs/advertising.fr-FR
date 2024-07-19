@@ -1,11 +1,11 @@
 ---
 title: Actualisation manuelle des flux de rapports de feuille de calcul
 description: Découvrez comment actualiser manuellement les données dans les flux de feuille de calcul.
-exl-id: 2929d6a6-8823-4f2e-94b4-5348d6f7672a
+exl-id: 7d91d6ce-e2fe-4ad7-b015-99aeae872d86
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ ht-degree: 0%
 
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Yes]**.
 
-1. (Facultatif) Une fois un flux [!UICONTROL Update Status] is *[!UICONTROL Finished]*, cliquez sur **[!UICONTROL XLSX]** en regard du flux, puis ouvrez ou enregistrez le fichier selon la procédure normale de votre navigateur.
+1. (Facultatif) Une fois que le [!UICONTROL Update Status] d’un flux est *[!UICONTROL Finished]*, cliquez sur **[!UICONTROL XLSX]** en regard du flux, puis ouvrez ou enregistrez le fichier selon la procédure normale de votre navigateur.
 
 >[!MORELIKETHIS]
 >
->* [A propos des flux de rapports de feuille de calcul](spreadsheet-feed-about.md)
->* [Création d’un flux de rapport de feuille de calcul](spreadsheet-feed-create.md)
->* [Créez un [!DNL Excel] modèle pour un flux de rapport de feuille de calcul](spreadsheet-feed-create-excel-template.md)
+>* [À propos des flux de rapports de feuille de calcul](spreadsheet-feed-about.md)
+>* [Créer un flux de rapport de feuille de calcul](spreadsheet-feed-create.md)
+>* [ Créez un  [!DNL Excel] modèle pour un flux de rapport de feuille de calcul](spreadsheet-feed-create-excel-template.md)
 >* [Modifier les paramètres du flux de rapports de feuille de calcul](spreadsheet-feed-edit.md)
 >* [Paramètres du flux de rapports de feuille de calcul](spreadsheet-feed-settings.md)
->* [Affichage ou enregistrement d’un fichier de flux de rapport de feuille de calcul](spreadsheet-feed-view-or-save.md)
->* [Suppression de flux de rapports de feuille de calcul](spreadsheet-feed-delete.md)
+>* [ Afficher ou enregistrer un fichier de flux de rapport de feuille de calcul ](spreadsheet-feed-view-or-save.md)
+>* [Supprimer des flux de rapports de feuille de calcul](spreadsheet-feed-delete.md)

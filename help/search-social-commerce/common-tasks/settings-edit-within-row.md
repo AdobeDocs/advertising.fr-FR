@@ -1,9 +1,9 @@
 ---
 title: Modifier les paramètres directement dans une ligne
 description: Découvrez comment modifier les données dans les vues de gestion dans la ligne.
-exl-id: 54625fc5-0e7d-4474-9789-61e04ffbb44f
+exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -16,15 +16,15 @@ ht-degree: 0%
 >
 >Tous les paramètres de compte publicitaire et de portefeuille ne peuvent pas être modifiés dans la ligne.
 
-1. Cliquez à l’intérieur de la cellule pour la rendre principale.
+1. Cliquez à l’intérieur de la cellule pour la rendre active.
 
 1. Modifiez la valeur :
 
    * (Options dans une liste) Sélectionnez une nouvelle option dans la liste.
 
-   * (Dates) Entrez une nouvelle date ou cliquez sur ![Calendrier](/help/search-social-commerce/assets/calendar.png "Calendrier") pour ouvrir le calendrier et [sélectionner une nouvelle date ;](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
+   * (Dates) Entrez une nouvelle date ou cliquez sur ![Calendrier](/help/search-social-commerce/assets/calendar.png "Calendrier") pour ouvrir le calendrier et [sélectionnez une nouvelle date](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
 
-   * (Valeurs de forme libre) Saisissez une nouvelle valeur, puis cliquez sur ![Enregistrer](/help/search-social-commerce/assets/select.png "Enregistrer") ou appuyez sur la touche **Entrée** clé.
+   * (Valeurs de forme libre) Saisissez une nouvelle valeur, puis cliquez sur ![Enregistrer](/help/search-social-commerce/assets/select.png "Enregistrer") ou appuyez sur la touche **Entrée**.
 
    >[!MORELIKETHIS]
    >

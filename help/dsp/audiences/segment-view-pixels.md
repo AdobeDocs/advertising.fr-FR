@@ -16,18 +16,18 @@ ht-degree: 0%
 
 1. Placez le curseur sur la ligne de segment et cliquez sur **[!UICONTROL Get Pixel]**.
 
-   * La balise de suivi des pages vues, qui effectue le suivi des visiteurs de bureau et mobiles sur une page web, est étiquetée &quot;[!UICONTROL Desktop or mobile websites].&quot; Pour les segments qui effectuent le suivi [!DNL ID5] ID, remplacer `ID5_PARTNER_ID` dans la balise copiée avec l’ID de partenaire qui [!DNL ID5] affecté à votre organisation lorsqu’elle a signé un accord avec [!DNL ID5]. Si vous ne connaissez pas votre identifiant de partenaire, contactez votre équipe de compte d’Adobe.
+   * La balise de suivi des pages vues, qui effectue le suivi des visiteurs de bureau et mobiles sur une page web, est étiquetée &quot;[!UICONTROL Desktop or mobile websites]&quot;. Pour les segments qui effectuent le suivi de [!DNL ID5] ID, remplacez `ID5_PARTNER_ID` dans la balise copiée par l’ID de partenaire affecté à votre organisation lors de la signature d’un accord avec [!DNL ID5]. [!DNL ID5] Si vous ne connaissez pas votre identifiant de partenaire, contactez votre équipe de compte d’Adobe.
 
      Ajoutez la balise aux pages dont vous souhaitez effectuer le suivi des vues.
 
-   * (Segments personnalisés uniquement) La balise de suivi d’impression, qui effectue le suivi des utilisateurs exposés à une unité publicitaire sur un ordinateur de bureau, un appareil mobile ou un appareil CTV, est étiquetée &quot;[!UICONTROL Desktop or mobile ads].&quot; Ajoutez la balise aux publicités dont vous souhaitez effectuer le suivi. Vous pouvez éventuellement ajouter la balise à un emplacement pour la joindre par défaut à toutes les publicités associées à l’emplacement.
+   * (Segments personnalisés uniquement) La balise de suivi d’impression, qui suit les utilisateurs exposés à une unité publicitaire sur un ordinateur de bureau, un appareil mobile ou un appareil CTV, est étiquetée &quot;[!UICONTROL Desktop or mobile ads]&quot;. Ajoutez la balise aux publicités dont vous souhaitez effectuer le suivi. Vous pouvez éventuellement ajouter la balise à un emplacement pour la joindre par défaut à toutes les publicités associées à l’emplacement.
 
 Une fois qu’une balise de suivi est implémentée, vous pouvez utiliser le segment dans les cibles ou exclusions d’audience pour n’importe quel emplacement.
 
 >[!MORELIKETHIS]
 >
->* [Gestion de l’audience](audience-about.md)
->* [Création d’un segment personnalisé](custom-segment-create.md)
+>* [À propos de la gestion de l’audience](audience-about.md)
+>* [Créer un segment personnalisé](custom-segment-create.md)
 >* [Modifier les informations sur le segment](segment-edit.md)
->* [Suppression d’un segment](segment-delete.md)
->* [Partage ou arrêt du partage d’un segment](segment-share.md)
+>* [Supprimer un segment](segment-delete.md)
+>* [Partager ou arrêter le partage d’un segment](segment-share.md)

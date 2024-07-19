@@ -1,9 +1,9 @@
 ---
 title: Verrouillage et déverrouillage d’une configuration de colonne
 description: Découvrez comment verrouiller et déverrouiller une configuration de colonne dans les vues de campagne.
-exl-id: e2a72a99-8122-451c-8818-30f817696256
+exl-id: a4a3c9b1-2577-4789-9501-0664d7b84ff3
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -16,6 +16,6 @@ Le verrouillage d’une colonne &quot;verrouille&quot; cette colonne et toutes l
 
 Un verrou ne fonctionne que lorsque vous quittez la vue d’entité. Vous ne pouvez pas l’enregistrer dans la vue par défaut ou personnalisée.
 
-* (Pour verrouiller la configuration d’une colonne) Sur le côté droit de l’en-tête de colonne, cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-dropdown.png "Flèche vers le bas"), puis sélectionnez **[!UICONTROL Lock Column]**.
+* (Pour verrouiller une configuration de colonne) Sur le côté droit de l’en-tête de colonne, cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-dropdown.png "Flèche vers le bas"), puis sélectionnez **[!UICONTROL Lock Column]**.
 
-* (Pour déverrouiller la configuration d’une colonne) Sur le côté droit d’un en-tête de colonne dans le jeu de colonnes verrouillé, cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-dropdown.png "Flèche vers le bas"), puis sélectionnez **[!UICONTROL Unlock Column]**.
+* (Pour déverrouiller une configuration de colonne) Sur le côté droit de l’en-tête de colonne dans l’ensemble de colonnes verrouillé, cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-dropdown.png "Flèche vers le bas"), puis sélectionnez **[!UICONTROL Unlock Column]**.

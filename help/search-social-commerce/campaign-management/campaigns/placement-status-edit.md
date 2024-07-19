@@ -1,9 +1,9 @@
 ---
 title: Modifier l’état des emplacements et des emplacements négatifs
 description: Découvrez comment modifier l’état des emplacements et des emplacements négatifs pour [!DNL Google Ads].
-exl-id: 7f025ba2-e71f-40bf-9057-f7d7abbea5da
+exl-id: 3c54a80e-6f4c-4936-97b1-67ac8de24830
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Modifier l’état de [!DNL Google Ads] emplacements et emplacements négatifs
 
-Vous pouvez suspendre un emplacement principal et pouvant faire l’objet d’une offre pour désactiver cette dernière. Vous pourrez reprendre l’enchère ultérieurement en redéfinissant l’état sur principal.
+Vous pouvez suspendre un emplacement pouvant faire l’objet d’une offre afin de désactiver l’offre sur ce dernier. Vous pouvez reprendre l’enchère ultérieurement en redéfinissant l’état sur actif.
 
-Vous pouvez également supprimer un emplacement principal ou en pause ou un emplacement négatif. Les emplacements/emplacements négatifs supprimés sont supprimés du réseau publicitaire. Ils sont toujours visibles, mais vous ne pouvez pas les changer.
+Vous pouvez également supprimer un emplacement actif ou en pause ou un emplacement négatif. Les emplacements/emplacements négatifs supprimés sont supprimés du réseau publicitaire. Ils sont toujours visibles, mais vous ne pouvez pas les changer.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \| [!UICONTROL Negatives]\]**.
 
@@ -22,7 +22,7 @@ Vous pouvez également supprimer un emplacement principal ou en pause ou un empl
 
 1. Cochez la case en regard de chaque emplacement admissible ou négatif dont vous souhaitez modifier l’état.
 
-   Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
 1. Dans la barre d’outils, cliquez sur le bouton d’état :
 
@@ -35,5 +35,5 @@ Vous pouvez également supprimer un emplacement principal ou en pause ou un empl
 >[!MORELIKETHIS]
 >
 >* [À propos des emplacements](placement-about.md)
->* [Gérer les emplacements pouvant faire l&#39;objet d&#39;un offre](placement-manage.md)
+>* [Gérer les emplacements pouvant faire l&#39;objet d&#39;offres](placement-manage.md)
 >* [Créer des emplacements négatifs](placement-negative-create.md)

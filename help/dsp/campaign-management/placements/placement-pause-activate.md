@@ -19,17 +19,17 @@ Suspendre un emplacement en direct ou activer un emplacement en pause lorsqu’i
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
-1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 ## Activation d’un emplacement suspendu
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
-1. En regard du nom de l’emplacement, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
 
 >[!MORELIKETHIS]
 >
->* [Archivage ou désarchivage d’un emplacement](placement-archive-unarchive.md)
->* [Modifier les emplacements](placement-edit.md)
->* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
+>* [Archiver ou ne plus archiver un emplacement](placement-archive-unarchive.md)
+>* [Modifier des emplacements](placement-edit.md)
+>* [Afficher le journal des modifications d’un emplacement](placement-change-log.md)

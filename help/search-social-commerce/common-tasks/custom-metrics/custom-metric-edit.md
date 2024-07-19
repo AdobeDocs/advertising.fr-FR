@@ -1,12 +1,12 @@
 ---
 title: Modification d’une mesure personnalisée
 description: Découvrez comment modifier des mesures personnalisées, qui sont calculées à partir de mesures standard.
-exl-id: 7b0c18d3-e4ed-49ad-aef7-d05b2a67ba2e
+exl-id: 89271cd6-0a9d-49b7-9fd3-8c9b77e55e5a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -28,35 +28,35 @@ Si vous modifiez une mesure personnalisée qui est incluse en colonne dans l’u
 
 1. Placez le curseur sur le nom de la colonne, puis cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier") en regard du nom de la colonne.
 
-1. Spécifiez la variable [paramètres de mesure personnalisés](custom-metric-settings.md).
+1. Spécifiez les [paramètres de mesure personnalisés](custom-metric-settings.md).
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
 ## Modifier une mesure personnalisée d’un formulaire de rapport ou de modèle de rapport
 
-1. Dans un formulaire de rapport ou de modèle de rapport, accédez au **[!UICONTROL Columns]** .
+1. Dans un formulaire de rapport ou de modèle de rapport, accédez à l’onglet **[!UICONTROL Columns]** .
 
-1. Cliquez sur le nom de la colonne dans la colonne de gauche ou de droite, puis cliquez sur **[!UICONTROL Edit]** dans la section droite.
+1. Cliquez sur le nom de la colonne dans la colonne de gauche ou de droite, puis cliquez sur **[!UICONTROL Edit]** dans la section de droite.
 
-1. Modifiez la variable [paramètres de mesure personnalisés](custom-metric-settings.md).
+1. Modifiez les [paramètres de mesure personnalisés](custom-metric-settings.md).
 
 1. Cliquez sur **[!UICONTROL Submit]**.
 
-## Modification d’une mesure personnalisée à partir du [!UICONTROL Portfolios] views
+## Modification d’une mesure personnalisée à partir des vues [!UICONTROL Portfolios]
 
 1. Au-dessus du tableau de données, cliquez sur ![Modifier la vue sélectionnée](/help/search-social-commerce/assets/view-settings.png "Modifier la vue sélectionnée").
 
-1. Cliquez sur le bouton **[!UICONTROL Columns]** .
+1. Cliquez sur l’onglet **[!UICONTROL Columns]** .
 
-1. Cliquez sur le nom de la colonne dans la variable [!UICONTROL Available Metrics] ou [!UICONTROL Table Columns] , puis cliquez sur **[!UICONTROL Edit]** dans la section droite.
+1. Cliquez sur le nom de la colonne dans la liste [!UICONTROL Available Metrics] ou [!UICONTROL Table Columns], puis cliquez sur **[!UICONTROL Edit]** dans la section de droite.
 
-1. Modifiez la variable [paramètres de mesure personnalisés](custom-metric-settings.md).
+1. Modifiez les [paramètres de mesure personnalisés](custom-metric-settings.md).
 
 1. Cliquez sur **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
 >
-* [À propos des mesures personnalisées](custom-metric-about.md)
-* [Création d’une mesure personnalisée](custom-metric-create.md)
-* [Suppression d’une mesure personnalisée](custom-metric-delete.md)
-* [Paramètres de mesure personnalisés](custom-metric-settings.md)
+>* [À propos des mesures personnalisées](custom-metric-about.md)
+>* [Créer une mesure personnalisée](custom-metric-create.md)
+>* [Supprimer une mesure personnalisée](custom-metric-delete.md)
+>* [Paramètres de mesure personnalisés](custom-metric-settings.md)

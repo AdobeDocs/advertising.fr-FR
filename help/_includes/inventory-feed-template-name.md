@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Modèle de publicité de texte - Nom du modèle
 
-**[!UICONTROL Template Name]:** Nom du modèle. Vous pouvez modifier le nom d’un modèle existant sans aucune conséquence. Le nom du modèle ne peut pas contenir les caractères suivants : `# % * | \ : " < >  . ? /` (`&` est autorisé)
+**[!UICONTROL Template Name]:** Nom du modèle. Vous pouvez modifier le nom d’un modèle existant sans aucune conséquence. Le nom du modèle ne peut pas contenir les caractères suivants : `# % * | \ : " < >  . ? /` (`&` autorisé)
 
 Pour créer un modèle avec les mêmes paramètres qu’un modèle existant, clonez-le et nommez-le. Les publicités créées à partir du nouveau modèle ne sont pas associées aux publicités créées à partir du modèle source.

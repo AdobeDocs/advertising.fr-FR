@@ -1,11 +1,11 @@
 ---
-title: '''[!DNL Baidu] paramètres du groupe publicitaire'
-description: Référencez les paramètres pour [!DNL Baidu] groupes publicitaires.
-exl-id: 940c5d62-8646-4686-ad34-1fbabe69e1b3
+title: '[!DNL Baidu] paramètres du groupe publicitaire'
+description: Référencez les paramètres pour les groupes publicitaires  [!DNL Baidu] .
+exl-id: 1d480339-a8c8-4874-ad8e-d8973660682c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Adgroup Details]
 
-**[!UICONTROL Ad Group Name]:** Nom unique du groupe d’annonces dans la campagne. La longueur maximale est de 15 caractères sur deux octets.
+**[!UICONTROL Ad Group Name]:** nom d’un groupe publicitaire unique dans la campagne. La longueur maximale est de 15 caractères sur deux octets.
 
-**[!UICONTROL Status]:** État d’affichage du groupe publicitaire : *Principal* ou *En pause*. La valeur par défaut pour les nouveaux groupes publicitaires est *Principal*.
+**[!UICONTROL Status]:** État d’affichage du groupe publicitaire : *Actif* ou *En pause*. La valeur par défaut des nouveaux groupes publicitaires est *Active*.
 
 ## [!UICONTROL Budget Options]
 
@@ -36,4 +36,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Gestion des groupes d’annonces](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [Gérer les groupes d’annonces](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)

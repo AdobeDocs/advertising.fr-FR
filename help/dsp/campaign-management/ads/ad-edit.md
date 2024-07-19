@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Pour modifier les pixels de suivi tiers pour plusieurs publicités à la fois, voir &quot;[Joindre des publicités à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot;
+>Pour modifier les pixels de suivi tiers pour plusieurs publicités à la fois, voir &quot;[Joindre des publicités à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
 
-1. En regard du nom de la publicité, cliquez sur  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. En regard du nom de la publicité, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. Modification des paramètres de publicité pour [annonces audio](ad-settings-audio.md), [télévision connectée](ad-settings-connected-tv.md), [publicités display](ad-settings-display.md), [annonces mobiles](ad-settings-mobile.md), [annonces natives](ad-settings-native.md), [publicités preroll](ad-settings-pre-roll.md), ou [publicités vidéo universelles](ad-settings-universal-video.md).
+1. Modifiez les paramètres de publicité pour les [publicités audio](ad-settings-audio.md), la [télévision connectée](ad-settings-connected-tv.md), les [publicités display](ad-settings-display.md), les [publicités mobiles](ad-settings-mobile.md), les [publicités natives](ad-settings-native.md), les [publicités preroll](ad-settings-pre-roll.md) ou les [publicités vidéo universelles](ad-settings-universal-video.md).
 
    >[!NOTE]
    >
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. Cliquez sur **[!UICONTROL Save and Close]**.
 
-   La publicité modifiée fait l’objet d’une nouvelle [révision publicitaire](ad-about.md), qui prend entre 24 et 48 heures et comprend des vérifications des catégories sensibles, la fonctionnalité de clic sur l’URL et le rendu d’aperçu. La variable [!UICONTROL Status] indique si DSP a approuvé la publicité. Les publicités rompues peuvent avoir un état en attente de plus de 24 à 48 heures, vous avez donc le temps de corriger les erreurs avant qu’elles ne soient rejetées.
+   La publicité modifiée passe par une nouvelle [révision de publicité](ad-about.md), qui prend entre 24 et 48 heures et comprend des vérifications pour les catégories sensibles, la fonctionnalité de clic sur l’URL et le rendu de l’aperçu. La colonne [!UICONTROL Status] indique si DSP a approuvé la publicité. Les publicités rompues peuvent avoir un état en attente de plus de 24 à 48 heures, vous avez donc le temps de corriger les erreurs avant qu’elles ne soient rejetées.
 
    >[!NOTE]
    >
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [A propos de la gestion des publicités](ad-about.md)
->* [Création d’une publicité unique](ad-create.md)
+>* [À propos de la gestion des publicités](ad-about.md)
+>* [Créer une publicité unique](ad-create.md)
 >* [Créer plusieurs publicités tierces](ad-create-multiple.md)
->* [Duplication d’une publicité](ad-duplicate.md)
+>* [Dupliquer une publicité](ad-duplicate.md)
 >* [Liste des emplacements associés à une publicité](ad-list-placements.md)
->* [Spécifications des publicités](ad-specs.md)
+>* [Spécifications de la publicité](ad-specs.md)

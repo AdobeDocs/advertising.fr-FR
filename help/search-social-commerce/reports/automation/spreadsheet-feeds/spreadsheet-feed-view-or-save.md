@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Pour les rapports de base et les rapports de précision des modèles uniquement*
 
-Vous pouvez afficher n’importe quel flux de feuille de calcul généré ou l’enregistrer dans un fichier. Les fichiers de flux de feuille de calcul se trouvent dans[!DNL Microsoft Excel] Format XLSX.
+Vous pouvez afficher n’importe quel flux de feuille de calcul généré ou l’enregistrer dans un fichier. Les fichiers de flux de feuille de calcul sont au format XLSX [!DNL Microsoft Excel].
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
@@ -22,10 +22,10 @@ Vous pouvez afficher n’importe quel flux de feuille de calcul généré ou l�
 
 >[!MORELIKETHIS]
 >
->* [A propos des flux de rapports de feuille de calcul](spreadsheet-feed-about.md)
->* [Création d’un flux de rapport de feuille de calcul](spreadsheet-feed-create.md)
->* [Créez un [!DNL Excel] modèle pour un flux de rapport de feuille de calcul](spreadsheet-feed-create-excel-template.md)
+>* [À propos des flux de rapports de feuille de calcul](spreadsheet-feed-about.md)
+>* [Créer un flux de rapport de feuille de calcul](spreadsheet-feed-create.md)
+>* [ Créez un  [!DNL Excel] modèle pour un flux de rapport de feuille de calcul](spreadsheet-feed-create-excel-template.md)
 >* [Modifier les paramètres du flux de rapports de feuille de calcul](spreadsheet-feed-edit.md)
 >* [Paramètres du flux de rapports de feuille de calcul](spreadsheet-feed-settings.md)
 >* [Actualisation manuelle des flux de rapports de feuille de calcul](spreadsheet-feed-refresh.md)
->* [Suppression de flux de rapports de feuille de calcul](spreadsheet-feed-delete.md)
+>* [Supprimer des flux de rapports de feuille de calcul](spreadsheet-feed-delete.md)

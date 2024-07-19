@@ -5,7 +5,7 @@ feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
 source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Dupliquez une campagne pour créer une campagne avec des paramètres similaires. Vous pouvez :
 
-* Dupliquez la campagne pour l’annonceur d’origine ou pour une autre campagne.
+* Dupliquez la campagne pour l’annonceur d’origine ou pour une autre campagne
 * Vous pouvez éventuellement dupliquer les packages et emplacements d’origine
 * Modifier les dates de vol de la nouvelle opération
 
-Voir &quot;[Ce qui n’est pas dupliqué](#campaign-not-duplicated)&quot; pour une liste de paramètres d’emplacement qui ne sont pas dupliqués.
+Pour obtenir la liste des paramètres d’emplacement qui ne sont pas dupliqués, voir &quot;[What&#39;s Not Duplicated](#campaign-not-duplicated)&quot;.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -36,25 +36,24 @@ Voir &quot;[Ce qui n’est pas dupliqué](#campaign-not-duplicated)&quot; pour u
 
 1. Cliquez sur **[!UICONTROL Submit]**.
 
-## Ce qui n’est pas dupliqué {#campaign-not-duplicated}
+## Éléments non dupliqués {#campaign-not-duplicated}
 
 Tous les paramètres des emplacements d’origine sont dupliqués sauf :
 
 * Paramètres d’expérience
 * (Si vous modifiez les dates de vol) Planification publicitaire personnalisée
 * (Si vous ne joignez pas de publicités) Pondération et planification des publicités personnalisées
-* Emplacements par défaut pour les offres (PG) garanties par programmation et emplacements pour [!UICONTROL Simple Ad Serving] transactions
+* Emplacements par défaut pour les offres et emplacements garantis par programmation pour les [!UICONTROL Simple Ad Serving] offres
 * (Si vous copiez des emplacements dans une autre campagne) :
    * Cibles géographiques
    * Pixels d’événement
    * Publicités
-   * Niveau de placement [!DNL DoubleVerify Authentic Brand Safety] segments (qui remplacent les segments au niveau de l’annonceur)
+   * Segments de niveau emplacement [!DNL DoubleVerify Authentic Brand Safety] (qui remplacent les segments au niveau de l’annonceur)
 
 >[!MORELIKETHIS]
 >
 >* [À propos de Campaign Management](campaign-about.md)
->* [Création d’une campagne](campaign-create.md)
+>* [Créer une campagne](campaign-create.md)
 >* [Modifier une campagne](campaign-edit.md)
->* [Affichage du journal des modifications d’une campagne](campaign-change-log.md)
+>* [Afficher le journal des modifications d’une campagne](campaign-change-log.md)
 >* [Paramètres de campagne](campaign-settings.md)
-

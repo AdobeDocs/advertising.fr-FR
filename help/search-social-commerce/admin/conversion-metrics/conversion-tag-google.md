@@ -1,17 +1,18 @@
 ---
 title: Création d’une balise de conversion pour [!DNL Google Ads]
-description: Découvrez comment créer une [!DNL Google Ads] balise de conversion.
+description: Découvrez comment créer une balise de conversion  [!DNL Google Ads] .
 feature: Conversions
-source-git-commit: 395421c69214c3b0370523909047a924af23ea55
+exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
 
-# Création d’une balise de conversion pour [!DNL Google Ads]
+# Créer une balise de conversion pour [!DNL Google Ads]
 
-Vous pouvez créer des balises de conversion pour le suivi des nouvelles conversions pour chaque [!DNL Google Ads] n’est pas suivi au niveau du compte de gestionnaire.
+Vous pouvez créer des balises de conversion pour que les nouvelles conversions soient suivies pour des comptes [!DNL Google Ads] individuels et non pas suivies au niveau du compte de gestionnaire.
 
 Pour générer des balises de conversion pour les conversions existantes, utilisez l’éditeur du réseau publicitaire.
 
@@ -19,7 +20,7 @@ Pour générer des balises de conversion pour les conversions existantes, utilis
 
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Créer](/help/search-social-commerce/assets/add.png "Créer").
 
-1. Spécifiez la variable [paramètres de balise de conversion](#conversion-tag-settings-google).
+1. Spécifiez les [paramètres de balise de conversion](#conversion-tag-settings-google).
 
    1. Sélectionnez le compte, puis le type de conversion.
 
@@ -31,39 +32,39 @@ Pour générer des balises de conversion pour les conversions existantes, utilis
 
 1. Copiez la balise de conversion et implémentez-la sur les sites web à partir desquels vous souhaitez effectuer le suivi de la mesure de conversion.
 
-   Voir &quot;Installation du [!DNL Google] &quot; dans la balise [!DNL Google Ads] help to &quot;[2. Configuration de votre balise Google](https://support.google.com/google-ads/answer/12215519).&quot;
+   Voir &quot;Installation de la balise [!DNL Google]&quot; dans l’aide [!DNL Google Ads] à &quot;[2&quot;. Configurez votre balise Google](https://support.google.com/google-ads/answer/12215519).&quot;
 
 1. Cliquez sur **[!UICONTROL Done].**
 
-Une fois que vous avez ajouté les balises à votre site web et qu’elles commencent à se déclencher, [!DNL Google Ads] enregistre les conversions sur le site web. Search, Social et Commerce synchronise les conversions quotidiennement. Pour plus d’informations sur les données synchronisées, voir &quot;[[!DNL Google Ads] données de conversion dans Search, Social et Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).
+Une fois que vous avez ajouté les balises à votre site web et qu’elles commencent à se déclencher, [!DNL Google Ads] enregistre des conversions sur le site web. La recherche, Social et Commerce synchronisent quotidiennement les conversions. Pour plus d’informations sur les données synchronisées, voir &quot;[[!DNL Google Ads] données de conversion dans Search, Social et Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).
 
 ## Paramètres des balises de conversion {#conversion-tag-settings-google}
 
 **[!UICONTROL Select an Account]:** Compte Google Ads applicable.
 
-**[!UICONTROL Type of Conversion]:** Le type de conversion à suivre : *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]*, ou *[!UICONTROL Clicks to your number on your mobile website]*.
+**[!UICONTROL Type of Conversion]:** Type de conversion à suivre : *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* ou *[!UICONTROL Clicks to your number on your mobile website]*.
 
-**[!UICONTROL Conversion Name]:** Nom unique de la mesure de conversion.
+**[!UICONTROL Conversion Name]:** nom unique de la mesure de conversion.
 
-**\[Catégorie de conversion\] :** La catégorie de conversion. Les catégories disponibles varient en fonction du type de conversion. Pour *[!UICONTROL Calls to a phone number on your website]* et *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]&quot; est sélectionné par défaut.
+**\[Catégorie de conversion\]:** Catégorie de conversion. Les catégories disponibles varient en fonction du type de conversion. Pour *[!UICONTROL Calls to a phone number on your website]* et *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]&quot; est sélectionné par défaut.
 
-**\[Type d’action\] :** Si l’objectif est un *[!UICONTROL Primary action used for bidding optimization]* ou *[!UICONTROL Secondary action not used for bidding optimization]*.
+**\[Type d’action\]:** Indique si l’objectif est un *[!UICONTROL Primary action used for bidding optimization]* ou un *[!UICONTROL Secondary action not used for bidding optimization]*.
 
-**[!UICONTROL Value]:** Comment mesurer la variable [valeur de chaque conversion](https://support.google.com/google-ads/answer/3419241):
+**[!UICONTROL Value]:** Comment mesurer la [valeur de chaque conversion](https://support.google.com/google-ads/answer/3419241) :
 
-* *[!UICONTROL Use the same value for each conversion],* vous devez alors sélectionner une devise et saisir la valeur de chaque conversion.
+* *[!UICONTROL Use the same value for each conversion],* qui nécessite de sélectionner une devise et de saisir la valeur de chaque conversion.
 
-* *[!UICONTROL Use a different value for each conversion],* vous devez alors sélectionner une devise et saisir une valeur par défaut pour chaque conversion. Vous pouvez modifier la valeur par défaut de la balise avec une valeur spécifique à la transaction lorsque vous implémentez la balise sur une page web spécifique.
+* *[!UICONTROL Use a different value for each conversion],* qui nécessite de sélectionner une devise et de saisir une valeur par défaut pour chaque conversion. Vous pouvez modifier la valeur par défaut de la balise avec une valeur spécifique à la transaction lorsque vous implémentez la balise sur une page web spécifique.
 
 * *[!UICONTROL Don't use a value for this conversion action (Not recommended)]*
 
-**[!UICONTROL Count]:** [Nombre de conversions à comptabiliser par clic ou interaction](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]* ou *[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*.
+**[!UICONTROL Count]:** [Combien de conversions à comptabiliser par clic ou interaction](https://support.google.com/google-ads/answer/3438531) : *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]* ou *[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*.
 
-**[!UICONTROL Click Through Conversion Window]:** Nombre maximal de jours après une interaction publicitaire pour laquelle des conversions sont enregistrées. Pour les campagnes de recherche, d’affichage et d’achat, la fenêtre peut être comprise entre 1 et 90 jours. Sélectionnez un nombre ou sélectionnez **[!UICONTROL Custom]** et saisissez un nombre.
+**[!UICONTROL Click Through Conversion Window]:** nombre maximal de jours après une interaction publicitaire pour laquelle des conversions sont enregistrées. Pour les campagnes de recherche, d’affichage et d’achat, la fenêtre peut être comprise entre 1 et 90 jours. Sélectionnez un nombre ou **[!UICONTROL Custom]** et saisissez un nombre.
 
-**[!UICONTROL View Through Conversion Window]:** Nombre maximal de jours après l’affichage par un utilisateur de vos publicités pour lesquelles des conversions d’affichage publicitaire sont enregistrées. Pour les campagnes de recherche, d’affichage et d’achat, la fenêtre peut être comprise entre 1 et 90 jours. Sélectionnez un nombre ou sélectionnez **[!UICONTROL Custom]** et saisissez un nombre.
+**[!UICONTROL View Through Conversion Window]:** nombre maximal de jours après qu’un utilisateur a affiché vos publicités pour lesquelles des conversions d’affichages publicitaires sont enregistrées. Pour les campagnes de recherche, d’affichage et d’achat, la fenêtre peut être comprise entre 1 et 90 jours. Sélectionnez un nombre ou **[!UICONTROL Custom]** et saisissez un nombre.
 
-**[!UICONTROL Attribution Model]:** [Quelle quantité de crédit obtient chaque interaction publicitaire ?](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138): *[!UICONTROL Data driven]*, *[!UICONTROL Last click]*, *[!UICONTROL First click]*, *[!UICONTROL Linear]*, *[!UICONTROL Time decay]*, ou *[!UICONTROL Position based]*.
+**[!UICONTROL Attribution Model]:** [Combien de crédit chaque interaction publicitaire obtient ](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138) : *[!UICONTROL Data driven]*, *[!UICONTROL Last click]*, *[!UICONTROL First click]*, *[!UICONTROL Linear]*, *[!UICONTROL Time decay]* ou *[!UICONTROL Position based]*.
 
 >[!MORELIKETHIS]
 >

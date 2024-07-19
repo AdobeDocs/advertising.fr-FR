@@ -20,17 +20,17 @@ Si nécessaire, vous pouvez annuler l’invitation d’un utilisateur avec une i
 
    * Dans le menu principal, cliquez sur **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * Dans le menu principal, cliquez sur **[!UICONTROL Settings]** > **[!UICONTROL Account]**, puis cliquez sur **[!UICONTROL Edit users]**.
+   * Dans le menu principal, cliquez sur **[!UICONTROL Settings]** > **[!UICONTROL Account]**, puis sur **[!UICONTROL Edit users]**.
 
-1. Dans le **[!UICONTROL Invitations]** , cliquez sur **[!UICONTROL Send Invite]**.
+1. Dans la section **[!UICONTROL Invitations]**, cliquez sur **[!UICONTROL Send Invite]**.
 
-1. Dans le **[!UICONTROL User Email]** , saisissez l&#39;adresse email à laquelle envoyer l&#39;invitation.
+1. Dans le champ **[!UICONTROL User Email]** , saisissez l’adresse électronique à laquelle envoyer l’invitation.
 
 1. Cliquez sur **[!UICONTROL Send Invite]**.
 
 >[!MORELIKETHIS]
 >
->* [Réenvoyer une invitation d’utilisateur en attente](user-resend-invite.md)
->* [Annulation de l’invitation d’un utilisateur en attente](user-uninvite.md)
+>* [Renvoyer une invitation d’utilisateur en attente](user-resend-invite.md)
+>* [Annuler l’invitation d’un utilisateur en attente](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->
