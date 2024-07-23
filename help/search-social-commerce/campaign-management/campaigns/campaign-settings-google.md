@@ -3,9 +3,9 @@ title: Paramètres de campagne '[!DNL Google Ads]'
 description: Référencez les paramètres des campagnes  [!DNL Google Ads] .
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 977314f07d1299d9b94680861b046161bb444228
+source-git-commit: 760d46182a61588748cfd5031168266ba53c9dcc
 workflow-type: tm+mt
-source-wordcount: '2450'
+source-wordcount: '2425'
 ht-degree: 0%
 
 ---
@@ -82,23 +82,19 @@ Lorsque vous ajoutez une campagne avec eCPC à un portefeuille de recherche, de 
 
 * *[!UICONTROL Maximize Clicks]:* (Campagnes de recherche, d’affichage et d’achat) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres pour maximiser les clics. Vous pouvez éventuellement saisir un **[!UICONTROL Max CPC]** (coût par clic) pour vous assurer que le réseau publicitaire ne paie pas plus qu’un montant spécifique pour chaque clic. **Attention :** Lorsque vous ajoutez une campagne avec cette stratégie à un portefeuille, les offres sont pilotées par le poids des clics et non par l’objectif du portefeuille.
 
-* *[!UICONTROL Maximize Conversion Value]:* (campagnes de recherche, de performance maximale et d’achats intelligents) Le réseau publicitaire, et non Search, Social et Commerce, optimise les offres pour maximiser la valeur de conversion. Vous pouvez éventuellement saisir un **[!UICONTROL Target Return on Ad Spend]** (RSDP) en pourcentage. **Remarque :** Utilisez cette option pour les campagnes dans des portefeuilles hybrides, mais pas dans des portefeuilles standard.
+* *[!UICONTROL Maximize Conversion Value]:* (campagnes de recherche, de performance maximale et d’achats intelligents) Le réseau publicitaire, et non Search, Social et Commerce, optimise les offres pour maximiser la valeur de conversion. Vous pouvez éventuellement saisir un **[!UICONTROL Target Return on Ad Spend]** (RSDP) en pourcentage. **Remarque :** Utilisez cette option pour les campagnes dans des portefeuilles hybrides, mais pas dans des portefeuilles standard. Dans les portfolios hybrides, Search, Social et Commerce optimise le retour sur investissement cible au niveau de la campagne ou (lorsqu’il est disponible) au niveau du groupe publicitaire.
 
-* *[!UICONTROL Maximize Conversions]:* (Campagnes max de recherche, d’affichage et de performances) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres pour maximiser les conversions. Vous pouvez éventuellement saisir un **[!UICONTROL Target CPA]** (coût par acquisition). **Remarque :** Utilisez cette option pour les campagnes dans des portefeuilles hybrides, mais pas dans des portefeuilles standard.
+* *[!UICONTROL Maximize Conversions]:* (Campagnes max de recherche, d’affichage et de performances) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres pour maximiser les conversions. Vous pouvez éventuellement saisir un **[!UICONTROL Target CPA]** (coût par acquisition). **Remarque :** Utilisez cette option pour les campagnes dans des portefeuilles hybrides, mais pas dans des portefeuilles standard. Dans les portfolios hybrides, Search, Social et Commerce optimise le CPA Target au niveau de la campagne ou (lorsqu’il est disponible) au niveau du groupe publicitaire.
 
-* *[!UICONTROL Target CPA]:* (Campagnes d’affichage ; campagnes de recherche existantes) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres en fonction d’un **[!UICONTROL Target CPA]** facultatif (coût par acquisition), qui est le montant moyen de 30 jours que vous souhaitez payer pour une acquisition (conversion). **Remarque :** Utilisez cette option pour les campagnes dans des portefeuilles hybrides (mais pas dans des portefeuilles standard) avec une stratégie de dépenses quelconque à l’exception de [!UICONTROL Weekly] ou [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]:* (Campagnes d’affichage) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres en fonction d’un **[!UICONTROL Target CPA]** facultatif (coût par acquisition), qui est le montant moyen de 30 jours que vous souhaitez payer pour une acquisition (conversion). **Remarque :** Utilisez cette option pour les campagnes dans des portefeuilles hybrides (mais pas dans des portefeuilles standard) avec une stratégie de dépenses quelconque à l’exception de [!UICONTROL Weekly] ou [!UICONTROL Google Target CPA]. Dans les portfolios hybrides, Search, Social et Commerce optimise le CPA Target au niveau de la campagne ou (lorsqu’il est disponible) au niveau du groupe publicitaire.
 
   La position moyenne et les données sur l&#39;offre du CPC ne sont pas disponibles pour les campagnes avec cette stratégie d&#39;offre.
-
-  Pour les nouvelles campagnes de recherche, [!DNL Google Ads] a remplacé cette stratégie d’offre par la stratégie [!UICONTROL Maximize Conversions] à l’aide d’une valeur [!UICONTROL Target CPA]. Pour les campagnes de recherche existantes avec cette stratégie, vous pouvez uniquement modifier la valeur cible, ce qui modifie la stratégie en [!UICONTROL Maximize Conversions] à l’aide de la valeur [!UICONTROL Target CPA] spécifiée.
 
 * *[!UICONTROL Target Impression Share]:* (Campagnes de recherche) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres pour obtenir un partage d’impression cible et une position publicitaire. Vous pouvez éventuellement saisir un **[!UICONTROL Target Impression Share]** en pourcentage, le **[!UICONTROL Target Ad Position]** et un **[!UICONTROL Max CPC]** (coût par clic). **Remarque :** Cette option n’est pas prise en charge dans les portefeuilles.
 
-* *[!UICONTROL Target Return on Ad Spend]:* (campagnes d’affichage et d’achat ; campagnes de recherche existantes) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres en fonction d’un **[!UICONTROL Target ROAS]** spécifié (retour sur dépenses publicitaires), spécifié en pourcentage. **Remarque :** Utilisez cette option pour les campagnes dans des portefeuilles hybrides (mais pas dans des portefeuilles standard) avec une stratégie de dépenses quelconque à l’exception de [!UICONTROL Weekly] ou [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:* (Campagnes d’affichage et d’achat) Le réseau publicitaire — et non Search, Social et Commerce — optimise les offres en fonction d’un **[!UICONTROL Target ROAS]** spécifié (retour sur dépenses publicitaires), spécifié en pourcentage. **Remarque :** Utilisez cette option pour les campagnes dans des portefeuilles hybrides (mais pas dans des portefeuilles standard) avec une stratégie de dépenses quelconque à l’exception de [!UICONTROL Weekly] ou [!UICONTROL Google Target ROAS]. Dans les portfolios hybrides, Search, Social et Commerce optimise le retour sur investissement cible au niveau de la campagne ou (lorsqu’il est disponible) au niveau du groupe publicitaire.
 
   La position moyenne et les données sur l&#39;offre du CPC ne sont pas disponibles pour les campagnes avec cette stratégie d&#39;offre.
-
-  Pour les nouvelles campagnes de recherche, [!DNL Google Ads] a remplacé cette stratégie d’offre par la stratégie [!UICONTROL Maximize Conversion Value] à l’aide d’un [!UICONTROL Target Return on Ad Spend value]. Pour les campagnes de recherche existantes avec cette stratégie, vous pouvez uniquement modifier la valeur cible, ce qui modifie la stratégie en [!UICONTROL Maximize Conversion Value] à l’aide de la valeur [!UICONTROL Target Return on Ad Spend] spécifiée.
 
 * *[!UICONTROL Viewable CPM]:* (campagnes existantes, en lecture seule [!DNL Gmail] uniquement) Le réseau publicitaire — et non Search, Social et Commerce — offre uniquement sur les publicités qui sont mesurées comme visibles. **Remarque :** L’optimisation de cette stratégie n’est prise en charge dans aucun type de portefeuille.
 
