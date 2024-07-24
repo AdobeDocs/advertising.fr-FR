@@ -3,9 +3,9 @@ title: Paramètres du module
 description: Reportez-vous à la description des paramètres de package disponibles.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: ab3118901b7cd88776f7c0ce8038b928118a7555
+source-git-commit: 5ca730f519ab8273cd6aaf910b5b09487ed4d77e
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -115,9 +115,13 @@ Pour les modules avec un vol personnalisé, l’intervalle de budget est toujour
 
 (Packages avec fréquence au niveau du package) Les périodes de vol du package, y compris toutes les périodes de vol personnalisées dans l’ensemble [!UICONTROL Flight Dates] du package. Vous ne pouvez configurer des vols personnalisés que lorsque l’option [!UICONTROL Activate Custom Flighting] est activée dans la section [!UICONTROL Goals & Budget].
 
+**[!UICONTROL Automatically rollover remaining flight budget to next flight]:** (Disponible uniquement lorsque l’option [!UICONTROL Activate Custom Flighting] est activée) Ajoute automatiquement le budget restant du vol précédent au budget existant pour le prochain vol.
+
+Dans la vue [!UICONTROL Packages] et la vue [!DNL Package Name] > [!UICONTROL Flights], le champ [!UICONTROL Interval Goal], qui affiche l’objectif de vol actuel, inclut tout budget de roulement.
+
 **[!DNL Flight N]:** (Disponible uniquement lorsque l’option [!UICONTROL Activate Custom Flighting] est activée) Pour chaque vol, spécifiez la date de début, la date de fin et l’objectif de dépense cible. Pour ajouter un autre vol, cliquez sur **[!UICONTROL Add Flight]**.
 
-Pour les packages existants, vous pouvez éventuellement saisir une valeur dans la colonne [!UICONTROL Rollover] pour n’importe quel vol afin d’ajouter un budget non dépensé potentiel au prochain vol. La valeur projetée dans la colonne [!UICONTROL Adjusted Goal (Goal + Rollover)] est modifiée en conséquence.<!-- clarify usage -->
+Pour les packages existants sans l’option &quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot; activée, vous pouvez éventuellement rouvrir les paramètres pour saisir une valeur dans la colonne **[!UICONTROL Rollover]** pour tout vol afin d’ajouter le budget non dépensé potentiel au prochain vol.
 
 >[!MORELIKETHIS]
 >
