@@ -3,9 +3,9 @@ title: Paramètres des plans de portée TV connectés
 description: Consultez la description des paramètres des plans de portée de la télévision connectée.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 37b901093d7eff65d783e558f2e98c5d288a8286
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,9 @@ ht-degree: 0%
 | Valeur de la cible | Valeur d’objectif de la prévision. Pour des résultats de prévision plus précis, utilisez une valeur supérieure à 5 000 USD. | Oui |
 | Enchère max | Montant maximum à payer pour 1 000 impressions. Si le type de média [!UICONTROL Connected TV] est sélectionné, saisissez une valeur d’au moins 10 USD. | Oui |
 | Limite de fréquence | Nombre de fois où un foyer unique doit être servi avec des publicités.<br><br>Lorsque vous implémentez un plan et que vous devez créer plusieurs emplacements, appliquez le paramètre de limite de fréquence au niveau du package, et non au niveau de l’emplacement, pour assurer une diffusion correcte. | Oui |
-| Géociblage | Emplacements à inclure ou à exclure en tant que cibles. | Oui |
+| Géociblage | Emplacements à inclure ou à exclure en tant que cibles. Les options incluent les pays, les villes, les états, les zones de marché désignées (DMA) et les codes postaux (que vous pouvez soit a) coller en tant que valeurs séparées par des virgules pour un pays spécifié, soit b) rechercher par pays et par ville). | Oui |
 | Ciblage du stock | Sources d’inventaire à inclure ou à exclure en tant que cibles. Sélectionnez au moins un flux ou une source. | Oui |
+| Ciblage de site/d’application | Sites web et applications à inclure ou à exclure comme cibles. Saisissez une URL par ligne, puis cliquez sur **[!UICONTROL Include All]** ou **[!UICONTROL Exclude All]** sous le champ de saisie. | Non |
 | Ciblage d’audience | Audiences à inclure ou à exclure en tant que cibles. | Non |
 | Durée de la publicité | Durée des publicités à prendre en compte pour le plan. | Non |
 
