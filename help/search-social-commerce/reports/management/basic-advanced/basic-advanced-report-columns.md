@@ -3,9 +3,9 @@ title: Colonnes de rapports pour les rapports de base et avancés
 description: Découvrez les colonnes de données disponibles pour les rapports de base et avancés.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '3747'
+source-wordcount: '3741'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Active Campaigns] | Nombre de campagnes actives. |
 | [!UICONTROL Active Keywords] | Nombre de mots-clés actifs. |
 | [!UICONTROL Ad Group] | Groupe publicitaire. |
-| [!UICONTROL Ad Group ID] | Identifiant numérique attribué par Search, Social et Commerce au groupe publicitaire. |
+| [!UICONTROL Ad Group ID] | Identifiant unique qui identifie un groupe publicitaire existant. |
 | [!UICONTROL Ad Group Status] | État du groupe publicitaire : <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> ou <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Ad Group Type] | Type de groupe d’annonces, tel que <i>[!UICONTROL Audience]</i> (pour les campagnes d’audience uniquement), <i>[!UICONTROL Discovery]</i> (pour les campagnes de découverte uniquement), <i>[!UICONTROL Display]</i> (pour les campagnes d’affichage uniquement), <i>[!UICONTROL Search Dynamic]</i> (pour les publicités de recherche dynamique uniquement), <i>[!UICONTROL Search Standard]</i> (pour les publicités de recherche réactive et les publicités textuelles étendues existantes uniquement), <i>[!UICONTROL Shopping Showcase]</i>, <i>[!UICONTROL Shopping Product]</i> (pour les campagnes commerciales standard uniquement) ou <i>[!UICONTROL Shopping Smart]</i> (pour les campagnes d’achats dynamiques). Pour certains types de campagne, une seule campagne peut inclure plusieurs types d’annonces. |
 | [!UICONTROL Ad Groups] | Nombre de groupes d’annonces auxquels la valeur d’étiquette est affectée. |
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Interactions] | (Publicités vidéo) Nombre de fois où des personnes ont regardé votre publicité. |
 | [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <i>true</i> lorsque le portefeuille contient des campagnes avec la stratégie d’offre [!UICONTROL Maximize Clicks] et <i>false</i> dans le cas contraire. |
 | [!UICONTROL Keyword] | Mot-clé.<br><br><b>Remarque :</b> Si le rapport inclut des données provenant de groupes publicitaires dans des campagnes de recherche activées pour le contenu, cette colonne inclut les noms de groupes d’annonces applicables tels que &quot;(contenu du groupe) Nom de votre groupe d’annonces&quot;. Pour un emplacement ciblé par un site dans une campagne de recherche, cette colonne ne comporte pas de valeur. |
-| [!UICONTROL Keyword ID] | Identifiant numérique attribué au mot-clé par Search, Social et Commerce. |
+| [!UICONTROL Keyword ID] | Identifiant unique qui identifie un mot-clé existant. |
 | [!UICONTROL Keyword Status] | État du mot-clé auquel le terme de recherche a été associé : <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Deleted]</i> ou <i>[!UICONTROL Disapproved]</i>. |
 | [!UICONTROL Label Classification] | ([!UICONTROL Label Classification Report] et [!UICONTROL Label Value Report]) La classification des étiquettes. |
 | [!UICONTROL Label Value] | ([!UICONTROL Label Classification Report] et [!UICONTROL Label Value Report]) Une valeur pour la classification des étiquettes. |

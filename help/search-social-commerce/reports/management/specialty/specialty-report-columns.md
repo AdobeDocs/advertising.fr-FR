@@ -3,9 +3,9 @@ title: Colonnes de rapports pour les rapports spécialisés
 description: Découvrez les colonnes de données disponibles pour les rapports spécialisés.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Extension Number] | ([!UICONTROL MSA Ad Extension] rapports) Attribut de version pour l’extension de publicité. |
 | [!UICONTROL Ad Extension Type] | ([!UICONTROL MSA Ad Extension] rapports) Type d’extension de publicité. |
 | [!UICONTROL Ad Group] | Groupe publicitaire. |
-| [!UICONTROL Ad Group ID] | Identifiant numérique attribué par Search, Social et Commerce au groupe publicitaire. |
+| [!UICONTROL Ad Group ID] | Identifiant unique qui identifie un groupe publicitaire existant. |
 | [!UICONTROL Ad Group Name] | Groupe publicitaire. |
 | [!UICONTROL Ad Group Status] | État du groupe publicitaire : *[!UICONTROL Active]*, *[!UICONTROL Paused]* ou *[!UICONTROL Deleted]*. |
 | [!UICONTROL Ad Title] | ([!UICONTROL MSA Ad Extension] rapports) Titre de la publicité. |
@@ -106,7 +106,7 @@ ht-degree: 0%
 | [!UICONTROL Impression Share Percent] | Le nombre d’impressions que vous avez reçues est divisé par l’estimation du nombre d’impressions que vous pouviez recevoir. |
 | [!UICONTROL Impressions] | Nombre d’impressions publicitaires au cours de la période spécifiée. |
 | [!UICONTROL Keyword] | Mot-clé.<br><br><b>Remarque :</b> Si le rapport inclut des données provenant de groupes publicitaires dans des campagnes de recherche activées pour le contenu, cette colonne inclut les noms de groupes d’annonces applicables tels que &quot;(contenu du groupe) Nom de votre groupe d’annonces&quot;. Pour un emplacement ciblé par un site dans une campagne de recherche, cette colonne ne comporte pas de valeur. |
-| [!UICONTROL Keyword ID] | Identifiant numérique attribué au mot-clé par Search, Social et Commerce. |
+| [!UICONTROL Keyword ID] | Identifiant unique qui identifie un mot-clé existant. |
 | [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Identifiant numérique attribué par le réseau publicitaire à l’extension publicitaire. |
 | [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Attribut de version pour l’extension de publicité. |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Type d’extension de publicité. |
