@@ -3,7 +3,7 @@ title: Colonnes de rapports pour les rapports spécialisés
 description: Découvrez les colonnes de données disponibles pour les rapports spécialisés.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 13b1ca84571c33e4369b67ace24f39a23ad5fe24
+source-git-commit: c681e3da172244cf08114f1ae7e9ecdfb1a5dd25
 workflow-type: tm+mt
 source-wordcount: '2639'
 ht-degree: 0%
