@@ -3,7 +3,7 @@ title: Paramètres des plans de portée TV connectés
 description: Consultez la description des paramètres des plans de portée de la télévision connectée.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 84cf49c9e366938479e9fea2ede55925f1cb3e51
+source-git-commit: 5d8d981f08eaea2b0a0bc553ab06bd47f1e88ac9
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # Paramètres des plans de portée TV connectés
+
+<!-- Move out of table for consistency at some point. -->
 
 | Paramètre | Description | Obligatoire ? |
 | --- | --- | --- |

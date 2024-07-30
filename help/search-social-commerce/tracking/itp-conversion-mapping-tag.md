@@ -3,7 +3,7 @@ title: Balise de mappage de conversion d’Adobe Advertising
 description: Découvrez la balise de mappage de conversion JavaScript pour ITP 2.2, qui permet à l’Adobe Advertising de suivre un événement de conversion qui se produit sur une page qui n’est pas la page d’entrée.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Pour utiliser la balise de mappage de conversion :
 
       * vous remplacez `{AMO User ID}` par l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
 
-Si vous ne connaissez pas la valeur de votre ID d’organisation ou de votre ID d’utilisateur Search, Social et Commerce, demandez à votre gestionnaire de compte d’Adobe.
+Si vous ne connaissez pas la valeur de votre ID d’organisation ou de votre ID d’utilisateur Search, Social et Commerce, demandez à votre équipe de compte d’Adobe.
 
 ### Exemples
 

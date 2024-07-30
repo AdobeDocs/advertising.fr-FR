@@ -3,7 +3,7 @@ title: Gestion des comptes de réseau publicitaire
 description: Découvrez comment configurer et gérer les détails du compte pour un compte réseau publicitaire.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 68efad8ad3bc2985ac75a0f9437a2eafb194e4b6
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -12,7 +12,13 @@ ht-degree: 0%
 
 # Gestion des comptes de réseau publicitaire
 
+<!-- Probably need to change the page title. If I update the filename, get B. to create a redirect to the new URL. -->
+
 Vous trouverez ci-dessous des instructions pour la création et la modification des détails d’un compte réseau, l’actualisation du jeton [!DNL oAuth] pour un compte et la désactivation des comptes.
+
+<!-- Move out info about Naver?  Then change to the following:  Following are instructions for creating and editing account details for an ad network account that Search, Social, & Commerce will sync using the ad network's API; refreshing the [!DNL oAuth] token for an account; and disabling accounts. -->
+
+<!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
 Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, voir &quot;[Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md)&quot;.
 
@@ -243,7 +249,7 @@ Les comptes qui utilisent le suivi des clics par Adobe Advertising doivent inclu
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S_kwcid Format** - (comptes [!DNL Google Ads] existants pour les annonceurs avec une intégration Adobe Advertising-Adobe Analytics et pour lesquels l’AMO ID (s_kwcid) n’a pas déjà été migré)
+* **Format S_kwcid :** (comptes [!DNL Google Ads] existants pour les annonceurs avec une intégration Adobe Advertising-Adobe Analytics et pour lesquels l’AMO ID (s_kwcid) n’a pas déjà été migré)
 
 Ce compte utilise le format hérité du code de suivi AMO ID, ce qui permet à l’Adobe Advertising de partager les données relatives au compte avec Adobe Analytics. Le [dernier format](/help/integrations/analytics/ids.md#amo-id-formats) comprend des paramètres pour l’identifiant de campagne et l’identifiant du groupe publicitaire, qui sont nécessaires pour générer des rapports précis aux niveaux de campagne et de groupe publicitaire pour [!DNL Google Ads] les performances maximales des campagnes, des brouillons et des campagnes d’expérience dans Analytics :
 
@@ -253,9 +259,9 @@ Si ce compte doit générer des rapports aux niveaux de la campagne et du groupe
 
 Pour obtenir des instructions complètes, voir &quot;[Mise à jour du code de suivi AMO ID pour un [!DNL Google Ads] compte](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)&quot;.
 
-**Noms de suites de rapports** - (Pour une redirection EF avec jeton uniquement ; les annonceurs avec une intégration Adobe Advertising-Adobe Analytics ; facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoie les données qu’ils collectent depuis le réseau publicitaire, y compris les classifications d’entités et les données de clic pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.
+**Noms de suites de rapports :** (Pour une redirection EF avec jeton uniquement ; annonceurs avec une intégration Adobe Advertising-Adobe Analytics ; facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoie les données qu’il collecte à partir du réseau publicitaire, y compris les classifications d’entités et les données de clic pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.
 
-Pour que les données apparaissent dans les suites de rapports, soit (a) la fonction AMO ID côté serveur doit être configurée pour le compte, soit (b) le paramètre au niveau de l’annonceur sur &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; doit être activé. En outre, le compte Analytics de l’annonceur doit être configuré pour recevoir les données de Search, Social et Commerce. Pour plus d’informations, contactez votre gestionnaire de compte Adobe.
+Pour que les données apparaissent dans les suites de rapports, soit (a) la fonction AMO ID côté serveur doit être configurée pour le compte, soit (b) le paramètre au niveau de l’annonceur sur &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; doit être activé. En outre, le compte Analytics de l’annonceur doit être configuré pour recevoir les données de Search, Social et Commerce. Pour plus d’informations, contactez votre équipe de compte d’Adobe.
 
 >[!MORELIKETHIS]
 >
