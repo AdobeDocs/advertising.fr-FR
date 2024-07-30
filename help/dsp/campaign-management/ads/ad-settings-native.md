@@ -3,9 +3,9 @@ title: Paramètres d’affichage des publicités natives
 description: Consultez la description des paramètres d’annonce disponibles pour les annonces d’affichage natives.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 152ba89baa17264a74a1a2498e0140972a0470eb
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Tous les pixels de suivi d’événement existants pour l’emplacement sont aut
 
 Les paramètres suivants s’appliquent à chaque pixel que vous créez ou modifiez.
 
-**[!UICONTROL Integration Event]:** événement qui déclenche le déclenchement du pixel. Pour ce type de publicité, la seule option est *[!UICONTROL Impression]*.
+**[!UICONTROL Integration Event]:** événement qui déclenche le déclenchement du pixel.
 
 **[!UICONTROL Pixel Type]:** Indique si le pixel est un *[!UICONTROL IMG URL]* (fichier image 1x1 pixel), *[!UICONTROL HTML]* ou *[!UICONTROL JavaScript URL]*.
 
