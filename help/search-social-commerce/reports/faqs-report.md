@@ -3,7 +3,7 @@ title: Questions fréquentes sur les rapports personnalisés
 description: Découvrez les réponses aux questions courantes sur les rapports de performances, notamment la résolution des problèmes liés aux données.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c0f8f8c2886ea821dd7705446a727054b66ad3bc
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -124,6 +124,7 @@ Vous trouverez ci-dessous les raisons courantes de l’absence de données de cl
 |---|---|---|
 | Le processus qui récupère les données de clic du compte publicitaire a échoué. | Il n’existe aucun moyen systématique de détecter ce problème, mais vous pouvez remarquer qu’une campagne n’indique aucun coût ou aucune information sur les clics, même si le compte publicitaire a dépensé de l’argent. | Contactez votre équipe de compte d’Adobe.<br><br>Si les données sont manquantes pendant plus de 24 heures, excluez ces dates des prévisions de coût jusqu&#39;à ce que les données soient récupérées. Votre équipe de compte d’Adobe peut exclure les dates. |
 | Un problème de facturation entre l’annonceur et le réseau publicitaire empêche le compte publicitaire de dépenser. | Il n’existe aucun moyen systématique de détecter ce problème, mais vous pouvez remarquer qu’une campagne n’indique aucun coût ou aucune information sur les clics. | Si vous savez qu’un compte publicitaire n’a pas pu être utilisé en raison d’un problème de facturation, excluez ces dates des prévisions de coût. Votre équipe de compte d’Adobe peut exclure les dates. |
+
 +++
 
 +++Les données de performances diffèrent des données de l’éditeur de réseau publicitaire.
@@ -227,7 +228,7 @@ Les [!UICONTROL Geo Distribution Report] et [!UICONTROL Domain Referral Report] 
 
 *Solution possible ou solution de contournement :*
 
-1. Accédez à **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** et générez un [!UICONTROL Transaction Report]. Comparez les transactions reçues par Search, Social et Commerce aux données de l’annonceur.
+1. Accédez à **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** et générez un [!UICONTROL Transaction Report]. Comparez les transactions que Search, Social et Commerce ont reçues avec les données de l’annonceur.
 
 1. Si certaines transactions sont incorrectes ou manquantes, assurez-vous que la balise de suivi de conversion appropriée est implémentée sur toutes les pages web applicables et n’a pas été modifiée, sauf si votre équipe de compte d’Adobe vous a conseillé de le faire. Une balise peut être manquante ou modifiée si le site web a été récemment mis à jour.
 
@@ -283,7 +284,7 @@ Voir les causes possibles et les solutions pour les implémentations de pixels c
 
 *Solution possible ou solution de contournement :*
 
-1. Accédez à **[!UICONTROL Insights]&amp;[!UICONTROL Reports > Reports]** et générez un [!UICONTROL Transaction Report]. Comparez les transactions reçues par Search, Social et Commerce aux données de l’annonceur.
+1. Accédez à **[!UICONTROL Insights]&amp;[!UICONTROL Reports > Reports]** et générez un [!UICONTROL Transaction Report]. Comparez les transactions que Search, Social et Commerce ont reçues avec les données de l’annonceur.
 
 1. Si certaines transactions sont incorrectes ou manquantes, assurez-vous que a) le fichier de flux contient tous les identifiants de transaction requis et qu’aucun ID de suivi en double, et b) les identifiants de transaction sont uniques et corrects.
 
@@ -311,7 +312,7 @@ La vue [!UICONTROL Portfolio Report] et la vue [!UICONTROL Portfolios] affichent
 +++
 
 +++Les données au niveau de la publicité ne sont pas disponibles pour les campagnes [!DNL Google Ads] de recherche dynamique (DSA), de performances max, d’achats intelligents et [!DNL YouTube].
-Les réseaux publicitaires ne fournissent pas l’identifiant nécessaire pour attribuer des recettes à une publicité individuelle pour ces campagnes. Par conséquent, les données de performances au niveau de la publicité ne sont pas disponibles pour ces types de campagne dans la vue [!UICONTROL Ads] ou dans le [!UICONTROL Ad Variation Report]. Vous pouvez vous attendre à des incohérences entre le total des données au niveau de la publicité pour une campagne et le total des données de la campagne.
+Les réseaux publicitaires ne fournissent pas l’identifiant nécessaire pour attribuer des recettes à une publicité individuelle pour ces campagnes. Par conséquent, les données de performances au niveau de la publicité ne sont pas disponibles pour ces types de campagne dans la vue [!UICONTROL Ads] ou dans la vue [!UICONTROL Ad Variation Report]. Vous pouvez vous attendre à des incohérences entre le total des données au niveau de la publicité pour une campagne et le total des données de la campagne.
 +++
 
 +++Dans [!UICONTROL Transaction Report], comment savoir quelle mesure de conversion provient d’un flux de données ou est suivie par le pixel de suivi d’Adobe Advertising ?
