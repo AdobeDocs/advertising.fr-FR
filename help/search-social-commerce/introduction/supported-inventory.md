@@ -3,9 +3,9 @@ title: Inventaire pris en charge
 description: Référencez les réseaux publicitaires, les types de campagne et les types d’annonces pris en charge.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: a27e5bf805f198a9f3896da4970e922bb629953b
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2720'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Vous trouverez ci-dessous les réseaux publicitaires, les types de campagne et l
 
 >[!TIP]
 >
->Le tableau suivant est large. Si nécessaire, utilisez la barre de défilement située au bas du tableau pour afficher l’intégralité du contenu. Vous pouvez également masquer temporairement la table des matières ou le volet de droite en cliquant sur ![Masquer le volet de gauche](/help/search-social-commerce/assets/hide-left-pane.png "Masquer le volet de gauche") en haut du volet de gauche ou ![Masquer le volet droit](/help/search-social-commerce/assets/hide-right-pane.png "Masquer le volet droit") en haut du volet de droite.
+>Le tableau suivant est large. Pour développer votre zone d’affichage, vous pouvez masquer temporairement la table des matières et le volet de droite en cliquant sur ![Masquer le volet de gauche](/help/dsp/assets/hide-left-pane.png "Masquer le volet de gauche") en haut du volet de gauche et ![Masquer le volet droit](/help/dsp/assets/hide-right-pane.png "Masquer le volet droit") en haut du volet de droite. Vous pouvez également utiliser la barre de défilement située au bas du tableau pour afficher l’intégralité du contenu.
 
 | Source | Réseau | Type de campagne | Type de publicité | Synchronisation et affichage | Créer/modifier | Suivi[^1] | Optimiser | Rapport[^2] | Prise en charge d’Adobe Analytics[^3] |
 |----|----|----|----|----|----|----|----|----|----|

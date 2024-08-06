@@ -3,9 +3,9 @@ title: Données de feuille d’envoi groupé requises pour les comptes  [!DNL Ya
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour les comptes  [!DNL Yandex] .
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1940'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 
 >[!TIP]
 >
->Le tableau suivant est large. Si nécessaire, utilisez la barre de défilement située au bas du tableau pour afficher l’intégralité du contenu. Vous pouvez également masquer temporairement la table des matières ou le volet de droite en cliquant sur ![Masquer le volet de gauche](/help/search-social-commerce/assets/hide-left-pane.png "Masquer le volet de gauche") en haut du volet de gauche ou ![Masquer le volet droit](/help/search-social-commerce/assets/hide-right-pane.png "Masquer le volet droit") en haut du volet de droite.
+>Le tableau suivant est large. Pour développer votre zone d’affichage, vous pouvez masquer temporairement la table des matières et le volet de droite en cliquant sur ![Masquer le volet de gauche](/help/dsp/assets/hide-left-pane.png "Masquer le volet de gauche") en haut du volet de gauche et ![Masquer le volet droit](/help/dsp/assets/hide-right-pane.png "Masquer le volet droit") en haut du volet de droite. Vous pouvez également utiliser la barre de défilement située au bas du tableau pour afficher l’intégralité du contenu.
 
 | Champ | Campagne | Groupe publicitaire | Mot-clé | Publicité textuelle | Lien de site | Description |
 |----|----|-----|-----|----|----|----|

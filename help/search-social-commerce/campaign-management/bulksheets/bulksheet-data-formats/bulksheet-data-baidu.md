@@ -3,9 +3,9 @@ title: Données de feuille d’envoi groupé requises pour les comptes  [!DNL Ba
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour les comptes  [!DNL Baidu] .
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 
 >[!TIP]
 >
->Le tableau suivant est large. Si nécessaire, utilisez la barre de défilement située au bas du tableau pour afficher l’intégralité du contenu. Vous pouvez également masquer temporairement la table des matières ou le volet de droite en cliquant sur ![Masquer le volet de gauche](/help/search-social-commerce/assets/hide-left-pane.png "Masquer le volet de gauche") en haut du volet de gauche ou ![Masquer le volet droit](/help/search-social-commerce/assets/hide-right-pane.png "Masquer le volet droit") en haut du volet de droite.
+>Le tableau suivant est large. Pour développer votre zone d’affichage, vous pouvez masquer temporairement la table des matières et le volet de droite en cliquant sur ![Masquer le volet de gauche](/help/dsp/assets/hide-left-pane.png "Masquer le volet de gauche") en haut du volet de gauche et ![Masquer le volet droit](/help/dsp/assets/hide-right-pane.png "Masquer le volet droit") en haut du volet de droite. Vous pouvez également utiliser la barre de défilement située au bas du tableau pour afficher l’intégralité du contenu.
 
 | Champ | Campagne | Groupe publicitaire | Mot-clé | Publicité textuelle | Cible de l’emplacement | Description |
 |----|----|----|----|----|----|----|
