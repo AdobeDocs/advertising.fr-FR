@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 07ecb613c49e27e1a1e82d7082b1715040b82610
+source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
 workflow-type: tm+mt
-source-wordcount: '3915'
+source-wordcount: '3921'
 ht-degree: 0%
 
 ---
@@ -365,7 +365,7 @@ Pour spécifier le ciblage de rubrique :
 >
 >* Configurez tout ciblage négatif dans le segment sur [!DNL Proximic by Comscore] ou [!DNL Oracle Data Cloud] (anciennement [!DNL Grapeshot]).
 
-**[!UICONTROL Device Targeting]:** (Facultatif) Informations spécifiques sur les appareils, notamment les types d’appareils, les fabricants, les systèmes d’exploitation, les navigateurs et les types de connectivité, à inclure et exclure en tant que cibles. Pour spécifier le ciblage des périphériques :
+**[!UICONTROL Device Targeting]:** (Facultatif) Informations spécifiques sur les appareils, notamment les types d’appareils, les fabricants, les systèmes d’exploitation, les navigateurs et les types de connectivité, à inclure et exclure en tant que cibles. Les types varient en fonction du type d’emplacement. Pour spécifier le ciblage des périphériques :
 
 1. Cliquez sur ![Modifier](/help/dsp/assets/edit.png).
 1. Spécifiez les détails de l’appareil à inclure et à exclure :
