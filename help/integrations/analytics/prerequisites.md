@@ -3,9 +3,9 @@ title: Conditions préalables et informations clés pour la mise en oeuvre de  [
 description: Conditions préalables et informations clés pour la mise en oeuvre de  [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 8481227a8ccb1f1e6e715e34e14732967110c168
+source-git-commit: 1559c2cb83e32d90f4b2fe959d07c4e588d9becf
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Contactez votre équipe de compte Adobe pour connaître les derniers environneme
 
 * Le suivi de conversion [!DNL Analytics for Advertising] dans Adobe Analytics utilise une période de recherche en amont de suivi configurable (60 jours par défaut). Les rapports d’Adobe Advertising reflètent les conversions et l’engagement du site tout au long de cette période de recherche arrière de suivi.
 
-* Tous les types d’annonces sont pris en charge. Cependant, tous les environnements d’annonces ne sont pas pris en charge.
+* Tous les types d’annonces sont pris en charge. <!--Clarify what this might include. It used to include CTV, but not anymore: However, not all ad environments are supported. -->
 
 * [!DNL Analytics] les conversions sont actuellement suivies et attribuées uniquement à un visiteur sur le même appareil.
 
