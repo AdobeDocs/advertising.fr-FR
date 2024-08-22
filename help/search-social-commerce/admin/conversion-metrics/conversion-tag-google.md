@@ -3,9 +3,9 @@ title: Création d’une balise de conversion pour [!DNL Google Ads]
 description: Découvrez comment créer une balise de conversion  [!DNL Google Ads] .
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 04330e26dbad6efe76dfcbe4662b062511ae14f6
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Une fois que vous avez ajouté les balises à votre site web et qu’elles comme
 
 **[!UICONTROL View Through Conversion Window]:** nombre maximal de jours après qu’un utilisateur a affiché vos publicités pour lesquelles des conversions d’affichages publicitaires sont enregistrées. Pour les campagnes de recherche, d’affichage et d’achat, la fenêtre peut être comprise entre 1 et 90 jours. Sélectionnez un nombre ou **[!UICONTROL Custom]** et saisissez un nombre.
 
-**[!UICONTROL Attribution Model]:** [Combien de crédit chaque interaction publicitaire obtient ](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138) : *[!UICONTROL Data driven]*, *[!UICONTROL Last click]*, *[!UICONTROL First click]*, *[!UICONTROL Linear]*, *[!UICONTROL Time decay]* ou *[!UICONTROL Position based]*.
+**[!UICONTROL Attribution Model]:** [Le crédit obtenu par chaque interaction publicitaire ](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138) : *[!UICONTROL Data driven]* ou *[!UICONTROL Last click]*. **Remarque :** Les actions de conversion qui utilisaient auparavant les modèles *[!UICONTROL First click]*, *[!UICONTROL Linear]*, *[!UICONTROL Time decay]* ou *[!UICONTROL Position based]* désormais non pris en charge utilisent désormais le modèle *[!UICONTROL Data driven]*.
 
 >[!MORELIKETHIS]
 >
