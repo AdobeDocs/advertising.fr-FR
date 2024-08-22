@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: b89da28d56cb80d105fd8bebd9c734dd5230c4c3
+source-git-commit: ad95e76ff5f2418a76ffad04b7d2bd176ceea726
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '920'
 ht-degree: 3%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 3%
    + Packages {#packages}
       + [À propos de la gestion de modules](/help/dsp/campaign-management/packages/package-about.md)
       + [Création d’un module](/help/dsp/campaign-management/packages/package-create.md)
+      + [Vérification et modification des paramètres du module à l’aide de feuilles de calcul](/help/dsp/campaign-management/packages/package-qa.md)
       + [Modification d’un module](/help/dsp/campaign-management/packages/package-edit.md)
       + [Dupliquer un package](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [Joindre un emplacement à un package](/help/dsp/campaign-management/packages/package-attach-placement.md)

@@ -3,16 +3,16 @@ title: Vérification et modification des paramètres d’emplacement à l’aide
 description: Découvrez comment vérifier et modifier des paramètres d’emplacement clés à l’aide de feuilles de calcul.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 230a169611aa3094365a877476f2e5e1c6b3cb9b
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # Vérification et modification des paramètres d’emplacement à l’aide de feuilles de calcul
 
-Vous pouvez télécharger les paramètres d’un ou de plusieurs emplacements, ou de tous les emplacements d’une campagne, au format XLSX (feuille de calcul Excel) pour révision. Utilisez cette fonctionnalité pour passer rapidement en revue les détails suivants :
+Vous pouvez télécharger les paramètres d’un ou de plusieurs emplacements, ou de tous les emplacements d’une campagne, au format XLSX ([!DNL Microsoft Excel]) pour révision. Utilisez cette fonctionnalité pour passer rapidement en revue les détails suivants :
 
 * Les audiences ciblées par la campagne.
 * Lorsque les emplacements commencent à être distribués et lorsqu’ils s’arrêtent.
@@ -42,7 +42,7 @@ Vous pouvez ensuite apporter des modifications à la sélection des champs et le
 
    * À droite de la barre de menu supérieure, cliquez sur ![Tâches](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
-   Le fichier est enregistré dans le dossier Téléchargements du navigateur. Voir &quot;[Colonnes dans les feuilles de calcul téléchargées/téléchargées](#qa-sheet-columns)&quot; pour obtenir la liste des colonnes incluses.
+   Le fichier est enregistré dans le dossier Téléchargements du navigateur. Voir &quot;[Colonnes de placement dans les feuilles de calcul téléchargées/téléchargées](#qa-sheet-columns)&quot; pour obtenir la liste des colonnes incluses.
 
 ## Paramètres de téléchargement pour un ou plusieurs emplacements
 
@@ -56,7 +56,7 @@ Vous pouvez ensuite apporter des modifications à la sélection des champs et le
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]**.
 
-Le fichier est automatiquement enregistré dans le dossier Téléchargement du navigateur. Voir &quot;[Colonnes dans les feuilles de calcul téléchargées/téléchargées](#qa-sheet-columns)&quot; pour obtenir la liste des colonnes incluses.
+Le fichier est automatiquement enregistré dans le dossier Téléchargement du navigateur. Voir &quot;[Colonnes de placement dans les feuilles de calcul téléchargées/téléchargées](#qa-sheet-columns)&quot; pour obtenir la liste des colonnes incluses.
 
 ## Paramètres de téléchargement pour tous les emplacements d’une campagne
 
