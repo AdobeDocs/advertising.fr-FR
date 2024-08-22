@@ -3,7 +3,7 @@ title: Paramètres des rapports personnalisés
 description: Reportez-vous à la description des paramètres de rapport personnalisés.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 9313b20b4bcdb001138f30d8fa82d2b22be19831
+source-git-commit: 4fb843e66edddd4585d4a9b142eb9a7750152d27
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Paramètres des rapports personnalisés
 
-**[!UICONTROL Name]** Nom du rapport. La longueur maximale est de 180 caractères.
+**[!UICONTROL Name]:** Nom du rapport. La longueur maximale est de 180 caractères.
 
-**[!UICONTROL Report Type]** Type de rapport : *[!UICONTROL Custom]* (qui comprend la plupart des options disponibles), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* ou *[!UICONTROL Household Conversions]*.
+**[!UICONTROL Report Type]:** Type de rapport : *[!UICONTROL Custom]* (qui comprend la plupart des options disponibles), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* ou *[!UICONTROL Household Conversions]*.
 
-## Section [!UICONTROL Report range]
+## Section [!UICONTROL Report Range]
 
 Cette section détermine les données qui sont incluses dans le rapport. Pour configurer des dates pour la planification du rapport, consultez la section &quot;[!UICONTROL Report run schedule]&quot;.
 
@@ -32,7 +32,7 @@ Cette section détermine les données qui sont incluses dans le rapport. Pour co
 
 * **[!UICONTROL Custom Range]:** inclut des données entre des dates de début et de fin spécifiques. Pour générer des rapports sur les données du jour précédent, sélectionnez **[!UICONTROL Present]**.
 
-## Section [!UICONTROL Report run schedule]
+## Section [!UICONTROL Report Run schedule]
 
 Cette section détermine les dates d’exécution du rapport. Pour configurer les dates auxquelles inclure les données de rapport, voir la section &quot;[!UICONTROL Report range]&quot;.
 
