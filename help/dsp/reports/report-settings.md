@@ -3,9 +3,9 @@ title: Paramètres des rapports personnalisés
 description: Reportez-vous à la description des paramètres de rapport personnalisés.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: a4ab8bdeea2d15f14a7ef84c1055888ecc77014b
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -16,19 +16,51 @@ ht-degree: 0%
 
 **[!UICONTROL Report Type]** Type de rapport : *[!UICONTROL Custom]* (qui comprend la plupart des options disponibles), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* ou *[!UICONTROL Household Conversions]*.
 
-## Section [!UICONTROL Apply Filters]
+## Section [!UICONTROL Report range]
+
+Cette section détermine les données qui sont incluses dans le rapport. Pour configurer des dates pour la planification du rapport, consultez la section &quot;[!UICONTROL Report run schedule]&quot;.
 
 **[!UICONTROL Timezone]:** Fuseau horaire pour la création de rapports.
 
 **[!UICONTROL Observe Daylight Savings Time]:** considère l’heure d’été comme l’heure d’été aux heures signalées.
 
-**\[Période\]:** La période pour laquelle générer des données. Le nombre de jours disponibles varie selon le rapport et selon les dimensions sélectionnées. Choisissez-en une :
+**Plage :** La période pour laquelle générer des données. Le nombre de jours disponibles varie selon le rapport et selon les dimensions sélectionnées. Choisissez-en une :
 
-* **[!UICONTROL Previous N days]:** inclut des données pour un nombre spécifique de jours avant aujourd’hui.
-
-* **[!UICONTROL Custom]:** inclut des données entre des dates de début et de fin spécifiques. Pour générer des rapports sur les données du jour précédent, sélectionnez **[!UICONTROL Present]**.
+* **[!UICONTROL Last Calendar Week]:** Inclut des données pour la semaine calendaire précédente.
 
 * **[!UICONTROL Last Calendar Month]:** inclut des données pour le mois civil précédent.
+
+* **[!UICONTROL Custom Range]:** inclut des données entre des dates de début et de fin spécifiques. Pour générer des rapports sur les données du jour précédent, sélectionnez **[!UICONTROL Present]**.
+
+## Section [!UICONTROL Report run schedule]
+
+Cette section détermine les dates d’exécution du rapport. Pour configurer les dates auxquelles inclure les données de rapport, voir la section &quot;[!UICONTROL Report range]&quot;.
+
+**\[Planning\]:** Quand générer le rapport :
+
+* *[!UICONTROL Immediately]* : ajoute immédiatement le rapport à la file d’attente des rapports.
+
+  >[!NOTE]
+  >
+  >Vous pouvez également [exécuter un rapport personnalisé à tout moment](report-run-now.md) à partir de la vue [!UICONTROL Reports].
+
+* *[!UICONTROL On]\&lt;Date\> :* exécute le rapport à une date spécifiée pour l’achèvement à 9 h 00 dans le fuseau horaire du compte.
+
+* *[!UICONTROL Recurring]:* exécute le rapport selon un planning au cours d’une période donnée.
+
+   * **\[Planning\]:** À quelle fréquence exécuter le rapport :
+
+      * *Quotidien* pour exécuter le rapport tous les N jours. Par exemple, pour exécuter le rapport toutes les deux semaines (14 jours), sélectionnez cette option et saisissez **14**.
+
+      * *Hebdomadaire* pour exécuter le rapport les jours spécifiés de la semaine. Par exemple, pour exécuter le rapport tous les lundis et vendredis, sélectionnez cette option et cochez les cases en regard de **Lundi** et **Vendredi**.
+
+      * *Mensuel* pour exécuter le rapport un jour numérique spécifique du mois, de 1 à 30. Par exemple, pour exécuter le rapport le premier jour de chaque mois, sélectionnez cette option et saisissez **1**.
+
+   * **De** : première date à laquelle le rapport peut être exécuté. Selon le calendrier spécifié, la première instance de rapport peut survenir après cette date.
+
+   * **Jusqu’à** : date d’expiration du rapport, qui peut atteindre quatre mois calendaires. Avant l’expiration d’un rapport, toutes les destinations de courrier électronique spécifiées reçoivent une alerte sept jours et un jour avant la date d’expiration. Pour prolonger le rapport, modifiez cette date.
+
+## Section [!UICONTROL Apply Filters]
 
 **[!UICONTROL Add Filters]:** (Facultatif) Dimensions supplémentaires par lesquelles filtrer les données, que les dimensions soient incluses ou non sous forme de colonnes dans le rapport. Les filtres disponibles varient selon le type de rapport et peuvent inclure : *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* et *[!UICONTROL Video Duration]*.
 
@@ -120,17 +152,23 @@ Voir &quot;[Colonnes de rapport disponibles](report-columns.md)&quot; pour obten
 
 ## Section [!UICONTROL Add Report Destinations]
 
-**[!UICONTROL Destination Type]:** Choisissez l’un des types de destinations suivants :
-
-* *[!UICONTROL S3]:* Pour envoyer le rapport terminé à un ou plusieurs emplacements [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]), que vous devez spécifier dans le champ **[!UICONTROL Destination Name]**.
-* *[!UICONTROL sFTP]:* Pour envoyer le rapport terminé à un ou plusieurs emplacements SFTP, que vous devez spécifier dans le champ **[!UICONTROL Destination Name]**.
-* *[!UICONTROL FTP]:* Pour envoyer le rapport terminé à un ou plusieurs emplacements FTP, que vous devez spécifier dans le champ **[!UICONTROL Destination Name]**.
-* *[!UICONTROL FTP SSL](actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez spécifier dans le champ **[!UICONTROL Destination Name]**.
-* *[!UICONTROL Email]:* Pour spécifier la ou les adresses électroniques auxquelles envoyer les rapports ou notifications terminés si le rapport est annulé en raison d’erreurs.
+**[!UICONTROL Destination Type]:** Où diffuser les rapports terminés et les notifications d’erreur. Vous ne pouvez pas modifier le type de destination une fois le rapport enregistré.
 
 >[!NOTE]
 >
-> Vous ne pouvez pas modifier le type de destination une fois le rapport enregistré.
+>Vous pouvez toujours télécharger les rapports terminés à partir de la vue [!UICONTROL Reports] > [!UICONTROL Custom Reports].
+
+* *[!UICONTROL None]:* pour ne pas diffuser de rapports ou de notifications.
+
+* *[!UICONTROL S3]:* Pour envoyer le rapport terminé à un ou plusieurs emplacements [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]), que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]**.
+
+* *[!UICONTROL sFTP]:* Pour envoyer le rapport terminé à un ou plusieurs emplacements SFTP, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]**.
+
+* *[!UICONTROL FTP]:* Pour envoyer le rapport terminé à un ou plusieurs emplacements FTP, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]**.
+
+* *[!UICONTROL FTP SSL](actuellement dans Beta) :* Pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]**.
+
+* *[!UICONTROL Email]:* Pour spécifier la ou les adresses électroniques auxquelles envoyer les rapports ou notifications terminés si le rapport est annulé en raison d’erreurs.
 
 **[!UICONTROL Email]:** (Type de destination d’email uniquement) Pour chaque adresse, saisissez l’adresse et cliquez sur **+**.
 
@@ -148,26 +186,13 @@ Voir &quot;[Colonnes de rapport disponibles](report-columns.md)&quot; pour obten
 
       La nouvelle destination est désormais disponible dans la liste des destinations existantes et vous pouvez éventuellement l’ajouter au rapport.
 
-**[!UICONTROL Frequency]:** (Pour chaque [!UICONTROL Destination Name]) À quelle fréquence envoyer le rapport vers la destination : *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]* ou *[!UICONTROL Monthly]*.
-
-**[!UICONTROL Start Day]:** (Pour chaque [!UICONTROL Destination Name] avec [!UICONTROL Frequency] de *[!UICONTROL Weekly]* ou *[!UICONTROL Monthly]*) Jour de génération du rapport. Pour les rapports hebdomadaires, sélectionnez le jour de la semaine. Pour les rapports mensuels, sélectionnez le jour numérique du mois.
-
-## Section [!UICONTROL Save Report]
-
-**[!UICONTROL When to Generate]:** quand générer le rapport : *[!UICONTROL On Schedule]* ou *[!UICONTROL Run Now]*. Les rapports planifiés sont remis avant 9h00 dans le fuseau horaire du compte.
-
-**[!UICONTROL End Date]:** date d’expiration du rapport, qui peut aller jusqu’à quatre mois. Avant l’expiration d’un rapport, tous les destinataires de messagerie spécifiés reçoivent une alerte sept jours et un jour avant la date d’expiration. Pour prolonger le rapport, modifiez la date d’expiration dans les paramètres du rapport.
-
->[!NOTE]
->
->Vous pouvez [exécuter un rapport personnalisé à tout moment](report-run-now.md) à partir de la vue [!UICONTROL Reports].
-
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
 >* [Créer un rapport personnalisé](/help/dsp/reports/report-create.md)
 >* [Dupliquer un rapport personnalisé](/help/dsp/reports/report-copy.md)
 >* [Modifier un rapport personnalisé](/help/dsp/reports/report-edit.md)
+>* [Télécharger un rapport personnalisé](/help/dsp/reports/report-download.md)
 >* [Exécuter un rapport personnalisé](/help/dsp/reports/report-run-now.md)
 >* [Paramètres de rapport personnalisés](/help/dsp/reports/report-settings.md)
 >* [À propos des destinations de rapport](/help/dsp/reports/report-destinations/report-destination-about.md)

@@ -3,9 +3,9 @@ title: À propos des rapports personnalisés
 description: Découvrez les options de création manuelle de rapports personnalisés ou d’utilisation de modèles de rapports préconfigurés.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: 44f7f9b31afbe6b863acd389df641057b1e6dea1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,15 @@ ht-degree: 0%
 Les rapports personnalisés vous permettent de personnaliser le contenu et la remise des données de votre rapport à l’aide des dimensions de campagne (comme l’annonceur, l’emplacement, les sites ou les zones géographiques) et des mesures qui vous intéressent le plus. Vous pouvez :
 
 * Configurez complètement les rapports de performances de campagne à un niveau granulaire.
+
 * Choisissez parmi des modèles de rapport préconfigurés et personnalisez-les éventuellement davantage.
 
-Vous pouvez générer les rapports une seule fois ou programmer leur génération quotidienne, hebdomadaire ou mensuelle à 03h00 dans le fuseau horaire spécifié. Une fois qu’un rapport est généré, il est remis à chaque destinataire d’e-mail spécifié ou aux [destinations de rapport](/help/dsp/reports/report-destinations/report-destination-about.md) liées des types suivants :
+Vous pouvez générer les rapports une seule fois ou programmer leur génération quotidienne, hebdomadaire ou mensuelle à 03h00 dans le fuseau horaire spécifié selon des critères précis (par exemple tous les 15 jours ou le 1er de chaque mois). Une fois un rapport généré, vous pouvez le télécharger à partir de [!UICONTROL Reports] > [!UICONTROL Custom Reports] ou des [destinations de rapport](/help/dsp/reports/report-destinations/report-destination-about.md) liées des types suivants :
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
+* FTP SSL <!-- (in beta) -->
 * SFTP
-* SSL FTP (en version bêta)
 
 >[!NOTE]
 >
@@ -84,9 +85,30 @@ Une fois la fonctionnalité activée pour votre organisation, vous pouvez [filtr
 
 Les paramètres de votre compte [!UICONTROL Settings] > [!UICONTROL Account] indiquent a) les autres comptes dont les données sont disponibles pour votre compte et b) les autres comptes qui peuvent accéder aux données de votre compte.
 
+## La vue [!UICONTROL Custom Reports]
+
+[!UICONTROL Reports] > [!UICONTROL Custom Reports] répertorie vos rapports existants, y compris les rapports qui ont été générés, ceux qui sont programmés pour la génération future et ceux qui ont échoué. La colonne &quot;[!UICONTROL Report Run]&quot; indique les dates auxquelles le rapport a été déclenché à partir du 22 août 2024. Par défaut, tous les rapports non archivés créés par l’utilisateur sont répertoriés, les plus récents en haut. Vous pouvez filtrer davantage la liste par statut, que le rapport soit récurrent ou ponctuel, par type de rapport, par type de destination et par créateur de rapport.
+
+Vous pouvez créer de nouveaux rapports personnalisés, modifier des rapports existants ou les dupliquer pour créer de nouveaux rapports, exécuter immédiatement des rapports, télécharger une instance de rapport depuis les quatre derniers mois et supprimer des rapports.
+
+## Statuts des rapports {#custom-report-status}
+
+* **[!UICONTROL Yet to start]:** Le rapport n’a jamais été exécuté.
+
+* **[!UICONTROL Report generating]:** Le rapport est en cours de création.
+
+* **[!UICONTROL Ready to download]:** (Rapports récurrents uniquement) Une ou plusieurs instances du rapport sont disponibles au téléchargement et d’autres instances de rapport sont planifiées.
+
+* **[!UICONTROL Failed]:** La tâche de rapport a échoué. Pour voir pourquoi des instances de rapport individuelles ont échoué pour un suivi de rapport, cliquez sur ![la flèche vers le bas](/help/dsp/assets/chevron-down.png "la flèche vers le bas") en regard de [!UICONTROL Download]. Les tâches de rapport ayant échoué sont indiquées avec une icône d’erreur (![indicateur d&#39;erreur](/help/dsp/assets/indicator-critical.png "indicateur d&#39;erreur")). Placez le curseur sur l’icône d’erreur pour obtenir une description de l’erreur.
+
+* **[!UICONTROL Completed]:** Pour les rapports non récurrents, le rapport est terminé. Pour les rapports récurrents, toutes les instances de rapport sont terminées. Vous pouvez télécharger tous les rapports terminés au cours des quatre derniers mois.
+
+* **[!UICONTROL Archived]:** Le rapport est archivé et ne peut pas être exécuté. Cet état est défini lorsque la génération d’un rapport échoue plusieurs fois pour celui-ci. Actuellement, vous ne pouvez pas définir cet état à partir de l’interface utilisateur.
+
 >[!MORELIKETHIS]
 >
 >* [Créer un rapport personnalisé](/help/dsp/reports/report-create.md)
+>* [Télécharger un rapport personnalisé](/help/dsp/reports/report-download.md)
 >* [Paramètres de rapport personnalisés](/help/dsp/reports/report-settings.md)
 >* [ Questions fréquentes sur les rapports des ménages](/help/dsp/reports/faq-household-report.md)
 >* [Types de rapports de performances dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)

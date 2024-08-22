@@ -3,18 +3,20 @@ title: Suppression d’un rapport personnalisé
 description: Découvrez comment supprimer un rapport personnalisé.
 feature: DSP Custom Reports
 exl-id: e3cebb69-bab6-4f41-94fd-b4471f9bbdb9
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
 
 # Suppression d’un rapport personnalisé
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Reports]**.
-1. Dans la colonne [!UICONTROL Options] de la ligne du rapport, cliquez sur **[!UICONTROL options]** > **[!UICONTROL Delete]**.
-1. Dans le message de confirmation, cliquez sur **[!UICONTROL OK]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**.
+
+1. En regard du nom du rapport, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
+
+1. Dans le message de confirmation, cliquez sur **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
