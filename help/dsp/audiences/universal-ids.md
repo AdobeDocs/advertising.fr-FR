@@ -3,7 +3,7 @@ title: Prise en charge de l’activation des ID universels
 description: Découvrez la prise en charge de l’importation de vos segments d’ID universels, de la création de segments personnalisés pour effectuer le suivi des identifiants universels et de la conversion d’autres identifiants d’utilisateur dans vos segments propriétaires en identifiants universels pour un ciblage sans cookie.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 202f4ae8e6633672b7af12937f0b35da5052f7fc
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -24,7 +24,7 @@ DSP prend en charge les identifiants universels basés sur les personnes pour le
 
 * Vous pouvez créer des segments personnalisés qui effectuent le suivi des utilisateurs associés aux ID universels ID 5 qui sont exposés à des publicités provenant d’ordinateurs de bureau et d’appareils mobiles et qui visitent des pages web spécifiques. ID5 utilise un modèle probabiliste pour attribuer un ID dérivé de divers signaux de l’utilisateur et des signaux du navigateur. Pour obtenir des instructions, voir &quot;[Création et implémentation d’un segment personnalisé](/help/dsp/audiences/custom-segment-create.md)&quot;.
 
-* Les segments tiers de certains fournisseurs peuvent inclure automatiquement des identifiants universels en plus des utilisateurs suivis par des cookies ou des identifiants d’appareil. Par exemple, les segments de [!DNL Eyeota] peuvent automatiquement inclure des ID5 et les segments de [!DNL Lotame] peuvent inclure des ID UID2.0. Les détails du segment incluent la taille de chaque type. Les frais d’utilisation habituels pour chaque segment, indiqués en regard du nom du segment, s’appliquent ; aucun frais supplémentaire n’est facturé pour les ID 5.
+* Les segments tiers de certains fournisseurs peuvent inclure automatiquement des identifiants universels en plus des utilisateurs suivis par des cookies ou des identifiants d’appareil. Par exemple, les segments de [!DNL Eyeota] peuvent automatiquement inclure des identifiants ID5 et les segments de [!DNL Lotame] peuvent inclure des identifiants UID2.0. Les détails du segment incluent la taille de chaque type. Les frais d’utilisation habituels pour chaque segment, indiqués en regard du nom du segment, s’appliquent ; aucun frais supplémentaire n’est facturé pour les ID 5.
 
 ## Reporting par type d’ID universel
 
@@ -106,9 +106,9 @@ Pour [!DNL RampIDs], contactez votre équipe de compte d’Adobe pour plus d’i
 
 ### Causes d’écart {#universal-ids-data-variances-causes}
 
-* ID de courrier électronique haché traduits en ID5 :
+* Tous les segments :
 
-  Le modèle probabiliste présente une variance d’erreur de +/- 5 %. Cela signifie qu’il peut surestimer ou sous-estimer le nombre d’audiences de 5 %.
+  Le nombre de segments par appareil utilise un modèle probabiliste, qui présente une variance d’erreur de +/- 5 %. Cela signifie qu’il peut surestimer ou sous-estimer le nombre d’audiences de 5 %.
 
 * ID d’email haché traduits en [!DNL RampIDs] :
 
