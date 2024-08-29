@@ -3,9 +3,9 @@ title: Création de mesures de conversion à partir d’Adobe Analytics [!DNL eV
 description: Configurez les mesures d’événement de succès personnalisées à l’aide des données de niveau  [!DNL eVar] et  [!DNL prop].
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: a0d5bc1791f5d05e2cbdeab58e1943f4d494b53f
+source-git-commit: db815958b039508b005f4be60561ddc4656da86e
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Vous pouvez utiliser les mesures d’événement de succès pour optimiser DSP m
 
 La plupart des tâches suivantes doivent être effectuées par un administrateur [!DNL Analytics] ou un autre utilisateur. Si vous avez besoin d’aide, contactez (DSP utilisateurs) l’équipe d’assistance technique DSP à l’adresse `adcloud_support@adobe.com` ou (utilisateurs de Search, Social et Commerce) votre équipe de compte d’Adobe.
 
-1. Dans [!DNL Analytics], [créez un événement de succès d’espace réservé](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event.html?lang=en).
+1. Dans [!DNL Analytics], [créez un événement de succès d’espace réservé](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
 
    Utilisez les paramètres supplémentaires suivants :
 
@@ -60,7 +60,7 @@ La plupart des tâches suivantes doivent être effectuées par un administrateur
 
 Une fois la mesure disponible, vous pouvez l’utiliser pour créer un objectif, que vous pouvez ensuite affecter à un portfolio Search, Social et Commerce ou utiliser comme [objectif personnalisé](/help/dsp/optimization/custom-goal.md) pour un module DSP.
 
-Pour plus d’informations sur la création d’objectifs, consultez le chapitre &quot;Objectifs&quot; du Guide d’optimisation, disponible dans Search, Social et Commerce.
+reportez-vous au chapitre du Guide d’optimisation intitulé &quot;Objectifs&quot;, disponible dans Search, Social et Commerce.
 
 >[!MORELIKETHIS]
 >
