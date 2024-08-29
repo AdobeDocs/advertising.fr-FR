@@ -3,9 +3,9 @@ title: Partenaires SSP
 description: Consultez la liste des plateformes côté offre (SSP) disponibles et des partenaires exchange ouverts.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: e9001913f7b5a18ad625f32230199ee7209e1a64
+source-git-commit: 311200b84c4f2d037ecc9cc17ba49495bd523464
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 | [!DNL TripleLift] |  | [!DNL TubeMogul] ou Adobe Advertising | — | Global | USD | Affichage natif |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] ou Adobe Advertising | — | Global | USD | Afficher le poste de travail et le mobile<br><br>Poste de travail vidéo, mobile et CTV |
 | [!DNL Triton] |  | Adobe Advertising | Prise en charge de PG | Global | USD | Ordinateur de bureau et mobile audio |
-| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | États-Unis + EMEA | USD | Ordinateur de bureau vidéo, mobile et CTV |
+| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | États-Unis + EMEA | USD | Afficher le poste de travail et le mobile<br><br>Poste de travail vidéo, mobile et CTV |
 | [!DNL Yahoo] |  | [!DNL TubeMogul] ou Adobe Advertising | — | Global | USD | Afficher le poste de travail et le mobile<br><br>Poste de travail vidéo, mobile et CTV |
 
 >[!MORELIKETHIS]
