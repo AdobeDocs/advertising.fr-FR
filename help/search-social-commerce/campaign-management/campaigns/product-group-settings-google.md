@@ -3,7 +3,7 @@ title: Paramètres du groupe de produits '[!DNL Google Ads]'
 description: Référencez les paramètres pour les groupes de produits  [!DNL Google Ads] shopping .
 exl-id: 2cfef9de-b265-4fa5-b1bd-84e6cba79914
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -52,4 +52,4 @@ Ce modèle remplace les modèles à des niveaux supérieurs et n’est utilisé 
 >* [À propos des groupes de produits d’achats](product-group-about.md)
 >* [Gérer les groupes de produits d&#39;achats](product-group-manage.md)
 >* [Filtres de produits de campagne de shopping](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [Implémentation [!DNL Google Ads] campagnes d’achat](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
+>* [Implémentation [!DNL Google Ads] campagnes d’achat](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)

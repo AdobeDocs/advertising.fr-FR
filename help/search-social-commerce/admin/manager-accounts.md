@@ -3,9 +3,9 @@ title: Gestion des informations d’identification des comptes de gestionnaire d
 description: Découvrez comment fournir des informations d’identification pour vos comptes  [!DNL Google Ads] manager.
 exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 4cf04fc7ea22e50b5f56cd278ad9a1aac724edf7
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -59,5 +59,5 @@ Une fois que vous avez ajouté les informations d’identification d’un compte
 >[!MORELIKETHIS]
 >
 >* [Activer le téléchargement des objectifs vers les réseaux publicitaires](/help/search-social-commerce/tools/objective-upload-to-networks.md)
->* [ Télécharger des mesures de conversion vers  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
+>* [ Télécharger les mesures de conversion de recherche, de Social et de suivi Commerce vers  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
 >* [Modifier les paramètres de notification](/help/search-social-commerce/notifications/notification-edit.md)

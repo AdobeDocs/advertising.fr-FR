@@ -3,9 +3,9 @@ title: Création d’une balise de conversion pour [!DNL Google Ads]
 description: Découvrez comment créer une balise de conversion  [!DNL Google Ads] .
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: 04330e26dbad6efe76dfcbe4662b062511ae14f6
+source-git-commit: 2c20d2138ee797b6ed2f27d9baa9eda7d413da8d
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Vous pouvez créer des balises de conversion pour que les nouvelles conversions 
 
 Pour générer des balises de conversion pour les conversions existantes, utilisez l’éditeur du réseau publicitaire.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]** pour accéder à l’onglet **[!UICONTROL Summary]**.
 
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Créer](/help/search-social-commerce/assets/add.png "Créer").
 
@@ -42,7 +42,7 @@ Une fois que vous avez ajouté les balises à votre site web et qu’elles comme
 
 **[!UICONTROL Select an Account]:** Compte Google Ads applicable.
 
-**[!UICONTROL Type of Conversion]:** Type de conversion à suivre : *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* ou *[!UICONTROL Clicks to your number on your mobile website]*.
+**[!UICONTROL Type of Conversion]:** Type de conversion à suivre : *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* ou *[!UICONTROL Clicks to your number on your mobile website]*. **Remarque :** *[!UICONTROL Import conversion]* est utilisé à des fins différentes ; voir &quot;[Création d’une action de conversion pour une [!DNL Google Ads] conversion améliorée pour les pistes](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)&quot;.
 
 **[!UICONTROL Conversion Name]:** nom unique de la mesure de conversion.
 
@@ -68,4 +68,5 @@ Une fois que vous avez ajouté les balises à votre site web et qu’elles comme
 
 >[!MORELIKETHIS]
 >
+>* [Chargement de données de conversion hors ligne pour des conversions améliorées](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 >* [[!DNL Google Ads] données de conversion dans Search, Social et Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)

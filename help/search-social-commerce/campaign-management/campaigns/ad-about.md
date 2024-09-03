@@ -3,7 +3,7 @@ title: Gestion des publicités
 description: Découvrez les publicités dans Search, Social et Commerce, y compris les types de publicités disponibles.
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Vous pouvez créer et gérer des types d’annonces pris en charge pour les grou
 
   Vous pouvez contrôler les produits affichés avec vos publicités [!DNL Microsoft Advertising] de shopping en configurant des groupes de produits distincts pour le groupe d’annonces, depuis la vue [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups].
 
-  Pour plus d’informations sur le workflow des annonces de produits/achats, voir &quot;[Mise en oeuvre [!DNL Microsoft Advertising] campagnes d’achats](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)&quot;.  Pour plus d’informations sur les publicités de produits, consultez la [documentation Microsoft Advertising](https://help.ads.microsoft.com/#apex/3/en/51082).
+  Pour plus d’informations sur le workflow des annonces de produits/achats, voir &quot;[Mise en oeuvre [!DNL Microsoft Advertising] campagnes d’achats](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)&quot;.  Pour plus d’informations sur les publicités de produits, consultez la [documentation Microsoft Advertising](https://help.ads.microsoft.com/#apex/3/en/51082).
 
 * Publicités de recherche réactives pour les campagnes [!DNL Google Ads] et [!DNL Microsoft Advertising] sur le réseau de recherche. Le réseau publicitaire rassemble dynamiquement les annonces responsives sur le Réseau de Recherche de Texte à partir d’un ensemble de titres et de descriptions d’annonces, privilégiant les combinaisons qui fonctionnent bien ensemble. La publicité comprend trois titres au maximum, deux descriptions et une URL personnalisable à partir de l’URL de base et les champs facultatifs path1 et path2. Vous pouvez épingler des titres et descriptions d’annonces à des positions spécifiques.
 

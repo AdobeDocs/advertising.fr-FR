@@ -3,9 +3,9 @@ title: Activer le téléchargement des objectifs vers les réseaux publicitaires
 description: Découvrez comment télécharger des objectifs pour vos portefeuilles hybrides vers  [!DNL Google Ads] et [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: f491537c2dd56716abe0ab4fa8c26b8558dca664
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -84,4 +84,4 @@ Si l’objectif — nommé `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_accou
 >[!MORELIKETHIS]
 >
 >* [À propos de la gestion des mesures de conversion d’un annonceur](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
->* [ Télécharger des mesures de conversion vers  [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
+>* [ Télécharger les mesures de conversion de recherche, de Social et de suivi Commerce vers  [!DNL Google Ads]](conversion-metrics-upload-to-google.md)

@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] conversion data'
 description: Découvrez les types de données de conversion suivies par  [!DNL Google Ads] disponibles dans Search, Social et Commerce.
 exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -106,3 +106,4 @@ Dans Search, Social et Commerce, utilisez l’option d’affichage ou de rapport
 >* [ Surveillez et gérez les performances de vos campagnes réseau d’annonces ](monitor-performance-campaigns.md)
 >* [Afficher les mesures de conversion suivies pour un annonceur](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
 >* [Créer une balise de conversion pour [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
+>* [Chargement de données de conversion hors ligne pour des conversions améliorées](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)

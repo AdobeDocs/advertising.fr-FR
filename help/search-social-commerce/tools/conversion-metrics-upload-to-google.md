@@ -1,18 +1,18 @@
 ---
-title: Chargement des mesures de conversion vers  [!DNL Google Ads]
+title: Chargement des mesures de conversion de recherche, de Social et de suivi Commerce sur  [!DNL Google Ads]
 description: Découvrez comment charger des mesures de conversion de suivi de recherche, de Social et de Commerce vers  [!DNL Google Ads].
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
-# Chargement des mesures de conversion vers [!DNL Google Ads]
+# Télécharger les mesures de conversion suivies par Search, Social et Commerce vers [!DNL Google Ads]
 
-*Annonceurs avec [!DNL Google Ads] comptes uniquement*
+*Annonceurs avec [!DNL Google Ads] comptes et suivi de conversion d’Adobe Advertising uniquement*
 
 Search, Social et Commerce peuvent éventuellement charger vers [!DNL Google Ads] toutes les mesures de conversion suivies pour les campagnes [!DNL Google Ads] qui utilisent le service de suivi de conversion d’Adobe Advertising. Cette option ne rend pas les conversions disponibles pour l’optimisation hybride. Si vous souhaitez utiliser vos conversions d’Adobe pour une optimisation hybride, voir &quot;[Activer le téléchargement d’objectifs vers les réseaux publicitaires](objective-upload-to-networks.md)&quot;.
 

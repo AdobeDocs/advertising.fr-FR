@@ -3,7 +3,7 @@ title: Données de feuille d’envoi groupé requises pour les comptes  [!DNL Mi
 description: Référencez les champs d’en-tête et de données requis dans les feuilles d’envoi groupées pour les comptes  [!DNL Microsoft Advertising] .
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '6928'
 ht-degree: 0%
@@ -230,7 +230,7 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 ### Champs de l’annonce de produit (achats)
 
-Pour plus d’informations sur la création de publicités commerciales, voir &quot;[Implémentation [!DNL Microsoft Advertising] campagnes commerciales](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/microsoft-shopping-campaigns.html)&quot;.
+Pour plus d’informations sur la création de publicités commerciales, voir &quot;[Implémentation [!DNL Microsoft Advertising] campagnes commerciales](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)&quot;.
 
 Pour ce type d’annonce, utilisez la ligne &quot;[!UICONTROL Creative (except RSA)]&quot; dans la boîte de dialogue [!UICONTROL Download Bulksheet].
 
