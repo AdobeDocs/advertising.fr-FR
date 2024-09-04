@@ -3,16 +3,16 @@ title: Archivage ou désarchivage d’une campagne
 description: Découvrez comment archiver ou désarchiver une campagne.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: f3ff78b4c383fd9af89e95f5572e4b88b6a293a6
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
 # Archivage ou désarchivage d’une campagne
 
-Masquez une campagne qui n’est pas utilisée en l’archivant. La seule action que vous pouvez effectuer sur une campagne archivée est de la désarchiver. Les campagnes archivées ne s’affichent pas par défaut, mais sont toujours disponibles pour la création de rapports.
+Archivez une campagne qui n’est pas utilisée pour suspendre toutes les dépenses et archiver toutes les entités associées. La seule action que vous pouvez effectuer sur une campagne archivée est de la désarchiver. Les campagnes archivées ne s’affichent pas par défaut, mais sont toujours disponibles pour la création de rapports.
 
 Vous pouvez à tout moment désarchiver une campagne pour restaurer son état précédent.
 
