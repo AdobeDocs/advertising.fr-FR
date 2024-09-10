@@ -3,7 +3,7 @@ title: Format des balises de suivi de conversion JavaScript version 3
 description: Référencez le format des balises de suivi de conversion JavaScript version 3.
 exl-id: 9fc6bb15-d880-4353-a8c5-260b7932ab34
 feature: Search Tracking
-source-git-commit: 8bed8f22c112abcff67727456ef4aad3b38d0ca6
+source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Le format suivant est destiné aux sites qui utilisent le protocole HTTPS. Pour 
                         , allow3rdPartyPixels: 1});
               EF.main();
         };
-        window.id5PartnerId=<Your_ID5_PartnerID>
+        window.id5PartnerId=<ID5_PartnerID>
         window.EF = window.EF || {};
         if (window.EF.main) {
             f();
@@ -56,7 +56,7 @@ où :
 
 * `<ef-userid>` est un identifiant utilisateur numérique unique attribué à l’annonceur par Search, Social et Commerce.
 
-* `<Your_ID5_PartnerID>` est l’ID de partenaire ID5 de l’organisation, que l’organisation reçoit après la signature d’un accord avec [!DNL ID5]. N’incluez cette variable que lorsque l’organisation utilise DSP et possède des [segments personnalisés qui effectuent le suivi des utilisateurs associés aux ID universels ID5](/help/dsp/audiences/universal-ids.md).
+* `<ID5_PartnerID>` est l’ID de partenaire ID5 de l’organisation, que l’organisation reçoit après la signature d’un accord avec [!DNL ID5]. N’incluez cette variable que lorsque l’organisation utilise DSP et possède des [segments personnalisés qui effectuent le suivi des utilisateurs associés aux ID universels ID5](/help/dsp/audiences/universal-ids.md).
 
 * `<propertyname>` est la conversion à suivre. Par exemple, si vous effectuez le suivi d’une conversion appelée &quot;enregistrement&quot;, la balise inclut le paramètre `ev_registration=<registration>` et vous devez transmettre les recettes réelles pour chaque transaction (telles que `ev_registration=1`). Lorsque plusieurs propriétés sont suivies, elles sont unies par une esperluette (`&`), telle que `ev_registration=<registration>&ev_sale=<sale>` (par exemple, `ev_registration=1&ev_sale=12.99`). **Remarque :** Le nom de la propriété ne peut pas contenir de caractères spéciaux.
 

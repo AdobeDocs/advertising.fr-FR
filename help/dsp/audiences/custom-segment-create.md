@@ -3,7 +3,7 @@ title: Création et implémentation d’un segment personnalisé
 description: Découvrez comment créer et mettre en oeuvre un segment personnalisé pour effectuer le suivi des utilisateurs exposés aux publicités ou des utilisateurs qui visitent vos pages web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 3774da55139fd9f70162c931dd7708e8e258ad83
+source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -30,14 +30,14 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
    1. Ajoutez le paramètre suivant à vos pages web avant ou dans le code [JavaScript requis pour [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) — n’importe où avant l’initialisation du dernier service d’événement.
 
-      ```window.id5PartnerId=Your_ID5_PartnerID;```
+      ```window.id5PartnerId=ID5_PartnerID;```
 
       Exemple :
 
       ```
       <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
       <script>
-        window.id5PartnerId=Your_ID5_PartnerID;
+        window.id5PartnerId=ID5_PartnerID;
              if("undefined" != typeof AdCloudEvent)
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
