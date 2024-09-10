@@ -3,9 +3,9 @@ title: Création et implémentation d’un segment personnalisé
 description: Découvrez comment créer et mettre en oeuvre un segment personnalisé pour effectuer le suivi des utilisateurs exposés aux publicités ou des utilisateurs qui visitent vos pages web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 2fe54fbcd9711e714246f074ede086910b538b80
+source-git-commit: 3774da55139fd9f70162c931dd7708e8e258ad83
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,8 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
       ```
+
+      Voir &quot;[Format des balises de suivi de conversion JavaScript version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)&quot; et &quot;[Format des balises de suivi de conversion JavaScript version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)&quot; pour le format de balise complet.
 
    1. Utilisez n’importe quel outil de débogage de navigateur pour vérifier que chaque appel est lancé vers le domaine `lasteventf-tm.everesttech.net` et contient le paramètre `_les_id5` avec un ID5 crypté comme valeur.
 
