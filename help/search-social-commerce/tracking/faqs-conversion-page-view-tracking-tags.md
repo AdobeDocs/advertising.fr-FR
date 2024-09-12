@@ -3,9 +3,9 @@ title: Questions fréquentes sur les balises de suivi de conversion d’Adobe Ad
 description: Comparez les balises de suivi de conversion d’Adobe Advertising et de page vue.
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: e9d55ba2f4b3ce8b1ac19c06fe8759a2f862c480
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Les éléments suivants s’appliquent aux balises de suivi de conversion d’Ad
 | ---- | ---- | ---- | ---- | ---- |
 | Peut être utilisé sur la même page web qu’une autre version JS | — | — | — | n/a |
 | Permet l’utilisation de plusieurs balises avec les mêmes identifiants d’utilisateur annonceur sur la même page web. | Oui | Oui | Oui | — |
-| Permet l’utilisation de plusieurs balises avec différents identifiants utilisateur d’annonceurs sur la même page web. | Oui | Oui | Non | Non |
+| Permet l’utilisation de plusieurs balises avec différents identifiants utilisateur d’annonceurs sur la même page web. | Oui | Oui | — | — |
 | Utilisé par l’extension Adobe Advertising pour Adobe Experience Platform et compatible avec d’autres balises générées à l’aide de Experience Platform | Oui | Oui | — | — |
 | Permet le suivi de toutes les conversions provenant de [!DNL Apple Safari] et [!DNL Mozilla Firefox] lorsqu’elles sont utilisées avec la balise de mappage de conversion JavaScript Adobe Advertising | Oui | Oui | Oui | — |
 
