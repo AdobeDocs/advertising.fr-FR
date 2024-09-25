@@ -2,9 +2,9 @@
 title: Paramètres du compte Advertiser
 description: Voir la description des paramètres de l’annonceur disponibles.
 role: User, Admin
-source-git-commit: 55190d02a2cdf74c39968ccd91abfecc2ce5539d
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -122,11 +122,7 @@ Types de sites à bloquer en fonction du trafic frauduleux et des activités sus
 
 #### [!UICONTROL Pre-Bid Viewability]
 
-Des filtres facultatifs de visibilité avant l’offre par [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) et [!DNL Integral Ad Science] à appliquer aux emplacements. Les valeurs par défaut au niveau de l’annonceur sont sélectionnées pour les nouveaux emplacements. Vous pouvez remplacer les paramètres au niveau de l’annonceur au [niveau d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md).
-
->[!NOTE]
->
->[!DNL Oracle] abandonnera son activité publicitaire d’ici le 30 septembre 2024, y compris tous les services de [!DNL MOAT].
+Des filtres facultatifs de visibilité avant l’offre par [!DNL DoubleVerify] et [!DNL Integral Ad Science] à appliquer aux emplacements. Les valeurs par défaut au niveau de l’annonceur sont sélectionnées pour les nouveaux emplacements. Vous pouvez remplacer les paramètres au niveau de l’annonceur au [niveau d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-viewability}
 
@@ -155,10 +151,6 @@ Des filtres facultatifs de visibilité avant l’offre par [!DNL DoubleVerify], 
 ##### [!UICONTROL Integral Ad Science] {#ias-viewability}
 
 Un filtre **[!UICONTROL Video Viewability Targets]** facultatif et un filtre **[!UICONTROL Display Viewability Targets]** facultatif. Des frais supplémentaires peuvent s’appliquer.
-
-##### [!UICONTROL Moat] {#moat-viewability}
-
-Un filtre **[!UICONTROL Video Viewability Standard]** facultatif et un filtre **[!UICONTROL Display Viewability Standard]** facultatif. Des frais supplémentaires peuvent s’appliquer.
 
 #### [!UICONTROL Ads.text]
 

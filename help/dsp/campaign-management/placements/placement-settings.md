@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '3921'
+source-wordcount: '3887'
 ht-degree: 0%
 
 ---
@@ -346,15 +346,13 @@ Lorsque vous sélectionnez à la fois des ID hérités et des ID universels, la 
    * Pour sélectionner manuellement un intervalle, cliquez à l’intérieur d’une cellule, puis faites-le glisser pour sélectionner l’intervalle.
 1. Cliquez sur **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Facultatif ; disponible pour les annonceurs configurés avec des segments [!DNL Proximic by Comscore] et [!DNL Oracle Data Cloud]) noms ou identifiants de segments spécifiques de [!DNL Proximic by Comscore] et [!DNL Oracle Data Cloud] (anciennement [!DNL Grapeshot]) à inclure en tant que cibles. Des frais supplémentaires peuvent s’appliquer pour cette fonctionnalité. Pour activer cette fonctionnalité et configurer les segments de rubrique, contactez votre équipe de compte d’Adobe.
-
-**Remarque :** [!DNL Oracle] abandonnera ses activités publicitaires d&#39;ici le 30 septembre 2024, y compris tous les services de [!DNL Oracle Data Cloud] (anciennement [!DNL Grapeshot]).
+**[!UICONTROL Topic Targeting]:** (Facultatif ; disponible pour les annonceurs configurés avec [!DNL Proximic by Comscore] segments) noms ou identifiants de segments spécifiques de [!DNL Proximic by Comscore] à inclure en tant que cibles. Des frais supplémentaires peuvent s’appliquer pour cette fonctionnalité. Pour activer cette fonctionnalité et configurer les segments de rubrique, contactez votre équipe de compte d’Adobe.
 
 Pour spécifier le ciblage de rubrique :
 
 1. Cliquez sur ![Modifier](/help/dsp/assets/edit.png).
 1. Spécifiez les segments à cibler :
-   1. Dans la colonne de gauche, sélectionnez le partenaire (*[!UICONTROL Comscore]* ou *[!UICONTROL Grapeshot]*).
+   1. Dans la colonne de gauche, sélectionnez le partenaire : (*[!UICONTROL Comscore]*.
    1. Dans le champ de saisie, saisissez les noms ou les identifiants de segment.
 1. (Facultatif) Pour télécharger un fichier CSV contenant les informations de rubrique vers l’emplacement de téléchargement de votre navigateur, cliquez sur **[!UICONTROL Export]**.
 1. Cliquez sur **[!UICONTROL Save]**.
@@ -363,7 +361,7 @@ Pour spécifier le ciblage de rubrique :
 >
 >* Le ciblage de rubrique limite l’inventaire sur lequel l’emplacement peut enchérir. Par conséquent, utilisez le ciblage de rubrique pour seulement un faible pourcentage de votre achat global.
 >
->* Configurez tout ciblage négatif dans le segment sur [!DNL Proximic by Comscore] ou [!DNL Oracle Data Cloud] (anciennement [!DNL Grapeshot]).
+>* Configurez tout ciblage négatif dans le segment sur [!DNL Proximic by Comscore].
 
 **[!UICONTROL Device Targeting]:** (Facultatif) Informations spécifiques sur les appareils, notamment les types d’appareils, les fabricants, les systèmes d’exploitation, les navigateurs et les types de connectivité, à inclure et exclure en tant que cibles. Les types varient en fonction du type d’emplacement. Pour spécifier le ciblage des périphériques :
 
@@ -431,11 +429,7 @@ Pour spécifier le ciblage de rubrique :
 
 **[!UICONTROL Pre-bid viewability]:**
 
-Les filtres de visibilité avant l’offre par [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) et [!DNL Integral Ad Science] à appliquer pour l’emplacement. Les valeurs par défaut au niveau de l’annonceur sont sélectionnées pour de nouveaux emplacements, mais vous pouvez modifier les paramètres. Des frais supplémentaires peuvent s’appliquer.
-
->[!NOTE]
->
->[!DNL Oracle] abandonnera son activité publicitaire d’ici le 30 septembre 2024, y compris tous les services de [!DNL MOAT].
+Les filtres de visibilité avant l’offre par [!DNL DoubleVerify] et [!DNL Integral Ad Science] à appliquer pour l’emplacement. Les valeurs par défaut au niveau de l’annonceur sont sélectionnées pour de nouveaux emplacements, mais vous pouvez modifier les paramètres. Des frais supplémentaires peuvent s’appliquer.
 
 **[!UICONTROL Ads.txt filtering]:**
 

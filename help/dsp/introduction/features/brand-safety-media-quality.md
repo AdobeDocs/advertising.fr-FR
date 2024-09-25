@@ -3,9 +3,9 @@ title: Sécurité des marques et qualité des médias
 description: En savoir plus sur la sécurité de la marque et les fonctionnalités de qualité multimédia.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: a927c073fd27e0b2c84bd1929eb4d6d233a29cb5
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Advertising DSP fournit une suite de fonctionnalités de protection de la marque
 
 Notre équipe de surveillance des fraudes travaille en étroite collaboration avec les principaux partenaires du secteur, tels que [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)] et [!DNL WhiteOps], pour organiser soigneusement l’inventaire sur notre plateforme. Grâce à une gestion proactive de notre offre, DSP veille à ce que tous les annonceurs de la plate-forme soient protégés du trafic non humain (robots, robots d’indexation, trafic du centre de données et fraude) et à ne diffuser que dans des contextes sécurisés contre la marque.
 
-En plus d’offrir une gestion centralisée de la qualité, nous pensons à donner aux annonceurs les moyens de concevoir les contrôles qui s’alignent sur leur marque. DSP propose des intégrations avec [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], [!DNL Oracle Data Cloud] et [!DNL Peer39], en veillant à ce que chaque annonceur puisse choisir le niveau de protection anti-fraude souhaité, le filtrage contextuel et le ciblage par mot-clé.
+En plus d’offrir une gestion centralisée de la qualité, nous pensons à donner aux annonceurs les moyens de concevoir les contrôles qui s’alignent sur leur marque. DSP propose des intégrations avec [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] et [!DNL Peer39], en veillant à ce que chaque annonceur puisse choisir le niveau de protection anti-fraude souhaité, le filtrage contextuel et le ciblage des mots-clés.
 
 ## Initiatives de qualité
 
@@ -110,15 +110,11 @@ Pour plus d’informations sur les fonctionnalités, contactez directement votre
 
 ### Visibilité avant l’offre {#pre-bid-viewability}
 
-Les filtres de visibilité avant l’enchère, optimisés par nos partenaires de pointe [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) et [!DNL Integral Ad Science], permettent aux annonceurs de s’assurer que leurs campagnes répondent aux objectifs de performances de visibilité souhaités dans l’inventaire des vidéos et des affichages.
-
->[!NOTE]
->
->[!DNL Oracle] abandonnera son activité publicitaire d’ici le 30 septembre 2024, y compris tous les services de [!DNL MOAT].
+Les filtres de visibilité avant l’offre, optimisés par nos partenaires de pointe [!DNL DoubleVerify] et [!DNL Integral Ad Science], permettent aux annonceurs de s’assurer que leurs campagnes correspondent aux objectifs de performances de visionnage souhaités dans l’inventaire vidéo et d’affichage.
 
 Vous pouvez définir des filtres de visibilité par défaut pour chaque annonceur <!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, puis, éventuellement, [personnaliser les paramètres de chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). Des frais supplémentaires peuvent s’appliquer lorsque vous utilisez cette fonction.
 
-![Logo DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logo Oracle Advertising](/help/dsp/assets/oracle-advertising-logo.png) ![Logo Integral Ad Science](/help/dsp/assets/ias-logo.png)
+![Logo DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logo Integral Ad Science](/help/dsp/assets/ias-logo.png)
 
 ### Ciblage et mesure de l’attention
 
@@ -132,17 +128,13 @@ Des frais supplémentaires s’appliquent pour chaque fonctionnalité distincte.
 
 ### Ciblage de rubrique
 
-DSP ciblage de rubrique vous permet de cibler ou de bloquer des listes de mots-clés en exploitant nos partenaires contextuels de pointe [!DNL Comscore] et [!DNL Oracle Data Cloud] (anciennement [!DNL Grapeshot]). Le ciblage des rubriques vous permet de vous assurer que vos publicités sont toujours diffusées dans un environnement qui s’aligne sur votre marque, que ce soit en bloquant des contenus nocifs ou en veillant à dépenser dans un contexte qui garantit un meilleur résultat.
-
->[!NOTE]
->
->[!DNL Oracle] abandonnera son activité publicitaire d’ici le 30 septembre 2024, y compris tous les services de [!DNL Oracle Data Cloud] (anciennement [!DNL Grapeshot]).
+DSP ciblage de rubrique vous permet de cibler ou de bloquer des listes de mots-clés en exploitant notre partenaire contextuel de pointe [!DNL Comscore]. Le ciblage des rubriques vous permet de vous assurer que vos publicités sont toujours diffusées dans un environnement qui s’aligne sur votre marque, que ce soit en bloquant des contenus nocifs ou en veillant à dépenser dans un contexte qui garantit un meilleur résultat.
 
 Le ciblage des rubriques nécessite de créer des segments de rubrique personnalisés directement avec la plateforme partenaire. Une fois les segments créés, vous pouvez [cibler ou exclure un identifiant de segment dans la section [!UICONTROL Audience Targeting] pour chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). Des frais supplémentaires peuvent s’appliquer pour cette fonctionnalité.
 
 Pour créer un compte [!DNL Comscore] et des segments de rubrique personnalisés, vous pouvez demander un identifiant pour [!DNL Activation Segment Manager] à l’adresse [https://agents.comscore.com](https://agents.comscore.com). Pour obtenir des instructions complètes sur la configuration des segments personnalisés, consultez le [[!DNL Comscore] centre d’aide](https://comscoreactivation.zendesk.com/hc/) . Les frais pour les segments personnalisés sont visibles dans [!DNL Segment Manager] lors de leur création.
 
-![Logo Comscore](/help/dsp/assets/comscore-logo.png) ![Logo Grapeshot](/help/dsp/assets/oracle-grapeshot-logo.png)
+![Logo Comscore](/help/dsp/assets/comscore-logo.png)
 
 ### [!DNL DoubleVerify Authentic Brand Safety]
 
