@@ -3,7 +3,7 @@ title: '[!DNL Microsoft Advertising] conversion data'
 description: Découvrez les types de données de conversion suivies par  [!DNL Microsoft Advertising] disponibles dans Search, Social et Commerce.
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: b8a34f3d85947536eb92ee481966f84694250f29
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Microsoft Advertising] données de conversion dans Search, Social et Commerce
 
-Search, Social et Commerce synchronise automatiquement toutes les conversions suivies par vos balises [[!DNL Microsoft Advertising]  de suivi universel des événements (UET)](https://about.ads.microsoft.com/solutions/tools/universal-event-tracking) pour les conversions de site web, y compris les conversions d’affichage publicitaire, à des fins de création de rapports et d’optimisation.
+Search, Social et Commerce synchronise automatiquement toutes les conversions suivies par vos balises [[!DNL Microsoft Advertising]  de suivi universel des événements (UET)](https://help.ads.microsoft.com/#apex/ads/en/53056) pour les conversions de site web, y compris les conversions d’affichage publicitaire, à des fins de création de rapports et d’optimisation.
 
 Toutes les mesures sont automatiquement disponibles dans les vues de gestion de campagne et les rapports de base. Elles peuvent également être utilisées dans les objectifs du portfolio pour l’optimisation des campagnes [!DNL Microsoft Advertising].
 

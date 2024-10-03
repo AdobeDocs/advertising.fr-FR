@@ -3,9 +3,9 @@ title: Types de rapports de performances dans les vues Campaign Management
 description: Découvrez les données du rapport incluses dans les vues de gestion de campagne.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
+source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ Pour afficher une campagne plus en détail, cliquez sur son nom.
 
 #### Indicateurs d’alerte
 
-*Fonctionnalité Beta*
-
 Une colonne &quot;[!UICONTROL Alerts]&quot; indique lorsqu’une campagne, ou toute entité enfant sous celle-ci, présente un problème. Une icône [!UICONTROL Pulse Panel] située à droite de la barre d’outils indique également si des alertes sont disponibles pour les entités répertoriées. Pour plus d’informations, voir &quot;[Affichage des alertes](campaign-alerts.md)&quot;.
 
 ## Création de rapports de campagne unique {#single-campaign-reporting}
@@ -61,8 +59,6 @@ Pour plus d’informations, reportez-vous à la section [ &quot;Affichage du gra
 Dans chaque onglet d’entité, chaque ligne comprend des mesures de fréquence et de diffusion, par défaut, mais vous pouvez [modifier le mode Colonne](campaign-data-views-manage.md#column-view-change) ou même [créer un mode Colonne personnalisé](campaign-data-views-manage.md#column-view-create) à appliquer à tous les sous-onglets de la campagne. Vous pouvez [personnaliser davantage les tables de données](campaign-data-views-manage.md#data-tables-manage) de différentes manières. Chaque tableau de données comprend une ligne [!UICONTROL Subtotals], qui indique soit la somme, soit la valeur moyenne de chaque mesure sur toutes les lignes visibles.
 
 #### Indicateurs d’alerte
-
-*Fonctionnalité Beta*
 
 Une colonne &quot;[!UICONTROL Alerts]&quot; indique lorsqu’un package, un emplacement ou une publicité — ou toute entité enfant sous un package ou un emplacement — présente un problème. Une colonne &quot;[!UICONTROL Alerts]&quot; indique lorsqu’une campagne, ou toute entité enfant sous celle-ci, présente un problème. Une icône [!UICONTROL Pulse Panel] située à droite de la barre d’outils indique également si des alertes sont disponibles pour les entités répertoriées. Pour plus d’informations, voir &quot;[Affichage des alertes](campaign-alerts.md)&quot;.
 

@@ -3,16 +3,14 @@ title: Affichage des alertes
 description: Découvrez comment afficher les alertes et les résolutions recommandées pour vos campagnes et composants de campagne.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 5b07096e5f07c60a3efcbf4213b3bc2f061f36a4
+source-git-commit: 3e227bcd39b3928898e764cace1fea91f61d58d5
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # Affichage des alertes
-
-*Fonctionnalité Beta*
 
 DSP vous aide à identifier les problèmes rencontrés par l’un de vos composants de campagne ou de campagne. Pour chaque problème, DSP crée une alerte avec horodatage et l’action recommandée pour résoudre le problème. Les raisons des alertes incluent les problèmes de configuration (par exemple, lorsqu’aucune publicité n’est jointe à un emplacement ou lorsqu’une offre est mal configurée), le rejet de la publicité et les problèmes d’intégrité de la campagne (comme une diffusion ou des performances médiocres de la publicité). Les alertes sont disponibles aux niveaux de la campagne, du package, de l’emplacement, de l’annonce et de l’opération.
 

@@ -2,7 +2,7 @@
 title: Configuration de tests A/B pour les publicités Adobe Advertising DSP dans Adobe Target
 description: Découvrez comment configurer un test A/B dans  [!DNL Target]  pour vos publicités DSP.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7ffa5d3e9f1aae0f9d66d87c74807e491e818daa
+source-git-commit: 964246bb2c8bfa442f2d4f981c9e02de35c69ed5
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Les instructions suivantes présentent des informations relatives au cas d’uti
 
       >[!NOTE]
       >
-      >Vous pouvez utiliser plusieurs URL pour tester l’entrée du site vue publicitaire. Pour plus d’informations, voir &quot;[Activité multi-page](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html)&quot;. Vous pouvez facilement identifier les entrées principales par URL de page en créant un [rapport d’entrée au site](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) dans Analytics.
+      >Vous pouvez utiliser plusieurs URL pour tester l’entrée du site vue publicitaire. Pour plus d’informations, voir &quot;[Activité multi-page](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html)&quot;. Vous pouvez facilement identifier les entrées principales par URL de page en créant un [rapport d’entrée au site](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports) dans Analytics.
 
    1. Dans le champ **[!UICONTROL Goal]** , saisissez la mesure de succès du test.
 

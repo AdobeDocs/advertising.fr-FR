@@ -4,7 +4,7 @@ user-guide-title: Guide d’Advertising Search, Social et Commerce
 user-guide-description: Ce guide décrit les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires liées aux moteurs de recherche, aux réseaux sociaux et au commerce.
 breadcrumb-title: Guide d’Advertising Search, Social et Commerce
 index: true
-source-git-commit: 2c85ae5ff14349603ea38b2d478e4ab723800bea
+source-git-commit: 2729e7575f9950eb59b181d542dea7cb3b34cfa7
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 2%
