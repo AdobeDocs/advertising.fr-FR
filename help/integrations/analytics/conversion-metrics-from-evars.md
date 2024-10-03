@@ -3,9 +3,9 @@ title: Création de mesures de conversion à partir d’Adobe Analytics [!DNL eV
 description: Configurez les mesures d’événement de succès personnalisées à l’aide des données de niveau  [!DNL eVar] et  [!DNL prop].
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: db815958b039508b005f4be60561ddc4656da86e
+source-git-commit: 91e8435ff00feca804dfa2f4c323f88ee31813ab
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ La plupart des tâches suivantes doivent être effectuées par un administrateur
 
 Une fois la mesure disponible, vous pouvez l’utiliser pour créer un objectif, que vous pouvez ensuite affecter à un portfolio Search, Social et Commerce ou utiliser comme [objectif personnalisé](/help/dsp/optimization/custom-goal.md) pour un module DSP.
 
-reportez-vous au chapitre du Guide d’optimisation intitulé &quot;Objectifs&quot;, disponible dans Search, Social et Commerce.
+Pour plus d’informations sur la création d’objectifs, consultez le chapitre &quot;Objectifs&quot; du Guide d’optimisation, disponible dans Search, Social et Commerce.
 
 >[!MORELIKETHIS]
 >
