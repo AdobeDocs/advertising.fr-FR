@@ -3,9 +3,9 @@ title: Invitation d’un nouvel utilisateur pour votre compte d’organisation
 description: Découvrez comment inviter un nouvel utilisateur à rejoindre le compte.
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
+source-git-commit: a8ee699137d683986264e841b03bc292ce7b7843
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Invitation d’un nouvel utilisateur pour votre compte d’organisation
 
 Les utilisateurs administrateurs peuvent inviter un nouvel utilisateur pour le compte. Une fois que l’utilisateur a accepté l’invitation, il a accès à tous les publicitaires pour le compte. Les nouveaux utilisateurs disposent par défaut d’un accès en lecture seule.
+
+Le lien d’invitation expire dans 24 heures. Si le lien expire, vous pouvez renvoyer l’invitation.
 
 Si nécessaire, vous pouvez annuler l’invitation d’un utilisateur avec une invitation en attente.
 
