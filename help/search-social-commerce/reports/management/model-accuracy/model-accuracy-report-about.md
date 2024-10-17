@@ -1,18 +1,18 @@
 ---
 title: À propos des rapports de précision des modèles
-description: Découvrez les rapports qui indiquent l’exactitude des modèles de coûts et de recettes utilisés pour optimiser les offres.
+description: Découvrez les rapports qui indiquent l’exactitude des modèles de coûts et de recettes utilisés pour optimiser un portefeuille.
 exl-id: 2f655db6-8f4f-4eae-9f18-cc04acad3c5c
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 93e8e7748c62f6938b6728e6ddcadc389b0ad85b
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
 # À propos des rapports de précision des modèles
 
-Les rapports de précision du modèle indiquent la précision des modèles de coûts et de recettes utilisés pour optimiser les offres.
+Les rapports de précision du modèle indiquent la précision des modèles de coûts et de recettes utilisés pour optimiser les offres, les budgets et les cibles pour un portefeuille, en fonction du type d’optimisation.
 
 Des inexactitudes peuvent indiquer des problèmes de performances et, par conséquent, vous devrez peut-être ajuster les paramètres du portfolio. Pour plus d’informations sur la résolution des problèmes d’inexactitude des prévisions, voir &quot;Questions fréquentes à propos des Portfolios&quot; dans la section Portfolios du Guide d’optimisation, disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
 

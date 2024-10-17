@@ -3,9 +3,9 @@ title: Glossaire
 description: Voir les définitions des termes clés.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 3500e22944223997dc56dc94c24639a57e8c54f4
+source-git-commit: 56eaa534c1ee61f399b1ab2cd53d9e10ac9b5386
 workflow-type: tm+mt
-source-wordcount: '2081'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **Suivi des conversions :** Le suivi des conversions utilise des cookies pour effectuer le suivi a) des clics sur les publicités d’un annonceur sur les réseaux publicitaires et b) des transactions résultantes sur le site web de l’annonceur.
 
-**Précision des coûts :** (Annonceurs avec portefeuilles) Dépense réelle pour un portefeuille divisée par les dépenses prévues.
+**Précision des coûts :** (Annonceurs avec portefeuilles) Dépense réelle pour un portefeuille divisée par les dépenses prévues. [Les rapports de précision du modèle](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indiquent la précision des modèles de coûts utilisés pour l’optimisation.
 
 **Modèle de coût :** (annonceurs avec portefeuilles) Technologie Search, Social, &amp; Commerce qui prédit le volume de coût, l’offre requise pour gagner chaque poste ou emplacement, et le CPC (recherche) ou CPM (affichage) pour chaque unité d’offre à l’aide de données historiques et de techniques de prévision mathématique.
 
@@ -90,6 +90,9 @@ ht-degree: 0%
 
 ## G-H {#g-h}
 
+**demi-vie :** temps nécessaire pour qu’une quantité diminue à la moitié de sa valeur initiale. Pour chaque portefeuille, vous pouvez spécifier des demi-vies pour indiquer la durée de validité des données pour les modèles de coûts et de recettes.
+Voir &quot;demi-vie du modèle de coût&quot; et &quot;demi-vie du modèle de revenu&quot;.
+
 ## I-J {#i-j}
 
 **impression :** affichage unique d’une publicité sur une page web, une application mobile ou tout autre support de diffusion. Un utilisateur n’a pas à afficher ni à cliquer sur la publicité pour qu’elle soit comptée comme impression.
@@ -120,13 +123,15 @@ ht-degree: 0%
 
 **offre minimale :** 1) Montant minimum à payer par impression ou par 1 000 impressions. 2) Pour les mots-clés de recherche, offre minimale requise pour un mot-clé donné en fonction de son score de qualité. L&#39;offre minimale est généralement le montant le moins élevé que vous puissiez payer par clic pour que votre mot-clé affiche des publicités.
 
+**Précision du modèle :** (Annonceurs avec portefeuilles) Pourcentage de précision des modèles de coûts et de recettes utilisés pour optimiser les offres, les budgets et les cibles pour un portefeuille. Voir &quot;Modèle de coût&quot;, &quot;Précision des coûts&quot;, &quot;Modèle des recettes&quot; et &quot;Précision des recettes&quot;.  [Les rapports de précision du modèle](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indiquent la précision des modèles de coût et de chiffre d’affaires.
+
 ## O-P {#o-p}
 
-**objectif :** (annonceurs disposant de portefeuilles) objectif qu’un client définit pour atteindre son objectif commercial dans le cadre d’un portefeuille spécifique ou d’une campagne d’affichage, par exemple pour maximiser les bénéfices ou atteindre une cible de vente spécifique. Un objectif consiste à effectuer le suivi et l’optimisation des mesures de conversion pour le portefeuille, ainsi qu’à déterminer leur poids relatif.
+**objectif :** (annonceurs disposant de portefeuilles) objectif qu’un client définit pour atteindre son objectif commercial dans le cadre d’un portefeuille spécifique ou d’une campagne d’affichage, par exemple pour maximiser les bénéfices ou atteindre une cible de vente spécifique. Un objectif consiste à effectuer le suivi et l’optimisation des mesures de conversion pour le portefeuille, ainsi qu’à déterminer leur poids relatif. Les conversions pondérées totales du portfolio sont calculées comme la &quot;valeur objective&quot;.
 
 **Valeur de l’objectif :** (Publicitaires avec portefeuilles) Le total des conversions pondérées tel que calculé en fonction de l’objectif actuel du portfolio, notamment :
 
-* toutes les conversions, en prenant en compte a) les poids affectés à chaque conversion dans la fonction objective du portfolio et, le cas échéant, b) le poids des affichages publicitaires.
+* toutes les conversions, en prenant en compte a) les poids affectés à chaque conversion dans l’objectif du portfolio et, le cas échéant, b) le poids d’affichage publicitaire pour les affichages publicitaires.
 
 * tous les clics, que la fonctionnalité d’optimisation prend en compte pour une seule conversion et est pondérée en fonction de la valeur de clic de l’objectif.
 
@@ -158,7 +163,7 @@ Cette valeur est identique à celle de la colonne héritée &quot;Recettes pond�
 
 **retour sur investissement :** (ROI) Recettes moins les coûts.
 
-**Précision des recettes :** (Publicitaires avec portefeuilles) Recettes réelles pour un portefeuille divisé par les recettes prévues.
+**Précision des recettes :** (Publicitaires avec portefeuilles) Recettes réelles pour un portefeuille divisé par les recettes prévues. [Les rapports de précision du modèle](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indiquent la précision des modèles de recettes utilisés pour l’optimisation.
 
 **Modèle de recettes :** (Publicitaires avec portefeuilles) technologie de recherche, de réseaux sociaux et de Commerce qui prédit le taux de conversion et le retour estimé pour chaque unité d’offre, en fonction des données de clic (recherche et réseaux sociaux) ou des données d’impression (affichage) et des données de conversion de l’annonceur.
 
@@ -195,6 +200,8 @@ Cette valeur est identique à celle de la colonne héritée &quot;Recettes pond�
 **poids d’affichage publicitaire :** (campagnes d’affichage et de réseaux sociaux uniquement) Paramètre au niveau de l’annonceur qui spécifie le poids à attribuer à une conversion d’affichage publicitaire par rapport au poids attribué à une conversion basée sur les clics, en pourcentage.
 
 ## W-X {#w-x}
+
+**objectif pondéré :** Voir &quot;objectif&quot;.
 
 **revenu pondéré :** Voir &quot;valeur objective&quot;.
 
