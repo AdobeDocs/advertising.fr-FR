@@ -3,9 +3,9 @@ title: À propos de Adobe Advertising Search, Social et Commerce
 description: Découvrez Search, Social et Commerce.
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-source-git-commit: 3c1f534ef13b040f450d21753e91a14efd20bfaf
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Dans le cadre de l’Adobe Advertising, Advertising Search, Social et Commerce c
 
 ## Technologie axée sur l’IA pour l’optimisation des publicités
 
-Search, Social et Commerce automatise et optimise la gestion des offres et des budgets pour les campagnes publicitaires au sein des réseaux publicitaires dans les limites des objectifs commerciaux, des mesures, du budget et d’autres contraintes commerciales d’un annonceur. Il effectue le suivi de l’historique des clics, des coûts et des conversions pour chacun des mots-clés et publicités d’un annonceur, ainsi que des informations sur le paysage des offres sur chaque canal marketing. Grâce à une approche basée sur la théorie du portefeuille, la fonctionnalité d’optimisation compare toutes les attributions possibles de votre budget à l’échelle d’un portefeuille entier de campagnes afin de déterminer les offres et les budgets de campagne qui généreront le meilleur retour sur dépenses publicitaires. Elle exécute donc les offres et les budgets en conséquence. La fonctionnalité d’optimisation surveille en permanence les mots-clés et les publicités d’un annonceur, en ajustant dynamiquement les offres et les budgets au fur et à mesure que la marketplace change.
+Search, Social et Commerce automatise et optimise la gestion des offres et des budgets pour les campagnes publicitaires au sein des réseaux publicitaires dans les limites des objectifs commerciaux, des mesures, du budget et d’autres contraintes commerciales d’un annonceur. Il effectue le suivi de l’historique des clics, des coûts et des conversions pour chacun des mots-clés et publicités d’un annonceur, ainsi que des informations sur le paysage des offres sur chaque canal marketing. Grâce à une approche basée sur la théorie du portefeuille, la fonctionnalité d’optimisation compare toutes les attributions possibles de votre budget à l’échelle d’un portefeuille entier de campagnes afin de déterminer les offres et les budgets de campagne qui généreront le meilleur retour sur dépenses publicitaires. Elle exécute en conséquence les cibles d’offres, de budgets et de stratégie d’offre. La fonctionnalité d’optimisation surveille en permanence les mots-clés et les publicités d’un annonceur, en ajustant dynamiquement les offres, les budgets et les cibles au fur et à mesure que la marketplace change.
 
 Plusieurs types d’optimisation sont disponibles, ce qui permet à Search, Social et Commerce et au réseau publicitaire de contrôler à différents degrés l’optimisation des offres. Selon le type d’optimisation, vous pouvez optimiser vos portfolios à l’aide de conversions suivies par Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] ou d’autres flux d’entreprise propriétaires.
 

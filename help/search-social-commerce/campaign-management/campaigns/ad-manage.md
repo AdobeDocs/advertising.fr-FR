@@ -3,9 +3,9 @@ title: Gestion des publicités
 description: Découvrez comment créer et gérer des publicités.
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Vous pouvez créer, modifier et modifier l’état des publicités à partir de 
 >[!NOTE]
 >
 >* Les types d’annonces suivants sont *mutables*, ce qui signifie que vous pouvez modifier la copie ou l’image de la publicité et conserver le même ID d’annonce : tous les [!DNL Google Ads] types d’annonces, à l’exception des annonces de recherche dynamique, et [!DNL Microsoft Advertising] annonces textuelles étendues.
->* Toutes les autres publicités prises en charge sont *non modifiable*, ce qui signifie que la modification de la copie de publicité ou de l’image supprime la publicité existante et en crée une nouvelle. Les performances de la nouvelle publicité peuvent être volatiles pendant quelques semaines, tandis que Search, Social et Commerce rassemblent suffisamment de données pour optimiser les offres.
+>* Toutes les autres publicités prises en charge sont *non modifiable*, ce qui signifie que la modification de la copie de publicité ou de l’image supprime la publicité existante et en crée une nouvelle. Les performances de la nouvelle publicité peuvent être volatiles pendant quelques semaines, tandis que Search, Social et Commerce rassemble suffisamment de données pour l’optimisation.
 >* Vous ne pouvez pas modifier le contenu d’une publicité de produit, à l’exception de la ligne de promotion pour les publicités de produit [!DNL Microsoft Advertising]. Vous pouvez toutefois suspendre ou supprimer une publicité.
 
 >[!TIP]

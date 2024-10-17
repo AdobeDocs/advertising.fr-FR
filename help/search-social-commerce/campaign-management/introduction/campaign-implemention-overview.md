@@ -3,9 +3,9 @@ title: Présentation de l’implémentation des comptes et campagnes de réseau 
 description: Découvrez les tâches impliquées dans la configuration, la synchronisation et la gestion de vos comptes réseau publicitaires.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Cette page contient des informations sur tous les types de compte, y compris sur
 
 1. (Publicitaires avec Adobe Analytics) [Intégrez Adobe Advertising et Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) afin qu’ils puissent exchange des données.
 
-1. (Pour permettre à Search, Social et Commerce d’optimiser les offres et/ou les budgets de campagne ; [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) uniquement) [ Affectez la campagne à un portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
+1. (Pour permettre à Search, Social et Commerce d’optimiser les offres, les budgets de campagne et/ou les cibles de stratégie d’offre de campagne ; [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) uniquement) [Affectez la campagne à un portefeuille](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
    Si le portefeuille n’est pas déjà lancé (optimisation des offres et/ou des budgets), laissez la fonctionnalité d’optimisation rassembler suffisamment de données pour créer des modèles de coûts et de recettes afin que vous puissiez établir les performances de base du portefeuille avant de le lancer.
 

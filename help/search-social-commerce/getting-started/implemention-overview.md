@@ -3,7 +3,7 @@ title: Présentation de l’implémentation de Search, Social et Commerce
 description: Formation
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Voici le processus général d’implémentation et d’utilisation de Search, S
 
       >[!NOTE]
       >
-      >Search, Social et Commerce continue à suivre et à générer des rapports sur les données des campagnes qui ne sont pas affectées à des portefeuilles, mais n’optimise pas les offres pour ces derniers.
+      >Search, Social et Commerce continue à suivre et à générer des rapports sur les données des campagnes qui ne sont pas affectées à des portefeuilles, mais ne les optimise pas.
 
    1. Une fois que suffisamment de données sont disponibles pour créer une ligne de base, l’équipe peut lancer le portfolio, ce qui permet à Search, Social et Commerce d’optimiser les offres et/ou les budgets du portfolio, en fonction du type d’optimisation.
 

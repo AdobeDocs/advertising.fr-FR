@@ -3,16 +3,16 @@ title: Affectation de campagnes à un portfolio
 description: Découvrez comment inclure des campagnes dans des portfolios pour l’optimisation.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # Affectation de campagnes à un portfolio
 
-L’affectation d’une campagne à un portefeuille optimisé permet à Search, Social et Commerce d’optimiser les offres et les budgets de campagne pour les mots-clés et les publicités de la campagne. Vous pouvez affecter des campagnes à un portfolio à partir de la vue [!UICONTROL Campaigns], lorsque vous créez le portfolio, ou en modifiant les paramètres d’un portfolio.
+L’affectation d’une campagne à un portefeuille optimisé permet à Search, Social et Commerce d’optimiser les offres, les budgets de campagne et les cibles de stratégie d’offre pour les mots-clés et les publicités de la campagne. Vous pouvez affecter des campagnes à un portfolio à partir de la vue [!UICONTROL Campaigns], lorsque vous créez le portfolio, ou en modifiant les paramètres d’un portfolio.
 
 Tous les types de campagne et réseaux publicitaires ne sont pas éligibles à l’optimisation. Consultez la liste des [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) que vous pouvez inclure dans un portfolio. De plus, vérifiez la prise en charge de l’optimisation pour chaque stratégie d’offre de campagne en consultant &quot;Types d’offre de Portfolio éligibles par stratégie d’offre de campagne&quot; dans le chapitre du guide d’optimisation sur &quot;Portfolios&quot;, disponible dans Search, Social et Commerce<!-- verify convention for referencing Optimization Guide here -->.
 

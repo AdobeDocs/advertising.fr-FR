@@ -3,16 +3,16 @@ title: Supprimer des campagnes d’un portfolio
 description: Découvrez comment supprimer des campagnes d’un portfolio.
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
 
 # Supprimer des campagnes d’un portfolio
 
-Lorsque vous supprimez une campagne d’un portefeuille, Search, Social et Commerce ne peut pas optimiser les offres et les budgets pour les mots-clés et les publicités de cette campagne.
+Lorsque vous supprimez une campagne d’un portefeuille, Search, Social et Commerce ne peut pas optimiser les offres, les budgets de campagne et les cibles de stratégie d’offre pour cette campagne.
 
 L’action est consignée dans l’historique des modifications du portefeuille.
 

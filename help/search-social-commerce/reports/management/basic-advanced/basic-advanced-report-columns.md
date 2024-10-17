@@ -3,9 +3,9 @@ title: Colonnes de rapports pour les rapports de base et avancés
 description: Découvrez les colonnes de données disponibles pour les rapports de base et avancés.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '3741'
+source-wordcount: '3743'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Group Name] | Nom du groupe de portefeuille auquel appartient le portfolio. |
 | [!UICONTROL Portfolio ID] | Identifiant numérique de portefeuille. |
 | [!UICONTROL Portfolio Spend Strategy] | ([!UICONTROL Portfolio Report]) La stratégie de dépenses pour le portefeuille : <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly]</i>, <i>[!UICONTROL Monthly]</i>, <i>[!UICONTROL ROI]</i>, <i>[!UICONTROL Day of week]</i>, <i>[!UICONTROL Day of month]</i>, <i>[!UICONTROL CPT]</i>, <i>[!UICONTROL Marginal CPT]</i>, <i>[!UICONTROL Google Target CPA]</i> ou <i>[!UICONTROL Google Target ROAS]</i>. |
-| [!UICONTROL Portfolio Status] | État du portfolio :<ul><li><i>[!UICONTROL Optimize] :</i> La fonctionnalité d’optimisation collecte les données de clics et de recettes pour les campagnes pertinentes, en modélisant les données pour optimiser les offres et/ou les budgets de campagne (en fonction du type d’optimisation et des stratégies d’offre de campagne).</li><li><i>[!UICONTROL Active] : </i> La fonctionnalité d’optimisation collecte les données de clics et de recettes pour les campagnes pertinentes et modélise les données, mais elle n’optimise pas les offres ni les budgets de campagne.</li><li><i>[!UICONTROL Inactive] : </i> La fonctionnalité d’optimisation collecte des données de clics pour les campagnes pertinentes à des fins de création de rapports, mais elle ne modélise pas les données, ni n’optimise les offres ou les budgets de campagne.</li></ul> |
+| [!UICONTROL Portfolio Status] | État du portfolio :<ul><li><i>[!UICONTROL Optimize] : </i> La fonctionnalité d’optimisation collecte les données de clics et de recettes pour les campagnes pertinentes, en modélisant les données utilisées pour l’optimisation et en optimisant les offres, les budgets de campagne et les cibles de stratégie d’offre de campagne (en fonction du type d’optimisation et des stratégies d’offre).</li><li><i>[!UICONTROL Active] : </i> La fonctionnalité d’optimisation collecte les données de clics et de recettes pour les campagnes pertinentes et modélise les données, mais elle n’optimise pas les offres ni les budgets de campagne.</li><li><i>[!UICONTROL Inactive] : </i> La fonctionnalité d’optimisation collecte des données de clics pour les campagnes pertinentes à des fins de création de rapports, mais elle ne modélise pas les données, ni n’optimise les offres ou les budgets de campagne.</li></ul> |
 | [!UICONTROL Portfolio Target] | ([!UICONTROL Portfolio Report]) Cible quotidienne de la stratégie de dépenses du portefeuille. Pour les stratégies quotidiennes/mensuelles et par jour de la semaine/du mois, la cible du jour en cours s’affiche. |
 | [!UICONTROL Preferred Devices] | ([!DNL Google Ads], [!DNL Microsoft Advertising] et [!DNL Yahoo! Japan Ads] campagnes) Indique si les paramètres de publicité donnent la préférence à <i>[!UICONTROL Mobile ads]</i> ou à <i>[!UICONTROL All ads]</i>. |
 | [!UICONTROL Product Group ID] | Identifiant numérique attribué par le réseau publicitaire au groupe de produits. |
