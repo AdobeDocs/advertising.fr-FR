@@ -3,9 +3,9 @@ title: Glossaire
 description: Voir les définitions des termes clés.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 56eaa534c1ee61f399b1ab2cd53d9e10ac9b5386
+source-git-commit: 625bb9a466684993ac55d6358880b1ff3052d592
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2240'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **Suivi des conversions :** Le suivi des conversions utilise des cookies pour effectuer le suivi a) des clics sur les publicités d’un annonceur sur les réseaux publicitaires et b) des transactions résultantes sur le site web de l’annonceur.
 
-**Précision des coûts :** (Annonceurs avec portefeuilles) Dépense réelle pour un portefeuille divisée par les dépenses prévues. [Les rapports de précision du modèle](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indiquent la précision des modèles de coûts utilisés pour l’optimisation.
+**Précision des coûts :** (Annonceurs avec portefeuilles) Dépense réelle pour un portefeuille divisée par les dépenses prévues. Les [rapports de précision du modèle](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indiquent la précision des modèles de coûts utilisés pour l’optimisation, et la [[!UICONTROL Model Accuracy]perspicacité](/help/search-social-commerce/advertising-insights/insight-about.md) comprend plus de détails, en plus des recommandations visant à améliorer la précision du modèle.
 
 **Modèle de coût :** (annonceurs avec portefeuilles) Technologie Search, Social, &amp; Commerce qui prédit le volume de coût, l’offre requise pour gagner chaque poste ou emplacement, et le CPC (recherche) ou CPM (affichage) pour chaque unité d’offre à l’aide de données historiques et de techniques de prévision mathématique.
 
@@ -123,7 +123,7 @@ Voir &quot;demi-vie du modèle de coût&quot; et &quot;demi-vie du modèle de re
 
 **offre minimale :** 1) Montant minimum à payer par impression ou par 1 000 impressions. 2) Pour les mots-clés de recherche, offre minimale requise pour un mot-clé donné en fonction de son score de qualité. L&#39;offre minimale est généralement le montant le moins élevé que vous puissiez payer par clic pour que votre mot-clé affiche des publicités.
 
-**Précision du modèle :** (Annonceurs avec portefeuilles) Pourcentage de précision des modèles de coûts et de recettes utilisés pour optimiser les offres, les budgets et les cibles pour un portefeuille. Voir &quot;Modèle de coût&quot;, &quot;Précision des coûts&quot;, &quot;Modèle des recettes&quot; et &quot;Précision des recettes&quot;.  [Les rapports de précision du modèle](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indiquent la précision des modèles de coût et de chiffre d’affaires.
+**Précision du modèle :** (Annonceurs avec portefeuilles) Pourcentage de précision des modèles de coûts et de recettes utilisés pour optimiser les offres, les budgets de campagne et les cibles de stratégie d’offre pour un portefeuille. Voir &quot;Modèle de coût&quot;, &quot;Précision des coûts&quot;, &quot;Modèle des recettes&quot; et &quot;Précision des recettes&quot;.  [Les rapports de précision du modèle](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indiquent la précision des modèles de coût et de chiffre d’affaires.
 
 ## O-P {#o-p}
 
