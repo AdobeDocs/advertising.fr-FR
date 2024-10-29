@@ -3,9 +3,9 @@ title: Paramètres des rapports personnalisés
 description: Reportez-vous à la description des paramètres de rapport personnalisés.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 4fb843e66edddd4585d4a9b142eb9a7750152d27
+source-git-commit: d3422ecf101eb6fc1ea1d0df29a9a40363666de4
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,8 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 * Sélectionnez une dimension, sélectionnez l’opérateur (*equals* ou *not equals*), puis sélectionnez la valeur applicable. Par exemple, pour renvoyer des données uniquement pour les publicités preroll, spécifiez &quot;[!UICONTROL Ad Type equals Preroll]&quot;.
 * (Facultatif) Ajoutez des critères supplémentaires au filtre.
 * (Facultatif) Ajoutez des filtres supplémentaires, chacun avec un ou plusieurs critères.
+
+**[!UICONTROL Include data from Adobe Advertising SSC]:** Inclut des publicités dans Advertising Search, Social et Commerce dans les résultats du rapport.
 
 ## Section [!UICONTROL Build Your Report]
 

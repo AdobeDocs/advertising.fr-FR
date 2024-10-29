@@ -3,9 +3,9 @@ title: Paramètres de campagne '[!DNL Google Ads]'
 description: Référencez les paramètres des campagnes  [!DNL Google Ads] .
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: c4fa1ffa1dd21b2889ea18cb6a1a7cdec477bcfe
+source-git-commit: ba85bd47c6d6f145aef31688b2bd69cdc94f33f0
 workflow-type: tm+mt
-source-wordcount: '2503'
+source-wordcount: '2576'
 ht-degree: 0%
 
 ---
@@ -196,6 +196,18 @@ par pays. Si vous n’en sélectionnez aucune, toutes sont ciblées.
 
 {{$include /help/_includes/dsa-language.md}}
 
+## [!UICONTROL Customer Acquisition Goals]
+
+**[!UICONTROL Customer Acquisition]:** (Performance max et campagnes de recherche uniquement) Comment allouer des offres pour les nouveaux clients et les clients existants :
+
+* *[!UICONTROL Bid equally for new and existing customers]*
+
+* *[!UICONTROL Bid higher for new customers than for existing customers]*
+
+  **Remarque :** Pour utiliser ce paramètre, vous devez d’abord activer l’objectif d’acquisition du nouveau client pour le compte [!DNL Google Ads] ou, le cas échéant, pour le compte de gestionnaire. L’objectif définit les listes de clients existants éligibles et la valeur de conversion supplémentaire pour les nouveaux clients dans les paramètres de conversion. Voir les étapes 1 à 2 de l’ [!DNL Google Ads] aide &quot;[Activation de l’objectif d’acquisition du nouveau client](https://support.google.com/google-ads/answer/14007601)&quot;.
+
+* *[!UICONTROL Only bid for new customers]*
+
 ## [!UICONTROL Negative Keywords]
 
 <!-- **[!UICONTROL Negative Keywords]:** -->
@@ -368,4 +380,3 @@ Pour créer un objectif de conversion personnalisé, cliquez sur **[!UICONTROL +
 >[!MORELIKETHIS]
 >
 >* [Gérer les campagnes](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-
