@@ -3,7 +3,7 @@ title: À propos des rapports personnalisés
 description: Découvrez les options de création manuelle de rapports personnalisés ou d’utilisation de modèles de rapports préconfigurés.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 691c0097a81ee5066448fc411dc3de8f853e9bbd
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 0%
@@ -73,9 +73,9 @@ Vous pouvez générer les rapports une seule fois ou les planifier tous les jour
 
    * **[!UICONTROL Site]:** Par défaut, inclut les mesures standard, les dépenses nettes totales des médias et les dépenses nettes facturables totales par site.
 
-   * **[!UICONTROL Household Reach & Frequency]:** Utilisez ce rapport pour afficher les impressions, la portée et la fréquence d’une dimension unique dans les formats d’annonce au niveau d’un foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil/d’un cookie. Utilisez les insights pour optimiser votre mix média, améliorer les performances et identifier les opportunités de portée incrémentielle. Pour plus d’informations, voir &quot;[Questions fréquentes sur les rapports des ménages](/help/dsp/reports/faq-household-report.md)&quot;. Les données ne sont pas disponibles pour les emplacements qui ciblent des identifiants universels.
+   * **[!UICONTROL Household Reach & Frequency]:** Utilisez ce rapport pour afficher les impressions, la portée et la fréquence d’une dimension unique dans les formats d’annonce au niveau d’un foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil/d’un cookie. Utilisez les insights pour optimiser votre mix média, améliorer les performances et identifier les opportunités de portée incrémentielle. Pour plus d’informations, voir &quot;[Questions fréquentes sur les rapports des ménages](/help/dsp/reports/faq-reports.md)&quot;. Les données ne sont pas disponibles pour les emplacements qui ciblent des identifiants universels.
 
-   * **[!UICONTROL Household Conversions]:** Utilisez ce rapport pour afficher les conversions d’affichages publicitaires au niveau du foyer en fonction de l’adresse IP, plutôt qu’au niveau de l’appareil ou du cookie. Utilisez les insights pour mesurer et optimiser les performances de la campagne. Pour plus d’informations, voir &quot;[Questions fréquentes sur les rapports des ménages](/help/dsp/reports/faq-household-report.md)&quot;. Les données ne sont pas disponibles pour les emplacements qui ciblent des identifiants universels.
+   * **[!UICONTROL Household Conversions]:** Utilisez ce rapport pour afficher les conversions d’affichages publicitaires au niveau du foyer en fonction de l’adresse IP, plutôt qu’au niveau de l’appareil ou du cookie. Utilisez les insights pour mesurer et optimiser les performances de la campagne. Pour plus d’informations, voir &quot;[Questions fréquentes sur les rapports des ménages](/help/dsp/reports/faq-reports.md)&quot;. Les données ne sont pas disponibles pour les emplacements qui ciblent des identifiants universels.
 
    * **[!UICONTROL Path to Conversion Beta]:** (fonctionnalité Beta) Utilisez ce rapport pour identifier comment optimiser les budgets et personnaliser les publicités en fonction des séquences d’interaction publicitaire les plus performantes. Le rapport montre la séquence des points d’interaction dans le même foyer qui mènent à chacune des mesures de conversion sélectionnées dans la plage de données spécifiée. Le rapport utilise une période de recherche en amont spécifiée entre la première interaction et une conversion et peut inclure une dimension :
 
@@ -130,7 +130,7 @@ Vous pouvez créer de nouveaux rapports personnalisés, modifier des rapports ex
 >* [Créer un rapport personnalisé](/help/dsp/reports/report-create.md)
 >* [Télécharger un rapport personnalisé](/help/dsp/reports/report-download.md)
 >* [Paramètres de rapport personnalisés](/help/dsp/reports/report-settings.md)
->* [ Questions fréquentes sur les rapports des ménages](/help/dsp/reports/faq-household-report.md)
+>* [ Questions fréquentes sur les rapports des ménages](/help/dsp/reports/faq-reports.md)
 >* [Types de rapports de performances dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonnes de rapport disponibles](/help/dsp/reports/report-columns.md)
 >* [À propos de [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: 281ab6a76b34b718281e5e656e4b29ecaf608bd3
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '932'
 ht-degree: 3%
 
 ---
@@ -46,11 +46,12 @@ ht-degree: 3%
       + [Archivage ou désarchivage d’une campagne](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
       + [Affichage du journal des modifications d’une campagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [Paramètres de campagne](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+      + [Vérification et modification des paramètres des composants Campaign à l’aide de feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md)
       + [Liste de contrôle de Campaign Launch](/help/dsp/campaign-management/campaign-launch-checklist.md)
    + Packages {#packages}
       + [À propos de la gestion de modules](/help/dsp/campaign-management/packages/package-about.md)
       + [Création d’un module](/help/dsp/campaign-management/packages/package-create.md)
-      + [Vérification et modification des paramètres du module à l’aide de feuilles de calcul](/help/dsp/campaign-management/packages/package-qa.md)
+      + [Vérification et modification des paramètres du module à l’aide de feuilles d’envoi groupées](/help/dsp/campaign-management/packages/package-qa.md)
       + [Modification d’un module](/help/dsp/campaign-management/packages/package-edit.md)
       + [Dupliquer un package](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [Joindre un emplacement à un package](/help/dsp/campaign-management/packages/package-attach-placement.md)
@@ -61,7 +62,7 @@ ht-degree: 3%
    + Emplacements {#placements}
       + [À propos de la gestion des emplacements](/help/dsp/campaign-management/placements/placement-about.md)
       + [Création d’un emplacement](/help/dsp/campaign-management/placements/placement-create.md)
-      + [Vérification et modification des paramètres d’emplacement à l’aide de feuilles de calcul](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [Vérification et modification des paramètres d’emplacement à l’aide de feuilles d’envoi groupées](/help/dsp/campaign-management/placements/placement-qa.md)
       + [Modifier les emplacements](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Dupliquer un emplacement](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Gestion des multiplicateurs d’offre pour les emplacements](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
@@ -203,7 +204,7 @@ ht-degree: 3%
    + [Téléchargement d’un rapport personnalisé](/help/dsp/reports/report-download.md)
    + [Paramètres des rapports personnalisés](/help/dsp/reports/report-settings.md)
    + [Colonnes de rapport disponibles](/help/dsp/reports/report-columns.md)
-   + [Questions fréquentes sur les rapports sur les ménages](/help/dsp/reports/faq-household-report.md)
+   + [Questions fréquentes sur les rapports sur les ménages](/help/dsp/reports/faq-reports.md)
    + Destinations de rapports {#report-destinations}
       + [À propos de [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
       + [Créer un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
