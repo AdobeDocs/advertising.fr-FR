@@ -3,7 +3,7 @@ title: Paramètres de campagne '[!DNL Google Ads]'
 description: Référencez les paramètres des campagnes  [!DNL Google Ads] .
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: ba85bd47c6d6f145aef31688b2bd69cdc94f33f0
+source-git-commit: ae98579b6b2edb54de5753e84891987a88184515
 workflow-type: tm+mt
 source-wordcount: '2576'
 ht-degree: 0%
@@ -14,14 +14,13 @@ ht-degree: 0%
 
 ## \[Ecran de création de campagne\]
 
-**[!UICONTROL Campaign Type]:** (Disponible uniquement lors de la création de la campagne) Où placer des publicités et quels types de publicités
-la campagne peut contenir :
+**[!UICONTROL Campaign Type]:** (Disponible uniquement lors de la création de la campagne) Où placer des publicités et quels types de publicités peuvent contenir la campagne :
 
-* *[!UICONTROL Search Network Only]:* affiche des publicités sur le réseau de recherche, qui incluent [!DNL Google] résultats de recherche et, éventuellement, des sites de partenaires de recherche. Vous devez spécifier des mots-clés pour chaque groupe publicitaire.
+* *[!UICONTROL Search Network Only]:* affiche des annonces sur le réseau de recherche, ce qui inclut [!DNL Google] les résultats de recherche et, éventuellement, les sites partenaires de recherche. Vous devez indiquer des mots-clés pour chaque groupe publicitaire.
 
-* *[!UICONTROL Search with Display Select]:* affiche des publicités sur le réseau de recherche (qui incluent [!DNL Google] résultats de recherche et, éventuellement, sites de partenaires de recherche) et affiche éventuellement des publicités sur les sites de réseau d’affichage. Sur le réseau d’affichage, [!DNL Google Ads] affiche vos publicités de manière sélective à l’aide d’enchères automatisées, quelle que soit la stratégie d’offre de la campagne. Pour rechercher des publicités, spécifiez des mots-clés pour chaque groupe publicitaire. Pour les publicités affichées, spécifiez des emplacements et éventuellement des mots-clés pour chaque groupe publicitaire.
+* *[!UICONTROL Search with Display Select]:* affiche des annonces sur le réseau de recherche (ce qui inclut [!DNL Google] les résultats de recherche et, éventuellement, les sites des partenaires de recherche) et affiche potentiellement des annonces sur les sites du réseau display. Sur le réseau display, [!DNL Google Ads] affichez vos annonces de manière sélective à l’aide d’enchères automatisées, quelle que soit la stratégie d’enchère de la campagne. Pour les annonces du Réseau de Recherche, spécifiez des mots-clés pour chaque groupe publicitaire. Pour les publicités affichées, spécifiez des emplacements et spécifiez éventuellement des mots-clés pour chaque groupe publicitaire.
 
-* *[!UICONTROL Shopping Network]:* Affiche les publicités de produits, que [!DNL Google] génère automatiquement en fonction de vos produits dans [!DNL Google Merchant Center] sur [!DNL Google Shopping], de la zone en regard de [!DNL Google] résultats de recherche (séparés des publicités textuelles) et (éventuellement) des sites web de partenaires de recherche. Pour chaque groupe publicitaire de la campagne, vous pouvez spécifier des groupes de produits à promouvoir.
+* *[!UICONTROL Shopping Network]:* affiche des annonces de produits, qui [!DNL Google] sont générées automatiquement en fonction de vos produits dans [!DNL Google Merchant Center] , [!DNL Google Shopping]la zone à côté des résultats de [!DNL Google] recherche (distincte des annonces textuelles) et (éventuellement) les sites Web des partenaires de recherche. Pour chaque groupe publicitaire de la campagne, vous pouvez spécifier des groupes de produits à promouvoir.
 
 * *[!UICONTROL Display Network Only]:* affiche des publicités sur le réseau d’affichage. Pour chaque groupe d’annonces, vous devez spécifier des emplacements et pouvez éventuellement spécifier des mots-clés.
 
@@ -29,7 +28,7 @@ la campagne peut contenir :
 
   **Notes :**
 
-   * Seuls les paramètres requis sont disponibles. Pour les paramètres facultatifs, connectez-vous à l’éditeur [!DNL Google Ads].
+   * Seuls les paramètres requis sont disponibles. Pour les paramètres facultatifs, connectez-vous à l’éditeur [!DNL Google Ads] .
 
    * Les liens vers les flux de produits [!DNL Google Merchant Center] ne sont pas pris en charge.
 
@@ -141,9 +140,9 @@ les produits de la campagne sont vendus. Les produits étant associés aux pays 
 
       * Pour développer un emplacement dans ses sous-composants (États, régions métropolitaines ou villes des États-Unis, par exemple), cliquez sur le nom de l’emplacement.
 
-      * Pour rechercher un emplacement, saisissez ou collez au moins les trois premiers caractères de l’emplacement dans le champ de saisie. Dans les résultats de recherche, cliquez sur **[!UICONTROL Include]** en regard d’un emplacement à inclure ou **[!UICONTROL Exclude]** en regard d’un emplacement à exclure.
+      * Pour rechercher un emplacement, entrez ou collez au moins les trois premiers caractères de l’emplacement dans le champ de saisie. Dans les résultats de la recherche, cliquez en **[!UICONTROL Include]** regard d’un emplacement à inclure ou **[!UICONTROL Exclude]** à côté d’un emplacement à exclure.
 
-   * (Emplacements près d’une adresse ; cibles incluses uniquement) Cliquez sur **[!UICONTROL Radius Target]** (![Cible du rayon](/help/search-social-commerce/assets/radius-target.png "Cible du rayon")), puis sur **[!UICONTROL Address]**. Saisissez l&#39;adresse et le rayon en kilomètres autour de l&#39;adresse à cibler, puis cliquez sur **[!UICONTROL Add]**.
+   * (Emplacements à proximité d’une adresse ; cibles incluses uniquement) Cliquez sur **[!UICONTROL Radius Target]** (Rayon Target](/help/search-social-commerce/assets/radius-target.png "Rayon Target")), puis cliquez sur **[!UICONTROL Address]**![. Entrez l’adresse et le rayon en miles ou kilomètres autour de l’adresse à cibler, puis cliquez sur **[!UICONTROL Add]**.
 
    * (Emplacements proches des coordonnées géographiques ; cibles incluses uniquement) Cliquez sur **[!UICONTROL Radius Target]** (![Cible du rayon](/help/search-social-commerce/assets/radius-target.png "Cible du rayon")), puis sur **[!UICONTROL Coordinate]**. Saisissez la latitude et la longitude et le rayon en miles ou kilomètres autour de l’emplacement à cibler, puis cliquez sur **[!UICONTROL Add]**.
 
@@ -155,9 +154,9 @@ les produits de la campagne sont vendus. Les produits étant associés aux pays 
 
 **Remarque :**
 
-* Search, Social et Commerce ne fournit pas d’ajustements d’enchères auto-ajustés pour les cibles d’emplacement suivantes en raison de limitations des données que [!DNL Google Ads] fournit pour mapper les emplacements de surfeur aux cibles d’emplacement :
+* Search, Social &amp; Commerce ne fournit pas d’ajustements d’enchères automatiquement ajustés pour les cibles de localisation suivantes en raison des limites des données permettant [!DNL Google Ads] de mapper les emplacements des surfeurs aux cibles de localisation :
 
-   * Cibles de rayon.
+   * Cibles rayon.
 
    * Certains emplacements au-dessous du niveau État/province/département/préfecture pour lesquels [!DNL Google Ads] n’envoie pas d’emplacement parent dans l’URL du surfeur, y compris les aéroports et les districts du Congrès des États-Unis.
 
@@ -330,11 +329,11 @@ Vous pouvez saisir du texte ou sélectionner des ressources à partir de votre [
 
 * Pour sélectionner des ressources de votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez les ressources.
 
-**[!UICONTROL Long Headlines]:** Au moins un titre long de cinq au maximum, avec un maximum de 90 caractères chacun. Vous pouvez saisir du texte ou sélectionner des ressources à partir de votre [!UICONTROL Asset Library] — mais pas les deux dans la même opération.
+**[!UICONTROL Long Headlines]:** Au moins un, et jusqu’à cinq, titres longs d’un maximum de 90 caractères chacun. Vous pouvez saisir du texte ou sélectionner des ressources dans votre [!UICONTROL Asset Library] (mais pas les deux dans la même opération).
 
 * Pour saisir du texte :
 
-   1. Dans l’onglet [!UICONTROL Enter Text], saisissez le texte.
+   1. Dans l’onglet [!UICONTROL Enter Text] , saisissez le texte.
 
    1. (Facultatif) Pour ajouter une autre chaîne de texte, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
 
@@ -344,11 +343,11 @@ Vous pouvez saisir du texte ou sélectionner des ressources à partir de votre [
 
 * Pour saisir du texte :
 
-   1. Dans l’onglet [!UICONTROL Enter Text], saisissez le texte.
+   1. Dans l’onglet [!UICONTROL Enter Text] , saisissez le texte.
 
-   1. (Facultatif) Pour ajouter une autre chaîne de texte, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
+   1. (Facultatif) Pour ajouter une autre chaîne de texte, cliquez **[!UICONTROL + Add]** et saisissez la chaîne.
 
-* Pour sélectionner des ressources de votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez les ressources.
+* Pour sélectionner des fichiers dans votre [!UICONTROL Asset Library], cliquez **[!UICONTROL Asset Library]** et sélectionnez-les.
 
 **[!UICONTROL Call to Action]:** appel à l’action à inclure dans la publicité. Par défaut, *[!UICONTROL Automated]* est sélectionné et [!DNL Google Ads] sélectionne l’appel à l’action. Vous pouvez éventuellement choisir une autre action.
 
@@ -359,7 +358,7 @@ Vous pouvez saisir du texte ou sélectionner des ressources à partir de votre [
 >[!NOTE]
 >Les signaux d’audience sont différents des [cibles d’audience au niveau de la campagne et du groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
 
-**[!UICONTROL Primary Status]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes de performances max.) Pourquoi le groupe de ressources est-il ou ne fonctionne pas à pleine capacité ? Il prend en compte le statut du groupe de ressources ainsi que d’autres signaux, tels que les approbations de politique et de qualité. Les valeurs peuvent inclure *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* *PENDING,* *REMOVED,* *UNKNOWN,*} ou *UNSPECIFIED{1. 5}*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
+**[!UICONTROL Primary Status]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes de performances max.) Pourquoi le groupe de ressources est-il ou ne fonctionne pas à pleine capacité ? Il prend en compte l’état du groupe d’actifs ainsi que d’autres signaux, tels que les approbations de politique et de qualité. Les valeurs peuvent inclure *ÉLIGIBLE,* *LIMITÉ,**NOT_ELIGIBLE,**SUSPENDU,**EN ATTENTE,**SUPPRIMÉ,**INCONNU* ou *NON spécifié.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
 **[!UICONTROL Primary Status Reason]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes de performances max.) Détails supplémentaires sur l’état principal du groupe de ressources. Les valeurs peuvent inclure *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAUSED,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* ou *UNSPECIFIED*
 
@@ -375,7 +374,7 @@ Pour créer un objectif de conversion personnalisé, cliquez sur **[!UICONTROL +
 >
 >Si la campagne fait partie d’un portfolio hybride, la bonne pratique consiste à utiliser des objectifs au niveau de la campagne qui correspondent aux objectifs de conversion dans l’objectif du portfolio ; l’inclusion d’objectifs de conversion supplémentaires peut avoir une incidence sur les performances du portfolio.
 >
->Toutefois, pour les campagnes dans des portefeuilles hybrides pour lesquelles vous [ téléchargez des objectifs sur le réseau publicitaire ](/help/search-social-commerce/tools/objective-upload-to-networks.md), effectuez les opérations suivantes dans l’éditeur du réseau publicitaire au lieu de : a) ajouter la mesure objective du portefeuille de recherche, de réseaux sociaux et de Commerce (qui commence par &quot;O_ACS_OBJ&quot;) comme action de conversion pour la campagne et b) ajouter tous les objectifs de campagne qui incluent des conversions suivies par [!DNL Google], car le réseau publicitaire Les mesures ne sont pas transférées vers le réseau publicitaire avec l’objectif .
+>Toutefois, pour les campagnes des portefeuilles hybrides pour lesquelles vous [téléchargez des objectifs sur le réseau](/help/search-social-commerce/tools/objective-upload-to-networks.md) publicitaire, procédez comme suit dans l’éditeur du réseau publicitaire plutôt qu’ici : a) ajoutez la mesure d’objectif du portefeuille Search, Social &amp; Commerce téléchargée (qui commence par « O_ACS_OBJ ») comme action de conversion pour la campagne, et b) ajoutez tous les objectifs de campagne qui incluent [!DNL Google]des conversions suivies car les mesures suivies par le réseau publicitaire ne sont pas téléchargées sur le réseau publicitaire avec l’objectif.
 
 >[!MORELIKETHIS]
 >
