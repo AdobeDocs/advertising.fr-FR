@@ -3,9 +3,9 @@ title: À propos des rapports personnalisés
 description: Découvrez les options de création manuelle de rapports personnalisés ou d’utilisation de modèles de rapports préconfigurés.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 44f7f9b31afbe6b863acd389df641057b1e6dea1
+source-git-commit: 42d4c7e34766b9f75d0f278520f162671684c2db
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,26 @@ Vous pouvez générer les rapports une seule fois ou programmer leur génératio
    * **[!UICONTROL Household Reach & Frequency]:** Utilisez ce rapport pour afficher les impressions, la portée et la fréquence d’une dimension unique dans les formats d’annonce au niveau d’un foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil/d’un cookie. Utilisez les insights pour optimiser votre mix média, améliorer les performances et identifier les opportunités de portée incrémentielle. Pour plus d’informations, voir &quot;[Questions fréquentes sur les rapports des ménages](/help/dsp/reports/faq-household-report.md)&quot;. Les données ne sont pas disponibles pour les emplacements qui ciblent des identifiants universels.
 
    * **[!UICONTROL Household Conversions]:** Utilisez ce rapport pour afficher les conversions d’affichages publicitaires au niveau du foyer en fonction de l’adresse IP, plutôt qu’au niveau de l’appareil ou du cookie. Utilisez les insights pour mesurer et optimiser les performances de la campagne. Pour plus d’informations, voir &quot;[Questions fréquentes sur les rapports des ménages](/help/dsp/reports/faq-household-report.md)&quot;. Les données ne sont pas disponibles pour les emplacements qui ciblent des identifiants universels.
+
+   * **[!UICONTROL Path to Conversion Beta]:** (fonction Beta) Utilisez ce rapport pour afficher la séquence des points d’interaction dans le même foyer qui mènent à chacune des mesures de conversion sélectionnées dans la plage de données spécifiée, en utilisant une période de recherche en amont spécifiée entre la première interaction et une conversion. Le rapport peut inclure une dimension :
+
+      * [!UICONTROL Channel Assist Type] : indique comment les canaux marketing suivants ont contribué au processus de conversion : [!UICONTROL Audio Impression], [!UICONTROL CTV Impression], [!UICONTROL Display Click], [!UICONTROL Display Impression], [!UICONTROL Native Click], [!UICONTROL Native Impression], [!UICONTROL Search Click], [!UICONTROL Video Click] ou [!UICONTROL Video Impression].
+
+      * [!UICONTROL Campaign ID] ou [!UICONTROL Campaign Name] : indique les campagnes qui ont contribué au processus de conversion.
+
+      * [!UICONTROL Ad ID] ou [!UICONTROL Ad Name] indique quelles publicités DSP ont généré des conversions.
+
+      * [!UICONTROL Ad ID & Paid Keyword (SSC)] ou [!UICONTROL Ad Name & Paid Keyword (SSC)] indique quels mots-clés Search, Social et Commerce ont généré des conversions.
+
+     Les colonnes du rapport comprennent &quot;[!UICONTROL Event #1]&quot; à &quot;[!UICONTROL Event #10]&quot;,&quot;[!UICONTROL Path Length]&quot;, &quot;% \&lt;Nom de la mesure de conversion 1\>&quot;, &quot;% \&lt;Nom de la mesure de conversion 2\>&quot;, etc.
+
+     Jusqu’à 10 points d’interaction les plus récents sont inclus. Les lignes de chemin d’accès sont classées en fonction du nombre de conversions.
+
+   * **[!UICONTROL Path Length Beta]:** (fonction Beta) Utilisez ce rapport pour afficher le nombre de conversions par longueur de chemin (points d’interaction), par exemple le nombre de conversions survenues après que les utilisateurs n’ont eu qu’une seule interaction publicitaire, deux interactions publicitaires, etc. Le rapport peut inclure des données pour plusieurs mesures de conversion et utiliser une période de recherche en amont spécifiée entre la première interaction et une conversion. Les colonnes du rapport comprennent &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Nom de la mesure de conversion 1\>&quot;, &quot;% \&lt;Nom de la mesure de conversion 1\>&quot;, \&lt;Nom de la mesure de conversion 2\>&quot;, &quot;% \&lt;Nom de la mesure de conversion 2\>&quot;, etc.
+
+     Les données sont affichées pour chaque longueur de chemin allant jusqu’à 10 ; les données pour les longueurs de chemin supérieures à 10 sont regroupées.
+
+   * **[!UICONTROL Time to Conversion Beta]:** (fonctionnalité Beta) Utilisez ce rapport pour afficher le nombre de conversions en fonction de la durée (en jours) entre la dernière interaction (exposition publicitaire ou clic) et la conversion. Le rapport peut inclure des données pour plusieurs mesures de conversion et utiliser une période de recherche en amont spécifiée entre la première interaction et une conversion. Les colonnes du rapport comprennent &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Nom de la mesure de conversion 1\>&quot;, &quot;% \&lt;Nom de la mesure de conversion 1\>&quot;, \&lt;Nom de la mesure de conversion 2\>&quot;, &quot;% \&lt;Nom de la mesure de conversion 2\>&quot;, etc. Les conversions qui prennent plus de temps que la période de recherche arrière sont regroupées dans une seule ligne (par exemple, si le rapport utilise une période de recherche arrière de 30 jours, alors toutes les conversions qui prennent plus de 30 jours à se produire sont regroupées dans une ligne avec une valeur &quot;[!UICONTROL Time Taken (in days)]&quot; de &quot;30+&quot;).
 
 ## Rapports inter-comptes {#cross-account-reporting}
 
