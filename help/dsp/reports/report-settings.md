@@ -3,9 +3,9 @@ title: Paramètres des rapports personnalisés
 description: Reportez-vous à la description des paramètres de rapport personnalisés.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 0e91fa93e8de53edda81dd5321eeca4682ad0c13
+source-git-commit: 2dfa561f664672905fd40a005dde7b6ff49a970c
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,13 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 \* *[!UICONTROL Account]* est disponible pour les types de rapports suivants uniquement lorsque votre organisation est configurée pour la [création de rapports entre comptes](report-about.md#cross-account-reporting) : [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] et [!UICONTROL Conversion]. Contactez votre équipe de compte Adobe pour plus d’informations sur la création de rapports entre comptes.
 
-**[!UICONTROL Include data from Adobe Advertising SSC]:** (Chemin d’accès aux rapports Conversion, Longueur de chemin et Temps jusqu’à la conversion uniquement) Inclut des données pour les clics sur les annonces de recherche provenant de campagnes Advertising Search, Social et Commerce spécifiées. Lorsque vous sélectionnez cette option, sélectionnez le compte Search, Social, &amp; Commerce à l’aide du filtre **Filtrer par[!UICONTROL SSC Account]**. Sélectionnez ensuite les campagnes à l&#39;aide du filtre **Filtrer par[!UICONTROL SSC Campaign]** . Pour sélectionner plusieurs campagnes, cliquez sur **[!UICONTROL Add Criteria]** pour la seconde campagne et les campagnes suivantes.
+**[!UICONTROL Include data from Adobe Advertising SSC]:** (Chemin d’accès aux rapports Conversion, Longueur de chemin et Temps jusqu’à la conversion uniquement) Inclut des données pour les clics sur les annonces de recherche provenant de campagnes Advertising Search, Social et Commerce spécifiées. Lorsque vous sélectionnez cette option :
+
+1. Sélectionnez le compte Search, Social, &amp; Commerce à l’aide du filtre **Filtrer par[!UICONTROL SSC Account]** .
+
+1. Sélectionnez les campagnes à l&#39;aide du filtre **Filtrer par[!UICONTROL SSC Campaign]** .
+
+   Pour sélectionner plusieurs campagnes, cliquez sur **[!UICONTROL Add Criteria]** pour la seconde campagne et les campagnes suivantes.
 
 ## Section [!UICONTROL Build Your Report]
 
