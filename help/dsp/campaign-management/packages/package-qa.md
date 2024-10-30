@@ -1,37 +1,62 @@
 ---
-title: Vérification et modification des paramètres du module à l’aide de feuilles de calcul
-description: Découvrez comment vérifier et modifier les paramètres de package clés à l’aide de feuilles de calcul.
+title: Vérification et modification des paramètres du module à l’aide de feuilles d’envoi groupées
+description: Découvrez comment vérifier et modifier les paramètres de module clés en bloc à l’aide de feuilles de calcul.
 feature: DSP Packages
-source-git-commit: ad00092c4ef5d44c364ab0593826220054f715c3
+exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
 
-# Vérification et modification des paramètres du module à l’aide de feuilles de calcul
+# Vérification et modification des paramètres du module à l’aide de feuilles d’envoi groupées
 
-Vous pouvez télécharger les paramètres d’un ou de plusieurs modules au format XLSX ([!DNL Microsoft Excel] tableur) pour révision. La feuille de calcul comprend un onglet séparé avec les informations de vol. Vous pouvez ensuite apporter des modifications à la sélection des champs dans les deux onglets et charger à nouveau les données dans DSP tous en même temps. Les champs modifiables incluent la plupart des paramètres qui sont normalement modifiables.
+Vous pouvez télécharger les paramètres d’un ou de plusieurs modules au format XLSX ([!DNL Microsoft Excel] tableur) pour révision. La feuille de calcul comprend un onglet séparé avec les informations de vol.
+
+Pour mettre à jour plusieurs paramètres à la fois, vous pouvez effectuer l’une des opérations suivantes :
+
+* Apportez des modifications pour sélectionner des champs, enregistrer le fichier et charger à nouveau le fichier de feuille d’envoi groupé modifié dans DSP.
+
+* Pour apporter des modifications à des packages supplémentaires et aux paramètres d’un emplacement ou d’une publicité, téléchargez un modèle de feuille d’envoi vierge contenant des onglets pour chaque type de composant de campagne, saisissez ou collez des paramètres nouveaux ou mis à jour dans le fichier de modèle, puis chargez le fichier pour apporter les modifications. Pour plus d’informations, voir &quot;[Vérification et modification des paramètres des composants de campagne à l’aide de feuilles d’envoi groupées](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
+
+Les champs modifiables incluent la plupart des paramètres qui sont normalement modifiables.
 
 >[!TIP]
 >
->Pour modifier d’autres champs pour un ou plusieurs modules, voir &quot;[Modifier des modules](/help/dsp/campaign-management/packages/package-edit.md)&quot;.
+>Pour modifier rapidement d’autres champs pour un ou plusieurs modules, voir &quot;[Modifier des modules](/help/dsp/campaign-management/packages/package-edit.md)&quot;.
+
+## Paramètres de téléchargement pour tous les modules d’un Campaign
+
+Lorsque vous téléchargez les paramètres de tous les packages d’une campagne, la feuille de calcul comprend des onglets distincts pour les paramètres du package et pour les informations de vol. Vous pouvez éventuellement inclure des paramètres pour les emplacements et les annonces associés aux forfaits ; Des onglets supplémentaires sont inclus pour les paramètres de placement et d’annonce.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
+
+1. Cliquez sur le nom de la campagne.
+
+1. Dans l’angle supérieur droit, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Download QA sheet]**.
+
+1. Dans la boîte de dialogue [!UICONTROL QA Sheet Download], désélectionnez les composants de campagne dont vous souhaitez exclure les paramètres du fichier téléchargé, puis cliquez sur **[!UICONTROL Download]**.
+
+Par défaut, les paramètres de tous les emplacements et annonces associés aux packages sont sélectionnés.
+
+Un message de notification indique à quel moment le fichier peut être téléchargé.
+
+1. Pour télécharger le fichier, effectuez l’une des opérations suivantes :
+
+   * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
+
+   * Dans la droite de la barre de menus supérieure, cliquez sur ![Tâches](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+
+     Le fichier est enregistré dans le dossier Téléchargements du navigateur. Voir &quot;[Colonnes de placement dans les feuilles de calcul téléchargées/téléchargées](#qa-sheet-columns)&quot; pour obtenir la liste des colonnes incluses.
+
+>[!NOTE]
+>
+>Vous ne pouvez pas modifier ni recharger les feuilles d’assurance qualité au niveau de la campagne. Pour apporter des modifications aux paramètres du composant de campagne dans ces fichiers, téléchargez un modèle de feuille d’envoi groupé distinct, saisissez ou collez des lignes de la feuille d’assurance qualité dans le modèle de feuille d’envoi groupé, enregistrez le fichier, puis chargez la feuille d’envoi groupée renseignée. Pour plus d’informations, voir &quot;[Vérification et modification des paramètres des composants de campagne à l’aide de feuilles d’envoi groupées](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
 
 ## Paramètres de téléchargement d’un ou de plusieurs modules
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
-
-1. Cliquez sur le nom de la campagne.
-
-1. Dans le sous-menu, cliquez sur **[!UICONTROL Packages]**.
-
-1. Cochez la case en regard de chaque module dont vous souhaitez télécharger les paramètres.
-
-1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]**.
-
-Le fichier est automatiquement enregistré dans le dossier Téléchargement du navigateur. Voir &quot;[Colonnes de module dans les feuilles de calcul téléchargées/téléchargées](#qa-sheet-columns-packages)&quot; pour obtenir la liste des colonnes incluses.
-
-## Paramètres de chargement pour un ou plusieurs modules
+Lorsque vous téléchargez des paramètres pour des modules spécifiques, le fichier de feuille d’envoi groupé comprend des onglets distincts pour les paramètres du module et pour les informations de contrôle, et le fichier est modifiable.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -39,11 +64,43 @@ Le fichier est automatiquement enregistré dans le dossier Téléchargement du n
 
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Packages]**.
 
-1. Cochez la case en regard de chaque module dont vous souhaitez charger les paramètres.
+1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
 
-1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Upload Edit in Excel Sheet]**.
+   Un message de notification indique à quel moment le fichier de feuille d’envoi groupé peut être téléchargé.
 
-1. Dans la boîte de dialogue [!UICONTROL Edit in Excel] :
+1. Pour télécharger la feuille d’envoi groupé, effectuez l’une des opérations suivantes :
+
+   * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
+
+   * À droite de la barre de menu supérieure, cliquez sur ![Tâches](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+
+     Le fichier est enregistré dans le dossier Téléchargements du navigateur. Voir &quot;[Colonnes de placement dans les feuilles de calcul téléchargées/téléchargées](#qa-sheet-columns)&quot; pour obtenir la liste des colonnes incluses.
+
+<!-- I don't think I need this here
+
+## Download a Bulksheet Template {#download-template}
+
+You can optionally download a blank bulksheet template that includes tabs for each type of campaign component. You can later add rows to any tab on the template and [upload the edited file](##upload-bulksheet-package) to make changes. 
+
+1. Click the name of the campaign.
+
+1.  In the upper right, click **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
+
+   The file is saved to the browser's Downloads folder. See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns.
+
+-->
+
+## Chargement d’une feuille de support avec les paramètres de module {#upload-bulksheet-package}
+
+Vous pouvez charger les paramètres de vos modules, y compris les emplacements et les publicités associés aux modules, dans un fichier de feuille d’envoi groupé.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
+
+1. Cliquez sur le nom de la campagne.
+
+1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
+
+1. Dans la boîte de dialogue [!UICONTROL Upload Bulksheet] :
 
    1. Faites glisser un fichier dans la zone ou cliquez dans la zone pour sélectionner un fichier sur votre périphérique ou votre réseau.
 
@@ -70,9 +127,9 @@ Le fichier est automatiquement enregistré dans le dossier Téléchargement du n
 | [!UICONTROL Goals & Budget] | [!UICONTROL Package Start Date] | Date de début du package. | Oui |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Package End Date] | Date de fin du package. | Oui |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Pacing Level] | À quel niveau pour accélérer et plafonner les emplacements dans le package : *[!UICONTROL Package]* ou *[!UICONTROL Placement]*. | — |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Budget] | Le budget package. | Oui |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Budget Interval] | Intervalle de budget : &lt;i[!UICONTROL >Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]* ou *[!UICONTROL All Time]*. | Oui |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Interval Cap] | Limite facultative de l’intervalle de budget. | Oui |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Budget] | Le budget du package. | Oui |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Budget Interval] | L’intervalle budgétaire : &lt;i[!UICONTROL >Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]* ou *[!UICONTROL All Time]*. | Oui |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Interval Cap] | Limite d’intervalle budgétaire facultative. | Oui |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Interval Cap Period] | L’intervalle pour la limite d’intervalle de budget facultative : &lt;i[!UICONTROL >Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]* ou *[!UICONTROL All Time]*. | Oui |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Optimization Goal] | L’objectif du paquet. | Oui |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Optimization Target] | La valeur cible de l’objectif. | Oui |
@@ -96,18 +153,19 @@ Le fichier est automatiquement enregistré dans le dossier Téléchargement du n
 | [!UICONTROL Custom Flights] | [!UICONTROL Automatic Budget Rollover] | (Disponible uniquement lorsque l’option [!UICONTROL Activate Custom Flighting] est activée) Indique s’il faut ajouter automatiquement le budget restant du vol précédent au budget existant pour le prochain vol : *T* (true) ou *F* (false). | Oui |
 | [!UICONTROL Error] | [!UICONTROL Error] | Toutes les erreurs pertinentes. | — |
 
-### Onglet [!UICONTROL Package_Flights]
+### Onglet [!UICONTROL Package_Flights] {#qa-sheet-columns-package-flights}
 
 | Section | Colonne | Description | Modifiable ? |
 |---------|--------|-------------|-----------|
 | [!UICONTROL Flight Details] | [!UICONTROL Package ID] | Identifiant numérique du package. | — |
 | [!UICONTROL Flight details] | [!UICONTROL Flight ID] | Identifiant numérique du vol. | — |
 | [!UICONTROL Flight details] | [!UICONTROL Flight Start Date] | La première date du vol. | Oui |
-| [!UICONTROL Flight details] | [!UICONTROL Flight End Date] | La date finale du vol. | Oui |
+| [!UICONTROL Flight details] | [!UICONTROL Flight End Date] | Date finale du vol. | Oui |
 | [!UICONTROL Flight details] | [!UICONTROL Flight Budget] | La cible dépense l&#39;objectif pour le vol. | Oui |
 | [!UICONTROL Flight details] | [!UICONTROL Rollover] | (Packages existants sans l’option &quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot; activée) Montant du budget potentiellement non dépensé à ajouter au prochain vol. | Oui |
 
 >[!MORELIKETHIS]
 >
->* [Modifier des modules](/help/dsp/campaign-management/packages/package-edit.md)
+>* [Vérification et modification des paramètres des composants Campaign à l’aide de feuilles de support](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [Modifier les kits](/help/dsp/campaign-management/packages/package-edit.md)
 >* [Paramètres du module](/help/dsp/campaign-management/packages/package-settings.md)

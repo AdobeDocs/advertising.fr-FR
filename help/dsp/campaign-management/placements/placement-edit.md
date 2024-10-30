@@ -3,7 +3,7 @@ title: Modifier les emplacements
 description: Découvrez comment modifier un emplacement.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Vous pouvez modifier les paramètres d’un emplacement unique ou de plusieurs e
 
 >[!NOTE]
 >
->Vous pouvez également télécharger les paramètres d’un ou de plusieurs emplacements, ou de tous les emplacements d’une campagne, au format XLSX (feuille de calcul Excel), apporter des modifications à un sous-ensemble limité de champs clés et les charger à la fois dans DSP. Voir &quot;[Vérification et modification des paramètres de placement à l’aide de feuilles de calcul](placement-qa.md)&quot;.
+>Vous pouvez également télécharger les paramètres d’un ou de plusieurs emplacements, ou de tous les emplacements d’une campagne, au format XLSX (feuille de calcul Excel), apporter des modifications à un sous-ensemble limité de champs clés et les charger à la fois dans DSP. Voir &quot;[Vérification et modification des paramètres d’emplacement à l’aide de feuilles d’envoi groupées](placement-qa.md)&quot;.
 
 ## Modifier rapidement les paramètres de positionnement des clés {#placement-quick-edit}
 
@@ -92,7 +92,7 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
 >[!MORELIKETHIS]
 >
 >* [À propos de la gestion des emplacements](placement-about.md)
->* [Vérifiez et modifiez les paramètres de placement à l’aide de feuilles de calcul](placement-qa.md)
+>* [Vérification et modification des paramètres d’emplacement à l’aide de feuilles d’envoi groupées](placement-qa.md)
 >* [Créer un emplacement](placement-create.md)
 >* [Dupliquer un emplacement](placement-duplicate.md)
 >* [Gérer les multiplicateurs d’offre pour les emplacements](placement-manage-bid-multipliers.md)

@@ -3,9 +3,9 @@ title: Affichage des rapports de diagnostic d’emplacement
 description: Découvrez comment diagnostiquer les problèmes de configuration et de fréquence d’emplacement.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1f8fd9d267aba0858b18c0b5a9b4a693e2b62468
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,8 @@ Les rapports de diagnostic peuvent vous aider à diagnostiquer les problèmes de
    * Pour savoir pourquoi DSP n’a pas enchéri sur l’emplacement :
 
       1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Non Bids]**.
+
+      1. (Facultatif) Pour filtrer l’emplacement selon une cible d’opération privée spécifique, sélectionnez l’opération. <!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
 
       1. (Facultatif) Pour modifier la période, cliquez dans le champ de date et sélectionnez une autre date ou période.
 
