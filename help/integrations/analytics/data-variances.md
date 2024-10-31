@@ -3,7 +3,7 @@ title: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 description: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e1c1d43c7fe5f44e34ada7dee09afd77f1b3f305
+source-git-commit: 6470ed471c60477bf19cf9b125f0250136f31511
 workflow-type: tm+mt
 source-wordcount: '3358'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Tenez compte de ces différences lors de la comparaison des conversions d’affi
 >
 >Pour éviter toute confusion, [!DNL Analytics] rend les données historiques indisponibles dans l’interface de création de rapports. Vous pouvez afficher les données historiques si vous redéfinissez le paramètre d’attribution initial [!DNL eVar], même si vous ne devez pas modifier les paramètres d’attribution [!DNL eVar] simplement pour accéder aux données historiques. Adobe recommande d’utiliser un nouveau [!DNL eVar] lorsque vous souhaitez appliquer un nouveau paramètre d’attribution pour les données déjà en cours d’enregistrement, plutôt que de modifier les paramètres d’attribution pour un [!DNL eVar] qui possède déjà une quantité significative de données historiques.
 
-Consultez la liste des modèles d’attribution [!DNL Analytics] et leurs définitions sur [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
+Consultez la liste des modèles d’attribution [!DNL Analytics] et leurs définitions sur [https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models).
 
 Si vous êtes connecté à [!DNL Search, Social, & Commerce], vous trouverez une liste
 
