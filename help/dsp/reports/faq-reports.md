@@ -2,9 +2,9 @@
 title: Questions fréquentes sur les rapports personnalisés
 description: En savoir plus sur les rapports personnalisés, y compris les rapports sur les ménages et les rapports d’analyse des chemins de conversion.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -105,9 +105,9 @@ Le cas d’utilisation idéal consiste à utiliser conjointement le rapport [!UI
 
 ## Rapports Analyse des chemins de conversion
 
-### Comment le rapport Chemin vers la conversion se compare-t-il aux rapports créés par [!DNL Advanced Measurement Services] et Adobe Analytics ?
+### Comment le rapport Chemin vers la conversion se compare-t-il aux rapports créés par [!DNL Advanced Measurement Services] et Adobe Analytics Analysis Workspace ?
 
-| | Chemin d’accès au rapport de conversion | Effet halo des services de mesure avancés sur les rapports de recherche | Rapports Workspace Adobe Analytics |
+| | Chemin d’accès au rapport de conversion | Effet halo des services de mesure avancés sur les rapports de recherche | Rapports dans Analysis Workspace |
 | --- | --- | --- |---|
 | Valeur client | Générer un rapport personnalisé en libre-service pour déterminer les chemins du parcours publicitaire qui ont généré plus de conversions afin d’optimiser | Comprendre l’influence des tactiques de télévision connectée (CTV) sur les clics de recherche | Comprendre l’influence de votre investissement global dans les Adobes Advertising, ainsi que d’autres canaux marketing, sur les clics de recherche |
 | Niveau de foyer | Oui | Oui | Non |
