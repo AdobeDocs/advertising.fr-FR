@@ -3,7 +3,7 @@ title: Colonnes de rapport disponibles
 description: Reportez-vous à la description des colonnes disponibles dans les rapports personnalisés.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 6afc297fee8ebf94605c5bc1fceafe4a903387a5
+source-git-commit: 15ce5490ae12fd0c50e4a178f8cb642078c4e847
 workflow-type: tm+mt
 source-wordcount: '2228'
 ht-degree: 0%
@@ -137,9 +137,6 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | Coût net moyen par affichage vidéo terminé, calculé par <code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | Coût net moyen par 1 000 impressions, calculé par <code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1 000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | Coût net moyen par affichage vidéo, calculé par <code>[!UICONTROL Net Spend] / [!UICONTROL Views]</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Data eCPM] | Coût moyen des données nettes par 1 000 impressions, calculé par <code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1 000</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Media CPM] | Coût médiatique net moyen pour 1 000 impressions, calculé par <code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1 000</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Other eCPM] | Coût net moyen par 1 000 impressions pour d’autres frais, calculé par <code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1 000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Pourcentage du nombre total d’offres qui étaient proposées au CPM max. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | Nombre d’utilisateurs distincts pour lesquels DSP enchère pour l’emplacement. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | Coût net total des frais de données des segments ciblés facturés via DSP. |
@@ -156,10 +153,13 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | Le coût total d’autres frais de service (partenaires de vérification tiers, service publicitaire, etc.) non facturés par DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Profit] | [!UICONTROL Gross Spend] - [!UICONTROL Net Spend] |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | La somme de [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)] et [!UICONTROL Billable Spend (Other)]. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data eCPM] | Coût moyen des données nettes par 1 000 impressions, calculé par <code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1 000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Net Spend] | Coût total net des frais de données des segments ciblés. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media CPM] | Coût médiatique net moyen pour 1 000 impressions, calculé par <code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1 000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Net Spend] | Le coût net total des médias, y compris les frais techniques. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Net Spend] | La somme de [!UICONTROL Net Spend (Media)], [!UICONTROL Net Spend (Data)] et [!UICONTROL Net Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | La somme de [!UICONTROL Non-billable Spend (Media)], [!UICONTROL Non-billable Spend (Data)] et [!UICONTROL Non-billable Spend (Other)]. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | Coût net moyen par 1 000 impressions pour d’autres frais, calculé par <code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1 000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Net Spend] | Le coût net total des autres frais de service (partenaires de vérification tiers, service publicitaire, etc.). |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | Pourcentage de vues qui ont visionné l’ensemble de la publicité. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | Nombre de vues qui ont visionné l’ensemble de la publicité. |
