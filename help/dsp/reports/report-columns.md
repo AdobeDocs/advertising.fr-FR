@@ -3,7 +3,7 @@ title: Colonnes de rapport disponibles
 description: Reportez-vous à la description des colonnes disponibles dans les rapports personnalisés.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 6afc297fee8ebf94605c5bc1fceafe4a903387a5
 workflow-type: tm+mt
 source-wordcount: '2228'
 ht-degree: 0%
@@ -155,12 +155,12 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | Le coût net total des médias non facturables, y compris les frais techniques, non facturés par DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | Le coût total d’autres frais de service (partenaires de vérification tiers, service publicitaire, etc.) non facturés par DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Profit] | [!UICONTROL Gross Spend] - [!UICONTROL Net Spend] |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | La somme de [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)] et [!UICONTROL Billable Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Net Spend] | Coût total net des frais de données des segments ciblés. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Net Spend] | Le coût net total des médias, y compris les frais techniques. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Net Spend] | La somme de [!UICONTROL Net Spend (Media)], [!UICONTROL Net Spend (Data)] et [!UICONTROL Net Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | La somme de [!UICONTROL Non-billable Spend (Media)], [!UICONTROL Non-billable Spend (Data)] et [!UICONTROL Non-billable Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Net Spend] | Le coût net total des autres frais de service (partenaires de vérification tiers, service publicitaire, etc.). |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | La somme de [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)] et [!UICONTROL Billable Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | Pourcentage de vues qui ont visionné l’ensemble de la publicité. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | Nombre de vues qui ont visionné l’ensemble de la publicité. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | Pourcentage d’impressions affichables ayant visionné l’ensemble de la publicité. |
