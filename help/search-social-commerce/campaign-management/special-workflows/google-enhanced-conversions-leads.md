@@ -2,9 +2,10 @@
 title: Mise en oeuvre de [!DNL Google Ads] conversions améliorées pour les pistes
 description: Découvrez le processus de configuration de [!DNL Google Ads] conversions améliorées pour les pistes.
 feature: Search Campaign Management, Conversions
-source-git-commit: 60a67c8668df13afc08e14b0a495a37ded24bc0c
+exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
+source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,17 @@ ht-degree: 0%
 
 [[!DNL Google Ads] les conversions améliorées pour les pistes](https://support.google.com/google-ads/answer/9888656) vous permettent de mapper les utilisateurs à des conversions hors ligne à l’aide de vos données de conversion propriétaires. Utilisez des conversions améliorées pour les pistes dans les environnements où les ID de clic ne sont pas disponibles, par exemple pour effectuer le suivi des ventes par téléphone ou par e-mail qui résultent des pistes du site web.
 
-Dans Search, Social et Commerce, vous pouvez inclure vos conversions améliorées de pistes sous forme de mesures dans les rapports et de mesures pondérées dans les objectifs d’optimisation. Search, Social et Commerce synchronise vos conversions améliorées existantes pour les prospects tous les jours à 05h00 dans le fuseau horaire de l’annonceur.
+Dans Search, Social et Commerce, vous pouvez :
+
+* Affichez vos conversions améliorées existantes pour les pistes.
+
+  Search, Social et Commerce synchronise vos conversions améliorées existantes pour les prospects tous les jours à 05h00 dans le fuseau horaire de l’annonceur.
+
+* Créez des conversions améliorées pour les pistes.
+
+* Chargez des données de conversion hors ligne propriétaires afin de les mapper à vos conversions améliorées pour les pistes.
+
+* Incluez vos conversions améliorées pour les pistes sous forme de mesures dans les rapports et de mesures pondérées dans les objectifs d’optimisation.
 
 Pour utiliser cette fonctionnalité, procédez comme suit. Les étapes de création de balises de suivi de conversion et de création d’actions de conversion peuvent éventuellement être annulées.
 
