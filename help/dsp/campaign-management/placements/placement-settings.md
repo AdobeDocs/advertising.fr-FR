@@ -3,7 +3,7 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 0%
@@ -215,11 +215,11 @@ Pour définir le ciblage des stocks :
 
 Les publicités sortantes apparaissent généralement sur le contenu sous la forme d’une fenêtre contextuelle ou d’un contenu (dans l’expérience native), plutôt que sous la forme de publicités vidéo standard dans un lecteur vidéo.
 
-## [!UICONTROL Site Targeting]
+## [!UICONTROL Site and App Targeting]
 
 **[!UICONTROL Traffic type]:** Types de trafic à cibler. Les options incluent **[!UICONTROL Websites]** et **[!UICONTROL Apps]**.
 
-**[!UICONTROL Site tier]:** (Disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL Off]*) Qualité des sites à cibler. Les niveaux 1 à 3 sont tous sécurisés pour la marque et ont été approuvés par l’équipe de mappage DSP.
+**[!UICONTROL Tier]:** (Disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL Off]*) Qualité du trafic à cibler. Les niveaux 1 à 3 sont tous sécurisés pour la marque et ont été approuvés par l’équipe de mappage DSP.
 
 * *[!UICONTROL Tier 1]:* sites et applications Premium reconnaissables au niveau national.
 
@@ -227,7 +227,7 @@ Les publicités sortantes apparaissent généralement sur le contenu sous la for
 
 * *[!UICONTROL Tier 3]:* Cibles niveaux 1 à 2 plus des sites et applications légitimes et sécurisés pour la marque qui répondent à une audience de niche. Utilisez le niveau 3 pour la portée ou les achats de ciblage de données.
 
-* *[!UICONTROL All Sites]:* Cible les niveaux 1 à 3 et le nouvel inventaire qui n’a pas été analysé ou classé, que vous pouvez utiliser pour atteindre.
+* *[!UICONTROL All Sites or Apps]:* Cible les niveaux 1 à 3 et le nouvel inventaire qui n’a pas été analysé ou classé, que vous pouvez utiliser pour atteindre.
 
 >[!NOTE]
 >
@@ -237,7 +237,7 @@ Les publicités sortantes apparaissent généralement sur le contenu sous la for
 >
 >Pour les campagnes de performances, la bonne pratique consiste à sélectionner *[!UICONTROL All Sites]*.
 
-**[!UICONTROL Site Categories]:** (Facultatif ; disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL Off]*) Catégories de site au sein des niveaux de site sélectionnés pour inclure ou exclure (mais pas les deux) en tant que cibles. Effectuez un choix parmi les listes de sites verticales que DSP a mises en correspondance en fonction de l’objet :
+**[!UICONTROL Site or App Categories]:** (Facultatif ; disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL Off]*) Catégories de site au sein des niveaux de site sélectionnés pour inclure ou exclure (mais pas les deux) en tant que cibles. Effectuez un choix parmi les listes de sites verticales que DSP a mises en correspondance en fonction de l’objet :
 
 1. Cliquez sur ![Modifier](/help/dsp/assets/edit.png).
 1. Spécifiez les catégories de site à inclure ou à exclure :
@@ -250,7 +250,7 @@ Les publicités sortantes apparaissent généralement sur le contenu sous la for
 1. (Facultatif) Pour télécharger un fichier CSV contenant les informations de ciblage vers l’emplacement de téléchargement de votre navigateur, cliquez sur **[!UICONTROL Export]**.
 1. Cliquez sur **[!UICONTROL Save]**.
 
-**[!UICONTROL Exclude Sites]:** (facultatif ; disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL Off]*) Sites à exclure. Vous pouvez rechercher et sélectionner des sites, ou saisir ou coller des noms de domaine :
+**[!UICONTROL Exclude Sites or Apps]:** (facultatif ; disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL Off]*) Sites à exclure. Vous pouvez rechercher et sélectionner des sites, ou saisir ou coller des noms de domaine :
 
 1. Cliquez sur ![Modifier](/help/dsp/assets/edit.png).
 1. Spécifiez les sites :
@@ -273,7 +273,7 @@ Les publicités sortantes apparaissent généralement sur le contenu sous la for
 
 **[!UICONTROL Language]:** (facultatif) Une seule langue à cibler.
 
-**[!UICONTROL Site List Preview]:** (lecture seule) tous les sites ciblés et bloqués pour l’emplacement.
+**[!UICONTROL Site or App List Preview]:** (lecture seule) tous les sites ciblés et bloqués pour l’emplacement.
 
 Vous pouvez éventuellement exporter la liste des sites ciblés et bloqués sous la forme d’un fichier CSV (valeurs séparées par des virgules). Pour exporter la liste, cliquez sur **[!UICONTROL Export full site list]**, puis ouvrez ou enregistrez le fichier selon la procédure normale de votre navigateur.
 
@@ -389,7 +389,7 @@ Pour spécifier le ciblage de rubrique :
 1. (Facultatif) Pour télécharger un fichier CSV contenant les informations de ciblage du FAI vers l’emplacement de téléchargement de votre navigateur, cliquez sur **[!UICONTROL Export]**.
 1. Cliquez sur **[!UICONTROL Save]**.
 
-## [!UICONTROL Brand Safety and Media Targeting]
+## [!UICONTROL Brand Safety and Media Quality]
 
 **[!UICONTROL Contextual filtering]:** Types de [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] et [!DNL Peer39] filtres contextuels à appliquer. Les valeurs par défaut au niveau de l’annonceur sont sélectionnées pour de nouveaux emplacements, mais vous pouvez modifier les paramètres :
 

@@ -2,9 +2,9 @@
 title: Paramètres du compte Advertiser
 description: Voir la description des paramètres de l’annonceur disponibles.
 role: User, Admin
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,8 @@ ht-degree: 0%
 # Paramètres du compte Advertiser
 
 *Non disponible pour les utilisateurs en lecture seule*
+
+<!-- Not published -->
 
 ## [!UICONTROL General] Paramètres
 
@@ -166,11 +168,11 @@ Vous pouvez remplacer le paramètre au niveau de l’annonceur au [niveau d’em
 
 **[!UICONTROL Enable Site Safety Block]:** Par défaut, active un filtre post-offre en temps réel pour s’assurer que les publicités sont diffusées sur les sites ciblés par l’annonceur. <!-- Can remove this: Users can enable or disable the feature for each placement. I don't see this option, but I should probably verify. If this can't be edited at placement level, then remove "By default." If it can, say that you can override at placement level. -->
 
-#### [!UICONTROL DoubleVerify Authentic Brand Safety]
+#### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
 **[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] clients uniquement ; facultatif) ID de segment de sécurité de la marque associé au compte [!DNL DoubleVerify] de l’organisation.
 
-**[!UICONTROL Enable Authentic Brand Safety]:** (Facultatif) Permet par défaut d’activer l’ [!DNL DoubleVerify] Authdential Brand Safety , qui bloque les impressions après l’enchère à l’aide des règles de sécurité de marque personnalisées configurées pour l’identifiant de segment spécifié. DSP facture votre compte pour l’utilisation de l’identifiant de segment.
+**[!UICONTROL Enable Authentic Brand Suitability]:** (Facultatif) Active [!DNL DoubleVerify Authentic Brand Safety] par défaut, ce qui bloque les impressions après l’offre à l’aide des règles de sécurité de marque personnalisées configurées pour l’identifiant de segment spécifié. DSP facture votre compte pour l’utilisation de l’identifiant de segment.
 
 Vous pouvez remplacer le paramètre au niveau de l’annonceur au niveau de l’emplacement.
 
