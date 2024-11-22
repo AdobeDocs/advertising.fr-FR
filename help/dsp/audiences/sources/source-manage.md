@@ -3,7 +3,7 @@ title: Gestion des sources d’audience pour activer les audiences d’ID univer
 description: Découvrez comment créer et gérer une source pour importer des audiences de votre plateforme de données client et les convertir en segments contenant des ID universels.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 02ed538a48a4ba0323f9b75938ee6b007c6e0fd7
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 0%
@@ -34,7 +34,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Dans le menu [!UICONTROL Select a Type], sélectionnez votre [plateforme de données client](source-about.md) :
 
-   * *[!UICONTROL RT-CDP]* : [!DNL Adobe Real-Time Customer Data Platform].
+   * *[!UICONTROL RT-CDP]* : [!DNL Adobe Real-Time CDP].
 
    * *[!UICONTROL ActionIQ]* : plateforme de données client [!DNL ActionIQ].
 
