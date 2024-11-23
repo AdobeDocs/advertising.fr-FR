@@ -3,9 +3,9 @@ title: ID d’Adobe Advertising utilisés par [!DNL Analytics]
 description: ID d’Adobe Advertising utilisés par [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 66368bd3bd7dbbd9829e7587c297c9d467c785ec
+source-git-commit: 0f55d98a5abfa75b4ef5dc18ad2cfb22b9e24e78
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -223,7 +223,11 @@ where:
 
 * Rechercher dans les campagnes :
 
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+
+* Campagnes max de performances
+
+  `s_kwcid=AL!%(userid)d!{sid}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 
 * Campagnes d&#39;achat (utilisant [!DNL Microsoft Merchant Center]) :
 
