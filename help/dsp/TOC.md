@@ -4,7 +4,7 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: 5a667f353d436870e6d22422f64ae16f886d7bc8
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 3%
@@ -233,5 +233,5 @@ ht-degree: 3%
       + [A propos des abonnements aux alertes](/help/dsp/admin/alerts-about.md)
       + [Gestion des abonnements aux alertes](/help/dsp/admin/alerts-manage.md)
 + [Intégrations avec Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-+ [Service clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html)
++ [Service clientèle](https://experienceleague.adobe.com/home?support-tab=home#support)
 + [Notes de mise à jour de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
