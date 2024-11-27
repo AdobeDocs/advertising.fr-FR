@@ -3,9 +3,9 @@ title: Présentation de [!DNL Analytics for Advertising]
 description: Présentation de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 2575b737926cfd681fd744401d5f4555402fbee2
+source-git-commit: 8911f6ea16878bede96151f004e6de2717484140
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,8 @@ Sans nécessiter de pixels supplémentaires, [!DNL Analytics for Advertising] pe
 ### Mesures de conversion de site en tant que signaux d’offre
 
 Vous pouvez utiliser vos événements standard et personnalisés de [!DNL Analytics] pour créer des objectifs pondérés dans Adobe Advertising. Les objectifs informent les décisions d’offre pour vos packages [!DNL DSP] et vos portefeuilles Search, Social et Commerce.
+
+Pour les campagnes [!DNL Google Ads] et [!DNL Google Microsoft Advertising] des portefeuilles hybrides Search, Social et Commerce, vous pouvez éventuellement télécharger les objectifs (y compris tout événement [!DNL Analytics] des objectifs) directement vers les réseaux publicitaires, où ils deviennent disponibles en tant qu’actions de conversion pour les objectifs de conversion personnalisés au niveau du compte et de la campagne.
 
 >[!NOTE]
 >
