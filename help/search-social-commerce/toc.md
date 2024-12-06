@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising Search, Social et Commerce
 user-guide-description: Ce guide décrit les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires liées aux moteurs de recherche, aux réseaux sociaux et au commerce.
 breadcrumb-title: Guide d’Advertising Search, Social et Commerce
 index: true
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 4fe931a07246920eeef8ce08e3a38c5fd6534bd4
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1738'
 ht-degree: 2%
 
 ---
@@ -20,8 +20,8 @@ ht-degree: 2%
 + Introduction {#intro}
    + [À propos de Adobe Advertising Search, Social et Commerce](/help/search-social-commerce/introduction/about.md)
    + [Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md)
-   + Intégration avec Adobe Experience Cloud {#integrations}
-      + [Intégration avec Adobe Experience Cloud solutions et services](/help/search-social-commerce/introduction/integrations.md)
+   + Intégration à Adobe Experience Cloud {#integrations}
+      + [Intégration aux solutions et services Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
       + [Adobe [!DNL Analytics for Advertising] (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
       + [Intégration à Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
    + [Prise en charge de la confidentialité des consommateurs (lien)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
@@ -49,9 +49,9 @@ ht-degree: 2%
             + [Appliquer un filtre de données à partir d’un menu d’en-tête de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
             + [Application de filtres de données à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
             + [Modifier les filtres de colonnes](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
-            + [Suppression d’un filtre de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-remove.md)
+            + [Supprimer un filtre de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-remove.md)
    + Gestion des mesures personnalisées {#custom-metrics}
-      + [Mesures personnalisées](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)
+      + [À propos des mesures personnalisées](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)
       + [Création d’une mesure personnalisée](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)
       + [Modification d’une mesure personnalisée](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)
       + [Suppression d’une mesure personnalisée](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-delete.md)
@@ -80,7 +80,7 @@ ht-degree: 2%
             + [Formats de suivi des clics pour [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Formats de suivi des clics pour [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Paramètres de suivi facultatifs des URL de suivi des clics](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Cookies publicitaires (lien)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
+      + [Adobe Advertising des cookies (lien)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [Paramètre de suivi AMO ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Suivi des conversions {#conversion-tracking}
       + [Options de suivi des conversions](/help/search-social-commerce/tracking/conversion-tracking-about.md)
@@ -137,12 +137,12 @@ ht-degree: 2%
                + [[!DNL Yandex] paramètres du groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
          + Mots-clés {#keywords}
             + [A propos des mots-clés](/help/search-social-commerce/campaign-management/campaigns/keyword-about.md)
-            + [Gérer les mots-clés enchérissables](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+            + [Gestion des mots-clés pouvant faire l’objet d’un offre](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
             + [Créer des mots-clés négatifs](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
-            + [Modifier le statut des mots-clés et des mots-clés négatifs](/help/search-social-commerce/campaign-management/campaigns/keyword-status-edit.md)
+            + [Modifier l’état des mots-clés et des mots-clés négatifs](/help/search-social-commerce/campaign-management/campaigns/keyword-status-edit.md)
             + Paramètres des mots-clés par réseau publicitaire {#keyword-settings-by-network}
-               + [[!DNL Baidu] Paramètres des mots-clés](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-baidu.md)
-               + [[!DNL Google Ads] Paramètres des mots-clés](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-google.md)
+               + [[!DNL Baidu] paramètres de mot-clé](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-baidu.md)
+               + [[!DNL Google Ads] paramètres de mot-clé](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-google.md)
                + [[!DNL Microsoft Advertising] paramètres de mot-clé](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-microsoft.md)
                + [[!DNL Yahoo! Japan Ads] paramètres de mot-clé](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yahoo-japan.md)
                + [[!DNL Yandex] paramètres de mot-clé](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yandex.md)
@@ -199,28 +199,28 @@ ht-degree: 2%
          + [Configuration d’un compte FTP pour le transfert des feuilles d’envoi groupées](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)
          + [Téléchargement/création d’un fichier de feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
          + [Validation des landing pages dans des fichiers de feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)
-         + [Exporter un fichier de feuille de support généré ou téléchargé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-export.md)
-         + [Télécharger un fichier de feuille de support ou un fichier d’erreur corrigé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)
-         + [Post des feuilles d’envoi groupé ou des fichiers d’erreur corrigés](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md)
-         + [Erreurs de feuilles de support](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-errors.md)
+         + [Exportation d’un fichier de feuille d’envoi groupé généré ou transféré](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-export.md)
+         + [Télécharger un fichier de feuille d’envoi groupé ou un fichier d’erreur corrigé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)
+         + [Publier des feuilles d’envoi groupées ou des fichiers d’erreur corrigés](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md)
+         + [Erreurs de feuilles d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-errors.md)
          + [Suppression des feuilles d’envoi groupé et des fichiers d’erreur chargés](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-delete.md)
          + [Arrêt d’une tâche de feuille d’envoi groupé en cours](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md)
          + Données requises/incluses dans les feuilles d’envoi groupé{#bulksheet-data-formats}
-            + [Formats de fichiers de feuilles de support pris en charge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-file-formats.md)
-            + [Opérations pouvant être effectuées dans des feuilles d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)
-            + [Données de feuille de support requises pour [!DNL Baidu] les comptes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-            + [Données de feuille de support requises pour [!DNL Google Ads] les comptes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-            + [Données de feuille de support requises pour [!DNL Microsoft Advertising] les comptes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-            + [Données de feuille de support requises pour [!DNL Naver] les comptes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-            + [Données de feuilles Bulksheet pour [!DNL Yahoo! Display Network] les comptes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-            + [Données de feuilles Bulksheet pour [!DNL Yahoo! Japan] les comptes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-            + [Données de feuille de support requises pour [!DNL Yandex] les comptes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+            + [Formats de fichiers de feuille d’envoi groupé pris en charge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-file-formats.md)
+            + [Opérations que vous pouvez effectuer dans des feuilles d’envoi groupées](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)
+            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Baidu] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Microsoft Advertising] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Naver] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+            + [Données de feuille d’envoi groupé pour les comptes  [!DNL Yahoo! Display Network] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+            + [Données de feuille d’envoi groupé pour les comptes  [!DNL Yahoo! Japan] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Yandex] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + Automatisation des données de campagne à l’aide de flux d’inventaire {#inventory-feeds}
          + [A propos de l’automatisation de la gestion des publicités à l’aide des flux d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
          + [Quand les composants de compte sont-ils créés ou supprimés par les flux de stock ?](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
          + [Configuration des paramètres des données de flux](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md)
          + [Gestion des fichiers de flux](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
-         + [Gérer les modificateurs](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)
+         + [Gestion des modificateurs](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)
          + Modèles {#feed-templates}
             + [Gestion des modèles d’annonce](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
             + [Paramètres de modèle de publicité textuelle et de recherche réactive](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)
@@ -238,6 +238,7 @@ ht-degree: 2%
          + [Mise en oeuvre de  [!DNL Google Ads] publicités de recherche dynamique](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
          + [Implémenter [!DNL Google Ads] des campagnes de performances max](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
          + [Implémentation de campagnes d&#39;achats  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+         + [Mise en oeuvre de [!DNL Microsoft Advertising] conversions améliorées pour les conversions hors ligne](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
          + [Implémentation de campagnes d&#39;achats  [!DNL Microsoft Advertising] ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
       + [Synchronisation manuelle des données du réseau publicitaire](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
    + [Affectation de campagnes à un portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
@@ -265,12 +266,12 @@ ht-degree: 2%
       + [Suppression d’un [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-delete.md)
    + Rapports {#reports}
       + [A propos des rapports](/help/search-social-commerce/reports/report-about.md)
-      + [les tâches de configuration initiales des rapports ;](/help/search-social-commerce/reports/initial-setup.md)
+      + [Tâches de configuration initiales des rapports](/help/search-social-commerce/reports/initial-setup.md)
       + [Données utilisées pour les rapports](/help/search-social-commerce/reports/data-used-for-reports.md)
       + Gestion des rapports {#report-management}
          + Rapports de base et avancés {#basic-advanced-reports}
             + [À propos des rapports de base et avancés](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
-            + Formats de rapport de base {#basic-report-formats}
+            + Formats de rapports de base {#basic-report-formats}
                + [Le [!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)
                + [Le [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)
                + [Le [!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)
@@ -327,13 +328,13 @@ ht-degree: 2%
                + [Le [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/reports/management/model-accuracy/forecast-accuracy-report.md)
                + [Le [!UICONTROL Forecast Accuracy (Actuals) Report]](/help/search-social-commerce/reports/management/model-accuracy/forecast-accuracy-actuals-report.md)
             + [Génération d’un rapport de précision de modèle](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-generate.md)
-            + [Paramètres des rapports de précision du modèle](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
-         + [Génération d’un rapport à partir d’un rapport existant](/help/search-social-commerce/reports/management/report-generate-from-existing.md)
-         + [Générer un rapport à partir d’un modèle](/help/search-social-commerce/reports/management/report-generate-from-template.md)
+            + [Paramètres du rapport Précision des modèles](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+         + [Générer un rapport à partir d’un rapport existant](/help/search-social-commerce/reports/management/report-generate-from-existing.md)
+         + [Générer un rapport à partir d&#39;un modèle](/help/search-social-commerce/reports/management/report-generate-from-template.md)
          + [Suppression de rapports](/help/search-social-commerce/reports/management/report-delete.md)
          + [Affichage ou enregistrement d’un rapport](/help/search-social-commerce/reports/management/report-view-save.md)
       + Automatisation des rapports {#report-automation}
-         + Modèles de rapport {#report-templates}
+         + Modèles de rapports {#report-templates}
             + [A propos des modèles de rapport](/help/search-social-commerce/reports/automation/templates/template-about.md)
             + [Affichage d’un modèle de rapport](/help/search-social-commerce/reports/automation/templates/template-view.md)
             + [Créer un modèle de rapport](/help/search-social-commerce/reports/automation/templates/template-create.md)
@@ -341,8 +342,8 @@ ht-degree: 2%
             + [Suppression d’un modèle de rapport](/help/search-social-commerce/reports/automation/templates/template-delete.md)
          + Flux de feuille de calcul {#spreadsheet-feeds}
             + [A propos des flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)
-            + [Création d’un [!DNL Excel] modèle pour un flux de rapport dans une feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create-excel-template.md)
-            + [Création d’un flux de rapport dans une feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create.md)
+            + [Créer un modèle  [!DNL Excel]  pour un flux de rapport de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create-excel-template.md)
+            + [Création d’un flux de rapport de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create.md)
             + [Modifier les paramètres du flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)
             + [Actualisation manuelle des flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-refresh.md)
             + [Affichage ou enregistrement d’un fichier de flux de rapport de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-view-or-save.md)
@@ -385,24 +386,24 @@ ht-degree: 2%
       + [Décodage d’une URL de suivi des clics](/help/search-social-commerce/tools/click-tracking-url-decode.md)
       + [Génération d’une balise de conversion d’Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + Chargement des données de conversion vers les réseaux publicitaires {#upload-ad-networks}
-      + [Transférer les mesures de conversion suivies par Search, Social et Commerce vers [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
-      + [Activer le chargement d’objectifs vers des réseaux publicitaires](/help/search-social-commerce/tools/objective-upload-to-networks.md)
-   + Transfert de mesures pour [!DNL Naver] les comptes de suivi uniquement {#generic-tracking}
-      + [Télécharger des mesures de trafic et de conversion pour [!DNL Naver] les comptes de suivi uniquement](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
-      + [Exigences en matière de données de mesure pour [!DNL Naver] les comptes de suivi uniquement](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
-   + [Activer une synchronisation d’inventaire supplémentaire](/help/search-social-commerce/tools/sync-inventory.md)
-   + [Répliquez [!DNL Google Ads] les campagnes dans [!DNL Microsoft Advertising]](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
+      + [Chargement des mesures de conversion de recherche, de Social et de suivi Commerce sur  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
+      + [Activer le téléchargement des objectifs vers les réseaux publicitaires](/help/search-social-commerce/tools/objective-upload-to-networks.md)
+   + Chargement de mesures pour [!DNL Naver] comptes de suivi uniquement {#generic-tracking}
+      + [Chargement des mesures de trafic et de conversion pour les comptes de suivi  [!DNL Naver] uniquement](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
+      + [Exigences de données de mesure pour les comptes  [!DNL Naver] de suivi uniquement](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
+   + [Activation de la synchronisation d’inventaire supplémentaire](/help/search-social-commerce/tools/sync-inventory.md)
+   + [Répliquer [!DNL Google Ads] campagnes dans [!DNL Microsoft Advertising]](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
 + Administration {#admin}
    + [A propos des rôles](/help/search-social-commerce/admin/role-about.md)
    + [Gestion des informations d’identification des comptes de gestionnaire de réseau publicitaire](/help/search-social-commerce/admin/manager-accounts.md)
-   + [Synchronisation [!DNL Adobe] des audiences](/help/search-social-commerce/admin/sync-adobe-audiences.md)
+   + [Synchroniser  [!DNL Adobe] audiences](/help/search-social-commerce/admin/sync-adobe-audiences.md)
    + Configuration des sources de données {#data-sources}
       + [À propos de la synchronisation des mesures de conversion  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-about.md)
       + [Conditions préalables à la configuration d’une source de données  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
       + [Configurer une  [!DNL Google Analytics] vue en tant que source de données](/help/search-social-commerce/admin/data-sources/data-source-configure.md)
       + [Modification d’une source de données [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
-      + [Suspendre la synchronisation d’une source de données](/help/search-social-commerce/admin/data-sources/data-source-pause.md)
-      + [Réauthentifier une source de [!DNL Google Analytics] données](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
+      + [Suspension de la synchronisation d’une source de données](/help/search-social-commerce/admin/data-sources/data-source-pause.md)
+      + [Réauthentification d’une source de données  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [[!DNL Google Analytics] paramètres de source de données](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
       + [Annexe : Mesures disponibles  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
    + Gestion des mesures de conversion d’un annonceur{#conversion-metrics}
@@ -410,9 +411,9 @@ ht-degree: 2%
       + [Afficher les mesures de conversion suivies pour un annonceur](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
       + [Modification des mesures de conversion disponibles dans les vues de gestion et les rapports](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
       + [Modification du nom d’affichage d’une mesure de conversion](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
-      + Gestion des balises de conversion spécifiques au réseau et actions de conversion {#network-conversions}
+      + Gestion des balises de conversion spécifiques au réseau et actions/objectifs de conversion {#network-conversions}
          + [Création d’une balise de conversion pour [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
-         + Gestion des actions de conversion {#conversion-actions}
+         + Gestion des actions et des objectifs de conversion {#conversion-actions}
             + [Création d’une action de conversion pour une  [!DNL Google Ads] conversion améliorée pour les pistes](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
             + [Chargement de données de conversion hors ligne pour des conversions améliorées](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 + [Obtenir de l’aide](get-help.md)
