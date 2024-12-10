@@ -3,9 +3,9 @@ title: À propos de la gestion des publicités dans Advertising DSP
 description: En savoir plus sur la gestion des publicités.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ DSP prend en charge la diffusion de publicités par le biais de balises de servi
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
-Une fois vos publicités configurées, associez-les à un emplacement, qui comprend les paramètres de ciblage (tels que la géographie, l’audience, le périphérique et le ciblage d’inventaire) qui contrôlent la manière dont votre campagne diffuse. Vous pouvez joindre une publicité à un ou plusieurs emplacements.
+Une fois vos publicités configurées, joignez chaque publicité à un ou plusieurs emplacements, qui incluent les paramètres de ciblage (tels que la géographie, l’audience, le périphérique et le ciblage d’inventaire) qui contrôlent la manière dont votre campagne diffuse. Vous devez joindre une publicité à un emplacement pour commencer à exécuter la publicité.
 
 ## Types de publicité disponibles {#ad-types}
 
