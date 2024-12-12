@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir la description des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
+source-git-commit: cbefed8dcf59038d57e145d511f2491dd928a788
 workflow-type: tm+mt
-source-wordcount: '3887'
+source-wordcount: '3967'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,15 @@ Pour spécifier le ciblage de rubrique :
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
+**[!UICONTROL DoubleVerify ABS segment ID]:** (facultatif ; clients [!DNL DoubleVerify] uniquement ; disponible uniquement pour l’affichage preroll de bureau, standard et clic pour lecture, ainsi que pour les emplacements d’affichage et vidéo natifs uniquement ; non pris en charge pour [ emplacements garantis par programmation par défaut pour les offres ](/help/dsp/inventory/programmatic-guaranteed-about.md)) Un identifiant de segment [!DNL DoubleVerify Authentic Brand Safety] associé au compte [!DNL DoubleVerify] de l’organisation à utiliser pour l’emplacement. La spécification d’un ID bloque les impressions après l’offre à l’aide des règles de sécurité de marque personnalisées configurées pour l’ID de segment spécifié. DSP facture votre compte pour l’utilisation de l’identifiant de segment.
+
+L’ID doit commencer par &quot;51&quot; et se composer de huit chiffres. Par défaut, si un identifiant de segment est spécifié dans les paramètres du compte de l’annonceur, l’identifiant au niveau de l’annonceur est saisi, mais vous pouvez modifier l’identifiant pour utiliser un autre segment ou supprimer l’identifiant pour désactiver la fonctionnalité.
+
 **[!UICONTROL Contextual filtering]:** Types de [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] et [!DNL Peer39] filtres contextuels à appliquer. Les valeurs par défaut au niveau de l’annonceur sont sélectionnées pour de nouveaux emplacements, mais vous pouvez modifier les paramètres :
+
+<!-- Looks like we didn't rename this:
+**[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
+-->
 
 * [!UICONTROL DoubleVerify] :
 
@@ -441,8 +449,6 @@ Quel niveau de [Ads.txt](https://iabtechlab.com/ads-txt-about/) de filtrage pré
 * *[!UICONTROL Ads.txt sellers only]* : pour acheter un inventaire uniquement auprès des vendeurs directs autorisés d’un domaine.
 
 **[!UICONTROL Attention Targeting]:** (emplacements de télévision standard, d’affichage, de vidéo, de mobile et connectés) cible [!DNL Adelaide] les segments pré-enchérisés avec un niveau d’attention spécifique (élevé, moyen ou faible) en fonction du site, du format et de la taille de l’annonce spécifiés. Les segments sont mis à jour toutes les semaines. **Remarque :** L’utilisation de [!DNL Adelaide] segments pour le ciblage entraîne des frais CPM pour chaque impression fournie avec le ciblage de l’attention [!DNL Adelaide] ; ces frais sont différents des frais pour la [mesure de l’attention](/help/dsp/campaign-management/campaigns/campaign-settings.md). Pour les emplacements interactifs preroll, les frais sont facturés uniquement pour les impressions VAST.
-
-**[!UICONTROL DoubleVerify Authentic Brand Safety]:** (Annonceurs configurés avec l’option [!UICONTROL DoubleVerify Authentic Brand Safety]) Active [!DNL DoubleVerify Authentic Brand Safety], ce qui bloque les impressions après l’offre à l’aide des règles de sécurité de marque personnalisées configurées pour l’identifiant de segment spécifié. DSP facture votre compte pour l’utilisation de l’identifiant de segment spécifié dans les paramètres de l’annonceur.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 

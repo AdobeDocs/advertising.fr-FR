@@ -3,7 +3,7 @@ title: Vérification et modification des paramètres d’emplacement à l’aide
 description: Découvrez comment vérifier et modifier les paramètres de placement clés en bloc à l’aide de feuilles de calcul.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 8f4e694885919a8dcf7895c2f8d8aeb11249e03c
 workflow-type: tm+mt
 source-wordcount: '1457'
 ht-degree: 0%
@@ -109,6 +109,10 @@ Vous pouvez charger des paramètres pour vos emplacements, ainsi que pour les an
 
 ### Feuilles de calcul au niveau de la campagne
 
+<!-- 
+Check on Brand Safety - Contextual Filtering # with new DV feature/fct change.
+-->
+
 | Section | Colonne | Description | Modifiable ? |
 |---------|--------|-------------|-----------|
 | [!UICONTROL Basic] | [!UICONTROL Placement ID] | Identifiant numérique de l’emplacement. | — |
@@ -195,6 +199,25 @@ Vous pouvez charger des paramètres pour vos emplacements, ainsi que pour les an
 | [!UICONTROL Secondary Frequency Cap Interval] | Type d’intervalle pour la limite de fréquence secondaire : *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]* ou *[!UICONTROL Minute]*. Le nombre applicable de semaines, jours, heures ou minutes est indiqué par le [!UICONTROL Secondary Frequency Cap Interval Value]. | Oui |
 | [!UICONTROL Secondary Frequency Cap Interval Value] | Nombre de semaines, jours, heures ou minutes pour lesquelles s’applique le [!UICONTROL Secondary Frequency Cap]. Par exemple, si la limite secondaire est de trois impressions par six heures, alors la valeur ici est `6`. | Oui |
 | [!UICONTROL Attached Ad ID] | Les identifiants publicitaires uniques générés DSP de toutes les publicités associées à l’emplacement, séparés par des points-virgules. Pour télécharger une liste de noms de publicité et d’identifiants de publicité associés depuis la vue [!UICONTROL Ads], créez une vue personnalisée qui inclut la mesure [!UICONTROL Ad ID], puis [exportez les données](/help/dsp/campaign-management/reports/campaign-export-data.md). | Oui |
+
+
+<!-- LOTS MORE THAN I HAD ORIGINALLY DOCUMENTED -- BELOW ARE THE LAST, BUT NOT ALL:
+
+Brand Safety - Contextual Filtering #								"		
+
+| Brand Safety | Brand Safety - Contextual Filtering # |  |  |
+| Brand Safety | Brand Safety - Pre-Bid Fraud blocking # |  |  |
+| Brand Safety | Brand Safety - Pre-Bid Viewability # |  |  |
+| Brand Safety | Site Safety Block |  |  |
+| Tracking | Tracking Pixels # |  |  |
+| Tracking | Conversion Pixels # |  |  |
+| Tracking | 3rd-party fees |  |  |
+| # of Ads Attached |  |  |
+| Ads |  Ad Names |  |  |
+| Ads | Attached Ad ID |  |  |
+| Environment | Environment |  |  |
+-->
+
 
 >[!MORELIKETHIS]
 >

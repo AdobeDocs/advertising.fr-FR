@@ -2,9 +2,9 @@
 title: Paramètres du compte Advertiser
 description: Voir la description des paramètres de l’annonceur disponibles.
 role: User, Admin
-source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
+source-git-commit: 20f69d2e8d5d289015c911f153609c0805307f0a
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -170,11 +170,9 @@ Vous pouvez remplacer le paramètre au niveau de l’annonceur au [niveau d’em
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] clients uniquement ; facultatif) ID de segment de sécurité de la marque associé au compte [!DNL DoubleVerify] de l’organisation.
+**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] clients uniquement ; facultatif) ID de segment [!DNL DoubleVerify Authentic Brand Safety] associé au compte [!DNL DoubleVerify] de l’organisation à utiliser par défaut pour tous les emplacements. La spécification d’un ID bloque les impressions après l’offre à l’aide des règles de sécurité de marque personnalisées configurées pour l’ID de segment spécifié. DSP facture votre compte pour l’utilisation de l’identifiant de segment.
 
-**[!UICONTROL Enable Authentic Brand Suitability]:** (Facultatif) Active [!DNL DoubleVerify Authentic Brand Safety] par défaut, ce qui bloque les impressions après l’offre à l’aide des règles de sécurité de marque personnalisées configurées pour l’identifiant de segment spécifié. DSP facture votre compte pour l’utilisation de l’identifiant de segment.
-
-Vous pouvez remplacer le paramètre au niveau de l’annonceur au niveau de l’emplacement.
+L’ID doit commencer par &quot;51&quot; et se composer de huit chiffres. Vous pouvez modifier ou supprimer l’ID au niveau de l’annonceur au niveau de l’emplacement.
 
 >[!MORELIKETHIS]
 >
