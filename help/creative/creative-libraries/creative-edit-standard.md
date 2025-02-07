@@ -1,0 +1,70 @@
+---
+title: Modification de contenus publicitaires standard dans une bibliothèque de contenus publicitaires
+description: Découvrez comment modifier les paramètres des contenus publicitaires standard (non dynamiques) dans une bibliothèque de contenus publicitaires.
+feature: Creative Standard Creatives
+source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+workflow-type: tm+mt
+source-wordcount: '395'
+ht-degree: 0%
+
+---
+
+# Modification de contenus publicitaires standard dans une bibliothèque de contenus publicitaires
+
+*Version bêta fermée*
+
+Vous pouvez modifier certains paramètres pour chaque type de contenu créatif standard. Vous pouvez modifier plusieurs <!-- or creative variations --> de contenu publicitaire du même type de contenu créatif (HTML 5 simple avec une seule page de destination, HTML 5 statique avec plusieurs pages de destination, HTML 5 flexible, image ou tiers<!-- , or dynamic -->) uniquement.
+
+Pour les contenus publicitaires HTML 5 flexibles et HTML 5 statiques, vous pouvez charger un nouveau fichier modèle avec une mise en page différente, mais avec le même ensemble de noms d’attribut. Pour les contenus publicitaires HTML 5 simples, vous pouvez modifier n’importe quel attribut ou ajouter des images en chargeant un nouveau modèle avec les nouveaux attributs ou images. Dans tous les cas, le modèle doit être un fichier local au format ZIP d’une taille maximale de 2 Mo.
+
+Lorsque vous modifiez un <!-- or creative variation --> de création inclus dans une offre groupée, vos modifications sont automatiquement appliquées à toutes les expériences qui incluent l’offre groupée. Toutefois, les pages de destination et URL de suivi personnalisées spécifiées au niveau de l’expérience restent applicables à l’offre groupée associée à cette expérience.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. Cliquez sur le nom de la bibliothèque.
+
+1. Dans l’onglet **[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]** , sélectionnez les contenus publicitaires :
+
+   * (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des contenus publicitaires spécifiques.
+
+   * Pour modifier un élément créatif unique :
+
+      * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom du contenu créatif, puis cliquez sur **[!UICONTROL Edit]**.
+
+      * Dans la vue Tableau, placez le curseur sur la ligne et cliquez sur **[!UICONTROL Edit]**.
+
+   * Pour modifier un ou plusieurs contenus publicitaires, cochez la case correspondant à chacun des contenus publicitaires que vous souhaitez modifier. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Edit]**.
+
+     Pour sélectionner toutes les lignes, cochez la case globale dans le coin supérieur gauche.
+
+1. Modifiez les [paramètres de création d’image](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), [paramètres de création d’HTML 5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), [paramètres de création d’HTML 5 flexibles](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) ou [paramètres de création tiers](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party). <!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
+
+   Lorsque vous modifiez plusieurs contenus publicitaires en même temps :
+
+   * Vous pouvez modifier les paramètres de chaque élément créatif en même temps ou individuellement. Par défaut, tous les contenus publicitaires sélectionnés sont sélectionnés et les paramètres que vous spécifiez s’appliquent à tous les contenus publicitaires sélectionnés. Pour modifier les paramètres de contenus publicitaires spécifiques, désélectionnez chaque contenu publicitaire inapplicable avant de modifier les champs ; répétez l’opération pour d’autres contenus publicitaires si nécessaire.
+
+   * Certains paramètres sont appliqués à tous les contenus publicitaires sélectionnés.
+
+   >[!NOTE]
+   >
+   >* (Contenus publicitaires HTML 5 flexibles uniquement) Vous ne pouvez modifier les attributs que pour les contenus publicitaires uniques.<!-- Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
+
+<!-- Not there as of 1/16/25. If we do add it, verify the applicable ad types:   
+1. (Flexible HTML5 [or third-party should be possible, but not so] creatives; optional) Once you've made your changes, click ![]() to preview the new creative. 
+-->
+
+1. Cliquez sur **Enregistrer**.
+
+<!-- Not there as of 1/16/25. If we do add it, add back in:
+1. (Flexible HTML5 or third-party creatives; optional) Regenerate the thumbnail within the table view or cards view if the change isn't visible immediately.
+-->
+
+>[!MORELIKETHIS]
+>
+>* [Ajouter des contenus publicitaires standard à une bibliothèque de contenus publicitaires](creative-add-standard.md)
+>* [Paramètres de création standard](/help/creative/creative-libraries/creative-settings-standard.md)
+>* [Prévisualisation d’une création](/help/creative/creative-libraries/creative-preview.md)
+>* [Dupliquer les contenus publicitaires](/help/creative/creative-libraries/creative-duplicate.md)
+>* [Supprimer des contenus publicitaires](/help/creative/creative-libraries/creative-delete.md)

@@ -1,0 +1,72 @@
+---
+title: À propos du Adobe Advertising Creative
+description: En savoir plus sur  [!DNL Creative].
+feature: Creative Introduction
+source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 0%
+
+---
+
+# À propos de Adobe Advertising Creative 2.0
+
+*Version bêta fermée*
+
+<!-- verify all and rewrite to include new stuff -->
+
+Dans le cadre de l’Adobe Advertising, Advertising Creative est une plateforme en libre-service permettant d’automatiser les expériences publicitaires personnalisées en temps réel et d’optimiser éventuellement vos publicités au niveau des éléments créatifs.
+
+## Bibliothèques créatives personnalisées de contenus créatifs réutilisables
+
+Vos bibliothèques de contenu publicitaire vous permettent de gérer tous les contenus publicitaires que vous utiliserez dans vos expériences publicitaires. Vous pouvez créer plusieurs bibliothèques, chacune avec des contenus créatifs individuels et des groupes de contenus créatifs (appelés *lots*). Vous ajouterez des offres groupées créatives à vos expériences publicitaires.
+
+## Expériences basées sur des règles
+
+Avec [!DNL Creative], vous pouvez créer des histoires à l’aide d’un modèle d’arbre de décision basé sur des règles, en déployant une chaîne chorégraphiée d’annonces personnalisées en temps réel en fonction de ce que vous savez de votre audience et qui suivent vos clients même lorsqu’ils se déplacent vers différents sites web<!-- verify if that's true without Adobe CDP --> Par exemple, les histoires peuvent changer en fonction du comportement des clients, de la zone géographique, des données démographiques, du reciblage, de la position sur le parcours des clients, etc.
+
+### Implémentation d’expériences en tant que publicités
+
+Une fois une expérience créée, vous pouvez générer une balise JavaScript ou iframe pour l’expérience et implémenter la balise en tant qu’annonce tierce dans Advertising DSP ou tout autre DSP.<!-- Add any more info about integration with DSP? -->
+
+<!-- Maybe add a subsection "Audience targeting options" with info about types of creative-level REtargeting and placement-level targeting within your DSP.  Need to clarify if any placement-level targeting might contradict/override creative-level targeting, or if they're completely different.
+
+Advertiser should be able to target all segments which are available in DSP for targeting
+-->
+
+### Optimisation des éléments publicitaires
+
+Vous pouvez éventuellement [!DNL Creative] permettre d’optimiser les éléments publicitaires de n’importe quelle expérience en fonction des performances (que vous définissiez ou non des cibles d’audience spécifiques) à l’aide de la rotation optimisée et pondérée des publicités, optimisée par Adobe Sensei.
+
+## Reciblage des pixels
+
+Vous pouvez créer des pixels de reciblage à utiliser comme cibles pour les créatifs dans une expérience publicitaire. Ainsi, vous n’affichez les annonces qu’aux utilisateurs dotés d’attributs spécifiés qui ont précédemment visité des pages web spécifiques.
+
+## Suivi des impressions, clics et conversions
+
+[!DNL Creative] effectue automatiquement le suivi de toutes les impressions et de tous les clics pour les publicités diffusées à partir d’une expérience . Vous pouvez également ajouter des URL de suivi d’impressions et de clics tierces aux contenus publicitaires dans les bibliothèques créatives, ainsi que des URL de suivi personnalisées dans une expérience.
+
+[!DNL Creative] effectue également le suivi des conversions à partir des annonces diffusées créées à partir de vos expériences publicitaires.<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optoinal?  -->
+
+<!--
+ [Don't need to mention] When an ad is served, the DSP that buys the ad first tracks the impression, and then passes the impression information to [!DNL Creative]. [!DNL Creative] first tracks a click on an ad, and it then passes the click information
+to the DSP.
+-->
+
+## Rapports de performance
+
+Vous pouvez afficher des rapports de performances détaillés au niveau de l’expérience dans Creatives > Expériences.
+
+Vous pouvez également créer des rapports créatifs personnalisés dans Rapports > Rapports personnalisés pour surveiller les performances au niveau de l’expérience sur l’ensemble de vos expériences. Si vous utilisez vos expériences [!DNL Creative] comme annonces dans des campagnes DSP, les données de performances de ces annonces sont disponibles dans des rapports personnalisés supplémentaires, tout comme les données de vos autres annonces DSP. <!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
+
+Vous pouvez éventuellement diffuser vos rapports personnalisés vers des [destinations de rapports](/help/dsp/reports/report-destinations/report-destination-about.md) spécifiées.
+
+<!--
+>* [Overview of implementing Adobe Advertising Creative](/help/creative/introduction/implementation-overview.md)
+>* [How the user interface is organized](/help/creative/introduction/ui.md)
+-->
+
+>[!MORELIKETHIS]
+>
+>* [À propos de vos bibliothèques de création](/help/creative/creative-libraries/creative-libraries-about.md)
+>* [À propos des expériences dans Advertising Creative](/help/creative/experiences/experience-about.md)
