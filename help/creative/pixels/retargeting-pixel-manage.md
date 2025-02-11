@@ -2,9 +2,10 @@
 title: Gestion des pixels de reciblage
 description: Découvrez comment créer et implémenter des pixels de reciblage à utiliser comme cibles pour les expériences publicitaires.
 feature: Creative Pixels
-source-git-commit: 91edc406401cbdae44932a2c70f7daf12d8d7b4e
+exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
+source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -29,9 +30,9 @@ Exemple de pixel :
 
 >[!NOTE]
 >
-> * [!DNL Creative] ne prend actuellement en charge les identifiants universels que pour Advertising DSP. Une version ultérieure prendra en charge les identifiants universels pour les DSP tiers.<!-- Clarify this and reword as needed -->
+> * [!DNL Creative] ne prend actuellement en charge les identifiants universels que pour Advertising DSP. Une version ultérieure prendra en charge les identifiants universels des DSP tiers.<!-- Clarify this and reword as needed -->
 >* Vous pouvez également utiliser vos audiences propriétaires de Adobe Audience Manager et Adobe Analytics en tant que [ cibles créatives pour vos expériences](/help/creative/experiences/experience-settings-targeting.md).
->* Lorsque vous utilisez une expérience en tant qu’annonce dans un emplacement Advertising DSP, vous pouvez cibler l’emplacement sur toutes les audiences disponibles dans DSP. Vous pouvez également [créer des balises de segment d’audience personnalisées](/help/dsp/audiences/custom-segment-create.md) pour suivre tous les visiteurs vers des pages de destination spécifiques, puis utiliser ces segments comme cibles créatives pour un emplacement.
+>* Lorsque vous utilisez une expérience en tant qu&#39;annonce dans un emplacement Advertising DSP, vous pouvez cibler l&#39;emplacement sur toutes les audiences disponibles dans DSP. Vous pouvez également [créer des balises de segment d’audience personnalisées](/help/dsp/audiences/custom-segment-create.md) pour suivre tous les visiteurs vers des pages de destination spécifiques, puis utiliser ces segments comme cibles créatives pour un emplacement.
 >* Les visiteurs et visiteuses de site web qui se sont désinscrits du suivi pour le ciblage publicitaire ne reçoivent pas d’annonces avec du contenu créatif personnalisé basé sur un segment d’audience ou un profil de reciblage.
 
 ## Créer un pixel de reciblage
@@ -78,7 +79,7 @@ Exemple de pixel :
 
    Si vous ajoutez manuellement des attributs supplémentaires, vous devez inclure le codage d’URL.
 
-   Par exemple, si vous avez inclus les attributs « category », « color » et « size », ainsi que les identifiants universels d’ID5 de capture, la balise pixel inclura les paramètres suivants : `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` et `&id5pid=--Insert ID5_PARTNER_ID--`. Pour cibler les utilisateurs qui sélectionnent des sandales rouges de taille 10, par exemple, vous devez définir les paramètres des balises image et script sur `&ut1=--sandals--&ut2=--red--&ut3=--10--`, ainsi que saisir l’ID5 du partenaire dans la balise script, tel que `&id5pid=--0123456789--`.&lt;!— Vérifiez la syntaxe finale — doit-elle être juste : &amp;ut1=sandales&amp;ut2=10&amp;ut2=rouge ? —>
+   Par exemple, si vous avez inclus les attributs « category », « color » et « size », ainsi que les identifiants universels d’ID5 de capture, la balise pixel inclura les paramètres suivants : `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` et `&id5pid=--Insert ID5_PARTNER_ID--`. Pour cibler les utilisateurs qui sélectionnent des sandales rouges de taille 10, par exemple, vous devez définir les paramètres des balises image et script sur `&ut1=sandals&ut2=red&ut3=10`, ainsi que saisir l’ID5 du partenaire dans la balise script, tel que `&id5pid=0123456789`.
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
@@ -116,7 +117,7 @@ Lorsque vous ciblez des expériences publicitaires sur des utilisateurs exposés
 
 * *[!UICONTROL Ramp ID]:* la balise de pixel suit le [!DNL Ramp IDs]. Aucun frais n’est encouru pour les impressions diffusées aux identifiants universels.
 
-Pour utiliser cette fonctionnalité, vous ou un autre utilisateur du compte DSP devez accepter les conditions d’utilisation de l’ID universel une seule fois avant de pouvoir utiliser les ID universels pour un nouveau type d’ID. Pour les clients disposant de contrats de service gérés, l’équipe chargée de votre compte Adobe obtiendra votre consentement et acceptera les conditions au nom de votre entreprise. Pour lire les termes, cliquez sur **[!UICONTROL Terms of Service]**. Pour accepter les conditions, faites défiler l’écran jusqu’au bas des conditions et cliquez sur **[!UICONTROL Accept]**.
+Pour utiliser cette fonctionnalité, vous ou un autre utilisateur du compte DSP devez accepter les conditions d’utilisation de l’ID universel une seule fois avant de pouvoir utiliser les ID universels pour un nouveau type d’ID. Pour les clients qui disposent de contrats de service géré, l’équipe chargée de votre compte Adobe obtiendra votre consentement et acceptera les conditions au nom de votre entreprise. Pour lire les termes, cliquez sur **[!UICONTROL Terms of Service]**. Pour accepter les conditions, faites défiler l’écran jusqu’au bas des conditions et cliquez sur **[!UICONTROL Accept]**.
 
 >[!MORELIKETHIS]
 >

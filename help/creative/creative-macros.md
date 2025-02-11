@@ -2,7 +2,8 @@
 title: Macros disponibles pour le tracking des URL
 description: Référencez les macros que vous pouvez ajouter à vos URL de page de destination, URL de tracking et contenus publicitaires tiers.
 feature: Creative Experiences, Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
+source-git-commit: 926d2a0db933a19f5ebef056eca2089f2de6ca64
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -38,14 +39,14 @@ Certaines des macros disponibles, ou leurs équivalents, sont automatiquement in
 -->
 
 | Macro | Description | Automatiquement dans les balises d’expérience pour Advertising DSP ? |
-| --- | --- | --- | --- |
-| `${TM_CAMPAIGN_ID_NUM}` | Effectue le suivi et signale l’identifiant de campagne à partir du DSP | Oui |
-| `${TM_SITE_ID_NUM}` | Effectue le suivi et génère des rapports sur l’ID du site à partir du DSP | Oui |
+| --- | --- | --- |
+| `${TM_CAMPAIGN_ID_NUM}` | Effectue le suivi et génère des rapports sur l’identifiant de campagne à partir du DSP | Oui |
+| `${TM_SITE_ID_NUM}` | Effectue le suivi et génère des rapports sur l’ID de site à partir du DSP | Oui |
 | `${TM_PLACEMENT_ID_NUM}` | Effectue le suivi et génère des rapports sur l’ID d’emplacement à partir du DSP | Oui |
-| `${TM_AD_ID_NUM}` | Effectue le suivi et signale l’ID de l’annonce publicitaire à partir du DSP | Oui |
-| `${TM_CREATIVE_ID_NUM}` | Effectue le suivi et génère des rapports sur l’ID de contenu créatif du DSP | S.O. |
-| `${TM_SESSION_ID}` | Effectue le suivi et signale l’ID d’impression à partir du DSP. Si une valeur n’est pas renvoyée, Advertising Creative en génère une. | Oui |
-| `${TM_ACC_EXPERIENCE_ID}` | Effectue le suivi et génère des rapports sur l’ID d’expérience Advertising Creative | — |
+| `${TM_AD_ID_NUM}` | Effectue le suivi et génère des rapports sur l’ID d’annonce publicitaire à partir du DSP | Oui |
+| `${TM_CREATIVE_ID_NUM}` | Effectue le suivi et génère des rapports sur l’ID de contenu créatif à partir du DSP | S.O. |
+| `${TM_SESSION_ID}` | Effectue le suivi et génère des rapports sur l’ID d’impression à partir du DSP. Si une valeur n’est pas renvoyée, Advertising Creative en génère une. | Oui |
+| `${TM_ACC_EXPERIENCE_ID}` | Effectue le suivi et génère des rapports sur l’Experience ID Advertising Creative | — |
 | `${TM_ACC_CREATIVE_ID}` | Effectue le suivi et génère des rapports sur l’ID de contenu créatif Advertising Creative | — |
 | `${TM_RANDOM}` | Un nombre aléatoire compris entre 1 et 1000000 | — |
 | `${TM_TIMESTAMP}` | Date et heure Unix (en secondes) | — |
