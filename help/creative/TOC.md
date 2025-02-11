@@ -1,10 +1,10 @@
 ---
 role: User
-user-guide-title: Guide de l’Advertising Creative
-user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l’utilisation d’Advertising Creative.
+user-guide-title: Guide d’Advertising Creative
+user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources requis pour utiliser Advertising Creative.
 breadcrumb-title: Guide de création
 hide: true
-source-git-commit: a5952cbd26ebdbf7e16d7735555d956353616d40
+source-git-commit: f13f2b3e9bed34acbe1c3c07adbca2b7a61ac76c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# Guide d’(Closed Beta) Advertising Creative 2.0 {#creative}
+# (Beta Fermée) Guide D’Advertising Creative 2.0 {#creative}
 
 + [Nouveautés](/help/creative/home.md)
 + {#introduction} d’introduction
    + [Personnalisation des vues de données](/help/creative/introduction/customize-data-views.md)
-   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + {#creative-libraries} des bibliothèques créatives
    + [À propos de vos bibliothèques de création](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md)
@@ -28,7 +28,7 @@ ht-degree: 0%
          + [Ajout de contenus publicitaires standard à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-standard.md)
          + [Modification de contenus publicitaires standard](/help/creative/creative-libraries/creative-edit-standard.md)
          + [Paramètres de création standard](/help/creative/creative-libraries/creative-settings-standard.md)
-         + [Spécification de création HTML 5](/help/creative/creative-libraries/html5-creative-specification.md)
+         + [Spécification de création HTML5](/help/creative/creative-libraries/html5-creative-specification.md)
       + [Prévisualisation d’un contenu créatif](/help/creative/creative-libraries/creative-preview.md)
       + [Joindre et détacher des contenus publicitaires des offres groupées](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [Dupliquer les contenus publicitaires](/help/creative/creative-libraries/creative-duplicate.md)
@@ -75,5 +75,5 @@ ht-degree: 0%
    + [Rapport créatif personnalisé](/help/creative/report-custom-creative.md)
 + [Reciblage des pixels](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponibles pour le tracking des URL](/help/creative/creative-macros.md)
-+ [Service clientèle](https://experienceleague.adobe.com/home?support-tab=home#support)
-+ [Notes de mise à jour de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Service clientèle](https://experienceleague.adobe.com/home?support-tab=home#support){target="_blank"}
++ [Notes de mise à jour de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
