@@ -2,9 +2,10 @@
 title: Exporter et implémenter une balise d’expérience publicitaire pour une expérience en direct
 description: Découvrez comment exporter une balise d’expérience publicitaire et éventuellement la charger dans une campagne Advertising DSP.
 feature: Creative Experiences
-source-git-commit: fc2cd07944026badc0722c1449aa9aaf2c94bfd7
+exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -22,8 +23,6 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger des 
 >* Lorsque vous créez une expérience avec le ciblage d’arborescence de décision, [!DNL Creative] crée automatiquement une balise d’annonce publicitaire pour chaque taille de contenu créatif applicable.
 >* Lorsque vous créez une expérience sans ciblage d’arborescence de décision, vous devez [créer manuellement une balise d’annonce publicitaire](experience-tag-create-manually.md) pour chaque taille de contenu créatif applicable.
 >* Les balises Experience sont dynamiques. Il n’est pas nécessaire de mettre à jour les balises si vous modifiez une expérience.
-
-## Exporter une balise d’annonce publicitaire pour une expérience avec le ciblage d’arborescence de décision
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
