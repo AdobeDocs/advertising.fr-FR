@@ -2,9 +2,10 @@
 title: Ajout de contenus publicitaires standard à une bibliothèque de contenus publicitaires
 description: Découvrez comment ajouter des contenus publicitaires standard (non dynamiques) à une bibliothèque de contenus publicitaires.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ Ajoutez des contenus publicitaires à vos [bibliothèques de contenu publicitair
 >
 > Vous pouvez inclure des contenus publicitaires individuels directement dans des expériences publicitaires pour lesquelles aucune cible utilisateur n’est définie. Vous pouvez également regrouper vos contenus publicitaires dans des [offres groupées](bundle-manage.md), que vous pouvez inclure dans des expériences publicitaires ciblées.
 
-## Ajout d’annonces d’HTML flexibles à une bibliothèque de contenu créatif {#flexible-creative-add}
+## Ajout d’annonces HTML flexibles à une bibliothèque de contenu créatif {#flexible-creative-add}
 
 <!-- Later:
 You can do either of the following: 
@@ -32,7 +33,7 @@ You can do either of the following:
 
 -->
 
-Vous pouvez charger plusieurs unités de création flexibles. Les contenus publicitaires flexibles doivent être au format ZIP et peuvent atteindre 2 Mo. Pour connaître les exigences en matière de fichiers, consultez la spécification de création [HTML 5](html5-creative-specification.md).
+Vous pouvez charger plusieurs unités de création flexibles. Les contenus publicitaires flexibles doivent être au format ZIP et peuvent atteindre 2 Mo. Pour connaître les exigences en matière de fichiers, consultez la spécification de création [HTML5](html5-creative-specification.md).
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -58,7 +59,7 @@ Vous pouvez charger plusieurs unités de création flexibles. Les contenus publi
 
    * Pour supprimer un fichier, décochez la case en regard de celui-ci.
 
-1. Spécifiez les [paramètres d’annonce publicitaire HTML 5 flexibles](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5).
+1. Spécifiez les [paramètres de publicité HTML5 flexibles](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5).
 
    Par défaut, tous les contenus publicitaires que vous venez de télécharger sont sélectionnés. Tous les paramètres ne comportant qu’une seule valeur s’appliquent à tous les contenus publicitaires sélectionnés ; pour certains paramètres, vous pouvez spécifier des valeurs individuelles. Pour définir des paramètres pour des contenus publicitaires spécifiques, décochez la case en regard de chaque contenu publicitaire inapplicable.
 
@@ -103,7 +104,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 ## Ajout d’un contenu créatif HTML5 à une bibliothèque de contenu créatif
 
-<!-- verify -->Vous pouvez ajouter plusieurs contenus publicitaires HTML 5 d’un seul type (simple ou statique) à la fois.
+<!-- verify -->Vous pouvez ajouter plusieurs contenus publicitaires HTML5 d’un seul type (simple ou statique) à la fois.
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -111,7 +112,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 >[!NOTE]
 >
->Vous pouvez également [ajouter des contenus publicitaires HTML 5 flexibles](#flexible-creative-add), qui sont des contenus publicitaires HTML 5 avec tous leurs attributs comme balises d’HTML standard que vous pouvez modifier directement dans [!DNL Creative].
+>Vous pouvez également [ajouter des contenus publicitaires HTML5 flexibles](#flexible-creative-add), qui sont des contenus publicitaires HTML5 avec tous leurs attributs en tant que balises HTML standard que vous pouvez modifier directement dans [!DNL Creative].
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -137,9 +138,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Cliquez sur **[!UICONTROL select a file]** pour localiser le fichier sur votre appareil ou réseau.
 
-   Voir la spécification publicitaire [HTML 5](/help/creative/creative-libraries/html5-creative-specification.md).
+   Voir la spécification publicitaire [HTML5](/help/creative/creative-libraries/html5-creative-specification.md).
 
-1. Spécifiez les paramètres de publicité [HTML 5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5).
+1. Spécifiez les [paramètres de publicité HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5).
 
 Par défaut, tous les contenus publicitaires que vous venez de télécharger sont sélectionnés. Tous les paramètres ne comportant qu’une seule valeur s’appliquent à tous les contenus publicitaires sélectionnés ; pour certains paramètres, vous pouvez spécifier des valeurs individuelles. Pour définir des paramètres pour des contenus publicitaires spécifiques, décochez la case en regard de chaque contenu publicitaire inapplicable.
 
@@ -175,7 +176,7 @@ Les contenus publicitaires d’image peuvent être au format GIF, JPEG, JPG ou P
 
 1. Clic **[!UICONTROL Create]**
 
-## Ajout d’un contenu créatif tiers à une bibliothèque de contenu créatif
+## Ajout d’un contenu créatif tiers à une bibliothèque de contenu créatif {#creative-add-third-party}
 
 [!DNL Creative] prend en charge les balises de suivi JavaScript pour les contenus publicitaires hébergés sur la plupart des serveurs de publicités tiers.
 
@@ -187,9 +188,9 @@ Les contenus publicitaires d’image peuvent être au format GIF, JPEG, JPG ou P
 
 1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL 3rd Party]**.
 
-1. Spécifiez la balise JavaScript et d’autres paramètres pour les créatifs dans les [paramètres de création tiers].
+1. Spécifiez la balise JavaScript et d’autres paramètres pour les créatifs dans les [paramètres de création tiers](#creative-settings-third-party).
 
-   Vous pouvez copier et coller l’une des macros disponibles dans la balise JavaScript.
+   Vous pouvez copier et coller l’une des [macros disponibles](/help/creative/creative-macros.md) dans la balise JavaScript.
 
 1. Clic **[!UICONTROL Create]**
 
@@ -197,6 +198,7 @@ Les contenus publicitaires d’image peuvent être au format GIF, JPEG, JPG ou P
 >
 >* [Modification de contenus publicitaires standard](/help/creative/creative-libraries/creative-edit-standard.md)
 >* [Paramètres de création standard](/help/creative/creative-libraries/creative-settings-standard.md)
+>* [Macros disponibles pour le tracking des URL](/help/creative/creative-macros.md)
 >* [Tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md)
 >* [Prévisualisation d’une création](/help/creative/creative-libraries/creative-preview.md)
 >* [Joindre et détacher des contenus publicitaires des offres groupées](/help/creative/creative-libraries/creative-attach-detach-bundles.md)

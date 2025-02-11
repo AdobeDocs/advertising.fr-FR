@@ -2,9 +2,10 @@
 title: Paramètres des expériences non ciblées
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires sans ciblage d’arborescence de décision.
 feature: Creative Experiences
-source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+exl-id: aeeca035-8ae2-4173-827a-b8690d228549
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]:** (Lecture seule pour les expériences existantes) L’annonceur qui enchérira sur les contenus publicitaires inclus dans l’expérience. Une fois l’expérience enregistrée, vous ne pouvez plus modifier l’annonceur.
 
-**[!UICONTROL Experience Name]:** nom unique de l’expérience. **Conseil :** utilisez un nom qui sera facile à trouver lorsque vous utiliserez l’expérience comme publicité dans Advertising DSP ou un autre DSP.
+**[!UICONTROL Experience Name]:** nom unique de l’expérience. **Conseil :** utilisez un nom qui sera facile à trouver lorsque vous utiliserez l’expérience en tant qu’annonce dans Advertising DSP ou un autre DSP.
 
 **[!UICONTROL Creative Library]:** (Lecture seule pour les expériences existantes) Bibliothèque de contenu créatif unique à utiliser pour l’expérience. Une fois l’expérience enregistrée, vous ne pouvez plus modifier la bibliothèque.
 
@@ -67,7 +68,7 @@ Lorsque vous créez par la suite une balise d’expérience publicitaire pour un
 
 **[!UICONTROL Impression Tracking URL]:** (facultatif) URL de suivi d’impression tierce à ajouter à l’URL de la page de destination pour toute publicité créée à partir de l’expérience. Vous pouvez inclure jusqu’à cinq URL. Pour ajouter une URL supplémentaire, cliquez sur ![icône](/help/creative/assets/create.png) **[!UICONTROL Add More] et saisissez l’URL.
 
-Une fois que vous avez saisi une URL, toutes les macros disponibles et les données auxquelles elles sont remplacées sont répertoriées plus bas dans la page. Pour insérer l&#39;une des macros dans l&#39;URL, placez le curseur sur la description de la macro et cliquez sur ![Copier dans le presse-papiers](/help/creative/assets/copy-to-clipboard.png "Copier dans le presse-papiers"), puis collez la macro où vous le souhaitez dans le champ URL.
+Une fois que vous avez saisi une URL, toutes les [macros disponibles](/help/creative/creative-macros.md) ainsi que les données auxquelles elles sont remplacées sont répertoriées plus bas dans la page. Pour insérer l&#39;une des macros dans l&#39;URL, placez le curseur sur la description de la macro et cliquez sur ![Copier dans le presse-papiers](/help/creative/assets/copy-to-clipboard.png "Copier dans le presse-papiers"), puis collez la macro où vous le souhaitez dans le champ URL.
 
 >[!NOTE]
 >
@@ -77,7 +78,7 @@ Une fois que vous avez saisi une URL, toutes les macros disponibles et les donn�
 
 **[!UICONTROL Click Tracking URL]:** (facultatif) URL de suivi des clics tierce à ajouter à l’URL de la page de destination. Vous pouvez inclure jusqu’à cinq URL. Pour ajouter une URL supplémentaire, cliquez sur ![icône](/help/creative/assets/create.png) **[!UICONTROL Add More]** et saisissez l’URL.
 
-Une fois que vous avez saisi une URL, toutes les macros disponibles et les données auxquelles elles sont remplacées sont répertoriées plus bas dans la page. Pour insérer l&#39;une des macros dans l&#39;URL, placez le curseur sur la description de la macro et cliquez sur ![Copier dans le presse-papiers](/help/creative/assets/copy-to-clipboard.png "Copier dans le presse-papiers"), puis collez la macro où vous le souhaitez dans le champ URL.
+Une fois que vous avez saisi une URL, toutes les [macros disponibles](/help/creative/creative-macros.md) ainsi que les données auxquelles elles sont remplacées sont répertoriées plus bas dans la page. Pour insérer l&#39;une des macros dans l&#39;URL, placez le curseur sur la description de la macro et cliquez sur ![Copier dans le presse-papiers](/help/creative/assets/copy-to-clipboard.png "Copier dans le presse-papiers"), puis collez la macro où vous le souhaitez dans le champ URL.
 
 >[!NOTE]
 >
@@ -94,6 +95,7 @@ Une fois que vous avez saisi une URL, toutes les macros disponibles et les donn�
 >
 >* [Création d’une expérience sans ciblage d’arborescence de décision](experience-create-no-targeting.md)
 >* [Modification d’une expérience sans ciblage d’arbre de décision](experience-edit-no-targeting.md)
+>* [Macros disponibles pour le tracking des URL](/help/creative/creative-macros.md)
 >* [Créez manuellement une balise d’annonce publicitaire pour une taille de contenu créatif applicable](experience-tag-create-manually.md)
 >* [Affecter des contenus publicitaires à une balise publicitaire pour des expériences sans ciblage](experience-tag-assign-creatives.md)
 >* [Personnaliser les URL de tracking pour une expérience sans ciblage](experience-tracking-urls-no-targeting.md)

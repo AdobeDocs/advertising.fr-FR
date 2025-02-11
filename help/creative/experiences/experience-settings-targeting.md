@@ -2,9 +2,10 @@
 title: Paramètres de l’expérience ciblée
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires ciblées.
 feature: Creative Experiences
-source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+exl-id: cb6fd855-6534-4eac-b34b-323073d186be
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]:** (Lecture seule pour les expériences existantes) L’annonceur qui enchérira sur les combinaisons créatives et cibles incluses dans l’expérience. Une fois l’expérience enregistrée, vous ne pouvez plus modifier l’annonceur.
 
-**[!UICONTROL Experience Name]:** nom unique de l’expérience. **Conseil :** utilisez un nom qui sera facile à trouver lorsque vous utiliserez l’expérience comme publicité dans Advertising DSP ou un autre DSP.
+**[!UICONTROL Experience Name]:** nom unique de l’expérience. **Conseil :** utilisez un nom qui sera facile à trouver lorsque vous utiliserez l’expérience en tant qu’annonce dans Advertising DSP ou un autre DSP.
 
 **[!UICONTROL Creative Library]:** (Lecture seule pour les expériences existantes) Bibliothèque de contenu créatif unique à utiliser pour l’expérience. Une fois l’expérience enregistrée, vous ne pouvez plus modifier la bibliothèque.
 
@@ -49,7 +50,7 @@ Une fois l’expérience enregistrée, vous ne pouvez plus modifier ce paramètr
 
 ## section [!UICONTROL Advanced]
 
-**Data Pass :** (lecture seule pour les expériences existantes, facultatif) pour cibler les utilisateurs en fonction de paires clé-valeur spécifiques que le DSP, l’éditeur ou le partenaire transmet en temps réel à l’impression. Vous pouvez spécifier jusqu’à cinq clés de transmission de données (paramètres). Lorsque vous configurez le ciblage dans l’arborescence de décision, vous pouvez inclure un niveau de données pour transmettre les nœuds cibles et spécifier les valeurs à cibler pour chaque nœud. Si vous ne spécifiez pas de clé dans ce champ lors de la création de l’expérience, vous pouvez toujours en spécifier une dans l’arborescence de décision.<!-- May move this to just within the decision tree.  -->
+**Transmission de données :** (lecture seule pour les expériences existantes, facultatif) pour cibler les utilisateurs en fonction de paires clé-valeur spécifiques que le DSP, l’éditeur ou le partenaire transmet en temps réel à l’impression. Vous pouvez spécifier jusqu’à cinq clés de transmission de données (paramètres). Lorsque vous configurez le ciblage dans l’arborescence de décision, vous pouvez inclure un niveau de données pour transmettre les nœuds cibles et spécifier les valeurs à cibler pour chaque nœud. Si vous ne spécifiez pas de clé dans ce champ lors de la création de l’expérience, vous pouvez toujours en spécifier une dans l’arborescence de décision.<!-- May move this to just within the decision tree.  -->
 
 Chaque clé est ajoutée en tant que macro dans l’expérience publicitaire
 , que vous pouvez générer pour implémenter en tant qu’annonce publicitaire dans votre DSP.
@@ -70,7 +71,7 @@ Chaque clé est ajoutée en tant que macro dans l’expérience publicitaire
 
 **URL de suivi d’impression :** (facultatif) URL de suivi d’impression tierce à ajouter à l’URL de la page de destination pour toute publicité créée à partir de l’expérience. Vous pouvez inclure jusqu’à cinq URL. Pour ajouter une URL supplémentaire, cliquez sur ![icône](/help/creative/assets/create.png) **[!UICONTROL Add More] et saisissez l’URL.
 
-Une fois que vous avez saisi une URL, toutes les macros disponibles et les données auxquelles elles sont remplacées sont répertoriées plus bas dans la page. Pour insérer l&#39;une des macros dans l&#39;URL, placez le curseur sur la description de la macro et cliquez sur ![Copier dans le presse-papiers](/help/creative/assets/copy-to-clipboard.png "Copier dans le presse-papiers"), puis collez la macro où vous le souhaitez dans le champ URL.
+Une fois que vous avez saisi une URL, toutes les [macros disponibles](/help/creative/creative-macros.md) ainsi que les données auxquelles elles sont remplacées sont répertoriées plus bas dans la page. Pour insérer l&#39;une des macros dans l&#39;URL, placez le curseur sur la description de la macro et cliquez sur ![Copier dans le presse-papiers](/help/creative/assets/copy-to-clipboard.png "Copier dans le presse-papiers"), puis collez la macro où vous le souhaitez dans le champ URL.
 
 >[!NOTE]
 >
@@ -80,7 +81,7 @@ Une fois que vous avez saisi une URL, toutes les macros disponibles et les donn�
 
 **URL de suivi des clics :** (facultatif) URL de suivi des clics tierce à ajouter à l’URL de la page de destination. Vous pouvez inclure jusqu’à cinq URL. Pour ajouter une URL supplémentaire, cliquez sur ![icône](/help/creative/assets/create.png) **[!UICONTROL Add More] et saisissez l’URL.
 
-Une fois que vous avez saisi une URL, toutes les macros disponibles et les données auxquelles elles sont remplacées sont répertoriées plus bas dans la page. Pour insérer l&#39;une des macros dans l&#39;URL, placez le curseur sur la description de la macro et cliquez sur ![Copier dans le presse-papiers](/help/creative/assets/copy-to-clipboard.png "Copier dans le presse-papiers"), puis collez la macro où vous le souhaitez dans le champ URL.
+Une fois que vous avez saisi une URL, toutes les [macros disponibles](/help/creative/creative-macros.md) ainsi que les données auxquelles elles sont remplacées sont répertoriées plus bas dans la page. Pour insérer l&#39;une des macros dans l&#39;URL, placez le curseur sur la description de la macro et cliquez sur ![Copier dans le presse-papiers](/help/creative/assets/copy-to-clipboard.png "Copier dans le presse-papiers"), puis collez la macro où vous le souhaitez dans le champ URL.
 
 >[!NOTE]
 >
@@ -97,3 +98,4 @@ Une fois que vous avez saisi une URL, toutes les macros disponibles et les donn�
 >
 >* [Création d’une expérience avec le ciblage d’arborescence de décision](experience-create-targeting.md)
 >* [Modifier une expérience avec le ciblage d’arborescence de décision](experience-edit-targeting.md)
+>* [Macros disponibles pour le tracking des URL](/help/creative/creative-macros.md)

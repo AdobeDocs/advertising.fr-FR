@@ -2,9 +2,10 @@
 title: Paramètres de création
 description: En savoir plus sur xxxx.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1835'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Lorsque vous modifiez plusieurs contenus publicitaires en même temps :
 
 * Certains paramètres sont appliqués à tous les contenus publicitaires sélectionnés.
 
-## Paramètres de création HTML 5 flexibles {#creative-settings-flexible-html5}
+## Paramètres de création HTML5 flexibles {#creative-settings-flexible-html5}
 
 ### Onglet Détails
 
@@ -63,7 +64,7 @@ Pour plus d’informations sur les attributs disponibles dans les modèles préd
 
 *Contenu publicitaire existant uniquement*
 
-Fichier de modèle HTML 5 flexible pour les créatifs.
+Fichier de modèle HTML5 flexible pour les créatifs.
 
 Vous pouvez éventuellement remplacer le modèle existant par un nouveau modèle avec une disposition différente, mais le même ensemble de noms d’attributs que le modèle d’origine. Le nouveau modèle doit être au format ZIP avec un maximum de 2 Mo. Lorsque le contenu créatif se trouve dans un lot, toutes les expériences qui utilisent le lot utiliseront ensuite la mise en page du nouveau modèle.
 
@@ -83,11 +84,11 @@ Pour remplacer le modèle d’annonce publicitaire existant :
 
    Voir [spécifications d’annonces publicitaires flexibles](#flexible-ad-spec).
 
-1. Modifiez les nouveaux [paramètres d’annonce d’HTML flexible](#flexible-ad-settings) selon vos besoins.
+1. Modifiez les nouveaux [paramètres flexibles des annonces HTML](#flexible-ad-settings) selon les besoins.
 
 1. Clic **[!UICONTROL Edit]**
 
-## paramètres de création HTML5 {#creative-settings-html5}
+## Paramètres de création HTML5 {#creative-settings-html5}
 
 ## Onglet Détails
 
@@ -99,13 +100,13 @@ Pour les nouveaux créatifs, les paramètres suivants ne se trouvent pas dans un
 
 **Taille du contenu publicitaire :** (lecture seule pour les contenus publicitaires existants) Dimensions du contenu publicitaire. Si des images incluses dans le contenu créatif sont plus grandes que la taille spécifiée, elles sont redimensionnées en conséquence.
 
-**[!UICONTROL Click Tags]:** (contenus publicitaires statiques en HTML 5 uniquement) Variables qui permettent le suivi des clics redirigés depuis les bannières publicitaires incluses. Les noms des variables et les URL de page de destination correspondantes sont renseignés à partir de l’unité de création chargée, mais vous pouvez modifier les URL par défaut. Pour plusieurs contenus publicitaires, vous pouvez modifier les balises de clic individuelles.
+**[!UICONTROL Click Tags]:** (contenus publicitaires HTML5 statiques uniquement) Variables qui permettent les redirections du suivi des clics à partir des bannières publicitaires incluses. Les noms des variables et les URL de page de destination correspondantes sont renseignés à partir de l’unité de création chargée, mais vous pouvez modifier les URL par défaut. Pour plusieurs contenus publicitaires, vous pouvez modifier les balises de clic individuelles.
 
 >[!NOTE]
 >
 >Lorsque vous incluez le contenu créatif dans une expérience, vous pouvez remplacer la valeur par défaut de l’une des balises de clic par une URL de page de destination personnalisée afin de générer une dérivation du contenu créatif de base.
 
-**URL de la page de destination :** (contenu publicitaire HTML 5 simple avec une seule page de destination) URL de la page de destination par défaut pour chaque publicité à laquelle vous associez les contenus publicitaires. Il doit s’agir d’une URL valide commençant par http:// ou https://. Il peut inclure des paramètres de suivi tiers ou des [[!DNL Creative] macros](/help/creative/creative-macros.md) pour votre propre usage.
+**URL de la page de destination :** (contenu publicitaire HTML5 simple avec une seule page de destination) URL de la page de destination par défaut pour chaque publicité à laquelle vous associez les contenus publicitaires. Il doit s’agir d’une URL valide commençant par http:// ou https://. Il peut inclure des paramètres de suivi tiers ou des [[!DNL Creative] macros](/help/creative/creative-macros.md) pour votre propre usage.
 
 Lorsque vous incluez un contenu créatif dans une offre groupée et que vous attribuez l’offre groupée à une expérience, vous pouvez éventuellement modifier l’URL de la page de destination, ainsi qu’ajouter des URL de suivi d’impression et de clics et des JavaScript, pour chaque contenu créatif de l’offre groupée. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
@@ -121,9 +122,9 @@ Lorsque vous incluez un contenu créatif dans une offre groupée et que vous att
 
 ### Onglet Modèle
 
-*Contenu publicitaire statique HTML 5 existant uniquement*
+*Contenu créatif statique HTML5 existant uniquement*
 
-Le fichier modèle HTML 5 pour le créatif.
+Le fichier modèle HTML5 pour le créatif.
 
 Vous pouvez éventuellement remplacer le modèle existant par un nouveau modèle avec une disposition différente, mais le même ensemble de noms d’attributs que le modèle d’origine. Le nouveau modèle doit être au format ZIP avec un maximum de 2 Mo. Lorsque le contenu créatif se trouve dans un lot, toutes les expériences qui utilisent le lot utiliseront ensuite la mise en page du nouveau modèle.
 
@@ -141,9 +142,9 @@ Pour remplacer le modèle d’annonce publicitaire existant :
 
    * Cliquez sur **[!UICONTROL select a file]** pour localiser le fichier sur votre appareil ou réseau.
 
-   Voir les [spécifications des annonces publicitaires d’HTML ](html5-creative-specification.md).
+   Voir les [spécifications de publicité HTML](html5-creative-specification.md).
 
-1. Modifiez les nouveaux paramètres d’annonce publicitaire [HTML 5](#creative-settings-html5) si nécessaire.
+1. Modifiez les nouveaux paramètres de publicité [HTML5](#creative-settings-html5) si nécessaire.
 
 1. Clic **[!UICONTROL Edit]**
 
@@ -173,9 +174,9 @@ Lorsque vous incluez un contenu créatif dans une offre groupée et que vous att
 
 **JavaScriptCode :** balise JavaScript (et éventuellement une autre balise pour les navigateurs qui ne prennent pas en charge JavaScript) qui pointe vers le contenu créatif sur le serveur de publicités tiers. Le script varie en fonction du serveur de publicités. Lorsque vous modifiez plusieurs contenus publicitaires, la même valeur est appliquée à chaque contenu publicitaire sélectionné.
 
-Toutes les macros disponibles et les données auxquelles elles sont remplacées sont répertoriées sous le champ de saisie. Pour insérer l&#39;une des macros dans la balise, placez le curseur sur la description de la macro et cliquez sur ![Copier dans le presse-papiers](/help/creative/assets/copy-to-clipboard.png "Copier dans le presse-papiers"), puis collez l&#39;image où vous le souhaitez dans la balise.
+Toutes les [macros disponibles](/help/creative/creative-macros.md) et les données auxquelles elles sont remplacées sont répertoriées sous le champ de saisie. Pour insérer l&#39;une des macros dans la balise, placez le curseur sur la description de la macro et cliquez sur ![Copier dans le presse-papiers](/help/creative/assets/copy-to-clipboard.png "Copier dans le presse-papiers"), puis collez l&#39;image où vous le souhaitez dans la balise.
 
-Lorsque vous incluez cette contenu publicitaire dans une expérience que vous implémentez en tant qu’annonce publicitaire à partir d’une DSP, le DSP utilise les informations de cette balise pour afficher l’annonce et effectuer le suivi des impressions et des clics sur celle-ci, puis transmet la balise à l’exchange de l’annonce publicitaire. Lorsque l’utilisateur clique sur l’annonce publicitaire et l’affiche, le serveur de publicités, le DSP et [!DNL Creative] effectuent le suivi des événements.
+Lorsque vous incluez cette contenu publicitaire dans une expérience que vous implémentez en tant qu’annonce publicitaire à partir d’un DSP, le DSP utilise les informations de cette balise pour afficher l’annonce publicitaire et effectuer le suivi des impressions et des clics sur celle-ci, puis envoie la balise vers l’échange publicitaire. Lorsque l’utilisateur clique sur l’annonce publicitaire et l’affiche, le serveur de publicités, le DSP et le [!DNL Creative] effectuent le suivi des événements.
 
 **[!UICONTROL Advertiser]:** (Lecture seule) Annonceur pour lequel la bibliothèque est disponible.
 
@@ -201,3 +202,4 @@ u
 >
 >* [Ajouter des contenus publicitaires standard à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Modification de contenus publicitaires standard](/help/creative/creative-libraries/creative-edit-standard.md)
+>* [Macros disponibles pour le tracking des URL](/help/creative/creative-macros.md)
