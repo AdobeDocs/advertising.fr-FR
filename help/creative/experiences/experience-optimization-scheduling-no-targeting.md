@@ -3,9 +3,9 @@ title: Personnaliser l’optimisation et la planification de la création pour u
 description: Découvrez comment
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 4d0f4b2a46a65c7fa1afec0a4ef419e58b8f8f59
+source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ Lorsque la planification des créations est désactivée, les paramètres d’op
 
 1. Sélectionnez le type de rotation de contenu créatif :
 
-   * &amp;ast;&amp;ast; *Pondéré* &amp;ast;&amp;ast; — Fait pivoter les contenus publicitaires manuellement en fonction des poids relatifs. Saisissez le poids de chaque contenu publicitaire sous la forme d’un pourcentage. Le poids de tous les contenus publicitaires sélectionnés doit être égal à 100.
+   * *[!UICONTROL Weighted]:* fait pivoter les contenus publicitaires manuellement en fonction des poids relatifs. Saisissez le poids de chaque contenu publicitaire sous la forme d’un pourcentage. Le poids de tous les contenus publicitaires sélectionnés doit être égal à 100.
 
-   * &amp;ast;&amp;ast; *Algorithmique* &amp;ast;&amp;ast; — Fait pivoter les contenus publicitaires de manière algorithmique en fonction d’un objectif d’optimisation spécifié.
+   * *[!UICONTROL Algorithmic]:* fait pivoter les contenus publicitaires de manière algorithmique en fonction d’un objectif d’optimisation spécifié.
 
       * Pour le **[!UICONTROL Optimization Goal]**, sélectionnez *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Si vous sélectionnez *[!UICONTROL Custom Objective]*, sélectionnez un [objectif personnalisé Advertising DSP existant](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
 
@@ -69,9 +69,9 @@ Lorsque vous utilisez la planification, vous devez planifier les contenus public
 
    1. Sélectionnez le type de rotation de contenu créatif :
 
-      * &amp;ast;&amp;ast; *Pondéré* &amp;ast;&amp;ast; — Fait pivoter les contenus publicitaires manuellement en fonction des poids relatifs. Saisissez le poids de chaque contenu publicitaire sous la forme d’un pourcentage. Le poids de tous les contenus publicitaires sélectionnés doit être égal à 100.
+      * *[!UICONTROL Weighted]:* fait pivoter les contenus publicitaires manuellement en fonction des poids relatifs. Saisissez le poids de chaque contenu publicitaire sous la forme d’un pourcentage. Le poids de tous les contenus publicitaires sélectionnés doit être égal à 100.
 
-      * &amp;ast;&amp;ast; *Algorithmique* &amp;ast;&amp;ast; — Fait pivoter les contenus publicitaires de manière algorithmique en fonction d’un objectif d’optimisation spécifié.
+      * *[!UICONTROL Algorithmic]:* fait pivoter les contenus publicitaires de manière algorithmique en fonction d’un objectif d’optimisation spécifié.
 
          * Pour le **[!UICONTROL Optimization Goal]**, sélectionnez *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Si vous sélectionnez *[!UICONTROL Custom Objective]*, sélectionnez un [objectif personnalisé Advertising DSP existant](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
 
@@ -85,9 +85,9 @@ Lorsque vous utilisez la planification, vous devez planifier les contenus public
 
    1. Sélectionnez le type de rotation de contenu créatif :
 
-      * &amp;ast;&amp;ast; *Pondéré* &amp;ast;&amp;ast; — Fait pivoter les contenus publicitaires manuellement en fonction des poids relatifs. Saisissez le poids de chaque contenu publicitaire sous la forme d’un pourcentage. Le poids de tous les contenus publicitaires sélectionnés doit être égal à 100.
+      * *[!UICONTROL Weighted]:* fait pivoter les contenus publicitaires manuellement en fonction des poids relatifs. Saisissez le poids de chaque contenu publicitaire sous la forme d’un pourcentage. Le poids de tous les contenus publicitaires sélectionnés doit être égal à 100.
 
-      * &amp;ast;&amp;ast; *Algorithmique* &amp;ast;&amp;ast; — Fait pivoter les contenus publicitaires de manière algorithmique en fonction d’un objectif d’optimisation spécifié.
+      * *[!UICONTROL Algorithmic]:* fait pivoter les contenus publicitaires de manière algorithmique en fonction d’un objectif d’optimisation spécifié.
 
          * Pour le **[!UICONTROL Optimization Goal]**, sélectionnez *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Si vous sélectionnez *[!UICONTROL Custom Objective]*, sélectionnez un [objectif personnalisé Advertising DSP existant](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
 
