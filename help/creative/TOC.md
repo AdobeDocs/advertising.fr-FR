@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising Creative
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources requis pour utiliser Advertising Creative.
 breadcrumb-title: Guide de création
 hide: true
-source-git-commit: f13f2b3e9bed34acbe1c3c07adbca2b7a61ac76c
+source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 0%
       + [Disposition de l’arborescence de décision](/help/creative/experiences/experience-decision-tree.md)
       + [Créer une expérience avec le ciblage](/help/creative/experiences/experience-create-targeting.md)
       + [Modification d’une expérience avec le ciblage](/help/creative/experiences/experience-edit-targeting.md)
+      + [Paramètres de l’expérience ciblée](/help/creative/experiences/experience-settings-targeting.md)
       + Sous-tâches pour la création et la modification d’expériences {#subtasks}
          + Nœuds cibles {#nodes}
             + [Ajouter un nœud cible au niveau final](/help/creative/experiences/experience-target-node-add-final.md)
@@ -53,12 +54,11 @@ ht-degree: 0%
             + [Affectez et annulez l’affectation des lots de contenu créatif à un nœud final](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [Personnaliser les URL de tracking pour les créatifs](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [Personnalisation de l’optimisation et de la planification de la création](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-      + [Paramètres de l’expérience ciblée](/help/creative/experiences/experience-settings-targeting.md)
    + Expériences sans {#experience-nontargeted} de ciblage
       + [Créer une expérience sans ciblage](/help/creative/experiences/experience-create-no-targeting.md)
       + [Modification d’une expérience sans ciblage](/help/creative/experiences/experience-edit-no-targeting.md)
       + [Paramètres de l’expérience non ciblée](/help/creative/experiences/experience-settings-no-targeting.md)
-      + Créatifs {#non-targeted-creatives}
+      + Balises publicitaires et contenus publicitaires{#non-targeted-creatives}
          + [Création manuelle d’une balise d’annonce publicitaire pour une taille de contenu créatif applicable](/help/creative/experiences/experience-tag-create-manually.md)
          + [Affectation de contenu publicitaire à une balise publicitaire pour des expériences sans ciblage](/help/creative/experiences/experience-tag-assign-creatives.md)
          + [Personnaliser les URL de tracking pour une expérience sans ciblage](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
