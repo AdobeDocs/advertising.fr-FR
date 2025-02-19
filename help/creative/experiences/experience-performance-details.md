@@ -3,9 +3,9 @@ title: Rapports de performances au niveau de l’expérience
 description: Découvrez comment afficher des rapports de performances au niveau de l’expérience.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+source-git-commit: 137f334eec778499f263e26c125e97ffe37d6112
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ La vue Rapport inclut les données suivantes :
 
    * (Facultatif) Pour modifier les conversions signalées, cliquez sur ![Paramètres](/help/creative/assets/settings.png) et sélectionnez les noms de conversion dans le menu **[!UICONTROL Conversions]**.&lt;!— Juste un ou plusieurs ? Vérifiez comment ils apparaissent — Je dois voir un annonceur avec plusieurs conversions déjà configurées —>
 
-     Les colonnes de conversion disponibles incluent les conversions disponibles dans Advertising Search, Social et Commerce, que vous soyez ou non client Search, Social et Commerce. Cela peut inclure les mesures de conversion et d’engagement du site synchronisées à partir d’Adobe Analytics. <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Pour plus d’informations sur l’inclusion des conversions collectées dans les rapports, consultez la rubrique du guide Search, Social et Commerce intitulée « [À propos de la gestion des mesures de conversion d’un annonceur](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) ».
+     Les colonnes de conversion disponibles incluent les conversions disponibles dans Advertising Search, Social et Commerce, que vous soyez ou non client Search, Social et Commerce. Cela peut inclure les mesures de conversion et d’engagement du site synchronisées à partir d’Adobe Analytics lorsque l’annonceur dispose d’[une [!DNL Adobe Analytics for Advertising] intégration](/help/integrations/analytics/overview.md). <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Pour plus d’informations sur l’inclusion des conversions collectées dans les rapports, consultez la rubrique du guide Search, Social et Commerce intitulée « [À propos de la gestion des mesures de conversion d’un annonceur](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) ».
 
 1. (Dans l’onglet [!UICONTROL Overview] ) :
 

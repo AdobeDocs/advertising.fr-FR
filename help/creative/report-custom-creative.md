@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Découvrez comment générer le [!UICONTROL Custom Creative Report] d’expériences croisées.
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+source-git-commit: 7e355e7574a9fb6f3fdd4073ad7a4eae3f0cf0d1
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1915'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
    * *[!UICONTROL Social Only]:* Obsolète
 
-Consultez également la section « [Comment les règles d’attribution sont calculées pour l’Adobe Advertising ](/help/search-social-commerce/reports/attribution-rules.md) ».
+[ Consultez également la section « Comment les règles d’attribution sont-elles calculées pour Adobe Advertising ](/help/search-social-commerce/reports/attribution-rules.md) ? »
 
 **[!UICONTROL Paths as Columns]:** types de conversions à signaler lorsque des événements précédents se sont produits sur le même appareil. Vous pouvez inclure jusqu’à trois types. Pour chaque type sélectionné, une colonne distincte est incluse pour chaque mesure de conversion et est ajoutée avec le suffixe spécifié ([!UICONTROL (tl)], [!UICONTROL (ct)] ou [!UICONTROL (vt)]) :
 
@@ -251,7 +251,7 @@ Consultez également la section « [Comment les règles d’attribution sont cal
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | Chiffre d’affaires total des publicités diffusées pour un produit. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | Chiffre d’affaires total des publicités diffusées. |
 | [!UICONTROL Conversion Metrics] | [Regroupé par annonceur dans les paramètres du rapport] | [ Conversion spécifique à l’annonceur ] | Total d’une mesure de conversion spécifique à l’annonceur ou d’un événement Adobe Analytics spécifié. |
-| [!UICONTROL Custom Goals] | [Regroupé par annonceur dans les paramètres du rapport] | [Objectif personnalisé spécifique à l’annonceur] | Somme pondérée de toutes les conversions incluses dans l’[objectif personnalisé](/help/dsp/optimization/custom-goal.md) spécifié. |
+| [!UICONTROL Custom Goals] | [Regroupé par annonceur dans les paramètres du rapport] | [Objectif personnalisé spécifique à l’annonceur] | Somme pondérée de toutes les conversions incluses dans l’objectif personnalisé [Advertising DSP spécifié](/help/dsp/optimization/custom-goal.md). |
 
 {style="table-layout:auto"}
 
