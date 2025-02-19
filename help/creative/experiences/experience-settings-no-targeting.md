@@ -3,9 +3,9 @@ title: Paramètres des expériences non ciblées
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires sans ciblage d’arborescence de décision.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 75ecbf5309c21952fb4355be852f80100aa916ae
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Pour les expériences sans ciblage d’arborescence de décision, vous pouvez re
 
 Lorsque vous créez par la suite une balise d’expérience publicitaire pour une taille de contenu créatif spécifique, chaque clé spécifiée dans ce champ est ajoutée sous la forme d’une macro dans la balise . Vous devez saisir la valeur de chaque paire clé-valeur dans la balise avant d’implémenter la balise en tant qu’annonce publicitaire dans votre DSP.
 
-**Rayon :** (expériences avec des annonces dynamiques uniquement ; facultatif) rayon de l’utilisateur à cibler. Sélectionnez un rayon de 0 à 200 miles.<!-- Does this end up in the ad tag parameters? -->
+**Rayon :** (Expériences avec les annonces dynamiques uniquement ; facultatif) Rayon d’un code postal des États-Unis spécifié dans le fichier de flux à cibler ; sélectionnez un rayon compris entre 0 et 200 miles. Le fichier de flux utilisé pour créer les annonces dynamiques pour l’expérience doit inclure une colonne [!UICONTROL ZIP]<!-- or a user-named column mapped to a ZIP column --> avec une valeur pour chaque ligne de produit dans le fichier. Par exemple, pour un rayon de 10 milles, une annonce publicitaire pour un produit disponible en 95110 peut être affichée aux utilisateurs dans un rayon de 10 milles à partir de 95110.
 
 **Pixel RT :** (expériences avec des annonces dynamiques uniquement ; facultatif) pixel de reciblage [!UICONTROL Creative] à cibler potentiellement. Lorsque vous configurez le ciblage dans l’arborescence de décision, vous pouvez inclure un niveau de nœuds cibles de pixels RT et spécifier le pixel à cibler pour chaque nœud ainsi que les valeurs requises pour les attributs de pixels qui doivent être présents pour afficher les éléments créatifs dans les lots de création attribués. Si vous ne spécifiez pas de pixel dans ce champ, vous pouvez toujours en spécifier un dans l’arborescence de décision.&lt;!— De R : « Le pixel RT doit être sélectionné via la sélection de contenu dans la configuration de publicités dynamiques » — Clarifiez. Je vois « Datapass » (un mot) dans les paramètres de publicité dynamique, mais je ne suis pas sûr de la manière dont ce paramètre et ce paramètre de niveau d’expérience fonctionnent ensemble. —>
 
