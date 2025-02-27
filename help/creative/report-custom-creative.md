@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Découvrez comment générer le [!UICONTROL Custom Creative Report] d’expériences croisées.
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 7e355e7574a9fb6f3fdd4073ad7a4eae3f0cf0d1
+source-git-commit: 98c6b4e67d21228f3ae114b52da29ba1dec8ccfa
 workflow-type: tm+mt
-source-wordcount: '1915'
+source-wordcount: '1920'
 ht-degree: 0%
 
 ---
@@ -258,3 +258,5 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 >[!MORELIKETHIS]
 >
 >* [ Rapports de performances au niveau de l’expérience ](/help/creative/experiences/experience-performance-details.md)
+>* [À propos des rapports personnalisés DSP](/help/dsp/reports/report-about.md){target="_blank"}
+>* [À propos des [!UICONTROL report destinations]](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"}

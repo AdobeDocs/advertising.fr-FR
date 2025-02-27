@@ -2,9 +2,9 @@
 title: Glossaire
 description: Voir les définitions des termes clés.
 feature: Creative Introduction
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+source-git-commit: 4e61ce32862411a7a83c66773e41d032770ad861
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,11 @@ ht-degree: 0%
 
 Par exemple, pour cibler un ou plusieurs contenus publicitaires possibles pour les visionneuses qui sont de sexe féminin et qui se trouvent dans le segment 1234, vous devez configurer les cibles de transmission de données `gender=female` et `segment=1234` pour le nœud cible. Le DSP qui sert l’impression renseigne la balise avec les informations de genre et de segment. L’un des contenus publicitaires associés s’affiche pour les visiteurs qui répondent aux exigences spécifiées.
 
-**engagement transversal :** engagement publicitaire (tel que regarder une vidéo ou développer une publicité) qui entraîne une conversion.
+**engagement transversal :** engagement publicitaire (tel que le défilement d’une annonce du carrousel ou le développement d’une annonce publicitaire) qui entraîne une conversion. Ce type d’événement est distinct du clic sur l’annonce pour accéder à une page de destination ou à un événement sur la page de destination.
 
-<!-- or flexible html5 creative variation? -->
-**variation d’une création HTML 5 flexible :** dérivation d’une ressource de création HTML 5 flexible dans votre [!UICONTROL Creative Libraries], générée lorsque vous affectez la création à une expérience et modifiez l’un des attributs par défaut dans l’expérience.
+<!-- or flexible html5 creative variation? Not sure we need to mention this since there's no place to view the different variations per se:
 
-<!-- Not sure if this will be implemented, and how:
-You can view all derived creatives, including not only the base creatives you've added but also each child creative derivation, in the card view in [!UICONTROL Creative] > [!UICONTROL Libraries]. In the toolbar, click __?__ , and then select Derived Creatives. [Clarify how to tell which have variations. I can't find any now.]
+**variation of a flexible HTML5 creative:** A derivation of a flexible HTML5 creative asset in your [!UICONTROL Creative Libraries], which is generated when you assign the creative to an experience and change any of the default attributes within the experience.
 -->
 
 **affichage publicitaire :** impression d’annonce publicitaire, ou chaîne d’impressions, qui entraîne une conversion sans que l’utilisateur clique sur une annonce.

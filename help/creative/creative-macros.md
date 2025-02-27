@@ -3,9 +3,9 @@ title: Macros disponibles pour le tracking des URL
 description: Référencez les macros que vous pouvez ajouter à vos URL de page de destination, URL de tracking et contenus publicitaires tiers.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: fe3e991f1fba2944e7a3f8e4930c48c7dbd28770
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,12 @@ Certaines des macros disponibles, ou leurs équivalents, sont automatiquement in
 | `${TM_ACC_EXPERIENCE_ID}` | Effectue le suivi et génère des rapports sur l’Experience ID Advertising Creative | — |
 | `${TM_ACC_CREATIVE_ID}` | Effectue le suivi et génère des rapports sur l’ID de contenu créatif Advertising Creative | — |
 | `${TM_RANDOM}` | Un nombre aléatoire compris entre 1 et 1000000 | — |
-| `${TM_TIMESTAMP}` | Date et heure Unix (en secondes) | — |
-| `${TM_CLICK_URL_URLENC}` | (Pour les annonces tierces provenant de fournisseurs qui nécessitent un codage d’URL) L’URL de redirection de clics codée, qui permet aux serveurs de publicités de suivre et de compter les clics publicitaires. Lorsque la publicité est diffusée et que l’utilisateur clique dessus, la macro est activée et le clic est enregistré et comptabilisé à des fins de création de rapports. | Oui |
+| `${TM_TIMESTAMP}` | Date et heure UNIX® (en secondes) | — |
+| `${TM_CLICK_URL_URLENC}` | (Pour les annonces tierces provenant de fournisseurs qui nécessitent un codage d’URL) L’URL de redirection de clics codée, qui permet aux serveurs de publicités de suivre et de compter les clics publicitaires. Lorsque l’utilisateur clique sur la publicité, la macro est activée et le clic est enregistré et comptabilisé à des fins de création de rapports. | Oui |
 
 >[!MORELIKETHIS]
 >
 >* [Ajouter des contenus publicitaires standard à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Paramètres de création standard](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* 
+>* [Paramètres d’expérience ciblés](/help/creative/experiences/experience-settings-targeting.md)
+>*[Paramètres d’expérience non ciblés](/help/creative/experiences/experience-settings-no-targeting.md)
