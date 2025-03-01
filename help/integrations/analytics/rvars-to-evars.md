@@ -3,9 +3,9 @@ title: Collecter des données historiques pour les identifiants AMO et EF à uti
 description: Découvrez comment collecter des données historiques pour vos variables réservées dans Adobe Analytics pour une utilisation ultérieure dans Adobe Customer Journey Analytics
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-source-git-commit: a1e6f04bed489fcafdc982394656757e6229c8db
+source-git-commit: 5b78ec0fc4c5ea4742cbb080b992bdb323fc9af3
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Cette étape est manuelle et doit être effectuée pour chaque suite de rapports
          1. Sélectionnez **Paramètre de chaîne de requête**.
          1. Saisissez `ef_id`.
 
-        Exemple : remplacez la valeur de `rVar11` par le paramètre de chaîne de requête `ef_id`
+        Exemple : `Overwrite the value of rVar11 with Query String Parameter ef_id`
 
    * Pour la [!UICONTROL Reason for rule], utilisez une note descriptive telle que « L’AMO ID et l’EF ID seront transmis à AEP via le connecteur Adobe Analytics ».
 
