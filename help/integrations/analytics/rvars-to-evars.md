@@ -3,9 +3,9 @@ title: Collecter des données historiques pour les identifiants AMO et EF à uti
 description: Découvrez comment collecter des données historiques pour vos variables réservées dans Adobe Analytics pour une utilisation ultérieure dans Adobe Customer Journey Analytics
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-source-git-commit: fa3065d12d5c8828eaaeaca52deeadfec7b0e318
+source-git-commit: 6bf9647910aa7b1f74cf2bd726f8de27a8641b38
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -48,16 +48,16 @@ Cette étape est manuelle et doit être effectuée pour chaque suite de rapports
       * Pour le `AMO ID` :
 
          1. Sélectionnez **Remplacer la valeur de**.
-         1. Sélectionnez *\&lt;eVar nouveau/inutilisé\>*
+         1. Sélectionnez *\&lt;l’eVar nouvelle/inutilisée\>*.
          1. Sélectionnez **Paramètre de chaîne de requête**.
          1. Saisissez `s_kwcid`.
 
-        Exemple : remplacez la valeur de `rVar10` par le paramètre de chaîne de requête `s_kwcid`
+        Exemple : « Remplacer la valeur de `rVar10` par le paramètre de chaîne de requête « s_kwcid »
 
       * Pour le `EF ID` :
 
          1. Sélectionnez **Remplacer la valeur de**.
-         1. Sélectionnez *\&lt;eVar nouveau/inutilisé\>*
+         1. Sélectionnez *\&lt;l’eVar nouvelle/inutilisée\>*.
          1. Sélectionnez **Paramètre de chaîne de requête**.
          1. Saisissez `ef_id`.
 
