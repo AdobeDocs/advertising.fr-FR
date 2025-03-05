@@ -3,9 +3,9 @@ title: À propos des expériences dans Advertising Creative
 description: Découvrez comment configurer des expériences publicitaires personnalisées et optimiser les éléments publicitaires en fonction des performances.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Version bêta fermée*
 
-<!-- Revisit Description metadata -->
+<!-- Revisit Description metadata  -->
 
 <!-- MORE -->
 
@@ -22,13 +22,23 @@ ht-degree: 0%
 
 * **Expériences de ciblage d’arborescence de décision :** [!DNL Creative] vous permet de configurer des expériences publicitaires personnalisées dans l’ensemble du parcours client à l’aide d’un modèle d’arborescence de décision. Vous pouvez personnaliser tous les éléments publicitaires (images, titres, offres et pages de destination) en fonction de l’audience cible.
 
-  Par exemple, vous pouvez spécifier le même lot de création pour les personnes de Chicago et de New York qui se trouvent dans un segment ciblé d’audience Adobe Analytics spécifique, mais envoyer les personnes de Chicago qui se trouvent dans le même segment vers des pages de destination différentes de celles de New Yorker. Vous pouvez également spécifier un lot différent pour les personnes du segment qui vivent n’importe où sauf à Chicago et New York, et un troisième lot pour les autres personnes qui ne se trouvent pas dans le segment.
+  Par exemple, vous pouvez spécifier le même lot de création pour les personnes de Chicago et de New York qui se trouvent dans un segment d’audience Adobe Analytics spécifique, mais qui envoient des personnes de Chicago vers des pages de destination différentes de celles de New Yorker. Vous pouvez également spécifier un lot différent pour les personnes du segment qui vivent n’importe où sauf à Chicago et New York, et un troisième lot pour les autres personnes qui ne se trouvent pas dans le segment.
 
-  Les options de ciblage incluent les visionneuses dans vos segments d’audience propriétaires à partir de Adobe Audience Manager, Adobe Analytics et Advertising Cloud DSP ; les visionneuses à des emplacements géographiques spécifiques, notamment des pays, des États, des DMA aux États-Unis, des villes et des codes postaux ; les visionneuses pour lesquelles des paires clé-valeur spécifiques (cibles de passage de données) sont transmises à partir de DSP, de l’éditeur ou du partenaire ; les visionneuses avec des pixels de reciblage [!DNL Creative] et des valeurs d’attribut spécifiées ; et les visionneuses avec des types d’appareils, des systèmes d’exploitation et des navigateurs spécifiques.
+  Les options de ciblage sont les suivantes :
 
-  Vous pouvez affecter des lots de contenu créatif à chaque expérience, en personnalisant éventuellement l’optimisation et la planification des lots de contenu créatif et en modifiant les pages de destination par défaut et les URL de suivi<!-- and any flexible attributes --> pour chaque contenu créatif de chaque lot.
+   * Vos segments d’audience propriétaires depuis Adobe Audience Manager, Adobe Analytics et Advertising Cloud DSP
 
-* **Expériences sans ciblage d’arborescence de décision :** [!DNL Creative] optimise les éléments publicitaires pour l’expérience publicitaire sans réduire l’audience.<!-- For first-party creatives, [!DNL Creative] serves the ads. --> Vous spécifiez les dates de début et de fin, ainsi que certains paramètres par défaut pour chaque expérience, mais la plupart des workflows ne sont pas directement liés à l’expérience. Au lieu d’ajouter directement des créatifs à l’expérience, vous créez une balise d’annonce pour chaque taille d’annonce pour l’expérience, puis vous y ajoutez des créatifs, configurez l’optimisation et la planification des créations et personnalisez les pages de destination et les URL de suivi, depuis [!UICONTROL Tag Manager].
+   * Emplacements géographiques spécifiques, notamment les pays, les États, les DMA aux États-Unis, les villes et les codes postaux
+
+   * Visionneuses pour lesquelles des paires clé-valeur spécifiques (cibles de transmission de données) sont transmises par le DSP, l’éditeur ou le partenaire
+
+   * [!DNL Creative] le reciblage des pixels et des valeurs d’attribut spécifiées
+
+   * Types d’appareils, systèmes d’exploitation et navigateurs spécifiques
+
+  Vous pouvez affecter des lots créatifs à chaque expérience. Pour chaque expérience, vous pouvez personnaliser l’optimisation et la planification des offres groupées de contenu créatif et modifier les pages de destination et les URL de suivi par défaut<!-- and any flexible attributes --> pour chaque contenu créatif de chaque offre groupée.
+
+* **Expériences sans ciblage d’arborescence de décision :** [!DNL Creative] optimise les éléments publicitaires pour l’expérience publicitaire sans réduire l’audience.<!-- For first-party creatives, [!DNL Creative] serves the ads. --> Pour chaque expérience, vous spécifiez des dates de début et de fin, ainsi que certains paramètres par défaut, mais la plupart des workflows ne sont pas directement liés à l’expérience. Au lieu d’ajouter directement des contenus publicitaires à l’expérience, utilisez [!UICONTROL Tag Manager] pour créer une balise d’annonce pour chaque taille d’annonce pour l’expérience, puis ajoutez des contenus publicitaires à l’expérience, configurez l’optimisation et la planification des contenus créatifs et personnalisez les pages de destination et les URL de suivi.
 
 ## Optimisation des publicités
 
@@ -37,7 +47,7 @@ ht-degree: 0%
 
 ## Implémentation et gestion des expériences
 
-Une fois que vous avez créé une expérience en direct (avec tous les éléments publicitaires requis), vous pouvez [générer une balise JavaScript ou iframe pour l’ensemble de l’expérience](experience-tag-export.md), que vous pouvez éventuellement charger en tant qu’annonce dans une campagne dans Adobe Advertising DSP ou implémenter en tant qu’annonce dans un DSP tiers. [!DNL Creative] diffuse des annonces pour l’expérience en fonction des options de ciblage et de rotation des annonces, ainsi que de l’inventaire des annonces disponibles.
+Une fois une expérience en direct créée (avec tous les éléments publicitaires requis), vous pouvez [générer une balise JavaScript ou iframe pour l’ensemble de l’expérience](experience-tag-export.md). Vous pouvez charger la balise d’expérience en tant qu’annonce publicitaire dans une campagne dans Adobe Advertising DSP ou l’implémenter en tant qu’annonce publicitaire dans un DSP tiers. [!DNL Creative] diffuse des annonces pour l’expérience en fonction des options de ciblage et de rotation des annonces, ainsi que de l’inventaire des annonces disponibles.
 
 ## Données de performances pour vos expériences
 
@@ -65,7 +75,7 @@ Le statut d’une expérience est défini automatiquement, à l’exception de *
 
 *Brouillon :* aucune composante créative n’est affectée aux branches de l’expérience. L’expérience est donc incomplète et vous ne pouvez pas générer de balise d’expérience.
 
-*Traitement en cours :* une expérience précédemment active a été modifiée, mais elle est désormais incomplète. Vous ne pouvez pas générer de balise d’expérience pour cette tâche. **Remarque :** si vous avez déjà implémenté une balise d’expérience pour l’expérience, la version précédemment active sera toujours diffusée. Si vous terminez l’expérience ultérieurement (en la rendant à nouveau active), la nouvelle version sera diffusée à l’aide de l’implémentation de balise existante.
+*Traitement :* une expérience précédemment active a été modifiée, mais elle est désormais incomplète. Vous ne pouvez pas générer de balise d’expérience pour cette tâche. **Remarque :** si vous avez déjà implémenté une balise d’expérience pour l’expérience, la version précédemment active peut toujours être diffusée. Si vous terminez l’expérience ultérieurement (en la rendant à nouveau active), la nouvelle version peut être diffusée à l’aide de l’implémentation de balise existante.
 
 *Supprimé :* l’expérience a été supprimée de [!DNL Creative] et n’est plus visible dans les vues [!UICONTROL Experiences].
 

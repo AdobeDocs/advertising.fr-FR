@@ -3,7 +3,7 @@ title: Gestion des offres groupées de création
 description: En savoir plus sur xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -160,7 +160,7 @@ La désolidarisation d’un contenu créatif de l’offre groupée ne supprime p
 
 ## Prévisualisation d’une création dans une offre groupée
 
-Vous pouvez prévisualiser une création telle que les visiteurs la verront, avec des liens hypertexte.
+Vous pouvez prévisualiser une création telle que les visiteurs la verront, y compris sous forme de liens hypertexte.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 

@@ -3,7 +3,7 @@ title: Macros disponibles pour le tracking des URL
 description: Référencez les macros que vous pouvez ajouter à vos URL de page de destination, URL de tracking et contenus publicitaires tiers.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: fe3e991f1fba2944e7a3f8e4930c48c7dbd28770
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Version bêta fermée*
 
-<!-- More feature metadata??? -->
+<!-- More feature metadata???  -->
 
 Vous pouvez inclure l’une des macros suivantes dans vos contenus publicitaires tiers, dans les URL de suivi tierces pour vos expériences et dans les URL de page de destination pour votre propre utilisation.
 

@@ -3,7 +3,7 @@ title: Gestion des pixels de reciblage
 description: Découvrez comment créer et implémenter des pixels de reciblage à utiliser comme cibles pour les expériences publicitaires.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Exemple de pixel :
 
 >[!NOTE]
 >
-> * [!DNL Creative] ne prend actuellement en charge les identifiants universels que pour Advertising DSP. Une version ultérieure prendra en charge les identifiants universels des DSP tiers.<!-- Clarify this and reword as needed -->
+> * [!DNL Creative] ne prend actuellement en charge les identifiants universels que pour Advertising DSP. Une version ultérieure prendra en charge les identifiants universels des DSP tiers.<!-- Clarify this and reword as needed  -->
 >* Vous pouvez également utiliser vos audiences propriétaires de Adobe Audience Manager et Adobe Analytics en tant que [ cibles créatives pour vos expériences](/help/creative/experiences/experience-settings-targeting.md).
 >* Lorsque vous utilisez une expérience en tant qu&#39;annonce dans un emplacement Advertising DSP, vous pouvez cibler l&#39;emplacement sur toutes les audiences disponibles dans DSP. Vous pouvez également [créer des balises de segment d’audience personnalisées](/help/dsp/audiences/custom-segment-create.md) pour suivre tous les visiteurs vers des pages de destination spécifiques, puis utiliser ces segments comme cibles créatives pour un emplacement.
 >* Les visiteurs et visiteuses de site web qui se sont désinscrits du suivi pour le ciblage publicitaire ne reçoivent pas d’annonces avec du contenu créatif personnalisé basé sur un segment d’audience ou un profil de reciblage.

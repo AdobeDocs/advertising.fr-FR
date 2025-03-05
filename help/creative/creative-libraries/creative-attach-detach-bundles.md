@@ -3,7 +3,7 @@ title: Joindre un contenu créatif à des lots créatifs
 description: Découvrez comment associer un contenu créatif à une offre groupée de contenu créatif.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Version bêta fermée*
 
-<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available. -->
+<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
 Vous pouvez joindre des contenus publicitaires standard à des offres groupées standard et des contenus publicitaires dynamiques à des offres groupées dynamiques afin de pouvoir les ajouter à des [expériences publicitaires](/help/creative/experiences/experience-about.md). Chaque lot ne peut inclure qu’une seule de chaque combinaison \[taille de contenu créatif + langue\].
 

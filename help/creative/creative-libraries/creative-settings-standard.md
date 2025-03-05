@@ -3,9 +3,9 @@ title: Paramètres de Creative
 description: En savoir plus sur xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1806'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Lorsque vous modifiez plusieurs contenus publicitaires en même temps :
 
 ### Onglet Détails
 
-**Nom du contenu publicitaire :** le nom du contenu publicitaire. Le nom du modèle ou le nom du fichier chargé est utilisé par défaut, mais vous pouvez modifier le nom. Pour plusieurs contenus publicitaires, vous pouvez modifier les noms de chaque contenu publicitaire. **Conseil :** incluez la taille de l’annonce publicitaire dans le nom du contenu créatif et utilisez un nom qui sera facile à trouver lorsque vous incluez le contenu créatif dans une expérience.
+**Nom du contenu publicitaire :** le nom du contenu publicitaire. Le nom du modèle ou le nom du fichier chargé est utilisé par défaut, mais vous pouvez modifier le nom. Pour plusieurs contenus publicitaires, vous pouvez modifier les noms de chaque contenu publicitaire. **Conseil :** incluez la taille de l’annonce dans le nom du contenu créatif et utilisez un nom que vous pouvez facilement trouver lorsque vous incluez le contenu créatif dans une expérience.
 
 **Langue :** langue par défaut de chaque publicité à laquelle vous associez les contenus publicitaires. Lorsque vous chargez ou modifiez plusieurs contenus publicitaires, la même valeur est appliquée à chaque contenu publicitaire sélectionné.
 
@@ -94,7 +94,7 @@ Pour remplacer le modèle d’annonce publicitaire existant :
 
 Pour les nouveaux créatifs, les paramètres suivants ne se trouvent pas dans un onglet nommé.
 
-**Nom du contenu publicitaire :** le nom du contenu publicitaire. Pour une nouvelle création, le nom du fichier est utilisé par défaut, mais vous pouvez le modifier. Pour plusieurs contenus publicitaires, vous pouvez modifier les noms de chaque contenu publicitaire. **Conseil :** incluez la taille de l’annonce publicitaire dans le nom du contenu créatif et utilisez un nom qui sera facile à trouver lorsque vous incluez le contenu créatif dans une expérience.
+**Nom du contenu publicitaire :** le nom du contenu publicitaire. Pour une nouvelle création, le nom du fichier est utilisé par défaut, mais vous pouvez le modifier. Pour plusieurs contenus publicitaires, vous pouvez modifier les noms de chaque contenu publicitaire. **Conseil :** incluez la taille de l’annonce dans le nom du contenu créatif et utilisez un nom que vous pouvez facilement trouver lorsque vous incluez le contenu créatif dans une expérience.
 
 **Langue :** langue par défaut de chaque publicité à laquelle vous associez les contenus publicitaires. Lorsque vous chargez ou modifiez plusieurs contenus publicitaires, la même valeur est appliquée à chaque contenu publicitaire sélectionné.
 
@@ -150,7 +150,7 @@ Pour remplacer le modèle d’annonce publicitaire existant :
 
 ## Paramètres de création d’image {#creative-settings-image}
 
-**Nom du contenu publicitaire :** le nom du contenu publicitaire. Pour une nouvelle création, le nom du fichier est utilisé par défaut, mais vous pouvez le modifier. Pour plusieurs images, vous pouvez modifier les noms des créations individuelles. **Conseil :** utilisez un nom qui sera facile à trouver lorsque vous inclurez le contenu créatif dans une expérience.
+**Nom du contenu publicitaire :** le nom du contenu publicitaire. Pour une nouvelle création, le nom du fichier est utilisé par défaut, mais vous pouvez le modifier. Pour plusieurs images, vous pouvez modifier les noms des créations individuelles. **Conseil :** utilisez un nom que vous pouvez facilement trouver lorsque vous incluez le contenu créatif dans une expérience.
 
 **Langue :** langue par défaut de chaque publicité à laquelle vous associez les contenus publicitaires. La même valeur s’applique à toutes les images sélectionnées. Lorsque vous incluez les contenus publicitaires dans une expérience, vous pouvez éventuellement personnaliser les préférences linguistiques de l’expérience.
 
@@ -180,7 +180,7 @@ Lorsque vous incluez ce contenu créatif dans une expérience que vous implémen
 
 **[!UICONTROL Advertiser]:** (Lecture seule) Annonceur pour lequel la bibliothèque est disponible.
 
-**Nom du contenu publicitaire :** le nom du contenu publicitaire. **Conseil :** utilisez un nom qui sera facile à trouver lorsque vous inclurez le contenu créatif dans une expérience.
+**Nom du contenu publicitaire :** le nom du contenu publicitaire. **Conseil :** utilisez un nom que vous pouvez facilement trouver lorsque vous incluez le contenu créatif dans une expérience.
 
 **Taille du Creative :** (lecture seule pour les publicités existantes) Dimensions du contenu publicitaire. Pour les nouveaux contenus publicitaires, sélectionnez dans une liste de tailles d’annonce standard.
 u

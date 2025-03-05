@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: false
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: d9dee4daf396c2aa84ba6b0635e8a819fe9932be
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 *Version bêta fermée*
 
-<!-- The following features are new or recently changed. -->
+<!-- The following features are new or recently changed.  -->
 
 | Date | Fonctionnalité | Description | Pour Plus D’Informations |
 | ---- | ------- | ----------- | -------------------- |
 | 10 Février 2025 | [!UICONTROL Creative Libraries] | Auparavant, vous disposiez d’une bibliothèque de contenu créatif. Vous pouvez désormais créer plusieurs bibliothèques pour chaque annonceur. | Voir « [ À propos de vos bibliothèques de création ](/help/creative/creative-libraries/creative-libraries-about.md) ». |
-| | [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] | La vue [!UICONTROL Creatives] comprend des onglets pour les [!UICONTROL Standard Ads] et les [!UICONTROL Dynamic Ads].<ul><li>L’onglet **[!UICONTROL Standard Ads]vous permet** charger et de gérer des images, HTML5, HTML5 flexible et des contenus publicitaires tiers.</li><li>L’onglet **[!UICONTROL Dynamic Ads]** vous permet de gérer les publicités générées dynamiquement qui sont créées à partir de fichiers de flux chargés à l’aide de modèles de publicité définis ; auparavant, les publicités dynamiques étaient générées dans [!DNL Adobe Advertising Dynamic Creative Optimization (DCO)].<br><br> Actuellement, vous pouvez prévisualiser, dupliquer et supprimer des annonces dynamiques. Vous pouvez également joindre des annonces dynamiques à des lots créatifs pour des expériences d’annonces ciblées ou à des balises d’annonces pour des expériences non ciblées. Seuls les utilisateurs administrateurs peuvent créer des annonces générées dynamiquement.</li></ul> | Voir « [ À propos de vos bibliothèques de création ](/help/creative/creative-libraries/creative-libraries-about.md) ». |
+| | [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] | La vue [!UICONTROL Creatives] comprend des onglets pour les [!UICONTROL Standard Ads] et les [!UICONTROL Dynamic Ads].<ul><li>L’onglet **[!UICONTROL Standard Ads]vous permet** charger et de gérer des images, HTML5, HTML5 flexible et des contenus publicitaires tiers.</li><li>L’onglet **[!UICONTROL Dynamic Ads]** vous permet de gérer les publicités générées dynamiquement qui sont créées à partir de fichiers de flux chargés à l’aide de modèles de publicité définis ; auparavant, les publicités dynamiques étaient générées dans [!DNL Adobe Advertising Dynamic Creative Optimization (DCO)].<br><br> Actuellement, vous pouvez prévisualiser, dupliquer et supprimer des annonces dynamiques. Vous pouvez également joindre des annonces dynamiques à des lots créatifs pour des expériences d’annonces ciblées ou à des balises d’annonces pour des expériences non ciblées. Seuls les utilisateurs administrateurs peuvent générer des annonces de manière dynamique.</li></ul> | Voir « [ À propos de vos bibliothèques de création ](/help/creative/creative-libraries/creative-libraries-about.md) ». |
 | | [!UICONTROL Creative Libraries] > [!UICONTROL Bundles] | Regroupez plusieurs contenus publicitaires dans une *offre groupée* pour les ajouter facilement à une expérience. Vous pouvez créer des lots d’annonces publicitaires standard et y joindre des contenus publicitaires standard. De même, vous pouvez créer des lots d’annonces publicitaires dynamiques et y associer des contenus publicitaires dynamiques. | Voir « [Gérer les lots Creative](/help/creative/creative-libraries/bundle-manage.md) ». |
 | | [!UICONTROL Experiences] | Dans les nouveaux paramètres d’expérience publicitaire, vous spécifiez maintenant si l’expérience utilise le ciblage d’arborescence de décision ou non. Vous ne pouvez pas modifier le paramètre une fois l’expérience enregistrée. Les workflows pour les expériences avec ciblage d’arborescence de décision et les expériences sans ciblage d’arborescence de décision sont différents. | Voir « [Créer une expérience avec le ciblage](/help/creative/experiences/experience-create-targeting.md) » et « [Créer une expérience sans ciblage](/help/creative/experiences/experience-create-no-targeting.md) ». |
 | | [!UICONTROL Experiences] | Vous pouvez désormais créer des expériences ciblées uniquement avec des lots de contenu créatif à partir d’une seule bibliothèque de contenu créatif, et non de contenus créatifs individuels. Vous pouvez toujours joindre des contenus publicitaires individuels d’une seule bibliothèque à des expériences non ciblées sans ciblage d’arborescence de décision.<br><br>En raison des modifications structurelles, vos expériences héritées seront obsolètes plus tard dans l’année. | Clients en libre-service : recréez vos expériences dans la nouvelle interface utilisateur. Voir « [ Créer une expérience avec le ciblage ](/help/creative/experiences/experience-create-targeting.md) ».<br><br>Clients Managed Services : votre équipe de compte Adobe reconstruira vos expériences dans la nouvelle interface utilisateur. |

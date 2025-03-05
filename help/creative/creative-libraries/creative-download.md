@@ -2,7 +2,8 @@
 title: Téléchargement de contenus publicitaires
 description: Découvrez comment télécharger une création sous la forme d’un fichier ZIP.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 6507d472-be25-4f20-a32e-ad73250d78d4
+source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%

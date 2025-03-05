@@ -2,7 +2,8 @@
 title: Prévisualisation d’un contenu créatif
 description: Découvrez comment ouvrir l’aperçu d’une création.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Contenu publicitaire standard uniquement*
 *Version bêta fermée*
 
-Vous pouvez prévisualiser une création telle que les visiteurs la verront, avec des liens hypertexte.
+Vous pouvez prévisualiser une création telle que les visiteurs la verront, y compris sous forme de liens hypertexte.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
