@@ -3,7 +3,7 @@ title: À propos des expériences dans Advertising Creative
 description: Découvrez comment configurer des expériences publicitaires personnalisées et optimiser les éléments publicitaires en fonction des performances.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: e2b88275f2ebbc69f769cf905a0d20859bf0af3b
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Une fois une expérience en direct créée (avec tous les éléments publicitair
 
 ## Données de performances pour vos expériences
 
-Lorsque vous activez l’option [!UICONTROL Metrics] dans la vue [!UICONTROL Experiences], chaque carte ou ligne d’expérience indique le nombre d’impressions et de clics que l’expérience a reçus.
+Lorsque vous activez l’option [!UICONTROL Metrics] dans la vue [!UICONTROL Creative] > [!UICONTROL Experiences] , chaque carte ou ligne d’expérience indique le nombre d’impressions et de clics reçus par l’expérience.
 
 ![Option Mesures](/help/creative/assets/metrics-option.png "Option Mesures")
 
@@ -59,11 +59,9 @@ Lorsque vous activez l’option [!UICONTROL Metrics] dans la vue [!UICONTROL Exp
 
 <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
-Vous pouvez afficher des données de performances détaillées pour n’importe quelle expérience à partir de la vue [!UICONTROL Creative] > [!UICONTROL Experiences] . Pour surveiller les performances de l’ensemble de vos expériences, créez un [!UICONTROL Custom Creative Report].
+Vous pouvez [afficher des données de performances détaillées pour n’importe quelle expérience](experience-performance-details.md) à partir de la vue [!UICONTROL Experiences].
 
-<!--
-You can [view detailed performance data for any experience](experience-performance-details.md) from the Creative > Experiences view. To monitor performance across your experiences, [create custom reports](/help/dsp/reports/report-create.md).
--->
+Pour surveiller les performances de l’ensemble de vos expériences, créez un [!UICONTROL Custom Creative Report](/help/creative/report-custom-creative.md).
 
 ## Statuts des expériences {#experience-statuses}
 
