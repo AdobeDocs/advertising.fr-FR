@@ -2,9 +2,10 @@
 title: Gestion des offres groupées de création
 description: En savoir plus sur xxxx.
 feature: Creative Bundles
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-Les bundles sont des groupes de contenus publicitaires que vous pouvez ajouter à une expérience en tant qu’unité. Après avoir créé un conteneur de bundle, vous pouvez joindre des contenus publicitaires au bundle. Les lots standard ne peuvent contenir que des annonces standard et les lots dynamiques ne peuvent contenir que des annonces dynamiques. Vous pouvez remplacer les pages de destination, les balises de suivi d’impression et les balises de suivi des clics pour tous les contenus publicitaires d’une offre groupée affectée à une expérience à partir de l’arborescence de décision d’expérience, sans affecter les contenus publicitaires de base.
+Les bundles sont des groupes de contenus publicitaires que vous pouvez ajouter à une expérience en tant qu’unité. Après avoir créé un conteneur de bundle, vous pouvez joindre des contenus publicitaires au bundle. Les lots standard ne peuvent contenir que des annonces standard et les lots dynamiques ne peuvent contenir que des annonces dynamiques. Vous pouvez remplacer les pages de destination, les balises de suivi d’impression et les balises de suivi des clics pour tous les contenus publicitaires d’un lot affecté à une expérience à partir de l’arborescence de décision d’expérience, sans affecter les contenus publicitaires de base.
 
 [!DNL Creative] fait pivoter les contenus publicitaires du lot comme indiqué pour chaque expérience à laquelle le lot est affecté. Vous pouvez éventuellement [!DNL Creative] permettre d’optimiser les éléments publicitaires de n’importe quelle expérience en fonction des performances à l’aide de la rotation algorithmique des publicités, optimisée par Adobe Sensei.
 
@@ -103,11 +104,13 @@ Les modifications apportées à un nom de lot sont propagées à toutes les exp�
 
 ## Joindre des contenus publicitaires à une offre groupée
 
-Vous pouvez associer des contenus publicitaires standard [existants](/help/creative/creative-libraries/creative-libraries-about.md) à un lot standard et associer des contenus publicitaires dynamiques existants <!-- [existing dynamic creatives](creative-dynamic-manage.md) --> à un lot dynamique. L’association d’un contenu créatif à un lot rend le contenu créatif disponible dans toutes les expériences auxquelles le lot est affecté. Chaque lot ne peut inclure qu’une seule de chaque combinaison \[taille de contenu créatif + langue\].
+Vous pouvez associer des contenus publicitaires standard [existants](/help/creative/creative-libraries/creative-libraries-about.md) à un lot standard et associer des contenus publicitaires dynamiques existants<!-- [existing dynamic creatives](creative-dynamic-manage.md) --> à un lot dynamique. L’association d’un contenu créatif à un lot rend le contenu créatif disponible dans toutes les expériences auxquelles le lot est affecté. Chaque lot ne peut inclure qu’une seule de chaque combinaison \[taille de contenu créatif + langue\].
 
+<!--
 >[!NOTE]
 >
->Vous pouvez également [joindre des contenus publicitaires aux lots à partir des vues Publicités standard et Publicités dynamiques](creative-attach-detach-bundles.md).
+>You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
+-->
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -218,7 +221,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## Supprimer des lots
 
-Vous pouvez supprimer des lots qui ne sont pas affectés à une expérience en direct.<!-- Add an x-ref?  --> Si un lot est affecté à une expérience active, supprimez-le de l’arborescence de décision pour l’expérience<!-- add x-ref --> avant de continuer.
+Vous pouvez supprimer des lots qui ne sont pas affectés à une expérience [en ligne](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Si un lot est affecté à une expérience active, [supprimez le lot de l’arborescence de décision](/help/creative/experiences/experience-target-node-delete.md) pour l’expérience avant de continuer.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -250,5 +253,6 @@ Vous pouvez supprimer des lots qui ne sont pas affectés à une expérience en d
 >[!MORELIKETHIS]
 >
 >* [Affectez et annulez l’affectation des lots de contenu créatif à un nœud final d’une expérience](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [Ajouter des contenus publicitaires standard à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Gestion des bibliothèques de création](/help/creative/creative-libraries/creative-library-manage.md)
 >* [À propos de vos bibliothèques de création](/help/creative/creative-libraries/creative-libraries-about.md)

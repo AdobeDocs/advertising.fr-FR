@@ -2,7 +2,8 @@
 title: Personnalisation des vues de données
 description: Découvrez comment personnaliser les données dans chacune des vues disponibles.
 feature: Creative Introduction
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5255e0e4-a7f8-41d2-9b38-0e276dc1f3f0
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
@@ -83,7 +84,7 @@ Triez les vues suivantes à partir du mode Carte :
 
 * [!UICONTROL Creative Libraries] : trier par [!UICONTROL Library Name], date de création ([!UICONTROL Created On]) ou dernière mise à jour ([!UICONTROL Modified On]).
 
-* Bibliothèques créatives > [!UICONTROL Standard Ads] : triez les éléments par [!UICONTROL Creative Name], par date de création ([!UICONTROL Created On]) ou par dernière mise à jour ([!UICONTROL Modified On]).
+* Bibliothèques Creative > [!UICONTROL Standard Ads] : triez les fichiers par [!UICONTROL Creative Name], par date de création ([!UICONTROL Created On]) ou par dernière mise à jour ([!UICONTROL Modified On]).
 
 * [!UICONTROL Experiences] : trier par date de début ([!UICONTROL Start On]) ([!UICONTROL Experience Name]) ou date de fin ([!UICONTROL End On]).
 

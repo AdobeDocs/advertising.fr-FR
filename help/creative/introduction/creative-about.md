@@ -1,10 +1,10 @@
 ---
-title: À propos du Adobe Advertising Creative
+title: À propos de Adobe Advertising Creative
 description: En savoir plus sur  [!DNL Creative].
 feature: Creative Introduction
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 <!-- verify all and rewrite to include new stuff -->
 
-Dans le cadre de l’Adobe Advertising, Advertising Creative est une plateforme en libre-service permettant d’automatiser les expériences publicitaires personnalisées en temps réel et d’optimiser éventuellement vos publicités au niveau des éléments créatifs.
+Dans le cadre d’Adobe Advertising, Advertising Creative est une plateforme en libre-service permettant d’automatiser les expériences publicitaires personnalisées en temps réel et d’optimiser éventuellement vos publicités au niveau des éléments créatifs.
 
 ## Bibliothèques créatives personnalisées de contenus créatifs réutilisables
 
-Vos bibliothèques de contenu publicitaire vous permettent de gérer tous les contenus publicitaires que vous utiliserez dans vos expériences publicitaires. Vous pouvez créer plusieurs bibliothèques, chacune avec des contenus créatifs individuels et des groupes de contenus créatifs (appelés *lots*). Vous ajouterez des offres groupées créatives à vos expériences publicitaires.
+Vos bibliothèques Creative vous permettent de gérer les contenus publicitaires que vous utiliserez dans vos expériences publicitaires. Vous pouvez créer plusieurs bibliothèques, chacune avec des contenus créatifs individuels et des groupes de contenus créatifs (appelés *lots*). Vous ajouterez des offres groupées créatives à vos expériences publicitaires.
 
 ## Expériences basées sur des règles
 
@@ -40,11 +40,11 @@ Vous pouvez éventuellement [!DNL Creative] permettre d’optimiser les élémen
 
 ## Reciblage des pixels
 
-Vous pouvez créer des pixels de reciblage à utiliser comme cibles pour les créatifs dans une expérience publicitaire. Ainsi, vous n’affichez les annonces qu’aux utilisateurs dotés d’attributs spécifiés qui ont précédemment visité des pages web spécifiques.
+Vous pouvez créer des pixels de reciblage à utiliser comme cibles pour les créatifs dans une expérience publicitaire. Les cibles affichent les publicités uniquement pour les utilisateurs et utilisatrices disposant d’attributs spécifiés qui ont précédemment visité des pages web spécifiques.
 
 ## Suivi des impressions, clics et conversions
 
-[!DNL Creative] effectue automatiquement le suivi de toutes les impressions et de tous les clics pour les publicités diffusées à partir d’une expérience . Vous pouvez également ajouter des URL de suivi d’impressions et de clics tierces aux contenus publicitaires dans les bibliothèques créatives, ainsi que des URL de suivi personnalisées dans une expérience.
+[!DNL Creative] effectue automatiquement le suivi de toutes les impressions et de tous les clics pour les publicités diffusées à partir d’une expérience . Vous pouvez également ajouter des URL de suivi d’impressions et de clics tierces aux contenus publicitaires dans les bibliothèques Creative, ainsi que des URL de suivi personnalisées dans une expérience.
 
 [!DNL Creative] effectue également le suivi des conversions à partir des annonces diffusées créées à partir de vos expériences publicitaires.<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optoinal?  -->
 
@@ -57,7 +57,7 @@ to the DSP.
 
 Vous pouvez afficher des rapports de performances détaillés au niveau de l’expérience dans Creatives > Expériences.
 
-Vous pouvez également créer des rapports créatifs personnalisés dans Rapports > Rapports personnalisés pour surveiller les performances au niveau de l’expérience sur l’ensemble de vos expériences. Si vous utilisez vos expériences [!DNL Creative] comme annonces dans des campagnes DSP, les données de performances de ces annonces sont disponibles dans des rapports personnalisés supplémentaires, tout comme les données de vos autres annonces DSP. <!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
+Vous pouvez également créer des rapports Creative personnalisés dans Rapports > Rapports personnalisés pour surveiller les performances au niveau de l’expérience sur l’ensemble de vos expériences. Si vous utilisez vos expériences [!DNL Creative] comme annonces dans les campagnes DSP, les données de performances de ces annonces sont disponibles dans des rapports personnalisés supplémentaires, tout comme les données de vos autres annonces DSP. <!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
 
 Vous pouvez éventuellement diffuser vos rapports personnalisés vers des [destinations de rapports](/help/dsp/reports/report-destinations/report-destination-about.md) spécifiées.
 

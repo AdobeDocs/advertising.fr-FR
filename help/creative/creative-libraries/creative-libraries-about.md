@@ -1,10 +1,11 @@
 ---
 title: À propos de vos bibliothèques de création
-description: Découvrez comment gérer les contenus publicitaires que vous utiliserez dans vos expériences publicitaires.
+description: Découvrez comment gérer les contenus publicitaires pour vos expériences publicitaires.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Fonctionnalité bêta fermée*
 
-Vos bibliothèques de contenu publicitaire vous permettent de gérer tous les contenus publicitaires que vous utiliserez dans vos expériences publicitaires. Vous pouvez créer plusieurs bibliothèques, chacune avec un ensemble de contenus publicitaires et *lots de contenus publicitaires*, qui sont des groupes de contenus publicitaires que vous pouvez ajouter à une expérience en tant qu’unité.
+Vos bibliothèques de contenu publicitaire vous permettent de gérer les contenus publicitaires que vous utiliserez dans vos expériences publicitaires. Vous pouvez créer plusieurs bibliothèques, chacune avec un ensemble de contenus publicitaires et *lots de contenus publicitaires*, qui sont des groupes de contenus publicitaires que vous pouvez ajouter à une expérience en tant qu’unité.
 
 Vos bibliothèques peuvent inclure les éléments suivants :
 
@@ -25,7 +26,7 @@ Vos bibliothèques peuvent inclure les éléments suivants :
 
 * **Lots de contenu publicitaire :** regroupez les contenus publicitaires en lots à utiliser dans plusieurs expériences avec des cibles utilisateur définies. Vous pouvez créer des *bundles standard* composés d’annonces standard et des *bundles dynamiques* composés d’annonces générées dynamiquement.
 
-## Formats créatifs pris en charge {#creative-creative-formats}
+## Formats Creative pris en charge {#creative-creative-formats}
 
 ### Formats pour les contenus publicitaires standard
 
@@ -33,17 +34,17 @@ Vous pouvez ajouter et gérer les types de contenu créatif suivants dans les [t
 
 >[!IMPORTANT]
 >
->Même si vous envisagez d’utiliser des contenus publicitaires HTMl5, Flexible HTML 5 ou tiers pour vos expériences publicitaires, vous devez également ajouter des contenus publicitaires d’image pour chaque taille de contenu créatif que vous utiliserez.
+>Même si vous avez l’intention d’utiliser des contenus publicitaires HTML5, Flexible HTML5 ou tiers pour vos expériences publicitaires, vous devez également ajouter des contenus publicitaires d’image pour chaque taille de contenu publicitaire que vous utilisez.
 >
 >Chaque expérience nécessite une image créative par défaut pour chaque taille de création attribuée à l’expérience. Les contenus publicitaires d’image par défaut sont utilisés lorsqu’un navigateur n’est pas activé pour JavaScript ou lorsque le serveur de publicités ne peut pas personnaliser la publicité en raison de retards.
 
-#### HTML flexible5
+#### HTML5 flexible
 
-Les contenus créatifs HTML 5 flexibles sont des contenus créatifs HTML 5 avec toutes leurs images et autres attributs comme des balises d’HTML standard, que vous pouvez modifier directement dans [!DNL Creative], soit dans une bibliothèque de contenus créatifs, soit dans une expérience individuelle (ce qui crée une variante du contenu créatif d’origine). Les créatifs HTML 5 flexibles utilisent la norme du laboratoire de technologie du Bureau de l’Advertising interactive (IAB) pour un [portfolio d’annonces](https://flexibleads.iabtechlab.com/) pour lequel les formats d’annonces sont flexibles (plutôt que fixes) et reposent sur les proportions et la plage de tailles de l’annonce, et pour lequel les annonces conservent leur résolution sur tous les appareils et sites d’édition.
+Les contenus créatifs HTML5 flexibles sont des contenus créatifs HTML5 avec toutes leurs images et autres attributs comme des balises HTML standard, que vous pouvez modifier directement dans [!DNL Creative], soit dans une bibliothèque de contenus créatifs, soit dans une expérience individuelle (ce qui crée une variante du contenu créatif d’origine). Les créatifs HTML5 flexibles utilisent la norme du laboratoire de technologie du Bureau de l’Advertising interactive (IAB) pour un [portfolio d’annonces](https://flexibleads.iabtechlab.com/) pour lequel les tailles des annonces sont flexibles (plutôt que fixes) et basées sur les proportions et la plage de tailles de l’annonce, et pour lequel les annonces conservent leur résolution sur tous les appareils et sites d’éditeur.
 
-Vous pouvez <!-- either --> charger des contenus publicitaires HTML 5 flexibles sous forme de fichiers ZIP<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. Consultez les [spécifications des contenus publicitaires flexibles d’HTML 5](html5-creative-specification.md).
+Vous pouvez <!-- either --> charger des contenus publicitaires HTML5 flexibles sous forme de fichiers ZIP<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. Consultez les [spécifications des contenus publicitaires HTML5 flexibles](html5-creative-specification.md).
 
-<!-- Will flattening the view be possible in the MVP?
+<!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
 
 
@@ -53,15 +54,15 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
  -->
 
-Vous pouvez éventuellement modifier les valeurs par défaut des attributs spécifiés dans un élément créatif HTML 5 flexible. Par la suite, vous pouvez spécifier des valeurs personnalisées pour les attributs dans une expérience spécifique, ce qui crée une variante du contenu créatif parent.
+Vous pouvez éventuellement modifier les valeurs par défaut des attributs spécifiés dans un élément créatif HTML5 flexible. Par la suite, vous pouvez spécifier des valeurs personnalisées pour les attributs dans une expérience spécifique, ce qui crée une variante du contenu créatif parent.
 
-#### Création HTML5
+#### Conceptions HTML5
 
-Vous pouvez charger des contenus publicitaires HTML 5 simples ou statiques, avec tous les attributs et images spécifiés, sous forme de fichiers ZIP. Vous ne pouvez pas modifier d’attributs ni ajouter d’images ; au lieu de cela, chargez un nouveau fichier ZIP pour ajouter un nouveau contenu créatif. Consultez les [spécifications des contenus publicitaires HTML 5 simples et statiques](html5-creative-specification.md).
+Vous pouvez charger des contenus publicitaires HTML5 simples ou statiques, avec tous les attributs et images spécifiés, sous forme de fichiers ZIP. Vous ne pouvez pas modifier d’attributs ni ajouter d’images ; au lieu de cela, chargez un nouveau fichier ZIP pour ajouter un nouveau contenu créatif. Consultez les [spécifications des contenus publicitaires HTML5 simples et statiques](html5-creative-specification.md).
 
 #### Conceptions d’image
 
-Vous pouvez inclure des éléments créatifs d’image au format GIF, JPEG, JPG ou PNG. Vous pouvez charger des images <!--LATER:   images from your Adobe Experience Manager accounts or --> à partir de votre appareil ou réseau.
+Vous pouvez inclure des éléments créatifs d’image au format GIF, JPEG, JPG ou PNG. Vous pouvez charger <!--LATER:   images from your Adobe Experience Manager accounts or --> images à partir de votre appareil ou réseau.
 
 Chaque expérience publicitaire nécessite une image créative par défaut pour chaque taille de contenu créatif attribuée à l’expérience.
 
@@ -75,7 +76,7 @@ Saisissez les balises de suivi JavaScript pour les contenus publicitaires héber
 
 ### Format pour les publicités dynamiques
 
-Les utilisateurs administrateurs peuvent créer des contenus publicitaires générés dynamiquement au format HTML 5 statique et HTML 5 dynamique en mappant les variables dynamiques d’un modèle d’annonce publicitaire aux valeurs d’un fichier de flux. Cela peut inclure des contenus publicitaires issus de vos expériences Adobe Advertising Dynamic Creative Optimization (DCO) héritées.
+Les utilisateurs administrateurs peuvent générer dynamiquement des contenus publicitaires au format statique HTML5 et dynamique HTML5 en mappant les variables dynamiques d’un modèle d’annonce publicitaire aux valeurs d’un fichier de flux. Les contenus publicitaires dynamiques peuvent inclure ceux de vos expériences Adobe Advertising Dynamic Creative Optimization (DCO) héritées.
 
 ## Les vues [!UICONTROL Creative Libraries]
 
@@ -137,7 +138,7 @@ Les données de chaque élément créatif incluent le type d’élément créati
 
 ##### Actions disponibles
 
-La possibilité de créer et de modifier des contenus publicitaires dynamiques est actuellement réservée à l’équipe du compte d’Adobe. Cependant, tous les utilisateurs peuvent :
+Actuellement, la possibilité de créer et de modifier des contenus publicitaires dynamiques est réservée à l’équipe du compte Adobe. Cependant, tous les utilisateurs peuvent :
 
 * [Aperçu de contenus publicitaires dynamiques](creative-preview.md)
 

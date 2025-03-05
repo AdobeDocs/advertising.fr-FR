@@ -2,9 +2,10 @@
 title: Gestion des bibliothèques de contenu publicitaire
 description: Découvrez comment créer, renommer et supprimer vos bibliothèques de création.
 feature: Creative Libraries
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Version bêta fermée*
 
-Vous pouvez créer plusieurs bibliothèques de contenu publicitaire pour chaque annonceur. Vous pouvez par la suite remplir chaque bibliothèque avec des [éléments créatifs standard](creative-add-standard.md) des <!-- , dynamic creatives, --> et des [lots de contenu créatif](bundle-manage.md). L’équipe chargée de votre compte Adobe peut également ajouter des contenus publicitaires dynamiques à vos bibliothèques.
+Vous pouvez créer plusieurs bibliothèques de contenu publicitaire pour chaque annonceur. Vous pouvez ensuite remplir chaque bibliothèque avec des [contenus publicitaires standard](creative-add-standard.md)<!-- , dynamic creatives, --> et des [lots créatifs](bundle-manage.md). L’équipe chargée de votre compte Adobe peut également ajouter des contenus publicitaires dynamiques à vos bibliothèques.
 
 ## Création d’une bibliothèque de contenu créatif
 
@@ -51,7 +52,7 @@ Vous pouvez créer plusieurs bibliothèques de contenu publicitaire pour chaque 
 
 ## Suppression de bibliothèques de création
 
-Vous pouvez supprimer des bibliothèques comportant des contenus publicitaires et des lots qui ne sont pas affectés à une expérience en direct.<!-- Add an x-ref?  --> Supprimez tous les contenus publicitaires ou les lots affectés à une expérience active de l’arborescence de décision pour l’expérience<!-- add x-ref --> avant de continuer.
+Vous pouvez supprimer des bibliothèques comportant des contenus publicitaires et des lots qui ne sont pas affectés à une expérience [en ligne](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Pour une expérience ciblée en direct, [supprimez tous les contenus publicitaires ou les lots de l’arborescence de décision](/help/creative/experiences/experience-target-node-delete.md) pour l’expérience avant de continuer.<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -65,7 +66,7 @@ Vous pouvez supprimer des bibliothèques comportant des contenus publicitaires e
 
       * Dans la vue Tableau, placez le curseur sur la ligne et cliquez sur **[!UICONTROL Delete]**.
 
-   * Pour supprimer une ou plusieurs bibliothèques, activez la case à cocher correspondant à chacune des bibliothèques à supprimer. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Delete].
+   * Pour supprimer une ou plusieurs bibliothèques, activez la case à cocher correspondant à chacune des bibliothèques à supprimer. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Delete]**.
 
      Pour sélectionner toutes les lignes, cochez la case globale dans le coin supérieur gauche.
 

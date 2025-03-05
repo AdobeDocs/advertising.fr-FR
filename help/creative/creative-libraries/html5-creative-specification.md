@@ -1,21 +1,22 @@
 ---
-title: Spécification de création HTML 5
-description: Référencez la spécification de création HTML5 pour l’Advertising Creative.
+title: Spécification de création HTML5
+description: Référencez la spécification de création HTML5 pour Advertising Creative.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 0%
 
 ---
 
-# Spécification créative HTML 5 pour l’Advertising Creative
+# Spécification de création HTML5 pour Advertising Creative
 
-Ce document décrit les exigences et la prise en charge de l’API pour les contenus publicitaires HTML 5 dans [!DNL Creative]. L’API permet le développement de contenus publicitaires HTML 5 dont les attributs peuvent être configurés au moment de la diffusion des contenus publicitaires.
+Ce document décrit les exigences et la prise en charge de l’API pour les contenus publicitaires HTML5 dans [!DNL Creative]. L’API permet le développement de contenus publicitaires HTML5 dont les attributs peuvent être configurés au moment de la diffusion des contenus publicitaires.
 
 ## Champ d’application
 
-[!DNL Creative] prend en charge les bannières HTML5 avec des contenus publicitaires non enrichis qui apparaissent dans des bordures définies sur une page. Vous pouvez utiliser les types de contenus publicitaires HTML 5 suivants :
+[!DNL Creative] prend en charge les bannières HTML5 avec des contenus publicitaires non enrichis qui apparaissent dans des bordures définies sur une page. Vous pouvez utiliser les types de contenus publicitaires HTML5 suivants :
 
 <!--Remove to simplify:
 
@@ -25,9 +26,9 @@ Ce document décrit les exigences et la prise en charge de l’API pour les cont
 
 -->
 
-* **HTML 5:** prend en charge jusqu’à 5 URL de page de destination configurables lors de la création créative et du trafic.
+* **HTML5:** prend en charge jusqu’à 5 URL de page de destination configurables lors de la création créative et du trafic.
 
-* **Flexible HTML 5:** prend en charge jusqu’à 5 URL de page de destination qui peuvent être configurées lors de la création créative et du trafic. Il permet également de modifier les attributs créatifs lors de la création créative et du trafic.
+* **Flexible HTML5:** prend en charge jusqu’à 5 URL de page de destination pouvant être configurées lors de la création créative et du trafic. Il permet également de modifier les attributs créatifs lors de la création créative et du trafic.
 
 ## Conditions requises
 
@@ -35,17 +36,17 @@ Ce document décrit les exigences et la prise en charge de l’API pour les cont
 
 * Le contenu créatif doit être compressé dans un fichier ZIP (format .ZIP). Les fichiers ZIP imbriqués ne sont pas pris en charge. N’incluez donc pas de dossier compressé dans le dossier compressé externe.
 
-* Le fichier ZIP doit contenir au moins un fichier d’HTML (le fichier d’affichage d’HTML principal) qui inclut une référence à la bibliothèque JavaScript [!DNL Creative]. Le fichier d’HTML principal peut se trouver dans le dossier racine ou dans un sous-dossier.
+* Le fichier ZIP doit contenir au moins un fichier HTML, le fichier d’affichage HTML principal, qui inclut une référence à la bibliothèque JavaScript [!DNL Creative]. Le fichier HTML principal peut se trouver dans le dossier racine ou dans un sous-dossier.
 
-* Le fichier d’HTML principal peut porter n’importe quel nom, à condition qu’il n’inclue pas de caractères spéciaux, bien que `index.html` soit recommandé.
+* Le fichier HTML principal peut être nommé comme bon vous semble, à condition qu’il n’inclue pas de caractères spéciaux, bien que `index.html` soit recommandé.
 
 * Toutes les ressources nécessaires au rendu de la création finale doivent se trouver dans le même dossier que le fichier d’affichage HTML ou dans des sous-dossiers du dossier principal.
 
-* N’incluez dans le contenu créatif aucun fichier qui n’est pas référencé pour ce contenu créatif.
+* N’incluez dans le contenu créatif aucun fichier auquel il ne fait pas référence.
 
 ### Inclusion du fichier JavaScript Advertising Creative
 
-Le fichier d&#39;HTML principal — et aucun autre fichier — doit contenir une référence au fichier JavaScript `AMOLibrary.js`. Appelez le fichier à la première ligne de la section `<head>` en utilisant l’adresse suivante :
+Le fichier HTML principal (et aucun autre fichier) doit contenir une référence au fichier JavaScript `AMOLibrary.js`. Appelez le fichier à la première ligne de la section `<head>` en utilisant l’adresse suivante :
 
 `https://ads.everesttech.net/ads/static/local/AMOLibrary.js`
 
@@ -75,17 +76,17 @@ var clickTag = “http://www.example.com”;
 ### Static HTML5 creative requirements
 -->
 
-### Exigences de création HTML5
+### Exigences créatives d’HTML5
 
-#### Prise en charge des URL de clics publicitaires en HTML statique5
+#### Prise en charge des URL de clics publicitaires dans l’HTML statique 5
 
 ##### `amo.registerClick(clkVar, clkUrl)`
 
-Enregistre les URL de clics publicitaires et le paramètre associé utilisé pour référencer chaque URL (connu sous le nom de `clickTag`). Cela indique au serveur de publicités [!DNL Creative] où ajouter le suivi des clics. Vous pouvez utiliser cette API pour enregistrer jusqu’à cinq variables de balises de clic, chacune avec une URL de page de destination correspondante.
+Enregistre les URL de clics publicitaires et le paramètre associé utilisé pour référencer chaque URL (connu sous le nom de `clickTag`). Cette API indique au serveur de publicités [!DNL Creative] où ajouter le suivi des clics. Vous pouvez utiliser cette API pour enregistrer jusqu’à cinq variables de balises de clic, chacune avec une URL de page de destination correspondante.
 
 >[!NOTE]
 >
->Les URL statiques que vous incluez dans le contenu créatif d’HTML 5 sont utilisées uniquement à des fins de test local et seront remplacées. Lorsque vous téléchargez un contenu créatif HTML5, vous définissez la page de destination par défaut pour chaque variable `clickTag`. Lorsque vous affectez un contenu créatif HTML 5 chargé à une expérience publicitaire, vous pouvez éventuellement remplacer la page de destination par défaut pour chaque variable de `clickTag`, et [!DNL Creative] ajoute le suivi des clics aux URL lorsque vous enregistrez l’expérience.
+>Les URL statiques que vous incluez dans le contenu créatif d’HTML5 sont utilisées uniquement à des fins de test local et seront remplacées. Lorsque vous téléchargez un contenu créatif HTML5, vous définissez la page de destination par défaut pour chaque variable `clickTag`. Lorsque vous affectez un contenu créatif HTML5 chargé à une expérience publicitaire, vous pouvez éventuellement remplacer la page de destination par défaut pour chaque variable `clickTag`, et [!DNL Creative] ajoute le suivi des clics aux URL lorsque vous enregistrez l’expérience.
 
 ###### Paramètres
 
@@ -95,7 +96,7 @@ Enregistre les URL de clics publicitaires et le paramètre associé utilisé pou
 
 ###### Utilisation
 
-Appelez `amo.registerClick()` dans la section `<head>` du fichier d’HTML principal.
+Appelez `amo.registerClick()` dans la section `<head>` du fichier HTML principal.
 
 ###### Exemple
 
@@ -113,23 +114,23 @@ Déclenche l’événement de sortie, qui redirige l’utilisateur vers la page 
 
 ###### Utilisation
 
-Appelez `amo.onAdClick()` dans la section `<body>` du fichier d’HTML principal.
+Appelez `amo.onAdClick()` dans la section `<body>` du fichier HTML principal.
 
 ###### Exemples
 
 `amo.onAdClick('clickTag')` OU `amo.onAdClick('clickTag',clickEvt)`
 
-### Exigences de création flexibles d’HTML 5
+### Exigences de création HTML5 flexibles
 
-#### Prise en charge des URL de clics publicitaires dans un HTML flexible5
+#### Prise en charge des URL de clic publicitaire dans HTML5 flexible
 
 ##### `amo.registerClick(clkVar, clkUrl)`
 
-Enregistre les URL de clics publicitaires et le paramètre associé utilisé pour référencer chaque URL (connu sous le nom de `clickTag`). Cela indique au serveur de publicités [!DNL Creative] où ajouter le suivi des clics. Vous pouvez utiliser cette API pour enregistrer jusqu’à cinq variables de balises de clic, chacune avec une URL de page de destination correspondante.
+Enregistre les URL de clics publicitaires et le paramètre associé utilisé pour référencer chaque URL (connu sous le nom de `clickTag`). Cette API indique au serveur de publicités [!DNL Creative] où ajouter le suivi des clics. Vous pouvez utiliser cette API pour enregistrer jusqu’à cinq variables de balises de clic, chacune avec une URL de page de destination correspondante.
 
 >[!NOTE]
 >
->Les URL statiques que vous incluez dans le contenu créatif d’HTML 5 sont utilisées uniquement à des fins de test local et seront remplacées. Lorsque vous téléchargez un contenu créatif HTML5, vous définissez la page de destination par défaut pour chaque variable `clickTag`. Lorsque vous affectez un contenu créatif HTML 5 chargé à une expérience publicitaire, vous pouvez éventuellement remplacer la page de destination par défaut pour chaque variable de `clickTag`, et [!DNL Creative] ajoute le suivi des clics aux URL lorsque vous enregistrez l’expérience.
+>Les URL statiques que vous incluez dans le contenu créatif d’HTML5 sont utilisées uniquement à des fins de test local et seront remplacées. Lorsque vous téléchargez un contenu créatif HTML5, vous définissez la page de destination par défaut pour chaque variable `clickTag`. Lorsque vous affectez un contenu créatif HTML5 chargé à une expérience publicitaire, vous pouvez éventuellement remplacer la page de destination par défaut pour chaque variable `clickTag`, et [!DNL Creative] ajoute le suivi des clics aux URL lorsque vous enregistrez l’expérience.
 
 ###### Paramètres
 
@@ -139,7 +140,7 @@ Enregistre les URL de clics publicitaires et le paramètre associé utilisé pou
 
 ###### Utilisation
 
-Appelez `amo.registerClick()` dans la section `<head>` du fichier d’HTML principal.
+Appelez `amo.registerClick()` dans la section `<head>` du fichier HTML principal.
 
 ###### Exemple
 
@@ -157,13 +158,13 @@ Déclenche l’événement de sortie, qui redirige l’utilisateur vers la page 
 
 ###### Utilisation
 
-Appelez `amo.onAdClick()` dans la section `<body>` du fichier d’HTML principal.
+Appelez `amo.onAdClick()` dans la section `<body>` du fichier HTML principal.
 
 ###### Exemples
 
 `amo.onAdClick('clickTag')` OU `amo.onAdClick('clickTag',clickEvt)`
 
-#### Prise en charge des attributs créatifs dans un HTML flexible5
+#### Prise en charge des attributs créatifs dans HTML5 flexible
 
 ##### `amo.registerAttribute(key, type, value)`
 
@@ -187,13 +188,13 @@ Appelez `amo.registerAttribute()` pour enregistrer un attribut créatif, un type
 
 ##### `amo.attributes`
 
-Objet JSON pour interroger les noms et valeurs des variables d’attributs de création. Les clés d’objet seront les noms d’attributs et les valeurs seront les valeurs de ces attributs.
+Objet JSON pour interroger les noms et valeurs des variables d’attributs de création. Les clés d’objet sont les noms d’attribut et les valeurs sont les valeurs de ces attributs.
 
 En mode de test local, les paires clé-valeur sont les paires enregistrées par l’API `amo.registerAttribute`. Pour la production, les noms et valeurs des variables d’attributs créatifs doivent être configurés au moment de la création créative et du trafic.
 
-### Exigences en matière de contenu créatif
+### Exigences de contenu Creative
 
-La plupart des exchanges d’affichage disponibles dans Advertising DSP ont les exigences de création suivantes :
+La plupart des échanges d’affichage disponibles dans Advertising DSP ont les exigences de création suivantes :
 
 * Une bordure pleine doit entourer toutes les images publicitaires.
 
@@ -244,7 +245,7 @@ La plupart des exchanges d’affichage disponibles dans Advertising DSP ont les 
 ]
 ```
 
-## Exemple de contenu créatif HTML 5
+## Exemple de contenu créatif HTML5
 
 ### Exemple de structure de dossiers (après décompression)
 
@@ -254,7 +255,7 @@ La plupart des exchanges d’affichage disponibles dans Advertising DSP ont les 
 
    * bg.jpg (image JPG, PNG, SVG ou GIF)
 
-### Exemple de fichier d’HTML (index.html) pour les contenus publicitaires HTML 5 simples
+### Exemple de fichier HTML (index.html) pour les contenus publicitaires HTML5 simples
 
 ```
 <!DOCTYPE html>
@@ -273,7 +274,7 @@ La plupart des exchanges d’affichage disponibles dans Advertising DSP ont les 
 </html>
 ```
 
-### Exemple de fichier d’HTML (index.html) pour les contenus publicitaires HTML 5 statiques
+### Exemple de fichier HTML (index.html) pour les contenus publicitaires HTML5 statiques
 
 ```
 <!DOCTYPE html>

@@ -1,16 +1,16 @@
 ---
-title: Paramètres de création
+title: Paramètres de Creative
 description: En savoir plus sur xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1810'
 ht-degree: 0%
 
 ---
 
-# Paramètres de création
+# Paramètres de Creative
 
 *Version bêta fermée*
 
@@ -30,7 +30,7 @@ Lorsque vous modifiez plusieurs contenus publicitaires en même temps :
 
 **Langue :** langue par défaut de chaque publicité à laquelle vous associez les contenus publicitaires. Lorsque vous chargez ou modifiez plusieurs contenus publicitaires, la même valeur est appliquée à chaque contenu publicitaire sélectionné.
 
-**Taille du contenu publicitaire :** (lecture seule pour les contenus publicitaires existants) Dimensions du contenu publicitaire. Si des images incluses dans le contenu créatif sont plus grandes que la taille spécifiée, elles sont redimensionnées en conséquence.
+**Taille du Creative :** (Lecture seule pour les contenus publicitaires existants) Dimensions du contenu publicitaire. Si des images incluses dans le contenu créatif sont plus grandes que la taille spécifiée, elles sont redimensionnées en conséquence.
 
 **[!UICONTROL Click Tags]:** variables qui permettent le suivi des clics redirigés depuis les bannières publicitaires incluses. Les noms des variables et les URL de page de destination correspondantes sont renseignés à partir de l’unité de création chargée, mais vous pouvez modifier les URL par défaut. Pour plusieurs contenus publicitaires, vous pouvez modifier les balises de clic individuelles.
 
@@ -66,7 +66,7 @@ Pour plus d’informations sur les attributs disponibles dans les modèles préd
 
 Fichier de modèle HTML5 flexible pour les créatifs.
 
-Vous pouvez éventuellement remplacer le modèle existant par un nouveau modèle avec une disposition différente, mais le même ensemble de noms d’attributs que le modèle d’origine. Le nouveau modèle doit être au format ZIP avec un maximum de 2 Mo. Lorsque le contenu créatif se trouve dans un lot, toutes les expériences qui utilisent le lot utiliseront ensuite la mise en page du nouveau modèle.
+Vous pouvez éventuellement remplacer le modèle existant par un nouveau modèle avec une disposition différente, mais le même ensemble de noms d’attributs que le modèle d’origine. Le nouveau modèle doit être au format ZIP avec un maximum de 2 Mo. Lorsque le contenu créatif se trouve dans un lot, toutes les expériences qui utilisent le lot utilisent ensuite la mise en page du nouveau modèle.
 
 Lorsque vous mettez à jour le modèle d’un élément créatif parent avec des variations enfant, les variations sont mises à jour avec toutes les modifications apportées à la mise en page du modèle, mais les valeurs d’attribut de la variation ne sont pas modifiées.
 
@@ -98,7 +98,7 @@ Pour les nouveaux créatifs, les paramètres suivants ne se trouvent pas dans un
 
 **Langue :** langue par défaut de chaque publicité à laquelle vous associez les contenus publicitaires. Lorsque vous chargez ou modifiez plusieurs contenus publicitaires, la même valeur est appliquée à chaque contenu publicitaire sélectionné.
 
-**Taille du contenu publicitaire :** (lecture seule pour les contenus publicitaires existants) Dimensions du contenu publicitaire. Si des images incluses dans le contenu créatif sont plus grandes que la taille spécifiée, elles sont redimensionnées en conséquence.
+**Taille du Creative :** (Lecture seule pour les contenus publicitaires existants) Dimensions du contenu publicitaire. Si des images incluses dans le contenu créatif sont plus grandes que la taille spécifiée, elles sont redimensionnées en conséquence.
 
 **[!UICONTROL Click Tags]:** (contenus publicitaires HTML5 statiques uniquement) Variables qui permettent les redirections du suivi des clics à partir des bannières publicitaires incluses. Les noms des variables et les URL de page de destination correspondantes sont renseignés à partir de l’unité de création chargée, mais vous pouvez modifier les URL par défaut. Pour plusieurs contenus publicitaires, vous pouvez modifier les balises de clic individuelles.
 
@@ -126,7 +126,7 @@ Lorsque vous incluez un contenu créatif dans une offre groupée et que vous att
 
 Le fichier modèle HTML5 pour le créatif.
 
-Vous pouvez éventuellement remplacer le modèle existant par un nouveau modèle avec une disposition différente, mais le même ensemble de noms d’attributs que le modèle d’origine. Le nouveau modèle doit être au format ZIP avec un maximum de 2 Mo. Lorsque le contenu créatif se trouve dans un lot, toutes les expériences qui utilisent le lot utiliseront ensuite la mise en page du nouveau modèle.
+Vous pouvez éventuellement remplacer le modèle existant par un nouveau modèle avec une disposition différente, mais le même ensemble de noms d’attributs que le modèle d’origine. Le nouveau modèle doit être au format ZIP avec un maximum de 2 Mo. Lorsque le contenu créatif se trouve dans un lot, toutes les expériences qui utilisent le lot utilisent ensuite la mise en page du nouveau modèle.
 
 Lorsque vous mettez à jour le modèle d’un élément créatif parent avec des variations enfant, les variations sont mises à jour avec toutes les modifications apportées à la mise en page du modèle, mais les valeurs d’attribut de la variation ne sont pas modifiées.
 
@@ -152,13 +152,13 @@ Pour remplacer le modèle d’annonce publicitaire existant :
 
 **Nom du contenu publicitaire :** le nom du contenu publicitaire. Pour une nouvelle création, le nom du fichier est utilisé par défaut, mais vous pouvez le modifier. Pour plusieurs images, vous pouvez modifier les noms des créations individuelles. **Conseil :** utilisez un nom qui sera facile à trouver lorsque vous inclurez le contenu créatif dans une expérience.
 
-**Langue :** langue par défaut de chaque publicité à laquelle vous associez les contenus publicitaires. La même valeur s’applique à toutes les images sélectionnées. &lt;!— VÉRIFIER SI DES ÉVÉNEMENTS PEUVENT SE PRODUIRE AU NIVEAU DE L’OFFRE GROUPÉE, et si les paramètres d’expérience se trouvent uniquement au niveau de l’expérience : lorsque vous incluez les éléments créatifs dans une expérience, vous pouvez éventuellement personnaliser les préférences linguistiques de l’expérience.
+**Langue :** langue par défaut de chaque publicité à laquelle vous associez les contenus publicitaires. La même valeur s’applique à toutes les images sélectionnées. Lorsque vous incluez les contenus publicitaires dans une expérience, vous pouvez éventuellement personnaliser les préférences linguistiques de l’expérience.
 
-**Creative Size :** (lecture seule) dimensions des images chargées.
+**Taille du Creative :** (Lecture seule) dimensions des images chargées.
 
 **URL de la page de destination :** URL de la page de destination par défaut pour chaque publicité à laquelle vous associez les contenus publicitaires. L’URL de la page de destination doit être une URL valide commençant par http:// ou https://. Il peut inclure des paramètres de suivi tiers ou des [[!DNL Creative] macros](/help/creative/creative-macros.md) pour votre propre usage. La même valeur s’applique à toutes les images sélectionnées.
 
-Lorsque vous incluez un contenu créatif dans une offre groupée et que vous attribuez l’offre groupée à une expérience, vous pouvez éventuellement modifier l’URL de la page de destination, ainsi qu’ajouter des URL de suivi d’impression et de clics et des JavaScript, pour chaque contenu créatif de l’offre groupée. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
+Lorsque vous incluez un contenu créatif dans une offre groupée, puis que vous affectez l’offre groupée à une expérience, vous pouvez éventuellement modifier l’URL de la page de destination, ainsi qu’ajouter des URL de suivi d’impression et de clics et des JavaScript, pour chaque contenu créatif de l’offre groupée. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
 **Libellé :** (facultatif) tous les libellés à appliquer à tous les contenus publicitaires sélectionnés. Vous pouvez filtrer les contenus publicitaires par libellé dans différentes vues de [!DNL Creative].
 
@@ -172,21 +172,21 @@ Lorsque vous incluez un contenu créatif dans une offre groupée et que vous att
 
 ## Paramètres de création tiers {#creative-settings-third-party}
 
-**JavaScriptCode :** balise JavaScript (et éventuellement une autre balise pour les navigateurs qui ne prennent pas en charge JavaScript) qui pointe vers le contenu créatif sur le serveur de publicités tiers. Le script varie en fonction du serveur de publicités. Lorsque vous modifiez plusieurs contenus publicitaires, la même valeur est appliquée à chaque contenu publicitaire sélectionné.
+**JavaScriptCode :** balise JavaScript (et éventuellement une autre balise pour les navigateurs qui ne prennent pas en charge JavaScript) qui pointe vers le contenu créatif sur le serveur de publicités tiers. Le script peut varier en fonction du serveur de publicités. Lorsque vous modifiez plusieurs contenus publicitaires, la même valeur est appliquée à chaque contenu publicitaire sélectionné.
 
 Toutes les [macros disponibles](/help/creative/creative-macros.md) et les données auxquelles elles sont remplacées sont répertoriées sous le champ de saisie. Pour insérer l&#39;une des macros dans la balise, placez le curseur sur la description de la macro et cliquez sur ![Copier dans le presse-papiers](/help/creative/assets/copy-to-clipboard.png "Copier dans le presse-papiers"), puis collez l&#39;image où vous le souhaitez dans la balise.
 
-Lorsque vous incluez cette contenu publicitaire dans une expérience que vous implémentez en tant qu’annonce publicitaire à partir d’un DSP, le DSP utilise les informations de cette balise pour afficher l’annonce publicitaire et effectuer le suivi des impressions et des clics sur celle-ci, puis envoie la balise vers l’échange publicitaire. Lorsque l’utilisateur clique sur l’annonce publicitaire et l’affiche, le serveur de publicités, le DSP et le [!DNL Creative] effectuent le suivi des événements.
+Lorsque vous incluez ce contenu créatif dans une expérience que vous implémentez sous la forme d’une publicité à partir d’un DSP, le DSP utilise les informations de cette balise pour afficher la publicité et suivre les impressions et les clics sur celle-ci. Le DSP envoie ensuite la balise vers l’échange publicitaire. Lorsque l’utilisateur clique sur la publicité et l’affiche, le serveur de publicités, le DSP et [!DNL Creative] effectuent le suivi des événements.
 
 **[!UICONTROL Advertiser]:** (Lecture seule) Annonceur pour lequel la bibliothèque est disponible.
 
 **Nom du contenu publicitaire :** le nom du contenu publicitaire. **Conseil :** utilisez un nom qui sera facile à trouver lorsque vous inclurez le contenu créatif dans une expérience.
 
-**Taille de la création :** (lecture seule pour les annonces existantes) Dimensions de la création. Pour les nouveaux contenus publicitaires, sélectionnez dans une liste de tailles d’annonce standard.
+**Taille du Creative :** (lecture seule pour les publicités existantes) Dimensions du contenu publicitaire. Pour les nouveaux contenus publicitaires, sélectionnez dans une liste de tailles d’annonce standard.
 u
 **Langue :** langue par défaut de chaque publicité à laquelle vous associez les contenus publicitaires.
 
-**URL de la page de destination :** URL de la page de destination utilisée pour valider chaque publicité à laquelle vous associez les contenus publicitaires. La page de destination réelle de chaque publicité est déterminée par le serveur de publicités tiers.
+**URL de la page de destination :** URL de la page de destination utilisée pour valider chaque publicité à laquelle vous associez les contenus publicitaires. Le serveur de publicités tiers détermine la page de destination réelle de chaque publicité.
 
 **Libellé :** (facultatif) tous les libellés à appliquer à tous les contenus publicitaires sélectionnés. Vous pouvez filtrer les contenus publicitaires par libellé dans différentes vues de [!DNL Creative].
 

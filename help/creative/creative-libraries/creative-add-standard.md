@@ -3,9 +3,9 @@ title: Ajout de contenus publicitaires standard à une bibliothèque de contenus
 description: Découvrez comment ajouter des contenus publicitaires standard (non dynamiques) à une bibliothèque de contenus publicitaires.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 ## Ajout d’un contenu créatif HTML5 à une bibliothèque de contenu créatif
 
-<!-- verify -->Vous pouvez ajouter plusieurs contenus publicitaires HTML5 d’un seul type (simple ou statique) à la fois.
+Vous pouvez ajouter plusieurs contenus publicitaires HTML5 d’un seul type (simple ou statique) à la fois.
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -122,7 +122,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL HTML5]**.
 
-<!-- Doesn't seem to be an option as of 11/27/24:
+<!-- Not an option as of 3/4:
 
 1. (Optional) To download a sample HTML5 creative as a ZIP file, click **Sample HTML5 Creatives**.
 
@@ -202,8 +202,5 @@ Les contenus publicitaires d’image peuvent être au format GIF, JPEG, JPG ou P
 >* [Tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md)
 >* [Prévisualisation d’une création](/help/creative/creative-libraries/creative-preview.md)
 >* [Joindre et détacher des contenus publicitaires des offres groupées](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
->* [Dupliquer les contenus publicitaires](/help/creative/creative-libraries/creative-duplicate.md)
->* [Télécharger des contenus publicitaires](/help/creative/creative-libraries/creative-download.md)
->* [Supprimer des contenus publicitaires](/help/creative/creative-libraries/creative-delete.md)
 >* [À propos de vos bibliothèques de création](/help/creative/creative-libraries/creative-libraries-about.md)
 >* [Gestion des bibliothèques de création](/help/creative/creative-libraries/creative-library-manage.md)

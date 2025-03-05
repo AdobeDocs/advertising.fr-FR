@@ -2,9 +2,10 @@
 title: Modification de contenus publicitaires standard dans une bibliothèque de contenus publicitaires
 description: Découvrez comment modifier les paramètres des contenus publicitaires standard (non dynamiques) dans une bibliothèque de contenus publicitaires.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -13,11 +14,11 @@ ht-degree: 0%
 
 *Version bêta fermée*
 
-Vous pouvez modifier certains paramètres pour chaque type de contenu créatif standard. Vous pouvez modifier plusieurs <!-- or creative variations --> de contenu publicitaire du même type de contenu créatif (HTML 5 simple avec une seule page de destination, HTML 5 statique avec plusieurs pages de destination, HTML 5 flexible, image ou tiers<!-- , or dynamic -->) uniquement.
+Vous pouvez modifier certains paramètres pour chaque type de contenu créatif standard. Vous pouvez modifier plusieurs contenus publicitaires<!-- or creative variations --> du même type (HTML simple avec une seule landing page, HTML5 statique avec plusieurs landing pages, HTML5 flexible, image ou tiers<!-- , or dynamic -->) uniquement.
 
-Pour les contenus publicitaires HTML 5 flexibles et HTML 5 statiques, vous pouvez charger un nouveau fichier modèle avec une mise en page différente, mais avec le même ensemble de noms d’attribut. Pour les contenus publicitaires HTML 5 simples, vous pouvez modifier n’importe quel attribut ou ajouter des images en chargeant un nouveau modèle avec les nouveaux attributs ou images. Dans tous les cas, le modèle doit être un fichier local au format ZIP d’une taille maximale de 2 Mo.
+Pour les créatifs HTML5 flexibles et HTML5 statiques, vous pouvez charger un nouveau fichier modèle avec une disposition différente, mais le même ensemble de noms d’attributs. Pour les contenus publicitaires HTML5 simples, vous pouvez modifier n’importe quel attribut ou ajouter des images en chargeant un nouveau modèle avec les nouveaux attributs ou images. Dans tous les cas, le modèle doit être un fichier local au format ZIP d’une taille maximale de 2 Mo.
 
-Lorsque vous modifiez un <!-- or creative variation --> de création inclus dans une offre groupée, vos modifications sont automatiquement appliquées à toutes les expériences qui incluent l’offre groupée. Toutefois, les pages de destination et URL de suivi personnalisées spécifiées au niveau de l’expérience restent applicables à l’offre groupée associée à cette expérience.
+Lorsque vous modifiez un contenu créatif inclus dans une offre groupée<!-- or creative variation --> vos modifications sont automatiquement appliquées à toutes les expériences qui incluent l’offre groupée, sauf que les pages de destination et URL de suivi personnalisées spécifiées au niveau de l’expérience restent applicables à l’offre groupée associée à cette expérience.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -39,7 +40,7 @@ Lorsque vous modifiez un <!-- or creative variation --> de création inclus dans
 
      Pour sélectionner toutes les lignes, cochez la case globale dans le coin supérieur gauche.
 
-1. Modifiez les [paramètres de création d’image](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), [paramètres de création d’HTML 5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), [paramètres de création d’HTML 5 flexibles](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) ou [paramètres de création tiers](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party). <!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
+1. Modifiez les [paramètres de création d’image](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), [paramètres de création HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), [paramètres de création HTML5 flexibles](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) ou [paramètres de création tiers](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party). <!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
 
    Lorsque vous modifiez plusieurs contenus publicitaires en même temps :
 
@@ -49,7 +50,7 @@ Lorsque vous modifiez un <!-- or creative variation --> de création inclus dans
 
    >[!NOTE]
    >
-   >* (Contenus publicitaires HTML 5 flexibles uniquement) Vous ne pouvez modifier les attributs que pour les contenus publicitaires uniques.<!-- Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
+   >* (Contenus publicitaires HTML5 flexibles uniquement) Vous ne pouvez modifier les attributs que pour les contenus publicitaires uniques.<!-- May never be implemented: Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
 
 <!-- Not there as of 1/16/25. If we do add it, verify the applicable ad types:   
 1. (Flexible HTML5 [or third-party should be possible, but not so] creatives; optional) Once you've made your changes, click ![]() to preview the new creative. 
@@ -66,5 +67,3 @@ Lorsque vous modifiez un <!-- or creative variation --> de création inclus dans
 >* [Ajouter des contenus publicitaires standard à une bibliothèque de contenus publicitaires](creative-add-standard.md)
 >* [Paramètres de création standard](/help/creative/creative-libraries/creative-settings-standard.md)
 >* [Prévisualisation d’une création](/help/creative/creative-libraries/creative-preview.md)
->* [Dupliquer les contenus publicitaires](/help/creative/creative-libraries/creative-duplicate.md)
->* [Supprimer des contenus publicitaires](/help/creative/creative-libraries/creative-delete.md)

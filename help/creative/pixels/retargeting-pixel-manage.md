@@ -3,9 +3,9 @@ title: Gestion des pixels de reciblage
 description: Découvrez comment créer et implémenter des pixels de reciblage à utiliser comme cibles pour les expériences publicitaires.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Exemple de pixel :
 
    Si vous ajoutez manuellement des attributs supplémentaires, vous devez inclure le codage d’URL.
 
-   Par exemple, si vous avez inclus les attributs « category », « color » et « size », ainsi que les identifiants universels d’ID5 de capture, la balise pixel inclura les paramètres suivants : `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` et `&id5pid=--Insert ID5_PARTNER_ID--`. Pour cibler les utilisateurs qui sélectionnent des sandales rouges de taille 10, par exemple, vous devez définir les paramètres des balises image et script sur `&ut1=sandals&ut2=red&ut3=10`, ainsi que saisir l’ID5 du partenaire dans la balise script, tel que `&id5pid=0123456789`.
+   Par exemple, si vous avez inclus les attributs « category », « color » et « size », ainsi que les identifiants universels d’ID5 de capture, la balise de pixel inclut les paramètres suivants : `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` et `&id5pid=--Insert ID5_PARTNER_ID--`. Pour cibler les utilisateurs qui sélectionnent des sandales rouges de taille 10, par exemple, modifiez les paramètres des balises image et script sur `&ut1=sandals&ut2=red&ut3=10`, et saisissez également votre ID5 de partenaire dans la balise script, tel que `&id5pid=0123456789`.
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
@@ -99,17 +99,17 @@ Exemple de pixel :
 
 ## Paramètres des pixels de reciblage {#retargeting-pixel-settings}
 
-**[!UICONTROL Pixel Name]:** Nom du pixel. **Remarque :** la balise pixel inclura l’identifiant du pixel (`pxId=<ID>`), et non le nom du pixel.
+**[!UICONTROL Pixel Name]:** Nom du pixel. **Remarque :** la balise pixel comprend l’identifiant du pixel (`pxId=<ID>`), et non le nom du pixel.
 
 **[!UICONTROL Advertiser]:** (Lecture seule pour les pixels existants) Annonceur pour lequel le pixel est suivi.
 
 **[!UICONTROL Attribute 1]:** attribut à inclure dans la balise pixel, tel que « SKU », « catégorie », « taille » ou d’autres attributs de la page ou du produit affiché sur la page. Spécifiez une valeur pour l’attribut dans la balise pixel avant de l’insérer dans les pages web appropriées.
 
-Lorsque vous ciblez des expériences publicitaires sur des utilisateurs exposés au pixel, les paramètres de ciblage spécifient les valeurs d’attribut qui doivent être présentes pour afficher les éléments créatifs.
+Lorsque vous ciblez des expériences publicitaires sur des utilisateurs exposés au pixel, les paramètres de ciblage spécifient les valeurs d’attribut qui doivent être présentes pour afficher les contenus publicitaires.
 
 **[!UICONTROL Attribute 2]**, **[!UICONTROL Attribute 3]**, **[!UICONTROL Attribute 4]**, **[!UICONTROL Attribute 5]:** (facultatif) Attributs supplémentaires à inclure dans la balise pixel. Spécifiez une valeur pour chaque attribut supplémentaire dans la balise pixel avant de l’insérer dans les pages web appropriées.
 
-Lorsque vous ciblez des expériences publicitaires sur des utilisateurs exposés au pixel, les paramètres de ciblage spécifient les valeurs d’attribut qui doivent être présentes pour afficher les éléments créatifs.
+Lorsque vous ciblez des expériences publicitaires sur des utilisateurs exposés au pixel, les paramètres de ciblage spécifient les valeurs d’attribut qui doivent être présentes pour afficher les contenus publicitaires.
 
 **[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (fonctionnalité Beta ; nouveaux pixels uniquement ; facultatif) Types d’identifiants universels pour la balise de pixel à suivre :
 

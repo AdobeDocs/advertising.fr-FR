@@ -3,9 +3,9 @@ title: À propos des expériences dans Advertising Creative
 description: Découvrez comment configurer des expériences publicitaires personnalisées et optimiser les éléments publicitaires en fonction des performances.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!-- MORE -->
 
-[!DNL Advertising Creative 2.0] fournit deux structures d’expérience publicitaire différentes pour les publicités dans la bibliothèque de contenu publicitaire <!-- can use a single library only --> :
+[!DNL Advertising Creative 2.0] fournit deux structures d’expérience publicitaire différentes pour les publicités d’une bibliothèque de contenu créatif <!-- can use a single library only --> :
 
 * **Expériences de ciblage d’arborescence de décision :** [!DNL Creative] vous permet de configurer des expériences publicitaires personnalisées dans l’ensemble du parcours client à l’aide d’un modèle d’arborescence de décision. Vous pouvez personnaliser tous les éléments publicitaires (images, titres, offres et pages de destination) en fonction de l’audience cible.
 
   Par exemple, vous pouvez spécifier le même lot de création pour les personnes de Chicago et de New York qui se trouvent dans un segment ciblé d’audience Adobe Analytics spécifique, mais envoyer les personnes de Chicago qui se trouvent dans le même segment vers des pages de destination différentes de celles de New Yorker. Vous pouvez également spécifier un lot différent pour les personnes du segment qui vivent n’importe où sauf à Chicago et New York, et un troisième lot pour les autres personnes qui ne se trouvent pas dans le segment.
 
-  Les options de ciblage incluent les visionneuses dans vos segments d’audience propriétaires à partir de Adobe Audience Manager, Adobe Analytics et Advertising Cloud DSP ; les visionneuses à des emplacements géographiques spécifiques, notamment des pays, des États, des DMA aux États-Unis, des villes et des codes postaux ; les visionneuses pour lesquelles des paires clé-valeur spécifiques (cibles de passage de données) sont transmises par le DSP, l’éditeur ou le partenaire ; les visionneuses avec des pixels de reciblage [!DNL Creative] et des valeurs d’attribut spécifiées ; et les visionneuses avec des types d’appareils, des systèmes d’exploitation et des navigateurs spécifiques.
+  Les options de ciblage incluent les visionneuses dans vos segments d’audience propriétaires à partir de Adobe Audience Manager, Adobe Analytics et Advertising Cloud DSP ; les visionneuses à des emplacements géographiques spécifiques, notamment des pays, des États, des DMA aux États-Unis, des villes et des codes postaux ; les visionneuses pour lesquelles des paires clé-valeur spécifiques (cibles de passage de données) sont transmises à partir de DSP, de l’éditeur ou du partenaire ; les visionneuses avec des pixels de reciblage [!DNL Creative] et des valeurs d’attribut spécifiées ; et les visionneuses avec des types d’appareils, des systèmes d’exploitation et des navigateurs spécifiques.
 
   Vous pouvez affecter des lots de contenu créatif à chaque expérience, en personnalisant éventuellement l’optimisation et la planification des lots de contenu créatif et en modifiant les pages de destination par défaut et les URL de suivi<!-- and any flexible attributes --> pour chaque contenu créatif de chaque lot.
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## Implémentation et gestion des expériences
 
-Une fois que vous avez créé une expérience en direct (avec tous les éléments publicitaires requis), vous pouvez [générer une balise JavaScript ou iframe pour l’ensemble de l’expérience](experience-tag-export.md), que vous pouvez éventuellement charger en tant qu’annonce dans une campagne en Adobe Advertising DSP ou implémenter en tant qu’annonce dans un DSP tiers. [!DNL Creative] diffuse des annonces pour l’expérience en fonction des options de ciblage et de rotation des annonces, ainsi que de l’inventaire des annonces disponibles.
+Une fois que vous avez créé une expérience en direct (avec tous les éléments publicitaires requis), vous pouvez [générer une balise JavaScript ou iframe pour l’ensemble de l’expérience](experience-tag-export.md), que vous pouvez éventuellement charger en tant qu’annonce dans une campagne dans Adobe Advertising DSP ou implémenter en tant qu’annonce dans un DSP tiers. [!DNL Creative] diffuse des annonces pour l’expérience en fonction des options de ciblage et de rotation des annonces, ainsi que de l’inventaire des annonces disponibles.
 
 ## Données de performances pour vos expériences
 
@@ -71,13 +71,13 @@ Le statut d’une expérience est défini automatiquement, à l’exception de *
 
 >[!NOTE]
 >
->Vous pouvez modifier le statut d’une publicité dans un DSP sans affecter le statut de l’expérience dans [!DNL Creative].
+>Vous pouvez modifier le statut d’une annonce publicitaire dans un DSP sans affecter le statut de l’expérience dans [!DNL Creative].
 
 ## La vue [!UICONTROL Experiences]
 
 La vue [!UICONTROL Experiences] affiche toutes vos expériences ciblées et non ciblées. Vous pouvez voir les noms d’expérience, le statut, les dates de début et de fin, le nombre et les dimensions des contenus publicitaires ou créatifs attribués, et si l’expérience inclut des annonces dynamiques. Lorsque vous activez l’option [!UICONTROL Metrics] dans la vue [!UICONTROL Experiences], chaque carte ou ligne d’expérience indique le nombre d’impressions et de clics que l’expérience a reçus.
 
-Vous pouvez créer et gérer vos expériences , y compris l’optimisation et l’affectation de contenus créatifs et de bundles de création à vos expériences. Vous pouvez également créer et renommer des balises d’expérience et exporter les balises aux formats JavaScript et iframe pour les implémenter sur votre DSP. Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger des balises directement dans une campagne Advertising DSP sous forme de publicités.
+Vous pouvez créer et gérer vos expériences , y compris l’optimisation et l’affectation de contenus créatifs et de bundles de création à vos expériences. Vous pouvez également créer et renommer des balises d’expérience et exporter les balises aux formats JavaScript et iframe pour les implémenter sur vos DSP. Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger des balises directement dans une campagne Advertising DSP sous forme de publicités.
 
 <!--
 ### Available actions

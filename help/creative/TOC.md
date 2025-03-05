@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising Creative
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources requis pour utiliser Advertising Creative.
 breadcrumb-title: Guide de création
 hide: true
-source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
          + [Paramètres de création standard](/help/creative/creative-libraries/creative-settings-standard.md)
          + [Spécification de création HTML5](/help/creative/creative-libraries/html5-creative-specification.md)
       + [Prévisualisation d’un contenu créatif](/help/creative/creative-libraries/creative-preview.md)
-      + [Joindre et détacher des contenus publicitaires des offres groupées](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
+      + [Joindre des contenus publicitaires aux offres groupées](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [Dupliquer les contenus publicitaires](/help/creative/creative-libraries/creative-duplicate.md)
       + [Téléchargement de contenus publicitaires](/help/creative/creative-libraries/creative-download.md)
       + [Supprimer des contenus publicitaires](/help/creative/creative-libraries/creative-delete.md)
@@ -50,7 +50,7 @@ ht-degree: 0%
             + [Ajouter un nœud cible frère](/help/creative/experiences/experience-target-node-add-sibling.md)
             + [Copiez les nœuds enfants dans un autre nœud au même niveau.](/help/creative/experiences/experience-target-node-copy.md)
             + [Suppression d’un nœud cible ou d’un nœud feuille de création](/help/creative/experiences/experience-target-node-delete.md)
-         + Offres groupées et {#bundles} créatifs
+         + Lots Creative et {#bundles} de contenu publicitaire
             + [Affectez et annulez l’affectation des lots de contenu créatif à un nœud final](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [Personnaliser les URL de tracking pour les créatifs](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [Personnalisation de l’optimisation et de la planification de la création](/help/creative/experiences/experience-optimization-scheduling-targeting.md)

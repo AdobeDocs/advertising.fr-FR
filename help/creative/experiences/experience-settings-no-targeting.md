@@ -3,7 +3,7 @@ title: Paramètres des expériences non ciblées
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires sans ciblage d’arborescence de décision.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f4d83da98f89313624e038fd1d8f0fedcf802cc4
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **\[Contenu publicitaire par défaut spécifié\] :** contenu publicitaire d’image par défaut à utiliser lorsqu’un navigateur ne peut pas afficher les contenus publicitaires affectés à l’expérience, par exemple lorsque le navigateur n’est pas activé pour JavaScript ou que le serveur de publicités ne peut pas personnaliser l’annonce en raison de retards. Incluez une image créative par taille d’annonce pour laquelle l’expérience s’applique. Vos choix déterminent les tailles de contenu créatif qui peuvent être utilisées pour l’expérience. <!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. -->
 
-Pour les expériences sans ciblage d’arborescence de décision, vous pouvez remplacer les contenus publicitaires par défaut par des contenus publicitaires de même taille dans [!UICONTROL Tag Manager].<!-- verify -->
+Pour les expériences sans ciblage d’arborescence de décision, vous pouvez remplacer les contenus publicitaires par défaut par des contenus publicitaires de même taille dans [!UICONTROL Tag Manager].
 
 * Pour ajouter un élément créatif par défaut avec différentes dimensions, cliquez sur **[!UICONTROL + Add Sizes]**, cochez la case en regard de chaque élément créatif à ajouter dans le volet de droite, puis cliquez sur **[!UICONTROL Add Creatives]**.
 
