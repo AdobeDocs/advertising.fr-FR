@@ -2,9 +2,10 @@
 title: Affectez et annulez l’affectation des bundles de création à un nœud final d’une expérience
 description: Découvrez comment affecter des contenus publicitaires à chaque cible dans vos expériences publicitaires.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -20,9 +21,7 @@ Pour les expériences publicitaires standard, vous ne pouvez affecter que des lo
 
 >[!NOTE]
 >
->Si vous n’affectez pas au moins une offre groupée de contenu créatif à chaque nœud final, vous pouvez choisir d’utiliser les contenus créatifs par défaut pour chaque nœud non affecté lorsque vous [enregistrez l’expérience](experience-create-targeting.md). Pour être publiée, l’expérience doit être attribuée à des offres groupées ou utiliser les contenus publicitaires par défaut pour toutes les publicités créées à partir de celle-ci.
-
-<!-- The optimization and ad scheduling features and tracking URLs customization are in a different place now -- include here or in separate procedures? -->
+>Si vous n’affectez pas au moins une offre groupée de contenu créatif à chaque nœud final, vous pouvez choisir d’utiliser les contenus créatifs par défaut pour chaque nœud non affecté lorsque vous [enregistrez l’expérience](experience-create-targeting.md). Pour publier une expérience, vous devez attribuer des lots ou utiliser les contenus publicitaires par défaut pour chaque nœud final.
 
 <!-- 1. [ways to get to the decision tree] -->
 

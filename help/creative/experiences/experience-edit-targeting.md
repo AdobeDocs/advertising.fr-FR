@@ -2,9 +2,10 @@
 title: Modification d’une expérience avec le ciblage d’arborescence de décision
 description: Découvrez comment modifier les paramètres d’une expérience publicitaire ciblée à l’aide d’une arborescence de décision.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -55,11 +56,11 @@ ht-degree: 0%
 
          * [Copiez les nœuds enfants et les contenus publicitaires dans un autre nœud au même niveau](experience-target-node-copy.md).
 
-      * Lots de création :
+      * Lots Creative :
 
          * [Affectez et annulez l’affectation de contenus publicitaires à un nœud final](experience-assign-creative-bundles.md).
 
-           Si vous n’affectez pas au moins une offre groupée à chaque nœud final, vous pouvez choisir d’utiliser les contenus publicitaires par défaut pour chaque nœud non affecté lorsque vous enregistrez l’expérience. Pour être publiée, l’expérience doit être attribuée à des offres groupées ou utiliser les contenus publicitaires par défaut pour toutes les publicités créées à partir de celle-ci.
+           Si vous n’affectez pas au moins une offre groupée à chaque nœud final, vous pouvez choisir d’utiliser les contenus publicitaires par défaut pour chaque nœud non affecté lorsque vous enregistrez l’expérience. Pour publier une expérience, vous devez attribuer des lots ou utiliser les contenus publicitaires par défaut pour chaque nœud final.
 
          * [Personnalisez les URL de tracking pour les contenus publicitaires des lots attribués](experience-tracking-urls-targeting.md).
 
