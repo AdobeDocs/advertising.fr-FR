@@ -3,9 +3,9 @@ title: Paramètres des expériences non ciblées
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires sans ciblage d’arborescence de décision.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1123'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]:** (Lecture seule pour les expériences existantes) L’annonceur qui enchérira sur les contenus publicitaires inclus dans l’expérience. Une fois l’expérience enregistrée, vous ne pouvez plus modifier l’annonceur.
 
-**[!UICONTROL Experience Name]:** nom unique de l’expérience. **Conseil :** utilisez un nom qui sera facile à trouver lorsque vous utiliserez l’expérience en tant qu’annonce dans Advertising DSP ou un autre DSP.
+**[!UICONTROL Experience Name]:** nom unique de l’expérience. **Conseil :** utilisez un nom que vous pouvez facilement retrouver lorsque vous utilisez l’expérience comme publicité dans Advertising DSP ou d’autres DSP.
 
 **[!UICONTROL Creative Library]:** (Lecture seule pour les expériences existantes) Bibliothèque de contenu créatif unique à utiliser pour l’expérience. Une fois l’expérience enregistrée, vous ne pouvez plus modifier la bibliothèque.
 
@@ -38,9 +38,9 @@ Pour les expériences sans ciblage d’arborescence de décision, vous pouvez re
 
 ## section [!UICONTROL Targeting]
 
-**[!UICONTROL Targeting]:** (Lecture seule pour les expériences existantes) Non applicable lorsque vous ne souhaitez pas activer le ciblage à l’aide d’une arborescence de décision ; gardez cette option désactivée.
+**[!UICONTROL Targeting]:** (lecture seule pour les expériences existantes) Non applicable lorsque vous n’activez pas le ciblage à l’aide d’une arborescence de décision ; gardez cette option désactivée.
 
-**[!UICONTROL Dynamic ads]:** (Lecture seule pour les expériences existantes) Indique que l’expérience inclut des annonces dynamiques. **Remarque :** une expérience peut inclure toutes les publicités standard ou toutes les publicités dynamiques.
+**[!UICONTROL Dynamic ads]:** (Lecture seule pour les expériences existantes) Indique que l’expérience comprend des annonces dynamiques. **Remarque :** une expérience peut inclure toutes les publicités standard ou toutes les publicités dynamiques.
 
 **[!UICONTROL Language Targeting]:** (Expériences avec des annonces standard uniquement ; facultatif ; lecture seule pour les expériences existantes) Vérifie les paramètres de langue du navigateur de l’utilisateur et affiche un élément créatif dans la langue spécifiée lorsqu’un élément créatif dans cette langue est disponible. Lorsqu’une création dans la langue spécifiée par le navigateur n’est pas disponible, le paramètre [!UICONTROL Preferred language] est utilisé à la place. Une fois l’expérience enregistrée, vous ne pouvez plus modifier ce paramètre.
 
@@ -50,13 +50,13 @@ Pour les expériences sans ciblage d’arborescence de décision, vous pouvez re
 
 **Transmission de données :** (expériences avec des annonces dynamiques uniquement ; facultatif) pour cibler les utilisateurs en fonction de paires clé-valeur spécifiques que le DSP, l’éditeur ou le partenaire transmet en temps réel à l’impression. Vous pouvez spécifier jusqu’à cinq clés de transmission de données (paramètres).<!-- May move this to just within the decision tree. -->
 
-Lorsque vous créez par la suite une balise d’expérience publicitaire pour une taille de contenu créatif spécifique, chaque clé spécifiée dans ce champ est ajoutée sous la forme d’une macro dans la balise . Vous devez saisir la valeur de chaque paire clé-valeur dans la balise avant d’implémenter la balise en tant qu’annonce publicitaire dans votre DSP.
+Lorsque vous créez une balise d’expérience publicitaire pour une taille de contenu créatif spécifique, chaque clé spécifiée dans ce champ est ajoutée sous la forme d’une macro dans la balise . Saisissez la valeur de chaque paire clé-valeur dans la balise avant d’implémenter la balise en tant qu’annonce publicitaire dans votre DSP.
 
 **Rayon :** (Expériences avec les annonces dynamiques uniquement ; facultatif) Rayon d’un code postal des États-Unis spécifié dans le fichier de flux à cibler ; sélectionnez un rayon compris entre 0 et 200 miles. Le fichier de flux utilisé pour créer les annonces dynamiques pour l’expérience doit inclure une colonne [!UICONTROL ZIP]<!-- or a user-named column mapped to a ZIP column --> avec une valeur pour chaque ligne de produit dans le fichier. Par exemple, pour un rayon de 10 miles, une annonce publicitaire pour un produit disponible en 95110 peut être affichée pour les utilisateurs dans un rayon de 10 miles (déterminé par l’adresse IP de l’utilisateur) 95110.
 
-**Pixel RT :** (expériences avec des annonces dynamiques uniquement ; facultatif) pixel de reciblage [!UICONTROL Creative] à cibler potentiellement. Lorsque vous configurez le ciblage dans l’arborescence de décision, vous pouvez inclure un niveau de nœuds cibles de pixels RT et spécifier le pixel à cibler pour chaque nœud ainsi que les valeurs requises pour les attributs de pixels qui doivent être présents pour afficher les éléments créatifs dans les lots de création attribués. Si vous ne spécifiez pas de pixel dans ce champ, vous pouvez toujours en spécifier un dans l’arborescence de décision.&lt;!— De R : « Le pixel RT doit être sélectionné via la sélection de contenu dans la configuration de publicités dynamiques » — Clarifiez. Je vois « Datapass » (un mot) dans les paramètres de publicité dynamique, mais je ne suis pas sûr de la manière dont ce paramètre et ce paramètre de niveau d’expérience fonctionnent ensemble. —>
+**Pixel RT :** (expériences avec des annonces dynamiques uniquement ; facultatif) pixel de reciblage [!UICONTROL Creative] à cibler potentiellement. Lorsque vous configurez le ciblage dans l’arborescence de décision, vous pouvez inclure un niveau de nœuds cibles de pixels RT. Pour chaque nœud, vous spécifiez le pixel à cibler et les valeurs des attributs de pixel requis pour afficher les contenus publicitaires dans les lots de contenus publicitaires attribués. Si vous ne spécifiez pas de pixel dans ce champ, vous pouvez toujours en spécifier un dans l’arborescence de décision.&lt;!— De R : « Le pixel RT doit être sélectionné via la sélection de contenu dans la configuration de publicités dynamiques » — Clarifiez. Je vois « Datapass » (un mot) dans les paramètres de publicité dynamique, mais je ne suis pas sûr de la manière dont ce paramètre et ce paramètre de niveau d’expérience fonctionnent ensemble. —>
 
-**[!UICONTROL Label]:** <!-- should be "Labels" --> (facultatif) Tout libellé spécifique à l’[!DNL Creative] à appliquer à l’expérience. Vous pouvez filtrer les expériences par libellé dans la vue Expériences <!-- sic --> .
+**[!UICONTROL Label]:**<!-- should be "Labels" --> (facultatif) libellés spécifiques à l’[!DNL Creative] à appliquer à l’expérience. Vous pouvez filtrer les expériences par libellé dans la vue Expériences <!-- sic --> .
 
 * Pour sélectionner des libellés existants, cliquez sur ![Bas](/help/creative/assets/chevron-down.png "Bas"), puis cochez la case en regard de chaque libellé à appliquer.
 

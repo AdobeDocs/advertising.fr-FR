@@ -2,9 +2,10 @@
 title: Ajouter un nœud cible entre les nœuds d’une expérience
 description: Découvrez comment ajouter un nœud cible entre les nœuds cibles dans une expérience publicitaire.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Lorsque vous insérez un nœud cible entre des niveaux existants, le nouveau nœud cible conserve toutes les cibles enfants et les éléments créatifs existants et le nouveau nœud est initialement appelé « All ». Vous pouvez éventuellement conserver le nouveau nœud sans ajouter de cibles plus spécifiques.
 
-Pour définir une cible spécifique, ajoutez un nœud cible frère supplémentaire au même niveau, spécifiez la nouvelle cible, puis affectez des contenus publicitaires uniquement à cette cible. Cela crée le nœud cible et déplace toutes les cibles enfants et les contenus publicitaires précédemment affectés à « All » vers un nouveau nœud « Tout le reste » au même niveau. Ainsi, les branches enfants existantes ne sont pas affectées par l’ajout de la nouvelle cible, car seul le nouveau nœud frère inclut les nouvelles informations de ciblage.
+Pour définir une cible spécifique, ajoutez un nœud cible frère supplémentaire au même niveau, spécifiez la nouvelle cible, puis affectez des contenus publicitaires uniquement à cette cible. L’ajout d’un nœud cible frère crée le nouveau nœud cible et déplace toutes les cibles enfants et les contenus publicitaires précédemment affectés à « All » vers un nouveau nœud « Tout le reste » au même niveau. Ainsi, l’ajout de la nouvelle cible n’affecte pas les branches enfants existantes, car seul le nouveau nœud frère inclut les nouvelles informations de ciblage.
 
 >[!NOTE]
 >
@@ -44,13 +45,13 @@ Pour définir une cible spécifique, ajoutez un nœud cible frère supplémentai
 
    * Si des nœuds frères existent déjà, procédez comme suit :
 
-      * Pour les cibles Audience Adobe, procédez comme suit :
+      * Pour les cibles Audience d’Adobe, procédez comme suit :
 
          1. Cliquez sur **[!UICONTROL Click to Browse]** pour ouvrir vos options de [!UICONTROL Audience Targeting], ouvrez l’onglet **[!UICONTROL Adobe Segments]**, spécifiez une ou plusieurs des cibles d’audience [!DNL Adobe] de l’annonceur, puis cliquez sur **[!UICONTROL Create]**<!-- Why not "Save" like for the other node types/use cases? -->.
 
          1. (Facultatif) Pour créer plusieurs nœuds cibles lorsque plusieurs audiences sont spécifiées, sélectionnez **[!UICONTROL Split targets to create nodes]**.
 
-            Vous créez ainsi un nœud cible distinct (avec des lots de création distincts) pour chaque audience spécifiée. Si vous ne fractionnez pas les cibles, l’utilisateur doit appartenir à toutes les audiences spécifiées.
+            Cette fonctionnalité crée un nœud cible distinct (avec des lots de création distincts) pour chaque audience spécifiée. Si vous ne fractionnez pas les cibles, l’utilisateur doit appartenir à toutes les audiences spécifiées.
 
          1. Cliquez sur **[!UICONTROL Apply]**.
 
@@ -62,7 +63,7 @@ Pour définir une cible spécifique, ajoutez un nœud cible frère supplémentai
 
          1. (Facultatif) Pour créer plusieurs nœuds cible lorsque plusieurs cibles géographiques sont spécifiées, sélectionnez **[!UICONTROL Split targets to create nodes]**.
 
-            Vous créez ainsi un nœud cible distinct (avec des lots de création distincts) pour chaque cible géographique spécifiée. Si vous ne divisez pas les cibles, l’utilisateur doit appartenir à tous les emplacements spécifiés.
+            Cette fonction crée un nœud cible distinct (avec des lots de création distincts) pour chaque cible géographique spécifiée. Si vous ne divisez pas les cibles, l’utilisateur doit appartenir à tous les emplacements spécifiés.
 
          1. Cliquez sur **[!UICONTROL Apply]**.
 
@@ -70,7 +71,7 @@ Pour définir une cible spécifique, ajoutez un nœud cible frère supplémentai
 
         La clé de la paire clé-valeur est déjà définie dans le champ **[!UICONTROL Data Pass]** de la section [!UICONTROL Advanced] des [paramètres d’expérience](experience-settings-targeting.md).
 
-      * Pour une cible de pixel de reciblage, sélectionnez un seul pixel de reciblage à utiliser et les valeurs requises pour l’un des attributs du pixel qui doivent être présents pour afficher les éléments créatifs, puis cliquez sur **[!UICONTROL Apply]**.
+      * Pour une cible de pixel de reciblage, sélectionnez un seul pixel de reciblage à utiliser et les valeurs de l’un des attributs de pixel requis pour afficher les contenus publicitaires, puis cliquez sur **[!UICONTROL Apply]**.
 
         Les attributs du pixel de reciblage sont configurés dans les [paramètres du pixel de reciblage](/help/creative/pixels/retargeting-pixel-manage.md).
 
@@ -80,7 +81,7 @@ Pour définir une cible spécifique, ajoutez un nœud cible frère supplémentai
 
          1. (Facultatif) Pour créer plusieurs nœuds cible lorsque plusieurs cibles géographiques sont spécifiées, sélectionnez **[!UICONTROL Split targets to create nodes]**.
 
-            Vous créez ainsi un nœud cible distinct (avec des lots de création distincts) pour chaque cible géographique spécifiée. Si vous ne divisez pas les cibles, l’utilisateur doit appartenir à tous les emplacements spécifiés.
+            Cette fonction crée un nœud cible distinct (avec des lots de création distincts) pour chaque cible géographique spécifiée. Si vous ne divisez pas les cibles, l’utilisateur doit appartenir à tous les emplacements spécifiés.
 
          1. (Facultatif) Pour créer plusieurs nœuds cible lorsque plusieurs cibles géographiques sont spécifiées, sélectionnez **[!UICONTROL Split targets to create nodes]**.
 
@@ -90,7 +91,7 @@ Pour définir une cible spécifique, ajoutez un nœud cible frère supplémentai
 
    * (Facultatif) [Attribuez des contenus publicitaires](experience-assign-creative-bundles.md) au nouveau nœud cible et au nœud « Tout le reste ».
 
-   * (Facultatif) [Ajoutez un nœud cible frère](experience-target-node-add-sibling.md) qui inclura une cible du type spécifié.
+   * (Facultatif) [Ajoutez un nœud cible frère](experience-target-node-add-sibling.md) du type de cible spécifié.
 
    * (Facultatif) Pour enregistrer l’expérience :
 

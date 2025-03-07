@@ -2,9 +2,10 @@
 title: Personnalisation des URL de tracking pour une expérience
 description: Découvrez comment personnaliser les URL de tracking de chaque contenu créatif dans une expérience avec le ciblage d’arborescence de décision.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,13 @@ ht-degree: 0%
 *Nœuds Target avec contenu publicitaire existant uniquement*
 *Version bêta fermée*
 
-Pour les expériences avec le ciblage d’arborescence de décision, vous pouvez créer jusqu’à cinq URL de suivi d’impression personnalisées, cinq URL de suivi des clics personnalisées et une URL de page de destination personnalisée pour chaque élément créatif individuel utilisé pour l’expérience à partir de l’arborescence de décision.
+Pour les expériences avec le ciblage d’arborescence de décision, vous pouvez créer jusqu’à cinq URL de suivi d’impression personnalisées, cinq URL de suivi des clics personnalisées et une URL de page de destination personnalisée pour chaque élément créatif individuel utilisé pour l’expérience. Vous pouvez personnaliser les URL de tracking depuis l’arborescence de décision.
 
 Les URL personnalisées sont utilisées uniquement pour les annonces créées à partir de l’expérience et ne sont pas enregistrées dans les paramètres de création de base dans [!UICONTROL Creative Libraries].
 
 1. Placez le curseur au-dessus de la feuille/du dossier du lot de création sous le nœud cible, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
 
-   Les onglets [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] et [!UICONTROL Landing URLs] répertorient les noms de tous les contenus publicitaires dans les tailles applicables des lots attribués. Les tailles applicables sont déterminées par les tailles des contenus publicitaires d’image par défaut pour l’expérience.<!-- There's no distinct "Creative Sizes" setting. -->
+   Les onglets [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] et [!UICONTROL Landing URLs] répertorient les noms de tous les contenus publicitaires dans les tailles applicables des lots attribués. Les tailles des contenus publicitaires d’image par défaut pour l’expérience déterminent les tailles disponibles.<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. Sur les onglets **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** et **[!UICONTROL Landing URLs]**, procédez comme suit pour chaque élément créatif selon vos besoins :
 

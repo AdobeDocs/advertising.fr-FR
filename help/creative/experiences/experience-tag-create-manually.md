@@ -3,9 +3,9 @@ title: Création manuelle d’une balise d’annonce publicitaire pour une taill
 description: Découvrez comment créer une balise d’annonce publicitaire pour une taille de contenu créatif spécifique.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Vous pouvez créer une ou plusieurs balises d’annonce publicitaire pour chaque
 
 1. Saisissez un **[!UICONTROL Tag name]** unique et sélectionnez le **[!UICONTROL Tag size]**.
 
-   Les tailles de contenu créatif disponibles sont déterminées par les tailles des contenus créatifs d’image par défaut pour l’expérience.
+   Les tailles des contenus publicitaires d’image par défaut pour l’expérience déterminent les tailles de contenu créatif disponibles.
 
    Vous pouvez créer plusieurs balises pour la même taille de contenu créatif.<!-- What are the implications? -->
 

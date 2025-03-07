@@ -3,9 +3,9 @@ title: Rapports de performances au niveau de l’expérience
 description: Découvrez comment afficher des rapports de performances au niveau de l’expérience.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ La vue Rapport inclut les données suivantes :
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-      * **Performances de l’appareil :** mesures individuelles par type d’appareil, système d’exploitation et navigateur. Si vous le souhaitez, cliquez sur la valeur de n’importe quelle catégorie d’appareils pour afficher la liste des <!-- NN --> principaux contenus publicitaires diffusés selon ce critère.
+      * **Performances de l’appareil :** mesures individuelles par type d’appareil, système d’exploitation et navigateur. Si vous le souhaitez, cliquez sur la valeur de n’importe quelle catégorie d’appareils pour afficher la liste des meilleurs talents créatifs diffusés avec <!-- NN --> critère.
 
         <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
@@ -112,13 +112,15 @@ La vue Rapport inclut les données suivantes :
 
       * Pour spécifier une période prédéfinie, sélectionnez le rapport : (*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today]ou* *[!UICONTROL Yesterday]*.
 
-      * Pour spécifier une période personnalisée, spécifiez les <!-- in the format MM/DD/YYYY or M/D/YYYY,--> de date de début et de fin ou cliquez sur ![icône de calendrier](/help/search-social-commerce/assets/calendar.png) en regard d’un champ et sélectionnez une date.
+      * Pour spécifier une période personnalisée, spécifiez la date de début et la date de fin<!-- in the format MM/DD/YYYY or M/D/YYYY,--> ou cliquez sur ![icône de calendrier](/help/search-social-commerce/assets/calendar.png) en regard d’un champ et sélectionnez une date.
 
    * (Facultatif) Pour modifier la règle utilisée pour attribuer des données de conversion dans une série d’événements qui entraînent une conversion, cliquez sur ![Paramètres](/help/creative/assets/settings.png) et modifiez la **[!UICONTROL Attribution Rule]**.
 
-   * (Facultatif) Pour modifier les conversions signalées, cliquez sur ![Paramètres](/help/creative/assets/settings.png) et sélectionnez les noms de conversion dans le menu **[!UICONTROL Conversions]**.&lt;!— Juste un ou plusieurs ? Vérifiez comment ils apparaissent — Je dois voir un annonceur avec plusieurs conversions déjà configurées —>
+     Pour plus d’informations sur les règles d’attribution, voir « [Calcul des règles d’attribution](/help/search-social-commerce/reports/attribution-rules.md) ».
 
-     Les colonnes de conversion disponibles incluent les conversions disponibles dans Advertising Search, Social et Commerce, que vous soyez ou non client Search, Social et Commerce. Cela peut inclure les mesures de conversion et d’engagement du site synchronisées à partir d’Adobe Analytics lorsque l’annonceur dispose d’[une [!DNL Adobe Analytics for Advertising] intégration](/help/integrations/analytics/overview.md). <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Pour plus d’informations sur l’inclusion des conversions collectées dans les rapports, consultez la rubrique du guide Search, Social et Commerce intitulée « [À propos de la gestion des mesures de conversion d’un annonceur](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) ».
+   * (Facultatif) Pour modifier les conversions signalées, cliquez sur ![Paramètres](/help/creative/assets/settings.png) et sélectionnez les noms de conversion dans le menu **[!UICONTROL Conversions]**.&lt;!— Juste un ou plusieurs ? Vérifiez comment ils s’affichent. Je dois voir un annonceur avec plusieurs conversions déjà configurées. À partir du 6/3, je vois uniquement « Tout sélectionner ». —>
+
+     Les colonnes de conversion disponibles incluent les conversions disponibles dans Advertising Search, Social et Commerce, que vous soyez ou non client Search, Social et Commerce. La liste peut inclure des mesures d’engagement du site et de conversion synchronisées à partir d’Adobe Analytics lorsque l’annonceur dispose d’une [intégration [!DNL Adobe Analytics for Advertising] ](/help/integrations/analytics/overview.md). <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Pour plus d’informations sur l’inclusion des conversions collectées dans les rapports, consultez la rubrique du guide Search, Social et Commerce intitulée « [À propos de la gestion des mesures de conversion d’un annonceur](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) ».
 
 1. (Dans l’onglet [!UICONTROL Overview] ) :
 
@@ -136,7 +138,7 @@ La vue Rapport inclut les données suivantes :
 
       * Placez le curseur sur la valeur de n’importe quelle catégorie d’appareils pour afficher les données de ce critère.
 
-      * Cliquez sur la valeur de n’importe quelle catégorie d’appareils pour afficher la liste des <!-- NN--> principaux contenus publicitaires diffusés selon ce critère.
+      * Cliquez sur la valeur de n’importe quelle catégorie d’appareils pour afficher la liste des principaux talents créatifs diffusés selon ce critère<!-- NN-->
 
 1. (Facultatif) Pour afficher les données par élément créatif et par lot ou balise publicitaire, cliquez sur l’onglet **[!UICONTROL Creative Performance]** .
 
@@ -163,3 +165,5 @@ La vue Rapport inclut les données suivantes :
 >[!MORELIKETHIS]
 >
 >* [Rapport créatif personnalisé](/help/creative/report-custom-creative.md)
+>* [Télécharger toutes les expériences de la vue](/help/creative/experiences/experience-download-view.md)
+>* [À propos des expériences dans Advertising Creative](/help/creative/experiences/experience-about.md)

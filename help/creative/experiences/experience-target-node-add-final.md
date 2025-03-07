@@ -2,9 +2,10 @@
 title: Ajouter un nœud cible au niveau final d’une expérience
 description: Découvrez comment ajouter un nœud cible au niveau cible final d’une expérience publicitaire.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Expériences avec ciblage d’arborescence de décision uniquement*
 *Version bêta fermée*
 
-Lorsque vous ajoutez un nœud cible au niveau le plus bas de l’expérience, qu’il s’agisse du nœud racine « Tous », d’un nœud spécifique à la cible ou d’un nœud « Tout le reste », vous définissez directement la cible sans avoir à créer de nœud frère. Vous créez ainsi le nœud cible et un nœud « Tout le reste » supplémentaire au même niveau.
+Lorsque vous ajoutez un nœud cible au niveau le plus bas de l’expérience, qu’il s’agisse du nœud racine « Tous », d’un nœud spécifique à la cible ou d’un nœud « Tout le reste », vous définissez directement la cible et n’avez pas besoin de créer de nœud frère. L’ajout d’un nœud de niveau inférieur crée le nœud cible et un nœud « Tout le reste » supplémentaire au même niveau.
 
 >[!NOTE]
 >
@@ -26,13 +27,13 @@ Lorsque vous ajoutez un nœud cible au niveau le plus bas de l’expérience, qu
 
 1. Spécifiez les cibles :
 
-   * Pour les cibles Audience Adobe, sélectionnez **[!UICONTROL Adobe Audience]**, puis procédez comme suit :
+   * Pour les cibles Audience Adobe , sélectionnez **[!UICONTROL Adobe Audience]**, puis procédez comme suit :
 
       1. Cliquez sur **[!UICONTROL Click to Browse]** pour ouvrir vos options de [!UICONTROL Audience Targeting], ouvrez l’onglet **[!UICONTROL Adobe Segments]**, spécifiez une ou plusieurs des cibles d’audience [!DNL Adobe] de l’annonceur, puis cliquez sur **[!UICONTROL Create]**.
 
       1. (Facultatif) Pour créer plusieurs nœuds cibles lorsque plusieurs audiences sont spécifiées, sélectionnez **[!UICONTROL Split targets to create nodes]**.
 
-         Vous créez ainsi un nœud cible distinct (avec des lots de création distincts) pour chaque audience spécifiée. Si vous ne fractionnez pas les cibles, l’utilisateur doit appartenir à toutes les audiences spécifiées.
+         Cette fonctionnalité crée un nœud cible distinct (avec des lots de création distincts) pour chaque audience spécifiée. Si vous ne fractionnez pas les cibles, l’utilisateur doit appartenir à toutes les audiences spécifiées.
 
       1. Cliquez sur **[!UICONTROL Apply]**.
 
@@ -44,7 +45,7 @@ Lorsque vous ajoutez un nœud cible au niveau le plus bas de l’expérience, qu
 
       1. (Facultatif) Pour créer plusieurs nœuds cible lorsque plusieurs cibles géographiques sont spécifiées, sélectionnez **[!UICONTROL Split targets to create nodes]**.
 
-         Vous créez ainsi un nœud cible distinct (avec des lots de création distincts) pour chaque cible géographique spécifiée. Si vous ne divisez pas les cibles, l’utilisateur doit appartenir à tous les emplacements spécifiés.
+         Cette fonction crée un nœud cible distinct (avec des lots de création distincts) pour chaque cible géographique spécifiée. Si vous ne divisez pas les cibles, l’utilisateur doit appartenir à tous les emplacements spécifiés.
 
       1. Cliquez sur **[!UICONTROL Apply]**.
 
@@ -52,7 +53,7 @@ Lorsque vous ajoutez un nœud cible au niveau le plus bas de l’expérience, qu
 
    La clé de la paire clé-valeur est déjà définie dans le champ **[!UICONTROL Data Pass]** de la section [!UICONTROL Advanced] des [paramètres d’expérience](experience-settings-targeting.md).
 
-   * Pour une cible de pixel de reciblage, sélectionnez **[!UICONTROL RT Pixel]**, sélectionnez un seul pixel de reciblage à utiliser et les valeurs requises pour l’un des attributs du pixel qui doivent être présents pour afficher les éléments créatifs, puis cliquez sur **[!UICONTROL Apply]**.
+   * Pour une cible de pixel de reciblage, sélectionnez **[!UICONTROL RT Pixel]**, sélectionnez un seul pixel de reciblage à utiliser et les valeurs de l’un des attributs de pixel requis pour afficher les contenus publicitaires, puis cliquez sur **[!UICONTROL Apply]**.
 
      Les attributs du pixel de reciblage sont configurés dans les [paramètres du pixel de reciblage](/help/creative/pixels/retargeting-pixel-manage.md).
 
@@ -62,7 +63,7 @@ Lorsque vous ajoutez un nœud cible au niveau le plus bas de l’expérience, qu
 
       1. (Facultatif) Pour créer plusieurs nœuds cible lorsque plusieurs cibles géographiques sont spécifiées, sélectionnez **[!UICONTROL Split targets to create nodes]**.
 
-         Vous créez ainsi un nœud cible distinct (avec des lots de création distincts) pour chaque cible géographique spécifiée. Si vous ne divisez pas les cibles, l’utilisateur doit appartenir à tous les emplacements spécifiés.
+         Cette fonction crée un nœud cible distinct (avec des lots de création distincts) pour chaque cible géographique spécifiée. Si vous ne divisez pas les cibles, l’utilisateur doit appartenir à tous les emplacements spécifiés.
 
       1. Cliquez sur **[!UICONTROL Apply]**.
 

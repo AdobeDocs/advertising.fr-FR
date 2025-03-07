@@ -2,9 +2,10 @@
 title: Copiez les nœuds enfants dans un autre nœud cible au même niveau.
 description: Découvrez comment copier tous les nœuds enfants d’un nœud cible parent vers un autre nœud cible au même niveau
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Expériences avec ciblage d’arborescence de décision uniquement*
 *Version bêta fermée*
 
-Vous pouvez copier tous les nœuds enfants d’un nœud cible parent (y compris toutes les cibles enfants et les bundles de création qui leur sont affectés) vers un autre nœud cible au même niveau, en ajoutant les nœuds copiés au framework existant ou en remplaçant complètement le framework existant. <!-- Give the main use case or an example to explain. -->
+Vous pouvez copier tous les nœuds enfants d’un nœud cible parent (y compris toutes les cibles enfants et les bundles de création qui leur sont affectés) vers un autre nœud cible au même niveau. Vous pouvez copier les nœuds en a) ajoutant les nœuds copiés au framework existant ou b) en remplaçant complètement le framework existant. <!-- Give the main use case or an example to explain. -->
 
 Cette fonction n’affecte pas la cible spécifiée pour le nœud parent. Elle n’affecte que les nœuds enfants.
 

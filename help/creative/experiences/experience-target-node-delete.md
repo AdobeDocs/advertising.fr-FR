@@ -2,9 +2,10 @@
 title: Suppression d’un nœud cible ou d’un nœud feuille créatif dans une expérience
 description: Découvrez comment supprimer un nœud dans une expérience.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: a8973c9e-bd0a-4f62-8668-520495b2525d
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Vous pouvez supprimer un nœud cible, y compris toutes les cibles enfants et les
 
 <!-- 1. [ways to get to the decision tree] -->
 
-1. Placez le curseur sur le nœud cible ou sur le nœud feuille de contenu créatif, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
+1. Placez le curseur sur le nœud cible ou le nœud feuille de contenu créatif, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
 
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Delete Node]**.
 

@@ -2,9 +2,10 @@
 title: Prévisualisation d’une expérience
 description: Découvrez comment prévisualiser les contenus publicitaires dans une expérience publicitaire.
 feature: Creative Experiences
-source-git-commit: 14d972044d485ead5101f1c383d2726bb6fd9d25
+exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -21,9 +22,9 @@ Vous pouvez prévisualiser les contenus publicitaires avec une taille d’annonc
 
    * Pour la rotation algorithmique des publicités, le contenu créatif est sélectionné en fonction de l’objectif d’optimisation.
 
-   * Pour la rotation pondérée des annonces, le contenu publicitaire est sélectionné en fonction des poids spécifiés (par exemple, 80 % de chances que le contenu publicitaire A s’affiche et 20 % de chances que le contenu publicitaire B s’affiche) à chaque fois.
+   * Pour la rotation pondérée des annonces, le contenu publicitaire est sélectionné en fonction des poids spécifiés (par exemple, 80 % de chances que Creative A s’affiche et 20 % de chances que Creative B s’affiche) à chaque fois.
 
-   * Pour la rotation d’annonces planifiée, vous verrez d’abord la première création dans le planning et vous pourrez continuer à actualiser l’aperçu pour continuer tout au long de la séquence.<!-- Refresh isn't there as of 2/3 -->
+   * Pour la rotation d’annonces planifiées, le premier élément créatif du planning s’affiche. Vous pouvez continuer à actualiser l’aperçu pour continuer tout au long de la séquence.<!-- Refresh isn't there as of 2/3 -->
 
 ## Prévisualiser des contenus publicitaires dans une expérience avec le ciblage de l’arborescence de décision
 
