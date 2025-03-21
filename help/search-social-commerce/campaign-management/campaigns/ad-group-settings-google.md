@@ -1,46 +1,46 @@
 ---
-title: '[!DNL Google Ads] paramètres du groupe publicitaire'
-description: Référencez les paramètres pour les groupes publicitaires  [!DNL Google Ads] .
+title: '[!DNL Google Ads] paramètres de groupe publicitaire'
+description: Référencez les paramètres des groupes  [!DNL Google Ads] ’annonces.
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] paramètres du groupe publicitaire
+# [!DNL Google Ads] paramètres de groupe publicitaire
 
 ## [!UICONTROL Adgroup Details]
 
-**[!UICONTROL Ad Group Name]:** nom d’un groupe publicitaire unique dans la campagne. La longueur maximale est de 255 caractères sur deux octets.
+**[!UICONTROL Ad Group Name]:** nom de groupe publicitaire unique dans la campagne. La longueur maximale est de 255 caractères codés sur deux octets.
 
-**[!UICONTROL Status]:** État d’affichage du groupe publicitaire : *Actif* ou *En pause*. La valeur par défaut des nouveaux groupes publicitaires est *Active*.
+**[!UICONTROL Status]:** statut d’affichage du groupe publicitaire : *Actif* ou *En pause*. La valeur par défaut pour les nouveaux groupes publicitaires est *Actif*.
 
-**[!UICONTROL Ad Group Type]:** (campagnes de recherche dynamique étendues uniquement) Type de groupe publicitaire :
+**[!UICONTROL Ad Group Type]:** (Campagnes publicitaires de recherche dynamique étendue uniquement) Type de groupe publicitaire :
 
 * *[!UICONTROL Search Standard]* (valeur par défaut) : pour les publicités standard.
 
-* *[!UICONTROL Search Dynamic]:* pour les annonces de recherche dynamique.
+* *[!UICONTROL Search Dynamic]:* Pour les annonces de recherches dynamiques.
 
-**[!UICONTROL Ad Rotation Mode]:** À quelle fréquence [!DNL Google Ads] diffuse vos publicités actives les unes par rapport aux autres dans le groupe publicitaire :
+**[!UICONTROL Ad Rotation Mode]:** fréquence à laquelle [!DNL Google Ads] diffuse vos publicités actives les unes par rapport aux autres au sein du groupe publicitaire :
 
-* *[!UICONTROL Optimize]:* Google Ads favorise les publicités qu’il s’attend à réaliser mieux que les autres publicités du groupe publicitaire. Ces publicités entrent plus souvent dans la vente aux enchères et au fil du temps, une seule publicité est favorisée. Cela peut être incompatible avec vos objectifs d’entreprise et d’optimisation.
+* *[!UICONTROL Optimize]:* Google Ads privilégie les publicités dont il s’attend à ce qu’elles soient plus performantes que les autres publicités du groupe. Ces publicités entrent plus souvent dans les enchères publicitaires et, au fil du temps, une seule publicité est privilégiée. Cela peut être incompatible avec vos objectifs commerciaux et d’optimisation.
 
-* *[!UICONTROL Rotate forever]:*   Chacune de vos publicités entre plus régulièrement dans la vente aux enchères, ce qui permet à Search, Social et Commerce de noter vos publicités non seulement au taux de clics publicitaires, mais également sur les conversions.
+* *[!UICONTROL Rotate forever]:*   Chacune de vos publicités entre dans la vente aux enchères un nombre plus régulier de fois, ce qui permet à Search, Social et Commerce de noter vos publicités non seulement sur le taux de clic publicitaire, mais également sur les conversions.
 
-* *[!UICONTROL Use campaign setting]* (valeur par défaut pour les nouveaux groupes d’annonces) : permet d’utiliser le paramètre de rotation d’annonces existant au niveau de la campagne. **Remarque :** Le paramètre de niveau campagne n’est pas visible dans Search, Social et Commerce.
+* *[!UICONTROL Use campaign setting]* (valeur par défaut pour les nouveaux groupes d’annonces) : utilise le paramètre de rotation des annonces au niveau de la campagne. **Remarque :** le paramètre au niveau de la campagne n’est pas visible dans Search, Social et Commerce.
 
-Si la campagne utilise une stratégie d’offre d’enchères dynamiques (telle que [!UICONTROL Target CPA], [!UICONTROL Target ROAS] ou [!UICONTROL Enhanced CPC]), [!DNL Google Ads] définit automatiquement l’option sur &quot;[!UICONTROL Optimize]&quot;.
+Si la campagne utilise une stratégie d’enchères intelligentes (telle que [!UICONTROL Target CPA], [!UICONTROL Target ROAS], [!DNL Google Ads] définit automatiquement l’option sur « [!UICONTROL Optimize] ».
 
-**[!UICONTROL Custom Bid Level]:** (Campagnes ciblant uniquement le réseau d’affichage) Comment enchérir : par *[!UICONTROL Ad Group]* (valeur par défaut), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (Intérêts et remarketing dans les publicités Google), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (site web), *[!UICONTROL Unknown]* ou *[!UICONTROL Vertical]*.
+**[!UICONTROL Custom Bid Level]:** (Campagnes qui ciblent uniquement le réseau d’affichage) Comment enchérir : par *[!UICONTROL Ad Group]* (par défaut), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (Centres d’intérêt et remarketing dans Google Ads), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (site web), *[!UICONTROL Unknown]* ou *[!UICONTROL Vertical]*.
 
 >[!NOTE]
 >
->* Lorsque vous enchérissez par mot-clé, créez des modèles de suivi au niveau du mot-clé. De même, lorsque vous enchérissez par emplacement, créez des modèles de suivi au niveau de l’emplacement. Pour toutes les autres dimensions, créez des modèles de suivi au niveau de l’annonce.
->* Lorsque vous enchérissez par âge, par sexe, par intérêt et par liste, ou verticalement pour des campagnes dans des portefeuilles, la fonctionnalité d’optimisation n’optimise pas les offres pour la dimension. En outre, toutes les attributions sont appliquées au groupe publicitaire.
->* Les publicités sur le réseau de recherche utilisent toujours des offres sur les mots-clés.
+>* Lorsque vous enchérissez par mot-clé, créez des modèles de suivi au niveau du mot-clé. De même, lorsque vous enchérissez par emplacement, créez des modèles de suivi au niveau de l’emplacement. Pour toutes les autres dimensions, créez des modèles de suivi au niveau des annonces.
+>* Lorsque vous enchérissez par âge, sexe, centre d’intérêt et liste ou vertical pour les campagnes des portefeuilles, la fonctionnalité d’optimisation n’optimise pas les enchères pour la dimension. En outre, toute attribution est appliquée au groupe publicitaire .
+>* Les publicités sur le réseau de recherche utilisent toujours des offres par mot-clé.
 
 ## [!UICONTROL Budget Options]
 
@@ -48,17 +48,17 @@ Si la campagne utilise une stratégie d’offre d’enchères dynamiques (telle 
 
 {{$include /help/_includes/bid-ad-group.md}}
 
-**[!UICONTROL Target CPA]:** (Campagnes avec [!UICONTROL Target CPA] enchères ; facultatif) coût cible par acquisition (CPA) pour le groupe publicitaire. Cette valeur remplace la cible au niveau de la campagne.
+**[!UICONTROL Target CPA]:** (campagnes avec enchères [!UICONTROL Target CPA] ; facultatif) Coût par acquisition cible (CPA) pour le groupe publicitaire. Cette valeur remplace la cible au niveau de la campagne.
 
-**[!UICONTROL Target ROAS]:** (Campagnes avec [!UICONTROL Target ROAS] enchères ; facultatif) Le retour sur dépenses publicitaires cible pour le groupe publicitaire, en pourcentage. Cette valeur remplace la cible au niveau de la campagne.
+**[!UICONTROL Target ROAS]:** (campagnes avec enchères [!UICONTROL Target ROAS] ; facultatif) Retour sur dépenses publicitaires cible pour le groupe publicitaire, sous la forme d’un pourcentage. Cette valeur remplace la cible au niveau de la campagne.
 
 ## [!UICONTROL Ad Group Targeting]
 
-**[!UICONTROL Audience Target Method]:** (Campagnes sur le réseau de recherche uniquement et campagnes existantes [!DNL Gmail] en lecture seule sur le réseau d’affichage) Indique si :
+**[!UICONTROL Audience Target Method]:** (campagnes uniquement sur le réseau de recherche et campagnes [!DNL Gmail] existantes en lecture seule sur le réseau d’affichage) Si :
 
-* *[!UICONTROL Target and Bid]:* pour afficher uniquement les publicités aux utilisateurs associés aux audiences cibles qui répondent également à d’autres cibles pour le groupe publicitaire.
+* *[!UICONTROL Target and Bid]:* pour afficher les annonces uniquement aux utilisateurs et utilisatrices associés aux audiences cibles qui répondent également à d’autres cibles du groupe publicitaire.
 
-* *[!UICONTROL Bid Only]:* pour afficher les publicités même aux personnes qui ne sont pas associées aux audiences cibles tant qu’elles répondent à d’autres cibles au niveau du groupe publicitaire. Vous pouvez toutefois augmenter les chances d&#39;affichage des publicités à des audiences spécifiques en définissant des offres plus élevées pour ces audiences.
+* *[!UICONTROL Bid Only]:* pour afficher des annonces même à des personnes qui ne sont pas associées à des audiences cibles, à condition qu’elles répondent aux cibles d’autres groupes d’annonces. Vous pouvez toutefois augmenter les chances que les publicités soient présentées à des audiences spécifiques en définissant des enchères plus élevées pour ces audiences.
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -88,4 +88,4 @@ Si la campagne utilise une stratégie d’offre d’enchères dynamiques (telle 
 
 >[!MORELIKETHIS]
 >
->* [Gérer les groupes d’annonces](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [Gérer les groupes publicitaires](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
