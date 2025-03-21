@@ -3,9 +3,9 @@ title: Partenaires SSP
 description: Consultez la liste des plateformes côté offre (SSP) et des partenaires Exchange ouverts disponibles.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 9bdd7eda97fc7794210a71aceb49d9570a3ad8fb
+source-git-commit: bbc6549b55bdbefda7f421fe609c54d737ffe570
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,6 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 
 | Fournisseur de services partagés répertorié | Société | Identifiant du siège | Soutien Programmatique Garanti | Région | Devise prise en charge | Inventaire pris en charge |
 | --- | --- | --- | --- | --- | --- | --- |
-| [!DNL AdColony] (précédemment [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | — | Global | USD | Affichage sur poste de travail et mobile<br><br>vidéo sur poste de travail et mobile |
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | Prise en charge de PG | Global | USD, EUR, GBP | Poste de travail audio et mobile |
 | [!DNL AppNexus] | [!DNL Xandr] | Identifiant du siège vidéo : 9094<br>Affichage Identifiant du siège : 3939 | — | Global | USD | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] ou Adobe Advertising | — | États-Unis + EMEA | USD, EUR | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
