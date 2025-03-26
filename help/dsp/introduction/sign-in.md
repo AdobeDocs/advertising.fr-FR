@@ -2,7 +2,7 @@
 title: Connexion à DSP
 description: Découvrez comment vous connecter à DSP.
 feature: DSP Introduction
-source-git-commit: 0eac4e77b0341ad190c1e1d622950e99be8de4f0
+source-git-commit: d90270666dfc587097088e94a2ee4f0c353c9c70
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -59,9 +59,7 @@ Pendant ce temps, l’utilisateur peut continuer à utiliser ses informations d�
 
 #### Après m’être connecté à l’aide d’un compte Adobe IMS, je ne suis pas redirigé vers adobe.advertising.com.
 
-Vérifiez auprès de l’administrateur de votre organisation IMS que l’e-mail que vous utilisez a été ajouté à l’organisation IMS.
-
-Si l’administrateur confirme que vous êtes ajouté à l’organisation IMS, demandez à l’équipe chargée de votre compte Adobe de configurer votre compte pour utiliser DSP.
+Vérifiez auprès de l’administrateur de votre organisation IMS que l’e-mail que vous utilisez a été ajouté à l’organisation IMS. Si l’administrateur confirme que vous êtes ajouté à l’organisation IMS, demandez à l’équipe chargée de votre compte Adobe de configurer votre compte pour utiliser DSP.
 
 Pendant ce temps, vous pouvez continuer à utiliser vos identifiants DSP hérités.
 
@@ -69,7 +67,7 @@ Pendant ce temps, vous pouvez continuer à utiliser vos identifiants DSP hérit�
 
 1. Accédez à [experience.adobe.com](https://experience.adobe.com) et déconnectez-vous.
 
-Accédez à [advertising.adobe.com](https://advertising.adobe.com) et connectez-vous avec l’ID d’e-mail approprié.
+1. Accédez à [advertising.adobe.com](https://advertising.adobe.com) et connectez-vous avec l’ID d’e-mail approprié.
 
 #### Mon compte [!DNL Adobe] IMS et mon compte DSP sont enregistrés avec des e-mails différents. Comment puis-je me connecter à l’aide de mon compte IMS [!DNL Adobe] ?
 
