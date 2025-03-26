@@ -3,7 +3,7 @@ title: Modifier les emplacements
 description: Découvrez comment modifier un emplacement.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Modifier les emplacements
 
-Vous pouvez modifier les paramètres d’un emplacement unique ou de plusieurs emplacements à la fois. Certains paramètres ne peuvent pas être modifiés une fois l’emplacement actif.
+Vous pouvez modifier les paramètres d’un seul emplacement ou de plusieurs emplacements à la fois. Certains paramètres ne peuvent pas être modifiés une fois l’emplacement activé.
 
 <!-- Some placements don't have these options. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
 >[!NOTE]
 >
->Vous pouvez également télécharger les paramètres d’un ou de plusieurs emplacements, ou de tous les emplacements d’une campagne, au format XLSX (feuille de calcul Excel), apporter des modifications à un sous-ensemble limité de champs clés et les charger à la fois dans DSP. Voir &quot;[Vérification et modification des paramètres d’emplacement à l’aide de feuilles d’envoi groupées](placement-qa.md)&quot;.
+>Vous pouvez également télécharger les paramètres d’un ou plusieurs emplacements, ou de tous les emplacements d’une campagne, au format XLSX (feuille de calcul Excel), apporter des modifications à la plupart des champs et les charger à nouveau dans DSP en une seule fois. Voir « [Vérification et modification des paramètres d’emplacement à l’aide des feuilles d’envoi groupé](placement-qa.md) ».
 
-## Modifier rapidement les paramètres de positionnement des clés {#placement-quick-edit}
+## Modifier rapidement les paramètres d’emplacement des clés {#placement-quick-edit}
 
-Vous pouvez modifier le nom, l’état, l’offre maximale et le budget de l’emplacement sans ouvrir les paramètres d’emplacement complets.
+Vous pouvez modifier le nom de l’emplacement, le statut, l’enchère maximum et le budget sans ouvrir les paramètres d’emplacement complets.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
@@ -31,11 +31,11 @@ Vous pouvez modifier le nom, l’état, l’offre maximale et le budget de l’e
 1. Modifiez l’un des [paramètres d’emplacement](placement-settings.md) disponibles : **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** et **[!UICONTROL Budget]**.
 1. Cliquez sur **[!UICONTROL Apply]**.
 
-## Modification d’un emplacement unique
+## Modifier un emplacement unique
 
 >[!TIP]
 >
-> Pour modifier uniquement le nom, l’état, l’offre maximale et le budget de l’emplacement, voir &quot;[Modification rapide des paramètres de placement de clé](#placement-quick-edit)&quot;.
+> Pour modifier uniquement le nom de l’emplacement, le statut, l’enchère maximum et le budget, voir « [Modifier rapidement les paramètres d’emplacement clés](#placement-quick-edit) ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -45,11 +45,11 @@ Vous pouvez modifier le nom, l’état, l’offre maximale et le budget de l’e
 
 1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. Modifiez les [paramètres de placement](placement-settings.md).
+1. Modifiez les [paramètres d’emplacement](placement-settings.md).
 
 1. Cliquez sur **[!UICONTROL Update placement]**.
 
-## Modifier plusieurs emplacements {#edit-multiple-placements}
+## Apporter les mêmes modifications à plusieurs emplacements {#edit-multiple-placements}
 
 Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes modifications à tous les emplacements sélectionnés.
 
@@ -61,29 +61,29 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
 
 1. Cochez la case en regard de chaque emplacement à modifier.
 
-1. Dans la barre de menu des opérations en bloc, cliquez sur **[!UICONTROL Edit]**.
+1. Dans la barre de menus des opérations en bloc, cliquez sur **[!UICONTROL Edit]**.
 
-1. Pour chaque paramètre que vous souhaitez modifier :
+1. Pour chaque paramètre à modifier :
 
    1. Sélectionnez le paramètre dans la liste.
 
    1. Sélectionnez le **[!UICONTROL Edit Mode]**.
 
-      Les options varient selon les paramètres, mais peuvent inclure :
+      Les options varient en fonction du paramètre mais peuvent inclure :
 
       * **Ajouter** (pour conserver les valeurs existantes et ajouter de nouvelles valeurs)
 
       * **Effacer** (pour supprimer toutes les valeurs existantes)
 
-      * **Diminuer** (pour diminuer une valeur existante d’une quantité spécifiée)
+      * **Diminuer** (pour diminuer une valeur existante d’un montant spécifié)
 
       * **Augmenter** (pour augmenter une valeur existante d’un montant spécifié)
 
       * **Remplacer** (pour remplacer la valeur existante par une nouvelle valeur)
 
-      * **Pause** (pour suspendre les publicités)
+      * **Pause** (pour mettre les publicités en pause)
 
-      * **Remove** (pour supprimer les valeurs spécifiées)
+      * **Supprimer** (pour supprimer des valeurs spécifiées)
 
    1. Modifiez le [paramètre d’emplacement](placement-settings.md).
 
@@ -92,14 +92,14 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
 >[!MORELIKETHIS]
 >
 >* [À propos de la gestion des emplacements](placement-about.md)
->* [Vérification et modification des paramètres d’emplacement à l’aide de feuilles d’envoi groupées](placement-qa.md)
+>* [Vérification et modification des paramètres d’emplacement à l’aide des feuilles d’envoi groupé](placement-qa.md)
 >* [Créer un emplacement](placement-create.md)
 >* [Dupliquer un emplacement](placement-duplicate.md)
->* [Gérer les multiplicateurs d’offre pour les emplacements](placement-manage-bid-multipliers.md)
->* [Modifier les planifications de publicité pour les emplacements](placement-edit-ad-schedule.md)
->* [Mettre en pause ou activer un emplacement](placement-pause-activate.md)
->* [Afficher le journal des modifications d’un emplacement](placement-change-log.md)
->* [Paramètres de placement](placement-settings.md)
->* [Afficher le rapport Prévision de positionnement](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [Gérer les multiplicateurs d&#39;offres pour les placements](placement-manage-bid-multipliers.md)
+>* [Modifier les plannings de publicités pour les emplacements](placement-edit-ad-schedule.md)
+>* [Suspendre ou activer un emplacement](placement-pause-activate.md)
+>* [Afficher le journal des modifications pour un emplacement](placement-change-log.md)
+>* [Paramètres d’emplacement](placement-settings.md)
+>* [Afficher l&#39;état de prévision d&#39;emplacement](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Vidéo : Comment modifier des emplacements à l’aide des outils de modification en masse](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Vidéo : modification d’emplacements à l’aide d’outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
