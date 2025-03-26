@@ -2,9 +2,9 @@
 title: Connexion à DSP
 description: Découvrez comment vous connecter à DSP.
 feature: DSP Introduction
-source-git-commit: 0c33657eca7d3332a770fc1eaba179e5ae8eafb8
+source-git-commit: 0eac4e77b0341ad190c1e1d622950e99be8de4f0
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Pour plus d’informations sur l’interface d’Experience Cloud, notamment sur
 
 ### Dépannage
 
-Pour les problèmes de connexion généraux, consultez également la section « [Résoudre les problèmes de connexion au compte Adobe]https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html) ».
+Pour les problèmes de connexion généraux, consultez également la section « [Résoudre les problèmes de connexion au compte Adobe](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html) ».
 
 #### Existe-t-il des conditions préalables pour activer une nouvelle connexion IMS [!DNL Adobe] ?
 
@@ -57,7 +57,7 @@ Pour ajouter un nouveau compte de connexion, partagez l’adresse e-mail avec l�
 
 Pendant ce temps, l’utilisateur peut continuer à utiliser ses informations d’identification DSP héritées.
 
-#### Après m’être connecté à l’aide d’un compte Adobe IMS, je ne suis pas redirigé vers la page de connexion adobe.advertising.com.
+#### Après m’être connecté à l’aide d’un compte Adobe IMS, je ne suis pas redirigé vers adobe.advertising.com.
 
 Vérifiez auprès de l’administrateur de votre organisation IMS que l’e-mail que vous utilisez a été ajouté à l’organisation IMS.
 
