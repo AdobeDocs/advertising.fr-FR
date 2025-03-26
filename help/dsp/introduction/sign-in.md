@@ -2,7 +2,8 @@
 title: Connexion à DSP
 description: Découvrez comment vous connecter à DSP.
 feature: DSP Introduction
-source-git-commit: b3393c6b0cf3df707793a91aa6a3e8c844f75fb2
+exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
+source-git-commit: 4bc35abb18db857d12ff8620b18d60d1198b569a
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # Connexion à Adobe Advertising DSP
 
-Adobe Advertising DSP effectue une transition vers Adobe Identity Management Service (IMS) pour l’authentification de la connexion. IMS offre un accès SSO (authentification unique) à tous les produits [!DNL Adobe] qui prennent en charge IMS, notamment Real-Time Customer Data Platform, Customer Journey Analytics, Target et Analytics. Avec la modification :
+Adobe Advertising DSP effectue une transition vers Adobe Identity Management Service (IMS) pour l’authentification de la connexion. IMS fournit un accès SSO (authentification unique) à tous les produits [!DNL Adobe] qui prennent en charge IMS, notamment Real-Time Customer Data Platform, Customer Journey Analytics, Target et Analytics. Avec la modification :
 
 * Vous pouvez utiliser une [!DNL Adobe ID] pour vous connecter à [!DNL Adobe] produits à partir de la page de connexion d’Experience Cloud ou de la page de connexion DSP héritée. Votre [!DNL Adobe ID] permet de gérer les profils utilisateur. Dans une version ultérieure, vous pourrez modifier le compte DSP, le compte d’organisation IMS et [!DNL Adobe] produit à partir du menu supérieur.
 
