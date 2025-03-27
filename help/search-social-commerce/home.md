@@ -5,14 +5,14 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: e7f90880858f646507874bdf5f8f9f1e310cf599
+source-git-commit: 853668db6a040dda4df363660d88a692f704b685
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2947'
 ht-degree: 0%
 
 ---
 
-# Nouveautés de Search, Social et Commerce
+# Nouveautés
 
 Les fonctionnalités suivantes sont nouvelles ou ont été récemment modifiées.
 
