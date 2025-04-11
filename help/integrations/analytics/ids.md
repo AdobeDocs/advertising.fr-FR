@@ -3,9 +3,9 @@ title: ID Adobe Advertising utilisés par  [!DNL Analytics]
 description: ID Adobe Advertising utilisés par  [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 8128a29a044623d5161e4893fbc52cca626b8fe4
+source-git-commit: e8c8316418acf4a8c62beabcae2c1b7388dbc297
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ Le paramètre est ajouté à vos URL de tracking de l’une des manières suivan
 
    * Clients DSP : le code [JavaScript](javascript.md) enregistre automatiquement les clics publicitaires et les affichages publicitaires. Lorsqu’un navigateur ne prend pas en charge les cookies tiers, vous pouvez toujours effectuer le suivi des conversions basées sur les clics pour les types d’annonces suivants :
 
-      * Pour [!DNL Flashtalking] balises d’annonce publicitaire, insérez manuellement des macros supplémentaires par « [Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad Tags](/help/integrations/analytics/macros-flashtalking.md) ».
+      * Pour [!DNL Flashtalking] balises d’annonce publicitaire, insérez manuellement des macros supplémentaires par « [Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad Tags](/help/integrations/analytics/macros-flashtalking.md) ». **Remarque :** cette procédure n’est pas nécessaire si votre entreprise entretient un partenariat direct avec [!DNL Flashtalking] et que vous utilisez des macros de transfert de données pour collecter les données de clic conformément à la documentation d’assistance [!DNL Flashtalking] à l’`https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
 
       * Pour [!DNL Google Campaign Manager 360] balises d’annonce publicitaire, insérez manuellement des macros supplémentaires par « [Append [!DNL Analytics for Advertising] Macros to [!DNL Google Campaign Manager 360] Ad Tags](/help/integrations/analytics/macros-google-campaign-manager.md) ».
 
