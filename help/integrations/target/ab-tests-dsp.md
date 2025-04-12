@@ -2,7 +2,7 @@
 title: Configuration de tests A/B pour Adobe Advertising DSP Ads dans Adobe Target
 description: Découvrez comment configurer un test A/B dans  [!DNL Target]  pour vos publicités DSP.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 34ada7c1f299f76988ee3ba533c47b76ade7d9ec
+source-git-commit: 35632a9ceab61de83a1d0e68f3b5ea9e3d35ae37
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Lorsque vous ajoutez des macros DSP à une URL de clic publicitaire (l’URL aff
 
 Dans [!DNL Flashtalking] ou Google Campaign Manager 360, mettez manuellement à jour l’URL de clic publicitaire pour chaque publicité afin d’inclure les macros requises pour capturer les variables d’ID AMO. Les variables d’ID AMO sont utilisées pour envoyer des données de clic à Adobe Analytics et partager des clés d’emplacement pour les tests A/B. Consultez les pages suivantes pour obtenir des instructions :
 
-* [Ajouter des macros [!DNL Analytics for Advertising] aux balises [[!DNL Flashtalking] AdTags](/help/integrations/analytics/macros-flashtalking.md). **Remarque :** cette procédure n’est pas nécessaire si votre entreprise entretient un partenariat direct avec [!DNL Flashtalking] et que vous utilisez des macros de transfert de données pour collecter les données de clic conformément à la documentation d’assistance [!DNL Flashtalking] à l’`https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
+* [Ajouter [!DNL Analytics for Advertising] des macros aux balises  [!DNL Flashtalking] ’annonces](/help/integrations/analytics/macros-flashtalking.md). **Remarque :** cette procédure n’est pas nécessaire si votre entreprise entretient un partenariat direct avec [!DNL Flashtalking] et que vous utilisez des macros de transfert de données pour collecter les données de clic conformément à la documentation d’assistance [!DNL Flashtalking] à l’`https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
 
 * [Ajouter [!DNL Analytics for Advertising] des macros à des balises  [!DNL Google Campaign Manager 360] ’annonces](/help/integrations/analytics/macros-google-campaign-manager.md)
 
