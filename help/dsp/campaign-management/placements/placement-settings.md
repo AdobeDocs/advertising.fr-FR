@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir les descriptions des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 17d2f802e77709636ef9654ad154e14c5d53c477
+source-git-commit: 6c4e5c3b114684dc360c1c2a35c90f07a8df11bc
 workflow-type: tm+mt
-source-wordcount: '3966'
+source-wordcount: '4039'
 ht-degree: 0%
 
 ---
@@ -173,11 +173,11 @@ Incluez un code postal par ligne ou saisissez plusieurs valeurs séparées par d
 
 **[!UICONTROL Inventory Sources]:** Sources d&#39;inventaire à inclure ou à exclure en tant que cibles. Pour la plupart des types d&#39;emplacement, tous les types de stock et toutes les origines pour chaque type sont inclus par défaut. Pour les emplacements [!DNL Roku], vous devez spécifier le type de stock et les origines. Vous pouvez choisir parmi les types d&#39;inventaire suivants :
 
-* [!UICONTROL Public] : (tous les types d’emplacements, à l’exception de Roku) Tous les inventaires d’exchanges ouverts auxquels DSP a accès. Vous pouvez inclure et exclure l’inventaire public.
+* [!UICONTROL Public] : (tous les types d’emplacement, à l’exception de Roku) tous les stocks Exchange ouverts auxquels DSP a accès. Vous pouvez inclure et exclure l’inventaire public.
 
   Vous pouvez afficher la liste par source ou par flux. Lorsque vous affichez la liste par flux, vous pouvez effectuer une recherche par nom de flux, clé de flux ou balise de caractéristique sélectionnée.
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private] : les contrats privés existants (ou les contrats de [!DNL Roku] privés existants pour les emplacements [!DNL Roku]) avec les éditeurs que vous avez configurés dans DSP. Vous pouvez inclure, mais pas exclure, les stocks publics.
+* [!UICONTROL Private] | [!UICONTROL Roku Private] : les offres privées existantes (ou les offres de [!DNL Roku] privées existantes pour les emplacements [!DNL Roku]) avec les éditeurs que vous avez configurés dans DSP. Vous pouvez inclure, mais pas exclure, les stocks publics.
 
   Vous pouvez effectuer une recherche dans la liste par mot-clé, clé, ID d’offre ou balise personnalisée.
 
@@ -219,7 +219,7 @@ Les publicités en dehors du contenu apparaissent généralement sur le contenu 
 
 **[!UICONTROL Traffic type]:** types de trafic à cibler. Les options incluent **[!UICONTROL Websites]** et **[!UICONTROL Apps]**.
 
-**[!UICONTROL Tier]:** (disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL Off]*) Qualité du trafic à cibler. Les niveaux 1 à 3 sont tous sécurisés par la marque et ont été approuvés par l&#39;équipe de mappage de la DSP.
+**[!UICONTROL Tier]:** (disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL Off]*) Qualité du trafic à cibler. Les niveaux 1 à 3 sont tous sûrs et ont été approuvés par l’équipe de mappage de DSP.
 
 * *[!UICONTROL Tier 1]:* Sites et applications Premium reconnus au niveau national.
 
@@ -237,7 +237,7 @@ Les publicités en dehors du contenu apparaissent généralement sur le contenu 
 >
 >Pour les campagnes de performances, il est recommandé de sélectionner *[!UICONTROL All Sites]*.
 
-**[!UICONTROL Site or App Categories]:** (facultatif ; disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL Off]*) Catégories de sites au niveau du site sélectionné à inclure ou à exclure (mais pas les deux) en tant que cibles. Choisissez parmi les listes verticales de sites que DSP a mappées en fonction de l’objet :
+**[!UICONTROL Site or App Categories]:** (facultatif ; disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL Off]*) Catégories de sites au niveau du site sélectionné à inclure ou à exclure (mais pas les deux) en tant que cibles. Choisissez parmi les listes de sites verticales que DSP a mappées en fonction de l’objet :
 
 1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
 1. Spécifiez les catégories de site à inclure ou à exclure :
@@ -268,7 +268,7 @@ Les publicités en dehors du contenu apparaissent généralement sur le contenu 
 
 >[!NOTE]
 >
->* Les listes de sites bloqués au niveau du compte et de l’annonceur sont également appliquées, en plus de la DSP [liste des sites bloqués au niveau mondial](/help/dsp/introduction/features/brand-safety-media-quality.md), qui inclut les sites considérés comme dangereux pour les publicités.
+>* Les listes de sites bloqués au niveau du compte et de l’annonceur sont également appliquées, en plus de la [liste des sites bloqués au niveau mondial](/help/dsp/introduction/features/brand-safety-media-quality.md) de DSP, qui inclut les sites considérés comme dangereux pour les publicités.
 >* Les listes de sites bloqués remplacent toujours les listes de sites ciblés. Si un emplacement exclut et inclut la même cible pour une annonce publicitaire, la cible est exclue.
 
 **[!UICONTROL Language]:** (facultatif) Une seule langue à cibler.
@@ -299,13 +299,13 @@ Vous pouvez éventuellement exporter la liste des sites ciblés et bloqués dans
 
 ## [!UICONTROL Audience Targeting]
 
-**[!UICONTROL Included Audiences]:** toute cible d’audience pour l’emplacement, y compris les [segments tiers, segments propriétaires, segments d’Adobe, segments personnalisés et audiences enregistrées](/help/dsp/audiences/audience-settings.md). La taille totale et active de l’audience dédupliquée sur tous les segments sélectionnés et les audiences enregistrées s’affiche également. Vous pouvez sélectionner une audience existante, créer une audience que vous pourrez réutiliser ultérieurement ou sélectionner des segments d’audience spécifiques :
+**[!UICONTROL Included Audiences]:** toute cible d’audience pour l’emplacement, y compris les [segments tiers, segments propriétaires, segments Adobe, segments personnalisés et audiences enregistrées](/help/dsp/audiences/audience-settings.md). La taille totale et active de l’audience dédupliquée sur tous les segments sélectionnés et les audiences enregistrées s’affiche également. Vous pouvez sélectionner une audience existante, créer une audience que vous pourrez réutiliser ultérieurement ou sélectionner des segments d’audience spécifiques :
 
 * Pour sélectionner une audience existante, cliquez sur ![Sélectionner](/help/dsp/assets/chevron-down.png) en regard de [!UICONTROL Included Audiences], puis sélectionnez l’audience.
 * Pour créer une audience, cliquez sur ![Sélectionner](/help/dsp/assets/chevron-down.png) en regard de [!UICONTROL Included Audiences], puis sélectionnez **[!UICONTROL + Create Audience]**. Pour obtenir des instructions, voir [Création d’une audience réutilisable](/help/dsp/audiences/reusable-audience-create.md), en commençant par l’étape 3.
 * Pour sélectionner des segments d’audience spécifiques, cliquez sur **[!UICONTROL Select segments for this placement only]**. Sélectionnez la logique du segment. Pour obtenir des instructions, reportez-vous à l’étape 6 de la section « [ Création d’une audience réutilisable ](/help/dsp/audiences/reusable-audience-create.md) ». Lorsque vous avez terminé, cliquez sur **Enregistrer**.
 
-**[!UICONTROL Excluded Audiences]:** toutes les audiences à exclure pour l&#39;emplacement, y compris les audiences avec [segments tiers, segments propriétaires, segments Adobes, segments personnalisés et audiences enregistrées](/help/dsp/audiences/audience-settings.md). La taille totale et active de l’audience dédupliquée pour toutes les audiences exclues s’affiche également. Vous pouvez sélectionner une audience existante ou en créer une nouvelle que vous pourrez réutiliser ultérieurement :
+**[!UICONTROL Excluded Audiences]:** toutes les audiences à exclure de l&#39;emplacement, y compris les audiences avec des [segments tiers, segments propriétaires, segments Adobe, segments personnalisés et audiences enregistrées](/help/dsp/audiences/audience-settings.md). La taille totale et active de l’audience dédupliquée pour toutes les audiences exclues s’affiche également. Vous pouvez sélectionner une audience existante ou en créer une nouvelle que vous pourrez réutiliser ultérieurement :
 
 * Pour sélectionner une audience existante, cliquez sur ![Sélectionner](/help/dsp/assets/chevron-down.png) en regard de [!UICONTROL Excluded Audiences], puis sélectionnez l’audience.
 
@@ -317,7 +317,7 @@ Lorsque vous sélectionnez à la fois des identifiants hérités et universels, 
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]* : (valeur par défaut) cible les utilisateurs en fonction de leurs cookies, identifiants de publicité mobile ou identifiants de télévision connectée (CTV). Les identifiants sont sélectionnés en fonction de l’inventaire du navigateur, in-app ou CTV.
 
-* *[!UICONTROL Universal ID Beta]* : cible les identifiants axés sur la confidentialité des utilisateurs et utilisatrices ; sélectionnez un type d’identifiant. Les options disponibles sont déterminées par les cibles géographiques sélectionnées dans la section [!UICONTROL Geo-Targeting]. Utilisez avec des [[!DNL RampID] segments importés directement dans DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [segments pour lesquels DSP convertit vos informations d’identification personnelles en identifiants universels](/help/dsp/audiences/sources/source-about.md) ou [segments personnalisés qui effectuent le suivi des identifiants universels](/help/dsp/audiences/custom-segment-create.md).
+* *[!UICONTROL Universal ID Beta]* : cible les identifiants axés sur la confidentialité des utilisateurs et utilisatrices ; sélectionnez un type d’identifiant. Les options disponibles sont déterminées par les cibles géographiques sélectionnées dans la section [!UICONTROL Geo-Targeting]. Utilisez avec les [[!DNL RampID] segments importés directement dans DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [segments pour lesquels DSP convertit vos informations d’identification personnelles en identifiants universels](/help/dsp/audiences/sources/source-about.md) ou [segments personnalisés qui effectuent le suivi des identifiants universels](/help/dsp/audiences/custom-segment-create.md).
 
    * *[!UICONTROL ID5]* : cible [!DNL ID5] identifiants créés de manière probabiliste à partir d’adresses e-mail et d’autres signaux.Les identifiants <!-- What countries/geos are these available for? Everywhere?--> ID5 sont disponibles sans frais. **Remarque :** les segments tiers provenant de l’[!DNL Eyeota] peuvent inclure des ID5.
 
@@ -325,7 +325,7 @@ Lorsque vous sélectionnez à la fois des identifiants hérités et universels, 
 
    * *[!UICONTROL Unified ID2.0]* : cible [!DNL Unified ID2.0] identifiants (UID2) des utilisateurs connectés à votre site à l’aide de leurs adresses e-mail.<!-- Verify -->[!DNL UID2 IDs] ne sont pas disponibles pour les utilisateurs dans l&#39;Espace économique européen et dans certains autres pays. Voir la [liste des pays interdits](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
 
-  **[!UICONTROL Terms of service]** : termes de l’accord de service pour l’utilisation des identifiants universels. Vous ou un autre utilisateur du compte DSP devez accepter les termes une seule fois avant de pouvoir convertir des données en un nouveau type d’identifiant. Pour les clients disposant de contrats de service gérés, l’équipe chargée de votre compte Adobe obtiendra votre consentement et acceptera les conditions au nom de votre entreprise. Pour lire les termes, cliquez sur **>**. Pour accepter les conditions, faites défiler l’écran jusqu’au bas des conditions et cliquez sur **[!UICONTROL Accept]**.
+  **[!UICONTROL Terms of service]** : termes de l’accord de service pour l’utilisation des identifiants universels. Vous ou un autre utilisateur du compte DSP devez accepter les conditions une seule fois avant de pouvoir convertir des données en un nouveau type d’identifiant. Pour les clients qui disposent de contrats de service géré, l’équipe chargée de votre compte Adobe obtiendra votre consentement et acceptera les conditions au nom de votre entreprise. Pour lire les termes, cliquez sur **>**. Pour accepter les conditions, faites défiler l’écran jusqu’au bas des conditions et cliquez sur **[!UICONTROL Accept]**.
 
 **[!UICONTROL Cross Device Targeting]:** (disponible lorsque la campagne [campaign est configurée pour le ciblage inter-appareils basé sur les personnes](/help/dsp/campaign-management/campaigns/campaign-settings.md), vous ciblez uniquement les identifiants hérités (et non les identifiants universels) et vous sélectionnez au moins un segment ou une audience. Vous permet d’étendre votre ciblage sur tous les appareils connus d’une personne (selon le graphique d’appareil spécifié dans les paramètres de campagne), même les appareils qui ne figurent pas dans les segments spécifiés. Des frais peuvent s’appliquer en fonction du graphique spécifié pour la campagne. Les données des graphiques des appareils ne sont disponibles qu’en Amérique du Nord.
 
@@ -346,7 +346,7 @@ Lorsque vous sélectionnez à la fois des identifiants hérités et universels, 
    * Pour sélectionner manuellement un intervalle, cliquez dans une cellule et éventuellement faites glisser pour sélectionner l’intervalle.
 1. Cliquez sur **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (facultatif ; disponible pour les annonceurs configurés avec des segments [!DNL Proximic by Comscore]) Noms ou identifiants de segment spécifiques de [!DNL Proximic by Comscore] à inclure en tant que cibles. Des frais supplémentaires peuvent s’appliquer pour cette fonctionnalité. Pour activer cette fonctionnalité et configurer des segments de rubrique, contactez l’équipe de votre compte d’Adobe.
+**[!UICONTROL Topic Targeting]:** (facultatif ; disponible pour les annonceurs configurés avec des segments [!DNL Proximic by Comscore]) Noms ou identifiants de segment spécifiques de [!DNL Proximic by Comscore] à inclure en tant que cibles. Des frais supplémentaires peuvent s’appliquer pour cette fonctionnalité. Pour activer cette fonctionnalité et configurer des segments de rubrique, contactez l’équipe chargée de votre compte Adobe.
 
 Pour spécifier le ciblage de rubrique :
 
@@ -395,7 +395,7 @@ Pour spécifier le ciblage de rubrique :
 
 L’identifiant doit commencer par « 51 » et se composer de huit chiffres. Par défaut, si un identifiant de segment est spécifié dans les paramètres du compte de l’annonceur, l’identifiant au niveau de l’annonceur est saisi, mais vous pouvez modifier l’identifiant pour utiliser un autre segment ou le supprimer pour désactiver la fonction.
 
-**[!UICONTROL Contextual filtering]:** types de filtres contextuels [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] et [!DNL Peer39] à appliquer. Les valeurs par défaut au niveau de l’annonceur sont sélectionnées pour les nouveaux emplacements, mais vous pouvez modifier les paramètres :
+**[!UICONTROL Contextual filtering]:** (applicable aux publicités pour appareils de bureau, mobiles et natives) Types de filtres contextuels [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] et [!DNL Peer39] à appliquer. Les valeurs par défaut au niveau de l’annonceur sont sélectionnées pour les nouveaux emplacements, mais vous pouvez modifier les paramètres :
 
 <!-- Looks like we didn't rename this:
 **[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
@@ -421,34 +421,30 @@ L’identifiant doit commencer par « 51 » et se composer de huit chiffres. Par
 
 **[!UICONTROL Pre-bid fraud blocking]:** Types de sites à bloquer en fonction du trafic frauduleux et des activités suspectes mesurées par [!DNL DoubleVerify], [!DNL Integral Ad Science] et [!DNL Peer39]. Les valeurs par défaut au niveau de l’annonceur sont sélectionnées pour les nouveaux emplacements, mais vous pouvez modifier les paramètres :
 
-* [!UICONTROL DoubleVerify] :
+* [!UICONTROL DoubleVerify] : (applicable aux publicités pour ordinateurs de bureau et pour appareils mobiles, natives et vidéo)
 
    * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** Par défaut, bloque tout le trafic 100 % non valide, y compris le trafic sur les appareils détournés, pour les nouveaux emplacements. Des frais supplémentaires peuvent s’appliquer.
 
-   * **[!UICONTROL Also block sites with]:** (facultatif) niveau supplémentaire de fraude et de trafic non valide qui entraîne le blocage par défaut des publicités par DSP : *[!UICONTROL None]* (la valeur par défaut, qui ne bloque pas le trafic supplémentaire), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* ou *[!UICONTROL >25% Average Fraud/IVT levels]*. Des frais supplémentaires peuvent s’appliquer.
+   * **[!UICONTROL Also block sites with]:** (facultatif) niveau supplémentaire de fraude et de trafic non valide qui entraîne le blocage des publicités par défaut par DSP : *[!UICONTROL None]* (la valeur par défaut, qui ne bloque pas le trafic supplémentaire), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* ou *[!UICONTROL >25% Average Fraud/IVT levels]*. Des frais supplémentaires peuvent s’appliquer.
 
-* [!UICONTROL Peer 39] :
+* [!UICONTROL Peer 39] : (applicable aux publicités pour ordinateurs de bureau et pour appareils mobiles, natives et vidéo)
 
-   * **[!UICONTROL Block sites that are]:** (facultatif) Un ou plusieurs types de fraude qui entraînent le blocage par défaut des publicités par DSP : *[!UICONTROL Fraud]* (qui bloque tous les sites comportant une fraude), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]* et/ou *[!UICONTROL Fraud: Zero Ads]*. Des frais supplémentaires peuvent s’appliquer.
+   * **[!UICONTROL Block sites that are]:** (facultatif) Un ou plusieurs types de fraude qui entraînent le blocage des publicités par défaut par DSP : *[!UICONTROL Fraud]* (qui bloque tous les sites comportant une fraude), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]* et/ou *[!UICONTROL Fraud: Zero Ads]*. Des frais supplémentaires peuvent s’appliquer.
 
-* [!UICONTROL Integral Ad Science] :
+* [!UICONTROL Integral Ad Science] : (applicable aux publicités pour ordinateurs de bureau et pour appareils mobiles, natives et vidéo)
 
-   * **[!UICONTROL Block sites that are]:** (facultatif) Type d’activité suspecte de site web ou d’application qui entraîne le blocage des publicités par défaut par DSP : *[!UICONTROL None]* (valeur par défaut, qui ne bloque pas les publicités en raison d’une activité suspecte), *[!UICONTROL Suspicious Activity - High Risk]* ou *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Des frais supplémentaires peuvent s’appliquer.
+   * **[!UICONTROL Block sites that are]:** (facultatif) Type d’activité suspecte de site web ou d’application qui entraîne le blocage des annonces par défaut par DSP : *[!UICONTROL None]* (valeur par défaut, qui ne bloque pas les annonces en raison d’une activité suspecte), *[!UICONTROL Suspicious Activity - High Risk]* ou *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Des frais supplémentaires peuvent s’appliquer.
 
-**[!UICONTROL Pre-bid viewability]:**
+**[!UICONTROL Pre-bid viewability]:** (applicable pour les publicités pour appareils de bureau et web mobiles, natives et vidéo) qui filtrent la visibilité avant enchères par [!DNL DoubleVerify] et [!DNL Integral Ad Science] à appliquer pour l’emplacement. Les valeurs par défaut au niveau de l’annonceur sont sélectionnées pour les nouveaux emplacements, mais vous pouvez modifier les paramètres. Des frais supplémentaires peuvent s’appliquer.
 
-Les filtres de visibilité de pré-enchères par [!DNL DoubleVerify] et [!DNL Integral Ad Science] appliquer pour l’emplacement. Les valeurs par défaut au niveau de l’annonceur sont sélectionnées pour les nouveaux emplacements, mais vous pouvez modifier les paramètres. Des frais supplémentaires peuvent s’appliquer.
-
-**[!UICONTROL Ads.txt filtering]:**
-
-Quel niveau de filtrage des pré-enchères [Ads.txt](https://iabtechlab.com/ads-txt-about/) utiliser en appliquant la liste de vendeurs numériques autorisés de chaque éditeur. La valeur par défaut au niveau de l’annonceur est sélectionnée pour les nouveaux emplacements, mais vous pouvez modifier les paramètres :
+**[!UICONTROL Ads.txt filtering]:** (applicable aux publicités pour appareils de bureau et mobiles, aux publicités natives, vidéo et audio) Quel niveau de filtrage des [publicités.txt](https://iabtechlab.com/ads-txt-about/) de pré-enchères utiliser en appliquant la liste de vendeurs numériques autorisés de chaque éditeur. La valeur par défaut au niveau de l’annonceur est sélectionnée pour les nouveaux emplacements, mais vous pouvez modifier les paramètres :
 
 * *[!UICONTROL Opt out of ads.txt (default)]* : Pour acheter des stocks auprès de tous les vendeurs.
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]* : pour donner la priorité à l’achat de stocks auprès des vendeurs directs et des revendeurs autorisés d’un domaine.
 * *[!UICONTROL Ads.txt sellers only]* : Pour acheter des stocks uniquement auprès des vendeurs directs et des revendeurs autorisés d&#39;un domaine.
 * *[!UICONTROL Ads.txt sellers only]* : Pour acheter des stocks uniquement auprès des vendeurs directs autorisés d&#39;un domaine.
 
-**[!UICONTROL Attention Targeting]:** (affichage, vidéo et emplacements de télévision connectée standard) : cible [!DNL Adelaide] segments de pré-enchères avec un niveau d’attention spécifique (élevé, moyen ou faible) en fonction du site, du format et de la taille de l’annonce publicitaire spécifiés. Les segments sont mis à jour chaque semaine. **Remarque :** l’utilisation de segments [!DNL Adelaide] pour le ciblage engendre des frais CPM pour chaque impression fournie avec le ciblage d’attention [!DNL Adelaide]. Ces frais sont distincts des frais pour la [mesure d’attention](/help/dsp/campaign-management/campaigns/campaign-settings.md). Pour les emplacements interactifs de pré-roll, vous n’êtes facturé que pour les IMPRESSIONS VAST.
+**[!UICONTROL Attention Targeting]:** (applicable aux publicités pour ordinateurs de bureau et appareils mobiles, aux vidéos et aux publicités TV connectées standard) Cible [!DNL Adelaide] segments de pré-enchères avec un niveau d’attention spécifique (élevé, moyen ou faible) en fonction du site, du format et de la taille de la publicité spécifiés. Les segments sont mis à jour chaque semaine. **Remarque :** l’utilisation de segments [!DNL Adelaide] pour le ciblage engendre des frais CPM pour chaque impression fournie avec le ciblage d’attention [!DNL Adelaide]. Ces frais sont distincts des frais pour la [mesure d’attention](/help/dsp/campaign-management/campaigns/campaign-settings.md). Pour les emplacements interactifs de pré-roll, vous n’êtes facturé que pour les IMPRESSIONS VAST.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
@@ -507,4 +503,4 @@ Quel niveau de filtrage des pré-enchères [Ads.txt](https://iabtechlab.com/ads-
 >* [Gérer les multiplicateurs d&#39;offres pour les placements](placement-manage-bid-multipliers.md)
 >* [Afficher le journal des modifications pour un emplacement](placement-change-log.md)
 >* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [FAQ sur Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+>* [FAQ sur la gestion de campagnes](/help/dsp/campaign-management/faq-campaign-management.md)
