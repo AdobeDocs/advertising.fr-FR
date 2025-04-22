@@ -2,9 +2,9 @@
 title: À Propos De Performance Insights
 description: Découvrez les informations sur les performances de vos campagnes.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: f821f7cec4ad2a9921337940a11ba62a122dbc23
+source-git-commit: b1e9d022894c638dae6c48482d98059d9540e1c4
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ Grâce aux visualisations, des informations de haut niveau sur les performances 
 
 Pour tout insight, vous pouvez télécharger un rapport, sans les visualisations, au format de feuille de calcul Microsoft Excel (XLSX).
 
-## Onglet [!UICONTROL Home]
+## Types d’informations
+
+### Onglet [!UICONTROL Home]
 
 L’onglet [!UICONTROL Home] fournit des mesures clés de norme, de performances et de visibilité sur toutes les campagnes d’un annonceur<!-- active only? -->. Par défaut, les données sur plusieurs campagnes s’affichent. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur ou les données pour des campagnes<!-- active only? --> des packages<!-- active only? --> des objectifs personnalisés et des emplacements spécifiques<!-- active only? -->. Ces informations incluent :
 
@@ -27,7 +29,7 @@ L’onglet [!UICONTROL Home] fournit des mesures clés de norme, de performances
 
 * Répartition des données pour des mesures spécifiques selon trois dimensions spécifiées par le client, par exemple par campagne, éditeur et type de média. Pour chaque répartition dimensionnelle, vous pouvez choisir une mesure différente.
 
-## Onglet [!UICONTROL Household Reach]
+### Onglet [!UICONTROL Household Reach]
 
 L’onglet [!UICONTROL Household Reach] fournit des mesures de portée du foyer pour toutes les campagnes d’un annonceur<!-- active only? -->. Par défaut, les données sur plusieurs campagnes s’affichent. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur ou les données de campagnes spécifiques uniquement<!-- active only? -->. Ces informations incluent :
 
