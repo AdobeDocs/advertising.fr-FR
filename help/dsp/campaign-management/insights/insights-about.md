@@ -2,9 +2,9 @@
 title: À Propos De Performance Insights
 description: Découvrez les informations sur les performances de vos campagnes.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: f76b0aad77b896bb84a898779e457a0893913024
+source-git-commit: f821f7cec4ad2a9921337940a11ba62a122dbc23
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -41,24 +41,40 @@ L’onglet [!UICONTROL Household Reach] fournit des mesures de portée du foyer 
 
 * Graphique <!-- ???? --> du [!UICONTROL Cost per Reach] et [!UICONTROL Net Spend] par package, éditeur ou site/application.
 
+## Ouvrir les informations sur les performances
+
+* (Pour ouvrir les informations pour toutes les campagnes) Dans le menu principal, cliquez sur **[BETA Insights]**.
+
+* (Pour ouvrir des informations pour une campagne, un package ou un emplacement spécifique) En regard du nom de l’entité dans la vue [!UICONTROL Campaigns], [!UICONTROL Packages] ou [!UICONTROL Placements], cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
+
+## Application de filtres à un onglet
+
+1. Dans la barre d’outils située en haut de l’onglet :
+cliquez sur ![bouton Filtrer](/help/dsp/assets/filter.png).
+
+1. Dans la colonne de gauche, sélectionnez une dimension, puis une ou plusieurs valeurs dans la colonne de droite, selon le cas.
+
+   Vous ne pouvez sélectionner qu’un seul annonceur à la fois.
+
+1. Cliquez sur **[!UICONTROL Apply]**.
+
+1. (Facultatif) Pour réduire davantage les données, sélectionnez le type d’entité dans la barre d’outils, puis sélectionnez une valeur d’entité spécifique (une campagne, un package ou un emplacement unique).
+
+## Modification du Dimension signalé pour une Insight
+
+* Dans le menu déroulant situé dans le coin supérieur gauche d’insight, sélectionnez la dimension.
+
+## Modification des mesures signalées pour un Insight
+
+1. Dans le coin supérieur droit d’insight, cliquez sur ![Paramètres des mesures](/help/dsp/assets/metric-settings.png "Paramètres des mesures").
+
+1. Sélectionnez les mesures, puis cliquez sur **[!UICONTROL Apply]**.
+
 ## Téléchargement d’une Insight
 
-* Au-dessus d’insight, cliquez sur ![Télécharger](/help/creative/assets/download.png "Télécharger").
+* Dans le coin supérieur droit d’insight, cliquez sur ![Télécharger](/help/creative/assets/download.png "Télécharger").
 
   Le fichier est enregistré dans le dossier Téléchargements par défaut de votre navigateur.
-
-<!--
-## Apply Filters
-
-to whole tab, I think
-
-Filter icon + drop-down menu
--->
-
-<!--
-## Change the Metrics and Dimensions for an Insight
-
--->
 
 >[!MORELIKETHIS]
 >
