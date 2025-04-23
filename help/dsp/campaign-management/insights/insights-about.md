@@ -3,9 +3,9 @@ title: À Propos De Performance Insights
 description: Découvrez les informations sur les performances des visualisations.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: e0e44a0be283f27d2dd1c1ae0c5f0c00c08edddc
+source-git-commit: ca531db43b9e07dc767da3d0e866bfc85add7ee9
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Edit title and metadata as necessary -->
 
-Grâce à des informations de haut niveau sur les performances accompagnées de visualisations, vous disposez des informations nécessaires pour optimiser efficacement vos campagnes et découvrir de nouvelles opportunités d’optimisation des performances. Vous pouvez afficher les données de plusieurs campagnes ou effectuer une analyse vers le bas à un niveau inférieur.
+Grâce aux visualisations, vous obtenez des informations de haut niveau sur les performances qui vous permettent d’optimiser efficacement vos campagnes et de découvrir de nouvelles opportunités d’optimisation des performances. Vous pouvez afficher les données de plusieurs campagnes ou effectuer une analyse vers le bas à un niveau inférieur.
 
 Utilisez les informations sur les performances pour :
 
@@ -46,11 +46,11 @@ L’onglet [!UICONTROL Household Reach] fournit des mesures de portée du foyer 
 
 * Graphique de tendances par jour ou par semaine pour trois mesures spécifiées par le client (par défaut, [!UICONTROL Net Spend], [!UICONTROL Unique Reach] et [!UICONTROL Net CPM]).
 
-* Graphique en anneau montrant la portée incrémentielle des ménages par [!UICONTROL Media Type], [!UICONTROL Device Type] ou [!UICONTROL Inventory Type]. La portée incrémentielle d’un foyer est définie comme un foyer atteint exclusivement par le biais d’un seul type de média, d’appareil ou d’inventaire.
+* Graphique en anneau montrant la portée incrémentielle des ménages par [!UICONTROL Media Type], [!UICONTROL Device Type] ou [!UICONTROL Inventory Type]. La *portée incrémentielle des ménages* est définie comme un ménage atteint exclusivement par le biais d’un seul type de média, d’appareil ou d’inventaire.
 
 * La portée incrémentielle unique des ménages par rapport à la portée chevauchante des ménages par [!UICONTROL Media Type], [!UICONTROL Device Type] ou [!UICONTROL Inventory Type].
 
-  La portée incrémentielle d’un foyer est définie comme un foyer atteint exclusivement par le biais d’un seul type de média, d’appareil ou d’inventaire. Un foyer accessible par plusieurs types de médias, d’appareils ou d’inventaire est considéré comme se chevauchant.
+  La *portée incrémentielle des ménages* est définie comme un ménage atteint exclusivement par le biais d’un seul type de média, d’appareil ou d’inventaire. La *portée chevauchante des ménages* est définie comme un ménage atteint par plusieurs types de médias, d’appareils ou d’inventaire.
 
 * Campagnes, emplacements, packages, éditeurs, sites/applications, types de médias, types d’inventaire ou types d’appareils les plus performants par [!UICONTROL Unique Reach], [!UICONTROL Net Spend] et [!UICONTROL Cost per Reach].
 
@@ -64,8 +64,7 @@ L’onglet [!UICONTROL Household Reach] fournit des mesures de portée du foyer 
 
 ## Application de filtres à un onglet
 
-1. Dans la barre d’outils située en haut de l’onglet :
-cliquez sur ![bouton Filtrer](/help/dsp/assets/filter.png).
+1. Dans la barre d’outils située en haut de l’onglet, cliquez sur ![bouton Filtrer](/help/dsp/assets/filter.png).
 
 1. Dans la colonne de gauche, sélectionnez une dimension, puis une ou plusieurs valeurs dans la colonne de droite, selon le cas.
 
