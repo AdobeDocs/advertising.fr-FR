@@ -3,9 +3,9 @@ title: À Propos De Performance Insights
 description: Découvrez les informations sur les performances de vos campagnes.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: be84bea53ec6c5378102aa510b9d58b1d0004b4b
+source-git-commit: 7b5b28f0b1892d92527ab6b4c7d4ee595d791aac
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Utilisez les informations sur les performances pour :
 
 Vous pouvez exporter toutes les visualisations d’un onglet dans un fichier PDF ou télécharger les données d’une insight spécifique sans les visualiser au format de feuille de calcul Excel Microsoft (XLSX).
 
-Vous pouvez également [configurer la vue et l’enregistrer en tant que vue personnalisée](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) comme vous le pouvez pour les vues de gestion de campagne.
+Vous pouvez également [modifier la période, configurer la vue et enregistrer une vue personnalisée](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) comme vous le pouvez pour les vues de gestion de campagne.
 
 ## Types d’informations
 
@@ -102,3 +102,4 @@ cliquez sur ![bouton Filtrer](/help/dsp/assets/filter.png).
 >* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
 >* [Types de rapports de performances dans les vues de gestion de campagnes](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonnes de rapport disponibles](/help/dsp/reports/report-columns.md)
+>* [Gestion Des Vues De Données De Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
