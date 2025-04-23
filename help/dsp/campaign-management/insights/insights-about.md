@@ -1,9 +1,9 @@
 ---
 title: À Propos De Performance Insights
-description: Découvrez les informations sur les performances de vos campagnes.
-feature: DSP Packages, DSP Placements, DSP Ads
+description: Découvrez les informations sur les performances des visualisations.
+feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 7b5b28f0b1892d92527ab6b4c7d4ee595d791aac
+source-git-commit: c146a49e7ebef567707b67365114fc23ee5d0884
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Edit title and metadata as necessary -->
 
-Grâce aux visualisations, des informations de haut niveau sur les performances vous donnent les informations dont vous avez besoin pour optimiser efficacement vos campagnes et découvrir de nouvelles opportunités d’optimisation des performances. Vous pouvez afficher les données de plusieurs campagnes ou effectuer une analyse vers le bas à un niveau inférieur.
+Grâce à des informations de haut niveau sur les performances accompagnées de visualisations, vous disposez des informations nécessaires pour optimiser efficacement vos campagnes et découvrir de nouvelles opportunités d’optimisation des performances. Vous pouvez afficher les données de plusieurs campagnes ou effectuer une analyse vers le bas à un niveau inférieur.
 
 Utilisez les informations sur les performances pour :
 
