@@ -3,9 +3,9 @@ title: À Propos De Performance Insights
 description: Découvrez les informations sur les performances des visualisations.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: c146a49e7ebef567707b67365114fc23ee5d0884
+source-git-commit: 04858fdbe884c30ebec3e1dff0d9c4d2622a16a1
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Utilisez les informations sur les performances pour :
 
 Vous pouvez exporter toutes les visualisations d’un onglet dans un fichier PDF ou télécharger les données d’une insight spécifique sans les visualiser au format de feuille de calcul Excel Microsoft (XLSX).
 
-Vous pouvez également [modifier la période, configurer la vue et enregistrer une vue personnalisée](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) comme vous le pouvez pour les vues de gestion de campagne.
+Vous pouvez également [modifier la période, configurer la vue et enregistrer une vue personnalisée](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} comme vous le pouvez pour les vues de gestion de campagne.
 
 ## Types d’informations
 
@@ -58,7 +58,7 @@ L’onglet [!UICONTROL Household Reach] fournit des mesures de portée du foyer 
 
 ## Ouvrir les informations sur les performances
 
-* (Pour ouvrir les informations pour toutes les campagnes) Dans le menu principal, cliquez sur **[BETA Insights]**.
+* (Pour afficher des informations pour toutes les campagnes) Dans le menu principal, cliquez sur **[UICONTROL Insights BETA]**.
 
 * (Pour ouvrir des informations pour une campagne, un package ou un emplacement spécifique) En regard du nom de l’entité dans la vue [!UICONTROL Campaigns], [!UICONTROL Packages] ou [!UICONTROL Placements], cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
 
