@@ -2,7 +2,7 @@
 title: À propos de Adobe Advertising Creative
 description: En savoir plus sur  [!DNL Creative].
 feature: Creative Introduction
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -25,11 +25,21 @@ Vos bibliothèques Creative vous permettent de gérer les contenus publicitaires
 
 Avec [!DNL Creative], vous pouvez créer des histoires à l’aide d’un modèle d’arbre de décision basé sur des règles, en déployant une chaîne chorégraphiée d’annonces personnalisées en temps réel en fonction de ce que vous savez de votre audience et qui suivent vos clients même lorsqu’ils se déplacent vers différents sites web<!-- verify if that's true without Adobe CDP --> Par exemple, les histoires peuvent changer en fonction du comportement des clients, de la zone géographique, des données démographiques, du reciblage, de la position sur le parcours des clients, etc.
 
+<!-- Add when available:
+
+## [!DNL Adobe] content and data integrations
+
+[!DNL Creative] has direct integrations with Adobe Experience Manager, allowing you to easily upload the [!DNL Adobe] assets that your design team creates and use them for real-time storyboarding and editing of ad experiences.
+
+You also can use your first-party audience segments from Adobe Audience Manager and Adobe Analytics &mdash; as well as audience segments you create in Advertising Cloud DSP
+or retargeting pixels you create using [!DNL Creative] &mdash; as targets for specific creatives in an ad experience.
+-->
+
 ### Implémentation d’expériences en tant que publicités
 
 Une fois une expérience créée, vous pouvez générer une balise JavaScript ou iframe pour l’expérience et implémenter la balise en tant qu’annonce tierce dans Advertising DSP ou tout autre DSP.<!-- Add any more info about integration with DSP? -->
 
-<!-- Maybe add a subsection "Audience targeting options" with info about types of creative-level REtargeting and placement-level targeting within your DSP.  Need to clarify if any placement-level targeting might contradict/override creative-level targeting, or if they're completely different.
+<!-- Maybe add a subsection "Audience targeting options" with info about types of creative-level Retargeting and placement-level targeting within your DSP.  Need to clarify if any placement-level targeting might contradict/override creative-level targeting, or if they're completely different.
 
 Advertiser should be able to target all segments which are available in DSP for targeting
 -->
@@ -46,7 +56,7 @@ Vous pouvez créer des pixels de reciblage à utiliser comme cibles pour les cr�
 
 [!DNL Creative] effectue automatiquement le suivi de toutes les impressions et de tous les clics pour les publicités diffusées à partir d’une expérience . Vous pouvez également ajouter des URL de suivi d’impressions et de clics tierces aux contenus publicitaires dans les bibliothèques Creative, ainsi que des URL de suivi personnalisées dans une expérience.
 
-[!DNL Creative] effectue également le suivi des conversions à partir des annonces diffusées créées à partir de vos expériences publicitaires.<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optoinal?  -->
+[!DNL Creative] effectue également le suivi des conversions à partir des annonces diffusées créées à partir de vos expériences publicitaires.<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optional?  -->
 
 <!--
  [Don't need to mention] When an ad is served, the DSP that buys the ad first tracks the impression, and then passes the impression information to [!DNL Creative]. [!DNL Creative] first tracks a click on an ad, and it then passes the click information
