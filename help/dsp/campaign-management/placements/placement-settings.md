@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir les descriptions des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 6c4e5c3b114684dc360c1c2a35c90f07a8df11bc
+source-git-commit: 479c8e169469e1e56831e017f150eb6fa499e784
 workflow-type: tm+mt
-source-wordcount: '4039'
+source-wordcount: '4042'
 ht-degree: 0%
 
 ---
@@ -421,7 +421,7 @@ L’identifiant doit commencer par « 51 » et se composer de huit chiffres. Par
 
 **[!UICONTROL Pre-bid fraud blocking]:** Types de sites à bloquer en fonction du trafic frauduleux et des activités suspectes mesurées par [!DNL DoubleVerify], [!DNL Integral Ad Science] et [!DNL Peer39]. Les valeurs par défaut au niveau de l’annonceur sont sélectionnées pour les nouveaux emplacements, mais vous pouvez modifier les paramètres :
 
-* [!UICONTROL DoubleVerify] : (applicable aux publicités pour ordinateurs de bureau et pour appareils mobiles, natives et vidéo)
+* [!UICONTROL DoubleVerify] : (applicable aux publicités pour ordinateurs de bureau et écrans web mobiles, aux publicités natives, aux vidéos et aux publicités TV connectées standard)
 
    * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** Par défaut, bloque tout le trafic 100 % non valide, y compris le trafic sur les appareils détournés, pour les nouveaux emplacements. Des frais supplémentaires peuvent s’appliquer.
 
