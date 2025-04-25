@@ -3,9 +3,9 @@ title: Partenaires de diffusion d’annonces certifiés
 description: Voir tous les serveurs et unités publicitaires certifiés.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: 75d4efbf5028b0d3ceeee247d1ee3616ae49d683
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!DNL Spirable] | | X | | | |
 | [!DNL SUBLIME] | | | X | | |
 | [!DNL SundaySky] | | | | X | |
-| [!DNL Teads] | | X | | | Aucune prise en charge n&#39;est disponible pour VPAID sur l&#39;inventaire Outstream. |
+| [!DNL Teads] | | X | | | Inclut l’affichage natif. Aucune prise en charge n&#39;est disponible pour VPAID sur l&#39;inventaire Outstream. |
 | [!DNL Trueffect] | | X | | | |
 | [!DNL Undertone] | | | X | | Unité d’annonce personnalisée Page Grabber chargée en 180 x 150 dans DSP</br></br>Lorsque Index Exchange passe une enchère de 180 x 150 et que DSP enchérit sur l’enchère et donne une impression, le contenu créatif se développe pour devenir une annonce publicitaire pleine page.</br></br>Initialement certifié pour les unités publicitaires Page Grabber, Expandable Adhésion et Screen Shift. Il doit être recertifié, avec des étapes marquées pour les processus. |
 | [!DNL Vox] | | | X | | [!DNL Athena] des annonces publicitaires |
