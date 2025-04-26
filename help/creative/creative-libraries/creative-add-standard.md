@@ -3,9 +3,9 @@ title: Ajout de contenus publicitaires standard à une bibliothèque de contenus
 description: Découvrez comment ajouter des contenus publicitaires standard (non dynamiques) à une bibliothèque de contenus publicitaires.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
+source-git-commit: d68c8c31a047c4615224e9ab19654e56b5e8c8f9
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -158,15 +158,21 @@ Les contenus publicitaires d’image peuvent être au format GIF, JPEG, JPG ou P
 
 1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Image]**.
 
-1. Spécifiez les fichiers de l’une des manières suivantes :
+1. Spécifiez les images :
 
-   * Glissez-déposez des fichiers sur votre appareil ou réseau dans la zone.
+   * Pour les ressources d’images locales, effectuez l’une des opérations suivantes :
 
-   * Cliquez sur **[!UICONTROL select a file]** pour localiser le fichier sur votre appareil ou réseau.
-<!--  Verify wording and workflow and add when available:
+      * Glissez-déposez des fichiers sur votre appareil ou réseau dans la zone.
 
-   * Click **[!UICONTROL AEM Asset Library]** to locate a file in your Adobe Experience Manager library.
--->
+      * Cliquez sur **[!UICONTROL select a file]** pour localiser les fichiers sur votre appareil ou réseau.
+
+   * Pour les images de votre bibliothèque Adobe Experience Manager, procédez comme suit :
+
+      1. Cliquez sur **[!UICONTROL AEM Asset Library]**.
+
+      1. Connectez-vous à votre compte Experience Manager.
+
+      1. Recherchez et sélectionnez les fichiers dans vos vues [!UICONTROL Assets] ou [!UICONTROL Collections], puis cliquez sur **[!UICONTROL Select]** en haut à droite.
 
 1. Ajoutez ou supprimez des images :
 
