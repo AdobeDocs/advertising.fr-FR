@@ -20,7 +20,7 @@ Vous pouvez afficher les données des 36 mois précédents.
 >
 >* Les rapports par classifications d’étiquettes au niveau de l’annonce ne sont pas disponibles pour les campagnes d’ [!DNL Microsoft Advertising] annonces de recherche dynamique (DSA).
 >* Plusieurs classifications d’étiquettes peuvent s’appliquer à la même entité. Par conséquent, le total de chaque mesure peut être supérieur au total réel de l’entité. Par exemple, supposons qu’un mot-clé &quot;chaussures en daim&quot; ait deux valeurs d’étiquette, &quot;daim&quot; et &quot;chaussures&quot;, et que le mot-clé ait reçu 100 clics. La colonne Clics affiche &quot;100&quot; pour chacune de ces valeurs d’étiquette, donc le total des deux lignes est &quot;200&quot;.
-* Toutes les modifications apportées aux classifications d’étiquettes et aux valeurs d’étiquettes enfants pour une entité sont visibles en environ une heure.
+>* Toutes les modifications apportées aux classifications d’étiquettes et aux valeurs d’étiquettes enfants pour une entité sont visibles en environ une heure.
 
 ## Colonnes par défaut
 

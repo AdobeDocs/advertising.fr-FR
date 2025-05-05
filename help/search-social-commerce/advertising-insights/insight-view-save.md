@@ -14,7 +14,7 @@ ht-degree: 0%
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**.
 
-2. Dans le menu de gauche, cliquez sur ![Rapports](/help/search-social-commerce/assets/insight-reports.png "2}.")
+2. Dans le menu de gauche, cliquez sur ![Rapports](/help/search-social-commerce/assets/insight-reports.png "2&rbrace;.")
 
 3. Dans le panneau [!UICONTROL Generated Insights], effectuez l’une des opérations suivantes :
 

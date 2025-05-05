@@ -100,7 +100,7 @@ Utilisez les bonnes pratiques suivantes pour les segments basés sur [!DNL RampI
 
 ### Niveaux d’écart acceptables
 
-Le taux de traduction des adresses électroniques hachées vers les ID universels doit être supérieur à 90 % ; le taux de traduction de [!DNL RampIDs] en particulier doit être de 95 % si toutes les adresses électroniques hachées sont uniques. Par exemple, si vous envoyez 100 adresses électroniques hachées à partir de votre plateforme de données client, elles doivent être traduites vers au moins 95 [!DNL RampIDs] ou plus de 90 autres types d’identifiants universels. Un taux de traduction plus faible peut indiquer un problème. Voir &quot;[Causes de la variance](#universal-ids-data-variances-causes&quot; pour obtenir des explications possibles.
+Le taux de traduction des adresses électroniques hachées vers les ID universels doit être supérieur à 90 % ; le taux de traduction de [!DNL RampIDs] en particulier doit être de 95 % si toutes les adresses électroniques hachées sont uniques. Par exemple, si vous envoyez 100 adresses électroniques hachées à partir de votre plateforme de données client, elles doivent être traduites vers au moins 95 [!DNL RampIDs] ou plus de 90 autres types d’identifiants universels. Un taux de traduction plus faible peut indiquer un problème. Voir &quot;[Causes de la variance] (#universal-ids-data-variances-causes&quot; pour obtenir des explications possibles.
 
 Pour [!DNL RampIDs], contactez votre équipe de compte d’Adobe pour plus d’informations si les taux de traduction sont inférieurs à 70 %.
 

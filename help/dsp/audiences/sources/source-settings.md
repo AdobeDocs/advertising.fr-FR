@@ -30,7 +30,7 @@ Pour [!DNL RampID] et [!DNL Unified ID2.0], le fournisseur recherche chaque adre
 
 * *[!DNL RampID]:* Pour convertir les PII en [!DNL RampID]. Vous pouvez utiliser [!DNL RampIDs] pour recibler les utilisateurs qui se connectent et pour la mesure [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
-* *[!DNL Unified ID2.0](Beta) :* Pour convertir les PII en [ ID unifié 2.0](https://unifiedid.com) pour recibler les utilisateurs qui se connectent.
+* *[!DNL Unified ID2.0] (Beta) :* Pour convertir les PII en [ ID unifié 2.0](https://unifiedid.com) pour recibler les utilisateurs qui se connectent.
 
 <!-- Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.

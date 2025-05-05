@@ -28,7 +28,7 @@ où :
 
    * `c?` ou `r` indique que le transfert de jeton est désactivé.
 
-* `<ad network ID>` est une variable de l&#39;identifiant numérique du réseau publicitaire spécifié, tel que *3* pour [!DNL Google Ads], *10* pour [!DNL Microsoft Advertising], *45* pour [!DNL Meta], *86* pour [!DNL Yahoo! Display Network], *87* pour [!DNL Naver], 16}88 *pour [!DNL Baidu],* 90 *pour [!DNL Yandex],* 94 *pour [!DNL Yahoo! Japan Ads],* 105 *pour [!DNL Yahoo Native] (obsolète) ou* 106{26 9} pour [!DNL Pinterest] (obsolète).**
+* `<ad network ID>` est une variable de l&#39;identifiant numérique du réseau publicitaire spécifié, tel que *3* pour [!DNL Google Ads], *10* pour [!DNL Microsoft Advertising], *45* pour [!DNL Meta], *86* pour [!DNL Yahoo! Display Network], *87* pour [!DNL Naver], 16&rbrace;88 *pour [!DNL Baidu],* 90 *pour [!DNL Yandex],* 94 *pour [!DNL Yahoo! Japan Ads],* 105 *pour [!DNL Yahoo Native] (obsolète) ou* 106{26 9} pour [!DNL Pinterest] (obsolète).**
 
 * `<tracking ID>` est une variable pour une chaîne d’identifiant de suivi générée par le système qui identifie un mot-clé, une publicité ou un emplacement unique dans le compte. La chaîne varie selon le réseau publicitaire.
 

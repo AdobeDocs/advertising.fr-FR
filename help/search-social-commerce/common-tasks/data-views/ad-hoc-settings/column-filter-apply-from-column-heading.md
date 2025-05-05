@@ -22,7 +22,7 @@ Vous pouvez appliquer autant de filtres que vous le souhaitez à une colonne, un
 
    * (Filtres avec champs de saisie) Sélectionnez un opérateur dans le deuxième menu, saisissez la valeur appropriée, puis cliquez sur ![Mettre à jour le filtre](/help/search-social-commerce/assets/select.png "Mettre à jour le filtre").
 
-     Par exemple, si vous avez sélectionné la colonne &quot;[!UICONTROL Clicks]&quot; et que vous souhaitez renvoyer uniquement des lignes avec plus de 100 clics, puis sélectionnez *[!UICONTROL greater than]*&quot; et saisissez `100` dans le champ de saisie En fonction du type de données, les opérateurs disponibles peuvent inclure *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]* 2}, *[!UICONTROL after]* ou *[!UICONTROL no date].*
+     Par exemple, si vous avez sélectionné la colonne &quot;[!UICONTROL Clicks]&quot; et que vous souhaitez renvoyer uniquement des lignes avec plus de 100 clics, puis sélectionnez *[!UICONTROL greater than]*&quot; et saisissez `100` dans le champ de saisie En fonction du type de données, les opérateurs disponibles peuvent inclure *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]* 2&rbrace;, *[!UICONTROL after]* ou *[!UICONTROL no date].*
 
      >[!NOTE]
      >

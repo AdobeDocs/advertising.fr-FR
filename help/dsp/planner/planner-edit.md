@@ -24,7 +24,7 @@ La modification des paramètres du plan génère une nouvelle prévision.
 
    Une fois le plan enregistré, la sortie prévisionnelle s’affiche.
 
-1. (Facultatif) Pour exporter la prévision [!UICONTROL Budget vs Reach] vers une feuille de calcul [!DNL Microsoft Excel]**, cliquez sur **[!UICONTROL ...]** dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Export]**.
+1. (Facultatif) Pour exporter la prévision [!UICONTROL Budget vs Reach] vers une feuille de calcul [!DNL Microsoft Excel]&#x200B;**, cliquez sur &#x200B;** [!UICONTROL ...] **&#x200B; dans le coin supérieur droit, puis cliquez sur &#x200B;** [!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

@@ -42,7 +42,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->>* Si l’URL de la page d’entrée contient un symbole de hachage (#), qui n’est pas courant, placez le paramètre `amo` avant le symbole de hachage.
+>&#x200B;>* Si l’URL de la page d’entrée contient un symbole de hachage (#), qui n’est pas courant, placez le paramètre `amo` avant le symbole de hachage.
 >* Si aucun autre paramètre n’est inclus après le paramètre `amo`, ajoutez-y un paramètre (par exemple, &amp;a=b). Exemple : `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### Configuration du suffixe d’URL de page d’entrée au niveau des annonceurs

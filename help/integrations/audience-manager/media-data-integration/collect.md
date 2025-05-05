@@ -74,7 +74,7 @@ Où :
     * `parameter` est remplacé par la paire clé-valeur du nouveau champ
     
     Exemple : `&amp;d_placement=${TM_PLACEMENT_ID_NUM}`
-}
+&rbrace;
 Les deux types de pixels peuvent contenir des paramètres supplémentaires, tels que des *paires clé-valeur*, pour collecter les caractéristiques ou fournir des métadonnées de campagne (comme un nom d’emplacement ou un nom de campagne) pour d’autres rapports. Une paire clé-valeur se compose de deux éléments associés : une *clé*, qui est une constante qui définit le jeu de données, et une *valeur*, qui est une variable qui appartient à l’ensemble.
 
 Dans la paire clé-valeur, la variable valeur peut être un identifiant codé en dur ou une *macro*, qui est une petite unité de code autonome remplacée dynamiquement par les valeurs correspondantes lors du chargement de la balise publicitaire pour le suivi des campagnes et des utilisateurs. Pour les paramètres liés à la campagne, vous pouvez utiliser [Macros DSP](/help/dsp/campaign-management/macros.md) au lieu des macros d’Audience Manager pour envoyer les attributs de campagne avec les données d’impression ou de clic correspondantes à l’Audience Manager, à l’aide d’un seul pixel sur toutes les publicités. Les macros DSP que vous insérez dans les pixels de l’événement doivent être des valeurs appropriées pour les paires clé-valeur que vous incluez dans les pixels. Par exemple, pour la clé `d_placement`, vous utiliseriez la macro DSP `${TM_PLACEMENT_ID_NUM}` comme valeur pour capturer les identifiants d’emplacement générés par la macro Adobe Advertising.

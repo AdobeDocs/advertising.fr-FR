@@ -20,7 +20,7 @@ Vous pouvez suspendre les modèles d’alerte actifs.
 
    * (Pour mettre un modèle en pause) Dans la ligne du modèle, cliquez dans la colonne [!UICONTROL Status] et sélectionnez *[!UICONTROL Paused]*.
 
-   * (Pour suspendre un ou plusieurs modèles) Cochez la case en regard de chaque modèle d’alerte à suspendre. Dans la barre d’outils, cliquez sur ![Pause](/help/search-social-commerce/assets/pause.png "2} . Dans la boîte de dialogue, cliquez sur **[!UICONTROL Pause]**.")
+   * (Pour suspendre un ou plusieurs modèles) Cochez la case en regard de chaque modèle d’alerte à suspendre. Dans la barre d’outils, cliquez sur ![Pause](/help/search-social-commerce/assets/pause.png "2&rbrace; . Dans la boîte de dialogue, cliquez sur **[!UICONTROL Pause]**.")
 
      Pour plus d’informations sur la sélection de plusieurs lignes, voir &quot;[Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 

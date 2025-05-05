@@ -15,16 +15,16 @@ ht-degree: 0%
 # (Beta Fermée) Guide D’Advertising Creative 2.0 {#creative}
 
 + [Nouveautés](/help/creative/home.md)
-+ {#introduction} d’introduction
++ d’introduction{#introduction}
    + [Personnalisation des vues de données](/help/creative/introduction/customize-data-views.md)
    + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-+ {#creative-libraries} des bibliothèques créatives
++ des bibliothèques créatives{#creative-libraries}
    + [À propos de vos bibliothèques de création](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md)
    + [Gestion des bibliothèques de création](/help/creative/creative-libraries/creative-library-manage.md)
-   + {#creatives} de contenu publicitaire
-      + {#standard-creatives} de contenu publicitaire standard
+   + de contenu publicitaire{#creatives}
+      + de contenu publicitaire standard{#standard-creatives}
          + [Ajout de contenus publicitaires standard à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-standard.md)
          + [Modification de contenus publicitaires standard](/help/creative/creative-libraries/creative-edit-standard.md)
          + [Paramètres de création standard](/help/creative/creative-libraries/creative-settings-standard.md)
@@ -36,9 +36,9 @@ ht-degree: 0%
       + [Supprimer des contenus publicitaires](/help/creative/creative-libraries/creative-delete.md)
    + Lots de création {#bundles}
       + [Gestion des offres groupées de création](/help/creative/creative-libraries/bundle-manage.md)
-+ {#creative-experiences} des expériences publicitaires
++ des expériences publicitaires{#creative-experiences}
    + [À propos des expériences dans Advertising Creative](/help/creative/experiences/experience-about.md)
-   + Expériences avec les {#experience-targeted} de ciblage
+   + Expériences avec les de ciblage {#experience-targeted}
       + [Disposition de l’arborescence de décision](/help/creative/experiences/experience-decision-tree.md)
       + [Créer une expérience avec le ciblage](/help/creative/experiences/experience-create-targeting.md)
       + [Modification d’une expérience avec le ciblage](/help/creative/experiences/experience-edit-targeting.md)
@@ -50,11 +50,11 @@ ht-degree: 0%
             + [Ajouter un nœud cible frère](/help/creative/experiences/experience-target-node-add-sibling.md)
             + [Copiez les nœuds enfants dans un autre nœud au même niveau.](/help/creative/experiences/experience-target-node-copy.md)
             + [Suppression d’un nœud cible ou d’un nœud feuille de création](/help/creative/experiences/experience-target-node-delete.md)
-         + Lots Creative et {#bundles} de contenu publicitaire
+         + Lots Creative et de contenu publicitaire {#bundles}
             + [Affectez et annulez l’affectation des lots de contenu créatif à un nœud final](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [Personnaliser les URL de tracking pour les créatifs](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [Personnalisation de l’optimisation et de la planification de la création](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-   + Expériences sans {#experience-nontargeted} de ciblage
+   + Expériences sans de ciblage {#experience-nontargeted}
       + [Créer une expérience sans ciblage](/help/creative/experiences/experience-create-no-targeting.md)
       + [Modification d’une expérience sans ciblage](/help/creative/experiences/experience-edit-no-targeting.md)
       + [Paramètres de l’expérience non ciblée](/help/creative/experiences/experience-settings-no-targeting.md)

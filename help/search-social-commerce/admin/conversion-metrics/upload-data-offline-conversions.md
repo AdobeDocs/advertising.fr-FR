@@ -67,5 +67,5 @@ Pour plus d’instructions sur l’utilisation du modèle, voir [https://help.ad
 >
 >* [Implémentation [!DNL Google Ads] de conversions améliorées pour les pistes](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
 >* [Implémentation [!DNL Microsoft Advertising] de conversions hors ligne améliorées](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
->* ([!DNL Google Ads only])[ Créez une action de conversion pour une  [!DNL Google Ads] conversion améliorée pour les pistes](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* ([!DNL Google Ads only]) [ Créez une action de conversion pour une  [!DNL Google Ads] conversion améliorée pour les pistes](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
 >* [ Télécharger les mesures de conversion de recherche, de Social et de suivi Commerce vers  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)

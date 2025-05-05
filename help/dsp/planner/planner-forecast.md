@@ -18,7 +18,7 @@ Vous pouvez régénérer la prévision pour un plan de portée télévisée conn
 
 1. Placez le curseur sur la ligne Plan et cliquez sur **[!UICONTROL Forecast]**.
 
-1. (Facultatif) Pour exporter la prévision [!UICONTROL Budget vs Reach] vers une feuille de calcul [!DNL Microsoft Excel]**, cliquez sur **[!UICONTROL ...]** dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Export]**.
+1. (Facultatif) Pour exporter la prévision [!UICONTROL Budget vs Reach] vers une feuille de calcul [!DNL Microsoft Excel]&#x200B;**, cliquez sur &#x200B;** [!UICONTROL ...] **&#x200B; dans le coin supérieur droit, puis cliquez sur &#x200B;** [!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

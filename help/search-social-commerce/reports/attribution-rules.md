@@ -24,8 +24,8 @@ Dans les rapports, les vues par défaut et personnalisées pour Advertising Sear
 >
 >* Les règles d’attribution s’appliquent aux clics sur les publicités payantes de n’importe quel canal et aux impressions sur les publicités affichées et sociales. Elles ne s’appliquent pas aux impressions pour les annonces de référencement payant, qui ne peuvent pas être suivies au niveau de l’événement.
 >* Adobe Advertising stocke toujours les événements suivants pour chaque internaute avant une conversion : a) le premier clic payant ; b) jusqu’à 10 clics pour chaque canal (recherche, réseaux sociaux ou affichage), y compris le premier clic ; et c) jusqu’à 10 impressions display. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-* Dans Advertising DSP et Advertising Creative, les définitions entre appareils ne prennent en compte que le chemin d’événement de la règle d’attribution sélectionnée.<!-- cross-device attribution via LiveRamp only -->
-* Dans les rapports et les vues de gestion, le nombre de décimales affichées pour une valeur dépend de la devise, mais Adobe Advertising stocke des valeurs plus précises.
+>* Dans Advertising DSP et Advertising Creative, les définitions entre appareils ne prennent en compte que le chemin d’événement de la règle d’attribution sélectionnée.<!-- cross-device attribution via LiveRamp only -->
+>* Dans les rapports et les vues de gestion, le nombre de décimales affichées pour une valeur dépend de la devise, mais Adobe Advertising stocke des valeurs plus précises.
 
 ## Dernier événement (valeur par défaut)
 

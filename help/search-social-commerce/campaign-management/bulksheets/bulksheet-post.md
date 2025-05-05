@@ -35,7 +35,7 @@ Lorsque la tâche commence, l’état et la date de publication planifiée de la
 >
 >* La publication de grandes quantités de données prend plus de temps. Vous pouvez suivre la progression du fichier dans la colonne [!UICONTROL Progress] de la vue [!UICONTROL Bulksheets].
 >* Toutes les données publiées sont soumises au processus éditorial du réseau.
-* Avant de publier le fichier de feuille d’envoi groupé, vous pouvez annuler la publication.
+>* Avant de publier le fichier de feuille d’envoi groupé, vous pouvez annuler la publication.
 
 ## Paramètres de publication pour les feuilles d’envoi groupées et les fichiers d’erreur corrigés {#bulksheet-post-settings}
 

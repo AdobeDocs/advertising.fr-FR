@@ -27,7 +27,7 @@ Cette fonction n’affecte pas la cible spécifiée pour le nœud parent. Elle n
 
    * Pour remplacer tous les nœuds enfants et les éléments créatifs d’un nœud, cliquez sur le nœud dans lequel vous souhaitez coller les informations copiées, cliquez sur **...**, puis sur a\), sélectionnez **[!UICONTROL Replace ctrl+shift+v]** ou b\) saisissez **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) ou **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) sur le clavier.
 
-   * (Nœuds avec plusieurs cibles enfants, pas de nœuds « Tous » et pas de contenu publicitaire uniquement) Pour ajouter tous les nœuds enfants et les contenus publicitaires à un nœud, sans supprimer les nœuds existants, cliquez sur le nœud dans lequel vous souhaitez coller les informations copiées, cliquez sur **...**, puis a\) sélectionnez **[!UICONTROL Add ctrl+v]** ** ou b\) saisissez **[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows]) ou **[!UICONTROL Command-V]** ([!DNL Apple Macintosh]) sur votre clavier.
+   * (Nœuds avec plusieurs cibles enfants, pas de nœuds « Tous » et pas de contenu publicitaire uniquement) Pour ajouter tous les nœuds enfants et les contenus publicitaires à un nœud, sans supprimer les nœuds existants, cliquez sur le nœud dans lequel vous souhaitez coller les informations copiées, cliquez sur **...**, puis a\) sélectionnez **[!UICONTROL Add ctrl+v]** **&#x200B; ou b\) saisissez &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows]) ou &#x200B;** [!UICONTROL Command-V]** ([!DNL Apple Macintosh]) sur votre clavier.
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

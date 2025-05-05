@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Fonctionnalité Beta*
 
-Lorsque vous êtes [ ](notification-edit.md) abonné aux notifications concernant les erreurs d&#39;authentification du compte, les alertes personnalisées déclenchées et [!UICONTROL Advertising Insights] générées, vous pouvez afficher vos notifications dans le panneau [!UICONTROL Notifications] ou [!UICONTROL Notification Center].
+Lorsque vous êtes [&#128279;](notification-edit.md) abonné aux notifications concernant les erreurs d&#39;authentification du compte, les alertes personnalisées déclenchées et [!UICONTROL Advertising Insights] générées, vous pouvez afficher vos notifications dans le panneau [!UICONTROL Notifications] ou [!UICONTROL Notification Center].
 
 ## Affichage des notifications dans le panneau [!UICONTROL Notifications]
 
