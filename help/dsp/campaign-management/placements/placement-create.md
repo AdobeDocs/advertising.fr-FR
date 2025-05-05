@@ -145,4 +145,4 @@ ht-degree: 0%
 >* [ Questions fréquentes à propos de la vidéo universelle ](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Performance de dépannage](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vidéo : Comment créer un emplacement d’affichage standard](https://video.tv.adobe.com/v/340454)
+>* [Vidéo : Comment créer un emplacement d’affichage standard](https://video.tv.adobe.com/v/344999?captions=fre_fr)
