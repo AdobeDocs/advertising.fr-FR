@@ -21,7 +21,7 @@ Adobe Advertising et Adobe Target facilitent la configuration des tests A/B d’
 
 * Proposer une expérience de page d’entrée plus personnalisée qui soit pertinente pour la publicité (par exemple, faire correspondre l’image/la vidéo créative, la copie, le mot-clé ou tout autre signal publicitaire à la page d’entrée).
 
-Vous pouvez également combiner les dimensions de création de rapports natives [[!DNL Analytics] pour Advertising](/help/integrations/analytics/overview.md) et [[!DNL Analytics] pour [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) intégrées à Adobe Analytics pour mesurer et visualiser vos données de test avec des mesures [!DNL Analytics] et des événements de succès.
+Vous pouvez également combiner les dimensions de création de rapports natives [[!DNL Analytics] pour Advertising](/help/integrations/analytics/overview.md) et [[!DNL Analytics] pour [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr) intégrées à Adobe Analytics pour mesurer et visualiser vos données de test avec des mesures [!DNL Analytics] et des événements de succès.
 
 Reportez-vous aux sections suivantes pour connaître les conditions préalables, les instructions de configuration des tests A/B dans [!DNL Target] pour le trafic de clics publicitaires dans Search, Social et Commerce, ainsi que des conseils sur la mesure et la visualisation de vos tests dans [!DNL Analytics].
 
@@ -38,15 +38,15 @@ Reportez-vous aux sections suivantes pour connaître les conditions préalables,
 
 * [[!DNL Analytics] pour l’intégration Advertising](/help/integrations/analytics/overview.md)<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
-* Intégration [[!DNL Analytics] pour [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
+* Intégration [[!DNL Analytics] pour [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr)
 
 ## Étape 1 : création d’une activité de test A/B dans [!DNL Target] pour Search, Social et Commerce
 
 Les instructions suivantes présentent des informations relatives au cas d’utilisation de Search, Social et Commerce.
 
-1. [Connectez-vous à Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
+1. [Connectez-vous à Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=fr).
 
-1. [Créez un test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) :
+1. [Créez un test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=fr) :
 
    1. Dans le champ **[!UICONTROL Enter Activity URL]** , saisissez l’URL de la landing page pour le test.
 
@@ -61,7 +61,7 @@ Les instructions suivantes présentent des informations relatives au cas d’uti
 
    1. Dans **[!UICONTROL Reporting Settings]**, sélectionnez les **[!UICONTROL Company Name]** et **[!UICONTROL Report Suite]** connectés à votre compte Search, Social, &amp; Commerce.
 
-      Pour obtenir des conseils supplémentaires sur la création de rapports, voir &quot;[Bonnes pratiques en matière de création de rapports et résolution des problèmes](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html)&quot;.
+      Pour obtenir des conseils supplémentaires sur la création de rapports, voir &quot;[Bonnes pratiques en matière de création de rapports et résolution des problèmes](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=fr)&quot;.
 
    1. Dans le champ **[!UICONTROL Date Range]** , saisissez les dates de début et de fin appropriées pour le test.
 
@@ -77,7 +77,7 @@ Les instructions suivantes présentent des informations relatives au cas d’uti
 
    1. Enregistrez l’activité.
 
-1. Utilisez [le compositeur d’expérience visuelle de Target](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) pour apporter des modifications de conception au modèle de page d’entrée de test A/B.
+1. Utilisez [le compositeur d’expérience visuelle de Target](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=fr) pour apporter des modifications de conception au modèle de page d’entrée de test A/B.
 
    * Expérience A : ne modifiez pas, car il s’agit de l’expérience de page d’entrée par défaut/de contrôle sans personnalisation.
 
@@ -91,7 +91,7 @@ Les instructions suivantes présentent des informations relatives au cas d’uti
 
 [!DNL Analytics for Target] (A4T) est une intégration intersolutions qui permet aux annonceurs de créer des activités [!DNL Target] basées sur [!DNL Analytics] mesures de conversion et segments d’audience, puis de mesurer les résultats à l’aide de [!DNL Analytics] comme source de création de rapports. Tous les rapports et segmentation pour cette activité sont basés sur la collecte de données [!DNL Analytics].
 
-Pour plus d’informations sur [!DNL Analytics for Target], y compris un lien vers les instructions de mise en oeuvre, voir &quot;[Adobe Analytics as a reporting source for Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)&quot;.
+Pour plus d’informations sur [!DNL Analytics for Target], y compris un lien vers les instructions de mise en oeuvre, voir &quot;[Adobe Analytics as a reporting source for Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr)&quot;.
 
 ### Configuration du panneau [!DNL Analytics for Target]
 
@@ -119,7 +119,7 @@ Les dimensions suivantes se rapportent à [!DNL Analytics for Target] :
 
 Dans Analysis Workspace, si vous constatez que les données d’activité et d’expérience sont minimales ou ne sont pas renseignées, procédez comme suit :
 
-* Vérifiez que le même [!UICONTROL Supplemental Data ID] (SDID) est utilisé pour [!DNL Target] et [!DNL Analytics]. Vous pouvez vérifier les valeurs du SDID à l’aide du [débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) sur la page d’entrée vers laquelle la campagne dirige les utilisateurs.
+* Vérifiez que le même [!UICONTROL Supplemental Data ID] (SDID) est utilisé pour [!DNL Target] et [!DNL Analytics]. Vous pouvez vérifier les valeurs du SDID à l’aide du [débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=fr) sur la page d’entrée vers laquelle la campagne dirige les utilisateurs.
 
 [Valeurs SDID (Supplemental Data ID) dans Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
@@ -133,8 +133,8 @@ Dans Analysis Workspace, si vous constatez que les données d’activité et d�
 
 ## Autres lectures
 
-* [Intégrer Target avec Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - Explique comment configurer la création de rapports [!DNL Target] dans Analysis Workspace.
-* [Présentation du test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - Décrit les activités de test A/B que vous pouvez utiliser avec les annonces Search, Social et Commerce.
+* [Intégrer Target avec Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=fr) - Explique comment configurer la création de rapports [!DNL Target] dans Analysis Workspace.
+* [Présentation du test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=fr) - Décrit les activités de test A/B que vous pouvez utiliser avec les annonces Search, Social et Commerce.
 * [Présentation d’Analytics pour Advertising](/help/integrations/analytics/overview.md) - Introduit Analytics pour Advertising, qui vous permet d’effectuer le suivi des clics publicitaires et des interactions de site d’affichage publicitaire dans vos instances Analytics.
 
 >[!MORELIKETHIS]

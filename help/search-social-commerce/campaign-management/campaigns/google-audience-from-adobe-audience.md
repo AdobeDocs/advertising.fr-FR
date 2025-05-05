@@ -34,7 +34,7 @@ Chaque nouvelle audience [!DNL Google] porte le même nom que l&#39;audience [!D
 
    1. (Pour créer des audiences de liste de remarketing des identifiants utilisateur) Un utilisateur administrateur ou un gestionnaire de compte [!DNL Adobe] doit sélectionner le paramètre au niveau de l’annonceur pour activer les audiences de correspondance client.
 
-   1. Mettez en oeuvre la version 2.0 ou ultérieure de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+   1. Mettez en oeuvre la version 2.0 ou ultérieure de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
 
    1. Déployez la balise suivante aussi haut que possible sur les pages web de l’annonceur à partir desquelles l’audience doit être suivie.
 

@@ -294,7 +294,7 @@ Voir les causes possibles et les solutions pour les implémentations de pixels c
 +++
 
 +++Les données sur les recettes diffèrent des données dans Adobe Analytics
-Voir [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
+Voir [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=fr](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=fr).<!-- change link URL to relative link -->
 +++
 
 ## Rapports spécifiques

@@ -77,5 +77,5 @@ Vous pouvez télécharger des feuilles de balises [!DNL DoubleClick] et [!DNL Fl
 >* [À propos de la gestion des publicités](ad-about.md)
 >* [Spécifications de la publicité](ad-specs.md)
 >* [Créer une publicité unique](ad-create.md)
->* [Vidéo : Comment télécharger en masse des balises publicitaires tierces](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [Vidéo : Comment télécharger en masse des balises publicitaires tierces](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=fr)
 >* [ Questions fréquentes à propos de la vidéo universelle ](/help/dsp/campaign-management/faq-universal-video.md)

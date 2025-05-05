@@ -26,9 +26,9 @@ Vous pouvez vous connecter à Search, Social et Commerce directement ou depuis A
 
 >[!NOTE]
 >
->Votre société doit être configurée dans Adobe Experience Cloud et [vous devez avoir  lié votre compte Experience Cloud à un compte Search, Social &amp; Commerce](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
+>Votre société doit être configurée dans Adobe Experience Cloud et [vous devez avoir  lié votre compte Experience Cloud à un compte Search, Social &amp; Commerce](https://experiencecloud.adobe.com/resources/help/fr_FR/mcloud/organizations.html).
 
-1. [Connectez-vous à Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
+1. [Connectez-vous à Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=fr#signin).
 
 1. Dans le menu supérieur, sélectionnez ![sélecteur de solution](/help/search-social-commerce/assets/menu-icon.png "sélecteur de solution").
 

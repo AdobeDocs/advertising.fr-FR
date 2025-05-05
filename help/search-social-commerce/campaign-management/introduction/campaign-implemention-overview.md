@@ -60,13 +60,13 @@ Cette page contient des informations sur tous les types de compte, y compris sur
 
    1. Configurez le suivi des conversions. Selon l’implémentation, cela peut impliquer l’ajout de balises de suivi de conversion aux pages web de l’annonceur et/ou la configuration d’une baisse de flux quotidienne pour les données de conversion que l’annonceur a collectées séparément.
 
-      Si vous utilisez le service de suivi de conversion Adobe Advertising, vous pouvez générer des balises de suivi de conversion [ dans Search, Social, &amp; Commerce ](/help/search-social-commerce/tools/conversion-tag-generate.md) ou [ en utilisant Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
+      Si vous utilisez le service de suivi de conversion Adobe Advertising, vous pouvez générer des balises de suivi de conversion [ dans Search, Social, &amp; Commerce ](/help/search-social-commerce/tools/conversion-tag-generate.md) ou [ en utilisant Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html?lang=fr).
 
    1. Validez les données suivies.
 
    Pour plus d’informations sur la configuration du suivi, reportez-vous au chapitre &quot;Tracking&quot;.
 
-1. (Publicitaires avec Adobe Analytics) [Intégrez Adobe Advertising et Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) afin qu’ils puissent exchange des données.
+1. (Publicitaires avec Adobe Analytics) [Intégrez Adobe Advertising et Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr) afin qu’ils puissent exchange des données.
 
 1. (Pour permettre à Search, Social et Commerce d’optimiser les offres, les budgets de campagne et/ou les cibles de stratégie d’offre de campagne ; [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) uniquement) [Affectez la campagne à un portefeuille](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 

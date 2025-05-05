@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Adobe] [!DNL Audience Analytics] pour les clients Adobes Advertising
 
-[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) est une intégration entre Adobe Audience Manager et Adobe Analytics qui permet aux clients d’Audience Manager d’envoyer des segments à [!DNL Analytics] pour obtenir des informations enrichies sur l’activité du site.
+[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=fr) est une intégration entre Adobe Audience Manager et Adobe Analytics qui permet aux clients d’Audience Manager d’envoyer des segments à [!DNL Analytics] pour obtenir des informations enrichies sur l’activité du site.
 
 Les clients Adobe Advertising peuvent en bénéficier en utilisant [!DNL Audience Analytics]. L’intégration vous permet d’effectuer les opérations suivantes :
 
@@ -20,7 +20,7 @@ Les clients Adobe Advertising peuvent en bénéficier en utilisant [!DNL Audienc
 
 * Déterminez les canaux marketing et les points d’entrée du site à partir des publicités haut de l’entonnoir.
 
-* Associez l’intégration à [!DNL Analytics for Advertising] pour incorporer des segments démographiques tiers de [l’Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html) avec des données [!DNL Analytics for Advertising] pour obtenir plus d’informations sur les profils utilisateur.
+* Associez l’intégration à [!DNL Analytics for Advertising] pour incorporer des segments démographiques tiers de [l’Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html?lang=fr) avec des données [!DNL Analytics for Advertising] pour obtenir plus d’informations sur les profils utilisateur.
 
   [!DNL Audience Marketplace] donne accès aux flux de données tiers avec des modèles d’abonnement &quot;Activation&quot;, qui permettent aux acheteurs d’envoyer des données vers une destination. Si les données sont utilisées dans une destination [!DNL Analytics], les frais d’activation ne sont pas appliqués.
 
@@ -28,7 +28,7 @@ Les clients Adobe Advertising peuvent en bénéficier en utilisant [!DNL Audienc
 
   Advertising DSP peut envoyer des données d’exposition à l’Audience Manager sous forme de signaux exploitables par le biais de l’implémentation de Adobe Experience Platform ou des pixels de suivi des impressions de l’Audience Manager. Le transfert des mêmes données vers [!DNL Analytics] permet une analyse avancée des données. Pour plus d’informations, voir &quot;[Présentation de l’intégration des données multimédia Adobe Advertising avec Adobe Audience Manager](/help/integrations/audience-manager/media-data-integration/overview.md)&quot;.
 
-Pour plus d’informations sur [!DNL Audience Analytics], y compris ses conditions préalables et son workflow, voir &quot;[Audience Analytics overview](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)&quot;.
+Pour plus d’informations sur [!DNL Audience Analytics], y compris ses conditions préalables et son workflow, voir &quot;[Audience Analytics overview](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=fr)&quot;.
 
 ## Exemples d&#39;utilisation des données [!DNL Audience Analytics] avec des données d&#39;Adobe Advertising
 

@@ -27,7 +27,7 @@ Les éléments suivants s’appliquent aux balises de suivi de conversion d’Ad
 >[!NOTE]
 >
 >* Toutes les nouvelles mises en oeuvre utilisent JavaScript version 3.
->* La balise JavaScript avec ECID utilise le [service Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) ainsi que l’ef_id et gsurferid hérités pour mesurer les conversions. Cette dernière balise crée des [cookies s_ecid Experience Cloud propriétaires](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) et offre une intégration plus étroite avec d’autres produits Experience Cloud.
+>* La balise JavaScript avec ECID utilise le [service Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) ainsi que l’ef_id et gsurferid hérités pour mesurer les conversions. Cette dernière balise crée des [cookies s_ecid Experience Cloud propriétaires](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=fr) et offre une intégration plus étroite avec d’autres produits Experience Cloud.
 >* Utilisez les balises de la version 2 de JavaScript uniquement lorsqu’elles sont déjà implémentées sur les pages web de l’annonceur.
 >* Il est recommandé d’utiliser les balises JavaScript plutôt que les balises d’image, sauf si le site a une politique contre leur utilisation.
 >* Les balises JavaScript sont requises pour les annonceurs qui souhaitent cibler les audiences créées dans Adobe Experience Cloud, créées dans Adobe Audience Manager ou publiées sur Adobe Experience Cloud depuis Audience Manager ou Adobe Analytics.

@@ -38,4 +38,4 @@ Vous pouvez modifier le nom, l’état, l’offre maximale et le budget de l’e
 >* [Mettre en pause ou activer un emplacement](placement-pause-activate.md)
 >* [Afficher le journal des modifications d’un emplacement](placement-change-log.md)
 >* [Paramètres de placement](placement-settings.md)
->* [Vidéo : Comment modifier des emplacements à l’aide des outils de modification en masse](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Vidéo : Comment modifier des emplacements à l’aide des outils de modification en masse](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=fr)

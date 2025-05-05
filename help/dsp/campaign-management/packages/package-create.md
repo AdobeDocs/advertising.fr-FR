@@ -32,4 +32,4 @@ Une fois que vous avez créé un module, vous pouvez lui attribuer des emplaceme
 >* [Afficher le journal des modifications d’un package](package-change-log.md)
 >* [Suspendre ou activer un module](package-pause-activate.md)
 >* [Paramètres du module](package-settings.md)
->* [Vidéo : Comment créer un module](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
+>* [Vidéo : Comment créer un module](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=fr)

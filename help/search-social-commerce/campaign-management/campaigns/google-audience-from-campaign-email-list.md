@@ -22,7 +22,7 @@ Pour ce faire, vous devez accéder à votre instance [!DNL Campaign] et à un fi
 
 1. Dans [!DNL Campaign], configurez la diffusion de la liste de messagerie vers Advertising Search, Social et Commerce :
 
-   1. Créez un [compte externe](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html) pour lier votre compte SFTP fourni par Search, Social et Commerce :
+   1. Créez un [compte externe](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html?lang=fr) pour lier votre compte SFTP fourni par Search, Social et Commerce :
 
       1. Dans le menu de gauche, accédez à **\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]**.
 

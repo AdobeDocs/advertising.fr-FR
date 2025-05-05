@@ -42,7 +42,7 @@ Une fois que vous avez créé les audiences, vous pouvez les utiliser dans les c
 
 >[!NOTE]
 >
->Pour plus d’informations sur la création d’audiences dans les interfaces d’Audience Manager et d’Experience Cloud [!DNL Audience Library] et les cas d’utilisation courants pour différents types d’audiences, voir &quot;[Options de création d’audience](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)&quot;.
+>Pour plus d’informations sur la création d’audiences dans les interfaces d’Audience Manager et d’Experience Cloud [!DNL Audience Library] et les cas d’utilisation courants pour différents types d’audiences, voir &quot;[Options de création d’audience](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=fr)&quot;.
 
 ## Envoi DSP données d’exposition multimédia à l’Audience Manager
 
@@ -54,6 +54,6 @@ Pour plus d’informations, voir &quot;[Présentation de l’envoi DSP données 
 
 ## Obtenir des informations plus riches sur l’activité du site avec Audience Analytics
 
-Les clients Adobe Advertising disposant de [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) peuvent envoyer à la fois des données suivies par l’Adobe Advertising et des segments d’Audience Manager à [!DNL Analytics] pour obtenir des informations enrichies sur l’activité du site.
+Les clients Adobe Advertising disposant de [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=fr) peuvent envoyer à la fois des données suivies par l’Adobe Advertising et des segments d’Audience Manager à [!DNL Analytics] pour obtenir des informations enrichies sur l’activité du site.
 
 Pour plus d’informations, voir &quot;[[!DNL Adobe Audience Analytics] pour les clients Adobe Advertising](/help/integrations/audience-manager/audience-analytics.md)&quot;.

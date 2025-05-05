@@ -70,4 +70,4 @@ Tous les nouveaux comptes [!DNL Google Ads] utilisent automatiquement le format 
 >
 >* [Gérer des comptes réseau publicitaires](ad-network-account-manage.md)
 >* [ID d’Adobe Advertising utilisés par [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Présentation de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
+>* [Présentation de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=fr){target="_blank"}

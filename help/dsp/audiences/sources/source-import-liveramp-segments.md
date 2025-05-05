@@ -44,5 +44,5 @@ Le mappage et le chargement des segments pour chaque tâche d’importation peuv
 >
 >* [À propos des sources d’audience propriétaires](source-about.md)
 >* [Gérer les sources d’audience pour activer les audiences d’ID universels](source-manage.md)
->* [Adobe Advertising DSP la connexion](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising DSP la connexion](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=fr)
 >* [À propos de la gestion de l’audience](/help/dsp/audiences/audience-about.md)

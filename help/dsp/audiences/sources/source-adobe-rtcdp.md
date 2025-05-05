@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Fonctionnalité Beta*
 
-Utilisez l’intégration DSP avec [le [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), qui fait partie de Adobe Experience Platform, pour convertir vos adresses électroniques hachées en identifiants universels pour la publicité ciblée.
+Utilisez l’intégration DSP avec [le [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr), qui fait partie de Adobe Experience Platform, pour convertir vos adresses électroniques hachées en identifiants universels pour la publicité ciblée.
 
 1. (Pour convertir les adresses électroniques en [!DNL RampIDs]<!-- or [!DNL ID5] IDs --> ; annonceurs avec [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Configurez le suivi pour la mesure [!DNL Analytics] :
 
@@ -30,7 +30,7 @@ Utilisez l’intégration DSP avec [le [!DNL Adobe Real-Time CDP]](https://exper
 
 1. Dans Adobe Experience Platform, configurez une connexion de destination Advertising DSP à l’aide du [!UICONTROL Source Key] généré dans les paramètres source DSP.
 
-   Pour obtenir des instructions sur l’activation de la connexion DSP destination, la sélection de segments et l’accès aux autorisations de contrôle, voir &quot;[Connexion Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)&quot;.
+   Pour obtenir des instructions sur l’activation de la connexion DSP destination, la sélection de segments et l’accès aux autorisations de contrôle, voir &quot;[Connexion Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=fr)&quot;.
 
    Les adresses électroniques source doivent être hachées à l’aide de l’algorithme SHA-256.
 
@@ -50,7 +50,7 @@ Pour résoudre les problèmes liés à la procédure de conversion, contactez vo
 >
 >* [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md)
 >* [Gérer les sources d’audience pour activer les audiences d’ID universels](source-manage.md)
->* [Adobe Advertising DSP la connexion](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* [ Présentation du catalogue des destinations de Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [Adobe Advertising DSP la connexion](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=fr)
+>* [ Présentation du catalogue des destinations de Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=fr)
 >* [Prise en charge de l’activation des ID universels](/help/dsp/audiences/universal-ids.md)
 >* [À propos de la gestion de l’audience](/help/dsp/audiences/audience-about.md)

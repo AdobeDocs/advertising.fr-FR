@@ -17,7 +17,7 @@ Adobe Advertising prend en charge les devises suivantes.
 
 >[!NOTE]
 >
->Adobe Analytics prend en charge [un plus grand ensemble de devises](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
+>Adobe Analytics prend en charge [un plus grand ensemble de devises](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=fr).
 
 ## DSP et créatif
 

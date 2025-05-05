@@ -230,7 +230,7 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 
 ### Champs de l’annonce de produit (achats)
 
-Pour plus d’informations sur la création de publicités commerciales, voir &quot;[Implémentation [!DNL Microsoft Advertising] campagnes commerciales](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)&quot;.
+Pour plus d’informations sur la création de publicités commerciales, voir &quot;[Implémentation [!DNL Microsoft Advertising] campagnes commerciales](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=fr)&quot;.
 
 Pour ce type d’annonce, utilisez la ligne &quot;[!UICONTROL Creative (except RSA)]&quot; dans la boîte de dialogue [!UICONTROL Download Bulksheet].
 

@@ -55,5 +55,5 @@ Vous pouvez améliorer davantage l’analyse en utilisant un graphique empilé d
 >* [Principes fondamentaux de [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Utilisation d’identifiants d’Adobe Advertising pour créer [!DNL Marketing Channels] des règles de traitement](mc-ids.md)
 >* [ Pourquoi les données de canal peuvent varier entre l’Adobe Advertising et  [!DNL Marketing Channels]](mc-data-variances.md)
->* [Vidéo : Utilisation de [!DNL Marketing Channels] pour la création de rapports d’Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Vidéo : Utilisation de [!DNL Marketing Channels] pour la création de rapports d’Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=fr)
 >* [Présentation de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

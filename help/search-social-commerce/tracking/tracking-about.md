@@ -30,7 +30,7 @@ Les paramètres de suivi permettent à l’Adobe Advertising de suivre les clics
 
 * Dans tous les autres cas, le réseau publicitaire envoie directement le clic aux serveurs de pixels Adobe Advertising. Le serveur de pixel place un cookie sur l’ordinateur de l’utilisateur (s’il n’existe pas déjà), puis redirige l’utilisateur vers l’URL appropriée de votre site web. L’expérience globale de l’utilisateur final est la même que celle qui se présenterait sans redirection.
 
-Le cookie est défini dans le domaine [!DNL Adobe] (`everesttech.net`) comme cookie propriétaire. Après une redirection, l’utilisateur se trouve sur le domaine de l’annonceur, puis le cookie est traité comme un cookie tiers. Pour plus d’informations sur les cookies d’Adobe Advertising, voir &quot;[Adobe Advertising cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)&quot;.
+Le cookie est défini dans le domaine [!DNL Adobe] (`everesttech.net`) comme cookie propriétaire. Après une redirection, l’utilisateur se trouve sur le domaine de l’annonceur, puis le cookie est traité comme un cookie tiers. Pour plus d’informations sur les cookies d’Adobe Advertising, voir &quot;[Adobe Advertising cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=fr)&quot;.
 
 ## Données de conversion
 

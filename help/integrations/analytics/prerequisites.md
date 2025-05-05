@@ -41,7 +41,7 @@ Fournissez les informations suivantes à l’équipe de mise en oeuvre d’Adobe
 * L’identifiant de suite de rapports [!DNL Analytics] à utiliser pour la création de rapports sur l’activité de média payant et pour alimenter l’activité du site en vue de l’optimisation et de la création de rapports dans Adobe Advertising
 * ID d’organisation Experience Cloud de l’entreprise (ID d’organisation).
 
-Vous trouverez ces deux ID dans l’onglet [Résumé du débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
+Vous trouverez ces deux ID dans l’onglet [Résumé du débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=fr).
 
 ![Écran récapitulatif des Experience Cloud Debugger](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -68,7 +68,7 @@ Comme les données [!DNL Analytics] sont envoyées à Adobe Advertising pour la 
 
 >[!NOTE]
 >
->Pour segmenter les données pour une autre période, vous pouvez [ configurer des segments personnalisés ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) avec différentes intervalles de recherche en amont dans Analysis Workspace.
+>Pour segmenter les données pour une autre période, vous pouvez [ configurer des segments personnalisés ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=fr) avec différentes intervalles de recherche en amont dans Analysis Workspace.
 
 ## Environnements publicitaires pris en charge
 
@@ -111,7 +111,7 @@ Exemple : `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 
 Pour une intégration des données exacte, tous les appels d’Adobe Advertising utilisés par une activité [!DNL Analytics for Advertising] pour diffuser du contenu ou enregistrer la mesure d’objectif doivent avoir un accès [!DNL Analytics] correspondant partageant le même ID supplémentaire.
 
-Lorsque vous effectuez un dépannage dans [!DNL Analytics], veillez à confirmer que l’ID supplémentaire est présent pour les accès [!DNL Analytics]. Dans le [débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html), vous pouvez voir cet ID dans l’onglet Adobe Advertising comme paramètre `sdid`.
+Lorsque vous effectuez un dépannage dans [!DNL Analytics], veillez à confirmer que l’ID supplémentaire est présent pour les accès [!DNL Analytics]. Dans le [débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=fr), vous pouvez voir cet ID dans l’onglet Adobe Advertising comme paramètre `sdid`.
 
 >[!NOTE]
 >
