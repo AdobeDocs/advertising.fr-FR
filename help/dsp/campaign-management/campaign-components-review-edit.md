@@ -3,9 +3,9 @@ title: Vérifier et modifier les paramètres des composants de Campaign à l’a
 description: Découvrez comment examiner et modifier en bloc des packages, des emplacements et des paramètres d’annonces clés à l’aide de feuilles de calcul.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: c1039c59c0a1f8d2bbe08b4522b28f2f883a3dea
+source-git-commit: 7af6788f2aae3a2fb9e2048676dbe1955c2e56d9
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Vous pouvez télécharger les paramètres des packages, des emplacements et des annonces publicitaires dans une seule campagne au format XLSX (feuille de calcul [!DNL Microsoft Excel]) pour consulter et modifier les paramètres. Par défaut, le fichier téléchargé, appelé *feuille d’envoi groupé*, comprend des onglets distincts pour les paramètres de package, les informations de vol du package, les paramètres d’emplacement et les plannings d’annonces d’emplacement. Vous pouvez éventuellement exclure les paramètres de certains types de composants de campagne.
 
-Pour mettre à jour plusieurs paramètres à la fois, chargez un fichier de feuille d’envoi groupé valide avec les modifications. Pour créer la feuille d’envoi groupé, modifiez une feuille d’envoi groupé téléchargée avec les paramètres existants. Les champs modifiables incluent la plupart des paramètres qui sont normalement modifiables.
+Pour mettre à jour plusieurs paramètres à la fois, chargez un fichier de feuille d’envoi groupé valide avec les modifications. Pour créer la feuille d’envoi groupé, modifiez une feuille d’envoi groupé téléchargée avec les paramètres existants. Les champs modifiables incluent la plupart des paramètres qui sont normalement modifiables. Les champs des paramètres qui ne sont pas utilisés contiennent des valeurs vides.
 
 >[!NOTE]
 >
