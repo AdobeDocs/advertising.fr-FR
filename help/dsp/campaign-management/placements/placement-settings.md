@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir les descriptions des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 28ec89de0bd1a90578c6dd53a8249abbe4facbda
+source-git-commit: fd3805096f97ba572afb4a5573ae0e2f5ec17a6f
 workflow-type: tm+mt
-source-wordcount: '4042'
+source-wordcount: '4255'
 ht-degree: 0%
 
 ---
@@ -211,9 +211,15 @@ Pour définir le ciblage de l&#39;inventaire :
 >
 >Si vous vous êtes abonné à [!UICONTROL On Demand] inventaire mais que vous ne parvenez pas à localiser les éditeurs ou les offres à cibler, vérifiez le statut des offres. Pour plus d’informations sur les statuts, voir [À propos [!DNL On Demand] de l’inventaire Premium](/help/dsp/inventory/on-demand-inventory-about.md).
 
-**[!UICONTROL Exclude out-stream]:** (emplacements vidéo uniquement) Exclut le trafic sortant.
+**[!UICONTROL Video targeting]:** cibler (sans exclure) l’inventaire par attributs d’inventaire. Lorsque vous ciblez plusieurs valeurs pour le même attribut vidéo, n’importe lequel des attributs sélectionnés peut être ciblé (par exemple, \[Taille du lecteur = grande OU Taille du lecteur = HD\]). Lorsque vous ciblez plusieurs attributs, chacun des attributs spécifiés doit être présent (par exemple, \[Durée = 30-60 min] ET \[Taille du lecteur = grand OU Taille du lecteur = HD\]).
 
-Les publicités en dehors du contenu apparaissent généralement sur le contenu sous la forme d’un pop-up ou d’un contenu intégré (dans l’expérience native), plutôt que comme des publicités vidéo normales dans un lecteur vidéo.
+* **[!UICONTROL Player size]:** Inventaire de Target (sans exclure) par taille de lecteur. Le paramètre s’applique aux emplacements de prévisualisation, aux emplacements de prévisualisation standard mobiles et aux emplacements vidéo universels pour les environnements de bureau et mobiles. Par défaut, toutes les tailles sont ciblées. Pour réduire les cibles, sélectionnez des tailles de cible spécifiques et/ou *Inconnu*.
+
+* **[!UICONTROL Playback mode]:** inventaire de la cible (sans l’exclure) en fonction du mode de lancement de la lecture. Le paramètre s’applique aux emplacements de prévisualisation, aux emplacements de prévisualisation standard mobiles et aux emplacements vidéo universels pour les environnements de bureau et mobiles. Par défaut, tous les modes sont ciblés. Pour réduire les cibles, sélectionnez des modes de cible spécifiques et/ou *Inconnu*.
+
+* **[!UICONTROL Skippability]:** cible (sans l’exclure) l’inventaire, qu’il puisse être ignoré ou non. Le paramètre s’applique à tous les emplacements VAST/PAYANT, y compris les emplacements preroll, mobile standard preroll, TV connectée et vidéo universelle. Par défaut, toutes les options sont ciblées. Pour réduire les cibles, sélectionnez des cibles spécifiques et/ou *Inconnu*.
+
+**[!UICONTROL Position targeting]:** cibler (mais pas exclure) l’inventaire par position publicitaire. Le paramètre s’applique à tous les emplacements VAST/PAYANT, y compris les emplacements preroll, mobile standard preroll, TV connectée et vidéo universelle. Par défaut, tous les postes sont ciblés. Pour réduire les cibles, sélectionnez des positions cibles spécifiques et/ou *Inconnu*.
 
 ## [!UICONTROL Site and App Targeting]
 

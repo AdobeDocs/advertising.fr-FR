@@ -3,9 +3,9 @@ title: Vérifier et modifier les paramètres des composants de Campaign à l’a
 description: Découvrez comment examiner et modifier en bloc des packages, des emplacements et des paramètres d’annonces clés à l’aide de feuilles de calcul.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: 7af6788f2aae3a2fb9e2048676dbe1955c2e56d9
+source-git-commit: e4df27ec0e4864d5604920f3e8ebe427152187d9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,10 @@ Un message de notification indique quand le fichier peut être téléchargé.
      Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      Pour modifier l’un des paramètres, modifiez directement le fichier, puis chargez les modifications. Toutes les colonnes modifiables sont surlignées en bleu. Pour utiliser le format correct pour un champ, sélectionnez et copiez la valeur à partir du paramètre de package ou du paramètre d’emplacement approprié. Pour certains paramètres de la cible, tels que le changement de date, les objectifs personnalisés et les mesures de conversion, une option de copie est disponible dans le paramètre .
+
+     >[!NOTE]
+     >
+     >Pour certains paramètres de cible, toutes les options sont ciblées par défaut, sauf si vous réduisez la sélection à des cibles spécifiques. Lorsque vous n’avez pas réduit les cibles, le champ de feuille d’envoi groupé est vide, ce qui signifie que toutes les options sont ciblées.
 
 ## Charger une feuille d’envoi groupé avec les paramètres de package, d’emplacement et d’annonce pour une campagne{#upload-bulksheet-campaign-components}
 
@@ -116,7 +120,6 @@ Lorsqu’une mise à jour de paramètre échoue, vous pouvez télécharger un fi
 | [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Included #] | The number of targeted [!UICONTROL On-Demand Inventory] deals, if any are specified, *[!UICONTROL All]*, or *[!UICONTROL None]*. | &mdash; |
 | [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Excluded #] | The number of excluded On-Demand Inventory deals, if any are specified, or *[!UICONTROL None]*. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Traffic Type] | The targeted type of traffic: *[!UICONTROL Website]* and/or *[!UICONTROL Apps]* | &mdash; |
-| [!UICONTROL Sites] | [!UICONTROL Exclude out-stream] | Whether the Inventory Targeting option to exclude outstream traffic is <i[!UICONTROL >ON]* or *[!UICONTROL OFF]*.<br>Outstream ads usually appear over the content as a pop-up or stuffed into content (in the native experience), rather than as regular video ads in a video player. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Site Tier] | The quality of the sites to target: *[!UICONTROL Tier 1]*, *[!UICONTROL Tier 2]*, *[!UICONTROL Tier 3]*, or *[!UICONTROL All Sites]*. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Categories - Included #] | The number of targeted site categories, if any are specified, or *[!UICONTROL All]*. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Categories - Excluded #] | The number of excluded site categories, if any are specified, or *[!UICONTROL All]*. | &mdash; |
