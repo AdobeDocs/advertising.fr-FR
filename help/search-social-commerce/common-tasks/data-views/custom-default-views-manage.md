@@ -3,7 +3,7 @@ title: Gestion des vues par défaut et personnalisées
 description: Découvrez comment personnaliser vos vues par défaut et vos vues personnalisées.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 99523c4fe79637bf91688bdbf601799ce28316e3
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '2836'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Vos vues par défaut et personnalisées vous permettent de personnaliser les données de performances affichées dans les vues de données des campagnes de recherche. Les paramètres d’affichage comprennent les colonnes à inclure, les filtres, la période, les paramètres d’attribution de conversion et d’autres paramètres avancés ; vous pouvez appliquer les paramètres temporairement ou les enregistrer. (Exception : vous ne pouvez pas enregistrer de filtres pour les vues par défaut.) Chaque vue personnalisée par défaut et standard s’applique uniquement à une vue d’entité spécifique (telle que [!UICONTROL Campaigns]) et à un compte d’annonceur spécifique. Chaque vue personnalisée universelle s’applique aux vues d’entité d’un annonceur spécifique et ne peut donc pas inclure de colonnes de propriété (telles que le nom ou le statut de l’entité), qui varient selon le type d’entité.
 
-Les vues par défaut s’affichent par défaut à chaque connexion. Vous pouvez créer des vues personnalisées supplémentaires et les appliquer à tout moment. Vous pouvez éventuellement partager n’importe quelle vue personnalisée que vous créez avec tous les autres utilisateurs qui peuvent afficher les données de l’annonceur. Dans vos listes d’affichages, chaque affichage partagé par une autre personne est en italique, par exemple « *Campagnes les plus performantes* ». Seule la personne qui crée une vue personnalisée peut la supprimer.
+Les vues par défaut s&#39;affichent par défaut à chaque connexion. Vous pouvez créer des vues personnalisées supplémentaires et les appliquer à tout moment. Vous pouvez éventuellement partager n’importe quelle vue personnalisée que vous créez avec tous les autres utilisateurs qui peuvent afficher les données de l’annonceur. Dans vos listes d’affichages, chaque affichage partagé par une autre personne est en italique, par exemple « *Campagnes les plus performantes* ». Seule la personne qui crée une vue personnalisée peut la supprimer.
 
 Chaque vue est disponible sous forme de raccourci dans la section [!UICONTROL Custom Views] du panneau de gauche.
 

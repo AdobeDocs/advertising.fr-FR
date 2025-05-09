@@ -1,9 +1,9 @@
 ---
 title: Configuration requise
-description: Découvrez les exigences en matière de logiciels et de compte.
+description: Découvrez les exigences en matière de logiciels et de comptes.
 exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Configuration requise
 
-Vous avez besoin des logiciels et des informations de compte suivants.
+Vous avez besoin des informations suivantes sur les logiciels et les comptes.
 
-## Logiciels
+## Logiciel
 
 * L’un des navigateurs suivants :
 
-   * [!DNL Apple Safari] (y compris [!DNL Safari] pour [!DNL iOS]) 10 ou plus
+   * [!DNL Apple Safari] (y compris [!DNL Safari] pour les [!DNL iOS]) 10 ou plus
 
    * [!DNL Google Chrome] 103 ou version ultérieure
 
@@ -28,24 +28,24 @@ Vous avez besoin des logiciels et des informations de compte suivants.
 
 * (Pour afficher les fichiers exportés au format XLS) [!DNL Microsoft Excel] recommandé
 
-  Si vous utilisez une autre application que [!DNL Microsoft Excel] pour afficher les fichiers XLS exportés, le format des nombres, dates, heures et devises peut ne pas être correct.
+  Si vous utilisez une application autre que [!DNL Microsoft Excel] pour afficher les fichiers XLS exportés, les nombres, les dates, les heures et les devises peuvent ne pas être au bon format.
 
-## Nom et mot de passe utilisateur
+## Nom d’utilisateur et mot de passe
 
-Pour vous connecter, vous avez besoin d’un nom d’utilisateur et d’un mot de passe. Votre équipe de compte d’Adobe configure votre compte d’utilisateur et crée votre nom d’utilisateur et votre mot de passe.
+Pour vous connecter, vous avez besoin d&#39;un nom d&#39;utilisateur et d&#39;un mot de passe. L’équipe chargée de votre compte Adobe configure votre compte utilisateur et crée votre nom d’utilisateur et votre mot de passe.
 
 ## Paramètres de l’ordinateur et du navigateur
 
 ### Paramètres du site du navigateur
 
-Pour afficher les aperçus d’images pour certains types de publicités/de ressources, désactivez les bloqueurs de publicités/bloqueurs de contenu pour le domaine `efrontier.com` en autorisant une exception pour le site. Gérez les bloqueurs d’annonces dans les paramètres du site ou du site web de votre navigateur ou (dans Firefox) en modifiant les paramètres des extensions de navigateur du bloqueur d’annonces que vous avez installées.
+Pour afficher des aperçus d’images pour certains types d’annonces/de ressources, désactivez les bloqueurs d’annonces/de contenu pour le domaine `efrontier.com` en autorisant une exception pour le site. Gérez les bloqueurs d’annonces publicitaires dans les paramètres du site ou du site web de votre navigateur ou (dans Firefox) en modifiant les paramètres des extensions de navigateur de bloqueurs d’annonces que vous avez installées.
 
-### Paramètres de langue de l’ordinateur et du navigateur
+### Paramètres de langue de l&#39;ordinateur et du navigateur
 
-Les informations suivantes déterminent les jeux de caractères à utiliser et les formats à utiliser pour afficher des nombres, des dates, des heures et des devises :
+Les informations suivantes déterminent les jeux de caractères à utiliser et les formats à utiliser pour afficher les nombres, les dates, les heures et les devises :
 
 * Paramètres régionaux de votre ordinateur.
 
 * Paramètres de langue de votre navigateur.
 
-Pour vous assurer que les informations s’affichent dans les formats de votre choix, assurez-vous que votre ordinateur et votre navigateur utilisent les paramètres de langue appropriés. Pour obtenir des instructions, consultez l’aide en ligne de votre ordinateur et de votre navigateur .
+Pour vous assurer que les informations s’affichent dans les formats souhaités, assurez-vous que votre ordinateur et votre navigateur utilisent les paramètres de langue appropriés. Consultez l’aide en ligne de votre ordinateur et de votre navigateur pour obtenir des instructions.

@@ -4,7 +4,7 @@ description: Découvrez la prise en charge de la capture des requêtes de désin
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 788b4ddb9b690a3f0bac93ec9b5145fc7a324719
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -45,6 +45,7 @@ Vous pouvez communiquer les demandes de désinscription de la vente des clients 
 >Les utilisateurs restent indéfiniment dans les segments d’opposition à la vente du CCPA.
 
 1. Connectez-vous au compte de l’annonceur dans Advertising DSP sur [https://advertising.adobe.com/](https://advertising.adobe.com/).
+
 1. [Créez un segment d’exclusion de la vente du CCPA et implémentez le pixel de segment pour capturer les requêtes d’exclusion](/help/dsp/audiences/ccpa-opt-out-segment-create.md).
 
 ### Méthode 2 : communiquer les demandes de désinscription de la vente du CCPA à l’aide de l’API Adobe Experience Platform Privacy Service
@@ -67,7 +68,7 @@ Vous pouvez communiquer les demandes de désinscription de la vente des clients 
    >
    >Contactez le représentant Adobe Advertising de votre société pour confirmer que tous les comptes Adobe Advertising de votre organisation, y compris les comptes [!DNL DSP] ou les annonceurs, les comptes [!DNL Search, Social, & Commerce] et les comptes [!DNL Creative] ou [!DNL DCO], sont liés à votre ID d’organisation Experience Cloud.
 
-1. Utilisez l’API Adobe Experience Platform Privacy Service pour [envoyer des requêtes d’opposition à la vente](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=fr) à Adobe Advertising au nom des consommateurs et consommatrices, et pour vérifier le statut des requêtes existantes.
+1. Utilisez l’API Adobe Experience Platform Privacy Service pour [envoyer des requêtes d’opposition à la vente](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) à Adobe Advertising au nom des consommateurs et consommatrices, et pour vérifier le statut des requêtes existantes.
 
    Consultez l’annexe ci-dessous pour obtenir un exemple de demande d’opposition à la vente.
 
@@ -75,7 +76,7 @@ Vous pouvez communiquer les demandes de désinscription de la vente des clients 
    >
    >Si votre entreprise dispose de plusieurs identifiants d’organisation Experience Cloud, vous devez envoyer des requêtes d’API distinctes pour chacun d’eux. Vous pouvez toutefois effectuer une requête d’API vers plusieurs sous-solutions Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] et [!DNL DCO]), avec un compte par sous-solution.
 
-Toutes ces étapes sont nécessaires pour bénéficier de l’assistance d’Adobe Advertising. Pour plus d&#39;informations sur ces tâches et d&#39;autres tâches connexes que vous devez effectuer à l&#39;aide du Adobe Experience Platform Privacy Service, et pour savoir où trouver les éléments nécessaires, consultez [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr).
+Toutes ces étapes sont nécessaires pour bénéficier de l’assistance d’Adobe Advertising. Pour plus d&#39;informations sur ces tâches et d&#39;autres tâches connexes que vous devez effectuer à l&#39;aide du Adobe Experience Platform Privacy Service, et pour savoir où trouver les éléments nécessaires, consultez [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Récupération des rapports des consommateurs et consommatrices qui ont soumis des requêtes d’opposition à la vente
 
@@ -86,6 +87,7 @@ Vous pouvez récupérer des liens vers les rapports mensuels créés au cours de
 ### Méthode 1 : récupération des rapports de désinscription de la vente des clients dans Advertising DSP
 
 1. Connectez-vous au compte de l’annonceur dans Advertising DSP sur [https://advertising.adobe.com/](https://advertising.adobe.com/).
+
 1. [Récupérer les rapports](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md).
 
 ### Méthode 2 : récupération des rapports de désinscription de la vente des clients à l’aide de l’[!DNL Trafficking API] Advertising DSP
@@ -131,7 +133,7 @@ curl -X POST \
 }'
 ```
 
-où, conformément aux spécifications de l’API [Privacy Service ](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/appendix) :
+où, conformément aux spécifications de l’API [Privacy Service ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix) :
 
 * `"namespace": "AdCloud"` indique l’espace du cookie `AdCloud` et la valeur correspondante est l’identifiant de cookie du client tel qu’il est récupéré depuis `AdobePrivacy.js`
 * `"include": ["adCloud"]` indique que la requête s’applique au produit Adobe Advertising
