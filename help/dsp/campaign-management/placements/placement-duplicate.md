@@ -3,9 +3,9 @@ title: Dupliquer les emplacements
 description: Découvrez comment dupliquer un ou plusieurs emplacements.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,7 @@ Voir « [ Non dupliqué ](#placement-not-duplicated) » pour obtenir une liste d
 Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 
 * Paramètres de l’expérience
+* Budgets minimaux au niveau des emplacements
 * (Si vous modifiez les dates de vol) Planification personnalisée des annonces
 * (Si vous ne joignez pas d’annonces) Pondération et planification personnalisées des annonces
 * Emplacements par défaut pour les offres programmatiques garanties (PG) et emplacements pour les offres [!UICONTROL Simple Ad Serving]
@@ -82,7 +83,7 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 
    * Le compte dispose-t-il de fonds suffisants pour accueillir les nouveaux budgets de placement ?
 
-   * Les nouveaux emplacements ont-ils besoin de budgets différents des emplacements précédents ?
+   * Les nouveaux emplacements ont-ils besoin de budgets différents des emplacements précédents ? Des budgets minimaux sont-ils nécessaires ?
 
    * Chargez des contenus publicitaires, y compris la pondération et la planification personnalisées des annonces nécessaires, et joignez-les aux emplacements.
 

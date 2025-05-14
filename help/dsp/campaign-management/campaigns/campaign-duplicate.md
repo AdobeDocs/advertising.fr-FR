@@ -3,9 +3,9 @@ title: Dupliquer une campagne
 description: Découvrez comment dupliquer une campagne.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ Voir « [ Non dupliqué ](#campaign-not-duplicated) » pour obtenir une liste de
 Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 
 * Paramètres de l’expérience
+* Budgets minimaux au niveau des emplacements
 * (Si vous modifiez les dates de vol) Planification personnalisée des annonces
 * (Si vous ne joignez pas d’annonces) Pondération et planification personnalisées des annonces
 * Emplacements par défaut pour les offres programmatiques garanties (PG) et emplacements pour les offres [!UICONTROL Simple Ad Serving]
@@ -66,6 +67,8 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
    * Le compte dispose-t-il d’un financement suffisant pour accueillir le nouveau budget de campagne ?
 
    * La nouvelle campagne a-t-elle besoin d&#39;un budget différent de celui de la campagne précédente ?
+
+   * Des budgets minimaux sont-ils nécessaires pour chacun des placements ?
 
    * Chargez des contenus publicitaires, y compris la pondération et la planification personnalisées des annonces nécessaires, et joignez-les aux emplacements.
 

@@ -3,9 +3,9 @@ title: Dupliquer un package
 description: Découvrez comment dupliquer un package.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,7 @@ Voir « [ Non dupliqué ](#package-not-duplicated) » pour obtenir une liste des
 Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 
 * Paramètres de l’expérience
+* Budgets minimaux au niveau des emplacements
 * (Si vous modifiez les dates de vol) Planification personnalisée des annonces
 * (Si vous ne joignez pas d’annonces) Pondération et planification personnalisées des annonces
 * Emplacements par défaut pour les offres programmatiques garanties (PG) et emplacements pour les offres [!UICONTROL Simple Ad Serving]
@@ -76,6 +77,8 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
    * Le compte dispose-t-il d&#39;un financement suffisant pour accueillir le nouveau budget du paquet ?
 
    * Le nouveau paquet a-t-il besoin d&#39;un budget différent du précédent ?
+
+   * Des budgets minimaux sont-ils nécessaires pour chacun des placements ?
 
    * Chargez des contenus publicitaires, y compris la pondération et la planification personnalisées des annonces nécessaires, et joignez-les aux emplacements.
 
