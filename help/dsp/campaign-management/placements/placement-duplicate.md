@@ -74,7 +74,7 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 >[!TIP]
 >
 >* Utilisez des feuilles d’envoi groupé pour [apporter des modifications à plusieurs composants de campagne à la fois](/help/dsp/campaign-management/campaign-components-review-edit.md).
-* Utilisez des feuilles de balises d’annonce publicitaire pour [charger plusieurs annonces publicitaires tierces](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+>* Utilisez des feuilles de balises d’annonce publicitaire pour [charger plusieurs annonces publicitaires tierces](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
 * Mettez les nouveaux emplacements en pause jusqu’à ce que vous soyez prêt à les activer.
 
