@@ -3,9 +3,9 @@ title: Dupliquer une campagne
 description: Découvrez comment dupliquer une campagne.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 
 * Mettez la nouvelle campagne en pause jusqu’à ce que vous soyez prêt à l’activer.
 
-* Tenez compte des points suivants et modifiez les nouveaux paramètres de la campagne selon vos besoins :
+* Tenez compte des points suivants et modifiez la nouvelle campagne selon vos besoins :
 
    * Le compte dispose-t-il d’un financement suffisant pour accueillir le nouveau budget de campagne ?
 

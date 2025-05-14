@@ -3,9 +3,9 @@ title: Dupliquer un package
 description: Découvrez comment dupliquer un package.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 
 * Mettez le nouveau package en pause jusqu’à ce que vous soyez prêt à l’activer.
 
-* Tenez compte des points suivants et modifiez les nouveaux paramètres du package selon les besoins :
+* Tenez compte des points suivants et modifiez le nouveau package si nécessaire :
 
    * Le compte dispose-t-il d&#39;un financement suffisant pour accueillir le nouveau budget du paquet ?
 

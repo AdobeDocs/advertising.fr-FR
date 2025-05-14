@@ -3,9 +3,9 @@ title: Dupliquer les emplacements
 description: Découvrez comment dupliquer un ou plusieurs emplacements.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 
 * Mettez les nouveaux emplacements en pause jusqu’à ce que vous soyez prêt à les activer.
 
-* Tenez compte des points suivants et modifiez les nouveaux paramètres d’emplacement selon vos besoins :
+* Tenez compte des points suivants et modifiez les nouveaux emplacements selon vos besoins :
 
    * Le compte dispose-t-il de fonds suffisants pour accueillir les nouveaux budgets de placement ?
 
