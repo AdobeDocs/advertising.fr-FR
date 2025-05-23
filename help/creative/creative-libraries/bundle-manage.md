@@ -3,7 +3,7 @@ title: Gestion des offres groupées de création
 description: En savoir plus sur xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
+source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
 workflow-type: tm+mt
 source-wordcount: '1359'
 ht-degree: 0%
@@ -184,7 +184,7 @@ Vous pouvez prévisualiser une création telle que les visiteurs la verront, y c
 
 1. (Facultatif) Pour ouvrir la page de destination du contenu créatif, cliquez sur le contenu créatif.
 
-   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Facultatif) Pour télécharger le contenu créatif, cliquez sur ![Télécharger](/help/creative/assets/download.png "Télécharger").
 
@@ -212,7 +212,7 @@ Vous pouvez prévisualiser une création telle que les visiteurs la verront, y c
 
 1. (Facultatif) Pour ouvrir la page de destination d’un élément créatif, cliquez dessus.
 
-   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Facultatif) Pour partager une URL de démonstration afin que d’autres personnes sans connexion à [!DNL Creative] puissent prévisualiser les contenus publicitaires :
 
