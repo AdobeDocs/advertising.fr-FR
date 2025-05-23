@@ -3,9 +3,9 @@ title: Prévisualisation d’une expérience
 description: Découvrez comment prévisualiser les contenus publicitaires dans une expérience publicitaire.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,6 @@ Vous pouvez prévisualiser les contenus publicitaires avec une taille d’annonc
 
    1. Dans la boîte de dialogue [!UICONTROL Share Demo URL], cliquez sur **[!UICONTROL Copy]** pour copier l’URL dans le presse-papiers afin de la partager avec une autre personne.
 
-
 ## Prévisualiser des contenus publicitaires dans une expérience sans ciblage d’arbre de décision
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
@@ -97,11 +96,15 @@ Vous pouvez prévisualiser les contenus publicitaires avec une taille d’annonc
 
    Par défaut, les contenus publicitaires de toutes tailles sont répertoriés.
 
-1. Cliquez sur le nom d’une balise d’annonce publicitaire pour développer la ligne et prévisualiser le contenu créatif.
+1. Cliquez sur le nom d’une balise d’annonce publicitaire pour développer la ligne et prévisualiser les contenus publicitaires.
+
+1. (Facultatif) Pour accéder à la page de destination d’un élément créatif, cliquez sur l’élément créatif.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Facultatif) Pour copier une URL de démonstration de l’expérience à partager avec d’autres personnes sans connexion à [!DNL Creative] :
 
-   1. Dans l’angle supérieur droit de l’aperçu, cliquez sur ![Partager](/help/creative/assets/share.png "Partager").
+   1. Dans l’angle supérieur droit de l’aperçu, cliquez sur ![Partager](/help/creative/assets/share2.png "Partager").
 
    1. Dans la boîte de dialogue [!UICONTROL Share Demo URL], cliquez sur **[!UICONTROL Copy]** pour copier l’URL dans le presse-papiers afin de la partager avec une autre personne.
 

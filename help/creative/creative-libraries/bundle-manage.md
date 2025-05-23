@@ -3,9 +3,9 @@ title: Gestion des offres groupées de création
 description: En savoir plus sur xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
+source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -106,11 +106,9 @@ Les modifications apportées à un nom de lot sont propagées à toutes les exp�
 
 Vous pouvez associer des contenus publicitaires standard [existants](/help/creative/creative-libraries/creative-libraries-about.md) à un lot standard et associer des contenus publicitaires dynamiques existants<!-- [existing dynamic creatives](creative-dynamic-manage.md) --> à un lot dynamique. L’association d’un contenu créatif à un lot rend le contenu créatif disponible dans toutes les expériences auxquelles le lot est affecté. Chaque lot ne peut inclure qu’une seule de chaque combinaison \[taille de contenu créatif + langue\].
 
-<!--
 >[!NOTE]
 >
->You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
--->
+>Vous pouvez également [joindre des contenus publicitaires aux lots à partir des vues Publicités standard et Publicités dynamiques](creative-attach-detach-bundles.md).
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -127,6 +125,8 @@ Vous pouvez associer des contenus publicitaires standard [existants](/help/creat
    * Dans la vue Tableau, placez le curseur sur la ligne et cliquez sur **[!UICONTROL Attach Creatives]**.
 
    Chaque élément créatif éligible pour le type de bundle est répertorié dans le cadre de droite. Les contenus publicitaires déjà associés au lot sont répertoriés, mais ne peuvent pas être sélectionnés.
+
+1. (Facultatif) Basculez entre la vue Tableau par défaut et une vue Carte des lots disponibles en cliquant sur ![Vue Carte](/help/creative/assets/card-view-button.png "Vue Carte") pour ouvrir la vue Carte ou ![Vue Tableau/liste](/help/creative/assets/table-view-button.png "Vue Tableau") pour revenir à la vue Tableau.
 
 1. Dans le cadre de droite, cochez la case en regard de chaque élément créatif à joindre au lot, puis cliquez sur **[!UICONTROL Attach Creative to Bundle]**.
 
@@ -182,6 +182,10 @@ Vous pouvez prévisualiser une création telle que les visiteurs la verront, y c
 
 <!-- Not there as of 1/22/24:  1. (Flexible HTML5 creatives; optional) To show all frames for the creative, select **Show frames**. -->
 
+1. (Facultatif) Pour ouvrir la page de destination du contenu créatif, cliquez sur le contenu créatif.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
 1. (Facultatif) Pour télécharger le contenu créatif, cliquez sur ![Télécharger](/help/creative/assets/download.png "Télécharger").
 
    Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
@@ -205,6 +209,10 @@ Vous pouvez prévisualiser une création telle que les visiteurs la verront, y c
 1. (Facultatif) Pour filtrer les contenus publicitaires par taille, sélectionnez une option dans la liste **[!UICONTROL Size]**, puis cliquez sur **[!UICONTROL Preview]** dans le coin supérieur droit de l’aperçu.
 
 1. (Facultatif) Pour redimensionner les images à l’écran, sélectionnez une option dans la liste **[!UICONTROL Zoom]**, de 10 % à 100 % de la taille de l’image.
+
+1. (Facultatif) Pour ouvrir la page de destination d’un élément créatif, cliquez dessus.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Facultatif) Pour partager une URL de démonstration afin que d’autres personnes sans connexion à [!DNL Creative] puissent prévisualiser les contenus publicitaires :
 

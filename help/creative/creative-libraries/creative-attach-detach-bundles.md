@@ -3,14 +3,14 @@ title: Joindre un contenu créatif à des lots créatifs
 description: Découvrez comment associer un contenu créatif à une offre groupée de contenu créatif.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: add8f3507ca9b79cea862d097fb603c68eb09e3c
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
-# Joindre <!-- and detach --> contenus publicitaires aux offres groupées de contenu créatif
+# Associez les contenus publicitaires aux offres groupées de contenu créatif
 
 *Version bêta fermée*
 
@@ -26,7 +26,7 @@ You can also detach a creative from a bundle to remove the association between t
 >
 >Vous pouvez <!-- also --> [joignez des contenus publicitaires aux offres groupées et désolidarisez-les de la vue Offres groupées](/help/creative/creative-libraries/bundle-manage.md).
 
-<!-- Hide header until second procedure is available:
+<!-- Hide header until second procedure is available (if we add that):
 
 ## Attach creatives to creative bundles
 
@@ -45,6 +45,8 @@ You can also detach a creative from a bundle to remove the association between t
    * Dans la vue Tableau, placez le curseur sur la ligne et cliquez sur **[!UICONTROL Attach to Bundles]**.
 
    Chaque lot éligible pour le type de contenu créatif est répertorié dans le cadre de droite. Les lots auxquels le contenu créatif est déjà associé sont répertoriés, mais ne peuvent pas être sélectionnés.
+
+1. (Facultatif) Basculez entre la vue Tableau par défaut et une vue Carte des lots disponibles en cliquant sur ![Vue Carte](/help/creative/assets/card-view-button.png "Vue Carte") pour ouvrir la vue Carte ou ![Vue Tableau/liste](/help/creative/assets/table-view-button.png "Vue Tableau") pour revenir à la vue Tableau.
 
 1. Dans le cadre de droite, cochez la case en regard de chaque lot auquel joindre le contenu créatif, puis cliquez sur **[!UICONTROL Attach Creative to Bundle]**.
 
