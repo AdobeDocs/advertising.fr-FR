@@ -3,9 +3,9 @@ title: Ajout de contenus publicitaires standard à une bibliothèque de contenus
 description: Découvrez comment ajouter des contenus publicitaires standard (non dynamiques) à une bibliothèque de contenus publicitaires.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: d68c8c31a047c4615224e9ab19654e56b5e8c8f9
+source-git-commit: 38ba8473eae3df204f618eac1f20e605e57ece5a
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,13 @@ Ajoutez des contenus publicitaires à vos [bibliothèques de contenu publicitair
 
 ## Ajout d’annonces HTML flexibles à une bibliothèque de contenu créatif {#flexible-creative-add}
 
-<!-- Later:
-You can do either of the following: 
+Vous pouvez effectuer l’une des opérations suivantes :
 
-* Upload your own flexible creatives in ZIP files.
+* Chargez vos propres contenus publicitaires flexibles dans des fichiers ZIP.
 
-* Use any of the predefined flexible creative templates as a starting point for your own flexible creative.
+* Utilisez l’un des modèles de création flexibles prédéfinis chargés sur votre compte comme point de départ de votre propre contenu créatif flexible.
 
-### Upload your own flexible creatives {#flexible-creative-upload}
-
--->
+### Chargement de vos propres contenus publicitaires flexibles {#flexible-creative-upload}
 
 Vous pouvez charger plusieurs unités de création flexibles. Les contenus publicitaires flexibles doivent être au format ZIP et peuvent atteindre 2 Mo. Pour connaître les exigences en matière de fichiers, consultez la spécification de création [HTML5](html5-creative-specification.md).
 
@@ -65,42 +62,48 @@ Vous pouvez charger plusieurs unités de création flexibles. Les contenus publi
 
 1. Clic **[!UICONTROL Create]**
 
-<!-- In a later phase:
+### Ajouter des contenus publicitaires flexibles à l’aide d’un modèle {#flexible-creative-use-template}
 
-### Add flexible creatives using a template {#flexible-creative-use-template}
+Vous pouvez utiliser l’un des modèles créatifs flexibles chargés sur votre compte pour créer des annonces d’une taille prédéfinie. Une fois que vous avez sélectionné un modèle à utiliser, vous modifiez les balises et les attributs de clic.&lt;!— Remplacez la dernière phrase par celle-ci si nous ajoutons à nouveau la fonction de téléchargement de modèle : vous pouvez a\) sélectionner un modèle à utiliser, puis modifier les balises et attributs de clic ; ou b\) [télécharger un modèle sous forme de fichier ZIP](#download-flexible-creative-template), modifier le contenu hors ligne pour créer votre propre contenu créatif, puis [charger le fichier modifié en tant que nouveau contenu créatif](flexible-creative-upload).>
 
-You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads. Once you select a template to use, you'll edit the click tags and attributes.<!-- Replace last sentence with this if we add the template download feature back:  You can either a\) select a template to use, and then edit the click tags and attributes; or b\) [download a template as a ZIP file](#download-flexible-creative-template), edit the contents offline to build your own creative, and then [upload the edited file as a new creative](flexible-creative-upload).>
+<!-- Not currently an option:
+You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
 
 For information about the attributes available in predefined templates, see "[Available flexible creative templates](#flexible-creative-templates-available)."
+-->
 
-1. In the main menu, click **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
-1. Click the library name.
+1. Cliquez sur le nom de la bibliothèque.
 
-1. On the **[!UICONTROL Creatives]** tab, click the **[!UICONTROL Standard Ads]** subtab.
+1. Dans l’onglet **[!UICONTROL Creatives]** , cliquez sur le sous-onglet **[!UICONTROL Standard Ads]** .
 
-1. Click **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**.
+1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**.
 
-1. Click **[!UICONTROL Browse System Flexible Templates]**.
+1. Cliquez sur **[!UICONTROL Browse System Flexible Templates]**.
 
-
-
-[The following are old instructions; see how this works in the new UI]
-
+<!-- Not options as of 5/22/25:
 
 1. In the left panel, select the creative size to see all available templates for that size.
 
-1. Under the template name, click **[!UICONTROL Use This Creative]**.
+1. Select the template:
 
-1. Edit the [flexible HTML5 creative settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) to include your own click tags, images, and other attributes.
-
-   The maximum file size of the creative, once it's zipped, is 2 MB.[Will saving the creative zip it??]
-
-1. (Optional) Once you've made your changes, click []()[add image] to preview the new creative. 
-
-1. Click **[!UICONTROL Save]**.
-
+   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
+     
+   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
 -->
+
+1. (Facultatif) Pour prévisualiser le modèle, cliquez sur **[!UICONTROL ...]** en regard du nom du modèle, puis cliquez sur **[!UICONTROL Preview]**.
+
+   Vous pouvez éventuellement télécharger le modèle
+
+1. En regard du nom du modèle, cliquez sur **[!UICONTROL ...]** , puis sur **[!UICONTROL Use Selected]**.
+
+1. Modifiez les [paramètres de création HTML5 flexibles](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) pour spécifier la langue et inclure vos propres balises de clic, images et autres attributs.
+
+   La taille de fichier maximale du fichier créatif, une fois compressé, est de 2 Mo.<!-- Still true? -->
+
+1. Cliquez sur **[!UICONTROL Create]**.
 
 ## Ajout d’un contenu créatif HTML5 à une bibliothèque de contenu créatif
 
