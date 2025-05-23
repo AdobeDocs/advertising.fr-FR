@@ -3,9 +3,9 @@ title: Gestion des offres groupées de création
 description: En savoir plus sur xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ La désolidarisation d’un contenu créatif de l’offre groupée ne supprime p
 
      Pour sélectionner toutes les lignes, cochez la case globale dans le coin supérieur gauche.
 
-## Prévisualisation d’une création dans une offre groupée
+## Prévisualisation d’un élément créatif unique dans une offre groupée
 
 Vous pouvez prévisualiser une création telle que les visiteurs la verront, y compris sous forme de liens hypertexte.
 
@@ -186,6 +186,31 @@ Vous pouvez prévisualiser une création telle que les visiteurs la verront, y c
 
    Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
 
+## Prévisualiser toutes les créations d’un lot
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur le nom de la bibliothèque.
+
+1. Cliquez sur l’onglet **[!UICONTROL Bundles]** .
+
+1. Sélectionnez le lot :
+
+   * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom du lot, puis cliquez sur **[!UICONTROL Preview]**.
+
+   * Dans la vue Tableau, placez le curseur sur la ligne et cliquez sur **[!UICONTROL Preview]**.
+
+1. (Facultatif) Pour filtrer les contenus publicitaires par langue, sélectionnez une option dans la liste **[!UICONTROL Language]**, puis cliquez sur **[!UICONTROL Preview]** dans le coin supérieur droit de l’aperçu.
+
+1. (Facultatif) Pour filtrer les contenus publicitaires par taille, sélectionnez une option dans la liste **[!UICONTROL Size]**, puis cliquez sur **[!UICONTROL Preview]** dans le coin supérieur droit de l’aperçu.
+
+1. (Facultatif) Pour redimensionner les images à l’écran, sélectionnez une option dans la liste **[!UICONTROL Zoom]**, de 10 % à 100 % de la taille de l’image.
+
+1. (Facultatif) Pour partager une URL de démonstration afin que d’autres personnes sans connexion à [!DNL Creative] puissent prévisualiser les contenus publicitaires :
+
+   1. Cliquez sur ![Partager](/help/creative/assets/share.png "Partager") dans l’angle supérieur droit de l’aperçu.
+
+   1. Dans la boîte de dialogue [!UICONTROL Share Demo URL], cliquez sur **[!UICONTROL Copy]** pour copier l’URL dans le presse-papiers afin de la partager avec une autre personne.
 
 <!-- Not there as of 1/22/25:
 
@@ -253,6 +278,7 @@ Vous pouvez supprimer des lots qui ne sont pas affectés à une expérience [en 
 >[!MORELIKETHIS]
 >
 >* [Affectez et annulez l’affectation des lots de contenu créatif à un nœud final d’une expérience](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [Prévisualisation d’une création](/help/creative/creative-libraries/creative-preview.md)
 >* [Ajouter des contenus publicitaires standard à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Gestion des bibliothèques de création](/help/creative/creative-libraries/creative-library-manage.md)
 >* [À propos de vos bibliothèques de création](/help/creative/creative-libraries/creative-libraries-about.md)
