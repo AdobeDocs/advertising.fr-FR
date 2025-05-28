@@ -3,7 +3,7 @@ title: À propos de vos bibliothèques de création
 description: Découvrez comment gérer les contenus publicitaires pour vos expériences publicitaires.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: c69b01e12801947f156120e50615225eb3dad261
+source-git-commit: d7e2403e13c0f9edf1505ca7c50aea3de34f1f3a
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 0%
@@ -40,9 +40,9 @@ Vous pouvez ajouter et gérer les types de contenu créatif suivants dans les [t
 
 #### HTML5 flexible
 
-Les contenus créatifs HTML5 flexibles sont des contenus créatifs HTML5 avec toutes leurs images et autres attributs comme des balises HTML standard, que vous pouvez modifier directement dans [!DNL Creative], soit dans une bibliothèque de contenus créatifs, soit dans une expérience individuelle (ce qui crée une variante du contenu créatif d’origine). Les créatifs HTML5 flexibles utilisent la norme du laboratoire de technologie du Bureau de l’Advertising interactive (IAB) pour un [portfolio d’annonces](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed --> pour lequel les tailles des annonces sont flexibles (plutôt que fixes) et basées sur les proportions et la plage de tailles de l’annonce, et pour lequel les annonces conservent leur résolution sur tous les appareils et sites d’éditeur.
+Les contenus créatifs HTML5 flexibles sont des contenus créatifs HTML5 avec toutes leurs images et autres attributs comme des balises HTML standard, que vous pouvez modifier directement dans [!DNL Creative], soit dans une bibliothèque de contenus créatifs, soit dans une expérience individuelle (ce qui crée une variante du contenu créatif d’origine). Les créatifs HTML5 flexibles utilisent la norme du laboratoire de technologie du Bureau de l’Advertising interactive (IAB) pour un [portfolio d’annonces](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed --> pour lequel les tailles des annonces sont flexibles (plutôt que fixes) et basées sur les proportions et la plage de tailles de l’annonce, et pour lequel les annonces conservent leur résolution sur tous les appareils et sites d’édition.<!-- Yet our flexible creatives and templates are for a single specific ad size (in pixels), not an aspect ration with size range. Clarify -->
 
-Vous pouvez charger des contenus publicitaires HTML5 flexibles sous forme de fichiers ZIP ou utiliser l’un des modèles disponibles pour votre compte comme point de départ —>. Consultez les [spécifications des contenus publicitaires HTML5 flexibles](html5-creative-specification.md).
+Vous pouvez charger des contenus publicitaires HTML5 flexibles sous forme de fichiers ZIP ou utiliser l’un des modèles disponibles pour votre compte comme point de départ. Consultez les [spécifications des contenus publicitaires HTML5 flexibles](html5-creative-specification.md).
 
 <!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
