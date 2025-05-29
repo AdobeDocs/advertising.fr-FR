@@ -3,9 +3,9 @@ title: Création d’une expérience avec le ciblage d’arborescence de décisi
 description: Découvrez comment créer une expérience d’annonce publicitaire ciblée à l’aide d’une arborescence de décision.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,12 @@ ht-degree: 0%
          * [Personnalisez les URL de tracking pour les contenus publicitaires des lots attribués](experience-tracking-urls-targeting.md).
 
          * [Personnalisez l’optimisation et la planification de la création](experience-optimization-scheduling-targeting.md) pour les lots affectés.
+
+1. (Facultatif) Basculez entre l’arborescence de décision et les paramètres généraux :
+
+   * Pour ouvrir les paramètres généraux à partir de l’arborescence de décision, cliquez sur **[!UICONTROL Experience Form]** dans le coin supérieur droit.
+
+   * Pour ouvrir l’arborescence de décision à partir des paramètres généraux, cliquez sur **[!UICONTROL Decision Tree]** dans le coin supérieur droit.
 
 1. Cliquez sur **[!UICONTROL Save]**, puis procédez comme suit.
 

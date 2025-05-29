@@ -3,9 +3,9 @@ title: Modification d’une expérience avec le ciblage d’arborescence de déc
 description: Découvrez comment modifier les paramètres d’une expérience publicitaire ciblée à l’aide d’une arborescence de décision.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: 47a230347059a26c6c1c2db7c73306a376062478
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,15 @@ ht-degree: 0%
 
    * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Edit]**.
 
-1. Modifiez les [paramètres généraux de l’expérience](experience-settings-targeting.md).
+   L’arborescence de décision s’ouvre par défaut.
 
-1. (Facultatif) Pour modifier l’arborescence de décision, cliquez sur **[!UICONTROL Decision Tree]** dans le coin supérieur droit, puis effectuez l’une des opérations suivantes :
+1. (Facultatif) Basculez entre l’arborescence de décision et les paramètres généraux selon les besoins :
+
+   * Pour ouvrir les paramètres généraux à partir de l’arborescence de décision, cliquez sur **[!UICONTROL Experience Form]** dans le coin supérieur droit.
+
+   * Pour ouvrir l’arborescence de décision à partir des paramètres généraux, cliquez sur **[!UICONTROL Decision Tree]** dans le coin supérieur droit.
+
+1. (Facultatif) Pour modifier l’arborescence de décision, effectuez l’une des opérations suivantes :
 
    * ([Traitement](experience-about.md#experience-statuses) expériences) Effectuez l’une des opérations suivantes :
 
@@ -65,6 +71,8 @@ ht-degree: 0%
          * [Personnalisez les URL de tracking pour les contenus publicitaires des lots attribués](experience-tracking-urls-targeting.md).
 
          * [Personnalisez l’optimisation et la planification de la création](experience-optimization-scheduling-targeting.md) pour les lots affectés.
+
+1. (Facultatif) Modifiez les [paramètres généraux de l’expérience](experience-settings-targeting.md).
 
 1. Cliquez sur **[!UICONTROL Save]**, puis procédez comme suit.
 
