@@ -1,18 +1,20 @@
 ---
-title: Réenvoyer une invitation d’utilisateur en attente
-description: Découvrez comment renvoyer une invitation d’utilisateur en attente.
+title: Renvoyer une invitation d'utilisateur en attente
+description: Découvrez comment renvoyer une invitation d'utilisateur en attente.
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: a8ee699137d683986264e841b03bc292ce7b7843
+source-git-commit: 3ce910a553aa86836e04bd6e5d2a951db78070e1
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
-# Réenvoyer une invitation d’utilisateur en attente
+# Renvoyer une invitation d&#39;utilisateur en attente
 
-Les utilisateurs administrateurs peuvent renvoyer une invitation à un utilisateur avec une invitation en attente pour le compte de l’organisation. Le lien d’invitation expire dans 24 heures.
+*Utilisateurs administrateurs uniquement*
+
+Les utilisateurs administrateurs peuvent renvoyer une invitation à un utilisateur avec une invitation en attente pour le compte d’organisation. Le lien de l&#39;invitation expire dans 24 heures.
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -24,7 +26,7 @@ Les utilisateurs administrateurs peuvent renvoyer une invitation à un utilisate
 
 >[!MORELIKETHIS]
 >
->* [Invitation d’un nouvel utilisateur pour votre compte d’organisation](user-invite.md)
->* [Annuler l’invitation d’un utilisateur en attente](user-uninvite.md)
+>* [Inviter un nouvel utilisateur pour votre compte d’organisation](user-invite.md)
+>* [Désinviter un utilisateur en attente](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->
