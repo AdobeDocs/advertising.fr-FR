@@ -3,7 +3,7 @@ title: Gestion des bibliothèques de contenu publicitaire
 description: Découvrez comment créer, renommer et supprimer vos bibliothèques de création.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: b41dfbb570db025a5eba3ceff8d28529f9a8058e
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Vous pouvez supprimer des bibliothèques comportant des contenus publicitaires e
 
      Pour sélectionner toutes les lignes, cochez la case globale dans le coin supérieur gauche.
 
-1. Dans le message de confirmation, cliquez sur **[!UICONTROL Delete].** <!--Verify wording -->
+1. Dans le message de confirmation, cliquez sur **[!UICONTROL Delete].**
 
 >[!MORELIKETHIS]
 >
