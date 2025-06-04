@@ -1,10 +1,11 @@
 ---
 title: Obtenir de l’aide
 description: Découvrez comment afficher l’aide en ligne et les ressources de la communauté, ainsi que comment obtenir une assistance technique.
+feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: a900c0ef919c36810ce115b51dc432c0008f3419
+source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -25,9 +26,11 @@ Vous pouvez ouvrir l’aide en ligne à partir de n’importe quelle page de l�
 
    * ![Aide](/help/search-social-commerce/assets/help-main-menu.png "Aide") > **Guide d’optimisation des recherches, des réseaux sociaux et de Commerce**.
 
-## Demandez à la communauté Adobe Advertising
+<!--
+## Ask the Adobe Advertising community
 
-Recherchez des réponses à vos questions dans les [forums de la communauté Adobe Advertising](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=fr).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+-->
 
 ## [!DNL Adobe] de contact
 
