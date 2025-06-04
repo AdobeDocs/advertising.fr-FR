@@ -15,7 +15,7 @@ Vous pouvez ouvrir l’aide en ligne à partir de n’importe quelle page de l�
 
 ## Ouvrir l’aide en ligne
 
-Pour ouvrir un ensemble d&#39;aide complet expliquant comment utiliser toutes les fonctionnalités, cliquez sur **[!UICONTROL Help]** dans le menu principal, puis ouvrez le chapitre « [DNL Creative] ».
+Pour ouvrir un ensemble d&#39;aide complet expliquant comment utiliser toutes les fonctionnalités, cliquez sur **[!UICONTROL Help]** dans le menu principal, puis ouvrez le chapitre « [!DNL Creative] ».
 
 <!--
 ## Ask the Adobe Advertising community
