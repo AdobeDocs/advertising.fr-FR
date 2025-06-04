@@ -2,9 +2,9 @@
 title: Obtenir de l’aide
 description: Découvrez comment afficher l’aide en ligne et les ressources de la communauté, ainsi que comment obtenir une assistance technique.
 feature: Creative Introduction
-source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
+source-git-commit: 8e09fd00597203bd837957fad663e6648655be43
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,12 @@ Vous pouvez ouvrir l’aide en ligne à partir de n’importe quelle page de l�
 
 ## Ouvrir l’aide en ligne
 
-Pour ouvrir un ensemble d&#39;aide complet expliquant comment utiliser toutes les fonctionnalités, cliquez sur **[!UICONTROL Help]** dans le menu principal, puis ouvrez le chapitre « [!DNL Creative] ».
+Pour ouvrir un jeu d&#39;aide complet expliquant comment utiliser toutes les fonctionnalités, cliquez sur **[!UICONTROL Help]** dans le menu principal, puis ouvrez le chapitre « [!DNL Creative] ».
 
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=fr).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## [!DNL Adobe] de contact
