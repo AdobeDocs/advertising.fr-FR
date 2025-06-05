@@ -3,9 +3,9 @@ title: Rapports de performances au niveau de l’expérience
 description: Découvrez comment afficher des rapports de performances au niveau de l’expérience.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7e022d8753eb41f5eed8667b9af66085f912bff
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ La vue Rapport inclut les données suivantes :
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
-* **Onglet Performances créatives*** : présentation des performances par élément créatif et lot ou balise publicitaire, notamment :
+* **Onglet Performances de Creative*** : aperçu des performances par élément créatif et lot ou balise publicitaire, y compris :
 
    * **Contenu créatif** sous-onglet : nombre total d’impressions, de clics et de CTR pour chaque contenu créatif de l’expérience.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
@@ -158,12 +158,14 @@ La vue Rapport inclut les données suivantes :
 
    * (Expériences avec ciblage d’arborescence de décision uniquement ; facultatif) Pour ventiler les performances pour chaque cible publicitaire appliquée, activez **[!UICONTROL Split targeting]**.
 
-1. (Facultatif) Pour télécharger les données d’un fichier [!DNL Microsoft Excel] au format feuille de calcul (XLSX), cliquez sur ![Télécharger](/help/creative/assets/download.png "Télécharger") dans la barre d’outils.
+## Téléchargement de rapports de performances pour une expérience
 
-   Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
+* Dans la barre d’outils située en haut des rapports de performances, cliquez sur ![Télécharger](/help/creative/assets/download.png "Télécharger").
+
+  Le fichier est téléchargé dans un fichier [!DNL Microsoft Excel] au format tableur (XLSX), conformément à la procédure normale de votre navigateur.
 
 >[!MORELIKETHIS]
 >
->* [Rapport créatif personnalisé](/help/creative/report-custom-creative.md)
+>* [ Rapport Creative personnalisé ](/help/creative/report-custom-creative.md)
 >* [Télécharger toutes les expériences de la vue](/help/creative/experiences/experience-download-view.md)
 >* [À propos des expériences dans Advertising Creative](/help/creative/experiences/experience-about.md)
