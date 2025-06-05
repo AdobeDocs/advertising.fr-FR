@@ -3,9 +3,9 @@ title: Ajouter un nœud cible au niveau final d’une expérience
 description: Découvrez comment ajouter un nœud cible au niveau cible final d’une expérience publicitaire.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 9f93990bcd6b3c8f7d6fb29186da620ac6d4ecf5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ Lorsque vous ajoutez un nœud cible au niveau le plus bas de l’expérience, qu
 
       1. Cliquez sur **[!UICONTROL Apply]**.
 
-   * Pour une cible de transfert de données, sélectionnez **[!UICONTROL Data Pass]**, saisissez une valeur de transfert de données unique, puis cliquez sur **[!UICONTROL Apply]**.
+   * Pour une cible de transfert de données, sélectionnez **[!UICONTROL Data Pass]**, personnalisez éventuellement la clé de transfert de données, saisissez une valeur de transfert de données unique, puis cliquez sur **[!UICONTROL Apply]**.
 
-   La clé de la paire clé-valeur est déjà définie dans le champ **[!UICONTROL Data Pass]** de la section [!UICONTROL Advanced] des [paramètres d’expérience](experience-settings-targeting.md).
+   Une valeur par défaut pour la clé de la paire clé-valeur est déjà définie dans le champ **[!UICONTROL Data Pass]** de la section [!UICONTROL Advanced] des [paramètres d’expérience](experience-settings-targeting.md). Vous pouvez éventuellement personnaliser la clé .
 
    * Pour une cible de pixel de reciblage, sélectionnez **[!UICONTROL RT Pixel]**, sélectionnez un seul pixel de reciblage à utiliser et les valeurs de l’un des attributs de pixel requis pour afficher les contenus publicitaires, puis cliquez sur **[!UICONTROL Apply]**.
 
