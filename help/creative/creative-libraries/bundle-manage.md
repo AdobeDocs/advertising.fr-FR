@@ -3,9 +3,9 @@ title: Gestion des offres groupées de création
 description: En savoir plus sur xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
+source-git-commit: baba02d2537828f1ed0b5c7842d1f987a55f5ef0
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,8 @@ Vous pouvez associer des contenus publicitaires standard [existants](/help/creat
 >
 >Vous pouvez également [joindre des contenus publicitaires aux lots à partir des vues Publicités standard et Publicités dynamiques](creative-attach-detach-bundles.md).
 
+### Joignez des contenus publicitaires à une offre groupée à partir de la liste Offres groupées .
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
 1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
@@ -129,6 +131,24 @@ Vous pouvez associer des contenus publicitaires standard [existants](/help/creat
 1. (Facultatif) Basculez entre la vue Tableau par défaut et une vue Carte des lots disponibles en cliquant sur ![Vue Carte](/help/creative/assets/card-view-button.png "Vue Carte") pour ouvrir la vue Carte ou ![Vue Tableau/liste](/help/creative/assets/table-view-button.png "Vue Tableau") pour revenir à la vue Tableau.
 
 1. Dans le cadre de droite, cochez la case en regard de chaque élément créatif à joindre au lot, puis cliquez sur **[!UICONTROL Attach Creative to Bundle]**.
+
+### Associez des contenus publicitaires à une offre groupée à partir de la liste des contenus publicitaires de l’offre groupée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. Cliquez sur le nom de la bibliothèque.
+
+1. Cliquez sur l’onglet **[!UICONTROL Bundles]** .
+
+1. Cliquez sur la carte ou la ligne du lot pour afficher tous les contenus publicitaires qu’il contient.
+
+1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Attach Creatives]**.
+
+1. Dans le panneau de droite, cochez la case correspondant à chaque élément créatif à joindre.
+
+1. Cliquez sur **[!UICONTROL Attach Creatives to Bundle]**.
 
 ## Désolidarisation de contenus publicitaires d’une offre groupée {#bundle-detach-creatives}
 
