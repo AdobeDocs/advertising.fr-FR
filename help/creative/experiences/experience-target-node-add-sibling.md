@@ -2,9 +2,10 @@
 title: Ajouter un nœud cible frère entre les nœuds d’une expérience
 description: Découvrez comment ajouter un nœud frère à tout nœud qui a une cible ou qui se trouve au même niveau qu’un nœud avec une cible.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ In an existing experience,
 
 1. Spécifiez les cibles :
 
-   * Pour les cibles Audience Adobe, procédez comme suit :
+   * Pour les cibles Audience d’Adobe, procédez comme suit :
 
       1. Cliquez sur **[!UICONTROL Click to Browse]** pour ouvrir vos options de [!UICONTROL Audience Targeting], ouvrez l’onglet **[!UICONTROL Adobe Segments]**, spécifiez une ou plusieurs des cibles d’audience [!DNL Adobe] de l’annonceur, puis cliquez sur **[!UICONTROL Save]**.
 
@@ -51,9 +52,9 @@ In an existing experience,
 
       1. Cliquez sur **[!UICONTROL Apply]**.
 
-   * Pour les cibles de transfert de données, saisissez une valeur de transfert de données unique, puis cliquez sur **[!UICONTROL Apply]**.
+   * Pour les cibles de transfert de données, vous pouvez éventuellement personnaliser la clé de transfert de données, saisir une valeur de transfert de données unique, puis cliquer sur **[!UICONTROL Apply]**.
 
-   La clé de la paire clé-valeur est déjà définie dans le champ **[!UICONTROL Data Pass]** de la section [!UICONTROL Advanced] des [paramètres d’expérience](experience-settings-targeting.md) et vous ne pouvez pas ajouter de clés supplémentaires.
+     Une valeur par défaut pour la clé de la paire clé-valeur est déjà définie dans le champ **[!UICONTROL Data Pass]** de la section [!UICONTROL Advanced] des [paramètres d’expérience](experience-settings-targeting.md). Vous pouvez éventuellement personnaliser la clé .
 
    * Pour le reciblage des cibles de pixels, sélectionnez le pixel de reciblage à utiliser et les valeurs requises pour l’un des attributs de pixel devant être présent pour afficher les éléments créatifs. Cliquez ensuite sur **[!UICONTROL Apply]**.
 

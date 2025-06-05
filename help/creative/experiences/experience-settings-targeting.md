@@ -3,9 +3,9 @@ title: Paramètres de l’expérience ciblée
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires ciblées.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -50,10 +50,9 @@ Une fois l’expérience enregistrée, vous ne pouvez plus modifier ce paramètr
 
 ## section [!UICONTROL Advanced]
 
-**Transmission de données :** (lecture seule pour les expériences existantes, facultatif) pour cibler les utilisateurs en fonction de paires clé-valeur spécifiques que le DSP, l’éditeur ou le partenaire transmet en temps réel à l’impression. Vous pouvez spécifier jusqu’à cinq clés de transmission de données (paramètres). Lorsque vous configurez le ciblage dans l’arborescence de décision, vous pouvez inclure un niveau de données pour transmettre les nœuds cibles et spécifier les valeurs à cibler pour chaque nœud. Si vous ne spécifiez pas de clé dans ce champ lors de la création de l’expérience, vous pouvez toujours en spécifier une dans l’arborescence de décision.<!-- May move this to just within the decision tree.  -->
+**Transmission de données :** (lecture seule pour les expériences existantes, facultatif) pour cibler les utilisateurs en fonction de paires clé-valeur spécifiques que le DSP, l’éditeur ou le partenaire transmet en temps réel à l’impression. Vous pouvez spécifier jusqu’à cinq clés de transmission de données par défaut (paramètres). Lorsque vous configurez le ciblage dans l’arborescence de décision, vous pouvez inclure un niveau de données pour transmettre les nœuds cibles, personnaliser éventuellement les clés et spécifier les valeurs à cibler pour chaque nœud. Si vous ne spécifiez aucune clé dans ce champ lors de la création de l’expérience, vous pouvez toujours la spécifier dans l’arborescence de décision.
 
-Chaque clé est ajoutée en tant que macro dans l’expérience publicitaire
-, que vous pouvez générer pour implémenter en tant qu’annonce publicitaire dans votre DSP.
+Chaque clé est ajoutée sous la forme d’une macro dans la balise d’expérience publicitaire, que vous pouvez générer pour implémenter en tant qu’annonce publicitaire dans votre DSP.
 
 **Rayon :** (Expériences avec les annonces dynamiques uniquement ; facultatif) Rayon d’un code postal des États-Unis spécifié dans le fichier de flux à cibler ; sélectionnez un rayon compris entre 0 et 200 miles. Le fichier de flux utilisé pour créer les annonces dynamiques pour l’expérience doit inclure une colonne [!UICONTROL ZIP]<!-- or a user-named column mapped to a ZIP column --> avec une valeur pour chaque ligne de produit dans le fichier. Par exemple, pour un rayon de 10 miles, une annonce publicitaire pour un produit disponible en 95110 peut être affichée pour les utilisateurs dans un rayon de 10 miles (déterminé par l’adresse IP de l’utilisateur) 95110.
 
