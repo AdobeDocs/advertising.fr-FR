@@ -2,7 +2,7 @@
 title: Configuration d [!DNL Creative] accès aux ressources d’images Adobe Experience Manager
 description: Découvrez comment configurer l’accès aux ressources Experience Manager dans  [!DNL Creative].
 feature: Creative Libraries
-source-git-commit: 98ae35b8ef428d662e329ba6dd77e28216575ae1
+source-git-commit: 05e65144591af1e44a4068259a4338be9890cbbd
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 # Configuration des [!DNL Creative] pour accéder aux ressources d’images Adobe Experience Manager
 
 *Version bêta fermée*
+
+<!-- Is this relevant only to standard creatives? If so, then move into Standard Creatives chapter from where it is now -->
 
 Avant de pouvoir charger vos ressources d’images Experience Manager existantes dans votre [!UICONTROL Creative Libraries], les paramètres du compte d’annonceur pour votre compte DSP associé doivent spécifier l’ID d’organisation du compte Experience Manager. Contactez l’équipe chargée de votre compte Adobe pour configurer ce paramètre.
 
