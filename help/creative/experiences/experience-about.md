@@ -3,9 +3,9 @@ title: À propos des expériences dans Advertising Creative
 description: Découvrez comment configurer des expériences publicitaires personnalisées et optimiser les éléments publicitaires en fonction des performances.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 0a6cd8e32ae87c7fda9ed0e1b50f9b54cd337192
+source-git-commit: 2ddda1e23e3a3413ef93ca0705f0b9688c893f64
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # À propos des expériences dans Advertising Creative 2.0
 
 *Version bêta fermée*
-
-<!-- Revisit Description metadata  -->
-
-<!-- MORE -->
 
 [!DNL Advertising Creative 2.0] fournit deux structures d’expérience publicitaire différentes pour les publicités d’une bibliothèque de contenu créatif <!-- can use a single library only --> :
 
@@ -36,9 +32,9 @@ ht-degree: 0%
 
    * Types d’appareils, systèmes d’exploitation et navigateurs spécifiques
 
-  Vous pouvez affecter des lots créatifs à chaque expérience. Pour chaque expérience, vous pouvez personnaliser l’optimisation et la planification des offres groupées de contenu créatif et modifier les pages de destination et les URL de suivi par défaut<!-- and any flexible attributes --> pour chaque contenu créatif de chaque offre groupée.
+  Une fois que vous avez créé une branche d’audience cible dans l’arborescence de décision, vous pouvez associer l’audience cible à des contenus publicitaires potentiels en attribuant des lots de contenu créatif à la branche. Pour chaque expérience, vous pouvez personnaliser l’optimisation et la planification des offres groupées de contenu créatif et modifier les pages de destination et les URL de suivi par défaut<!-- later: and any flexible attributes --> pour chaque contenu créatif de chaque offre groupée.
 
-* **Expériences sans ciblage d’arborescence de décision :** [!DNL Creative] optimise les éléments publicitaires pour l’expérience publicitaire sans réduire l’audience.<!-- For first-party creatives, [!DNL Creative] serves the ads. --> Pour chaque expérience, vous spécifiez des dates de début et de fin, ainsi que certains paramètres par défaut, mais la plupart des workflows ne sont pas directement liés à l’expérience. Au lieu d’ajouter directement des contenus publicitaires à l’expérience, utilisez [!UICONTROL Tag Manager] pour créer une balise d’annonce pour chaque taille d’annonce pour l’expérience, puis ajoutez des contenus publicitaires à l’expérience, configurez l’optimisation et la planification des contenus créatifs et personnalisez les pages de destination et les URL de suivi.
+* **Expériences sans ciblage d’arborescence de décision :** [!DNL Creative] optimise les éléments publicitaires pour l’expérience publicitaire sans réduire l’audience. Pour chaque expérience, vous spécifiez des dates de début et de fin, ainsi que certains paramètres par défaut, mais la plupart des workflows ne sont pas directement liés à l’expérience. Au lieu d’ajouter directement des contenus publicitaires à l’expérience, utilisez [!UICONTROL Tag Manager] pour créer une balise d’annonce pour chaque taille d’annonce pour l’expérience, puis ajoutez des contenus publicitaires à l’expérience, configurez l’optimisation et la planification des contenus créatifs et personnalisez les pages de destination et les URL de suivi<!-- later: and any flexible attributes -->
 
 ## Optimisation des publicités
 
@@ -47,35 +43,34 @@ ht-degree: 0%
 
 ## Implémentation et gestion des expériences
 
-Une fois une expérience en direct créée (avec tous les éléments publicitaires requis), vous pouvez [générer une balise JavaScript ou iframe pour l’ensemble de l’expérience](experience-tag-export.md). Vous pouvez charger la balise d’expérience en tant qu’annonce publicitaire dans une campagne dans Adobe Advertising DSP ou l’implémenter en tant qu’annonce publicitaire dans un DSP tiers. [!DNL Creative] diffuse des annonces pour l’expérience en fonction des options de ciblage et de rotation des annonces, ainsi que de l’inventaire des annonces disponibles.
+Une fois que vous avez créé une expérience en direct (avec tous les éléments publicitaires requis), vous pouvez [générer une balise JavaScript ou iframe pour l’expérience entière](experience-tag-export.md). Vous pouvez charger la balise d’expérience en tant qu’annonce publicitaire dans une campagne dans Adobe Advertising DSP ou l’implémenter en tant qu’annonce publicitaire dans un DSP tiers. [!DNL Creative] diffuse des annonces propriétaires et déclenche des annonces tierces pour l’expérience en fonction des options de ciblage et de rotation des annonces ainsi que de l’inventaire des annonces disponibles.
 
 ## Données de performances pour vos expériences
 
-Lorsque vous activez l’option [!UICONTROL Metrics] dans la vue [!UICONTROL Creative] > [!UICONTROL Experiences] , chaque carte ou ligne d’expérience indique le nombre d’impressions et de clics reçus par l’expérience.
+Les données de performances disponibles sont les suivantes :
 
-![Option Mesures](/help/creative/assets/metrics-option.png "Option Mesures")
+* Lorsque vous activez l’option [!UICONTROL Metrics] dans la vue [!UICONTROL Creative] > [!UICONTROL Experiences] , chaque carte ou ligne d’expérience indique le nombre d’impressions et de clics reçus par l’expérience.
 
-<!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
+  ![Option Mesures](/help/creative/assets/metrics-option.png "Option Mesures")
 
-<!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
+  <!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
 
-Vous pouvez [afficher des données de performances détaillées pour n’importe quelle expérience](experience-performance-details.md) à partir de la vue [!UICONTROL Experiences].
+  <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
-Pour surveiller les performances de l’ensemble de vos expériences, créez un [rapport Creative personnalisé](/help/creative/report-custom-creative.md).
+* Vous pouvez [afficher des données de performances détaillées pour n’importe quelle expérience](experience-performance-details.md) à partir de la vue [!UICONTROL Experiences].
+
+* Pour surveiller les performances de l’ensemble de vos expériences, créez un [rapport Creative personnalisé](/help/creative/report-custom-creative.md).
 
 ## Statuts des expériences {#experience-statuses}
 
-<!-- verify that these are all still the same -->
+Le statut d’une expérience est défini automatiquement, à l’exception de *Supprimé* que vous définissez manuellement.
 
-Le statut d’une expérience est défini automatiquement, à l’exception de *supprimé* que vous définissez manuellement.
-
-*En direct :* l’expérience comprend tous les éléments requis. Vous pouvez donc générer une balise d’expérience à implémenter en tant qu’annonce publicitaire dans un DSP. <!-- A live experience may be scheduled to start in the future -->
-
-*Brouillon :* aucune composante créative n’est affectée aux branches de l’expérience. L’expérience est donc incomplète et vous ne pouvez pas générer de balise d’expérience.
-
-*Traitement :* une expérience précédemment active a été modifiée, mais elle est désormais incomplète. Vous ne pouvez pas générer de balise d’expérience pour cette tâche. **Remarque :** si vous avez déjà implémenté une balise d’expérience pour l’expérience, la version précédemment active peut toujours être diffusée. Si vous terminez l’expérience ultérieurement (en la rendant à nouveau active), la nouvelle version peut être diffusée à l’aide de l’implémentation de balise existante.
-
-*Supprimé :* l’expérience a été supprimée de [!DNL Creative] et n’est plus visible dans les vues [!UICONTROL Experiences].
+| Statut | Description |
+| ------ | ----------- |
+| [!UICONTROL Live] | L’expérience comprend tous les éléments requis afin que vous puissiez générer une balise d’expérience à implémenter en tant qu’annonce publicitaire dans un DSP. Il est possible que le démarrage d’une expérience en direct soit planifié dans le futur. |
+| [!UICONTROL Draft] | Toutes les branches de l’expérience ne sont pas dotées de contenu créatif. L’expérience est donc incomplète et vous ne pouvez pas générer de balise d’expérience. |
+| [!UICONTROL Processing] | Une expérience précédemment active a été modifiée, mais elle est désormais incomplète. Vous ne pouvez pas générer de balise d’expérience pour cette tâche. **Remarque :** si vous avez déjà implémenté une balise d’expérience pour l’expérience, la version précédemment active peut toujours être diffusée. Si vous terminez l’expérience ultérieurement (en la rendant à nouveau active), la nouvelle version peut être diffusée à l’aide de l’implémentation de balise existante. |
+| [!UICONTROL Deleted] | L’expérience a été supprimée de [!DNL Creative] et n’est plus visible dans les vues [!UICONTROL Experiences]. |
 
 >[!NOTE]
 >
@@ -85,33 +80,27 @@ Le statut d’une expérience est défini automatiquement, à l’exception de *
 
 La vue [!UICONTROL Experiences] affiche toutes vos expériences ciblées et non ciblées. Vous pouvez voir les noms d’expérience, le statut, les dates de début et de fin, le nombre et les dimensions des contenus publicitaires ou créatifs attribués, et si l’expérience inclut des annonces dynamiques. Lorsque vous activez l’option [!UICONTROL Metrics] dans la vue [!UICONTROL Experiences], chaque carte ou ligne d’expérience indique le nombre d’impressions et de clics que l’expérience a reçus.
 
-Vous pouvez créer et gérer vos expériences , y compris l’optimisation et l’affectation de contenus créatifs et de bundles de création à vos expériences. Vous pouvez également créer et renommer des balises d’expérience et exporter les balises aux formats JavaScript et iframe pour les implémenter sur vos DSP. Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger des balises directement dans une campagne Advertising DSP sous forme de publicités.
+Vous pouvez créer et gérer vos expériences, créer et renommer des balises d’expérience et exporter les balises aux formats JavaScript et iframe pour les implémenter sur vos DSP. Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger des balises directement dans une campagne Advertising DSP.
 
-<!--
-### Available actions
+### Actions disponibles
 
-* [Download data within the view](experience-download-view.md)
+Voici les principales actions disponibles. Pour obtenir la liste complète, reportez-vous à la table des matières du chapitre Creatives > Expériences .
 
-        + [Assign and unassign creative bundles to a final node](/help/creative/experiences/experience-assign-creative-bundles.md)
-* Experiences with decision tree targeting: [Create](/help/creative/experiences/experience-create-targeting.md) and [edit](/help/creative/experiences/experience-edit-targeting.md) experiences, [assign and unassign creative bundles](/help/creative/experiences/experience-assign-creative-bundles.md), [customize creative optimization and scheduling](/help/creative/experiences/experience-optimization-scheduling-targeting.md), and [customize the tracking URLs for creatives](/help/creative/experiences/experience-tracking-urls-targeting.md)
+* [Télécharger des données dans la vue](experience-download-view.md)
 
-* Experiences without decision tree targeting: [Create](experience-create-no-targeting.md) and [edit](/help/creative/experiences/experience-edit-no-targeting.md)
+* [Créer](/help/creative/experiences/experience-create-targeting.md) et [modifier](/help/creative/experiences/experience-edit-targeting.md) une expérience avec le ciblage
 
-* [Clone](experience-clone.md) an experience
+* [Créer](/help/creative/experiences/experience-create-no-targeting.md), [modifier](/help/creative/experiences/experience-edit-no-targeting.md) et [créer manuellement une balise d’annonce publicitaire](/help/creative/experiences/experience-tag-create-manually.md) pour une expérience sans ciblage
 
-* [Preview](experience-preview.md) an experience
+* [Cloner](experience-clone.md) une expérience
 
-* [Share a demo URL](experience-share-demo-url.md) for an experience
+* [Aperçu](experience-preview.md) une expérience
 
-* [Export ad tags for an experience](experience-tag-export.md)
+* [Partager une URL de démonstration](experience-share-demo-url.md) pour une expérience
 
-* [Delete](experience-delete.md) an experience
+* [Exporter des balises de publicité pour une expérience](experience-tag-export.md), y compris éventuellement le chargement direct de balises de publicité dans une campagne Advertising DSP
 
--->
-
-<!-- You can add or remove labels for your experiences.-->
-
-<!-- Add links to workflows once they're done -->
+* [Supprimer](experience-delete.md) une expérience
 
 >[!MORELIKETHIS]
 >
