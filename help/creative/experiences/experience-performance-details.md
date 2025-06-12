@@ -3,7 +3,7 @@ title: Rapports de performances au niveau de l’expérience
 description: Découvrez comment afficher des rapports de performances au niveau de l’expérience.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: fc28fe5c4486939718cf6e7bd58555f72fd0c8ed
+source-git-commit: 80cb7587d433b672e22fb9d831f491af7ee364fe
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -22,33 +22,33 @@ La vue Rapport inclut les données suivantes :
 
 * Onglet **Présentation** : présentation des performances de toutes les mesures de conversion pour l’ensemble de l’expérience, notamment :
 
-<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+  <!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
 
-* **Performance globale** section :
+   * **Performance globale** section :
 
-* **Performances globales** : nombre total d’impressions, de clics, de taux de clics publicitaires (CTR), de conversions d’affichage publicitaire et de conversions de clics publicitaires.
+      * **Performances globales** : nombre total d’impressions, de clics, de taux de clics publicitaires (CTR), de conversions d’affichage publicitaire et de conversions de clics publicitaires.
 
-  <!--
+     <!--
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-* **Taux par défaut** : (expériences avec ciblage d’arborescence de décision uniquement) nombre d’impressions provenant de contenus publicitaires ciblés, de contenus publicitaires génériques sans cible ou ciblés sur « Tout le monde » et du contenu publicitaire par défaut pour l’expérience.
+      * **Taux par défaut** : (expériences avec ciblage d’arborescence de décision uniquement) nombre d’impressions provenant de contenus publicitaires ciblés, de contenus publicitaires génériques sans cible ou ciblés sur « Tout le monde » et du contenu publicitaire par défaut pour l’expérience.
 
-  <!--
+     <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-* Section **Répartition des performances** :
+   * Section **Répartition des performances** :
 
-   * **Performance régionale :* : mesures individuelles par lieu géographique.
+      * **Performance régionale :* : mesures individuelles par lieu géographique.
 
-     <!--   
+        <!--   
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-   * **Performances de l’appareil :** mesures individuelles par type d’appareil, système d’exploitation et navigateur. Si vous le souhaitez, cliquez sur la valeur de n’importe quelle catégorie d’appareils pour afficher la liste des meilleurs talents créatifs diffusés avec <!-- NN --> critère.
+      * **Performances de l’appareil :** mesures individuelles par type d’appareil, système d’exploitation et navigateur. Si vous le souhaitez, cliquez sur la valeur de n’importe quelle catégorie d’appareils pour afficher la liste des meilleurs talents créatifs diffusés avec <!-- NN --> critère.
 
-     <!--    
+        <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
