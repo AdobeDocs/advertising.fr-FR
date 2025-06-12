@@ -3,7 +3,7 @@ title: Rapports de performances au niveau de l’expérience
 description: Découvrez comment afficher des rapports de performances au niveau de l’expérience.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 80cb7587d433b672e22fb9d831f491af7ee364fe
+source-git-commit: 118838e0236c0e40aea797edb1b2f8fb0efb2a79
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -20,9 +20,7 @@ Vous pouvez afficher des données de performances détaillées pour n’importe 
 
 La vue Rapport inclut les données suivantes :
 
-* Onglet **Présentation** : présentation des performances de toutes les mesures de conversion pour l’ensemble de l’expérience, notamment :
-
-  <!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+* Onglet **Aperçu** : aperçu des performances de toutes les mesures de conversion pour l’ensemble de l’expérience<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." --> notamment :
 
    * **Performance globale** section :
 
