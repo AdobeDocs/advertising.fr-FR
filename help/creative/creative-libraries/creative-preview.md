@@ -3,7 +3,7 @@ title: Prévisualisation d’un contenu créatif
 description: Découvrez comment ouvrir l’aperçu d’une création.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
+source-git-commit: 5d1b39f2a0602d4492d468520a946d86ceae16ed
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -12,7 +12,6 @@ ht-degree: 0%
 
 # Prévisualisation d’un contenu créatif
 
-*Contenu publicitaire standard uniquement*
 *Version bêta fermée*
 
 Vous pouvez prévisualiser une création telle que les visiteurs la verront, y compris sous forme de liens hypertexte.
@@ -21,7 +20,7 @@ Vous pouvez prévisualiser une création telle que les visiteurs la verront, y c
 
 1. Cliquez sur le nom de la bibliothèque.
 
-1. Dans l’onglet **[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]** , sélectionnez l’élément créatif :
+1. Dans l’onglet **[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]** ou **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ads]** , sélectionnez l’élément créatif :
 
    * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom du contenu créatif, puis cliquez sur **[!UICONTROL Preview]**.
 

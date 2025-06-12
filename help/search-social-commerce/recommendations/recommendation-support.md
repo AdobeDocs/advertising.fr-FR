@@ -3,9 +3,9 @@ title: À propos de la prise en charge des recommandations et informations de l�
 description: Découvrez la prise en charge de l’affichage et de la gestion des recommandations et des informations de l’éditeur.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
+source-git-commit: 568927a009b2c38d30fc817a9f4aa4e964b4cd9f
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Les recommandations et informations [!DNL Google Ads] et [!DNL Microsoft Adverti
 
 * Chaque recommandation [!DNL Google Ads] fournit des suggestions personnalisées sur les différents aspects de performances d’une campagne (de l’ajout d’une ressource à l’augmentation du budget) en fonction de l’historique des performances de votre compte, des paramètres de votre campagne et des tendances dans l’ensemble des [!DNL Google Ads].
 
-* Chaque information et recommandation [!DNL Microsoft Advertising] sur les performances suggère des modifications pour optimiser les performances de la campagne en fonction des algorithmes de machine learning et des bonnes pratiques.
+* Chaque recommandation et insight de performances [!DNL Microsoft Advertising] suggère des modifications pour optimiser les performances de la campagne en fonction des algorithmes de machine learning et des bonnes pratiques.
 
 ## La vue [!UICONTROL Recommendations & Publisher Insights]
 
@@ -30,7 +30,7 @@ Dans [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 
   Les données sont disponibles en temps réel lorsque vous ouvrez la vue. Pour actualiser les données, cliquez sur ![Actualiser](/help/search-social-commerce/assets/refresh.png "Actualiser") en bas à gauche de la page.
 
-* Pour les comptes [!DNL Microsoft Advertising], consultez d’un coup d’œil chaque information sur les performances générée au cours des 30 derniers jours pour un compte [!DNL Microsoft Advertising]. Les informations fournissent des informations similaires aux recommandations, mais dans un format différent. Chaque information comprend la date, une description du problème, l’entité affectée, la cause première (qui peut inclure des liens vers plus de détails) et l’action suggérée avec un lien pour ouvrir l’éditeur de [!DNL Microsoft Advertising], à partir duquel vous pouvez agir sur l’information spécifique.
+* Pour les comptes [!DNL Microsoft Advertising], consultez d’un coup d’œil chaque performance insight générée au cours des 30 derniers jours pour un compte [!DNL Microsoft Advertising]. Les informations fournissent des informations similaires aux recommandations, mais dans un format différent. Chaque insight comprend la date, une description du problème, l’entité affectée, la cause première (qui peut inclure des liens vers plus de détails) et l’action suggérée avec un lien pour ouvrir l’éditeur de [!DNL Microsoft Advertising], à partir duquel vous pouvez agir sur l’insight spécifique.
 
 * Affichez les détails d’une recommandation et appliquez ou ignorez directement la recommandation.
 
@@ -38,7 +38,7 @@ Dans [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 
 >[!NOTE]
 >
->Bien que les recommandations et informations sur les performances du réseau publicitaire vous aident à améliorer les performances de votre campagne, certaines peuvent ne pas s’aligner sur vos objectifs généraux. Par conséquent, il est préférable de consulter l’équipe chargée de votre compte Adobe avant de mettre en œuvre toute recommandation ou information.
+>Bien que les recommandations et informations sur les performances du réseau publicitaire vous aident à améliorer les performances de votre campagne, certaines peuvent ne pas s’aligner sur vos objectifs généraux. Par conséquent, il est préférable de consulter l’équipe chargée de votre compte Adobe avant de mettre en œuvre toute recommandation ou insight.
 
 ## Types de recommandations pris en charge pour [!DNL Google Ads]
 
@@ -46,6 +46,7 @@ Dans [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] (désormais appelé « [!DNL Ads and assets] » en [!DNL Google Ads]) | [!UICONTROL Call extension] | Ajouter des extensions d’appel à une campagne |
 | | [!UICONTROL Callout extension] | Ajout d’extensions de légende à une campagne |
+|  | [!UICONTROL Improve demand gen ad strength] | Suggestions pour améliorer l&#39;efficacité de l&#39;annonce publicitaire pour une annonce publicitaire |
 | | [!UICONTROL Optimize ad rotation] | Utiliser des rotations d’annonces optimisées |
 | | [!UICONTROL Responsive search ad] | Ajout d’une nouvelle annonce responsive sur le Réseau de Recherche |
 | | [!UICONTROL Responsive search ad asset] | Ajout de ressources d’annonces responsive sur le Réseau de recherche à une annonce |
@@ -77,6 +78,7 @@ Dans [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 | | [!UICONTROL Target ROAS opt in] | Modification de la stratégie d’enchères [!UICONTROL Target ROAS] |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | Étendre la portée en mettant à jour une campagne pour utiliser l’extension d’affichage |
 | | [!UICONTROL Keyword] | Ajouter de nouveaux mots-clés |
+|  | [!UICONTROL Refresh customer match list] | Actualisez vos listes de correspondance de clients pour afficher des annonces personnalisées aux clients récents |
 | | [!UICONTROL Search partners opt in] | Étendre la portée avec [!DNL Google] partenaires de recherche |
 | | [!UICONTROL Use broad match keyword] | Utilisez une correspondance large pour les campagnes basées sur la conversion avec des enchères entièrement automatisées basées sur la conversion. |
 
