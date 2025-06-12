@@ -3,9 +3,9 @@ title: À propos de vos bibliothèques de création
 description: Découvrez comment gérer les contenus publicitaires pour vos expériences publicitaires.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: d7e2403e13c0f9edf1505ca7c50aea3de34f1f3a
+source-git-commit: 677596e41944de7782c520496f6751f03bf5d9a2
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,13 @@ Vous pouvez ajouter et gérer les types de contenu créatif suivants dans les [t
 
 #### HTML5 flexible
 
-Les contenus créatifs HTML5 flexibles sont des contenus créatifs HTML5 avec toutes leurs images et autres attributs comme des balises HTML standard, que vous pouvez modifier directement dans [!DNL Creative], soit dans une bibliothèque de contenus créatifs, soit dans une expérience individuelle (ce qui crée une variante du contenu créatif d’origine). Les créatifs HTML5 flexibles utilisent la norme du laboratoire de technologie du Bureau de l’Advertising interactive (IAB) pour un [portfolio d’annonces](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed --> pour lequel les tailles des annonces sont flexibles (plutôt que fixes) et basées sur les proportions et la plage de tailles de l’annonce, et pour lequel les annonces conservent leur résolution sur tous les appareils et sites d’édition.<!-- Yet our flexible creatives and templates are for a single specific ad size (in pixels), not an aspect ration with size range. Clarify -->
+Les contenus créatifs HTML5 flexibles sont des contenus créatifs HTML5 avec toutes leurs images et autres attributs comme des balises HTML standard, que vous pouvez modifier directement dans [!DNL Creative], soit dans une bibliothèque de contenus créatifs, soit dans une expérience individuelle (ce qui crée une variante du contenu créatif d’origine). Dans DSP, les contenus publicitaires flexibles d’HTML5 sont destinés à une seule taille d’annonce spécifique (en pixels). Vous pouvez éventuellement modifier les valeurs par défaut des attributs spécifiés dans un élément créatif HTML5 flexible. Par la suite, vous pouvez spécifier des valeurs personnalisées pour les attributs dans une expérience spécifique, ce qui crée une variante du contenu créatif parent.
+
+<!-- Removed:
+
+Flexible HTML5 creatives are HTML5 creatives with all of their images and other attributes as standard HTML tags, which you can edit directly within [!DNL Creative], either within a creative library or within an individual experience (which creates a variation of the original creative). Flexible HTML5 creatives use the Interactive Advertising Bureau (IAB) Technology Laboratory's standard for an [ad portfolio](https://flexibleads.iabtechlab.com/), for which ad format sizes are flexible (rather than fixed) and are based on the ad’s aspect ratio and size range, and for which ads maintain their resolution across devices and publisher sites. You can optionally change the default values of the attributes specified in a flexible HTML5 creative. Later, you can specify custom values for the attributes within a specific experience, which creates a variation of the parent creative.
+
+-->
 
 Vous pouvez charger des contenus publicitaires HTML5 flexibles sous forme de fichiers ZIP ou utiliser l’un des modèles disponibles pour votre compte comme point de départ. Consultez les [spécifications des contenus publicitaires HTML5 flexibles](html5-creative-specification.md).
 
@@ -53,8 +59,6 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 [Example card for a flexible creative with one variation]() [add image]
 
  -->
-
-Vous pouvez éventuellement modifier les valeurs par défaut des attributs spécifiés dans un élément créatif HTML5 flexible. Par la suite, vous pouvez spécifier des valeurs personnalisées pour les attributs dans une expérience spécifique, ce qui crée une variante du contenu créatif parent.
 
 #### Conceptions HTML5
 
