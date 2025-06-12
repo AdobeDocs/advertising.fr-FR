@@ -3,7 +3,7 @@ title: Connexion à DSP
 description: Découvrez comment vous connecter à DSP.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: a7e28cb2e37e1c9b6951f844b5f542ae2c8ac1a0
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -42,15 +42,15 @@ Vos informations d’identification DSP actuelles resteront actives jusqu’au 2
 
 1. Choisissez votre organisation :
 
-   * À l’invite, sélectionnez **Compte personnel» ou &#x200B;** Compte d’entreprise ou d’école**.
+   * À l’invite, sélectionnez **Compte personnel» ou **Compte d’entreprise ou d’école**.
 
    * Si vous avez accès à plusieurs organisations IMS, sélectionnez celle qui convient.
 
-Pour plus d’informations sur l’interface d’Experience Cloud, notamment sur la gestion de votre profil utilisateur, voir « [Interface et administration d’Experience Cloud ](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud) ».
+Pour plus d’informations sur l’interface d’Experience Cloud, notamment sur la gestion de votre profil utilisateur, voir « [Interface et administration d’Experience Cloud ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud) ».
 
 ### Dépannage
 
-Pour les problèmes de connexion généraux, consultez également la section « [Résoudre les problèmes de connexion au compte Adobe](https://helpx.adobe.com/fr/manage-account/kb/account-password-sign-help.linkfree.html) ».
+Pour les problèmes de connexion généraux, consultez également la section « [Résoudre les problèmes de connexion au compte Adobe](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html) ».
 
 #### Existe-t-il des conditions préalables pour activer une nouvelle connexion IMS [!DNL Adobe] ?
 
