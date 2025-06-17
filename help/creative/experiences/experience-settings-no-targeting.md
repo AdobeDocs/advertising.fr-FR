@@ -3,9 +3,9 @@ title: Paramètres des expériences non ciblées
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires sans ciblage d’arborescence de décision.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: d2db928068153c0ce26cc51fa79f45cbb3c61f18
+source-git-commit: e070e676b9ae321ddc73acfff0dfc05ea91f9715
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Pour les expériences sans ciblage d’arborescence de décision, vous pouvez re
 
 ## section [!UICONTROL Targeting]
 
-**[!UICONTROL Targeting]:** (lecture seule pour les expériences existantes) Non applicable lorsque vous n’activez pas le ciblage à l’aide d’une arborescence de décision ; gardez cette option désactivée.
+**[!UICONTROL Targeting]:** (lecture seule pour les expériences existantes) Non applicable lorsque vous n’activez pas le ciblage à l’aide d’une arborescence de décision ; gardez cette option désactivée. **Remarque :** une fois que vous avez enregistré une expérience sans ciblage, vous ne pouvez plus ajouter de ciblage.
 
 **[!UICONTROL Dynamic ads]:** (Lecture seule pour les expériences existantes) Indique que l’expérience comprend des annonces dynamiques. **Remarque :** une expérience peut inclure toutes les publicités standard ou toutes les publicités dynamiques.
 

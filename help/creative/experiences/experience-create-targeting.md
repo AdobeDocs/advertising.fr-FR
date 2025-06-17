@@ -3,9 +3,9 @@ title: Création d’une expérience avec le ciblage d’arborescence de décisi
 description: Découvrez comment créer une expérience d’annonce publicitaire ciblée à l’aide d’une arborescence de décision.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
+source-git-commit: 6c75d21daba9a07f17d4f339a0edf4d0bdc06019
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,12 @@ ht-degree: 0%
 # Création d’une expérience avec le ciblage d’arborescence de décision
 
 *Version bêta fermée*
+
+Créez une expérience d’annonce publicitaire ciblée à l’aide d’une arborescence de décision. Chaque expérience utilise les annonces d’une seule bibliothèque de contenu créatif.
+
+>[!NOTE]
+>
+> Une fois que vous avez créé une expérience ciblée, vous ne pouvez pas la modifier ultérieurement en une expérience non ciblée, qui utilise un autre workflow.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 

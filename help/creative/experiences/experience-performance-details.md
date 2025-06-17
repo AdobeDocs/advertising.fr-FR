@@ -3,9 +3,9 @@ title: Rapports de performances au niveau de l’expérience
 description: Découvrez comment afficher des rapports de performances au niveau de l’expérience.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 118838e0236c0e40aea797edb1b2f8fb0efb2a79
+source-git-commit: 1718a7f5a7e3bbfeed336b195a2575275c8fd753
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ La vue Rapport inclut les données suivantes :
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-      * **Performances de l’appareil :** mesures individuelles par type d’appareil, système d’exploitation et navigateur. Si vous le souhaitez, cliquez sur la valeur de n’importe quelle catégorie d’appareils pour afficher la liste des meilleurs talents créatifs diffusés avec <!-- NN --> critère.
+      * **Performances de l’appareil :** mesures individuelles par type d’appareil, système d’exploitation et navigateur. Si vous le souhaitez, cliquez sur la valeur de n’importe quelle catégorie d’appareils pour afficher la liste des 10 meilleurs contenus publicitaires diffusés selon ce critère.
 
         <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}

@@ -2,9 +2,10 @@
 title: Affectation de contenu publicitaire à une balise publicitaire pour des expériences sans ciblage
 description: Découvrez comment affecter des contenus créatifs à une balise d’annonce publicitaire pour une taille de contenu créatif spécifique.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
+source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Expériences sans ciblage d’arborescence de décision uniquement*
 *Version bêta fermée*
 
-Vous pouvez affecter des contenus publicitaires dans les tailles de contenu créatif applicables à une balise publicitaire utilisée pour une expérience. Pour les expériences publicitaires standard, vous ne pouvez affecter que des contenus publicitaires standard. Pour les expériences publicitaires dynamiques, vous ne pouvez affecter que des contenus publicitaires dynamiques.<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
+Vous pouvez affecter des contenus publicitaires dans les tailles de contenu créatif applicables à une balise publicitaire utilisée pour une expérience. Vous pouvez utiliser des contenus publicitaires de la bibliothèque de contenus publicitaires spécifiée dans les paramètres de l’expérience. Pour les expériences publicitaires standard, vous ne pouvez affecter que des contenus publicitaires standard. Pour les expériences publicitaires dynamiques, vous ne pouvez affecter que des contenus publicitaires dynamiques.<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
 
 Vous pouvez ensuite [personnaliser les URL de suivi](experience-tracking-urls-no-targeting.md) et [Personnaliser l’optimisation et la planification de la création](experience-optimization-scheduling-no-targeting.md) pour les créatifs utilisés pour la balise publicitaire.
 

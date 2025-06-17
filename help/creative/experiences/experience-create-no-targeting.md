@@ -2,9 +2,10 @@
 title: Création d’une expérience sans ciblage d’arbre de décision
 description: Découvrez comment créer une expérience publicitaire sans ciblage.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 327b1df5-5663-4513-9238-f481370c8c38
+source-git-commit: a738fed8aea38be2ca0adad08d084a383350d892
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,12 @@ ht-degree: 0%
 # Création d’une expérience sans ciblage d’arbre de décision
 
 *Version bêta fermée*
+
+Créez une expérience publicitaire sans ciblage. Chaque expérience peut utiliser des annonces provenant d’une seule bibliothèque de contenu créatif.
+
+>[!NOTE]
+>
+> Une fois que vous avez créé une expérience non ciblée, vous ne pouvez pas la modifier ultérieurement en expérience ciblée, qui utilise un autre workflow.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -25,7 +32,11 @@ ht-degree: 0%
 
    * [Créez manuellement une balise publicitaire pour une taille de contenu créatif applicable](experience-tag-create-manually.md).
 
+     [!DNL Creative] ne crée pas automatiquement de balises d’annonce publicitaire pour les expériences non ciblées.
+
    * [Attribuer des contenus publicitaires à une balise publicitaire](experience-tag-assign-creatives.md).
+
+     Affectez des contenus publicitaires à la balise d’annonce publicitaire, et non dans les paramètres d’expérience.
 
    * [Personnalisation des URL de tracking](experience-tracking-urls-no-targeting.md)
 

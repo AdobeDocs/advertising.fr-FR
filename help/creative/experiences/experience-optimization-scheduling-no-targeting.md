@@ -3,7 +3,7 @@ title: Personnaliser l’optimisation et la planification de la création pour u
 description: Découvrez comment
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
+source-git-commit: 006b0c61c28f5fac111ccdcc007e1752e05da63f
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 *Expériences avec des contenus publicitaires existants uniquement*
 *Version bêta fermée*
 
-Par défaut, la rotation des créations pour une balise d’expérience publicitaire est déterminée par algorithme afin d’optimiser le taux de clic publicitaire global, et les paramètres d’optimisation des créations s’appliquent à toutes les créations attribuées. Vous pouvez personnaliser la rotation des contenus publicitaires afin de les exécuter manuellement en fonction du poids relatif ou de les optimiser par algorithme pour un objectif personnalisé Advertising DSP spécifié. <!-- verify --> Vous pouvez également planifier l’exécution de contenus publicitaires spécifiques pendant des périodes séquentielles spécifiées et appliquer des paramètres de rotation de contenu publicitaire personnalisés pour chaque planning.
+Par défaut, la rotation des créations pour une balise d’expérience publicitaire est déterminée par algorithme afin d’optimiser le taux de clic publicitaire global, et les paramètres d’optimisation des créations s’appliquent à toutes les créations attribuées. Vous pouvez personnaliser la rotation des contenus publicitaires afin de les exécuter manuellement en fonction du poids relatif ou de les optimiser par algorithme pour un objectif personnalisé Advertising DSP spécifié. Vous pouvez également planifier l’exécution de contenus publicitaires spécifiques pendant des périodes séquentielles spécifiées et appliquer des paramètres de rotation de contenu publicitaire personnalisés pour chaque planning.
 
 ## Configurer l’optimisation de la création sans planification
 
@@ -45,7 +45,7 @@ Lorsque la planification des créations est désactivée, les paramètres d’op
 
 ## Configurer l’optimisation créative avec la planification créative
 
-Vous pouvez éventuellement planifier l’exécution de contenus publicitaires spécifiques utilisés pour une balise d’expérience publicitaire pendant des périodes séquentielles spécifiées entre les dates de début et de fin de l’expérience, et appliquer des paramètres de rotation des contenus publicitaires personnalisés pour chaque planification. Par exemple, vous pouvez planifier l’exécution de Creative 1 pendant les deux premières semaines afin d’optimiser le taux de clic publicitaire , puis l’exécution de Creative 2 pendant les deux semaines suivantes afin d’optimiser pour un objectif personnalisé spécifié.
+Vous pouvez éventuellement planifier l’exécution de contenus publicitaires spécifiques utilisés pour une balise d’expérience publicitaire pendant des périodes séquentielles spécifiées entre les dates de début et de fin de l’expérience, et appliquer des paramètres de rotation des contenus publicitaires personnalisés pour chaque planification. Par exemple, vous pouvez planifier l’exécution de Creative 1 pendant les deux premières semaines afin d’optimiser le taux de clic publicitaire et l’exécution de Creative 2 pendant les deux semaines suivantes pour optimiser l’objectif personnalisé spécifié.
 
 Lorsque vous utilisez la planification, vous devez planifier les contenus publicitaires tout au long de l’expérience.
 

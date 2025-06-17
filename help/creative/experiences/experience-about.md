@@ -3,9 +3,9 @@ title: À propos des expériences dans Advertising Creative
 description: Découvrez comment configurer des expériences publicitaires personnalisées et optimiser les éléments publicitaires en fonction des performances.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 2ddda1e23e3a3413ef93ca0705f0b9688c893f64
+source-git-commit: 1f4c49de75b3a4b19199fc6f2a162b236e21ab49
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Version bêta fermée*
 
-[!DNL Advertising Creative 2.0] fournit deux structures d’expérience publicitaire différentes pour les publicités d’une bibliothèque de contenu créatif <!-- can use a single library only --> :
+[!DNL Advertising Creative 2.0] fournit deux structures d’expérience publicitaire différentes pour les publicités dans une seule bibliothèque de contenu créatif.
 
 * **Expériences de ciblage d’arborescence de décision :** [!DNL Creative] vous permet de configurer des expériences publicitaires personnalisées dans l’ensemble du parcours client à l’aide d’un modèle d’arborescence de décision. Vous pouvez personnaliser tous les éléments publicitaires (images, titres, offres et pages de destination) en fonction de l’audience cible.
 
@@ -34,16 +34,32 @@ ht-degree: 0%
 
   Une fois que vous avez créé une branche d’audience cible dans l’arborescence de décision, vous pouvez associer l’audience cible à des contenus publicitaires potentiels en attribuant des lots de contenu créatif à la branche. Pour chaque expérience, vous pouvez personnaliser l’optimisation et la planification des offres groupées de contenu créatif et modifier les pages de destination et les URL de suivi par défaut<!-- later: and any flexible attributes --> pour chaque contenu créatif de chaque offre groupée.
 
-* **Expériences sans ciblage d’arborescence de décision :** [!DNL Creative] optimise les éléments publicitaires pour l’expérience publicitaire sans réduire l’audience. Pour chaque expérience, vous spécifiez des dates de début et de fin, ainsi que certains paramètres par défaut, mais la plupart des workflows ne sont pas directement liés à l’expérience. Au lieu d’ajouter directement des contenus publicitaires à l’expérience, utilisez [!UICONTROL Tag Manager] pour créer une balise d’annonce pour chaque taille d’annonce pour l’expérience, puis ajoutez des contenus publicitaires à l’expérience, configurez l’optimisation et la planification des contenus créatifs et personnalisez les pages de destination et les URL de suivi<!-- later: and any flexible attributes -->
+* **Expériences sans ciblage d’arborescence de décision :** [!DNL Creative] optimise les éléments publicitaires pour l’expérience publicitaire sans réduire l’audience. Pour chaque expérience, vous spécifiez des dates de début et de fin, ainsi que certains paramètres par défaut, mais la plupart des workflows ne sont pas directement liés à l’expérience. Au lieu d’ajouter directement des créatifs à l’expérience, utilisez [!UICONTROL Tag Manager] pour créer une balise d’annonce pour chaque taille d’annonce pour l’expérience, puis ajoutez des créatifs à l’expérience, configurez l’optimisation et la planification des créations et personnalisez les pages de destination et les URL de suivi<!-- later: and any flexible attributes -->.
 
-## Optimisation des publicités
+>[!NOTE]
+>
+> Les deux types d’expériences ayant des workflows différents, vous ne pouvez pas modifier l’utilisation du ciblage d’arborescence de décision une fois l’expérience enregistrée. Cela signifie que vous ne pouvez pas modifier une expérience non ciblée en expérience ciblée. De même, vous ne pouvez pas modifier une expérience ciblée en une expérience non ciblée.
+
+## Diffusion et optimisation des publicités
 
 <!-- MORE -->
-[!DNL Creative] optimise les éléments publicitaires pour toute expérience en fonction des performances. Pour les expériences ciblées sur des audiences spécifiques, les annonces peuvent être optimisées en fonction des performances des éléments d’annonce individuels des ensembles d’audiences cibles. Pour les expériences sans cibles d’audience spécifiques, les éléments publicitaires sont optimisés en fonction uniquement des performances des éléments publicitaires individuels.
+<!--When multiple ad variants qualify for an impression-->
+
+[!DNL Creative] diffuse des annonces propriétaires et déclenche des annonces tierces pour l’expérience en fonction des options d’objectif de ciblage (le cas échéant), de planification, de rotation des annonces et d’optimisation spécifiées, ainsi que de l’inventaire des annonces disponibles.
+
+* **Planification :** (facultatif) planifiez l’exécution de contenus publicitaires spécifiques pendant des périodes séquentielles spécifiées.
+
+* **Rotation des annonces :** faites pivoter les annonces manuellement en fonction des poids relatifs ou par algorithme en fonction de l’objectif d’optimisation spécifié.
+
+* **Objectif d’optimisation :** optimisez les éléments publicitaires pour obtenir le meilleur taux de clic publicitaire ou pour un objectif personnalisé Advertising DSP [existant](/help/dsp/optimization/custom-goal.md)
+
+  [!DNL Creative] optimise les expériences publicitaires en donnant un partage d’impression aux ressources les plus performantes de l’expérience. Pour les expériences ciblées sur des audiences spécifiques, les annonces peuvent être optimisées en fonction des performances des éléments d’annonce individuels des ensembles d’audiences cibles. Pour les expériences sans cibles d’audience spécifiques, les éléments publicitaires sont optimisés en fonction uniquement des performances des éléments publicitaires individuels.
+
+Par exemple, vous pouvez planifier l’exécution de Creative 1 pendant les deux premières semaines afin d’optimiser le taux de clic publicitaire et l’exécution de Creative 2 pendant les deux semaines suivantes pour optimiser l’objectif personnalisé spécifié.
 
 ## Implémentation et gestion des expériences
 
-Une fois que vous avez créé une expérience en direct (avec tous les éléments publicitaires requis), vous pouvez [générer une balise JavaScript ou iframe pour l’expérience entière](experience-tag-export.md). Vous pouvez charger la balise d’expérience en tant qu’annonce publicitaire dans une campagne dans Adobe Advertising DSP ou l’implémenter en tant qu’annonce publicitaire dans un DSP tiers. [!DNL Creative] diffuse des annonces propriétaires et déclenche des annonces tierces pour l’expérience en fonction des options de ciblage et de rotation des annonces ainsi que de l’inventaire des annonces disponibles.
+Une fois que vous avez créé une expérience en direct (avec tous les éléments publicitaires requis), vous pouvez [générer une balise JavaScript ou iframe pour l’expérience entière](experience-tag-export.md). Vous pouvez charger la balise d’expérience en tant qu’annonce publicitaire dans une campagne dans Adobe Advertising DSP ou l’implémenter en tant qu’annonce publicitaire dans un DSP tiers.
 
 ## Données de performances pour vos expériences
 
