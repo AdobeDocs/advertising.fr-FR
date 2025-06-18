@@ -3,7 +3,7 @@ title: Prévisualisation d’une expérience
 description: Découvrez comment prévisualiser les contenus publicitaires dans une expérience publicitaire.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
+source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Vous pouvez prévisualiser les contenus publicitaires avec une taille d’annonc
 
 1. (Facultatif) Pour copier une URL de démonstration de l’expérience à partager avec d’autres personnes sans connexion à [!DNL Creative] :
 
-   1. Dans l’angle supérieur droit de l’aperçu, cliquez sur ![Partager](/help/creative/assets/share2.png "Partager").
+   1. Dans l’angle supérieur droit de l’aperçu, cliquez sur ![Partager](/help/creative/assets/share.png "Partager").
 
    1. Dans la boîte de dialogue [!UICONTROL Share Demo URL], cliquez sur **[!UICONTROL Copy]** pour copier l’URL dans le presse-papiers afin de la partager avec une autre personne.
 

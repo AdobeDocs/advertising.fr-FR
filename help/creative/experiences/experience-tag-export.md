@@ -3,7 +3,7 @@ title: Exporter et implémenter une balise d’expérience publicitaire pour une
 description: Découvrez comment exporter une balise d’expérience publicitaire et éventuellement la charger dans une campagne Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: c05c5d22f4763cd6c1425b5ab3b0bf11b78b0aee
+source-git-commit: 41763b21bda47e8bd45f48c18a674cd694df68d1
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger des 
 
    * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**
 
-1. Placez le curseur sur la ligne de la balise publicitaire applicable et cliquez sur ![Exporter les balises publicitaires](/help/creative/assets/export.png "Exporter les balises publicitaires") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Placez le curseur sur la ligne de la balise publicitaire applicable et cliquez sur ![Exporter les balises publicitaires](/help/creative/assets/export.png "Exporter les balises publicitaires") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -44,15 +44,15 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger des 
 
 1. Cliquez sur **[!UICONTROL Next]** dans le coin supérieur droit ou sur **[!UICONTROL Generate ad tags]** dans le menu de gauche.
 
-1. Sélectionnez le type de balise : ** *JavaScript<!-- sic -->* **&#x200B; ou &#x200B;** *IFRAME* ** <!-- sic -->.
+1. Sélectionnez le type de balise : ** *JavaScript<!-- sic -->* ** ou ** *IFRAME* ** <!-- sic -->.
 
 1. Dans la liste [!UICONTROL Destinations], sélectionnez l’emplacement où vous allez créer des annonces pour l’expérience.
 
    * *Générique :* pour les publicités que vous allez créer dans d’autres DSP. **Remarque :** vous devrez peut-être inclure manuellement [macros supplémentaires](/help/creative/creative-macros.md) si nécessaire.
 
-   * *Adobe Advertising:* pour les publicités que vous allez créer dans Advertising DSP.
+   * *Adobe AdCloud :* pour les publicités que vous allez créer dans Advertising DSP.
 
-   * *Google DCM:* pour les publicités que vous allez créer dans [!DNL Google Campaign Manager 360]. **Remarque :** vous devrez peut-être inclure manuellement [macros supplémentaires](/help/creative/creative-macros.md) si nécessaire.
+   * *CM360 Google :* pour les publicités que vous allez créer dans [!DNL Google Campaign Manager 360]. **Remarque :** vous devrez peut-être inclure manuellement [macros supplémentaires](/help/creative/creative-macros.md) si nécessaire.
 
 1. Cliquez sur **[!UICONTROL Generate tags]**.
 
