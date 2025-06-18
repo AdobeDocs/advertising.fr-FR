@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir les descriptions des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: fd3805096f97ba572afb4a5573ae0e2f5ec17a6f
+source-git-commit: 1478e61ebd7dac59cac7566b86e5b1ea97838508
 workflow-type: tm+mt
-source-wordcount: '4255'
+source-wordcount: '4477'
 ht-degree: 0%
 
 ---
@@ -177,9 +177,9 @@ Incluez un code postal par ligne ou saisissez plusieurs valeurs séparées par d
 
   Vous pouvez afficher la liste par source ou par flux. Lorsque vous affichez la liste par flux, vous pouvez effectuer une recherche par nom de flux, clé de flux ou balise de caractéristique sélectionnée.
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private] : les offres privées existantes (ou les offres de [!DNL Roku] privées existantes pour les emplacements [!DNL Roku]) avec les éditeurs que vous avez configurés dans DSP. Vous pouvez inclure, mais pas exclure, les stocks publics.
+* [!UICONTROL Private] | [!UICONTROL Roku Private] : les offres privées que vous avez conclues (ou les offres de [!DNL Roku] privées existantes pour les emplacements [!DNL Roku]) avec les éditeurs que vous avez configurés dans DSP, ainsi que vos listes d’offres privées [ existantes](/help/dsp/inventory/lists-deals-manage.md). Vous pouvez inclure, mais pas exclure, les stocks publics.
 
-  Vous pouvez effectuer une recherche dans la liste par mot-clé, clé, ID d’offre ou balise personnalisée.
+  Dans l’onglet [!UICONTROL Deals] , vous pouvez rechercher la liste par mot-clé, clé, ID d’offre ou balise personnalisée. Dans l&#39;onglet [!UICONTROL Deal Lists], vous pouvez rechercher la liste par nom ou ID de liste d&#39;offres.
 
    * *[!UICONTROL Ensure Fixed or Floor Price for the bid]* : (Facultatif) remplace l&#39;algorithme des prix offerts pour proposer au moins les prix fixes et les prix plancher pour les opérations.
 
@@ -199,12 +199,15 @@ Pour définir le ciblage de l&#39;inventaire :
       1. ([!UICONTROL Public] et inventaire [!UICONTROL On Demand]) Cliquez sur **[!UICONTROL View by Source]** ou **[!UICONTROL View by Feed]** pour modifier la façon dont les sources sont répertoriées.
       1. (Le cas échéant) Filtrez l’inventaire selon les besoins.
       1. Spécifiez les sources à inclure et à exclure :
-         * Pour inclure une source [!UICONTROL Public] ou [!UICONTROL On Demand], cliquez sur **[!UICONTROL Include]** en regard du nom de la source.
-         * Pour inclure des sources de [!UICONTROL Private] :
-            * Pour inclure tous les stocks dans une offre, cliquez sur **[!UICONTROL Include all]** en regard du nom de l’offre.
-            * Pour inclure une origine de stock individuelle, développez le nom de l&#39;opération, puis cochez la case en regard du nom de l&#39;origine.
-         * Pour exclure un [!UICONTROL Public] ou un [!UICONTROL On source], cliquez sur **[!UICONTROL Exclude]** en regard du nom de la source.
-   1. (Facultatif) Pour télécharger un fichier CSV contenant les informations de ciblage à l’emplacement des téléchargements de votre navigateur, cliquez sur **[!UICONTROL Save & Export]**.
+         * Pour l&#39;inventaire des [!UICONTROL Public] ou des [!UICONTROL On Demand] :
+            * Pour inclure une source, cliquez sur **[!UICONTROL Include]** en regard du nom de la source.
+            * Pour exclure une source, cliquez sur **[!UICONTROL Exclude]** en regard du nom de la source.
+         * Pour [!UICONTROL Private] inventaire :
+            * Dans l’onglet [!UICONTROL Deals] :
+               * Pour inclure tous les stocks dans une offre, cliquez sur **[!UICONTROL Include all]** en regard du nom de l’offre.
+               * Pour inclure une origine de stock individuelle, développez le nom de l&#39;opération, puis cochez la case en regard du nom de l&#39;origine.
+            * Dans l’onglet [!UICONTROL Deal Lists] , cochez la case en regard du nom de la liste des offres.
+   1. (Facultatif) Pour télécharger un fichier CSV contenant les informations de ciblage à l’emplacement des téléchargements de votre navigateur, cliquez sur **[!UICONTROL Export]**.
    1. Cliquez sur **[!UICONTROL Save]**.
 
 >[!TIP]
@@ -256,30 +259,34 @@ Pour définir le ciblage de l&#39;inventaire :
 1. (Facultatif) Pour télécharger un fichier CSV contenant les informations de ciblage à l’emplacement des téléchargements de votre navigateur, cliquez sur **[!UICONTROL Export]**.
 1. Cliquez sur **[!UICONTROL Save]**.
 
-**[!UICONTROL Exclude Sites or Apps]:** (facultatif ; disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL Off]*) Sites à exclure. Vous pouvez rechercher et sélectionner des sites ou saisir ou coller des noms de domaine :
+**[!UICONTROL Exclude Sites or Apps]:** (facultatif ; disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL Off]*) Sites/applications et [listes d’URL](/help/dsp/resources/lists-url-manage.md) à exclure. Dans l’onglet [!UICONTROL Paste URL] , vous pouvez rechercher et sélectionner des sites, ou saisir ou coller des noms de domaine. Dans l’onglet [!UICONTROL URL Lists] , vous pouvez sélectionner des listes d’URL.
 
 1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
 1. Spécifiez les sites :
-   * Pour rechercher un site :
-      1. Cliquez sur **[!UICONTROL Search]**.
-      1. Saisissez un mot-clé, sélectionnez un niveau de site et/ou sélectionnez une catégorie de site.
-      1. Dans les résultats de la recherche, sélectionnez les sites à exclure :
-         * Pour exclure un site individuel, cochez la case adjacente.
-         * (Lorsque plus de 50 résultats sont disponibles) Pour exclure les 50 premiers résultats, cliquez sur **[!UICONTROL Exclude these 50]**. Pour exclure tous les résultats de la recherche, cliquez sur **[!UICONTROL Exclude these \<*NN *\>]**.
-   * Pour saisir des noms de domaine :
-      1. Cliquez sur **[!UICONTROL Paste]**.
-      1. Entrez un ou plusieurs noms de domaine sur des lignes distinctes.
-      1. Cliquez sur **[!UICONTROL Exclude All]**.
+   * Dans l’onglet [!UICONTROL Paste URL] :
+      * Pour rechercher un site :
+         1. Cliquez sur **[!UICONTROL Search]**.
+         1. Saisissez un mot-clé, sélectionnez un niveau de site et/ou sélectionnez une catégorie de site.
+         1. Dans les résultats de la recherche, sélectionnez les sites à exclure :
+            * Pour exclure un site individuel, cochez la case adjacente.
+            * (Lorsque plus de 50 résultats sont disponibles) Pour exclure les 50 premiers résultats, cliquez sur **[!UICONTROL Exclude these 50]**. Pour exclure tous les résultats de la recherche, cliquez sur **[!UICONTROL Exclude these \<*NN *\>]**.
+      * Pour saisir des noms de domaine :
+         1. Cliquez sur **[!UICONTROL Paste]**.
+         1. Entrez un ou plusieurs noms de domaine sur des lignes distinctes.
+         1. Cliquez sur **[!UICONTROL Exclude All]**.
+   * Dans l’onglet [!UICONTROL URL Lists] :
+      1. (Facultatif) Recherchez une liste d’URL en saisissant tout ou partie du nom de la liste dans le champ de recherche.
+      1. Cochez la case en regard de chaque liste d’URL à exclure.
 1. Cliquez sur **[!UICONTROL Done]** lorsque vous avez terminé.
 
 >[!NOTE]
 >
 >* Les listes de sites bloqués au niveau du compte et de l’annonceur sont également appliquées, en plus de la [liste des sites bloqués au niveau mondial](/help/dsp/introduction/features/brand-safety-media-quality.md) de DSP, qui inclut les sites considérés comme dangereux pour les publicités.
->* Les listes de sites bloqués remplacent toujours les listes de sites ciblés. Si un emplacement exclut et inclut la même cible pour une annonce publicitaire, la cible est exclue.
+>* Les listes de sites bloqués remplacent toujours les sites ciblés et les listes de sites. Si un emplacement exclut et inclut la même cible pour une annonce publicitaire, la cible est exclue.
 
 **[!UICONTROL Language]:** (facultatif) Une seule langue à cibler.
 
-**[!UICONTROL Site or App List Preview]:** (Lecture seule) Tous les sites ciblés et bloqués pour l’emplacement.
+**[!UICONTROL Site or app list preview]:** (Lecture seule) Tous les sites/applications ciblés et bloqués pour l’emplacement, y compris les sites/applications au niveau du compte, au niveau de l’annonceur et les listes globales de sites bloqués de DSP.
 
 Vous pouvez éventuellement exporter la liste des sites ciblés et bloqués dans un fichier de valeurs séparées par des virgules (CSV). Pour exporter la liste, cliquez sur **[!UICONTROL Export full site list]**, puis ouvrez ou enregistrez le fichier conformément à la procédure normale de votre navigateur.
 
@@ -287,21 +294,30 @@ Vous pouvez éventuellement exporter la liste des sites ciblés et bloqués dans
 
 **[!UICONTROL Paste list of targeted sites]:** vous permet de cibler des sites spécifiques uniquement. Lorsque vous activez cette option, les autres options de ciblage de site sont désactivées.
 
-**[!UICONTROL Sites]:** (disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL On]*) Sites à cibler. Vous pouvez rechercher et sélectionner des sites ou saisir ou coller des noms de domaine :
+**[!UICONTROL Sites or Apps]:** (disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL On]*) Sites à cibler. Dans l’onglet [!UICONTROL Paste URL] , vous pouvez rechercher et sélectionner des sites, ou saisir ou coller des noms de domaine. Dans l’onglet [!UICONTROL URL Lists] , vous pouvez sélectionner des listes d’URL.
 
 1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
 1. Spécifiez les sites :
-   * Pour rechercher un site :
-      1. Cliquez sur **[!UICONTROL Search]**.
-      1. Saisissez un mot-clé, sélectionnez un niveau de site et/ou sélectionnez une catégorie de site.
-      1. Dans les résultats de la recherche, sélectionnez les sites à inclure :
-         * Pour exclure un site individuel, cochez la case adjacente.
-         * (Lorsque plus de 50 résultats sont disponibles) Pour inclure les 50 premiers résultats, cliquez sur **[!UICONTROL Include these 50]**. Pour inclure tous les résultats de la recherche, cliquez sur **[!UICONTROL Include these \<*NN *\>]**.
-   * Pour saisir des noms de domaine :
-      1. cliquez sur **[!UICONTROL Paste]**.
-      1. Entrez un ou plusieurs noms de domaine sur des lignes distinctes.
-      1. Cliquez sur **[!UICONTROL Include All]**.
-1. Cliquez sur **[!UICONTROL Done]**.
+   * Dans l’onglet [!UICONTROL Paste URL] :
+      * Pour rechercher un site :
+         1. Cliquez sur **[!UICONTROL Search]**.
+         1. Saisissez un mot-clé, sélectionnez un niveau de site et/ou sélectionnez une catégorie de site.
+         1. Dans les résultats de la recherche, sélectionnez les sites à inclure :
+            * Pour inclure un site individuel, cochez la case adjacente.
+            * (Lorsque plus de 50 résultats sont disponibles) Pour inclure les 50 premiers résultats, cliquez sur **[!UICONTROL Include these 50]**. Pour inclure tous les résultats de la recherche, cliquez sur **[!UICONTROL Include these \<*NN *\>]**.
+      * Pour saisir des noms de domaine :
+         1. Cliquez sur **[!UICONTROL Paste]**.
+         1. Entrez un ou plusieurs noms de domaine sur des lignes distinctes.
+         1. Cliquez sur **[!UICONTROL Include All]**.
+   * Dans l’onglet [!UICONTROL URL Lists] :
+      1. (Facultatif) Recherchez une liste d’URL en saisissant tout ou partie du nom de la liste dans le champ de recherche.
+      1. Cochez la case en regard de chaque liste d’URL à inclure.
+1. Cliquez sur **[!UICONTROL Done]** lorsque vous avez terminé.
+
+>[!NOTE]
+>
+>* Les listes de sites bloqués au niveau du compte et de l’annonceur sont également appliquées, en plus de la [liste des sites bloqués au niveau mondial](/help/dsp/introduction/features/brand-safety-media-quality.md) de DSP, qui inclut les sites considérés comme dangereux pour les publicités.
+>* Les listes de sites bloqués remplacent toujours les sites ciblés et les listes de sites. Si un emplacement exclut et inclut la même cible pour une annonce publicitaire, la cible est exclue. Vous pouvez rechercher et sélectionner des sites ou saisir ou coller des noms de domaine :
 
 ## [!UICONTROL Audience Targeting]
 

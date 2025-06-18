@@ -3,7 +3,7 @@ title: Paramètres des rapports personnalisés
 description: Voir les descriptions des paramètres des rapports personnalisés.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
+source-git-commit: 8e6d2a1d39231176f3836246958b82691fbb5006
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -62,7 +62,11 @@ Cette section détermine les dates d&#39;exécution du rapport. Pour configurer 
 
 ## Section [!UICONTROL Apply Filters]
 
-**[!UICONTROL Filter by]:** (facultatif) Dimensions supplémentaires selon lesquelles filtrer les données, que les dimensions soient incluses ou non en tant que colonnes dans le rapport. Les filtres disponibles varient selon le type de rapport et peuvent inclure : *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* et *[!UICONTROL Video Duration]*.
+**[!UICONTROL Filter by]:** (facultatif) Dimensions supplémentaires selon lesquelles filtrer les données, que les dimensions soient incluses ou non en tant que colonnes dans le rapport. Les filtres disponibles varient selon le type de rapport et peuvent inclure : *[!UICONTROL Account]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* et *[!UICONTROL Video Duration]*.
+
+<!-- Add when available:
+*[!UICONTROL Deal ID]*, *[!UICONTROL Deal List]*, 
+-->
 
 Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
@@ -70,7 +74,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 * (Facultatif) Ajoutez des critères supplémentaires au filtre.
 * (Facultatif) Ajoutez des filtres supplémentaires, chacun avec un ou plusieurs critères.
 
-\* *[!UICONTROL Account]* est disponible pour les types de rapports suivants uniquement lorsque votre organisation est configurée pour la création de rapports entre comptes [cross-account](report-about.md#cross-account-reporting) : [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] et [!UICONTROL Conversion]. Pour plus d’informations sur les rapports entre comptes, contactez l’équipe chargée de votre compte Adobe.
+\* *[!UICONTROL Account]* est disponible pour les types de rapports suivants uniquement lorsque votre organisation est configurée pour la création de rapports entre comptes [cross-account](report-about.md#cross-account-reporting) : [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] et [!UICONTROL Conversion]. Contactez l’équipe chargée de votre compte Adobe pour en savoir plus sur le reporting entre comptes.
 
 **[!UICONTROL Include data from Adobe Advertising SSC]:** (rapports Chemin d’accès à la conversion, Longueur du chemin et Délai d’accès à la conversion uniquement) Inclut des données pour les clics sur les annonces de recherche provenant de campagnes Advertising Search, Social et Commerce spécifiées. Lorsque vous sélectionnez cette option :
 
@@ -113,13 +117,13 @@ Voir « [Colonnes de rapport disponibles](report-columns.md) » pour obtenir une
 
 **[!UICONTROL Attribution Rule Settings]:** Les paramètres varient selon le type de rapport :
 
-* **\[Type d’attribution\]:** ([!UICONTROL Household Conversion] des rapports avec des colonnes [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] ; annonceurs avec un suivi des conversions Adobe Advertising uniquement) Dans le rapport, comment attribuer les données de conversion dans une série d’événements qui conduisent à une conversion :
+* **\[Type d’attribution\]:** ([!UICONTROL Household Conversion] des rapports avec des colonnes [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] ; annonceurs avec suivi des conversions Adobe Advertising uniquement) Dans le rapport, comment attribuer les données de conversion dans une série d’événements qui conduisent à une conversion :
 
    * *[!UICONTROL Unique]:* (valeur par défaut) compte le nombre de fois qu’une valeur de dimension (un appareil ou un emplacement, par exemple) a été sur le chemin d’accès à la conversion.
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]:* distribue le crédit de chaque conversion en fonction de la fréquence d’occurrence de la valeur de dimension (telle qu’un appareil ou un emplacement) sur le chemin d’accès à la conversion. Par exemple, s’il y avait un total de 10 impressions avant la conversion, avec 8 sur CTV et 2 sur Mobile, alors 80 % du crédit (0,8) est attribué aux écrans de CTV et 0,2 à Mobile.
 
-* **\[Type de règle\]:** (tous les rapports [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment] et [!UICONTROL Site] avec des colonnes [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] ; annonceurs avec un suivi de conversion d’Adobe Advertising uniquement) Dans le rapport, comment attribuer les données de conversion dans une série d’événements qui conduisent à une conversion. Vous pouvez choisir plusieurs règles pour comparer les différences entre elles.
+* **\[Type de règle\]:** (tous les rapports [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment] et [!UICONTROL Site] avec des colonnes [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] ; annonceurs avec suivi des conversions Adobe Advertising uniquement) Dans le rapport, comment attribuer les données de conversion dans une série d’événements qui conduisent à une conversion. Vous pouvez choisir plusieurs règles pour comparer les différences entre elles.
 
   >[!NOTE]
   >
@@ -141,9 +145,9 @@ Voir « [Colonnes de rapport disponibles](report-columns.md) » pour obtenir une
 
    * *[!UICONTROL Social Only]:* Obsolète
 
-Consultez également la section « [Comment les règles d’attribution sont calculées pour l’Adobe Advertising ](/help/search-social-commerce/reports/attribution-rules.md) ».
+[ Consultez également la section « Comment les règles d’attribution sont-elles calculées pour Adobe Advertising ](/help/search-social-commerce/reports/attribution-rules.md) ? »
 
-* **Recherche en amont :** ([!UICONTROL Household Conversion] des rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes et [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion] des rapports avec [!UICONTROL Conversion Metrics] colonnes uniquement ; annonceurs avec suivi des conversions d’Adobe Advertising uniquement) dans le rapport, le nombre maximal de jours après un événement d’impression ou un événement de clic (pour les rapports [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion]) dans lequel un événement de conversion peut lui être attribué. La valeur par défaut est *[!UICONTROL 30 days]* et la valeur maximale est de 92 jours.
+* **Recherche en amont :** ([!UICONTROL Household Conversion] des rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes et des rapports [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion] avec [!UICONTROL Conversion Metrics] colonnes uniquement ; annonceurs avec suivi des conversions Adobe Advertising uniquement) dans le rapport, le nombre maximal de jours après un événement d’impression ou un événement de clic (pour les rapports [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion]) dans lequel un événement de conversion peut lui être attribué. La valeur par défaut est *[!UICONTROL 30 days]* et la valeur maximale est de 92 jours.
 
   >[!TIP]
   >
@@ -179,7 +183,7 @@ Consultez également la section « [Comment les règles d’attribution sont cal
 
 * *[!UICONTROL FTP]:* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
+* *[!UICONTROL FTP SSL](actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
 
 * *[!UICONTROL Email]:* pour spécifier la ou les adresses e-mail auxquelles envoyer les rapports terminés ou les notifications si le rapport est annulé en raison d’erreurs.
 
