@@ -3,9 +3,9 @@ title: Paramètres des expériences non ciblées
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires sans ciblage d’arborescence de décision.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: e070e676b9ae321ddc73acfff0dfc05ea91f9715
+source-git-commit: bd72dccf0c24c2408b4e6349842dae4b3ba93956
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Lorsque vous créez une balise d’expérience publicitaire pour une taille de c
 
 **Pixel RT :** (expériences avec des annonces dynamiques uniquement ; facultatif) pixel de reciblage [!UICONTROL Creative] à cibler potentiellement. Lorsque vous configurez le ciblage dans l’arborescence de décision, vous pouvez inclure un niveau de nœuds cibles de pixels RT. Pour chaque nœud, vous spécifiez le pixel à cibler et les valeurs des attributs de pixel requis pour afficher les contenus publicitaires dans les lots de contenus publicitaires attribués. Si vous ne spécifiez pas de pixel dans ce champ, vous pouvez toujours en spécifier un dans l’arborescence de décision.<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
-**[!UICONTROL Label]:**<!-- should be "Labels" --> (facultatif) libellés spécifiques à l’[!DNL Creative] à appliquer à l’expérience. Vous pouvez filtrer les expériences par libellé dans la vue Expériences <!-- sic --> .
+**[!UICONTROL Label]:**<!-- should be "Labels" --> (facultatif) libellés spécifiques à l’[!DNL Creative] à appliquer à l’expérience. Vous pouvez filtrer les expériences par libellé dans la vue Expériences et inclure la dimension [!UICONTROL Experience Label] dans la [!UICONTROL Custom Creative Report].
 
 * Pour sélectionner des libellés existants, cliquez sur ![Bas](/help/creative/assets/chevron-down.png "Bas"), puis cochez la case en regard de chaque libellé à appliquer.
 

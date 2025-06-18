@@ -3,9 +3,9 @@ title: À propos de vos bibliothèques de création
 description: Découvrez comment gérer les contenus publicitaires pour vos expériences publicitaires.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 677596e41944de7782c520496f6751f03bf5d9a2
+source-git-commit: 86bd3384a44cc526428dd8ea5e97fdd684331086
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Vos bibliothèques peuvent inclure les éléments suivants :
 
 * **Contenu publicitaire individuel :** vous pouvez inclure des contenus publicitaires individuels directement dans des expériences publicitaires pour lesquelles aucune cible utilisateur n’est définie. Vous pouvez également utiliser vos contenus publicitaires pour créer des offres groupées, que vous pouvez inclure dans des [expériences publicitaires](/help/creative/experiences/experience-about.md) ciblées.
 
-   * **Contenu publicitaire standard :** vous pouvez charger et gérer des contenus publicitaires dans [différents formats](#creative-creative-formats). Pour chaque élément créatif, vous spécifiez la langue par défaut de chaque annonce à laquelle vous associez l’élément créatif, la page de destination par défaut qui s’ouvre lorsqu’un utilisateur clique sur une annonce qui comprend l’élément créatif et les libellés facultatifs à utiliser comme filtres dans différentes vues dans [!DNL Creative].
+   * **Contenu publicitaire standard :** vous pouvez charger et gérer des contenus publicitaires dans [différents formats](#creative-creative-formats). Pour chaque élément créatif, vous spécifiez la langue par défaut de chaque publicité à laquelle vous associez l’élément créatif, ainsi que la page de destination par défaut qui s’ouvre lorsqu’un utilisateur clique sur une publicité qui inclut l’élément créatif. Vous pouvez éventuellement spécifier des libellés à utiliser comme filtres dans différentes vues dans [!DNL Creative] et comme valeurs de colonne dans le [!UICONTROL Custom Creative Report] lorsque vous incluez à l’aide de la dimension [!UICONTROL Creative Label] .
 
    * **Contenu créatif dynamique :** (clients Adobe Advertising DCO existants uniquement) Les utilisateurs administrateurs peuvent créer des contenus créatifs générés dynamiquement en mappant les variables dynamiques d’un modèle d’annonce publicitaire aux valeurs d’un fichier de flux. Tous les utilisateurs peuvent prévisualiser, dupliquer et supprimer des annonces dynamiques existantes.
 
@@ -90,6 +90,8 @@ Voir « [ Personnaliser vos vues de données »](/help/creative/introduction/cus
 
 La vue principale [!UICONTROL Creative Libraries] affiche toutes vos bibliothèques de création. Les données de chaque bibliothèque incluent le nombre d’expériences auxquelles les lots de la bibliothèque sont affectés, le nombre de lots, le nombre de contenus publicitaires, le nombre de tailles de contenus publicitaires, le nombre de cibles linguistiques par défaut, la date de création et la date de dernière modification apportée à un élément de la bibliothèque. Le mode Tableau comprend également une colonne pour l’annonceur.
 
+Lorsque vous êtes en mode Carte, vous pouvez faire défiler les images d’une bibliothèque comportant plusieurs contenus publicitaires à l’aide des boutons &lt; et >.
+
 #### Actions disponibles
 
 * Création de bibliothèques
@@ -156,7 +158,7 @@ Actuellement, la possibilité de créer et de modifier des contenus publicitaire
 
 ### La vue [!UICONTROL Creative Libraries] > [!UICONTROL Bundles]
 
-La vue [!UICONTROL Bundles] affiche tous vos conteneurs de lots standard et dynamiques. Vous pouvez voir les noms des contenus publicitaires, les tailles de contenu publicitaire et les langues des contenus publicitaires inclus dans chaque lot.
+La vue [!UICONTROL Bundles] affiche tous vos conteneurs de lots standard et dynamiques. Vous pouvez voir les noms des contenus publicitaires, les tailles de contenu publicitaire et les langues des contenus publicitaires inclus dans chaque lot. Lorsque vous êtes en mode Carte, vous pouvez faire défiler les images d’un lot avec plusieurs contenus publicitaires à l’aide des boutons &lt; et >.
 
 #### Actions disponibles
 

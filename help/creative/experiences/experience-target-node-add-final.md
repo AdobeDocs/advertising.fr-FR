@@ -3,9 +3,9 @@ title: Ajouter un nœud cible au niveau final d’une expérience
 description: Découvrez comment ajouter un nœud cible au niveau cible final d’une expérience publicitaire.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 7e345130f43fc2d8c2ada287a2dc61b1515e2d25
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,16 @@ Lorsque vous ajoutez un nœud cible au niveau le plus bas de l’expérience, qu
          Cette fonction crée un nœud cible distinct (avec des lots de création distincts) pour chaque cible géographique spécifiée. Si vous ne divisez pas les cibles, l’utilisateur doit appartenir à tous les emplacements spécifiés (instruction [!DNL Boolean] `AND`).
 
       1. Cliquez sur **[!UICONTROL Apply]**.
+
+1. (Facultatif) Spécifiez un nom de branche personnalisé pour une branche définie par l’utilisateur.
+
+   Par défaut, les branches définies par l’utilisateur sont étiquetées avec les cibles appliquées.
+
+   Vous ne pouvez pas créer de nom de branche personnalisé pour une branche « Tous » ou « Tous les autres ».
+
+   1. Placez le curseur sur le nœud cible, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**.
+
+   1. Saisissez le **[!UICONTROL Node Name]**, puis cliquez sur **[!UICONTROL Save]**.
 
 1. Effectuez l’une des opérations suivantes :
 

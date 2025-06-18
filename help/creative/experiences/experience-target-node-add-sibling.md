@@ -3,9 +3,9 @@ title: Ajouter un nœud cible frère entre les nœuds d’une expérience
 description: Découvrez comment ajouter un nœud frère à tout nœud qui a une cible ou qui se trouve au même niveau qu’un nœud avec une cible.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 8961833c854ed41e4cca69787a5dc70dce2f203c
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ In an existing experience,
          Cette fonction crée un nœud cible distinct (avec des lots de création distincts) pour chaque cible géographique spécifiée. Si vous ne divisez pas les cibles, l’utilisateur doit appartenir à tous les emplacements spécifiés (instruction [!DNL Boolean] `AND`).
 
       1. Cliquez sur **[!UICONTROL Apply]**.
+
+1. (Facultatif) Spécifiez un nom de branche personnalisé pour une branche définie par l’utilisateur.
+
+   Par défaut, les branches définies par l’utilisateur sont étiquetées avec les cibles appliquées.
+
+   Vous ne pouvez pas créer de nom de branche personnalisé pour une branche « Tous » ou « Tous les autres ».
+
+   1. Placez le curseur sur le nœud cible, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**.
+
+   1. Saisissez le **[!UICONTROL Node Name]**, puis cliquez sur **[!UICONTROL Save]**.
 
 1. Effectuez l’une des opérations suivantes :
 

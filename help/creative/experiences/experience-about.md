@@ -3,9 +3,9 @@ title: À propos des expériences dans Advertising Creative
 description: Découvrez comment configurer des expériences publicitaires personnalisées et optimiser les éléments publicitaires en fonction des performances.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 1f4c49de75b3a4b19199fc6f2a162b236e21ab49
+source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Le statut d’une expérience est défini automatiquement, à l’exception de *
 
 ## La vue [!UICONTROL Experiences]
 
-La vue [!UICONTROL Experiences] affiche toutes vos expériences ciblées et non ciblées. Vous pouvez voir les noms d’expérience, le statut, les dates de début et de fin, le nombre et les dimensions des contenus publicitaires ou créatifs attribués, et si l’expérience inclut des annonces dynamiques. Lorsque vous activez l’option [!UICONTROL Metrics] dans la vue [!UICONTROL Experiences], chaque carte ou ligne d’expérience indique le nombre d’impressions et de clics que l’expérience a reçus.
+La vue [!UICONTROL Experiences] affiche toutes vos expériences ciblées et non ciblées. Vous pouvez voir les noms d’expérience, le statut, les dates de début et de fin, le nombre et les dimensions des contenus publicitaires ou créatifs attribués, et si l’expérience inclut des annonces dynamiques. Lorsque vous activez l’option [!UICONTROL Metrics] dans la vue [!UICONTROL Experiences], chaque carte ou ligne d’expérience indique le nombre d’impressions et de clics que l’expérience a reçus. Lorsque vous êtes en mode Carte, vous pouvez faire défiler les contenus publicitaires d’une expérience comportant plusieurs contenus publicitaires à l’aide des boutons &lt; et >.
 
 Vous pouvez créer et gérer vos expériences, créer et renommer des balises d’expérience et exporter les balises aux formats JavaScript et iframe pour les implémenter sur vos DSP. Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger des balises directement dans une campagne Advertising DSP.
 

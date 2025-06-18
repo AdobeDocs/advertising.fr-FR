@@ -3,9 +3,9 @@ title: Paramètres de l’expérience ciblée
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires ciblées.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
+source-git-commit: a7b5a4e55c2ea66a4ca74a517ea3d90336021e30
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Chaque clé est ajoutée sous la forme d’une macro dans la balise d’expérie
 
 **Pixel RT :** (lecture seule pour les expériences existantes, facultatif) pixel de reciblage [!UICONTROL Creative] à cibler potentiellement. Lorsque vous configurez le ciblage dans l’arborescence de décision, vous pouvez inclure un niveau de nœuds cibles de pixels RT. Pour chaque nœud, vous spécifiez le pixel à cibler et les valeurs des attributs de pixel requis pour afficher les contenus publicitaires dans les lots de contenus publicitaires attribués. Si vous ne spécifiez pas de pixel dans ce champ lors de la création de l’expérience, vous pouvez toujours en spécifier un dans l’arborescence de décision.<!-- May move this to just within the decision tree. -->
 
-**Libellé :**<!-- should be "Labels" --> (facultatif) tous les libellés spécifiques aux [!DNL Creative] à appliquer à l’expérience. Vous pouvez filtrer les expériences par libellé dans la vue Expériences <!-- sic --> .
+**Libellé :**<!-- should be "Labels" --> (facultatif) tous les libellés spécifiques aux [!DNL Creative] à appliquer à l’expérience. Vous pouvez filtrer les expériences par libellé dans la vue Expériences et inclure la dimension [!UICONTROL Experience Label] dans la [!UICONTROL Custom Creative Report].
 
 * Pour sélectionner des libellés existants, cliquez sur ![Bas](/help/creative/assets/chevron-down.png "Bas"), puis cochez la case en regard de chaque libellé à appliquer.
 
