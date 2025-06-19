@@ -3,7 +3,7 @@ title: À propos de vos bibliothèques de création
 description: Découvrez comment gérer les contenus publicitaires pour vos expériences publicitaires.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 86bd3384a44cc526428dd8ea5e97fdd684331086
+source-git-commit: 915fd9e2aebf300a37a5b6fdac6aa3526bd09f50
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -42,23 +42,7 @@ Vous pouvez ajouter et gérer les types de contenu créatif suivants dans les [t
 
 Les contenus créatifs HTML5 flexibles sont des contenus créatifs HTML5 avec toutes leurs images et autres attributs comme des balises HTML standard, que vous pouvez modifier directement dans [!DNL Creative], soit dans une bibliothèque de contenus créatifs, soit dans une expérience individuelle (ce qui crée une variante du contenu créatif d’origine). Dans DSP, les contenus publicitaires flexibles d’HTML5 sont destinés à une seule taille d’annonce spécifique (en pixels). Vous pouvez éventuellement modifier les valeurs par défaut des attributs spécifiés dans un élément créatif HTML5 flexible. Par la suite, vous pouvez spécifier des valeurs personnalisées pour les attributs dans une expérience spécifique, ce qui crée une variante du contenu créatif parent.
 
-<!-- Removed:
-
-Flexible HTML5 creatives are HTML5 creatives with all of their images and other attributes as standard HTML tags, which you can edit directly within [!DNL Creative], either within a creative library or within an individual experience (which creates a variation of the original creative). Flexible HTML5 creatives use the Interactive Advertising Bureau (IAB) Technology Laboratory's standard for an [ad portfolio](https://flexibleads.iabtechlab.com/), for which ad format sizes are flexible (rather than fixed) and are based on the ad’s aspect ratio and size range, and for which ads maintain their resolution across devices and publisher sites. You can optionally change the default values of the attributes specified in a flexible HTML5 creative. Later, you can specify custom values for the attributes within a specific experience, which creates a variation of the parent creative.
-
--->
-
 Vous pouvez charger des contenus publicitaires HTML5 flexibles sous forme de fichiers ZIP ou utiliser l’un des modèles disponibles pour votre compte comme point de départ. Consultez les [spécifications des contenus publicitaires HTML5 flexibles](html5-creative-specification.md).
-
-<!-- Will flattening the view be possible later?
-The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
-
-
-[Example default card view for a flexible creative with variations]()[]add image]
-  
-[Example card for a flexible creative with one variation]() [add image]
-
- -->
 
 #### Conceptions HTML5
 
@@ -94,15 +78,15 @@ Lorsque vous êtes en mode Carte, vous pouvez faire défiler les images d’une 
 
 #### Actions disponibles
 
-* Création de bibliothèques
+* [Création d’une bibliothèque](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
 
 * Pour chaque bibliothèque de contenu créatif :
 
-   * Modifier le nom de la bibliothèque
+   * [Modification du nom d’une bibliothèque](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
 
-   * Ouvrez la bibliothèque pour afficher les contenus publicitaires et les lots affectés à la bibliothèque
+   * [Ouvrez une bibliothèque pour afficher les contenus publicitaires et les lots affectés à la bibliothèque](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
 
-   * Suppression de la bibliothèque
+   * [Suppression de bibliothèques](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
 
 ### Les vues [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]
 
@@ -125,12 +109,6 @@ L’onglet [!UICONTROL Standard Ads] affiche tous les contenus publicitaires sta
 * [Téléchargement de contenus publicitaires standard](creative-download.md)
 
 * [Supprimer les contenus publicitaires standard](creative-delete.md)
-
-<!-- Add in as separate actions?
-
-add or remove labels, regenerate thumbnails for your creatives. When a creative has child creative variations, you can view the variations within the Card view.
-
--->
 
 #### [!UICONTROL Dynamic Ads]
 

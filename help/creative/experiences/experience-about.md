@@ -3,9 +3,9 @@ title: À propos des expériences dans Advertising Creative
 description: Découvrez comment configurer des expériences publicitaires personnalisées et optimiser les éléments publicitaires en fonction des performances.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    * Emplacements géographiques spécifiques, notamment les pays, les États, les DMA aux États-Unis, les villes et les codes postaux
 
-   * Visionneuses pour lesquelles des paires clé-valeur spécifiques (cibles de transmission de données) sont transmises par le DSP, l’éditeur ou le partenaire
+   * Les visionneuses pour lesquelles des paires clé-valeur spécifiques (cibles de transmission de données) sont transmises par le DSP, l’éditeur ou le partenaire (SKU=01234567890123 ou Cart=vide, par exemple)
 
    * [!DNL Creative] le reciblage des pixels et des valeurs d’attribut spécifiées
 
@@ -38,12 +38,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Les deux types d’expériences ayant des workflows différents, vous ne pouvez pas modifier l’utilisation du ciblage d’arborescence de décision une fois l’expérience enregistrée. Cela signifie que vous ne pouvez pas modifier une expérience non ciblée en expérience ciblée. De même, vous ne pouvez pas modifier une expérience ciblée en une expérience non ciblée.
+> Les deux types d’expériences ayant des workflows différents, vous ne pouvez pas modifier une expérience non ciblée en expérience ciblée ou une expérience ciblée en expérience non ciblée.
 
 ## Diffusion et optimisation des publicités
 
 <!-- MORE -->
-<!--When multiple ad variants qualify for an impression-->
+<!-- When multiple ad variants qualify for an impression -->
 
 [!DNL Creative] diffuse des annonces propriétaires et déclenche des annonces tierces pour l’expérience en fonction des options d’objectif de ciblage (le cas échéant), de planification, de rotation des annonces et d’optimisation spécifiées, ainsi que de l’inventaire des annonces disponibles.
 
@@ -61,6 +61,10 @@ Par exemple, vous pouvez planifier l’exécution de Creative 1 pendant les deux
 
 Une fois que vous avez créé une expérience en direct (avec tous les éléments publicitaires requis), vous pouvez [générer une balise JavaScript ou iframe pour l’expérience entière](experience-tag-export.md). Vous pouvez charger la balise d’expérience en tant qu’annonce publicitaire dans une campagne dans Adobe Advertising DSP ou l’implémenter en tant qu’annonce publicitaire dans un DSP tiers.
 
+>[!NOTE]
+>
+>Le comportement de ciblage hiérarchique peut varier en fonction du DSP. Advertising DSP applique le ciblage au niveau des annonces en plus du ciblage au niveau des emplacements.
+
 ## Données de performances pour vos expériences
 
 Les données de performances disponibles sont les suivantes :
@@ -68,10 +72,6 @@ Les données de performances disponibles sont les suivantes :
 * Lorsque vous activez l’option [!UICONTROL Metrics] dans la vue [!UICONTROL Creative] > [!UICONTROL Experiences] , chaque carte ou ligne d’expérience indique le nombre d’impressions et de clics reçus par l’expérience.
 
   ![Option Mesures](/help/creative/assets/metrics-option.png "Option Mesures")
-
-  <!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
-
-  <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
 * Vous pouvez [afficher des données de performances détaillées pour n’importe quelle expérience](experience-performance-details.md) à partir de la vue [!UICONTROL Experiences].
 

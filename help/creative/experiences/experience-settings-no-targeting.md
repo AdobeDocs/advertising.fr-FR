@@ -3,9 +3,9 @@ title: Paramètres des expériences non ciblées
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires sans ciblage d’arborescence de décision.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: bd72dccf0c24c2408b4e6349842dae4b3ba93956
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Pour les expériences sans ciblage d’arborescence de décision, vous pouvez re
 
 ## section [!UICONTROL Advanced]
 
-**Transmission de données :** (expériences avec des annonces dynamiques uniquement ; facultatif) pour cibler les utilisateurs en fonction de paires clé-valeur spécifiques que le DSP, l’éditeur ou le partenaire transmet en temps réel à l’impression. Vous pouvez spécifier jusqu’à cinq clés de transmission de données (paramètres).<!-- May move this to just within the decision tree. -->
+**Transmission de données :** (expériences avec des annonces dynamiques uniquement ; facultatif) pour cibler les utilisateurs en fonction de paires clé-valeur spécifiques que le DSP, l’éditeur ou le partenaire transmet en temps réel lors de l’impression (par exemple, SKU=01234567890123 ou Panier=vide). Vous pouvez spécifier jusqu’à cinq clés de transmission de données (paramètres).<!-- May move this to just within the decision tree. -->
 
 Lorsque vous créez une balise d’expérience publicitaire pour une taille de contenu créatif spécifique, chaque clé spécifiée dans ce champ est ajoutée sous la forme d’une macro dans la balise . Saisissez la valeur de chaque paire clé-valeur dans la balise avant d’implémenter la balise en tant qu’annonce publicitaire dans votre DSP.
 

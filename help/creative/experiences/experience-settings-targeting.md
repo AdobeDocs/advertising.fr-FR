@@ -3,9 +3,9 @@ title: Paramètres de l’expérience ciblée
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires ciblées.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: a7b5a4e55c2ea66a4ca74a517ea3d90336021e30
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Une fois l’expérience enregistrée, vous ne pouvez plus modifier ce paramètr
 
 ## section [!UICONTROL Advanced]
 
-**Transmission de données :** (lecture seule pour les expériences existantes, facultatif) pour cibler les utilisateurs en fonction de paires clé-valeur spécifiques que le DSP, l’éditeur ou le partenaire transmet en temps réel à l’impression. Vous pouvez spécifier jusqu’à cinq clés de transmission de données par défaut (paramètres). Lorsque vous configurez le ciblage dans l’arborescence de décision, vous pouvez inclure un niveau de données pour transmettre les nœuds cibles, personnaliser éventuellement les clés et spécifier les valeurs à cibler pour chaque nœud. Si vous ne spécifiez aucune clé dans ce champ lors de la création de l’expérience, vous pouvez toujours la spécifier dans l’arborescence de décision.
+**Data Pass :** (lecture seule pour les expériences existantes, facultatif) pour cibler les utilisateurs en fonction de paires clé-valeur spécifiques que le DSP, l’éditeur ou le partenaire transmet en temps réel lors de l’impression (par exemple, SKU=01234567890123 ou Panier=vide). Vous pouvez spécifier jusqu’à cinq clés de transmission de données par défaut (paramètres). Lorsque vous configurez le ciblage dans l’arborescence de décision, vous pouvez inclure un niveau de données pour transmettre les nœuds cibles, personnaliser éventuellement les clés et spécifier les valeurs à cibler pour chaque nœud. Si vous ne spécifiez aucune clé dans ce champ lors de la création de l’expérience, vous pouvez toujours la spécifier dans l’arborescence de décision.
 
 Chaque clé est ajoutée sous la forme d’une macro dans la balise d’expérience publicitaire, que vous pouvez générer pour implémenter en tant qu’annonce publicitaire dans votre DSP.
 

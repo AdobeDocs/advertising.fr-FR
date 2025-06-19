@@ -3,9 +3,9 @@ title: Création d’une expérience avec le ciblage d’arborescence de décisi
 description: Découvrez comment créer une expérience d’annonce publicitaire ciblée à l’aide d’une arborescence de décision.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ Créez une expérience d’annonce publicitaire ciblée à l’aide d’une arbo
 
 >[!NOTE]
 >
-> Une fois que vous avez créé une expérience ciblée, vous ne pouvez pas la modifier ultérieurement en une expérience non ciblée, qui utilise un autre workflow.
+>* Une fois que vous avez créé une expérience ciblée, vous ne pouvez pas la modifier ultérieurement en une expérience non ciblée, qui utilise un autre workflow.
+>* Assurez-vous que vos expériences publicitaires incluent un ciblage compatible avec les campagnes dans lesquelles vous allez le mettre en œuvre. Le comportement de ciblage hiérarchique peut varier en fonction du DSP. Lorsque vous chargez une balise d’expérience de publicité vers Advertising DSP et que vous la joignez à un emplacement, le ciblage au niveau des annonces s’applique en plus (et non à la place) du ciblage au niveau des emplacements. Par exemple, si un emplacement cible des utilisateurs en Australie et qu’une annonce cible des utilisateurs au Japon, l’annonce cible la branche « Tout le monde ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
