@@ -3,9 +3,9 @@ title: À propos de vos bibliothèques de création
 description: Découvrez comment gérer les contenus publicitaires pour vos expériences publicitaires.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 915fd9e2aebf300a37a5b6fdac6aa3526bd09f50
+source-git-commit: 9782471837db19d14839027ea7a576484863bb69
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Vous pouvez charger des contenus publicitaires HTML5 simples ou statiques, avec 
 
 #### Conceptions d’image
 
-Vous pouvez inclure des éléments créatifs d’image au format GIF, JPEG, JPG ou PNG. Vous pouvez charger des images à partir de vos comptes Adobe Experience Manager ou des images à partir de votre appareil ou réseau.
+Vous pouvez inclure des éléments créatifs d’image au format GIF, JPEG, JPG ou PNG. Vous pouvez charger des images approuvées à partir de vos comptes Adobe Experience Manager ou des images à partir de votre appareil ou réseau.
 
 Chaque expérience publicitaire nécessite une image créative par défaut pour chaque taille de contenu créatif attribuée à l’expérience.
 

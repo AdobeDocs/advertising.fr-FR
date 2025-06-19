@@ -3,9 +3,9 @@ title: Exporter et implémenter une balise d’expérience publicitaire pour une
 description: Découvrez comment exporter une balise d’expérience publicitaire et éventuellement la charger dans une campagne Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: f2bf245c13244cbcb76cead8b37f149b9b9bc24f
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Une fois qu’une balise d’annonce publicitaire pour une taille de contenu créatif spécifique est disponible pour une expérience [en direct](experience-about.md#experience-statuses), vous pouvez générer et copier la balise dans des formats JavaScript et iframe pour une implémentation sur Advertising DSP ou d’autres DSP. Les balises pour DSP incluent toutes les macros requises pour DSP.
 
-Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger des balises directement dans une campagne Advertising DSP sous forme de publicités.
+Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger les balises directement dans une campagne Advertising DSP en tant que publicités avec le type de publicité « affichage standard ».
 
 >[!NOTE]
 >
 >* Lorsque vous créez une expérience avec le ciblage d’arborescence de décision, [!DNL Creative] crée automatiquement une balise d’annonce publicitaire pour chaque taille de contenu créatif applicable.
 >* Lorsque vous créez une expérience sans ciblage d’arborescence de décision, vous devez [créer manuellement une balise d’annonce publicitaire](experience-tag-create-manually.md) pour chaque taille de contenu créatif applicable.
 >* Les balises Experience sont dynamiques. Il n’est pas nécessaire de mettre à jour les balises si vous modifiez une expérience.
->* Assurez-vous que les campagnes dans lesquelles vous implémenterez une expérience publicitaire incluent un ciblage compatible avec l’expérience. Le comportement de ciblage hiérarchique peut varier en fonction du DSP. Dans Advertising DSP, le ciblage au niveau des annonces est appliqué après le ciblage au niveau des emplacements et ne remplace pas le ciblage au niveau des emplacements. Par exemple, si un emplacement Advertising DSP cible des utilisateurs en Australie et qu’une publicité cible des utilisateurs au Japon, la publicité cible la branche « Tout le monde ».
+>* Assurez-vous que les campagnes dans lesquelles vous implémenterez une expérience publicitaire incluent un ciblage compatible avec l’expérience. Le comportement de ciblage hiérarchique peut varier en fonction du DSP. Dans Advertising DSP, le ciblage au niveau des annonces s’applique en plus du ciblage au niveau de l’emplacement (et non à la place de celui-ci).
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -33,7 +33,7 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger des 
 
    * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**
 
-1. Placez le curseur sur la ligne de la balise publicitaire applicable et cliquez sur ![Exporter les balises publicitaires](/help/creative/assets/export.png "Exporter les balises publicitaires") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Placez le curseur sur la ligne de la balise publicitaire applicable et cliquez sur ![Exporter les balises publicitaires](/help/creative/assets/export.png "Exporter les balises publicitaires") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -45,7 +45,7 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger des 
 
 1. Cliquez sur **[!UICONTROL Next]** dans le coin supérieur droit ou sur **[!UICONTROL Generate ad tags]** dans le menu de gauche.
 
-1. Sélectionnez le type de balise : ** *JavaScript<!-- sic -->* **&#x200B; ou &#x200B;** *IFRAME* ** <!-- sic -->.
+1. Sélectionnez le type de balise : ** *JavaScript<!-- sic -->* ** ou ** *IFRAME* ** <!-- sic -->.
 
 1. Dans la liste [!UICONTROL Destinations], sélectionnez l’emplacement où vous allez créer des annonces pour l’expérience.
 
@@ -81,7 +81,6 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger des 
 
       1. Dans la vue [!UICONTROL Create ads], passez en revue les balises d’annonce publicitaire, sélectionnez chaque balise pour laquelle vous souhaitez créer une annonce, puis cliquez sur **[!UICONTROL Create]**.
 
-         La vue [!UICONTROL Ads] inclut désormais les nouvelles annonces, qui portent le même nom que les balises d’annonce dans [!DNL Creative]. Vous pouvez [joindre les annonces à n’importe quel emplacement](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) dans la campagne.
 
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 
