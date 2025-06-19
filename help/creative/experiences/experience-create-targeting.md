@@ -3,9 +3,9 @@ title: Création d’une expérience avec le ciblage d’arborescence de décisi
 description: Découvrez comment créer une expérience d’annonce publicitaire ciblée à l’aide d’une arborescence de décision.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 39e2d6afa357f2cbe4037371a1441ddc2ffa9ef2
+source-git-commit: d774117a1dbfc83e6f0e51350a54e0376d360daf
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Créez une expérience d’annonce publicitaire ciblée à l’aide d’une arbo
 
       * Cibles :
 
-         * [Ajoutez un nœud cible au niveau final](experience-target-node-add-final.md) dans une expérience.
+         * [Ajoutez un nœud cible au niveau final](experience-target-node-add-final.md).
 
          * [Insérez un nœud cible entre les nœuds](experience-target-node-add-inner.md).
 
