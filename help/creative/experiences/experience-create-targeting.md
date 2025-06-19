@@ -3,9 +3,9 @@ title: Création d’une expérience avec le ciblage d’arborescence de décisi
 description: Découvrez comment créer une expérience d’annonce publicitaire ciblée à l’aide d’une arborescence de décision.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: d774117a1dbfc83e6f0e51350a54e0376d360daf
+source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Créez une expérience d’annonce publicitaire ciblée à l’aide d’une arbo
 
       * Pour continuer à modifier l’arborescence de décision, cliquez sur **[!UICONTROL Continue Edit]**.
 
-Lorsque l’expérience est active, [!DNL Creative] crée automatiquement une balise d’annonce publicitaire pour chaque taille de contenu créatif applicable.
+Lorsque l’expérience est active, [!DNL Creative] crée automatiquement une balise d’annonce publicitaire pour chaque taille de contenu créatif applicable. Vous pouvez ensuite [exporter la balise publicitaire et l’implémenter dans un DSP](/help/creative/experiences/experience-tag-export.md).
 
 >[!MORELIKETHIS]
 >

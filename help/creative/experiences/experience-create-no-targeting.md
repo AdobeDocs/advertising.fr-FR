@@ -3,9 +3,9 @@ title: Création d’une expérience sans ciblage d’arbre de décision
 description: Découvrez comment créer une expérience publicitaire sans ciblage.
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: a738fed8aea38be2ca0adad08d084a383350d892
+source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Créez une expérience publicitaire sans ciblage. Chaque expérience peut utilis
 1. (Facultatif) Continuez à configurer l’expérience :
 
    * [Créez manuellement une balise publicitaire pour une taille de contenu créatif applicable](experience-tag-create-manually.md).
+
+     Vous pouvez ensuite [exporter la balise publicitaire et l’implémenter dans un DSP](/help/creative/experiences/experience-tag-export.md).
 
      [!DNL Creative] ne crée pas automatiquement de balises d’annonce publicitaire pour les expériences non ciblées.
 
