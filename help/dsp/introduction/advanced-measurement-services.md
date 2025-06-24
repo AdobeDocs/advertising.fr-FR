@@ -1,119 +1,88 @@
 ---
-title: Solutions de mesure avancée
-description: Consultez la liste des solutions disponibles pour les mesures avancées.
+title: Solutions de mesures avancées
+description: Voir la liste des solutions disponibles pour la mesure avancée.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: f1d657960beb667001341e191daaddbe03d931b0
+source-git-commit: da020e3f1740b79fceba8d45d75e2965ec6f41ef
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
 
-# Solutions de mesure avancée
+# Solutions de mesures avancées
 
-Les annonceurs ont souvent du mal à comprendre où leur meilleur dollar dans les médias doit être dépensé, ou à quantifier l&#39;impact de leurs publicités en ligne. Dans un paysage multimédia axé sur les données, la mesure d’attribution offre une solution à ce défi. L’équipe [!DNL Strategic Advertising Consulting] aide les partenaires de marque et d’agence à mesurer la manière dont les éléments de leurs connexions [!DNL Adobe] prennent vie grâce à la publicité. Grâce à de puissantes offres de mesure d’attribution, l’équipe peut déployer des stratégies de ciblage organisées à l’aide d’un cadre de mesure sophistiqué, ce qui facilite la liaison des décisions prises par les marques aux résultats concrets qui motivent leurs activités. L’équipe peut vous aider à :
+Les annonceurs ont souvent du mal à comprendre comment leurs différents canaux médiatiques fonctionnent ensemble, où leur prochain dollar médiatique devrait être le mieux dépensé, ou comment quantifier l&#39;impact de leurs publicités en ligne par rapport aux objectifs principaux de l&#39;entreprise.
 
-* Activation des études de mesure dans des campagnes de médias numériques entonnoir complètes
+Dans un paysage médiatique axé sur les données, la mesure de l’attribution offre une solution à ce défi. L’équipe Advanced Measurement &amp; Strategy (AMS) aide les partenaires de la marque et des agences à mesurer la manière dont les éléments achetés par Adobe Advertising, en lien avec leurs intégrations [!DNL Adobe], génèrent des résultats. Grâce à des offres de mesure d’attribution robustes, AMS peut déployer des stratégies de ciblage organisées à l’aide de structures de mesure sophistiquées, ce qui permet aux marques de connecter facilement leurs budgets médias aux résultats réels qui stimulent leur activité. L’équipe peut vous aider à :
 
-* Mettre à niveau la narration des campagnes avec des solutions de reporting empaquetées
+* Activer les études de mesure dans les campagnes multimédia numériques en entonnoir complet
 
-* Évoluez vos pratiques publicitaires en apprenant et en améliorant l’efficacité des campagnes au fil du temps
+* Améliorez la mise en récit de vos campagnes grâce à des solutions de création de rapports complètes.
 
-## Packages de solutions
+* Faites évoluer votre pratique publicitaire en apprenant et en améliorant l’efficacité des campagnes au fil du temps
 
-Les packages de solution de mesure suivants sont disponibles pour valider le succès de vos campagnes publicitaires :
+## Packages de solution
 
-* **Portée, fréquence et conversions basées sur le foyer**
+Les packages de solutions de mesure suivants sont disponibles pour valider le succès de vos campagnes publicitaires :
 
-  Identifiez la portée totale de l’opération au niveau des ménages et la contribution des différents écrans. Les options de création de rapports incluent :
+* **Portée, fréquence et conversions basées sur les ménages**
 
-   * Portée, fréquence et conversion des identifiants croisés (sans cookie)
+  Découvrez la portée totale de la campagne au niveau des ménages, ainsi que la contribution des écrans individuels, pour insight dans la manière dont la télévision connectée (CTV) fait partie intégrante d’un mix média.
 
-     <!-- Hide for now * Quantify unique/incremental reach, overlap, and conversions at a household level by cookieless ID type (RampID, ID5) across multiple environments, including connected TV (CTV) and digital (desktop, mobile, native, and audio). -->
+* **Effet de halo sur les rapports de recherche**
 
-     <!-- Hide for now * Prove the effectiveness of testing cookieless IDs in finding incremental reach relative to cookie-based segments. -->
+  Quantifier l’impact de l’exposition aux publicités numériques et de CTV sur les clics moteurs de recherche, les conversions de recherche et le retour sur dépenses publicitaires au niveau du foyer.
 
-   * Durée moyenne de conversion
+* **X-Screen+ Reporting**
 
-   * Fréquence de conversion
-
-   * Création de rapports CTV
-
-   * Incrémentation de l’application CTV
-
-   * Reporting sur plusieurs écrans (Digital &amp; CTV)
-
-   * Création de rapports sur plusieurs écrans plus (Digital, CTV et TV)
-
-   * Portée et fréquence des messages In-Segment numériques
+  Comprendre comment les canaux CTV et numériques favorisent une portée incrémentielle et unique des ménages par rapport à la publicité traditionnelle linéaire à la télévision.
 
 * **Portée et conversions basées sur les personnes**
 
-  Comprenez comment les audiences et les tactiques se chevauchent au niveau de la personne, y compris les expositions dans plusieurs environnements numériques, tels que les environnements de bureau, mobiles, natifs et audio.
+  Comprenez comment les audiences et les tactiques se chevauchent au niveau d’une personne, y compris les expositions dans plusieurs environnements numériques, tels que les ordinateurs de bureau, les appareils mobiles, les appareils natifs et les appareils audio.
 
-  <!-- Hide for now * **Cross-ID People-Based Reach**
+* **Enquêtes Par Panneau**
 
-      Quantify the unique reach and overlap between cookies and RampIDs, as well as the cost per metric by ID type. Prove the effectiveness of testing RampIDs in finding incremental reach relative to cookie-based segments across multiple digital environments, such as desktop, mobile, native, and audio. -->
+  Effectuez des enquêtes de contrôle/exposition afin de déterminer l’effet de l’exposition publicitaire sur des mesures telles que la sensibilisation, la familiarité et l’intention.
 
-* **Effet halo sur les rapports de recherche**
+* **Trafic piéton**
 
-  Quantifiez l’impact de l’exposition à la télévision numérique et aux publicités numériques sur le nombre de clics de recherche, les conversions de recherche et le retour sur investissement au niveau des foyers dans l’application CTV, le mot-clé de recherche, le moteur de recherche, ainsi que les niveaux d’audience et de tactique personnalisés.
-
-
-* **[!DNL Dynata]Enquêtes basées sur des panneaux**
-
-  Mener des enquêtes de contrôle/de visibilité afin de déterminer l’effet de l’exposition aux publicités sur des mesures telles que la sensibilisation, la familiarité et l’intention.
-
-* **Trafic de pied**
-
-  Comprenez l’incrémentalité liée à l’exposition aux publicités et la manière dont l’investissement multimédia entraîne un changement du comportement d’achat et des visites incrémentielles avec des mesures telles que l’effet d’incrémentalité, le coût par visite incrémentielle et les informations sur les visites.
-
-* **Statistiques sur les transactions**
-
-  Enrichissez votre stratégie de campagne avec des données déterministes sur les ventes de crédit et de débit grâce à des analyses de segments, de marchés concurrentiels et d’acheteurs.
+  Découvrez comment l’exposition aux publicités impacte les visites en magasin et les visites incrémentielles grâce à des mesures telles que l’effet d’incrémentalité, le coût par visite incrémentielle et les informations sur les visites.
 
 * **Mesure des transactions**
 
-  Déterminez l’influence de l’exposition aux publicités sur les ventes à l’aide de données de crédit et de débit robustes et déterministes.
+  Déterminez l’influence de l’exposition publicitaire sur les ventes à l’aide de données déterministes fiables sur les ventes par carte de crédit et de débit.
 
-* **Experience Designer (test A/B)**
+* **Designer d’expérience (tests A/B)**
 
-  Comparez le comportement et l’opinion des groupes d’échantillons randomisés et mutuellement exclusifs à l’aide de tests A/B simples et clairs.
+  Comparez le comportement des groupes d’échantillons randomisés et s’excluant mutuellement avec des tests A/B simples et propres.
 
-## Trouver l’ajustement idéal de mesure : solutions verticales
+## Trouver la mesure parfaite : Solutions par Vertical
 
-* **Tout Vertical :**
+* **Tous les verticaux :**
 
-   * Experience Designer (Placebo et tests A/B)
+   * Mesure de la portée, de la fréquence et de la conversion basée sur les ménages
+
+   * Mesure De L&#39;Effet Halo
+
+   * Mesure de la portée, de la fréquence et de la conversion de l’écran X
 
    * Portée et conversions basées sur les personnes
 
-     Toute organisation qui cherche à mesurer selon plusieurs tactiques numériques ; toute organisation qui cherche à présenter la valeur du son
+   * Questionnaires Basés Sur Des Panneaux
 
-   * Portée, fréquence et mesure des conversions basées sur les ménages
+   * Designer de l’expérience (placebo et tests A/B)
 
-     Tout client qui souhaite comprendre la portée/la portée incrémentielle et l’efficacité basée sur les coûts et/ou les mesures de conversion sur plusieurs tactiques numériques
-
-   * Portée sur plusieurs écrans, fréquence et mesure des conversions
-
-     Tout client qui souhaite comprendre la portée/la portée incrémentielle et l’efficacité basée sur les coûts et/ou les mesures de conversion sur plusieurs tactiques numériques par rapport à l’investissement de télévision linéaire.
-
-   * Enquêtes basées sur des panneaux dynamiques
-
-     Tout client qui cherche à mesurer la perception et la conscience de la marque sur plusieurs écrans ; adapté aux publics de niche
-
-* **QSR, Retail (brique et mortar) :**
+* **QSR, vente au détail (brique et mortier), voyage :**
 
    * Mesure des transactions
 
-   * Mesure du trafic de pied
-
-* **QSR, Vente au détail, Voyage :**
-
-   * Informations sur les transactions
-
-     Tout client souhaitant atteindre un type particulier d’acheteur pour stimuler les ventes en magasin et en ligne
+   * Mesure de la circulation piétonne
 
 ## Plus d’informations
 
-Pour plus d’informations sur toutes les solutions de mesure avancées, en décrivant les informations de tarification ainsi que les formats et régions disponibles pour chaque solution, contactez votre équipe de compte d’Adobe. Des études de cas spécifiques aux solutions sont également disponibles sur demande.
+Pour plus d’informations sur toutes les solutions de mesure avancées, les informations sur les prix ainsi que les formats et régions disponibles pour chaque solution, contactez l’équipe chargée de votre compte Adobe. Des études de cas spécifiques aux solutions sont également disponibles sur demande.
+
+>[!MORELIKETHIS]
+>
+>[ Devises prises en charge dans Adobe Advertising ](/help/dsp/currency.md)
