@@ -42,7 +42,7 @@ Vos informations d’identification DSP actuelles resteront actives jusqu’au 1
 
 1. Choisissez votre organisation :
 
-   * À l’invite, sélectionnez **Compte personnel» ou **Compte d’entreprise ou d’école**.
+   * À l’invite, sélectionnez **Compte personnel» ou &#x200B;** Compte d’entreprise ou d’école**.
 
    * Si vous avez accès à plusieurs organisations IMS, sélectionnez celle qui convient.
 
