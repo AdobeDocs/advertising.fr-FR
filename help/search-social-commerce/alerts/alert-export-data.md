@@ -3,7 +3,7 @@ title: Exporter les données pour les alertes personnalisées
 description: Découvrez comment exporter les données d’une alerte déclenchée vers un fichier .
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 03475909ca942010e4380456079519f0c18adca3
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -16,9 +16,9 @@ Vous pouvez exporter les données d’une alerte déclenchée ou les données de
 
 1. Effectuez l’une des opérations suivantes :
 
-   * (Pour exporter les données de l’alerte la plus récemment déclenchée pour un modèle d’alerte) Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, qui ouvre la vue Modèles d’alerte .
+   * (Pour exporter les données de l’alerte la plus récemment déclenchée pour un modèle d’alerte) Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, qui ouvre la vue Modèles d’alerte .
 
-   * (Pour exporter des données pour une alerte déclenchée spécifique) Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**. Dans le sous-menu, cliquez sur **[!UICONTROL Triggered Alerts]**.
+   * (Pour exporter des données pour une alerte déclenchée spécifique) Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**. Dans le sous-menu, cliquez sur **[!UICONTROL Triggered Alerts]**.
 
 1. Dans la colonne [!UICONTROL Export] en regard du nom du modèle ou du rapport, cliquez sur le nom d’un format, puis ouvrez ou enregistrez le fichier conformément à la procédure normale de votre navigateur :
 

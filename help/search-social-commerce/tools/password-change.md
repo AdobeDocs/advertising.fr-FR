@@ -3,7 +3,7 @@ title: Modifier votre mot de passe
 description: Découvrez comment modifier le mot de passe de votre compte.
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 La modification de votre mot de passe vous déconnecte de la session en cours. Pour continuer à travailler, vous devez vous connecter avec le nouveau mot de passe.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Change Password]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Change Password]**.
 
 1. Saisissez les informations dans les champs, puis cliquez sur **[!UICONTROL Submit]**.
 

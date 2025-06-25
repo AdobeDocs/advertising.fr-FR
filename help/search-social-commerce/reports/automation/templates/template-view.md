@@ -3,7 +3,7 @@ title: Affichage d’un modèle de rapport
 description: Découvrez comment afficher un modèle de rapport réutilisable.
 exl-id: 1c7ae1d4-c843-4c1b-a947-d58816abc4b2
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Les utilisateurs du gestionnaire de compte et de l’administrateur d’Adobe peuvent afficher les modèles créés par les rôles du client et de l’agence.
+>Les utilisateurs administrateurs et gestionnaire de compte Adobe peuvent afficher les modèles créés par les rôles client et agence.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
 1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ À propos des modèles de rapport](template-about.md)
+>* [À propos des modèles de rapport](template-about.md)
 >* [Créer un modèle de rapport](template-create.md)
 >* [Modifier un modèle de rapport](template-edit.md)
 >* [Supprimer des modèles de rapport](template-delete.md)

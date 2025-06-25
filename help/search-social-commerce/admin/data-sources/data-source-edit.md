@@ -1,10 +1,10 @@
 ---
-title: Modification d’une source de données [!DNL Google Analytics]
-description: Découvrez comment modifier la configuration d’une source de données  [!DNL Google Analytics] .
+title: Modifier une source  [!DNL Google Analytics]  données
+description: Découvrez comment modifier la configuration d’une source  [!DNL Google Analytics]  données.
 role: User, Admin
 exl-id: d3c6c8d6-d427-4a2d-8260-850e61d3cd4d
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Modification d’une source de données [!DNL Google Analytics]
 
-*Administrateurs de l’agence (rôle de base), Chargés de compte d’Adobe et Administrateurs uniquement*
+*Administrateurs d’agence (rôle de base), Gestionnaires de compte Adobe et Administrateurs uniquement*
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
 1. Cochez la case en regard de la source de données à modifier.
 
@@ -27,10 +27,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ À propos de la synchronisation  [!DNL Google Analytics] mesures de conversion](data-source-about.md)
->* [ Conditions préalables à la configuration d’une  [!DNL Google Analytics] source de données](data-source-prerequisites.md)
->* [ Configuration d’une  [!DNL Google Analytics] vue en tant que source de données](data-source-configure.md)
+>* [À propos de la synchronisation [!DNL Google Analytics] des mesures de conversion](data-source-about.md)
+>* [Conditions préalables à la configuration d’une source  [!DNL Google Analytics]  données](data-source-prerequisites.md)
+>* [Configurer une [!DNL Google Analytics] vue comme source de données](data-source-configure.md)
 >* [Suspendre la synchronisation d’une source de données](data-source-pause.md)
->* [Réauthentifier une [!DNL Google Analytics] source de données](data-source-reauthenticate.md)
->* [[!DNL Google Analytics] paramètres de source de données](data-source-settings.md)
->* [Annexe - Disponible [!DNL Google Analytics] metrics](data-source-ga-metrics.md)
+>* [Réauthentifier une source  [!DNL Google Analytics]  données](data-source-reauthenticate.md)
+>* [[!DNL Google Analytics] paramètres des sources de données](data-source-settings.md)
+>* [Annexe - Mesures  [!DNL Google Analytics]  disponibles](data-source-ga-metrics.md)

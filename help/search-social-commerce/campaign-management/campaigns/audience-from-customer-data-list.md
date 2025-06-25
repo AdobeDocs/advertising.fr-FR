@@ -3,7 +3,7 @@ title: Gérer les audiences de correspondance de clients à l’aide de listes d
 description: Découvrez comment créer et modifier  [!DNL Google Ads]  audiences et  [!DNL Microsoft Advertising]  correspondance client à partir de vos listes de données client.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 46d736c3e14bf407c513c5cb6a153a578aa65121
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Pour les comptes [!DNL Microsoft Advertising], le fichier peut inclure des adres
 
    Les prénoms, noms, adresses e-mail et numéros de téléphone doivent être hachés à l’aide de l’algorithme SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Pour les audiences [!DNL Google Ads], consultez la documentation [!DNL Google Ads] sur les « [Instructions de formatage pour le chargement de données hachées](https://support.google.com/google-ads/answer/7476159) » pour obtenir une liste des champs d’informations de contact autorisés et des exigences. Pour [!DNL Microsoft Advertising] d’audiences, consultez la documentation [!DNL Microsoft Advertising] sur [la préparation des listes de correspondance client](https://help.ads.microsoft.com/#apex/ads/en/56921). Vous pouvez éventuellement télécharger un modèle de [!DNL Microsoft Excel] pour obtenir des informations de contact.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Créer](/help/search-social-commerce/assets/add.png "Créer").
 
@@ -91,9 +91,9 @@ Les données doivent être du même type que la liste des clients d’origine (a
 
 1. Générez un fichier avec les données client au format requis pour le type de données existant.
 
-Les prénoms, noms, adresses e-mail et numéros de téléphone doivent être hachés à l’aide de l’algorithme SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Pour les audiences [!DNL Google Ads], consultez la documentation [!DNL Google Ads] sur les « [Instructions de formatage pour le chargement de données hachées](https://support.google.com/google-ads/answer/7476159) » pour obtenir une liste des champs d’informations de contact autorisés et des exigences. Pour [!DNL Microsoft Advertising] d’audiences, consultez la documentation [!DNL Microsoft Advertising] sur [la préparation des listes de correspondance client](https://help.ads.microsoft.com/#apex/ads/en/56921). Vous pouvez éventuellement télécharger un modèle de [!DNL Microsoft Excel] pour obtenir des informations de contact.
+Les prénoms, noms, adresses e-mail et numéros de téléphone doivent être hachés à l’aide de l’algorithme SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Pour les audiences [!DNL Google Ads], consultez la documentation [!DNL Google Ads] sur les « [Instructions de formatage pour le chargement de données hachées](https://support.google.com/google-ads/answer/7476159) » pour obtenir une liste des champs d’informations de contact autorisés et des exigences. Pour [!DNL Microsoft Advertising] d’audiences, consultez la documentation [!DNL Microsoft Advertising] sur [la préparation des listes de correspondance client]&#x200B;(https://help.ads.microsoft.com/#apex/ads/en/56921). Vous pouvez éventuellement télécharger un modèle de [!DNL Microsoft Excel] pour obtenir des informations de contact.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Cochez la case en regard de l’audience à modifier.
 

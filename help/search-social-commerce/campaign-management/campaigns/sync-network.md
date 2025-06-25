@@ -3,7 +3,7 @@ title: Synchronisation manuelle des données réseau et
 description: Découvrez comment déclencher manuellement la synchronisation de votre structure de campagne et des entités de campagne pour les réseaux publicitaires pris en charge.
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: c4600e6ef41193f09722052ef9b16fe5d07bdaaf
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Pour les campagnes comportant l’option « [!UICONTROL Auto Upload] », l’op�
 >
 >Chaque fois que vous [créez une feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md), vous pouvez éventuellement effectuer une synchronisation avec le réseau publicitaire avant la création de la feuille d’envoi groupé.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search]>[!UICONTROL Campaigns]**. Dans le sous-menu, sélectionnez **[!UICONTROL Accounts]** pour synchroniser toutes les campagnes de comptes spécifiques ou **[!UICONTROL Campaigns]** pour synchroniser des campagnes spécifiques.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]>[!UICONTROL Campaigns]**. Dans le sous-menu, sélectionnez **[!UICONTROL Accounts]** pour synchroniser toutes les campagnes de comptes spécifiques ou **[!UICONTROL Campaigns]** pour synchroniser des campagnes spécifiques.
 
 1. (Facultatif) Filtrez la liste pour inclure des comptes ou des campagnes spécifiques.
 
