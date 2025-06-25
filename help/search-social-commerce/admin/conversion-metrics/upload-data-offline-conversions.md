@@ -67,5 +67,5 @@ Pour plus d’instructions sur l’utilisation du modèle, voir [https://help.ad
 >
 >* [Implémenter  [!DNL Google Ads]  conversions améliorées pour les prospects](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
 >* [Implémenter  [!DNL Microsoft Advertising]  conversions hors ligne améliorées](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
->* ([!DNL Google Ads only])[Créer une action de conversion pour une conversion améliorée  [!DNL Google Ads]  prospects](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* ([!DNL Google Ads only]) [Créer une action de conversion pour une conversion améliorée  [!DNL Google Ads]  prospects](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
 >* [Charger les mesures de conversion suivies par Search, Social et Commerce vers [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
