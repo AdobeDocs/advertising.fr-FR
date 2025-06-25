@@ -3,7 +3,7 @@ title: Supprimer des campagnes d’un portfolio
 description: Découvrez comment supprimer des campagnes d’un portfolio.
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: c721215003a769f2a4a25951f524588bdb5594f2
+source-git-commit: a71f2daded3b7c32b8c30a4631eba8c2dbda3a17
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Pour plus d’informations sur l’optimisation, consultez le Guide d’optimisa
 
 1. Dans la barre d&#39;outils située au-dessus du tableau de données, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier") **[!UICONTROL Edit]**.
 
-1. Dans le [paramétrage du portfolio](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md), accédez à la section [!UICONTROL Assign Campaigns] et modifiez les affectations de la campagne.
+1. Dans les paramètres du portfolio<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)--> accédez à la section [!UICONTROL Assign Campaigns] et modifiez les affectations de la campagne.
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
@@ -32,7 +32,7 @@ Pour plus d’informations sur l’optimisation, consultez le Guide d’optimisa
 
 ## (IU héritée) Supprimer des campagnes d’un portfolio de la vue [!UICONTROL Portfolios]
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**, puis recherchez le portfolio.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**, puis recherchez le portfolio.
 
    Vous pouvez filtrer la liste des portefeuilles à partir du menu [!UICONTROL Portfolios] dans le panneau de gauche en sélectionnant un groupe de portefeuilles ou le nœud de [!UICONTROL Ungrouped Portfolios].
 

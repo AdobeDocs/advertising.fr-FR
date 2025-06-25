@@ -3,7 +3,7 @@ title: Affectation de campagnes à un portfolio
 description: Découvrez comment inclure des campagnes dans des portfolios à des fins d’optimisation.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 0b5b7baaa4044af9bd86291385a5311cfc7410ee
+source-git-commit: f1ad7c7535a7edece4eeecf7b2aac8b59f8eb6b9
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -40,7 +40,7 @@ L’optimisation ne s’applique pas à tous les types de campagne et réseaux p
 
 1. Dans la barre d’outils, cliquez sur ![Plus d’actions](/help/search-social-commerce/assets/more-actions.png "Plus d’actions") **[!UICONTROL More Actions]** > ![Affecter](/help/search-social-commerce/assets/assign.png "Affecter") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
 
-1. Dans l’écran [!UICONTROL Create Portfolio], spécifiez les [paramètres du portfolio](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md).
+1. Dans l’écran [!UICONTROL Create Portfolio], spécifiez les paramètres du portfolio<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->.
 
    Les campagnes que vous avez sélectionnées précédemment sont déjà affectées à la campagne. Vous pouvez éventuellement modifier la liste des campagnes pour le portefeuille.
 
@@ -48,7 +48,7 @@ L’optimisation ne s’applique pas à tous les types de campagne et réseaux p
 
 ## (interface utilisateur héritée) Affecter des campagnes à un portfolio à partir de la vue [!UICONTROL Campaigns]
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -86,7 +86,7 @@ L’optimisation ne s’applique pas à tous les types de campagne et réseaux p
 
 ## (IU héritée) Modifier les campagnes d’un portfolio à partir de la vue [!UICONTROL Portfolios]
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**, puis recherchez le portfolio.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**, puis recherchez le portfolio.
 
    Vous pouvez filtrer la liste des portefeuilles à partir du menu [!UICONTROL Portfolios] dans le panneau de gauche en sélectionnant un groupe de portefeuilles ou le nœud de [!UICONTROL Ungrouped Portfolios].
 
