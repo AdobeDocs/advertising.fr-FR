@@ -3,32 +3,46 @@ title: Supprimer des campagnes d’un portfolio
 description: Découvrez comment supprimer des campagnes d’un portfolio.
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: c721215003a769f2a4a25951f524588bdb5594f2
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
 # Supprimer des campagnes d’un portfolio
 
-Lorsque vous supprimez une campagne d’un portefeuille, Search, Social et Commerce ne peut pas optimiser les offres, les budgets de campagne et les cibles de stratégie d’offre pour cette campagne.
+Lorsque vous supprimez une campagne d’un portefeuille, Search, Social et Commerce ne peuvent pas optimiser les enchères, les budgets de campagne ni les cibles de stratégie d’enchères pour cette campagne.
 
 L’action est consignée dans l’historique des modifications du portefeuille.
 
-Pour plus d’informations sur l’optimisation, consultez le Guide d’optimisation disponible dans Search, Social et Commerce.
+Pour plus d’informations sur l’optimisation, consultez le Guide d’optimisation , disponible dans Search, Social et Commerce.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**, puis localisez le portfolio.
+## (Nouvelle interface utilisateur) Supprimer des campagnes d’un portfolio de la vue [!UICONTROL Manage] > [!UICONTROL Portfolios] .
 
-   Vous pouvez filtrer la liste de portefeuille à partir du menu [!UICONTROL Portfolios] du panneau de gauche en sélectionnant un groupe de portefeuille ou le noeud [!UICONTROL Ungrouped Portfolios].
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-1. En regard du nom du portfolio, cliquez sur le bouton ![Afficher/modifier les paramètres](/help/search-social-commerce/assets/settings.png "Bouton Afficher/modifier les paramètres") .
+1. Dans la barre d&#39;outils située au-dessus du tableau de données, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier") **[!UICONTROL Edit]**.
+
+1. Dans le [paramétrage du portfolio](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md), accédez à la section [!UICONTROL Assign Campaigns] et modifiez les affectations de la campagne.
+
+1. Cliquez sur **[!UICONTROL Review and Save]**.
+
+1. Vérifiez les paramètres et apportez les modifications nécessaires, puis cliquez sur **[!UICONTROL Save]**.
+
+## (IU héritée) Supprimer des campagnes d’un portfolio de la vue [!UICONTROL Portfolios]
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**, puis recherchez le portfolio.
+
+   Vous pouvez filtrer la liste des portefeuilles à partir du menu [!UICONTROL Portfolios] dans le panneau de gauche en sélectionnant un groupe de portefeuilles ou le nœud de [!UICONTROL Ungrouped Portfolios].
+
+1. En regard du nom du portfolio, cliquez sur ![Bouton Afficher/modifier les paramètres](/help/search-social-commerce/assets/settings.png "Bouton Afficher/modifier les paramètres") .
 
 1. Dans le menu de gauche, cliquez sur **[!UICONTROL Campaigns]**, puis supprimez les campagnes :
 
-   * Pour supprimer toutes les campagnes affectées, cliquez sur ![Supprimer toutes les campagnes du portefeuille](/help/search-social-commerce/assets/arrow-remove-all.png "Supprimer toutes les campagnes du portefeuille").
+   * Pour supprimer toutes les campagnes affectées, cliquez sur ![Supprimer toutes les campagnes du portfolio](/help/search-social-commerce/assets/arrow-remove-all.png "Supprimer toutes les campagnes du portfolio").
 
-   * Pour supprimer une campagne individuelle, cliquez sur la campagne, puis faites glisser la campagne dans la liste [!UICONTROL Available Campaigns] ou cliquez sur ![Supprimer la campagne du portefeuille](/help/search-social-commerce/assets/arrow-remove.png "Supprimer la campagne du portefeuille") .
+   * Pour supprimer une campagne individuelle, cliquez dessus, puis faites-la glisser dans la liste des [!UICONTROL Available Campaigns] ou cliquez sur ![Supprimer la campagne du portfolio](/help/search-social-commerce/assets/arrow-remove.png "Supprimer la campagne du portfolio") .
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
