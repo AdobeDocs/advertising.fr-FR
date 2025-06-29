@@ -2,9 +2,9 @@
 title: Solutions de mesures avancées
 description: Voir la liste des solutions disponibles pour la mesure avancée.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 0c33bb9d2258b8b17808469d2a31032ce84a66a9
+source-git-commit: f2f24b85ad2f6068739b54e4a72a2e7bef6cd31b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Les annonceurs ont souvent du mal à comprendre comment leurs différents canaux médiatiques fonctionnent ensemble, où leur prochain dollar médiatique peut être le mieux dépensé, ou comment quantifier l&#39;impact de leurs publicités en ligne par rapport aux objectifs principaux de l&#39;entreprise.
 
-Dans un paysage médiatique axé sur les données, la mesure de l’attribution offre une solution à ce défi. L’équipe Advanced Measurement &amp; Strategy (AMS) aide les partenaires de la marque et des agences à mesurer la manière dont les éléments achetés par Adobe Advertising, en lien avec leurs intégrations [!DNL Adobe], génèrent des résultats. Grâce à des offres de mesure d’attribution robustes, AMS peut déployer des stratégies de ciblage organisées à l’aide de structures de mesure sophistiquées, ce qui permet aux marques de connecter facilement leurs budgets médias aux résultats réels qui stimulent leur activité. L’équipe peut vous aider à :
+Dans un paysage médiatique axé sur les données, la mesure de l’attribution offre une solution à ce défi. L’équipe Advanced Measurement &amp; Strategy (AMS) aide les partenaires de la marque et des agences à mesurer la manière dont les éléments achetés par Adobe Advertising, ainsi que leurs intégrations [!DNL Adobe], génèrent des résultats. Grâce à des offres de mesure d’attribution robustes, AMS peut déployer des stratégies de ciblage organisées à l’aide de structures de mesure sophistiquées, ce qui permet aux marques de connecter facilement leurs budgets médias aux résultats réels qui stimulent leur activité. L’équipe peut vous aider à :
 
 * Activer les études de mesure dans les campagnes multimédia numériques en entonnoir complet
 
