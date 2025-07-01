@@ -3,9 +3,9 @@ title: Configuration requise
 description: Découvrez les exigences en matière de logiciels et de comptes.
 exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d2956703efd76db58305e31c5acf959e67747f02
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,21 @@ Vous avez besoin des informations suivantes sur les logiciels et les comptes.
 
 ## Logiciel
 
-* L’un des navigateurs suivants :
+* (Nouvelle interface utilisateur) Dernière version moins l’un des navigateurs suivants :
+
+   * Pour une expérience optimale :
+
+      * [!DNL Google Chrome]
+
+      * [!DNL Microsoft Edge]
+
+   * [!DNL Apple Safari]
+
+   * [!DNL Mozilla Firefox]
+
+   * [!DNL Opera]
+
+* (Interface utilisateur héritée) L’un des navigateurs suivants :
 
    * [!DNL Apple Safari] (y compris [!DNL Safari] pour les [!DNL iOS]) 10 ou plus
 
