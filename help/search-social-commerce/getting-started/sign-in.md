@@ -22,7 +22,7 @@ Search, Social et Commerce passent au service Adobe Identity Management (IMS) po
 
 Vos informations d’identification Search, Social et Commerce actuelles resteront actives jusqu’au 15 juillet 2025 afin que vous puissiez vous préparer au changement.
 
-Pour plus d’informations sur l’interface d’Experience Cloud, notamment sur la gestion de votre profil utilisateur, voir « [Interface et administration d’Experience Cloud ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud) ».
+Pour plus d’informations sur l’interface d’Experience Cloud, notamment sur la gestion de votre profil utilisateur, voir « [Interface et administration d’Experience Cloud ](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud) ».
 
 ## Connectez-vous à partir de la page de connexion héritée Search, Social et Commerce
 
