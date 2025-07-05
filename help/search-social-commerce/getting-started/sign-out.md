@@ -3,7 +3,7 @@ title: Se déconnecter
 description: Découvrez où vous déconnecter.
 exl-id: b19b19ea-ca74-4605-b2a3-0515659b58f5
 feature: Search Getting Started
-source-git-commit: b0b4c6e41310102fc46d30f197a746c7b79f8dd6
+source-git-commit: 1717795d835eb7970a10ba7cd254fd32ad98e6d2
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * Dans l’angle supérieur droit d’une page, cliquez sur ![Profil utilisateur](/help/search-social-commerce/assets/user-profile.png "Profil utilisateur"), puis sur **[!UICONTROL Sign Out]**.
 
-## Déconnectez-vous de l’interface utilisateur bêta.
+## Se déconnecter de la nouvelle interface utilisateur
 
 * Dans l’angle supérieur droit d’une page, cliquez sur ![Compte](/help/search-social-commerce/assets/account.png "Compte"), puis sur **[!UICONTROL Sign Out]**.
 
