@@ -50,7 +50,7 @@ La nouvelle interface utilisateur s’ouvre par défaut.
 
 1. Choisissez votre organisation :
 
-   * À l’invite, sélectionnez **Compte personnel» ou **Compte d’entreprise ou d’école**.<!-- Will it necessarily be "Company or School Account?" -->
+   * À l’invite, sélectionnez **Compte personnel» ou &#x200B;** Compte d’entreprise ou d’école**.<!-- Will it necessarily be "Company or School Account?" -->
 
    * Si vous avez accès à plusieurs organisations IMS, sélectionnez celle qui convient.
 
