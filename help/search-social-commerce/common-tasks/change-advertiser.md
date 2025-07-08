@@ -1,19 +1,33 @@
 ---
-title: Afficher les données d’un autre annonceur
+title: Afficher les données pour un autre annonceur
 description: Découvrez comment afficher les données d’un autre annonceur.
 exl-id: 31c5db71-9ef1-4088-8fdc-ff091e0eaef8
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 1b1b449798d8e1eb610012378228aaf539a77dc7
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
-# Afficher les données d’un autre annonceur
+---
+titre : affichage des données pour un autre annonceur
+description : découvrez comment afficher les données d’un autre annonceur.
+exl-id : 31c5db71-9ef1-4088-8fdc-ff091e0eaef8
+fonctionnalité : Rechercher tâches courantes
+---
+# Afficher les données pour un autre annonceur
 
-*Gestionnaire de compte de l’agence, [!DNL Adobe] gestionnaire de compte et rôles utilisateur administrateur uniquement*
+*Utilisateurs et utilisatrices qui gèrent plusieurs comptes d’annonceurs uniquement*
 
-*Utilisateurs qui gèrent plusieurs comptes publicitaires uniquement*
+## (Nouvelle interface utilisateur) Afficher les données d’un autre annonceur
 
-* Dans la liste des annonceurs située en haut à droite d’une page, sélectionnez l’annonceur.
+* Dans la barre d’outils située au-dessus du tableau de données, sélectionnez l’annonceur.
+
+  ![Sélecteur publicitaire dans la barre d’outils](/help/search-social-commerce/assets/advertiser-selector.png "Sélecteur publicitaire dans la barre d’outils")
+
+## (interface utilisateur héritée) Afficher les données d’un autre annonceur
+
+*Rôles de gestionnaire de compte d’agence, de gestionnaire de compte [!DNL Adobe] et d’utilisateur administrateur uniquement*
+
+* Dans la liste des annonceurs en haut à droite de n’importe quelle page, sélectionnez l’annonceur.
