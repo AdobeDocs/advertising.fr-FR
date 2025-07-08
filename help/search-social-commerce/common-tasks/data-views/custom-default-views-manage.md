@@ -3,9 +3,9 @@ title: Gestion des vues par défaut et personnalisées
 description: Découvrez comment personnaliser vos vues par défaut et vos vues personnalisées.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2917'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,23 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
-Vos vues par défaut et personnalisées vous permettent de personnaliser les données de performances affichées dans les vues de données des campagnes de recherche. Les paramètres d’affichage comprennent les colonnes à inclure, les filtres, la période, les paramètres d’attribution de conversion et d’autres paramètres avancés ; vous pouvez appliquer les paramètres temporairement ou les enregistrer. (Exception : vous ne pouvez pas enregistrer de filtres pour les vues par défaut.) Chaque vue personnalisée par défaut et standard s’applique uniquement à une vue d’entité spécifique (telle que [!UICONTROL Campaigns]) et à un compte d’annonceur spécifique. Chaque vue personnalisée universelle s’applique aux vues d’entité d’un annonceur spécifique et ne peut donc pas inclure de colonnes de propriété (telles que le nom ou le statut de l’entité), qui varient selon le type d’entité.
+Vos vues par défaut et personnalisées vous permettent de personnaliser les données de performances affichées dans les vues de données des campagnes de recherche. Les paramètres d’affichage comprennent les colonnes à inclure, les filtres, la période, les paramètres d’attribution de conversion et d’autres paramètres avancés ; vous pouvez appliquer les paramètres temporairement ou les enregistrer. (Exception : vous ne pouvez pas enregistrer de filtres pour les vues par défaut.) Chaque vue personnalisée par défaut et standard s’applique à une vue spécifique (telle que [!UICONTROL Portfolios] ou [!UICONTROL Campaigns]) et à un compte d’annonceur spécifique uniquement. Dans l’interface utilisateur héritée, chaque vue personnalisée universelle s’applique à toutes les vues d’entité pour un annonceur spécifique et ne peut donc pas inclure de colonnes de propriété (telles que le nom ou le statut de l’entité), qui varient selon le type d’entité.
 
-Les vues par défaut s&#39;affichent par défaut à chaque connexion. Vous pouvez créer des vues personnalisées supplémentaires et les appliquer à tout moment. Vous pouvez éventuellement partager n’importe quelle vue personnalisée que vous créez avec tous les autres utilisateurs qui peuvent afficher les données de l’annonceur. Dans vos listes d’affichages, chaque affichage partagé par une autre personne est en italique, par exemple « *Campagnes les plus performantes* ». Seule la personne qui crée une vue personnalisée peut la supprimer.
+Les vues par défaut s&#39;affichent par défaut à chaque connexion. Vous pouvez créer des vues personnalisées supplémentaires et les appliquer à tout moment. Vous pouvez éventuellement partager n’importe quelle vue personnalisée que vous créez avec tous les autres utilisateurs qui peuvent afficher les données de l’annonceur.<!-- I no longer see this in the legacy CM views - why? --> Dans les listes d’affichages, chaque affichage partagé par une autre personne est en italique, par exemple « *Campagnes les plus performantes* ». Seule la personne qui crée une vue personnalisée peut la supprimer.
 
-Chaque vue est disponible sous forme de raccourci dans la section [!UICONTROL Custom Views] du panneau de gauche.
+Dans l’interface utilisateur héritée, chaque vue est disponible sous forme de raccourci dans la section [!UICONTROL Custom Views] du panneau de gauche.
 
-<!--
-## (New UI) Apply a default or custom view
--->
+## Appliquer une vue par défaut ou personnalisée
 
-## (IU héritée) Appliquer une vue par défaut ou personnalisée
+### (Nouvelle interface utilisateur) Appliquer une vue par défaut ou personnalisée à une vue de gestion
+
+1. Au-dessus du tableau de données, cliquez sur le nom de la vue actuellement appliquée (![Vue](/help/search-social-commerce/assets/view.png "Vue")).
+
+1. Si nécessaire, cliquez sur l’un des onglets ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] et [!UICONTROL From Others]) pour localiser la vue.
+
+1. Placez le curseur sur le nom de la vue et cliquez sur **[!UICONTROL Apply]**.
+
+### (Interface utilisateur héritée) Appliquer une vue par défaut ou personnalisée à une vue de gestion de campagne
 
 * (Vues par défaut) Dans le menu principal, cliquez sur **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]** \> **\[entity type\]**.
 
@@ -43,6 +49,12 @@ Chaque vue est disponible sous forme de raccourci dans la section [!UICONTROL Cu
       Si la vue est universelle ou s&#39;applique à l&#39;entité actuelle, le tableau de données est réaffiché selon la configuration de la vue. Si la vue s&#39;applique à une autre entité, les données de l&#39;entité applicable sont affichées selon la configuration de la vue.
 
 ## Création d’une vue personnalisée {#create-custom-view}
+
+<!--
+## (New UI) Create a custom view from management views
+-->
+
+## (interface utilisateur héritée) Créer une vue personnalisée à partir des vues de gestion de campagne
 
 Les vues personnalisées s&#39;appliquent uniquement aux vues de gestion de campagne.
 

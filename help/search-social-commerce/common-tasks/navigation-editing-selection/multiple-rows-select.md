@@ -3,16 +3,16 @@ title: Sélectionner plusieurs lignes
 description: Découvrez comment sélectionner plusieurs lignes afin d’effectuer la même action sur chacune d’elles.
 exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
 # Sélectionner plusieurs lignes
-
-Vous pouvez sélectionner plusieurs lignes dans les vues [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] et [!UICONTROL Optimization] > [!UICONTROL Constraints] comme suit :
+i
+Vous pouvez sélectionner plusieurs lignes dans la nouvelle interface utilisateur à partir des vues de gestion et dans l’interface utilisateur héritée à partir de [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] et [!UICONTROL Optimization] > [!UICONTROL Constraints] :
 
 * Raccourcis clavier :
 
@@ -22,11 +22,11 @@ Vous pouvez sélectionner plusieurs lignes dans les vues [!UICONTROL Search, Soc
 
 * Case à cocher globale (![Case à cocher](/help/search-social-commerce/assets/check-box.png) « Case à cocher ») dans l’en-tête de colonne supérieur gauche :
 
-   * Pour sélectionner toutes les lignes de la page en cours, qui peuvent inclure une partie ou la totalité des lignes disponibles avec les filtres appliqués, selon que vous affichez 25 lignes, 50 lignes, 100 lignes, 200 lignes ou [!UICONTROL Continuous Scroll], activez la case à cocher globale.
+   * Pour sélectionner toutes les lignes de la page en cours, qui peuvent inclure une partie ou la totalité des lignes disponibles avec les filtres appliqués, selon que vous affichez 25 lignes, 50 lignes, 100 lignes, 200 lignes ou (vues de gestion de campagne héritées uniquement) [!UICONTROL Continuous Scroll], cochez la case global .
 
      Lorsque vous sélectionnez toutes les lignes de la page, vous pouvez désélectionner des lignes individuelles.
 
-   * Pour sélectionner toutes les lignes disponibles avec les filtres appliqués, cochez la case global , puis cliquez sur **[!DNL Select all N records?]**, où *N* correspond au nombre d’enregistrements disponibles.
+   * (Vues de gestion de campagne héritées uniquement) Pour sélectionner toutes les lignes disponibles avec les filtres appliqués, cochez la case global , puis cliquez sur **[!DNL Select all N records?]**, où *N* correspond au nombre d’enregistrements disponibles.
 
      Lorsque vous sélectionnez toutes les lignes disponibles, vous ne pouvez pas désélectionner des lignes individuelles.
 

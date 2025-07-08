@@ -3,7 +3,7 @@ title: Supprimer un rapport de données de performances ou un fichier de feuille
 description: Découvrez comment supprimer un fichier de rapport ou de feuille d’envoi groupé que vous avez téléchargé une vue de gestion de campagne.
 exl-id: cd1244da-ddb8-4ee1-8ebb-2df4e9924952
 feature: Search Common Tasks
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # Supprimer un rapport de données de performances ou un fichier de feuille d&#39;envoi groupé du menu [!UICONTROL Downloads]
+
+<!-- Add info about new UI -->
 
 >[!NOTE]
 >
