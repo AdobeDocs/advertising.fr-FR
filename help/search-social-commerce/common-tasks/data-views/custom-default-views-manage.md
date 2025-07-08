@@ -3,7 +3,7 @@ title: Gestion des vues par défaut et personnalisées
 description: Découvrez comment personnaliser vos vues par défaut et vos vues personnalisées.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: c5faf88a5240a7ec05dab3f06d0c4e466fd17164
+source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
 workflow-type: tm+mt
 source-wordcount: '4453'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Les vues personnalisées s&#39;appliquent uniquement aux vues de gestion de camp
    >
    >Utilisez un nom qui vous permet d’identifier l’onglet et les informations auxquelles il s’applique (telles que « Campagnes en pause » ou « Top 50 des publicités »).
 
-## Modifier une vue par défaut ou personnalisée
+## Modifier une vue par défaut ou personnalisée {#view-edit}
 
 ### (Nouvelle interface utilisateur) Modifier une vue par défaut ou personnalisée
 
@@ -132,7 +132,7 @@ Les vues personnalisées s&#39;appliquent uniquement aux vues de gestion de camp
 
    * Pour enregistrer les paramètres dans une nouvelle vue personnalisée, cliquez sur **[!UICONTROL Save As]**. Dans la fenêtre [!UICONTROL Enter New Custom View Name], saisissez le nom de la nouvelle vue, puis cliquez sur **[!UICONTROL Save]**.
 
-## (Nouvelle interface utilisateur) Cloner une vue par défaut ou personnalisée
+## (Nouvelle interface utilisateur) Cloner une vue par défaut ou personnalisée {#view-clone}
 
 *Disponible dans les vues [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] et [!UICONTROL Ad Groups]*
 

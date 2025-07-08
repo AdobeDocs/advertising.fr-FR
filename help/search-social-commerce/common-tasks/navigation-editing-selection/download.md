@@ -3,16 +3,16 @@ title: Télécharger des données à partir d’une vue de gestion de campagne
 description: Découvrez comment télécharger des données à partir de la plupart des vues de gestion de campagnes.
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
 
 # Télécharger des données à partir d’une vue de gestion de campagne
 
-<!-- Add info about new UI -->
+*Interface utilisateur héritée*
 
 Vous pouvez télécharger des données à partir des vues [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], à l’exception des vues [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences] et [!UICONTROL Extensions]. Vous pouvez télécharger l’une des options suivantes :
 
