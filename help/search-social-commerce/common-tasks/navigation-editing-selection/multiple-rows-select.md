@@ -10,9 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Sélectionner plusieurs lignes
-i
-Vous pouvez sélectionner plusieurs lignes dans la nouvelle interface utilisateur à partir des vues de gestion et dans l’interface utilisateur héritée à partir de [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] et [!UICONTROL Optimization] > [!UICONTROL Constraints] :
+# Sélectionner plusieurs lignesiVous pouvez sélectionner plusieurs lignes dans la nouvelle interface utilisateur à partir des vues de gestion et dans l’interface utilisateur héritée à partir de [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] et [!UICONTROL Optimization] > [!UICONTROL Constraints] :
 
 * Raccourcis clavier :
 
