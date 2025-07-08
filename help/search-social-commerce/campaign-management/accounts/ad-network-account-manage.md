@@ -3,7 +3,7 @@ title: Gestion des comptes réseau et
 description: Découvrez comment configurer et gérer les détails d’un compte réseau publicitaire.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 5a9c2eabc3fe03da0868aefb79c4f71d6029c384
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Pour plus d’informations sur les fonctionnalités disponibles pour chaque rés
 
 ## Créer un compte réseau publicitaire {#create-account}
 
-*Rôles de gestionnaire de compte d’agence, de gestionnaire de compte d’Adobe et d’utilisateur administrateur uniquement*
+*Rôles de gestionnaire de compte d’agence, de gestionnaire de compte Adobe et d’utilisateur administrateur uniquement*
 
 Pour activer la synchronisation ou le suivi d’un compte, vous devez créer un enregistrement de compte correspondant contenant les informations d’identification d’accès au compte et les options de suivi, ainsi que le statut *actif*.
 
@@ -33,7 +33,7 @@ Pour activer la synchronisation ou le suivi d’un compte, vous devez créer un 
 >* La prise en charge n’est pas disponible pour les nouveaux comptes [!DNL Baidu].
 >* Pour créer un compte sur le réseau publicitaire, accédez au site web du réseau publicitaire.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Dans le sous-menu, cliquez sur **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Dans le sous-menu, cliquez sur **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Créer](/help/search-social-commerce/assets/add.png "Créer").
 
@@ -47,7 +47,7 @@ Pour activer la synchronisation ou le suivi d’un compte, vous devez créer un 
 
       1. Saisissez la valeur **[!UICONTROL Login]** du compte, éventuellement le mot de passe, puis cliquez sur **[!UICONTROL Authenticate]**.
 
-         La bonne pratique consiste à utiliser la méthode de connexion pour accéder au compte via l’API. Saisissez le mot de passe lorsque vous souhaitez le chiffrer et l’enregistrer, de sorte que l’équipe du compte d’Adobe puisse actualiser les jetons si nécessaire.
+         La bonne pratique consiste à utiliser la méthode de connexion pour accéder au compte via l’API. Saisissez le mot de passe lorsque vous souhaitez le chiffrer et l’enregistrer, de sorte que l’équipe du compte Adobe puisse actualiser les jetons si nécessaire.
 
       1. (Si vous n’êtes pas connecté au compte publicitaire de l’annonceur) Connectez-vous au compte publicitaire de l’annonceur. La bonne pratique consiste à utiliser les informations d’identification pour l’accès de l’API au compte .
 
@@ -65,7 +65,7 @@ Pour activer la synchronisation ou le suivi d’un compte, vous devez créer un 
 
 ## Modifier les détails du compte réseau publicitaire {#edit-account}
 
-*Rôles de gestionnaire de compte d’agence, de gestionnaire de compte d’Adobe et d’utilisateur administrateur uniquement*
+*Rôles de gestionnaire de compte d’agence, de gestionnaire de compte Adobe et d’utilisateur administrateur uniquement*
 
 Si les informations d’identification du compte changent, vous pouvez modifier les paramètres de suivi par défaut sur un compte ou activer ou désactiver l’activité sur un compte, puis modifier les détails du compte.
 
@@ -73,7 +73,7 @@ Si les informations d’identification du compte changent, vous pouvez modifier 
 >
 >Pour modifier un compte réel sur le réseau publicitaire, accédez au site web du réseau publicitaire.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Dans le sous-menu, cliquez sur **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Dans le sous-menu, cliquez sur **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Placez le curseur sur le nom du compte, cliquez sur ![Plus](/help/search-social-commerce/assets/more-filters.png "Plus"), puis sélectionnez **[!UICONTROL Edit]**.
 
@@ -91,15 +91,15 @@ Si les informations d’identification du compte changent, vous pouvez modifier 
 
 ## Actualiser les jetons d’accès oAuth pour les comptes de recherche {#refresh-oauth-tokens}
 
-*Rôles de gestionnaire de compte d’agence, de gestionnaire de compte d’Adobe et d’utilisateur administrateur uniquement*
+*Rôles de gestionnaire de compte d’agence, de gestionnaire de compte Adobe et d’utilisateur administrateur uniquement*
 
 Si Search, Social et Commerce accèdent au compte à l’aide du protocole d’autorisation [OAuth](https://oauth.net/2/) et que les informations d’identification du compte changent, ou si un accès supplémentaire est nécessaire pour prendre en charge de nouvelles fonctionnalités dans Search, Social et Commerce, vous devez obtenir un nouveau jeton d’accès pour le compte.
 
-Votre équipe de compte d’Adobe vous informera si de nouvelles fonctionnalités nécessitent un nouveau jeton.
+L’équipe chargée de votre compte Adobe vous informera si de nouvelles fonctionnalités nécessitent un nouveau jeton.
 
 1. (Si vous êtes connecté à un autre compte pour le même réseau publicitaire dans la même application de navigateur) Déconnectez-vous de tout compte autre que celui de l’annonceur.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Dans le sous-menu, cliquez sur **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Dans le sous-menu, cliquez sur **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Placez le curseur sur le nom du compte, cliquez sur ![Plus](/help/search-social-commerce/assets/more-filters.png "Plus"), puis sélectionnez **[!UICONTROL Edit]**.
 
@@ -117,11 +117,11 @@ Votre équipe de compte d’Adobe vous informera si de nouvelles fonctionnalité
 
 ## Activer ou désactiver les comptes réseau publicitaires {#enable-disable-account}
 
-*Rôles de gestionnaire de compte d’agence, de gestionnaire de compte d’Adobe et d’utilisateur administrateur uniquement*
+*Rôles de gestionnaire de compte d’agence, de gestionnaire de compte Adobe et d’utilisateur administrateur uniquement*
 
 Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commerce synchronise les données de la campagne avec le compte (lorsqu’il est pris en charge) et diffuse des enchères automatisées et/ou des budgets de campagne pour les campagnes des portfolios. Lorsque vous désactivez un compte de réseau publicitaire, Search, Social et Commerce arrête toute activité sur le compte. Les données collectées alors que le compte était actif sont toujours stockées, mais les vues et rapports de gestion de campagne n’incluent pas les données de la période au cours de laquelle le compte est désactivé. Vous pourrez par la suite réactiver le compte pour reprendre l’activité avec le compte.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Dans le sous-menu, cliquez sur **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Dans le sous-menu, cliquez sur **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -153,7 +153,7 @@ Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commer
 
 >[!NOTE]
 >
->Si vous disposez d’une intégration Search, Social et Commerce-Adobe Analytics et que vous modifiez le nom du compte de recherche, contactez l’équipe chargée de votre compte d’Adobe pour qu’elle mette à jour le mappage.
+>Si vous disposez d’une intégration Search, Social et Commerce-Adobe Analytics et que vous modifiez le nom du compte de recherche, contactez l’équipe chargée de votre compte Adobe pour qu’elle mette à jour le mappage.
 
 **[!UICONTROL Login Details]: \[Type de connexion\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] uniquement) Autoriser ou non les connexions au compte à l’aide de :
 
@@ -177,7 +177,7 @@ Pour les comptes [!DNL Microsoft Advertising], seules les connexions autorisées
 
 Exemple : `param1=value1&param2=value2`
 
-Les comptes qui utilisent le suivi des clics Adobe Advertising doivent inclure l’identifiant des clics du réseau publicitaire (`msclkid` par [!DNL Microsoft Advertising] ; `gclid` pour Google) dans le suffixe . Les comptes disposant d’une intégration Adobe Analytics doivent utiliser le paramètre AMO ID (en commençant par `s_kwcid`). Si le compte dispose d’une implémentation d’AMO ID côté serveur, le paramètre est ajouté automatiquement lorsqu’un utilisateur clique sur une publicité ; sinon, vous devez l’ajouter manuellement ici. Consultez les sections [Formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et [Formats de suffixes requis pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Les comptes qui utilisent le suivi des clics d’Adobe Advertising doivent inclure l’identifiant des clics du réseau publicitaire (`msclkid` par [!DNL Microsoft Advertising] ; `gclid` pour Google) dans le suffixe . Les comptes disposant d’une intégration Adobe Analytics doivent utiliser le paramètre AMO ID (en commençant par `s_kwcid`). Si le compte dispose d’une implémentation d’AMO ID côté serveur, le paramètre est ajouté automatiquement lorsqu’un utilisateur clique sur une publicité ; sinon, vous devez l’ajouter manuellement ici. Consultez les sections [Formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et [Formats de suffixes requis pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
@@ -195,7 +195,7 @@ Les comptes qui utilisent le suivi des clics Adobe Advertising doivent inclure l
 
 * Pour incorporer l’URL finale :
 
-   * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste de paramètres indiquant les URL finales dans les modèles de tracking, reportez-vous à la [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] uniquement) ou ([!DNL Google Ads] uniquement) aux paramètres « Modèle de tracking uniquement » dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste de paramètres indiquant les URL finales dans les modèles de tracking, reportez-vous à la [!DNL Microsoft Advertising]documentation[[!DNL Microsoft Advertising]  (](https://help.ads.microsoft.com/#apex/3/en/56799) uniquement) ou ([!DNL Google Ads] uniquement) aux paramètres « Modèle de tracking uniquement » dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] uniquement) Utilisez le `!{lpurl}` de paramètre pour indiquer l’URL de la page de destination.
 
@@ -207,7 +207,7 @@ Les comptes qui utilisent le suivi des clics Adobe Advertising doivent inclure l
 
 >[!NOTE]
 >
->* Par [!DNL Google Ads], évitez d’utiliser des macros qui ne remplacent pas les clics provenant de sources permettant le suivi parallèle. Si l’annonceur doit utiliser des macros, l’équipe du compte d’Adobe doit collaborer avec le service clientèle ou l’équipe d’implémentation pour les ajouter.
+>* Par [!DNL Google Ads], évitez d’utiliser des macros qui ne remplacent pas les clics provenant de sources permettant le suivi parallèle. Si l’annonceur doit utiliser des macros, l’équipe du compte Adobe doit collaborer avec le service clientèle ou l’équipe d’implémentation pour les ajouter.
 >* Le modèle de suivi au niveau le plus granulaire remplace les valeurs à tous les niveaux supérieurs. Par exemple, si les paramètres du compte et les paramètres des mots-clés incluent tous deux une valeur, la valeur du mot-clé est appliquée.
 >* Si vous mettez à jour un modèle de suivi au niveau de l’annonce, du lien du site ou du mot-clé, les annonces pertinentes sont envoyées à nouveau pour révision. Vous pouvez mettre à jour vos modèles de suivi au niveau du compte, de la campagne ou du groupe publicitaire sans envoyer à nouveau vos publicités pour approbation.
 
@@ -251,7 +251,7 @@ Les comptes qui utilisent le suivi des clics Adobe Advertising doivent inclure l
 
 * **Format S_kwcid :** (comptes [!DNL Google Ads] existants pour les annonceurs disposant d’une intégration Adobe Advertising-Adobe Analytics et pour lesquels l’AMO ID (s_kwcid) n’a pas déjà été migré)
 
-Ce compte utilise le format hérité du code de suivi AMO ID, ce qui permet à l’Adobe Advertising de partager des données sur le compte avec Adobe Analytics. Le [dernier format](/help/integrations/analytics/ids.md#amo-id-formats) inclut des paramètres pour l’identifiant de campagne et l’identifiant de groupe publicitaire, qui sont nécessaires pour générer des rapports précis aux niveaux de la campagne et du groupe publicitaire pour [!DNL Google Ads] campagnes avec performances maximales et les campagnes sous forme de brouillons et d’expériences dans Analytics :
+Ce compte utilise le format hérité du code de suivi AMO ID, ce qui permet à Adobe Advertising de partager des données sur le compte avec Adobe Analytics. Le [dernier format](/help/integrations/analytics/ids.md#amo-id-formats) inclut des paramètres pour l’identifiant de campagne et l’identifiant de groupe publicitaire, qui sont nécessaires pour générer des rapports précis aux niveaux de la campagne et du groupe publicitaire pour [!DNL Google Ads] campagnes avec performances maximales et les campagnes sous forme de brouillons et d’expériences dans Analytics :
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -261,7 +261,7 @@ Pour obtenir des instructions complètes, reportez-vous à « [ Mettre à jour l
 
 **Noms de suites de rapports :** (pour la redirection EF avec jeton uniquement ; annonceurs avec une intégration Adobe Advertising-Adobe Analytics ; facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoient les données qu’il collecte du réseau publicitaire, y compris les classifications d’entité et les données de clic pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.
 
-Pour que les données apparaissent dans les suites de rapports, (a) la fonction d’identifiant AMO côté serveur doit être configurée pour le compte ou (b) le paramètre au niveau de l’annonceur sur « [!UICONTROL Enable Advertising reporting in Analytics] » doit être activé. En outre, le compte Analytics de l’annonceur doit être configuré pour recevoir des données de Search, Social et Commerce. Pour plus d’informations, contactez l’équipe chargée de votre compte d’Adobe.
+Pour que les données apparaissent dans les suites de rapports, (a) la fonction d’identifiant AMO côté serveur doit être configurée pour le compte ou (b) le paramètre au niveau de l’annonceur sur « [!UICONTROL Enable Advertising reporting in Analytics] » doit être activé. En outre, le compte Analytics de l’annonceur doit être configuré pour recevoir des données de Search, Social et Commerce. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 
 >[!MORELIKETHIS]
 >

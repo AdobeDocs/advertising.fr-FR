@@ -3,7 +3,7 @@ title: Organisation de l’interface utilisateur
 description: Découvrez où accéder aux différentes fonctionnalités.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: d38c71f1260b9656bb4362c56f4d9c76f4f3e442
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Le haut de chaque page comprend le menu principal et d’autres menus basés sur
 
 ## Le menu principal
 
-* **[!UICONTROL Search]** — Pour gérer vos comptes de réseau publicitaire dans Search, Social et Commerce, y compris ceux pour lesquels Search, Social et Commerce effectuent le suivi, mais pas les enchères.
+* **[!UICONTROL Search, Social, & Commerce]** \> — Pour gérer vos comptes de réseau publicitaire dans Search, Social et Commerce, y compris ceux pour lesquels Search, Social et Commerce effectuent le suivi, mais pas les enchères.
 
 ## [!UICONTROL Search] menus
 
