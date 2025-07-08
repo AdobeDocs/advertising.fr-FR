@@ -3,9 +3,9 @@ title: Supprimer un filtre de colonne
 description: Découvrez comment supprimer un filtre de colonne.
 exl-id: e68f0087-85a0-4090-aa58-c84703e6d1a1
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vous pouvez également supprimer plusieurs filtres dans un ensemble de filtres en [modifiant le jeu de filtres](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md).
+>Vous pouvez également supprimer plusieurs filtres dans un jeu de filtres en [modifiant le jeu de filtres](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md).
 
-1. (Si nécessaire) Dans l’ensemble de filtres au-dessus du tableau de données, cliquez sur ![Plus](/help/search-social-commerce/assets/more-filters.png "Plus") pour développer l’ensemble de filtres.
+* (Si disponible) Au-dessus du tableau de données, cliquez sur **[!UICONTROL X]** dans la définition du filtre.
 
-1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL X]** dans la définition de filtre.
+>[!MORELIKETHIS]
+>
+>* [Appliquer un filtre de données à partir du menu d’en-tête de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
+>* [Appliquer des filtres de données depuis la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [Modifier les filtres de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)

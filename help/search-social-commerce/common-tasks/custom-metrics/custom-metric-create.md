@@ -3,16 +3,32 @@ title: Création d’une mesure personnalisée
 description: Découvrez comment configurer des mesures personnalisées, qui sont calculées à partir de mesures standard.
 exl-id: a9ce503a-67ee-477e-8f79-31b4a9c6e51a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
 
 # Création d’une mesure personnalisée
 
-## Création d’une mesure personnalisée à partir d’une vue de gestion de campagne
+## (Nouvelle interface utilisateur) Créer une mesure personnalisée à partir d’une vue de gestion
+
+*Disponible dans les vues [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] et [!UICONTROL Ad Groups]*
+
+1. Au-dessus du tableau de données, effectuez l’une des opérations suivantes :
+
+   * Cliquez sur ![Sélecteur d’affichage](/help/search-social-commerce/assets/view.png "Sélecteur d’affichage") \[Nom de l’affichage par défaut ou de l’affichage personnalisé\] pour ouvrir les paramètres d’affichage. Exemple : ![Exemple de vue](/help/search-social-commerce/assets/view-selector-example.png "Exemple de vue")
+
+   * Cliquez sur ![Colonnes personnalisées](/help/search-social-commerce/assets/custom-columns-new.png "Colonnes personnalisées") pour ouvrir les paramètres de configuration des colonnes.
+
+1. Sous la liste de colonnes qui s’ouvre, cliquez sur ![Créer une mesure personnalisée](/help/search-social-commerce/assets/add.png "Créer une mesure personnalisée") **[!UICONTROL Create Custom Metric]**.
+
+1. Spécifiez les [paramètres de mesure personnalisés](custom-metric-settings.md).
+
+1. Cliquez sur **[!UICONTROL Create]**.
+
+## (interface utilisateur héritée) Créer une mesure personnalisée à partir d’une vue de gestion de campagne
 
 1. Au-dessus du tableau de données, effectuez l’une des opérations suivantes :
 
@@ -20,15 +36,15 @@ ht-degree: 0%
 
    * Cliquez sur ![Colonnes personnalisées](/help/search-social-commerce/assets/custom-columns.png "Colonnes personnalisées") pour ouvrir les paramètres de configuration des colonnes.
 
-1. Sous la liste des colonnes qui s’ouvre, cliquez sur ![Créer une mesure personnalisée](/help/search-social-commerce/assets/add.png) **[!UICONTROL Create New Custom Metric]**.
+1. Sous la liste de colonnes qui s’ouvre, cliquez sur ![Créer une mesure personnalisée](/help/search-social-commerce/assets/add.png "Créer une mesure personnalisée") **[!UICONTROL Create New Custom Metric]**.
 
 1. Spécifiez les [paramètres de mesure personnalisés](custom-metric-settings.md).
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
-## Créer une mesure personnalisée à partir d’un formulaire de rapport ou de modèle de rapport
+## (interface utilisateur héritée) Créer une mesure personnalisée à partir d’un rapport ou d’un formulaire de modèle de rapport
 
-1. Dans un formulaire de rapport ou de modèle de rapport, accédez à l’onglet **[!UICONTROL Columns]** .
+1. Dans un rapport ou un formulaire de modèle de rapport, accédez à l’onglet **[!UICONTROL Columns]** .
 
 1. Dans la section de droite, cliquez sur **[!UICONTROL Create]**.
 
@@ -36,7 +52,7 @@ ht-degree: 0%
 
 1. Cliquez sur **[!UICONTROL Submit]**.
 
-## Création d’une mesure personnalisée à partir des vues [!UICONTROL Portfolios]
+## (interface utilisateur héritée) Créer une mesure personnalisée à partir des vues [!UICONTROL Portfolios]
 
 1. Au-dessus du tableau de données, cliquez sur ![Modifier la vue sélectionnée](/help/search-social-commerce/assets/view-settings.png "Modifier la vue sélectionnée").
 
