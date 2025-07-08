@@ -3,19 +3,13 @@ title: Afficher les données pour un autre annonceur
 description: Découvrez comment afficher les données d’un autre annonceur.
 exl-id: 31c5db71-9ef1-4088-8fdc-ff091e0eaef8
 feature: Search Common Tasks
-source-git-commit: 1b1b449798d8e1eb610012378228aaf539a77dc7
+source-git-commit: 6487410267dcb17ee02320eed62c7744adbce1fb
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
-&#x200B;---
-titre : affichage des données pour un autre annonceur
-description : découvrez comment afficher les données d’un autre annonceur.
-exl-id : 31c5db71-9ef1-4088-8fdc-ff091e0eaef8
-fonctionnalité : Rechercher tâches courantes
----
 # Afficher les données pour un autre annonceur
 
 *Utilisateurs et utilisatrices qui gèrent plusieurs comptes d’annonceurs uniquement*
