@@ -3,14 +3,16 @@ title: Gestion des vues par défaut et personnalisées
 description: Découvrez comment personnaliser vos vues par défaut et vos vues personnalisées.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '2836'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
 
 # Gestion des vues par défaut et personnalisées
+
+<!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
 Vos vues par défaut et personnalisées vous permettent de personnaliser les données de performances affichées dans les vues de données des campagnes de recherche. Les paramètres d’affichage comprennent les colonnes à inclure, les filtres, la période, les paramètres d’attribution de conversion et d’autres paramètres avancés ; vous pouvez appliquer les paramètres temporairement ou les enregistrer. (Exception : vous ne pouvez pas enregistrer de filtres pour les vues par défaut.) Chaque vue personnalisée par défaut et standard s’applique uniquement à une vue d’entité spécifique (telle que [!UICONTROL Campaigns]) et à un compte d’annonceur spécifique. Chaque vue personnalisée universelle s’applique aux vues d’entité d’un annonceur spécifique et ne peut donc pas inclure de colonnes de propriété (telles que le nom ou le statut de l’entité), qui varient selon le type d’entité.
 
@@ -18,7 +20,11 @@ Les vues par défaut s&#39;affichent par défaut à chaque connexion. Vous pouve
 
 Chaque vue est disponible sous forme de raccourci dans la section [!UICONTROL Custom Views] du panneau de gauche.
 
-## Appliquer une vue par défaut ou personnalisée
+<!--
+## (New UI) Apply a default or custom view
+-->
+
+## (IU héritée) Appliquer une vue par défaut ou personnalisée
 
 * (Vues par défaut) Dans le menu principal, cliquez sur **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]** \> **\[entity type\]**.
 

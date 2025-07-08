@@ -3,16 +3,16 @@ title: Modifier les paramètres directement dans une ligne
 description: Découvrez comment modifier les données dans les vues de gestion de la ligne.
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 1b1b449798d8e1eb610012378228aaf539a77dc7
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
 # Modifier les paramètres directement dans une ligne
 
-*Interface utilisateur héritée*
+*Interface utilisateur héritée uniquement*
 
 >[!NOTE]
 >

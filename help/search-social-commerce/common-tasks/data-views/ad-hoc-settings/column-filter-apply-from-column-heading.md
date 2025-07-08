@@ -3,7 +3,7 @@ title: Application de filtres de données à partir d’un menu d’en-tête de 
 description: Découvrez comment filtrer les données de la page à partir du menu d’en-tête de colonne.
 exl-id: 508f254a-d859-4155-9bbd-84e0442f01d5
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # Application d’un filtre de données à partir d’un menu d’en-tête de colonne
+
+<!-- The same in new UI and legacy CM views -->
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 

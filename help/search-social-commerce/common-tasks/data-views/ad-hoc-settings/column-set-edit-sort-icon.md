@@ -1,45 +1,53 @@
 ---
-title: Modifiez et triez l’ensemble de colonnes à partir de l’icône [!UICONTROL Custom Columns]
-description: Découvrez comment modifier les colonnes visibles à l’aide du personnaliseur de colonnes.
+title: Modifier et trier le jeu de colonnes à partir de l’icône [!UICONTROL Custom Columns]
+description: Découvrez comment modifier les colonnes visibles à l’aide du personnalisateur de colonne.
 exl-id: bc03b53f-179a-426f-bc31-20be25915506
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
 
-# Modifiez et triez l’ensemble de colonnes à partir de l’icône [!UICONTROL Custom Columns]
+# Modifier et trier le jeu de colonnes à partir de l’icône [!UICONTROL Custom Columns]
 
-Vous pouvez modifier les colonnes visibles dans n’importe quel affichage depuis la barre d’outils de droite. Les modifications ne sont appliquées que lorsque vous quittez les vues de gestion de campagne ou que vous affichez les données d’un autre annonceur.
+<!-- The same in new UI and legacy CM views except for icon -->
+
+<!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
+
+Vous pouvez modifier les colonnes visibles dans n’importe quel mode dans la barre d’outils de droite. Les modifications sont appliquées uniquement jusqu’à ce que vous quittiez les vues applicables ou que vous affichiez les données d’un autre annonceur.
 
 >[!NOTE]
 >
->Vous pouvez également modifier temporairement les colonnes d’une vue sans modifier l’ordre de tri [ à partir de n’importe quel en-tête de colonne ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) dans la vue.
+>Vous pouvez également modifier temporairement les colonnes d&#39;un affichage sans modifier l&#39;ordre de tri [à partir d&#39;un en-tête de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) dans l&#39;affichage.
 >
->Vous pouvez enregistrer les modifications apportées aux colonnes incluses pour un annonceur spécifique en modifiant la vue par défaut ou en [créant une vue personnalisée](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view).
+>Vous pouvez enregistrer les modifications apportées aux colonnes incluses pour un annonceur spécifique en modifiant la vue par défaut ou [en créant une vue personnalisée](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view).
 
-1. À droite de la barre d’outils, cliquez sur ![Colonnes](/help/search-social-commerce/assets/custom-columns.png "Colonnes").
+1. Sur le côté droit de la barre d’outils, cliquez sur ![Colonnes personnalisées](/help/search-social-commerce/assets/custom-columns.png "Colonnes personnalisées") ou ![Colonnes personnalisées](/help/search-social-commerce/assets/custom-columns-new.png "Colonnes personnalisées").
 
-1. (Facultatif) [Créez une mesure personnalisée (dérivée)](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) à inclure en colonne.
+1. (Facultatif) [Créez une mesure personnalisée](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) à inclure en tant que colonne.
 
-1. Indiquez les colonnes à inclure dans la vue :
+1. Spécifiez les colonnes à inclure dans la vue :
 
-   * (Pour ajouter une colonne) Dans la liste [!UICONTROL Available Columns], cliquez sur le nom d&#39;une colonne, puis faites-la glisser dans la liste [!UICONTROL Selected Columns & Ordering] ou cliquez sur ![Ajouter une colonne](/help/search-social-commerce/assets/chevron-right.png "Ajouter une colonne") pour l&#39;y déplacer.
+   * (Pour ajouter une colonne) Dans la liste [!UICONTROL Available Columns], cliquez sur le nom d’une colonne, puis faites-la glisser dans la liste [!UICONTROL Selected Columns & Ordering] ou cliquez sur ![Ajouter une colonne](/help/search-social-commerce/assets/chevron-right.png "Ajouter une colonne") pour la déplacer.
 
-   * (Pour modifier la position horizontale d’une colonne) Dans la liste [!UICONTROL Selected Columns & Ordering], cliquez sur le nom de la colonne, puis faites-la glisser à l’emplacement souhaité ou cliquez sur ![Déplacer la colonne vers le haut](/help/search-social-commerce/assets/chevron-up.png "Déplacer la colonne vers le haut") ou ![Déplacer la colonne vers le bas](/help/search-social-commerce/assets/chevron-down.png "Déplacer la colonne vers le bas") pour la déplacer là-bas.
+   * (Pour modifier la position horizontale d’une colonne) Dans la liste [!UICONTROL Selected Columns & Ordering], cliquez sur le nom de la colonne, puis faites-la glisser à la position souhaitée ou cliquez sur ![Déplacer la colonne vers le haut](/help/search-social-commerce/assets/chevron-up.png "Déplacer la colonne vers le haut") ou ![Déplacer la colonne vers le bas](/help/search-social-commerce/assets/chevron-down.png "Déplacer la colonne vers le bas") pour la déplacer.
 
-     Le nom de la colonne supérieure apparaît dans la colonne de gauche.
+     Le nom de la colonne supérieure s’affiche dans la colonne de gauche.
 
-   * (Pour supprimer une colonne) Dans la liste [!UICONTROL Selected Columns & Ordering], cliquez sur le nom d&#39;une colonne, puis faites-la glisser dans la liste [!UICONTROL Available Columns] ou cliquez sur ![Supprimer](/help/search-social-commerce/assets/chevron-left.png "Supprimer") pour l&#39;y déplacer.
+   * (Pour supprimer une colonne) Dans la liste [!UICONTROL Selected Columns & Ordering], cliquez sur le nom d’une colonne, puis faites-la glisser dans la liste [!UICONTROL Available Columns] ou cliquez sur ![Supprimer](/help/search-social-commerce/assets/chevron-left.png "Supprimer") pour la déplacer.
 
-   * (Pour actualiser la liste des colonnes si de nouvelles colonnes de recettes ont été ajoutées et ne sont pas visibles) Cliquez sur ![Actualiser](/help/search-social-commerce/assets/refresh.png "Actualiser") en regard de &quot;[!UICONTROL Available Columns]&quot;.
+   * (Pour actualiser la liste des colonnes si de nouvelles colonnes de chiffre d’affaires ont été ajoutées et ne sont pas visibles) Cliquez sur ![Actualiser](/help/search-social-commerce/assets/refresh.png "Actualiser") en regard de « [!UICONTROL Available Columns] ».
 
 1. Définissez les options de tri :
 
-   * Indiquez la colonne de tri des lignes.
+   * Indiquez la colonne selon laquelle trier les lignes.
 
-   * (Facultatif) Déplacez le curseur pour trier les valeurs de la colonne sélectionnée dans l’ordre **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
+   * (Facultatif) Spécifiez l’ordre de tri des valeurs de la colonne sélectionnée :
+
+      * (Nouvelle interface utilisateur) Sélectionnez **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
+
+      * (IU héritée) Déplacez le curseur vers **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
 
 1. Cliquez sur **[!UICONTROL Apply]**.
