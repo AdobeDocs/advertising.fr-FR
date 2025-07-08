@@ -3,7 +3,7 @@ title: Gestion des vues par défaut et personnalisées
 description: Découvrez comment personnaliser vos vues par défaut et vos vues personnalisées.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 777bebb13e4de99f070e3ab6c38949caeb75ca08
+source-git-commit: ac434e2c9f049830b0fbe6941a268ca7def9b4bf
 workflow-type: tm+mt
 source-wordcount: '4453'
 ht-degree: 0%
@@ -162,7 +162,7 @@ Les paramètres système par défaut varient selon la vue de gestion. Pour la pl
 
    1. Si nécessaire, cliquez sur l’un des onglets ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] et [!UICONTROL From Others]) pour localiser la vue.
 
-   1. Placez le curseur sur le nom de la vue et cliquez sur ![Rétablir](/help/search-social-commerce/assets/revert-new.md).
+   1. Placez le curseur sur le nom de la vue et cliquez sur ![Rétablir](/help/search-social-commerce/assets/revert-new.jpg).
 
 * Depuis les vues de gestion de campagne héritées :
 
