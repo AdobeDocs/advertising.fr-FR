@@ -3,9 +3,9 @@ title: Personnaliser l’optimisation et la planification de la création pour u
 description: Découvrez comment
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 006b0c61c28f5fac111ccdcc007e1752e05da63f
+source-git-commit: 7fee6e0f6e8ad6dbf0329d707af7303ac7229dc9
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Lorsque la planification des créations est désactivée, les paramètres d’op
 
    * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom de l’expérience, puis cliquez sur **[!UICONTROL Tag Manager]**.
 
-   * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**
+   * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**.
 
 1. Placez le curseur sur la ligne correspondant à la balise d’annonce publicitaire applicable et cliquez sur ![Planifier l’annonce](/help/creative/assets/edit-gray.png "Modifier les URL de suivi") **[!UICONTROL Ad Schedule]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— Tag Manager n’a qu’une vue Liste, mais pas de vue Carte, à partir du 2/2. >
 
@@ -39,7 +39,7 @@ Lorsque la planification des créations est désactivée, les paramètres d’op
 
    * *[!UICONTROL Algorithmic]:* fait pivoter les contenus publicitaires de manière algorithmique en fonction d’un objectif d’optimisation spécifié.
 
-      * Pour le **[!UICONTROL Optimization Goal]**, sélectionnez *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Si vous sélectionnez *[!UICONTROL Custom Objective]*, sélectionnez un [objectif personnalisé Advertising DSP existant](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
+      * Pour l’**[!UICONTROL Optimization Goal]**, sélectionnez *[!UICONTROL Click Through Rate]*, (expériences publicitaires vidéo standard) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Si vous sélectionnez *[!UICONTROL Custom Objective]*, sélectionnez un [objectif personnalisé Advertising DSP existant](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -55,7 +55,7 @@ Lorsque vous utilisez la planification, vous devez planifier les contenus public
 
    * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom de l’expérience, puis cliquez sur **[!UICONTROL Tag Manager]**.
 
-   * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**
+   * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**.
 
 1. Placez le curseur sur la ligne correspondant à la balise d’annonce publicitaire applicable et cliquez sur ![Planifier l’annonce](/help/creative/assets/edit-gray.png "Modifier les URL de suivi") **[!UICONTROL Ad Schedule]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— Tag Manager n’a qu’une vue Liste, mais pas de vue Carte, à partir du 2/2. >
 
@@ -73,7 +73,7 @@ Lorsque vous utilisez la planification, vous devez planifier les contenus public
 
       * *[!UICONTROL Algorithmic]:* fait pivoter les contenus publicitaires de manière algorithmique en fonction d’un objectif d’optimisation spécifié.
 
-         * Pour le **[!UICONTROL Optimization Goal]**, sélectionnez *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Si vous sélectionnez *[!UICONTROL Custom Objective]*, sélectionnez un [objectif personnalisé Advertising DSP existant](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
+         * Pour l’**[!UICONTROL Optimization Goal]**, sélectionnez *[!UICONTROL Click Through Rate]*, (expériences publicitaires vidéo standard) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Si vous sélectionnez *[!UICONTROL Custom Objective]*, sélectionnez un [objectif personnalisé Advertising DSP existant](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
 
 1. Pour chaque planning supplémentaire :
 

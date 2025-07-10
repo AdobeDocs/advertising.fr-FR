@@ -3,9 +3,9 @@ title: Disposition de l’arborescence de décision
 description: Découvrez l’arborescence de décision pour les expériences de ciblage.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 3c1316fa898e5773fbf1763733e388c9ed3bd389
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Au départ, chaque arborescence de décision commence par le niveau racine « To
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## Termes
 
@@ -38,7 +38,7 @@ Au départ, chaque arborescence de décision commence par le niveau racine « To
 
 ## Cibles dans une arborescence de décision
 
-Chaque arborescence de décision peut comporter jusqu’à cinq niveaux de cibles. Chaque niveau cible peut inclure plusieurs branches, chacune avec un ou plusieurs nœuds avec le même type de cible (segment d’audience, type d’emplacement géographique, valeurs pour des clés de passe de données spécifiées, attributs pour un pixel de reciblage spécifié ou catégorie d’appareils). Vous pouvez affecter des lots de contenu créatif dans chaque taille d’annonce pour laquelle vous avez spécifié un contenu créatif d’image par défaut aux nœuds cibles de niveau inférieur.
+Chaque arborescence de décision peut comporter jusqu’à cinq niveaux de cibles. Chaque niveau cible peut inclure plusieurs branches, chacune avec un ou plusieurs nœuds avec le même type de cible (segment d’audience, type d’emplacement géographique, valeurs pour des clés de passe de données spécifiées, attributs pour un pixel de reciblage spécifié ou catégorie d’appareils). Vous pouvez affecter des lots de contenu créatif dans chaque taille d’annonce publicitaire pour laquelle vous avez spécifié un contenu créatif d’image ou vidéo par défaut aux nœuds cibles de niveau inférieur.
 
 ![Exemple d’arborescence de décision avec cibles](/help/creative/assets/experience-decision-tree.png "Exemple d’arborescence de décision avec cibles")
 

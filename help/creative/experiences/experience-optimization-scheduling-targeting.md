@@ -3,9 +3,9 @@ title: Personnaliser l’optimisation et la planification de la création pour u
 description: Découvrez comment
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 4abb83d08a6633c36aa47b5acd67df3d4cc0923b
+source-git-commit: 7fee6e0f6e8ad6dbf0329d707af7303ac7229dc9
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Par défaut, la rotation des créations pour une expérience est déterminée pa
 
 >[!NOTE]
 >
->Ces fonctionnalités ne sont pas disponibles pour les nœuds qui utilisent les contenus publicitaires d’image par défaut au lieu des contenus publicitaires attribués.
+>Ces fonctionnalités ne sont pas disponibles pour les nœuds qui utilisent les contenus publicitaires par défaut au lieu des contenus publicitaires attribués.
 
 ## Configurer l’optimisation de la création sans planification
 
@@ -35,7 +35,7 @@ Lorsque la planification des créations est désactivée, les paramètres d’op
 
    * *[!UICONTROL Algorithmic]:* Fait pivoter les contenus publicitaires de chaque lot de manière algorithmique en fonction d’un objectif d’optimisation spécifié.
 
-      * Pour le **[!UICONTROL Optimization Goal]**, sélectionnez *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Si vous sélectionnez *[!UICONTROL Custom Objective]*, sélectionnez un objectif personnalisé Advertising DSP [existant](/help/dsp/optimization/custom-goal.md).
+      * Pour l’**[!UICONTROL Optimization Goal]**, sélectionnez *[!UICONTROL Click Through Rate]*, (expériences publicitaires vidéo standard) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Si vous sélectionnez *[!UICONTROL Custom Objective]*, sélectionnez un objectif personnalisé Advertising DSP [existant](/help/dsp/optimization/custom-goal.md).
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -61,7 +61,7 @@ Lorsque vous utilisez la planification, vous devez planifier les lots pendant to
 
       * *[!UICONTROL Algorithmic]:* Fait pivoter les contenus publicitaires de chaque lot de manière algorithmique en fonction d’un objectif d’optimisation spécifié.
 
-         * Pour le **[!UICONTROL Optimization Goal]**, sélectionnez *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Si vous sélectionnez *[!UICONTROL Custom Objective]*, sélectionnez un objectif personnalisé Advertising DSP [existant](/help/dsp/optimization/custom-goal.md).
+         * Pour l’**[!UICONTROL Optimization Goal]**, sélectionnez *[!UICONTROL Click Through Rate]*, (expériences publicitaires vidéo standard) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Si vous sélectionnez *[!UICONTROL Custom Objective]*, sélectionnez un objectif personnalisé Advertising DSP [existant](/help/dsp/optimization/custom-goal.md).
 
 1. Pour chaque planning supplémentaire :
 

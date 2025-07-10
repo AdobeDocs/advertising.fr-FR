@@ -3,9 +3,9 @@ title: À propos de vos bibliothèques de création
 description: Découvrez comment gérer les contenus publicitaires pour vos expériences publicitaires.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 9782471837db19d14839027ea7a576484863bb69
+source-git-commit: ad51a42c1aa7e713b1a4a90261c635b574068d29
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Vos bibliothèques peuvent inclure les éléments suivants :
 
    * **Contenu créatif dynamique :** (clients Adobe Advertising DCO existants uniquement) Les utilisateurs administrateurs peuvent créer des contenus créatifs générés dynamiquement en mappant les variables dynamiques d’un modèle d’annonce publicitaire aux valeurs d’un fichier de flux. Tous les utilisateurs peuvent prévisualiser, dupliquer et supprimer des annonces dynamiques existantes.
 
-* **Lots de contenu publicitaire :** regroupez les contenus publicitaires en lots à utiliser dans plusieurs expériences avec des cibles utilisateur définies. Vous pouvez créer des *bundles standard* composés d’annonces standard et des *bundles dynamiques* composés d’annonces générées dynamiquement.
+* **Lots de contenu publicitaire :** regroupez les contenus publicitaires en lots à utiliser dans plusieurs expériences avec des cibles utilisateur définies. Vous pouvez créer des *bundles d’affichage standard* qui consistent en des publicités d’affichage standard, des *bundles vidéo standard* qui consistent en des publicités vidéo standard et des *bundles d’affichage dynamique* qui consistent en des publicités d’affichage générées dynamiquement.
 
 ## Formats Creative pris en charge {#creative-creative-formats}
 
@@ -34,9 +34,9 @@ Vous pouvez ajouter et gérer les types de contenu créatif suivants dans les [t
 
 >[!IMPORTANT]
 >
->Même si vous avez l’intention d’utiliser des contenus publicitaires HTML5, Flexible HTML5 ou tiers pour vos expériences publicitaires, vous devez également ajouter des contenus publicitaires d’image pour chaque taille de contenu publicitaire que vous utilisez.
->
->Chaque expérience nécessite une image créative par défaut pour chaque taille de création attribuée à l’expérience. Les contenus publicitaires d’image par défaut sont utilisés lorsqu’un navigateur n’est pas activé pour JavaScript ou lorsque le serveur de publicités ne peut pas personnaliser la publicité en raison de retards.
+>* Même si vous envisagez d’utiliser des contenus publicitaires HTML5, Flexible HTML5 ou tiers pour vos expériences d’affichage publicitaire standard, vous devez également ajouter des contenus publicitaires pour chaque taille de contenu créatif utilisée.
+>* Chaque expérience d’affichage standard nécessite une image créative par défaut pour chaque taille de contenu créatif attribuée à l’expérience. Les contenus publicitaires d’image par défaut sont utilisés lorsqu’un navigateur n’est pas activé pour JavaScript ou lorsque le serveur de publicités ne peut pas personnaliser la publicité en raison de retards.
+>* Chaque expérience vidéo standard nécessite une création vidéo par défaut pour chaque taille de création attribuée à l’expérience.<!-- when is it used? -->
 
 #### HTML5 flexible
 
@@ -52,7 +52,7 @@ Vous pouvez charger des contenus publicitaires HTML5 simples ou statiques, avec 
 
 Vous pouvez inclure des éléments créatifs d’image au format GIF, JPEG, JPG ou PNG. Vous pouvez charger des images approuvées à partir de vos comptes Adobe Experience Manager ou des images à partir de votre appareil ou réseau.
 
-Chaque expérience publicitaire nécessite une image créative par défaut pour chaque taille de contenu créatif attribuée à l’expérience.
+Chaque expérience d’affichage et de publicité standard nécessite une image créative par défaut pour chaque taille de création attribuée à l’expérience.
 
 #### Contenus publicitaires tiers
 
@@ -61,6 +61,38 @@ Saisissez les balises de suivi JavaScript pour les contenus publicitaires héber
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
 ```
+
+#### Conceptions vidéo {#creative-video-specs}
+
+Vous pouvez charger des contenus vidéo à partir de votre appareil ou réseau. Chaque expérience publicitaire vidéo standard nécessite une création vidéo par défaut pour chaque taille de création attribuée à l’expérience. Toutes les vidéos créatives sont transcodées automatiquement par DSP sous la forme de balises VAST 2.0 afin que vous puissiez les prévisualiser. Dans [!UICONTROL Tag Manager], vous pouvez éventuellement [appliquer un transcodage spécifique à l’éditeur](/help/creative/experiences/experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience d’annonce vidéo.
+
+Consultez les exigences de création vidéo suivantes.
+
+**Type de fichier :** .mov, .mp4, .webm
+
+**Taille du fichier :** max. 512 Mo
+
+**Format vidéo :** 16:9, 4:3
+
+**Résolution vidéo :** 640x360 pour 360p, 1 280x720 pour 720p, 1 920x1 080 pour 1 080p
+
+**Durée de la vidéo :** maximum de 90 secondes
+
+**Débit :** 600 à 1 200 kbit/s pour 360p, 1 500 à 2 500 kbit/s pour 720p, 3 000 à 5 000+ kbit/s pour 1 080p
+
+**Fréquence d’image vidéo :** 23,98 i/s. Des tarifs d&#39;images supplémentaires peuvent être acceptés en fonction des exigences régionales ou de l&#39;éditeur
+
+**Codec vidéo :** H.264 (norme industrielle), AV1, H.265
+
+**Format audio :** ACC (standard de l’industrie/MP4), Opus (WebM/AV1)
+
+**Débit audio :** 16 à 512 kbit/s
+
+**Fréquence d’échantillonnage audio :** 44100-48000 Hz
+
+**Fréquence audio :** 44,1 kHz ou 48 kHz
+
+**Audio Autre :** le fichier chargé doit être non entrelacé, mélangé et contenir une piste audio. Il se peut qu’il n’y ait pas de son, mais une piste audio doit être incluse dans le fichier vidéo.
 
 ### Format pour les publicités dynamiques
 
@@ -102,7 +134,9 @@ L’onglet [!UICONTROL Standard Ads] affiche tous les contenus publicitaires sta
 
 * [Aperçu d’un contenu créatif standard](creative-preview.md)
 
-* [Ajoutez des contenus publicitaires standard aux lots standard et supprimez des contenus publicitaires standard d’un lot standard](creative-attach-detach-bundles.md)
+* [Ajoutez des contenus publicitaires standard aux lots d’affichage standard et supprimez les contenus publicitaires standard des lots d’affichage standard](creative-attach-detach-bundles.md)
+
+* [Ajoutez des contenus publicitaires vidéo aux lots vidéo standard et supprimez-en certains d’entre eux](creative-attach-detach-bundles.md)
 
 * [Dupliquer les contenus publicitaires standard](creative-duplicate.md)
 
@@ -126,7 +160,7 @@ Actuellement, la possibilité de créer et de modifier des contenus publicitaire
 
 * [Aperçu de contenus publicitaires dynamiques](creative-preview.md)
 
-* [Ajoutez des contenus publicitaires dynamiques à des lots dynamiques et supprimez des contenus publicitaires dynamiques d’un lot dynamique](creative-attach-detach-bundles.md)
+* [Ajout de contenus publicitaires dynamiques à des lots d’affichage dynamique et suppression de contenus publicitaires dynamiques d’un lot d’affichage dynamique](creative-attach-detach-bundles.md)
 
 * [Duplication de contenus publicitaires dynamiques](creative-duplicate.md)
 
@@ -140,13 +174,15 @@ La vue [!UICONTROL Bundles] affiche tous vos conteneurs de lots standard et dyna
 
 #### Actions disponibles
 
-* Ajout de lots standard et dynamiques à une bibliothèque
+* Ajoutez des lots d’affichage standard, vidéo standard et dynamique à une bibliothèque
 
 * Répertorier et prévisualiser les contenus publicitaires d’une offre groupée
 
 * Modifier le nom d’un lot
 
-* Ajoutez des contenus publicitaires standard aux lots standard et supprimez des contenus publicitaires standard d’un lot standard
+* Ajouter des contenus publicitaires d’affichage standard aux lots d’affichage standard et supprimer les contenus publicitaires d’affichage standard d’un lot d’affichage standard
+
+* Ajoutez des contenus vidéo standard aux lots vidéo standard et supprimez des contenus vidéo standard d’un lot vidéo standard
 
 * Dupliquer les lots
 

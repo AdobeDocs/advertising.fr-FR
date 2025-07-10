@@ -3,9 +3,9 @@ title: Exporter et implémenter une balise d’expérience publicitaire pour une
 description: Découvrez comment exporter une balise d’expérience publicitaire et éventuellement la charger dans une campagne Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: f2bf245c13244cbcb76cead8b37f149b9b9bc24f
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,13 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger les 
 
    * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom de l’expérience, puis cliquez sur **[!UICONTROL Tag Manager]**.
 
-   * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**
+   * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**.
 
-1. Placez le curseur sur la ligne de la balise publicitaire applicable et cliquez sur ![Exporter les balises publicitaires](/help/creative/assets/export.png "Exporter les balises publicitaires") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Placez le curseur sur la ligne de la balise publicitaire applicable et cliquez sur ![Exporter les balises publicitaires](/help/creative/assets/export.png "Exporter les balises publicitaires") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
+
+>[!NOTE]
+>
+>Pour les expériences publicitaires vidéo standard, attendez que la colonne [!UICONTROL Tag Status] affiche « [!UICONTROL Ready] », qui indique que toutes les vidéos de l’expérience ont été transcodées. Tous les contenus publicitaires vidéo sont automatiquement transcodés par DSP, mais vous pouvez éventuellement [appliquer un transcodage spécifique à l’éditeur](experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience publicitaire vidéo.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -45,7 +49,7 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger les 
 
 1. Cliquez sur **[!UICONTROL Next]** dans le coin supérieur droit ou sur **[!UICONTROL Generate ad tags]** dans le menu de gauche.
 
-1. Sélectionnez le type de balise : ** *JavaScript<!-- sic -->* **&#x200B; ou &#x200B;** *IFRAME* ** <!-- sic -->.
+1. Sélectionnez le type de balise : ** *JavaScript<!-- sic -->* ** ou ** *IFRAME* ** <!-- sic -->.
 
 1. Dans la liste [!UICONTROL Destinations], sélectionnez l’emplacement où vous allez créer des annonces pour l’expérience.
 
@@ -81,7 +85,6 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger les 
 
       1. Dans la vue [!UICONTROL Create ads], passez en revue les balises d’annonce publicitaire, sélectionnez chaque balise pour laquelle vous souhaitez créer une annonce, puis cliquez sur **[!UICONTROL Create]**.
 
-
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 
 <!-- Add this info, with descriptions:
@@ -99,3 +102,4 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger les 
 >* [Créez manuellement une balise d’annonce publicitaire pour une taille de contenu créatif applicable](experience-tag-create-manually.md)
 >* [Affecter des contenus publicitaires à une balise publicitaire pour des expériences sans ciblage](experience-tag-assign-creatives.md)
 >* [Renommer une balise publicitaire](experience-tag-rename.md)
+>* [Personnalisation des options de transcodage pour une balise d’expérience d’annonce vidéo](experience-tag-video-transcoding.md)

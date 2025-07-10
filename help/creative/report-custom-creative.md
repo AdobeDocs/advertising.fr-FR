@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Découvrez comment générer le [!UICONTROL Custom Creative Report] d’expériences croisées.
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: a6e8bd3d9c2f8a373a90460b9ee8780d1c0702c6
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Vous pouvez générer des rapports une fois ou les planifier de manière quotidi
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
-* &#x200B;<!-- (in beta) --> SSL FTP
+* <!-- (in beta) --> SSL FTP
 * SFTP
 
 ## Création d’un [!UICONTROL Custom Creative Report]
@@ -161,7 +161,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 * *[!UICONTROL FTP]:* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
+* *[!UICONTROL FTP SSL](actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
 
 * *[!UICONTROL Email]:* pour spécifier la ou les adresses e-mail auxquelles envoyer les rapports terminés ou les notifications si le rapport est annulé en raison d’erreurs.
 
@@ -186,7 +186,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 | Type de mesure | Sous-type | Nom de la colonne | Description |
 |-----------|-------|-----------|-----------|
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Size] | Dimensions de l’annonce publicitaire publiée. |
-| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Is Default] | Indique si la publicité diffusée était une publicité sous forme d’image par défaut pour l’expérience. |
+| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Is Default] | Indique si la publicité diffusée était une publicité sous forme d’image ou de vidéo par défaut pour l’expérience. |
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Rotation Type] | Indique si les publicités ont fait l’objet d’une rotation en fonction des poids relatifs (*pondérés*) ou algorithmique (*algorithmiques*). |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative ID] | Identifiant attribué [!UICONTROL Creative] créatif. |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative Name] | Nom du contenu créatif. |

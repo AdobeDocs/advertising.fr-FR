@@ -3,9 +3,9 @@ title: Ajout de contenus publicitaires standard à une bibliothèque de contenus
 description: Découvrez comment ajouter des contenus publicitaires standard (non dynamiques) à une bibliothèque de contenus publicitaires.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: bfb2dccf08ae79ca8f338a0423176f1d3309d4fc
+source-git-commit: bc3309523572656362cebebab9b735530003a81c
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Vous pouvez charger plusieurs unités de création flexibles. Les contenus publi
 
    * Glissez-déposez des fichiers sur votre appareil ou réseau dans la zone.
 
-   * Cliquez sur **[!UICONTROL select a file]** pour localiser les fichiers sur votre appareil ou réseau.
+   * Cliquez sur **[!UICONTROL Select a file]** pour localiser les fichiers sur votre appareil ou réseau.
 
    Voir [spécifications d’annonces publicitaires flexibles](#flexible-ad-spec).
 
@@ -64,7 +64,7 @@ Vous pouvez charger plusieurs unités de création flexibles. Les contenus publi
 
 ### Ajouter des contenus publicitaires flexibles à l’aide d’un modèle {#flexible-creative-use-template}
 
-Vous pouvez utiliser l’un des modèles créatifs flexibles chargés sur votre compte pour créer des annonces d’une taille prédéfinie. Une fois que vous avez sélectionné un modèle à utiliser, vous modifiez les balises et les attributs de clic.&lt;!— Remplacez la dernière phrase par celle-ci si nous ajoutons à nouveau la fonction de téléchargement de modèle : vous pouvez a\) sélectionner un modèle à utiliser, puis modifier les balises et attributs de clic ; ou b\) [télécharger un modèle sous forme de fichier ZIP](#download-flexible-creative-template), modifier le contenu hors ligne pour créer votre propre contenu créatif, puis [charger le fichier modifié en tant que nouveau contenu créatif] (flexible-creative-upload).>
+Vous pouvez utiliser l’un des modèles créatifs flexibles chargés sur votre compte pour créer des annonces d’une taille prédéfinie. Une fois que vous avez sélectionné un modèle à utiliser, vous modifiez les balises et les attributs de clic.&lt;!— Remplacez la dernière phrase par celle-ci si nous ajoutons à nouveau la fonction de téléchargement de modèle : vous pouvez a\) sélectionner un modèle à utiliser, puis modifier les balises et attributs de clic ; ou b\) [télécharger un modèle sous forme de fichier ZIP](#download-flexible-creative-template), modifier le contenu hors ligne pour créer votre propre contenu créatif, puis [charger le fichier modifié en tant que nouveau contenu créatif](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -139,7 +139,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Glissez-déposez des fichiers sur votre appareil ou réseau dans la zone.
 
-   * Cliquez sur **[!UICONTROL select a file]** pour localiser le fichier sur votre appareil ou réseau.
+   * Cliquez sur **[!UICONTROL Select a file]** pour localiser le fichier sur votre appareil ou réseau.
 
    Voir la spécification publicitaire [HTML5](/help/creative/creative-libraries/html5-creative-specification.md).
 
@@ -167,7 +167,7 @@ Les contenus publicitaires d’image peuvent être au format GIF, JPEG, JPG ou P
 
       * Glissez-déposez des fichiers sur votre appareil ou réseau dans la zone.
 
-      * Cliquez sur **[!UICONTROL select a file]** pour localiser les fichiers sur votre appareil ou réseau.
+      * Cliquez sur **[!UICONTROL Select a file]** pour localiser les fichiers sur votre appareil ou réseau.
 
    * Pour les images approuvées dans une bibliothèque Adobe Experience Manager [connectée à votre compte DSP](/help/creative/creative-libraries/aem-assets-configure.md), procédez comme suit :
 
@@ -206,6 +206,30 @@ Les contenus publicitaires d’image peuvent être au format GIF, JPEG, JPG ou P
 1. Spécifiez la balise JavaScript et d’autres paramètres pour les créatifs dans les [paramètres de création tiers](#creative-settings-third-party).
 
    Vous pouvez copier et coller l’une des [macros disponibles](/help/creative/creative-macros.md) dans la balise JavaScript.
+
+1. Clic **[!UICONTROL Create]**
+
+## Ajout d’un contenu vidéo créatif à une bibliothèque de contenu créatif
+
+Consultez les [spécifications de création vidéo](/help/creative/creative-libraries/creative-libraries-about.md#creative-video-specs) et les [tailles de création prises en charge](/help/creative/creative-libraries/creative-sizes.md).
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur le nom de la bibliothèque.
+
+1. Dans l’onglet **[!UICONTROL Creatives]** , cliquez sur le sous-onglet **[!UICONTROL Standard Ads]** .
+
+1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Video]**.
+
+1. Spécifiez les fichiers vidéo de l’une des manières suivantes :
+
+   * Glissez-déposez des fichiers sur votre appareil ou réseau dans la zone.
+
+   * Cliquez sur **[!UICONTROL Select a file]** pour localiser les fichiers sur votre appareil ou réseau.
+
+1. Spécifiez les [ paramètres de création vidéo ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
+
+   Par défaut, le contenu créatif que vous venez de charger est sélectionné et tous les paramètres que vous spécifiez s’appliquent au contenu créatif sélectionné.<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
 
 1. Clic **[!UICONTROL Create]**
 

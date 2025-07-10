@@ -3,9 +3,9 @@ title: Paramètres des expériences non ciblées
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires sans ciblage d’arborescence de décision.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 
 ## section [!UICONTROL Experience basics]
 
+**[!UICONTROL Ad Type]:** (Lecture seule pour les expériences existantes) Type d’annonces incluses dans l’expérience : *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* ou *[!UICONTROL Video]*. Une fois l’expérience enregistrée, vous ne pouvez plus modifier le type d’annonce.
+
 **[!UICONTROL Advertiser]:** (Lecture seule pour les expériences existantes) L’annonceur qui enchérira sur les contenus publicitaires inclus dans l’expérience. Une fois l’expérience enregistrée, vous ne pouvez plus modifier l’annonceur.
 
 **[!UICONTROL Experience Name]:** nom unique de l’expérience. **Conseil :** utilisez un nom que vous pouvez facilement retrouver lorsque vous utilisez l’expérience comme publicité dans Advertising DSP ou d’autres DSP.
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 ## section [!UICONTROL Default creatives]
 
-**\[Contenu publicitaire par défaut spécifié\] :** contenu publicitaire d’image par défaut à utiliser lorsqu’un navigateur ne peut pas afficher les contenus publicitaires affectés à l’expérience, par exemple lorsque le navigateur n’est pas activé pour JavaScript ou que le serveur de publicités ne peut pas personnaliser l’annonce en raison de retards. Incluez une image créative par taille d’annonce pour laquelle l’expérience s’applique. Vos choix déterminent les tailles de contenu créatif qui peuvent être utilisées pour l’expérience. <!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. -->
+**\[Contenu publicitaire par défaut spécifié\] :** contenu publicitaire par défaut à utiliser lorsqu’un navigateur ne peut pas afficher les contenus publicitaires affectés à l’expérience, par exemple lorsque le navigateur n’est pas activé pour JavaScript ou que le serveur de publicités ne peut pas personnaliser l’annonce en raison de retards. Pour les expériences d’affichage standard, incluez une image créative par taille d’annonce pour laquelle l’expérience s’applique. Pour les expériences vidéo standard, incluez une création vidéo par taille d’annonce pour laquelle l’expérience s’applique. Vos choix déterminent les tailles de contenu créatif qui peuvent être utilisées pour l’expérience.
 
 Pour les expériences sans ciblage d’arborescence de décision, vous pouvez remplacer les contenus publicitaires par défaut par des contenus publicitaires de même taille dans [!UICONTROL Tag Manager].
 
@@ -39,8 +41,6 @@ Pour les expériences sans ciblage d’arborescence de décision, vous pouvez re
 ## section [!UICONTROL Targeting]
 
 **[!UICONTROL Targeting]:** (lecture seule pour les expériences existantes) Non applicable lorsque vous n’activez pas le ciblage à l’aide d’une arborescence de décision ; gardez cette option désactivée. **Remarque :** une fois que vous avez enregistré une expérience sans ciblage, vous ne pouvez plus ajouter de ciblage.
-
-**[!UICONTROL Dynamic ads]:** (Lecture seule pour les expériences existantes) Indique que l’expérience comprend des annonces dynamiques. **Remarque :** une expérience peut inclure toutes les publicités standard ou toutes les publicités dynamiques.
 
 **[!UICONTROL Language Targeting]:** (Expériences avec des annonces standard uniquement ; facultatif ; lecture seule pour les expériences existantes) Vérifie les paramètres de langue du navigateur de l’utilisateur et affiche un élément créatif dans la langue spécifiée lorsqu’un élément créatif dans cette langue est disponible. Lorsqu’une création dans la langue spécifiée par le navigateur n’est pas disponible, le paramètre [!UICONTROL Preferred language] est utilisé à la place. Une fois l’expérience enregistrée, vous ne pouvez plus modifier ce paramètre.
 

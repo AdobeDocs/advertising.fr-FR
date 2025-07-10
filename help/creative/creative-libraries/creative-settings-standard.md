@@ -3,9 +3,9 @@ title: Paramètres de Creative
 description: En savoir plus sur xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: b3ae58583020a907a41e72967b8c2a331c2d3257
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -183,10 +183,32 @@ Lorsque vous incluez ce contenu créatif dans une expérience que vous implémen
 **Nom du Creative :** nom du contenu publicitaire. **Conseil :** utilisez un nom que vous pouvez facilement trouver lorsque vous incluez le contenu créatif dans une expérience.
 
 **Taille du Creative :** (lecture seule pour les publicités existantes) Dimensions du contenu publicitaire. Pour les nouveaux contenus publicitaires, sélectionnez dans une liste de tailles d’annonce standard.
-u
+
 **Langue :** langue par défaut de chaque publicité à laquelle vous associez les contenus publicitaires.
 
 **URL de la page de destination :** URL de la page de destination utilisée pour valider chaque publicité à laquelle vous associez les contenus publicitaires. Le serveur de publicités tiers détermine la page de destination réelle de chaque publicité.
+
+**Libellé :** (facultatif) tous les libellés à appliquer à tous les contenus publicitaires sélectionnés. Vous pouvez filtrer les contenus publicitaires par libellé dans différentes vues de [!DNL Creative].
+
+* Pour sélectionner des libellés existants, cliquez sur ![Bas](/help/creative/assets/chevron-down.png "Bas"), puis cochez la case en regard de chaque libellé à appliquer.
+
+* Pour rechercher des libellés existants, commencez à saisir une chaîne de texte dans le nom du libellé.
+
+* Pour créer une nouvelle étiquette à appliquer aux contenus publicitaires, ouvrez la liste, cliquez sur **+ Ajouter une étiquette**, saisissez un nouveau nom d’étiquette dans le champ [!UICONTROL Label], puis cliquez sur **Créer**.
+
+* Pour supprimer un libellé, décochez la case en regard du nom du libellé.
+
+## Paramètres de création vidéo {#creative-settings-video}
+
+**Nom de la ressource Creative :** nom du contenu publicitaire. Pour une nouvelle création, le nom du fichier est utilisé par défaut, mais vous pouvez le modifier. Pour plusieurs images, vous pouvez modifier les noms des créations individuelles. **Conseil :** utilisez un nom que vous pouvez facilement trouver lorsque vous incluez le contenu créatif dans une expérience.
+
+**Durée :** (lecture seule) durée de la vidéo, qui est remplie automatiquement.
+
+**Langue :** langue par défaut de chaque publicité à laquelle vous associez les contenus publicitaires. La même valeur s’applique à toutes les images sélectionnées. Lorsque vous incluez les contenus publicitaires dans une expérience, vous pouvez éventuellement personnaliser les préférences linguistiques de l’expérience.
+
+**URL de la page de destination :** URL de la page de destination par défaut pour chaque publicité à laquelle vous associez les contenus publicitaires. L’URL de la page de destination doit être une URL valide commençant par http:// ou https://. Il peut inclure des paramètres de suivi tiers ou des [[!DNL Creative] macros](/help/creative/creative-macros.md) pour votre propre usage. La même valeur s’applique à toutes les images sélectionnées.
+
+Lorsque vous incluez un contenu créatif dans une offre groupée, puis que vous affectez l’offre groupée à une expérience, vous pouvez éventuellement modifier l’URL de la page de destination, ainsi qu’ajouter des URL de suivi d’impression et de clics et des JavaScript, pour chaque contenu créatif de l’offre groupée. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
 **Libellé :** (facultatif) tous les libellés à appliquer à tous les contenus publicitaires sélectionnés. Vous pouvez filtrer les contenus publicitaires par libellé dans différentes vues de [!DNL Creative].
 
