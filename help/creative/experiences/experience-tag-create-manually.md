@@ -3,9 +3,9 @@ title: Création manuelle d’une balise d’annonce publicitaire pour une taill
 description: Découvrez comment créer une balise d’annonce publicitaire pour une taille de contenu créatif spécifique.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 *Expériences sans ciblage d’arborescence de décision uniquement*
 *Version bêta fermée*
 
-Vous pouvez créer une ou plusieurs balises d’annonce publicitaire pour chaque taille de contenu créatif utilisée pour une expérience. Vous pouvez ensuite [affecter des contenus publicitaires à la balise publicitaire](experience-tag-assign-creatives.md).
+Vous pouvez créer une ou plusieurs balises d’annonce publicitaire par langue pour chaque taille de contenu créatif ou durée de la vidéo utilisée pour une expérience. Vous pouvez ensuite [affecter des contenus publicitaires à la balise publicitaire](experience-tag-assign-creatives.md).
 
 >[!NOTE]
 >
->Pour les expériences avec le ciblage de l’arborescence de décision, [!DNL Creative] crée automatiquement une balise pour chaque taille de contenu créatif applicable.
+>Pour les expériences avec le ciblage de l’arborescence de décision, [!DNL Creative] crée automatiquement une balise par langue pour chaque taille de contenu créatif ou durée de vidéo applicable.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -31,11 +31,11 @@ Vous pouvez créer une ou plusieurs balises d’annonce publicitaire pour chaque
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Create Tag]**.
 
-1. Saisissez un **[!UICONTROL Tag name]** unique et sélectionnez le **[!UICONTROL Tag size]**.
+1. Saisissez un **[!UICONTROL Tag name]** unique et sélectionnez (publicités display standard) le **[!UICONTROL Tag size]** ou (publicités vidéo standard) le **[!UICONTROL Duration]**.
 
-   Les tailles des contenus publicitaires par défaut pour l’expérience déterminent les tailles de contenu créatif disponibles.
+   La taille ou la durée des contenus publicitaires par défaut de l’expérience déterminent la taille des contenus publicitaires disponibles ou la durée des vidéos.
 
-   Vous pouvez créer plusieurs balises pour la même taille de contenu créatif.<!-- What are the implications? -->
+   Vous pouvez créer plusieurs balises pour la même taille de contenu créatif ou la même durée.<!-- What are the implications? -->
 
 1. Cliquez sur **[!UICONTROL Create]**.
 

@@ -3,9 +3,9 @@ title: Gestion des offres groupées de création
 description: En savoir plus sur xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Les bundles sont des groupes de contenus publicitaires que vous pouvez ajouter �
 
 [!DNL Creative] fait pivoter les contenus publicitaires du lot comme indiqué pour chaque expérience à laquelle le lot est affecté. Vous pouvez éventuellement [!DNL Creative] permettre d’optimiser les éléments publicitaires de n’importe quelle expérience en fonction des performances à l’aide de la rotation algorithmique des publicités, optimisée par Adobe Sensei.
 
-Pour activer l’optimisation des éléments d’annonce publicitaire entre les lots dans une expérience d’annonce publicitaire, chaque lot ne peut inclure qu’une seule de chaque combinaison \[taille de contenu créatif + langue\]. Par exemple, si une offre groupée comprend un élément créatif de 250 x 250 avec une langue par défaut « Français », vous ne pouvez pas ajouter un second élément créatif de 250 x 250 avec une langue par défaut « Français ». Si vous disposez de plusieurs contenus publicitaires de la même taille dans la même langue, ajoutez-les séparément à l’expérience.
+Pour activer l’optimisation des éléments d’annonce publicitaire entre les lots dans une expérience d’annonce publicitaire, chaque lot ne peut inclure qu’une seule de chaque combinaison \[taille de création ou durée + langue\]. Par exemple, si une offre groupée comprend un élément créatif de 250 x 250 avec une langue par défaut « Français », vous ne pouvez pas ajouter un second élément créatif de 250 x 250 avec une langue par défaut « Français ». Si vous disposez de plusieurs contenus publicitaires de la même taille dans la même langue, ajoutez-les séparément à l’expérience.
 
 Les contenus publicitaires associés à des offres groupées sont toujours disponibles en tant que contenus publicitaires individuels. Vous pouvez ajouter un élément créatif unique à plusieurs lots. Si vous modifiez les paramètres d’une création associée à un lot, les modifications sont propagées au lot. Cependant, toutes les pages de destination personnalisées, les balises de suivi des impressions et les balises de suivi des clics configurées pour les créatifs dans une expérience sont toujours utilisées pour l’expérience.
 
@@ -104,7 +104,7 @@ Les modifications apportées à un nom de lot sont propagées à toutes les exp�
 
 ## Joindre des contenus publicitaires à une offre groupée
 
-Vous pouvez joindre des contenus publicitaires d’affichage standard existants à une offre groupée d’affichage standard, des contenus vidéo standard à des offres groupées de vidéo standard et des contenus publicitaires d’affichage dynamique à une offre groupée dynamique. L’association d’un contenu créatif à un lot rend le contenu créatif disponible dans toutes les expériences auxquelles le lot est affecté. Chaque lot ne peut inclure qu’une seule de chaque combinaison \[taille de contenu créatif + langue\].
+Vous pouvez joindre des contenus publicitaires d’affichage standard existants à une offre groupée d’affichage standard, des contenus vidéo standard à des offres groupées de vidéo standard et des contenus publicitaires d’affichage dynamique à une offre groupée dynamique. L’association d’un contenu créatif à un lot rend le contenu créatif disponible dans toutes les expériences auxquelles le lot est affecté. Chaque lot ne peut inclure qu’une seule de chaque combinaison \[taille de création ou durée + langue\].
 
 >[!NOTE]
 >
