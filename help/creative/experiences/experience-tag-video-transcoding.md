@@ -3,7 +3,7 @@ title: Personnalisation des options de transcodage d’une balise d’expérienc
 description: Découvrez comment personnaliser les options de transcodage d’une balise publicitaire vidéo.
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: 3d0d42d19c11276f13a4e003c382a2d2410ab037
+source-git-commit: b5d3a2d88eb49d975823dc7c4fe71cfa9ea3f231
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -20,9 +20,9 @@ Vous pouvez personnaliser les options de transcodage d’une expérience publici
 
 1. Effectuez l’une des opérations suivantes :
 
-* En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom de l’expérience, puis cliquez sur **[!UICONTROL Tag Manager]**.
+   * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom de l’expérience, puis cliquez sur **[!UICONTROL Tag Manager]**.
 
-* En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**.
+   * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**.
 
 1. Placez le curseur au-dessus de la ligne de la balise publicitaire applicable, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Video Settings]**.
 
