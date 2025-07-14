@@ -294,7 +294,7 @@ Consultez les causes possibles et les solutions pour les implémentations de pix
 +++
 
 +++Les données de chiffre d’affaires sont différentes des données d’Adobe Analytics
-Voir [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
+Voir [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=fr](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=fr).<!-- change link URL to relative link -->
 +++
 
 ## Rapports spécifiques
