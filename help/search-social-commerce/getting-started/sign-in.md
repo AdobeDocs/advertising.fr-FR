@@ -3,7 +3,7 @@ title: Se connecter
 description: Découvrez comment vous connecter.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 16bc95001d815f22ade46390d07e40fcc29e2fdb
+source-git-commit: 34da93ceb0004804a6c0106e31f6ce6c64ee1dec
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -20,9 +20,9 @@ Search, Social et Commerce passent au service Adobe Identity Management (IMS) po
 
 * Vous pouvez rester connecté pendant 24 heures.
 
-Vos informations d’identification Search, Social et Commerce actuelles resteront actives jusqu’au 15 juillet 2025 afin que vous puissiez vous préparer au changement.
+Vos informations d’identification Search, Social et Commerce actuelles resteront actives jusqu’au 21 juillet 2025 afin que vous puissiez vous préparer au changement.
 
-Pour plus d’informations sur l’interface d’Experience Cloud, notamment sur la gestion de votre profil utilisateur, voir « [Interface et administration d’Experience Cloud ](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud) ».
+Pour plus d’informations sur l’interface d’Experience Cloud, notamment sur la gestion de votre profil utilisateur, voir « [Interface et administration d’Experience Cloud ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud) ».
 
 ## Connectez-vous à partir de la page de connexion héritée Search, Social et Commerce
 
@@ -40,7 +40,7 @@ Cette option est disponible jusqu’au 15 juillet 2025.
 
 1. Saisissez votre ID de [!DNL Adobe], puis cliquez sur **[!UICONTROL Continue]**.
 
-1. À l’invite, sélectionnez **Compte personnel» ou &#x200B;** Compte d’entreprise ou d’école**.<!-- Will it necessarily be "Company or School Account?" -->
+1. À l’invite, sélectionnez **Compte personnel» ou **Compte d’entreprise ou d’école**.<!-- Will it necessarily be "Company or School Account?" -->
 
    La nouvelle interface utilisateur s’ouvre par défaut.
 
@@ -54,7 +54,7 @@ Cette option est disponible jusqu’au 15 juillet 2025.
 
 1. Saisissez votre ID de [!DNL Adobe], puis cliquez sur **[!UICONTROL Continue]**.
 
-1. À l’invite, sélectionnez **Compte personnel» ou &#x200B;** Compte d’entreprise ou d’école**.<!-- Will it necessarily be "Company or School Account?" -->
+1. À l’invite, sélectionnez **Compte personnel» ou **Compte d’entreprise ou d’école**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. Dans la section [!UICONTROL Quick Access] de votre page d&#39;accueil, cliquez sur **[!UICONTROL Advertising Search, Social, & Commerce]**.
 
