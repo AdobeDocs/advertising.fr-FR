@@ -3,14 +3,14 @@ title: Télécharger des données à partir d’une vue de gestion de campagne
 description: Découvrez comment télécharger des données à partir de la plupart des vues de gestion de campagnes.
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
+source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
-# Télécharger des données à partir d’une vue de gestion de campagne
+# (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne
 
 *Interface utilisateur héritée*
 
@@ -23,6 +23,10 @@ Vous pouvez télécharger des données à partir des vues [!UICONTROL Search, So
   Si vous générez des données pour plusieurs campagnes et que les données combinées se composent de plus de 500 000 lignes, les données sont ensuite fractionnées par campagne en deux fichiers ou plus, selon les besoins, nommés `<bulksheet name>_1.txt`, `<bulksheet name>_2.txt`, etc.
 
   Chaque fichier de feuille d&#39;envoi groupé du panneau [!UICONTROL Downloads] est également répertorié dans la vue [!UICONTROL Bulksheets]. Lorsque le fichier est créé, vous recevez une notification par e-mail avec un lien à partir duquel vous pouvez télécharger le fichier ; selon la quantité de données compilées, la notification peut prendre plusieurs minutes ou plus. En revanche, si la génération du fichier échoue, un fichier d’erreur est répertorié dans la vue Feuilles d’envoi groupé et vous recevez une notification par e-mail avec un lien vers le fichier d’erreur. La suppression d’un fichier de feuille d’envoi groupé du panneau [!UICONTROL Download] ou de l’onglet [!UICONTROL Bulksheets] le supprime des deux emplacements.
+
+>[!NOTE]
+>
+>Consultez également l’aide sur le téléchargement de données dans la nouvelle interface utilisateur à partir de la « vue [[!UICONTROL Portfolios] »](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md) de la « vue [[!UICONTROL Campaigns] »](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md) et de la « vue [[!UICONTROL Ad Groups] »](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md).
 
 1. (Facultatif) Sélectionnez les lignes individuelles à inclure dans le fichier.
 
@@ -42,4 +46,7 @@ Vous pouvez télécharger des données à partir des vues [!UICONTROL Search, So
 
 >[!MORELIKETHIS]
 >
->[Supprimer un rapport de données de performances ou un fichier de feuille d&#39;envoi groupé du menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [(interface utilisateur héritée) Supprimez un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+>* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

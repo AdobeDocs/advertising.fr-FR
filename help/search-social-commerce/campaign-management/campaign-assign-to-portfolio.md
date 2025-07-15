@@ -3,9 +3,9 @@ title: Affectation de campagnes à un portfolio
 description: Découvrez comment inclure des campagnes dans des portfolios à des fins d’optimisation.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: f1ad7c7535a7edece4eeecf7b2aac8b59f8eb6b9
+source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 L’affectation d’une campagne à un portfolio optimisé permet à Search, Social et Commerce d’optimiser les enchères, les budgets de campagne et les cibles de stratégie d’enchères pour les mots-clés et les annonces de la campagne. Vous pouvez affecter des campagnes à un portfolio à partir de la vue [!UICONTROL Campaigns], lorsque vous créez le portfolio ou en modifiant les paramètres d’un portfolio.
 
-L’optimisation ne s’applique pas à tous les types de campagne et réseaux publicitaires. Consultez la liste des [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) que vous pouvez inclure dans un portfolio. En outre, vérifiez la prise en charge de l’optimisation pour chaque stratégie d’enchères de campagne en consultant « Types de Portfolio éligibles par stratégie d’enchères de campagne » dans le chapitre du guide d’optimisation sur « Portfolios », disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
+L’optimisation ne s’applique pas à tous les types de campagne et réseaux publicitaires. Consultez la liste des [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) que vous pouvez inclure dans un portfolio. Vérifiez également la prise en charge de l’optimisation [ pour chaque stratégie d’enchères de campagne](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy).
 
 >[!NOTE]
 >
@@ -40,9 +40,11 @@ L’optimisation ne s’applique pas à tous les types de campagne et réseaux p
 
 1. Dans la barre d’outils, cliquez sur ![Plus d’actions](/help/search-social-commerce/assets/more-actions.png "Plus d’actions") **[!UICONTROL More Actions]** > ![Affecter](/help/search-social-commerce/assets/assign.png "Affecter") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
 
-1. Dans l’écran [!UICONTROL Create Portfolio], spécifiez les paramètres du portfolio<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->.
+1. Dans l’écran [!UICONTROL Create Portfolio], spécifiez les paramètres du portfolio.
 
    Les campagnes que vous avez sélectionnées précédemment sont déjà affectées à la campagne. Vous pouvez éventuellement modifier la liste des campagnes pour le portefeuille.
+
+   Pour plus d’informations sur les paramètres du portfolio, consultez le Guide d’optimisation , disponible dans Search, Social et Commerce.
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
