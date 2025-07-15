@@ -3,9 +3,9 @@ title: Supprimer des campagnes d’un portfolio
 description: Découvrez comment supprimer des campagnes d’un portfolio.
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: a71f2daded3b7c32b8c30a4631eba8c2dbda3a17
+source-git-commit: 868e4090c164df353d4e510fb972b0ea1f1daa82
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ Pour plus d’informations sur l’optimisation, consultez le Guide d’optimisa
 
 1. Dans la barre d&#39;outils située au-dessus du tableau de données, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier") **[!UICONTROL Edit]**.
 
-1. Dans les paramètres du portfolio<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)--> accédez à la section [!UICONTROL Assign Campaigns] et modifiez les affectations de la campagne.
+1. Dans les paramètres du portfolio, accédez à la section [!UICONTROL Assign Campaigns] et modifiez les affectations de campagne.
+
+   Pour plus d’informations sur les paramètres du portfolio, consultez le Guide d’optimisation , disponible dans Search, Social et Commerce.
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
