@@ -3,7 +3,8 @@ title: (Nouvelle interface utilisateur) Affichage de votre tableau de bord des p
 description: Découvrez les données disponibles dans votre tableau de bord des performances.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
+source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -13,8 +14,6 @@ ht-degree: 0%
 # (Nouvelle interface utilisateur) Affichage de votre tableau de bord des performances
 
 *Fonction Beta*
-
-<!-- See wiki pageId=3404513731 for more things that may be added -->
 
 Le [!UICONTROL Dashboard] personnalisable vous permet de surveiller les performances de tous vos portefeuilles <!-- May later include other entity-level data --> d’identifier les problèmes de performances potentiels à étudier et à résoudre. Vous pouvez afficher des données quotidiennes, hebdomadaires ou mensuelles pour n&#39;importe quelle période au cours des 90 derniers jours.
 
@@ -57,4 +56,3 @@ Votre [!UICONTROL Dashboard] comprend les rapports visuels suivants :
    * Modifiez la mesure signalée ([!UICONTROL Cost] \[sélectionnée par défaut\], [!UICONTROL Clicks] ou [!UICONTROL Objective Value]).
 
    * Pour ouvrir la vue [!UICONTROL Portfolios], cliquez sur **[!UICONTROL View More]** en bas à droite du graphique. <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
-
