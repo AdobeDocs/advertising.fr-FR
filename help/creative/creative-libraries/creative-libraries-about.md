@@ -3,7 +3,7 @@ title: À propos de vos bibliothèques de création
 description: Découvrez comment gérer les contenus publicitaires pour vos expériences publicitaires.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: 85f89ef480ee938c7dbac0f3a1d5b9a5db0bef8f
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Vous pouvez ajouter et gérer les types de contenu créatif suivants dans les [t
 >
 >* Même si vous envisagez d’utiliser des contenus publicitaires HTML5, Flexible HTML5 ou tiers pour vos expériences d’affichage publicitaire standard, vous devez également ajouter des contenus publicitaires pour chaque taille de contenu créatif utilisée.
 >* Chaque expérience d’affichage standard nécessite une image créative par défaut pour chaque taille de contenu créatif attribuée à l’expérience. Les contenus publicitaires d’image par défaut sont utilisés lorsqu’un navigateur n’est pas activé pour JavaScript ou lorsque le serveur de publicités ne peut pas personnaliser la publicité en raison de retards.
->* Chaque expérience vidéo standard nécessite une création vidéo par défaut pour chaque taille de création attribuée à l’expérience.<!-- when is it used? -->
+>* Chaque expérience vidéo standard nécessite une création vidéo par défaut pour chaque durée de création attribuée à l’expérience.<!-- when is it used? -->
 
 #### HTML5 flexible
 
@@ -64,7 +64,7 @@ Saisissez les balises de suivi JavaScript pour les contenus publicitaires héber
 
 #### Conceptions vidéo {#creative-video-specs}
 
-Vous pouvez télécharger des contenus vidéo propriétaires pour le web, les appareils mobiles ou les télévisions connectées depuis votre appareil ou réseau. Chaque expérience publicitaire vidéo standard nécessite une création vidéo par défaut pour chaque taille de création attribuée à l’expérience. Toutes les vidéos créatives sont transcodées automatiquement par DSP sous la forme de balises VAST 2.0 afin que vous puissiez les prévisualiser. Dans [!UICONTROL Tag Manager], vous pouvez éventuellement [appliquer un transcodage spécifique à l’éditeur](/help/creative/experiences/experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience d’annonce vidéo.
+Vous pouvez télécharger des contenus vidéo propriétaires pour le web, les appareils mobiles ou les télévisions connectées depuis votre appareil ou réseau. Chaque expérience publicitaire vidéo standard nécessite une création vidéo par défaut pour chaque durée de création attribuée à l’expérience. Toutes les vidéos créatives sont transcodées automatiquement par DSP sous la forme de balises VAST 2.0 afin que vous puissiez les prévisualiser. Dans [!UICONTROL Tag Manager], vous pouvez éventuellement [appliquer un transcodage spécifique à l’éditeur](/help/creative/experiences/experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience d’annonce vidéo.
 
 Consultez les exigences de création vidéo suivantes.
 
