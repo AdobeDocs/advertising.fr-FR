@@ -3,9 +3,9 @@ title: Création manuelle d’une balise d’annonce publicitaire pour une taill
 description: Découvrez comment créer une balise d’annonce publicitaire pour une taille de contenu créatif spécifique.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 *Expériences sans ciblage d’arborescence de décision uniquement*
 *Version bêta fermée*
 
-Vous pouvez créer une ou plusieurs balises d’annonce publicitaire par langue pour chaque taille de contenu créatif ou durée de la vidéo utilisée pour une expérience. Vous pouvez ensuite [affecter des contenus publicitaires à la balise publicitaire](experience-tag-assign-creatives.md).
+Vous pouvez créer une ou plusieurs balises d’annonce publicitaire par langue pour chaque taille de contenu créatif (contenus non vidéo) ou durée de la vidéo utilisée pour une expérience. Vous pouvez ensuite [affecter des contenus publicitaires à la balise publicitaire](experience-tag-assign-creatives.md).
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Vous pouvez créer une ou plusieurs balises d’annonce publicitaire par langue 
 
    Vous pouvez développer la ligne de balise pour afficher les éléments créatifs inclus.
 
-   Pour les expériences publicitaires vidéo, les contenus publicitaires vidéo sont automatiquement transcodés par DSP sous la forme de balises VAST 2.0 afin que vous puissiez les prévisualiser. Vous pouvez éventuellement [ appliquer un transcodage spécifique à l’éditeur ](experience-tag-video-transcoding.md).
+   Pour les expériences publicitaires vidéo, les contenus publicitaires vidéo sont transcodés automatiquement à l’aide du codage Adobe Advertising DSP sous la forme de balises VAST 2.0 afin que vous puissiez les prévisualiser. Vous pouvez éventuellement [appliquer un transcodage pour un autre DSP](experience-tag-video-transcoding.md).
 
 >[!MORELIKETHIS]
 >

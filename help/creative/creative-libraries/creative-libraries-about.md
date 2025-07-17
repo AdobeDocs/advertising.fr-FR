@@ -3,9 +3,9 @@ title: À propos de vos bibliothèques de création
 description: Découvrez comment gérer les contenus publicitaires pour vos expériences publicitaires.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 056502f8c634ee62b750d7c4c188dc248b836a5a
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1410'
 ht-degree: 0%
 
 ---
@@ -64,9 +64,9 @@ Saisissez les balises de suivi JavaScript pour les contenus publicitaires héber
 
 #### Conceptions vidéo {#creative-video-specs}
 
-Vous pouvez télécharger des contenus vidéo propriétaires pour le web, les appareils mobiles ou les télévisions connectées depuis votre appareil ou réseau. Chaque expérience publicitaire vidéo standard nécessite une création vidéo par défaut pour chaque durée de création attribuée à l’expérience. Toutes les vidéos créatives sont transcodées automatiquement par DSP sous la forme de balises VAST 2.0 afin que vous puissiez les prévisualiser. Dans [!UICONTROL Tag Manager], vous pouvez éventuellement [appliquer un transcodage spécifique à l’éditeur](/help/creative/experiences/experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience d’annonce vidéo.
+Vous pouvez télécharger des contenus vidéo propriétaires pour le web, les appareils mobiles ou les télévisions connectées depuis votre appareil ou réseau. Chaque expérience publicitaire vidéo standard nécessite une création vidéo par défaut pour chaque durée de création attribuée à l’expérience. Toutes les vidéos créatives sont transcodées automatiquement par DSP sous la forme de balises VAST 2.0 afin que vous puissiez les prévisualiser. Dans [!UICONTROL Tag Manager], vous pouvez éventuellement [appliquer un transcodage spécifique à DSP](/help/creative/experiences/experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience d’annonce vidéo.
 
-Consultez les exigences de création vidéo suivantes. **Remarque :** si vous chargez des expériences vidéo vers Advertising DSP, consultez également la section DSP [Conditions requises pour la vidéo haute définition Assets](https://experienceleague.adobe.com/fr/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), qui peut être plus limitée.
+Consultez les exigences de création vidéo suivantes. **Remarque :** si vous chargez des expériences vidéo vers Advertising DSP, consultez également la section DSP [Conditions requises pour la vidéo haute définition Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), qui peut être plus limitée.
 
 **Type de fichier :** .mov, .mp4, .webm
 

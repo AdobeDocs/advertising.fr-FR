@@ -3,9 +3,9 @@ title: Personnalisation des options de transcodage d’une balise d’expérienc
 description: Découvrez comment personnaliser les options de transcodage d’une balise publicitaire vidéo.
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: b5d3a2d88eb49d975823dc7c4fe71cfa9ea3f231
+source-git-commit: 8f5740d1a90e505a16f69d566de13aefc1edf421
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Vous pouvez personnaliser les options de transcodage d’une expérience publici
 
 1. Placez le curseur au-dessus de la ligne de la balise publicitaire applicable, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Video Settings]**.
 
-1. Dans la liste des **[!UICONTROL Publisher specific transcodes]**, sélectionnez le type de transcodage à réaliser.
+1. Dans la liste des **[!UICONTROL Publisher-specific transcodes]**, sélectionnez le DSP dont vous souhaitez effectuer le transcodage.
 
 1. Cliquez sur **[!UICONTROL Save Settings]**.
 

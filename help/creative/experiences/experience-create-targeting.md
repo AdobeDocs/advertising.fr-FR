@@ -3,9 +3,9 @@ title: Création d’une expérience avec le ciblage d’arborescence de décisi
 description: Découvrez comment créer une expérience d’annonce publicitaire ciblée à l’aide d’une arborescence de décision.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Créez une expérience d’annonce publicitaire ciblée à l’aide d’une arbo
 
 Lorsque l’expérience est en ligne, [!DNL Creative] crée automatiquement une balise d’annonce publicitaire pour chaque taille de contenu créatif ou durée de vidéo applicable. Vous pouvez ensuite [exporter une balise publicitaire et l’implémenter dans un DSP](/help/creative/experiences/experience-tag-export.md).
 
-Pour les expériences publicitaires vidéo, les contenus publicitaires vidéo sont automatiquement transcodés par DSP sous la forme de balises VAST 2.0 afin que vous puissiez les prévisualiser. Vous pouvez éventuellement [appliquer un transcodage spécifique à l’éditeur](experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience d’annonce vidéo.
+Pour les expériences publicitaires vidéo, les contenus publicitaires vidéo sont automatiquement transcodés par Adobe Advertising DSP sous la forme de balises VAST 2.0 afin que vous puissiez les prévisualiser. Vous pouvez éventuellement [appliquer un transcodage pour un autre DSP](experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience d’annonce vidéo.
 
 >[!MORELIKETHIS]
 >

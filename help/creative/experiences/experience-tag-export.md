@@ -3,9 +3,9 @@ title: Exporter et implémenter une balise d’expérience publicitaire pour une
 description: Découvrez comment exporter une balise d’expérience publicitaire et éventuellement la charger dans une campagne Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 2b98f148a46213ab9dac20e14ba5a2db4e447b3a
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 *Version bêta fermée*
 
-Une fois qu’une balise publicitaire pour une taille de contenu créatif spécifique est disponible pour une expérience [en direct](experience-about.md#experience-statuses), vous pouvez générer et copier la balise dans des formats JavaScript, iframe et vidéo pour une implémentation sur Advertising DSP ou d’autres DSP. Les balises pour DSP incluent toutes les macros requises pour DSP.
+Une fois qu’une balise publicitaire pour une taille de contenu créatif ou une durée vidéo spécifiques est disponible pour une expérience [en direct](experience-about.md#experience-statuses), vous pouvez générer et copier la balise dans des formats JavaScript, iframe et vidéo pour une implémentation sur Advertising DSP ou d’autres DSP. Les balises pour DSP incluent toutes les macros requises pour DSP.
 
 Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger les balises directement dans une campagne Advertising DSP sous la forme de publicités avec le type « affichage standard » ou « vidéo universelle ».
 
 >[!NOTE]
 >
->* Lorsque vous créez une expérience avec le ciblage d’arborescence de décision, [!DNL Creative] crée automatiquement une balise d’annonce publicitaire pour chaque taille de contenu créatif applicable.
->* Lorsque vous créez une expérience sans ciblage d’arborescence de décision, vous devez [créer manuellement une balise d’annonce publicitaire](experience-tag-create-manually.md) pour chaque taille de contenu créatif applicable.
+>* Lorsque vous créez une expérience avec le ciblage d’arborescence de décision, [!DNL Creative] crée automatiquement une balise d’annonce publicitaire pour chaque taille de contenu créatif applicable (contenus créatifs non vidéo) ou durée de la vidéo (contenus créatifs vidéo).
+>* Lorsque vous créez une expérience sans ciblage d’arborescence de décision, vous devez [créer manuellement une balise d’annonce publicitaire](experience-tag-create-manually.md) pour chaque taille de contenu créatif applicable (contenus non vidéo) ou durée de la vidéo (contenus vidéo).
 >* Les balises Experience sont dynamiques. Il n’est pas nécessaire de mettre à jour les balises si vous modifiez une expérience.
 >* Assurez-vous que les campagnes dans lesquelles vous implémenterez une expérience publicitaire incluent un ciblage compatible avec l’expérience. Le comportement de ciblage hiérarchique peut varier en fonction du DSP. Dans Advertising DSP, le ciblage au niveau des annonces s’applique en plus du ciblage au niveau de l’emplacement (et non à la place de celui-ci).
 
@@ -33,11 +33,11 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger les 
 
    * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**.
 
-1. Placez le curseur sur la ligne de la balise publicitaire applicable et cliquez sur ![Exporter les balises publicitaires](/help/creative/assets/export.png "Exporter les balises publicitaires") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Placez le curseur sur la ligne de la balise publicitaire applicable et cliquez sur ![Exporter les balises publicitaires](/help/creative/assets/export.png "Exporter les balises publicitaires") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
->Pour les expériences publicitaires vidéo standard, attendez que la colonne [!UICONTROL Tag Status] affiche « [!UICONTROL Ready] », qui indique que toutes les vidéos de l’expérience ont été transcodées. Tous les contenus publicitaires vidéo sont automatiquement transcodés par DSP, mais vous pouvez éventuellement [appliquer un transcodage spécifique à l’éditeur](experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience publicitaire vidéo.
+>Pour les expériences publicitaires vidéo standard, attendez que la colonne [!UICONTROL Tag Status] affiche « [!UICONTROL Ready] », qui indique que toutes les vidéos de l’expérience ont été transcodées. Toutes les vidéos publicitaires sont automatiquement transcodées par DSP. Vous pouvez toutefois appliquer le transcodage [pour un autre DSP](experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience publicitaire vidéo.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -51,9 +51,9 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger les 
 
 1. Sélectionnez le type de balise :
 
-   * (Expériences non vidéo) ** *JavaScript<!-- sic -->* **&#x200B; ou &#x200B;** *IFRAME* ** <!-- sic -->.
+   * (Expériences non vidéo) ** *JavaScript<!-- sic -->* ** ou ** *IFRAME* ** <!-- sic -->.
 
-   * (Expériences vidéo) **&#x200B; *Vidéo* &#x200B;**.
+   * (Expériences vidéo) ** *Vidéo* **.
 
 1. Dans la liste [!UICONTROL Destinations], sélectionnez l’emplacement où vous allez créer des annonces pour l’expérience.
 
@@ -67,7 +67,7 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger les 
 
 1. Copiez ou téléchargez les balises :
 
-   * Pour copier une balise pour une seule taille d’annonce, développez la ligne de balise, placez le curseur sur la ligne, puis cliquez sur ![Copier](/help/creative/assets/copy.png "Copier") **[!UICONTROL Copy]**.<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? -->
+   * Pour copier une balise pour une seule taille d’annonce (annonces non vidéo) ou pour une seule durée (annonces vidéo), développez la ligne de balise, placez le curseur sur la ligne, puis cliquez sur ![Copier](/help/creative/assets/copy.png "Copier") **[!UICONTROL Copy]**.<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? -->
 
    * Pour télécharger toutes les balises générées sous forme de fichier vers l’emplacement de téléchargement par défaut de votre navigateur, cliquez sur ![Télécharger les balises](/help/creative/assets/download.png "Télécharger les balises").
 
