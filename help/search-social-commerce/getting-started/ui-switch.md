@@ -3,9 +3,9 @@ title: Basculer entre les nouvelles interfaces utilisateur et les anciennes
 description: Découvrez comment basculer entre les nouvelles interfaces utilisateur et les anciennes.
 feature: Search Introduction
 exl-id: 4dbdbaa1-6b06-42a2-86da-feb0183f3c9a
-source-git-commit: 9a466a57f4c3ab61be6f5d98edf951ac7c766e81
+source-git-commit: 70c4b5633aaec148c68d7da0ac8fe926706eb660
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Vous pouvez basculer entre la nouvelle interface utilisateur (IU), qui inclut le
 
  -->
 
-<!--
 >[!MORELIKETHIS]
 >
->* [How the user interface is organized](user-interface.md)
--->
+>* [Organisation de l’interface utilisateur](user-interface.md)
