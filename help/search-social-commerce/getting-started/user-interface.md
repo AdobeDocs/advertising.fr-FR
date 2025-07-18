@@ -3,7 +3,7 @@ title: Organisation de l’interface utilisateur
 description: Découvrez où accéder aux différentes fonctionnalités.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 83dfe26af50e6540ceda70854cf63359bc8b0b2c
+source-git-commit: 2d218c960cd74fdfa9c981540951d7305b7740c7
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 0%
@@ -28,21 +28,21 @@ La nouvelle interface utilisateur affiche un nouveau menu principal à gauche, q
 
 Votre rôle détermine les options disponibles :<!-- add link when available -->
 
-* **[!UICONTROL Dashboard]** Ouvre une vue configurable [!UICONTROL Dashboard] avec des visualisations des performances pour tous vos portefeuilles.
+* **[!UICONTROL Dashboard]** Ouvre une vue [!UICONTROL Dashboard] configurable avec des visualisations des performances pour tous vos portefeuilles.
 
-* **[!UICONTROL Plan]** Sous-menu :
+* **[!UICONTROL Plan]** le sous-menu :
 
-   * **[!UICONTROL Objectives]** Ouvre une nouvelle [!UICONTROL Objectives] vue, à partir de laquelle vous pouvez afficher tous vos objectifs existants et créer, modifier et supprimer des objectifs. Les paramètres d’objectif sont identiques à ceux de l’interface utilisateur héritée à [!UICONTROL Search, Social, & Commerce] > > [!UICONTROL Optimization][!UICONTROL New Objectives Beta] .
+   * **[!UICONTROL Objectives]** Ouvre une nouvelle vue [!UICONTROL Objectives] à partir de laquelle vous pouvez afficher tous vos objectifs existants et créer, modifier et supprimer des objectifs. Les paramètres des objectifs sont identiques à ceux de l’interface utilisateur héritée : [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL New Objectives Beta].
 
-   * **[!UICONTROL Simulations]** Ouvre une nouvelle [[!UICONTROL Simulations] vue](/help/search-social-commerce/new-ui/optimization/plan/simulations/simulation-about.md), à partir de laquelle vous pouvez afficher toutes vos simulations personnalisées créées par l’utilisateur et les simulations hebdomadaires générées automatiquement, générer de nouvelles simulations personnalisées et réexécuter les simulations existantes. Le bouton [!UICONTROL Spend Planner] ouvre l’outil de [!UICONTROL Spend Recommendation] hérité dans [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+   * **[!UICONTROL Simulations]** Ouvre une nouvelle vue de [[!UICONTROL Simulations]](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) à partir de laquelle vous pouvez afficher toutes vos simulations personnalisées créées par l’utilisateur ou l’utilisatrice, ainsi que les simulations hebdomadaires générées automatiquement, générer de nouvelles simulations personnalisées et réexécuter les simulations existantes. Le bouton [!UICONTROL Spend Planner] ouvre l’outil de [!UICONTROL Spend Recommendation] hérité dans [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
 * **[!UICONTROL Manage]** le sous-menu :
 
-   * **[!UICONTROL Portfolio Groups]:** quitte le nouveau site de l’interface utilisateur et ouvre l’onglet de > [!UICONTROL Search, Social, & Commerce] hérité [!UICONTROL Optimization] > [!UICONTROL Portfolios] afficher > [!UICONTROL Portfolio Groups] onglet.
+   * **[!UICONTROL Portfolio Groups]:** quitte le nouveau site de l’interface utilisateur et ouvre l’onglet hérité [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios] > [!UICONTROL Portfolio Groups] .
 
-   * **[!UICONTROL Portfolios]:** ouvre une nouvelle [!UICONTROL Portfolios] vue qui répertorie tous les portfolios de l’annonceur. Vous pouvez gérer vos portefeuilles à partir de cette vue. Vous pouvez ouvrir une liste de contraintes attribuées et afficher les détails de performance et de composition de n’importe quel portefeuille.
+   * **[!UICONTROL Portfolios]:** ouvre une nouvelle vue de [!UICONTROL Portfolios] qui répertorie tous les portefeuilles pour l’annonceur. Vous pouvez gérer vos portefeuilles à partir de cette vue. Vous pouvez ouvrir une liste de contraintes affectées et afficher les détails de performance et de composition pour n’importe quel portfolio.
 
-     Les paramètres du portefeuille comprennent des onglets permettant d’attribuer l’objectif et les campagnes, de gérer les dépenses, de gérer les contraintes et de contrôler l’optimisation. Seuls les utilisateurs dotés du rôle « Optimisation par les experts » ou d’un rôle supérieur peuvent modifier les paramètres dans l’onglet [!UICONTROL Control Optimization] .
+     Les paramètres du portfolio comprennent des onglets pour affecter l’objectif et les campagnes, gérer les dépenses, gérer les contraintes et contrôler l’optimisation. Seuls les utilisateurs dotés du rôle « Optimisation par les experts » ou d’un rôle supérieur peuvent modifier les paramètres dans l’onglet [!UICONTROL Control Optimization] .
 
    * **[!UICONTROL Campaigns]:** ouvre une nouvelle vue [!UICONTROL Campaigns], qui affiche toutes les campagnes pour l’annonceur. Vous pouvez affecter des campagnes aux portfolios et gérer les affectations de contraintes pour les campagnes sélectionnées. Vous pouvez également télécharger un rapport du contenu du tableau de données. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
@@ -60,25 +60,25 @@ Votre rôle détermine les options disponibles :<!-- add link when available -->
 
    * **[!UICONTROL Recommendations]** : quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] .
 
-   * **[!UICONTROL Spreadsheet Feeds]**: quitte le nouveau site et ouvre la vue > [!UICONTROL Insights & Reports] héritée [!UICONTROL Spreadsheets] .
+   * **[!UICONTROL Spreadsheet Feeds]** : quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Insights & Reports] > [!UICONTROL Spreadsheets] .
 
-   * **[!UICONTROL History Logs]**: quitte le nouveau site et ouvre la vue > [!UICONTROL Insights & Reports] héritée [!UICONTROL Change History] .
+   * **[!UICONTROL History Logs]** : quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Insights & Reports] > [!UICONTROL Change History] .
 
-* **[!UICONTROL Set Up]** Sous-menu :
+* **[!UICONTROL Set Up]** le sous-menu :
 
-   * **[!UICONTROL Accounts]**: quitte le nouveau site et ouvre la vue > [!UICONTROL Campaigns] héritée [!UICONTROL Campaigns] .
+   * **[!UICONTROL Accounts]** : quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Campaigns] > [!UICONTROL Campaigns] .
 
-   * **[!UICONTROL Audiences]**: quitte le nouveau site et ouvre la vue > [!UICONTROL Campaigns] héritée [!UICONTROL Audiences] .
+   * **[!UICONTROL Audiences]** : quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Campaigns] > [!UICONTROL Audiences] .
 
 ### Réduire le menu principal
 
 Réduisez le menu principal lorsque vous souhaitez plus d&#39;espace pour afficher les données.
 
-* Au-dessus du menu principal à gauche, cliquez sur ![Réduire/développer](/help/search-social-commerce/assets/collapse-expand.png "Réduire/développer").
+* Au-dessus du menu principal de gauche, cliquez sur ![Réduire/développer](/help/search-social-commerce/assets/collapse-expand.png "Réduire/développer").
 
-### Search des options du menu principal
+### Rechercher des options du menu principal
 
-Utilisez le champ de recherche au-dessus du menu principal pour rechercher des options de menu spécifiques, telles que « Portefeuilles » ou « Rapports ».
+Utilisez le champ de recherche situé au-dessus du menu principal pour rechercher des options de menu spécifiques, telles que « Portfolios » ou « Reports ».
 
 ## Autres menus basés sur des tâches et des informations dans le coin supérieur droit
 
@@ -94,15 +94,15 @@ Utilisez le champ de recherche au-dessus du menu principal pour rechercher des o
 
 * ![Compte](/help/search-social-commerce/assets/account.png "Compte") Informations sur le profil de votre compte Experience Cloud à partir duquel vous pouvez modifier vos préférences et vous déconnecter.
 
-### Deuxième rangée : menu Search, Social et Commerce supplémentaires
+### Deuxième ligne : menu supplémentaire Rechercher, Social et Commerce
 
-**Remarque :** certains écrans disposent d’options supplémentaires.
+**Remarque :** certains écrans comportent des options supplémentaires.
 
 * (Le cas échéant) Liste sélectionnable d’annonceurs que vous gérez.
 
-* Plage de dates configurable pour la vue actuelle
+* Période configurable pour la vue actuelle
 
-* ![Visite guidée](/help/search-social-commerce/assets/take-ui-tour.png "de l’interface utilisateur Visite guidée de l’interface") utilisateur Lien vers une présentation guidée de la nouvelle interface utilisateur.
+* ![Visite guidée de l’interface utilisateur](/help/search-social-commerce/assets/take-ui-tour.png "Visite guidée de l’interface utilisateur") Lien vers une visite guidée de la nouvelle interface utilisateur.
 
 * ![Passer à l’ancienne IU](/help/search-social-commerce/assets/switch-to-old-ui.png "Passer à l’ancienne IU") Ouvre l’interface utilisateur héritée dans un nouvel onglet ou une nouvelle fenêtre.
 
@@ -112,7 +112,7 @@ Utilisez le champ de recherche au-dessus du menu principal pour rechercher des o
 
 ## Interface utilisateur héritée
 
-![Interface](/help/search-social-commerce/assets/ui.png "utilisateur Interface utilisateur")
+![Interface utilisateur](/help/search-social-commerce/assets/ui.png "interface utilisateur")
 
 Le haut de chaque page comprend le menu principal et d’autres menus basés sur des tâches et des informations.
 
@@ -134,26 +134,26 @@ L&#39;option [!UICONTROL Search] comprend les sous-menus suivants. Votre rôle d
 
 * **[!UICONTROL Tools]** — Ce menu comprend des options permettant de modifier le mot de passe de votre compte, de générer des balises pour suivre les conversions à partir de pages Web, de générer et de décoder des URL de suivi des clics et de charger des mesures pour les campagnes de suivi de recherche.
 
-* **[!UICONTROL Admin]** — Le [!UICONTROL Admin] menu comprend des options permettant de modifier les noms d’affichage des mesures de conversion d’un annonceur dans les tableaux de données et les rapports, de configurer les paramètres de synchronisation avec un compte Adobe Audience Manager et de synchroniser les mesures de conversion pour une combinaison spécifique [!DNL Google Analytics] de compte, de propriété et d’affichage. Selon votre rôle, il peut vous permettre de gérer des comptes d’annonceurs, des comptes d’agence, des rôles d’utilisateur et des comptes d’utilisateur.
+* **[!UICONTROL Admin]** : le menu [!UICONTROL Admin] comprend des options permettant de modifier les noms d&#39;affichage des mesures de conversion d&#39;un annonceur dans les tableaux de données et les rapports, de configurer les paramètres de synchronisation avec un compte Adobe Audience Manager et de synchroniser les mesures de conversion pour une combinaison de comptes, propriétés et vues [!DNL Google Analytics] spécifique. Selon votre rôle, il peut vous permettre de gérer les comptes d’annonceurs, les comptes d’agence, les rôles d’utilisateur et les comptes d’utilisateur.
 
-## Autres menus basés sur des tâches et des informations à droite
+## Autres menus basés sur des tâches et des informations sur la droite
 
 * (Le cas échéant) Liste sélectionnable d’annonceurs que vous gérez.
 
-* ![Notifications](/help/search-social-commerce/assets/notifications-panel.png "d’alerte Notifications") d’alerte Un panneau répertoriant vos notifications Search, Social et commerciales.
+* ![Notifications d’alerte](/help/search-social-commerce/assets/notifications-panel.png "Notifications d’alerte") Panneau répertoriant vos notifications Search, Social et Commerce.
 
-  Lorsque vous êtes [connecté via Adobe Experience Cloud](sign-in.md), ce panneau affiche les notifications de Experience Cloud.
+  Lorsque vous êtes connecté [via Adobe Experience Cloud](sign-in.md), ce panneau affiche vos notifications d’Experience Cloud.
 
 * ![Menu Aide](/help/search-social-commerce/assets/help-main-menu.png "Menu Aide") Un menu d’aide qui inclut des liens vers la documentation et d’autres informations.
 
 * ![Sélecteur de solutions](/help/search-social-commerce/assets/menu-icon.png "Sélecteur de solutions") Liste des solutions et services Adobe Experience Cloud auxquels vous pouvez basculer.
 
-* ![Profil](/help/search-social-commerce/assets/user-profile.png "utilisateur Profil") utilisateur Lien vers votre profil, à partir duquel vous pouvez vous déconnecter.
+* ![Profil utilisateur](/help/search-social-commerce/assets/user-profile.png "Profil utilisateur") Lien vers votre profil à partir duquel vous pouvez vous déconnecter.
 
-  Lorsque vous êtes [connecté via Adobe Experience Cloud](sign-in.md), vous pouvez également modifier votre profil Experience Cloud, y compris votre mot de passe Experience Cloud et vos paramètres de notification.
+  Lorsque vous êtes [ connecté via Adobe Experience Cloud](sign-in.md), vous pouvez également modifier votre profil Experience Cloud, y compris votre mot de passe Experience Cloud et les paramètres de notification.
 
 >[!MORELIKETHIS]
 >
->* [Connexion](sign-in.md)
+>* [Se connecter](sign-in.md)
 >* [Se déconnecter](sign-out.md)
 >* [Basculer entre la nouvelle IU et l’IU héritée](ui-switch.md)
