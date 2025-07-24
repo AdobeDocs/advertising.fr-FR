@@ -113,7 +113,7 @@ La nouvelle interface utilisateur de Search, Social &amp; Commerce comporte les 
 
 1. [Connectez-vous à Adobe Admin Console et ouvrez-le sur Search, Social et Commerce](#open-admin-console).
 
-1. Déléguer la gestion des produits et des utilisateurs en [ajoutant des administrateurs de produit](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise).
+1. Déléguer la gestion des produits et des utilisateurs en [ajoutant des administrateurs de produit](https://helpx.adobe.com/fr/enterprise/using/admin-roles.html#enterprise).
 
 <!-- what else? -->
 
@@ -121,9 +121,9 @@ La nouvelle interface utilisateur de Search, Social &amp; Commerce comporte les 
 
 1. [Connectez-vous à Adobe Admin Console et ouvrez-le sur Search, Social et Commerce](#open-admin-console).
 
-1. Au besoin, créez des utilisateurs finaux [individuellement](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) ou [en bloc](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+1. Au besoin, créez des utilisateurs finaux [individuellement](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html) ou [en bloc](https://helpx.adobe.com/fr/enterprise/using/bulk-upload-users.html).
 
-1. (Facultatif) Créez [groupes d’utilisateurs](https://helpx.adobe.com/enterprise/using/user-groups.html) pour chaque instance de produit et affectez des utilisateurs à chaque groupe d’utilisateurs.
+1. (Facultatif) Créez [groupes d’utilisateurs](https://helpx.adobe.com/fr/enterprise/using/user-groups.html) pour chaque instance de produit et affectez des utilisateurs à chaque groupe d’utilisateurs.
 
    Si l’instance compte de nombreux utilisateurs, créez des groupes d’utilisateurs afin de vous assurer que les utilisateurs se voient attribuer les profils adéquats en fonction de leur niveau d’expertise. (Voir Étape 4 pour l’affectation de groupes d’utilisateurs aux profils de produit.) Vous pouvez créer des groupes d’utilisateurs en fonction du secteur d’activité, des besoins en matière d’accès des utilisateurs, de la date d’embauche des utilisateurs ou d’autres critères.
 
@@ -131,16 +131,16 @@ La nouvelle interface utilisateur de Search, Social &amp; Commerce comporte les 
    >
    >Les noms des groupes d’utilisateurs doivent indiquer clairement les droits qui doivent être attribués à ces groupes. Par exemple, si vous souhaitez créer un groupe d’utilisateurs avec des droits en « Lecture seule », incluez « Read Only » dans le nom du groupe d’utilisateurs, tel que « Acme_Uk_ReadOnly » ou « Acme_ReadOnly ».
 
-1. (Facultatif) [Créer des profils de produit personnalisés](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) avec des jeux d’autorisations définis.
+1. (Facultatif) [Créer des profils de produit personnalisés](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html) avec des jeux d’autorisations définis.
 
    Les profils personnalisés s’ajoutent aux quatre profils de produit par défaut déjà disponibles.
 
    Chaque profil de produit d’une organisation doit avoir un nom unique. Si votre organisation utilise plusieurs instances Search, Social et Commerce (par exemple, Acme_US et Acme_JP), vous ne pouvez pas dupliquer un nom de profil de produit dans plusieurs instances. **Bonne pratique :** utiliser la convention de nommage « &lt;Name>_&lt;Instance>, » par exemple « Simulations_Only_JP ».
 
-1. [Affectez manuellement ou en bloc chaque utilisateur ou groupe d’utilisateurs au profil de produit approprié](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)
+1. [Affectez manuellement ou en bloc chaque utilisateur ou groupe d’utilisateurs au profil de produit approprié](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html)
 
 ## Guide complet d’administration des utilisateurs et des liens supplémentaires
 
-* Pour plus d’informations sur l’administration des utilisateurs à l’aide de Adobe Admin Console, consultez le « Guide d’administration d’Adobe Enterprise et Teams [ », y compris la ](https://helpx.adobe.com/enterprise/admin-guide.html)présentation d’Admin Console[&#128279;](https://helpx.adobe.com/fr/enterprise/using/admin-console.html)
+* Pour plus d’informations sur l’administration des utilisateurs à l’aide de Adobe Admin Console, consultez le « Guide d’administration d’Adobe Enterprise et Teams [ », y compris la ](https://helpx.adobe.com/fr/enterprise/admin-guide.html)présentation d’Admin Console[&#128279;](https://helpx.adobe.com/fr/enterprise/using/admin-console.html)
 
 * Admin Console : [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
