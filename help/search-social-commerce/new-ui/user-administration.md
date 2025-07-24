@@ -101,7 +101,7 @@ La nouvelle interface utilisateur de Search, Social &amp; Commerce comporte les 
 
    1. Saisissez votre ID de [!DNL Adobe], puis cliquez sur **[!UICONTROL Continue]**.
 
-   1. Sélectionnez **[!UICONTROL Personal Account] » ou **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Sélectionnez **[!UICONTROL Personal Account] » ou &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. Sélectionnez l’organisation Experience Cloud applicable.
 
@@ -135,12 +135,12 @@ La nouvelle interface utilisateur de Search, Social &amp; Commerce comporte les 
 
    Les profils personnalisés s’ajoutent aux quatre profils de produit par défaut déjà disponibles.
 
-   Chaque profil de produit d’une organisation doit avoir un nom unique. Si votre organisation utilise plusieurs instances Search, Social et Commerce (par exemple, Acme_US et Acme_JP), vous ne pouvez pas dupliquer un nom de profil de produit dans plusieurs instances. **Bonne pratique :** utiliser la convention de nommage « <Name>_<Instance>, » par exemple « Simulations_Only_JP ».
+   Chaque profil de produit d’une organisation doit avoir un nom unique. Si votre organisation utilise plusieurs instances Search, Social et Commerce (par exemple, Acme_US et Acme_JP), vous ne pouvez pas dupliquer un nom de profil de produit dans plusieurs instances. **Bonne pratique :** utiliser la convention de nommage « &lt;Name>_&lt;Instance>, » par exemple « Simulations_Only_JP ».
 
 1. [Affectez manuellement ou en bloc chaque utilisateur ou groupe d’utilisateurs au profil de produit approprié](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)
 
 ## Guide complet d’administration des utilisateurs et des liens supplémentaires
 
-* Pour plus d’informations sur l’administration des utilisateurs à l’aide de Adobe Admin Console, consultez le « Guide d’administration d’Adobe Enterprise et Teams [ », y compris la ](https://helpx.adobe.com/enterprise/admin-guide.html)présentation d’Admin Console[](https://helpx.adobe.com/fr/enterprise/using/admin-console.html)
+* Pour plus d’informations sur l’administration des utilisateurs à l’aide de Adobe Admin Console, consultez le « Guide d’administration d’Adobe Enterprise et Teams [ », y compris la ](https://helpx.adobe.com/enterprise/admin-guide.html)présentation d’Admin Console[&#128279;](https://helpx.adobe.com/fr/enterprise/using/admin-console.html)
 
 * Admin Console : [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
