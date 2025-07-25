@@ -3,9 +3,9 @@ title: ID Adobe Advertising utilisés par  [!DNL Analytics]
 description: ID Adobe Advertising utilisés par  [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: a69bef9d249514f5c494cff8d706b9df792eaf23
+source-git-commit: dbbba0bd75f3b1003325b665d06bce003c5ee054
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1761'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ Adobe Advertising fait la distinction entre une entrée de clic publicitaire ou 
 
 * Une entrée d’affichage publicitaire est capturée lorsqu’un utilisateur ou une utilisatrice visite le site après avoir consulté une annonce publicitaire mais sans avoir cliqué dessus. [!DNL Analytics] enregistre une vue d’ensemble si deux conditions sont remplies :
 
-   * Le visiteur ne dispose d’aucune publicité [!DNL DSP] ou [!DNL Search, Social, & Commerce] pendant l’intervalle de recherche en amont [clics publicitaires](#lookback-a4adc).
+   * Le visiteur ne dispose d’aucune publicité [!DNL DSP] ou [!DNL Search, Social, & Commerce] pendant l’intervalle de recherche en amont [clics publicitaires](/help/integrations/analytics/prerequisites.md#lookback-a4adc).
 
-   * Le visiteur a vu au moins une publicité [!DNL DSP] pendant l’intervalle de recherche en amont [impression](#lookback-a4adc). La dernière impression est transmise comme affichage.
+   * Le visiteur a vu au moins une publicité [!DNL DSP] pendant l’intervalle de recherche en amont [impression](/help/integrations/analytics/prerequisites.md#lookback-a4adc). La dernière impression est transmise comme affichage.
 
 * Une entrée de clic publicitaire est capturée lorsqu’un visiteur du site clique sur une annonce avant d’accéder au site. [!DNL Analytics] capture un clic publicitaire lorsque l’une des conditions suivantes se produit :
 
@@ -34,25 +34,25 @@ Adobe Advertising fait la distinction entre une entrée de clic publicitaire ou 
 
    * L’URL ne contient aucun code de suivi, mais le code Adobe Advertising JavaScript détecte un clic au cours des deux dernières minutes.
 
-![Adobe Intégration basée sur [!DNL Analytics] les vues d’Advertising](/help/integrations/assets/a4adc-view-through-process.png)
+![Intégration de [!DNL Analytics] basé sur la vue Adobe Advertising](/help/integrations/assets/a4adc-view-through-process.png)
 
-*Figure 1 : Adobe Intégration basée sur l’affichage [!DNL Analytics] d’Advertising*
+*Figure 1 : Intégration de [!DNL Analytics] basé sur les vues Adobe Advertising*
 
-![Adobe Advertising click Intégration basée sur [!DNL Analytics] URL](/help/integrations/assets/a4adc-click-through-process.png)
+![Intégration de [!DNL Analytics] basée sur les URL de clics Adobe Advertising](/help/integrations/assets/a4adc-click-through-process.png)
 
 *Figure 2 : intégration de [!DNL Analytics] basées sur les clics Adobe Advertising*
 
 ## Identifiants d’éléments d’expérience Adobe Advertising
 
-L’identifiant d’événement est un jeton unique utilisé par Adobe Advertising pour associer une activité à une exposition publicitaire ou à un clic en ligne. L’EF ID est stocké dans [une [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=fr) dimension ou [!DNL rVar] (réservée [!DNL eVar]) (Adobe EF ID) et suit chaque clic publicitaire ou exposition au niveau du navigateur ou de l’appareil individuel. Les EF ID servent principalement de clés pour l’envoi [!DNL Analytics] de données à Adobe Advertising à des fins de création de rapports et d’optimisation des enchères au sein de Adobe Advertising.
+L’identifiant d’événement est un jeton unique utilisé par Adobe Advertising pour associer une activité à une exposition publicitaire ou à un clic en ligne. L’identifiant de l’annonce publicitaire est stocké dans [une dimension  [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou [!DNL rVar] ([!DNL eVar] réservé) (identifiant de l’annonce publicitaire Adobe Advertising) et suit chaque clic publicitaire ou exposition publicitaire au niveau du navigateur ou de l’appareil concerné. Les identifiants EF servent principalement de clés pour envoyer des données [!DNL Analytics] à Adobe Advertising à des fins de création de rapports et d’optimisation des enchères dans Adobe Advertising.
 
-### Format d’identifiant EF
+### Format de l’ID de l’EF
 
 >[!NOTE]
 >
->Les identifiants EF sont sensibles à la casse. Si une [!DNL Analytics] implémentation force le suivi des URL en minuscules, Adobe publicité ne reconnaît pas l’EF ID. Cela a un impact sur les enchères et les rapports Adobe publicités, mais n’a aucun impact sur les rapports Adobe publicité dans [!DNL Analytics].
+>Les identifiants d’éléments d’expérience sont sensibles à la casse. Si une implémentation [!DNL Analytics] force le suivi des URL à passer en minuscules, alors Adobe Advertising ne reconnaît pas l’identifiant de l’EF. Cela a un impact sur les enchères et les rapports Adobe Advertising, mais n’a aucun impact sur les rapports Adobe Advertising dans [!DNL Analytics].
 
-#### [!DNL Google Ads] Search Ads
+#### [!DNL Google Ads] des annonces de recherche
 
 ```
 {gclid}:G:s
@@ -102,7 +102,7 @@ Les identifiants EF sont soumis à la limite de 500 000 identifiants uniques dan
 
 ## ID AMO ADOBE ADVERTISING {#amo-id}
 
-L’ID AMO suit chaque combinaison publicitaire unique à un niveau moins granulaire et est utilisé pour [!DNL Analytics] classification des données et l’ingestion des mesures publicitaires (telles que les impressions, les clics et les coûts) à partir d’Adobe Advertising. L’ID AMO est stocké dans une dimension [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=fr) ou rVar (ID AMO) et est utilisé exclusivement pour la création de rapports dans [!DNL Analytics].
+L’ID AMO suit chaque combinaison publicitaire unique à un niveau moins granulaire et est utilisé pour [!DNL Analytics] classification des données et l’ingestion des mesures publicitaires (telles que les impressions, les clics et les coûts) à partir d’Adobe Advertising. L’ID AMO est stocké dans une dimension [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou rVar (ID AMO) et est utilisé exclusivement pour la création de rapports dans [!DNL Analytics].
 
 L’ID AMO est également appelé `s_kwcid`, ce qui se prononce parfois comme « [!DNL squid] ».
 
@@ -156,9 +156,9 @@ Exemple d’ID AMO : AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 Les paramètres varient selon le réseau publicitaire, mais les paramètres suivants sont communs à tous :
 
-* `AL` Indique le canal de recherche. <!-- what about social/Facebook, and display ads on Google (like Gmail, YouTube)? -->
+* `AL` indique le canal de recherche. <!-- what about social/Facebook, and display ads on Google (like Gmail, YouTube)? -->
 
-* `{userid}` est un identifiant utilisateur unique attribué à l’annonceur.
+* `{userid}` est un ID d’utilisateur unique attribué à l’annonceur.
 
 * `{sid}` est remplacé par l’ID numérique du compte de réseau publicitaire de l’annonceur : *3* pour [!DNL Google Ads], *10* pour [!DNL Microsoft Advertising], *45* pour [!DNL Meta], *86* pour [!DNL Yahoo! Display Network], *87*, [!DNL Naver]88 *,* 90[!DNL Baidu], *94* pour [!DNL Yandex], *105* pour [!DNL Yahoo! Japan Ads] (obsolète) ou *106* pour [!DNL Yahoo Native] ** [!DNL Pinterest] (obsolète).
 
@@ -169,14 +169,14 @@ Les paramètres varient selon le réseau publicitaire, mais les paramètres suiv
 où :
 
 * `{creative}` est l’identifiant numérique unique du réseau publicitaire pour le créatif.
-* `{placement}` est le site Web sur lequel l’utilisateur a cliqué sur la publicité.
+* `{placement}` est le site web sur lequel l’utilisateur ou l’utilisatrice a cliqué sur la publicité.
 * `{keywordid}` est l’identifiant numérique unique du réseau publicitaire pour le mot-clé qui a déclenché la publicité.
 
 ##### [!DNL Google Ads]
 
-Il s’agit notamment des campagnes Shopping utilisant [!DNL Google Merchant Center].
+Cela inclut les campagnes d’achat à l’aide de [!DNL Google Merchant Center].
 
-* Comptes qui utilisent le dernier format d’identifiant AMO, qui prend en charge la création de rapports au niveau des campagnes et des groupes d’annonces pour les campagnes à performances maximales, les brouillons et les campagnes d’expérimentation :
+* Comptes qui utilisent le dernier format d’identifiant AMO, qui prend en charge le reporting au niveau des campagnes et des groupes publicitaires pour les campagnes de type Performances max , ainsi que les campagnes de type brouillons et expériences :
 
   `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -184,7 +184,7 @@ Il s’agit notamment des campagnes Shopping utilisant [!DNL Google Merchant Cen
 
   `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
-où:
+où :
 
 <!-- VERIFY CREATIVE description. Also, are there more networks now (audience and shopping?) -->
 
@@ -201,7 +201,7 @@ où:
 >
 >* Pour les annonces de recherche dynamique, {keyword} est renseigné avec le ciblage automatique.
 >* Lorsque vous générez le suivi de [!DNL Google] publicités d’achat, un paramètre d’ID de produit, `{adwords_producttargetid}`, est inséré avant le paramètre de mot-clé . Le paramètre d’ID de produit n’apparaît pas dans les paramètres de suivi au niveau du compte et de la campagne [!DNL Google Ads].
->* Pour utiliser le dernier code de suivi AMO ID, reportez-vous à la section «[ Mettre à jour le code de suivi AMO ID d’un [!DNL Google Ads] compte](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md) ». <!-- Update terminology there too. -->
+>* Pour utiliser le code de suivi AMO ID le plus récent, voir « [Mettre à jour le code de suivi AMO ID pour un [!DNL Google Ads] compte](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md) » <!-- Update terminology there too. -->
 
 <!--
 
@@ -225,23 +225,23 @@ where:
 
   `s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 
-où:
+où :
 
-* `{AdId}` est l’identifiant numérique unique du réseau publicitaire pour l’élément créatif.
-* `{OrderItemId}` correspond à l’identifiant numérique du réseau publicitaire pour le mot-clé.
+* `{AdId}` est l’identifiant numérique unique du réseau publicitaire pour le créatif.
+* `{OrderItemId}` est l’identifiant numérique du réseau publicitaire pour le mot-clé.
 * `{CampaignId}` est l’identifiant numérique unique du réseau publicitaire pour la campagne.
 * `{AdGroupId}` est l’identifiant numérique unique du réseau publicitaire pour le groupe publicitaire.
 
 >[!NOTE]
 >
 > Pour les comptes disposant de campagnes sans l’option de tracking [!UICONTROL Auto Upload] qui n’ont pas déjà été migrés au nouveau format, mettez manuellement à jour chaque suffixe de page de destination pour inclure le format ci-dessus.
->En attendant, les formats hérités, comme suit, fonctionnent toujours :
+> >En attendant, les formats hérités, comme suit, fonctionnent toujours :
 >* Campagnes de recherche :
->  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Campagnes d’achat (à l’aide de [!DNL Microsoft Merchant Center]) :
->  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* Campagnes réseau d’audience :
->  `s_kwcid=AL!{userid}!10!{AdId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
@@ -272,7 +272,7 @@ Pour les rapports ou les audits au sein de [!DNL Analytics], la bonne pratique c
 
 ## À Propos Des Classifications Analytics
 
-Dans [!DNL Analytics], une [classification](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=fr) est un élément de métadonnées pour un code de suivi donné, tel qu’un compte, une campagne ou une publicité. Adobe Advertising classe les données Adobe Advertising brutes à l’aide de classifications afin que vous puissiez afficher les données de différentes manières (par exemple par type d’annonce ou campagne) lorsque vous générez des rapports. Les classifications forment la base des rapports Adobe Advertising dans [!DNL Analytics] et peuvent être utilisées avec les mesures AMO telles que [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] et [!UICONTROL AMO Clicks], ainsi qu’avec les événements sur site personnalisés et standard tels que [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] et [!UICONTROL Revenue].
+Dans [!DNL Analytics], une [classification](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) est un élément de métadonnées pour un code de suivi donné, tel qu’un compte, une campagne ou une publicité. Adobe Advertising classe les données Adobe Advertising brutes à l’aide de classifications afin que vous puissiez afficher les données de différentes manières (par exemple par type d’annonce ou campagne) lorsque vous générez des rapports. Les classifications forment la base des rapports Adobe Advertising dans [!DNL Analytics] et peuvent être utilisées avec les mesures AMO telles que [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] et [!UICONTROL AMO Clicks], ainsi qu’avec les événements sur site personnalisés et standard tels que [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] et [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >
