@@ -44,7 +44,7 @@ Adobe Advertising fait la distinction entre une entrée de clic publicitaire ou 
 
 ## Identifiants d’éléments d’expérience Adobe Advertising
 
-L’identifiant d’événement est un jeton unique utilisé par Adobe Advertising pour associer une activité à une exposition publicitaire ou à un clic en ligne. L’identifiant de l’annonce publicitaire est stocké dans [une dimension  [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou [!DNL rVar] ([!DNL eVar] réservé) (identifiant de l’annonce publicitaire Adobe Advertising) et suit chaque clic publicitaire ou exposition publicitaire au niveau du navigateur ou de l’appareil concerné. Les identifiants EF servent principalement de clés pour envoyer des données [!DNL Analytics] à Adobe Advertising à des fins de création de rapports et d’optimisation des enchères dans Adobe Advertising.
+L’identifiant d’événement est un jeton unique utilisé par Adobe Advertising pour associer une activité à une exposition publicitaire ou à un clic en ligne. L’identifiant de l’annonce publicitaire est stocké dans [une dimension  [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=fr) ou [!DNL rVar] ([!DNL eVar] réservé) (identifiant de l’annonce publicitaire Adobe Advertising) et suit chaque clic publicitaire ou exposition publicitaire au niveau du navigateur ou de l’appareil concerné. Les identifiants EF servent principalement de clés pour envoyer des données [!DNL Analytics] à Adobe Advertising à des fins de création de rapports et d’optimisation des enchères dans Adobe Advertising.
 
 ### Format de l’ID de l’EF
 
@@ -102,7 +102,7 @@ Les identifiants EF sont soumis à la limite de 500 000 identifiants uniques dan
 
 ## ID AMO ADOBE ADVERTISING {#amo-id}
 
-L’ID AMO suit chaque combinaison publicitaire unique à un niveau moins granulaire et est utilisé pour [!DNL Analytics] classification des données et l’ingestion des mesures publicitaires (telles que les impressions, les clics et les coûts) à partir d’Adobe Advertising. L’ID AMO est stocké dans une dimension [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou rVar (ID AMO) et est utilisé exclusivement pour la création de rapports dans [!DNL Analytics].
+L’ID AMO suit chaque combinaison publicitaire unique à un niveau moins granulaire et est utilisé pour [!DNL Analytics] classification des données et l’ingestion des mesures publicitaires (telles que les impressions, les clics et les coûts) à partir d’Adobe Advertising. L’ID AMO est stocké dans une dimension [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=fr) ou rVar (ID AMO) et est utilisé exclusivement pour la création de rapports dans [!DNL Analytics].
 
 L’ID AMO est également appelé `s_kwcid`, ce qui se prononce parfois comme « [!DNL squid] ».
 
@@ -272,7 +272,7 @@ Pour les rapports ou les audits au sein de [!DNL Analytics], la bonne pratique c
 
 ## À Propos Des Classifications Analytics
 
-Dans [!DNL Analytics], une [classification](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) est un élément de métadonnées pour un code de suivi donné, tel qu’un compte, une campagne ou une publicité. Adobe Advertising classe les données Adobe Advertising brutes à l’aide de classifications afin que vous puissiez afficher les données de différentes manières (par exemple par type d’annonce ou campagne) lorsque vous générez des rapports. Les classifications forment la base des rapports Adobe Advertising dans [!DNL Analytics] et peuvent être utilisées avec les mesures AMO telles que [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] et [!UICONTROL AMO Clicks], ainsi qu’avec les événements sur site personnalisés et standard tels que [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] et [!UICONTROL Revenue].
+Dans [!DNL Analytics], une [classification](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=fr) est un élément de métadonnées pour un code de suivi donné, tel qu’un compte, une campagne ou une publicité. Adobe Advertising classe les données Adobe Advertising brutes à l’aide de classifications afin que vous puissiez afficher les données de différentes manières (par exemple par type d’annonce ou campagne) lorsque vous générez des rapports. Les classifications forment la base des rapports Adobe Advertising dans [!DNL Analytics] et peuvent être utilisées avec les mesures AMO telles que [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] et [!UICONTROL AMO Clicks], ainsi qu’avec les événements sur site personnalisés et standard tels que [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] et [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >
