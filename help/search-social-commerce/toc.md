@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising Search, Social et Commerce
 user-guide-description: Ce guide décrit les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires liées aux moteurs de recherche, aux réseaux sociaux et au commerce.
 breadcrumb-title: Guide d’Advertising Search, Social et Commerce
 index: true
-source-git-commit: ab529274520a94e46088ea3c64aa127cfd06abe5
+source-git-commit: 2b3d2d63bd049c5a24f754e0cd2a49859b56b16c
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1874'
 ht-degree: 2%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 2%
    + [Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md)
    + Intégration à Adobe Experience Cloud {#integrations}
       + [Intégration aux solutions et services Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr){target="_blank"}
-      + [Intégration avec Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=fr){target="_blank"}
-   + [Prise en charge de la confidentialité des consommateurs et consommatrices (lien)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}
-   + [Politiques et directives (lien)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=fr){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Intégration avec Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [Prise en charge de la confidentialité des consommateurs et consommatrices (lien)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Politiques et directives (lien)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + Prise en main {#getting-started}
    + [Présentation de l’implémentation](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Configuration requise](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -93,14 +93,15 @@ ht-degree: 2%
          + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + Campagnes {#campaigns}
          + [À propos de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [Affecter des campagnes à un portfolio](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
-         + [Supprimer des campagnes d’un portfolio](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [Affecter des campagnes à un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [Supprimer des campagnes d’un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
          + [Gérer les affectations de contraintes pour les campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
       + Groupes publicitaires {#ad-groups}
          + [À propos de la vue [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
          + [Gérer les affectations de contraintes pour les groupes publicitaires](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
          + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
+   + [Administration des utilisateurs](/help/search-social-commerce/new-ui/user-administration.md)
 + Tracking {#tracking}
    + [À propos du tracking](/help/search-social-commerce/tracking/tracking-about.md)
    + Suivi des clics {#click-tracking}
@@ -117,7 +118,7 @@ ht-degree: 2%
             + [Formats de suivi des clics pour  [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Formats de suivi des clics pour  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Paramètres de tracking optionnels des URL de tracking des clics](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Cookies Adobe Advertising (lien)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=fr){target="_blank"}
+      + [Cookies Adobe Advertising (lien)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [Le paramètre de tracking AMO ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Suivi des conversions {#conversion-tracking}
       + [Options de suivi des conversions](/help/search-social-commerce/tracking/conversion-tracking-about.md)
