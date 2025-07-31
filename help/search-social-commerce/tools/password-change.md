@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Cette fonctionnalité s’applique uniquement à votre compte hérité Search, Social et Commerce. La plupart des utilisateurs utilisent désormais un ID de [!DNL Adobe] à la place.<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
+>Cette fonctionnalité s’applique uniquement à votre compte hérité Search, Social et Commerce. La plupart des utilisateurs utilisent désormais un ID de [!DNL Adobe] à la place.<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
 
 La modification de votre mot de passe vous déconnecte de la session en cours. Pour continuer à travailler, vous devez vous connecter avec le nouveau mot de passe.
 
