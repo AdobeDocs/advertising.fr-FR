@@ -95,7 +95,7 @@ La nouvelle interface utilisateur de Search, Social &amp; Commerce comporte les 
 
    1. Saisissez votre ID de [!DNL Adobe], puis cliquez sur **[!UICONTROL Continue]**.
 
-   1. Sélectionnez **[!UICONTROL Personal Account] » ou **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Sélectionnez **[!UICONTROL Personal Account] » ou &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. Sélectionnez l’organisation Experience Cloud applicable.
 
