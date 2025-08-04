@@ -3,9 +3,9 @@ title: Ajouter un nœud cible frère entre les nœuds d’une expérience
 description: Découvrez comment ajouter un nœud frère à tout nœud qui a une cible ou qui se trouve au même niveau qu’un nœud avec une cible.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 8961833c854ed41e4cca69787a5dc70dce2f203c
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,15 @@ In an existing experience,
 
 1. Spécifiez les cibles :
 
-   * Pour les cibles Audience d’Adobe, procédez comme suit :
+   * Pour les cibles d’audience, procédez comme suit :
 
-      1. Cliquez sur **[!UICONTROL Click to Browse]** pour ouvrir vos options de [!UICONTROL Audience Targeting], ouvrez l’onglet **[!UICONTROL Adobe Segments]**, spécifiez une ou plusieurs des cibles d’audience [!DNL Adobe] de l’annonceur, puis cliquez sur **[!UICONTROL Save]**.
+      1. Cliquez sur **[!UICONTROL Click to Browse]** pour ouvrir les options de votre [!UICONTROL Audience Targeting] et spécifiez une ou plusieurs audiences de l’annonceur à cibler.
 
-      1. (Facultatif) Pour créer plusieurs nœuds cibles lorsque plusieurs audiences sont spécifiées, sélectionnez **[!UICONTROL Split targets to create nodes]**.
+      1. Dans la colonne de droite, indiquez s’il faut *[!UICONTROL Include any]* (valeur par défaut) ou *[!UICONTROL Include all]* des cibles spécifiées pour le nœud.
 
-         Cette fonctionnalité crée un nœud cible distinct (avec des lots de création distincts) pour chaque audience spécifiée. Si vous ne fractionnez pas les cibles, l’utilisateur doit appartenir à toutes les audiences spécifiées (instruction [!DNL Boolean] `AND`).
+     Cette option détermine si l’utilisateur doit appartenir à au moins l’une des audiences spécifiées (une instruction [!DNL Boolean] `OR`) ou à toutes les audiences spécifiées (une instruction [!DNL Boolean] `AND`) pour être admissible pour une impression.
+
+      1. Cliquez sur **[!UICONTROL Create]**.
 
       1. Cliquez sur **[!UICONTROL Apply]**.
 

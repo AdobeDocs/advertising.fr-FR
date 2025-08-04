@@ -3,9 +3,9 @@ title: Ajouter un nœud cible au niveau final d’une expérience
 description: Découvrez comment ajouter un nœud cible au niveau cible final d’une expérience publicitaire.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 7e345130f43fc2d8c2ada287a2dc61b1515e2d25
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,15 @@ Lorsque vous ajoutez un nœud cible au niveau le plus bas de l’expérience, qu
 
 1. Spécifiez les cibles :
 
-   * Pour les cibles Audience Adobe , sélectionnez **[!UICONTROL Adobe Audience]**, puis procédez comme suit :
+   * Pour les cibles d’audience, sélectionnez **[!UICONTROL Audience]**, puis procédez comme suit :
 
-      1. Cliquez sur **[!UICONTROL Click to Browse]** pour ouvrir vos options de [!UICONTROL Audience Targeting], ouvrez l’onglet **[!UICONTROL Adobe Segments]**, spécifiez une ou plusieurs des cibles d’audience [!DNL Adobe] de l’annonceur, puis cliquez sur **[!UICONTROL Create]**.
+      1. Cliquez sur **[!UICONTROL Click to Browse]** pour ouvrir les options de votre [!UICONTROL Audience Targeting] et spécifiez une ou plusieurs audiences de l’annonceur à cibler.
 
-      1. (Facultatif) Pour créer plusieurs nœuds cibles lorsque plusieurs audiences sont spécifiées, sélectionnez **[!UICONTROL Split targets to create nodes]**.
+      1. Dans la colonne de droite, indiquez s’il faut *[!UICONTROL Include any]* (valeur par défaut) ou *[!UICONTROL Include all]* des cibles spécifiées pour le nœud.
 
-         Cette fonctionnalité crée un nœud cible distinct (avec des lots de création distincts) pour chaque audience spécifiée. Si vous ne fractionnez pas les cibles, l’utilisateur doit appartenir à toutes les audiences spécifiées (instruction [!DNL Boolean] `AND`).
+     Cette option détermine si l’utilisateur doit appartenir à au moins l’une des audiences spécifiées (une instruction [!DNL Boolean] `OR`) ou à toutes les audiences spécifiées (une instruction [!DNL Boolean] `AND`) pour être admissible pour une impression.
+
+      1. Cliquez sur **[!UICONTROL Create]**.
 
       1. Cliquez sur **[!UICONTROL Apply]**.
 
