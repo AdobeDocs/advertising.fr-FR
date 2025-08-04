@@ -3,9 +3,9 @@ title: Ajouter un nœud cible au niveau final d’une expérience
 description: Découvrez comment ajouter un nœud cible au niveau cible final d’une expérience publicitaire.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
+source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,31 @@ Lorsque vous ajoutez un nœud cible au niveau le plus bas de l’expérience, qu
 
 1. Spécifiez les cibles :
 
-   * Pour les cibles d’audience, sélectionnez **[!UICONTROL Audience]**, puis procédez comme suit :
+   * Pour les cibles d’audience, sélectionnez **[!UICONTROL Audience]**, cliquez sur **[!UICONTROL Click to Browse]** pour ouvrir vos options de [!UICONTROL Audience Targeting], puis procédez comme suit :
 
-      1. Cliquez sur **[!UICONTROL Click to Browse]** pour ouvrir les options de votre [!UICONTROL Audience Targeting] et spécifiez une ou plusieurs audiences de l’annonceur à cibler.
+      * Pour ajouter le premier segment, localisez le segment dans le panneau de gauche, puis cochez la case en regard du nom du segment.
 
-      1. Dans la colonne de droite, indiquez s’il faut *[!UICONTROL Include any]* (valeur par défaut) ou *[!UICONTROL Include all]* des cibles spécifiées pour le nœud.
+      * Pour ajouter un segment à un groupe de segments existant :
 
-     Cette option détermine si l’utilisateur doit appartenir à au moins l’une des audiences spécifiées (une instruction [!DNL Boolean] `OR`) ou à toutes les audiences spécifiées (une instruction [!DNL Boolean] `AND`) pour être admissible pour une impression.
+         1. Cliquez sur le groupe de segments dans le panneau de droite.
+
+         1. (Facultatif) Modifiez la logique de groupe en *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, selon les besoins.
+
+            *[!UICONTROL Exclude All]* n’est pas disponible pour le premier groupe de segments. Dans le cas d’une audience qui comprend uniquement des exclusions, créez cette audience sous la forme *[!UICONTROL Include Any]*, puis excluez-la lorsque vous l’ajoutez à un emplacement de votre DSP.
+
+         1. Recherchez le nouveau segment dans le panneau de gauche, puis cochez la case en regard du nom du segment.
+
+            Le groupe de segments est automatiquement mis à jour avec le nouveau segment.
+
+      * Pour ajouter un nouveau groupe de segments :
+
+         1. Cliquez sur **[!UICONTROL + New Group]** dans le panneau de droite.
+
+         1. (Facultatif) Modifiez la logique entre le groupe précédent et le nouveau groupe en *[!UICONTROL And]* ou *[!UICONTROL Or]*, selon les besoins.
+
+         1. Recherchez les segments du nouveau groupe dans le panneau de gauche, puis cochez les cases en regard des noms de segment.
+
+         1. (Facultatif) Modifiez la logique de groupe en *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, selon les besoins.
 
       1. Cliquez sur **[!UICONTROL Create]**.
 
