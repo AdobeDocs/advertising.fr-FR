@@ -14,13 +14,13 @@ ht-degree: 0%
 
 *Publicitaires avec une intégration Adobe Advertising-Adobe Analytics uniquement*
 
-Vous pouvez utiliser les mesures d’événement de succès pour optimiser les packages DSP et les campagnes Search, Social et Commerce en fonction des données de site Adobe Analytics qui correspondent le mieux aux objectifs de votre marque. Vous pouvez configurer des mesures d’événement de succès personnalisées en fonction de vos [[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) et [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) existants en canalisant les données de niveau [!DNL eVar] et [!DNL prop] vers un événement. D’autres mesures [!DNL Analytics], notamment les mesures de conversion standard, personnalisées et réservées, ainsi que les mesures de trafic, sont automatiquement disponibles dans DSP et dans Search, Social et Commerce.
+Vous pouvez utiliser les mesures d’événement de succès pour optimiser les packages DSP et les campagnes Search, Social et Commerce en fonction des données de site Adobe Analytics qui correspondent le mieux aux objectifs de votre marque. Vous pouvez configurer des mesures d’événement de succès personnalisées en fonction de vos [[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=fr) et [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html?lang=fr) existants en canalisant les données de niveau [!DNL eVar] et [!DNL prop] vers un événement. D’autres mesures [!DNL Analytics], notamment les mesures de conversion standard, personnalisées et réservées, ainsi que les mesures de trafic, sont automatiquement disponibles dans DSP et dans Search, Social et Commerce.
 
 ![Exemple d](/help/integrations/assets/a4adc-conversion-evar-example.jpg "utilisation")
 
 La plupart des tâches suivantes doivent être effectuées par un administrateur [!DNL Analytics] ou un autre utilisateur. Si vous avez besoin d’aide, contactez l’équipe chargée de votre compte Adobe.
 
-1. Dans [!DNL Analytics], [créez un événement de succès d’espace réservé](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
+1. Dans [!DNL Analytics], [créez un événement de succès d’espace réservé](https://experienceleague.adobe.com/fr/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
 
    Utilisez les paramètres supplémentaires suivants :
 
@@ -42,7 +42,7 @@ La plupart des tâches suivantes doivent être effectuées par un administrateur
    >
    >Seuls les administrateurs de compte [!DNL Analytics] peuvent créer des règles de traitement, sauf s’ils ont accordé une autorisation à des non-administrateurs.
 
-   1. [Créez une règle de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en) en effectuant le paramétrage suivant :
+   1. [Créez une règle de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=fr) en effectuant le paramétrage suivant :
 
       * Pour la condition qui doit être remplie, spécifiez la [!DNL eVars] ou la [!DNL props] requise.
 
@@ -54,7 +54,7 @@ La plupart des tâches suivantes doivent être effectuées par un administrateur
 
       * Pour l’action, sélectionnez **Définir l’événement** et sélectionnez l’événement d’espace réservé.
 
-   1. Dans [!DNL Analytics] [!DNL Analysis Workspace], [créez un projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) et extrayez le nouvel événement dans un tableau à structure libre pour vous assurer que les données sont renseignées pour la mesure [!DNL eVar] ou [!DNL prop].
+   1. Dans [!DNL Analytics] [!DNL Analysis Workspace], [créez un projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr) et extrayez le nouvel événement dans un tableau à structure libre pour vous assurer que les données sont renseignées pour la mesure [!DNL eVar] ou [!DNL prop].
 
 1. Contactez l’équipe chargée de votre compte Adobe pour synchroniser la nouvelle mesure dans Adobe Advertising.
 
