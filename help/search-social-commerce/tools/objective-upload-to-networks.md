@@ -3,9 +3,9 @@ title: Activer le chargement des objectifs sur les réseaux publicitaires
 description: Découvrez comment charger des objectifs pour vos portfolios hybrides vers [!DNL Google Ads] et [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: cfdf9325f6a0696e7ab74379daaf77b20c184d9d
+source-git-commit: 3d3031946bb614f2c58b83170473b1394e4a017c
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Chaque conversion chargée porte le nom suivant :
 
 où `<network_ID>` est l’identifiant numérique utilisé par Search, Social et Commerce pour le réseau publicitaire, `<objective_id>` est l’identifiant numérique de l’objectif et `<network_account_ID>` est l’identifiant numérique du compte ou du gestionnaire du réseau publicitaire.
 
-Pour la plupart des annonceurs, les téléchargements vers [!DNL Google Ads] ont lieu toutes les heures ; pour ceux qui disposent de comptes volumineux ou de configurations personnalisées, les téléchargements ont lieu au moins trois fois par jour. Les téléchargements vers [!DNL Microsoft Advertising] ont lieu tous les jours à 09:00 dans le fuseau horaire de l’annonceur.
+Les chargements vers [!DNL Google Ads] et [!DNL Microsoft Advertising] ont lieu toute la journée, parfois même toutes les heures. Pour les annonceurs et annonceuses disposant de comptes volumineux ou de configurations personnalisées, les chargements ont lieu au moins trois fois par jour.
 
 >[!IMPORTANT]
 >
