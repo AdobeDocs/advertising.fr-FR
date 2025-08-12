@@ -3,9 +3,9 @@ title: Activer le chargement des objectifs sur les réseaux publicitaires
 description: Découvrez comment charger des objectifs pour vos portfolios hybrides vers [!DNL Google Ads] et [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: cfdf9325f6a0696e7ab74379daaf77b20c184d9d
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Search, Social et Commerce peuvent charger les objectifs des portefeuilles d’un compte publicitaire vers [!DNL Google Ads] et [!DNL Microsoft Advertising] afin que vous puissiez les utiliser dans le cadre d’une optimisation hybride. Vos objectifs chargés sont disponibles sous forme d’actions de conversion pour les objectifs de conversion personnalisés au niveau du compte et de la campagne.
 
-L’activation de cette option déclenche automatiquement un chargement pour les objectifs des portefeuilles contenant des campagnes avec des stratégies d’enchères intelligentes. Search, Social et Commerce génèrent une conversion sur le réseau publicitaire pour chaque objectif applicable. La conversion représente toutes les mesures de conversion pondérées de l’objectif au niveau de l’identifiant EF (identifiant de clic). Pour les clics [!DNL Google Ads], l’ID EF est le `gclid` [!DNL Google Ads] ; pour les clics [!DNL Microsoft Advertising], l’ID EF est le `msclkid` [!DNL Microsoft Advertising]. Grâce à cet identifiant de clic, les données de conversion peuvent être mappées au mot-clé spécifique et au temps de clic.
+L’activation de cette option déclenche automatiquement un chargement pour les objectifs des portefeuilles contenant des campagnes avec des stratégies d’enchères intelligentes. Search, Social et Commerce génèrent une conversion sur le réseau publicitaire pour chaque objectif applicable. La conversion représente toutes les mesures de conversion pondérées de l’objectif au niveau de l’identifiant EF (identifiant de clic). Pour les clics [!DNL Google Ads], l’ID EF est le [!DNL Google Ads] `gclid` ; pour les clics [!DNL Microsoft Advertising], l’ID EF est le [!DNL Microsoft Advertising] `msclkid`. Grâce à cet identifiant de clic, les données de conversion peuvent être mappées au mot-clé spécifique et au temps de clic.
 
 Chaque conversion chargée porte le nom suivant :
 
@@ -26,7 +26,7 @@ Chaque conversion chargée porte le nom suivant :
 
 où `<network_ID>` est l’identifiant numérique utilisé par Search, Social et Commerce pour le réseau publicitaire, `<objective_id>` est l’identifiant numérique de l’objectif et `<network_account_ID>` est l’identifiant numérique du compte ou du gestionnaire du réseau publicitaire.
 
-Les téléchargements vers [!DNL Google Ads] ont lieu tous les jours à 06:00, dans le fuseau horaire de l’annonceur. Les téléchargements vers [!DNL Microsoft Advertising] ont lieu tous les jours à 9 h dans le fuseau horaire de l’annonceur.
+Pour la plupart des annonceurs, les téléchargements vers [!DNL Google Ads] ont lieu toutes les heures ; pour ceux qui disposent de comptes volumineux ou de configurations personnalisées, les téléchargements ont lieu au moins trois fois par jour. Les téléchargements vers [!DNL Microsoft Advertising] ont lieu tous les jours à 09:00 dans le fuseau horaire de l’annonceur.
 
 >[!IMPORTANT]
 >
