@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: 2e69bc68ca4553d6e908b766cb236c1b582bc1a2
+source-git-commit: a2cf15742557686df280b2a73eea996be53e5f4d
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '947'
 ht-degree: 3%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 3%
       + [Solutions sur plusieurs appareils](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Financement du compte](/help/dsp/introduction/billing/account-funding.md)
    + [Devises prises en charge](/help/dsp/currency.md)
-   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Solutions de mesures avancées](/help/dsp/introduction/advanced-measurement-services.md)
 + Gestion de campagne {#campaign-management}
    + [Présentation de la structure de gestion de campagne](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -83,7 +83,7 @@ ht-degree: 3%
       + [Vérifier Les Détails Des Annonces À L’Aide Des Feuilles De Calcul](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Modification d’une publicité](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Dupliquer une publicité](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Joindre des annonces à des emplacements](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=fr)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [Joindre des annonces à des emplacements](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Affichage d’un rapport détaillé pour une publicité](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Mettre en pause ou activer une publicité](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -97,8 +97,8 @@ ht-degree: 3%
          + [Paramètres de publicité preroll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [Paramètres universels des publicités vidéo](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Spécifications pour les types d’annonces pris en charge](/help/dsp/campaign-management/ads/ad-specs.md)
-   + Informations sur les performances des campagnes croisées {#insights}
-      + [À Propos De Performance Insights](/help/dsp/campaign-management/insights/insights-about.md)
+   + Insights sur plusieurs campagnes {#insights}
+      + [À propos des informations](/help/dsp/campaign-management/insights/insights-about.md)
    + Rapports de performances dans les vues de gestion de campagnes {#campaign-reports}
       + [Types de rapports de performances dans les vues de gestion de campagnes](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Exporter des données à partir d’une vue de gestion de campagne](/help/dsp/campaign-management/reports/campaign-export-data.md)
@@ -238,6 +238,6 @@ ht-degree: 3%
    + Notifications {#notifications}
       + [À propos des abonnements aux alertes](/help/dsp/admin/alerts-about.md)
       + [Gérer les abonnements aux alertes](/help/dsp/admin/alerts-manage.md)
-+ [Intégrations avec Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=fr)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Intégrations avec Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [Obtenir de l’aide](/help/dsp/get-help.md)
-+ [Notes De Mise À Jour De Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)
++ [Notes De Mise À Jour De Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

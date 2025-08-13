@@ -1,22 +1,20 @@
 ---
-title: À Propos De Performance Insights
+title: À propos des informations
 description: Découvrez les informations sur les performances des visualisations.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: ca531db43b9e07dc767da3d0e866bfc85add7ee9
+source-git-commit: 99b9c110de5efbf646e35979eee6baac1d34f6ed
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
 
-# À Propos De Performance Insights
+# À propos des informations
 
 *Fonction Beta*
 
-<!-- Edit title and metadata as necessary -->
-
-Grâce aux visualisations, vous obtenez des informations de haut niveau sur les performances qui vous permettent d’optimiser efficacement vos campagnes et de découvrir de nouvelles opportunités d’optimisation des performances. Vous pouvez afficher les données de plusieurs campagnes ou effectuer une analyse vers le bas à un niveau inférieur.
+Grâce aux visualisations, vous obtenez des informations de haut niveau sur les performances qui vous permettent d’optimiser efficacement vos campagnes et de découvrir de nouvelles opportunités d’optimisation des performances. Vous pouvez afficher les données de plusieurs campagnes pour un annonceur spécifié ou effectuer une analyse vers le bas à un niveau inférieur.
 
 Utilisez les informations sur les performances pour :
 
@@ -34,27 +32,57 @@ Vous pouvez également [modifier la période, configurer la vue et enregistrer u
 
 ### Onglet [!UICONTROL Home]
 
-L’onglet [!UICONTROL Home] fournit des mesures clés de norme, de performances et de visibilité sur toutes les campagnes d’un annonceur<!-- active only? -->. Par défaut, les données sur plusieurs campagnes s’affichent. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur ou les données pour des campagnes<!-- active only? --> des packages<!-- active only? --> des objectifs personnalisés et des emplacements spécifiques<!-- active only? -->. Ces informations incluent :
+L’onglet [!UICONTROL Home] fournit des mesures clés de norme, de performances et de visibilité sur toutes les campagnes d’un annonceur. Par défaut, les données d’emplacement croisé pour un annonceur spécifique et un objectif personnalisé s’affichent. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur, d’un autre objectif personnalisé ou d’un emplacement spécifique. <!-- I don't see campaigns or packages anymore:  You can optionally configure filters to show data for a different advertiser or data for only specific campaigns, packages, custom goals, and placements. --> Les informations incluent :
 
-* Graphique de tendances pour trois mesures spécifiées par le client (par défaut, [!UICONTROL Net Spend], [!UICONTROL Impressions] et [!UICONTROL Net CPM]).
+* **[!UICONTROL Trends]:** graphique de tendance pour trois mesures spécifiées par le client (par défaut, [!UICONTROL Net Spend], [!UICONTROL Impressions] et [!UICONTROL Net CPM]).
 
-* Répartition des données pour des mesures spécifiques selon trois dimensions spécifiées par le client, par exemple par campagne, éditeur et type de média. Pour chaque répartition dimensionnelle, vous pouvez choisir une mesure différente.
+* **[!UICONTROL Delivery Breakdown]:** répartition des données pour des mesures spécifiques selon trois dimensions spécifiées par le client, telles que par campagne, éditeur et type de média. Pour chaque répartition dimensionnelle, vous pouvez choisir une mesure différente.
 
 ### Onglet [!UICONTROL Household Reach]
 
-L’onglet [!UICONTROL Household Reach] fournit des mesures de portée du foyer pour toutes les campagnes d’un annonceur<!-- active only? -->. Par défaut, les données sur plusieurs campagnes s’affichent. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur ou les données de campagnes spécifiques uniquement<!-- active only? -->. Ces informations incluent :
+L’onglet [!UICONTROL Household Reach] fournit des mesures de portée des ménages pour toutes les campagnes d’un annonceur. Par défaut, les données sur plusieurs campagnes s’affichent. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur, d’une campagne spécifique, de plusieurs packages ou emplacements, ou d’un package ou emplacement spécifique. Ces informations incluent :
 
-* Graphique de tendances par jour ou par semaine pour trois mesures spécifiées par le client (par défaut, [!UICONTROL Net Spend], [!UICONTROL Unique Reach] et [!UICONTROL Net CPM]).
+* **[!UICONTROL Trends]:** graphique de tendances par jour ou par semaine pour trois mesures spécifiées par le client (par défaut, [!UICONTROL Net Spend], [!UICONTROL Unique Reach] et [!UICONTROL Net CPM]).
 
-* Graphique en anneau montrant la portée incrémentielle des ménages par [!UICONTROL Media Type], [!UICONTROL Device Type] ou [!UICONTROL Inventory Type]. La *portée incrémentielle des ménages* est définie comme un ménage atteint exclusivement par le biais d’un seul type de média, d’appareil ou d’inventaire.
+* **[!UICONTROL Incremental Household Reach]:** graphique en anneau indiquant la portée incrémentielle des ménages par [!UICONTROL Media Type], [!UICONTROL Device Type] ou [!UICONTROL Inventory Type]. La *portée incrémentielle des ménages* est définie comme un ménage atteint exclusivement par le biais d’un seul type de média, d’appareil ou d’inventaire.
 
-* La portée incrémentielle unique des ménages par rapport à la portée chevauchante des ménages par [!UICONTROL Media Type], [!UICONTROL Device Type] ou [!UICONTROL Inventory Type].
+* **[!UICONTROL Reach Breakdown]:** portée incrémentielle unique par rapport à la portée chevauchante des ménages par [!UICONTROL Media Type], [!UICONTROL Device Type] ou [!UICONTROL Inventory Type].
 
   La *portée incrémentielle des ménages* est définie comme un ménage atteint exclusivement par le biais d’un seul type de média, d’appareil ou d’inventaire. La *portée chevauchante des ménages* est définie comme un ménage atteint par plusieurs types de médias, d’appareils ou d’inventaire.
 
-* Campagnes, emplacements, packages, éditeurs, sites/applications, types de médias, types d’inventaire ou types d’appareils les plus performants par [!UICONTROL Unique Reach], [!UICONTROL Net Spend] et [!UICONTROL Cost per Reach].
+* **[!UICONTROL Top Performers]:** campagnes, emplacements, packages, éditeurs, sites/applications, types de médias, types d’inventaire ou types d’appareils les plus performants par [!UICONTROL Unique Reach], [!UICONTROL Net Spend] et [!UICONTROL Cost per Reach].
 
-* [!UICONTROL Cost per Reach] et [!UICONTROL Net Spend] par package, éditeur ou site/application. Utilisez cette insight pour voir quels packages, éditeurs ou sites/applications présentent le potentiel d’une portée incrémentielle significative.
+* **[!UICONTROL Performance Analysis]:** [!UICONTROL Cost per Reach] et [!UICONTROL Net Spend] par package, éditeur ou site/application. Utilisez cette insight pour voir quels packages, éditeurs ou sites/applications présentent le potentiel d’une portée incrémentielle significative.
+
+  La taille de chaque bulle indique le score de portée incrémentielle, les bulles plus grandes indiquant une portée incrémentielle plus élevée en moyenne. Pour afficher le nom complet de l’entité et les mesures clés d’une bulle, placez le curseur sur la bulle.
+
+  Les niveaux d&#39;impact sont les suivants :
+
+   * **Impact important :** envisager d’augmenter le budget.
+   * **Impact modéré**
+   * **Impact limité :** attention requise
+
+### Onglet [!UICONTROL Household Conversion]
+
+L’onglet [!UICONTROL Household Conversion] fournit des mesures de conversion des ménages pour toutes les campagnes d’un annonceur<!-- active only? -->. Par défaut, les données sur plusieurs campagnes pour un annonceur spécifique et une mesure de conversion spécifique s’affichent. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur ou d’une autre mesure de conversion, pour une campagne spécifique, entre des packages ou des emplacements, ou pour un package ou un emplacement spécifique. Ces informations incluent :
+
+* **[!UICONTROL Trends]:** graphique de tendances par jour ou par semaine pour trois mesures spécifiées par le client (par défaut, [!UICONTROL Net Spend], [!UICONTROL Conversions] et [!UICONTROL Net CPM]).
+
+* **[!UICONTROL Conversion Participation Overview]:** graphique à barres indiquant les types de médias, de stocks et d’appareils qui génèrent la plupart des conversions de ménages.
+
+  Les impressions diffusées pendant la période de recherche en amont (30 jours) sont considérées comme valides pour la participation à la conversion.
+
+* **[!UICONTROL Top Performers]:** tableau des campagnes, packages, emplacements, éditeurs, sites/applications, types de médias et types d’inventaire qui génèrent les performances de trois mesures spécifiées par le client (par défaut, [!UICONTROL Net Spend], [!UICONTROL CPA] et [!UICONTROL Conversions]). La meilleure est répertoriée en premier.
+
+* **[!UICONTROL Performance Analysis]:** [!UICONTROL CPA] et [!UICONTROL Net Spend] par package, éditeur ou site/application. Utilisez cette insight pour voir quels packages, éditeurs ou sites/applications présentent le potentiel d’une portée incrémentielle significative.
+
+  La taille de chaque bulle indique le score de portée incrémentielle, les bulles plus grandes indiquant une portée incrémentielle plus élevée en moyenne. Pour afficher le nom complet de l’entité et les mesures clés d’une bulle, placez le curseur sur la bulle.
+
+  Les niveaux d&#39;impact sont les suivants :
+
+   * **Impact important :** envisager d’augmenter le budget.
+   * **Impact modéré**
+   * **Impact limité :** attention requise
 
 ## Ouvrir les informations sur les performances
 
