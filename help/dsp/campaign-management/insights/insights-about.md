@@ -3,9 +3,9 @@ title: À propos des informations
 description: Découvrez les informations sur les performances des visualisations.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 99b9c110de5efbf646e35979eee6baac1d34f6ed
+source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,8 @@ L’onglet [!UICONTROL Household Conversion] fournit des mesures de conversion d
 * Dans le menu déroulant situé dans le coin supérieur gauche d’insight, sélectionnez la dimension.
 
 ## Modification des mesures signalées pour un Insight
+
+Pour les mesures de conversion, la prise en charge est disponible pour les conversions suivies par Adobe Advertising et celles suivies par Adobe Analytics.
 
 1. Dans le coin supérieur droit d’insight, cliquez sur ![Paramètres des mesures](/help/dsp/assets/metric-settings.png "Paramètres des mesures").
 
