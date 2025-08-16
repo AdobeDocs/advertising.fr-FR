@@ -55,4 +55,4 @@ Certaines des macros disponibles, ou leurs équivalents, sont automatiquement in
 >* [Ajouter des contenus publicitaires standard à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Paramètres de création standard](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [Paramètres d’expérience ciblés](/help/creative/experiences/experience-settings-targeting.md)
->  >*[Paramètres d’expérience non ciblés](/help/creative/experiences/experience-settings-no-targeting.md)
+>  &#x200B;>*[Paramètres d’expérience non ciblés](/help/creative/experiences/experience-settings-no-targeting.md)
