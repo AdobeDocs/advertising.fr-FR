@@ -3,16 +3,14 @@ title: Gestion des pixels de reciblage
 description: Découvrez comment créer et implémenter des pixels de reciblage à utiliser comme cibles pour les expériences publicitaires.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: 1d0a1640eb2d19b8765150226e7185602bbfd495
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # Gestion des pixels de reciblage
-
-*Version bêta fermée*
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
@@ -111,7 +109,7 @@ Lorsque vous ciblez des expériences publicitaires sur des utilisateurs exposés
 
 Lorsque vous ciblez des expériences publicitaires sur des utilisateurs exposés au pixel, les paramètres de ciblage spécifient les valeurs d’attribut qui doivent être présentes pour afficher les contenus publicitaires.
 
-**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (fonctionnalité Beta ; nouveaux pixels uniquement ; facultatif) Types d’identifiants universels pour la balise de pixel à suivre :
+**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (Nouveaux pixels uniquement ; facultatif) Types d’identifiants universels pour la balise de pixel à suivre :
 
 * *[!UICONTROL ID5]:* La balise pixel suit les identifiants de [!DNL ID5]. Aucun frais n’est encouru pour les impressions diffusées aux identifiants universels.
 
