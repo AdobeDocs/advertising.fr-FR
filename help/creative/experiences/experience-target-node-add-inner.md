@@ -3,9 +3,9 @@ title: Ajouter un nœud cible entre les nœuds d’une expérience
 description: Découvrez comment ajouter un nœud cible entre les nœuds cibles dans une expérience publicitaire.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Ajouter un nœud cible entre les nœuds d’une expérience
 
 *Expériences avec ciblage d’arborescence de décision uniquement*
-*Version bêta fermée*
 
 Lorsque vous insérez un nœud cible entre des niveaux existants, le nouveau nœud cible conserve toutes les cibles enfants et les éléments créatifs existants et le nouveau nœud est initialement appelé « All ». Vous pouvez éventuellement conserver le nouveau nœud sans ajouter de cibles plus spécifiques.
 

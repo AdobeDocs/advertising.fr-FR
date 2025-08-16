@@ -3,9 +3,9 @@ title: Personnalisation des URL de tracking pour une expérience
 description: Découvrez comment personnaliser les URL de tracking de chaque contenu créatif dans une expérience avec le ciblage d’arborescence de décision.
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Personnaliser les URL de tracking pour les créatifs d’une expérience avec le ciblage de l’arborescence de décision
 
 *Nœuds Target avec contenu publicitaire existant uniquement*
-*Version bêta fermée*
 
 Pour les expériences avec le ciblage d’arborescence de décision, vous pouvez créer jusqu’à cinq URL de suivi d’impression personnalisées, cinq URL de suivi des clics personnalisées et une URL de page de destination personnalisée pour chaque élément créatif individuel utilisé pour l’expérience. Vous pouvez personnaliser les URL de tracking depuis l’arborescence de décision.
 

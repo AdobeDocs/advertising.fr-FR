@@ -2,16 +2,15 @@
 title: Suppression d’une expérience
 description: Découvrez comment supprimer une expérience inutilisée.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5658692f-4ae6-41d5-82d3-78ff5560b95f
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
 # Suppression d’une expérience
-
-*Version bêta fermée*
 
 <!-- No multiselect for experiences as of 1/30 -->
 
@@ -33,4 +32,3 @@ Vous pouvez supprimer les expériences qui ne sont pas [ actives ](experience-ab
 >
 >* [Création d’une expérience avec le ciblage d’arborescence de décision](experience-create-targeting.md)
 >* [Création d’une expérience sans ciblage d’arborescence de décision](experience-create-no-targeting.md)
-

@@ -3,16 +3,14 @@ title: Exporter et implémenter une balise d’expérience publicitaire pour une
 description: Découvrez comment exporter une balise d’expérience publicitaire et éventuellement la charger dans une campagne Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 1ce04f4bfa0707d9bcc1f6601dadbdab682ad95d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
 # Exporter et implémenter une balise d’expérience publicitaire pour une expérience en direct
-
-*Version bêta fermée*
 
 Une fois qu’une balise publicitaire pour une taille de contenu créatif ou une durée vidéo spécifiques est disponible pour une expérience [en direct](experience-about.md#experience-statuses), vous pouvez générer et copier la balise dans des formats JavaScript, iframe et vidéo pour une implémentation sur Advertising DSP ou d’autres DSP. Les balises pour DSP incluent toutes les macros requises pour DSP.
 
@@ -33,7 +31,7 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger les 
 
    * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**.
 
-1. Placez le curseur sur la ligne de la balise publicitaire applicable et cliquez sur ![Exporter les balises publicitaires](/help/creative/assets/export.png "Exporter les balises publicitaires") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Placez le curseur sur la ligne de la balise publicitaire applicable et cliquez sur ![Exporter les balises publicitaires](/help/creative/assets/export.png "Exporter les balises publicitaires") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
@@ -51,9 +49,9 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger les 
 
 1. Sélectionnez le type de balise :
 
-   * (Expériences non vidéo) **&#x200B; *JavaScript* &#x200B;** ou **&#x200B; *Iframe* &#x200B;**.
+   * (Expériences non vidéo) ** *JavaScript* ** ou ** *Iframe* **.
 
-   * (Expériences vidéo) **&#x200B; *Vidéo* &#x200B;**.
+   * (Expériences vidéo) ** *Vidéo* **.
 
 1. Dans la liste [!UICONTROL Destinations], sélectionnez l’emplacement où vous allez créer des annonces pour l’expérience.
 

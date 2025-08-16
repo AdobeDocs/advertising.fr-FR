@@ -3,16 +3,14 @@ title: Personnaliser les URL de tracking pour une expérience sans ciblage
 description: Découvrez comment personnaliser les URL de tracking de chaque contenu créatif dans une expérience sans ciblage d’arborescence de décision.
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Personnaliser les URL de tracking pour une expérience sans ciblage d’arborescence de décision
-
-*Version bêta fermée*
 
 Pour les expériences sans ciblage d’arborescence de décision, vous pouvez créer jusqu’à cinq URL de suivi d’impression personnalisées, cinq URL de suivi des clics personnalisées et une URL de page de destination personnalisée pour chaque élément créatif individuel utilisé pour la balise d’expérience publicitaire. Vous pouvez personnaliser les URL de tracking depuis [!UICONTROL Tag Manager].
 

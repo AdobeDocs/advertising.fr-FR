@@ -3,9 +3,9 @@ title: Suppression d’un nœud cible ou d’un nœud feuille créatif dans une 
 description: Découvrez comment supprimer un nœud dans une expérience.
 feature: Creative Experiences
 exl-id: a8973c9e-bd0a-4f62-8668-520495b2525d
-source-git-commit: a98f5dc623e8ac86878171f8742f3bf279343343
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Suppression d’un nœud cible ou d’un nœud feuille créatif dans une expérience
 
 *Expériences avec ciblage d’arborescence de décision uniquement*
-*Version bêta fermée*
 
 Vous pouvez supprimer un nœud cible, y compris toutes les cibles enfants et les bundles de création qui leur sont affectés. Vous pouvez également supprimer un nœud feuille de contenu créatif.
 

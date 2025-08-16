@@ -3,16 +3,14 @@ title: Personnalisation des options de transcodage d’une balise d’expérienc
 description: Découvrez comment personnaliser les options de transcodage d’une balise publicitaire vidéo.
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: 8f5740d1a90e505a16f69d566de13aefc1edf421
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
 # Personnalisation des options de transcodage d’une balise d’expérience et de vidéo
-
-*Version bêta fermée*
 
 Vous pouvez personnaliser les options de transcodage d’une expérience publicitaire vidéo afin de garantir une lecture et un contrôle qualité rapides dans tous les éditeurs.
 

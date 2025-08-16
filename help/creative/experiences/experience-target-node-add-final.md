@@ -3,9 +3,9 @@ title: Ajouter un nœud cible au niveau final d’une expérience
 description: Découvrez comment ajouter un nœud cible au niveau cible final d’une expérience publicitaire.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Ajouter un nœud cible au niveau final d’une expérience
 
 *Expériences avec ciblage d’arborescence de décision uniquement*
-*Version bêta fermée*
 
 Lorsque vous ajoutez un nœud cible au niveau le plus bas de l’expérience, qu’il s’agisse du nœud racine « Tous », d’un nœud spécifique à la cible ou d’un nœud « Tout le reste », vous définissez directement la cible et n’avez pas besoin de créer de nœud frère. L’ajout d’un nœud de niveau inférieur crée le nœud cible et un nœud « Tout le reste » supplémentaire au même niveau.
 

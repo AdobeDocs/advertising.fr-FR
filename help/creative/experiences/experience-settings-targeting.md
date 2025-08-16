@@ -3,16 +3,14 @@ title: Paramètres de l’expérience ciblée
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires ciblées.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
 
 # Paramètres d’expérience publicitaire ciblée
-
-*Version bêta fermée*
 
 ## section [!UICONTROL Experience basics]
 

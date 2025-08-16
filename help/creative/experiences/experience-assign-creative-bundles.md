@@ -3,9 +3,9 @@ title: Affectez et annulez l’affectation des bundles de création à un nœud 
 description: Découvrez comment affecter des contenus publicitaires à chaque cible dans vos expériences publicitaires.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Affectez et annulez l’affectation des bundles de création à un nœud final d’une expérience
 
 *Expériences avec ciblage d’arborescence de décision uniquement*
-*Version bêta fermée*
 
 Vous pouvez affecter des lots créatifs à un nœud cible au niveau le plus bas d’une arborescence de décision d’expérience. Pour les expériences pour lesquelles vous n’avez pas configuré de cibles, le niveau inférieur se trouve sous « Tous ».
 

@@ -3,16 +3,14 @@ title: Macros disponibles pour le tracking des URL
 description: Référencez les macros que vous pouvez ajouter à vos URL de page de destination, URL de tracking et contenus publicitaires tiers.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
 # Macros disponibles pour le tracking des URL
-
-*Version bêta fermée*
 
 <!-- More feature metadata???  -->
 
@@ -57,4 +55,4 @@ Certaines des macros disponibles, ou leurs équivalents, sont automatiquement in
 >* [Ajouter des contenus publicitaires standard à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Paramètres de création standard](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [Paramètres d’expérience ciblés](/help/creative/experiences/experience-settings-targeting.md)
->*[Paramètres d’expérience non ciblés](/help/creative/experiences/experience-settings-no-targeting.md)
+>  >*[Paramètres d’expérience non ciblés](/help/creative/experiences/experience-settings-no-targeting.md)

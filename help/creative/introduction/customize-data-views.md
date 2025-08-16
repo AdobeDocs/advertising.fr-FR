@@ -3,16 +3,14 @@ title: Personnalisation des vues de données
 description: Découvrez comment personnaliser les données dans chacune des vues disponibles.
 feature: Creative Introduction
 exl-id: 5255e0e4-a7f8-41d2-9b38-0e276dc1f3f0
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Personnalisation des vues de données
-
-*Version bêta fermée*
 
 ## Afficher les données pour un autre annonceur
 
@@ -86,6 +84,6 @@ Triez les vues suivantes à partir du mode Carte :
 
 * Bibliothèques Creative > [!UICONTROL Standard Ads] : triez les fichiers par [!UICONTROL Creative Name], par date de création ([!UICONTROL Created On]) ou par dernière mise à jour ([!UICONTROL Modified On]).
 
-* [!UICONTROL Experiences] : trier par date de début ([!UICONTROL Start On]) ([!UICONTROL Experience Name]) ou date de fin ([!UICONTROL End On]).
+* [!UICONTROL Experiences] : trier par date de début ([!UICONTROL Experience Name]) ([!UICONTROL Start On]) ou date de fin ([!UICONTROL End On]).
 
 ![Exemple d’options de tri](/help/creative/assets/sort.png "Exemple d’options de tri")

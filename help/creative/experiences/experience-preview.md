@@ -3,16 +3,14 @@ title: Prévisualisation d’une expérience
 description: Découvrez comment prévisualiser les contenus publicitaires dans une expérience publicitaire.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # Prévisualisation d’une expérience
-
-*Version bêta fermée*
 
 Vous pouvez prévisualiser les contenus publicitaires avec une taille d’annonce spécifique que les visiteurs cibles verront pour une expérience, y compris tous les liens hypertexte. Pour les expériences avec le ciblage de l’arborescence de décision, vous pouvez prévisualiser un élément créatif unique, les éléments créatifs d’une branche particulière (type de cible) ou tous les éléments créatifs de l’expérience. Pour les expériences sans ciblage d’arbre de décision, vous pouvez prévisualiser une seule création. <!-- verify -->
 

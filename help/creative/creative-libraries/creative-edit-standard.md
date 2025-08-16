@@ -3,16 +3,14 @@ title: Modification de contenus publicitaires standard dans une bibliothèque de
 description: Découvrez comment modifier les paramètres des contenus publicitaires standard (non dynamiques) dans une bibliothèque de contenus publicitaires.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # Modification de contenus publicitaires standard dans une bibliothèque de contenus publicitaires
-
-*Version bêta fermée*
 
 Vous pouvez modifier certains paramètres pour chaque type de contenu créatif standard. Vous pouvez modifier plusieurs contenus publicitaires<!-- or creative variations --> du même type (HTML simple avec une seule landing page, HTML5 statique avec plusieurs landing pages, HTML5 flexible, image ou tiers<!-- , or dynamic -->) uniquement.
 

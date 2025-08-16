@@ -3,16 +3,14 @@ title: Création d’une expérience avec le ciblage d’arborescence de décisi
 description: Découvrez comment créer une expérience d’annonce publicitaire ciblée à l’aide d’une arborescence de décision.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: e79becc860143b749ec96134e7b224649686c672
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
 # Création d’une expérience avec le ciblage d’arborescence de décision
-
-*Version bêta fermée*
 
 Créez une expérience d’annonce publicitaire ciblée à l’aide d’une arborescence de décision. Chaque expérience utilise les annonces d’une seule bibliothèque de contenu créatif.
 

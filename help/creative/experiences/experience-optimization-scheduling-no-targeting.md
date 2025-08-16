@@ -3,9 +3,9 @@ title: Personnaliser l’optimisation et la planification de la création pour u
 description: Découvrez comment
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 7fee6e0f6e8ad6dbf0329d707af7303ac7229dc9
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Personnaliser l’optimisation créative et la planification d’une expérience sans ciblage d’arbre de décision
 
 *Expériences avec des contenus publicitaires existants uniquement*
-*Version bêta fermée*
 
 Par défaut, la rotation des créations pour une balise d’expérience publicitaire est déterminée par algorithme afin d’optimiser le taux de clic publicitaire global, et les paramètres d’optimisation des créations s’appliquent à toutes les créations attribuées. Vous pouvez personnaliser la rotation des contenus publicitaires afin de les exécuter manuellement en fonction du poids relatif ou de les optimiser par algorithme pour un objectif personnalisé Advertising DSP spécifié. Vous pouvez également planifier l’exécution de contenus publicitaires spécifiques pendant des périodes séquentielles spécifiées et appliquer des paramètres de rotation de contenu publicitaire personnalisés pour chaque planning.
 

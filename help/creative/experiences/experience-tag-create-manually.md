@@ -3,9 +3,9 @@ title: Création manuelle d’une balise d’annonce publicitaire pour une taill
 description: Découvrez comment créer une balise d’annonce publicitaire pour une taille de contenu créatif spécifique.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: e79becc860143b749ec96134e7b224649686c672
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # (Expériences sans ciblage) Création manuelle d’une balise d’annonce publicitaire pour une taille de contenu créatif applicable
 
 *Expériences sans ciblage d’arborescence de décision uniquement*
-*Version bêta fermée*
 
 Vous pouvez créer une ou plusieurs balises d’annonce publicitaire par langue pour chaque taille de contenu créatif (contenus non vidéo) ou durée de la vidéo utilisée pour une expérience. Vous pouvez ensuite [affecter des contenus publicitaires à la balise publicitaire](experience-tag-assign-creatives.md).
 

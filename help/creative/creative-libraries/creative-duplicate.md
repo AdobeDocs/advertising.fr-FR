@@ -3,16 +3,14 @@ title: Dupliquer les contenus publicitaires
 description: Découvrez comment dupliquer des contenus publicitaires dans une bibliothèque de contenus publicitaires.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
 
 # Dupliquer les contenus publicitaires
-
-*Version bêta fermée*
 
 Dupliquez des contenus publicitaires pour ajouter de nouveaux contenus publicitaires présentant les mêmes paramètres à la même bibliothèque. Vous pouvez ensuite renommer les nouveaux contenus publicitaires et modifier les paramètres créatifs selon vos besoins.
 
