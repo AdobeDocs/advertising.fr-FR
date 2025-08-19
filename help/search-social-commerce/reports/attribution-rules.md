@@ -2,10 +2,10 @@
 title: Méthode de calcul des règles d’attribution
 description: Découvrez comment Adobe Advertising calcule chaque type de règle d’attribution.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
-feature: Search Reports
-source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
+feature: Search Reports, DSP Custom Reports
+source-git-commit: 513d81cf835ccbffa16581799f0dc8306681e3ad
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,19 @@ ht-degree: 0%
 
 La règle d’attribution au niveau de l’annonceur est utilisée pour attribuer des données de conversion, potentiellement sur plusieurs canaux publicitaires, dans une série d’événements qui conduisent à une conversion.
 
-Dans les rapports, les vues par défaut et personnalisées pour les simulations au niveau du portfolio Advertising Search, Social et Commerce (Search, Social et Commerce), et (certains rôles utilisateur) pour les simulations Search, Social et Commerce, la règle sélectionnée n’est utilisée que pour les données d’affichage, de rapport ou de simulation. Les différentes règles d’attribution sont appliquées comme suit.
+Vous pouvez également sélectionner une règle d’attribution aux emplacements suivants pour appliquer la règle uniquement aux données résultantes :
+
+* DSP
+
+   * Rapports personnalisés avec attribution multipoint
+
+* Recherche, réseaux sociaux et Commerce
+
+   * Rapports personnalisés
+
+   * Vues par défaut et personnalisées
+
+   * (Certains rôles utilisateur) Simulations au niveau du Portfolio.
 
 >[!NOTE]
 >
