@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Découvrez comment générer le [!UICONTROL Custom Creative Report] d’expériences croisées.
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 03d3f3c43bfe58f2dcab998e1d95f1e512f54b20
+source-git-commit: bf969c1b3cc57e2ef83087952a9bac530b276916
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2021'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Le [!UICONTROL Custom Creative Report] vous permet de personnaliser le contenu et la diffusion des données de rapport pour toutes vos expériences publicitaires.
 
-Vous pouvez générer des rapports une fois ou les planifier tous les jours, toutes les semaines ou tous les mois à 03:00 dans le fuseau horaire spécifié, selon des critères précis (par exemple, tous les 15 jours ou le 1er de chaque mois). Une fois qu’un rapport est généré, vous pouvez le télécharger à partir de [!UICONTROL Reports] > [!UICONTROL Custom Reports] ou à partir de [destinations de rapport](/help/dsp/reports/report-destinations/report-destination-about.md) liées des types suivants :
+Vous pouvez générer des rapports une fois ou les planifier tous les jours, toutes les semaines ou tous les mois à 03:00 dans le fuseau horaire spécifié en fonction de critères précis (par exemple, tous les 15 jours ou le 1er de chaque mois). Une fois qu’un rapport est généré, vous pouvez le télécharger à partir de [!UICONTROL Reports] > [!UICONTROL Custom Reports] ou à partir de [destinations de rapport](/help/dsp/reports/report-destinations/report-destination-about.md) liées des types suivants :
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
-* &#x200B;<!-- (in beta) --> SSL FTP
+* <!-- (in beta) --> SSL FTP
 * SFTP
 
 ## Création d’un [!UICONTROL Custom Creative Report]
@@ -161,7 +161,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 * *[!UICONTROL FTP]:* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
+* *[!UICONTROL FTP SSL](actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
 
 * *[!UICONTROL Email]:* pour spécifier la ou les adresses e-mail auxquelles envoyer les rapports terminés ou les notifications si le rapport est annulé en raison d’erreurs.
 
