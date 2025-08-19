@@ -20,7 +20,7 @@ Vous pouvez générer des rapports une fois ou les planifier tous les jours, tou
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
-* <!-- (in beta) --> SSL FTP
+* &#x200B;<!-- (in beta) --> SSL FTP
 * SFTP
 
 ## Création d’un [!UICONTROL Custom Creative Report]
@@ -161,7 +161,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 * *[!UICONTROL FTP]:* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL](actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
+* *[!UICONTROL FTP SSL] (actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
 
 * *[!UICONTROL Email]:* pour spécifier la ou les adresses e-mail auxquelles envoyer les rapports terminés ou les notifications si le rapport est annulé en raison d’erreurs.
 
