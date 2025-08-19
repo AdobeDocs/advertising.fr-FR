@@ -3,9 +3,9 @@ title: Méthode de calcul des règles d’attribution
 description: Découvrez comment Adobe Advertising calcule chaque type de règle d’attribution.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports, DSP Custom Reports
-source-git-commit: 513d81cf835ccbffa16581799f0dc8306681e3ad
+source-git-commit: 4450592aa0406a28da5e2f426ac31a07ba2fe5c3
 workflow-type: tm+mt
-source-wordcount: '2711'
+source-wordcount: '2707'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Vous pouvez également sélectionner une règle d’attribution aux emplacements
 
 * DSP
 
-   * Rapports personnalisés avec attribution multipoint
+   * Rapports personnalisés
 
 * Recherche, réseaux sociaux et Commerce
 
-   * Rapports personnalisés
+   * Rapports
 
    * Vues par défaut et personnalisées
 
