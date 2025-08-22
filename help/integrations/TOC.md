@@ -52,4 +52,4 @@ ht-degree: 11%
 + Intégration avec Adobe Customer Journey Analytics {#customer-journey-analytics}
    + [Vue d’ensemble](/help/integrations/customer-journey-analytics/overview.md)
    + [Conditions préalables](/help/integrations/customer-journey-analytics/prerequisites.md)
-+ [Vidéos Tutoriels Sur Les Intégrations Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
++ [Vidéos Tutoriels Sur Les Intégrations Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=fr)<!-- rename if the tutorials TOC structure changes -->
