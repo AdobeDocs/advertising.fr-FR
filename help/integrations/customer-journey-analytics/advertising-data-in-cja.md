@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 
+>* &#x200B;
 >* « Nom du champ XDM » est le nom du champ dans Adobe Experience Platform.
 >* « Nom d’affichage du champ XDM » indique le nom d’affichage dans Customer Journey Analytics.
 
