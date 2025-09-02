@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Annonceurs avec Advertising DSP et[!DNL Advertising Search, Social, & Commerce]*
 
-* Technologies de modélisation et de gestion des données de Adobe Experience Platform (y compris [schémas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) et [jeux de données](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) et [technologies de collecte de données](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (y compris [flux de données](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) et [balises](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
+* Technologies de modélisation et de gestion des données de Adobe Experience Platform (y compris [schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) et [jeux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/overview)) et [technologies de collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/home) (y compris [flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/overview) et [balises](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/home))
 
   Ces technologies nécessitent la prise en charge de l’administrateur de votre site Experience Platform.
 
