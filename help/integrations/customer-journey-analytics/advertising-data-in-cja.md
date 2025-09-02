@@ -2,7 +2,7 @@
 title: Mesures et dimensions Adobe Advertising dans Customer Journey Analytics
 description: Référencez les mesures et dimensions Adobe Advertising disponibles dans Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: eddd9c997ada380d5624703b82bca189be90b893
+source-git-commit: c3836d8af50061701434790b2bd9214df29e8a01
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -13,10 +13,7 @@ ht-degree: 0%
 
 *Publicitaires avec une intégration Adobe Advertising-Customer Journey Analytics uniquement*
 
->[!NOTE]
->
->* Adobe Advertising transmet quotidiennement aux [!DNL Customer Journey Analytics] les mesures et dimensions de trafic.
->* [!DNL Web SDK] capture les clics publicitaires et les affichages publicitaires d’Adobe Advertising en temps réel et les transmet à Customer Journey Analytics.
+Adobe Advertising transmet quotidiennement aux [!DNL Customer Journey Analytics] les mesures et dimensions de trafic. [!DNL Web SDK] capture les clics publicitaires et les affichages publicitaires d’Adobe Advertising en temps réel et les transmet à Customer Journey Analytics.
 
 ## mesures de trafic Adobe Advertising
 
@@ -24,7 +21,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* &#x200B;
 >* « Nom du champ XDM » est le nom du champ dans Adobe Experience Platform.
 >* « Nom d’affichage du champ XDM » indique le nom d’affichage dans Customer Journey Analytics.
 
