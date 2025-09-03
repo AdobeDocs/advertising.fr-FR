@@ -2,14 +2,16 @@
 title: Configurer la collecte de données, le transfert de données et la création de rapports
 description: Découvrez comment configurer la collecte de données, le transfert de données et la création de rapports.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: cbfdc1ca3334debe984c1a86249cc65d3567ff5b
+source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
 # Configurer la collecte de données, le transfert de données et la création de rapports
+
+*Fonction Beta*
 
 Les tâches suivantes sont requises pour afficher les données Advertising Cloud dans Customer Journey Analytics.
 
@@ -36,5 +38,5 @@ The following procedures explain the steps required to view Advertising Cloud da
 >* [ID Adobe Advertising utilisés par  [!DNL Customer Journey Analytics]](ids.md)
 >* [Mesures et dimensions Adobe Advertising dans Customer Journey Analytics](advertising-data-in-cja.md)
 >* [Collecter des données historiques pour les identifiants AMO et EF à utiliser dans Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
->* Guide de [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing)
->* Customer Journey Analytics [Guide de l’utilisateur pour les utilisateurs d’Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
+>* Guide de [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
+>* Customer Journey Analytics [Guide de l’utilisateur pour les utilisateurs d’Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
