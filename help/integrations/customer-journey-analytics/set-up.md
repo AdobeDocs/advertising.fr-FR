@@ -36,5 +36,5 @@ The following procedures explain the steps required to view Advertising Cloud da
 >* [ID Adobe Advertising utilisés par  [!DNL Customer Journey Analytics]](ids.md)
 >* [Mesures et dimensions Adobe Advertising dans Customer Journey Analytics](advertising-data-in-cja.md)
 >* [Collecter des données historiques pour les identifiants AMO et EF à utiliser dans Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
->* Guide de [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
->* Customer Journey Analytics [Guide de l’utilisateur pour les utilisateurs d’Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
+>* Guide de [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing)
+>* Customer Journey Analytics [Guide de l’utilisateur pour les utilisateurs d’Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
