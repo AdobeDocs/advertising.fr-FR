@@ -3,9 +3,9 @@ title: Personnaliser l’optimisation et la planification de la création pour u
 description: Découvrez comment
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Lorsque la planification des créations est désactivée, les paramètres d’op
 
    * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**.
 
-1. Placez le curseur sur la ligne correspondant à la balise d’annonce publicitaire applicable et cliquez sur ![Planifier l’annonce](/help/creative/assets/edit-gray.png "Modifier les URL de suivi") **[!UICONTROL Ad Schedule]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— Tag Manager n’a qu’une vue Liste, mais pas de vue Carte, à partir du 2/2. >
+1. Placez le curseur sur la ligne correspondant à la balise d’annonce publicitaire applicable et cliquez sur ![Planifier l’annonce](/help/creative/assets/edit-gray.png "Modifier les URL de suivi") **[!UICONTROL Creative Optimization]**.&lt;!— Tag Manager n’a qu’une vue Liste, mais pas de vue Carte, à partir du 2/2. >
 
 1. Désactivez **[!UICONTROL Schedule]**.
 
@@ -39,6 +39,16 @@ Lorsque la planification des créations est désactivée, les paramètres d’op
    * *[!UICONTROL Algorithmic]:* fait pivoter les contenus publicitaires de manière algorithmique en fonction d’un objectif d’optimisation spécifié.
 
       * Pour l’**[!UICONTROL Optimization Goal]**, sélectionnez *[!UICONTROL Click Through Rate]*, (expériences publicitaires vidéo standard) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Si vous sélectionnez *[!UICONTROL Custom Objective]*, sélectionnez un [objectif personnalisé Advertising DSP existant](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
+
+   * *[!UICONTROL Sequencing]:* fait pivoter les lots de création associés dans un ordre spécifié (le lot 1 étant servi en premier, le lot 2 étant servi en deuxième, etc.), avec un nombre total spécifié d’impressions sur chaque séquence de lots. Les tailles des annonces diffusées sont déterminées par l’inventaire disponible. Vous pouvez configurer le lot final de la séquence pour qu’il s’affiche indéfiniment (valeur par défaut) ou qu’il reboucle sur le premier lot. Par exemple, vous pouvez afficher l’un des contenus publicitaires du lot 1 pour trois (3) impressions, puis afficher l’un des contenus publicitaires du lot 2 pour une (1) impression, puis afficher l’un des contenus publicitaires du lot 3 pour deux (2) impressions, et recommencer la boucle. Vous pouvez également continuer à afficher les contenus publicitaires du lot 3 indéfiniment une fois qu’ils sont affichés, au lieu de créer une boucle. Lorsque vous activez le séquencement :
+
+      1. Faites glisser et déposez les lots affectés dans l’ordre souhaité.
+
+     Par défaut, les lots affectés sont séquencés dans l’ordre dans lequel ils ont été ajoutés à l’expérience.
+
+      1. Saisissez le nombre d’impressions pour chaque séquence.
+
+      1. Pour la dernière séquence, indiquez si a\) doit afficher le lot final de la séquence indéfiniment (*[!UICONTROL Infinite]* (valeur par défaut) ou b\) en boucle sur le premier lot une fois le lot final affiché (*[!UICONTROL Keep in Loop]*).
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -56,7 +66,7 @@ Lorsque vous utilisez la planification, vous devez planifier les contenus public
 
    * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**.
 
-1. Placez le curseur sur la ligne correspondant à la balise d’annonce publicitaire applicable et cliquez sur ![Planifier l’annonce](/help/creative/assets/edit-gray.png "Modifier les URL de suivi") **[!UICONTROL Ad Schedule]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— Tag Manager n’a qu’une vue Liste, mais pas de vue Carte, à partir du 2/2. >
+1. Placez le curseur sur la ligne correspondant à la balise d’annonce publicitaire applicable et cliquez sur ![Planifier l’annonce](/help/creative/assets/edit-gray.png "Modifier les URL de suivi") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— Tag Manager n’a qu’une vue Liste, mais pas de vue Carte, à partir du 2/2. >
 
 1. Activez **[!UICONTROL Schedule]**.
 
@@ -74,6 +84,16 @@ Lorsque vous utilisez la planification, vous devez planifier les contenus public
 
          * Pour l’**[!UICONTROL Optimization Goal]**, sélectionnez *[!UICONTROL Click Through Rate]*, (expériences publicitaires vidéo standard) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Si vous sélectionnez *[!UICONTROL Custom Objective]*, sélectionnez un [objectif personnalisé Advertising DSP existant](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
 
+      * *[!UICONTROL Sequencing]:* fait pivoter les lots de création associés dans un ordre spécifié (le lot 1 étant servi en premier, le lot 2 étant servi en deuxième, etc.), avec un nombre total spécifié d’impressions sur chaque séquence de lots. Les tailles des annonces diffusées sont déterminées par l’inventaire disponible. Vous pouvez configurer le lot final de la séquence pour qu’il s’affiche indéfiniment (valeur par défaut) ou qu’il reboucle sur le premier lot. Par exemple, vous pouvez afficher l’un des contenus publicitaires du lot 1 pour trois (3) impressions, puis afficher l’un des contenus publicitaires du lot 2 pour une (1) impression, puis afficher l’un des contenus publicitaires du lot 3 pour deux (2) impressions, et recommencer la boucle. Vous pouvez également continuer à afficher les contenus publicitaires du lot 3 indéfiniment une fois qu’ils sont affichés, au lieu de créer une boucle. Lorsque vous activez le séquencement :
+
+         1. Faites glisser et déposez les lots affectés dans l’ordre souhaité.
+
+            Par défaut, les lots affectés sont séquencés dans l’ordre dans lequel ils ont été ajoutés à l’expérience.
+
+         1. Saisissez le nombre d’impressions pour chaque séquence.
+
+         1. Pour la dernière séquence, indiquez si a\) doit afficher le lot final de la séquence indéfiniment (*[!UICONTROL Infinite]* (valeur par défaut) ou b\) en boucle sur le premier lot une fois le lot final affiché (*[!UICONTROL Keep in Loop]*).
+
 1. Pour chaque planning supplémentaire :
 
    1. Cliquez sur **[!UICONTROL + Add Schedule]**.
@@ -89,6 +109,16 @@ Lorsque vous utilisez la planification, vous devez planifier les contenus public
       * *[!UICONTROL Algorithmic]:* fait pivoter les contenus publicitaires de manière algorithmique en fonction d’un objectif d’optimisation spécifié.
 
          * Pour le **[!UICONTROL Optimization Goal]**, sélectionnez *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Si vous sélectionnez *[!UICONTROL Custom Objective]*, sélectionnez un [objectif personnalisé Advertising DSP existant](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
+
+      * *[!UICONTROL Sequencing]:* fait pivoter les lots de création associés dans un ordre spécifié, avec un nombre total spécifié d’impressions sur chaque séquence de lots. Lorsque vous activez le séquencement :
+
+         1. Faites glisser et déposez les lots affectés dans l’ordre souhaité.
+
+            Par défaut, les lots affectés sont séquencés dans l’ordre dans lequel ils ont été ajoutés à l’expérience.
+
+         1. Saisissez le nombre d’impressions pour chaque séquence.
+
+         1. Pour la dernière séquence, indiquez si a\) doit afficher le lot final de la séquence indéfiniment (*[!UICONTROL Infinite]* (valeur par défaut) ou b\) en boucle sur le premier lot une fois le lot final affiché (*[!UICONTROL Keep in Loop]*).
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
