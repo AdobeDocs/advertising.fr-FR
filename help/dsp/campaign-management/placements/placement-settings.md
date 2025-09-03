@@ -3,9 +3,9 @@ title: Paramètres d’emplacement
 description: Voir les descriptions des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '4560'
+source-wordcount: '4586'
 ht-degree: 0%
 
 ---
@@ -332,6 +332,10 @@ Vous pouvez éventuellement exporter la liste des sites ciblés et bloqués dans
 * Pour sélectionner une audience existante, cliquez sur ![Sélectionner](/help/dsp/assets/chevron-down.png) en regard de [!UICONTROL Included Audiences], puis sélectionnez l’audience.
 * Pour créer une audience, cliquez sur ![Sélectionner](/help/dsp/assets/chevron-down.png) en regard de [!UICONTROL Included Audiences], puis sélectionnez **[!UICONTROL + Create Audience]**. Pour obtenir des instructions, voir [Création d’une audience réutilisable](/help/dsp/audiences/reusable-audience-create.md), en commençant par l’étape 3.
 * Pour sélectionner des segments d’audience spécifiques, cliquez sur **[!UICONTROL Select segments for this placement only]**. Sélectionnez la logique du segment. Pour obtenir des instructions, reportez-vous à l’étape 6 de la section « [ Création d’une audience réutilisable ](/help/dsp/audiences/reusable-audience-create.md) ». Lorsque vous avez terminé, cliquez sur **Enregistrer**.
+
+>[!NOTE]
+>
+>Les segments propriétaires RampID qui ne sont pas associés à un emplacement actif, planifié ou en pause sont suspendus. Dans la liste des segments, le segment est marqué comme étant « En pause automatique ».
 
 **[!UICONTROL Excluded Audiences]:** toutes les audiences à exclure de l&#39;emplacement, y compris les audiences avec des [segments tiers, segments propriétaires, segments Adobe, segments personnalisés et audiences enregistrées](/help/dsp/audiences/audience-settings.md). La taille totale et active de l’audience dédupliquée pour toutes les audiences exclues s’affiche également. Vous pouvez sélectionner une audience existante ou en créer une nouvelle que vous pourrez réutiliser ultérieurement :
 
