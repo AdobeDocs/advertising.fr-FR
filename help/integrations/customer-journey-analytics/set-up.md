@@ -2,9 +2,9 @@
 title: Configurer la collecte de données, le transfert de données et la création de rapports
 description: Découvrez comment configurer la collecte de données, le transfert de données et la création de rapports.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 2d6cba8d5a3d966b272c5048404ac8fdf0185b74
+source-git-commit: ab50a3f60651d52eb0b1e18909891c347aabdb77
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -33,111 +33,187 @@ Les sections suivantes incluent les procédures détaillées, notamment les tâc
 
 Les tâches suivantes sont nécessaires pour configurer la collecte de données dans Experience Platform et implémenter les balises de suivi des conversions. L’administrateur du site de votre entreprise pour Experience Platform peut effectuer ces tâches, mais le service informatique de votre entreprise peut avoir besoin d’aide pour déployer les balises de suivi.
 
-1. Collectez et envoyez des données d’Adobe Advertising vers Experience Platform Edge Network en tant que jeu de données :
+### Collecter et envoyer des données d’Adobe Advertising vers Experience Platform Edge Network en tant que jeu de données
 
-   1. Dans Experience Platform, [définissez un schéma manuel](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas) pour les données que vous souhaitez collecter à l’aide du modèle de données d’expérience (XDM).
+1. Dans Experience Platform, [définissez un schéma manuel](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas) pour les données que vous souhaitez collecter à l’aide du modèle de données d’expérience (XDM).
 
-      * Dans le [!UICONTROL Schema Details], sélectionnez **[!UICONTROL Experience Event]** comme classe de base du schéma pour capturer les événements du site. Nommez votre schéma, puis cliquez sur **[!UICONTROL Finish]**.
+   * Dans le [!UICONTROL Schema Details], sélectionnez **[!UICONTROL Experience Event]** comme classe de base du schéma pour capturer les événements du site. Nommez votre schéma, puis cliquez sur **[!UICONTROL Finish]**.
 
-      * Dans le panneau de gauche, ajoutez le groupe de champs `Adobe Advertising Cloud ExperienceEvent Full Extension` pour ajouter des champs spécifiques à Adobe Advertising.<!-- Add link once published --> Au minimum, incluez l’objet conversionDetails avec les propriétés `trackingCode` et `trackingIdentities`, qui incluent l’[AMO ID et l’EF ID](ids.html). Les autres champs sont facultatifs.
+   * Dans le panneau de gauche, ajoutez le groupe de champs `Adobe Advertising Cloud ExperienceEvent Full Extension` pour ajouter des champs spécifiques à Adobe Advertising.<!-- Add link once published --> Au minimum, incluez l’objet conversionDetails avec les propriétés `trackingCode` et `trackingIdentities`, qui incluent l’[AMO ID et l’EF ID](ids.md). Les autres champs sont facultatifs.
 
-      * (Facultatif) Ajoutez d’autres groupes de champs selon les besoins pour connecter des champs de données supplémentaires aux données Adobe Advertising.
+   * (Facultatif) Ajoutez d’autres groupes de champs selon les besoins pour connecter des champs de données supplémentaires aux données Adobe Advertising.
 
-      **Remarque :** vous pouvez créer plusieurs schémas, mais vous ne pouvez utiliser qu’un seul schéma par jeu de données et par flux de données, que vous allez créer dans les étapes suivantes.
+   **Remarque :** vous pouvez créer plusieurs schémas, mais vous ne pouvez utiliser qu’un seul schéma par jeu de données et par flux de données, que vous allez créer dans les étapes suivantes.
 
-   1. [Créez un jeu de données](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/create) basé sur le schéma pour stocker et gérer la collecte de données d’événement.
+1. [Créez un jeu de données](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create) basé sur le schéma pour stocker et gérer la collecte de données d’événement.
 
-      * Choisissez l’option pour **[!UICONTROL Create dataset from schema]** et sélectionner votre schéma.
+   * Choisissez l’option pour **[!UICONTROL Create dataset from schema]** et sélectionner votre schéma.
 
-        Adobe Advertising crée des jeux de données supplémentaires pour les données de mesures récapitulatives associées (telles que les valeurs de conversion) et les données de recherche (dimensions/métadonnées de classification, telles que le nom de campagne Adobe Advertising) en fonction de votre jeu de données d’événement. Les données des jeux de données sont renseignées quotidiennement dans Experience Platform.
+     Adobe Advertising crée des jeux de données supplémentaires pour les données de mesures récapitulatives associées (telles que les valeurs de conversion) et les données de recherche (dimensions/métadonnées de classification, telles que le nom de campagne Adobe Advertising) en fonction de votre jeu de données d’événement. Les données des jeux de données sont renseignées quotidiennement dans Experience Platform.
 
-   1. [Créez un flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure) pour le schéma.
+1. [Créez un flux de données](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) pour le schéma.
 
-      * Pour le paramètre [!UICONTROL Mapping schema] , sélectionnez votre schéma.
+   * Pour le paramètre [!UICONTROL Mapping schema] , sélectionnez votre schéma.
 
-      * Ajoutez et activez les services `Adobe Advertising` et `Adobe Experience Platform` au flux de données.
+   * Ajoutez et activez les services `Adobe Advertising` et `Adobe Experience Platform` au flux de données.
 
-        Ces services permettent à Edge Network de stocker le jeu de données et de l’acheminer vers Adobe Advertising.
+     Ces services permettent à Edge Network de stocker le jeu de données et de l’acheminer vers Adobe Advertising.
 
-      * Pour le paramètre [!UICONTROL Event dataset] , sélectionnez votre jeu de données.
+   * Pour le paramètre [!UICONTROL Event dataset] , sélectionnez votre jeu de données.
 
-        Chaque flux de données ne peut insérer des données que dans un seul jeu de données.
+     Chaque flux de données ne peut insérer des données que dans un seul jeu de données.
 
-1. Envoyez les données du site web de votre organisation au flux de données Experience Platform :
+### Envoyez les données du site web de votre organisation au flux de données Experience Platform :
 
-   1. Utilisez Experience Platform [balises](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/home) (anciennement appelée [!DNL Launch]) pour générer une balise JavaScript afin d’envoyer les données du site web de votre organisation au flux de données.
+1. Utilisez Experience Platform [balises](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) (anciennement appelée [!DNL Launch]) pour générer une balise JavaScript afin d’envoyer les données du site web de votre organisation au flux de données.
 
-      * Créez une propriété de balise, qui est le conteneur de la configuration de balise.
+   * Créez une propriété de balise, qui est le conteneur de la configuration de balise.
 
-      * Pour votre propriété, [installez l’extension « Adobe Experience Platform Web SDK »](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) à partir du catalogue d’extensions.
+   * Pour votre propriété, [installez l’extension « Adobe Experience Platform Web SDK »](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) à partir du catalogue d’extensions.
 
-        Cette extension envoie des données de vos propriétés web vers Experience Cloud via Experience Platform Edge Network.
+     Cette extension envoie des données de vos propriétés web vers Experience Cloud via Experience Platform Edge Network.
 
-        N’utilisez pas l’extension Adobe Advertising.
+     N’utilisez pas l’extension Adobe Advertising.
 
-      * Créez une version de Web SDK personnalisée :
+   * Créez une version de Web SDK personnalisée :
 
-         * Dans la section [!UICONTROL Custom build components], activez le composant **Advertising**.
+      * Dans la section [!UICONTROL Custom build components], activez le composant **Advertising**.
 
-           Ce composant inclut tout le code JavaScript nécessaire pour Adobe Advertising dans la balise . Elle ajoute également un paramètre « Advertising » dans les règles de balise (qui sont facultatives) pour définir la manière dont les données publicitaires sont utilisées pour la mesure d’attribution.
+        Ce composant inclut tout le code JavaScript nécessaire pour Adobe Advertising dans la balise . Elle ajoute également un paramètre « Advertising » dans les règles de balise (qui sont facultatives) pour définir la manière dont les données publicitaires sont utilisées pour la mesure d’attribution.
 
-           Vous pouvez éventuellement activer des composants supplémentaires selon vos besoins.
+        Vous pouvez éventuellement activer des composants supplémentaires selon vos besoins.
 
-         * Dans la section [!UICONTROL SDK Instances] :
+      * Dans la section [!UICONTROL SDK Instances] :
 
-            * Dans les paramètres [!UICONTROL Datastreams], sélectionnez le flux de données à utiliser pour chacun de vos environnements web (production, évaluation, développement).
+         * Dans les paramètres [!UICONTROL Datastreams], sélectionnez le flux de données à utiliser pour chacun de vos environnements web (production, évaluation, développement).
 
-            * (Organisations avec Adobe Advertising DSP uniquement) Dans les paramètres [!UICONTROL Adobe Advertising] :
+         * (Organisations avec Adobe Advertising DSP uniquement) Dans les paramètres [!UICONTROL Adobe Advertising] :
 
-               * Activez le paramètre **[!UICONTROL Adobe Advertising DSP]** pour activer le suivi des affichages publicitaires.
+            * Activez le paramètre **[!UICONTROL Adobe Advertising DSP]** pour activer le suivi des affichages publicitaires.
 
-               * Spécifiez les annonceurs pour lesquels activer le suivi des affichages publicitaires.
+            * Spécifiez les annonceurs pour lesquels activer le suivi des affichages publicitaires.
 
-               * (Facultatif) Saisissez l’ID5 du partenaire de votre organisation pour collecter les ID.
+            * (Facultatif) Saisissez l’ID5 du partenaire de votre organisation pour collecter les ID.
 
-               * (Facultatif) Saisissez le chemin d’accès du code JavaScript [!DNL LiveRamp RampID] de votre organisation (ats.js) pour collecter les identifiants.
+            * (Facultatif) Saisissez le chemin d’accès du code JavaScript [!DNL LiveRamp RampID] de votre organisation (ats.js) pour collecter les identifiants.
 
-            * Enregistrez la version.
+         * Enregistrez la version.
 
-      * (Facultatif) [Créez des règles](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/ui/rules) selon les besoins pour déterminer à quel moment Web SDK doit envoyer des données à Edge Network.
+   * (Facultatif) [Créez des règles](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules) selon les besoins pour déterminer à quel moment Web SDK doit envoyer des données à Edge Network.
 
-         * Pour le paramètre [!UICONTROL Advertising] , définissez la manière dont les données publicitaires sont utilisées pour la mesure d’attribution. Ce paramètre s’avère utile lorsque la règle inclut une séquence de plusieurs actions et n’est disponible que lorsque vous avez sélectionné le composant « [!UICONTROL Advertising] » pour le composant de version personnalisé. Les options incluent :
+      * Pour le paramètre [!UICONTROL Advertising] , définissez la manière dont les données publicitaires sont utilisées pour la mesure d’attribution. Ce paramètre s’avère utile lorsque la règle inclut une séquence de plusieurs actions et n’est disponible que lorsque vous avez sélectionné le composant « [!UICONTROL Advertising] » pour le composant de version personnalisé. Les options incluent :
 
-           *Automatique :* permet d’utiliser les données publicitaires pour mesurer l’attribution des annonces sur l’action `sendEvent` actuelle en fonction des données du cache. Dans ce cas, l’événement d’exposition à la publicité se déclenche lorsqu’il en a l’occasion et il peut ne pas être disponible pour l’événement actuel. Par exemple, si vous déclenchez un événement de passage en caisse pour un achat et qu’aucune donnée d’exposition aux annonces n’est disponible dans le cache, l’événement de passage en caisse n’est pas attribué à l’exposition aux annonces.
+        *Automatique :* permet d’utiliser les données publicitaires pour mesurer l’attribution des annonces sur l’action `sendEvent` actuelle en fonction des données du cache. Dans ce cas, l’événement d’exposition à la publicité se déclenche lorsqu’il en a l’occasion et il peut ne pas être disponible pour l’événement actuel. Par exemple, si vous déclenchez un événement de passage en caisse pour un achat et qu’aucune donnée d’exposition aux annonces n’est disponible dans le cache, l’événement de passage en caisse n’est pas attribué à l’exposition aux annonces.
 
-           *Attente :* retarde l’exécution de l’appel jusqu’à ce que les données de publicité soient récupérées avec succès du serveur et résolues, ce qui garantit une mesure d’attribution précise. Par exemple, vous pouvez attendre que l’événement d’exposition aux publicités se résolve avant de déclencher un événement de passage en caisse d’achat. **Remarque :** la résolution des identifiants peut prendre quelques secondes selon le navigateur et le type d’identifiant. Utilisez cette option si l’action `sendEvent` en cours peut prendre en charge quelques secondes de retard.
+        *Attente :* retarde l’exécution de l’appel jusqu’à ce que les données de publicité soient récupérées avec succès du serveur et résolues, ce qui garantit une mesure d’attribution précise. Par exemple, vous pouvez attendre que l’événement d’exposition aux publicités se résolve avant de déclencher un événement de passage en caisse d’achat. **Remarque :** la résolution des identifiants peut prendre quelques secondes selon le navigateur et le type d’identifiant. Utilisez cette option si l’action `sendEvent` en cours peut prendre en charge quelques secondes de retard.
 
-           *Désactivé :* (valeur par défaut) exclut les données publicitaires de la requête que vous déclenchez, ce qui les rend indisponibles pour l’attribution ou le suivi associé.
+        *Désactivé :* (valeur par défaut) exclut les données publicitaires de la requête que vous déclenchez, ce qui les rend indisponibles pour l’attribution ou le suivi associé.
 
-           *Fournir un élément de données :* utilisez un élément de données pour inclure ou exclure des données publicitaires lors du chargement de la page. Les valeurs résolues pour l’élément de données peuvent inclure `automatic`, `wait` et `disabled`. Pour plus d’informations, reportez-vous à l’étape suivante.
+        *Fournir un élément de données :* utilisez un élément de données pour inclure ou exclure des données publicitaires lors du chargement de la page. Les valeurs résolues pour l’élément de données peuvent inclure `automatic`, `wait` et `disabled`. Pour plus d’informations, reportez-vous à l’étape suivante.
 
-        Si vous n’utilisez pas de règle pour configurer une action de `sendEvent`, les données de publicité sont envoyées sous la forme d’un événement d’enrichissement d’annonce distinct.
+     Si vous n’utilisez pas de règle pour configurer une action de `sendEvent`, les données de publicité sont envoyées sous la forme d’un événement d’enrichissement d’annonce distinct.
 
-      * Créez des [éléments de données](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/ui/data-elements) selon vos besoins pour mapper les variables de votre site web à la structure du schéma XDM que vous avez créé précédemment.
+   * Créez des [éléments de données](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) selon vos besoins pour mapper les variables de votre site web à la structure du schéma XDM que vous avez créé précédemment.
 
-   1. [Publiez la balise](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/publishing-flow) dans un environnement de test dans lequel vous pouvez effectuer une itération sur le développement des balises.
+1. [Publiez la balise](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) dans un environnement de test dans lequel vous pouvez effectuer une itération sur le développement des balises.
 
-   1. Validez la diffusion des jeux de données, puis [publiez la balise dans votre environnement de production en ligne](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/publishing-flow).
+1. Validez la diffusion des jeux de données, puis [publiez la balise dans votre environnement de production en ligne](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow).
 
-      Le service informatique de votre entreprise ou un autre groupe peut avoir besoin de planifier le déploiement des balises ou d’être informé à ce sujet.
+   Le service informatique de votre entreprise ou un autre groupe peut avoir besoin de planifier le déploiement des balises ou d’être informé à ce sujet.
 
 ## Créer une connexion à vos jeux de données Experience Platform dans Customer Journey Analytics {#dataset-connection}
 
 Pour extraire des données Adobe Advertising de vos jeux de données Experience Platform dans Customer Journey Analytics, procédez comme suit. L’administrateur ou l’administratrice du site de votre entreprise pour Customer Journey Analytics peut effectuer ces tâches.
 
-*Bientôt disponible*
+1. Dans Customer Journey Analytics, [créez une connexion](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) qui inclut vos jeux de données et votre schéma Experience Platform.
+
+   **Remarque :** actuellement, vous devez envoyer des données pour tous les comptes DSP et Search, Social et Commerce à une seule instance Experience Platform et à un seul sandbox.
+
+   * Ajoutez votre jeu de données d’événement Experience Platform (mesures), de résumé (mesures) et de dimensions (classifications/métadonnées).
+
+     Votre équipe a créé le jeu de données d’événement et Adobe Advertising les jeux de données de résumé et de dimensions en fonction de votre jeu de données d’événement.
+
+     Vous pouvez éventuellement inclure des jeux de données supplémentaires selon vos besoins.
+
+   * Mappez le jeu de données des dimensions au jeu de données des événements :
+
+      1. Ouvrez les paramètres du jeu de données de dimension.
+
+         L’en-tête de la page des paramètres est « [!UICONTROL Lookup Dataset] », ce qui indique que vous pouvez joindre votre jeu de données de dimensions à l’un de vos jeux de données spécifiques aux mesures.
+
+      1. Dans la section [!UICONTROL Adobe Advertising Dimensions] , mappez le jeu de données des dimensions au jeu de données des événements :
+
+         1. Pour le champ [!UICONTROL Key] , sélectionnez le champ à utiliser comme clé pour le jeu de données des dimensions : `Adobe Advertising ID` (qui est identique au champ `trackingCode` dans le schéma).
+
+         1. Pour le champ [!UICONTROL Matching key] , sélectionnez le champ à utiliser comme clé correspondante pour le jeu de données d’événements. Les noms de champ disponibles incluent le nom du jeu de données entre parenthèses. Par exemple, si vous mappez votre jeu de données de dimensions à votre jeu de données d’événements, sélectionnez `Tracking Code (Event datasets)`.
+
+         Plus tard, vous mapperez également le jeu de données d’événements au jeu de données de résumé lorsque vous configurerez votre ou vos vue(#cja-data-views) de données.
+
+1. Au bout de quelques heures, vérifiez que les données sont disponibles dans Customer Journey Analytics.
+
+   1. Dans Customer Journey Analytics, accédez à **[!UICONTROL Connections]** et sélectionnez votre connexion.
+
+   1. Dans la liste des jeux de données affichée, vérifiez que le rapport « [!UICONTROL Number of Records] » indique que des données ont été ajoutées.
 
 ## Configurer des vues de données dans Customer Journey Analytics {#cja-data-views}
 
 Dans Customer Journey Analytics, créez une ou plusieurs vues de données pour définir les mesures et dimensions de la création de rapports. Un analyste web peut effectuer ces tâches.
 
-*Bientôt disponible*
+1. Dans Customer Journey Analytics, [créez une vue de données](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview).
+
+1. Configurez la vue pour inclure les informations suivantes.
+
+   * Si vous disposez d’un compte Adobe Analytics, utilisez le [!UICONTROL Time Zone] correspondant à votre compte [!DNL Analytics] dans la section [!UICONTROL Calendar] de l’onglet [!UICONTROL Configure] .
+
+   * Dans l’onglet [!UICONTROL Components] :
+
+      * Ajoutez vos dimensions, événements et jeux de données de résumé.
+
+      * Choisissez des mesures à partir de votre jeu de données d’événements (mesures) et de vos jeux de données de dimensions (classifications/métadonnées) à inclure dans la vue de données.
+
+        Vous avez déjà joint ces deux jeux de données dans la connexion que vous avez créée dans la [dernière procédure](#dataset-connection).
+
+      * Joignez le jeu de données d’événements au jeu de données de résumé, qui n’a encore été joint à rien :
+
+         * Pour chaque dimension contenant des données récapitulatives que vous souhaitez rendre disponibles dans Customer Journey Analytics, [créez un champ dérivé](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields).
+
+           Par exemple, pour afficher les données récapitulatives des campagnes, créez un champ dérivé pour la dimension `Adobe Advertising Campaign`.
+
+           Vous lierez les deux jeux de données à l’aide de la clé correspondante `trackingCode` (qui est le champ de schéma pour l’Adobe Advertising ID).
+
+            * Dans la section [!UICONTROL Lookup] du créateur de règles dérivées :
+
+               * Pour le champ **[!UICONTROL Value]** , sélectionnez « [!UICONTROL Tracking Code] » dans le jeu de données Résumé des mesures .
+
+               * Pour le champ **[!UICONTROL Lookup dataset]** , sélectionnez le jeu de données des dimensions (par exemple, « Classification Adobe Advertising »).
+
+               * Pour le champ **[!UICONTROL Matching Key]** , sélectionnez « [!UICONTROL Tracking Code] » dans le jeu de données de classification.
+
+               * Pour le champ **[!UICONTROL Values to return]** , sélectionnez la dimension (par exemple « [!UICONTROL Adobe Advertising Campaign] ») dans le jeu de données de classification.
+
+           Le nom du champ dérivé est ajouté avec « (DF) », par exemple `Adobe Advertising Campaign(DF)`.
+
+         * Pour chaque champ dérivé :
+
+            * Dans la section [!UICONTROL Included components] , ajoutez le champ dérivé.
+
+              Deux noms sont désormais répertoriés pour la même dimension (par exemple, « Adobe Advertising Campaign(DF) » (le champ dérivé) et « Adobe Advertising Campaign » (le champ du jeu de données de résumé).
+
+            * Sélectionnez la dimension dans le jeu de données de résumé (par exemple, « Adobe Advertising Campaign ») et modifiez les paramètres du jeu de données.
+
+              Les paramètres s’ouvrent à droite.
+
+               * Dans la section Synthèse du groupe de données , sélectionnez l’option à **[!UICONTROL Create grouping]**.
+
+               * Pour le champ **[!UICONTROL Dimension]** , sélectionnez le champ dérivé (qui est ajouté avec « (DF) », tel que « Adobe Advertising Campaign(DF) »).
+
+               * Sélectionnez l’option à **[!UICONTROL Hide in reporting]**, ce qui masque le nom du champ dérivé dans Workspace.
 
 ## Configurer des rapports et des visualisations dans Customer Journey Analytics Workspace {#cja-reports}
 
 Dans Customer Journey Analytics Workspace, procédez comme suit pour configurer des rapports et des visualisations. Un analyste web peut effectuer ces tâches.
 
-1. [Créez un projet](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects) dans Workspace pour créer des rapports et des visualisations en fonction des dimensions et des mesures configurées dans la vue de données.
+1. [Créez un projet](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects) dans Workspace pour créer des rapports et des visualisations en fonction des dimensions et des mesures configurées dans la vue de données.
 
 1. (Si vous disposez de données provenant de [!DNL Google Ads] ou [!DNL Microsoft Advertising]) Créez un rapport des conversions suivies par l’éditeur à l’aide de champs pour les mesures spécifiques au réseau publicitaire, qui sont regroupées sous la forme `googleConversions` et `microsoftConversions`.
 
@@ -148,5 +224,5 @@ Dans Customer Journey Analytics Workspace, procédez comme suit pour configurer 
 >* [ID Adobe Advertising utilisés par  [!DNL Customer Journey Analytics]](ids.md)
 >* [Mesures et dimensions Adobe Advertising dans Customer Journey Analytics](advertising-data-in-cja.md)
 >* [Collecter des données historiques pour les identifiants AMO et EF à utiliser dans Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
->* Guide de [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing)
->* Customer Journey Analytics [Guide de l’utilisateur pour les utilisateurs d’Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
+>* Guide de [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
+>* Customer Journey Analytics [Guide de l’utilisateur pour les utilisateurs d’Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
