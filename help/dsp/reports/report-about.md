@@ -3,9 +3,9 @@ title: À Propos Des Rapports Personnalisés
 description: Découvrez les options permettant de créer des rapports personnalisés manuellement ou d’utiliser des modèles de rapport préconfigurés.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: a3e6324edcf5a52f6338ce969034cd9c4b6fb487
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Les rapports personnalisés vous permettent de personnaliser le contenu et la di
 
 * Faites votre choix parmi les modèles de rapport préconfigurés et, éventuellement, personnalisez-les davantage.
 
-Vous pouvez générer des rapports une fois ou les planifier de manière quotidienne, hebdomadaire ou mensuelle à 03h00 dans le fuseau horaire spécifié, selon des critères précis (par exemple, tous les 15 jours ou le 1er de chaque mois). Une fois qu’un rapport est généré, vous pouvez le télécharger à partir de [!UICONTROL Reports] > [!UICONTROL Custom Reports] ou à partir de [destinations de rapport](/help/dsp/reports/report-destinations/report-destination-about.md) liées des types suivants :
+Vous pouvez générer des rapports une fois ou les planifier tous les jours, toutes les semaines ou tous les mois à 03:00 dans le fuseau horaire spécifié, selon des critères précis (par exemple, tous les 15 jours ou le 1er de chaque mois). Une fois qu’un rapport est généré, vous pouvez le télécharger à partir de [!UICONTROL Reports] > [!UICONTROL Custom Reports] ou à partir de [destinations de rapport](/help/dsp/reports/report-destinations/report-destination-about.md) liées des types suivants :
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
-* &#x200B;<!-- (in beta) --> SSL FTP
+* <!-- (in beta) --> SSL FTP
 * SFTP
 
 >[!NOTE]
@@ -97,11 +97,13 @@ Vous pouvez générer des rapports une fois ou les planifier de manière quotidi
 
      Pour une comparaison de ce rapport avec les rapports créés par [!DNL Advanced Measurement Services] et Adobe Analytics, reportez-vous à « [FAQ sur les rapports personnalisés](/help/dsp/reports/faq-reports.md) ».
 
-   * **[!UICONTROL Path Length]:** Utilisez ce rapport pour      suivez le nombre de points d’interaction utilisateur requis pour les conversions au fil du temps afin de choisir la fréquence publicitaire optimale. Le rapport indique le nombre de conversions par longueur de chemin (points d’interaction), par exemple le nombre de conversions qui se sont produites après qu’un utilisateur n’a eu qu’une seule interaction publicitaire, deux interactions publicitaires, etc. Le rapport peut inclure des données pour plusieurs mesures de conversion et utilise une période de recherche en amont spécifiée entre la première interaction et une conversion. Les colonnes du rapport incluent « [!UICONTROL Path Length] », « [!UICONTROL Number of] \&lt;Nom de la mesure de conversion 1\> », « % \&lt;Nom de la mesure de conversion 1\> », « \&lt;Nom de la mesure de conversion 2\> », « % \&lt;Nom de la mesure de conversion 2\> », etc.
+   * **[!UICONTROL Path Length]:** utilisez ce rapport pour suivre le nombre de points d’interaction utilisateur requis pour les conversions au fil du temps afin que vous puissiez choisir la fréquence publicitaire optimale. Le rapport indique le nombre de conversions par longueur de chemin (points d’interaction), par exemple le nombre de conversions qui se sont produites après qu’un utilisateur n’a eu qu’une seule interaction publicitaire, deux interactions publicitaires, etc. Le rapport peut inclure des données pour plusieurs mesures de conversion et utilise une période de recherche en amont spécifiée entre la première interaction et une conversion. Les colonnes du rapport incluent « [!UICONTROL Path Length] », « [!UICONTROL Number of] \&lt;Nom de la mesure de conversion 1\> », « % \&lt;Nom de la mesure de conversion 1\> », « \&lt;Nom de la mesure de conversion 2\> », « % \&lt;Nom de la mesure de conversion 2\> », etc.
 
      Les données sont affichées pour chaque longueur de chemin allant jusqu’à 10 ; les données pour les longueurs de chemin supérieures à 10 sont regroupées.
 
    * **[!UICONTROL Time to Conversion]:** utilisez ce rapport pour déterminer l’intervalle de recherche en amont d’attribution optimal et pour identifier les campagnes dont la conversion prend plus de temps, qui peuvent bénéficier du reciblage. Le rapport indique le nombre de conversions par la durée en jours entre la dernière interaction (exposition publicitaire ou clic) et la conversion. Le rapport peut inclure des données pour plusieurs mesures de conversion et utilise une période de recherche en amont spécifiée entre la première interaction et une conversion. Les colonnes du rapport incluent « [!UICONTROL Time Taken (in days)] », « [!UICONTROL Number of] \&lt;Nom de la mesure de conversion 1\> », « % \&lt;Nom de la mesure de conversion 1\> », « \&lt;Nom de la mesure de conversion 2\> », « % \&lt;Nom de la mesure de conversion 2\> », etc. Les conversions dont la durée est supérieure à la période de recherche en amont sont regroupées dans une ligne (par exemple, si le rapport utilise une période de recherche en amont de 30 jours, toutes les conversions dont la durée est supérieure à 30 jours sont regroupées dans une ligne avec une valeur « [!UICONTROL Time Taken (in days)] » de « 30+ »).
+
+   * **[!UICONTROL Content BETA]:** utilisez ce rapport pour comprendre la diffusion d’impressions et d’autres mesures par dimensions de contenu spécifiées (telles que le genre, la qualité de production et l’évaluation du contenu) afin que vous puissiez optimiser le ciblage et garantir la sécurité de la marque. Outre les dimensions de contenu, le rapport comprend la plupart des dimensions, mesures et filtres standard. Les données par dimension de contenu sont disponibles pour [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] et [!DNL Triplelift]. Les signaux de contenu sont transmis par les éditeurs pendant le flux de données et sont soumis à disponibilité.
 
 ## Reporting entre comptes {#cross-account-reporting}
 
