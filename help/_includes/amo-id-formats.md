@@ -1,13 +1,11 @@
 ---
-source-git-commit: 4428fb626de79a98d6a37c36057a0d468ce23166
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
-# ID AMO ADOBE ADVERTISING
-
-### AMO - Formats d&#39;ID {#amo-id-formats}
+# AMO - Formats d&#39;ID {#amo-id-formats}
 
 #### AMO - Format d&#39;ID pour [!DNL DSP]
 
@@ -106,13 +104,13 @@ où :
 >[!NOTE]
 >
 > Pour les comptes disposant de campagnes sans l’option de tracking [!UICONTROL Auto Upload] qui n’ont pas déjà été migrés au nouveau format, mettez manuellement à jour chaque suffixe de page de destination pour inclure le format ci-dessus.
-> &#x200B;>En attendant, les formats hérités, comme suit, fonctionnent toujours :
+> >En attendant, les formats hérités, comme suit, fonctionnent toujours :
 >* Campagnes de recherche :
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Campagnes d’achat (à l’aide de [!DNL Microsoft Merchant Center]) :
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* Campagnes réseau d’audience :
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 

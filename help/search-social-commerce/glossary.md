@@ -3,9 +3,9 @@ title: Glossaire
 description: Voir les définitions des termes clés.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **variation publicitaire :** toute publicité au sein d’un groupe publicitaire ou d’une stratégie publicitaire.
 
-**[AMO ID](/help/integrations/analytics/ids.md#amo-id) :** code de suivi qui permet à Adobe Advertising de partager des données sur les campagnes avec Adobe Analytics. Cela commence par la `s_kwcid=`.
+**[AMO ID](/help/integrations/analytics/ids.md#amo-id) :** code de suivi qui permet à Adobe Advertising de partager des données sur les campagnes avec Adobe Analytics et Adobe Customer Journey Analytics. Cela commence par la `s_kwcid=`.
 
 **unité d’enchère :** terme Search, Social et Commerce désignant l’unité sur laquelle les enchères sont placées.
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **suivi des conversions :** le suivi des conversions utilise des cookies pour suivre a) les clics sur les publicités d’un annonceur sur les réseaux publicitaires et b) les transactions résultantes sur le site web de l’annonceur.
 
-**exactitude des coûts :** (annonceurs avec portefeuilles) dépenses réelles pour un portefeuille divisées par les dépenses prévues. Les [rapports sur la précision des modèles](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indiquent la précision des modèles de coûts utilisés pour l’optimisation. Les [[!UICONTROL Model Accuracy]informations](/help/search-social-commerce/advertising-insights/insight-about.md) incluent plus de détails, en plus de recommandations pour améliorer la précision des modèles.
+**exactitude des coûts :** (annonceurs avec portefeuilles) dépenses réelles pour un portefeuille divisées par les dépenses prévues. [Rapports sur la précision des modèles](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indiquez la précision des modèles de coûts utilisés pour l’optimisation. L’[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) inclut des détails supplémentaires, en plus de recommandations pour améliorer la précision des modèles.
 
 **modèle de coût :** (annonceurs avec portefeuilles) technologie Search, Social et Commerce qui prédit le volume des coûts, l’offre requise pour remporter chaque poste ou emplacement et le CPC (recherche) ou le CPM (affichage) pour chaque unité d’offre à l’aide de données historiques et de techniques de prévision mathématique.
 
@@ -141,7 +141,7 @@ Elle a la même valeur que la colonne héritée « Revenus pondérés ».
 
 **transaction orpheline :** événement de transaction qui ne peut pas être associé à un mot-clé ou à une annonce publicitaire spécifique.
 
-**pixel :** image transparente, pixel par pixel incorporée sur une page web à des fins de suivi. Les balises de suivi des conversions d’Adobe Advertising incluent un pixel d’image d’HTML ou un JavaScript pour effectuer le suivi des clics et des transactions résultantes.
+**pixel :** image transparente, pixel par pixel incorporée sur une page web à des fins de suivi. Les balises de suivi des conversions Adobe Advertising incluent un pixel d’image HTML ou JavaScript pour effectuer le suivi des clics et des transactions résultantes.
 
 **emplacement :** emplacement sur un réseau d’affichage dans lequel vos publicités peuvent apparaître. Il peut s’agir d’un site web entier, d’un sous-ensemble d’un site web ou d’une position d’annonce sur une page spécifique.
 
@@ -163,7 +163,7 @@ Elle a la même valeur que la colonne héritée « Revenus pondérés ».
 
 **retour sur investissement :** (ROI) Revenus moins coûts.
 
-**exactitude du chiffre d’affaires :** (annonceurs avec portefeuilles) chiffre d’affaires réel d’un portefeuille divisé par le chiffre d’affaires prévu. Les [rapports sur la précision des modèles](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indiquent la précision des modèles de chiffre d’affaires utilisés pour l’optimisation. Les [[!UICONTROL Model Accuracy]informations](/help/search-social-commerce/advertising-insights/insight-about.md) incluent plus de détails, en plus de recommandations pour améliorer la précision des modèles.
+**exactitude du chiffre d’affaires :** (annonceurs avec portefeuilles) chiffre d’affaires réel d’un portefeuille divisé par le chiffre d’affaires prévu. [Rapports sur la précision des modèles](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indiquez la précision des modèles de chiffre d’affaires utilisés pour l’optimisation. L’[[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) comprend plus de détails, en plus de recommandations pour améliorer la précision des modèles.
 
 **modèle de chiffre d’affaires :** (annonceurs avec portefeuilles) technologie Search, Social et Commerce qui prédit le taux de conversion et le retour estimé pour chaque unité d’enchère, en fonction des données de clic (recherche et réseaux sociaux) ou des données d’impression (affichage) et des données de conversion de l’annonceur.
 
@@ -175,13 +175,13 @@ Elle a la même valeur que la colonne héritée « Revenus pondérés ».
 
 ## S-T {#s-t}
 
-**simulation:** (annonceurs avec portefeuilles) : modélisation de Portfolio qui estime le nombre de clics et de conversions qu’un portefeuille peut attendre pour différents niveaux de dépenses et budgets quotidiens correspondants, à l’aide de données historiques.
+**simulation:** (annonceurs avec portefeuilles) : modélisation Portfolio qui estime le nombre de clics et de conversions qu’un portefeuille peut attendre pour différents niveaux de dépenses et budgets quotidiens correspondants, à l’aide de données historiques.
 
 **stratégie de dépenses :** (annonceurs avec portefeuilles) stratégie sélectionnée pour optimiser les enchères de mot-clé/publicité pour un portefeuille.
 
 **`s_kwcid`:** voir « AMO ID ».
 
-**modèle de tracking :** (Comptes avec URL finales uniquement) Le modèle de tracking ou l’URL de tracking, qui spécifie toutes les redirections de domaine et tous les paramètres de tracking hors atterrissage et incorpore l’URL finale/avancée dans un paramètre. Pour le suivi des conversions d’Adobe Advertising, qui est appliqué lorsque les paramètres de la campagne incluent « [!UICONTROL EF Redirect] » et « [!UICONTROL Auto Upload] », Search, Social et Commerce ajoute automatiquement un préfixe à son propre code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
+**modèle de tracking :** (Comptes avec URL finales uniquement) Le modèle de tracking ou l’URL de tracking, qui spécifie toutes les redirections de domaine et tous les paramètres de tracking hors atterrissage et incorpore l’URL finale/avancée dans un paramètre. Pour le suivi des conversions Adobe Advertising, qui est appliqué lorsque les paramètres de la campagne incluent « [!UICONTROL EF Redirect] » et « [!UICONTROL Auto Upload] », Search, Social et Commerce ajoute automatiquement un préfixe à son propre code de redirection et de suivi lorsque vous enregistrez l’enregistrement.
 
 **URL de tracking :** un modèle de tracking ou une URL de destination avec des paramètres supplémentaires ajoutés pour tracker les informations sur les clics sur l’annonce publicitaire. Il peut inclure une URL de redirection permettant d’envoyer les utilisateurs à un serveur de tracking avant de les rediriger vers la page de destination de l’annonceur.
 
