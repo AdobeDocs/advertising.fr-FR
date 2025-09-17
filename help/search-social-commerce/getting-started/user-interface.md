@@ -3,9 +3,9 @@ title: Organisation de l’interface utilisateur
 description: Découvrez où accéder aux différentes fonctionnalités.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 2d218c960cd74fdfa9c981540951d7305b7740c7
+source-git-commit: 553d0c90160cb12b8b32d3540c58797e6fac2abb
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -38,15 +38,15 @@ Votre rôle détermine les options disponibles :<!-- add link when available -->
 
 * **[!UICONTROL Manage]** le sous-menu :
 
-   * **[!UICONTROL Portfolio Groups]:** quitte le nouveau site de l’interface utilisateur et ouvre l’onglet hérité [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios] > [!UICONTROL Portfolio Groups] .
+<!--  * **[!UICONTROL Portfolio Groups]:** Exits the new UI site and opens the legacy [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios] view > [!UICONTROL Portfolio Groups] tab. -->
 
-   * **[!UICONTROL Portfolios]:** ouvre une nouvelle vue de [!UICONTROL Portfolios] qui répertorie tous les portefeuilles pour l’annonceur. Vous pouvez gérer vos portefeuilles à partir de cette vue. Vous pouvez ouvrir une liste de contraintes affectées et afficher les détails de performance et de composition pour n’importe quel portfolio.
+* **[!UICONTROL Portfolios]:** ouvre une nouvelle vue de [!UICONTROL Portfolios] qui répertorie tous les portefeuilles pour l’annonceur. Vous pouvez gérer vos portefeuilles à partir de cette vue. Vous pouvez ouvrir une liste de contraintes affectées et afficher les détails de performance et de composition pour n’importe quel portfolio.
 
-     Les paramètres du portfolio comprennent des onglets pour affecter l’objectif et les campagnes, gérer les dépenses, gérer les contraintes et contrôler l’optimisation. Seuls les utilisateurs dotés du rôle « Optimisation par les experts » ou d’un rôle supérieur peuvent modifier les paramètres dans l’onglet [!UICONTROL Control Optimization] .
+  Les paramètres du portfolio comprennent des onglets pour affecter l’objectif et les campagnes, gérer les dépenses, gérer les contraintes et contrôler l’optimisation. Seuls les utilisateurs dotés du rôle « Optimisation par les experts » ou d’un rôle supérieur peuvent modifier les paramètres dans l’onglet [!UICONTROL Control Optimization] .
 
-   * **[!UICONTROL Campaigns]:** ouvre une nouvelle vue [!UICONTROL Campaigns], qui affiche toutes les campagnes pour l’annonceur. Vous pouvez affecter des campagnes aux portfolios et gérer les affectations de contraintes pour les campagnes sélectionnées. Vous pouvez également télécharger un rapport du contenu du tableau de données. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
+* **[!UICONTROL Campaigns]:** ouvre une nouvelle vue [!UICONTROL Campaigns], qui affiche toutes les campagnes pour l’annonceur. Vous pouvez affecter des campagnes aux portfolios et gérer les affectations de contraintes pour les campagnes sélectionnées. Vous pouvez également télécharger un rapport du contenu du tableau de données. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     Pour créer, modifier et supprimer des campagnes, revenez à l’interface utilisateur héritée en cliquant sur **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** dans le menu principal ou en cliquant sur le bouton [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+  Pour créer, modifier et supprimer des campagnes, revenez à l’interface utilisateur héritée en cliquant sur **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** dans le menu principal ou en cliquant sur le bouton [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Ad Groups]:** ouvre une nouvelle vue [!UICONTROL Ad Groups], qui affiche tous les groupes publicitaires pour l’annonceur. Vous pouvez gérer les affectations de contraintes pour les groupes publicitaires sélectionnés. Vous pouvez également télécharger un rapport du contenu du tableau de données.
 
