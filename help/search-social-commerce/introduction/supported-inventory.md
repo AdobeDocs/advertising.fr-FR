@@ -65,6 +65,6 @@ Vous trouverez ci-dessous les réseaux publicitaires, les types de campagnes et 
 
 [^2] : En savoir plus sur « [Prise en charge de l’optimisation par stratégie d’enchères](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy) ».
 
-[^3] : Nécessite une intégration avec Adobe Analytics. Voir « [ Présentation d’Analytics for Adobe Advertising ](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) ».
+[^3] : Nécessite une intégration avec Adobe Analytics. Voir « [ Présentation d’Analytics for Adobe Advertising ](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr) ».
 
 [^4] : [!DNL Analytics] données sont envoyées à Search, Social et Commerce à l’aide du paramètre de suivi AMO ID mis à niveau (commençant par `s_kwcid`), quel que soit le format d’AMO ID que vous utilisez normalement pour le compte. Si vous utilisez normalement l’ancienne version de l’AMO ID, nous vous recommandons d’effectuer une mise à niveau vers le nouveau format d’AMO ID pour une expérience optimale. Cependant, même si vos données sur les clics/coûts et votre chiffre d’affaires sont suivies à l’aide d’identifiants AMO différents, les deux ensembles de données sont entièrement classés et agrégés sous la même campagne et le même compte.
