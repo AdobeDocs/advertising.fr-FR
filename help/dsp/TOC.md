@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: a2cf15742557686df280b2a73eea996be53e5f4d
+source-git-commit: a3bd04da6c6f428fdb6e1f05187ea3de0174c9d7
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '957'
 ht-degree: 3%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 3%
       + [Solutions sur plusieurs appareils](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Financement du compte](/help/dsp/introduction/billing/account-funding.md)
    + [Devises prises en charge](/help/dsp/currency.md)
-   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Solutions de mesures avancées](/help/dsp/introduction/advanced-measurement-services.md)
 + Gestion de campagne {#campaign-management}
    + [Présentation de la structure de gestion de campagne](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -67,11 +67,12 @@ ht-degree: 3%
       + [Modifier les emplacements](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Dupliquer les emplacements](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Gérer les multiplicateurs d’offres pour les placements](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
-      + [Joindre des annonces à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [Joindre et supprimer des publicités des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [Joindre et supprimer des pixels des publicités](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md)
       + [Modifier les plannings de publicités pour les emplacements](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [Affichage d’un rapport détaillé pour un emplacement](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [Affichage du journal des modifications d’un emplacement](/help/dsp/campaign-management/placements/placement-change-log.md)
-      + [Mettre en pause ou activer un emplacement](/help/dsp/campaign-management/placements/placement-pause-activate.md)
+      + [Désactivation ou activation d’un emplacement](/help/dsp/campaign-management/placements/placement-pause-activate.md)
       + [Archiver ou désarchiver un emplacement](/help/dsp/campaign-management/placements/placement-archive-unarchive.md)
       + [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
    + Publicités {#ads}
@@ -83,7 +84,7 @@ ht-degree: 3%
       + [Vérifier Les Détails Des Annonces À L’Aide Des Feuilles De Calcul](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Modification d’une publicité](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Dupliquer une publicité](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Joindre des annonces à des emplacements](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=fr)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [Joindre et supprimer des publicités des emplacements](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Affichage d’un rapport détaillé pour une publicité](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Mettre en pause ou activer une publicité](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -238,6 +239,6 @@ ht-degree: 3%
    + Notifications {#notifications}
       + [À propos des abonnements aux alertes](/help/dsp/admin/alerts-about.md)
       + [Gérer les abonnements aux alertes](/help/dsp/admin/alerts-manage.md)
-+ [Intégrations avec Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=fr)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Intégrations avec Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [Obtenir de l’aide](/help/dsp/get-help.md)
-+ [Notes De Mise À Jour De Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)
++ [Notes De Mise À Jour De Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

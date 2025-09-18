@@ -3,7 +3,7 @@ title: Modifier les emplacements
 description: Découvrez comment modifier un emplacement.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Vous pouvez modifier le nom de l’emplacement, le statut, l’enchère maximum 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
-1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Quick Edit]**.
 1. Modifiez l’un des [paramètres d’emplacement](placement-settings.md) disponibles : **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** et **[!UICONTROL Budget]**.
 1. Cliquez sur **[!UICONTROL Apply]**.
 
@@ -43,7 +43,7 @@ Vous pouvez modifier le nom de l’emplacement, le statut, l’enchère maximum 
 
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
 
-1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit]** **[!UICONTROL Full Edit]** > .
 
 1. Modifiez les [paramètres d’emplacement](placement-settings.md).
 
@@ -97,9 +97,9 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
 >* [Dupliquer un emplacement](placement-duplicate.md)
 >* [Gérer les multiplicateurs d&#39;offres pour les placements](placement-manage-bid-multipliers.md)
 >* [Modifier les plannings de publicités pour les emplacements](placement-edit-ad-schedule.md)
->* [Suspendre ou activer un emplacement](placement-pause-activate.md)
+>* [Désactiver ou activer un emplacement](placement-pause-activate.md)
 >* [Afficher le journal des modifications pour un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)
 >* [Afficher l&#39;état de prévision d&#39;emplacement](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Vidéo : modification d’emplacements à l’aide d’outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=fr)
+>* [Vidéo : modification d’emplacements à l’aide d’outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

@@ -3,9 +3,9 @@ title: À propos des informations
 description: Découvrez les informations sur les performances des visualisations.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,8 @@ L’onglet [!UICONTROL Household Conversion] fournit des mesures de conversion d
 * (Pour ouvrir les insights pour toutes les campagnes) Dans le menu principal, cliquez sur **[!UICONTROL Insights BETA]**.
 
 * (Pour ouvrir des informations pour une campagne, un package ou un emplacement spécifique) En regard du nom de l’entité dans la vue [!UICONTROL Campaigns], [!UICONTROL Packages] ou [!UICONTROL Placements], cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
+
+* (Pour ouvrir des informations pour un emplacement spécifique) En regard du nom de l’entité dans la vue [!UICONTROL Campaigns], [!UICONTROL Packages] ou [!UICONTROL Placements], cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Insights]** .
 
 ## Application de filtres à un onglet
 

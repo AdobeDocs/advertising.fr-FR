@@ -3,7 +3,7 @@ title: Création d’un emplacement
 description: Découvrez comment créer un emplacement.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
       1. Réduisez l’audience. Cela inclut la sélection des segments d’audience à cibler dans l’emplacement.
 
-         Pour [!DNL Roku] emplacements, vous pouvez tirer parti de la correspondance d’audience unique de [DSP avec  [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) en incluant un ou plusieurs segments d’audience qui peuvent être associés au jeu de données déterministe [!DNL Roku] (accepté).
+         Pour les emplacements [!DNL Roku], vous pouvez tirer parti de la correspondance d’audience unique de [DSP avec [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) en incluant un ou plusieurs segments d’audience qui peuvent être associés au jeu de données déterministe [!DNL Roku] (accepté).
 
          Les segments propriétaires RampID qui ne sont pas associés à un emplacement actif, planifié ou en pause sont suspendus. Dans la liste des segments, le segment est marqué comme étant « En pause automatique ».
 
@@ -94,45 +94,45 @@ ht-degree: 0%
 
       * Pour joindre des annonces existantes dans la campagne :
 
-      1. Cliquez sur **[!UICONTROL Select an Ad]**.
-
-      1. Effectuez l’une des opérations suivantes :
-
-         * Pour ajouter une annonce à la fois :
-
-            1. En regard du nom de l’annonce, cliquez sur **[!UICONTROL Select].**
-
-            1. (Facultatif) Pour chaque annonce publicitaire supplémentaire à joindre, cliquez sur **[!UICONTROL Attach Another Ad]**, puis répétez le processus.
-
-         * Pour ajouter jusqu’à 20 publicités à la fois :
-
-            1. Cochez la case située au-dessus de la liste des publicités.
-
-            1. Cochez la case en regard de chaque publicité à ajouter.
-
-            1. Cliquez sur **[!UICONTROL Attach]**.
-
-            1. En regard du nom de l’annonce publicitaire, cliquez sur **[!UICONTROL Select]**.
-
-      1. (Facultatif) Pour remplacer la période de vol et la rotation d’annonces par défaut pour des annonces spécifiques dans l’emplacement :
-
-         1. Cliquez sur **[!UICONTROL Custom Schedule Ads]**.
+         1. Cliquez sur **[!UICONTROL Select an Ad]**.
 
          1. Effectuez l’une des opérations suivantes :
 
-            * Pour ajouter un vol, cliquez sur **[!UICONTROL Add Flight]**, puis spécifiez la date de début et la date de fin.
+            * Pour ajouter une annonce à la fois :
 
-            * Pour ajouter un vol existant à une publicité, cliquez sur **[!UICONTROL +]** dans la ligne de publicité de la colonne de vol.
+               1. En regard du nom de l’annonce, cliquez sur **[!UICONTROL Select].**
 
-            * Pour supprimer un vol existant d’une publicité, cliquez sur **[!UICONTROL x]** dans la ligne de publicité de la colonne de vol.
+               1. (Facultatif) Pour chaque annonce publicitaire supplémentaire à joindre, cliquez sur **[!UICONTROL Attach Another Ad]**, puis répétez le processus.
 
-            * (Lorsque plusieurs publicités présentent le même vol) Pour faire pivoter les publicités de manière inégale, cliquez sur **[!UICONTROL Even Rotation]** dans les informations de vol, puis entrez le poids relatif de rotation de chaque publicité, sous la forme d’un pourcentage.
+            * Pour ajouter jusqu’à 20 publicités à la fois :
 
-              Le poids total doit être égal à 100.
+               1. Cochez la case située au-dessus de la liste des publicités.
 
-         1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Continue]**.
+               1. Cochez la case en regard de chaque publicité à ajouter.
 
-         1. Vérifiez les détails du vol, puis cliquez sur **[!UICONTROL Save & Finish]**.
+               1. Cliquez sur **[!UICONTROL Attach]**.
+
+               1. En regard du nom de l’annonce publicitaire, cliquez sur **[!UICONTROL Select]**.
+
+         1. (Facultatif) Pour remplacer la période de vol et la rotation d’annonces par défaut pour des annonces spécifiques dans l’emplacement :
+
+            1. Cliquez sur **[!UICONTROL Custom Schedule Ads]**.
+
+            1. Effectuez l’une des opérations suivantes :
+
+               * Pour ajouter un vol, cliquez sur **[!UICONTROL Add Flight]**, puis spécifiez la date de début et la date de fin.
+
+               * Pour ajouter un vol existant à une publicité, cliquez sur **[!UICONTROL +]** dans la ligne de publicité de la colonne de vol.
+
+               * Pour supprimer un vol existant d’une publicité, cliquez sur **[!UICONTROL x]** dans la ligne de publicité de la colonne de vol.
+
+               * (Lorsque plusieurs publicités présentent le même vol) Pour faire pivoter les publicités de manière inégale, cliquez sur **[!UICONTROL Even Rotation]** dans les informations de vol, puis entrez le poids relatif de rotation de chaque publicité, sous la forme d’un pourcentage.
+
+                 Le poids total doit être égal à 100.
+
+            1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Continue]**.
+
+            1. Vérifiez les détails du vol, puis cliquez sur **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
@@ -140,11 +140,11 @@ ht-degree: 0%
 >* [Modifier les emplacements](placement-edit.md)
 >* [Gérer les multiplicateurs d&#39;offres pour les placements](placement-manage-bid-multipliers.md)
 >* [Modifier les plannings de publicités pour les emplacements](placement-edit-ad-schedule.md)
->* [Suspendre ou activer un emplacement](placement-pause-activate.md)
+>* [Désactiver ou activer un emplacement](placement-pause-activate.md)
 >* [Afficher le journal des modifications pour un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)
 >* [Afficher l&#39;état de prévision d&#39;emplacement](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [FAQ sur Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Résolution des problèmes liés aux performances](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vidéo : création d’un emplacement d’affichage standard](https://video.tv.adobe.com/v/344999?captions=fre_fr)
+>* [Vidéo : création d’un emplacement d’affichage standard](https://video.tv.adobe.com/v/340454)
