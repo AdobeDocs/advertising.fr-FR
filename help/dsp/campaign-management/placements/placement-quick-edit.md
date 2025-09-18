@@ -38,4 +38,4 @@ Vous pouvez modifier le nom de l’emplacement, le statut, l’enchère maximum 
 >* [Désactiver ou activer un emplacement](placement-pause-activate.md)
 >* [Afficher le journal des modifications pour un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)
->* [Vidéo : modification d’emplacements à l’aide d’outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Vidéo : modification d’emplacements à l’aide d’outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=fr)
