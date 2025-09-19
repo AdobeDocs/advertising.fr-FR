@@ -3,9 +3,9 @@ title: Gérer les listes d’offres
 description: Découvrez comment créer et gérer des listes d’offres pour le ciblage des emplacements.
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: 166117045e52a92d9c1fda4eeca9320c9e0bf3f1
+source-git-commit: e030783a046002e02d719a36c99d1b10808cd4a9
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 
    * Pour les offres privées, filtrez la liste par éditeur, fournisseur de services partagés ou type d’offre (*[!UICONTROL Guaranteed]* ou *[!UICONTROL Non-Guaranteed]*) ou recherchez la liste par nom d’offre ou ID d’offre.
 
-   * Pour les offres [!UICONTROL On Demand], filtrez la liste par éditeur, région ou type de média ou recherchez la liste par nom d’offre.
+   * Pour les offres [!UICONTROL On Demand], filtrez la liste par éditeur, région ou type de média ou recherchez la liste par nom d’offre. La liste inclut uniquement les offres [!DNL On Demand] auxquelles vous êtes abonné.
 
 1. Cochez la case en regard de chaque offre à inclure dans la liste.
 
