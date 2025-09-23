@@ -4,7 +4,7 @@ description: Découvrez les données disponibles dans votre tableau de bord des 
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 6fe42303c8499dbff6d5964d4074e98a2f2486ba
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 *Fonction Beta*
 
-Le [!UICONTROL Dashboard] personnalisable vous permet de surveiller les performances de tous vos portefeuilles <!-- May later include other entity-level data --> d’identifier les problèmes de performances potentiels à étudier et à résoudre. Vous pouvez afficher des données quotidiennes, hebdomadaires ou mensuelles pour n&#39;importe quelle période au cours des 90 derniers jours.
+Le [!UICONTROL Dashboard] personnalisable > [!UICONTROL Overview] vous permet de surveiller les performances de tous vos portefeuilles <!-- May later include other entity-level data --> d’identifier les problèmes de performances potentiels à étudier et à résoudre. Vous pouvez afficher des données quotidiennes, hebdomadaires ou mensuelles pour n&#39;importe quelle période au cours des 90 derniers jours.
 
 Votre [!UICONTROL Dashboard] comprend les rapports visuels suivants :
 
