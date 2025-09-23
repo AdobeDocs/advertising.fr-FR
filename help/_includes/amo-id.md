@@ -1,7 +1,7 @@
 ---
-source-git-commit: 2b719e00418010b1f8e21b8956ad55b2ffc7dee1
+source-git-commit: 0cf325946fdc3852b8b94acb29678bf6c47227a0
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 L’ID AMO suit chaque combinaison publicitaire unique à un niveau moins granulaire et est utilisé pour la classification des données [!DNL Analytics] et Customer Journey Analytics et l’ingestion des mesures publicitaires (telles que les impressions, les clics et les coûts) à partir d’Adobe Advertising.
 
-Par [!DNL Analytics], l’AMO ID est stocké dans une dimension [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=fr) ou rVar (AMO ID).
+Par [!DNL Analytics], l’AMO ID est stocké dans une dimension [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou rVar (AMO ID).
 
-Pour Customer Journey Analytics, l’ID AMO est stocké dans la propriété `trackingCode` de l’objet `conversionDetails`, qui fait partie du [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] .
+Pour Customer Journey Analytics, l’ID AMO est stocké dans la propriété `trackingCode` de l’objet `conversionDetails`, qui fait partie de [la [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
 
 L’ID AMO est également appelé `s_kwcid`, ce qui se prononce parfois comme « [!DNL squid] ».
 
@@ -115,14 +115,14 @@ où :
 
 >[!NOTE]
 >
-> Pour les comptes disposant de campagnes sans l’option de tracking [!UICONTROL Auto Upload] qui n’ont pas déjà été migrés au nouveau format, mettez manuellement à jour chaque suffixe de page de destination pour inclure le format ci-dessus.
-> &#x200B;>En attendant, les formats hérités, comme suit, fonctionnent toujours :
+> Pour les comptes disposant de campagnes sans l’option de tracking [!UICONTROL Auto Upload] qui n’ont pas déjà été migrés au nouveau format, mettez à jour manuellement chaque suffixe de page de destination pour inclure le format ci-dessus.
+> >En attendant, les formats hérités, comme suit, fonctionnent toujours :
 >* Campagnes de recherche :
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Campagnes d’achat (à l’aide de [!DNL Microsoft Merchant Center]) :
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* Campagnes réseau d’audience :
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
