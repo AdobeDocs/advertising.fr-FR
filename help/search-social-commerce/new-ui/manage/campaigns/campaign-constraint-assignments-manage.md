@@ -3,9 +3,10 @@ title: Gérer les affectations de contraintes pour les campagnes
 description: Découvrez comment attribuer des contraintes aux campagnes.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ Vous pouvez affecter une seule contrainte à une ou plusieurs campagnes.
 
 1. Cochez la case en regard de chaque campagne à laquelle vous affecterez une seule contrainte.
 
-1. Dans la barre d’outils, cliquez sur ![Plus d’actions](/help/search-social-commerce/assets/more-actions.png "Plus d’actions") **[!UICONTROL More Actions]** > ![Affecter](/help/search-social-commerce/assets/assign.png "Affecter") **[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
+1. Dans la barre d’outils des actions en bloc, cliquez sur **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
 1. Sélectionnez la contrainte.
 
@@ -65,7 +66,7 @@ Vous pouvez affecter une seule contrainte à une ou plusieurs campagnes.
 
 1. Cochez la case en regard de chaque campagne à partir de laquelle vous annulerez l’affectation des contraintes.
 
-1. Dans la barre d’outils, cliquez sur ![Plus d’actions](/help/search-social-commerce/assets/more-actions.png "Plus d’actions") **[!UICONTROL More Actions]** > ![Affecter](/help/search-social-commerce/assets/unassign.png "Annuler l’affectation") **[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
+1. Dans la barre d’outils des actions en bloc, cliquez sur **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
 1. Cliquez sur **[!UICONTROL Confirm]**.
 
@@ -88,4 +89,3 @@ Vous pouvez affecter une seule contrainte à une ou plusieurs campagnes.
 >[!MORELIKETHIS]
 >
 >* [Gérer les affectations de contraintes pour les groupes publicitaires](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-

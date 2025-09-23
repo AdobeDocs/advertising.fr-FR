@@ -3,9 +3,9 @@ title: Objectifs personnalisés
 description: Découvrez les objectifs personnalisés pour définir vos événements de succès dans des packages optimisés pour la CPA la plus faible ou le retour sur dépenses publicitaires le plus élevé.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,19 @@ Supposons, par exemple, que trois mesures de conversion soient pertinentes pour 
 
 Une fois que vous avez [créé un objectif personnalisé](#custom-goal-create), vous pouvez [l’affecter à un package](/help/dsp/campaign-management/packages/package-settings.md) pour la création de rapports et l’optimisation algorithmique à l’aide d’Adobe Sensei.
 
-Les recommandations de poids sont automatiquement générées pour les mesures attribuées à DSP dans les objectifs et peuvent appliquer toutes les recommandations de poids en un seul clic. Toutes les modifications de poids apportées aux objectifs précédés du préfixe « ADSP_ » sont appliquées de manière algorithmique dans DSP dans les deux jours. Pour plus d’informations sur les recommandations de poids, consultez le chapitre du guide d’optimisation intitulé « (Beta) Nouveaux objectifs », disponible dans Search, Social et Commerce.
+Les recommandations de poids sont automatiquement générées pour les mesures attribuées à DSP dans les objectifs et peuvent appliquer toutes les recommandations de poids en un seul clic. Toutes les modifications de poids apportées aux objectifs précédés du préfixe « ADSP_ » sont appliquées de manière algorithmique dans DSP dans les deux jours. Pour plus d’informations sur les recommandations de poids, consultez le chapitre du guide d’optimisation intitulé « Objectifs », disponible dans Search, Social et Commerce.
 
 ## Créer un objectif personnalisé {#custom-goal-create}
 
 Pour créer un objectif personnalisé, le compte DSP doit être lié à un compte [!DNL Search, Social, & Commerce] avec le même ID d’organisation Adobe Experience Cloud, depuis les paramètres du client [!DNL Search, Social, & Commerce]. Si votre compte DSP n’est pas lié à un compte [!DNL Search, Social, & Commerce], contactez l’équipe chargée de votre compte Adobe.
 
-1. Connectez-vous à [!DNL Advertising Search, Social, & Commerce] à l’adresse (utilisateurs en Amérique du Nord) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) ou (tous les autres utilisateurs) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. [Connexion à Advertising Search, Social et Commerce](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}.
 
 1. Assurez-vous que les mesures que vous souhaitez inclure dans votre objectif ont fait l’objet d’un suivi, sont disponibles dans le produit et incluent un nom d’affichage :
 
-   1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+   1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]** > **[!UICONTROL Conversions]**.
+
+      La vue Conversions s’ouvre dans un nouvel onglet du navigateur.
 
    1. Recherchez la mesure et assurez-vous que **[!UICONTROL Show in UI and Reports]** est activé pour la mesure.
 
@@ -45,30 +47,24 @@ Pour créer un objectif personnalisé, le compte DSP doit être lié à un compt
 
    1. Si la mesure ne comporte pas de valeur dans la colonne **[!UICONTROL Display Name]**, cliquez dans la cellule, saisissez le nom d’affichage, puis cliquez sur **[!UICONTROL Apply].**
 
-1. Créez l’objectif personnalisé comme *objectif* :
+1. [Créez l’objectif personnalisé comme *objectif*](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md){target="_blank"}. Tenez compte des points suivants :
 
-   1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Optimization]>[!UICONTROL New Objectives Beta]**.
+   * Pour les objectifs utilisés pour les packages Advertising DSP, le nom de l’objectif doit comporter le préfixe « ADSP_ » tel que « ADSP_Registrations ». Le préfixe n’est pas sensible à la casse.
 
-   1. Dans la barre d’outils, cliquez sur ![Créer](/help/dsp/assets/create-search-ui.png "Créer").
+   * Incluez uniquement les mesures attribuées à DSP. Toutes les mesures attribuées à Search, Social et Commerce ou à tout autre réseau publicitaire sont ignorées.
 
-   1. Saisissez les paramètres des objectifs, y compris les mesures associées et leur poids numérique relatif pour les appareils non mobiles, puis enregistrez l’objectif. Tenez compte des points suivants :
+   * Au moins une mesure doit être de type *[!UICONTROL Goal]*.
 
-      * Pour les objectifs utilisés pour les packages Advertising DSP, le nom de l’objectif doit comporter le préfixe « ADSP_ » tel que « ADSP_Registrations ». Le préfixe ne respecte pas la casse.
+   * DSP utilise les poids non mobiles pour toutes les publicités. Tous les poids mobiles spécifiés sont ignorés.
 
-      * Incluez uniquement les mesures attribuées à DSP. Toutes les mesures attribuées à Search, Social et Commerce ou à tout autre réseau publicitaire sont ignorées.
+   >[!NOTE]
+   >
+   >* [!DNL Analytics] événements personnalisés suivent cette convention d’affectation des noms : `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemple : `custom_event_16_examplersid`
+   >* [!DNL Analytics] dimensions et les segments ne sont pas disponibles pour l’optimisation d’Adobe Advertising.
 
-      * Au moins une mesure doit être de type *[!UICONTROL Goal]*.
-
-      * DSP utilise les poids non mobiles pour toutes les publicités. Tous les poids mobiles spécifiés sont ignorés.
-
-      >[!NOTE]
-      >
-      >* [!DNL Analytics] événements personnalisés suivent cette convention d’affectation des noms : `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemple : `custom_event_16_examplersid`
-      >* [!DNL Analytics] dimensions et les segments ne sont pas disponibles pour l’optimisation d’Adobe Advertising.
-
-      >[!TIP]
-      >
-      >Pour des performances optimales, les mesures combinées dans l’objectif personnalisé doivent totaliser au moins dix conversions par jour. Dans le cas contraire, il est recommandé d’ajouter à l’objectif des mesures de conversion supplémentaires, telles que les pages de produits ou les démarrages d’application. Consultez [ Bonnes pratiques pour créer un objectif personnalisé ](#custom-goal-best-practices) pour obtenir des instructions.
+   >[!TIP]
+   >
+   >Pour des performances optimales, les mesures combinées dans l’objectif personnalisé doivent totaliser au moins dix conversions par jour. Dans le cas contraire, il est recommandé d’ajouter à l’objectif des mesures de conversion supplémentaires, telles que les pages de produits ou les démarrages d’application. Consultez [ Bonnes pratiques pour créer un objectif personnalisé ](#custom-goal-best-practices) pour obtenir des instructions.
 
 Dans les paramètres du package DSP pour les packages qui utilisent l’objectif d’optimisation « [!UICONTROL Highest Return on Ad Spend (ROAS)"] ou [!UICONTROL Lowest Cost per Acquisition (CPA)] », le nom de l’objectif est désormais inclus dans la liste [!UICONTROL Custom Goals]. Lorsque vous sélectionnez l’objectif en tant qu’objectif personnalisé pour un package, la liste [!UICONTROL Conversion Metric] inclut toutes les mesures d’objectif pour l’objectif.
 

@@ -4,9 +4,9 @@ description: Découvrez les données disponibles dans votre tableau de bord des 
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Votre [!UICONTROL Dashboard] comprend les rapports visuels suivants :
 * **Grands déménageurs - \[mesure sélectionnée\] :** les 10 portefeuilles dont la modification apportée à une mesure spécifiée par rapport à la période précédente est la plus importante.
 
 * **Répartition des dépenses :** répartition des dépenses par réseau publicitaire.
+
+## Affichage de votre tableau de bord des performances
+
+* Dans le menu principal, cliquez sur **[!UICONTROL Dashboard]>[!UICONTROL Overview]**.
 
 ## Personnalisation de votre tableau de bord des performances
 

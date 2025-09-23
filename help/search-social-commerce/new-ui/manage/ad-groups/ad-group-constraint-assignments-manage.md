@@ -3,9 +3,10 @@ title: Gérer les affectations de contraintes pour les groupes publicitaires
 description: Découvrez comment attribuer des contraintes aux groupes d’annonces.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ L’annulation de l’affectation d’une contrainte supprime l’association av
 
 1. Cochez la case en regard de chaque groupe d’annonces auquel vous affecterez une seule contrainte.
 
-1. Dans la barre d’outils, cliquez sur ![Plus d’actions](/help/search-social-commerce/assets/more-actions.png "Plus d’actions") **[!UICONTROL More Actions]** > ![Affecter](/help/search-social-commerce/assets/assign.png "Affecter") **[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
+1. Dans la barre d’outils des actions en bloc, cliquez sur **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
 1. Sélectionnez la contrainte.
 
@@ -58,7 +59,7 @@ L’annulation de l’affectation d’une contrainte supprime l’association av
 
 1. Cochez la case en regard de chaque groupe d’annonces duquel vous annulerez l’affectation des contraintes.
 
-1. Dans la barre d’outils, cliquez sur ![Plus d’actions](/help/search-social-commerce/assets/more-actions.png "Plus d’actions") **[!UICONTROL More Actions]** > ![Affecter](/help/search-social-commerce/assets/unassign.png "Annuler l’affectation") **[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
+1. Dans la barre d’outils des actions en bloc, cliquez sur **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
 1. Cliquez sur **[!UICONTROL Confirm]**.
 

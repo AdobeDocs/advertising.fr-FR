@@ -3,9 +3,9 @@ title: Affectation de campagnes à un portfolio
 description: Découvrez comment inclure des campagnes dans des portfolios à des fins d’optimisation.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ L’optimisation ne s’applique pas à tous les types de campagne et réseaux p
 
 1. Cochez la case en regard de chaque campagne à affecter à un seul portefeuille.
 
-1. Dans la barre d’outils, cliquez sur ![Plus d’actions](/help/search-social-commerce/assets/more-actions.png "Plus d’actions") **[!UICONTROL More Actions]** > ![Affecter](/help/search-social-commerce/assets/assign.png "Affecter") **[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]** .
+1. Dans la barre d’outils des actions en bloc, cliquez sur **+[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]** .
 
 1. Sélectionnez le portefeuille.
 
@@ -38,7 +38,7 @@ L’optimisation ne s’applique pas à tous les types de campagne et réseaux p
 
 1. Cochez la case en regard de chaque campagne pour laquelle vous souhaitez créer le nouveau portefeuille.
 
-1. Dans la barre d’outils, cliquez sur ![Plus d’actions](/help/search-social-commerce/assets/more-actions.png "Plus d’actions") **[!UICONTROL More Actions]** > ![Affecter](/help/search-social-commerce/assets/assign.png "Affecter") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
+1. Dans la barre d’outils des actions en bloc, cliquez sur **+[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
 
 1. Dans l’écran [!UICONTROL Create Portfolio], spécifiez les paramètres du portfolio.
 

@@ -3,9 +3,10 @@ title: Modifier en masse les paramètres de portfolio à l’aide de fichiers de
 description: Découvrez comment modifier les paramètres de plusieurs portefeuilles à l’aide d’un fichier de feuille d’envoi groupé.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Une feuille groupée de portfolio est un fichier qui contient les paramètres de
 
 * Feuille de calcul [!UICONTROL Instructions] en lecture seule contenant des informations sur la modification des champs.
 
-* Un onglet [!UICONTROL Portfolio Settings Edit], avec une ligne par portefeuille inclus. Vous avez la possibilité de modifier les champs selon vos besoins, d’enregistrer le fichier localement, puis de [télécharger le fichier modifié](#portfolio-bulksheet-upload) vers Search, Social et Commerce.
+* Un onglet [!UICONTROL Portfolio Settings Edit], avec une ligne par portefeuille inclus. Vous avez la possibilité de modifier les champs selon vos besoins, d’enregistrer le fichier localement, puis de [télécharger le fichier modifié](#portfolio-bulksheet-upload) vers Search, Social et Commerce. Les champs modifiables sont mis en surbrillance en couleur.
 
 ## Téléchargement d’un fichier de feuille d’envoi groupé avec les paramètres du portfolio
 
