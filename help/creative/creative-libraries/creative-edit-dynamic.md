@@ -2,9 +2,9 @@
 title: Modification d’un élément créatif dynamique dans une bibliothèque de contenu créatif
 description: Découvrez comment modifier un contenu créatif dynamique dans une bibliothèque de contenu créatif.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
       1. Sélectionnez les lots, puis cliquez sur **[!UICONTROL Attach Creative to Bundles]**.
 
-   * Pour simplement enregistrer les publicités, cliquez sur **[!UICONTROL Save]**, puis cliquez de nouveau sur **[!UICONTROL Save]**.
+   * Pour enregistrer les publicités et quitter la configuration, cliquez sur **[!UICONTROL Save]**, puis cliquez de nouveau sur **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >

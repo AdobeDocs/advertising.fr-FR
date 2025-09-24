@@ -2,9 +2,9 @@
 title: Workflow pour les publicités dynamiques
 description: Découvrez le workflow de gestion des annonces dynamiques.
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. [Créez des offres groupées d’annonces dynamiques](/help/creative/creative-libraries/bundle-manage.md) que vous pouvez joindre en une seule fois à une expérience publicitaire.
 
-1. Créez des expériences publicitaires dynamiques avec [avec ciblage](/help/creative/experiences/experience-create-targeting.md) ou [sans ciblage](/help/creative/experiences/experience-create-no-targeting.md) et [affectez-les à vos expériences publicitaires dynamiques](/help/creative/experiences/experience-assign-creative-bundles.md).
+1. Créez des expériences publicitaires dynamiques [avec ciblage](/help/creative/experiences/experience-create-targeting.md) ou [sans ciblage](/help/creative/experiences/experience-create-no-targeting.md) et [affectez les bundles de création aux expériences](/help/creative/experiences/experience-assign-creative-bundles.md).
 
 1. [Générez et implémentez des balises d’expérience publicitaire](/help/creative/experiences/experience-tag-export.md) pour les exécuter en tant que publicités dans votre DSP.
 

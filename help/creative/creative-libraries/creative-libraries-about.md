@@ -3,9 +3,9 @@ title: À propos de vos bibliothèques de création
 description: Découvrez comment gérer les contenus publicitaires pour vos expériences publicitaires.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1383'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Vos bibliothèques peuvent inclure les éléments suivants :
 
 * **Contenu publicitaire individuel :** vous pouvez inclure des contenus publicitaires individuels directement dans des expériences publicitaires pour lesquelles aucune cible utilisateur n’est définie. Vous pouvez également utiliser vos contenus publicitaires pour créer des offres groupées, que vous pouvez inclure dans des [expériences publicitaires](/help/creative/experiences/experience-about.md) ciblées.
 
-   * **Contenu publicitaire standard :** vous pouvez charger et gérer des contenus publicitaires dans [différents formats](#creative-creative-formats). Pour chaque élément créatif, vous spécifiez la langue par défaut de chaque publicité à laquelle vous associez l’élément créatif, ainsi que la page de destination par défaut qui s’ouvre lorsqu’un utilisateur clique sur une publicité qui inclut l’élément créatif. Vous pouvez éventuellement spécifier des libellés à utiliser comme filtres dans différentes vues dans [!DNL Creative] et comme valeurs de colonne dans le [!UICONTROL Custom Creative Report] lorsque vous incluez à l’aide de la dimension [!UICONTROL Creative Label] .
+   * **Contenu publicitaire standard :** vous pouvez charger et gérer des contenus publicitaires dans [différents formats](#creative-creative-formats). Pour chaque élément créatif, spécifiez la langue par défaut de chaque publicité à laquelle vous associez l’élément créatif et la page de destination par défaut qui s’ouvre lorsqu’un utilisateur clique sur une publicité qui inclut l’élément créatif. Vous pouvez éventuellement spécifier des libellés à utiliser comme filtres dans différentes vues dans [!DNL Creative] et comme valeurs de colonne dans le [!UICONTROL Custom Creative Report] lorsque vous incluez à l’aide de la dimension [!UICONTROL Creative Label] .
 
    * **Contenu publicitaire dynamique :** vous pouvez créer des contenus publicitaires générés dynamiquement en mappant les variables dynamiques d’un modèle d’annonce publicitaire aux valeurs d’un fichier de flux. Tous les utilisateurs peuvent prévisualiser, dupliquer et supprimer des annonces dynamiques existantes.
 
@@ -62,9 +62,9 @@ Saisissez les balises de suivi JavaScript pour les contenus publicitaires héber
 
 #### Conceptions vidéo {#creative-video-specs}
 
-Vous pouvez télécharger des contenus vidéo propriétaires pour le web, les appareils mobiles ou les télévisions connectées depuis votre appareil ou réseau. Chaque expérience publicitaire vidéo standard nécessite une création vidéo par défaut pour chaque durée de création attribuée à l’expérience. Toutes les vidéos créatives sont transcodées automatiquement par DSP sous la forme de balises VAST 2.0 afin que vous puissiez les prévisualiser. Dans [!UICONTROL Tag Manager], vous pouvez éventuellement [appliquer un transcodage spécifique à DSP](/help/creative/experiences/experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience d’annonce vidéo.
+Vous pouvez télécharger des contenus vidéo propriétaires pour le web, les appareils mobiles ou les télévisions connectées depuis votre appareil ou réseau. Chaque expérience publicitaire vidéo standard nécessite une création vidéo par défaut pour chaque durée de création attribuée à l’expérience. DSP transcode automatiquement tous les contenus vidéo en tant que balises VAST 2.0 afin que vous puissiez les prévisualiser. Dans [!UICONTROL Tag Manager], vous pouvez éventuellement [appliquer un transcodage spécifique à DSP](/help/creative/experiences/experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience d’annonce vidéo.
 
-Consultez les exigences de création vidéo suivantes. **Remarque :** si vous chargez des expériences vidéo vers Advertising DSP, consultez également la section DSP [Conditions requises pour la vidéo haute définition Assets](https://experienceleague.adobe.com/fr/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), qui peut être plus limitée.
+Consultez les exigences de création vidéo suivantes. **Remarque :** si vous chargez des expériences vidéo vers Advertising DSP, consultez également la section DSP [Conditions requises pour la vidéo haute définition Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), qui peut être plus limitée.
 
 **Type de fichier :** .mov, .mp4, .webm
 

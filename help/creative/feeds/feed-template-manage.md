@@ -2,9 +2,9 @@
 title: Gestion des modèles de flux
 description: Découvrez comment gérer les modèles de flux.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Les modèles de flux téléchargés sont au format de feuille de calcul Excel Mi
 
 ### Paramètres [!UICONTROL Field Mapping]
 
-Mappez chaque champ du fichier de flux à un champ du serveur principal d’Advertising Creative.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> Vous devez inclure au moins un champ de fichier de flux marqué comme « [!UICONTROL Is Unique] ». Pour ajouter un mappage de champs, cliquez sur **[!UICONTROL +]**. Pour supprimer le dernier mappage de champs, cliquez sur **[!UICONTROL +]**.
+Mappez chaque champ du fichier de flux à un champ du serveur principal d’Advertising Creative.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> Au moins un champ de fichier de flux doit être marqué comme « [!UICONTROL Is Unique] ». Pour ajouter un mappage de champs, cliquez sur **[!UICONTROL +]**. Pour supprimer le dernier mappage de champs, cliquez sur **[!UICONTROL +]**.
 
 **[!UICONTROL Field Name]:** champ du fichier de flux.
 

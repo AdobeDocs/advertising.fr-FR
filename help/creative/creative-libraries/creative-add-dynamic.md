@@ -2,9 +2,9 @@
 title: Ajout de contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires
 description: Découvrez comment ajouter des contenus créatifs dynamiques à une bibliothèque de contenus créatifs.
 feature: Creative Dynamic Creatives
-source-git-commit: 7f4bfd6072a732a779368a5f59bfe40f90e64c82
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus
 
       1. Sélectionnez les lots, puis cliquez sur **[!UICONTROL Attach Creative to Bundles]**.
 
-   * Pour simplement enregistrer les publicités, cliquez sur **[!UICONTROL Save]**, puis cliquez de nouveau sur **[!UICONTROL Save]**.
+   * Pour enregistrer les publicités et quitter la configuration, cliquez sur **[!UICONTROL Save]**, puis cliquez de nouveau sur **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
