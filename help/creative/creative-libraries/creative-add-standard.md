@@ -3,16 +3,16 @@ title: Ajout de contenus publicitaires standard à une bibliothèque de contenus
 description: Découvrez comment ajouter des contenus publicitaires standard (non dynamiques) à une bibliothèque de contenus publicitaires.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
 
 # Ajout de contenus publicitaires standard à une bibliothèque de contenus publicitaires
 
-Ajoutez des contenus publicitaires à vos [bibliothèques de contenu publicitaire](creative-library-manage.md) pour les utiliser avec les [expériences publicitaires](/help/creative/experiences/experience-about.md).
+Ajoutez des contenus publicitaires standard à vos [bibliothèques de contenus publicitaires](creative-library-manage.md) pour les utiliser avec des [expériences publicitaires](/help/creative/experiences/experience-about.md) standard.
 
 >[!NOTE]
 >
@@ -34,9 +34,7 @@ Vous pouvez charger plusieurs unités de création flexibles. Les contenus publi
 
 1. Cliquez sur le nom de la bibliothèque.
 
-1. Dans l’onglet **[!UICONTROL Creatives]** , cliquez sur le sous-onglet **[!UICONTROL Standard Ads]** .
-
-1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**.
+1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Flexible]**.
 
 1. Cliquez sur **[!UICONTROL Upload New]**.
 
@@ -62,7 +60,7 @@ Vous pouvez charger plusieurs unités de création flexibles. Les contenus publi
 
 ### Ajouter des contenus publicitaires flexibles à l’aide d’un modèle {#flexible-creative-use-template}
 
-Vous pouvez utiliser l’un des modèles créatifs flexibles chargés sur votre compte pour créer des annonces d’une taille prédéfinie. Une fois que vous avez sélectionné un modèle à utiliser, vous modifiez les balises et les attributs de clic.&lt;!— Remplacez la dernière phrase par celle-ci si nous ajoutons à nouveau la fonction de téléchargement de modèle : vous pouvez a\) sélectionner un modèle à utiliser, puis modifier les balises et attributs de clic ; ou b\) [télécharger un modèle sous forme de fichier ZIP](#download-flexible-creative-template), modifier le contenu hors ligne pour créer votre propre contenu créatif, puis [charger le fichier modifié en tant que nouveau contenu créatif] (flexible-creative-upload).>
+Vous pouvez utiliser l’un des modèles créatifs flexibles chargés sur votre compte pour créer des annonces d’une taille prédéfinie. Une fois que vous avez sélectionné un modèle à utiliser, vous modifiez les balises et les attributs de clic.&lt;!— Remplacez la dernière phrase par celle-ci si nous ajoutons à nouveau la fonction de téléchargement de modèle : vous pouvez a\) sélectionner un modèle à utiliser, puis modifier les balises et attributs de clic ; ou b\) [télécharger un modèle sous forme de fichier ZIP](#download-flexible-creative-template), modifier le contenu hors ligne pour créer votre propre contenu créatif, puis [charger le fichier modifié en tant que nouveau contenu créatif](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -74,22 +72,9 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. Cliquez sur le nom de la bibliothèque.
 
-1. Dans l’onglet **[!UICONTROL Creatives]** , cliquez sur le sous-onglet **[!UICONTROL Standard Ads]** .
-
-1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**.
+1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Flexible]**.
 
 1. Cliquez sur **[!UICONTROL Browse System Flexible Templates]**.
-
-<!-- Not options as of 5/22/25:
-
-1. In the left panel, select the creative size to see all available templates for that size.
-
-1. Select the template:
-
-   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
-     
-   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
--->
 
 1. (Facultatif) Pour prévisualiser le modèle, cliquez sur **[!UICONTROL ...]** en regard du nom du modèle, puis cliquez sur **[!UICONTROL Preview]**.
 
@@ -102,6 +87,17 @@ For information about the attributes available in predefined templates, see "[Av
    La taille de fichier maximale du fichier créatif, une fois compressé, est de 2 Mo.<!-- Still true? -->
 
 1. Cliquez sur **[!UICONTROL Create]**.
+
+<!-- Not options as of 5/22/25:
+
+1. In the left panel, select the creative size to see all available templates for that size.
+
+1. Select the template:
+
+   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
+     
+   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
+-->
 
 ## Ajout d’un contenu créatif HTML5 à une bibliothèque de contenu créatif
 
@@ -119,9 +115,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Cliquez sur le nom de la bibliothèque.
 
-1. Dans l’onglet **[!UICONTROL Creatives]** , cliquez sur le sous-onglet **[!UICONTROL Standard Ads]** .
-
-1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL HTML5]**.
+1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL HTML5]**.
 
 <!-- Not an option as of 3/4:
 
@@ -155,9 +149,7 @@ Les contenus publicitaires d’image peuvent être au format GIF, JPEG, JPG ou P
 
 1. Cliquez sur le nom de la bibliothèque.
 
-1. Dans l’onglet **[!UICONTROL Creatives]** , cliquez sur le sous-onglet **[!UICONTROL Standard Ads]** .
-
-1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Image]**.
+1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Image]**.
 
 1. Spécifiez les images :
 
@@ -197,9 +189,7 @@ Les contenus publicitaires d’image peuvent être au format GIF, JPEG, JPG ou P
 
 1. Cliquez sur le nom de la bibliothèque.
 
-1. Dans l’onglet **[!UICONTROL Creatives]** , cliquez sur le sous-onglet **[!UICONTROL Standard Ads]** .
-
-1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL 3rd Party]**.
+1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL 3rd Party]**.
 
 1. Spécifiez la balise JavaScript et d’autres paramètres pour les créatifs dans les [paramètres de création tiers](#creative-settings-third-party).
 
@@ -215,9 +205,7 @@ Consultez les [spécifications de création vidéo](/help/creative/creative-libr
 
 1. Cliquez sur le nom de la bibliothèque.
 
-1. Dans l’onglet **[!UICONTROL Creatives]** , cliquez sur le sous-onglet **[!UICONTROL Standard Ads]** .
-
-1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Video]**.
+1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Video]**.
 
 1. Spécifiez les fichiers vidéo de l’une des manières suivantes :
 

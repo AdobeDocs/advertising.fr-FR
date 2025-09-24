@@ -3,9 +3,9 @@ title: À propos de vos bibliothèques de création
 description: Découvrez comment gérer les contenus publicitaires pour vos expériences publicitaires.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 3c4fcd4cf63003cf10775ebec23ae3f68d3bbd07
+source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Vos bibliothèques peuvent inclure les éléments suivants :
 
    * **Contenu publicitaire standard :** vous pouvez charger et gérer des contenus publicitaires dans [différents formats](#creative-creative-formats). Pour chaque élément créatif, vous spécifiez la langue par défaut de chaque publicité à laquelle vous associez l’élément créatif, ainsi que la page de destination par défaut qui s’ouvre lorsqu’un utilisateur clique sur une publicité qui inclut l’élément créatif. Vous pouvez éventuellement spécifier des libellés à utiliser comme filtres dans différentes vues dans [!DNL Creative] et comme valeurs de colonne dans le [!UICONTROL Custom Creative Report] lorsque vous incluez à l’aide de la dimension [!UICONTROL Creative Label] .
 
-   * **Contenu créatif dynamique :** (clients Adobe Advertising DCO existants uniquement) Les utilisateurs administrateurs peuvent créer des contenus créatifs générés dynamiquement en mappant les variables dynamiques d’un modèle d’annonce publicitaire aux valeurs d’un fichier de flux. Tous les utilisateurs peuvent prévisualiser, dupliquer et supprimer des annonces dynamiques existantes.
+   * **Contenu publicitaire dynamique :** vous pouvez créer des contenus publicitaires générés dynamiquement en mappant les variables dynamiques d’un modèle d’annonce publicitaire aux valeurs d’un fichier de flux. Tous les utilisateurs peuvent prévisualiser, dupliquer et supprimer des annonces dynamiques existantes.
 
 * **Lots de contenu publicitaire :** regroupez les contenus publicitaires en lots à utiliser dans plusieurs expériences avec des cibles utilisateur définies. Vous pouvez créer des *bundles d’affichage standard* qui consistent en des publicités d’affichage standard, des *bundles vidéo standard* qui consistent en des publicités vidéo standard et des *bundles d’affichage dynamique* qui consistent en des publicités d’affichage générées dynamiquement.
 
@@ -64,7 +64,7 @@ Saisissez les balises de suivi JavaScript pour les contenus publicitaires héber
 
 Vous pouvez télécharger des contenus vidéo propriétaires pour le web, les appareils mobiles ou les télévisions connectées depuis votre appareil ou réseau. Chaque expérience publicitaire vidéo standard nécessite une création vidéo par défaut pour chaque durée de création attribuée à l’expérience. Toutes les vidéos créatives sont transcodées automatiquement par DSP sous la forme de balises VAST 2.0 afin que vous puissiez les prévisualiser. Dans [!UICONTROL Tag Manager], vous pouvez éventuellement [appliquer un transcodage spécifique à DSP](/help/creative/experiences/experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience d’annonce vidéo.
 
-Consultez les exigences de création vidéo suivantes. **Remarque :** si vous chargez des expériences vidéo vers Advertising DSP, consultez également la section DSP [Conditions requises pour la vidéo haute définition Assets](https://experienceleague.adobe.com/fr/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), qui peut être plus limitée.
+Consultez les exigences de création vidéo suivantes. **Remarque :** si vous chargez des expériences vidéo vers Advertising DSP, consultez également la section DSP [Conditions requises pour la vidéo haute définition Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), qui peut être plus limitée.
 
 **Type de fichier :** .mov, .mp4, .webm
 
@@ -94,7 +94,7 @@ Consultez les exigences de création vidéo suivantes. **Remarque :** si vous ch
 
 ### Format pour les publicités dynamiques
 
-Les utilisateurs administrateurs peuvent générer dynamiquement des contenus publicitaires au format statique HTML5 et dynamique HTML5 en mappant les variables dynamiques d’un modèle d’annonce publicitaire aux valeurs d’un fichier de flux. Les contenus publicitaires dynamiques peuvent inclure ceux de vos expériences Adobe Advertising Dynamic Creative Optimization (DCO) héritées.
+Vous pouvez générer dynamiquement des contenus publicitaires au format statique HTML5 et dynamique HTML5 en mappant les variables dynamiques d’un modèle d’annonce publicitaire aux valeurs d’un fichier de flux. Les contenus publicitaires dynamiques peuvent inclure ceux qui ont été migrés à partir de vos expériences Adobe Advertising Dynamic Creative Optimization (DCO) héritées.
 
 ## Les vues [!UICONTROL Creative Libraries]
 
@@ -144,17 +144,19 @@ L’onglet [!UICONTROL Standard Ads] affiche tous les contenus publicitaires sta
 
 #### [!UICONTROL Dynamic Ads]
 
-L’onglet [!UICONTROL Dynamic Ads] affiche tous les contenus publicitaires dynamiques créés dynamiquement pour vos catalogues créatifs, à l’exception de ceux que vous [avez supprimés manuellement](creative-delete.md) dans l’onglet [!UICONTROL Dynamic Ads]. Si vous [avez dupliqué manuellement](creative-duplicate.md) des contenus publicitaires dynamiques depuis le dernier traitement d’un catalogue, la liste des contenus publicitaires de ce catalogue inclut également les contenus publicitaires dupliqués.
+L’onglet [!UICONTROL Dynamic Ads] affiche tous les contenus publicitaires dynamiques créés dynamiquement pour vos catalogues créatifs, à l’exception de ceux que vous [avez supprimés manuellement](creative-delete.md) dans l’onglet [!UICONTROL Dynamic Ads]. Si vous [avez dupliqué manuellement](creative-duplicate.md) des contenus publicitaires dynamiques<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, la liste des contenus publicitaires de ce catalogue inclut également les contenus publicitaires dupliqués.
 
-Les données de chaque élément créatif incluent le type d’élément créatif, la taille de l’élément créatif, le nombre de catalogues auxquels il appartient et la date de création. Le mode Tableau comprend également des colonnes pour le modèle à partir duquel la création a été générée et le nombre d’offres.
+Les données de chaque élément créatif incluent le type d’élément créatif, la taille de l’élément créatif, le nombre de catalogues auxquels il appartient et la date de création. Le mode Tableau comprend également des colonnes pour le modèle d’annonce publicitaire à partir duquel la création a été générée et le nombre d’offres.
 
 >[!NOTE]
 >
->Chaque fois qu’un catalogue est traité, les données sont actualisées pour les contenus publicitaires dynamiques existants de ce catalogue.
+>Chaque fois qu’un catalogue est traité, les données sont actualisées pour les contenus publicitaires dynamiques existants de ce catalogue.<!-- Verify this!!! And is there anything more to say w/regard to  -->
 
 ##### Actions disponibles
 
-Actuellement, la possibilité de créer et de modifier des contenus publicitaires dynamiques est réservée à l’équipe du compte Adobe. Cependant, tous les utilisateurs peuvent :
+* [Ajout de contenus publicitaires dynamiques à une bibliothèque](creative-add-dynamic.md)
+
+* [Modification d’un élément créatif dynamique](creative-edit-dynamic.md)
 
 * [Aperçu de contenus publicitaires dynamiques](creative-preview.md)
 

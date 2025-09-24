@@ -3,9 +3,9 @@ role: User
 user-guide-title: Guide d’Advertising Creative
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources requis pour utiliser Advertising Creative.
 breadcrumb-title: Guide de Creative
-source-git-commit: 53e565307b55be2aabd847643b05a701dd1f2b93
+source-git-commit: 3ec3bcf1b3be7acffef4cf0ec8dd170b32987d33
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,9 @@ ht-degree: 0%
 + Introduction {#introduction}
    + [À propos de Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Personnalisation des vues de données](/help/creative/introduction/customize-data-views.md)
-   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Workflow pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
+   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Bibliothèques Creative {#creative-libraries}
    + [À propos de vos bibliothèques de création](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md)
@@ -30,6 +31,10 @@ ht-degree: 0%
          + [Modification de contenus publicitaires standard](/help/creative/creative-libraries/creative-edit-standard.md)
          + [Paramètres de création standard](/help/creative/creative-libraries/creative-settings-standard.md)
          + [Spécification de création HTML5](/help/creative/creative-libraries/html5-creative-specification.md)
+      + Créations dynamiques {#dynamic-creatives}
+         + [Ajout de contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-dynamic.md)
+         + [Modification de contenus publicitaires dynamiques](/help/creative/creative-libraries/creative-edit-dynamic.md)
+         + [Paramètres de création dynamique](/help/creative/creative-libraries/creative-settings-dynamic.md)
       + [Prévisualisation d’un contenu créatif](/help/creative/creative-libraries/creative-preview.md)
       + [Joindre des contenus publicitaires aux offres groupées](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [Dupliquer les contenus publicitaires](/help/creative/creative-libraries/creative-duplicate.md)
@@ -72,10 +77,16 @@ ht-degree: 0%
    + [Télécharger des données à partir de la vue [!UICONTROL Experiences]](/help/creative/experiences/experience-download-view.md)
    + [Renommer une balise publicitaire](/help/creative/experiences/experience-tag-rename.md)
    + [Suppression d’une expérience](/help/creative/experiences/experience-delete.md)
++ Flux {#feeds}
+   + [Gestion des fichiers de ressources](/help/creative/feeds/asset-manage.md)
+   + [Gestion des modèles de flux](/help/creative/feeds/feed-template-manage.md)
+   + [Gestion des catalogues](/help/creative/feeds/catalog-manage.md)
+   + [Suivi du statut des tâches de traitement du catalogue](/help/creative/feeds/job-status-track.md)
++ [Gestion des modèles de publicité dynamique](/help/creative/ad-templates/ad-template-manage.md)
 + Rapports de performance {#reports}
    + [Rapports de performances au niveau de l’expérience](/help/creative/experiences/experience-performance-details.md)
    + [Rapport Creative personnalisé](/help/creative/report-custom-creative.md)
 + [Reciblage des pixels](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponibles pour le tracking des URL](/help/creative/creative-macros.md)
 + [Obtenir de l’aide](/help/creative/get-help.md)
-+ [Notes de mise à jour de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target="_blank"}
++ [Notes de mise à jour de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

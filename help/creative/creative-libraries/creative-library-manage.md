@@ -3,16 +3,16 @@ title: Gestion des bibliothèques de contenu publicitaire
 description: Découvrez comment créer, renommer et supprimer vos bibliothèques de création.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # Gestion des bibliothèques de contenu publicitaire
 
-Vous pouvez créer plusieurs bibliothèques de contenu publicitaire pour chaque annonceur. Vous pouvez ensuite remplir chaque bibliothèque avec des [contenus publicitaires standard](creative-add-standard.md)<!-- , dynamic creatives, --> et des [lots créatifs](bundle-manage.md). L’équipe chargée de votre compte Adobe peut également ajouter des contenus publicitaires dynamiques à vos bibliothèques.
+Vous pouvez créer plusieurs bibliothèques de contenu publicitaire pour chaque annonceur. Vous pouvez ensuite remplir chaque bibliothèque avec des [contenus publicitaires standard](creative-add-standard.md), [contenus publicitaires dynamiques](creative-add-dynamic.md) et [lots créatifs](bundle-manage.md).
 
 ## Création d’une bibliothèque de contenu créatif
 
