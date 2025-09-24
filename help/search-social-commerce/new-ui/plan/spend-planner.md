@@ -2,9 +2,10 @@
 title: Utilisation de l’[!UICONTROL Spend Planner]
 description: Découvrez comment utiliser le [!UICONTROL Spend Planner] pour identifier la répartition optimale des dépenses entre les portefeuilles.
 feature: Search Optimization, Search Portfolios, Search Simulations
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+exl-id: 966b8968-68b6-4385-9efb-e639a6729362
+source-git-commit: ff4deeb1cfbcd863e5b0ef2ac9b2f7124906c3dd
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -29,13 +30,13 @@ Les rapports de recommandation de dépenses incluent les données suivantes :
 
 * Graphique à barres pour chacun des portefeuilles, affichant les dépenses quotidiennes recommandées (coût) et la distribution des revenus prévue ou la distribution des clics lorsque vous maintenez l’objectif actuel de dépenses quotidiennes totales sur tous les portefeuilles sélectionnés, ou pour un objectif de dépenses totales proposées. Vous pouvez éventuellement appliquer les cibles de dépenses recommandées aux portefeuilles sélectionnés, ce qui affecte les enchères dans le prochain cycle d’exécution des offres.
 
-## (Nouvelle interface utilisateur) Générer un rapport de [!UICONTROL Spend Planner] à partir de la vue [!UICONTROL Manage] > [!UICONTROL Simulations]
+## (Nouvelle interface utilisateur) Générer un rapport [!UICONTROL Spend Planner]
 
-<!-- The path will probably change, so then update the heading and instructions -->
+1. Effectuez l’une des opérations suivantes :
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
+   * Dans le menu principal, cliquez sur **[!UICONTROL Plan]>[!UICONTROL Spend Planner]**.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Planificateur de dépenses](/help/search-social-commerce/assets/spend-planner-icon.png "Planificateur de dépenses").
+   * Dans le menu principal, cliquez sur **[!UICONTROL Plan]>[!UICONTROL Simulations]**. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Planificateur de dépenses](/help/search-social-commerce/assets/spend-planner-icon.png "Planificateur de dépenses").
 
    L’outil [!UICONTROL Spend Recommendation] s’ouvre dans l’interface utilisateur héritée.
 
