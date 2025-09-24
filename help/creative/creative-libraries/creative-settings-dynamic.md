@@ -2,9 +2,9 @@
 title: Paramètres de création dynamique
 description: Référencez les paramètres des contenus publicitaires dynamiques.
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 85fea6483ccf5db27d5730b5ebb2fb2b0957302d
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## Modèle de publicité
 
-**[!UICONTROL Ad Template]:** modèle d’annonce publicitaire à partir duquel créer les annonces.&lt;!— également une option pour charger votre propre modèle de publicité — il faut ajouter les spécifications pour cela —>
+**[!UICONTROL Ad Template]:** modèle d’annonce publicitaire à partir duquel créer les annonces publicitaires.<!-- also an option to upload your own ad template. Need to add the specs for that -->
 
-**[!UICONTROL Number of offers (Max 50)]:** nombre d’offres pouvant être créées pour chaque publicité.&lt;!— Clarifier ceci — s&#39;agit-il de la limitation de fréquence (nombre maximum de fois qu&#39;une publicité peut être diffusée) ? —>
+**[!UICONTROL Number of offers (Max 50)]:** nombre d’offres pouvant être créées pour chaque annonce publicitaire.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## Catalogues
 
-**[!UICONTROL Template]:** modèle de flux à utiliser pour créer les annonces.&lt;!— également une option pour charger votre propre modèle de flux — il faut ajouter les spécifications pour cela —>
+**[!UICONTROL Template]:** modèle de flux à utiliser pour créer les annonces.<!-- also an option to upload your own feed template.  Need to add the specs for that -->
 
-**\[Catalogues\]** : un ou plusieurs catalogues de l’annonceur spécifié à partir desquels générer des publicités.&lt;!— également une option pour télécharger votre propre catalogue (vous ne trouvez pas le catalogue dont vous avez besoin ? Téléchargez un modèle, créez le vôtre et chargez-le à partir de votre appareil.) — il faut ajouter les spécifications pour cela —>
+**\[Catalogues\]** : un ou plusieurs catalogues de l’annonceur spécifié à partir desquels générer des publicités.<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 
