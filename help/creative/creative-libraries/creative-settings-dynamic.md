@@ -2,9 +2,9 @@
 title: Paramètres de création dynamique
 description: Référencez les paramètres des contenus publicitaires dynamiques.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -49,27 +49,35 @@ ht-degree: 0%
 
 **[!UICONTROL Library]:** bibliothèque créative dans laquelle créer les annonces. Si vous créez les annonces à partir de [!UICONTROL Creatives] > [!UICONTROL Creative Libraries], le nom de la bibliothèque est déjà sélectionné et en lecture seule.
 
-**[!UICONTROL Ad Template Size]:** dimensions de l’annonce publicitaire pour le modèle d’annonce publicitaire à partir duquel créer l’annonce publicitaire. Si vous sélectionnez d’abord une [!UICONTROL Ad Template] spécifique, cette valeur est automatiquement sélectionnée.
+**[!UICONTROL Ad Template Size]:** dimensions [annonce publicitaire](/help/creative/creative-libraries/creative-sizes.md) du modèle d’annonce publicitaire à partir duquel créer l’annonce publicitaire. Si vous sélectionnez d’abord une [!UICONTROL Ad Template] spécifique, cette valeur est automatiquement sélectionnée.
 
 ## Modèle de publicité
 
-**[!UICONTROL Ad Template]:** modèle d’annonce publicitaire à partir duquel créer les annonces. Sélectionnez un modèle d’annonce publicitaire existant ou chargez un nouveau modèle d’annonce publicitaire.<!-- Need to add the specs for that -->
+**[!UICONTROL Ad Template]:** modèle d’annonce publicitaire à partir duquel créer les annonces. Sélectionnez un modèle d’annonce existant ou chargez un nouveau modèle d’annonce et sélectionnez le type de modèle (*Statique* ou *Dynamique*). Un modèle chargé doit être au format ZIP et contenir des fichiers HTML5 et un fichier de définition de modèle (template.TDF). <!-- Need to add more specs for that -->
 
-**[!UICONTROL Number of offers (Max 50)]:** nombre d’offres pouvant être créées pour chaque annonce publicitaire.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
+**[!UICONTROL Number of offers (Max 50)]:** nombre de produits à afficher dans un carrousel.
 
 ## Catalogues
 
 **[!UICONTROL Template]:** modèle de flux à utiliser pour créer les annonces.
 
-**\[Catalogs\]** : un ou plusieurs catalogues à partir desquels générer des annonces. Sélectionnez un catalogue existant ou créez un catalogue en téléchargeant un modèle de flux existant, puis en créant et en chargeant le nouveau catalogue<!-- Need to add the specs for that -->
+**\[Catalogs\]** : un ou plusieurs catalogues à partir desquels générer des annonces. Sélectionnez un catalogue existant ou créez un catalogue en téléchargeant un modèle de flux existant, puis en créant et en chargeant le nouveau catalogue.
+
+Les catalogues chargés doivent être au format ZIP et contenir les éléments suivants :
+
+* Un ou plusieurs fichiers de flux au format CSV, TSV ou feuille de calcul Microsoft Excel (XLSX).<!-- Need to add more specs for that -->
+
+* Ressources d’image au format GIF, JPEG, JPG ou PNG
+
+* (Facultatif) Ressources vidéo au format MP4 ou WEBM
 
 ### [!UICONTROL Attributes Mapping]
 
-**[!UICONTROL Enable targeting]** : types de colonnes dans le fichier de flux pour lesquels des valeurs doivent être présentes pour créer des annonces : *[!UICONTROL Profile data]*, *[!UICONTROL Geographic data], *[!UICONTROL Data pass], *[!UICONTROL Audience Segment]*.  **Remarque :** ces paramètres fonctionnent indépendamment des paramètres avancés dans les paramètres d’expérience publicitaire.<!-- Clarify what qualifies for each, and explain more -->
+**[!UICONTROL Enable targeting]** : <!-- "targeting options/filters," but I don't think this means user targeting since that is set in the experience/ad on DSP -->types de colonnes du fichier de flux pour lesquels des valeurs doivent être présentes pour créer des annonces : *[!UICONTROL Profile data]*, *[!UICONTROL Geographic data], *[!UICONTROL Data pass], *[!UICONTROL Audience Segment]*.  **Remarque :** ces paramètres fonctionnent indépendamment des paramètres avancés dans les paramètres d’expérience publicitaire.<!-- Clarify what qualifies for each, and explain more -->
 
 **[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]:**
 
-Mappez chaque attribut (champ d’annonce dynamique) du modèle d’annonce spécifié à une colonne du fichier de flux spécifié (libellé de catalogue).
+Mappez chaque attribut (champ d’annonce dynamique) du modèle d’annonce spécifié sur une colonne du catalogue spécifié (libellé du catalogue).
 
 >[!MORELIKETHIS]
 >

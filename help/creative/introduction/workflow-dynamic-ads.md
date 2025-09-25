@@ -2,14 +2,16 @@
 title: Workflows pour les publicités dynamiques
 description: Découvrez les workflows de gestion des annonces dynamiques.
 feature: Creative Dynamic Creatives
-source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
 
 # Workflows pour les publicités dynamiques
+
+*Utilisateurs autorisés à créer des annonces dynamiques*
 
 Vous pouvez configurer des annonces dynamiques de deux manières :
 
@@ -22,6 +24,11 @@ Vous pouvez configurer des annonces dynamiques de deux manières :
   Utilisez ce workflow lorsque différentes personnes doivent effectuer différentes tâches ou lorsque vous ne souhaitez effectuer qu’une seule tâche à la fois.
 
 ## Workflow 1
+
+>[!PREREQUISITES]
+>
+>* Modèles publicitaires au format HTML5
+>* Catalogues de produits au format CSV, TSV ou feuille de calcul Microsoft Excel (XLSX)
 
 1. [Créer des contenus publicitaires dynamiques](/help/creative/creative-libraries/creative-add-dynamic.md) pour une bibliothèque de contenus publicitaires. Pour les publicités dynamiques d’HTML5, chargez un modèle de publicité et des catalogues.
 
