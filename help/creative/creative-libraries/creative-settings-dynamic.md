@@ -2,9 +2,9 @@
 title: Paramètres de création dynamique
 description: Référencez les paramètres des contenus publicitaires dynamiques.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## Modèle de publicité
 
-**[!UICONTROL Ad Template]:** modèle d’annonce publicitaire à partir duquel créer les annonces publicitaires.<!-- also an option to upload your own ad template. Need to add the specs for that -->
+**[!UICONTROL Ad Template]:** modèle d’annonce publicitaire à partir duquel créer les annonces. Sélectionnez un modèle d’annonce publicitaire existant ou chargez un nouveau modèle d’annonce publicitaire.<!-- Need to add the specs for that -->
 
 **[!UICONTROL Number of offers (Max 50)]:** nombre d’offres pouvant être créées pour chaque annonce publicitaire.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## Catalogues
 
-**[!UICONTROL Template]:** modèle de flux à utiliser pour créer les annonces.<!-- also an option to upload your own feed template.  Need to add the specs for that -->
+**[!UICONTROL Template]:** modèle de flux à utiliser pour créer les annonces.
 
-**\[Catalogues\]** : un ou plusieurs catalogues de l’annonceur spécifié à partir desquels générer des publicités.<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
+**\[Catalogs\]** : un ou plusieurs catalogues à partir desquels générer des annonces. Sélectionnez un catalogue existant ou créez un catalogue en téléchargeant un modèle de flux existant, puis en créant et en chargeant le nouveau catalogue<!-- Need to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 
@@ -75,4 +75,4 @@ Mappez chaque attribut (champ d’annonce dynamique) du modèle d’annonce spé
 >
 >* [Ajouter des contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires](creative-add-dynamic.md)
 >* [Modification de contenus publicitaires dynamiques dans une bibliothèque de contenus publicitaires](creative-edit-dynamic.md)
->* [Workflow pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)

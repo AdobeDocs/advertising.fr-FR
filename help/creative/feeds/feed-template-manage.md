@@ -2,9 +2,9 @@
 title: Gestion des modèles de flux
 description: Découvrez comment gérer les modèles de flux.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-Les modèles de flux mappent les champs de vos fichiers de flux avec les champs du serveur principal d’Advertising Creative. Les annonces dynamiques HTML5, mais pas les annonces statiques HTML5, nécessitent un modèle de flux pour créer des annonces dynamiques.
+Les modèles de flux mappent les champs de vos fichiers de flux/catalogues aux champs du serveur principal d’Advertising Creative. Les annonces dynamiques HTML5, mais pas les annonces statiques HTML5, nécessitent un modèle de flux pour créer des annonces dynamiques.
 
 Vous pouvez utiliser un modèle de flux avec plusieurs modèles d’annonces.
 
@@ -101,7 +101,7 @@ Mappez chaque champ du fichier de flux à un champ du serveur principal d’Adve
 
 >[!MORELIKETHIS]
 >
->* [Workflow pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Gérer les fichiers de ressources](/help/creative/feeds/asset-manage.md)
 >* [Gérer les catalogues](/help/creative/feeds/catalog-manage.md)
 >* [Suivre le statut des tâches de traitement du catalogue](/help/creative/feeds/job-status-track.md)

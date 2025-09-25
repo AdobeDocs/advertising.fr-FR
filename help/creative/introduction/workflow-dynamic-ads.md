@@ -1,17 +1,43 @@
 ---
-title: Workflow pour les publicités dynamiques
-description: Découvrez le workflow de gestion des annonces dynamiques.
+title: Workflows pour les publicités dynamiques
+description: Découvrez les workflows de gestion des annonces dynamiques.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
 
-# Workflow pour les publicités dynamiques
+# Workflows pour les publicités dynamiques
 
-1. [Créez un modèle d’annonce publicitaire](/help/creative/ad-templates/ad-template-manage.md) pour vos annonces dynamiques en fonction des ressources disponibles
+Vous pouvez configurer des annonces dynamiques de deux manières :
+
+* Processus 1 : chargez un modèle d’annonce publicitaire et un catalogue de variantes d’annonces directement dans les paramètres d’annonce dynamique lorsque vous ajoutez des annonces dynamiques à une bibliothèque de contenu créatif. Vous pouvez télécharger un modèle de flux existant pour créer le catalogue.
+
+  Utilisez ce workflow lorsque la même personne peut fournir toutes les informations (à l’exception du modèle de flux) pour créer les annonces. Les fichiers chargés restent disponibles pour une utilisation ultérieure.
+
+* Workflow 2 : configurez un modèle d’annonce publicitaire et des catalogues de variantes d’annonce publicitaire dans des vues distinctes, puis ajoutez séparément des annonces dynamiques à un contenu publicitaire à l’aide du modèle d’annonce publicitaire et des catalogues déjà disponibles.
+
+  Utilisez ce workflow lorsque différentes personnes doivent effectuer différentes tâches ou lorsque vous ne souhaitez effectuer qu’une seule tâche à la fois.
+
+## Workflow 1
+
+1. [Créer des contenus publicitaires dynamiques](/help/creative/creative-libraries/creative-add-dynamic.md) pour une bibliothèque de contenus publicitaires. Pour les publicités dynamiques d’HTML5, chargez un modèle de publicité et des catalogues.
+
+1. Utilisez les contenus publicitaires dynamiques pour créer des expériences publicitaires :
+
+   1. [Créez des offres groupées d’annonces dynamiques](/help/creative/creative-libraries/bundle-manage.md) que vous pouvez joindre en une seule fois à une expérience publicitaire.
+
+   1. Créez des expériences publicitaires dynamiques [avec ciblage](/help/creative/experiences/experience-create-targeting.md) ou [sans ciblage](/help/creative/experiences/experience-create-no-targeting.md) et [affectez les bundles de création aux expériences](/help/creative/experiences/experience-assign-creative-bundles.md).
+
+   1. [Générez et implémentez des balises d’expérience publicitaire](/help/creative/experiences/experience-tag-export.md) pour les exécuter en tant que publicités dans votre DSP.
+
+      Pour utiliser une expérience d’annonce publicitaire comme annonce publicitaire dans Adobe Advertising DSP, chargez la balise d’expérience publicitaire dans une campagne Advertising DSP. Pour utiliser une expérience d’annonce publicitaire comme annonce publicitaire dans un autre DSP, implémentez la balise d’expérience publicitaire dans ce DSP.
+
+## Workflow 2
+
+1. [Créez un modèle d’annonce publicitaire](/help/creative/ad-templates/ad-template-manage.md) pour vos annonces dynamiques en fonction des ressources disponibles.
 
 1. Configurez vos éléments publicitaires :
 
@@ -33,10 +59,12 @@ ht-degree: 0%
 
 1. [Créer des contenus publicitaires dynamiques](/help/creative/creative-libraries/creative-add-dynamic.md) pour une bibliothèque de contenus publicitaires. Pour les annonces HTML5 dynamiques, utilisez un modèle d’annonce spécifié et des catalogues spécifiés.
 
-1. [Créez des offres groupées d’annonces dynamiques](/help/creative/creative-libraries/bundle-manage.md) que vous pouvez joindre en une seule fois à une expérience publicitaire.
+1. Utilisez les contenus publicitaires dynamiques pour créer des expériences publicitaires :
 
-1. Créez des expériences publicitaires dynamiques [avec ciblage](/help/creative/experiences/experience-create-targeting.md) ou [sans ciblage](/help/creative/experiences/experience-create-no-targeting.md) et [affectez les bundles de création aux expériences](/help/creative/experiences/experience-assign-creative-bundles.md).
+   1. [Créez des offres groupées d’annonces dynamiques](/help/creative/creative-libraries/bundle-manage.md) que vous pouvez joindre en une seule fois à une expérience publicitaire.
 
-1. [Générez et implémentez des balises d’expérience publicitaire](/help/creative/experiences/experience-tag-export.md) pour les exécuter en tant que publicités dans votre DSP.
+   1. Créez des expériences publicitaires dynamiques [avec ciblage](/help/creative/experiences/experience-create-targeting.md) ou [sans ciblage](/help/creative/experiences/experience-create-no-targeting.md) et [affectez les bundles de création aux expériences](/help/creative/experiences/experience-assign-creative-bundles.md).
 
-   Pour utiliser une expérience d’annonce publicitaire comme annonce publicitaire dans Adobe Advertising DSP, chargez la balise d’expérience publicitaire dans une campagne Advertising DSP. Pour utiliser une expérience d’annonce publicitaire comme annonce publicitaire dans un autre DSP, implémentez la balise d’expérience publicitaire dans ce DSP.
+   1. [Générez et implémentez des balises d’expérience publicitaire](/help/creative/experiences/experience-tag-export.md) pour les exécuter en tant que publicités dans votre DSP.
+
+      Pour utiliser une expérience d’annonce publicitaire comme annonce publicitaire dans Adobe Advertising DSP, chargez la balise d’expérience publicitaire dans une campagne Advertising DSP. Pour utiliser une expérience d’annonce publicitaire comme annonce publicitaire dans un autre DSP, implémentez la balise d’expérience publicitaire dans ce DSP.

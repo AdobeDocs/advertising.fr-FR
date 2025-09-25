@@ -2,9 +2,9 @@
 title: Gestion des catalogues de flux
 description: Découvrez comment gérer les catalogues de flux.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ Les catalogues de flux traités sont des ensembles de variations d’annonces po
 Avant de pouvoir utiliser les variations d’annonces pour [ajouter des annonces dynamiques à une bibliothèque de contenu créatif](/help/creative/creative-libraries/creative-add-dynamic.md), traitez le catalogue.
 
 ## Création d’un catalogue {#feed-catalog-create}
+
+>[!NOTE]
+>
+>Vous pouvez également charger directement un catalogue lorsque vous [ajoutez des contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-dynamic.md). Tous les catalogues que vous y créez sont disponibles dans la vue [!UICONTROL Catalogs] pour une utilisation ultérieure.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Feeds]**.
 
@@ -102,7 +106,7 @@ Archivez un catalogue pour le supprimer.
 >[!MORELIKETHIS]
 >
 >* [Suivre le statut des tâches de traitement du catalogue](/help/creative/feeds/job-status-track.md)
->* [Workflow pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Gérer les fichiers de ressources](/help/creative/feeds/asset-manage.md)
 >* [Gérer les modèles de flux](/help/creative/feeds/feed-template-manage.md)
 >* [Gestion des modèles de publicité dynamique](/help/creative/ad-templates/ad-template-manage.md)

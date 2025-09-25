@@ -2,9 +2,9 @@
 title: Gestion des fichiers de ressources
 description: Découvrez comment charger et gérer un fichier de ressource pour un annonceur.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,10 @@ Les publicités dynamiques HTML5 nécessitent à la fois un fichier de flux au f
      Vous pouvez charger une ou plusieurs images dans un fichier ZIP.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 ## Chargement d’un fichier de ressource
+
+>[!NOTE]
+>
+>Au lieu de charger des fichiers de ressource, vous pouvez également charger directement un catalogue lorsque vous [ajoutez des contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-dynamic.md). Tous les catalogues que vous y créez sont disponibles dans la vue [!UICONTROL Catalogs] pour une utilisation ultérieure.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Feeds]**.
 
@@ -77,7 +81,7 @@ Tous les fichiers ZIP sont décompressés automatiquement. Lorsque vous chargez 
 
 >[!MORELIKETHIS]
 >
->* [Workflow pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Gérer les modèles de flux](/help/creative/feeds/feed-template-manage.md)
 >* [Gérer les catalogues](/help/creative/feeds/catalog-manage.md)
 >* [Gestion des modèles de publicité dynamique](/help/creative/ad-templates/ad-template-manage.md)

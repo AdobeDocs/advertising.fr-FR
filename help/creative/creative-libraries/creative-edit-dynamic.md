@@ -2,7 +2,7 @@
 title: Modification d’un élément créatif dynamique dans une bibliothèque de contenu créatif
 description: Découvrez comment modifier un contenu créatif dynamique dans une bibliothèque de contenu créatif.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
@@ -35,4 +35,4 @@ ht-degree: 0%
 >
 >* [ Paramètres de création dynamique ](creative-settings-dynamic.md)
 >* [Ajouter des contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires](creative-add-dynamic.md)
->* [Workflow pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)

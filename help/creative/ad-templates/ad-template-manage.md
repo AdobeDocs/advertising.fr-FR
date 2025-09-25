@@ -2,9 +2,9 @@
 title: Gestion des modèles de publicité dynamique
 description: En savoir plus sur xxxx.
 feature: Creative Templates
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ Créez un modèle de publicité distinct pour chaque combinaison de type de publ
 <!-- EXPLAIN MORE:  Is this like repropagating a feed file through a template, or can you just change some things? Is generating an ad template a one-time thing, using the existing feed file, but you might later update the file and re-propagation doesn't happen automatically? Clarify the use cases for each.-->
 
 ## Création d’un modèle de publicité dynamique
+
+>[!NOTE]
+>
+>Vous pouvez également charger un modèle de publicité dynamique lorsque vous [ajoutez des contenus publicitaires dynamiques à une bibliothèque de contenus créatifs](/help/creative/creative-libraries/creative-add-dynamic.md). Tous les modèles d’annonce publicitaire que vous y créez sont disponibles dans la vue [!UICONTROL Ad Templates] pour une utilisation ultérieure.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**.
 
@@ -56,6 +60,10 @@ Créez un modèle de publicité distinct pour chaque combinaison de type de publ
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Delete]**.<!-- Confirm -->
 
 ## Création d’annonces dynamiques à partir d’un modèle d’annonce
+
+>[!NOTE]
+>
+>Vous pouvez également [ajouter des contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-dynamic.md) à partir de cette dernière.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**.
 
@@ -113,7 +121,7 @@ Pour charger un fichier :
 
 >[!MORELIKETHIS]
 >
->* [Workflow pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Gérer les fichiers de ressources](/help/creative/feeds/asset-manage.md)
 >* [Gérer les modèles de flux](/help/creative/feeds/feed-template-manage.md)
 >* [Gérer les catalogues](/help/creative/feeds/catalog-manage.md)
