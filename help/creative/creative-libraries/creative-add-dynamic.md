@@ -2,9 +2,9 @@
 title: Ajout de contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires
 description: Découvrez comment ajouter des contenus créatifs dynamiques à une bibliothèque de contenus créatifs.
 feature: Creative Dynamic Creatives
-source-git-commit: 9aeb35ec5aba1c6c4c7683487ed3c0a0e22accb8
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus
 
    1. Sélectionnez les critères pour lesquels des lignes de catalogue doivent être utilisées pour créer des annonces.
 
-   1. Mappez chaque attribut (champ d’annonce dynamique) du modèle d’annonce spécifié à une colonne du fichier de flux spécifié (libellé de catalogue).
+   1. Mappez chaque attribut (champ d’annonce dynamique) du modèle d’annonce spécifié à une colonne du fichier de flux spécifié (libellé de catalogue) ou saisissez des valeurs statiques.
 
    1. Cliquez sur **[!UICONTROL Continue]** pour prévisualiser les contenus publicitaires à générer. Vous pouvez effectuer l’une des opérations suivantes dans l’aperçu :
 
@@ -75,7 +75,7 @@ Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus
 
       * Pour rechercher un produit par son identifiant unique dans le champ de recherche situé sous la zone d’aperçu.
 
-      * Pour modifier les colonnes affichées, cliquez sur ![Filtre de colonne](/help/creative/assets/custom-columns. "Filtre de colonne") sous la zone d’aperçu.
+      * Pour modifier les colonnes affichées, cliquez sur ![Filtre de colonne](/help/creative/assets/custom-columns.png "Filtre de colonne") sous la zone d’aperçu.
 
       * Pour prévisualiser un contenu créatif spécifique, cochez la case de la ligne.
 

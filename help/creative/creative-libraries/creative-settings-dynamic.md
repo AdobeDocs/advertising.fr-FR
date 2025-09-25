@@ -2,9 +2,9 @@
 title: Paramètres de création dynamique
 description: Référencez les paramètres des contenus publicitaires dynamiques.
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Les catalogues chargés doivent être au format ZIP et contenir les éléments s
 
 **[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]:**
 
-Mappez chaque attribut (champ d’annonce dynamique) du modèle d’annonce spécifié sur une colonne du catalogue spécifié (libellé du catalogue).
+Mappez chaque attribut (champ d’annonce dynamique) du modèle d’annonce spécifié sur une colonne du catalogue spécifié (libellé du catalogue) ou saisissez une valeur statique.
 
 >[!MORELIKETHIS]
 >

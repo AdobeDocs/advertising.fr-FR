@@ -2,9 +2,9 @@
 title: Modification d’un élément créatif dynamique dans une bibliothèque de contenu créatif
 description: Découvrez comment modifier un contenu créatif dynamique dans une bibliothèque de contenu créatif.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,28 @@ ht-degree: 0%
 1. Placez le curseur sur la ligne de contenu créatif et cliquez sur **[!UICONTROL Edit]**.
 
 1. Modifiez le [paramètres des annonces dynamiques](creative-settings-dynamic.md).
+
+1. Cliquez sur **[!UICONTROL Continue]** pour prévisualiser les contenus publicitaires à générer. Vous pouvez effectuer l’une des opérations suivantes dans l’aperçu :
+
+   * Pour filtrer les contenus publicitaires par catalogue<!-- explain more--> valeur de filtre et taille d’annonce, utilisez les filtres situés au-dessus de la zone d’aperçu.
+
+   * Pour rechercher un produit par son identifiant unique dans le champ de recherche situé sous la zone d’aperçu.
+
+   * Pour modifier les colonnes affichées, cliquez sur ![Filtre de colonne](/help/creative/assets/custom-columns.png "Filtre de colonne") sous la zone d’aperçu.
+
+   * Pour prévisualiser un contenu créatif spécifique, cochez la case de la ligne.
+
+   * Modifiez le contenu :
+
+      * Pour modifier la valeur d’une cellule dans le tableau, cliquez dans la cellule et modifiez la valeur. Cliquez en dehors de la cellule ou appuyez sur la touche **[!DNL Enter]** pour enregistrer vos modifications.
+
+      * Pour marquer un seul produit comme produit par défaut<!--Explain what this means. --> maintenez le curseur au-dessus de la ligne et cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+
+      * (Lorsque l’annonce publicitaire comprend plusieurs offres) Pour marquer plusieurs produits comme produits par défaut, sélectionnez les lignes (jusqu’au nombre d’offres) et cliquez sur **[!UICONTROL Set as Default]** dans la barre d’outils des actions en masse.
+
+      * Pour supprimer un produit du catalogue, maintenez le curseur sur la ligne et cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
+
+      * (Lorsque l’annonce publicitaire comprend plusieurs offres) Pour supprimer plusieurs produits du catalogue, sélectionnez les lignes (jusqu’au nombre d’offres) et cliquez sur **[!UICONTROL Delete Row]** dans la barre d’outils d’actions en masse.
 
 1. Enregistrez les contenus publicitaires :
 
