@@ -2,9 +2,9 @@
 title: Gestion des fichiers de ressources
 description: Découvrez comment charger et gérer un fichier de ressource pour un annonceur.
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: 40f8fbde0879f2412816a2b08e6e99da67f16219
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,15 @@ Les publicités dynamiques HTML5 nécessitent à la fois un fichier de flux au f
 
 * Publicités dynamiques HTML5 :
 
-   * Fichier de flux au format de feuille de calcul Microsoft Excel (XLSX), avec une ligne d’en-tête et une ligne de données pour chaque variation d’annonce. Incluez un nom d’image ou une référence à un Adobe Experience Manager dans chaque ligne.<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
+   * Fichier de flux au format CSV, TSV ou feuille de calcul Microsoft Excel (XLSX), avec une ligne d’en-tête et une ligne de données pour chaque variation publicitaire. Incluez un nom d’image ou une référence à un Adobe Experience Manager dans chaque ligne.<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
 
      Pour les images que vous allez charger, référencez l’image à l’aide du `images/image_name` de format (`images/300x250_acme_logo.png`, par exemple)<!-- Verify.  Also need to include the spec for how to reference images in AEM -->
 
    * Ressources d’image associées au format GIF, JPEG, JPG ou PNG.<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> Voir les [tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md).
 
-  Vous pouvez charger un seul fichier XLSX, un seul fichier image ou un seul fichier ZIP contenant n’importe quelle combinaison de fichiers XLSX et d’image.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+   * (Facultatif) Ressources vidéo au format MP4 ou WEBM
+
+  Vous pouvez charger un seul fichier XLSX, un seul fichier image ou vidéo, ou un seul fichier ZIP contenant n’importe quelle combinaison de fichiers XLSX, image et vidéo.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Publicités HTML5 statiques :
 
