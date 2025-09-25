@@ -2,9 +2,9 @@
 title: Ajout de contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires
 description: Découvrez comment ajouter des contenus créatifs dynamiques à une bibliothèque de contenus créatifs.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: 1cee56f8bd40f94b1f78536725fb8eab249b9915
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus
 
 >[!PREREQUISITES]
 >
->Avant de pouvoir ajouter des contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires, vous devez effectuer d’autres étapes, notamment la création du modèle de publicité, le chargement de ressources et la création d’un modèle de flux et d’un catalogue (publicités HTML5 dynamiques). Voir « [Workflow pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md) ».
+>Avant de pouvoir ajouter des contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires, vous devez effectuer d’autres étapes, notamment la création du modèle de publicité, le chargement de ressources et la création d’un modèle de flux et d’un catalogue (publicités HTML5 dynamiques). Voir « [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md) ».
 
 <!-- This does't work for me 9/24 -- I still have to select a catalog:
 
@@ -41,11 +41,21 @@ Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus
 
 ## Ajout de contenu publicitaire dynamique à l’aide d’un modèle d’annonce HTML5 dynamique
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+1. Effectuez l’une des opérations suivantes :
 
-1. Cliquez sur le nom de la bibliothèque.
+   * À partir d’une bibliothèque de contenu créatif :
 
-1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**.
+      1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+      1. Cliquez sur le nom de la bibliothèque.
+
+      1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**.
+
+   * À partir d’un modèle d’annonce publicitaire :
+
+      1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**.
+
+      1. Placez le curseur sur la ligne du modèle d’annonce et cliquez sur **[!UICONTROL Create Dynamic Ad]**.
 
 1. Spécifiez les [paramètres de publicité dynamique](/help/creative/creative-libraries/creative-settings-dynamic.md) :
 
@@ -79,4 +89,4 @@ Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus
 >
 >* [ Paramètres de création dynamique ](creative-settings-dynamic.md)
 >* [Modification d’un contenu créatif dynamique dans une bibliothèque de contenu créatif](creative-edit-dynamic.md)
->* [Workflow pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
