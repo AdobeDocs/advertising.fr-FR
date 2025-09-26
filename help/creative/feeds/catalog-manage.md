@@ -2,9 +2,9 @@
 title: Gestion des catalogues de flux
 description: Découvrez comment gérer les catalogues de flux.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Les catalogues de flux traités sont des ensembles de variations d’annonces potentielles créées à partir d’un fichier de flux spécifié et d’un modèle de flux spécifié. Les annonces dynamiques HTML5, mais pas les annonces statiques HTML5, nécessitent un catalogue pour créer des annonces dynamiques.
 
-Avant de pouvoir utiliser les variations d’annonces pour [ajouter des annonces dynamiques à une bibliothèque de contenu créatif](/help/creative/creative-libraries/creative-add-dynamic.md), traitez le catalogue.
+Avant de pouvoir créer des variations d’annonces et [ajouter des annonces dynamiques à une bibliothèque de contenu créatif](/help/creative/creative-libraries/creative-add-dynamic.md), traitez le catalogue. Vous pouvez ensuite mettre à jour le fichier de flux et retraiter le catalogue pour créer un nouvel ensemble de variations d’annonces.<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
 
 ## Création d’un catalogue {#feed-catalog-create}
 
