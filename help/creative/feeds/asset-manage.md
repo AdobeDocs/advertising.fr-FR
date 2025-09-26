@@ -2,7 +2,7 @@
 title: Gestion des fichiers de ressources
 description: Découvrez comment charger et gérer un fichier de ressource pour un annonceur.
 feature: Creative Dynamic Creatives
-source-git-commit: 40f8fbde0879f2412816a2b08e6e99da67f16219
+source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -12,6 +12,7 @@ ht-degree: 0%
 # Gestion des fichiers de ressources
 
 Les publicités dynamiques HTML5 nécessitent à la fois un fichier de flux au format de feuille de calcul Microsoft Excel (XLSX) et les ressources d’image référencées dans la feuille de calcul (à l’exception des références de ressources Adobe Experience Manager). Les publicités HTML5 statiques ne nécessitent qu’une seule ressource image par publicité.
+
 
 >[!NOTE]
 >
@@ -25,7 +26,7 @@ Les publicités dynamiques HTML5 nécessitent à la fois un fichier de flux au f
 
      Pour les images que vous allez charger, référencez l’image à l’aide du `images/image_name` de format (`images/300x250_acme_logo.png`, par exemple)<!-- Verify.  Also need to include the spec for how to reference images in AEM -->
 
-   * Ressources d’image associées au format GIF, JPEG, JPG ou PNG.<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> Voir les [tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md).
+   * Ressources d’image associées au format GIF, JPEG, JPG ou PNG.<!-- Is this true: The maximum file size is two (2) MB. --> Voir les [tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md).
 
    * (Facultatif) Ressources vidéo au format MP4 ou WEBM
 
