@@ -2,9 +2,9 @@
 title: Workflows pour les publicités dynamiques
 description: Découvrez les workflows de gestion des annonces dynamiques.
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Vous pouvez configurer des annonces dynamiques de deux manières :
 
    * (Pour les publicités dynamiques d’HTML5) Créez des catalogues de vos éléments publicitaires :
 
-      1. Créez un fichier de flux au format de feuille de calcul Microsoft Excel (XLSX), avec une ligne pour chaque variation publicitaire. Incluez un nom d’image ou une référence à un Adobe Experience Manager dans chaque ligne. Collectez séparément les ressources d’image associées.
+      1. Créez un fichier de flux au format de feuille de calcul Microsoft Excel (XLSX), avec une ligne pour chaque variation publicitaire. Incluez un nom d’image dans chaque ligne. Collectez séparément les ressources d’image associées.
 
       1. [Chargez le fichier de flux et les ressources d’image](/help/creative/feeds/asset-manage.md).
 
