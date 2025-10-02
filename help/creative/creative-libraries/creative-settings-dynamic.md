@@ -2,9 +2,9 @@
 title: Paramètres de création dynamique
 description: Référencez les paramètres des contenus publicitaires dynamiques.
 feature: Creative Dynamic Creatives
-source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
+source-git-commit: e7642f11503ebb972d23fe6d28020b3b198657b0
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -65,11 +65,9 @@ ht-degree: 0%
 
 Les catalogues chargés doivent être au format ZIP et contenir les éléments suivants :
 
-* Un ou plusieurs fichiers de flux au format CSV, TSV ou feuille de calcul Microsoft Excel (XLSX).<!-- Need to add more specs for that -->
+* Un ou plusieurs fichiers de flux au format CSV, TSV ou feuille de calcul Microsoft Excel (XLSX). La taille de fichier maximale est de 512 Mo.<!-- Need to add more specs for the feed files -->
 
 * Ressources d’image au format GIF, JPEG, JPG ou PNG
-
-* (Facultatif) Ressources vidéo au format MP4 ou WEBM
 
 ### [!UICONTROL Attributes Mapping]
 
