@@ -3,9 +3,9 @@ title: Personnaliser l’optimisation et la planification de la création pour u
 description: Découvrez comment
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
+source-git-commit: ad6f076e24d69cfa93b9306a33d9b0cd4c7e813e
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,15 @@ Lorsque la planification des créations est désactivée, les paramètres d’op
 
 1. Désactivez **[!UICONTROL Schedule]**.
 
-1. Sélectionnez le type de rotation de contenu créatif :
+1. Sélectionnez le type de rotation de contenu créatif pour les variantes d’annonces dans les lots associés :
 
-   * *[!UICONTROL Weighted]:* fait pivoter les contenus publicitaires manuellement en fonction des poids relatifs. Saisissez le poids de chaque contenu publicitaire sous la forme d’un pourcentage. Le poids de tous les contenus publicitaires sélectionnés doit être égal à 100.
+   * *[!UICONTROL Weighted]:* affiche les variantes d’annonces publicitaires dans les lots de contenu créatif associés en fonction des poids relatifs. Saisissez le poids de chaque lot sous la forme d’un pourcentage. Le poids de tous les lots sélectionnés doit être égal à 100,<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
-   * *[!UICONTROL Algorithmic]:* fait pivoter les contenus publicitaires de manière algorithmique en fonction d’un objectif d’optimisation spécifié.
+   * *[!UICONTROL Algorithmic]:* affiche les variantes d’annonce publicitaire les plus efficaces plus souvent, en fonction d’un objectif spécifié.
 
-      * Pour l’**[!UICONTROL Optimization Goal]**, sélectionnez *[!UICONTROL Click Through Rate]*, (expériences publicitaires vidéo standard) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Si vous sélectionnez *[!UICONTROL Custom Objective]*, sélectionnez un [objectif personnalisé Advertising DSP existant](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
+      * Pour l’**[!UICONTROL Optimization Goal]**, sélectionnez *[!UICONTROL Click Through Rate]*, (expériences publicitaires vidéo standard) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Si vous sélectionnez *[!UICONTROL Custom Objective]*, sélectionnez un objectif personnalisé Advertising DSP [existant](/help/dsp/optimization/custom-goal.md).
 
-   * *[!UICONTROL Sequencing]:* fait pivoter les lots de création associés dans un ordre spécifié (le lot 1 étant servi en premier, le lot 2 étant servi en deuxième, etc.), avec un nombre total spécifié d’impressions sur chaque séquence de lots. Les tailles des annonces diffusées sont déterminées par l’inventaire disponible. Vous pouvez configurer le lot final de la séquence pour qu’il s’affiche indéfiniment (valeur par défaut) ou qu’il reboucle sur le premier lot. Par exemple, vous pouvez afficher l’un des contenus publicitaires du lot 1 pour trois (3) impressions, puis afficher l’un des contenus publicitaires du lot 2 pour une (1) impression, puis afficher l’un des contenus publicitaires du lot 3 pour deux (2) impressions, et recommencer la boucle. Vous pouvez également continuer à afficher les contenus publicitaires du lot 3 indéfiniment une fois qu’ils sont affichés, au lieu de créer une boucle. Lorsque vous activez le séquencement :
+   * *[!UICONTROL Sequencing]:* affiche les lots de création associés dans un ordre spécifié (le lot 1 étant servi en premier, le lot 2 étant servi en deuxième, etc.), avec un nombre total spécifié d’impressions sur chaque séquence de lots. Les tailles des annonces diffusées sont déterminées par l’inventaire disponible. Vous pouvez configurer le lot final de la séquence pour qu’il s’affiche indéfiniment (valeur par défaut) ou qu’il reboucle sur le premier lot. Par exemple, vous pouvez afficher l’une des variantes d’annonce publicitaire de l’offre groupée 1 pour trois (3) impressions, puis afficher toute variante d’annonce publicitaire de l’offre groupée 2 pour une (1) impression, puis afficher l’une des variantes d’annonce publicitaire de l’offre groupée 3 pour deux (2) impressions, puis recommencer la boucle. Vous pouvez également continuer à afficher indéfiniment les variantes d’annonces du lot 3 une fois qu’elles sont affichées dans le lot 3, au lieu de créer une boucle. Lorsque vous activez le séquencement :
 
       1. Faites glisser et déposez les lots affectés dans l’ordre souhaité.
 
