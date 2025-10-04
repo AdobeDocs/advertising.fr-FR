@@ -3,9 +3,9 @@ title: Ajout de contenus publicitaires standard à une bibliothèque de contenus
 description: Découvrez comment ajouter des contenus publicitaires standard (non dynamiques) à une bibliothèque de contenus publicitaires.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
+source-git-commit: ecc0f6ac900292825b23b648be40dcc68ae15c64
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,8 @@ Vous pouvez charger plusieurs unités de création flexibles. Les contenus publi
 
    * Pour supprimer un fichier, décochez la case en regard de celui-ci.
 
+1. (Facultatif) Pour prévisualiser une création, cliquez sur ![Aperçu](/help/creative/assets/preview.png "Aperçu") au-dessus de l’image.
+
 1. Spécifiez les [paramètres de publicité HTML5 flexibles](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5).
 
    Par défaut, tous les contenus publicitaires que vous venez de télécharger sont sélectionnés. Tous les paramètres ne comportant qu’une seule valeur s’appliquent à tous les contenus publicitaires sélectionnés ; pour certains paramètres, vous pouvez spécifier des valeurs individuelles. Pour définir des paramètres pour des contenus publicitaires spécifiques, décochez la case en regard de chaque contenu publicitaire inapplicable.
@@ -60,7 +62,7 @@ Vous pouvez charger plusieurs unités de création flexibles. Les contenus publi
 
 ### Ajouter des contenus publicitaires flexibles à l’aide d’un modèle {#flexible-creative-use-template}
 
-Vous pouvez utiliser l’un des modèles créatifs flexibles chargés sur votre compte pour créer des annonces d’une taille prédéfinie. Une fois que vous avez sélectionné un modèle à utiliser, vous modifiez les balises et les attributs de clic.&lt;!— Remplacez la dernière phrase par celle-ci si nous ajoutons à nouveau la fonction de téléchargement de modèle : vous pouvez a\) sélectionner un modèle à utiliser, puis modifier les balises et attributs de clic ; ou b\) [télécharger un modèle sous forme de fichier ZIP](#download-flexible-creative-template), modifier le contenu hors ligne pour créer votre propre contenu créatif, puis [charger le fichier modifié en tant que nouveau contenu créatif] (flexible-creative-upload).>
+Vous pouvez utiliser l’un des modèles créatifs flexibles chargés sur votre compte pour créer des publicités d’une taille prédéfinie. Une fois que vous avez sélectionné un modèle à utiliser, vous modifiez les balises et les attributs de clic.&lt;!— Remplacez la dernière phrase par celle-ci si nous ajoutons à nouveau la fonction de téléchargement de modèle : vous pouvez a\) sélectionner un modèle à utiliser, puis modifier les balises et attributs de clic ; ou b\) [télécharger un modèle sous forme de fichier ZIP](#download-flexible-creative-template), modifier le contenu hors ligne pour créer votre propre contenu créatif, puis [charger le fichier modifié en tant que nouveau contenu créatif](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -78,7 +80,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. (Facultatif) Pour prévisualiser le modèle, cliquez sur **[!UICONTROL ...]** en regard du nom du modèle, puis cliquez sur **[!UICONTROL Preview]**.
 
-   Vous pouvez éventuellement télécharger le modèle
+   Vous avez la possibilité de télécharger le modèle : cliquez sur **[!UICONTROL ...]** en regard du nom du modèle, puis cliquez sur **[!UICONTROL Download]**.
 
 1. En regard du nom du modèle, cliquez sur **[!UICONTROL ...]** , puis sur **[!UICONTROL Use Selected]**.
 
@@ -86,18 +88,15 @@ For information about the attributes available in predefined templates, see "[Av
 
    La taille de fichier maximale du fichier créatif, une fois compressé, est de 2 Mo.<!-- Still true? -->
 
+1. Ajoutez ou supprimez vos propres fichiers créatifs flexibles :
+
+   * Pour ajouter un fichier à partir de votre appareil ou réseau, cliquez sur ![Ajouter](/help/creative/assets/create.png "Ajouter") dans le coin supérieur gauche et recherchez le fichier. Cochez la case en regard du contenu créatif, décochez la case en regard des autres contenus créatifs et modifiez les [paramètres de contenu créatif HTML5 flexibles](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) pour spécifier la langue et inclure vos propres balises de clic, images et autres attributs.
+
+   * Pour supprimer un fichier, décochez la case en regard de celui-ci.
+
+1. (Facultatif) Pour prévisualiser une création, cliquez sur ![Aperçu](/help/creative/assets/preview.png "Aperçu") au-dessus de l’image.
+
 1. Cliquez sur **[!UICONTROL Create]**.
-
-<!-- Not options as of 5/22/25:
-
-1. In the left panel, select the creative size to see all available templates for that size.
-
-1. Select the template:
-
-   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
-     
-   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
--->
 
 ## Ajout d’un contenu créatif HTML5 à une bibliothèque de contenu créatif
 
