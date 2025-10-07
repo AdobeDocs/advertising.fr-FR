@@ -2,16 +2,16 @@
 title: Gestion des fichiers de ressources
 description: Découvrez comment charger et gérer un fichier de ressource pour un annonceur.
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+source-git-commit: af29637d42b9932933cd23a64d6a0e2b7084fa31
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Gestion des fichiers de ressources
 
-Les publicités dynamiques HTML5 nécessitent à la fois un fichier de flux au format de feuille de calcul Microsoft Excel (XLSX) et les ressources d’image référencées dans la feuille de calcul (à l’exception des références de ressources Adobe Experience Manager). Les publicités HTML5 statiques ne nécessitent qu’une seule ressource image par publicité.
+Les publicités dynamiques HTML5 nécessitent à la fois un fichier de flux au format de feuille de calcul Microsoft Excel (XLSX) et les ressources d’image référencées dans la feuille de calcul. Les publicités HTML5 statiques ne nécessitent qu’une seule ressource image par publicité.
 
 
 >[!NOTE]
@@ -28,9 +28,7 @@ Les publicités dynamiques HTML5 nécessitent à la fois un fichier de flux au f
 
    * Ressources d’image associées au format GIF, JPEG, JPG ou PNG.<!-- Is this true: The maximum file size is two (2) MB. --> Voir les [tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md).
 
-   * (Facultatif) Ressources vidéo au format MP4 ou WEBM
-
-  Vous pouvez charger un seul fichier XLSX, un seul fichier image ou vidéo, ou un seul fichier ZIP contenant n’importe quelle combinaison de fichiers XLSX, image et vidéo.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+  Vous pouvez charger un seul fichier XLSX, un seul fichier image ou un seul fichier ZIP contenant n’importe quelle combinaison de fichiers XLSX et d’image.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Publicités HTML5 statiques :
 
