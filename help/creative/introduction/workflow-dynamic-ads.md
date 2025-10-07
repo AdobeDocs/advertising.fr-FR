@@ -2,9 +2,9 @@
 title: Workflows pour les publicités dynamiques
 description: Découvrez les workflows de gestion des annonces dynamiques.
 feature: Creative Dynamic Creatives
-source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Vous pouvez configurer des annonces dynamiques de deux manières :
 
 ## Workflow 2
 
-1. [Créez un modèle d’annonce publicitaire](/help/creative/ad-templates/ad-template-manage.md) pour vos annonces dynamiques en fonction des ressources disponibles.
+1. [Créez un modèle d’annonce publicitaire](/help/creative/ad-templates/ad-template-manage.md) pour vos annonces dynamiques en fonction des ressources disponibles. Le modèle d’annonce publicitaire comprend un fichier HTML5 au format d’annonce souhaité et (annonces HTML5 dynamiques uniquement) un fichier avec les attributs d’annonce.
 
 1. Configurez vos éléments publicitaires :
 

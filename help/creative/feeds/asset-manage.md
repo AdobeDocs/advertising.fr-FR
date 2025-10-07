@@ -2,9 +2,9 @@
 title: Gestion des fichiers de ressources
 description: Découvrez comment charger et gérer un fichier de ressource pour un annonceur.
 feature: Creative Dynamic Creatives
-source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Les publicités dynamiques HTML5 nécessitent à la fois un fichier de flux au f
 
 * Publicités dynamiques HTML5 :
 
-   * Fichier de flux au format CSV, TSV ou feuille de calcul Microsoft Excel (XLSX), avec une ligne d’en-tête et une ligne de données pour chaque variation publicitaire. Incluez un nom d’image ou une référence à un Adobe Experience Manager dans chaque ligne.<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
+   * Fichier de flux au format CSV, TSV ou feuille de calcul Microsoft Excel (XLSX), avec une ligne d’en-tête et une ligne de données pour chaque variation publicitaire. Incluez un nom d’image dans chaque ligne à l’aide du `images/image_name` de format (`images/300x250_acme_logo.png`, par exemple).
 
-     Pour les images que vous allez charger, référencez l’image à l’aide du `images/image_name` de format (`images/300x250_acme_logo.png`, par exemple)<!-- Verify.  Also need to include the spec for how to reference images in AEM -->
+     Les noms de champ spécifiques à l’annonceur doivent correspondre aux [champs disponibles pour les fichiers de flux publicitaires dynamiques](/help/creative/appendix-available-feed-fields.md).
 
    * Ressources d’image associées au format GIF, JPEG, JPG ou PNG.<!-- Is this true: The maximum file size is two (2) MB. --> Voir les [tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md).
 
@@ -84,6 +84,7 @@ Tous les fichiers ZIP sont décompressés automatiquement. Lorsque vous chargez 
 
 >[!MORELIKETHIS]
 >
+>* [Champs disponibles pour les fichiers de flux de publicités dynamiques](/help/creative/appendix-available-feed-fields.md)
 >* [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Gérer les modèles de flux](/help/creative/feeds/feed-template-manage.md)
 >* [Gérer les catalogues](/help/creative/feeds/catalog-manage.md)

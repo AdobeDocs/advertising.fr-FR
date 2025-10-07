@@ -2,9 +2,9 @@
 title: Gestion des modèles de flux
 description: Découvrez comment gérer les modèles de flux.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,9 @@ Les modèles de flux téléchargés sont au format de feuille de calcul Excel Mi
 
 ### Paramètres [!UICONTROL Field Mapping]
 
-Mappez chaque champ du fichier de flux à un champ du serveur principal d’Advertising Creative.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> Au moins un champ de fichier de flux doit être marqué comme « [!UICONTROL Is Unique] ». Pour ajouter un mappage de champs, cliquez sur **[!UICONTROL +]**. Pour supprimer le dernier mappage de champs, cliquez sur **[!UICONTROL +]**.
+Mappez chaque champ du fichier de flux à un champ du serveur principal d’Advertising Creative. Consultez la section « [Champs disponibles pour les fichiers de flux d’annonces dynamiques](/help/creative/appendix-available-feed-fields.md) » pour obtenir une liste des champs du serveur principal et de leurs attributs obligatoires.<!-- Check w/product: What is displayed where in the UI/reports and published ads? -->
+
+Au moins un champ de fichier de flux doit être marqué comme « [!UICONTROL Is Unique] ». Pour ajouter un mappage de champs, cliquez sur **[!UICONTROL +]**. Pour supprimer le dernier mappage de champs, cliquez sur **[!UICONTROL +]**.
 
 **[!UICONTROL Field Name]:** champ du fichier de flux.
 
@@ -97,7 +99,7 @@ Mappez chaque champ du fichier de flux à un champ du serveur principal d’Adve
 
 **[!UICONTROL Is Unique]:** indique que le champ est un ID unique (clé). Au moins un champ par modèle de flux doit être unique. Pour sélectionner cette option, cliquez sur le bouton pour la déplacer vers la droite.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** champ du serveur principal d’Advertising Creative qui correspond au [!UICONTROL Field Name] spécifié dans le fichier de flux.
+**[!UICONTROL Backend Field]:** champ [ sur le serveur principal d’Advertising Creative](/help/creative/appendix-available-feed-fields.md) qui correspond au [!UICONTROL Field Name] spécifié dans le fichier de flux.
 
 >[!MORELIKETHIS]
 >
