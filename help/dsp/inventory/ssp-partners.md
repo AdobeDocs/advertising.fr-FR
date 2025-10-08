@@ -3,9 +3,9 @@ title: Partenaires SSP
 description: Consultez la liste des plateformes côté offre (SSP) et des partenaires Exchange ouverts disponibles.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 0e1f2e62394f2997bde7feba82592ab6fef9e4b6
+source-git-commit: 93f2ce3783d80d98a25e5c7a31cfc6ad6c475a94
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 | [!DNL GumGum] |  | Adobe Advertising | — | Global | USD | Affichage sur poste de travail et mobile<br><br>vidéo sur poste de travail et mobile |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | — | Global | USD | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
 | [!DNL Magnite DV+] | [!DNL Magnite] (anciennement [!DNL Rubicon]) | [!DNL TubeMogul] ou Adobe Advertising | Prise en charge de PG | Global | USD | Poste de travail audio et mobile<br><br>Affichage poste de travail et mobile<br><br>Vidéo, poste de travail, mobile et CTV |
-| [!DNL Magnite SpringServe (formerly Magnite Streaming)] | [!DNL Magnite] (anciennement [!DNL Telaria] et [!DNL Tremor]) | [!DNL TubeMogul] ou Adobe Advertising | Prise en charge de PG | Global | USD | Ordinateur de bureau, mobile et CTV vidéo |
+| [!DNL Magnite SpringServe (formerly Magnite Streaming)] | [!DNL Magnite] (anciennement [!DNL Telaria] et [!DNL Tremor]) | [!DNL TubeMogul] ou Adobe Advertising | Prise en charge de PG | Global | AUD, USD | Ordinateur de bureau, mobile et CTV vidéo |
 | [!DNL Microsoft Monetize] | [!DNL Microsoft] (anciennement [!DNL Xandr], [!DNL AppNexus]) | Identifiant du siège vidéo : 9094<br>Affichage Identifiant du siège : 3939 | — | Global | USD | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
 | [!DNL Nexxen] | [!DNL Nexxen] (anciennement [!DNL Unruly]) | Adobe Advertising | — | États-Unis + EMEA | USD | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] ou Adobe Advertising | Prise en charge de PG | Global | USD | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
