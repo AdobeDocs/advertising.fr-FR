@@ -3,9 +3,9 @@ title: Partenaires SSP
 description: Consultez la liste des plateformes côté offre (SSP) et des partenaires Exchange ouverts disponibles.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 93f2ce3783d80d98a25e5c7a31cfc6ad6c475a94
+source-git-commit: bcb22b61886d3929ad4c509489e8e9c15abcc2ee
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | Prise en charge de PG | Global | USD, EUR, GBP | Poste de travail audio et mobile |
 | [!DNL Cadent] | [!DNL Cadent] (anciennement [!DNL EMX Digital]) | Adobe Advertising | — | US/CA | USD | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] ou Adobe Advertising | — | États-Unis + EMEA | USD, EUR | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
+| [!DNL Equativ] | [!DNL Equativ] (anciennement [!DNL Smart AdServer]) | [!DNL TubeMogul] ou Adobe Advertising | — | EMEA | USD, EUR | Affichage sur poste de travail et mobile<br><br>vidéo sur poste de travail et mobile |
 | [!DNL FreeWheel] | [!DNL Comcast] | [!DNL TubeMogul] ou Adobe Advertising | Prise en charge de PG | Global | USD, EUR, AUD, GBP | Ordinateur de bureau, mobile et CTV vidéo |
 | [!DNL Google Authorized Buyers] (anciennement [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC et UE - 89185975 | Prise en charge de PG | Global | USD, BRL | Poste de travail audio et mobile<br><br>Affichage poste de travail et mobile<br><br>Vidéo, poste de travail, mobile et CTV |
 | [!DNL GumGum] |  | Adobe Advertising | — | Global | USD | Affichage sur poste de travail et mobile<br><br>vidéo sur poste de travail et mobile |
