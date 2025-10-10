@@ -3,9 +3,9 @@ title: Personnaliser l’optimisation et la planification de la création pour u
 description: Découvrez comment
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: ad6f076e24d69cfa93b9306a33d9b0cd4c7e813e
+source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Nœuds Target avec contenu publicitaire existant uniquement*
 
-Par défaut, la rotation des créations pour une expérience est déterminée par algorithme pour optimiser le taux de clic publicitaire global, et les paramètres d’optimisation des créations s’appliquent à tous les lots affectés. Vous pouvez personnaliser la rotation des créations pour exécuter manuellement les créations de chaque lot afin de les optimiser par algorithme pour un objectif personnalisé Advertising DSP spécifié ; selon une séquence de lots spécifiée, avec un nombre spécifié d’impressions sur chaque séquence de lots ; ou selon des poids relatifs. Vous pouvez également planifier l’exécution de lots de contenu créatif spécifiques pendant des périodes séquentielles spécifiées et appliquer des paramètres de rotation de contenu créatif personnalisés pour chaque planification.
+Par défaut, la rotation des créations pour une expérience est déterminée par algorithme pour optimiser le taux de clic publicitaire global, et les paramètres d’optimisation des créations s’appliquent à tous les lots affectés. Vous pouvez également effectuer une optimisation algorithmique pour un objectif personnalisé Advertising DSP spécifié, faire pivoter les lots selon une séquence de lots spécifiée, avec un nombre spécifié d’impressions sur chaque séquence de lots, ou selon des poids relatifs. Vous pouvez également planifier l’exécution de lots de contenu créatif spécifiques pendant des périodes séquentielles spécifiées et appliquer des paramètres de rotation de contenu créatif personnalisés pour chaque planification.
 
 >[!NOTE]
 >

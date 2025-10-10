@@ -3,9 +3,9 @@ title: Disposition de l’arborescence de décision
 description: Découvrez l’arborescence de décision pour les expériences de ciblage.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Au départ, chaque arborescence de décision commence par le niveau racine « To
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## Termes
 
@@ -50,7 +50,7 @@ Pour tous les nœuds parents, vous pouvez éventuellement copier tous les nœuds
 
 Attribuez des lots créatifs à chaque nœud cible final de l’expérience.
 
-Dans chaque nœud avec des lots de contenu publicitaire, vous pouvez éventuellement faire pivoter les contenus publicitaires inclus a) en fonction de poids spécifiés ou b) de manière algorithmique afin d’optimiser le taux de clic publicitaire ou un objectif personnalisé. Vous pouvez également faire pivoter les contenus publicitaires dans une séquence temporelle spécifiée à l’aide des mêmes options.
+Dans chaque nœud avec des lots de contenu publicitaire, vous pouvez éventuellement faire pivoter les contenus publicitaires inclus a) de manière algorithmique pour optimiser le taux de clic publicitaire ou un objectif personnalisé, b) en fonction de poids spécifiés, ou c) dans une séquence spécifique. Vous pouvez également faire pivoter les contenus publicitaires dans une séquence temporelle spécifiée à l’aide d’une combinaison des mêmes options.
 
 Vous pouvez éventuellement personnaliser les URL de page de destination, de suivi des impressions et de suivi des clics, selon les besoins des créatifs individuels. <!-- Not in the UI as of 1/31: For flexible HTML5 creatives, you can customize any of the flexible attributes. -->
 
