@@ -29,7 +29,7 @@ Exemple de pixel :
 >[!NOTE]
 >
 > * [!DNL Creative] ne prend en charge les identifiants universels que pour Advertising DSP.
->* Vous pouvez également utiliser vos audiences propriétaires de Adobe Audience Manager et Adobe Analytics en tant que [ cibles créatives pour vos expériences](/help/creative/experiences/experience-settings-targeting.md).
+>* Vous pouvez également utiliser vos audiences propriétaires de Adobe Audience Manager et Adobe Analytics en tant que [&#x200B; cibles créatives pour vos expériences](/help/creative/experiences/experience-settings-targeting.md).
 >* Lorsque vous utilisez une expérience en tant qu&#39;annonce dans un emplacement Advertising DSP, vous pouvez cibler l&#39;emplacement sur toutes les audiences disponibles dans DSP. Vous pouvez également [créer des balises de segment d’audience personnalisées](/help/dsp/audiences/custom-segment-create.md) pour suivre tous les visiteurs vers des pages de destination spécifiques, puis utiliser ces segments comme cibles créatives pour un emplacement. Advertising DSP applique le ciblage au niveau des annonces en plus (et non à la place) du ciblage au niveau des emplacements.
 >* Les visiteurs et visiteuses de site web qui se sont désinscrits du suivi pour le ciblage publicitaire ne reçoivent pas d’annonces avec du contenu créatif personnalisé basé sur un segment d’audience ou un profil de reciblage.
 
