@@ -3,9 +3,9 @@ title: Paramètres de l’expérience ciblée
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires ciblées.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ Pour les expériences avec le ciblage de l’arborescence de décision, vous pou
 * Pour afficher ou masquer le volet Contenu publicitaire à droite, cliquez sur ![Afficher/Masquer](/help/creative/assets/hide-show-creatives.png "Afficher/Masquer") dans le coin supérieur droit du volet de droite.
 
 ## section [!UICONTROL Targeting]
+
+Les cibles au niveau de l’expérience sont appliquées conjointement avec vos options de ciblage DSP. Le comportement de ciblage hiérarchique peut varier selon DSP. Par exemple, Adobe Advertising DSP applique le ciblage au niveau des annonces en plus (et non à la place) du ciblage au niveau des emplacements. Assurez-vous que vos expériences publicitaires incluent un ciblage compatible avec les campagnes dans lesquelles vous allez le mettre en œuvre.
 
 **[!UICONTROL Targeting]:** (Lecture seule pour les expériences existantes) Active le ciblage créatif à l’aide d’une arborescence de décision et de la création automatique de balises. Une fois l’expérience enregistrée, vous ne pouvez plus modifier ce paramètre.
 
