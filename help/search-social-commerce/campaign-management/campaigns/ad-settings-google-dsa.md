@@ -39,4 +39,4 @@ Consultez l’ aide de Google Ads pour connaître les [limites de publicité par
 >* [A propos des publicités](ad-about.md)
 >* [Gérer les publicités](ad-manage.md)
 >* [[!DNL Google Ads] Paramètres de publicité appel uniquement](ad-settings-google-call.md)
->* [[!DNL Google Ads]  Paramètres de publicité de recherche réactive ](ad-settings-google-rsa.md)
+>* [[!DNL Google Ads]  Paramètres de publicité de recherche réactive &#x200B;](ad-settings-google-rsa.md)

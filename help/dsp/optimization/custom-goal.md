@@ -64,7 +64,7 @@ Pour créer un objectif personnalisé, le compte DSP doit être lié à un compt
 
    >[!TIP]
    >
-   >Pour des performances optimales, les mesures combinées dans l’objectif personnalisé doivent totaliser au moins dix conversions par jour. Dans le cas contraire, il est recommandé d’ajouter à l’objectif des mesures de conversion supplémentaires, telles que les pages de produits ou les démarrages d’application. Consultez [ Bonnes pratiques pour créer un objectif personnalisé ](#custom-goal-best-practices) pour obtenir des instructions.
+   >Pour des performances optimales, les mesures combinées dans l’objectif personnalisé doivent totaliser au moins dix conversions par jour. Dans le cas contraire, il est recommandé d’ajouter à l’objectif des mesures de conversion supplémentaires, telles que les pages de produits ou les démarrages d’application. Consultez [&#x200B; Bonnes pratiques pour créer un objectif personnalisé &#x200B;](#custom-goal-best-practices) pour obtenir des instructions.
 
 Dans les paramètres du package DSP pour les packages qui utilisent l’objectif d’optimisation « [!UICONTROL Highest Return on Ad Spend (ROAS)"] ou [!UICONTROL Lowest Cost per Acquisition (CPA)] », le nom de l’objectif est désormais inclus dans la liste [!UICONTROL Custom Goals]. Lorsque vous sélectionnez l’objectif en tant qu’objectif personnalisé pour un package, la liste [!UICONTROL Conversion Metric] inclut toutes les mesures d’objectif pour l’objectif.
 

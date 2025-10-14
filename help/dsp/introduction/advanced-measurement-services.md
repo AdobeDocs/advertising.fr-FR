@@ -85,4 +85,4 @@ Pour plus d’informations sur toutes les solutions de mesure avancées, les inf
 
 >[!MORELIKETHIS]
 >
->[ Devises prises en charge dans Adobe Advertising ](/help/dsp/currency.md)
+>[&#x200B; Devises prises en charge dans Adobe Advertising &#x200B;](/help/dsp/currency.md)

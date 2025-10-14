@@ -32,4 +32,4 @@ Vérifiez que toutes les publicités sont jointes, approuvées et actives. Véri
 >
 >* [Paramètres de campagne](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [Paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md)
->* [ Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [&#x200B; Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md)

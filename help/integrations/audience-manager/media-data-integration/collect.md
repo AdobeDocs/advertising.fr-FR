@@ -22,7 +22,7 @@ Les pixels d’événement ne capturent pas les événements qui se produisent d
 
 ## Étape 1 : configuration d’une Source de données dans Audience Manager {#set-up-data-source}
 
-Dans Audience Manager, créez une [source de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=fr) pour l’impression DSP et cliquez sur les données. Insérez l’ID de source de données [ dans chaque balise d’événement ](#implement-dsp-pixels) afin que tous les événements suivis soient attribués à la source de données.
+Dans Audience Manager, créez une [source de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=fr) pour l’impression DSP et cliquez sur les données. Insérez l’ID de source de données [&#x200B; dans chaque balise d’événement &#x200B;](#implement-dsp-pixels) afin que tous les événements suivis soient attribués à la source de données.
 
 >[!NOTE]
 > Il est possible de collecter toutes les données d’impression et de clic pour les campagnes publicitaires s’exécutant sur plusieurs DSP au sein d’une seule source de données.
@@ -43,13 +43,13 @@ Les pixels d’événement doivent inclure les paramètres suivants.
 
 `[Audience Manager customer domain].demdex.net/event?d_event=imp&d_src=[source id]&d_campaign=${TM_CAMPAIGN_ID_NUM}`
 
-avec [ paramètres supplémentaires facultatifs ](#parameters) préfixés avec `&`
+avec [&#x200B; paramètres supplémentaires facultatifs &#x200B;](#parameters) préfixés avec `&`
 
 **Pixels de suivi des clics :**
 
 `[Audience Manager customer domain].demdex.net/event?d_event=click&d_src=[source id]&d_rd=[redirect URL]&d_campaign=${TM_CAMPAIGN_ID_NUM}`
 
-avec [ paramètres supplémentaires facultatifs ](#parameters) préfixés avec `&`
+avec [&#x200B; paramètres supplémentaires facultatifs &#x200B;](#parameters) préfixés avec `&`
 
 Où :
 
@@ -120,7 +120,7 @@ Une fois vos données sur les serveurs d’Audience Manager, vous devez créer u
 
 ### Création de caractéristiques d’Audience Manager et de segments
 
-Vos données d’événement se transforment en Audience Manager en [signaux inutilisés](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=fr). Créez manuellement des [ caractéristiques basées sur des règles ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=fr) à partir des données ingérées, puis créez des [segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=fr) à l’aide de ces caractéristiques avant de pouvoir utiliser les données dans les rapports.
+Vos données d’événement se transforment en Audience Manager en [signaux inutilisés](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=fr). Créez manuellement des [&#x200B; caractéristiques basées sur des règles &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=fr) à partir des données ingérées, puis créez des [segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=fr) à l’aide de ces caractéristiques avant de pouvoir utiliser les données dans les rapports.
 
 Exemple de caractéristique qui renseigne les données au niveau de l’utilisateur pour les utilisateurs exposés à un contenu créatif spécifique dans DSP :
 

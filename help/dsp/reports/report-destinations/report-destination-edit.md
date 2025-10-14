@@ -20,7 +20,7 @@ Les modifications apportées à une destination de rapport affectent la distribu
 
 1. Pour la destination souhaitée, cliquez sur Modifier .
 
-1. Modifiez les [ paramètres de destination du rapport ](/help/dsp/reports/report-destinations/report-destination-settings.md).
+1. Modifiez les [&#x200B; paramètres de destination du rapport &#x200B;](/help/dsp/reports/report-destinations/report-destination-settings.md).
 
 1. Cliquez sur **[!UICONTROL Save]**.
 

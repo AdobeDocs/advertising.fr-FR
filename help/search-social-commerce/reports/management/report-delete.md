@@ -28,5 +28,5 @@ Vous pouvez supprimer manuellement un rapport terminé ou en cours. Les rapports
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports ](/help/search-social-commerce/reports/report-about.md)
+>* [À propos des rapports &#x200B;](/help/search-social-commerce/reports/report-about.md)
 >* [Afficher ou enregistrer un rapport](/help/search-social-commerce/reports/management/report-view-save.md)

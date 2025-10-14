@@ -179,4 +179,4 @@ Pour les redirections et le suivi tiers, saisissez une valeur.
 >* [Gestion des modificateurs](../modifiers-manage.md)
 >* [Gestion des fichiers de flux de données d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 >* [Propager les données de flux par le biais de modèles](../feed-data-propagate.md)
->* [ Publier les données de campagne des flux d’inventaire vers les réseaux publicitaires ](../propagated-data-post.md)
+>* [&#x200B; Publier les données de campagne des flux d’inventaire vers les réseaux publicitaires &#x200B;](../propagated-data-post.md)

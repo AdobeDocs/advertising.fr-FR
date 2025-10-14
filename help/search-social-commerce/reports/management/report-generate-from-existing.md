@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports ](/help/search-social-commerce/reports/report-about.md)
+>* [À propos des rapports &#x200B;](/help/search-social-commerce/reports/report-about.md)
 >* [Générer un rapport à partir d&#39;un modèle](/help/search-social-commerce/reports/management/report-generate-from-template.md)
 >* [Paramètres de rapport de base et avancés](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
 >* [Paramètres du rapport de précision du modèle](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)

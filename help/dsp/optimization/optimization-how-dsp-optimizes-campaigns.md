@@ -80,7 +80,7 @@ Les filtres de pré-enchère de placement constituent la méthode la plus strict
 >
 >Les filtres de pré-enchères disponibles varient en fonction du type de publicité. Par exemple, pour un emplacement d’affichage standard, vous pouvez filtrer par taux de clics publicitaires et visibilité, mais pas par taux d’achèvement.
 
-Voir [ Filtres pré-enchères au niveau de l’emplacement et Comment les utiliser ](optimization-pre-bid-filters.md) pour déterminer quel filtre pré-enchère peut vous aider à atteindre vos IPC.
+Voir [&#x200B; Filtres pré-enchères au niveau de l’emplacement et Comment les utiliser &#x200B;](optimization-pre-bid-filters.md) pour déterminer quel filtre pré-enchère peut vous aider à atteindre vos IPC.
 
 >[!MORELIKETHIS]
 >

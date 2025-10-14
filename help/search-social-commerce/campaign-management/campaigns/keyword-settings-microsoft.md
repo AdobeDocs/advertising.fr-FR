@@ -35,9 +35,9 @@ Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés. Séparez plusieurs mot
 
 ## Espaces réservés
 
-**[!UICONTROL Param2]:** Chaîne à utiliser comme valeur de substitution si l’URL de base du mot-clé ou le titre, la description ou l’URL de base de la publicité contient [ la `{Param2}` chaîne de substitution dynamique](https://help.bingads.microsoft.com/#apex/3/en/53079/0). La longueur maximale est de 70 caractères, mais gardez à l’esprit la longueur maximale des éléments de publicité dans lesquels vous l’utilisez (par exemple, le titre 1 et le titre 2 combinés peuvent contenir un maximum de 76 caractères).
+**[!UICONTROL Param2]:** Chaîne à utiliser comme valeur de substitution si l’URL de base du mot-clé ou le titre, la description ou l’URL de base de la publicité contient [&#x200B; la `{Param2}` chaîne de substitution dynamique](https://help.bingads.microsoft.com/#apex/3/en/53079/0). La longueur maximale est de 70 caractères, mais gardez à l’esprit la longueur maximale des éléments de publicité dans lesquels vous l’utilisez (par exemple, le titre 1 et le titre 2 combinés peuvent contenir un maximum de 76 caractères).
 
-**[!UICONTROL Param3]:** Chaîne à utiliser comme valeur de substitution si l’URL de base du mot-clé ou le titre, la description ou l’URL de base de la publicité contient [ la `{Param3}` chaîne de substitution dynamique](https://help.bingads.microsoft.com/#apex/3/en/53079/0). La longueur maximale est de 70 caractères, mais gardez à l’esprit la longueur maximale des éléments de publicité dans lesquels vous l’utilisez (par exemple, le titre 1 et le titre 2 combinés peuvent contenir un maximum de 76 caractères).
+**[!UICONTROL Param3]:** Chaîne à utiliser comme valeur de substitution si l’URL de base du mot-clé ou le titre, la description ou l’URL de base de la publicité contient [&#x200B; la `{Param3}` chaîne de substitution dynamique](https://help.bingads.microsoft.com/#apex/3/en/53079/0). La longueur maximale est de 70 caractères, mais gardez à l’esprit la longueur maximale des éléments de publicité dans lesquels vous l’utilisez (par exemple, le titre 1 et le titre 2 combinés peuvent contenir un maximum de 76 caractères).
 
 ## Options d’URL
 

@@ -19,9 +19,9 @@ Vous pouvez exporter la prévision [!UICONTROL Budget vs Reach] vers une feuille
 >[!MORELIKETHIS]
 >
 >* [À propos de l’outil de planification DSP](planner-about.md)
->* [ Créer un plan de portée télévisée connectée ](planner-create.md)
+>* [&#x200B; Créer un plan de portée télévisée connectée &#x200B;](planner-create.md)
 >* [Duplication d’un plan de portée TV connecté](planner-duplicate.md)
 >* [Modifier un plan de portée TV connecté](planner-edit.md)
 >* [Régénération des prévisions pour un plan de portée télévisée connecté](planner-forecast.md)
->* [ Archivage d’un plan de portée TV connecté](planner-archive.md)
+>* [&#x200B; Archivage d’un plan de portée TV connecté](planner-archive.md)
 >* [Paramètres des plans de portée télévisée connectés](planner-settings.md)

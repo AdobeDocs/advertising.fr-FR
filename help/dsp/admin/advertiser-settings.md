@@ -51,7 +51,7 @@ Pour que les données apparaissent dans les suites de rapports, le paramètre au
 >
 >Si vous supprimez une suite de rapports précédemment liée, DSP n’échange plus de données avec cette suite. Attendez-vous à voir des fluctuations de données.
 
-Pour plus d’informations sur l’intégration d’à [!DNL Analytics], consultez « [ Présentation d’ [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) ».
+Pour plus d’informations sur l’intégration d’à [!DNL Analytics], consultez « [&#x200B; Présentation d’ [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) ».
 
 **[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (annonceurs avec Adobe Audience Manager ou Adobe Analytics ; facultatif) Compte Audience Manager ou [!DNL Analytics] à partir duquel DSP extrait les métadonnées de segment, les données de hiérarchie et les données d’audience uniques pour toutes les audiences Adobe de l’annonceur. Cela inclut les données pour :
 
@@ -132,19 +132,19 @@ Les filtres de visibilité de pré-enchères facultatifs par [!DNL DoubleVerify]
 
 ###### Vidéo
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Avec cette option, sélectionnez les critères.
+**&#x200B; &#x200B;**&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Avec cette option, sélectionnez les critères.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+**&#x200B; &#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Avec cette option, sélectionnez les critères.
+**&#x200B; &#x200B;**&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Avec cette option, sélectionnez les critères.
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Avec cette option, sélectionnez les critères.
+**&#x200B; &#x200B;**&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Avec cette option, sélectionnez les critères.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+**&#x200B; &#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Affichage
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Avec cette option, sélectionnez les critères.
+**&#x200B; &#x200B;**&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Avec cette option, sélectionnez les critères.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -164,7 +164,7 @@ Un filtre **[!UICONTROL Video Viewability Targets]** facultatif et un filtre **[
 * *[!UICONTROL Ads.txt sellers only]* : Pour acheter des stocks uniquement auprès des vendeurs directs et des revendeurs autorisés d&#39;un domaine.
 * *[!UICONTROL Ads.txt sellers only]* : Pour acheter des stocks uniquement auprès des vendeurs directs autorisés d&#39;un domaine.
 
-Vous pouvez remplacer le paramètre au niveau de l’annonceur au [ niveau de l’emplacement ](/help/dsp/campaign-management/placements/placement-settings.md).
+Vous pouvez remplacer le paramètre au niveau de l’annonceur au [&#x200B; niveau de l’emplacement &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
 
 #### [!UICONTROL Safe Site Block]
 

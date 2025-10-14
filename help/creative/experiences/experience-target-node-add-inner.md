@@ -20,7 +20,7 @@ Pour définir une cible spécifique, ajoutez un nœud cible frère supplémentai
 
 >[!NOTE]
 >
->Pour ajouter un nœud cible au niveau inférieur d’une arborescence de décision, voir « [ Ajouter un nœud cible au niveau final d’une expérience ](experience-target-node-add-final.md) ».
+>Pour ajouter un nœud cible au niveau inférieur d’une arborescence de décision, voir « [&#x200B; Ajouter un nœud cible au niveau final d’une expérience &#x200B;](experience-target-node-add-final.md) ».
 
 <!-- 1. [ways to get to the decision tree] -->
 

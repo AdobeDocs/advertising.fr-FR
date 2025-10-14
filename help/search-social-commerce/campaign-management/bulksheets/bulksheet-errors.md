@@ -93,4 +93,4 @@ Les erreurs suivantes se produisent uniquement dans les fichiers [!UICONTROL EF 
 >* [Télécharger/créer un fichier de feuille d’envoi groupé](bulksheet-download.md)
 >* [Valider les landing pages dans les fichiers de feuille d’envoi groupé](bulksheet-validate-landing-pages.md)
 >* [Télécharger un fichier de feuille d’envoi groupé ou un fichier d’erreur corrigé](bulksheet-upload.md)
->* [ Publier des feuilles d’envoi groupées ou des fichiers d’erreur corrigés](bulksheet-post.md)
+>* [&#x200B; Publier des feuilles d’envoi groupées ou des fichiers d’erreur corrigés](bulksheet-post.md)

@@ -34,10 +34,10 @@ Les éléments suivants s’appliquent aux balises de suivi de conversion d’Ad
 
 >[!MORELIKETHIS]
 >
->* [ À propos des balises de suivi de conversion d’Adobe Advertising ](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [&#x200B; À propos des balises de suivi de conversion d’Adobe Advertising &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
 >* [Générer une balise de conversion d’Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [ Format des balises de suivi de conversion JavaScript version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
->* [ Format des balises de suivi de conversion JavaScript version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
+>* [&#x200B; Format des balises de suivi de conversion JavaScript version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
+>* [&#x200B; Format des balises de suivi de conversion JavaScript version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
 >* [Format des balises de suivi de conversion d’image](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 
 <!-- add if I keep the file:  

@@ -24,7 +24,7 @@ Vous pouvez également créer et gérer des audiences à l’aide de segments ou
 
    * (Publicitaires avec comptes d’Audience Manager) Vous pouvez créer [!DNL Google Ads] audiences de correspondance client à l’aide d’identifiants utilisateur provenant de segments d’Audience Manager dont la destination est Search, Social et Commerce. Cela peut inclure les segments Adobe Analytics publiés sur Adobe Experience Cloud et les segments créés à l’aide de la bibliothèque d’audiences Adobe Experience Cloud.
 
-  Pour créer des audiences de correspondance client, le compte [!DNL Google Ads] de l’annonceur doit être [éligible à une correspondance personnalisée](https://support.google.com/adspolicy/answer/6299717) et avoir choisi [ segments d’ID utilisateur](https://support.google.com/google-ads/answer/9199250). En outre, le compte de l’annonceur dans Search, Social et Commerce doit être configuré de manière à permettre la création d’audiences avec correspondance client.
+  Pour créer des audiences de correspondance client, le compte [!DNL Google Ads] de l’annonceur doit être [éligible à une correspondance personnalisée](https://support.google.com/adspolicy/answer/6299717) et avoir choisi [&#x200B; segments d’ID utilisateur](https://support.google.com/google-ads/answer/9199250). En outre, le compte de l’annonceur dans Search, Social et Commerce doit être configuré de manière à permettre la création d’audiences avec correspondance client.
 
   [!DNL Adobe] les données de segment et les fichiers de synchronisation de cookies pour les audiences basées sur les données client sont synchronisés quotidiennement à [!DNL Google Ads].
 

@@ -20,11 +20,11 @@ Vous pouvez contrôler les produits affichés avec vos publicités commerciales 
 
 ## Étapes de configuration des campagnes d’achat [!DNL Microsoft Advertising]
 
-Vous pouvez configurer des campagnes d’achat à l’aide des [ modèles de flux d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) pour [!DNL Microsoft Advertising], à l’aide des [ feuilles d’envoi groupées](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) ou individuellement. Les instructions suivantes comprennent des liens vers la création d’entités individuelles.
+Vous pouvez configurer des campagnes d’achat à l’aide des [&#x200B; modèles de flux d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) pour [!DNL Microsoft Advertising], à l’aide des [&#x200B; feuilles d’envoi groupées](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) ou individuellement. Les instructions suivantes comprennent des liens vers la création d’entités individuelles.
 
 1. Configurez votre compte [!DNL Microsoft Merchant Center] et renseignez-le avec les données de produit.
 
-1. [ Autoriser la recherche, Social et Commerce à télécharger les données du  [!DNL Microsoft Merchant Center] compte](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. [&#x200B; Autoriser la recherche, Social et Commerce à télécharger les données du  [!DNL Microsoft Merchant Center] compte](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 1. [Créez une campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) sur le réseau d’achat.
 
@@ -38,7 +38,7 @@ Vous pouvez configurer des campagnes d’achat à l’aide des [ modèles de flu
 
    1. (Facultatif) [Créez des groupes de produits enfants](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md).
 
-   1. Créez des [publicités de produits](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) avec [ lignes de promotion à inclure potentiellement dans chaque publicité d’achat](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md) au sein du groupe publicitaire.
+   1. Créez des [publicités de produits](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) avec [&#x200B; lignes de promotion à inclure potentiellement dans chaque publicité d’achat](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md) au sein du groupe publicitaire.
 
       Microsoft Advertising génère dynamiquement la copie de publicité et l’URL de page d’entrée pour chaque publicité.
 

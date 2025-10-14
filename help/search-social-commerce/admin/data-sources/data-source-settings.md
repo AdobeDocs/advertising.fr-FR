@@ -27,9 +27,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ À propos de la synchronisation  [!DNL Google Analytics] mesures de conversion](data-source-about.md)
->* [ Conditions préalables à la configuration d’une  [!DNL Google Analytics] source de données](data-source-prerequisites.md)
->* [ Configuration d’une  [!DNL Google Analytics] vue en tant que source de données](data-source-configure.md)
+>* [&#x200B; À propos de la synchronisation  [!DNL Google Analytics] mesures de conversion](data-source-about.md)
+>* [&#x200B; Conditions préalables à la configuration d’une  [!DNL Google Analytics] source de données](data-source-prerequisites.md)
+>* [&#x200B; Configuration d’une  [!DNL Google Analytics] vue en tant que source de données](data-source-configure.md)
 >* [Modifier une [!DNL Google Analytics] source de données](data-source-edit.md)
 >* [Suspendre la synchronisation d’une source de données](data-source-pause.md)
 >* [Réauthentifier une [!DNL Google Analytics] source de données](data-source-reauthenticate.md)

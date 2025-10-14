@@ -63,7 +63,7 @@ Pour intégrer des mesures pour plusieurs propriétés ou pour plusieurs vues po
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Post]**.
 
-   La source de données s’appelle « AccountName > PropertyName > ViewName » et est automatiquement activée. Pour mettre la source de données en pause, reportez-vous à [ Mise en pause d’un flux à partir d’une Source de données ](data-source-pause.md).
+   La source de données s’appelle « AccountName > PropertyName > ViewName » et est automatiquement activée. Pour mettre la source de données en pause, reportez-vous à [&#x200B; Mise en pause d’un flux à partir d’une Source de données &#x200B;](data-source-pause.md).
 
    Les mesures sont disponibles le lendemain de la fin de la synchronisation quotidienne des données, qui commence à 5 h dans le fuseau horaire de l’annonceur. Une fois les mesures disponibles, elles sont visibles dans [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md). Chaque nouvelle mesure de conversion est nommée « `ga:backEndMetricName_propertyID_viewID` », où « backEndMetricName » est le nom de la mesure utilisée par l’API. Le nom d’affichage de chaque nouvelle mesure de conversion est « `friendlyMetricName_ga:MetricTag` », où « friendlyMetricName » est le nom de la mesure qui apparaît dans [!DNL Google Analytics] et « MetricTag » est le [!UICONTROL Metric Tag] défini dans les paramètres de la source de données.
 

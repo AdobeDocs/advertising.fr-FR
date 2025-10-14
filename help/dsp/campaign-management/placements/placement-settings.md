@@ -81,7 +81,7 @@ Les dates du package (le cas échéant) ou de la campagne sont automatiquement r
 
 **[!UICONTROL Placement Pre-bid Filters]:** jusqu’à cinq seuils d’indicateurs clés de performance (tels qu’une mesure de visibilité minimale ou un taux de clic publicitaire) qui doivent être atteints pour que les enchères se produisent. Vous pouvez utiliser des filtres de pré-enchères comme tactiques d’optimisation, mais sachez que chaque règle peut limiter les opportunités pour cet emplacement de soumettre des enchères. Pour ajouter ou modifier des filtres :
 
-1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
+1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
 1. Effectuez l’une des opérations suivantes :
    * Pour ajouter un filtre :
       1. Cliquez sur **[!UICONTROL Add Filter]**.
@@ -89,7 +89,7 @@ Les dates du package (le cas échéant) ou de la campagne sont automatiquement r
    * Pour supprimer un filtre, cliquez sur **[!UICONTROL X]** dans la ligne de filtre.
 1. Cliquez sur **[!UICONTROL Save]**.
 
-Consultez les descriptions de chaque filtre de pré-enchères à la rubrique [ Filtres de pré-enchères au niveau du positionnement et utilisation ](/help/dsp/optimization/optimization-pre-bid-filters.md).
+Consultez les descriptions de chaque filtre de pré-enchères à la rubrique [&#x200B; Filtres de pré-enchères au niveau du positionnement et utilisation &#x200B;](/help/dsp/optimization/optimization-pre-bid-filters.md).
 
 ### Tous les autres emplacements
 
@@ -97,7 +97,7 @@ Consultez les descriptions de chaque filtre de pré-enchères à la rubrique [ F
 
 **[!UICONTROL Gross Budget Goal]:** (Emplacements dans des campagnes avec gestion des marges uniquement) Limite budgétaire brute et intervalle budgétaire (*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*).
 
-**[!UICONTROL Optimization Goal]:** objectif d’optimisation du package. Consultez les descriptions de chaque objectif d’optimisation dans « [ Objectifs d’optimisation et comment les utiliser ](/help/dsp/optimization/optimization-goals.md) ».
+**[!UICONTROL Optimization Goal]:** objectif d’optimisation du package. Consultez les descriptions de chaque objectif d’optimisation dans « [&#x200B; Objectifs d’optimisation et comment les utiliser &#x200B;](/help/dsp/optimization/optimization-goals.md) ».
 
 **[!UICONTROL Target Goal]:** objectif cible, qui est utilisé pour effectuer le suivi des performances.
 
@@ -135,7 +135,7 @@ Consultez les descriptions de chaque filtre de pré-enchères à la rubrique [ F
 
 **[!UICONTROL Placement Pre-bid Filters]:** (facultatif) Jusqu’à cinq filtres qui doivent être respectés pour que l’enchère se produise. Vous pouvez utiliser des filtres de pré-enchères comme tactiques d’optimisation, mais gardez à l’esprit que chaque règle peut limiter les opportunités sur lesquelles cet emplacement peut enchérir. Pour ajouter ou modifier des filtres :
 
-1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
+1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
 1. Effectuez l’une des opérations suivantes :
    * Pour ajouter un filtre :
       1. Cliquez sur **[!UICONTROL Add Filter]**.
@@ -153,7 +153,7 @@ Consultez les descriptions de chaque filtre de pré-enchères à la rubrique [ F
 
 Pour spécifier des emplacements :
 
-1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
+1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
 1. Effectuez l’une des opérations suivantes :
    * Pour inclure ou exclure un pays, un État, une ville, une DMA, un district législatif fédéral ou un district législatif d’État :
       1. Sélectionnez le type d’emplacement dans la colonne de gauche.
@@ -187,7 +187,7 @@ Incluez un code postal par ligne ou saisissez plusieurs valeurs séparées par d
 
   Vous pouvez afficher la liste par source ou par flux. Lorsque vous affichez la liste par flux, vous pouvez effectuer une recherche par nom de flux, clé de flux ou balise de caractéristique sélectionnée.
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private] : les offres privées que vous avez conclues (ou les offres de [!DNL Roku] privées existantes pour les emplacements [!DNL Roku]) avec les éditeurs que vous avez configurés dans DSP, ainsi que vos listes d’offres privées [ existantes](/help/dsp/inventory/lists-deals-manage.md). Vous pouvez inclure, mais pas exclure, les stocks publics.
+* [!UICONTROL Private] | [!UICONTROL Roku Private] : les offres privées que vous avez conclues (ou les offres de [!DNL Roku] privées existantes pour les emplacements [!DNL Roku]) avec les éditeurs que vous avez configurés dans DSP, ainsi que vos listes d’offres privées [&#x200B; existantes](/help/dsp/inventory/lists-deals-manage.md). Vous pouvez inclure, mais pas exclure, les stocks publics.
 
   Dans l’onglet [!UICONTROL Deals] , vous pouvez rechercher la liste par mot-clé, clé, ID d’offre ou balise personnalisée. Dans l&#39;onglet [!UICONTROL Deal Lists], vous pouvez rechercher la liste par nom ou ID de liste d&#39;offres.
 
@@ -201,7 +201,7 @@ Pour définir le ciblage de l&#39;inventaire :
 * Pour cibler un type de stock :
    1. Cochez la case en regard du nom du type d’inventaire.
    1. (Facultatif) Modifiez les sources pour inclure :
-      1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
+      1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
       1. ([!UICONTROL Public] et inventaire [!UICONTROL On Demand]) Cliquez sur **[!UICONTROL View by Source]** ou **[!UICONTROL View by Feed]** pour modifier la façon dont les sources sont répertoriées.
       1. (Le cas échéant) Filtrez l’inventaire selon les besoins.
       1. Spécifiez les sources à inclure et à exclure :
@@ -254,7 +254,7 @@ Pour définir le ciblage de l&#39;inventaire :
 
 **[!UICONTROL Site or App Categories]:** (facultatif ; disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL Off]*) Catégories de sites au niveau du site sélectionné à inclure ou à exclure (mais pas les deux) en tant que cibles. Choisissez parmi les listes de sites verticales que DSP a mappées en fonction de l’objet :
 
-1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
+1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
 1. Spécifiez les catégories de site à inclure ou à exclure :
    * Pour inclure des catégories de site :
       1. Cliquez sur **[!UICONTROL Include categories]**.
@@ -267,7 +267,7 @@ Pour définir le ciblage de l&#39;inventaire :
 
 **[!UICONTROL Exclude Sites or Apps]:** (facultatif ; disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL Off]*) Sites/applications et [listes d’URL](/help/dsp/resources/lists-url-manage.md) à exclure. Dans l’onglet [!UICONTROL Paste URL] , vous pouvez rechercher et sélectionner des sites, ou saisir ou coller des noms de domaine. Dans l’onglet [!UICONTROL URL Lists] , vous pouvez sélectionner des listes d’URL.
 
-1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
+1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
 1. Spécifiez les sites :
    * Dans l’onglet [!UICONTROL Paste URL] :
       * Pour rechercher un site :
@@ -302,7 +302,7 @@ Vous pouvez éventuellement exporter la liste des sites ciblés et bloqués dans
 
 **[!UICONTROL Sites or Apps]:** (disponible lorsque **[!UICONTROL Paste list of targeted sites]** est *[!UICONTROL On]*) Sites à cibler. Dans l’onglet [!UICONTROL Paste URL] , vous pouvez rechercher et sélectionner des sites, ou saisir ou coller des noms de domaine. Dans l’onglet [!UICONTROL URL Lists] , vous pouvez sélectionner des listes d’URL.
 
-1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
+1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
 1. Spécifiez les sites :
    * Dans l’onglet [!UICONTROL Paste URL] :
       * Pour rechercher un site :
@@ -331,7 +331,7 @@ Vous pouvez éventuellement exporter la liste des sites ciblés et bloqués dans
 
 * Pour sélectionner une audience existante, cliquez sur ![Sélectionner](/help/dsp/assets/chevron-down.png) en regard de [!UICONTROL Included Audiences], puis sélectionnez l’audience.
 * Pour créer une audience, cliquez sur ![Sélectionner](/help/dsp/assets/chevron-down.png) en regard de [!UICONTROL Included Audiences], puis sélectionnez **[!UICONTROL + Create Audience]**. Pour obtenir des instructions, voir [Création d’une audience réutilisable](/help/dsp/audiences/reusable-audience-create.md), en commençant par l’étape 3.
-* Pour sélectionner des segments d’audience spécifiques, cliquez sur **[!UICONTROL Select segments for this placement only]**. Sélectionnez la logique du segment. Pour obtenir des instructions, reportez-vous à l’étape 6 de la section « [ Création d’une audience réutilisable ](/help/dsp/audiences/reusable-audience-create.md) ». Lorsque vous avez terminé, cliquez sur **Enregistrer**.
+* Pour sélectionner des segments d’audience spécifiques, cliquez sur **[!UICONTROL Select segments for this placement only]**. Sélectionnez la logique du segment. Pour obtenir des instructions, reportez-vous à l’étape 6 de la section « [&#x200B; Création d’une audience réutilisable &#x200B;](/help/dsp/audiences/reusable-audience-create.md) ». Lorsque vous avez terminé, cliquez sur **Enregistrer**.
 
 >[!NOTE]
 >
@@ -371,7 +371,7 @@ Lorsque vous sélectionnez à la fois des identifiants hérités et universels, 
 
 **[!UICONTROL Day Parting]:** (facultatif) Jours spécifiques de la semaine et heure d’exécution des publicités. Pour définir des intervalles de répartition :
 
-1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
+1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
 1. Sélectionnez le fuseau horaire applicable.
 1. Spécifiez les intervalles :
    * Pour sélectionner un intervalle prédéfini, cliquez sur l’un des boutons d’intervalle. Les options incluent *[!UICONTROL Weekends]**, *[!UICONTROL Weekdays]*, *[!UICONTROL Morning]*, *[!UICONTROL Lunch]*, *[!UICONTROL Dinner]* ou *[!UICONTROL Prime]* (primetime).
@@ -382,7 +382,7 @@ Lorsque vous sélectionnez à la fois des identifiants hérités et universels, 
 
 Pour spécifier le ciblage de rubrique :
 
-1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
+1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
 1. Spécifiez les segments à cibler :
    1. Dans la colonne de gauche, sélectionnez le partenaire : (*[!UICONTROL Comscore]*.
    1. Dans le champ de saisie, saisissez les noms ou les identifiants de segment.
@@ -397,7 +397,7 @@ Pour spécifier le ciblage de rubrique :
 
 **[!UICONTROL Device Targeting]:** (facultatif) Informations spécifiques sur les appareils, notamment les types d’appareils, les fabricants, les systèmes d’exploitation, les navigateurs et les types de connectivité, à inclure et à exclure en tant que cibles. Les types varient selon le type d’emplacement. Pour spécifier le ciblage de l’appareil :
 
-1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
+1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
 1. Spécifiez les détails de l’appareil à inclure et à exclure :
    1. Dans la colonne de gauche, sélectionnez la catégorie.
    1. Spécifiez le ciblage :
@@ -408,7 +408,7 @@ Pour spécifier le ciblage de rubrique :
 
 **[!UICONTROL ISP Targeting]:** (facultatif) Fournisseurs de services Internet (FAI) spécifiques à inclure ou exclure (mais pas les deux) en tant que cibles. Pour spécifier le ciblage du FAI :
 
-1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
+1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
 1. Spécifiez les FAI à inclure ou à exclure :
    * Pour inclure les FAI :
       1. Cliquez sur **[!UICONTROL Include ISPs]**.
@@ -486,7 +486,7 @@ L’identifiant doit commencer par « 51 » et se composer de huit chiffres. Par
 
 **[!UICONTROL Event Pixels]:** (facultatif) pixels de suivi d’événement tiers à joindre par défaut à toutes les nouvelles annonces de l’emplacement. Pour spécifier des pixels d’événement :
 
-1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
+1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
 1. Effectuez l’une des opérations suivantes :
    * Pour sélectionner un pixel existant, activez la case à cocher dans la ligne de pixel.
    * Pour créer un pixel :
@@ -501,7 +501,7 @@ L’identifiant doit commencer par « 51 » et se composer de huit chiffres. Par
 
 **[!UICONTROL Conversion Pixels]:** (facultatif) Pixels de suivi des conversions à joindre par défaut à toutes les nouvelles annonces de l’emplacement. Pour définir les pixels de conversion, procédez comme suit :
 
-1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
+1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
 1. Effectuez l’une des opérations suivantes :
    * Pour sélectionner un pixel existant, activez la case à cocher dans la ligne de pixel.
    * Pour créer un pixel :

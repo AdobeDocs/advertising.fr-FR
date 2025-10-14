@@ -59,7 +59,7 @@ Vous pouvez créer et gérer des listes d&#39;URL de sites Web et d&#39;applicat
 
       1. Pour afficher le statut de la tâche, y compris le nombre d’URL ajoutées et le nombre de valeurs en échec :
 
-         1. Cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
+         1. Cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
 
          1. (Si aucune ligne n’a été ajoutée) Pour télécharger un fichier d’erreur contenant les valeurs en échec, cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
@@ -127,7 +127,7 @@ Vous pouvez créer et gérer des listes d&#39;URL de sites Web et d&#39;applicat
 
       1. Pour afficher le statut de la tâche, y compris le nombre d’URL ajoutées et le nombre de valeurs en échec :
 
-         1. Cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
+         1. Cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
 
          1. (Si aucune ligne n’a été ajoutée) Pour télécharger un fichier d’erreur contenant les valeurs en échec, cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 

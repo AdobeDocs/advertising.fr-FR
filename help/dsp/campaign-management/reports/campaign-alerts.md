@@ -32,7 +32,7 @@ Les alertes et les indicateurs d’alerte disparaissent automatiquement lorsque 
 
 1. Effectuez l’une des opérations suivantes :
 
-   * (Pour toutes les alertes applicables pour la vue) À droite de la barre d’outils d’une vue de gestion de campagne, cliquez sur l’icône ![ Publier le panneau lorsque des alertes sont disponibles](/help/dsp/assets/alerts-panel.png "Icône Panneau à pulser lorsque des alertes sont disponibles").
+   * (Pour toutes les alertes applicables pour la vue) À droite de la barre d’outils d’une vue de gestion de campagne, cliquez sur l’icône ![&#x200B; Publier le panneau lorsque des alertes sont disponibles](/help/dsp/assets/alerts-panel.png "Icône Panneau à pulser lorsque des alertes sont disponibles").
 
    * (Pour toutes les alertes d’une campagne spécifique) Cliquez sur l’indicateur d’alerte d’une ligne de campagne, puis cliquez sur **[!UICONTROL View in Pulse panel]**.
 

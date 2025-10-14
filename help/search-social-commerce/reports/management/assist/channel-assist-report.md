@@ -28,14 +28,14 @@ Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colo
 
 | Colonne | Par défaut ? | Description |
 | ---- | ---- | ---- |
-| [!UICONTROL 1st Event] à [!UICONTROL 5th Event] | Par défaut | Les cinq premiers types d’événement dans le chemin de conversion qui se sont produits dans l’[ intervalle de recherche en amont des clics de l’annonceur](/help/search-social-commerce/glossary.md#c-d) et l’[ intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j). |
-| [!UICONTROL Path Size] | Par défaut | Le nombre de types d’événements dans le chemin de conversion qui se sont produits dans l’[ intervalle de recherche en amont des clics de l’annonceur](/help/search-social-commerce/glossary.md#c-d) et l’[ intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j). |
+| [!UICONTROL 1st Event] à [!UICONTROL 5th Event] | Par défaut | Les cinq premiers types d’événement dans le chemin de conversion qui se sont produits dans l’[&#x200B; intervalle de recherche en amont des clics de l’annonceur](/help/search-social-commerce/glossary.md#c-d) et l’[&#x200B; intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j). |
+| [!UICONTROL Path Size] | Par défaut | Le nombre de types d’événements dans le chemin de conversion qui se sont produits dans l’[&#x200B; intervalle de recherche en amont des clics de l’annonceur](/help/search-social-commerce/glossary.md#c-d) et l’[&#x200B; intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Event Type] | Par défaut | Type d’événement du premier événement (le plus ancien) dans le chemin de conversion. |
 | [!UICONTROL Last Event Type] | Par défaut | Type d’événement du dernier événement qui a généré des conversions (même si le dernier événement se trouve en dehors de la taille de chemin spécifiée). |
 | \[Mesures personnalisées (dérivées) spécifiques aux annonceurs\] | Valeur personnalisée | La valeur d’une mesure personnalisée que vous avez créée et calculée à partir de mesures existantes. |
 | \[Mesures de conversion spécifiques aux annonceurs\] | Valeur personnalisée | Nombre de conversions pour une mesure de conversion spécifiée ou une mesure d’engagement du site. |
 | [!UICONTROL % of Total] \[mesure de conversion\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport pour chaque mesure de conversion incluse) Le pourcentage de vos conversions globales entre les portefeuilles qui ont été attribués au modèle d’événement. |
-| [!UICONTROL 6th Event] à [!UICONTROL 30th Event] | Valeur personnalisée | Les sixième à 30e types d’événements dans le chemin de conversion qui se sont produits dans l’[ intervalle de recherche en amont des clics de l’annonceur](/help/search-social-commerce/glossary.md#c-d) et l’[ intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j). |
+| [!UICONTROL 6th Event] à [!UICONTROL 30th Event] | Valeur personnalisée | Les sixième à 30e types d’événements dans le chemin de conversion qui se sont produits dans l’[&#x200B; intervalle de recherche en amont des clics de l’annonceur](/help/search-social-commerce/glossary.md#c-d) et l’[&#x200B; intervalle de recherche en amont des impressions](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[mesure de conversion\] | Automatique | (Non disponible dans les paramètres du rapport, mais automatiquement inclus dans la sortie du rapport pour chaque mesure de conversion incluse) Latence moyenne en jours entre le premier événement et une conversion. |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[mesure de conversion\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie du rapport) Latence moyenne en jours entre le dernier événement et une conversion. |
 | [!UICONTROL Path Frequency] | Valeur personnalisée | Nombre de fois où le chemin d’accès de cette ligne s’est produit avant la conversion. |
@@ -43,7 +43,7 @@ Vous trouverez ci-dessous les colonnes disponibles pour chaque rapport. Les colo
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports d’assistance](assist-report-about.md)
->* [ [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
->* [ [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
->* [ Paramètres du rapport d’assistance ](assist-report-settings.md)
+>* [&#x200B; [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
+>* [&#x200B; [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
+>* [&#x200B; Paramètres du rapport d’assistance &#x200B;](assist-report-settings.md)
 >* [Générer un rapport d’assistance](assist-report-generate.md)

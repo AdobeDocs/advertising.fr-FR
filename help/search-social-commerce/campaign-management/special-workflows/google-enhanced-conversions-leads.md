@@ -40,7 +40,7 @@ Pour utiliser cette fonctionnalité, procédez comme suit. Les étapes de créat
 
 1. Configurez et implémentez une balise pour suivre l’action de conversion.
 
-   Pour obtenir des instructions, reportez-vous à l’aide [!DNL Google Ads] pour créer des balises pour des conversions améliorées pour les pistes [ à l’aide d’une  [!DNL Google] balise](https://support.google.com/google-ads/answer/11021502) ou [à l’aide de [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292).
+   Pour obtenir des instructions, reportez-vous à l’aide [!DNL Google Ads] pour créer des balises pour des conversions améliorées pour les pistes [&#x200B; à l’aide d’une  [!DNL Google] balise](https://support.google.com/google-ads/answer/11021502) ou [à l’aide de [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292).
 
 1. Créez une action de conversion pour la conversion améliorée pour les pistes dans [Search, Social, &amp; Commerce](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) ou [Google Ads](https://support.google.com/google-ads/answer/12216226).
 
@@ -56,5 +56,5 @@ Pour utiliser cette fonctionnalité, procédez comme suit. Les étapes de créat
 
 >[!MORELIKETHIS]
 >
->* [ Créez une action de conversion pour une  [!DNL Google Ads] conversion améliorée pour les pistes](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* [&#x200B; Créez une action de conversion pour une  [!DNL Google Ads] conversion améliorée pour les pistes](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
 >* [Chargement de données de conversion hors ligne pour des conversions améliorées](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)

@@ -18,19 +18,19 @@ Lorsque vous ajoutez et modifiez des données de campagne dans les vues [!UICONT
 
 ## Configuration de l’accès à vos comptes de réseau publicitaire
 
-Pour effectuer le suivi des performances des publicités dans le compte réseau publicitaire d’un annonceur (et pour placer éventuellement des offres pour les publicités), l’équipe du compte d’Adobe [ crée un enregistrement de compte correspondant](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) dans Search, Social et Commerce. L’enregistrement de compte comprend des options de suivi.
+Pour effectuer le suivi des performances des publicités dans le compte réseau publicitaire d’un annonceur (et pour placer éventuellement des offres pour les publicités), l’équipe du compte d’Adobe [&#x200B; crée un enregistrement de compte correspondant](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) dans Search, Social et Commerce. L’enregistrement de compte comprend des options de suivi.
 
 Pour les comptes synchronisés via l’API du réseau publicitaire, l’enregistrement de compte inclut également les informations d’identification d’accès au compte. Une fois le compte activé, les données du compte sont extraites du réseau publicitaire. Vous pouvez ensuite afficher les données de compte existantes ainsi que créer et modifier la structure de campagne et les données de publicité.
 
 ## Suivi des clics pour lier les clics aux conversions
 
-Si vous utilisez le service de suivi de conversion Adobe Advertising, vous devez inclure le code de suivi des clics Search, Social et Commerce dans le suffixe de la page d’entrée, les modèles de suivi et les URL finales/de destination pour les annonces, les mots-clés et les emplacements, les liens de site et les listes de produits. Pour les [ réseaux publicitaires et types de campagne pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md) dont les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload]&quot;, Search, Social et Commerce ajoute automatiquement son propre code de redirection et de suivi lorsque vous enregistrez l’enregistrement, de sorte que vous n’ayez pas à l’ajouter manuellement. Sinon, vous devez ajouter manuellement le code à vos modèles de suivi ou URL finales.
+Si vous utilisez le service de suivi de conversion Adobe Advertising, vous devez inclure le code de suivi des clics Search, Social et Commerce dans le suffixe de la page d’entrée, les modèles de suivi et les URL finales/de destination pour les annonces, les mots-clés et les emplacements, les liens de site et les listes de produits. Pour les [&#x200B; réseaux publicitaires et types de campagne pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md) dont les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload]&quot;, Search, Social et Commerce ajoute automatiquement son propre code de redirection et de suivi lorsque vous enregistrez l’enregistrement, de sorte que vous n’ayez pas à l’ajouter manuellement. Sinon, vous devez ajouter manuellement le code à vos modèles de suivi ou URL finales.
 
 Pour plus d’informations sur le tracking, consultez le chapitre &quot;Tracking&quot;.
 
 ## Automatisation de la gestion des offres et des budgets
 
-Pour les [ réseaux publicitaires et types de campagne pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md), vous pouvez regrouper vos campagnes dans des portefeuilles, chacun avec un objectif commercial spécifique et un budget ou une cible de performance spécifique. Dans les portfolios standard, Search, Social et Commerce optimise les offres sur les mots-clés CPC et les budgets de campagne. Les portefeuilles hybrides combinent les technologies d’optimisation de Search, Social et Commerce et vos réseaux publicitaires.
+Pour les [&#x200B; réseaux publicitaires et types de campagne pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md), vous pouvez regrouper vos campagnes dans des portefeuilles, chacun avec un objectif commercial spécifique et un budget ou une cible de performance spécifique. Dans les portfolios standard, Search, Social et Commerce optimise les offres sur les mots-clés CPC et les budgets de campagne. Les portefeuilles hybrides combinent les technologies d’optimisation de Search, Social et Commerce et vos réseaux publicitaires.
 
 Pour plus d’informations sur les options de portefeuille disponibles et sur la configuration des portefeuilles, reportez-vous au chapitre du guide d’optimisation intitulé &quot;Portfolios&quot;, disponible dans Search, Social et Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
@@ -57,5 +57,5 @@ Les vues de gestion de campagne vous permettent de surveiller et de gérer vos c
 >[!MORELIKETHIS]
 >
 >* [Présentation de l’implémentation des comptes de réseau publicitaire et des campagnes](campaign-implemention-overview.md)
->* [ Surveillez et gérez les performances de vos campagnes réseau d’annonces ](monitor-performance-campaigns.md)
+>* [&#x200B; Surveillez et gérez les performances de vos campagnes réseau d’annonces &#x200B;](monitor-performance-campaigns.md)
 >* [Données de conversion Google Ads dans Search, Social et Commerce](google-conversion-data.md)

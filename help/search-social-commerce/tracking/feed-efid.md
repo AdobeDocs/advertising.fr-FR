@@ -32,7 +32,7 @@ Dans cette méthode, Advertising Cloud collecte une valeur `ef_id` chaque fois q
 
 1. (Facultatif mais recommandé) L’annonceur peut créer un ID de transaction unique pour chaque transaction à inclure dans le fichier de flux.
 
-1. L’annonceur charge un fichier avec les [ données de conversion requises](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md) vers l’emplacement de serveur désigné.
+1. L’annonceur charge un fichier avec les [&#x200B; données de conversion requises](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md) vers l’emplacement de serveur désigné.
 
 1. Les services techniques analysent les données de conversion dans les fichiers chargés, puis chargent les données dans Adobe Advertising. Adobe Advertising effectue ensuite le suivi des données par rapport à des mots-clés, publicités et emplacements individuels, puis crée une prévision de recettes pour chacun d’eux.
 

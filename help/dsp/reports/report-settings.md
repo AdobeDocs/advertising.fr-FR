@@ -145,7 +145,7 @@ Voir « [Colonnes de rapport disponibles](report-columns.md) » pour obtenir une
 
    * *[!UICONTROL Social Only]:* Obsolète
 
-[ Consultez également la section « Comment les règles d’attribution sont-elles calculées pour Adobe Advertising ](/help/search-social-commerce/reports/attribution-rules.md) ? »
+[&#x200B; Consultez également la section « Comment les règles d’attribution sont-elles calculées pour Adobe Advertising &#x200B;](/help/search-social-commerce/reports/attribution-rules.md) ? »
 
 * **Recherche en amont :** ([!UICONTROL Household Conversion] des rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes et des rapports [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion] avec [!UICONTROL Conversion Metrics] colonnes uniquement ; annonceurs avec suivi des conversions Adobe Advertising uniquement) dans le rapport, le nombre maximal de jours après un événement d’impression ou un événement de clic (pour les rapports [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion]) dans lequel un événement de conversion peut lui être attribué. La valeur par défaut est *[!UICONTROL 30 days]* et la valeur maximale est de 92 jours.
 

@@ -53,7 +53,7 @@ Toutes les publicités actives et approuvées d’un emplacement actif dans une 
 >* [À propos de la gestion des emplacements](/help/dsp/campaign-management/placements/placement-about.md)
 >* [À propos de la gestion des publicités](/help/dsp/campaign-management/ads/ad-about.md)
 >* [Liste de contrôle de lancement de campagne](/help/dsp/campaign-management/campaign-launch-checklist.md)
->* [ Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [&#x200B; Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [Types de rapports de performances dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Gérer vos vues de données de campagne](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
 >* [Vidéo : DSP structure de compte et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=fr)

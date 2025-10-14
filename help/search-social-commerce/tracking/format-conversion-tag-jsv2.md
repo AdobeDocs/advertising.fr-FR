@@ -54,9 +54,9 @@ où :
 
 >[!MORELIKETHIS]
 >
->* [ À propos des balises de suivi de conversion d’Adobe Advertising ](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [&#x200B; À propos des balises de suivi de conversion d’Adobe Advertising &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
 >* [Générer une balise de conversion d’Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [ Questions fréquentes sur les balises de suivi de conversion et de pages vues ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
->* [ Format des balises de suivi de conversion JavaScript version 2](format-conversion-tag-jsv2.md)
->* [ Format des balises de suivi de conversion JavaScript version 3](format-conversion-tag-jsv3.md)
+>* [&#x200B; Questions fréquentes sur les balises de suivi de conversion et de pages vues &#x200B;](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
+>* [&#x200B; Format des balises de suivi de conversion JavaScript version 2](format-conversion-tag-jsv2.md)
+>* [&#x200B; Format des balises de suivi de conversion JavaScript version 3](format-conversion-tag-jsv3.md)
 >* [Format des balises de suivi de conversion d’image](format-conversion-tag-image.md)

@@ -37,5 +37,5 @@ ht-degree: 0%
 >* [(nouvelle interface utilisateur) Modifier en bloc les paramètres de portfolio à l’aide de fichiers de feuilles de calcul](portfolio-bulksheets.md)
 >* [Créer un portfolio](portfolio-create.md)
 >* [(Nouvelle interface utilisateur) Afficher les détails sur les performances du portefeuille](portfolio-details.md)
->* [ (nouvelle interface utilisateur) Télécharger des données dans la vue [!UICONTROL Portfolios]](portfolio-view-report.md)
+>* [&#x200B; (nouvelle interface utilisateur) Télécharger des données dans la vue [!UICONTROL Portfolios]](portfolio-view-report.md)
 >* [À propos des portefeuilles](portfolio-about.md)

@@ -133,7 +133,7 @@ curl -X POST \
 }'
 ```
 
-où, conformément aux spécifications de l’API [Privacy Service ](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/appendix) :
+où, conformément aux spécifications de l’API [Privacy Service &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/appendix) :
 
 * `"namespace": "AdCloud"` indique l’espace du cookie `AdCloud` et la valeur correspondante est l’identifiant de cookie du client tel qu’il est récupéré depuis `AdobePrivacy.js`
 * `"include": ["adCloud"]` indique que la requête s’applique au produit Adobe Advertising

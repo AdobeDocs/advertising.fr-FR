@@ -26,7 +26,7 @@ Vous pouvez utiliser les ID d’offres de l’une des manières suivantes :
 
 * (Fonctionnalité facultative qui nécessite une activation) À partir de l’[!UICONTROL Deal ID Inbox], vous pouvez examiner et accepter rapidement vos contrats d’inventaire privé garantis et non garantis convenus avec les éditeurs sur les plateformes côté offre (SSP) suivantes : [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement appelée [!DNL AdX]) et [!DNL Magnite DV+] (anciennement [!DNL Rubicon]) à partir de l’[!UICONTROL Deal ID inbox].
 
-  Pour plus d’informations, voir « [ À propos de l’[!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md) ».
+  Pour plus d’informations, voir « [&#x200B; À propos de l’[!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md) ».
 
 * Vous pouvez configurer manuellement des informations sur une transaction privée que vous avez déjà négociée.
 

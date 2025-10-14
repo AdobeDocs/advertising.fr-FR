@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Pour créer et mettre à jour des données de campagne [!DNL Microsoft Advertising] en bloc, vous pouvez utiliser des fichiers de feuille d’envoi groupé Search, Social et Commerce formatés spécifiquement pour les comptes [!DNL Microsoft Advertising]. Vous pouvez : a) [générer des fichiers de feuille pour les comptes existants](../bulksheet-download.md) au format de fichier requis ou b) les créer manuellement (voir &quot;[Formats de fichier de feuille d’envoi groupé pris en charge](bulksheet-file-formats.md)&quot; pour obtenir des informations générales sur les formats de fichier pris en charge).
 
-Chaque feuille d’envoi groupé doit inclure les champs d’en-tête et les champs de données correspondants requis pour les [ opérations spécifiques que vous souhaitez effectuer ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) (création d’une publicité, par exemple). Lorsqu’un champ n’est pas obligatoire, vous pouvez l’omettre dans les lignes d’en-tête et de données. Toutes les colonnes personnalisées sont supprimées lorsque vous chargez le fichier de feuille en bloc.
+Chaque feuille d’envoi groupé doit inclure les champs d’en-tête et les champs de données correspondants requis pour les [&#x200B; opérations spécifiques que vous souhaitez effectuer &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) (création d’une publicité, par exemple). Lorsqu’un champ n’est pas obligatoire, vous pouvez l’omettre dans les lignes d’en-tête et de données. Toutes les colonnes personnalisées sont supprimées lorsque vous chargez le fichier de feuille en bloc.
 
 Vous trouverez ci-dessous un tableau de tous les champs de données disponibles et des tableaux supplémentaires indiquant les champs obligatoires pour ajouter, modifier ou supprimer des données pour des entités individuelles (telles que des campagnes et des mots-clés).
 
@@ -464,7 +464,7 @@ Pour une description de chaque champ de données, voir &quot;[Tous les champs de
 >
 >* [Annexe - Erreurs de feuilles d’envoi groupé](../bulksheet-errors.md)
 >* [Opérations que vous pouvez effectuer dans les feuilles d’envoi groupé](bulksheet-operations.md)
->* [ Formats de fichiers de feuille d’envoi groupé pris en charge](bulksheet-file-formats.md)
+>* [&#x200B; Formats de fichiers de feuille d’envoi groupé pris en charge](bulksheet-file-formats.md)
 >* [Télécharger/créer un fichier de feuille d’envoi groupé](../bulksheet-download.md)
 >* [Formats de suivi des clics pour [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
 >* [Télécharger un fichier de feuille d’envoi groupé ou un fichier d’erreur corrigé](../bulksheet-upload.md)

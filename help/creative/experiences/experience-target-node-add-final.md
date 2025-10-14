@@ -18,7 +18,7 @@ Lorsque vous ajoutez un nœud cible au niveau le plus bas de l’expérience, qu
 
 >[!NOTE]
 >
->Pour insérer un nœud cible entre les niveaux existants d’une arborescence de décision, consultez « [ Insérer un nœud cible entre les nœuds d’une expérience ](experience-target-node-add-inner.md) ».
+>Pour insérer un nœud cible entre les niveaux existants d’une arborescence de décision, consultez « [&#x200B; Insérer un nœud cible entre les nœuds d’une expérience &#x200B;](experience-target-node-add-inner.md) ».
 
 <!-- 1. [ways to get to the decision tree] -->
 

@@ -44,7 +44,7 @@ Les chargements vers [!DNL Google Ads] et [!DNL Microsoft Advertising] ont lieu 
 
 1. Vérifiez que chaque objectif — nommé `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` — apparaît dans les deux jours sur le réseau publicitaire.
 
-   Dans l’éditeur de [!DNL Google Ads], recherchez vos [ actions de conversion ](https://support.google.com/google-ads/answer/11461796). Dans l’éditeur de [!DNL Microsoft Advertising], recherchez vos [ objectifs de conversion ](https://help.ads.microsoft.com/#apex/ads/en/56709).
+   Dans l’éditeur de [!DNL Google Ads], recherchez vos [&#x200B; actions de conversion &#x200B;](https://support.google.com/google-ads/answer/11461796). Dans l’éditeur de [!DNL Microsoft Advertising], recherchez vos [&#x200B; objectifs de conversion &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/56709).
 
    Si nécessaire, mettez à jour la période pour inclure la date de chargement.
 

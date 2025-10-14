@@ -54,4 +54,4 @@ Pour créer plusieurs publicités tierces à la fois, voir [Création de plusieu
 >* [Créer plusieurs publicités tierces](ad-create-multiple.md)
 >* [Modifier une publicité](ad-edit.md)
 >* [Spécifications de la publicité](ad-specs.md)
->* [ Questions fréquentes à propos de la vidéo universelle ](/help/dsp/campaign-management/faq-universal-video.md)
+>* [&#x200B; Questions fréquentes à propos de la vidéo universelle &#x200B;](/help/dsp/campaign-management/faq-universal-video.md)

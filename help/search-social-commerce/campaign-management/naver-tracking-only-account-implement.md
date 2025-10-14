@@ -38,7 +38,7 @@ Vous pouvez effectuer le suivi des mesures de performances pour toutes vos campa
 
          Vous pouvez inclure des données sur les mots-clés, y compris les campagnes parentes et les groupes publicitaires.
 
-      1. Modifiez le fichier de feuille d’envoi groupé, si nécessaire, afin qu’il suive le format de feuille d’envoi groupé Search, Social et Commerce [format requis pour les comptes  [!DNL Naver] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md).
+      1. Modifiez le fichier de feuille d’envoi groupé, si nécessaire, afin qu’il suive le format de feuille d’envoi groupé Search, Social et Commerce [format requis pour les comptes  [!DNL Naver] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md).
 
       1. Dans Search, Social et Commerce, [téléchargez le fichier de feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md).
 

@@ -62,4 +62,4 @@ Selon la règle d’attribution que vous spécifiez pour le rapport, les donnée
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports](report-about.md)
->* [ Tâches de configuration initiales pour les rapports ](initial-setup.md)
+>* [&#x200B; Tâches de configuration initiales pour les rapports &#x200B;](initial-setup.md)

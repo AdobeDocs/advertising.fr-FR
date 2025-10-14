@@ -27,7 +27,7 @@ Dans Search, Social et Commerce, vous pouvez :
 
 Pour utiliser cette fonctionnalité, procédez comme suit.
 
-1. Suivez toutes les conditions préalables dans l’aide de [!DNL Microsoft Advertising] sur &quot;[ conversions améliorées](https://help.ads.microsoft.com/#apex/ads/en/60178)&quot;.
+1. Suivez toutes les conditions préalables dans l’aide de [!DNL Microsoft Advertising] sur &quot;[&#x200B; conversions améliorées](https://help.ads.microsoft.com/#apex/ads/en/60178)&quot;.
 
 1. [Configurez un objectif de conversion amélioré dans  [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/60178).
 

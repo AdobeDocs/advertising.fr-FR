@@ -51,8 +51,8 @@ Répétez les tâches suivantes pour chaque combinaison de compte et de proprié
 
 >[!MORELIKETHIS]
 >
->* [ À propos de la synchronisation  [!DNL Google Analytics] mesures de conversion](data-source-about.md)
->* [ Configuration d’une  [!DNL Google Analytics] vue en tant que source de données](data-source-configure.md)
+>* [&#x200B; À propos de la synchronisation  [!DNL Google Analytics] mesures de conversion](data-source-about.md)
+>* [&#x200B; Configuration d’une  [!DNL Google Analytics] vue en tant que source de données](data-source-configure.md)
 >* [Modifier une [!DNL Google Analytics] source de données](data-source-edit.md)
 >* [Suspendre la synchronisation d’une source de données](data-source-pause.md)
 >* [Réauthentifier une [!DNL Google Analytics] source de données](data-source-reauthenticate.md)

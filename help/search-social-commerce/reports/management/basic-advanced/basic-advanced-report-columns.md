@@ -14,7 +14,7 @@ ht-degree: 0%
 
 | Colonne | Description |
 | ---- | ---- |
-| \[Mesures personnalisées (dérivées) spécifiques à l’annonceur\] | Valeur d’une [ mesure personnalisée que vous avez créée](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) calculée à partir de mesures existantes. |
+| \[Mesures personnalisées (dérivées) spécifiques à l’annonceur\] | Valeur d’une [&#x200B; mesure personnalisée que vous avez créée](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) calculée à partir de mesures existantes. |
 | \[classifications de libellés spécifiques à l’annonceur\] | Toutes les classifications de libellés actuellement appliquées à l’entité, au niveau de l’entité. Plusieurs classifications de libellés sont séparées par des virgules (,). |
 | \[Mesures de conversion spécifiques à l’annonceur\] | Nombre de conversions pour une mesure de conversion ou une mesure d’engagement du site spécifiée. |
 | \[conversions suivies par Google\] | Voir l’entrée pour « GGL\*, GGL_CT\* et GGL_XD_CT\* ». |

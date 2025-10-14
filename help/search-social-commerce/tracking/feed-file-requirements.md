@@ -39,4 +39,4 @@ Envoyez le fichier via le protocole de transfert SFTP, à l’aide du port 22. V
 >[!MORELIKETHIS]
 >
 >* [Exigences de données pour les flux de données à l’aide des ID EF](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
->* [ Exigences de données pour les flux de données à l’aide d’un ID de transaction ](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
+>* [&#x200B; Exigences de données pour les flux de données à l’aide d’un ID de transaction &#x200B;](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)

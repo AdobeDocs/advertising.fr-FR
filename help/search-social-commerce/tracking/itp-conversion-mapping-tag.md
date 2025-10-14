@@ -22,7 +22,7 @@ Pour utiliser la balise de mappage de conversion :
 
 1. [Déployez la balise de mappage de conversion](#deploy-conversion-mapping-tag).
 
-1. Si votre organisation utilise plusieurs identifiants d’organisation du service Adobe Experience Cloud Identity (anciennement appelés identifiants d’organisation IMS), [ mettez à jour vos balises de conversion](#update-conversion-tags) pour inclure l’identifiant d’organisation.
+1. Si votre organisation utilise plusieurs identifiants d’organisation du service Adobe Experience Cloud Identity (anciennement appelés identifiants d’organisation IMS), [&#x200B; mettez à jour vos balises de conversion](#update-conversion-tags) pour inclure l’identifiant d’organisation.
 
 1. [Validez le déploiement de balise](#validate-conversion-mapping).
 

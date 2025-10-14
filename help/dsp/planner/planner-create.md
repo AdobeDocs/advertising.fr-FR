@@ -31,5 +31,5 @@ ht-degree: 0%
 >* [Modifier un plan de portée TV connecté](planner-edit.md)
 >* [Exporter un plan de portée TV connecté](planner-export.md)
 >* [Régénération des prévisions pour un plan de portée télévisée connecté](planner-forecast.md)
->* [ Archivage d’un plan de portée TV connecté](planner-archive.md)
+>* [&#x200B; Archivage d’un plan de portée TV connecté](planner-archive.md)
 >* [Paramètres des plans de portée télévisée connectés](planner-settings.md)

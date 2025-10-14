@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >Chaque groupe d’annonces peut inclure jusqu’à trois annonces de recherche réactive activées.
 
-Voir l’ [!DNL Google Ads] aide pour [ limites de publicité par compte](https://support.google.com/google-ads/answer/6372658?hl=en).
+Voir l’ [!DNL Google Ads] aide pour [&#x200B; limites de publicité par compte](https://support.google.com/google-ads/answer/6372658?hl=en).
 
 ## [!UICONTROL Responsive Search Ad Details]
 
@@ -53,4 +53,4 @@ Voir l’ [!DNL Google Ads] aide pour [ limites de publicité par compte](https:
 >* [A propos des publicités](ad-about.md)
 >* [Gérer les publicités](ad-manage.md)
 >* [[!DNL Google Ads] Paramètres de publicité appel uniquement](ad-settings-google-call.md)
->* [[!DNL Google Ads]  Paramètres d’annonce de recherche dynamique étendue ](ad-settings-google-dsa.md)
+>* [[!DNL Google Ads]  Paramètres d’annonce de recherche dynamique étendue &#x200B;](ad-settings-google-dsa.md)

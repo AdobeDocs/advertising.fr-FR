@@ -47,7 +47,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 ### Configuration du suffixe d’URL de page d’entrée au niveau des annonceurs
 
-1. Voir les [ instructions pour ouvrir les propriétés de l’annonceur ](https://support.google.com/campaignmanager/answer/2829344).
+1. Voir les [&#x200B; instructions pour ouvrir les propriétés de l’annonceur &#x200B;](https://support.google.com/campaignmanager/answer/2829344).
 1. Dans les paramètres [!UICONTROL Landing page URL suffix], incluez `%pamo!;` dans le champ [!UICONTROL URL suffix].
 
 ### Configuration du suffixe d’URL de page d’entrée de niveau Campaign

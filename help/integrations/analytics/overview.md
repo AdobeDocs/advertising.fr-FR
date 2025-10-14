@@ -80,7 +80,7 @@ Pour les campagnes [!DNL Google Ads] et [!DNL Google Microsoft Advertising] dans
 
 Votre équipe Adobe Advertising vous aidera à identifier et à mapper les événements applicables aux performances de médias payants dans Adobe Advertising, où ils sont répertoriés dans [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Admin] > [!UICONTROL Conversions].
 
-Consultez « [ Mesures Analytics dans Adobe Advertising ](analytics-data-in-advertising.md) » pour obtenir une liste des mesures disponibles.
+Consultez « [&#x200B; Mesures Analytics dans Adobe Advertising &#x200B;](analytics-data-in-advertising.md) » pour obtenir une liste des mesures disponibles.
 
 ### Segments Analytics pour le reciblage de site
 
@@ -136,7 +136,7 @@ Pour découvrir comment effectuer le suivi de vos données Adobe Advertising par
 
 ### Utilisation de l’Adobe Advertising ID pour l’analyse de l’entrée sur le site
 
-Pour découvrir comment créer un rapport d’entrée sur le site Adobe Advertising afin de surveiller les influences géographiques, le navigateur et le jour de la semaine, regardez la vidéo « [ Créer des rapports d’entrée sur le site Adobe Advertising ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=fr) ».
+Pour découvrir comment créer un rapport d’entrée sur le site Adobe Advertising afin de surveiller les influences géographiques, le navigateur et le jour de la semaine, regardez la vidéo « [&#x200B; Créer des rapports d’entrée sur le site Adobe Advertising &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=fr) ».
 
 ## Lancement d’une implémentation [!DNL Analytics for Advertising]
 

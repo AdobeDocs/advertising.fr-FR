@@ -14,7 +14,7 @@ ht-degree: 0%
 
 L’affectation d’une campagne à un portfolio optimisé permet à Search, Social et Commerce d’optimiser les enchères, les budgets de campagne et les cibles de stratégie d’enchères pour les mots-clés et les annonces de la campagne. Vous pouvez affecter des campagnes à un portfolio à partir de la vue [!UICONTROL Campaigns], lorsque vous créez le portfolio ou en modifiant les paramètres d’un portfolio.
 
-L’optimisation ne s’applique pas à tous les types de campagne et réseaux publicitaires. Consultez la liste des [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) que vous pouvez inclure dans un portfolio. Vérifiez également la prise en charge de l’optimisation [ pour chaque stratégie d’enchères de campagne](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy).
+L’optimisation ne s’applique pas à tous les types de campagne et réseaux publicitaires. Consultez la liste des [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) que vous pouvez inclure dans un portfolio. Vérifiez également la prise en charge de l’optimisation [&#x200B; pour chaque stratégie d’enchères de campagne](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy).
 
 >[!NOTE]
 >

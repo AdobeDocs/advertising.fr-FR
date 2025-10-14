@@ -22,7 +22,7 @@ Les notifications marquées comme *read* sont dans un texte de couleur plus clai
 
 1. [Ouvrez le panneau Notifications ou le Centre de notifications](notification-view.md).
 
-1. Placez le curseur sur le nom de l’alerte et cliquez sur ![Marquer comme lu ou non ](/help/search-social-commerce/assets/notifications-read-unread.png "Marquer comme lu ou non lu").
+1. Placez le curseur sur le nom de l’alerte et cliquez sur ![Marquer comme lu ou non &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "Marquer comme lu ou non lu").
 
 >[!MORELIKETHIS]
 >

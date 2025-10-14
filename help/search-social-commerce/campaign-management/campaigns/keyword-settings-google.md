@@ -40,9 +40,9 @@ Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés. Séparez plusieurs mot
 
 ## Espaces réservés
 
-**[!UICONTROL Param1]:** Chaîne à utiliser comme valeur de substitution si l’URL de base ou le modèle de suivi contient [ la chaîne de substitution dynamique `{param1}`](https://support.google.com/google-ads/answer/6305348).
+**[!UICONTROL Param1]:** Chaîne à utiliser comme valeur de substitution si l’URL de base ou le modèle de suivi contient [&#x200B; la chaîne de substitution dynamique `{param1}`](https://support.google.com/google-ads/answer/6305348).
 
-**[!UICONTROL Param2]:** Chaîne à utiliser comme valeur de substitution si l’URL de base ou le modèle de suivi contient [ la chaîne de substitution dynamique `{param2}`](https://support.google.com/google-ads/answer/6305348).
+**[!UICONTROL Param2]:** Chaîne à utiliser comme valeur de substitution si l’URL de base ou le modèle de suivi contient [&#x200B; la chaîne de substitution dynamique `{param2}`](https://support.google.com/google-ads/answer/6305348).
 
 ## Options d’URL
 

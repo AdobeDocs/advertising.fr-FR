@@ -20,11 +20,11 @@ Si vous utilisez le service de suivi de conversion Adobe Advertising, vous pouve
   >
   >L’équipe Compte d’Adobe vous fournit généralement des balises de suivi de conversion d’Adobe. Il se peut donc que vous n’ayez pas besoin de cette fonctionnalité.
 
-* L’ [[!UICONTROL Tracking URLs] outil](click-tracking-url-generate.md) vous permet de générer manuellement une URL de suivi des clics, qui est un modèle de suivi ou une URL de destination avec suivi de recherche, de réseaux sociaux et Commerce pour n’importe quel mot-clé, publicité, publicité de recherche dynamique, emplacement, groupe de produits ou lien de site pour un [ réseau publicitaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
+* L’ [[!UICONTROL Tracking URLs] outil](click-tracking-url-generate.md) vous permet de générer manuellement une URL de suivi des clics, qui est un modèle de suivi ou une URL de destination avec suivi de recherche, de réseaux sociaux et Commerce pour n’importe quel mot-clé, publicité, publicité de recherche dynamique, emplacement, groupe de produits ou lien de site pour un [&#x200B; réseau publicitaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
 
   Pour plus d’informations sur la génération manuelle d’URL de suivi des clics, voir &quot;[Quand et comment générer des URL de suivi des clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)&quot;.
 
-* (Comptes avec URL de destination uniquement) L’outil [[!UICONTROL Decode Tracking URLs] ](click-tracking-url-decode.md) vous permet de supprimer le code Search, Social, &amp; Commerce d’une URL de destination prenant en charge le suivi pour déterminer l’URL de base.
+* (Comptes avec URL de destination uniquement) L’outil [[!UICONTROL Decode Tracking URLs] &#x200B;](click-tracking-url-decode.md) vous permet de supprimer le code Search, Social, &amp; Commerce d’une URL de destination prenant en charge le suivi pour déterminer l’URL de base.
 
 >[!MORELIKETHIS]
 >

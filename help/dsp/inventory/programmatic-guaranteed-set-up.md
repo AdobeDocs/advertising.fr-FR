@@ -46,7 +46,7 @@ La méthode suivante est la méthode préférée pour [!DNL FreeWheel], [!DNL Go
 
 Utilisez cette méthode pour tous les autres SSP.
 
-1. [ Configurez manuellement les détails de l’ID de transaction ](deal-id-create.md).
+1. [&#x200B; Configurez manuellement les détails de l’ID de transaction &#x200B;](deal-id-create.md).
 
 1. Une fois l’opération enregistrée, sélectionnez les publicités (ou pixels de suivi 1x1 pour les publicités gérées par l’éditeur) à utiliser pour l’opération et créez un emplacement par défaut PG, le cas échéant.
 

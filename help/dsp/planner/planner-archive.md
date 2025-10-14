@@ -21,7 +21,7 @@ L&#39;archivage d&#39;un plan le supprime de la vue par défaut [!UICONTROL Plan
 >[!MORELIKETHIS]
 >
 >* [À propos de l’outil de planification DSP](planner-about.md)
->* [ Créer un plan de portée télévisée connectée ](planner-create.md)
+>* [&#x200B; Créer un plan de portée télévisée connectée &#x200B;](planner-create.md)
 >* [Duplication d’un plan de portée TV connecté](planner-duplicate.md)
 >* [Modifier un plan de portée TV connecté](planner-edit.md)
 >* [Exporter un plan de portée TV connecté](planner-export.md)

@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # Modèle de publicité textuelle - Flux et colonnes
 
-**[!UICONTROL Feed & Columns]:** Un [ fichier de flux](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md) ou compte marchand associé au modèle, ainsi que les colonnes (en-têtes) du fichier ou du compte sélectionné :
+**[!UICONTROL Feed & Columns]:** Un [&#x200B; fichier de flux](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md) ou compte marchand associé au modèle, ainsi que les colonnes (en-têtes) du fichier ou du compte sélectionné :
 
 * *[!UICONTROL Feed File]:* téléchargez un fichier ou sélectionnez un fichier dans la liste des fichiers de flux disponibles.
 

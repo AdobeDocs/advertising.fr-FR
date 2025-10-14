@@ -143,6 +143,6 @@ Suivez ce workflow pour chaque instance cliente de Search, Social et Commerce.
 
 ## Guide complet d’administration des utilisateurs et des liens supplémentaires
 
-* Pour plus d’informations sur l’administration des utilisateurs à l’aide de Adobe Admin Console, consultez le « Guide d’administration d’Adobe Enterprise et Teams [ », y compris la ](https://helpx.adobe.com/fr/enterprise/admin-guide.html)présentation d’Admin Console[.](https://helpx.adobe.com/fr/enterprise/using/admin-console.html)
+* Pour plus d’informations sur l’administration des utilisateurs à l’aide de Adobe Admin Console, consultez le « Guide d’administration d’Adobe Enterprise et Teams [&#x200B; », y compris la &#x200B;](https://helpx.adobe.com/fr/enterprise/admin-guide.html)présentation d’Admin Console[.](https://helpx.adobe.com/fr/enterprise/using/admin-console.html)
 
 * Admin Console : [https://adminconsole.adobe.com](https://adminconsole.adobe.com)

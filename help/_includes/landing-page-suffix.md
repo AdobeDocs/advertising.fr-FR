@@ -11,7 +11,7 @@ ht-degree: 0%
 
 Les comptes qui utilisent le suivi de conversion d’Adobe Advertising doivent inclure l’identifiant de clic du réseau publicitaire (`gclid` pour [!DNL Google Ads] ou `msclkid` pour [!DNL Microsoft Advertising]) dans le suffixe.
 
-Les comptes avec une intégration Adobe Analytics doivent utiliser le paramètre s_kwcid . Si le compte dispose d’une implémentation s_kwcid côté serveur, le paramètre est ajouté automatiquement lorsqu’un utilisateur clique sur une publicité. Dans le cas contraire, vous devez l’ajouter manuellement à cet emplacement. Voir les [formats de suffixes requis pour Google Ads](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et les [ formats de suffixes requis pour Microsoft Advertising](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Les comptes avec une intégration Adobe Analytics doivent utiliser le paramètre s_kwcid . Si le compte dispose d’une implémentation s_kwcid côté serveur, le paramètre est ajouté automatiquement lorsqu’un utilisateur clique sur une publicité. Dans le cas contraire, vous devez l’ajouter manuellement à cet emplacement. Voir les [formats de suffixes requis pour Google Ads](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et les [&#x200B; formats de suffixes requis pour Microsoft Advertising](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 **Notes :**
 

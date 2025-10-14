@@ -30,11 +30,11 @@ Vous pouvez ouvrir une liste de tous les emplacements et publicités associés �
 
      La désolidarisation de l’emplacement ne supprime pas l’emplacement.
 
-   * Pour modifier les paramètres d&#39;une publicité, placez le curseur sur la ligne de publicité et cliquez sur **[!UICONTROL More]** > **[!UICONTROL Edit]**. [Modifiez les paramètres de publicité ](/help/dsp/campaign-management/ads/ad-edit.md), puis cliquez sur **[!UICONTROL Save & submit for review]**.
+   * Pour modifier les paramètres d&#39;une publicité, placez le curseur sur la ligne de publicité et cliquez sur **[!UICONTROL More]** > **[!UICONTROL Edit]**. [Modifiez les paramètres de publicité &#x200B;](/help/dsp/campaign-management/ads/ad-edit.md), puis cliquez sur **[!UICONTROL Save & submit for review]**.
 
 >[!MORELIKETHIS]
 >
 >* [À propos de l’inventaire privé](private-inventory-about.md)
->* [ Spécification des emplacements et publicités pour un identifiant de transaction ](deal-id-attach-placements.md)
+>* [&#x200B; Spécification des emplacements et publicités pour un identifiant de transaction &#x200B;](deal-id-attach-placements.md)
 >* [Afficher un rapport détaillé pour une transaction](deal-view-report.md)
 >* [Affichage des rapports de diagnostic d’emplacement](/help/dsp/campaign-management/reports/placement-diagnostics.md)

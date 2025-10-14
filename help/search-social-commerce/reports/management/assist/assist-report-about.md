@@ -31,9 +31,9 @@ Les rapports d’assistance fournissent des informations sur les chemins de conv
 
 >[!MORELIKETHIS]
 >
->* [ [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
->* [ [!UICONTROL Channel Assist Report]](channel-assist-report.md)
->* [ [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
->* [ Paramètres du rapport d’assistance ](assist-report-settings.md)
+>* [&#x200B; [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
+>* [&#x200B; [!UICONTROL Channel Assist Report]](channel-assist-report.md)
+>* [&#x200B; [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
+>* [&#x200B; Paramètres du rapport d’assistance &#x200B;](assist-report-settings.md)
 >* [Générer un rapport d’assistance](assist-report-generate.md)
 >* [À propos des rapports](/help/search-social-commerce/reports/report-about.md)

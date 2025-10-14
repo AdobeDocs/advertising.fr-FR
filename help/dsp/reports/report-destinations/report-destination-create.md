@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. Cliquez sur **[!UICONTROL Add Destination]**.
 
-1. Spécifiez les [ paramètres de destination du rapport ](/help/dsp/reports/report-destinations/report-destination-settings.md), qui varient en fonction du type de destination.
+1. Spécifiez les [&#x200B; paramètres de destination du rapport &#x200B;](/help/dsp/reports/report-destinations/report-destination-settings.md), qui varient en fonction du type de destination.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 

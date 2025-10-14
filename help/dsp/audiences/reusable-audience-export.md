@@ -26,7 +26,7 @@ Vous pouvez télécharger un fichier de feuille de calcul [!DNL Microsoft Excel]
 >* [Création d’une audience réutilisable](reusable-audience-create.md)
 >* [Dupliquer une audience réutilisable](reusable-audience-duplicate.md)
 >* [Modifier une audience réutilisable](reusable-audience-edit.md)
->* [ Afficher les détails d’une audience réutilisable](reusable-audience-view-details.md)
+>* [&#x200B; Afficher les détails d’une audience réutilisable](reusable-audience-view-details.md)
 >* [Partager une audience réutilisable](reusable-audience-share.md)
 >* [Copiez la clé de segment d’une audience réutilisable dans le Presse-papiers](reusable-audience-clipboard.md)
 >* [Suppression d’une audience réutilisable](reusable-audience-delete.md)

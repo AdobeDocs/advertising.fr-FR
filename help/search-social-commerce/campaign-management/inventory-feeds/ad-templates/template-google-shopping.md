@@ -58,7 +58,7 @@ Utilisez les modèles d’annonces d’achat pour configurer des annonces d’ac
 
 **[!UICONTROL Campaign Tracking Template]:** (Facultatif pour les modèles de fichiers de flux client) Le modèle de suivi au niveau de la campagne, qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi et incorpore l’URL finale dans un paramètre. Cette valeur remplace le paramètre au niveau du compte, mais les modèles de suivi à des niveaux plus granulaires (avec le mot-clé comme plus granulaire) remplacent cette valeur.
 
-Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload]&quot;, utilisez le [ format de modèle de suivi pour les campagnes commerciales Google Ads](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Si l’intégralité du compte est dédiée aux publicités commerciales, vous pouvez définir un modèle de suivi au niveau du compte.
+Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload]&quot;, utilisez le [&#x200B; format de modèle de suivi pour les campagnes commerciales Google Ads](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Si l’intégralité du compte est dédiée aux publicités commerciales, vous pouvez définir un modèle de suivi au niveau du compte.
 
 Pour les redirections et le suivi tiers, saisissez une valeur.
 
@@ -166,4 +166,4 @@ Pour les redirections et le suivi tiers, saisissez une valeur.
 >* [Gestion des modificateurs](../modifiers-manage.md)
 >* [Gestion des fichiers de flux de données d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 >* [Propager les données de flux par le biais de modèles](../feed-data-propagate.md)
->* [ Publier les données de campagne des flux d’inventaire vers les réseaux publicitaires ](../propagated-data-post.md)
+>* [&#x200B; Publier les données de campagne des flux d’inventaire vers les réseaux publicitaires &#x200B;](../propagated-data-post.md)

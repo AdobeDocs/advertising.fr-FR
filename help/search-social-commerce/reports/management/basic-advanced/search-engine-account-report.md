@@ -37,4 +37,4 @@ Pour obtenir des descriptions de toutes les colonnes par défaut et personnalis�
 >
 >* [À propos des rapports de base et avancés](basic-advanced-report-about.md)
 >* [Générer un rapport de base ou avancé](basic-advanced-report-generate.md)
->* [ Paramètres de rapport de base et avancés ](basic-advanced-report-settings.md)
+>* [&#x200B; Paramètres de rapport de base et avancés &#x200B;](basic-advanced-report-settings.md)

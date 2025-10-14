@@ -135,7 +135,7 @@ Dans Analysis Workspace, si vous constatez que les données d’activité et d�
 
 * [Intégrer Target à Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=fr) - Explique comment configurer le reporting [!DNL Target] dans Analysis Workspace.
 * [Présentation du test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=fr) - Décrit les activités de test A/B que vous pouvez utiliser avec les annonces Search, Social et Commerce.
-* [Présentation d’Analytics pour Advertising ](/help/integrations/analytics/overview.md) - Introduit Analytics pour Advertising, qui vous permet d’effectuer le suivi des interactions de site de clics publicitaires et de vues publicitaires dans vos instances Analytics.
+* [Présentation d’Analytics pour Advertising &#x200B;](/help/integrations/analytics/overview.md) - Introduit Analytics pour Advertising, qui vous permet d’effectuer le suivi des interactions de site de clics publicitaires et de vues publicitaires dans vos instances Analytics.
 
 >[!MORELIKETHIS]
 >

@@ -30,7 +30,7 @@ La ligne de promotion peut apparaître à différents emplacements par rapport �
 >
 >* [A propos des publicités](ad-about.md)
 >* [Gérer les publicités](ad-manage.md)
->* [[!DNL Microsoft Advertising]  Paramètres d’annonce de recherche dynamique étendue ](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising]  Paramètres d’annonce de recherche dynamique étendue &#x200B;](ad-settings-microsoft-dsa.md)
 >* [[!DNL Microsoft Advertising]  Paramètres de publicité multimédia](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft Advertising] Paramètres de publicité réactive (audience)](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft Advertising]  Paramètres de publicité de recherche réactive ](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising]  Paramètres de publicité de recherche réactive &#x200B;](ad-settings-microsoft-rsa.md)

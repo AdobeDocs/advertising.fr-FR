@@ -106,6 +106,6 @@ Pour plus d’informations sur les paramètres du portfolio, consultez le Guide 
 
 >[!MORELIKETHIS]
 >
->* [ (nouvelle interface utilisateur) À propos des portfolios](portfolio-about.md)
->* [ (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
->* [ (nouvelle interface utilisateur) Télécharger des données dans la vue [!UICONTROL Portfolios]](portfolio-view-report.md)
+>* [&#x200B; (nouvelle interface utilisateur) À propos des portfolios](portfolio-about.md)
+>* [&#x200B; (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
+>* [&#x200B; (nouvelle interface utilisateur) Télécharger des données dans la vue [!UICONTROL Portfolios]](portfolio-view-report.md)

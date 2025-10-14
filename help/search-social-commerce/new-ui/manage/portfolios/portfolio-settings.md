@@ -19,5 +19,5 @@ Pour plus d’informations sur les paramètres du portfolio, consultez le Guide 
 >[!MORELIKETHIS]
 >
 >* [Créer un portfolio](portfolio-create.md)
->* [ (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
+>* [&#x200B; (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
 >* [À propos des portefeuilles](portfolio-about.md)

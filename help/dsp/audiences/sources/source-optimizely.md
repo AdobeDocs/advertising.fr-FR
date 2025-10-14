@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Utilisez l’intégration DSP à la plateforme de données client [!DNL Optimizely] pour convertir les adresses électroniques hachées propriétaires de votre entreprise en identifiants universels pour la publicité ciblée.
 
-1. (Pour convertir les adresses électroniques en [!DNL RampIDs]<!-- or [!DNL ID5] IDs --> ; annonceurs avec [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [ Configurez le suivi pour activer  [!DNL Analytics] la mesure](#analytics-tracking).
+1. (Pour convertir les adresses électroniques en [!DNL RampIDs]<!-- or [!DNL ID5] IDs --> ; annonceurs avec [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [&#x200B; Configurez le suivi pour activer  [!DNL Analytics] la mesure](#analytics-tracking).
 
 1. [Créez une source d’audience dans DSP](#source-create).
 

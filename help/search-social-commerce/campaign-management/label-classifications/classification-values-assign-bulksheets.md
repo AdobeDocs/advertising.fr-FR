@@ -64,5 +64,5 @@ Cet exemple comprend des colonnes pour les classifications d’étiquettes &quot
 >* [Créer une classification d’étiquettes](classification-create.md)
 >* [Attribuer des valeurs de classification aux composants de compte à partir des vues de gestion de campagne](classification-values-assign-campaign-management.md)
 >* [Supprimer les valeurs de classification d’étiquette des composants de compte](classification-values-remove.md)
->* [ Supprimer des valeurs de classification d’étiquettes](classification-values-delete.md)
+>* [&#x200B; Supprimer des valeurs de classification d’étiquettes](classification-values-delete.md)
 >* [Supprimer des classifications d’étiquettes](classification-delete.md)

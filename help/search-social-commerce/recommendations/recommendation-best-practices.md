@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ À propos de la prise en charge des recommandations et des insights de l’éditeur ](recommendation-support.md)
->* [ Afficher les recommandations de l’éditeur et les informations sur les performances](recommendation-view.md)
+>* [&#x200B; À propos de la prise en charge des recommandations et des insights de l’éditeur &#x200B;](recommendation-support.md)
+>* [&#x200B; Afficher les recommandations de l’éditeur et les informations sur les performances](recommendation-view.md)
 >* [Appliquer ou ignorer une recommandation d’éditeur](recommendation-apply-dismiss.md)
 >* [Afficher le journal des recommandations de l’éditeur pour un compte](recommendation-view-log.md)

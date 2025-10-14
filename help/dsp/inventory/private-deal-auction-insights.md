@@ -20,7 +20,7 @@ Auction Insights est un outil de dépannage qui vous permet d’analyser la comp
 
 >[!NOTE]
 >
->Les informations sur les enchères sont également disponibles via l’outil d’emplacement [!UICONTROL Inspector]. Pour les ouvrir, [ ouvrez l’emplacement [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) sur [!UICONTROL Inventory tab], puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** dans la ligne d’opération.
+>Les informations sur les enchères sont également disponibles via l’outil d’emplacement [!UICONTROL Inspector]. Pour les ouvrir, [&#x200B; ouvrez l’emplacement [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) sur [!UICONTROL Inventory tab], puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** dans la ligne d’opération.
 
 ## Attributs d’enchère {#auction-attributes}
 
@@ -40,7 +40,7 @@ Des graphiques de surface sont disponibles pour les attributs d’enchères suiv
 
 * **Type MIME :** type MIME publicitaire demandé dans l’enchère (par exemple, mp4 ou mov).
 
-![ insights d&#39;enchères](/help/dsp/assets/auction-insights.png)
+![&#x200B; insights d&#39;enchères](/help/dsp/assets/auction-insights.png)
 
 >[!NOTE]
 >
@@ -49,6 +49,6 @@ Des graphiques de surface sont disponibles pour les attributs d’enchères suiv
 >[!MORELIKETHIS]
 >
 >* [À propos de l’inventaire privé](private-inventory-about.md)
->* [ Spécification des emplacements et publicités pour un identifiant de transaction ](deal-id-attach-placements.md)
+>* [&#x200B; Spécification des emplacements et publicités pour un identifiant de transaction &#x200B;](deal-id-attach-placements.md)
 >* [Afficher un rapport détaillé pour une transaction](deal-view-report.md)
 >* [Types de rapports de performances dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)

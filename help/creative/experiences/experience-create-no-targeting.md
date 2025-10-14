@@ -22,7 +22,7 @@ Créez une expérience publicitaire sans ciblage. Chaque expérience peut utilis
 
 1. Cliquez sur **[!UICONTROL Create New Experience]**.
 
-1. Saisissez les [ paramètres d’expérience ](experience-settings-no-targeting.md).
+1. Saisissez les [&#x200B; paramètres d’expérience &#x200B;](experience-settings-no-targeting.md).
 
 1. Cliquez sur **[!UICONTROL Create]**.
 

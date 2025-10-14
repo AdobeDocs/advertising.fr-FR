@@ -18,7 +18,7 @@ ht-degree: 0%
    >
    >Le bouton Calendrier ne peut être activé que lorsque l’option de saisie de date est sélectionnée.
 
-   ![Calendrier ](/help/search-social-commerce/assets/calendar-full.png "Calendrier ouvert")
+   ![Calendrier &#x200B;](/help/search-social-commerce/assets/calendar-full.png "Calendrier ouvert")
 
 1. Sélectionnez la date à l’aide de l’une des options suivantes :
 

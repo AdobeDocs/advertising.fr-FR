@@ -20,11 +20,11 @@ Vous pouvez contrôler les produits affichés avec vos publicités commerciales 
 
 ## Étapes de configuration des campagnes d’achat [!DNL Google Ads]
 
-Vous pouvez configurer des campagnes d’achat à l’aide des [ modèles de flux d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) pour [!DNL Google Shopping], à l’aide des [ feuilles d’envoi groupées](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) ou individuellement. Les instructions suivantes comprennent des liens vers la création d’entités individuelles.
+Vous pouvez configurer des campagnes d’achat à l’aide des [&#x200B; modèles de flux d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) pour [!DNL Google Shopping], à l’aide des [&#x200B; feuilles d’envoi groupées](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) ou individuellement. Les instructions suivantes comprennent des liens vers la création d’entités individuelles.
 
 1. Configurez votre compte [!DNL Google Merchant Center] et renseignez-le avec les données de produit.
 
-1. [ Autoriser la recherche, Social et Commerce à télécharger les données du  [!DNL Google Merchant Center] compte](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. [&#x200B; Autoriser la recherche, Social et Commerce à télécharger les données du  [!DNL Google Merchant Center] compte](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 1. [Créez une campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) sur le réseau d’achat.
 
@@ -43,7 +43,7 @@ Vous pouvez configurer des campagnes d’achat à l’aide des [ modèles de flu
 
 1. (Facultatif) Pour effectuer le suivi des clics sur la publicité, [générez une URL de suivi à l’aide de l’outil URL de suivi](/help/search-social-commerce/tools/click-tracking-url-generate.md), puis ajoutez-la aux paramètres du compte, de la campagne ou du groupe de produits.
 
-1. Surveillez les performances en [générant les [!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md) et [ [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md).
+1. Surveillez les performances en [générant les [!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md) et [&#x200B; [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md).
 
 1. Selon les besoins :
 

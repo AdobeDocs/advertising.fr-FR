@@ -22,7 +22,7 @@ Le rapport au niveau de l’opération comprend le nombre d’enchères, le taux
 
 >[!MORELIKETHIS]
 >
->* [ Afficher les informations sur les enchères pour une transaction privée](/help/dsp/inventory/private-deal-auction-insights.md)
+>* [&#x200B; Afficher les informations sur les enchères pour une transaction privée](/help/dsp/inventory/private-deal-auction-insights.md)
 >* [À propos de [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
 >* [À propos de l’inventaire privé](private-inventory-about.md)
 >* [À propos de [!UICONTROL Simple Ad Serving]](simple-deal-about.md)

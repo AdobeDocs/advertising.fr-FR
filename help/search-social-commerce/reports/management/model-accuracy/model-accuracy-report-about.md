@@ -24,8 +24,8 @@ Des inexactitudes peuvent indiquer des problèmes de performances et, par consé
 
 >[!MORELIKETHIS]
 >
->* [ [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
->* [ [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+>* [&#x200B; [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+>* [&#x200B; [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 >* [Générer un rapport de précision de modèle](model-accuracy-report-generate.md)
->* [ Paramètres de rapport de précision du modèle ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [&#x200B; Paramètres de rapport de précision du modèle &#x200B;](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
 >* [À propos des rapports](/help/search-social-commerce/reports/report-about.md)

@@ -29,6 +29,6 @@ ht-degree: 0%
 >* [Modifier un modèle d’alerte personnalisé](alert-template-edit.md)
 >* [Suspendre un modèle d’alerte personnalisé](alert-template-pause.md)
 >* [Activer un modèle d’alerte personnalisé](alert-template-activate.md)
->* [ Supprimer un modèle d’alerte personnalisé](alert-template-delete.md)
->* [ Afficher des alertes personnalisées](alert-view.md)
+>* [&#x200B; Supprimer un modèle d’alerte personnalisé](alert-template-delete.md)
+>* [&#x200B; Afficher des alertes personnalisées](alert-view.md)
 >* [Exporter des données pour des alertes personnalisées](alert-export-data.md)

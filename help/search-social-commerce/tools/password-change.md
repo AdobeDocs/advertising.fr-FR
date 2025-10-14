@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Cette fonctionnalité s’applique uniquement à vos identifiants de connexion Search, Social et Commerce hérités. La plupart des utilisateurs utilisent désormais un ID [!DNL Adobe] pour l’authentification. Pour modifier le mot de passe de votre ID [!DNL Adobe], voir « [ Réinitialiser ou modifier votre mot de passe Adobe ](https://helpx.adobe.com/fr/manage-account/using/change-or-reset-password.html) ».
+>Cette fonctionnalité s’applique uniquement à vos identifiants de connexion Search, Social et Commerce hérités. La plupart des utilisateurs utilisent désormais un ID [!DNL Adobe] pour l’authentification. Pour modifier le mot de passe de votre ID [!DNL Adobe], voir « [&#x200B; Réinitialiser ou modifier votre mot de passe Adobe &#x200B;](https://helpx.adobe.com/fr/manage-account/using/change-or-reset-password.html) ».
 
 La modification de votre mot de passe vous déconnecte de la session en cours. Pour continuer à travailler, vous devez vous connecter avec le nouveau mot de passe.
 

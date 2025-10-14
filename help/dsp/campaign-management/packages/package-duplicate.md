@@ -22,7 +22,7 @@ Dupliquez un package pour créer un package avec des paramètres similaires. Vou
 
 * Modifier les dates de vol du nouveau forfait
 
-Voir « [ Non dupliqué ](#package-not-duplicated) » pour obtenir une liste des paramètres d’emplacement qui ne sont pas dupliqués.
+Voir « [&#x200B; Non dupliqué &#x200B;](#package-not-duplicated) » pour obtenir une liste des paramètres d’emplacement qui ne sont pas dupliqués.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -90,7 +90,7 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 
    * Créez de nouveaux emplacements pour les offres [!UICONTROL Simple Ad Serving], si nécessaire.
 
-* Pour les packages qui utilisent des objectifs d’optimisation personnalisés, utilisez le paramètre [[!UICONTROL Linked Package for Optimization Learnings Carryover] ](/help/dsp/campaign-management/packages/package-settings.md) pour chaque package afin d’utiliser les données historiques de la campagne précédente comme entrée pour optimiser le package.
+* Pour les packages qui utilisent des objectifs d’optimisation personnalisés, utilisez le paramètre [[!UICONTROL Linked Package for Optimization Learnings Carryover] &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) pour chaque package afin d’utiliser les données historiques de la campagne précédente comme entrée pour optimiser le package.
 
 >[!MORELIKETHIS]
 >

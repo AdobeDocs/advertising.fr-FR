@@ -26,7 +26,7 @@ Dans la liste des mesures de conversion disponibles, chaque utilisateur ayant ac
 
    * Pour rechercher un nom de mesure ou un nom d’affichage spécifique, cliquez sur ![Rechercher](/help/search-social-commerce/assets/search.png "Rechercher"), saisissez le mot ou la chaîne dans le champ de saisie, puis appuyez sur la touche **[!DNL Enter]**.
 
-     Vous pouvez rechercher des chaînes qui apparaissent n’importe où dans l’expression (comme la première lettre ou les trois dernières lettres) et les termes de recherche ne sont pas [ sensibles à la casse](/help/search-social-commerce/glossary.md#c-d).
+     Vous pouvez rechercher des chaînes qui apparaissent n’importe où dans l’expression (comme la première lettre ou les trois dernières lettres) et les termes de recherche ne sont pas [&#x200B; sensibles à la casse](/help/search-social-commerce/glossary.md#c-d).
 
    * Pour rechercher des mesures de conversion en fonction de leur disponibilité dans les vues de gestion et les rapports, cliquez sur ![Filtrer](/help/search-social-commerce/assets/filter.png "Filtrer"), puis sélectionnez le **[!UICONTROL Show in UI and Reports]** de filtrage. Sélectionnez ensuite **[!UICONTROL Show]** (pour afficher les mesures de conversion disponibles à inclure dans les rapports et les vues de gestion) ou **[!UICONTROL Hide]** (pour afficher les mesures de conversion non disponibles dans les rapports et les vues de gestion).
 

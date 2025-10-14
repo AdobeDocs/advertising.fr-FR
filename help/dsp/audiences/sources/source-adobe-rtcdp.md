@@ -51,6 +51,6 @@ Pour résoudre les problèmes liés à la procédure de conversion, contactez vo
 >* [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md)
 >* [Gérer les sources d’audience pour activer les audiences d’ID universels](source-manage.md)
 >* [Adobe Advertising DSP la connexion](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=fr)
->* [ Présentation du catalogue des destinations de Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=fr)
+>* [&#x200B; Présentation du catalogue des destinations de Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=fr)
 >* [Prise en charge de l’activation des ID universels](/help/dsp/audiences/universal-ids.md)
 >* [À propos de la gestion de l’audience](/help/dsp/audiences/audience-about.md)

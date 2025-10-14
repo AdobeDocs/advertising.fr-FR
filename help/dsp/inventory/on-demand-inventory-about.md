@@ -55,7 +55,7 @@ Les détails de chaque transaction incluent des données dans les colonnes suiva
 >
 >* [Abonner et demander l’accès à [!DNL On Demand] Premium Offres d’inventaire](on-demand-inventory-subscribe.md)
 >* [Demande De Demande De Demande D’Offres D’Inventaire Premium](on-demand-inventory-rerequest.md)
->* [Afficher l’état de vos  [!DNL On Demand]  Demandes d’offres et abonnements ](on-demand-inventory-view-status.md)
+>* [Afficher l’état de vos  [!DNL On Demand]  Demandes d’offres et abonnements &#x200B;](on-demand-inventory-view-status.md)
 >* [[!DNL On Demand]  Éditeurs d’inventaire Premium en Asie-Pacifique](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand]  Éditeurs d’inventaire Premium en Australie et en Nouvelle-Zélande](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] Premium Éditeurs d’inventaire en Europe, au Moyen-Orient et en Afrique](on-demand-inventory-publishers-emea.md)

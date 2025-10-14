@@ -16,7 +16,7 @@ Vous pouvez créer des publicités textuelles avec appel uniquement pour les cam
 
 Search, Social et Commerce effectuent le suivi des publicités avec appel uniquement à l’aide du suffixe de page d’entrée et du modèle de suivi au niveau du compte, mais vous pouvez éventuellement remplacer le suivi au niveau du compte au niveau de la publicité dans [!DNL Google Ads] Manager.
 
-Voir l’ [!DNL Google Ads] aide pour [ limites de publicité par compte](https://support.google.com/google-ads/answer/6372658?hl=en).
+Voir l’ [!DNL Google Ads] aide pour [&#x200B; limites de publicité par compte](https://support.google.com/google-ads/answer/6372658?hl=en).
 
 <!-- ## Call-only Ad -->
 
@@ -58,5 +58,5 @@ Vous pouvez créer et gérer des actions de conversion dans [!DNL Google Ads].
 >
 >* [A propos des publicités](ad-about.md)
 >* [Gérer les publicités](ad-manage.md)
->* [[!DNL Google Ads]  Paramètres d’annonce de recherche dynamique étendue ](ad-settings-google-dsa.md)
->* [[!DNL Google Ads]  Paramètres de publicité de recherche réactive ](ad-settings-google-rsa.md)
+>* [[!DNL Google Ads]  Paramètres d’annonce de recherche dynamique étendue &#x200B;](ad-settings-google-dsa.md)
+>* [[!DNL Google Ads]  Paramètres de publicité de recherche réactive &#x200B;](ad-settings-google-rsa.md)

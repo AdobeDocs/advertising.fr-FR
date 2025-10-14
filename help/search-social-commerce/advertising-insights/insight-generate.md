@@ -62,7 +62,7 @@ ht-degree: 0%
 
 4. Cliquez sur **[!UICONTROL Generate Insight]**.
 
-   Vous recevez une notification lorsque la tâche est terminée ou échoue en fonction de vos [ paramètres de notification configurés](/help/search-social-commerce/notifications/notification-edit.md) par [!UICONTROL Advertising Insights].
+   Vous recevez une notification lorsque la tâche est terminée ou échoue en fonction de vos [&#x200B; paramètres de notification configurés](/help/search-social-commerce/notifications/notification-edit.md) par [!UICONTROL Advertising Insights].
 
 >[!MORELIKETHIS]
 >

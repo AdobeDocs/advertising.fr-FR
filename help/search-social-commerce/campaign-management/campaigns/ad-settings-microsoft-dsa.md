@@ -41,4 +41,4 @@ Les eDSA (Dynamic Search Ads) étendues sont disponibles uniquement dans les gro
 >* [[!DNL Microsoft Advertising]  Paramètres de publicité multimédia](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft Advertising] paramètres de publicité de produit](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft Advertising] Paramètres de publicité réactive (audience)](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft Advertising]  Paramètres de publicité de recherche réactive ](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising]  Paramètres de publicité de recherche réactive &#x200B;](ad-settings-microsoft-rsa.md)

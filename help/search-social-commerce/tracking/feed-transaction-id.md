@@ -28,7 +28,7 @@ Lorsqu’un annonceur effectue des transactions en ligne et hors ligne, il peut 
 
 1. Pour la partie hors ligne de chaque transaction, l’annonceur génère le même ID de transaction qui a été utilisé dans la partie en ligne de la transaction à inclure dans le fichier de flux.
 
-1. L’annonceur charge un fichier avec les [ données de conversion requises](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md) vers l’emplacement de serveur désigné.
+1. L’annonceur charge un fichier avec les [&#x200B; données de conversion requises](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md) vers l’emplacement de serveur désigné.
 
 1. Les services techniques analysent les données de conversion dans les fichiers chargés, puis chargent les données dans Adobe Advertising. Adobe Advertising effectue ensuite le suivi des données par rapport à des mots-clés, publicités et emplacements individuels, puis crée une prévision de recettes pour chacun d’eux.
 
@@ -37,4 +37,4 @@ Lorsqu’un annonceur effectue des transactions en ligne et hors ligne, il peut 
 >[!MORELIKETHIS]
 >
 >* [Exigences liées aux fichiers pour les fichiers de flux de conversion](feed-file-requirements.md)
->* [ Exigences de données pour les flux de données à l’aide d’un ID de transaction ](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
+>* [&#x200B; Exigences de données pour les flux de données à l’aide d’un ID de transaction &#x200B;](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)

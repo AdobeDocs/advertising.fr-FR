@@ -22,7 +22,7 @@ Surveillez de manière régulière les performances de chaque campagne en :
 
 * Affichage du résumé du compte et des détails de performances sur les campagnes incluses.
 
-* L&#39;exécution de [rapports](/help/search-social-commerce/reports/report-about.md), y compris [ le [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) (le cas échéant), [ le [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md), [ le [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md) et des rapports de performances supplémentaires, le cas échéant. Lorsque vous utilisez des portefeuilles, veillez à comparer les performances prévues avec les performances réelles.
+* L&#39;exécution de [rapports](/help/search-social-commerce/reports/report-about.md), y compris [&#x200B; le [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) (le cas échéant), [&#x200B; le [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md), [&#x200B; le [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md) et des rapports de performances supplémentaires, le cas échéant. Lorsque vous utilisez des portefeuilles, veillez à comparer les performances prévues avec les performances réelles.
 
 ## Gérer les performances et ajuster les structures de campagne et de portefeuille
 

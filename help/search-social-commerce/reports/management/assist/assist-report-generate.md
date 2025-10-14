@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
-Si vous n&#39;avez pas spécifié de planning de rapport, le rapport est exécuté immédiatement ; dans le cas contraire, il l&#39;est selon le planning spécifié. Le nom du rapport est ajouté à la vue [[!UICONTROL Latest Reports]](/help/search-social-commerce/reports/report-about.md). Si vous avez enregistré le rapport en tant que modèle, il est également ajouté à la vue [[!UICONTROL Templates]. ](/help/search-social-commerce/reports/report-about.md). Une fois le rapport terminé, vous pouvez ouvrir ou enregistrer le fichier ; les modèles sont disponibles immédiatement.
+Si vous n&#39;avez pas spécifié de planning de rapport, le rapport est exécuté immédiatement ; dans le cas contraire, il l&#39;est selon le planning spécifié. Le nom du rapport est ajouté à la vue [[!UICONTROL Latest Reports]](/help/search-social-commerce/reports/report-about.md). Si vous avez enregistré le rapport en tant que modèle, il est également ajouté à la vue [[!UICONTROL Templates]. &#x200B;](/help/search-social-commerce/reports/report-about.md). Une fois le rapport terminé, vous pouvez ouvrir ou enregistrer le fichier ; les modèles sont disponibles immédiatement.
 
 Si vous avez saisi des adresses e-mail pour la notification, chaque destinataire reçoit une notification lorsque la tâche de rapport est terminée ou échoue, en fonction des [paramètres de notification configurés](/help/search-social-commerce/notifications/notification-edit.md) de l’utilisateur pour les rapports.
 
@@ -46,5 +46,5 @@ Si vous avez saisi des adresses e-mail pour la notification, chaque destinataire
 >* [Le [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
 >* [Le [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [Le [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
->* [À propos des rapports ](/help/search-social-commerce/reports/report-about.md)
+>* [À propos des rapports &#x200B;](/help/search-social-commerce/reports/report-about.md)
 >* [Supprimer des rapports](/help/search-social-commerce/reports/management/report-delete.md)

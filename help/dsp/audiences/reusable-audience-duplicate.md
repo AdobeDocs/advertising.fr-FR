@@ -31,7 +31,7 @@ Vous pouvez créer une audience en dupliquant une audience existante.
 >* [À propos de la gestion de l’audience](audience-about.md)
 >* [Création d’une audience réutilisable](reusable-audience-create.md)
 >* [Modifier une audience réutilisable](reusable-audience-edit.md)
->* [ Afficher les détails d’une audience réutilisable](reusable-audience-view-details.md)
+>* [&#x200B; Afficher les détails d’une audience réutilisable](reusable-audience-view-details.md)
 >* [Partager une audience réutilisable](reusable-audience-share.md)
 >* [Exporter une audience réutilisable](reusable-audience-export.md)
 >* [Copiez la clé de segment d’une audience réutilisable dans le Presse-papiers](reusable-audience-clipboard.md)

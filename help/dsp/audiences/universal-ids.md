@@ -139,6 +139,6 @@ Si vous ne parvenez pas à résoudre le problème, contactez votre équipe de co
 >* [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md)
 >* [Gérer les sources d’audience pour activer les audiences d’ID universels](/help/dsp/audiences/sources/source-manage.md)
 >* [Créer et implémenter un segment personnalisé](/help/dsp/audiences/custom-segment-create.md)
->* [ Importation manuelle de segments authentifiés à partir de  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [&#x200B; Importation manuelle de segments authentifiés à partir de  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [À propos de la gestion de l’audience](/help/dsp/audiences/audience-about.md)
 >* [Paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md)

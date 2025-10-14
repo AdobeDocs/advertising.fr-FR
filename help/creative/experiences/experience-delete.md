@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- No multiselect for experiences as of 1/30 -->
 
-Vous pouvez supprimer les expériences qui ne sont pas [ actives ](experience-about.md#experience-statuses). Les expériences supprimées sont toujours disponibles pour le compte rendu des performances. <!-- Verify -->
+Vous pouvez supprimer les expériences qui ne sont pas [&#x200B; actives &#x200B;](experience-about.md#experience-statuses). Les expériences supprimées sont toujours disponibles pour le compte rendu des performances. <!-- Verify -->
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 

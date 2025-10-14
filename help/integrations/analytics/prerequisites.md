@@ -68,7 +68,7 @@ Comme les données [!DNL Analytics] sont envoyées à Adobe Advertising pour la 
 
 >[!NOTE]
 >
->Pour segmenter les données pour une autre période, vous pouvez [ configurer des segments personnalisés ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=fr) avec différentes intervalles de recherche en amont dans Analysis Workspace.
+>Pour segmenter les données pour une autre période, vous pouvez [&#x200B; configurer des segments personnalisés &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=fr) avec différentes intervalles de recherche en amont dans Analysis Workspace.
 
 ## Environnements publicitaires pris en charge
 

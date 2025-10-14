@@ -24,7 +24,7 @@ L’illustration suivante montre comment l’Adobe Advertising et [!DNL Marketin
 
 Lors de la première visite, l’utilisateur est entré sur le site web par le biais d’une campagne par e-mail, a exécuté dix pages vues, puis est parti. Lors de la seconde visite, l’utilisateur est entré sur le site par le biais d’une annonce publicitaire, a exécuté dix pages vues, puis est parti. Lors de la troisième visite, l’utilisateur est entré sur le site par le biais d’une recherche naturelle, a exécuté cinq pages vues, a exécuté une conversion de 250 €, puis a exécuté la gauche. Notez la différence de suivi entre [!DNL Marketing Channels] et l’Adobe Advertising. Le seul canal dont l’Adobe Advertising effectue le suivi dans ce parcours est [!UICONTROL Display]. Adobe Advertising effectue le suivi de la visite du canal [!UICONTROL Display] et attribue les données d’engagement suivantes (telles que les pages vues) et les conversions à l’influence de cette publicité. [!DNL Marketing Channels], en revanche, donne une vue complète de tous les canaux.
 
-Comme l’AMO ID persiste tout au long du parcours du visiteur, vous pouvez utiliser les données AMO ID pour déterminer l’influence de l’Adobe Advertising sur d’autres canaux marketing. L’AMO ID [ persiste pendant 60 jours par défaut ](/help/integrations/analytics/overview.md), mais vous pouvez configurer la persistance selon vos besoins.
+Comme l’AMO ID persiste tout au long du parcours du visiteur, vous pouvez utiliser les données AMO ID pour déterminer l’influence de l’Adobe Advertising sur d’autres canaux marketing. L’AMO ID [&#x200B; persiste pendant 60 jours par défaut &#x200B;](/help/integrations/analytics/overview.md), mais vous pouvez configurer la persistance selon vos besoins.
 
 ## Comment combiner des données d’Adobe Advertising et de canal marketing pour analyser les performances des médias
 
@@ -48,12 +48,12 @@ Vous pouvez maintenant voir comment les autres applications commencent sont attr
 
 Vous pouvez améliorer davantage l’analyse en utilisant un graphique empilé défini sur &quot;100 % empilé&quot; pour afficher les données de tendances au fil du temps. Cette visualisation facilite le suivi des canaux marketing Dernière touche les plus affectés par vos campagnes marketing display.
 
-![ exemple de l’impact cross-canal de tendance des canaux d’affichage ](/help/integrations/assets/a4adc-mc-display-impact-x-channel-trend.png)
+![&#x200B; exemple de l’impact cross-canal de tendance des canaux d’affichage &#x200B;](/help/integrations/assets/a4adc-mc-display-impact-x-channel-trend.png)
 
 >[!MORELIKETHIS]
 >
 >* [Principes fondamentaux de [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Utilisation d’identifiants d’Adobe Advertising pour créer [!DNL Marketing Channels] des règles de traitement](mc-ids.md)
->* [ Pourquoi les données de canal peuvent varier entre l’Adobe Advertising et  [!DNL Marketing Channels]](mc-data-variances.md)
+>* [&#x200B; Pourquoi les données de canal peuvent varier entre l’Adobe Advertising et  [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Vidéo : Utilisation de [!DNL Marketing Channels] pour la création de rapports d’Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=fr)
 >* [Présentation de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

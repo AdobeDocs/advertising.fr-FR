@@ -197,7 +197,7 @@ Dans Analysis Workspace, si vous constatez que les données d’activité et d�
 * [Présentation du test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=fr) - Décrit les activités de test A/B que vous pouvez utiliser avec les publicités DSP.
 * [Expériences et offres](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=fr) - Explique [!DNL Target] outils permettant de déterminer le contenu sur site auquel sont exposés les utilisateurs et utilisatrices du test DSP.
 * [Signaux, caractéristiques et segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=fr) - Définit certains des outils Audience Manager qui peuvent vous aider dans les tests d’affichage publicitaire de DSP.
-* [Présentation d’Analytics pour Advertising ](/help/integrations/analytics/overview.md) - Introduit Analytics pour Advertising, qui vous permet d’effectuer le suivi des interactions de site de clics publicitaires et de vues publicitaires dans vos instances Analytics.
+* [Présentation d’Analytics pour Advertising &#x200B;](/help/integrations/analytics/overview.md) - Introduit Analytics pour Advertising, qui vous permet d’effectuer le suivi des interactions de site de clics publicitaires et de vues publicitaires dans vos instances Analytics.
 
 >[!MORELIKETHIS]
 >

@@ -9,7 +9,7 @@ ht-degree: 0%
 
 **[!UICONTROL Append Parameters]:** (Facultatif) Tous paramètres de suivi supplémentaires à ajouter aux URL de base.<!-- When account uses setting append_param_to_tt_fus, then we add append parameters to the tracking templates OR the landing page suffixes instead (not sure how we determine which) -->. Les paramètres d’ajout au niveau de l’annonceur sont inclus par défaut au niveau du compte et au niveau de la campagne, mais vous pouvez les remplacer.
 
-Vous pouvez utiliser n’importe quelle chaîne de texte statique, y compris les paramètres de suivi tiers, ou n’importe lequel des [ paramètres de suivi pris en charge](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md), qui insère une valeur de données appropriée dans l’URL de base.
+Vous pouvez utiliser n’importe quelle chaîne de texte statique, y compris les paramètres de suivi tiers, ou n’importe lequel des [&#x200B; paramètres de suivi pris en charge](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md), qui insère une valeur de données appropriée dans l’URL de base.
 
 Séparez plusieurs paramètres par des virgules ou des esperluettes (&amp;). Les crochets imbriqués ne sont pas pris en charge.
 

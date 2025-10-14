@@ -29,9 +29,9 @@ La modification des paramètres du plan génère une nouvelle prévision.
 >[!MORELIKETHIS]
 >
 >* [À propos de l’outil de planification DSP](planner-about.md)
->* [ Créer un plan de portée télévisée connectée ](planner-create.md)
+>* [&#x200B; Créer un plan de portée télévisée connectée &#x200B;](planner-create.md)
 >* [Duplication d’un plan de portée TV connecté](planner-duplicate.md)
 >* [Exporter un plan de portée TV connecté](planner-export.md)
 >* [Régénération des prévisions pour un plan de portée télévisée connecté](planner-forecast.md)
->* [ Archivage d’un plan de portée TV connecté](planner-archive.md)
+>* [&#x200B; Archivage d’un plan de portée TV connecté](planner-archive.md)
 >* [Paramètres des plans de portée télévisée connectés](planner-settings.md)

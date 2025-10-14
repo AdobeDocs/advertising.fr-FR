@@ -142,7 +142,7 @@ DSP s&#39;est associé à [!DNL DoubleVerify] pour proposer sa solution de cibla
 
 Une fois que vous avez créé un segment de sécurité de marque [!DNL DoubleVerify] avec le ciblage nécessaire, vous pouvez l’utiliser dans DSP pour répliquer vos règles de blocage post-enchère avec pré-enchère dans les environnements web.
 
-Vous pouvez spécifier un [!DNL DoubleVerify] identifiant de segment pour chaque annonceur<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, puis éventuellement [ activer ou désactiver [!UICONTROL Authentic Brand Safety] pour chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). DSP facture votre compte pour l’utilisation de l’identifiant de segment.
+Vous pouvez spécifier un [!DNL DoubleVerify] identifiant de segment pour chaque annonceur<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, puis éventuellement [&#x200B; activer ou désactiver [!UICONTROL Authentic Brand Safety] pour chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). DSP facture votre compte pour l’utilisation de l’identifiant de segment.
 
 Pour plus d&#39;informations sur les fonctionnalités, contactez directement [!DNL DoubleVerify] ou contactez votre équipe de compte d&#39;Adobe.
 

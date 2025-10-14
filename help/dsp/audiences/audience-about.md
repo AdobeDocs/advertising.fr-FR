@@ -16,13 +16,13 @@ Dans DSP, vous pouvez créer et gérer des segments d’audience et des ensemble
 
 * Collectez vos propres données d’audience propriétaires en créant et en implémentant DSP segments. Vous pouvez ensuite recibler les utilisateurs du segment avec des publicités ou empêcher les utilisateurs du segment de recevoir des publicités. Vous pouvez créer les types de segments suivants :
 
-   * [ Segments personnalisés ](/help/dsp/audiences/custom-segment-create.md) pour effectuer le suivi a) des utilisateurs exposés aux publicités depuis des ordinateurs de bureau et des appareils mobiles et b) des utilisateurs qui visitent des pages web spécifiques. La balise de suivi peut effectuer le suivi des utilisateurs basés sur des cookies ou des utilisateurs associés aux identifiants universels ID5.
+   * [&#x200B; Segments personnalisés &#x200B;](/help/dsp/audiences/custom-segment-create.md) pour effectuer le suivi a) des utilisateurs exposés aux publicités depuis des ordinateurs de bureau et des appareils mobiles et b) des utilisateurs qui visitent des pages web spécifiques. La balise de suivi peut effectuer le suivi des utilisateurs basés sur des cookies ou des utilisateurs associés aux identifiants universels ID5.
 
    * [Segments d’opposition à la vente des informations personnelles du CCPA](/help/dsp/audiences/ccpa-opt-out-segment-create.md) pour effectuer le suivi des ID des utilisateurs des demandes d’opposition à la vente des informations personnelles des clients sur votre site web, conformément au California Consumer Privacy Act (CCPA). Vous pouvez récupérer les rapports mensuels des identifiants d’utilisateur à partir des demandes d’opposition à la vente.
 
      Pour plus d’informations sur la prise en charge des Adobes Advertising pour les demandes d’opposition à la vente des produits CCPA, voir [Prise en charge des Adobes Advertising pour le California Consumer Privacy Act : prise en charge de l’opposition des consommateurs](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
-* (Fonctionnalité Beta) [Obtenez et utilisez des identifiants universels pour le ciblage sans cookie ](/help/dsp/audiences/universal-ids.md) :
+* (Fonctionnalité Beta) [Obtenez et utilisez des identifiants universels pour le ciblage sans cookie &#x200B;](/help/dsp/audiences/universal-ids.md) :
 
    * Envoyez manuellement vos segments [!DNL LiveRamp] [!DNL RampID] authentifiés directement à DSP.
 
@@ -150,6 +150,6 @@ Les segments traduits peuvent être inclus dans les audiences réutilisables et 
 >* [Créer et implémenter un [!UICONTROL CCPA Opt-Out-of-Sale] segment](ccpa-opt-out-segment-create.md)
 >* [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md)
 >* [Gérer les sources d’audience pour activer les audiences d’ID universels](/help/dsp/audiences/sources/source-manage.md)
->* [ Importation manuelle de segments authentifiés à partir de  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [&#x200B; Importation manuelle de segments authentifiés à partir de  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Fournisseurs de données tiers disponibles](third-party-data-providers.md)
 >* [Paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md)

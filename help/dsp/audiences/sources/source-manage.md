@@ -117,11 +117,11 @@ Pour [!DNL RampID] et [!DNL Unified ID2.0], le fournisseur recherche chaque adre
 
 >[!NOTE]
 >
->Vous ne pouvez cibler qu’un seul type d’ID au sein d’un seul emplacement. Pour tester les performances par type d’identifiant, [ créez un emplacement](/help/dsp/campaign-management/placements/placement-create.md) distinct pour chaque type d’identifiant dans le segment.
+>Vous ne pouvez cibler qu’un seul type d’ID au sein d’un seul emplacement. Pour tester les performances par type d’identifiant, [&#x200B; créez un emplacement](/help/dsp/campaign-management/placements/placement-create.md) distinct pour chaque type d’identifiant dans le segment.
 
 * *[!DNL RampID]:* Pour convertir les PII en [!DNL RampID]. Vous pouvez utiliser [!DNL RampIDs] pour recibler les utilisateurs qui se connectent et pour la mesure [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
-* *[!DNL Unified ID2.0] (Beta) :* Pour convertir les PII en [ ID unifié 2.0](https://unifiedid.com) pour recibler les utilisateurs qui se connectent.
+* *[!DNL Unified ID2.0] (Beta) :* Pour convertir les PII en [&#x200B; ID unifié 2.0](https://unifiedid.com) pour recibler les utilisateurs qui se connectent.
 
 <!-- Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.

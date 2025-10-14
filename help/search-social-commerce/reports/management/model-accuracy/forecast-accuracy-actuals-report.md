@@ -36,6 +36,6 @@ Vous trouverez ci-dessous les colonnes qui sont automatiquement incluses dans ch
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports de précision de modèle](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
->* [ [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+>* [&#x200B; [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
 >* [Générer un rapport de précision de modèle](model-accuracy-report-generate.md)
->* [ Paramètres de rapport de précision du modèle ](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [&#x200B; Paramètres de rapport de précision du modèle &#x200B;](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)

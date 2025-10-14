@@ -130,7 +130,7 @@ Pour plus d’informations sur les raisons pour lesquelles les mesures peuvent v
 
 ## Différences de données dans Adobe Analytics [!DNL Paid Search Detection]
 
-La fonction [legacy [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=fr) de [!DNL Analytics] permet aux entreprises de [ définir des règles pour suivre le trafic de recherche payante et organique ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=fr) pour les moteurs de recherche spécifiés. Les règles [!DNL Paid Search Detection] utilisent à la fois une chaîne de requête et le domaine référent pour identifier le trafic de recherche payante et naturelle. Les rapports [!DNL Paid Search Detection] font partie du groupe plus important de rapports [Méthodes de recherche](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=fr), qui expirent lorsqu’un événement spécifié (tel qu’un passage en caisse) se produit ou que la visite se termine.
+La fonction [legacy [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=fr) de [!DNL Analytics] permet aux entreprises de [&#x200B; définir des règles pour suivre le trafic de recherche payante et organique &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=fr) pour les moteurs de recherche spécifiés. Les règles [!DNL Paid Search Detection] utilisent à la fois une chaîne de requête et le domaine référent pour identifier le trafic de recherche payante et naturelle. Les rapports [!DNL Paid Search Detection] font partie du groupe plus important de rapports [Méthodes de recherche](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=fr), qui expirent lorsqu’un événement spécifié (tel qu’un passage en caisse) se produit ou que la visite se termine.
 
 Voici l’interface pour créer un jeu de règles [!DNL Paid Search Detection] :
 
@@ -263,7 +263,7 @@ Les données de clic peuvent également être enregistrées dans des environneme
 
 ### Utilisation de mesures de trafic Adobe Advertising pour les Dimensions non Adobes Advertising
 
-Adobe Advertising fournit à Analytics des [ mesures de trafic spécifiques à la publicité et les dimensions associées provenant de  [!DNL DSP] et [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Les mesures fournies par l’Adobe Advertising s’appliquent uniquement aux dimensions d’Adobe Advertising spécifiées et les données ne sont pas disponibles pour les autres dimensions dans [!DNL Analytics].
+Adobe Advertising fournit à Analytics des [&#x200B; mesures de trafic spécifiques à la publicité et les dimensions associées provenant de  [!DNL DSP] et [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Les mesures fournies par l’Adobe Advertising s’appliquent uniquement aux dimensions d’Adobe Advertising spécifiées et les données ne sont pas disponibles pour les autres dimensions dans [!DNL Analytics].
 
 Par exemple, si vous affichez les mesures [!UICONTROL Adobe Advertising Clicks] et [!UICONTROL Adobe Advertising Cost] par compte, qui est une dimension d’Adobe Advertising, alors le total [!UICONTROL Adobe Advertising Clicks] et [!UICONTROL Adobe Advertising Cost] est affiché par compte.
 
@@ -285,4 +285,4 @@ Puisque vous ne pouvez pas utiliser [!UICONTROL AMO Clicks] avec des dimensions 
 >* [ID d’Adobe Advertising utilisés par [!DNL Analytics]](/help/integrations/analytics/ids.md)
 >* [Adobe Advertising des mesures dans Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] Données en Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
->* [ Pourquoi les données peuvent varier entre l’Adobe Advertising et  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
+>* [&#x200B; Pourquoi les données peuvent varier entre l’Adobe Advertising et  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)

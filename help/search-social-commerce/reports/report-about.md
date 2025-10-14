@@ -34,7 +34,7 @@ Les catégories de rapports suivantes sont disponibles à partir de la vue [!UIC
 
 Planifiez la génération automatique de rapports personnalisés de l’une des façons suivantes, ou des deux :
 
-* Générez automatiquement des rapports chaque jour, ou un jour spécifique de la semaine ou du mois, à l’aide de [ modèles de rapport ](/help/search-social-commerce/reports/automation/templates/template-about.md).
+* Générez automatiquement des rapports chaque jour, ou un jour spécifique de la semaine ou du mois, à l’aide de [&#x200B; modèles de rapport &#x200B;](/help/search-social-commerce/reports/automation/templates/template-about.md).
 
   Vous pouvez éventuellement paramétrer la diffusion [FTP) de rapports de base et avancés](/help/search-social-commerce/reports/automation/ftp-reports.md) qui utilisent un modèle.
 

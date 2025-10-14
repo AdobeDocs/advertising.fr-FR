@@ -26,7 +26,7 @@ Vous pouvez à tout moment désarchiver une publicité pour restaurer son état 
 
 >[!NOTE]
 >
->Pour afficher les publicités archivées, filtrez la vue [!UICONTROL Ads] : cliquez sur le bouton ![[!UICONTROL Filter] ](/help/dsp/assets/filter.png), cliquez sur **[!UICONTROL Ad status]**, sélectionnez **[!UICONTROL Archived]**, puis cliquez sur **[!UICONTROL Apply].**
+>Pour afficher les publicités archivées, filtrez la vue [!UICONTROL Ads] : cliquez sur le bouton ![[!UICONTROL Filter] &#x200B;](/help/dsp/assets/filter.png), cliquez sur **[!UICONTROL Ad status]**, sélectionnez **[!UICONTROL Archived]**, puis cliquez sur **[!UICONTROL Apply].**
 
 ## Désarchiver une publicité
 

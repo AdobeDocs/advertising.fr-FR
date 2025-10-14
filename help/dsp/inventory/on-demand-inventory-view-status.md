@@ -33,9 +33,9 @@ L’approbation ou le refus de l’éditeur peut être basé sur le type de comp
 
   Pour voir pourquoi une demande a été refusée pour un annonceur, cliquez sur ![partiellement approuvé](/help/dsp/assets/partly-approved.png).
 
-* ![ refusé](/help/dsp/assets/denied.png) pour les demandes d’affaires qui ont été refusées pour tous les annonceurs du compte
+* ![&#x200B; refusé](/help/dsp/assets/denied.png) pour les demandes d’affaires qui ont été refusées pour tous les annonceurs du compte
 
-  Pour voir pourquoi une demande a été refusée pour chaque annonceur, cliquez sur ![ refusé](/help/dsp/assets/denied.png). Si la raison du refus peut être résolue, alors vous pouvez [demander à nouveau l’accord](/help/dsp/inventory/on-demand-inventory-rerequest.md).
+  Pour voir pourquoi une demande a été refusée pour chaque annonceur, cliquez sur ![&#x200B; refusé](/help/dsp/assets/denied.png). Si la raison du refus peut être résolue, alors vous pouvez [demander à nouveau l’accord](/help/dsp/inventory/on-demand-inventory-rerequest.md).
 
 Si vous avez des questions sur le processus d’approbation, contactez votre équipe de compte d’Adobe.
 

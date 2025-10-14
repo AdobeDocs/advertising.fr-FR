@@ -74,5 +74,5 @@ n’incluez pas de données pour les campagnes qui se trouvaient dans les portfo
 >[!MORELIKETHIS]
 >
 >* [Générer un rapport de base ou avancé](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
->* [ Paramètres de rapport de base et avancés ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
->* [ Colonnes de rapports pour les rapports de base et avancés](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
+>* [&#x200B; Paramètres de rapport de base et avancés &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
+>* [&#x200B; Colonnes de rapports pour les rapports de base et avancés](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)

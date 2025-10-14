@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Utilisez l’intégration DSP à la plateforme de données client [!DNL Tealium] pour convertir les adresses électroniques hachées propriétaires de votre entreprise en identifiants universels pour la publicité ciblée. Le processus utilise le connecteur de prise en charge [!DNL Amazon Web Services] (AWS). Procédez comme suit pour partager des données de Tealium avec DSP :
 
-1. (Pour convertir les adresses électroniques en [!DNL RampIDs]<!-- or [!DNL ID5] IDs --> ; annonceurs avec [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [ Configurez le suivi pour activer  [!DNL Analytics] la mesure](#analytics-tracking).
+1. (Pour convertir les adresses électroniques en [!DNL RampIDs]<!-- or [!DNL ID5] IDs --> ; annonceurs avec [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [&#x200B; Configurez le suivi pour activer  [!DNL Analytics] la mesure](#analytics-tracking).
 
 1. [Créez une source d’audience dans DSP](#source-create).
 
@@ -124,7 +124,7 @@ Pour chaque segment que vous souhaitez partager, créez un connecteur distinct p
 
                * Pour l’attribut Cookies , nommez le message personnalisé `cookies`.
 
-            1. Dans l’option de création d’un champ personnalisé, dans le champ [!DNL Source Key] , saisissez le [!UICONTROL External Segment Key] qui a été inclus dans les [ données de mappage de segments](#map-data) de la procédure précédente.
+            1. Dans l’option de création d’un champ personnalisé, dans le champ [!DNL Source Key] , saisissez le [!UICONTROL External Segment Key] qui a été inclus dans les [&#x200B; données de mappage de segments](#map-data) de la procédure précédente.
 
                DSP utilisera cette clé pour renseigner votre segment.
 
@@ -136,7 +136,7 @@ Vous ne pouvez avoir qu’un seul connecteur par segment et un seul segment par 
 
 1. Dans [!DNL Tealium], dupliquez le segment pour lequel vous souhaitez créer un autre segment, puis renommez le nouveau segment.
 
-1. Dans [!DNL Tealium], dupliquez [ le connecteur que vous avez créé](#tealium-connector) lors de la procédure précédente et renommez le nouveau connecteur de &quot;`<original name>-copy`&quot; en un nouveau nom de segment.
+1. Dans [!DNL Tealium], dupliquez [&#x200B; le connecteur que vous avez créé](#tealium-connector) lors de la procédure précédente et renommez le nouveau connecteur de &quot;`<original name>-copy`&quot; en un nouveau nom de segment.
 
 ## Étape 6 : Comparaison du nombre d’identifiants universels avec le nombre d’adresses électroniques hachées {#compare-id-count}
 

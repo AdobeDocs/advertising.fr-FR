@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Fonction Beta*
 
-Vous pouvez générer une simulation personnalisée pour un portfolio [ optimisé ou actif ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md). Vous pouvez également modifier les paramètres d&#39;une simulation existante et la régénérer ou réexécuter une simulation existante avec les paramètres existants.
+Vous pouvez générer une simulation personnalisée pour un portfolio [&#x200B; optimisé ou actif &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md). Vous pouvez également modifier les paramètres d&#39;une simulation existante et la régénérer ou réexécuter une simulation existante avec les paramètres existants.
 
 Les utilisateurs de [!UICONTROL Admin] et de [!UICONTROL Account Manager] peuvent voir les simulations créées par d’autres utilisateurs. Tous les autres utilisateurs et utilisatrices ne peuvent voir que les simulations personnalisées qu’ils ou elles créent.
 

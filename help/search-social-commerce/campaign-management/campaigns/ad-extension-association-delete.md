@@ -20,7 +20,7 @@ Vous pouvez supprimer des associations au niveau de la campagne et du groupe pub
 
 1. Cochez la case en regard de chaque association à supprimer.
 
-   Pour obtenir des conseils sur la sélection de plusieurs lignes, « [ Sélectionner plusieurs lignes ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) ».
+   Pour obtenir des conseils sur la sélection de plusieurs lignes, « [&#x200B; Sélectionner plusieurs lignes &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) ».
 
 1. Dans la barre d’outils, cliquez sur ![Plus](/help/search-social-commerce/assets/more.png "Plus") et sélectionnez **[!UICONTROL Delete]**.
 

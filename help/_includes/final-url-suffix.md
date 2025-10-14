@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Dans les comptes qui utilisent le suivi de conversion d’Adobe Advertising, le suffixe doit inclure l’identifiant de clic du réseau publicitaire (`msclkid` pour [!DNL Microsoft Advertising] ; `gclid` pour [!DNL Google Ads]).
 
-Les comptes avec une intégration Adobe Analytics doivent utiliser le paramètre [AMO ID](/help/integrations/analytics/ids.md) . Si le compte dispose d’une mise en oeuvre AMO ID côté serveur, le paramètre est automatiquement ajouté lorsqu’un utilisateur clique sur une publicité. Dans le cas contraire, vous devez l’ajouter manuellement à cet emplacement. Voir les [ formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et les [ formats de suffixes requis pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Les comptes avec une intégration Adobe Analytics doivent utiliser le paramètre [AMO ID](/help/integrations/analytics/ids.md) . Si le compte dispose d’une mise en oeuvre AMO ID côté serveur, le paramètre est automatiquement ajouté lorsqu’un utilisateur clique sur une publicité. Dans le cas contraire, vous devez l’ajouter manuellement à cet emplacement. Voir les [&#x200B; formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et les [&#x200B; formats de suffixes requis pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >

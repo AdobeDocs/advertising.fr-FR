@@ -56,7 +56,7 @@ Pour que le suivi des clics puisse être effectué sur Search, Social et Commerc
 
 ## Générer et charger les URL de tracking {#generate-upload-tracking-urls}
 
-Voir « [ Quand et comment générer des URL de suivi des clics ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) ».
+Voir « [&#x200B; Quand et comment générer des URL de suivi des clics &#x200B;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) ».
 
 ### Tester le format des URL de suivi des clics {#validate-tracking-urls}
 
@@ -87,4 +87,4 @@ Vérifiez que la page de destination appropriée s’ouvre pour l’URL de suivi
 
 >[!MORELIKETHIS]
 >
->* [Quand et comment générer des URL de suivi des clics ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
+>* [Quand et comment générer des URL de suivi des clics &#x200B;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)

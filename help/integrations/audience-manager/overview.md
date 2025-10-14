@@ -34,7 +34,7 @@ Une fois que vous avez créé les audiences, vous pouvez les utiliser dans les c
 
 ### Utilisation de l’Audience Manager et d’autres segments [!DNL Adobe] pour cibler ou exclure des publicités {#audience-manager-targets}
 
-* (Publicitaires avec abonnement [!DNL Search, Social, & Commerce]) Vous pouvez utiliser toutes les audiences [!DNL Google Ads] [ créées à l’aide de  [!DNL Adobe] segments](#audience-manager-google-audiences) comme cibles ou exclusions au niveau de la campagne ou du groupe publicitaire dans vos campagnes [!DNL Google Ads].
+* (Publicitaires avec abonnement [!DNL Search, Social, & Commerce]) Vous pouvez utiliser toutes les audiences [!DNL Google Ads] [&#x200B; créées à l’aide de  [!DNL Adobe] segments](#audience-manager-google-audiences) comme cibles ou exclusions au niveau de la campagne ou du groupe publicitaire dans vos campagnes [!DNL Google Ads].
 
 * (Publicitaires avec DSP) Vous pouvez utiliser vos segments [!DNL Adobe] existants comme cibles pour vos emplacements publicitaires. Vous pouvez éventuellement inclure les segments dans les audiences réutilisables, que vous pouvez utiliser comme cibles ou exclusions pour plusieurs emplacements.
 

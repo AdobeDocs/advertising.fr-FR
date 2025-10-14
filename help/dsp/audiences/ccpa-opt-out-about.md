@@ -22,7 +22,7 @@ Adobe Advertising génère des rapports mensuels sur les identifiants que les cl
 
 Chaque rapport est disponible sous la forme d’un fichier texte de données séparées par des tabulations compressé au format GZIP. Les identifiants utilisateur capturés dans les segments d’opposition à la vente des informations personnelles (CCPA) sont identifiés par le segment et par l’annonceur.
 
-Vous pouvez [ récupérer les liens vers les rapports mensuels ](ccpa-opt-out-segment-report-retrieve.md) créés au cours des trois mois précédents, soit depuis DSP, soit en utilisant le DSP [!DNL Trafficking API]. Chaque lien est valide pendant sept jours, mais est actualisé chaque fois qu’un client tente d’en récupérer un.
+Vous pouvez [&#x200B; récupérer les liens vers les rapports mensuels &#x200B;](ccpa-opt-out-segment-report-retrieve.md) créés au cours des trois mois précédents, soit depuis DSP, soit en utilisant le DSP [!DNL Trafficking API]. Chaque lien est valide pendant sept jours, mais est actualisé chaque fois qu’un client tente d’en récupérer un.
 
 >[!MORELIKETHIS]
 >

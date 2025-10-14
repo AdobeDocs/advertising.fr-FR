@@ -135,7 +135,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
    * *[!UICONTROL Social Only]:* Obsolète
 
-[ Consultez également la section « Comment les règles d’attribution sont-elles calculées pour Adobe Advertising ](/help/search-social-commerce/reports/attribution-rules.md) ? »
+[&#x200B; Consultez également la section « Comment les règles d’attribution sont-elles calculées pour Adobe Advertising &#x200B;](/help/search-social-commerce/reports/attribution-rules.md) ? »
 
 **[!UICONTROL Paths as Columns]:** types de conversions à signaler lorsque des événements précédents se sont produits sur le même appareil. Vous pouvez inclure jusqu’à trois types. Pour chaque type sélectionné, une colonne distincte est incluse pour chaque mesure de conversion et est ajoutée avec le suffixe spécifié ([!UICONTROL (tl)], [!UICONTROL (ct)] ou [!UICONTROL (vt)]) :
 
@@ -250,6 +250,6 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 >[!MORELIKETHIS]
 >
->* [ Rapports de performances au niveau de l’expérience ](/help/creative/experiences/experience-performance-details.md)
+>* [&#x200B; Rapports de performances au niveau de l’expérience &#x200B;](/help/creative/experiences/experience-performance-details.md)
 >* [À propos des rapports personnalisés DSP](/help/dsp/reports/report-about.md){target="_blank"}
 >* [À propos des [!UICONTROL report destinations]](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"}

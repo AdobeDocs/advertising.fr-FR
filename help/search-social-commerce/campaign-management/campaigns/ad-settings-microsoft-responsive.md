@@ -56,7 +56,7 @@ Pour les publicités d’audience, [!DNL Microsoft Advertising] recadre automati
 >
 >* [A propos des publicités](ad-about.md)
 >* [Gérer les publicités](ad-manage.md)
->* [[!DNL Microsoft Advertising]  Paramètres d’annonce de recherche dynamique étendue ](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising]  Paramètres d’annonce de recherche dynamique étendue &#x200B;](ad-settings-microsoft-dsa.md)
 >* [[!DNL Microsoft Advertising]  Paramètres de publicité multimédia](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft Advertising] paramètres de publicité de produit](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising]  Paramètres de publicité de recherche réactive ](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising]  Paramètres de publicité de recherche réactive &#x200B;](ad-settings-microsoft-rsa.md)

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Annonceurs avec suivi des conversions Adobe Advertising uniquement*
 
-Pour plus d’informations sur le moment où vous devez générer et implémenter manuellement une URL de suivi des clics, reportez-vous à la section « [ Quand et comment générer des URL de suivi des clics ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) ».
+Pour plus d’informations sur le moment où vous devez générer et implémenter manuellement une URL de suivi des clics, reportez-vous à la section « [&#x200B; Quand et comment générer des URL de suivi des clics &#x200B;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) ».
 
 >[!NOTE]
 >
@@ -87,5 +87,5 @@ Pour les comptes avec des URL finales, saisissez la valeur à l’écran dans le
 >[!MORELIKETHIS]
 >
 >* [À propos des outils de création et de décodage des balises de tracking](tracking-tools-about.md)
->* [Quand et comment générer des URL de suivi des clics ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
+>* [Quand et comment générer des URL de suivi des clics &#x200B;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
 >* [Décoder une URL de suivi des clics Search, Social et Commerce](click-tracking-url-decode.md)

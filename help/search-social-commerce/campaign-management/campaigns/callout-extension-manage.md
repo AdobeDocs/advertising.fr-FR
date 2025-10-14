@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Comptes *[!DNL Google Ads]uniquement*
 
-Créez et gérez des extensions de légende partagées au niveau du compte pour tout [compte synchronisé [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) à partir du [!UICONTROL Extensions] > [!UICONTROL Callout library].
+Créez et gérez des extensions de légende partagées au niveau du compte pour tout [compte synchronisé [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) à partir du [!UICONTROL Extensions] > [!UICONTROL Callout library].
 
 ## Créer une légende partagée [!DNL Google Ads]
 

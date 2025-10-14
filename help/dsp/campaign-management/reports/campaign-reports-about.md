@@ -50,9 +50,9 @@ Dans une campagne, vous pouvez filtrer les données en fonction de l’entité d
 
 ### Affichage du graphique
 
-Pour chaque campagne, vous pouvez [ personnaliser les graphiques de tendance de série temporelle ](campaign-data-views-manage.md#data-visualizations-manage) avec trois mesures, disponibles dans chaque vue d’entité. Les mêmes mesures sont conservées dans tous les graphiques de tendance de la campagne.
+Pour chaque campagne, vous pouvez [&#x200B; personnaliser les graphiques de tendance de série temporelle &#x200B;](campaign-data-views-manage.md#data-visualizations-manage) avec trois mesures, disponibles dans chaque vue d’entité. Les mêmes mesures sont conservées dans tous les graphiques de tendance de la campagne.
 
-Pour plus d’informations, reportez-vous à la section [ &quot;Affichage du graphique&quot; sur les mesures entre campagnes ](#chart-view).
+Pour plus d’informations, reportez-vous à la section [&#x200B; &quot;Affichage du graphique&quot; sur les mesures entre campagnes &#x200B;](#chart-view).
 
 ### Vue Tableau
 
@@ -81,7 +81,7 @@ En outre, vous pouvez afficher les données suivantes dans les paramètres d’e
 
 ### Autres types de rapports au niveau des annonces
 
-Pour les autres ventilations de données, consultez [les pages de création de rapports au niveau de l’annonce ](/help/dsp/campaign-management/ads/ad-view-report.md). Le rapport comprend les données [!UICONTROL Overview], [!UICONTROL Geography] et [!UICONTROL Viewability].
+Pour les autres ventilations de données, consultez [les pages de création de rapports au niveau de l’annonce &#x200B;](/help/dsp/campaign-management/ads/ad-view-report.md). Le rapport comprend les données [!UICONTROL Overview], [!UICONTROL Geography] et [!UICONTROL Viewability].
 
 >[!MORELIKETHIS]
 >

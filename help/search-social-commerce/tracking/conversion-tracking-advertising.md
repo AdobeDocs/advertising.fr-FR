@@ -55,8 +55,8 @@ Le pixel de suivi de conversion permet à l’Adobe Advertising d’effectuer le
 >
 >* [Options de suivi des conversions](conversion-tracking-about.md)
 >* [Générer une balise de conversion d’Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [ Format des balises de suivi de conversion JavaScript version 3](format-conversion-tag-jsv3.md)
->* [ Format des balises de suivi de conversion JavaScript version 2](format-conversion-tag-jsv2.md)
+>* [&#x200B; Format des balises de suivi de conversion JavaScript version 3](format-conversion-tag-jsv3.md)
+>* [&#x200B; Format des balises de suivi de conversion JavaScript version 2](format-conversion-tag-jsv2.md)
 >* [Format des balises de suivi de conversion d’image](format-conversion-tag-image.md)
->* [ Questions fréquentes sur les balises de suivi de conversion et de pages vues ](faqs-conversion-page-view-tracking-tags.md)
->* [ La balise de mappage de conversion JavaScript Adobe Advertising ](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+>* [&#x200B; Questions fréquentes sur les balises de suivi de conversion et de pages vues &#x200B;](faqs-conversion-page-view-tracking-tags.md)
+>* [&#x200B; La balise de mappage de conversion JavaScript Adobe Advertising &#x200B;](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)

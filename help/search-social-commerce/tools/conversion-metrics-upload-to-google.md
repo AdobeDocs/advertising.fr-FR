@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Publicitaires avec comptes [!DNL Google Ads] et suivi des conversions Adobe Advertising uniquement*
 
-Search, Social et Commerce peuvent éventuellement charger vers [!DNL Google Ads] toutes les mesures de conversion qu’il suit pour [!DNL Google Ads] campagnes qui utilisent le service de suivi des conversions d’Adobe Advertising. Cette option ne rend pas les conversions disponibles pour l’optimisation hybride. Si vous souhaitez utiliser vos conversions Adobe pour l’optimisation hybride, reportez-vous à la rubrique « [ Activer le chargement des objectifs vers les réseaux publicitaires ](objective-upload-to-networks.md) ».
+Search, Social et Commerce peuvent éventuellement charger vers [!DNL Google Ads] toutes les mesures de conversion qu’il suit pour [!DNL Google Ads] campagnes qui utilisent le service de suivi des conversions d’Adobe Advertising. Cette option ne rend pas les conversions disponibles pour l’optimisation hybride. Si vous souhaitez utiliser vos conversions Adobe pour l’optimisation hybride, reportez-vous à la rubrique « [&#x200B; Activer le chargement des objectifs vers les réseaux publicitaires &#x200B;](objective-upload-to-networks.md) ».
 
 Les chargements quotidiens incluent la valeur de `gclid` suivie, la valeur de conversion définie à l’aide du modèle d’attribution au niveau de l’annonceur et la date et l’heure. Si le modèle d’attribution est mis à jour, le chargement suivant utilise le nouveau modèle, mais les données antérieures ne sont pas mises à jour pour utiliser le nouveau modèle.
 

@@ -36,7 +36,7 @@ Vous pouvez afficher un rapport dans le navigateur web ou ouvrir ou enregistrer 
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports ](/help/search-social-commerce/reports/report-about.md)
+>* [À propos des rapports &#x200B;](/help/search-social-commerce/reports/report-about.md)
 >* [Générer un rapport de base ou avancé](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
 >* [Générer un rapport de précision de modèle](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-generate.md)
 >* [Générer un rapport spécialisé](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)

@@ -18,7 +18,7 @@ Vous pouvez télécharger les données de plusieurs simulations à la fois dans 
 
 >[!NOTE]
 >
->Vous pouvez également [personnaliser la vue [!UICONTROL Simulations]](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) afin d’inclure des colonnes pour de nombreuses mesures supplémentaires et la plupart des paramètres de la simulation. Consultez la section « Actions disponibles » dans « [ À propos des simulations ](simulation-about.md#simulations-actions) pour plus d’informations sur les colonnes que vous pouvez inclure.
+>Vous pouvez également [personnaliser la vue [!UICONTROL Simulations]](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) afin d’inclure des colonnes pour de nombreuses mesures supplémentaires et la plupart des paramètres de la simulation. Consultez la section « Actions disponibles » dans « [&#x200B; À propos des simulations &#x200B;](simulation-about.md#simulations-actions) pour plus d’informations sur les colonnes que vous pouvez inclure.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 

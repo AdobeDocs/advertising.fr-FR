@@ -23,10 +23,10 @@ La vue [!UICONTROL Spreadsheets Feeds] répertorie tous les flux de feuille de c
 >[!MORELIKETHIS]
 >
 >* [Créer un flux de rapport de feuille de calcul](spreadsheet-feed-create.md)
->* [ Créez un  [!DNL Excel] modèle pour un flux de rapport de feuille de calcul](spreadsheet-feed-create-excel-template.md)
+>* [&#x200B; Créez un  [!DNL Excel] modèle pour un flux de rapport de feuille de calcul](spreadsheet-feed-create-excel-template.md)
 >* [Modifier les paramètres du flux de rapports de feuille de calcul](spreadsheet-feed-edit.md)
 >* [Paramètres du flux de rapports de feuille de calcul](spreadsheet-feed-settings.md)
->* [ Afficher ou enregistrer un fichier de flux de rapport de feuille de calcul ](spreadsheet-feed-view-or-save.md)
+>* [&#x200B; Afficher ou enregistrer un fichier de flux de rapport de feuille de calcul &#x200B;](spreadsheet-feed-view-or-save.md)
 >* [Actualisation manuelle des flux de rapports de feuille de calcul](spreadsheet-feed-refresh.md)
 >* [Supprimer des flux de rapports de feuille de calcul](spreadsheet-feed-delete.md)
 >* [À propos des notifications](/help/search-social-commerce/notifications/notification-about.md)

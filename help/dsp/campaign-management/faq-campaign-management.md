@@ -46,4 +46,4 @@ ht-degree: 0%
 >
 >* [Paramètres du module](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md)
->* [ Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [&#x200B; Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md)

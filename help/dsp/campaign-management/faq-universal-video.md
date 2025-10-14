@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Questions fréquentes à propos des vidéos universelles
 
-Les [ publicités vidéo universelles ](/help/dsp/campaign-management/ads/ad-about.md#ad-types) vous permettent de cibler l’inventaire vidéo des environnements de bureau, mobiles et de télévision connectés pour les inventaires VPAID et VAST à l’aide d’un emplacement vidéo unique.
+Les [&#x200B; publicités vidéo universelles &#x200B;](/help/dsp/campaign-management/ads/ad-about.md#ad-types) vous permettent de cibler l’inventaire vidéo des environnements de bureau, mobiles et de télévision connectés pour les inventaires VPAID et VAST à l’aide d’un emplacement vidéo unique.
 
 ## Comment créer des publicités et des emplacements de vidéos universels ?
 
@@ -32,7 +32,7 @@ Créez des emplacements et des publicités vidéo universels de la même manièr
 
    * Pour les autres types de balises publicitaires : dans le fichier de feuille de calcul que vous chargez, spécifiez le champ Type de publicité pour chaque publicité comme **[!UICONTROL Universal Video]**.
 
-1. [Ouvrez les paramètres de publicité ](/help/dsp/campaign-management/ads/ad-edit.md) pour chaque nouvelle publicité et sélectionnez le format vidéo approprié :
+1. [Ouvrez les paramètres de publicité &#x200B;](/help/dsp/campaign-management/ads/ad-edit.md) pour chaque nouvelle publicité et sélectionnez le format vidéo approprié :
 
    * **[!UICONTROL VPAID]:** La visibilité est toujours mesurée.
    * **[!UICONTROL VPAID & VAST (Default)]:** comprend un inventaire qui n’autorise pas la mesure de la visibilité.

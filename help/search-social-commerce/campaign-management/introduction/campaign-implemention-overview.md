@@ -52,7 +52,7 @@ Cette page contient des informations sur tous les types de compte, y compris sur
 
 1. Configurez le suivi de toutes les publicités pour lesquelles Adobe Advertising effectuera le suivi des conversions :
 
-   1. (Publicitaires avec service de suivi de conversion d’Adobe Advertising) Si nécessaire, [ configurez le suivi des clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) pour les publicités et, éventuellement, pour les mots-clés, les emplacements et les extensions de publicité en générant et en chargeant les URL de suivi des clics Search, Social et Commerce.
+   1. (Publicitaires avec service de suivi de conversion d’Adobe Advertising) Si nécessaire, [&#x200B; configurez le suivi des clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) pour les publicités et, éventuellement, pour les mots-clés, les emplacements et les extensions de publicité en générant et en chargeant les URL de suivi des clics Search, Social et Commerce.
 
       Pour les campagnes [!DNL Google Ads] de performance maximale, configurez le suivi dans les [paramètres de suivi de la campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).
 
@@ -60,7 +60,7 @@ Cette page contient des informations sur tous les types de compte, y compris sur
 
    1. Configurez le suivi des conversions. Selon l’implémentation, cela peut impliquer l’ajout de balises de suivi de conversion aux pages web de l’annonceur et/ou la configuration d’une baisse de flux quotidienne pour les données de conversion que l’annonceur a collectées séparément.
 
-      Si vous utilisez le service de suivi de conversion Adobe Advertising, vous pouvez générer des balises de suivi de conversion [ dans Search, Social, &amp; Commerce ](/help/search-social-commerce/tools/conversion-tag-generate.md) ou [ en utilisant Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html?lang=fr).
+      Si vous utilisez le service de suivi de conversion Adobe Advertising, vous pouvez générer des balises de suivi de conversion [&#x200B; dans Search, Social, &amp; Commerce &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md) ou [&#x200B; en utilisant Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html?lang=fr).
 
    1. Validez les données suivies.
 
@@ -87,6 +87,6 @@ Cette page contient des informations sur tous les types de compte, y compris sur
 >[!MORELIKETHIS]
 >
 >* [À propos de la gestion de campagnes dans Search, Social et Commerce](campaign-management-about.md)
->* [ Surveillez et gérez les performances de vos campagnes réseau d’annonces ](monitor-performance-campaigns.md)
+>* [&#x200B; Surveillez et gérez les performances de vos campagnes réseau d’annonces &#x200B;](monitor-performance-campaigns.md)
 >* [Données de conversion Google Ads dans Search, Social et Commerce](google-conversion-data.md)
 >* [Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md)

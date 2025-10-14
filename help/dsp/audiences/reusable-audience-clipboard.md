@@ -26,7 +26,7 @@ Vous pouvez copier la clé de segment (ID) alphanumérique d’une audience dans
 >* [Création d’une audience réutilisable](reusable-audience-create.md)
 >* [Dupliquer une audience réutilisable](reusable-audience-duplicate.md)
 >* [Modifier une audience réutilisable](reusable-audience-edit.md)
->* [ Afficher les détails d’une audience réutilisable](reusable-audience-view-details.md)
+>* [&#x200B; Afficher les détails d’une audience réutilisable](reusable-audience-view-details.md)
 >* [Partager une audience réutilisable](reusable-audience-share.md)
 >* [Exporter une audience réutilisable](reusable-audience-export.md)
 >* [Suppression d’une audience réutilisable](reusable-audience-delete.md)

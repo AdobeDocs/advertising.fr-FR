@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Vous pouvez supprimer :
 
-* contenus publicitaires qui ne font pas partie d’un lot affecté à une [expérience ciblée](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) [ en ligne ou en version préliminaire](/help/creative/experiences/experience-about.md).
+* contenus publicitaires qui ne font pas partie d’un lot affecté à une [expérience ciblée](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) [&#x200B; en ligne ou en version préliminaire](/help/creative/experiences/experience-about.md).
 
 * contenus publicitaires non affectés à une balise publicitaire pour une expérience non ciblée en direct ou en version préliminaire [non ciblée](/help/creative/experiences/experience-about.md).
 

@@ -47,6 +47,6 @@ Les règles suivantes s’appliquent à l’utilisation des composants de campag
 >[!MORELIKETHIS]
 >
 >* [À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées](../bulksheet-about.md)
->* [ Formats de fichiers de feuille d’envoi groupé pris en charge](bulksheet-file-formats.md)
+>* [&#x200B; Formats de fichiers de feuille d’envoi groupé pris en charge](bulksheet-file-formats.md)
 >* [Annexe - Erreurs de feuilles d’envoi groupé](../bulksheet-errors.md)
 >* [Télécharger/créer un fichier de feuille d’envoi groupé](../bulksheet-download.md)

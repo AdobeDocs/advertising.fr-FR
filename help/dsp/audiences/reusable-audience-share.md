@@ -30,7 +30,7 @@ Une fois que vous partagez une audience, vous ne pouvez plus arrêter de la part
 >* [Création d’une audience réutilisable](reusable-audience-create.md)
 >* [Dupliquer une audience réutilisable](reusable-audience-duplicate.md)
 >* [Modifier une audience réutilisable](reusable-audience-edit.md)
->* [ Afficher les détails d’une audience réutilisable](reusable-audience-view-details.md)
+>* [&#x200B; Afficher les détails d’une audience réutilisable](reusable-audience-view-details.md)
 >* [Exporter une audience réutilisable](reusable-audience-export.md)
 >* [Copiez la clé de segment d’une audience réutilisable dans le Presse-papiers](reusable-audience-clipboard.md)
 >* [Suppression d’une audience réutilisable](reusable-audience-delete.md)

@@ -26,7 +26,7 @@ Vous pouvez répliquer les types de campagne suivants et leur structure :
 
 Vous pouvez choisir de mettre à jour les campagnes une fois, tous les jours, toutes les semaines ou tous les mois, ou selon le planning recommandé par [!DNL Microsoft Advertising]. Vous pouvez éventuellement configurer des notifications chaque fois qu’une tâche d’importation s’exécute ou que des erreurs ou des modifications se produisent. Une fois que vous avez importé vos campagnes dans [!DNL Microsoft Advertising], vous pouvez vérifier le statut de votre tâche d’importation, consulter les journaux d’erreur, exécuter manuellement une tâche d’importation et modifier, suspendre, activer ou supprimer votre planning d’importation.
 
-Toutes les informations sur les campagnes ne sont pas répliquées, et vous devrez peut-être ajouter certaines informations à vos campagnes [!DNL Microsoft Advertising]. Pour plus d’informations sur les données importées, consultez [!DNL Microsoft Advertising]’aide dans la section « [ de quoi est importé  [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851) ». Étant donné que le suivi des recherches, des réseaux sociaux et de Commerce n’est pas importé, vous devez également ajouter le suivi dans les paramètres [compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) ou [annonce](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md).
+Toutes les informations sur les campagnes ne sont pas répliquées, et vous devrez peut-être ajouter certaines informations à vos campagnes [!DNL Microsoft Advertising]. Pour plus d’informations sur les données importées, consultez [!DNL Microsoft Advertising]’aide dans la section « [&#x200B; de quoi est importé  [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851) ». Étant donné que le suivi des recherches, des réseaux sociaux et de Commerce n’est pas importé, vous devez également ajouter le suivi dans les paramètres [compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) ou [annonce](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md).
 
 ## Réplication des campagnes [!DNL Google Ads]
 
@@ -82,7 +82,7 @@ Vous pouvez répertorier toutes les tâches d’importation, y compris le compte
 
      Par défaut, la vue s’ouvre sur l’onglet [!UICONTROL List of Import Jobs] .
 
-   * Dans l’onglet [[!UICONTROL Import Logs] , cliquez ](#campaign-import-log) l’onglet **[!UICONTROL List of Import Jobs]** .
+   * Dans l’onglet [[!UICONTROL Import Logs] , cliquez &#x200B;](#campaign-import-log) l’onglet **[!UICONTROL List of Import Jobs]** .
 
 ## Exécution d’un traitement d’import de campagne
 

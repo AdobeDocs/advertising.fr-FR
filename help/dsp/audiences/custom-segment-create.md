@@ -26,7 +26,7 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
 * Pour la mesure dans Adobe Analytics, vous devez :
 
-   1. Renseignez toutes les [ conditions préalables à l&#39;implémentation de  [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) et assurez-vous que les [AMO ID et EF ID](/help/integrations/analytics/ids.md) sont renseignés dans vos URL de suivi.
+   1. Renseignez toutes les [&#x200B; conditions préalables à l&#39;implémentation de  [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) et assurez-vous que les [AMO ID et EF ID](/help/integrations/analytics/ids.md) sont renseignés dans vos URL de suivi.
 
    1. Ajoutez le paramètre suivant à vos pages web avant ou dans le code [JavaScript requis pour [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) — n’importe où avant l’initialisation du dernier service d’événement.
 

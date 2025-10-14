@@ -78,7 +78,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 >
 >* [Annexe - Erreurs de feuilles d’envoi groupé](../bulksheet-errors.md)
 >* [Opérations que vous pouvez effectuer dans les feuilles d’envoi groupé](bulksheet-operations.md)
->* [ Formats de fichiers de feuille d’envoi groupé pris en charge](bulksheet-file-formats.md)
+>* [&#x200B; Formats de fichiers de feuille d’envoi groupé pris en charge](bulksheet-file-formats.md)
 >* [Télécharger/créer un fichier de feuille d’envoi groupé](../bulksheet-download.md)
 >* [Formats de suivi des clics pour [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
 >* [Télécharger un fichier de feuille d’envoi groupé ou un fichier d’erreur corrigé](../bulksheet-upload.md)

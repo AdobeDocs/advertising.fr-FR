@@ -26,7 +26,7 @@ Vous pouvez : a) configurer des ID d’opération privés directement avec [!DNL
 >
 >L’inventaire [!DNL Roku] n’est pas disponible sur les marchés et les exchanges ouverts.
 
-* Pour vos offres privées, [ configurez les informations sur les ID d’opération dans DSP](/help/dsp/inventory/deal-id-create.md), puis ciblez &quot;[!UICONTROL Roku Network - Audience]&quot; et &quot;[!UICONTROL The Roku Channel - Audience]&quot; dans [!DNL Roku] emplacements.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* Pour vos offres privées, [&#x200B; configurez les informations sur les ID d’opération dans DSP](/help/dsp/inventory/deal-id-create.md), puis ciblez &quot;[!UICONTROL Roku Network - Audience]&quot; et &quot;[!UICONTROL The Roku Channel - Audience]&quot; dans [!DNL Roku] emplacements.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
 * Vous pouvez [vous abonner à l’inventaire  [!DNL Roku]  suivant dans la  [!DNL On Demand] Galerie](/help/dsp/inventory/on-demand-inventory-subscribe.md), puis cibler toutes les offres approuvées dans [!DNL Roku] emplacements :
 
