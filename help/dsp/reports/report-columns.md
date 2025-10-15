@@ -3,9 +3,9 @@ title: Colonnes de rapport disponibles
 description: Voir les descriptions des colonnes disponibles dans les rapports personnalisés.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: ae7431218dcb547ded53d4bad1a79b894ee973fe
+source-git-commit: 00931d247b43f4ec26e79d56ac5138c10323a79f
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,11 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Vendor] | Fournisseur du système d’exploitation sur lequel la publicité a été affichée ([!UICONTROL Microsoft] ou [!UICONTROL Apple], par exemple). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Version] | Version du système d’exploitation sur lequel la publicité a été affichée ([!UICONTROL Windows 10] ou [!UICONTROL iOS Mojave], par exemple). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System] | Système d’exploitation sur lequel la publicité a été affichée ([!UICONTROL Apple iOS] ou [!UICONTROL Android], par exemple). |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal ID] | Identifiant unique attribué à une offre par l&#39;intermédiaire du partenaire d&#39;approvisionnement externe. |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Name] | Nom attribué par l’utilisateur à l’opération, tel qu’il a été saisi dans DSP. |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Source] | Partenaire côté offre qui fournit l&#39;inventaire. Il s’agit généralement d’un éditeur, mais il peut également s’agir d’un fournisseur de services partagés. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal Name] | Nom attribué par l’utilisateur à l’opération, tel qu’il a été saisi dans DSP. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal Type] | Indique si le contrat est *[!UICONTROL Guaranteed]* ou *[!UICONTROL Non-Guaranteed]*. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Inventory Type] | Classification de l’inventaire : *[!UICONTROL Private],* *[!UICONTROL On Demand],* ou *[!UICONTROL Public]*. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Private Deal ID] | Identifiant unique attribué à une transaction privée par l’intermédiaire du partenaire d’approvisionnement externe. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Publisher] | Partenaire côté offre qui fournit l&#39;inventaire. Il s’agit généralement d’un éditeur, mais il peut également s’agir d’un fournisseur de services partagés. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL SSP] | Partenaire côté offre (SSP) auquel le média est attribué. |
 | [!UICONTROL Dimension] | [!UICONTROL Frequency] | [!UICONTROL Frequency] | Nombre de fois qu’un appareil a reçu une publicité, en fonction du cookie ou de l’ID d’appareil unique. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL City] | Ville à laquelle les données déclarées sont attribuées. |
