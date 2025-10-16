@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] paramètres de groupe publicitaire'
 description: Référencez les paramètres des groupes  [!DNL Google Ads] ’annonces.
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
+source-git-commit: 345c2af5363ca10412f3809700e281af5b06897f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ Si la campagne utilise une stratégie d’enchères intelligentes (telle que [!U
 >* Lorsque vous enchérissez par mot-clé, créez des modèles de suivi au niveau du mot-clé. De même, lorsque vous enchérissez par emplacement, créez des modèles de suivi au niveau de l’emplacement. Pour toutes les autres dimensions, créez des modèles de suivi au niveau des annonces.
 >* Lorsque vous enchérissez par âge, sexe, centre d’intérêt et liste ou vertical pour les campagnes des portefeuilles, la fonctionnalité d’optimisation n’optimise pas les enchères pour la dimension. En outre, toute attribution est appliquée au groupe publicitaire .
 >* Les publicités sur le réseau de recherche utilisent toujours des offres par mot-clé.
+
+**[!UICONTROL AI Max Search Term Matching]:** (campagnes qui ciblent le réseau de recherche et pour lesquelles la fonctionnalité [AI Max](https://support.google.com/google-ads/answer/15910366) et la fonctionnalité de correspondance des termes de recherche au niveau de la campagne sont activées ; lecture seule) Si la correspondance des termes de recherche au niveau du groupe publicitaire est activée : *[!UICONTROL Disabled]* ou *[!UICONTROL Enabled]*.
 
 ## [!UICONTROL Budget Options]
 

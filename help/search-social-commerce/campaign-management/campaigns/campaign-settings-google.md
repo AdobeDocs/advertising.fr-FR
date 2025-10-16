@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] des paramètres de la campagne'
 description: Référencez les paramètres des campagnes  [!DNL Google Ads] .
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: cbe18b75d49ca53460883931ecea21aa6c2d8326
+source-git-commit: b321c807e3ab470068ad557ed428484d58e95ed4
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2505'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,11 @@ ht-degree: 0%
 
 {{$include /help/_includes/end-date.md}}
 
-**[!UICONTROL Search Partners]:** (campagnes qui ciblent uniquement le réseau de recherche, y compris les campagnes d’achat) Affiche
-vos publicités sur les réseaux de partenaires de recherche du réseau publicitaire. Par défaut, cette option est *[!UICONTROL Off]*.
+**[!UICONTROL Search Partners]:** (campagnes qui ciblent uniquement le réseau de recherche, y compris les campagnes d’achat) Affiche vos annonces sur les réseaux de partenaires de recherche du réseau publicitaire. Par défaut, cette option est *[!UICONTROL Off]*.
+
+**[!UICONTROL AI Max Enabled]:** (campagnes qui ciblent uniquement le réseau de recherche ; lecture seule) Si la fonction [[!UICONTROL AI Max] est activée ](https://support.google.com/google-ads/answer/15910366) : *[!UICONTROL On]* ou *[!UICONTROL Off]*.
+
+**[!UICONTROL AI Max Bundling]:** (campagnes ciblant uniquement le réseau de recherche ; campagnes avec la fonction AI Max activée ; lecture seule) Si le regroupement est requis : *[!UICONTROL Not Required]*, *[!UICONTROL Required]*, *[!UICONTROL Unknown]* ou *[!UICONTROL Unspecified]*.
 
 ## [!UICONTROL Budget Options]
 
@@ -112,7 +115,7 @@ les produits de la campagne sont vendus. Comme les produits sont associés aux p
 
 **Conseil :** si vous utilisez ce paramètre, n’excluez pas les publicités locales du paramètre [!UICONTROL Inventory Filter].
 
-**Remarque** les annonces d’inventaire local nécessitent deux flux supplémentaires à [!DNL Google Merchant Center] : l’un avec vos données de produit local et l’autre avec votre inventaire de produit local. Pour plus d’informations sur les [annonces d’achats locaux](https://www.google.com/retail/local-inventory-ads/), consultez la documentation [!DNL Google Ads] .
+**Remarque** les annonces d’inventaire local nécessitent deux flux supplémentaires à [!DNL Google Merchant Center] : l’un avec vos données de produit local et l’autre avec votre inventaire de produit local. Pour plus d’informations sur les [!DNL Google Ads]annonces d’achats locaux[, consultez la documentation ](https://www.google.com/retail/local-inventory-ads/) .
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 
@@ -201,7 +204,7 @@ par pays. Si vous ne sélectionnez aucune option, elles sont toutes ciblées.
 
 * *[!UICONTROL Bid higher for new customers than for existing customers]*
 
-  **Remarque :** pour utiliser ce paramètre, vous devez d’abord activer le nouvel objectif d’acquisition de clients pour le compte [!DNL Google Ads] ou, le cas échéant, pour le compte responsable. L’objectif définit les listes de clients existants éligibles et la valeur de conversion supplémentaire pour les nouveaux clients dans les paramètres de conversion. Voir les étapes 1 à 2 dans l’aide [!DNL Google Ads] « [&#x200B; Activer l’objectif d’acquisition de nouveaux clients &#x200B;](https://support.google.com/google-ads/answer/14007601) ».
+  **Remarque :** pour utiliser ce paramètre, vous devez d’abord activer le nouvel objectif d’acquisition de clients pour le compte [!DNL Google Ads] ou, le cas échéant, pour le compte responsable. L’objectif définit les listes de clients existants éligibles et la valeur de conversion supplémentaire pour les nouveaux clients dans les paramètres de conversion. Voir les étapes 1 à 2 dans l’aide [!DNL Google Ads] « [ Activer l’objectif d’acquisition de nouveaux clients ](https://support.google.com/google-ads/answer/14007601) ».
 
 * *[!UICONTROL Only bid for new customers]*
 
@@ -358,7 +361,7 @@ Vous pouvez saisir du texte ou sélectionner des ressources à partir de votre [
 
 **[!UICONTROL Primary Status]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes Performance Max) Pourquoi le groupe de ressources est-il diffusé ou non à pleine capacité ? Il prend en compte le statut du groupe de ressources ainsi que d’autres signaux, tels que les approbations de politique et de qualité. Les valeurs peuvent inclure *ÉLIGIBLE,* *LIMITÉ,* *NOT_ELIGIBLE,* *EN PAUSE,* *EN ATTENTE,* SUPPRIMÉ,*UNKNOWN,* ou *UNSPECIFIED.* **<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
-**[!UICONTROL Primary Status Reason]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes Performance Max) Informations supplémentaires sur le statut principal du groupe de ressources. Les valeurs peuvent inclure *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* CAMPAIGN_ENDED,*CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,*ou* UNSPECIFIED.**&#x200B; &#x200B;** **
+**[!UICONTROL Primary Status Reason]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes Performance Max) Informations supplémentaires sur le statut principal du groupe de ressources. Les valeurs peuvent inclure *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* CAMPAIGN_ENDED,*CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,*ou* UNSPECIFIED.** ** **
 
 ## [!UICONTROL Conversion Goals]
 
