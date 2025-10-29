@@ -29,14 +29,14 @@ Vous pouvez ouvrir l’aide en ligne à partir de n’importe quelle page de l�
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=fr).
 -->
 
 ## [!DNL Adobe] de contact
 
 En cas de problèmes liés au produit ou au compte, procédez comme suit :
 
-* (Annonceurs avec des contrats de libre-service) Ouvrez un ticket pour votre organisation à l’adresse [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
+* (Annonceurs avec des contrats de libre-service) Ouvrez un ticket pour votre organisation à l’adresse [https://experienceleague.adobe.com/home?lang=fr#support](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support).
 
   Pour le produit, sélectionnez « [!UICONTROL Advertising - Search, Social, & Commerce] ».
 
