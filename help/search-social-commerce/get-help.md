@@ -3,7 +3,7 @@ title: Obtenir de l’aide
 description: Découvrez comment afficher l’aide en ligne et les ressources de la communauté, ainsi que comment obtenir une assistance technique.
 feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: 70598a94d2a2bc4c8e34de311d68872a8207006b
+source-git-commit: ed577c6f20d0e63555865d2d03bb82a5ada92b3f
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -29,19 +29,17 @@ Vous pouvez ouvrir l’aide en ligne à partir de n’importe quelle page de l�
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=fr).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## [!DNL Adobe] de contact
 
 En cas de problèmes liés au produit ou au compte, procédez comme suit :
 
-* (Annonceurs avec des contrats de libre-service) Ouvrez un ticket pour votre organisation à l’adresse [https://experienceleague.adobe.com/home?lang=fr#support](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support).
+* (Annonceurs avec des contrats de libre-service) Ouvrez un ticket pour votre organisation à l’adresse [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
   Pour le produit, sélectionnez « [!UICONTROL Advertising - Search, Social, & Commerce] ».
 
 * (Annonceurs avec des contrats de service complet) Contactez l’équipe chargée de votre compte Adobe.
 
-Dans le ticket ou la communication, fournissez les étapes détaillées pour reproduire le problème, toutes les données pertinentes, le nom et la version du navigateur, ainsi que des informations sur le dépannage préliminaire que vous avez effectué.
-
-Pour les problèmes de rapport, ne supprimez pas le rapport, mais indiquez son nom et son URL.
+Dans le ticket ou la communication, fournissez les étapes détaillées pour reproduire le problème, toutes les données pertinentes, le nom et la version du navigateur, ainsi que des informations sur le dépannage préliminaire que vous avez effectué. Pour les problèmes de rapport, ne supprimez pas le rapport, mais indiquez son nom et son URL.
