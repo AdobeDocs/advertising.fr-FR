@@ -3,9 +3,9 @@ title: Paramètres natifs des publicités display
 description: Consultez les descriptions des paramètres d’annonce publicitaire disponibles pour les annonces publicitaires natives.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
+source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Utilisez un nom facile à trouver lorsque vous joignez l’annonce à un emplacement, dans la vue [!UICONTROL Ads] et dans les rapports. Par exemple, décrivez le type d’unité et certains attributs clés (tels que Aperçu du produit Holiday : 15sec natif).
+> Utilisez un nom facile à trouver lorsque vous joignez l’annonce à un emplacement, dans la vue [!UICONTROL Ads] et dans les rapports. Par exemple, décrivez le type d’unité et certains attributs clés (tels que « Aperçu du produit de vacances : 15 s natif »).
 
 **[!UICONTROL Native Creative]:** Image de 1 200 x 627 pour optimiser la diffusion sur l’inventaire mobile. Cliquez sur **[!UICONTROL Browse]** et localisez le fichier sur votre appareil ou réseau, puis cliquez sur **[!UICONTROL Upload]**.
 
@@ -42,19 +42,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Pixel]
 
-Tous les pixels de suivi d’événement existants pour l’emplacement sont automatiquement joints. Vous pouvez désolidariser les pixels existants et créer de nouveaux pixels si nécessaire, en fonction de vos besoins de suivi pour l’annonce publicitaire individuelle. **Conseil :** pour modifier simultanément les pixels de suivi tiers pour plusieurs annonces d’un emplacement à l’aide de la vue [!UICONTROL Ad Tools], consultez la section « [Joindre des pixels de suivi tiers aux annonces dans un emplacement](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads) ».
+<!-- **[!UICONTROL Pixel]:** -->
 
-Les paramètres suivants s’appliquent à chaque pixel que vous créez ou modifiez.
-
-**[!UICONTROL Integration Event]:** Événement qui déclenche le déclenchement du pixel.
-
-**[!UICONTROL Pixel Type]:** indique si le pixel est un *[!UICONTROL IMG URL]* (fichier image de 1x1 pixel), un *[!UICONTROL HTML]* ou un *[!UICONTROL JavaScript URL]*.
-
-**[!UICONTROL Pixel URL or Code]:** URL de l’image en pixels, au format approprié pour l’[!UICONTROL Pixel Type] spécifié.
-
-**[!UICONTROL Pixel Name]:** nom du pixel. Utilisez un nom qui vous permet d’identifier facilement le pixel.
-
-**[!UICONTROL Pixel Provider]:** fournisseur de pixels : *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* ou *[!UICONTROL IAS]*.
+{{$include /help/_includes/dsp-ad-pixel.md}}
 
 >[!MORELIKETHIS]
 >

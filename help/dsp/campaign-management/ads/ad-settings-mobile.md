@@ -3,9 +3,9 @@ title: Paramètres des annonces publicitaires mobiles
 description: Consultez les descriptions des paramètres d’annonce publicitaire disponibles pour les annonces publicitaires mobiles.
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
+source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Utilisez un nom facile à trouver lorsque vous joignez l’annonce à un emplacement, dans la vue Annonces et dans les rapports. Par exemple, décrivez le type d&#39;unité et certains attributs clés (tels que Holiday Product Preview: 300x250 Gamer »).
+> Utilisez un nom facile à trouver lorsque vous joignez l’annonce à un emplacement, dans la vue Annonces et dans les rapports. Par exemple, décrivez le type d’unité et certains attributs clés (tels que Aperçu du produit de vacances : 300x250 Gamer »).
 
 **\[Ad Source\]** : *[!UICONTROL 3rd party]* (lecture seule).
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Utilisez un nom facile à trouver lorsque vous joignez l’annonce à un emplacement, dans la vue Annonces et dans les rapports. Par exemple, décrivez le type d’unité et certains attributs clés (tels que Aperçu du produit de vacances : préoll téléphonique de 30 secondes).
+> Utilisez un nom facile à trouver lorsque vous joignez l’annonce à un emplacement, dans la vue Annonces et dans les rapports. Par exemple, décrivez le type d’unité et certains attributs clés (tels que Aperçu du produit de vacances : préoll de téléphone de 30 secondes).
 
 **[!UICONTROL Width]| [!UICONTROL Ad Unit Width]:** largeur de l’ensemble de l’entité publicitaire. Cette option peut être verrouillée en fonction du type d’unité publicitaire que vous avez sélectionné.
 
@@ -82,19 +82,9 @@ Il s’agit du même champ que le champ **[!UICONTROL Height]**.
 
 ### [!UICONTROL Pixel]
 
-Tous les pixels de suivi d’événement existants pour l’emplacement sont automatiquement joints. Vous pouvez désolidariser les pixels existants et créer de nouveaux pixels si nécessaire, en fonction de vos besoins de suivi pour l’annonce publicitaire individuelle. **Conseil :** pour modifier simultanément les pixels de suivi tiers pour plusieurs annonces d’un emplacement à l’aide de la vue [!UICONTROL Ad Tools], consultez la section « [Joindre des pixels de suivi tiers aux annonces dans un emplacement](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads) ».
+<!-- **[!UICONTROL Pixel]:** -->
 
-Les paramètres suivants s’appliquent à chaque pixel que vous créez ou modifiez.
-
-**[!UICONTROL Integration Event]:** Événement qui déclenche le déclenchement du pixel. Pour ce type d’annonce, utilisez des pixels qui se déclenchent sur le *[!UICONTROL Impression]* ou le *[!UICONTROL Click-through]*.
-
-**[!UICONTROL Pixel Type]:** indique si le pixel est un *[!UICONTROL IMG URL]* (fichier image de 1x1 pixel), un *[!UICONTROL HTML]* ou un *[!UICONTROL JavaScript URL]*.
-
-**[!UICONTROL Pixel URL or Code]:** URL de l’image en pixels, au format approprié pour l’[!UICONTROL Pixel Type] spécifié.
-
-**[!UICONTROL Pixel Name]:** nom du pixel. Utilisez un nom qui vous permet d’identifier facilement le pixel.
-
-**[!UICONTROL Pixel Provider]:** fournisseur de pixels : *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* ou *[!UICONTROL IAS]*.
+{{$include /help/_includes/dsp-ad-pixel.md}}
 
 ### [!UICONTROL Sharing]
 
