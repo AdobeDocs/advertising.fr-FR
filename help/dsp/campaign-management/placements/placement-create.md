@@ -3,9 +3,9 @@ title: Création d’un emplacement
 description: Découvrez comment créer un emplacement.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: d1be9ab441fd8abdc21491afb57763ec6eb2bec0
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
       Pour la plupart des types d&#39;emplacement, tous les types de stock et toutes les origines pour chaque type sont inclus par défaut. Pour les emplacements [!DNL Roku], vous devez spécifier le type de stock et les origines.
 
-   1. (Facultatif) Dans la section [!UICONTROL Site Targeting], définissez les sites à cibler, puis spécifiez les sites à exclure.
+   1. (Facultatif) Dans la section [!UICONTROL Site or app And Keyword Targeting], définissez les sites et applications que vous souhaitez cibler et exclure.
 
    1. (Facultatif) Dans la section [!UICONTROL Audience Targeting] :
 
@@ -147,4 +147,4 @@ ht-degree: 0%
 >* [FAQ sur Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Résolution des problèmes liés aux performances](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vidéo : création d’un emplacement d’affichage standard](https://video.tv.adobe.com/v/344999?captions=fre_fr)
+>* [Vidéo : création d’un emplacement d’affichage standard](https://video.tv.adobe.com/v/340454)
