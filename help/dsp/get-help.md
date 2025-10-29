@@ -2,9 +2,10 @@
 title: Obtenir de l’aide
 description: Découvrez comment afficher l’aide en ligne et les ressources de la communauté, ainsi que comment obtenir une assistance technique.
 feature: DSP Introduction
-source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
+exl-id: 2e0226ea-bcd3-4a38-8907-d2e078c758d0
+source-git-commit: 70598a94d2a2bc4c8e34de311d68872a8207006b
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -20,13 +21,20 @@ Pour ouvrir un jeu d&#39;aide complet expliquant comment utiliser toutes les fon
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=fr).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## [!DNL Adobe] de contact
 
-Pour tout problème lié au produit ou au compte DSP, contactez l’équipe chargée de votre compte Adobe.
+En cas de problèmes liés au produit ou au compte, procédez comme suit :
 
-Fournissez des étapes détaillées pour reproduire le problème, ainsi que toutes les données pertinentes et informations sur le dépannage préliminaire que vous avez effectué. Indiquez également le nom et la version du navigateur.
+* (Annonceurs avec des contrats de libre-service) Ouvrez un ticket pour votre organisation à l’adresse [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
-Pour les problèmes de rapport, ne supprimez pas le rapport et indiquez son nom.
+  Pour le produit, sélectionnez « [!UICONTROL Advertising - DSP] ».
+
+* (Annonceurs avec des contrats de service complet) Contactez l’équipe chargée de votre compte Adobe.
+
+Dans le ticket ou la communication, fournissez les étapes détaillées pour reproduire le problème, toutes les données pertinentes, le nom et la version du navigateur, ainsi que des informations sur le dépannage préliminaire que vous avez effectué.
+
+Pour les problèmes de rapport, ne supprimez pas le rapport, mais indiquez son nom et son URL.
+
