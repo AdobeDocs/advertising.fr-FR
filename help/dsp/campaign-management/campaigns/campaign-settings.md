@@ -3,9 +3,9 @@ title: Paramètres de la campagne
 description: Voir les descriptions des paramètres de campagne disponibles.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: daf995b0c40d77434d2c86c738351a33552dc555
+source-git-commit: 1b15b14b0ace6137e79b456c7c8f8444efa8acac
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Margin % of Total Budget]:* (par défaut) Calcule les frais en pourcentage du [!UICONTROL Gross Budget]. Spécifiez le [!UICONTROL Agency Fee Type] (fixe ou composite) et le [!UICONTROL Margin %] ou le [!UICONTROL Composite Margin %].
 
-   * *[!UICONTROL Apply Markup % on top of individual cost components]:* Ajoute un pourcentage spécifié de la [!UICONTROL Gross Budget] à vos coûts médias, données et autres coûts, et/ou frais techniques [!DNL Adobe]. Spécifiez le [!UICONTROL Markup %] et sélectionnez les composants sur lesquels appliquer le balisage.
+   * *[!UICONTROL Apply Markup % on top of individual cost components]:* Ajoute un pourcentage spécifié au coût du média, aux données et autres coûts, et/ou aux frais techniques [!DNL Adobe]. Spécifiez le [!UICONTROL Markup %] et sélectionnez les composants sur lesquels appliquer le balisage.
 
 * **[!UICONTROL Agency Fee Type]:** (campagnes qui utilisent [!UICONTROL Margin % of Total Budget]) Type de frais d’agence.
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Composite Margin %]:** (campagnes qui utilisent des [!UICONTROL Margin % of Total Budget] avec des marges composites) Somme des frais d’agence et des frais techniques [!DNL Adobe], en pourcentage. Ce montant est déduit du [!UICONTROL Gross Budget] pour définir le budget net de la campagne. La marge n&#39;est pas appliquée à la [!UICONTROL Estimated Tax Withholding] sur le [!UICONTROL Gross Budget].
 
-* **[!UICONTROL Markup %]:** (Campagnes qui utilisent [!UICONTROL Apply Markup % on top of individual cost components]) Pourcentage de la [!UICONTROL Gross Budget] à ajouter aux composants de coût spécifiés.
+* **[!UICONTROL Markup %]:** (Campagnes qui utilisent [!UICONTROL Apply Markup % on top of individual cost components]) Pourcentage à ajouter aux composants de coût spécifiés.
 
 * **[!UICONTROL Select cost components on which markup will be applied]:** (Campagnes qui utilisent [!UICONTROL Apply Markup % on top of individual cost components]) Composants de coût pour lesquels le [!UICONTROL Markup %] est appliqué. Sélectionnez tous les composants applicables : *[!UICONTROL Media cost]*, *[!UICONTROL Data and Other costs]* et/ou *[!UICONTROL Adobe tech fees]*.
 
