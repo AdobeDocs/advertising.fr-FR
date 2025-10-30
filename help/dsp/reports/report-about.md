@@ -3,7 +3,7 @@ title: À Propos Des Rapports Personnalisés
 description: Découvrez les options permettant de créer des rapports personnalisés manuellement ou d’utiliser des modèles de rapport préconfigurés.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: f2b912a9e4952d2ccb9a461cdbc56c7bc731e690
+source-git-commit: eabe6dc506c93d5e272ec4cf1d7baf798c09b6aa
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Vous pouvez générer des rapports une fois ou les planifier tous les jours, tou
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
-* &#x200B;<!-- (in beta) --> SSL FTP
+* <!-- (in beta) --> SSL FTP
 * SFTP
 
 >[!NOTE]
@@ -44,7 +44,7 @@ Vous pouvez générer des rapports une fois ou les planifier tous les jours, tou
    * **[!UICONTROL Conversion]:** utilisez ce rapport pour comprendre les performances de vos campagnes en fonction des mesures de conversion capturées à l’aide du suivi des conversions d’Adobe Advertising. Ce rapport comprend l’attribution multipoint.
 
   <!--
-    * **[!UICONTROL Custom Creative Report Beta]:** (Beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
+    * **[!UICONTROL Custom Creative Report Beta]:** (Advertisers with Advertising Creative; beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
     -->
 
    * **[!UICONTROL Device]:** utilisez ce modèle prérempli pour afficher les mesures clés par dimensions liées à l’appareil.
