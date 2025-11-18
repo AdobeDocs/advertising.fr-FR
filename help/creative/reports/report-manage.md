@@ -2,7 +2,7 @@
 title: Gestion des rapports personnalisés
 description: Découvrez comment générer et gérer le [!UICONTROL Custom Creative Report] d’expériences croisées.
 feature: Creative Reporting
-source-git-commit: 455a63be51ca56610cc15ba498e69eeae52ffdba
+source-git-commit: 41b8d295436bdbe6cea402e5bb234caa7a36f4df
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Dupliquez un rapport personnalisé pour créer un rapport avec des paramètres s
 
 1. Cliquez sur **[!UICONTROL Edit Custom Report]**.
 
-## Exécution d’un rapport personnalisé &lbrace;report-run-now&rbrace;
+## Exécution d’un rapport personnalisé {#report-run-now}
 
 Vous pouvez exécuter n’importe quel rapport qui n’a pas expiré et qui n’est pas en cours d’exécution.
 
@@ -75,7 +75,7 @@ Vous pouvez télécharger n’importe quelle instance de rapport terminée des q
 
      Lorsqu’un rapport s’exécute plusieurs fois le même jour, les instances de rapport de ce jour sont répertoriées dans l’ordre chronologique, l’instance la plus récente étant en haut.
 
-     Les tâches de rapport ayant échoué sont indiquées par une icône d’erreur (![&#x200B; indicateur d’erreur](/help/dsp/assets/indicator-critical.png "indicateur d’erreur")) et ne peuvent pas être téléchargées. Pour obtenir une description de l’erreur, placez le curseur sur l’icône d’erreur.
+     Les tâches de rapport ayant échoué sont indiquées par une icône d’erreur (![ indicateur d’erreur](/help/dsp/assets/indicator-critical.png "indicateur d’erreur")) et ne peuvent pas être téléchargées. Pour obtenir une description de l’erreur, placez le curseur sur l’icône d’erreur.
 
 ## Suppression d’un rapport personnalisé
 
@@ -181,7 +181,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
    * *[!UICONTROL Social Only]:* Obsolète
 
-[&#x200B; Consultez également la section « Comment les règles d’attribution sont-elles calculées pour Adobe Advertising &#x200B;](/help/search-social-commerce/reports/attribution-rules.md) ? »
+[ Consultez également la section « Comment les règles d’attribution sont-elles calculées pour Adobe Advertising ](/help/search-social-commerce/reports/attribution-rules.md) ? »
 
 **[!UICONTROL Paths as Columns]:** types de conversions à signaler lorsque des événements précédents se sont produits sur le même appareil. Vous pouvez inclure jusqu’à trois types. Pour chaque type sélectionné, une colonne distincte est incluse pour chaque mesure de conversion et est ajoutée avec le suffixe spécifié ([!UICONTROL (tl)], [!UICONTROL (ct)] ou [!UICONTROL (vt)]) :
 
@@ -207,7 +207,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 * *[!UICONTROL FTP]:* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
+* *[!UICONTROL FTP SSL](actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
 
 * *[!UICONTROL Email]:* pour spécifier la ou les adresses e-mail auxquelles envoyer les rapports terminés ou les notifications si le rapport est annulé en raison d’erreurs.
 
@@ -327,6 +327,6 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Rapports de performances au niveau de l’expérience &#x200B;](/help/creative/experiences/experience-performance-details.md)
+>* [ Rapports de performances au niveau de l’expérience ](/help/creative/experiences/experience-performance-details.md)
 >* [À propos des rapports personnalisés DSP](/help/dsp/reports/report-about.md){target="_blank"}
 >* [À propos des [!UICONTROL report destinations]](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"}
