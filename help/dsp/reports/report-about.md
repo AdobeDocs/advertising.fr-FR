@@ -3,9 +3,9 @@ title: À Propos Des Rapports Personnalisés
 description: Découvrez les options permettant de créer des rapports personnalisés manuellement ou d’utiliser des modèles de rapport préconfigurés.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: ae75e6110443d8b744f141df370160e02e4d725e
+source-git-commit: a643a2d255431c5ce93f2df092d92932d4cccc02
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Vous pouvez générer des rapports une fois ou les planifier tous les jours, tou
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
-* &#x200B;<!-- (in beta) --> SSL FTP
+* <!-- (in beta) --> SSL FTP
 * SFTP
 
 >[!NOTE]
@@ -35,15 +35,19 @@ Vous pouvez générer des rapports une fois ou les planifier tous les jours, tou
 
 * Modèles de rapport préconfigurés
 
+   * **[!UICONTROL All-in Cost BETA]** : (annonceurs avec Advertising Creative et Advertising DSP uniquement ; fonctionnalité bêta) utilisez ce rapport pour voir combien Advertising DSP a dépensé pour le service publicitaire d’Adobe Creative. Vous pouvez afficher les données de création, d’attribut, de cible et d’autres données aux niveaux de la campagne, du package, de l’emplacement et des annonces.
+
    * **[!UICONTROL Billing]:** utilisez ce rapport pour comprendre les mesures de facturation clés, telles que les mesures de dépenses pour la facturation des médias par campagne. Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
 
      >[!NOTE]
      >
      >Ce rapport inclut des données sur le segment de facturation. Si une impression appartenant à plusieurs segments est diffusée à un utilisateur, une seule impression est créditée à un segment facturable.
 
+   * **[!UICONTROL Content]:** utilisez ce rapport pour comprendre la diffusion d’impressions et d’autres mesures par dimensions de contenu spécifiées (telles que le genre, la qualité de production et l’évaluation du contenu) afin que vous puissiez optimiser le ciblage et garantir la sécurité de la marque. Outre les dimensions de contenu, le rapport comprend la plupart des dimensions, mesures et filtres standard. Les données par dimension de contenu sont disponibles pour [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] et [!DNL Triplelift]. Les signaux de contenu sont transmis par les éditeurs pendant le flux de données et sont soumis à disponibilité.
+
    * **[!UICONTROL Conversion]:** utilisez ce rapport pour comprendre les performances de vos campagnes en fonction des mesures de conversion capturées à l’aide du suivi des conversions d’Adobe Advertising. Ce rapport comprend l’attribution multipoint.
 
-   * **[!UICONTROL Custom Creative Report]:** (annonceurs avec Advertising Creative ; fonctionnalité bêta) Utilisez ce rapport pour surveiller les performances de vos expériences publicitaires Advertising Creative.
+   * **[!UICONTROL Custom Creative]:** (annonceurs avec Advertising Creative uniquement) Utilisez ce rapport pour surveiller les performances de vos expériences publicitaires Advertising Creative.
 
    * **[!UICONTROL Device]:** utilisez ce modèle prérempli pour afficher les mesures clés par dimensions liées à l’appareil.
 
@@ -64,20 +68,11 @@ Vous pouvez générer des rapports une fois ou les planifier tous les jours, tou
 
    * **[!UICONTROL Geo]** : utilisez ce modèle prérempli pour afficher les mesures clés par dimensions géographiques.
 
-   * **[!UICONTROL Margin]:** utilisez ce rapport pour afficher les mesures clés telles que la marge, le profit et d’autres mesures de dépenses par campagne ou par emplacement. Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
-
-   * **[!UICONTROL Segment]:** utilisez ce modèle prérempli pour afficher les mesures clés par segment.
-
-     >[!NOTE]
-     >
-     >* Ce rapport est destiné à montrer les performances des différents segments ciblés. Il utilise les données d’appartenance à un segment. Lorsqu’une impression est transmise à une personne ou à un appareil appartenant à deux segments ciblés ou plus, ce rapport inclut une ligne pour chaque segment. Pour cette raison, les totaux de ce rapport peuvent ne pas correspondre à la diffusion réelle.
-     >* Les mesures de conversion et les données d’objectif personnalisées pour les segments sont disponibles après le 2 août 2019. Toutes les autres données pour les segments seront disponibles à partir du 1er juin 2018.
-
-   * **[!UICONTROL Site]:** par défaut, inclut les mesures standard, les dépenses nettes totales des médias et les dépenses nettes totales facturables par site.
+   * **[!UICONTROL Household Conversions]:** utilisez ce rapport pour afficher les conversions d’affichage publicitaire au niveau du foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil ou d’un cookie. Utilisez les informations pour mesurer et optimiser les performances des campagnes. Voir « [FAQ sur les rapports des ménages](/help/dsp/reports/faq-reports.md) » pour plus d’informations. Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
 
    * **[!UICONTROL Household Reach & Frequency]:** utilisez ce rapport pour afficher les impressions, la portée et la fréquence pour une seule dimension dans les formats d’annonce publicitaire au niveau d’un foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil ou d’un cookie. Utilisez les informations pour optimiser votre mix média, améliorer les performances et identifier les opportunités de portée incrémentielle. Voir « [FAQ sur les rapports des ménages](/help/dsp/reports/faq-reports.md) » pour plus d’informations. Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
 
-   * **[!UICONTROL Household Conversions]:** utilisez ce rapport pour afficher les conversions d’affichage publicitaire au niveau du foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil ou d’un cookie. Utilisez les informations pour mesurer et optimiser les performances des campagnes. Voir « [FAQ sur les rapports des ménages](/help/dsp/reports/faq-reports.md) » pour plus d’informations. Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
+   * **[!UICONTROL Margin]:** utilisez ce rapport pour afficher les mesures clés telles que la marge, le profit et d’autres mesures de dépenses par campagne ou par emplacement. Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
 
    * **[!UICONTROL Path to Conversion]:** utilisez ce rapport pour identifier comment optimiser les budgets et personnaliser les annonces en fonction des séquences d’interaction publicitaire les plus performantes. Le rapport présente la séquence des points d’interaction au sein d’un même foyer qui mènent à chacune des mesures de conversion sélectionnées dans la plage de données spécifiée. Le rapport utilise une période de recherche en amont spécifiée entre la première interaction et une conversion et peut inclure une dimension :
 
@@ -99,9 +94,16 @@ Vous pouvez générer des rapports une fois ou les planifier tous les jours, tou
 
      Les données sont affichées pour chaque longueur de chemin allant jusqu’à 10 ; les données pour les longueurs de chemin supérieures à 10 sont regroupées.
 
-   * **[!UICONTROL Time to Conversion]:** utilisez ce rapport pour déterminer l’intervalle de recherche en amont d’attribution optimal et pour identifier les campagnes dont la conversion prend plus de temps, qui peuvent bénéficier du reciblage. Le rapport indique le nombre de conversions par la durée en jours entre la dernière interaction (exposition publicitaire ou clic) et la conversion. Le rapport peut inclure des données pour plusieurs mesures de conversion et utilise une période de recherche en amont spécifiée entre la première interaction et une conversion. Les colonnes du rapport incluent « [!UICONTROL Time Taken (in days)] », « [!UICONTROL Number of] \&lt;Nom de la mesure de conversion 1\> », « % \&lt;Nom de la mesure de conversion 1\> », « \&lt;Nom de la mesure de conversion 2\> », « % \&lt;Nom de la mesure de conversion 2\> », etc. Les conversions dont la durée est supérieure à la période de recherche en amont sont regroupées dans une ligne (par exemple, si le rapport utilise une période de recherche en amont de 30 jours, toutes les conversions dont la durée est supérieure à 30 jours sont regroupées dans une ligne avec une valeur « [!UICONTROL Time Taken (in days)] » de « 30+ »).
+   * **[!UICONTROL Segment]:** utilisez ce modèle prérempli pour afficher les mesures clés par segment.
 
-   * **[!UICONTROL Content]:** utilisez ce rapport pour comprendre la diffusion d’impressions et d’autres mesures par dimensions de contenu spécifiées (telles que le genre, la qualité de production et l’évaluation du contenu) afin que vous puissiez optimiser le ciblage et garantir la sécurité de la marque. Outre les dimensions de contenu, le rapport comprend la plupart des dimensions, mesures et filtres standard. Les données par dimension de contenu sont disponibles pour [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] et [!DNL Triplelift]. Les signaux de contenu sont transmis par les éditeurs pendant le flux de données et sont soumis à disponibilité.
+     >[!NOTE]
+     >
+     >* Ce rapport est destiné à montrer les performances des différents segments ciblés. Il utilise les données d’appartenance à un segment. Lorsqu’une impression est transmise à une personne ou à un appareil appartenant à deux segments ciblés ou plus, ce rapport inclut une ligne pour chaque segment. Pour cette raison, les totaux de ce rapport peuvent ne pas correspondre à la diffusion réelle.
+     >* Les mesures de conversion et les données d’objectif personnalisées pour les segments sont disponibles après le 2 août 2019. Toutes les autres données pour les segments seront disponibles à partir du 1er juin 2018.
+
+   * **[!UICONTROL Site]:** par défaut, inclut les mesures standard, les dépenses nettes totales des médias et les dépenses nettes totales facturables par site.
+
+   * **[!UICONTROL Time to Conversion]:** utilisez ce rapport pour déterminer l’intervalle de recherche en amont d’attribution optimal et pour identifier les campagnes dont la conversion prend plus de temps, qui peuvent bénéficier du reciblage. Le rapport indique le nombre de conversions par la durée en jours entre la dernière interaction (exposition publicitaire ou clic) et la conversion. Le rapport peut inclure des données pour plusieurs mesures de conversion et utilise une période de recherche en amont spécifiée entre la première interaction et une conversion. Les colonnes du rapport incluent « [!UICONTROL Time Taken (in days)] », « [!UICONTROL Number of] \&lt;Nom de la mesure de conversion 1\> », « % \&lt;Nom de la mesure de conversion 1\> », « \&lt;Nom de la mesure de conversion 2\> », « % \&lt;Nom de la mesure de conversion 2\> », etc. Les conversions dont la durée est supérieure à la période de recherche en amont sont regroupées dans une ligne (par exemple, si le rapport utilise une période de recherche en amont de 30 jours, toutes les conversions dont la durée est supérieure à 30 jours sont regroupées dans une ligne avec une valeur « [!UICONTROL Time Taken (in days)] » de « 30+ »).
 
 ## Reporting entre comptes {#cross-account-reporting}
 
