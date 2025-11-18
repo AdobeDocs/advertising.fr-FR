@@ -3,9 +3,9 @@ title: Rapports de performances au niveau de l’expérience
 description: Découvrez comment afficher des rapports de performances au niveau de l’expérience.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 9e9fe26213fb2d5e6aaffe6d9e4f1688efebc480
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ La vue Rapport inclut les données suivantes :
 
    * (Facultatif) Pour modifier les conversions signalées, cliquez sur ![Paramètres](/help/creative/assets/settings.png) et sélectionnez les noms de conversion dans le menu **[!UICONTROL Conversions]**. Actuellement, la seule mesure disponible est « Sélectionner tout » pour inclure toutes les mesures de conversion.
 
-     Les colonnes de conversion disponibles incluent les conversions disponibles dans Advertising Search, Social et Commerce, que vous soyez ou non client Search, Social et Commerce. La liste peut inclure des mesures d’engagement du site et de conversion synchronisées à partir d’Adobe Analytics lorsque l’annonceur dispose d’une [intégration [!DNL Adobe Analytics for Advertising] &#x200B;](/help/integrations/analytics/overview.md). [!DNL Analytics] mesures calculées et les mesures calculées avancées ne sont pas disponibles. Pour plus d’informations sur l’inclusion des conversions collectées dans les rapports, consultez la rubrique du guide Search, Social et Commerce intitulée « [À propos de la gestion des mesures de conversion d’un annonceur](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) ».
+     Les colonnes de conversion disponibles incluent les conversions disponibles dans Advertising Search, Social et Commerce, que vous soyez ou non client Search, Social et Commerce. La liste peut inclure des mesures d’engagement du site et de conversion synchronisées à partir d’Adobe Analytics lorsque l’annonceur dispose d’une [intégration [!DNL Adobe Analytics for Advertising] ](/help/integrations/analytics/overview.md). [!DNL Analytics] mesures calculées et les mesures calculées avancées ne sont pas disponibles. Pour plus d’informations sur l’inclusion des conversions collectées dans les rapports, consultez la rubrique du guide Search, Social et Commerce intitulée « [ À propos de la gestion des mesures de conversion d’un annonceur ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) ».
 
 1. (Dans l’onglet [!UICONTROL Overview] ) :
 
@@ -128,6 +128,7 @@ La vue Rapport inclut les données suivantes :
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Rapport Creative personnalisé &#x200B;](/help/creative/report-custom-creative.md)
+>* [Rapports personnalisés](/help/creative/reports/reports-about.md)
+>* [Gérer les rapports personnalisés](/help/creative/report-manage.md)
 >* [Télécharger toutes les expériences de la vue](/help/creative/experiences/experience-download-view.md)
 >* [À propos des expériences dans Advertising Creative](/help/creative/experiences/experience-about.md)

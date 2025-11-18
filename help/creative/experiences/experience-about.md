@@ -3,7 +3,7 @@ title: À propos des expériences dans Advertising Creative
 description: Découvrez comment configurer des expériences publicitaires personnalisées et optimiser les éléments publicitaires en fonction des performances.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
+source-git-commit: 9e9fe26213fb2d5e6aaffe6d9e4f1688efebc480
 workflow-type: tm+mt
 source-wordcount: '1121'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Les données de performances disponibles sont les suivantes :
 
 * Vous pouvez [afficher des données de performances détaillées pour n’importe quelle expérience](experience-performance-details.md) à partir de la vue [!UICONTROL Experiences].
 
-* Pour surveiller les performances de l’ensemble de vos expériences, créez un [rapport Creative personnalisé](/help/creative/report-custom-creative.md).
+* Pour surveiller les performances de l’ensemble de vos expériences, créez un [rapport Creative personnalisé](/help/creative/report-manage.md).
 
 ## Statuts des expériences {#experience-statuses}
 
