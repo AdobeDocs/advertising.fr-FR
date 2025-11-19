@@ -3,9 +3,9 @@ title: Activer le chargement des objectifs sur les réseaux publicitaires
 description: Découvrez comment charger des objectifs pour vos portfolios hybrides vers [!DNL Google Ads] et [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 464fd13de476f2710536bea6540e0b9be4684395
+source-git-commit: 8b741fd9e5a2cb950bc7d8ba4f3307dab23e72fe
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Chaque conversion chargée porte le nom suivant :
 
 où `<network_ID>` est l’identifiant numérique utilisé par Search, Social et Commerce pour le réseau publicitaire, `<objective_id>` est l’identifiant numérique de l’objectif et `<network_account_ID>` est l’identifiant numérique du compte ou du gestionnaire du réseau publicitaire.
 
-Les chargements vers [!DNL Google Ads] et [!DNL Microsoft Advertising] ont lieu toute la journée, parfois même toutes les heures. Pour les annonceurs et annonceuses disposant de comptes volumineux ou de configurations personnalisées, les chargements ont lieu au moins trois fois par jour.
+Les chargements vers [!DNL Google Ads] et [!DNL Microsoft Advertising] ont lieu toute la journée, généralement toutes les heures. Pour les annonceurs et annonceuses disposant de comptes volumineux ou de configurations personnalisées, les chargements ont lieu au moins trois fois par jour.
 
 >[!IMPORTANT]
 >
@@ -44,7 +44,7 @@ Les chargements vers [!DNL Google Ads] et [!DNL Microsoft Advertising] ont lieu 
 
 1. Vérifiez que chaque objectif — nommé `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` — apparaît dans les deux jours sur le réseau publicitaire.
 
-   Dans l’éditeur de [!DNL Google Ads], recherchez vos [&#x200B; actions de conversion &#x200B;](https://support.google.com/google-ads/answer/11461796). Dans l’éditeur de [!DNL Microsoft Advertising], recherchez vos [&#x200B; objectifs de conversion &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/56709).
+   Dans l’éditeur de [!DNL Google Ads], recherchez vos [ actions de conversion ](https://support.google.com/google-ads/answer/11461796). Dans l’éditeur de [!DNL Microsoft Advertising], recherchez vos [ objectifs de conversion ](https://help.ads.microsoft.com/#apex/ads/en/56709).
 
    Si nécessaire, mettez à jour la période pour inclure la date de chargement.
 
