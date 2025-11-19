@@ -3,9 +3,10 @@ title: À propos des simulations
 description: En savoir plus sur les simulations de portfolio.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 2fbefee2-f8f7-4b3d-a039-e1ca0236c61a
+source-git-commit: 73528e2aa905216584d1aa294f5581d2bca88432
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '1182'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 *Fonction Beta*
 
-Les rapports de simulation indiquent le rapport coût/objectif marginal estimé, le coût, le nombre de clics et la valeur objective que vous pouvez vous attendre à voir pour un portefeuille à différents niveaux de dépenses (coût) et les budgets quotidiens correspondants ou d’autres cibles. Vous pouvez éventuellement personnaliser la vue<!-- add link --> pour afficher des mesures de trafic supplémentaires, les paramètres de simulation et uniquement un type spécifique de simulation ([!UICONTROL Weekly] ou [!UICONTROL Custom]).
+Les rapports de simulation indiquent le rapport coût/objectif marginal estimé, le coût, le nombre de clics et la valeur objective que vous pouvez vous attendre à voir pour un portefeuille à différents niveaux de dépenses (coût) et les budgets quotidiens correspondants ou d’autres cibles. Vous pouvez éventuellement [personnaliser la vue](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) pour afficher des mesures de trafic supplémentaires, des paramètres de simulation et uniquement un type spécifique de simulation ([!UICONTROL Weekly] ou [!UICONTROL Custom]).
 
 <!-- Not available as of 6/21/25:
 When the portfolio has a daily budget, you can optionally change the portfolio's spend target to any of the spend targets listed in the simulation.
@@ -22,17 +23,73 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 ## Types de simulations
 
-* **Simulations hebdomadaires automatisées :** les rapports de simulation sont exécutés automatiquement chaque semaine à l’aide des paramètres actuels du portfolio. Les simulations hebdomadaires automatisées ne sont disponibles que pour les périodes où le portefeuille est [optimisé ou actif](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md).
+* Simulations hebdomadaires automatisées
 
-  Chaque simulation hebdomadaire téléchargée se compose d’un classeur. Chaque classeur comprend la cible pour chacun des 20 niveaux d’étape et les prévisions de coût, de clics, de revenu pondéré (valeur de l’objectif) et de mesures de conversion incluses dans l’objectif, en fonction de la cible correspondante. Pour les 20 premières lignes de données, aucune contrainte n’a été appliquée ; pour les autres lignes de données, des contraintes ont été appliquées.
+* Simulations personnalisées générées par l’utilisateur
 
-* **Simulations personnalisées générées par l’utilisateur :** vous pouvez créer un rapport de simulation personnalisé pour un seul portfolio [optimisé ou actif](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) à l’aide des paramètres actuels du portfolio ou des paramètres personnalisés du portfolio pour afficher les résultats que ces paramètres produiraient sans les modifier réellement. Par exemple, vous pouvez créer une simulation personnalisée pour voir l’effet de l’utilisation d’une stratégie de dépenses ou d’un budget d’apprentissage différents<!-- Not available yet:  , or without considering active constraints on bid units in the portfolio-->. Vous pouvez afficher les performances estimées au niveau du portefeuille, de la campagne, de l’unité d’enchères et de l’appareil. Les simulations personnalisées héritent du paramètre de dépenses des contraintes du portefeuille.
+### Simulations hebdomadaires automatisées
 
-  >[!NOTE]
-  >
-  > Le nouveau formulaire de simulation personnalisé utilise les mêmes paramètres que l&#39;ancien formulaire, sauf qu&#39;il hérite des informations sur les contraintes d&#39;unité d&#39;enchères des paramètres du portefeuille. Vous n’avez pas la possibilité d’ignorer les contraintes d’unité d’enchères, comme vous l’avez fait dans l’ancienne page des paramètres personnalisés de simulation.
+Les rapports de simulation sont exécutés automatiquement chaque semaine à l’aide des paramètres actuels du portfolio. Les simulations hebdomadaires automatisées ne sont disponibles que pour les périodes où le portefeuille est [optimisé ou actif](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md).
 
-  Chaque simulation personnalisée téléchargée se compose d’un classeur. Chaque classeur comprend une feuille de calcul pour chaque niveau d&#39;entité spécifié de la simulation (portfolios, campagnes, groupes publicitaires, unités d&#39;enchères) lorsque des données sont disponibles pour ce niveau. Lorsque vous spécifiez des données au niveau de l’appareil, chaque feuille de calcul inclut une colonne [!UICONTROL Device]. Chaque feuille de calcul comprend une ligne avec des données pour chaque entité applicable et (lorsqu’elles sont spécifiées pour le rapport) et un type d’appareil pour chacune des 20 étapes (par exemple, une ligne par campagne). Les données de chaque ligne incluent le rapport coût/chiffre d’affaires marginal prévisionnel, le coût, les clics, le chiffre d’affaires pondéré (valeur de l’objectif), le type d’appareil et les mesures de conversion inclus dans l’objectif, en fonction de la cible correspondante. La feuille de calcul au niveau du portefeuille inclut également la cible pour les niveaux d’étape, et la feuille de calcul au niveau de l’entité inclut le réseau publicitaire, le compte, la campagne et (le cas échéant) le groupe publicitaire.   <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
+#### Simulations hebdomadaires téléchargées
+
+Chaque simulation hebdomadaire téléchargée se compose d’un classeur. Chaque classeur comprend la cible pour chacun des 20 niveaux d’étape et les prévisions de coût, de clics, de revenu pondéré (valeur de l’objectif) et de mesures de conversion incluses dans l’objectif, en fonction de la cible correspondante. Pour les 20 premières lignes de données, aucune contrainte n’a été appliquée ; pour les autres lignes de données, des contraintes ont été appliquées.
+
+#### Détails de la simulation hebdomadaire à l’écran
+
+Les détails de la simulation à l’écran affichent des informations visuelles et tabulaires au niveau du portfolio. Pour les données par campagne, groupe publicitaire, entité d’enchères ou appareil, [téléchargez la simulation](simulation-download.md) à la place.
+
+##### Vue Graphique
+
+L’affichage graphique présente la valeur de l’objectif attendu ou une autre mesure spécifiée ([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->) pour la cible des dépenses, pour chacun des 20 niveaux de dépenses. Le point médian cible est identifié et vous pouvez éventuellement le modifier pour afficher les données prédites à l’aide de cette valeur. Placez le curseur sur n’importe quel point du graphique pour afficher les données de ce point.
+
+Vous pouvez afficher les données avec et sans contraintes, avec et sans contraintes. Lorsque vous affichez des données qui prennent en compte les contraintes, les contraintes appliquées sont identifiées au-dessus du graphique.
+
+##### Vue Tableau
+
+La vue Tableau affiche les dépenses cibles pour chacun des 20 niveaux de dépenses. Il inclut également le coût estimé correspondant, le coût marginal par rapport à la valeur objective, les clics, la valeur objective et les mesures de conversion dans l’objectif du portefeuille pour chaque niveau de dépenses. Le point médian cible est identifié et vous pouvez éventuellement le modifier pour afficher les données prédites à l’aide de cette valeur.
+
+Vous pouvez afficher les données avec et sans contraintes, avec et sans contraintes. Lorsque vous affichez des données qui prennent en compte les contraintes, les contraintes appliquées sont identifiées au-dessus du graphique.
+
+##### Paramètres de simulation
+
+Les paramètres de simulation s’affichent en lecture seule sous le graphique ou le tableau.
+
+##### Paramètres de Portfolio
+
+Pour afficher les paramètres en lecture seule du portfolio applicable, cliquez sur **[!UICONTROL Portfolio Settings]** en haut à droite.
+
+### Simulations personnalisées générées par l’utilisateur
+
+Vous pouvez créer un rapport de simulation personnalisé pour un seul portefeuille [optimisé ou actif](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) à l&#39;aide des paramètres de portefeuille actuels ou des paramètres de portefeuille personnalisés, avec ou sans contraintes au niveau de l&#39;unité d&#39;offre appliquées, pour voir les résultats que ces paramètres produiraient sans les modifier réellement. Par exemple, vous pouvez créer une simulation personnalisée pour voir l’effet de l’utilisation d’une stratégie de dépenses ou d’un budget d’apprentissage différents sans tenir compte des contraintes actives sur les unités d’enchères du portefeuille. Vous pouvez afficher les performances estimées au niveau du portefeuille, de la campagne, de l’unité d’enchères et de l’appareil.
+
+#### Simulations personnalisées téléchargées
+
+Chaque simulation personnalisée téléchargée se compose d’un classeur. Chaque classeur comprend une feuille de calcul pour chaque niveau d&#39;entité spécifié de la simulation (portfolios, campagnes, groupes publicitaires, unités d&#39;enchères) lorsque des données sont disponibles pour ce niveau. Lorsque vous spécifiez des données au niveau de l’appareil, chaque feuille de calcul inclut une colonne [!UICONTROL Device]. Chaque feuille de calcul comprend une ligne avec des données pour chaque entité applicable et (lorsqu’elles sont spécifiées pour le rapport) et un type d’appareil pour chacune des 20 étapes (par exemple, une ligne par campagne). Les données de chaque ligne incluent le rapport coût/chiffre d’affaires marginal prévisionnel, le coût, les clics, le chiffre d’affaires pondéré (valeur de l’objectif), le type d’appareil et les mesures de conversion inclus dans l’objectif, en fonction de la cible correspondante. La feuille de calcul au niveau du portefeuille inclut également la cible pour les niveaux d’étape, et la feuille de calcul au niveau de l’entité inclut le réseau publicitaire, le compte, la campagne et (le cas échéant) le groupe publicitaire.   <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
+
+#### Détails de la simulation personnalisée à l’écran
+
+Les détails de la simulation à l’écran affichent des informations visuelles et tabulaires au niveau du portfolio. Pour les données par campagne, groupe publicitaire, entité d’enchères ou appareil, [téléchargez la simulation](simulation-download.md) à la place.
+
+#### Vue Graphique
+
+La vue graphique affiche la valeur d’objectif attendue ou une autre mesure spécifiée ([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->) pour la cible de dépenses pour le nombre spécifié de niveaux de dépenses (étapes) pour la simulation. Le point médian cible est identifié. Placez le curseur sur n’importe quel point du graphique pour afficher les données de ce point.
+
+Lorsque la simulation a été créée en tenant compte des contraintes, les contraintes appliquées sont identifiées au-dessus du graphique.
+
+##### Vue Tableau
+
+Le tableau montre les dépenses cibles pour chacun du nombre spécifié de niveaux de dépenses (étapes) pour la simulation. Il affiche également le coût estimé correspondant, le coût marginal par rapport à la valeur objective, les clics, la valeur objective et les mesures de conversion dans l’objectif du portefeuille pour chaque niveau de dépenses. Le point médian cible est identifié.
+
+Lorsque la simulation a été créée en tenant compte des contraintes, les contraintes appliquées sont identifiées au-dessus du graphique.
+
+##### Paramètres de simulation
+
+Les paramètres de simulation s’affichent en lecture seule sous le graphique ou le tableau.
+
+##### Paramètres de Portfolio
+
+Pour afficher les paramètres en lecture seule du portfolio applicable, cliquez sur **[!UICONTROL Portfolio Settings]** en haut à droite.
 
 ## La vue [!UICONTROL Simulations]
 
@@ -46,6 +103,8 @@ Le tableau de données comprend la progression de chaque simulation ; une colonn
 
 * [Générer ou réexécuter une simulation personnalisée](simulation-create.md) pour un seul portfolio. Vous pouvez créer une nouvelle simulation ou régénérer une simulation existante dans la liste.
 
+* [Affichez une simulation hebdomadaire ou personnalisée à l’écran](simulation-view.md).
+
 * [Téléchargez des simulations hebdomadaires et personnalisées](simulation-download.md) sous forme de classeurs [!DNL Microsoft Excel] dans des fichiers ZIP.
 
 * À l’aide du bouton [!UICONTROL Spend Planner] , ouvrez l’outil hérité de recommandation des dépenses, qui vous aide à identifier la répartition optimale des dépenses entre les portefeuilles.
@@ -56,11 +115,12 @@ Surveillez les rapports de simulation dans les situations suivantes :
 
 * Avant de lancer un portfolio, estimez les performances attendues avec les paramètres de portfolio correspondants ; utilisez au moins deux semaines de données. Si les résultats de la simulation indiquent des performances inférieures à celles que vous attendiez sur la base des données historiques pour les campagnes incluses, recherchez et résolvez les problèmes avant de lancer le portfolio.
 
-* Après tout changement majeur apporté à un portefeuille, tel que l’ajout d’une campagne ou la modification de l’objectif. Si vous apportez des modifications à la date de début de modélisation du portefeuille, au poids d’une mesure de conversion ou à la valeur de clic d’un objectif, attendez après 17 h 00 PST le lendemain pour exécuter la simulation, lorsque des modèles de coûts et de revenus mis à jour sont disponibles.
+* Après tout changement majeur apporté à un portefeuille, tel que l’ajout d’une campagne ou la modification de l’objectif. Si vous apportez des modifications à la date de début de modélisation du portefeuille, au poids d’une mesure de conversion ou à la valeur de clic d’un objectif, attendez après 17 :00 PST le lendemain pour exécuter la simulation, lorsque des modèles de coûts et de revenus mis à jour sont disponibles.
 
 * Surveillez régulièrement les tendances de performances au niveau des mesures de conversion.
 
 >[!MORELIKETHIS]
 >
 >* [Exécuter ou réexécuter une simulation](simulation-create.md)
+>* [Afficher les détails de la simulation](simulation-view.md)
 >* [Télécharger des simulations](simulation-download.md)
