@@ -3,9 +3,10 @@ title: Téléchargement de simulations
 description: Découvrez comment télécharger des simulations dans un fichier de feuille de calcul.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
+source-git-commit: f34bbc952d7d2a23349df718ea5eabab272bf3c8
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,8 @@ Vous pouvez télécharger les données de plusieurs simulations à la fois dans 
 
 >[!NOTE]
 >
->Vous pouvez également [personnaliser la vue [!UICONTROL Simulations]](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) afin d’inclure des colonnes pour de nombreuses mesures supplémentaires et la plupart des paramètres de la simulation. Consultez la section « Actions disponibles » dans « [&#x200B; À propos des simulations &#x200B;](simulation-about.md#simulations-actions) pour plus d’informations sur les colonnes que vous pouvez inclure.
+>* Vous pouvez également [afficher les résultats de la simulation à l’écran](simulation-view.md).
+>* Vous pouvez [personnaliser la vue [!UICONTROL Simulations]](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) afin d’inclure des colonnes pour de nombreuses mesures supplémentaires et la plupart des paramètres de simulation. Consultez la section « Actions disponibles » dans « [ À propos des simulations ](simulation-about.md#simulations-actions) pour plus d’informations sur les colonnes que vous pouvez inclure.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 
@@ -32,3 +34,4 @@ Vous pouvez télécharger les données de plusieurs simulations à la fois dans 
 >
 >* [À propos des simulations](simulation-about.md)
 >* [Exécuter ou réexécuter une simulation](simulation-create.md)
+>* [Afficher les détails de la simulation](simulation-view.md)
