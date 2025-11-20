@@ -14,8 +14,8 @@ ht-degree: 56%
 
 # Assistance Adobe Advertising en matière de protection de la vie privée des clients et clientes {#privacy}
 
-+ [À propos de la prise en charge des Adobes Advertising pour la confidentialité des clients](/help/privacy/home.md)
++ [À propos de la prise en charge de la confidentialité des consommateurs par Adobe Advertising](/help/privacy/home.md)
 + [Prise en charge du RGPD](/help/privacy/gdpr.md)
-+ Prise en charge de la CCPA {#ccpa}
-   + [Prise en charge du CCPA : accès et suppression des données client](/help/privacy/ccpa/ccpa-access-delete.md)
-   + [(DSP uniquement) Prise en charge du CCPA : droit d’opposition des consommateurs](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
++ Prise en charge du CCPA {#ccpa}
+   + [Prise en charge du CCPA : Accès et suppression des données des clients](/help/privacy/ccpa/ccpa-access-delete.md)
+   + [(DSP uniquement) Prise en charge du CCPA : désinscription de la vente par le consommateur](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
