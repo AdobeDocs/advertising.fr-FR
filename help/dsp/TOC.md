@@ -183,7 +183,7 @@ ht-degree: 3%
             + Offres programmatiques garanties de [!DNL FreeWheel] {#freewheel}
                + [Présentation de la configuration d&#39;affaires programmatiques garanties dans  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
                + [Envoyer une annonce pour une offre programmatique garantie à  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
-               + [Vérifier le statut des publicités pour les offres programmatiques garanties  [!DNL FreeWheel] ](/help/dsp/inventory/freewheel-check-status.md)
+               + [Vérifier le statut des publicités pour les offres programmatiques garanties  [!DNL FreeWheel] &#x200B;](/help/dsp/inventory/freewheel-check-status.md)
                + [Codes d&#39;erreur pour FreeWheel Ad Submissions](/help/dsp/inventory/freewheel-error-codes.md)
       + [Modifier les paramètres d’une transaction privée](/help/dsp/inventory/deal-id-edit.md)
       + [Spécifier les emplacements et les annonces pour une offre privée](/help/dsp/inventory/deal-id-attach-placements.md)
