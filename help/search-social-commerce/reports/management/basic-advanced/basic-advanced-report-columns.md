@@ -3,7 +3,7 @@ title: Colonnes de rapport pour les rapports de base et avancés
 description: Découvrez les colonnes de données disponibles pour les rapports de base et avancés.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: f5fa38460486a5eadce8c8e6334723f67e3814f5
+source-git-commit: 817c8ab0dce5412e4b3a235c3c032e5691d235ba
 workflow-type: tm+mt
 source-wordcount: '3806'
 ht-degree: 0%
@@ -38,9 +38,9 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | Dimensions de la publicité. |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] des annonces responsive sur le Réseau de Recherche) L’efficacité de l’annonce : <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> ou <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | (Campagnes [!DNL Google Ads], [!DNL Microsoft Advertising] et [!DNL Yahoo! Japan Ads]) Ajustement des enchères mobiles au niveau du groupe publicitaire actuel, qui détermine la manière dont les enchères sont ajustées lorsque la publicité est affichée sur un appareil mobile. |
-| [!UICONTROL AI Max Bundling Required] | (Campagnes ciblant uniquement le réseau de recherche ; campagnes avec la fonction AI Max activée ; lecture seule) Si le regroupement est requis : *[!UICONTROL NOT_REQUIRED]* ou nul. |
-| [!UICONTROL AI Max Enabled] | Indique si la fonction [[!UICONTROL AI Max]](https://support.google.com/google-ads/answer/15910366) est activée : *[!UICONTROL false]* ou null. |
-| [!UICONTROL AI Max Search Term Matching] | (Campagnes qui ciblent le réseau de recherche et pour lesquelles la fonctionnalité [IA Max](https://support.google.com/google-ads/answer/15910366) et la fonctionnalité de correspondance des termes de recherche au niveau de la campagne sont activées ; lecture seule) Si la correspondance des termes de recherche au niveau du groupe publicitaire est activée : *[!UICONTROL true]* ou nul. |
+| [!UICONTROL AI Max Bundling Required] | (Campagnes ciblant uniquement le réseau de recherche ; campagnes avec la fonction AI Max activée ; lecture seule) Si le regroupement est requis : *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* ou nul. |
+| [!UICONTROL AI Max Enabled] | Indique si la fonction [[!UICONTROL AI Max]](https://support.google.com/google-ads/answer/15910366) est activée : [!UICONTROL true]*, *[!UICONTROL false]* ou null. |
+| [!UICONTROL AI Max Search Term Matching] | (Campagnes qui ciblent le réseau de recherche et pour lesquelles la fonctionnalité [IA Max](https://support.google.com/google-ads/answer/15910366) et la fonctionnalité de correspondance des termes de recherche au niveau de la campagne sont activées ; lecture seule) Si la correspondance des termes de recherche au niveau du groupe publicitaire est activée : *[!UICONTROL true]*, *[!UICONTROL false]* ou null. |
 | [!UICONTROL Advertiser] | Nom de l’annonceur. |
 | [!UICONTROL Advertiser ID] | Identifiant numérique du compte Search, Social et Commerce de l’annonceur. |
 | [!UICONTROL Avg Position] | Position moyenne des annonces au cours de la période spécifiée.<br><br>Pour les campagnes [!DNL Google Ads] et [!DNL Yahoo! Japan Ads], ces données ne sont disponibles que jusqu’en septembre 2019. Par [!DNL Microsoft Advertising], ces données ne sont disponibles que jusqu’au 22 janvier 2021. |
