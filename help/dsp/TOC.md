@@ -4,7 +4,7 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: a3bd04da6c6f428fdb6e1f05187ea3de0174c9d7
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 3%
@@ -13,14 +13,6 @@ ht-degree: 3%
 
 
 # Guide d’Advertising DSP {#dsp}
-
-<!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
-      + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
--->
-
-<!-- add back to Inventory > SAS section when reimplemented:
-      +  [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](/help/dsp/inventory/simple-deal-show-pixels.md)
--->
 
 + [Nouveautés](/help/dsp/home.md)
 + [Connexion à Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)
@@ -32,8 +24,8 @@ ht-degree: 3%
       + [Solutions sur plusieurs appareils](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Financement du compte](/help/dsp/introduction/billing/account-funding.md)
    + [Devises prises en charge](/help/dsp/currency.md)
-   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [Solutions de mesures avancées](/help/dsp/introduction/advanced-measurement-services.md)
 + Gestion de campagne {#campaign-management}
    + [Présentation de la structure de gestion de campagne](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -84,7 +76,7 @@ ht-degree: 3%
       + [Vérifier Les Détails Des Annonces À L’Aide Des Feuilles De Calcul](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Modification d’une publicité](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Dupliquer une publicité](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Joindre et supprimer des publicités des emplacements](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=fr)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [Joindre et supprimer des publicités des emplacements](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Affichage d’un rapport détaillé pour une publicité](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Mettre en pause ou activer une publicité](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -183,7 +175,7 @@ ht-degree: 3%
             + Offres programmatiques garanties de [!DNL FreeWheel] {#freewheel}
                + [Présentation de la configuration d&#39;affaires programmatiques garanties dans  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
                + [Envoyer une annonce pour une offre programmatique garantie à  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
-               + [Vérifier le statut des publicités pour les offres programmatiques garanties  [!DNL FreeWheel] &#x200B;](/help/dsp/inventory/freewheel-check-status.md)
+               + [Vérifier le statut des publicités pour les offres programmatiques garanties  [!DNL FreeWheel] ](/help/dsp/inventory/freewheel-check-status.md)
                + [Codes d&#39;erreur pour FreeWheel Ad Submissions](/help/dsp/inventory/freewheel-error-codes.md)
       + [Modifier les paramètres d’une transaction privée](/help/dsp/inventory/deal-id-edit.md)
       + [Spécifier les emplacements et les annonces pour une offre privée](/help/dsp/inventory/deal-id-attach-placements.md)
@@ -239,6 +231,15 @@ ht-degree: 3%
    + Notifications {#notifications}
       + [À propos des abonnements aux alertes](/help/dsp/admin/alerts-about.md)
       + [Gérer les abonnements aux alertes](/help/dsp/admin/alerts-manage.md)
-+ [Intégrations avec Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=fr)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Intégrations avec Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Obtenir de l’aide](/help/dsp/get-help.md)
-+ [Notes De Mise À Jour De Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)
++ [Notes De Mise À Jour De Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
+
+
+<!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
+      + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
+-->
+
+<!-- add back to Inventory > SAS section when reimplemented:
+      +  [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](/help/dsp/inventory/simple-deal-show-pixels.md)
+-->
