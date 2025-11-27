@@ -239,7 +239,7 @@ Pour obtenir une description de chaque champ de données, voir « [Tous les cham
 
 ### Annonce de recherche dynamique étendue
 
-Ce type d’annonce est désormais appelé « annonce de recherche dynamique » dans [!DNL Google Ads]. Pour plus d’informations sur la création d’annonces de recherches dynamiques, voir « [Implémenter [!DNL Google Ads] des annonces de recherches dynamiques](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html) ».
+Ce type d’annonce est désormais appelé « annonce de recherche dynamique » dans [!DNL Google Ads]. Pour plus d’informations sur la création d’annonces de recherches dynamiques, voir « [Implémenter [!DNL Google Ads] des annonces de recherches dynamiques](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=fr) ».
 
 Pour ce type d’annonce, utilisez la ligne « [!UICONTROL Creative (except RSA)] » dans la boîte de dialogue [!UICONTROL Download Bulksheet].
 
@@ -264,7 +264,7 @@ Pour obtenir une description de chaque champ de données, voir « [Tous les cham
 
 ### Champs de liste de produits/d’annonces d’achats
 
-Pour plus d’informations sur la création d’annonces d’achats, voir « [Implémenter [!DNL Google Ads] des campagnes d’achats](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html) ».
+Pour plus d’informations sur la création d’annonces d’achats, voir « [Implémenter [!DNL Google Ads] des campagnes d’achats](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=fr) ».
 
 Pour ce type d’annonce, utilisez la ligne « [!UICONTROL Creative (except RSA)] » dans la boîte de dialogue [!UICONTROL Download Bulksheet].
 
