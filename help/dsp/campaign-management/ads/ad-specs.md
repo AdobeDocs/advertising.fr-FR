@@ -3,7 +3,7 @@ title: Spécifications publicitaires
 description: Référencez les spécifications publicitaires générales et spécifiques à l’éditeur.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 10e85f9ec0b7b867828cc9ac154af6f4982c44d2
+source-git-commit: a6f9bb2d714e7ddb22f74c9c614772eca30f9e40
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -56,9 +56,9 @@ Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flas
 
 * **A+E Network :** consultez les spécifications [ad de A+E Network](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
 
-* **Discovery :** consultez les spécifications des annonces publicitaires [&#x200B; de Discovery](/help/dsp/assets/discovery-networks-ad-specs.pdf).
+* **Discovery :** consultez les spécifications des annonces publicitaires [ de Discovery](/help/dsp/assets/discovery-networks-ad-specs.pdf).
 
-* **Disney (inclus Hulu) :** Voir les spécifications des [annonces publicitaires](https://hulu.disneyadsales.com/ad-products/video-commercial/) de Disney.
+* **Disney (inclus Hulu) :** Voir les spécifications des [annonces publicitaires](https://www.disneyadvertising.com/mediakit/#specifications) de Disney.
 
 * **HBO Max :** consultez les spécifications [ad de HBO Max](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
 
@@ -66,7 +66,7 @@ Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flas
 
    * [Vidéo numérique](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
-   * [&#x200B; Livestream &#x200B;](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+   * [ Livestream ](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
    * [Paon](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
