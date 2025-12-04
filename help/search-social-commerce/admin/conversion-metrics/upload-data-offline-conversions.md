@@ -3,7 +3,7 @@ title: Chargement des données de conversion hors ligne pour les conversions am�
 description: Découvrez comment charger des données de conversion propriétaires hors ligne pour mapper vers des conversions  [!DNL Google Ads]  pour les prospects et des conversions  [!DNL Microsoft Advertising] .
 feature: Conversions
 exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 0%
@@ -67,5 +67,5 @@ Pour plus d’instructions sur l’utilisation du modèle, voir [https://help.ad
 >
 >* [Implémenter  [!DNL Google Ads]  conversions améliorées pour les prospects](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
 >* [Implémenter  [!DNL Microsoft Advertising]  conversions hors ligne améliorées](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
->* [([!DNL Google Ads only]) Créer une action de conversion pour une conversion  [!DNL Google Ads]  pour les prospects](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* [Création d’une action de conversion pour une conversion  [!DNL Google Ads]  pour les prospects](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
 >* [Charger les mesures de conversion suivies par Search, Social et Commerce vers [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
