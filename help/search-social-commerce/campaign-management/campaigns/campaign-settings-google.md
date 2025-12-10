@@ -62,7 +62,7 @@ ht-degree: 0%
 
 **[!UICONTROL Contains EU Political Ads]:**(Applicable aux campagnes qui ciblent des audiences dans l’Union européenne (UE)) Que la campagne contienne ou non de la publicité politique selon les exigences pour les publicités diffusées dans l’Union européenne en vertu du règlement 2024/90 de l’UE : *[!UICONTROL Yes]* ou *[!UICONTROL No]*.
 
-**[!UICONTROL AI Max Enabled]:** (campagnes qui ciblent uniquement le réseau de recherche ; lecture seule) Si la fonction [[!UICONTROL AI Max] est activée ](https://support.google.com/google-ads/answer/15910366) : *[!UICONTROL On]* ou *[!UICONTROL Off]*.
+**[!UICONTROL AI Max Enabled]:** (campagnes qui ciblent uniquement le réseau de recherche ; lecture seule) Si la fonction [[!UICONTROL AI Max] est activée &#x200B;](https://support.google.com/google-ads/answer/15910366) : *[!UICONTROL On]* ou *[!UICONTROL Off]*.
 
 **[!UICONTROL AI Max Bundling]:** (campagnes ciblant uniquement le réseau de recherche ; campagnes avec la fonction AI Max activée ; lecture seule) Si le regroupement est requis : *[!UICONTROL Not Required]*, *[!UICONTROL Required]*, *[!UICONTROL Unknown]* ou *[!UICONTROL Unspecified]*.
 
@@ -135,7 +135,7 @@ les produits de la campagne sont vendus. Comme les produits sont associés aux p
 
 **Conseil :** si vous utilisez ce paramètre, n’excluez pas les publicités locales du paramètre [!UICONTROL Inventory Filter].
 
-**Remarque** les annonces d’inventaire local nécessitent deux flux supplémentaires à [!DNL Google Merchant Center] : l’un avec vos données de produit local et l’autre avec votre inventaire de produit local. Pour plus d’informations sur les [!DNL Google Ads]annonces d’achats locaux[, consultez la documentation ](https://www.google.com/retail/local-inventory-ads/) .
+**Remarque** les annonces d’inventaire local nécessitent deux flux supplémentaires à [!DNL Google Merchant Center] : l’un avec vos données de produit local et l’autre avec votre inventaire de produit local. Pour plus d’informations sur les [!DNL Google Ads]annonces d’achats locaux[, consultez la documentation &#x200B;](https://www.google.com/retail/local-inventory-ads/) .
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 
@@ -224,7 +224,7 @@ par pays. Si vous ne sélectionnez aucune option, elles sont toutes ciblées.
 
 * *[!UICONTROL Bid higher for new customers than for existing customers]*
 
-  **Remarque :** pour utiliser ce paramètre, vous devez d’abord activer le nouvel objectif d’acquisition de clients pour le compte [!DNL Google Ads] ou, le cas échéant, pour le compte responsable. L’objectif définit les listes de clients existants éligibles et la valeur de conversion supplémentaire pour les nouveaux clients dans les paramètres de conversion. Voir les étapes 1 à 2 dans l’aide [!DNL Google Ads] « [ Activer l’objectif d’acquisition de nouveaux clients ](https://support.google.com/google-ads/answer/14007601) ».
+  **Remarque :** pour utiliser ce paramètre, vous devez d’abord activer le nouvel objectif d’acquisition de clients pour le compte [!DNL Google Ads] ou, le cas échéant, pour le compte responsable. L’objectif définit les listes de clients existants éligibles et la valeur de conversion supplémentaire pour les nouveaux clients dans les paramètres de conversion. Voir les étapes 1 à 2 dans l’aide [!DNL Google Ads] « [&#x200B; Activer l’objectif d’acquisition de nouveaux clients &#x200B;](https://support.google.com/google-ads/answer/14007601) ».
 
 * *[!UICONTROL Only bid for new customers]*
 
@@ -381,7 +381,7 @@ Vous pouvez saisir du texte ou sélectionner des ressources à partir de votre [
 
 **[!UICONTROL Primary Status]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes Performance Max) Pourquoi le groupe de ressources est-il diffusé ou non à pleine capacité ? Il prend en compte le statut du groupe de ressources ainsi que d’autres signaux, tels que les approbations de politique et de qualité. Les valeurs peuvent inclure *ÉLIGIBLE,* *LIMITÉ,* *NOT_ELIGIBLE,* *EN PAUSE,* *EN ATTENTE,* SUPPRIMÉ,*UNKNOWN,* ou *UNSPECIFIED.* **<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
-**[!UICONTROL Primary Status Reason]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes Performance Max) Informations supplémentaires sur le statut principal du groupe de ressources. Les valeurs peuvent inclure *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* CAMPAIGN_ENDED,*CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,*ou* UNSPECIFIED.** ** **
+**[!UICONTROL Primary Status Reason]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes Performance Max) Informations supplémentaires sur le statut principal du groupe de ressources. Les valeurs peuvent inclure *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* CAMPAIGN_ENDED,*CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,*ou* UNSPECIFIED.**&#x200B; ** **
 
 ## [!UICONTROL Conversion Goals]
 

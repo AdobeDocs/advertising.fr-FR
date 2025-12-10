@@ -239,7 +239,7 @@ Les champs de données du fichier de flux peuvent contenir au maximum 25 caract�
 
 **[!UICONTROL Param 3]:** (modèles de [!DNL Microsoft Advertising] uniquement) Chaîne à utiliser comme valeur de substitution dans une publicité si le titre, le texte, l’URL d’affichage ou l’URL finale contient la chaîne de substitution dynamique `{Param3}`. La longueur maximale est de 70 caractères, mais gardez à l’esprit la longueur maximale des éléments publicitaires dans lesquels vous l’utilisez (par exemple, un titre d’annonce peut contenir jusqu’à 25 caractères).
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** enchère initiale pour chaque mot-clé avec le type de correspondance ou le type d’annonce spécifié.
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** enchère initiale pour chaque mot-clé avec le type de correspondance ou le type d’annonce spécifié.
 
 ## [!UICONTROL Ads]
 
