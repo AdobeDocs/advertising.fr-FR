@@ -4,9 +4,9 @@ description: Découvrez comment modifier les paramètres de plusieurs portefeuil
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Les notifications sont également ajoutées au Centre de notifications. Vous pou
 
 ## Exigences de données pour les fichiers de feuilles d’envoi groupé chargés
 
-Voir l’onglet [!UICONTROL Instructions] sur le fichier de feuille d’envoi groupé téléchargé.
+Tous les fichiers de feuille d’envoi groupé doivent inclure la [!UICONTROL Portfolio ID] de colonne et chaque ligne de données doit inclure une valeur pour que le [!UICONTROL Portfolio ID] soit exploitable. Pour plus d’informations sur les exigences en matière de données, voir l’onglet [!UICONTROL Instructions] du fichier de feuille d’envoi groupé téléchargé.
 
 Pour plus d’informations sur les colonnes de paramétrage du portfolio dans l’onglet [!UICONTROL Portfolio Settings Edit] , consultez le Guide d’optimisation , disponible dans Search, Social et Commerce.
 
@@ -79,6 +79,6 @@ Pour plus d’informations sur les colonnes de paramétrage du portfolio dans l�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
+>* [ (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
 >* [Créer un portfolio](portfolio-create.md)
->* [&#x200B; (nouvelle interface utilisateur) À propos des portfolios](portfolio-about.md)
+>* [ (nouvelle interface utilisateur) À propos des portfolios](portfolio-about.md)
