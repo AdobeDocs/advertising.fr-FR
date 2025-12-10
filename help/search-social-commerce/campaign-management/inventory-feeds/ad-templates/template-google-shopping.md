@@ -1,24 +1,24 @@
 ---
-title: Paramètres de modèle d’annonce d’achat "[!DNL Google Ads]" pour les flux d’inventaire
-description: Référencez les paramètres pour  [!DNL Google Ads] acheter des modèles d’annonces pour les flux d’inventaire.
+title: '[!DNL Google Ads] des paramètres de modèle d’annonce publicitaire pour les flux d’inventaire'
+description: Référencez les paramètres des modèles d [!DNL Google Ads] annonces d’achat pour les flux d’inventaire.
 exl-id: 36cbe719-f984-4456-8575-94b9d3e6094e
 feature: Search Inventory Feeds
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] paramètres de modèle d’annonce d’achat pour les flux d’inventaire
+# [!DNL Google Ads] des paramètres de modèle d’annonce publicitaire pour les flux d’inventaire
 
-Utilisez les modèles d’annonces d’achat pour configurer des annonces d’achat.
+Utilisez des modèles d’annonces publicitaires pour configurer les annonces publicitaires.
 
 >[!NOTE]
 >
->* Les caractères suivants sont réservés à la désignation des noms de colonne et des noms de modificateur dans le modèle et sont donc interdits en tant que texte dans tous les champs d&#39;attribut : `[ ] < > `
+>* Les caractères suivants sont réservés à la désignation des noms de colonne et de modificateur dans le modèle et sont donc interdits en tant que texte dans tous les champs d’attribut : `[ ] < > `
 
-## \[Au-dessus de tous les onglets\]
+## \[Surtout les onglets\]
 
 <!-- **Template Name:** -->
 
@@ -56,11 +56,11 @@ Utilisez les modèles d’annonces d’achat pour configurer des annonces d’ac
 
 {{$include /help/_includes/inventory-feed-template-shopping-campaign-map-method.md}}
 
-**[!UICONTROL Campaign Tracking Template]:** (Facultatif pour les modèles de fichiers de flux client) Le modèle de suivi au niveau de la campagne, qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi et incorpore l’URL finale dans un paramètre. Cette valeur remplace le paramètre au niveau du compte, mais les modèles de suivi à des niveaux plus granulaires (avec le mot-clé comme plus granulaire) remplacent cette valeur.
+**[!UICONTROL Campaign Tracking Template]:** (facultatif pour les modèles de fichiers de flux client) Modèle de suivi au niveau de la campagne, qui spécifie toutes les redirections de domaine et tous les paramètres de suivi hors de l’atterrissage et incorpore l’URL finale dans un paramètre. Cette valeur remplace le paramètre au niveau du compte, mais les modèles de suivi à des niveaux plus granulaires (avec le mot-clé comme le plus granulaire) remplacent cette valeur.
 
-Pour le suivi de conversion d’Adobe Advertising, qui est appliqué lorsque les paramètres de campagne incluent &quot;[!UICONTROL EF Redirect]&quot; et &quot;[!UICONTROL Auto Upload]&quot;, utilisez le [&#x200B; format de modèle de suivi pour les campagnes commerciales Google Ads](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Si l’intégralité du compte est dédiée aux publicités commerciales, vous pouvez définir un modèle de suivi au niveau du compte.
+Pour le suivi des conversions Adobe Advertising, qui est appliqué lorsque les paramètres de la campagne incluent « [!UICONTROL EF Redirect] » et « [!UICONTROL Auto Upload] », utilisez le [format de modèle de suivi pour les campagnes d’achats Google Ads](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Si l’ensemble du compte est dédié aux annonces d’achats, vous pouvez plutôt définir un modèle de suivi au niveau du compte.
 
-Pour les redirections et le suivi tiers, saisissez une valeur.
+Pour les redirections et le suivi tiers, saisissez une valeur .
 
 <!-- **[!UICONTROL Campaign Final URL Suffix]:** -->
 
@@ -68,8 +68,8 @@ Pour les redirections et le suivi tiers, saisissez une valeur.
 
 **[!UICONTROL Merchant ID]:** ID client du compte marchand dont les produits sont utilisés pour la campagne.
 
-**[!UICONTROL Sales Country]:** pays dans lequel les produits de la campagne sont vendus. Les produits étant associés
-avec les pays cibles, ce paramètre détermine les produits qui sont annoncés dans la campagne.
+**[!UICONTROL Sales Country]:** Pays dans lequel les produits de la campagne sont vendus. Parce que les produits sont associés
+avec les pays cibles, ce paramètre détermine les produits qui font l’objet de publicités dans la campagne.
 
 <!-- **[!UICONTROL Stock Level]:** -->
 
@@ -93,15 +93,17 @@ avec les pays cibles, ce paramètre détermine les produits qui sont annoncés d
 
 {{$include /help/_includes/inventory-feed-template-campaign-initial-budget.md}}
 
-**[!UICONTROL Networks]:** réseaux sur lesquels placer des publicités. *[!UICONTROL Search]* est déjà sélectionné. Pour inclure des offres sur les listes pour les partenaires de recherche [!DNL Google Ads], cochez la case en regard de **[!UICONTROL Search partners]**.
+**[!UICONTROL Networks]:** Les réseaux sur lesquels placer des annonces publicitaires. *[!UICONTROL Search]* est déjà sélectionné. Pour inclure des enchères sur des annonces de partenaires de recherche [!DNL Google Ads], cochez la case en regard de **[!UICONTROL Search partners]**.
 
-**[!UICONTROL Campaign Priority]:** Priorité avec laquelle la campagne est utilisée lorsque plusieurs campagnes font de la publicité pour la variable
+**[!UICONTROL Campaign Priority]:** priorité d’utilisation de la campagne lorsque plusieurs campagnes annoncent la campagne
 même produit : *[!UICONTROL Low]* (valeur par défaut pour les nouvelles campagnes), *[!UICONTROL Medium]* ou *[!UICONTROL High]*. Lorsque le même produit est inclus dans plusieurs campagnes, le réseau publicitaire utilise
-la priorité de la campagne doit d’abord déterminer la campagne (et l’offre associée) éligible à l’enchère publicitaire. Lorsque toutes les campagnes ont la même priorité, la campagne avec l&#39;offre la plus élevée est éligible.
+indiquez d’abord la priorité de la campagne pour déterminer quelle campagne (et l’enchère associée) est éligible aux enchères publicitaires. Lorsque toutes les campagnes ont la même priorité, la campagne ayant la meilleure enchère est éligible.
 
 <!-- **[!UICONTROL Locations]:** -->
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
+
+**[!UICONTROL Has EU Political Ads]:**(Campagnes [!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement ; applicable aux campagnes qui ciblent des audiences dans l’Union européenne (UE)) Que la campagne contienne ou non de la publicité politique selon les exigences pour les publicités diffusées dans l’Union européenne en vertu du règlement 2024/90 de l’UE : *[!UICONTROL Yes]* ou *[!UICONTROL No]*.
 
 ## [!UICONTROL Ad Groups]
 
@@ -117,11 +119,11 @@ la priorité de la campagne doit d’abord déterminer la campagne (et l’offre
 
 {{$include /help/_includes/inventory-feed-template-ad-group-map-method.md }}
 
-**[!UICONTROL Ad Group Tracking Template]:** (facultatif) modèle de suivi au niveau du groupe publicitaire, qui spécifie toutes les redirections de domaine hors entrée et les paramètres de suivi et incorpore l’URL finale dans un paramètre. Cette valeur remplace les paramètres au niveau du compte et de la campagne, mais les modèles de suivi à des niveaux plus granulaires remplacent cette valeur.
+**[!UICONTROL Ad Group Tracking Template]:** (facultatif) Modèle de suivi au niveau du groupe publicitaire, qui spécifie toutes les redirections de domaine et tous les paramètres de suivi hors de l’atterrissage et incorpore l’URL finale dans un paramètre. Cette valeur remplace les paramètres au niveau du compte et de la campagne, mais les modèles de suivi à des niveaux plus granulaires remplacent cette valeur.
 
-Pour le suivi des conversions par Adobe Advertising, il n’est pas nécessaire de saisir de valeur. La valeur au niveau de la campagne suffit.
+Pour le suivi des conversions Adobe Advertising, il n’est pas nécessaire de saisir une valeur. La valeur au niveau de la campagne est suffisante.
 
-Pour les redirections et le suivi tiers, saisissez une valeur.
+Pour les redirections et le suivi tiers, saisissez une valeur .
 
 ### [!UICONTROL Ad Group Level Negative Keywords]
 
@@ -129,7 +131,7 @@ Pour les redirections et le suivi tiers, saisissez une valeur.
 
 ## [!UICONTROL Product Groups]
 
-**[!UICONTROL Tier 1]:** groupe de produits par défaut, tout compris, &quot;[!UICONTROL All products]&quot;. Vous ne pouvez pas supprimer ce groupe de produits parent, mais il est automatiquement supprimé lorsque tous les niveaux inférieurs sont absents du flux.
+**[!UICONTROL Tier 1]:** groupe de produits complet par défaut, « [!UICONTROL All products] ». Vous ne pouvez pas supprimer ce groupe de produits parent, mais il est automatiquement supprimé lorsque tous les niveaux inférieurs sont absents du flux.
 
 <!-- **[!UICONTROL Tier 2 - Tier 8]:** -->
 
@@ -139,14 +141,14 @@ Pour les redirections et le suivi tiers, saisissez une valeur.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Unités sans groupes de produits enfants ; facultatif) Le modèle de suivi du produit
-, qui spécifie tous les paramètres de suivi et redirections de domaine hors d’entrée et incorpore l’URL finale dans un paramètre [!DNL ValueTrack] . Ce modèle remplace les modèles à des niveaux supérieurs.
+**[!UICONTROL Tracking Template]:** (Unités sans groupes de produits enfants ; facultatif) Modèle de suivi du produit
+qui spécifie tous les paramètres de redirection et de tracking des domaines hors atterrissage et incorpore l’URL finale dans un paramètre [!DNL ValueTrack]. Ce modèle remplace les modèles aux niveaux supérieurs.
 
-Pour le suivi des conversions par Adobe Advertising, il n’est pas nécessaire de saisir de valeur. La valeur au niveau de la campagne suffit.
+Pour le suivi des conversions Adobe Advertising, il n’est pas nécessaire de saisir une valeur. La valeur au niveau de la campagne est suffisante.
 
-Pour les redirections et le suivi tiers, saisissez une valeur.
+Pour les redirections et le suivi tiers, saisissez une valeur .
 
-**[!UICONTROL Initial Bid]:** Offre initiale pour chaque publicité.
+**[!UICONTROL Initial Bid]:** enchère initiale pour chaque publicité.
 
 ## [!UICONTROL Feed Filters]
 
@@ -162,8 +164,8 @@ Pour les redirections et le suivi tiers, saisissez une valeur.
 
 >[!MORELIKETHIS]
 >
->* [À propos de l’automatisation de la gestion des publicités à l’aide de flux d’inventaire](../inventory-feeds-about.md)
+>* [À propos de l’automatisation de la gestion des annonces à l’aide des flux d’inventaire](../inventory-feeds-about.md)
 >* [Gestion des modificateurs](../modifiers-manage.md)
 >* [Gestion des fichiers de flux de données d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 >* [Propager les données de flux par le biais de modèles](../feed-data-propagate.md)
->* [&#x200B; Publier les données de campagne des flux d’inventaire vers les réseaux publicitaires &#x200B;](../propagated-data-post.md)
+>* [Publier les données de campagne des flux d’inventaire dans les réseaux publicitaires](../propagated-data-post.md)
