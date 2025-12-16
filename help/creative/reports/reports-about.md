@@ -2,7 +2,7 @@
 title: À Propos Des Rapports Personnalisés
 description: Découvrez les options de création de rapports personnalisés.
 feature: Creative Reporting
-source-git-commit: 5b644fb2eb881b8180932bb9449dd303a70d9647
+source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -17,11 +17,11 @@ Vous pouvez générer des rapports une fois ou les planifier tous les jours, tou
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
-* &#x200B;<!-- (in beta) --> SSL FTP
+* <!-- (in beta) --> SSL FTP
 * SFTP
 
 ## Rapports disponibles
 
-* **[!UICONTROL All-in Cost BETA]** : (annonceurs avec Advertising Creative et Advertising DSP uniquement ; fonctionnalité bêta) utilisez ce rapport pour voir combien Advertising DSP a dépensé pour le service publicitaire pour Adobe Creative. Vous pouvez afficher les données de création, d’attribut, de cible et d’autres données aux niveaux de la campagne, du package, de l’emplacement et des annonces.
+* **[!UICONTROL All-in Cost]** : (annonceurs avec Advertising Creative et Advertising DSP uniquement ; fonctionnalité bêta) utilisez ce rapport pour voir combien Advertising DSP a dépensé pour le service publicitaire pour Adobe Creative. Vous pouvez afficher les données de création, d’attribut, de cible et d’autres données aux niveaux de la campagne, du package, de l’emplacement et des annonces.
 
 * **[!UICONTROL Custom Creative Report]:** utilisez ce rapport pour surveiller les performances de vos expériences publicitaires Advertising Creative.
