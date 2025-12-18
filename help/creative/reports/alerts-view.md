@@ -2,16 +2,16 @@
 title: Affichage des alertes
 description: Découvrez comment afficher les alertes et les résolutions recommandées pour vos expériences.
 feature: Creative Experiences
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: 2300fbf25566dd5ffe0f2cb68be9bebd9f211f60
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # Affichage des alertes
 
-[!DNL Creative] vous aide à identifier les cas où l’une de vos expériences, y compris les créatifs de l’expérience, rencontrent des problèmes. Pour chaque problème, [!DNL Creative] émet une alerte avec un horodatage et l’action recommandée pour résoudre le problème. Les alertes proviennent notamment des expériences expirées, d’une diffusion élevée sur les annonces par défaut plutôt que sur les annonces ciblées et des erreurs de lien. Les alertes sont disponibles au niveau de l’expérience.
+[!DNL Creative] vous aide à identifier les cas où l’une de vos expériences, y compris les créatifs de l’expérience, rencontrent des problèmes. Pour chaque problème, [!DNL Creative] émet une alerte avec un horodatage et l’action recommandée pour résoudre le problème. Les raisons des alertes incluent des expériences expirées et une diffusion élevée sur les annonces par défaut plutôt que sur les annonces ciblées. Les alertes sont disponibles au niveau de l’expérience.
 
 Vous pouvez ouvrir l’expérience appropriée pour n’importe quelle alerte afin de pouvoir la modifier si nécessaire pour résoudre le problème. Vous pouvez également choisir d’ignorer une alerte individuelle, ce qui la supprime du panneau [!UICONTROL Pulse].
 
@@ -45,4 +45,4 @@ Vous disposez de quelques secondes après avoir ignoré une alerte pour annuler 
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Rapports de performances au niveau de l’expérience &#x200B;](/help/creative/experiences/experience-performance-details.md)
+>* [ Rapports de performances au niveau de l’expérience ](/help/creative/experiences/experience-performance-details.md)
