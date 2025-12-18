@@ -45,4 +45,4 @@ Vous disposez de quelques secondes après avoir ignoré une alerte pour annuler 
 
 >[!MORELIKETHIS]
 >
->* [ Rapports de performances au niveau de l’expérience ](/help/creative/experiences/experience-performance-details.md)
+>* [&#x200B; Rapports de performances au niveau de l’expérience &#x200B;](/help/creative/experiences/experience-performance-details.md)
