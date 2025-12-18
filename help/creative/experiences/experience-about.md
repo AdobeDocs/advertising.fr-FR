@@ -3,9 +3,9 @@ title: À propos des expériences dans Advertising Creative
 description: Découvrez comment configurer des expériences publicitaires personnalisées et optimiser les éléments publicitaires en fonction des performances.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,10 @@ Les données de performances disponibles sont les suivantes :
 * Vous pouvez [afficher des données de performances détaillées pour n’importe quelle expérience](experience-performance-details.md) à partir de la vue [!UICONTROL Experiences].
 
 * Pour surveiller les performances de l’ensemble de vos expériences, créez un [rapport Creative personnalisé](/help/creative/reports/report-manage.md).
+
+## Indicateurs d’alerte
+
+Une colonne « [!UICONTROL Alerts] » indique lorsqu’une expérience ou toute création enfant associée rencontre un problème. Une icône [!UICONTROL Pulse Panel] située à droite de la barre d’outils indique si des alertes sont disponibles pour l’expérience, y compris les contenus publicitaires enfants. Pour plus d’informations, reportez-vous à « [Affichage des alertes](/help/creative/reports/alerts-view.md) ».
 
 ## Statuts des expériences {#experience-statuses}
 
