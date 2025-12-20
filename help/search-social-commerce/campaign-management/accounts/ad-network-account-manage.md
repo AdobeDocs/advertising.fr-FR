@@ -20,7 +20,7 @@ Vous trouverez ci-dessous des instructions pour créer et modifier les détails 
 
 <!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
 
 ## Créer un compte réseau publicitaire {#create-account}
 
@@ -43,7 +43,7 @@ Pour activer la synchronisation ou le suivi d’un compte, vous devez créer un 
 
    1. Dans la section **[!UICONTROL Account Details]** , saisissez les détails du compte.
 
-      Pour les réseaux publicitaires qui utilisent le type d’autorisation de connexion « [!UICONTROL oAuth] », autorisez Search, Social et Commerce à accéder au compte à l’aide du protocole d’autorisation [ OAuth ](https://oauth.net/2/) :
+      Pour les réseaux publicitaires qui utilisent le type d’autorisation de connexion « [!UICONTROL oAuth] », autorisez Search, Social et Commerce à accéder au compte à l’aide du protocole d’autorisation [&#x200B; OAuth &#x200B;](https://oauth.net/2/) :
 
       1. Saisissez la valeur **[!UICONTROL Login]** du compte, éventuellement le mot de passe, puis cliquez sur **[!UICONTROL Authenticate]**.
 
@@ -257,7 +257,7 @@ Ce compte utilise le format hérité du code de suivi AMO ID, ce qui permet à A
 
 Si ce compte doit créer des rapports au niveau de la campagne et du groupe publicitaire, cliquez sur l’icône [!UICONTROL Edit] (crayon), puis **[!UICONTROL Migrate to new s_kwcid format]** pour changer le nouveau format. Pour les comptes qui n’incluent pas ces types de campagne, la migration vers le nouveau format est facultative, mais recommandée.
 
-Pour obtenir des instructions complètes, reportez-vous à « [ Mettre à jour le code de suivi AMO ID pour un  [!DNL Google Ads]  compte ](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md) ».
+Pour obtenir des instructions complètes, reportez-vous à « [&#x200B; Mettre à jour le code de suivi AMO ID pour un  [!DNL Google Ads]  compte &#x200B;](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md) ».
 
 **Noms de suites de rapports :** (pour la redirection EF avec jeton uniquement ; annonceurs avec une intégration Adobe Advertising-Adobe Analytics ; facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoient les données qu’il collecte du réseau publicitaire, y compris les classifications d’entité et les données de clic pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.
 
