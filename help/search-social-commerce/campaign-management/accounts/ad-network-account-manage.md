@@ -3,9 +3,9 @@ title: Gestion des comptes réseau et
 description: Découvrez comment configurer et gérer les détails d’un compte réseau publicitaire.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: 304b3589109fe9ddf4d2f0df84c7fa45aa3726d2
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Vous trouverez ci-dessous des instructions pour créer et modifier les détails 
 
 <!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
 
 ## Créer un compte réseau publicitaire {#create-account}
 
@@ -43,7 +43,7 @@ Pour activer la synchronisation ou le suivi d’un compte, vous devez créer un 
 
    1. Dans la section **[!UICONTROL Account Details]** , saisissez les détails du compte.
 
-      Pour les réseaux publicitaires qui utilisent le type d’autorisation de connexion « [!UICONTROL oAuth] », autorisez Search, Social et Commerce à accéder au compte à l’aide du protocole d’autorisation [&#x200B; OAuth &#x200B;](https://oauth.net/2/) :
+      Pour les réseaux publicitaires qui utilisent le type d’autorisation de connexion « [!UICONTROL oAuth] », autorisez Search, Social et Commerce à accéder au compte à l’aide du protocole d’autorisation [ OAuth ](https://oauth.net/2/) :
 
       1. Saisissez la valeur **[!UICONTROL Login]** du compte, éventuellement le mot de passe, puis cliquez sur **[!UICONTROL Authenticate]**.
 
@@ -119,7 +119,7 @@ L’équipe chargée de votre compte Adobe vous informera si de nouvelles foncti
 
 *Rôles de gestionnaire de compte d’agence, de gestionnaire de compte Adobe et d’utilisateur administrateur uniquement*
 
-Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commerce synchronise les données de la campagne avec le compte (lorsqu’il est pris en charge) et diffuse des enchères automatisées et/ou des budgets de campagne pour les campagnes des portfolios. Lorsque vous désactivez un compte de réseau publicitaire, Search, Social et Commerce arrête toute activité sur le compte. Les données collectées alors que le compte était actif sont toujours stockées, mais les vues et rapports de gestion de campagne n’incluent pas les données de la période au cours de laquelle le compte est désactivé. Vous pourrez par la suite réactiver le compte pour reprendre l’activité avec le compte.
+Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commerce synchronise les données de campagne avec le compte (lorsqu’il est pris en charge) et diffuse des enchères automatisées et/ou des budgets de campagne pour les campagnes des portfolios. Lorsque vous désactivez un compte de réseau publicitaire, Search, Social et Commerce arrête toute activité sur le compte. Les données collectées alors que le compte était actif sont toujours stockées, mais les vues et rapports de gestion de campagne n’incluent pas les données de la période au cours de laquelle le compte est désactivé. Vous pourrez par la suite réactiver le compte pour reprendre l’activité avec le compte.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Dans le sous-menu, cliquez sur **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -153,7 +153,7 @@ Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commer
 
 >[!NOTE]
 >
->Si vous disposez d’une intégration Search, Social et Commerce-Adobe Analytics et que vous modifiez le nom du compte de recherche, contactez l’équipe chargée de votre compte Adobe pour qu’elle mette à jour le mappage.
+>Si vous disposez d’une intégration Search, Social et Commerce-Adobe Analytics et que vous modifiez le nom du compte de recherche, demandez à l’équipe chargée de votre compte Adobe de mettre à jour le mappage.
 
 **[!UICONTROL Login Details]: \[Type de connexion\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] uniquement) Autoriser ou non les connexions au compte à l’aide de :
 
@@ -257,7 +257,7 @@ Ce compte utilise le format hérité du code de suivi AMO ID, ce qui permet à A
 
 Si ce compte doit créer des rapports au niveau de la campagne et du groupe publicitaire, cliquez sur l’icône [!UICONTROL Edit] (crayon), puis **[!UICONTROL Migrate to new s_kwcid format]** pour changer le nouveau format. Pour les comptes qui n’incluent pas ces types de campagne, la migration vers le nouveau format est facultative, mais recommandée.
 
-Pour obtenir des instructions complètes, reportez-vous à « [&#x200B; Mettre à jour le code de suivi AMO ID pour un  [!DNL Google Ads]  compte &#x200B;](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md) ».
+Pour obtenir des instructions complètes, reportez-vous à « [ Mettre à jour le code de suivi AMO ID pour un  [!DNL Google Ads]  compte ](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md) ».
 
 **Noms de suites de rapports :** (pour la redirection EF avec jeton uniquement ; annonceurs avec une intégration Adobe Advertising-Adobe Analytics ; facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoient les données qu’il collecte du réseau publicitaire, y compris les classifications d’entité et les données de clic pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.
 
