@@ -32,7 +32,7 @@ DSP peut optimiser votre diffusion de deux manières fondamentales, avec 20 vari
 
 * Privilégiez l’équilibrage coût-efficacité avec le taux de performance
 
-Voir [ Objectifs d’optimisation et méthode d’utilisation ](optimization-goals.md) pour déterminer quel objectif d’optimisation peut vous aider à atteindre vos KPI.
+Voir [&#x200B; Objectifs d’optimisation et méthode d’utilisation &#x200B;](optimization-goals.md) pour déterminer quel objectif d’optimisation peut vous aider à atteindre vos KPI.
 
 ### Packages qui donnent la priorité au taux de performance
 

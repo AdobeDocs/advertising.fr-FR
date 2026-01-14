@@ -22,9 +22,9 @@ DSP peut optimiser vos campagnes axées sur les performances. Consultez les bonn
 
 ## Étape 1 - Définir Votre Objectif
 
-Il est important de comprendre l’objectif de la campagne, par exemple obtenir le retour sur dépenses publicitaires le plus élevé possible ou le CPA le plus bas possible. Les campagnes de performances ont les [ objectifs d’optimisation ](/help/dsp/optimization/optimization-goals.md) « [!UICONTROL Highest Return on Ad Spend (ROAS)"] ou « [!UICONTROL Lowest Cost per Acquisition (CPA)] ». Pour chaque package de la campagne, spécifiez l’objectif d’optimisation en conséquence.
+Il est important de comprendre l’objectif de la campagne, par exemple obtenir le retour sur dépenses publicitaires le plus élevé possible ou le CPA le plus bas possible. Les campagnes de performances ont les [&#x200B; objectifs d’optimisation &#x200B;](/help/dsp/optimization/optimization-goals.md) « [!UICONTROL Highest Return on Ad Spend (ROAS)"] ou « [!UICONTROL Lowest Cost per Acquisition (CPA)] ». Pour chaque package de la campagne, spécifiez l’objectif d’optimisation en conséquence.
 
-![objectif d’optimisation ](/help/dsp/assets/optimization-goals.png)
+![objectif d’optimisation &#x200B;](/help/dsp/assets/optimization-goals.png)
 
 Vous devez également déterminer le ou les événements de succès qui mènent à l’objectif global et créer des objectifs personnalisés en conséquence. Pour chaque package, spécifiez un objectif personnalisé à utiliser avec l’objectif d’optimisation globale pour les rapports et l’optimisation algorithmique à l’aide de [!DNL Adobe AI]. Pour plus d’informations sur la création d’objectifs personnalisés, y compris les bonnes pratiques, voir [Objectifs personnalisés](custom-goal.md).
 
