@@ -34,4 +34,4 @@ Pour plus d’informations sur les écarts de données possibles entre les donn�
 >* [Principes fondamentaux de  [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Utilisation d’Adobe Advertising ID pour créer [!DNL Marketing Channels] traiter des règles](mc-ids.md)
 >* [Utilisation  [!DNL Analytics Marketing Channels]  données Adobe Advertising](mc-ac-data.md)
->* [Vidéo : Utilisation  [!DNL Marketing Channels]  rapports Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Vidéo : Utilisation  [!DNL Marketing Channels]  rapports Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=fr)
