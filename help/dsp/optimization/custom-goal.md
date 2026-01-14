@@ -3,9 +3,9 @@ title: Objectifs personnalisés
 description: Découvrez les objectifs personnalisés pour définir vos événements de succès dans des packages optimisés pour la CPA la plus faible ou le retour sur dépenses publicitaires le plus élevé.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Chaque objectif personnalisé se compose d’une ou de plusieurs mesures de conv
 
 Supposons, par exemple, que trois mesures de conversion soient pertinentes pour un package spécifique dans l’une de vos campagnes : « Téléchargement PDF » évalué à 20 USD, « Inscription par e-mail » évalué à 30 USD et « Confirmation de commande » évalué à 40 USD. Si vous souhaitez donner un poids en fonction de la valeur monétaire unique de l’action du client, les poids relatifs des mesures sont 1, 1,5 et 2.
 
-Une fois que vous avez [créé un objectif personnalisé](#custom-goal-create), vous pouvez [l’affecter à un package](/help/dsp/campaign-management/packages/package-settings.md) pour la création de rapports et l’optimisation algorithmique à l’aide d’Adobe Sensei.
+Une fois que vous avez [créé un objectif personnalisé](#custom-goal-create), vous pouvez [l’affecter à un package](/help/dsp/campaign-management/packages/package-settings.md) pour la création de rapports et l’optimisation algorithmique à l’aide de [!DNL Adobe AI].
 
 Les recommandations de poids sont automatiquement générées pour les mesures attribuées à DSP dans les objectifs et peuvent appliquer toutes les recommandations de poids en un seul clic. Toutes les modifications de poids apportées aux objectifs précédés du préfixe « ADSP_ » sont appliquées de manière algorithmique dans DSP dans les deux jours. Pour plus d’informations sur les recommandations de poids, consultez le chapitre du guide d’optimisation intitulé « Objectifs », disponible dans Search, Social et Commerce.
 
@@ -64,7 +64,7 @@ Pour créer un objectif personnalisé, le compte DSP doit être lié à un compt
 
    >[!TIP]
    >
-   >Pour des performances optimales, les mesures combinées dans l’objectif personnalisé doivent totaliser au moins dix conversions par jour. Dans le cas contraire, il est recommandé d’ajouter à l’objectif des mesures de conversion supplémentaires, telles que les pages de produits ou les démarrages d’application. Consultez [&#x200B; Bonnes pratiques pour créer un objectif personnalisé &#x200B;](#custom-goal-best-practices) pour obtenir des instructions.
+   >Pour des performances optimales, les mesures combinées dans l’objectif personnalisé doivent totaliser au moins dix conversions par jour. Dans le cas contraire, il est recommandé d’ajouter à l’objectif des mesures de conversion supplémentaires, telles que les pages de produits ou les démarrages d’application. Consultez [ Bonnes pratiques pour créer un objectif personnalisé ](#custom-goal-best-practices) pour obtenir des instructions.
 
 Dans les paramètres du package DSP pour les packages qui utilisent l’objectif d’optimisation « [!UICONTROL Highest Return on Ad Spend (ROAS)"] ou [!UICONTROL Lowest Cost per Acquisition (CPA)] », le nom de l’objectif est désormais inclus dans la liste [!UICONTROL Custom Goals]. Lorsque vous sélectionnez l’objectif en tant qu’objectif personnalisé pour un package, la liste [!UICONTROL Conversion Metric] inclut toutes les mesures d’objectif pour l’objectif.
 
@@ -106,7 +106,7 @@ Si l’objectif de votre campagne est le coût par acquisition (CPA) le plus fai
 
 Il existe deux scénarios dans lesquels vous utiliseriez plusieurs mesures dans un objectif personnalisé :
 
-* L’objectif de votre campagne comporte plusieurs événements de succès. Par exemple, il se peut que vous fassiez de la publicité pour plusieurs actions sur site (téléchargement de PDF, nous contacter et inscription par e-mail) et que toutes ces actions contribuent à l’objectif de votre CPA. Si l’objectif inclut les trois mesures distinctes, ayant chacune un poids non mobile d’une (1), l’algorithme de [!DNL Adobe Sensei] traite chacune des mesures et chacun des types d’appareils utilisateur avec la même importance. Si les différentes mesures ont des coûts ou une importance variables, vous ajustez leur poids relatif en conséquence.
+* L’objectif de votre campagne comporte plusieurs événements de succès. Par exemple, il se peut que vous fassiez de la publicité pour plusieurs actions sur site (téléchargement de PDF, nous contacter et inscription par e-mail) et que toutes ces actions contribuent à l’objectif de votre CPA. Si l’objectif inclut les trois mesures distinctes, ayant chacune un poids non mobile d’une (1), l’algorithme optimisé par [!DNL Adobe AI] traite chacune des mesures et chacun des types d’appareils utilisateur avec la même importance. Si les différentes mesures ont des coûts ou une importance variables, vous ajustez leur poids relatif en conséquence.
 
 <!-- update image or delete it and adjust the wording above
 
@@ -116,7 +116,7 @@ Il existe deux scénarios dans lesquels vous utiliseriez plusieurs mesures dans 
 
 * La mesure de conversion unique de votre objectif personnalisé n’atteint pas le minimum de 10 conversions par jour requis pour optimiser les performances. Cela peut se produire en raison de dépenses quotidiennes minimales ou d’un nombre limité de conversions naturelles. L’ajout de mesures de prise en charge supplémentaires à l’objectif personnalisé peut vous aider à atteindre le seuil de 10 conversions par jour. Dix événements annexes peuvent aider un paquet à atteindre le seuil de 10/jour, même lorsque chacun de leurs poids est inférieur à un (1). Mais vous n’aurez peut-être pas besoin d’ajouter autant d’événements.
 
-  Lorsque vous ajoutez des mesures de soutien à un objectif personnalisé, pondérez-les en fonction de leur importance relative par rapport à l’événement de succès principal, et gardez à l’esprit la quantité de points de données. Cela permet à l’algorithme d’Adobe Sensei d’équilibrer plusieurs mesures et d’optimiser son objectif.
+  Lorsque vous ajoutez des mesures de soutien à un objectif personnalisé, pondérez-les en fonction de leur importance relative par rapport à l’événement de succès principal, et gardez à l’esprit la quantité de points de données. Cela permet à l’algorithme optimisé par [!DNL Adobe AI] d’équilibrer plusieurs mesures et de réaliser une optimisation en vue de votre objectif.
 
   L’exemple d’objectif suivant inclut trois mesures, chacune ayant un poids non mobile différent : Envoi de l’application = 1, Début de l’application = 0,1 et Page de destination de l’annonceur = 0,01. Cela signifie que chaque conversion d’envoi d’application a la même valeur pour votre entreprise qu’une moyenne de 10 conversions de début d’application et de 100 conversions de page de destination d’annonceur.
 

@@ -3,9 +3,9 @@ title: Gestion des offres groupées de création
 description: En savoir plus sur xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Les bundles sont des groupes de contenus publicitaires que vous pouvez ajouter à une expérience en tant qu’unité. Après avoir créé un conteneur de bundle, vous pouvez joindre des contenus publicitaires au bundle. Les lots d’affichage standard ne peuvent contenir que des publicités display standard. Les lots de vidéos standard ne peuvent contenir que des publicités video standard. Quant aux lots d’affichage dynamique, ils ne peuvent contenir que des publicités display dynamiques. Vous pouvez remplacer les pages de destination, les balises de suivi d’impression et les balises de suivi des clics pour tous les contenus publicitaires d’un lot affecté à une expérience à partir de l’arborescence de décision d’expérience, sans affecter les contenus publicitaires de base.
 
-[!DNL Creative] fait pivoter les contenus publicitaires du lot comme indiqué pour chaque expérience à laquelle le lot est affecté. Vous pouvez éventuellement [!DNL Creative] permettre d’optimiser les éléments publicitaires de n’importe quelle expérience en fonction des performances à l’aide de la rotation algorithmique des publicités, optimisée par Adobe Sensei.
+[!DNL Creative] fait pivoter les contenus publicitaires du lot comme indiqué pour chaque expérience à laquelle le lot est affecté. Vous pouvez éventuellement [!DNL Creative] permettre d’optimiser les éléments publicitaires de n’importe quelle expérience en fonction des performances à l’aide de la rotation algorithmique des publicités, optimisée par [!DNL Adobe AI].
 
 Pour activer l’optimisation des éléments d’annonce publicitaire entre les lots dans une expérience d’annonce publicitaire, chaque lot ne peut inclure qu’une seule de chaque combinaison \[taille de création ou durée + langue\]. Par exemple, si une offre groupée comprend un élément créatif de 250 x 250 avec une langue par défaut « Français », vous ne pouvez pas ajouter un second élément créatif de 250 x 250 avec une langue par défaut « Français ». Si vous disposez de plusieurs contenus publicitaires de la même taille dans la même langue, ajoutez-les séparément à l’expérience.
 
