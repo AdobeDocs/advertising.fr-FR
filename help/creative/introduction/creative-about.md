@@ -71,7 +71,7 @@ Vous pouvez afficher des rapports de performance détaillés au niveau de l’ex
 
 Vous pouvez également créer des rapports Creative personnalisés dans Rapports > Rapports personnalisés pour surveiller les performances au niveau de l’expérience dans vos expériences. Si vous utilisez vos [!DNL Creative] expériences en tant qu’annonces dans DSP campagnes, les données de performances de ces annonces sont disponibles dans des rapports personnalisés supplémentaires, tout comme les données de vos autres annonces DSP. <!-- Verify that [!DNL Creative] users have access to ALL other reports. -->
 
-Vous pouvez éventuellement livrer vos rapports personnalisés vers des destinations de rapport spécifiées[](/help/dsp/reports/report-destinations/report-destination-about.md).
+Vous pouvez éventuellement livrer vos rapports personnalisés vers des destinations de rapport spécifiées[&#128279;](/help/dsp/reports/report-destinations/report-destination-about.md).
 
 <!--
 >* [Overview of implementing Adobe Advertising Creative](/help/creative/introduction/implementation-overview.md)
