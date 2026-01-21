@@ -1,73 +1,77 @@
 ---
-title: À propos de Adobe Advertising Creative
-description: En savoir plus sur  [!DNL Creative].
+title: A propos de Adobe Advertising Creative
+description: En savoir plus [!DNL Creative].
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 1394b988828f5400b858f1a40b1b6382431a62b0
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
 
-# À propos de Adobe Advertising Creative 2.0
+# A propos de Adobe Advertising Creative 2.0
 
 <!-- verify all and rewrite to include new stuff -->
 
-Dans le cadre d’Adobe Advertising, Advertising Creative est une plateforme en libre-service permettant d’automatiser les expériences publicitaires personnalisées en temps réel et d’optimiser éventuellement vos publicités au niveau des éléments créatifs.<!-- Verify --> Vous pouvez implémenter les expériences publicitaires sous la forme de publicités dans n’importe quel DSP, y compris Adobe Advertising DSP.
+Dans le cadre de Adobe Advertising, Advertising Creative est une plate-forme en libre-service permettant d’automatiser les expériences publicitaires personnalisées en temps réel et d’optimiser éventuellement vos annonces au niveau de l’élément créatif.<!-- Verify --> Vous pouvez mettre en œuvre les expériences publicitaires sous forme d’annonces dans n’importe quel DSP, y compris Adobe Advertising DSP.
 
-## Bibliothèques créatives personnalisées de contenus créatifs réutilisables
+## Bibliothèques personnalisées de créations réutilisables
 
-Vos bibliothèques Creative vous permettent de gérer les contenus publicitaires que vous utiliserez dans vos expériences publicitaires. Vous pouvez créer plusieurs bibliothèques, chacune avec des contenus créatifs individuels et des groupes de contenus créatifs (appelés *lots*, que vous joindrez à des expériences).
+Vos bibliothèques Creative vous permettent de gérer les créations que vous utiliserez dans vos expériences publicitaires. Vous pouvez créer plusieurs bibliothèques, chacune avec des créations individuelles et des groupes créatifs (appelés *bundles, que vous attacherez aux expériences*).
 
-### Intégrations de ressources [!DNL Adobe]
+### [!DNL Adobe] Intégrations d’actifs
 
-[!DNL Creative] est directement intégré à Adobe Experience Manager, ce qui vous permet de charger facilement les ressources d’images [!DNL Adobe] créées et approuvées par votre équipe de conception pour les publicités d’images standard.
+[!DNL Creative] est directement intégré aux produits suivants [!DNL Adobe] , ce qui vous permet d’importer des ressources dans vos bibliothèques créatives :
 
-## Expériences basées sur des règles et expériences non ciblées
+* **Adobe Experience Manager :** transférez les ressources d’image [!DNL Adobe] que votre équipe de conception crée et approuve pour les annonces illustrées standard.
 
-* **Expériences ciblées et basées sur des règles :** créez des histoires à l’aide d’un modèle d’arbre de décision basé sur des règles, en déployant une chaîne chorégraphiée d’annonces personnalisées en temps réel en fonction de ce que vous savez de votre audience. Par exemple, les histoires peuvent changer en fonction du comportement des clients, de la zone géographique, des données démographiques, du reciblage, de la position sur le parcours des clients, etc.
+* **Adobe GenStudio pour le marketing de performance :** importez toutes les variantes d’annonces de vos expériences d’affichage d’annonces en tant que créations HTML5.
 
-* **Expériences non ciblées :** planifiez et optimisez les éléments publicitaires sans réduire l’audience.
+## Expériences à la fois basées sur des règles et non ciblées
 
-### Intégrations de données [!DNL Adobe]
+* **Expériences ciblées et basées sur des règles :** créez des histoires à l’aide d’un modèle d’arbre de décision basé sur des règles, en déployant une série chorégraphiée d’annonces personnalisées en temps réel en fonction de ce que vous savez de votre public. Par exemple, les stories peuvent changer en fonction du comportement des clients, de la géographie, des données démographiques, du reciblage, de la position dans le parcours client, etc.
 
-Vous pouvez utiliser vos segments d’audience propriétaires de Adobe Audience Manager et Adobe Analytics, ainsi que les segments d’audience personnalisés que vous créez dans Advertising DSP et les pixels de reciblage que vous créez à l’aide de [!DNL Creative], en tant que cibles pour des contenus publicitaires spécifiques dans une expérience publicitaire. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
+* **Expériences non ciblées :** planifiez et optimisez les éléments d’annonce sans restreindre l’audience.
 
-### Implémentation d’expériences en tant que publicités
+### [!DNL Adobe] Intégrations de données
 
-Une fois une expérience créée, vous pouvez générer une balise JavaScript ou iframe pour l’expérience et implémenter la balise en tant qu’annonce tierce dans une campagne Advertising DSP ou dans tout autre DSP.
+Utilisez vos segments d’audience propriétaires de Adobe Audience Manager et d’Adobe Analytics, ainsi que les segments d’audience personnalisés que vous créez dans Advertising DSP et les pixels de reciblage que vous créez à l’aide [!DNL Creative] de Advertising, comme cibles pour des créations spécifiques dans une expérience publicitaire. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
+
+### Mise en œuvre d’expériences sous forme de publicités
+
+Une fois que vous avez créé une expérience, vous pouvez générer une balise JavaScript ou iframe pour l’expérience et l’implémenter en tant qu’annonce tierce dans une campagne de DSP publicitaires ou dans toute autre DSP.
 
 ### Optimisation des éléments publicitaires
 
-Vous pouvez éventuellement [!DNL Creative] permettre d’optimiser les éléments d’annonce publicitaire pour toute expérience en fonction des performances (que vous définissiez ou non des cibles d’audience spécifiques) à l’aide d’une rotation d’annonce optimisée et pondérée, optimisée par [!DNL Adobe AI].
+Vous pouvez éventuellement autoriser [!DNL Creative] l’optimisation des éléments publicitaires pour n’importe quelle expérience en fonction des performances (que vous définissiez ou non des cibles d’audience spécifiques) à l’aide d’une rotation d’annonce optimisée et pondérée, optimisée qui est alimentée par [!DNL Adobe AI].
 
 <!--
 [!DNL Creative] serves first-party ads and triggers third-party ads for the experience based on the specified targeting (when applicable), scheduling, ad rotation, and optimization goal options 
 -->
 
-## Reciblage des pixels
+## Pixels de reciblage
 
-Vous pouvez créer des pixels de reciblage à utiliser comme cibles pour les créatifs dans une expérience publicitaire. Les cibles affichent les publicités uniquement pour les utilisateurs et utilisatrices disposant d’attributs spécifiés qui ont précédemment visité des pages web spécifiques.
+Vous pouvez créer des pixels de reciblage à utiliser comme cibles pour les créations dans une expérience publicitaire. Les cibles diffusent des annonces uniquement pour les utilisateurs ayant des attributs spécifiés qui ont déjà visité des pages Web spécifiques.
 
 ## Suivi des impressions, clics et conversions
 
-[!DNL Creative] effectue automatiquement le suivi de toutes les impressions et de tous les clics pour les publicités diffusées à partir d’une expérience . Vous pouvez également ajouter des URL de suivi d’impressions et de clics tierces aux contenus publicitaires dans les bibliothèques Creative, ainsi que des URL de suivi personnalisées dans une expérience.
+[!DNL Creative] Effectue automatiquement le suivi de toutes les impressions et clics pour les publicités diffusées à partir d’une expérience. Vous pouvez également ajouter des URL de suivi des impressions et des clics tierces aux créations dans Creative bibliothèques, ainsi que des URL de suivi personnalisées dans une expérience.
 
-[!DNL Creative] effectue également le suivi des conversions à partir des annonces diffusées créées à partir de vos expériences publicitaires.<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optional?  -->
+[!DNL Creative] Effectue également le suivi des conversions à partir des annonces diffusées créées à partir de vos expériences publicitaires.<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optional?  -->
 
 <!--
  [Don't need to mention] When an ad is served, the DSP that buys the ad first tracks the impression, and then passes the impression information to [!DNL Creative]. [!DNL Creative] first tracks a click on an ad, and it then passes the click information
 to the DSP.
 -->
 
-## Rapports de performance
+## Rapports sur le rendement
 
-Vous pouvez afficher des rapports de performances détaillés au niveau de l’expérience dans Creatives > Expériences.
+Vous pouvez afficher des rapports de performance détaillés au niveau de l’expérience dans Creatives > Experiences.
 
-Vous pouvez également créer des rapports Creative personnalisés dans Rapports > Rapports personnalisés pour surveiller les performances au niveau de l’expérience sur l’ensemble de vos expériences. Si vous utilisez vos expériences [!DNL Creative] comme annonces dans les campagnes DSP, les données de performances de ces annonces sont disponibles dans des rapports personnalisés supplémentaires, tout comme les données de vos autres annonces DSP. <!-- Verify that [!DNL Creative] users have access to ALL other reports. -->
+Vous pouvez également créer des rapports Creative personnalisés dans Rapports > Rapports personnalisés pour surveiller les performances au niveau de l’expérience dans vos expériences. Si vous utilisez vos [!DNL Creative] expériences en tant qu’annonces dans DSP campagnes, les données de performances de ces annonces sont disponibles dans des rapports personnalisés supplémentaires, tout comme les données de vos autres annonces DSP. <!-- Verify that [!DNL Creative] users have access to ALL other reports. -->
 
-Vous pouvez éventuellement diffuser vos rapports personnalisés vers des [destinations de rapports](/help/dsp/reports/report-destinations/report-destination-about.md) spécifiées.
+Vous pouvez éventuellement livrer vos rapports personnalisés vers des destinations de rapport spécifiées[](/help/dsp/reports/report-destinations/report-destination-about.md).
 
 <!--
 >* [Overview of implementing Adobe Advertising Creative](/help/creative/introduction/implementation-overview.md)
@@ -76,5 +80,5 @@ Vous pouvez éventuellement diffuser vos rapports personnalisés vers des [desti
 
 >[!MORELIKETHIS]
 >
->* [À propos de vos bibliothèques de création](/help/creative/creative-libraries/creative-libraries-about.md)
+>* [À propos de vos bibliothèques créatives](/help/creative/creative-libraries/creative-libraries-about.md)
 >* [À propos des expériences dans Advertising Creative](/help/creative/experiences/experience-about.md)
