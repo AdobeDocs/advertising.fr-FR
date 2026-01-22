@@ -85,6 +85,6 @@ Pour plus d’informations sur les colonnes de paramétrage du portfolio dans l�
 
 >[!MORELIKETHIS]
 >
->* [ (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
+>* [&#x200B; (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
 >* [Créer un portfolio](portfolio-create.md)
->* [ (nouvelle interface utilisateur) À propos des portfolios](portfolio-about.md)
+>* [&#x200B; (nouvelle interface utilisateur) À propos des portfolios](portfolio-about.md)
