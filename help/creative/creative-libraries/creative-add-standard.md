@@ -62,7 +62,7 @@ Vous pouvez charger plusieurs unités de création flexibles. Les contenus publi
 
 ### Ajouter des contenus publicitaires flexibles à l’aide d’un modèle {#flexible-creative-use-template}
 
-Vous pouvez utiliser l’un des modèles créatifs flexibles chargés sur votre compte pour créer des publicités d’une taille prédéfinie. Une fois que vous avez sélectionné un modèle à utiliser, vous modifiez les balises et les attributs de clic.&lt;!— Remplacez la dernière phrase par celle-ci si nous ajoutons à nouveau la fonction de téléchargement de modèle : vous pouvez a\) sélectionner un modèle à utiliser, puis modifier les balises et attributs de clic ; ou b\) [télécharger un modèle sous forme de fichier ZIP](#download-flexible-creative-template), modifier le contenu hors ligne pour créer votre propre contenu créatif, puis [charger le fichier modifié en tant que nouveau contenu créatif](flexible-creative-upload).>
+Vous pouvez utiliser l’un des modèles créatifs flexibles chargés sur votre compte pour créer des publicités d’une taille prédéfinie. Une fois que vous avez sélectionné un modèle à utiliser, vous modifiez les balises et les attributs de clic.&lt;!— Remplacez la dernière phrase par celle-ci si nous ajoutons à nouveau la fonction de téléchargement de modèle : vous pouvez a\) sélectionner un modèle à utiliser, puis modifier les balises et attributs de clic ; ou b\) [télécharger un modèle sous forme de fichier ZIP](#download-flexible-creative-template), modifier le contenu hors ligne pour créer votre propre contenu créatif, puis [charger le fichier modifié en tant que nouveau contenu créatif] (flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -194,7 +194,7 @@ Consultez les [spécifications de création vidéo](/help/creative/creative-libr
 
    * Cliquez sur **[!UICONTROL Select a file]** pour localiser les fichiers sur votre appareil ou réseau.
 
-1. Spécifiez les [ paramètres de création vidéo ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
+1. Spécifiez les [&#x200B; paramètres de création vidéo &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
 
    Par défaut, le contenu créatif que vous venez de charger est sélectionné et tous les paramètres que vous spécifiez s’appliquent au contenu créatif sélectionné.<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
 

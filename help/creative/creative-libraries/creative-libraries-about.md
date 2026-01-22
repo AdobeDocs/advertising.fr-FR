@@ -113,7 +113,7 @@ Vous pouvez générer dynamiquement des contenus publicitaires au format statiqu
 
 ## Les vues [!UICONTROL Creative Libraries]
 
-Voir « [ Personnaliser vos vues de données »](/help/creative/introduction/customize-data-views.md) pour plus d’informations sur la personnalisation de chaque vue.
+Voir « [&#x200B; Personnaliser vos vues de données »](/help/creative/introduction/customize-data-views.md) pour plus d’informations sur la personnalisation de chaque vue.
 
 ### La vue principale [!UICONTROL Creative Libraries]
 
