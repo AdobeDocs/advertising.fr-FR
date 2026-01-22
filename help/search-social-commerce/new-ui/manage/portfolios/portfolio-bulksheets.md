@@ -4,9 +4,9 @@ description: Découvrez comment modifier les paramètres de plusieurs portefeuil
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
+source-git-commit: 04b6fbaf4a8b360bc3a60bdad4871694d50f1bf9
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,15 @@ Une feuille groupée de portfolio est un fichier qui contient les paramètres de
 
 ## Téléchargement d’un fichier de feuille d’envoi groupé avec les paramètres du portfolio
 
-1. Cochez la case en regard de chaque portefeuille à inclure dans la feuille d&#39;envoi groupé.
+1. (Facultatif) Cochez la case en regard de chaque portefeuille à inclure dans la feuille d&#39;envoi groupé.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**.
+   Si vous ne sélectionnez pas de portefeuilles spécifiques, vous pouvez télécharger les paramètres de tous les portefeuilles.
+
+1. Dans la barre d&#39;outils située au-dessus du tableau de données, cliquez sur :
+
+   * (Pour tous les portefeuilles) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export All Portfolios]**.
+
+   * (Pour les portefeuilles sélectionnés) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**.
 
 1. Saisissez le nom du fichier de feuille d&#39;envoi groupé à créer, puis cliquez sur **[!UICONTROL Export Now]**.
 
@@ -79,6 +85,6 @@ Pour plus d’informations sur les colonnes de paramétrage du portfolio dans l�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
+>* [ (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
 >* [Créer un portfolio](portfolio-create.md)
->* [&#x200B; (nouvelle interface utilisateur) À propos des portfolios](portfolio-about.md)
+>* [ (nouvelle interface utilisateur) À propos des portfolios](portfolio-about.md)
