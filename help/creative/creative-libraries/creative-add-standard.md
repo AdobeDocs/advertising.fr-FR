@@ -3,9 +3,9 @@ title: Ajout de contenus publicitaires standard à une bibliothèque de contenus
 description: Découvrez comment ajouter des contenus publicitaires standard (non dynamiques) à une bibliothèque de contenus publicitaires.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
+source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Vous pouvez charger plusieurs unités de création flexibles. Les contenus publi
 
 ### Ajouter des contenus publicitaires flexibles à l’aide d’un modèle {#flexible-creative-use-template}
 
-Vous pouvez utiliser l’un des modèles créatifs flexibles chargés sur votre compte pour créer des publicités d’une taille prédéfinie. Une fois que vous avez sélectionné un modèle à utiliser, vous modifiez les balises et les attributs de clic.&lt;!— Remplacez la dernière phrase par celle-ci si nous ajoutons à nouveau la fonction de téléchargement de modèle : vous pouvez a\) sélectionner un modèle à utiliser, puis modifier les balises et attributs de clic ; ou b\) [télécharger un modèle sous forme de fichier ZIP](#download-flexible-creative-template), modifier le contenu hors ligne pour créer votre propre contenu créatif, puis [charger le fichier modifié en tant que nouveau contenu créatif] (flexible-creative-upload).>
+Vous pouvez utiliser l’un des modèles créatifs flexibles chargés sur votre compte pour créer des publicités d’une taille prédéfinie. Une fois que vous avez sélectionné un modèle à utiliser, vous modifiez les balises et les attributs de clic.&lt;!— Remplacez la dernière phrase par celle-ci si nous ajoutons à nouveau la fonction de téléchargement de modèle : vous pouvez a\) sélectionner un modèle à utiliser, puis modifier les balises et attributs de clic ; ou b\) [télécharger un modèle sous forme de fichier ZIP](#download-flexible-creative-template), modifier le contenu hors ligne pour créer votre propre contenu créatif, puis [charger le fichier modifié en tant que nouveau contenu créatif](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -148,7 +148,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
       1. Recherchez et sélectionnez les expériences d’affichage des publicités, puis cliquez sur **[!UICONTROL Select]** dans le coin supérieur droit.
 
-         <!-- Each creative variant in the experience will be imported as a separate HTML5 creative. -->
+     Chaque variante créative d’une expérience sélectionnée sera importée en tant que contenu créatif HTML5 distinct.
 
 1. Ajouter ou supprimer des contenus publicitaires :
 
@@ -158,9 +158,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Spécifiez les [paramètres de création HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) ou [paramètres de création d’image](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image).
 
-   Par défaut, tous les contenus publicitaires que vous venez de charger sont sélectionnés et les paramètres que vous spécifiez s’appliquent à tous les contenus publicitaires sélectionnés. Les paramètres ne comportant qu’une seule valeur s’appliquent à tous les contenus publicitaires sélectionnés. Pour définir des paramètres pour des contenus publicitaires spécifiques, désélectionnez chaque contenu publicitaire inapplicable.
+   Par défaut, toutes les contenus publicitaires ou expériences GenStudio que vous venez de télécharger sont sélectionnés et tous les paramètres que vous spécifiez s’appliquent à tous les éléments sélectionnés. Les paramètres comportant une seule valeur s’appliquent à tous les éléments sélectionnés. Pour saisir des paramètres pour des contenus publicitaires ou des expériences GenStudio spécifiques, désélectionnez chaque contenu publicitaire ou expérience inapplicable.
 
-1. Cliquez sur **[!UICONTROL Create]** ou **[!UICONTROL Import]**.
+1. Cliquez sur **[!UICONTROL Create]**.
 
 ## Ajout d’un contenu créatif tiers à une bibliothèque de contenu créatif {#creative-add-third-party}
 
@@ -194,7 +194,7 @@ Consultez les [spécifications de création vidéo](/help/creative/creative-libr
 
    * Cliquez sur **[!UICONTROL Select a file]** pour localiser les fichiers sur votre appareil ou réseau.
 
-1. Spécifiez les [&#x200B; paramètres de création vidéo &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
+1. Spécifiez les [ paramètres de création vidéo ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
 
    Par défaut, le contenu créatif que vous venez de charger est sélectionné et tous les paramètres que vous spécifiez s’appliquent au contenu créatif sélectionné.<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
 
