@@ -60,11 +60,11 @@ Voici le workflow général d’implémentation et d’utilisation de Search, So
 
    1. (Annonceurs avec Adobe Analytics et/ou Adobe Audience Manager) Configurez des intégrations entre les différents comptes afin qu’Adobe Advertising puisse échanger des données avec eux.
 
-      Consultez le guide sur « [ Intégrations avec Experience Cloud ](/help/integrations/home.md) ».
+      Consultez le guide sur « [&#x200B; Intégrations avec Experience Cloud &#x200B;](/help/integrations/home.md) ».
 
    1. (Annonceurs avec [!DNL Google Analytics]) Synchronisez les mesures de conversion pour une combinaison de compte, propriété et vue [!DNL Google Analytics] à des fins d’optimisation et de création de rapports.
 
-      Voir le sous-chapitre d’aide « Admin » > « [ Configuration des sources de données ](/help/search-social-commerce/admin/data-sources/data-source-about.md) ».
+      Voir le sous-chapitre d’aide « Admin » > « [&#x200B; Configuration des sources de données &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md) ».
 
 1. Configurez et lancez les portefeuilles :
 
