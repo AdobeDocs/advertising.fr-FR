@@ -1,10 +1,10 @@
 ---
 title: Gestion des modèles de publicité dynamique
-description: En savoir plus sur xxxx.
+description: Découvrez comment gérer les modèles d’annonces dynamiques et créer des annonces à partir de ceux-ci.
 feature: Creative Templates
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---

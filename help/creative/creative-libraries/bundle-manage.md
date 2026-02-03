@@ -1,11 +1,11 @@
 ---
 title: Gestion des offres groupées de création
-description: En savoir plus sur xxxx.
+description: Découvrez comment gérer et utiliser des groupes de contenus publicitaires.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---

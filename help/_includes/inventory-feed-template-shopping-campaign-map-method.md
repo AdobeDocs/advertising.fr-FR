@@ -1,18 +1,18 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 6e8c42615eda48faf098166426fbcae705ecfe37
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
 
 ---
-# Modèle de publicité textuelle - Méthode de mappage de campagne
+# Texte et modèle - Méthode de mappage de campagne
 
-**[!UICONTROL Map Method]:** (Lorsque [!UICONTROL Map Only] est activé pour la campagne) Méthode par laquelle les nouveaux groupes publicitaires (non disponibles pour [!DNL Yandex]), les mots-clés et les publicités sont mappés aux campagnes existantes :
+**[!UICONTROL Map Method]:** (lorsque [!UICONTROL Map Only] est activé pour la campagne) Méthode par laquelle les nouveaux groupes d’annonces (non disponibles pour les [!DNL Yandex]), mots-clés et annonces sont mappés aux campagnes existantes :
 
-* *[!UICONTROL Contains Anywhere]:* ajoute des données à une campagne existante dont le nom inclut la chaîne spécifiée, le cas échéant.
+* *[!UICONTROL Contains Anywhere]:* Ajoute des données à une campagne existante dont le nom inclut la chaîne spécifiée, si elle existe.
 
-* *[!UICONTROL Contains Exactly]:* ajoute des données à une campagne existante dont le nom inclut la chaîne spécifiée, le cas échéant.
+* *[!UICONTROL Contains Exactly]:* Ajoute des données à une campagne existante dont le nom inclut la chaîne spécifiée, si elle existe.
 
-* *[!UICONTROL Exactly Matches]* (valeur par défaut) : — Ajoute des données à une campagne existante du même nom, le cas échéant.
+* *[!UICONTROL Exactly Matches]* (valeur par défaut) : — Ajoute des données à une campagne existante portant le même nom, si elle existe déjà.
 
-Lorsqu’aucune correspondance n’est trouvée, toutes les données de la campagne sont ignorées. Si plusieurs correspondances de campagne sont trouvées, les mots-clés et les publicités sont mappés à tous.
+Lorsqu’aucune correspondance n’est trouvée, toutes les données de la campagne sont ignorées. Si plusieurs correspondances de campagne sont trouvées, les mots-clés et les publicités sont mappés à toutes les correspondances.
