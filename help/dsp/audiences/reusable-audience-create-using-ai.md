@@ -43,7 +43,7 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
 1. Créez l’audience :
 
-   <!-- When this becomes an open beta, it will be the default for everyone, and the steps will need to be updated accordingly. -->Pour les utilisateurs disposant d’autorisations bêta, l’option AI est l’option par défaut. Pour [assembler l’audience vous-même](/help/dsp/audiences/reusable-audience-create.md), cliquez sur le bouton « Basculer en mode manuel » en bas.
+   &#x200B;<!-- When this becomes an open beta, it will be the default for everyone, and the steps will need to be updated accordingly. -->Pour les utilisateurs disposant d’autorisations bêta, l’option AI est l’option par défaut. Pour [assembler l’audience vous-même](/help/dsp/audiences/reusable-audience-create.md), cliquez sur le bouton « Basculer en mode manuel » en bas.
 
    1. Saisissez une ou plusieurs invites pour décrire les caractéristiques d&#39;audience que vous souhaitez inclure et exclure. Pour envoyer chaque invite, cliquez sur ![Envoyer une invite](/help/dsp/assets/submit-prompt.png "Envoyer une invite").
 
@@ -81,7 +81,7 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
   L’agent d’audience n’enregistre pas automatiquement une expression d’audience générée en tant qu’audience. Vous ne pouvez enregistrer une audience qu’en cliquant sur le bouton [!UICONTROL Create], qui se trouve en dehors de la zone d’invite, afin d’annuler les modifications que vous ne souhaitez pas conserver.
 
-Consultez « [ Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
+Consultez « [&#x200B; Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
 
 <!-- I think these are happening later:
 
