@@ -4,7 +4,7 @@ description: Découvrez comment créer des audiences réutilisables dans Adobe A
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: 92fde92fa37f91ac2ac02c3386cbf7e811866899
+source-git-commit: c632774e68069ab03f41fb9453a27c6fe63c8168
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
 1. Créez l’audience :
 
-   &#x200B;<!-- When this becomes an open beta, it will be the default for everyone, and the steps will need to be updated accordingly. -->Pour les utilisateurs disposant d’autorisations bêta, l’option AI est l’option par défaut. Pour [assembler l’audience vous-même](/help/dsp/audiences/reusable-audience-create.md), cliquez sur le bouton « Basculer en mode manuel » en bas.
+   Pour les utilisateurs disposant d’autorisations bêta, l’option AI est l’option par défaut. Pour [assembler l’audience vous-même](/help/dsp/audiences/reusable-audience-create.md), cliquez sur le bouton « Basculer en mode manuel » en bas.
 
    1. Saisissez une ou plusieurs invites pour décrire les caractéristiques d&#39;audience que vous souhaitez inclure et exclure. Pour envoyer chaque invite, cliquez sur ![Envoyer une invite](/help/dsp/assets/submit-prompt.png "Envoyer une invite").
 
@@ -81,7 +81,7 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
   L’agent d’audience n’enregistre pas automatiquement une expression d’audience générée en tant qu’audience. Vous ne pouvez enregistrer une audience qu’en cliquant sur le bouton [!UICONTROL Create], qui se trouve en dehors de la zone d’invite, afin d’annuler les modifications que vous ne souhaitez pas conserver.
 
-Consultez « [&#x200B; Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
+Consultez « [ Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
 
 <!-- I think these are happening later:
 
