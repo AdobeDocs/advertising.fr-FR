@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: f479bfab76f254749982aaa3ee64a20b56e0b7b8
+source-git-commit: 4eefcca15d4f84152278e7680917b9daed15f45d
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
   L’agent d’audience n’enregistre pas automatiquement une expression d’audience générée en tant qu’audience. Vous ne pouvez enregistrer une audience qu’en cliquant sur le bouton [!UICONTROL Create], qui se trouve en dehors de la zone d’invite, afin d’annuler les modifications que vous ne souhaitez pas conserver.
 
-Consultez « [&#x200B; Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
+Consultez « [ Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
 
 <!-- I think these are happening later:
 
@@ -122,10 +122,10 @@ Vous pouvez également ignorer la requête et continuer à spécifier des critè
 
 #### Réponse de l’agent AI vous demandant de choisir parmi plusieurs options.
 
-&grave;Souhaitez-vous :
-1) Procédez avec cette expression,
-2) Obtenir des alternatives de portée maximale, ou
-3) Modifier l’expression manuellement ?&grave;
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
 
 Votre réponse : `1`, `proceed`, `2`, `maximum reach`, etc.
 
