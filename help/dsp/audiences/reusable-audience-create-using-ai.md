@@ -4,9 +4,9 @@ description: Découvrez comment créer des audiences réutilisables dans Adobe A
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: c632774e68069ab03f41fb9453a27c6fe63c8168
+source-git-commit: 86053178969de362dda0c135ff8c85b9ec9f674e
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,8 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
 * Utilisez un langage clair et descriptif pour décrire l’audience cible.
 
+  En règle générale, les invites ne respectent pas la casse et la ponctuation n&#39;est pas nécessaire, sauf pour apporter de la clarté.
+
 * Soyez spécifique et fournissez des détails sur toutes les caractéristiques d’audience que vous souhaitez inclure et sur toutes les caractéristiques que vous souhaitez spécifiquement exclure. Plus vous fournissez de détails, plus vous avez de chances d&#39;obtenir les résultats qui répondent à vos besoins.
 
 * Identifiez les emplacements, les types d’appareils et les fournisseurs de données à inclure ou à exclure.
@@ -81,7 +83,7 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
   L’agent d’audience n’enregistre pas automatiquement une expression d’audience générée en tant qu’audience. Vous ne pouvez enregistrer une audience qu’en cliquant sur le bouton [!UICONTROL Create], qui se trouve en dehors de la zone d’invite, afin d’annuler les modifications que vous ne souhaitez pas conserver.
 
-Consultez « [&#x200B; Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
+Consultez « [ Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
 
 <!-- I think these are happening later:
 
