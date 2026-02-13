@@ -86,7 +86,7 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
   L’agent d’audience n’enregistre pas automatiquement une expression d’audience générée en tant qu’audience. Vous ne pouvez enregistrer une audience qu’en cliquant sur le bouton [!UICONTROL Create], qui se trouve en dehors de la zone d’invite, afin d’annuler les modifications que vous ne souhaitez pas conserver.
 
-Consultez « [ Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
+Consultez « [&#x200B; Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
 
 <!-- I think these are happening later:
 
@@ -122,10 +122,10 @@ Vous pouvez également ignorer la requête et continuer à spécifier des critè
 
 #### Réponse de l’agent AI vous demandant de choisir parmi plusieurs options.
 
-`Souhaitez-vous :
+&grave;Souhaitez-vous :
 1) Procédez avec cette expression,
 2) Obtenir des alternatives de portée maximale, ou
-3) Modifier l’expression manuellement ?`
+3) Modifier l’expression manuellement ?&grave;
 
 Votre réponse : `1`, `proceed`, `2`, `maximum reach`, etc.
 
