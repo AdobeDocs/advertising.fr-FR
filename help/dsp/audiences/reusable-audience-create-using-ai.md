@@ -4,9 +4,10 @@ description: Découvrez comment créer des audiences réutilisables dans Adobe A
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: 86053178969de362dda0c135ff8c85b9ec9f674e
+exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
+source-git-commit: f479bfab76f254749982aaa3ee64a20b56e0b7b8
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -28,6 +29,8 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 >[!NOTE]
 >
 >Cette fonctionnalité est en mode Beta et peut faire l’objet de modifications. Assurez-vous que l’expression d’audience générée représente l’audience souhaitée avant de créer l’audience et de l’utiliser pour vos emplacements.
+
+## Créer une audience réutilisable à l’aide de Generative AI
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
@@ -57,7 +60,7 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
       Vous pouvez saisir « continuer », « ok », « ok », « oui » ou un autre mot similaire.
 
-1. (Si nécessaire) Spécifiez des critères supplémentaires. Lorsque l’agent d’IA présente une expression d’audience qui répond à tous vos critères, demandez à l’agent d’IA de procéder à l’assemblage de l’audience.
+   1. (Si nécessaire) Spécifiez des critères supplémentaires. Lorsque l’agent d’IA présente une expression d’audience qui répond à tous vos critères, demandez à l’agent d’IA de procéder à l’assemblage de l’audience.
 
 1. Lorsque vous êtes satisfait(e) de l’audience assemblée, cliquez sur **[!UICONTROL Create]** pour créer l’audience spécifiée.
 
@@ -65,7 +68,7 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
    >
    >Vous ne pouvez pas modifier l’audience par la suite à l’aide de l’agent AI. Au lieu de cela, [modifiez manuellement l’expression de l’audience](/help/dsp/audiences/reusable-audience-edit.md).
 
-## Écriture d’invites {#writing-prompts}
+## Principes de base de la création d’invites {#writing-prompts}
 
 ### Que doit inclure une invite ?
 
@@ -83,7 +86,7 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
   L’agent d’audience n’enregistre pas automatiquement une expression d’audience générée en tant qu’audience. Vous ne pouvez enregistrer une audience qu’en cliquant sur le bouton [!UICONTROL Create], qui se trouve en dehors de la zone d’invite, afin d’annuler les modifications que vous ne souhaitez pas conserver.
 
-Consultez « [&#x200B; Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
+Consultez « [ Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
 
 <!-- I think these are happening later:
 
@@ -119,12 +122,10 @@ Vous pouvez également ignorer la requête et continuer à spécifier des critè
 
 #### Réponse de l’agent AI vous demandant de choisir parmi plusieurs options.
 
-```
-Would you like to:
-1) Proceed with this expression,
-2) Get maximum reach alternatives, or
-3) Modify the expression manually?
-```
+`Souhaitez-vous :
+1) Procédez avec cette expression,
+2) Obtenir des alternatives de portée maximale, ou
+3) Modifier l’expression manuellement ?`
 
 Votre réponse : `1`, `proceed`, `2`, `maximum reach`, etc.
 
@@ -136,9 +137,7 @@ Un briefing d’audience est une rédaction stratégique qui définit l’audien
 
 ### Composantes essentielles d’une synthèse efficace des audiences
 
-#### Attributs d’audience
-
-Incluez autant de types d’attributs que possible de la liste suivante dans votre résumé. Soyez précis quant aux attributs à exclure.
+Incluez autant de types d’attributs d’audience que possible à partir de la liste suivante dans votre résumé. Soyez précis quant aux attributs à exclure.
 
 <!-- What about these:
 
