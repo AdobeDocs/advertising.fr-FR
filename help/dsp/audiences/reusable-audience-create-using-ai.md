@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 4eefcca15d4f84152278e7680917b9daed15f45d
+source-git-commit: 63402a5148f5e4dc310b9d2229a9dddd5fe2f113
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -52,21 +52,23 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
       Pour plus d’informations, consultez les sections « [Écriture d’invites](#writing-prompts) » et « [Bonnes pratiques pour créer une synthèse d’audience](#audience-brief-best-practices) ».
 
-      Lorsque l’agent d’IA trouve les segments pertinents, il crée une expression d’audience en fonction de vos critères. Il vous demande également votre approbation avant de rechercher des segments correspondants pour assembler l’audience.
+      Lorsque l’agent d’audience trouve les segments pertinents, il crée une expression d’audience en fonction de vos critères. Il vous demande également votre approbation avant de rechercher des segments correspondants pour assembler l’audience.
 
       Vous pouvez éventuellement ignorer la requête et continuer à spécifier des critères d’audience supplémentaires à la place.
 
-   1. Lorsque l’agent d’IA présente une expression d’audience qui décrit de manière adéquate votre audience, demandez à l’agent d’IA de procéder à l’assemblage de l’audience.
+   1. Lorsque l’agent d’audience présente une expression d’audience qui décrit adéquatement votre audience, demandez à l’agent d’audience de procéder à l’assemblage de l’audience.
 
       Vous pouvez saisir « continuer », « ok », « ok », « oui » ou un autre mot similaire.
 
-   1. (Si nécessaire) Spécifiez des critères supplémentaires. Lorsque l’agent d’IA présente une expression d’audience qui répond à tous vos critères, demandez à l’agent d’IA de procéder à l’assemblage de l’audience.
+   1. (Si nécessaire) Spécifiez des critères supplémentaires. Lorsque l’agent d’audience présente une expression d’audience qui répond à tous vos critères, dites à l’agent d’audience de procéder à l’assemblage de l’audience.
+
+      Pour assembler l’audience, saisissez « continuer », « ok », « oui » ou un autre mot similaire.
 
 1. Lorsque vous êtes satisfait(e) de l’audience assemblée, cliquez sur **[!UICONTROL Create]** pour créer l’audience spécifiée.
 
    >[!NOTE]
    >
-   >Vous ne pouvez pas modifier l’audience par la suite à l’aide de l’agent AI. Au lieu de cela, [modifiez manuellement l’expression de l’audience](/help/dsp/audiences/reusable-audience-edit.md).
+   >Vous ne pouvez pas modifier l’audience par la suite à l’aide de l’agent d’audience. Au lieu de cela, [modifiez manuellement l’expression de l’audience](/help/dsp/audiences/reusable-audience-edit.md).
 
 ## Principes de base de la création d’invites {#writing-prompts}
 
@@ -74,7 +76,11 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
 * Utilisez un langage clair et descriptif pour décrire l’audience cible.
 
-  En règle générale, les invites ne respectent pas la casse et la ponctuation n&#39;est pas nécessaire, sauf pour apporter de la clarté.
+   * Vous pouvez saisir des phrases complètes ou simplement une chaîne de caractéristiques. La ponctuation n&#39;est pas nécessaire, sauf lorsque cela est nécessaire pour des raisons de clarté.
+
+   * En règle générale, les invites ne respectent pas la casse.
+
+   * L’agent d’audience reconnaît les synonymes les plus courants.
 
 * Soyez spécifique et fournissez des détails sur toutes les caractéristiques d’audience que vous souhaitez inclure et sur toutes les caractéristiques que vous souhaitez spécifiquement exclure. Plus vous fournissez de détails, plus vous avez de chances d&#39;obtenir les résultats qui répondent à vos besoins.
 
@@ -84,9 +90,11 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
 * En savoir plus sur les invites à travers l’expérimentation.
 
+  Si votre invite n’est pas claire, l’agent d’audience demandera simplement une autre invite, afin que vous puissiez réessayer.
+
   L’agent d’audience n’enregistre pas automatiquement une expression d’audience générée en tant qu’audience. Vous ne pouvez enregistrer une audience qu’en cliquant sur le bouton [!UICONTROL Create], qui se trouve en dehors de la zone d’invite, afin d’annuler les modifications que vous ne souhaitez pas conserver.
 
-Consultez « [&#x200B; Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
+Consultez « [ Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
 
 <!-- I think these are happening later:
 
@@ -108,11 +116,11 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 * Texte dans d’autres langues que l’anglais.
 
-### Exemples de réponses d’agent d’IA et de réponses
+### Exemples de réponses de l’agent d’audience et de réponses
 
-Lorsque l’agent d’IA a besoin d’une réponse de votre part, vous pouvez lui répondre à l’aide de mots-clés dans la requête ou en utilisant des termes courants équivalents.
+Lorsque l’agent d’audience a besoin d’une réponse de votre part, vous pouvez lui répondre à l’aide de mots-clés dans la requête ou de synonymes courants.
 
-#### Réponse de l’agent d’IA vous posant une question
+#### Un agent d’audience vous pose une question
 
 `If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
@@ -120,7 +128,7 @@ Votre réponse affirmative : « continue », « ok », « ok », « oui », ou u
 
 Vous pouvez également ignorer la requête et continuer à spécifier des critères d’audience supplémentaires à la place.
 
-#### Réponse de l’agent AI vous demandant de choisir parmi plusieurs options.
+#### Un agent d’audience vous demande de choisir parmi plusieurs options.
 
 `Would you like to:`
 `1) Proceed with this expression,`
