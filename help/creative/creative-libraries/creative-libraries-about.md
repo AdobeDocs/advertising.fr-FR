@@ -123,7 +123,7 @@ Les formats publicitaires pris en charge sont les suivants : carte de départ, c
 
 ## Les vues [!UICONTROL Creative Libraries]
 
-Voir « [ Personnaliser vos vues de données »](/help/creative/introduction/customize-data-views.md) pour plus d’informations sur la personnalisation de chaque vue.
+Voir « [&#x200B; Personnaliser vos vues de données »](/help/creative/introduction/customize-data-views.md) pour plus d’informations sur la personnalisation de chaque vue.
 
 ### La vue principale [!UICONTROL Creative Libraries]
 
