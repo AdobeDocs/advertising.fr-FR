@@ -2,16 +2,17 @@
 title: Ajout de contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires
 description: Découvrez comment ajouter des contenus créatifs dynamiques à une bibliothèque de contenus créatifs.
 feature: Creative Dynamic Creatives
-source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
+exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
+source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
 
 # Ajout de contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires
 
-Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus publicitaires](creative-library-manage.md) pour les utiliser avec des [&#x200B; dynamiques](/help/creative/experiences/experience-about.md). Vous pouvez créer une publicité HTML5 statique unique ou des publicités HTML5 dynamiques à partir d’un seul modèle de publicité. Pour les publicités HTML5 dynamiques, utilisez les ressources des catalogues spécifiés créés à partir de fichiers de flux.
+Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus publicitaires](creative-library-manage.md) pour les utiliser avec des [ dynamiques](/help/creative/experiences/experience-about.md). Vous pouvez créer une publicité HTML5 statique unique ou des publicités HTML5 dynamiques à partir d’un seul modèle de publicité. Pour les publicités HTML5 dynamiques, utilisez les ressources des catalogues spécifiés créés à partir de fichiers de flux.
 
 >[!PREREQUISITES]
 >
@@ -59,9 +60,11 @@ Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus
 
 1. Spécifiez les [paramètres de publicité dynamique](/help/creative/creative-libraries/creative-settings-dynamic.md) :
 
-   1. Spécifiez les détails de base de l’annonce publicitaire.
+   1. Spécifiez les informations de base sur l’annonce publicitaire, y compris le type de contenu créatif.
 
    1. Sélectionnez le modèle d’annonce à utiliser pour les contenus publicitaires.
+
+      Utilisez un modèle de publicité HTML5 pour les publicités display et un modèle de publicité vidéo pour les publicités vidéo.
 
    1. Sélectionnez le catalogue à partir duquel créer les publicités.
 
@@ -105,6 +108,6 @@ Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Paramètres de création dynamique &#x200B;](creative-settings-dynamic.md)
+>* [ Paramètres de création dynamique ](creative-settings-dynamic.md)
 >* [Modification d’un contenu créatif dynamique dans une bibliothèque de contenu créatif](creative-edit-dynamic.md)
 >* [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)

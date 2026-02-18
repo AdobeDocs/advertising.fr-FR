@@ -2,18 +2,25 @@
 title: Gestion des catalogues de flux
 description: Découvrez comment gérer les catalogues de flux.
 feature: Creative Dynamic Creatives
-source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
+exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # Gestion des catalogues de flux
 
-Les catalogues de flux traités sont des ensembles de variations d’annonces potentielles créées à partir d’un fichier de flux spécifié et d’un modèle de flux spécifié. Les annonces dynamiques HTML5, mais pas les annonces statiques HTML5, nécessitent un catalogue pour créer des annonces dynamiques.
+Les catalogues de flux traités sont des ensembles de variations d’annonces potentielles créées à partir d’un fichier de flux spécifié et d’un modèle de flux spécifié. Les publicités dynamiques HTML5 et vidéo, mais pas les publicités HTML5 statiques, nécessitent un catalogue pour créer des publicités dynamiques.
 
 Avant de pouvoir créer des variations d’annonces et [ajouter des annonces dynamiques à une bibliothèque de contenu créatif](/help/creative/creative-libraries/creative-add-dynamic.md), traitez le catalogue. Vous pouvez ensuite mettre à jour le fichier de flux et retraiter le catalogue pour créer un nouvel ensemble de variations d’annonces.<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
+
+Chaque fichier de flux peut traiter jusqu’à 500 lignes avec des ressources vidéo.
+
+>[!TIP]
+>
+>Pour tous les comptes disposant de vidéos dynamiques, il est recommandé de [télécharger le modèle de flux principal [!UICONTROL Adobe Creative Template]](feed-template-manage.md), de mapper chaque champ du fichier de ressource à un champ sur le serveur principal d’Advertising Creative, puis de renommer et de charger le modèle de flux. Utilisez le nouveau modèle de flux, ainsi que le fichier de ressource, pour créer un catalogue.
 
 ## Création d’un catalogue {#feed-catalog-create}
 

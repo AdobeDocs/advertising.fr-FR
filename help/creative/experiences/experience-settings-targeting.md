@@ -3,7 +3,7 @@ title: Paramètres de l’expérience ciblée
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires ciblées.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## section [!UICONTROL Experience basics]
 
-**[!UICONTROL Ad Type]:** (Lecture seule pour les expériences existantes) Type d’annonces incluses dans l’expérience : *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* ou *[!UICONTROL Video]*. Une fois l’expérience enregistrée, vous ne pouvez plus modifier le type d’annonce.
+**[!UICONTROL Ad Type]:** (Lecture seule pour les expériences existantes) Type d’annonces incluses dans l’expérience : *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Standard Video]* ou *[!UICONTROL Display Video]*. Une fois l’expérience enregistrée, vous ne pouvez plus modifier le type d’annonce.
 
 **[!UICONTROL Advertiser]:** (Lecture seule pour les expériences existantes) L’annonceur qui enchérira sur les combinaisons créatives et cibles incluses dans l’expérience. Une fois l’expérience enregistrée, vous ne pouvez plus modifier l’annonceur.
 

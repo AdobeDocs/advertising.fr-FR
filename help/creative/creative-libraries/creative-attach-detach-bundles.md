@@ -3,9 +3,9 @@ title: Joindre un contenu créatif à des lots créatifs
 description: Découvrez comment associer un contenu créatif à une offre groupée de contenu créatif.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
-Vous pouvez joindre des contenus publicitaires standard à des lots d’affichage standard, des contenus vidéo standard à des lots de vidéos standard et des contenus publicitaires dynamiques à des lots d’affichage dynamique afin de pouvoir les ajouter à des expériences [publicitaires](/help/creative/experiences/experience-about.md). Chaque lot ne peut inclure qu’une seule de chaque combinaison \[taille de création ou durée + langue\].
+Vous pouvez joindre des contenus publicitaires standard à des lots d’affichage standard, des contenus vidéo standard à des lots de vidéos standard, des contenus publicitaires d’affichage dynamique à des lots d’affichage dynamique et des contenus vidéo dynamiques à des lots de vidéos dynamiques afin de pouvoir les ajouter à des expériences [publicitaires](/help/creative/experiences/experience-about.md). Chaque lot ne peut inclure qu’une seule de chaque combinaison \[taille de création ou durée + langue\].
 
 <!--
 You can also detach a creative from a bundle to remove the association between the two, so that the creative is no longer used for experiences that target the bundle. Detaching a creative from the bundle doesn't delete the creative from the Creatives tab in your creative library.

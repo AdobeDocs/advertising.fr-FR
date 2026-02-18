@@ -2,9 +2,10 @@
 title: Modification d’un élément créatif dynamique dans une bibliothèque de contenu créatif
 description: Découvrez comment modifier un contenu créatif dynamique dans une bibliothèque de contenu créatif.
 feature: Creative Dynamic Creatives
-source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
+exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ ht-degree: 0%
 
    * Modifiez le contenu :
 
-      * Pour modifier la valeur d’une cellule dans le tableau, cliquez dans la cellule et modifiez la valeur. Cliquez en dehors de la cellule ou appuyez sur la touche **[!DNL Enter]** pour enregistrer vos modifications.
+      * (Affichage des annonces uniquement) Pour modifier la valeur d’une cellule dans le tableau, cliquez à l’intérieur de la cellule et modifiez la valeur. Cliquez en dehors de la cellule ou appuyez sur la touche **[!DNL Enter]** pour enregistrer vos modifications.
 
       * Pour marquer un seul produit comme produit par défaut<!--Explain what this means. --> maintenez le curseur au-dessus de la ligne et cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
 
@@ -55,6 +56,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Paramètres de création dynamique &#x200B;](creative-settings-dynamic.md)
+>* [ Paramètres de création dynamique ](creative-settings-dynamic.md)
 >* [Ajouter des contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires](creative-add-dynamic.md)
 >* [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)

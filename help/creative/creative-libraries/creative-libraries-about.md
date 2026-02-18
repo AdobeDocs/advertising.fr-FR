@@ -3,9 +3,9 @@ title: À propos de vos bibliothèques de création
 description: Découvrez comment gérer les contenus publicitaires pour vos expériences publicitaires.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
+source-git-commit: 0a3da41d51ffc0b9df1e264485bfbb966780eb84
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Vos bibliothèques peuvent inclure les éléments suivants :
 
    * **Contenu publicitaire dynamique :** vous pouvez créer des contenus publicitaires générés dynamiquement en mappant les variables dynamiques d’un modèle d’annonce publicitaire aux valeurs d’un fichier de flux. Tous les utilisateurs peuvent prévisualiser, dupliquer et supprimer des annonces dynamiques existantes.
 
-* **Lots de contenu publicitaire :** regroupez les contenus publicitaires en lots à utiliser dans plusieurs expériences avec des cibles utilisateur définies. Vous pouvez créer des *bundles d’affichage standard* qui consistent en des publicités d’affichage standard, des *bundles vidéo standard* qui consistent en des publicités vidéo standard et des *bundles d’affichage dynamique* qui consistent en des publicités d’affichage générées dynamiquement.
+* **Lots de contenu publicitaire :** regroupez les contenus publicitaires en lots à utiliser dans plusieurs expériences avec des cibles utilisateur définies. Vous pouvez créer des *bundles d’affichage standard* qui consistent en des publicités d’affichage standard, des *bundles vidéo standard* qui consistent en des publicités vidéo standard, des *bundles d’affichage dynamique* qui consistent en des publicités d’affichage générées dynamiquement, et des *bundles vidéo dynamiques* qui consistent en des publicités vidéo générées dynamiquement.
 
 ## Formats Creative pris en charge {#creative-creative-formats}
 
@@ -51,7 +51,7 @@ Les publicités display standard incluent :
 
 ##### Conceptions HTML5
 
-* **Expériences GenStudio :** vous pouvez importer toutes les variantes d’une [expérience d’affichage d’annonce](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) dans [GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/home) en tant que contenu publicitaire HTML5 individuel. Les liens externes sont convertis en références locales. Le contenu d’HTML peut atteindre 20 Mo et les images individuelles jusqu’à 50 Mo.
+* **Expériences GenStudio :** vous pouvez importer toutes les variantes d’une [expérience d’affichage d’annonce](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) dans [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) en tant que contenu publicitaire HTML5 individuel. Les liens externes sont convertis en références locales. Le contenu d’HTML peut atteindre 20 Mo et les images individuelles jusqu’à 50 Mo.
 
   Une fois que vous avez importé une expérience GenStudio, vous pouvez modifier les métadonnées (nom, langue, balises) du contenu créatif importé, mais pas celles du contenu créatif. Si vous modifiez l’expérience GenStudio dans GenStudio, importez à nouveau l’expérience dans [!DNL Creative] pour utiliser la dernière version.
 
@@ -77,9 +77,9 @@ Saisissez les balises de suivi JavaScript pour les contenus publicitaires héber
 
 #### Conceptions vidéo {#creative-video-specs}
 
-Vous pouvez télécharger des contenus vidéo propriétaires pour le web, les appareils mobiles ou les télévisions connectées depuis votre appareil ou réseau. Chaque expérience publicitaire vidéo standard nécessite une création vidéo par défaut pour chaque durée de création attribuée à l’expérience. DSP transcode automatiquement tous les contenus vidéo en tant que balises VAST 2.0 afin que vous puissiez les prévisualiser. Dans [!UICONTROL Tag Manager], vous pouvez éventuellement [appliquer un transcodage spécifique à DSP](/help/creative/experiences/experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience d’annonce vidéo.
+Vous pouvez télécharger des contenus vidéo propriétaires pour le web, les appareils mobiles ou les télévisions connectées depuis votre appareil ou réseau. Chaque expérience publicitaire vidéo nécessite une création vidéo par défaut pour chaque durée de création attribuée à l’expérience. DSP transcode automatiquement tous les contenus vidéo en tant que balises VAST 2.0 afin que vous puissiez les prévisualiser. Dans [!UICONTROL Tag Manager], vous pouvez éventuellement [appliquer un transcodage spécifique à DSP](/help/creative/experiences/experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience d’annonce vidéo.
 
-Consultez les exigences de création vidéo suivantes. **Remarque :** si vous chargez des expériences vidéo vers Advertising DSP, consultez également la section DSP [Conditions requises pour la vidéo haute définition Assets](https://experienceleague.adobe.com/fr/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), qui peut être plus limitée.
+Consultez les exigences de création vidéo suivantes. **Remarque :** si vous chargez des expériences vidéo vers Advertising DSP, consultez également la section DSP [Conditions requises pour la vidéo haute définition Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), qui peut être plus limitée.
 
 **Type de fichier :** .mov, .mp4, .webm
 
@@ -109,11 +109,21 @@ Consultez les exigences de création vidéo suivantes. **Remarque :** si vous ch
 
 ### Format pour les publicités dynamiques
 
-Vous pouvez générer dynamiquement des contenus publicitaires au format statique HTML5 et dynamique HTML5 en mappant les variables dynamiques d’un modèle d’annonce publicitaire aux valeurs d’un fichier de flux. Les contenus publicitaires dynamiques peuvent inclure ceux qui ont été migrés à partir de vos expériences Adobe Advertising Dynamic Creative Optimization (DCO) héritées.
+Vous pouvez générer dynamiquement des contenus publicitaires ou vidéo en mappant les variables dynamiques d’un modèle d’annonce publicitaire aux valeurs d’un fichier de flux. Les contenus publicitaires dynamiques peuvent inclure ceux qui ont été migrés à partir de vos expériences Adobe Advertising Dynamic Creative Optimization (DCO) héritées.
+
+#### Conceptions d’affichage dynamique
+
+Les contenus publicitaires d’affichage dynamique sont au format HTML5 avec des images au format GIF, JPG, JPEG ou PNG.
+
+#### Conceptions vidéo dynamiques
+
+Les contenus vidéo dynamiques incluent des fichiers vidéo présentant les mêmes spécifications que les contenus vidéo standard. Voir « [Vidéo créatives](#creative-video-specs) ».
+
+Les formats publicitaires pris en charge sont les suivants : carte de départ, carte d’extrémité, superposition supérieure, superposition inférieure ou en forme de L.
 
 ## Les vues [!UICONTROL Creative Libraries]
 
-Voir « [&#x200B; Personnaliser vos vues de données »](/help/creative/introduction/customize-data-views.md) pour plus d’informations sur la personnalisation de chaque vue.
+Voir « [ Personnaliser vos vues de données »](/help/creative/introduction/customize-data-views.md) pour plus d’informations sur la personnalisation de chaque vue.
 
 ### La vue principale [!UICONTROL Creative Libraries]
 

@@ -2,9 +2,10 @@
 title: Workflows pour les publicités dynamiques
 description: Découvrez les workflows de gestion des annonces dynamiques.
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -27,10 +28,10 @@ Vous pouvez configurer des annonces dynamiques de deux manières :
 
 >[!PREREQUISITES]
 >
->* Modèles publicitaires au format HTML5
+>* Modèles d’annonce publicitaire : un modèle d’annonce publicitaire affichée (un fichier ZIP avec des fichiers HTML5) ou un modèle d’annonce vidéo (un fichier ZIP avec un fichier .scene)
 >* Catalogues de produits au format CSV, TSV ou feuille de calcul Microsoft Excel (XLSX)
 
-1. [Créer des contenus publicitaires dynamiques](/help/creative/creative-libraries/creative-add-dynamic.md) pour une bibliothèque de contenus publicitaires. Pour les publicités dynamiques d’HTML5, chargez un modèle de publicité et des catalogues.
+1. [Créer des contenus publicitaires dynamiques](/help/creative/creative-libraries/creative-add-dynamic.md) pour une bibliothèque de contenus publicitaires. Pour les publicités dynamiques HTML5 et vidéo, chargez ou sélectionnez un modèle de publicité et un catalogue existants.
 
 1. Utilisez les contenus publicitaires dynamiques pour créer des expériences publicitaires :
 
@@ -44,19 +45,23 @@ Vous pouvez configurer des annonces dynamiques de deux manières :
 
 ## Workflow 2
 
-1. [Créez un modèle d’annonce publicitaire](/help/creative/ad-templates/ad-template-manage.md) pour vos annonces dynamiques en fonction des ressources disponibles. Le modèle d’annonce publicitaire comprend un fichier HTML5 au format d’annonce souhaité et (annonces HTML5 dynamiques uniquement) un fichier avec les attributs d’annonce.
+1. [Créez un modèle d’annonce publicitaire](/help/creative/ad-templates/ad-template-manage.md) pour vos annonces dynamiques en fonction des ressources disponibles. Le modèle d’annonce publicitaire doit être au format ZIP et contenir <!-- Need to add more specs for templates -->
+
+* Afficher les éléments créatifs : fichiers HTML5 au format publicitaire souhaité et (annonces HTML5 dynamiques uniquement) un fichier avec les attributs publicitaires (.tdf)
+
+* Contenus publicitaires vidéo : un fichier .scene avec le format publicitaire souhaité et un fichier avec les attributs publicitaires (.tdf)
 
 1. Configurez vos éléments publicitaires :
 
    * (Pour les publicités HTML5 statiques uniques) Collectez et [chargez les ressources d’image](/help/creative/feeds/asset-manage.md) pour vos publicités.
 
-   * (Pour les publicités dynamiques d’HTML5) Créez des catalogues de vos éléments publicitaires :
+   * (Pour les publicités dynamiques HTML5 et vidéo) Créez des catalogues de vos éléments publicitaires :
 
-      1. Créez un fichier de flux au format de feuille de calcul Microsoft Excel (XLSX), avec une ligne pour chaque variation publicitaire. Incluez un nom d’image dans chaque ligne. Collectez séparément les ressources d’image associées.
+      1. Créez un fichier de flux au format de feuille de calcul Microsoft Excel (XLSX), avec une ligne pour chaque variation publicitaire. Incluez un nom d’image ou de vidéo dans chaque ligne. Collectez séparément les images et les ressources vidéo associées.
 
-      1. [Chargez le fichier de flux et les ressources d’image](/help/creative/feeds/asset-manage.md).
+      1. [Chargez le fichier de flux et les ressources](/help/creative/feeds/asset-manage.md).
 
-      1. [Créez un modèle de flux](/help/creative/feeds/feed-template-manage.md) pour mapper les champs de votre fichier de flux (feuille de calcul) aux champs du serveur principal d’Advertising Creative.
+      1. [Créez un modèle de flux](/help/creative/feeds/feed-template-manage.md) pour mapper les champs de votre fichier de flux (feuille de calcul) aux champs du serveur principal d’Advertising Creative. Vous pouvez éventuellement télécharger et remplir les modèles de flux principaux avec des champs relatifs à la vente au détail<!-- and what is the creative template?-->.
 
       1. [Créez un catalogue](/help/creative/feeds/catalog-manage.md#feed-catalog-create) à partir d’un fichier de flux spécifié et d’un modèle de flux spécifié, puis [traitez le catalogue](/help/creative/feeds/catalog-manage.md#feed-catalog-process) pour afficher les variations de publicité qui peuvent être créées à partir de celui-ci.
 

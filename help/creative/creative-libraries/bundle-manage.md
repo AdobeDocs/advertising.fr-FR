@@ -3,9 +3,9 @@ title: Gestion des offres groupées de création
 description: Découvrez comment gérer et utiliser des groupes de contenus publicitaires.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1491'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-Les bundles sont des groupes de contenus publicitaires que vous pouvez ajouter à une expérience en tant qu’unité. Après avoir créé un conteneur de bundle, vous pouvez joindre des contenus publicitaires au bundle. Les lots d’affichage standard ne peuvent contenir que des publicités display standard. Les lots de vidéos standard ne peuvent contenir que des publicités video standard. Quant aux lots d’affichage dynamique, ils ne peuvent contenir que des publicités display dynamiques. Vous pouvez remplacer les pages de destination, les balises de suivi d’impression et les balises de suivi des clics pour tous les contenus publicitaires d’un lot affecté à une expérience à partir de l’arborescence de décision d’expérience, sans affecter les contenus publicitaires de base.
+Les bundles sont des groupes de contenus publicitaires que vous pouvez ajouter à une expérience en tant qu’unité. Après avoir créé un conteneur de bundle, vous pouvez joindre des contenus publicitaires au bundle. Les lots d’affichage standard ne peuvent contenir que des publicités display standard. Les lots de vidéos standard ne peuvent contenir que des publicités video standard. Les lots d’affichage dynamique ne peuvent contenir que des publicités display dynamiques. Quant aux lots de vidéos dynamiques, ils ne peuvent contenir que des publicités video dynamiques. Vous pouvez remplacer les pages de destination, les balises de suivi d’impression et les balises de suivi des clics pour tous les contenus publicitaires d’un lot affecté à une expérience à partir de l’arborescence de décision d’expérience, sans affecter les contenus publicitaires de base.
 
 [!DNL Creative] fait pivoter les contenus publicitaires du lot comme indiqué pour chaque expérience à laquelle le lot est affecté. Vous pouvez éventuellement [!DNL Creative] permettre d’optimiser les éléments publicitaires de n’importe quelle expérience en fonction des performances à l’aide de la rotation algorithmique des publicités, optimisée par [!DNL Adobe AI].
 
@@ -38,7 +38,7 @@ Vous pouvez joindre un élément créatif à plusieurs lots.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**.
 
-1. Saisissez un **[!UICONTROL Bundle Name]** unique et les **[!UICONTROL Bundle Type]:** *Affichage standard* (pour les contenus publicitaires d’affichage standard), *Affichage dynamique* (pour les contenus publicitaires d’affichage dynamique), *Vidéo standard* (pour les contenus publicitaires de vidéo standard).
+1. Saisissez un **[!UICONTROL Bundle Name]** unique et le **[!UICONTROL Bundle Type]:** *Affichage standard* (pour les contenus publicitaires d’affichage standard), *Affichage dynamique* (pour les contenus publicitaires d’affichage dynamique), *Vidéo standard* (pour les contenus publicitaires de vidéo standard) ou *Dynamic Video* (pour les contenus publicitaires de vidéo dynamique).
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
@@ -102,7 +102,7 @@ Les modifications apportées à un nom de lot sont propagées à toutes les exp�
 
 ## Joindre des contenus publicitaires à une offre groupée
 
-Vous pouvez joindre des contenus publicitaires d’affichage standard existants à une offre groupée d’affichage standard, des contenus vidéo standard à des offres groupées de vidéo standard et des contenus publicitaires d’affichage dynamique à une offre groupée dynamique. L’association d’un contenu créatif à un lot rend le contenu créatif disponible dans toutes les expériences auxquelles le lot est affecté. Chaque lot ne peut inclure qu’une seule de chaque combinaison \[taille de création ou durée + langue\].
+Vous pouvez joindre des contenus publicitaires d’affichage standard existants à une offre groupée d’affichage standard, des contenus publicitaires de vidéo standard à des offres groupées de vidéo standard, des contenus publicitaires d’affichage dynamique à une offre groupée dynamique et des contenus publicitaires de vidéo dynamique à une offre groupée de vidéo. L’association d’un contenu créatif à un lot rend le contenu créatif disponible dans toutes les expériences auxquelles le lot est affecté. Chaque lot ne peut inclure qu’une seule de chaque combinaison \[taille de création ou durée + langue\].
 
 >[!NOTE]
 >

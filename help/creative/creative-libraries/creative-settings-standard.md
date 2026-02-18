@@ -3,9 +3,9 @@ title: Paramètres de création standard
 description: Référencez les paramètres des contenus publicitaires standard.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
+source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '2106'
 ht-degree: 0%
 
 ---

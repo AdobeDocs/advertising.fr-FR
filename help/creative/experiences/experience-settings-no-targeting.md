@@ -3,7 +3,7 @@ title: Paramètres des expériences non ciblées
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires sans ciblage d’arborescence de décision.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## section [!UICONTROL Experience basics]
 
-**[!UICONTROL Ad Type]:** (Lecture seule pour les expériences existantes) Type d’annonces incluses dans l’expérience : *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* ou *[!UICONTROL Video]*. Une fois l’expérience enregistrée, vous ne pouvez plus modifier le type d’annonce.
+**[!UICONTROL Ad Type]:** (Lecture seule pour les expériences existantes) Type d’annonces incluses dans l’expérience : *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Standard Video]* ou *[!UICONTROL Display Video]*. Une fois l’expérience enregistrée, vous ne pouvez plus modifier le type d’annonce.
 
 **[!UICONTROL Advertiser]:** (Lecture seule pour les expériences existantes) L’annonceur qui enchérira sur les contenus publicitaires inclus dans l’expérience. Une fois l’expérience enregistrée, vous ne pouvez plus modifier l’annonceur.
 

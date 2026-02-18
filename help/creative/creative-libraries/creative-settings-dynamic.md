@@ -2,9 +2,10 @@
 title: Paramètres de création dynamique
 description: Référencez les paramètres des contenus publicitaires dynamiques.
 feature: Creative Dynamic Creatives
-source-git-commit: e7642f11503ebb972d23fe6d28020b3b198657b0
+exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -13,61 +14,49 @@ ht-degree: 0%
 
 <!-- add a description -->
 
-<!-- This looks the same for me for either HTML5 type as of 9/24:
-
-## Dynamic ad settings for static HTML5 ads {#dynamic-ad-settings-static-html5}
-
-### Basic Details
-
-**[!UICONTROL Advertiser]:** The advertiser for which to create the ads.
-
-**[!UICONTROL Library]:** The creative library in which to create the ads.
-
-**[!UICONTROL Dynamic Ad Name]:** A unique name for the creative.
-
-**[!UICONTROL Ad Template Size]:** The ad dimensions for the ad template from which to create the ad. If you first select a specific [!UICONTROL Ad Template], then this value is automatically selected.
-
-**[!UICONTROL Ad Template Type]:** The type of ad template from which to create the ad: *[!UICONTROL Static HTML5]* or *[!UICONTROL Dynamic HTML5]*.  If you first select a specific [!UICONTROL Ad Template], then this value is automatically selected.
-
-**[!UICONTROL Ad Template]:** The ad template from which to create the ad.
-
-**[!UICONTROL clickURL]:** A valid landing page URL to which users are redirected when they click the ad.
-
-### [!UICONTROL Attributes Details]
-
--->
-
 ## Paramètres des annonces dynamiques<!-- for dynamic HTML5 ads {#dynamic-ad-settings-dynamic-html5}-->
 
 <!-- add a description -->
 
 ### Détails de base
 
-**[!UICONTROL Dynamic Ad Name]:** Nom unique du contenu créatif.
+**[!UICONTROL Creative Type]:** indique si le contenu publicitaire est une publicité *[!UICONTROL Display]* (HTML5) ou une publicité *[!UICONTROL Video]*.
 
-**[!UICONTROL Advertiser]:** annonceur pour lequel créer les annonces.
+**[!UICONTROL Dynamic Display Ad Name]** ou **[!UICONTROL Dynamic Video Ad Name]:** nom unique du contenu créatif.
+
+**[!UICONTROL Advertiser]:** annonceur pour lequel créer les annonces. Si vous créez les annonces à partir de [!UICONTROL Creatives] > [!UICONTROL Creative Libraries], l’annonceur est déjà sélectionné et en lecture seule.
 
 **[!UICONTROL Library]:** bibliothèque créative dans laquelle créer les annonces. Si vous créez les annonces à partir de [!UICONTROL Creatives] > [!UICONTROL Creative Libraries], le nom de la bibliothèque est déjà sélectionné et en lecture seule.
 
-**[!UICONTROL Ad Template Size]:** dimensions [annonce publicitaire](/help/creative/creative-libraries/creative-sizes.md) du modèle d’annonce publicitaire à partir duquel créer l’annonce publicitaire. Si vous sélectionnez d’abord une [!UICONTROL Ad Template] spécifique, cette valeur est automatiquement sélectionnée.
+**[!UICONTROL Ad Template Size]:** (Publicités à affichage dynamique uniquement) [dimensions de l’annonce](/help/creative/creative-libraries/creative-sizes.md) pour le modèle d’annonce à partir duquel créer l’annonce. Si vous sélectionnez d’abord une [!UICONTROL Ad Template] spécifique, cette valeur est automatiquement sélectionnée.
 
 ## Modèle de publicité
 
-**[!UICONTROL Ad Template]:** modèle d’annonce publicitaire à partir duquel créer les annonces. Sélectionnez un modèle d’annonce existant ou chargez un nouveau modèle d’annonce et sélectionnez le type de modèle (*Statique* ou *Dynamique*). Un modèle chargé doit être au format ZIP et contenir des fichiers HTML5 et un fichier de définition de modèle (template.TDF). <!-- Need to add more specs for that -->
+**[!UICONTROL Ad Template]:** modèle d’annonce publicitaire à partir duquel créer les annonces. Sélectionnez un modèle d’annonce existant ou chargez un nouveau modèle d’annonce et sélectionnez le type de modèle (*Statique* ou *Dynamique*). Le modèle doit être au format ZIP et contenir : <!-- Need to add more specs for templates -->
 
-**[!UICONTROL Number of offers (Max 50)]:** nombre de produits à afficher dans un carrousel.
+* Afficher les éléments créatifs : fichiers HTML5 au format publicitaire souhaité et (annonces HTML5 dynamiques uniquement) un fichier avec les attributs publicitaires (.tdf)
+
+* Contenus vidéo : un fichier .scene avec le format publicitaire souhaité. Le fichier ZIP ne doit pas dépasser 512 Mo.
+
+Pour continuer, cliquez sur **[!UICONTROL Select Ad Template]**.
+
+**[!UICONTROL Card Count (Max 50)]:** (Affichage des annonces uniquement) Nombre de produits à afficher dans un carrousel.
+
+**[!UICONTROL Duration]:** (publicités vidéo uniquement ; lecture seule) Durée de la vidéo dérivée du modèle de publicité sélectionné. La durée de chaque vidéo doit être comprise entre 1 et 90 secondes.
 
 ## Catalogues
 
 **[!UICONTROL Template]:** modèle de flux à utiliser pour créer les annonces.
 
-**\[Catalogs\]** : un ou plusieurs catalogues à partir desquels générer des annonces. Sélectionnez un catalogue existant ou créez un catalogue en téléchargeant un modèle de flux existant, puis en créant et en chargeant le nouveau catalogue.
+**\[Catalogs\]** : un ou plusieurs catalogues à partir desquels générer des annonces. Sélectionnez un catalogue existant ou créez un catalogue en téléchargeant un modèle de flux existant, puis en créant et en chargeant le nouveau catalogue. Cliquez sur **[!UICONTROL Select Catalog]**.
 
 Les catalogues chargés doivent être au format ZIP et contenir les éléments suivants :
 
-* Un ou plusieurs fichiers de flux au format CSV, TSV ou feuille de calcul Microsoft Excel (XLSX). La taille de fichier maximale est de 512 Mo.<!-- Need to add more specs for the feed files -->
+* (Affichage dynamique et publicités vidéo) Un ou plusieurs fichiers de flux au format CSV, TSV ou feuille de calcul Excel Microsoft (XLSX). La taille de fichier maximale est de 512 Mo.<!-- Need to add more specs for the feed files -->
 
-* Ressources d’image au format GIF, JPEG, JPG ou PNG
+* (Affichages publicitaires) Ressources d’image au format GIF, JPEG, JPG ou PNG
+
+* (Publicités vidéo) Ressources vidéo au format MP4, MOV ou WEBM. Les modèles d’annonce pris en charge sont les suivants : carte de départ, carte d’extrémité, superposition supérieure, superposition inférieure ou en forme de L. La durée de chaque vidéo doit être comprise entre 1 et 90 secondes.
 
 ### [!UICONTROL Attributes Mapping]
 
