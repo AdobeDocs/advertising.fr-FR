@@ -3,16 +3,16 @@ title: Ajout de contenus publicitaires dynamiques à une bibliothèque de conten
 description: Découvrez comment ajouter des contenus créatifs dynamiques à une bibliothèque de contenus créatifs.
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
+source-git-commit: 2a89d5f3997345c051728d41af865dc0e75541f5
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
 # Ajout de contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires
 
-Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus publicitaires](creative-library-manage.md) pour les utiliser avec des [&#x200B; dynamiques](/help/creative/experiences/experience-about.md). Vous pouvez créer une publicité HTML5 statique unique ou des publicités HTML5 dynamiques à partir d’un seul modèle de publicité. Pour les publicités HTML5 dynamiques, utilisez les ressources des catalogues spécifiés créés à partir de fichiers de flux.
+Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus publicitaires](creative-library-manage.md) pour les utiliser avec des [ dynamiques](/help/creative/experiences/experience-about.md). Vous pouvez créer une publicité HTML5 statique unique ou des publicités HTML5 dynamiques à partir d’un seul modèle de publicité. Pour les publicités HTML5 dynamiques, utilisez les ressources des catalogues spécifiés créés à partir de fichiers de flux.
 
 >[!PREREQUISITES]
 >
@@ -84,7 +84,7 @@ Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus
 
       * Modifiez le contenu :
 
-         * Pour modifier la valeur d’une cellule dans le tableau, cliquez dans la cellule et modifiez la valeur. Cliquez en dehors de la cellule ou appuyez sur la touche **[!DNL Enter]** pour enregistrer vos modifications.
+         * (Affichage des annonces uniquement) Pour modifier la valeur d’une cellule dans le tableau, cliquez à l’intérieur de la cellule et modifiez la valeur. Cliquez en dehors de la cellule ou appuyez sur la touche **[!DNL Enter]** pour enregistrer vos modifications.
 
          * Pour marquer un seul produit comme produit par défaut<!--Explain what this means. --> maintenez le curseur au-dessus de la ligne et cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
 
@@ -108,6 +108,6 @@ Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Paramètres de création dynamique &#x200B;](creative-settings-dynamic.md)
+>* [ Paramètres de création dynamique ](creative-settings-dynamic.md)
 >* [Modification d’un contenu créatif dynamique dans une bibliothèque de contenu créatif](creative-edit-dynamic.md)
 >* [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
