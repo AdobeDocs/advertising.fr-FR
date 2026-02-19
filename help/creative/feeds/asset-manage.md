@@ -3,7 +3,7 @@ title: Gestion des fichiers de ressources
 description: Découvrez comment charger et gérer un fichier de ressource pour un annonceur.
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
      Les noms de champ spécifiques à l’annonceur doivent correspondre aux [champs disponibles pour les fichiers de flux publicitaires dynamiques](/help/creative/appendix-available-feed-fields.md).
 
-     Pour tous les comptes disposant de vidéos dynamiques, la bonne pratique consiste à [créer un catalogue](catalog-manage.md) à l’aide du fichier de ressource avec une copie du modèle de flux principal [[!UICONTROL Adobe Creative Template]](feed-template-manage.md), dans lequel vous mappez chaque champ du fichier de ressource à un champ du serveur principal d’Advertising Creative.
+     Pour tous les comptes disposant de vidéos dynamiques, la bonne pratique consiste à [créer un catalogue](catalog-manage.md) à l’aide du fichier de ressource avec une copie du modèle de flux universel [[!UICONTROL Adobe Creative Template]](feed-template-manage.md), dans lequel vous mappez chaque champ du fichier de ressource à un champ du serveur principal d’Advertising Creative.
 
    * Ressources vidéo associées au format MP4, MOV ou WEBM. Les modèles d’annonce pris en charge sont les suivants : carte de départ, carte d’extrémité, superposition supérieure, superposition inférieure ou en forme de L. La durée de chaque vidéo doit être comprise entre 1 et 90 secondes. Consultez les [tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md).
 

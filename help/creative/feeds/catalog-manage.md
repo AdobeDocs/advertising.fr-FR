@@ -3,7 +3,7 @@ title: Gestion des catalogues de flux
 description: Découvrez comment gérer les catalogues de flux.
 feature: Creative Dynamic Creatives
 exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Chaque fichier de flux peut traiter jusqu’à 500 lignes avec des ressources vi
 
 >[!TIP]
 >
->Pour tous les comptes disposant de vidéos dynamiques, il est recommandé de [télécharger le modèle de flux principal [!UICONTROL Adobe Creative Template]](feed-template-manage.md), de mapper chaque champ du fichier de ressource à un champ sur le serveur principal d’Advertising Creative, puis de renommer et de charger le modèle de flux. Utilisez le nouveau modèle de flux, ainsi que le fichier de ressource, pour créer un catalogue.
+>Pour tous les comptes disposant de vidéos dynamiques, il est recommandé de [télécharger le modèle de flux universel [!UICONTROL Adobe Creative Template]](feed-template-manage.md), de mapper chaque champ du fichier de ressource à un champ sur le serveur principal d’Advertising Creative, puis de renommer et de charger le modèle de flux. Utilisez le nouveau modèle de flux, ainsi que le fichier de ressource, pour créer un catalogue.
 
 ## Création d’un catalogue {#feed-catalog-create}
 

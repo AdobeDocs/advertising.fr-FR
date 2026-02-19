@@ -3,9 +3,9 @@ title: Gestion des modèles de flux
 description: Découvrez comment gérer les modèles de flux.
 feature: Creative Dynamic Creatives
 exl-id: 63f8af87-639c-45c8-b17f-99ce19594d35
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-Les modèles de flux mappent les champs de vos fichiers de flux/catalogues aux champs du serveur principal d’Advertising Creative. Les publicités dynamiques HTML5 et vidéo, mais pas les publicités HTML5 statiques, nécessitent un modèle de flux pour créer des publicités dynamiques. Vous avez la possibilité de télécharger et de renseigner les modèles de flux principaux ([!UICONTROL Retail] et [!UICONTROL Adobe Creative Template]).
+Les modèles de flux mappent les champs de vos fichiers de flux/catalogues aux champs du serveur principal d’Advertising Creative. Les publicités dynamiques HTML5 et vidéo, mais pas les publicités HTML5 statiques, nécessitent un modèle de flux pour créer des publicités dynamiques. Vous avez la possibilité de télécharger et de remplir des modèles de flux universels ([!UICONTROL Retail] pour les campagnes de vente au détail et [!UICONTROL Adobe Creative Template] pour n’importe quel type de campagne).
 
 Vous pouvez utiliser un modèle de flux avec plusieurs modèles d’annonces.
 
 >[!TIP]
 >
->Pour tous les comptes disposant de vidéos dynamiques, il est recommandé de [télécharger le modèle de flux principal [!UICONTROL Adobe Creative Template]](feed-template-manage.md), de mapper chaque champ du fichier de ressource à un champ sur le serveur principal d’Advertising Creative, puis de renommer et de charger le modèle de flux. Utilisez le nouveau modèle de flux, ainsi que le fichier de ressource, pour [créer un catalogue](catalog-manage.md).
+>Pour tous les comptes disposant de vidéos dynamiques, il est recommandé de [télécharger le modèle de flux universel [!UICONTROL Adobe Creative Template]](feed-template-manage.md), de mapper chaque champ du fichier de ressource à un champ sur le serveur principal d’Advertising Creative, puis de renommer et de charger le modèle de flux. Utilisez le nouveau modèle de flux, ainsi que le fichier de ressource, pour [créer un catalogue](catalog-manage.md).
 
 ## Création d’un modèle de flux
 
@@ -104,7 +104,7 @@ Au moins un champ de fichier de flux doit être marqué comme « [!UICONTROL Is 
 
 **[!UICONTROL Is Unique]:** indique que le champ est un ID unique (clé). Au moins un champ par modèle de flux doit être unique. Pour sélectionner cette option, cliquez sur le bouton pour la déplacer vers la droite.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** champ [&#x200B; sur le serveur principal d’Advertising Creative](/help/creative/appendix-available-feed-fields.md) qui correspond au [!UICONTROL Field Name] spécifié dans le fichier de flux.
+**[!UICONTROL Backend Field]:** champ [ sur le serveur principal d’Advertising Creative](/help/creative/appendix-available-feed-fields.md) qui correspond au [!UICONTROL Field Name] spécifié dans le fichier de flux.
 
 >[!MORELIKETHIS]
 >
