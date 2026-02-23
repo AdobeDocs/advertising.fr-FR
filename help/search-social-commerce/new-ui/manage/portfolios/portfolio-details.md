@@ -3,9 +3,10 @@ title: (Nouvelle interface utilisateur) Afficher les détails sur les performanc
 description: Découvrez comment afficher les détails sur les performances du portfolio, y compris les mesures réelles et prévues au niveau du portfolio et pour chaque campagne affectée.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
+source-git-commit: fee9c6e4649c348cad7561f81a9d45d92eb672ec
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -82,6 +83,8 @@ La vue détaillée du portefeuille comprend les informations suivantes sur un po
 
    * Pour afficher les données de n’importe quel point du graphique, placez le curseur au-dessus de ce point.
 
+1. Cliquez sur **[!UICONTROL Download report]**.
+
 ## Répertorier les campagnes du portfolio
 
 * Cliquez sur l’onglet **[!UICONTROL Campaigns]** .
@@ -104,8 +107,16 @@ La vue détaillée du portefeuille comprend les informations suivantes sur un po
 
 Pour plus d’informations sur les paramètres du portfolio, consultez le Guide d’optimisation , disponible dans Search, Social et Commerce.
 
+## Téléchargez les rapports de performances du portefeuille et les listes des composants du portefeuille
+
+1. Dans la barre d’outils, cliquez sur **[!UICONTROL Download report]**.
+
+1. Cochez la case en regard de chaque rapport de performances et de chaque type de composant de portefeuille à inclure.
+
+   Pour certains rapports de performances, vous pouvez choisir de télécharger les données sous forme de panier ou de tableau.
+
 >[!MORELIKETHIS]
 >
->* [&#x200B; (nouvelle interface utilisateur) À propos des portfolios](portfolio-about.md)
->* [&#x200B; (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
->* [&#x200B; (nouvelle interface utilisateur) Télécharger des données dans la vue [!UICONTROL Portfolios]](portfolio-view-report.md)
+>* [ (nouvelle interface utilisateur) À propos des portfolios](portfolio-about.md)
+>* [ (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
+>* [ (nouvelle interface utilisateur) Télécharger des données dans la vue [!UICONTROL Portfolios]](portfolio-view-report.md)
