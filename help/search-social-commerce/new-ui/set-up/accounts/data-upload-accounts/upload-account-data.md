@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. Cliquez sur **[!UICONTROL Save]**.
 
-# Charger les données de compte dans un compartiment de [!DNL Amazon] [!DNL S3] {#data-upload-s3}
+&#x200B;# Charger les données de compte dans un compartiment de [!DNL Amazon] [!DNL S3] {#data-upload-s3}
 
 Vous pouvez renseigner un compte avec du contenu et des données de coût de campagne, de clics et de conversion en chargeant les données dans un dossier Search, Social et Commerce affecté dans un compartiment [!DNL Amazon Web Services] (AWS) [!DNL Simple Storage Service] ([!DNL S3]).
 
