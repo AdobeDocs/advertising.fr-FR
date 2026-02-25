@@ -2,9 +2,10 @@
 title: Configuration des comptes réseau de publicités pour le chargement de données
 description: Découvrez comment configurer et gérer les détails d’un compte réseau publicitaire.
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
+source-git-commit: 00565a6c9e784472fab9c9d223c83b0c7cbb91b1
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -15,11 +16,11 @@ ht-degree: 0%
 
 Vous trouverez ci-dessous des instructions pour la gestion des détails de compte pour les comptes de réseau publicitaire pour lesquels vous allez charger les données de compte.
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
 
 >[!NOTE]
 >
->Pour obtenir des instructions sur la gestion des détails d’un compte de réseau publicitaire que Search, Social et Commerce synchronise à l’aide de l’API du réseau publicitaire, voir « [&#x200B; Gérer les comptes du réseau publicitaire via la connexion API »](../api-accounts/api-account-manage.md) à la place.
+>Pour obtenir des instructions sur la gestion des détails d’un compte de réseau publicitaire que Search, Social et Commerce synchronise à l’aide de l’API du réseau publicitaire, voir « [ Gérer les comptes du réseau publicitaire via la connexion API »](../api-accounts/api-account-manage.md) à la place.
 
 ## Créer des détails de compte {#create-account}
 
@@ -31,7 +32,7 @@ Pour plus d’informations sur les fonctionnalités disponibles pour chaque rés
 
    1. Dans l’onglet **[!UICONTROL Account Details]** , modifiez les détails du compte.
 
-   1. (Annonceurs avec une [intégration [!DNL Adobe Analytics for Advertising]] (/help/integrations/analytics/overview.md) Cliquez sur l’onglet **[!UICONTROL Set up Adobe Analytics]** et modifiez les suites de rapports [!DNL Analytics] à utiliser pour le suivi et les rapports d’activité de campagne.
+   1. (Annonceurs avec une [[!DNL Adobe Analytics for Advertising] intégration](/help/integrations/analytics/overview.md)) Cliquez sur l’onglet **[!UICONTROL Set up Adobe Analytics]** et modifiez les suites de rapports [!DNL Analytics] à utiliser pour le suivi et les rapports d’activité de campagne.
 
    1. (Facultatif) Chargez les fichiers de données du compte dans l’onglet **[!UICONTROL Upload File]** .
 
