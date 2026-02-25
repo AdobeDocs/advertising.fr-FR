@@ -4,9 +4,9 @@ description: En savoir plus sur les portefeuilles.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
+source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,9 @@ Un portefeuille peut avoir les statuts suivants :
 
 ## La vue [!UICONTROL Portfolios]
 
-La vue [!UICONTROL Portfolios] répertorie vos portefeuilles existants, avec des données de performances personnalisables. Vous pouvez [personnaliser les colonnes de la vue](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) et filtrer les données pour inclure des portfolios spécifiques [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou de l’en-tête de colonne [&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+La vue [!UICONTROL Portfolios] répertorie vos portefeuilles existants, avec des données de performances personnalisables. Vous pouvez [personnaliser les colonnes de la vue](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) et filtrer les données pour inclure des portfolios spécifiques [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou de l’en-tête de colonne [](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+
+Au-dessus du tableau de données, vous pouvez ouvrir un graphique de performances avec jusqu’à trois mesures totalisées pour tous les portefeuilles dans la vue pour la période spécifiée.
 
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group, edit the Target column, or import/export DOW targets. -->
 
@@ -77,6 +79,8 @@ La vue [!UICONTROL Portfolios] répertorie vos portefeuilles existants, avec des
 * [Modifier les paramètres du portfolio](portfolio-edit.md)
 
 * [Modifier en masse les paramètres de portfolio à l’aide de fichiers de feuille d’envoi groupé](portfolio-bulksheets.md)
+
+* [Afficher un graphique des performances pour tous les portefeuilles dans la vue](portfolio-view-performance-graph.md)
 
 * [Affichage des détails sur les performances du portefeuille](portfolio-details.md)
 

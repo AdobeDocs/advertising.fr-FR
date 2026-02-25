@@ -3,9 +3,9 @@ title: Supprimer les classifications de libellés
 description: Découvrez comment supprimer une classification de libellés.
 exl-id: ae10ff69-67ab-4eac-a78d-8af4923c7093
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 82710ffc246e1d3bc9547bf6b6df3320c80c4eb1
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,24 @@ La suppression d’une classification supprime toutes les associations entre ses
 >[!NOTE]
 >
 >Pour simplement dissocier une valeur de classification d’un composant de compte, voir « [Supprimer des valeurs de classification des composants de campagne](classification-values-remove.md) ».
+
+## (Nouvelle interface utilisateur) Supprimer les classifications de libellés
+
+1. Cliquez sur **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+
+1. (Facultatif) Filtrez la liste pour inclure des classifications d’étiquettes spécifiques.
+
+1. Cochez la case en regard de chaque classification de libellés à supprimer.
+
+   Vous pouvez supprimer jusqu’à 200 lignes à la fois.
+
+   Pour obtenir des conseils sur la sélection de plusieurs lignes, reportez-vous à « [Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) ».
+
+1. Dans la barre d’outils des actions en bloc, cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete.png "Supprimer").
+
+1. Dans le message de confirmation, cliquez sur **[!UICONTROL Confirm]**.
+
+## (interface utilisateur héritée) Supprimer les classifications de libellés
 
 1. Cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
 

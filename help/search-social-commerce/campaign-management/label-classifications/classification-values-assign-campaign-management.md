@@ -3,9 +3,9 @@ title: Attribuer des valeurs de classification aux composants de compte à parti
 description: Découvrez comment attribuer des valeurs de classification aux composants de compte.
 exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,40 @@ Les valeurs de libellé sont héritées par les entités enfants. Par conséquen
 >[!NOTE]
 >
 >Vos mots-clés et votre texte publicitaire pour certains réseaux publicitaires et types de campagne sont [non modifiables](/help/search-social-commerce/campaign-management/faqs-campaigns.md), ce qui signifie que leur modification supprime l’entité existante et en crée une nouvelle. Lorsqu&#39;une entité existante est supprimée de cette manière, la classification des libellés n&#39;est pas affectée à la nouvelle entité.
+
+## (Nouvelle interface utilisateur) Attribuer des valeurs de classification aux composants de compte
+
+Vous pouvez attribuer des valeurs de classification à n’importe quel composant de compte applicable disponible dans la nouvelle interface utilisateur.
+
+1. Ouvrez la vue d’entité à partir du menu **[!UICONTROL Manage]** ou **[!UICONTROL Target]** .
+
+1. Cochez la case en regard de chaque ligne pertinente.
+
+   Pour obtenir des conseils sur la sélection de plusieurs lignes, reportez-vous à « [Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) ».
+
+1. Dans la barre d’outils des actions en bloc, cliquez sur **+[!UICONTROL Assign]** > **[!UICONTROL Label Classification]**.
+
+1. Pour chaque valeur de classification applicable, procédez comme suit :
+
+   1. Dans la colonne **[!UICONTROL Classifications]** , indiquez la classification :
+
+      * Pour utiliser une classification existante, cliquez sur son nom pour la développer.
+
+      * Pour créer une classification, cliquez sur [!UICONTROL +] dans l’en-tête de colonne. Dans le champ de saisie, saisissez le nom de la classification, puis cliquez sur ![Enregistrer](/help/search-social-commerce/assets/save-checkmark.png "Enregistrer") pour enregistrer immédiatement la classification. Pour utiliser la nouvelle classification, cliquez sur son nom pour la développer.
+
+        Le nom doit comporter [caractères ASCII compris entre 32 et 126](https://www.asciitable.com/) et la longueur maximale est de 27 caractères codés sur un seul octet.
+
+   1. Dans la colonne **[!UICONTROL Value Name]** , indiquez la valeur de la classification sélectionnée :
+
+      * Pour utiliser une valeur existante, sélectionnez-la.
+
+      * Pour créer une valeur, cliquez sur [!UICONTROL +] dans l’en-tête de colonne. Dans le champ de saisie, saisissez la valeur, puis cliquez sur ![Enregistrer](/help/search-social-commerce/assets/save-checkmark.png "Enregistrer") pour enregistrer immédiatement la valeur et la sélectionner par défaut.
+
+        La longueur maximale est de 100 caractères et peut inclure des caractères ASCII et non-ASCII.
+
+1. Cliquez sur **+[!UICONTROL Assign Now]**.
+
+## (interface utilisateur héritée) Attribuer des valeurs de classification aux composants de compte
 
 1. Cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, puis sélectionnez la vue du composant de compte.
 

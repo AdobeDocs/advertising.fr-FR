@@ -3,9 +3,9 @@ title: À propos des classifications de libellés
 description: Découvrez comment utiliser les classifications d’étiquettes pour regrouper les composants de votre compte.
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 82710ffc246e1d3bc9547bf6b6df3320c80c4eb1
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,11 @@ Chaque entité éligible peut avoir des valeurs de libellé pour plusieurs class
 
 ## La vue Classifications des libellés
 
-La vue [!UICONTROL Labels Classifications] du menu [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] comprend les sous-vues [!UICONTROL Classifications] et [!UICONTROL Label Values]. Vous pouvez afficher des données pour vos classifications d’étiquettes, [créer](classification-create.md) et [supprimer](classification-delete.md) classifications d’étiquettes et afficher des données pour vos valeurs de classification d’étiquettes. Par défaut, les données s’affichent pour vos classifications et valeurs de libellés au niveau des mots-clés, mais vous pouvez éventuellement afficher les données pour vos classifications et valeurs au niveau des annonces.
+Dans l’interface utilisateur héritée, la vue [!UICONTROL Labels Classifications] se trouve sous [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]. Dans la nouvelle interface utilisateur, la vue [!UICONTROL Labels Classifications] se trouve sous [!UICONTROL Reports] > [!UICONTROL Labels Classifications].
+
+La vue [!UICONTROL Labels Classifications] comprend les sous-vues [!UICONTROL Classifications] et [!UICONTROL Label Values]. Vous pouvez afficher des données pour vos classifications d’étiquettes, [créer](classification-create.md) et [supprimer](classification-delete.md) classifications d’étiquettes et afficher des données pour vos valeurs de classification d’étiquettes. Par défaut, les données s’affichent pour vos classifications et valeurs de libellés au niveau des mots-clés, mais vous pouvez éventuellement afficher les données pour vos classifications et valeurs au niveau des annonces.
+
+Dans la nouvelle interface utilisateur,
 
 >[!MORELIKETHIS]
 >

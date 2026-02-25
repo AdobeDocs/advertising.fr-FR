@@ -3,9 +3,9 @@ title: Supprimer les valeurs de classification de libellé des composants de com
 description: Découvrez comment supprimer les associations entre les valeurs de classification d’étiquettes et les composants de compte.
 exl-id: 8697367b-0bf9-48c9-8dd3-e733360e1df2
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ La suppression d’une valeur de classification supprime l’association avec le
 >[!NOTE]
 >
 >Pour supprimer une valeur d’une classification d’étiquettes, voir « [Supprimer des valeurs de classification d’étiquettes](classification-values-delete.md) ».
+
+## (Nouvelle interface utilisateur) Supprimer les valeurs de classification de libellé des composants de compte
+
+Vous pouvez supprimer des valeurs de classification de tous les composants de compte applicables disponibles dans la nouvelle interface utilisateur.
+
+1. Ouvrez la vue d’entité à partir du menu **[!UICONTROL Manage]** ou **[!UICONTROL Target]** .
+
+1. Cochez la case en regard de chaque ligne pertinente.
+
+   Pour obtenir des conseils sur la sélection de plusieurs lignes, reportez-vous à « [Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) ».
+
+1. Dans la barre d’outils des actions en bloc, cliquez sur **-[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**.
+
+1. Cochez la case en regard de chaque valeur de classification à supprimer des entités sélectionnées.<!-- As of 2/24/26, no way to tell which entity each value is assigned to -->
+
+   Pour sélectionner toutes les valeurs attribuées, cliquez sur **[!UICONTROL Select All]**. Pour désélectionner toutes les valeurs affectées, cliquez sur **[!UICONTROL Deselect All]**.
+
+1. Cliquez sur **[!UICONTROL Unassign Selected]**.
+
+## (Interface utilisateur héritée) Supprimer les valeurs de classification de libellé des composants de compte
 
 1. Dans **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, sélectionnez la vue de l&#39;entité.
 
