@@ -23,7 +23,7 @@ Au-dessus du tableau de données, vous pouvez ouvrir un graphique de performance
 
 * [Afficher un graphique de performances pour toutes les campagnes de la vue](campaign-view-performance-graph.md)
 
-* [Affectez des campagnes à des portfolios existants ou nouveaux](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) et [annulez l’affectation des campagnes des portfolios](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [Affectez des campagnes à des portfolios existants ou nouveaux](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) et [annulez l’affectation des campagnes des portfolios](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [Affectez des contraintes aux campagnes et annulez l’affectation des contraintes des campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
@@ -31,7 +31,7 @@ Au-dessus du tableau de données, vous pouvez ouvrir un graphique de performance
 
 >[!MORELIKETHIS]
 >
->* [Affecter des campagnes à un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [Supprimer des campagnes d’un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [Affecter des campagnes à un portfolio](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [Supprimer des campagnes d’un portfolio](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [Gérer les affectations de contrainte pour les campagnes](campaign-constraint-assignments-manage.md)
 >* [Télécharger des données à partir de la vue [!UICONTROL Campaigns]](campaign-view-report.md)
