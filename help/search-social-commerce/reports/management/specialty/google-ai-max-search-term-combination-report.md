@@ -2,9 +2,10 @@
 title: '[!UICONTROL Google AI Max Search Term Combination Report]'
 description: En savoir plus sur le [!UICONTROL Google AI Max Search Term Combination Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: c31ba390e3f1ae5eb404c6e3f97c75d03cebbc20
+exl-id: 6980dd42-ce5c-4fa7-920d-9c23bf98fa8d
+source-git-commit: bf4531494fe248a4a2bd290dcb8abfa6fdb6451d
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -14,6 +15,8 @@ ht-degree: 0%
 *Applicable aux comptes [!DNL Google Ads] avec les campagnes activées pour AI max uniquement*
 
 Le [!UICONTROL Google AI Max Search Term Combination Report] présente les performances de combinaisons d’annonces et de pages de destination spécifiques que [!DNL Google Ads AI Max] utilise en fonction des recherches effectuées dans le réseau de recherche. Le rapport comprend des données relatives aux impressions, aux clics et aux coûts pour les annonces des campagnes [!DNL Google Ads] qui utilisent des [!DNL AI Max] dans des comptes spécifiés. Par défaut, les données incluent une ligne pour chaque combinaison de terme de recherche, d’en-tête et de page de destination qui a reçu au moins une impression dans la plage de données spécifiée. Les lignes sont classées par ordre croissant par date, puis par campagne par défaut.
+
+Utilisez ce rapport pour voir comment des requêtes de recherche spécifiques sont mappées à des titres générés par l’IA et à des pages de destination dynamiques. Vous pouvez utiliser les données pour analyser l’intention et les performances des éléments publicitaires obtenus par requête afin de créer des listes de mots-clés négatifs fiables.
 
 <!-- We're pulling data directly from GGL and not storing it, so no limitations on our end WRT date range. -->
 
