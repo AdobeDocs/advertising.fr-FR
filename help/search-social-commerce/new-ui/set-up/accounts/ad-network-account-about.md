@@ -37,7 +37,7 @@ Les campagnes de tracking vous permettent de suivre, de générer des rapports e
 
 Pour permettre à Search, Social et Commerce d’attribuer des conversions aux clics, configurez des options de suivi dans l’enregistrement de compte et activez l’enregistrement de compte. Vous pouvez ensuite utiliser des feuilles d’envoi groupé pour générer des URL de tracking pour vos publicités et mots-clés, et ajouter manuellement les URL de tracking dans le gestionnaire de publicités [!DNL Naver].
 
-Vous ne pouvez pas configurer de nouveaux comptes [!DNL Naver] dans Search, Social et Commerce. Pour plus d’informations sur l’[!DNL Naver] de campagnes de tracking uniquement, voir « [ Implémentation  [!DNL Naver]  comptes de tracking uniquement ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md). »
+Vous ne pouvez pas configurer de nouveaux comptes [!DNL Naver] dans Search, Social et Commerce. Pour plus d’informations sur l’[!DNL Naver] de campagnes de tracking uniquement, voir « [&#x200B; Implémentation  [!DNL Naver]  comptes de tracking uniquement &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md). »
 
 >[!MORELIKETHIS]
 >

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 <!-- Move all related files into one page? -->
 
-Si vous utilisez des réseaux publicitaires en ligne pour lesquels Search, Social et Commerce ne prennent pas en charge les API, vous pouvez charger du contenu de campagne et des données de coût hors ligne, de clics et de conversion pour un compte à des fins de création de rapports et de simulation de performances. Les annonceurs avec une [[!DNL Adobe Analytics for Advertising]  intégration ](/help/integrations/analytics/overview.md) peuvent également afficher les données de leurs comptes dans Adobe Analytics.
+Si vous utilisez des réseaux publicitaires en ligne pour lesquels Search, Social et Commerce ne prennent pas en charge les API, vous pouvez charger du contenu de campagne et des données de coût hors ligne, de clics et de conversion pour un compte à des fins de création de rapports et de simulation de performances. Les annonceurs avec une [[!DNL Adobe Analytics for Advertising]  intégration &#x200B;](/help/integrations/analytics/overview.md) peuvent également afficher les données de leurs comptes dans Adobe Analytics.
 
 Cette fonctionnalité est disponible pour les réseaux publicitaires qui suivent la structure de campagne standard à trois niveaux (campagne, groupe publicitaire ou ensemble publicitaire, et entité publicitaire (annonce ou mot-clé)). Pour Adobe DSP, la fonctionnalité est disponible pour les packages et les emplacements attribués à un package, mais pas pour les campagnes ni les emplacements avec une fréquence au niveau de l&#39;emplacement.
 
@@ -49,7 +49,7 @@ Le suivi des clics Search, Social et Commerce et le suivi des conversions Adobe 
 
 Les données doivent respecter les exigences en matière de données pour le réseau publicitaire. Les champs de données de chaque entité peuvent donc varier en fonction du réseau publicitaire.
 
-1. <!-- For all ad networks (excluding DSP), -->Chargez les données initiales d’un seul compte de l’une des manières suivantes :
+1. &#x200B;<!-- For all ad networks (excluding DSP), -->Chargez les données initiales d’un seul compte de l’une des manières suivantes :
 
 * Chargez un fichier manuellement à partir de votre appareil ou réseau.
 
