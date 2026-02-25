@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Vous trouverez ci-dessous des instructions pour la gestion des détails de compte pour les comptes de réseau publicitaire pour lesquels vous allez charger les données de compte.
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
 
 >[!NOTE]
 >
->Pour obtenir des instructions sur la gestion des détails d’un compte de réseau publicitaire que Search, Social et Commerce synchronise à l’aide de l’API du réseau publicitaire, voir « [ Gérer les comptes du réseau publicitaire via la connexion API »](../api-accounts/api-account-manage.md) à la place.
+>Pour obtenir des instructions sur la gestion des détails d’un compte de réseau publicitaire que Search, Social et Commerce synchronise à l’aide de l’API du réseau publicitaire, voir « [&#x200B; Gérer les comptes du réseau publicitaire via la connexion API »](../api-accounts/api-account-manage.md) à la place.
 
 ## Créer des détails de compte {#create-account}
 
