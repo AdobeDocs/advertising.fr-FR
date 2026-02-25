@@ -4,7 +4,7 @@ user-guide-title: Guide d’Advertising Search, Social et Commerce
 user-guide-description: Ce guide décrit les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires liées aux moteurs de recherche, aux réseaux sociaux et au commerce.
 breadcrumb-title: Guide d’Advertising Search, Social et Commerce
 index: true
-source-git-commit: a52ba67cfa1b943c4d1a4ed70574bc5c63593a62
+source-git-commit: 49debc4d3a5cffce5dcaf698f254bc116deb36ec
 workflow-type: tm+mt
 source-wordcount: '1991'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
    + [Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md)
    + Intégration à Adobe Experience Cloud {#integrations}
       + [Intégration aux solutions et services Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr){target="_blank"}
-      + [Intégration avec Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=fr){target="_blank"}
-   + [Prise en charge de la confidentialité des consommateurs et consommatrices (lien)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}
-   + [Politiques et directives (lien)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=fr){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Intégration avec Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [Prise en charge de la confidentialité des consommateurs et consommatrices (lien)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Politiques et directives (lien)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + Prise en main {#getting-started}
    + [Présentation de l’implémentation](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Configuration requise](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -96,8 +96,8 @@ ht-degree: 2%
          + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + Campagnes {#campaigns}
          + [À propos de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [Affecter des campagnes à un portfolio](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
-         + [Supprimer des campagnes d’un portfolio](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [Affecter des campagnes à un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [Supprimer des campagnes d’un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
          + [Gérer les affectations de contraintes pour les campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [Afficher un graphique des performances dans la vue [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-performance-graph.md)
          + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
@@ -108,23 +108,23 @@ ht-degree: 2%
          + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
    + Rapports {#reports}
       + Classifications des libellés {#label-classifications}
-         + [À propos des classifications de libellés](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
-         + [Créer une classification de libellé](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
-         + [Attribuer des valeurs de classification aux composants de compte à partir des vues de gestion de campagne](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
-         + [Attribuez des valeurs de classification aux composants de compte à l’aide de feuilles d’envoi groupé](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
-         + [Supprimer les valeurs de classification de libellé des composants de compte](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
-         + [Supprimer les valeurs de classification de libellé](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
-         + [Supprimer les classifications de libellés](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
-+ Configuration {#setup}
-   + Comptes {#accounts}
-      + [À propos des comptes de réseau publicitaire](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
-      + Comptes de connexion API {#api}
-         + [Gestion des comptes réseau et publicitaires via la connexion API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
-         + [Synchronisation manuelle des données réseau et via la connexion API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/sync-api-accounts.md)
-      + Comptes de chargement de données {#data-upload}
-         + [Gestion des comptes réseau pour les chargements de données](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
-      + [Gestion  [!DNL Naver]  comptes pour le suivi uniquement](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
-+ [Administration des utilisateurs](/help/search-social-commerce/new-ui/user-administration.md)
+         + [À propos des classifications de libellés](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
+         + [Créer une classification de libellé](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
+         + [Attribuer des valeurs de classification aux composants de compte à partir des vues de gestion de campagne](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
+         + [Attribuez des valeurs de classification aux composants de compte à l’aide de feuilles d’envoi groupé](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
+         + [Supprimer les valeurs de classification de libellé des composants de compte](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
+         + [Supprimer les valeurs de classification de libellé](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
+         + [Supprimer les classifications de libellés](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
+   + Configuration {#setup}
+      + Comptes {#accounts}
+         + [À propos des comptes de réseau publicitaire](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
+         + Comptes de connexion API {#api}
+            + [Gestion des comptes réseau et publicitaires via la connexion API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
+            + [Synchronisation manuelle des données réseau et via la connexion API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/sync-api-accounts.md)
+         + Comptes de chargement de données {#data-upload}
+            + [Gestion des comptes réseau pour les chargements de données](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
+         + [Gestion  [!DNL Naver]  comptes pour le suivi uniquement](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+   + [Administration des utilisateurs](/help/search-social-commerce/new-ui/user-administration.md)
 + Tracking {#tracking}
    + [À propos du tracking](/help/search-social-commerce/tracking/tracking-about.md)
    + Suivi des clics {#click-tracking}
@@ -141,7 +141,7 @@ ht-degree: 2%
             + [Formats de suivi des clics pour  [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Formats de suivi des clics pour  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Paramètres de tracking optionnels des URL de tracking des clics](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Cookies Adobe Advertising (lien)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=fr){target="_blank"}
+      + [Cookies Adobe Advertising (lien)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [Le paramètre de tracking AMO ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Suivi des conversions {#conversion-tracking}
       + [Options de suivi des conversions](/help/search-social-commerce/tracking/conversion-tracking-about.md)
@@ -173,7 +173,7 @@ ht-degree: 2%
       + Comptes réseau publicitaires {#ad-network-accounts}
          + [À propos des comptes de réseau publicitaire](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [Gestion des comptes réseau et](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-         + [Mettre à jour le code de suivi AMO ID pour un compte  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
+         + [Mettre à jour le code de suivi AMO ID pour un compte  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
       + [Gérer les comptes de centre commercial](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
    + [Implémentation  [!DNL Naver]  comptes de tracking uniquement](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + Gestion des campagnes {#management}
@@ -238,7 +238,7 @@ ht-degree: 2%
          + Audiences et cibles d’audience {#audiences-and-targets}
             + Audiences {#audiences}
                + [À propos des audiences](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
-               + [Créer  [!DNL Google Ads]  audiences de correspondance client à partir d’audiences  [!DNL Adobe] &#x200B;](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
+               + [Créer  [!DNL Google Ads]  audiences de correspondance client à partir d’audiences  [!DNL Adobe] ](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
                + [Création d’une audience  [!DNL Google Ads]  correspondance client à partir d’une liste d’emails Adobe Campaign](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
                + [Gérer les audiences de correspondance de clients à l’aide de listes de données client](/help/search-social-commerce/campaign-management/campaigns/audience-from-customer-data-list.md)
                + [Gestion des audiences de remarketing dynamique](/help/search-social-commerce/campaign-management/campaigns/audience-dynamic-remarketing-manage.md)
@@ -269,13 +269,13 @@ ht-degree: 2%
          + Données requises/incluses dans les feuilles d’envoi groupé{#bulksheet-data-formats}
             + [Formats de fichiers de feuilles d’envoi groupé pris en charge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-file-formats.md)
             + [Opérations pouvant être effectuées dans des feuilles d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)
-            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Baidu] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Microsoft Advertising] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Naver] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-            + [Données de feuille d’envoi groupé pour les comptes  [!DNL Yahoo! Display Network] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-            + [Données de feuille d’envoi groupé pour les comptes  [!DNL Yahoo! Japan] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Yandex] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Baidu] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Microsoft Advertising] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Naver] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+            + [Données de feuille d’envoi groupé pour les comptes  [!DNL Yahoo! Display Network] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+            + [Données de feuille d’envoi groupé pour les comptes  [!DNL Yahoo! Japan] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Yandex] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + Automatisation des données de campagne à l’aide de flux d’inventaire {#inventory-feeds}
          + [À propos de l’automatisation de la gestion des publicités à l’aide de flux d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
          + [Quand les composants de compte sont-ils créés ou supprimés par les flux d’inventaire ?](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
