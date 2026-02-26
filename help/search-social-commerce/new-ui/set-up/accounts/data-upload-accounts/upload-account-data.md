@@ -1,7 +1,7 @@
 ---
 title: Chargement des données de compte hors ligne pour les rapports et les simulations
 description: Découvrez comment charger manuellement des données de compte hors ligne ou les transférer vers un compartiment  [!DNL Amazon] [!DNL S3] pour la prise en charge des rapports et de la simulation. Les fichiers journaux consignent la progression des tâches de chargement.
-source-git-commit: bfa5403ff66bed73797fc4c7115b8c043856745d
+source-git-commit: 8ba0f8fa6050a3e6ec93bcf08df2c0204191fc02
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 0%
@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. Cliquez sur **[!UICONTROL Save]**.
 
-&#x200B;# Charger les données de compte dans un compartiment de [!DNL Amazon] [!DNL S3] {#data-upload-s3}
+## Charger les données de compte dans un compartiment de [!DNL Amazon] [!DNL S3] {#data-upload-s3}
 
 Vous pouvez renseigner un compte avec du contenu et des données de coût de campagne, de clics et de conversion en chargeant les données dans un dossier Search, Social et Commerce affecté dans un compartiment [!DNL Amazon Web Services] (AWS) [!DNL Simple Storage Service] ([!DNL S3]).
 
