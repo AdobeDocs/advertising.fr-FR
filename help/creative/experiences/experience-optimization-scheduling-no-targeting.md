@@ -3,9 +3,9 @@ title: Personnaliser l’optimisation et la planification de la création pour u
 description: Découvrez comment configurer l’optimisation et la planification des annonces publicitaires pour les expériences sans ciblage.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ Lorsque la planification des créations est désactivée, les paramètres d’op
 
    * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**.
 
-1. Placez le curseur sur la ligne correspondant à la balise d’annonce publicitaire applicable et cliquez sur ![Planifier l’annonce](/help/creative/assets/edit-gray.png "Modifier les URL de suivi") **[!UICONTROL Creative Optimization]**.&lt;!— Tag Manager n’a qu’une vue Liste, mais pas de vue Carte, à partir du 2/2. >
+1. Placez le curseur sur la ligne de la balise d’annonce publicitaire applicable et cliquez sur ![Modifier l’optimisation de la création](/help/creative/assets/edit-gray.png "Modifier l’optimisation de la création") **[!UICONTROL Creative Optimization]**.&lt;!— Tag Manager n’a qu’une vue Liste, mais pas de vue Carte, à partir du 2/2. >
 
 1. Désactivez **[!UICONTROL Schedule]**.
 
 1. Sélectionnez le type de rotation de contenu créatif pour les variantes d’annonces dans les lots associés :
 
-   * *[!UICONTROL Weighted]:* affiche les variantes d’annonces publicitaires dans les lots de contenu créatif associés en fonction des poids relatifs. Saisissez le poids de chaque lot sous la forme d’un pourcentage. Le poids de tous les lots sélectionnés doit être égal à 100,<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
+   * *[!UICONTROL Weighted]:* affiche les variantes d’annonces publicitaires dans les lots de contenu créatif associés en fonction des poids relatifs. Saisissez le poids de chaque lot sous la forme d’un pourcentage. Pour appliquer des poids égaux à tous les lots associés, cliquez sur (![Appliquer un poids égal](/help/creative/assets/apply-equal-weight.png "Appliquer un poids égal")). Le poids de tous les lots sélectionnés doit être égal à 100,<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
    * *[!UICONTROL Algorithmic]:* affiche les variantes d’annonce publicitaire les plus efficaces plus souvent, en fonction d’un objectif spécifié.
 
@@ -66,7 +66,7 @@ Lorsque vous utilisez la planification, vous devez planifier les contenus public
 
    * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**.
 
-1. Placez le curseur sur la ligne correspondant à la balise d’annonce publicitaire applicable et cliquez sur ![Planifier l’annonce](/help/creative/assets/edit-gray.png "Modifier les URL de suivi") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— Tag Manager n’a qu’une vue Liste, mais pas de vue Carte, à partir du 2/2. >
+1. Placez le curseur sur la ligne de la balise d’annonce publicitaire applicable et cliquez sur ![Modifier l’optimisation de la création](/help/creative/assets/edit-gray.png "Modifier l’optimisation de la création") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— Tag Manager n’a qu’une vue Liste, mais pas de vue Carte, à partir du 2/2. >
 
 1. Activez **[!UICONTROL Schedule]**.
 
@@ -74,11 +74,11 @@ Lorsque vous utilisez la planification, vous devez planifier les contenus public
 
    1. Dans la colonne de gauche, cochez la case en regard de chaque élément créatif à ajouter au premier planning.
 
-   1. Spécifiez les dates de début et de fin du planning.
+   1. Spécifiez la date et l’heure de début, ainsi que la date et l’heure de fin du planning.
 
    1. Sélectionnez le type de rotation de contenu créatif :
 
-      * *[!UICONTROL Weighted]:* fait pivoter les contenus publicitaires manuellement en fonction des poids relatifs. Saisissez le poids de chaque contenu publicitaire sous la forme d’un pourcentage. Le poids de tous les contenus publicitaires sélectionnés doit être égal à 100.
+      * *[!UICONTROL Weighted]:* fait pivoter les contenus publicitaires manuellement en fonction des poids relatifs. Saisissez le poids de chaque contenu publicitaire sous la forme d’un pourcentage. Pour appliquer des poids égaux à tous les lots de la planification, cliquez sur (![Appliquer un poids égal](/help/creative/assets/apply-equal-weight.png "Appliquer un poids égal")). Le poids de tous les contenus publicitaires sélectionnés doit être égal à 100.
 
       * *[!UICONTROL Algorithmic]:* fait pivoter les contenus publicitaires de manière algorithmique en fonction d’un objectif d’optimisation spécifié.
 

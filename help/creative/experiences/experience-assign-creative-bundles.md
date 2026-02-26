@@ -3,9 +3,9 @@ title: Affectez et annulez l’affectation des bundles de création à un nœud 
 description: Découvrez comment affecter des contenus publicitaires à chaque cible dans vos expériences publicitaires.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ Pour les expériences publicitaires standard, vous ne pouvez affecter que des lo
 
 1. Effectuez l’une des opérations suivantes :
 
-   * (Nœuds finaux sans contenu publicitaire) Sous le nœud, cliquez sur ![Ajouter](/help/creative/assets/add.png "Ajouter"), puis sélectionnez **[!UICONTROL Assign Bundles]**.
+   * (Nœuds finaux sans contenu publicitaire) Sous le nœud , cliquez sur **[!UICONTROL Assign Bundles]**.
 
-   * (Nœuds avec contenu créatif existant) Placez le curseur sur la zone du lot de contenu créatif sous le nœud cible<!-- wording???? --> puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**.
+   * (Nœuds avec contenu créatif existant) Placez le curseur sur la zone du lot de contenu créatif sous le nœud cible, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**.
 
 1. Cochez la case en regard de chaque lot à affecter au nœud cible, puis décochez la case en regard de chaque lot à annuler.
 
    Seules les offres groupées du type correspondant à l’expérience (standard ou dynamique) sont répertoriées.
 
-1. Cliquez sur **[!UICONTROL Attach to Bundles]**.
-
-1. (Facultatif) [Personnalisez les URL de tracking pour les contenus publicitaires des lots attribués](experience-tracking-urls-targeting.md).
+1. Cliquez sur **[!UICONTROL Save]**.
 
 1. (Facultatif) [Personnalisez l’optimisation créative et la planification](experience-optimization-scheduling-targeting.md) pour les lots affectés.
+
+1. (Facultatif) [Personnalisez les URL de tracking pour les contenus publicitaires des lots attribués](experience-tracking-urls-targeting.md).
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

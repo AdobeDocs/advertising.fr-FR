@@ -3,9 +3,9 @@ title: Personnaliser l’optimisation et la planification de la création pour u
 description: Découvrez comment configurer l’optimisation et la planification des annonces publicitaires pour les expériences ciblées.
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,21 @@ Par défaut, la rotation des créations pour une expérience est déterminée pa
 
 Lorsque la planification des créations est désactivée, les paramètres d’optimisation des créations s’appliquent à tous les créatifs affectés.
 
-1. Placez le curseur au-dessus du nœud feuille de création sous le nœud cible, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**.
+1. Pendant que vous [créez](experience-create-targeting.md) ou [modifiez](experience-edit-targeting.md) l’expérience, ouvrez les paramètres d’optimisation créative :
+
+   1. Placez le curseur sur le nœud feuille de création sous le nœud cible et procédez comme suit :
+
+      * Pour les lots existants, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**.
+
+      * Pour créer des lots, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]** et [attribuez les lots](experience-assign-creative-bundles.md).
+
+1. Cliquez sur l’onglet **[!UICONTROL Creative Optimization]** .
 
 1. Désactivez **[!UICONTROL Schedule]**.
 
 1. Sélectionnez le type de rotation de contenu créatif pour les variantes d’annonces dans les lots associés :
 
-   * *[!UICONTROL Weighted]:* affiche les variantes d’annonces publicitaires dans les lots de contenu créatif associés en fonction des poids relatifs. Saisissez le poids de chaque lot sous la forme d’un pourcentage. Le poids de tous les lots sélectionnés doit être égal à 100,<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
+   * *[!UICONTROL Weighted]:* affiche les variantes d’annonces publicitaires dans les lots de contenu créatif associés en fonction des poids relatifs. Saisissez le poids de chaque lot sous la forme d’un pourcentage. Pour appliquer des poids égaux à tous les lots associés, cliquez sur (![Appliquer un poids égal](/help/creative/assets/apply-equal-weight.png "Appliquer un poids égal")). Le poids de tous les lots sélectionnés doit être égal à 100,<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
    * *[!UICONTROL Algorithmic]:* affiche les variantes d’annonce publicitaire les plus efficaces plus souvent, en fonction d’un objectif spécifié.
 
@@ -54,7 +62,15 @@ Vous pouvez éventuellement planifier l’exécution de lots de contenu créatif
 
 Lorsque vous utilisez la planification, vous devez planifier les lots pendant toute la durée de l’expérience.
 
-1. Placez le curseur au-dessus du nœud feuille de création sous le nœud cible, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**.
+1. Pendant que vous [créez](experience-create-targeting.md) ou [modifiez](experience-edit-targeting.md) l’expérience, ouvrez les paramètres d’optimisation créative :
+
+   1. Placez le curseur sur le nœud feuille de création sous le nœud cible et procédez comme suit :
+
+      * Pour les lots existants, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**.
+
+      * Pour créer des lots, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]** et [attribuez les lots](experience-assign-creative-bundles.md).
+
+1. Cliquez sur l’onglet **[!UICONTROL Creative Optimization]** .
 
 1. Activez **[!UICONTROL Schedule]**.
 
@@ -62,11 +78,11 @@ Lorsque vous utilisez la planification, vous devez planifier les lots pendant to
 
    1. Dans la colonne de gauche, cochez la case en regard de chaque lot de contenu créatif à ajouter au premier planning.
 
-   1. Spécifiez les dates de début et de fin du planning.
+   1. Spécifiez la date et l’heure de début, ainsi que la date et l’heure de fin du planning.
 
    1. Sélectionnez le type de rotation de contenu créatif :
 
-      * *[!UICONTROL Weighted]:* Fait pivoter manuellement les contenus publicitaires de chaque lot en fonction de leur poids relatif. Saisissez le poids de chaque lot sous la forme d’un pourcentage. Le poids de tous les lots sélectionnés doit être égal à 100.
+      * *[!UICONTROL Weighted]:* Fait pivoter manuellement les contenus publicitaires de chaque lot en fonction de leur poids relatif. Saisissez le poids de chaque lot sous la forme d’un pourcentage. Pour appliquer des poids égaux à tous les lots de la planification, cliquez sur (![Appliquer un poids égal](/help/creative/assets/apply-equal-weight.png "Appliquer un poids égal")). Le poids de tous les lots sélectionnés doit être égal à 100.
 
       * *[!UICONTROL Algorithmic]:* Fait pivoter les contenus publicitaires de chaque lot de manière algorithmique en fonction d’un objectif d’optimisation spécifié.
 
