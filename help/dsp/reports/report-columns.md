@@ -3,9 +3,9 @@ title: Colonnes de rapport disponibles
 description: Voir les descriptions des colonnes disponibles dans les rapports personnalisés.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: bd85b4451624e14c95157c84537fdfb53662773f
+source-git-commit: c318c29e78f33c665380e5e5ac0b58a653f8987a
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2933'
 ht-degree: 0%
 
 ---
@@ -194,6 +194,19 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | La somme de [!UICONTROL Non-billable Spend (Media)], [!UICONTROL Non-billable Spend (Data)] et [!UICONTROL Non-billable Spend (Other)]. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | Coût net moyen par 1 000 impressions pour les autres frais, calculé par <code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1 000</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other Spend] | Coût net total des autres frais de service (partenaires de vérification tiers, services publicitaires, etc.). |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Clicks] | Nombre total de clics. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL CTR] | Pourcentage de clics divisé par les impressions. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Engagements] | Nombre d’interactions sur une publicité diffusée. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Engagement Rate] | Pourcentage d’interactions sur une publicité diffusée divisé par les impressions. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Impressions] | Le total des impressions. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Media Match Rate] | Partage d’impressions (ou d’événements) pour lequel la création a été adaptée au média/inventaire ou à l’audience prévu. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Clicks] | Nombre total de clics attribués à un produit spécifique. À utiliser lorsque vos contenus publicitaires présentent plusieurs produits (par exemple, dans une publicité de carrousel) et que vous créez des rapports par produit. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Conversions] | Total des conversions attribuées à un produit spécifique. À utiliser lorsque vos contenus publicitaires présentent plusieurs produits (par exemple, dans une publicité de carrousel) et que vous créez des rapports par produit. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Conversion Rate] | [!UICONTROL Product Conversions] divisé par [!UICONTROL Product Impressions] attribué à un produit spécifique. À utiliser lorsque vos contenus publicitaires présentent plusieurs produits (par exemple, dans une publicité de carrousel) et que vous créez des rapports par produit. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product CTR] | [!UICONTROL Product Clicks] divisé par [!UICONTROL Product Impressions] attribué à un produit spécifique. À utiliser lorsque vos contenus publicitaires présentent plusieurs produits (par exemple, dans une publicité de carrousel) et que vous créez des rapports par produit. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Impressions] | Nombre total d’impressions attribuées à un produit spécifique. À utiliser lorsque vos contenus publicitaires présentent plusieurs produits (par exemple, dans une publicité de carrousel) et que vous créez des rapports par produit. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Revenue] | Chiffre d’affaires total attribué à un produit spécifique. À utiliser lorsque vos contenus publicitaires présentent plusieurs produits (par exemple, dans une publicité de carrousel) et que vous créez des rapports par produit. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Revenue] | Chiffre d’affaires total. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | Pourcentage de vues ayant visionné l’annonce publicitaire dans son intégralité. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | Nombre de vues ayant visionné l’annonce publicitaire dans son intégralité. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | Pourcentage d’impressions visibles qui ont visionné l’intégralité de la publicité. |
