@@ -3,9 +3,9 @@ title: Paramètres de création dynamique
 description: Référencez les paramètres des contenus publicitaires dynamiques.
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: 164ee92f85c0e649dc2bd6c0224a531eb72d1962
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 0%
 
 **[!UICONTROL Library]:** bibliothèque créative dans laquelle créer les annonces. Si vous créez les annonces à partir de [!UICONTROL Creatives] > [!UICONTROL Creative Libraries], le nom de la bibliothèque est déjà sélectionné et en lecture seule.
 
-**[!UICONTROL Ad Template Size]:** (Publicités à affichage dynamique uniquement) [dimensions de l’annonce](/help/creative/creative-libraries/creative-sizes.md) pour le modèle d’annonce à partir duquel créer l’annonce. Si vous sélectionnez d’abord une [!UICONTROL Ad Template] spécifique, cette valeur est automatiquement sélectionnée.
-
 ## Modèle de publicité
 
 **[!UICONTROL Ad Template]:** modèle d’annonce publicitaire à partir duquel créer les annonces. Sélectionnez un modèle d’annonce existant ou chargez un nouveau modèle d’annonce et sélectionnez le type de modèle (*Statique* ou *Dynamique*). Le modèle doit être au format ZIP et contenir : <!-- Need to add more specs for templates -->
@@ -40,13 +38,13 @@ ht-degree: 0%
 
 Pour continuer, cliquez sur **[!UICONTROL Select Ad Template]**.
 
+**[!UICONTROL Size]:** (Annonces dynamiques uniquement ; lecture seule) [dimensions de l’annonce](/help/creative/creative-libraries/creative-sizes.md) pour le modèle d’annonce sélectionné, qui est utilisé pour créer les annonces.
+
 **[!UICONTROL Card Count (Max 50)]:** (Affichage des annonces uniquement) Nombre de produits à afficher dans un carrousel.
 
 **[!UICONTROL Duration]:** (publicités vidéo uniquement ; lecture seule) Durée de la vidéo dérivée du modèle de publicité sélectionné. La durée de chaque vidéo doit être comprise entre 1 et 90 secondes.
 
 ## Catalogues
-
-**[!UICONTROL Template]:** modèle de flux à utiliser pour créer les annonces.
 
 **\[Catalogs\]** : un ou plusieurs catalogues à partir desquels générer des annonces. Sélectionnez un catalogue existant ou créez un catalogue en téléchargeant un modèle de flux existant, puis en créant et en chargeant le nouveau catalogue. Cliquez sur **[!UICONTROL Select Catalog]**.
 
