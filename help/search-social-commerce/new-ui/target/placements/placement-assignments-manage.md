@@ -3,9 +3,9 @@ title: Gérer les affectations de contraintes pour les emplacements
 description: Découvrez comment affecter des contraintes aux emplacements.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
+source-git-commit: 0e863a638d8f3d055fd566db65d7967126fd5f89
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -90,3 +90,4 @@ Vous pouvez affecter une seule contrainte à un ou plusieurs emplacements.
 >* [Gérer les affectations de contrainte pour les campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Gérer les affectations de contraintes pour les groupes publicitaires](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [Gérer les affectations de contraintes pour les publicités](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+>* [Gérer les affectations de contraintes pour les mots-clés](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
