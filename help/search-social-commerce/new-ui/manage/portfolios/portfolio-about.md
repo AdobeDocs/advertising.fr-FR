@@ -4,9 +4,9 @@ description: En savoir plus sur les portefeuilles.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Un portefeuille peut avoir les statuts suivants :
 
 ## La vue [!UICONTROL Portfolios]
 
-La vue [!UICONTROL Portfolios] répertorie vos portefeuilles existants, avec des données de performances personnalisables. Vous pouvez [personnaliser les colonnes de la vue](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) et filtrer les données pour inclure des portfolios spécifiques [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou de l’en-tête de colonne [&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+La vue [!UICONTROL Portfolios] répertorie tous les portfolios existants dans la vue filtrée, avec des données de performances personnalisables. Vous pouvez [personnaliser les colonnes de la vue](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) et filtrer les données pour inclure des portfolios spécifiques [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou de l’en-tête de colonne [](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 Au-dessus du tableau de données, vous pouvez ouvrir un graphique de performances avec jusqu’à trois mesures totalisées pour tous les portefeuilles dans la vue pour la période spécifiée.
 

@@ -3,9 +3,9 @@ title: Organisation de l’interface utilisateur
 description: Découvrez où accéder aux différentes fonctionnalités.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 3b4d92d2f6fe8b2ef57dfd5ce833772c37b039f8
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Votre rôle détermine les options disponibles :<!-- add link when available -->
 
    * **[!UICONTROL Conversions]** Quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Admin] > [!UICONTROL Conversions] .
 
-   * **[!UICONTROL Conversion Value Rules]** Quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] .
+   * **[!UICONTROL Conversion Value Rules]** Ouvre les vues en lecture seule de vos règles de valeur de conversion au niveau de la campagne et au niveau du compte. Pour gérer vos règles de valeur de conversion, utilisez la vue héritée [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] .
 
    * **[!UICONTROL Constraints]** Quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Optimization] > [!UICONTROL Constraints] .
 
@@ -62,11 +62,11 @@ Votre rôle détermine les options disponibles :<!-- add link when available -->
 
    * **[!UICONTROL Campaigns]:** ouvre une nouvelle vue [!UICONTROL Campaigns], qui affiche toutes les campagnes pour l’annonceur. Vous pouvez affecter des campagnes aux portfolios et gérer les affectations de contraintes pour les campagnes sélectionnées. Vous pouvez également télécharger un rapport du contenu du tableau de données. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     Pour créer, modifier et supprimer des campagnes, revenez à l’interface utilisateur héritée en cliquant sur **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** dans le menu principal ou en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
+     Pour créer, modifier et supprimer des campagnes, revenez à l’interface utilisateur héritée en cliquant sur **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** dans le menu principal ou en cliquant sur le bouton [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Ad Groups]:** ouvre une nouvelle vue [!UICONTROL Ad Groups], qui affiche tous les groupes publicitaires pour l’annonceur. Vous pouvez gérer les affectations de contraintes pour les groupes publicitaires sélectionnés. Vous pouvez également télécharger un rapport du contenu du tableau de données.
 
-     Pour créer, modifier et supprimer des campagnes, revenez à l’interface utilisateur héritée en cliquant sur **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** dans le menu principal ou en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
+     Pour créer, modifier et supprimer des campagnes, revenez à l’interface utilisateur héritée en cliquant sur **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** dans le menu principal ou en cliquant sur le bouton [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Ads]** Quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Campaigns] > [!UICONTROL Campaigns] .
 
@@ -198,7 +198,7 @@ L&#39;option [!UICONTROL Search] comprend les sous-menus suivants. Votre rôle d
 
 * ![Profil utilisateur](/help/search-social-commerce/assets/user-profile.png "Profil utilisateur") Lien vers votre profil à partir duquel vous pouvez vous déconnecter.
 
-  Lorsque vous êtes [&#x200B; connecté via Adobe Experience Cloud](sign-in.md), vous pouvez également modifier votre profil Experience Cloud, y compris votre mot de passe Experience Cloud et les paramètres de notification.
+  Lorsque vous êtes [ connecté via Adobe Experience Cloud](sign-in.md), vous pouvez également modifier votre profil Experience Cloud, y compris votre mot de passe Experience Cloud et les paramètres de notification.
 
 >[!MORELIKETHIS]
 >
