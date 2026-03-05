@@ -1,6 +1,6 @@
 ---
-title: Gérer les affectations de contraintes pour les mots-clés
-description: Découvrez comment attribuer des contraintes aux mots-clés.
+title: Gérer les affectations de contraintes pour les emplacements
+description: Découvrez comment affecter des contraintes aux emplacements.
 feature: Search Optimization, Search Campaign Management
 hide: true
 source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# (Nouvelle interface utilisateur) Gérer les affectations de contraintes pour les mots-clés
+# (Nouvelle interface utilisateur) Gérer les affectations de contraintes pour les emplacements
 
 *Fonction Beta*
 
@@ -25,13 +25,13 @@ L’annulation de l’affectation d’une contrainte supprime l’association av
 >* Si vous modifiez par la suite un mot-clé ou la copie d’une publicité, créant ainsi un nouveau mot-clé ou une nouvelle publicité, la contrainte n’est pas affectée à la nouvelle entité.
 >* Les contraintes actives limitent les enchères uniquement pour les unités d’offre affectées dans les portefeuilles optimisés au niveau des mots-clés hérités. Elles sont ignorées pour les unités d&#39;enchères qui se trouvent dans des portefeuilles actifs, dans des portefeuilles hybrides ou qui ne se trouvent pas dans des portefeuilles.
 
-## Affecter une contrainte aux annonces sélectionnées à partir de la nouvelle vue [!UICONTROL Keywords]
+## Affecter une contrainte aux emplacements sélectionnés à partir de la nouvelle vue [!UICONTROL Placements]
 
-Vous pouvez affecter une seule contrainte à une ou plusieurs campagnes.
+Vous pouvez affecter une seule contrainte à un ou plusieurs emplacements.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Target]>[!UICONTROL Keywords]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Target]>[!UICONTROL Placements]**.
 
-1. Dans l’onglet **[!UICONTROL Keywords]** , cochez la case en regard de chaque mot-clé auquel vous affecterez une seule contrainte.
+1. Dans l&#39;onglet **[!UICONTROL Placements]** , cochez la case en regard de chaque emplacement auquel vous affecterez une seule contrainte.
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
@@ -59,11 +59,11 @@ Vous pouvez affecter une seule contrainte à une ou plusieurs campagnes.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
-## Annuler l’affectation des contraintes des campagnes sélectionnées de la nouvelle vue [!UICONTROL Keywords]
+## Annuler l&#39;affectation des contraintes des emplacements sélectionnés de la nouvelle vue [!UICONTROL Placements]
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Target]>[!UICONTROL Keywords]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Target]>[!UICONTROL Placements]**.
 
-1. Dans l’onglet **[!UICONTROL Keywords]** , cochez la case en regard de chaque mot-clé duquel vous annulez l’affectation des contraintes.
+1. Dans l’onglet **[!UICONTROL Placements]** , cochez la case en regard de chaque emplacement duquel vous annulez l’affectation des contraintes.
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
