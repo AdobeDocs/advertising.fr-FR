@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Utilisez l’interface de conversation de l’IA pour rechercher du contenu conceptuel et pratique dans le [Guide d’Advertising DSP](/help/dsp/home.md) et (les annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md). Les réponses reposent uniquement sur ce qui est documenté pour ces produits dans [Experience League](https://experienceleague.adobe.com/en/docs/advertising).
+Utilisez l’interface de conversation de l’IA pour rechercher du contenu conceptuel et pratique dans le [Guide d’Advertising DSP](/help/dsp/home.md) et (les annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md). Les réponses reposent uniquement sur ce qui est documenté pour ces produits dans [Experience League](https://experienceleague.adobe.com/fr/docs/advertising).
 
 Les réponses comprennent des citations ainsi que des invites supplémentaires et des questions de suivi pour vous aider à affiner votre requête et à trouver plus d’informations. Votre historique de conversation est conservé et vos requêtes ne sont pas partagées avec d’autres utilisateurs.
 
