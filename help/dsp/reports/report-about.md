@@ -3,9 +3,9 @@ title: À Propos Des Rapports Personnalisés
 description: Découvrez les options permettant de créer des rapports personnalisés manuellement ou d’utiliser des modèles de rapport préconfigurés.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a643a2d255431c5ce93f2df092d92932d4cccc02
+source-git-commit: 041b842ccb9c0ebc2f4d9499557e20a960789a7a
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Vous pouvez générer des rapports une fois ou les planifier tous les jours, tou
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
-* &#x200B;<!-- (in beta) --> SSL FTP
+* <!-- (in beta) --> SSL FTP
 * SFTP
 
 >[!NOTE]
@@ -35,7 +35,7 @@ Vous pouvez générer des rapports une fois ou les planifier tous les jours, tou
 
 * Modèles de rapport préconfigurés
 
-   * **[!UICONTROL All-in Cost BETA]** : (annonceurs avec Advertising Creative et Advertising DSP uniquement ; fonctionnalité bêta) utilisez ce rapport pour voir combien Advertising DSP a dépensé pour le service publicitaire d’Adobe Creative. Vous pouvez afficher les données de création, d’attribut, de cible et d’autres données aux niveaux de la campagne, du package, de l’emplacement et des annonces.
+   * **[!UICONTROL All-in Cost]** : (annonceurs avec Advertising Creative et Advertising DSP uniquement) Utilisez ce rapport pour voir combien Advertising DSP a dépensé en publicité pour Adobe Creative. Vous pouvez afficher les données de création, d’attribut, de cible et d’autres données aux niveaux de la campagne, du package, de l’emplacement et des annonces.
 
    * **[!UICONTROL Billing]:** utilisez ce rapport pour comprendre les mesures de facturation clés, telles que les mesures de dépenses pour la facturation des médias par campagne. Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
 
