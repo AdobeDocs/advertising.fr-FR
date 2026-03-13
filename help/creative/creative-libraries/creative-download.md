@@ -3,9 +3,9 @@ title: Téléchargement de contenus publicitaires
 description: Découvrez comment télécharger une création sous la forme d’un fichier ZIP.
 feature: Creative Standard Creatives
 exl-id: 6507d472-be25-4f20-a32e-ad73250d78d4
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -36,3 +36,4 @@ Téléchargez tous les contenus publicitaires sélectionnés dans un fichier au 
 >
 >* [Ajouter des contenus publicitaires standard à une bibliothèque de contenus publicitaires](creative-add-standard.md)
 >* [Prévisualisation d’une création](creative-preview.md)
+>* [Afficher le journal des modifications d’un élément créatif](/help/creative/creative-libraries/creative-view-change-log.md)

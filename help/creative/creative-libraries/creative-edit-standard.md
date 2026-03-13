@@ -3,9 +3,9 @@ title: Modification de contenus publicitaires standard dans une bibliothèque de
 description: Découvrez comment modifier les paramètres des contenus publicitaires standard (non dynamiques) dans une bibliothèque de contenus publicitaires.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: cfa8af948774daf3da56d835d739573f4782ac4b
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -63,3 +63,4 @@ Lorsque vous modifiez un contenu créatif inclus dans une offre groupée<!-- or 
 >* [Ajouter des contenus publicitaires standard à une bibliothèque de contenus publicitaires](creative-add-standard.md)
 >* [Paramètres de création standard](/help/creative/creative-libraries/creative-settings-standard.md)
 >* [Prévisualisation d’une création](/help/creative/creative-libraries/creative-preview.md)
+>* [Afficher le journal des modifications d’un élément créatif](/help/creative/creative-libraries/creative-view-change-log.md)
