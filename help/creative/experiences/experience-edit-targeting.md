@@ -3,9 +3,9 @@ title: Modification d’une expérience avec le ciblage d’arborescence de déc
 description: Découvrez comment modifier les paramètres d’une expérience publicitaire ciblée à l’aide d’une arborescence de décision.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -98,3 +98,4 @@ ht-degree: 0%
 >* [Personnaliser l’optimisation et la planification de la création](experience-optimization-scheduling-targeting.md)
 >* [Exporter et implémenter une balise d’expérience publicitaire pour une expérience en direct](/help/creative/experiences/experience-tag-export.md)
 >* [Création d’une expérience avec le ciblage d’arborescence de décision](experience-create-targeting.md)
+>* [Afficher le journal des modifications d’une expérience](/help/creative/experiences/experience-view-change-log.md)

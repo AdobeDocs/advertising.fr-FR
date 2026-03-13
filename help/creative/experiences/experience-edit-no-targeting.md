@@ -3,9 +3,9 @@ title: Modification d’une expérience sans ciblage d’arbre de décision
 description: Découvrez comment modifier les paramètres d’une expérience publicitaire sans ciblage.
 feature: Creative Experiences
 exl-id: 29f54944-72a0-405a-bc11-87ea03edc09a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -35,3 +35,4 @@ ht-degree: 0%
 >* [Personnaliser l’optimisation créative et la planification d’une expérience sans ciblage](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
 >* [Exporter et implémenter une balise d’expérience publicitaire pour une expérience en direct](/help/creative/experiences/experience-tag-export.md)
 >* [Création d’une expérience sans ciblage d’arborescence de décision](experience-create-no-targeting.md)
+>* [Afficher le journal des modifications d’une expérience](/help/creative/experiences/experience-view-change-log.md)

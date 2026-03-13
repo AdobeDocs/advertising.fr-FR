@@ -3,9 +3,9 @@ title: Gestion des offres groupées de création
 description: Découvrez comment gérer et utiliser des groupes de contenus publicitaires.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -269,6 +269,28 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 1.
 
  -->
+
+## Afficher le journal des modifications d’une offre groupée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. Cliquez sur le nom de la bibliothèque.
+
+1. Cliquez sur l’onglet **[!UICONTROL Bundles]** .
+
+1. Sélectionnez le lot :
+
+   * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom du lot, puis cliquez sur **[!UICONTROL Change Log]**.
+
+   * En mode Tableau, maintenez le curseur sur la ligne et cliquez sur **[!UICONTROL More]** > **[!UICONTROL Change Log]**.
+
+1. (Facultatif) Modifiez la période signalée.
+
+1. (Facultatif) Pour ajouter une note, maintenez le curseur sur la ligne et cliquez sur **[!UICONTROL Add Notes]**. Saisissez la note et cliquez sur **[!UICONTROL Save]**.
+
+1. (Facultatif) Pour afficher l’entrée du journal des modifications, y compris les notes ajoutées, maintenez le curseur sur la ligne et cliquez sur **[!UICONTROL View Details]**.
 
 ## Supprimer des lots
 

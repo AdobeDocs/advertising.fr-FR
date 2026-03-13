@@ -3,9 +3,9 @@ title: Personnaliser l’optimisation et la planification de la création pour u
 description: Découvrez comment configurer l’optimisation et la planification des annonces publicitaires pour les expériences sans ciblage.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -127,3 +127,4 @@ Lorsque vous utilisez la planification, vous devez planifier les contenus public
 >* [Créez manuellement une balise d’annonce publicitaire pour une taille de contenu créatif applicable](/help/creative/experiences/experience-tag-create-manually.md)
 >* [Affecter des contenus publicitaires à une balise publicitaire pour des expériences sans ciblage](experience-tag-assign-creatives.md)
 >* [Personnaliser les URL de tracking pour une expérience sans ciblage d’arborescence de décision](experience-tracking-urls-no-targeting.md)
+>* [Afficher le journal des modifications d’une expérience](/help/creative/experiences/experience-view-change-log.md)

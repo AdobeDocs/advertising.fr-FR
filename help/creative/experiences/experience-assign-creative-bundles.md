@@ -3,9 +3,9 @@ title: Affectez et annulez l’affectation des bundles de création à un nœud 
 description: Découvrez comment affecter des contenus publicitaires à chaque cible dans vos expériences publicitaires.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,4 @@ These formatted steps are inserted automatically from text in the following file
 >* [Modifier une expérience avec le ciblage d’arborescence de décision](experience-edit-targeting.md)
 >* [Paramètres d’expérience ciblés](experience-settings-targeting.md)
 >* [Exporter et implémenter une balise d’expérience publicitaire pour une expérience en direct](experience-tag-export.md)
+>* [Afficher le journal des modifications d’une expérience](/help/creative/experiences/experience-view-change-log.md)

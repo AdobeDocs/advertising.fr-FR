@@ -3,9 +3,9 @@ title: Personnaliser l’optimisation et la planification de la création pour u
 description: Découvrez comment configurer l’optimisation et la planification des annonces publicitaires pour les expériences ciblées.
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -130,3 +130,4 @@ Lorsque vous utilisez la planification, vous devez planifier les lots pendant to
 >
 >* [Affectez et annulez l’affectation des lots de contenu créatif à un nœud final d’une expérience](/help/creative/experiences/experience-assign-creative-bundles.md)
 >* [Personnaliser les URL de tracking pour les créatifs](/help/creative/experiences/experience-tracking-urls-targeting.md)
+>* [Afficher le journal des modifications d’une expérience](/help/creative/experiences/experience-view-change-log.md)
