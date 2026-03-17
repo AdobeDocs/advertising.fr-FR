@@ -78,7 +78,7 @@ Voir « [FAQ sur les balises de conversion et de suivi des pages vues d’Adobe 
 
 Vous pouvez configurer le suivi des conversions pour Search, Social et Commerce à l’aide de balises dans Adobe Experience Platform (anciennement appelé Adobe Experience Platform Launch). Les balises sont disponibles pour les clients Adobe Experience Cloud en tant que fonctionnalité à valeur ajoutée incluse.
 
-Les tâches suivantes sont nécessaires pour configurer les balises de suivi des conversions pour Search, Social et Commerce à partir de l’interface utilisateur d’Experience Platform ou de l’interface utilisateur de la collecte de données Experience Platform. Pour obtenir des informations complètes et des instructions sur la configuration des balises, consultez le Guide d’Experience Platform Tags, en commençant par la « [ Présentation des balises ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) » et le « [ Guide de démarrage rapide ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start) ».
+Les tâches suivantes sont nécessaires pour configurer les balises de suivi des conversions pour Search, Social et Commerce à partir de l’interface utilisateur d’Experience Platform ou de l’interface utilisateur de la collecte de données Experience Platform. Pour obtenir des informations complètes et des instructions sur la configuration des balises, consultez le Guide d’Experience Platform Tags, en commençant par la « [&#x200B; Présentation des balises &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) » et le « [&#x200B; Guide de démarrage rapide &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start) ».
 
 >[!PREREQUISITES]
 >
