@@ -3,9 +3,9 @@ title: Générer et implémenter une balise de suivi des conversions Adobe Adver
 description: Découvrez comment créer une balise de conversion Adobe Advertising pour suivre vos événements de conversion.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: d92fc3fa1ce218788890c073df22afa336aa9ad1
+source-git-commit: 96c22e44dc4335b1896f82478985fe976d9a75b9
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Annonceurs avec suivi des conversions Adobe Advertising uniquement*
 
-Créez une balise de conversion distincte pour chaque ensemble de mesures dont vous souhaitez effectuer le suivi.
+Créez une balise de conversion distincte pour chaque ensemble de mesures dont vous souhaitez effectuer le suivi. Vous pouvez générer des balises dans Search, Social et Commerce ou utiliser des balises dans Adobe Experience Platform (anciennement appelé Adobe Experience Platform Launch).
 
 ## Générer et implémenter une balise de suivi des conversions dans Search, Social et Commerce
 
@@ -76,15 +76,15 @@ Voir « [FAQ sur les balises de conversion et de suivi des pages vues d’Adobe 
 
 ## Implémentation des balises de suivi des conversions à l’aide des balises Adobe Experience Platform
 
-Vous pouvez configurer le suivi des conversions pour Search, Social et Commerce à l’aide de balises dans Adobe Experience Platform (anciennement appelé Adobe Experience Platform Launch). Les balises sont disponibles pour les clients Adobe Experience Cloud en tant que fonctionnalité à valeur ajoutée incluse.
+Vous pouvez configurer le suivi des conversions pour Search, Social et Commerce à l’aide des balises dans Adobe Experience Platform. Les balises sont disponibles pour les clients Adobe Experience Cloud en tant que fonctionnalité à valeur ajoutée incluse.
 
-Les tâches suivantes sont nécessaires pour configurer les balises de suivi des conversions pour Search, Social et Commerce à partir de l’interface utilisateur d’Experience Platform ou de l’interface utilisateur de la collecte de données Experience Platform. Pour obtenir des informations complètes et des instructions sur la configuration des balises, consultez le Guide d’Experience Platform Tags, en commençant par la « [&#x200B; Présentation des balises &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/home) » et le « [&#x200B; Guide de démarrage rapide &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/get-started/quick-start) ».
+Les tâches suivantes sont nécessaires pour configurer les balises de suivi des conversions pour Search, Social et Commerce à partir de l’interface utilisateur d’Experience Platform ou de l’interface utilisateur de la collecte de données Experience Platform. Pour obtenir des informations complètes et des instructions sur la configuration des balises, consultez le Guide d’Experience Platform Tags, en commençant par la « [ Présentation des balises ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) » et le « [ Guide de démarrage rapide ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start) ».
 
 >[!PREREQUISITES]
 >
 >Pour installer l’extension de balise requise, demandez à l’administrateur de votre organisation d’accéder aux fonctionnalités de collecte de données de l’interface utilisateur, y compris l’autorisation `manage_properties`.
 
-1. À partir de l’[interface utilisateur de la collecte de données](https://experience.adobe.com/#/data-collection/), installez l’extension Adobe Advertising [extension](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/ui/extensions/overview) :
+1. À partir de l’[interface utilisateur de la collecte de données](https://experience.adobe.com/#/data-collection/), installez l’extension Adobe Advertising [extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview) :
 
    1. Dans la propriété applicable, ouvrez le catalogue d’extensions et sélectionnez **Adobe Advertising**.
 
@@ -132,7 +132,7 @@ Les tâches suivantes sont nécessaires pour configurer les balises de suivi des
 
          **Nom de la propriété de conversion :** nom de la propriété de conversion (par exemple, `form_completes`).
 
-         **Valeur :** valeur numérique de la propriété de conversion (par exemple, `1` effectuer le suivi de form_completes) ou choisir un [élément de données](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/ui/data-elements) existant.
+         **Valeur :** valeur numérique de la propriété de conversion (par exemple, `1` effectuer le suivi de form_completes) ou choisir un [élément de données](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) existant.
 
       1. Cliquez sur **Conserver les modifications**.
 
