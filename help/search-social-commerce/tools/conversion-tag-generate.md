@@ -1,24 +1,26 @@
 ---
-title: Générer une balise de suivi des conversions Adobe Advertising
+title: Générer et implémenter une balise de suivi des conversions Adobe Advertising
 description: Découvrez comment créer une balise de conversion Adobe Advertising pour suivre vos événements de conversion.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d92fc3fa1ce218788890c073df22afa336aa9ad1
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
-# Générer une balise de suivi des conversions Adobe Advertising
+# Générer et implémenter une balise de suivi des conversions Adobe Advertising
 
 *Annonceurs avec suivi des conversions Adobe Advertising uniquement*
 
-Créez une balise de conversion distincte pour chaque ensemble de mesures dont vous souhaitez effectuer le suivi, puis fournissez à l’annonceur ou à l’agence une liste de pages web sur lesquelles insérer chacune d’elles.
+Créez une balise de conversion distincte pour chaque ensemble de mesures dont vous souhaitez effectuer le suivi.
+
+## Générer et implémenter une balise de suivi des conversions dans Search, Social et Commerce
 
 >[!NOTE]
 >
->Cette fonctionnalité n’ajoute pas de balises d’image ni de balises de [!DNL JavaScript] aux pages web de l’annonceur. Les balises doivent être ajoutées conformément à la procédure normale de l’annonceur pour la mise à jour des pages web.
+>Cette fonctionnalité n’ajoute pas de balises d’image ni de balises de [!DNL JavaScript] aux pages web de l’annonceur. Fournissez les balises à l’annonceur ou à l’agence avec une liste de pages web sur lesquelles les insérer. Les balises doivent être ajoutées conformément à la procédure normale de l’annonceur pour la mise à jour des pages web.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]**.
 
@@ -36,7 +38,7 @@ Créez une balise de conversion distincte pour chaque ensemble de mesures dont v
 >
 >Chaque mesure de la nouvelle balise de conversion est automatiquement répertoriée dans [!UICONTROL Admin] > [!UICONTROL Conversions], même si elle n’est pas implémentée ou si les pages web sur lesquelles elle se trouve n’ont pas reçu de clics. Ce comportement est différent de celui des mesures contenues dans les balises créées manuellement ou ailleurs, qui ne sont pas répertoriées dans [!UICONTROL Admin] > [!UICONTROL Conversions] tant qu’un clic n’a pas été effectué sur l’une des pages web où elles se trouvent. Cependant, dans tous les cas, chaque mesure est initialement exclue des objectifs, rapports et vues du portfolio jusqu’à ce que vous les rendiez explicitement disponibles. Toutefois, avant d’ajouter des mesures aux objectifs du portefeuille, pensez à les rendre disponibles et à les ajouter aux rapports pour vérifier le moment où ils reçoivent des clics.
 
-## Paramètres des balises de conversion Adobe Advertising {#conversion-tag-settings}
+### Paramètres des balises de conversion Adobe Advertising {#conversion-tag-settings}
 
 **[!UICONTROL Tag Type]:** type de balise à créer :
 
@@ -71,6 +73,72 @@ Si les données n’incluent pas d’ID unique par transaction, Adobe Advertisin
 **[!UICONTROL JS Version]:** (balises [!DNL JavaScript] uniquement) Version de la balise [!DNL JavaScript] à créer : *[!UICONTROL v2]* (valeur par défaut) ou *[!UICONTROL v3]*.
 
 Voir « [FAQ sur les balises de conversion et de suivi des pages vues d’Adobe Advertising](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md) ». pour plus d’informations sur les différences.
+
+## Implémentation des balises de suivi des conversions à l’aide des balises Adobe Experience Platform
+
+Vous pouvez configurer le suivi des conversions pour Search, Social et Commerce à l’aide de balises dans Adobe Experience Platform (anciennement appelé Adobe Experience Platform Launch). Les balises sont disponibles pour les clients Adobe Experience Cloud en tant que fonctionnalité à valeur ajoutée incluse.
+
+Les tâches suivantes sont nécessaires pour configurer les balises de suivi des conversions pour Search, Social et Commerce à partir de l’interface utilisateur d’Experience Platform ou de l’interface utilisateur de la collecte de données Experience Platform. Pour obtenir des informations complètes et des instructions sur la configuration des balises, consultez le Guide d’Experience Platform Tags, en commençant par la « [ Présentation des balises ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) » et le « [ Guide de démarrage rapide ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start) ».
+
+>[!PREREQUISITES]
+>
+>Pour installer l’extension de balise requise, demandez à l’administrateur de votre organisation d’accéder aux fonctionnalités de collecte de données de l’interface utilisateur, y compris l’autorisation `manage_properties`.
+
+1. À partir de l’[interface utilisateur de la collecte de données](https://experience.adobe.com/#/data-collection/), installez l’extension Adobe Advertising [extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview) :
+
+   1. Dans la propriété applicable, ouvrez le catalogue d’extensions et sélectionnez **Adobe Advertising**.
+
+   1. Dans le menu déroulant, sélectionnez **SSC** (pour Recherche, Social et Commerce).
+
+   1. Dans le champ **ID d’utilisateur SSC**, saisissez l’ID d’utilisateur numérique pour le compte Search, Social et Commerce de votre entreprise.
+
+      Si vous ne connaissez pas votre identifiant utilisateur, contactez l’équipe chargée de votre compte Adobe.
+
+   1. Cliquez sur **Enregistrer**.
+
+1. Créez une règle (par exemple, « form_completes ») pour déclencher la balise de conversion Search, Social et Commerce :
+
+   1. Dans la section Configuration d’événement :
+
+      1. Sélectionnez les valeurs suivantes :
+
+         **Extension:** `Core`
+
+         **Event Type:** `Library Loaded (Page Top)`
+
+      1. Cliquez sur **Conserver les modifications**.
+
+   1. Dans la section Configuration de la condition :
+
+      1. Spécifiez les valeurs suivantes :
+
+         **Type de logique :** `Regular`
+
+         **Extension:** `Core`
+
+         **Type de condition :** `Path Without Query String`
+
+         **Renvoie true si le chemin est égal à :** le chemin où la conversion doit être suivie (par exemple, `/form_complete`).
+
+      1. Cliquez sur **Conserver les modifications**.
+
+   1. Dans la section Configuration d’action :
+
+      1. Spécifiez les valeurs suivantes :
+
+         **Extension:** `Adobe Advertising`
+
+         **Type d’action :** `AMO Measurement`
+
+         **Nom de la propriété de conversion :** nom de la propriété de conversion (par exemple, `form_completes`).
+
+         **Valeur :** valeur numérique de la propriété de conversion (par exemple, `1` effectuer le suivi de form_completes) ou choisir un [élément de données](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) existant.
+
+      1. Cliquez sur **Conserver les modifications**.
+
+   1. Enregistrez la règle.
+
+1. Publiez les modifications.
 
 >[!MORELIKETHIS]
 >
