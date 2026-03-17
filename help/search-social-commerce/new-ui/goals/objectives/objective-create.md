@@ -4,9 +4,9 @@ description: Découvrez comment créer un objectif.
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 21516197-d005-4703-8735-c789107dc3c4
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -39,3 +39,4 @@ Les objectifs dotés du préfixe « `ADSP_` » (non sensible à la casse) à uti
 >* [Modifier un objectif](objective-edit.md)
 >* [Appliquer des recommandations de poids à un objectif](objective-apply-weight-recommendations.md)
 >* [Paramètres des objectifs](objective-settings.md)
+>* [Télécharger des données de performances pour les objectifs](objective-download-performance-data.md)

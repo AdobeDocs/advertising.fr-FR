@@ -4,9 +4,9 @@ description: Découvrez où trouver des informations sur l’application des poi
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 70a231e5-cedb-4a02-8ee9-13549460c034
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
@@ -24,3 +24,4 @@ Pour obtenir des instructions, reportez-vous à l’aide de l’interface utilis
 >* [Modifier un objectif](objective-edit.md)
 >* [Supprimer un objectif](objective-delete.md)
 >* [Paramètres des objectifs](objective-settings.md)
+>* [Télécharger des données de performances pour les objectifs](objective-download-performance-data.md)
