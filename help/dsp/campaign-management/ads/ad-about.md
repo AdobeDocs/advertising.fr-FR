@@ -3,7 +3,7 @@ title: À propos de la gestion des publicités dans Advertising DSP
 description: En savoir plus sur la gestion des publicités.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
@@ -14,51 +14,51 @@ ht-degree: 0%
 
 <!-- add "The Ads View (Dashboard?)" section -->
 
-DSP prend en charge la diffusion de publicités par le biais de balises de service de publicités tierces (telles que Google, Flashtalking ou Sizmek) pour divers types d’annonces et le chargement direct de ressources pour les annonces d’affichage natives. Vous pouvez charger des balises tierces individuellement ou en bloc. Les téléchargements en masse utilisent des feuilles de balises partenaires ou un modèle de balise en bloc.
+DSP prend en charge la diffusion de publicités par le biais de balises de diffusion de publicités tierces (telles que Google, Flashtalking ou Sizmek) pour divers types de publicités et le chargement direct des ressources pour les publicités display natives. Vous pouvez charger des balises tierces individuellement ou en bloc. Les chargements en masse utilisent des feuilles de balises de partenaire ou un modèle de balise en masse.
 
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
-Une fois vos publicités configurées, joignez chaque publicité à un ou plusieurs emplacements, qui incluent les paramètres de ciblage (tels que la géographie, l’audience, le périphérique et le ciblage d’inventaire) qui contrôlent la manière dont votre campagne diffuse. Vous devez joindre une publicité à un emplacement pour commencer à exécuter la publicité.
+Une fois vos annonces configurées, joignez chaque annonce à un ou plusieurs emplacements, qui incluent les paramètres de ciblage (tels que la zone géographique, l’audience, l’appareil et le ciblage d’inventaire) qui contrôlent la manière dont votre campagne s’affiche. Vous devez joindre une publicité à un emplacement pour commencer à exécuter la publicité.
 
-## Types de publicité disponibles {#ad-types}
+## Types d’annonces disponibles {#ad-types}
 
-Tous les types d’annonces suivants sont disponibles dans DSP. Pour obtenir des spécifications complètes pour chaque type d’annonce, reportez-vous à la section [Spécifications de l’annonce](ad-specs.md).
+Tous les types d’annonces suivants sont disponibles dans DSP. Pour connaître les spécifications complètes de chaque type d’annonce, reportez-vous à la [Spécifications de l’annonce](ad-specs.md).
 
-* **Publicités audio (tierces uniquement)** : les publicités audio s’exécutent sur le contenu des sites d’éditeurs numériques et peuvent être exécutées de manière autonome sous la forme de fichiers audio ou avec des bannières d’accompagnement. L’audio est le meilleur moyen d’accroître la notoriété de la marque et d’interagir avec les publics en ligne. Les indicateurs de performances clés pour le son incluent [!UICONTROL Completion Rate] et [!UICONTROL Cost per Completion].
+* **Annonces audio (tierces uniquement)** : les annonces audio sont lues entre le contenu sur les sites d’éditeur numérique et peuvent être exécutées seules en tant que fichiers audio ou avec les bannières associées. L’audio est idéal pour renforcer la notoriété de la marque et interagir avec les audiences en déplacement. Les indicateurs clés de performance pour l’audio incluent le [!UICONTROL Completion Rate] et le [!UICONTROL Cost per Completion].
 
-* **Publicités d’affichage (tiers uniquement)** : les publicités d’affichage sont des images animées ou statiques affichées dans les navigateurs web ou dans les applications. Cliquer sur l’unité publicitaire permet à l’utilisateur d’accéder à un site ou à un microsite de marque. L’affichage est le meilleur outil utilisé pour générer des CPM efficaces, augmenter l’association des messages, ajouter des points de contact de marque ou de produit supplémentaires et faire descendre les utilisateurs dans l’entonnoir d’achat. Les indicateurs de performances clés pour l&#39;affichage sont [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions] et [!UICONTROL Cost per Conversion]. DSP prend en charge un large éventail de tailles de bannières publicitaires.
+* **Annonces display (tierces uniquement)** : les annonces display sont des images animées ou statiques affichées dans des navigateurs web ou des applications. Cliquez sur l’unité publicitaire pour diriger l’utilisateur vers un site ou un microsite de marque. Il est préférable d’utiliser l’affichage pour optimiser les CPM, augmenter l’association des messages, ajouter des points de contact de marque ou de produit supplémentaires et inciter les utilisateurs à acheter des funnel. Les indicateurs clés de performances pour l’affichage comprennent les [!UICONTROL Clicks], les [!UICONTROL Cost per Click], les [!UICONTROL Conversions] et les [!UICONTROL Cost per Conversion]. DSP prend en charge une grande variété de tailles de bannières publicitaires.
 
-* **Publicités mobiles (tiers uniquement)** : les publicités mobiles peuvent être au format vidéo preroll (VAST, MRAID) ou d’affichage standard. La vidéo preroll mobile peut être lancée automatiquement ou un clic pour être lue. Elle est préférable pour atteindre les visionneuses sur plusieurs écrans. L’affichage standard mobile est une image statique affichée dans les navigateurs web mobiles ou dans les applications. Il est préférable de l’utiliser pour compléter les achats de vidéos numériques, générer l’association des messages et ajouter des points de contact de marque ou de produit supplémentaires. Les publicités mobiles peuvent également fonctionner comme des prises de vue en plein écran ou comme des spots mobiles, qui sont des publicités mobiles à fort impact en plein écran et qui sont les mieux utilisées pour développer la notoriété de la marque pour les audiences mobiles et stimuler les conversions.
+* **Publicités mobiles (tierces uniquement)** : les publicités mobiles peuvent être au format vidéo pré-roll (VAST, MRAID) ou au format d’affichage standard. La vidéo preroll mobile peut être lue automatiquement ou cliquer pour lire. Il est préférable de l’utiliser pour atteindre les visionneuses sur plusieurs écrans. L’affichage standard mobile est une image statique affichée sur les navigateurs web mobiles ou dans les applications. Il est préférable de l’utiliser pour compléter les achats de vidéos numériques, stimuler l’association des messages et ajouter des points de contact de marque ou de produit supplémentaires. Les annonces mobiles peuvent également fonctionner comme des prises de contrôle en plein écran ou des interstitiels mobiles, qui sont des annonces mobiles en plein écran à fort impact qui sont mieux utilisées pour développer la notoriété de la marque pour les audiences mobiles et générer des conversions.
 
-* **Publicités d’affichage natives (propriétaire uniquement)** : les publicités natives sont prises en charge dans le format d’affichage standard. Les annonces natives incluent un titre et/ou un titre, une description, un logo et une image. Les éléments d’annonce sont combinés et rendus pour correspondre au style de page de l’éditeur afin que l’annonce se fonde avec le contenu organique de l’éditeur et entraîne un engagement plus important. L’option native est la mieux utilisée pour la sensibilisation à la marque et pour stimuler les taux d’affichage et d’engagement des audiences grâce à la publicité conviviale destinée aux visiteurs. Les indicateurs de performances clés sont les suivants : [!UICONTROL Clicks], [!UICONTROL Cost Per Click], [!UICONTROL Conversions] et [!UICONTROL Cost Per Conversion].
+* **Annonces display natives (propriétaires uniquement)** : les annonces natives sont prises en charge au format d’affichage standard. Les annonces natives comprennent un titre et/ou un titre, une description, un logo et une image. Les éléments publicitaires sont combinés et rendus de manière à correspondre au style de page de l’éditeur, de sorte que l’annonce publicitaire s’intègre au contenu organique de l’éditeur et génère un engagement plus élevé. Native est particulièrement utile pour la notoriété de la marque et pour stimuler l’affichage de l’audience et les taux d’engagement grâce à une publicité conviviale pour les téléspectateurs. Les indicateurs clés de performance incluent les [!UICONTROL Clicks], [!UICONTROL Cost Per Click], [!UICONTROL Conversions] et [!UICONTROL Cost Per Conversion].
 
-* **Publicités preroll (tiers uniquement)** : les publicités preroll (VAST et VPAID) sont affichées avant le contenu vidéo de qualité supérieure et offrent une expérience de visionneuse immersive et attrayante. La vidéo preroll peut être interactive, contenir des fonctions multimédias enrichies et inclure des superpositions, des roulements et des appels à l’action. [!UICONTROL Video Completion Rate] et [!UICONTROL Viewability Rate] sont les indicateurs de performances clés des publicités vidéo preroll.
+* **Annonces preroll (tierces uniquement)** : les annonces preroll (VAST et VPAID) s’affichent avant le contenu vidéo premium et offrent une expérience client immersive et attrayante. La vidéo preroll peut être interactive, contenir des fonctionnalités de médias riches et inclure des recouvrements, des survols et des appels à l’action. Les indicateurs clés de performance pour les publicités vidéo preroll incluent [!UICONTROL Video Completion Rate] et [!UICONTROL Viewability Rate].
 
-* **Publicités TV connectées (tiers uniquement)** : les publicités TV connectées sont affichées avant et pendant le contenu vidéo de la télévision premium. L’inventaire de toutes les télévisions connectées s’exécute sur les appareils télévisés, ce qui signifie que la vidéo est lue automatiquement dans un environnement en arrière-plan plein écran que les téléspectateurs ne peuvent pas ignorer. La télévision connectée est le format vidéo numérique le plus proche des publicités télévisées. [!UICONTROL Completion Rate] sont les indicateurs de performances clés de la télévision connectée.
+* **Publicités TV connectées (tierces uniquement)** : les publicités TV connectées sont affichées avant et pendant le contenu vidéo TV premium. Tous les stocks de télévisions connectées s’exécutent sur les appareils de télévision, ce qui signifie que la vidéo est lue automatiquement dans un environnement en lecture seule et en plein écran que les spectateurs ne peuvent pas ignorer. Connected TV est le format vidéo numérique le plus proche des publicités TV. Les indicateurs clés de performance pour la télévision connectée incluent les [!UICONTROL Completion Rate].
 
-* **Publicités vidéo universelles (tierces uniquement)** : les publicités vidéo universelles vous permettent de cibler l’inventaire vidéo des environnements de bureau, mobiles et de télévision connectés pour les inventaires VPAID et VAST à l’aide d’un seul emplacement vidéo. Elles combinent toutes les fonctionnalités des publicités preroll, mobiles et de télévision connectées et sont affichées avant et pendant le contenu vidéo. [!UICONTROL Completion Rate] et [!UICONTROL Viewability Rate] sont les indicateurs de performances clés de la vidéo universelle.
+* **Publicités vidéo universelles (tierces uniquement)** : les publicités vidéo universelles vous permettent de cibler l’inventaire vidéo à partir d’environnements de bureau, mobiles et de télévision connectée pour un inventaire VPAID et VAST à l’aide d’un seul emplacement vidéo. Ils combinent toutes les fonctionnalités des publicités pré-roll, mobiles et TV connectées et sont affichés avant et pendant le contenu vidéo. Les indicateurs clés de performance pour la vidéo universelle incluent la [!UICONTROL Completion Rate] et la [!UICONTROL Viewability Rate].
 
   Les publicités vidéo universelles ne peuvent être associées qu’à des emplacements vidéo universels.
 
-  Pour plus d’informations sur les publicités vidéo universelles, voir &quot;[FAQ à propos de la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md)&quot;.
+  Consultez « [FAQ sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md) » pour plus d’informations sur les publicités vidéo universelles.
 
-## DSP Approbations publicitaires
+## Approbations d’annonces DSP
 
-Lorsque vous créez une publicité, DSP la révise pour les catégories sensibles, cliquez sur la fonctionnalité d’URL et prévisualisez le rendu.
+Lorsque vous créez une publicité, DSP la passe en revue pour les catégories sensibles, clique sur la fonctionnalité d’URL et prévisualise le rendu.
 
-Au départ, la colonne [!UICONTROL Status] de la publicité affiche un point rouge. Le processus de révision prend normalement 24 à 48 heures. Toutefois, une publicité interrompue peut avoir un état en attente pendant plus de 48 heures, vous avez donc le temps de corriger les erreurs avant le rejet de la publicité. Les publicités refusées incluent une raison de rejet.
+Au départ, la colonne [!UICONTROL Status] de l’annonce affiche un point rouge. Le processus d&#39;examen dure normalement de 24 à 48 heures. Toutefois, une publicité rompue peut avoir un statut en attente pendant plus de 48 heures afin que vous ayez le temps de corriger les erreurs avant que la publicité ne soit rejetée. Les publicités rejetées incluent un motif de rejet.
 
-Lorsque DSP approuve une publicité, la colonne État de la publicité affiche un point vert.
+Lorsque DSP approuve une publicité, la colonne Statut de la publicité affiche un point vert.
 
-![indicateur d&#39;approbation dans la colonne [!UICONTROL Status]](/help/dsp/assets/ad-approval-status.png)
+![indicateur de validation dans [!UICONTROL Status] colonne](/help/dsp/assets/ad-approval-status.png)
 
 >[!NOTE]
 >
->Votre publicité ne peut être diffusée que si DSP et le SSP ont tous deux approuvé le contenu créatif. Chaque SSP possède ses propres exigences et processus d’approbation.
+>Votre publicité ne peut être diffusée que si DSP et le fournisseur de services partagés ont approuvé le contenu publicitaire. Chaque fournisseur de services partagés a ses propres exigences et processus d&#39;approbation.
 
 >[!MORELIKETHIS]
 >
 >* [Créer une publicité unique](ad-create.md)
->* [Créer plusieurs publicités tierces](ad-create-multiple.md)
->* [Spécifications de la publicité](ad-specs.md)
+>* [Créer plusieurs annonces publicitaires tierces](ad-create-multiple.md)
+>* [Spécifications publicitaires](ad-specs.md)

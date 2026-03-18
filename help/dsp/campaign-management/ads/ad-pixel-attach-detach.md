@@ -2,7 +2,8 @@
 title: Joindre et supprimer des pixels des publicités
 description: Découvrez comment joindre et supprimer des pixels de suivi tiers des publicités.
 feature: DSP Ads
-source-git-commit: a3bd04da6c6f428fdb6e1f05187ea3de0174c9d7
+exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -25,7 +26,7 @@ Vous pouvez joindre et désolidariser les pixels de suivi tiers des publicités.
 
    * (Dans la vue [!UICONTROL Packages] , [!UICONTROL Placements] ou [!UICONTROL Ads] ) Dans le coin supérieur droit, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-## Association de pixels de suivi tiers aux publicités dans un emplacement {#attach-pixels-ads}
+## Joindre des pixels de suivi tiers aux publicités dans un emplacement {#attach-pixels-ads}
 
 1. [Ouvrez la vue [!UICONTROL Ad Tools]](#ad-tools-open).
 
@@ -119,4 +120,3 @@ Vous pouvez joindre et désolidariser les pixels de suivi tiers des publicités.
 >* [Liste des emplacements associés à une publicité](ad-list-placements.md)
 >* [Modifier les plannings de publicités pour les emplacements](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* [FAQ sur Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
-

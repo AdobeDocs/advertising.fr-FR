@@ -1,16 +1,16 @@
 ---
-title: Joindre et supprimer des publicités des emplacements
+title: Joindre et supprimer des annonces des emplacements
 description: Découvrez comment joindre des annonces aux emplacements et supprimer des annonces des emplacements.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 72306c4cd44abe093fd9db0dabd5a8b5dde5dd4d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
 
 ---
 
-# Joindre et supprimer des publicités des emplacements
+# Joindre et supprimer des annonces des emplacements
 
 Vous pouvez joindre et supprimer des annonces à partir d’emplacements.
 
@@ -72,7 +72,7 @@ Vous pouvez joindre et supprimer des annonces à partir d’emplacements.
 
       1. Cliquez sur **[!UICONTROL I'm done for now]**.
 
-## Supprimer les publicités des emplacements de la vue [!UICONTROL Placements] {#remove-ads-placement}
+## Supprimer les annonces des emplacements de la vue [!UICONTROL Placements] {#remove-ads-placement}
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -90,7 +90,7 @@ Vous pouvez joindre et supprimer des annonces à partir d’emplacements.
 
 1. Cliquez sur **[!UICONTROL Detach Selected Ads]**.
 
-## Suppression d’une publicité d’un emplacement du [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+## Suppression d’une annonce publicitaire d’un emplacement du [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
