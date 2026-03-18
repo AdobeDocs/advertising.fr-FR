@@ -148,7 +148,7 @@ Les segments sont actualisés toutes les 24 heures. Cependant, l’inclusion dan
 
 ## Dépannage
 
-Pour résoudre les problèmes de taux de traduction et de nombre d’utilisateurs, consultez « [ Prise en charge de l’activation des identifiants universels ](/help/dsp/audiences/universal-ids.md) ».
+Pour résoudre les problèmes de taux de traduction et de nombre d’utilisateurs, consultez « [&#x200B; Prise en charge de l’activation des identifiants universels &#x200B;](/help/dsp/audiences/universal-ids.md) ».
 
 Pour résoudre les problèmes liés à la procédure de conversion, contactez l’équipe ou l’`adcloud-support@adobe.com` de votre compte Adobe.
 
