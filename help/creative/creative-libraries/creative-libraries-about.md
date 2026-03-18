@@ -51,7 +51,7 @@ Les publicités display standard incluent :
 
 ##### Conceptions HTML5
 
-* **Expériences GenStudio :** vous pouvez importer toutes les variantes d’une [expérience d’affichage d’annonce](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) dans [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) en tant que contenu publicitaire HTML5 individuel. Les liens externes sont convertis en références locales. Le contenu d’HTML peut atteindre 20 Mo et les images individuelles jusqu’à 50 Mo.
+* **Expériences GenStudio :** vous pouvez importer toutes les variantes d’une [expérience d’affichage d’annonce](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) dans [GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/home) en tant que contenu publicitaire HTML5 individuel. Les liens externes sont convertis en références locales. Le contenu d’HTML peut atteindre 20 Mo et les images individuelles jusqu’à 50 Mo.
 
   Une fois que vous avez importé une expérience GenStudio, vous pouvez modifier les métadonnées (nom, langue, balises) du contenu créatif importé, mais pas celles du contenu créatif. Si vous modifiez l’expérience GenStudio dans GenStudio, importez à nouveau l’expérience dans [!DNL Creative] pour utiliser la dernière version.
 
@@ -79,7 +79,7 @@ Saisissez les balises de suivi JavaScript pour les contenus publicitaires héber
 
 Vous pouvez télécharger des contenus vidéo propriétaires pour le web, les appareils mobiles ou les télévisions connectées depuis votre appareil ou réseau. Chaque expérience publicitaire vidéo nécessite une création vidéo par défaut pour chaque durée de création attribuée à l’expérience. DSP transcode automatiquement tous les contenus vidéo en tant que balises VAST 2.0 afin que vous puissiez les prévisualiser. Dans [!UICONTROL Tag Manager], vous pouvez éventuellement [appliquer un transcodage spécifique à DSP](/help/creative/experiences/experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience d’annonce vidéo.
 
-Consultez les exigences de création vidéo suivantes. **Remarque :** si vous chargez des expériences vidéo vers Advertising DSP, consultez également la section DSP [Conditions requises pour la vidéo haute définition Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), qui peut être plus limitée.
+Consultez les exigences de création vidéo suivantes. **Remarque :** si vous chargez des expériences vidéo vers Advertising DSP, consultez également la section DSP [Conditions requises pour la vidéo haute définition Assets](https://experienceleague.adobe.com/fr/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), qui peut être plus limitée.
 
 **Type de fichier :** .mov, .mp4, .webm
 
