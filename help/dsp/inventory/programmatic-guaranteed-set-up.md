@@ -20,7 +20,7 @@ Après avoir négocié une transaction programmatique garantie (PG) avec un édi
 >
 > Pour les offres PG, l’éditeur gère l’ensemble du rythme budgétaire, de la limitation du budget et du ciblage. Tous les SSP qui autorisent PG via DSP confirment que l’éditeur peut configurer la limitation du budget.
 >
-> La configuration d’offres programmatiques garanties avec les éditeurs sur [!DNL FreeWheel] nécessite des autorisations et des étapes supplémentaires. Pour plus d’informations, reportez-vous à [ Présentation de la configuration d’offres programmatiques garanties dans  [!DNL FreeWheel]](freewheel-overview.md).
+> La configuration d’offres programmatiques garanties avec les éditeurs sur [!DNL FreeWheel] nécessite des autorisations et des étapes supplémentaires. Pour plus d’informations, reportez-vous à [&#x200B; Présentation de la configuration d’offres programmatiques garanties dans  [!DNL FreeWheel]](freewheel-overview.md).
 
 ## Configurer une offre programmatique garantie à l’aide du [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
 
