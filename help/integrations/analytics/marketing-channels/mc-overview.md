@@ -36,7 +36,7 @@ Les autres canaux ne disposent pas de chemins d’URL traçables et ont besoin d
 
 Adobe recommande de travailler avec votre équipe d’analyse pour créer un ensemble complet de règles de traitement des [!DNL Marketing Channels] afin de suivre tous les canaux pertinents pour votre entreprise. Cela vous permet de créer des rapports d’attribution puissants.
 
-Pour comprendre comment Adobe Advertising peut contribuer aux signaux nécessaires à la création de canaux marketing personnalisés, consultez la section « [ Utilisation d’Advertising ID pour créer [!DNL Marketing Channels] règles](mc-ids.md) ».
+Pour comprendre comment Adobe Advertising peut contribuer aux signaux nécessaires à la création de canaux marketing personnalisés, consultez la section « [&#x200B; Utilisation d’Advertising ID pour créer [!DNL Marketing Channels] règles](mc-ids.md) ».
 
 >[!MORELIKETHIS]
 >

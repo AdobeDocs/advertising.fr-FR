@@ -42,7 +42,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->>* Si l’URL de la page de destination comprend un symbole de hachage (#), ce qui n’est pas courant, placez le paramètre `amo` avant le symbole de hachage.
+>&#x200B;>* Si l’URL de la page de destination comprend un symbole de hachage (#), ce qui n’est pas courant, placez le paramètre `amo` avant le symbole de hachage.
 >* Si aucun autre paramètre n’est inclus après le paramètre `amo`, ajoutez un paramètre (par exemple, &amp;a=b) après celui-ci. Exemple : `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### Configurer le suffixe d’URL de page de destination au niveau de l’annonceur

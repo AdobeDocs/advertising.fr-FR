@@ -138,7 +138,7 @@ Vous pouvez effectuer une validation à l’aide de n’importe quel type d’ou
 1. Accédez à l’onglet [!UICONTROL Network] .
 1. Dans la barre d’outils [!UICONTROL Solutions Filter], cliquez sur [!UICONTROL Adobe Advertising] et [!UICONTROL Analytics].
 1. Dans la ligne de paramètre [!UICONTROL Request URL - Hostname], recherchez `lasteventf-tm.everesttech.net`.
-1. Dans la ligne [!UICONTROL Request - Parameters], vérifiez les signaux générés, comme à l’étape 3 de la rubrique [ Confirmer le code avec  [!DNL Chrome Developer Tools]](#validate-js-chrome).
+1. Dans la ligne [!UICONTROL Request - Parameters], vérifiez les signaux générés, comme à l’étape 3 de la rubrique [&#x200B; Confirmer le code avec  [!DNL Chrome Developer Tools]](#validate-js-chrome).
    * (Implémentations qui utilisent le code de `visitorAPI.js` Experience Cloud Identity Service) Assurez-vous que le paramètre `Sdid` correspond au `Supplemental Data ID` dans le filtre Adobe Analytics.
    * (Implémentations qui utilisent Experience Platform [!DNL Web SDK] `alloy.js`code) Assurez-vous que la valeur du paramètre `advertisingStitchID` correspond au `Sdid` envoyé à Experience Platform Edge Network.
    * Si le code n’est pas généré, vérifiez que le cookie Adobe Advertising a été supprimé dans l’onglet [!UICONTROL Application] . Une fois la suppression effectuée, actualisez la page et répétez le processus.

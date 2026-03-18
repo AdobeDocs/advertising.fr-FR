@@ -51,7 +51,7 @@ Les dimensions Adobe Advertising sont ajoutées avec le suffixe « (AMO ID) » (
 
 >[!NOTE]
 >
-> Lorsque vous affichez des données Adobe Advertising (ou tout jeu de données) dans [!DNL Analytics], sachez que les mesures et les rapports sont basés sur les règles définies dans [!DNL Analytics]. Les données peuvent être différentes de ce que vous voyez dans d’autres systèmes de création de rapports, tels que les rapports de serveur de publicités, les rapports de [!DNL DSP] ou les rapports de moteur de recherche. Pour comprendre les différences de données dans [!DNL Analytics], vous devez savoir quand [!DNL eVar] données expirent, ce qui définit une visite, ce qui est considéré comme l’attribution Dernière touche par rapport à l’attribution persistante totale, etc. Pour plus d’informations, voir [Écarts de données attendus entre et Adobe Advertising [!DNL Analytics]  ](data-variances.md).
+> Lorsque vous affichez des données Adobe Advertising (ou tout jeu de données) dans [!DNL Analytics], sachez que les mesures et les rapports sont basés sur les règles définies dans [!DNL Analytics]. Les données peuvent être différentes de ce que vous voyez dans d’autres systèmes de création de rapports, tels que les rapports de serveur de publicités, les rapports de [!DNL DSP] ou les rapports de moteur de recherche. Pour comprendre les différences de données dans [!DNL Analytics], vous devez savoir quand [!DNL eVar] données expirent, ce qui définit une visite, ce qui est considéré comme l’attribution Dernière touche par rapport à l’attribution persistante totale, etc. Pour plus d’informations, voir [Écarts de données attendus entre et Adobe Advertising [!DNL Analytics]  &#x200B;](data-variances.md).
 
 ## Utilisation d’Analytics pour alimenter les campagnes et portfolios Adobe Advertising
 
@@ -80,7 +80,7 @@ Pour les campagnes [!DNL Google Ads] et [!DNL Google Microsoft Advertising] dans
 
 Votre équipe Adobe Advertising vous aidera à identifier et à mapper les événements applicables aux performances de médias payants dans Adobe Advertising, où ils sont répertoriés dans [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Admin] > [!UICONTROL Conversions].
 
-Consultez « [ Mesures Analytics dans Adobe Advertising ](analytics-data-in-advertising.md) » pour obtenir une liste des mesures disponibles.
+Consultez « [&#x200B; Mesures Analytics dans Adobe Advertising &#x200B;](analytics-data-in-advertising.md) » pour obtenir une liste des mesures disponibles.
 
 ### Segments Analytics pour le reciblage du site
 
@@ -136,7 +136,7 @@ Pour découvrir comment effectuer le suivi de vos données Adobe Advertising par
 
 ### Utilisation de l’Adobe Advertising ID pour l’analyse de l’entrée sur le site
 
-Pour découvrir comment créer un rapport d’entrée sur le site Adobe Advertising afin de surveiller les influences géographiques, le navigateur et le jour de la semaine, regardez la vidéo « [ Créer des rapports d’entrée sur le site Adobe Advertising ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html) ».
+Pour découvrir comment créer un rapport d’entrée sur le site Adobe Advertising afin de surveiller les influences géographiques, le navigateur et le jour de la semaine, regardez la vidéo « [&#x200B; Créer des rapports d’entrée sur le site Adobe Advertising &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html) ».
 
 ## Lancement d’une implémentation [!DNL Analytics for Advertising]
 
