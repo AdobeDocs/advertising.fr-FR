@@ -32,7 +32,7 @@ Vous pouvez configurer les annonces de recherches dynamiques individuellement ou
       >
       >Votre domaine doit être indexé par l’index de recherche organique [!DNL Google Ads] à cibler. En outre, si le domaine contient des pages dans plusieurs langues et que vous souhaitez cibler toutes les pages, créez une campagne distincte pour chaque langue.
 
-      Si vous n’utilisez pas le domaine de votre site web pour cibler vos publicités, créez des cibles de recherche dynamique (voir Étape 4) pour chaque groupe publicitaire. Vous pouvez créer les cibles [individuellement](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) ou à l’aide de [ feuilles d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+      Si vous n’utilisez pas le domaine de votre site web pour cibler vos publicités, créez des cibles de recherche dynamique (voir Étape 4) pour chaque groupe publicitaire. Vous pouvez créer les cibles [individuellement](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) ou à l’aide de [&#x200B; feuilles d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
    1. Assurez-vous que la campagne cible le canal de recherche et uniquement le réseau de recherche [!DNL Google Ads] (et non le réseau d’affichage). Ces paramètres sont disponibles à partir de l’onglet [!UICONTROL Networks and Devices] .
 

@@ -65,7 +65,7 @@ En ajoutant un pixel d’événement d’impression Audience Manager à vos bali
 
 1. Implémentez un pixel d’événement d’impression Audience Manager dans vos balises d’annonces publicitaires et paramètres d’emplacement DSP.
 
-   Pour obtenir des instructions, reportez-vous à « [ Collecter des données d’exposition des médias à partir de campagnes Advertising DSP ](/help/integrations/audience-manager/media-data-integration/collect.md) ».
+   Pour obtenir des instructions, reportez-vous à « [&#x200B; Collecter des données d’exposition des médias à partir de campagnes Advertising DSP &#x200B;](/help/integrations/audience-manager/media-data-integration/collect.md) ».
 
    Veillez à ajouter [des macros DSP](/help/dsp/campaign-management/macros.md) pour capturer toutes les données que le pixel d&#39;événement d&#39;impression doit renvoyer, y compris les `${TM_PLACEMENT_ID_NUM}` de l&#39;identifiant d&#39;emplacement numérique.
 
@@ -179,7 +179,7 @@ Les dimensions suivantes se rapportent aux [!DNL Analytics for Target] :
 
 Dans Analysis Workspace, si vous constatez que les données d’activité et d’expérience sont minimales ou ne sont pas renseignées, procédez comme suit :
 
-* Vérifiez que le même [!UICONTROL Supplemental Data ID] (SDID) est utilisé pour les [!DNL Target] et les [!DNL Analytics]. Vous pouvez vérifier les valeurs du SDID à l’aide du débogueur Adobe Experience Cloud [](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) sur la page de destination vers laquelle la campagne dirige les utilisateurs.
+* Vérifiez que le même [!UICONTROL Supplemental Data ID] (SDID) est utilisé pour les [!DNL Target] et les [!DNL Analytics]. Vous pouvez vérifier les valeurs du SDID à l’aide du débogueur Adobe Experience Cloud [&#128279;](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) sur la page de destination vers laquelle la campagne dirige les utilisateurs.
 
 [Valeurs de SDID (Supplemental Data ID) dans Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
