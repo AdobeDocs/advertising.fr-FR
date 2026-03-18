@@ -1,61 +1,61 @@
 ---
-title: Adobe Advertising des intégrations avec Adobe Analytics
-description: Découvrez comment Adobe Advertising peut exchange des données avec Adobe Analytics et comment utiliser les données dans Search, Social et Commerce.
+title: Intégrations d’Adobe Advertising avec Adobe Analytics
+description: Découvrez comment Adobe Advertising peut échanger des données avec Adobe Analytics et comment utiliser les données dans Search, Social et Commerce.
 feature: Integration with Adobe Analytics
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 78f69587771d9e72eb137f1e0866d782ed5c4d01
+source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising des intégrations avec Adobe Analytics
+# Intégrations d’Adobe Advertising avec Adobe Analytics
 
-Vous pouvez intégrer Adobe Advertising à Analytics de différentes manières.
+Vous pouvez intégrer Adobe Advertising à Analytics comme suit.
 
-## Exchange de données entre [!DNL Analytics] et Adobe Advertising
+## Échange de données entre [!DNL Analytics] et Adobe Advertising
 
-### Extraire les données [!DNL Analytics] dans Adobe Advertising
+### Extraction de données [!DNL Analytics] dans Adobe Advertising
 
-Avec [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md), [!DNL Search, Social, & Commerce] et DSP pull-in :
+Avec l’extraction [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md),[!DNL Search, Social, & Commerce] et DSP :
 
-* **[!DNL Analytics]segments :** métadonnées, données de hiérarchie et données d’audience uniques pour tous les segments d’annonceurs ou d’agences créés dans [!DNL Analytics] et publiés dans Experience Cloud.
+* Segments **[!DNL Analytics]: métadonnées** données hiérarchiques et données d’audience uniques pour tous les segments d’un annonceur ou d’une agence créés dans [!DNL Analytics] et publiés sur Experience Cloud.
 
-* **[!DNL Analytics]mesures d’engagement du site**
+* **[!DNL Analytics]les mesures d’engagement du site**
 
 * **[!DNL Analytics]mesures standard, personnalisées et réservées**
 
-### Envoyer des données d&#39;Adobe Advertising à [!DNL Analytics]
+### Envoi de données Adobe Advertising à [!DNL Analytics]
 
-* **Mesures de trafic de l’Adobe Advertising**
+* **Mesures de trafic provenant d’Adobe Advertising**
 
-* **Dimensions de l’Adobe Advertising**
+* **Dimensions d’Adobe Advertising**
 
 >[!NOTE]
 >
->Pour [!DNL Search, Social, & Commerce], cette fonctionnalité est prise en charge pour la plupart des réseaux publicitaires et des types de campagne. Voir &quot;Inventaire pris en charge&quot; dans le guide [!DNL Search, Social, & Commerce] pour plus d’informations.<!-- add link when that's published in ExL -->
+>Par [!DNL Search, Social, & Commerce], cette fonctionnalité est prise en charge pour la plupart des réseaux publicitaires et des types de campagne. Pour plus d’informations, consultez « Inventaire pris en charge » dans le Guide [!DNL Search, Social, & Commerce]. <!-- add link when that's published in ExL -->
 
-### Utilisation de [!DNL Analytics] segments pour créer [!DNL Google Ads Audiences] {#audience-manager-google-audiences}
+### Utiliser des segments [!DNL Analytics] pour créer des audiences [!DNL Google Ads] {#audience-manager-google-audiences}
 
-*Annonceurs avec abonnement [!DNL Advertising Search, Social, & Commerce] uniquement*
+*Publicitaires inscrits avec [!DNL Advertising Search, Social, & Commerce] uniquement*
 
 <!-- Verify all -->
 
-Dans [!DNL Search, Social, & Commerce], vous pouvez créer des audiences de correspondance de clients [!DNL Google Ads] Google à partir d’identifiants d’utilisateur à l’aide de vos segments [!DNL Analytics] existants. Cela inclut les segments Adobe Analytics publiés sur Adobe Experience Cloud et les segments créés à l’aide de Adobe Experience Cloud [!DNL Audience Library]. Pour plus d’informations, voir &quot;[Créer [!DNL Google Ads] une audience de correspondance client à partir de [!DNL Adobe] audiences](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)&quot;.
+Dans [!DNL Search, Social, & Commerce], vous pouvez créer [!DNL Google Ads] audiences de correspondance client Google à partir des ID utilisateur à l’aide de vos segments de [!DNL Analytics] existants. Cela inclut les segments Adobe Analytics publiés sur Adobe Experience Cloud et les segments créés à l’aide de l’[!DNL Audience Library] Adobe Experience Cloud. Pour plus d’informations, voir « [Créer [!DNL Google Ads] des audiences de correspondance client à partir d’ [!DNL Adobe] audiences](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) ».
 
-[Les audiences de correspondance de client provenant des ID d’utilisateur](https://support.google.com/google-ads/answer/9199250) fonctionnent comme des audiences basées sur des balises de site web, mais un ID non lié aux PII est attribué aux membres d’audience unique pour des avantages distincts par rapport aux audiences basées sur les balises de client standard et de site web.
+[Les audiences de correspondance client à partir d’ID utilisateur](https://support.google.com/google-ads/answer/9199250) fonctionnent comme des audiences basées sur des balises de site web, mais un ID autre que des informations d’identification personnelle est affecté aux membres d’audience uniques pour des avantages distincts par rapport aux audiences de correspondance client standard et basées sur des balises de site web.
 
-Pour créer les identifiants utilisateur nécessaires, vous devez utiliser une balise JavaScript Adobe Advertising <!-- with a user ID parameter --> sur vos sites web. Pour plus d’informations, contactez votre équipe de compte d’Adobe.
+Pour créer les identifiants d’utilisateur nécessaires, vous devez utiliser une balise Adobe Advertising JavaScript <!-- with a user ID parameter -->sur vos sites web. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 
 ![processus de création de segment](/help/integrations/assets/ad_search_user_id_pic.png)
 
-Une fois que vous avez créé les audiences, vous pouvez les utiliser dans les campagnes [!DNL Google Ads] en tant que [cibles ou exclusions au niveau de la campagne ou du groupe publicitaire](#audience-manager-targets).
+Une fois les audiences créées, vous pouvez les utiliser dans des campagnes [!DNL Google Ads] en tant que [ cibles ou exclusions au niveau de la campagne ou du groupe publicitaire ](#audience-manager-targets).
 
-### Utilisation de [!DNL Analytics] segments pour cibler ou exclure des publicités {#analytics-targets}
+### Utiliser des segments [!DNL Analytics] pour cibler ou exclure des publicités {#analytics-targets}
 
-* (Publicitaires avec abonnement [!DNL Search, Social, & Commerce]) Vous pouvez utiliser toutes les audiences [!DNL Google Ads] [&#x200B; créées à l’aide de  [!DNL Analytics] segments](#audience-manager-google-audiences) comme cibles ou exclusions au niveau de la campagne ou du groupe publicitaire dans vos campagnes [!DNL Google Ads].
+* (Publicitaires inscrits avec [!DNL Search, Social, & Commerce]) Vous pouvez utiliser toutes les audiences [!DNL Google Ads] qui ont été [créées à l’aide  [!DNL Analytics]  segments](#audience-manager-google-audiences) comme cibles ou exclusions au niveau de la campagne ou du groupe publicitaire dans vos campagnes [!DNL Google Ads].
 
-* (Publicitaires avec DSP) Vous pouvez utiliser vos segments [!DNL Analytics] existants comme cibles pour vos emplacements publicitaires. Vous pouvez éventuellement inclure les segments dans les audiences réutilisables, que vous pouvez utiliser comme cibles ou exclusions pour plusieurs emplacements.
+* (Annonceurs avec DSP) Vous pouvez utiliser vos segments [!DNL Analytics] existants en tant que cibles pour vos emplacements publicitaires. Vous pouvez éventuellement inclure les segments dans des audiences réutilisables, que vous pouvez utiliser comme cibles ou exclusions pour plusieurs emplacements.
 
-* (Publicitaires avec Advertising Creative) Vous pouvez utiliser vos segments [!DNL Analytics] existants comme cibles pour des créatifs spécifiques dans vos expériences publicitaires.
+* (Annonceurs avec Advertising Creative) Vous pouvez utiliser vos segments [!DNL Analytics] existants comme cibles pour des contenus publicitaires spécifiques dans vos expériences publicitaires.

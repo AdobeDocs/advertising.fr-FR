@@ -3,14 +3,14 @@ title: Pourquoi les données de canal peuvent-elles varier entre Adobe Advertisi
 description: Découvrez pourquoi les données de canal suivies par l’ID AMO peuvent différer des données de canal suivies par  [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
-# Pourquoi les données de canal peuvent varier entre Adobe Advertising et [!DNL Marketing Channels]
+# Pourquoi les données de canal peuvent-elles varier entre Adobe Advertising et [!DNL Marketing Channels] ?
 
 *Publicitaires avec une intégration Adobe Advertising-Adobe Analytics uniquement*
 
@@ -32,6 +32,6 @@ Pour plus d’informations sur les écarts de données possibles entre les donn�
 >
 >* [Écarts de données attendus entre  [!DNL Analytics]  et Adobe Advertising](/help/integrations/analytics/data-variances.md)
 >* [Principes fondamentaux de  [!DNL Analytics Marketing Channels]](mc-overview.md)
->* [Utilisation d’Adobe Advertising ID pour créer [!DNL Marketing Channels] traiter des règles](mc-ids.md)
->* [Utilisation  [!DNL Analytics Marketing Channels]  données Adobe Advertising](mc-ac-data.md)
->* [Vidéo : Utilisation  [!DNL Marketing Channels]  rapports Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=fr)
+>* [Utilisation des Adobe Advertising ID pour la création [!DNL Marketing Channels] le traitement des règles](mc-ids.md)
+>* [Utilisation [!DNL Analytics Marketing Channels] avec des données Adobe Advertising](mc-ac-data.md)
+>* [Vidéo : Utilisation  [!DNL Marketing Channels]  rapports Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
