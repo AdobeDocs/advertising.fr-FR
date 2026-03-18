@@ -1,30 +1,30 @@
 ---
-title: Abonner et demander l’accès à [!DNL On Demand] Premium Offres d’inventaire
-description: Découvrez comment vous abonner aux offres [!DNL On Demand] et demander l’accès à ces offres.
+title: 'Abonnez-vous et demandez l’accès aux offres d’inventaire  [!DNL On Demand] '
+description: Découvrez comment vous abonner à des offres [!DNL On Demand] et demander l’accès à ces offres.
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# Abonner et demander l’accès aux [!DNL On Demand] Premium Offres d’inventaire
+# Abonnez-vous et demandez l’accès à [!DNL On Demand] offres d’inventaire premium
 
-*Non disponible pour les utilisateurs avec des types de compte [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] et [!UICONTROL Other] ; les annonceurs avec la catégorie [!UICONTROL Other] ; et les revendeurs*
+*Non disponible pour les utilisateurs disposant des types de compte [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] et [!UICONTROL Other] ; les annonceurs avec le [!UICONTROL Other] de catégorie ; et les revendeurs*
 
-Vous pouvez demander des offres individuelles ou vous abonner à un éditeur pour demander toutes les offres de l’éditeur. Lorsque vous vous abonnez à un éditeur, DSP demande automatiquement les nouvelles offres que l’éditeur propose, en votre nom.
+Vous pouvez demander des offres individuelles ou vous abonner à un éditeur pour demander toutes les offres de l&#39;éditeur. Lorsque vous vous abonnez à un éditeur, DSP demande automatiquement toutes les nouvelles offres que l’éditeur propose, en votre nom.
 
-Une fois qu’une transaction est [approuvée](/help/dsp/inventory/on-demand-inventory-view-status.md), elle est incluse par défaut comme cible pour les nouveaux emplacements qui ciblent l’ensemble de l’inventaire [!DNL On Demand]. La nouvelle opération est également disponible en tant que cible pour les emplacements existants, mais vous devez modifier manuellement les paramètres de placement pour ajouter l’opération en tant que cible.
+Une fois qu’une transaction est [approuvée](/help/dsp/inventory/on-demand-inventory-view-status.md), elle est incluse par défaut comme cible pour les nouveaux emplacements qui ciblent tout [!DNL On Demand] stock. La nouvelle offre est également disponible en tant que cible pour les emplacements existants, mais vous devez modifier manuellement les paramètres d’emplacement pour ajouter l’offre en tant que cible.
 
-## Abonnement à toutes les transactions d’un éditeur
+## S’abonner à toutes les offres d’un éditeur
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
 1. (Facultatif) Filtrez les offres ou les éditeurs disponibles selon l’un des critères suivants :
 
-   * Recherche de mots-clés
+   * Recherche par mot-clé
 
    * **[!UICONTROL Publisher Region]**
 
@@ -32,27 +32,27 @@ Une fois qu’une transaction est [approuvée](/help/dsp/inventory/on-demand-inv
 
    * Offres ou abonnements demandés, y compris les offres approuvées et refusées (**[!UICONTROL Currently subscribed to]**)
 
-   * Offres pour lesquelles vous avez été approuvé (**[!UICONTROL Currently have access to]**)
+   * Affaires pour lesquelles vous avez été approuvé (**[!UICONTROL Currently have access to]**)
 
    * Offres de **[!UICONTROL TV Broadcasters]**
 
-   * Offres des éditeurs qui acceptent les créations &quot;connectées&quot; (**[!UICONTROL Tune-In]**)
+   * Offres d&#39;éditeurs qui acceptent des contenus publicitaires « en option » (**[!UICONTROL Tune-In]**)
 
-   * Offres pour lesquelles l’éditeur a appliqué plus de 21 ciblage et accepte des publicités pour de l’alcool (**[!UICONTROL Legal drinking age]**)
+   * Offres pour lesquelles l’éditeur a appliqué le ciblage 21+ et accepte les publicités pour de l’alcool (**[!UICONTROL Legal drinking age]**)
 
-1. Effectuez l’une des opérations suivantes ou :
+1. Effectuez l’une des opérations suivantes :
 
    * (Pour vous abonner aux éditeurs récemment ajoutés) Dans le carrousel supérieur des éditeurs, placez le curseur sur le logo de l’éditeur, puis cliquez sur **[!UICONTROL Subscribe]**.
 
-   * (Pour vous abonner à n’importe quel éditeur) Cliquez sur **[!UICONTROL Subscription view]**, placez le curseur sur le logo de l’éditeur, puis cliquez sur **[!UICONTROL Subscribe]**.
+   * (Pour vous abonner à un éditeur) Cliquez sur **[!UICONTROL Subscription view]**, placez le curseur sur le logo de l’éditeur, puis cliquez sur **[!UICONTROL Subscribe]**.
 
-## Demande d’accès à des transactions individuelles
+## Demander l’accès à des offres individuelles
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
 1. (Facultatif) Filtrez les offres ou les éditeurs disponibles selon l’un des critères suivants :
 
-   * Recherche de mots-clés
+   * Recherche par mot-clé
 
    * **[!UICONTROL Publisher Region]**
 
@@ -60,34 +60,34 @@ Une fois qu’une transaction est [approuvée](/help/dsp/inventory/on-demand-inv
 
    * Offres ou abonnements demandés, y compris les offres approuvées et refusées (**[!UICONTROL Currently subscribed to]**)
 
-   * Offres pour lesquelles vous avez été approuvé (**[!UICONTROL Currently have access to]**)
+   * Affaires pour lesquelles vous avez été approuvé (**[!UICONTROL Currently have access to]**)
 
    * Offres de **[!UICONTROL TV Broadcasters]**
 
-   * Offres des éditeurs qui acceptent les créations &quot;connectées&quot; (**[!UICONTROL Tune-In]**)
+   * Offres d&#39;éditeurs qui acceptent des contenus publicitaires « en option » (**[!UICONTROL Tune-In]**)
 
-   * Offres pour lesquelles l’éditeur a appliqué plus de 21 ciblage et accepte des publicités pour de l’alcool (**[!UICONTROL Legal drinking age]**)
+   * Offres pour lesquelles l’éditeur a appliqué le ciblage 21+ et accepte les publicités pour de l’alcool (**[!UICONTROL Legal drinking age]**)
 
-1. Effectuez l’une des opérations suivantes ou :
+1. Effectuez l’une des opérations suivantes :
 
-   * Pour demander des offres récemment ajoutées :
+   * Pour demander des offres ajoutées récemment :
 
       1. Dans le carrousel supérieur des éditeurs, placez le curseur sur le logo de l’éditeur, puis cliquez sur **[!UICONTROL See Deals]**.
 
-      1. Pour vous abonner à une transaction individuelle, cliquez sur **[!UICONTROL Request]** dans la colonne [!UICONTROL Action] de la ligne correspondante.
+      1. Pour vous abonner à une offre individuelle, cliquez sur **[!UICONTROL Request]** dans la colonne [!UICONTROL Action] de la ligne correspondante.
 
-   * Pour demander des offres depuis la vue [!UICONTROL Deal] :
+   * Pour demander des offres à partir de la vue [!UICONTROL Deal] :
 
       1. Cliquez sur **[!UICONTROL Deal view]**.
 
-      1. Cliquez sur **[!UICONTROL Request]** dans la colonne [!UICONTROL Action] pour la ligne correspondante.
+      1. Cliquez sur **[!UICONTROL Request]** dans la colonne [!UICONTROL Action] de la ligne correspondante.
 
 >[!MORELIKETHIS]
 >
->* [À propos de [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
->* [Afficher l’état de vos  [!DNL On Demand]  Demandes d’offres et abonnements &#x200B;](on-demand-inventory-view-status.md)
->* [Demande De Demande De Demande D’Offres D’Inventaire Premium](on-demand-inventory-rerequest.md)
->* [[!DNL On Demand]  Éditeurs d’inventaire Premium en Asie-Pacifique](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand]  Éditeurs d’inventaire Premium en Australie et en Nouvelle-Zélande](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Premium Éditeurs d’inventaire en Europe, au Moyen-Orient et en Afrique](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand]  Éditeurs d’inventaire Premium en Amérique du Nord](on-demand-inventory-publishers-na.md)
+>* [À propos [!DNL On Demand] de l’inventaire Premium](on-demand-inventory-about.md)
+>* [Afficher le statut de vos demandes  [!DNL On Demand] ’offres et de vos abonnements](on-demand-inventory-view-status.md)
+>* [Demander À Nouveau Des Offres Inventaire Premium À La Demande](on-demand-inventory-rerequest.md)
+>* [[!DNL On Demand] Éditeurs d&#39;inventaire Premium en Asie-Pacifique](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] Éditeurs Premium en Australie et en Nouvelle-Zélande](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] Éditeurs Premium Inventory en Europe, au Moyen-Orient et en Afrique](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] Éditeurs d&#39;inventaire Premium en Amérique du Nord](on-demand-inventory-publishers-na.md)

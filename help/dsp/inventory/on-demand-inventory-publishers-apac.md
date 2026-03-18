@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL On Demand] Éditeurs d''inventaire Premium en Asie-Pacifique'''
-description: Consultez les  [!DNL On Demand] éditeurs d’inventaire haut de gamme disponibles dans la région Asie-Pacifique.
+title: '[!DNL On Demand] éditeurs d''inventaire premium en Asie-Pacifique'
+description: Consultez les éditeurs  [!DNL On Demand] 'inventaire premium disponibles dans la région Asie-Pacifique.
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] Éditeurs Premium d’inventaire dans l’Asie-Pacifique{#on-demand-inventory-publishers-apac}
+# [!DNL On Demand] éditeurs d&#39;inventaire premium en Asie-Pacifique{#on-demand-inventory-publishers-apac}
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
@@ -181,88 +181,88 @@ ht-degree: 0%
 | [!DNL VIKI] | Philippines |
 | [!DNL WeGo] | Philippines |
 | [!DNL Yahoo] | Philippines |
-| [!DNL 24H] | SEA |
-| [!DNL ABS CBN] | SEA |
-| [!DNL Astro] | SEA |
-| [!DNL Astro Gempak] | SEA |
-| [!DNL Bangkok Post] | SEA |
-| [!DNL BBC] | SEA |
-| [!DNL BBTV] | SEA |
-| [!DNL Bloomberg] | SEA |
-| [!DNL Bola] | SEA |
-| [!DNL Brilio] | SEA |
-| [!DNL Carousell] | SEA |
-| [!DNL CBS Interactive] | SEA |
-| [!DNL China Press] | SEA |
-| [!DNL CNBC] | SEA |
-| [!DNL CNN International] | SEA |
-| [!DNL Coconuts] | SEA |
-| [!DNL Conde Nast] | SEA |
-| [!DNL DAZN] ([!DNL Perform Media]) | SEA |
-| [!DNL Dek-D] | SEA |
-| [!DNL Detik] | SEA |
-| [!DNL Doisongphapluat] | SEA |
-| [!DNL Dream] | SEA |
-| [!DNL EA] | SEA |
-| [!DNL Gameloft] | SEA |
-| [!DNL HOOQ] | SEA |
-| [!DNL Idntimes] | SEA |
-| [!DNL iFlix] | SEA |
-| [!DNL Investopedia] | SEA |
-| [!DNL Jakarta Post] | SEA |
-| [!DNL Kapanlagi] | SEA |
-| [!DNL Kapook] | SEA |
-| [!DNL Kaskus] | SEA |
-| [!DNL Kompas] | SEA |
-| [!DNL Line Today] | SEA |
-| [!DNL Line TV] | SEA |
-| [!DNL Liputan6] | SEA |
-| [!DNL Malay Mail Online] | SEA |
-| [!DNL Malaysiakini] | SEA |
-| [!DNL Media Prima] | SEA |
-| [!DNL Merdeka] | SEA |
-| [!DNL MSN] | SEA |
-| [!DNL Mthai] | SEA |
-| [!DNL New York Times] | SEA |
-| [!DNL Oona] | SEA |
-| [!DNL PPTV TH] | SEA |
-| [!DNL Rappler] | SEA |
-| [!DNL Sanook] | SEA |
-| [!DNL SethLui] | SEA |
-| [!DNL Siam Sport] | SEA |
-| [!DNL Sinar Harian] | SEA |
-| [!DNL SMX] | SEA |
-| [!DNL Spin.ph] | SEA |
-| [!DNL Spotify] | SEA |
-| [!DNL Star Media Group] | SEA |
-| [!DNL Tempo.co] | SEA |
-| [!DNL The Asian Parent - Malaysia] | SEA |
-| [!DNL The Inquirer] | SEA |
-| [!DNL The Philippine Star] | SEA |
-| [!DNL The Straits Times] | SEA |
-| [!DNL The Thao] | SEA |
-| [!DNL Thomson Reuters] | SEA |
-| [!DNL Time Inc] | SEA |
-| [!DNL TimeOut] | SEA |
-| [!DNL Tonton] | SEA |
-| [!DNL Tribun News] | SEA |
-| [!DNL Tripadvisor] | SEA |
-| [!DNL TrueID] | SEA |
-| [!DNL TVB Anywhere+] | SEA |
-| [!DNL Twitch] | SEA |
-| [!DNL U.S. News] | SEA |
-| [!DNL Vidio] | SEA |
-| [!DNL VIKI] | SEA |
-| [!DNL VIU] | SEA |
-| [!DNL Viva.co.id] | SEA |
-| [!DNL VNExpress] | SEA |
-| [!DNL VNG] | SEA |
-| [!DNL WeGo] | SEA |
-| [!DNL Wow Keren] | SEA |
-| [!DNL Yahoo] | SEA |
-| [!DNL Yan.vn] | SEA |
-| [!DNL Zalora] | SEA |
-| [!DNL Zing.vn] | SEA |
+| [!DNL 24H] | MER |
+| [!DNL ABS CBN] | MER |
+| [!DNL Astro] | MER |
+| [!DNL Astro Gempak] | MER |
+| [!DNL Bangkok Post] | MER |
+| [!DNL BBC] | MER |
+| [!DNL BBTV] | MER |
+| [!DNL Bloomberg] | MER |
+| [!DNL Bola] | MER |
+| [!DNL Brilio] | MER |
+| [!DNL Carousell] | MER |
+| [!DNL CBS Interactive] | MER |
+| [!DNL China Press] | MER |
+| [!DNL CNBC] | MER |
+| [!DNL CNN International] | MER |
+| [!DNL Coconuts] | MER |
+| [!DNL Conde Nast] | MER |
+| [!DNL DAZN] ([!DNL Perform Media]) | MER |
+| [!DNL Dek-D] | MER |
+| [!DNL Detik] | MER |
+| [!DNL Doisongphapluat] | MER |
+| [!DNL Dream] | MER |
+| [!DNL EA] | MER |
+| [!DNL Gameloft] | MER |
+| [!DNL HOOQ] | MER |
+| [!DNL Idntimes] | MER |
+| [!DNL iFlix] | MER |
+| [!DNL Investopedia] | MER |
+| [!DNL Jakarta Post] | MER |
+| [!DNL Kapanlagi] | MER |
+| [!DNL Kapook] | MER |
+| [!DNL Kaskus] | MER |
+| [!DNL Kompas] | MER |
+| [!DNL Line Today] | MER |
+| [!DNL Line TV] | MER |
+| [!DNL Liputan6] | MER |
+| [!DNL Malay Mail Online] | MER |
+| [!DNL Malaysiakini] | MER |
+| [!DNL Media Prima] | MER |
+| [!DNL Merdeka] | MER |
+| [!DNL MSN] | MER |
+| [!DNL Mthai] | MER |
+| [!DNL New York Times] | MER |
+| [!DNL Oona] | MER |
+| [!DNL PPTV TH] | MER |
+| [!DNL Rappler] | MER |
+| [!DNL Sanook] | MER |
+| [!DNL SethLui] | MER |
+| [!DNL Siam Sport] | MER |
+| [!DNL Sinar Harian] | MER |
+| [!DNL SMX] | MER |
+| [!DNL Spin.ph] | MER |
+| [!DNL Spotify] | MER |
+| [!DNL Star Media Group] | MER |
+| [!DNL Tempo.co] | MER |
+| [!DNL The Asian Parent - Malaysia] | MER |
+| [!DNL The Inquirer] | MER |
+| [!DNL The Philippine Star] | MER |
+| [!DNL The Straits Times] | MER |
+| [!DNL The Thao] | MER |
+| [!DNL Thomson Reuters] | MER |
+| [!DNL Time Inc] | MER |
+| [!DNL TimeOut] | MER |
+| [!DNL Tonton] | MER |
+| [!DNL Tribun News] | MER |
+| [!DNL Tripadvisor] | MER |
+| [!DNL TrueID] | MER |
+| [!DNL TVB Anywhere+] | MER |
+| [!DNL Twitch] | MER |
+| [!DNL U.S. News] | MER |
+| [!DNL Vidio] | MER |
+| [!DNL VIKI] | MER |
+| [!DNL VIU] | MER |
+| [!DNL Viva.co.id] | MER |
+| [!DNL VNExpress] | MER |
+| [!DNL VNG] | MER |
+| [!DNL WeGo] | MER |
+| [!DNL Wow Keren] | MER |
+| [!DNL Yahoo] | MER |
+| [!DNL Yan.vn] | MER |
+| [!DNL Zalora] | MER |
+| [!DNL Zing.vn] | MER |
 | [!DNL BBC] | Singapour |
 | [!DNL Bloomberg] | Singapour |
 | [!DNL Carousell] | Singapour |
@@ -299,20 +299,20 @@ ht-degree: 0%
 | [!DNL U.S. News] | Corée du Sud |
 | [!DNL Viki] | Corée du Sud |
 | [!DNL Vung] | Corée du Sud |
-| [!DNL Apple Daily] | Taiwan |
-| [!DNL BBC] | Taiwan |
-| [!DNL Bloomberg] | Taiwan |
-| [!DNL Conde Nast] | Taiwan |
-| [!DNL Digital Trends] | Taiwan |
-| [!DNL Ettoday] | Taiwan |
-| [!DNL Gameloft] | Taiwan |
-| [!DNL MSN] | Taiwan |
-| [!DNL Tripadvisor] | Taiwan |
-| [!DNL Twitch] | Taiwan |
-| [!DNL U.S. News] | Taiwan |
-| [!DNL Vidol.tv] | Taiwan |
-| [!DNL Viki] | Taiwan |
-| [!DNL Yahoo] | Taiwan |
+| [!DNL Apple Daily] | Taïwan |
+| [!DNL BBC] | Taïwan |
+| [!DNL Bloomberg] | Taïwan |
+| [!DNL Conde Nast] | Taïwan |
+| [!DNL Digital Trends] | Taïwan |
+| [!DNL Ettoday] | Taïwan |
+| [!DNL Gameloft] | Taïwan |
+| [!DNL MSN] | Taïwan |
+| [!DNL Tripadvisor] | Taïwan |
+| [!DNL Twitch] | Taïwan |
+| [!DNL U.S. News] | Taïwan |
+| [!DNL Vidol.tv] | Taïwan |
+| [!DNL Viki] | Taïwan |
+| [!DNL Yahoo] | Taïwan |
 | [!DNL Bangkok Post] | Thaïlande |
 | [!DNL BBC] | Thaïlande |
 | [!DNL BBTV] | Thaïlande |
@@ -371,8 +371,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [À propos de [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
->* [Abonner et demander l’accès à [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand]  Éditeurs d’inventaire Premium en Australie et en Nouvelle-Zélande](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Premium Éditeurs d’inventaire en Europe, au Moyen-Orient et en Afrique](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand Premium] Éditeurs d’inventaire en Amérique du Nord](on-demand-inventory-publishers-na.md)
+>* [À propos [!DNL On Demand] de l’inventaire Premium](on-demand-inventory-about.md)
+>* [Abonnement et demande d’accès à l’inventaire  [!DNL On Demand]  Premium](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] Éditeurs Premium en Australie et en Nouvelle-Zélande](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] Éditeurs Premium Inventory en Europe, au Moyen-Orient et en Afrique](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand Premium] Éditeurs d&#39;inventaire en Amérique du Nord](on-demand-inventory-publishers-na.md)

@@ -1,9 +1,9 @@
 ---
 title: Afficher les informations sur les enchères pour une transaction privée
-description: Découvrez comment utiliser les insights d’enchères pour analyser la composition de l’opération d’une opération privée.
+description: Découvrez comment utiliser les informations sur les enchères pour analyser la composition des transactions d’une transaction privée.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -12,35 +12,35 @@ ht-degree: 0%
 
 # Afficher les informations sur les enchères pour une transaction privée
 
-Auction Insights est un outil de dépannage qui vous permet d’analyser la composition des offres d’affaires privées garanties et non garanties. Grâce aux visualisations de données, cet outil affiche la tendance et les proportions relatives des valeurs reçues pour les [attributs d’enchères clés](#auction-attributes) au cours d’une période spécifique.
+Informations sur les enchères est un outil de dépannage qui vous permet d’analyser la composition des transactions privées garanties et non garanties. Grâce aux visualisations de données, cet outil affiche la tendance et les proportions relatives des valeurs reçues pour les [ attributs clés des enchères ](#auction-attributes) au cours d’une période spécifique.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Dans la ligne de la transaction, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**.
+1. Dans la ligne d&#39;opération, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**.
 
 >[!NOTE]
 >
->Les informations sur les enchères sont également disponibles via l’outil d’emplacement [!UICONTROL Inspector]. Pour les ouvrir, [&#x200B; ouvrez l’emplacement [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) sur [!UICONTROL Inventory tab], puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** dans la ligne d’opération.
+>Informations sur les enchères sont également disponibles via l’outil de [!UICONTROL Inspector] des emplacements. Pour les ouvrir, [ouvrez le [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) d&#39;emplacement sur le [!UICONTROL Inventory tab], puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** dans la ligne d&#39;opération.
 
-## Attributs d’enchère {#auction-attributes}
+## Attributs d&#39;enchères {#auction-attributes}
 
-Des graphiques de surface sont disponibles pour les attributs d’enchères suivants :
+Des graphiques en aires sont disponibles pour les attributs d&#39;enchères suivants :
 
-* **Type de publicité :** type de publicité demandé dans la vente aux enchères (tel que Display ou Audio).
+* **Type d’annonce publicitaire :** type d’annonce publicitaire demandé dans la mise aux enchères (tel que Affichage ou Audio).
 
-* **Navigateur :** navigateur d’où provient l’enchère (tel que Chrome ou Firefox).
+* **Navigateur :** navigateur à l’origine de la mise aux enchères (Chrome ou Firefox, par exemple).
 
-* **Système d’exploitation :** système d’exploitation d’où provient l’enchère (tel qu’Android ou iOS).
+* **OS :** système d’exploitation (SE) d’où provient la mise aux enchères (Android ou iOS, par exemple).
 
-* **Type de périphérique :** appareil d’où provient la vente aux enchères (tel que Téléphone mobile ou Bureau).
+* **Type d’appareil :** appareil d’où provient la mise aux enchères (téléphone mobile ou bureau, par exemple).
 
-* **Durée de la publicité :** durée maximale de la publicité demandée lors d’une vente aux enchères (par exemple, 15 ou 30 s).
+* **Durée de l’annonce publicitaire :** durée maximale de l’annonce publicitaire demandée aux enchères (15 s ou 30 s, par exemple).
 
-* **Sécurisé :** Indique si la vente aux enchères nécessite une ressource créative d’URL HTTPS sécurisée. Valeurs : <i>Secure</i> ou <i>Non-secure</i>.
+* **Sécurisé :** indique si la mise aux enchères nécessite une ressource de création d’URL HTTPS sécurisée. Valeurs : <i>Sécurisé</i> ou <i>Non sécurisé</i>.
 
-* **Type MIME :** type MIME publicitaire demandé dans l’enchère (par exemple, mp4 ou mov).
+* **Type MIME :** type MIME de contenu publicitaire demandé dans la mise aux enchères (mp4 ou mov, par exemple).
 
-![&#x200B; insights d&#39;enchères](/help/dsp/assets/auction-insights.png)
+![informations sur les enchères](/help/dsp/assets/auction-insights.png)
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Des graphiques de surface sont disponibles pour les attributs d’enchères suiv
 
 >[!MORELIKETHIS]
 >
->* [À propos de l’inventaire privé](private-inventory-about.md)
->* [&#x200B; Spécification des emplacements et publicités pour un identifiant de transaction &#x200B;](deal-id-attach-placements.md)
->* [Afficher un rapport détaillé pour une transaction](deal-view-report.md)
->* [Types de rapports de performances dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [À propos de l&#39;inventaire privé](private-inventory-about.md)
+>* [Spécifier les emplacements et les annonces publicitaires pour un ID d’offre](deal-id-attach-placements.md)
+>* [Afficher un rapport détaillé pour une affaire](deal-view-report.md)
+>* [Types de rapports de performances dans les vues de gestion de campagnes](/help/dsp/campaign-management/reports/campaign-reports-about.md)
