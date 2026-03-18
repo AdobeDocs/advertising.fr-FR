@@ -3,7 +3,7 @@ title: Dupliquer un package
 description: Découvrez comment dupliquer un package.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Dupliquez un package pour créer un package avec des paramètres similaires. Vou
 
 * Modifier les dates de vol du nouveau forfait
 
-Voir « [&#x200B; Non dupliqué &#x200B;](#package-not-duplicated) » pour obtenir une liste des paramètres d’emplacement qui ne sont pas dupliqués.
+Voir « [ Non dupliqué ](#package-not-duplicated) » pour obtenir une liste des paramètres d’emplacement qui ne sont pas dupliqués.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -63,7 +63,7 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
    * Publicités
    * Segments [!DNL DoubleVerify Authentic Brand Safety] au niveau de l’emplacement (qui remplacent les segments au niveau de l’annonceur)
 
-## Bonnes pratiques relatives à la configuration du nouveau package
+## Bonnes pratiques pour configurer le nouveau package
 
 >[!TIP]
 >
@@ -90,7 +90,7 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 
    * Créez de nouveaux emplacements pour les offres [!UICONTROL Simple Ad Serving], si nécessaire.
 
-* Pour les packages qui utilisent des objectifs d’optimisation personnalisés, utilisez le paramètre [[!UICONTROL Linked Package for Optimization Learnings Carryover] &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) pour chaque package afin d’utiliser les données historiques de la campagne précédente comme entrée pour optimiser le package.
+* Pour les packages qui utilisent des objectifs d’optimisation personnalisés, utilisez le paramètre [[!UICONTROL Linked Package for Optimization Learnings Carryover] ](/help/dsp/campaign-management/packages/package-settings.md) pour chaque package afin d’utiliser les données historiques de la campagne précédente comme entrée pour optimiser le package.
 
 >[!MORELIKETHIS]
 >

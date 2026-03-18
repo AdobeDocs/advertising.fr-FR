@@ -1,16 +1,16 @@
 ---
-title: Gérer les multiplicateurs d’offres pour les placements
+title: Gérer les multiplicateurs d’enchères pour les placements
 description: Découvrez comment créer et modifier des multiplicateurs d’enchères pour vos cibles de placement.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
 
 ---
 
-# Gérer les multiplicateurs d’offres pour les placements
+# Gérer les multiplicateurs d’enchères pour les placements
 
 Vous pouvez créer et gérer des multiplicateurs d&#39;enchères, par lesquels une enchère calculée par algorithme est multipliée pour augmenter ou diminuer l&#39;enchère, pour vos cibles d&#39;emplacement existantes de [types de cible éligibles](#bid-multiplier-by-target). Vous pouvez modifier manuellement les valeurs du multiplicateur d’enchères pour un emplacement ou charger une feuille de calcul avec des valeurs pour un ou plusieurs emplacements.
 
@@ -22,7 +22,7 @@ Par défaut, le multiplicateur d’enchères pour une cible est de 1,00, ce qui 
 
 Vous pouvez définir des multiplicateurs d&#39;enchères (avec des valeurs autres que 1,00) pour un [nombre limité de cibles](#bid-multiplier-limits-by-target).
 
-Cette fonctionnalité fonctionne avec vos cibles d’emplacement existantes. Pour modifier les cibles sélectionnées pour vos emplacements, voir « [&#x200B; Modifier les emplacements &#x200B;](/help/dsp/campaign-management/placements/placement-edit.md). »
+Cette fonctionnalité fonctionne avec vos cibles d’emplacement existantes. Pour modifier les cibles sélectionnées pour vos emplacements, voir « [ Modifier les emplacements ](/help/dsp/campaign-management/placements/placement-edit.md). »
 
 ## Gérer les multiplicateurs d’offres pour un emplacement unique
 
@@ -60,7 +60,7 @@ Vous pouvez modifier manuellement les valeurs ou charger une feuille de calcul p
 
       1. Vérifiez les données chargées dans la section [!UICONTROL Review & Submit], puis cliquez sur **[!UICONTROL Save]**.
 
-## Charger les multiplicateurs d’offres pour un ou plusieurs emplacements
+## Charger les multiplicateurs d’enchères pour un ou plusieurs emplacements
 
 Chargez une feuille de calcul pour appliquer les mêmes valeurs à tous les emplacements sélectionnés.
 
@@ -90,7 +90,7 @@ Chargez une feuille de calcul pour appliquer les mêmes valeurs à tous les empl
 
    1. Vérifiez les données chargées dans la section [!UICONTROL Review & Submit], puis cliquez sur **[!UICONTROL Save]**.
 
-## Types de cible éligibles aux multiplicateurs d&#39;offres {#bid-multiplier-by-target}
+## Types de cible éligibles aux multiplicateurs d&#39;enchères {#bid-multiplier-by-target}
 
 Vous pouvez configurer des modificateurs d&#39;enchères uniquement pour les cibles incluses et non pour les cibles exclues.
 
@@ -104,7 +104,7 @@ Vous pouvez configurer des modificateurs d&#39;enchères uniquement pour les cib
 
 * **publicités.txt cibles :** (lorsque vous vous désinscrivez de ads.txt, qui vous permet d’acheter des stocks auprès de tous les vendeurs) vendeurs ads.txt uniquement, vendeurs directs ads.txt et vendeurs ads.txt plus sites sans ads.txt <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
 
-## Nombre maximal de multiplicateurs d&#39;offres par type cible {#bid-multiplier-limits-by-target}
+## Nombre maximal de multiplicateurs d&#39;enchères par type de cible {#bid-multiplier-limits-by-target}
 
 Vous pouvez définir des multiplicateurs d&#39;enchères (avec des valeurs autres que 1,00) pour un nombre limité de cibles. Par exemple, vous pouvez définir des multiplicateurs d’enchères pour un maximum de 20 cibles de pays. Le nombre maximal de cibles pour chaque type de cible pouvant avoir des multiplicateurs d&#39;enchères est indiqué ci-dessous.
 

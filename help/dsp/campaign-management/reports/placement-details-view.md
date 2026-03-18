@@ -1,16 +1,16 @@
 ---
-title: Afficher les détails Sites, Ads, Frequency et Inventory pour un emplacement
+title: Afficher les sites, les publicités, la fréquence et les détails de l’inventaire pour un emplacement
 description: Découvrez comment afficher les sites ciblés, les publicités, la fréquence et les données d’inventaire pour un emplacement.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-# Afficher les détails Sites, Ads, Frequency et Inventory pour un emplacement
+# Afficher les sites, les publicités, la fréquence et les détails de l’inventaire pour un emplacement
 
 Pour chaque emplacement, vous pouvez [ouvrir un [!UICONTROL Inspector] (vue détaillée)](placement-details-view.md) qui répertorie tous les sites, annonces et offres ciblés dans un emplacement. Elle inclut également des données de fréquence pour l’emplacement. Vous pouvez éventuellement exporter les données de n’importe quel onglet.
 
@@ -74,7 +74,7 @@ Pour chaque emplacement, vous pouvez [ouvrir un [!UICONTROL Inspector] (vue dét
 
 1. En regard du nom de l’annonce publicitaire, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Detach]**.
 
-## Dépannage de l’inventaire
+## Résolution des problèmes d’inventaire
 
 | Problème | Cause possible | Mesures à prendre |
 | -----------| ---------- | ---------- |

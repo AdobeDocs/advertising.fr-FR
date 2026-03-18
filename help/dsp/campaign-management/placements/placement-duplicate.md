@@ -3,7 +3,7 @@ title: Dupliquer les emplacements
 description: Découvrez comment dupliquer un ou plusieurs emplacements.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Dupliquez un ou plusieurs emplacements pour créer des emplacements avec des par
 * (Pour les emplacements dupliqués dans les campagnes d’origine) Dupliquez éventuellement les annonces d’origine
 * Modifier le statut et les dates de vol des nouveaux emplacements
 
-Voir « [&#x200B; Non dupliqué &#x200B;](#placement-not-duplicated) » pour obtenir une liste des paramètres d’emplacement qui ne sont pas dupliqués.
+Voir « [ Non dupliqué ](#placement-not-duplicated) » pour obtenir une liste des paramètres d’emplacement qui ne sont pas dupliqués.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -70,7 +70,7 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
    * Publicités
    * Segments [!DNL DoubleVerify Authentic Brand Safety] au niveau de l’emplacement (qui remplacent les segments au niveau de l’annonceur)
 
-## Bonnes pratiques relatives à la configuration des nouveaux emplacements
+## Bonnes pratiques pour configurer les nouveaux emplacements
 
 >[!TIP]
 >

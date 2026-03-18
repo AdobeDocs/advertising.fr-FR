@@ -3,7 +3,7 @@ title: Paramètres du package
 description: Voir les descriptions des paramètres de package disponibles.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 86d77d23fbec15b1f80f3f9c41e66aab34a46079
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Pour les packages avec vols personnalisés, l’intervalle budgétaire est toujo
 
 **[!UICONTROL Gross Budget]:** (Packages avec régulation au niveau du package et gestion dynamique des marges uniquement) Limite du budget brut pour la durée du package.
 
-**[!UICONTROL Optimization Goal]:** (packages avec fréquence au niveau du package uniquement) Objectif d’optimisation du package. Consultez les descriptions de chaque objectif d’optimisation à l’adresse [&#x200B; Objectifs d’optimisation et comment les utiliser &#x200B;](/help/dsp/optimization/optimization-goals.md).
+**[!UICONTROL Optimization Goal]:** (packages avec fréquence au niveau du package uniquement) Objectif d’optimisation du package. Consultez les descriptions de chaque objectif d’optimisation à l’adresse [ Objectifs d’optimisation et comment les utiliser ](/help/dsp/optimization/optimization-goals.md).
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** (packages avec fréquence au niveau du package et avec les objectifs d’optimisation « [!UICONTROL Always Max Bid & Maximize Reach] » et « [!UICONTROL Lowest Cost per Reach] » uniquement) Utilise les données de portée domestique de tous les emplacements programmatiques garantis dans la campagne pour optimiser la portée incrémentielle.
 

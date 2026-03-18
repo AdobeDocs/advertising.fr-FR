@@ -1,9 +1,9 @@
 ---
 title: Affichage d’un rapport détaillé pour une publicité
-description: Découvrez comment ouvrir un rapport au niveau de l’annonce avec des données d’aperçu, de géographie et de visibilité.
+description: Découvrez comment ouvrir un rapport au niveau des annonces avec des données de vue d’ensemble, de géographie et de visibilité.
 feature: DSP Ads, DSP Campaign Data Views
 exl-id: 61e964af-b133-4c86-9672-27167ac6bad1
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -12,16 +12,16 @@ ht-degree: 0%
 
 # Affichage d’un rapport détaillé pour une publicité
 
-Le rapport au niveau de la publicité <!--legacy --> comprend les données [!UICONTROL Overview], [!UICONTROL Geography] et [!UICONTROL Viewability].
+Le rapport <!--legacy --> au niveau des annonces comprend des données [!UICONTROL Overview], [!UICONTROL Geography] et [!UICONTROL Viewability].
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
-1. En regard du nom de la publicité, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL View report]**.
+1. En regard du nom de l’annonce publicitaire, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >
->* [Afficher un rapport détaillé pour un emplacement](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Affichage d’un rapport détaillé pour un emplacement](/help/dsp/campaign-management/placements/placement-view-report.md)
 >* [Afficher un rapport détaillé pour une campagne](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [Types de rapports de performances dans les vues Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
+>* [Types de rapports de performances dans les vues de gestion de campagnes](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Rapports personnalisés](/help/dsp/reports/report-about.md)

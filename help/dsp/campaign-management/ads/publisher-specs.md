@@ -2,7 +2,7 @@
 title: Spécifications publicitaires spécifiques à l’éditeur
 description: Référencez les spécifications de publicité pour les éditeurs pris en charge.
 feature: DSP Ads
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 0%

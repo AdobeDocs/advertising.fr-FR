@@ -1,20 +1,20 @@
 ---
-title: Gestion Des Vues De Données De Campaign
+title: Gestion des vues de données de campagne
 description: Découvrez comment personnaliser vos vues de données pour les campagnes, les packages, les emplacements et les annonces.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 40cfd72c0f295ab1b6b7743828dded4032d435d4
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
 
 ---
 
-# Gestion Des Vues De Données De Campaign
+# Gestion des vues de données de campagne
 
 Vous pouvez personnaliser les données qui apparaissent dans les vues de gestion de campagne ([!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] et [!UICONTROL Ads]).
 
-## Gérer les visualisations de données {#data-visualizations-manage}
+## Gestion des visualisations de données {#data-visualizations-manage}
 
 Vous pouvez modifier les mesures et le mode graphique pour toutes les visualisations de données dans les campagnes ou pour une seule campagne. Les modifications apportées à une seule campagne sont appliquées à toutes les visualisations de données de la campagne, y compris celles des vues [!UICONTROL Packages], [!UICONTROL Placements] et [!UICONTROL Ads].
 
@@ -32,7 +32,7 @@ Vous pouvez modifier les mesures et le mode graphique pour toutes les visualisat
 
 * Dans l’angle supérieur droit de la visualisation de données, cliquez sur le commutateur de [!UICONTROL Overlay] (![commutateur de recouvrement](/help/dsp/assets/overlay.png)) pour basculer entre le mode de recouvrement (tous les graphiques sont superposés ensemble) et le mode graphique en treillis (trois graphiques distincts).
 
-## Gérer les tables de données {#data-tables-manage}
+## Gestion des tables de données {#data-tables-manage}
 
 Dans toutes les vues de gestion de campagne ([!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] et [!UICONTROL Ads]), vous pouvez personnaliser les données qui apparaissent dans le tableau de données.
 
@@ -176,4 +176,4 @@ En bas à droite d’une page, à côté de **[!UICONTROL Items per page]** , s�
 >* [Afficher l&#39;état de prévision d&#39;emplacement](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Afficher les rapports de diagnostic d&#39;emplacement](placement-diagnostics.md)
 >* [Exporter des données à partir d’une vue de gestion de campagne](campaign-export-data.md)
->* [Vidéo : structure du compte DSP et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=fr)
+>* [Vidéo : structure du compte DSP et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

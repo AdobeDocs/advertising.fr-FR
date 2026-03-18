@@ -3,7 +3,7 @@ title: Création d’un emplacement
 description: Découvrez comment créer un emplacement.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: d1be9ab441fd8abdc21491afb57763ec6eb2bec0
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -147,4 +147,4 @@ ht-degree: 0%
 >* [FAQ sur Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Résolution des problèmes liés aux performances](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vidéo : création d’un emplacement d’affichage standard](https://video.tv.adobe.com/v/344999?captions=fre_fr)
+>* [Vidéo : création d’un emplacement d’affichage standard](https://video.tv.adobe.com/v/340454)

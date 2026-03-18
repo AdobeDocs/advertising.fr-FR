@@ -1,16 +1,16 @@
 ---
-title: Vérifier et modifier les paramètres des composants de Campaign à l’aide de feuilles d’envoi groupé
+title: Examiner et modifier les paramètres des composants de campagne à l’aide des feuilles d’envoi groupé
 description: Découvrez comment examiner et modifier en bloc des packages, des emplacements et des paramètres d’annonces clés à l’aide de feuilles de calcul.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
 
 ---
 
-# Vérifier et modifier les paramètres des composants de Campaign à l’aide de feuilles d’envoi groupé
+# Examiner et modifier les paramètres des composants de campagne à l’aide des feuilles d’envoi groupé
 
 Vous pouvez télécharger les paramètres des packages, des emplacements et des annonces publicitaires dans une seule campagne au format XLSX (feuille de calcul [!DNL Microsoft Excel]) pour consulter et modifier les paramètres. Par défaut, le fichier téléchargé, appelé *feuille d’envoi groupé*, comprend des onglets distincts pour les paramètres de package, les informations de vol du package, les paramètres d’emplacement et les plannings d’annonces d’emplacement. Vous pouvez éventuellement exclure les paramètres de certains types de composants de campagne.
 
@@ -40,7 +40,7 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
      Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -74,13 +74,13 @@ Lorsqu’une mise à jour de paramètre échoue, vous pouvez télécharger un fi
 
 
 <!--
-## Placement Setting Columns in Downloaded/Uploaded Spreadsheets{#qa-sheet-columns}
+## Placement setting columns in downloaded/uploaded spreadsheets{#qa-sheet-columns}
 
 >[!TIP]
 >
 > In a downloaded spreadsheet, all editable columns are highlighted in blue.
 
-### Campaign-level Spreadsheets
+### Campaign-level spreadsheets
 
 | Section | Column | Description | Editable? |
 |---------|--------|-------------|-----------|

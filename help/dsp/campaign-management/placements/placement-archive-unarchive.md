@@ -1,16 +1,16 @@
 ---
-title: Archiver ou désarchiver un emplacement
+title: Archivage ou désarchivage d’un emplacement
 description: Découvrez comment archiver ou désarchiver un emplacement.
 feature: DSP Placements
 exl-id: 4304452d-4573-46b3-892e-299950a75d4f
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
 
 ---
 
-# Archiver ou désarchiver un emplacement
+# Archivage ou désarchivage d’un emplacement
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else?  -->
 

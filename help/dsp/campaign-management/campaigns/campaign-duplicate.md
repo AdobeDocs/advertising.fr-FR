@@ -3,7 +3,7 @@ title: Dupliquer une campagne
 description: Découvrez comment dupliquer une campagne.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Dupliquez une campagne pour créer une campagne avec des paramètres similaires.
 
 * Modifier les dates de vol de la nouvelle campagne
 
-Voir « [&#x200B; Non dupliqué &#x200B;](#campaign-not-duplicated) » pour obtenir une liste des paramètres d’emplacement qui ne sont pas dupliqués.
+Voir « [ Non dupliqué ](#campaign-not-duplicated) » pour obtenir une liste des paramètres d’emplacement qui ne sont pas dupliqués.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -53,7 +53,7 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
    * Publicités
    * Segments [!DNL DoubleVerify Authentic Brand Safety] au niveau de l’emplacement (qui remplacent les segments au niveau de l’annonceur)
 
-## Bonnes pratiques de configuration de la nouvelle campagne
+## Bonnes pratiques pour configurer la nouvelle campagne
 
 >[!TIP]
 >

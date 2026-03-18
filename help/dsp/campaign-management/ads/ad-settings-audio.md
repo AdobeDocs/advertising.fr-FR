@@ -1,16 +1,16 @@
 ---
-title: Paramètres de publicité audio
+title: Paramètres des publicités audio
 description: Consultez les descriptions des paramètres d’annonce publicitaire disponibles pour les annonces publicitaires audio.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
-# Paramètres de publicité audio
+# Paramètres des publicités audio
 
 ## [!UICONTROL Insert Ad Tag]
 

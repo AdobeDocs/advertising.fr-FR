@@ -3,7 +3,7 @@ title: Vérifier et modifier les paramètres d’emplacement à l’aide des feu
 description: Découvrez comment vérifier et modifier les paramètres d’emplacement clés en bloc à l’aide de feuilles de calcul.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Pour mettre à jour plusieurs paramètres à la fois, vous pouvez apporter des m
 
 >[!TIP]
 >
->Pour modifier rapidement d’autres champs pour un ou plusieurs emplacements, consultez « [&#x200B; Modifier des emplacements &#x200B;](/help/dsp/campaign-management/placements/placement-edit.md) ».
+>Pour modifier rapidement d’autres champs pour un ou plusieurs emplacements, consultez « [ Modifier des emplacements ](/help/dsp/campaign-management/placements/placement-edit.md) ».
 
 ## Paramètres de téléchargement pour tous les emplacements d’une campagne
 
@@ -44,7 +44,7 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
    Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -66,7 +66,7 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
    Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -99,7 +99,7 @@ Vous pouvez charger les paramètres de vos emplacements, ainsi que des annonces 
 Lorsqu’une mise à jour de paramètre échoue, vous pouvez télécharger un fichier d’erreur de feuille d’envoi groupé avec un codage de couleur pour afficher les paramètres (lignes) enregistrés et ceux qui ont échoué, avec une raison pour chaque échec. Vous pouvez ensuite résoudre les problèmes du même fichier et le charger à nouveau pour traiter les informations corrigées.
 
 <!--
-## Placement Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns}
+## Placement setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns}
 
 >[!TIP]
 >

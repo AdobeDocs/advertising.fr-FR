@@ -3,7 +3,7 @@ title: Macros Advertising DSP
 description: Référencez les macros disponibles pour le suivi général et pour effectuer le suivi des clics sur les publicités display tierces.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Macros Advertising DSP
 
-Une macro est une commande courte ou un raccourci pour une instruction et suit généralement le format `${MACRO_NAME}`. Les macros incluses dans le code créatif ou les URL de clic publicitaire se développent en une chaîne de code plus longue que le serveur de publicités peut comprendre. Le serveur de publicités DSP exécute des macros lorsque la publicité est diffusée ou que l’utilisateur clique dessus.
+Une macro est une commande courte ou un raccourci pour une instruction et suit généralement le format `${MACRO_NAME}`. Les macros incluses dans le code créatif ou les URL de clic publicitaire se développent en une chaîne de code plus longue que le serveur de publicités peut comprendre. Le serveur de publicités de DSP exécute des macros lorsque la publicité est diffusée ou que l’utilisateur clique dessus.
 
 Les macros de serveur de publicités sont utiles pour transmettre des informations importantes à DSP ou à des serveurs de publicités tiers. Les macros sont le plus souvent utilisées lors du trafic de code créatif ou de métadonnées tiers et personnalisés (comme les pixels tiers).
 
@@ -67,9 +67,9 @@ Utilisez les macros de suivi générales sur tous les types d’annonces et de b
 
 {style="table-layout:auto"}
 
-## Clic sur les macros pour les publicités display tierces
+## Macros de clic pour les publicités display tierces
 
-Pour effectuer le suivi précis des clics sur les publicités à l’aide de balises d’affichage tierces, DSP requiert une macro de clic d’affichage. Une seule version de la macro est requise ; la macro appropriée dépend du type de balise.
+Pour effectuer le suivi précis des clics sur les publicités à l’aide de balises d’affichage tierces, DSP nécessite une macro de clic d’affichage. Une seule version de la macro est requise ; la macro appropriée dépend du type de balise.
 
 | Macro | Description du remplacement | Type |
 | ----- | ----------------------- | ---- |
@@ -78,12 +78,12 @@ Pour effectuer le suivi précis des clics sur les publicités à l’aide de bal
 
 {style="table-layout:auto"}
 
-DSP insère automatiquement des macros de clics d’affichage dans une balise d’affichage tierce lorsque vous :
+DSP insère automatiquement les macros de clic d’affichage dans une balise d’affichage tierce lorsque vous :
 
 * Exporter les balises d’annonce publicitaire d’un <!-- [Needs PM confirmation.] --> de partenaire de serveur d’annonces
-* Chargement en masse de [!DNL Flashtalking] ou [!DNL Google DoubleClick for Advertisers] ajout de balises directement dans DSP
+* Chargement en masse de balises [!DNL Flashtalking] ou [!DNL Google DoubleClick for Advertisers] directement dans DSP
 
-Si une macro de clic est manquante lorsque vous créez une publicité display, DSP affiche un message d&#39;avertissement qui vous invite à insérer manuellement la macro de clic display appropriée dans la zone appropriée de la balise.
+Si une macro de clic est manquante lors de la création d’une publicité display, DSP affiche un message d’avertissement vous invitant à insérer manuellement la macro de clic display appropriée dans la zone appropriée de la balise.
 
 ## Macros [!DNL Analytics for Advertising]
 

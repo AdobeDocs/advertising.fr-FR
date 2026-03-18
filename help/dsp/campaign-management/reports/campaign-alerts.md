@@ -3,7 +3,7 @@ title: Affichage des alertes
 description: Découvrez comment afficher les alertes et les résolutions recommandées pour vos campagnes et composants de campagne.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 9ab8d3345659f48d1d131c3c6c1e1b87f0b0a0e6
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Vous pouvez également choisir d’ignorer une alerte individuelle, ce qui la su
 
 Les alertes et indicateurs d’alerte disparaissent automatiquement lorsque les problèmes sous-jacents sont résolus.
 
-## Affichage des alertes dans l’[!UICONTROL Pulse Panel]
+## Affichage des alertes dans le [!UICONTROL Pulse Panel]
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 

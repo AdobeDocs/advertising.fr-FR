@@ -1,52 +1,52 @@
 ---
-title: Mettre une publicité en pause ou l’activer
+title: Mettre en pause ou activer une publicité
 description: Découvrez comment suspendre ou activer une publicité.
 feature: DSP Ads
 exl-id: f39d36c2-4c62-462b-bb92-29458890661e
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
 
 ---
 
-# Mettre une publicité en pause ou l’activer
+# Mettre en pause ou activer une publicité
 
-La suspension ou l’activation d’une publicité à partir de la vue [!UICONTROL Ads] modifie l’état de la publicité à l’échelle de tous les emplacements associés.
+La mise en pause ou l’activation d’une publicité à partir de la vue [!UICONTROL Ads] modifie le statut de la publicité à tous les emplacements associés.
 
-Pour suspendre une publicité sur un emplacement individuel, utilisez l’emplacement [!UICONTROL Inspector].
+Pour mettre en pause une annonce publicitaire sur un emplacement individuel, utilisez l’[!UICONTROL Inspector] d’emplacement.
 
-## Mettre en pause ou activer une publicité spécifique à tous les emplacements
-
-1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
-1. Cliquez sur le nom de la campagne.
-1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
-1. En regard du nom de la publicité, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Pause]** ou **[!UICONTROL Activate]**.
-
-## Suspendre ou activer plusieurs publicités sur tous les emplacements
+## Mettre en pause ou activer une publicité individuelle à tous les emplacements
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
-1. Cochez la case en regard du nom de la publicité.
-1. Dans la barre de menu des opérations en bloc, cliquez sur **[!UICONTROL Edit]**.
-1. Choisissez le mode d&#39;édition.
-1. Sélectionner **[!UICONTROL Submit]**
+1. En regard du nom de l’annonce publicitaire, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Pause]** ou **[!UICONTROL Activate]**.
 
-## Mettre en pause ou activer une publicité sur un emplacement individuel
+## Mettre en pause ou activer plusieurs publicités à tous les emplacements
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
+1. Cliquez sur le nom de la campagne.
+1. Dans le sous-menu, cliquez sur **[!UICONTROL Ads]**.
+1. Cochez la case en regard du nom de l’annonce publicitaire.
+1. Dans la barre de menus des opérations en bloc, cliquez sur **[!UICONTROL Edit]**.
+1. Choisissez le mode d’édition.
+1. Sélectionner un **[!UICONTROL Submit]**
+
+## Mettre en pause ou activer une annonce publicitaire sur un emplacement individuel
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne.
 1. Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**.
-1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Ads]** pour ouvrir l’onglet [!UICONTROL Ads] de l’emplacement [!UICONTROL Inspector].
-1. En regard du nom de la publicité, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Pause]** ou **[!UICONTROL Activate]**.
+1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Ads]** pour ouvrir l’onglet [!UICONTROL Ads] du [!UICONTROL Inspector] d’emplacement.
+1. En regard du nom de l’annonce publicitaire, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Pause]** ou **[!UICONTROL Activate]**.
 
 >[!NOTE]
 >
->Si une publicité a été suspendue à partir de la vue [!UICONTROL Ads], vous ne pouvez pas l’activer à partir de l’emplacement [!UICONTROL Inspector]. Activez-le à partir de la vue [!UICONTROL Ads] à la place.
+>Si une publicité a été mise en pause à partir de la vue [!UICONTROL Ads], vous ne pouvez pas l’activer à partir de la [!UICONTROL Inspector] d’emplacement. Activez-le plutôt à partir de la vue [!UICONTROL Ads] .
 
 >[!MORELIKETHIS]
 >
 >* [Créer une publicité unique](ad-create.md)
->* [Créer plusieurs publicités tierces](ad-create-multiple.md)
+>* [Créer plusieurs annonces publicitaires tierces](ad-create-multiple.md)
 >* [Archiver une publicité](ad-archive-unarchive.md)

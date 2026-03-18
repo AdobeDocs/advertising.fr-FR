@@ -3,7 +3,7 @@ title: Affichage d’un rapport détaillé pour un emplacement
 description: Découvrez comment ouvrir un rapport au niveau des emplacements avec des sections sur les données [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications] et [!UICONTROL Ads].
 feature: DSP Placements, DSP Campaign Data Views
 exl-id: ddfae530-1dc6-4470-9910-ae13abcbaa8b
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%

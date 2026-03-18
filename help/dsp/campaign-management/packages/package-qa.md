@@ -3,7 +3,7 @@ title: Vérifier et modifier les paramètres du package à l’aide des feuilles
 description: Découvrez comment vérifier et modifier les paramètres clés des packages en bloc à l’aide de feuilles de calcul.
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: c482f476de5b79ee9a363791d62ba8c2ada12cbc
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Les champs modifiables incluent la plupart des paramètres qui sont normalement 
 
 >[!TIP]
 >
->Pour modifier rapidement d’autres champs pour un ou plusieurs packages, consultez « [&#x200B; Modifier des packages &#x200B;](/help/dsp/campaign-management/packages/package-edit.md). »
+>Pour modifier rapidement d’autres champs pour un ou plusieurs packages, consultez « [ Modifier des packages ](/help/dsp/campaign-management/packages/package-edit.md). »
 
 ## Paramètres de téléchargement pour tous les packages d’une campagne
 
@@ -48,7 +48,7 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
      Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -74,7 +74,7 @@ Lorsque vous téléchargez des paramètres pour des packages spécifiques, le fi
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
      Le fichier est enregistré dans le dossier Téléchargements du navigateur. Consultez la section « [Colonnes d’emplacement dans les feuilles d’envoi groupé téléchargées/chargées](#qa-sheet-columns) » pour obtenir une liste des colonnes incluses.
 
@@ -107,7 +107,7 @@ Vous pouvez charger les paramètres de vos packages, y compris les emplacements 
 Lorsqu’une mise à jour de paramètre échoue, vous pouvez télécharger un fichier d’erreur de feuille d’envoi groupé avec un codage de couleur pour afficher les paramètres (lignes) enregistrés et ceux qui ont échoué, avec une raison pour chaque échec. Vous pouvez ensuite résoudre les problèmes du même fichier et le charger à nouveau pour traiter les informations corrigées.
 
 <!--
-## Package Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns-packages}
+## Package setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns-packages}
 
 >[!TIP]
 >

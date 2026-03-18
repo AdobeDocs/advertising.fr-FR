@@ -3,7 +3,7 @@ title: Modifier les emplacements
 description: Découvrez comment modifier un emplacement.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Vous pouvez modifier les paramètres d’un seul emplacement ou de plusieurs emp
 >
 >Vous pouvez également télécharger les paramètres d’un ou plusieurs emplacements, ou de tous les emplacements d’une campagne, au format XLSX (feuille de calcul Excel), apporter des modifications à la plupart des champs et les charger à nouveau dans DSP en une seule fois. Voir « [Vérification et modification des paramètres d’emplacement à l’aide des feuilles d’envoi groupé](placement-qa.md) ».
 
-## Modifier rapidement les paramètres d’emplacement des clés {#placement-quick-edit}
+## Modification rapide des paramètres d’emplacement des clés {#placement-quick-edit}
 
 Vous pouvez modifier le nom de l’emplacement, le statut, l’enchère maximum et le budget sans ouvrir les paramètres d’emplacement complets.
 
@@ -102,4 +102,4 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
 >* [Paramètres d’emplacement](placement-settings.md)
 >* [Afficher l&#39;état de prévision d&#39;emplacement](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Vidéo : modification d’emplacements à l’aide d’outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=fr)
+>* [Vidéo : modification d’emplacements à l’aide d’outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

@@ -1,16 +1,16 @@
 ---
-title: À propos des informations
+title: À propos des insights
 description: Découvrez les informations sur les performances des visualisations.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
 
 ---
 
-# À propos des informations
+# À propos des insights
 
 *Fonction Beta*
 
@@ -30,7 +30,7 @@ Vous pouvez également [modifier la période, configurer la vue et enregistrer u
 
 ## Types d’informations
 
-### Onglet [!UICONTROL Home]
+### onglet [!UICONTROL Home]
 
 L’onglet [!UICONTROL Home] fournit des mesures clés de norme, de performances et de visibilité sur toutes les campagnes d’un annonceur. Par défaut, les données d’emplacement croisé pour un annonceur spécifique et un objectif personnalisé s’affichent. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur, d’un autre objectif personnalisé ou d’un emplacement spécifique. <!-- I don't see campaigns or packages anymore:  You can optionally configure filters to show data for a different advertiser or data for only specific campaigns, packages, custom goals, and placements. --> Les informations incluent :
 
@@ -38,7 +38,7 @@ L’onglet [!UICONTROL Home] fournit des mesures clés de norme, de performances
 
 * **[!UICONTROL Delivery Breakdown]:** répartition des données pour des mesures spécifiques selon trois dimensions spécifiées par le client, telles que par campagne, éditeur et type de média. Pour chaque répartition dimensionnelle, vous pouvez choisir une mesure différente.
 
-### Onglet [!UICONTROL Household Reach]
+### onglet [!UICONTROL Household Reach]
 
 L’onglet [!UICONTROL Household Reach] fournit des mesures de portée des ménages pour toutes les campagnes d’un annonceur. Par défaut, les données sur plusieurs campagnes s’affichent. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur, d’une campagne spécifique, de plusieurs packages ou emplacements, ou d’un package ou emplacement spécifique. Ces informations incluent :
 
@@ -62,7 +62,7 @@ L’onglet [!UICONTROL Household Reach] fournit des mesures de portée des ména
    * **Impact modéré**
    * **Impact limité :** attention requise
 
-### Onglet [!UICONTROL Household Conversion]
+### onglet [!UICONTROL Household Conversion]
 
 L’onglet [!UICONTROL Household Conversion] fournit des mesures de conversion des ménages pour toutes les campagnes d’un annonceur<!-- active only? -->. Par défaut, les données sur plusieurs campagnes pour un annonceur spécifique et une mesure de conversion spécifique s’affichent. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur ou d’une autre mesure de conversion, pour une campagne spécifique, entre des packages ou des emplacements, ou pour un package ou un emplacement spécifique. Ces informations incluent :
 
@@ -104,11 +104,11 @@ L’onglet [!UICONTROL Household Conversion] fournit des mesures de conversion d
 
 1. (Facultatif) Pour réduire davantage les données, sélectionnez le type d’entité dans la barre d’outils, puis sélectionnez une valeur d’entité spécifique (une campagne, un package ou un emplacement unique).
 
-## Modification du Dimension signalé pour une Insight
+## Modification de la dimension signalée pour un insight
 
 * Dans le menu déroulant situé dans le coin supérieur gauche d’insight, sélectionnez la dimension.
 
-## Modification des mesures signalées pour un Insight
+## Modification des mesures signalées pour un insight
 
 Pour les mesures de conversion, la prise en charge est disponible pour les conversions suivies par Adobe Advertising et celles suivies par Adobe Analytics.
 
@@ -122,7 +122,7 @@ Pour les mesures de conversion, la prise en charge est disponible pour les conve
 
   Le fichier est enregistré dans le dossier Téléchargements par défaut de votre navigateur.
 
-## Téléchargement d’un Insight spécifique dans un fichier XLSX
+## Télécharger un insight spécifique dans un fichier XLSX
 
 * Dans le coin supérieur droit d’insight, cliquez sur ![Télécharger](/help/creative/assets/download.png "Télécharger").
 
@@ -130,7 +130,7 @@ Pour les mesures de conversion, la prise en charge est disponible pour les conve
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
+>* [Rapports personnalisés](/help/dsp/reports/report-about.md)
 >* [Types de rapports de performances dans les vues de gestion de campagnes](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonnes de rapport disponibles](/help/dsp/reports/report-columns.md)
->* [Gestion Des Vues De Données De Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [Gérer les vues de données de votre campagne](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

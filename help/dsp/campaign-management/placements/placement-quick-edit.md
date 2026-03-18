@@ -1,16 +1,16 @@
 ---
-title: Modifier rapidement les paramètres d’emplacement des clés
+title: Modification rapide des paramètres d’emplacement des clés
 description: Découvrez comment modifier rapidement les paramètres d’emplacement clés.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
-# Modifier rapidement les paramètres d’emplacement des clés
+# Modification rapide des paramètres d’emplacement des clés
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
@@ -38,4 +38,4 @@ Vous pouvez modifier le nom de l’emplacement, le statut, l’enchère maximum 
 >* [Désactiver ou activer un emplacement](placement-pause-activate.md)
 >* [Afficher le journal des modifications pour un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)
->* [Vidéo : modification d’emplacements à l’aide d’outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=fr)
+>* [Vidéo : modification d’emplacements à l’aide d’outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
