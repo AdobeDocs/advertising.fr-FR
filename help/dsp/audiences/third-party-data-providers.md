@@ -1,9 +1,9 @@
 ---
 title: Fournisseurs de données tiers disponibles dans Advertising DSP
-description: Consultez la liste de tous les fournisseurs de données tiers disponibles.
+description: Consultez une liste de tous les fournisseurs de données tiers disponibles.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Fournisseurs de données tiers disponibles dans Advertising DSP
 
-Les catégories de données et les segments pour les fournisseurs de données tiers suivants sont disponibles en tant que cibles d’emplacement dans DSP. Ces segments sont disponibles pour les audiences principalement américaines.
+Les catégories de données et les segments pour les fournisseurs de données tiers suivants sont disponibles en tant que cibles d’emplacement dans DSP. Ces segments sont principalement disponibles pour le public américain.
 
-Les frais d’utilisation de chaque segment sont affichés en regard du nom du segment dans les paramètres d’emplacement et les paramètres d’audience enregistrés.
+Les frais d’utilisation de chaque segment s’affichent en regard du nom du segment dans les paramètres d’emplacement et les paramètres d’audience enregistrés.
 
 * [!DNL Adsquare]
 * [!DNL digitalAudience]
@@ -39,10 +39,10 @@ Les frais d’utilisation de chaque segment sont affichés en regard du nom du s
 * [!DNL Weborama]
 * [!DNL Zeotap]
 
-Pour plus d’informations sur l’importation de segments tiers personnalisés pour votre compte, contactez votre équipe de compte d’Adobe.
+Pour plus d’informations sur l’importation de segments tiers personnalisés pour votre compte, contactez l’équipe chargée de votre compte Adobe.
 
 >[!MORELIKETHIS]
 >
 >* [À propos de la gestion de l’audience](audience-about.md)
->* [Création d’une audience réutilisable](reusable-audience-create.md)
->* [Paramètres d’audience](audience-settings.md)
+>* [Créer une audience réutilisable](reusable-audience-create.md)
+>* [Paramètres de l’audience](audience-settings.md)

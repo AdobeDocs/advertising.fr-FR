@@ -1,16 +1,16 @@
 ---
-title: Partenaires de diffusion d’annonces certifiés
+title: Partenaires certifiés et au service des publicités
 description: Voir tous les serveurs et unités publicitaires certifiés.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 70224b9e9c248d45a5ce227d296f2604dd06c222
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
-# Partenaires de diffusion d’annonces certifiés
+# Partenaires certifiés et au service des publicités
 
 | Serveur de publicités | Audio | Affichage | Écran À Fort Impact | Vidéo | Exigences spéciales et remarques |
 | --- | --- | --- | --- | --- | --- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X | | X | |
 | [!DNL Inskin] | | | X | | Les habillages à fort impact (y compris les annonces conversationnelles Cavai) doivent être diffusés à partir d&#39;un identifiant d&#39;offre d&#39;affichage de 180 x 150 sur le réseau d&#39;inventaire Inskin. |
 | [!DNL Jivox] | | X | | | |
-| [!DNL Kargo] | | X | | X | 320x50 Anchor, BYOC, Hover, Breakout, Breakaway, Runway et Sidekick ; 300x250 Outstream, HighRise ; Affichage de bureau standard (les ID de plug-in d’annonce spécifiques ne sont pas requis) ; Ancre vidéo (VAST uniquement) ; CTV via [!DNL Pubmatic]</br></br>Contactez l’équipe de votre compte Adobe pour obtenir de l’aide sur la configuration des unités d’annonce. |
+| [!DNL Kargo] | | X | | X | 320x50 Anchor, BYOC, Hover, Breakout, Breakaway, Runway et Sidekick ; 300x250 Outstream, HighRise ; Standard Desktop Display (certains ID de plug-in d’annonce ne sont pas requis) ; Video Anchor (VAST uniquement) ; CTV via [!DNL Pubmatic]</br></br>Contactez l’équipe de votre compte Adobe pour obtenir de l’aide sur la configuration des unités d’annonce. |
 | [!DNL Linkstorm] | | | X | | |
 | [!DNL mCanvas] | | | X | | |
 | [!DNL Medialets] | | X | | | |

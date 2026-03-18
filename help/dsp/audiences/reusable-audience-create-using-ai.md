@@ -1,18 +1,18 @@
 ---
-title: Créer une audience réutilisable à l’aide de Generative AI
+title: Créer une audience réutilisable à l’aide de l’IA générative
 description: Découvrez comment créer des audiences réutilisables dans Adobe Advertising DSP à l’aide de l’agent d’audience assisté par l’IA. Décrivez votre audience cible dans des invites en langage naturel ; l'agent suggère des segments tiers et crée des expressions d'audience à utiliser comme cibles ou exclusions.
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: f2d7428f70448421dd7b6d9c3d237783b800cd83
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
 
 ---
 
-# Créer une audience réutilisable à l’aide de Generative AI
+# Créer une audience réutilisable à l’aide de l’IA générative
 
 *Fonction Beta*
 
@@ -30,7 +30,7 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 >
 >Cette fonctionnalité est en mode Beta et peut faire l’objet de modifications. Assurez-vous que l’expression d’audience générée représente l’audience souhaitée avant de créer l’audience et de l’utiliser pour vos emplacements.
 
-## Créer une audience réutilisable à l’aide de Generative AI
+## Créer une audience réutilisable à l’aide de l’IA générative
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
@@ -94,7 +94,7 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
   L’agent d’audience n’enregistre pas automatiquement une expression d’audience générée en tant qu’audience. Vous ne pouvez enregistrer une audience qu’en cliquant sur le bouton [!UICONTROL Create], qui se trouve en dehors de la zone d’invite, afin d’annuler les modifications que vous ne souhaitez pas conserver.
 
-Consultez « [&#x200B; Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
+Consultez « [ Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
 
 <!-- I think these are happening later:
 
@@ -139,11 +139,11 @@ Votre réponse : `1`, `proceed`, `2`, `maximum reach`, etc.
 
 Vous pouvez également ignorer la requête et continuer à spécifier des critères d’audience supplémentaires à la place.
 
-## Bonnes pratiques relatives à la création d’une synthèse destinée à une audience {#audience-brief-best-practices}
+## Bonnes pratiques pour créer un briefing d’audience {#audience-brief-best-practices}
 
 Un briefing d’audience est une rédaction stratégique qui définit l’audience cible d’une campagne. Un résumé bien conçu aide l’agent d’audience DSP à identifier les segments les plus pertinents pour assembler votre audience cible.
 
-### Composantes essentielles d’une synthèse efficace des audiences
+### Composants essentiels d’une note d’audience efficace
 
 Incluez autant de types d’attributs d’audience que possible à partir de la liste suivante dans votre résumé. Soyez précis quant aux attributs à exclure.
 
@@ -188,7 +188,7 @@ Incluez autant de types d’attributs d’audience que possible à partir de la 
 
   Compréhension de la phase actuelle, y compris le stade de la carrière (étudiant, débutant, à mi-carrière, cadre, retraité), le stade familial (nouveau-marié, nouveau-parent, nourrisson vide) et les transitions majeures de la vie.
 
-### Exemple d’exposé d’audience bien structuré pour une campagne de prospection
+### Exemple de brief d’audience bien structuré pour une campagne de prospection
 
 Voici un exemple de brief d’audience fort pour une campagne de sensibilisation et d’essai pour un service d’abonnement à un kit de repas haut de gamme :
 

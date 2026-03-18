@@ -1,16 +1,16 @@
 ---
-title: Création d’une audience réutilisable
+title: Créer une audience réutilisable
 description: Découvrez comment créer des audiences réutilisables composées de segments d’audience et d’autres audiences enregistrées.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: e2d040409bcf18ca3c7906e8f3d5d3dc6633d2d7
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
-# Création d’une audience réutilisable
+# Créer une audience réutilisable
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
@@ -18,17 +18,17 @@ Vous pouvez enregistrer et gérer des audiences réutilisables, qui sont des gro
 
 >[!NOTE]
 >
->(Annonceurs pour lesquels DSP convertit des ID d’e-mail hachés en segments LiveRampID) Les segments d’ID de rampe propriétaires qui ne sont pas joints à un emplacement actif, planifié ou en pause sont suspendus. The segment is noted in the segment list as &quot;Auto paused.&quot;
+>(Annonceurs pour lesquels DSP convertit des ID d’e-mail hachés en segments LiveRampID) Les segments d’ID de rampe propriétaires qui ne sont pas joints à un emplacement actif, planifié ou en pause sont suspendus. Dans la liste des segments, le segment est marqué comme étant « En pause automatique ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
-1. Above the data table, click **[!UICONTROL Create]**.
+1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**.
 
-1. Enter a unique **[!UICONTROL Audience Name]**.
+1. Saisissez un **[!UICONTROL Audience Name]** unique.
 
-1. (Optional) Deselect the option to **[!UICONTROL Share with all advertisers in my account]**.
+1. (Facultatif) Désélectionnez l’option à **[!UICONTROL Share with all advertisers in my account]**.
 
-   When you share an audience, the audience becomes available as a target or exclusion to all advertisers within the account. Cependant, les segments individuels de l’audience ne sont disponibles que pour les utilisateurs et utilisatrices auxquels les segments sont partagés. For example, if you share an audience containing Adobe Analytics segments with an advertiser who isn&#39;t mapped to the same [!DNL Analytics] account, then the segment isn&#39;t previewed in that audience for that advertiser. Seuls les segments disponibles pour cet annonceur sont prévisualisés dans l’audience.
+   Lorsque vous partagez une audience, celle-ci devient disponible en tant que cible ou exclusion pour tous les annonceurs du compte. Cependant, les segments individuels de l’audience ne sont disponibles que pour les utilisateurs et utilisatrices auxquels les segments sont partagés. Par exemple, si vous partagez une audience contenant des segments Adobe Analytics avec un annonceur qui n’est pas mappé au même compte [!DNL Analytics], le segment n’est pas prévisualisé dans cette audience pour cet annonceur. Seuls les segments disponibles pour cet annonceur sont prévisualisés dans l’audience.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -40,17 +40,17 @@ Vous pouvez enregistrer et gérer des audiences réutilisables, qui sont des gro
 
    * Pour créer manuellement la logique du segment, à l’aide des segments disponibles dans les onglets [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] et [!UICONTROL Saved Audiences]](audience-settings.md) procédez comme suit.
 
-      * (Optional) Search for a segment name, description, or path.
+      * (Facultatif) Recherchez un nom, une description ou un chemin de segment.
 
-        Search results include segments based on the exact terms you use. When you enter multiple terms, all of the terms must be found for a segment.
+        Les résultats de recherche incluent des segments basés sur les termes exacts que vous utilisez. Lorsque vous saisissez plusieurs termes, tous les termes doivent être trouvés pour un segment.
 
-      * To add the first segment, locate the segment in the left panel, and select the check box next to the segment name.
+      * Pour ajouter le premier segment, localisez le segment dans le panneau de gauche, puis cochez la case en regard du nom du segment.
 
-      * To add a segment to an existing segment group:
+      * Pour ajouter un segment à un groupe de segments existant :
 
-         1. Click the segment group in the right panel.
+         1. Cliquez sur le groupe de segments dans le panneau de droite.
 
-         1. (Optional) Change the group logic to *[!UICONTROL Include Any]*, *[!UICONTROL Include All]*, or *[!UICONTROL Exclude All]*, as needed.
+         1. (Facultatif) Modifiez la logique de groupe en *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, selon les besoins.
 
             *[!UICONTROL Exclude All]* n’est pas disponible pour le premier groupe de segments. Pour une audience qui comprend uniquement des exclusions, créez-la sous la forme *[!UICONTROL Include Any]*, puis, au sein d’un emplacement, sélectionnez-la dans le menu Audiences exclues .
 
@@ -60,17 +60,17 @@ Vous pouvez enregistrer et gérer des audiences réutilisables, qui sont des gro
 
       * Pour ajouter un nouveau groupe de segments :
 
-         1. Click **[!UICONTROL + New Group]** in the right panel.
+         1. Cliquez sur **[!UICONTROL + New Group]** dans le panneau de droite.
 
-         1. (Optional) Change the logic between the previous group and the new group to *[!UICONTROL And]* or *[!UICONTROL Or]*, as needed.
+         1. (Facultatif) Modifiez la logique entre le groupe précédent et le nouveau groupe en *[!UICONTROL And]* ou *[!UICONTROL Or]*, selon les besoins.
 
-         1. Locate the segments for the new group in the left panel, and select the check boxes next to the segment names.
+         1. Recherchez les segments du nouveau groupe dans le panneau de gauche, puis cochez les cases en regard des noms de segment.
 
-         1. (Optional) Change the group logic to *[!UICONTROL Include Any]*, *[!UICONTROL Include All]*, or *[!UICONTROL Exclude All]*, as needed.
+         1. (Facultatif) Modifiez la logique de groupe en *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, selon les besoins.
 
-   * To use segment logic from an existing audience:
+   * Pour utiliser la logique de segment à partir d’une audience existante :
 
-      1. Copy the segment logic from the existing audience in any of the following ways:
+      1. Copiez la logique de segment de l’audience existante de l’une des manières suivantes :
 
          * Dans la vue Toutes les audiences, placez le curseur sur la ligne d’audience, puis cliquez sur **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
@@ -88,10 +88,10 @@ Vous pouvez enregistrer et gérer des audiences réutilisables, qui sont des gro
 
 >[!MORELIKETHIS]
 >
->* [About Audience Management](audience-about.md)
->* [Audience Settings](audience-settings.md)
->* [Syntax for Audience Segment Logic](audience-segment-logic-syntax.md)
->* [Available Third-party Data Providers](third-party-data-providers.md)
->* [Create and Implement a Custom Segment](custom-segment-create.md)
+>* [À propos de la gestion de l’audience](audience-about.md)
+>* [Paramètres de l’audience](audience-settings.md)
+>* [Syntaxe de la logique de segment d’audience](audience-segment-logic-syntax.md)
+>* [Fournisseurs de données tiers disponibles](third-party-data-providers.md)
+>* [Créer et implémenter un segment personnalisé](custom-segment-create.md)
 >* [Création et implémentation d’un [!UICONTROL CCPA Opt-Out-of-Sale] segment](ccpa-opt-out-segment-create.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
