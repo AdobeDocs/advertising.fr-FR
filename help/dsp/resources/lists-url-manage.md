@@ -1,15 +1,16 @@
 ---
-title: Gérer les listes d’URL
+title: Gestion des listes d’URL
 description: Découvrez comment créer et gérer des listes d'URL pour le ciblage des emplacements.
 feature: DSP Placements
-source-git-commit: ea33d6fa7612f1c9631c223e5bf0ec80bb5f8d96
+exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
-# Gérer les listes d’URL
+# Gestion des listes d’URL
 
 Vous pouvez créer et gérer des listes d&#39;URL de sites Web et d&#39;applications pour le ciblage des emplacements. Ciblez ou excluez des listes d’URL spécifiques dans les paramètres d’emplacement.
 
@@ -59,7 +60,7 @@ Vous pouvez créer et gérer des listes d&#39;URL de sites Web et d&#39;applicat
 
       1. Pour afficher le statut de la tâche, y compris le nombre d’URL ajoutées et le nombre de valeurs en échec :
 
-         1. Cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
+         1. Cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
 
          1. (Si aucune ligne n’a été ajoutée) Pour télécharger un fichier d’erreur contenant les valeurs en échec, cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
@@ -127,7 +128,7 @@ Vous pouvez créer et gérer des listes d&#39;URL de sites Web et d&#39;applicat
 
       1. Pour afficher le statut de la tâche, y compris le nombre d’URL ajoutées et le nombre de valeurs en échec :
 
-         1. Cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
+         1. Cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
 
          1. (Si aucune ligne n’a été ajoutée) Pour télécharger un fichier d’erreur contenant les valeurs en échec, cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 

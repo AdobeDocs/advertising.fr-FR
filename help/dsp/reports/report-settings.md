@@ -3,7 +3,7 @@ title: Paramètres des rapports personnalisés
 description: Voir les descriptions des paramètres des rapports personnalisés.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 65d554ef71e36b52a47fc24552d5db9b56072095
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 **[!UICONTROL Report Type]:** type de rapport : *[!UICONTROL Custom]* (qui inclut la plupart des options disponibles), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]*, *[!UICONTROL Household Conversions]*, **, *[!UICONTROL Path Length]*, *[!UICONTROL Time to Conversion]*, ou.
 
-## Section [!UICONTROL Report Range]
+## section [!UICONTROL Report Range]
 
 Cette section détermine les données incluses dans le rapport. Pour configurer des dates pour le planning du rapport, reportez-vous à la section « [!UICONTROL Report run schedule] ».
 
@@ -32,7 +32,7 @@ Cette section détermine les données incluses dans le rapport. Pour configurer 
 
 * **[!UICONTROL Custom Range]:** inclut les données comprises entre des dates de début et de fin spécifiques. Pour rapporter les données jusqu’au jour précédent, sélectionnez **[!UICONTROL Present]**.
 
-## Section [!UICONTROL Report Run schedule]
+## section [!UICONTROL Report Run schedule]
 
 Cette section détermine les dates d&#39;exécution du rapport. Pour configurer les dates auxquelles inclure des données de rapport, reportez-vous à la section « [!UICONTROL Report range] ».
 
@@ -60,7 +60,7 @@ Cette section détermine les dates d&#39;exécution du rapport. Pour configurer 
 
    * **Jusqu’au** : date d’expiration du rapport, qui peut prendre jusqu’à quatre mois civils. Avant l’expiration d’un rapport, toutes les destinations d’e-mail spécifiées reçoivent une alerte par e-mail sept jours et un jour avant la date d’expiration. Pour conserver le rapport plus longtemps, modifiez cette date.
 
-## Section [!UICONTROL Apply Filters]
+## section [!UICONTROL Apply Filters]
 
 **[!UICONTROL Filter by]:** (facultatif) Dimensions supplémentaires selon lesquelles filtrer les données, que les dimensions soient incluses ou non en tant que colonnes dans le rapport. Les filtres disponibles varient selon le type de rapport et peuvent inclure : *[!UICONTROL Account]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, *[!UICONTROL Deal]*, *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* et *[!UICONTROL Video Duration]*.
 
@@ -84,7 +84,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
    Pour sélectionner plusieurs campagnes, cliquez sur **[!UICONTROL Add Criteria]** pour la deuxième campagne et les suivantes.
 
-## Section [!UICONTROL Build Your Report]
+## section [!UICONTROL Build Your Report]
 
 **[!UICONTROL Select To Add As Report Headers]:** les colonnes de données, ou en-têtes, à inclure dans le rapport. Pour ajouter une colonne, développez la catégorie et cochez la case en regard du nom de la colonne. Les colonnes disponibles varient selon le rapport et toutes les mesures indisponibles sont désactivées. Les catégories de données disponibles peuvent inclure :
 
@@ -113,7 +113,7 @@ Voir « [Colonnes de rapport disponibles](report-columns.md) » pour obtenir une
 
 **[!UICONTROL Headers]:** s’il faut *[!UICONTROL Include]* ou *[!UICONTROL Do Not Include]* les en-têtes de colonne.
 
-## Section [!UICONTROL Multi-Touch Conversion Options]
+## section [!UICONTROL Multi-Touch Conversion Options]
 
 **[!UICONTROL Attribution Rule Settings]:** Les paramètres varient selon le type de rapport :
 
@@ -145,7 +145,7 @@ Voir « [Colonnes de rapport disponibles](report-columns.md) » pour obtenir une
 
    * *[!UICONTROL Social Only]:* Obsolète
 
-[&#x200B; Consultez également la section « Comment les règles d’attribution sont-elles calculées pour Adobe Advertising &#x200B;](/help/search-social-commerce/reports/attribution-rules.md) ? »
+[ Consultez également la section « Comment les règles d’attribution sont-elles calculées pour Adobe Advertising ](/help/search-social-commerce/reports/attribution-rules.md) ? »
 
 * **Recherche en amont :** ([!UICONTROL Household Conversion] des rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes et des rapports [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion] avec [!UICONTROL Conversion Metrics] colonnes uniquement ; annonceurs avec suivi des conversions Adobe Advertising uniquement) dans le rapport, le nombre maximal de jours après un événement d’impression ou un événement de clic (pour les rapports [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion]) dans lequel un événement de conversion peut lui être attribué. La valeur par défaut est *[!UICONTROL 30 days]* et la valeur maximale est de 92 jours.
 
@@ -167,7 +167,7 @@ Voir « [Colonnes de rapport disponibles](report-columns.md) » pour obtenir une
 
 * *[!UICONTROL Event Timestamp]:* Les conversions sont signalées en fonction de la date de l’impression ou du clic qui a provoqué la conversion, telle que déterminée par le [!UICONTROL Attribution Rule Settings] spécifié.
 
-## Section [!UICONTROL Add Report Destinations]
+## section [!UICONTROL Add Report Destinations]
 
 **[!UICONTROL Destination Type]:** Où diffuser les rapports terminés et les notifications d’erreur. Vous ne pouvez pas modifier le type de destination une fois que vous avez enregistré le rapport.
 
@@ -183,7 +183,7 @@ Voir « [Colonnes de rapport disponibles](report-columns.md) » pour obtenir une
 
 * *[!UICONTROL FTP]:* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
+* *[!UICONTROL FTP SSL](actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
 
 * *[!UICONTROL Email]:* pour spécifier la ou les adresses e-mail auxquelles envoyer les rapports terminés ou les notifications si le rapport est annulé en raison d’erreurs.
 
