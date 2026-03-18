@@ -3,7 +3,7 @@ title: Conditions préalables à l’intégration d’Adobe Advertising à Custo
 description: Conditions préalables à l’intégration d’Adobe Advertising à Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
+source-git-commit: b35a167e2718db76da6008eb1a3e1e3e4720b39e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 *Annonceurs avec Advertising DSP et[!DNL Advertising Search, Social, & Commerce]*
 
-* Technologies de modélisation et de gestion des données de Adobe Experience Platform (y compris [schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) et [jeux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/overview)) et [technologies de collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/home) (y compris [flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/overview) et [balises](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/home))
-
-  Ces technologies nécessitent la prise en charge de l’administrateur de votre site Experience Platform.
-
 * Adobe Customer Journey Analytics avec accès aux outils de gestion des données
 
   Vous aurez besoin de l’aide de votre analyste web interne pour configurer une connexion à votre jeu de données et configurer des rapports.
+
+* Technologies de modélisation et de gestion des données de Adobe Experience Platform (y compris [schémas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) et [jeux de données](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) et [technologies de collecte de données](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (y compris [flux de données](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) et [balises](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
+
+  Ces technologies nécessitent la prise en charge de l’administrateur de votre site Experience Platform.
 
 >[!MORELIKETHIS]
 >
