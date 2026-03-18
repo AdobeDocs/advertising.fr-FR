@@ -35,4 +35,4 @@ Pour afficher l’ensemble des packages, des emplacements et des annonces dans u
 >
 >* [Créer une campagne](campaign-create.md)
 >* [Paramètres de la campagne](campaign-settings.md)
->* [Vidéo : structure du compte DSP et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Vidéo : structure du compte DSP et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=fr)
