@@ -1,16 +1,16 @@
 ---
-title: À propos de la gestion de l’audience dans Advertising DSP
+title: À propos de la gestion des audiences dans Advertising DSP
 description: Découvrez les fonctionnalités de gestion de l’audience.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: ddd55586ed895962b8f6da0390a3d76fe43ca1ca
+source-git-commit: 82a501ec03a5d0d32d2281d6a9c9a67180853026
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
 
-# À propos de la gestion de l’audience dans Advertising DSP
+# À propos de la gestion des audiences dans Advertising DSP
 
 Dans DSP, vous pouvez créer et gérer des segments d’audience et des ensembles d’audiences, que vous pouvez utiliser comme cibles pour vos emplacements :
 
@@ -20,7 +20,7 @@ Dans DSP, vous pouvez créer et gérer des segments d’audience et des ensemble
 
    * [Segments d’opposition à la vente de l’ACPCP](/help/dsp/audiences/ccpa-opt-out-segment-create.md) pour effectuer le suivi des identifiants des utilisateurs à partir des demandes d’opposition à la vente des consommateurs sur votre site web, conformément à la Loi sur la protection de la vie privée des consommateurs de Californie (CCPA). Vous pouvez récupérer les rapports mensuels des ID utilisateur à partir des requêtes d’opposition à la vente des informations personnelles.
 
-     Pour plus d’informations sur la prise en charge par Adobe Advertising des demandes d’opposition à la vente du CCPA, consultez [Prise en charge d’Adobe Advertising pour la Loi sur la protection de la vie privée des consommateurs de Californie : prise en charge de l’opposition du consommateur](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+     Pour plus d’informations sur la prise en charge par Adobe Advertising des demandes d’opposition à la vente du CCPA, consultez [Prise en charge par Adobe Advertising de la Loi sur la protection de la vie privée des consommateurs de Californie : prise en charge de l’opposition à la vente du consommateur](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 * (Fonction Beta) [Obtention et utilisation d’ID universels pour le ciblage sans cookie](/help/dsp/audiences/universal-ids.md) :
 
@@ -40,7 +40,7 @@ D’autres types d’audience sont également disponibles pour le ciblage des em
 
 Vous disposez de nombreuses options pour importer des segments de données propriétaires et tiers dans DSP, à l’aide de l’interface utilisateur de DSP et/ou par le biais de services d’importation personnalisés.
 
-* DSP peut extraire votre Adobe Audience Manager et d’autres audiences [!DNL Adobe] pour le ciblage. Pour connaître les conditions préalables et les instructions, voir « [Importation de segments Adobe Audience Manager pour le ciblage publicitaire](/help/integrations/audience-manager/import-audiences.md).
+* DSP peut extraire votre Adobe Audience Manager et d’autres audiences [!DNL Adobe] pour le ciblage. Pour connaître les conditions préalables et les instructions, voir « [Importer des segments Adobe Audience Manager pour le ciblage publicitaire](/help/integrations/audience-manager/import-audiences.md).
 
 * DSP peut traduire des segments de données propriétaires à partir de plateformes de données client prises en charge en segments avec des ID universels à l’aide de la [fonctionnalité Sources](/help/dsp/audiences/sources/source-about.md). Vous pouvez également [envoyer manuellement vos segments authentifiés [!DNL LiveRamp] [!DNL RampID] directement à DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
 
@@ -66,7 +66,7 @@ Vous pouvez cibler vos emplacements sur tous les types d’audiences suivants.
 
 * Tous les segments de données propriétaires importés, y compris les segments qui ont été traduits en identifiants universels.
 
-  Des frais supplémentaires sont facturés pour les impressions remises aux cartes d’identité universelles. Consultez « [&#x200B; À propos des sources d’audience propriétaires »](/help/dsp/audiences/sources/source-about.md) pour obtenir des taux.
+  Des frais supplémentaires sont facturés pour les impressions remises aux cartes d’identité universelles. Consultez « [ À propos des sources d’audience propriétaires »](/help/dsp/audiences/sources/source-about.md) pour obtenir des taux.
 
 * Tous vos segments de données tiers personnalisés importés.
 
@@ -84,7 +84,7 @@ Vous pouvez cibler vos emplacements sur tous les types d’audiences suivants.
 
   >[!NOTE]
   >
-  >Pour plus d’informations sur la configuration et la collecte de données pour les segments dans ces solutions[&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=fr) consultez la documentation de [Audience Manager](https://experienceleague.adobe.com/docs/analytics.html?lang=fr), [Analytics [!DNL Real-Time CDP] et &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=fr)the.
+  >Pour plus d’informations sur la configuration et la collecte de données pour les segments dans ces solutions[](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) consultez la documentation de [Audience Manager](https://experienceleague.adobe.com/docs/analytics.html), [Analytics [!DNL Real-Time CDP] et ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)the.
 
 ## Données de taille d’audience
 
@@ -108,13 +108,13 @@ Vous pouvez également afficher les données détaillées sur la taille des audi
 
 ## Les vues Audiences
 
-### La Vue Toutes Les Audiences
+### La vue Toutes les audiences
 
 Dans la vue [!UICONTROL All Audiences], ou Bibliothèque d’audiences, vous pouvez enregistrer et gérer des audiences réutilisables, qui incluent des groupes de segments d’audience et même d’autres audiences enregistrées. Vous pouvez utiliser des audiences comme cibles à plusieurs emplacements. Le nombre d’emplacements dans lesquels chaque audience est utilisée est indiqué en regard du nom de l’emplacement.
 
 Vous pouvez modifier, cloner, supprimer, exporter ou partager n’importe quelle audience.
 
-### La Vue Segments
+### La vue Segments
 
 Dans la vue [!UICONTROL Segments], tous les utilisateurs peuvent créer des segments personnalisés supplémentaires.
 
@@ -134,7 +134,7 @@ La vue [!UICONTROL Segments] répertorie également les types de segment suivant
 
   Vous ne pouvez pas modifier ni partager des segments tiers qui ont été partagés avec vous. Contactez l’équipe chargée de votre compte Adobe si vous devez partager des segments tiers avec d’autres utilisateurs.
 
-### La Vue Sources
+### La vue Sources
 
 Dans la vue [!UICONTROL Sources], vous pouvez configurer des sources pour les segments propriétaires dans les plateformes de données client prises en charge que vous souhaitez convertir en segments contenant des types d’identifiants universels spécifiés. Les paramètres source incluent une clé source générée automatiquement, que vous fournirez à votre plateforme de données client pour établir la connexion.
 
