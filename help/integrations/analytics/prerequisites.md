@@ -41,7 +41,7 @@ Fournissez les éléments suivants à l’équipe d’implémentation d’Adobe 
 * Identifiant de suite de rapports [!DNL Analytics] à utiliser pour le reporting sur l’activité de média payant et pour alimenter l’activité du site à des fins d’optimisation et de création de rapports dans Adobe Advertising
 * L’identifiant d’organisation Experience Cloud de l’entreprise (identifiant d’organisation).
 
-Vous trouverez ces deux ID dans l’onglet [ Résumé de Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
+Vous trouverez ces deux ID dans l’onglet [&#x200B; Résumé de Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
 
 ![Écran Résumé d’Experience Cloud Debugger](/help/integrations/assets/a4adc-debugger-summary.png)
 

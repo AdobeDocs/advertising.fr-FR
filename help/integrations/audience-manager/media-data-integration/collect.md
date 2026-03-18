@@ -33,7 +33,7 @@ Les annonceurs peuvent créer et implémenter des balises d’événement pour l
 
 >[!NOTE]
 >
->Si votre entreprise utilise le suivi des clics [!DNL Analytics], vous n’aurez peut-être pas besoin du suivi des clics Audience Manager. Adobe Analytics capture les signaux de clic et peut les envoyer à Audience Manager par le biais du [ transfert côté serveur ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Si votre entreprise utilise le suivi des clics [!DNL Analytics], vous n’aurez peut-être pas besoin du suivi des clics Audience Manager. Adobe Analytics capture les signaux de clic et peut les envoyer à Audience Manager par le biais du [&#x200B; transfert côté serveur &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 ### Syntaxe des pixels
 
@@ -100,7 +100,7 @@ Exemple de pixel d&#39;événement d&#39;impression :
 
 Joignez un pixel de suivi d’événement d’impression à toutes les annonces de vos campagnes [!DNL DSP]. Vous pouvez le faire dans l’un des emplacements suivants :
 
-* Au niveau de l’emplacement : applique le pixel par défaut à toutes les publicités de l’emplacement. Dans la section Suivi des paramètres d’emplacement, ajoutez le pixel dans le champ [[!UICONTROL Event pixels] ](/help/dsp/campaign-management/placements/placement-settings.md).
+* Au niveau de l’emplacement : applique le pixel par défaut à toutes les publicités de l’emplacement. Dans la section Suivi des paramètres d’emplacement, ajoutez le pixel dans le champ [[!UICONTROL Event pixels] &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
 
 * Au niveau de l’annonce publicitaire, qui remplace tous les pixels d’événement au niveau de l’emplacement. Dans les paramètres de l’annonce publicitaire, [créez un pixel d’événement sur l’onglet [!UICONTROL Pixel]](/help/dsp/campaign-management/ads/ad-edit.md).
 

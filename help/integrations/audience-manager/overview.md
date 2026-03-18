@@ -30,7 +30,7 @@ Pour créer les identifiants d’utilisateur nécessaires, vous devez utiliser u
 
 ![processus de création de segment](/help/integrations/assets/ad_search_user_id_pic.png)
 
-Une fois les audiences créées, vous pouvez les utiliser dans des campagnes [!DNL Google Ads] en tant que [ cibles ou exclusions au niveau de la campagne ou du groupe publicitaire ](#audience-manager-targets).
+Une fois les audiences créées, vous pouvez les utiliser dans des campagnes [!DNL Google Ads] en tant que [&#x200B; cibles ou exclusions au niveau de la campagne ou du groupe publicitaire &#x200B;](#audience-manager-targets).
 
 ### Utiliser Audience Manager et d’autres segments de [!DNL Adobe] pour cibler ou exclure les publicités {#audience-manager-targets}
 
@@ -56,4 +56,4 @@ Pour plus d’informations, consultez « [Présentation de l’envoi de données
 
 Les clients Adobe Advertising disposant de [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) peuvent envoyer à la fois des données suivies par Adobe Advertising et des segments Audience Manager à [!DNL Analytics] pour obtenir des informations enrichies sur l’activité du site.
 
-Pour plus d’informations, voir « [[!DNL Adobe Audience Analytics]  pour les clients Adobe Advertising ](/help/integrations/audience-manager/audience-analytics.md). »
+Pour plus d’informations, voir « [[!DNL Adobe Audience Analytics]  pour les clients Adobe Advertising &#x200B;](/help/integrations/audience-manager/audience-analytics.md). »
