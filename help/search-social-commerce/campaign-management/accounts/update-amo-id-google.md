@@ -3,7 +3,7 @@ title: 'Mettre à jour le code de suivi AMO ID (s_kwcid) pour un compte  [!DNL G
 description: Découvrez comment passer au dernier code de suivi AMO ID pour un compte  [!DNL Google Ads] .
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -69,5 +69,5 @@ Tous les nouveaux comptes [!DNL Google Ads] utilisent automatiquement le format 
 >[!MORELIKETHIS]
 >
 >* [Gérer les comptes de réseau publicitaire](ad-network-account-manage.md)
->* [ID Adobe Advertising utilisés par  [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Présentation de  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=fr){target="_blank"}
+>* [Adobe Advertising ID utilisés par  [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Présentation de  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
