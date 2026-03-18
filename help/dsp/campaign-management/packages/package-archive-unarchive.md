@@ -1,22 +1,22 @@
 ---
-title: Archivage ou désarchivage d’un module
+title: Archiver ou désarchiver un package
 description: Découvrez comment archiver ou désarchiver un package.
 feature: DSP Packages
 exl-id: 12d1b498-2239-401a-8571-9210956e32b2
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
-# Archivage ou désarchivage d’un module
+# Archiver ou désarchiver un package
 
-Masquez un package qui n’est pas utilisé en l’archivant. La seule action que vous pouvez effectuer sur un package archivé est de le désarchiver. Les packages archivés ne s’affichent pas par défaut, mais restent disponibles pour la création de rapports.
+Masquez un package qui n’est pas utilisé en l’archivant. La seule action que vous pouvez effectuer sur un package archivé est de le désarchiver. Les packages archivés ne s’affichent pas par défaut, mais sont toujours disponibles pour la création de rapports.
 
-Vous pouvez à tout moment désarchiver un package afin de restaurer son état précédent.
+Vous pouvez désarchiver un package pour restaurer son statut précédent à tout moment.
 
-## Archivage d’un module
+## Archiver un package
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. Cliquez sur le nom de la campagne pour ouvrir la vue [!UICONTROL Packages].
@@ -25,7 +25,7 @@ Vous pouvez à tout moment désarchiver un package afin de restaurer son état p
 
 >[!NOTE]
 >
->Pour afficher les packages archivés, filtrez la vue [!UICONTROL Packages] : cliquez sur ![Bouton de filtrage](/help/dsp/assets/filter.png), cliquez sur **[!UICONTROL Package status]**, sélectionnez **[!UICONTROL Archived]**, puis cliquez sur **[!UICONTROL Apply].**
+>Pour afficher les packages archivés, filtrez l’affichage [!UICONTROL Packages] : cliquez sur ![Bouton Filtrer](/help/dsp/assets/filter.png), cliquez sur **[!UICONTROL Package status]** et sélectionnez **[!UICONTROL Archived]**, puis cliquez sur **[!UICONTROL Apply].**
 
 ## Désarchiver un package
 
@@ -36,6 +36,6 @@ Vous pouvez à tout moment désarchiver un package afin de restaurer son état p
 
 >[!MORELIKETHIS]
 >
->* [Modifier un module](package-edit.md)
->* [Afficher le journal des modifications d’un package](package-change-log.md)
->* [Suspendre ou activer un module](package-pause-activate.md)
+>* [Modifier un package](package-edit.md)
+>* [Afficher le journal des modifications d&#39;un package](package-change-log.md)
+>* [Mettre en pause ou activer un package](package-pause-activate.md)

@@ -1,16 +1,16 @@
 ---
-title: Renvoyer une invitation d'utilisateur en attente
+title: Renvoyer une invitation d’utilisateur en attente
 description: Découvrez comment renvoyer une invitation d'utilisateur en attente.
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: 3ce910a553aa86836e04bd6e5d2a951db78070e1
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
-# Renvoyer une invitation d&#39;utilisateur en attente
+# Renvoyer une invitation d’utilisateur en attente
 
 *Utilisateurs administrateurs uniquement*
 

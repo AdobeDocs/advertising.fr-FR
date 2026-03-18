@@ -3,7 +3,7 @@ title: Mettre en pause ou activer une campagne
 description: Découvrez comment suspendre ou activer une campagne active.
 feature: DSP Campaigns
 exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -12,20 +12,20 @@ ht-degree: 0%
 
 # Mettre en pause ou activer une campagne
 
-Suspendre une campagne en direct ou activer une campagne suspendue lorsqu’elle se trouve dans le planning de diffusion configuré.
+Mettre en pause une campagne active ou activer une campagne mise en pause lorsqu’elle se trouve dans le planning de vol configuré.
 
-Tous les emplacements qui sont en pause avant de suspendre une campagne restent en pause lors de l’activation de la campagne.
+Tous les emplacements suspendus avant la mise en pause d’une campagne restent suspendus lors de l’activation de la campagne.
 
-## Suspendre une campagne
+## Mettre en pause une campagne
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. En regard du nom de la campagne, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 >[!NOTE]
 >
->La suspension d’une campagne interrompt tous les emplacements, y compris les emplacements garantis par programmation (emplacements PG). Contactez les éditeurs concernés si les enchères entrantes doivent être suspendues.
+>La suspension d’une campagne met en pause tous les emplacements, y compris les emplacements programmatiques garantis (emplacements PDF). Contactez les éditeurs concernés si les enchères entrantes doivent être suspendues.
 
-## Activation d’une campagne
+## Activer une campagne
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 1. En regard du nom de la campagne, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Activate]**.

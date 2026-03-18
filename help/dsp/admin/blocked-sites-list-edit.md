@@ -1,16 +1,16 @@
 ---
-title: Modification d’une liste de sites bloqués au niveau du compte ou des annonceurs
+title: Modification d’une liste de sites bloqués au niveau du compte ou de l’annonceur
 description: Découvrez comment gérer la liste des sites bloqués pour un compte ou un annonceur.
 role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
-source-git-commit: 0e771df5470c287702850a227f9ac20d5679b775
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
 
 ---
 
-# Modification d’une liste de sites bloqués au niveau du compte ou des annonceurs
+# Modification d’une liste de sites bloqués au niveau du compte ou de l’annonceur
 
 1. Dans le menu principal, cliquez sur **Paramètres > Sites.**
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    * (Facultatif) Pour coller ou saisir jusqu’à 10 000 valeurs :
 
-      1. Cliquez sur **Coller dans Sites/Apps**.
+      1. Cliquez sur **Coller dans Sites/Applications**.
 
       1. Dans le champ de saisie, saisissez ou collez une valeur par ligne, puis cliquez sur **Continuer**.
 
@@ -32,14 +32,14 @@ ht-degree: 0%
 
       * Pour supprimer toutes les valeurs, cliquez sur **Effacer tout**. Dans le message de confirmation, cliquez sur **OK**.
 
-      * Pour supprimer une ou plusieurs valeurs, cochez la case en regard de chacune d’elles, puis cliquez sur **Supprimer cochée**.
+      * Pour supprimer une ou plusieurs valeurs, cochez la case en regard de chacune d’elles, puis cliquez sur **Supprimer la case cochée**.
 
       * Pour supprimer une seule valeur, cliquez sur **X** en regard de la valeur.
 
-   * (Facultatif) Pour exporter la liste vers une feuille de calcul [!DNL Microsoft Excel] au format CSV (valeurs séparées par des virgules), cliquez sur **Exporter**.
+   * (Facultatif) Pour exporter la liste vers une feuille de calcul [!DNL Microsoft Excel] au format des valeurs séparées par des virgules (CV), cliquez sur **Exporter**.
 
 >[!MORELIKETHIS]
 >
 >* [À propos des listes de sites bloqués au niveau du compte et des annonceurs](/help/dsp/admin/blocked-sites-list-about.md)
-> [Sécurité des marques et qualité des médias](/help/dsp/introduction/features/brand-safety-media-quality.md)
->* [Paramètres de placement](/help/dsp/campaign-management/placements/placement-settings.md)
+> [Sécurité de la marque et qualité des médias ](/help/dsp/introduction/features/brand-safety-media-quality.md)
+>* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

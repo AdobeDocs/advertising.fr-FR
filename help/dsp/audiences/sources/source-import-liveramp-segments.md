@@ -1,22 +1,22 @@
 ---
-title: Importation manuelle de segments authentifiés depuis [!DNL LiveRamp]
-description: Découvrez comment activer les audiences authentifiées par l’intermédiaire de  [!DNL LiveRamp].
+title: Importez manuellement des segments authentifiés depuis  [!DNL LiveRamp]
+description: Découvrez comment activer les audiences authentifiées via  [!DNL LiveRamp].
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
 
 ---
 
-# Importation manuelle de segments authentifiés depuis [!DNL LiveRamp]
+# Importer manuellement des segments authentifiés depuis [!DNL LiveRamp]
 
-*Fonctionnalité Beta*
+*Fonction Beta*
 
-Vous pouvez envoyer manuellement des segments [!DNL LiveRamp] authentifiés à DSP à l’aide du tableau de bord [!DNL LiveRamp] [!DNL Connect]. Vous pouvez utiliser des segments importés pour le ciblage des emplacements. Pour les segments propriétaires, les frais sont de 0,15 USD par impression de publicité display diffusée et de 0,25 USD par impression de publicité vidéo diffusée.
+Vous pouvez envoyer manuellement des segments de [!DNL LiveRamp] authentifiés à DSP à l’aide du tableau de bord [!DNL LiveRamp] [!DNL Connect]. Vous pouvez utiliser des segments importés pour le ciblage de l’emplacement. Pour les segments propriétaires, les frais sont de 0,15 USD par impression d’annonce publicitaire diffusée et de 0,25 USD par impression d’annonce vidéo diffusée.
 
-Le mappage et le chargement des segments pour chaque tâche d’importation peuvent prendre jusqu’à sept jours.
+Le mappage de segments et le chargement pour chaque tâche d’importation peuvent prendre jusqu’à sept jours.
 
 <!--Is this first step relevant for this process?
 
@@ -28,21 +28,21 @@ Le mappage et le chargement des segments pour chaque tâche d’importation peuv
 
  -->
 
-1. Effectuez les étapes suivantes dans le tableau de bord [!DNL Connect] :
+1. Procédez comme suit dans le tableau de bord [!DNL Connect] :
 
    1. Activez la mosaïque de destination **[!DNL AAC API 1P Onboarding]**.
 
    1. Définissez [!DNL Identifier Settings] sur **[!DNL Ramp ID]** uniquement.
 
-      ![Paramètres d’identifiant](/help/dsp/assets/liveramp-tile-settings.png)
+      ![Paramètres des identifiants](/help/dsp/assets/liveramp-tile-settings.png)
 
-   1. (Facultatif) Si vous souhaitez toujours recevoir des identifiants basés sur des cookies, créez une seconde mosaïque de destination [!DNL AAC API 1P Onboarding] avec &quot;[!DNL Cookies]&quot;, &quot;[!DNL IDFA]&quot; et &quot;[!DNL AAID]&quot; sélectionnés.
+   1. (Facultatif) Si vous souhaitez toujours recevoir des identifiants basés sur des cookies, créez une deuxième mosaïque de destination [!DNL AAC API 1P Onboarding] avec « [!DNL Cookies] », « [!DNL IDFA] » et « [!DNL AAID] » sélectionnés.
 
-   1. Vérifiez dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le nombre de segments entier a été importé.
+   1. Vérifiez dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le nombre de segments complet a été importé.
 
 >[!MORELIKETHIS]
 >
->* [À propos des sources d’audience propriétaires](source-about.md)
->* [Gérer les sources d’audience pour activer les audiences d’ID universels](source-manage.md)
->* [Adobe Advertising DSP la connexion](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=fr)
+>* [À Propos Des Sources D’Audience Propriétaires](source-about.md)
+>* [Gérer les sources d’audience pour activer les audiences Universal ID](source-manage.md)
+>* [Connexion Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [À propos de la gestion de l’audience](/help/dsp/audiences/audience-about.md)

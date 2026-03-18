@@ -1,23 +1,23 @@
 ---
-title: Solutions de mesures avancées
+title: Solutions de mesure avancées
 description: Voir la liste des solutions disponibles pour la mesure avancée.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: f2f24b85ad2f6068739b54e4a72a2e7bef6cd31b
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
 
 ---
 
-# Solutions de mesures avancées
+# Solutions de mesure avancées
 
 Les annonceurs ont souvent du mal à comprendre comment leurs différents canaux médiatiques fonctionnent ensemble, où leur prochain dollar médiatique peut être le mieux dépensé, ou comment quantifier l&#39;impact de leurs publicités en ligne par rapport aux objectifs principaux de l&#39;entreprise.
 
 Dans un paysage médiatique axé sur les données, la mesure de l’attribution offre une solution à ce défi. L’équipe Advanced Measurement &amp; Strategy (AMS) aide les partenaires de la marque et des agences à mesurer la manière dont les éléments achetés par Adobe Advertising, ainsi que leurs intégrations [!DNL Adobe], génèrent des résultats. Grâce à des offres de mesure d’attribution robustes, AMS peut déployer des stratégies de ciblage organisées à l’aide de structures de mesure sophistiquées, ce qui permet aux marques de connecter facilement leurs budgets médias aux résultats réels qui stimulent leur activité. L’équipe peut vous aider à :
 
-* Activer les études de mesure dans les campagnes multimédia numériques en entonnoir complet
+* Activer les études de mesure dans les campagnes de médias numériques full-funnel
 
-* Améliorez la mise en récit de vos campagnes grâce à des solutions de création de rapports complètes.
+* Mise à niveau de votre storytelling de campagne avec des solutions de reporting empaquetées
 
 * Faites évoluer votre pratique publicitaire en apprenant et en améliorant l’efficacité des campagnes au fil du temps
 
@@ -57,7 +57,7 @@ Les packages de solutions de mesure suivants sont disponibles pour valider le su
 
   Comparez le comportement des groupes d’échantillons randomisés et s’excluant mutuellement avec des tests A/B simples et propres.
 
-## Trouver la mesure parfaite : Solutions par Vertical
+## Trouver la mesure parfaite : solutions par vertical
 
 * **Tous les verticaux :**
 
@@ -85,4 +85,4 @@ Pour plus d’informations sur toutes les solutions de mesure avancées, les inf
 
 >[!MORELIKETHIS]
 >
->[&#x200B; Devises prises en charge dans Adobe Advertising &#x200B;](/help/dsp/currency.md)
+>[ Devises prises en charge dans Adobe Advertising ](/help/dsp/currency.md)

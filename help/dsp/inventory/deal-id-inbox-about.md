@@ -3,7 +3,7 @@ title: À propos du [!UICONTROL Deal ID Inbox]
 description: Découvrez la fonctionnalité [!UICONTROL Deal ID inbox], qui vous permet d’accepter des offres privées que vous avez déjà négociées avec des éditeurs sur  [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement appelé  [!DNL AdX]), and [!DNL Magnite DV+] (anciennement [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: 394a281c9b9d7eeab939f4c58508ec1f34eba67c
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -30,7 +30,7 @@ You can accept any available deal or move an incorrect deal to the Ignored Deals
 For each deal, you can select one publisher and one media type (Desktop Video, Mobile Video, Connected TV, Display, or Audio), and you can share the deal with specific advertisers and with all advertisers for a specific account.
  -->
 
-DSP actualise automatiquement tous les détails de l’offre tous les jours à 4 h 30 (heure de Paris). Elle actualise également toutes les offres [!DNL FreeWheel] et met à jour les offres existantes toutes les [!DNL Google] et [!DNL Magnite DV+] heures. Vous pouvez également actualiser manuellement les détails de l’opération pour renseigner les nouvelles opérations à tout moment.
+DSP actualise automatiquement tous les détails de l’offre tous les jours à 4 :30 (heure de Paris). Elle actualise également toutes les offres [!DNL FreeWheel] et met à jour les offres existantes toutes les [!DNL Google] et [!DNL Magnite DV+] heures. Vous pouvez également actualiser manuellement les détails de l’opération pour renseigner les nouvelles opérations à tout moment.
 
 <!-- MC: I'm not sure where I got the following. Is this currently true? -->
 
@@ -38,13 +38,13 @@ DSP actualise automatiquement tous les détails de l’offre tous les jours à 4
 >
 >Pour les offres programmatiques garanties via [!DNL Google Authorized Buyers], vous devez respecter au moins 90 % de votre budget ou votre compte perd l’accès aux offres [!DNL Google] dans le [!UICONTROL Deal ID inbox].
 
-## Mise en œuvre de l’[!UICONTROL Deal ID Inbox]
+## Mise en œuvre de l’[!UICONTROL Deal ID inbox]
 
 Pour recevoir vos offres dans le [!UICONTROL Deal ID inbox], vos comptes SSP doivent mapper le compte DSP de votre organisation à votre compte SSP. DSP peut partager les noms de compte de l’organisation avec les fournisseurs de services partagés concernés. Pour obtenir des instructions, contactez l’équipe chargée de votre compte Adobe.
 
 Lors des négociations de l’offre, indiquez à l’éditeur d’envoyer l’offre à votre acheteur plutôt qu’au compte DSP parent. L’identifiant de l’offre peut être un nom ou un identifiant, selon le fournisseur de services partagés.
 
-## Actions que vous pouvez entreprendre concernant vos affaires
+## Actions que vous pouvez entreprendre concernant vos offres
 
 * **Consultez les offres** pour vérifier que le SSP a envoyé l&#39;éditeur correct, les dates de vol, CPM et d&#39;autres détails de l&#39;offre. Si l’éditeur a commis une erreur, contactez-le en dehors de DSP afin qu’il puisse corriger et renvoyer le contrat.
 
@@ -54,7 +54,7 @@ Lors des négociations de l’offre, indiquez à l’éditeur d’envoyer l’of
 
 * **Modifiez les détails des offres déjà acceptées** à partir de [!UICONTROL Inventory] > [!UICONTROL Deals] (pas dans le [!UICONTROL Deal ID inbox]). De même, lorsque les éditeurs envoient des modifications aux offres, les annonceurs sont responsables de l’implémentation de ces modifications dans [!UICONTROL Inventory] > [!UICONTROL Deals], car l’[!UICONTROL Deal ID inbox] ne synchronise pas les modifications à partir des SSP une fois les offres configurées.
 
-## Quels types de contrats ne peuvent pas être acceptés ?
+## Quels types d&#39;offres ne peuvent pas être acceptées ?
 
 Lorsqu’une liste d’offres n’inclut pas d’icône ![Accepter](/help/dsp/assets/accept.png) ou de bouton [!UICONTROL Accept], vous ne pouvez pas l’accepter à partir du [!UICONTROL Deal ID inbox]. Au lieu de cela, vous pouvez [créer manuellement les détails de l’ID d’offre](/help/dsp/inventory/deal-id-create.md).
 

@@ -1,57 +1,57 @@
 ---
-title: Questions fréquentes à propos des vidéos universelles
+title: Questions fréquentes sur Universal Video
 description: En savoir plus sur les publicités vidéo universelles.
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 8d65069b7da5d3c33cc7713c6c80af27eb6bf227
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# Questions fréquentes à propos des vidéos universelles
+# Questions fréquentes sur Universal Video
 
-Les [&#x200B; publicités vidéo universelles &#x200B;](/help/dsp/campaign-management/ads/ad-about.md#ad-types) vous permettent de cibler l’inventaire vidéo des environnements de bureau, mobiles et de télévision connectés pour les inventaires VPAID et VAST à l’aide d’un emplacement vidéo unique.
+[Les publicités vidéo universelles](/help/dsp/campaign-management/ads/ad-about.md#ad-types) vous permettent de cibler l’inventaire vidéo à partir d’environnements de bureau, mobiles et de télévision connectée pour un inventaire VPAID et VAST à l’aide d’un seul emplacement vidéo.
 
-## Comment créer des publicités et des emplacements de vidéos universels ?
+## Comment créer des publicités et des emplacements vidéo universels ?
 
-Les emplacements vidéo universels ne peuvent contenir que des publicités vidéo universelles, et les publicités vidéo universelles ne peuvent être associées qu’à des emplacements vidéo universels.
+Les emplacements vidéo universels ne peuvent contenir que des annonces vidéo universelles et celles-ci ne peuvent être associées qu’à des emplacements vidéo universels.
 
-Créez des emplacements et des publicités vidéo universels de la même manière que vous créez d’autres types d’emplacements et de vidéos :
+Créez des emplacements vidéo et des annonces universels de la même manière que vous créez d’autres types d’emplacements et de vidéos :
 
-1. Dans la campagne de votre choix, [créez un emplacement vidéo universel](/help/dsp/campaign-management/placements/placement-create.md), en sélectionnant [!UICONTROL Placement Type] **[!UICONTROL Universal Video]**.
+1. Dans la campagne souhaitée, [créez un emplacement vidéo universel](/help/dsp/campaign-management/placements/placement-create.md), en sélectionnant le [!UICONTROL Placement Type] **[!UICONTROL Universal Video]**.
 
    Vous devez spécifier au moins un environnement (bureau, mobile, télévision connectée) à cibler.
 
 1. Dans la même campagne que l’emplacement vidéo universel, [créez une seule publicité vidéo universelle](/help/dsp/campaign-management/ads/ad-create.md) ou [créez plusieurs publicités vidéo universelles](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-   Si vous créez plusieurs publicités, veillez à spécifier &quot;[!UICONTROL Universal Video]&quot; comme [!UICONTROL Ad Type] :
+   Si vous créez plusieurs publicités, veillez à spécifier « [!UICONTROL Universal Video] » comme [!UICONTROL Ad Type] :
 
-   * Pour [!DNL Google] ou [!DNL Flashtalking] annonces : à l’étape &quot;[!UICONTROL Review ad types]&quot; après avoir téléchargé le fichier, cliquez sur le champ **[!UICONTROL Ad Type]** et sélectionnez **[!UICONTROL Universal Video]**.
+   * Pour les publicités [!DNL Google] ou [!DNL Flashtalking] : à l’étape « [!UICONTROL Review ad types] » après avoir chargé le fichier, cliquez sur le champ **[!UICONTROL Ad Type]** et sélectionnez **[!UICONTROL Universal Video]**.
 
-   * Pour les autres types de balises publicitaires : dans le fichier de feuille de calcul que vous chargez, spécifiez le champ Type de publicité pour chaque publicité comme **[!UICONTROL Universal Video]**.
+   * Pour les autres types de balises d’annonce publicitaire : dans le fichier de feuille de calcul que vous chargez, indiquez le champ Type d’annonce publicitaire pour chaque annonce publicitaire comme **[!UICONTROL Universal Video]**.
 
-1. [Ouvrez les paramètres de publicité &#x200B;](/help/dsp/campaign-management/ads/ad-edit.md) pour chaque nouvelle publicité et sélectionnez le format vidéo approprié :
+1. [Ouvrez les paramètres de l’annonce publicitaire](/help/dsp/campaign-management/ads/ad-edit.md) pour chaque nouvelle annonce publicitaire et sélectionnez le format vidéo applicable :
 
    * **[!UICONTROL VPAID]:** La visibilité est toujours mesurée.
-   * **[!UICONTROL VPAID & VAST (Default)]:** comprend un inventaire qui n’autorise pas la mesure de la visibilité.
-   * **[!UICONTROL VAST]** - Adapté à l’inventaire de la télévision connectée.
+   * **[!UICONTROL VPAID & VAST (Default)]:** inclut l’inventaire qui ne permet pas de mesurer la visibilité.
+   * **[!UICONTROL VAST]** - Convient pour l&#39;inventaire de la télévision connectée.
 
-   Pour plus d’informations, voir &quot;[Paramètres de publicité vidéo universelle](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot;.
+   Pour plus d’informations, consultez « [Paramètres universels de publicité vidéo](/help/dsp/campaign-management/ads/ad-settings-universal-video.md) ».
 
-1. [Joignez les nouvelles publicités vidéo universelles](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) au placement vidéo universel.
+1. [Joignez les nouvelles publicités vidéo universelles](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) à l’emplacement vidéo universel.
 
-## Pourquoi certains objectifs et packages d’optimisation ne sont-ils pas disponibles lorsque l’environnement de télévision connecté est sélectionné pour un emplacement vidéo universel ?
+## Pourquoi certains objectifs et packages d’optimisation ne sont-ils pas disponibles lorsque l’environnement TV connectée est sélectionné pour un emplacement vidéo universel ?
 
-Les objectifs incompatibles avec des emplacements de télévision connectés standard, tels que Coût le plus bas par clic, ne sont pas pris en charge pour l’environnement de télévision connecté dans les emplacements vidéo universels. De même, les modules dont les objectifs d’optimisation sont incompatibles ne sont pas non plus disponibles pour la sélection.
+Les objectifs incompatibles avec les emplacements de télévision connectée standard, tels que Coût par clic le plus bas, ne sont pas pris en charge pour l’environnement de télévision connectée dans les emplacements vidéo universels. De même, les packages avec des objectifs d’optimisation incompatibles ne peuvent pas être sélectionnés.
 
 ## Quand le format vidéo **[!UICONTROL VAST]** doit-il être utilisé pour les publicités vidéo universelles ?
 
 Utilisez **[!UICONTROL VAST]** dans l’un des scénarios suivants :
 
-* L’emplacement cible l’inventaire de la télévision connectée.
-* L’emplacement cible l’inventaire vidéo à partir de Google Ad Manager, Appnexus, SpotX ou de la roue libre. Ces SSP ne prennent pas en charge le format vidéo VPAID &amp; VAST.
+* L’emplacement cible l’inventaire des télévisions connectées.
+* L’emplacement cible l’inventaire vidéo de Google Ad Manager, Appnexus, SpotX ou Freewheel. Ces SSP ne prennent pas en charge le format vidéo VPAID &amp; VAST.
 
 ## Est-il possible de joindre plusieurs publicités vidéo universelles au même emplacement vidéo universel ?
 

@@ -1,26 +1,26 @@
 ---
-title: A propos des abonnements aux alertes
-description: En savoir plus sur les alertes automatiques par email.
+title: À propos des abonnements aux alertes
+description: En savoir plus sur les alertes automatiques par e-mail.
 role: User, Admin
 exl-id: f3578f10-4f66-4133-a6e0-1ca8001dd2c9
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
 
 ---
 
-# A propos des abonnements aux alertes
+# À propos des abonnements aux alertes
 
-Vous pouvez créer des groupes d’alertes par e-mail automatiques, appelés abonnements, qui envoient des notifications par e-mail lorsque des paramètres de compte, de campagne et d’opération de stock privé spécifiés sont satisfaits.
+Vous pouvez créer des groupes d’alertes automatiques par e-mail, appelés abonnements, qui envoient des notifications par e-mail lorsque les paramètres spécifiés du compte, de la campagne, de l’annonce publicitaire et de l’opération d’inventaire privé sont respectés.
 
-Par exemple, vous pouvez recevoir une alerte lorsqu’une campagne a dépensé un montant spécifié de son budget. Vous pouvez également recevoir une alerte lorsqu’une transaction d’inventaire privé a reçu moins d’un taux de victoire spécifié au cours des N derniers jours.
+Par exemple, vous pouvez recevoir une alerte lorsqu’une campagne a dépensé un montant spécifié de son budget. Vous pouvez également recevoir une alerte lorsqu’une transaction de stock privé a reçu moins qu’un taux de gain spécifié au cours des N derniers jours.
 
-Vous pouvez ajouter ou supprimer des alertes d’un abonnement, modifier les utilisateurs qui reçoivent des notifications électroniques pour un abonnement, désactiver et réactiver les abonnements aux alertes et supprimer les abonnements aux alertes.
+Vous pouvez ajouter ou supprimer des alertes d’un abonnement, modifier les utilisateurs et utilisatrices qui reçoivent des notifications par e-mail pour un abonnement, désactiver et réactiver les abonnements aux alertes, et supprimer les abonnements aux alertes.
 
 >[!TIP]
 >
-> Si vous ne vérifiez pas activement les rapports de campagne, configurez les rapports par courrier électronique dès que possible après le lancement d’une campagne.
+> Si vous ne vérifiez pas activement les rapports de campagne, configurez les rapports par e-mail dès que possible après le lancement d’une campagne.
 
 ## Alertes disponibles
 
@@ -36,7 +36,7 @@ Vous pouvez ajouter ou supprimer des alertes d’un abonnement, modifier les uti
 
    * Aucune dépense de campagne
 
-   * Dépense de campagne
+   * Dépenses de la campagne
 
    * % des dépenses de campagne de la limite
 
@@ -48,11 +48,11 @@ Vous pouvez ajouter ou supprimer des alertes d’un abonnement, modifier les uti
 
    * Rejets de publicité
 
-* Flux (opérations de stock privées)
+* Flux (Offres Inventaire Privées)
 
-   * Taux de perte du flux
+   * Taux de confirmation des flux
 
-   * Taux d’offre du flux
+   * Taux d’enchères du flux
 
    * Aucune dépense de flux
 
