@@ -18,7 +18,7 @@ Vous pouvez régénérer la prévision d’un plan de portée TV connectée en f
 
 1. Placez le curseur au-dessus de la ligne de plan, puis cliquez sur **[!UICONTROL Forecast]**.
 
-1. (Facultatif) Pour exporter la prévision [!UICONTROL Budget vs Reach] vers une feuille de calcul [!DNL Microsoft Excel]** cliquez sur **[!UICONTROL ...]** en haut à droite, puis sur **[!UICONTROL Export]**.
+1. (Facultatif) Pour exporter la prévision [!UICONTROL Budget vs Reach] vers une feuille de calcul [!DNL Microsoft Excel] **&#x200B; cliquez sur &#x200B;** [!UICONTROL ...] **&#x200B; en haut à droite, puis sur &#x200B;** [!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
