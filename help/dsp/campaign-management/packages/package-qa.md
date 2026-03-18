@@ -24,7 +24,7 @@ Les champs modifiables incluent la plupart des paramètres qui sont normalement 
 
 >[!TIP]
 >
->Pour modifier rapidement d’autres champs pour un ou plusieurs packages, consultez « [ Modifier des packages ](/help/dsp/campaign-management/packages/package-edit.md). »
+>Pour modifier rapidement d’autres champs pour un ou plusieurs packages, consultez « [&#x200B; Modifier des packages &#x200B;](/help/dsp/campaign-management/packages/package-edit.md). »
 
 ## Paramètres de téléchargement pour tous les packages d’une campagne
 
@@ -48,7 +48,7 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
      Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -74,7 +74,7 @@ Lorsque vous téléchargez des paramètres pour des packages spécifiques, le fi
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
      Le fichier est enregistré dans le dossier Téléchargements du navigateur. Consultez la section « [Colonnes d’emplacement dans les feuilles d’envoi groupé téléchargées/chargées](#qa-sheet-columns) » pour obtenir une liste des colonnes incluses.
 

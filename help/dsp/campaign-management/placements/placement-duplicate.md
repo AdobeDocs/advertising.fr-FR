@@ -21,7 +21,7 @@ Dupliquez un ou plusieurs emplacements pour créer des emplacements avec des par
 * (Pour les emplacements dupliqués dans les campagnes d’origine) Dupliquez éventuellement les annonces d’origine
 * Modifier le statut et les dates de vol des nouveaux emplacements
 
-Voir « [ Non dupliqué ](#placement-not-duplicated) » pour obtenir une liste des paramètres d’emplacement qui ne sont pas dupliqués.
+Voir « [&#x200B; Non dupliqué &#x200B;](#placement-not-duplicated) » pour obtenir une liste des paramètres d’emplacement qui ne sont pas dupliqués.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 

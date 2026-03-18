@@ -40,7 +40,7 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
      Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 

@@ -22,7 +22,7 @@ Par défaut, le multiplicateur d’enchères pour une cible est de 1,00, ce qui 
 
 Vous pouvez définir des multiplicateurs d&#39;enchères (avec des valeurs autres que 1,00) pour un [nombre limité de cibles](#bid-multiplier-limits-by-target).
 
-Cette fonctionnalité fonctionne avec vos cibles d’emplacement existantes. Pour modifier les cibles sélectionnées pour vos emplacements, voir « [ Modifier les emplacements ](/help/dsp/campaign-management/placements/placement-edit.md). »
+Cette fonctionnalité fonctionne avec vos cibles d’emplacement existantes. Pour modifier les cibles sélectionnées pour vos emplacements, voir « [&#x200B; Modifier les emplacements &#x200B;](/help/dsp/campaign-management/placements/placement-edit.md). »
 
 ## Gérer les multiplicateurs d’offres pour un emplacement unique
 

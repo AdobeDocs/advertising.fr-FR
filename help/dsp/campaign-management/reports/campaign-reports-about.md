@@ -52,7 +52,7 @@ Dans une campagne, vous pouvez filtrer les données en fonction de l’entité d
 
 Pour chaque campagne, vous pouvez [personnaliser des graphiques de tendances de série temporelle](campaign-data-views-manage.md#data-visualizations-manage) avec trois mesures disponibles dans chaque vue d’entité. Les mêmes mesures sont conservées dans tous les graphiques de tendance de la campagne.
 
-Pour plus d’informations[ consultez la section ](#chart-view) « Vue du graphique » sur les mesures inter-campagnes.
+Pour plus d’informations[&#x200B; consultez la section &#x200B;](#chart-view) « Vue du graphique » sur les mesures inter-campagnes.
 
 ### Vue Tableau
 
