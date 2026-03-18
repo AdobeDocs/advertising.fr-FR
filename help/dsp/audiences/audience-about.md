@@ -66,7 +66,7 @@ Vous pouvez cibler vos emplacements sur tous les types d’audiences suivants.
 
 * Tous les segments de données propriétaires importés, y compris les segments qui ont été traduits en identifiants universels.
 
-  Des frais supplémentaires sont facturés pour les impressions remises aux cartes d’identité universelles. Consultez « [ À propos des sources d’audience propriétaires »](/help/dsp/audiences/sources/source-about.md) pour obtenir des taux.
+  Des frais supplémentaires sont facturés pour les impressions remises aux cartes d’identité universelles. Consultez « [&#x200B; À propos des sources d’audience propriétaires »](/help/dsp/audiences/sources/source-about.md) pour obtenir des taux.
 
 * Tous vos segments de données tiers personnalisés importés.
 
@@ -84,7 +84,7 @@ Vous pouvez cibler vos emplacements sur tous les types d’audiences suivants.
 
   >[!NOTE]
   >
-  >Pour plus d’informations sur la configuration et la collecte de données pour les segments dans ces solutions[](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) consultez la documentation de [Audience Manager](https://experienceleague.adobe.com/docs/analytics.html), [Analytics [!DNL Real-Time CDP] et ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)the.
+  >Pour plus d’informations sur la configuration et la collecte de données pour les segments dans ces solutions[&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) consultez la documentation de [Audience Manager](https://experienceleague.adobe.com/docs/analytics.html), [Analytics [!DNL Real-Time CDP] et &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)the.
 
 ## Données de taille d’audience
 
