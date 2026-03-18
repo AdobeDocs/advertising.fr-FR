@@ -77,7 +77,7 @@ Les données de performances disponibles sont les suivantes :
 
 ## Indicateurs d’alerte
 
-Une colonne « [!UICONTROL Alerts] » indique lorsqu’une expérience ou toute création enfant associée rencontre un problème. Une icône [!UICONTROL Pulse Panel] située à droite de la barre d’outils indique si des alertes sont disponibles pour l’expérience, y compris les contenus publicitaires enfants. Voir « [ Afficher les alertes ](/help/creative/reports/alerts-view.md) pour plus d’informations.
+Une colonne « [!UICONTROL Alerts] » indique lorsqu’une expérience ou toute création enfant associée rencontre un problème. Une icône [!UICONTROL Pulse Panel] située à droite de la barre d’outils indique si des alertes sont disponibles pour l’expérience, y compris les contenus publicitaires enfants. Voir « [&#x200B; Afficher les alertes &#x200B;](/help/creative/reports/alerts-view.md) pour plus d’informations.
 
 ## Statuts des expériences {#experience-statuses}
 
