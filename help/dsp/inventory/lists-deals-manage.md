@@ -3,7 +3,7 @@ title: Gérer les listes d’offres
 description: Découvrez comment créer et gérer des listes d’offres pour le ciblage des emplacements.
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: e030783a046002e02d719a36c99d1b10808cd4a9
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Vous pouvez créer et gérer des listes d’offres privées et d’offres [!DNL 
 In custom reports, you can a) filter data by deal lists and deals and b) include the [!UICONTROL Feed] dimensions "[!UICONTROL Deal list]" and "[!UICONTROL Deal]" in the [!UICONTROL Build Your Report] section
 -->
 
-## Afficher une liste d’offres
+## Afficher une liste de transactions
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deal Lists]**.
 

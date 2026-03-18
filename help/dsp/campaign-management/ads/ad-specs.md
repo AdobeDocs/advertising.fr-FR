@@ -3,7 +3,7 @@ title: Spécifications publicitaires
 description: Référencez les spécifications publicitaires générales et spécifiques à l’éditeur.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: a6f9bb2d714e7ddb22f74c9c614772eca30f9e40
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 ## Publicités vidéo (pré-roll, CTV et vidéo universelle)
 
-### Screens pris en charge
+### Écrans pris en charge
 
 Les publicités sont diffusées par défaut sur les ordinateurs de bureau, les appareils mobiles et les téléviseurs connectés. Le ciblage de l’appareil est disponible pour ajuster la diffusion.
 
-### Serveurs Publicitaires Tiers Pris En Charge
+### Serveurs publicitaires tiers pris en charge
 
 Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] et [!DNL Sizmek]. Pour obtenir la liste complète des fournisseurs pris en charge, reportez-vous à la rubrique « [Partenaires certifiés de diffusion des publicités](certified-ad-servers.md) ».
 
-### Conditions requises pour la vidéo haute définition Assets
+### Exigences relatives aux ressources vidéo haute définition
 
 **Type de balise vidéo :** VPAID 2.0 JavaScript ou VAST (CTV). Toutes les unités publicitaires VPAID doivent respecter la spécification [VPAID 2.0](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) définie par l’IAB (Interactive Advertising Bureau).
 
@@ -56,7 +56,7 @@ Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flas
 
 * **A+E Network :** consultez les spécifications [ad de A+E Network](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
 
-* **Discovery :** consultez les spécifications des annonces publicitaires [&#x200B; de Discovery](/help/dsp/assets/discovery-networks-ad-specs.pdf).
+* **Discovery :** consultez les spécifications des annonces publicitaires [ de Discovery](/help/dsp/assets/discovery-networks-ad-specs.pdf).
 
 * **Disney (inclus Hulu) :** Voir les spécifications des [annonces publicitaires](https://www.disneyadvertising.com/mediakit/#specifications) de Disney.
 
@@ -66,7 +66,7 @@ Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flas
 
    * [Vidéo numérique](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
-   * [&#x200B; Livestream &#x200B;](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+   * [ Livestream ](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
    * [Paon](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
@@ -74,17 +74,17 @@ Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flas
 
 ## Afficher les publicités
 
-### Screens pris en charge
+### Écrans pris en charge
 
 Les publicités sont diffusées par défaut sur les ordinateurs de bureau et les appareils mobiles. Le ciblage de l’appareil est disponible pour ajuster la diffusion.
 
-### Types de fichiers pris en charge
+### Types de fichier pris en charge
 
 **Image :** GIF, JPG/JPEG, PNG
 
 **HTML5:** Types de fichiers image : GIF, JPG/JPEG, PNG, SVG
 
-### Conditions requises pour Image Assets
+### Conditions requises pour les ressources d’image
 
 Universal Display est pris en charge.
 
@@ -94,15 +94,15 @@ Universal Display est pris en charge.
 
 ## Publicités audio
 
-### Screens pris en charge
+### Écrans pris en charge
 
 Ordinateur de bureau, mobile, tablette, haut-parleurs intelligents et télévision connectée
 
-### Serveurs Publicitaires Tiers Pris En Charge
+### Serveurs publicitaires tiers pris en charge
 
 Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] et [!DNL Sizmek]. Pour obtenir la liste complète des fournisseurs pris en charge, reportez-vous à la rubrique « [Partenaires certifiés de diffusion des publicités](certified-ad-servers.md) ».
 
-### Conditions requises pour Audio Assets
+### Conditions requises pour les ressources audio
 
 **Type de fichier :** MP3, OGG, AAC
 
@@ -178,15 +178,15 @@ Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flas
    * Taille de fichier maximale : 2 Mo
    * Dimensions : 300x250
 
-## Publicités Display Natives
+## Publicités display natives
 
 Chaque publicité peut inclure une image fixe ou un GIF en mouvement (cinemagraphe).
 
-### Screens pris en charge
+### Écrans pris en charge
 
 Les publicités sont diffusées par défaut sur les ordinateurs de bureau et les appareils mobiles. Le ciblage de l’appareil est disponible pour ajuster la diffusion.
 
-### Assets requis pour tous les formats natifs dans le flux
+### Ressources requises pour tous les formats natifs dans les flux
 
 #### Ressource Image
 

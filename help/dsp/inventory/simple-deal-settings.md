@@ -1,52 +1,52 @@
 ---
-title: '[!UICONTROL Simple Ad Serving] Paramètres du contrat'
-description: Découvrez les paramètres disponibles pour les [!UICONTROL Simple Ad Serving] offres.
+title: Paramètres des offres [!UICONTROL Simple Ad Serving]
+description: Découvrez les paramètres disponibles pour les offres [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Simple Ad Serving] Paramètres de transaction
+# Paramètres des offres [!UICONTROL Simple Ad Serving]
 
-## Nouvelles [!UICONTROL Simple Ad Serving] transactions
+## Nouvelles offres [!UICONTROL Simple Ad Serving]
 
-### [!UICONTROL Select Ad Source]
+### [!UICONTROL Select ad source]
 
 | Paramètre | Description |
 |-----------|-------------|
-| **[!UICONTROL Serving Type]** | Type de média pour cette transaction : *[!UICONTROL Video],* *[!UICONTROL Display],* ou *[!UICONTROL Audio].* |
-| **[!UICONTROL Publisher Site Served On]** | Nom de l’éditeur qui vend cet inventaire. Recherchez un éditeur en saisissant au moins les deux premiers caractères du nom. Pour ajouter un éditeur qui n’est pas répertorié, contactez votre équipe de compte d’Adobe. |
-| **[!UICONTROL Advertiser]** | Un seul annonceur sur le compte qui peut accéder à cette offre. Sélectionnez également l&#39;opération et (éventuellement) le kit dans lequel l&#39;opération est disponible. |
-| **[!UICONTROL Media Quality Assessment?]** | (Certains utilisateurs) Permet à la publicité de s’exécuter sur un autre DSP pour la vérification tierce. <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
+| **[!UICONTROL Serving Type]** | Type de média pour cette offre : *[!UICONTROL Video],* *[!UICONTROL Display],* ou *[!UICONTROL Audio].* |
+| **[!UICONTROL Publisher Site Served On]** | Nom de l’éditeur qui vend ce stock. Recherchez un éditeur en saisissant au moins les deux premiers caractères du nom. Pour ajouter un éditeur qui n’est pas répertorié, contactez l’équipe chargée de votre compte Adobe. |
+| **[!UICONTROL Advertiser]** | Un seul annonceur dans le compte qui peut accéder à cette offre. Sélectionnez également la campagne et (éventuellement) le package dans lequel l’offre est disponible. |
+| **[!UICONTROL Media Quality Assessment?]** | (Certains utilisateurs) Permet à la publicité de s’exécuter sur un autre DSP pour une vérification tierce. <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
 | **[!UICONTROL Ad Source]** | La seule option est *[!UICONTROL Site Serve (Event Pixels)]*. |
-| **[!UICONTROL Ad Creation]** | (Nouvelles offres uniquement) Indique si :<ul><li>*[!UICONTROL Create New]:* Pour créer une publicité pour cette opération.</li><li>*[!UICONTROL Select Ads]:* pour utiliser une publicité existante pour cette opération.</li></ul> |
-| **[!UICONTROL Ad Type]** | Type d’annonce pour cette opération. Si vous allez créer des publicités pour l’opération, incluez la taille ou la durée de l’annonce, comme demandé. Les options disponibles varient en fonction du type de média. |
+| **[!UICONTROL Ad Creation]** | (Nouvelles offres uniquement) S’il faut :<ul><li>*[!UICONTROL Create New]:* pour créer une annonce publicitaire pour cette offre.</li><li>*[!UICONTROL Select Ads]:* pour utiliser une annonce publicitaire existante pour cette offre.</li></ul> |
+| **[!UICONTROL Ad Type]** | Type d’annonce publicitaire pour cette offre. Si vous allez créer des annonces pour l&#39;offre, incluez la taille ou la durée de l&#39;annonce, comme demandé. Les options disponibles varient selon le type de média. |
 
 {style="table-layout:auto"}
 
-### [!UICONTROL Select Ad(s)]
+### [!UICONTROL Select ad(s)]
 
-(Lorsque vous utilisez des publicités existantes) Publicités à inclure dans l’offre. Cochez la case en regard de chaque publicité à inclure.
+(Lorsque vous utilisez des annonces existantes) Les annonces à inclure dans l’offre. Cochez la case en regard de chaque publicité à inclure.
 
-### [!UICONTROL Select & Upload [Media Type]]
+### [!UICONTROL Select & upload [Media Type]]
 
-(Nouvelles publicités uniquement) Screens pour créer une [publicité tierce](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+(Nouvelles annonces uniquement) Screens pour créer une [annonce tierce](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-### [!UICONTROL Feed Details]
+### [!UICONTROL Feed details]
 
 | Paramètre | Description |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | Le coût par 1 000 impressions (CPM), tel qu’il est reflété dans la carte de taux de votre contrat. Contactez votre équipe de compte d’Adobe pour cette valeur. <br><br>Indiquez également la devise de l’opération. Tous les utilisateurs peuvent sélectionner USD ou, si le SSP prend en charge d’autres devises, la devise du compte DSP. |
-| **[!UICONTROL Third Party Billed Fees]** | (Facultatif) Des frais tiers statiques à suivre en tant que coût non facturable et la devise de l’opération.<br><br>Tous les utilisateurs peuvent sélectionner USD, ou, si le SSP prend en charge d’autres devises, la devise du compte DSP. **REMARQUE :** Les frais facturables sont reflétés dans la mesure [!UICONTROL Net CPM]. |
-| **[!UICONTROL Third Party Fee Description]** | (Facultatif) Description des frais tiers. |
-| **[!UICONTROL Flight Dates]** | Les dates de début et de fin du trafic utilisant cette transaction. Les dates de vol doivent être incluses dans les dates de vol de l&#39;opération. Les balises de publicité renvoient une réponse uniquement pendant le vol spécifié.<br><br> La bonne pratique pour créer une campagne de diffusion d’annonces simple distincte d’une durée d’un an et y créer des pixels de suivi. |
-| **[!UICONTROL Impressions]** | (Facultatif) Nombre estimé d’impressions que vous prévoyez d’exécuter à l’aide de cette opération. Cette valeur est utilisée à des fins de suivi uniquement et pour marquer lorsque les objectifs de diffusion sont atteints ; l’éditeur contrôle la diffusion réelle de la publicité. Il est recommandé de saisir un grand nombre d’impressions pour que la balise reste active dans DSP afin qu’elle puisse être renouvelée ou étendue si nécessaire. |
-| **[!UICONTROL Deal Name]** | Nom de l’opération. Saisissez un nom ou sélectionnez *[!UICONTROL Auto Generate Deal Name]* pour DSP générer un nom en fonction des détails de l’opération.<br><br>Exemple de nom généré automatiquement : `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
-| **[!UICONTROL Attached Ads]** | (Lecture seule) Publicités faisant partie de l’offre. Pour modifier une publicité, cliquez sur son nom. Pour supprimer une publicité de l’opération, cliquez sur **[!UICONTROL X]** en regard de son nom. |
+| **[!UICONTROL Media CPM]** | Coût par 1 000 impressions (CPM), tel qu’il figure dans la carte tarifaire de votre contrat. Contactez l’équipe chargée de votre compte Adobe pour connaître cette valeur. <br><br>Indiquez également la devise de l’opération. Tous les utilisateurs peuvent sélectionner USD ou, si le fournisseur de services partagés prend en charge d’autres devises, la devise du compte DSP. |
+| **[!UICONTROL Third Party Billed Fees]** | (Facultatif) Frais de tiers statiques à suivre en tant que coût non facturable, et devise de l’opération.<br><br>Tous les utilisateurs peuvent sélectionner USD ou, si le SSP prend en charge d’autres devises, la devise du compte DSP. **REMARQUE :** les frais facturables sont reflétés dans la mesure [!UICONTROL Net CPM]. |
+| **[!UICONTROL Third Party Fee Description]** | (Facultatif) Description des frais facturés aux tiers. |
+| **[!UICONTROL Flight Dates]** | Dates de début et de fin du trafic utilisant cette offre. Les dates des vols doivent être incluses dans les dates des vols de la campagne. Les balises d’annonces ne renvoient une réponse que pendant le vol spécifié.<br><br> Il est recommandé de créer une campagne de diffusion d’annonces simple distincte d’une durée d’un an et d’y créer des pixels de suivi. |
+| **[!UICONTROL Impressions]** | (Facultatif) Estimation du nombre d’impressions que vous prévoyez d’exécuter à l’aide de cette offre. Cette valeur est utilisée uniquement à des fins de suivi et pour indiquer le moment où les objectifs de diffusion sont atteints. L’éditeur contrôle la diffusion réelle des annonces. La bonne pratique consiste à saisir un grand nombre d’impressions pour que la balise reste active dans DSP afin qu’elle puisse être renouvelée ou étendue si nécessaire. |
+| **[!UICONTROL Deal Name]** | Nom de l’offre. Saisissez un nom ou sélectionnez *[!UICONTROL Auto Generate Deal Name]* pour laisser DSP générer un nom en fonction des détails de l’opération.<br><br>Exemple de nom généré automatiquement : `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
+| **[!UICONTROL Attached Ads]** | (Lecture seule) Publicités qui font partie de l’offre. Pour modifier une publicité, cliquez sur son nom. Pour supprimer une annonce de l’offre, cliquez sur **[!UICONTROL X]** en regard du nom de l’annonce. |
 
 {style="table-layout:auto"}
 
@@ -80,10 +80,10 @@ But I see:
 
 >[!MORELIKETHIS]
 >
->* [À propos de [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
->* [Créer une [!UICONTROL Simple Ad Serving] transaction](simple-deal-create.md)
->* [Modifier [!UICONTROL Simple Ad Serving] paramètres de transaction](simple-deal-edit.md)
->* [Afficher un rapport détaillé pour une transaction](/help/dsp/inventory/deal-view-report.md)
+>* [À propos des [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
+>* [Créer un [!UICONTROL Simple Ad Serving] contrat](simple-deal-create.md)
+>* [Modifier les paramètres de l’offre [!UICONTROL Simple Ad Serving]](simple-deal-edit.md)
+>* [Afficher un rapport détaillé pour une affaire](/help/dsp/inventory/deal-view-report.md)
 
 <!-- add back when reimplemented:
 >* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
