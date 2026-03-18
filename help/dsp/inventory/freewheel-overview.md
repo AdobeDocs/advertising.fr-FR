@@ -42,5 +42,5 @@ La configuration d’offres programmatiques garanties avec les éditeurs sur [!D
 >
 >* [Accepter une offre dans la boîte de réception des ID d’offres](deal-id-inbox-accept.md)
 >* [Soumettre une annonce pour une offre programmatique garantie à  [!DNL Freewheel]](freewheel-submit.md)
->* [Vérifier le statut des publicités pour les offres programmatiques garanties [!DNL FreeWheel] ](freewheel-check-status.md)
+>* [Vérifier le statut des publicités pour les offres programmatiques garanties [!DNL FreeWheel] &#x200B;](freewheel-check-status.md)
 >* [Codes d’erreur pour les envois  [!DNL Freewheel]  publicités](freewheel-error-codes.md)

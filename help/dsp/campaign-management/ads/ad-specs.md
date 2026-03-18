@@ -56,7 +56,7 @@ Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flas
 
 * **A+E Network :** consultez les spécifications [ad de A+E Network](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
 
-* **Discovery :** consultez les spécifications des annonces publicitaires [ de Discovery](/help/dsp/assets/discovery-networks-ad-specs.pdf).
+* **Discovery :** consultez les spécifications des annonces publicitaires [&#x200B; de Discovery](/help/dsp/assets/discovery-networks-ad-specs.pdf).
 
 * **Disney (inclus Hulu) :** Voir les spécifications des [annonces publicitaires](https://www.disneyadvertising.com/mediakit/#specifications) de Disney.
 
@@ -66,7 +66,7 @@ Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flas
 
    * [Vidéo numérique](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
-   * [ Livestream ](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+   * [&#x200B; Livestream &#x200B;](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
    * [Paon](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 

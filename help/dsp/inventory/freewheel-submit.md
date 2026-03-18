@@ -54,5 +54,5 @@ Une fois que vous [acceptez une offre programmatique garantie avec un éditeur s
 >
 >* [Présentation de la configuration d&#39;affaires programmatiques garanties dans [!DNL Freewheel]](freewheel-overview.md)
 >* [Accepter une offre dans la boîte de réception des ID d’offres](deal-id-inbox-accept.md)
->* [Vérifier le statut des publicités pour les offres programmatiques garanties [!DNL FreeWheel] ](freewheel-check-status.md)
+>* [Vérifier le statut des publicités pour les offres programmatiques garanties [!DNL FreeWheel] &#x200B;](freewheel-check-status.md)
 >* [Codes d’erreur pour les envois  [!DNL Freewheel]  publicités](freewheel-error-codes.md)
