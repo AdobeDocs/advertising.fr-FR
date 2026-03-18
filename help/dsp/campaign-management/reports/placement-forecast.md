@@ -73,7 +73,7 @@ La prévision comprend les informations suivantes :
 
 1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. Recherchez la section **[!UICONTROL Forecast]** en haut à droite. Si nécessaire, cliquez sur ![ Prévision ](/help/dsp/assets/placement-forecast.png).
+1. Recherchez la section **[!UICONTROL Forecast]** en haut à droite. Si nécessaire, cliquez sur ![&#x200B; Prévision &#x200B;](/help/dsp/assets/placement-forecast.png).
 
    >[!NOTE]
    >

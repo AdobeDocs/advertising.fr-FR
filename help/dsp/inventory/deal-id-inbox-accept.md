@@ -18,7 +18,7 @@ Utilisez le [!UICONTROL Deal ID inbox] pour accepter rapidement une transaction 
 
 >[!NOTE]
 >
->La configuration d’offres programmatiques garanties avec les éditeurs sur [!DNL FreeWheel] nécessite des autorisations et des étapes supplémentaires. Voir « [ Présentation de la configuration d’offres programmatiques garanties dans FreeWheel ](freewheel-overview.md) » pour plus d’informations.
+>La configuration d’offres programmatiques garanties avec les éditeurs sur [!DNL FreeWheel] nécessite des autorisations et des étapes supplémentaires. Voir « [&#x200B; Présentation de la configuration d’offres programmatiques garanties dans FreeWheel &#x200B;](freewheel-overview.md) » pour plus d’informations.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 

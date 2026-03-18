@@ -28,7 +28,7 @@ En plus de fournir une gestion centralisée de la qualité, nous croyons en la p
 
 DSP prend en charge les [!DNL ads.txt] en lisant le fichier `ads.txt` de chaque éditeur et en vous offrant la possibilité d’acheter uniquement auprès de vendeurs [!DNL ads.txt] vérifiés. Par exemple, en faisant correspondre les vendeurs auxquels nous voyons l&#39;accès `nytimes.com` au fichier `ads.txt` du New York Times, nous pouvons identifier ceux qui sont légitimes et ceux qui ne le sont pas, et nous bloquerons les contrevenants si le placement est configuré pour acheter uniquement auprès de vendeurs vérifiés. <!-- can we actually mention NY Times? -->
 
-Vous pouvez définir des commandes de [!DNL ads.txt] par défaut pour chaque annonceur<!-- [default ads.txt controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> puis, éventuellement[ personnaliser les paramètres de chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md) pour :
+Vous pouvez définir des commandes de [!DNL ads.txt] par défaut pour chaque annonceur<!-- [default ads.txt controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> puis, éventuellement[&#x200B; personnaliser les paramètres de chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md) pour :
 
 * achetez uniquement des stocks auprès des vendeurs directs autorisés d’un domaine
 
@@ -82,7 +82,7 @@ Lorsque vous incluez un site dans la liste des sites bloqués globalement en tan
 
 >[!NOTE]
 >
->Vous pouvez éventuellement contourner la liste globale des sites bloqués pour les publicités display standard jointes à une offre privée approuvée en activant l’option « [!UICONTROL Allow unscreened sites] » dans les [ paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md). Si nécessaire, l’équipe du compte Adobe peut également désactiver le blocage de site pour une transaction publique (au niveau des enchères) dans les paramètres de l’éditeur pour la transaction.
+>Vous pouvez éventuellement contourner la liste globale des sites bloqués pour les publicités display standard jointes à une offre privée approuvée en activant l’option « [!UICONTROL Allow unscreened sites] » dans les [&#x200B; paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md). Si nécessaire, l’équipe du compte Adobe peut également désactiver le blocage de site pour une transaction publique (au niveau des enchères) dans les paramètres de l’éditeur pour la transaction.
 
 #### Listes de sites bloqués au niveau du compte et de l’annonceur
 
@@ -94,7 +94,7 @@ Les utilisateurs peuvent également gérer des listes de sites bloqués au nivea
 
 Le filtrage contextuel vous permet de cibler ou de bloquer des opportunités publicitaires en fonction du contexte de la page sur laquelle la publicité serait diffusée. Adobe fournit un filtrage contextuel par le biais d’intégrations avec les principaux fournisseurs du secteur : [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] et [!DNL Peer39]. Les filtres actuels incluent par exemple [!UICONTROL Adult Content], [!UICONTROL Natural Disasters], [!UICONTROL Legal Drinking Age], [!UICONTROL MANGA], [!UICONTROL Epidemics] et [!UICONTROL G-rated Sites].
 
-Vous pouvez définir des contrôles de filtre contextuels par défaut pour chaque annonceur<!-- [default contextual filter controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> puis, éventuellement[ personnaliser les paramètres de chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). Des frais supplémentaires peuvent s’appliquer lorsque vous utilisez cette fonctionnalité.
+Vous pouvez définir des contrôles de filtre contextuels par défaut pour chaque annonceur<!-- [default contextual filter controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> puis, éventuellement[&#x200B; personnaliser les paramètres de chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). Des frais supplémentaires peuvent s’appliquer lorsque vous utilisez cette fonctionnalité.
 
 ![Logo Comscore](/help/dsp/assets/comscore-logo.png) ![Logo DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logo Integral Ad Science](/help/dsp/assets/ias-logo.png) ![Logo Peer39](/help/dsp/assets/peer39-logo.png)
 
@@ -102,7 +102,7 @@ Vous pouvez définir des contrôles de filtre contextuels par défaut pour chaqu
 
 Tirez parti de nos intégrations tierces à [!DNL DoubleVerify], [!DNL Integral Ad Science] et [!DNL Peer39] pour bloquer le trafic non humain provenant de vos campagnes. Ces intégrations fournissent des fonctionnalités de blocage de pré-enchères de pointe pour minimiser le trafic non valide général et sophistiqué (GIVT et SIVT) dans vos campagnes.
 
-Vous pouvez définir des contrôles par défaut de blocage de la fraude avant enchères pour chaque annonceur<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> puis, éventuellement[ personnaliser les paramètres de chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). Des frais supplémentaires peuvent s’appliquer lorsque vous utilisez cette fonctionnalité.
+Vous pouvez définir des contrôles par défaut de blocage de la fraude avant enchères pour chaque annonceur<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> puis, éventuellement[&#x200B; personnaliser les paramètres de chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). Des frais supplémentaires peuvent s’appliquer lorsque vous utilisez cette fonctionnalité.
 
 Pour plus d’informations sur les fonctionnalités, contactez directement votre fournisseur préféré ou l’équipe chargée de votre compte Adobe.
 
@@ -112,7 +112,7 @@ Pour plus d’informations sur les fonctionnalités, contactez directement votre
 
 Les filtres de visibilité de pré-enchères optimisés par nos partenaires leaders du secteur [!DNL DoubleVerify] et [!DNL Integral Ad Science] permettent aux annonceurs de s’assurer que leurs campagnes atteignent leurs objectifs de performance de visibilité souhaités sur la vidéo et l’inventaire des affichages.
 
-Vous pouvez définir des filtres de visibilité par défaut pour chaque annonceur<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) --> puis éventuellement [ personnaliser les paramètres de chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). Des frais supplémentaires peuvent s’appliquer lorsque vous utilisez cette fonctionnalité.
+Vous pouvez définir des filtres de visibilité par défaut pour chaque annonceur<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) --> puis éventuellement [&#x200B; personnaliser les paramètres de chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). Des frais supplémentaires peuvent s’appliquer lorsque vous utilisez cette fonctionnalité.
 
 ![Logo DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logo intégral Ad Science](/help/dsp/assets/ias-logo.png)
 
@@ -134,7 +134,7 @@ Le ciblage de rubrique nécessite que vous créiez des segments de rubrique pers
 
 Pour créer un compte [!DNL Comscore] et des segments de rubrique personnalisés, vous pouvez demander une connexion pour [!DNL Activation Segment Manager] à l’adresse [https://agents.comscore.com](https://agents.comscore.com). Consultez le [[!DNL Comscore] centre d’aide](https://comscoreactivation.zendesk.com/hc/) pour obtenir des instructions complètes sur la configuration des segments personnalisés. Les frais des segments personnalisés sont visibles dans [!DNL Segment Manager] au fur et à mesure de leur création.
 
-![ Logo Comscore ](/help/dsp/assets/comscore-logo.png)
+![&#x200B; Logo Comscore &#x200B;](/help/dsp/assets/comscore-logo.png)
 
 ### [!DNL DoubleVerify Authentic Brand Safety]
 

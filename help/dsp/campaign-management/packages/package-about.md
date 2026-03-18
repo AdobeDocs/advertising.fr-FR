@@ -20,7 +20,7 @@ Vous pouvez créer des packages manuellement ou en dupliquant des packages exist
 
 Le tableau de bord [!UICONTROL Packages] centralise les rapports de performances et d’économie sur toutes vos stratégies d’offre groupée, fournissant des instantanés rapides des performances de vos offres groupées au cours d’une période spécifiée.
 
-![ Tableau de bord des packages ](/help/dsp/assets/package-dashboard.png)
+![&#x200B; Tableau de bord des packages &#x200B;](/help/dsp/assets/package-dashboard.png)
 
 Le tableau de bord comprend un graphique de tendances personnalisable de haut niveau avec trois mesures.
 
