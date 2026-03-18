@@ -4,7 +4,7 @@ description: Découvrez les types de demandes de données pris en charge, la con
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 8e9dac77b4f687fb175adaf27a4e726fa80ca7b4
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Adobe Experience Platform permet aux entreprises d’effectuer les tâches suiva
 * Supprimez les données au niveau des cookies stockées dans [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] ou [!DNL DCO] pour les titulaires de données à l’aide d’un navigateur ou supprimez les données au niveau des identifiants stockées dans [!DNL DSP] pour les titulaires de données à l’aide d’applications sur des appareils mobiles.
 * Vérifiez le statut d’une ou de toutes les requêtes existantes.
 
-## Configuration requise pour envoyer des demandes pour Adobe Advertising
+## Configuration requise pour envoyer des requêtes pour Adobe Advertising
 
 Pour envoyer des demandes d’accès et de suppression de données pour Adobe Advertising, vous devez :
 
@@ -61,7 +61,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour Adobe Ad
    >
    >Contactez le représentant Adobe Advertising de votre société pour confirmer que tous les comptes Adobe Advertising de votre organisation, y compris les comptes [!DNL DSP] ou les annonceurs, les comptes [!DNL Search, Social, & Commerce] et les comptes [!DNL Creative] ou [!DNL DCO], sont liés à votre ID d’organisation Experience Cloud.
 
-1. Utilisez l’API [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=fr) (pour les requêtes automatisées) ou l’interface utilisateur [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr) (pour les requêtes ad hoc) pour envoyer des requêtes d’accès et de suppression à Adobe Advertising au nom des titulaires de données et pour vérifier le statut des requêtes existantes.
+1. Utilisez l’API [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (pour les requêtes automatisées) ou l’interface utilisateur [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr) (pour les requêtes ad hoc) pour envoyer des requêtes d’accès et de suppression à Adobe Advertising au nom des titulaires de données et pour vérifier le statut des requêtes existantes.
 
    Pour les annonceurs qui disposent d’une application mobile afin d’interagir avec les titulaires de données et de lancer des campagnes avec DSP, vous devez télécharger les SDK mobiles compatibles avec la confidentialité pour Experience Cloud. Les SDK mobiles permettent aux contrôleurs de données de définir des indicateurs de statut d’opt-out, de récupérer l’identifiant de l’appareil du titulaire de données (identifiant de l’espace de noms : `deviceID`) et d’envoyer des requêtes à l’API Privacy Service. Votre application mobile nécessite une version de SDK 4.15.0 ou ultérieure.
 
@@ -73,9 +73,9 @@ Pour envoyer des demandes d’accès et de suppression de données pour Adobe Ad
    >
    >Si votre société dispose de plusieurs identifiants d’organisation Experience Cloud, vous devez envoyer des requêtes d’API distinctes pour chacun d’eux. Vous pouvez toutefois effectuer une requête d’API vers plusieurs sous-solutions Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] et [!DNL DCO]), avec un compte par sous-solution.
 
-Toutes les étapes sont nécessaires pour Adobe Advertising. Pour plus d’informations sur ces tâches et d’autres tâches connexes que vous devez effectuer à l’aide de Adobe Experience Platform Privacy Service, et pour savoir où trouver les éléments nécessaires, consultez « [Présentation de Privacy Service &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr) ».
+Toutes les étapes sont nécessaires pour Adobe Advertising. Pour plus d’informations sur ces tâches et d’autres tâches connexes que vous devez effectuer à l’aide de Adobe Experience Platform Privacy Service, et pour savoir où trouver les éléments nécessaires, consultez « [Présentation de Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) ».
 
-## Valeurs de champ requises dans les requêtes JSON Adobe Advertising
+## Valeurs de champ obligatoires dans les requêtes JSON Adobe Advertising
 
 `"company context":`
 
@@ -98,7 +98,7 @@ Toutes les étapes sont nécessaires pour Adobe Advertising. Pour plus d’infor
 
 * `"regulation": **gdpr**` (qui est la réglementation de confidentialité qui s’applique à la demande)
 
-## Exemple de demande soumise par le titulaire de données à l’aide d’un identifiant utilisateur Adobe Advertising récupéré de `AdobePrivacy.js`
+## Exemple de requête soumise par le titulaire de données à l’aide d’un identifiant utilisateur Adobe Advertising récupéré dans `AdobePrivacy.js`
 
 ```
 {

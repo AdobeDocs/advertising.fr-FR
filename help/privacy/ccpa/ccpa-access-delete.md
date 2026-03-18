@@ -4,14 +4,14 @@ description: Découvrez les types de demandes de données pris en charge, la con
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: a3e39ca4fa89f84ddc2669662c34bccb4425a2bb
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
 
-# Prise en charge d’Adobe Advertising pour la Loi sur la confidentialité des consommateurs de Californie : assistance pour l’accès et la suppression des données client
+# Prise en charge d’Adobe Advertising pour la Loi sur la confidentialité des consommateurs de Californie : prise en charge de l’accès et de la suppression des données client
 
 *Par [!DNL Adobe Advertising Search, Social, & Commerce] ; Adobe Advertising DSP ; Adobe Advertising Creative ; et Adobe Advertising DCO*
 
@@ -27,7 +27,7 @@ En tant que fournisseur, Adobe Advertising fournit une assistance à votre entre
 
 Ce document décrit comment [!DNL Advertising Search, Social, & Commerce], Advertising Creative, Advertising DSP (Demand Side Platform) et [!DNL Advertising DCO], en tant que fournisseurs de services, prennent en charge les droits des consommateurs d’accéder et de supprimer des informations personnelles à l’aide des [!DNL Experience Platform Privacy Service API] et [!DNL Privacy Service UI] d’Adobe.
 
-Pour plus d’informations sur la manière dont Advertising DSP prend en charge le droit des consommateurs de se désinscrire de la vente de leurs informations personnelles, consultez [Prise en charge d’Adobe Advertising en vertu de la Loi sur la protection des informations personnelles des consommateurs de Californie : Prise en charge du droit de désinscription des consommateurs](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+Pour plus d’informations sur la manière dont Advertising DSP prend en charge le droit des consommateurs de se désinscrire de la vente de leurs informations personnelles, consultez [Prise en charge par Adobe Advertising de la Loi sur la protection de la vie privée des consommateurs de Californie : Prise en charge du droit des consommateurs de se désinscrire de la vente](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 Pour plus d’informations sur Adobe Privacy Services pour le CCPA, consultez le [Centre de traitement des données personnelles d’Adobe](https://www.adobe.com/privacy/ccpa.html).
 
@@ -39,7 +39,7 @@ Adobe Experience Platform permet aux entreprises d’effectuer les tâches suiva
 * Supprimez les données au niveau des cookies stockées dans [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] ou [!DNL DCO] pour les clients qui utilisent un navigateur ou supprimez les données au niveau des identifiants stockées dans [!DNL DSP] pour les clients qui utilisent des applications sur des appareils mobiles.
 * Vérifiez le statut d’une ou de toutes les requêtes existantes.
 
-## Configuration requise pour envoyer des demandes pour Adobe Advertising
+## Configuration requise pour envoyer des requêtes pour Adobe Advertising
 
 Pour envoyer des demandes d’accès et de suppression d’informations personnelles de clients à partir d’Adobe Advertising, vous devez :
 
@@ -65,7 +65,7 @@ Pour envoyer des demandes d’accès et de suppression d’informations personne
    >
    >Contactez le représentant Adobe Advertising de votre société pour confirmer que tous les comptes Adobe Advertising de votre organisation, y compris les comptes [!DNL DSP] ou les annonceurs, les comptes [!DNL Search, Social, & Commerce] et les comptes [!DNL Creative] ou [!DNL DCO], sont liés à votre ID d’organisation Experience Cloud.
 
-1. Utilisez l’API [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=fr) (pour les demandes automatisées) ou l’interface utilisateur [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr) (pour les demandes ad hoc) pour envoyer des demandes d’accès et de suppression d’informations personnelles à Adobe Advertising au nom des consommateurs et consommatrices, et pour vérifier le statut des demandes existantes.
+1. Utilisez l’API [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (pour les demandes automatisées) ou l’interface utilisateur [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr) (pour les demandes ad hoc) pour envoyer des demandes d’accès et de suppression d’informations personnelles à Adobe Advertising au nom des consommateurs et consommatrices, et pour vérifier le statut des demandes existantes.
 
    Pour les annonceurs qui disposent d’une application mobile afin d’interagir avec les clients et de lancer des campagnes avec [!DNL DSP], vous devez télécharger les SDK mobiles compatibles avec les informations personnelles pour Experience Cloud. Les SDK mobiles permettent aux entreprises de définir des indicateurs de statut d’opt-out, de récupérer l’identifiant de l’appareil du client (identifiant de l’espace de noms : `deviceID`) et d’envoyer des requêtes à l’API Privacy Service. Votre application mobile nécessite une version de SDK 4.15.0 ou ultérieure.
 
@@ -77,9 +77,9 @@ Pour envoyer des demandes d’accès et de suppression d’informations personne
    >
    >Si votre entreprise dispose de plusieurs identifiants d’organisation Experience Cloud, vous devez envoyer des requêtes d’API distinctes pour chacun d’eux. Vous pouvez toutefois effectuer une requête d’API vers plusieurs sous-solutions Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] et [!DNL DCO]), avec un compte par sous-solution.
 
-Toutes les étapes sont nécessaires pour recevoir une assistance d’Adobe Advertising. Pour plus d&#39;informations sur ces tâches et d&#39;autres tâches connexes que vous devez effectuer à l&#39;aide du Adobe Experience Platform Privacy Service, et pour savoir où trouver les éléments nécessaires, consultez [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr).
+Toutes les étapes sont nécessaires pour recevoir une assistance d’Adobe Advertising. Pour plus d&#39;informations sur ces tâches et d&#39;autres tâches connexes que vous devez effectuer à l&#39;aide du Adobe Experience Platform Privacy Service, et pour savoir où trouver les éléments nécessaires, consultez [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
-## Valeurs de champ requises dans les requêtes JSON Adobe Advertising
+## Valeurs de champ obligatoires dans les requêtes JSON Adobe Advertising
 
 `"company context":`
 
@@ -94,15 +94,15 @@ Toutes les étapes sont nécessaires pour recevoir une assistance d’Adobe Adve
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (qui indique l’[[!DNL AdCloud] espace de cookie](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/appendix))
+   * `"namespace": **411**` (qui indique l’[[!DNL AdCloud] espace de cookie](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix))
 
    * `"value":` &lt;*la valeur de l’ID de cookie du client réel, extraite de`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` (qui est le [[!DNL Adobe] produit](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/appendix) qui s’applique à la requête)
+* `"include": **adCloud**` (qui est le [[!DNL Adobe] produit](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix) qui s’applique à la requête)
 
 * `"regulation": **ccpa**` (qui est la réglementation de confidentialité qui s’applique à la demande)
 
-## Exemple de demande envoyée par un client à l’aide d’un identifiant utilisateur Adobe Advertising récupéré d’AdobePrivacy.js
+## Exemple de requête soumise par un client à l’aide d’un identifiant utilisateur Adobe Advertising récupéré d’AdobePrivacy.js
 
 ```
 {

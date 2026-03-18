@@ -3,7 +3,7 @@ role: User
 user-guide-title: Guide d’Advertising Creative
 user-guide-description: Découvrez les principaux paramètres, fonctionnalités, tâches et autres ressources nécessaires à l’utilisation d’Advertising Creative.
 breadcrumb-title: Guide créatif
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 5%
@@ -18,8 +18,8 @@ ht-degree: 5%
    + [À propos de Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Personnalisation des vues de données](/help/creative/introduction/customize-data-views.md)
    + [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}
-   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}
+   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Bibliothèques Creative {#creative-libraries}
    + [À propos de vos bibliothèques de création](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md)
@@ -95,4 +95,4 @@ ht-degree: 5%
 + [Reciblage des pixels](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponibles pour le tracking des URL](/help/creative/creative-macros.md)
 + [Obtenir de l’aide](/help/creative/get-help.md)
-+ [Notes de mise à jour de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target="_blank"}
++ [Notes de mise à jour de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

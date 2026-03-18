@@ -1,52 +1,52 @@
 ---
-title: Stratégie d’Adobe Advertising des exigences d’ID universel
-description: Consultez la politique d’utilisation des ID universels.
+title: Politique des exigences d’Adobe Advertising Universal ID
+description: Consultez la politique relative à l’utilisation des identifiants universels.
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-source-git-commit: 35dd8b8302afb01f8e6bb6c8da2a3c167abd397f
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
 
 ---
 
-# Stratégie d’Adobe Advertising des exigences d’ID universel
+# Politique des exigences d’Adobe Advertising Universal ID
 
 Dernière mise à jour : 29 février 2024
 
-Cette politique sur les exigences d’ID universel (&quot;Policy&quot;) définit les exigences relatives à l’utilisation d’identifiants universels en rapport avec des publicités distribuées via [!DNL Adobe's] On-demand Services for Adobe Advertising (&quot;Services&quot;). Cette politique est intégrée par référence dans le contrat entre [!DNL Adobe] et le client (&quot;vous&quot;) à l’aide des services à la demande. Les termes en majuscules utilisés dans la présente politique, mais non définis dans les présentes, auront la signification indiquée dans cette convention.
+La présente politique relative aux exigences en matière d’Universal ID (« politique ») énonce les exigences relatives à l’utilisation des Universal ID en lien avec les publicités distribuées via [!DNL Adobe's] services à la demande pour Adobe Advertising (« services »). La présente Politique est intégrée par référence au Contrat entre [!DNL Adobe] et le Client (« vous ») à l&#39;aide des Services à la demande. Les termes en majuscules utilisés dans la présente Politique mais non définis dans les présentes auront le sens défini dans cet Accord.
 
-[!DNL Adobe] se réserve le droit de déterminer, à son seul jugement, si une publicité ou le ou les sites web vers lesquels la publicité est redirigée ou liée, enfreint les exigences de cette politique, auquel cas [!DNL Adobe] peut rejeter cette publicité et/ou mettre fin ou suspendre l’accès aux Services sur cette base.
+[!DNL Adobe] se réserve le droit de déterminer, à son seul jugement, si une Annonce ou le(s) site(s) Web vers lesquels l&#39;Annonce redirige ou renvoie, enfreignent les exigences de la présente Politique, auquel cas [!DNL Adobe] pouvez rejeter cette Annonce et/ou résilier ou suspendre l&#39;accès aux Services sur cette base.
 
-Outre les exigences définies ci-dessous et dans le Contrat, vous devez respecter les exigences imposées par chaque fournisseur d’ID universel avec lequel vous choisissez d’interagir ainsi que celles imposées par toute plateforme côté offre (SSP) ou toute autre plateforme utilisée pour diffuser vos publicités. Il vous incombe de comprendre et de respecter les politiques des éditeurs et des plateformes par le biais desquelles vous diffusez des publicités.
+Outre les exigences énoncées ci-dessous et dans le Contrat, vous devez respecter les exigences imposées par chaque fournisseur d&#39;identité universelle avec lequel vous choisissez de vous engager, ainsi que celles imposées par toute plateforme côté offre (SSP) ou autre plateforme utilisée pour diffuser l&#39;une de vos publicités. Il est de votre responsabilité de comprendre et de respecter les politiques des éditeurs et des plateformes par lesquels vous diffusez des publicités.
 
-## Exigences de données client
+## Exigences en matière de données client
 
 ### Données interdites
 
-En choisissant d’utiliser les ID universels mis à disposition via les services, vous acceptez de vous assurer que toutes les données client transmises, stockées, affichées, distribuées ou mises à votre disposition par l’intermédiaire des services à la demande sont conformes aux spécifications d’ID universel suivantes et à toutes les autres exigences de cette politique, comme peut le modifier [!DNL Adobe] de temps à autre.
+En choisissant d&#39;utiliser les identifiants universels mis à disposition par l&#39;intermédiaire des services, vous acceptez de vous assurer que toutes les données client transmises, stockées, affichées, distribuées ou autrement mises à disposition par vous par l&#39;intermédiaire des services à la demande sont conformes aux spécifications d&#39;identifiant universel suivantes et à toute autre exigence de la présente politique, qui peut être révisée par [!DNL Adobe] de temps à autre.
 
-* Vous avez collecté des données client directement auprès d’utilisateurs ou sous licence d’une autre partie qui a collecté (i) les données client directement auprès des utilisateurs auxquels de telles données se rapportent ou (ii) obtenu les données client via des intermédiaires qui ont obtenu les données d’une autre partie qui a collecté ces données de l’utilisateur, à condition que vous puissiez identifier la partie d’origine qui a collecté les données client des utilisateurs auxquels les données se rapportent.
+* Les Données Client ont été collectées par vous directement auprès des utilisateurs ou vous avez obtenu une licence d&#39;une autre partie qui (i) a collecté les Données Client directement auprès des utilisateurs auxquels ces données se rapportent ou (ii) a obtenu les Données Client par l&#39;intermédiaire d&#39;intermédiaires qui ont obtenu les données d&#39;une autre partie qui a collecté ces données auprès de l&#39;utilisateur, à condition que vous puissiez identifier la partie d&#39;origine qui a collecté les Données Client auprès des utilisateurs auxquels les données se rapportent.
 
-* Les données client ne sont pas issues de la mise au rebut Web ou de l’achat d’une base de données à partir d’une source déconnectée de la collection d’origine des données.
+* Les données client ne proviennent pas du Web scraping ou de l&#39;achat d&#39;une base de données à partir d&#39;une source déconnectée de la collecte originale des données.
 
-* Vous avez fourni tous les avis et obtenu tous les consentements requis pour divulguer les données du client à [!DNL Adobe] et ses partenaires aux fins définies dans le contrat.
+* Vous avez fourni tous les avis et obtenu tous les consentements requis pour divulguer les Données du Client à [!DNL Adobe] et à ses partenaires aux fins énoncées dans le Contrat.
 
-* Les données client ne concernent aucune personne (i) qui a exercé une option que vous avez directement ou indirectement engagée à honorer en ce qui concerne la création ou l’utilisation de données pour des audiences ciblées (&quot;Opt-out&quot;), (ii) que vous connaissez comme mineure (une mineure étant des individus de moins de la majorité définis par la loi dans n’importe quelle juridiction applicable), ou (iii) dont vous possédez la connaissance réelle que cette personne souffre d’un état de santé particulier.
+* Les Données clients ne concernent pas les personnes (i) qui ont exercé une option que vous vous êtes directement ou indirectement engagé à respecter en ce qui concerne la création ou l&#39;utilisation de données pour des publics ciblés (« Opt-out »), (ii) que vous savez être mineure (les personnes mineures étant des personnes ayant moins de l&#39;âge de la majorité défini par la loi dans toute juridiction applicable), ou (iii) lorsque vous possédez une connaissance réelle que cette personne souffre d&#39;un problème de santé particulier.
 
-* Si vous recevez un droit d’opposition à la date d’entrée en vigueur du contrat, vous n’utiliserez plus l’identifiant universel de cet utilisateur.
+* Si vous recevez un Opt-out après la date d&#39;entrée en vigueur du contrat, vous n&#39;utiliserez plus l&#39;identifiant universel de cet utilisateur Opt-out.
 
-### UID2 - Pays interdits
+### Pays interdits par UID2
 
-En choisissant d’utiliser des UID2 Universal ID via les Services, vous acceptez de vous assurer que toutes les données client transmises, stockées, affichées, distribuées ou mises à votre disposition par l’intermédiaire des Services à la demande pour une telle utilisation en rapport avec les UID2 Universal ID ne se rapportent à aucune personne résidant dans l’un des [pays interdit UID2 répertorié dans l’pièce A](#prohibited-countries-uid2) ci-dessous.
+En choisissant d&#39;utiliser les identifiants universels d&#39;UID2 par l&#39;intermédiaire des services, vous acceptez de vous assurer que toutes les données client transmises, stockées, affichées, distribuées ou autrement mises à votre disposition par l&#39;intermédiaire des services à la demande pour une telle utilisation en relation avec les identifiants universels d&#39;UID2 ne concernent aucun individu qui réside dans l&#39;un des [pays interdits d&#39;UID2 répertoriés dans la pièce A](#prohibited-countries-uid2) ci-jointe.
 
-## Non-discrimination
+## Pas de discrimination
 
-Vous ne pouvez pas utiliser les Services pour vous engager dans une discrimination en violation de la loi, y compris en ciblant à tort des groupes spécifiques de personnes à des fins publicitaires, en excluant à tort des groupes spécifiques de personnes de la vue publicitaire, ou en présentant du contenu discriminatoire dans les publicités. Il vous incombe d’utiliser les Services de manière responsable afin d’éviter toute discrimination à l’égard des classes protégées, notamment, mais sans s’y limiter, de vous assurer que vos publicités n’ont pas un impact disparate sur les classes protégées.
+Vous ne pouvez pas utiliser les Services pour faire de la discrimination en violation de la loi, y compris en ciblant illégalement des groupes spécifiques de personnes pour la publicité, en excluant illégalement des groupes spécifiques de personnes de voir des annonces, ou en présentant du contenu discriminatoire dans les annonces. Il vous incombe d&#39;utiliser les Services de manière responsable afin d&#39;éviter toute discrimination à l&#39;encontre des classes protégées, notamment en vous assurant que vos publicités n&#39;ont pas un impact disparate sur les classes protégées.
 
-## Pièce A : UID2 - Pays interdits {#prohibited-countries-uid2}
+## Pièce A : pays interdits par UID2 {#prohibited-countries-uid2}
 
-### Pays de l’UE
+### Pays de l&#39;UE
 
 * Autriche
 * Belgique
@@ -67,7 +67,7 @@ Vous ne pouvez pas utiliser les Services pour vous engager dans une discriminati
 * Lituanie
 * Luxembourg
 * Malte
-* Pays
+* Pays-Bas
 * Pologne
 * Portugal
 * Roumanie
@@ -76,22 +76,22 @@ Vous ne pouvez pas utiliser les Services pour vous engager dans une discriminati
 * Espagne
 * Suède
 
-### Membres de l’EEE hors UE
+### Membres de l&#39;EEE non membres de l&#39;UE
 
 * Islande
 * Liechtenstein
 * Norvège
 
-### Autre
+### Autres frais
 
 * Açores
 * Îles Canaries
-* Guadaloupe
-* Guyane française
+* Guadeloupe
+* Guyane Française
 * Madère
 * Martinique
 * Mayotte
-* Reunion
+* Réunion
 * Saint Martin
 * Suisse
 * UK

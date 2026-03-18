@@ -1,27 +1,27 @@
 ---
-title: Adobe Advertising DSP des directives d’utilisation des données
-description: Consultez les instructions d’utilisation des données.
+title: Instructions d’utilisation des données d’Adobe Advertising DSP
+description: Consultez les instructions relatives à l’utilisation des données.
 feature: Policies
 exl-id: b71caa80-d1f6-4f42-90c3-a3e19acb2c6c
-source-git-commit: 4ea8b76e65fb610d2bf86a39560084902e9d0436
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising DSP des directives d’utilisation des données
+# Instructions d’utilisation des données d’Adobe Advertising DSP
 
-*Dernière mise à jour : 5 septembre 2019 (sauf pour la mise à jour de l’URL de cette page)*
+*Dernière mise à jour : 5 septembre 2019 (sauf pour la mise à jour de l&#39;URL de cette page)*
 
-*Pour l’Adobe Advertising DSP*
+*Pour Adobe Advertising DSP*
 
-Ces directives d’utilisation des données (&quot;Directives sur les données&quot;) décrivent les exigences d’utilisation de certaines données accessibles via les services à la demande d’Adobe pour Advertising DSP (&quot;Services&quot;). Ces directives sont intégrées par référence dans le contrat entre Adobe et le client à l’aide des services à la demande. Les termes en majuscules utilisés dans les présentes lignes directrices, mais non définis dans les présentes, auront la signification indiquée dans cet accord.
+Ces directives d’utilisation des données (« directives relatives aux données ») définissent les exigences relatives à l’utilisation de certaines données accessibles via les services à la demande d’Adobe pour Advertising DSP (« services »). Ces consignes sont intégrées par référence dans l’accord entre Adobe et le client utilisant les services à la demande. Les termes en majuscules utilisés dans les présentes Lignes directrices mais non définis dans les présentes ont le sens défini dans le présent Accord.
 
-Adobe se réserve le droit de déterminer, à son seul jugement, si l’utilisation des données par le client enfreint les présentes lignes directrices.
+Adobe se réserve le droit de déterminer, à son seul jugement, si l&#39;utilisation des données par le Client enfreint les présentes Directives.
 
 ## Utilisation des données [!DNL TruSignal]
 
-[!DNL TruSignal] Les données ne peuvent pas être utilisées dans les cas suivants : (1) tout but admissible ou action défavorable tel que défini par le [!DNL Fair Credit Reporting Act] (tel que modifié de temps à autre) ; (2) la renégociation ou la restructuration de la dette ; ou (3) la facilitation de toute publicité pour le divertissement pour adultes, la pornographie, les jouets sexuels, la danse exotique, les armes à feu, les jeux illégaux ou tout autre produit ou service illégal, y compris sans discrimination sur la base. race, genre, religion, orientation sexuelle ou de toute manière qui pourrait être jugée inéquitable en vertu de la loi en vigueur ; et (4) aux fins des (a) l&#39;éligibilité à un emploi, (b) l&#39;éligibilité au crédit, `(c)` l&#39;éligibilité aux soins de santé ou (d) la souscription et le prix de l&#39;éligibilité à une assurance<!-- I used backticks in the previous sentence to prevent ( c ) from displaying as a copyright symbol. I think the OS does that. Using HTML code for the parentheses doesn't prevent it. -->.
+[!DNL TruSignal] Les données ne peuvent pas être utilisées aux fins suivantes : (1) toute fin permise ou action défavorable telle que définie par la [!DNL Fair Credit Reporting Act] (qui peut être modifiée de temps à autre); (2) la renégociation ou la restructuration de la dette ; ou (3) la facilitation de toute publicité pour le divertissement des adultes, la pornographie, les jouets sexuels, la danse exotique, les armes à feu, le jeu illégal ou tout autre produit ou service illégal, y compris, sans s&#39;y limiter, la discrimination fondée sur la race, le sexe, la religion, l&#39;orientation sexuelle ou de toute autre manière qui pourrait être considérée comme injuste en vertu de la loi applicable ; et (4) aux fins de (a) l&#39;admissibilité à l&#39;emploi, (b) le crédit, `(c)` l&#39;admissibilité aux soins de santé, l’admissibilité à l’assurance et la tarification.<!-- I used backticks in the previous sentence to prevent ( c ) from displaying as a copyright symbol. I think the OS does that. Using HTML code for the parentheses doesn't prevent it. -->
 
-En outre, [!DNL TruSignal] Les données ne peuvent pas être : (1) décompilées, démontées, utilisées pour créer des oeuvres dérivées ou rétroconçues ; ou (2) sous-certifiées, revendues, réutilisées, ou accorder d’une autre manière des droits sur un tiers, y compris toute utilisation du service.
+En outre, les données [!DNL TruSignal] ne peuvent pas être : (1) décompilées, désassemblées, utilisées pour créer des œuvres dérivées ou rétroconçues ; ou (2) sous-cédées, revendues, réutilisées ou autrement concédées à des tiers, y compris toute utilisation de bureau de service.
