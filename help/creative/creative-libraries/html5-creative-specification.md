@@ -3,10 +3,10 @@ title: Spécification de création HTML5
 description: Référencez la spécification de création HTML5 pour Advertising Creative.
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Ce document décrit les exigences et la prise en charge de l’API pour les contenus publicitaires HTML5 dans [!DNL Creative]. L’API prend en charge le développement des contenus publicitaires HTML5 dont les attributs peuvent être configurés au moment de la diffusion des contenus publicitaires.
 
-## Champ d’application
+## Portée
 
 [!DNL Creative] prend en charge les bannières HTML5 avec des contenus publicitaires non enrichis qui apparaissent dans des bordures définies sur une page. Vous pouvez utiliser les types de contenus publicitaires HTML5 suivants :
 

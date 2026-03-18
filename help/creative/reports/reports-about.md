@@ -1,15 +1,16 @@
 ---
-title: À Propos Des Rapports Personnalisés
+title: À propos des rapports personnalisés
 description: Découvrez les options de création de rapports personnalisés.
 feature: Creative Reporting
-source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
+exl-id: d52a2761-5e50-4a38-a9e1-141e962f1166
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
 
 ---
 
-# À Propos Des Rapports Personnalisés
+# À propos des rapports personnalisés
 
 Les rapports personnalisés vous permettent de personnaliser le contenu et la diffusion de vos données de rapport à l’aide des mesures qui vous intéressent le plus.
 
@@ -17,7 +18,7 @@ Vous pouvez générer des rapports une fois ou les planifier tous les jours, tou
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
-* &#x200B;<!-- (in beta) --> SSL FTP
+* <!-- (in beta) --> SSL FTP
 * SFTP
 
 ## Rapports disponibles

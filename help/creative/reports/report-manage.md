@@ -2,7 +2,8 @@
 title: Gestion des rapports personnalisés
 description: Découvrez comment générer et gérer le [!UICONTROL Custom Creative Report] d’expériences croisées.
 feature: Creative Reporting
-source-git-commit: 41b8d295436bdbe6cea402e5bb234caa7a36f4df
+exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -75,7 +76,7 @@ Vous pouvez télécharger n’importe quelle instance de rapport terminée des q
 
      Lorsqu’un rapport s’exécute plusieurs fois le même jour, les instances de rapport de ce jour sont répertoriées dans l’ordre chronologique, l’instance la plus récente étant en haut.
 
-     Les tâches de rapport ayant échoué sont indiquées par une icône d’erreur (![&#x200B; indicateur d’erreur](/help/dsp/assets/indicator-critical.png "indicateur d’erreur")) et ne peuvent pas être téléchargées. Pour obtenir une description de l’erreur, placez le curseur sur l’icône d’erreur.
+     Les tâches de rapport ayant échoué sont indiquées par une icône d’erreur (![ indicateur d’erreur](/help/dsp/assets/indicator-critical.png "indicateur d’erreur")) et ne peuvent pas être téléchargées. Pour obtenir une description de l’erreur, placez le curseur sur l’icône d’erreur.
 
 ## Suppression d’un rapport personnalisé
 
@@ -91,7 +92,7 @@ Vous pouvez télécharger n’importe quelle instance de rapport terminée des q
 
 **[!UICONTROL Report Type]:** type de rapport.
 
-### Section [!UICONTROL Report Range]
+### section [!UICONTROL Report Range]
 
 Cette section détermine les données incluses dans le rapport. Pour configurer des dates pour le planning du rapport, reportez-vous à la section « [!UICONTROL Report run schedule] ».
 
@@ -107,7 +108,7 @@ Cette section détermine les données incluses dans le rapport. Pour configurer 
 
 * **[!UICONTROL Custom Range]:** inclut les données comprises entre des dates de début et de fin spécifiques. Pour rapporter les données jusqu’au jour précédent, sélectionnez **[!UICONTROL Present]**.
 
-### Section [!UICONTROL Report Run schedule]
+### section [!UICONTROL Report Run schedule]
 
 Cette section détermine les dates d&#39;exécution du rapport. Pour configurer les dates auxquelles inclure des données de rapport, reportez-vous à la section « [!UICONTROL Report range] ».
 
@@ -135,7 +136,7 @@ Cette section détermine les dates d&#39;exécution du rapport. Pour configurer 
 
    * **Jusqu’au** : date d’expiration du rapport, qui peut prendre jusqu’à quatre mois civils. Avant l’expiration d’un rapport, toutes les destinations d’e-mail spécifiées reçoivent une alerte par e-mail sept jours et un jour avant la date d’expiration. Pour conserver le rapport plus longtemps, modifiez cette date.
 
-### Section [!UICONTROL Apply Filters]
+### section [!UICONTROL Apply Filters]
 
 **[!UICONTROL Filter by]:** (facultatif) Dimensions supplémentaires selon lesquelles filtrer les données, que les dimensions soient incluses ou non en tant que colonnes dans le rapport. Les filtres disponibles varient selon le type de rapport et peuvent inclure : *[!UICONTROL Advertiser]*, *[!UICONTROL Experience]*, *[!UICONTROL Creative Library]* et *[!UICONTROL DSP]*<!-- Clarify what this is for, Advertising DSP or whatever DSP the ads were run from? -->.
 
@@ -145,7 +146,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 * (Facultatif) Ajoutez des critères supplémentaires au filtre.
 * (Facultatif) Ajoutez des filtres supplémentaires, chacun avec un ou plusieurs critères.
 
-### Section [!UICONTROL Build Your Report]
+### section [!UICONTROL Build Your Report]
 
 **[!UICONTROL Select To Add As Report Headers]:** les colonnes de données, ou en-têtes, à inclure dans le rapport. Pour ajouter une colonne, développez la catégorie et cochez la case en regard du nom de la colonne. Les colonnes disponibles varient selon le rapport et toutes les mesures indisponibles sont désactivées.<!-- Add back once I have this completed, and reconsider wording of link/anchor:  See "[Available Report Columns](#report-custom-creative-columns)" for descriptions of all options. -->
 
@@ -155,7 +156,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 **[!UICONTROL Headers]:** s’il faut *[!UICONTROL Include]* ou *[!UICONTROL Do Not Include]* les en-têtes de colonne.
 
-### Section [!UICONTROL Multi-Touch Conversion Options]
+### section [!UICONTROL Multi-Touch Conversion Options]
 
 **[!UICONTROL Attribution Rule Settings]:** Les paramètres varient selon le type de rapport :
 
@@ -181,7 +182,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
    * *[!UICONTROL Social Only]:* Obsolète
 
-[&#x200B; Consultez également la section « Comment les règles d’attribution sont-elles calculées pour Adobe Advertising &#x200B;](/help/search-social-commerce/reports/attribution-rules.md) ? »
+[ Consultez également la section « Comment les règles d’attribution sont-elles calculées pour Adobe Advertising ](/help/search-social-commerce/reports/attribution-rules.md) ? »
 
 **[!UICONTROL Paths as Columns]:** types de conversions à signaler lorsque des événements précédents se sont produits sur le même appareil. Vous pouvez inclure jusqu’à trois types. Pour chaque type sélectionné, une colonne distincte est incluse pour chaque mesure de conversion et est ajoutée avec le suffixe spécifié ([!UICONTROL (tl)], [!UICONTROL (ct)] ou [!UICONTROL (vt)]) :
 
@@ -191,7 +192,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 * *[!UICONTROL Impressions Only (VT)]:* inclut uniquement les conversions attribuées aux impressions, car aucun clic n’a été suivi dans le chemin de conversion.
 
-### Section [!UICONTROL Add Report Destinations]
+### section [!UICONTROL Add Report Destinations]
 
 **[!UICONTROL Destination Type]:** Où diffuser les rapports terminés et les notifications d’erreur. Vous ne pouvez pas modifier le type de destination une fois que vous avez enregistré le rapport.
 
@@ -207,7 +208,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 * *[!UICONTROL FTP]:* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
+* *[!UICONTROL FTP SSL](actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
 
 * *[!UICONTROL Email]:* pour spécifier la ou les adresses e-mail auxquelles envoyer les rapports terminés ou les notifications si le rapport est annulé en raison d’erreurs.
 
@@ -230,7 +231,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 <!-- This needs a lot of updating for new report:
 
-## Available Report Columns {#report-custom-creative-columns}
+## Available report columns {#report-custom-creative-columns}
 
 |Metric Type|Subtype|Column Name|Description|
 |-----------|-------|-----------|-----------|
@@ -327,6 +328,6 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Rapports de performances au niveau de l’expérience &#x200B;](/help/creative/experiences/experience-performance-details.md)
+>* [ Rapports de performances au niveau de l’expérience ](/help/creative/experiences/experience-performance-details.md)
 >* [À propos des rapports personnalisés DSP](/help/dsp/reports/report-about.md){target="_blank"}
 >* [À propos des [!UICONTROL report destinations]](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"}
