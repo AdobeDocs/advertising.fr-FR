@@ -3,14 +3,14 @@ title: Optimisation des campagnes par DSP
 description: Découvrez comment DSP optimise les packages dans vos campagnes.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
-# Optimisation Des Campagnes Par Advertising DSP
+# Optimisation des campagnes par Advertising DSP
 
 Cette page décrit comment le moteur d’optimisation DSP, qui est optimisé par [!DNL Adobe AI], optimise les packages dans vos campagnes. Pour obtenir des conseils et astuces sur la manière d’optimiser manuellement vos campagnes, contactez l’équipe chargée de votre compte Adobe. <!-- add link to trading playbook if we add it to help -->
 
@@ -32,7 +32,7 @@ DSP peut optimiser votre diffusion de deux manières fondamentales, avec 20 vari
 
 * Privilégiez l’équilibrage coût-efficacité avec le taux de performance
 
-Voir [&#x200B; Objectifs d’optimisation et méthode d’utilisation &#x200B;](optimization-goals.md) pour déterminer quel objectif d’optimisation peut vous aider à atteindre vos KPI.
+Voir [ Objectifs d’optimisation et méthode d’utilisation ](optimization-goals.md) pour déterminer quel objectif d’optimisation peut vous aider à atteindre vos KPI.
 
 ### Packages qui donnent la priorité au taux de performance
 
@@ -52,15 +52,15 @@ Ce mode d’optimisation fonctionne bien si :
 
 * Si les dépenses sont en retard, les enchères deviennent moins sélectives, de sorte que vous enchérissez sur des enchères dont les taux de performance sont censés être plus faibles afin de rattraper l’objectif de rythme.
 
-#### Effacer la nuance des prix/enchères {#clearing-price-performance}
+#### Effacer le partage des prix/enchères {#clearing-price-performance}
 
 Après avoir exécuté la logique de fréquence, DSP exécute l’offre proposée par le biais d’un modèle de prédiction de prix d’effacement. Si la prédiction indique que l&#39;offre peut être abaissée avec une diminution minimale du taux de gain, alors l&#39;offre est décrémentée selon la prédiction.
 
-### Packages qui privilégient l’équilibre entre rentabilité et taux de performance
+### Packages qui donnent la priorité à l&#39;équilibre coût-efficacité et taux de performance
 
 Pour atteindre certains objectifs d’optimisation, DSP prédit la performance de chaque mise aux enchères et ajuste automatiquement les prix des enchères, sans jamais dépasser la [!UICONTROL Max Bid] d’un emplacement. Les objectifs d’optimisation applicables incluent notamment [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click], etc.
 
-#### Logique De Fréquence {#pacing-logic-balanced}
+#### Logique de fréquence {#pacing-logic-balanced}
 
 * Si les dépenses sont au rythme, alors DSP devient plus sensible aux prix, offrant des montants plus faibles pour échanger le taux de gain avec le plan de rythme.
 
@@ -68,11 +68,11 @@ Pour atteindre certains objectifs d’optimisation, DSP prédit la performance d
 
 * Si les dépenses sont en retard, DSP devient moins sensible aux prix et offre des montants plus élevés, jusqu’à la [!UICONTROL Max Bid], pour échanger le taux de gain avec le plan de stimulation.
 
-#### Effacer la nuance des prix/enchères {#clearing-price-balanced}
+#### Effacer le partage des prix/enchères {#clearing-price-balanced}
 
 Après avoir exécuté la logique de fréquence, DSP exécute l’offre proposée par le biais d’un modèle de prédiction de prix d’effacement. Si la prédiction indique que l&#39;offre peut être abaissée avec une diminution minimale du taux de gain, alors l&#39;offre est décrémentée selon la prédiction.
 
-## Optimisation des emplacements
+## Optimisation de l’emplacement
 
 Les filtres de pré-enchères de positionnement sont le moyen le plus strict d’assurer de bonnes performances. DSP utilise des filtres de pré-enchères de manière stratégique sur différents types d’annonces afin d’atteindre les objectifs de performances à travers les emplacements de chaque package. Vous pouvez utiliser des filtres de pré-enchères simultanément avec l’optimisation au niveau du package ou indépendamment.
 

@@ -3,7 +3,7 @@ title: Objectifs personnalisés
 description: Découvrez les objectifs personnalisés pour définir vos événements de succès dans des packages optimisés pour la CPA la plus faible ou le retour sur dépenses publicitaires le plus élevé.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -64,17 +64,17 @@ Pour créer un objectif personnalisé, le compte DSP doit être lié à un compt
 
    >[!TIP]
    >
-   >Pour des performances optimales, les mesures combinées dans l’objectif personnalisé doivent totaliser au moins dix conversions par jour. Dans le cas contraire, il est recommandé d’ajouter à l’objectif des mesures de conversion supplémentaires, telles que les pages de produits ou les démarrages d’application. Consultez [&#x200B; Bonnes pratiques pour créer un objectif personnalisé &#x200B;](#custom-goal-best-practices) pour obtenir des instructions.
+   >Pour des performances optimales, les mesures combinées dans l’objectif personnalisé doivent totaliser au moins dix conversions par jour. Dans le cas contraire, il est recommandé d’ajouter à l’objectif des mesures de conversion supplémentaires, telles que les pages de produits ou les démarrages d’application. Consultez [ Bonnes pratiques pour créer un objectif personnalisé ](#custom-goal-best-practices) pour obtenir des instructions.
 
 Dans les paramètres du package DSP pour les packages qui utilisent l’objectif d’optimisation « [!UICONTROL Highest Return on Ad Spend (ROAS)"] ou [!UICONTROL Lowest Cost per Acquisition (CPA)] », le nom de l’objectif est désormais inclus dans la liste [!UICONTROL Custom Goals]. Lorsque vous sélectionnez l’objectif en tant qu’objectif personnalisé pour un package, la liste [!UICONTROL Conversion Metric] inclut toutes les mesures d’objectif pour l’objectif.
 
 ## Bonnes pratiques pour créer un objectif personnalisé {#custom-goal-best-practices}
 
-### Objectifs personnalisés avec une mesure unique
+### Objectifs personnalisés avec une seule mesure
 
 Les exemples suivants montrent comment configurer des objectifs qui ciblent une seule mesure de conversion.
 
-#### Exemple pour une campagne avec l’objectif d’optimisation « [!UICONTROL Highest Return on Ad Spend (ROAS)] »
+#### Exemple pour une campagne avec l&#39;objectif d&#39;optimisation « [!UICONTROL Highest Return on Ad Spend (ROAS)] »
 
 Si l’objectif de votre campagne est le chiffre d’affaires ([!UICONTROL Highest Return on Ad Spend (ROAS)]) et que le chiffre d’affaires de tous les types d’appareils est également important pour vous, incluez la mesure « [!UICONTROL Revenue] » avec un poids non mobile de un (1) ; le poids mobile est ignoré. Sélectionnez le type de mesure *[!UICONTROL Goal]*.
 
@@ -88,7 +88,7 @@ Si l’objectif de votre campagne est le chiffre d’affaires ([!UICONTROL Highe
 >
 > Un poids non mobile de un (1) équivaut à une valeur de un (1) pour chaque dollar de chiffre d’affaires qui est suivi pour les publicités display sur n’importe quel appareil. Par exemple, une conversion de 250 $ avec un poids non mobile de un (1) est signalée comme 250 $ pour les conversions. Si la mesure de conversion se voit attribuer un poids non mobile de 0,5, la conversion de 250 $ est signalée comme 125 $ dans Adobe Advertising (250 $ de conversion * 0,5 [!UICONTROL Non-mobile Weight] = 125 $).
 
-#### Exemple pour une campagne avec l’objectif d’optimisation « [!UICONTROL Lowest Cost per Acquisition (CPA)] »
+#### Exemple pour une campagne avec l&#39;objectif d&#39;optimisation « [!UICONTROL Lowest Cost per Acquisition (CPA)] »
 
 Si l’objectif de votre campagne est le coût par acquisition (CPA) le plus faible et ne nécessite qu’un seul événement de succès (tel que « Envoi de la demande »), incluez cette mesure et indiquez le type de mesure comme *[!UICONTROL Goal]*. La bonne pratique consiste à définir le poids non mobile sur un (1) ; le poids mobile est ignoré.
 

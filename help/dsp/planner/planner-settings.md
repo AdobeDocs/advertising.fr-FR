@@ -1,16 +1,16 @@
 ---
-title: Paramètres des plans de portée télévisuelle connectée
+title: Paramètres des plans de portée TV connectée
 description: Voir les descriptions des paramètres des plans de portée TV connectée.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
-# Paramètres des plans de portée télévisuelle connectée
+# Paramètres des plans de portée TV connectée
 
 <!-- Move out of table for consistency at some point. -->
 
