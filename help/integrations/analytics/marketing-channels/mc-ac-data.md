@@ -40,7 +40,7 @@ L’analyse suivante utilise les données Adobe Advertising pour montrer différ
 
 Vous pouvez pousser cette analyse un peu plus loin. Vous pouvez ventiler davantage la ligne Adobe Advertising par canal marketing pour voir où les conversions Adobe Advertising sont attribuées aux démarrages d’applications 641. Vous savez déjà que cinq de ces conversions sont attribuées à un dernier clic d’affichage tactile et 19 à un dernier clic d’affichage tactile. Il reste encore 617 démarrages d’applications attribués à d’autres canaux marketing. Vous pouvez faire glisser et déposer la dimension Canal Dernière touche en haut de l’élément de ligne Advertising DSP afin d’afficher l’attribution du canal pour le reste des démarrages d’applications et montrer l’impact cross-canal du canal d’affichage.
 
-![comment ajouter la dimension Canal Dernière touche ](/help/integrations/assets/a4adc-mc-display-impact-ltc.png)
+![comment ajouter la dimension Canal Dernière touche &#x200B;](/help/integrations/assets/a4adc-mc-display-impact-ltc.png)
 
 Maintenant, vous pouvez voir comment les démarrages d&#39;applications restants sont attribués. L’e-mail est crédité de 357 démarrages d’applications Last Touch pour lesquels un AMO ID a persisté. Grâce à ce type d’analyse, vous pouvez voir l’impact des publicités display d’Adobe Advertising sur tous les canaux. Avec un seul jeu de données et modèle d’attribution, ce type d’insight ne serait pas disponible.
 
