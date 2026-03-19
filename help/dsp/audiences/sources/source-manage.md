@@ -3,7 +3,7 @@ title: Gérer les sources d’audience pour activer les audiences d’ID univers
 description: Découvrez comment créer et gérer une source pour importer des audiences de votre plateforme de données clients et les convertir en segments contenant des identifiants universels.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
+source-git-commit: b14f9c4ff59332c8850d1c1534d286aa79fe575a
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Pour [!DNL RampID] et [!DNL Unified ID2.0], le fournisseur recherche chaque adre
 
 * *[!DNL RampID]:* pour convertir des informations d’identification personnelles en [!DNL RampID]. Vous pouvez utiliser [!DNL RampIDs] pour recibler les utilisateurs connectés et pour mesurer les [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
-* *[!DNL Unified ID2.0] (Beta) :* pour convertir les informations d’identification personnelles en un [identifiant unifié 2.0](https://unifiedid.com) pour le reciblage des utilisateurs connectés.
+* *[!DNL Unified ID2.0](Beta) :* pour convertir les informations d’identification personnelles en un [identifiant unifié 2.0](https://unifiedid.com) pour le reciblage des utilisateurs connectés.
 
 <!-- Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
@@ -134,10 +134,10 @@ Pour [!DNL RampID] et [!DNL Unified ID2.0], le fournisseur recherche chaque adre
 
 >[!MORELIKETHIS]
 >
->* [À Propos Des Sources D’Audience Propriétaires](source-about.md)
+>* [À propos des sources d’audience propriétaires](source-about.md)
 >* [Prise en charge de l’activation des identifiants universels](/help/dsp/audiences/universal-ids.md)
 >* [Convertir les ID utilisateur de  [!DNL Adobe Real-Time CDP]  en ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Convertir les ID utilisateur de  [!DNL Amperity]  en ID universels](/help/dsp/audiences/sources/source-amperity.md)
 >* [Convertir les ID utilisateur de  [!DNL Optimizely]  en ID universels](/help/dsp/audiences/sources/source-optimizely.md)
 >* [Convertir les ID utilisateur de  [!DNL Tealium]  en ID universels](/help/dsp/audiences/sources/source-tealium.md)
->* [À propos de la gestion de l’audience](/help/dsp/audiences/audience-about.md)
+>* [À propos de la gestion des audiences](/help/dsp/audiences/audience-about.md)
