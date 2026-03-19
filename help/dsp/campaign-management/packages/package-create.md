@@ -32,4 +32,4 @@ Une fois que vous avez créé un package, vous pouvez lui affecter des emplaceme
 >* [Afficher le journal des modifications d&#39;un package](package-change-log.md)
 >* [Mettre en pause ou activer un package](package-pause-activate.md)
 >* [&#x200B; Paramètres du package &#x200B;](package-settings.md)
->* [Vidéo : créer un package](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
+>* [Vidéo : créer un package](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=fr)

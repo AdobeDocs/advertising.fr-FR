@@ -18,7 +18,7 @@ Une fois la balise de pixel de segment implémentée, Adobe Advertising commence
 
 >[!NOTE]
 >
->* Pour plus d’informations sur la manière de communiquer les requêtes de désinscription de la CCPA à Adobe Advertising à l’aide de l’API Adobe Experience Platform Privacy Service, consultez [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
+>* Pour plus d’informations sur la manière de communiquer les requêtes de désinscription de la CCPA à Adobe Advertising à l’aide de l’API Adobe Experience Platform Privacy Service, consultez [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=fr](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=fr).
 >* Pour suivre les utilisateurs qui visitent des pages web à des fins non liées au suivi des événements d’opposition à la vente du CCPA, ainsi que les utilisateurs exposés à des publicités provenant d’appareils de bureau, mobiles et de télévision, créez un [segment personnalisé](/help/dsp/audiences/custom-segment-create.md).
 
 1. Créez le segment :
