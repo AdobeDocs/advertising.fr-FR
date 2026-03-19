@@ -1,9 +1,9 @@
 ---
 title: Partage ou arrêt du partage d’un segment
-description: Découvrez comment partager ou arrêter le partage d’un segment d’exclusion de la vente personnalisé ou CCPA avec d’autres comptes d’utilisateurs DSP.
+description: Découvrez comment partager ou arrêter de partager un segment d’opposition à la vente personnalisé ou CCPA avec d’autres comptes utilisateurs de DSP.
 feature: DSP Segments
 exl-id: ea5cafb3-58b0-4b05-9b02-c022466d9b8c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Partage ou arrêt du partage d’un segment
 
-Vous pouvez partager vos segments personnalisés et vos segments d’opposition à la vente du CCPA avec des comptes d’utilisateurs DSP supplémentaires. Le partage d’un segment rend le segment disponible à l’emplacement [!UICONTROL Audiences] > [!UICONTROL Segments] et sur l’onglet [!UICONTROL Custom Segments] dans les emplacements des utilisateurs spécifiés et les audiences réutilisables.
+Vous pouvez partager vos segments personnalisés et vos segments d’opposition à la vente du CCPA avec des comptes d’utilisateurs DSP supplémentaires. Le partage d’un segment rend le segment disponible dans [!UICONTROL Audiences] > [!UICONTROL Segments] et dans l’onglet [!UICONTROL Custom Segments] dans les emplacements des utilisateurs spécifiés et les audiences réutilisables.
 
-Vous pouvez également arrêter de partager un segment avec d’autres comptes d’utilisateurs DSP.
+Vous pouvez également arrêter le partage d’un segment avec d’autres comptes utilisateur DSP.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
@@ -28,12 +28,12 @@ Vous pouvez également arrêter de partager un segment avec d’autres comptes d
 
       1. (Facultatif) Pour chaque utilisateur supplémentaire, saisissez un autre **[!UICONTROL E-mail Address]**, puis cliquez sur **[!UICONTROL +]**.
 
-   * Pour arrêter de partager le segment avec un utilisateur, cliquez sur **[!UICONTROL Unshare]** en regard de l’adresse électronique.
+   * Pour arrêter de partager le segment avec un utilisateur, cliquez sur **[!UICONTROL Unshare]** en regard de l’adresse e-mail.
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion de l’audience](audience-about.md)
+>* [À propos de la gestion des audiences](audience-about.md)
 >* [Créer un segment personnalisé](custom-segment-create.md)
 >* [Modifier les informations sur le segment](segment-edit.md)
 >* [Supprimer un segment](segment-delete.md)
->* [Afficher les pixels de suivi pour un segment](segment-view-pixels.md)
+>* [Affichage des pixels de suivi pour un segment](segment-view-pixels.md)
