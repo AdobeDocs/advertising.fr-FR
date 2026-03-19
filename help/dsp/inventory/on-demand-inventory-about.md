@@ -3,9 +3,9 @@ title: À propos  [!DNL On Demand]  stock premium
 description: Découvrez les contrats que DSP a prénégociés avec les partenaires éditeurs premium.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -53,10 +53,10 @@ Les détails de chaque transaction incluent des données dans les colonnes suiva
 
 >[!MORELIKETHIS]
 >
->* [S’abonner et demander l’accès aux offres d [!DNL On Demand] inventaire Premium](on-demand-inventory-subscribe.md)
->* [Demander À Nouveau Des Offres Inventaire Premium À La Demande](on-demand-inventory-rerequest.md)
->* [Afficher le statut de vos demandes  [!DNL On Demand] ’offres et de vos abonnements](on-demand-inventory-view-status.md)
->* [[!DNL On Demand] Éditeurs d&#39;inventaire Premium en Asie-Pacifique](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Éditeurs Premium en Australie et en Nouvelle-Zélande](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Éditeurs Premium Inventory en Europe, au Moyen-Orient et en Afrique](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Éditeurs d&#39;inventaire Premium en Amérique du Nord](on-demand-inventory-publishers-na.md)
+>* [Abonnez-vous et demandez l’accès  [!DNL On Demand]  offres d’inventaire premium](on-demand-inventory-subscribe.md)
+>* [Redemander [!DNL On Demand] les offres d’inventaire premium](on-demand-inventory-rerequest.md)
+>* [Voir le statut de vos demandes  [!DNL On Demand] ’offres et de vos abonnements](on-demand-inventory-view-status.md)
+>* [[!DNL On Demand] éditeurs d&#39;inventaire premium en Asie-Pacifique](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] éditeurs d&#39;inventaire premium en Australie et en Nouvelle-Zélande](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] éditeurs d’inventaire premium en Europe, au Moyen-Orient et en Afrique](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] éditeurs d&#39;inventaire premium en Amérique du Nord](on-demand-inventory-publishers-na.md)

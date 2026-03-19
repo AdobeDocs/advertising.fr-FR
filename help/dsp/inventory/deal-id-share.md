@@ -3,7 +3,7 @@ title: Modifier les comptes ayant accès à une transaction privée
 description: Découvrez comment partager et arrêter le partage d’une transaction privée avec différents comptes.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: fb67ef24-8b7f-4a2f-973b-8102a97f0acb
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Vous pouvez arrêter de partager un accord avec des comptes pour supprimer les f
 
    1. Cliquez sur **[!UICONTROL Share]**.
 
-## Arrêter le partage d’un ID d’offre avec des comptes
+## Arrêter de partager un ID d’offre avec des comptes
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 

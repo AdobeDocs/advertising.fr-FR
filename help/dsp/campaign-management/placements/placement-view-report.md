@@ -3,7 +3,7 @@ title: Affichage d’un rapport détaillé pour un emplacement
 description: Découvrez comment ouvrir un rapport au niveau des emplacements avec des sections sur les données [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications] et [!UICONTROL Ads].
 feature: DSP Placements, DSP Campaign Data Views
 exl-id: ddfae530-1dc6-4470-9910-ae13abcbaa8b
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -21,9 +21,9 @@ Le rapport hérité au niveau des emplacements comprend une présentation et des
 
 >[!MORELIKETHIS]
 >
->* [Affichage des détails sur les sites, les publicités et la fréquence pour un emplacement](/help/dsp/campaign-management/reports/placement-details-view.md)
+>* [Afficher les sites, les publicités et les détails de fréquence pour un emplacement](/help/dsp/campaign-management/reports/placement-details-view.md)
 >* [Afficher un rapport détaillé pour une publicité](/help/dsp/campaign-management/ads/ad-view-report.md)
 >* [Afficher un rapport détaillé pour une campagne](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 >* [Types de rapports de performances dans les vues de gestion de campagnes](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
->* [Afficher le journal des modifications pour un emplacement](placement-change-log.md)
+>* [Rapports personnalisés](/help/dsp/reports/report-about.md)
+>* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)

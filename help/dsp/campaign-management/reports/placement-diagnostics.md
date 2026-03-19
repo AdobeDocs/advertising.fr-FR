@@ -3,7 +3,7 @@ title: Affichage du rapport de [!UICONTROL Diagnostics] des emplacements
 description: Découvrez comment diagnostiquer les problèmes liés à la configuration et à la fréquence des emplacements.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%

@@ -3,9 +3,9 @@ title: Codes d’erreur pour les envois  [!DNL FreeWheel]  publicités
 description: Référencez les codes d’erreur renvoyés pour les envois publicitaires vers  [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '642'
 ht-degree: 3%
 
 ---
@@ -38,7 +38,7 @@ Les messages d’erreur pour les envois d’annonces ayant échoué peuvent prov
 | 404 | Introuvable | La ressource demandée n’est pas disponible. Si l’identifiant Creative est introuvable dans l’opération PUT, une erreur 404 est renvoyée. | Contactez votre équipe de compte Adobe. |
 | 405 | Méthode Non Autorisée | Une requête a été effectuée à partir d’une ressource à l’aide d’une méthode de requête non prise en charge par cette ressource (par exemple, l’utilisation de GET sur une méthode nécessitant l’envoi de données par POST ou l’utilisation de PUT sur une ressource en lecture seule). | Contactez votre équipe de compte Adobe. |
 | 408 | Délai d’expiration de la demande | Une temporisation s’est produite pendant le traitement de cette requête. Les délais d’expiration sont généralement dus à des demandes simultanées d’accès exclusif à certaines ressources. | Soumettez à nouveau la demande lorsque vous recevez ce statut. Si le problème persiste, contactez l’équipe chargée de votre compte Adobe. |
-| 422 | Entité impossible à traiter | Ressource non valide. Cette erreur se produit lorsque le corps de la requête n’est pas valide ou que la ressource créée/mise à jour n’est pas valide (par exemple, si l’ID d’offre est introuvable). Consultez [&#x200B; Erreurs de l’API 422 FreeWheel &#x200B;](#freewheel-422-errors) pour plus d’informations. | Contactez votre équipe de compte Adobe. |
+| 422 | Entité impossible à traiter | Ressource non valide. Cette erreur se produit lorsque le corps de la requête n’est pas valide ou que la ressource créée/mise à jour n’est pas valide (par exemple, si l’ID d’offre est introuvable). Consultez [ Erreurs de l’API 422 FreeWheel ](#freewheel-422-errors) pour plus d’informations. | Contactez votre équipe de compte Adobe. |
 | 500 | Erreur de serveur interne | Erreur système de l’API. | Contactez votre équipe de compte Adobe. |
 
 {style="table-layout:auto"}
@@ -64,7 +64,7 @@ Les messages d’erreur pour les envois d’annonces ayant échoué peuvent prov
 
 >[!MORELIKETHIS]
 >
->* [Présentation de la configuration d&#39;affaires programmatiques garanties dans [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
->* [Accepter une offre dans la boîte de réception des ID d’offres](deal-id-inbox-accept.md)
->* [Soumettre une annonce pour une offre programmatique garantie à  [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
->* [Vérifier le statut des publicités pour les offres programmatiques garanties [!DNL FreeWheel] &#x200B;](/help/dsp/inventory/freewheel-check-status.md)
+>* [Présentation de la configuration d’offres programmatiques garanties dans  [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
+>* [Accepter une offre dans le [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
+>* [Envoyer une annonce pour une offre programmatique garantie à  [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+>* [Consultez le statut des publicités pour une offre  [!DNL FreeWheel] PG](/help/dsp/inventory/freewheel-check-status.md)

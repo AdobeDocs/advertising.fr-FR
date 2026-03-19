@@ -3,9 +3,9 @@ title: Modifier les paramètres d’une transaction privée
 description: Découvrez comment modifier les détails d’une transaction privée.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: c6ab7d39-5581-423b-90aa-3e142c235072
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Les modifications apportées à une offre acceptée ne sont pas synchronisées �
 
    Vous pouvez modifier les [!UICONTROL Deal Name], les [!UICONTROL Media Type] (lorsque l’offre comprend plusieurs types de médias), la valeur de [!UICONTROL CPM], les [!UICONTROL Account email], les [!UICONTROL Advertisers that can access this deal], les [!UICONTROL Flight dates] et les [!UICONTROL Impressions].
 
-   Vous ne pouvez pas modifier les [!UICONTROL Deal ID], [!UICONTROL Publisher], [!UICONTROL SSP], [!UICONTROL Deal Type] ou [!UICONTROL Billing Method].
+   Vous ne pouvez pas modifier les paramètres [!UICONTROL Deal ID], [!UICONTROL Publisher], [!UICONTROL SSP], [!UICONTROL Deal Type] ou [!UICONTROL Billing Method].
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -32,5 +32,5 @@ Les modifications apportées à une offre acceptée ne sont pas synchronisées �
 >* [Créer manuellement les détails de l’ID d’offre](deal-id-create.md)
 >* [Paramètres manuels d’ID d’offre](deal-id-settings.md)
 >* [Configurer une offre programmatique garantie](programmatic-guaranteed-set-up.md)
->* [Joindre des emplacements et des publicités à une offre privée](/help/dsp/inventory/deal-id-attach-placements.md)
->* [Archiver ou désarchiver une offre privée](/help/dsp/inventory/private-deal-archive-unarchive.md)
+>* [Spécifier les emplacements et les annonces pour une offre privée](/help/dsp/inventory/deal-id-attach-placements.md)
+>* [Archiver ou désarchiver une transaction privée](/help/dsp/inventory/private-deal-archive-unarchive.md)

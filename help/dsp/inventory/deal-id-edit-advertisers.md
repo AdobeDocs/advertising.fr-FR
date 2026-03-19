@@ -3,7 +3,7 @@ title: Modifier les annonceurs ayant accès à une offre privée
 description: Découvrez comment spécifier quels annonceurs peuvent accéder à une offre privée.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 51f3fa66-de70-4233-a866-ec48d72e88dc
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -26,5 +26,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >* [À propos de l&#39;inventaire privé](private-inventory-about.md)
->* [Modifier les comptes ayant accès à un ID d’offre](/help/dsp/inventory/deal-id-share.md)
+>* [Modifier les comptes ayant accès à une transaction privée](/help/dsp/inventory/deal-id-share.md)
 >* [Paramètres manuels d’ID d’offre](deal-id-settings.md)

@@ -3,7 +3,7 @@ title: Spécifier des emplacements et des annonces pour une offre privée
 description: Découvrez comment utiliser une offre privée avec des emplacements et des annonces supplémentaires.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -55,7 +55,7 @@ L’emplacement commence à s’exécuter une fois que l’éditeur a activé vo
 >[!MORELIKETHIS]
 >
 >* [À propos de l&#39;inventaire privé](private-inventory-about.md)
->* [Liste des emplacements et des publicités pour une offre privée](/help/dsp/inventory/private-deal-view-placements.md)
+>* [Liste des emplacements et des annonces pour une offre privée](/help/dsp/inventory/private-deal-view-placements.md)
 >* [Créer manuellement les détails de l’ID d’offre](deal-id-create.md)
 >* [Paramètres manuels d’ID d’offre](deal-id-settings.md)
 >* [Configurer une offre programmatique garantie](programmatic-guaranteed-set-up.md)

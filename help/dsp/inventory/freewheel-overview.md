@@ -3,9 +3,9 @@ title: Présentation de la configuration des offres PG dans  [!DNL Freewheel]
 description: Découvrez les conditions préalables et les étapes supplémentaires nécessaires pour exécuter des annonces pour des offres programmatiques garanties avec les éditeurs sur  [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ La configuration d’offres programmatiques garanties avec les éditeurs sur [!D
 
 >[!MORELIKETHIS]
 >
->* [Accepter une offre dans la boîte de réception des ID d’offres](deal-id-inbox-accept.md)
->* [Soumettre une annonce pour une offre programmatique garantie à  [!DNL Freewheel]](freewheel-submit.md)
->* [Vérifier le statut des publicités pour les offres programmatiques garanties [!DNL FreeWheel] &#x200B;](freewheel-check-status.md)
->* [Codes d’erreur pour les envois  [!DNL Freewheel]  publicités](freewheel-error-codes.md)
+>* [Accepter une offre dans le [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
+>* [Envoyer une annonce pour une offre programmatique garantie à  [!DNL Freewheel]](freewheel-submit.md)
+>* [Consultez le statut des publicités pour une offre  [!DNL FreeWheel] PG](freewheel-check-status.md)
+>* [Codes d’erreur pour les envois  [!DNL FreeWheel]  publicités](freewheel-error-codes.md)

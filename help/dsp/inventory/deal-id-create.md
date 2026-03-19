@@ -3,7 +3,7 @@ title: Créer manuellement les détails de l’ID d’offre
 description: Découvrez comment saisir manuellement les détails d’un ID d’offre.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**, puis sélectionnez **[!UICONTROL Deal ID]**.
 
-1. Saisissez les [&#x200B; paramètres de l’offre &#x200B;](deal-id-settings.md) :
+1. Saisissez les [ paramètres de l’offre ](deal-id-settings.md) :
 
    1. Dans la section [!UICONTROL Deal ID basics] , spécifiez les détails de l’offre et les annonceurs qui peuvent y accéder. Pour les offres garanties, vous devez également spécifier les dates de vol prévues et le nombre estimé d’impressions, à des fins de suivi uniquement.
 
@@ -70,4 +70,4 @@ Après avoir créé l’opération, vous pouvez l’utiliser comme cible de stoc
 >* [Configurer une offre programmatique garantie](programmatic-guaranteed-set-up.md)
 >* [Soumettre une annonce pour un contrat programmatique garanti avec  [!DNL FreeWheel]](freewheel-submit.md)
 >* [À propos des offres programmatiques garanties](programmatic-guaranteed-about.md)
-<!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->
+<!-- >* [Specify placements and ads for a private deal](deal-id-attach-placements.md)-->
