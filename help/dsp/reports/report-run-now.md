@@ -3,7 +3,7 @@ title: Exécution d’un rapport personnalisé
 description: Découvrez comment exécuter immédiatement un rapport personnalisé.
 feature: DSP Custom Reports
 exl-id: b256803d-45f9-445f-bf42-22cc7ce76792
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Vous pouvez exécuter n’importe quel rapport qui n’a pas expiré et qui n’
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
+>* [Rapports personnalisés](/help/dsp/reports/report-about.md)
 >* [Télécharger un rapport personnalisé](/help/dsp/reports/report-download.md)
 >* [Créer un rapport personnalisé](/help/dsp/reports/report-create.md)
 >* [Dupliquer un rapport personnalisé](/help/dsp/reports/report-copy.md)

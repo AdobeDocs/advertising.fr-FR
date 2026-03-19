@@ -3,7 +3,7 @@ title: Téléchargement d’un rapport personnalisé
 description: Découvrez comment télécharger immédiatement un rapport personnalisé.
 feature: DSP Custom Reports
 exl-id: a27ed432-c9d4-47c5-9c04-b38bb32e6425
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -26,11 +26,11 @@ Vous pouvez télécharger n’importe quelle instance de rapport terminée des q
 
      Lorsqu’un rapport s’exécute plusieurs fois le même jour, les instances de rapport de ce jour sont répertoriées dans l’ordre chronologique, l’instance la plus récente étant en haut.
 
-     Les tâches de rapport ayant échoué sont indiquées par une icône d’erreur (![&#x200B; indicateur d’erreur](/help/dsp/assets/indicator-critical.png "indicateur d’erreur")) et ne peuvent pas être téléchargées. Pour obtenir une description de l’erreur, placez le curseur sur l’icône d’erreur.
+     Les tâches de rapport ayant échoué sont indiquées par une icône d’erreur (![ indicateur d’erreur](/help/dsp/assets/indicator-critical.png "indicateur d’erreur")) et ne peuvent pas être téléchargées. Pour obtenir une description de l’erreur, placez le curseur sur l’icône d’erreur.
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
+>* [Rapports personnalisés](/help/dsp/reports/report-about.md)
 >* [Créer un rapport personnalisé](/help/dsp/reports/report-create.md)
 >* [Dupliquer un rapport personnalisé](/help/dsp/reports/report-copy.md)
 >* [Modifier un rapport personnalisé](/help/dsp/reports/report-edit.md)

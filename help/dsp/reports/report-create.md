@@ -3,7 +3,7 @@ title: Création d’un rapport personnalisé
 description: Découvrez comment créer un rapport personnalisé.
 feature: DSP Custom Reports
 exl-id: f895529b-dc69-4c74-bca6-3f7617f41ceb
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
+>* [Rapports personnalisés](/help/dsp/reports/report-about.md)
 >* [Dupliquer un rapport personnalisé](/help/dsp/reports/report-copy.md)
 >* [Modifier un rapport personnalisé](/help/dsp/reports/report-edit.md)
 >* [Télécharger un rapport personnalisé](/help/dsp/reports/report-download.md)

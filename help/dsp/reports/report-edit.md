@@ -1,9 +1,9 @@
 ---
 title: Modification d’un rapport personnalisé
-description: Découvrez comment modifier les paramètres de rapports personnalisés.
+description: Découvrez comment modifier les paramètres des rapports personnalisés.
 feature: DSP Custom Reports
 exl-id: 42208276-d766-41c8-a764-c79a20e302e6
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
+>* [Rapports personnalisés](/help/dsp/reports/report-about.md)
 >* [Télécharger un rapport personnalisé](/help/dsp/reports/report-download.md)
 >* [Créer un rapport personnalisé](/help/dsp/reports/report-create.md)
 >* [Dupliquer un rapport personnalisé](/help/dsp/reports/report-copy.md)

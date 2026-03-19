@@ -3,9 +3,9 @@ title: Création d’une destination de rapport
 description: Découvrez comment créer une destination pour la diffusion de rapports personnalisés.
 feature: DSP Custom Reports
 exl-id: 2a8d6cef-9c33-4483-ac1e-93778a231962
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 1. Cliquez sur **[!UICONTROL Add Destination]**.
 
-1. Spécifiez les [&#x200B; paramètres de destination du rapport &#x200B;](/help/dsp/reports/report-destinations/report-destination-settings.md), qui varient en fonction du type de destination.
+1. Spécifiez les [paramètres de destination du rapport](/help/dsp/reports/report-destinations/report-destination-settings.md), qui varient selon le type de destination.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
-> Si le rapport est configuré pour une diffusion sur n’importe quel type de FTP ou d’emplacement [!DNL Amazon S3], vous ne recevez pas de notifications si le rapport est annulé en raison d’erreurs. Si vous ne recevez pas les rapports attendus, contactez votre équipe Compte Adobe pour en savoir plus.
+> Si le rapport est configuré pour être envoyé vers un emplacement FTP ou [!DNL Amazon S3], vous ne recevrez pas de notifications si le rapport est annulé en raison d’erreurs. Si vous ne recevez pas les rapports attendus, contactez l’équipe chargée de votre compte Adobe pour en connaître la raison.
 
 >[!MORELIKETHIS]
 >
->* [À propos de [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [[!UICONTROL Report Destination] Paramètres](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [Modifier un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Supprimer un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [À propos des destinations de rapport](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Paramètres de destination des rapports](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [Modification d’un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+>* [Supprimer une destination de rapport](/help/dsp/reports/report-destinations/report-destination-delete.md)
