@@ -158,7 +158,7 @@ ht-degree: 4%
          + [[!DNL On Demand] éditeurs d&#39;inventaire premium en Australie et en Nouvelle-Zélande](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
          + [[!DNL On Demand] éditeurs d&#39;inventaire premium en Europe, au Moyen-Orient et en Afrique](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
          + [[!DNL On Demand] éditeurs d&#39;inventaire premium en Amérique du Nord](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
-      + [Abonnez-vous et demandez l’accès aux offres d’inventaire  [!DNL On Demand] ](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+      + [Abonnez-vous et demandez l’accès aux offres d’inventaire  [!DNL On Demand] &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)
       + [Redemander  [!DNL On Demand]  offres de stock premium](/help/dsp/inventory/on-demand-inventory-rerequest.md)
       + [Afficher le statut de vos demandes  [!DNL On Demand] ’offres et de vos abonnements](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + Inventaire privé {#private-inventory}
