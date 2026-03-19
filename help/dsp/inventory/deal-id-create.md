@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**, puis sélectionnez **[!UICONTROL Deal ID]**.
 
-1. Saisissez les [ paramètres de l’offre ](deal-id-settings.md) :
+1. Saisissez les [&#x200B; paramètres de l’offre &#x200B;](deal-id-settings.md) :
 
    1. Dans la section [!UICONTROL Deal ID basics] , spécifiez les détails de l’offre et les annonceurs qui peuvent y accéder. Pour les offres garanties, vous devez également spécifier les dates de vol prévues et le nombre estimé d’impressions, à des fins de suivi uniquement.
 
