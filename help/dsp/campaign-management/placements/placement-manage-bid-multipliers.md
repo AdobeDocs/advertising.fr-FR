@@ -3,9 +3,9 @@ title: Gérer les multiplicateurs d’enchères pour les placements
 description: Découvrez comment créer et modifier des multiplicateurs d’enchères pour vos cibles de placement.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 32b811e1fc7c9895b75c1e184db72f2d3f5963a5
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '910'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,9 @@ Par défaut, le multiplicateur d’enchères pour une cible est de 1,00, ce qui 
 
 Vous pouvez définir des multiplicateurs d&#39;enchères (avec des valeurs autres que 1,00) pour un [nombre limité de cibles](#bid-multiplier-limits-by-target).
 
-Cette fonctionnalité fonctionne avec vos cibles d’emplacement existantes. Pour modifier les cibles sélectionnées pour vos emplacements, voir « [&#x200B; Modifier les emplacements &#x200B;](/help/dsp/campaign-management/placements/placement-edit.md). »
+Cette fonctionnalité fonctionne avec vos cibles d’emplacement existantes. Pour modifier les cibles sélectionnées pour vos emplacements, voir « [ Modifier les emplacements ](/help/dsp/campaign-management/placements/placement-edit.md). »
 
-## Gérer les multiplicateurs d’offres pour un emplacement unique
+## Gérer les multiplicateurs d’enchères pour un emplacement unique
 
 Vous pouvez modifier manuellement les valeurs ou charger une feuille de calcul pour un emplacement unique.
 
@@ -125,7 +125,7 @@ Vous pouvez définir des multiplicateurs d&#39;enchères (avec des valeurs autre
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des emplacements](placement-about.md)
+>* [À propos de la gestion des emplacements dans Advertising DSP](placement-about.md)
 >* [Modifier les emplacements](placement-edit.md)
->* [Afficher le journal des modifications pour un emplacement](placement-change-log.md)
+>* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)
