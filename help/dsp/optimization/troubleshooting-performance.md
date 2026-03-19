@@ -32,5 +32,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
->* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; Paramètres du package &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Paramètres de Campaign](/help/dsp/campaign-management/campaigns/campaign-settings.md)
