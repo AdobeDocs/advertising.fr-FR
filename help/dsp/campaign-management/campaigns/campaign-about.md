@@ -3,7 +3,7 @@ title: À propos de la gestion des campagnes dans Advertising DSP
 description: En savoir plus sur la gestion des campagnes.
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -34,5 +34,5 @@ Pour afficher l’ensemble des packages, des emplacements et des annonces dans u
 >[!MORELIKETHIS]
 >
 >* [Créer une campagne](campaign-create.md)
->* [Paramètres de la campagne](campaign-settings.md)
->* [Vidéo : structure du compte DSP et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=fr)
+>* [Paramètres de Campaign](campaign-settings.md)
+>* [Vidéo : structure du compte DSP et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

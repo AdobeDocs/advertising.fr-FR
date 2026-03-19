@@ -3,7 +3,7 @@ title: Vérifier et modifier les paramètres d’emplacement à l’aide des feu
 description: Découvrez comment vérifier et modifier les paramètres d’emplacement clés en bloc à l’aide de feuilles de calcul.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Pour mettre à jour plusieurs paramètres à la fois, vous pouvez apporter des m
 
 >[!TIP]
 >
->Pour modifier rapidement d’autres champs pour un ou plusieurs emplacements, consultez « [&#x200B; Modifier des emplacements &#x200B;](/help/dsp/campaign-management/placements/placement-edit.md) ».
+>Pour modifier rapidement d’autres champs pour un ou plusieurs emplacements, voir « [ Modifier des emplacements ](/help/dsp/campaign-management/placements/placement-edit.md) ».
 
 ## Paramètres de téléchargement pour tous les emplacements d’une campagne
 
@@ -44,9 +44,9 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
-   Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+   Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
 ## Paramètres de téléchargement pour des emplacements spécifiques
 
@@ -66,9 +66,9 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
-   Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+   Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
    Pour modifier l’un des paramètres, modifiez directement le fichier, puis chargez les modifications.  Toutes les colonnes modifiables sont surlignées en bleu. Pour utiliser le format correct pour un champ, sélectionnez et copiez la valeur à partir du paramètre de package ou du paramètre d’emplacement approprié. Pour certains paramètres de la cible, tels que le changement de date, les objectifs personnalisés et les mesures de conversion, une option de copie est disponible dans le paramètre .
 
@@ -232,6 +232,6 @@ Check on Brand Safety - Contextual Filtering # with new DV feature/fct change.
 
 >[!MORELIKETHIS]
 >
->* [Vérification et modification des paramètres des composants Campaign à l’aide de feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [Examiner et modifier les paramètres des composants de campagne à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [Modifier les emplacements](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

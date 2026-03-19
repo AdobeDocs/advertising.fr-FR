@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
    1. Saisissez une ou plusieurs invites pour décrire les caractéristiques d&#39;audience que vous souhaitez inclure et exclure. Pour envoyer chaque invite, cliquez sur ![Envoyer une invite](/help/dsp/assets/submit-prompt.png "Envoyer une invite").
 
-      Pour plus d’informations, consultez les sections « [Écriture d’invites](#writing-prompts) » et « [Bonnes pratiques pour créer une synthèse d’audience](#audience-brief-best-practices) ».
+      Pour plus d’informations, consultez les sections « [Écriture d’invites](#writing-prompts) » et « [Bonnes pratiques pour créer un brief d’audience](#audience-brief-best-practices) ».
 
       Lorsque l’agent d’audience trouve les segments pertinents, il crée une expression d’audience en fonction de vos critères. Il vous demande également votre approbation avant de rechercher des segments correspondants pour assembler l’audience.
 
@@ -70,7 +70,7 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
    >
    >Vous ne pouvez pas modifier l’audience par la suite à l’aide de l’agent d’audience. Au lieu de cela, [modifiez manuellement l’expression de l’audience](/help/dsp/audiences/reusable-audience-edit.md).
 
-## Principes de base de la création d’invites {#writing-prompts}
+## Principes de base de l’écriture d’invites {#writing-prompts}
 
 ### Que doit inclure une invite ?
 
@@ -94,7 +94,7 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
   L’agent d’audience n’enregistre pas automatiquement une expression d’audience générée en tant qu’audience. Vous ne pouvez enregistrer une audience qu’en cliquant sur le bouton [!UICONTROL Create], qui se trouve en dehors de la zone d’invite, afin d’annuler les modifications que vous ne souhaitez pas conserver.
 
-Consultez « [&#x200B; Bonnes pratiques pour la création d’une synthèse destinée à une audience »](#audience-brief-best-practices) pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
+Consultez la rubrique « [Bonnes pratiques pour créer un résumé d’audience](#audience-brief-best-practices) » pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
 
 <!-- I think these are happening later:
 
@@ -198,8 +198,8 @@ Voici un exemple de brief d’audience fort pour une campagne de sensibilisation
 >
 >* [Dupliquer une audience réutilisable](/help/dsp/audiences/reusable-audience-duplicate.md)
 >* [Modifier une audience réutilisable](/help/dsp/audiences/reusable-audience-edit.md)
->* [Afficher les détails sur une audience réutilisable](/help/dsp/audiences/reusable-audience-view-details.md)
->* [Partage d’une audience réutilisable](/help/dsp/audiences/reusable-audience-share.md)
+>* [Affichage des détails sur une audience réutilisable](/help/dsp/audiences/reusable-audience-view-details.md)
+>* [Partager une audience réutilisable](/help/dsp/audiences/reusable-audience-share.md)
 >* [Exporter une audience réutilisable](/help/dsp/audiences/reusable-audience-export.md)
 >* [Copiez la clé de segment pour une audience réutilisable dans le presse-papiers](/help/dsp/audiences/reusable-audience-clipboard.md)
 >* [Supprimer une audience réutilisable](/help/dsp/audiences/reusable-audience-delete.md)

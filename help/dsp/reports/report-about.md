@@ -3,9 +3,9 @@ title: À propos des rapports personnalisés
 description: Découvrez les options permettant de créer des rapports personnalisés manuellement ou d’utiliser des modèles de rapport préconfigurés.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Vous pouvez générer des rapports une fois ou les planifier tous les jours, tou
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
-* &#x200B;<!-- (in beta) --> SSL FTP
+* <!-- (in beta) --> SSL FTP
 * SFTP
 
 >[!NOTE]
@@ -68,9 +68,9 @@ Vous pouvez générer des rapports une fois ou les planifier tous les jours, tou
 
    * **[!UICONTROL Geo]** : utilisez ce modèle prérempli pour afficher les mesures clés par dimensions géographiques.
 
-   * **[!UICONTROL Household Conversions]:** utilisez ce rapport pour afficher les conversions d’affichage publicitaire au niveau du foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil ou d’un cookie. Utilisez les informations pour mesurer et optimiser les performances des campagnes. Voir « [FAQ sur les rapports des ménages](/help/dsp/reports/faq-reports.md) » pour plus d’informations. Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
+   * **[!UICONTROL Household Conversions]:** utilisez ce rapport pour afficher les conversions d’affichage publicitaire au niveau du foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil ou d’un cookie. Utilisez les informations pour mesurer et optimiser les performances des campagnes. Pour plus d’informations, voir « [FAQ sur les rapports des ménages](/help/dsp/reports/faq-reports.md) ». Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
 
-   * **[!UICONTROL Household Reach & Frequency]:** utilisez ce rapport pour afficher les impressions, la portée et la fréquence pour une seule dimension dans les formats d’annonce publicitaire au niveau d’un foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil ou d’un cookie. Utilisez les informations pour optimiser votre mix média, améliorer les performances et identifier les opportunités de portée incrémentielle. Voir « [FAQ sur les rapports des ménages](/help/dsp/reports/faq-reports.md) » pour plus d’informations. Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
+   * **[!UICONTROL Household Reach & Frequency]:** utilisez ce rapport pour afficher les impressions, la portée et la fréquence pour une seule dimension dans les formats d’annonce publicitaire au niveau d’un foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil ou d’un cookie. Utilisez les informations pour optimiser votre mix média, améliorer les performances et identifier les opportunités de portée incrémentielle. Pour plus d’informations, voir « [FAQ sur les rapports des ménages](/help/dsp/reports/faq-reports.md) ». Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
 
    * **[!UICONTROL Margin]:** utilisez ce rapport pour afficher les mesures clés telles que la marge, le profit et d’autres mesures de dépenses par campagne ou par emplacement. Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
 
@@ -141,4 +141,4 @@ Vous pouvez créer des rapports personnalisés, modifier des rapports existants 
 >* [FAQ sur les rapports des ménages](/help/dsp/reports/faq-reports.md)
 >* [Types de rapports de performances dans les vues de gestion de campagnes](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonnes de rapport disponibles](/help/dsp/reports/report-columns.md)
->* [À propos des [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [À propos des destinations de rapport](/help/dsp/reports/report-destinations/report-destination-about.md)

@@ -3,7 +3,7 @@ title: À propos des listes de sites bloqués au niveau du compte et de l’anno
 description: En savoir plus sur la liste des sites bloqués pour un compte ou un annonceur.
 role: User, Admin
 exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -27,5 +27,5 @@ Les listes au niveau de l’annonceur remplacent celles au niveau du compte.
 >[!MORELIKETHIS]
 >
 >* [Modifier une liste de sites bloqués au niveau du compte ou de l’annonceur](/help/dsp/admin/blocked-sites-list-edit.md)
->* [Sécurité des marques et qualité des médias](/help/dsp/introduction/features/brand-safety-media-quality.md)
+>* [Sécurité de la marque et qualité des médias](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

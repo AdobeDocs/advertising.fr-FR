@@ -3,9 +3,9 @@ title: Modification d’un plan de portée de télévision connectée
 description: Découvrez comment modifier les paramètres d’un plan de portée TV connectée.
 feature: DSP Planner
 exl-id: 675a09d1-9548-416d-bfa6-a6242149b255
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,14 @@ La modification des paramètres du plan génère une nouvelle prévision.
 
    Une fois le plan enregistré, la sortie prévue s’affiche.
 
-1. (Facultatif) Pour exporter la prévision [!UICONTROL Budget vs Reach] vers une feuille de calcul [!DNL Microsoft Excel] **&#x200B; cliquez sur &#x200B;** [!UICONTROL ...] **&#x200B; en haut à droite, puis sur &#x200B;** [!UICONTROL Export]**.
+1. (Facultatif) Pour exporter la prévision [!UICONTROL Budget vs Reach] vers une feuille de calcul [!DNL Microsoft Excel]** cliquez sur **[!UICONTROL ...]** en haut à droite, puis sur **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
->* [À propos de l’outil Planificateur DSP](planner-about.md)
+>* [À propos de l’outil de [!UICONTROL Planner] DSP](planner-about.md)
 >* [Créer un plan de portée TV connectée](planner-create.md)
 >* [Dupliquer un plan de portée TV connectée](planner-duplicate.md)
 >* [Exporter un plan de portée TV connectée](planner-export.md)
->* [Régénérer la prévision pour un plan de portée de télévision connectée](planner-forecast.md)
+>* [Régénérer la prévision pour un plan de portée TV connectée](planner-forecast.md)
 >* [Archiver un plan de portée TV connectée](planner-archive.md)
 >* [Paramètres des plans de portée TV connectée](planner-settings.md)

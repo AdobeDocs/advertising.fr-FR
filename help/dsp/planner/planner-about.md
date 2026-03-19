@@ -1,16 +1,16 @@
 ---
-title: À propos de l’outil Planificateur DSP
+title: À propos de l’outil DSP [!UICONTROL Planner]
 description: Découvrez l’outil de planification pour prévoir la portée unique des emplacements de télévision connectée (CTV) en fonction du budget et des critères de ciblage spécifiés.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
-# À propos de l’outil Planificateur DSP
+# À propos de l’outil DSP [!UICONTROL Planner]
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
@@ -73,11 +73,11 @@ Oui, vous pouvez exporter une prévision dans une feuille de calcul [!DNL Micros
 
 >[!MORELIKETHIS]
 >
->* [À propos de l’outil Planificateur DSP](planner-about.md)
+>* [À propos de l’outil de [!UICONTROL Planner] DSP](planner-about.md)
 >* [Créer un plan de portée TV connectée](planner-create.md)
 >* [Dupliquer un plan de portée TV connectée](planner-duplicate.md)
->* [Modification d’un plan de portée TV connectée](planner-edit.md)
+>* [Modification d’un plan de portée de télévision connectée](planner-edit.md)
 >* [Exporter un plan de portée TV connectée](planner-export.md)
->* [Régénérer la prévision pour un plan de portée de télévision connectée](planner-forecast.md)
+>* [Régénérer la prévision pour un plan de portée TV connectée](planner-forecast.md)
 >* [Archiver un plan de portée TV connectée](planner-archive.md)
 >* [Paramètres des plans de portée TV connectée](planner-settings.md)

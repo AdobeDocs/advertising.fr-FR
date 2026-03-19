@@ -3,7 +3,7 @@ title: Archivage ou désarchivage d’une publicité
 description: Découvrez comment archiver ou désarchiver une publicité.
 feature: DSP Ads
 exl-id: 086c120f-df55-43b0-a6fb-51d68d00a29e
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -38,6 +38,6 @@ Vous pouvez désarchiver une publicité pour restaurer son statut précédent à
 
 >[!MORELIKETHIS]
 >
->* [Créer une publicité unique](ad-create.md)
->* [Créer plusieurs annonces publicitaires tierces](ad-create-multiple.md)
->* [Modifier une publicité](ad-edit.md)
+>* [Créer une seule annonce publicitaire](ad-create.md)
+>* [Créer plusieurs annonces tierces](ad-create-multiple.md)
+>* [Modification d’une publicité](ad-edit.md)

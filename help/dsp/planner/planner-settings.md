@@ -3,9 +3,9 @@ title: Paramètres des plans de portée TV connectée
 description: Voir les descriptions des paramètres des plans de portée TV connectée.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -32,10 +32,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [À propos de l’outil Planificateur DSP](planner-about.md)
+>* [À propos de l’outil de [!UICONTROL Planner] DSP](planner-about.md)
 >* [Créer un plan de portée TV connectée](planner-create.md)
 >* [Dupliquer un plan de portée TV connectée](planner-duplicate.md)
->* [Modification d’un plan de portée TV connectée](planner-edit.md)
+>* [Modification d’un plan de portée de télévision connectée](planner-edit.md)
 >* [Exporter un plan de portée TV connectée](planner-export.md)
->* [Régénérer la prévision pour un plan de portée de télévision connectée](planner-forecast.md)
+>* [Régénérer la prévision pour un plan de portée TV connectée](planner-forecast.md)
 >* [Archiver un plan de portée TV connectée](planner-archive.md)

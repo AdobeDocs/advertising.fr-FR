@@ -3,7 +3,7 @@ title: Filtres de pré-enchères au niveau de l’emplacement et utilisation
 description: Référencez les filtres de pré-enchères au niveau de l’emplacement disponibles et découvrez comment les utiliser.
 feature: DSP Optimization
 exl-id: 34a15666-7ca2-416d-9064-8638ca81e5b3
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Optimisation des campagnes par DSP](optimization-how-dsp-optimizes-campaigns.md)
->* [Paramètres du package](/help/dsp/campaign-management/packages/package-settings.md)
+>* [Comment DSP optimise vos campagnes](optimization-how-dsp-optimizes-campaigns.md)
+>* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Paramètres de la campagne](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [Paramètres de Campaign](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [Objectifs d’optimisation et utilisation](optimization-goals.md)

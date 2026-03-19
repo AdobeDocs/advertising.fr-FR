@@ -2,7 +2,7 @@
 title: Modifier votre profil utilisateur
 description: Découvrez comment modifier votre profil utilisateur.
 exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -63,6 +63,6 @@ Le profil de votre compte comprend vos identifiants de connexion et d’autres i
 
 >[!MORELIKETHIS]
 >
->* [Inviter un nouvel utilisateur pour votre compte d’organisation](user-invite.md)
+>* [Inviter un nouvel utilisateur pour le compte de votre organisation](user-invite.md)
 
 <!-- >* [User Profile and Organization Account Settings](user-and-account-settings.md) -->

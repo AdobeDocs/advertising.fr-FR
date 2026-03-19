@@ -3,9 +3,9 @@ title: Afficher les sites, les publicités, la fréquence et les détails de l�
 description: Découvrez comment afficher les sites ciblés, les publicités, la fréquence et les données d’inventaire pour un emplacement.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Pour chaque emplacement, vous pouvez [ouvrir un [!UICONTROL Inspector] (vue dét
 
 ![inspecteur d’emplacement](/help/dsp/assets/placement-inspector.png)
 
-## Informations dans la [!UICONTROL Inspector] Emplacement {#placement-inspector}
+## Informations dans le [!UICONTROL Inspector] d’emplacement {#placement-inspector}
 
 * **[!UICONTROL Sites]:** tous les sites sur lesquels l&#39;emplacement a eu des impressions.
 
@@ -36,7 +36,7 @@ Pour chaque emplacement, vous pouvez [ouvrir un [!UICONTROL Inspector] (vue dét
 
   L’onglet [!UICONTROL Inventory] permet un dépannage rapide en affichant des statistiques de performances, telles que [!UICONTROL Auctions], [!UICONTROL Bids] et [!UICONTROL Win Rate]. L’onglet comprend des fonctionnalités de recherche et de filtrage, les mêmes options d’affichage des colonnes standard et personnalisées que celles disponibles sur la page principale, ainsi que des boutons d’action rapide dans chaque ligne, y compris des [!UICONTROL Edit], des [!UICONTROL View Report] et des [[!UICONTROL Auction Insights] pour un dépannage plus approfondi](/help/dsp/inventory/private-deal-auction-insights.md).
 
-## Ouvrir le [!UICONTROL Placement Inspector] {#inspector-open}
+## Ouvrir le [!UICONTROL Inspector] d’emplacement {#inspector-open}
 
 1. Ouvrez la vue des emplacements pour la campagne ou le package parent :
 
@@ -66,9 +66,9 @@ Pour chaque emplacement, vous pouvez [ouvrir un [!UICONTROL Inspector] (vue dét
 
    Les données sont enregistrées dans le dossier de téléchargement par défaut de votre navigateur sous la forme d’un rapport au format XLSM.
 
-## Suppression d’une publicité d’un emplacement du [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+## Suppression d’une annonce publicitaire d’un emplacement du [!UICONTROL Inspector] {#remove-ads-placement-inspector}
 
-1. [Ouvrez le [!UICONTROL Placement Inspector]](#inspector-open).
+1. [Ouvrez le [!UICONTROL Inspector]](#inspector-open) d’emplacement.
 
 1. Cliquez sur l’onglet **[!UICONTROL Ads]** .
 
@@ -91,4 +91,4 @@ Pour chaque emplacement, vous pouvez [ouvrir un [!UICONTROL Inspector] (vue dét
 >[!MORELIKETHIS]
 >
 >* [Types de rapports de performances dans les vues de gestion de campagnes](campaign-reports-about.md)
->* [Gestion Des Vues De Données De Campaign](campaign-data-views-manage.md)
+>* [Gérer les vues de données de votre campagne](campaign-data-views-manage.md)

@@ -3,9 +3,9 @@ title: Joindre et supprimer des annonces des emplacements
 description: Découvrez comment joindre des annonces aux emplacements et supprimer des annonces des emplacements.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Vous pouvez joindre et supprimer des annonces à partir d’emplacements.
 
 1. Cliquez sur **[!UICONTROL Detach Selected Ads]**.
 
-## Suppression d’une annonce publicitaire d’un emplacement du [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+## Suppression d’une annonce publicitaire d’un emplacement du [!UICONTROL Inspector] d’emplacement {#remove-ads-placement-inspector}
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -106,11 +106,11 @@ Vous pouvez joindre et supprimer des annonces à partir d’emplacements.
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des publicités](ad-about.md)
+>* [À propos de la gestion des publicités dans Advertising DSP](ad-about.md)
 >* [Joindre et supprimer des pixels des publicités](ad-pixel-attach-detach.md)
->* [Créer une publicité unique](ad-create.md)
->* [Créer plusieurs annonces publicitaires tierces](ad-create-multiple.md)
->* [Modifier une publicité](ad-edit.md)
+>* [Créer une seule annonce publicitaire](ad-create.md)
+>* [Créer plusieurs annonces tierces](ad-create-multiple.md)
+>* [Modification d’une publicité](ad-edit.md)
 >* [Liste des emplacements associés à une publicité](ad-list-placements.md)
 >* [Modifier les plannings de publicités pour les emplacements](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
->* [FAQ sur Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
+>* [FAQ sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md)

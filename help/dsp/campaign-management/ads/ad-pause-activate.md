@@ -3,7 +3,7 @@ title: Mettre en pause ou activer une publicité
 description: Découvrez comment suspendre ou activer une publicité.
 feature: DSP Ads
 exl-id: f39d36c2-4c62-462b-bb92-29458890661e
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -47,6 +47,6 @@ Pour mettre en pause une annonce publicitaire sur un emplacement individuel, uti
 
 >[!MORELIKETHIS]
 >
->* [Créer une publicité unique](ad-create.md)
->* [Créer plusieurs annonces publicitaires tierces](ad-create-multiple.md)
+>* [Créer une seule annonce publicitaire](ad-create.md)
+>* [Créer plusieurs annonces tierces](ad-create-multiple.md)
 >* [Archiver une publicité](ad-archive-unarchive.md)

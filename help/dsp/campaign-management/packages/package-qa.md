@@ -3,7 +3,7 @@ title: Vérifier et modifier les paramètres du package à l’aide des feuilles
 description: Découvrez comment vérifier et modifier les paramètres clés des packages en bloc à l’aide de feuilles de calcul.
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -18,13 +18,13 @@ Pour mettre à jour plusieurs paramètres à la fois, vous pouvez effectuer l’
 
 * Apportez des modifications à certains champs, enregistrez le fichier et chargez à nouveau le fichier de feuille d’envoi groupé modifié dans DSP.
 
-* Pour apporter des modifications à d’autres packages, emplacements ou annonces dans la campagne, téléchargez une feuille d’envoi groupé pour la campagne. Saisissez ou collez les paramètres mis à jour dans le fichier , puis chargez le fichier pour apporter les modifications. Pour obtenir des instructions, voir « [Vérification et modification des paramètres des composants Campaign à l’aide de feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md) ».
+* Pour apporter des modifications à d’autres packages, emplacements ou annonces dans la campagne, téléchargez une feuille d’envoi groupé pour la campagne. Saisissez ou collez les paramètres mis à jour dans le fichier , puis chargez le fichier pour apporter les modifications. Pour obtenir des instructions, reportez-vous à « [Vérification et modification des paramètres des composants de campagne à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md) ».
 
 Les champs modifiables incluent la plupart des paramètres qui sont normalement modifiables.
 
 >[!TIP]
 >
->Pour modifier rapidement d’autres champs pour un ou plusieurs packages, consultez « [&#x200B; Modifier des packages &#x200B;](/help/dsp/campaign-management/packages/package-edit.md). »
+>Pour modifier rapidement d’autres champs pour un ou plusieurs packages, consultez « [ Modifier des packages ](/help/dsp/campaign-management/packages/package-edit.md). »
 
 ## Paramètres de téléchargement pour tous les packages d’une campagne
 
@@ -48,9 +48,9 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
-     Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      Pour modifier l’un des paramètres, modifiez directement le fichier, puis chargez les modifications. Toutes les colonnes modifiables sont surlignées en bleu.
 
@@ -74,9 +74,9 @@ Lorsque vous téléchargez des paramètres pour des packages spécifiques, le fi
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
-     Le fichier est enregistré dans le dossier Téléchargements du navigateur. Consultez la section « [Colonnes d’emplacement dans les feuilles d’envoi groupé téléchargées/chargées](#qa-sheet-columns) » pour obtenir une liste des colonnes incluses.
+     Le fichier est enregistré dans le dossier Téléchargements du navigateur. Pour obtenir la liste des colonnes incluses, reportez-vous à « [Colonnes d’emplacement dans des feuilles d’envoi groupé téléchargées/chargées](#qa-sheet-columns) ».
 
      Pour modifier l’un des paramètres, modifiez directement le fichier, puis chargez les modifications. Toutes les colonnes modifiables sont surlignées en bleu. Pour utiliser le format correct pour un champ, sélectionnez et copiez la valeur à partir du paramètre de package ou du paramètre d’emplacement approprié. Pour certains paramètres de la cible, tels que le changement de date, les objectifs personnalisés et les mesures de conversion, une option de copie est disponible dans le paramètre .
 
@@ -166,6 +166,6 @@ Lorsqu’une mise à jour de paramètre échoue, vous pouvez télécharger un fi
 
 >[!MORELIKETHIS]
 >
->* [Vérification et modification des paramètres des composants Campaign à l’aide de feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [Examiner et modifier les paramètres des composants de campagne à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [Modifier les packages](/help/dsp/campaign-management/packages/package-edit.md)
->* [Paramètres du package](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)

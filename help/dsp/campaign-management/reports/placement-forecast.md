@@ -3,7 +3,7 @@ title: Afficher le rapport de prévision d'emplacement
 description: Affichez le nombre d’impressions, les dépenses et l’enchère maximale optimale prévue pour une stratégie de ciblage particulière pour un emplacement.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -73,7 +73,7 @@ La prévision comprend les informations suivantes :
 
 1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. Recherchez la section **[!UICONTROL Forecast]** en haut à droite. Si nécessaire, cliquez sur ![&#x200B; Prévision &#x200B;](/help/dsp/assets/placement-forecast.png).
+1. Recherchez la section **[!UICONTROL Forecast]** en haut à droite. Si nécessaire, cliquez sur ![ Prévision ](/help/dsp/assets/placement-forecast.png).
 
    >[!NOTE]
    >
@@ -82,5 +82,5 @@ La prévision comprend les informations suivantes :
 >[!MORELIKETHIS]
 >
 >* [Types de rapports de performances dans les vues de gestion de campagnes](campaign-reports-about.md)
->* [Afficher les rapports de diagnostic d&#39;emplacement](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+>* [Afficher les rapports de diagnostic des emplacements](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

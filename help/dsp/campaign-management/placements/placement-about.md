@@ -3,7 +3,7 @@ title: À propos de la gestion des emplacements dans Advertising DSP
 description: En savoir plus sur la gestion des emplacements.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Vous pouvez créer un emplacement manuellement ou en dupliquant un emplacement e
 
 Le tableau de bord [!UICONTROL Placements] centralise les rapports de performances et d’économie sur tous vos emplacements, fournissant des instantanés rapides de la performance de vos emplacements au cours d’une période spécifiée.
 
-![&#x200B; Tableau de bord des emplacements &#x200B;](/help/dsp/assets/placement-dashboard.png)
+![ Tableau de bord des emplacements ](/help/dsp/assets/placement-dashboard.png)
 
 Le tableau de bord comprend un graphique de tendances personnalisable de haut niveau avec trois mesures.
 
@@ -47,7 +47,7 @@ Pour chaque emplacement, vous pouvez ouvrir une vue détaillée ([la [!UICONTROL
 >[!MORELIKETHIS]
 >
 >* [Créer un emplacement](placement-create.md)
->* [Gérer les multiplicateurs d&#39;offres pour les placements](placement-manage-bid-multipliers.md)
->* [Afficher le journal des modifications pour un emplacement](placement-change-log.md)
+>* [Gérer les multiplicateurs d’enchères pour les placements](placement-manage-bid-multipliers.md)
+>* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)
->* [Résolution des problèmes liés aux performances](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)

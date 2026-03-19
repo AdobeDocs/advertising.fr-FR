@@ -3,7 +3,7 @@ title: Modification d’une liste de sites bloqués au niveau du compte ou de l�
 description: Découvrez comment gérer la liste des sites bloqués pour un compte ou un annonceur.
 role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -40,6 +40,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [À propos des listes de sites bloqués au niveau du compte et des annonceurs](/help/dsp/admin/blocked-sites-list-about.md)
-> [Sécurité de la marque et qualité des médias &#x200B;](/help/dsp/introduction/features/brand-safety-media-quality.md)
+>* [À propos des listes de sites bloqués au niveau du compte et de l’annonceur](/help/dsp/admin/blocked-sites-list-about.md)
+> [Sécurité de la marque et qualité des médias ](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

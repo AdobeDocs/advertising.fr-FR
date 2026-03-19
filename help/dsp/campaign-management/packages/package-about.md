@@ -3,7 +3,7 @@ title: À propos de la gestion des packages dans Advertising DSP
 description: En savoir plus sur la gestion des packages.
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Vous pouvez créer des packages manuellement ou en dupliquant des packages exist
 
 Le tableau de bord [!UICONTROL Packages] centralise les rapports de performances et d’économie sur toutes vos stratégies d’offre groupée, fournissant des instantanés rapides des performances de vos offres groupées au cours d’une période spécifiée.
 
-![&#x200B; Tableau de bord des packages &#x200B;](/help/dsp/assets/package-dashboard.png)
+![ Tableau de bord des packages ](/help/dsp/assets/package-dashboard.png)
 
 Le tableau de bord comprend un graphique de tendances personnalisable de haut niveau avec trois mesures.
 
@@ -38,4 +38,4 @@ Pour afficher tous les emplacements dans un package et les dates de vol du packa
 >* [Modifier un package](package-edit.md)
 >* [Joindre un emplacement à un package](package-attach-placement.md)
 >* [Afficher le journal des modifications d&#39;un package](package-change-log.md)
->* [Paramètres du package](package-settings.md)
+>* [ Paramètres du package ](package-settings.md)

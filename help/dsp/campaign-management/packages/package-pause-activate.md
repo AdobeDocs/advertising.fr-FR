@@ -3,7 +3,7 @@ title: Mettre en pause ou activer un package
 description: Découvrez comment suspendre ou activer un package.
 feature: DSP Packages
 exl-id: c4a6fb08-14db-4c8b-ab7a-0bbc0f201390
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
