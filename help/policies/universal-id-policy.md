@@ -3,7 +3,7 @@ title: Politique des exigences d’Adobe Advertising Universal ID
 description: Consultez la politique relative à l’utilisation des identifiants universels.
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: c7438ee214e6b5d5cfb6e6c72eb480bc334596c7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Dernière mise à jour : 29 février 2024
 
-La présente politique relative aux exigences en matière d’Universal ID (« politique ») énonce les exigences relatives à l’utilisation des Universal ID en lien avec les publicités distribuées via [!DNL Adobe's] services à la demande pour Adobe Advertising (« services »). La présente Politique est intégrée par référence au Contrat entre [!DNL Adobe] et le Client (« vous ») à l&#39;aide des Services à la demande. Les termes en majuscules utilisés dans la présente Politique mais non définis dans les présentes auront le sens défini dans cet Accord.
+La présente Politique relative aux exigences en matière d’ID universel (« Politique ») énonce les exigences relatives à l’utilisation des ID universels en rapport avec les publicités distribuées via [!DNL Adobe's] Services à la demande pour Adobe Advertising (« Services »). La présente Politique est intégrée par référence au Contrat entre [!DNL Adobe] et le Client (« vous ») à l&#39;aide des Services à la demande. Les termes en majuscules utilisés dans la présente Politique mais non définis dans les présentes auront le sens défini dans cet Accord.
 
 [!DNL Adobe] se réserve le droit de déterminer, à son seul jugement, si une Annonce ou le(s) site(s) Web vers lesquels l&#39;Annonce redirige ou renvoie, enfreignent les exigences de la présente Politique, auquel cas [!DNL Adobe] pouvez rejeter cette Annonce et/ou résilier ou suspendre l&#39;accès aux Services sur cette base.
 
@@ -24,7 +24,7 @@ Outre les exigences énoncées ci-dessous et dans le Contrat, vous devez respect
 
 ### Données interdites
 
-En choisissant d&#39;utiliser les identifiants universels mis à disposition par l&#39;intermédiaire des services, vous acceptez de vous assurer que toutes les données client transmises, stockées, affichées, distribuées ou autrement mises à disposition par vous par l&#39;intermédiaire des services à la demande sont conformes aux spécifications d&#39;identifiant universel suivantes et à toute autre exigence de la présente politique, qui peut être révisée par [!DNL Adobe] de temps à autre.
+En choisissant d&#39;utiliser les identifiants universels mis à disposition via les Services, vous acceptez de vous assurer que toutes les Données Client transmises, stockées, affichées, distribuées ou autrement mises à disposition par vous via les Services à la demande sont conformes aux spécifications d&#39;identifiant universel suivantes et à toute autre exigence de cette Politique, qui peut être révisée par [!DNL Adobe] de temps à autre.
 
 * Les Données Client ont été collectées par vous directement auprès des utilisateurs ou vous avez obtenu une licence d&#39;une autre partie qui (i) a collecté les Données Client directement auprès des utilisateurs auxquels ces données se rapportent ou (ii) a obtenu les Données Client par l&#39;intermédiaire d&#39;intermédiaires qui ont obtenu les données d&#39;une autre partie qui a collecté ces données auprès de l&#39;utilisateur, à condition que vous puissiez identifier la partie d&#39;origine qui a collecté les Données Client auprès des utilisateurs auxquels les données se rapportent.
 
@@ -38,7 +38,7 @@ En choisissant d&#39;utiliser les identifiants universels mis à disposition par
 
 ### Pays interdits par UID2
 
-En choisissant d&#39;utiliser les identifiants universels d&#39;UID2 par l&#39;intermédiaire des services, vous acceptez de vous assurer que toutes les données client transmises, stockées, affichées, distribuées ou autrement mises à votre disposition par l&#39;intermédiaire des services à la demande pour une telle utilisation en relation avec les identifiants universels d&#39;UID2 ne concernent aucun individu qui réside dans l&#39;un des [pays interdits d&#39;UID2 répertoriés dans la pièce A](#prohibited-countries-uid2) ci-jointe.
+En choisissant d&#39;utiliser les identifiants universels d&#39;UID2 par l&#39;intermédiaire des Services, vous acceptez de vous assurer que toutes les Données du Client transmises, stockées, affichées, distribuées ou autrement mises à votre disposition par l&#39;intermédiaire des Services à la demande pour une telle utilisation en relation avec les identifiants universels d&#39;UID2 ne concernent aucun individu qui réside dans l&#39;un des [pays interdits d&#39;UID2 répertoriés dans la pièce A](#prohibited-countries-uid2) ci-jointe.
 
 ## Pas de discrimination
 
