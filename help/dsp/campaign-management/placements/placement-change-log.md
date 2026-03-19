@@ -3,9 +3,9 @@ title: Affichage d’un journal des modifications d’emplacement
 description: Découvrez comment afficher les modifications apportées à l’emplacement.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Vous pouvez trier les données par colonne Type, Modifié par ou Date de modific
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des emplacements](placement-about.md)
+>* [À propos de la gestion des emplacements dans Advertising DSP](placement-about.md)
 >* [Créer un emplacement](placement-create.md)
 >* [Modifier les emplacements](placement-edit.md)
 >* [Dupliquer un emplacement](placement-duplicate.md)

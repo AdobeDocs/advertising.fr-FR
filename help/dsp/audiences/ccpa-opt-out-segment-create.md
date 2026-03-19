@@ -3,7 +3,7 @@ title: Créer et mettre en œuvre un segment d’opposition à la vente du CCPA
 description: Découvrez comment créer et implémenter un segment pour effectuer le suivi des identifiants d’utilisateurs à partir des requêtes d’opposition à la vente des consommateurs.
 feature: CCPA, DSP Segments
 exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
-source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Une fois la balise de pixel de segment implémentée, Adobe Advertising commence
 
 >[!NOTE]
 >
->* Pour plus d’informations sur la manière de communiquer les requêtes de désinscription de la CCPA à Adobe Advertising à l’aide de l’API Adobe Experience Platform Privacy Service, consultez [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=fr](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=fr).
+>* Pour plus d’informations sur la manière de communiquer les requêtes de désinscription de la CCPA à Adobe Advertising à l’aide de l’API Adobe Experience Platform Privacy Service, consultez [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
 >* Pour suivre les utilisateurs qui visitent des pages web à des fins non liées au suivi des événements d’opposition à la vente du CCPA, ainsi que les utilisateurs exposés à des publicités provenant d’appareils de bureau, mobiles et de télévision, créez un [segment personnalisé](/help/dsp/audiences/custom-segment-create.md).
 
 1. Créez le segment :
@@ -64,4 +64,4 @@ Une fois la balise de pixel de segment implémentée, Adobe Advertising commence
 >* [À propos [!UICONTROL CCPA Opt-out-of-Sale] segments et des rapports](ccpa-opt-out-about.md)
 >* [Récupérer les rapports d’opposition à la vente des clients](ccpa-opt-out-segment-report-retrieve.md)
 >* [Créer et implémenter un segment personnalisé](custom-segment-create.md)
->* [À propos de la gestion de l’audience](audience-about.md)
+>* [À propos de la gestion des audiences](audience-about.md)

@@ -3,9 +3,9 @@ title: Afficher un journal des modifications de package
 description: Découvrez comment afficher les modifications apportées au package.
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ Vous pouvez trier les données selon n’importe quelle colonne, à l’exceptio
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des packages](package-about.md)
+>* [Gestion des packages dans Advertising DSP](package-about.md)
 >* [Créer un package](package-create.md)
 >* [Modifier un package](package-edit.md)
 >* [Joindre un emplacement à un package](package-attach-placement.md)
->* [Paramètres du package](package-settings.md)
+>* [ Paramètres du package ](package-settings.md)

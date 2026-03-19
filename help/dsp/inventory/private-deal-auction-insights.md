@@ -3,7 +3,7 @@ title: Afficher les informations sur les enchères pour une transaction privée
 description: Découvrez comment utiliser les informations sur les enchères pour analyser la composition des transactions d’une transaction privée.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Afficher les informations sur les enchères pour une transaction privée
 
-Informations sur les enchères est un outil de dépannage qui vous permet d’analyser la composition des transactions privées garanties et non garanties. Grâce aux visualisations de données, cet outil affiche la tendance et les proportions relatives des valeurs reçues pour les [&#x200B; attributs clés des enchères &#x200B;](#auction-attributes) au cours d’une période spécifique.
+Informations sur les enchères est un outil de dépannage qui vous permet d’analyser la composition des transactions privées garanties et non garanties. Grâce aux visualisations de données, cet outil affiche la tendance et les proportions relatives des valeurs reçues pour les [ attributs clés des enchères ](#auction-attributes) au cours d’une période spécifique.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
@@ -49,6 +49,6 @@ Des graphiques en aires sont disponibles pour les attributs d&#39;enchères suiv
 >[!MORELIKETHIS]
 >
 >* [À propos de l&#39;inventaire privé](private-inventory-about.md)
->* [Spécifier les emplacements et les annonces publicitaires pour un ID d’offre](deal-id-attach-placements.md)
+>* [Spécifier des emplacements et des annonces pour un ID d’offre](deal-id-attach-placements.md)
 >* [Afficher un rapport détaillé pour une affaire](deal-view-report.md)
 >* [Types de rapports de performances dans les vues de gestion de campagnes](/help/dsp/campaign-management/reports/campaign-reports-about.md)

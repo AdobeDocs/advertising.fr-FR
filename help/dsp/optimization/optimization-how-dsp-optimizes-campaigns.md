@@ -3,7 +3,7 @@ title: Optimisation des campagnes par DSP
 description: Découvrez comment DSP optimise les packages dans vos campagnes.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -32,7 +32,7 @@ DSP peut optimiser votre diffusion de deux manières fondamentales, avec 20 vari
 
 * Privilégiez l’équilibrage coût-efficacité avec le taux de performance
 
-Voir [&#x200B; Objectifs d’optimisation et méthode d’utilisation &#x200B;](optimization-goals.md) pour déterminer quel objectif d’optimisation peut vous aider à atteindre vos KPI.
+Consultez la section [ Objectifs d’optimisation et comment les utiliser ](optimization-goals.md) pour déterminer quel objectif d’optimisation peut vous aider à atteindre vos KPI.
 
 ### Packages qui donnent la priorité au taux de performance
 
@@ -80,12 +80,12 @@ Les filtres de pré-enchères de positionnement sont le moyen le plus strict d�
 >
 >Les filtres de pré-enchères disponibles varient selon le type d’annonce. Par exemple, pour un emplacement d’affichage standard, vous pouvez filtrer par taux de clic publicitaire et visibilité, mais pas par taux d’achèvement.
 
-Voir [Filtres de pré-enchères au niveau du positionnement et comment les utiliser](optimization-pre-bid-filters.md) pour déterminer quel filtre de pré-enchères peut vous aider à atteindre vos KPI.
+Voir [Filtres de pré-enchères au niveau de l’emplacement et comment les utiliser](optimization-pre-bid-filters.md) pour déterminer quel filtre de pré-enchères peut vous aider à atteindre vos indicateurs clés de performance.
 
 >[!MORELIKETHIS]
 >
->* [Paramètres du package](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Objectifs d’optimisation et utilisation](optimization-goals.md)
->* [Filtres de pré-enchères au niveau du placement et utilisation](optimization-pre-bid-filters.md)
->* [Résolution des problèmes liés aux performances](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Filtres de pré-enchères au niveau de l’emplacement et utilisation](optimization-pre-bid-filters.md)
+>* [Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)

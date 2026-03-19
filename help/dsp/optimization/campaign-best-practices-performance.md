@@ -3,7 +3,7 @@ title: Bonnes pratiques pour configurer des campagnes de performances
 description: Découvrez les bonnes pratiques pour configurer vos campagnes axées sur les performances, qui incluent des emplacements optimisés pour la CPA la plus faible ou le retour sur investissement le plus élevé.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -22,9 +22,9 @@ DSP peut optimiser vos campagnes axées sur les performances. Consultez les bonn
 
 ## Étape 1 - Définir votre objectif
 
-Il est important de comprendre l’objectif de la campagne, par exemple obtenir le retour sur dépenses publicitaires le plus élevé possible ou le CPA le plus bas possible. Les campagnes de performances ont les [&#x200B; objectifs d’optimisation &#x200B;](/help/dsp/optimization/optimization-goals.md) « [!UICONTROL Highest Return on Ad Spend (ROAS)"] ou « [!UICONTROL Lowest Cost per Acquisition (CPA)] ». Pour chaque package de la campagne, spécifiez l’objectif d’optimisation en conséquence.
+Il est important de comprendre l’objectif de la campagne, par exemple obtenir le retour sur dépenses publicitaires le plus élevé possible ou le CPA le plus bas possible. Les campagnes de performances ont les [ objectifs d’optimisation ](/help/dsp/optimization/optimization-goals.md) « [!UICONTROL Highest Return on Ad Spend (ROAS)"] ou « [!UICONTROL Lowest Cost per Acquisition (CPA)] ». Pour chaque package de la campagne, spécifiez l’objectif d’optimisation en conséquence.
 
-![objectif d’optimisation &#x200B;](/help/dsp/assets/optimization-goals.png)
+![objectif d’optimisation ](/help/dsp/assets/optimization-goals.png)
 
 Vous devez également déterminer le ou les événements de succès qui mènent à l’objectif global et créer des objectifs personnalisés en conséquence. Pour chaque package, spécifiez un objectif personnalisé à utiliser avec l’objectif d’optimisation globale pour les rapports et l’optimisation algorithmique à l’aide de [!DNL Adobe AI]. Pour plus d’informations sur la création d’objectifs personnalisés, y compris les bonnes pratiques, voir [Objectifs personnalisés](custom-goal.md).
 
@@ -107,7 +107,7 @@ Vous devez configurer l’optimisation du CPA ou du ROAS au niveau du package (v
 
    * Pensez à définir des filtres de pré-enchères moins stricts dans les cas où un ciblage supplémentaire (comme le ciblage d’audience, géographique et de site) est appliqué.
 
-Consultez les descriptions des cas d&#39;utilisation de chaque filtre de pré-enchères au niveau de l&#39;emplacement [Filtres de pré-enchères au niveau emplacement) et leur mode d&#39;utilisation](/help/dsp/optimization/optimization-pre-bid-filters.md).
+Voir les descriptions sur l’utilisation de chaque filtre de pré-enchères au niveau de l’emplacement [Filtres de pré-enchères au niveau de l’emplacement et sur la manière de les utiliser](/help/dsp/optimization/optimization-pre-bid-filters.md).
 
 ### Inventaire
 
@@ -118,7 +118,7 @@ Pour optimiser l’échelle, utilisez [!UICONTROL Public] (Open Exchange) et l�
 * **[!UICONTROL Traffic Type]** : [!UICONTROL Websites] uniquement
 * **[!UICONTROL Site Tier]** : [!UICONTROL All sites]
 
-### Ciblage d’audience
+### Ciblage des audiences
 
 <!-- Say something about limiting unnecessary constraints/limitations, including dayparting, which limit your chances for ad exposure. Use only when it's required for your audience. -->
 
@@ -155,9 +155,9 @@ Le filtrage contextuel, le blocage des fraudes lors des enchères anticipées et
 
 >[!MORELIKETHIS]
 >
->* [Paramètres du package](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
-> * [Optimisation des campagnes par DSP](optimization-how-dsp-optimizes-campaigns.md)
+>* [Comment DSP optimise vos campagnes](optimization-how-dsp-optimizes-campaigns.md)
 >* [Objectifs d’optimisation et utilisation](optimization-goals.md)
->* [Filtres de pré-enchères au niveau du placement et utilisation](optimization-pre-bid-filters.md)
->* [Liste de contrôle de Campaign Launch](/help/dsp/campaign-management/campaign-launch-checklist.md)
+>* [Filtres de pré-enchères au niveau de l’emplacement et utilisation](optimization-pre-bid-filters.md)
+>* [Liste de contrôle de lancement de Campaign](/help/dsp/campaign-management/campaign-launch-checklist.md)

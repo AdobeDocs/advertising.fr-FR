@@ -3,7 +3,7 @@ title: Répertorier les emplacements et les annonces pour une offre privée
 description: Découvrez comment ouvrir une liste d’emplacements et d’annonces publicitaires associés à une offre privée.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -35,6 +35,6 @@ Vous pouvez ouvrir une liste de tous les emplacements et annonces associés à u
 >[!MORELIKETHIS]
 >
 >* [À propos de l&#39;inventaire privé](private-inventory-about.md)
->* [Spécifier les emplacements et les annonces publicitaires pour un ID d’offre](deal-id-attach-placements.md)
+>* [Spécifier des emplacements et des annonces pour un ID d’offre](deal-id-attach-placements.md)
 >* [Afficher un rapport détaillé pour une affaire](deal-view-report.md)
->* [Afficher les rapports de diagnostic d&#39;emplacement](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+>* [Afficher le rapport de diagnostic des emplacements](/help/dsp/campaign-management/reports/placement-diagnostics.md)

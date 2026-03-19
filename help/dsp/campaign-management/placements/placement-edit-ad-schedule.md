@@ -3,16 +3,16 @@ title: Modifier les plannings de publicités pour les emplacements
 description: Découvrez comment modifier les plannings de publicités pour les publicités jointes aux emplacements.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
 
 # Modifier les plannings de publicités pour les emplacements
 
-## Modifier les plannings de publicités pour un ou plusieurs emplacements
+## Modifier les plannings d’annonces pour un ou plusieurs emplacements
 
 Vous pouvez modifier les dates de vol planifiées et la rotation des annonces associées à plusieurs emplacements à l’aide d’une feuille de calcul [!DNL Microsoft Excel]. Chaque annonce peut être active pendant plusieurs vols.
 
@@ -78,7 +78,7 @@ Vous pouvez modifier les dates de vol planifiées et la rotation des annonces as
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des emplacements](placement-about.md)
+>* [À propos de la gestion des emplacements dans Advertising DSP](placement-about.md)
 >* [Modifier les emplacements](placement-edit.md)
->* [Afficher le journal des modifications pour un emplacement](placement-change-log.md)
+>* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)

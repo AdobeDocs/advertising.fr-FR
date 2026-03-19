@@ -3,9 +3,9 @@ title: Création d’un emplacement
 description: Découvrez comment créer un emplacement.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -136,15 +136,15 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des emplacements](placement-about.md)
+>* [À propos de la gestion des emplacements dans Advertising DSP](placement-about.md)
 >* [Modifier les emplacements](placement-edit.md)
->* [Gérer les multiplicateurs d&#39;offres pour les placements](placement-manage-bid-multipliers.md)
+>* [Gérer les multiplicateurs d’enchères pour les placements](placement-manage-bid-multipliers.md)
 >* [Modifier les plannings de publicités pour les emplacements](placement-edit-ad-schedule.md)
 >* [Désactiver ou activer un emplacement](placement-pause-activate.md)
->* [Afficher le journal des modifications pour un emplacement](placement-change-log.md)
+>* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)
 >* [Afficher l&#39;état de prévision d&#39;emplacement](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [FAQ sur Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
->* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Résolution des problèmes liés aux performances](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vidéo : création d’un emplacement d’affichage standard](https://video.tv.adobe.com/v/344999?captions=fre_fr)
+>* [FAQ sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Raccourcis clavier ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
+>* [Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Vidéo : comment créer un emplacement d’affichage standard ](https://video.tv.adobe.com/v/340454)

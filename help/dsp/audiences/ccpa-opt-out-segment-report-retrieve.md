@@ -3,7 +3,7 @@ title: Récupérer les rapports d’opt-out à la vente des clients
 description: Découvrez comment récupérer les rapports d’ID envoyés pour les requêtes d’opposition à la vente des informations personnelles.
 feature: CCPA, DSP Segments
 exl-id: 94133ce3-4e2c-4a24-90c9-61bf10731668
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
@@ -27,4 +27,4 @@ Vous pouvez récupérer les rapports mensuels des identifiants que les clients e
 >* [Prise en charge par Adobe Advertising de la Loi sur la confidentialité des consommateurs de Californie : prise en charge du droit d’opposition des consommateurs](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [À propos [!UICONTROL CCPA Opt-out-of-Sale] segments et des rapports](ccpa-opt-out-about.md)
 >* [Création et implémentation d’un [!UICONTROL CCPA Opt-Out-of-Sale] segment](ccpa-opt-out-segment-create.md)
->* [À propos de la gestion de l’audience](audience-about.md)
+>* [À propos de la gestion des audiences](audience-about.md)

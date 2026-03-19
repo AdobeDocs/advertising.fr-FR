@@ -3,7 +3,7 @@ title: Configurer une offre programmatique garantie
 description: Découvrez comment configurer un contrat programmatique garanti (PG) que vous avez négocié avec un éditeur.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 *[Plateformes côté offre prises en charge uniquement](programmatic-guaranteed-about.md)*
 
-Après avoir négocié une transaction programmatique garantie (PG) avec un éditeur pris en charge, vous pouvez configurer la transaction dans DSP à l’aide du [!DNL Deal ID inbox] ou en saisissant manuellement les détails de la transaction.
+Après avoir négocié une transaction programmatique garantie (PG) avec un éditeur pris en charge, vous pouvez configurer la transaction dans DSP à l’aide du [!DNL Deal ID Inbox] ou en saisissant manuellement les détails de la transaction.
 
 >[!NOTE]
 >
 > Pour les offres PG, l’éditeur gère l’ensemble du rythme budgétaire, de la limitation du budget et du ciblage. Tous les SSP qui autorisent PG via DSP confirment que l’éditeur peut configurer la limitation du budget.
 >
-> La configuration d’offres programmatiques garanties avec les éditeurs sur [!DNL FreeWheel] nécessite des autorisations et des étapes supplémentaires. Pour plus d’informations, reportez-vous à [&#x200B; Présentation de la configuration d’offres programmatiques garanties dans  [!DNL FreeWheel]](freewheel-overview.md).
+> La configuration d’offres programmatiques garanties avec les éditeurs sur [!DNL FreeWheel] nécessite des autorisations et des étapes supplémentaires. Pour plus d’informations, consultez « [Présentation de la configuration d’offres programmatiques garanties dans [!DNL FreeWheel]](freewheel-overview.md) ».
 
 ## Configurer une offre programmatique garantie à l’aide du [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
 
@@ -61,7 +61,7 @@ Utilisez cette méthode pour tous les autres SSP.
 >* [À propos des offres programmatiques garanties](programmatic-guaranteed-about.md)
 >* [Conseils pour négocier un contrat programmatique garanti](/help/dsp/inventory/programmatic-guaranteed-tips.md)
 >* [Soumettre une annonce pour un contrat programmatique garanti avec  [!DNL FreeWheel]](freewheel-submit.md)
->* [Accepter une offre dans la boîte de réception des ID d’offres](deal-id-inbox-accept.md)
+>* [Accepter une offre dans le [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
 >* [Créer manuellement les détails de l’ID d’offre](deal-id-create.md)
 >* [Partenaires SSP](ssp-partners.md)
->* [Présentation des fonctions d&#39;inventaire](inventory-overview.md)
+>* [Présentation des fonctionnalités d’inventaire dans Advertising DSP](inventory-overview.md)

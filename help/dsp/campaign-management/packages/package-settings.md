@@ -3,9 +3,9 @@ title: Paramètres du package
 description: Voir les descriptions des paramètres de package disponibles.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Pour les packages avec vols personnalisés, l’intervalle budgétaire est toujo
 
 **[!UICONTROL Gross Budget]:** (Packages avec régulation au niveau du package et gestion dynamique des marges uniquement) Limite du budget brut pour la durée du package.
 
-**[!UICONTROL Optimization Goal]:** (packages avec fréquence au niveau du package uniquement) Objectif d’optimisation du package. Consultez les descriptions de chaque objectif d’optimisation à l’adresse [&#x200B; Objectifs d’optimisation et comment les utiliser &#x200B;](/help/dsp/optimization/optimization-goals.md).
+**[!UICONTROL Optimization Goal]:** (packages avec fréquence au niveau du package uniquement) Objectif d’optimisation du package. Consultez les descriptions de chaque objectif d’optimisation à la section [ Objectifs d’optimisation et comment les utiliser ](/help/dsp/optimization/optimization-goals.md).
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** (packages avec fréquence au niveau du package et avec les objectifs d’optimisation « [!UICONTROL Always Max Bid & Maximize Reach] » et « [!UICONTROL Lowest Cost per Reach] » uniquement) Utilise les données de portée domestique de tous les emplacements programmatiques garantis dans la campagne pour optimiser la portée incrémentielle.
 
@@ -127,7 +127,7 @@ Pour les packages existants sans l&#39;option « [!UICONTROL Automatically rollo
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des packages](package-about.md)
+>* [Gestion des packages dans Advertising DSP](package-about.md)
 >* [Créer un package](package-create.md)
 >* [Modifier un package](package-edit.md)
 >* [Joindre un emplacement à un package](package-attach-placement.md)

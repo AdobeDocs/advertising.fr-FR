@@ -3,9 +3,9 @@ title: À propos des offres programmatiques garanties
 description: Découvrez les offres programmatiques garanties (PG) et les fournisseurs de services partagés certifiés pour les fournir.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ Les offres PG nécessitent un emplacement et des annonces PG par défaut (ou un 
 >* [Conseils pour négocier un contrat programmatique garanti](/help/dsp/inventory/programmatic-guaranteed-tips.md)
 >* [Configurer une offre programmatique garantie](programmatic-guaranteed-set-up.md)
 >* [Partenaires SSP](ssp-partners.md)
->* [Présentation des fonctions d&#39;inventaire](inventory-overview.md)
+>* [Présentation des fonctionnalités d’inventaire dans Advertising DSP](inventory-overview.md)
