@@ -32,7 +32,7 @@ DSP peut optimiser votre diffusion de deux manières fondamentales, avec 20 vari
 
 * Privilégiez l’équilibrage coût-efficacité avec le taux de performance
 
-Consultez la section [ Objectifs d’optimisation et comment les utiliser ](optimization-goals.md) pour déterminer quel objectif d’optimisation peut vous aider à atteindre vos KPI.
+Consultez la section [&#x200B; Objectifs d’optimisation et comment les utiliser &#x200B;](optimization-goals.md) pour déterminer quel objectif d’optimisation peut vous aider à atteindre vos KPI.
 
 ### Packages qui donnent la priorité au taux de performance
 
@@ -84,7 +84,7 @@ Voir [Filtres de pré-enchères au niveau de l’emplacement et comment les util
 
 >[!MORELIKETHIS]
 >
->* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; Paramètres du package &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Objectifs d’optimisation et utilisation](optimization-goals.md)
 >* [Filtres de pré-enchères au niveau de l’emplacement et utilisation](optimization-pre-bid-filters.md)

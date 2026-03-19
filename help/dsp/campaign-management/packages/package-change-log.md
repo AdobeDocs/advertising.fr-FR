@@ -36,4 +36,4 @@ Vous pouvez trier les données selon n’importe quelle colonne, à l’exceptio
 >* [Créer un package](package-create.md)
 >* [Modifier un package](package-edit.md)
 >* [Joindre un emplacement à un package](package-attach-placement.md)
->* [ Paramètres du package ](package-settings.md)
+>* [&#x200B; Paramètres du package &#x200B;](package-settings.md)

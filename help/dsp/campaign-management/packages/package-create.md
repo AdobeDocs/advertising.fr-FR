@@ -31,5 +31,5 @@ Une fois que vous avez créé un package, vous pouvez lui affecter des emplaceme
 >* [Joindre un emplacement à un package](package-attach-placement.md)
 >* [Afficher le journal des modifications d&#39;un package](package-change-log.md)
 >* [Mettre en pause ou activer un package](package-pause-activate.md)
->* [ Paramètres du package ](package-settings.md)
+>* [&#x200B; Paramètres du package &#x200B;](package-settings.md)
 >* [Vidéo : créer un package](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Afficher les informations sur les enchères pour une transaction privée
 
-Informations sur les enchères est un outil de dépannage qui vous permet d’analyser la composition des transactions privées garanties et non garanties. Grâce aux visualisations de données, cet outil affiche la tendance et les proportions relatives des valeurs reçues pour les [ attributs clés des enchères ](#auction-attributes) au cours d’une période spécifique.
+Informations sur les enchères est un outil de dépannage qui vous permet d’analyser la composition des transactions privées garanties et non garanties. Grâce aux visualisations de données, cet outil affiche la tendance et les proportions relatives des valeurs reçues pour les [&#x200B; attributs clés des enchères &#x200B;](#auction-attributes) au cours d’une période spécifique.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 

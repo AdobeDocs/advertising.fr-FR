@@ -145,6 +145,6 @@ ht-degree: 0%
 >* [Paramètres d’emplacement](placement-settings.md)
 >* [Afficher l&#39;état de prévision d&#39;emplacement](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [FAQ sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md)
->* [Raccourcis clavier ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
+>* [Raccourcis clavier &#x200B;](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vidéo : comment créer un emplacement d’affichage standard ](https://video.tv.adobe.com/v/340454)
+>* [Vidéo : comment créer un emplacement d’affichage standard &#x200B;](https://video.tv.adobe.com/v/340454)
