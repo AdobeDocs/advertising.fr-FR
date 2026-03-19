@@ -41,5 +41,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [À propos des listes de sites bloqués au niveau du compte et de l’annonceur](/help/dsp/admin/blocked-sites-list-about.md)
-> [Sécurité de la marque et qualité des médias ](/help/dsp/introduction/features/brand-safety-media-quality.md)
+> [Sécurité de la marque et qualité des médias &#x200B;](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

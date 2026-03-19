@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**, puis sélectionnez **[!UICONTROL Simple Ad Serving]**.
 
-1. Saisissez les [ paramètres de l’offre ](simple-deal-settings.md) :
+1. Saisissez les [&#x200B; paramètres de l’offre &#x200B;](simple-deal-settings.md) :
 
    1. Dans la section [!UICONTROL Select Ad Source], spécifiez des informations sur l’éditeur, l’annonceur et la campagne, ainsi que le type d’annonce, puis cliquez sur **[!UICONTROL Next]**.
 

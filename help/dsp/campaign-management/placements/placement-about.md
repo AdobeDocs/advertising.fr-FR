@@ -32,7 +32,7 @@ Vous pouvez créer un emplacement manuellement ou en dupliquant un emplacement e
 
 Le tableau de bord [!UICONTROL Placements] centralise les rapports de performances et d’économie sur tous vos emplacements, fournissant des instantanés rapides de la performance de vos emplacements au cours d’une période spécifiée.
 
-![ Tableau de bord des emplacements ](/help/dsp/assets/placement-dashboard.png)
+![&#x200B; Tableau de bord des emplacements &#x200B;](/help/dsp/assets/placement-dashboard.png)
 
 Le tableau de bord comprend un graphique de tendances personnalisable de haut niveau avec trois mesures.
 
