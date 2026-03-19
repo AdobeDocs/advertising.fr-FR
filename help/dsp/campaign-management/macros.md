@@ -3,7 +3,7 @@ title: Macros Advertising DSP
 description: Référencez les macros disponibles pour le suivi général et pour effectuer le suivi des clics sur les publicités display tierces.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Utilisez les macros de suivi générales sur tous les types d’annonces et de b
 |` ${TM_MACRO_PROMOTED_AD_KEY}` | The promoted ad key for the placement. Required for [!DNL AppsFlyer] click trackers for mobile app install ads. | string |
  -->
 
-## Macros Spécifiques À Mobile
+## Macros spécifiques à Mobile
 
 | Macro | Description du remplacement | Type |
 | ----- | ----------------------- | ---- |
@@ -85,9 +85,9 @@ DSP insère automatiquement les macros de clic d’affichage dans une balise d�
 
 Si une macro de clic est manquante lors de la création d’une publicité display, DSP affiche un message d’avertissement vous invitant à insérer manuellement la macro de clic display appropriée dans la zone appropriée de la balise.
 
-## Macros [!DNL Analytics for Advertising]
+## [!DNL Analytics for Advertising] macros
 
-Pour obtenir des macros supplémentaires disponibles spécifiquement pour les clients [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md), reportez-vous aux sections [Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad Tags](/help/integrations/analytics/macros-flashtalking.md) et [Append [!DNL Analytics for Advertising] Macros to [!DNL Google Campaign Manager 360] Ad Tags](/help/integrations/analytics/macros-google-campaign-manager.md).
+Pour obtenir des macros supplémentaires disponibles spécifiquement pour les clients [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md), reportez-vous aux sections [Append [!DNL Analytics for Advertising] macros to [!DNL Flashtalking] ad tags](/help/integrations/analytics/macros-flashtalking.md) et [Append [!DNL Analytics for Advertising] macros to [!DNL Google Campaign Manager 360] ad tags](/help/integrations/analytics/macros-google-campaign-manager.md).
 
 ## Résolution des erreurs de macro
 
@@ -100,10 +100,10 @@ Des erreurs sont générées si des caractères manquent au début ou à la fin 
 
 >[!MORELIKETHIS]
 >
->* [Paramètres de publicité audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [Paramètres des publicités audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
 >* [Paramètres des publicités TV connectées](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [Afficher les paramètres de publicité](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Afficher les paramètres de l’annonce publicitaire](/help/dsp/campaign-management/ads/ad-settings-display.md)
 >* [Paramètres des annonces publicitaires mobiles](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [Paramètres de publicité natifs](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [Paramètres publicitaires natifs](/help/dsp/campaign-management/ads/ad-settings-native.md)
 >* [Paramètres de publicité preroll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 >* [Paramètres universels des publicités vidéo](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

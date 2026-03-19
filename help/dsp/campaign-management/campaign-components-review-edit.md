@@ -3,7 +3,7 @@ title: Examiner et modifier les paramètres des composants de campagne à l’ai
 description: Découvrez comment examiner et modifier en bloc des packages, des emplacements et des paramètres d’annonces clés à l’aide de feuilles de calcul.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Pour mettre à jour plusieurs paramètres à la fois, chargez un fichier de feui
 
 >[!NOTE]
 >
->Vous pouvez également télécharger et modifier les paramètres pour des packages et des emplacements spécifiques uniquement. Voir « [Vérification et modification des paramètres de package à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/packages/package-qa.md) » et « [Vérification et modification des paramètres d’emplacement à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/placements/placement-qa.md) ».
+>Vous pouvez également télécharger et modifier les paramètres pour des packages et des emplacements spécifiques uniquement. Voir « [Révision et modification des paramètres de package à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/packages/package-qa.md) » et « [Révision et modification des paramètres d’emplacement à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/placements/placement-qa.md) ».
 
 ## Paramètres de téléchargement des packages, des emplacements et des annonces publicitaires dans une campagne {#download-bulksheet-campaign}
 
@@ -40,9 +40,9 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
-     Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      Pour modifier l’un des paramètres, modifiez directement le fichier, puis chargez les modifications. Toutes les colonnes modifiables sont surlignées en bleu. Pour utiliser le format correct pour un champ, sélectionnez et copiez la valeur à partir du paramètre de package ou du paramètre d’emplacement approprié. Pour certains paramètres de la cible, tels que le changement de date, les objectifs personnalisés et les mesures de conversion, une option de copie est disponible dans le paramètre .
 
@@ -151,13 +151,13 @@ Lorsqu’une mise à jour de paramètre échoue, vous pouvez télécharger un fi
 
 >[!MORELIKETHIS]
 >
->* [Vérification et modification des paramètres de package à l’aide de feuilles d’envoi groupé](/help/dsp/campaign-management/packages/package-qa.md)
->* [Paramètres du package](/help/dsp/campaign-management/packages/package-settings.md)
+>* [Vérifier et modifier les paramètres du package à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/packages/package-qa.md)
+>* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Vérification et modification des paramètres d’emplacement à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/placements/placement-qa.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Paramètres de publicité audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [Paramètres TV connectés](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [Afficher les paramètres de publicité](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Paramètres des publicités audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [Paramètres de la télévision connectée](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [Afficher les paramètres de l’annonce publicitaire](/help/dsp/campaign-management/ads/ad-settings-display.md)
 >* [Paramètres des annonces publicitaires mobiles](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
 >* [Paramètres natifs des publicités display](/help/dsp/campaign-management/ads/ad-settings-native.md)
 >* [Paramètres de publicité preroll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
