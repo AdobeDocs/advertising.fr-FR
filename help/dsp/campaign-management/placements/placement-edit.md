@@ -101,5 +101,5 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
 >* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)
 >* [Afficher l&#39;état de prévision d&#39;emplacement](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [Raccourcis clavier ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
+>* [Raccourcis clavier &#x200B;](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Vidéo : modifier des emplacements à l’aide d’outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

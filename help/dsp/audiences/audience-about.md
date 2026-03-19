@@ -66,7 +66,7 @@ Vous pouvez cibler vos emplacements sur tous les types d’audiences suivants.
 
 * Tous les segments de données propriétaires importés, y compris les segments qui ont été traduits en identifiants universels.
 
-  Des frais supplémentaires sont facturés pour les impressions remises aux cartes d’identité universelles. Consultez « [ À propos des sources d’audience propriétaires ](/help/dsp/audiences/sources/source-about.md) » pour connaître les taux.
+  Des frais supplémentaires sont facturés pour les impressions remises aux cartes d’identité universelles. Consultez « [&#x200B; À propos des sources d’audience propriétaires &#x200B;](/help/dsp/audiences/sources/source-about.md) » pour connaître les taux.
 
 * Tous vos segments de données tiers personnalisés importés.
 
@@ -84,7 +84,7 @@ Vous pouvez cibler vos emplacements sur tous les types d’audiences suivants.
 
   >[!NOTE]
   >
-  >Pour plus d’informations sur la configuration et la collecte de données pour les segments dans ces solutions[](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) consultez la documentation de [Audience Manager](https://experienceleague.adobe.com/docs/analytics.html), [Analytics [!DNL Real-Time CDP] et ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)the.
+  >Pour plus d’informations sur la configuration et la collecte de données pour les segments dans ces solutions[&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) consultez la documentation de [Audience Manager](https://experienceleague.adobe.com/docs/analytics.html), [Analytics [!DNL Real-Time CDP] et &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)the.
 
 ## Données de taille d’audience
 
@@ -138,7 +138,7 @@ La vue [!UICONTROL Segments] répertorie également les types de segment suivant
 
 Dans la vue [!UICONTROL Sources], vous pouvez configurer des sources pour les segments propriétaires dans les plateformes de données client prises en charge que vous souhaitez convertir en segments contenant des types d’identifiants universels spécifiés. Les paramètres source incluent une clé source générée automatiquement, que vous fournirez à votre plateforme de données client pour établir la connexion.
 
-Pour plus d’informations sur les plateformes de données client prises en charge, les types d’ID universels pris en charge et les workflows pour configurer des connexions à chaque plateforme de données client, consultez la section « [ À propos des sources d’audience propriétaires ](/help/dsp/audiences/sources/source-about.md) ».
+Pour plus d’informations sur les plateformes de données client prises en charge, les types d’ID universels pris en charge et les workflows pour configurer des connexions à chaque plateforme de données client, consultez la section « [&#x200B; À propos des sources d’audience propriétaires &#x200B;](/help/dsp/audiences/sources/source-about.md) ».
 
 Les segments traduits peuvent être inclus dans les audiences réutilisables et dans les paramètres d’emplacement pour le ciblage sans cookie.
 

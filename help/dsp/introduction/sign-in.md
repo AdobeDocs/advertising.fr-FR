@@ -42,11 +42,11 @@ Vos informations d’identification DSP actuelles resteront actives pendant une 
 
 1. Choisissez votre organisation :
 
-   * À l’invite, sélectionnez **[!UICONTROL Personal Account] » ou **[!UICONTROL Company or School Account]**.
+   * À l’invite, sélectionnez **[!UICONTROL Personal Account] » ou &#x200B;** [!UICONTROL Company or School Account]**.
 
    * Si vous avez accès à plusieurs organisations IMS, sélectionnez celle qui convient.
 
-Pour plus d’informations sur l’interface d’Experience Cloud, notamment sur la gestion de votre profil utilisateur, voir « [Interface et administration d’Experience Cloud ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud) ».
+Pour plus d’informations sur l’interface d’Experience Cloud, notamment sur la gestion de votre profil utilisateur, voir « [Interface et administration d’Experience Cloud &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud) ».
 
 ### Dépannage
 

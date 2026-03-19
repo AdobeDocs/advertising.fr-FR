@@ -40,7 +40,7 @@ Pour afficher une campagne plus en détail, cliquez sur son nom.
 
 #### Indicateurs d’alerte
 
-Une colonne « [!UICONTROL Alerts] » indique lorsqu’une campagne ou toute entité enfant située en dessous rencontre un problème. Une icône [!UICONTROL Pulse Panel] à droite de la barre d’outils indique également si des alertes sont disponibles pour les entités répertoriées. Voir « [ Afficher les alertes ](campaign-alerts.md) pour plus d’informations.
+Une colonne « [!UICONTROL Alerts] » indique lorsqu’une campagne ou toute entité enfant située en dessous rencontre un problème. Une icône [!UICONTROL Pulse Panel] à droite de la barre d’outils indique également si des alertes sont disponibles pour les entités répertoriées. Voir « [&#x200B; Afficher les alertes &#x200B;](campaign-alerts.md) pour plus d’informations.
 
 ## Création de rapports de campagne unique {#single-campaign-reporting}
 
@@ -52,7 +52,7 @@ Dans une campagne, vous pouvez filtrer les données en fonction de l’entité d
 
 Pour chaque campagne, vous pouvez [personnaliser des graphiques de tendances de série temporelle](campaign-data-views-manage.md#data-visualizations-manage) avec trois mesures disponibles dans chaque vue d’entité. Les mêmes mesures sont conservées dans tous les graphiques de tendance de la campagne.
 
-Pour plus d’informations[ consultez la section ](#chart-view) « Vue du graphique » sur les mesures inter-campagnes.
+Pour plus d’informations[&#x200B; consultez la section &#x200B;](#chart-view) « Vue du graphique » sur les mesures inter-campagnes.
 
 ### Vue Tableau
 
@@ -60,7 +60,7 @@ Dans chaque onglet d’entité, chaque ligne comprend les mesures de fréquence 
 
 #### Indicateurs d’alerte
 
-Une colonne « [!UICONTROL Alerts] » indique lorsqu’un package, un emplacement ou une annonce publicitaire (ou toute entité enfant sous un package ou un emplacement) rencontre un problème. Une colonne « [!UICONTROL Alerts] » indique lorsqu’une campagne ou toute entité enfant située en dessous rencontre un problème. Une icône [!UICONTROL Pulse Panel] à droite de la barre d’outils indique également si des alertes sont disponibles pour les entités répertoriées. Voir « [ Afficher les alertes ](campaign-alerts.md) pour plus d’informations.
+Une colonne « [!UICONTROL Alerts] » indique lorsqu’un package, un emplacement ou une annonce publicitaire (ou toute entité enfant sous un package ou un emplacement) rencontre un problème. Une colonne « [!UICONTROL Alerts] » indique lorsqu’une campagne ou toute entité enfant située en dessous rencontre un problème. Une icône [!UICONTROL Pulse Panel] à droite de la barre d’outils indique également si des alertes sont disponibles pour les entités répertoriées. Voir « [&#x200B; Afficher les alertes &#x200B;](campaign-alerts.md) pour plus d’informations.
 
 ### Autres types de rapports au niveau des campagnes
 
