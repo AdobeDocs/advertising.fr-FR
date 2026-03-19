@@ -3,9 +3,9 @@ title: Principes fondamentaux de  [!DNL Marketing Channels]
 description: Découvrez les informations clés sur  [!DNL Analytics Marketing Channels]  que les utilisateurs et  [!DNL Analytics for Advertising]  utilisatrices doivent comprendre.
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
+source-git-commit: e0436d3840fc138bad6ee3e3599cffd2385750cd
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Cette page fournit des informations clés sur les [!DNL Analytics Marketing Channels] que [!DNL Analytics for Advertising] utilisateurs doivent comprendre.
 
-Pour obtenir une documentation complète sur les [!DNL Marketing Channels], voir « [Prise en main de  [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html?lang=fr) ».
+Pour obtenir une documentation complète sur les [!DNL Marketing Channels], voir « [Prise en main de  [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html) ».
 
 ## Présentation de [!DNL Marketing Channels]
 
@@ -24,7 +24,7 @@ Prenons l’exemple suivant d’un parcours de visites croisées. Chaque visite 
 
 ![Exemple de parcours de conversion entre visites dans les canaux marketing](/help/integrations/assets/a4adc-mc-sample-journey.png)
 
-En utilisant des règles de traitement [!UICONTROL Marketing Channels], vous pouvez créer des ensembles de logiques pour déterminer les canaux qui génèrent du trafic et pour suivre chaque canal au fur et à mesure que les utilisateurs accèdent à votre site. Par exemple, le canal [!UICONTROL Email] serait indiqué par un code de suivi unique généré lors des clics qui, une fois enregistré par Adobe Analytics, catégoriserait la visite comme provenant d’une campagne marketing par e-mail.
+En utilisant des règles de traitement [!UICONTROL Marketing Channels], vous pouvez créer des ensembles de logiques pour déterminer les canaux qui génèrent le trafic et pour suivre chaque canal au fur et à mesure que les utilisateurs et utilisatrices accèdent à votre site. Par exemple, le canal [!UICONTROL Email] serait indiqué par un code de suivi unique généré lors des clics qui, une fois enregistré par Adobe Analytics, catégoriserait la visite comme provenant d’une campagne marketing par e-mail.
 
 ## Règles de traitement et définition des canaux marketing
 
@@ -36,12 +36,12 @@ Les autres canaux ne disposent pas de chemins d’URL traçables et ont besoin d
 
 Adobe recommande de travailler avec votre équipe d’analyse pour créer un ensemble complet de règles de traitement des [!DNL Marketing Channels] afin de suivre tous les canaux pertinents pour votre entreprise. Cela vous permet de créer des rapports d’attribution puissants.
 
-Pour comprendre comment Adobe Advertising peut contribuer aux signaux nécessaires à la création de canaux marketing personnalisés, consultez la section « [&#x200B; Utilisation d’Advertising ID pour créer [!DNL Marketing Channels] règles](mc-ids.md) ».
+Pour comprendre comment Adobe Advertising peut contribuer aux signaux nécessaires à la création de canaux marketing personnalisés, consultez la section « [ Utilisation des Adobe Advertising ID pour créer [!DNL Marketing Channels] traiter des règles ](mc-ids.md) ».
 
 >[!MORELIKETHIS]
 >
 >* [Utilisation des Adobe Advertising ID pour la création [!DNL Marketing Channels] le traitement des règles](mc-ids.md)
 >* [Pourquoi les données de canal peuvent varier entre Adobe Advertising et  [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Utilisation [!DNL Analytics Marketing Channels] avec des données Adobe Advertising](mc-ac-data.md)
->* [Vidéo : Utilisation  [!DNL Marketing Channels]  rapports Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=fr)
+>* [Vidéo : Utilisation  [!DNL Marketing Channels]  rapports pour Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Présentation de  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
