@@ -3,9 +3,9 @@ title: Colonnes de rapport disponibles
 description: Voir les descriptions des colonnes disponibles dans les rapports personnalisés.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 784d65f60de8962e634613f513037b2a6e6058bc
 workflow-type: tm+mt
-source-wordcount: '2933'
+source-wordcount: '2927'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,8 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | Contenu/titre du film. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | La série de contenu. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | Le genre du contenu. |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | La qualité de la production, telle que définie par le laboratoire [IAB Technology Laboratory](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). Les valeurs peuvent `Unknown`, `Professionally Produced`, `Prosumer` ou `User Generated`. |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | Type de contenu, tel que défini par le [Laboratoire de technologie de l’IAB](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). Les valeurs peuvent inclure `Video,` `Game`, `Music`, `Application`, `Text`, `Other` ou `Unknown`. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | Qualité de production, telle que définie par [le [!DNL IAB Technology Laboratory]](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). Les valeurs peuvent `Unknown`, `Professionally Produced`, `Prosumer` ou `User Generated`. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | Type de contenu, tel que défini par [le [!DNL IAB Technology Laboratory]](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). Les valeurs peuvent inclure `Video,` `Game`, `Music`, `Application`, `Text`, `Other` ou `Unknown`. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Rating] | Évaluation du contenu, tel que PG ou R. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Livestream] | Indique si l’annonce a été diffusée en direct : `Not Live` ou `Live`. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Length (in seconds)] | Longueur du contenu en secondes. Généralement utilisé pour la vidéo ou l’audio. |
@@ -271,7 +271,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
+>* [Rapports personnalisés](/help/dsp/reports/report-about.md)
 >* [Créer un rapport personnalisé](/help/dsp/reports/report-create.md)
 >* [Dupliquer un rapport personnalisé](/help/dsp/reports/report-copy.md)
 >* [Modifier un rapport personnalisé](/help/dsp/reports/report-edit.md)

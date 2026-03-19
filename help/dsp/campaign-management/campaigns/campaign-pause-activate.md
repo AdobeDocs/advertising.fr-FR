@@ -3,7 +3,7 @@ title: Mettre en pause ou activer une campagne
 description: Découvrez comment suspendre ou activer une campagne active.
 feature: DSP Campaigns
 exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 85d0697069569bed352af5ec1fea023220eec263
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
