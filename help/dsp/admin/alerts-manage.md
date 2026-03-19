@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * Pour modifier une alerte dans un abonnement :
 
-   1. À droite du nom de l’abonnement, cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
+   1. À droite du nom de l’abonnement, cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
 
    1. Modifiez les paramètres d’alerte.
 
