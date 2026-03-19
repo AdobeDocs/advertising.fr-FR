@@ -112,7 +112,7 @@ Triez le pourcentage de conversions totales sur plusieurs appareils ([!UICONTROL
 
 >[!MORELIKETHIS]
 >
->* [Paramètres des rapports ](/help/dsp/reports/report-settings.md)
+>* [Paramètres des rapports &#x200B;](/help/dsp/reports/report-settings.md)
 >* [Paramètres de Campaign](/help/dsp/campaign-management/campaigns/campaign-settings.md)
->* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; Paramètres du package &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
