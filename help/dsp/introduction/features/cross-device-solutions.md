@@ -3,7 +3,7 @@ title: Solutions sur plusieurs appareils
 description: En savoir plus sur les fonctionnalités inter-appareils.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 2c7ba1862b1883b4523d9121d8b0761129ad70fb
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 0%
@@ -42,7 +42,7 @@ La gestion des fréquences basée sur les personnes vous permet de spécifier de
 
 * **Campagnes :** lorsque vous créez une campagne, vous pouvez spécifier un paramètre de [!UICONTROL Cross-Device Level]. Activez « [!UICONTROL Same Device] » -> « [!UICONTROL People] » et sélectionnez un graphique d’appareil. Le graphique d’appareil spécifié est utilisé pour le ciblage inter-appareils au niveau de l’emplacement et pour la gestion des fréquences basée sur les personnes au niveau de la campagne, du package et de l’emplacement. Les limites de fréquence s’appliquent à tous les appareils connus d’une personne.
 
-Pour plus d’informations, voir [Paramètres de campagne](/help/dsp/campaign-management/campaigns/campaign-settings.md).
+Pour plus d’informations, voir [Paramètres de Campaign](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
 Une fois une campagne enregistrée, vous ne pouvez plus modifier son paramètre [!UICONTROL Cross Device Level].
 
@@ -58,7 +58,7 @@ Le ciblage basé sur les personnes vous permet de trouver des clients sur les or
 
 * **Campagnes :** lorsque vous créez une campagne, vous pouvez spécifier un paramètre de [!UICONTROL Cross-Device Level]. Activez « [!UICONTROL Same Device] » -> « [!UICONTROL People] » et sélectionnez un graphique d’appareil. Le graphique d’appareil spécifié est utilisé pour le ciblage inter-appareils au niveau de l’emplacement et pour la gestion des fréquences basée sur les personnes.
 
-Pour plus d’informations, voir [Paramètres de campagne](/help/dsp/campaign-management/campaigns/campaign-settings.md).
+Pour plus d’informations, voir [Paramètres de Campaign](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
 * **Emplacements :** lorsque vous sélectionnez des cibles d’audience pour un emplacement dans une campagne avec un graphique d’appareil spécifié, une option de [!UICONTROL Cross-Device Targeting] vous permet d’étendre votre ciblage sur tous les appareils connus d’une personne (selon le graphique d’appareil spécifié dans les paramètres de la campagne), même les appareils qui ne se trouvent pas dans les segments spécifiés.
 
@@ -112,7 +112,7 @@ Triez le pourcentage de conversions totales sur plusieurs appareils ([!UICONTROL
 
 >[!MORELIKETHIS]
 >
->* [Paramètres des rapports](/help/dsp/reports/report-settings.md)
->* [Paramètres de la campagne](/help/dsp/campaign-management/campaigns/campaign-settings.md)
->* [Paramètres du package](/help/dsp/campaign-management/packages/package-settings.md)
+>* [Paramètres des rapports ](/help/dsp/reports/report-settings.md)
+>* [Paramètres de Campaign](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
