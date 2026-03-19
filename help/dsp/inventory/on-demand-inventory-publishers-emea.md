@@ -1,11 +1,11 @@
 ---
 title: '[!DNL On Demand] éditeurs d''inventaire premium en Europe, au Moyen-Orient et en Afrique'
-description: '[!DNL On Demand] Éditeurs d''inventaire Premium en Europe, au Moyen-Orient et en Afrique'
+description: '[!DNL On Demand] éditeurs d''inventaire premium en Europe, au Moyen-Orient et en Afrique'
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: c6d921a7916d941413ca59b6133a37b6208fb117
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -227,8 +227,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [À propos [!DNL On Demand] de l’inventaire Premium](on-demand-inventory-about.md)
->* [Abonnement et demande d’accès à l’inventaire  [!DNL On Demand]  Premium](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] Éditeurs d&#39;inventaire Premium en Asie-Pacifique](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Éditeurs Premium en Australie et en Nouvelle-Zélande](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Éditeurs d&#39;inventaire Premium en Amérique du Nord](on-demand-inventory-publishers-na.md)
+>* [À propos [!DNL On Demand] des stocks Premium](on-demand-inventory-about.md)
+>* [Abonnez-vous et demandez l’accès  [!DNL On Demand]  offres d’inventaire premium](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] éditeurs d&#39;inventaire premium en Asie-Pacifique](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] éditeurs d&#39;inventaire premium en Australie et en Nouvelle-Zélande](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] éditeurs d&#39;inventaire premium en Amérique du Nord](on-demand-inventory-publishers-na.md)
