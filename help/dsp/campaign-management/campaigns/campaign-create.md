@@ -24,7 +24,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [À propos de la gestion des campagnes dans Advertising DSP](campaign-about.md)
->* [ Dupliquer une campagne ](campaign-duplicate.md)
+>* [&#x200B; Dupliquer une campagne &#x200B;](campaign-duplicate.md)
 >* [Modifier une campagne](campaign-edit.md)
 >* [Afficher le journal des modifications d&#39;une campagne](campaign-change-log.md)
 >* [Paramètres de Campaign](campaign-settings.md)

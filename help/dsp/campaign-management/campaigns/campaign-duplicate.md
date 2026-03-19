@@ -22,7 +22,7 @@ Dupliquez une campagne pour créer une campagne avec des paramètres similaires.
 
 * Modifier les dates de vol de la nouvelle campagne
 
-Pour obtenir la liste des paramètres d&#39;emplacement qui ne sont pas dupliqués[ reportez-vous à « ](#campaign-not-duplicated)Qu&#39;est-ce qui n&#39;est pas dupliqué ? ».
+Pour obtenir la liste des paramètres d&#39;emplacement qui ne sont pas dupliqués[&#x200B; reportez-vous à « &#x200B;](#campaign-not-duplicated)Qu&#39;est-ce qui n&#39;est pas dupliqué ? ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 

@@ -77,5 +77,5 @@ Vous pouvez charger des feuilles de balises [!DNL DoubleClick] et [!DNL Flashtal
 >* [À propos de la gestion des publicités dans Advertising DSP](ad-about.md)
 >* [Spécifications publicitaires](ad-specs.md)
 >* [Créer une seule annonce publicitaire](ad-create.md)
->* [Vidéo : Comment télécharger en bloc des balises d’annonce publicitaire tierces ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [Vidéo : Comment télécharger en bloc des balises d’annonce publicitaire tierces &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 >* [FAQ sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md)
