@@ -3,9 +3,9 @@ title: Dupliquer un package
 description: Découvrez comment dupliquer un package.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Dupliquez un package pour créer un package avec des paramètres similaires. Vou
 
 * Modifier les dates de vol du nouveau forfait
 
-Voir « [&#x200B; Non dupliqué &#x200B;](#package-not-duplicated) » pour obtenir une liste des paramètres d’emplacement qui ne sont pas dupliqués.
+Pour obtenir la liste des paramètres d&#39;emplacement qui ne sont pas dupliqués[ reportez-vous à « ](#package-not-duplicated)Qu&#39;est-ce qui n&#39;est pas dupliqué ? ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -90,12 +90,12 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 
    * Créez de nouveaux emplacements pour les offres [!UICONTROL Simple Ad Serving], si nécessaire.
 
-* Pour les packages qui utilisent des objectifs d’optimisation personnalisés, utilisez le paramètre [[!UICONTROL Linked Package for Optimization Learnings Carryover] &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) pour chaque package afin d’utiliser les données historiques de la campagne précédente comme entrée pour optimiser le package.
+* Pour les packages qui utilisent des objectifs d’optimisation personnalisés, utilisez le paramètre [[!UICONTROL Linked Package for Optimization Learnings Carryover] ](/help/dsp/campaign-management/packages/package-settings.md) pour chaque package afin d’utiliser les données historiques de la campagne précédente comme entrée pour optimiser le package.
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des packages](package-about.md)
+>* [Gestion des packages dans Advertising DSP](package-about.md)
 >* [Créer un package](package-create.md)
 >* [Modifier un package](package-edit.md)
 >* [Afficher le journal des modifications d&#39;un package](package-change-log.md)
->* [Paramètres du package](package-settings.md)
+>* [ Paramètres du package ](package-settings.md)

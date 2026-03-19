@@ -3,9 +3,9 @@ title: Dupliquer les emplacements
 description: Découvrez comment dupliquer un ou plusieurs emplacements.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Dupliquez un ou plusieurs emplacements pour créer des emplacements avec des par
 * (Pour les emplacements dupliqués dans les campagnes d’origine) Dupliquez éventuellement les annonces d’origine
 * Modifier le statut et les dates de vol des nouveaux emplacements
 
-Voir « [&#x200B; Non dupliqué &#x200B;](#placement-not-duplicated) » pour obtenir une liste des paramètres d’emplacement qui ne sont pas dupliqués.
+Pour obtenir la liste des paramètres d&#39;emplacement qui ne sont pas dupliqués[ reportez-vous à « ](#placement-not-duplicated)Qu&#39;est-ce qui n&#39;est pas dupliqué ? ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -97,8 +97,8 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des emplacements](placement-about.md)
+>* [À propos de la gestion des emplacements dans Advertising DSP](placement-about.md)
 >* [Créer un emplacement](placement-create.md)
 >* [Modifier les emplacements](placement-edit.md)
->* [Afficher le journal des modifications pour un emplacement](placement-change-log.md)
+>* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)

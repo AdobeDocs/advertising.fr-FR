@@ -3,7 +3,7 @@ title: Résolution des problèmes de performances
 description: Référencez les problèmes de performances courants et découvrez comment les résoudre.
 feature: DSP Optimization
 exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -32,5 +32,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Paramètres du package](/help/dsp/campaign-management/packages/package-settings.md)
->* [Paramètres de la campagne](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
+>* [Paramètres de Campaign](/help/dsp/campaign-management/campaigns/campaign-settings.md)
