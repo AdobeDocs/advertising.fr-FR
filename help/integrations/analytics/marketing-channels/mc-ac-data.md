@@ -3,7 +3,7 @@ title: Utilisation  [!DNL Marketing Channels]  données Adobe Advertising
 description: Découvrez comment utiliser les données Adobe Advertising dans  [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 522c7f01-1138-477d-8018-36030caab55e
-source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
+source-git-commit: 4db751aae61eaf8abdc5e3afca3b4027f0eddf26
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -40,7 +40,7 @@ L’analyse suivante utilise les données Adobe Advertising pour montrer différ
 
 Vous pouvez pousser cette analyse un peu plus loin. Vous pouvez ventiler davantage la ligne Adobe Advertising par canal marketing pour voir où les conversions Adobe Advertising sont attribuées aux démarrages d’applications 641. Vous savez déjà que cinq de ces conversions sont attribuées à un dernier clic d’affichage tactile et 19 à un dernier clic d’affichage tactile. Il reste encore 617 démarrages d’applications attribués à d’autres canaux marketing. Vous pouvez faire glisser et déposer la dimension Canal Dernière touche en haut de l’élément de ligne Advertising DSP afin d’afficher l’attribution du canal pour le reste des démarrages d’applications et montrer l’impact cross-canal du canal d’affichage.
 
-![comment ajouter la dimension Canal Dernière touche &#x200B;](/help/integrations/assets/a4adc-mc-display-impact-ltc.png)
+![comment ajouter la dimension Canal Dernière touche ](/help/integrations/assets/a4adc-mc-display-impact-ltc.png)
 
 Maintenant, vous pouvez voir comment les démarrages d&#39;applications restants sont attribués. L’e-mail est crédité de 357 démarrages d’applications Last Touch pour lesquels un AMO ID a persisté. Grâce à ce type d’analyse, vous pouvez voir l’impact des publicités display d’Adobe Advertising sur tous les canaux. Avec un seul jeu de données et modèle d’attribution, ce type d’insight ne serait pas disponible.
 
@@ -55,5 +55,5 @@ Vous pouvez améliorer davantage l’analyse en utilisant un graphique de pile d
 >* [Principes fondamentaux de  [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Utilisation des Adobe Advertising ID pour la création [!DNL Marketing Channels] le traitement des règles](mc-ids.md)
 >* [Pourquoi les données de canal peuvent varier entre Adobe Advertising et  [!DNL Marketing Channels]](mc-data-variances.md)
->* [Vidéo : Utilisation  [!DNL Marketing Channels]  rapports Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=fr)
+>* [Vidéo : Utilisation  [!DNL Marketing Channels]  rapports pour Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Présentation de  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
