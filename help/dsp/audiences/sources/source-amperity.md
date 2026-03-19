@@ -3,7 +3,7 @@ title: Convertir les ID utilisateur de  [!DNL Amperity]  en ID universels
 description: Découvrez comment activer DSP pour ingérer vos segments  [!DNL Amperity] .
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -82,17 +82,17 @@ Les segments seront actualisés tels que configurés pour l’annonceur dans [!D
 
 Une fois que DSP a reçu les données de segment, le nombre de profils des audiences doit être visible dans les neuf (9) heures.
 
-Dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement), comparez le nombre d’identifiants universels avec le nombre d’adresses e-mail hachées d’origine. Pour plus d’informations sur les taux de traduction des identifiants acceptables et sur les raisons pour lesquelles le nombre de segments peut varier, voir « [Variances de données entre les ID d’e-mail et les ID universels](#universal-ids-data-variances) ».
+Dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement), comparez le nombre d’identifiants universels avec le nombre d’adresses e-mail hachées d’origine. Pour plus d’informations sur les taux de traduction des identifiants acceptables et sur les raisons pour lesquelles le nombre de segments peut varier, voir « [Variances des données entre les ID d’e-mail et les ID universels](#universal-ids-data-variances) ».
 
 ## Dépannage
 
-Pour résoudre les problèmes de taux de traduction et de nombre d’utilisateurs, consultez « [&#x200B; Prise en charge de l’activation des identifiants universels &#x200B;](/help/dsp/audiences/universal-ids.md) ».
+Pour résoudre les problèmes de taux de traduction et de nombre d’utilisateurs, consultez « [Prise en charge de l’activation des ID universels](/help/dsp/audiences/universal-ids.md) ».
 
 Pour résoudre les problèmes liés à la procédure de conversion, contactez l’équipe ou l’`adcloud-support@adobe.com` de votre compte Adobe.
 
 >[!MORELIKETHIS]
 >
->* [À Propos Des Sources D’Audience Propriétaires](/help/dsp/audiences/sources/source-about.md)
->* [Gérer les sources d’audience pour activer les audiences Universal ID](source-manage.md)
+>* [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md)
+>* [Gérer les sources d’audience pour activer les audiences d’ID universel](source-manage.md)
 >* [Prise en charge de l’activation des identifiants universels](/help/dsp/audiences/universal-ids.md)
->* [À propos de la gestion de l’audience](/help/dsp/audiences/audience-about.md)
+>* [À propos de la gestion des audiences](/help/dsp/audiences/audience-about.md)

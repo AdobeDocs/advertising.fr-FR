@@ -3,9 +3,9 @@ title: Présentation de la gestion des campagnes dans Advertising DSP
 description: Découvrez la hiérarchie et les composants de la gestion des campagnes.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -48,12 +48,12 @@ Toutes les annonces actives et approuvées d’un emplacement actif dans une cam
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion de campagnes](/help/dsp/campaign-management/campaigns/campaign-about.md)
->* [À propos de la gestion des packages](/help/dsp/campaign-management/packages/package-about.md)
->* [À propos de la gestion des emplacements](/help/dsp/campaign-management/placements/placement-about.md)
->* [À propos de la gestion des publicités](/help/dsp/campaign-management/ads/ad-about.md)
->* [Liste de contrôle de Campaign Launch](/help/dsp/campaign-management/campaign-launch-checklist.md)
+>* [À propos de la gestion des campagnes dans Advertising DSP](/help/dsp/campaign-management/campaigns/campaign-about.md)
+>* [Gestion des packages dans Advertising DSP](/help/dsp/campaign-management/packages/package-about.md)
+>* [À propos de la gestion des emplacements dans Advertising DSP](/help/dsp/campaign-management/placements/placement-about.md)
+>* [À propos de la gestion des publicités dans Advertising DSP](/help/dsp/campaign-management/ads/ad-about.md)
+>* [Liste de contrôle de lancement de Campaign](/help/dsp/campaign-management/campaign-launch-checklist.md)
 >* [Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [Types de rapports de performances dans les vues de gestion de campagnes](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [Gestion Des Vues De Données De Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [Vidéo : structure du compte DSP et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=fr)
+>* [Gérer les vues de données de votre campagne](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [Vidéo : structure du compte DSP et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

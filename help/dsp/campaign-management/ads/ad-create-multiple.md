@@ -3,9 +3,9 @@ title: Création de plusieurs annonces publicitaires tierces
 description: Découvrez comment créer plusieurs annonces tierces à la fois.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,8 @@ Vous pouvez charger des feuilles de balises [!DNL DoubleClick] et [!DNL Flashtal
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des publicités](ad-about.md)
+>* [À propos de la gestion des publicités dans Advertising DSP](ad-about.md)
 >* [Spécifications publicitaires](ad-specs.md)
->* [Créer une publicité unique](ad-create.md)
->* [Vidéo : Comment télécharger en bloc des balises de publicité tierces &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=fr)
->* [FAQ sur Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Créer une seule annonce publicitaire](ad-create.md)
+>* [Vidéo : Comment télécharger en bloc des balises d’annonce publicitaire tierces ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [FAQ sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md)

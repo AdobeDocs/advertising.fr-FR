@@ -3,9 +3,9 @@ title: Joindre un emplacement à un package
 description: Découvrez comment joindre un emplacement à un package.
 feature: DSP Packages
 exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -58,8 +58,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des packages](package-about.md)
+>* [Gestion des packages dans Advertising DSP](package-about.md)
 >* [Créer un package](package-create.md)
 >* [Afficher le journal des modifications d&#39;un package](package-change-log.md)
->* [Paramètres du package](package-settings.md)
+>* [ Paramètres du package ](package-settings.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -3,9 +3,9 @@ title: Afficher les paramètres d’annonce publicitaire
 description: Consultez les descriptions des paramètres d’annonce publicitaire disponibles pour l’affichage des annonces.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,8 @@ Les paramètres ci-dessous concernent les publicités display standard.
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des publicités](ad-about.md)
->* [Créer une publicité unique](ad-create.md)
+>* [À propos de la gestion des publicités dans Advertising DSP](ad-about.md)
+>* [Créer une seule annonce publicitaire](ad-create.md)
 >* [Liste des emplacements associés à une publicité](ad-list-placements.md)
 >* [Spécifications publicitaires](ad-specs.md)
 >* [Macros DSP](/help/dsp/campaign-management/macros.md)

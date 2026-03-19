@@ -3,9 +3,9 @@ title: Paramètres universels des publicités vidéo
 description: Consultez les descriptions des paramètres d’annonces publicitaires disponibles pour les annonces vidéo universelles.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -64,9 +64,9 @@ Utilisez [!UICONTROL VAST], qui ne permet pas de mesurer la visibilité, lorsque
 
 >[!MORELIKETHIS]
 >
->* [FAQ sur Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
->* [À propos de la gestion des publicités](ad-about.md)
->* [Créer une publicité unique](ad-create.md)
+>* [FAQ sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md)
+>* [À propos de la gestion des publicités dans Advertising DSP](ad-about.md)
+>* [Créer une seule annonce publicitaire](ad-create.md)
 >* [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Spécifications publicitaires](ad-specs.md)
 >* [Macros DSP](/help/dsp/campaign-management/macros.md)

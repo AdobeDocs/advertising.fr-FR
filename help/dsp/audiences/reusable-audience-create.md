@@ -3,7 +3,7 @@ title: Créer une audience réutilisable
 description: Découvrez comment créer des audiences réutilisables composées de segments d’audience et d’autres audiences enregistrées.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Vous pouvez enregistrer et gérer des audiences réutilisables, qui sont des gro
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion de l’audience](audience-about.md)
+>* [À propos de la gestion des audiences](audience-about.md)
 >* [Paramètres de l’audience](audience-settings.md)
 >* [Syntaxe de la logique de segment d’audience](audience-segment-logic-syntax.md)
 >* [Fournisseurs de données tiers disponibles](third-party-data-providers.md)

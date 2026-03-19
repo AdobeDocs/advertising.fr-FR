@@ -3,9 +3,9 @@ title: Dupliquer une campagne
 description: Découvrez comment dupliquer une campagne.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Dupliquez une campagne pour créer une campagne avec des paramètres similaires.
 
 * Modifier les dates de vol de la nouvelle campagne
 
-Voir « [&#x200B; Non dupliqué &#x200B;](#campaign-not-duplicated) » pour obtenir une liste des paramètres d’emplacement qui ne sont pas dupliqués.
+Pour obtenir la liste des paramètres d&#39;emplacement qui ne sont pas dupliqués[ reportez-vous à « ](#campaign-not-duplicated)Qu&#39;est-ce qui n&#39;est pas dupliqué ? ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -84,8 +84,8 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion de campagnes](campaign-about.md)
+>* [À propos de la gestion des campagnes dans Advertising DSP](campaign-about.md)
 >* [Créer une campagne](campaign-create.md)
 >* [Modifier une campagne](campaign-edit.md)
 >* [Afficher le journal des modifications d&#39;une campagne](campaign-change-log.md)
->* [Paramètres de la campagne](campaign-settings.md)
+>* [Paramètres de Campaign](campaign-settings.md)

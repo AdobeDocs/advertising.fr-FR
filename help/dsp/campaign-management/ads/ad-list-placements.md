@@ -3,9 +3,9 @@ title: Liste des emplacements associés à une publicité
 description: Découvrez comment afficher les emplacements associés à une annonce publicitaire.
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Affichez une liste d’emplacements associés à une annonce publicitaire pour a
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des publicités](ad-about.md)
->* [Modifier une publicité](ad-edit.md)
+>* [À propos de la gestion des publicités dans Advertising DSP](ad-about.md)
+>* [Modification d’une publicité](ad-edit.md)
 >* [Modifier les emplacements](/help/dsp/campaign-management/placements/placement-edit.md)
->* [Afficher un rapport détaillé pour un emplacement](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Affichage d’un rapport détaillé pour un emplacement](/help/dsp/campaign-management/placements/placement-view-report.md)

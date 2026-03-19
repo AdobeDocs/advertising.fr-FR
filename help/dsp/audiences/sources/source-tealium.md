@@ -3,7 +3,7 @@ title: Convertir les ID utilisateur de  [!DNL Tealium]  en ID universels
 description: Découvrez comment activer DSP pour ingérer vos segments  [!DNL Tealium] .
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -142,19 +142,19 @@ Vous ne pouvez avoir qu’un seul connecteur par segment et un seul segment par 
 
 Les segments doivent être disponibles dans DSP dans les 24 heures. Une fois que DSP a reçu les données de segment, le nombre de profils des audiences doit être visible dans les neuf (9) heures.
 
-Vérifiez dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le segment est renseigné et comparez le nombre d’identifiants universels avec le nombre d’adresses e-mail hachées d’origine. Pour plus d’informations sur les taux de traduction des identifiants acceptables et sur les raisons pour lesquelles le nombre de segments peut varier, voir « [Variances de données entre les ID d’e-mail et les ID universels](#universal-ids-data-variances) ».
+Vérifiez dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le segment est renseigné et comparez le nombre d’identifiants universels avec le nombre d’adresses e-mail hachées d’origine. Pour plus d’informations sur les taux de traduction des identifiants acceptables et sur les raisons pour lesquelles le nombre de segments peut varier, voir « [Variances des données entre les ID d’e-mail et les ID universels](#universal-ids-data-variances) ».
 
 Les segments sont actualisés toutes les 24 heures. Cependant, l’inclusion dans un segment expire après 30 jours par défaut ou après une période d’expiration spécifiée par le client ou la cliente. Actualisez vos segments en les poussant à nouveau depuis [!DNL Tealium] avant l’expiration. Pour demander une expiration de segment personnalisé, contactez l’équipe chargée de votre compte Adobe.
 
 ## Dépannage
 
-Pour résoudre les problèmes de taux de traduction et de nombre d’utilisateurs, consultez « [&#x200B; Prise en charge de l’activation des identifiants universels &#x200B;](/help/dsp/audiences/universal-ids.md) ».
+Pour résoudre les problèmes de taux de traduction et de nombre d’utilisateurs, consultez « [Prise en charge de l’activation des ID universels](/help/dsp/audiences/universal-ids.md) ».
 
 Pour résoudre les problèmes liés à la procédure de conversion, contactez l’équipe ou l’`adcloud-support@adobe.com` de votre compte Adobe.
 
 >[!MORELIKETHIS]
 >
->* [À Propos Des Sources D’Audience Propriétaires](/help/dsp/audiences/sources/source-about.md)
->* [Gérer les sources d’audience pour activer les audiences Universal ID](source-manage.md)
+>* [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md)
+>* [Gérer les sources d’audience pour activer les audiences d’ID universel](source-manage.md)
 >* [Prise en charge de l’activation des identifiants universels](/help/dsp/audiences/universal-ids.md)
->* [À propos de la gestion de l’audience](/help/dsp/audiences/audience-about.md)
+>* [À propos de la gestion des audiences](/help/dsp/audiences/audience-about.md)

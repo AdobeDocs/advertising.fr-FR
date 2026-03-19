@@ -3,7 +3,7 @@ title: Prise en charge de l’activation des identifiants universels
 description: Découvrez la prise en charge de l’importation de vos segments d’ID universels, de la création de segments personnalisés pour effectuer le suivi des ID universels et de la conversion d’autres identifiants d’utilisateur de vos segments propriétaires en ID universels pour le ciblage sans cookie.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 DSP prend en charge les identifiants universels basés sur les personnes pour le ciblage sans cookie sur un seul appareil (et non sur plusieurs appareils) à travers les formats numériques pris en charge par DSP.
 
-* Vous pouvez envoyer manuellement vos [[!DNL LiveRamp] [!DNL RampIDs]] authentifiés directement à DSP à l&#39;aide du tableau de bord [!DNL LiveRamp] [!DNL Connect]. Voir « [&#x200B; Importer manuellement des segments authentifiés depuis  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md) ».
+* Vous pouvez envoyer manuellement vos [[!DNL LiveRamp] [!DNL RampIDs]] authentifiés directement à DSP à l&#39;aide du tableau de bord [!DNL LiveRamp] [!DNL Connect]. Voir « [ Importer manuellement des segments authentifiés depuis  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md) ».
 
-* DSP peut ingérer vos segments propriétaires composés d’identifiants d’e-mail hachés créés dans votre plateforme de données client (CDP) et les convertir en identifiants d’[!DNL LiveRamp] et de [!DNL RampIDs] [!DNL Unified ID 2.0 (UID2.0)]. Pour plus d’informations sur les plateformes de données client prises en charge, les fonctionnalités disponibles pour chaque type d’identifiant universel pris en charge et les workflows associés, reportez-vous à « [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md) ».
+* DSP peut ingérer vos segments propriétaires composés d’identifiants d’e-mail hachés créés dans votre plateforme de données client (CDP) et les convertir en identifiants d’[!DNL LiveRamp] et de [!DNL RampIDs] [!DNL Unified ID 2.0 (UID2.0)]. Pour plus d’informations sur les plateformes de données client prises en charge, les fonctionnalités disponibles pour chaque type d’identifiant universel pris en charge et les workflows associés, reportez-vous à « [ À propos des sources d’audience propriétaires ](/help/dsp/audiences/sources/source-about.md) ».
 
-* Vous pouvez créer des segments personnalisés qui effectuent le suivi des utilisateurs associés aux identifiants universels ID5 qui sont exposés aux publicités provenant des ordinateurs de bureau et des appareils mobiles et qui visitent des pages web spécifiques. ID5 utilise un modèle probabiliste pour attribuer un identifiant dérivé de divers signaux utilisateur et signaux navigateur. Pour obtenir des instructions, voir « [Création et implémentation d’un segment personnalisé](/help/dsp/audiences/custom-segment-create.md) ».
+* Vous pouvez créer des segments personnalisés qui effectuent le suivi des utilisateurs associés aux identifiants universels ID5 qui sont exposés aux publicités provenant des ordinateurs de bureau et des appareils mobiles et qui visitent des pages web spécifiques. ID5 utilise un modèle probabiliste pour attribuer un identifiant dérivé de divers signaux utilisateur et signaux navigateur. Pour obtenir des instructions, voir « [Créer et implémenter un segment personnalisé](/help/dsp/audiences/custom-segment-create.md) ».
 
 * Les segments tiers de certains fournisseurs peuvent automatiquement inclure des identifiants universels en plus des utilisateurs suivis par des cookies ou des identifiants d’appareil. Par exemple, les segments provenant de l’adresse [!DNL Eyeota] peuvent automatiquement inclure des identifiants ID5, et les segments provenant de l’adresse [!DNL Lotame] peuvent inclure des identifiants UID2.0. Les détails du segment incluent la taille de chaque type. Les frais d’utilisation habituels pour chaque segment, qui sont indiqués en regard du nom du segment, s’appliquent ; aucun frais supplémentaire n’est facturé pour les ID5.
 
-## Création de rapports par type d’identifiant universel
+## Reporting par type d’identifiant universel
 
 * **Rapports personnalisés :** les données de coût, d’impression, de clic, de conversion et de fréquence par type d’identifiant universel sont disponibles dans les rapports personnalisés.
 
@@ -136,9 +136,9 @@ Si vous ne parvenez pas à résoudre le problème, contactez l’équipe chargé
 
 >[!MORELIKETHIS]
 >
->* [À Propos Des Sources D’Audience Propriétaires](/help/dsp/audiences/sources/source-about.md)
->* [Gérer les sources d’audience pour activer les audiences Universal ID](/help/dsp/audiences/sources/source-manage.md)
+>* [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md)
+>* [Gérer les sources d’audience pour activer les audiences d’ID universel](/help/dsp/audiences/sources/source-manage.md)
 >* [Créer et implémenter un segment personnalisé](/help/dsp/audiences/custom-segment-create.md)
 >* [Importer manuellement des segments authentifiés depuis  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [À propos de la gestion de l’audience](/help/dsp/audiences/audience-about.md)
+>* [À propos de la gestion des audiences](/help/dsp/audiences/audience-about.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

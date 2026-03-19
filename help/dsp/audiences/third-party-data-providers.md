@@ -3,7 +3,7 @@ title: Fournisseurs de données tiers disponibles dans Advertising DSP
 description: Consultez une liste de tous les fournisseurs de données tiers disponibles.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -43,6 +43,6 @@ Pour plus d’informations sur l’importation de segments tiers personnalisés 
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion de l’audience](audience-about.md)
+>* [À propos de la gestion des audiences](audience-about.md)
 >* [Créer une audience réutilisable](reusable-audience-create.md)
 >* [Paramètres de l’audience](audience-settings.md)

@@ -3,7 +3,7 @@ title: Paramètres de l’audience
 description: Voir les descriptions des paramètres d’audience disponibles.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
+source-git-commit: edf86b00a04fb1e0b8c45101a7f19a1543fc60e6
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion de l’audience](audience-about.md)
+>* [À propos de la gestion des audiences](audience-about.md)
 >* [Créer une audience réutilisable](reusable-audience-create.md)
 >* [Fournisseurs de données tiers disponibles](third-party-data-providers.md)
 >* [Syntaxe de la logique de segment d’audience](audience-segment-logic-syntax.md)

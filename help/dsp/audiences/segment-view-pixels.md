@@ -3,7 +3,7 @@ title: Affichage des pixels de suivi pour un segment
 description: Découvrez comment afficher les pixels de tracking pour un segment d’opt-out à la vente personnalisé ou CCPA.
 feature: DSP Segments
 exl-id: 3b67ab72-d7bb-45a0-b5ba-e4b811b7d2b3
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -26,8 +26,8 @@ Une fois qu’une balise de tracking est implémentée, vous pouvez utiliser le 
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion de l’audience](audience-about.md)
+>* [À propos de la gestion des audiences](audience-about.md)
 >* [Créer un segment personnalisé](custom-segment-create.md)
 >* [Modifier les informations sur le segment](segment-edit.md)
 >* [Supprimer un segment](segment-delete.md)
->* [Partage ou arrêt du partage d’un segment](segment-share.md)
+>* [Partager ou arrêter le partage d’un segment](segment-share.md)

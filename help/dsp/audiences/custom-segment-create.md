@@ -3,7 +3,7 @@ title: Création et implémentation d’un segment personnalisé
 description: Découvrez comment créer et implémenter un segment personnalisé pour effectuer le suivi des utilisateurs exposés aux publicités ou des utilisateurs qui visitent vos pages web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -117,11 +117,11 @@ Une fois qu’une balise de tracking est implémentée, vous pouvez utiliser le 
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion de l’audience](audience-about.md)
+>* [À propos de la gestion des audiences](audience-about.md)
 >* [Modifier les informations sur le segment](segment-edit.md)
 >* [Supprimer un segment](segment-delete.md)
 >* [Affichage des pixels de suivi pour un segment](segment-view-pixels.md)
->* [Partage ou arrêt du partage d’un segment](segment-share.md)
+>* [Partager ou arrêter le partage d’un segment](segment-share.md)
 >* [Création et implémentation d’un [!UICONTROL CCPA Opt-Out-of-Sale] segment](ccpa-opt-out-segment-create.md)
 >* [Créer une audience réutilisable](reusable-audience-create.md)
 >* [Fournisseurs de données tiers disponibles](third-party-data-providers.md)

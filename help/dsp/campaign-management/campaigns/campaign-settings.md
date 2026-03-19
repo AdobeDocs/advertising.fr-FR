@@ -3,9 +3,9 @@ title: Paramètres de la campagne
 description: Voir les descriptions des paramètres de campagne disponibles.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Pour estimer les taxes à retenir :
 
 **[!UICONTROL Packages]:** les [packages](/help/dsp/campaign-management/packages/package-about.md) à inclure dans la campagne. Sélectionnez des packages existants et/ou créez des packages à inclure. Si vous créez des packages, consultez les descriptions des [paramètres du package](/help/dsp/campaign-management/packages/package-settings.md) pour plus d’informations.
 
-## [!UICONTROL Campaign Measurement]
+## [!UICONTROL Campaign measurement]
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ Pour estimer les taxes à retenir :
 
 ### [!UICONTROL 3rd Party Metrics]
 
-#### [!UICONTROL Viewability, Fraud, & Brand Safety]
+#### [!UICONTROL Viewability, fraud, & brand safety]
 
 **[!UICONTROL IAS]:** (facultatif) Permet de mesurer et de générer des rapports [!DNL IAS] sur la visibilité, la fraude, la sécurité de la marque et la vérification de l’audience, à l’aide des paramètres spécifiés. Des frais supplémentaires s’appliquent.
 
@@ -164,7 +164,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion de campagnes](campaign-about.md)
+>* [À propos de la gestion des campagnes dans Advertising DSP](campaign-about.md)
 >* [Créer une campagne](campaign-create.md)
 >* [Modifier une campagne](campaign-edit.md)
 >* [Afficher le journal des modifications d&#39;une campagne](campaign-change-log.md)

@@ -3,9 +3,9 @@ title: Création d’une campagne
 description: Découvrez comment créer une campagne.
 feature: DSP Campaigns
 exl-id: 8e401c15-018d-439b-922e-2e456eabfea4
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion de campagnes](campaign-about.md)
->* [Dupliquer une campagne](campaign-duplicate.md)
+>* [À propos de la gestion des campagnes dans Advertising DSP](campaign-about.md)
+>* [ Dupliquer une campagne ](campaign-duplicate.md)
 >* [Modifier une campagne](campaign-edit.md)
 >* [Afficher le journal des modifications d&#39;une campagne](campaign-change-log.md)
->* [Paramètres de la campagne](campaign-settings.md)
+>* [Paramètres de Campaign](campaign-settings.md)
 >* [Mettre en pause ou activer une campagne](campaign-pause-activate.md)

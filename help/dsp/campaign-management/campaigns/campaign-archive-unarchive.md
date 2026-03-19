@@ -3,7 +3,7 @@ title: Archivage ou désarchivage d’une campagne
 description: Découvrez comment archiver ou désarchiver une campagne.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%

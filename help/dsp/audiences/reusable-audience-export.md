@@ -3,7 +3,7 @@ title: Exporter les détails d’une audience réutilisable
 description: Découvrez comment afficher la configuration, la taille de l’audience et les emplacements ciblés pour une audience réutilisable.
 feature: DSP Audiences
 exl-id: 6d69706e-4398-41e0-b7a3-04ba72b08bfc
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: edf86b00a04fb1e0b8c45101a7f19a1543fc60e6
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -22,12 +22,12 @@ Vous pouvez télécharger un fichier de feuille de calcul [!DNL Microsoft Excel]
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion de l’audience](audience-about.md)
+>* [À propos de la gestion des audiences](audience-about.md)
 >* [Créer une audience réutilisable](reusable-audience-create.md)
 >* [Dupliquer une audience réutilisable](reusable-audience-duplicate.md)
 >* [Modifier une audience réutilisable](reusable-audience-edit.md)
->* [Afficher les détails sur une audience réutilisable](reusable-audience-view-details.md)
->* [Partage d’une audience réutilisable](reusable-audience-share.md)
+>* [Affichage des détails sur une audience réutilisable](reusable-audience-view-details.md)
+>* [Partager une audience réutilisable](reusable-audience-share.md)
 >* [Copiez la clé de segment pour une audience réutilisable dans le presse-papiers](reusable-audience-clipboard.md)
 >* [Supprimer une audience réutilisable](reusable-audience-delete.md)
 >* [Paramètres de l’audience](audience-settings.md)
