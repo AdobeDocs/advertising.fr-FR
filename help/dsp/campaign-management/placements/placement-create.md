@@ -147,4 +147,4 @@ ht-degree: 0%
 >* [FAQ sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Raccourcis clavier &#x200B;](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vidéo : comment créer un emplacement d’affichage standard &#x200B;](https://video.tv.adobe.com/v/340454)
+>* [Vidéo : comment créer un emplacement d’affichage standard &#x200B;](https://video.tv.adobe.com/v/344999?captions=fre_fr)
