@@ -3,7 +3,7 @@ title: Gestion des vues de données de campagne
 description: Découvrez comment personnaliser vos vues de données pour les campagnes, les packages, les emplacements et les annonces.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -44,11 +44,11 @@ Chaque niveau de gestion de campagne ([!UICONTROL Campaigns], [!UICONTROL Packag
 
 DSP enregistre votre vue la plus récente en tant que vue par défaut, de sorte que, chaque fois que vous revenez à la page, vous visualisez toujours les mesures qui vous intéressent.
 
-#### Modifier le mode Colonnes {#column-view-change}
+#### Modifier la vue des colonnes {#column-view-change}
 
 * Dans le sélecteur d’affichage, cliquez sur ![flèche vers le bas](/help/dsp/assets/chevron-down.png), puis sur le nom de l’affichage des colonnes souhaité.
 
-#### Création d’un mode Colonnes personnalisé {#column-view-create}
+#### Création d’une vue de colonne personnalisée {#column-view-create}
 
 1. Dans le sélecteur d&#39;affichage, cliquez sur ![flèche vers le bas](/help/dsp/assets/chevron-down.png), puis sur **[!UICONTROL Create View]**.
 
@@ -68,7 +68,7 @@ DSP enregistre votre vue la plus récente en tant que vue par défaut, de sorte 
 
    * Pour enregistrer les paramètres dans une nouvelle vue de colonne personnalisée, cliquez sur **[!UICONTROL Save As]**. Dans la fenêtre [!UICONTROL Save View], saisissez le nom de la nouvelle vue, puis cliquez sur **[!UICONTROL Save]**.
 
-#### Modification d’un mode Colonnes {#column-view-edit}
+#### Modification d’une vue Colonnes {#column-view-edit}
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Les filtres suivants sont disponibles pour vos vues [!UICONTROL Campaigns], [!UI
    * [!UICONTROL Ad type]
    * [!UICONTROL Creation date]
 
-### Modifier la plage de dates
+### Modifier la période
 
 Modifiez la période utilisée dans toutes les vues standard et personnalisées à l’aide du sélecteur de période situé au-dessus de tout tableau de données.
 
@@ -172,8 +172,8 @@ En bas à droite d’une page, à côté de **[!UICONTROL Items per page]** , s�
 >[!MORELIKETHIS]
 >
 >* [Types de rapports de performances dans les vues de gestion de campagnes](campaign-reports-about.md)
->* [Affichage des détails sur les sites, les publicités et la fréquence pour un emplacement](placement-details-view.md)
+>* [Afficher les sites, les publicités et les détails de fréquence pour un emplacement](placement-details-view.md)
 >* [Afficher l&#39;état de prévision d&#39;emplacement](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [Afficher les rapports de diagnostic d&#39;emplacement](placement-diagnostics.md)
->* [Exporter des données à partir d’une vue de gestion de campagne](campaign-export-data.md)
->* [Vidéo : structure du compte DSP et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=fr)
+>* [Afficher les rapports de diagnostic des emplacements](placement-diagnostics.md)
+>* [Exporter des données à partir d&#39;une vue de gestion de campagne](campaign-export-data.md)
+>* [Vidéo : structure du compte DSP et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

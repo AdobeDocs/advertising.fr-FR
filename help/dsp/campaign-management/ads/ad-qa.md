@@ -3,7 +3,7 @@ title: Révision et modification des détails des annonces publicitaires à l’
 description: Découvrez comment passer en revue les paramètres d’annonces en bloc à l’aide de feuilles de calcul.
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Pour modifier les détails de l’annonce publicitaire, voir « [Vérification e
 
 >[!NOTE]
 >
->*Pour modifier les paramètres d’une annonce publicitaire, voir aussi « [Modifier une annonce publicitaire](/help/dsp/campaign-management/ads/ad-edit.md) ».
+>*Pour modifier les paramètres d’une annonce publicitaire, voir aussi « [ Modifier une annonce ](/help/dsp/campaign-management/ads/ad-edit.md) ».
 >*Pour modifier les pixels de suivi tiers pour plusieurs annonces à la fois ou pour joindre des annonces aux emplacements, voir également « [Joindre des annonces aux emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) ».
 
 ## Télécharger les détails de toutes les annonces d’une campagne
@@ -43,17 +43,17 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
-     Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
 >[!MORELIKETHIS]
 >
->* [Modifier une publicité](/help/dsp/campaign-management/ads/ad-edit.md)
+>* [Modification d’une publicité](/help/dsp/campaign-management/ads/ad-edit.md)
 >* [Joindre des annonces à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
->* [Paramètres de publicité audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [Paramètres TV connectés](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [Afficher les paramètres de publicité](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Paramètres des publicités audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [Paramètres de la télévision connectée](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [Afficher les paramètres de l’annonce publicitaire](/help/dsp/campaign-management/ads/ad-settings-display.md)
 >* [Paramètres des annonces publicitaires mobiles](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
 >* [Paramètres natifs des publicités display](/help/dsp/campaign-management/ads/ad-settings-native.md)
 >* [Paramètres de publicité preroll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)

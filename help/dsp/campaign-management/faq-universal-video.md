@@ -1,16 +1,16 @@
 ---
-title: Questions fréquentes sur Universal Video
+title: Questions fréquentes sur la vidéo universelle
 description: En savoir plus sur les publicités vidéo universelles.
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# Questions fréquentes sur Universal Video
+# Questions fréquentes sur la vidéo universelle
 
 [Les publicités vidéo universelles](/help/dsp/campaign-management/ads/ad-about.md#ad-types) vous permettent de cibler l’inventaire vidéo à partir d’environnements de bureau, mobiles et de télévision connectée pour un inventaire VPAID et VAST à l’aide d’un seul emplacement vidéo.
 
@@ -38,11 +38,11 @@ Créez des emplacements vidéo et des annonces universels de la même manière q
    * **[!UICONTROL VPAID & VAST (Default)]:** inclut l’inventaire qui ne permet pas de mesurer la visibilité.
    * **[!UICONTROL VAST]** - Convient pour l&#39;inventaire de la télévision connectée.
 
-   Pour plus d’informations, consultez « [Paramètres universels de publicité vidéo](/help/dsp/campaign-management/ads/ad-settings-universal-video.md) ».
+   Pour plus d’informations, reportez-vous à « [ Paramètres universels de publicité vidéo ](/help/dsp/campaign-management/ads/ad-settings-universal-video.md) ».
 
 1. [Joignez les nouvelles publicités vidéo universelles](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) à l’emplacement vidéo universel.
 
-## Pourquoi certains objectifs et packages d’optimisation ne sont-ils pas disponibles lorsque l’environnement TV connectée est sélectionné pour un emplacement vidéo universel ?
+## Pourquoi certains objectifs et packages d’optimisation ne sont-ils pas disponibles lorsque l’environnement de télévision connectée est sélectionné pour un emplacement vidéo universel ?
 
 Les objectifs incompatibles avec les emplacements de télévision connectée standard, tels que Coût par clic le plus bas, ne sont pas pris en charge pour l’environnement de télévision connectée dans les emplacements vidéo universels. De même, les packages avec des objectifs d’optimisation incompatibles ne peuvent pas être sélectionnés.
 
