@@ -3,9 +3,9 @@ title: Joindre et supprimer des pixels des publicités
 description: Découvrez comment joindre et supprimer des pixels de suivi tiers des publicités.
 feature: DSP Ads
 exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -108,15 +108,15 @@ Vous pouvez joindre et désolidariser les pixels de suivi tiers des publicités.
 
 1. Cliquez sur n’importe quelle ligne d’annonce du tableau de gauche pour afficher les pixels joints dans le tableau de droite.
 
-1. (Facultatif) Pour joindre plus de pixels aux publicités, passez à la vue **[!UICONTROL Edit]** en haut à droite. Pour obtenir des instructions, reportez-vous à l’étape 3 de la procédure précédente, « [Joindre des pixels de suivi tiers aux publicités dans un emplacement](#attach-pixels-ads) ».
+1. (Facultatif) Pour joindre plus de pixels aux publicités, passez à la vue **[!UICONTROL Edit]** en haut à droite. Pour obtenir des instructions, reportez-vous à l’étape 3 de la procédure précédente, « [Association de pixels de suivi tiers aux publicités d’un emplacement »](#attach-pixels-ads).
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des publicités](ad-about.md)
+>* [À propos de la gestion des publicités dans Advertising DSP](ad-about.md)
 >* [Joindre des annonces à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
->* [Créer une publicité unique](ad-create.md)
->* [Créer plusieurs annonces publicitaires tierces](ad-create-multiple.md)
->* [Modifier une publicité](ad-edit.md)
+>* [Créer une seule annonce publicitaire](ad-create.md)
+>* [Créer plusieurs annonces tierces](ad-create-multiple.md)
+>* [Modification d’une publicité](ad-edit.md)
 >* [Liste des emplacements associés à une publicité](ad-list-placements.md)
 >* [Modifier les plannings de publicités pour les emplacements](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
->* [FAQ sur Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
+>* [FAQ sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md)

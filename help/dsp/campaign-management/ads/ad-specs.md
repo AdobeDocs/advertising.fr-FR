@@ -3,9 +3,9 @@ title: Spécifications publicitaires
 description: Référencez les spécifications publicitaires générales et spécifiques à l’éditeur.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Les publicités sont diffusées par défaut sur les ordinateurs de bureau, les a
 
 ### Serveurs publicitaires tiers pris en charge
 
-Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] et [!DNL Sizmek]. Pour obtenir la liste complète des fournisseurs pris en charge, reportez-vous à la rubrique « [Partenaires certifiés de diffusion des publicités](certified-ad-servers.md) ».
+Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] et [!DNL Sizmek]. Pour obtenir la liste complète des fournisseurs pris en charge, reportez-vous à la section « [Partenaires de diffusion certifiés des publicités](certified-ad-servers.md) ».
 
 ### Exigences relatives aux ressources vidéo haute définition
 
@@ -56,7 +56,7 @@ Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flas
 
 * **A+E Network :** consultez les spécifications [ad de A+E Network](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
 
-* **Discovery :** consultez les spécifications des annonces publicitaires [&#x200B; de Discovery](/help/dsp/assets/discovery-networks-ad-specs.pdf).
+* **Discovery :** consultez les spécifications des annonces publicitaires [ de Discovery](/help/dsp/assets/discovery-networks-ad-specs.pdf).
 
 * **Disney (inclus Hulu) :** Voir les spécifications des [annonces publicitaires](https://www.disneyadvertising.com/mediakit/#specifications) de Disney.
 
@@ -66,7 +66,7 @@ Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flas
 
    * [Vidéo numérique](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
-   * [&#x200B; Livestream &#x200B;](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+   * [ Livestream ](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
    * [Paon](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
@@ -90,7 +90,7 @@ Universal Display est pris en charge.
 
 **Tailles d’annonces recommandées :** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250, 300x600, 320x50, 320x480, 480x60, 640x480, 88x31, 728x90, 970x250, 970x90
 
-**Serveurs publicitaires tiers pris en charge :** vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] et [!DNL Sizmek]. Pour obtenir la liste complète des fournisseurs pris en charge, reportez-vous à la rubrique « [Partenaires certifiés de diffusion des publicités](certified-ad-servers.md) ».
+**Serveurs publicitaires tiers pris en charge :** vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] et [!DNL Sizmek]. Pour obtenir la liste complète des fournisseurs pris en charge, reportez-vous à la section « [Partenaires de diffusion certifiés des publicités](certified-ad-servers.md) ».
 
 ## Publicités audio
 
@@ -100,7 +100,7 @@ Ordinateur de bureau, mobile, tablette, haut-parleurs intelligents et télévisi
 
 ### Serveurs publicitaires tiers pris en charge
 
-Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] et [!DNL Sizmek]. Pour obtenir la liste complète des fournisseurs pris en charge, reportez-vous à la rubrique « [Partenaires certifiés de diffusion des publicités](certified-ad-servers.md) ».
+Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] et [!DNL Sizmek]. Pour obtenir la liste complète des fournisseurs pris en charge, reportez-vous à la section « [Partenaires de diffusion certifiés des publicités](certified-ad-servers.md) ».
 
 ### Conditions requises pour les ressources audio
 
@@ -114,7 +114,7 @@ Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flas
 
 **File Length :** 0-60s
 
-#### Autres exigences de l&#39;éditeur
+#### Exigences supplémentaires de l’éditeur
 
 * **[!DNL iHeartRadio]**
    * Durée : 5, 15, 30 ou 60 secondes
@@ -151,7 +151,7 @@ Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flas
 
 **Tailles prises en charge :** 300x250, 500x500, 640x640, 1 024x1 024
 
-#### Autres exigences de l&#39;éditeur
+#### Exigences supplémentaires de l’éditeur
 
 * **[!DNL iHeartRadio]:**
    * Type de fichier : JPEG, JPG, PNG, GIF, SWF, HTML
@@ -188,7 +188,7 @@ Les publicités sont diffusées par défaut sur les ordinateurs de bureau et les
 
 ### Ressources requises pour tous les formats natifs dans les flux
 
-#### Ressource Image
+#### Ressource image
 
 **Résolution :** minimum 600 x 600 px ; minimum recommandé de 1 200 x 627 px
 
@@ -238,7 +238,7 @@ Conditions requises pour les dispositifs de suivi des clics :
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des publicités](ad-about.md)
->* [Créer une publicité unique](ad-create.md)
->* [Créer plusieurs annonces publicitaires tierces](ad-create-multiple.md)
->* [Modifier une publicité](ad-edit.md)
+>* [À propos de la gestion des publicités dans Advertising DSP](ad-about.md)
+>* [Créer une seule annonce publicitaire](ad-create.md)
+>* [Créer plusieurs annonces tierces](ad-create-multiple.md)
+>* [Modification d’une publicité](ad-edit.md)

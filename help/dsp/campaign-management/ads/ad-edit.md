@@ -3,9 +3,9 @@ title: Modification d’une publicité
 description: Découvrez comment modifier une publicité.
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Pour modifier les pixels de suivi tiers de plusieurs annonces à la fois, voir « [Joindre des annonces aux emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) ».
+>Pour modifier les pixels de suivi tiers pour plusieurs annonces à la fois, voir « [Joindre des annonces aux emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des publicités](ad-about.md)
->* [Créer une publicité unique](ad-create.md)
->* [Créer plusieurs annonces publicitaires tierces](ad-create-multiple.md)
+>* [À propos de la gestion des publicités dans Advertising DSP](ad-about.md)
+>* [Créer une seule annonce publicitaire](ad-create.md)
+>* [Créer plusieurs annonces tierces](ad-create-multiple.md)
 >* [Dupliquer une publicité](ad-duplicate.md)
 >* [Liste des emplacements associés à une publicité](ad-list-placements.md)
 >* [Spécifications publicitaires](ad-specs.md)

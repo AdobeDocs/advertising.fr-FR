@@ -5,7 +5,7 @@ feature: DSP Introduction, Creative Introduction
 hidefromtoc: true
 hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 54442a2bea5a2f34ca6eb59b7d3c8c36c4bb79bb
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Utilisez l’interface de conversation de l’IA pour rechercher du contenu conceptuel et pratique dans le [Guide d’Advertising DSP](/help/dsp/home.md) et (les annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md). Les réponses reposent uniquement sur ce qui est documenté pour ces produits dans [Experience League](https://experienceleague.adobe.com/fr/docs/advertising).
+Utilisez l’interface de conversation de l’IA pour rechercher du contenu conceptuel et pratique dans le [Guide d’Advertising DSP](/help/dsp/home.md) et (les annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md). Les réponses reposent uniquement sur ce qui est documenté pour ces produits dans [Experience League](https://experienceleague.adobe.com/en/docs/advertising).
 
 Les réponses comprennent des citations ainsi que des invites supplémentaires et des questions de suivi pour vous aider à affiner votre requête et à trouver plus d’informations. Votre historique de conversation est conservé et vos requêtes ne sont pas partagées avec d’autres utilisateurs.
 

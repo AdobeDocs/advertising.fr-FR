@@ -3,9 +3,9 @@ title: Modifier les emplacements
 description: Découvrez comment modifier un emplacement.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Vous pouvez modifier le nom de l’emplacement, le statut, l’enchère maximum 
 1. Modifiez l’un des [paramètres d’emplacement](placement-settings.md) disponibles : **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** et **[!UICONTROL Budget]**.
 1. Cliquez sur **[!UICONTROL Apply]**.
 
-## Modifier un emplacement unique
+## Modification d’un emplacement unique
 
 >[!TIP]
 >
@@ -91,15 +91,15 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des emplacements](placement-about.md)
+>* [À propos de la gestion des emplacements dans Advertising DSP](placement-about.md)
 >* [Vérification et modification des paramètres d’emplacement à l’aide des feuilles d’envoi groupé](placement-qa.md)
 >* [Créer un emplacement](placement-create.md)
 >* [Dupliquer un emplacement](placement-duplicate.md)
->* [Gérer les multiplicateurs d&#39;offres pour les placements](placement-manage-bid-multipliers.md)
+>* [Gérer les multiplicateurs d’enchères pour les placements](placement-manage-bid-multipliers.md)
 >* [Modifier les plannings de publicités pour les emplacements](placement-edit-ad-schedule.md)
 >* [Désactiver ou activer un emplacement](placement-pause-activate.md)
->* [Afficher le journal des modifications pour un emplacement](placement-change-log.md)
+>* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)
 >* [Afficher l&#39;état de prévision d&#39;emplacement](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Vidéo : modification d’emplacements à l’aide d’outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=fr)
+>* [Raccourcis clavier ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
+>* [Vidéo : modifier des emplacements à l’aide d’outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

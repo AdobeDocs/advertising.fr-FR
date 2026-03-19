@@ -3,7 +3,7 @@ title: À propos des sources d’audience propriétaires
 description: Découvrez comment convertir d’autres identifiants d’utilisateur de vos segments propriétaires en identifiants universels pour le ciblage sans cookie.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -72,11 +72,11 @@ DSP peut également se connecter à des CDP supplémentaires à l’aide du part
 
 ### [!DNL Adobe Real-Time CDP]
 
-DSP est une *destination* intégrée pour [le [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr), qui fait partie de Adobe Experience Platform.
+DSP est une *destination* intégrée pour [le [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), qui fait partie de Adobe Experience Platform.
 
-Dans [!DNL Real-Time CDP], les destinations sont des connexions à des plateformes de données externes qui permettent une activation transparente des données. Vous pouvez utiliser les destinations pour activer vos adresses e-mail hachées pour la publicité ciblée dans DSP. Pour plus d’informations sur les destinations, consultez le [Guide des destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr) d’Experience Platform, qui comprend une présentation du produit, des instructions pour [créer des espaces de travail de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=fr) et [créer des connexions de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=fr) et [activer des données vers les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=fr).
+Dans [!DNL Real-Time CDP], les destinations sont des connexions à des plateformes de données externes qui permettent une activation transparente des données. Vous pouvez utiliser les destinations pour activer vos adresses e-mail hachées pour la publicité ciblée dans DSP. Pour plus d’informations sur les destinations, consultez le guide Experience Platform [Guide des destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), qui comprend une présentation du produit, des instructions pour [créer des espaces de travail de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) et [créer des connexions de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) et [activer des données vers les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
-Pour permettre à DSP d’ingérer vos [!DNL Adobe] [!DNL Real-time CDP] segments propriétaires et de convertir vos adresses e-mail hachées en identifiants universels, consultez la section « [Convertir les ID utilisateur de [!DNL Adobe Real-Time CDP] en identifiants universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md) ».
+Pour permettre à DSP d’ingérer vos [!DNL Adobe] [!DNL Real-time CDP] segments propriétaires et de convertir vos adresses e-mail hachées en ID universels, consultez la section « [Convertir les ID utilisateur de [!DNL Adobe Real-Time CDP] en ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md) ».
 
 ### [!DNL ActionIQ]
 
@@ -92,15 +92,15 @@ Vous pouvez partager les données propriétaires de votre organisation de la pla
 
 ### [!DNL Tealium]
 
-Vous pouvez partager les données propriétaires de votre organisation à partir de la plateforme de données client [!DNL Tealium] à l’aide de [!DNL Amazon Web Services]. Pour plus d’informations sur la conversion de vos adresses e-mail hachées en identifiants universels pour la publicité ciblée dans DSP, voir « [Convertir les ID utilisateur de [!DNL Tealium] en ID universels](/help/dsp/audiences/sources/source-tealium.md) ».
+Vous pouvez partager les données propriétaires de votre organisation à partir de la plateforme de données client [!DNL Tealium] à l’aide de [!DNL Amazon Web Services]. Pour plus d’informations sur la conversion de vos adresses e-mail hachées en identifiants universels pour la publicité ciblée dans DSP, voir « [Convertir les ID utilisateur de [!DNL Tealium] en identifiants universels](/help/dsp/audiences/sources/source-tealium.md) ».
 
 >[!MORELIKETHIS]
 >
->* [Gérer les sources d’audience pour activer les audiences Universal ID](source-manage.md)
+>* [Gérer les sources d’audience pour activer les audiences d’ID universel](source-manage.md)
 >* [Prise en charge de l’activation des identifiants universels](/help/dsp/audiences/universal-ids.md)
 >* [Convertir les ID utilisateur de  [!DNL Adobe Real-Time CDP]  en ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Convertir les ID utilisateur de  [!DNL Amperity]  en ID universels](/help/dsp/audiences/sources/source-amperity.md)
 >* [Convertir les ID utilisateur de  [!DNL Optimizely]  en ID universels](/help/dsp/audiences/sources/source-optimizely.md)
 >* [Convertir les ID utilisateur de  [!DNL Tealium]  en ID universels](/help/dsp/audiences/sources/source-tealium.md)
->* [À propos de la gestion de l’audience](/help/dsp/audiences/audience-about.md)
+>* [À propos de la gestion des audiences](/help/dsp/audiences/audience-about.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

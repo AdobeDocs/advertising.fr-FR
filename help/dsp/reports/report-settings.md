@@ -1,11 +1,11 @@
 ---
 title: Paramètres des rapports personnalisés
-description: Voir les descriptions des paramètres des rapports personnalisés.
+description: Voir les descriptions des paramètres du rapport personnalisé.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 \* *[!UICONTROL Account]* est disponible pour les types de rapports suivants uniquement lorsque votre organisation est configurée pour la création de rapports entre comptes [cross-account](report-about.md#cross-account-reporting) : [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] et [!UICONTROL Conversion]. Contactez l’équipe chargée de votre compte Adobe pour en savoir plus sur le reporting entre comptes.
 
-**[!UICONTROL Include data from Adobe Advertising SSC]:** (rapports Chemin d’accès à la conversion, Longueur du chemin et Délai d’accès à la conversion uniquement) Inclut des données pour les clics sur les annonces de recherche provenant de campagnes Advertising Search, Social et Commerce spécifiées. Lorsque vous sélectionnez cette option :
+**[!UICONTROL Include data from Adobe Advertising SSC]:** (rapports [!UICONTROL Path to Conversion], [!UICONTROL Path Length] et [!UICONTROL Time to Conversion] uniquement) Inclut des données pour les clics sur les annonces de recherche provenant de campagnes Advertising Search, Social et Commerce spécifiées. Lorsque vous sélectionnez cette option :
 
 1. Sélectionnez le compte Search, Social et Commerce à l’aide du filtre **Filtrer par[!UICONTROL SSC Account]**.
 
@@ -105,7 +105,7 @@ Pour appliquer un ou plusieurs filtres, procédez comme suit :
 
 * [!UICONTROL Custom Goals] (trié par annonceur)
 
-Voir « [Colonnes de rapport disponibles](report-columns.md) » pour obtenir une description de toutes les options.
+Consultez « [Colonnes de rapport disponibles](report-columns.md) » pour obtenir une description de toutes les options.
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** ordre des en-têtes de colonne. Vous pouvez faire glisser et déposer n’importe quelle colonne pour personnaliser l’ordre.
 
@@ -145,7 +145,7 @@ Voir « [Colonnes de rapport disponibles](report-columns.md) » pour obtenir une
 
    * *[!UICONTROL Social Only]:* Obsolète
 
-[&#x200B; Consultez également la section « Comment les règles d’attribution sont-elles calculées pour Adobe Advertising &#x200B;](/help/search-social-commerce/reports/attribution-rules.md) ? »
+Consultez également la section « [ Comment les règles d’attribution sont calculées pour Adobe Advertising ](/help/search-social-commerce/reports/attribution-rules.md) ».
 
 * **Recherche en amont :** ([!UICONTROL Household Conversion] des rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes et des rapports [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion] avec [!UICONTROL Conversion Metrics] colonnes uniquement ; annonceurs avec suivi des conversions Adobe Advertising uniquement) dans le rapport, le nombre maximal de jours après un événement d’impression ou un événement de clic (pour les rapports [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion]) dans lequel un événement de conversion peut lui être attribué. La valeur par défaut est *[!UICONTROL 30 days]* et la valeur maximale est de 92 jours.
 
@@ -183,7 +183,7 @@ Voir « [Colonnes de rapport disponibles](report-columns.md) » pour obtenir une
 
 * *[!UICONTROL FTP]:* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
+* *[!UICONTROL FTP SSL](actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
 
 * *[!UICONTROL Email]:* pour spécifier la ou les adresses e-mail auxquelles envoyer les rapports terminés ou les notifications si le rapport est annulé en raison d’erreurs.
 
@@ -205,7 +205,7 @@ Voir « [Colonnes de rapport disponibles](report-columns.md) » pour obtenir une
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports personnalisés](/help/dsp/reports/report-about.md)
+>* [Rapports personnalisés](/help/dsp/reports/report-about.md)
 >* [Créer un rapport personnalisé](/help/dsp/reports/report-create.md)
 >* [Dupliquer un rapport personnalisé](/help/dsp/reports/report-copy.md)
 >* [Modifier un rapport personnalisé](/help/dsp/reports/report-edit.md)

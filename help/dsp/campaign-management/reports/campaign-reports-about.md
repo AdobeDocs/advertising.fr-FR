@@ -3,7 +3,7 @@ title: Types de rapports de performances dans les vues de gestion de campagnes
 description: Découvrez les données de rapport incluses dans les vues de gestion de campagne.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Pour afficher une campagne plus en détail, cliquez sur son nom.
 
 #### Indicateurs d’alerte
 
-Une colonne « [!UICONTROL Alerts] » indique lorsqu’une campagne ou toute entité enfant située en dessous rencontre un problème. Une icône [!UICONTROL Pulse Panel] à droite de la barre d’outils indique également si des alertes sont disponibles pour les entités répertoriées. Pour plus d’informations, reportez-vous à « [Affichage des alertes](campaign-alerts.md) ».
+Une colonne « [!UICONTROL Alerts] » indique lorsqu’une campagne ou toute entité enfant située en dessous rencontre un problème. Une icône [!UICONTROL Pulse Panel] à droite de la barre d’outils indique également si des alertes sont disponibles pour les entités répertoriées. Voir « [ Afficher les alertes ](campaign-alerts.md) pour plus d’informations.
 
 ## Création de rapports de campagne unique {#single-campaign-reporting}
 
@@ -52,7 +52,7 @@ Dans une campagne, vous pouvez filtrer les données en fonction de l’entité d
 
 Pour chaque campagne, vous pouvez [personnaliser des graphiques de tendances de série temporelle](campaign-data-views-manage.md#data-visualizations-manage) avec trois mesures disponibles dans chaque vue d’entité. Les mêmes mesures sont conservées dans tous les graphiques de tendance de la campagne.
 
-Pour plus d’informations[&#x200B; consultez la section &#x200B;](#chart-view) « Vue du graphique » sur les mesures inter-campagnes.
+Pour plus d’informations[ consultez la section ](#chart-view) « Vue du graphique » sur les mesures inter-campagnes.
 
 ### Vue Tableau
 
@@ -60,7 +60,7 @@ Dans chaque onglet d’entité, chaque ligne comprend les mesures de fréquence 
 
 #### Indicateurs d’alerte
 
-Une colonne « [!UICONTROL Alerts] » indique lorsqu’un package, un emplacement ou une annonce publicitaire (ou toute entité enfant sous un package ou un emplacement) rencontre un problème. Une colonne « [!UICONTROL Alerts] » indique lorsqu’une campagne ou toute entité enfant située en dessous rencontre un problème. Une icône [!UICONTROL Pulse Panel] à droite de la barre d’outils indique également si des alertes sont disponibles pour les entités répertoriées. Pour plus d’informations, reportez-vous à « [Affichage des alertes](campaign-alerts.md) ».
+Une colonne « [!UICONTROL Alerts] » indique lorsqu’un package, un emplacement ou une annonce publicitaire (ou toute entité enfant sous un package ou un emplacement) rencontre un problème. Une colonne « [!UICONTROL Alerts] » indique lorsqu’une campagne ou toute entité enfant située en dessous rencontre un problème. Une icône [!UICONTROL Pulse Panel] à droite de la barre d’outils indique également si des alertes sont disponibles pour les entités répertoriées. Voir « [ Afficher les alertes ](campaign-alerts.md) pour plus d’informations.
 
 ### Autres types de rapports au niveau des campagnes
 
@@ -79,14 +79,14 @@ En outre, vous pouvez afficher les données suivantes dans les paramètres d’e
 * [Rapports de diagnostic d’emplacement](/help/dsp/campaign-management/reports/placement-diagnostics.md).
 
 
-### Autres types de création de rapports au niveau des annonces
+### Autres types de rapports au niveau des annonces
 
 Pour d’autres répartitions de données, consultez [les pages de rapports au niveau des annonces](/help/dsp/campaign-management/ads/ad-view-report.md). Le rapport comprend des données [!UICONTROL Overview], [!UICONTROL Geography] et [!UICONTROL Viewability].
 
 >[!MORELIKETHIS]
 >
->* [Affichage des détails sur les sites, les publicités et la fréquence pour un emplacement](placement-details-view.md)
->* [Gestion Des Vues De Données De Campaign](campaign-data-views-manage.md)
->* [Exporter des données à partir d’une vue de gestion de campagne](campaign-export-data.md)
+>* [Afficher les sites, les publicités et les détails de fréquence pour un emplacement](placement-details-view.md)
+>* [Gérer les vues de données de votre campagne](campaign-data-views-manage.md)
+>* [Exporter des données à partir d&#39;une vue de gestion de campagne](campaign-export-data.md)
 >* [Afficher un rapport détaillé pour une campagne](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [Affichage des alertes](campaign-alerts.md)
+>* [Afficher les alertes](campaign-alerts.md)

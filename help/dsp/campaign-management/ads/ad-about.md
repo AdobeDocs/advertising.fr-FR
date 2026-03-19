@@ -3,7 +3,7 @@ title: À propos de la gestion des publicités dans Advertising DSP
 description: En savoir plus sur la gestion des publicités.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Une fois vos annonces configurées, joignez chaque annonce à un ou plusieurs em
 
 ## Types d’annonces disponibles {#ad-types}
 
-Tous les types d’annonces suivants sont disponibles dans DSP. Pour connaître les spécifications complètes de chaque type d’annonce, reportez-vous à la [Spécifications de l’annonce](ad-specs.md).
+Tous les types d’annonces suivants sont disponibles dans DSP. Pour obtenir les spécifications complètes de chaque type d’annonce, reportez-vous à la [Spécifications d’annonce](ad-specs.md).
 
 * **Annonces audio (tierces uniquement)** : les annonces audio sont lues entre le contenu sur les sites d’éditeur numérique et peuvent être exécutées seules en tant que fichiers audio ou avec les bannières associées. L’audio est idéal pour renforcer la notoriété de la marque et interagir avec les audiences en déplacement. Les indicateurs clés de performance pour l’audio incluent le [!UICONTROL Completion Rate] et le [!UICONTROL Cost per Completion].
 
@@ -41,7 +41,7 @@ Tous les types d’annonces suivants sont disponibles dans DSP. Pour connaître 
 
   Les publicités vidéo universelles ne peuvent être associées qu’à des emplacements vidéo universels.
 
-  Consultez « [FAQ sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md) » pour plus d’informations sur les publicités vidéo universelles.
+  Voir « [FAQ sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md) » pour plus d’informations sur les publicités vidéo universelles.
 
 ## Approbations d’annonces DSP
 
@@ -59,6 +59,6 @@ Lorsque DSP approuve une publicité, la colonne Statut de la publicité affiche 
 
 >[!MORELIKETHIS]
 >
->* [Créer une publicité unique](ad-create.md)
->* [Créer plusieurs annonces publicitaires tierces](ad-create-multiple.md)
+>* [Créer une seule annonce publicitaire](ad-create.md)
+>* [Créer plusieurs annonces tierces](ad-create-multiple.md)
 >* [Spécifications publicitaires](ad-specs.md)
