@@ -20,7 +20,7 @@ Pour modifier les détails de l’annonce publicitaire, voir « [Vérification e
 
 >[!NOTE]
 >
->*Pour modifier les paramètres d’une annonce publicitaire, voir aussi « [ Modifier une annonce ](/help/dsp/campaign-management/ads/ad-edit.md) ».
+>*Pour modifier les paramètres d’une annonce publicitaire, voir aussi « [&#x200B; Modifier une annonce &#x200B;](/help/dsp/campaign-management/ads/ad-edit.md) ».
 >*Pour modifier les pixels de suivi tiers pour plusieurs annonces à la fois ou pour joindre des annonces aux emplacements, voir également « [Joindre des annonces aux emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) ».
 
 ## Télécharger les détails de toutes les annonces d’une campagne
@@ -43,7 +43,7 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
      Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
