@@ -3,7 +3,7 @@ title: Gestion des abonnements aux alertes
 description: Découvrez comment gérer les alertes automatiques par e-mail.
 role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * Pour modifier une alerte dans un abonnement :
 
-   1. À droite du nom de l’abonnement, cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
+   1. À droite du nom de l’abonnement, cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
 
    1. Modifiez les paramètres d’alerte.
 
