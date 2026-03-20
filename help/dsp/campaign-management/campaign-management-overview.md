@@ -57,4 +57,4 @@ Toutes les annonces actives et approuvées d’un emplacement actif dans une cam
 >* [Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [Types de rapports de performances dans les vues de gestion de campagnes](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Gérer les vues de données de votre campagne](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [Vidéo : structure du compte DSP et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Vidéo : structure du compte DSP et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=fr)
