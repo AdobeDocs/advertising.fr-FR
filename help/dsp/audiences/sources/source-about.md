@@ -3,7 +3,7 @@ title: À propos des sources d’audience propriétaires
 description: Découvrez comment convertir d’autres identifiants d’utilisateur de vos segments propriétaires en identifiants universels pour le ciblage sans cookie.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -14,13 +14,14 @@ ht-degree: 0%
 
 *Fonction Beta*
 
-DSP peut ingérer des segments propriétaires composés d’identifiants d’e-mail hachés créés dans votre plateforme de données client (CDP) et les convertir en segments composés d’identifiants universels. Chaque identifiant obtenu est basé sur les personnes et des limites de fréquence des annonces sont appliquées au niveau de l’identifiant<!-- Move that info. to somewhere else? -->.
+DSP peut ingérer des segments propriétaires composés d’identifiants d’e-mail hachés créés dans votre plateforme de données client (CDP) et les convertir en segments composés d’identifiants universels. Chaque identifiant obtenu est basé sur les personnes et des limites de fréquence des annonces sont appliquées au niveau de l’identifiant<!-- Add that info. somewhere else too? -->.
 
 Les détails du segment incluent la taille de chaque type d’identifiant universel ainsi que la taille de chaque type d’appareil suivi par des cookies ou des identifiants d’appareil.
 
 ## Types d’ID universels {#universal-id-types}
 
-<!--  Replace below with this once ID5 sources are possible 
+<!--
+  Replace below with this once ID5 sources are possible 
 
 Using your first-party data, you can create segments with IDs from the following universal ID partners.
 
@@ -48,7 +49,8 @@ Vous pouvez traduire vos segments propriétaires en segments avec des identifian
 
      Les frais sont de 0,15 USD par impression publicitaire diffusée et de 0,25 USD par impression publicitaire vidéo diffusée.
 
-<!-- Not yet
+<!--
+ Not yet
 
 * Probabilistic (unauthenticated) IDs using hashed email addresses:
 
@@ -56,7 +58,8 @@ Vous pouvez traduire vos segments propriétaires en segments avec des identifian
 
     ID5 creates an ID by stitching together user signals (hashed email address) with various browser signals (such as IP address and timestamp).
 
-    [!DNL Analytics] measurement requires all [prerequisites for implementing [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) and the [AMO ID and EF ID in your tracking URLs](/help/integrations/analytics/ids.md). You also must sign an agreement with [!DNL ID5] and set a parameter within your existing JavaScript tracking tags. <!-- Contact your Adobe Account Team for instructions. -->
+    [!DNL Analytics] measurement requires all [prerequisites for implementing [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) and the [AMO ID and EF ID in your tracking URLs](/help/integrations/analytics/ids.md). You also must sign an agreement with [!DNL ID5] and set a parameter within your existing JavaScript tracking tags. Contact your Adobe Account Team for instructions.
+-->
 
 <!--
     >[!NOTE]
@@ -72,9 +75,9 @@ DSP peut également se connecter à des CDP supplémentaires à l’aide du part
 
 ### [!DNL Adobe Real-Time CDP]
 
-DSP est une *destination* intégrée pour [le [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr), qui fait partie de Adobe Experience Platform.
+DSP est une *destination* intégrée pour [le [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), qui fait partie de Adobe Experience Platform.
 
-Dans [!DNL Real-Time CDP], les destinations sont des connexions à des plateformes de données externes qui permettent une activation transparente des données. Vous pouvez utiliser les destinations pour activer vos adresses e-mail hachées pour la publicité ciblée dans DSP. Pour plus d’informations sur les destinations, consultez le guide Experience Platform [Guide des destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr), qui comprend une présentation du produit, des instructions pour [créer des espaces de travail de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=fr) et [créer des connexions de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=fr) et [activer des données vers les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=fr).
+Dans [!DNL Real-Time CDP], les destinations sont des connexions à des plateformes de données externes qui permettent une activation transparente des données. Vous pouvez utiliser les destinations pour activer vos adresses e-mail hachées pour la publicité ciblée dans DSP. Pour plus d’informations sur les destinations, consultez le guide Experience Platform [Guide des destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), qui comprend une présentation du produit, des instructions pour [créer des espaces de travail de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) et [créer des connexions de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) et [activer des données vers les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
 Pour permettre à DSP d’ingérer vos [!DNL Adobe] [!DNL Real-time CDP] segments propriétaires et de convertir vos adresses e-mail hachées en ID universels, consultez la section « [Convertir les ID utilisateur de [!DNL Adobe Real-Time CDP] en ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md) ».
 

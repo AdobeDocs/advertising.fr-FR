@@ -2,9 +2,10 @@
 title: Gestion des modèles de publicité dynamique
 description: Découvrez comment gérer les modèles d’annonces dynamiques et créer des annonces à partir de ceux-ci.
 feature: Creative Templates
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+exl-id: 248f1467-ebd3-47f2-a24c-043bbfadcc6e
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ Créez un modèle de publicité distinct pour chaque combinaison de type de publ
 
 1. Placez le curseur sur la ligne du modèle d’annonce et cliquez sur **[!UICONTROL Delete]**.
 
-1. Dans le message de confirmation, cliquez sur **[!UICONTROL Delete]**.<!-- Confirm -->
+1. Dans le message de confirmation, cliquez sur **[!UICONTROL Delete]**.
 
 ## Création d’annonces dynamiques à partir d’un modèle d’annonce
 
@@ -87,13 +88,9 @@ Créez un modèle de publicité distinct pour chaque combinaison de type de publ
 
 **[!UICONTROL Description]** : (facultatif) informations utiles à toute personne utilisant le modèle d’annonce.
 
-<!-- I don't see this on 9/24:
+### (Modèles d’annonces HTML5 statiques) Cliquez sur Balises
 
-### (Static HTML5 ad templates) Click Tags
-
-**\[Click Tag Parameter\]**: The click tag parameters to allow click-tracking redirects from ads created using the ad template. To add a parameter, click **[!UICONTROL + Add More]** and enter an additional parameter. You can include up to five parameters.
-
--->
+**\[Paramètre de balise de clic\]** : paramètres de balise de clic pour autoriser les redirections de suivi des clics à partir d’annonces créées à l’aide du modèle d’annonce. Pour ajouter un paramètre, cliquez sur **[!UICONTROL + Add More]** et saisissez un paramètre supplémentaire. Vous pouvez inclure jusqu’à cinq paramètres.
 
 ### HTML5 zip
 
@@ -109,9 +106,7 @@ Pour charger un fichier :
 
 ### (Modèles de publicité Dynamic HTML5) Fichier d’attributs
 
-<!-- EXPLAIN -->Fichier contenant des attributs pour le modèle de publicité. Si vous avez déjà chargé un fichier, son nom est indiqué.
-
-<!-- Add specs for this file type -->
+<!-- EXPLAIN and ad specs below for this file type -->Fichier contenant des attributs pour le modèle de publicité. Si vous avez déjà chargé un fichier, son nom est indiqué.
 
 Pour charger un fichier :
 
@@ -126,4 +121,3 @@ Pour charger un fichier :
 >* [Gérer les modèles de flux](/help/creative/feeds/feed-template-manage.md)
 >* [Gérer les catalogues](/help/creative/feeds/catalog-manage.md)
 >* [Ajouter des contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-dynamic.md)
-
