@@ -3,9 +3,9 @@ title: Ajout de contenus publicitaires standard à une bibliothèque de contenus
 description: Découvrez comment ajouter des contenus publicitaires standard (non dynamiques) à une bibliothèque de contenus publicitaires.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,14 @@ Vous pouvez charger plusieurs unités de création flexibles. Les contenus publi
 
 ### Ajouter des contenus publicitaires flexibles à l’aide d’un modèle {#flexible-creative-use-template}
 
-Vous pouvez utiliser l’un des modèles créatifs flexibles chargés sur votre compte pour créer des publicités d’une taille prédéfinie. Une fois que vous avez sélectionné un modèle à utiliser, vous modifiez les balises et les attributs de clic.&lt;!— Remplacez la dernière phrase par celle-ci si nous ajoutons à nouveau la fonction de téléchargement de modèle : vous pouvez a\) sélectionner un modèle à utiliser, puis modifier les balises et attributs de clic ; ou b\) [télécharger un modèle sous forme de fichier ZIP](#download-flexible-creative-template), modifier le contenu hors ligne pour créer votre propre contenu créatif, puis [charger le fichier modifié en tant que nouveau contenu créatif] (flexible-creative-upload).>
+Vous pouvez utiliser l’un des modèles créatifs flexibles chargés sur votre compte pour créer des publicités d’une taille prédéfinie. Une fois que vous avez sélectionné un modèle à utiliser, vous modifiez les balises et les attributs de clic.
 
-<!-- Not currently an option:
+<!--
+Replace last sentence with this if we add the template download feature back:  You can either a\) select a template to use, and then edit the click tags and attributes; or b\) [download a template as a ZIP file](#download-flexible-creative-template), edit the contents offline to build your own creative, and then [upload the edited file as a new creative](flexible-creative-upload).
+-->
+
+<!--
+ Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
 
 For information about the attributes available in predefined templates, see "[Available flexible creative templates](#flexible-creative-templates-available)."
@@ -106,7 +111,8 @@ Les contenus publicitaires d’affichage standard comprennent les contenus publi
 
 * Vous pouvez ajouter plusieurs ressources Experience Manager, plusieurs expériences GenStudio ou plusieurs contenus publicitaires HTML5 locaux d’un seul type (simple ou statique) à la fois. Pour les contenus publicitaires HTML5, consultez la [spécification publicitaire HTML5](/help/creative/creative-libraries/html5-creative-specification.md).
 
-<!-- Add in when we add this feature back:
+<!--
+ Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
 -->
 
@@ -194,7 +200,7 @@ Consultez les [spécifications de création vidéo](/help/creative/creative-libr
 
    * Cliquez sur **[!UICONTROL Select a file]** pour localiser les fichiers sur votre appareil ou réseau.
 
-1. Spécifiez les [&#x200B; paramètres de création vidéo &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
+1. Spécifiez les [ paramètres de création vidéo ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
 
    Par défaut, le contenu créatif que vous venez de charger est sélectionné et tous les paramètres que vous spécifiez s’appliquent au contenu créatif sélectionné.<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
 

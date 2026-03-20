@@ -3,7 +3,7 @@ title: Dupliquer les contenus publicitaires
 description: Découvrez comment dupliquer des contenus publicitaires dans une bibliothèque de contenus publicitaires.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -36,7 +36,8 @@ Dupliquez des contenus publicitaires pour ajouter de nouveaux contenus publicita
 
    Les nouveaux contenus publicitaires sont nommés `<original name> (copy) # 1` (ou le numéro suivant dans la séquence). Par exemple, si vous créez deux doublons de « Image test », les doublons sont nommés « Image test (copie) n° 1 » et « Image test (copie) n° 2 ».
 
-<!-- Add to TOC later when this feature is available to users:
+<!--
+ Add to TOC later when this feature is available to users:
 
 >* [Edit dynamic creatives](creative-edit-dynamic.md)
 >* [Dynamic ad settings](creative-settings-dynamic.md)

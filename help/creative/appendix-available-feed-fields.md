@@ -3,7 +3,7 @@ title: Champs disponibles pour les fichiers dynamiques et de flux
 description: Découvrez les champs que vous pouvez inclure dans les fichiers de flux que vous utilisez pour créer des annonces dynamiques.
 feature: Creative Dynamic Creatives
 exl-id: 9cd3fa29-d4db-4e9f-9ffd-87b44b62a3e2
-source-git-commit: 5bf0474f49160775d31dff0d434ba1e069f27959
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -16,7 +16,8 @@ Les champs de flux suivants sont disponibles sur le serveur principal d’Advert
 
 Le seul champ qui doit avoir un équivalent dans votre fichier de flux est `PART_NUM`.
 
-<!-- Questions:
+<!--
+ Questions:
 
 What are these?
 Rank

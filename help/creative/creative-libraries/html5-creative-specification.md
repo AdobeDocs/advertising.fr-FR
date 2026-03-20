@@ -3,7 +3,7 @@ title: Spécification de création HTML5
 description: Référencez la spécification de création HTML5 pour Advertising Creative.
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 1%
@@ -18,7 +18,8 @@ Ce document décrit les exigences et la prise en charge de l’API pour les cont
 
 [!DNL Creative] prend en charge les bannières HTML5 avec des contenus publicitaires non enrichis qui apparaissent dans des bordures définies sur une page. Vous pouvez utiliser les types de contenus publicitaires HTML5 suivants :
 
-<!--Remove to simplify:
+<!--
+Remove to simplify:
 
 * **Simple HTML5:** Supports a single landing page URL that can be configured during creative creation and trafficking.
 
@@ -52,7 +53,8 @@ Le fichier HTML principal (et aucun autre fichier) doit contenir une référence
 
 Ce fichier contient des fonctions pour s’assurer que le test local des événements de sortie se produit sans problème.
 
-<!-- Remove to simplify:
+<!--
+ Remove to simplify:
 
 ### Simple HTML5 creative requirements
 
@@ -72,7 +74,8 @@ var clickTag = “http://www.example.com”;
 
 -->
 
-<!-- Renamed to simplify:
+<!--
+ Renamed to simplify:
 ### Static HTML5 creative requirements
 -->
 

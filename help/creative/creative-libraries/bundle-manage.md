@@ -3,7 +3,7 @@ title: Gestion des offres groupées de création
 description: Découvrez comment gérer et utiliser des groupes de contenus publicitaires.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1587'
 ht-degree: 0%
@@ -238,7 +238,8 @@ Vous pouvez prévisualiser une création telle que les visiteurs la verront, y c
 
    1. Dans la boîte de dialogue [!UICONTROL Share Demo URL], cliquez sur **[!UICONTROL Copy]** pour copier l’URL dans le presse-papiers afin de la partager avec une autre personne.
 
-<!-- Not there as of 1/22/25:
+<!--
+ Not there as of 1/22/25:
 
 ## Edit the landing page and tracking tags for the creatives in a standard creative bundle
 

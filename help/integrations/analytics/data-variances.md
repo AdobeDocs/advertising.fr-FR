@@ -3,7 +3,7 @@ title: Écarts de données attendus entre  [!DNL Analytics]  et Adobe Advertisin
 description: Écarts de données attendus entre  [!DNL Analytics]  et Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '3359'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Tenez compte de ces différences lors de la comparaison des conversions d’affi
 >
 >Pour éviter toute confusion, [!DNL Analytics] rend les données historiques indisponibles dans l’interface de création de rapports. Vous pouvez afficher les données historiques si vous redéfinissez le [!DNL eVar] sur le paramètre d’affectation initial, mais vous ne devez pas modifier [!DNL eVar] paramètres d’affectation simplement pour accéder aux données historiques. Adobe recommande d’utiliser une nouvelle [!DNL eVar] lorsque vous souhaitez appliquer un nouveau paramètre d’affectation pour les données déjà enregistrées, plutôt que de modifier les paramètres d’affectation pour une [!DNL eVar] qui dispose déjà d’une quantité importante de données historiques.
 
-Consultez la liste des modèles d’attribution [!DNL Analytics] et de leurs définitions à l’adresse [https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/attribution/models).
+Consultez la liste des modèles d’attribution [!DNL Analytics] et de leurs définitions à l’adresse [https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models).
 
 Si vous êtes connecté à [!DNL Search, Social, & Commerce], vous pouvez trouver une liste
 
@@ -102,11 +102,11 @@ Dans Adobe Advertising, vous pouvez générer des rapports sur les données de c
 
 ## Attribution dans [!DNL Analytics Marketing Channels]
 
-[[!DNL Analytics Marketing Channels] reporting](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=fr) vous permet de configurer des règles pour identifier différents canaux marketing en fonction d’aspects distincts des informations d’accès. Vous pouvez effectuer le suivi des canaux suivis par Adobe Advertising ([!UICONTROL Display Click Through], [!UICONTROL Display View Through] et [!UICONTROL Paid Search]) selon vos [!DNL Marketing Channels] à l’aide du paramètre de chaîne de requête `ef_id` pour identifier le canal. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> Cependant, même si les rapports [!DNL Marketing Channels] peuvent suivre les canaux Adobe Advertising, les données peuvent ne pas correspondre aux rapports Adobe Advertising pour plusieurs raisons. Pour plus d’informations, consultez les sections suivantes.
+[[!DNL Analytics Marketing Channels] reporting](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html) vous permet de configurer des règles pour identifier différents canaux marketing en fonction d’aspects distincts des informations d’accès. Vous pouvez effectuer le suivi des canaux suivis par Adobe Advertising ([!UICONTROL Display Click Through], [!UICONTROL Display View Through] et [!UICONTROL Paid Search]) selon vos [!DNL Marketing Channels] à l’aide du paramètre de chaîne de requête `ef_id` pour identifier le canal. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> Cependant, même si les rapports [!DNL Marketing Channels] peuvent suivre les canaux Adobe Advertising, les données peuvent ne pas correspondre aux rapports Adobe Advertising pour plusieurs raisons. Pour plus d’informations, consultez les sections suivantes.
 
 >[!NOTE]
 >
-> Les concepts de base suivants s’appliquent également à tout suivi multicanal qui implique des campagnes non suivies dans Adobe Advertising, comme la variable [`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html?lang=fr) (également appelée dimension « Code de suivi » ou « [!DNL eVar] 0 ») et le suivi des [!DNL eVar] personnalisées.
+> Les concepts de base suivants s’appliquent également à tout suivi multicanal qui implique des campagnes non suivies dans Adobe Advertising, comme la variable [`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html) (également appelée dimension « Code de suivi » ou « [!DNL eVar] 0 ») et le suivi des [!DNL eVar] personnalisées.
 
 ### Modèles d’attribution potentiellement différents dans [!DNL Marketing Channels]
 
@@ -130,7 +130,7 @@ Pour plus d’explications sur les raisons de la variation des mesures, voir « 
 
 ## Différences de données dans les [!DNL Paid Search Detection] Adobe Analytics
 
-La fonctionnalité [héritée [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=fr) de [!DNL Analytics] permet aux entreprises de [définir des règles pour effectuer le suivi du trafic de référencement payant et organique](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=fr) pour des moteurs de recherche spécifiés. Les règles [!DNL Paid Search Detection] utilisent à la fois une chaîne de requête et le domaine référent pour identifier le trafic de référencement payant et naturel. Les rapports [!DNL Paid Search Detection] font partie du groupe plus vaste de rapports [Méthodes de recherche](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=fr), qui expirent lorsqu’un événement spécifié (tel qu’un passage en caisse) se produit ou que la visite se termine.
+La fonctionnalité [héritée [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html) de [!DNL Analytics] permet aux entreprises de [définir des règles pour effectuer le suivi du trafic de référencement payant et organique](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html) pour des moteurs de recherche spécifiés. Les règles [!DNL Paid Search Detection] utilisent à la fois une chaîne de requête et le domaine référent pour identifier le trafic de référencement payant et naturel. Les rapports [!DNL Paid Search Detection] font partie du groupe plus vaste de rapports [Méthodes de recherche](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html), qui expirent lorsqu’un événement spécifié (tel qu’un passage en caisse) se produit ou que la visite se termine.
 
 Voici l’interface de création d’un jeu de règles [!DNL Paid Search Detection] :
 
@@ -148,7 +148,7 @@ Notez les deux restrictions suivantes concernant les données dans les rapports 
 
 ### Pourquoi configurer [!DNL Paid Search Detection] ?
 
-Les rapports [!DNL Paid Search Detection] vous permettent d’identifier le trafic de recherche naturel dans les [[!DNL Analytics Marketing Channels] rapports](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=fr). La distinction entre le trafic de référencement payant et le trafic de référencement naturel est un excellent moyen de comprendre la valeur que le référencement naturel apporte à l’écosystème marketing complet.
+Les rapports [!DNL Paid Search Detection] vous permettent d’identifier le trafic de recherche naturel dans les [[!DNL Analytics Marketing Channels] rapports](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html). La distinction entre le trafic de référencement payant et le trafic de référencement naturel est un excellent moyen de comprendre la valeur que le référencement naturel apporte à l’écosystème marketing complet.
 
 ## Validation des données de clic publicitaire pour [!DNL Analytics for Advertising] {#data-validation}
 
@@ -160,7 +160,7 @@ En [!DNL Analytics], l’un des moyens les plus simples de valider [!DNL Analyti
 AMO ID Instances to Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
-[!UICONTROL AMO ID Instances] représente le nombre de fois que les [&#x200B; AMO ID](ids.md) sont suivis sur le site. Chaque fois que l’utilisateur clique sur une publicité, un paramètre d’ID AMO (`s_kwcid`) est ajouté à l’URL de la page de destination. Le nombre de [!UICONTROL AMO ID Instances] est donc analogue au nombre de clics et peut être validé par rapport aux clics publicitaires réels. Un taux de correspondance de 85 % est généralement affiché pour les [!DNL Search, Social, & Commerce] et de 30 % pour le trafic [!DNL DSP] (lorsqu’il est filtré pour inclure uniquement les [!UICONTROL AMO ID Instances] de clic publicitaire). La différence des attentes entre la recherche et l’affichage peut s’expliquer par le comportement attendu du trafic. La recherche capture l’intention, c’est pourquoi les utilisateurs cliquent généralement sur les résultats de recherche de leur requête. En revanche, les utilisateurs qui voient une publicité display ou vidéo en ligne sont plus susceptibles de cliquer involontairement sur la publicité, puis de rebondir sur le site ou d’abandonner la nouvelle fenêtre qui se charge avant le suivi de l’activité de la page.
+[!UICONTROL AMO ID Instances] représente le nombre de fois que les [ AMO ID](ids.md) sont suivis sur le site. Chaque fois que l’utilisateur clique sur une publicité, un paramètre d’ID AMO (`s_kwcid`) est ajouté à l’URL de la page de destination. Le nombre de [!UICONTROL AMO ID Instances] est donc analogue au nombre de clics et peut être validé par rapport aux clics publicitaires réels. Un taux de correspondance de 85 % est généralement affiché pour les [!DNL Search, Social, & Commerce] et de 30 % pour le trafic [!DNL DSP] (lorsqu’il est filtré pour inclure uniquement les [!UICONTROL AMO ID Instances] de clic publicitaire). La différence des attentes entre la recherche et l’affichage peut s’expliquer par le comportement attendu du trafic. La recherche capture l’intention, c’est pourquoi les utilisateurs cliquent généralement sur les résultats de recherche de leur requête. En revanche, les utilisateurs qui voient une publicité display ou vidéo en ligne sont plus susceptibles de cliquer involontairement sur la publicité, puis de rebondir sur le site ou d’abandonner la nouvelle fenêtre qui se charge avant le suivi de l’activité de la page.
 
 Dans les rapports Adobe Advertising, vous pouvez également comparer des instances à des clics à l’aide de la mesure « [!UICONTROL EF ID Instances] » au lieu de [!UICONTROL AMO ID Instances] :
 
@@ -172,7 +172,8 @@ Bien que vous devriez vous attendre à un taux de correspondance élevé entre l
 
 Pour plus d’informations sur l’AMO ID et l’EF ID, voir [Adobe Advertising ID utilisés par Analytics](ids.md).
 
-<!--  Need to create a new report to show tracking instances to clicks, instead of clicks to instances as shown, and replace this screenshot.
+<!--
+  Need to create a new report to show tracking instances to clicks, instead of clicks to instances as shown, and replace this screenshot.
 
 The following is an example of a workspace to track clicks to instances.
 
@@ -237,7 +238,7 @@ Elles semblent analogues, mais les clics et les visites représentent des donné
 
 * **Clic :** le [!DNL DSP] ou le moteur de recherche enregistre un clic lorsqu’un visiteur clique sur une annonce publicitaire sur le site web d’un éditeur.
 
-* **Visite :** [!DNL Analytics] définit une [visite](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=fr) comme une série de pages vues par un utilisateur, se terminant selon l’un des critères, tels que 30 minutes d’inactivité.
+* **Visite :** [!DNL Analytics] définit une [visite](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) comme une série de pages vues par un utilisateur, se terminant selon l’un des critères, tels que 30 minutes d’inactivité.
 
 Par définition, un clic peut entraîner plusieurs visites.
 
@@ -275,7 +276,7 @@ Cependant, si vous affichez les mesures [!UICONTROL Adobe Advertising Clicks] et
 
 ### Utilisation de [!UICONTROL AMO ID Instances] comme substitut des clics avec des dimensions non-Adobe Advertising
 
-Étant donné que vous ne pouvez pas utiliser [!UICONTROL AMO Clicks] avec les dimensions sur site, vous souhaiterez peut-être trouver un équivalent aux clics. Vous pouvez être tenté d’utiliser Visites comme remplacement, mais elles ne sont pas la meilleure option, car chaque visiteur peut avoir plusieurs visites. (Voir « [&#x200B; La différence entre les clics et les visites &#x200B;](#clicks-vs-visits). » Nous vous recommandons plutôt d’utiliser [!UICONTROL AMO ID Instances], qui correspond au nombre de fois où l’AMO ID est capturé. Bien que les [!UICONTROL AMO ID Instances] ne correspondent pas exactement aux [!UICONTROL AMO Clicks], ils constituent la meilleure option pour mesurer le trafic des clics sur le site. Pour plus d’informations, voir « [Validation des données de clic publicitaire pour [!DNL Analytics for Advertising]](#data-validation) ».
+Étant donné que vous ne pouvez pas utiliser [!UICONTROL AMO Clicks] avec les dimensions sur site, vous souhaiterez peut-être trouver un équivalent aux clics. Vous pouvez être tenté d’utiliser Visites comme remplacement, mais elles ne sont pas la meilleure option, car chaque visiteur peut avoir plusieurs visites. (Voir « [ La différence entre les clics et les visites ](#clicks-vs-visits). » Nous vous recommandons plutôt d’utiliser [!UICONTROL AMO ID Instances], qui correspond au nombre de fois où l’AMO ID est capturé. Bien que les [!UICONTROL AMO ID Instances] ne correspondent pas exactement aux [!UICONTROL AMO Clicks], ils constituent la meilleure option pour mesurer le trafic des clics sur le site. Pour plus d’informations, voir « [Validation des données de clic publicitaire pour [!DNL Analytics for Advertising]](#data-validation) ».
 
 ![Exemple de [!UICONTROL AMO ID Instances] au lieu de [!UICONTROL Adobe Advertising Clicks] pour une dimension non prise en charge](/help/integrations/assets/a4adc-amo-id-instances.png)
 

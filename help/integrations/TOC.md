@@ -4,7 +4,7 @@ user-guide-description: Découvrez les intégrations d’Advertising DSP et d’
 breadcrumb-title: Intégrations à Experience Cloud
 role: User, Developer
 index: true
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 11%
@@ -53,4 +53,4 @@ ht-degree: 11%
    + [Adobe Advertising ID utilisés par Customer Journey Analytics](/help/integrations/customer-journey-analytics/ids.md)
    + [Configurer la collecte de données, le transfert de données et la création de rapports](/help/integrations/customer-journey-analytics/set-up.md)
    + [Mesures et dimensions Adobe Advertising dans Customer Journey Analytics](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [Tutoriels vidéo sur les intégrations Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=fr)
++ [Tutoriels vidéo sur les intégrations Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)

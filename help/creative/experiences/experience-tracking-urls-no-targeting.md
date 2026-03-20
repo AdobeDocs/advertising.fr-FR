@@ -3,9 +3,9 @@ title: Personnaliser les URL de tracking pour une expérience sans ciblage
 description: Découvrez comment personnaliser les URL de tracking de chaque contenu créatif dans une expérience sans ciblage d’arborescence de décision.
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Les URL personnalisées sont utilisées uniquement pour les annonces créées à
 
    1. Cliquez sur **[!UICONTROL Create]**.
 
-1. Placez le curseur sur la ligne correspondant à la balise d’annonce publicitaire applicable et cliquez sur ![Modifier les URL de tracking](/help/creative/assets/edit-gray.png "Modifier les URL de tracking") **[!UICONTROL Tracking URLs]**. <!-- For targeted experiences, this is "EDIT Tracking URLs" -->&lt;!— Tag Manager n’a qu’une vue Liste, mais pas de vue Carte, à partir du 2/2. >
+1. Placez le curseur sur la ligne correspondant à la balise d’annonce publicitaire applicable et cliquez sur ![Modifier les URL de tracking](/help/creative/assets/edit-gray.png "Modifier les URL de tracking") **[!UICONTROL Tracking URLs]**. <!-- For targeted experiences, this is "EDIT Tracking URLs"  Tag Manager has only a list view, but no card view, as of 2/2. -->
 
    Les onglets [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] et [!UICONTROL Landing URLs] répertorient les noms de tous les contenus publicitaires dans les tailles applicables des lots attribués. La taille des contenus publicitaires par défaut pour l’expérience détermine les tailles disponibles.<!-- There's no distinct "Creative Sizes" setting. -->
 

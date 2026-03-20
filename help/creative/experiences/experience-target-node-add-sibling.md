@@ -3,7 +3,7 @@ title: Ajouter un nœud cible frère entre les nœuds d’une expérience
 description: Découvrez comment ajouter un nœud frère à tout nœud qui a une cible ou qui se trouve au même niveau qu’un nœud avec une cible.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -16,7 +16,8 @@ ht-degree: 0%
 
 Vous pouvez ajouter un nœud frère à tout nœud qui a une cible ou qui se trouve au même niveau qu’un nœud ayant une cible.
 
-<!-- 1. Open the decision tree:
+<!--
+ 1. Open the decision tree:
 
 In a new experience
 

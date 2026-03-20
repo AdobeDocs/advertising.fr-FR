@@ -3,7 +3,7 @@ title: Créer une offre [!UICONTROL Simple Ad Serving]
 description: Découvrez comment créer un pixel de tracking pour une offre [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**, puis sélectionnez **[!UICONTROL Simple Ad Serving]**.
 
-1. Saisissez les [&#x200B; paramètres de l’offre &#x200B;](simple-deal-settings.md) :
+1. Saisissez les [ paramètres de l’offre ](simple-deal-settings.md) :
 
    1. Dans la section [!UICONTROL Select Ad Source], spécifiez des informations sur l’éditeur, l’annonceur et la campagne, ainsi que le type d’annonce, puis cliquez sur **[!UICONTROL Next]**.
 
@@ -65,6 +65,7 @@ ht-degree: 0%
 >* [[!UICONTROL Simple Ad Serving] les paramètres](simple-deal-settings.md)
 >* [Afficher un rapport détaillé pour une affaire](/help/dsp/inventory/deal-view-report.md)
 
-<!-- add back when reimplemented:
+<!--
+ add back when reimplemented:
 >* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

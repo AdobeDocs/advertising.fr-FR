@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -96,7 +96,8 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
 Consultez la rubrique « [Bonnes pratiques pour créer un résumé d’audience](#audience-brief-best-practices) » pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
 
-<!-- I think these are happening later:
+<!--
+ I think these are happening later:
 
 DSP uses "smart" defaults based on the user's previous audiences (all user-created audiences or only ones created via AI prompting?)
 
@@ -147,7 +148,8 @@ Un briefing d’audience est une rédaction stratégique qui définit l’audien
 
 Incluez autant de types d’attributs d’audience que possible à partir de la liste suivante dans votre résumé. Soyez précis quant aux attributs à exclure.
 
-<!-- What about these:
+<!--
+ What about these:
 
 * Device specifications
 * Presence in audiences from specific third-party data providers

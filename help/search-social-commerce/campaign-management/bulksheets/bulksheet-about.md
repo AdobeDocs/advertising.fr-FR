@@ -3,7 +3,7 @@ title: À propos de la gestion des données de campagne à l'aide de feuilles d'
 description: Découvrez les fonctionnalités des feuilles d’envoi groupé disponibles par réseau publicitaire, le workflow des feuilles d’envoi groupé et la gestion des erreurs.
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -38,7 +38,8 @@ Toutes les feuilles d’envoi groupé, les fichiers d’erreur de validation de 
 
 Les étapes standard d’utilisation des feuilles d’envoi groupé pour les comptes synchronisés sont les suivantes :
 
-<!-- insert image
+<!--
+ insert image
   [EDIT/RECREATE FILE to replace "search engine"]
 -->
 

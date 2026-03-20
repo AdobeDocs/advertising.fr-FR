@@ -4,7 +4,7 @@ user-guide-title: Politiques et directives d’Adobe Advertising
 user-guide-description: Découvrez les politiques et directives d’Advertising DSP et  [!DNL Advertising Search, Social, & Commerce].
 breadcrumb-title: Politiques et directives
 index: true
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: Objectifs personnalisés
 description: Découvrez les objectifs personnalisés pour définir vos événements de succès dans des packages optimisés pour la CPA la plus faible ou le retour sur dépenses publicitaires le plus élevé.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -14,7 +14,8 @@ ht-degree: 0%
 
 Les objectifs personnalisés définissent les événements de succès dont un annonceur a besoin pour atteindre ses objectifs commerciaux. Chaque package qui utilise l’objectif d’optimisation « [!UICONTROL Highest Return on Ad Spend (ROAS)"] » ou « [!UICONTROL Lowest Cost per Acquisition (CPA)] » doit inclure un objectif personnalisé pour faciliter l’atteinte de l’objectif d’optimisation global. Vous pouvez créer des objectifs personnalisés sous la forme d’*objectifs* dans [!DNL Advertising Search, Social, & Commerce]. Le nom de chaque objectif pour DSP doit comporter le préfixe « ADSP_ ».
 
-<!-- update image or omit it
+<!--
+ update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
@@ -64,7 +65,7 @@ Pour créer un objectif personnalisé, le compte DSP doit être lié à un compt
 
    >[!TIP]
    >
-   >Pour des performances optimales, les mesures combinées dans l’objectif personnalisé doivent totaliser au moins dix conversions par jour. Dans le cas contraire, il est recommandé d’ajouter à l’objectif des mesures de conversion supplémentaires, telles que les pages de produits ou les démarrages d’application. Consultez [&#x200B; Bonnes pratiques pour créer un objectif personnalisé &#x200B;](#custom-goal-best-practices) pour obtenir des instructions.
+   >Pour des performances optimales, les mesures combinées dans l’objectif personnalisé doivent totaliser au moins dix conversions par jour. Dans le cas contraire, il est recommandé d’ajouter à l’objectif des mesures de conversion supplémentaires, telles que les pages de produits ou les démarrages d’application. Consultez [ Bonnes pratiques pour créer un objectif personnalisé ](#custom-goal-best-practices) pour obtenir des instructions.
 
 Dans les paramètres du package DSP pour les packages qui utilisent l’objectif d’optimisation « [!UICONTROL Highest Return on Ad Spend (ROAS)"] ou [!UICONTROL Lowest Cost per Acquisition (CPA)] », le nom de l’objectif est désormais inclus dans la liste [!UICONTROL Custom Goals]. Lorsque vous sélectionnez l’objectif en tant qu’objectif personnalisé pour un package, la liste [!UICONTROL Conversion Metric] inclut toutes les mesures d’objectif pour l’objectif.
 
@@ -78,7 +79,8 @@ Les exemples suivants montrent comment configurer des objectifs qui ciblent une 
 
 Si l’objectif de votre campagne est le chiffre d’affaires ([!UICONTROL Highest Return on Ad Spend (ROAS)]) et que le chiffre d’affaires de tous les types d’appareils est également important pour vous, incluez la mesure « [!UICONTROL Revenue] » avec un poids non mobile de un (1) ; le poids mobile est ignoré. Sélectionnez le type de mesure *[!UICONTROL Goal]*.
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a ROAS custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -92,7 +94,8 @@ Si l’objectif de votre campagne est le chiffre d’affaires ([!UICONTROL Highe
 
 Si l’objectif de votre campagne est le coût par acquisition (CPA) le plus faible et ne nécessite qu’un seul événement de succès (tel que « Envoi de la demande »), incluez cette mesure et indiquez le type de mesure comme *[!UICONTROL Goal]*. La bonne pratique consiste à définir le poids non mobile sur un (1) ; le poids mobile est ignoré.
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a CPA custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -108,7 +111,8 @@ Il existe deux scénarios dans lesquels vous utiliseriez plusieurs mesures dans 
 
 * L’objectif de votre campagne comporte plusieurs événements de succès. Par exemple, il se peut que vous fassiez de la publicité pour plusieurs actions sur site (téléchargement de PDF, nous contacter et inscription par e-mail) et que toutes ces actions contribuent à l’objectif de votre CPA. Si l’objectif inclut les trois mesures distinctes, ayant chacune un poids non mobile d’une (1), l’algorithme optimisé par [!DNL Adobe AI] traite chacune des mesures et chacun des types d’appareils utilisateur avec la même importance. Si les différentes mesures ont des coûts ou une importance variables, vous ajustez leur poids relatif en conséquence.
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties.png)
 
@@ -120,7 +124,8 @@ Il existe deux scénarios dans lesquels vous utiliseriez plusieurs mesures dans 
 
   L’exemple d’objectif suivant inclut trois mesures, chacune ayant un poids non mobile différent : Envoi de l’application = 1, Début de l’application = 0,1 et Page de destination de l’annonceur = 0,01. Cela signifie que chaque conversion d’envoi d’application a la même valeur pour votre entreprise qu’une moyenne de 10 conversions de début d’application et de 100 conversions de page de destination d’annonceur.
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties2.png)
 
@@ -131,5 +136,5 @@ Si, au contraire, vous pondériez les visites de pages de destination de manièr
 >[!MORELIKETHIS]
 >
 >* [Objectifs d’optimisation et utilisation](optimization-goals.md)
->* [&#x200B; Paramètres du package &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
 > * [Comment DSP optimise vos campagnes](optimization-how-dsp-optimizes-campaigns.md)

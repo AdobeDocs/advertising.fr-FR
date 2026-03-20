@@ -2,7 +2,8 @@
 title: (Nouvelle interface utilisateur) Gestion des comptes réseau et
 description: Découvrez comment configurer et gérer les détails du compte dans la nouvelle interface utilisateur pour un réseau publicitaire synchronisé via l’API du réseau publicitaire.
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: a50b2943-7568-401c-be5b-ff6f62629488
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '2129'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Vous trouverez ci-dessous des instructions pour gérer les comptes de réseau pu
 
 <!-- Move out info about Naver into a separate page -->
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
 
 ## Créer un compte réseau publicitaire {#create-account}
 
@@ -133,7 +134,8 @@ Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commer
 
 Les paramètres du compte varient selon le réseau publicitaire. Il se peut que vous ne voyiez pas tous les paramètres ci-dessous.
 
-<!-- When you're creating new accounts only; not sure that you'll have anything to do here once you've authenticated
+<!--
+ When you're creating new accounts only; not sure that you'll have anything to do here once you've authenticated
 
 ### Authenticate tab
 
@@ -201,7 +203,7 @@ Pour activer cette fonctionnalité, activez **[Activer le suivi]**.
 >* Si vous passez de [!UICONTROL Standard] à [!UICONTROL Token], ou vice versa, vous devez régénérer les URL de tracking pour le compte.
 >* Vous pouvez remplacer le paramètre au niveau du compte au niveau de la campagne.
 
-**[!UICONTROL Auto Update]:** (lorsque le suivi Search, Social et Commerce est activé) Standardise vos URL de suivi à des fins de compatibilité entre les navigateurs et les serveurs. Search, Social et Commerce télécharge automatiquement les éléments suivants sur le réseau publicitaire lors de la synchronisation suivante : (a) paramètres de tracking Search, Social et Commerce pour les modèles de tracking et les mêmes paramètres ajoutés aux URL finales ou (b) nouvelles URL de destination incorporées avec le code de tracking Search, Social et Commerce. Pour les annonceurs et annonceuses disposant d’une intégration [Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr) et d’une configuration d’AMO ID côté serveur (s_kwcid), le chargement inclut également les paramètres [AMO ID](/help/integrations/analytics/ids.md#amo-id) pour vos comptes [!DNL Google Ads] et [!DNL Microsoft Advertising]. Le paramètre par défaut au niveau du compte est hérité des paramètres de suivi de l’annonceur. Vous pouvez remplacer le paramètre au niveau du compte au niveau de la campagne.
+**[!UICONTROL Auto Update]:** (lorsque le suivi Search, Social et Commerce est activé) Standardise vos URL de suivi à des fins de compatibilité entre les navigateurs et les serveurs. Search, Social et Commerce télécharge automatiquement les éléments suivants sur le réseau publicitaire lors de la synchronisation suivante : (a) paramètres de tracking Search, Social et Commerce pour les modèles de tracking et les mêmes paramètres ajoutés aux URL finales ou (b) nouvelles URL de destination incorporées avec le code de tracking Search, Social et Commerce. Pour les annonceurs et annonceuses disposant d’une intégration [Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) et d’une configuration d’AMO ID côté serveur (s_kwcid), le chargement inclut également les paramètres [AMO ID](/help/integrations/analytics/ids.md#amo-id) pour vos comptes [!DNL Google Ads] et [!DNL Microsoft Advertising]. Le paramètre par défaut au niveau du compte est hérité des paramètres de suivi de l’annonceur. Vous pouvez remplacer le paramètre au niveau du compte au niveau de la campagne.
 
 Les URL de tracking ne sont mises à jour quotidiennement que pour les entités désynchronisées (c’est-à-dire les nouvelles entités ajoutées et les entités existantes dont les propriétés ont été modifiées). Par conséquent, si vous modifiez ce paramètre de désactivé à activé pour un annonceur/compte/campagne existant, les URL de suivi ne sont pas mises à jour pour les entités existantes qui sont déjà synchronisées. Pour ajouter le tracking aux URL des entités existantes non synchronisées, contactez l’équipe de votre compte Adobe et demandez un processus de synchronisation manuel unique. Le processus de chargement automatique gérera les modifications futures.
 

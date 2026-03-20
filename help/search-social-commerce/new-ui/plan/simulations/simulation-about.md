@@ -4,7 +4,7 @@ description: En savoir plus sur les simulations de portfolio.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 2fbefee2-f8f7-4b3d-a039-e1ca0236c61a
-source-git-commit: 73528e2aa905216584d1aa294f5581d2bca88432
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 0%
@@ -17,7 +17,8 @@ ht-degree: 0%
 
 Les rapports de simulation indiquent le rapport coût/objectif marginal estimé, le coût, le nombre de clics et la valeur objective que vous pouvez vous attendre à voir pour un portefeuille à différents niveaux de dépenses (coût) et les budgets quotidiens correspondants ou d’autres cibles. Vous pouvez éventuellement [personnaliser la vue](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) pour afficher des mesures de trafic supplémentaires, des paramètres de simulation et uniquement un type spécifique de simulation ([!UICONTROL Weekly] ou [!UICONTROL Custom]).
 
-<!-- Not available as of 6/21/25:
+<!--
+ Not available as of 6/21/25:
 When the portfolio has a daily budget, you can optionally change the portfolio's spend target to any of the spend targets listed in the simulation.
 -->
 

@@ -3,7 +3,7 @@ title: Prévisualisation d’une expérience
 description: Découvrez comment prévisualiser les contenus publicitaires dans une expérience publicitaire.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -52,7 +52,8 @@ Vous pouvez prévisualiser les contenus publicitaires avec une taille d’annonc
 
       1. Sélectionnez la taille de l’annonce publicitaire.
 
-     <!-- I don't see this as of 2/3:
+     <!--
+      I don't see this as of 2/3:
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
@@ -60,7 +61,8 @@ Vous pouvez prévisualiser les contenus publicitaires avec une taille d’annonc
 
    * Pour prévisualiser tous les contenus publicitaires dans l’expérience, cliquez sur **[!UICONTROL Entire Tree]**.
 
-     <!-- I don't see this as of 2/3:
+     <!--
+      I don't see this as of 2/3:
      1. Click **[!UICONTROL Entire Tree]**.
      1. Select the ad size.
      1. Select whether to group the creatives by Rotation Type or Ad Size.

@@ -3,7 +3,7 @@ title: Présentation de la gestion des campagnes dans Advertising DSP
 description: Découvrez la hiérarchie et les composants de la gestion des campagnes.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -18,7 +18,8 @@ Les campagnes DSP présentent la hiérarchie suivante :
    * Package(s)
       * Emplacement(s)
          * Annonce(s) publicitaire(s)
-<!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
+<!--
+ Do clients think in terms of insertion orders? If yes, then work in the following info.:
 In Advertising DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package includes placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
 
@@ -56,4 +57,4 @@ Toutes les annonces actives et approuvées d’un emplacement actif dans une cam
 >* [Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [Types de rapports de performances dans les vues de gestion de campagnes](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Gérer les vues de données de votre campagne](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [Vidéo : structure du compte DSP et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=fr)
+>* [Vidéo : structure du compte DSP et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

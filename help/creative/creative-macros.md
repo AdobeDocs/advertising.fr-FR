@@ -3,7 +3,7 @@ title: Macros disponibles pour le tracking des URL
 description: Référencez les macros que vous pouvez ajouter à vos URL de page de destination, URL de tracking et contenus publicitaires tiers.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -18,7 +18,8 @@ Vous pouvez inclure l’une des macros suivantes dans vos contenus publicitaires
 
 Certaines des macros disponibles, ou leurs équivalents, sont automatiquement incluses dans les balises d’expérience.
 
-<!-- Later: 
+<!--
+ Later: 
 
 | Macro | Description | Automatically in experience tags for Advertising DSP? | Automatically in experience tags for [!DNL Google Campaign Manager 360]? |
 | --- | --- | --- | --- |
@@ -55,4 +56,4 @@ Certaines des macros disponibles, ou leurs équivalents, sont automatiquement in
 >* [Ajouter des contenus publicitaires standard à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Paramètres de création standard](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [Paramètres d’expérience ciblés](/help/creative/experiences/experience-settings-targeting.md)
->  &#x200B;>*[Paramètres d’expérience non ciblés](/help/creative/experiences/experience-settings-no-targeting.md)
+>*[Paramètres d’expérience non ciblés](/help/creative/experiences/experience-settings-no-targeting.md)

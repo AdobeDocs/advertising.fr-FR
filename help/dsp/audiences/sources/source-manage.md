@@ -3,7 +3,7 @@ title: Gérer les sources d’audience pour activer les audiences d’ID univers
 description: Découvrez comment créer et gérer une source pour importer des audiences de votre plateforme de données clients et les convertir en segments contenant des identifiants universels.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: b14f9c4ff59332c8850d1c1534d286aa79fe575a
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -22,7 +22,8 @@ Vous pouvez également supprimer une source.
 
 ## Création d’une source d’audience
 
-<!-- Not sure about this
+<!--
+ Not sure about this
 
 You can create one source for each combination of universal ID partner and data visibility level.
 
@@ -58,7 +59,8 @@ You can create one source for each combination of universal ID partner and data 
 
 ## Modification des types d’identifiants pour une source d’audience
 
-<!-- Clarify this:
+<!--
+ Clarify this:
 All changes to universal IDs translated from the source are applied after you save the the source record. For example, if a new ID is added, any hashed email addresses shared before making the changes aren't converted. Similarly, if an ID is removed, we don't delete any historical data from the segments shared through the source.
 
 OR 
@@ -121,9 +123,10 @@ Pour [!DNL RampID] et [!DNL Unified ID2.0], le fournisseur recherche chaque adre
 
 * *[!DNL RampID]:* pour convertir des informations d’identification personnelles en [!DNL RampID]. Vous pouvez utiliser [!DNL RampIDs] pour recibler les utilisateurs connectés et pour mesurer les [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
-* *[!DNL Unified ID2.0] (Beta) :* pour convertir les informations d’identification personnelles en un [identifiant unifié 2.0](https://unifiedid.com) pour le reciblage des utilisateurs connectés.
+* *[!DNL Unified ID2.0](Beta) :* pour convertir les informations d’identification personnelles en un [identifiant unifié 2.0](https://unifiedid.com) pour le reciblage des utilisateurs connectés.
 
-<!-- Later
+<!--
+ Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
 
 -->
