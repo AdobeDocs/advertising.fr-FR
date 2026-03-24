@@ -70,7 +70,7 @@ Les comptes qui utilisent le suivi des conversions Adobe Advertising doivent inc
 
 * Lorsque l’annonceur dispose d’une intégration Adobe Analytics, le suffixe doit inclure l’un des éléments suivants :
 
-   * [!DNL Google Ads] les comptes qui utilisent le dernier [format d’identifiant AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) (commençant par `s_kwcid`), qui prend en charge le reporting au niveau de la campagne et du groupe publicitaire pour les campagnes de type Performances max , ainsi que les campagnes sous forme de brouillons et d’expériences :
+   * [!DNL Google Ads] les comptes qui utilisent le dernier [format d’identifiant AMO](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#dimension-items) (commençant par `s_kwcid`), qui prend en charge le reporting au niveau de la campagne et du groupe publicitaire pour les campagnes de type Performances max , ainsi que les campagnes sous forme de brouillons et d’expériences :
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -93,4 +93,4 @@ Les comptes qui utilisent le suivi des conversions Adobe Advertising doivent inc
 >[!MORELIKETHIS]
 >
 >* [À propos des formats d’URL de suivi des clics pour le service de suivi des conversions Adobe Advertising](formats-click-tracking-about.md)
->* [Formats d’ID AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [Formats d’ID AMO](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#dimension-items)

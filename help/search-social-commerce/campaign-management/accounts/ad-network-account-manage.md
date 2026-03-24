@@ -251,7 +251,7 @@ Les comptes qui utilisent le suivi des clics d’Adobe Advertising doivent inclu
 
 * **Format S_kwcid :** (comptes [!DNL Google Ads] existants pour les annonceurs disposant d’une intégration Adobe Advertising-Adobe Analytics et pour lesquels l’AMO ID (s_kwcid) n’a pas déjà été migré)
 
-Ce compte utilise le format hérité du code de suivi AMO ID, ce qui permet à Adobe Advertising de partager des données sur le compte avec Adobe Analytics. Le [dernier format](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) inclut des paramètres pour l’identifiant de campagne et l’identifiant de groupe publicitaire, qui sont nécessaires pour générer des rapports précis aux niveaux de la campagne et du groupe publicitaire pour [!DNL Google Ads] campagnes avec performances maximales et les campagnes sous forme de brouillons et d’expériences dans Analytics :
+Ce compte utilise le format hérité du code de suivi AMO ID, ce qui permet à Adobe Advertising de partager des données sur le compte avec Adobe Analytics. Le [dernier format](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#dimension-items) inclut des paramètres pour l’identifiant de campagne et l’identifiant de groupe publicitaire, qui sont nécessaires pour générer des rapports précis aux niveaux de la campagne et du groupe publicitaire pour [!DNL Google Ads] campagnes avec performances maximales et les campagnes sous forme de brouillons et d’expériences dans Analytics :
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

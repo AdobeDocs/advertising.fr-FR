@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Comptes *[!DNL Google Ads]uniquement*
 
-Le format hérité (antérieur à octobre 2019) du [code de suivi AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) pour les comptes [!DNL Google Ads] existants ne prend pas en charge certaines fonctionnalités d’Analytics, telles que le compte rendu des performances au niveau de la campagne et du groupe publicitaire pour les campagnes à performances maximales [!DNL Google Ads], les campagnes à brouillons et à expériences, ainsi que d’autres cas d’utilisation dans lesquels la même combinaison de type ad+mot-clé+correspondance existe dans plusieurs campagnes.
+Le format hérité (antérieur à octobre 2019) du [code de suivi AMO ID](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#dimension-items) pour les comptes [!DNL Google Ads] existants ne prend pas en charge certaines fonctionnalités d’Analytics, telles que le compte rendu des performances au niveau de la campagne et du groupe publicitaire pour les campagnes à performances maximales [!DNL Google Ads], les campagnes à brouillons et à expériences, ainsi que d’autres cas d’utilisation dans lesquels la même combinaison de type ad+mot-clé+correspondance existe dans plusieurs campagnes.
 
 Le format actuel inclut les paramètres pour l’identifiant de campagne et l’identifiant de groupe publicitaire :
 
@@ -70,4 +70,4 @@ Tous les nouveaux comptes [!DNL Google Ads] utilisent automatiquement le format 
 >
 >* [Gérer les comptes de réseau publicitaire](ad-network-account-manage.md)
 >* [Adobe Advertising ID utilisés par  [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Présentation de  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
+>* [Présentation de  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=fr){target="_blank"}
