@@ -3,9 +3,9 @@ title: Formats de suivi des clics pour  [!DNL Google Ads]
 description: Découvrez les formats de suivi des clics pour les comptes  [!DNL Google Ads] .
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ Les comptes qui utilisent le suivi des conversions Adobe Advertising doivent inc
 
 * Lorsque l’annonceur dispose d’une intégration Adobe Analytics, le suffixe doit inclure l’un des éléments suivants :
 
-   * [!DNL Google Ads] les comptes qui utilisent le dernier [format d’identifiant AMO](/help/integrations/analytics/ids.md#amo-id-formats) (commençant par `s_kwcid`), qui prend en charge le reporting au niveau de la campagne et du groupe publicitaire pour les campagnes de type Performances max , ainsi que les campagnes sous forme de brouillons et d’expériences :
+   * [!DNL Google Ads] les comptes qui utilisent le dernier [format d’identifiant AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) (commençant par `s_kwcid`), qui prend en charge le reporting au niveau de la campagne et du groupe publicitaire pour les campagnes de type Performances max , ainsi que les campagnes sous forme de brouillons et d’expériences :
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Si le compte possède une implémentation AMO ID côté serveur et que le compte ou le paramètre de campagne « [!UICONTROL Auto Upload] » est activé, le paramètre est automatiquement ajouté. Sinon, vous devez l’ajouter manuellement. Voir « [Adobe Advertising IDs utilisés par  [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement). »
+     Si le compte possède une implémentation AMO ID côté serveur et que le compte ou le paramètre de campagne « [!UICONTROL Auto Upload] » est activé, le paramètre est automatiquement ajouté. Sinon, vous devez l’ajouter manuellement. Voir « [Adobe Advertising IDs utilisés par  [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id-implement). »
 
    * Tous les autres comptes [!DNL Google Ads] :
 
@@ -93,4 +93,4 @@ Les comptes qui utilisent le suivi des conversions Adobe Advertising doivent inc
 >[!MORELIKETHIS]
 >
 >* [À propos des formats d’URL de suivi des clics pour le service de suivi des conversions Adobe Advertising](formats-click-tracking-about.md)
->* [Formats d’ID AMO](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Formats d’ID AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

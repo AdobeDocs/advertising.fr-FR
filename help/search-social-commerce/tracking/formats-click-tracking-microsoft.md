@@ -3,9 +3,9 @@ title: Formats de suivi des clics pour  [!DNL Microsoft Advertising]
 description: Découvrez les formats de suivi des clics pour les comptes  [!DNL Microsoft Advertising] .
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Exemple :
 >
 >* Ce format indique que la transmission du jeton est activée pour la campagne (valeur par défaut). Si la transmission du jeton est désactivée, remplacez `cq?` après `<advertiser_ID>` par `c?`.
 >
->* `{TargetId}` représente l’ID de a) le mot-clé ou b) le mot-clé et la liste de remarketing (audience) qui ont déclenché la publicité (par exemple, « kwd-123:aud-456 » pour un mot-clé et une liste de remarketing ou « kwd-123 » pour le mot-clé uniquement).
+>* `{TargetId}` représente l’ID de a) le mot-clé ou b) le mot-clé et la liste de remarketing (audience) qui ont déclenché la publicité (par exemple, « kwd-123 :aud-456 » pour un mot-clé et une liste de remarketing ou « kwd-123 » pour le mot-clé uniquement).
 
 ### Liens du site
 
@@ -48,7 +48,7 @@ Exemple :
 >
 >* Ce format indique que la transmission du jeton est activée pour la campagne (valeur par défaut). Si la transmission du jeton est désactivée, remplacez `cq?` après `<advertiser_ID>` par `c?`.
 >
->* `{TargetId}` représente l’ID de a) le mot-clé ou b) le mot-clé et la liste de remarketing (audience) qui ont déclenché la publicité (par exemple, « kwd-123:aud-456 » pour un mot-clé et une liste de remarketing ou « kwd-123 » pour le mot-clé uniquement).
+>* `{TargetId}` représente l’ID de a) le mot-clé ou b) le mot-clé et la liste de remarketing (audience) qui ont déclenché la publicité (par exemple, « kwd-123 :aud-456 » pour un mot-clé et une liste de remarketing ou « kwd-123 » pour le mot-clé uniquement).
 >
 >* `{adextensionid}` n’est pas utilisé.
 >
@@ -70,7 +70,7 @@ Exemple :
 >
 >* Ce format indique que la transmission du jeton est activée pour la campagne (valeur par défaut). Si la transmission du jeton est désactivée, remplacez `cq?` après `<advertiser_ID>` par `c?`.
 >
->* `{TargetId}` représente l’ID de a) le mot-clé ou b) le mot-clé et la liste de remarketing (audience) qui ont déclenché la publicité (par exemple, « kwd-123:aud-456 » pour un mot-clé et une liste de remarketing ou « kwd-123 » pour le mot-clé uniquement).
+>* `{TargetId}` représente l’ID de a) le mot-clé ou b) le mot-clé et la liste de remarketing (audience) qui ont déclenché la publicité (par exemple, « kwd-123 :aud-456 » pour un mot-clé et une liste de remarketing ou « kwd-123 » pour le mot-clé uniquement).
 >
 >* (Facultatif) Au lieu de saisir des modèles de suivi au niveau du compte, de la campagne, du groupe publicitaire ou du groupe de produits, vous pouvez ajouter l’URL de suivi aux données de produit dans le compte [!DNL Microsoft Merchant Center]. Pour ce faire, incluez l’URL de tracking, ainsi que la valeur dans le champ « `link` » ou « `mobile_link` », selon le cas, dans une colonne personnalisée « [bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0) » dans le flux de produits. La valeur du champ « `bingads_redirect` » remplace celle des champs « `link` » et « `mobile_link` ». Les URL générées à l’aide de cette méthode n’incluent aucun paramètre de tracking spécifié dans les paramètres du compte Search, Social et Commerce ou de la campagne.
 
@@ -107,4 +107,4 @@ Les comptes qui utilisent le suivi des conversions Adobe Advertising doivent inc
 >[!MORELIKETHIS]
 >
 >* [À propos des formats d’URL de suivi des clics pour le service de suivi des conversions Adobe Advertising](formats-click-tracking-about.md)
->* [Formats d’ID AMO](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Formats d’ID AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

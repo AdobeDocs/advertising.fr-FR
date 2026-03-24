@@ -3,9 +3,9 @@ title: Glossaire
 description: Voir les définitions des termes clés.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2342'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **variation publicitaire :** toute publicité au sein d’un groupe publicitaire ou d’une stratégie publicitaire.
 
-**[AMO ID](/help/integrations/analytics/ids.md#amo-id) :** code de suivi qui permet à Adobe Advertising de partager des données sur les campagnes avec Adobe Analytics et Adobe Customer Journey Analytics. Cela commence par la `s_kwcid=`.
+**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id) :** code de suivi qui permet à Adobe Advertising de partager des données sur les campagnes avec Adobe Analytics et Adobe Customer Journey Analytics. Cela commence par la `s_kwcid=`.
 
 **unité d’enchère :** terme Search, Social et Commerce désignant l’unité sur laquelle les enchères sont placées.
 
@@ -87,6 +87,8 @@ ht-degree: 0%
 ## E-F {#e-f}
 
 **eCPM:** CPM effective ou coût moyen payé pour 1 000 impressions au cours d’une période spécifiée. Les valeurs eCPM peuvent être calculées pour des campagnes CPM ou CPC.
+
+**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id) :** code de suivi qui permet à Adobe Advertising d’associer l’activité à une exposition de publicité ou de clic en ligne et de partager des données sur les campagnes avec Adobe Analytics et Adobe Customer Journey Analytics.
 
 ## G-H {#g-h}
 

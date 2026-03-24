@@ -1,11 +1,11 @@
 ---
-title: Formats de suivi des clics pour [!DNL Yandex]
+title: Formats de suivi des clics pour  [!DNL Yandex]
 description: Découvrez les formats de suivi des clics pour les comptes  [!DNL Yandex] .
 exl-id: bcbd369b-b98d-491c-a921-58bf79e01744
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,21 @@ Exemple :
 
 >[!NOTE]
 >
->* `<advertiser_ID>` est une variable de l’identifiant unique de l’annonceur dans Adobe Advertising.
+>* `<advertiser_ID>` est une variable pour l’ID unique de l’annonceur dans Adobe Advertising.
 >
->* Ce format indique que la transmission de jetons est activée pour la campagne (valeur par défaut). Si le transfert de jeton est désactivé, remplacez `cq?` après `<advertiser_ID>` par `c?`.
+>* Ce format indique que la transmission du jeton est activée pour la campagne (valeur par défaut). Si la transmission du jeton est désactivée, remplacez `cq?` après `<advertiser_ID>` par `c?`.
 >
 >* `<the landing page>` est une variable qui représente l’URL de votre site vers laquelle les utilisateurs finaux sont dirigés.
 >
 >* `source_type` est le type de correspondance.
 >
->* `source` indique si la publicité a été affichée sur un site de recherche ou basé sur du contenu.
+>* `source` s’agit de savoir si la publicité a été affichée sur un site de recherche ou basé sur du contenu.
 >
->* `position` est le numéro de position de la publicité dans le bloc. Pour le trafic hors recherche, la valeur est &quot;0&quot;.
+>* `position` est le numéro de position de l’annonce publicitaire dans le bloc. Pour le trafic hors recherche, la valeur est « 0 ».
 >
->* `position_type` est le bloc dans lequel la publicité a été affichée sur [!DNL Yandex]. Valeurs possibles : &quot;premium&quot; (bloc supérieur), &quot;other&quot; (bloc de droite) ou &quot;none&quot; (trafic hors recherche).
+>* `position_type` est le bloc dans lequel la publicité a été affichée sur [!DNL Yandex]. Valeurs possibles : « premium » (bloc supérieur), « other » (bloc de droite) ou « none » (trafic hors recherche).
 
 >[!MORELIKETHIS]
 >
->* [À propos des formats d’URL de suivi des clics pour le service de suivi de conversion d’Adobe Advertising](formats-click-tracking-about.md)
->* [Formats AMO ID](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [À propos des formats d’URL de suivi des clics pour le service de suivi des conversions Adobe Advertising](formats-click-tracking-about.md)
+>* [Formats d’ID AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)
