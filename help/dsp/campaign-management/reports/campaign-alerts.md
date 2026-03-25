@@ -1,11 +1,11 @@
 ---
 title: Affichage des alertes
-description: Découvrez comment afficher les alertes et les résolutions recommandées pour vos campagnes et composants de campagne.
+description: Découvrez comment afficher les alertes et les résolutions recommandées pour vos campagnes et composants de campagne. Utilisez des alertes pour résoudre les problèmes liés à vos campagnes.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 747606b120cdd36eb025b320f89abb5cc7704bf0
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
