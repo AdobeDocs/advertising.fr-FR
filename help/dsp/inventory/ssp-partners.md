@@ -3,9 +3,9 @@ title: Partenaires SSP
 description: Consultez la liste des plateformes côté offre (SSP) et des partenaires Exchange ouverts disponibles.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d5ac30d71fb9ccab53c396dae9b37d53d59e489c
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] ou Adobe Advertising | — | Global | USD | Écran de bureau et mobile<br><br>écran natif<br><br>vidéo de bureau, mobile et CTV |
 | [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | Toutes les devises | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
 | [!DNL Taboola] |  | Adobe Advertising | — | US/CA | USD | Ordinateur de bureau et mobile vidéo |
-| [!DNL Teads] |  | [!DNL TubeMogul] ou Adobe Advertising | — | Vidéo en aval = Affichage global <br> = NA + EMEA | USD | Affichage sur poste de travail et mobile<br><br>vidéo sur poste de travail et mobile |
+| [!DNL Teads] |  | [!DNL TubeMogul] ou Adobe Advertising | — | Vidéo en aval = Affichage global <br> = NA + EMEA | USD | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
 | [!DNL TripleLift] |  | [!DNL TubeMogul] ou Adobe Advertising | — | Global | USD | Affichage natif |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] ou Adobe Advertising | — | Global | USD | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
 | [!DNL Triton] |  | Adobe Advertising | Prise en charge de PG | Global | USD | Poste de travail audio et mobile |
