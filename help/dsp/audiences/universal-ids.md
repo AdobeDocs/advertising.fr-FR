@@ -18,7 +18,7 @@ ht-degree: 0%
 
 DSP prend en charge les identifiants universels basés sur les personnes pour le ciblage sans cookie sur un seul appareil (et non sur plusieurs appareils) à travers les formats numériques pris en charge par DSP.
 
-* Vous pouvez envoyer manuellement vos [[!DNL LiveRamp] [!DNL RampIDs]] authentifiés directement à DSP à l&#39;aide du tableau de bord [!DNL LiveRamp] [!DNL Connect]. Voir « [ Importer manuellement des segments authentifiés depuis  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md) ».
+* Vous pouvez envoyer manuellement vos [[!DNL LiveRamp] [!DNL RampIDs]] authentifiés directement à DSP à l&#39;aide du tableau de bord [!DNL LiveRamp] [!DNL Connect]. Voir « [&#x200B; Importer manuellement des segments authentifiés depuis  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md) ».
 
 * DSP peut ingérer vos segments propriétaires créés dans votre plateforme de données client (CDP) et les convertir en [!DNL LiveRamp] [!DNL RampIDs] et en ID de [!DNL Unified ID 2.0 (UID2.0)]. Pour plus d’informations sur les plateformes de données client et les types d’identifiants utilisateur pris en charge, les fonctionnalités disponibles pour chaque type d’identifiant universel pris en charge et les workflows associés, consultez la section « [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md) ».
 
