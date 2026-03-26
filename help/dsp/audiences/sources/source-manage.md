@@ -3,7 +3,7 @@ title: Gérer les sources d’audience pour activer les audiences d’ID univers
 description: Découvrez comment créer et gérer une source pour importer des audiences de votre plateforme de données clients et les convertir en segments contenant des identifiants universels.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gérer les sources d’audience pour activer les audiences d’ID universel
 
-*Fonction Beta*
+*Fonction*
 
 Créez une source dans DSP pour chaque audience propriétaire de votre plateforme de données client que vous souhaitez convertir en segments contenant des types d’identifiants universels spécifiés. Vous pouvez importer les segments dans le compte DSP de votre organisation ou dans un compte d’annonceur. Les frais de données sont appliqués en fonction des types d’ID universels sélectionnés. Une fois que vous avez créé une source, des étapes supplémentaires sont nécessaires pour ingérer les audiences de chaque plateforme de données client. Reportez-vous à la remarque à la fin de la procédure pour créer une source.
 
@@ -59,13 +59,9 @@ You can create one source for each combination of universal ID partner and data 
 
 ## Modification des types d’identifiants pour une source d’audience
 
-<!--
- Clarify this:
-All changes to universal IDs translated from the source are applied after you save the the source record. For example, if a new ID is added, any hashed email addresses shared before making the changes aren't converted. Similarly, if an ID is removed, we don't delete any historical data from the segments shared through the source.
+<!-- Clarify this:
 
-OR 
-
-All changes to universal IDs translated from the source are applied after you save the the source record. For example, if you add a new ID type, then we convert hashed email addresses shared before making the changes to the new ID type. Similarly, if you remove an ID type, then we delete any historical IDs of that type from the segments shared through the source.
+All changes to universal IDs translated from the source are applied after you save the the source record. For example, if you add a new ID type, then we convert hashed email addresses that you shared before making the changes to the new ID type. Similarly, if you remove an ID type, then we don't delete any historical IDs of that type from the segments shared through the source.
 
 -->
 
@@ -123,7 +119,7 @@ Pour [!DNL RampID] et [!DNL Unified ID2.0], le fournisseur recherche chaque adre
 
 * *[!DNL RampID]:* pour convertir des informations d’identification personnelles en [!DNL RampID]. Vous pouvez utiliser [!DNL RampIDs] pour recibler les utilisateurs connectés et pour mesurer les [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
-* *[!DNL Unified ID2.0] (Beta) :* pour convertir les informations d’identification personnelles en un [identifiant unifié 2.0](https://unifiedid.com) pour le reciblage des utilisateurs connectés.
+* *[!DNL Unified ID2.0](Beta) :* pour convertir les informations d’identification personnelles en un [identifiant unifié 2.0](https://unifiedid.com) pour le reciblage des utilisateurs connectés.
 
 <!--
  Later
@@ -131,9 +127,9 @@ Pour [!DNL RampID] et [!DNL Unified ID2.0], le fournisseur recherche chaque adre
 
 -->
 
-**[!UICONTROL Terms of Service]:** Conditions d’utilisation de la conversion des informations d’identification personnelles en identifiants universels. Vous ou un autre utilisateur du compte DSP devez accepter les conditions une seule fois avant de pouvoir convertir des données en un nouveau type d’identifiant. Pour les clients qui disposent de contrats de service géré, l’équipe chargée de votre compte Adobe obtiendra votre consentement et acceptera les conditions au nom de votre entreprise. Pour lire les termes, cliquez sur **>**. Pour accepter les conditions, faites défiler l’écran jusqu’au bas des conditions et cliquez sur **[!UICONTROL Accept]**.
+**[!UICONTROL Terms of Service]:** Conditions d’utilisation de la conversion des informations d’identification personnelles en identifiants universels. Vous ou un autre utilisateur du compte DSP devez accepter les conditions une seule fois avant de pouvoir convertir des données en un nouveau type d’identifiant. Pour les clients qui disposent de contrats de service géré, l’équipe chargée de votre compte Adobe obtient votre consentement et accepte les conditions au nom de votre entreprise. Pour lire les termes, cliquez sur **>**. Pour accepter les conditions, faites défiler l’écran jusqu’au bas des conditions et cliquez sur **[!UICONTROL Accept]**.
 
-**[!UICONTROL Source Key]:** (Lecture seule ; générée automatiquement) Clé source que vous pouvez utiliser pour créer une connexion de destination dans la plateforme de données client afin de pousser les audiences vers Advertising DSP. Vous pouvez copier la valeur dans le presse-papiers pour la coller dans les paramètres de connexion de destination ou dans un fichier.
+**[!UICONTROL Source Key]:** (Lecture seule ; générée automatiquement) Clé source que vous pouvez utiliser pour créer une connexion de destination dans la plateforme de données client pour pousser les audiences vers Advertising DSP. Vous pouvez copier la valeur dans le presse-papiers pour la coller dans les paramètres de connexion de destination ou dans un fichier.
 
 >[!MORELIKETHIS]
 >
