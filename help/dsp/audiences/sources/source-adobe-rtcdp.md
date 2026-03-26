@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Fonction*
 
-Utilisez l’intégration de DSP à [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), qui fait partie de Adobe Experience Platform, pour convertir vos identifiants d’utilisateur (y compris les adresses e-mail hachées, les cookies et les identifiants publicitaires mobiles) en identifiants universels pour la publicité ciblée.
+Utilisez l’intégration de DSP à [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr), qui fait partie de Adobe Experience Platform, pour convertir vos identifiants d’utilisateur (y compris les adresses e-mail hachées, les cookies et les identifiants publicitaires mobiles) en identifiants universels pour la publicité ciblée.
 
 1. (Pour convertir les ID utilisateur en [!DNL RampIDs]<!-- or [!DNL ID5] IDs --> ; annonceurs avec [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Configurez le suivi de la mesure [!DNL Analytics] :
 
@@ -55,6 +55,6 @@ Pour résoudre les problèmes liés à la procédure de conversion, contactez l�
 >* [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md)
 >* [Gérer les sources d’audience pour activer les audiences d’ID universel](source-manage.md)
 >* [Connexion &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Adobe Experience Platform [Présentation du catalogue des destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* Adobe Experience Platform [Présentation du catalogue des destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=fr)
 >* [Prise en charge de l’activation des identifiants universels](/help/dsp/audiences/universal-ids.md)
 >* [À propos de la gestion des audiences](/help/dsp/audiences/audience-about.md)
