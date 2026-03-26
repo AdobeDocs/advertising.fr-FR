@@ -3,7 +3,7 @@ title: Régénérer la prévision pour un plan de portée TV connectée
 description: Découvrez comment créer une nouvelle prévision pour un plan de portée télévisuelle connectée.
 feature: DSP Planner
 exl-id: ec3de39c-c2b3-4004-8d86-eb6479608121
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 81943936f828fa9472cff1b5b1c09e473396b818
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Vous pouvez régénérer la prévision d’un plan de portée TV connectée en f
 
 1. Placez le curseur au-dessus de la ligne de plan, puis cliquez sur **[!UICONTROL Forecast]**.
 
-1. (Facultatif) Pour exporter la prévision [!UICONTROL Budget vs Reach] vers une feuille de calcul [!DNL Microsoft Excel] **&#x200B; cliquez sur &#x200B;** [!UICONTROL ...] **&#x200B; en haut à droite, puis sur &#x200B;** [!UICONTROL Export]**.
+1. (Facultatif) Pour exporter la prévision [!UICONTROL Budget vs Reach] vers une feuille de calcul [!DNL Microsoft Excel]** cliquez sur **[!UICONTROL ...]** en haut à droite, puis sur **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

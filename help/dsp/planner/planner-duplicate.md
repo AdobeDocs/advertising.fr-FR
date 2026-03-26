@@ -3,7 +3,7 @@ title: Dupliquer un plan de portée TV connectée
 description: Découvrez comment créer un plan de portée TV connectée à l’aide des paramètres d’un plan existant.
 feature: DSP Planner
 exl-id: 80dab57a-e56d-4a77-a1d5-c3e705f54fb9
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 81943936f828fa9472cff1b5b1c09e473396b818
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Planner]**.
 
-1. &#x200B;
+1. 
    1. Placez le curseur au-dessus de la ligne de plan, puis cliquez sur **[!UICONTROL More]** > **[!UICONTROL Duplicate]**.
 
 1. (Facultatif) Modifiez le nom du plan et [les paramètres du plan](planner-settings.md).
@@ -25,7 +25,7 @@ ht-degree: 0%
 
    Une fois le plan enregistré, la sortie prévue s’affiche.
 
-1. (Facultatif) Pour exporter la prévision [!UICONTROL Budget vs Reach] vers une feuille de calcul [!DNL Microsoft Excel] **&#x200B; cliquez sur &#x200B;** [!UICONTROL ...] **&#x200B; en haut à droite, puis sur &#x200B;** [!UICONTROL Export]**.
+1. (Facultatif) Pour exporter la prévision [!UICONTROL Budget vs Reach] vers une feuille de calcul [!DNL Microsoft Excel]** cliquez sur **[!UICONTROL ...]** en haut à droite, puis sur **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

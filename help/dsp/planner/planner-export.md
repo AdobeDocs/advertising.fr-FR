@@ -3,7 +3,7 @@ title: Exporter une prévision pour un plan de portée TV connectée
 description: Découvrez comment exporter les prévisions d’un plan de portée TV connectée.
 feature: DSP Planner
 exl-id: f4bad569-1b56-439a-8c41-92a24a710476
-source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
+source-git-commit: 81943936f828fa9472cff1b5b1c09e473396b818
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
