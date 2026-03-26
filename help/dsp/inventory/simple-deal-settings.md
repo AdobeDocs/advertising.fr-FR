@@ -3,7 +3,7 @@ title: Paramètres des offres [!UICONTROL Simple Ad Serving]
 description: Découvrez les paramètres disponibles pour les offres [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 90cc9d56a090136bc94270b048573d89503231c6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 | **[!UICONTROL Serving Type]** | Type de média pour cette offre : *[!UICONTROL Video],* *[!UICONTROL Display],* ou *[!UICONTROL Audio].* |
 | **[!UICONTROL Publisher Site Served On]** | Nom de l’éditeur qui vend ce stock. Recherchez un éditeur en saisissant au moins les deux premiers caractères du nom. Pour ajouter un éditeur qui n’est pas répertorié, contactez l’équipe chargée de votre compte Adobe. |
 | **[!UICONTROL Advertiser]** | Un seul annonceur dans le compte qui peut accéder à cette offre. Sélectionnez également la campagne et (éventuellement) le package dans lequel l’offre est disponible. |
-| **[!UICONTROL Media Quality Assessment?]** | (Certains utilisateurs) Permet à la publicité de s’exécuter sur un autre DSP pour une vérification tierce. <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
+| **[!UICONTROL Media Quality Assessment?]** | (Certains utilisateurs) Permet à la publicité de s’exécuter sur un autre DSP pour une vérification tierce. |
 | **[!UICONTROL Ad Source]** | La seule option est *[!UICONTROL Site Serve (Event Pixels)]*. |
 | **[!UICONTROL Ad Creation]** | (Nouvelles offres uniquement) S’il faut :<ul><li>*[!UICONTROL Create New]:* pour créer une annonce publicitaire pour cette offre.</li><li>*[!UICONTROL Select Ads]:* pour utiliser une annonce publicitaire existante pour cette offre.</li></ul> |
 | **[!UICONTROL Ad Type]** | Type d’annonce publicitaire pour cette offre. Si vous allez créer des annonces pour l&#39;offre, incluez la taille ou la durée de l&#39;annonce, comme demandé. Les options disponibles varient selon le type de média. |
