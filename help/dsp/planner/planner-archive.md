@@ -3,7 +3,7 @@ title: Archiver un plan de portée TV connectée
 description: Découvrez comment archiver un plan de portée TV connectée.
 feature: DSP Planner
 exl-id: 335db881-51e6-412d-9346-216c6a70a6de
-source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Archiver un plan de portée TV connectée
 
-L’archivage d’un plan le supprime de la vue [!UICONTROL Planner] par défaut.<!-- You can still view it by including the [!UICONTROL Status] "[!UICONTROL Archived]" in the view filter. -->
+L’archivage d’un plan le supprime de la vue [!UICONTROL Planner] par défaut.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Planner]**.
 

@@ -3,7 +3,7 @@ title: Questions fréquentes sur la vidéo universelle
 description: En savoir plus sur les publicités vidéo universelles.
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Créez des emplacements vidéo et des annonces universels de la même manière q
    * **[!UICONTROL VPAID & VAST (Default)]:** inclut l’inventaire qui ne permet pas de mesurer la visibilité.
    * **[!UICONTROL VAST]** - Convient pour l&#39;inventaire de la télévision connectée.
 
-   Pour plus d’informations, reportez-vous à « [&#x200B; Paramètres universels de publicité vidéo &#x200B;](/help/dsp/campaign-management/ads/ad-settings-universal-video.md) ».
+   Pour plus d’informations, reportez-vous à « [ Paramètres universels de publicité vidéo ](/help/dsp/campaign-management/ads/ad-settings-universal-video.md) ».
 
 1. [Joignez les nouvelles publicités vidéo universelles](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) à l’emplacement vidéo universel.
 
@@ -51,7 +51,7 @@ Les objectifs incompatibles avec les emplacements de télévision connectée sta
 Utilisez **[!UICONTROL VAST]** dans l’un des scénarios suivants :
 
 * L’emplacement cible l’inventaire des télévisions connectées.
-* L’emplacement cible l’inventaire vidéo de Google Ad Manager, Appnexus, SpotX ou Freewheel. Ces SSP ne prennent pas en charge le format vidéo VPAID &amp; VAST.
+* L’emplacement cible l’inventaire vidéo de Google Ad Manager, Appnexus, SpotX ou FreeWheel. Ces SSP ne prennent pas en charge le format vidéo VPAID &amp; VAST.
 
 ## Est-il possible de joindre plusieurs publicités vidéo universelles au même emplacement vidéo universel ?
 

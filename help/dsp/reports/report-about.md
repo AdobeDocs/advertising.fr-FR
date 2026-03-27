@@ -3,7 +3,7 @@ title: À propos des rapports personnalisés
 description: Découvrez les options permettant de créer des rapports personnalisés manuellement ou d’utiliser des modèles de rapport préconfigurés.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Vous pouvez générer des rapports une fois ou les planifier tous les jours, tou
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
-* &#x200B;<!-- (in beta) --> SSL FTP
+* <!-- (in beta) --> SSL FTP
 * SFTP
 
 >[!NOTE]
@@ -43,7 +43,7 @@ Vous pouvez générer des rapports une fois ou les planifier tous les jours, tou
      >
      >Ce rapport inclut des données sur le segment de facturation. Si une impression appartenant à plusieurs segments est diffusée à un utilisateur, une seule impression est créditée à un segment facturable.
 
-   * **[!UICONTROL Content]:** utilisez ce rapport pour comprendre la diffusion d’impressions et d’autres mesures par dimensions de contenu spécifiées (telles que le genre, la qualité de production et l’évaluation du contenu) afin que vous puissiez optimiser le ciblage et garantir la sécurité de la marque. Outre les dimensions de contenu, le rapport comprend la plupart des dimensions, mesures et filtres standard. Les données par dimension de contenu sont disponibles pour [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] et [!DNL Triplelift]. Les signaux de contenu sont transmis par les éditeurs pendant le flux de données et sont soumis à disponibilité.
+   * **[!UICONTROL Content]:** utilisez ce rapport pour comprendre la diffusion d’impressions et d’autres mesures par dimensions de contenu spécifiées (telles que le genre, la qualité de production et l’évaluation du contenu) afin que vous puissiez optimiser le ciblage et garantir la sécurité de la marque. Outre les dimensions de contenu, le rapport comprend la plupart des dimensions, mesures et filtres standard. Les données par dimension de contenu sont disponibles pour [!DNL FreeWheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] et [!DNL Triplelift]. Les signaux de contenu sont transmis par les éditeurs pendant le flux de données et sont soumis à disponibilité.
 
    * **[!UICONTROL Conversion]:** utilisez ce rapport pour comprendre les performances de vos campagnes en fonction des mesures de conversion capturées à l’aide du suivi des conversions d’Adobe Advertising. Ce rapport comprend l’attribution multipoint.
 

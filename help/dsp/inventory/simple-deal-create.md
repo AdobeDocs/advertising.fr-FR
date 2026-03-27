@@ -3,9 +3,9 @@ title: Créer une offre [!UICONTROL Simple Ad Serving]
 description: Découvrez comment créer un pixel de tracking pour une offre [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**, puis sélectionnez **[!UICONTROL Simple Ad Serving]**.
 
-1. Saisissez les [&#x200B; paramètres de l’offre &#x200B;](simple-deal-settings.md) :
+1. Saisissez les [ paramètres de l’offre ](simple-deal-settings.md) :
 
    1. Dans la section [!UICONTROL Select Ad Source], spécifiez des informations sur l’éditeur, l’annonceur et la campagne, ainsi que le type d’annonce, puis cliquez sur **[!UICONTROL Next]**.
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
          * Pour coller les informations dans un e-mail dans une application de messagerie sur votre appareil, cliquez sur **[!UICONTROL Email & Done]** et sélectionnez l’application de messagerie. Le champ [!UICONTROL CC:] est prérempli avec une adresse d’assistance [!DNL Adobe]. Vous pouvez ensuite envoyer le message au contact approprié pour l’éditeur.
 
-         * Pour copier les informations dans le presse-papiers, cliquez sur **[!UICONTROL Copy Email].** Vous pouvez ensuite coller manuellement le contenu dans un e-mail et l’envoyer au contact approprié pour l’éditeur. Vous devez inclure une copie (CC:) à `publisher-support-global@adobe.com`. Lorsque vous avez terminé de copier le message, cliquez sur **[!UICONTROL Email & Done]**.
+         * Pour copier les informations dans le presse-papiers, cliquez sur **[!UICONTROL Copy Email].** Vous pouvez ensuite coller manuellement le contenu dans un e-mail et l’envoyer au contact approprié pour l’éditeur. Insérez une copie (CC :) à `publisher-support-global@adobe.com`. Lorsque vous avez terminé de copier le message, cliquez sur **[!UICONTROL Email & Done]**.
 
       1. (Si nécessaire) Contactez l’éditeur pour vérifier si la balise inclut les macros appropriées afin que la balise fonctionne avec le serveur de publicités de l’éditeur.
 

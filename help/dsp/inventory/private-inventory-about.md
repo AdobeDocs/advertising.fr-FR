@@ -3,9 +3,9 @@ title: À propos de l'inventaire privé
 description: À propos de l'inventaire privé
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 05b374b1d15121f71035b10e6c27a2b70fb642fa
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Les annonceurs qui cherchent au-delà de RTB peuvent utiliser des stocks privés
 ## ID d’offres
 
 
-Si vous entretenez des relations directes avec des éditeurs, vous pouvez rationaliser votre processus et votre workflow d’achat de médias en utilisant vos propres contrats privés, avec leur inventaire et leur prix négociés, dans vos emplacements Advertising DSP. DSP s’intègre à tous vos éditeurs lorsque vous configurez un compte. Si vous souhaitez accéder à d’autres éditeurs ultérieurement, contactez l’équipe chargée de votre compte Adobe pour configurer l’accès. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+Si vous entretenez des relations directes avec des éditeurs, vous pouvez rationaliser votre processus et votre workflow d’achat de médias en utilisant vos propres offres privées, qui comportent un inventaire et un prix négociés, dans vos emplacements Advertising DSP. DSP s’intègre à tous vos éditeurs lorsque vous configurez un compte. Si vous souhaitez accéder à d’autres éditeurs ultérieurement, contactez l’équipe chargée de votre compte Adobe pour configurer l’accès.
 
 Toutes vos transactions privées avec un ID de transaction sont financées et facturées par [!DNL Adobe].
 
@@ -27,7 +27,7 @@ Vous pouvez utiliser les ID d’offres de l’une des manières suivantes :
 
 * (Fonctionnalité facultative qui nécessite une activation) À partir de l’[!UICONTROL Deal ID Inbox], vous pouvez examiner et accepter rapidement vos contrats d’inventaire privé garantis et non garantis convenus avec les éditeurs sur les plateformes côté offre (SSP) suivantes : [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anciennement appelée [!DNL AdX]) et [!DNL Magnite DV+] (anciennement [!DNL Rubicon]) à partir de l’[!UICONTROL Deal ID Inbox].
 
-  Pour plus d’informations, voir « [&#x200B; À propos de l’[!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md) ».
+  Pour plus d’informations, voir « [ À propos de l’[!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md) ».
 
 * Vous pouvez configurer manuellement des informations sur une transaction privée que vous avez déjà négociée.
 
@@ -39,7 +39,7 @@ Dans la vue [!UICONTROL Inventory] > [!UICONTROL Deals] , vous pouvez créer des
 
 La colonne « État de l’offre » indique le statut de l’état de chaque offre privée : « Succès », « Avertissement », « Critique » ou « Indisponible ». Vous pouvez cliquer sur le statut pour afficher plus de détails, notamment les raisons pour lesquelles une offre ne fonctionne pas ou n’entraîne pas les dépenses prévues, ainsi que les étapes de dépannage des problèmes potentiels.
 
-Vous pouvez personnaliser la présentation des données d’opération existantes en appliquant des filtres, en personnalisant les colonnes visibles et, éventuellement, en enregistrant des vues personnalisées, en triant les colonnes et en affichant les données sous forme de graphiques.
+Vous pouvez personnaliser les données d’offres visibles en appliquant des filtres, en personnalisant les colonnes visibles et, éventuellement, en enregistrant des vues personnalisées, en triant les colonnes et en affichant les données sous forme de graphiques.
 
 ## La vue [!UICONTROL Deal Lists]
 
