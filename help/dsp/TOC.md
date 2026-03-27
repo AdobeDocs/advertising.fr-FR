@@ -24,8 +24,8 @@ ht-degree: 4%
       + [Solutions sur plusieurs appareils](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Financement du compte](/help/dsp/introduction/billing/account-funding.md)
    + [Devises prises en charge](/help/dsp/currency.md)
-   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
-   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)
+   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)
    + [Solutions de mesure avancées](/help/dsp/introduction/advanced-measurement-services.md)
 + [Rechercher de la documentation sur les produits à l’aide du chat assisté par l’IA](/help/dsp/agent-chat.md)
 + Gestion des campagnes {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 4%
       + [Révision et modification des détails des annonces publicitaires à l’aide de feuilles d’envoi groupé](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Modification d’une publicité](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Dupliquer une publicité](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Joindre et supprimer des publicités des emplacements](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
+      + [Joindre et supprimer des publicités des emplacements](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=fr)
       + [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Affichage d’un rapport détaillé pour une publicité](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Mettre en pause ou activer une publicité](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -233,9 +233,9 @@ ht-degree: 4%
    + Notifications {#notifications}
       + [À propos des abonnements aux alertes](/help/dsp/admin/alerts-about.md)
       + [Gestion des abonnements aux alertes](/help/dsp/admin/alerts-manage.md)
-+ [Intégrations avec Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
++ [Intégrations avec Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=fr)
 + [Obtenir de l’aide](/help/dsp/get-help.md)
-+ [Notes de mise à jour de &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Notes de mise à jour de &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)
 
 
 <!--
