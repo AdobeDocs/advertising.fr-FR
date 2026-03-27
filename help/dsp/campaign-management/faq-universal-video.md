@@ -38,7 +38,7 @@ Créez des emplacements vidéo et des annonces universels de la même manière q
    * **[!UICONTROL VPAID & VAST (Default)]:** inclut l’inventaire qui ne permet pas de mesurer la visibilité.
    * **[!UICONTROL VAST]** - Convient pour l&#39;inventaire de la télévision connectée.
 
-   Pour plus d’informations, reportez-vous à « [ Paramètres universels de publicité vidéo ](/help/dsp/campaign-management/ads/ad-settings-universal-video.md) ».
+   Pour plus d’informations, reportez-vous à « [&#x200B; Paramètres universels de publicité vidéo &#x200B;](/help/dsp/campaign-management/ads/ad-settings-universal-video.md) ».
 
 1. [Joignez les nouvelles publicités vidéo universelles](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) à l’emplacement vidéo universel.
 
