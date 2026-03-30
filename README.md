@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARCHIVER
 
-Ce référentiel a été migré vers <https://github.com/Adobe-Enterprise-Docs/advertising.en>.
+Ce référentiel a été migré vers <https://github.com/Adobe-Enterprise-Docs/advertising.fr-FR>.
