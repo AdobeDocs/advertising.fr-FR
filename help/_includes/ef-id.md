@@ -1,5 +1,5 @@
 ---
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -11,19 +11,21 @@ ht-degree: 0%
 
 L’ID d’EF est un jeton unique utilisé par Adobe Advertising pour associer l’activité à une exposition de publicité ou de clic en ligne au niveau du navigateur ou de l’appareil concerné. Les identifiants EF servent principalement de clés pour envoyer des données [!DNL Analytics] et des données Customer Journey Analytics à Adobe Advertising à des fins de création de rapports et d’optimisation des enchères dans Adobe Advertising.
 
-Par [!DNL Analytics], l’identifiant de l’EF est stocké dans [une dimension  [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=fr) ou [!DNL rVar] ([!DNL eVar] réservé) (identifiant de l’EF Adobe Advertising).
+Par [!DNL Analytics], l’identifiant de l’EF est stocké dans [une dimension  [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou [!DNL rVar] ([!DNL eVar] réservé) (identifiant de l’EF Adobe Advertising).
 
-Pour Customer Journey Analytics, l’ID d’élément d’enregistrement est stocké dans la propriété `trackingIdentities` de l’objet `conversionDetails`, qui fait partie de [l’[!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) .
+Pour Customer Journey Analytics, l’ID d’élément d’enregistrement est stocké dans la propriété `trackingIdentities` de l’objet `conversionDetails`, qui fait partie de [l’[!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) .
 
 ### Formats des ID EF {#ef-id-formats}
 
-Consultez la section [Formats des éléments de dimension ID d’EF](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-ef-id#dimension-items) dans le « Guide des composants d’Adobe Analytics ».
+Consultez la section [Formats des éléments de dimension ID d’EF](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id#dimension-items) dans le « Guide des composants d’Adobe Analytics ».
 
 >[!NOTE]
 >
 >Les identifiants d’éléments d’expérience sont sensibles à la casse. Si une implémentation d’[!DNL Analytics] ou de Customer Journey Analytics force le suivi des URL à être écrit en minuscules, alors Adobe Advertising ne reconnaît pas l’ID d’EF. Cela a un impact sur les enchères et les rapports Adobe Advertising, mais n’a aucun impact sur les rapports Adobe Advertising dans [!DNL Analytics] ou Customer Journey Analytics.
 
-<!-- Legacy content:
+<!--
+
+Legacy content:
 
 #### [!DNL Google Ads] search ads
 

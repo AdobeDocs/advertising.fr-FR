@@ -3,9 +3,9 @@ title: Personnaliser l’optimisation et la planification de la création pour u
 description: Découvrez comment configurer l’optimisation et la planification des annonces publicitaires pour les expériences sans ciblage.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 3a77f85f8cbb2ca7a77c5e8ebab5a22ca377feed
+source-git-commit: 6f4b0fb697fc391f361775b50b1917941a3e0169
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,11 @@ Lorsque la planification des créations est désactivée, les paramètres d’op
 
    * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**.
 
-1. Placez le curseur sur la ligne de la balise d’annonce publicitaire applicable et cliquez sur ![Modifier l’optimisation de la création](/help/creative/assets/edit-gray.png "Modifier l’optimisation de la création") **[!UICONTROL Creative Optimization]**.&lt;!—
-Le Gestionnaire de balises dispose uniquement d’une vue Liste, mais pas de vue Carte, à partir du 2/2. >
+1. Placez le curseur sur la ligne de la balise d’annonce publicitaire applicable et cliquez sur ![Modifier l’optimisation de la création](/help/creative/assets/edit-gray.png "Modifier l’optimisation de la création") **[!UICONTROL Creative Optimization]**.
+
+   <!--
+   Tag Manager has only a list view, but no card view, as of 2/2. 
+   -->
 
 1. Désactivez **[!UICONTROL Schedule]**.
 
