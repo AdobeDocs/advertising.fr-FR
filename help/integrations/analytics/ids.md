@@ -3,7 +3,7 @@ title: Adobe Advertising ID utilisés par  [!DNL Analytics]
 description: Adobe Advertising ID utilisés par  [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
@@ -58,7 +58,8 @@ Consultez la section [Formats des éléments de dimension ID d’EF](https://exp
 >
 >Les identifiants d’éléments d’expérience sont sensibles à la casse. Si une implémentation d’[!DNL Analytics] ou de Customer Journey Analytics force le suivi des URL à être écrit en minuscules, alors Adobe Advertising ne reconnaît pas l’ID d’EF. Cela a un impact sur les enchères et les rapports Adobe Advertising, mais n’a aucun impact sur les rapports Adobe Advertising dans [!DNL Analytics] ou Customer Journey Analytics.
 
-<!-- Legacy content:
+<!--
+Legacy content:
 
 #### [!DNL Google Ads] search ads
 

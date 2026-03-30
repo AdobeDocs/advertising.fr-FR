@@ -3,7 +3,7 @@ title: Gérer les sources d’audience pour activer les audiences d’ID univers
 description: Découvrez comment créer et gérer une source pour importer des audiences de votre plateforme de données clients et les convertir en segments contenant des identifiants universels.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -59,7 +59,8 @@ You can create one source for each combination of universal ID partner and data 
 
 ## Modification des types d’identifiants pour une source d’audience
 
-<!-- Clarify this:
+<!-- 
+Clarify this:
 
 All changes to universal IDs translated from the source are applied after you save the the source record. For example, if you add a new ID type, then we convert hashed email addresses that you shared before making the changes to the new ID type. Similarly, if you remove an ID type, then we don't delete any historical IDs of that type from the segments shared through the source.
 
