@@ -5,9 +5,29 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+TQID: https://experienceleague.adobe.com/HgUQENjtjLRyizGpXGBRYZOanvoouKfGdcjDyf5Dlaw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+  - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e32890b6c079c539084f32282a42012ce45e0199
 workflow-type: tm+mt
-source-wordcount: '6893'
+source-wordcount: 6924
 ht-degree: 0%
 
 ---
@@ -18,7 +38,8 @@ Les fonctionnalités suivantes sont nouvelles ou ont été récemment modifiées
 
 | Date | Fonctionnalité | Description | Pour Plus D’Informations |
 | ---- | ------- | ----------- | -------------------- |
-| 16 Mars 2026 | Sources d’audience propriétaires, ID universels | Vous pouvez désormais convertir vos cookies et vos identifiants publicitaires mobiles (en plus des adresses e-mail hachées) en identifiants universels pour la publicité ciblée à l’aide de l’intégration de DSP à [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr), qui fait partie de Adobe Experience Platform. Auparavant, vous ne pouviez convertir que des adresses e-mail hachées.<br><br>Pour utiliser cette nouvelle fonctionnalité, utilisez la nouvelle « [connexion Adobe Advertising DSP]&#x200B;(https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection) » dans Experience Platform. La connexion héritée, qui inclut la prise en charge des adresses e-mail hachées uniquement, est renommée « [ancienne connexion Adobe Advertising Cloud DSP]&#x200B;(https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy) ».<br><br>Si vous utilisez actuellement la connexion héritée, vous n’avez pas besoin d’apporter immédiatement des modifications. Cependant, la connexion héritée finira par être supprimée. | Voir « [Convertir les ID utilisateur de [!DNL Adobe Real-Time CDP] en ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md) », « [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md) » et « [Gérer les sources d’audience pour activer les audiences d’ID universels](/help/dsp/audiences/sources/source-manage.md) ». |
+| 25 Mars 2026 | [!UICONTROL Insights] | De nouvelles informations sur les [!UICONTROL Audience Analysis] montrent l’efficacité du ciblage des segments d’audience au niveau de l’emplacement : les tendances de taille des segments au fil du temps et une répartition quotidienne des funnel d’enchères. | Voir « [&#x200B; À propos des informations &#x200B;](/help/dsp/campaign-management/insights/insights-about.md). » |
+| 16 Mars 2026 | Sources d’audience propriétaires, ID universels | Vous pouvez désormais convertir vos cookies et vos identifiants publicitaires mobiles (en plus des adresses e-mail hachées) en identifiants universels pour la publicité ciblée à l’aide de l’intégration de DSP à [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr), qui fait partie de Adobe Experience Platform. Auparavant, vous ne pouviez convertir que des adresses e-mail hachées.<br><br>Pour utiliser cette nouvelle fonctionnalité, utilisez la nouvelle « [connexion Adobe Advertising DSP]&#x200B;(https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection) » dans Experience Platform. La connexion héritée, qui inclut la prise en charge des adresses e-mail hachées uniquement, est renommée « [ancienne connexion Adobe Advertising Cloud DSP]&#x200B;(https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy) ».<br><br>Si vous utilisez actuellement la connexion héritée, vous n’avez pas besoin d’apporter immédiatement des modifications. Cependant, la connexion héritée finira par être supprimée. | Voir « [Convertir les ID utilisateur de [!DNL Adobe Real-Time CDP] en ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md) », « [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md) » et « [Gérer les sources d’audience pour activer les audiences d’ID universels](/help/dsp/audiences/sources/source-manage.md) ». |
 | 21 Janvier 2026 | Adobe GenStudio for Performance Marketing | (Annonceurs avec Advertising Creative) Les annonceurs avec [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/home) peuvent désormais importer des expériences d’affichage publicitaire de GenStudio vers vos bibliothèques de contenu publicitaire. Vous pouvez inclure les contenus publicitaires importés dans vos expériences Advertising Creative, puis exporter vos expériences [!DNL Creative] vers DSP en tant qu’emplacements. | Consultez l’aide d’Advertising Creative : « [À propos de vos bibliothèques de contenu créatif](/help/creative/creative-libraries/creative-libraries-about.md) » et « [&#x200B; Ajouter des contenus créatifs standard à une bibliothèque de contenu créatif](/help/creative/creative-libraries/creative-add-standard.md) ». |
 | 17 Décembre 2025 | Alertes | (Annonceurs avec Advertising Creative) Les [!UICONTROL Pulse Panel] de la vue [!UICONTROL Campaigns] incluent désormais les onglets DSP et [!UICONTROL Creative]. L&#39;onglet [!UICONTROL Creative] répertorie les alertes sur les emplacements DSP créés à partir d&#39;expériences [!DNL Creative]. | Voir « [Affichage des alertes](/help/dsp/campaign-management/reports/campaign-alerts.md) ». |
 |  | [!UICONTROL Custom Reports] | Une nouvelle dimension [!UICONTROL Pin Code], qui affiche le code PIN (Postal Index Number) auquel les données signalées sont attribuées, est disponible dans le groupe de dimensions [!UICONTROL Geos]. | Voir « [Colonnes de rapport disponibles](/help/dsp/reports/report-columns.md) ». |
