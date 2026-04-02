@@ -2,23 +2,28 @@
 title: (Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ad Groups]
 description: Découvrez comment générer, télécharger et supprimer des rapports contenant les lignes de données d’un ou de plusieurs groupes publicitaires dans la vue [!UICONTROL Ad Groups].
 feature: Search Optimization, Search Campaign Management
-hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+hide: yes
+exl-id: 330bfda2-f46f-428e-b17c-efbe749b19ab
+TQID: https://experienceleague.adobe.com/yPzCnzZJwgX56fLLvbot0-iXAq5NWKMqdtTEjI9Q9y0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: 348
 ht-degree: 0%
 
 ---
 
 # (Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ad Groups]
 
-*Fonction Beta*
+*Fonction*
 
 Vous pouvez générer un rapport qui inclut les lignes de données d’un ou de plusieurs groupes publicitaires dans la vue [!UICONTROL Ad Groups], puis télécharger le rapport sous la forme d’un fichier de feuille de calcul Excel Microsoft (format XLXS). Le rapport inclut toutes les colonnes visibles dans la vue.
 
 Vous pouvez supprimer n’importe quel rapport généré.
 
-Consultez également les sections « >* [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) et « [&#x200B; (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads] »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md).
+Consultez également les sections « >* [ (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) et « [ (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads] »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md).
 
 ## Générer un rapport avec les lignes de données filtrées
 
@@ -63,5 +68,5 @@ Consultez également les sections « >* [&#x200B; (interface utilisateur hérit�
 >[!MORELIKETHIS]
 >
 >* [À propos du [!UICONTROL Ad Groups view]](ad-group-view-about.md)
->* [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(interface utilisateur héritée) Supprimez un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)

@@ -3,9 +3,13 @@ title: Chargement des données de conversion hors ligne pour les conversions am�
 description: Découvrez comment charger des données de conversion propriétaires hors ligne pour mapper vers des conversions  [!DNL Google Ads]  pour les prospects et des conversions  [!DNL Microsoft Advertising] .
 feature: Conversions
 exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
+TQID: https://experienceleague.adobe.com/Hfmc5VCw9682cYmOQIcoy1Yy6InkoSmE18qqILbD2oI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: 785
 ht-degree: 0%
 
 ---
@@ -51,12 +55,12 @@ Entrez le fuseau horaire du compte à cet emplacement ou dans la colonne « [!UI
 
 ### Colonnes et valeurs du tableau pour les [!DNL Microsoft Advertising]
 
-Pour plus d’instructions sur l’utilisation du modèle, voir [https://help.ads.microsoft.com/#apex/3/56852](https://help.ads.microsoft.com/#apex/3/56852).
+Pour plus d’instructions sur l’utilisation du modèle, voir [](https://help.ads.microsoft.com/#apex/3/56852).
 
 | Colonne | Description |
 | ------ | ----------- |
 | Nom de la conversion | (Obligatoire) Nom de l’objectif de conversion. |
-| Heure de conversion | (Obligatoire) Heure à laquelle l’événement de conversion s’est produit. Si vous n’incluez pas l’identifiant de fuseau horaire du compte sur la ligne `Parameters:TimeZone=insert_timezone` au-dessus du tableau de données, incluez le fuseau horaire de chaque ligne à l’aide du décalage GMT, comme indiqué par + ou - et la différence temporelle à 4 chiffres (comme -0500 pour New York, +0100 pour Berlin ou +0000 pour le temps universel coordonné). Pour obtenir la liste des fuseaux horaires de différentes villes, voir [https://learn.microsoft.com/en-us/advertising/guides/time-zones](https://learn.microsoft.com/en-us/advertising/guides/time-zones), mais veillez à utiliser le format spécifié ici au lieu du format de la liste des fuseaux horaires. |
+| Heure de conversion | (Obligatoire) Heure à laquelle l’événement de conversion s’est produit. Si vous n’incluez pas l’identifiant de fuseau horaire du compte sur la ligne `Parameters:TimeZone=insert_timezone` au-dessus du tableau de données, incluez le fuseau horaire de chaque ligne à l’aide du décalage GMT, comme indiqué par + ou - et la différence temporelle à 4 chiffres (comme -0500 pour New York, +0100 pour Berlin ou +0000 pour le temps universel coordonné). Pour obtenir la liste des fuseaux horaires de différentes villes, voir [](https://learn.microsoft.com/en-us/advertising/guides/time-zones), mais veillez à utiliser le format spécifié ici au lieu du format de la liste des fuseaux horaires. |
 | Valeur de conversion | (Obligatoire) Valeur de conversion numérique. |
 | Devise de conversion | Code de devise de l’événement de conversion. |
 | ID de clic Microsoft | Identifiant de clic de [!DNL Microsoft] unique associé (MSCLKID). Ce champ peut être vide pour les conversions hors ligne améliorées. |

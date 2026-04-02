@@ -3,9 +3,14 @@ title: Exporter et implémenter une balise d’expérience publicitaire pour une
 description: Découvrez comment exporter une balise d’expérience publicitaire et éventuellement la charger dans une campagne Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/tge8P1-b1I21jxKui3KgSjgXCKtZCRSO94knTkWlNW0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: 635
 ht-degree: 0%
 
 ---
@@ -31,7 +36,7 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger les 
 
    * En mode Tableau, maintenez le curseur sur la ligne, cliquez sur **[!UICONTROL More]**, puis sur **[!UICONTROL Tag Manager]**.
 
-1. Placez le curseur sur la ligne de la balise publicitaire applicable et cliquez sur ![Exporter les balises publicitaires](/help/creative/assets/export.png "Exporter les balises publicitaires") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Placez le curseur sur la ligne de la balise publicitaire applicable et cliquez sur ![Exporter les balises publicitaires](/help/creative/assets/export.png "Exporter les balises publicitaires") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
@@ -49,9 +54,9 @@ Les annonceurs qui utilisent Advertising DSP ont la possibilité de charger les 
 
 1. Sélectionnez le type de balise :
 
-   * (Expériences non vidéo) **&#x200B; *JavaScript* &#x200B;** ou **&#x200B; *Iframe* &#x200B;**.
+   * (Expériences non vidéo) ** *JavaScript* ** ou ** *Iframe* **.
 
-   * (Expériences vidéo) **&#x200B; *Vidéo* &#x200B;**.
+   * (Expériences vidéo) ** *Vidéo* **.
 
 1. Dans la liste [!UICONTROL Destinations], sélectionnez l’emplacement où vous allez créer des annonces pour l’expérience.
 

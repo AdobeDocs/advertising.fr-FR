@@ -1,42 +1,45 @@
 ---
-title: Balise de mappage de conversion d’Adobe Advertising
-description: Découvrez la balise de mappage de conversion JavaScript pour ITP 2.2, qui permet à l’Adobe Advertising de suivre un événement de conversion qui se produit sur une page qui n’est pas la page d’entrée.
+title: La balise de mappage de conversion Adobe Advertising
+description: Découvrez la balise de mappage de conversion basée sur JavaScript pour ITP 2.2, qui permet à Adobe Advertising de suivre un événement de conversion qui se produit sur une page qui n’est pas la page de destination.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
+TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
-# Balise de mappage de conversion JavaScript Adobe Advertising
+# Balise de mappage de conversion Adobe Advertising JavaScript
 
-*Annonceurs avec suivi des conversions par Adobe Advertising uniquement*
+*Annonceurs avec suivi des conversions Adobe Advertising uniquement*
 
-La balise de mappage de conversion basée sur JavaScript Adobe Advertising, lorsqu’elle est utilisée en plus de la balise de suivi de conversion Adobe Advertising JavaScript v2 ou v3, permet à l’Adobe Advertising de suivre un événement de conversion qui se produit sur une page qui n’est pas la page d’entrée. La solution ITP 2.2 stocke le cookie d’un utilisateur dans un stockage local dans un iFrame détenu par l’annonceur. Le stockage local peut ensuite conserver la valeur du cookie du clic en aval vers la page de conversion.
+La balise de mappage de conversion basée sur Adobe Advertising JavaScript, lorsqu’elle est utilisée en plus de la balise de suivi des conversions Adobe Advertising JavaScript v2 ou v3, permet à Adobe Advertising de suivre un événement de conversion qui se produit sur une page qui n’est pas la page de destination. La solution ITP 2.2 stocke le cookie d’un utilisateur dans un enregistrement local dans un iFrame détenu par l’annonceur. Le stockage local peut ensuite conserver la valeur du cookie du clic en aval de la page de conversion.
 
-Utilisez la balise de mappage de conversion pour vous assurer qu’Adobe Advertising peut suivre toutes les conversions qui se produisent dans les navigateurs Safari et Mozilla Firefox, ce qui limite la persistance des cookies propriétaires. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
+Utilisez la balise de mappage de conversion pour vous assurer qu’Adobe Advertising peut suivre toutes les conversions qui se produisent dans les navigateurs Apple Safari et Mozilla Firefox, ce qui limite la persistance des cookies propriétaires. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
-Pour utiliser la balise de mappage de conversion :
+Pour utiliser la balise de mappage de conversion, procédez comme suit :
 
 1. [Déployez la balise de mappage de conversion](#deploy-conversion-mapping-tag).
 
-1. Si votre organisation utilise plusieurs identifiants d’organisation du service Adobe Experience Cloud Identity (anciennement appelés identifiants d’organisation IMS), [&#x200B; mettez à jour vos balises de conversion](#update-conversion-tags) pour inclure l’identifiant d’organisation.
+1. Si votre organisation utilise plusieurs identifiants d’organisation Adobe Experience Cloud Identity Service (anciennement appelés ID d’organisation IMS), [mettez à jour vos balises de conversion](#update-conversion-tags) pour inclure l’identifiant de l’organisation.
 
-1. [Validez le déploiement de balise](#validate-conversion-mapping).
+1. [Validez le déploiement de la balise](#validate-conversion-mapping).
 
-## Déployer la balise de mappage de conversion JavaScript pour ITP 2.2 {#deploy-conversion-mapping-tag}
+## Déployez la balise de mappage de conversion JavaScript pour ITP 2.2. {#deploy-conversion-mapping-tag}
 
 >[!NOTE]
 >
->Si vous utilisez la balise de mappage de conversion JavaScript pour ITP 2.0, remplacez la balise existante dans toutes les pages de conversion par l’une des balises suivantes.<!-- any other instructions, too? Point them to the other page on Track Conversions from Safari...." -->
+>Si vous utilisez la balise de mappage de conversion JavaScript pour ITP 2.0, remplacez la balise existante dans toutes les pages de conversion par l’une des balises suivantes <!-- any other instructions, too? Point them to the other page on Track Conversions from Safari...." -->
 
 * Si votre organisation utilise un seul ID d’organisation, qui est utilisé pour votre compte Search, Social et Commerce, utilisez la balise suivante :
 
   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
 
-  où vous remplacez `{AMO User ID}` par l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
+  où vous remplacez `{AMO User ID}` par l’ID d’utilisateur unique de votre compte Search, Social et Commerce.
 
 * Si votre organisation utilise plusieurs ID d’organisation, utilisez la balise suivante :
 
@@ -46,9 +49,9 @@ Pour utiliser la balise de mappage de conversion :
 
    * vous remplacez la valeur `{xxxxxx@AdobeOrg}` par l’ID d’organisation pour lequel les conversions de la page sont suivies. Utilisez le même ID d’organisation pour toutes les pages de conversion.
 
-   * vous remplacez `{AMO User ID}` par l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
+   * vous remplacez `{AMO User ID}` par l’ID d’utilisateur unique pour votre compte Search, Social et Commerce.
 
-* Si vous utilisez un système de gestion des balises qui ne prend pas en charge l’ajout de la variable `imsorgid` à la balise de script, utilisez plutôt le code suivant :
+* Si vous utilisez un système de gestion des balises qui ne prend pas en charge l’ajout de la variable `imsorgid` à la balise du script, utilisez plutôt le code suivant :
 
   *Si votre organisation utilise un seul ID d’organisation :
 
@@ -60,7 +63,7 @@ Pour utiliser la balise de mappage de conversion :
   <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
   ```
 
-  où vous remplacez `{AMO User ID}` par l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
+  où vous remplacez `{AMO User ID}` par l’ID d’utilisateur unique de votre compte Search, Social et Commerce.
 
    * Si votre organisation utilise plusieurs ID d’organisation :
 
@@ -77,9 +80,9 @@ Pour utiliser la balise de mappage de conversion :
 
       * vous remplacez la valeur `{xxxxxx@AdobeOrg}` par l’ID d’organisation pour lequel les conversions de la page sont suivies. Utilisez le même ID d’organisation pour toutes les pages de conversion.
 
-      * vous remplacez `{AMO User ID}` par l’identifiant utilisateur unique de votre compte Search, Social et Commerce.
+      * vous remplacez `{AMO User ID}` par l’ID d’utilisateur unique pour votre compte Search, Social et Commerce.
 
-Si vous ne connaissez pas la valeur de votre ID d’organisation ou de votre ID d’utilisateur Search, Social et Commerce, demandez à votre équipe de compte d’Adobe.
+Si vous ne connaissez pas la valeur de votre identifiant d’organisation ou de votre identifiant utilisateur Search, Social et Commerce, demandez à l’équipe chargée de votre compte Adobe.
 
 ### Exemples
 
@@ -98,23 +101,23 @@ window.ad_cloud.userid = "99999"
 
 ### Où ajouter la balise
 
-Ajoutez la balise dans n’importe quelle page pouvant être une landing page à partir d’un clic de recherche (idéalement, sur toutes les pages, car les landing pages peuvent changer au fil du temps). Il doit être chargé avant la balise de suivi de conversion JavaScript v3 Adobe Advertising.
+Ajoutez la balise dans n’importe quelle page qui pourrait être une page de destination à partir d’un clic de recherche (idéalement, sur toutes les pages, car les pages de destination peuvent changer au fil du temps). Il doit être chargé avant la balise de tracking des conversions Adobe Advertising JavaScript v3 .
 
-S’il est placé dans une balise iframe ou conteneur, alors :
+S’il est placé dans un iframe ou une balise conteneur, alors :
 
-* L’iframe doit se trouver au même niveau que le domaine de niveau supérieur.
+* L’iframe doit être au même niveau que le domaine de niveau supérieur.
 
-* La balise de mappage de conversion ne doit être qu’un niveau (1) sous le domaine de niveau supérieur.
+* La balise de mappage de conversion ne doit se trouver qu’à un (1) niveau sous le domaine de niveau supérieur.
 
-## Mettre à jour vos balises de conversion JavaScript {#update-conversion-tags}
+## Mise à jour des balises de conversion JavaScript {#update-conversion-tags}
 
-Si votre organisation utilise plusieurs ID d’organisation, ajoutez l’ID d’organisation pour lequel les conversions d’une page sont suivies dans vos balises de conversion JavaScript existantes.
+Si votre organisation utilise plusieurs identifiants d’organisation, ajoutez l’identifiant d’organisation pour lequel les conversions d’une page sont suivies à vos balises de conversion JavaScript existantes.
 
-Si votre organisation utilise un ID d’organisation, cette étape n’est pas nécessaire.
+Si votre organisation utilise un identifiant d’organisation, cette étape n’est pas nécessaire.
 
 ### Balises JavaScript V2
 
-Ajoutez la chaîne suivante au début de la balise de script de conversion :
+Ajoutez la chaîne suivante au début de la balise du script de conversion :
 
 `ef_imsorgid="{xxxxxx@AdobeOrg}";`
 
@@ -188,4 +191,4 @@ Exemple :
 
 ## Validation du déploiement des balises {#validate-conversion-mapping}
 
-Demandez à votre équipe de compte d’Adobe de vous aider à valider la balise de mappage de conversion et la balise de conversion standard (si vous l’avez mise à jour).
+Demandez à l’équipe chargée de votre compte Adobe de vous aider à valider la balise de mappage de conversion et la balise de conversion standard (si vous l’avez mise à jour).

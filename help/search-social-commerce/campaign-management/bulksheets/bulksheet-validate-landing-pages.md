@@ -3,9 +3,12 @@ title: Validation des pages de destination dans des fichiers de feuille d’envo
 description: Découvrez comment valider les URL de destination dans un fichier de feuille d’envoi groupé à compte unique.
 exl-id: 191cb1bc-54a9-4c6c-a29c-f3cbae08e0d8
 feature: Search Bulksheets
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/gHVP2daXHY2iS6uibwNj4IxQyFjQReIgR54As8nc9Y8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: 532
 ht-degree: 0%
 
 ---

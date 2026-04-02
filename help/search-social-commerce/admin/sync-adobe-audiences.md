@@ -3,9 +3,14 @@ title: Sync [!DNL Adobe] audiences
 description: Découvrez comment synchroniser les métadonnées, les données hiérarchiques et les données d’audience uniques pour vos  [!DNL Adobe] .
 exl-id: 8b8c3aa0-2aa9-4ad7-a4c0-1b7ba881acd3
 feature: Search Admin
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/PKWhdnMHVAI3aI--1vdCeqnX6b8j34uvHycZLw1Yvjw
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: 185
 ht-degree: 0%
 
 ---
@@ -24,7 +29,7 @@ Vous pouvez permettre à Search, Social et Commerce d’extraire des métadonné
 
 * Segments créés à l’aide de l’[!DNL Audience Library] Adobe Experience Cloud
 
-Pour être éligible, l’annonceur ou l’agence doit mettre en œuvre le [service d’identités Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) et fournir son identifiant d’organisation (anciennement appelé [!DNL IMS Org ID]).
+Pour être éligible, l’annonceur ou l’agence doit mettre en œuvre le [service d’identités ](https://experienceleague.adobe.com/docs/id-service/using/home.html) et fournir son identifiant d’organisation (anciennement appelé [!DNL IMS Org ID]).
 
 La synchronisation initiale prend environ 24 heures. Ensuite, les données sont synchronisées en temps réel, avec un délai d’une à deux secondes.
 

@@ -3,9 +3,13 @@ title: 'Mettre à jour le code de suivi AMO ID (s_kwcid) pour un compte  [!DNL G
 description: Découvrez comment passer au dernier code de suivi AMO ID pour un compte  [!DNL Google Ads] .
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+TQID: https://experienceleague.adobe.com/7BOrtiEjkYEi1ZbY-PyU-dgstfa30ebtt-WBYHPX0-I
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: 479
 ht-degree: 0%
 
 ---
@@ -16,7 +20,7 @@ ht-degree: 0%
 
 Comptes *[!DNL Google Ads]uniquement*
 
-Le format hérité (antérieur à octobre 2019) du [code de suivi AMO ID](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#dimension-items) pour les comptes [!DNL Google Ads] existants ne prend pas en charge certaines fonctionnalités d’Analytics, telles que le compte rendu des performances au niveau de la campagne et du groupe publicitaire pour les campagnes à performances maximales [!DNL Google Ads], les campagnes à brouillons et à expériences, ainsi que d’autres cas d’utilisation dans lesquels la même combinaison de type ad+mot-clé+correspondance existe dans plusieurs campagnes.
+Le format hérité (antérieur à octobre 2019) du [code de suivi AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) pour les comptes [!DNL Google Ads] existants ne prend pas en charge certaines fonctionnalités d’Analytics, telles que le compte rendu des performances au niveau de la campagne et du groupe publicitaire pour les campagnes à performances maximales [!DNL Google Ads], les campagnes à brouillons et à expériences, ainsi que d’autres cas d’utilisation dans lesquels la même combinaison de type ad+mot-clé+correspondance existe dans plusieurs campagnes.
 
 Le format actuel inclut les paramètres pour l’identifiant de campagne et l’identifiant de groupe publicitaire :
 
@@ -70,4 +74,4 @@ Tous les nouveaux comptes [!DNL Google Ads] utilisent automatiquement le format 
 >
 >* [Gérer les comptes de réseau publicitaire](ad-network-account-manage.md)
 >* [Adobe Advertising ID utilisés par  [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Présentation de  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=fr){target="_blank"}
+>* [Présentation de  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

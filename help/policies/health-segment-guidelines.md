@@ -3,9 +3,13 @@ title: Segments d’intégrité acceptables dans Adobe Advertising
 description: Consultez les consignes relatives aux segments et aux tactiques d’audience liés à la santé acceptables à utiliser comme alternatives au ciblage des segments d’audience liés à la santé.
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+TQID: https://experienceleague.adobe.com/HXCrKYSJnDsmQjt2StdBJZaq9Px4TwpRHc2-0cjDZDE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: 350
 ht-degree: 0%
 
 ---
@@ -18,7 +22,7 @@ Les instructions suivantes décrivent les segments d’audience liés à la sant
 
 Ces directives sont résumées à partir du [!DNL Network Advertising Alliance (NAI)].
 
-Consultez également la section [Politique d’exigences publicitaires d’Adobe Advertising](/help/policies/ad-requirements-policy.md) pour déterminer si un segment d’audience lié à l’intégrité est utilisable selon la politique de ciblage d’Adobe Advertising.
+Consultez également la section [Politique d’exigences publicitaires d’](/help/policies/ad-requirements-policy.md) pour déterminer si un segment d’audience lié à l’intégrité est utilisable selon la politique de ciblage d’Adobe Advertising.
 
 ## Segments d’intégrité qui ne doivent pas être utilisés
 

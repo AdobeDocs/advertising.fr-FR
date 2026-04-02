@@ -3,9 +3,14 @@ title: Solutions sur plusieurs appareils
 description: En savoir plus sur les fonctionnalités inter-appareils.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 2c7ba1862b1883b4523d9121d8b0761129ad70fb
+TQID: https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: 997
 ht-degree: 0%
 
 ---
@@ -92,7 +97,7 @@ Lorsqu’un graphique d’appareil est activé pour la mesure d’attribution, l
 
 * &lt;*Conversion*>[!UICONTROL (tp)] : inclut le nombre total de conversions (nombre total de personnes), qui inclut les conversions sur le même appareil et les conversions sur plusieurs appareils (le cas échéant). Dans le rapport, « [!UICONTROL (tp)] » est ajouté au nom de la mesure de conversion, au type de règle et aux types de conversion dans le chemin de conversion (par exemple, « Réponses(le)(tl)(tp) »).
 
-* &lt;*Conversion*>[!UICONTROL (sd)] : (facultatif) inclut uniquement les conversions pour lesquelles un seul appareil a été suivi dans le chemin de conversion. Dans le rapport, « [!UICONTROL (sd)] » est ajouté au nom de la mesure de conversion, au type de règle et aux types de conversion dans le chemin de conversion (par exemple, « Réponses(le)(tl)(sd) »).
+* &lt;*Conversion*>[!UICONTROL (sd)] : (facultatif) inclut uniquement les conversions pour lesquelles une seule unité a été suivie dans le chemin de conversion. Dans le rapport, « [!UICONTROL (sd)] » est ajouté au nom de la mesure de conversion, au type de règle et aux types de conversion dans le chemin de conversion (par exemple, « Réponses(le)(tl)(sd) »).
 
 * &lt;*Conversion*>[!UICONTROL (xd)] : (facultatif) inclut uniquement les conversions pour lesquelles plusieurs appareils ont été suivis dans le chemin de conversion. Dans le rapport, « [!UICONTROL (xd)] » est ajouté au nom de la mesure de conversion, au type de règle et aux types de conversion dans le chemin de conversion (par exemple, « Réponses(le)(tl)(xd) »).
 
@@ -112,7 +117,7 @@ Triez le pourcentage de conversions totales sur plusieurs appareils ([!UICONTROL
 
 >[!MORELIKETHIS]
 >
->* [Paramètres des rapports &#x200B;](/help/dsp/reports/report-settings.md)
+>* [Paramètres des rapports ](/help/dsp/reports/report-settings.md)
 >* [Paramètres de Campaign](/help/dsp/campaign-management/campaigns/campaign-settings.md)
->* [&#x200B; Paramètres du package &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

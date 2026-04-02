@@ -3,9 +3,14 @@ title: Modification d’un package
 description: Découvrez comment modifier un package.
 feature: DSP Packages
 exl-id: 88fbbb46-0150-4ff7-838f-ea00aead529e
-source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
+TQID: https://experienceleague.adobe.com/u82yH7QQK3DtyYxn7EwELcxUdAVkRWjGorPoCJQH2ts
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: 109
 ht-degree: 0%
 
 ---
@@ -27,7 +32,7 @@ ht-degree: 0%
 >* [Gestion des packages dans Advertising DSP](package-about.md)
 >* [Vérifier et modifier les paramètres du package à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/packages/package-qa.md)
 >* [Créer un package](package-create.md)
->* [&#x200B; Dupliquer un package &#x200B;](package-duplicate.md)
+>* [ Dupliquer un package ](package-duplicate.md)
 >* [Afficher le journal des modifications d&#39;un package](package-change-log.md)
 >* [Mettre en pause ou activer un package](package-pause-activate.md)
->* [&#x200B; Paramètres du package &#x200B;](package-settings.md)
+>* [ Paramètres du package ](package-settings.md)

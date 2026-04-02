@@ -3,9 +3,14 @@ title: Codes d’erreur pour les envois  [!DNL FreeWheel]  publicités
 description: Référencez les codes d’erreur renvoyés pour les envois publicitaires vers  [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+TQID: https://experienceleague.adobe.com/z2fbEvduZZcevSEsUVLQmIpGKoZp2P2luGI1pmOrbic
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: ac506c20-96f2-48f6-9096-77706e336bdaid: fae3ff5f-9a75-4de1-a100-c90dd8268528
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: 641
 ht-degree: 3%
 
 ---
@@ -38,7 +43,7 @@ Les messages d’erreur pour les envois d’annonces ayant échoué peuvent prov
 | 404 | Introuvable | La ressource demandée n’est pas disponible. Si l’identifiant Creative est introuvable dans l’opération PUT, une erreur 404 est renvoyée. | Contactez votre équipe de compte Adobe. |
 | 405 | Méthode Non Autorisée | Une requête a été effectuée à partir d’une ressource à l’aide d’une méthode de requête non prise en charge par cette ressource (par exemple, l’utilisation de GET sur une méthode nécessitant l’envoi de données par POST ou l’utilisation de PUT sur une ressource en lecture seule). | Contactez votre équipe de compte Adobe. |
 | 408 | Délai d’expiration de la demande | Une temporisation s’est produite pendant le traitement de cette requête. Les délais d’expiration sont généralement dus à des demandes simultanées d’accès exclusif à certaines ressources. | Soumettez à nouveau la demande lorsque vous recevez ce statut. Si le problème persiste, contactez l’équipe chargée de votre compte Adobe. |
-| 422 | Entité impossible à traiter | Ressource non valide. Cette erreur se produit lorsque le corps de la requête n’est pas valide ou que la ressource créée/mise à jour n’est pas valide (par exemple, si l’ID d’offre est introuvable). Consultez [&#x200B; Erreurs de l’API 422 FreeWheel &#x200B;](#freewheel-422-errors) pour plus d’informations. | Contactez votre équipe de compte Adobe. |
+| 422 | Entité impossible à traiter | Ressource non valide. Cette erreur se produit lorsque le corps de la requête n’est pas valide ou que la ressource créée/mise à jour n’est pas valide (par exemple, si l’ID d’offre est introuvable). Consultez [ Erreurs de l’API 422 FreeWheel ](#freewheel-422-errors) pour plus d’informations. | Contactez votre équipe de compte Adobe. |
 | 500 | Erreur de serveur interne | Erreur système de l’API. | Contactez votre équipe de compte Adobe. |
 
 {style="table-layout:auto"}

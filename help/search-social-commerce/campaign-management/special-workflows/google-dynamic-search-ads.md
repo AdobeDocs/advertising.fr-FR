@@ -3,9 +3,12 @@ title: Implémenter  [!DNL Google Ads]  publicités de recherche dynamiques
 description: Découvrez le processus de configuration  [!DNL Google Ads]  publicités de recherche dynamique.
 exl-id: 69e5069f-3f82-4ee3-841a-0c1292677223
 feature: Search Campaign Management
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+TQID: https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: 614
 ht-degree: 0%
 
 ---
@@ -32,7 +35,7 @@ Vous pouvez configurer les annonces de recherches dynamiques individuellement ou
       >
       >Votre domaine doit être indexé par l’index de recherche organique [!DNL Google Ads] à cibler. En outre, si le domaine contient des pages dans plusieurs langues et que vous souhaitez cibler toutes les pages, créez une campagne distincte pour chaque langue.
 
-      Si vous n’utilisez pas le domaine de votre site web pour cibler vos publicités, créez des cibles de recherche dynamique (voir Étape 4) pour chaque groupe publicitaire. Vous pouvez créer les cibles [individuellement](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) ou à l’aide de [&#x200B; feuilles d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+      Si vous n’utilisez pas le domaine de votre site web pour cibler vos publicités, créez des cibles de recherche dynamique (voir Étape 4) pour chaque groupe publicitaire. Vous pouvez créer les cibles [individuellement](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) ou à l’aide de [ feuilles d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
    1. Assurez-vous que la campagne cible le canal de recherche et uniquement le réseau de recherche [!DNL Google Ads] (et non le réseau d’affichage). Ces paramètres sont disponibles à partir de l’onglet [!UICONTROL Networks and Devices] .
 

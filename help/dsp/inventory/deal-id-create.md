@@ -3,9 +3,14 @@ title: Créer manuellement les détails de l’ID d’offre
 description: Découvrez comment saisir manuellement les détails d’un ID d’offre.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+TQID: https://experienceleague.adobe.com/lg8BJhKDVNRKrZNr5WJLhDt7HU2pz7p-zTU6ShU2yCE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: ac506c20-96f2-48f6-9096-77706e336bdaid: fae3ff5f-9a75-4de1-a100-c90dd8268528
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: 427
 ht-degree: 0%
 
 ---
@@ -16,7 +21,7 @@ ht-degree: 0%
 
 1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Create]**, puis sélectionnez **[!UICONTROL Deal ID]**.
 
-1. Saisissez les [&#x200B; paramètres de l’offre &#x200B;](deal-id-settings.md) :
+1. Saisissez les [ paramètres de l’offre ](deal-id-settings.md) :
 
    1. Dans la section [!UICONTROL Deal ID basics] , spécifiez les détails de l’offre et les annonceurs qui peuvent y accéder. Pour les offres garanties, vous devez également spécifier les dates de vol prévues et le nombre estimé d’impressions, à des fins de suivi uniquement.
 

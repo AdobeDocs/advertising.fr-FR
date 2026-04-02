@@ -3,9 +3,15 @@ title: À propos des expériences dans Advertising Creative
 description: Découvrez comment configurer des expériences publicitaires personnalisées et optimiser les éléments publicitaires en fonction des performances.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+TQID: https://experienceleague.adobe.com/eX9wJedhnS994mEpRna6vL2En7vVXEYWp1xs-hz6iBo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: 1169
 ht-degree: 0%
 
 ---
@@ -77,7 +83,7 @@ Les données de performances disponibles sont les suivantes :
 
 ## Indicateurs d’alerte
 
-Une colonne « [!UICONTROL Alerts] » indique lorsqu’une expérience ou toute création enfant associée rencontre un problème. Une icône [!UICONTROL Pulse Panel] située à droite de la barre d’outils indique si des alertes sont disponibles pour l’expérience, y compris les contenus publicitaires enfants. Voir « [&#x200B; Afficher les alertes &#x200B;](/help/creative/reports/alerts-view.md) pour plus d’informations.
+Une colonne « [!UICONTROL Alerts] » indique lorsqu’une expérience ou toute création enfant associée rencontre un problème. Une icône [!UICONTROL Pulse Panel] située à droite de la barre d’outils indique si des alertes sont disponibles pour l’expérience, y compris les contenus publicitaires enfants. Voir « [ Afficher les alertes ](/help/creative/reports/alerts-view.md) pour plus d’informations.
 
 ## Statuts des expériences {#experience-statuses}
 

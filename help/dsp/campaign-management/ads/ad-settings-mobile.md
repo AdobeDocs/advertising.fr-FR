@@ -3,9 +3,14 @@ title: Paramètres des annonces publicitaires mobiles
 description: Consultez les descriptions des paramètres d’annonce publicitaire disponibles pour les annonces publicitaires mobiles.
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+TQID: https://experienceleague.adobe.com/1e3HmwtXzDUQ60rGhnJ5n-feky0rYlqwt7ZQZ6YXNCQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: 516
 ht-degree: 0%
 
 ---
@@ -54,7 +59,7 @@ ht-degree: 0%
 
 **[!UICONTROL Width]| [!UICONTROL Ad Unit Width]:** largeur de l’ensemble de l’entité publicitaire. Cette option peut être verrouillée en fonction du type d’unité publicitaire que vous avez sélectionné.
 
-**[!UICONTROL Height]| [!UICONTROL Ad Unit Height]:** hauteur de l’ensemble de l’unité publicitaire. Cette option peut être verrouillée en fonction du type d’unité publicitaire que vous avez sélectionné.
+**[!UICONTROL Height]| [!UICONTROL Ad Unit Height]:** hauteur de l’ensemble de l’annonce publicitaire. Cette option peut être verrouillée en fonction du type d’unité publicitaire que vous avez sélectionné.
 
 **[!UICONTROL Player X]:** coordonnée X de l’entité publicitaire. Conservez le paramètre par défaut.
 
@@ -96,4 +101,4 @@ Obsolète
 >* [Créer une seule annonce publicitaire](ad-create.md)
 >* [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Spécifications publicitaires](ad-specs.md)
->* [Macros DSP](/help/dsp/campaign-management/macros.md)
+>* [Macros ](/help/dsp/campaign-management/macros.md)

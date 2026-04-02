@@ -3,9 +3,13 @@ title: Créez une balise de conversion pour  [!DNL Google Ads]
 description: Découvrez comment créer une balise  [!DNL Google Ads]  conversion.
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/pskBpQ12sQXj9RyLd3IQAG0MktlOvV2JvZBl5rGtQT0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: 415
 ht-degree: 0%
 
 ---
@@ -32,7 +36,7 @@ Pour générer des balises de conversion pour des conversions existantes, utilis
 
 1. Copiez la balise de conversion et implémentez-la sur les sites web à partir desquels vous souhaitez effectuer le suivi de la mesure de conversion.
 
-   Voir « Installation de la balise [!DNL Google] » dans l’aide [!DNL Google Ads] sur « [2. Configurez votre balise Google](https://support.google.com/google-ads/answer/12215519). »
+   Voir « Installation de la balise [!DNL Google] » dans l’aide [!DNL Google Ads] sur « [2. Configurez votre balise ](https://support.google.com/google-ads/answer/12215519). »
 
 1. Cliquez sur **[!UICONTROL Done].**
 

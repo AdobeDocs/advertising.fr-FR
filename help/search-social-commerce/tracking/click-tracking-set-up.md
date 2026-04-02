@@ -3,9 +3,12 @@ title: Configuration du suivi des clics basé sur les cookies
 description: Découvrez comment configurer et valider les balises de suivi des clics.
 exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/cs39NoKUXfx4PdrzULocZEOW0SUGtXrpmO4I3IXefwA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: 542
 ht-degree: 0%
 
 ---
@@ -56,7 +59,7 @@ Pour que le suivi des clics puisse être effectué sur Search, Social et Commerc
 
 ## Générer et charger les URL de tracking {#generate-upload-tracking-urls}
 
-Voir « [&#x200B; Quand et comment générer des URL de suivi des clics &#x200B;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) ».
+Voir « [ Quand et comment générer des URL de suivi des clics ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) ».
 
 ### Tester le format des URL de suivi des clics {#validate-tracking-urls}
 
@@ -87,4 +90,4 @@ Vérifiez que la page de destination appropriée s’ouvre pour l’URL de suivi
 
 >[!MORELIKETHIS]
 >
->* [Quand et comment générer des URL de suivi des clics &#x200B;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
+>* [Quand et comment générer des URL de suivi des clics ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)

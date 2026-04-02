@@ -3,9 +3,13 @@ title: Affichage ou enregistrement d’un rapport
 description: Découvrez comment afficher un rapport généré ou l’enregistrer en tant que fichier.
 exl-id: 11333266-d1af-4064-9816-c70b53b0a8bd
 feature: Search Reports
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/Y0jHDM-R21GGXRQi9fsVtpOUD3Rdh-JdCyLRR-gynvo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: 259
 ht-degree: 0%
 
 ---
@@ -36,7 +40,7 @@ Vous pouvez afficher un rapport dans le navigateur web ou ouvrir ou enregistrer 
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports &#x200B;](/help/search-social-commerce/reports/report-about.md)
+>* [À propos des rapports ](/help/search-social-commerce/reports/report-about.md)
 >* [Générer un rapport de base ou avancé](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
 >* [Générer un rapport de précision de modèle](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-generate.md)
 >* [Générer un rapport spécialisé](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)

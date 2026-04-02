@@ -2,18 +2,22 @@
 title: (Nouvelle interface utilisateur) À propos des portefeuilles
 description: En savoir plus sur les portefeuilles.
 feature: Search Portfolios, Search Optimization
-hide: true
+hide: yes
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/w-NpuD1q3atytkO8AL-ekUWzwhX3NHH-byW9ZIY7WdU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebef6e6f-6552-40b6-b842-0c5256698a4e
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: 729
 ht-degree: 0%
 
 ---
 
 # (Nouvelle interface utilisateur) À propos des portefeuilles
 
-*Fonction Beta*
+*Fonction*
 
 Vous pouvez gérer vos campagnes publicitaires collectivement à l’aide de portfolios (similaires aux portfolios d’investissement). Un portfolio est un ensemble de campagnes publicitaires ou de jeux de publicités, y compris les mots-clés et les publicités associés, optimisés pour un seul objectif commercial. Un objectif peut inclure plusieurs conversions pondérées et un seul budget ou une seule cible de performance (comme un budget mensuel ou un retour sur investissement cible). Comme les performances des campagnes/ensembles de publicités, mots-clés et publicités peuvent être différentes d’une campagne à l’autre (par exemple, les montants dépensés peuvent varier ou les retour sur investissement peuvent varier), la fonctionnalité d’optimisation utilise des modèles pilotés par l’IA pour orienter l’ensemble du portefeuille afin d’atteindre collectivement la cible. Toutes les campagnes d’un portefeuille utilisent la même devise.
 
@@ -54,7 +58,7 @@ Un portefeuille peut avoir les statuts suivants :
 
 ## La vue [!UICONTROL Portfolios]
 
-La vue [!UICONTROL Portfolios] répertorie tous les portfolios existants dans la vue filtrée, avec des données de performances personnalisables. Vous pouvez [personnaliser les colonnes de la vue](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) et filtrer les données pour inclure des portfolios spécifiques [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou de l’en-tête de colonne [&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+La vue [!UICONTROL Portfolios] répertorie tous les portfolios existants dans la vue filtrée, avec des données de performances personnalisables. Vous pouvez [personnaliser les colonnes de la vue](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) et filtrer les données pour inclure des portfolios spécifiques [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou de l’en-tête de colonne [](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 Au-dessus du tableau de données, vous pouvez ouvrir un graphique de performances avec jusqu’à trois mesures totalisées pour tous les portefeuilles dans la vue pour la période spécifiée.
 

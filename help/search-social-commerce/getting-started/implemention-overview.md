@@ -3,9 +3,13 @@ title: Présentation de l’implémentation de Search, Social et Commerce
 description: Découvrez le workflow général de lancement et de gestion d’un portfolio.
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+TQID: https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: 830
 ht-degree: 0%
 
 ---
@@ -60,11 +64,11 @@ Voici le workflow général d’implémentation et d’utilisation de Search, So
 
    1. (Annonceurs avec Adobe Analytics et/ou Adobe Audience Manager) Configurez des intégrations entre les différents comptes afin qu’Adobe Advertising puisse échanger des données avec eux.
 
-      Consultez le guide sur « [&#x200B; Intégrations avec Experience Cloud &#x200B;](/help/integrations/home.md) ».
+      Consultez le guide sur « [ Intégrations avec Experience Cloud ](/help/integrations/home.md) ».
 
    1. (Annonceurs avec [!DNL Google Analytics]) Synchronisez les mesures de conversion pour une combinaison de compte, propriété et vue [!DNL Google Analytics] à des fins d’optimisation et de création de rapports.
 
-      Voir le sous-chapitre d’aide « Admin » > « [&#x200B; Configuration des sources de données &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md) ».
+      Voir le sous-chapitre d’aide « Admin » > « [ Configuration des sources de données ](/help/search-social-commerce/admin/data-sources/data-source-about.md) ».
 
 1. Configurez et lancez les portefeuilles :
 

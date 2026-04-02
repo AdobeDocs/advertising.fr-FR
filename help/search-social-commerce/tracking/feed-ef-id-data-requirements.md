@@ -1,33 +1,37 @@
 ---
-title: Exigences de données pour les flux de données à l’aide des ID EF
-description: Référencez les exigences de données pour les flux de données à l’aide des identifiants EF.
+title: Exigences en matière de données pour les flux de données utilisant des identifiants EF
+description: Référencez les exigences en matière de données pour les flux de données à l’aide des identifiants EF.
 exl-id: 507ed42c-349f-4311-af61-8f7a27794162
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/p66X8xVlx-JwKjGgXxonJRRu78Q8F4109VkaIVtUbwU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: 256
 ht-degree: 0%
 
 ---
 
-# Exigences de données pour les flux de données à l’aide des ID EF
+# Exigences en matière de données pour les flux de données utilisant des identifiants EF
 
 Vous trouverez ci-dessous les champs d’en-tête et les champs de données correspondants requis pour chaque type de fichier de flux.
 
 >[!NOTE]
->* Les en-têtes peuvent être dans n’importe quel ordre tant que les données des lignes suivantes suivent le même ordre. Si vous n’incluez pas d’en-tête, l’ordre des lignes de données doit être cohérent avec celui de chaque fichier de flux.
->* Chaque ligne du fichier de flux doit contenir des données pour une transaction et la transaction doit être identifiée par un ef_id (jeton) généré par l’Adobe Advertising.
+>* Les en-têtes peuvent être dans n’importe quel ordre tant que les données des lignes suivantes suivent le même ordre. Si vous n’incluez pas d’en-tête, l’ordre des lignes de données doit être cohérent avec chaque fichier de flux.
+>* Chaque ligne du fichier de flux doit contenir des données pour une transaction, et la transaction doit être identifiée par un ef_id généré par Adobe Advertising (jeton).
 
-| Champ d’en-tête/Nom de colonne | Type | Description |
+| Nom de champ/colonne d’en-tête | Type | Description |
 | ---- | ---- | ---- |
-| EF ID | Chaîne sensible à la casse | ef_id (jeton) que vous avez capturé lors du clic pour la transaction, qui comprend l’ID de surfeur, l’heure du clic et le type de réseau. Ne modifiez pas la valeur. |
-| ID de transaction | Chaîne sensible à la casse | (Facultatif mais recommandé) Identifiant de transaction généré par l’annonceur. La bonne pratique consiste à inclure cette valeur pour chaque transaction, même si ef_id est utilisé pour effectuer le suivi de la transaction au moment de la redirection. |
+| ID EF | Chaîne sensible à la casse | ef_id (jeton) que vous avez capturé lors du clic pour la transaction, qui se compose de l’identifiant de l’utilisateur, de l’heure de clic et du type de réseau. Ne modifiez pas la valeur. |
+| ID de transaction | Chaîne sensible à la casse | (Facultatif mais recommandé) Identifiant de transaction généré par l’annonceur. La bonne pratique consiste à inclure ceci pour chaque transaction, même si ef_id est utilisé pour suivre la transaction au moment de la redirection. |
 | Date de transaction | DateTime | Date de la transaction. Le format doit être cohérent pour chaque transaction. |
-| Conversion spécifique au client | Chaîne | Conversion qui fait l’objet d’un suivi (type de transaction ou montant, par exemple). Discutez des conversions à inclure à l’équipe de mise en oeuvre d’Adobe Advertising avant de démarrer le flux. |
+| Conversion spécifique au client | String | Conversion faisant l’objet d’un suivi (type de transaction ou montant, par exemple). Discutez des conversions à inclure avec l’équipe d’implémentation d’Adobe Advertising avant de démarrer le flux. |
 
 ## Exemple
 
-L’exemple de fichier suivant inclut des données pour deux mesures de conversion (Produit et Recettes).
+Le fichier d’exemple suivant inclut des données pour deux mesures de conversion (Produit et Chiffre d’affaires).
 
 ```
 EF ID,Client Transaction ID, Transaction Date,Product,Revenue
@@ -38,5 +42,5 @@ TRl4BEtoTPMBEW4SU5ZUMEPIE:20100217065804:s,04896552,2010-02-17,Coffee,22.00
 
 >[!MORELIKETHIS]
 >
->* [Exigences liées aux fichiers pour les fichiers de flux de conversion](feed-file-requirements.md)
->* [Suivi des conversions à l’aide d’un flux d’identifiant EF](/help/search-social-commerce/tracking/feed-efid.md)
+>* [Exigences relatives aux fichiers de flux de conversion](feed-file-requirements.md)
+>* [Suivi des conversions à l’aide d’un flux d’ID EF](/help/search-social-commerce/tracking/feed-efid.md)

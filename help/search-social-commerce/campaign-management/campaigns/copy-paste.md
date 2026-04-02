@@ -3,9 +3,12 @@ title: Créer et modifier des données de campagne en bloc à l’aide du copier
 description: Découvrez comment gérer les données de campagne en bloc à l’aide de la fonctionnalité de copier-coller.
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: 486
 ht-degree: 0%
 
 ---
@@ -22,7 +25,7 @@ Vous pouvez utiliser cette fonctionnalité pour modifier des objets Campaign exi
 
 ## Copier les lignes de données
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] * [!UICONTROL Keywords] * [!UICONTROL Ads]\]**
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**.
 
 1. Cochez la case en regard de chaque ligne à copier.
 
@@ -58,7 +61,7 @@ Vous pouvez utiliser cette fonctionnalité pour modifier des objets Campaign exi
 
 1. Dans [!DNL Excel] ou un autre éditeur, copiez les lignes pertinentes séparées par des tabulations.
 
-1. Dans le menu principal Search, Social et Commerce, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Ouvrez la vue dans laquelle coller les données (**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] * [!UICONTROL Keywords] * [!UICONTROL Ads]\]**).
+1. Dans le menu principal Search, Social et Commerce, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Ouvrez la vue dans laquelle coller les données (**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**).
 
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Plus](/help/search-social-commerce/assets/more.png "Plus"), puis sur **[!UICONTROL Paste]**.
 

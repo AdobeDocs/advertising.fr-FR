@@ -3,9 +3,12 @@ title: Modification des mesures de conversion disponibles dans les vues de gesti
 description: Découvrez comment rendre les mesures de conversion disponibles dans vos vues et rapports de gestion.
 feature: Conversions
 exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: 506
 ht-degree: 0%
 
 ---
@@ -26,7 +29,7 @@ Dans la liste des mesures de conversion disponibles, chaque utilisateur ayant ac
 
    * Pour rechercher un nom de mesure ou un nom d’affichage spécifique, cliquez sur ![Rechercher](/help/search-social-commerce/assets/search.png "Rechercher"), saisissez le mot ou la chaîne dans le champ de saisie, puis appuyez sur la touche **[!DNL Enter]**.
 
-     Vous pouvez rechercher des chaînes qui apparaissent n’importe où dans l’expression (comme la première lettre ou les trois dernières lettres) et les termes de recherche ne sont pas [&#x200B; sensibles à la casse](/help/search-social-commerce/glossary.md#c-d).
+     Vous pouvez rechercher des chaînes qui apparaissent n’importe où dans l’expression (comme la première lettre ou les trois dernières lettres) et les termes de recherche ne sont pas [ sensibles à la casse](/help/search-social-commerce/glossary.md#c-d).
 
    * Pour rechercher des mesures de conversion en fonction de leur disponibilité dans les vues de gestion et les rapports, cliquez sur ![Filtrer](/help/search-social-commerce/assets/filter.png "Filtrer"), puis sélectionnez le **[!UICONTROL Show in UI and Reports]** de filtrage. Sélectionnez ensuite **[!UICONTROL Show]** (pour afficher les mesures de conversion disponibles à inclure dans les rapports et les vues de gestion) ou **[!UICONTROL Hide]** (pour afficher les mesures de conversion non disponibles dans les rapports et les vues de gestion).
 

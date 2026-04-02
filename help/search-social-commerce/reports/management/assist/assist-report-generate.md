@@ -3,9 +3,13 @@ title: Générer un rapport d’assistance
 description: Découvrez comment générer des rapports d’assistance.
 exl-id: ac3e3619-c300-4d2f-84bc-c4977c1712f3
 feature: Search Reports, Search Assist Reports
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/qdz7yZo9qOCdVOGkLURa7rp4ROEFtdNfOKAiTl1xf9E
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: 275
 ht-degree: 0%
 
 ---
@@ -36,7 +40,7 @@ ht-degree: 0%
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
-Si vous n&#39;avez pas spécifié de planning de rapport, le rapport est exécuté immédiatement ; dans le cas contraire, il l&#39;est selon le planning spécifié. Le nom du rapport est ajouté à la vue [[!UICONTROL Latest Reports]](/help/search-social-commerce/reports/report-about.md). Si vous avez enregistré le rapport en tant que modèle, il est également ajouté à la vue [[!UICONTROL Templates]. &#x200B;](/help/search-social-commerce/reports/report-about.md). Une fois le rapport terminé, vous pouvez ouvrir ou enregistrer le fichier ; les modèles sont disponibles immédiatement.
+Si vous n&#39;avez pas spécifié de planning de rapport, le rapport est exécuté immédiatement ; dans le cas contraire, il l&#39;est selon le planning spécifié. Le nom du rapport est ajouté à la vue [[!UICONTROL Latest Reports]. ](/help/search-social-commerce/reports/report-about.md) Si vous avez enregistré le rapport en tant que modèle, il est également ajouté à la vue [[!UICONTROL Templates]. ](/help/search-social-commerce/reports/report-about.md). Une fois le rapport terminé, vous pouvez ouvrir ou enregistrer le fichier ; les modèles sont disponibles immédiatement.
 
 Si vous avez saisi des adresses e-mail pour la notification, chaque destinataire reçoit une notification lorsque la tâche de rapport est terminée ou échoue, en fonction des [paramètres de notification configurés](/help/search-social-commerce/notifications/notification-edit.md) de l’utilisateur pour les rapports.
 
@@ -46,5 +50,5 @@ Si vous avez saisi des adresses e-mail pour la notification, chaque destinataire
 >* [Le [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
 >* [Le [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [Le [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
->* [À propos des rapports &#x200B;](/help/search-social-commerce/reports/report-about.md)
+>* [À propos des rapports ](/help/search-social-commerce/reports/report-about.md)
 >* [Supprimer des rapports](/help/search-social-commerce/reports/management/report-delete.md)

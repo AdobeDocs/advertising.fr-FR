@@ -3,9 +3,13 @@ title: Modification d’une expérience sans ciblage d’arbre de décision
 description: Découvrez comment modifier les paramètres d’une expérience publicitaire sans ciblage.
 feature: Creative Experiences
 exl-id: 29f54944-72a0-405a-bc11-87ea03edc09a
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+TQID: https://experienceleague.adobe.com/kpLZ-guh9RDPIHVbSKo-L2Vn5ECpwGn40V5amNlBZQg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: 142
 ht-degree: 0%
 
 ---

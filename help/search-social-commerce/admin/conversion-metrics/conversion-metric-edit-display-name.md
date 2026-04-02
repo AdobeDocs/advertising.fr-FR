@@ -3,9 +3,12 @@ title: Modification du nom d’affichage d’une mesure de conversion
 description: Découvrez comment modifier le nom de la mesure de conversion qui s’affiche dans les en-têtes de colonne de vos vues et rapports de gestion.
 feature: Conversions
 exl-id: 5c3c1eaf-6754-42f1-acf1-f75d01e2d216
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/yjxUDTt7YtdpGkSEV0NqM1Yqxv5C9M-DQ2bTp4-W5PI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: 196
 ht-degree: 0%
 
 ---

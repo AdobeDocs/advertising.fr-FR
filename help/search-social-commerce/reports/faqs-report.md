@@ -3,9 +3,13 @@ title: Questions fréquentes sur les rapports personnalisés
 description: Découvrez les réponses aux questions courantes sur les rapports de performance, y compris le dépannage des problèmes de données.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
+TQID: https://experienceleague.adobe.com/2pGYTNuu54grOLUSyVpfQVttGWG8OMPCUrzAYmyIv0k
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3922'
+source-wordcount: 3922
 ht-degree: 0%
 
 ---
@@ -49,7 +53,7 @@ Vous pouvez voir quelles conversions ont résulté d’un clic sur une extension
 
 +++
 
-+++La colonne « [!UICONTROL Keyword] » de mon rapport inclut une valeur « (contenu du groupe publicitaire) &lt;*nom du groupe publicitaire*>. »
++++La colonne « [!UICONTROL Keyword] » de mon rapport inclut une valeur « (contenu du groupe publicitaire) &lt;*nom du groupe publicitaire*> ».
 Lorsque la ligne inclut des données pour les campagnes de recherche de contenu, les campagnes d’affichage ou les campagnes sur les réseaux sociaux (qui n’incluent pas de mots-clés), la colonne [!UICONTROL Keyword] affiche à la place le nom du groupe publicitaire applicable.
 +++
 
@@ -117,7 +121,7 @@ Vous pouvez voir des valeurs décimales dans les cas suivants :
 
 ## Mesures de performances standard
 
-+++Les données relatives aux clics sont manquantes dans les rapports.
++++Les données de clic sont absentes des rapports.
 Vous trouverez ci-dessous les raisons courantes du manque de données de clics.
 
 | Cause | Détection/Analyse | Résolution |
@@ -210,11 +214,11 @@ Le rapport peut ne pas inclure les mesures de conversion pour lesquelles des con
    L’assistance clientèle vérifiera si le fichier a été reçu et analysé. Si le fichier a été traité sans erreur, ils recherchent les transactions orphelines.
 +++
 
-+++Certains rapports avancés n’incluent pas les données de conversion fournies par un flux d’annonceurs.
++++Certains rapports avancés n’incluent pas les données de conversion fournies par un flux d’annonceurs. 
 Les [!UICONTROL Geo Distribution Report] et [!UICONTROL Domain Referral Report] utilisent des données capturées par le biais du service de suivi des conversions d’Adobe Advertising et ne peuvent être générés que pour les annonceurs qui utilisent le service. Les rapports n’incluent pas les données de conversion qui sont suivies en dehors du système de suivi des conversions d’Adobe Advertising.
 +++
 
-+++Les données de chiffre d’affaires sont différentes des données de chiffre d’affaires de l’annonceur.
++++Les données sur le chiffre d’affaires diffèrent des données sur le chiffre d’affaires de l’annonceur.
 
 **Annonceurs utilisant des balises de conversion Adobe Advertising**
 
@@ -294,7 +298,7 @@ Consultez les causes possibles et les solutions pour les implémentations de pix
 +++
 
 +++Les données de chiffre d’affaires sont différentes des données d’Adobe Analytics
-Voir [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=fr](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=fr).<!-- change link URL to relative link -->
+Voir [](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
 +++
 
 ## Rapports spécifiques
@@ -307,7 +311,7 @@ La vue [!UICONTROL Portfolio Report] et la vue [!UICONTROL Portfolios] affichent
 La [!UICONTROL Portfolio Report] affiche les données des campagnes affectées aux portfolios spécifiés uniquement, mais les [!UICONTROL Search Engine Report] et [!UICONTROL Search Engine Account Report] peuvent également inclure des données pour les campagnes qui ne sont pas affectées à un portfolio.
 +++
 
-+++En quoi le [!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report] diffère-t-il du [!UICONTROL Model Accuracy Report] au niveau du portefeuille ?
++++En quoi le [!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report] est-il différent du [!UICONTROL Model Accuracy Report] au niveau du portefeuille ?
 (Gestionnaire de compte d’Agence, gestionnaire de compte Adobe et utilisateurs administrateurs uniquement) Le [!UICONTROL Forecast Accuracy Report] disponible dans [!UICONTROL Reports] > [!UICONTROL Model Accuracy] fournit les mêmes données que le [!UICONTROL Model Accuracy Report] au niveau du portefeuille, à la différence que vous pouvez l’exécuter sur plusieurs portefeuilles et que vous pouvez modifier la règle d’attribution. Vous pouvez également exécuter et planifier le rapport à l&#39;aide de paramètres personnalisés et l&#39;utiliser pour créer des flux de feuilles de calcul. En outre, le [!UICONTROL Forecast Accuracy Report] est plus précis que le rapport hérité au niveau du portefeuille, car il évalue l’exactitude des revenus à l’aide des objectifs historiques du portefeuille plutôt que de l’objectif actuel, et il représente plus précisément les données pour le fuseau horaire applicable.
 +++
 
@@ -315,7 +319,7 @@ La [!UICONTROL Portfolio Report] affiche les données des campagnes affectées a
 Les réseaux publicitaires ne fournissent pas l’identifiant nécessaire pour attribuer le chiffre d’affaires à une publicité individuelle pour ces campagnes. Par conséquent, les données de performances au niveau des annonces ne sont pas disponibles pour ces types de campagnes dans la vue [!UICONTROL Ads] ou dans la [!UICONTROL Ad Variation Report]. Attendez-vous à des incohérences entre le nombre total de données au niveau des annonces pour une campagne et le nombre total de données pour la campagne.
 +++
 
-+++Dans la [!UICONTROL Transaction Report], comment savoir quelle mesure de conversion provient d’un flux de données ou est suivie par le pixel de suivi d’Adobe Advertising ?
++++Dans le [!UICONTROL Transaction Report], comment puis-je savoir quelle mesure de conversion provient d’un flux de données ou est suivie par le pixel de suivi Adobe Advertising ?
 Dans un rapport de transaction, vous pouvez déterminer si une mesure de conversion incluse a été suivie par le pixel de suivi Adobe Advertising si vous incluez la colonne personnalisée « [!UICONTROL Tracking URL] ». Les URL de tracking avec le pixel de tracking Adobe Advertising commencent par « `http://pixel.everesttech.net` ».
 +++
 
@@ -338,7 +342,7 @@ Pour résoudre ce problème, mettez à jour le flux de la feuille de calcul pour
 +++
 
 +++Lorsque j’essaie d’ouvrir un flux de feuille de calcul dans [!DNL Excel], [!DNL Excel] signale une erreur de « contenu illisible » et les données sont supprimées du contenu récupéré.
-Lorsque le modèle de [!DNL Microsoft Excel] ne trie pas les données par date de début dans l’ordre croissant, le flux de la feuille de calcul peut inclure des lignes vides. En particulier, [!DNL Excel] signale l’erreur « Excel a trouvé du contenu illisible dans « &lt;*nom du rapport*>.xlsx ». Voulez-vous récupérer le contenu du classeur ? Si la source de ce classeur est fiable, cliquez sur Oui. » Si vous cliquez sur « Oui », le message suivant s’affiche : « Enregistrements supprimés : informations de cellule de la partie /xl/worksheets/sheet1.xml » et le flux de la feuille de calcul inclut des lignes vides.
+Lorsque le modèle de [!DNL Microsoft Excel] ne trie pas les données par date de début dans l’ordre croissant, le flux de la feuille de calcul peut inclure des lignes vides. En particulier, [!DNL Excel] signale l’erreur « Excel a trouvé du contenu illisible dans « *nom du rapport*>.xlsx ». Voulez-vous récupérer le contenu du classeur ? Si la source de ce classeur est fiable, cliquez sur Oui. » Si vous cliquez sur « Oui », le message suivant s’affiche : « Enregistrements supprimés : informations de cellule de la partie /xl/worksheets/sheet1.xml » et le flux de la feuille de calcul inclut des lignes vides.
 
 Pour résoudre ce problème, modifiez le modèle de [!DNL Excel] associé au flux afin de trier les données par [!DNL Start date in Ascending (Oldest to Newest) order], puis chargez le modèle mis à jour via les paramètres de flux de la feuille de calcul. Pour plus d&#39;informations, voir « [Modifier les flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md) ».
 +++

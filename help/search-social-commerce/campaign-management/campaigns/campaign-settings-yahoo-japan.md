@@ -1,30 +1,34 @@
 ---
-title: Paramètres de campagne '[!DNL Yahoo! Japan Ads]'
+title: '[!DNL Yahoo! Japan Ads] des paramètres de la campagne'
 description: Référencez les paramètres des campagnes  [!DNL Yahoo! Japan Ads] .
 exl-id: 29acde0f-13f6-422d-b611-23ebb2ee70d9
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/okWpkqtz0o33r--74ZV2f-f8-1G9ieVY-oei-YSk4hk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: 117
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads] paramètres de campagne
+# [!DNL Yahoo! Japan Ads] des paramètres de la campagne
 
-## \[Ecran de création de campagne\]
+## \[Écran de création de campagne\]
 
-**[!UICONTROL Campaign Type]:** (Disponible uniquement lors de la création de la campagne) Où placer les publicités : la seule option est *[!UICONTROL Search Network Only]* pour afficher les publicités textuelles sur le réseau de recherche.
+**[!UICONTROL Campaign Type]:** (disponible lors de la création de la campagne uniquement) Où placer les annonces : la seule option est *[!UICONTROL Search Network Only]* pour afficher des annonces textuelles sur le réseau de recherche.
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** nom de campagne unique dans le compte.
+**[!UICONTROL Campaign Name]:** Nom de campagne unique au sein du compte.
 
 <!-- **[!UICONTROL Start date]:** -->
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Status]:** État d’affichage de la campagne : *Active* ou *En pause*. La valeur par défaut des nouvelles campagnes publicitaires est *Active*.
+**[!UICONTROL Status]:** statut d’affichage de la campagne : *Actif* ou *En pause*. La valeur par défaut pour les nouvelles campagnes publicitaires est *Active*.
 
 <!-- **[!UICONTROL End date]:** -->
 
@@ -32,9 +36,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Budget Options]
 
-**[!UICONTROL Budget]:** Le budget, qui est le montant que vous souhaitez dépenser tous les jours, en moyenne. Le budget quotidien minimum est de 100 yens.
+**[!UICONTROL Budget]:** Le budget, qui est le montant que vous voulez dépenser chaque jour, en moyenne. Le budget minimum journalier est de 100 JPY.
 
-Si vous attribuez cette opération à un portefeuille pour lequel les limites du budget de l&#39;opération sont automatiquement ajustées, alors — selon les conditions de recherche — vous pouvez effectivement dépenser plus ou moins que le budget spécifié pour une période donnée.
+Si vous affectez cette campagne à un portefeuille pour lequel les limites budgétaires de la campagne sont automatiquement ajustées, en fonction des conditions de recherche, vous pouvez dépenser plus ou moins que le budget spécifié au cours d&#39;une période donnée.
 
 <!-- **[!UICONTROL Delivery Method]:** -->
 

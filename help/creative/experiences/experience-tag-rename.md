@@ -3,9 +3,12 @@ title: Renommer une balise publicitaire
 description: Découvrez comment renommer une balise d’annonce publicitaire pour une expérience.
 feature: Creative Experiences
 exl-id: 8c2fda31-2e4c-49ea-bcf2-f1bf564068b8
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+TQID: https://experienceleague.adobe.com/ypb4-Ao9JeNtow7EHbnKsL2ORmGUskuZcjDXdbyb8hA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: 116
 ht-degree: 0%
 
 ---

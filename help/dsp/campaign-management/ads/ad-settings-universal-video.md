@@ -3,9 +3,15 @@ title: Paramètres universels des publicités vidéo
 description: Consultez les descriptions des paramètres d’annonces publicitaires disponibles pour les annonces vidéo universelles.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+TQID: https://experienceleague.adobe.com/el77W69kVO-3vFRPR5pT62NCm35IHlABo-sUvEcVnRI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: 384
 ht-degree: 0%
 
 ---
@@ -69,4 +75,4 @@ Utilisez le format [!UICONTROL VAST], qui ne permet pas de mesurer la visibilit�
 >* [Créer une seule annonce publicitaire](ad-create.md)
 >* [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Spécifications publicitaires](ad-specs.md)
->* [Macros &#x200B;](/help/dsp/campaign-management/macros.md)
+>* [Macros ](/help/dsp/campaign-management/macros.md)

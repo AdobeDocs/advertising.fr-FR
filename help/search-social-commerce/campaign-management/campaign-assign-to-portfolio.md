@@ -3,9 +3,13 @@ title: Affectation de campagnes à un portfolio
 description: Découvrez comment inclure des campagnes dans des portfolios à des fins d’optimisation.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+TQID: https://experienceleague.adobe.com/odAzHLff8w9TCC-X6DUidlxc2RRbcjlCbb-qWWutTK0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: 588
 ht-degree: 0%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 0%
 
 L’affectation d’une campagne à un portfolio optimisé permet à Search, Social et Commerce d’optimiser les enchères, les budgets de campagne et les cibles de stratégie d’enchères pour les mots-clés et les annonces de la campagne. Vous pouvez affecter des campagnes à un portfolio à partir de la vue [!UICONTROL Campaigns], lorsque vous créez le portfolio ou en modifiant les paramètres d’un portfolio.
 
-L’optimisation ne s’applique pas à tous les types de campagne et réseaux publicitaires. Consultez la liste des [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) que vous pouvez inclure dans un portfolio. Vérifiez également la prise en charge de l’optimisation [&#x200B; pour chaque stratégie d’enchères de campagne](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy).
+L’optimisation ne s’applique pas à tous les types de campagne et réseaux publicitaires. Consultez la liste des [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) que vous pouvez inclure dans un portfolio. Vérifiez également la prise en charge de l’optimisation [ pour chaque stratégie d’enchères de campagne](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy).
 
 >[!NOTE]
 >

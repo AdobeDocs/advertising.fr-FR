@@ -2,9 +2,14 @@
 title: (Nouvelle interface utilisateur) Administration des utilisateurs
 description: Découvrez comment gérer l’accès des utilisateurs et utilisatrices.
 feature: Search Introduction
-source-git-commit: c198b5ea2f8ef125b1a5d25616158d57950ce3b0
+exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
+TQID: https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: 975
 ht-degree: 0%
 
 ---
@@ -95,7 +100,7 @@ La nouvelle interface utilisateur de Search, Social &amp; Commerce comporte les 
 
    1. Saisissez votre ID de [!DNL Adobe], puis cliquez sur **[!UICONTROL Continue]**.
 
-   1. Sélectionnez **[!UICONTROL Personal Account] » ou &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Sélectionnez **[!UICONTROL Personal Account] » ou **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. Sélectionnez l’organisation Experience Cloud applicable.
 
@@ -111,9 +116,9 @@ Suivez ce workflow pour chaque instance cliente de Search, Social et Commerce.
 
 1. [Connectez-vous à Adobe Admin Console et ouvrez-le sur Search, Social et Commerce](#open-admin-console).
 
-1. (Facultatif) [Ajoutez un autre administrateur système](https://helpx.adobe.com/fr/enterprise/using/admin-roles.html#enterprise) comme sauvegarde.
+1. (Facultatif) [Ajoutez un autre administrateur système](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) comme sauvegarde.
 
-1. Déléguer la gestion des produits et des utilisateurs en [ajoutant des administrateurs de produit](https://helpx.adobe.com/fr/enterprise/using/admin-roles.html#enterprise).
+1. Déléguer la gestion des produits et des utilisateurs en [ajoutant des administrateurs de produit](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise).
 
 ### Workflow pour les administrateurs de produit
 
@@ -121,9 +126,9 @@ Suivez ce workflow pour chaque instance cliente de Search, Social et Commerce.
 
 1. [Connectez-vous à Adobe Admin Console et ouvrez-le sur Search, Social et Commerce](#open-admin-console).
 
-1. Au besoin, créez des utilisateurs finaux [individuellement](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html) ou [en bloc](https://helpx.adobe.com/fr/enterprise/using/bulk-upload-users.html).
+1. Au besoin, créez des utilisateurs finaux [individuellement](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) ou [en bloc](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
 
-1. (Facultatif) Créez des [groupes d’utilisateurs](https://helpx.adobe.com/fr/enterprise/using/user-groups.html) pour l’instance et affectez des utilisateurs à chaque groupe d’utilisateurs.
+1. (Facultatif) Créez des [groupes d’utilisateurs](https://helpx.adobe.com/enterprise/using/user-groups.html) pour l’instance et affectez des utilisateurs à chaque groupe d’utilisateurs.
 
    Si l’instance compte de nombreux utilisateurs, créez des groupes d’utilisateurs afin de vous assurer que les utilisateurs se voient attribuer les profils adéquats en fonction de leur niveau d’expertise. (Voir Étape 4 pour l’affectation de groupes d’utilisateurs aux profils de produit.) Vous pouvez créer des groupes d’utilisateurs en fonction du secteur d’activité, des besoins en matière d’accès des utilisateurs, de la date d’embauche des utilisateurs ou d’autres critères.
 
@@ -131,7 +136,7 @@ Suivez ce workflow pour chaque instance cliente de Search, Social et Commerce.
    >
    >Les noms des groupes d’utilisateurs doivent indiquer clairement les droits qui doivent être attribués à ces groupes. Par exemple, si vous souhaitez créer un groupe d’utilisateurs avec des droits en « Lecture seule », incluez « Read Only » dans le nom du groupe d’utilisateurs, tel que « Acme_Uk_ReadOnly » ou « Acme_ReadOnly ».
 
-1. (Facultatif) [Créer des profils de produit personnalisés](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html) avec des jeux d’autorisations définis.
+1. (Facultatif) [Créer des profils de produit personnalisés](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) avec des jeux d’autorisations définis.
 
    Les profils personnalisés s’ajoutent aux quatre profils de produit par défaut déjà disponibles.
 
@@ -139,10 +144,10 @@ Suivez ce workflow pour chaque instance cliente de Search, Social et Commerce.
 
    **Attention :** les autorisations de produit sont très granulaires. Soyez prudent lorsque vous configurez des profils de produit personnalisés ou vous pouvez omettre les fonctionnalités que vous souhaitez inclure.
 
-1. [Affectez manuellement ou en bloc chaque utilisateur ou groupe d’utilisateurs au profil de produit approprié](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html)
+1. [Affectez manuellement ou en bloc chaque utilisateur ou groupe d’utilisateurs au profil de produit approprié](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)
 
 ## Guide complet d’administration des utilisateurs et des liens supplémentaires
 
-* Pour plus d’informations sur l’administration des utilisateurs à l’aide de Adobe Admin Console, consultez le « Guide d’administration d’Adobe Enterprise et Teams [&#x200B; », y compris la &#x200B;](https://helpx.adobe.com/fr/enterprise/admin-guide.html)présentation d’Admin Console[.](https://helpx.adobe.com/fr/enterprise/using/admin-console.html)
+* Pour plus d’informations sur l’administration des utilisateurs à l’aide de Adobe Admin Console, consultez le « Guide d’administration d’Adobe Enterprise et Teams [ », y compris la ](https://helpx.adobe.com/enterprise/admin-guide.html)présentation d’Admin Console[.](https://helpx.adobe.com/fr/enterprise/using/admin-console.html)
 
 * Admin Console : [https://adminconsole.adobe.com](https://adminconsole.adobe.com)

@@ -3,9 +3,14 @@ title: Partenaires certifiés et au service des publicités
 description: Voir tous les serveurs et unités publicitaires certifiés.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+TQID: https://experienceleague.adobe.com/TGGPFaETQVbzVcselZhGcQAGBt7g3pvyjAaQgIFObqs
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: 332
 ht-degree: 0%
 
 ---
@@ -63,7 +68,7 @@ ht-degree: 0%
 | [!DNL SundaySky] | | | | X | |
 | [!DNL Teads] | | X | | | Inclut l’affichage natif. Aucune prise en charge n&#39;est disponible pour VPAID sur l&#39;inventaire Outstream. |
 | [!DNL Trueffect] | | X | | | |
-| [!DNL Undertone] | | | X | | Unité d’annonce personnalisée Page Grabber chargée en 180 x 150 dans DSP</br></br>Lorsque Index Exchange passe une enchère de 180 x 150 et que DSP enchérit sur l’enchère et donne une impression, le contenu créatif se développe pour devenir une annonce publicitaire pleine page.</br></br>Initialement certifié pour les unités publicitaires Page Grabber, Expandable Adhésion et Screen Shift. Il doit être recertifié, avec des étapes marquées pour les processus. |
+| [!DNL Undertone] | | | X | | Unité d’annonce personnalisée Page Grabber chargée en 180 x 150 dans </br></br>Lorsque Index Exchange passe une enchère de 180 x 150 et que DSP enchérit sur l’enchère et donne une impression, le contenu créatif se développe pour devenir une annonce publicitaire pleine page.</br></br>Initialement certifié pour les unités publicitaires Page Grabber, Expandable Adhésion et Screen Shift. Il doit être recertifié, avec des étapes marquées pour les processus. |
 | [!DNL Vox] | | | X | | [!DNL Athena] des annonces publicitaires |
 | [!DNL Wunderkind] | | X | | | |
 

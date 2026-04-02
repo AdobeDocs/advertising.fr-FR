@@ -3,9 +3,14 @@ title: Utilisation des Adobe Advertising ID pour créer  [!DNL Marketing Channel
 description: Découvrez comment utiliser les Adobe Advertising ID pour créer des règles de traitement pour  [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
-source-git-commit: 0813a8bddc1ecf238f4a62c4fcefd8584f32e152
+TQID: https://experienceleague.adobe.com/mBjU1jKifWk35v43sGsBO5aHDQA5ftmyI9GJ4Xujz9A
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: 1448
 ht-degree: 0%
 
 ---
@@ -18,7 +23,7 @@ Vous pouvez utiliser les identifiants Adobe Advertising ([AMO ID et EF ID](../id
 
 ## ID AMO dans les règles de traitement
 
-L’ID AMO est le code de suivi principal utilisé pour signaler les données Adobe Advertising dans [!DNL Analytics]. L’ID AMO est une concaténation de valeurs dynamiques gérées par Adobe afin de fournir des rapports granulaires dans [!DNL Analytics]. Il est stocké dans une dimension [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=fr) ou rVar (AMO ID). L’AMO ID peut être défini dans [!DNL Analytics] de deux manières :
+L’ID AMO est le code de suivi principal utilisé pour signaler les données Adobe Advertising dans [!DNL Analytics]. L’ID AMO est une concaténation de valeurs dynamiques gérées par Adobe afin de fournir des rapports granulaires dans [!DNL Analytics]. Il est stocké dans une dimension [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou rVar (AMO ID). L’AMO ID peut être défini dans [!DNL Analytics] de deux manières :
 
 * Suivi des clics publicitaires : Adobe Advertising définit le paramètre de chaîne de requête `s_kwcid` dans un lien et [!DNL Analytics] sélectionne le paramètre dans l’URL de la page de destination en cas de clic publicitaire.
 
@@ -90,7 +95,7 @@ Ne définissez pas la valeur du canal sur l’ID AMO. Au lieu de cela, définiss
 
 ### Règle de recherche naturelle
 
-Par [!UICONTROL Natural Search], assurez-vous que vos règles de détection de [[!UICONTROL Paid Search]](https://experienceleague.adobe.com/fr/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection) incluent les paramètres de chaîne de requête `ef_id` et `s_kwcid`. (En règle générale, cela est automatiquement configuré lorsque Advertising Search, Social et Commerce est intégré à [!DNL Analytics], mais vérifiez si un administrateur [!DNL Analytics] a modifié la logique une fois l’intégration configurée.)
+Par [!UICONTROL Natural Search], assurez-vous que vos règles de détection de [[!UICONTROL Paid Search]](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection) incluent les paramètres de chaîne de requête `ef_id` et `s_kwcid`. (En règle générale, cela est automatiquement configuré lorsque Advertising Search, Social et Commerce est intégré à [!DNL Analytics], mais vérifiez si un administrateur [!DNL Analytics] a modifié la logique une fois l’intégration configurée.)
 
 Définissez la règle sur « Correspond aux règles de détection de recherche naturelle » (qui est généralement le paramètre par défaut pour ce canal).
 
@@ -144,7 +149,7 @@ Pour la deuxième règle Afficher ClickThrough, définissez **L’identifiant AM
 
 * Certains annonceurs peuvent choisir de donner la priorité aux [!UICONTROL Display ViewThroughs] plutôt qu’aux [!UICONTROL Natural Referring Domains]. Pour ce faire, permutez l’ordre de traitement des deux règles.
 
-* La règle de **&#x200B;**&#x200B;second[!UICONTROL Display ClickThrough] permet d’intercepter les données de clic/coût/impression qui entrent directement d’Adobe Advertising vers [!DNL Analytics]. Comme ces données sont uniquement attribuées à un ID AMO, ces accès ne sont pas connectés à un ID AMO EF. Si vous ne définissez pas cette règle, toutes les données de clics/coûts/impressions se trouvent sous le canal [!UICONTROL Direct], qui est le canal par défaut pour toutes les données qui ne correspondent pas à un [!DNL Marketing Channel]. Cette règle doit venir *après* la règle d&#39;affichage publicitaire ou elle récupérera n&#39;importe quel affichage publicitaire.
+* La règle de **** second[!UICONTROL Display ClickThrough] permet d’intercepter les données de clic/coût/impression qui entrent directement d’Adobe Advertising vers [!DNL Analytics]. Comme ces données sont uniquement attribuées à un ID AMO, ces accès ne sont pas connectés à un ID AMO EF. Si vous ne définissez pas cette règle, toutes les données de clics/coûts/impressions se trouvent sous le canal [!UICONTROL Direct], qui est le canal par défaut pour toutes les données qui ne correspondent pas à un [!DNL Marketing Channel]. Cette règle doit venir *après* la règle d&#39;affichage publicitaire ou elle récupérera n&#39;importe quel affichage publicitaire.
 
 <!-- WORDING!!!!  Check on this, and if it's necessary still with the other info about order:  If you include additional marketing channels, be sure to run your rules in order of specificity. For example, say you create a processing rule for [!DNL YouTube] video ad traffic tracked by Advertising Search, Social, & Commerce. The AMO ID for video traffic starts with with "AL!" and contain "!ytv!". If you run the rule for Paid Search (for which the AMO ID starts with "AL!") and then run the rule for video traffic, the YouTube video ad traffic would all fall under the Paid Search channel. -->
 
@@ -153,5 +158,5 @@ Pour la deuxième règle Afficher ClickThrough, définissez **L’identifiant AM
 >* [Principes fondamentaux de  [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Pourquoi les données de canal peuvent varier entre Adobe Advertising et  [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Utilisation [!DNL Analytics Marketing Channels] avec des données Adobe Advertising](mc-ac-data.md)
->* [Vidéo : Utilisation  [!DNL Marketing Channels]  rapports pour Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=fr)
+>* [Vidéo : Utilisation  [!DNL Marketing Channels]  rapports pour Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Adobe Advertising ID utilisés par  [!DNL Analytics]](/help/integrations/analytics/ids.md)

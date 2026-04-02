@@ -3,9 +3,15 @@ title: À propos des sources d’audience propriétaires
 description: Découvrez comment convertir d’autres identifiants d’utilisateur de vos segments propriétaires en identifiants universels pour le ciblage sans cookie.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
+TQID: https://experienceleague.adobe.com/8wdjwhNF-KDspEa1wSYWwlDOJxc3LiyqnSwEE-Fq9bY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: 560
 ht-degree: 0%
 
 ---
@@ -75,9 +81,9 @@ DSP peut également se connecter à des CDP supplémentaires à l’aide du part
 
 ### [!DNL Adobe Real-Time CDP]
 
-DSP est une *destination* intégrée pour [le [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr), qui fait partie de Adobe Experience Platform.
+DSP est une *destination* intégrée pour [le [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), qui fait partie de Adobe Experience Platform.
 
-Dans [!DNL Real-Time CDP], les destinations sont des connexions à des plateformes de données externes qui permettent une activation transparente des données. Vous pouvez utiliser les destinations pour activer vos adresses e-mail hachées, vos cookies et vos identifiants de publicité mobile pour la publicité ciblée dans DSP. Pour plus d’informations sur les destinations, consultez le [Guide des destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr) d’Experience Platform, qui comprend une présentation du produit, des instructions pour [créer des espaces de travail de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=fr) et [créer des connexions de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=fr) et [activer des données vers les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=fr).
+Dans [!DNL Real-Time CDP], les destinations sont des connexions à des plateformes de données externes qui permettent une activation transparente des données. Vous pouvez utiliser les destinations pour activer vos adresses e-mail hachées, vos cookies et vos identifiants de publicité mobile pour la publicité ciblée dans DSP. Pour plus d’informations sur les destinations, consultez le [Guide des destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html) d’Experience Platform, qui comprend une présentation du produit, des instructions pour [créer des espaces de travail de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) et [créer des connexions de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) et [activer des données vers les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
 Pour permettre à DSP d’ingérer vos [!DNL Adobe] [!DNL Real-time CDP] segments propriétaires et de convertir vos adresses e-mail hachées, cookies et identifiants publicitaires mobiles en identifiants universels, consultez la section « [Convertir les identifiants d’utilisateur de [!DNL Adobe Real-Time CDP] en identifiants universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md) ».
 

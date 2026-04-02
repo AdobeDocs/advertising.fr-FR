@@ -3,9 +3,15 @@ title: Présentation de l’envoi de données d’exposition aux médias DSP ver
 description: Découvrez comment utiliser les pixels d’événement Audience Manager pour capturer des données au niveau de l’impression et du clic à partir de campagnes Advertising DSP
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/MqAVZH8WKVulxVDOD3SDbROYnkRG0tlm028WGBL9wOM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: 529
 ht-degree: 0%
 
 ---
@@ -40,15 +46,15 @@ Les pixels d’événement d’impression et de clic Audience Manager sont basé
 
 ### Pixels de suivi d’impression
 
-Audience Manager effectue le suivi des données d’impression pour une publicité lorsque vous joignez un pixel de suivi d’événement transparent de 1 xl pixels à la publicité. Le pixel d’événement est chargé chaque fois que la publicité est diffusée à un utilisateur et chargée par le navigateur web. Le pixel est chargé à partir d’un sous-domaine spécifique au client de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=fr), qui est un domaine hérité pour Audience Manager et qui contient des paramètres sous la forme de paires clé-valeur. L’appel d’événement collecte les données d’impression et de conversion et les envoie aux serveurs de collecte de données d’Audience Manager.
+Audience Manager effectue le suivi des données d’impression pour une publicité lorsque vous joignez un pixel de suivi d’événement transparent de 1 xl pixels à la publicité. Le pixel d’événement est chargé chaque fois que la publicité est diffusée à un utilisateur et chargée par le navigateur web. Le pixel est chargé à partir d’un sous-domaine spécifique au client de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), qui est un domaine hérité pour Audience Manager et qui contient des paramètres sous la forme de paires clé-valeur. L’appel d’événement collecte les données d’impression et de conversion et les envoie aux serveurs de collecte de données d’Audience Manager.
 
 ### pixels de suivi des clics
 
-Audience Manager effectue le suivi des clics de la même manière que les impressions, sauf qu’il ne charge pas le pixel d’événement transparent chaque fois que la publicité est diffusée. Au lieu de cela, les données relatives aux clics sont suivies dans l’URL de clics publicitaires. La publicité pointe vers un sous-domaine spécifique au client de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=fr), qui est un domaine hérité pour Audience Manager, pour traitement par les serveurs de collecte de données Audience Manager. Le serveur redirige ensuite l’utilisateur vers la page de destination prévue. L’URL contient des paramètres en tant que paires clé-valeur.
+Audience Manager effectue le suivi des clics de la même manière que les impressions, sauf qu’il ne charge pas le pixel d’événement transparent chaque fois que la publicité est diffusée. Au lieu de cela, les données relatives aux clics sont suivies dans l’URL de clics publicitaires. La publicité pointe vers un sous-domaine spécifique au client de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), qui est un domaine hérité pour Audience Manager, pour traitement par les serveurs de collecte de données Audience Manager. Le serveur redirige ensuite l’utilisateur vers la page de destination prévue. L’URL contient des paramètres en tant que paires clé-valeur.
 
 >[!NOTE]
 >
->Si votre entreprise utilise le suivi des clics [!DNL Analytics], vous n’aurez peut-être pas besoin du suivi des clics Audience Manager. Adobe Analytics capture les signaux de clic et peut les envoyer à Audience Manager par le biais du [&#x200B; transfert côté serveur &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr).
+>Si votre entreprise utilise le suivi des clics [!DNL Analytics], vous n’aurez peut-être pas besoin du suivi des clics Audience Manager. Adobe Analytics capture les signaux de clic et peut les envoyer à Audience Manager par le biais du [ transfert côté serveur ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 >[!MORELIKETHIS]
 >

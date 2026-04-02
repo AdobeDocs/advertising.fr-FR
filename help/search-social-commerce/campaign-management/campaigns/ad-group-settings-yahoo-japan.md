@@ -1,22 +1,26 @@
 ---
-title: '[!DNL Yahoo! Japan Ads] paramètres du groupe publicitaire'
-description: Référencez les paramètres pour les groupes publicitaires  [!DNL Yahoo! Japan Ads] .
+title: '[!DNL Yahoo! Japan Ads] paramètres de groupe publicitaire'
+description: Référencez les paramètres des groupes  [!DNL Yahoo! Japan Ads] ’annonces.
 exl-id: 1afacb94-bf07-45df-ab79-13cb7f876288
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/mNVxXqhOqzXVW7A-dolZ-sRkC-Le6kU55nxRd84-m7I
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: 43
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads] paramètres du groupe publicitaire
+# [!DNL Yahoo! Japan Ads] paramètres de groupe publicitaire
 
 ## [!UICONTROL Adgroup Details]
 
-**[!UICONTROL Ad Group Name]:** nom d’un groupe publicitaire unique dans la campagne.
+**[!UICONTROL Ad Group Name]:** nom de groupe publicitaire unique dans la campagne.
 
-**[!UICONTROL Status]:** État d’affichage du groupe publicitaire : *Actif* ou *En pause*. La valeur par défaut des nouveaux groupes publicitaires est *Active*.
+**[!UICONTROL Status]:** statut d’affichage du groupe publicitaire : *Actif* ou *En pause*. La valeur par défaut pour les nouveaux groupes publicitaires est *Actif*.
 
 ## [!UICONTROL Budget Options]
 
@@ -42,4 +46,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Gérer les groupes d’annonces](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [Gérer les groupes publicitaires](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)

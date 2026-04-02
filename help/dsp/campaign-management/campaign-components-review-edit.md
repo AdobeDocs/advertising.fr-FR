@@ -3,9 +3,14 @@ title: Examiner et modifier les paramètres des composants de campagne à l’ai
 description: Découvrez comment examiner et modifier en bloc des packages, des emplacements et des paramètres d’annonces clés à l’aide de feuilles de calcul.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
+TQID: https://experienceleague.adobe.com/xHMqjoe7pRUjZJp09hNNZassE-xG4xWCKeM0t1ntTaM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: 570
 ht-degree: 0%
 
 ---
@@ -40,7 +45,7 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
      Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -152,7 +157,7 @@ Lorsqu’une mise à jour de paramètre échoue, vous pouvez télécharger un fi
 >[!MORELIKETHIS]
 >
 >* [Vérifier et modifier les paramètres du package à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/packages/package-qa.md)
->* [&#x200B; Paramètres du package &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Vérification et modification des paramètres d’emplacement à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/placements/placement-qa.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Paramètres des publicités audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)

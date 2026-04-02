@@ -3,9 +3,13 @@ title: Charger une feuille d’envoi groupé ou un fichier d’erreur corrigé
 description: Découvrez comment charger manuellement un fichier de feuille d’envoi groupé ou un fichier d’erreur de validation de page de destination corrigé.
 exl-id: 44c76ca3-1d3e-43c2-868a-4868157d32b0
 feature: Search Bulksheets
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+TQID: https://experienceleague.adobe.com/3dJ14x6JFvS-ig5s6ElT0Vv-Kzd5KWQu0JiItdrG3ZA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: 800
 ht-degree: 0%
 
 ---
@@ -18,7 +22,7 @@ Vous pouvez charger des fichiers de feuilles d’envoi groupé, des fichiers d�
 
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Upload Bulksheet]**.
 
-1. Saisissez ou sélectionnez des informations dans les paramètres de [[!UICONTROL Upload Bulksheet]](#bulksheet-upload-settings).
+1. Saisissez ou sélectionnez des informations dans les paramètres de [[!UICONTROL Upload Bulksheet].](#bulksheet-upload-settings)
 
 1. Cliquez sur **[!UICONTROL Apply]**.
 

@@ -3,9 +3,14 @@ title: Création d’une expérience sans ciblage d’arbre de décision
 description: Découvrez comment créer une expérience publicitaire sans ciblage.
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+TQID: https://experienceleague.adobe.com/D7AXp-WIyE8r08o-gbjvw3ONzv1Pazz97qwFCrP43aU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: 201
 ht-degree: 0%
 
 ---
@@ -22,7 +27,7 @@ Créez une expérience publicitaire sans ciblage. Chaque expérience peut utilis
 
 1. Cliquez sur **[!UICONTROL Create New Experience]**.
 
-1. Saisissez les [&#x200B; paramètres d’expérience &#x200B;](experience-settings-no-targeting.md).
+1. Saisissez les [ paramètres d’expérience ](experience-settings-no-targeting.md).
 
 1. Cliquez sur **[!UICONTROL Create]**.
 

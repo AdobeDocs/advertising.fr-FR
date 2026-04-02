@@ -1,32 +1,35 @@
 ---
-title: Configuration d’un compte FTP pour le transfert des feuilles d’envoi groupées
-description: Découvrez comment demander un compte FTP pour télécharger des fichiers de feuille d’envoi groupé.
+title: Configuration d’un compte FTP pour le chargement des feuilles d’envoi groupé
+description: Découvrez comment demander un compte FTP pour charger des fichiers de feuille d’envoi groupé.
 exl-id: c8c70638-10ea-476c-8b02-921adb091ef9
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/VBIFLPV-BiCWFrqmwuNGmsx5xgXU80RfnouM1p4VnrY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: 161
 ht-degree: 0%
 
 ---
 
-# Configuration d’un compte FTP pour le transfert des feuilles d’envoi groupées
+# Configuration d’un compte FTP pour le chargement des feuilles d’envoi groupé
 
-Vous pouvez éventuellement charger des fichiers de feuille d’envoi groupé pour les réseaux publicitaires pris en charge vers un compte FTP spécifié pour la récupération et la publication automatique. Le répertoire est analysé toutes les heures et de nouveaux fichiers sont publiés dans l’ordre dans lequel ils sont reçus.
+Vous pouvez éventuellement charger des fichiers de feuilles d’envoi groupé pour les réseaux d’annonces pris en charge vers un compte FTP spécifié à des fins de récupération et de publication automatique. Le répertoire est analysé toutes les heures et les nouveaux fichiers sont publiés dans l&#39;ordre dans lequel ils ont été reçus.
 
-Les fichiers de feuille d’envoi groupé récupérés et les fichiers d’erreur créés lors de la publication sont répertoriés dans la vue [!DNL Bulksheets].
+Les fichiers de feuilles d&#39;envoi groupé récupérés et les fichiers d&#39;erreur créés lors de la validation sont répertoriés dans la vue [!DNL Bulksheets].
 
 >[!NOTE]
 >
->Si vous transférez également des fichiers de flux d’inventaire par FTP, utilisez un répertoire FTP distinct pour les fichiers de feuille d’envoi groupé.
+>Si vous téléchargez également des fichiers de flux d’inventaire par FTP, utilisez un répertoire FTP distinct pour les fichiers de feuilles d’envoi groupé.
 
-1. Contactez votre équipe de compte d’Adobe pour configurer un compte FTP afin de télécharger les fichiers de feuille d’envoi groupé.
+1. Contactez l’équipe chargée de votre compte Adobe pour configurer un compte FTP afin de télécharger des fichiers de feuille d’envoi groupé.
 
-   Votre équipe de compte d’Adobe vous fournit l’emplacement FTP ainsi que votre nom d’utilisateur et votre mot de passe.
+   L’équipe chargée de votre compte Adobe vous fournit l’emplacement FTP, ainsi que votre nom d’utilisateur et votre mot de passe.
 
-1. (Facultatif) Pour recevoir des notifications par e-mail sur les fichiers de feuille d’envoi groupé traités à partir de votre compte FTP, demandez à votre équipe de compte d’Adobe.
+1. (Facultatif) Pour recevoir des notifications par e-mail sur les fichiers de feuille d’envoi groupé traités à partir de votre compte FTP, contactez l’équipe chargée de votre compte Adobe.
 
 >[!MORELIKETHIS]
 >
->* [À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupées](bulksheet-about.md)
->* [Télécharger une feuille d’envoi groupé ou un fichier d’erreur corrigé](bulksheet-upload.md)
+>* [À propos de la gestion des données de campagne à l&#39;aide de feuilles d&#39;envoi groupé](bulksheet-about.md)
+>* [Charger une feuille d’envoi groupé ou un fichier d’erreur corrigé](bulksheet-upload.md)
