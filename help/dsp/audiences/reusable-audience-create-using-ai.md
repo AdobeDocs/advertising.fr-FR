@@ -5,20 +5,18 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: d450159cfcc0298a0bb9bb0984cd49ac75836519
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
 
 # Créer une audience réutilisable à l’aide de l’IA générative
 
-*Fonction Beta*
+*Fonction*
 
 *Prise en charge en anglais uniquement*
-
-<!-- I thought it was all segment types? -->
 
 <!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
 
@@ -52,17 +50,17 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
       Pour plus d’informations, consultez les sections « [Écriture d’invites](#writing-prompts) » et « [Bonnes pratiques pour créer un brief d’audience](#audience-brief-best-practices) ».
 
-      Lorsque l’agent d’audience trouve les segments pertinents, il crée une expression d’audience en fonction de vos critères. Il vous demande également votre approbation avant de rechercher des segments correspondants pour assembler l’audience.
+      Lorsque l’agent d’audience trouve les segments pertinents, il crée une expression d’audience booléenne en fonction de vos critères. Il vous demande également votre approbation avant de rechercher des segments correspondants pour assembler l’audience.
 
       Vous pouvez éventuellement ignorer la requête et continuer à spécifier des critères d’audience supplémentaires à la place.
 
    1. Lorsque l’agent d’audience présente une expression d’audience qui décrit adéquatement votre audience, demandez à l’agent d’audience de procéder à l’assemblage de l’audience.
 
-      Vous pouvez saisir « continuer », « ok », « ok », « oui » ou un autre mot similaire.
+      Vous pouvez saisir « continuer », « ok », « ok », « oui » ou un autre mot similaire. L’agent répertorie tous les segments suggérés pour chaque caractéristique (comme « Parents »). Développez une caractéristique pour afficher les détails des segments individuels suggérés pour cette caractéristique.
 
    1. (Si nécessaire) Spécifiez des critères supplémentaires. Lorsque l’agent d’audience présente une expression d’audience qui répond à tous vos critères, dites à l’agent d’audience de procéder à l’assemblage de l’audience.
 
-      Pour assembler l’audience, saisissez « continuer », « ok », « oui » ou un autre mot similaire.
+      Pour assembler l’audience, saisissez « continuer », « ok », « oui » ou un autre mot similaire. L’agent répertorie tous les segments suggérés pour chaque caractéristique (comme « Parents »). Développez une caractéristique pour afficher les détails des segments individuels suggérés pour cette caractéristique.
 
 1. Lorsque vous êtes satisfait(e) de l’audience assemblée, cliquez sur **[!UICONTROL Create]** pour créer l’audience spécifiée.
 
