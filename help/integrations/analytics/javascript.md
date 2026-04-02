@@ -145,7 +145,7 @@ Vous pouvez effectuer une validation à l’aide de n’importe quel type d’ou
 
 #### Comment confirmer le code avec [!DNL Adobe Experience Cloud Debugger]
 
-1. Ouvrez le [[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) sur votre page d’accueil.
+1. Ouvrez le [[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=fr) sur votre page d’accueil.
 1. Accédez à l’onglet [!UICONTROL Network] .
 1. Dans la barre d’outils [!UICONTROL Solutions Filter], cliquez sur [!UICONTROL Adobe Advertising] et [!UICONTROL Analytics].
 1. Dans la ligne de paramètre [!UICONTROL Request URL - Hostname], recherchez `lasteventf-tm.everesttech.net`.

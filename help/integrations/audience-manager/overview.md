@@ -57,7 +57,7 @@ Une fois les audiences créées, vous pouvez les utiliser dans des campagnes [!D
 
 >[!NOTE]
 >
->Pour plus d’informations sur la création d’audiences dans les interfaces de [!DNL Audience Library] d’Audience Manager et d’Experience Cloud, ainsi que pour des cas d’utilisation courants pour différents types d’audiences, voir « [Options de création d’audience](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html) ».
+>Pour plus d’informations sur la création d’audiences dans les interfaces de [!DNL Audience Library] d’Audience Manager et d’Experience Cloud, ainsi que pour des cas d’utilisation courants pour différents types d’audiences, voir « [Options de création d’audience](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=fr) ».
 
 ## Envoi de données d’exposition aux médias DSP vers Audience Manager
 
