@@ -4,9 +4,12 @@ description: Découvrez comment modifier le mot de passe de votre compte.
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
 TQID: https://experienceleague.adobe.com/7RxD656uNrwadmhA1C43fYY2Lp4L54g-z7tlne97bJ0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 136
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Cette fonctionnalité s’applique uniquement à vos identifiants de connexion Search, Social et Commerce hérités. La plupart des utilisateurs utilisent désormais un ID [!DNL Adobe] pour l’authentification. Pour modifier le mot de passe de votre ID [!DNL Adobe], voir « [ Réinitialiser ou modifier votre mot de passe Adobe ](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) ».
+>Cette fonctionnalité s’applique uniquement à vos identifiants de connexion Search, Social et Commerce hérités. La plupart des utilisateurs utilisent désormais un ID [!DNL Adobe] pour l’authentification. Pour modifier le mot de passe de votre ID [!DNL Adobe], voir « [&#x200B; Réinitialiser ou modifier votre mot de passe Adobe &#x200B;](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) ».
 
 La modification de votre mot de passe vous déconnecte de la session en cours. Pour continuer à travailler, vous devez vous connecter avec le nouveau mot de passe.
 

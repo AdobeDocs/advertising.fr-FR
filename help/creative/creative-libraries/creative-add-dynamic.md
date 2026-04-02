@@ -4,8 +4,10 @@ description: Découvrez comment ajouter des contenus créatifs dynamiques à une
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
 TQID: https://experienceleague.adobe.com/OGBJ2IszfF6kv86wYyEvbU5UxJmwxEo6MNjCM9n6Cws
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 516
@@ -15,7 +17,7 @@ ht-degree: 0%
 
 # Ajout de contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires
 
-Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus publicitaires](creative-library-manage.md) pour les utiliser avec des [ dynamiques](/help/creative/experiences/experience-about.md). Vous pouvez créer une publicité HTML5 statique unique ou des publicités HTML5 dynamiques à partir d’un seul modèle de publicité. Pour les publicités HTML5 dynamiques, utilisez les ressources des catalogues spécifiés créés à partir de fichiers de flux.
+Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus publicitaires](creative-library-manage.md) pour les utiliser avec des [&#x200B; dynamiques](/help/creative/experiences/experience-about.md). Vous pouvez créer une publicité HTML5 statique unique ou des publicités HTML5 dynamiques à partir d’un seul modèle de publicité. Pour les publicités HTML5 dynamiques, utilisez les ressources des catalogues spécifiés créés à partir de fichiers de flux.
 
 >[!PREREQUISITES]
 >
@@ -112,7 +114,7 @@ Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus
 
 >[!MORELIKETHIS]
 >
->* [ Paramètres de création dynamique ](creative-settings-dynamic.md)
+>* [&#x200B; Paramètres de création dynamique &#x200B;](creative-settings-dynamic.md)
 >* [Modification d’un contenu créatif dynamique dans une bibliothèque de contenu créatif](creative-edit-dynamic.md)
 >* [Afficher le journal des modifications d’un élément créatif](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)

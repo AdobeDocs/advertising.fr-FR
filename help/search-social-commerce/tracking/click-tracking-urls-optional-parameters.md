@@ -4,8 +4,10 @@ description: Découvrez les paramètres de suivi facultatifs Search, Social et C
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 1074
@@ -63,19 +65,19 @@ Tous les paramètres suivants doivent être spécifiés sous la forme d’une pa
 
 ## [!DNL Google Ads] des paramètres de tracking dynamique
 
-Voir [](https://support.google.com/google-ads/answer/2375447).
+Voir [&#128279;](https://support.google.com/google-ads/answer/2375447).
 
 ## [!DNL Microsoft Advertising] des paramètres de tracking dynamique
 
-Voir [](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
+Voir [&#128279;](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 
 ## Yahoo ! Paramètres de tracking dynamique des publicités japonaises
 
-Voir [](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
+Voir [&#128279;](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## [!DNL Yandex] des paramètres de tracking dynamique
 
-Voir [](https://yandex.com/support/direct/statistics/url-tags.html).
+Voir [&#128279;](https://yandex.com/support/direct/statistics/url-tags.html).
 
 >[!MORELIKETHIS]
 >

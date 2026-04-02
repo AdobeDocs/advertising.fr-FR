@@ -4,9 +4,12 @@ description: Découvrez comment publier des fichiers de feuilles d’envoi group
 exl-id: 49b930ba-71b3-442d-a162-67cf7ae14e14
 feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/N2xYU3CSbNaftsEOKKyXDjDQRYeqhYOolhf5ZyCPiGA
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 726
@@ -29,7 +32,7 @@ Les fichiers de feuilles d’envoi groupé et les fichiers d’erreur sont autom
 
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Post]**.
 
-1. Dans la boîte de dialogue, saisissez ou sélectionnez des informations dans les paramètres de [[!UICONTROL Post Bulksheet] puis cliquez sur ](#bulksheet-post-settings).**[!UICONTROL Post]**
+1. Dans la boîte de dialogue, saisissez ou sélectionnez des informations dans les paramètres de [[!UICONTROL Post Bulksheet] puis cliquez sur &#x200B;](#bulksheet-post-settings).**[!UICONTROL Post]**
 
    Les mêmes paramètres s&#39;appliquent à tous les fichiers que vous publiez.
 
@@ -39,7 +42,7 @@ Lorsque la tâche commence, le statut et la date de publication planifiée de la
 >
 >* La publication de grandes quantités de données prend plus de temps. Vous pouvez suivre la progression du fichier dans la colonne [!UICONTROL Progress] de la vue [!UICONTROL Bulksheets].
 >* Toutes les données publiées sont soumises au processus éditorial du réseau.
-* Avant la validation du fichier de feuille d&#39;envoi groupé, vous pouvez annuler la validation.
+>* Avant la validation du fichier de feuille d&#39;envoi groupé, vous pouvez annuler la validation.
 
 ## Paramètres de publication pour les feuilles d’envoi groupé et les fichiers d’erreur corrigés {#bulksheet-post-settings}
 

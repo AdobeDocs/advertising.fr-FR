@@ -4,9 +4,14 @@ description: Découvrez les options de suivi pour Search, Social et Commerce.
 exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/IpPgzsMgRsOCmLv3dyEKBp4EPQwgN90UkVIQy9SaXB8
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 756
@@ -34,7 +39,7 @@ Les paramètres de tracking permettent à Adobe Advertising de suivre les clics 
 
 * Dans tous les autres cas, le réseau publicitaire envoie directement le clic aux serveurs de pixels d’Adobe Advertising. Le serveur de pixels place un cookie sur l’ordinateur de l’utilisateur (s’il n’en existe pas déjà un), puis redirige l’utilisateur vers l’URL appropriée de votre site web. L’expérience globale de l’utilisateur final est la même que sans redirection.
 
-Le cookie est défini dans le domaine [!DNL Adobe] (`everesttech.net`) en tant que cookie propriétaire. Après une redirection, l’utilisateur se trouve sur le domaine de l’annonceur, et le cookie est alors traité comme un cookie tiers. Pour plus d’informations sur les cookies Adobe Advertising, voir « [Cookies Adobe Advertising ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html) ».
+Le cookie est défini dans le domaine [!DNL Adobe] (`everesttech.net`) en tant que cookie propriétaire. Après une redirection, l’utilisateur se trouve sur le domaine de l’annonceur, et le cookie est alors traité comme un cookie tiers. Pour plus d’informations sur les cookies Adobe Advertising, voir « [Cookies Adobe Advertising &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html) ».
 
 ## Données de conversion
 

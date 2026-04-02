@@ -4,10 +4,16 @@ description: Code JavaScript pour  [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
 TQID: https://experienceleague.adobe.com/g9onwe1IQl1kbyQ82W2KmODPGUAReKiotxy65yCZcNY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 919
@@ -143,7 +149,7 @@ Vous pouvez effectuer une validation à l’aide de n’importe quel type d’ou
 1. Accédez à l’onglet [!UICONTROL Network] .
 1. Dans la barre d’outils [!UICONTROL Solutions Filter], cliquez sur [!UICONTROL Adobe Advertising] et [!UICONTROL Analytics].
 1. Dans la ligne de paramètre [!UICONTROL Request URL - Hostname], recherchez `lasteventf-tm.everesttech.net`.
-1. Dans la ligne [!UICONTROL Request - Parameters], vérifiez les signaux générés, comme à l’étape 3 de la rubrique [ Confirmer le code avec  [!DNL Chrome Developer Tools]](#validate-js-chrome).
+1. Dans la ligne [!UICONTROL Request - Parameters], vérifiez les signaux générés, comme à l’étape 3 de la rubrique [&#x200B; Confirmer le code avec  [!DNL Chrome Developer Tools]](#validate-js-chrome).
    * (Implémentations qui utilisent le code de `visitorAPI.js` Experience Cloud Identity Service) Assurez-vous que le paramètre `Sdid` correspond au `Supplemental Data ID` dans le filtre Adobe Analytics.
    * (Implémentations qui utilisent Experience Platform [!DNL Web SDK] `alloy.js`code) Assurez-vous que la valeur du paramètre `advertisingStitchID` correspond au `Sdid` envoyé à Experience Platform Edge Network.
    * Si le code n’est pas généré, vérifiez que le cookie Adobe Advertising a été supprimé dans l’onglet [!UICONTROL Application] . Une fois la suppression effectuée, actualisez la page et répétez le processus.

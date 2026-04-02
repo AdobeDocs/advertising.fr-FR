@@ -4,11 +4,16 @@ description: Découvrez comment dupliquer une campagne.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
 TQID: https://experienceleague.adobe.com/Oq-1l3Ls2uEul-OQFVfiMoed8NewiX0X-EZzBPlSCHU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 380
@@ -28,7 +33,7 @@ Dupliquez une campagne pour créer une campagne avec des paramètres similaires.
 
 * Modifier les dates de vol de la nouvelle campagne
 
-Pour obtenir la liste des paramètres d&#39;emplacement qui ne sont pas dupliqués[ reportez-vous à « ](#campaign-not-duplicated)Qu&#39;est-ce qui n&#39;est pas dupliqué ? ».
+Pour obtenir la liste des paramètres d&#39;emplacement qui ne sont pas dupliqués[&#x200B; reportez-vous à « &#x200B;](#campaign-not-duplicated)Qu&#39;est-ce qui n&#39;est pas dupliqué ? ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 

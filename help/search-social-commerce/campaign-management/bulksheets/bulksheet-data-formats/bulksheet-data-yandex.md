@@ -4,8 +4,10 @@ description: Référencez les champs d’en-tête et de données obligatoires da
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/yargzmjV5ZvOef--zrF6oSNq-gVcu1z3UXSovFDcMwo
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 1940
@@ -55,7 +57,7 @@ Pour créer et mettre à jour [!DNL Yandex] données de campagne en bloc, vous p
 | [!UICONTROL Ad Group Status] | s.o. | Facultatif : Créer ou modifier<br>Obligatoire : Supprimer | s.o. | s.o. | s.o. | Statut d’affichage du groupe publicitaire : <i>[!UICONTROL active]</i>, <i>[!UICONTROL archived]</i>, <i>[!UICONTROL deleted]</i>, <i>[!UICONTROL disapproved]</i>, <i>[!UICONTROL pending]</i> ou <i>[!UICONTROL stop]</i> (en pause). La valeur par défaut pour les nouveaux groupes publicitaires est <i>[!UICONTROL active]</i>.<br><br><b>Remarques :</b><ul></li>Si un groupe publicitaire a déjà été actif, vous ne pouvez pas le supprimer. Au lieu de cela, archivez-le.</li><li>Vous ne pouvez pas définir manuellement le statut sur <i>[!UICONTROL disapproved]</i> ou <i>[!UICONTROL pending]</i>, ni modifier ces statuts.</li></ul> |
 | [!UICONTROL Ad Status] | s.o. | s.o. | s.o. | Facultatif : Créer ou modifier<br>Obligatoire : Supprimer | s.o. | Le statut d’affichage de la bannière (publicité) : <i>[!UICONTROL active]</i>, <i>[!UICONTROL archived]</i>, <i>[!UICONTROL deleted]</i>, <i>[!UICONTROL disapproved]</i>, <i>[!UICONTROL pending]</i> ou <i>[!UICONTROL stop]</i> (en pause). La valeur par défaut des nouvelles bannières est <i>[!UICONTROL active]</i>.<br><br><b>Remarque : vous ne pouvez pas définir manuellement le statut sur <i>[!UICONTROL disapproved]</i> ou <i>[!UICONTROL pending]</i>, ni modifier ces statuts. |
 | [!UICONTROL Keyword Status] | s.o. | s.o. | Facultatif : Créer ou modifier<br>Obligatoire : Supprimer | s.o. | s.o. | Statut d’affichage de l’expression (mot-clé) : <i>[!UICONTROL active]</i>. La valeur par défaut des nouvelles expressions est <i>[!UICONTROL active]</i>.<br><br><b>Remarque : vous ne pouvez pas définir manuellement le statut sur <i>[!UICONTROL disapproved]</i> ou <i>[!UICONTROL pending]</i>, ni modifier ces statuts. |
-| [!UICONTROL SiteLink Status] | s.o. | s.o. | s.o. | s.o. | Facultatif : Créer ou modifier<br>Obligatoire : Supprimer | Statut d&#39;affichage du lien du site : <i>[*UICONTROL Actif]</i> ou <i>[*UICONTROL En pause]</i>. La valeur par défaut pour les nouveaux liens de site est <i>[*UICONTROL Actif]</i>. |
+| [!UICONTROL SiteLink Status] | s.o. | s.o. | s.o. | s.o. | Facultatif : Créer ou modifier<br>Obligatoire : Supprimer | Statut d&#39;affichage du lien du site : <i>[!UICONTROL * Actif]</i> ou <i>[!UICONTROL * En pause]</i>. La valeur par défaut pour les nouveaux liens de site est <i>[!UICONTROL * Actif]</i>. |
 | [!UICONTROL Campaign ID] | n/a : Create<br>Required/Optional : Edit<br>Optional : Supprimer | Facultatif | Facultatif | Facultatif | Facultatif | Identifiant unique qui identifie une campagne existante. Dans les fichiers CSV et TSV, il doit être précédé d&#39;un guillemet simple (&#39;).[^1] Obligatoire uniquement lorsque vous modifiez le nom de la campagne, sauf si la ligne comprend un ID AMO pour la campagne. |
 | [!UICONTROL Ad Group ID] | s.o. | n/a : Create<br>Required/Optional : Edit<br>Optional : Supprimer | Facultatif | Facultatif | s.o. | Identifiant unique qui identifie un groupe publicitaire existant. Dans les fichiers CSV et TSV, il doit être précédé d&#39;un guillemet simple (&#39;).[^1] Obligatoire uniquement lorsque vous modifiez le nom du groupe publicitaire, sauf si la ligne comprend un ID AMO pour le groupe publicitaire. |
 | [!UICONTROL Ad ID] | s.o. | s.o. | s.o. | n/a : Create<br>Required/Optional : Modifier ou supprimer | s.o. | Identifiant unique qui identifie un mot-clé existant. Dans les fichiers CSV et TSV, il doit être précédé d&#39;un guillemet simple (&#39;).[^1] Requis uniquement lorsque vous modifiez le nom du mot-clé, à moins que la ligne ne contienne a) suffisamment de colonnes de propriétés pour identifier le mot-clé ou b) un identifiant AMO. |

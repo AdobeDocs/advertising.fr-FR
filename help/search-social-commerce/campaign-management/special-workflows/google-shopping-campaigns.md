@@ -4,9 +4,12 @@ description: Découvrez le workflow de configuration  [!DNL Google Ads]  campagn
 exl-id: d80370d9-534d-4854-b7d3-1384a84320ad
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/9xk2sCRBNJdRI1az99RyUkAlL-8P9s3OD70Htmnt4r8
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 452
@@ -28,7 +31,7 @@ Vous pouvez configurer des campagnes d’achat à l’aide de [modèles de flux 
 
 1. Configurez votre compte [!DNL Google Merchant Center] et renseignez-le avec des données de produit.
 
-1. [Autoriser Search, Social et Commerce à télécharger des données à partir du compte  [!DNL Google Merchant Center] ](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. [Autoriser Search, Social et Commerce à télécharger des données à partir du compte  [!DNL Google Merchant Center] &#x200B;](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 1. [Créez une campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) sur le réseau d’achats.
 

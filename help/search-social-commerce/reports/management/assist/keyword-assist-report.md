@@ -4,9 +4,12 @@ description: En savoir plus sur le [!UICONTROL Keyword Assist Report].
 exl-id: 24e5854c-5696-43cd-ac21-64209f9f57d4
 feature: Search Reports, Search Assist Reports
 TQID: https://experienceleague.adobe.com/LO6nDisgA7981cjrGw31tJcy4VR6lesl-wvwU7uGlK4
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 781
@@ -38,13 +41,13 @@ Voici les colonnes disponibles pour chaque rapport. Les colonnes par défaut son
 | Colonne | Par défaut ? | Description |
 | ---- | ---- | ---- |
 | [!UICONTROL 1st Keyword] à [!UICONTROL 5th Keyword] | Par défaut | Les cinq premiers clics de mot-clé de référencement payant ou d’emplacement dans le chemin de conversion qui se sont produits dans l’[intervalle de recherche en amont de clics](/help/search-social-commerce/glossary.md#c-d) et [intervalle de recherche en amont d’impressions](/help/search-social-commerce/glossary.md#i-j) de l’annonceur.<br><br><b>Remarque :</b> si le rapport inclut des emplacements de campagnes de recherche activées pour le contenu (qui n’incluent pas de mots-clés), ces colonnes affichent les noms de groupe publicitaire applicables, tels que « (contenu du groupe publicitaire) Nom de votre groupe publicitaire » à la place. |
-| [!UICONTROL Path Size] | Par défaut | Nombre de mots-clés et/ou d’emplacements dans le chemin de conversion qui se sont produits dans l’intervalle de recherche en amont de clic [clics](/help/search-social-commerce/glossary.md#c-d) et l’intervalle de recherche en amont d’impression [ de l’annonceur](/help/search-social-commerce/glossary.md#i-j). |
+| [!UICONTROL Path Size] | Par défaut | Nombre de mots-clés et/ou d’emplacements dans le chemin de conversion qui se sont produits dans l’intervalle de recherche en amont de clic [clics](/help/search-social-commerce/glossary.md#c-d) et l’intervalle de recherche en amont d’impression [&#x200B; de l’annonceur](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Keyword] | Par défaut | Premier mot-clé ou emplacement dans le chemin de conversion. |
 | [!UICONTROL Last Keyword] | Par défaut | Dernier mot-clé ou dernier emplacement ayant entraîné des conversions (même si le dernier mot-clé est en dehors de la taille de chemin spécifiée). |
 | \[Mesures personnalisées (dérivées) spécifiques à l’annonceur\] | Valeur personnalisée | Valeur d’une mesure personnalisée que vous avez créée, calculée à partir de mesures existantes. |
 | \[Mesures de conversion spécifiques à l’annonceur\] | Valeur personnalisée | Nombre de conversions pour une mesure de conversion ou une mesure d’engagement du site spécifiée. |
 | [!UICONTROL % of Total] \[mesure de conversion\] | Automatique | (Non disponible dans les paramètres de rapport, mais automatiquement inclus dans la sortie de rapport pour chaque mesure de conversion incluse) Pourcentage de vos conversions globales dans les portefeuilles qui ont été attribuées au mot-clé et/ou au modèle d’emplacement. |
-| [!UICONTROL 6th Keyword] à [!UICONTROL 10th Keyword] | Valeur personnalisée | Du sixième au dixième mots-clés de référencement payant ou clics d’emplacement dans le chemin de conversion qui se sont produits dans l’intervalle de recherche en amont de clics [intervalle de recherche en amont de clics](/help/search-social-commerce/glossary.md#c-d) et [ intervalle de recherche en amont d’impressions](/help/search-social-commerce/glossary.md#i-j) de l’annonceur.<br><br><b>Remarque :</b> si le rapport inclut des emplacements de campagnes de recherche activées pour le contenu (qui n’incluent pas de mots-clés), ces colonnes affichent les noms de groupe publicitaire applicables, tels que « (contenu du groupe publicitaire) Nom de votre groupe publicitaire » à la place. |
+| [!UICONTROL 6th Keyword] à [!UICONTROL 10th Keyword] | Valeur personnalisée | Du sixième au dixième mots-clés de référencement payant ou clics d’emplacement dans le chemin de conversion qui se sont produits dans l’intervalle de recherche en amont de clics [intervalle de recherche en amont de clics](/help/search-social-commerce/glossary.md#c-d) et [&#x200B; intervalle de recherche en amont d’impressions](/help/search-social-commerce/glossary.md#i-j) de l’annonceur.<br><br><b>Remarque :</b> si le rapport inclut des emplacements de campagnes de recherche activées pour le contenu (qui n’incluent pas de mots-clés), ces colonnes affichent les noms de groupe publicitaire applicables, tels que « (contenu du groupe publicitaire) Nom de votre groupe publicitaire » à la place. |
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[mesure de conversion\] | Automatique | (Non disponible dans les paramètres du rapport, mais automatiquement inclus dans la sortie du rapport pour chaque mesure de conversion incluse) Latence moyenne en jours entre le premier événement (sur le premier mot-clé ou emplacement) et une conversion. |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[mesure de conversion\] | Automatique | (Non disponible dans les paramètres du rapport, mais automatiquement inclus dans la sortie du rapport) Latence moyenne en jours entre le dernier événement (sur le dernier mot-clé ou le dernier emplacement) et une conversion. |
 | [!UICONTROL Path Frequency] | Valeur personnalisée | Nombre de fois où le chemin d’accès à cette ligne s’est produit avant la conversion. |

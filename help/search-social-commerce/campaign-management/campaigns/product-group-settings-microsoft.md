@@ -4,8 +4,10 @@ description: Référencez les paramètres des groupes  [!DNL Microsoft Advertisi
 exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/xbYc0Xe-FsgGq-jqZdzZ4Rj877BL6NCxb4utaEMmCdY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 270
@@ -33,7 +35,7 @@ Ce modèle remplace les modèles aux niveaux supérieurs et est utilisé uniquem
 
 Une fois que vous avez créé un groupe de produits pour des dimensions de produit spécifiques (c’est-à-dire, pas « Tous les produits »), Search, Social et Commerce crée automatiquement un groupe de produits pour « Tout le reste ».
 
-Pour obtenir la liste des dimensions de produit disponibles, voir « [ Filtres de produit de campagne d’achat ](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md) ». Votre liste de dimensions peut être limitée en fonction du paramètre de [!UICONTROL Inventory Filter] de la campagne.
+Pour obtenir la liste des dimensions de produit disponibles, voir « [&#x200B; Filtres de produit de campagne d’achat &#x200B;](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md) ». Votre liste de dimensions peut être limitée en fonction du paramètre de [!UICONTROL Inventory Filter] de la campagne.
 
 **[!UICONTROL Excluded]:** (facultatif pour les nouveaux groupes de produits ; en lecture seule pour les groupes de produits existants) Exclut les enchères sur les annonces de produits correspondants.
 

@@ -4,10 +4,14 @@ description: Découvrez comment passer en revue les paramètres d’annonces en 
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
 TQID: https://experienceleague.adobe.com/88Pu031rvTeHdahpICwLw-J4h33Eaji0Gzir4Wbr0Qk
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 256
@@ -25,7 +29,7 @@ Pour modifier les détails de l’annonce publicitaire, voir « [Vérification e
 
 >[!NOTE]
 >
->*Pour modifier les paramètres d’une annonce publicitaire, voir aussi « [ Modifier une annonce ](/help/dsp/campaign-management/ads/ad-edit.md) ».
+>*Pour modifier les paramètres d’une annonce publicitaire, voir aussi « [&#x200B; Modifier une annonce &#x200B;](/help/dsp/campaign-management/ads/ad-edit.md) ».
 >*Pour modifier les pixels de suivi tiers pour plusieurs annonces à la fois ou pour joindre des annonces aux emplacements, voir également « [Joindre des annonces aux emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) ».
 
 ## Télécharger les détails de toutes les annonces d’une campagne
@@ -48,7 +52,7 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
      Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 

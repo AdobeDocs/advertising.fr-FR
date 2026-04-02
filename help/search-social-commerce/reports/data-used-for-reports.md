@@ -4,9 +4,12 @@ description: Découvrez les différents types de données disponibles dans les v
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
 TQID: https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 599
@@ -38,7 +41,7 @@ La plupart des rapports peuvent être personnalisés pour afficher uniquement le
 
 * **Mesures de conversion :** nombre total de conversions pour chacune des mesures de conversion de l’annonceur ou des données de transaction suivies vers une mesure de conversion. Il peut s’agir de mesures d’engagement du site et de conversion, mais pas de mesures calculées ni de mesures calculées avancées, synchronisées à partir d’Adobe Analytics.
 
-  Cela peut également inclure les conversions suivies par [[!DNL Google Ads] et ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) conversions suivies par [[!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) qui sont synchronisées pour le compte de l’annonceur.
+  Cela peut également inclure les conversions suivies par [[!DNL Google Ads] et &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) conversions suivies par [[!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) qui sont synchronisées pour le compte de l’annonceur.
 
 * **Mesures personnalisées :** vos propres mesures, que vous obtenez en créant des formules basées sur des mesures existantes (telles que le coût par commande).
 
@@ -65,5 +68,5 @@ Selon la règle d’attribution que vous spécifiez pour le rapport, les donnée
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports ](report-about.md)
+>* [À propos des rapports &#x200B;](report-about.md)
 >* [Tâches de configuration initiales pour les rapports](initial-setup.md)

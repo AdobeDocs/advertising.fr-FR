@@ -4,8 +4,10 @@ description: Découvrez comment modifier un contenu créatif dynamique dans une 
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
 TQID: https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 323
@@ -59,7 +61,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ Paramètres de création dynamique ](creative-settings-dynamic.md)
+>* [&#x200B; Paramètres de création dynamique &#x200B;](creative-settings-dynamic.md)
 >* [Ajouter des contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires](creative-add-dynamic.md)
 >* [Afficher le journal des modifications d’un élément créatif](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)

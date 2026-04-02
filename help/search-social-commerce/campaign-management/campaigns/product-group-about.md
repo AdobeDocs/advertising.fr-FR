@@ -4,9 +4,12 @@ description: Découvrez les groupes de produits d’achat dans les campagnes d�
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/P3QrbE-JI1XMVzAqA4Pb8jO1t9bRNN-x1q0ehpBvaPw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 721
@@ -36,7 +39,7 @@ Avant de pouvoir créer des groupes de produits avec des attributs spécifiques 
 
 Au sein d’un groupe publicitaire, vous pouvez créer jusqu’à sept niveaux de groupes de produits (sans inclure « [!UICONTROL All Products] ») à inclure ou à exclure des offres, avec un ou plusieurs groupes de produits ciblant le même attribut à chaque niveau (par exemple, [!UICONTROL Brand]=Acme pour un groupe de produits et [!UICONTROL Brand]=AcmePlus pour un autre au même niveau). Les groupes de produits parents sont appelés subdivisions et le niveau de subdivision le plus bas est appelé unité. Vous pouvez définir des offres et des modèles de suivi, ou exclure complètement les offres, au niveau de l’unité. L’ensemble complet des groupes de produits actifs pour un groupe publicitaire est appliqué de manière hiérarchique afin de déterminer les produits éligibles. Par exemple, si vous subdivisez [!UICONTROL All Products] en [!UICONTROL Brand]=AcmeBasic et [!UICONTROL Brand]=AcmePlus, puis que vous subdivisez davantage chacun de ces groupes de produits en [!UICONTROL Condition]=Nouveau et définissez des enchères, seuls les nouveaux produits des marques AcmeBasic et AcmePlus peuvent faire l’objet d’une publicité ou être exclus des publicités.
 
-![Exemple d’ensemble de groupes ](/help/search-social-commerce/assets/product-group-list.png " produitsExemple d’ensemble de groupes de produits")
+![Exemple d’ensemble de groupes &#x200B;](/help/search-social-commerce/assets/product-group-list.png " produitsExemple d’ensemble de groupes de produits")
 
 ![Exemple de hiérarchie de groupe de produits](/help/search-social-commerce/assets/product-group-tree.png "Exemple de hiérarchie de groupe de produits")
 

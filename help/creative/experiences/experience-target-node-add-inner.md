@@ -4,9 +4,12 @@ description: Découvrez comment ajouter un nœud cible entre les nœuds cibles d
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
 TQID: https://experienceleague.adobe.com/lPQtymUs3okctV2t6ZEE2rMG-F-BA2tJZO1GuceTxtY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 958
@@ -24,7 +27,7 @@ Pour définir une cible spécifique, ajoutez un nœud cible frère supplémentai
 
 >[!NOTE]
 >
->Pour ajouter un nœud cible au niveau inférieur d’une arborescence de décision, voir « [ Ajouter un nœud cible au niveau final d’une expérience ](experience-target-node-add-final.md) ».
+>Pour ajouter un nœud cible au niveau inférieur d’une arborescence de décision, voir « [&#x200B; Ajouter un nœud cible au niveau final d’une expérience &#x200B;](experience-target-node-add-final.md) ».
 
 <!-- 1. [ways to get to the decision tree] -->
 

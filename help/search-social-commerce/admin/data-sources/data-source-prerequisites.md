@@ -5,10 +5,15 @@ role: User, Admin
 exl-id: 97b0c149-5f82-4a1e-a5d9-aeab43cbd88f
 feature: Search Admin, Search Data Sources
 TQID: https://experienceleague.adobe.com/viBRqiwqJm2BabtLP7b3h1TMTjkeITeSVA1vMMmbrPY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-subfeature_v2: id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+subfeature_v2:
+  - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 402
@@ -34,7 +39,7 @@ Une fois toutes les conditions préalables remplies, la `ef_id` est utilisée co
 
 ## Condition préalable 2 : capturez le jeton Search, Social et Commerce (paramètre de chaîne de requête « ef_id ») dans une dimension personnalisée pour chaque propriété [!DNL Google Analytics] appropriée.
 
-Répétez les tâches suivantes pour chaque combinaison de compte et de propriété [!DNL Google Analytics] pour laquelle vous souhaitez synchroniser les données. Pour obtenir de l’aide sur ces tâches[[!DNL Google Analytics]  consultez la ](https://support.google.com/analytics/answer/2709829?hl=en#zippy=%2Cin-this-article) documentation sur la création et l’implémentation de dimensions personnalisées .
+Répétez les tâches suivantes pour chaque combinaison de compte et de propriété [!DNL Google Analytics] pour laquelle vous souhaitez synchroniser les données. Pour obtenir de l’aide sur ces tâches[[!DNL Google Analytics]  consultez la &#x200B;](https://support.google.com/analytics/answer/2709829?hl=en#zippy=%2Cin-this-article) documentation sur la création et l’implémentation de dimensions personnalisées .
 
 1. Dans [!DNL Google Analytics], créez une dimension personnalisée nommée « `ef_id` ». Définissez l’étendue de la dimension sur [!DNL User], puis définissez la dimension sur active.
 

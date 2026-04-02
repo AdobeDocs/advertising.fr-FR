@@ -4,10 +4,16 @@ description: Découvrez les intégrations de Search, Social et Commerce aux solu
 exl-id: 26456f60-937a-4f39-b5cf-a71c1c1b4833
 feature: Search Introduction
 TQID: https://experienceleague.adobe.com/vIjCxWutfGn8H9-TqxLvztNazb9RWq7ECeoOQXLfyEw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: f2860a4b-f905-4545-bead-1bbc92564592
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 573
@@ -39,7 +45,7 @@ Advertising Search, Social et Commerce est intégré aux produits [!DNL Adobe] s
      >
      >Par défaut, les mesures [!DNL Analytics] ne sont pas visibles dans les écrans Search, Social et Commerce. Vous devez explicitement [rendre les mesures disponibles dans les vues de gestion de campagnes, les portfolios et les rapports](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) une fois que l’équipe d’implémentation de [!DNL Adobe] a configuré les événements standards ou personnalisés sélectionnés pour les transmettre à Adobe Advertising. Vous pouvez éventuellement modifier les noms des mesures affichés (sans les modifier dans [!DNL Analytics]). Vous pouvez rendre les mesures visibles dans l’interface utilisateur et renommer les mesures à partir de [!UICONTROL Admin] > [!UICONTROL Conversions].
 
-   * Les annonceurs avec [!DNL Analytics] mais pas Audience Manager peuvent [créer [!DNL Google Ads] audiences de correspondance client](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) à partir de segments [!DNL Analytics] partagés avec Adobe Experience Cloud. Pour être éligible, un annonceur doit mettre en œuvre le service d’identités Adobe Experience Platform [](https://experienceleague.adobe.com/docs/id-service/using/home.html) et déployer une balise sur ses sites web. Vous pouvez ensuite utiliser les audiences dans [!DNL Google Ads] campagnes comme cibles [cibles](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) ou [exclusions](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) au niveau de la campagne ou du groupe publicitaire.
+   * Les annonceurs avec [!DNL Analytics] mais pas Audience Manager peuvent [créer [!DNL Google Ads] audiences de correspondance client](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) à partir de segments [!DNL Analytics] partagés avec Adobe Experience Cloud. Pour être éligible, un annonceur doit mettre en œuvre le service d’identités Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/id-service/using/home.html) et déployer une balise sur ses sites web. Vous pouvez ensuite utiliser les audiences dans [!DNL Google Ads] campagnes comme cibles [cibles](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) ou [exclusions](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) au niveau de la campagne ou du groupe publicitaire.
 
 * Segments Adobe Audience Manager — (Fonctionnalité d’opt-in) Vous pouvez [créer [!DNL Google Ads] audiences de correspondance client](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) à partir de segments Audience Manager qui ont comme destination Search, Social et Commerce. Il peut s’agir de segments [!DNL Analytics] publiés sur Adobe Experience Cloud et de segments créés à l’aide de la bibliothèque d’audiences Adobe Experience Cloud. Vous pouvez ensuite utiliser les audiences dans [!DNL Google Ads] campagnes comme cibles [cibles](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) ou [exclusions](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) au niveau de la campagne ou du groupe publicitaire.
 

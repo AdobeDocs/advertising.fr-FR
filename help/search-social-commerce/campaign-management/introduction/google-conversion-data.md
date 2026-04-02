@@ -4,9 +4,14 @@ description: Découvrez les types de données  [!DNL Google Ads] conversion suiv
 exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
 TQID: https://experienceleague.adobe.com/7qqQKfVhueHMc7hJDEac86la9dp36hwtrLF5ikxJzJM
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 661
@@ -24,7 +29,7 @@ Toutes les mesures sont automatiquement disponibles dans les vues de gestion de 
 
 Search, Social et Commerce synchronise les données pour les conversions pour lesquelles l’option « [!DNL Include in 'Conversions'] » est activée, en extrayant les données des 35 derniers jours, puis en extrayant les modifications quotidiennes jusqu’à 09 :00-10: dans le fuseau horaire de l’annonceur. Les données historiques peuvent changer d’un jour à l’autre à mesure que de nouvelles conversions sont suivies pour chaque clic.
 
-Jusqu’à trois mesures pour chaque conversion [[!DNL Google Ads] (que vous configurez dans ](https://support.google.com/google-ads/answer/4677036)) sont automatiquement disponibles dans Search, Social et Commerce[!DNL Google Ads] en utilisant les noms de conversion configurés dans [!DNL Google Ads]. Les mesures de chaque conversion sont les suivantes :
+Jusqu’à trois mesures pour chaque conversion [[!DNL Google Ads] (que vous configurez dans &#x200B;](https://support.google.com/google-ads/answer/4677036)) sont automatiquement disponibles dans Search, Social et Commerce[!DNL Google Ads] en utilisant les noms de conversion configurés dans [!DNL Google Ads]. Les mesures de chaque conversion sont les suivantes :
 
 <!--
 

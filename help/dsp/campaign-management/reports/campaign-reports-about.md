@@ -4,11 +4,17 @@ description: Découvrez les données de rapport incluses dans les vues de gestio
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
 TQID: https://experienceleague.adobe.com/-3WGjX1rQOEKSO9aSdLxBxfDOIyPUMHLbZg-3bFxMd0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: f784309e-91ce-4bb5-ade4-5cbbceabecc0
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: f784309e-91ce-4bb5-ade4-5cbbceabecc0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 648
@@ -46,7 +52,7 @@ Pour afficher une campagne plus en détail, cliquez sur son nom.
 
 #### Indicateurs d’alerte
 
-Une colonne « [!UICONTROL Alerts] » indique lorsqu’une campagne ou toute entité enfant située en dessous rencontre un problème. Une icône [!UICONTROL Pulse Panel] à droite de la barre d’outils indique également si des alertes sont disponibles pour les entités répertoriées. Voir « [ Afficher les alertes ](campaign-alerts.md) pour plus d’informations.
+Une colonne « [!UICONTROL Alerts] » indique lorsqu’une campagne ou toute entité enfant située en dessous rencontre un problème. Une icône [!UICONTROL Pulse Panel] à droite de la barre d’outils indique également si des alertes sont disponibles pour les entités répertoriées. Voir « [&#x200B; Afficher les alertes &#x200B;](campaign-alerts.md) pour plus d’informations.
 
 ## Création de rapports de campagne unique {#single-campaign-reporting}
 
@@ -58,7 +64,7 @@ Dans une campagne, vous pouvez filtrer les données en fonction de l’entité d
 
 Pour chaque campagne, vous pouvez [personnaliser des graphiques de tendances de série temporelle](campaign-data-views-manage.md#data-visualizations-manage) avec trois mesures disponibles dans chaque vue d’entité. Les mêmes mesures sont conservées dans tous les graphiques de tendance de la campagne.
 
-Pour plus d’informations[ consultez la section ](#chart-view) « Vue du graphique » sur les mesures inter-campagnes.
+Pour plus d’informations[&#x200B; consultez la section &#x200B;](#chart-view) « Vue du graphique » sur les mesures inter-campagnes.
 
 ### Vue Tableau
 
@@ -66,7 +72,7 @@ Dans chaque onglet d’entité, chaque ligne comprend les mesures de fréquence 
 
 #### Indicateurs d’alerte
 
-Une colonne « [!UICONTROL Alerts] » indique lorsqu’un package, un emplacement ou une annonce publicitaire (ou toute entité enfant sous un package ou un emplacement) rencontre un problème. Une colonne « [!UICONTROL Alerts] » indique lorsqu’une campagne ou toute entité enfant située en dessous rencontre un problème. Une icône [!UICONTROL Pulse Panel] à droite de la barre d’outils indique également si des alertes sont disponibles pour les entités répertoriées. Voir « [ Afficher les alertes ](campaign-alerts.md) pour plus d’informations.
+Une colonne « [!UICONTROL Alerts] » indique lorsqu’un package, un emplacement ou une annonce publicitaire (ou toute entité enfant sous un package ou un emplacement) rencontre un problème. Une colonne « [!UICONTROL Alerts] » indique lorsqu’une campagne ou toute entité enfant située en dessous rencontre un problème. Une icône [!UICONTROL Pulse Panel] à droite de la barre d’outils indique également si des alertes sont disponibles pour les entités répertoriées. Voir « [&#x200B; Afficher les alertes &#x200B;](campaign-alerts.md) pour plus d’informations.
 
 ### Autres types de rapports au niveau des campagnes
 

@@ -4,8 +4,10 @@ description: Découvrez la gestion avancée des campagnes, qui vous permet de g�
 exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 838
@@ -48,7 +50,7 @@ Testez d’abord au moins un fichier ou compte de flux, puis vous pouvez entièr
 
    Sinon, vous pouvez charger manuellement les fichiers dans la vue [!UICONTROL Advanced (ACM)].
 
-1. Définissez [ paramètres de traitement des données de flux ](feed-settings-manage.md#feed-data-settings).
+1. Définissez [&#x200B; paramètres de traitement des données de flux &#x200B;](feed-settings-manage.md#feed-data-settings).
 
    Si vous utilisez le protocole FTP, ne publiez pas automatiquement les données sur les réseaux publicitaires au départ. Une fois que vous avez vérifié la sortie de votre premier fichier et que vous êtes satisfait des résultats, vous pouvez modifier les paramètres.
 

@@ -4,9 +4,13 @@ description: Référencez les paramètres des modèles d’annonce de texte et d
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 3360
@@ -183,9 +187,9 @@ Pour insérer un nom de colonne ou un groupe de modificateurs en tant que param�
 
 * Pour les modèles [!DNL Yandex] :
 
-   * Pour les paramètres dynamiques : insérez le nom de la colonne, par exemple `[keyword]`. Pour indiquer le type de correspondance, utilisez la syntaxe spécifique au [[!DNL Yandex]. ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) **Remarque :** pour les termes à correspondance large, utilisez la syntaxe suivante : Modificateur de correspondance large pour le premier terme de la colonne Mot-clé (tel que +chaussures bleu en daim) = `+[keyword]`, Modificateur de correspondance large pour chaque terme de la colonne Mot-clé (tel que +bleu +daim +chaussures) = `+[keyword]+`
+   * Pour les paramètres dynamiques : insérez le nom de la colonne, par exemple `[keyword]`. Pour indiquer le type de correspondance, utilisez la syntaxe spécifique au [[!DNL Yandex]. &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) **Remarque :** pour les termes à correspondance large, utilisez la syntaxe suivante : Modificateur de correspondance large pour le premier terme de la colonne Mot-clé (tel que +chaussures bleu en daim) = `+[keyword]`, Modificateur de correspondance large pour chaque terme de la colonne Mot-clé (tel que +bleu +daim +chaussures) = `+[keyword]+`
 
-   * Pour les mots-clés statiques : seuls les mots-clés de recherche sont pris en charge. Utilisez la syntaxe spécifique au [[!DNL Yandex] pour le mot-clé . ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) Les crochets (`[]`) pour indiquer l’ordre des mots ne sont pas pris en charge.
+   * Pour les mots-clés statiques : seuls les mots-clés de recherche sont pris en charge. Utilisez la syntaxe spécifique au [[!DNL Yandex] pour le mot-clé . &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) Les crochets (`[]`) pour indiquer l’ordre des mots ne sont pas pris en charge.
 
 >[!NOTE]
 >
@@ -245,7 +249,7 @@ Les champs de données du fichier de flux peuvent contenir au maximum 25 caract�
 
 **[!UICONTROL Param 3]:** (modèles de [!DNL Microsoft Advertising] uniquement) Chaîne à utiliser comme valeur de substitution dans une publicité si le titre, le texte, l’URL d’affichage ou l’URL finale contient la chaîne de substitution dynamique `{Param3}`. La longueur maximale est de 70 caractères, mais gardez à l’esprit la longueur maximale des éléments publicitaires dans lesquels vous l’utilisez (par exemple, un titre d’annonce peut contenir jusqu’à 25 caractères).
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** enchère initiale pour chaque mot-clé avec le type de correspondance ou le type d’annonce spécifié.
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** enchère initiale pour chaque mot-clé avec le type de correspondance ou le type d’annonce spécifié.
 
 ## [!UICONTROL Ads]
 

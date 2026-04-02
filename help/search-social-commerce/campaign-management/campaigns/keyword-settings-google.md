@@ -4,9 +4,13 @@ description: Référencez les paramètres des mots [!DNL Google Ads] clés.
 exl-id: b2937d18-565a-43f0-ba33-d46d4c77ec07
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/XwutnbHVQrg8mfimzVjv-Px6OeUsOWzT7-347-ff2C0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 191
@@ -44,9 +48,9 @@ Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés. Séparez plusieurs mot
 
 ## Espaces réservés
 
-**[!UICONTROL Param1]:** chaîne à utiliser comme valeur de substitution si l’URL de base ou le modèle de suivi contient [ la chaîne de substitution dynamique `{param1}`](https://support.google.com/google-ads/answer/6305348).
+**[!UICONTROL Param1]:** chaîne à utiliser comme valeur de substitution si l’URL de base ou le modèle de suivi contient [&#x200B; la chaîne de substitution dynamique `{param1}`](https://support.google.com/google-ads/answer/6305348).
 
-**[!UICONTROL Param2]:** chaîne à utiliser comme valeur de substitution si l’URL de base ou le modèle de suivi contient [ la chaîne de substitution dynamique `{param2}`](https://support.google.com/google-ads/answer/6305348).
+**[!UICONTROL Param2]:** chaîne à utiliser comme valeur de substitution si l’URL de base ou le modèle de suivi contient [&#x200B; la chaîne de substitution dynamique `{param2}`](https://support.google.com/google-ads/answer/6305348).
 
 ## Options d’URL
 

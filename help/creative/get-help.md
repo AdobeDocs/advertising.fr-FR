@@ -4,10 +4,14 @@ description: Découvrez comment afficher l’aide en ligne et les ressources de 
 feature: Creative Introduction
 exl-id: 88059f73-6da3-4deb-b4ef-fa8e8eaec569
 TQID: https://experienceleague.adobe.com/3JnaHzyXhsIcBipdgJtjPWbv3LF2UGuWRJpyy4KORIU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 169
@@ -39,7 +43,7 @@ Look for answers to your questions in the [Adobe Advertising community forums](h
 
 En cas de problèmes liés au produit ou au compte, procédez comme suit :
 
-* (Annonceurs avec des contrats de libre-service) Ouvrez un ticket pour votre organisation à l’adresse [](https://experienceleague.adobe.com/home?support-tab=home#support).
+* (Annonceurs avec des contrats de libre-service) Ouvrez un ticket pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?support-tab=home#support).
 
   Pour le produit, sélectionnez « [!UICONTROL Advertising - Creative] ».
 

@@ -4,9 +4,12 @@ description: Découvrez comment télécharger des mesures de conversion suivies 
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
 TQID: https://experienceleague.adobe.com/ayxUfDgkrnPz0s-pFAdkmvYy94Il5szQHl6lYg8DpF8
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 212
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 *Publicitaires avec comptes [!DNL Google Ads] et suivi des conversions Adobe Advertising uniquement*
 
-Search, Social et Commerce peuvent éventuellement charger vers [!DNL Google Ads] toutes les mesures de conversion qu’il suit pour [!DNL Google Ads] campagnes qui utilisent le service de suivi des conversions d’Adobe Advertising. Cette option ne rend pas les conversions disponibles pour l’optimisation hybride. Si vous souhaitez utiliser vos conversions Adobe pour l’optimisation hybride, reportez-vous à la rubrique « [ Activer le chargement des objectifs vers les réseaux publicitaires ](objective-upload-to-networks.md) ».
+Search, Social et Commerce peuvent éventuellement charger vers [!DNL Google Ads] toutes les mesures de conversion qu’il suit pour [!DNL Google Ads] campagnes qui utilisent le service de suivi des conversions d’Adobe Advertising. Cette option ne rend pas les conversions disponibles pour l’optimisation hybride. Si vous souhaitez utiliser vos conversions Adobe pour l’optimisation hybride, reportez-vous à la rubrique « [&#x200B; Activer le chargement des objectifs vers les réseaux publicitaires &#x200B;](objective-upload-to-networks.md) ».
 
 Les chargements quotidiens incluent la valeur de `gclid` suivie, la valeur de conversion définie à l’aide du modèle d’attribution au niveau de l’annonceur et la date et l’heure. Si le modèle d’attribution est mis à jour, le chargement suivant utilise le nouveau modèle, mais les données antérieures ne sont pas mises à jour pour utiliser le nouveau modèle.
 

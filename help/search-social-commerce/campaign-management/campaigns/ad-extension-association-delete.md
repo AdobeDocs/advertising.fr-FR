@@ -4,8 +4,10 @@ description: Découvrez comment dissocier les extensions d’annonces des campag
 exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/i9pwpxNmFmHevCZSXoO78Qdme12NW4-E2R6vtSe-LXI
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 96
@@ -23,7 +25,7 @@ Vous pouvez supprimer des associations au niveau de la campagne et du groupe pub
 
 1. Cochez la case en regard de chaque association à supprimer.
 
-   Pour obtenir des conseils sur la sélection de plusieurs lignes, « [ Sélectionner plusieurs lignes ](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) ».
+   Pour obtenir des conseils sur la sélection de plusieurs lignes, « [&#x200B; Sélectionner plusieurs lignes &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) ».
 
 1. Dans la barre d’outils, cliquez sur ![Plus](/help/search-social-commerce/assets/more.png "Plus") et sélectionnez **[!UICONTROL Delete]**.
 

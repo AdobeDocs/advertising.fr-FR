@@ -4,8 +4,10 @@ description: Découvrez comment copier tous les nœuds enfants d’un nœud cibl
 feature: Creative Experiences
 exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
 TQID: https://experienceleague.adobe.com/KLKVrggOQ8V99Cd-2PcFEdwImKvLYkskSD-DPDvpwu0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 286
@@ -29,7 +31,7 @@ Cette fonction n’affecte pas la cible spécifiée pour le nœud parent. Elle n
 
    * Pour remplacer tous les nœuds enfants et les éléments créatifs d’un nœud, cliquez sur le nœud dans lequel vous souhaitez coller les informations copiées, cliquez sur **...**, puis sur a\), sélectionnez **[!UICONTROL Replace ctrl+shift+v]** ou b\) saisissez **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) ou **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) sur le clavier.
 
-   * (Nœuds avec plusieurs cibles enfants, pas de nœuds « Tous » et pas de contenu publicitaire uniquement) Pour ajouter tous les nœuds enfants et les contenus publicitaires à un nœud, sans supprimer les nœuds existants, cliquez sur le nœud dans lequel vous souhaitez coller les informations copiées, cliquez sur **...**, puis a\) sélectionnez **[!UICONTROL Add ctrl+v]** ** ou b\) saisissez **[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows]) ou **[!UICONTROL Command-V]** ([!DNL Apple Macintosh]) sur votre clavier.
+   * (Nœuds avec plusieurs cibles enfants, pas de nœuds « Tous » et pas de contenu publicitaire uniquement) Pour ajouter tous les nœuds enfants et les contenus publicitaires à un nœud, sans supprimer les nœuds existants, cliquez sur le nœud dans lequel vous souhaitez coller les informations copiées, cliquez sur **...**, puis a\) sélectionnez **[!UICONTROL Add ctrl+v]** **&#x200B; ou b\) saisissez &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows]) ou &#x200B;** [!UICONTROL Command-V]** ([!DNL Apple Macintosh]) sur votre clavier.
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
