@@ -3,9 +3,20 @@ title: Utilisation de la bibliothèque  [!DNL Last Event Service] JavaScript ave
 description: Découvrez les étapes à suivre pour passer de l’utilisation de la bibliothèque  [!DNL Analytics] [!DNL visitorAPI] à la bibliothèque  [!DNL Experience Platform] [!DNL Web SDK] pour votre  [!DNL Analytics for Advertising] .
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/zT1lQV1yotCfJJdzTBGzSspsNEKQEB5ulxYE0qyWa9Q
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: 193
 ht-degree: 0%
 
 ---
@@ -14,7 +25,7 @@ ht-degree: 0%
 
 *Publicitaires avec une intégration Adobe Advertising-Adobe Analytics uniquement*
 
-Si votre entreprise utilise l’ancienne bibliothèque `visitorAPI.js` d’Adobe Analytics pour la collecte de données, vous pouvez éventuellement passer à l’utilisation de la bibliothèque [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) (`alloy.js`), qui vous permet d’interagir avec les différents services Experience Cloud via [!DNL Edge Network].
+Si votre entreprise utilise l’ancienne bibliothèque `visitorAPI.js` d’Adobe Analytics pour la collecte de données, vous pouvez éventuellement passer à l’utilisation de la bibliothèque [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) (`alloy.js`), qui vous permet d’interagir avec les différents services Experience Cloud via [!DNL Edge Network].
 
 La bibliothèque JavaScript [!DNL Analytics for Advertising] [!DNL Last Event Service], en l’état, enregistre les événements de visualisation et de clic publicitaire et les associe aux conversions associées à l’aide d’un ID supplémentaire (`SDID`). Cependant, la bibliothèque [!DNL Web SDK] ne fournit pas de [!DNL stitch ID]. Pour utiliser le [!DNL Web SDK] par [!DNL Analytics for Advertising], vous devez modifier 1) la balise [!DNL Last Event Service] que vous utilisez sur vos pages web et 2) vos commandes [!DNL Web SDK] `sendEvent` en conséquence.
 

@@ -3,9 +3,24 @@ title: Écarts de données attendus entre  [!DNL Analytics]  et Adobe Advertisin
 description: Écarts de données attendus entre  [!DNL Analytics]  et Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3359'
+source-wordcount: 3359
 ht-degree: 0%
 
 ---
@@ -130,7 +145,7 @@ Pour plus d’explications sur les raisons de la variation des mesures, voir « 
 
 ## Différences de données dans les [!DNL Paid Search Detection] Adobe Analytics
 
-La fonctionnalité [héritée [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=fr) de [!DNL Analytics] permet aux entreprises de [définir des règles pour effectuer le suivi du trafic de référencement payant et organique](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=fr) pour des moteurs de recherche spécifiés. Les règles [!DNL Paid Search Detection] utilisent à la fois une chaîne de requête et le domaine référent pour identifier le trafic de référencement payant et naturel. Les rapports [!DNL Paid Search Detection] font partie du groupe plus vaste de rapports [Méthodes de recherche](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=fr), qui expirent lorsqu’un événement spécifié (tel qu’un passage en caisse) se produit ou que la visite se termine.
+La fonctionnalité [héritée [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html) de [!DNL Analytics] permet aux entreprises de [définir des règles pour effectuer le suivi du trafic de référencement payant et organique](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=fr) pour des moteurs de recherche spécifiés. Les règles [!DNL Paid Search Detection] utilisent à la fois une chaîne de requête et le domaine référent pour identifier le trafic de référencement payant et naturel. Les rapports [!DNL Paid Search Detection] font partie du groupe plus vaste de rapports [Méthodes de recherche](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=fr), qui expirent lorsqu’un événement spécifié (tel qu’un passage en caisse) se produit ou que la visite se termine.
 
 Voici l’interface de création d’un jeu de règles [!DNL Paid Search Detection] :
 
@@ -238,7 +253,7 @@ Elles semblent analogues, mais les clics et les visites représentent des donné
 
 * **Clic :** le [!DNL DSP] ou le moteur de recherche enregistre un clic lorsqu’un visiteur clique sur une annonce publicitaire sur le site web d’un éditeur.
 
-* **Visite :** [!DNL Analytics] définit une [visite](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=fr) comme une série de pages vues par un utilisateur, se terminant selon l’un des critères, tels que 30 minutes d’inactivité.
+* **Visite :** [!DNL Analytics] définit une [visite](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) comme une série de pages vues par un utilisateur, se terminant selon l’un des critères, tels que 30 minutes d’inactivité.
 
 Par définition, un clic peut entraîner plusieurs visites.
 

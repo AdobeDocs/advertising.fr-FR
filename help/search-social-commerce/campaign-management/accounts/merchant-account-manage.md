@@ -3,9 +3,14 @@ title: Gestion des comptes marchands
 description: Découvrez comment configurer et gérer les détails d’un compte de centre commercial.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+TQID: https://experienceleague.adobe.com/u5LpCPL1I8lLHD9n1cDT1rEPvCcultnuhIVcn7IqxnY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: 789
 ht-degree: 0%
 
 ---
@@ -62,7 +67,7 @@ Pour afficher les données de produit, générer des modèles de suivi pour un c
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
-   Les données d’attribut pour tous les produits du compte sont disponibles dans Search, Social et Commerce après le prochain processus de synchronisation quotidien (vers 6 h dans le fuseau horaire local de l’utilisateur). Vous pouvez ensuite utiliser les données de produit pour automatiser la création d’annonces publicitaires à l’aide de flux d’inventaire.
+   Les données d’attribut pour tous les produits du compte sont disponibles dans Search, Social et Commerce après le prochain processus de synchronisation quotidien (environ 06:00 dans le fuseau horaire local de l’utilisateur). Vous pouvez ensuite utiliser les données de produit pour automatiser la création d’annonces publicitaires à l’aide de flux d’inventaire.
 
 ## Modifier les détails du compte marchand {#edit-merchant-account}
 
@@ -84,7 +89,7 @@ Si les informations d’identification du compte changent ou si vous souhaitez a
 
 >[!NOTE]
 >
->Search, Social et Commerce doivent synchroniser les nouvelles données de compte avec celles du réseau marchand. Cela se produit automatiquement une fois par jour vers 6h00 dans le fuseau horaire local de l’utilisateur.
+>Search, Social et Commerce doivent synchroniser les nouvelles données de compte avec celles du réseau marchand. Cela se produit automatiquement une fois par jour vers 06:00 dans le fuseau horaire local de l’utilisateur.
 
 ## Désactiver l&#39;accès à un compte marchand {#disable-merchant-account}
 

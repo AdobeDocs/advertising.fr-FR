@@ -2,9 +2,20 @@
 title: Solutions de mesure avancées
 description: Voir la liste des solutions disponibles pour la mesure avancée.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
+TQID: https://experienceleague.adobe.com/kycyCioKS2hbhi7jKiBRR0kjwGjqg286hjXx83oNqv0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: 455
 ht-degree: 0%
 
 ---
@@ -53,7 +64,7 @@ Les packages de solutions de mesure suivants sont disponibles pour valider le su
 
   Déterminez l’influence de l’exposition publicitaire sur les ventes à l’aide de données déterministes fiables sur les ventes par carte de crédit et de débit.
 
-* **Designer d’expérience (tests A/B)**
+* Designer d’expérience (tests A/B)**&#x200B;**
 
   Comparez le comportement des groupes d’échantillons randomisés et s’excluant mutuellement avec des tests A/B simples et propres.
 

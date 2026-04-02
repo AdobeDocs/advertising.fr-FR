@@ -3,16 +3,23 @@ title: Activer et désactiver les notifications push depuis [!UICONTROL Notifica
 description: Découvrez comment activer et désactiver les notifications push depuis [!UICONTROL Notification Center].
 exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+TQID: https://experienceleague.adobe.com/k-ujCPcKXYOMfYscQOoSQBHrEmW3Pz08nndz-xdTJaA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: 258
 ht-degree: 0%
 
 ---
 
 # Activer et désactiver les notifications push depuis [!UICONTROL Notification Center]
 
-*Fonctionnalité Beta*
+*Fonctionnalité*
 
 Vous pouvez activer les notifications dans Search, Social et Commerce, où elles s’affichent selon les conventions de notification du navigateur. Sur les appareils utilisant [!DNL Microsoft Windows], les notifications s&#39;affichent en bas à droite de l&#39;écran (barre d&#39;état système). Sur les appareils [!DNL Apple Mac], les notifications s’affichent dans le menu de droite.
 

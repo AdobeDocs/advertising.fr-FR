@@ -3,9 +3,14 @@ title: Modifier le statut des mots-clés et des mots-clés négatifs
 description: Découvrez comment modifier le statut des mots-clés et des mots-clés négatifs.
 exl-id: 46b000af-14a0-4f00-8f3c-c3ef2c93fd19
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/2MBvYvI1Zf-5KrnhtPegv9gZDwkIFkLcZMzRCWPw-Es
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: 179
 ht-degree: 0%
 
 ---
@@ -16,7 +21,7 @@ Vous pouvez mettre en pause un mot-clé de recherche actif pouvant faire l’obj
 
 Vous pouvez également supprimer des mots-clés de recherche actifs ou en pause ou des mots-clés négatifs. Les mots-clés supprimés/mots-clés négatifs sont supprimés du réseau publicitaire. Ils sont toujours visibles, mais vous ne pouvez pas les modifier.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| [!UICONTROL Negatives]\]**
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| [!UICONTROL Negatives]\]**.
 
 1. (Facultatif) Filtrez la liste pour inclure des mots-clés spécifiques ou des mots-clés négatifs.
 

@@ -3,9 +3,14 @@ title: 'Données de feuille d’envoi groupé requises pour les comptes  [!DNL Y
 description: Référencez les champs d’en-tête et de données obligatoires dans les feuilles d’envoi groupé pour les comptes  [!DNL Yandex] .
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
+TQID: https://experienceleague.adobe.com/yargzmjV5ZvOef--zrF6oSNq-gVcu1z3UXSovFDcMwo
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: 1940
 ht-degree: 0%
 
 ---

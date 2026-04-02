@@ -1,44 +1,52 @@
 ---
-title: Mise en oeuvre de [!DNL Microsoft Advertising] conversions améliorées pour les conversions hors ligne
-description: Découvrez le processus de configuration de [!DNL Microsoft Advertising] conversions améliorées pour les conversions hors ligne.
+title: Implémenter  [!DNL Microsoft Advertising]  conversions améliorées pour les conversions hors ligne
+description: Découvrez le workflow de configuration  [!DNL Microsoft Advertising]  conversions améliorées pour les conversions hors ligne.
 feature: Search Campaign Management, Conversions
-source-git-commit: 8f87e5bdab25aa527e72d7e9c75411267fe63780
+exl-id: 44937db7-9e80-4a5d-85c7-5bd5febc3b96
+TQID: https://experienceleague.adobe.com/GLFczqDqV8HE5hUZt8ORAlQMNy4OqQTtMdaHoYoN10U
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: 252
 ht-degree: 0%
 
 ---
 
-# Mise en oeuvre de [!DNL Microsoft Advertising] conversions améliorées pour les conversions hors ligne
+# Implémenter [!DNL Microsoft Advertising] conversions améliorées pour les conversions hors ligne
 
-*[!DNL Microsoft Advertising]comptes uniquement*
+Comptes *[!DNL Microsoft Advertising]uniquement*
 
-[[!DNL Microsoft Advertising] conversions améliorées](https://help.ads.microsoft.com/#apex/ads/en/60178) vous permet de mapper les utilisateurs à des conversions hors ligne à l’aide de vos données de conversion propriétaires. Utilisez des conversions améliorées dans des environnements dans lesquels les ID de clic sont indisponibles, comme pour effectuer le suivi des ventes par téléphone ou par e-mail qui résultent des pistes du site web.
+[[!DNL Microsoft Advertising] conversions améliorées](https://help.ads.microsoft.com/#apex/ads/en/60178) vous permet de mapper des utilisateurs à des conversions hors ligne à l’aide de vos données de conversion propriétaires. Utilisez des conversions améliorées dans les environnements dans lesquels les ID de clic ne sont pas disponibles, par exemple pour effectuer le suivi des ventes par téléphone ou par e-mail qui résultent de prospects de site web.
 
 Dans Search, Social et Commerce, vous pouvez :
 
 * Affichez vos conversions améliorées existantes pour les conversions hors ligne.
 
-  Search, Social et Commerce synchronise quotidiennement vos conversions améliorées existantes à 05h00 dans le fuseau horaire de l’annonceur.
+  Search, Social et Commerce synchronise vos conversions améliorées existantes tous les jours à 05:00 dans le fuseau horaire de l’annonceur.
 
-* Chargez des données de conversion hors ligne propriétaires pour les mapper à vos objectifs de conversion améliorés existants.
+* Chargez des données de conversion propriétaires hors ligne pour les mapper à vos objectifs de conversion améliorés existants.
 
-* Incluez vos conversions améliorées comme mesures dans les rapports et comme mesures pondérées dans les objectifs d’optimisation.
+* Incluez vos conversions améliorées en tant que mesures dans les rapports et en tant que mesures pondérées dans les objectifs d’optimisation.
 
 Pour utiliser cette fonctionnalité, procédez comme suit.
 
-1. Suivez toutes les conditions préalables dans l’aide de [!DNL Microsoft Advertising] sur &quot;[&#x200B; conversions améliorées](https://help.ads.microsoft.com/#apex/ads/en/60178)&quot;.
+1. Suivez toutes les conditions préalables dans l’aide [!DNL Microsoft Advertising] sur « [conversions améliorées](https://help.ads.microsoft.com/#apex/ads/en/60178) ».
 
-1. [Configurez un objectif de conversion amélioré dans  [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/60178).
+1. [Configurez un objectif de conversion amélioré dans [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/60178).
 
-1. Si nécessaire, chargez des données propriétaires, y compris des adresses électroniques hachées ou des numéros de téléphone, afin de les attribuer à la conversion pour un compte spécifié. Vous pouvez effectuer cette étape dans [Search, Social, &amp; Commerce](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md) ou dans [!DNL Microsoft Advertising].
+1. Chargez aussi souvent que nécessaire des données propriétaires, y compris des adresses e-mail ou des numéros de téléphone hachés, à attribuer à la conversion pour un compte spécifié. Vous pouvez effectuer cette étape à partir de [Search, Social et Commerce](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md) ou dans [!DNL Microsoft Advertising].
 
-   * Dans Search, Social et Commerce, vous pouvez télécharger un modèle au format [!DNL Microsoft Excel], saisir vos données de conversion, enregistrer le fichier localement, puis télécharger le fichier modifié.
+   * Dans Search, Social et Commerce, vous pouvez télécharger un modèle au format [!DNL Microsoft Excel], saisir vos données de conversion et enregistrer le fichier localement, puis charger le fichier modifié.
 
-     Toutes les données chargées sont synchronisées en temps réel sur [!DNL Microsoft Advertising].
+     Toutes les données chargées sont synchronisées en temps réel avec [!DNL Microsoft Advertising].
 
-   * Pour plus d’informations sur le chargement de données dans [!DNL Microsoft Advertising], voir la section &quot;Configuration de conversions améliorées pour les conversions hors ligne&quot; dans l’ [!DNL Microsoft Advertising] aide sur &quot;[Conversions améliorées](https://help.ads.microsoft.com/#apex/ads/en/60178)&quot;.
+   * Pour plus d’informations sur le chargement de données dans [!DNL Microsoft Advertising], consultez la section « Configuration de conversions améliorées pour les conversions hors ligne » de l’aide [!DNL Microsoft Advertising] sur « [conversions améliorées](https://help.ads.microsoft.com/#apex/ads/en/60178) ».
 
 >[!MORELIKETHIS]
 >
->* [Chargement de données de conversion hors ligne pour des conversions améliorées](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
+>* [Chargement des données de conversion hors ligne pour les conversions améliorées](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)

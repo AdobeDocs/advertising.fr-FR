@@ -3,9 +3,17 @@ title: Gestion  [!DNL Google Ads]  emplacements
 description: Découvrez comment créer et gérer des emplacements pouvant faire l’objet d’offres pour des groupes  [!DNL Google Ads] .
 exl-id: 80cb6fc6-e778-4b19-9e52-e0b57bde0d73
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/rvRv9LNnt-HX4u3hCsdhqbcl3XdNRvhLCqlVrX-tbm8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: 367
 ht-degree: 0%
 
 ---

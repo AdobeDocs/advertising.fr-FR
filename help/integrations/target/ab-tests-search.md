@@ -2,9 +2,25 @@
 title: Configurer des tests A/B pour les annonces Adobe Advertising Search, Social et Commerce dans Adobe Target
 description: Découvrez comment configurer un test A/B dans  [!DNL Target]  pour vos publicités  [!DNL Google Ads]  et  [!DNL Microsoft Advertising]  dans Search, Social et Commerce.
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+TQID: https://experienceleague.adobe.com/eu1dRdsQlJX4IlHLTUDyJ69r0txFvFUdzUiXpSAlpU8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: 867
 ht-degree: 0%
 
 ---
@@ -61,7 +77,7 @@ Les instructions suivantes mettent en évidence des informations relatives au ca
 
    1. Dans **[!UICONTROL Reporting Settings]**, sélectionnez les **[!UICONTROL Company Name]** et **[!UICONTROL Report Suite]** connectés à votre compte Search, Social et Commerce.
 
-      Pour obtenir des conseils supplémentaires sur les rapports, voir « [Bonnes pratiques et dépannage en matière de rapports](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=fr) ».
+      Pour obtenir des conseils supplémentaires sur les rapports, voir « [Bonnes pratiques et dépannage en matière de rapports](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html) ».
 
    1. Dans le champ **[!UICONTROL Date Range]** , saisissez les dates de début et de fin appropriées pour le test.
 
@@ -99,7 +115,7 @@ Dans Analysis Workspace, configurez l’[!DNL Analytics for Target panel] pour a
 
 #### Mesures
 
-* Créez un panneau dans l’espace de travail spécifique au compte, à la campagne ou au groupe publicitaire Adobe Advertising<!-- only applicable entities? --> pour lequel le test a été exécuté. Utilisez des visualisations de synthèse pour afficher les mesures Adobe Advertising dans le même rapport que les performances du test [!DNL Target].
+* Créez un panneau dans l’espace de travail spécifique au compte, à la campagne ou au groupe publicitaire <!-- only applicable entities? --> pour lequel le test a été exécuté. Utilisez des visualisations de synthèse pour afficher les mesures Adobe Advertising dans le même rapport que les performances du test [!DNL Target].
 
 * Établissez la priorité en utilisant les mesures sur site (telles que les visites et les conversions) pour mesurer les performances.
 

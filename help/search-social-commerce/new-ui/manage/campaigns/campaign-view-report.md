@@ -2,10 +2,19 @@
 title: (Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]
 description: Découvrez comment générer, télécharger et supprimer des rapports contenant les lignes de données d’une ou de plusieurs campagnes dans la vue [!UICONTROL Campaigns] d’un rapport.
 feature: Search Optimization, Search Campaign Management
-hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+hide: yes
+exl-id: c82dc210-1bd4-466c-8a0e-96b59a80da93
+TQID: https://experienceleague.adobe.com/rq1FeFn92Z9LOLIVl-HeiOG4tmtzMSqpd7tKmXP93kc
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: 342
 ht-degree: 0%
 
 ---
@@ -14,7 +23,7 @@ ht-degree: 0%
 
 <!-- Wording??????  Filtered data reports? -->
 
-*Fonction Beta*
+*Fonction*
 
 Vous pouvez générer un rapport qui inclut les lignes de données d’une ou de plusieurs campagnes dans la vue [!UICONTROL Campaigns], puis télécharger le rapport sous la forme d’un fichier de feuille de calcul Excel Microsoft (format XLXS). Le rapport inclut toutes les colonnes visibles dans la vue.
 

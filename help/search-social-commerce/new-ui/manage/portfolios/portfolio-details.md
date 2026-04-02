@@ -2,18 +2,26 @@
 title: (Nouvelle interface utilisateur) Afficher les détails sur les performances du portefeuille
 description: Découvrez comment afficher les détails sur les performances du portfolio, y compris les mesures réelles et prévues au niveau du portfolio et pour chaque campagne affectée.
 feature: Search Portfolios, Search Optimization
-hide: true
+hide: yes
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
-source-git-commit: e786ffc8c9e331fffcc8b0f7cce4cb082baea6ac
+TQID: https://experienceleague.adobe.com/5hNxKu6YjJTWI4KGEc6aaYnpgXK6k3OsN0-YfetzENw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: 735
 ht-degree: 0%
 
 ---
 
 # (Nouvelle interface utilisateur) Afficher les détails sur les performances du portefeuille
 
-*Fonction Beta*
+*Fonction*
 
 <!-- Verify all, including why (if) the first report is for active and optimized portfolios(?), and why the other reports are for active portfolios, not optimized ones -->
 

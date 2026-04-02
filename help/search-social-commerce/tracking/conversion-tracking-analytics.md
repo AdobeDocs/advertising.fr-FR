@@ -3,9 +3,18 @@ title: Suivi des conversions Adobe Analytics
 description: Découvrez comment utiliser le suivi des conversions Adobe Analytics pour vos campagnes dans Adobe Advertising.
 exl-id: c72cc988-5b51-4e1a-8cb6-6c3ca2a0226b
 feature: Search Tracking
-source-git-commit: a6dc9edb12484499069a68222a3007ae08d9dfea
+TQID: https://experienceleague.adobe.com/CM0S4RvR4RJ5Ylta5EJTdZh-VDDHYIfa7Qsd1Dm4D78
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: 297
 ht-degree: 0%
 
 ---
@@ -26,9 +35,9 @@ Consultez « [Présentation de [!DNL Analytics for Advertising]](https://experie
 
 1. Dans [!DNL Analytics], votre équipe d’implémentation Search, Social et Commerce modifie les paramètres de configuration suivants pour chaque suite de rapports :
 
-   * L’expiration du [!DNL eVar] de `ef_id` est modifiée pour correspondre à l’intervalle de recherche en amont de clics de l’annonceur pour l’Adobe Advertising.
+   * L’expiration du `ef_id` [!DNL eVar] est modifiée pour correspondre à l’intervalle de recherche en amont de clic de l’annonceur pour Adobe Advertising.
 
-   * ID d’utilisateur Adobe Advertising.
+   * L’identifiant utilisateur Adobe Advertising.
 
    * Événements standard et personnalisés à utiliser pour l’optimisation.
 
@@ -38,7 +47,7 @@ Consultez « [Présentation de [!DNL Analytics for Advertising]](https://experie
 
    1. Ajoute des redirections avec passage du jeton « `ef_id` » vers les URL de tracking et les publie sur le réseau publicitaire.
 
-   Cette étape ajoute une redirection au serveur de suivi d’Adobe Advertising (à l’exception des annonces [!DNL Google Ads] et [!DNL Microsoft Advertising] dans les navigateurs qui prennent en charge le suivi parallèle) et ajoute un paramètre « ef_id » renseigné dynamiquement à l’URL au moment du clic sur l’annonce. Lorsque le suivi parallèle s’applique, les utilisateurs finaux sont envoyés directement de votre publicité à votre URL finale et votre URL de modèle de suivi (avec la mesure des clics) est chargée en arrière-plan.
+   Cette étape ajoute une redirection au serveur de tracking Adobe Advertising (à l’exception des annonces [!DNL Google Ads] et [!DNL Microsoft Advertising] dans les navigateurs qui prennent en charge le tracking parallèle) et ajoute un paramètre « ef_id » renseigné dynamiquement à l’URL au moment du clic sur l’annonce. Lorsque le suivi parallèle s’applique, les utilisateurs finaux sont envoyés directement de votre publicité à votre URL finale et votre URL de modèle de suivi (avec la mesure des clics) est chargée en arrière-plan.
 
 Une fois l’intégration terminée, Search, Social et Commerce reçoit automatiquement toutes les données d’événement sur la page suivies dans [!DNL Analytics] pour les suites de rapports qui ont été configurées.
 

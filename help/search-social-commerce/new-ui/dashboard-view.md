@@ -2,18 +2,26 @@
 title: (Nouvelle interface utilisateur) Affichage de votre tableau de bord des performances
 description: Découvrez les données disponibles dans votre tableau de bord des performances.
 feature: Search Portfolios, Search Optimization
-hide: true
+hide: yes
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: 6fe42303c8499dbff6d5964d4074e98a2f2486ba
+TQID: https://experienceleague.adobe.com/Oa-NB0er-nIWVtPXTtTjM--9hDSluhtjBwpSV4tr2zA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: 374
 ht-degree: 0%
 
 ---
 
 # (Nouvelle interface utilisateur) Affichage de votre tableau de bord des performances
 
-*Fonction Beta*
+*Fonction*
 
 Le [!UICONTROL Dashboard] personnalisable > [!UICONTROL Overview] vous permet de surveiller les performances de tous vos portefeuilles <!-- May later include other entity-level data --> d’identifier les problèmes de performances potentiels à étudier et à résoudre. Vous pouvez afficher des données quotidiennes, hebdomadaires ou mensuelles pour n&#39;importe quelle période au cours des 90 derniers jours.
 

@@ -3,16 +3,29 @@ title: Configurer la collecte de données, le transfert de données et la créat
 description: Découvrez comment configurer la collecte de données, le transfert de données et la création de rapports.
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: a955e2b0-ea1b-4b5c-937b-f8c66603cd36
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/u6xL6FuW-TwqAkse3VTS3zcyt-10Cv-ADTZLJTiWWT8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: 1587
 ht-degree: 0%
 
 ---
 
 # Configurer la collecte de données, le transfert de données et la création de rapports
 
-*Fonction Beta*
+*Fonction*
 
 Les tâches suivantes sont requises pour afficher les données Advertising Cloud dans Customer Journey Analytics.
 
@@ -70,7 +83,7 @@ Les tâches suivantes sont nécessaires pour configurer la collecte de données 
 
    * Créez une propriété de balise, qui est le conteneur de la configuration de balise.
 
-   * Pour votre propriété, [installez l’extension « Adobe Experience Platform Web SDK »](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) à partir du catalogue d’extensions.
+   * Pour votre propriété, [installez l’extension « Adobe Experience Platform Web SDK »](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) à partir du catalogue d’extensions.
 
      Cette extension envoie des données de vos propriétés web vers Experience Cloud via Experience Platform Edge Network.
 
@@ -94,7 +107,7 @@ Les tâches suivantes sont nécessaires pour configurer la collecte de données 
 
          * Enregistrez la version.
 
-   * (Facultatif) [Créez des règles](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/ui/rules) selon les besoins pour déterminer à quel moment Web SDK doit envoyer des données à Edge Network.
+   * (Facultatif) [Créez des règles](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules) selon les besoins pour déterminer à quel moment Web SDK doit envoyer des données à Edge Network.
 
       * Pour les actions `[sendEvent](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)`, utilisez le paramètre [[!UICONTROL Advertising] pour définir comment les données publicitaires sont utilisées pour la mesure de l’attribution](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising) Ce paramètre s’avère utile lorsque la règle inclut une séquence de plusieurs actions et n’est disponible que lorsque vous avez sélectionné le composant « [!UICONTROL Advertising] » pour le composant de version personnalisé.
 
@@ -110,7 +123,7 @@ Les tâches suivantes sont nécessaires pour configurer la collecte de données 
 
 Pour extraire des données Adobe Advertising de vos jeux de données Experience Platform dans Customer Journey Analytics, procédez comme suit. L’administrateur ou l’administratrice du site de votre entreprise pour Customer Journey Analytics peut effectuer ces tâches.
 
-1. Dans Customer Journey Analytics, [créez une connexion](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-connections/create-connection) qui inclut vos jeux de données et votre schéma Experience Platform.
+1. Dans Customer Journey Analytics, [créez une connexion](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) qui inclut vos jeux de données et votre schéma Experience Platform.
 
    **Remarque :** actuellement, vous devez envoyer des données pour tous les comptes DSP et Search, Social et Commerce à une seule instance Experience Platform et à un seul sandbox.
 
@@ -144,7 +157,7 @@ Pour extraire des données Adobe Advertising de vos jeux de données Experience 
 
 Dans Customer Journey Analytics, créez une ou plusieurs vues de données pour définir les mesures et dimensions de la création de rapports. Un analyste web peut effectuer ces tâches.
 
-1. Dans Customer Journey Analytics, [créez une vue de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/create-dataview).
+1. Dans Customer Journey Analytics, [créez une vue de données](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview).
 
 1. Configurez la vue pour inclure les informations suivantes.
 
@@ -160,7 +173,7 @@ Dans Customer Journey Analytics, créez une ou plusieurs vues de données pour d
 
       * Joignez le jeu de données d’événements au jeu de données de résumé, qui n’a encore été joint à rien :
 
-         * Pour chaque dimension contenant des données récapitulatives que vous souhaitez rendre disponibles dans Customer Journey Analytics, [créez un champ dérivé](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/derived-fields).
+         * Pour chaque dimension contenant des données récapitulatives que vous souhaitez rendre disponibles dans Customer Journey Analytics, [créez un champ dérivé](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields).
 
            Par exemple, pour afficher les données récapitulatives des campagnes, créez un champ dérivé pour la dimension `Adobe Advertising Campaign`.
 
@@ -209,5 +222,5 @@ Dans Customer Journey Analytics Workspace, procédez comme suit pour configurer 
 >* [Adobe Advertising ID utilisés par  [!DNL Customer Journey Analytics]](ids.md)
 >* [Mesures et dimensions Adobe Advertising dans Customer Journey Analytics](advertising-data-in-cja.md)
 >* [Collecter des données historiques pour les ID AMO et les ID EF à utiliser dans Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
->* Guide de [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing)
+>* Guide de [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing)
 >* Customer Journey Analytics [Guide de l’utilisateur pour les utilisateurs d’Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)

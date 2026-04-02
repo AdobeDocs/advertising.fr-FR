@@ -1,33 +1,41 @@
 ---
-title: Paramètres de campagne '[!DNL Baidu]'
+title: '[!DNL Baidu] des paramètres de la campagne'
 description: Référencez les paramètres des campagnes  [!DNL Baidu] .
 exl-id: bc8ec4e2-4b40-4c9d-8223-29143fe63784
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/eYQ4cNEAmEEoC6OksxjtqdJRf90E0a2UGiTny5BVGQU
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: 116
 ht-degree: 0%
 
 ---
 
-# [!DNL Baidu] paramètres de campagne
+# [!DNL Baidu] des paramètres de la campagne
 
-## \[Ecran de création de campagne\]
+## \[Écran de création de campagne\]
 
-**[!UICONTROL Campaign Type]:** (Disponible uniquement lors de la création de la campagne) Où placer des publicités. Le seul est *Search Network Only*.
+**[!UICONTROL Campaign Type]:** (disponible lors de la création de la campagne uniquement) Où placer des annonces. Le seul est *Réseau de recherche uniquement*.
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** nom de campagne unique dans le compte. La longueur maximale est de 15 caractères sur deux octets.
+**[!UICONTROL Campaign Name]:** Nom de campagne unique au sein du compte. La longueur maximale est de 15 caractères codés sur deux octets.
 
 **[!UICONTROL Ad Serving]:**
 Fréquence à laquelle le moteur de recherche diffuse vos publicités actives les unes par rapport aux autres au sein d’un groupe publicitaire :
 
-* *[!UICONTROL Rotate]* (valeur par défaut pour les nouvelles campagnes) : chacune de vos publicités a la même probabilité d’entrer dans la vente aux enchères d’annonces.
+* *[!UICONTROL Rotate]* (valeur par défaut pour les nouvelles campagnes) : chacune de vos annonces a la même probabilité de participer aux enchères publicitaires.
 
-* *[!UICONTROL Optimize]:* Le réseau publicitaire favorise les publicités qui présentent de meilleures performances. Cela peut être incompatible avec vos objectifs d’entreprise et d’optimisation.
+* *[!UICONTROL Optimize]:* Le réseau publicitaire privilégie les publicités les plus performantes. Cela peut être incompatible avec vos objectifs commerciaux et d’optimisation.
 
-**[!UICONTROL Status]:** État d’affichage de la campagne : *Active* ou *En pause*. La valeur par défaut des nouvelles campagnes publicitaires est *Active*.
+**[!UICONTROL Status]:** statut d’affichage de la campagne : *Actif* ou *En pause*. La valeur par défaut pour les nouvelles campagnes publicitaires est *Active*.
 
 ## [!UICONTROL Budget Options]
 

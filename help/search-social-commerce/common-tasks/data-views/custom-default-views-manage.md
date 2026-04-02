@@ -3,9 +3,16 @@ title: Gestion des vues par défaut et personnalisées
 description: Découvrez comment personnaliser vos vues par défaut et vos vues personnalisées.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
+TQID: https://experienceleague.adobe.com/aHuRfuYTOiAOMEeer1ud9yRDiC52UF9Hb-mAi1Y-l1U
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '4453'
+source-wordcount: 4453
 ht-degree: 0%
 
 ---

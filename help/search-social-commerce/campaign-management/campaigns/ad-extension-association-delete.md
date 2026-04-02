@@ -3,9 +3,14 @@ title: Suppression des associations d’extensions d’annonces avec des campagn
 description: Découvrez comment dissocier les extensions d’annonces des campagnes et des groupes d’annonces.
 exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/i9pwpxNmFmHevCZSXoO78Qdme12NW4-E2R6vtSe-LXI
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: 96
 ht-degree: 0%
 
 ---

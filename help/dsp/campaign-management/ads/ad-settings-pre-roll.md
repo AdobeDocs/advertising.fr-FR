@@ -3,9 +3,20 @@ title: Paramètres de publicité preroll
 description: Consultez les descriptions des paramètres d’annonce publicitaire disponibles pour les annonces publicitaires preroll.
 feature: DSP Ads
 exl-id: d0ba4346-13ae-405c-92b6-a0c32dd09d0a
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+TQID: https://experienceleague.adobe.com/vmZ3LDA5Hz0SgYf-tmWgVTdQyM4sikrJGSsSwOQaV-E
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 450
 ht-degree: 0%
 
 ---
@@ -38,7 +49,7 @@ ht-degree: 0%
 
 **[!UICONTROL Width]| [!UICONTROL Ad Unit Width]:** (publicités preroll standard et pouvant être ignorées uniquement) La largeur de l’unité publicitaire entière. Cette option peut être verrouillée en fonction du type d’unité publicitaire que vous avez sélectionné.
 
-**[!UICONTROL Height]| [!UICONTROL Ad Unit Height]:** (publicités preroll standard et pouvant être ignorées uniquement) Hauteur de l’ensemble de l’unité publicitaire. Cette option peut être verrouillée en fonction du type d’unité publicitaire que vous avez sélectionné.
+**[!UICONTROL Height]| [!UICONTROL Ad Unit Height]:** (publicités preroll standard et pouvant être ignorées uniquement) La hauteur de l’ensemble de l’unité publicitaire. Cette option peut être verrouillée en fonction du type d’unité publicitaire que vous avez sélectionné.
 
 **[!UICONTROL Player X]:** coordonnée X de l’entité publicitaire. Conservez le paramètre par défaut.
 
@@ -78,4 +89,4 @@ Il s’agit du même champ que le champ **[!UICONTROL Height]**.
 >* [Créer une seule annonce publicitaire](ad-create.md)
 >* [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Spécifications publicitaires](ad-specs.md)
->* [Macros DSP](/help/dsp/campaign-management/macros.md)
+>* [Macros &#x200B;](/help/dsp/campaign-management/macros.md)

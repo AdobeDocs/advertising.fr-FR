@@ -1,32 +1,37 @@
 ---
-title: A propos des mots-clés
-description: Découvrez les options pour les mots-clés "bidable" et "négatif".
+title: À propos des mots clés
+description: Découvrez les options relatives aux mots-clés pouvant faire l’objet d’une offre et aux mots-clés négatifs.
 exl-id: d94c6f3f-0ea3-4792-8a6d-78f3a2af80e8
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/UV8Vf9pZU9zq9Ic4vTwFFoDGaOwoa8zR-9UgCFxqrH0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: 171
 ht-degree: 0%
 
 ---
 
-# A propos des mots-clés
+# À propos des mots clés
 
 *[!DNL Google Ads]et [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] et comptes [!DNL Baidu] existants uniquement*
 
-Un mot-clé est un mot ou une expression associé à une publicité. Les paramètres de mot-clé comprennent le type de correspondance de mot-clé, les offres maximales à utiliser lorsque votre publicité est déclenchée par le mot-clé et les paramètres de suivi facultatifs (certains réseaux publicitaires). Les paramètres au niveau du mot-clé remplacent les paramètres du groupe publicitaire ou de la campagne.
+Un mot-clé est un mot ou une expression associé à une publicité. Les paramètres de mot-clé incluent le type de correspondance de mot-clé, les enchères maximales à utiliser lorsque votre publicité est déclenchée par le mot-clé et (certains réseaux publicitaires) des paramètres de suivi facultatifs. Les paramètres au niveau du mot-clé remplacent les paramètres du groupe publicitaire ou de la campagne.
 
 Vous pouvez créer des mots-clés pour n’importe quel groupe publicitaire d’une campagne qui cible le réseau de recherche.
 
 ## Les vues [!UICONTROL Keywords]
 
-La vue [!UICONTROL Keywords] > [!UICONTROL Keywords] répertorie tous vos mots-clés admissibles, et la vue [!UICONTROL Keywords] > [!UICONTROL Negatives] répertorie tous vos mots-clés négatifs pour lesquels les publicités ne sont pas affichées.
+La vue [!UICONTROL Keywords] > [!UICONTROL Keywords] répertorie tous les mots-clés pouvant faire l’objet d’une offre et la vue [!UICONTROL Keywords] > [!UICONTROL Negatives] répertorie tous les mots-clés négatifs pour lesquels les annonces ne s’affichent pas.
 
-Vous pouvez créer des mots-clés pour un groupe publicitaire de recherche à partir de la vue [!UICONTROL Keywords] > [!UICONTROL Keywords]. Vous pouvez créer
-mots-clés négatifs pour un groupe publicitaire ou une campagne depuis la vue [!UICONTROL Keywords] > [!UICONTROL Negatives] ou depuis les paramètres de la campagne et du groupe publicitaire. Vous pouvez également modifier et modifier l’état des mots-clés actifs et en pause, ainsi que supprimer les mots-clés négatifs.
+Vous pouvez créer des mots-clés pour un groupe d’annonces de recherche à partir de la vue [!UICONTROL Keywords] > [!UICONTROL Keywords] . Vous pouvez
+mots-clés négatifs pour un groupe publicitaire ou une campagne à partir de la vue [!UICONTROL Keywords] > [!UICONTROL Negatives] ou des paramètres de la campagne et du groupe publicitaire. Vous pouvez également modifier le statut des mots-clés actifs et en pause, et supprimer les mots-clés négatifs.
 
 >[!MORELIKETHIS]
 >
->* [Gérer les mots-clés admissibles](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [Gérer les mots-clés pouvant faire l’objet d’une offre](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
 >* [Créer des mots-clés négatifs](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
->* [Modifier l’état des mots-clés et des mots-clés négatifs](keyword-status-edit.md)
+>* [Modifier le statut des mots-clés et des mots-clés négatifs](keyword-status-edit.md)

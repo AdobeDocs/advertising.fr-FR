@@ -3,9 +3,14 @@ title: Gestion des groupes publicitaires
 description: Découvrez comment créer et gérer des groupes publicitaires.
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/sG5cWODyLzoKVIsQG2kGd68ozScBB3mTRCAWnAmuRiY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: 677
 ht-degree: 0%
 
 ---

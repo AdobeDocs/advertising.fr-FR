@@ -3,9 +3,18 @@ title: Questions fréquentes sur les campagnes
 description: Voir les réponses aux questions sur la gestion des campagnes et les vues de données des campagnes.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 88b415fff52d623a5daeb00355bfe00054d5402b
+TQID: https://experienceleague.adobe.com/5I3xvxMaW-VmMn1UhxtTgt7O68vi--W38VNpV1fE6Rs
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: 1585
 ht-degree: 0%
 
 ---
@@ -119,7 +128,7 @@ Pour plus d’informations sur le chargement des modèles de suivi et des suffix
 
 Le suivi parallèle envoie directement les clients de votre publicité à votre URL finale, qui peut inclure des paramètres ajoutés à partir d’un suffixe d’URL final, ou « suffixe de page de destination ». L’URL de votre modèle de suivi (avec des paramètres supplémentaires pour la mesure des clics) est chargée séparément en arrière-plan. Votre page de destination est donc chargée plus rapidement.
 
-Search, Social et Commerce prennent en charge le suivi parallèle des campagnes de recherche et d’achat à l’aide de l’identifiant de clic du réseau publicitaire (`msclkid` par [!DNL Microsoft Advertising] ; `gclid` par [!DNL Google Ads]). Utilisez un [&#128279;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)au niveau du compte[&#x200B; ou &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)au niveau de la campagne[!UICONTROL Landing Page Suffix] (appelé « [!DNL final URL suffix] » dans les réseaux publicitaires), qui est ajouté aux URL des pages de destination pour effectuer le suivi des clics sur les annonces enfants des navigateurs qui prennent en charge le suivi parallèle. Consultez les sections [Formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et [Formats de suffixes requis pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Search, Social et Commerce prennent en charge le suivi parallèle des campagnes de recherche et d’achat à l’aide de l’identifiant de clic du réseau publicitaire (`msclkid` par [!DNL Microsoft Advertising] ; `gclid` par [!DNL Google Ads]). Utilisez un [&#x200B; &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)au niveau du compte[&#x200B; ou &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)au niveau de la campagne[!UICONTROL Landing Page Suffix] (appelé « [!DNL final URL suffix] » dans les réseaux publicitaires), qui est ajouté aux URL des pages de destination pour effectuer le suivi des clics sur les annonces enfants des navigateurs qui prennent en charge le suivi parallèle. Consultez les sections [Formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et [Formats de suffixes requis pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 Lorsque l’utilisateur consulte votre publicité sur un navigateur qui ne prend pas en charge le suivi parallèle, le réseau publicitaire utilise le suivi séquentiel. Les clients sont d’abord envoyés à l’URL de votre modèle de suivi, qui peut les rediriger vers des serveurs de suivi intermédiaires avant de les rediriger vers l’URL finale (qui peut inclure des paramètres supplémentaires dans un suffixe de page de destination). Tous les modèles de suivi d’un compte de réseau publicitaire doivent inclure le même paramètre d’identifiant de clic que celui utilisé dans le [!UICONTROL Landing Page Suffix]. Voir les [formats des modèles de suivi pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et les [formats des modèles de suivi pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++

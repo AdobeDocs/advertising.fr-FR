@@ -3,9 +3,20 @@ title: Code JavaScript pour  [!DNL Analytics for Advertising]
 description: Code JavaScript pour  [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+TQID: https://experienceleague.adobe.com/g9onwe1IQl1kbyQ82W2KmODPGUAReKiotxy65yCZcNY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: 919
 ht-degree: 0%
 
 ---
@@ -16,7 +27,7 @@ ht-degree: 0%
 
 Pour Advertising DSP, l’intégration [!DNL Analytics for Advertising] effectue le suivi des interactions entre les affichages publicitaires et les clics publicitaires du site. Les visites de clics publicitaires sont suivies par le code Adobe Analytics standard sur vos pages web ; le code [!DNL Analytics] capture les paramètres AMO ID et EF ID dans l’URL de la page de destination et les suit dans leurs [!DNL eVars] réservés respectifs. Vous pouvez effectuer le suivi des visites d’affichage publicitaire en déployant un fragment de code JavaScript dans vos pages web.
 
-Sur la première page vue d’une visite sur le site, le code Adobe Advertising JavaScript vérifie si le visiteur a déjà vu ou cliqué sur une annonce publicitaire. Si l’utilisateur est déjà entré sur le site par le biais d’un clic publicitaire ou s’il n’a pas vu d’annonce publicitaire, le visiteur est ignoré. Si le visiteur a vu une annonce publicitaire et n’est pas entré sur le site par le biais d’un clic publicitaire au cours de l’intervalle de recherche en amont [clic](/help/integrations/analytics/prerequisites.md#lookback-a4adc) défini dans Adobe Advertising, alors le code Adobe Advertising JavaScript a) utilise le service [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) pour générer un ID supplémentaire (`SDID`) ou b) utilise la méthode [!DNL Web SDK] de l’`generateRandomID` Adobe Experience Platform pour générer un `[!DNL StitchID]`. Les deux ID sont utilisés pour regrouper les données d’Adobe Advertising vers l’accès Adobe Analytics du visiteur. Adobe Analytics interroge ensuite Adobe Advertising pour obtenir l’AMO ID et l’EF ID associés à l’exposition publicitaire. Les ID AMO et EF sont ensuite renseignés dans leurs [!DNL eVars] respectifs. Ces valeurs persistent pendant une période désignée (par défaut, 60 jours).
+Sur la première page vue d’une visite sur le site, le code Adobe Advertising JavaScript vérifie si le visiteur a déjà vu ou cliqué sur une annonce publicitaire. Si l’utilisateur est déjà entré sur le site par le biais d’un clic publicitaire ou s’il n’a pas vu d’annonce publicitaire, le visiteur est ignoré. Si le visiteur a vu une annonce publicitaire et n’est pas entré sur le site par le biais d’un clic publicitaire au cours de l’intervalle de recherche en amont [clic](/help/integrations/analytics/prerequisites.md#lookback-a4adc) défini dans Adobe Advertising, alors le code Adobe Advertising JavaScript a) utilise le service [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html) pour générer un ID supplémentaire (`SDID`) ou b) utilise la méthode [!DNL Web SDK] de l’`generateRandomID` Adobe Experience Platform pour générer un `[!DNL StitchID]`. Les deux ID sont utilisés pour regrouper les données d’Adobe Advertising vers l’accès Adobe Analytics du visiteur. Adobe Analytics interroge ensuite Adobe Advertising pour obtenir l’AMO ID et l’EF ID associés à l’exposition publicitaire. Les ID AMO et EF sont ensuite renseignés dans leurs [!DNL eVars] respectifs. Ces valeurs persistent pendant une période désignée (par défaut, 60 jours).
 
 [!DNL Analytics] envoie toutes les heures à Adobe Advertising les mesures de trafic sur le site (telles que les pages vues, les visites et le temps passé) et tous les événements [!DNL Analytics] personnalisés ou standard, en utilisant l’identifiant d’événement d’urgence comme clé. Ces mesures de [!DNL Analytics] s’exécutent ensuite dans le système d’attribution d’Adobe Advertising pour connecter les conversions à l’historique des clics et de l’exposition.
 

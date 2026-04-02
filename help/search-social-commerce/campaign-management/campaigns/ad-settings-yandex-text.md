@@ -1,16 +1,21 @@
 ---
-title: '[!DNL Yandex] Paramètres de publicité texte'
-description: Référencez les paramètres pour les  [!DNL Yandex] annonces textuelles.
+title: '[!DNL Yandex] les paramètres d’annonces de texte'
+description: Référencez les paramètres des annonces  [!DNL Yandex]  texte.
 exl-id: ed0ae54f-85a3-4475-af2d-f3e693fc48a1
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/hvFCEfBwGDFp4bn58fmXwtdLhiyl6fZwTGaK4KLhtmQ
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: 132
 ht-degree: 0%
 
 ---
 
-# [!DNL Yandex] paramètres de publicité texte
+# [!DNL Yandex] les paramètres d’annonces de texte
 
 ## [!UICONTROL Text Ad]
 
@@ -18,13 +23,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La modification de la copie de la publicité pour une publicité [!DNL Yandex] supprime la publicité existante et crée une nouvelle publicité avec les mêmes propriétés.
+>La modification de la copie d’une publicité [!DNL Yandex] supprime la publicité existante et crée une nouvelle publicité avec les mêmes propriétés.
 
-**[!UICONTROL Description Line 1]:** corps de la bannière (publicité). La longueur maximale est de 75 caractères et un seul mot ne peut pas dépasser 22 caractères.
+**[!UICONTROL Description Line 1]:** Corps de la bannière (publicité). La longueur maximale est de 75 caractères et un seul mot ne peut pas dépasser 22 caractères.
 
 >[!NOTE]
 >
->La modification de la copie de la publicité pour une publicité [!DNL Yandex] supprime la publicité existante et crée une nouvelle publicité avec les mêmes propriétés.
+>La modification de la copie d’une publicité [!DNL Yandex] supprime la publicité existante et crée une nouvelle publicité avec les mêmes propriétés.
 
 <!-- **[!UICONTROL Status]:** -->
 
@@ -42,5 +47,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [A propos des publicités](ad-about.md)
+>* [À propos des publicités](ad-about.md)
 >* [Gérer les publicités](ad-manage.md)

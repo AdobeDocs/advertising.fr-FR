@@ -3,9 +3,16 @@ title: Modifier les paramètres du flux de rapports d'une feuille de calcul
 description: Découvrez comment modifier les paramètres des flux de feuilles de calcul.
 exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/xsq7qkYTc5p7Q4Q-LKHeCX7-W8DRW80ET6ylOWocYG0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: 317
 ht-degree: 0%
 
 ---
@@ -46,7 +53,7 @@ Vous pouvez modifier le modèle de rapport, [!DNL Microsoft Excel] modèle et d&
      >
      > Si le modèle de rapport associé au flux est supprimé ultérieurement, le flux est également supprimé.
 
-     Les flux des feuilles de calcul sont automatiquement actualisés à 8 h chaque jour dans le fuseau horaire de l’annonceur. Si le modèle de rapport inclut des adresses pour des destinataires d’e-mails, ces adresses reçoivent des notifications lorsque la feuille de calcul est actualisée.
+     Les flux de feuilles de calcul sont automatiquement actualisés à 8 heures :00 chaque jour dans le fuseau horaire de l’annonceur. Si le modèle de rapport inclut des adresses pour des destinataires d’e-mails, ces adresses reçoivent des notifications lorsque la feuille de calcul est actualisée.
 
 >[!MORELIKETHIS]
 >

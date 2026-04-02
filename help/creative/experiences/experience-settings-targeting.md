@@ -3,9 +3,17 @@ title: Paramètres de l’expérience ciblée
 description: Voir les descriptions de tous les paramètres pour les expériences publicitaires ciblées.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: ace6005869ea4102878091c4799259961aeecb63
+TQID: https://experienceleague.adobe.com/u5o-it-rntU70Ugf-3m7G4zcxjJrhkg0hubs34HVHFw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: 1184
 ht-degree: 0%
 
 ---
@@ -54,7 +62,7 @@ Une fois l’expérience enregistrée, vous ne pouvez plus modifier ce paramètr
 
 Chaque clé est ajoutée sous la forme d’une macro dans la balise d’expérience publicitaire, que vous pouvez générer pour implémenter en tant qu’annonce publicitaire dans votre DSP.
 
-**Rayon :** (Expériences avec les annonces dynamiques uniquement ; facultatif) Rayon d’un code postal des États-Unis spécifié dans le fichier de flux à cibler ; sélectionnez un rayon compris entre 0 et 200 miles. Le fichier de flux utilisé pour créer les annonces dynamiques pour l’expérience doit inclure une colonne [!UICONTROL ZIP]<!-- or a user-named column mapped to a ZIP column --> avec une valeur pour chaque ligne de produit dans le fichier. Par exemple, pour un rayon de 10 miles, une annonce publicitaire pour un produit disponible en 95110 peut être affichée pour les utilisateurs dans un rayon de 10 miles (déterminé par l’adresse IP de l’utilisateur) 95110.
+**Rayon :** (Expériences avec les annonces dynamiques uniquement ; facultatif) Rayon d’un code postal des États-Unis spécifié dans le fichier de flux à cibler ; sélectionnez un rayon compris entre 0 et 200 miles. Le fichier de flux utilisé pour créer les annonces dynamiques pour l’expérience doit inclure une colonne [!UICONTROL ZIP] avec une valeur pour chaque ligne de produit dans le fichier. <!-- or a user-named column mapped to a ZIP column --> Par exemple, pour un rayon de 10 miles, une annonce publicitaire pour un produit disponible en 95110 peut être affichée pour les utilisateurs dans un rayon de 10 miles (déterminé par l’adresse IP de l’utilisateur) 95110.
 
 **Pixel RT :** (lecture seule pour les expériences existantes, facultatif) pixel de reciblage [!UICONTROL Creative] à cibler potentiellement. Lorsque vous configurez le ciblage dans l’arborescence de décision, vous pouvez inclure un niveau de nœuds cibles de pixels RT. Pour chaque nœud, vous spécifiez le pixel à cibler et les valeurs des attributs de pixel requis pour afficher les contenus publicitaires dans les lots de contenus publicitaires attribués. Si vous ne spécifiez pas de pixel dans ce champ lors de la création de l’expérience, vous pouvez toujours en spécifier un dans l’arborescence de décision.<!-- May move this to just within the decision tree. -->
 

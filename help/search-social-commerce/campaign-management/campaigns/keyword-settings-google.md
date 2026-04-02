@@ -1,26 +1,34 @@
 ---
-title: Paramètres des mots-clés '[!DNL Google Ads]'
-description: Référencez les paramètres de  [!DNL Google Ads] mots-clés.
+title: Paramètres des mots-clés [!DNL Google Ads]
+description: Référencez les paramètres des mots [!DNL Google Ads] clés.
 exl-id: b2937d18-565a-43f0-ba33-d46d4c77ec07
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/XwutnbHVQrg8mfimzVjv-Px6OeUsOWzT7-347-ff2C0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: 191
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] paramètres de mot-clé
+# Paramètres des mots-clés [!DNL Google Ads]
 
 Vous pouvez créer des mots-clés pour les campagnes qui utilisent les réseaux de recherche et d’affichage.
 
-Consultez l’ aide de Google Ads pour obtenir les [limites de mots-clés par compte](https://support.google.com/google-ads/answer/6372658).
+Consultez l’aide de Google Ads pour connaître les [limites de mots-clés par compte](https://support.google.com/google-ads/answer/6372658).
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** Les mots-clés, y compris toute [!DNL Google Ads] syntaxe de correspondance pour les mots-clés et les espaces réservés. Les comptes [!DNL Google Ads] requièrent des mots-clés avec les attributs suivants :
+**[!UICONTROL Keywords]:** les mots-clés, y compris toute syntaxe de correspondance [!DNL Google Ads] pour les mots-clés et les espaces réservés. Les comptes [!DNL Google Ads] nécessitent des mots-clés avec les attributs suivants :
 
-* La longueur maximale par mot-clé est de 80 caractères et ne peut pas dépasser 10 mots.
+* La longueur maximale par mot-clé est de 80 caractères et de 10 mots au maximum.
 * Le mot-clé ne peut contenir que des lettres, des chiffres et les caractères spéciaux suivants : espace `# $ & _ - " [] ' + . / :`
 
 Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés. Séparez plusieurs mots-clés par des virgules ou saisissez-les sur des lignes distinctes.
@@ -28,9 +36,9 @@ Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés. Séparez plusieurs mot
 >[!NOTE]
 >
 >* Vous pouvez créer des mots-clés négatifs à partir de la vue [!UICONTROL Keywords] > [!UICONTROL Negatives] et dans les paramètres du groupe publicitaire et de la campagne.
->* La modification d’un mot-clé ou d’un type de correspondance [!DNL Google Ads] supprime le mot-clé existant et en crée un nouveau.
+>* La modification d’un [!DNL Google Ads] mot-clé ou d’un type de correspondance supprime le mot-clé existant et en crée un nouveau.
 
-**[!UICONTROL Status]:** État d’affichage du mot-clé : *Actif* ou *En pause*. La valeur par défaut des nouveaux mots-clés est *Active*.
+**[!UICONTROL Status]:** statut d’affichage du mot-clé : *Actif* ou *En pause*. La valeur par défaut des nouveaux mots-clés est *Actif*.
 
 ## [!UICONTROL Bids]
 
@@ -40,9 +48,9 @@ Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés. Séparez plusieurs mot
 
 ## Espaces réservés
 
-**[!UICONTROL Param1]:** Chaîne à utiliser comme valeur de substitution si l’URL de base ou le modèle de suivi contient [&#x200B; la chaîne de substitution dynamique `{param1}`](https://support.google.com/google-ads/answer/6305348).
+**[!UICONTROL Param1]:** chaîne à utiliser comme valeur de substitution si l’URL de base ou le modèle de suivi contient [&#x200B; la chaîne de substitution dynamique `{param1}`](https://support.google.com/google-ads/answer/6305348).
 
-**[!UICONTROL Param2]:** Chaîne à utiliser comme valeur de substitution si l’URL de base ou le modèle de suivi contient [&#x200B; la chaîne de substitution dynamique `{param2}`](https://support.google.com/google-ads/answer/6305348).
+**[!UICONTROL Param2]:** chaîne à utiliser comme valeur de substitution si l’URL de base ou le modèle de suivi contient [&#x200B; la chaîne de substitution dynamique `{param2}`](https://support.google.com/google-ads/answer/6305348).
 
 ## Options d’URL
 

@@ -3,9 +3,16 @@ title: Workflows pour les publicités dynamiques
 description: Découvrez les workflows de gestion des annonces dynamiques.
 feature: Creative Dynamic Creatives
 exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
-source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
+TQID: https://experienceleague.adobe.com/2ysfPVepzFjlxE-ecuAVpX-ntQBWB9dN61AELW74ZvI
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: 643
 ht-degree: 0%
 
 ---

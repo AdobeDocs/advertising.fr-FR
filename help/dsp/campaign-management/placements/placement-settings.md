@@ -3,9 +3,23 @@ title: Paramètres d’emplacement
 description: Voir les descriptions des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/V9gGiuXBnP2TBFUY3ZB7EkZ2TNeBttOgr-qzHUSdMmk
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '4439'
+source-wordcount: 4439
 ht-degree: 0%
 
 ---
@@ -17,7 +31,7 @@ ht-degree: 0%
 **[!UICONTROL Placement name]** Nom de l’emplacement.
 
 >[!TIP]
->Utilisez une convention de nommage adaptée à votre situation. Une convention de nommage suggérée est la suivante : « *\&lt;Nom de la campagne\> : \&lt;Unité publicitaire\> : \&lt;Durée\> : \&lt;Ciblage\>* ».
+>Utilisez une convention de nommage adaptée à votre situation. Une convention de nommage suggérée est la suivante : « *\&lt;Nom de la campagne\> : \&lt;Unité publicitaire\> : \&lt;Durée\> : \&lt;Ciblage\>&lt;id de ph=&#39;97&#39;/>. »*
 
 **[!UICONTROL Status]:** statut de l’emplacement : *[!UICONTROL Active]* (par défaut) ou *[!UICONTROL Paused]*.
 
@@ -187,11 +201,11 @@ Incluez un code postal par ligne ou saisissez plusieurs valeurs séparées par d
 
   Vous pouvez afficher la liste par source ou par flux. Lorsque vous affichez la liste par flux, vous pouvez effectuer une recherche par nom de flux, clé de flux ou balise de caractéristique sélectionnée.
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private] : les offres privées que vous avez conclues (ou les offres de [!DNL Roku] privées existantes pour les emplacements [!DNL Roku]) avec les éditeurs que vous avez configurés dans DSP, ainsi que vos listes d’offres privées [&#x200B; existantes](/help/dsp/inventory/lists-deals-manage.md). Vous pouvez inclure, mais pas exclure, les stocks publics.
+* [!UICONTROL Private] | [!UICONTROL Roku Private] : vos offres privées existantes (ou offres [!DNL Roku] privées existantes pour des emplacements [!DNL Roku]) avec les éditeurs que vous avez configurés dans DSP, et vos [listes d’offres privées](/help/dsp/inventory/lists-deals-manage.md) existantes. Vous pouvez inclure, mais pas exclure, les stocks publics.
 
   Dans l’onglet [!UICONTROL Deals] , vous pouvez rechercher la liste par mot-clé, clé, ID d’offre ou balise personnalisée. Dans l&#39;onglet [!UICONTROL Deal Lists], vous pouvez rechercher la liste par nom ou ID de liste d&#39;offres.
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand] : tous les [stocks de [!UICONTROL On Demand] premium non garantis](/help/dsp/inventory/on-demand-inventory-about.md) (ou [!UICONTROL On Demand] offres [!DNL Roku] pour les emplacements [!DNL Roku]) auxquels vous êtes abonné en [!DNL DSP]. Vous pouvez inclure et exclure le stock [!UICONTROL On Demand].
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand] : tous les [stocks [!UICONTROL On Demand] premium non garantis](/help/dsp/inventory/on-demand-inventory-about.md) (ou [!UICONTROL On Demand] offres [!DNL Roku] pour les placements [!DNL Roku]) auxquels vous êtes abonné en [!DNL DSP]. Vous pouvez inclure et exclure le stock [!UICONTROL On Demand].
 
   Vous pouvez afficher la liste par source ou par flux. Lorsque vous affichez la liste par flux, vous pouvez effectuer une recherche par nom de flux, clé de flux ou région de l’éditeur, balise de catégorie ou balise de caractéristique sélectionnée.
 
@@ -357,7 +371,7 @@ Lorsque vous sélectionnez à la fois des identifiants hérités et universels, 
 1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
 1. Sélectionnez le fuseau horaire applicable.
 1. Spécifiez les intervalles :
-   * Pour sélectionner un intervalle prédéfini, cliquez sur l’un des boutons d’intervalle. Les options incluent *[!UICONTROL Weekends]**, *[!UICONTROL Weekdays]*, *[!UICONTROL Morning]*, *[!UICONTROL Lunch]*, *[!UICONTROL Dinner]* ou *[!UICONTROL Prime]* (primetime).
+   * Pour sélectionner un intervalle prédéfini, cliquez sur l’un des boutons d’intervalle. Les options incluent ***, [!UICONTROL Weekends], *[!UICONTROL Weekdays]*, *[!UICONTROL Morning]*, *[!UICONTROL Lunch]* ou *[!UICONTROL Dinner]* (primetime).*[!UICONTROL Prime]*
    * Pour sélectionner manuellement un intervalle, cliquez dans une cellule et éventuellement faites glisser pour sélectionner l’intervalle.
 1. Cliquez sur **[!UICONTROL Save]**.
 

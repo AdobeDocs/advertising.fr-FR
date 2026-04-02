@@ -3,9 +3,14 @@ title: Application de filtres de données à partir d’un menu d’en-tête de 
 description: Découvrez comment filtrer les données de la page à partir du menu d’en-tête de colonne.
 exl-id: 508f254a-d859-4155-9bbd-84e0442f01d5
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
+TQID: https://experienceleague.adobe.com/8HhbDC38BA48vw3c8fqCEaCKNUWs3q2HwCEiDfieWUM
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: 221
 ht-degree: 0%
 
 ---

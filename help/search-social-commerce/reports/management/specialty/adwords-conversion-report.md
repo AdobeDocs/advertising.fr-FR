@@ -1,30 +1,38 @@
 ---
 title: '[!UICONTROL AdWords Conversion Report]'
-description: Découvrez [!UICONTROL AdWords Conversion Report].
+description: En savoir plus sur le [!UICONTROL AdWords Conversion Report].
 exl-id: a3970c96-5b6f-4f1f-981a-0253c8204a0d
 feature: Search Reports, Search Specialty Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/qqCVk6OEu-b74kOHyBHdJKBeQjoOoirmkPDwsfihnbM
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: 207
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL AdWords Conversion Report]
 
-*[!DNL Google Ads]comptes avec [!DNL Google Ads] optimisation de conversion uniquement*
+*[!DNL Google Ads]des comptes avec [!DNL Google Ads] optimisation de conversion uniquement*
 
-[!UICONTROL AdWords Conversion Report] comprend les données de coût, de clic et d’impression, les données de conversion par type de conversion suivi par [!DNL Google Ads Conversion Optimizer] et (éventuellement) les données de mesure dérivées pour un ou plusieurs comptes, campagnes, groupes publicitaires, publicités ou mots-clés. Les données ne s’affichent que lorsque l’ [!DNL Google Ads Conversion Optimizer] est activé dans les paramètres d’offre de la campagne (Search, Social et Commerce n’optimisent donc pas les offres pour la campagne). Par défaut, les données incluent une ligne pour chaque conversion pour chaque mot-clé applicable pour chaque unité de temps de la période spécifiée. Les lignes se trouvent dans l’ordre croissant par nom de groupe publicitaire, puis par mot-clé par défaut. Le rapport n’inclut pas les données de coût, de clic ou d’impression, ni les données de conversion suivies par [!DNL Adobe].
+Le [!UICONTROL AdWords Conversion Report] comprend des données de coût, de clic et d’impression ; des données de conversion par type de conversion suivi par le [!DNL Google Ads Conversion Optimizer] ; et (éventuellement) des données de mesure dérivées pour un ou plusieurs comptes, campagnes, groupes publicitaires, annonces ou mots-clés. Les données s’affichent uniquement lorsque l’[!DNL Google Ads Conversion Optimizer] est activée dans les paramètres d’enchères de la campagne (et donc Search, Social et Commerce n’optimise pas les enchères pour la campagne). Par défaut, les données incluent une ligne pour chaque conversion de mot-clé applicable pour chaque unité de temps de la période spécifiée. Les lignes sont classées par ordre croissant, par nom de groupe publicitaire, puis par mot-clé par défaut. Le rapport n’inclut pas les données de coût, de clic ou d’impression, ni les données de conversion suivies par [!DNL Adobe].
 
 Vous pouvez afficher les données des deux mois précédents.
 
 >[!NOTE]
 >
->Les données de ce rapport sont extraites chaque jour à 14 h (23 h) pour la veille. Par exemple, à 23h00 le 18 juin, il extrait les données du 17 juin. Si vous exécutez le rapport le 19 juin à 9h00 — avant que les données du 18 juin ne soient extraites — alors le rapport inclut les données jusqu’au 17 juin à 23h00.
+>Les données de ce rapport sont extraites pour la journée précédente à 23 :00 (23 :00) chaque jour. Par exemple, à 23:00 le 18 juin, il extrait les données du 17 juin. Si vous exécutez le rapport le 19 juin à 09:00 avant l’extraction des données du 18 juin, le rapport inclut les données jusqu’au 17 juin à 23:00.
 
 ## Colonnes par défaut
 
-Pour obtenir des descriptions de toutes les colonnes par défaut et personnalisées, voir &quot;[Colonnes de rapports pour les rapports spécialisés](specialty-report-columns.md)&quot;.
+Pour la description de toutes les colonnes par défaut et personnalisées, voir « [Colonnes de rapport pour les rapports spécialisés](specialty-report-columns.md) ».
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -52,5 +60,5 @@ Pour obtenir des descriptions de toutes les colonnes par défaut et personnalis�
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports spécialisés](specialty-report-about.md)
->* [Générer un rapport de spécialité](specialty-report-generate.md)
->* [Paramètres de rapport de spécialité](specialty-report-settings.md)
+>* [Générer un rapport spécialisé](specialty-report-generate.md)
+>* [Paramètres des rapports spécialisés](specialty-report-settings.md)

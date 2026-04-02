@@ -3,9 +3,16 @@ title: Paramètres des rapports spécialisés
 description: Découvrez les paramètres obligatoires et facultatifs des rapports spécialisés.
 exl-id: 2657f33c-b77d-4e95-83c0-12ec08a1cd3a
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+TQID: https://experienceleague.adobe.com/J7cGX14lJlEyniDXaX4rtWb-gzaP3kzso-wnvgAcbh8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3026'
+source-wordcount: 3026
 ht-degree: 0%
 
 ---
