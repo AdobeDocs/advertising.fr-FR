@@ -3,16 +3,29 @@ title: À propos des insights
 description: Découvrez les informations sur les performances des visualisations.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: a5a29233034121a310ee172fe2cf6997047733c2
+TQID: https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 1e4a456c3add52553936db29a72f42e7d45506c3
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: 1371
 ht-degree: 0%
 
 ---
 
 # À propos des insights
 
-*Fonction Beta*
+*Fonction*
 
 Grâce aux visualisations, vous obtenez des informations de haut niveau sur les performances qui vous permettent d’optimiser efficacement vos campagnes et de découvrir de nouvelles opportunités d’optimisation des performances. Vous pouvez afficher les données de plusieurs campagnes pour un annonceur spécifié ou effectuer une analyse vers le bas à un niveau inférieur.
 
@@ -84,13 +97,41 @@ L’onglet [!UICONTROL Household Conversion] fournit des mesures de conversion d
    * **Impact modéré**
    * **Impact limité :** attention requise
 
-## Ouvrir les informations sur les performances
+### onglet [!UICONTROL Audience Analysis]
 
-* (Pour ouvrir les insights pour toutes les campagnes) Dans le menu principal, cliquez sur **[!UICONTROL Insights BETA]**.
+L’onglet [!UICONTROL Audience Analysis] fournit des informations en temps réel sur l’efficacité du ciblage des segments d’audience au niveau de l’emplacement. Elle comprend les tendances de taille des segments au fil du temps et une répartition funnel des enchères quotidiennes. Utilisez ces informations pour surveiller la stabilité de votre pool d’audiences cibles et identifier où le volume est perdu entre la correspondance d’audience et la diffusion d’impressions. Les données sont disponibles uniquement pour les emplacements qui ciblent des segments d’audience.
 
-* (Pour ouvrir des informations pour une campagne, un package ou un emplacement spécifique) En regard du nom de l’entité dans la vue [!UICONTROL Campaigns], [!UICONTROL Packages] ou [!UICONTROL Placements], cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
+Par défaut, les données s’affichent pour un annonceur spécifique et un emplacement spécifique. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur ou sélectionner un autre emplacement.
 
-* (Pour ouvrir des informations pour un emplacement spécifique) En regard du nom de l’entité dans la vue [!UICONTROL Campaigns], [!UICONTROL Packages] ou [!UICONTROL Placements], cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Insights]** .
+Ces informations incluent :
+
+* **[!UICONTROL Audience Segment Size Trends]:** un graphique de tendance affiche le nombre quotidien d’utilisateurs uniques sur tous les segments d’audience pour un emplacement. Utilisez ce graphique pour vérifier si votre audience cible augmente, se stabilise ou se contracte au fil du temps. Une baisse durable peut indiquer que les segments expirent ou rétrécissent et peut nécessiter une actualisation des données de segment ou un ciblage étendu.
+
+  Pour afficher le nombre exact d’utilisateurs et d’utilisatrices et la date d’un point de données spécifique, placez le curseur au-dessus du point.
+
+* **[!UICONTROL Audience Funnel Analysis]:** tableau de séries temporelles quotidiennes qui montre comment votre audience cible diminue du pool total disponible pour atteindre le niveau d’impression réel après l’application de tous les filtres de ciblage et d’éligibilité. Les données s’affichent pour la journée précédente. Le funnel inclut les mesures suivantes, dans l’ordre décroissant :
+
+   * **[!UICONTROL Audience Segment Size]:** nombre total d’utilisateurs uniques dans l’audience agrégée.
+
+   * **[!UICONTROL Cookies in Bid Stream]:** nombre d’utilisateurs de l’audience cible qui étaient actifs dans le flux d’enchères au cours de la période de 24 heures précédente. Ce nombre inclut chaque utilisateur de la portée, que l’emplacement lui ait été proposé ou non. Une diminution du [!UICONTROL Total Target Audience] au [!UICONTROL Reachable Audience] reflète la partie de l&#39;audience qui n&#39;était pas active dans le flux d&#39;enchères au cours de la période de rapport, ce qui ne reflète pas la performance des enchères.
+
+   * **[!UICONTROL Eligible cookies]:** sous-ensemble d’utilisateurs accessibles qui restent après l’application des filtres de zone géographique, de type d’appareil, de système d’exploitation et de navigateur. Si ce nombre est considérablement inférieur à [!UICONTROL Reachable Audience], pensez à déterminer si le ciblage de type d’appareil ou de zone géographique est trop restrictif.
+
+  **[!UICONTROL Cookies Bid On]:** nombre d&#39;opportunités éligibles pour lesquelles l&#39;emplacement a soumis une offre. Une baisse marquée à ce stade peut indiquer des contraintes de budget ou de rythme qui limitent le volume des offres.
+
+   * **[!UICONTROL Impression Wins]:** nombre d’opportunités pour lesquelles l’emplacement a obtenu une impression. Si les gains sont beaucoup plus faibles que les enchères, le prix de votre enchère peut être inférieur au taux du marché en vigueur pour l&#39;inventaire ciblé.
+
+## Affichage des informations sur les performances
+
+1. Ouvrez un ensemble d’informations :
+
+   * (Pour ouvrir les insights pour toutes les campagnes) Dans le menu principal, cliquez sur **[!UICONTROL Insights BETA]**.
+
+   * (Pour ouvrir des informations pour une campagne, un package ou un emplacement spécifique) En regard du nom de l’entité dans la vue [!UICONTROL Campaigns], [!UICONTROL Packages] ou [!UICONTROL Placements], cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
+
+   * (Pour ouvrir des informations pour un emplacement spécifique) En regard du nom de l’entité dans la vue [!UICONTROL Campaigns], [!UICONTROL Packages] ou [!UICONTROL Placements], cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Insights]** .
+
+1. (Facultatif) Pour afficher des données pour n’importe quel point du
 
 ## Application de filtres à un onglet
 
@@ -102,13 +143,17 @@ L’onglet [!UICONTROL Household Conversion] fournit des mesures de conversion d
 
 1. Cliquez sur **[!UICONTROL Apply]**.
 
-1. (Facultatif) Pour réduire davantage les données, sélectionnez le type d’entité dans la barre d’outils, puis sélectionnez une valeur d’entité spécifique (une campagne, un package ou un emplacement unique).
+1. (Facultatif) Pour réduire davantage les données, sélectionnez le type de dimension dans la barre d’outils, puis sélectionnez une dimension spécifique (une campagne, un package ou un emplacement unique).
+
+1. ([!UICONTROL Audience Funnel Analysis] uniquement ; facultatif) Pour modifier les incréments de temps entre quotidien et hebdomadaire, sélectionnez **[!UICONTROL Day]** ou **[!UICONTROL Week]**.
 
 ## Modification de la dimension signalée pour un insight
 
 * Dans le menu déroulant situé dans le coin supérieur gauche d’insight, sélectionnez la dimension.
 
 ## Modification des mesures signalées pour un insight
+
+*Disponible pour obtenir quelques informations*
 
 Pour les mesures de conversion, la prise en charge est disponible pour les conversions suivies par Adobe Advertising et celles suivies par Adobe Analytics.
 
@@ -118,7 +163,7 @@ Pour les mesures de conversion, la prise en charge est disponible pour les conve
 
 ## Exporter toutes les visualisations d’un onglet dans un fichier PDF
 
-* Au-dessus de l’onglet, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Export]**.
+* Dans le coin supérieur droit au-dessus de l’onglet, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Export]**.
 
   Le fichier est enregistré dans le dossier Téléchargements par défaut de votre navigateur.
 
@@ -127,6 +172,11 @@ Pour les mesures de conversion, la prise en charge est disponible pour les conve
 * Dans le coin supérieur droit d’insight, cliquez sur ![Télécharger](/help/creative/assets/download.png "Télécharger").
 
   Le fichier est enregistré dans le dossier Téléchargements par défaut de votre navigateur.
+
+<!-- 
+Add:
+## Save a custom view for a tab
+-->
 
 >[!MORELIKETHIS]
 >
