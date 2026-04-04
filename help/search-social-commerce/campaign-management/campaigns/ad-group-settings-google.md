@@ -4,16 +4,12 @@ description: Référencez les paramètres des groupes  [!DNL Google Ads] ’anno
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/pDFheVIM62XNCh2-7jbCscIqOrcTep7qnNg5S1tHYF8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: 450
 ht-degree: 0%
 
 ---
@@ -34,7 +30,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Rotation Mode]:** fréquence à laquelle [!DNL Google Ads] diffuse vos publicités actives les unes par rapport aux autres au sein du groupe publicitaire :
 
-* *[!UICONTROL Optimize]:* Google Ads privilégie les publicités dont il s’attend à ce qu’elles soient plus performantes que les autres publicités du groupe. Ces publicités entrent plus souvent dans les enchères publicitaires et, au fil du temps, une seule publicité est privilégiée. Cela peut être incompatible avec vos objectifs commerciaux et d’optimisation.
+* *[!UICONTROL Optimize]:* [!DNL Google Ads] privilégie les annonces qu’il s’attend à voir performer plus que les autres annonces du groupe publicitaire. Ces publicités entrent plus souvent dans les enchères publicitaires et, au fil du temps, une seule publicité est privilégiée. Cela peut être incompatible avec vos objectifs commerciaux et d’optimisation.
 
 * *[!UICONTROL Rotate forever]:*   Chacune de vos publicités entre dans la vente aux enchères un nombre plus régulier de fois, ce qui permet à Search, Social et Commerce de noter vos publicités non seulement sur le taux de clic publicitaire, mais également sur les conversions.
 
