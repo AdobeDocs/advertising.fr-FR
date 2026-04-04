@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 116
+source-wordcount: 114
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Les annonces de recherche dynamique (DSA) sont disponibles uniquement pour les groupes d’annonces dynamiques de recherche [!DNL Google Ads] dans les campagnes de recherche seule. Le réseau publicitaire génère dynamiquement le titre et choisit la page de destination et l’URL d’affichage d’une publicité de recherche dynamique, puis génère automatiquement l’URL finale.
 
-Consultez l’aide de Google Ads pour connaître les [limites d’annonces par compte](https://support.google.com/google-ads/answer/6372658?hl=en).
+Voir l’aide [!DNL Google Ads] pour connaître les [limites publicitaires par compte](https://support.google.com/google-ads/answer/6372658?hl=en).
 
 >[!NOTE]
 >

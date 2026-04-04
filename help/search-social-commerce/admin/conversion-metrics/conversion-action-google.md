@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 459
+source-wordcount: 457
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Une fois que vous avez créé l’action de conversion et implémenté une balis
 
 ## Paramètres des actions de conversion {#conversion-action-settings-google}
 
-**[!UICONTROL Select an Account]:** compte Google Ads applicable.
+**[!UICONTROL Select an Account]:** compte [!DNL Google Ads] applicable.
 
 **[!UICONTROL Type of Conversion]:** Type de conversion à suivre : sélectionnez *[!UICONTROL Import conversion]*. Tous les autres types sont utilisés pour créer des balises de suivi de conversion (et non des actions de conversion) pour d’autres types de conversions.
 

@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 785
+source-wordcount: 787
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Vous pouvez charger vos données de conversion propriétaires hors ligne, y comp
 
 `Parameters:TimeZone=insert_timezone`
 
-Entrez le fuseau horaire du compte à cet emplacement ou dans la colonne « [!UICONTROL Conversion Time] » pour chaque ligne. Utilisez a\) ([!DNL Google Ads only]) le [format d’ID de fuseau horaire pris en charge](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) ou b\) le décalage GMT, comme indiqué par + ou - et la différence temporelle à 4 chiffres (par exemple : -0500 pour New York, +0100 pour Berlin ou +0000 pour le temps universel coordonné).
+Entrez le fuseau horaire du compte à cet emplacement ou dans la colonne « [!UICONTROL Conversion Time] » pour chaque ligne. Utilisez a\) ([!DNL [!DNL Google Ads] uniquement]) le [format d’ID de fuseau horaire pris en charge](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) ou b\) le décalage GMT, comme indiqué par + ou - et la différence temporelle à 4 chiffres (par exemple : -0500 pour New York, +0100 pour Berlin ou +0000 pour le temps universel coordonné).
 
 ### Colonnes et valeurs du tableau pour les [!DNL Google Ads]
 

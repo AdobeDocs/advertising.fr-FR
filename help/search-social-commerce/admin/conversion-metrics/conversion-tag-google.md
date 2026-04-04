@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Une fois que vous avez ajouté les balises à votre site web et qu’elles comme
 
 ## Paramètres des balises de conversion {#conversion-tag-settings-google}
 
-**[!UICONTROL Select an Account]:** compte Google Ads applicable.
+**[!UICONTROL Select an Account]:** compte [!DNL Google Ads] applicable.
 
 **[!UICONTROL Type of Conversion]:** type de conversion à suivre : *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* ou *[!UICONTROL Clicks to your number on your mobile website]*. **Remarque :** *[!UICONTROL Import conversion]* est utilisé à une autre fin. Voir « [Créer une action de conversion pour une conversion  [!DNL Google Ads]  pour les prospects](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) ».
 
