@@ -145,7 +145,7 @@ Pour plus d’explications sur les raisons de la variation des mesures, voir « 
 
 ## Différences de données dans les [!DNL Paid Search Detection] Adobe Analytics
 
-La fonctionnalité [héritée [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html) de [!DNL Analytics] permet aux entreprises de [définir des règles pour effectuer le suivi du trafic de référencement payant et organique](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=fr) pour des moteurs de recherche spécifiés. Les règles [!DNL Paid Search Detection] utilisent à la fois une chaîne de requête et le domaine référent pour identifier le trafic de référencement payant et naturel. Les rapports [!DNL Paid Search Detection] font partie du groupe plus vaste de rapports [Méthodes de recherche](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=fr), qui expirent lorsqu’un événement spécifié (tel qu’un passage en caisse) se produit ou que la visite se termine.
+La fonctionnalité [héritée [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=fr) de [!DNL Analytics] permet aux entreprises de [définir des règles pour effectuer le suivi du trafic de référencement payant et organique](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=fr) pour des moteurs de recherche spécifiés. Les règles [!DNL Paid Search Detection] utilisent à la fois une chaîne de requête et le domaine référent pour identifier le trafic de référencement payant et naturel. Les rapports [!DNL Paid Search Detection] font partie du groupe plus vaste de rapports [Méthodes de recherche](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=fr), qui expirent lorsqu’un événement spécifié (tel qu’un passage en caisse) se produit ou que la visite se termine.
 
 Voici l’interface de création d’un jeu de règles [!DNL Paid Search Detection] :
 
@@ -253,7 +253,7 @@ Elles semblent analogues, mais les clics et les visites représentent des donné
 
 * **Clic :** le [!DNL DSP] ou le moteur de recherche enregistre un clic lorsqu’un visiteur clique sur une annonce publicitaire sur le site web d’un éditeur.
 
-* **Visite :** [!DNL Analytics] définit une [visite](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) comme une série de pages vues par un utilisateur, se terminant selon l’un des critères, tels que 30 minutes d’inactivité.
+* **Visite :** [!DNL Analytics] définit une [visite](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=fr) comme une série de pages vues par un utilisateur, se terminant selon l’un des critères, tels que 30 minutes d’inactivité.
 
 Par définition, un clic peut entraîner plusieurs visites.
 

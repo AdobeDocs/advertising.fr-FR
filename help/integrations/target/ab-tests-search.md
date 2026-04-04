@@ -77,7 +77,7 @@ Les instructions suivantes mettent en évidence des informations relatives au ca
 
    1. Dans **[!UICONTROL Reporting Settings]**, sélectionnez les **[!UICONTROL Company Name]** et **[!UICONTROL Report Suite]** connectés à votre compte Search, Social et Commerce.
 
-      Pour obtenir des conseils supplémentaires sur les rapports, voir « [Bonnes pratiques et dépannage en matière de rapports](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html) ».
+      Pour obtenir des conseils supplémentaires sur les rapports, voir « [Bonnes pratiques et dépannage en matière de rapports](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=fr) ».
 
    1. Dans le champ **[!UICONTROL Date Range]** , saisissez les dates de début et de fin appropriées pour le test.
 

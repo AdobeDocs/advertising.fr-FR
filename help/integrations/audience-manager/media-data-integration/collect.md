@@ -50,7 +50,7 @@ Les annonceurs peuvent créer et implémenter des balises d’événement pour l
 
 >[!NOTE]
 >
->Si votre entreprise utilise le suivi des clics [!DNL Analytics], vous n’aurez peut-être pas besoin du suivi des clics Audience Manager. Adobe Analytics capture les signaux de clic et peut les envoyer à Audience Manager par le biais du [&#x200B; transfert côté serveur &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Si votre entreprise utilise le suivi des clics [!DNL Analytics], vous n’aurez peut-être pas besoin du suivi des clics Audience Manager. Adobe Analytics capture les signaux de clic et peut les envoyer à Audience Manager par le biais du [&#x200B; transfert côté serveur &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr).
 
 ### Syntaxe des pixels
 
@@ -96,7 +96,7 @@ Les deux types de pixels peuvent contenir des paramètres supplémentaires sous 
 
 Dans la paire clé-valeur, la variable valeur peut être un identifiant codé en dur ou une *macro*, qui est une petite unité de code autonome remplacée dynamiquement par les valeurs correspondantes lors du chargement de la balise publicitaire pour la campagne et le suivi des utilisateurs. Pour les paramètres liés à la campagne, vous pouvez utiliser [les macros &#x200B;](/help/dsp/campaign-management/macros.md) au lieu des macros Audience Manager, afin d’envoyer les attributs de campagne avec les données d’impression ou de clic correspondantes à Audience Manager, à l’aide d’un seul pixel sur toutes les publicités. Les macros DSP que vous insérez dans les pixels d’événement doivent être des valeurs appropriées pour les paires clé-valeur que vous incluez dans les pixels. Par exemple, pour la clé `d_placement`, vous utiliserez la macro DSP `${TM_PLACEMENT_ID_NUM}` comme valeur pour capturer les identifiants d&#39;emplacement générés par la macro Adobe Advertising.
 
-Pour obtenir une liste des macros prises en charge par Audience Manager pour les pixels d’événement d’impression, voir « [Capture de données d’impression de campagne via des appels de pixels](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs) ».
+Pour obtenir une liste des macros prises en charge par Audience Manager pour les pixels d’événement d’impression, voir « [Capture de données d’impression de campagne via des appels de pixels](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=fr#supported-key-value-pairs) ».
 
 Pour obtenir une liste des macros prises en charge par Audience Manager pour les pixels d’événement de clic, voir « [Capture des données de clic de Campaign via des appels de pixels](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html?lang=fr) ».
 

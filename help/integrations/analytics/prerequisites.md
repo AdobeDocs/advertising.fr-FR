@@ -83,7 +83,7 @@ Le JavaScript [!DNL Analytics for Advertising] utilise ces paramètres pour dét
 
 >[!NOTE]
 >
->Pour segmenter les données pour une période différente, vous pouvez [configurer des segments personnalisés](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) avec différents intervalles de recherche en amont dans Analysis Workspace.
+>Pour segmenter les données pour une période différente, vous pouvez [configurer des segments personnalisés](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=fr) avec différents intervalles de recherche en amont dans Analysis Workspace.
 
 ## Environnements publicitaires pris en charge
 

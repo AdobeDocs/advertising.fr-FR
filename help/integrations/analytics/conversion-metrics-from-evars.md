@@ -56,7 +56,7 @@ La plupart des tâches suivantes doivent être effectuées par un administrateur
    >
    >Seuls les administrateurs de compte [!DNL Analytics] peuvent créer des règles de traitement, sauf s’ils ont accordé une autorisation à des non-administrateurs.
 
-   1. [Créez une règle de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en) en effectuant le paramétrage suivant :
+   1. [Créez une règle de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=fr) en effectuant le paramétrage suivant :
 
       * Pour la condition qui doit être remplie, spécifiez la [!DNL eVars] ou la [!DNL props] requise.
 
