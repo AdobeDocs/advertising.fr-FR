@@ -4,9 +4,13 @@ description: Découvrez comment charger des objectifs pour vos portfolios hybrid
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
 TQID: https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
 source-wordcount: 676
@@ -48,7 +52,7 @@ Les chargements vers [!DNL Google Ads] et [!DNL Microsoft Advertising] ont lieu 
 
 1. Vérifiez que chaque objectif — nommé `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` — apparaît dans les deux jours sur le réseau publicitaire.
 
-   Dans l’éditeur de [!DNL Google Ads], recherchez vos [ actions de conversion ](https://support.google.com/google-ads/answer/11461796). Dans l’éditeur de [!DNL Microsoft Advertising], recherchez vos [ objectifs de conversion ](https://help.ads.microsoft.com/#apex/ads/en/56709).
+   Dans l’éditeur de [!DNL Google Ads], recherchez vos [&#x200B; actions de conversion &#x200B;](https://support.google.com/google-ads/answer/11461796). Dans l’éditeur de [!DNL Microsoft Advertising], recherchez vos [&#x200B; objectifs de conversion &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/56709).
 
    Si nécessaire, mettez à jour la période pour inclure la date de chargement.
 
