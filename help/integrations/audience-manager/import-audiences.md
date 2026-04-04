@@ -56,7 +56,7 @@ Pour accéder aux audiences [!DNL Adobe] dans DSP ou [!DNL Creative], vous devez
 
 * Les visiteurs du site Web de l’annonceur n’incluent pas un grand nombre d’utilisateurs [!DNL Apple Safari].
 
-* (Recommandé lorsque l’annonceur utilise à la fois Audience Manager et [!DNL Analytics]) Pour réduire les appels à chaque page web, supprimez le code de [!DNL Data Integration Library] Audience Manager existant pour la collecte de données et activez le transfert côté serveur pour chaque suite de rapports [!DNL Analytics]. Pour plus d’informations, voir « [Présentation du transfert côté serveur](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf).
+* (Recommandé lorsque l’annonceur utilise à la fois Audience Manager et [!DNL Analytics]) Pour réduire les appels à chaque page web, supprimez le code de [!DNL Data Integration Library] Audience Manager existant pour la collecte de données et activez le transfert côté serveur pour chaque suite de rapports [!DNL Analytics]. Pour plus d’informations, voir « [Présentation du transfert côté serveur](https://experienceleague.adobe.com/fr/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf).
 
 * (Recommandé) Pour des taux de correspondance plus élevés, envoyez uniquement des données de site web propriétaire à Adobe Advertising. Si l’annonceur regroupe des données tierces ou des données hors ligne provenant d’un système de gestion de la relation client, la fuite de données peut réduire les taux de correspondance.
 

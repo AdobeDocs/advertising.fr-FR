@@ -79,7 +79,7 @@ Une fois que les données d’impression et de clic de campagne sont disponibles
 
 ## [!DNL Audience Optimization Reports]
 
-Vous pouvez tirer parti de [&#x200B; [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html) pour identifier les opportunités de performances potentielles pour les segments de vos campagnes. Ces rapports combinent les données d’impression, de clic et de conversion de la campagne avec les mesures de segment afin d’informer les optimisations centrées sur les segments et un mix de canaux efficace.
+Vous pouvez tirer parti de [&#x200B; [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html?lang=fr) pour identifier les opportunités de performances potentielles pour les segments de vos campagnes. Ces rapports combinent les données d’impression, de clic et de conversion de la campagne avec les mesures de segment afin d’informer les optimisations centrées sur les segments et un mix de canaux efficace.
 
 ### Types de rapports Audience Optimization pertinents
 
@@ -88,7 +88,7 @@ Vous pouvez tirer parti de [&#x200B; [!DNL Audience Optimization Reports]](https
 | [[!UICONTROL Segment Performance] Report](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/segment-performance.html?lang=fr) | Compare les segments mappés et non mappés par impressions et taux de conversion. |
 | [[!UICONTROL Trend Analysis and Volume Analysis] Reports]9https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/trend-analysis-volume-analysis.html) | Affichez des données sur les impressions, les taux de clics publicitaires et les conversions pour un large éventail de dimensions publicitaires. |
 | [[!UICONTROL Optimal Frequency] Report](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/optimal-frequency.html?lang=fr) | Permet de trouver l’équilibre optimal entre le nombre d’impressions et de conversions diffusées. Il permet d’ajuster le nombre d’impressions à afficher avant de commencer à voir des retours décroissants. |
-| [[!UICONTROL Unique User Reach] Report](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html) | Un graphique à bulles, dans lequel chaque bulle est dimensionnée en proportion directe du nombre d’utilisateurs uniques pour la dimension sélectionnée. |
+| [[!UICONTROL Unique User Reach] Report](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html?lang=fr) | Un graphique à bulles, dans lequel chaque bulle est dimensionnée en proportion directe du nombre d’utilisateurs uniques pour la dimension sélectionnée. |
 
 ### Considérations
 

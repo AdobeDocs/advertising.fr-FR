@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: 1396
 ht-degree: 0%
 
 ---
@@ -48,19 +48,17 @@ Votre rôle détermine les options disponibles :<!-- add link when available -->
 
    * **[!UICONTROL Objectives]** Ouvre une nouvelle vue [!UICONTROL Objectives] à partir de laquelle vous pouvez afficher tous vos objectifs existants et créer, modifier et supprimer des objectifs.
 
-   * **[!UICONTROL Conversions]** Quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Admin] > [!UICONTROL Conversions] .
+<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
 
-   * **[!UICONTROL Conversion Value Rules]** Ouvre les vues en lecture seule de vos règles de valeur de conversion au niveau de la campagne et au niveau du compte. Pour gérer vos règles de valeur de conversion, utilisez la vue héritée [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
+* **[!UICONTROL Conversion Value Rules]** Ouvre les vues en lecture seule de vos règles de valeur de conversion au niveau de la campagne et au niveau du compte. Pour gérer vos règles de valeur de conversion, utilisez la vue héritée [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Constraints]** Quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Optimization] > [!UICONTROL Constraints] .
+* **[!UICONTROL Constraints]** Ouvre une vue en lecture seule de vos contraintes existantes. Pour gérer vos contraintes, utilisez la vue héritée [!UICONTROL Optimization] > [!UICONTROL Constraints] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Plan]** le sous-menu :
 
    * **[!UICONTROL Simulations]** Ouvre une nouvelle vue de [[!UICONTROL Simulations]](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) à partir de laquelle vous pouvez afficher toutes vos simulations personnalisées créées par l’utilisateur ou l’utilisatrice, ainsi que les simulations hebdomadaires générées automatiquement, générer de nouvelles simulations personnalisées et réexécuter les simulations existantes. Le bouton [!UICONTROL Spend Planner] ouvre l’outil de [!UICONTROL Spend Recommendation] hérité dans [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
    * **[!UICONTROL Spend Planner]** Quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] .
-
-   * **[!UICONTROL Label Classification]** Quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Campaigns] > [!UICONTROL Label Classifications] .
 
 * **[!UICONTROL Manage]** le sous-menu :
 
@@ -90,9 +88,15 @@ Votre rôle détermine les options disponibles :<!-- add link when available -->
 
    * **[!UICONTROL History Logs]** : quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Insights & Reports] > [!UICONTROL Change History] .
 
+   * **[!UICONTROL Label Classification]** Ouvre une nouvelle vue [!UICONTROL Label Classifications]. Vous pouvez gérer les classifications et affecter/annuler l’affectation de valeurs de classification à tout composant de compte applicable disponible dans la nouvelle interface utilisateur.
+
+   * **[!UICONTROL Bulksheets]** : quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Campaigns] > [!UICONTROL Bulksheets] .
+
 * **[!UICONTROL Target]** le sous-menu :
 
-   * **[!UICONTROL Audience]** : ouvre une nouvelle vue [!UICONTROL Audiences], qui affiche toutes les audiences existantes pour l’annonceur. Pour gérer vos audiences, utilisez la vue héritée [!UICONTROL Campaigns] > [!UICONTROL Audiences] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Audiences]** : ouvre une nouvelle vue [!UICONTROL Audiences], qui affiche toutes les audiences existantes pour l’annonceur, toutes les cibles d’audience et toutes les exclusions d’audience. Pour gérer vos audiences, utilisez la vue héritée [!UICONTROL Campaigns] > [!UICONTROL Audiences] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
+
+   * **[!UICONTROL Auto Targets]** Quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Campaigns] > [!UICONTROL Campaigns] .
 
    * **[!UICONTROL Keywords]** Ouvre une nouvelle vue [!UICONTROL Keywords], qui affiche les mots-clés existants et les mots-clés négatifs pour l’annonceur. Vous pouvez gérer les affectations de contraintes pour les mots-clés sélectionnés.
 
@@ -104,8 +108,6 @@ Votre rôle détermine les options disponibles :<!-- add link when available -->
 
 * **[!UICONTROL Assets]** le sous-menu :
 
-   * **[!UICONTROL Auto Targets]** Quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Campaigns] > [!UICONTROL Campaigns] .
-
    * **[!UICONTROL Creatives]** Quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Campaigns] > [!UICONTROL Campaigns] .
 
    * **[!UICONTROL Extensions]** Ouvre les vues en lecture seule de vos extensions d’annonce existantes. Pour gérer vos extensions, utilisez la vue héritée [!UICONTROL Campaigns] > [!UICONTROL Campaigns] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
@@ -114,13 +116,15 @@ Votre rôle détermine les options disponibles :<!-- add link when available -->
 
 * **[!UICONTROL Set Up]** le sous-menu :
 
-   * **[!UICONTROL Accounts]** : quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Campaigns] > [!UICONTROL Campaigns] .
+   * **[!UICONTROL Manager Accounts]** : quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Admin] > [!UICONTROL Manager Accounts] .
+
+   * **[!UICONTROL Accounts]** : ouvre une nouvelle vue [!UICONTROL Accounts]. Vous pouvez gérer les comptes réseau publicitaires synchronisés par le biais d’une connexion API ou configurés par le biais du chargement de données. Vous pouvez également gérer les comptes [!UICONTROL Naver] existants.
+
+   * **[!UICONTROL Import Campaigns]** : quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Tools] > [!UICONTROL Import Campaigns] .
 
 <!--
- What's happenening to these?
+ What's happening to these?
 
-Campaigns > ACM
-Campaigns > Bulksheets
 Campaigns > Asset Library
 
 Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
@@ -128,7 +132,6 @@ Insights > Notification Center (doesn't open from Dashboard > Alerts & Notificat
 Tools > Conversion Upload Setup
 Tools > Generic Tracking
 Tools > Inventory Selection
-Import Campaigns
 
 Tools > Admin > Data Source Setup
 -->

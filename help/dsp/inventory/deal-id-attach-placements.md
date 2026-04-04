@@ -13,9 +13,9 @@ subfeature_v2:
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
 workflow-type: tm+mt
-source-wordcount: 278
+source-wordcount: 275
 ht-degree: 0%
 
 ---
@@ -40,21 +40,21 @@ Vous pouvez également [joindre des annonces à des emplacements](/help/dsp/camp
 
 1. Dans les paramètres [!UICONTROL Ad & Campaign Selection], sélectionnez les annonces à utiliser pour l’emplacement :
 
-       1. Sélectionnez l’annonceur, la campagne et le type d’annonce. Vous pouvez éventuellement sélectionner un statut d’annonce publicitaire selon lequel filtrer les annonces.
-       
-       1. Dans la liste des publicités disponibles, cochez la case en regard de chaque publicité à utiliser pour l’offre.
-       
-       1. Cliquez sur **&#x200B;**.[!UICONTROL Apply]
-   
-   1. Dans l’écran des paramètres d’emplacement :
+   1. Sélectionnez l’annonceur, la campagne et le type d’annonce. Vous pouvez éventuellement sélectionner un statut d’annonce publicitaire selon lequel filtrer les annonces.
 
-      1. Saisissez le nom de l’emplacement.
+   1. Dans la liste des publicités disponibles, cochez la case en regard de chaque publicité à utiliser pour l’offre.
 
-      1. (Facultatif) Modifiez les [paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md), y compris en remplaçant l’enchère par défaut, qui est automatiquement renseignée avec la valeur CPM de l’opération ; en modifiant la période ; ou en joignant d’autres annonces.
+   1. Cliquez sur **[!UICONTROL Apply]**.
+
+1. Dans l’écran des paramètres d’emplacement :
+
+   1. Saisissez le nom de l’emplacement.
+
+   1. (Facultatif) Modifiez les [paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md), y compris en remplaçant l’enchère par défaut, qui est automatiquement renseignée avec la valeur CPM de l’opération ; en modifiant la période ; ou en joignant d’autres annonces.
 
       L’opération est automatiquement ciblée dans la section Cibles d’inventaire . Toutes les autres options de ciblage ne sont pas applicables.
 
-      1. Cliquez sur **[!UICONTROL Create placement]**.
+   1. Cliquez sur **[!UICONTROL Create placement]**.
 
 L’emplacement commence à s’exécuter une fois que l’éditeur a activé votre ID d’offre PG.
 

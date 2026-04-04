@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
 source-wordcount: 304
 ht-degree: 0%
@@ -31,7 +31,7 @@ Chaque entité éligible peut avoir des valeurs de libellé pour plusieurs class
 
 ## La vue Classifications des libellés
 
-Dans l’interface utilisateur héritée, la vue [!UICONTROL Labels Classifications] se trouve sous [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]. Dans la nouvelle interface utilisateur, la vue [!UICONTROL Labels Classifications] se trouve sous [!UICONTROL Reports] > [!UICONTROL Labels Classifications].
+Dans la nouvelle interface utilisateur, la vue [!UICONTROL Labels Classifications] se trouve sous [!UICONTROL Reports] > [!UICONTROL Labels Classifications]. Dans l’interface utilisateur héritée, la vue [!UICONTROL Labels Classifications] se trouve sous [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications].
 
 La vue [!UICONTROL Labels Classifications] comprend les sous-vues [!UICONTROL Classifications] et [!UICONTROL Label Values]. Vous pouvez afficher des données pour vos classifications d’étiquettes, [créer](classification-create.md) et [supprimer](classification-delete.md) classifications d’étiquettes et afficher des données pour vos valeurs de classification d’étiquettes. Par défaut, les données s’affichent pour vos classifications et valeurs de libellés au niveau des mots-clés, mais vous pouvez éventuellement afficher les données pour vos classifications et valeurs au niveau des annonces.
 
