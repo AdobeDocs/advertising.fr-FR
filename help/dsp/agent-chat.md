@@ -5,24 +5,22 @@ feature: DSP Introduction, Creative Introduction
 hidefromtoc: true
 hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
+source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
 # Rechercher de la documentation sur les produits à l’aide d’une interface de chat assistée par IA
 
-*Fonction Beta*
-
 *Prise en charge en anglais uniquement*
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Utilisez l’interface de conversation de l’IA pour rechercher du contenu conceptuel et pratique dans le [Guide d’Advertising DSP](/help/dsp/home.md) et (les annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md). Les réponses reposent uniquement sur ce qui est documenté pour ces produits dans [Experience League](https://experienceleague.adobe.com/fr/docs/advertising).
+Utilisez l’interface de conversation de l’IA pour rechercher du contenu conceptuel et pratique dans le [Guide d’](/help/dsp/home.md) et (les annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md). Les réponses reposent uniquement sur ce qui est documenté pour ces produits dans [&#128279;](https://experienceleague.adobe.com/fr/docs/advertising).
 
-Les réponses comprennent des citations ainsi que des invites supplémentaires et des questions de suivi pour vous aider à affiner votre requête et à trouver plus d’informations. Votre historique de conversation est conservé et vos requêtes ne sont pas partagées avec d’autres utilisateurs.
+Les réponses comprennent des citations ainsi que des invites supplémentaires et des questions de suivi pour vous aider à affiner votre requête et à trouver plus d’informations. Votre historique de conversation est conservé tout au long d’une session et vos requêtes ne sont pas partagées avec d’autres utilisateurs.
 
 >[!NOTE]
 >
