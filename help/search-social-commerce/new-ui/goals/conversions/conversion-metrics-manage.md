@@ -2,20 +2,20 @@
 title: Gérer les mesures de conversion d’un annonceur
 description: Découvrez comment utiliser les mesures de conversion suivies par Adobe Advertising pour un annonceur.
 feature: Conversions
-source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
+source-git-commit: ba96414b7104192d36d62842f52f73a5850190f9
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
 
 # Gérer les mesures de conversion d’un annonceur
 
-Les mesures [conversion](/help/search-social-commerce/glossary.md#c-d) d’un annonceur sont utilisées dans Search, Social et Commerce, ainsi que dans Advertising DSP :
+Les mesures [conversion](/help/search-social-commerce/glossary.md#c-d) d’un annonceur sont utilisées dans Adobe Advertising :
 
 * Dans Search, Social et Commerce, les données des mesures de conversion peuvent être affichées sous forme de colonnes dans les vues de gestion de campagnes, de portefeuilles et d’objectifs, ainsi que dans les rapports. Les utilisateurs disposant de droits d’accès suffisants peuvent également utiliser les mesures de conversion pour créer des objectifs utilisés pour optimiser les portfolios.
 
-* Dans Advertising DSP, vous pouvez utiliser les mesures de conversion pour créer des [objectifs personnalisés](/help/dsp/optimization/custom-goal.md), qui sont utilisés pour optimiser les packages.
+* (Annonceurs avec Advertising DSP) Dans DSP, vous pouvez inclure des mesures de conversion dans les vues de gestion de campagne, les objectifs personnalisés et les rapports personnalisés. Vous pouvez également utiliser les mesures de conversion pour créer des [objectifs personnalisés](/help/dsp/optimization/custom-goal.md), qui sont utilisés pour optimiser les packages.
 
 Les mesures disponibles sont les suivantes :
 
@@ -23,19 +23,21 @@ Les mesures disponibles sont les suivantes :
 
 * [Mesures d’engagement du site et de conversion synchronisées à partir d’Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md).
 
+* [Événements de site synchronisés à partir d’Adobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md).
+
 * Conversions suivies par [!DNL Google Ads] et conversions suivies par [!DNL Microsoft Advertising] balises de suivi des événements universels.
 
 * (Lorsque [vous avez configuré une combinaison de compte [!DNL Google Analytics]  de propriété et d’affichage spécifique en tant que source de données](/help/search-social-commerce/admin/data-sources/data-source-about.md) pour les conversions Search, Social et Commerce) suivies par [!DNL Google Analytics].
 
-Dans la liste des mesures de conversion disponibles, chaque utilisateur ayant accès aux données de l’annonceur peut personnaliser les mesures qui s’affichent pour les vues et les rapports de gestion, y compris des mesures spécifiques, qu’il choisit ou non.
+* Conversions à partir de flux personnalisés.
+
+Dans la liste des mesures de conversion disponibles, chaque utilisateur ayant accès aux données de l’annonceur peut personnaliser les mesures qui s’affichent pour les vues et les rapports de gestion, y compris des mesures spécifiques, qu’il choisit ou non. Vous pouvez utiliser un nom de mesure tel qu’il est orthographié dans les données récupérées ou modifier le nom affiché dans les en-têtes de colonne pour en faciliter la lecture.
 
 >[!IMPORTANT]
 >
 >Par défaut, aucune des mesures de conversion d’un annonceur, à l’exception des conversions suivies par les balises de suivi d’événement universel [!DNL Google Ads], [!DNL Google Analytics] et [!DNL Microsoft Advertising], n’est disponible pour inclusion dans les vues, objectifs et rapports de gestion de campagnes et de portefeuilles. Pour rendre une mesure de conversion disponible, vous devez la rendre explicitement disponible.
 >
 >Les nouvelles conversions suivies par les balises de suivi d’événement universel [!DNL Google Ads], [!DNL Google Analytics] et [!DNL Microsoft Advertising] sont toujours automatiquement disponibles.
-
-Vous pouvez utiliser un nom de mesure tel qu’il est orthographié dans les données récupérées ou modifier le nom affiché dans les en-têtes de colonne pour en faciliter la lecture.
 
 >[!TIP]
 >
@@ -65,7 +67,7 @@ Vous ne pouvez pas supprimer un nom d’affichage existant.
 
    Les noms d&#39;affichage doivent être uniques et ne peuvent pas contenir les caractères spéciaux suivants : `\"<'>&`
 
-## Modification des mesures de conversion disponibles dans les vues de gestion et les rapports {#conversion-metrics-change-available}
+## Modifier les mesures de conversion disponibles dans les vues de gestion, les objectifs et les rapports {#conversion-metrics-change-available}
 
 >[!NOTE]
 >
@@ -75,7 +77,7 @@ Vous ne pouvez pas supprimer un nom d’affichage existant.
 
    Toutes les mesures de conversion qui ont été collectées pour l’annonceur, ainsi que tous les noms différents qui ont été spécifiés pour l’affichage, sont répertoriés.
 
-1. (Facultatif) Filtrez la liste [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou d’un en-tête de colonne [&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+1. (Facultatif) Filtrez la liste [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou d’un en-tête de colonne [](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 1. Modifiez les mesures de conversion disponibles pour les vues et les rapports de gestion :
 
@@ -93,4 +95,4 @@ Vous ne pouvez pas supprimer un nom d’affichage existant.
 
 >[!MORELIKETHIS]
 >
->* &#x200B;
+>* 
