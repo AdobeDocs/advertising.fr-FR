@@ -3,16 +3,17 @@ title: Gérer les affectations de contraintes pour les mots-clés
 description: Découvrez comment attribuer des contraintes aux mots-clés.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 0e863a638d8f3d055fd566db65d7967126fd5f89
+exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
+source-git-commit: e96580c9fdea3b61c40e6ae8acb5ac60b53de2b9
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
 # (Nouvelle interface utilisateur) Gérer les affectations de contraintes pour les mots-clés
 
-*Fonction Beta*
+*Fonction*
 
 Vous pouvez affecter et supprimer des contraintes d’offres pour les entités de recherche suivantes : campagne, groupe publicitaire, mot-clé, emplacement, groupe de produits au niveau de l’unité et cible de recherche dynamique. Chaque entité ne peut avoir qu&#39;une seule contrainte.
 
@@ -89,5 +90,4 @@ Vous pouvez affecter une seule contrainte à une ou plusieurs campagnes.
 >
 >* [Gérer les affectations de contrainte pour les campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Gérer les affectations de contraintes pour les groupes publicitaires](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [Gérer les affectations de contraintes pour les publicités](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
 >* [Gérer les affectations de contrainte pour les emplacements](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
