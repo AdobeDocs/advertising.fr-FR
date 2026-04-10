@@ -5,16 +5,12 @@ feature: Search Optimization, Search Campaign Management
 hide: yes
 exl-id: 7d261ac3-5d89-4357-9866-19a7e3aab837
 TQID: https://experienceleague.adobe.com/G--2kvUQgSzS2pvzybW--3YOQ4apkV-WnqI-e0CKZ98
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: 121
+source-wordcount: 125
 ht-degree: 0%
 
 ---
@@ -37,15 +33,15 @@ La vue [!UICONTROL Manage] > [!UICONTROL Campaigns] répertorie toutes les campa
 
 * Supprimez ou modifiez le statut d’une campagne à partir de la ligne.
 
-* [Affectez des campagnes à des portfolios existants ou nouveaux](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) et [annulez l’affectation des campagnes des portfolios](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [Affectez des campagnes à des portfolios existants ou nouveaux](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) et [annulez l’affectation des campagnes des portfolios](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [Affectez des contraintes aux campagnes et annulez l’affectation des contraintes des campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
-* [Télécharger des données à partir de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+* [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
 
 >[!MORELIKETHIS]
 >
->* [Affecter des campagnes à un portfolio](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [Supprimer des campagnes d’un portfolio](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [Affecter des campagnes à un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [Supprimer des campagnes d’un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [Gérer les affectations de contrainte pour les campagnes](campaign-constraint-assignments-manage.md)
->* [Télécharger des données à partir de la vue [!UICONTROL Campaigns]](campaign-view-report.md)
+>* [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]](campaign-view-report.md)

@@ -2,9 +2,9 @@
 title: Gérer les mesures de conversion d’un annonceur
 description: Découvrez comment utiliser les mesures de conversion suivies par Adobe Advertising pour un annonceur.
 feature: Conversions
-source-git-commit: ba96414b7104192d36d62842f52f73a5850190f9
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,8 @@ Vous ne pouvez pas supprimer un nom d’affichage existant.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
+1. Filtrez la liste [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou d’un [en-tête de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+
 1. Dans la colonne **[!UICONTROL Conversion Display Name]** de la mesure, placez le curseur sur le nom de la mesure, puis cliquez sur **...** > **[!UICONTROL Rename]**.
 
 1. Saisissez le nom à afficher, puis cliquez sur **[!UICONTROL Apply]**.
@@ -77,7 +79,7 @@ Vous ne pouvez pas supprimer un nom d’affichage existant.
 
    Toutes les mesures de conversion qui ont été collectées pour l’annonceur, ainsi que tous les noms différents qui ont été spécifiés pour l’affichage, sont répertoriés.
 
-1. (Facultatif) Filtrez la liste [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou d’un en-tête de colonne [&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+1. (Facultatif) Filtrez la liste [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou d’un en-tête de colonne [](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 1. Modifiez les mesures de conversion disponibles pour les vues et les rapports de gestion :
 
@@ -95,4 +97,4 @@ Vous ne pouvez pas supprimer un nom d’affichage existant.
 
 >[!MORELIKETHIS]
 >
->* &#x200B;
+>* 
