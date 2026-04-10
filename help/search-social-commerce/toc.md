@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising Search, Social et Commerce
 user-guide-description: Ce guide décrit les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires liées aux moteurs de recherche, aux réseaux sociaux et au commerce.
 breadcrumb-title: Guide d’Advertising Search, Social et Commerce
 index: true
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2023'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
    + [Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md)
    + Intégration à Adobe Experience Cloud {#integrations}
       + [Intégration aux solutions et services Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr){target="_blank"}
+      + [&#x200B; [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr){target="_blank"}
       + [Intégration avec Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=fr){target="_blank"}
    + [Prise en charge de la confidentialité des consommateurs et consommatrices (lien)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}
    + [Politiques et directives (lien)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=fr){target="_blank"}
@@ -107,7 +107,7 @@ ht-degree: 2%
          + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
       + Publicités {#ads}
          + [À propos de la vue [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
-         + [Gérer les affectations de contraintes pour les publicités](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+         + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Rapports {#reports}
       + Classifications des libellés {#label-classifications}
          + [À propos des classifications de libellés](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
@@ -117,7 +117,7 @@ ht-degree: 2%
          + [Supprimer les valeurs de classification de libellé des composants de compte](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
          + [Supprimer les valeurs de classification de libellé](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
          + [Supprimer les classifications de libellés](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
-   + Cible {#target}
+   + Target {#target}
       + Mots-clés {#keywords}
          + [À propos de la vue [!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)
          + [Gérer les affectations de contraintes pour les mots-clés](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
