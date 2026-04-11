@@ -5,16 +5,12 @@ feature: Search Optimization, Search Campaign Management
 hide: yes
 exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
 TQID: https://experienceleague.adobe.com/qwisQ3OqMeymlREsTVY-Wf59ln37hBLR0X4R7RjkuTM
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e96580c9fdea3b61c40e6ae8acb5ac60b53de2b9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 26d99b0a731ff07dde9461e8390c7bb540b3cc21
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: 441
 ht-degree: 0%
 
 ---
@@ -31,7 +27,7 @@ L’annulation de l’affectation d’une contrainte supprime l’association av
 
 >[!NOTE]
 >
->* Si vous modifiez par la suite un mot-clé ou la copie d’une publicité, créant ainsi un nouveau mot-clé ou une nouvelle publicité, la contrainte n’est pas affectée à la nouvelle entité.
+>* Si vous modifiez par la suite un mot-clé ou la copie d’une publicité non modifiable (créant ainsi un nouveau mot-clé ou une nouvelle publicité), la contrainte n’est pas affectée à la nouvelle entité.
 >* Les contraintes actives limitent les enchères uniquement pour les unités d’offre affectées dans les portefeuilles optimisés au niveau des mots-clés hérités. Elles sont ignorées pour les unités d&#39;enchères qui se trouvent dans des portefeuilles actifs, dans des portefeuilles hybrides ou qui ne se trouvent pas dans des portefeuilles.
 
 ## Affecter une contrainte aux campagnes sélectionnées à partir de la nouvelle vue [!UICONTROL Campaigns]
