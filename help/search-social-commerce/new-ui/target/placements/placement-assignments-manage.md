@@ -4,9 +4,9 @@ description: Découvrez comment affecter des contraintes aux emplacements.
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
-source-git-commit: e96580c9fdea3b61c40e6ae8acb5ac60b53de2b9
+source-git-commit: be68246e63f5d9c7101b931a2509b53619622719
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ L’annulation de l’affectation d’une contrainte supprime l’association av
 
 >[!NOTE]
 >
->* Si vous modifiez par la suite un mot-clé ou la copie d’une publicité, créant ainsi un nouveau mot-clé ou une nouvelle publicité, la contrainte n’est pas affectée à la nouvelle entité.
+>* Si vous modifiez par la suite un mot-clé ou la copie d’une publicité non modifiable (créant ainsi un nouveau mot-clé ou une nouvelle publicité), la contrainte n’est pas affectée à la nouvelle entité.
 >* Les contraintes actives limitent les enchères uniquement pour les unités d’offre affectées dans les portefeuilles optimisés au niveau des mots-clés hérités. Elles sont ignorées pour les unités d&#39;enchères qui se trouvent dans des portefeuilles actifs, dans des portefeuilles hybrides ou qui ne se trouvent pas dans des portefeuilles.
 
 ## Affecter une contrainte aux emplacements sélectionnés à partir de la nouvelle vue [!UICONTROL Placements]
