@@ -4,7 +4,7 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: b3eb6f69a643637635ac60e6751d091c5380a397
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 4%
@@ -27,7 +27,7 @@ ht-degree: 4%
    + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)
    + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)
    + [Solutions de mesure avancées](/help/dsp/introduction/advanced-measurement-services.md)
-+ {hide-from-toc}[Rechercher de la documentation sur les produits à l’aide du chat assisté par IA](/help/dsp/agent-chat.md)
++ [Rechercher de la documentation sur les produits à l’aide du chat assisté par l’IA](/help/dsp/agent-chat.md)
 + Gestion des campagnes {#campaign-management}
    + [Présentation de la gestion des campagnes dans Advertising DSP](/help/dsp/campaign-management/campaign-management-overview.md)
    + Campagnes {#campaigns}
