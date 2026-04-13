@@ -2,10 +2,8 @@
 title: Rechercher de la documentation sur les produits à l’aide du chat assisté par l’IA
 description: Découvrez comment effectuer des recherches dans Adobe Advertising DSP et la documentation à l [!DNL Creative] aide du chat assisté par l’IA. Obtenez des réponses avec des citations et des suggestions d’invites de suivi.
 feature: DSP Introduction, Creative Introduction
-hidefromtoc: true
-hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 99308b5a6f529abf003f38566c19bfda0e6eb25c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Utilisez l’interface de conversation de l’IA pour rechercher du contenu conceptuel et pratique dans le [Guide d’](/help/dsp/home.md) et (les annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md). Les réponses reposent uniquement sur ce qui est documenté pour ces produits dans [&#128279;](https://experienceleague.adobe.com/fr/docs/advertising).
+Utilisez l’interface de conversation de l’IA pour rechercher du contenu conceptuel et pratique dans le [Guide d’](/help/dsp/home.md) et (les annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md). Les réponses reposent uniquement sur ce qui est documenté pour ces produits dans [](https://experienceleague.adobe.com/en/docs/advertising).
 
 Les réponses comprennent des citations ainsi que des invites supplémentaires et des questions de suivi pour vous aider à affiner votre requête et à trouver plus d’informations. Votre historique de conversation est conservé tout au long d’une session et vos requêtes ne sont pas partagées avec d’autres utilisateurs.
 
