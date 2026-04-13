@@ -3,7 +3,8 @@ title: (Nouvelle interface utilisateur) À propos de la vue [!UICONTROL Placemen
 description: Découvrez ce que vous pouvez faire dans la vue [!UICONTROL Placements].
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
+exl-id: d31afcd7-86f0-4ea0-8050-aab0027faa76
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # (Nouvelle interface utilisateur) À propos de la vue [!UICONTROL Placements]
 
-*Fonction Beta*
+*Fonction*
 
 La vue [!UICONTROL Manage] > [!UICONTROL Placements] comprend deux onglets :
 

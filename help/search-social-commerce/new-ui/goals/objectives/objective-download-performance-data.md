@@ -3,7 +3,8 @@ title: (Nouvelle interface utilisateur) Télécharger des données de performanc
 description: Découvrez comment télécharger les objectifs d’un fichier de feuille de calcul.
 feature: Search Optimization, Search Portfolios
 hide: true
-source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
+exl-id: fbd0e58b-9f9b-4c8e-8a85-197bca220c10
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # (Nouvelle interface utilisateur) Télécharger des données de performances pour les objectifs
 
-*Fonction Beta*
+*Fonction*
 
 <!-- EDIT ALL -->
 
@@ -28,7 +29,7 @@ Vous pouvez télécharger le nombre de portfolios associés, la valeur des clics
 
    * Pour télécharger des données pour tous les objectifs, il n’est pas nécessaire de cocher des cases. Tous les objectifs sont inclus par défaut.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ").
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ").
 
 1. Dans les paramètres de [!UICONTROL Grid Reports], saisissez un nom de rapport unique, puis cliquez sur **[!UICONTROL Generate]**.
 
@@ -44,7 +45,7 @@ Vous pouvez télécharger le nombre de portfolios associés, la valeur des clics
 
 Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ").
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ").
 
 1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") en regard du nom du fichier.
 

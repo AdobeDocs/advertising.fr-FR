@@ -3,7 +3,7 @@ title: (Nouvelle interface utilisateur) Gérer les rapports de vue de données �
 description: Découvrez comment générer, télécharger et supprimer des rapports contenant les lignes de données d’une ou de plusieurs publicités dans la vue [!UICONTROL Ads] d’un rapport.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Vous pouvez générer un rapport qui inclut les lignes de données d’une ou de
 
 Vous pouvez supprimer n’importe quel rapport généré.
 
-Consultez également les sections « [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) et « [&#x200B; (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads] »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+Consultez également les sections « [ (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) et « [ (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads] »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 
 ## Générer un rapport avec les lignes de données filtrées
 
@@ -63,5 +63,5 @@ Consultez également les sections « [&#x200B; (interface utilisateur héritée)
 >[!MORELIKETHIS]
 >
 >* [À propos du [!UICONTROL Ads view]](ad-view-about.md)
->* [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(interface utilisateur héritée) Supprimez un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)

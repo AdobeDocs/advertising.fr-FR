@@ -2,17 +2,13 @@
 title: Téléchargement de simulations
 description: Découvrez comment télécharger des simulations dans un fichier de feuille de calcul.
 feature: Search Optimization, Search Portfolios, Search Simulations
-hide: yes
+hide: true
 exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
 TQID: https://experienceleague.adobe.com/5FVQv17adrIz6OJU1K3ftG8NRO-0evlIzc1tGIFoHfY
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: 141
 ht-degree: 0%
@@ -28,7 +24,7 @@ Vous pouvez télécharger les données de plusieurs simulations à la fois dans 
 >[!NOTE]
 >
 >* Vous pouvez également [afficher les résultats de la simulation à l’écran](simulation-view.md).
->* Vous pouvez [personnaliser la vue [!UICONTROL Simulations]](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) afin d’inclure des colonnes pour de nombreuses mesures supplémentaires et la plupart des paramètres de simulation. Consultez la section « Actions disponibles » dans « [&#x200B; À propos des simulations &#x200B;](simulation-about.md#simulations-actions) pour plus d’informations sur les colonnes que vous pouvez inclure.
+>* Vous pouvez [personnaliser la vue [!UICONTROL Simulations]](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) afin d’inclure des colonnes pour de nombreuses mesures supplémentaires et la plupart des paramètres de simulation. Consultez la section « Actions disponibles » dans « [ À propos des simulations ](simulation-about.md#simulations-actions) pour plus d’informations sur les colonnes que vous pouvez inclure.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 
