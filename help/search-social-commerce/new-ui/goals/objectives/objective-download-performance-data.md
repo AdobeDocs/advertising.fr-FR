@@ -3,7 +3,8 @@ title: (Nouvelle interface utilisateur) Télécharger des données de performanc
 description: Découvrez comment télécharger les objectifs d’un fichier de feuille de calcul.
 feature: Search Optimization, Search Portfolios
 hide: true
-source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
+exl-id: fbd0e58b-9f9b-4c8e-8a85-197bca220c10
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # (Nouvelle interface utilisateur) Télécharger des données de performances pour les objectifs
 
-*Fonction Beta*
+*Fonction*
 
 <!-- EDIT ALL -->
 

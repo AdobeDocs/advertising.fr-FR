@@ -3,7 +3,7 @@ title: (Nouvelle interface utilisateur) Gérer les rapports de vue de données �
 description: Découvrez comment générer, télécharger et supprimer des rapports contenant les lignes de données d’une ou de plusieurs publicités dans la vue [!UICONTROL Ads] d’un rapport.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
