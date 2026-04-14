@@ -16,9 +16,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
+source-git-commit: 6e85310e94f642ccf3ccb0d67f43d5ebbf03fa24
 workflow-type: tm+mt
-source-wordcount: 183
+source-wordcount: 190
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Voir « [Mesures Adobe Advertising &#x200B;](https://experienceleague.adobe.com/
 
 ## Classifications Adobe Advertising
 
-Voir « [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#classifications). »
+Voir « [classifications pour la dimension ID AMO](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#classifications) ».
 <!--
 
 >[!NOTE]
