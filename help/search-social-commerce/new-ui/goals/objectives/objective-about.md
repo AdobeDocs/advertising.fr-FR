@@ -2,21 +2,15 @@
 title: (Nouvelle interface utilisateur) À propos des objectifs
 description: Découvrez les objectifs permettant d’atteindre les objectifs de votre entreprise.
 feature: Search Objectives, Search Optimization
-hide: true
+hide: 'yes'
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
 TQID: https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+autotag-review: '2026-04-14T00:06:19.870Z'
+source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
 workflow-type: tm+mt
 source-wordcount: 516
 ht-degree: 0%
@@ -24,6 +18,8 @@ ht-degree: 0%
 ---
 
 # (Nouvelle interface utilisateur) À propos des objectifs
+
+<!-- no subfeature tag for objectives -->
 
 *Fonction*
 
@@ -63,7 +59,7 @@ Vous pouvez inclure l’un des éléments suivants dans vos objectifs :
 
 * Mesures [!DNL Google] : <!-- Search only, or might DSP-only clients also have these? -->
 
-   * [[!DNL Google Ads] des conversions suivies &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) à partir de comptes [!DNL Google Ads] synchronisés.
+   * [[!DNL Google Ads] des conversions suivies ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) à partir de comptes [!DNL Google Ads] synchronisés.
 
    * (Annonceurs avec [[!DNL Google Analytics] intégrations](/help/search-social-commerce/admin/data-sources/data-source-about.md)) Pages vues, Sessions, Taux de rebond (calculé comme rebonds/sessions) et Durée de la session.
 
@@ -71,7 +67,7 @@ Vous pouvez inclure l’un des éléments suivants dans vos objectifs :
 
 ## Option de chargement des objectifs sur les réseaux publicitaires
 
-Vous pouvez éventuellement [&#x200B; charger les objectifs des portefeuilles du compte vers et/ou  [!DNL Google Ads]  tant que conversions [!DNL Microsoft Advertising]  afin de les utiliser pour une optimisation au niveau de la campagne ou du groupe publicitaire. &#x200B;](/help/search-social-commerce/tools/objective-upload-to-networks.md) Lorsque vous activez cette option, Search, Social et Commerce transmettent quotidiennement au réseau publicitaire les données pondérées relatives au chiffre d’affaires au niveau de l’identifiant EF (identifiant de clic). Il omet toutes les mesures suivies par le réseau publicitaire.
+Vous pouvez éventuellement [ charger les objectifs des portefeuilles du compte vers et/ou  [!DNL Google Ads]  tant que conversions [!DNL Microsoft Advertising]  afin de les utiliser pour une optimisation au niveau de la campagne ou du groupe publicitaire. ](/help/search-social-commerce/tools/objective-upload-to-networks.md) Lorsque vous activez cette option, Search, Social et Commerce transmettent quotidiennement au réseau publicitaire les données pondérées relatives au chiffre d’affaires au niveau de l’identifiant EF (identifiant de clic). Il omet toutes les mesures suivies par le réseau publicitaire.
 
 >[!MORELIKETHIS]
 >
