@@ -4,19 +4,12 @@ description: Découvrez les informations sur les performances des visualisations
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
 TQID: https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
-  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 1e4a456c3add52553936db29a72f42e7d45506c3
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
 workflow-type: tm+mt
 source-wordcount: 1371
 ht-degree: 0%
@@ -111,13 +104,13 @@ Ces informations incluent :
 
 * **[!UICONTROL Audience Funnel Analysis]:** tableau de séries temporelles quotidiennes qui montre comment votre audience cible diminue du pool total disponible pour atteindre le niveau d’impression réel après l’application de tous les filtres de ciblage et d’éligibilité. Les données s’affichent pour la journée précédente. Le funnel inclut les mesures suivantes, dans l’ordre décroissant :
 
-   * **[!UICONTROL Audience Segment Size]:** nombre total d’utilisateurs uniques dans l’audience agrégée.
+   * **[!UICONTROL Total Target Audience]:** nombre total d’utilisateurs uniques dans l’audience agrégée.
 
-   * **[!UICONTROL Cookies in Bid Stream]:** nombre d’utilisateurs de l’audience cible qui étaient actifs dans le flux d’enchères au cours de la période de 24 heures précédente. Ce nombre inclut chaque utilisateur de la portée, que l’emplacement lui ait été proposé ou non. Une diminution du [!UICONTROL Total Target Audience] au [!UICONTROL Reachable Audience] reflète la partie de l&#39;audience qui n&#39;était pas active dans le flux d&#39;enchères au cours de la période de rapport, ce qui ne reflète pas la performance des enchères.
+   * **[!UICONTROL Reachable Audience (Last 24 Hours)]:** nombre d’utilisateurs de l’audience cible qui étaient actifs dans le flux d’enchères au cours de la période de 24 heures précédente. Ce nombre inclut chaque utilisateur de la portée, que l’emplacement lui ait été proposé ou non. Une diminution du [!UICONTROL Total Target Audience] au [!UICONTROL Reachable Audience] reflète la partie de l&#39;audience qui n&#39;était pas active dans le flux d&#39;enchères au cours de la période de rapport, ce qui ne reflète pas la performance des enchères.
 
-   * **[!UICONTROL Eligible cookies]:** sous-ensemble d’utilisateurs accessibles qui restent après l’application des filtres de zone géographique, de type d’appareil, de système d’exploitation et de navigateur. Si ce nombre est considérablement inférieur à [!UICONTROL Reachable Audience], pensez à déterminer si le ciblage de type d’appareil ou de zone géographique est trop restrictif.
+   * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:** sous-ensemble d’utilisateurs accessibles qui restent après l’application des filtres de zone géographique, de type d’appareil, de système d’exploitation et de navigateur. Si ce nombre est considérablement inférieur à [!UICONTROL Reachable Audience], pensez à déterminer si le ciblage de type d’appareil ou de zone géographique est trop restrictif.
 
-  **[!UICONTROL Cookies Bid On]:** nombre d&#39;opportunités éligibles pour lesquelles l&#39;emplacement a soumis une offre. Une baisse marquée à ce stade peut indiquer des contraintes de budget ou de rythme qui limitent le volume des offres.
+  **[!UICONTROL Devices/Ad Opportunities Bid On]:** nombre d&#39;opportunités éligibles pour lesquelles l&#39;emplacement a soumis une offre. Une baisse marquée à ce stade peut indiquer des contraintes de budget ou de rythme qui limitent le volume des offres.
 
    * **[!UICONTROL Impression Wins]:** nombre d’opportunités pour lesquelles l’emplacement a obtenu une impression. Si les gains sont beaucoup plus faibles que les enchères, le prix de votre enchère peut être inférieur au taux du marché en vigueur pour l&#39;inventaire ciblé.
 
