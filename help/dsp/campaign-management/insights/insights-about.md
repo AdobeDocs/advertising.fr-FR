@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 1e4a456c3add52553936db29a72f42e7d45506c3
+source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
 workflow-type: tm+mt
 source-wordcount: 1371
 ht-degree: 0%
@@ -111,13 +111,13 @@ Ces informations incluent :
 
 * **[!UICONTROL Audience Funnel Analysis]:** tableau de séries temporelles quotidiennes qui montre comment votre audience cible diminue du pool total disponible pour atteindre le niveau d’impression réel après l’application de tous les filtres de ciblage et d’éligibilité. Les données s’affichent pour la journée précédente. Le funnel inclut les mesures suivantes, dans l’ordre décroissant :
 
-   * **[!UICONTROL Audience Segment Size]:** nombre total d’utilisateurs uniques dans l’audience agrégée.
+   * **[!UICONTROL Total Target Audience]:** nombre total d’utilisateurs uniques dans l’audience agrégée.
 
-   * **[!UICONTROL Cookies in Bid Stream]:** nombre d’utilisateurs de l’audience cible qui étaient actifs dans le flux d’enchères au cours de la période de 24 heures précédente. Ce nombre inclut chaque utilisateur de la portée, que l’emplacement lui ait été proposé ou non. Une diminution du [!UICONTROL Total Target Audience] au [!UICONTROL Reachable Audience] reflète la partie de l&#39;audience qui n&#39;était pas active dans le flux d&#39;enchères au cours de la période de rapport, ce qui ne reflète pas la performance des enchères.
+   * **[!UICONTROL Reachable Audience (Last 24 Hours)]:** nombre d’utilisateurs de l’audience cible qui étaient actifs dans le flux d’enchères au cours de la période de 24 heures précédente. Ce nombre inclut chaque utilisateur de la portée, que l’emplacement lui ait été proposé ou non. Une diminution du [!UICONTROL Total Target Audience] au [!UICONTROL Reachable Audience] reflète la partie de l&#39;audience qui n&#39;était pas active dans le flux d&#39;enchères au cours de la période de rapport, ce qui ne reflète pas la performance des enchères.
 
-   * **[!UICONTROL Eligible cookies]:** sous-ensemble d’utilisateurs accessibles qui restent après l’application des filtres de zone géographique, de type d’appareil, de système d’exploitation et de navigateur. Si ce nombre est considérablement inférieur à [!UICONTROL Reachable Audience], pensez à déterminer si le ciblage de type d’appareil ou de zone géographique est trop restrictif.
+   * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:** sous-ensemble d’utilisateurs accessibles qui restent après l’application des filtres de zone géographique, de type d’appareil, de système d’exploitation et de navigateur. Si ce nombre est considérablement inférieur à [!UICONTROL Reachable Audience], pensez à déterminer si le ciblage de type d’appareil ou de zone géographique est trop restrictif.
 
-  **[!UICONTROL Cookies Bid On]:** nombre d&#39;opportunités éligibles pour lesquelles l&#39;emplacement a soumis une offre. Une baisse marquée à ce stade peut indiquer des contraintes de budget ou de rythme qui limitent le volume des offres.
+  **[!UICONTROL Devices/Ad Opportunities Bid On]:** nombre d&#39;opportunités éligibles pour lesquelles l&#39;emplacement a soumis une offre. Une baisse marquée à ce stade peut indiquer des contraintes de budget ou de rythme qui limitent le volume des offres.
 
    * **[!UICONTROL Impression Wins]:** nombre d’opportunités pour lesquelles l’emplacement a obtenu une impression. Si les gains sont beaucoup plus faibles que les enchères, le prix de votre enchère peut être inférieur au taux du marché en vigueur pour l&#39;inventaire ciblé.
 

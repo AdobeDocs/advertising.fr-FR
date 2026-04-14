@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
+source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
 workflow-type: tm+mt
-source-wordcount: 6986
+source-wordcount: 7001
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Les fonctionnalités suivantes sont nouvelles ou ont été récemment modifiées
 
 | Date | Fonctionnalité | Description | Pour Plus D’Informations |
 | ---- | ------- | ----------- | -------------------- |
+| 8 Avril 2026 | [!UICONTROL Insights] | Les mesures du [!UICONTROL Audience Funnel Analysis] insight dans l’onglet [!UICONTROL Audience Analysis] ont été renommées. | Voir « [&#x200B; À propos des informations &#x200B;](/help/dsp/campaign-management/insights/insights-about.md). » |
 | 7 Avril 2026 | Recherche de documentation assistée par l’IA | Utilisez une nouvelle interface de chat IA pour rechercher du contenu conceptuel et pratique dans le [Guide d’](/help/dsp/home.md) et (les annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md). Les réponses comprennent des citations ainsi que des invites supplémentaires et des questions de suivi pour vous aider à affiner votre requête et à trouver plus d’informations. | Voir « [Rechercher de la documentation sur les produits à l’aide du chat assisté par IA](/help/dsp/agent-chat.md) ». |
 | 25 Mars 2026 | [!UICONTROL Insights] | De nouvelles informations sur les [!UICONTROL Audience Analysis] montrent l’efficacité du ciblage des segments d’audience au niveau de l’emplacement : les tendances de taille des segments au fil du temps et une répartition quotidienne des funnel d’enchères. | Voir « [&#x200B; À propos des informations &#x200B;](/help/dsp/campaign-management/insights/insights-about.md). » |
 | 16 Mars 2026 | Sources d’audience propriétaires, ID universels | Vous pouvez désormais convertir vos cookies et vos identifiants publicitaires mobiles (en plus des adresses e-mail hachées) en identifiants universels pour la publicité ciblée à l’aide de l’intégration de DSP à [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr), qui fait partie de Adobe Experience Platform. Auparavant, vous ne pouviez convertir que des adresses e-mail hachées.<br><br>Pour utiliser cette nouvelle fonctionnalité, utilisez la nouvelle « [connexion Adobe Advertising DSP]&#x200B;(https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection) » dans Experience Platform. La connexion héritée, qui inclut la prise en charge des adresses e-mail hachées uniquement, est renommée « [ancienne connexion Adobe Advertising Cloud DSP]&#x200B;(https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy) ».<br><br>Si vous utilisez actuellement la connexion héritée, vous n’avez pas besoin d’apporter immédiatement des modifications. Cependant, la connexion héritée finira par être supprimée. | Voir « [Convertir les ID utilisateur de [!DNL Adobe Real-Time CDP] en ID universels](/help/dsp/audiences/sources/source-adobe-rtcdp.md) », « [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md) » et « [Gérer les sources d’audience pour activer les audiences d’ID universels](/help/dsp/audiences/sources/source-manage.md) ». |
