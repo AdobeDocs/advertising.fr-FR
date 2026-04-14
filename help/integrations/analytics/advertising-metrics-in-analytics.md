@@ -37,7 +37,7 @@ ht-degree: 0%
 
 Les mesures de trafic Adobe Advertising dans [!DNL Analytics] commencent généralement par « Adobe Advertising », à l’exception de « [!UICONTROL AMO ID Instances] ». Cependant, pour les clients et clientes à long terme qui ont utilisé un événement personnalisé (plutôt qu’un événement réservé) pour créer à l’origine des mesures de clics, de coûts et d’impressions, ces mesures commencent toujours par « AMO ».
 
-Voir « [Mesures Adobe Advertising &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/amo-metrics) » pour la liste.
+Voir « [Mesures Adobe Advertising &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics/components/metrics/amo-metrics) » pour la liste.
 
 <!--
 
@@ -61,7 +61,7 @@ Voir « [Mesures Adobe Advertising &#x200B;](https://experienceleague.adobe.com/
 
 ## Classifications Adobe Advertising
 
-Voir « [classifications pour la dimension ID AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#classifications) ».
+Voir « [classifications pour la dimension ID AMO](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#classifications) ».
 <!--
 
 >[!NOTE]
