@@ -4,28 +4,19 @@ description: Découvrez les informations sur les performances des visualisations
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
 TQID: https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
-  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4da54d315e39dac4799887e876272102b8efe4f9
 workflow-type: tm+mt
-source-wordcount: 1371
+source-wordcount: 1369
 ht-degree: 0%
 
 ---
 
 # À propos des insights
-
-*Fonction*
 
 Grâce aux visualisations, vous obtenez des informations de haut niveau sur les performances qui vous permettent d’optimiser efficacement vos campagnes et de découvrir de nouvelles opportunités d’optimisation des performances. Vous pouvez afficher les données de plusieurs campagnes pour un annonceur spécifié ou effectuer une analyse vers le bas à un niveau inférieur.
 
@@ -125,7 +116,7 @@ Ces informations incluent :
 
 1. Ouvrez un ensemble d’informations :
 
-   * (Pour ouvrir les insights pour toutes les campagnes) Dans le menu principal, cliquez sur **[!UICONTROL Insights BETA]**.
+   * (Pour ouvrir les insights pour toutes les campagnes) Dans le menu principal, cliquez sur **[!UICONTROL Insights]**.
 
    * (Pour ouvrir des informations pour une campagne, un package ou un emplacement spécifique) En regard du nom de l’entité dans la vue [!UICONTROL Campaigns], [!UICONTROL Packages] ou [!UICONTROL Placements], cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
 
