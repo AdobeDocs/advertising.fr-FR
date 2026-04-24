@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 1189
+source-wordcount: 1207
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Les recommandations de poids sont automatiquement générées pour les mesures a
 
 ## Créer un objectif personnalisé {#custom-goal-create}
 
-Pour créer un objectif personnalisé, le compte DSP doit être lié à un compte [!DNL Search, Social, & Commerce] avec le même ID d’organisation Adobe Experience Cloud, depuis les paramètres du client [!DNL Search, Social, & Commerce]. Si votre compte DSP n’est pas lié à un compte [!DNL Search, Social, & Commerce], contactez l’équipe chargée de votre compte Adobe.
+Pour créer un objectif personnalisé, le compte DSP doit être lié à un compte [!DNL Search, Social, & Commerce] avec le même ID d’organisation Adobe CX Enterprise, depuis les paramètres du client [!DNL Search, Social, & Commerce]. Si votre compte DSP n’est pas lié à un compte [!DNL Search, Social, & Commerce], contactez l’équipe chargée de votre compte Adobe.
 
 1. [Connexion à Advertising Search, Social et Commerce](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}.
 

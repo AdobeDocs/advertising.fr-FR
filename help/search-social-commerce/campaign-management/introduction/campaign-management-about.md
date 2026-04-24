@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 806
+source-wordcount: 808
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Les vues Gestion de campagne vous permettent de surveiller et de gérer vos comp
 
 * **[!UICONTROL Bulksheets]** — Utilisez la vue [!UICONTROL Bulksheets] pour créer des [fichiers de feuilles d&#39;envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contenant autant de données que vous le souhaitez pour un compte sur un réseau publicitaire [pris en charge](/help/search-social-commerce/introduction/supported-inventory.md), puis pour les publier sur le réseau publicitaire.
 
-* **[!UICONTROL Audiences]** — [vues [!UICONTROL Audiences]](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) répertorie toutes vos audiences [!DNL Google Ads] et [!DNL Microsoft Advertising] générées à partir de différents types de listes d&#39;utilisateurs. Vous pouvez créer des audiences [!DNL Google Ads] à partir de vos audiences Adobe Experience Cloud existantes et de vos listes d’adresses électroniques des clients. Vous pouvez également afficher et gérer les cibles et exclusions d’audience pour vos publicités [!DNL Google Ads] et [!DNL Microsoft Advertising].
+* **[!UICONTROL Audiences]** — [vues [!UICONTROL Audiences]](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) répertorie toutes vos audiences [!DNL Google Ads] et [!DNL Microsoft Advertising] générées à partir de différents types de listes d&#39;utilisateurs. Vous pouvez créer des audiences [!DNL Google Ads] à partir de vos audiences Adobe CX Enterprise existantes et de vos listes d’adresses électroniques des clients. Vous pouvez également afficher et gérer les cibles et exclusions d’audience pour vos publicités [!DNL Google Ads] et [!DNL Microsoft Advertising].
 
 * **[!UICONTROL Label Classifications]** — Utilisez cette vue pour créer et supprimer des [classifications de libellés](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) qui peuvent vous aider à regrouper vos libellés en ensembles significatifs.
 

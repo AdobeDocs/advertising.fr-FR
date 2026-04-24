@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 830
+source-wordcount: 832
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Voici le workflow général d’implémentation et d’utilisation de Search, So
 
    1. (Annonceurs avec Adobe Analytics et/ou Adobe Audience Manager) Configurez des intégrations entre les différents comptes afin qu’Adobe Advertising puisse échanger des données avec eux.
 
-      Consultez le guide sur « [&#x200B; Intégrations avec Experience Cloud &#x200B;](/help/integrations/home.md) ».
+      Consultez le guide sur « [&#x200B; Intégrations avec CX Enterprise &#x200B;](/help/integrations/home.md) ».
 
    1. (Annonceurs avec [!DNL Google Analytics]) Synchronisez les mesures de conversion pour une combinaison de compte, propriété et vue [!DNL Google Analytics] à des fins d’optimisation et de création de rapports.
 

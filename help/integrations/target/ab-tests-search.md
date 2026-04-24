@@ -18,9 +18,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 867
+source-wordcount: 958
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Dans Analysis Workspace, configurez l’[!DNL Analytics for Target panel] pour a
 
 #### Mesures
 
-* Créez un panneau dans l’espace de travail spécifique au compte, à la campagne ou au groupe publicitaire <!-- only applicable entities? --> pour lequel le test a été exécuté. Utilisez des visualisations de synthèse pour afficher les mesures Adobe Advertising dans le même rapport que les performances du test [!DNL Target].
+* Créez un panneau dans l’espace de travail spécifique au compte, à la campagne ou au groupe publicitaire Adobe Advertising<!-- only applicable entities? --> pour lequel le test a été exécuté. Utilisez des visualisations de synthèse pour afficher les mesures Adobe Advertising dans le même rapport que les performances du test [!DNL Target].
 
 * Établissez la priorité en utilisant les mesures sur site (telles que les visites et les conversions) pour mesurer les performances.
 
@@ -135,17 +135,17 @@ Les dimensions suivantes se rapportent aux [!DNL Analytics for Target] :
 
 Dans Analysis Workspace, si vous constatez que les données d’activité et d’expérience sont minimales ou ne sont pas renseignées, procédez comme suit :
 
-* Vérifiez que le même [!UICONTROL Supplemental Data ID] (SDID) est utilisé pour les [!DNL Target] et les [!DNL Analytics]. Vous pouvez vérifier les valeurs du SDID à l’aide du débogueur Adobe Experience Cloud [&#128279;](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=fr) sur la page de destination vers laquelle la campagne dirige les utilisateurs.
+* Vérifiez que le même [!UICONTROL Supplemental Data ID] (SDID) est utilisé pour les [!DNL Target] et les [!DNL Analytics]. Vous pouvez vérifier les valeurs du SDID à l’aide de l’[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=fr) sur la page de destination vers laquelle la campagne dirige les utilisateurs.
 
-[Valeurs de SDID (Supplemental Data ID) dans Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
+  [Valeurs de SDID (Supplemental Data ID) dans Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
 * Sur la même page de destination, vérifiez que a) le [!UICONTROL Hostname] affiché dans Adobe Debugger sous [!UICONTROL Solutions] > [!UICONTROL Target] correspond à b) le [!UICONTROL Tracking Server] affiché dans [!DNL Target] pour l’activité (sous [!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]).
 
   [!DNL Analytics For Target] nécessite l’envoi d’un serveur de suivi [!DNL Analytics] dans les appels de [!DNL Target] vers le serveur de collecte de données [!DNL Modstats] pour Analytics.<!-- just "to Analytics?"-->
 
-[Valeur du nom d’hôte dans Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
+  [Valeur du nom d’hôte dans Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
 
-[Valeur du serveur de suivi dans Target](/help/integrations/assets/target-troubleshooting-tracking-server.png)
+  [Valeur du serveur de suivi dans Target](/help/integrations/assets/target-troubleshooting-tracking-server.png)
 
 ## Informations complémentaires
 

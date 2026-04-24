@@ -12,9 +12,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 586
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 *Publicitaires avec une intégration Adobe Advertising-Adobe Audience Manager ou Adobe Advertising-Adobe Analytics uniquement*
 
-Les annonceurs inscrits peuvent créer [!DNL Google Ads] audiences de correspondance client à l’aide des ID utilisateur de a) [!DNL Analytics] segments partagés avec Adobe Experience Cloud et b) segments Audience Manager ayant pour destination Search, Social et Commerce, y compris les segments [!DNL Analytics] publiés sur Adobe Experience Cloud et les segments créés à l’aide de la bibliothèque d’audiences Adobe Experience Cloud. Search, Social et Commerce renvoie automatiquement une URL de suivi [!DNL Google] à chaque segment [!DNL Analytics] ou Audience Manager afin que [!DNL Google] puissiez suivre l’audience.
+Les annonceurs inscrits peuvent créer [!DNL Google Ads] audiences de correspondance client à l’aide des ID utilisateur de a) [!DNL Analytics] segments partagés avec Adobe CX Enterprise et b) segments Audience Manager ayant pour destination Search, Social et Commerce, y compris les segments [!DNL Analytics] publiés sur Adobe CX Enterprise et les segments créés à l’aide de la bibliothèque d’audiences Adobe CX Enterprise. Search, Social et Commerce renvoie automatiquement une URL de suivi [!DNL Google] à chaque segment [!DNL Analytics] ou Audience Manager afin que [!DNL Google] puissiez suivre l’audience.
 
 Chaque audience [!DNL Adobe] ne peut être utilisée que pour une seule audience [!DNL Google].
 
@@ -33,7 +33,7 @@ Chaque nouvelle audience [!DNL Google] porte le même nom que l’audience [!DNL
 
 >[!TIP]
 >
->Pour la segmentation en temps réel, utilisez des audiences créées par Audience Manager. Les segments créés dans [!DNL Analytics] et synchronisés avec Adobe Experience Cloud peuvent avoir des populations plus petites, car ils ne sont synchronisés que quotidiennement ; un internaute qualifié pour un segment peut ne pas être inclus dans le segment avant le lendemain. Les segments provenant de [!DNL Analytics] ont une source de données « suite de rapports - ».
+>Pour la segmentation en temps réel, utilisez des audiences créées par Audience Manager. Les segments créés dans [!DNL Analytics] et synchronisés avec Adobe CX Enterprise peuvent avoir des populations plus petites, car ils ne sont synchronisés que quotidiennement ; un internaute qualifié pour un segment peut ne pas être inclus dans le segment avant le lendemain. Les segments provenant de [!DNL Analytics] ont une source de données « suite de rapports - ».
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Chaque nouvelle audience [!DNL Google] porte le même nom que l’audience [!DNL
 
       Exemple : `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
-   1. (Si ce n’est pas déjà fait) Un utilisateur autorisé doit configurer le compte de l’annonceur pour [synchroniser avec le compte d’organisation de l’annonceur dans Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md).
+   1. (Si ce n’est pas déjà fait) Un utilisateur autorisé doit configurer le compte de l’annonceur pour [synchroniser avec le compte d’organisation de l’annonceur dans Adobe CX Enterprise](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Dans les sous-menus, cliquez sur **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 

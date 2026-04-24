@@ -14,16 +14,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 758
+source-wordcount: 761
 ht-degree: 0%
 
 ---
 
 # Gérer les sources d’audience pour activer les audiences d’ID universel
 
-*Fonction*
+*Fonction Beta*
 
 Créez une source dans DSP pour chaque audience propriétaire de votre plateforme de données client que vous souhaitez convertir en segments contenant des types d’identifiants universels spécifiés. Vous pouvez importer les segments dans le compte DSP de votre organisation ou dans un compte d’annonceur. Les frais de données sont appliqués en fonction des types d’ID universels sélectionnés. Une fois que vous avez créé une source, des étapes supplémentaires sont nécessaires pour ingérer les audiences de chaque plateforme de données client. Reportez-vous à la remarque à la fin de la procédure pour créer une source.
 
@@ -119,7 +119,7 @@ Vous pouvez afficher les détails des modifications apportées à un enregistrem
 
 **[!UICONTROL Advertiser]:** (visibilité au niveau de l’annonceur uniquement) Annonceur pour lequel les segments sont disponibles. Sélectionnez-en un dans la liste des annonceurs ayant accès au compte.
 
-**[!UICONTROL Enter IMS Org Id]:** (sources de [!DNL Real-Time CDP] uniquement) ID d’organisation Adobe Experience Cloud pour le compte [!DNL Adobe Experience Platform].
+**[!UICONTROL Enter IMS Org Id]:** (sources de [!DNL Real-Time CDP] uniquement) ID d’organisation Adobe CX Enterprise pour le compte [!DNL Adobe Experience Platform].
 
 **[!UICONTROL Convert PII to the following IDs]:** types d’ID auxquels vous convertirez vos informations d’identification personnelle (PII). Si vous sélectionnez plusieurs types, le segment généré est renseigné avec des valeurs pour chaque type d’identifiant sélectionné (par exemple un [!DNL RampID] et un [!DNL Unified ID2.0] pour chaque adresse e-mail). Les frais de données sont appliqués en conséquence.
 

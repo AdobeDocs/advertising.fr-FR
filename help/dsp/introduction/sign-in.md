@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 502
+source-wordcount: 535
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Adobe Advertising DSP effectue une transition vers Adobe Identity Management Service (IMS) pour l’authentification de la connexion. IMS fournit un accès SSO (authentification unique) à l’aide de Federated ID à tous les produits [!DNL Adobe] qui prennent en charge IMS, notamment Real-Time Customer Data Platform, Customer Journey Analytics, [!DNL Target] et [!DNL Analytics]. Avec la modification :
 
-* Vous pouvez utiliser une [!DNL Adobe ID] pour vous connecter à [!DNL Adobe] produits à partir de la page de connexion d’Experience Cloud ou de la page de connexion DSP héritée. Votre [!DNL Adobe ID] permet de gérer les profils utilisateur. Dans une version ultérieure, vous pourrez modifier le compte DSP, le compte d’organisation IMS et [!DNL Adobe] produit à partir du menu supérieur.
+* Vous pouvez utiliser une [!DNL Adobe ID] pour vous connecter à [!DNL Adobe] produits à partir de la page de connexion de Adobe CX Enterprise (anciennement Adobe Experience Cloud) ou de la page de connexion de DSP héritée. Votre [!DNL Adobe ID] permet de gérer les profils utilisateur. Dans une version ultérieure, vous pourrez modifier le compte DSP, le compte d’organisation IMS et [!DNL Adobe] produit à partir du menu supérieur.
 
 * L’authentification d’entreprise est prise en charge.
 
@@ -56,7 +56,7 @@ Vos informations d’identification DSP actuelles resteront actives pendant une 
 
    * Si vous avez accès à plusieurs organisations IMS, sélectionnez celle qui convient.
 
-Pour plus d’informations sur l’interface d’Experience Cloud, notamment sur la gestion de votre profil utilisateur, voir « [Interface et administration d’Experience Cloud &#x200B;](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud) ».
+Pour plus d’informations sur l’interface de CX Enterprise, notamment sur la gestion de votre profil utilisateur, voir « Interface et administration de [CX Enterprise &#x200B;](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud) ».
 
 ### Dépannage
 

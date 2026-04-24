@@ -1,6 +1,6 @@
 ---
 title: Nouveautés
-description: Découvrez les mises à jour des intégrations entre Adobe Advertising et d’autres produits et services dans Adobe Experience Cloud.
+description: Découvrez les mises à jour des intégrations entre Adobe Advertising et d’autres produits et services dans Adobe CX Enterprise (anciennement Adobe Experience Cloud).
 cloud: Experience Cloud
 product: advertising cloud
 index: true
@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: 870
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Les fonctionnalités suivantes sont nouvelles ou ont été récemment modifiées
 | 13 Novembre 2024 | [!DNL Analytics for Advertising] | (Annonceurs avec [!DNL Analytics for Advertising] et Adobe Customer Journey Analytics) Si vous utilisez des variables réservées pour capturer vos AMO ID et EF ID, vous pouvez vous préparer à une intégration future entre Adobe Advertising et Adobe Customer Journey Analytics en copiant dès que possible vos variables réservées pour l’AMO ID et l’EF ID dans des [!DNL eVars] standard. Cela permettra de collecter des données historiques pour les ID AMO et EF dès que vous aurez terminé la tâche, et les données historiques seront disponibles pour une utilisation ultérieure. L’équipe chargée de votre compte Adobe vous indiquera si vous utilisez des variables réservées et si vous devez effectuer cette tâche. | Voir « [&#x200B; Collecter des données historiques pour les ID AMO et les ID EF à utiliser dans Adobe Customer Journey Analytics &#x200B;](/help/integrations/analytics/rvars-to-evars.md) ». |
 | Publié Le 29 Octobre 2024 | [!DNL Adobe Analytics for Advertising] | (Annonceurs avec des campagnes Performance Max [!DNL Adobe Analytics for Advertising] et [!DNL Microsoft Advertising]) Les données au niveau du groupe de ressources pour vos campagnes Performance Max sont désormais disponibles dans Adobe Analytics lorsque vous implémentez un nouveau paramètre AMO ID ([!DNL s_kwcid]) dans les URL de tracking pour vos campagnes Performance Max, qui n’incluent pas de publicités ni de mots-clés. Le suivi de la plupart des comptes avec des campagnes Performance Max a déjà été migré au nouveau format. Pour les comptes disposant de campagnes Performance Max sans l’option de tracking [!UICONTROL Auto Upload] qui n’ont pas déjà été migrés au nouveau format, vous devez toutefois mettre à jour manuellement chaque suffixe de page de destination pour inclure le nouveau format d’identifiant AMO.<br><br>Les données Adobe Analytics pour vos campagnes de performances maximales sont également disponibles dans Search, Social et Commerce. | Découvrez le nouveau [format d’AMO ID](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#dimension-items) et [&#x200B; quand et comment ajouter le paramètre à vos URL de tracking](/help/integrations/analytics/ids.md). |
 | 16 Décembre 2023 | Aide | Un nouveau document explique comment configurer des tests A/B dans [!DNL Target] pour le trafic de clics publicitaires provenant d’annonces dans Search, Social et Commerce. Il fournit également des conseils sur la manière de mesurer et de visualiser vos tests dans [!DNL Analytics]. | Voir « [Configuration des tests A/B dans Adobe Target pour les annonces Search, Social et Commerce](/help/integrations/target/ab-tests-search.md) ». |
-| 8 Août 2023 | [!DNL Analytics for Advertising] | Certaines mesures d’événement de succès [!DNL Analytics], notamment les mesures de conversion standard, personnalisées et réservées, ainsi que les mesures de trafic, sont automatiquement disponibles dans DSP et dans Search, Social et Commerce. Désormais, vous pouvez également configurer vos propres mesures de succès en fonction de vos [!DNL Analytics] et [!DNL eVars] de [!DNL props] existants en canalisant les données de niveau [!DNL eVar] et [!DNL prop] vers un événement de succès personnalisé. | Voir « [Création de mesures de conversion à partir d’Adobe Analytics [!DNL eVars] et [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md) ». |
+| 8 Août 2023 | [!DNL Analytics for Advertising] | Certaines mesures d’événement de succès [!DNL Analytics], notamment les mesures de conversion standard, personnalisées et réservées, ainsi que les mesures de trafic, sont automatiquement disponibles dans DSP et dans Search, Social et Commerce. Désormais, vous pouvez également configurer vos propres mesures de succès en fonction de vos [!DNL eVars] et [!DNL props] de [!DNL Analytics] existants en canalisant les données de niveau [!DNL eVar] et [!DNL prop] vers un événement de succès personnalisé. | Voir « [Création de mesures de conversion à partir d’Adobe Analytics [!DNL eVars] et [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md) ». |
 | 13 Juillet 2023 | Création de rapports | (Utilisateurs de DSP avec [!DNL Analytics for Advertising]) Les conversions d’affichage publicitaire pour les emplacements de télévision connectée (CTV) sont désormais incluses dans les données de conversion disponibles dans Adobe Analytics. | Reportez-vous à la section « Exemples d’utilisation de l’intégration » de la section « [&#x200B; Présentation d’ [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples) ». |
 | 1 Novembre 2022 | Aide | Un nouveau document explique comment implémenter le partage de signaux de clics publicitaires et de vues publicitaires entre Advertising DSP et Adobe Target, configurer une activité de test A/B dans [!DNL Target] pour vos publicités DSP et configurer Adobe Analytics Analysis Workspace pour afficher les données de test. | Voir « [Configuration des tests A/B dans Adobe Target pour les publicités Advertising DSP](/help/integrations/target/ab-tests-dsp.md) ». |
 | 17 Août 2022 | Aide | Un nouveau chapitre explique toutes les façons dont Adobe Advertising est intégré à Adobe Audience Manager. | Consultez le chapitre « Intégration à Adobe Audience Manager », y compris une présentation de « [Intégrations Adobe Advertising à Adobe Audience Manager &#x200B;](/help/integrations/audience-manager/overview.md) ». |
@@ -53,7 +53,7 @@ Les fonctionnalités suivantes sont nouvelles ou ont été récemment modifiées
 <!--
  At some point, just make this an overview page instead?
 
-Adobe Advertising is integrated with the following Adobe Experience Cloud products:
+Adobe Advertising is integrated with the following Adobe CX Enterprise products:
 
 * [Adobe Analytics](/help/integrations/analytics/overview.md)
 

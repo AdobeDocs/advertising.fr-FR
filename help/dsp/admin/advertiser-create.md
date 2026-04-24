@@ -2,9 +2,9 @@
 title: Créer un compte d’annonceur
 description: Découvrez comment créer un compte d’annonceur.
 role: User, Admin
-source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Les annonceurs sont disponibles pour tous les utilisateurs dans le compte d’or
 
       1. Spécifiez les paramètres de [!UICONTROL General].
 
-      1. (Facultatif) Pour configurer des intégrations entre DSP et d’autres produits Adobe Experience Cloud, saisissez l’ID d’organisation Experience Cloud de l’annonceur dans la section [!UICONTROL Adobe IMS IDs], puis configurez les intégrations de produits dans la section [!UICONTROL Integrations].
+      1. (Facultatif) Pour configurer des intégrations entre DSP et d’autres produits Adobe CX Enterprise, saisissez l’ID d’organisation CX Enterprise de l’annonceur dans la section [!UICONTROL Adobe IMS IDs], puis configurez les intégrations de produits dans la section [!UICONTROL Integrations].
 
    1. (Facultatif) Dans les sections [!UICONTROL Targeting], spécifiez les cibles par défaut pour chaque nouvel emplacement.
 

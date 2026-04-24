@@ -4,10 +4,10 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: b3eb6f69a643637635ac60e6751d091c5380a397
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 4%
+source-wordcount: '1054'
+ht-degree: 3%
 
 ---
 
@@ -15,30 +15,30 @@ ht-degree: 4%
 # Guide d’Advertising DSP {#dsp}
 
 + [Nouveautés](/help/dsp/home.md)
-+ [Connexion à Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)
++ [Sign in to Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)
 + Introduction {#introduction}
-   + [Présentation d’Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
-   + Fonctionnalités clés {#features}
-      + [Optimisation](/help/dsp/introduction/features/optimization.md)
-      + [Sécurité de la marque et qualité des médias](/help/dsp/introduction/features/brand-safety-media-quality.md)
-      + [Solutions sur plusieurs appareils](/help/dsp/introduction/features/cross-device-solutions.md)
-   + [Financement du compte](/help/dsp/introduction/billing/account-funding.md)
-   + [Devises prises en charge](/help/dsp/currency.md)
-   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)
+   + [Introduction to Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
+   + Key features {#features}
+      + [Optimization](/help/dsp/introduction/features/optimization.md)
+      + [Brand safety and media quality](/help/dsp/introduction/features/brand-safety-media-quality.md)
+      + [Cross-device solutions](/help/dsp/introduction/features/cross-device-solutions.md)
+   + [Account funding](/help/dsp/introduction/billing/account-funding.md)
+   + [Currencies supported](/help/dsp/currency.md)
+   + [Prise en charge de la confidentialité des clients](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)
    + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)
-   + [Solutions de mesure avancées](/help/dsp/introduction/advanced-measurement-services.md)
-+ [Rechercher de la documentation sur les produits à l’aide du chat assisté par l’IA](/help/dsp/agent-chat.md)
+   + [Advanced measurement solutions](/help/dsp/introduction/advanced-measurement-services.md)
++ [Search for product documentation using AI-assisted chat](/help/dsp/agent-chat.md)
 + Gestion des campagnes {#campaign-management}
-   + [Présentation de la gestion des campagnes dans Advertising DSP](/help/dsp/campaign-management/campaign-management-overview.md)
+   + [Overview of campaign management in Advertising DSP](/help/dsp/campaign-management/campaign-management-overview.md)
    + Campagnes {#campaigns}
-      + [À propos de la gestion des campagnes dans Advertising DSP](/help/dsp/campaign-management/campaigns/campaign-about.md)
-      + [Création d’une campagne](/help/dsp/campaign-management/campaigns/campaign-create.md)
-      + [Modification d’une campagne](/help/dsp/campaign-management/campaigns/campaign-edit.md)
-      + [Dupliquer une campagne](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
-      + [Affichage d’un rapport détaillé pour une campagne](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
-      + [Mettre en pause ou activer une campagne](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)
-      + [Archivage ou désarchivage d’une campagne](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
-      + [Afficher le journal des modifications d&#39;une campagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
+      + [About campaign management in Advertising DSP](/help/dsp/campaign-management/campaigns/campaign-about.md)
+      + [Create a campaign](/help/dsp/campaign-management/campaigns/campaign-create.md)
+      + [Edit a campaign](/help/dsp/campaign-management/campaigns/campaign-edit.md)
+      + [Duplicate a campaign](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
+      + [View a detailed report for a campaign](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+      + [Pause or activate a campaign](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)
+      + [Archive or unarchive a campaign](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
+      + [View the change log for a campaign](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [Paramètres de la campagne](/help/dsp/campaign-management/campaigns/campaign-settings.md)
       + [Examiner et modifier les paramètres des composants de campagne à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md)
       + [Liste de contrôle du lancement de la campagne](/help/dsp/campaign-management/campaign-launch-checklist.md)
@@ -77,7 +77,7 @@ ht-degree: 4%
       + [Révision et modification des détails des annonces publicitaires à l’aide de feuilles d’envoi groupé](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Modification d’une publicité](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Dupliquer une publicité](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Joindre et supprimer des publicités des emplacements](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=fr)
+      + [Joindre et supprimer des annonces des emplacements](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=fr)
       + [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Affichage d’un rapport détaillé pour une publicité](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Mettre en pause ou activer une publicité](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -88,32 +88,32 @@ ht-degree: 4%
          + [Afficher les paramètres d’annonce publicitaire](/help/dsp/campaign-management/ads/ad-settings-display.md)
          + [Paramètres des annonces publicitaires mobiles](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
          + [Paramètres natifs des publicités display](/help/dsp/campaign-management/ads/ad-settings-native.md)
-         + [Paramètres de publicité preroll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
-         + [Paramètres universels des publicités vidéo](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
-      + [Spécifications pour les types d’annonces pris en charge](/help/dsp/campaign-management/ads/ad-specs.md)
-   + Informations sur les campagnes croisées {#insights}
-      + [À propos des insights](/help/dsp/campaign-management/insights/insights-about.md)
-   + Rapports de performances dans les vues de gestion de campagne {#campaign-reports}
-      + [Types de rapports de performances dans les vues de gestion de campagnes](/help/dsp/campaign-management/reports/campaign-reports-about.md)
-      + [Exporter les données d’une vue de gestion de campagne](/help/dsp/campaign-management/reports/campaign-export-data.md)
-      + [Afficher les sites, les publicités, la fréquence et les détails de l’inventaire pour un emplacement](/help/dsp/campaign-management/reports/placement-details-view.md)
-      + [Afficher le rapport de prévision d&#39;emplacement](/help/dsp/campaign-management/reports/placement-forecast.md)
-      + [Affichage des rapports de diagnostic des emplacements](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+         + [Pre-roll ad settings](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+         + [Universal video ad settings](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
+      + [Specifications for supported ad types](/help/dsp/campaign-management/ads/ad-specs.md)
+   + Cross-campaign insights {#insights}
+      + [About insights](/help/dsp/campaign-management/insights/insights-about.md)
+   + Performance reports in campaign management views {#campaign-reports}
+      + [Types of performance reports in campaign management views](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+      + [Export data from a campaign management view](/help/dsp/campaign-management/reports/campaign-export-data.md)
+      + [View the sites, ads, frequency, and inventory details for a placement](/help/dsp/campaign-management/reports/placement-details-view.md)
+      + [View the placement forecast report](/help/dsp/campaign-management/reports/placement-forecast.md)
+      + [View the placement diagnostic reports](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [Affichage des alertes](/help/dsp/campaign-management/reports/campaign-alerts.md)
-      + [Gestion des vues de données de campagne](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + [Macros Advertising DSP](/help/dsp/campaign-management/macros.md)
-   + [Raccourcis clavier](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [Questions fréquentes sur la gestion de campagnes](/help/dsp/campaign-management/faq-campaign-management.md)
-   + [Questions fréquentes sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md)
-+ Optimisation {#optimization}
-   + [Optimisation des campagnes par Advertising DSP](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
-   + [Objectifs d’optimisation et utilisation](/help/dsp/optimization/optimization-goals.md)
-   + [Filtres de pré-enchères au niveau de l’emplacement et utilisation](/help/dsp/optimization/optimization-pre-bid-filters.md)
+      + [Manage your campaign data views](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+   + [Advertising DSP macros](/help/dsp/campaign-management/macros.md)
+   + [Keyboard shortcuts](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
+   + [FAQs about campaign management](/help/dsp/campaign-management/faq-campaign-management.md)
+   + [FAQs about universal video](/help/dsp/campaign-management/faq-universal-video.md)
++ Optimization {#optimization}
+   + [How Advertising DSP optimizes your campaigns](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+   + [Optimization goals and how to use them](/help/dsp/optimization/optimization-goals.md)
+   + [Placement-level pre-bid filters and how to use them](/help/dsp/optimization/optimization-pre-bid-filters.md)
    + [Objectifs personnalisés](/help/dsp/optimization/custom-goal.md)
-   + [Bonnes pratiques pour configurer des campagnes de performances](/help/dsp/optimization/campaign-best-practices-performance.md)
-   + [Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)
+   + [Best practices for setting up performance campaigns](/help/dsp/optimization/campaign-best-practices-performance.md)
+   + [Troubleshooting performance](/help/dsp/optimization/troubleshooting-performance.md)
 + Audiences {#audiences}
-   + [À propos de la gestion des audiences](/help/dsp/audiences/audience-about.md)
+   + [About audience management](/help/dsp/audiences/audience-about.md)
    + [Prise en charge de l’activation des identifiants universels](/help/dsp/audiences/universal-ids.md)
    + Audiences réutilisables {#reusable-audiences}
       + [Créer une audience réutilisable](/help/dsp/audiences/reusable-audience-create.md)
@@ -233,9 +233,9 @@ ht-degree: 4%
    + Notifications {#notifications}
       + [À propos des abonnements aux alertes](/help/dsp/admin/alerts-about.md)
       + [Gestion des abonnements aux alertes](/help/dsp/admin/alerts-manage.md)
-+ [Intégrations avec Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=fr)
++ [Intégrations à Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=fr)
 + [Obtenir de l’aide](/help/dsp/get-help.md)
-+ [Notes de mise à jour de &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)
++ [Notes de mise à jour de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)
 
 
 <!--

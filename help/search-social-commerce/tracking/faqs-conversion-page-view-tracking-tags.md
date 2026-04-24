@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 45b15880c20d516e4bab1ec664a45ebdf8ffbdcc
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ Les éléments suivants s’appliquent aux balises de suivi des conversions et a
 >[!NOTE]
 >
 >* Toutes les nouvelles mises en œuvre utilisent JavaScript version 3.
->* La balise JavaScript avec ECID utilise le service [Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) ainsi que les anciens ef_id et gsurferid pour mesurer les conversions. Cette dernière balise crée des [cookies s_ecid Experience Cloud propriétaires](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=fr) et permet une intégration plus étroite à d’autres produits Experience Cloud.
+>* La balise JavaScript avec ECID utilise le service [Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) ainsi que les anciens ef_id et gsurferid pour mesurer les conversions. Cette dernière balise crée des [cookies s_ecid CX Enterprise propriétaires](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=fr) et permet une intégration plus étroite à d’autres produits CX Enterprise.
 >* N’utilisez les balises JavaScript version 2 que lorsqu’elles sont déjà implémentées sur les pages web de l’annonceur.
 >* La bonne pratique consiste à utiliser les balises JavaScript plutôt que les balises d’image, sauf si le site applique une politique qui interdit leur utilisation.
->* Les balises JavaScript sont requises pour les annonceurs qui souhaitent cibler des audiences créées dans Adobe Experience Cloud, dans Adobe Audience Manager ou publiées sur Adobe Experience Cloud à partir d’Audience Manager ou d’Adobe Analytics.
+>* Les balises JavaScript sont requises pour les annonceurs qui souhaitent cibler des audiences créées dans Adobe CX Enterprise, dans Adobe Audience Manager ou publiées sur Adobe CX Enterprise à partir d’Audience Manager ou d’Adobe Analytics.
 
 >[!MORELIKETHIS]
 >

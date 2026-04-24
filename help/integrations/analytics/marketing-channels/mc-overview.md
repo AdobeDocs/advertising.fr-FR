@@ -14,9 +14,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: 561
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Pour obtenir une documentation complète sur les [!DNL Marketing Channels], voir
 
 [!DNL Marketing Channels] sont des fonctionnalités essentielles d’Adobe Analytics. [!DNL Marketing Channels] rapports montrent comment les clients accèdent à votre site web par la fenêtre de création de rapports et comment chaque canal affecte le chiffre d’affaires ou le comportement sur site.
 
-Prenons l’exemple suivant d’un parcours de visites croisées. Chaque visite de votre site web est indiquée par le canal marketing à partir duquel le visiteur a rejoint le site. La première visite, également appelée canal Première touche, est l’e-mail. L’affichage lors de la deuxième visite est un canal participant, et la recherche naturelle est considérée comme le canal Dernière touche. Si vous utilisez [!UICONTROL Last Touch Attribution] dans [!UICONTROL Attribution IQ], Natural Search reçoit un crédit complet pour l’événement de conversion de 250 $. À l’aide du service Experience Cloud ID, vous pouvez lier ces visites individuelles afin d’afficher un parcours par un seul visiteur.
+Prenons l’exemple suivant d’un parcours de visites croisées. Chaque visite de votre site web est indiquée par le canal marketing à partir duquel le visiteur a rejoint le site. La première visite, également appelée canal Première touche, est l’e-mail. L’affichage lors de la deuxième visite est un canal participant, et la recherche naturelle est considérée comme le canal Dernière touche. Si vous utilisez [!UICONTROL Last Touch Attribution] dans [!UICONTROL Attribution IQ], Natural Search reçoit un crédit complet pour l’événement de conversion de 250 $. À l’aide du service Adobe CX Enterprise ID, vous pouvez lier ces visites individuelles afin d’afficher un parcours par un seul visiteur.
 
 ![Exemple de parcours de conversion entre visites dans les canaux marketing](/help/integrations/assets/a4adc-mc-sample-journey.png)
 

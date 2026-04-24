@@ -3,9 +3,9 @@ role: User
 user-guide-title: Guide d’Advertising Creative
 user-guide-description: Découvrez les principaux paramètres, fonctionnalités, tâches et autres ressources nécessaires à l’utilisation d’Advertising Creative.
 breadcrumb-title: Guide créatif
-source-git-commit: a5a29233034121a310ee172fe2cf6997047733c2
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '410'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
    + [À propos de Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Personnalisation des vues de données](/help/creative/introduction/customize-data-views.md)
    + [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [Prise en charge de la confidentialité des consommateurs](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}
+   + [Prise en charge de la confidentialité des clients](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}
    + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}
 + Bibliothèques Creative {#creative-libraries}
    + [À propos de vos bibliothèques de création](/help/creative/creative-libraries/creative-libraries-about.md)
@@ -95,4 +95,4 @@ ht-degree: 5%
 + [Reciblage des pixels](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponibles pour le tracking des URL](/help/creative/creative-macros.md)
 + [Obtenir de l’aide](/help/creative/get-help.md)
-+ [Notes de mise à jour de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target="_blank"}
++ [Notes de mise à jour de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target="_blank"}

@@ -3,9 +3,9 @@ title: Générer et implémenter une balise de suivi des conversions Adobe Adver
 description: Découvrez comment créer une balise de conversion Adobe Advertising pour suivre vos événements de conversion.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: 674c2a40ccb64b6dfcbda2c4030a8b985ce58a45
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Voir « [FAQ sur les balises de conversion et de suivi des pages vues d’Adobe 
 
 ## Implémenter les balises de suivi des conversions à l’aide des balises Adobe Experience Platform et de l’extension Adobe Advertising
 
-Vous pouvez configurer le suivi des conversions pour Search, Social et Commerce à l’aide des balises dans Adobe Experience Platform. Les balises sont disponibles pour les clients Adobe Experience Cloud en tant que fonctionnalité à valeur ajoutée incluse.
+Vous pouvez configurer le suivi des conversions pour Search, Social et Commerce à l’aide des balises dans Adobe Experience Platform. Les balises sont disponibles pour les clients Adobe CX Enterprise en tant que fonctionnalité à valeur ajoutée incluse.
 
 Les tâches suivantes sont nécessaires pour configurer les balises de suivi des conversions pour Search, Social et Commerce à partir de l’interface utilisateur d’Experience Platform ou de l’interface utilisateur de la collecte de données Experience Platform. Pour obtenir des informations complètes et des instructions sur la configuration des balises, consultez le Guide d’Experience Platform Tags, en commençant par la « [&#x200B; Présentation des balises &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/home) » et le « [&#x200B; Guide de démarrage rapide &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/get-started/quick-start) ».
 

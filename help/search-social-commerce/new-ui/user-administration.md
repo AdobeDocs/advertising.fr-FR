@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: 1045
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ La nouvelle interface utilisateur de Search, Social &amp; Commerce comporte les 
 
    * [!UICONTROL Portfolio Groups] : accès complet
 
-   * [!UICONTROL Portfolios] : créer/modifier l’accès aux paramètres du portefeuille pour les [!UICONTROL Objectives] [!UICONTROL Campaigns], [!UICONTROL Management] et Dépenses ; accès en lecture seule aux paramètres restants du portefeuille.
+   * [!UICONTROL Portfolios] : créer/modifier l’accès aux paramètres du portefeuille pour les [!UICONTROL Management] [!UICONTROL Objectives], [!UICONTROL Campaigns] et Dépenses ; accès en lecture seule aux paramètres restants du portefeuille.
 
    * [!UICONTROL Campaigns] : accès en lecture seule aux paramètres de la campagne (aucune fonctionnalité de création, de modification ou de suppression n&#39;est disponible) ; accès complet aux affectations de contraintes et de portfolio
 
@@ -100,13 +100,13 @@ La nouvelle interface utilisateur de Search, Social &amp; Commerce comporte les 
 
 1. Accédez à https://adminconsole.adobe.com/enterprise/.
 
-1. (Si vous n’êtes pas connecté à Experience Cloud) Connectez-vous à Experience Cloud :
+1. (Si vous n’êtes pas connecté à CX Enterprise) Connectez-vous à CX Enterprise :
 
    1. Saisissez votre ID de [!DNL Adobe], puis cliquez sur **[!UICONTROL Continue]**.
 
    1. Sélectionnez **[!UICONTROL Personal Account] » ou &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
-   1. Sélectionnez l’organisation Experience Cloud applicable.
+   1. Sélectionnez l’organisation CX Enterprise applicable.
 
       Admin Console s’ouvre sur l’onglet [!UICONTROL Overview] .
 
@@ -152,6 +152,6 @@ Suivez ce workflow pour chaque instance cliente de Search, Social et Commerce.
 
 ## Guide complet d’administration des utilisateurs et des liens supplémentaires
 
-* Pour plus d’informations sur l’administration des utilisateurs à l’aide de Adobe Admin Console, consultez le « Guide d’administration d’Adobe Enterprise et Teams [&#x200B; », y compris la &#x200B;](https://helpx.adobe.com/fr/enterprise/admin-guide.html)présentation d’Admin Console[.](https://helpx.adobe.com/fr/enterprise/using/admin-console.html)
+* Pour plus d’informations sur l’administration des utilisateurs à l’aide de Adobe Admin Console, consultez le « Guide d’administration d’Adobe Enterprise et Teams [&#128279;](https://helpx.adobe.com/fr/enterprise/admin-guide.html) », y compris la [présentation d’Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html).
 
 * Admin Console : [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
