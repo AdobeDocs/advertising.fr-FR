@@ -133,19 +133,19 @@ Les filtres de visibilité de pré-enchères facultatifs par [!DNL DoubleVerify]
 
 ###### Vidéo
 
-** **[!UICONTROL Include URL's whose average video viewability rate is]**. Avec cette option, sélectionnez les critères.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Avec cette option, sélectionnez les critères.
 
-** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Avec cette option, sélectionnez les critères.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Avec cette option, sélectionnez les critères.
 
-** **[!UICONTROL Include URL's whose average player size composition is]**. Avec cette option, sélectionnez les critères.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Avec cette option, sélectionnez les critères.
 
-** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Affichage
 
-** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Avec cette option, sélectionnez les critères.
+**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Avec cette option, sélectionnez les critères.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -165,7 +165,7 @@ Un filtre **[!UICONTROL Video Viewability Targets]** facultatif et un filtre **[
 * *[!UICONTROL Ads.txt sellers only]* : Pour acheter des stocks uniquement auprès des vendeurs directs et des revendeurs autorisés d&#39;un domaine.
 * *[!UICONTROL Ads.txt sellers only]* : Pour acheter des stocks uniquement auprès des vendeurs directs autorisés d&#39;un domaine.
 
-Vous pouvez remplacer le paramètre au niveau de l’annonceur au [ niveau de l’emplacement ](/help/dsp/campaign-management/placements/placement-settings.md).
+Vous pouvez remplacer le paramètre au niveau de l’annonceur au [&#x200B; niveau de l’emplacement &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
 
 #### [!UICONTROL Safe Site Block]
 
