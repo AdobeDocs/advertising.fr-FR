@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 9f19d84117f68a7672c9090116474570e0625cab
 workflow-type: tm+mt
-source-wordcount: 1020
+source-wordcount: 1105
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 *Publicitaires avec une intégration Adobe Advertising-Adobe Analytics uniquement*
 
-*Applicable à Advertising DSP et[!DNL Advertising Search, Social, & Commerce]*
+*Applicable à Advertising Creative, Advertising DSP et Advertising Search, Social et Commerce*
 
 Adobe Advertising utilise deux identifiants pour le suivi des performances sur site : l’*ID EF* et l’*ID AMO*.
 
@@ -160,11 +160,11 @@ Pour implémenter la fonction d’insertion côté serveur ou déterminer la mei
 
 ### AMO - Dimension d’ID dans [!DNL Analytics]
 
-Dans les rapports Analytics, vous pouvez trouver des données d’ID AMO en recherchant la dimension [!UICONTROL AMO ID] et en utilisant la mesure [!UICONTROL AMO ID Instances] . La dimension [!UICONTROL AMO ID] héberge toutes les valeurs d’ID AMO capturées, tandis que la mesure [!UICONTROL AMO ID Instances] indique la fréquence à laquelle une valeur d’ID AMO a été capturée par le site. Par exemple, si la même publicité de recherche a fait l’objet de quatre clics mais qu’Analytics a suivi sept entrées de site, [!UICONTROL AMO ID Instances] serait sept (7) et [!UICONTROL Clicks] serait quatre (4).
+Dans les rapports [!DNL Analytics], vous pouvez trouver des données d’ID AMO en recherchant la dimension [!UICONTROL AMO ID] et en utilisant la mesure [!UICONTROL AMO ID Instances] . La dimension [!UICONTROL AMO ID] héberge toutes les valeurs d’ID AMO capturées, tandis que la mesure [!UICONTROL AMO ID Instances] indique la fréquence à laquelle une valeur d’ID AMO a été capturée par le site. Par exemple, si la même publicité de recherche a fait l’objet de quatre clics, mais [!DNL Analytics] a suivi sept entrées de site, [!UICONTROL AMO ID Instances] serait sept (7) et [!UICONTROL Clicks] serait quatre (4).
 
 Pour les rapports ou les audits au sein de [!DNL Analytics], la bonne pratique consiste à utiliser l’AMO ID avec son instance correspondante. Pour plus d’informations, voir « [Validation des données de clic publicitaire pour  [!DNL Analytics for Advertising]](data-variances.md#data-validation) » dans « Variations de données attendues entre [!DNL Analytics] et Adobe Advertising ».
 
-## À propos des classifications Analytics
+## À propos des classifications [!DNL Analytics]
 
 Dans [!DNL Analytics], une [classification](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=fr) est un élément de métadonnées pour un code de suivi donné, tel qu’un compte, une campagne ou une publicité. Adobe Advertising classe les données Adobe Advertising brutes à l’aide de classifications afin que vous puissiez afficher les données de différentes manières (par exemple par type d’annonce ou campagne) lorsque vous générez des rapports. Les classifications forment la base des rapports Adobe Advertising dans [!DNL Analytics] et peuvent être utilisées avec les mesures AMO telles que [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] et [!UICONTROL AMO Clicks], ainsi qu’avec les événements sur site personnalisés et standard tels que [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] et [!UICONTROL Revenue].
 
