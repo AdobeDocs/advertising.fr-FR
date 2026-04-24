@@ -24,8 +24,8 @@ ht-degree: 3%
       + [Cross-device solutions](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Account funding](/help/dsp/introduction/billing/account-funding.md)
    + [Currencies supported](/help/dsp/currency.md)
-   + [Prise en charge de la confidentialité des clients](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
-   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Prise en charge de la confidentialité des clients](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)
+   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)
    + [Advanced measurement solutions](/help/dsp/introduction/advanced-measurement-services.md)
 + [Search for product documentation using AI-assisted chat](/help/dsp/agent-chat.md)
 + Gestion des campagnes {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 3%
       + [Révision et modification des détails des annonces publicitaires à l’aide de feuilles d’envoi groupé](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Modification d’une publicité](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Dupliquer une publicité](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Joindre et supprimer des annonces des emplacements](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
+      + [Joindre et supprimer des annonces des emplacements](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=fr)
       + [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Affichage d’un rapport détaillé pour une publicité](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Mettre en pause ou activer une publicité](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -233,9 +233,9 @@ ht-degree: 3%
    + Notifications {#notifications}
       + [À propos des abonnements aux alertes](/help/dsp/admin/alerts-about.md)
       + [Gestion des abonnements aux alertes](/help/dsp/admin/alerts-manage.md)
-+ [Intégrations à Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
++ [Intégrations à Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=fr)
 + [Obtenir de l’aide](/help/dsp/get-help.md)
-+ [Notes de mise à jour de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Notes de mise à jour de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)
 
 
 <!--

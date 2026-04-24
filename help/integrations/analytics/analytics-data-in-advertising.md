@@ -41,8 +41,8 @@ New segments take 24-48 hours to appear in Adobe Advertising. Updates to existin
 * [!UICONTROL Timespent_secs_total]: The total number of seconds spent on the site across all visits within the click lookback window.
 * [!UICONTROL Pageviews_1stvisit]: The number of page views on the site during the visitor&#39;s first visit.
 * [!UICONTROL Pageviews_total]: The total number of page views on the site across all visits within the click lookback window.
-* [[!UICONTROL Bounces] metric](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)
-* [[!UICONTROL Visits] metric](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)
+* [[!UICONTROL Bounces] metric](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html?lang=fr)
+* [[!UICONTROL Visits] metric](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=fr)
 * [!UICONTROL ef_id_instances]: The number of times that [!DNL Analytics] collected an [!UICONTROL EF ID].
 
 ## Conversion metrics
@@ -51,14 +51,14 @@ New segments take 24-48 hours to appear in Adobe Advertising. Updates to existin
 
 ### Standard conversion metrics
 
-* [[!UICONTROL Revenue] une mesure](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html)
-* [[!UICONTROL Orders] une mesure](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html)
-* [[!UICONTROL Units] une mesure](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html)
-* [[!UICONTROL Carts] une mesure](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html)
-* [[!UICONTROL Cart Views] une mesure](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html)
-* [[!UICONTROL Checkouts] une mesure](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html)
-* [[!UICONTROL Cart Additions] une mesure](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html)
-* [[!UICONTROL Cart Removals] une mesure](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html)
+* [[!UICONTROL Revenue] une mesure](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html?lang=fr)
+* [[!UICONTROL Orders] une mesure](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html?lang=fr)
+* [[!UICONTROL Units] une mesure](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html?lang=fr)
+* [[!UICONTROL Carts] une mesure](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html?lang=fr)
+* [[!UICONTROL Cart Views] une mesure](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html?lang=fr)
+* [[!UICONTROL Checkouts] une mesure](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html?lang=fr)
+* [[!UICONTROL Cart Additions] une mesure](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html?lang=fr)
+* [[!UICONTROL Cart Removals] une mesure](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html?lang=fr)
 
 ### Mesures de conversion personnalisées
 

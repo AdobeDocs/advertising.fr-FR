@@ -49,7 +49,7 @@ Avantages du Principal :
 
 >[!TIP]
 >
-> Watch a [video introduction to [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics).
+> Watch a [video introduction to [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=fr#analytics).
 
 ## Using Analytics for paid media reporting
 
@@ -101,17 +101,17 @@ See &quot;[Analytics Metrics in Adobe Advertising](analytics-data-in-advertising
 
 Adobe Advertising can ingest [!DNL Analytics] segments for remarketing purposes for [!DNL Creative], [!DNL DSP], and [!DNL Search, Social, & Commerce] ads using the native CX Enterprise Audiences integration between [!DNL Analytics] and CX Enterprise.
 
-To access the [!DNL Analytics] segments, an advertiser account must enable the [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). When the ID Service is enabled, all CX Enterprise segments become available within Adobe Advertising as soon as they are processed. CX Enterprise segments include segments created in [!DNL Analytics] and published to CX Enterprise, segments created in Adobe Audience Manager, segments created in CX Enterprise using the [!DNL People core service], and segments created in Adobe Experience Platform and sent to Adobe Advertising via Audience Manager.
+To access the [!DNL Analytics] segments, an advertiser account must enable the [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). When the ID Service is enabled, all CX Enterprise segments become available within Adobe Advertising as soon as they are processed. CX Enterprise segments include segments created in [!DNL Analytics] and published to CX Enterprise, segments created in Adobe Audience Manager, segments created in CX Enterprise using the [!DNL People core service], and segments created in Adobe Experience Platform and sent to Adobe Advertising via Audience Manager.
 
 [!DNL Analytics] segments are available within 24 hours and are updated daily.
 
-For more information about the CX Enterprise Audiences service, see [CX Enterprise Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
+For more information about the CX Enterprise Audiences service, see [CX Enterprise Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr).
 
 ## Examples of how to use the integration {#integration-examples}
 
 ### Using Adobe Advertising data in Analysis Workspace
 
-To learn how you can use your Adobe Advertising data to create visual reports in Analysis Workspace, see the video &quot;[Introduction to Workspace and Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
+To learn how you can use your Adobe Advertising data to create visual reports in Analysis Workspace, see the video &quot;[Introduction to Workspace and Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=fr).&quot;
 
 #### Using connected TV view-through conversions in reports
 
@@ -147,11 +147,11 @@ Utilisation de la vue Canal marketing :
 
 ### Création de tableaux de bord Adobe Advertising
 
-Pour découvrir comment effectuer le suivi de vos données Adobe Advertising par rapport à vos objectifs dans Analysis Workspace, regardez la vidéo « [Création de tableaux de bord Adobe Advertising avec Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html) ».
+Pour découvrir comment effectuer le suivi de vos données Adobe Advertising par rapport à vos objectifs dans Analysis Workspace, regardez la vidéo « [Création de tableaux de bord Adobe Advertising avec Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=fr) ».
 
 ### Utilisation de l’Adobe Advertising ID pour l’analyse de l’entrée sur le site
 
-Pour découvrir comment créer un rapport d’entrée sur le site Adobe Advertising afin de surveiller les influences géographiques, le navigateur et le jour de la semaine, regardez la vidéo « [&#x200B; Créer des rapports d’entrée sur le site Adobe Advertising &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html) ».
+Pour découvrir comment créer un rapport d’entrée sur le site Adobe Advertising afin de surveiller les influences géographiques, le navigateur et le jour de la semaine, regardez la vidéo « [&#x200B; Créer des rapports d’entrée sur le site Adobe Advertising &#x200B;](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=fr) ».
 
 ## Lancement d’une implémentation [!DNL Analytics for Advertising]
 
@@ -159,7 +159,7 @@ Contactez l’équipe chargée de votre compte Adobe, qui effectuera la configur
 
 >[!MORELIKETHIS]
 >
->* [Vidéo : présentation de  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
+>* [Vidéo : présentation de  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=fr)
 >* [Conditions préalables et informations clés pour l’implémentation de  [!DNL Analytics for Advertising]](prerequisites.md)
 >* [Adobe Advertising ID utilisés par Analytics](ids.md)
 >* [Code JavaScript pour Analytics for Advertising](/help/integrations/analytics/javascript.md)
