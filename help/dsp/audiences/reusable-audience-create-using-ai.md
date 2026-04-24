@@ -2,25 +2,24 @@
 title: Créer une audience réutilisable à l’aide de l’IA générative
 description: Découvrez comment créer des audiences réutilisables dans Adobe Advertising DSP à l’aide de l’agent d’audience assisté par l’IA. Décrivez votre audience cible dans des invites en langage naturel ; l'agent suggère des segments tiers et crée des expressions d'audience à utiliser comme cibles ou exclusions.
 feature: DSP Audiences
-hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: e8bfea965be346d44d8da96cd026704e1723a1bf
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
 
 # Créer une audience réutilisable à l’aide de l’IA générative
 
-*Fonction*
+*Fonction Beta*
 
 *Prise en charge en anglais uniquement*
 
-<!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
+<!-- Redo the legacy file to include the new info. so that it includes two separate procedures (gen AI and manually). -->
 
-Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles audiences réutilisables à l’aide de tous les segments tiers qui sont disponibles pour vous, en fonction de vos besoins déclarés. Vous pouvez utiliser vos audiences comme cibles ou exclusions pour plusieurs emplacements.
+Utilisez l’agent d’audience assisté par IA pour générer de nouvelles audiences réutilisables à l’aide de tous les segments propriétaires et tiers qui sont disponibles pour vous, selon vos besoins déclarés. Vous pouvez utiliser vos audiences comme cibles ou exclusions pour plusieurs emplacements.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -29,6 +28,18 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 >Cette fonctionnalité est en mode Beta et peut faire l’objet de modifications. Assurez-vous que l’expression d’audience générée représente l’audience souhaitée avant de créer l’audience et de l’utiliser pour vos emplacements.
 
 ## Créer une audience réutilisable à l’aide de l’IA générative
+
+<!--
+*Beta feature*
+
+*Support for English only*
+
+>[!NOTE]
+>
+>This feature is in beta mode and is subject to change. Make sure that the generated audience expression represents the audience you want before creating the audience and using it for your placements.
+-->
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
@@ -70,6 +81,8 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 
 ## Principes de base de l’écriture d’invites {#writing-prompts}
 
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
 ### Que doit inclure une invite ?
 
 * Utilisez un langage clair et descriptif pour décrire l’audience cible.
@@ -95,17 +108,11 @@ Utilisez l’agent d’audience assisté par l’IA pour générer de nouvelles 
 Consultez la rubrique « [Bonnes pratiques pour créer un résumé d’audience](#audience-brief-best-practices) » pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
 
 <!--
- I think these are happening later:
+Consider starting by asking for what you should include.
 
-DSP uses "smart" defaults based on the user's previous audiences (all user-created audiences or only ones created via AI prompting?)
+you can give thumbs up or down to [what exactly?].
 
-you can use a predefined prompt (fill in the blanks, and some fields might have selectors where you can choose values)
-
-Over time, DSP XXXX defaults [clarify this]
-
- onsider starting by asking for a general template, which contains placeholder values that you can replace with your desired values. The default template is something like "Create a xxx with NNN xxx."
-
-you can give thumbs up or down to [what exactly?]. Verify what info is carried over from session to session and what starts from scratch.
+Verify what info is carried over from session to session and what starts from scratch.
 
 -->
 
@@ -121,7 +128,7 @@ Lorsque l’agent d’audience a besoin d’une réponse de votre part, vous pou
 
 #### Un agent d’audience vous pose une question
 
-`If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
 Votre réponse affirmative : « continue », « ok », « ok », « oui », ou un autre mot similaire
 
