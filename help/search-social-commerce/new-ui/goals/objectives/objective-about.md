@@ -5,10 +5,15 @@ feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
 TQID: https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: '2026-04-14T00:06:19.870Z'
 source-git-commit: 604fb0c3541ba9c3b1fdb1c3cae5464bfcf67d4d
 workflow-type: tm+mt
@@ -59,7 +64,7 @@ Vous pouvez inclure l’un des éléments suivants dans vos objectifs :
 
 * Mesures [!DNL Google] : <!-- Search only, or might DSP-only clients also have these? -->
 
-   * [[!DNL Google Ads] des conversions suivies ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) à partir de comptes [!DNL Google Ads] synchronisés.
+   * [[!DNL Google Ads] des conversions suivies &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) à partir de comptes [!DNL Google Ads] synchronisés.
 
    * (Annonceurs avec [[!DNL Google Analytics] intégrations](/help/search-social-commerce/admin/data-sources/data-source-about.md)) Pages vues, Sessions, Taux de rebond (calculé comme rebonds/sessions) et Durée de la session.
 
@@ -67,7 +72,7 @@ Vous pouvez inclure l’un des éléments suivants dans vos objectifs :
 
 ## Option de chargement des objectifs sur les réseaux publicitaires
 
-Vous pouvez éventuellement  [!DNL Google Ads]  charger les objectifs des portefeuilles du compte vers et/ou  [!DNL Microsoft Advertising]  tant que conversions](/help/search-social-commerce/tools/objective-upload-to-networks.md) afin de les utiliser pour une optimisation au niveau de la campagne ou du groupe publicitaire. [Lorsque vous activez cette option, Search, Social et Commerce transmettent quotidiennement au réseau publicitaire les données pondérées relatives au chiffre d’affaires au niveau de l’identifiant EF (identifiant de clic). Il omet toutes les mesures suivies par le réseau publicitaire.
+Vous pouvez éventuellement  [!DNL Google Ads]  charger les objectifs des portefeuilles du compte vers et/ou  [!DNL Microsoft Advertising]  tant que conversions[&#128279;](/help/search-social-commerce/tools/objective-upload-to-networks.md) afin de les utiliser pour une optimisation au niveau de la campagne ou du groupe publicitaire. Lorsque vous activez cette option, Search, Social et Commerce transmettent quotidiennement au réseau publicitaire les données pondérées relatives au chiffre d’affaires au niveau de l’identifiant EF (identifiant de clic). Il omet toutes les mesures suivies par le réseau publicitaire.
 
 >[!MORELIKETHIS]
 >
