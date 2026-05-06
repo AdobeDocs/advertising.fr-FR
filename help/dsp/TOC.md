@@ -24,8 +24,8 @@ ht-degree: 3%
       + [Solutions sur plusieurs appareils](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Financement du compte](/help/dsp/introduction/billing/account-funding.md)
    + [Devises prises en charge](/help/dsp/currency.md)
-   + [Prise en charge de la confidentialité des clients](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)
-   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr)
+   + [Prise en charge de la confidentialité des clients](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [Solutions de mesure avancées](/help/dsp/introduction/advanced-measurement-services.md)
 + [Rechercher de la documentation sur les produits à l’aide du chat assisté par l’IA](/help/dsp/agent-chat.md)
 + Gestion des campagnes {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 3%
       + [Révision et modification des détails des annonces publicitaires à l’aide de feuilles d’envoi groupé](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Modification d’une publicité](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Dupliquer une publicité](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Joindre et supprimer des annonces des emplacements](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=fr)
+      + [Joindre et supprimer des annonces des emplacements](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Affichage d’un rapport détaillé pour une publicité](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Mettre en pause ou activer une publicité](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -158,7 +158,7 @@ ht-degree: 3%
          + [[!DNL On Demand] éditeurs d&#39;inventaire premium en Australie et en Nouvelle-Zélande](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
          + [[!DNL On Demand] éditeurs d&#39;inventaire premium en Europe, au Moyen-Orient et en Afrique](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
          + [[!DNL On Demand] éditeurs d&#39;inventaire premium en Amérique du Nord](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
-      + [Abonnez-vous et demandez l’accès aux offres d’inventaire  [!DNL On Demand] &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+      + [Abonnez-vous et demandez l’accès aux offres d’inventaire  [!DNL On Demand] ](/help/dsp/inventory/on-demand-inventory-subscribe.md)
       + [Redemander  [!DNL On Demand]  offres de stock premium](/help/dsp/inventory/on-demand-inventory-rerequest.md)
       + [Afficher le statut de vos demandes  [!DNL On Demand] ’offres et de vos abonnements](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + Inventaire privé {#private-inventory}
@@ -235,9 +235,9 @@ ht-degree: 3%
    + Notifications {#notifications}
       + [À propos des abonnements aux alertes](/help/dsp/admin/alerts-about.md)
       + [Gestion des abonnements aux alertes](/help/dsp/admin/alerts-manage.md)
-+ [Intégrations avec Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=fr)
++ [Intégrations avec Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Obtenir de l’aide](/help/dsp/get-help.md)
-+ [Notes de mise à jour d’Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)
++ [Notes de mise à jour d’Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--
