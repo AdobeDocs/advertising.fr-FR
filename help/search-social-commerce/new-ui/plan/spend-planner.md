@@ -4,14 +4,10 @@ description: Découvrez comment générer, télécharger et appliquer des recomm
 feature: Search Optimization, Search Portfolios
 exl-id: 966b8968-68b6-4385-9efb-e639a6729362
 TQID: https://experienceleague.adobe.com/8BAQij06MRhxYoCoFNjhHsgC4o38lQnj9vpmTzYyqGg
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 4126848d8192a1d4a23406dfeb5b643788670689
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: c3664a71f39c9a45fad739fdf4805c9862c69915
 workflow-type: tm+mt
 source-wordcount: 801
 ht-degree: 0%
@@ -154,7 +150,7 @@ New UI; validate post-Update steps once I get it to generate a report:
 
 -->
 
-## &#x200B;<!--(Legacy UI) -->Appliquez les recommandations de dépenses {#spend-recommendations-apply-legacy}
+## <!--(Legacy UI) -->Appliquez les recommandations de dépenses {#spend-recommendations-apply-legacy}
 
 *Portefeuilles avec budgets quotidiens uniquement*
 
@@ -185,7 +181,9 @@ You can open or save data from either a) the line chart showing cost points and 
 
 -->
 
-## &#x200B;<!--(Legacy UI) -->Ouvrez ou enregistrez les données en tant que fichier de classeur  [!DNL Microsoft Excel]{#spend-recommendations-download-legacy}
+<!--(Legacy UI) -->
+
+## Ouvrir ou enregistrer des données en tant que fichier de classeur [!DNL Microsoft Excel] {#spend-recommendations-download-legacy}
 
 1. Générer un rapport de recommandation de dépenses pour les portefeuilles sélectionnés.
 
