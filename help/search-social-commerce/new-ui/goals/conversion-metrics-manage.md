@@ -2,9 +2,9 @@
 title: Gérer les mesures de conversion d’un annonceur
 description: Découvrez comment utiliser les mesures de conversion suivies par Adobe Advertising pour un annonceur.
 feature: Conversions
-source-git-commit: 1ada471eccd28607da8edbbcee04fcb6716bd165
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Les mesures [conversion](/help/search-social-commerce/glossary.md#c-d) d’un an
 
 * Dans Search, Social et Commerce, les données des mesures de conversion peuvent être affichées sous forme de colonnes dans les vues de gestion de campagnes, de portefeuilles et d’objectifs, ainsi que dans les rapports. Les utilisateurs disposant de droits d’accès suffisants peuvent également utiliser les mesures de conversion pour créer des objectifs utilisés pour optimiser les portfolios.
 
-* (Annonceurs avec Advertising DSP) Dans DSP, vous pouvez inclure des mesures de conversion dans les vues de gestion de campagne, les objectifs personnalisés et les rapports personnalisés. Vous pouvez également utiliser les mesures de conversion pour créer des [objectifs personnalisés](/help/dsp/optimization/custom-goal.md), qui sont utilisés pour optimiser les packages.
+* (Annonceurs avec Advertising DSP) Dans DSP, vous pouvez inclure des mesures de conversion dans les vues de gestion de campagne, les objectifs personnalisés et les rapports personnalisés. Vous pouvez également utiliser les mesures de conversion pour créer des [objectifs personnalisés](/help/dsp/admin/custom-objectives-manage.md), qui sont utilisés pour optimiser les packages.
 
 Les mesures disponibles sont les suivantes :
 
@@ -95,6 +95,8 @@ Vous ne pouvez pas supprimer un nom d’affichage existant.
 
       1. (Pour masquer les mesures) Dans le message de confirmation, cliquez sur **[!UICONTROL Confirm]** pour masquer les mesures, y compris en les supprimant de toutes les mesures dérivées qui contiennent les mesures.
 
+<!--
 >[!MORELIKETHIS]
 >
->* &#x200B;
+>* 
+-->

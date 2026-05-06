@@ -12,9 +12,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
 workflow-type: tm+mt
-source-wordcount: 279
+source-wordcount: 280
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Les mesures [conversion](/help/search-social-commerce/glossary.md#c-d) suivies p
 
 * Dans Search, Social et Commerce, vous pouvez utiliser vos mesures de conversion pour créer des objectifs utilisés afin d’optimiser les portfolios. En outre, les données des mesures de conversion peuvent être affichées dans des colonnes des vues Campagne et Gestion de portefeuille, ainsi que dans des rapports.
 
-* Dans Advertising DSP, vous pouvez utiliser les mesures de conversion pour créer des [objectifs personnalisés](/help/dsp/optimization/custom-goal.md), qui sont utilisés pour optimiser les packages.
+* Dans Advertising DSP, vous pouvez utiliser les mesures de conversion pour [créer des objectifs personnalisés](/help/dsp/admin/custom-objectives-manage.md), qui sont utilisés pour optimiser les packages.
 
 Par défaut, aucune des mesures de conversion d’un annonceur, à l’exception des conversions suivies par les balises de suivi d’événement universel [!DNL Google Ads], [!DNL Google Analytics] et [!DNL Microsoft Advertising], n’est disponible pour les vues et les rapports de gestion de campagnes et de portefeuilles. Ils ne sont disponibles que lorsque vous les rendez spécifiquement disponibles et incluez un nom d’affichage, qui est le nom affiché. Lorsque vous rendez une mesure de conversion disponible, vous pouvez soit utiliser le nom de la mesure tel qu’il est orthographié dans les données récupérées, soit modifier le nom affiché dans les en-têtes de colonne pour en faciliter la lecture.
 

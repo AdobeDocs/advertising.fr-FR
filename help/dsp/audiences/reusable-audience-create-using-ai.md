@@ -4,22 +4,24 @@ description: Découvrez comment créer des audiences réutilisables dans Adobe A
 feature: DSP Audiences
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: e8bfea965be346d44d8da96cd026704e1723a1bf
+source-git-commit: fc5533c8823c2a7610861fdc077d5cdfe0c2d377
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
 
 # Créer une audience réutilisable à l’aide de l’IA générative
 
-*Fonction Beta*
+*Fonction*
 
 *Prise en charge en anglais uniquement*
 
 <!-- Redo the legacy file to include the new info. so that it includes two separate procedures (gen AI and manually). -->
 
-Utilisez l’agent d’audience assisté par IA pour générer de nouvelles audiences réutilisables à l’aide de tous les segments propriétaires et tiers qui sont disponibles pour vous, selon vos besoins déclarés. Vous pouvez utiliser vos audiences comme cibles ou exclusions pour plusieurs emplacements.
+Utilisez l’agent d’audience assisté par IA pour générer de nouvelles audiences réutilisables à l’aide de tous les segments propriétaires et tiers qui sont disponibles pour vous, selon vos besoins déclarés. Le cas échéant, l’agent suggère des filtres de segment supplémentaires pour vous aider à créer un briefing d’audience plus efficace.
+
+Vous pouvez utiliser vos audiences comme cibles ou exclusions pour plusieurs emplacements.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -55,15 +57,15 @@ Utilisez l’agent d’audience assisté par IA pour générer de nouvelles audi
 
 1. Créez l’audience :
 
-   Pour les utilisateurs disposant d’autorisations bêta, l’option AI est l’option par défaut. Pour [assembler l’audience vous-même](/help/dsp/audiences/reusable-audience-create.md), cliquez sur le bouton « Basculer en mode manuel » en bas.
+   L’option AI est la valeur par défaut. Pour [assembler l’audience vous-même](/help/dsp/audiences/reusable-audience-create.md), cliquez sur le bouton « Basculer en mode manuel » en bas.
 
    1. Saisissez une ou plusieurs invites pour décrire les caractéristiques d&#39;audience que vous souhaitez inclure et exclure. Pour envoyer chaque invite, cliquez sur ![Envoyer une invite](/help/dsp/assets/submit-prompt.png "Envoyer une invite").
 
       Pour plus d’informations, consultez les sections « [Écriture d’invites](#writing-prompts) » et « [Bonnes pratiques pour créer un brief d’audience](#audience-brief-best-practices) ».
 
-      Lorsque l’agent d’audience trouve les segments pertinents, il crée une expression d’audience booléenne en fonction de vos critères. Il vous demande également votre approbation avant de rechercher des segments correspondants pour assembler l’audience.
+      Le cas échéant, l’agent suggère des filtres de segment supplémentaires pour vous aider à créer un briefing d’audience plus efficace. Vous pouvez accepter ou rejeter les suggestions.
 
-      Vous pouvez éventuellement ignorer la requête et continuer à spécifier des critères d’audience supplémentaires à la place.
+      Lorsque l’agent d’audience trouve les segments pertinents, il crée une expression d’audience booléenne en fonction de vos critères. Il vous demande également votre approbation avant de rechercher des segments correspondants pour assembler l’audience. Vous pouvez éventuellement ignorer la requête et continuer à spécifier des critères d’audience supplémentaires à la place.
 
    1. Lorsque l’agent d’audience présente une expression d’audience qui décrit adéquatement votre audience, demandez à l’agent d’audience de procéder à l’assemblage de l’audience.
 

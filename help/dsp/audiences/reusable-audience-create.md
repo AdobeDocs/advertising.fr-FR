@@ -12,7 +12,7 @@ subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3e2164230726fe96d4e43ebba26e84640bd806f1
+source-git-commit: fc5533c8823c2a7610861fdc077d5cdfe0c2d377
 workflow-type: tm+mt
 source-wordcount: 560
 ht-degree: 0%
@@ -33,6 +33,8 @@ Vous pouvez enregistrer et gérer des audiences réutilisables, qui sont des gro
 
 
 <!-- ## Manually create a reusable audience -->
+
+<!-- This is no longer the default, so will need to select "Manual" -->
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
@@ -76,11 +78,11 @@ Vous pouvez enregistrer et gérer des audiences réutilisables, qui sont des gro
 
          1. Cliquez sur **[!UICONTROL + New Group]** dans le panneau de droite.
 
-         1. (Facultatif) Modifiez la logique entre le groupe précédent et le nouveau groupe en *[!UICONTROL And]* ou *[!UICONTROL Or]*, selon les besoins.
+            1. (Facultatif) Modifiez la logique entre le groupe précédent et le nouveau groupe en *[!UICONTROL And]* ou *[!UICONTROL Or]*, selon les besoins.
 
-         1. Recherchez les segments du nouveau groupe dans le panneau de gauche, puis cochez les cases en regard des noms de segment.
+            1. Recherchez les segments du nouveau groupe dans le panneau de gauche, puis cochez les cases en regard des noms de segment.
 
-         1. (Facultatif) Modifiez la logique de groupe en *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, selon les besoins.
+            1. (Facultatif) Modifiez la logique de groupe en *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, selon les besoins.
 
    * Pour utiliser la logique de segment à partir d’une audience existante :
 
