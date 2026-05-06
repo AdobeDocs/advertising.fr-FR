@@ -185,7 +185,7 @@ You can open or save data from either a) the line chart showing cost points and 
 
 -->
 
-## &#x200B;<!--(Legacy UI) -->Ouvrez ou enregistrez les données en tant que fichier de classeur  {#spend-recommendations-download-legacy}[!DNL Microsoft Excel]
+## &#x200B;<!--(Legacy UI) -->Ouvrez ou enregistrez les données en tant que fichier de classeur  [!DNL Microsoft Excel]{#spend-recommendations-download-legacy}
 
 1. Générer un rapport de recommandation de dépenses pour les portefeuilles sélectionnés.
 
