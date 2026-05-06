@@ -69,7 +69,7 @@ La vue [!UICONTROL Settings] > [!UICONTROL Custom Objectives] indique le statut 
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Create]**.
 
-1. Saisissez les [ paramètres d’objectif ](#custom-objective-settings).
+1. Saisissez les [&#x200B; paramètres d’objectif &#x200B;](#custom-objective-settings).
 
    Lorsque vous choisissez l’enchère automatisée, vous pouvez affecter des propriétés (mesures) à l’objectif en tant que mesures « [!UICONTROL Goal] ». Pour les enchères personnalisées, vous pouvez attribuer des propriétés sous la forme de mesures « [!UICONTROL Goal] » ou « [!UICONTROL Assist] » pondérées, mais vous devez inclure au moins une mesure d’objectif.
 
@@ -77,11 +77,11 @@ La vue [!UICONTROL Settings] > [!UICONTROL Custom Objectives] indique le statut 
 
 1. (Objectifs avec enchères personnalisées ; facultatif) Pour générer les mesures d’assistance recommandées en fonction des données de performances antérieures, cliquez sur **[!UICONTROL Generate]** dans la section inférieure. Dans la **[!UICONTROL Generate Recommendation]**, cliquez sur **[!UICONTROL Generate]**.
 
-   La génération des mesures recommandées prend jusqu’à 20 minutes. Pendant la génération des recommandations, le statut de l’objectif personnalisé est *[!UICONTROL Waiting]*. Une fois les recommandations générées, vous pouvez « [ afficher et appliquer les événements d’assistance recommandés ](#view-apply-recommendations) ».
+   La génération des mesures recommandées prend jusqu’à 20 minutes. Pendant la génération des recommandations, le statut de l’objectif personnalisé est *[!UICONTROL Waiting]*. Une fois les recommandations générées, vous pouvez « [&#x200B; afficher et appliquer les événements d’assistance recommandés &#x200B;](#view-apply-recommendations) ».
 
 1. (Si vous n’avez pas généré de recommandations) Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]**.
 
-Dans les paramètres du package [](/help/dsp/campaign-management/packages/package-settings.md) pour les packages qui utilisent l’objectif d’optimisation « [!UICONTROL Highest Return on Ad Spend (ROAS)"] ou « [!UICONTROL Lowest Cost per Acquisition (CPA)] », le nom de l’objectif est désormais inclus dans la liste [!UICONTROL Custom Goals]. Lorsque vous sélectionnez l’objectif en tant qu’objectif personnalisé pour un package, la liste [!UICONTROL Conversion Metric] inclut toutes les mesures d’objectif pour l’objectif.
+Dans les paramètres du package [&#128279;](/help/dsp/campaign-management/packages/package-settings.md) pour les packages qui utilisent l’objectif d’optimisation « [!UICONTROL Highest Return on Ad Spend (ROAS)"] ou « [!UICONTROL Lowest Cost per Acquisition (CPA)] », le nom de l’objectif est désormais inclus dans la liste [!UICONTROL Custom Goals]. Lorsque vous sélectionnez l’objectif en tant qu’objectif personnalisé pour un package, la liste [!UICONTROL Conversion Metric] inclut toutes les mesures d’objectif pour l’objectif.
 
 ## Modification d’un objectif
 
@@ -89,7 +89,7 @@ Dans les paramètres du package [](/help/dsp/campaign-management/packages/packag
 
 1. Dans la ligne, cliquez sur **...*** > **[!UICONTROL Edit]**.
 
-1. Modifiez l’un des [ paramètres d’objectif ](#custom-objective-settings).
+1. Modifiez l’un des [&#x200B; paramètres d’objectif &#x200B;](#custom-objective-settings).
 
 1. (Lorsque des recommandations sont disponibles, facultatif) Affichez et appliquez éventuellement les mesures recommandées :
 
@@ -107,7 +107,7 @@ Dans les paramètres du package [](/help/dsp/campaign-management/packages/packag
 
 1. (Objectifs avec enchères personnalisées ; facultatif) Pour générer des mesures d’assistance recommandées en fonction des données de performances antérieures, cliquez sur **[!UICONTROL Generate]** dans la section inférieure. Dans la **[!UICONTROL Generate Recommendation]**, cliquez sur **[!UICONTROL Generate]**.
 
-   La génération des mesures recommandées prend jusqu’à 20 minutes. Pendant la génération des recommandations, le statut de l’objectif personnalisé est *[!UICONTROL Waiting]*. Une fois les recommandations générées, vous pouvez « [ afficher et appliquer les événements d’assistance recommandés ](#view-apply-recommendations) ».
+   La génération des mesures recommandées prend jusqu’à 20 minutes. Pendant la génération des recommandations, le statut de l’objectif personnalisé est *[!UICONTROL Waiting]*. Une fois les recommandations générées, vous pouvez « [&#x200B; afficher et appliquer les événements d’assistance recommandés &#x200B;](#view-apply-recommendations) ».
 
 1. (Si vous n’avez pas généré de nouvelles recommandations) Dans le coin supérieur droit, cliquez sur **[!UICONTROL Save]**.
 
@@ -167,12 +167,12 @@ You can delete an objective that's not assigned to a package.
 | Détails de base | Nom de l’objectif | Nom de l’objectif.<br><br>Tous les noms d’objectifs d’Advertising DSP doivent comporter le préfixe « ADSP_ » (non sensible à la casse) comme « ADSP_Registrations ». Utilisez un nom facile à identifier lorsque vous souhaitez l’affecter à un package. |
 |  | Description | (Facultatif) Description de l’objectif. La description s’affiche lorsque vous placez le curseur sur le nom dans la liste des objectifs personnalisés. Si vous n’incluez pas de description, le nom de l’objectif est répété à la place. |
 | Stratégie d&#39;enchères |  | La stratégie d’enchères de l’objectif, qui détermine les types d’événements que vous pouvez configurer :<ul><li><b>[!UICONTROL Automated Bidding] :</b> attribuez des propriétés (mesures) à l’objectif en tant que mesures [!DNL goal]. [!DNL Adobe AI] affecte et met automatiquement à jour les événements d’assistance pondérée afin d’optimiser vos événements d’objectif à l’aide d’une approche funnel équilibrée.</li><li><b>[!UICONTROL Custom Bidding]:</b> Configurez votre propre stratégie d’enchères en attribuant aux propriétés des événements « [!DNL goal] » ou « [!DNL assist] » pondérés. Utilisez cette option avancée pour les stratégies prédéfinies.</li></ul>La modification de la stratégie d’enchères efface toutes les mesures sélectionnées précédemment. |
-| Propriétés | [!UICONTROL Available Metrics] | Toutes les mesures suivies pour l’annonceur. Pour ajouter une mesure en tant qu’objectif, cliquez sur <b>[!UICONTROL Goal]</b> en regard du nom de la mesure. ([!UICONTROL Custom Bidding] uniquement) Pour ajouter une mesure qui aide les mesures d’objectif affectées, cliquez sur <b>[!UICONTROL Assist]</b> en regard du nom de la mesure.<br><br><b>Remarques :</b> [!DNL Analytics] événements personnalisés suivent cette convention d’affectation des noms : `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemple : `custom_event_16_examplersid.` dimensions [!DNL Analytics] et les segments ne sont pas disponibles pour l’optimisation d’Adobe Advertising.<br><br><b>Conseil :</b> pour des performances optimales, les mesures combinées dans l’objectif personnalisé (objectif) doivent totaliser au moins dix conversions par jour. Dans le cas contraire, il est recommandé d’ajouter à l’objectif des mesures de conversion supplémentaires, telles que les pages de produits ou les démarrages d’application. Consultez [ Bonnes pratiques pour créer un objectif personnalisé ](#custom-goal-best-practices) pour obtenir des instructions. |
+| Propriétés | [!UICONTROL Available Metrics] | Toutes les mesures suivies pour l’annonceur. Pour ajouter une mesure en tant qu’objectif, cliquez sur <b>[!UICONTROL Goal]</b> en regard du nom de la mesure. ([!UICONTROL Custom Bidding] uniquement) Pour ajouter une mesure qui aide les mesures d’objectif affectées, cliquez sur <b>[!UICONTROL Assist]</b> en regard du nom de la mesure.<br><br><b>Remarques :</b> [!DNL Analytics] événements personnalisés suivent cette convention d’affectation des noms : `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemple : `custom_event_16_examplersid.` dimensions [!DNL Analytics] et les segments ne sont pas disponibles pour l’optimisation d’Adobe Advertising.<br><br><b>Conseil :</b> pour des performances optimales, les mesures combinées dans l’objectif personnalisé (objectif) doivent totaliser au moins dix conversions par jour. Dans le cas contraire, il est recommandé d’ajouter à l’objectif des mesures de conversion supplémentaires, telles que les pages de produits ou les démarrages d’application. Consultez [&#x200B; Bonnes pratiques pour créer un objectif personnalisé &#x200B;](#custom-goal-best-practices) pour obtenir des instructions. |
 |  | Mesures sélectionnées | Nom de chaque mesure de conversion incluse dans l’objectif. Effectuez l’une des opérations suivantes :<ul><li>Pour ajouter une mesure en tant qu’objectif, cliquez sur <b>[!UICONTROL Goal]</b> en regard du nom de la mesure dans la colonne [!UICONTROL Available Metrics] .</li><li>(Stratégie [!UICONTROL Custom Bidding] uniquement) Pour ajouter une mesure qui aide les mesures d’objectif affectées, cliquez sur <b>[!UICONTROL Assist]</b> en regard du nom de la mesure dans la colonne [!UICONTROL Available Metrics]. Saisissez ensuite le poids numérique de la mesure par rapport aux autres mesures de l’objectif. Le poids doit être compris entre 0,001 et 1 et peut inclure des décimales. Le poids par défaut est 1.</li><li>(Stratégie [!UICONTROL Custom Bidding] uniquement) Pour modifier le poids d’une mesure d’assistance, cliquez dans le champ et saisissez le poids numérique de la mesure par rapport aux autres mesures de l’objectif. Le poids doit être supérieur à zéro (0) et peut inclure des décimales. Le poids par défaut est 1.</li><li>Pour supprimer une mesure de l’objectif, placez le curseur sur le nom de la mesure et cliquez sur **[!UICONTROL X]**./li></ul>**Remarques :**<ul><li>Assurez-vous que les différentes mesures et leur poids sont pertinents par rapport à d’. Par exemple, vous ne pouvez pas comparer directement un décompte à un montant en dollars.</li><li>D’importantes modifications relatives entre les pondérations d’objectif peuvent entraîner une volatilité temporaire des performances. Surveillez donc les performances après la modification.</li></ul>. |
 
 >[!MORELIKETHIS]
 >
 >* [Objectifs d’optimisation et utilisation](/help/dsp/optimization/optimization-goals.md)
 >* [Bonnes pratiques pour les objectifs personnalisés](/help/dsp/optimization/custom-goal.md)
->* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; Paramètres du package &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Gérer les conversions](/help/dsp/admin/conversion-metrics-manage.md)

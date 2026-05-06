@@ -4,11 +4,22 @@ description: Découvrez les bonnes pratiques pour configurer vos campagnes axée
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
 TQID: https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7id: e9bcaec6-1079-409c-9aee-942e06c44d0a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+  - id: e9bcaec6-1079-409c-9aee-942e06c44d0a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
 workflow-type: tm+mt
 source-wordcount: 1289
@@ -28,9 +39,9 @@ DSP peut optimiser vos campagnes axées sur les performances. Consultez les bonn
 
 ## Étape 1 - Définir votre objectif
 
-Il est important de comprendre l’objectif de la campagne, par exemple obtenir le retour sur dépenses publicitaires le plus élevé possible ou le CPA le plus bas possible. Les campagnes de performances ont les [ objectifs d’optimisation ](/help/dsp/optimization/optimization-goals.md) « [!UICONTROL Highest Return on Ad Spend (ROAS)"] ou « [!UICONTROL Lowest Cost per Acquisition (CPA)] ». Pour chaque package de la campagne, spécifiez l’objectif d’optimisation en conséquence.
+Il est important de comprendre l’objectif de la campagne, par exemple obtenir le retour sur dépenses publicitaires le plus élevé possible ou le CPA le plus bas possible. Les campagnes de performances ont les [&#x200B; objectifs d’optimisation &#x200B;](/help/dsp/optimization/optimization-goals.md) « [!UICONTROL Highest Return on Ad Spend (ROAS)"] ou « [!UICONTROL Lowest Cost per Acquisition (CPA)] ». Pour chaque package de la campagne, spécifiez l’objectif d’optimisation en conséquence.
 
-![objectif d’optimisation ](/help/dsp/assets/optimization-goals.png)
+![objectif d’optimisation &#x200B;](/help/dsp/assets/optimization-goals.png)
 
 Vous devez également déterminer le ou les événements de succès qui mènent à l’objectif global et créer des objectifs personnalisés en conséquence. Pour chaque package, spécifiez un objectif personnalisé à utiliser avec l’objectif d’optimisation globale pour les rapports et l’optimisation algorithmique à l’aide de [!DNL Adobe AI]. Pour plus d’informations sur les objectifs personnalisés, consultez les sections « [Gérer les objectifs personnalisés](/help/dsp/admin/custom-objectives-manage.md) » et « [Bonnes pratiques pour les objectifs personnalisés](custom-goal.md) ».
 
@@ -161,7 +172,7 @@ Le filtrage contextuel, le blocage des fraudes lors des enchères anticipées et
 
 >[!MORELIKETHIS]
 >
->* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; Paramètres du package &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Comment DSP optimise vos campagnes](optimization-how-dsp-optimizes-campaigns.md)
 >* [Objectifs d’optimisation et utilisation](optimization-goals.md)
