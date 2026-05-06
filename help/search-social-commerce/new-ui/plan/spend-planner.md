@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 4126848d8192a1d4a23406dfeb5b643788670689
+source-git-commit: c3664a71f39c9a45fad739fdf4805c9862c69915
 workflow-type: tm+mt
 source-wordcount: 801
 ht-degree: 0%
@@ -185,7 +185,9 @@ You can open or save data from either a) the line chart showing cost points and 
 
 -->
 
-## &#x200B;<!--(Legacy UI) -->Ouvrez ou enregistrez les données en tant que fichier de classeur  [!DNL Microsoft Excel]{#spend-recommendations-download-legacy}
+<!--(Legacy UI) -->
+
+## Ouvrir ou enregistrer des données en tant que fichier de classeur [!DNL Microsoft Excel] {#spend-recommendations-download-legacy}
 
 1. Générer un rapport de recommandation de dépenses pour les portefeuilles sélectionnés.
 
