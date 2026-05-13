@@ -1,29 +1,26 @@
 ---
-title: (Nouvelle interface utilisateur) Télécharger des données de performances pour les objectifs
-description: Découvrez comment télécharger les objectifs d’un fichier de feuille de calcul.
+title: (Nouvelle interface utilisateur) Télécharger les données de performances pour les conversions
+description: Découvrez comment télécharger des données sur vos conversions suivies dans un fichier de feuille de calcul.
 feature: Search Optimization, Search Portfolios
 hide: true
-exl-id: fbd0e58b-9f9b-4c8e-8a85-197bca220c10
 source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
 
-# (Nouvelle interface utilisateur) Télécharger des données de performances pour les objectifs
+# (Nouvelle interface utilisateur) Télécharger les données de performances pour les conversions
 
 *Fonction*
 
-<!-- EDIT ALL -->
-
-Vous pouvez télécharger le nombre de portfolios associés, la valeur des clics, les clics, le coût, le coût par impression (CPC) et les impressions pour plusieurs objectifs à la fois dans un fichier [!DNL Microsoft Excel] format de classeur (fichier XLSX).
+Vous pouvez télécharger les informations suivantes sur vos conversions suivies : le nom de la mesure synchronisée, le nom d’affichage de la mesure dans les vues et rapports de gestion Search, Social et Commerce, si la mesure est visible dans les vues et rapports de gestion, l’identifiant de conversion et la source de la mesure. Téléchargez les données dans un fichier au format [!DNL Microsoft Excel] classeur (fichier XLSX).
 
 ## Générer un rapport avec les lignes de données filtrées
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
-1. Indiquez les objectifs dont vous souhaitez télécharger les données :
+1. Indiquez les conversions dont vous souhaitez télécharger les données :
 
    * Pour télécharger des données pour des objectifs spécifiques, cochez les cases en regard des objectifs.
 
@@ -33,7 +30,7 @@ Vous pouvez télécharger le nombre de portfolios associés, la valeur des clics
 
 1. Dans les paramètres de [!UICONTROL Grid Reports], saisissez un nom de rapport unique, puis cliquez sur **[!UICONTROL Generate]**.
 
-   Par défaut, le fichier est nommé « objective_YYYYMMDD_NNNN », où « NNNN » correspond au numéro de tâche séquentiel (par exemple, « objective_20250402_1326 »).
+   Par défaut, le fichier est nommé « conversionsReport_YYYYMMDD_NNNN », où « NNNN » correspond au numéro de tâche séquentiel (par exemple, « conversionsReport_20260402_1326 »).
 
    Le fichier est ajouté à la liste de [!UICONTROL Recently Generated].
 
@@ -43,7 +40,7 @@ Vous pouvez télécharger le nombre de portfolios associés, la valeur des clics
 
 ## Télécharger un rapport terminé
 
-Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
@@ -53,14 +50,28 @@ Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Objectives]
 
 ## Supprimer un rapport terminé
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") **[!UICONTROL Reports]**.
 
 1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete-new.png "Supprimer") en regard du nom du fichier.
 
+<!--
+
 >[!MORELIKETHIS]
 >
->* [À propos des objectifs](objective-about.md)
->* [Créer un objectif](objective-create.md)
->* [Supprimer un objectif](objective-delete.md)
+>* 
+>* 
+
+-->
+
+
+## Téléchargez les rapports de performances du portefeuille et les listes des composants du portefeuille
+
+* Pour télécharger tous les rapports :
+
+   1. Dans la barre d’outils, cliquez sur **[!UICONTROL Download report]**.
+
+   1. Cochez la case en regard de chaque rapport de performances et de chaque type de composant de portefeuille à inclure.
+
+      Pour certains rapports de performances, vous pouvez choisir de télécharger les données sous la forme d’un graphique ou d’un tableau.
