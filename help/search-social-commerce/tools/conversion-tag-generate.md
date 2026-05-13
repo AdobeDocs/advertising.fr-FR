@@ -71,7 +71,7 @@ When multiple metrics are tracked, they're joined by an ampersand (`&`) in the t
 >Metrics added to this list aren't saved anywhere or integrated with the client's [!UICONTROL Conversions] list on the [!UICONTROL Admin] tab. However, metrics are added to the client's [!UICONTROL Conversions] list automatically once Adobe Advertising actually gathers data for a metric, which happens when the conversion tag is implemented on a page and an end user completes a transaction that opens that page.
 
 -->
-## <!-- (Legacy UI) --> Générer et implémenter une balise de suivi des conversions dans Search, Social et Commerce
+## &#x200B;<!-- (Legacy UI) --> Générer et implémenter une balise de suivi des conversions dans Search, Social et Commerce
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ Voir « [FAQ sur les balises de conversion et de suivi des pages vues d’Adobe 
 
 Vous pouvez configurer le suivi des conversions pour Search, Social et Commerce à l’aide des balises dans Adobe Experience Platform. Les balises sont disponibles pour les clients Adobe CX Enterprise en tant que fonctionnalité à valeur ajoutée incluse.
 
-Les tâches suivantes sont nécessaires pour configurer les balises de suivi des conversions pour Search, Social et Commerce à partir de l’interface utilisateur d’Experience Platform ou de l’interface utilisateur de la collecte de données Experience Platform. Pour obtenir des informations complètes et des instructions sur la configuration des balises, consultez le Guide d’Experience Platform Tags, en commençant par la « [ Présentation des balises ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) » et le « [ Guide de démarrage rapide ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start) ».
+Les tâches suivantes sont nécessaires pour configurer les balises de suivi des conversions pour Search, Social et Commerce à partir de l’interface utilisateur d’Experience Platform ou de l’interface utilisateur de la collecte de données Experience Platform. Pour obtenir des informations complètes et des instructions sur la configuration des balises, consultez le Guide d’Experience Platform Tags, en commençant par la « [&#x200B; Présentation des balises &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) » et le « [&#x200B; Guide de démarrage rapide &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start) ».
 
 >[!PREREQUISITES]
 >
@@ -141,7 +141,7 @@ Les tâches suivantes sont nécessaires pour configurer les balises de suivi des
 
 1. À partir de l’[interface utilisateur de la collecte de données](https://experience.adobe.com/#/data-collection/), installez l’extension Adobe Advertising [extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview) :
 
-   1. Dans la propriété applicable, ouvrez le catalogue d’extensions et sélectionnez ****.
+   1. Dans la propriété applicable, ouvrez le catalogue d’extensions et sélectionnez **&#x200B;**.
 
    1. Dans le menu déroulant, sélectionnez **SSC** (pour Recherche, Social et Commerce).
 
