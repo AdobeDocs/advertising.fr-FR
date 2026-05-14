@@ -2,22 +2,24 @@
 title: Création d’une action de conversion pour une conversion  [!DNL Google Ads]  pour les prospects
 description: Découvrez comment créer une action  [!DNL Google Ads]  conversion pour améliorer la conversion des prospects.
 feature: Conversions
-source-git-commit: 88a45014064220a2bec6aa6080a2a1f53d24b9bb
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
 
 # Création d’une action de conversion pour une conversion améliorée [!DNL Google Ads] pour les prospects
 
-<!-- Includes procedure in new UI -->
+<!-- Includes procedure in new UI, which isn't available to all yet -->
 
 Comptes *[!DNL Google Ads]uniquement*
 
 Vous pouvez créer des actions de conversion pour [!DNL Google Ads] les conversions améliorées des prospects à suivre pour les comptes de [!DNL Google Ads] individuels, et non les conversions suivies au niveau du compte du responsable<!-- I don't see a list of synced conversion actions here; supposedly we do list them, but I don't see them in the legacy UI either (unless they're just listed as conversions, but not identified differently). Clarify and reword if necessary. -->
 
 ## (Nouvelle interface utilisateur) Créer une action de conversion
+
+*Fonction*
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
@@ -45,7 +47,7 @@ Vous pouvez créer des actions de conversion pour [!DNL Google Ads] les conversi
 
 1. Cliquez sur **[!UICONTROL Close].**
 
-Une fois que vous avez créé l’action de conversion et implémenté une balise de suivi des conversions, vous pouvez charger les données de conversion hors ligne que votre organisation capture et les attribuer à l’action de conversion. Voir « [&#x200B; Chargement des données de conversion hors ligne pour les conversions améliorées &#x200B;](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md). »<!-- Update that reference once I move the file to new-ui/ folder. -->
+Une fois que vous avez créé l’action de conversion et implémenté une balise de suivi des conversions, vous pouvez charger les données de conversion hors ligne que votre organisation capture et les attribuer à l’action de conversion. Voir « [ Chargement des données de conversion hors ligne pour les conversions améliorées ](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md). »<!-- Update that reference once I move the file to new-ui/ folder. -->
 
 ### Paramètres des actions de conversion {#conversion-action-settings-google}
 
@@ -105,13 +107,13 @@ Une fois que vous avez créé l’action de conversion et implémenté une balis
 
    Créez la balise de conversion et implémentez-la si nécessaire sur les sites web à partir desquels vous souhaitez effectuer le suivi de la mesure de conversion. Pour obtenir des instructions, reportez-vous aux sections suivantes :
 
-   * Pour utiliser la balise [!DNL Google], reportez-vous aux instructions [!DNL Google Ads] de la section « Configuration des paramètres de balise [!DNL Google] » de la section « [Configuration de conversions améliorées pour les prospects utilisant la balise  [!DNL Google] &#x200B;](https://support.google.com/google-ads/answer/11347292) ».
+   * Pour utiliser la balise [!DNL Google], reportez-vous aux instructions [!DNL Google Ads] de la section « Configuration des paramètres de balise [!DNL Google] » de la section « [Configuration de conversions améliorées pour les prospects utilisant la balise  [!DNL Google] ](https://support.google.com/google-ads/answer/11347292) ».
 
-   * Pour utiliser [!DNL Google Tag Manager], reportez-vous aux instructions [!DNL Google Ads] « Configurer [!DNL Google] paramètres de balise » et « Vérifier votre configuration et publier le conteneur » dans « [&#x200B; Configurer des conversions améliorées pour les prospects avec  [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11021502?#configure) ».
+   * Pour utiliser [!DNL Google Tag Manager], reportez-vous aux instructions [!DNL Google Ads] « Configurer [!DNL Google] paramètres de balise » et « Vérifier votre configuration et publier le conteneur » dans « [ Configurer des conversions améliorées pour les prospects avec  [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11021502?#configure) ».
 
 1. Cliquez sur **[!UICONTROL Done].**
 
-Une fois que vous avez créé l’action de conversion et implémenté une balise de suivi des conversions, vous pouvez charger les données de conversion hors ligne que votre organisation capture et les attribuer à l’action de conversion. Voir « [&#x200B; Chargement des données de conversion hors ligne pour les conversions améliorées &#x200B;](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md) ».
+Une fois que vous avez créé l’action de conversion et implémenté une balise de suivi des conversions, vous pouvez charger les données de conversion hors ligne que votre organisation capture et les attribuer à l’action de conversion. Voir « [ Chargement des données de conversion hors ligne pour les conversions améliorées ](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md) ».
 
 ### Paramètres des actions de conversion {#conversion-action-settings-google-legacy}
 

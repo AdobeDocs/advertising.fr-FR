@@ -2,14 +2,16 @@
 title: Gérer les mesures de conversion d’un annonceur
 description: Découvrez comment utiliser les mesures de conversion suivies par Adobe Advertising pour un annonceur.
 feature: Conversions
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
-# Gérer les mesures de conversion d’un annonceur
+# (Nouvelle interface utilisateur) Gérer et afficher les données de performances pour les mesures de conversion d’un annonceur
+
+*Fonction*
 
 Les mesures [conversion](/help/search-social-commerce/glossary.md#c-d) d’un annonceur sont utilisées dans Adobe Advertising :
 
@@ -79,7 +81,7 @@ Vous ne pouvez pas supprimer un nom d’affichage existant.
 
    Toutes les mesures de conversion qui ont été collectées pour l’annonceur, ainsi que tous les noms différents qui ont été spécifiés pour l’affichage, sont répertoriés.
 
-1. (Facultatif) Filtrez la liste [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou d’un en-tête de colonne [&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+1. (Facultatif) Filtrez la liste [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou d’un en-tête de colonne [](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 1. Modifiez les mesures de conversion disponibles pour les vues et les rapports de gestion :
 
@@ -94,6 +96,50 @@ Vous ne pouvez pas supprimer un nom d’affichage existant.
       1. Dans la barre d’outils des actions en masse, cliquez sur ![Visibilité](/help/search-social-commerce/assets/visible.png "Visibilité") pour afficher les mesures ou sur ![Visibilité désactivée](/help/search-social-commerce/assets/visibility-off.png "Visibilité désactivée") pour masquer les mesures.
 
       1. (Pour masquer les mesures) Dans le message de confirmation, cliquez sur **[!UICONTROL Confirm]** pour masquer les mesures, y compris en les supprimant de toutes les mesures dérivées qui contiennent les mesures.
+
+## Gérer les rapports de données de performance pour les conversions
+
+Vous pouvez télécharger les informations suivantes sur vos conversions suivies : le nom de la mesure synchronisée, le nom d’affichage de la mesure dans les vues et rapports de gestion Search, Social et Commerce, si la mesure est visible dans les vues et rapports de gestion, l’identifiant de conversion et la source de la mesure. Téléchargez les données dans un fichier au format [!DNL Microsoft Excel] classeur (fichier XLSX).
+
+### Générer un rapport avec les lignes de données filtrées
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
+
+1. Indiquez les conversions dont vous souhaitez télécharger les données :
+
+   * Pour télécharger des données pour des lignes spécifiques, cochez les cases en regard des lignes.
+
+   * Pour télécharger des données pour toutes les lignes, il n’est pas nécessaire de cocher des cases. Toutes les lignes sont incluses par défaut.
+
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+
+1. Dans les paramètres de [!UICONTROL Grid Reports], saisissez un nom de rapport unique, puis cliquez sur **[!UICONTROL Generate]**.
+
+   Par défaut, le fichier est nommé « conversionsReport_YYYYMMDD_NNNN », où « NNNN » correspond au numéro de tâche séquentiel (par exemple, « conversionsReport_20260402_1326 »).
+
+   Le fichier est ajouté à la liste de [!UICONTROL Recently Generated].
+
+1. (Facultatif) Pour télécharger le fichier une fois l’opération terminée, cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") en regard du nom du fichier.
+
+   Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
+
+### Télécharger un rapport terminé
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
+
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+
+1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") en regard du nom du fichier.
+
+   Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
+
+### Supprimer un rapport terminé
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
+
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") **[!UICONTROL Reports]**.
+
+1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete-new.png "Supprimer") en regard du nom du fichier.
 
 <!--
 >[!MORELIKETHIS]
