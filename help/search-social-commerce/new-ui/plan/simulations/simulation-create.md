@@ -5,9 +5,13 @@ feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
 TQID: https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 2504e6a4eebeab74352606a89a5012ab96c89c47
 workflow-type: tm+mt
 source-wordcount: 505
@@ -19,7 +23,7 @@ ht-degree: 0%
 
 *Fonction*
 
-Vous pouvez générer une simulation personnalisée pour un portfolio [ optimisé ou actif ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md). Vous pouvez également modifier les paramètres d&#39;une simulation existante et la régénérer ou réexécuter une simulation existante avec les paramètres existants.
+Vous pouvez générer une simulation personnalisée pour un portfolio [&#x200B; optimisé ou actif &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md). Vous pouvez également modifier les paramètres d&#39;une simulation existante et la régénérer ou réexécuter une simulation existante avec les paramètres existants.
 
 <!-- You can't run sims for portfolios with legacy keyword-level optimization when they include smart bidding campaigns. Clarify all exceptions so users don't find out via error messages. -->
 
