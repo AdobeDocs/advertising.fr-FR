@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Dans la vue [!UICONTROL Goals] > [!UICONTROL Conversions] , vous pouvez effectuer les opérations suivantes :
 
-* [Générer une balise de suivi des conversions Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
+* [Générer une balise de suivi des conversions Adobe Advertising](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
 
 * Pour toutes les mesures de conversion suivies pour un annonceur :
 
