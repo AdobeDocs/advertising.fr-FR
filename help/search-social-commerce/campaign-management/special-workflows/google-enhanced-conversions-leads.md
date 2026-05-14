@@ -4,16 +4,12 @@ description: Découvrez le processus de configuration  [!DNL Google Ads]  conver
 feature: Search Campaign Management, Conversions
 exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
 TQID: https://experienceleague.adobe.com/yFJJ662wcsm2KLzCIpxXo6F8nPsklVItHMTBk1h6wHg
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 341834cab1e23ddae903ecdeb6946cb004ea777e
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -26,7 +22,7 @@ Comptes *[!DNL Google Ads]uniquement*
 
 Dans Search, Social et Commerce, vous pouvez :
 
-* Affichez vos conversions améliorées existantes pour les prospects.
+* Affichez vos conversions améliorées existantes pour les prospects.<!-- Where is this? -->
 
   Search, Social et Commerce synchronise vos conversions améliorées existantes pour les prospects tous les jours à 05:00 dans le fuseau horaire de l’annonceur.
 
@@ -48,7 +44,7 @@ Pour utiliser cette fonctionnalité, procédez comme suit. Les étapes de créat
 
 1. Configurez et implémentez une balise pour effectuer le suivi de l’action de conversion.
 
-   Pour obtenir des instructions, reportez-vous à l’aide de [!DNL Google Ads] pour créer des balises pour des conversions améliorées de prospects [à l’aide d’une  [!DNL Google]  balise](https://support.google.com/google-ads/answer/11021502) ou [&#x200B; à l’aide de  [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292).
+   Pour obtenir des instructions, reportez-vous à l’aide de [!DNL Google Ads] pour créer des balises pour des conversions améliorées de prospects [à l’aide d’une  [!DNL Google]  balise](https://support.google.com/google-ads/answer/11021502) ou [ à l’aide de  [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292).
 
 1. Créez une action de conversion pour la conversion améliorée pour les prospects dans [Search, Social et Commerce](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) ou [Google Ads](https://support.google.com/google-ads/answer/12216226).
 
