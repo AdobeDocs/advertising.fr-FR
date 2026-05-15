@@ -2,7 +2,7 @@
 title: Paramètres du compte publicitaire
 description: Voir les descriptions des paramètres d’annonceur disponibles.
 role: User, Admin
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 0%
@@ -31,15 +31,15 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-Les annonceurs qui disposent de produits Adobe CX Enterprise supplémentaires peuvent partager des données entre certains produits à l’aide de l’ID unique pour CX Enterprise de l’organisation. Vous pouvez configurer des intégrations de produits spécifiques dans la section [!UICONTROL Integrations] .
+Les annonceurs qui disposent de produits Adobe CX Enterprise supplémentaires peuvent partager des données entre certains produits à l’aide de l’identifiant unique de l’organisation pour l’expérience client Entreprise. Vous pouvez configurer des intégrations de produits spécifiques dans la section [!UICONTROL Integrations] .
 
-**[!UICONTROL Account IMS org and ID]:** (annonceurs avec des produits CX Enterprise supplémentaires mis sous licence par le biais d’un compte CX Enterprise avec plusieurs annonceurs ; facultatif) ID d’organisation CX Enterprise de l’annonceur.
+**[!UICONTROL Account IMS org and ID]:** (Annonceurs disposant de produits CX Enterprise supplémentaires sous licence par le biais d’un compte CX Enterprise avec plusieurs annonceurs ; facultatif) ID d’organisation CX Enterprise de l’annonceur.
 
 **[!UICONTROL Advertiser IMS org and ID]:** (annonceurs disposant de licences directes pour des produits CX Enterprise supplémentaires ; facultatif) ID d’organisation CX Enterprise de l’annonceur.
 
 ### [!UICONTROL Integrations]
 
-(Facultatif) Produits CX Enterprise supplémentaires liés au compte DSP. Les produits doivent être associés au même identifiant d’organisation CX Enterprise que celui fourni dans la section [!UICONTROL Adobe IMS IDs] .
+(Facultatif) Produits CX Enterprise supplémentaires liés au compte DSP. Les produits doivent être associés au même identifiant d&#39;organisation CX Enterprise que celui fourni dans la section [!UICONTROL Adobe IMS IDs].
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (annonceurs avec des [!DNL Advertising Search, Social, & Commerce] ou qui utilisent des pixels de conversion Adobe Advertising) Compte [!DNL Search, Social, & Commerce] avec lequel DSP échange des données d’attribution.
 
@@ -49,16 +49,16 @@ Pour que les données apparaissent dans les suites de rapports, le paramètre au
 
 >[!WARNING]
 >
->Si vous supprimez une suite de rapports précédemment liée, DSP n’échange plus de données avec cette suite. Expect to see data fluctuations.
+>Si vous supprimez une suite de rapports précédemment liée, DSP n’échange plus de données avec cette suite. Attendez-vous à voir des fluctuations de données.
 
-For more information about the integration with [!DNL Analytics], see &quot;[Overview of [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
+Pour plus d’informations sur l’intégration d’à [!DNL Analytics], consultez « [ Présentation d’ [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) ».
 
-**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Advertisers with Adobe Audience Manager or Adobe Analytics; optional) An Audience Manager or [!DNL Analytics] account from which DSP pulls in segment metadata, hierarchy data, and unique audience data for all of the advertiser&#39;s Adobe audiences. This includes data for:
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (annonceurs avec Adobe Audience Manager ou Adobe Analytics ; facultatif) Compte Audience Manager ou [!DNL Analytics] à partir duquel DSP extrait les métadonnées de segment, les données de hiérarchie et les données d’audience uniques pour toutes les audiences Adobe de l’annonceur. Cela inclut les données pour :
 
-* Audience Manager segments
-* [!DNL Analytics] segments that are published to Adobe CX Enterprise
-* Segments créés à l’aide de l’[!DNL Audience Library] Adobe CX Enterprise
-* Segments that are created in Adobe Experience Platform and sent to Adobe Advertising via Audience Manager
+* Segments Audience Manager
+* [!DNL Analytics] les segments publiés sur Adobe CX Enterprise
+* Segments créés à l’aide de l’Adobe CX Enterprise [!DNL Audience Library]
+* Segments créés dans Adobe Experience Platform et envoyés à Adobe Advertising via Audience Manager
 
 La synchronisation initiale prend environ 24 heures. Ensuite, les données sont synchronisées en temps réel, avec un délai d’une à deux secondes.
 <!--
@@ -71,15 +71,15 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ## Paramètres [!UICONTROL Targeting]
 
-You can optionally configure default targets for the advertiser&#39;s new placements. Users can override the default targets for any new placement.
+Vous pouvez éventuellement configurer des cibles par défaut pour les nouveaux emplacements de l’annonceur. Les utilisateurs peuvent remplacer les cibles par défaut pour tout nouvel emplacement.
 
 ### [!UICONTROL Geo-targeting]
 
-**[!UICONTROL Countries]:** The default country for each placement&#39;s geo-targeting. Users can change the country, and configure more specific geo-targeting, for each placement.
+**[!UICONTROL Countries]:** pays par défaut pour le géociblage de chaque emplacement. Les utilisateurs peuvent changer de pays et paramétrer un géociblage plus spécifique pour chaque emplacement.
 
 ### [!UICONTROL Audience Targeting]
 
-**[!UICONTROL Audiences to exclude]:** Any audiences or segments to suppress by default. Users can change the exclusions for each placement.
+**[!UICONTROL Audiences to exclude]:** audiences ou segments à supprimer par défaut. Les utilisateurs peuvent modifier les exclusions pour chaque emplacement.
 
 ### [!UICONTROL Media Quality]
 
@@ -87,19 +87,19 @@ You can optionally configure default targets for the advertiser&#39;s new placem
 
 #### [!UICONTROL Contextual Filtering]
 
-Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] contextual filters to apply. You can override the advertiser-level settings at the [placement level](/help/dsp/campaign-management/placements/placement-settings.md).
+Types de filtres contextuels [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] et [!DNL Peer39] à appliquer. Vous pouvez remplacer les paramètres au niveau de l’annonceur au [niveau de l’emplacement](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-context}
 
-**[!UICONTROL Block sites that are]:** (Optional) One or more types of inventory context to block by default. Additional fees may apply.
+**[!UICONTROL Block sites that are]:** (facultatif) Un ou plusieurs types de contexte d&#39;inventaire à bloquer par défaut. Des frais supplémentaires peuvent s’appliquer.
 
 ##### [!UICONTROL Peer 39] {#peer39-context}
 
-**[!UICONTROL Target sites that are]:** (Optional) One or more types of inventory attributes to target by default. Additional fees may apply.
+**[!UICONTROL Target sites that are]:** (facultatif) Un ou plusieurs types d’attributs d’inventaire à cibler par défaut. Des frais supplémentaires peuvent s’appliquer.
 
 ##### [!UICONTROL ComScore]
 
-**[!UICONTROL Block sites that are]:** (Optional) One or more types of inventory attributes to block by default. Additional fees may apply.
+**[!UICONTROL Block sites that are]:** (facultatif) Un ou plusieurs types d’attributs d’inventaire à bloquer par défaut. Des frais supplémentaires peuvent s’appliquer.
 
 ##### [!UICONTROL Integral Ad Science] {#ias-context}
 
@@ -133,19 +133,19 @@ Les filtres de visibilité de pré-enchères facultatifs par [!DNL DoubleVerify]
 
 ###### Vidéo
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Avec cette option, sélectionnez les critères.
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. Avec cette option, sélectionnez les critères.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Avec cette option, sélectionnez les critères.
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Avec cette option, sélectionnez les critères.
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Avec cette option, sélectionnez les critères.
+** **[!UICONTROL Include URL's whose average player size composition is]**. Avec cette option, sélectionnez les critères.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Affichage
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Avec cette option, sélectionnez les critères.
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Avec cette option, sélectionnez les critères.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -165,7 +165,7 @@ Un filtre **[!UICONTROL Video Viewability Targets]** facultatif et un filtre **[
 * *[!UICONTROL Ads.txt sellers only]* : Pour acheter des stocks uniquement auprès des vendeurs directs et des revendeurs autorisés d&#39;un domaine.
 * *[!UICONTROL Ads.txt sellers only]* : Pour acheter des stocks uniquement auprès des vendeurs directs autorisés d&#39;un domaine.
 
-Vous pouvez remplacer le paramètre au niveau de l’annonceur au [&#x200B; niveau de l’emplacement &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
+Vous pouvez remplacer le paramètre au niveau de l’annonceur au [ niveau de l’emplacement ](/help/dsp/campaign-management/placements/placement-settings.md).
 
 #### [!UICONTROL Safe Site Block]
 
@@ -173,7 +173,7 @@ Vous pouvez remplacer le paramètre au niveau de l’annonceur au [&#x200B; nive
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]:** (clients [!DNL DoubleVerify] uniquement ; facultatif) identifiant de segment [!DNL DoubleVerify Authentic Brand Safety] associé au compte [!DNL DoubleVerify] de l’organisation à utiliser par défaut pour tous les emplacements. La spécification d’un ID bloque les impressions après l’enchère à l’aide des règles de sécurité de marque personnalisées configurées pour l’ID de segment spécifié. DSP facture votre compte pour l’utilisation de l’identifiant de segment.
+**[!UICONTROL DoubleVerify Account]:** (clients [!DNL DoubleVerify] uniquement ; facultatif) identifiant de segment [!DNL DoubleVerify Authentic Brand Suitability] associé au compte [!DNL DoubleVerify] de l’organisation à utiliser par défaut pour tous les emplacements. La spécification d’un ID bloque les impressions après enchères à l’aide des règles de pertinence de marque personnalisées configurées pour l’ID de segment spécifié. DSP facture votre compte pour l’utilisation de l’identifiant de segment.
 
 L’identifiant doit commencer par « 51 » et se composer de huit chiffres. Vous pouvez modifier ou supprimer l’ID au niveau de l’annonceur au niveau de l’emplacement.
 

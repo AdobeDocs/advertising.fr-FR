@@ -4,22 +4,14 @@ description: Voir les descriptions des paramètres d’emplacement disponibles.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
 TQID: https://experienceleague.adobe.com/V9gGiuXBnP2TBFUY3ZB7EkZ2TNeBttOgr-qzHUSdMmk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 4439
+source-wordcount: 4499
 ht-degree: 0%
 
 ---
@@ -31,7 +23,7 @@ ht-degree: 0%
 **[!UICONTROL Placement name]** Nom de l’emplacement.
 
 >[!TIP]
->Utilisez une convention de nommage adaptée à votre situation. Une convention de nommage suggérée est la suivante : « *\&lt;Nom de la campagne\> : \&lt;Unité publicitaire\> : \&lt;Durée\> : \&lt;Ciblage\>&lt;id de ph=&#39;97&#39;/>. »*
+>Utilisez une convention de nommage adaptée à votre situation. Une convention de nommage suggérée est la suivante : « *\&lt;Nom de la campagne\> : \&lt;Unité publicitaire\> : \&lt;Durée\> : \&lt;Ciblage\>* ».
 
 **[!UICONTROL Status]:** statut de l’emplacement : *[!UICONTROL Active]* (par défaut) ou *[!UICONTROL Paused]*.
 
@@ -95,7 +87,7 @@ Les dates du package (le cas échéant) ou de la campagne sont automatiquement r
 
 **[!UICONTROL Placement Pre-bid Filters]:** jusqu’à cinq seuils d’indicateurs clés de performance (tels qu’une mesure de visibilité minimale ou un taux de clic publicitaire) qui doivent être atteints pour que les enchères se produisent. Vous pouvez utiliser des filtres de pré-enchères comme tactiques d’optimisation, mais sachez que chaque règle peut limiter les opportunités pour cet emplacement de soumettre des enchères. Pour ajouter ou modifier des filtres :
 
-1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
+1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
 1. Effectuez l’une des opérations suivantes :
    * Pour ajouter un filtre :
       1. Cliquez sur **[!UICONTROL Add Filter]**.
@@ -103,7 +95,7 @@ Les dates du package (le cas échéant) ou de la campagne sont automatiquement r
    * Pour supprimer un filtre, cliquez sur **[!UICONTROL X]** dans la ligne de filtre.
 1. Cliquez sur **[!UICONTROL Save]**.
 
-Voir les descriptions de chaque filtre de pré-enchères à la rubrique [&#x200B; Filtres de pré-enchères au niveau de l’emplacement et comment les utiliser &#x200B;](/help/dsp/optimization/optimization-pre-bid-filters.md).
+Voir les descriptions de chaque filtre de pré-enchères à la rubrique [ Filtres de pré-enchères au niveau de l’emplacement et comment les utiliser ](/help/dsp/optimization/optimization-pre-bid-filters.md).
 
 ### Tous les autres emplacements
 
@@ -111,7 +103,7 @@ Voir les descriptions de chaque filtre de pré-enchères à la rubrique [&#x200B
 
 **[!UICONTROL Gross Budget Goal]:** (Emplacements dans des campagnes avec gestion des marges uniquement) Limite budgétaire brute et intervalle budgétaire (*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*).
 
-**[!UICONTROL Optimization Goal]:** objectif d’optimisation du package. Consultez les descriptions de chaque objectif d’optimisation à la rubrique « [&#x200B; Objectifs d’optimisation et comment les utiliser &#x200B;](/help/dsp/optimization/optimization-goals.md) ».
+**[!UICONTROL Optimization Goal]:** objectif d’optimisation du package. Consultez les descriptions de chaque objectif d’optimisation à la rubrique « [ Objectifs d’optimisation et comment les utiliser ](/help/dsp/optimization/optimization-goals.md) ».
 
 **[!UICONTROL Target Goal]:** objectif cible, qui est utilisé pour effectuer le suivi des performances.
 
@@ -149,7 +141,7 @@ Voir les descriptions de chaque filtre de pré-enchères à la rubrique [&#x200B
 
 **[!UICONTROL Placement Pre-bid Filters]:** (facultatif) Jusqu’à cinq filtres qui doivent être respectés pour que l’enchère se produise. Vous pouvez utiliser des filtres de pré-enchères comme tactiques d’optimisation, mais gardez à l’esprit que chaque règle peut limiter les opportunités sur lesquelles cet emplacement peut enchérir. Pour ajouter ou modifier des filtres :
 
-1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
+1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
 1. Effectuez l’une des opérations suivantes :
    * Pour ajouter un filtre :
       1. Cliquez sur **[!UICONTROL Add Filter]**.
@@ -167,7 +159,7 @@ Voir les descriptions de chaque filtre de pré-enchères à la rubrique [&#x200B
 
 Pour spécifier des emplacements :
 
-1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
+1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
 1. Effectuez l’une des opérations suivantes :
    * Pour inclure ou exclure un pays, un État, une ville, une DMA, un district législatif fédéral ou un district législatif d’État :
       1. Sélectionnez le type d’emplacement dans la colonne de gauche.
@@ -215,7 +207,7 @@ Pour définir le ciblage de l&#39;inventaire :
 * Pour cibler un type de stock :
    1. Cochez la case en regard du nom du type d’inventaire.
    1. (Facultatif) Modifiez les sources pour inclure :
-      1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
+      1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
       1. ([!UICONTROL Public] et inventaire [!UICONTROL On Demand]) Cliquez sur **[!UICONTROL View by Source]** ou **[!UICONTROL View by Feed]** pour modifier la façon dont les sources sont répertoriées.
       1. (Le cas échéant) Filtrez l’inventaire selon les besoins.
       1. Spécifiez les sources à inclure et à exclure :
@@ -268,7 +260,7 @@ Pour définir le ciblage de l&#39;inventaire :
 
 **[!UICONTROL Site or App Categories]:** (facultatif) Catégories de sites dans les types de trafic sélectionnés et (si spécifié) niveaux de site à inclure ou exclure (mais pas les deux) en tant que cibles. Choisissez parmi les listes de sites verticales que DSP a mappées en fonction de l’objet :
 
-1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
+1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
 1. Spécifiez les catégories de site à inclure ou à exclure :
    * Pour inclure des catégories de site :
       1. Cliquez sur **[!UICONTROL Include categories]**.
@@ -281,7 +273,7 @@ Pour définir le ciblage de l&#39;inventaire :
 
 **[!UICONTROL Exclude Sites or Apps]:** (facultatif ; disponible lorsque **[!UICONTROL Toggle for Sites or Apps Tiering]** est *[!UICONTROL On]*) Sites/applications et [listes d’URL](/help/dsp/resources/lists-url-manage.md) à exclure. Dans l’onglet [!UICONTROL Paste URL] , vous pouvez rechercher et sélectionner des sites, ou saisir ou coller des noms de domaine. Dans l’onglet [!UICONTROL URL Lists] , vous pouvez sélectionner des listes d’URL.
 
-1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
+1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
 1. Spécifiez les sites :
    * Dans l’onglet [!UICONTROL Paste URL] :
       * Pour rechercher un site :
@@ -348,11 +340,11 @@ Lorsque vous sélectionnez à la fois des identifiants hérités et universels, 
 
 * *[!UICONTROL Universal ID Beta]* : cible les identifiants axés sur la confidentialité des utilisateurs et utilisatrices ; sélectionnez un type d’identifiant. Les options disponibles sont déterminées par les cibles géographiques sélectionnées dans la section [!UICONTROL Geo-Targeting]. Utilisez avec les [[!DNL RampID] segments importés directement dans DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [segments pour lesquels DSP convertit vos informations d’identification personnelles en identifiants universels](/help/dsp/audiences/sources/source-about.md) ou [segments personnalisés qui effectuent le suivi des identifiants universels](/help/dsp/audiences/custom-segment-create.md).
 
-   * *[!UICONTROL ID5]* : cible [!DNL ID5] identifiants créés de manière probabiliste à partir d’adresses e-mail et d’autres signaux.Les identifiants <!-- What countries/geos are these available for? Everywhere?--> ID5 sont disponibles sans frais. **Remarque :** les segments tiers provenant de l’[!DNL Eyeota] peuvent inclure des ID5.
+   * *[!UICONTROL ID5]* : cible [!DNL ID5] identifiants créés de manière probabiliste à partir d’adresses e-mail et d’autres signaux.<!-- What countries/geos are these available for? Everywhere?--> Les ID5 sont disponibles sans frais. **Remarque :** les segments tiers provenant de l’[!DNL Eyeota] peuvent inclure des ID5.
 
    * *[!UICONTROL RampID]* : cible [!DNL LiveRamp] [!DNL RampIDs] d’utilisateurs connectés à votre site à l’aide de leur adresse e-mail.<!-- Verify --> [!DNL RampIDs] sont disponibles pour les utilisateurs en Amérique du Nord, en Australie et en Nouvelle-Zélande.
 
-   * *[!UICONTROL Unified ID2.0]* : cible [!DNL Unified ID2.0] identifiants (UID2) des utilisateurs connectés à votre site à l’aide de leurs adresses e-mail.<!-- Verify -->[!DNL UID2 IDs] ne sont pas disponibles pour les utilisateurs dans l&#39;Espace économique européen et dans certains autres pays. Voir la [liste des pays interdits](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+   * *[!UICONTROL Unified ID2.0]* : cible [!DNL Unified ID2.0] identifiants (UID2) des utilisateurs connectés à votre site à l’aide de leurs adresses e-mail.<!-- Verify -->[!DNL UID2 IDs] ne sont pas disponibles pour les utilisateurs de l’Espace économique européen et de certains autres pays. Voir la [liste des pays interdits](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
 
   **[!UICONTROL Terms of service]** : termes de l’accord de service pour l’utilisation des identifiants universels. Vous ou un autre utilisateur du compte DSP devez accepter les conditions une seule fois avant de pouvoir convertir des données en un nouveau type d’identifiant. Pour les clients qui disposent de contrats de service géré, l’équipe chargée de votre compte Adobe obtiendra votre consentement et acceptera les conditions au nom de votre entreprise. Pour lire les termes, cliquez sur **>**. Pour accepter les conditions, faites défiler l’écran jusqu’au bas des conditions et cliquez sur **[!UICONTROL Accept]**.
 
@@ -368,10 +360,10 @@ Lorsque vous sélectionnez à la fois des identifiants hérités et universels, 
 
 **[!UICONTROL Day Parting]:** (facultatif) Jours spécifiques de la semaine et heure d’exécution des publicités. Pour définir des intervalles de répartition :
 
-1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
+1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
 1. Sélectionnez le fuseau horaire applicable.
 1. Spécifiez les intervalles :
-   * Pour sélectionner un intervalle prédéfini, cliquez sur l’un des boutons d’intervalle. Les options incluent ***, [!UICONTROL Weekends], *[!UICONTROL Weekdays]*, *[!UICONTROL Morning]*, *[!UICONTROL Lunch]* ou *[!UICONTROL Dinner]* (primetime).*[!UICONTROL Prime]*
+   * Pour sélectionner un intervalle prédéfini, cliquez sur l’un des boutons d’intervalle. Les options incluent ***, *[!UICONTROL Weekdays]*, *[!UICONTROL Morning]*, *[!UICONTROL Lunch]*, *[!UICONTROL Dinner]* ou *[!UICONTROL Prime]* (primetime).[!UICONTROL Weekends]
    * Pour sélectionner manuellement un intervalle, cliquez dans une cellule et éventuellement faites glisser pour sélectionner l’intervalle.
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -379,7 +371,7 @@ Lorsque vous sélectionnez à la fois des identifiants hérités et universels, 
 
 Pour spécifier le ciblage de rubrique :
 
-1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
+1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
 1. Spécifiez les segments à cibler :
    1. Dans la colonne de gauche, sélectionnez le partenaire : (*[!UICONTROL Comscore]*.
    1. Dans le champ de saisie, saisissez les noms ou les identifiants de segment.
@@ -394,7 +386,7 @@ Pour spécifier le ciblage de rubrique :
 
 **[!UICONTROL Device Targeting]:** (facultatif) Informations spécifiques sur les appareils, notamment les types d’appareils, les fabricants, les systèmes d’exploitation, les navigateurs et les types de connectivité, à inclure et à exclure en tant que cibles. Les types varient selon le type d’emplacement. Pour spécifier le ciblage de l’appareil :
 
-1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
+1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
 1. Spécifiez les détails de l’appareil à inclure et à exclure :
    1. Dans la colonne de gauche, sélectionnez la catégorie.
    1. Spécifiez le ciblage :
@@ -405,7 +397,7 @@ Pour spécifier le ciblage de rubrique :
 
 **[!UICONTROL ISP Targeting]:** (facultatif) Fournisseurs de services Internet (FAI) spécifiques à inclure ou exclure (mais pas les deux) en tant que cibles. Pour spécifier le ciblage du FAI :
 
-1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
+1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
 1. Spécifiez les FAI à inclure ou à exclure :
    * Pour inclure les FAI :
       1. Cliquez sur **[!UICONTROL Include ISPs]**.
@@ -420,7 +412,7 @@ Pour spécifier le ciblage de rubrique :
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
-**[!UICONTROL DoubleVerify ABS segment ID]:** (facultatif ; clients [!DNL DoubleVerify] uniquement ; disponible pour les emplacements de bureau pré-roll, standard et d’affichage par clic, ainsi que pour les emplacements d’affichage et de vidéo natifs uniquement ; non pris en charge pour [emplacements programmatiques garantis par défaut pour les offres](/help/dsp/inventory/programmatic-guaranteed-about.md)) Un identifiant de segment [!DNL DoubleVerify Authentic Brand Safety] associé au compte [!DNL DoubleVerify] de l’entreprise à utiliser pour l’emplacement. La spécification d’un ID bloque les impressions après l’enchère à l’aide des règles de sécurité de marque personnalisées configurées pour l’ID de segment spécifié. DSP facture votre compte pour l’utilisation de l’identifiant de segment.
+**[!UICONTROL DoubleVerify ABS segment ID]:** (facultatif ; clients [!DNL DoubleVerify] uniquement ; disponible pour les emplacements de bureau pré-roll, standard et d’affichage par clic, ainsi que pour les emplacements d’affichage et de vidéo natifs uniquement ; non pris en charge pour [emplacements programmatiques garantis par défaut pour les offres](/help/dsp/inventory/programmatic-guaranteed-about.md)) Un identifiant de segment [!DNL DoubleVerify Authentic Brand Suitability] associé au compte [!DNL DoubleVerify] de l’entreprise à utiliser pour l’emplacement. La spécification d’un ID bloque les impressions après l’enchère à l’aide des règles de sécurité de marque personnalisées configurées pour l’ID de segment spécifié. DSP facture votre compte pour l’utilisation de l’identifiant de segment.
 
 L’identifiant doit commencer par « 51 » et se composer de huit chiffres. Par défaut, si un identifiant de segment est spécifié dans les paramètres du compte de l’annonceur, l’identifiant au niveau de l’annonceur est saisi, mais vous pouvez modifier l’identifiant pour utiliser un autre segment ou le supprimer pour désactiver la fonction.
 
@@ -431,15 +423,15 @@ L’identifiant doit commencer par « 51 » et se composer de huit chiffres. Par
 **[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
 -->
 
-* [!UICONTROL DoubleVerify] :
+* [!UICONTROL DoubleVerify]:
 
    * **[!UICONTROL Block sites that are]:** (facultatif) Un ou plusieurs types de contexte d&#39;inventaire à bloquer par défaut. Des frais supplémentaires peuvent s’appliquer.
 
-* [!UICONTROL Peer 39] :
+* [!UICONTROL Peer 39]:
 
    * **Sites cibles qui sont :** (facultatif) Un ou plusieurs types d’attributs d’inventaire à cibler par défaut. Des frais supplémentaires peuvent s’appliquer.
 
-* [!UICONTROL ComScore] :
+* [!UICONTROL ComScore]:
 
    * **Bloquer les sites qui sont :** (facultatif) Un ou plusieurs types d’attributs d’inventaire à bloquer par défaut. Des frais supplémentaires peuvent s’appliquer.
 
@@ -484,7 +476,7 @@ L’identifiant doit commencer par « 51 » et se composer de huit chiffres. Par
 
 **[!UICONTROL Event Pixels]:** (facultatif) pixels de suivi d’événement tiers à joindre par défaut à toutes les nouvelles annonces de l’emplacement. Pour spécifier des pixels d’événement :
 
-1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
+1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
 1. Effectuez l’une des opérations suivantes :
    * Pour sélectionner un pixel existant, activez la case à cocher dans la ligne de pixel.
    * Pour créer un pixel :
@@ -499,7 +491,7 @@ L’identifiant doit commencer par « 51 » et se composer de huit chiffres. Par
 
 **[!UICONTROL Conversion Pixels]:** (facultatif) Pixels de suivi des conversions à joindre par défaut à toutes les nouvelles annonces de l’emplacement. Pour définir les pixels de conversion, procédez comme suit :
 
-1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
+1. Cliquez sur ![ Modifier ](/help/dsp/assets/edit.png).
 1. Effectuez l’une des opérations suivantes :
    * Pour sélectionner un pixel existant, activez la case à cocher dans la ligne de pixel.
    * Pour créer un pixel :
@@ -532,5 +524,5 @@ L’identifiant doit commencer par « 51 » et se composer de huit chiffres. Par
 >* [Modifier les emplacements](placement-edit.md)
 >* [Gérer les multiplicateurs d’enchères pour les placements](placement-manage-bid-multipliers.md)
 >* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
->* [Raccourcis clavier &#x200B;](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
+>* [Raccourcis clavier ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [FAQ sur la gestion de campagnes](/help/dsp/campaign-management/faq-campaign-management.md)
