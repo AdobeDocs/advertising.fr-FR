@@ -5,16 +5,12 @@ feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
 TQID: https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 2504e6a4eebeab74352606a89a5012ab96c89c47
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
 workflow-type: tm+mt
-source-wordcount: 505
+source-wordcount: 524
 ht-degree: 0%
 
 ---
@@ -23,7 +19,7 @@ ht-degree: 0%
 
 *Fonction*
 
-Vous pouvez générer une simulation personnalisée pour un portfolio [&#x200B; optimisé ou actif &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md). Vous pouvez également modifier les paramètres d&#39;une simulation existante et la régénérer ou réexécuter une simulation existante avec les paramètres existants.
+Vous pouvez générer une simulation personnalisée pour un portfolio [ optimisé ou actif ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md). Vous pouvez également modifier les paramètres d&#39;une simulation existante et la régénérer ou réexécuter une simulation existante avec les paramètres existants.
 
 <!-- You can't run sims for portfolios with legacy keyword-level optimization when they include smart bidding campaigns. Clarify all exceptions so users don't find out via error messages. -->
 
@@ -53,39 +49,11 @@ Les utilisateurs de [!UICONTROL Admin] et de [!UICONTROL Account Manager] peuven
 
    1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-   1. Placez le curseur sur la ligne du portfolio. En regard du nom du portfolio, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**.
+   1. Effectuez l’une des opérations suivantes :
 
-1. Définissez les [paramètres personnalisés de la simulation](#custom-simulation-settings) :
+      * Placez le curseur sur la ligne du portfolio. En regard du nom du portfolio, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**.
 
-   1. (Facultatif) Pour modifier le portfolio utilisé pour la simulation, cliquez sur **[!UICONTROL Change Portfolio]** en regard du nom du portfolio, sélectionnez le portfolio, puis cliquez sur **[!UICONTROL Proceed]**.
-
-   1. Dans l’onglet [!UICONTROL Basic Settings] :
-
-      1. Saisissez un **[!UICONTROL Simulation Name]** unique.
-
-      1. (Facultatif) Modifiez les paramètres de base de la simulation.
-
-   1. (Facultatif) Dans l&#39;onglet [!UICONTROL Advanced Settings], modifiez les paramètres avancés de la simulation.
-
-   Les paramètres existants pour le portefeuille sélectionné sont spécifiés par défaut. La modification des valeurs vous affichera les résultats que différents paramètres produiraient sans modifier les paramètres existants du portefeuille.
-
-1. Cliquez sur **[!UICONTROL Next]**.
-
-1. Passez en revue les paramètres et modifiez-les si nécessaire.
-
-1. Cliquez sur **[!UICONTROL Submit & Run]**.
-
-Lorsque le rapport de simulation est disponible, vous et les autres destinataires d’e-mails spécifiés recevez une notification avec un lien pour télécharger les données dans un fichier ZIP contenant un classeur (fichier XLSX).
-
-<!-- Still true:  When the results for any report type include more than 60,000 rows, the workbook includes multiple worksheets. -->
-
-## Modifier les paramètres d’une simulation existante et la réexécuter
-
-1. Dans le menu principal, cliquez sur **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
-
-1. Cochez la case en regard de la simulation à régénérer.
-
-1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Run Simulation]**.
+      * Cochez la case en regard du portefeuille. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Run Simulation]**.
 
 1. Définissez les [paramètres personnalisés de la simulation](#custom-simulation-settings) :
 
@@ -120,6 +88,38 @@ Vous pouvez réexécuter des simulations qui ne sont pas actuellement en file d�
 1. Cochez les cases en regard des simulations que vous souhaitez réexécuter.
 
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Réexécuter](/help/search-social-commerce/assets/rerun.png "Réexécuter").
+
+## Modifier les paramètres d’une simulation existante et la réexécuter
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
+
+1. Cochez la case en regard de la simulation à régénérer.
+
+1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Run Simulation]**.
+
+1. Définissez les [paramètres personnalisés de la simulation](#custom-simulation-settings) :
+
+   1. (Facultatif) Pour modifier le portfolio utilisé pour la simulation, cliquez sur **[!UICONTROL Change Portfolio]** en regard du nom du portfolio, sélectionnez le portfolio, puis cliquez sur **[!UICONTROL Proceed]**.
+
+   1. Dans l’onglet [!UICONTROL Basic Settings] :
+
+      1. Saisissez un **[!UICONTROL Simulation Name]** unique.
+
+      1. (Facultatif) Modifiez les paramètres de base de la simulation.
+
+   1. (Facultatif) Dans l&#39;onglet [!UICONTROL Advanced Settings], modifiez les paramètres avancés de la simulation.
+
+   Les paramètres existants pour le portefeuille sélectionné sont spécifiés par défaut. La modification des valeurs vous affichera les résultats que différents paramètres produiraient sans modifier les paramètres existants du portefeuille.
+
+1. Cliquez sur **[!UICONTROL Next]**.
+
+1. Passez en revue les paramètres et modifiez-les si nécessaire.
+
+1. Cliquez sur **[!UICONTROL Submit & Run]**.
+
+Lorsque le rapport de simulation est disponible, vous et les autres destinataires d’e-mails spécifiés recevez une notification avec un lien pour télécharger les données dans un fichier ZIP contenant un classeur (fichier XLSX).
+
+<!-- Still true:  When the results for any report type include more than 60,000 rows, the workbook includes multiple worksheets. -->
 
 ## Paramètres personnalisés de la simulation {#custom-simulation-settings}
 
