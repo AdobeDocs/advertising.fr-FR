@@ -25,7 +25,7 @@ Renommez rapidement un portfolio sans ouvrir les paramètres complets du portfol
 >[!MORELIKETHIS]
 >
 >* [Créer un portfolio](portfolio-create.md)
->* [ (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
+>* [&#x200B; (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
 >* [(Nouvelle interface utilisateur) Afficher les détails sur les performances du portefeuille](portfolio-details.md)
->* [ (nouvelle interface utilisateur) Télécharger des données dans la vue [!UICONTROL Portfolios]](portfolio-view-report.md)
+>* [&#x200B; (nouvelle interface utilisateur) Télécharger des données dans la vue [!UICONTROL Portfolios]](portfolio-view-report.md)
 >* [À propos des portefeuilles](portfolio-about.md)
