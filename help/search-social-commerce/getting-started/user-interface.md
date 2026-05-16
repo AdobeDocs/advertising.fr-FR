@@ -4,9 +4,13 @@ description: Découvrez où accéder aux différentes fonctionnalités.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
 workflow-type: tm+mt
 source-wordcount: 1422
@@ -36,7 +40,7 @@ Votre [profil de produit](/help/search-social-commerce/new-ui/user-administratio
 
    * **[!UICONTROL Overview]** Ouvre une vue [!UICONTROL Dashboard] configurable avec des visualisations des performances pour tous vos portefeuilles.
 
-   * **[!UICONTROL Recommendations]** : ouvre une vue en lecture seule de vos recommandations d’éditeur provenant de [!DNL Google Ads] et [!DNL Microsoft Advertising] et des informations d’éditeur provenant de [!DNL Microsoft Advertising.] Pour afficher vos recommandations et informations et y répondre, utilisez la vue héritée [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Recommendations]** : ouvre une vue en lecture seule de vos recommandations d’éditeur provenant de [!DNL Google Ads] et [!DNL Microsoft Advertising] et des informations d’éditeur provenant de [!DNL Microsoft Advertising.] Pour afficher vos recommandations et informations et y répondre, utilisez la vue héritée [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Alerts & Notifications]** : quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts] .
 
@@ -46,9 +50,9 @@ Votre [profil de produit](/help/search-social-commerce/new-ui/user-administratio
 
 <!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
 
-* **[!UICONTROL Conversion Value Rules]** Ouvre les vues en lecture seule de vos règles de valeur de conversion au niveau de la campagne et au niveau du compte. Pour gérer vos règles de valeur de conversion, utilisez la vue héritée [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+* **[!UICONTROL Conversion Value Rules]** Ouvre les vues en lecture seule de vos règles de valeur de conversion au niveau de la campagne et au niveau du compte. Pour gérer vos règles de valeur de conversion, utilisez la vue héritée [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
-* **[!UICONTROL Constraints]** Ouvre une vue en lecture seule de vos contraintes existantes. Pour gérer vos contraintes, utilisez la vue héritée [!UICONTROL Optimization] > [!UICONTROL Constraints] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+* **[!UICONTROL Constraints]** Ouvre une vue en lecture seule de vos contraintes existantes. Pour gérer vos contraintes, utilisez la vue héritée [!UICONTROL Optimization] > [!UICONTROL Constraints] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Plan]** le sous-menu :
 
@@ -64,15 +68,15 @@ Votre [profil de produit](/help/search-social-commerce/new-ui/user-administratio
 
    * **[!UICONTROL Campaigns]:** ouvre une nouvelle vue [!UICONTROL Campaigns], qui affiche toutes les campagnes pour l’annonceur. Vous pouvez affecter des campagnes aux portfolios et gérer les affectations de contraintes pour les campagnes sélectionnées. Vous pouvez également télécharger un rapport du contenu du tableau de données. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     Pour créer, modifier et supprimer des campagnes, revenez à l’interface utilisateur héritée en cliquant sur le bouton ](/help/search-social-commerce/getting-started/ui-switch.md).[[!UICONTROL Switch to Old UI]
+     Pour créer, modifier et supprimer des campagnes, revenez à l’interface utilisateur héritée en cliquant sur le bouton [&#128279;](/help/search-social-commerce/getting-started/ui-switch.md).[!UICONTROL Switch to Old UI]
 
    * **[!UICONTROL Ad Groups]:** ouvre une nouvelle vue [!UICONTROL Ad Groups], qui affiche tous les groupes publicitaires pour l’annonceur. Vous pouvez gérer les affectations de contraintes pour les groupes publicitaires sélectionnés. Vous pouvez également télécharger un rapport du contenu du tableau de données.
 
-     Pour créer, modifier et supprimer des campagnes, revenez à l’interface utilisateur héritée en cliquant sur le bouton ](/help/search-social-commerce/getting-started/ui-switch.md).[[!UICONTROL Switch to Old UI]
+     Pour créer, modifier et supprimer des campagnes, revenez à l’interface utilisateur héritée en cliquant sur le bouton [&#128279;](/help/search-social-commerce/getting-started/ui-switch.md).[!UICONTROL Switch to Old UI]
 
    * **[!UICONTROL Ads]** Ouvre une nouvelle vue [!UICONTROL Ads], qui affiche toutes les publicités pour l’annonceur. Vous pouvez gérer les affectations de contraintes pour les annonces sélectionnées.
 
-     Pour créer, modifier et supprimer des annonces, revenez à l’interface utilisateur héritée en cliquant sur le bouton ](/help/search-social-commerce/getting-started/ui-switch.md).[[!UICONTROL Switch to Old UI]
+     Pour créer, modifier et supprimer des annonces, revenez à l’interface utilisateur héritée en cliquant sur le bouton [&#128279;](/help/search-social-commerce/getting-started/ui-switch.md).[!UICONTROL Switch to Old UI]
 
 * **[!UICONTROL Reports]** le sous-menu :
 
@@ -90,23 +94,23 @@ Votre [profil de produit](/help/search-social-commerce/new-ui/user-administratio
 
 * **[!UICONTROL Target]** le sous-menu :
 
-   * **[!UICONTROL Audiences]** : ouvre une nouvelle vue [!UICONTROL Audiences], qui affiche toutes les audiences existantes pour l’annonceur, toutes les cibles d’audience et toutes les exclusions d’audience. Pour gérer vos audiences, utilisez la vue héritée [!UICONTROL Campaigns] > [!UICONTROL Audiences] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Audiences]** : ouvre une nouvelle vue [!UICONTROL Audiences], qui affiche toutes les audiences existantes pour l’annonceur, toutes les cibles d’audience et toutes les exclusions d’audience. Pour gérer vos audiences, utilisez la vue héritée [!UICONTROL Campaigns] > [!UICONTROL Audiences] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Auto Targets]** Quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Campaigns] > [!UICONTROL Campaigns] .
 
    * **[!UICONTROL Keywords]** Ouvre une nouvelle vue [!UICONTROL Keywords], qui affiche les mots-clés existants et les mots-clés négatifs pour l’annonceur. Vous pouvez gérer les affectations de contraintes pour les mots-clés sélectionnés.
 
-     Pour créer, modifier et supprimer des mots-clés et des mots-clés négatifs, utilisez les vues [!UICONTROL Campaigns] > [!UICONTROL Campaigns] héritées. Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+     Pour créer, modifier et supprimer des mots-clés et des mots-clés négatifs, utilisez les vues [!UICONTROL Campaigns] > [!UICONTROL Campaigns] héritées. Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Placements]** Ouvre une nouvelle vue [!UICONTROL Placements], qui affiche les emplacements existants et les emplacements négatifs pour l’annonceur. Vous pouvez gérer les affectations de contraintes pour les emplacements sélectionnés.
 
-     Pour créer, modifier et supprimer des emplacements et des emplacements négatifs, utilisez les vues [!UICONTROL Campaigns] > [!UICONTROL Campaigns] héritées. Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+     Pour créer, modifier et supprimer des emplacements et des emplacements négatifs, utilisez les vues [!UICONTROL Campaigns] > [!UICONTROL Campaigns] héritées. Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Assets]** le sous-menu :
 
    * **[!UICONTROL Creatives]** Quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Campaigns] > [!UICONTROL Campaigns] .
 
-   * **[!UICONTROL Extensions]** Ouvre les vues en lecture seule de vos extensions d’annonce existantes. Pour gérer vos extensions, utilisez la vue héritée [!UICONTROL Campaigns] > [!UICONTROL Campaigns] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Extensions]** Ouvre les vues en lecture seule de vos extensions d’annonce existantes. Pour gérer vos extensions, utilisez la vue héritée [!UICONTROL Campaigns] > [!UICONTROL Campaigns] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Shopping]** Quitte le nouveau site et ouvre l’ancien [!UICONTROL Campaigns] > vue [!UICONTROL Campaigns].<!-- Should this go to Campaigns > Products? -->
 
@@ -212,7 +216,7 @@ L&#39;option [!UICONTROL Search] comprend les sous-menus suivants. Votre rôle d
 
 * ![Profil utilisateur](/help/search-social-commerce/assets/user-profile.png "Profil utilisateur") Lien vers votre profil à partir duquel vous pouvez vous déconnecter.
 
-  Lorsque vous êtes [ connecté via Adobe CX Enterprise](sign-in.md), vous pouvez également modifier votre profil CX Enterprise, y compris votre mot de passe CX Enterprise et vos paramètres de notification.
+  Lorsque vous êtes [&#x200B; connecté via Adobe CX Enterprise](sign-in.md), vous pouvez également modifier votre profil CX Enterprise, y compris votre mot de passe CX Enterprise et vos paramètres de notification.
 
 >[!MORELIKETHIS]
 >
