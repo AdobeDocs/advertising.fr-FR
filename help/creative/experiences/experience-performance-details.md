@@ -4,9 +4,12 @@ description: Découvrez comment afficher des rapports de performances au niveau 
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
 TQID: https://experienceleague.adobe.com/1k8mcvg9-anlNxZQ43czfxpLEweDr-TolaaEIrDz-Fg
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9376767ebde74e1e8edbc8617ecb72bfd49c8a3d
 workflow-type: tm+mt
 source-wordcount: 791
@@ -86,7 +89,7 @@ La vue Rapport inclut les données suivantes :
 
    * (Facultatif) Pour modifier les conversions signalées, cliquez sur ![Paramètres](/help/creative/assets/settings.png) et sélectionnez les noms de conversion dans le menu **[!UICONTROL Conversions]**. Actuellement, la seule mesure disponible est « Sélectionner tout » pour inclure toutes les mesures de conversion.
 
-     Les colonnes de conversion disponibles incluent les conversions disponibles dans Advertising Search, Social et Commerce, que vous soyez ou non client Search, Social et Commerce. La liste peut inclure des mesures d’engagement du site et de conversion synchronisées à partir d’Adobe Analytics lorsque l’annonceur dispose d’une [intégration [!DNL Adobe Analytics for Advertising] ](/help/integrations/analytics/overview.md). [!DNL Analytics] mesures calculées et les mesures calculées avancées ne sont pas disponibles. Pour plus d’informations sur l’inclusion des conversions collectées dans les rapports, consultez la rubrique du guide Search, Social et Commerce intitulée « [ À propos de la gestion des mesures de conversion d’un annonceur ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) ».
+     Les colonnes de conversion disponibles incluent les conversions disponibles dans Advertising Search, Social et Commerce, que vous soyez ou non client Search, Social et Commerce. La liste peut inclure des mesures d’engagement du site et de conversion synchronisées à partir d’Adobe Analytics lorsque l’annonceur dispose d’une [intégration [!DNL Adobe Analytics for Advertising] &#x200B;](/help/integrations/analytics/overview.md). [!DNL Analytics] mesures calculées et les mesures calculées avancées ne sont pas disponibles. Pour plus d’informations sur l’inclusion des conversions collectées dans les rapports, consultez la rubrique du guide Search, Social et Commerce intitulée « [&#x200B; À propos de la gestion des mesures de conversion d’un annonceur &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) ».
 
 1. (Dans l’onglet [!UICONTROL Overview] ) :
 
