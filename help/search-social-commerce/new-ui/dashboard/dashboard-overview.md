@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 374
+source-wordcount: 375
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Votre [!UICONTROL Dashboard] comprend les rapports visuels suivants :
 
       * *[!UICONTROL All Portfolios]* (valeur par défaut) : établit des rapports sur des portefeuilles spécifiés. Vous pouvez éventuellement filtrer la liste des portefeuilles en modifiant le **[!UICONTROL Currency]spécifié.** Par défaut, tous les portefeuilles utilisant USD sont sélectionnés.
 
-      * *[!UICONTROL Portfolio Groups]:* Rapport sur des portefeuilles spécifiés dans un **[!UICONTROL Portfolio Group]spécifié.** Vous pouvez éventuellement filtrer la liste des portefeuilles en modifiant la **[!UICONTROL Currency]spécifiée.** Par défaut, tous les portefeuilles utilisant USD dans le groupe de portefeuilles spécifié sont sélectionnés.
+      * *[!UICONTROL Portfolio Groups]:* Rapport sur des portefeuilles spécifiés dans un **[!UICONTROL Portfolio Group]spécifié.** Vous pouvez éventuellement filtrer la liste des portefeuilles en modifiant le **[!UICONTROL Currency]spécifié.** Par défaut, tous les portefeuilles utilisant USD dans le groupe de portefeuilles spécifié sont sélectionnés.
 
       * *[!UICONTROL Objectives]:* Rapport sur des portefeuilles spécifiés avec un **[!UICONTROL Objective]spécifié.** . Vous pouvez éventuellement limiter la liste des portefeuilles en modifiant le **[!UICONTROL Currency]spécifié.** Par défaut, tous les portefeuilles utilisant USD avec l’objectif spécifié sont sélectionnés.
 

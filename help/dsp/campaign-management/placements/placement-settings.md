@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 4439
+source-wordcount: 4499
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 **[!UICONTROL Placement name]** Nom de l’emplacement.
 
 >[!TIP]
->Utilisez une convention de nommage adaptée à votre situation. Une convention de nommage suggérée est la suivante : « *\&lt;Nom de la campagne\> : \&lt;Unité publicitaire\> : \&lt;Durée\> : \&lt;Ciblage\>&lt;id de ph=&#39;97&#39;/>. »*
+>Utilisez une convention de nommage adaptée à votre situation. Une convention de nommage suggérée est la suivante : « *\&lt;Nom de la campagne\> : \&lt;Unité publicitaire\> : \&lt;Durée\> : \&lt;Ciblage\>* ».
 
 **[!UICONTROL Status]:** statut de l’emplacement : *[!UICONTROL Active]* (par défaut) ou *[!UICONTROL Paused]*.
 
@@ -348,11 +348,11 @@ Lorsque vous sélectionnez à la fois des identifiants hérités et universels, 
 
 * *[!UICONTROL Universal ID Beta]* : cible les identifiants axés sur la confidentialité des utilisateurs et utilisatrices ; sélectionnez un type d’identifiant. Les options disponibles sont déterminées par les cibles géographiques sélectionnées dans la section [!UICONTROL Geo-Targeting]. Utilisez avec les [[!DNL RampID] segments importés directement dans DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [segments pour lesquels DSP convertit vos informations d’identification personnelles en identifiants universels](/help/dsp/audiences/sources/source-about.md) ou [segments personnalisés qui effectuent le suivi des identifiants universels](/help/dsp/audiences/custom-segment-create.md).
 
-   * *[!UICONTROL ID5]* : cible [!DNL ID5] identifiants créés de manière probabiliste à partir d’adresses e-mail et d’autres signaux.Les identifiants <!-- What countries/geos are these available for? Everywhere?--> ID5 sont disponibles sans frais. **Remarque :** les segments tiers provenant de l’[!DNL Eyeota] peuvent inclure des ID5.
+   * *[!UICONTROL ID5]* : cible [!DNL ID5] identifiants créés de manière probabiliste à partir d’adresses e-mail et d’autres signaux.<!-- What countries/geos are these available for? Everywhere?--> Les ID5 sont disponibles sans frais. **Remarque :** les segments tiers provenant de l’[!DNL Eyeota] peuvent inclure des ID5.
 
    * *[!UICONTROL RampID]* : cible [!DNL LiveRamp] [!DNL RampIDs] d’utilisateurs connectés à votre site à l’aide de leur adresse e-mail.<!-- Verify --> [!DNL RampIDs] sont disponibles pour les utilisateurs en Amérique du Nord, en Australie et en Nouvelle-Zélande.
 
-   * *[!UICONTROL Unified ID2.0]* : cible [!DNL Unified ID2.0] identifiants (UID2) des utilisateurs connectés à votre site à l’aide de leurs adresses e-mail.<!-- Verify -->[!DNL UID2 IDs] ne sont pas disponibles pour les utilisateurs dans l&#39;Espace économique européen et dans certains autres pays. Voir la [liste des pays interdits](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+   * *[!UICONTROL Unified ID2.0]* : cible [!DNL Unified ID2.0] identifiants (UID2) des utilisateurs connectés à votre site à l’aide de leurs adresses e-mail.<!-- Verify -->[!DNL UID2 IDs] ne sont pas disponibles pour les utilisateurs de l’Espace économique européen et de certains autres pays. Voir la [liste des pays interdits](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
 
   **[!UICONTROL Terms of service]** : termes de l’accord de service pour l’utilisation des identifiants universels. Vous ou un autre utilisateur du compte DSP devez accepter les conditions une seule fois avant de pouvoir convertir des données en un nouveau type d’identifiant. Pour les clients qui disposent de contrats de service géré, l’équipe chargée de votre compte Adobe obtiendra votre consentement et acceptera les conditions au nom de votre entreprise. Pour lire les termes, cliquez sur **>**. Pour accepter les conditions, faites défiler l’écran jusqu’au bas des conditions et cliquez sur **[!UICONTROL Accept]**.
 
@@ -371,7 +371,7 @@ Lorsque vous sélectionnez à la fois des identifiants hérités et universels, 
 1. Cliquez sur ![&#x200B; Modifier &#x200B;](/help/dsp/assets/edit.png).
 1. Sélectionnez le fuseau horaire applicable.
 1. Spécifiez les intervalles :
-   * Pour sélectionner un intervalle prédéfini, cliquez sur l’un des boutons d’intervalle. Les options incluent ***, [!UICONTROL Weekends], *[!UICONTROL Weekdays]*, *[!UICONTROL Morning]*, *[!UICONTROL Lunch]* ou *[!UICONTROL Dinner]* (primetime).*[!UICONTROL Prime]*
+   * Pour sélectionner un intervalle prédéfini, cliquez sur l’un des boutons d’intervalle. Les options incluent ***, *[!UICONTROL Weekdays]*, *[!UICONTROL Morning]*, *[!UICONTROL Lunch]*, *[!UICONTROL Dinner]* ou *[!UICONTROL Prime]* (primetime).[!UICONTROL Weekends]
    * Pour sélectionner manuellement un intervalle, cliquez dans une cellule et éventuellement faites glisser pour sélectionner l’intervalle.
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -420,7 +420,7 @@ Pour spécifier le ciblage de rubrique :
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
-**[!UICONTROL DoubleVerify ABS segment ID]:** (facultatif ; clients [!DNL DoubleVerify] uniquement ; disponible pour les emplacements de bureau pré-roll, standard et d’affichage par clic, ainsi que pour les emplacements d’affichage et de vidéo natifs uniquement ; non pris en charge pour [emplacements programmatiques garantis par défaut pour les offres](/help/dsp/inventory/programmatic-guaranteed-about.md)) Un identifiant de segment [!DNL DoubleVerify Authentic Brand Safety] associé au compte [!DNL DoubleVerify] de l’entreprise à utiliser pour l’emplacement. La spécification d’un ID bloque les impressions après l’enchère à l’aide des règles de sécurité de marque personnalisées configurées pour l’ID de segment spécifié. DSP facture votre compte pour l’utilisation de l’identifiant de segment.
+**[!UICONTROL DoubleVerify ABS segment ID]:** (facultatif ; clients [!DNL DoubleVerify] uniquement ; disponible pour les emplacements de bureau pré-roll, standard et d’affichage par clic, ainsi que pour les emplacements d’affichage et de vidéo natifs uniquement ; non pris en charge pour [emplacements programmatiques garantis par défaut pour les offres](/help/dsp/inventory/programmatic-guaranteed-about.md)) Un identifiant de segment [!DNL DoubleVerify Authentic Brand Suitability] associé au compte [!DNL DoubleVerify] de l’entreprise à utiliser pour l’emplacement. La spécification d’un ID bloque les impressions après l’enchère à l’aide des règles de sécurité de marque personnalisées configurées pour l’ID de segment spécifié. DSP facture votre compte pour l’utilisation de l’identifiant de segment.
 
 L’identifiant doit commencer par « 51 » et se composer de huit chiffres. Par défaut, si un identifiant de segment est spécifié dans les paramètres du compte de l’annonceur, l’identifiant au niveau de l’annonceur est saisi, mais vous pouvez modifier l’identifiant pour utiliser un autre segment ou le supprimer pour désactiver la fonction.
 
@@ -431,15 +431,15 @@ L’identifiant doit commencer par « 51 » et se composer de huit chiffres. Par
 **[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
 -->
 
-* [!UICONTROL DoubleVerify] :
+* [!UICONTROL DoubleVerify]:
 
    * **[!UICONTROL Block sites that are]:** (facultatif) Un ou plusieurs types de contexte d&#39;inventaire à bloquer par défaut. Des frais supplémentaires peuvent s’appliquer.
 
-* [!UICONTROL Peer 39] :
+* [!UICONTROL Peer 39]:
 
    * **Sites cibles qui sont :** (facultatif) Un ou plusieurs types d’attributs d’inventaire à cibler par défaut. Des frais supplémentaires peuvent s’appliquer.
 
-* [!UICONTROL ComScore] :
+* [!UICONTROL ComScore]:
 
    * **Bloquer les sites qui sont :** (facultatif) Un ou plusieurs types d’attributs d’inventaire à bloquer par défaut. Des frais supplémentaires peuvent s’appliquer.
 

@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1056'
 ht-degree: 3%
 
 ---
@@ -117,7 +117,6 @@ ht-degree: 3%
    + [Prise en charge de l’activation des identifiants universels](/help/dsp/audiences/universal-ids.md)
    + Audiences réutilisables {#reusable-audiences}
       + [Créer une audience réutilisable](/help/dsp/audiences/reusable-audience-create.md)
-      + {hide-from-toc}[Créer une audience réutilisable à l’aide de l’IA générative](/help/dsp/audiences/reusable-audience-create-using-ai.md)
       + [Dupliquer une audience réutilisable](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Modification d’une audience réutilisable](/help/dsp/audiences/reusable-audience-edit.md)
       + [Afficher les détails d’une audience réutilisable](/help/dsp/audiences/reusable-audience-view-details.md)

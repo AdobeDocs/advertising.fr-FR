@@ -13,7 +13,7 @@ topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
 source-wordcount: 348
 ht-degree: 0%
@@ -40,7 +40,7 @@ Consultez également les sections « >* [&#x200B; (interface utilisateur hérit�
 
    * Pour télécharger des données pour tous les groupes d’annonces, il n’est pas nécessaire de cocher des cases. Tous les groupes publicitaires sont inclus par défaut.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") **[!UICONTROL Report]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans les paramètres de [!UICONTROL Grid Reports], saisissez un nom de rapport unique, puis cliquez sur **[!UICONTROL Generate]**.
 
@@ -56,7 +56,7 @@ Consultez également les sections « >* [&#x200B; (interface utilisateur hérit�
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") **[!UICONTROL Report]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") en regard du nom du fichier.
 
@@ -66,7 +66,7 @@ Consultez également les sections « >* [&#x200B; (interface utilisateur hérit�
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") **[!UICONTROL Report]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete-new.png "Supprimer") en regard du nom du fichier.
 

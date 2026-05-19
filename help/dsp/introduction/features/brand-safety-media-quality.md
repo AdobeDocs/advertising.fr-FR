@@ -14,9 +14,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47596cdd765ba7da7c10e21388f0230327b49c01
 workflow-type: tm+mt
-source-wordcount: 1402
+source-wordcount: 1445
 ht-degree: 0%
 
 ---
@@ -147,13 +147,13 @@ Pour créer un compte [!DNL Comscore] et des segments de rubrique personnalisés
 
 ![&#x200B; Logo Comscore &#x200B;](/help/dsp/assets/comscore-logo.png)
 
-### [!DNL DoubleVerify Authentic Brand Safety]
+### [!DNL DoubleVerify Authentic Brand Suitability]
 
-DSP s’est associé à [!DNL DoubleVerify] pour proposer sa solution de ciblage [!DNL Authentic Brand Safety], qui permet de créer un ensemble centralisé d’exigences de sécurité de marque à cibler sur toutes vos plateformes d’achat, par souci de cohérence.
+DSP s’est associé à [!DNL DoubleVerify] pour proposer sa solution de ciblage [!DNL Authentic Brand Suitability], qui permet de créer un ensemble centralisé d’exigences d’adéquation de la marque à cibler sur toutes vos plateformes d’achat, et ce, par souci de cohérence.
 
-Une fois que vous avez créé un segment de sécurité de marque [!DNL DoubleVerify] avec le ciblage nécessaire, vous pouvez l’utiliser dans DSP pour répliquer vos règles de blocs post-enchères avec pré-enchères dans les environnements web.
+Une fois que vous avez créé un segment [!DNL DoubleVerify] avec le ciblage nécessaire, vous pouvez l’utiliser dans DSP pour répliquer vos règles de blocs post-enchères avec pré-enchères dans les environnements web.
 
-Vous pouvez spécifier un identifiant de segment [!DNL DoubleVerify] pour chaque annonceur<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) --> puis éventuellement [activer ou désactiver l’[!UICONTROL Authentic Brand Safety] pour chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). DSP facture votre compte pour l’utilisation de l’identifiant de segment.
+Vous pouvez spécifier un identifiant de segment [!DNL DoubleVerify] pour chaque annonceur, puis éventuellement [activer ou désactiver l’[!UICONTROL Authentic Brand Suitability] pour chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md). DSP facture votre compte pour l’utilisation de l’identifiant de segment.
 
 Pour plus d’informations sur les fonctionnalités, contactez directement [!DNL DoubleVerify] ou l’équipe chargée de votre compte Adobe.
 

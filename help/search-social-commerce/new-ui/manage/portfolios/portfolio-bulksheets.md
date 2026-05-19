@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 393
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Une feuille groupée de portfolio est un fichier qui contient les paramètres de
 
 1. Dans la barre d&#39;outils située au-dessus du tableau de données, cliquez sur :
 
-   * (Pour tous les portefeuilles) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export All Portfolios]**.
+   * (Pour tous les portefeuilles) ![Opérations en bloc](/help/search-social-commerce/assets/chevron-down.png "Opérations en bloc") > **[!UICONTROL Export All Portfolios]**.
 
    * (Pour les portefeuilles sélectionnés) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**.
 
@@ -49,7 +49,7 @@ Une feuille groupée de portfolio est un fichier qui contient les paramètres de
 
 Le fichier doit être au format XLSX.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Opérations en bloc](/help/search-social-commerce/assets/chevron-down.png "Opérations en bloc") > **[!UICONTROL Import Portfolio Details]**.
 
 1. Dans la boîte de dialogue [!UICONTROL Import Portfolio Details File] :
 

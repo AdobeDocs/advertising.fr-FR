@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 50e002abe0c434e5eba9bd9785d7fc3d7ee7d10c
 workflow-type: tm+mt
-source-wordcount: 786
+source-wordcount: 791
 ht-degree: 0%
 
 ---
@@ -32,28 +32,28 @@ La vue Rapport inclut les données suivantes :
       * **Performances globales** : nombre total d’impressions, de clics, de taux de clics publicitaires (CTR), de conversions d’affichage publicitaire et de conversions de clics publicitaires.
 
      <!--
-     ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
-          -->
+      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
+     -->
 
       * **Taux par défaut** : (expériences avec ciblage d’arborescence de décision uniquement) nombre d’impressions provenant de contenus publicitaires ciblés, de contenus publicitaires génériques sans cible ou ciblés sur « Tout le monde » et du contenu publicitaire par défaut pour l’expérience.
 
      <!--
-     ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
+      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
    * Section **Répartition des performances** :
 
-      * **Performance régionale :* : mesures individuelles par lieu géographique.
+      * **Performance régionale :** : mesures individuelles par emplacement géographique.
 
-        <!--   
+     <!--
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
       * **Performances de l’appareil :** mesures individuelles par type d’appareil, système d’exploitation et navigateur. Si vous le souhaitez, cliquez sur la valeur de n’importe quelle catégorie d’appareils pour afficher la liste des 10 meilleurs contenus publicitaires diffusés selon ce critère.
 
-        <!--    
+     <!--
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
 * **Onglet Performances de Creative*** : aperçu des performances par élément créatif et lot ou balise publicitaire, y compris :
 

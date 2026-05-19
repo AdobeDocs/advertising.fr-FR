@@ -18,9 +18,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3d540e71081d223cc4e9ee28bb8b4f168c07ff50
 workflow-type: tm+mt
-source-wordcount: 3359
+source-wordcount: 3528
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 *Publicitaires avec une intégration Adobe Advertising-Adobe Analytics uniquement*
 
-Les annonceurs avec l’intégration [!DNL Analytics for Advertising] <!-- (A4AdC) --> effectuent le suivi de la publicité payante via Adobe Advertising et Adobe Analytics. Lorsque vous suivez des médias, des campagnes et des canaux via plusieurs systèmes, les mêmes jeux de données provenant de différents systèmes correspondent rarement complètement. Ce document explique comment vous devez vous attendre à ce que les données des médias qui font l’objet d’un trafic via Adobe Advertising soient comparées aux données des différents systèmes dans lesquels le média est suivi au sein de [!DNL Analytics].
+Les annonceurs avec l’intégration [!DNL Analytics for Advertising] effectuent le suivi de la publicité payante via Adobe Advertising et Adobe Analytics. Lorsque vous suivez des médias, des campagnes et des canaux via plusieurs systèmes, les mêmes jeux de données provenant de différents systèmes correspondent rarement complètement. Ce document explique comment vous devez vous attendre à ce que les données des médias qui font l’objet d’un trafic via Adobe Advertising soient comparées aux données des différents systèmes dans lesquels le média est suivi au sein de [!DNL Analytics].
 
 >[!NOTE]
 >

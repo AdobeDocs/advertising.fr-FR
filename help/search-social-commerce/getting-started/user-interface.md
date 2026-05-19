@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
 workflow-type: tm+mt
-source-wordcount: 1392
+source-wordcount: 1422
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Nouvelle interface utilisateur
 
-*Fonction Beta*
+*Fonction*
 
 ![Interface utilisateur](/help/search-social-commerce/assets/ui-new.png "interface utilisateur")
 
@@ -34,13 +34,13 @@ La nouvelle interface utilisateur affiche un nouveau menu principal à gauche, q
 
 ### Options du menu principal
 
-Votre rôle détermine les options disponibles :<!-- add link when available -->
+Votre [profil de produit](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles) détermine les options disponibles :
 
 * **[!UICONTROL Dashboard]** le sous-menu :
 
    * **[!UICONTROL Overview]** Ouvre une vue [!UICONTROL Dashboard] configurable avec des visualisations des performances pour tous vos portefeuilles.
 
-   * **[!UICONTROL Recommendations]** : quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] .
+   * **[!UICONTROL Recommendations]** : ouvre une vue en lecture seule de vos recommandations d’éditeur provenant de [!DNL Google Ads] et [!DNL Microsoft Advertising] et des informations d’éditeur provenant de [!DNL Microsoft Advertising.] Pour afficher vos recommandations et informations et y répondre, utilisez la vue héritée [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Alerts & Notifications]** : quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts] .
 
@@ -68,15 +68,15 @@ Votre rôle détermine les options disponibles :<!-- add link when available -->
 
    * **[!UICONTROL Campaigns]:** ouvre une nouvelle vue [!UICONTROL Campaigns], qui affiche toutes les campagnes pour l’annonceur. Vous pouvez affecter des campagnes aux portfolios et gérer les affectations de contraintes pour les campagnes sélectionnées. Vous pouvez également télécharger un rapport du contenu du tableau de données. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     Pour créer, modifier et supprimer des campagnes, revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+     Pour créer, modifier et supprimer des campagnes, revenez à l’interface utilisateur héritée en cliquant sur le bouton [&#128279;](/help/search-social-commerce/getting-started/ui-switch.md).[!UICONTROL Switch to Old UI]
 
    * **[!UICONTROL Ad Groups]:** ouvre une nouvelle vue [!UICONTROL Ad Groups], qui affiche tous les groupes publicitaires pour l’annonceur. Vous pouvez gérer les affectations de contraintes pour les groupes publicitaires sélectionnés. Vous pouvez également télécharger un rapport du contenu du tableau de données.
 
-     Pour créer, modifier et supprimer des campagnes, revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+     Pour créer, modifier et supprimer des campagnes, revenez à l’interface utilisateur héritée en cliquant sur le bouton [&#128279;](/help/search-social-commerce/getting-started/ui-switch.md).[!UICONTROL Switch to Old UI]
 
    * **[!UICONTROL Ads]** Ouvre une nouvelle vue [!UICONTROL Ads], qui affiche toutes les publicités pour l’annonceur. Vous pouvez gérer les affectations de contraintes pour les annonces sélectionnées.
 
-     Pour créer, modifier et supprimer des annonces, revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+     Pour créer, modifier et supprimer des annonces, revenez à l’interface utilisateur héritée en cliquant sur le bouton [&#128279;](/help/search-social-commerce/getting-started/ui-switch.md).[!UICONTROL Switch to Old UI]
 
 * **[!UICONTROL Reports]** le sous-menu :
 
@@ -148,7 +148,7 @@ Utilisez le champ de recherche situé au-dessus du menu principal pour recherche
 
 ## Autres menus basés sur des tâches et des informations dans le coin supérieur droit
 
-### Ligne supérieure : menu CX Enterprise
+### Ligne supérieure : menu CX Entreprise
 
 * Liste sélectionnable des organisations CX Enterprise auxquelles vous avez accès.
 
@@ -158,7 +158,7 @@ Utilisez le champ de recherche situé au-dessus du menu principal pour recherche
 
 * ![Apps](/help/search-social-commerce/assets/apps.png "Apps") liste des solutions et services Adobe CX Enterprise auxquels vous pouvez basculer.
 
-* ![Compte](/help/search-social-commerce/assets/account.png "Compte") Informations sur le profil de votre compte CX Enterprise à partir duquel vous pouvez modifier vos préférences et vous déconnecter.
+* ![Compte](/help/search-social-commerce/assets/account.png "Compte") Informations sur le profil de votre compte CX Enterprise, à partir duquel vous pouvez modifier vos préférences et vous déconnecter.
 
 ### Deuxième ligne : menu supplémentaire Rechercher, Social et Commerce
 
@@ -212,11 +212,11 @@ L&#39;option [!UICONTROL Search] comprend les sous-menus suivants. Votre rôle d
 
 * ![Menu Aide](/help/search-social-commerce/assets/help-main-menu.png "Menu Aide") Un menu d’aide qui inclut des liens vers la documentation et d’autres informations.
 
-* ![Sélecteur de solutions](/help/search-social-commerce/assets/menu-icon.png "Sélecteur de solutions") Liste des solutions et services Adobe CX Enterprise auxquels vous pouvez basculer.
+* ![Sélecteur de solutions](/help/search-social-commerce/assets/menu-icon.png "Sélecteur de solutions") Liste des solutions et services d’entreprise Adobe CX auxquels vous pouvez basculer.
 
 * ![Profil utilisateur](/help/search-social-commerce/assets/user-profile.png "Profil utilisateur") Lien vers votre profil à partir duquel vous pouvez vous déconnecter.
 
-  Lorsque vous êtes [&#x200B; connecté via Adobe CX Enterprise](sign-in.md), vous pouvez également modifier votre profil CX Enterprise, y compris votre mot de passe CX Enterprise et les paramètres de notification.
+  Lorsque vous êtes [&#x200B; connecté via Adobe CX Enterprise](sign-in.md), vous pouvez également modifier votre profil CX Enterprise, y compris votre mot de passe CX Enterprise et vos paramètres de notification.
 
 >[!MORELIKETHIS]
 >

@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: 420
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Dupliquez un package pour créer un package avec des paramètres similaires. Vou
 
 * Modifier les dates de vol du nouveau forfait
 
-Pour obtenir la liste des paramètres d&#39;emplacement qui ne sont pas dupliqués[&#x200B; reportez-vous à « &#x200B;](#package-not-duplicated)Qu&#39;est-ce qui n&#39;est pas dupliqué ? ».
+Pour obtenir la liste des paramètres d&#39;emplacement qui ne sont pas dupliqués[&#128279;](#package-not-duplicated) reportez-vous à « Qu&#39;est-ce qui n&#39;est pas dupliqué ? ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -72,7 +72,7 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
    * Cibles géographiques
    * Pixels d’événement
    * Publicités
-   * Segments [!DNL DoubleVerify Authentic Brand Safety] au niveau de l’emplacement (qui remplacent les segments au niveau de l’annonceur)
+   * Segments [!DNL DoubleVerify Authentic Brand Suitability] au niveau de l’emplacement (qui remplacent les segments au niveau de l’annonceur)
 
 ## Bonnes pratiques pour configurer le nouveau package
 
@@ -95,7 +95,7 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 
    * Ajoutez des pixels d’événement si nécessaire aux emplacements et aux annonces.
 
-   * Incluez des cibles géographiques et des segments de [!DNL DoubleVerify Authentic Brand Safety] au niveau de l’emplacement selon les besoins des emplacements.
+   * Incluez des cibles géographiques et des segments de [!DNL DoubleVerify Authentic Brand Suitability] au niveau de l’emplacement selon les besoins des emplacements.
 
    * Pour les offres programmatiques garanties, utilisez les nouveaux ID d’offres et créez des emplacements par défaut.
 
