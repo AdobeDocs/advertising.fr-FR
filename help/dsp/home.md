@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
+source-git-commit: 845ec19227f14205ec4cd69c2f2f0114bd97cf48
 workflow-type: tm+mt
-source-wordcount: 7264
+source-wordcount: 7338
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Les fonctionnalités suivantes sont nouvelles ou ont été récemment modifiées
 
 | Date | Fonctionnalité | Description | Pour Plus D’Informations |
 | ---- | ------- | ----------- | -------------------- |
+| 20 Mai 2026 | Sources d’audience propriétaires, identifiants universels, [!UICONTROL Placements] | Les annonceurs en Australie peuvent désormais importer des identifiants universels [!DNL AdFixus] avec des mappages de segments pour la publicité ciblée. DSP importe les segments propriétaires depuis [!DNL AdFixus] en l’état, sans les convertir en autres types d’identifiants. Le processus comprend la création d’une source d’audience et le partage d’une clé générée automatiquement avec votre équipe de [!DNL AdFixus]. | Voir « [Importer des segments propriétaires depuis [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md) », « [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md) » et « [Gérer les sources d’audience pour activer les audiences d’ID universels](/help/dsp/audiences/sources/source-manage.md) ». |
 | 11 Mai 2026 | [!UICONTROL Audiences] réutilisables | (Fonction Beta) Vous pouvez désormais créer une audience réutilisable à l’aide d’un agent d’audience assisté par IA. Décrivez votre audience cible dans des invites en langage naturel et l&#39;agent suggère des segments tiers et crée des expressions d&#39;audience à utiliser comme cibles ou exclusions. | Voir « [Créer une audience réutilisable](/help/dsp/audiences/reusable-audience-create.md) ». |
 | 29 Avril 2026 | [!UICONTROL Conversions] | Vous pouvez désormais gérer toutes les mesures de conversion suivies par Adobe Advertising pour votre organisation dans DSP. Les mesures sont toujours disponibles dans Advertising Search, Social et Commerce pour y être utilisées dans les rapports et l’optimisation. | Voir « [&#x200B; Gérer les conversions &#x200B;](/help/dsp/admin/conversion-metrics-manage.md). » |
 | | [!UICONTROL Custom Objectives] | Vous pouvez désormais créer et gérer les objectifs utilisés pour vos objectifs personnalisés dans DSP. | Voir « [Gérer les objectifs personnalisés](/help/dsp/admin/custom-objectives-manage.md) ». |
