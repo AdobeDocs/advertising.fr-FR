@@ -3,7 +3,7 @@ title: (Nouvelle interface utilisateur) Afficher l’historique des modification
 description: Découvrez comment afficher l’historique des modifications d’un portfolio.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -35,7 +35,6 @@ Les informations de chaque modification incluent la date, le nom d’utilisateur
    * Cliquez sur ![Filtrer](/help/search-social-commerce/assets/filter-new.png "Filtrer") pour filtrer les données par type de modification.<!-- Not available as of 5-14: and by the user who performed the action -->.
 
    * Cliquez sur ![Trier](/help/search-social-commerce/assets/sort.png "Trier") pour trier la liste par date dans l’ordre croissant ou décroissant.
-
 
 ## Gérer les rapports de données de performances pour les historiques de modifications
 
@@ -78,7 +77,7 @@ Vous pouvez télécharger des informations supplémentaires sur l’historique d
 >[!MORELIKETHIS]
 >
 >* [Créer un portfolio](portfolio-create.md)
->* [&#x200B; (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
+>* [ (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
 >* [(Nouvelle interface utilisateur) Afficher les détails sur les performances du portefeuille](portfolio-details.md)
->* [&#x200B; (nouvelle interface utilisateur) Télécharger des données dans la vue [!UICONTROL Portfolios]](portfolio-view-report.md)
+>* [ (nouvelle interface utilisateur) Télécharger des données dans la vue [!UICONTROL Portfolios]](portfolio-view-report.md)
 >* [À propos des portefeuilles](portfolio-about.md)
