@@ -10,18 +10,66 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: 546
 ht-degree: 0%
 
 ---
 
 # Afficher le rapport [!UICONTROL Change History]
 
-Le rapport [!UICONTROL Change History] comprend un journal des modifications apportées au compte de l’annonceur au cours des 31 derniers jours. Elle peut inclure des modifications apportées aux types d’objets suivants : utilisateurs (annonceurs), portfolios, campagnes, groupes publicitaires, publicités, mots-clés, emplacements et cibles de produits. Par défaut, les modifications sont affichées pour il y a deux jours.
+Le rapport (nouvelle interface utilisateur) [!UICONTROL History Logs] et (ancienne interface utilisateur) [!UICONTROL Change History] comprend un journal des modifications apportées au compte de l’annonceur au cours des 31 derniers jours. Le rapport peut inclure des modifications apportées aux types d’objets suivants : utilisateurs (annonceurs), portfolios, campagnes, groupes publicitaires, publicités, mots-clés, emplacements et cibles de produits. Vous pouvez trier et filtrer les données selon n’importe quelle colonne.
 
-Vous pouvez trier et filtrer les données selon n’importe quelle colonne.
+Vous pouvez télécharger des informations supplémentaires sur les journaux d’historique de l’annonceur dans un fichier [!DNL Microsoft Excel] format de classeur (fichier XLSX). Le rapport inclut les anciennes et les nouvelles valeurs ainsi que l’heure à laquelle la modification a eu lieu.
+
+>[!NOTE]
+>
+>Pour les modifications apportées aux portefeuilles, consultez également l’historique des modifications du [portefeuille](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md).
+
+## (Nouvelle interface utilisateur) Afficher le rapport [!UICONTROL History Logs] {#history-logs-open}
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Reports]** > **[!UICONTROL History Logs]**.
+
+1. (Facultatif) [Modifiez les données incluses dans la vue](/help/search-social-commerce/common-tasks/data-views/data-views-about.md).
+
+### Gérer les téléchargements de rapports pour [!UICONTROL History Logs]
+
+#### Générer un rapport avec les lignes de données filtrées
+
+1. [Ouvrez les journaux d’historique](#history-logs-open).
+
+1. Dans le coin supérieur droit, cliquez sur ![Télécharger le rapport](/help/search-social-commerce/assets/download.png "Télécharger le rapport").
+
+1. Dans les paramètres de [!UICONTROL Grid Reports], saisissez un nom de rapport unique, puis cliquez sur **[!UICONTROL Generate]**.
+
+   Par défaut, le fichier est nommé « allChangeHistory_YYYYMMDD_NNNN », où « NNNN » est le numéro de tâche séquentielle (par exemple, « allChangeHistory_20260402_1326 »).
+
+   Le fichier est ajouté à la liste de [!UICONTROL Recently Generated].
+
+1. (Facultatif) Pour télécharger le fichier une fois l’opération terminée, cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") en regard du nom du fichier.
+
+   Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
+
+#### Télécharger un rapport terminé
+
+1. [Ouvrez les journaux d’historique](#history-logs-open).
+
+1. Dans le coin supérieur droit, cliquez sur ![Télécharger le rapport](/help/search-social-commerce/assets/download.png "Télécharger le rapport").
+
+1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") en regard du nom du fichier.
+
+   Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
+
+#### Supprimer un rapport terminé
+
+1. [Ouvrez les journaux d’historique](#history-logs-open).
+
+1. Dans le coin supérieur droit, cliquez sur ![Télécharger le rapport](/help/search-social-commerce/assets/download.png "Télécharger le rapport").
+
+1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete-new.png "Supprimer") en regard du nom du fichier.
+
+## (interface utilisateur héritée) Afficher le rapport [!UICONTROL Change History]
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Change History]**.
 
