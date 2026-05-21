@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Chaque emplacement [!DNL Roku] doit cibler au moins une offre ou une source [!DN
 
 ### Fournisseurs de suivi tiers approuvés par le [!DNL Roku]
 
-[!DNL Roku] emplacements peuvent inclure des pixels d’événement tiers et des pixels de conversion des fournisseurs suivants : [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], [!DNL Research Now], et.
+[!DNL Roku] emplacements peuvent inclure des pixels d’événement tiers et des pixels de conversion des fournisseurs suivants : [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], [!DNL Research Now], [!DNL TransUnion], et.
 
 ### Bonnes pratiques par stratégie de placement
 
