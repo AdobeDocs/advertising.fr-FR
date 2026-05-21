@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising Search, Social et Commerce
 user-guide-description: Ce guide décrit les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires liées aux moteurs de recherche, aux réseaux sociaux et au commerce.
 breadcrumb-title: Guide d’Advertising Search, Social et Commerce
 index: true
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2088'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,7 @@ ht-degree: 2%
          + [À propos de la vue [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Rapports {#reports}
+      + [Gérer les flux de rapports de feuille de calcul](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
       + [Afficher le rapport [!UICONTROL History Logs]](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [Gérer les classifications de libellés](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
