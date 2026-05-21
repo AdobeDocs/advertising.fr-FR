@@ -105,7 +105,7 @@ Vous pouvez cibler vos emplacements sur tous les types d’audiences suivants.
 
   >[!NOTE]
   >
-  >Pour plus d’informations sur la configuration et la collecte de données pour les segments dans ces solutions [!DNL Real-Time CDP][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) consultez la documentation de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) et the.
+  >Pour plus d’informations sur la configuration et la collecte de données pour les segments dans ces solutions [!DNL Real-Time CDP][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=fr) consultez la documentation de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=fr), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=fr) et the.
 
 ## Données de taille d’audience
 
