@@ -2,7 +2,7 @@
 title: (Nouvelle interface utilisateur) Gestion  [!DNL Google Ads]  règles de valeur de conversion
 description: Découvrez comment afficher et gérer les règles  [!DNL Google Ads]  valeur de conversion dans Search, Social et Commerce.
 feature: Conversions
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Lorsque le compte de l’annonceur est configuré pour charger les objectifs Sea
 
 Supposons, par exemple, que l’objectif utilise une mesure de conversion unique « Leads » et donne aux conversions provenant d’appareils mobiles un poids de 10 et aux conversions provenant d’appareils non mobiles un poids de 10. Search, Social et Commerce comptabilise un événement de l’un des types d’appareils comme une (1) conversion et attribue à la valeur de conversion la valeur 10. Cependant, supposons qu’une campagne de ce portefeuille utilise une règle de valeur de conversion « Si l’appareil est mobile, multipliez par 2 ». Lorsqu’un événement Leads mobile est suivi pour cette campagne, [!DNL Google Ads] attribue également au nombre de conversions la valeur un (1), mais à la valeur de conversion (10 x 2) = 20.
 
-Pour obtenir plus d’informations sur vos règles, y compris les valeurs de conversion d’origine avant l’application des règles, consultez le rapport [&#x200B; règles de valeur de conversion dans  [!DNL Google Ads]](https://support.google.com/google-ads/answer/10519848).
+Pour obtenir plus d’informations sur vos règles, y compris les valeurs de conversion d’origine avant l’application des règles, consultez le rapport [ règles de valeur de conversion dans  [!DNL Google Ads]](https://support.google.com/google-ads/answer/10519848).
 
 ## Créer une règle de valeur de conversion [!DNL Google Ads] {#google-conversion-value-rule-create}
 

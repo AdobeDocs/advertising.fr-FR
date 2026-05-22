@@ -2,7 +2,7 @@
 title: À propos des rapports d’assistance
 description: Découvrez les rapports qui fournissent des informations sur les chemins de conversion.
 feature: Search Reports, Search Assist Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
