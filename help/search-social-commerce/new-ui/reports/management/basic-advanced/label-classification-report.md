@@ -19,7 +19,7 @@ Vous pouvez afficher les données des 36 mois précédents.
 >
 >* Le compte rendu des performances par classification de libellé au niveau de l’annonce n’est pas disponible pour les campagnes d’annonces de recherche dynamique (DSA) [!DNL Microsoft Advertising].
 >* Plusieurs classifications de libellés peuvent s’appliquer à la même entité, de sorte que le total de chaque mesure peut être supérieur au total réel de l’entité. Par exemple, supposons qu’un mot-clé « chaussures en daim » possède deux valeurs d’étiquette, « daim » et « chaussures », et que le mot-clé ait reçu 100 clics. La colonne Clics affichait « 100 » pour chacune de ces valeurs d’étiquette. Le total des deux lignes était donc « 200 ».
-* Toute modification apportée aux classifications d’étiquettes et aux valeurs d’étiquettes enfants d’une entité est visible en une heure environ.
+>* Toute modification apportée aux classifications d’étiquettes et aux valeurs d’étiquettes enfants d’une entité est visible en une heure environ.
 
 ## Colonnes par défaut
 
