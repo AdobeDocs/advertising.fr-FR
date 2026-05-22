@@ -2,7 +2,7 @@
 title: Gérer les contraintes pour les unités d’offres de recherche
 description: Découvrez les contraintes permettant de restreindre les offres d’unités d’offre dans les campagnes CPC des portefeuilles hérités au niveau des mots-clés.
 feature: Search Campaign Management, Search Optimization
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
 source-wordcount: '2649'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Outre l&#39;ouverture de la vue [&#128279;](#constraints-view) vous pouvez égal
 
   La classification [!UICONTROL Constraints] n’est pas incluse dans la vue [!UICONTROL Label Classifications] ; la vue [!UICONTROL Constraints] est distincte. La classification [!UICONTROL Constraints] n’est pas non plus incluse dans la limite de classification de 30 étiquettes.
 
-* [&#x200B; La [!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md) inclut les données de coût, de clic et (éventuellement) de conversion pour les contraintes qui utilisent l’architecture de classification de libellés.
+* [&#x200B; La [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md) inclut les données de coût, de clic et (éventuellement) de conversion pour les contraintes qui utilisent l’architecture de classification de libellés.
 
 ### La vue [!UICONTROL Constraints] {#constraints-view}
 
@@ -216,4 +216,4 @@ Chaque entité ne peut avoir qu&#39;une seule contrainte. Vous pouvez affecter u
 >* [Gérer les affectations de contraintes pour les groupes publicitaires](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [Gérer les affectations de contraintes pour les mots-clés](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
 >* [Gérer les affectations de contrainte pour les emplacements](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
->* [Le [!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)
+>* [Le [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)
