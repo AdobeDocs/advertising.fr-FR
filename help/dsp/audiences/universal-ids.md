@@ -17,9 +17,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 1513
+source-wordcount: 1610
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 <!-- Once we have CDP support for ID5 and can set up activation via sources, then maybe I can move this info into "About Sources" and "About Audiences." Or maybe make this the go-to page, removing info from those other pages? -->
 
-*Fonction*
-
 DSP prend en charge les identifiants universels basés sur les personnes pour le ciblage sans cookie sur un seul appareil (et non sur plusieurs appareils) à travers les formats numériques pris en charge par DSP.
 
 * Vous pouvez envoyer manuellement vos [[!DNL LiveRamp] [!DNL RampIDs]] authentifiés directement à DSP à l&#39;aide du tableau de bord [!DNL LiveRamp] [!DNL Connect]. Voir « [&#x200B; Importer manuellement des segments authentifiés depuis  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md) ».
 
-* DSP peut ingérer vos segments propriétaires créés dans votre plateforme de données client (CDP) et les convertir en [!DNL LiveRamp] [!DNL RampIDs] et en ID de [!DNL Unified ID 2.0 (UID2.0)]. Pour plus d’informations sur les plateformes de données client et les types d’identifiants utilisateur pris en charge, les fonctionnalités disponibles pour chaque type d’identifiant universel pris en charge et les workflows associés, consultez la section « [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md) ».
+* DSP peut ingérer vos segments propriétaires créés dans votre plateforme de données client (CDP) et les convertir en [!DNL RampIDs] [!DNL LiveRamp] et en ID de [!DNL Unified ID 2.0 (UID2.0)]. Pour plus d’informations sur les plateformes de données client et les types d’identifiants utilisateur pris en charge, les fonctionnalités disponibles pour chaque type d’identifiant universel pris en charge et les workflows associés, consultez la section « [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md) ».
+
+* En Australie, les annonceurs peuvent importer des segments propriétaires contenant des identifiants universels [!DNL AdFixus] à l’aide d’une source d’audience [!UICONTROL AdFixus ID]. DSP ne convertit pas entre les ID [!DNL AdFixus] et d’autres types d’ID universels. Voir « [Importer des segments propriétaires depuis [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md) ».
 
 * Vous pouvez créer des segments personnalisés qui effectuent le suivi des utilisateurs associés aux identifiants universels ID5 qui sont exposés aux publicités provenant des ordinateurs de bureau et des appareils mobiles et qui visitent des pages web spécifiques. ID5 utilise un modèle probabiliste pour attribuer un identifiant dérivé de divers signaux utilisateur et signaux navigateur. Pour obtenir des instructions, voir « [Créer et implémenter un segment personnalisé](/help/dsp/audiences/custom-segment-create.md) ».
 
@@ -64,7 +64,7 @@ Dans un nouvel emplacement, planifié ou en pause, procédez comme suit :
 
 1. Dans la section [!UICONTROL Audience Targeting], procédez comme suit :
 
-   1. Dans le paramètre [!UICONTROL Included Audiences] , sélectionnez le segment pour lequel les données utilisateur ont été converties en identifiants universels.
+   1. Dans le paramètre [!UICONTROL Included Audiences] , sélectionnez le segment pour lequel les données utilisateur ont été converties en identifiants universels (tels que les identifiants [!DNL RampIDs] ou [!DNL UID2]) ou qui contient des identifiants [!DNL AdFixus] importés.
 
       Vous pouvez inclure des segments supplémentaires si vous le souhaitez.
 
@@ -72,7 +72,7 @@ Dans un nouvel emplacement, planifié ou en pause, procédez comme suit :
 
       1. Sélectionnez le type d’identifiant universel à cibler.
 
-         Le paramètre inclut les options « [!UICONTROL Legacy IDs] » et « [!UICONTROL Universal ID] », qui peuvent inclure les sous-options « [!UICONTROL ID5] », « [!UICONTROL RampID] » et « [!UICONTROL Unified ID2.0] ». Les cibles géographiques sélectionnées déterminent les sous-options disponibles.
+         Le paramètre inclut les options « [!UICONTROL Legacy IDs] » et « [!UICONTROL Universal ID] », qui peuvent inclure les sous-options « [!UICONTROL AdFixus] », « [!UICONTROL ID5] », « [!UICONTROL RampID] » et « [!UICONTROL Unified ID2.0] ». Les cibles géographiques sélectionnées déterminent les sous-options disponibles.
 
          Vous pouvez sélectionner « [!UICONTROL Legacy IDs] » et « [!UICONTROL Universal ID] », mais vous ne pouvez sélectionner qu’un seul type d’ID universel par emplacement. Lorsque vous sélectionnez à la fois des identifiants hérités et universels, la préférence d’enchères est donnée aux identifiants universels.
 
@@ -82,7 +82,7 @@ Dans un nouvel emplacement, planifié ou en pause, procédez comme suit :
 
 Voir « [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md) ».
 
-## Bonnes pratiques de test et de validation des données
+## Bonnes pratiques de test et de validation des données pour les segments basés sur [!DNL RampID] et les segments basés sur ID5
 
 Utilisez les bonnes pratiques suivantes pour les segments basés sur [!DNL RampID] et les segments basés sur ID5, pour lesquels la mesure Adobe Analytics est disponible.
 
@@ -140,13 +140,15 @@ Si vous ne voyez pas de nombre d’utilisateurs ou d’utilisatrices, ou si la t
 
 * Si vous utilisez des annonces [!DNL Flashtalking] ou [!DNL Google Campaign Manager 360], assurez-vous que les URL de clics publicitaires de vos annonces sont accompagnées des macros appropriées. Voir les macros pour [[!DNL Flashtalking] annonces](/help/integrations/analytics/macros-flashtalking.md) et [[!DNL Google Campaign Manager 360] annonces](/help/integrations/analytics/macros-google-campaign-manager.md).
 
-* Assurez-vous que le code correct et universel spécifique au partenaire d’ID est implémenté sur votre site web pour correspondre aux événements sur site et aux expositions publicitaires. Collaborez avec votre [!DNL LiveRamp] ou représentant [!DNL ID5], au besoin.
+* (Pour les identifiants [!DNL RampIDs] et [!DNL UID 2.0]) Assurez-vous que le code correct et universel spécifique au partenaire ID est implémenté sur votre site web pour correspondre aux événements sur site et aux expositions publicitaires. Collaborez avec votre [!DNL LiveRamp] ou représentant [!DNL ID5], au besoin.
 
 * (Pour les identifiants [!DNL RampIDs] et [!DNL UID 2.0]) Assurez-vous que la source de données [DSP est correctement configurée](/help/dsp/audiences/sources/source-manage.md#source-settings) et que le nombre d’utilisateurs est renseigné pour les segments d’audience générés.
 
+* (Pour les identifiants de [!DNL AdFixus]) Vérifiez que la source de [!UICONTROL AdFixus ID] est correctement configurée et qu’[!DNL AdFixus] s’agit de segments en flux continu.
+
 * Si votre portée est inférieure à ce que vous attendiez, vérifiez que la logique du segment d’audience n’est pas trop granulaire.
 
-* Assurez-vous que les paramètres de votre campagne, de votre package et de votre emplacement sont corrects.<!-- wording-->
+* Vérifiez que les paramètres de votre campagne, de votre package et de votre emplacement sont corrects.
 
 Si vous ne parvenez pas à résoudre le problème, contactez l’équipe chargée de votre compte Adobe.
 
@@ -156,5 +158,6 @@ Si vous ne parvenez pas à résoudre le problème, contactez l’équipe chargé
 >* [Gérer les sources d’audience pour activer les audiences d’ID universel](/help/dsp/audiences/sources/source-manage.md)
 >* [Créer et implémenter un segment personnalisé](/help/dsp/audiences/custom-segment-create.md)
 >* [Importer manuellement des segments authentifiés depuis  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Importer des segments propriétaires depuis [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)
 >* [À propos de la gestion des audiences](/help/dsp/audiences/audience-about.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

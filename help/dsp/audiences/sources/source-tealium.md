@@ -15,16 +15,14 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: 1118
 ht-degree: 0%
 
 ---
 
 # Convertir les ID utilisateur de [!DNL Tealium] en ID universels
-
-*Fonction*
 
 Utilisez l’intégration de DSP à la plateforme de données clients [!DNL Tealium] pour convertir les adresses e-mail hachées propriétaires de votre organisation en identifiants universels pour la publicité ciblée. Le processus utilise le connecteur de tuyau d’incendie [!DNL Amazon Web Services] (AWS). Pour partager des données de Tealium avec DSP, procédez comme suit :
 

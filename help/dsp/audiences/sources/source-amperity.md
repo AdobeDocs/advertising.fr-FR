@@ -15,16 +15,14 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 697
+source-wordcount: 706
 ht-degree: 0%
 
 ---
 
 # Convertir les ID utilisateur de [!DNL Amperity] en ID universels
-
-*Fonction*
 
 Utilisez l’intégration de DSP à la plateforme de données clients [!DNL Amperity] pour convertir les adresses e-mail hachées propriétaires de votre organisation en identifiants universels pour la publicité ciblée.
 

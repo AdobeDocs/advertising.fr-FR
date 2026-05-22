@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0bc24ca7b64ff9cb6da4922076e8999a3816cbf5
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 700
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 >Pour suivre les ID des utilisateurs à partir des demandes d’opposition à la vente des consommateurs sur votre site web, conformément à la Loi sur la protection de la vie privée des consommateurs de Californie (CCPA), créez un [segment d’opposition à la vente de la CCPA](ccpa-opt-out-segment-create.md).
 
 ## Conditions préalables pour que les segments effectuent le suivi des ID5
-
-*Fonction*
 
 * Avant de générer un segment pour suivre les utilisateurs associés aux ID5, signez un accord avec [!DNL ID5] et obtenez l’ID de partenaire de votre organisation. Pour obtenir des instructions, contactez l’équipe chargée de votre compte Adobe.
 
@@ -77,9 +75,11 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
    1. Cliquez sur **[!UICONTROL Advanced]** pour développer les paramètres avancés, puis sélectionnez les types d’identifiants d’utilisateur suivis par la balise de segment :
 
-      * *[!UICONTROL Cookies]:* (valeur par défaut) La balise de segment effectue le suivi des cookies.
+      * [!UICONTROL Legacy]:
 
-      * [!UICONTROL Universal IDs (Beta)] :
+         * *[!UICONTROL Cookies]:* (valeur par défaut) La balise de segment effectue le suivi des cookies.
+
+      * [!UICONTROL Universal IDs]:
 
          * *[!UICONTROL ID5]:* La balise de segment effectue le suivi des identifiants de [!DNL ID5]. Aucun frais n’est encouru pour les impressions diffusées aux identifiants universels.
 
