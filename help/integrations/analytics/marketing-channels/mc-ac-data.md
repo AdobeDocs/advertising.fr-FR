@@ -4,10 +4,15 @@ description: Découvrez comment utiliser les données Adobe Advertising dans  [!
 feature: Integration with Adobe Analytics
 exl-id: 522c7f01-1138-477d-8018-36030caab55e
 TQID: https://experienceleague.adobe.com/VQMlRz2xtbbr6Nns5EZOh9zUUKIifKy-DGN-9JateJs
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 727
@@ -45,7 +50,7 @@ L’analyse suivante utilise les données Adobe Advertising pour montrer différ
 
 Vous pouvez pousser cette analyse un peu plus loin. Vous pouvez ventiler davantage la ligne Adobe Advertising par canal marketing pour voir où les conversions Adobe Advertising sont attribuées aux démarrages d’applications 641. Vous savez déjà que cinq de ces conversions sont attribuées à un dernier clic d’affichage tactile et 19 à un dernier clic d’affichage tactile. Il reste encore 617 démarrages d’applications attribués à d’autres canaux marketing. Vous pouvez faire glisser et déposer la dimension Canal Dernière touche en haut de l’élément de ligne Advertising DSP afin d’afficher l’attribution du canal pour le reste des démarrages d’applications et montrer l’impact cross-canal du canal d’affichage.
 
-![comment ajouter la dimension Canal Dernière touche ](/help/integrations/assets/a4adc-mc-display-impact-ltc.png)
+![comment ajouter la dimension Canal Dernière touche &#x200B;](/help/integrations/assets/a4adc-mc-display-impact-ltc.png)
 
 Maintenant, vous pouvez voir comment les démarrages d&#39;applications restants sont attribués. L’e-mail est crédité de 357 démarrages d’applications Last Touch pour lesquels un AMO ID a persisté. Grâce à ce type d’analyse, vous pouvez voir l’impact des publicités display d’Adobe Advertising sur tous les canaux. Avec un seul jeu de données et modèle d’attribution, ce type d’insight ne serait pas disponible.
 
