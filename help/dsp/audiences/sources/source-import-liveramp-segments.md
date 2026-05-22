@@ -52,6 +52,6 @@ Is this first step relevant for this process?
 >
 >* [À propos des sources d’audience propriétaires](source-about.md)
 >* [Gérer les sources d’audience pour activer les audiences d’ID universel](source-manage.md)
->* [Connexion &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Connexion &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=fr)
 >* [À propos de la gestion des audiences](/help/dsp/audiences/audience-about.md)
 >* [Importer des segments propriétaires depuis [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)
