@@ -4,27 +4,19 @@ description: Découvrez comment activer DSP pour ingérer vos segments  [!DNL Te
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
 TQID: https://experienceleague.adobe.com/X8mcqFiON6JMoB5KdS5Z0GVLYp-htw2ddCtmuZFflqo
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: 1118
 ht-degree: 0%
 
 ---
 
 # Convertir les ID utilisateur de [!DNL Tealium] en ID universels
-
-*Fonction*
 
 Utilisez l’intégration de DSP à la plateforme de données clients [!DNL Tealium] pour convertir les adresses e-mail hachées propriétaires de votre organisation en identifiants universels pour la publicité ciblée. Le processus utilise le connecteur de tuyau d’incendie [!DNL Amazon Web Services] (AWS). Pour partager des données de Tealium avec DSP, procédez comme suit :
 
