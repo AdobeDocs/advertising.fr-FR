@@ -4,16 +4,12 @@ description: Voir les définitions des termes clés.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
 TQID: https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 2342
+source-wordcount: 2408
 ht-degree: 0%
 
 ---
@@ -26,7 +22,7 @@ ht-degree: 0%
 
 **variation publicitaire :** toute publicité au sein d’un groupe publicitaire ou d’une stratégie publicitaire.
 
-**[AMO ID](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id) :** code de suivi qui permet à Adobe Advertising de partager des données sur les campagnes avec Adobe Analytics et Adobe Customer Journey Analytics. Cela commence par la `s_kwcid=`.
+**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id) :** code de suivi qui permet à Adobe Advertising de partager des données sur les campagnes avec Adobe Analytics et Adobe Customer Journey Analytics. Cela commence par la `s_kwcid=`.
 
 **unité d’enchère :** terme Search, Social et Commerce désignant l’unité sur laquelle les enchères sont placées.
 
@@ -96,7 +92,7 @@ ht-degree: 0%
 
 **eCPM:** CPM effective ou coût moyen payé pour 1 000 impressions au cours d’une période spécifiée. Les valeurs eCPM peuvent être calculées pour des campagnes CPM ou CPC.
 
-**[EF ID](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-ef-id) :** code de suivi qui permet à Adobe Advertising d’associer l’activité à une exposition de publicité ou de clic en ligne et de partager des données sur les campagnes avec Adobe Analytics et Adobe Customer Journey Analytics.
+**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id) :** code de suivi qui permet à Adobe Advertising d’associer l’activité à une exposition de publicité ou de clic en ligne et de partager des données sur les campagnes avec Adobe Analytics et Adobe Customer Journey Analytics.
 
 ## G-H {#g-h}
 
