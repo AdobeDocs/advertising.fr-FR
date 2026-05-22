@@ -16,7 +16,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 1170
+source-wordcount: 1186
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Pour des rapports avancés sur la portée et la fréquence des conversions à do
 
 Les rapports [!UICONTROL Household Reach & Frequency] et [!UICONTROL Household Conversions] permettent aux clients d’extraire respectivement de manière autonome en temps réel les mesures de portée, de fréquence et de conversion au niveau du foyer.
 
-#### Puis-je utiliser les rapports et [!UICONTROL Household Reach & Frequency] [!UICONTROL Household Conversions] et [!DNL Advanced Measurement Services] ?
+#### Puis-je utiliser les rapports et [!DNL Advanced Measurement Services] [!UICONTROL Household Reach & Frequency] et [!UICONTROL Household Conversions] ?
 
 Le cas d’utilisation idéal consiste à utiliser à la fois le rapport [!UICONTROL Household] et les services de reporting et de conseil [!DNL Advanced Measurement Services]. Considérez le rapport [!UICONTROL Household] comme transactionnel, destiné à éclairer les optimisations quotidiennes. Il s’[!DNL Advanced Measurement Services] comme plus stratégique, destiné à informer des apprentissages et des points à retenir holistiques liés à des objectifs commerciaux globaux.
 

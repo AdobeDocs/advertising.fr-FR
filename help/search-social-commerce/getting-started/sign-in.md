@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Search, Social et Commerce passent au service Adobe Identity Management (IMS) pour l’authentification de la connexion. IMS fournit un accès SSO (authentification unique) à l’aide de Federated ID à tous les produits [!DNL Adobe] qui prennent en charge IMS, notamment Real-Time Customer Data Platform, Customer Journey Analytics, Target et Analytics. Avec la modification :
 
-* Vous pouvez utiliser une [!DNL Adobe ID] pour vous connecter à [!DNL Adobe] produits à partir de la page de connexion de CX Enterprise ou de la page de connexion héritée de Search, Social et Commerce. Votre [!DNL Adobe ID] permet de gérer les profils utilisateur et de basculer vers un autre produit [!DNL Adobe] à partir du menu supérieur. Dans une version ultérieure, vous pourrez modifier le compte Search, Social et Commerce ainsi que le compte d’organisation IMS à partir du menu supérieur.
+* Vous pouvez utiliser une [!DNL Adobe ID] pour vous connecter à [!DNL Adobe] produits à partir de la page de connexion CX Enterprise ou de la page de connexion héritée Search, Social et Commerce. Votre [!DNL Adobe ID] permet de gérer les profils utilisateur et de basculer vers un autre produit [!DNL Adobe] à partir du menu supérieur. Dans une version ultérieure, vous pourrez modifier le compte Search, Social et Commerce ainsi que le compte d’organisation IMS à partir du menu supérieur.
 
 * L’authentification d’entreprise est prise en charge.
 
@@ -29,7 +29,7 @@ Search, Social et Commerce passent au service Adobe Identity Management (IMS) po
 
 Vos informations d’identification Search, Social et Commerce actuelles resteront actives pendant une courte période afin que vous puissiez vous préparer au changement.
 
-Pour plus d’informations sur l’interface de CX Enterprise, notamment sur la gestion de votre profil utilisateur, voir « Interface et administration de [CX Enterprise &#x200B;](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud) ».
+Pour plus d’informations sur l’interface CX Enterprise, notamment sur la gestion de votre profil utilisateur, reportez-vous à « [CX Enterprise interface and administration](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud) ».
 
 ## Connectez-vous à partir de la page de connexion héritée Search, Social et Commerce
 
@@ -53,7 +53,7 @@ Cette option est disponible pendant une courte période afin que vous puissiez v
 
 1. Si vous avez accès à plusieurs organisations IMS, sélectionnez l’organisation appropriée dans le coin supérieur droit de la page.
 
-## Se connecter à partir de Adobe CX Enterprise à l’aide d’un [!DNL Adobe ID]
+## Connectez-vous à partir d’Adobe CX Enterprise à l’aide d’un [!DNL Adobe ID]
 
 <!-- Later, give them the new direct URL(s) to our UI so they don't have to select the product. -->
 

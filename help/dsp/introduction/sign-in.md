@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Adobe Advertising DSP effectue une transition vers Adobe Identity Management Service (IMS) pour l’authentification de la connexion. IMS fournit un accès SSO (authentification unique) à l’aide de Federated ID à tous les produits [!DNL Adobe] qui prennent en charge IMS, notamment Real-Time Customer Data Platform, Customer Journey Analytics, [!DNL Target] et [!DNL Analytics]. Avec la modification :
 
-* Vous pouvez utiliser une [!DNL Adobe ID] pour vous connecter à [!DNL Adobe] produits à partir de la page de connexion de Adobe CX Enterprise (anciennement Adobe Experience Cloud) ou de la page de connexion de DSP héritée. Votre [!DNL Adobe ID] permet de gérer les profils utilisateur. Dans une version ultérieure, vous pourrez modifier le compte DSP, le compte d’organisation IMS et [!DNL Adobe] produit à partir du menu supérieur.
+* Vous pouvez utiliser une [!DNL Adobe ID] pour vous connecter à [!DNL Adobe] produits à partir de la page de connexion à Adobe CX Enterprise (anciennement Adobe Experience Cloud) ou de la page de connexion DSP héritée. Votre [!DNL Adobe ID] permet de gérer les profils utilisateur. Dans une version ultérieure, vous pourrez modifier le compte DSP, le compte d’organisation IMS et [!DNL Adobe] produit à partir du menu supérieur.
 
 * L’authentification d’entreprise est prise en charge.
 
@@ -56,7 +56,7 @@ Vos informations d’identification DSP actuelles resteront actives pendant une 
 
    * Si vous avez accès à plusieurs organisations IMS, sélectionnez celle qui convient.
 
-Pour plus d’informations sur l’interface de CX Enterprise, notamment sur la gestion de votre profil utilisateur, voir « Interface et administration de [CX Enterprise &#x200B;](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud) ».
+Pour plus d’informations sur l’interface CX Enterprise, notamment sur la gestion de votre profil utilisateur, reportez-vous à « [CX Enterprise interface and administration](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud) ».
 
 ### Dépannage
 

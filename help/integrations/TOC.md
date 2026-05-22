@@ -1,7 +1,7 @@
 ---
-user-guide-title: Intégrations à Adobe CX Enterprise
-user-guide-description: Découvrez les intégrations d’Advertising DSP et Advertising Search à d’autres produits et services Adobe CX Enterprise (anciennement Adobe Experience Cloud).
-breadcrumb-title: Intégrations à CX Enterprise
+user-guide-title: Intégrations avec Adobe CX Enterprise
+user-guide-description: Découvrez les intégrations d’Advertising DSP et d’Advertising Search à d’autres produits et services Adobe CX Enterprise (anciennement Adobe Experience Cloud).
+breadcrumb-title: Intégrations avec CX Enterprise
 role: User, Developer
 index: true
 source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
@@ -12,7 +12,7 @@ ht-degree: 1%
 ---
 
 
-# Intégrations d’Adobe Advertising à Adobe CX Enterprise {#integrations}
+# Intégrations Adobe Advertising avec Adobe CX Enterprise {#integrations}
 
 + [Nouveautés](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
@@ -35,7 +35,7 @@ ht-degree: 1%
       + [Utilisation des Adobe Advertising ID pour la création [!DNL Marketing Channels] le traitement des règles](/help/integrations/analytics/marketing-channels/mc-ids.md)
       + [Utilisation  [!DNL Marketing Channels]  données Adobe Advertising](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
       + [Pourquoi les données de canal peuvent-elles varier entre Adobe Advertising et  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
-   + [Création de mesures de conversion à partir d’Adobe Analytics [!DNL eVars] et [!DNL props]](/help/integrations/analytics/conversion-metrics-from-evars.md)
+   + [Création de mesures de conversion à partir d’ [!DNL eVars] et [!DNL props]](/help/integrations/analytics/conversion-metrics-from-evars.md)
 + Intégration à Adobe Audience Manager {#audience-manager}
    + [Intégrations d’Adobe Advertising à Adobe Audience Manager](/help/integrations/audience-manager/overview.md)
    + [Importer des segments Audience Manager dans Adobe Advertising](/help/integrations/audience-manager/import-audiences.md)
