@@ -1,15 +1,15 @@
 ---
-title: À propos de la prise en charge des recommandations et informations de l’éditeur
+title: Prise en charge des recommandations et informations de l’éditeur
 description: Découvrez la prise en charge de l’affichage et de la gestion des recommandations et des informations de l’éditeur.
 feature: Search Recommendations
-source-git-commit: cfd8790d6b8384509a77103b8082ed033106431a
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
 
-# À propos de la prise en charge des recommandations et informations de l’éditeur
+# Prise en charge des recommandations et informations de l’éditeur
 
 *[!DNL Google Ads]et [!DNL Microsoft Advertising] comptes*
 

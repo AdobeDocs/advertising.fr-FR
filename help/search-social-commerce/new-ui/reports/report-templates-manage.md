@@ -2,9 +2,9 @@
 title: (Nouvelle interface utilisateur) Gestion des modèles de rapport
 description: Découvrez comment créer, afficher, modifier et supprimer des modèles de rapport réutilisables pour les rapports planifiés et à la demande.
 feature: Search Reports
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -31,27 +31,29 @@ Vous pouvez gérer jusqu’à 100 modèles à la fois.
 
 1. Effectuez l’une des opérations suivantes :
 
-* Pour créer entièrement un modèle à partir de l’onglet [!UICONTROL Latest Reports] ou de l’onglet [!UICONTROL Templates], créez un rapport en activant le paramètre **[!UICONTROL Save as Template]** .
+   * Pour créer entièrement un modèle à partir de l’onglet [!UICONTROL Latest Reports] ou de l’onglet [!UICONTROL Templates], créez un rapport en activant le paramètre **[!UICONTROL Save as Template]** .
 
-* Pour créer un modèle basé sur un modèle existant, procédez comme suit :
+   * Pour créer un modèle basé sur un modèle existant, procédez comme suit :
 
-   1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
+      1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
 
-   1. Cochez la case en regard du modèle existant.
+      1. Effectuez l’une des opérations suivantes :
 
-   1. Dans la barre d’outils des actions en bloc, cliquez sur [Dupliquer](/help/search-social-commerce/assets/duplicate.png).
+         * Placez le curseur sur la ligne de modèle, puis cliquez sur **...** > **[!UICONTROL Duplicate]**.
 
-   1. (Facultatif) Renommez le modèle et modifiez les paramètres du rapport si nécessaire.
+         * Cochez la case en regard du modèle existant. Dans la barre d’outils des actions en bloc, cliquez sur [Dupliquer](/help/search-social-commerce/assets/duplicate.png).
 
-      Cliquez sur **[!UICONTROL Next]** pour vous déplacer entre les sections de paramètre.
+      1. (Facultatif) Renommez le modèle et modifiez les paramètres du rapport si nécessaire.
 
-   1. Activez le paramètre **[!UICONTROL Save as Template]** .
+         Cliquez sur **[!UICONTROL Next]** pour vous déplacer entre les sections de paramètre.
 
-   1. Cliquez sur **[!UICONTROL Create]**.
+1. Activez le paramètre **[!UICONTROL Save as Template]** .
+
+1. Cliquez sur **[!UICONTROL Create]**.
 
 <!--
 
-Not available to anyone as of 5/21:
+Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 ## Edit a report template {#template-edit}
 
@@ -75,7 +77,7 @@ You can change the settings for any report template you created. The new setting
 
 <!--
 
-Not available to anyone as of 5/21:
+Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 ## View a report template {#template-view}
 
