@@ -2,7 +2,7 @@
 title: (Nouvelle interface utilisateur) Gestion  [!DNL Google Ads]  règles de valeur de conversion
 description: Découvrez comment afficher et gérer les règles  [!DNL Google Ads]  valeur de conversion dans Search, Social et Commerce.
 feature: Conversions
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 0%
