@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising Search, Social et Commerce
 user-guide-description: Ce guide décrit les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires liées aux moteurs de recherche, aux réseaux sociaux et au commerce.
 breadcrumb-title: Guide d’Advertising Search, Social et Commerce
 index: true
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2302'
 ht-degree: 2%
 
 ---
@@ -190,7 +190,7 @@ Assister les formats de rapport {#assist-report-formats}
          + [Méthode de calcul des règles d’attribution](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
          + [Questions fréquentes sur les rapports personnalisés](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
       + [Gérer les flux de rapports de feuille de calcul](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
-      + [Afficher le rapport [!UICONTROL History Logs]](/help/search-social-commerce/new-ui/reports/history-logs.md)
+      + [Afficher les journaux de l’historique des modifications](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [Gérer les classifications de libellés](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
       + Mots-clés {#keywords}
@@ -208,6 +208,7 @@ Assister les formats de rapport {#assist-report-formats}
          + Comptes de chargement de données {#data-upload}
             + [Gestion des comptes réseau pour les chargements de données](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [Gestion  [!DNL Naver]  comptes pour le suivi uniquement](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+   + [Gestion des alertes personnalisées](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [Administration des utilisateurs](/help/search-social-commerce/new-ui/user-administration.md)
 + Tracking {#tracking}
    + [À propos du tracking](/help/search-social-commerce/tracking/tracking-about.md)
