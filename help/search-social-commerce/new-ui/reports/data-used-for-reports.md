@@ -2,8 +2,15 @@
 title: (Nouvelle interface utilisateur) Données utilisées pour les rapports
 description: Découvrez les différents types de données disponibles dans les vues de données et les rapports personnalisés.
 feature: Search Reports
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: ff99aaef-142d-4c93-a88c-011e979e3843id: c916feea-e212-4773-b673-4daed287b8a3id: adcb1be7-7ed0-464d-a8d4-c905c9d47742id: fa0141e5-dc99-4fbd-9c0e-40aff66de606id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664id: e246c273-d720-4ece-b29b-7aaba7d50169
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: ff99aaef-142d-4c93-a88c-011e979e3843
+  - id: c916feea-e212-4773-b673-4daed287b8a3
+  - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+  - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+  - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
+  - id: e246c273-d720-4ece-b29b-7aaba7d50169
 source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
 workflow-type: tm+mt
 source-wordcount: 604
@@ -35,7 +42,7 @@ La plupart des rapports peuvent être personnalisés pour afficher uniquement le
 
 * **Mesures de conversion :** nombre total de conversions pour chacune des mesures de conversion de l’annonceur ou des données de transaction suivies vers une mesure de conversion. Il peut s’agir de mesures d’engagement du site et de conversion, mais pas de mesures calculées ni de mesures calculées avancées, synchronisées à partir d’Adobe Analytics.
 
-  Cela peut également inclure les conversions suivies par [[!DNL Google Ads] et ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) conversions suivies par [[!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) qui sont synchronisées pour le compte de l’annonceur.
+  Cela peut également inclure les conversions suivies par [[!DNL Google Ads] et &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) conversions suivies par [[!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) qui sont synchronisées pour le compte de l’annonceur.
 
 * **Mesures personnalisées :** vos propres mesures, que vous obtenez en créant des formules basées sur des mesures existantes (telles que le coût par commande).
 
@@ -62,5 +69,5 @@ Selon la règle d’attribution que vous spécifiez pour le rapport, les donnée
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports ](report-about.md)
+>* [À propos des rapports &#x200B;](report-about.md)
 >* [Tâches de configuration initiales pour les rapports](initial-setup.md)
