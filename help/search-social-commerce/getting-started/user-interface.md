@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: 1499
+source-wordcount: 1506
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ La nouvelle interface utilisateur affiche un nouveau menu principal à gauche, q
 
    * **[!UICONTROL Objectives]** Ouvre une nouvelle vue [!UICONTROL Objectives] à partir de laquelle vous pouvez afficher tous vos objectifs existants et créer, modifier et supprimer des objectifs.
 
-<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
+   * **[!UICONTROL Conversions]** Ouvre une nouvelle vue dans laquelle vous pouvez afficher les mesures de conversion d’un annonceur et personnaliser les mesures disponibles pour les vues et les rapports de gestion.
 
-* **[!UICONTROL Conversion Value Rules]** Ouvre les vues en lecture seule de vos règles de valeur de conversion au niveau de la campagne et au niveau du compte. Pour gérer vos règles de valeur de conversion, utilisez la vue héritée [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Conversion Value Rules]** Ouvre une nouvelle vue pour afficher et gérer les règles de valeur de conversion au niveau de la campagne et au niveau du compte pour les comptes [!DNL Google Ads].
 
-* **[!UICONTROL Constraints]** Ouvre une vue en lecture seule de vos contraintes existantes. Pour gérer vos contraintes, utilisez la vue héritée [!UICONTROL Optimization] > [!UICONTROL Constraints] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Constraints]** Ouvre une vue en lecture seule de vos contraintes existantes. Pour gérer vos contraintes, utilisez la vue héritée [!UICONTROL Optimization] > [!UICONTROL Constraints] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Plan]** le sous-menu :
 

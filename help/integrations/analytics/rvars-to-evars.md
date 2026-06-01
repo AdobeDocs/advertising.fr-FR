@@ -13,7 +13,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
 workflow-type: tm+mt
 source-wordcount: 700
 ht-degree: 0%
@@ -68,7 +68,7 @@ Cette étape est manuelle et doit être effectuée pour chaque suite de rapports
          1. Sélectionnez **Paramètre de chaîne de requête**.
          1. Saisissez `s_kwcid`.
 
-        Exemple : ```Overwrite the value of rVar10 with Query String Parameter s_kwcid```
+        Exemple : `Overwrite the value of rVar10 with Query String Parameter s_kwcid`
 
       * Pour le `EF ID` :
 

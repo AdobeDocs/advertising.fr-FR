@@ -1,15 +1,15 @@
 ---
-title: Fonctionnalités disponibles pour la gestion des mesures de conversion
+title: (Nouvelle interface utilisateur) Fonctionnalités disponibles pour la gestion des mesures de conversion
 description: Découvrez les différentes fonctionnalités disponibles pour gérer les mesures de conversion.
 feature: Conversions
-source-git-commit: bb3490852f03ce13dc8572297be1dd1d256043a1
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-# Fonctionnalités disponibles pour la gestion des mesures de conversion
+# (Nouvelle interface utilisateur) Fonctionnalités disponibles pour la gestion des mesures de conversion
 
 Dans la vue [!UICONTROL Goals] > [!UICONTROL Conversions] , vous pouvez effectuer les opérations suivantes :
 

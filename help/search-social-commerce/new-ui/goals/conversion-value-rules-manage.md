@@ -2,9 +2,14 @@
 title: (Nouvelle interface utilisateur) Gestion  [!DNL Google Ads]  règles de valeur de conversion
 description: Découvrez comment afficher et gérer les règles  [!DNL Google Ads]  valeur de conversion dans Search, Social et Commerce.
 feature: Conversions
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
+source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: 1844
 ht-degree: 0%
 
 ---
@@ -25,7 +30,7 @@ Certains comptes peuvent gérer leurs règles de valeur de conversion :
 
 * Dans les comptes pour lesquels les conversions sont suivies au niveau du compte individuel ou de la campagne, vous pouvez [créer](#google-conversion-value-rule-create), [modifier](#google-conversion-value-rule-edit) et [modifier le statut](#google-conversion-value-rule-change-status) de vos règles au niveau du compte et de la campagne.
 
-  Les comptes peuvent être liés aux comptes [!DNL Google Ads] Manager, mais ils ne peuvent pas utiliser le suivi des conversions entre comptes (pour lequel les conversions sont suivies sur tous les comptes du compte Manager).
+  Les comptes peuvent être liés aux [[!DNL Google Ads] comptes du responsable](/help/search-social-commerce/new-ui/), mais ils ne peuvent pas utiliser le suivi des conversions entre comptes (pour lequel les conversions sont suivies sur tous les comptes du compte du responsable).
 
 * Dans les comptes qui utilisent le suivi des conversions entre comptes, vos règles au niveau du compte et de la campagne sont héritées du compte du responsable et sont en lecture seule.
 
