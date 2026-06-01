@@ -27,4 +27,4 @@ Dans la vue [!UICONTROL Goals] > [!UICONTROL Conversions] , vous pouvez effectue
 
 * Créez des actions de conversion pour [!DNL Google Ads] les conversions améliorées des prospects à suivre pour les comptes de [!DNL Google Ads] individuels.
 
-* Chargez des données de conversion propriétaires hors ligne pour les mapper à vos [[!DNL Google Ads]  conversions améliorées existantes pour les prospects ](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) et [[!DNL Microsoft Advertising]  conversions améliorées ](https://help.ads.microsoft.com/#apex/ads/en/60178).
+* Chargez des données de conversion propriétaires hors ligne pour les mapper à vos [[!DNL Google Ads]  conversions améliorées existantes pour les prospects &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) et [[!DNL Microsoft Advertising]  conversions améliorées &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178).
