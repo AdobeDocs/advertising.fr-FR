@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
 workflow-type: tm+mt
-source-wordcount: 2329
+source-wordcount: 2309
 ht-degree: 2%
 
 ---
@@ -79,6 +79,7 @@ ht-degree: 2%
    + [À propos de la nouvelle interface utilisateur](/help/search-social-commerce/new-ui/new-ui-about.md)
    + Tableau de bord {#dashboard}
       + [Affichage de votre tableau de bord des performances](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
+      + [Prise en charge des recommandations et informations de l’éditeur](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
    + Objectifs {#goals}
       + Objectifs {#objectives}
          + [À propos des objectifs](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
@@ -133,8 +134,9 @@ ht-degree: 2%
          + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Rapports {#reports}
       + Rapports planifiés {#scheduled}
-         + [Tâches de configuration initiales pour les rapports](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
-         + [Données utilisées pour les rapports](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
+         + [À propos des rapports planifiés](/help/search-social-commerce/new-ui/reports/report-about.md)
+         + [Tâches de configuration initiales pour les rapports](/help/search-social-commerce/new-ui/reports/initial-setup.md)
+         + [Données utilisées pour les rapports](/help/search-social-commerce/new-ui/reports/data-used-for-reports.md)
          + [Gestion des rapports planifiés](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
          + Types de rapports planifiés {#report-types}
             + Rapports de base et avancés {#basic-advanced-reports}

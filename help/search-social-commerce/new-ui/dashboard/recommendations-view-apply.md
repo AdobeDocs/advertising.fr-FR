@@ -2,7 +2,7 @@
 title: Prise en charge des recommandations et informations de l’éditeur
 description: Découvrez la prise en charge de l’affichage et de la gestion des recommandations et des informations de l’éditeur.
 feature: Search Recommendations
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 1328e52509e4111bc0e58412ebf3c3b2de0cb291
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 0%
@@ -237,14 +237,3 @@ Les recommandations ignorées ne sont pas disponibles sur le réseau publicitair
 | [!UICONTROL Measurement] | Recommandations pour le suivi et la certification des conversions | Non disponible dans Search, Social et Commerce. | Ces recommandations peuvent avoir un impact sur les performances. Consultez l’équipe chargée de votre compte Adobe pour discuter des avantages et des inconvénients de toute recommandation avant de l’appliquer. |
 | [!UICONTROL Repairs] | Recommandations diverses pour améliorer les problèmes de compte | Non disponible dans Search, Social et Commerce. | Consultez régulièrement manuellement les recommandations de réparation dans [!DNL Google Ads]. Ce type de recommandation est un bon moyen d’identifier les publicités désapprouvées, les problèmes de flux, les problèmes de tracking, etc. |
 | [!UICONTROL Other] | Recommandations d’utilisation de l’application mobile [!DNL Google Ads] | Non disponible dans Search, Social et Commerce. | — |
-
-<!--
-
->[!MORELIKETHIS]
->
->* [View your publisher recommendations and performance insights](recommendation-view.md)
->* [Apply or dismiss a publisher recommendation](recommendation-apply-dismiss.md)
->* [View the publisher recommendations log for an account](recommendation-view-log.md)
->* [Best practices for using publisher recommendations with portfolios](recommendation-best-practices.md)
-
--->
