@@ -3,21 +3,20 @@ title: (Nouvelle interface utilisateur) Administration des utilisateurs
 description: Découvrez comment gérer l’accès des utilisateurs et utilisatrices.
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
-TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
+TQID: https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo
 product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
 workflow-type: tm+mt
-source-wordcount: 1082
+source-wordcount: 1045
 ht-degree: 0%
 
 ---
 
 # (Nouvelle interface utilisateur) Administration des utilisateurs pour Search, Social et Commerce
 
-Certains utilisateurs peuvent gérer l’accès à la nouvelle interface utilisateur de Search, Social et Commerce à l’aide de [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html), qui est l’emplacement central de la gestion de tous les droits Adobe et de la gestion des utilisateurs. Les utilisateurs sont classés en tant qu’utilisateurs finaux ou administrateurs. Si vous êtes administrateur, l’équipe chargée de votre compte Adobe vous en informe. Si vous êtes administrateur, reportez-vous aux sections suivantes pour identifier vos autorisations et workflows de gestion des utilisateurs.
+Certains utilisateurs peuvent gérer l’accès à la nouvelle interface utilisateur de Search, Social et Commerce à l’aide de [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html), qui est l’emplacement central de la gestion de tous les droits Adobe et de la gestion des utilisateurs. Les utilisateurs sont classés en tant qu’utilisateurs finaux ou administrateurs. Si vous êtes administrateur, l’équipe chargée de votre compte Adobe vous avertira. Si vous êtes administrateur, reportez-vous aux sections suivantes pour identifier vos autorisations et workflows de gestion des utilisateurs.
 
 ## Types d’administrateurs
 
@@ -39,95 +38,53 @@ Les profils de produit, qui sont similaires aux rôles, permettent aux utilisate
 
 La nouvelle interface utilisateur de Search, Social &amp; Commerce comporte les profils de produit par défaut suivants, qui fournissent différents sous-ensembles de fonctionnalités et de services. Vous ne pouvez pas modifier les autorisations de produit pour les profils de produit par défaut ni supprimer les profils de produit par défaut. Cependant, les administrateurs de produit, les administrateurs de profil de produit et les administrateurs système peuvent créer et gérer des profils de produit supplémentaires avec différents sous-ensembles d’autorisations disponibles, si nécessaire.
 
-* **[!UICONTROL Basic Optimization]:** pour les utilisateurs qui ont besoin de fonctionnalités de gestion et de planification de portefeuille standard avec un accès aux paramètres de base.
+* **[!UICONTROL Basic Optimization]:** ce profil offre les fonctionnalités suivantes :
 
-* **[!UICONTROL Expert Optimization]:** pour les utilisateurs expérimentés qui ont besoin d’un accès à des paramètres de portfolio complets, y compris des contrôles avancés de niveau expert. Inclut toutes les autorisations de planification des performances, d’objectif, de campagne, de configuration et de gestion des rapports.
+   * [!UICONTROL Objectives] : accès complet
 
-* **[!UICONTROL Read-Only Optimization]:** pour les utilisateurs et utilisatrices qui ont besoin de visibilité sur les portfolios, les simulations et les campagnes sans aucune fonctionnalité de modification ou de création.
+   * [!UICONTROL Simulations] : accès complet
 
-* **[!UICONTROL \[Optimization\] Admin]:** accorde un accès complet à toutes les fonctionnalités disponibles et permet aux utilisateurs de créer de nouvelles instances clientes (identiques aux comptes publicitaires hérités, avec une ou plusieurs instances par ID d’organisation). N’attribuez ce droit à personne à moins d’avoir une justification commerciale adéquate.
+   * [!UICONTROL Portfolio Groups] : accès complet
 
-### Fonctionnalité par profil de produit
+   * [!UICONTROL Portfolios] : créer/modifier l’accès aux paramètres du portefeuille pour les [!UICONTROL Management] [!UICONTROL Objectives], [!UICONTROL Campaigns] et Dépenses ; accès en lecture seule aux paramètres restants du portefeuille.
 
-<!-- These don't correspond exactly to the GUI menu -->
+   * [!UICONTROL Campaigns] : accès en lecture seule aux paramètres de la campagne (aucune fonctionnalité de création, de modification ou de suppression n&#39;est disponible) ; accès complet aux affectations de contraintes et de portfolio
 
-Une coche (✓) indique que l’autorisation est incluse dans le profil de produit.
+   * [!UICONTROL Ad Groups] : accès en lecture seule aux paramètres du groupe publicitaire (aucune fonctionnalité de création, de modification ou de suppression n&#39;est disponible) ; accès complet aux affectations de contraintes et de portfolio
 
-**Gestion de**
+  Ce niveau d’accès est préférable pour les utilisateurs qui apprennent à utiliser Search, Social et Commerce.
 
-| Autorisation | De base | Expert | Lecture Seule | Admin |
-|---|---|---|---|---|
-| Afficher les portefeuilles | ✓ | ✓ | ✓ | ✓ |
-| Afficher les paramètres Portfolio | ✓ | ✓ | ✓ | ✓ |
-| Affichage des détails sur les performances de Portfolio | ✓ | ✓ | ✓ | ✓ |
-| Afficher les groupes Portfolio | ✓ | ✓ | ✓ | ✓ |
-| Modifier les groupes Portfolio | ✓ | ✓ | | ✓ |
-| Modifier les paramètres Portfolio de base | ✓ | | | |
-| Modifier les paramètres d’Expert Portfolio | | ✓ | | ✓ |
+* **[!UICONTROL Expert Optimization]:** ce profil offre les fonctionnalités suivantes :
 
-<!--
-Noone has permissions as of 6/1; spelling [sic]:
-| Edit Advance Portfolio Settings | | | | |
--->
+   * [!UICONTROL Objectives] : accès complet
 
-**Gestion de la planification des performances**
+   * [!UICONTROL Simulations] : accès complet
 
-| Autorisation | De base | Expert | Lecture Seule | Admin |
-|---|---|---|---|---|
-| Afficher la simulation | ✓ | ✓ | ✓ | ✓ |
-| Créer une simulation | ✓ | ✓ | | ✓ |
-| Afficher les recommandations de dépenses | | ✓ | | ✓ |
-| Appliquer les recommandations de dépenses | | ✓ | | ✓ |
+   * [!UICONTROL Portfolio Groups] : accès complet
 
-**Gestion des objectifs**
+   * [!UICONTROL Portfolios] : accès complet
 
-| Autorisation | De base | Expert | Lecture Seule | Admin |
-|---|---|---|---|---|
-| Afficher objectif | ✓ | ✓ | ✓ | ✓ |
-| Modifier l’objectif | ✓ | ✓ | | ✓ |
-| Afficher les règles de valeur de conversion | ✓ | ✓ | ✓ | ✓ |
-| Modifier les règles de valeur de conversion | | ✓ | | ✓ |
-| Afficher les conversions | | ✓ | | ✓ |
-| Modifier les conversions | | ✓ | | ✓ |
-| Afficher la visibilité des conversions | | ✓ | | ✓ |
+   * [!UICONTROL Campaigns] : accès en lecture seule à la liste des campagnes (aucune fonctionnalité de création, de modification ou de suppression de campagne n&#39;est encore disponible) ; accès complet aux affectations de contraintes et de portefeuilles
 
-**Gestion de campagne**
+   * [!UICONTROL Ad Groups] : accès en lecture seule à la liste des groupes publicitaires (aucune fonctionnalité de création, de modification ou de suppression de campagne n’est encore disponible) ; accès complet aux affectations de contraintes et de portefeuilles
 
-| Autorisation | De base | Expert | Lecture Seule | Admin |
-|---|---|---|---|---|
-| Afficher les campagnes | ✓ | ✓ | ✓ | ✓ |
-| Modifier les campagnes | ✓ | ✓ | | ✓ |
-| Afficher les groupes publicitaires | ✓ | ✓ | ✓ | ✓ |
-| Modifier les groupes publicitaires | ✓ | ✓ | | ✓ |
-| Vue Publicités | ✓ | ✓ | ✓ | ✓ |
-| Ads Edit | | ✓ | | ✓ |
-| Vue Mots-clés | ✓ | ✓ | ✓ | ✓ |
-| Vue Audiences | ✓ | ✓ | ✓ | ✓ |
-| Vue Cibles automatiques | ✓ | ✓ | ✓ | ✓ |
-| Vue Contenu créatif | ✓ | ✓ | ✓ | ✓ |
-| Vue Extensions | ✓ | ✓ | ✓ | ✓ |
-| Affichage des classifications de libellés | ✓ | ✓ | ✓ | ✓ |
-| Vue Emplacements | ✓ | ✓ | ✓ | ✓ |
-| Vue Recommendations | ✓ | ✓ | ✓ | ✓ |
-| Afficher les feuilles d’envoi groupé | | ✓ | | ✓ |
-| Modifier les feuilles d’envoi groupé | ✓ | ✓ | ✓ | ✓ |
+  Ce niveau d’accès est recommandé pour les utilisateurs experts de Search, Social et Commerce.
 
-**Gestion des rapports**
+* **[!UICONTROL Read-Only]:** ce profil offre les fonctionnalités suivantes :
 
-| Autorisation | De base | Expert | Lecture Seule | Admin |
-|---|---|---|---|---|
-| Afficher les journaux d’historique | ✓ | ✓ | ✓ | ✓ |
-| Afficher rapports planifiés | ✓ | ✓ | ✓ | ✓ |
-| Modifier rapports planifiés | | ✓ | | ✓ |
+   * [!UICONTROL Objectives] : accès en lecture seule
 
-**Gestion de la configuration**
+   * [!UICONTROL Simulations] : accès en lecture seule
 
-| Autorisation | De base | Expert | Lecture Seule | Admin |
-|---|---|---|---|---|
-| Afficher le compte | ✓ | ✓ | ✓ | ✓ |
-| Modifier le compte | | ✓ | | ✓ |
-| Affichage des comptes MCC | ✓ | ✓ | ✓ | ✓ |
-| Modifier les comptes MCC | | ✓ | | ✓ |
+   * [!UICONTROL Portfolio Groups] : accès en lecture seule
+
+   * [!UICONTROL Portfolios] : accès en lecture seule
+
+   * [!UICONTROL Campaigns] : accès en lecture seule
+
+   * [!UICONTROL Ad Groups] : accès en lecture seule
+
+* **[!UICONTROL Admin]:** ce profil accorde un accès complet à toutes les fonctionnalités disponibles et permet aux utilisateurs de créer de nouvelles instances client (le même que les comptes publicitaires hérités, avec une ou plusieurs instances par ID d’organisation). N’attribuez ce droit à personne à moins d’avoir une justification commerciale adéquate.
 
 ## Tâches pour les administrateurs
 
@@ -177,7 +134,7 @@ Suivez ce workflow pour chaque instance cliente de Search, Social et Commerce.
 
    >[!IMPORTANT]
    >
-   >Les noms des groupes d’utilisateurs doivent indiquer clairement les droits qui doivent être attribués à ces groupes. Par exemple, si vous souhaitez créer un groupe d’utilisateurs avec des droits « Lecture seule », incluez « Read Only » dans le nom du groupe d’utilisateurs, tel que « Acme_Uk_ReadOnly » ou « Acme_ReadOnly ».
+   >Les noms des groupes d’utilisateurs doivent indiquer clairement les droits qui doivent être attribués à ces groupes. Par exemple, si vous souhaitez créer un groupe d’utilisateurs avec des droits en « Lecture seule », incluez « Read Only » dans le nom du groupe d’utilisateurs, tel que « Acme_Uk_ReadOnly » ou « Acme_ReadOnly ».
 
 1. (Facultatif) [Créer des profils de produit personnalisés](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) avec des jeux d’autorisations définis.
 
