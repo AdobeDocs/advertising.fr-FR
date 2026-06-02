@@ -2,7 +2,7 @@
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: Découvrez le rapport Précision des prévisions, y compris les colonnes de données.
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Vous pouvez afficher les données des 18 mois précédents.
 >
 >* Pour les prévisions de coûts, un écart de 10 % au cours des sept derniers jours est considéré comme acceptable, de sorte que les dépenses réelles qui se situent entre 90 % et 110 % des dépenses prévues sont acceptables. Pour les prévisions de revenus, un écart de 15 % au cours des sept derniers jours est considéré comme acceptable, de sorte que les revenus réels qui se situent entre 85 % et 115 % des dépenses prévues sont acceptables. Les prévisions présentant des écarts plus importants doivent être étudiées.
 >
->* Lorsque des mots-clés du portefeuille sont associés à des contraintes de changement d’offre, le portefeuille dépasse ou sous-dépense le montant total causé par le changement d’offre. Par conséquent, les colonnes des coûts prévus s&#39;écartent des dépenses cibles en raison de l&#39;augmentation ou de la diminution des dépenses.
+>* Lorsque des mots-clés du portefeuille sont associés à des [contraintes de changement d’offre](/help/search-social-commerce/new-ui/goals/constraints-manage.md), le portefeuille dépasse ou sous-dépense le montant total causé par le changement d’offre. Par conséquent, les colonnes des coûts prévus s&#39;écartent des dépenses cibles en raison de l&#39;augmentation ou de la diminution des dépenses.
 
 ## Colonnes disponibles
 

@@ -2,9 +2,9 @@
 title: Gérer les contraintes pour les unités d’offres de recherche
 description: Découvrez les contraintes permettant de restreindre les offres d’unités d’offre dans les campagnes CPC des portefeuilles hérités au niveau des mots-clés.
 feature: Search Campaign Management, Search Optimization
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: ade0f3ada440b76555b60af97162f7abe454fa0f
 workflow-type: tm+mt
-source-wordcount: '2649'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Après avoir configuré une contrainte, vous pouvez l&#39;affecter à des unité
 >[!NOTE]
 >
 >* Les contraintes actives limitent les enchères uniquement pour les unités d’offre affectées dans les portefeuilles optimisés au niveau des mots-clés hérités. Elles sont ignorées pour les unités d&#39;enchères qui se trouvent dans des portefeuilles hybrides, dans des portefeuilles actifs ou qui ne se trouvent pas dans des portefeuilles. **Conseil :** dans les paramètres du portfolio, activez l’option du portfolio pour ajuster automatiquement les limites du budget de la campagne. La valeur « Multiple » recommandée est « 1 ».
-> * Les contraintes d’offre sont ignorées pour les unités d’offre sans suffisamment de données pour générer des modèles de coût et de chiffre d’affaires.
+>* Les contraintes d’offre sont ignorées pour les unités d’offre sans suffisamment de données pour générer des modèles de coût et de chiffre d’affaires.
 >* (Campagnes avec une stratégie d’enchères CPC ou eCPC) Lorsqu’une contrainte d’offre entre en conflit avec une limite d’offre au niveau du portefeuille, la contrainte remplace la limite au niveau du portefeuille. Par exemple, si l&#39;offre minimale d&#39;un portefeuille est de 5 USD mais que vous limitez une unité d&#39;offre du portefeuille à une offre minimale de 3 USD, l&#39;unité d&#39;offre est alors de 3 USD ou plus. Toutefois, les dépenses globales pour les unités d&#39;enchères avec contraintes sont déterminées par le paramètre [&#x200B; du portefeuille « Dépenser en fonction des contraintes »](#spend-around-constraints).
 >* Les contraintes opèrent sur l&#39;offre de base. Tout type d’ajustement de l’offre de base (tel que l’augmentation de l’offre pour les utilisateurs finaux sur des appareils mobiles) peut faire sortir l’offre de la plage autorisée pour la contrainte. Par exemple, si la contrainte nécessite un CPC maximum de 6 USD, l’enchère de base est déjà de 6 USD et le portefeuille optimise automatiquement les ajustements d’enchère pour les appareils mobiles à 50 %-60 %, alors le CPC maximum est de 9,00-9,60 USD, et non de 6 USD.
 
@@ -172,19 +172,18 @@ Vous pouvez également supprimer une contrainte, ce qui supprime toutes les asso
 
 ## Affecter des contraintes à la recherche d’unités d’enchères {#constraint-assign}
 
-Vous pouvez appliquer des contraintes d’unité d’offre à n’importe quelle campagne, groupe publicitaire, mot-clé, emplacement, groupe de produits d’achat au niveau de l’unité (le niveau de subdivision le plus bas) ou cible de recherche dynamique.
+Vous pouvez appliquer des contraintes d’unité d’enchères à n’importe quelle campagne, groupe publicitaire, mot-clé, emplacement ou cible de recherche dynamique (ciblage automatique).
 
 Chaque entité ne peut avoir qu&#39;une seule contrainte. Vous pouvez affecter une seule contrainte à une ou plusieurs entités en même temps.
 
 >[!NOTE]
 >
->Si vous modifiez par la suite un mot-clé ou la copie d’une publicité, créant ainsi un nouveau mot-clé ou une nouvelle publicité, la contrainte n’est pas affectée à la nouvelle entité.
+>* Si vous modifiez par la suite un mot-clé ou la copie d’une publicité, créant ainsi un nouveau mot-clé ou une nouvelle publicité, la contrainte n’est pas affectée à la nouvelle entité.
+>* Consultez les mêmes instructions dans la vue &rbrack;(/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md) la vue [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md) la vue [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) ou la vue [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->&lbrack;[!UICONTROL Campaigns]
 
 1. Dans le menu principal, ouvrez la vue de gestion correspondante.
 
    Par exemple, pour attribuer des contraintes au niveau de la campagne, accédez à [!UICONTROL Manage] > [!UICONTROL Campaigns].
-
-   <!-- for [campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [ad groups](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [keywords](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md), or [placements](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). And ADD LINKS WHEN AVAILABLE for shopping product groups and dynamic search targets. -->
 
 1. (Facultatif) Filtrez la liste [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou d’un en-tête de colonne [&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
@@ -198,7 +197,10 @@ Chaque entité ne peut avoir qu&#39;une seule contrainte. Vous pouvez affecter u
 
 ## Annuler l’affectation des contraintes des unités d’enchères de recherche {#constraints-unassign}
 
-**Remarque :** pour supprimer une contrainte, ce qui la rend indisponible pour une utilisation ultérieure, voir « [Modifier le statut des contraintes](#constraint-change-status). »
+>[!NOTE]
+>
+>* Pour supprimer une contrainte, ce qui la rend indisponible pour une utilisation ultérieure, voir « [Modifier le statut des contraintes](#constraint-change-status) ».
+>* Consultez les mêmes instructions dans la vue &rbrack;(/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md) la vue [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md) la vue [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) ou la vue [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->&lbrack;[!UICONTROL Campaigns]
 
 1. Dans le menu principal, ouvrez la vue de gestion correspondante.
 
