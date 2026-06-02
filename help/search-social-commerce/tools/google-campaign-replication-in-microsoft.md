@@ -8,14 +8,18 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: 977
 ht-degree: 0%
 
 ---
 
 # Réplication des campagnes [!DNL Google Ads] dans [!DNL Microsoft Advertising]
+
+>[!NOTE]
+>
+>Les instructions pour cette tâche dans la nouvelle interface utilisateur sont disponibles à l’adresse « (Nouvelle interface utilisateur) [Répliquer  [!DNL Google Ads]  campagnes dans [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md) ».
 
 Vous pouvez exporter vos campagnes synchronisées dans un compte [!DNL Google Ads] directement vers un compte [!DNL Microsoft Advertising] synchronisé en tant que campagnes CPC améliorées (eCPC). Les offres existantes et les budgets de campagne sont mis à l’échelle. Le suivi Search, Social et Commerce existant n’est pas importé.
 

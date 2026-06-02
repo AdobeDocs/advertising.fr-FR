@@ -1,0 +1,153 @@
+---
+title: (Nouvelle interface utilisateur) Répliquer des campagnes Google Ads dans Microsoft Advertising
+description: Découvrez comment exporter vos campagnes synchronisées dans un compte Google Ads directement vers un compte Microsoft Advertising synchronisé.
+feature: Search Campaign Management
+exl-id: d4f8e452-7b3d-4a1f-9c3e-6b8d2e5a4917
+source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 0%
+
+---
+
+# (Nouvelle interface utilisateur) Répliquer des campagnes [!DNL Google Ads] dans [!DNL Microsoft Advertising]
+
+*Fonction*
+
+Vous pouvez exporter vos campagnes synchronisées dans un compte [!DNL Google Ads] directement vers un compte [!DNL Microsoft Advertising] synchronisé en tant que campagnes CPC améliorées (eCPC). Les offres existantes et les budgets de campagne sont mis à l’échelle. Le suivi Search, Social et Commerce existant n’est pas importé.
+
+Vous pouvez répliquer les types de campagne suivants et leur structure :
+
+* [!DNL Google Ads] des campagnes de recherche et d’affichage dans [!DNL Microsoft Advertising] campagnes de recherche et d’affichage .
+
+* [!DNL Google Display Network] des campagnes, y compris des images publicitaires, dans des campagnes d’audience [!DNL Microsoft Advertising] sur le réseau d’audiences Microsoft.
+
+  Si vous souhaitez répliquer des campagnes d’affichage basées sur des flux d’achats, répliquez d’abord vos offres de produits [!DNL Google Merchant Center] sur [!DNL Microsoft Merchant Center]. Lorsque vous répliquez les campagnes, sélectionnez le magasin de [!DNL Microsoft Merchant Center] dans les options d’importation pour le lier à vos campagnes d’audience basées sur les flux.
+
+* [!DNL Google Ads] les campagnes Performances Max , y compris les annonces d’inventaire local, en campagnes Performances Max [!DNL Microsoft Advertising] .
+
+Vous pouvez choisir de mettre à jour les campagnes une fois ; tous les jours, toutes les semaines ou tous les mois ; ou selon le planning recommandé par [!DNL Microsoft Advertising]. Vous pouvez éventuellement configurer des notifications chaque fois qu’une tâche d’importation s’exécute ou que des erreurs ou des modifications se produisent. Une fois que vous avez importé vos campagnes dans [!DNL Microsoft Advertising], vous pouvez vérifier le statut de votre tâche d’importation, consulter les journaux d’erreur, exécuter manuellement une tâche d’importation et modifier, suspendre, activer ou supprimer votre planning d’importation.
+
+Toutes les informations sur les campagnes ne sont pas répliquées, et vous devrez peut-être ajouter certaines informations à vos campagnes [!DNL Microsoft Advertising]. Pour plus d’informations sur les données importées, consultez [!DNL Microsoft Advertising]’aide dans la section « [&#x200B; de quoi est importé  [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851){target="_blank"} ». Étant donné que le suivi des recherches, des réseaux sociaux et de Commerce n’est pas importé, vous devez également ajouter le suivi dans les paramètres [compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) ou [annonce](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md).
+
+## Réplication des campagnes [!DNL Google Ads]
+
+>[!NOTE]
+>
+>Si vous souhaitez répliquer des campagnes d’affichage basées sur des flux d’achats, commencez par [répliquer vos offres  [!DNL Google Merchant Center]  produits dans [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870){target="_blank"}. Lorsque vous répliquez les campagnes, sélectionnez le magasin de [!DNL Microsoft Merchant Center] dans les options d’importation pour le lier à vos campagnes d’audience basées sur les flux.
+
+Voir [Qu’est-ce qui est importé des  [!DNL Google Ads] campagnes](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**.
+
+1. Cliquez sur **[!UICONTROL Import Campaigns]**.
+
+1. Spécifiez les [paramètres d’importation](#campaign-import-settings) :
+
+   1. À l’étape **[!UICONTROL Select accounts]** :
+
+      1. Saisissez le nom de la tâche d’importation dans le champ **[!UICONTROL Import Name]** .
+
+      1. Sélectionnez le compte de [!DNL Google Ads] source et le compte de [!DNL Microsoft Advertising] cible.
+
+      1. Saisissez votre **[!UICONTROL Credential ID]**. Contactez l’équipe chargée de votre compte Adobe si vous ne disposez pas d’un identifiant d’identification. La génération automatique n’est pas disponible en raison de limitations de [!DNL Microsoft Advertising].
+
+      1. Cliquez sur **[!UICONTROL Next]**.
+
+   1. À l’étape **[!UICONTROL Select campaigns & ad groups]**, spécifiez les campagnes et les groupes publicitaires à importer, puis cliquez sur **[!UICONTROL Next]**.
+
+   1. À l&#39;étape **[!UICONTROL Customize your import]**, vous pouvez éventuellement spécifier les types d&#39;article, les paramètres d&#39;enchères et de budget, ainsi que d&#39;autres options à importer, puis cliquer sur **[!UICONTROL Next]**.
+
+   1. À l’étape **[!UICONTROL Set schedule]**, indiquez quand exécuter la tâche d’importation et comment recevoir les notifications.
+
+1. Vérifiez vos sélections dans le résumé, puis cliquez sur **[!UICONTROL Start Import]**.
+
+1. (Facultatif) Ajoutez le suivi Search, Social et Commerce dans les paramètres [compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) ou [annonce](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md).
+
+## Modifier les paramètres de planning d’un traitement d’import de campagne
+
+Voir [Qu’est-ce qui est importé des  [!DNL Google Ads] campagnes](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**.
+
+1. Cliquez sur l’onglet **[!UICONTROL Jobs]** .
+
+1. Cliquez sur le nom de la tâche d’importation, puis sur **[!UICONTROL Edit]**.
+
+1. À l’étape **[!UICONTROL Set schedule]**, spécifiez les [paramètres de planification](#campaign-import-settings).
+
+1. Cliquez sur **[!UICONTROL Save]**.
+
+## Affichage des traitements d’import de campagne
+
+Vous pouvez répertorier toutes les tâches d’importation, y compris le compte de [!DNL Google Ads] source, le compte de [!DNL Microsoft Advertising] cible, l’heure ou la planification de l’importation et l’utilisateur ou l’utilisatrice qui a créé la tâche. Lorsque vous exécutez une tâche d’importation plusieurs fois, y compris lors d’importations planifiées régulièrement, chaque occurrence est répertoriée comme une tâche distincte.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**.
+
+   Par défaut, la vue s’ouvre sur l’onglet **[!UICONTROL Jobs]** .
+
+## Exécution d’un traitement d’import de campagne
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**.
+
+1. Cliquez sur l’onglet **[!UICONTROL Jobs]** .
+
+1. Cochez la case en regard de la tâche d’importation, puis cliquez sur **[!UICONTROL Run Now]**.
+
+## Afficher les journaux de vos traitements d’import de campagne {#campaign-import-log}
+
+Vous pouvez répertorier toutes les tâches d’importation terminées ou ayant échoué, y compris l’heure de début, le compte de [!DNL Google Ads] source, le compte de [!DNL Microsoft Advertising] cible, l’utilisateur ou l’utilisatrice qui a créé la tâche, le nombre d’opérations réussies et ayant échoué et les adresses e-mail qui ont reçu des notifications pour chaque tâche. Vous pouvez afficher des détails supplémentaires sur les modifications apportées au compte de [!DNL Microsoft Advertising] cible pour chaque traitement, y compris le nombre d’éléments ajoutés, synchronisés, supprimés et qui ont généré des erreurs pour chaque niveau d’entité (campagne ou mot-clé, par exemple) dans le compte.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**.
+
+1. Cliquez sur l’onglet **[!UICONTROL Logs]** .
+
+1. (Facultatif) Pour afficher les détails d’une tâche d’importation, cliquez sur la valeur dans la colonne [!UICONTROL Summary].
+
+## Paramètres des traitements d&#39;import Campaign {#campaign-import-settings}
+
+### [!UICONTROL Select accounts]
+
+**[!UICONTROL Import Name]:** Nom permettant d’identifier la tâche d’importation.
+
+**[!UICONTROL Source Google Ads account]:** compte [!DNL Google Ads] synchronisé à partir duquel les données de campagne sont exportées.
+
+**[!UICONTROL Target Microsoft Ads account]:** compte [!DNL Microsoft Advertising] synchronisé dans lequel les données de campagne sont importées.
+
+**[!UICONTROL Credential ID]:** identifiant que [!DNL Microsoft Advertising] utilise pour représenter vos informations d’identification [!DNL Google Ads]. La génération automatique des informations d’identification [!DNL Microsoft Advertising] pour l’importation n’est pas disponible en raison de limitations [!DNL Microsoft Advertising]. Contactez l’équipe chargée de votre compte Adobe. Elle générera les informations d’identification et vous donnera l’identifiant.
+
+### [!UICONTROL Select campaigns & ad groups]
+
+**\[Données à importer\]:** Données à importer :
+
+* *[!UICONTROL Import all new and existing campaigns]:* pour importer les données de toutes les campagnes qui existent déjà et de celles qui n’existent pas dans [!DNL Microsoft Advertising].
+
+* *[!UICONTROL Import specific campaigns and adgroups]:* pour sélectionner des campagnes et des groupes publicitaires spécifiques.
+
+   * Pour développer une campagne en ses groupes d’annonces enfants, cliquez sur **[!UICONTROL >]** après le nom de la campagne.
+
+   * Pour sélectionner une campagne ou un groupe publicitaire, sélectionnez l’élément afin qu’une coche s’affiche.
+
+   * Pour supprimer une campagne ou un groupe publicitaire, désélectionnez l’élément ou cliquez sur l’icône de suppression dans la colonne [!UICONTROL Selected] .
+
+### [!UICONTROL Customize your import]
+
+**[!UICONTROL Choose specific import options]:** vous permet de spécifier les éléments à importer, les offres et les budgets, ainsi que d’autres options.
+
+**[!UICONTROL What to import]:** définit les éléments à importer. Les options permettant d&#39;importer des catégories d&#39;articles sont sélectionnées par défaut, tous les types d&#39;articles étant sélectionnés. Pour inclure uniquement des types d’éléments spécifiques, cliquez sur **[!UICONTROL Show advanced options]** et modifiez les types d’éléments pour inclure. Vous pouvez également associer un ID de balise UET à une liste de remarketing ou à une audience qui n’a pas encore été importée dans [!DNL Microsoft Advertising].
+
+**[!UICONTROL Bids and budgets]:** définit les paramètres d&#39;offre et de budget à importer, mettre à jour et personnaliser, y compris les options permettant d&#39;augmenter ou de réduire les offres et les budgets d&#39;un pourcentage spécifié pour les [!DNL Microsoft Advertising].
+
+**[!UICONTROL Other options]:** définit la manière de gérer les URL de page de destination importées, les modèles de suivi et d’autres options de campagne, d’annonce et de ciblage, y compris les options permettant de rechercher et de remplacer du texte et d’insérer des suffixes.
+
+### [!UICONTROL Set schedule]
+
+**[!UICONTROL When]:** quand importer les campagnes spécifiées : *Auto* (pour [!DNL Microsoft Advertising] permettre de définir un planning afin d’optimiser au mieux vos campagnes), *[!UICONTROL Now]* (pour exécuter le traitement lorsque vous publiez les paramètres du traitement), *[!UICONTROL Once]* à une heure spécifiée, *[!UICONTROL Daily]* à une heure spécifiée, *[!UICONTROL Weekly]* à une heure spécifiée ou *[!UICONTROL Monthly]* à une heure spécifiée.
+
+**[!UICONTROL Receive email notifications]:** si et quand envoyer des notifications par e-mail sur les traitements d’importation aux adresses du champ [!UICONTROL Send reports to] : *[!UICONTROL No emails]*, *[!UICONTROL Only if there are changes or errors]* (valeur par défaut), *[!UICONTROL Only if there are errors]* ou *[!UICONTROL Every time this import runs]*.
+
+**[!UICONTROL Send reports to]:** Adresses e-mail auxquelles envoyer des notifications sur les traitements d’import. Séparez les adresses multiples par des virgules (`,`).
+
+>[!MORELIKETHIS]
+>
+>* [Gérer les comptes de réseau publicitaire](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
