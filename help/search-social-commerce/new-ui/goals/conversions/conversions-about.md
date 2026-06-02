@@ -2,9 +2,14 @@
 title: (Nouvelle interface utilisateur) Fonctionnalités disponibles pour la gestion des mesures de conversion
 description: Découvrez les différentes fonctionnalités disponibles pour gérer les mesures de conversion.
 feature: Conversions
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+source-git-commit: fe6aa2856831433f9b0673d0cc1e35e92f1728de
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: 114
 ht-degree: 0%
 
 ---
@@ -13,7 +18,7 @@ ht-degree: 0%
 
 Dans la vue [!UICONTROL Goals] > [!UICONTROL Conversions] , vous pouvez effectuer les opérations suivantes :
 
-* [Générer une balise de suivi des conversions Adobe Advertising](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
+* [Générer une balise de suivi des conversions Adobe Advertising](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
 
 * Pour toutes les mesures de conversion suivies pour un annonceur :
 
@@ -25,6 +30,6 @@ Dans la vue [!UICONTROL Goals] > [!UICONTROL Conversions] , vous pouvez effectue
 
    * [Télécharger les données de performances pour les conversions](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#manage-performance-data-reports-for-conversions).
 
-* Créez des actions de conversion pour [!DNL Google Ads] les conversions améliorées des prospects à suivre pour les comptes de [!DNL Google Ads] individuels.
+* [Créer des actions de conversion pour  [!DNL Google Ads]  conversions améliorées pour les prospects](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md) à suivre pour les comptes de [!DNL Google Ads] individuels.
 
-* Chargez des données de conversion propriétaires hors ligne pour les mapper à vos [[!DNL Google Ads]  conversions améliorées existantes pour les prospects &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) et [[!DNL Microsoft Advertising]  conversions améliorées &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178).
+* [Chargez des données de conversion propriétaires hors ligne](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md) pour les mapper à vos conversions améliorées [!DNL Google Ads] existantes pour les prospects et [[!DNL Microsoft Advertising] conversions améliorées](https://help.ads.microsoft.com/#apex/ads/en/60178).
