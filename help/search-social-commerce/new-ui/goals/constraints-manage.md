@@ -29,7 +29,7 @@ Après avoir configuré une contrainte, vous pouvez l&#39;affecter à des unité
 >
 >* Les contraintes actives limitent les enchères uniquement pour les unités d’offre affectées dans les portefeuilles optimisés au niveau des mots-clés hérités. Elles sont ignorées pour les unités d&#39;enchères qui se trouvent dans des portefeuilles hybrides, dans des portefeuilles actifs ou qui ne se trouvent pas dans des portefeuilles. **Conseil :** dans les paramètres du portfolio, activez l’option du portfolio pour ajuster automatiquement les limites du budget de la campagne. La valeur « Multiple » recommandée est « 1 ».
 >* Les contraintes d’offre sont ignorées pour les unités d’offre sans suffisamment de données pour générer des modèles de coût et de chiffre d’affaires.
->* (Campagnes avec une stratégie d’enchères CPC ou eCPC) Lorsqu’une contrainte d’offre entre en conflit avec une limite d’offre au niveau du portefeuille, la contrainte remplace la limite au niveau du portefeuille. Par exemple, si l&#39;offre minimale d&#39;un portefeuille est de 5 USD mais que vous limitez une unité d&#39;offre du portefeuille à une offre minimale de 3 USD, l&#39;unité d&#39;offre est alors de 3 USD ou plus. Toutefois, les dépenses globales pour les unités d&#39;enchères avec contraintes sont déterminées par le paramètre [ du portefeuille « Dépenser en fonction des contraintes »](#spend-around-constraints).
+>* (Campagnes avec une stratégie d’enchères CPC ou eCPC) Lorsqu’une contrainte d’offre entre en conflit avec une limite d’offre au niveau du portefeuille, la contrainte remplace la limite au niveau du portefeuille. Par exemple, si l&#39;offre minimale d&#39;un portefeuille est de 5 USD mais que vous limitez une unité d&#39;offre du portefeuille à une offre minimale de 3 USD, l&#39;unité d&#39;offre est alors de 3 USD ou plus. Toutefois, les dépenses globales pour les unités d&#39;enchères avec contraintes sont déterminées par le paramètre [&#x200B; du portefeuille « Dépenser en fonction des contraintes »](#spend-around-constraints).
 >* Les contraintes opèrent sur l&#39;offre de base. Tout type d’ajustement de l’offre de base (tel que l’augmentation de l’offre pour les utilisateurs finaux sur des appareils mobiles) peut faire sortir l’offre de la plage autorisée pour la contrainte. Par exemple, si la contrainte nécessite un CPC maximum de 6 USD, l’enchère de base est déjà de 6 USD et le portefeuille optimise automatiquement les ajustements d’enchère pour les appareils mobiles à 50 %-60 %, alors le CPC maximum est de 9,00-9,60 USD, et non de 6 USD.
 
 ### Types de contrainte {#constraint-types}
@@ -58,7 +58,7 @@ Voici quelques raisons de limiter les unités d&#39;enchères :
 
 ### Où afficher des informations sur les contraintes dans l’interface utilisateur
 
-Outre l&#39;ouverture de la vue ](#constraints-view) vous pouvez également afficher les informations relatives à vos contraintes des manières suivantes :[[!UICONTROL Constraints]
+Outre l&#39;ouverture de la vue [&#128279;](#constraints-view) vous pouvez également afficher les informations relatives à vos contraintes des manières suivantes :[!UICONTROL Constraints]
 
 * Toutes vos contraintes sont des valeurs de libellé pour une seule [classification de libellé](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html) appelée « [!UICONTROL Constraints] ».
 
@@ -68,7 +68,7 @@ Outre l&#39;ouverture de la vue ](#constraints-view) vous pouvez également affi
 
   La classification [!UICONTROL Constraints] n’est pas incluse dans la vue [!UICONTROL Label Classifications] ; la vue [!UICONTROL Constraints] est distincte. La classification [!UICONTROL Constraints] n’est pas non plus incluse dans la limite de classification de 30 étiquettes.
 
-* [ La [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md) inclut les données de coût, de clic et (éventuellement) de conversion pour les contraintes qui utilisent l’architecture de classification de libellés.
+* [&#x200B; La [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md) inclut les données de coût, de clic et (éventuellement) de conversion pour les contraintes qui utilisent l’architecture de classification de libellés.
 
 ### La vue [!UICONTROL Constraints] {#constraints-view}
 
@@ -112,7 +112,7 @@ Vous pouvez modifier les paramètres d&#39;une contrainte à la fois.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Constraints]**.
 
-1. (Facultatif) Filtrez la liste [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou d’un en-tête de colonne [](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+1. (Facultatif) Filtrez la liste [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou d’un en-tête de colonne [&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 1. Cochez la case en regard de la contrainte à modifier.
 
@@ -134,7 +134,7 @@ Vous pouvez également supprimer une contrainte, ce qui supprime toutes les asso
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Constraints]**.
 
-1. (Facultatif) Filtrez la liste [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou d’un en-tête de colonne [](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+1. (Facultatif) Filtrez la liste [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou d’un en-tête de colonne [&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 1. Cochez la case en regard de chaque contrainte dont vous souhaitez modifier le statut.
 
@@ -166,7 +166,7 @@ Vous pouvez également supprimer une contrainte, ce qui supprime toutes les asso
 | | [!UICONTROL Set constraint options for Search Engine Min Bid] | (Contraintes de [!UICONTROL Search Engine Min Bid]) Utilise l’enchère minimale requise pour afficher une unité d’enchère sur la première page des résultats de recherche dans Google ([!UICONTROL Google First Page CPC]). Le cas échéant, saisissez une valeur **[!UICONTROL Min Bid]** et/ou une valeur **[!UICONTROL Max Bid]** pour définir la plage d&#39;offres éligibles pour la contrainte. Par exemple, si vous indiquez une [!UICONTROL Min Bid] de 2,50 USD et une [!UICONTROL Max Bid] de 4 USD, vous n&#39;enchérirez pas sur l&#39;unité d&#39;enchère si l&#39;enchère de la [!DNL Google Ads] première page est inférieure à 2,50 USD ou supérieure à 4 USD. |
 | | [!UICONTROL Set constraint options for Impression Share] | (Contraintes [!UICONTROL Impression Share] uniquement) Les paramètres incluent :<ul><li>**[!UICONTROL Min Bid]** (Facultatif) Enchère de base minimale pour les unités d’offre associées.</li><li>**[!UICONTROL Max Bid]:** (facultatif) Enchère de base maximale pour les unités d&#39;enchères associées.</li><li>**[!UICONTROL Min Impression Share]:** taux d’impressions le plus bas, en pourcentage, qui déclenchera la contrainte pour les unités d’offre applicables. Il doit être entre 10 et 90. **Remarque :** lorsque la contrainte n&#39;est pas rentable, la fonctionnalité d&#39;optimisation peut la remplacer.</li><li>**[!UICONTROL Max Impression Share]:** pourcentage d&#39;impression le plus élevé, en pourcentage, qui déclenchera la contrainte pour les unités d&#39;offre applicables. Elle doit être comprise entre 10 et 90.**Remarque :** lorsque la contrainte n&#39;est pas rentable, la fonctionnalité d&#39;optimisation peut la remplacer.</li></ul>> |
 | [!UICONTROL Conditions] | [!UICONTROL Condition Type] | Application de conditions à la contrainte :<ul><li>*[!UICONTROL No Condition]:* (valeur par défaut) La contrainte est appliquée sans condition pendant la période spécifiée.</li><li>*[!UICONTROL Satisfy]:* la contrainte n&#39;est appliquée que lorsque des conditions spécifiées sont remplies au cours d&#39;une période d&#39;évaluation des données spécifiée.</li></ul> |
-| | [!UICONTROL Data Evaluation Period] | (Lorsque des conditions sont définies) Période pendant laquelle les données doivent être évaluées pour les critères spécifiés. Si vous sélectionnez *[!UICONTROL Custom date range],** spécifiez le **[!UICONTROL Start Date]** et la **[!UICONTROL End Date]** en saisissant chaque date au format `MM-DD-YYYY` (par exemple, 03-29-2026 pour le 29 mars 2026) ou en cliquant sur ![bouton Calendrier](/help/search-social-commerce/assets/calendar-new.png "bouton Calendrier") pour ouvrir le calendrier et sélectionner chaque date. |
+| | [!UICONTROL Data Evaluation Period] | (Lorsque des conditions sont définies) Période pendant laquelle les données doivent être évaluées pour les critères spécifiés. Si vous sélectionnez *[!UICONTROL Custom date range],**&#x200B; spécifiez le &#x200B;** [!UICONTROL Start Date] **&#x200B; et la &#x200B;** [!UICONTROL End Date]** en saisissant chaque date au format `MM-DD-YYYY` (par exemple, 03-29-2026 pour le 29 mars 2026) ou en cliquant sur ![bouton Calendrier](/help/search-social-commerce/assets/calendar-new.png "bouton Calendrier") pour ouvrir le calendrier et sélectionner chaque date. |
 | | [!UICONTROL When to Apply Constraints] | (Lorsque des conditions sont définies) Nombre de conditions de filtre qui doivent être remplies pour appliquer la contrainte :<ul><li>*[!UICONTROL Match All Filters]:* applique la contrainte lorsque chaque condition de filtre spécifiée est remplie.</li><li>*[!UICONTROL Match Any Filters]:* applique la contrainte lorsqu’au moins l’une des conditions de filtre spécifiées est remplie.</li></ul> |
 | | [!UICONTROL Filters] | (Lorsque des conditions sont définies) Un ou plusieurs critères qui doivent être remplis. Pour créer un filtre, sélectionnez une propriété ou une mesure dans la liste. Pour les propriétés (telles que [!UICONTROL Channel Type]), sélectionnez les valeurs applicables dans la liste. Pour les mesures (telles que [!UICONTROL Clicks]), sélectionnez un opérateur, puis saisissez la valeur applicable. Par exemple, pour renvoyer uniquement les unités d’enchères comportant plus de 100 clics, sélectionnez **Clics**, **supérieur à**, puis saisissez `100` dans le champ de saisie.</li></ul> |
 
@@ -179,13 +179,13 @@ Chaque entité ne peut avoir qu&#39;une seule contrainte. Vous pouvez affecter u
 >[!NOTE]
 >
 >* Si vous modifiez par la suite un mot-clé ou la copie d’une publicité, créant ainsi un nouveau mot-clé ou une nouvelle publicité, la contrainte n’est pas affectée à la nouvelle entité.
->* Consultez les mêmes instructions dans la vue ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md) la vue [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md) la vue [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) ou la vue [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->[[!UICONTROL Campaigns]
+>* Consultez les mêmes instructions dans la vue &rbrack;(/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md) la vue [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md) la vue [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) ou la vue [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->&lbrack;[!UICONTROL Campaigns]
 
 1. Dans le menu principal, ouvrez la vue de gestion correspondante.
 
    Par exemple, pour attribuer des contraintes au niveau de la campagne, accédez à [!UICONTROL Manage] > [!UICONTROL Campaigns].
 
-1. (Facultatif) Filtrez la liste [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou d’un en-tête de colonne [](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+1. (Facultatif) Filtrez la liste [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou d’un en-tête de colonne [&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 1. Cochez la case en regard de chaque entité à laquelle vous affecterez une seule contrainte.
 
@@ -200,7 +200,7 @@ Chaque entité ne peut avoir qu&#39;une seule contrainte. Vous pouvez affecter u
 >[!NOTE]
 >
 >* Pour supprimer une contrainte, ce qui la rend indisponible pour une utilisation ultérieure, voir « [Modifier le statut des contraintes](#constraint-change-status) ».
->* Consultez les mêmes instructions dans la vue ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md) la vue [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md) la vue [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) ou la vue [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->[[!UICONTROL Campaigns]
+>* Consultez les mêmes instructions dans la vue &rbrack;(/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md) la vue [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md) la vue [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) ou la vue [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->&lbrack;[!UICONTROL Campaigns]
 
 1. Dans le menu principal, ouvrez la vue de gestion correspondante.
 
