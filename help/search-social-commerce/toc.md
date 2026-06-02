@@ -4,15 +4,12 @@ user-guide-title: Guide d’Advertising Search, Social et Commerce
 user-guide-description: Ce guide décrit les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à la gestion, au suivi et à la création de rapports sur vos campagnes publicitaires liées aux moteurs de recherche, aux réseaux sociaux et au commerce.
 breadcrumb-title: Guide d’Advertising Search, Social et Commerce
 index: true
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: fe6aa2856831433f9b0673d0cc1e35e92f1728de
 workflow-type: tm+mt
-source-wordcount: 2309
+source-wordcount: 2342
 ht-degree: 2%
 
 ---
@@ -32,10 +29,10 @@ ht-degree: 2%
    + [Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md)
    + Intégration à Adobe CX Enterprise {#integrations}
       + [Intégration aux solutions et services d’entreprise Adobe CX](/help/search-social-commerce/introduction/integrations.md)
-      + [&#x200B; [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr){target="_blank"}
-      + [Intégration avec Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=fr){target="_blank"}
-   + [Prise en charge de la confidentialité des clients (lien)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}
-   + [Politiques et directives (lien)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=fr){target="_blank"}
+      + [ [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Intégration avec Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [Prise en charge de la confidentialité des clients (lien)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Politiques et directives (lien)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + Prise en main {#getting-started}
    + [Présentation de l’implémentation](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Configuration requise](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -91,7 +88,12 @@ ht-degree: 2%
          + [Paramètres des objectifs](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
          + [Activer le chargement des objectifs sur les réseaux publicitaires](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
       + de conversions {#conversions}
+         + [Fonctionnalités disponibles pour la gestion des mesures de conversion](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
+         + [Générer et implémenter une balise de suivi des conversions Adobe Advertising](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
          + [Gérer et afficher les données de performances pour les mesures de conversion d’un annonceur](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+         + Conversions améliorées {#enhanced-conversions}
+            + [Création d’une action de conversion pour une conversion  [!DNL Google Ads]  pour les prospects](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
+            + [Chargement des données de conversion hors ligne pour les conversions améliorées](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
       + [Gestion  [!DNL Google Ads]  règles de valeur de conversion](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
    + Plan {#plan}
       + [À propos des simulations](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
@@ -117,8 +119,8 @@ ht-degree: 2%
          + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + Campagnes {#campaigns}
          + [À propos de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [Affectation de campagnes à un portfolio](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio){target="_blank"}
-         + [Supprimer des campagnes d’un portfolio](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio){target="_blank"}
+         + [Affectation de campagnes à un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio){target="_blank"}
+         + [Supprimer des campagnes d’un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio){target="_blank"}
          + [Gérer les affectations de contraintes pour les campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
          + [Modifier le statut d’une campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-change-status.md)
@@ -199,8 +201,8 @@ Assister les formats de rapport {#assist-report-formats}
                + [Paramètres du rapport de précision du modèle](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
          + [Gestion des modèles de rapport](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
          + [Accès FTP aux rapports](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
-         + [Méthode de calcul des règles d’attribution](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
-         + [Questions fréquentes sur les rapports personnalisés](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
+         + [Méthode de calcul des règles d’attribution](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
+         + [Questions fréquentes sur les rapports personnalisés](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
       + [Gérer les flux de rapports de feuille de calcul](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
       + [Afficher les journaux de l’historique des modifications](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [Gérer les classifications de libellés](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
@@ -240,13 +242,13 @@ Assister les formats de rapport {#assist-report-formats}
             + [Formats de suivi des clics pour  [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Formats de suivi des clics pour  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Paramètres de tracking optionnels des URL de tracking des clics](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Cookies Adobe Advertising (lien)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=fr){target="_blank"}
+      + [Cookies Adobe Advertising (lien)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [Le paramètre de tracking AMO ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Suivi des conversions {#conversion-tracking}
       + [Options de suivi des conversions](/help/search-social-commerce/tracking/conversion-tracking-about.md)
       + Suivi des conversions Adobe Advertising {#advertising-conversion-tracking}
          + [À propos des balises de suivi des conversions d’Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-         + [Génération et implémentation d’une balise de conversion Adobe Advertising](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
+         + [Génération et implémentation d’une balise de conversion Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
          + [Format des balises de suivi des conversions JavaScript version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [Format des balises de suivi des conversions JavaScript version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [Format des balises de tracking de conversion d’images](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
@@ -273,7 +275,7 @@ Assister les formats de rapport {#assist-report-formats}
       + Comptes réseau publicitaires {#ad-network-accounts}
          + [À propos des comptes de réseau publicitaire](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [Gestion des comptes réseau et](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-         + [Mettre à jour le code de suivi AMO ID pour un compte  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
+         + [Mettre à jour le code de suivi AMO ID pour un compte  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
       + [Gérer les comptes de centre commercial](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
    + [Implémentation  [!DNL Naver]  comptes de tracking uniquement](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + Gestion des campagnes {#management}
@@ -338,7 +340,7 @@ Assister les formats de rapport {#assist-report-formats}
          + Audiences et cibles d’audience {#audiences-and-targets}
             + Audiences {#audiences}
                + [À propos des audiences](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
-               + [Créer  [!DNL Google Ads]  audiences de correspondance client à partir d’audiences  [!DNL Adobe] &#x200B;](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
+               + [Créer  [!DNL Google Ads]  audiences de correspondance client à partir d’audiences  [!DNL Adobe] ](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
                + [Création d’une audience  [!DNL Google Ads]  correspondance client à partir d’une liste d’emails Adobe Campaign](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
                + [Gérer les audiences de correspondance de clients à l’aide de listes de données client](/help/search-social-commerce/campaign-management/campaigns/audience-from-customer-data-list.md)
                + [Gestion des audiences de remarketing dynamique](/help/search-social-commerce/campaign-management/campaigns/audience-dynamic-remarketing-manage.md)
@@ -369,13 +371,13 @@ Assister les formats de rapport {#assist-report-formats}
          + Données requises/incluses dans les feuilles d’envoi groupé{#bulksheet-data-formats}
             + [Formats de fichiers de feuilles d’envoi groupé pris en charge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-file-formats.md)
             + [Opérations pouvant être effectuées dans des feuilles d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)
-            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Baidu] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Microsoft Advertising] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Naver] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-            + [Données de feuille d’envoi groupé pour les comptes  [!DNL Yahoo! Display Network] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-            + [Données de feuille d’envoi groupé pour les comptes  [!DNL Yahoo! Japan] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Yandex] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Baidu] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Microsoft Advertising] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Naver] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+            + [Données de feuille d’envoi groupé pour les comptes  [!DNL Yahoo! Display Network] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+            + [Données de feuille d’envoi groupé pour les comptes  [!DNL Yahoo! Japan] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+            + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Yandex] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + Automatisation des données de campagne à l’aide de flux d’inventaire {#inventory-feeds}
          + [À propos de l’automatisation de la gestion des publicités à l’aide de flux d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
          + [Quand les composants de compte sont-ils créés ou supprimés par les flux d’inventaire ?](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
