@@ -1,11 +1,14 @@
 ---
 title: (Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ads]
-description: Découvrez comment générer, télécharger et supprimer des rapports contenant les lignes de données d’une ou de plusieurs publicités dans la vue [!UICONTROL Ads] d’un rapport.
+description: Découvrez comment générer, télécharger et supprimer des rapports contenant les lignes de données d’une ou de plusieurs publicités dans la vue [!UICONTROL Ads].
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -18,7 +21,7 @@ Vous pouvez générer un rapport qui inclut les lignes de données d’une ou de
 
 Vous pouvez supprimer n’importe quel rapport généré.
 
-Consultez également les sections « [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) et « [&#x200B; (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads] »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+Consultez également les sections « [ (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) et « [ (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads] »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 
 ## Générer un rapport avec les lignes de données filtrées
 
@@ -30,7 +33,7 @@ Consultez également les sections « [&#x200B; (interface utilisateur héritée)
 
    * Pour télécharger des données pour toutes les publicités, il n’est pas nécessaire de cocher des cases. Toutes les publicités sont incluses par défaut.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans les paramètres de [!UICONTROL Grid Reports], saisissez un nom de rapport unique, puis cliquez sur **[!UICONTROL Generate]**.
 
@@ -46,7 +49,7 @@ Consultez également les sections « [&#x200B; (interface utilisateur héritée)
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") en regard du nom du fichier.
 
@@ -56,12 +59,11 @@ Consultez également les sections « [&#x200B; (interface utilisateur héritée)
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete-new.png "Supprimer") en regard du nom du fichier.
 
 >[!MORELIKETHIS]
 >
->* [À propos du [!UICONTROL Ads view]](ad-view-about.md)
->* [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
->* [(interface utilisateur héritée) Supprimez un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [ (nouvelle interface utilisateur) À propos du [!UICONTROL Ads view]](ad-view-about.md)
+>* [(nouvelle interface utilisateur) Modifier le statut d’une publicité](ad-change-status.md)
