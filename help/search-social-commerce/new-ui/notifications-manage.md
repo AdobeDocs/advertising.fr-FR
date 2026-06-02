@@ -2,9 +2,9 @@
 title: (Nouvelle interface utilisateur) Gérer les notifications
 description: Découvrez comment afficher, configurer et gérer les notifications Search, Social et Commerce, y compris les notifications push et l’application web du Centre de notifications.
 feature: Search Notifications
-source-git-commit: 000ed245b2ea3381e4ca8fcbdd2d6075d50f4b09
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1711'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Vous pouvez afficher vos notifications, marquer les notifications comme lues ou 
 
    * **[!UICONTROL Manager Account Missing]** : notifications indiquant que Search, Social et Commerce ne disposent pas des informations d’identification d’un compte [ad network manager](/help/search-social-commerce/admin/manager-accounts.md), lesquelles sont requises pour la configuration correcte des fonctions critiques.<!-- Moving to Campaign Management > Setup Errors at some point -->
 
-   * **[!UICONTROL UI Actions]** : notifications indiquant que les tâches effectuées en arrière-plan ont été menées à bien ou ont échoué. Les types de tâche incluent les tâches [sous forme de feuilles d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->, les tâches de modification en bloc dans le tableau de données ou à l’aide de la barre d’outils, les tâches d’affectation d’entité ou d’autres actions dans l’interface utilisateur (comme la synchronisation avec les réseaux publicitaires, le collage de lignes ou le changement de nom d’entités). Les affectations d’entité incluent l’affectation ou l’annulation de l’affectation d’une [valeur de classification de libellé](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md) à une entité, l’affectation d’une campagne à un portfolio et l’affectation ou l’annulation de l’affectation d’une contrainte à un portfolio.
+   * **[!UICONTROL UI Actions]** : notifications indiquant que les tâches effectuées en arrière-plan ont été menées à bien ou ont échoué. Les types de tâche incluent les tâches [sous forme de feuilles d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->, les tâches de modification en bloc dans le tableau de données ou à l’aide de la barre d’outils, les tâches d’affectation d’entité ou d’autres actions dans l’interface utilisateur (comme la synchronisation avec les réseaux publicitaires, le collage de lignes ou le changement de nom d’entités). Les affectations d’entité incluent l’affectation ou l’annulation de l’affectation d’une [valeur de classification de libellé](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md) à une entité, l’affectation d’une campagne à un portefeuille et l’[affectation ou annulation de l’affectation d’une contrainte d’offre à une entité](/help/search-social-commerce/new-ui/goals/constraints-manage.md).
 
    * [!UICONTROL Data Upload]
 

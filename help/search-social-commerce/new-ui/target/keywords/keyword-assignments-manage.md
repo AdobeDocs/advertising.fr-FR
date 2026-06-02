@@ -4,9 +4,9 @@ description: Découvrez comment attribuer des contraintes aux mots-clés.
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,7 @@ Vous pouvez affecter une seule contrainte à une ou plusieurs campagnes.
 
 >[!MORELIKETHIS]
 >
->* [Gérer les affectations de contrainte pour les campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [Gérer les affectations de contraintes pour les groupes publicitaires](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [Gérer les affectations de contrainte pour les emplacements](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [(nouvelle interface utilisateur) Gérer les contraintes pour les unités d’enchères de recherche](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
+>* [(nouvelle interface utilisateur) Gérer les affectations de contraintes pour les campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [(Nouvelle interface utilisateur) Gérer les affectations de contraintes pour les groupes publicitaires](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
+>* [(nouvelle interface utilisateur) Gérer les affectations de contraintes pour les emplacements](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
