@@ -3,9 +3,15 @@ title: (Nouvelle interface utilisateur) Modifier le statut d’un groupe publici
 description: Découvrez comment modifier le statut d’un groupe publicitaire sans ouvrir les paramètres du groupe publicitaire.
 feature: Search Campaign Management
 hide: true
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: 201
 ht-degree: 0%
 
 ---
@@ -42,8 +48,8 @@ Vous pouvez également supprimer n’importe quel groupe publicitaire actif ou e
 
    * Placez le curseur sur la ligne du groupe publicitaire et cliquez sur **[!UICONTROL ...]>[!UICONTROL Delete]**.
 
-   * Placez le curseur sur la ligne du groupe de caméras et cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier") en regard de la colonne [!UICONTROL Status]. Sélectionnez **[!UICONTROL Deleted]**.
+   * Placez le curseur sur la ligne du groupe publicitaire et cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier") en regard de la colonne [!UICONTROL Status]. Sélectionnez **[!UICONTROL Deleted]**.
 
 >[!MORELIKETHIS]
 >
->* [À propos de la vue [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad group-view-about.md)
+>* [À propos de la vue [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)

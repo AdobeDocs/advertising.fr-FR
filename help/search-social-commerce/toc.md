@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fe6aa2856831433f9b0673d0cc1e35e92f1728de
+source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
 workflow-type: tm+mt
-source-wordcount: 2342
+source-wordcount: 2348
 ht-degree: 2%
 
 ---
@@ -137,6 +137,7 @@ ht-degree: 2%
       + Publicités {#ads}
          + [À propos de la vue [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
+         + [Modifier le statut d’une publicité](/help/search-social-commerce/new-ui/manage/ads/ad-change-status.md)
    + Rapports {#reports}
       + Rapports planifiés {#scheduled}
          + [À propos des rapports planifiés](/help/search-social-commerce/new-ui/reports/report-about.md)
