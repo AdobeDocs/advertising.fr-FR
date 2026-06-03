@@ -4,10 +4,14 @@ description: Découvrez comment gérer l’accès des utilisateurs et utilisatri
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
 TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9c0e1d04187ee5f80d4b5899ab36833f202b16a
 workflow-type: tm+mt
 source-wordcount: 1082
@@ -143,7 +147,7 @@ Noone has permissions as of 6/1; spelling [sic]:
 
    1. Saisissez votre ID de [!DNL Adobe], puis cliquez sur **[!UICONTROL Continue]**.
 
-   1. Sélectionnez **[!UICONTROL Personal Account] » ou **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Sélectionnez **[!UICONTROL Personal Account] » ou &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. Sélectionnez l’organisation CX Entreprise applicable.
 
@@ -191,6 +195,6 @@ Suivez ce workflow pour chaque instance cliente de Search, Social et Commerce.
 
 ## Guide complet d’administration des utilisateurs et des liens supplémentaires
 
-* Pour plus d’informations sur l’administration des utilisateurs à l’aide de Adobe Admin Console, consultez le « Guide d’administration d’Adobe Enterprise et Teams ](https://helpx.adobe.com/enterprise/admin-guide.html) », y compris la [présentation d’Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html).[
+* Pour plus d’informations sur l’administration des utilisateurs à l’aide de Adobe Admin Console, consultez le « Guide d’administration d’Adobe Enterprise et Teams [&#128279;](https://helpx.adobe.com/enterprise/admin-guide.html) », y compris la [présentation d’Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html).
 
 * Admin Console : [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
