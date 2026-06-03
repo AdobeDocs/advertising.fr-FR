@@ -18,16 +18,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1310
 ht-degree: 0%
 
 ---
 
 # Présentation de [!DNL Analytics for Advertising]
 
-*Annonceurs avec Advertising Creative, Advertising DSP et[!DNL Advertising Search, Social, & Commerce]*
+*Annonceurs avec Advertising Creative, Advertising DSP et Advertising Search, Social et Commerce*
 
 [!DNL Analytics for Advertising] intègre Adobe Analytics et Adobe Advertising pour étendre et améliorer les fonctionnalités de chaque produit.
 
@@ -101,7 +101,7 @@ Consultez « [&#x200B; Mesures Analytics dans Adobe Advertising &#x200B;](analyt
 
 Adobe Advertising peut ingérer des segments [!DNL Analytics] à des fins de remarketing pour des annonces [!DNL Creative], [!DNL DSP] et [!DNL Search, Social, & Commerce] à l’aide de l’intégration native des audiences d’entreprise CX entre [!DNL Analytics] et l’entreprise CX.
 
-Pour accéder aux segments [!DNL Analytics], un compte d’annonceur doit activer le service [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Lorsque le service d’ID est activé, tous les segments CX Enterprise sont disponibles dans Adobe Advertising dès qu’ils sont traités. Les segments CX Enterprise comprennent les segments créés dans [!DNL Analytics] et publiés sur CX Enterprise, les segments créés dans Adobe Audience Manager, les segments créés dans CX Enterprise à l’aide de l’[!DNL People core service] et les segments créés dans Adobe Experience Platform et envoyés à Adobe Advertising via Audience Manager.
+Pour accéder aux segments [!DNL Analytics], un compte d’annonceur doit activer le [service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Lorsque le service d’ID est activé, tous les segments CX Enterprise sont disponibles dans Adobe Advertising dès qu’ils sont traités. Les segments CX Enterprise comprennent les segments créés dans [!DNL Analytics] et publiés sur CX Enterprise, les segments créés dans Adobe Audience Manager, les segments créés dans CX Enterprise à l’aide de l’[!DNL People core service] et les segments créés dans Adobe Experience Platform et envoyés à Adobe Advertising via Audience Manager.
 
 [!DNL Analytics] segments sont disponibles dans les 24 heures et sont mis à jour quotidiennement.
 
