@@ -2,9 +2,13 @@
 title: Gérer les contraintes pour les unités d’offres de recherche
 description: Découvrez les contraintes permettant de restreindre les offres d’unités d’offre dans les campagnes CPC des portefeuilles hérités au niveau des mots-clés.
 feature: Search Campaign Management, Search Optimization
-source-git-commit: ade0f3ada440b76555b60af97162f7abe454fa0f
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: c800239a-06eb-4249-9aef-771973d24d35
+source-git-commit: 9cc395a6b0fe25435ca6ed022f8da767d525d68e
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: 2660
 ht-degree: 0%
 
 ---
