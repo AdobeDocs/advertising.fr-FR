@@ -4,17 +4,13 @@ description: Voir tous les serveurs et unités publicitaires certifiés.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
 TQID: https://experienceleague.adobe.com/TGGPFaETQVbzVcselZhGcQAGBt7g3pvyjAaQgIFObqs
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a33b121ebf568ae6b95a64a7392672d74603fe60
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: 362
 ht-degree: 0%
 
 ---
@@ -45,7 +41,8 @@ ht-degree: 0%
 | [!DNL Eyereturn] | | X | | | |
 | [!DNL Flashtalking] | X | X | | X | |
 | [!DNL Frequency] | X | | | | |
-| [!DNL GumGum] | | | X | | Hangtime intégré : 21x21 ; Vidéo mobile intégré : 22x22 ; Bureau intégré : 24x24 ; Hoverboard intégré : 25x25 ; Vitesse intégrée : 26x26 ; Super peau : 29x29 ; Coin extensible intégré : 20x20 |
+| [!DNL GumGum] | | X | X | | Hangtime intégré : 21x21 ; Vidéo mobile intégré : 22x22 ; Bureau intégré : 24x24 ; Hoverboard intégré : 25x25 ; Vitesse intégrée : 26x26 ; Super peau : 29x29 ; Coin extensible intégré : 20x20 |
+| [!DNL Gum Gum via Celtra] | | X | X | | Écran : 17x17 ; Écran extensible : 18x18 ; Vidéo extensible à l’écran : 19x19 ; Cadre à l’écran : 23x23 ; Vitesse à l’écran : 26x26 |
 | [!DNL HUMAN] (Anciennement [!DNL White Ops]) | X | X | | X | |
 | [!DNL IAS] | X | X | | X | |
 | [!DNL IBM] | | X | | X | |
