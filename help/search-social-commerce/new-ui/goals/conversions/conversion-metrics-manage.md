@@ -2,21 +2,17 @@
 title: Gérer les mesures de conversion d’un annonceur
 description: Découvrez comment utiliser les mesures de conversion suivies par Adobe Advertising pour un annonceur.
 feature: Conversions
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
-subfeature_v2:
-  - id: d068b149-b9d1-421c-9033-a51495366ddc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+subfeature_v2: id: d068b149-b9d1-421c-9033-a51495366ddc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 937
+source-wordcount: 932
 ht-degree: 0%
 
 ---
 
-# (Nouvelle interface utilisateur) Gérer et afficher les données de performances pour les mesures de conversion d’un annonceur
+# (Nouvelle interface utilisateur) Gérer les mesures de conversion d’un annonceur
 
 *Fonction*
 
@@ -88,7 +84,7 @@ Vous ne pouvez pas supprimer un nom d’affichage existant.
 
    Toutes les mesures de conversion qui ont été collectées pour l’annonceur, ainsi que tous les noms différents qui ont été spécifiés pour l’affichage, sont répertoriés.
 
-1. (Facultatif) Filtrez la liste [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou d’un en-tête de colonne [&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+1. (Facultatif) Filtrez la liste [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou d’un en-tête de colonne [](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 1. Modifiez les mesures de conversion disponibles pour les vues et les rapports de gestion :
 
@@ -104,7 +100,7 @@ Vous ne pouvez pas supprimer un nom d’affichage existant.
 
       1. (Pour masquer les mesures) Dans le message de confirmation, cliquez sur **[!UICONTROL Confirm]** pour masquer les mesures, y compris en les supprimant de toutes les mesures dérivées qui contiennent les mesures.
 
-## Gérer les rapports de données de performance pour les conversions
+## Gérer la visibilité de la conversion et les rapports sources
 
 Vous pouvez télécharger les informations suivantes sur vos conversions suivies : le nom de la mesure synchronisée, le nom d’affichage de la mesure dans les vues et rapports de gestion Search, Social et Commerce, si la mesure est visible dans les vues et rapports de gestion, l’identifiant de conversion et la source de la mesure. Téléchargez les données dans un fichier au format [!DNL Microsoft Excel] classeur (fichier XLSX).
 
@@ -118,7 +114,7 @@ Vous pouvez télécharger les informations suivantes sur vos conversions suivies
 
    * Pour télécharger des données pour toutes les lignes, il n’est pas nécessaire de cocher des cases. Toutes les lignes sont incluses par défaut.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans les paramètres de [!UICONTROL Grid Reports], saisissez un nom de rapport unique, puis cliquez sur **[!UICONTROL Generate]**.
 
@@ -134,7 +130,7 @@ Vous pouvez télécharger les informations suivantes sur vos conversions suivies
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") en regard du nom du fichier.
 

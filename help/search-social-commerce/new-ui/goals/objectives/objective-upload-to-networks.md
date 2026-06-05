@@ -3,9 +3,9 @@ title: (Nouvelle interface utilisateur) Activer le chargement des objectifs sur 
 description: Découvrez comment télécharger des objectifs pour vos portfolios hybrides vers Google Ads et Microsoft Advertising.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Les chargements vers [!DNL Google Ads] et [!DNL Microsoft Advertising] ont lieu 
 
 1. Vérifiez que chaque objectif — nommé `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` — apparaît dans les deux jours sur le réseau publicitaire.
 
-   Dans l’éditeur de [!DNL Google Ads], recherchez vos [&#x200B; actions de conversion &#x200B;](https://support.google.com/google-ads/answer/11461796){target="_blank"}. Dans l’éditeur de [!DNL Microsoft Advertising], recherchez vos [&#x200B; objectifs de conversion &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/56709){target="_blank"}.
+   Dans l’éditeur de [!DNL Google Ads], recherchez vos [ actions de conversion ](https://support.google.com/google-ads/answer/11461796){target="_blank"}. Dans l’éditeur de [!DNL Microsoft Advertising], recherchez vos [ objectifs de conversion ](https://help.ads.microsoft.com/#apex/ads/en/56709){target="_blank"}.
 
    Si nécessaire, mettez à jour la période pour inclure la date de chargement.
 
@@ -88,7 +88,7 @@ Si l’objectif (nommé `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_
 >[!MORELIKETHIS]
 >
 >* [À propos des objectifs](objective-about.md)
->* [Gérer et afficher les données de performances pour les mesures de conversion d’un annonceur](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+>* [Gérer les mesures de conversion d’un annonceur](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
 >* [Gérer les informations d’identification pour les comptes  [!DNL Google Ads]  responsable](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
 
 <!--
