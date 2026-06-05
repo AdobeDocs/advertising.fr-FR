@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+source-git-commit: 6474daed0ea0dc7b13fff847f6c327e4e5788dde
 workflow-type: tm+mt
-source-wordcount: 2356
+source-wordcount: 2416
 ht-degree: 2%
 
 ---
@@ -229,6 +229,17 @@ Assister les formats de rapport {#assist-report-formats}
             + [Gestion des comptes réseau pour les chargements de données](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [Gestion  [!DNL Naver]  comptes pour le suivi uniquement](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
       + [Répliquer  [!DNL Google Ads]  campagnes dans  [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)
+      + Feuilles de support {#bulksheets}
+         + [À propos de la gestion des données de campagne à l&#39;aide de feuilles d&#39;envoi groupé](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)
+         + [Configuration d’un compte FTP pour le chargement des feuilles d’envoi groupé](/help/search-social-commerce/new-ui/set-up/bulksheets/ftp-account.md)
+         + [Télécharger/créer un fichier de feuille d’envoi groupé](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)
+         + [Validation des pages de destination dans des fichiers de feuille d’envoi groupé](/help/search-social-commerce/new-ui/set-up/bulksheets/validate-landing-pages.md)
+         + [Exporter un fichier de feuille d’envoi groupé généré ou chargé](/help/search-social-commerce/new-ui/set-up/bulksheets/export.md)
+         + [Charger une feuille d’envoi groupé ou un fichier d’erreur corrigé](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md)
+         + [Publier des feuilles d’envoi groupé ou des fichiers d’erreur corrigés](/help/search-social-commerce/new-ui/set-up/bulksheets/post.md)
+         + [Erreurs de feuilles d’envoi groupé](/help/search-social-commerce/new-ui/set-up/bulksheets/errors.md)
+         + [Supprimer les feuilles d’envoi groupé et les fichiers d’erreur chargés](/help/search-social-commerce/new-ui/set-up/bulksheets/delete.md)
+         + [Arrêter une tâche de feuille d&#39;envoi groupé en cours](/help/search-social-commerce/new-ui/set-up/bulksheets/stop-job.md)
    + [Gestion des alertes personnalisées](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [Gérer les notifications](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [Administration des utilisateurs](/help/search-social-commerce/new-ui/user-administration.md)
