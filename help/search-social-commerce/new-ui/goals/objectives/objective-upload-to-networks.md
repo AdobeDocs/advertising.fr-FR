@@ -3,9 +3,9 @@ title: (Nouvelle interface utilisateur) Activer le chargement des objectifs sur 
 description: Découvrez comment télécharger des objectifs pour vos portfolios hybrides vers Google Ads et Microsoft Advertising.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Si l’objectif (nommé `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_
 >[!MORELIKETHIS]
 >
 >* [À propos des objectifs](objective-about.md)
->* [Gérer et afficher les données de performances pour les mesures de conversion d’un annonceur](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+>* [Gérer les mesures de conversion d’un annonceur](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
 >* [Gérer les informations d’identification pour les comptes  [!DNL Google Ads]  responsable](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
 
 <!--

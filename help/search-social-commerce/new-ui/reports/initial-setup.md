@@ -6,9 +6,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 357
+source-wordcount: 352
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Les nouveaux utilisateurs doivent effectuer les tâches de configuration initiales suivantes :
 
-* Rendez les mesures de conversion qu’Adobe Advertising suit pour un annonceur disponibles pour les rapports et d’autres vues. Vous pouvez également renommer les mesures de conversion affichées dans les en-têtes de colonne pour en faciliter la lecture. Voir « [Gérer et afficher les données de performances pour les mesures de conversion d’un annonceur](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md) ».
+* Rendez les mesures de conversion qu’Adobe Advertising suit pour un annonceur disponibles pour les rapports et d’autres vues. Vous pouvez également renommer les mesures de conversion affichées dans les en-têtes de colonne pour en faciliter la lecture. Voir « [&#x200B; Gérer les mesures de conversion d’un annonceur &#x200B;](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md) ».
 
   Les propriétés des transactions ne sont pas disponibles pour les rapports, sauf si vous les rendez spécifiquement disponibles.
 

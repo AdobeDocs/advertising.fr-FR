@@ -9,14 +9,14 @@ subfeature_v2:
   - id: d068b149-b9d1-421c-9033-a51495366ddc
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 937
+source-wordcount: 932
 ht-degree: 0%
 
 ---
 
-# (Nouvelle interface utilisateur) Gérer et afficher les données de performances pour les mesures de conversion d’un annonceur
+# (Nouvelle interface utilisateur) Gérer les mesures de conversion d’un annonceur
 
 *Fonction*
 
@@ -104,7 +104,7 @@ Vous ne pouvez pas supprimer un nom d’affichage existant.
 
       1. (Pour masquer les mesures) Dans le message de confirmation, cliquez sur **[!UICONTROL Confirm]** pour masquer les mesures, y compris en les supprimant de toutes les mesures dérivées qui contiennent les mesures.
 
-## Gérer les rapports de données de performance pour les conversions
+## Gérer la visibilité de la conversion et les rapports sources
 
 Vous pouvez télécharger les informations suivantes sur vos conversions suivies : le nom de la mesure synchronisée, le nom d’affichage de la mesure dans les vues et rapports de gestion Search, Social et Commerce, si la mesure est visible dans les vues et rapports de gestion, l’identifiant de conversion et la source de la mesure. Téléchargez les données dans un fichier au format [!DNL Microsoft Excel] classeur (fichier XLSX).
 

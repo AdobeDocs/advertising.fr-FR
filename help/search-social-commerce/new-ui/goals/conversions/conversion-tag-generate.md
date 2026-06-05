@@ -2,9 +2,9 @@
 title: (Nouvelle interface utilisateur) Générer et implémenter une balise de suivi des conversions Adobe Advertising
 description: Découvrez comment créer une balise de conversion Adobe Advertising pour suivre vos événements de conversion.
 feature: Search Tools, Search Tracking
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Créez une balise de conversion distincte pour chaque ensemble de mesures dont vous souhaitez effectuer le suivi. Vous pouvez générer des balises dans Search, Social et Commerce ou à l’aide de balises dans Adobe Experience Platform (anciennement appelé Adobe Experience Platform Launch) avec l’extension Adobe Advertising.
 
-## Générer et implémenter une balise de suivi des conversions dans Search, Social et Commerce
+## Générer une balise de suivi des conversions dans Search, Social et Commerce
 
 >[!NOTE]
 >
