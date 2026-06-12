@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: c62a18194544bcbe98117b86eccb1b5e2740999c
+source-git-commit: e208432cf19b2661fbce58a898a123bb1224c32b
 workflow-type: tm+mt
-source-wordcount: 1804
+source-wordcount: 1789
 ht-degree: 0%
 
 ---
@@ -31,17 +31,15 @@ ht-degree: 0%
 
 Les tâches suivantes sont requises pour échanger des données de manière native entre Adobe Advertising et Customer Journey Analytics à l’aide de [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr). Le transfert et l’attribution des données commencent après le lancement ; aucune donnée historique n’est incluse.
 
-1. (Analyste web de votre entreprise, facultatif) [Collectez des données historiques pour les ID AMO et les ID EF](/help/integrations/analytics/rvars-to-evars.md){target="_blank"}.
+Ces tâches ne sont pas nécessaires pour les annonceurs avec [!DNL Analytics for Advertising].
 
-   Cette étape s’applique uniquement aux annonceurs qui disposent d’[!DNL Analytics for Advertising].
+1. (Administration de sites de votre entreprise pour Adobe Experience Platform) [Configurez la collecte de données dans Experience Platform et implémentez les balises de suivi des conversions](#data-collection).
 
-2. (Administration de sites de votre entreprise pour Adobe Experience Platform) [Configurez la collecte de données dans Experience Platform et implémentez les balises de suivi des conversions](#data-collection).
+1. (Administrateur de site de votre organisation pour Customer Journey Analytics) [Créez une connexion à vos jeux de données Experience Platform dans Customer Journey Analytics](#dataset-connection).
 
-3. (Administrateur de site de votre organisation pour Customer Journey Analytics) [Créez une connexion à vos jeux de données Experience Platform dans Customer Journey Analytics](#dataset-connection).
+1. (Analyste web de votre entreprise) [Configurez des vues de données dans Customer Journey Analytics](#cja-data-views).
 
-4. (Analyste web de votre entreprise) [Configurez des vues de données dans Customer Journey Analytics](#cja-data-views).
-
-5. (Analyste web de votre entreprise) [Configurez des rapports et des visualisations dans Customer Journey Analytics Workspace](#cja-reports).
+1. (Analyste web de votre entreprise) [Configurez des rapports et des visualisations dans Customer Journey Analytics Workspace](#cja-reports).
 
 Les sections suivantes incluent les procédures détaillées, notamment les tâches et les paramètres requis pour l’intégration, mais n’expliquent pas toutes les fonctionnalités disponibles dans les workflows. Consultez les ressources liées pour obtenir des informations complètes.
 

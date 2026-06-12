@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
+source-git-commit: f5aece05b41143c241ae0899f9d3ed3a0bed4c54
 workflow-type: tm+mt
-source-wordcount: 7432
+source-wordcount: 7476
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Les fonctionnalités suivantes sont nouvelles ou ont été récemment modifiées
 
 | Date | Fonctionnalité | Description | Pour Plus D’Informations |
 | ---- | ------- | ----------- | -------------------- |
+| 9 Juin 2026 | Intégration avec Adobe Customer Journey Analytics | Les annonceurs qui utilisent Customer Journey Analytics, mais pas [!DNL Analytics for Advertising], peuvent échanger des données de manière native entre Adobe Advertising et Customer Journey Analytics à l’aide du [!DNL Web SDK] Adobe Experience Platform. | Voir « [&#x200B; Présentation de l’intégration entre Adobe Advertising et Customer Journey Analytics &#x200B;](/help/integrations/customer-journey-analytics/overview.md). » |
 | 3 Juin 2026 | [!DNL Adobe Analytics for Advertising] | Les annonceurs avec Advertising Creative et [!DNL Adobe Analytics for Advertising] peuvent désormais afficher les données au niveau de la variante et de la branche dans Adobe Analytics. Les données s’affichent quel que soit le DSP utilisé pour exécuter les annonces issues de vos expériences [!DNL Creative]. Si vous exécutez les annonces à partir d’un emplacement Advertising DSP, vous verrez également des données au niveau de la campagne et de l’emplacement, ainsi que des mesures liées aux coûts.<br><br>Aucune configuration supplémentaire n’est requise. | Consultez les Advertising Creative [mesures de trafic](https://experienceleague.adobe.com/fr/docs/analytics/components/metrics/amo-metrics) et [classifications](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#classifications) visibles dans [!DNL Analytics]. |
 | 20 Mai 2026 | Sources d’audience propriétaires, identifiants universels, [!UICONTROL Placements] | Les annonceurs en Australie peuvent désormais importer des identifiants universels [!DNL AdFixus] avec des mappages de segments pour la publicité ciblée. DSP importe les segments propriétaires depuis [!DNL AdFixus] en l’état, sans les convertir en autres types d’identifiants. Le processus comprend la création d’une source d’audience et le partage d’une clé générée automatiquement avec votre équipe de [!DNL AdFixus]. | Voir « [Importer des segments propriétaires depuis [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md) », « [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md) » et « [Gérer les sources d’audience pour activer les audiences d’ID universels](/help/dsp/audiences/sources/source-manage.md) ». |
 | 11 Mai 2026 | [!UICONTROL Audiences] réutilisables | (Fonction Beta) Vous pouvez désormais créer une audience réutilisable à l’aide d’un agent d’audience assisté par IA. Décrivez votre audience cible dans des invites en langage naturel et l&#39;agent suggère des segments tiers et crée des expressions d&#39;audience à utiliser comme cibles ou exclusions. | Voir « [Créer une audience réutilisable](/help/dsp/audiences/reusable-audience-create.md) ». |

@@ -16,9 +16,9 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
+source-git-commit: 5a926d18f634eb08b6fd329d6b6ba90a8f91d991
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: 191
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
   Vous aurez besoin de l’aide de votre analyste web interne pour configurer une connexion à votre jeu de données et configurer des rapports.
 
-* Technologies de modélisation et de gestion des données de Adobe Experience Platform (y compris [schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) et [jeux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/overview)) et [technologies de collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/home) (y compris [flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/overview) et [balises](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/home))
+* (Annonceurs sans [!DNL Analytics for Advertising]) Technologies de modélisation et de gestion des données de Adobe Experience Platform (y compris [schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) et [jeux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/overview)) et [technologies de collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/home) (y compris [flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/overview) et [balises](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/home))
 
   Ces technologies nécessitent la prise en charge de l’administrateur de votre site Experience Platform.
 
