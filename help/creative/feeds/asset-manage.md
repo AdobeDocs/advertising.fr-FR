@@ -4,13 +4,11 @@ description: Découvrez comment charger et gérer un fichier de ressource pour u
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
 TQID: https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: 600
 ht-degree: 0%
 
 ---
@@ -35,7 +33,7 @@ ht-degree: 0%
 
      Les noms de champ spécifiques à l’annonceur doivent correspondre aux [champs disponibles pour les fichiers de flux publicitaires dynamiques](/help/creative/appendix-available-feed-fields.md).
 
-   * Ressources d’image associées au format GIF, JPEG, JPG ou PNG.<!-- Is this true: The maximum file size is two (2) MB. --> Voir les [tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md).
+   * Ressources d’image associées au format GIF, JPEG, JPG ou PNG.<!-- Is this true: The maximum file size is two (2) MB. --> Consultez les [tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md).
 
   Vous pouvez charger un seul fichier XLSX, un seul fichier image ou un seul fichier ZIP contenant n’importe quelle combinaison de fichiers XLSX et d’image.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
