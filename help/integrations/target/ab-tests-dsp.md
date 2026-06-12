@@ -3,11 +3,22 @@ title: Configurer des tests A/B pour les publicités Adobe Advertising DSP dans 
 description: Découvrez comment configurer un test A/B dans  [!DNL Target]  pour vos publicités DSP.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
 TQID: https://experienceleague.adobe.com/xETpACcZbZqfFjS58mS-k-kXhm0BT79W0aHz2bdKDGs
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: d9510790-d834-436d-8423-8d69cd50464a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
 source-wordcount: 1645
@@ -71,9 +82,9 @@ En ajoutant un pixel d’événement d’impression Audience Manager à vos bali
 
 1. Implémentez un pixel d’événement d’impression Audience Manager dans vos balises d’annonces publicitaires et paramètres d’emplacement DSP.
 
-   Pour obtenir des instructions, reportez-vous à « [ Collecter des données d’exposition des médias à partir de campagnes Advertising DSP ](/help/integrations/audience-manager/media-data-integration/collect.md) ».
+   Pour obtenir des instructions, reportez-vous à « [&#x200B; Collecter des données d’exposition des médias à partir de campagnes Advertising DSP &#x200B;](/help/integrations/audience-manager/media-data-integration/collect.md) ».
 
-   Veillez à ajouter [des macros ](/help/dsp/campaign-management/macros.md) pour capturer toutes les données que le pixel d&#39;événement d&#39;impression doit renvoyer, y compris les `${TM_PLACEMENT_ID_NUM}` de l&#39;identifiant d&#39;emplacement numérique.
+   Veillez à ajouter [des macros &#x200B;](/help/dsp/campaign-management/macros.md) pour capturer toutes les données que le pixel d&#39;événement d&#39;impression doit renvoyer, y compris les `${TM_PLACEMENT_ID_NUM}` de l&#39;identifiant d&#39;emplacement numérique.
 
    >[!NOTE]
    >
@@ -185,7 +196,7 @@ Les dimensions suivantes se rapportent aux [!DNL Analytics for Target] :
 
 Dans Analysis Workspace, si vous constatez que les données d’activité et d’expérience sont minimales ou ne sont pas renseignées, procédez comme suit :
 
-* Vérifiez que le même [!UICONTROL Supplemental Data ID] (SDID) est utilisé pour les [!DNL Target] et les [!DNL Analytics]. Vous pouvez vérifier les valeurs du SDID à l’aide de l’[](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) sur la page de destination vers laquelle la campagne dirige les utilisateurs.
+* Vérifiez que le même [!UICONTROL Supplemental Data ID] (SDID) est utilisé pour les [!DNL Target] et les [!DNL Analytics]. Vous pouvez vérifier les valeurs du SDID à l’aide de l’[&#128279;](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) sur la page de destination vers laquelle la campagne dirige les utilisateurs.
 
   [Valeurs de SDID (Supplemental Data ID) dans Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
