@@ -56,7 +56,7 @@ Cette section détermine les dates d&#39;exécution du rapport. Pour configurer 
   >
   >Vous pouvez également [exécuter un rapport personnalisé à tout moment](report-run-now.md) à partir de la vue [!UICONTROL Reports].
 
-* *[!UICONTROL On]\&lt;Date\>:* exécute le rapport à une date spécifiée pour l&#39;achèvement d&#39;ici 09:00 dans le fuseau horaire du compte.
+* *[!UICONTROL On]\&lt;Date\> :* exécute le rapport à une date spécifiée pour s’achever à 09:00 dans le fuseau horaire du compte.
 
 * *[!UICONTROL Recurring]:* exécute le rapport selon un planning défini au cours d’une période donnée.
 

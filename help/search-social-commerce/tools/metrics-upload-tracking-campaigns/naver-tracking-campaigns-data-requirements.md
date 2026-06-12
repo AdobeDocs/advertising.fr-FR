@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 226
+source-wordcount: 230
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Les champs d’en-tête suivants sont obligatoires et facultatifs. Chaque ligne 
 | Campagne | Chaîne sensible à la casse | Nom de la campagne. |
 | Groupe publicitaire (en un mot) | Chaîne sensible à la casse | Nom du groupe publicitaire. |
 | Mot-clé | Chaîne sensible à la casse | (Annonces par mot-clé) Mot-clé qui a généré l’annonce. |
-| [Mesure] | Entier | (Facultatif) Nombre de [quelle que soit la mesure].</br><br>Les mesures standard incluent les impressions, les coûts et les clics. Vous pouvez inclure toutes les mesures supplémentaires souhaitées dans le réseau publicitaire. Incluez chaque mesure dans une colonne distincte.<br><br><b>Remarques :</b><ul><li>L&#39;en-tête de colonne du coût doit être « Coût (KRW) ».</li><li>Pour inclure le coût (KRW) des publicités de marque, divisez manuellement le coût mensuel fixe par jour au niveau du groupe publicitaire.</li><li>Supprimez toutes les virgules des valeurs de mesure standard. Par exemple, utilisez 1 000 au lieu de 1 000.</li><li>Pour les valeurs nulles, utilisez 0.</li></ul> |
+| [Mesure] | Entier | (Facultatif) Nombre de [quelle que soit la mesure].</br><br>Les mesures standard incluent les impressions, les coûts et les clics. Vous pouvez inclure toutes les mesures supplémentaires souhaitées dans le réseau publicitaire. Inclure chaque mesure dans une colonne distincte.<br><br><b>Remarques :</b><ul><li>L&#39;en-tête de colonne du coût doit être « Coût (KRW) ».</li><li>Pour inclure le coût (KRW) des publicités de marque, divisez manuellement le coût mensuel fixe par jour au niveau du groupe publicitaire.</li><li>Supprimez toutes les virgules des valeurs de mesure standard. Par exemple, utilisez 1 000 au lieu de 1 000.</li><li>Pour les valeurs nulles, utilisez 0.</li></ul> |
 
 >[!MORELIKETHIS]
 >
