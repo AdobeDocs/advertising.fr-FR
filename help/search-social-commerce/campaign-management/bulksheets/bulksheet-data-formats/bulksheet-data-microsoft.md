@@ -4,9 +4,12 @@ description: Référencez les champs d’en-tête et de données obligatoires da
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 7024
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 Pour créer et mettre à jour [!DNL Microsoft Advertising] données de campagne en bloc, vous pouvez utiliser des fichiers de feuille d’envoi groupé Search, Social et Commerce formatés spécifiquement pour les comptes [!DNL Microsoft Advertising]. Vous pouvez a) [générer des fichiers de feuilles de support pour les comptes existants](../bulksheet-download.md) au format de fichier requis ou b) les créer manuellement (voir « [Formats de fichiers de feuilles de support pris en charge](bulksheet-file-formats.md) » pour obtenir des informations générales sur les formats de fichiers pris en charge).
 
-Chaque feuille d’envoi groupé doit inclure les champs d’en-tête et les champs de données correspondants requis pour les [ opérations spécifiques que vous souhaitez effectuer ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) (telles que la création d’une annonce publicitaire). Lorsqu’un champ n’est pas obligatoire, vous pouvez l’omettre dans l’en-tête et les lignes de données. Toutes les colonnes personnalisées sont supprimées lorsque vous téléchargez le fichier de feuille en bloc.
+Chaque feuille d’envoi groupé doit inclure les champs d’en-tête et les champs de données correspondants requis pour les [&#x200B; opérations spécifiques que vous souhaitez effectuer &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) (telles que la création d’une annonce publicitaire). Lorsqu’un champ n’est pas obligatoire, vous pouvez l’omettre dans l’en-tête et les lignes de données. Toutes les colonnes personnalisées sont supprimées lorsque vous téléchargez le fichier de feuille en bloc.
 
 Vous trouverez ci-dessous un tableau de tous les champs de données disponibles et des tableaux supplémentaires indiquant les champs nécessaires à l’ajout, la modification ou la suppression de données pour des entités individuelles (telles que des campagnes et des mots-clés).
 
@@ -71,7 +74,7 @@ Pour les champs de données pertinents pour les entités de compte, reportez-vou
 | [!UICONTROL Start Date] | (Liens du site améliorés uniquement) Première date à laquelle des offres peuvent être faites pour le lien du site, dans le fuseau horaire de l’annonceur et dans l’un des formats suivants : aaaa/mm/aaaa, jj/aa, jj-aaaa ou jj-aa. La valeur par défaut des nouveaux liens de site améliorés est la date du jour. <b>Remarque :</b> les nouveaux liens de site améliorés ne peuvent être créés que dans les campagnes avec des liens de site améliorés existants ou sans liens de site. |
 | [!UICONTROL End Date] | Dernière date à laquelle le lien du site peut apparaître avec des annonces, dans le fuseau horaire de l’annonceur et dans l’un des formats suivants : j/mm/aaaa, j/j/aaaa, j-j-aaaa ou j-j-aaaa. Pour un nouveau lien du site, la valeur par défaut est `[blank]` (c’est-à-dire aucune date de fin). |
 | [!UICONTROL Call To Action] | Call to action à inclure dans la publicité. Consultez la [Référence d’API pour obtenir une liste des valeurs possibles](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction), mais saisissez des appels à l’action à mots multiples sous la forme de mots multiples (tels que « Bet Now » au lieu de « BetNow ») dans les feuilles d’envoi groupé. |
-| [!UICONTROL Call To Action Language] | Langue des options call to action. Consultez la section [ Référence d’API pour obtenir une liste des langues possibles](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename). |
+| [!UICONTROL Call To Action Language] | Langue des options call to action. Consultez la section [&#x200B; Référence d’API pour obtenir une liste des langues possibles](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename). |
 | [!UICONTROL Base URL/Final URL] | URL de la page de destination vers laquelle les utilisateurs et utilisatrices du moteur de recherche sont dirigés lorsqu’ils cliquent sur votre annonce, y compris tout paramètre d’ajout configuré pour la campagne ou le compte. Les URL de base/finales au niveau du mot-clé remplacent celles au niveau de l’annonce et aux niveaux supérieurs.<br><br>Pour supprimer la valeur existante, utilisez le `[delete]` de valeur (y compris les crochets). |
 | [!UICONTROL Destination URL] | (Incluse dans les feuilles d&#39;envoi groupé générées à titre d&#39;information ; non publiée dans le moteur de recherche) Pour les comptes avec des URL de destination, il s&#39;agit de l&#39;URL qui lie une annonce à une URL de base/page de destination sur le site Web de l&#39;annonceur (parfois via un autre site qui suit le clic et redirige ensuite l&#39;utilisateur vers la page de destination). Elle inclut tous les paramètres d’ajout configurés pour la campagne ou le compte Search, Social et Commerce. Si vous avez généré des URL de tracking, cela dépend des paramètres de tracking définis dans les paramètres de votre compte et de votre campagne. Si vous avez ajouté des paramètres spécifiques au moteur de recherche, ils peuvent être remplacés par des paramètres équivalents pour Rechercher, Social et Commerce. <br><br>Pour les comptes avec des URL finales, cette colonne affiche la même valeur que la colonne URL de base/URL finale. |
 | [!UICONTROL Custom URL Param] | Données à substituer à la variable dynamique `{custom_code}` lorsque la variable est incluse dans les paramètres de tracking du compte de recherche ou des paramètres de la campagne. Pour insérer la valeur personnalisée dans l&#39;URL de tracking, vous devez télécharger le fichier de feuille d&#39;envoi groupé via l&#39;option Générer les URL de tracking . |
