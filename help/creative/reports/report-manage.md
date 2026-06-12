@@ -17,7 +17,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 1479
+source-wordcount: 1485
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Dupliquez un rapport personnalisé pour créer un rapport avec des paramètres s
 
 1. (Facultatif) Modifiez les [paramètres du rapport](#report-settings.md) selon les besoins.
 
-   Par défaut, le nom du rapport est « \&lt;*nom de rapport existant*\> \#2 » (ou le numéro suivant dans la séquence).
+   Par défaut, le nom du rapport est « &lt;*nom du rapport existant*\> \#2 » (ou le numéro suivant dans la séquence).
 
 ## Modification d’un rapport personnalisé {#report-edit}
 
@@ -132,7 +132,7 @@ Cette section détermine les dates d&#39;exécution du rapport. Pour configurer 
   >
   >Vous pouvez également [exécuter un rapport personnalisé à tout moment](#report-run-now) à partir de la vue [!UICONTROL Reports].
 
-* *[!UICONTROL On]\&lt;Date\>:* exécute le rapport à une date spécifiée pour l&#39;achèvement d&#39;ici 09:00 dans le fuseau horaire du compte.
+* *[!UICONTROL On]\&lt;Date\> :* exécute le rapport à une date spécifiée pour s’achever à 09:00 dans le fuseau horaire du compte.
 
 * *[!UICONTROL Recurring]:* exécute le rapport selon un planning défini au cours d’une période donnée.
 

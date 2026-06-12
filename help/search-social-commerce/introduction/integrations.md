@@ -1,5 +1,5 @@
 ---
-title: Intégration aux solutions et services Adobe CX Enterprise
+title: Intégration aux solutions et services d’entreprise Adobe CX
 description: Découvrez les intégrations de Search, Social et Commerce aux solutions et services Adobe CX Enterprise.
 exl-id: 26456f60-937a-4f39-b5cf-a71c1c1b4833
 feature: Search Introduction
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 ---
 
-# Intégration aux solutions et services Adobe CX Enterprise
+# Intégration aux solutions et services d’entreprise Adobe CX
 
 Advertising Search, Social et Commerce est intégré aux produits [!DNL Adobe] suivants.
 
-* [Balises de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=fr) — Vous pouvez utiliser l’[extension Adobe Advertising Cloud](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud) pour Adobe Experience Platform afin de [créer des balises de suivi de conversion Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md), ainsi que des balises de suivi tierces, pour vos pages de destination publicitaires. Si votre organisation ne dispose pas d’un compte Experience Platform, vous pouvez tout de même installer l’extension directement dans l’[interface utilisateur de la collecte de données Adobe Experience Platform](https://experience.adobe.com/#/data-collection/), disponible gratuitement pour les clients Adobe CX Enterprise.
+* [Balises de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=fr) — Vous pouvez utiliser l’[extension Adobe Advertising Cloud](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud) pour Adobe Experience Platform afin de [créer des balises de suivi de conversion Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md), ainsi que des balises de suivi tierces, pour vos pages de destination publicitaires. Si votre entreprise ne dispose pas d’un compte Experience Platform, vous pouvez tout de même installer l’extension directement dans l’[interface utilisateur de la collecte de données Adobe Experience Platform](https://experience.adobe.com/#/data-collection/), disponible gratuitement pour les clients Adobe CX Enterprise.
 
   Pour installer l’extension requise, contactez l’administrateur de votre organisation pour accéder aux fonctionnalités de collecte de données dans l’interface utilisateur et demandez-lui de vous accorder l’autorisation `manage_properties`.
 
@@ -55,4 +55,4 @@ Advertising Search, Social et Commerce est intégré aux produits [!DNL Adobe] s
 
 * Adobe Campaign — Vous pouvez [créer et mettre à jour une audience de correspondance client [!DNL Google Ads] e-mail dans [!DNL Campaign]](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md).
 
-* Notifications Adobe CX Enterprise : (lorsque vous êtes connecté via Adobe CX Enterprise) depuis le lien de notifications ([Notifications d’alerte](/help/search-social-commerce/assets/notifications-panel.png "Notifications d’alerte")) situé en haut de chaque page, vous pouvez afficher toutes les mises à jour du système Adobe CX Enterprise, les publications, les mentions et les ressources partagées. Pour plus d’informations sur l’accès à Adobe CX Enterprise, contactez l’équipe chargée de votre compte Adobe.
+* Notifications Adobe CX Enterprise - (Lorsque vous êtes connecté via Adobe CX Enterprise) Depuis le lien de notifications ([Notifications d’alerte](/help/search-social-commerce/assets/notifications-panel.png "Notifications d’alerte")) en haut de chaque page, vous pouvez afficher toutes les mises à jour du système Adobe CX Enterprise, les publications, les mentions et les ressources partagées. Pour plus d’informations sur l’accès à Adobe CX Enterprise, contactez l’équipe chargée de votre compte Adobe.
