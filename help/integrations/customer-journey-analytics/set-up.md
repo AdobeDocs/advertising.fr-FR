@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: e208432cf19b2661fbce58a898a123bb1224c32b
+source-git-commit: d1f87f8b2dade022c73775e481d44c1cbd9f028b
 workflow-type: tm+mt
-source-wordcount: 1789
+source-wordcount: 1791
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Cette procédure comprend la création d’un schéma. Vous pouvez éventuelleme
 
    * Choisissez l’option pour **[!UICONTROL Create dataset from schema]** et sélectionner votre schéma.
 
-     En fonction de votre jeu de données d’événement, Adobe Advertising crée deux jeux de données supplémentaires : 1\) un *jeu de données de résumé* avec les données de résumé associées (telles que les clics et les impressions) et 2\) un *jeu de données de recherche* (avec des dimensions/métadonnées de classification, telles que le nom de la campagne Adobe Advertising). Les données des jeux de données sont renseignées quotidiennement dans Experience Platform.
+     En fonction de votre jeu de données d’événement, Adobe Advertising crée deux jeux de données supplémentaires : 1\) un *jeu de données de résumé* avec les données de résumé associées (telles que les clics agrégés et les impressions agrégées) et 2\) un *jeu de données de recherche* (avec des dimensions/métadonnées de classification, telles que le nom de la campagne Adobe Advertising). Les données des jeux de données sont renseignées quotidiennement dans Experience Platform.
 
    >[!TIP]
    >
