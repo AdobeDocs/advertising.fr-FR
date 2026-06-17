@@ -4,10 +4,18 @@ description: Découvrez comment configurer la collecte de données, le transfert
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: a955e2b0-ea1b-4b5c-937b-f8c66603cd36
 TQID: https://experienceleague.adobe.com/u6xL6FuW-TwqAkse3VTS3zcyt-10Cv-ADTZLJTiWWT8
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
 source-wordcount: 1802
@@ -257,9 +265,9 @@ Vous pouvez classer les mesures récapitulatives et les données d’événement
 >[!TIP]
 >
 >Les événements récapitulatifs ajoutent généralement une petite quantité de données supplémentaires aux rapports, telles que quelques événements supplémentaires, une session supplémentaire par jour ou une personne supplémentaire par rapport. Ces ajouts sont négligeables par rapport aux événements web standard. Cependant, vous pouvez filtrer ces données d’événement de résumé supplémentaires en excluant les données du `00000000-0000-0000-0000-000000000000` ID de personne factice.
->![Exemple d’exclusion de données à l’aide d’un ID ](/help/integrations/assets/cja-report-with-person-id.png " personneExemple d’exclusion de données à l’aide d’un ID de personne")
+>![Exemple d’exclusion de données à l’aide d’un ID &#x200B;](/help/integrations/assets/cja-report-with-person-id.png " personneExemple d’exclusion de données à l’aide d’un ID de personne")
 
-![Comment vos jeux de données peuvent-ils apparaître dans Customer Journey Analytics ](/help/integrations/assets/cja-report-example.png "Comment vos jeux de données peuvent-ils apparaître dans Customer Journey Analytics ")
+![Comment vos jeux de données peuvent-ils apparaître dans Customer Journey Analytics &#x200B;](/help/integrations/assets/cja-report-example.png "Comment vos jeux de données peuvent-ils apparaître dans Customer Journey Analytics ")
 
 >[!MORELIKETHIS]
 >
@@ -269,5 +277,5 @@ Vous pouvez classer les mesures récapitulatives et les données d’événement
 >* [Mesures et dimensions Adobe Advertising dans Customer Journey Analytics](advertising-data-in-cja.md)
 >* [Collecter des données historiques pour les ID AMO et les ID EF à utiliser dans Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 >* [Dépannage](troubleshooting.md)
->* Guide de [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
+>* Guide de [&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
 >* Customer Journey Analytics [Guide de l’utilisateur pour les utilisateurs d’Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
