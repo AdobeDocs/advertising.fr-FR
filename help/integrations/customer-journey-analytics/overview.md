@@ -16,9 +16,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 9ac8d984e0d48eab6b2da695c48702dacd41bb33
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: 499
 ht-degree: 0%
 
 ---
@@ -59,6 +59,14 @@ Adobe Advertising est intégré à Adobe Customer Journey Analytics pour le part
 
   Dans ce cas d’utilisation, utilisez Web SDK pour effectuer le suivi des événements de site (à l’aide de cookies, d’adresses IP hachées ou d’identifiants universels) et attribuer les événements de site à l’activité de médias achetés dans [!DNL Google Ads], [!DNL Microsoft Advertising] et [!DNL Meta], ainsi qu’à Adobe DSP. Vous utiliserez également Adobe Experience Platform pour la collecte de données.
 
+## Définitions des types de données de rapport
+
+* **Données au niveau des événements :** événements horodatés, tels que les sessions, les pages vues, les envois de formulaires de leads et les envois d’applications.
+
+* **Données récapitulatives :** données de rapports agrégées, telles que la plateforme publicitaire, la campagne, l’emplacement, l’impression, le clic et le coût.
+
+* **Données de classification/dimensions :** dimensions de rapports, telles que le nom de la campagne Adobe Advertising, le nom du portfolio ou l’identifiant de l’emplacement. Vous pouvez rechercher (filtrer) vos données au niveau de l’événement et vos données récapitulatives par classification/dimension.
+
 ## Comment lancer une intégration native entre Adobe Advertising et Customer Journey Analytics {#integration-cja-initiate}
 
 Contactez l’équipe chargée de votre compte Adobe, qui effectuera la configuration initiale nécessaire pour commencer et qui vous aidera à planifier votre implémentation et l’utilisation des données en fonction des besoins de votre entreprise.
@@ -70,3 +78,4 @@ Contactez l’équipe chargée de votre compte Adobe, qui effectuera la configur
 >* [Configurer la collecte, le transfert et la création de rapports de données](set-up.md)
 >* [Mesures et dimensions Adobe Advertising dans Customer Journey Analytics](advertising-data-in-cja.md)
 >* (Utilisateurs Adobe Analytics) [Collectez des données historiques pour les ID AMO et les ID EF à utiliser dans Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
+>* [Dépannage](troubleshooting.md)
