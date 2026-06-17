@@ -2,7 +2,7 @@
 title: À propos des rapports d’assistance
 description: Découvrez les rapports qui fournissent des informations sur les chemins de conversion.
 feature: Search Reports, Search Assist Reports
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -35,3 +35,4 @@ Les rapports d’assistance fournissent des informations sur les chemins de conv
 >* [Le [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Paramètres des rapports d’assistance](assist-report-settings.md)
 >* [Gérer les rapports planifiés](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+
