@@ -10,20 +10,14 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
+source-git-commit: 9f028c5710eb34f4e7f8a3c50b46dd4406048c57
 workflow-type: tm+mt
-source-wordcount: 2412
+source-wordcount: 2401
 ht-degree: 2%
 
 ---
 
 # Guide d’Advertising Search, Social et Commerce {#search-social-commerce}
-
-<!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
-
-<!--
-    + [Publisher recommendations and insights support](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
--->
 
 + [Nouveautés](home.md)
 + [À propos de ce guide](help-about.md)
@@ -32,10 +26,10 @@ ht-degree: 2%
    + [Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md)
    + Intégration à Adobe CX Enterprise {#integrations}
       + [Intégration aux solutions et services d’entreprise Adobe CX](/help/search-social-commerce/introduction/integrations.md)
-      + [&#x200B; [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr){target="_blank"}
-      + [Intégration avec Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=fr){target="_blank"}
+      + [&#x200B; [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Intégration avec Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
    + [Prise en charge de la confidentialité des clients (lien)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}
-   + [Politiques et directives (lien)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=fr){target="_blank"}
+   + [Politiques et directives (lien)](https://experienceleague.adobe.com/fr/docs/advertising/policies/ad-requirements-policy){target="_blank"}
 + Prise en main {#getting-started}
    + [Présentation de l’implémentation](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Configuration requise](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -171,10 +165,10 @@ ht-degree: 2%
                + [Colonnes de rapport pour les rapports de base et avancés](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-columns.md)
             + Rapports d’assistance {#assist-reports}
                + [À propos des rapports d’assistance](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-about.md)
-Assister les formats de rapport {#assist-report-formats}
-                  + [The [!UICONTROL Channel Assist Report]]/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)
-                  + [Le [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/campaign-assist-report.md)
-                  + [Le [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/keyword-assist-report.md)
+                  + Assister les formats de rapport {#assist-report-formats}
+                     + [Le [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)
+                     + [Le [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/campaign-assist-report.md)
+                     + [Le [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/keyword-assist-report.md)
                + [Paramètres des rapports d’assistance](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-settings.md)
             + Rapports spécialisés {#specialty-reports}
                + [À propos des rapports spécialisés](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-about.md)
@@ -260,7 +254,7 @@ Assister les formats de rapport {#assist-report-formats}
             + [Formats de suivi des clics pour  [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Formats de suivi des clics pour  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Paramètres de tracking optionnels des URL de tracking des clics](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Cookies Adobe Advertising (lien)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
+      + [Cookies Adobe Advertising (lien)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=fr){target="_blank"}
       + [Le paramètre de tracking AMO ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Suivi des conversions {#conversion-tracking}
       + [Options de suivi des conversions](/help/search-social-commerce/tracking/conversion-tracking-about.md)
@@ -602,3 +596,9 @@ Assister les formats de rapport {#assist-report-formats}
 + [Obtenir de l’aide](get-help.md)
 + [Glossaire](glossary.md)
 
+
+<!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
+
+<!--
+    + [Publisher recommendations and insights support](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
+-->
