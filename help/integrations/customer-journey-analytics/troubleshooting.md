@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 33382b092be521df814a81aad3c7ae661d853174
+source-git-commit: 3ca788a8a15277a105c065087ad9a5fbc9108311
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 627
 ht-degree: 0%
 
 ---
@@ -56,7 +56,6 @@ Si le flux est activé pour un annonceur, mais que vous ne voyez toujours pas de
 Vérifiez que le flux d’Adobe Advertising vers Customer Journey Analytics est activé pour le compte réseau publicitaire spécifique. Vérifiez auprès de l’équipe chargée de votre compte Adobe.
 
 Si le flux est activé pour un compte, mais que vous ne voyez toujours pas de données récapitulatives, ouvrez un ticket d’assistance pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support). Incluez le [!UICONTROL Account ID] du compte réseau publicitaire.
-.
 
 +++
 
