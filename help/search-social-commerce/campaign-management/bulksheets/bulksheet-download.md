@@ -4,11 +4,9 @@ description: Découvrez comment créer des fichiers de feuilles d’envoi group�
 exl-id: a3fcef52-3d36-462e-a975-c741d003326e
 feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/2naHFI92HnVZ7Vi1gRnTtBtI1PbfTmfkeLQGRJJCSgs
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 1768
 ht-degree: 0%
@@ -62,7 +60,7 @@ Lorsque la tâche commence, la fenêtre affiche une notification mais reste ouve
 
 ## Lignes de feuilles d&#39;envoi groupé par réseau publicitaire {#bulksheet-rows-by-ad-network}
 
-| Ligne de feuille d&#39;envoi groupé | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo Native] | Yandex | Remarques |
+| Ligne de feuille d&#39;envoi groupé | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo DSP] | [!DNL Yahoo Native] | Yandex | Remarques |
 |----|----|----|----|-------|----|----|----|----|----|----|
 | [!UICONTROL Campaign] | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui | — |
 | [!UICONTROL Adgroup] | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui | — |
