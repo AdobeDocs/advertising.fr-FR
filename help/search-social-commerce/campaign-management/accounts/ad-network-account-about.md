@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: 430
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Search, Social et Commerce peuvent suivre n’importe quel compte d’un annonce
 
 ## Comptes synchronisés via les API
 
-*[!DNL Google Ads], [!DNL LY Ads] (anciennement [!DNL Yahoo! Japan Ads]), [!DNL Microsoft Advertising] (anciennement [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yandex] et comptes [!DNL Baidu] existants*
+*[!DNL Google Ads], [!DNL LY Ads] (anciennement [!DNL Yahoo! Japan Ads]), [!DNL Microsoft Advertising] (anciennement [!DNL Bing Ads]), [!DNL Yahoo DSP] (anciennement [!DNL Yahoo! Display Network]), [!DNL Yandex] et comptes [!DNL Baidu] existants*
 
-Search, Social et Commerce se synchronise (*synchronise*) avec les comptes de réseau publicitaire pris en charge afin que vous puissiez suivre, générer des rapports et visualiser les performances de vos publicités. Pour tous les réseaux publicitaires, à l’exception de [!DNL Yahoo! Display Network], vous pouvez éventuellement gérer les campagnes pour votre compte dans Search, Social et Commerce ; [!DNL Yahoo! Display Network], les campagnes sont en lecture seule. Pour tous les réseaux publicitaires, vous pouvez permettre à la fonctionnalité d’optimisation d’optimiser les enchères, les budgets de campagne et les cibles de stratégie d’enchères de campagne pour les campagnes des comptes gérés, en ajoutant les campagnes aux portefeuilles.
+Search, Social et Commerce se synchronise (*synchronise*) avec les comptes de réseau publicitaire pris en charge afin que vous puissiez suivre, générer des rapports et visualiser les performances de vos publicités. Pour tous les réseaux publicitaires, à l’exception de [!DNL Yahoo DSP], vous pouvez éventuellement gérer les campagnes pour votre compte dans Search, Social et Commerce. [!DNL Yahoo DSP], les campagnes sont en lecture seule. Pour tous les réseaux publicitaires, vous pouvez permettre à la fonctionnalité d’optimisation d’optimiser les enchères, les budgets de campagne et les cibles de stratégie d’enchères de campagne pour les campagnes des comptes gérés, en ajoutant les campagnes aux portefeuilles.
 
 Pour activer la synchronisation d’un compte, l’enregistrement de compte doit contenir les informations d’identification d’accès au compte et être activé (actif).
 

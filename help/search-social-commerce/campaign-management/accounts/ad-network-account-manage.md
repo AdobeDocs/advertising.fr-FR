@@ -13,7 +13,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 2136
 ht-degree: 0%
@@ -194,7 +194,7 @@ Les comptes qui utilisent le suivi des clics d’Adobe Advertising doivent inclu
 >* Ce champ n&#39;est pas mis à jour par le paramètre de tracking [!UICONTROL Auto Upload].
 >* Les suffixes d’URL finaux aux niveaux inférieurs remplacent le suffixe au niveau du compte. Pour faciliter la maintenance, utilisez uniquement le suffixe au niveau du compte, sauf si un suivi différent est nécessaire pour les composants de compte individuels. Pour configurer un suffixe au niveau du groupe publicitaire ou à un niveau inférieur, utilisez l’éditeur du réseau publicitaire.
 
-**Fuseau horaire :** (tous les réseaux publicitaires, à l’exception des [!DNL Baidu] et des [!DNL Yahoo! Display Network]) Fuseau horaire de l’annonceur. Ce champ est modifiable et facultatif pour les nouveaux comptes [!DNL Naver]. Pour tous les autres réseaux de recherche, la valeur est automatiquement renseignée avec le fuseau horaire configuré pour le compte Search, Social et Commerce de l’annonceur une fois l’enregistrement enregistré.
+**Fuseau horaire :** (tous les réseaux publicitaires, à l’exception des [!DNL Baidu] et des [!DNL Yahoo DSP]) Fuseau horaire de l’annonceur. Ce champ est modifiable et facultatif pour les nouveaux comptes [!DNL Naver]. Pour tous les autres réseaux de recherche, la valeur est automatiquement renseignée avec le fuseau horaire configuré pour le compte Search, Social et Commerce de l’annonceur une fois l’enregistrement enregistré.
 
 **Statut :** statut du compte dans Search, Social et Commerce :
 

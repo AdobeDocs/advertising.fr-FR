@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 2408
+source-wordcount: 2377
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * Pour les campagnes avec les stratégies de dépenses [!DNL Maximize Clicks], [!DNL Maximize Conversion Value], [!DNL Maximize Conversions], [!DNL Target Cost Per Acquisition] ou [!DNL Target Return on Ad Spend], chaque campagne est une unité d’enchères.
 
-* Pour les campagnes sur [!DNL Yahoo! Display Network], qui n’utilisent pas de mots-clés, toutes les annonces d’un groupe publicitaire ont la même enchère et sont considérées comme la même unité d’enchère.
+* Pour les campagnes sur [!DNL Yahoo DSP], qui n’utilisent pas de mots-clés, toutes les annonces d’un groupe publicitaire ont la même enchère et sont considérées comme la même unité d’enchère.
 
 **contrainte d’unité d’offre :** voir « contrainte ».
 

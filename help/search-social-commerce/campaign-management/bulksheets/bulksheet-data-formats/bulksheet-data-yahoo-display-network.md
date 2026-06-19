@@ -1,6 +1,6 @@
 ---
-title: 'Données de feuille d’envoi groupé pour les comptes  [!DNL Yahoo! Display Network] '
-description: Référencez les champs d’en-tête et de données dans les feuilles d’envoi groupé téléchargées pour les comptes  [!DNL Yahoo! Display Network] .
+title: 'Données de feuille d’envoi groupé pour les comptes  [!DNL Yahoo DSP] '
+description: Référencez les champs d’en-tête et de données dans les feuilles d’envoi groupé téléchargées pour les comptes  [!DNL Yahoo DSP] .
 exl-id: 8d938009-6edc-4420-8863-21ed241616f8
 feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/cqFcEzgFtjpBzPZEUYNnXjZSb-yRDytPCQm4hqX0R9w
@@ -8,20 +8,20 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 522
+source-wordcount: 525
 ht-degree: 0%
 
 ---
 
-# Annexe - Données de feuille d’envoi groupé pour les comptes [!DNL Yahoo! Display Network]
+# Annexe - Données de feuille d’envoi groupé pour les comptes [!DNL Yahoo DSP]
 
 <!-- 
 [Re-add "Required" to title, file name, and TOC if you add the ability to create/edit campaigns using YDN bulksheets. Then will also need to add more text below, like for the other SEs.]
 -->
 
-Vous pouvez télécharger en bloc les données des comptes [!DNL Yahoo! Display Network], mais ne pouvez pas charger ni publier de feuilles d’envoi groupé sur le réseau publicitaire.
+Vous pouvez télécharger en bloc les données des comptes [!DNL Yahoo DSP] (anciennement [!DNL Yahoo! Display Network]), mais vous ne pouvez pas charger ni publier de feuilles d’envoi groupé sur le réseau publicitaire.
 
 ## Champs de données disponibles
 
