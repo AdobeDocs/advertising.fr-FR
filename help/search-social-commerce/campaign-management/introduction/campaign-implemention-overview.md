@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 979
+source-wordcount: 992
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ Cette page contient des informations sur tous les types de compte, y compris sur
 
       * (Google Ads, Microsoft Advertising, Yahoo ! Annonces et comptes Yandex uniquement) Configurez un processus [automatisé pour créer des annonces dynamiques et des mots-clés ciblés sur chaque élément de votre inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) en fonction d’un modèle d’annonce spécifique au réseau publicitaire que vous créez et du contenu des fichiers de données d’inventaire que vous téléchargez vers un emplacement FTP.
 
-      * (Baidu, Google Ads, Microsoft Advertising, Yahoo ! Japan Ads et comptes Yandex uniquement) Chargez des [fichiers de feuilles d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contenant autant de données que vous le souhaitez pour un compte, puis publiez-les sur les réseaux publicitaires.
+      * (Comptes Baidu, Google Ads, [!DNL LY Ads], Microsoft Advertising et Yandex uniquement) Chargez des [fichiers de feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contenant autant de données que vous le souhaitez pour un compte, puis publiez-les sur les réseaux publicitaires.
 
-      * (Baidu, Google Ads, Microsoft Advertising, Yahoo ! (Comptes Japan Ads et Yandex uniquement) Saisissez les données des composants individuels directement dans l’interface. Pour la plupart des types de campagnes et d’annonces, vous pouvez créer des données au niveau de la campagne, du groupe d’annonces et des mots-clés individuels, de l’emplacement et des niveaux d’annonces.
+      * (Comptes Baidu, Google Ads, [!DNL LY Ads], Microsoft Advertising et Yandex uniquement) Saisissez les données des composants individuels directement dans l’interface. Pour la plupart des types de campagnes et d’annonces, vous pouvez créer des données au niveau de la campagne, du groupe d’annonces et des mots-clés individuels, de l’emplacement et des niveaux d’annonces.
 
       Certains types de campagnes et d’annonces nécessitent toutefois des workflows uniques. Consultez les instructions de configuration [[!DNL Microsoft Advertising] campagnes d’achat](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md), [[!DNL Google Ads] annonces de recherches dynamiques](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md), [[!DNL Google Ads] campagnes de performances maximales](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md) et [[!DNL Google Ads] campagnes d’achat](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md).
 

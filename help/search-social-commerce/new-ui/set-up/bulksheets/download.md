@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1637
 ht-degree: 0%
@@ -129,30 +129,30 @@ Critères pour les campagnes, groupes publicitaires, annonces/contenus publicita
 
 ## Lignes de feuilles d&#39;envoi groupé par réseau publicitaire {#bulksheet-rows-by-ad-network}
 
-| Ligne de feuille d&#39;envoi groupé | [!DNL Baidu] | [!DNL Google Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo! Japan Ads] | [!DNL Yahoo Native] | [!DNL Yandex] | Remarques |
+| Ligne de feuille d&#39;envoi groupé | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo Native] | [!DNL Yandex] | Remarques |
 |----|----|----|----|-------|----|----|----|----|----|----|
 | [!UICONTROL Campaign] | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui | — |
 | [!UICONTROL Adgroup] | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui | — |
-| [!UICONTROL Creative] *ou* [!UICONTROL Creative (except RSA)] | Oui | Oui | Oui | — | — | Oui | Oui | Oui | Oui | ([!DNL Google Ads]) Utilisez pour tous les types d’annonces, à l’exception des annonces en responsive design de recherche, disponibles dans la ligne [!UICONTROL Responsive Search Ad]. |
-| [!UICONTROL Responsive Search Ad] | — | Oui | Oui | — | — | — | — | — | — | — |
-| [!UICONTROL Keyword] | Oui | Oui | Oui | Oui | Oui | — | Oui | Oui | Oui | À utiliser uniquement pour les mots-clés non négatifs. Pour afficher les mots-clés négatifs créés au niveau de la campagne ou du groupe publicitaire, utilisez la ligne [!UICONTROL Campaign Negative Keyword] ou [!UICONTROL Adgroup Negative Keyword], le cas échéant. |
-| [!UICONTROL Promoted Pin] | — | — | — | — | Oui | — | — | — | — | — |
+| [!UICONTROL Creative] *ou* [!UICONTROL Creative (except RSA)] | Oui | Oui | Oui | Oui | — | — | Oui | Oui | Oui | ([!DNL Google Ads]) Utilisez pour tous les types d’annonces, à l’exception des annonces en responsive design de recherche, disponibles dans la ligne [!UICONTROL Responsive Search Ad]. |
+| [!UICONTROL Responsive Search Ad] | — | Oui | — | Oui | — | — | — | — | — | — |
+| [!UICONTROL Keyword] | Oui | Oui | Oui | Oui | Oui | Oui | — | Oui | Oui | À utiliser uniquement pour les mots-clés non négatifs. Pour afficher les mots-clés négatifs créés au niveau de la campagne ou du groupe publicitaire, utilisez la ligne [!UICONTROL Campaign Negative Keyword] ou [!UICONTROL Adgroup Negative Keyword], le cas échéant. |
+| [!UICONTROL Promoted Pin] | — | — | — | — | — | Oui | — | — | — | — |
 | [!UICONTROL Placement] | — | Oui | — | — | — | — | — | — | — | — |
-| [!UICONTROL Auto Target] | — | Oui | Oui | — | — | — | — | — | — | Utilisez pour les cibles de recherche dynamique d’un groupe publicitaire. |
-| [!UICONTROL Shopping Product Group] | — | Oui | Oui | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Site Link] | — | Oui | Oui | — | — | — | — | Oui | — | — |
-| [!UICONTROL Campaign Negative Keyword] | Oui | Oui | Oui | — | — | — | Oui | Oui | — | À utiliser uniquement pour les mots-clés négatifs créés au niveau de la campagne ou du groupe publicitaire. Pour afficher les mots-clés non négatifs, utilisez la ligne [!UICONTROL Keyword] si disponible. |
-| [!UICONTROL Campaign Negative Website] | — | Oui | Oui | — | — | — | — | Oui | — | — |
+| [!UICONTROL Auto Target] | — | Oui | — | Oui | — | — | — | — | — | Utilisez pour les cibles de recherche dynamique d’un groupe publicitaire. |
+| [!UICONTROL Shopping Product Group] | — | Oui | — | Oui | — | — | — | — | — | — |
+| [!UICONTROL Campaign Site Link] | — | Oui | — | Oui | — | — | — | Oui | — | — |
+| [!UICONTROL Campaign Negative Keyword] | Oui | Oui | Oui | Oui | — | — | — | Oui | — | À utiliser uniquement pour les mots-clés négatifs créés au niveau de la campagne ou du groupe publicitaire. Pour afficher les mots-clés non négatifs, utilisez la ligne [!UICONTROL Keyword] si disponible. |
+| [!UICONTROL Campaign Negative Website] | — | Oui | — | Oui | — | — | — | Oui | — | — |
 | [!UICONTROL Adgroup Site Link] | — | Oui | — | — | — | — | — | Oui | — | — |
 | [!UICONTROL Creative Site Link] | — | — | — | — | — | — | — | — | Oui | — |
-| [!UICONTROL Adgroup Negative Keyword] | Oui | Oui | Oui | — | — | — | Oui | Oui | — | — |
-| [!UICONTROL Adgroup Negative Website] | — | Oui | Oui | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Location Target] | Oui | Oui | Oui | — | — | — | Oui | Oui | — | — |
-| [!UICONTROL Adgroup Location Target] | — | — | Oui | — | — | — | — | Oui | — | — |
-| [!UICONTROL Campaign Device Target] | — | Oui | Oui | — | — | — | — | Oui | — | — |
-| [!UICONTROL Adgroup Device Target] | — | Oui | Oui | — | — | — | — | Oui | — | — |
-| [!UICONTROL Campaign RLSA Target] | — | Oui | Oui | — | — | — | — | — | — | — |
-| [!UICONTROL Adgroup RLSA Target] | — | Oui | Oui | — | — | — | — | — | — | — |
+| [!UICONTROL Adgroup Negative Keyword] | Oui | Oui | Oui | Oui | — | — | — | Oui | — | — |
+| [!UICONTROL Adgroup Negative Website] | — | Oui | — | Oui | — | — | — | — | — | — |
+| [!UICONTROL Campaign Location Target] | Oui | Oui | Oui | Oui | — | — | — | Oui | — | — |
+| [!UICONTROL Adgroup Location Target] | — | — | — | Oui | — | — | — | Oui | — | — |
+| [!UICONTROL Campaign Device Target] | — | Oui | — | Oui | — | — | — | Oui | — | — |
+| [!UICONTROL Adgroup Device Target] | — | Oui | — | Oui | — | — | — | Oui | — | — |
+| [!UICONTROL Campaign RLSA Target] | — | Oui | — | Oui | — | — | — | — | — | — |
+| [!UICONTROL Adgroup RLSA Target] | — | Oui | — | Oui | — | — | — | — | — | — |
 | [!UICONTROL Campaign RLSA Negative] | — | Oui | — | — | — | — | — | — | — | — |
 | [!UICONTROL Adgroup RLSA Negative] | — | Oui | — | — | — | — | — | — | — | — |
 
@@ -160,10 +160,10 @@ Pour plus d’informations sur les colonnes obligatoires et facultatives pour ch
 
 * [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Baidu] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
 * [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL LY Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
 * [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Microsoft Advertising] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
 * [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Naver] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
 * [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Yahoo! Display Network] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Yahoo! Japan Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
 * [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Yandex] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]

@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 1423
+source-wordcount: 1427
 ht-degree: 0%
 
 ---
 
 # Gestion des modèles de publicité pour les flux d’inventaire
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+comptes *[!DNL Google Ads], [!DNL LY Ads] (actions de suppression uniquement), [!DNL Microsoft Advertising] et [!DNL Yandex] uniquement*
 
 Avant ou après le chargement des données, vous pouvez créer des modèles d’annonce spécifiques au moteur de recherche grâce auxquels vos données peuvent être traitées. Vous pouvez créer des modèles pour les annonces textuelles et les annonces textuelles développées/étendues, les annonces [!DNL Google Ads] et [!DNL Microsoft Advertising] de recherches réactives, ainsi que pour les annonces d’achats [!DNL Google Ads] et [!DNL Microsoft Advertising].
 

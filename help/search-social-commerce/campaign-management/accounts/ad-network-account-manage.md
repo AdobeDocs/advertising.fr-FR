@@ -13,9 +13,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 2100
+source-wordcount: 2136
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Pour les comptes [!DNL Microsoft Advertising], seules les connexions autorisées
 
 **[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] activé pour les [!DNL oAuth] et tous les autres réseaux à l’exception de [!DNL Meta] et [!DNL Yandex]) Jeton du compte pour autoriser les connexions à l’aide du [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Tous les réseaux publicitaires sauf [!DNL Naver]) Mot de passe du compte. Pour les comptes activés par mot de passe sur [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] et [!DNL Yandex], ce champ est obligatoire. Pour les comptes activés pour [!DNL oAuth], ce champ est facultatif ; utilisez-le lorsque vous souhaitez chiffrer et enregistrer le mot de passe afin que le gestionnaire de compte puisse actualiser les jetons si nécessaire.
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Tous les réseaux publicitaires sauf [!DNL Naver]) Mot de passe du compte. Pour les comptes activés par mot de passe sur [!DNL LY Ads], [!DNL Microsoft Advertising] et [!DNL Yandex], ce champ est obligatoire. Pour les comptes activés pour [!DNL oAuth], ce champ est facultatif ; utilisez-le lorsque vous souhaitez chiffrer et enregistrer le mot de passe afin que le gestionnaire de compte puisse actualiser les jetons si nécessaire.
 
 **[!UICONTROL Login Details]: [!UICONTROL Access Key]:** (comptes [!DNL Yandex] uniquement) Clé d’accès du compte de développeur à utiliser.
 
@@ -201,13 +201,13 @@ Les comptes qui utilisent le suivi des clics d’Adobe Advertising doivent inclu
 * *Activé :* Search, Social et Commerce synchronise les données de campagne avec le compte (lorsqu’il est pris en charge) et diffuse des enchères automatisées et/ou des budgets de campagne pour les campagnes des portfolios.
 * *Désactivé :* la recherche, les réseaux sociaux et Commerce arrête toutes les activités sur le compte. Les données collectées alors que le compte était actif sont toujours stockées, mais les vues et rapports de gestion de campagne n’incluent pas les données de la période pendant laquelle le compte est en pause. Vous pourrez ensuite réactiver le compte pour reprendre l’activité avec le compte.
 
-**Modèle de suivi** - (comptes [!DNL Google Ads], [!DNL Microsoft Advertising] et [!DNL Yahoo! Japan Ads] uniquement ; facultatif) Modèle de suivi par défaut pour le compte, qui spécifie toutes les redirections de domaine et tous les paramètres de suivi hors atterrissage et incorpore également l’URL finale/de la page de destination dans un paramètre. Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
+**Modèle de suivi** - (comptes [!DNL Google Ads], [!DNL LY Ads] et [!DNL Microsoft Advertising] uniquement ; facultatif) Modèle de suivi par défaut pour le compte, qui spécifie toutes les redirections de domaine et tous les paramètres de suivi hors atterrissage et incorpore également l’URL finale/de la page de destination dans un paramètre. Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
 
 * Pour incorporer l’URL finale :
 
-   * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste de paramètres indiquant les URL finales dans les modèles de tracking, reportez-vous à la [!DNL Microsoft Advertising]documentation[[!DNL Microsoft Advertising]  (](https://help.ads.microsoft.com/#apex/3/en/56799) uniquement) ou ([!DNL Google Ads] uniquement) aux paramètres « Modèle de tracking uniquement » dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste de paramètres indiquant les URL finales dans les modèles de tracking, reportez-vous à la [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] uniquement) ou ([!DNL Google Ads] uniquement) aux paramètres « Modèle de tracking uniquement » dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL Yahoo! Japan Ads] uniquement) Utilisez le `!{lpurl}` de paramètre pour indiquer l’URL de la page de destination.
+   * ([!DNL LY Ads] uniquement) Utilisez le `!{lpurl}` de paramètre pour indiquer l’URL de la page de destination.
 
 * Vous pouvez éventuellement inclure des paramètres d’URL et tout paramètre personnalisé défini pour la campagne, séparés par des esperluettes (&amp;), tel que `{lpurl}?matchtype={matchtype}&device={device}`.
 

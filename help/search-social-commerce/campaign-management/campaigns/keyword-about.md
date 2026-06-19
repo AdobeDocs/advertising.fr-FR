@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 171
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # À propos des mots clés
 
-*[!DNL Google Ads]et [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] et comptes [!DNL Baidu] existants uniquement*
+Comptes *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] et [!DNL Baidu] existants uniquement*
 
 Un mot-clé est un mot ou une expression associé à une publicité. Les paramètres de mot-clé incluent le type de correspondance de mot-clé, les enchères maximales à utiliser lorsque votre publicité est déclenchée par le mot-clé et (certains réseaux publicitaires) des paramètres de suivi facultatifs. Les paramètres au niveau du mot-clé remplacent les paramètres du groupe publicitaire ou de la campagne.
 

@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 838
+source-wordcount: 846
 ht-degree: 0%
 
 ---
 
 # À propos de l’automatisation de la gestion des publicités à l’aide de flux d’inventaire
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+comptes *[!DNL Google Ads], [!DNL LY Ads] (actions de suppression uniquement), [!DNL Microsoft Advertising] et [!DNL Yandex] uniquement*
 
 La vue [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] de la gestion de campagnes avancée vous permet de créer et de mettre à jour automatiquement la structure du compte du réseau publicitaire et de diffuser des annonces dynamiques en fonction des données relatives à votre inventaire de produits ou services. Vous pouvez charger de nouveaux fichiers avec des données de produit tous les jours ou aussi souvent que vous le souhaitez, ou créer un lien direct vers un compte [!DNL Google] ou [!DNL Microsoft] centre commercial. Utilisez la fonction pour :
 
@@ -31,7 +31,7 @@ Pour configurer vos publicités, créez des modèles de flux d’inventaire cont
 
 | Section [!UICONTROL Ad Variation] du modèle | Modificateurs dans Search, Social et Commerce | Contenu du flux | Publicités résultantes |
 |----|----|----|----|
-| Titre : achetez des produits haut de gamme \{<i>Product Category</i>\} &lt;<i>CheapList</i>>.<br><br>Description 1 : vaste inventaire de \{<i>Product Name</i>\}.<br><br>Description 2 : disponible au \{<i>Pourcentage de remise</i>\} % de remise. | Valeurs pour le groupe de conditions commerciales « CheapList »:<br><br>« for cost »<br><br>« at a discount » | Catégorie de produits,Nom du produit,Pourcentage de remise<br>électronique,iPods,10<br><br>vêtements,Chemises,15<br><br><b>Remarque :</b> vous pouvez séparer les valeurs par des virgules ou des tabulations. | <u>Achetez de l&#39;électronique haut de gamme pour pas cher.</u><br>Gros stock de tablettes. Disponible à 10% de réduction.<br><br><u>Achetez de l&#39;électronique haut de gamme à rabais.</u><br>Gros stock de tablettes. Disponible à 10% de réduction.<br><br><u>Achetez des vêtements haut de gamme pour pas cher.</u><br>Gros stock de chemises. Disponible à 15% de réduction.<br><br><u>Achetez des vêtements haut de gamme à prix réduit.</u><br>Gros stock de chemises. Disponible à 15% de réduction. |
+| Titre : acheter du haut de gamme \{<i>Catégorie de produits</i>\} &lt;<i>CheapList</i>>.<br><br>Description 1 : stock énorme de \{<i>Nom de produit</i>\}.<br><br>Description 2 : disponible à la réduction de \{<i>Pourcentage de remise</i>\} %. | Valeurs pour le groupe de conditions commerciales « CheapList »:<br><br>« for cost »<br><br>« at a discount » | Catégorie de produits,Nom du produit,Pourcentage de remise<br>électronique,iPods,10<br><br>vêtements,Chemises,15<br><br><b>Remarque :</b> vous pouvez séparer les valeurs par des virgules ou des tabulations. | <u>Achetez de l&#39;électronique haut de gamme pour pas cher.</u><br>Gros stock de tablettes. Disponible à 10% de réduction.<br><br><u>Achetez de l&#39;électronique haut de gamme à rabais.</u><br>Gros stock de tablettes. Disponible à 10% de réduction.<br><br><u>Achetez des vêtements haut de gamme pour pas cher.</u><br>Gros stock de chemises. Disponible à 15% de réduction.<br><br><u>Achetez des vêtements haut de gamme à prix réduit.</u><br>Gros stock de chemises. Disponible à 15% de réduction. |
 
 Une fois les publicités générées, vous pouvez éventuellement les passer en revue, puis les publier sur le réseau publicitaire.
 
@@ -40,7 +40,7 @@ Une fois les publicités générées, vous pouvez éventuellement les passer en 
 
 ## Workflow de gestion des données de campagne à l’aide des flux d’inventaire
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+comptes *[!DNL Google Ads], [!DNL LY Ads] (actions de suppression uniquement), [!DNL Microsoft Advertising] et [!DNL Yandex] uniquement*
 
 Testez d’abord au moins un fichier ou compte de flux, puis vous pouvez entièrement automatiser le processus ou continuer à le contrôler à chaque étape :
 

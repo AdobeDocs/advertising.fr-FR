@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 1155
+source-wordcount: 1164
 ht-degree: 0%
 
 ---
 
 # Configurer les paramètres des données de flux
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+comptes *[!DNL Google Ads], [!DNL LY Ads] (actions de suppression uniquement), [!DNL Microsoft Advertising] et [!DNL Yandex] uniquement*
 
 Vous pouvez configurer la manière de gérer les groupes d’annonces, les mots-clés et les annonces dans les fichiers de données de flux, ainsi que la manière de traiter les données dans les fichiers FTP en particulier, via les paramètres de flux.
 
@@ -105,7 +105,7 @@ Le niveau de stock de chaque ligne provient d&#39;une colonne du fichier de flux
 
 **[!UICONTROL Post to the SE]:** (les annonceurs téléchargent les fichiers de données via FTP ou un compte de centre commercial) Crée automatiquement des fichiers de feuilles d’envoi groupé dans les formats appropriés pour les réseaux publicitaires appropriés après la propagation de nouvelles données par le biais des modèles applicables. Cette option supprime également les données des onglets [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] et [!UICONTROL Ads], sauf si des sous-composants comportent des erreurs.
 
-Cette option est désactivée par défaut. Pour activer cette option, activez la case à cocher puis indiquez si vous souhaitez publier des fichiers de feuilles d&#39;envoi groupé sur les réseaux publicitaires :
+Par défaut, cette option est désactivée. Pour activer cette option, activez la case à cocher puis indiquez si vous souhaitez publier des fichiers de feuilles d&#39;envoi groupé sur les réseaux publicitaires :
 
 * *[!UICONTROL Immediately]* (valeur par défaut) : publie les fichiers de feuille d’envoi groupé sur les réseaux publicitaires appropriés une fois les données propagées à travers les modèles. Les fichiers de feuille d’envoi groupé restent disponibles dans la vue [!UICONTROL Bulksheets] pendant 30 jours.
 

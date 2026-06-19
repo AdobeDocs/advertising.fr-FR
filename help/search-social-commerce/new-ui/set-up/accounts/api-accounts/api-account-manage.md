@@ -3,9 +3,9 @@ title: (Nouvelle interface utilisateur) Gestion des comptes réseau et
 description: Découvrez comment configurer et gérer les détails du compte dans la nouvelle interface utilisateur pour un réseau publicitaire synchronisé via l’API du réseau publicitaire.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
 
-*Fonction Beta*
+*Fonction*
 
 <!-- Move out info about Naver into a separate page -->
 
@@ -228,13 +228,13 @@ Les comptes qui utilisent le suivi des clics d’Adobe Advertising doivent inclu
 >* Ce champ n&#39;est pas mis à jour par le paramètre de tracking [!UICONTROL Auto Update].
 >* Les suffixes d’URL finaux aux niveaux inférieurs remplacent le suffixe au niveau du compte. Pour faciliter la maintenance, utilisez uniquement le suffixe au niveau du compte, sauf si un suivi différent est nécessaire pour les composants de compte individuels. Pour configurer un suffixe au niveau du groupe publicitaire ou à un niveau inférieur, utilisez l’éditeur du réseau publicitaire.
 
-**URL de suivi du compte** : (comptes [!DNL Google Ads], [!DNL Microsoft Advertising] et [!DNL Yahoo! Japan Ads] uniquement ; facultatif) modèle de suivi par défaut pour le compte, qui spécifie toutes les redirections de domaine et tous les paramètres de suivi hors de la page de destination et incorpore également l’URL finale/de la page de destination dans un paramètre. Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
+**URL de suivi du compte** : (comptes [!DNL Google Ads], [!DNL LY Ads] et [!DNL Microsoft Advertising] uniquement ; facultatif) modèle de suivi par défaut pour le compte, qui spécifie toutes les redirections de domaine et tous les paramètres de suivi hors de la page de destination et incorpore également l’URL finale/de la page de destination dans un paramètre. Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
 
 * Pour incorporer l’URL finale :
 
-   * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste de paramètres indiquant les URL finales dans les modèles de tracking, reportez-vous à la [!DNL Microsoft Advertising]documentation[[!DNL Microsoft Advertising]  (](https://help.ads.microsoft.com/#apex/3/en/56799) uniquement) ou ([!DNL Google Ads] uniquement) aux paramètres « Modèle de tracking uniquement » dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste de paramètres indiquant les URL finales dans les modèles de tracking, reportez-vous à la [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] uniquement) ou ([!DNL Google Ads] uniquement) aux paramètres « Modèle de tracking uniquement » dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL Yahoo! Japan Ads] uniquement) Utilisez le `!{lpurl}` de paramètre pour indiquer l’URL de la page de destination.
+   * ([!DNL LY Ads] uniquement) Utilisez le `!{lpurl}` de paramètre pour indiquer l’URL de la page de destination.
 
 * Vous pouvez éventuellement inclure des paramètres d’URL et tout paramètre personnalisé défini pour la campagne, séparés par des esperluettes (&amp;), tel que `{lpurl}?matchtype={matchtype}&device={device}`.
 

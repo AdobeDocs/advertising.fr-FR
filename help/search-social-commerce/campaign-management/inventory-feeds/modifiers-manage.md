@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Gestion des modificateurs
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+comptes *[!DNL Google Ads], [!DNL LY Ads] (actions de suppression uniquement), [!DNL Microsoft Advertising] et [!DNL Yandex] uniquement*
 
 Les modificateurs sont des adjectifs ou des adverbes qui peuvent être ajoutés ou supprimés d’une phrase sans modifier la structure de la phrase de base. Vous pouvez créer des groupes de modificateurs à utiliser comme variables dans divers champs de données de modèles de données de flux. En incluant des modificateurs dans les champs de structure de compte (campagne et groupe publicitaire), les mots-clés, les URL de base et les publicités, vous créez une valeur pour chaque valeur de modificateur associée. Par exemple, si vous utilisez une variable de groupe de conditions commerciales dans un titre d&#39;annonce et que le groupe de conditions commerciales comprend trois conditions commerciales (« bon marché », « réduction » et « abordable »), trois annonces distinctes sont créées pour chaque ligne de données du flux de données, une pour chaque condition commerciale. De même, si vous incluez un groupe de modificateurs avec plusieurs valeurs dans l’URL de base d’un groupe publicitaire, un ensemble de mots-clés est créé pour chacune des URL de base résultantes.
 
