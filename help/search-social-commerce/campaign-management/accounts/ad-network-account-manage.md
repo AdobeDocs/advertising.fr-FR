@@ -4,9 +4,15 @@ description: Découvrez comment configurer et gérer les détails d’un compte 
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 2136
@@ -22,9 +28,9 @@ Vous trouverez ci-dessous des instructions pour créer et modifier les détails 
 
 <!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
 
-Pour obtenir des instructions sur la gestion des comptes de réseau publicitaire dans la nouvelle interface utilisateur, voir « [(Nouvelle interface utilisateur) Gérer les comptes de réseau publicitaire via une connexion API ](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) ».
+Pour obtenir des instructions sur la gestion des comptes de réseau publicitaire dans la nouvelle interface utilisateur, voir « [(Nouvelle interface utilisateur) Gérer les comptes de réseau publicitaire via une connexion API &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) ».
 
 ## Créer un compte réseau publicitaire {#create-account}
 
@@ -47,7 +53,7 @@ Pour activer la synchronisation ou le suivi d’un compte, vous devez créer un 
 
    1. Dans la section **[!UICONTROL Account Details]** , saisissez les détails du compte.
 
-      Pour les réseaux publicitaires qui utilisent le type d’autorisation de connexion « [!UICONTROL oAuth] », autorisez Search, Social et Commerce à accéder au compte à l’aide du protocole d’autorisation [ OAuth ](https://oauth.net/2/) :
+      Pour les réseaux publicitaires qui utilisent le type d’autorisation de connexion « [!UICONTROL oAuth] », autorisez Search, Social et Commerce à accéder au compte à l’aide du protocole d’autorisation [&#x200B; OAuth &#x200B;](https://oauth.net/2/) :
 
       1. Saisissez la valeur **[!UICONTROL Login]** du compte, éventuellement le mot de passe, puis cliquez sur **[!UICONTROL Authenticate]**.
 
@@ -261,7 +267,7 @@ Ce compte utilise le format hérité du code de suivi AMO ID, ce qui permet à A
 
 Si ce compte doit créer des rapports au niveau de la campagne et du groupe publicitaire, cliquez sur l’icône [!UICONTROL Edit] (crayon), puis **[!UICONTROL Migrate to new s_kwcid format]** pour changer le nouveau format. Pour les comptes qui n’incluent pas ces types de campagne, la migration vers le nouveau format est facultative, mais recommandée.
 
-Pour obtenir des instructions complètes, reportez-vous à « [ Mettre à jour le code de suivi AMO ID pour un  [!DNL Google Ads]  compte ](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md) ».
+Pour obtenir des instructions complètes, reportez-vous à « [&#x200B; Mettre à jour le code de suivi AMO ID pour un  [!DNL Google Ads]  compte &#x200B;](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md) ».
 
 **Noms de suites de rapports :** (pour la redirection EF avec jeton uniquement ; annonceurs avec une intégration Adobe Advertising-Adobe Analytics ; facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoient les données qu’il collecte du réseau publicitaire, y compris les classifications d’entité et les données de clic pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.
 

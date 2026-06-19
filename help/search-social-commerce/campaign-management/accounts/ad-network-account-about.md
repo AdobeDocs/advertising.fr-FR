@@ -4,9 +4,12 @@ description: Découvrez les comptes de réseau publicitaire dans Search, Social 
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/90Dq2tehH-k2aY3Ij30aHF-XQGdvlPY346moWkg3xmk
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 430
@@ -40,7 +43,7 @@ Les campagnes de tracking vous permettent de suivre, de générer des rapports e
 
 Pour permettre à Search, Social et Commerce d’attribuer des conversions aux clics, configurez des options de suivi dans l’enregistrement de compte et activez l’enregistrement de compte. Vous pouvez ensuite utiliser des feuilles d’envoi groupé pour générer des URL de tracking pour vos publicités et mots-clés, et ajouter manuellement les URL de tracking dans le gestionnaire de publicités [!DNL Naver].
 
-Pour plus d’informations sur l’[!DNL Naver] de campagnes de tracking uniquement, voir « [ Implémentation  [!DNL Naver]  comptes de tracking uniquement ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md). »
+Pour plus d’informations sur l’[!DNL Naver] de campagnes de tracking uniquement, voir « [&#x200B; Implémentation  [!DNL Naver]  comptes de tracking uniquement &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md). »
 
 >[!MORELIKETHIS]
 >
