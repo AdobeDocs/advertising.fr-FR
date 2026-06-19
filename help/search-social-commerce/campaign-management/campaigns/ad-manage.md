@@ -4,12 +4,9 @@ description: Découvrez comment créer et gérer des annonces publicitaires.
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/qH3BE5BwU8614rZdk-tKqvtw9cqY1uK0Z3zOUh0QRv8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 743
@@ -41,7 +38,7 @@ Vous pouvez créer, modifier et modifier le statut des publicités à partir de 
 
    Pour plus d’informations sur les différents types d’annonces, voir « [À propos des annonces](ad-about.md) ».
 
-1. Saisissez les paramètres [[!DNL Baidu] annonce de texte](ad-settings-baidu-text.md), [[!DNL Google Ads] annonce d’appel uniquement](ad-settings-google-call.md), [[!DNL Google Ads] annonce de recherche dynamique étendue](ad-settings-google-dsa.md) (désormais appelée uniquement « annonce de recherche dynamique » dans Google Ads), [[!DNL Google Ads] annonce de recherche réactive](ad-settings-google-rsa.md), [[!DNL Microsoft Advertising] annonce de recherche dynamique étendue](ad-settings-microsoft-dsa.md), [[!DNL Microsoft Advertising] annonce multimédia, &#x200B;](ad-settings-microsoft-multimedia.md)annonce de produit, [[!DNL Microsoft Advertising] annonce réactive (audience), &#x200B;](ad-settings-microsoft-product.md)annonce de recherche réactive[[!DNL Microsoft Advertising]  ou &#x200B;](ad-settings-microsoft-responsive.md)annonce de texte[[!DNL Microsoft Advertising]  &#x200B;](ad-settings-microsoft-rsa.md) [[!DNL Yandex]  &#x200B;](ad-settings-yandex-text.md).
+1. Saisissez les paramètres [[!DNL Baidu] annonce de texte](ad-settings-baidu-text.md), [[!DNL Google Ads] annonce d’appel uniquement](ad-settings-google-call.md), [[!DNL Google Ads] annonce de recherche dynamique étendue](ad-settings-google-dsa.md) (désormais appelée uniquement « annonce de recherche dynamique » dans Google Ads), [[!DNL Google Ads] annonce de recherche réactive](ad-settings-google-rsa.md), [[!DNL Microsoft Advertising] annonce de recherche dynamique étendue](ad-settings-microsoft-dsa.md), [[!DNL Microsoft Advertising] annonce multimédia, ](ad-settings-microsoft-multimedia.md)annonce de produit, [[!DNL Microsoft Advertising] annonce réactive (audience), ](ad-settings-microsoft-product.md)annonce de recherche réactive[[!DNL Microsoft Advertising]  ou ](ad-settings-microsoft-responsive.md)annonce de texte[[!DNL Microsoft Advertising]  ](ad-settings-microsoft-rsa.md) [[!DNL Yandex]  ](ad-settings-yandex-text.md).
 
    >[!NOTE]
    >
@@ -77,7 +74,7 @@ Vous pouvez créer, modifier et modifier le statut des publicités à partir de 
 
       1. Dans la barre d&#39;outils située au-dessus du tableau de données, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier").
 
-1. Modifiez les paramètres [[!DNL Baidu] annonce de texte](ad-settings-baidu-text.md), [[!DNL Google Ads] annonce d’appel uniquement](ad-settings-google-call.md), [[!DNL Google Ads] annonce de recherche dynamique étendue](ad-settings-google-dsa.md) (désormais appelée uniquement « annonce de recherche dynamique » dans Google Ads), [[!DNL Google Ads] annonce de recherche réactive](ad-settings-google-rsa.md), [[!DNL Microsoft Advertising] annonce de recherche dynamique étendue](ad-settings-microsoft-dsa.md), [[!DNL Microsoft Advertising] annonce multimédia, &#x200B;](ad-settings-microsoft-multimedia.md)annonce de produit, [[!DNL Microsoft Advertising] annonce réactive (audience), &#x200B;](ad-settings-microsoft-product.md)annonce de recherche réactive[[!DNL Microsoft Advertising]  ou &#x200B;](ad-settings-microsoft-responsive.md)annonce de texte[[!DNL Microsoft Advertising]  &#x200B;](ad-settings-microsoft-rsa.md) [[!DNL Yandex]  &#x200B;](ad-settings-yandex-text.md).
+1. Modifiez les paramètres [[!DNL Baidu] annonce de texte](ad-settings-baidu-text.md), [[!DNL Google Ads] annonce d’appel uniquement](ad-settings-google-call.md), [[!DNL Google Ads] annonce de recherche dynamique étendue](ad-settings-google-dsa.md) (désormais appelée uniquement « annonce de recherche dynamique » dans Google Ads), [[!DNL Google Ads] annonce de recherche réactive](ad-settings-google-rsa.md), [[!DNL Microsoft Advertising] annonce de recherche dynamique étendue](ad-settings-microsoft-dsa.md), [[!DNL Microsoft Advertising] annonce multimédia, ](ad-settings-microsoft-multimedia.md)annonce de produit, [[!DNL Microsoft Advertising] annonce réactive (audience), ](ad-settings-microsoft-product.md)annonce de recherche réactive[[!DNL Microsoft Advertising]  ou ](ad-settings-microsoft-responsive.md)annonce de texte[[!DNL Microsoft Advertising]  ](ad-settings-microsoft-rsa.md) [[!DNL Yandex]  ](ad-settings-yandex-text.md).
 
    Pour plusieurs annonces, vous ne pouvez modifier que les champs communs à toutes les annonces sélectionnées et vos modifications sont appliquées à toutes les annonces sélectionnées. Pour certains champs alphanumériques, vous pouvez modifier les valeurs existantes à une valeur spécifiée, remplacer une chaîne existante par une chaîne spécifiée, ajouter un préfixe spécifié au début de chaque valeur ou ajouter un suffixe à la fin de chaque valeur. Pour certains champs monétaires, vous pouvez modifier les valeurs existantes à une valeur spécifiée ou augmenter ou diminuer le montant d’un pourcentage ou d’un montant monétaire spécifié, avec une limite.
 

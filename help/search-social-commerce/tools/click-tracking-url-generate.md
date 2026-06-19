@@ -4,10 +4,8 @@ description: Découvrez comment générer manuellement une URL de suivi des clic
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
 TQID: https://experienceleague.adobe.com/RqD0SAUXXlSNvMUJFgrjspFoGjpJHmx0ThZGAHFFdi0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 484
@@ -19,7 +17,7 @@ ht-degree: 0%
 
 *Annonceurs avec suivi des conversions Adobe Advertising uniquement*
 
-Pour plus d’informations sur le moment où vous devez générer et implémenter manuellement une URL de suivi des clics, reportez-vous à la section « [&#x200B; Quand et comment générer des URL de suivi des clics &#x200B;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) ».
+Pour plus d’informations sur le moment où vous devez générer et implémenter manuellement une URL de suivi des clics, reportez-vous à la section « [ Quand et comment générer des URL de suivi des clics ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) ».
 
 >[!NOTE]
 >
@@ -92,5 +90,5 @@ Pour les comptes avec des URL finales, saisissez la valeur à l’écran dans le
 >[!MORELIKETHIS]
 >
 >* [À propos des outils de création et de décodage des balises de tracking](tracking-tools-about.md)
->* [Quand et comment générer des URL de suivi des clics &#x200B;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
+>* [Quand et comment générer des URL de suivi des clics ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
 >* [Décoder une URL de suivi des clics Search, Social et Commerce](click-tracking-url-decode.md)

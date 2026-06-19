@@ -4,12 +4,9 @@ description: Découvrez où trouver le nombre maximal d’objets par compte rés
 exl-id: 64463f56-0972-4acb-867e-d216f09bbc2d
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/Eoi5mmx8l0U61O5-U91BOrzxfWr8rUdEIhiD1VVwPiE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 151

@@ -4,10 +4,8 @@ description: Découvrez comment propager les données de vos flux d’inventaire
 exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/2MCDHOgRqhAgwKuT-drdVZCHZJhSYxX3F3wLAVnpXT0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 881
@@ -19,7 +17,7 @@ ht-degree: 0%
 
 comptes *[!DNL Google Ads], [!DNL LY Ads] (actions de suppression uniquement), [!DNL Microsoft Advertising] et [!DNL Yandex] uniquement*
 
-Après avoir créé un modèle de flux spécifique au réseau publicitaire et associé un fichier de flux ou un compte de centre commercial [!DNL Google] ou [!DNL Microsoft] à celui-ci, vous pouvez créer dynamiquement des publicités en propageant les données de flux à travers le modèle en fonction des [&#x200B; paramètres des données de flux &#x200B;](feed-settings-manage.md). Lors de la propagation, les noms des colonnes du modèle sont remplacés par les valeurs de données du flux. Les campagnes générées et leurs composants présentent les paramètres par défaut, sauf indication contraire du modèle. Selon les options du modèle, Search, Social et Commerce crée une structure de compte (campagnes, groupes publicitaires, mots-clés) pour les annonces ou mappe les annonces à la structure de compte existante.
+Après avoir créé un modèle de flux spécifique au réseau publicitaire et associé un fichier de flux ou un compte de centre commercial [!DNL Google] ou [!DNL Microsoft] à celui-ci, vous pouvez créer dynamiquement des publicités en propageant les données de flux à travers le modèle en fonction des [ paramètres des données de flux ](feed-settings-manage.md). Lors de la propagation, les noms des colonnes du modèle sont remplacés par les valeurs de données du flux. Les campagnes générées et leurs composants présentent les paramètres par défaut, sauf indication contraire du modèle. Selon les options du modèle, Search, Social et Commerce crée une structure de compte (campagnes, groupes publicitaires, mots-clés) pour les annonces ou mappe les annonces à la structure de compte existante.
 
 Lorsque de nouvelles données de flux contiennent de nouvelles valeurs de données pour un élément ou que le modèle a été modifié, les publicités existantes sont supprimées et de nouvelles publicités sont créées. Si la seule modification est la désignation [!DNL Google Ads] paramètre 1 et du paramètre 2, seules ces valeurs sont mises à jour. Les publicités en double (la même copie de publicité et la même page de destination) ne sont jamais créées.
 
