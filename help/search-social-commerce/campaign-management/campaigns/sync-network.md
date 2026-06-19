@@ -4,11 +4,9 @@ description: Découvrez comment déclencher manuellement la synchronisation de v
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/3X49sKMCu3P0X1CUUEpkmTXv4fdoeKk0sBAty5MBd8Y
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 393
 ht-degree: 0%
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 # Synchronisation manuelle des données réseau et
 
-Comptes *[!DNL Google Ads], [!DNL Microsoft Advertising] (anciennement [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], [!DNL Yandex] et [!DNL Baidu] existants uniquement*
+Comptes *[!DNL Google Ads], [!DNL LY Ads] (anciennement [!DNL Yahoo! Japan Ads]), [!DNL Microsoft Advertising] (anciennement [!DNL Bing Ads]), [!DNL Yandex] et [!DNL Baidu] existants uniquement*
 
 La synchronisation est le processus par lequel Search, Social et Commerce collecte des informations mises à jour pour les comptes de réseau publicitaire connectés de chaque annonceur sur les [réseaux publicitaires pris en charge](/help/search-social-commerce/introduction/supported-inventory.md). Ces données incluent la structure de la campagne de l’annonceur et les entités de la campagne, y compris la plupart de leurs attributs gérés ou signalés dans Search, Social et Commerce. Elle n’inclut pas les données de clic, ni les offres et les modificateurs d’offres saisis en dehors des moteurs de recherche, des réseaux sociaux et de Commerce, qui sont rassemblés séparément.
 

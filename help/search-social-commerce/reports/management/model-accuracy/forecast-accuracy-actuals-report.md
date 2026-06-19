@@ -4,17 +4,12 @@ description: Découvrez les [!UICONTROL Forecast Accuracy (Actuals) Report], y c
 exl-id: 659e11c7-5fed-4d91-a73f-7c435d36634f
 feature: Search Reports, Search Model Accuracy Reports
 TQID: https://experienceleague.adobe.com/wQyO42Dt5McqK23z-adEP-BAxxTrBk9RJi0I-4noP0I
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 321
+source-wordcount: 318
 ht-degree: 0%
 
 ---
@@ -36,7 +31,7 @@ Voici les colonnes qui sont automatiquement incluses dans chaque rapport. Vous n
 | [!UICONTROL Portfolio Status] | Par défaut | Statut du portefeuille :<ul><li><i>[!UICONTROL Optimize] :</i> la fonctionnalité d’optimisation collecte les données sur les clics et le chiffre d’affaires pour les campagnes appropriées, modélise les données utilisées pour l’optimisation et optimise les enchères, les budgets de campagne et les cibles de stratégie d’enchères de campagne (selon le type d’optimisation et les stratégies d’enchères).</li><li><i>[!UICONTROL Active] :</i> la fonctionnalité d’optimisation collecte les données sur les clics et le chiffre d’affaires pour les campagnes appropriées et modélise les données, mais elle n’optimise pas les enchères ni les budgets de campagne.</li><li><i>[!UICONTROL Inactive] :</i> la fonctionnalité d’optimisation collecte les données de clics pour les campagnes appropriées à des fins de création de rapports, mais elle ne modélise pas les données ni n’optimise les offres ou les budgets de campagne. |
 | [!UICONTROL Day of Week] | Par défaut | Jour de la semaine signalé : <i>[!UICONTROL Sunday]</i>, <i>[!UICONTROL Monday]</i>, <i>[!UICONTROL Tuesday]</i>, <i>[!UICONTROL Wednesday]</i>, <i>[!UICONTROL Thursday]</i>, <i>[!UICONTROL Friday]</i> ou <i>[!UICONTROL Saturday]</i>. |
 | [!UICONTROL Event Date] | Par défaut | Date du signalement. |
-| [!UICONTROL Device] | Par défaut | (Google Ads, Microsoft Advertising, Yahoo ! Réseau Display, Yahoo ! Publicités japonaises et campagnes natives Yahoo) Type d’appareil sur lequel les publicités étaient affichées : <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Mobile]</i>, <i>[!UICONTROL Tablets]</i>, <i>[!UICONTROL Other]</i> ou <i>[!UICONTROL N/A]</i> (aucune valeur). Les valeurs des lignes des autres réseaux publicitaires sont <i>[!UICONTROL N/A]</i>.<br><br>Dans les campagnes de recherche, si les modèles de suivi ou les URL de destination pour les mots-clés, les publicités et/ou les extensions de publicité incluaient des paramètres pour effectuer le suivi des données par appareil (<code>&amp;ev_dvc={device}&amp;ev_dvm={devicemodel}</code>) au moment où l’utilisateur a cliqué sur la publicité, les données de conversion sont également incluses dans la ligne pour chaque type d’appareil. Sinon, si les données de conversion ne peuvent pas être attribuées à un type d’appareil, elles sont agrégées dans une ligne distincte avec une valeur « [!UICONTROL Device] » de <i>[!UICONTROL N/A]</i>. |
+| [!UICONTROL Device] | Par défaut | (Google Ads, [!DNL LY Ads], Microsoft Advertising, Yahoo ! Campagnes réseau d’affichage et natives Yahoo) Type d’appareil sur lequel les annonces étaient affichées : <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Mobile]</i>, <i>[!UICONTROL Tablets]</i>, <i>[!UICONTROL Other]</i> ou <i>[!UICONTROL N/A]</i> (aucune valeur). Les lignes des autres réseaux publicitaires ont la valeur <i>[!UICONTROL N/A]</i>.<br><br>Dans les campagnes de recherche, si les modèles de suivi ou les URL de destination pour les mots-clés, les publicités et/ou les extensions publicitaires incluaient des paramètres pour suivre les données par appareil (<code>&amp;ev_dvc={device}&amp;ev_dvm={devicemodel}</code>) au moment où l’utilisateur a cliqué sur la publicité, les données de conversion sont également incluses dans la ligne pour chaque type d’appareil. Sinon, si les données de conversion ne peuvent pas être attribuées à un type d’appareil, elles sont agrégées dans une ligne distincte avec une valeur « [!UICONTROL Device] » de <i>[!UICONTROL N/A]</i>. |
 | [!UICONTROL Revenue] | Par défaut | Chiffre d’affaires total. |
 | [!UICONTROL Impressions] | Par défaut | Le total des impressions. |
 | [!UICONTROL Clicks] | Par défaut | Nombre total de clics. |

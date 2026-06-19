@@ -2,9 +2,9 @@
 title: Colonnes de rapports pour les rapports spécialisés
 description: Découvrez les colonnes de données disponibles pour les rapports spécialisés.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3172'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Status] | Statut de l’audience. |
 | [!UICONTROL Average CPC] | Coût moyen par clic. |
 | [!UICONTROL Average CPM] | Coût moyen par mille impressions. |
-| [!UICONTROL Average Position], [!UICONTROL Avg Position] | Position moyenne des annonces au cours de la période spécifiée.<br><br>Pour les campagnes [!DNL Google Ads] et [!DNL Yahoo! Japan Ads], ces données ne sont disponibles que jusqu’en septembre 2019. Par [!DNL Microsoft Advertising], ces données ne sont disponibles que jusqu’au 22 janvier 2021. |
+| [!UICONTROL Average Position], [!UICONTROL Avg Position] | Position moyenne des annonces au cours de la période spécifiée.<br><br>Pour les campagnes [!DNL Google Ads] et [!DNL LY Ads], ces données ne sont disponibles que jusqu’en septembre 2019. Par [!DNL Microsoft Advertising], ces données ne sont disponibles que jusqu’au 22 janvier 2021. |
 | [!UICONTROL Bid Match Type] | (Rapports [!UICONTROL MSA Ad Extension]) Type de correspondance associé au mot-clé sur lequel l&#39;enchère a été effectuée. |
 | [!UICONTROL Campaign Budget] | ([!UICONTROL Campaign Daily Impression Share Report]) Budget de la campagne. |
 | [!UICONTROL Campaign Name] | La campagne. |
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Destination URL] | L’URL finale ou l’URL de destination (y compris les paramètres de suivi) de la publicité. |
 | [!UICONTROL Creative Display URL] | URL d’affichage de la publicité, qui correspond à ce que les utilisateurs finaux voient dans la publicité. |
 | [!UICONTROL Creative Status] | ([!UICONTROL MSA Ad Extension] rapports) Statut de la publicité. |
-| [!UICONTROL Creative Name] | (Rapport de transaction ; [!DNL Yahoo! Japan] uniquement) Nom de l’image publicitaire. |
+| [!UICONTROL Creative Name] | (Rapport de transaction ; [!DNL LY Ads] uniquement) Nom de l’image publicitaire. |
 | [!UICONTROL Creative Title] | Titre ou titre de la publicité. |
 | [!UICONTROL Cross Device Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report]) Conversions qui se produisent lorsqu’un utilisateur clique sur l’annonce sur un appareil, puis effectue une conversion sur un autre appareil ou navigateur. Les conversions entre appareils sont incluses dans Toutes les conversions. |
 | [!UICONTROL CTR] | Taux de clics publicitaires, c’est-à-dire le nombre de clics divisé par le nombre d’impressions pour les publicités incluses. |
@@ -100,7 +100,7 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | CPM effective ou coût moyen payé pour 1 000 impressions au cours d’une période spécifiée. Les valeurs eCPM sont calculées pour les campagnes CPM ou CPC. |
 | [!UICONTROL EF Campaign ID] | Identifiant numérique attribué par Search, Social et Commerce à la campagne. |
 | [!UICONTROL EF Portfolio Group ID] | Identifiant numérique du groupe de portefeuilles auquel appartient le portefeuille. |
-| [!UICONTROL EF Search Engine ID] | L’identifiant numérique que Search, Social et Commerce attribue au réseau publicitaire : <i>[!UICONTROL 3]</i> pour [!DNL Google Ads], <i>[!UICONTROL 10]</i> pour [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> pour [!DNL Meta], <i>[!UICONTROL 86]</i> pour [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> pour [!DNL Naver], <i>[!UICONTROL 88]</i> pour [!DNL Baidu], <i>[!UICONTROL 90]</i> pour [!DNL Yandex], <i>[!UICONTROL 94]</i> pour [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> pour [!DNL Yahoo Native], <i>[!UICONTROL 106]</i> pour [!DNL Pinterest] (obsolète) ou pour (obsolète). |
+| [!UICONTROL EF Search Engine ID] | L’identifiant numérique que Search, Social et Commerce attribue au réseau publicitaire : <i>[!UICONTROL 3]</i> pour [!DNL Google Ads], <i>[!UICONTROL 10]</i> pour [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> pour [!DNL Meta], <i>[!UICONTROL 86]</i> pour [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> pour [!DNL Naver], <i>[!UICONTROL 88]</i> pour [!DNL Baidu], <i>[!UICONTROL 90]</i> pour [!DNL Yandex], <i>[!UICONTROL 94]</i> pour [!DNL LY Ads] (anciennement [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> pour [!DNL Yahoo Native] (obsolète) ou <i>[!UICONTROL 106]</i> pour [!DNL Pinterest] (obsolète). |
 | [!UICONTROL End Date] | Dernier jour signalé. |
 | [!UICONTROL Extension Property Value] | (Rapports [!UICONTROL MSA Ad Extension]) Le [nom d’affichage de l’extension](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | (Rapports [!UICONTROL MSA Ad Extension]) ID du type d’extension d’annonce. |
@@ -147,7 +147,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Spend Strategy] | (Rapport Portfolio) Stratégie de dépenses du portefeuille : *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, *[!UICONTROL ROI]*, *[!UICONTROL Day of week]*, *[!UICONTROL Day of month]*, *[!UICONTROL CPT]*, *[!UICONTROL Marginal CPT]*, *[!UICONTROL Google Target CPA]* ou *[!UICONTROL Google Target ROAS]*. |
 | [!UICONTROL Portfolio Status] | Statut du portefeuille :<ul><li>*[!UICONTROL Optimize]* : la fonctionnalité d’optimisation collecte les données sur les clics et le chiffre d’affaires pour les campagnes appropriées, modélise les données utilisées pour l’optimisation et optimise les enchères, les budgets de campagne et les cibles de stratégie d’enchères de campagne (selon le type d’optimisation et les stratégies d’enchères).</li><li>*[!UICONTROL Active]* : la fonctionnalité d’optimisation collecte les données sur les clics et le chiffre d’affaires pour les campagnes appropriées et modélise les données, mais elle n’optimise pas les enchères ni les budgets de campagne.</li><li>*[!UICONTROL Inactive]* : la fonctionnalité d’optimisation collecte des données sur les clics pour les campagnes appropriées à des fins de création de rapports, mais elle ne modélise pas les données ni n’optimise les offres ou les budgets de campagne.</li></ul> |
 | [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report]) Pourquoi le groupe de ressources fonctionne ou non à pleine capacité. Il prend en compte le statut du groupe de ressources ainsi que d’autres signaux, tels que les approbations de politique et de qualité. Les valeurs peuvent inclure *ÉLIGIBLE,* *LIMITÉ,* *NOT_ELIGIBLE,* *EN PAUSE,* *EN ATTENTE,* SUPPRIMÉ,*UNKNOWN,* ou *UNSPECIFIED.* ** |
-| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) Informations supplémentaires sur le statut principal du groupe de ressources. Les valeurs peuvent inclure *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* CAMPAIGN_ENDED,*CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,*ou* UNSPECIFIED.**&#x200B; ** ** |
+| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) Informations supplémentaires sur le statut principal du groupe de ressources. Les valeurs peuvent inclure *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* CAMPAIGN_ENDED,*CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,*ou* UNSPECIFIED.** ** ** |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report]) ID de produit du produit affiché avec la publicité. <b>Remarque :</b> l’identifiant n’est capturé que lorsque la liste de produits inclut le paramètre de suivi `ev_plx=<GMC product ID>`, que vous devez ajouter dans [!DNL Google Merchant Center]. |
 | [!UICONTROL Product Type] ([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report]) Les types de produits de premier à cinquième niveau (les attributs que vous avez définis vous-même pour le groupe de produits). |
 | [!UICONTROL Query Match Type] | (Rapport de requête de recherche AdWords) Type de correspondance de mots-clés pour la requête. |

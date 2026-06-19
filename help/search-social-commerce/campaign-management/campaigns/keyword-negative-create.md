@@ -4,20 +4,18 @@ description: Découvrez comment créer des mots-clés négatifs pour les campagn
 exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/NjLsCcI2-1kWIAfZOv4-IJytuPKUfQWO0OG7ptEDe9w
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 272
+source-wordcount: 279
 ht-degree: 0%
 
 ---
 
 # Créer des mots-clés négatifs
 
-Comptes *[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] et [!DNL Baidu] existants uniquement*
+Comptes *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] et [!DNL Baidu] existants uniquement*
 
 Vous pouvez créer des mots-clés négatifs pour un groupe publicitaire ou une campagne de recherche qui cible la recherche ou le réseau d’affichage/natif. Les mots-clés négatifs ne déclenchent pas de publicités.
 
@@ -43,7 +41,7 @@ Vous pouvez créer des mots-clés négatifs pour un groupe publicitaire ou une c
 
    Séparez plusieurs valeurs par des virgules ou saisissez-les sur des lignes distinctes. Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés négatifs en une seule opération. Consultez également les exigences et restrictions suivantes :
 
-   * Longueur maximale des caractères : [!DNL Baidu] : 30 octets simples ou 15 octets doubles ; [!DNL Microsoft Advertising] : 100 octets simples ou 50 octets doubles ; [!DNL Google Ads] et [!DNL Yahoo! Japan Ads] : 80 octets simples ou 40 octets doubles.
+   * Longueur maximale des caractères : [!DNL Baidu] : 30 octets simples ou 15 octets doubles ; [!DNL Microsoft Advertising] : 100 octets simples ou 50 octets doubles ; [!DNL Google Ads] et [!DNL LY Ads] : 80 octets simples ou 40 octets doubles.
 
    * [!DNL Baidu] n’autorise qu’un seul type de correspondance par mot-clé par groupe publicitaire. Par exemple, le groupe publicitaire 1 ne peut pas inclure à la fois `"keyword"` et `[keyword]`.
 

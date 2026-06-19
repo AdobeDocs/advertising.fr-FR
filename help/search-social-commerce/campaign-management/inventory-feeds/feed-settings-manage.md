@@ -4,20 +4,18 @@ description: Découvrez comment configurer les paramètres qui contrôlent le tr
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 1155
+source-wordcount: 1164
 ht-degree: 0%
 
 ---
 
 # Configurer les paramètres des données de flux
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+comptes *[!DNL Google Ads], [!DNL LY Ads] (actions de suppression uniquement), [!DNL Microsoft Advertising] et [!DNL Yandex] uniquement*
 
 Vous pouvez configurer la manière de gérer les groupes d’annonces, les mots-clés et les annonces dans les fichiers de données de flux, ainsi que la manière de traiter les données dans les fichiers FTP en particulier, via les paramètres de flux.
 
@@ -105,11 +103,11 @@ Le niveau de stock de chaque ligne provient d&#39;une colonne du fichier de flux
 
 **[!UICONTROL Post to the SE]:** (les annonceurs téléchargent les fichiers de données via FTP ou un compte de centre commercial) Crée automatiquement des fichiers de feuilles d’envoi groupé dans les formats appropriés pour les réseaux publicitaires appropriés après la propagation de nouvelles données par le biais des modèles applicables. Cette option supprime également les données des onglets [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] et [!UICONTROL Ads], sauf si des sous-composants comportent des erreurs.
 
-Cette option est désactivée par défaut. Pour activer cette option, activez la case à cocher puis indiquez si vous souhaitez publier des fichiers de feuilles d&#39;envoi groupé sur les réseaux publicitaires :
+Par défaut, cette option est désactivée. Pour activer cette option, activez la case à cocher puis indiquez si vous souhaitez publier des fichiers de feuilles d&#39;envoi groupé sur les réseaux publicitaires :
 
 * *[!UICONTROL Immediately]* (valeur par défaut) : publie les fichiers de feuille d’envoi groupé sur les réseaux publicitaires appropriés une fois les données propagées à travers les modèles. Les fichiers de feuille d’envoi groupé restent disponibles dans la vue [!UICONTROL Bulksheets] pendant 30 jours.
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]:**&#x200B; ne publie pas les fichiers de feuille d’envoi groupé sur les réseaux publicitaires appropriés, mais les répertorie dans la vue [!UICONTROL Bulksheets], à partir de laquelle vous pouvez les publier ultérieurement. Les fichiers de feuille d’envoi groupé restent disponibles dans la vue [!UICONTROL Bulksheets] pendant 30 jours. Lorsque le fichier de feuille d’envoi groupé fait plus de 10 Mo, mais moins de 2 Go, le fichier est au format ZIP ; il n’est pas nécessaire de décompresser le fichier pour le publier. &#x200B;** Conseil :** si vous n’avez pas encore validé vos pages de destination, utilisez cette option pour pouvoir les valider à partir de la vue [!UICONTROL Bulksheets] avant de publier les données sur le réseau publicitaire.
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]:** ne publie pas les fichiers de feuille d’envoi groupé sur les réseaux publicitaires appropriés, mais les répertorie dans la vue [!UICONTROL Bulksheets], à partir de laquelle vous pouvez les publier ultérieurement. Les fichiers de feuille d’envoi groupé restent disponibles dans la vue [!UICONTROL Bulksheets] pendant 30 jours. Lorsque le fichier de feuille d’envoi groupé fait plus de 10 Mo, mais moins de 2 Go, le fichier est au format ZIP ; il n’est pas nécessaire de décompresser le fichier pour le publier. **Conseil :** si vous n’avez pas encore validé vos pages de destination, utilisez cette option pour pouvoir les valider à partir de la vue [!UICONTROL Bulksheets] avant de publier les données sur le réseau publicitaire.
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]:** Empêche de publier sur le réseau publicitaire des expressions de mots-clés comportant plus d&#39;un nombre spécifié de mots. Lorsque cette option est sélectionnée, les phrases de mots-clés contenant plus de mots que le nombre maximal sont propagées et répertoriées dans l’onglet [!UICONTROL Keywords] , mais elles ne sont pas publiées lorsque vous essayez de publier les données.
 

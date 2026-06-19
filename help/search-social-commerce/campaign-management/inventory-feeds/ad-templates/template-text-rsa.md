@@ -4,23 +4,19 @@ description: Référencez les paramètres des modèles d’annonce de texte et d
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 3352
+source-wordcount: 3437
 ht-degree: 0%
 
 ---
 
 # Paramètres d’annonce textuelle et de modèle d’annonce responsive sur le Réseau de recherche pour les flux d’inventaire
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+comptes *[!DNL Google Ads], [!DNL LY Ads] (actions de suppression uniquement), [!DNL Microsoft Advertising] et [!DNL Yandex] uniquement*
 
 >[!NOTE]
 >
@@ -77,9 +73,9 @@ Lorsqu’aucune correspondance n’est trouvée, toutes les données de la campa
 
 * Pour incorporer l’URL finale :
 
-   * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste de paramètres indiquant les URL finales dans les modèles de tracking, reportez-vous à la [!DNL Microsoft Advertising]documentation[[!DNL Microsoft Advertising]  (](https://help.ads.microsoft.com/#apex/3/en/56799/2) uniquement) ou ([!DNL Google Ads] uniquement) aux paramètres « Modèle de tracking uniquement » dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste de paramètres indiquant les URL finales dans les modèles de tracking, reportez-vous à la [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799/2) ([!DNL Microsoft Advertising] uniquement) ou ([!DNL Google Ads] uniquement) aux paramètres « Modèle de tracking uniquement » dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL Yahoo! Japan Ads] uniquement) Utilisez le `!{unescapedurl}` de paramètre pour indiquer l’URL de la page de destination.
+   * ([!DNL LY Ads] uniquement) Utilisez le `!{unescapedurl}` de paramètre pour indiquer l’URL de la page de destination.
 
    * Vous pouvez éventuellement inclure des paramètres d’URL et tout paramètre personnalisé défini pour la campagne, séparés par des esperluettes (&amp;), tel que `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -151,7 +147,7 @@ Pour le suivi des conversions Adobe Advertising, qui est appliqué lorsque les p
 
 Pour les redirections et le suivi tiers, saisissez une valeur . Pour indiquer l’URL de la page de destination :
 
-* Pour Yahoo ! Comptes Japan Ads, utilisez le paramètre {lpurl}.
+* Pour les comptes LY Ads, utilisez le paramètre {lpurl}.
 
 * Pour connaître les paramètres disponibles pour les comptes [!DNL Microsoft Advertising] et [!DNL Google Ads], reportez-vous à la [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou aux paramètres de modèle de tracking uniquement dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
@@ -177,7 +173,7 @@ Cette valeur remplace les paramètres au niveau du compte et de la campagne, mai
 
 Pour insérer un nom de colonne ou un groupe de modificateurs en tant que paramètre dynamique, cliquez dans le champ de saisie, puis cliquez sur un nom de colonne dans la liste Colonne ou sur un [nom de modificateur](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) dans la liste Modificateurs. Pour spécifier plusieurs mots-clés ou plusieurs types de correspondance pour le même mot-clé, saisissez-les sur des lignes distinctes. Pour spécifier le type de correspondance de mot-clé, utilisez la syntaxe de type de correspondance suivante autour du nom de la colonne :
 
-* Pour les modèles [!DNL Google Ads], [!DNL Microsoft Advertising] et [!DNL Yahoo! Japan Ads] :
+* Pour les modèles [!DNL Google Ads], [!DNL LY Ads] et [!DNL Microsoft Advertising] :
 
    * Pour les paramètres dynamiques : Correspondance large = `[keyword]`, Modificateur de correspondance large pour le premier terme de la colonne [!UICONTROL Keyword] (tel que +chaussures en daim bleu) = `+[keyword]`, Modificateur de correspondance large pour chaque terme de la colonne Mot-clé (tel que +bleu +daim +chaussures) = `+[keyword]+`, Correspondance d’expression = `"[keyword]"`, Correspondance exacte = `[[keyword]]`
 
@@ -187,9 +183,9 @@ Pour insérer un nom de colonne ou un groupe de modificateurs en tant que param�
 
 * Pour les modèles [!DNL Yandex] :
 
-   * Pour les paramètres dynamiques : insérez le nom de la colonne, par exemple `[keyword]`. Pour indiquer le type de correspondance, utilisez la syntaxe spécifique au [[!DNL Yandex]. &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) **Remarque :** pour les termes à correspondance large, utilisez la syntaxe suivante : Modificateur de correspondance large pour le premier terme de la colonne Mot-clé (tel que +chaussures bleu en daim) = `+[keyword]`, Modificateur de correspondance large pour chaque terme de la colonne Mot-clé (tel que +bleu +daim +chaussures) = `+[keyword]+`
+   * Pour les paramètres dynamiques : insérez le nom de la colonne, par exemple `[keyword]`. Pour indiquer le type de correspondance, utilisez la syntaxe spécifique au ](https://yandex.com/support/direct/keywords/symbols-and-operators.html). [[!DNL Yandex]**Remarque :** pour les termes à correspondance large, utilisez la syntaxe suivante : Modificateur de correspondance large pour le premier terme de la colonne Mot-clé (tel que +chaussures bleu en daim) = `+[keyword]`, Modificateur de correspondance large pour chaque terme de la colonne Mot-clé (tel que +bleu +daim +chaussures) = `+[keyword]+`
 
-   * Pour les mots-clés statiques : seuls les mots-clés de recherche sont pris en charge. Utilisez la syntaxe spécifique au [[!DNL Yandex] pour le mot-clé . &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) Les crochets (`[]`) pour indiquer l’ordre des mots ne sont pas pris en charge.
+   * Pour les mots-clés statiques : seuls les mots-clés de recherche sont pris en charge. Utilisez la syntaxe spécifique au ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) pour le mot-clé . [[!DNL Yandex]Les crochets (`[]`) pour indiquer l’ordre des mots ne sont pas pris en charge.
 
 >[!NOTE]
 >
@@ -217,11 +213,11 @@ Si vous utilisez un flux de [!DNL Google Merchant Center] et incluez cette valeu
 
 * Pour indiquer l’URL de la page de destination :
 
-   * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste de paramètres indiquant les URL finales dans les modèles de tracking, reportez-vous à la [!DNL Microsoft Advertising]documentation[[!DNL Microsoft Advertising]  (](https://help.ads.microsoft.com/#apex/3/en/56799) uniquement) ou ([!DNL Google Ads] uniquement) aux paramètres « Modèle de tracking uniquement » dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste de paramètres indiquant les URL finales dans les modèles de tracking, reportez-vous à la [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] uniquement) ou ([!DNL Google Ads] uniquement) aux paramètres « Modèle de tracking uniquement » dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL Yahoo! Japan Ads] uniquement) Utilisez le `!{lpurl}` de paramètre pour indiquer l’URL de la page de destination.
+   * ([!DNL LY Ads] uniquement) Utilisez le `!{lpurl}` de paramètre pour indiquer l’URL de la page de destination.
 
-**[!UICONTROL Param 1]**, **[!UICONTROL Param 2]\[[!DNL Google Ads] modèles\]:** (modèles [!DNL Google Ads] uniquement) La colonne du fichier spécifié qui représente la variable [!DNL Google Ads] ou `{param1}` de `{param2}`, que vous pouvez inclure dans la copie de l’annonce ou l’URL d’affichage pour toute annonce créée à partir du modèle. Pour insérer le paramètre dynamique, cliquez dans le champ de saisie, puis cliquez sur le nom d&#39;une colonne dans la liste des colonnes. Le nom de la colonne est remplacé par les données réelles lorsque le fichier de flux se propage dans le modèle.
+**[!UICONTROL Param 1]**, **[!UICONTROL Param 2]\[[!DNL Google Ads] modèles\]:** (modèles [!DNL Google Ads] uniquement) La colonne du fichier spécifié qui représente la variable `{param1}` ou `{param2}` de [!DNL Google Ads], que vous pouvez inclure dans la copie de l’annonce ou l’URL d’affichage pour toute annonce créée à partir du modèle. Pour insérer le paramètre dynamique, cliquez dans le champ de saisie, puis cliquez sur le nom d&#39;une colonne dans la liste des colonnes. Le nom de la colonne est remplacé par les données réelles lorsque le fichier de flux se propage dans le modèle.
 
 Si vous utilisez l’un de ces paramètres, vous avez la possibilité d’appliquer uniquement le paramètre aux nouveaux mots-clés ou de mettre également à jour les valeurs des mots-clés existants qui n’ont pas été créés à partir du modèle :
 
@@ -239,7 +235,7 @@ Les champs de données du fichier de flux peuvent contenir au maximum 25 caract�
 
    * La valeur peut être précédée ou ajoutée d’un symbole ou code de devise. Par exemple, 2 000 £ et 2000GBP sont valides.
 
-   * La valeur peut inclure une virgule (,) ou un point (.) comme séparateur, avec un point facultatif (.) ou une virgule (,) pour les valeurs fractionnaires. Par exemple, 1 000,00 et 2 000,10 sont valides.
+   * La valeur peut inclure une virgule (,) ou un point (.) comme séparateur, avec un point facultatif (.) ou virgule (,) pour les valeurs fractionnelles. Par exemple, 1 000,00 et 2 000,10 sont valides.
 
    * La valeur peut être précédée ou ajoutée d’un signe de pourcentage (%), de plus (+) ou de moins (-). Par exemple, 20 %, 208+ et -42,32 sont valides.
 
@@ -249,7 +245,7 @@ Les champs de données du fichier de flux peuvent contenir au maximum 25 caract�
 
 **[!UICONTROL Param 3]:** (modèles de [!DNL Microsoft Advertising] uniquement) Chaîne à utiliser comme valeur de substitution dans une publicité si le titre, le texte, l’URL d’affichage ou l’URL finale contient la chaîne de substitution dynamique `{Param3}`. La longueur maximale est de 70 caractères, mais gardez à l’esprit la longueur maximale des éléments publicitaires dans lesquels vous l’utilisez (par exemple, un titre d’annonce peut contenir jusqu’à 25 caractères).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** enchère initiale pour chaque mot-clé avec le type de correspondance ou le type d’annonce spécifié.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** enchère initiale pour chaque mot-clé avec le type de correspondance ou le type d’annonce spécifié.
 
 ## [!UICONTROL Ads]
 
@@ -271,7 +267,7 @@ Au moins un titre doit être disponible pour chaque poste. Si vous épinglez plu
 
 **[!UICONTROL Ad Title]:** (annonces textuelles Microsoft Advertising standard existantes uniquement ; lecture seule) Titre, ou première ligne, d’une annonce. Microsoft Advertising a rendu obsolètes la création et la modification de publicités textuelles standard.
 
-**[!UICONTROL Headline 1]**, **[!UICONTROL Headline 2]:** (modèles d’annonces textuelles [!DNL Google Ads] et [!DNL Yahoo! Japan Ads] développés/étendus uniquement) Titre d’une annonce. La longueur maximale de chaque ligne (après remplacement des paramètres dynamiques) est de 30 caractères ou 15 caractères codés sur deux octets.
+**[!UICONTROL Headline 1]**, **[!UICONTROL Headline 2]:** (modèles d’annonces textuelles [!DNL Google Ads] et [!DNL LY Ads] développés/étendus uniquement) Titre d’une annonce. La longueur maximale de chaque ligne (après remplacement des paramètres dynamiques) est de 30 caractères ou 15 caractères codés sur deux octets.
 
 <!-- using a snippet for the note instead of an include because this is used multiple times on the page, which ExL doesn't support for includes -->
 
@@ -295,7 +291,7 @@ Au moins un titre doit être disponible pour chaque poste. Si vous épinglez plu
 
 * (Modèles d’annonce de texte développé Google Ads) La longueur maximale (après remplacement des paramètres dynamiques) est de 90 caractères ou 45 caractères codés sur deux octets.
 
-* (Yahoo ! Modèles Japan Ads) La longueur maximale (après remplacement des paramètres dynamiques) est de 80 caractères ou 40 caractères codés sur deux octets.
+* (Yahoo ! Modèles LY Ads) La longueur maximale (après remplacement des paramètres dynamiques) est de 80 caractères ou 40 caractères codés sur deux octets.
 
 * (Modèles Yandex) La longueur maximale (après remplacement des paramètres dynamiques) est de 75 caractères et un seul mot ne peut pas dépasser 22 caractères.
 
@@ -325,9 +321,9 @@ Pour les annonces responsive sur le Réseau de Recherche, insérez un personnali
 
 * [!DNL Microsoft Advertising] : `{CUSTOMIZER.Attribute name:Default text}`, par exemple `{CUSTOMIZER.Discount:10%}`
 
-**[!UICONTROL Display URL]:** (annonces de texte standard [!DNL Microsoft Advertising] et [!DNL Yahoo! Japan Ads] existantes uniquement ; lecture seule) URL affichée dans une annonce.
+**[!UICONTROL Display URL]:** (annonces de texte standard [!DNL LY Ads] et [!DNL Microsoft Advertising] existantes uniquement ; lecture seule) URL affichée dans une annonce.
 
-[!DNL Microsoft Advertising] et [!DNL Yahoo! Japan Ads] ont rendu obsolètes la création et la modification d’annonces de texte standard.
+[!DNL LY Ads] et [!DNL Microsoft Advertising] ont rendu obsolètes la création et la modification d’annonces de texte standard.
 
 **[!UICONTROL Base URL]:** (Comptes avec URL de destination uniquement) Page vers laquelle les utilisateurs sont redirigés. Il peut inclure du code de redirection et de suivi tiers. Si vous utilisez le service de suivi des conversions d’Adobe Advertising et que les paramètres de la campagne incluent l’utilisation du [!UICONTROL EF Redirect] et l’ajout du suivi au niveau de la publicité, Search, Social et Commerce ajoute automatiquement sa propre redirection et son propre code de suivi à la publicité.
 
@@ -348,7 +344,7 @@ Pour le suivi des conversions Adobe Advertising, qui est appliqué lorsque les p
 
 Pour les redirections et le suivi tiers, saisissez une valeur . Pour indiquer l’URL de la page de destination :
 
-* Pour Yahoo ! Comptes Japan Ads, utilisez le paramètre {lpurl}.
+* Pour les comptes [!DNL LY Ads], utilisez le paramètre {lpurl}.
 
 * Pour connaître les paramètres disponibles pour les comptes [!DNL Microsoft Advertising] et [!DNL Google Ads], reportez-vous à la [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ou aux paramètres de modèle de tracking uniquement dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 

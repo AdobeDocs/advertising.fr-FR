@@ -4,22 +4,19 @@ description: Découvrez les annonces dans Search, Social et Commerce, y compris 
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 883
+source-wordcount: 918
 ht-degree: 0%
 
 ---
 
 # À propos des publicités
 
-Comptes *[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] et [!DNL Baidu] existants uniquement*
+Comptes *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] et [!DNL Baidu] existants uniquement*
 
 Une annonce publicitaire peut être affichée sur un site web cible (pour des campagnes de contenu ou ciblées par emplacement) ; lorsqu’un utilisateur recherche l’un des mots-clés dans le groupe d’annonces (pour des campagnes de recherche) ou le contenu sur votre site web (annonces de recherche dynamique dans des campagnes de recherche uniquement [!DNL Google Ads]) ; ou lorsqu’un utilisateur effectue une recherche pertinente pour l’un des éléments de votre flux de produits [!DNL Google Merchant Center] ou [!DNL Microsoft Merchant Center] (annonces d’achats dans des annonces de [!DNL Google Ads] ou de produits dans des campagnes [!DNL Microsoft Advertising]).
 
@@ -57,7 +54,7 @@ Vous pouvez créer et gérer des types d’annonces pris en charge pour les grou
 
 >[!NOTE]
 >
->[!DNL Google Ads] ne fournissez pas de données en dehors de ses éditeurs natifs sur les combinaisons de texte affichées sous forme de publicités. Pour plus d’informations sur les rapports pour chaque combinaison de texte, consultez la documentation sur les [Google Ads &#x200B;](https://support.google.com/google-ads/answer/7684791).
+>[!DNL Google Ads] ne fournissez pas de données en dehors de ses éditeurs natifs sur les combinaisons de texte affichées sous forme de publicités. Pour plus d’informations sur les rapports pour chaque combinaison de texte, consultez la documentation sur les [Google Ads ](https://support.google.com/google-ads/answer/7684791).
 
 ## La vue [!UICONTROL Ads]
 

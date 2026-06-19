@@ -2,16 +2,11 @@
 title: (Nouvelle interface utilisateur) Télécharger/créer un fichier de feuille d’envoi groupé
 description: Découvrez comment créer des fichiers de feuilles d’envoi groupé en téléchargeant les données de compte pour vos réseaux publicitaires dans la nouvelle interface utilisateur de Search, Social et Commerce.
 feature: Search Bulksheets
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: e58024d1-d6da-420c-80af-6be211808316
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1637
 ht-degree: 0%
@@ -129,46 +124,46 @@ Critères pour les campagnes, groupes publicitaires, annonces/contenus publicita
 
 ## Lignes de feuilles d&#39;envoi groupé par réseau publicitaire {#bulksheet-rows-by-ad-network}
 
-| Ligne de feuille d&#39;envoi groupé | [!DNL Baidu] | [!DNL Google Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo! Japan Ads] | [!DNL Yahoo Native] | [!DNL Yandex] | Remarques |
+| Ligne de feuille d&#39;envoi groupé | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo Native] | [!DNL Yandex] | Remarques |
 |----|----|----|----|-------|----|----|----|----|----|----|
 | [!UICONTROL Campaign] | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui | — |
 | [!UICONTROL Adgroup] | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui | — |
-| [!UICONTROL Creative] *ou* [!UICONTROL Creative (except RSA)] | Oui | Oui | Oui | — | — | Oui | Oui | Oui | Oui | ([!DNL Google Ads]) Utilisez pour tous les types d’annonces, à l’exception des annonces en responsive design de recherche, disponibles dans la ligne [!UICONTROL Responsive Search Ad]. |
-| [!UICONTROL Responsive Search Ad] | — | Oui | Oui | — | — | — | — | — | — | — |
-| [!UICONTROL Keyword] | Oui | Oui | Oui | Oui | Oui | — | Oui | Oui | Oui | À utiliser uniquement pour les mots-clés non négatifs. Pour afficher les mots-clés négatifs créés au niveau de la campagne ou du groupe publicitaire, utilisez la ligne [!UICONTROL Campaign Negative Keyword] ou [!UICONTROL Adgroup Negative Keyword], le cas échéant. |
-| [!UICONTROL Promoted Pin] | — | — | — | — | Oui | — | — | — | — | — |
+| [!UICONTROL Creative] *ou* [!UICONTROL Creative (except RSA)] | Oui | Oui | Oui | Oui | — | — | Oui | Oui | Oui | ([!DNL Google Ads]) Utilisez pour tous les types d’annonces, à l’exception des annonces en responsive design de recherche, disponibles dans la ligne [!UICONTROL Responsive Search Ad]. |
+| [!UICONTROL Responsive Search Ad] | — | Oui | — | Oui | — | — | — | — | — | — |
+| [!UICONTROL Keyword] | Oui | Oui | Oui | Oui | Oui | Oui | — | Oui | Oui | À utiliser uniquement pour les mots-clés non négatifs. Pour afficher les mots-clés négatifs créés au niveau de la campagne ou du groupe publicitaire, utilisez la ligne [!UICONTROL Campaign Negative Keyword] ou [!UICONTROL Adgroup Negative Keyword], le cas échéant. |
+| [!UICONTROL Promoted Pin] | — | — | — | — | — | Oui | — | — | — | — |
 | [!UICONTROL Placement] | — | Oui | — | — | — | — | — | — | — | — |
-| [!UICONTROL Auto Target] | — | Oui | Oui | — | — | — | — | — | — | Utilisez pour les cibles de recherche dynamique d’un groupe publicitaire. |
-| [!UICONTROL Shopping Product Group] | — | Oui | Oui | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Site Link] | — | Oui | Oui | — | — | — | — | Oui | — | — |
-| [!UICONTROL Campaign Negative Keyword] | Oui | Oui | Oui | — | — | — | Oui | Oui | — | À utiliser uniquement pour les mots-clés négatifs créés au niveau de la campagne ou du groupe publicitaire. Pour afficher les mots-clés non négatifs, utilisez la ligne [!UICONTROL Keyword] si disponible. |
-| [!UICONTROL Campaign Negative Website] | — | Oui | Oui | — | — | — | — | Oui | — | — |
+| [!UICONTROL Auto Target] | — | Oui | — | Oui | — | — | — | — | — | Utilisez pour les cibles de recherche dynamique d’un groupe publicitaire. |
+| [!UICONTROL Shopping Product Group] | — | Oui | — | Oui | — | — | — | — | — | — |
+| [!UICONTROL Campaign Site Link] | — | Oui | — | Oui | — | — | — | Oui | — | — |
+| [!UICONTROL Campaign Negative Keyword] | Oui | Oui | Oui | Oui | — | — | — | Oui | — | À utiliser uniquement pour les mots-clés négatifs créés au niveau de la campagne ou du groupe publicitaire. Pour afficher les mots-clés non négatifs, utilisez la ligne [!UICONTROL Keyword] si disponible. |
+| [!UICONTROL Campaign Negative Website] | — | Oui | — | Oui | — | — | — | Oui | — | — |
 | [!UICONTROL Adgroup Site Link] | — | Oui | — | — | — | — | — | Oui | — | — |
 | [!UICONTROL Creative Site Link] | — | — | — | — | — | — | — | — | Oui | — |
-| [!UICONTROL Adgroup Negative Keyword] | Oui | Oui | Oui | — | — | — | Oui | Oui | — | — |
-| [!UICONTROL Adgroup Negative Website] | — | Oui | Oui | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Location Target] | Oui | Oui | Oui | — | — | — | Oui | Oui | — | — |
-| [!UICONTROL Adgroup Location Target] | — | — | Oui | — | — | — | — | Oui | — | — |
-| [!UICONTROL Campaign Device Target] | — | Oui | Oui | — | — | — | — | Oui | — | — |
-| [!UICONTROL Adgroup Device Target] | — | Oui | Oui | — | — | — | — | Oui | — | — |
-| [!UICONTROL Campaign RLSA Target] | — | Oui | Oui | — | — | — | — | — | — | — |
-| [!UICONTROL Adgroup RLSA Target] | — | Oui | Oui | — | — | — | — | — | — | — |
+| [!UICONTROL Adgroup Negative Keyword] | Oui | Oui | Oui | Oui | — | — | — | Oui | — | — |
+| [!UICONTROL Adgroup Negative Website] | — | Oui | — | Oui | — | — | — | — | — | — |
+| [!UICONTROL Campaign Location Target] | Oui | Oui | Oui | Oui | — | — | — | Oui | — | — |
+| [!UICONTROL Adgroup Location Target] | — | — | — | Oui | — | — | — | Oui | — | — |
+| [!UICONTROL Campaign Device Target] | — | Oui | — | Oui | — | — | — | Oui | — | — |
+| [!UICONTROL Adgroup Device Target] | — | Oui | — | Oui | — | — | — | Oui | — | — |
+| [!UICONTROL Campaign RLSA Target] | — | Oui | — | Oui | — | — | — | — | — | — |
+| [!UICONTROL Adgroup RLSA Target] | — | Oui | — | Oui | — | — | — | — | — | — |
 | [!UICONTROL Campaign RLSA Negative] | — | Oui | — | — | — | — | — | — | — | — |
 | [!UICONTROL Adgroup RLSA Negative] | — | Oui | — | — | — | — | — | — | — | — |
 
 Pour plus d’informations sur les colonnes obligatoires et facultatives pour chaque réseau publicitaire, reportez-vous aux articles relatifs au format de données de feuille d’envoi groupé spécifique au réseau publicitaire :
 
-* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Baidu] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Microsoft Advertising] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Naver] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Yahoo! Display Network] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Yahoo! Japan Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Yandex] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Baidu] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL LY Ads] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Microsoft Advertising] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Naver] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Yahoo! Display Network] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Yandex] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; (nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé](about.md)
+>* [ (nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé](about.md)
 >* [(Nouvelle interface utilisateur) Chargez une feuille d’envoi groupé ou un fichier d’erreur corrigé](upload.md)
 >* [(Nouvelle interface utilisateur) Publier des feuilles d’envoi groupé ou des fichiers d’erreur corrigés](post.md)
 >* [(nouvelle interface utilisateur) Valider les pages de destination dans des fichiers de feuille d’envoi groupé](validate-landing-pages.md)

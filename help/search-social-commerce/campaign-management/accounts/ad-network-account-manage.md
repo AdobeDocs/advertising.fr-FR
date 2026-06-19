@@ -4,18 +4,12 @@ description: Découvrez comment configurer et gérer les détails d’un compte 
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 2100
+source-wordcount: 2136
 ht-degree: 0%
 
 ---
@@ -28,9 +22,9 @@ Vous trouverez ci-dessous des instructions pour créer et modifier les détails 
 
 <!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
 
-Pour obtenir des instructions sur la gestion des comptes de réseau publicitaire dans la nouvelle interface utilisateur, voir « [(Nouvelle interface utilisateur) Gérer les comptes de réseau publicitaire via une connexion API &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) ».
+Pour obtenir des instructions sur la gestion des comptes de réseau publicitaire dans la nouvelle interface utilisateur, voir « [(Nouvelle interface utilisateur) Gérer les comptes de réseau publicitaire via une connexion API ](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) ».
 
 ## Créer un compte réseau publicitaire {#create-account}
 
@@ -53,7 +47,7 @@ Pour activer la synchronisation ou le suivi d’un compte, vous devez créer un 
 
    1. Dans la section **[!UICONTROL Account Details]** , saisissez les détails du compte.
 
-      Pour les réseaux publicitaires qui utilisent le type d’autorisation de connexion « [!UICONTROL oAuth] », autorisez Search, Social et Commerce à accéder au compte à l’aide du protocole d’autorisation [&#x200B; OAuth &#x200B;](https://oauth.net/2/) :
+      Pour les réseaux publicitaires qui utilisent le type d’autorisation de connexion « [!UICONTROL oAuth] », autorisez Search, Social et Commerce à accéder au compte à l’aide du protocole d’autorisation [ OAuth ](https://oauth.net/2/) :
 
       1. Saisissez la valeur **[!UICONTROL Login]** du compte, éventuellement le mot de passe, puis cliquez sur **[!UICONTROL Authenticate]**.
 
@@ -177,7 +171,7 @@ Pour les comptes [!DNL Microsoft Advertising], seules les connexions autorisées
 
 **[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] activé pour les [!DNL oAuth] et tous les autres réseaux à l’exception de [!DNL Meta] et [!DNL Yandex]) Jeton du compte pour autoriser les connexions à l’aide du [[!DNL OAuth] protocole d’autorisation](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Tous les réseaux publicitaires sauf [!DNL Naver]) Mot de passe du compte. Pour les comptes activés par mot de passe sur [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] et [!DNL Yandex], ce champ est obligatoire. Pour les comptes activés pour [!DNL oAuth], ce champ est facultatif ; utilisez-le lorsque vous souhaitez chiffrer et enregistrer le mot de passe afin que le gestionnaire de compte puisse actualiser les jetons si nécessaire.
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Tous les réseaux publicitaires sauf [!DNL Naver]) Mot de passe du compte. Pour les comptes activés par mot de passe sur [!DNL LY Ads], [!DNL Microsoft Advertising] et [!DNL Yandex], ce champ est obligatoire. Pour les comptes activés pour [!DNL oAuth], ce champ est facultatif ; utilisez-le lorsque vous souhaitez chiffrer et enregistrer le mot de passe afin que le gestionnaire de compte puisse actualiser les jetons si nécessaire.
 
 **[!UICONTROL Login Details]: [!UICONTROL Access Key]:** (comptes [!DNL Yandex] uniquement) Clé d’accès du compte de développeur à utiliser.
 
@@ -201,13 +195,13 @@ Les comptes qui utilisent le suivi des clics d’Adobe Advertising doivent inclu
 * *Activé :* Search, Social et Commerce synchronise les données de campagne avec le compte (lorsqu’il est pris en charge) et diffuse des enchères automatisées et/ou des budgets de campagne pour les campagnes des portfolios.
 * *Désactivé :* la recherche, les réseaux sociaux et Commerce arrête toutes les activités sur le compte. Les données collectées alors que le compte était actif sont toujours stockées, mais les vues et rapports de gestion de campagne n’incluent pas les données de la période pendant laquelle le compte est en pause. Vous pourrez ensuite réactiver le compte pour reprendre l’activité avec le compte.
 
-**Modèle de suivi** - (comptes [!DNL Google Ads], [!DNL Microsoft Advertising] et [!DNL Yahoo! Japan Ads] uniquement ; facultatif) Modèle de suivi par défaut pour le compte, qui spécifie toutes les redirections de domaine et tous les paramètres de suivi hors atterrissage et incorpore également l’URL finale/de la page de destination dans un paramètre. Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
+**Modèle de suivi** - (comptes [!DNL Google Ads], [!DNL LY Ads] et [!DNL Microsoft Advertising] uniquement ; facultatif) Modèle de suivi par défaut pour le compte, qui spécifie toutes les redirections de domaine et tous les paramètres de suivi hors atterrissage et incorpore également l’URL finale/de la page de destination dans un paramètre. Exemple : `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` pour inclure une redirection.
 
 * Pour incorporer l’URL finale :
 
-   * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste de paramètres indiquant les URL finales dans les modèles de tracking, reportez-vous à la [!DNL Microsoft Advertising]documentation[[!DNL Microsoft Advertising]  (](https://help.ads.microsoft.com/#apex/3/en/56799) uniquement) ou ([!DNL Google Ads] uniquement) aux paramètres « Modèle de tracking uniquement » dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste de paramètres indiquant les URL finales dans les modèles de tracking, reportez-vous à la [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] uniquement) ou ([!DNL Google Ads] uniquement) aux paramètres « Modèle de tracking uniquement » dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL Yahoo! Japan Ads] uniquement) Utilisez le `!{lpurl}` de paramètre pour indiquer l’URL de la page de destination.
+   * ([!DNL LY Ads] uniquement) Utilisez le `!{lpurl}` de paramètre pour indiquer l’URL de la page de destination.
 
 * Vous pouvez éventuellement inclure des paramètres d’URL et tout paramètre personnalisé défini pour la campagne, séparés par des esperluettes (&amp;), tel que `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -261,13 +255,13 @@ Les comptes qui utilisent le suivi des clics d’Adobe Advertising doivent inclu
 
 * **Format S_kwcid :** (comptes [!DNL Google Ads] existants pour les annonceurs disposant d’une intégration Adobe Advertising-Adobe Analytics et pour lesquels l’AMO ID (s_kwcid) n’a pas déjà été migré)
 
-Ce compte utilise le format hérité du code de suivi AMO ID, ce qui permet à Adobe Advertising de partager des données sur le compte avec Adobe Analytics. Le [dernier format](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#dimension-items) inclut des paramètres pour l’identifiant de campagne et l’identifiant de groupe publicitaire, qui sont nécessaires pour générer des rapports précis aux niveaux de la campagne et du groupe publicitaire pour [!DNL Google Ads] campagnes avec performances maximales et les campagnes sous forme de brouillons et d’expériences dans Analytics :
+Ce compte utilise le format hérité du code de suivi AMO ID, ce qui permet à Adobe Advertising de partager des données sur le compte avec Adobe Analytics. Le [dernier format](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) inclut des paramètres pour l’identifiant de campagne et l’identifiant de groupe publicitaire, qui sont nécessaires pour générer des rapports précis aux niveaux de la campagne et du groupe publicitaire pour [!DNL Google Ads] campagnes avec performances maximales et les campagnes sous forme de brouillons et d’expériences dans Analytics :
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
 Si ce compte doit créer des rapports au niveau de la campagne et du groupe publicitaire, cliquez sur l’icône [!UICONTROL Edit] (crayon), puis **[!UICONTROL Migrate to new s_kwcid format]** pour changer le nouveau format. Pour les comptes qui n’incluent pas ces types de campagne, la migration vers le nouveau format est facultative, mais recommandée.
 
-Pour obtenir des instructions complètes, reportez-vous à « [&#x200B; Mettre à jour le code de suivi AMO ID pour un  [!DNL Google Ads]  compte &#x200B;](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md) ».
+Pour obtenir des instructions complètes, reportez-vous à « [ Mettre à jour le code de suivi AMO ID pour un  [!DNL Google Ads]  compte ](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md) ».
 
 **Noms de suites de rapports :** (pour la redirection EF avec jeton uniquement ; annonceurs avec une intégration Adobe Advertising-Adobe Analytics ; facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoient les données qu’il collecte du réseau publicitaire, y compris les classifications d’entité et les données de clic pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.
 

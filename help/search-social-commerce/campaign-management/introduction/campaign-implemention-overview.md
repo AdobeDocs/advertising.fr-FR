@@ -4,17 +4,12 @@ description: Découvrez les tâches liées à la configuration, à la synchronis
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/bAXUxseeAb6zMrnFa6gXEe1ES-3BlDMM-3a-vLzeFoY
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 979
+source-wordcount: 992
 ht-degree: 0%
 
 ---
@@ -51,9 +46,9 @@ Cette page contient des informations sur tous les types de compte, y compris sur
 
       * (Google Ads, Microsoft Advertising, Yahoo ! Annonces et comptes Yandex uniquement) Configurez un processus [automatisé pour créer des annonces dynamiques et des mots-clés ciblés sur chaque élément de votre inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) en fonction d’un modèle d’annonce spécifique au réseau publicitaire que vous créez et du contenu des fichiers de données d’inventaire que vous téléchargez vers un emplacement FTP.
 
-      * (Baidu, Google Ads, Microsoft Advertising, Yahoo ! Japan Ads et comptes Yandex uniquement) Chargez des [fichiers de feuilles d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contenant autant de données que vous le souhaitez pour un compte, puis publiez-les sur les réseaux publicitaires.
+      * (Comptes Baidu, Google Ads, [!DNL LY Ads], Microsoft Advertising et Yandex uniquement) Chargez des [fichiers de feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contenant autant de données que vous le souhaitez pour un compte, puis publiez-les sur les réseaux publicitaires.
 
-      * (Baidu, Google Ads, Microsoft Advertising, Yahoo ! (Comptes Japan Ads et Yandex uniquement) Saisissez les données des composants individuels directement dans l’interface. Pour la plupart des types de campagnes et d’annonces, vous pouvez créer des données au niveau de la campagne, du groupe d’annonces et des mots-clés individuels, de l’emplacement et des niveaux d’annonces.
+      * (Comptes Baidu, Google Ads, [!DNL LY Ads], Microsoft Advertising et Yandex uniquement) Saisissez les données des composants individuels directement dans l’interface. Pour la plupart des types de campagnes et d’annonces, vous pouvez créer des données au niveau de la campagne, du groupe d’annonces et des mots-clés individuels, de l’emplacement et des niveaux d’annonces.
 
       Certains types de campagnes et d’annonces nécessitent toutefois des workflows uniques. Consultez les instructions de configuration [[!DNL Microsoft Advertising] campagnes d’achat](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md), [[!DNL Google Ads] annonces de recherches dynamiques](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md), [[!DNL Google Ads] campagnes de performances maximales](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md) et [[!DNL Google Ads] campagnes d’achat](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md).
 
@@ -69,13 +64,13 @@ Cette page contient des informations sur tous les types de compte, y compris sur
 
    1. Configurez le suivi des conversions. Selon la mise en œuvre, cela peut impliquer l’ajout de balises de suivi des conversions aux pages web de l’annonceur et/ou la configuration d’un flux de données quotidien pour les données de conversion que l’annonceur a collectées séparément.
 
-      Si vous utilisez le service de suivi des conversions d’Adobe Advertising, vous pouvez [générer des balises de suivi des conversions](/help/search-social-commerce/tools/conversion-tag-generate.md) dans Search, Social et Commerce ou utiliser des [balises de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=fr) (anciennement Adobe Experience Platform Launch).
+      Si vous utilisez le service de suivi des conversions d’Adobe Advertising, vous pouvez [générer des balises de suivi des conversions](/help/search-social-commerce/tools/conversion-tag-generate.md) dans Search, Social et Commerce ou utiliser des [balises de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) (anciennement Adobe Experience Platform Launch).
 
    1. Validez les données qui font l’objet d’un suivi.
 
    Pour plus d’informations sur la configuration du tracking, consultez le chapitre sur le tracking.
 
-1. (Annonceurs avec Adobe Analytics) [Intégrez Adobe Advertising et Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr) afin qu’ils puissent échanger des données.
+1. (Annonceurs avec Adobe Analytics) [Intégrez Adobe Advertising et Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) afin qu’ils puissent échanger des données.
 
 1. (Pour permettre à Search, Social et Commerce d’optimiser les enchères, les budgets de campagne et/ou les cibles de stratégie d’enchères de campagne ; [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) uniquement) [Affectez la campagne à un portefeuille](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 

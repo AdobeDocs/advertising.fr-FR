@@ -4,15 +4,12 @@ description: En savoir plus sur le [!UICONTROL Campaign Assist Report].
 exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
 TQID: https://experienceleague.adobe.com/9CQ9aS6g0C1lCEYQbGEjctsZXEtIqjLOl5ohP45YFSU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: 857
 ht-degree: 1%
 
 ---
@@ -44,7 +41,7 @@ Voici les colonnes disponibles pour chaque rapport. Les colonnes par défaut son
 | [!UICONTROL 1st Campaign] à [!UICONTROL 5th Campaign] | Par défaut | Les cinq premières campagnes du chemin de conversion qui se sont produites dans l’intervalle de recherche en amont [clic](/help/search-social-commerce/glossary.md#c-d) et [impression de l’annonceur](/help/search-social-commerce/glossary.md#i-j).<br><br>Si vous avez inclus l’une des options de rapport pour indiquer le réseau publicitaire, le nom de compte ou le type d’événement après le nom de l’entité, ces informations sont incluses après le nom de la campagne (`"<"campaign name> [Google] [Account1] [impression]`, par exemple). |
 | [!UICONTROL Path Size] | Par défaut | Nombre de campagnes dans le chemin de conversion qui se sont produites dans l’[intervalle de recherche en amont de clic](/help/search-social-commerce/glossary.md#c-d) et l’[intervalle de recherche en amont d’impression](/help/search-social-commerce/glossary.md#i-j) de l’annonceur. |
 | [!UICONTROL First Campaign] | Par défaut | Première campagne du chemin de conversion. |
-| [!UICONTROL Last Campaign] | Par défaut | Dernière campagne ayant généré des conversions (même si le dernier mot-clé est en dehors de la taille de chemin spécifiée).<br><br>Si vous avez inclus l’une des options de rapport pour indiquer le réseau publicitaire, le nom de compte ou le type d’événement après le nom de l’entité, ces informations sont incluses après le nom de la campagne (`"<"campaign name> [Google] [Account1] [impression]`, par exemple). |
+| [!UICONTROL Last Campaign] | Par défaut | Dernière campagne ayant donné lieu à des conversions (même si le dernier mot-clé se trouve en dehors de la taille de chemin spécifiée). <br><br>Si vous avez inclus l’une des options de rapport pour indiquer le réseau publicitaire, le nom de compte ou le type d’événement après le nom de l’entité, ces informations sont incluses après le nom de la campagne (par exemple `"<"campaign name> [Google] [Account1] [impression]` »). |
 | \[Mesures personnalisées (dérivées) spécifiques à l’annonceur\] | Valeur personnalisée | Valeur d’une mesure personnalisée que vous avez créée, calculée à partir de mesures existantes. |
 | \[Mesures de conversion spécifiques à l’annonceur\] | Valeur personnalisée | Nombre de conversions pour une mesure de conversion ou une mesure d’engagement du site spécifiée. |
 | [!UICONTROL % of Total] \[mesure de conversion\] | Automatique | (Non disponible dans les paramètres du rapport, mais automatiquement inclus dans la sortie du rapport pour chaque mesure de conversion incluse) Le nombre de conversions pour une mesure de conversion spécifiée qui a résulté du modèle de campagne. |
@@ -53,7 +50,7 @@ Voici les colonnes disponibles pour chaque rapport. Les colonnes par défaut son
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[mesure de conversion\] | Automatique | (Non disponible dans les paramètres du rapport, mais automatiquement inclus dans la sortie du rapport) Latence moyenne en jours entre le dernier événement (dans la dernière campagne) et une conversion. |
 | [!UICONTROL EF Campaign ID] | Valeur personnalisée | Identifiant numérique attribué par Search, Social et Commerce à la campagne. |
 | [!UICONTROL EF Portfolio Group ID] | Valeur personnalisée | Identifiant numérique du groupe de portefeuilles auquel appartient le portefeuille. |
-| [!UICONTROL EF Search Engine ID] | Valeur personnalisée | L’identifiant numérique que Search, Social et Commerce attribue au réseau publicitaire : <i>[!UICONTROL 3]</i> pour [!DNL Google Ads], <i>[!UICONTROL 10]</i> pour [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> pour [!DNL Meta], <i>[!UICONTROL 86]</i> pour [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> pour [!DNL Naver], <i>[!UICONTROL 88]</i> pour [!DNL Baidu], <i>[!UICONTROL 90]</i> pour [!DNL Yandex], <i>[!UICONTROL 94]</i> pour [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> pour [!DNL Yahoo Native], <i>[!UICONTROL 106]</i> pour [!DNL Pinterest] (obsolète) ou pour (obsolète). |
+| [!UICONTROL EF Search Engine ID] | Valeur personnalisée | L’identifiant numérique que Search, Social et Commerce attribue au réseau publicitaire : <i>[!UICONTROL 3]</i> pour [!DNL Google Ads], <i>[!UICONTROL 10]</i> pour [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> pour [!DNL Meta], <i>[!UICONTROL 86]</i> pour [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> pour [!DNL Naver], <i>[!UICONTROL 88]</i> pour [!DNL Baidu], <i>[!UICONTROL 90]</i> pour [!DNL Yandex], <i>[!UICONTROL 94]</i> pour [!DNL LY Ads] (anciennement [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> pour [!DNL Yahoo Native] (obsolète) ou <i>[!UICONTROL 106]</i> pour [!DNL Pinterest] (obsolète). |
 | [!UICONTROL Portfolio ID] | Valeur personnalisée | Identifiant numérique de portfolio. |
 | [!UICONTROL User SE Account ID] | Valeur personnalisée | Identifiant numérique attribué par Search, Social et Commerce au réseau publicitaire. |
 

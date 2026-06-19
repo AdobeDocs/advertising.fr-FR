@@ -2,9 +2,10 @@
 title: (Nouvelle interface utilisateur) À propos des comptes réseau publicitaires
 description: Découvrez les comptes de réseau publicitaire dans la nouvelle interface utilisateur de Search, Social et Commerce.
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: 62c69582-6b95-4ae3-b027-d1efc3deb39e
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ Search, Social et Commerce peuvent suivre n’importe quel compte d’un annonce
 
 ## Comptes synchronisés via les API
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising] (anciennement [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex] et comptes [!DNL Baidu] existants*
+*[!DNL Google Ads], [!DNL Microsoft Advertising] (anciennement [!DNL Bing Ads]), [!DNL LY Ads] (anciennement [!DNL Yahoo! Japan Ads]), [!DNL Yahoo! Display Network], [!DNL Yandex] et comptes [!DNL Baidu] existants*
 
 Search, Social et Commerce se synchronise (*synchronise*) avec les comptes de réseau publicitaire pris en charge afin que vous puissiez suivre, générer des rapports et visualiser les performances de vos publicités. Pour tous les réseaux publicitaires, à l’exception de [!DNL Yahoo! Display Network], vous pouvez éventuellement gérer les campagnes pour votre compte dans Search, Social et Commerce ; [!DNL Yahoo! Display Network], les campagnes sont en lecture seule. Pour tous les réseaux publicitaires, vous pouvez permettre à la fonctionnalité d’optimisation d’optimiser les enchères, les budgets de campagne et les cibles de stratégie d’enchères de campagne pour les campagnes des comptes gérés, en ajoutant les campagnes aux portefeuilles.
 
@@ -37,7 +38,7 @@ Les campagnes de tracking vous permettent de suivre, de générer des rapports e
 
 Pour permettre à Search, Social et Commerce d’attribuer des conversions aux clics, configurez des options de suivi dans l’enregistrement de compte et activez l’enregistrement de compte. Vous pouvez ensuite utiliser des feuilles d’envoi groupé pour générer des URL de tracking pour vos publicités et mots-clés, et ajouter manuellement les URL de tracking dans le gestionnaire de publicités [!DNL Naver].
 
-Vous ne pouvez pas configurer de nouveaux comptes [!DNL Naver] dans Search, Social et Commerce. Pour plus d’informations sur l’[!DNL Naver] de campagnes de tracking uniquement, voir « [&#x200B; Implémentation  [!DNL Naver]  comptes de tracking uniquement &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md). »
+Vous ne pouvez pas configurer de nouveaux comptes [!DNL Naver] dans Search, Social et Commerce. Pour plus d’informations sur l’[!DNL Naver] de campagnes de tracking uniquement, voir « [ Implémentation  [!DNL Naver]  comptes de tracking uniquement ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md). »
 
 >[!MORELIKETHIS]
 >

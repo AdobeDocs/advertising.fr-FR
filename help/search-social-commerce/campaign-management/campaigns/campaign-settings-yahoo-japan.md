@@ -1,23 +1,20 @@
 ---
-title: '[!DNL Yahoo! Japan Ads] des paramètres de la campagne'
-description: Référencez les paramètres des campagnes  [!DNL Yahoo! Japan Ads] .
+title: '[!DNL LY Ads] des paramètres de la campagne'
+description: Référencez les paramètres des campagnes  [!DNL LY Ads] .
 exl-id: 29acde0f-13f6-422d-b611-23ebb2ee70d9
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/okWpkqtz0o33r--74ZV2f-f8-1G9ieVY-oei-YSk4hk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 117
+source-wordcount: 116
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads] des paramètres de la campagne
+# [!DNL LY Ads] des paramètres de la campagne
 
 ## \[Écran de création de campagne\]
 

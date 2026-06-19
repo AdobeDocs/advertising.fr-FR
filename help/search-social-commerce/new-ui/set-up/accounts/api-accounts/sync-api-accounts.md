@@ -2,9 +2,10 @@
 title: (Nouvelle interface utilisateur) Synchroniser manuellement les données réseau et
 description: Découvrez comment déclencher manuellement la synchronisation de votre structure de campagne et de vos entités de campagne pour les réseaux publicitaires pris en charge à partir de la nouvelle interface utilisateur.
 feature: Search Campaign Management
-source-git-commit: 5e384445a35f81275eefeac660b31c1acdc785f3
+exl-id: 5e857713-53f0-4d90-8b7a-18a3675d320e
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 <!-- EDIT ALL -- FROM LEGACY UI -->
 
-Comptes *[!DNL Google Ads], [!DNL Microsoft Advertising] (anciennement [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], [!DNL Yandex] et [!DNL Baidu] existants uniquement*
+Comptes *[!DNL Google Ads], [!DNL LY Ads] (anciennement [!DNL Yahoo! Japan Ads]), [!DNL Microsoft Advertising] (anciennement [!DNL Bing Ads]), [!DNL Yandex] et [!DNL Baidu] existants uniquement*
 
 La synchronisation est le processus par lequel Search, Social et Commerce collecte des informations mises à jour pour les comptes de réseau publicitaire connectés de chaque annonceur sur les [réseaux publicitaires pris en charge](/help/search-social-commerce/introduction/supported-inventory.md). Ces données incluent la structure de la campagne de l’annonceur et les entités de la campagne, y compris la plupart de leurs attributs gérés ou signalés dans Search, Social et Commerce. Elle n’inclut pas les données de clic, ni les offres et les modificateurs d’offres saisis en dehors des moteurs de recherche, des réseaux sociaux et de Commerce, qui sont rassemblés séparément.
 

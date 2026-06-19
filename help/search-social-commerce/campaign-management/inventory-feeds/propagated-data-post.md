@@ -4,20 +4,18 @@ description: Découvrez comment publier des données générées à partir de fl
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/TOTmjFuRPfH1vnyHwFvLBzlu7zBRQ3xHqKnG9TUC6IE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 846
+source-wordcount: 850
 ht-degree: 0%
 
 ---
 
 # Publier les données de campagne générées à partir des flux sur les réseaux publicitaires
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (actions de suppression uniquement) et [!DNL Yandex] comptes uniquement*
+comptes *[!DNL Google Ads], [!DNL LY Ads] (actions de suppression uniquement), [!DNL Microsoft Advertising] et [!DNL Yandex] uniquement*
 
 Vous pouvez publier les données de campagne générées à partir d’un flux lorsque vous propagez les données par le biais des modèles associés ou dans le cadre d’un processus distinct. Une fois les données publiées, toutes les données propagées existantes sont supprimées des listes [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] et [!UICONTROL Ads].
 
@@ -53,9 +51,9 @@ Pour une publication réussie, tous les groupes d’annonces doivent être affec
 
          * *[!UICONTROL Post to search engine on these start/end times (in America/Los_Angeles time)]:* crée un fichier de feuille d’envoi groupé et le publie ultérieurement. Spécifiez les éléments suivants :
 
-            * **[!UICONTROL Start Time]:** date et heure futures auxquelles le fichier de feuille d’envoi groupé doit être publié sur le réseau publicitaire. Par défaut, le fichier est envoyé à 00 :00 (12:00) le lendemain. **Remarque :** pour les fichiers volumineux qui nécessitent un traitement plus long, les données publiées ne sont pas disponibles immédiatement dans les vues de gestion de campagne ou dans le gestionnaire de publicités du réseau.
+            * **[!UICONTROL Start Time]:** date et heure futures auxquelles le fichier de feuille d’envoi groupé doit être publié sur le réseau publicitaire. Par défaut, le fichier est envoyé à :00 (12:00) le lendemain. **Remarque :** pour les fichiers volumineux qui nécessitent un traitement plus long, les données publiées ne sont pas disponibles immédiatement dans les vues de gestion de campagne ou dans le gestionnaire de publicités du réseau.
 
-            * **[!UICONTROL End Time]:** date et heure futures auxquelles les publicités publiées peuvent être suspendues ou supprimées en fonction du [paramètre de données de flux](feed-settings-manage.md#feed-data-settings) pour « [!UICONTROL When the Scheduled End Date is reached] ». Par défaut, l’heure de fin est à :00 (12:00) 30 jours à partir d’aujourd’hui. Sélectionnez **[!UICONTROL None]** pour que les données restent actives indéfiniment (ou jusqu’à ce que vous propagiez de nouvelles données pour le modèle) ou spécifiez une date et une heure.
+            * **[!UICONTROL End Time]:** date et heure futures auxquelles les publicités publiées peuvent être suspendues ou supprimées en fonction du [paramètre de données de flux](feed-settings-manage.md#feed-data-settings) pour « [!UICONTROL When the Scheduled End Date is reached] ». Par défaut, l’heure de fin est à :00 (12:00) 30 jours à partir d&#39;aujourd&#39;hui. Sélectionnez **[!UICONTROL None]** pour que les données restent actives indéfiniment (ou jusqu’à ce que vous propagiez de nouvelles données pour le modèle) ou spécifiez une date et une heure.
 
               Pour spécifier une date, utilisez le format JJ/MM/AAAA ou JJ/MM/AAAA ou cliquez sur ![Calendrier](/help/search-social-commerce/assets/calendar.png "Calendrier") pour ouvrir le calendrier et [sélectionner une date](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Pour modifier une heure, saisissez l’heure au format 24 heures HH/MM ou H/M ou sélectionnez une heure (par intervalles de 30 minutes) dans la liste.
 
