@@ -16,9 +16,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
+source-git-commit: 358bcf190b36bd3c01e33a3d5762361a4a015393
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: 498
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Adobe Advertising est intégré à Adobe Customer Journey Analytics pour le part
 
    * Données d’attribution de Customer Journey Analytics dans Adobe Advertising, où elles peuvent être utilisées à des fins d’optimisation et de création de rapports
 
-  Dans ce cas d’utilisation, utilisez Web SDK pour effectuer le suivi des événements de site (à l’aide de cookies, d’adresses IP hachées ou d’identifiants universels) et attribuer les événements de site à l’activité de médias achetés dans [!DNL Google Ads], [!DNL Microsoft Advertising] et [!DNL Meta], ainsi qu’à Adobe DSP. Vous utiliserez également Adobe Experience Platform pour la collecte de données.
+  Dans ce cas d’utilisation, utilisez Web SDK pour effectuer le suivi des événements de site (à l’aide de cookies, d’adresses IP hachées ou d’identifiants universels) et attribuer les événements de site à l’activité de média payant dans [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Meta] et Adobe DSP. Vous utiliserez également Adobe Experience Platform pour la collecte de données.
 
 ## Définitions des types de données de rapport
 
