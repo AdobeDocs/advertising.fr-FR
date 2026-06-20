@@ -4,8 +4,10 @@ description: Découvrez les fonctionnalités des feuilles d’envoi groupé disp
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/VvfpRiNIhOEk15R4eJn-BP-NmPeNvYVzRN6evnJK45U
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 358bcf190b36bd3c01e33a3d5762361a4a015393
 workflow-type: tm+mt
 source-wordcount: 775
