@@ -22,7 +22,7 @@ Vous trouverez ci-dessous des instructions pour gérer les comptes de réseau pu
 
 <!-- Move out info about Naver into a separate page -->
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
 
 ## Créer un compte réseau publicitaire {#create-account}
 
@@ -250,7 +250,7 @@ Les comptes qui utilisent le suivi des clics d’Adobe Advertising doivent inclu
 
 ## onglet [!UICONTROL Setup Analytics]
 
-Ces paramètres sont disponibles pour les annonceurs qui disposent d’une [[!DNL Adobe Analytics for Advertising]  intégration ](/help/integrations/analytics/overview.md).
+Ces paramètres sont disponibles pour les annonceurs qui disposent d’une [[!DNL Adobe Analytics for Advertising]  intégration &#x200B;](/help/integrations/analytics/overview.md).
 
 **[!UICONTROL Adobe Analytics Report Suite]:** (facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoient les données qu’ils collectent sur le réseau publicitaire, y compris les classifications d’entités et les données de clics pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.
 
