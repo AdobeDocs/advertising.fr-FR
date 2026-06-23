@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
 workflow-type: tm+mt
-source-wordcount: 808
+source-wordcount: 822
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Search, Social et Commerce vous permet de suivre et de gérer vos campagnes Search, Display/Content, Social, Shopping, Audience et Performance Max à un seul endroit. Selon le réseau publicitaire et le type de campagne, les fonctionnalités disponibles peuvent inclure la synchronisation avec vos réseaux publicitaires, la création et la modification de fonctionnalités, l’attribution du suivi et de la conversion, le reporting et l’optimisation des enchères et du budget. Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
 
-Lorsque vous ajoutez et modifiez des données de campagne dans les vues [!UICONTROL Campaigns], Search, Social et Commerce envoie immédiatement les modifications de données au réseau publicitaire. Search, Social et Commerce extraient également les données de structure de campagne et cliquent sur les données des comptes réseau publicitaire synchronisés une fois par jour (ou plus souvent lorsque de nouvelles campagnes sont détectées) et à la demande, selon les besoins.
+Lorsque vous ajoutez et modifiez des données de campagne dans les vues [!UICONTROL Campaigns], Search, Social et Commerce envoie immédiatement les modifications de données au réseau publicitaire. Search, Social et Commerce extraient également les données de la structure de la campagne et cliquent sur les données toutes les heures à partir des comptes [!DNL Google Ads] et [!DNL Microsoft Advertising] synchronisés, et quotidiennement pour les autres comptes réseau d’annonces synchronisés, ou plus souvent lorsque de nouvelles campagnes sont détectées. Pour tous les réseaux publicitaires synchronisés, vous pouvez également synchroniser les comptes à la demande si nécessaire.
 
 ## Configuration de l’accès à vos comptes de réseau publicitaire
 
