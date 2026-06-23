@@ -13,9 +13,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 2075
+source-wordcount: 2112
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ la campagne peut contenir :
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** Nom de campagne unique au sein du compte. La longueur maximale est de 128 caractères.
+**[!UICONTROL Campaign Name]:** nom de campagne unique au sein du compte. La longueur maximale est de 128 caractères.
 
 **[!UICONTROL Status]:** statut d’affichage de la campagne : *Actif* ou *En pause*. La valeur par défaut pour les nouvelles campagnes publicitaires est *Active*.
 

@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 245
+source-wordcount: 252
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ ht-degree: 0%
 
 La vue [!UICONTROL Manage] > [!UICONTROL Campaigns] répertorie toutes les campagnes dans la vue filtrée pour le compte d’annonceur sélectionné. Vous pouvez ouvrir une liste de groupes publicitaires dans la campagne en cliquant sur le nom de la campagne.
 
-Lorsque vous ajoutez et modifiez des données de campagne dans les vues [!UICONTROL Campaigns], Search, Social et Commerce envoie immédiatement les modifications de données au réseau publicitaire. Search, Social et Commerce extraient également les données de la structure de la campagne et cliquent sur les données toutes les heures à partir des comptes [!DNL Google Ads] et [!DNL Microsoft Advertising] synchronisés, et quotidiennement pour les autres comptes réseau d’annonces synchronisés, ou plus souvent lorsque de nouvelles campagnes sont détectées. Pour tous les réseaux publicitaires synchronisés, vous pouvez également synchroniser les comptes à la demande si nécessaire.
+Lorsque vous ajoutez et modifiez des données de campagne dans les vues [!UICONTROL Campaigns], Search, Social et Commerce envoie immédiatement les modifications de données au réseau publicitaire. Search, Social et Commerce extraient également les données de structure de campagne et cliquent sur les données quotidiennement, ou plus souvent lorsque de nouvelles campagnes sont détectées. Pour tous les réseaux publicitaires synchronisés, vous pouvez également synchroniser les comptes à la demande si nécessaire.
+
+Search, Social et Commerce extraient les données de performances toutes les heures des comptes [!DNL Google Ads] et [!DNL Microsoft Advertising] synchronisés, et tous les jours pour les autres comptes réseau publicitaire synchronisés.
 
 ## Actions disponibles
 

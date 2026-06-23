@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 391
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Comptes *[!DNL Google Ads], [!DNL LY Ads] (anciennement [!DNL Yahoo! Japan Ads])
 
 La synchronisation est le processus par lequel Search, Social et Commerce collecte des informations mises à jour pour les comptes de réseau publicitaire connectés de chaque annonceur sur les [réseaux publicitaires pris en charge](/help/search-social-commerce/introduction/supported-inventory.md). Ces données incluent la structure de la campagne de l’annonceur et les entités de la campagne, y compris la plupart de leurs attributs gérés ou signalés dans Search, Social et Commerce. Elle n’inclut pas les données de clic, ni les offres et les modificateurs d’offres saisis en dehors des moteurs de recherche, des réseaux sociaux et de Commerce, qui sont rassemblés séparément.
 
-Search, Social et Commerce se synchronise automatiquement avec vos comptes de réseau publicitaire une fois par jour, ainsi qu’à chaque fois qu’il détecte une nouvelle campagne sur l’un de vos réseaux publicitaires. En outre, il envoie immédiatement au réseau publicitaire toutes les modifications apportées aux données de la campagne à partir de Search, Social et Commerce.
+Search, Social et Commerce se synchronise automatiquement avec vos comptes de réseau publicitaire tous les jours, ainsi qu’à chaque fois qu’il détecte une nouvelle campagne sur l’un de vos réseaux publicitaires. En outre, il envoie immédiatement au réseau publicitaire toutes les modifications apportées aux données de la campagne à partir de Search, Social et Commerce.
 
 Vous pouvez demander manuellement la synchronisation de toutes les campagnes actives et en pause dans des comptes spécifiés ou dans des campagnes actives et en pause spécifiques. Cette tâche rassemble les entités du réseau publicitaire qui sont nouvelles ou modifiées.
 

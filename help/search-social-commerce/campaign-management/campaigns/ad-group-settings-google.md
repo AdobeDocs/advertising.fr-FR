@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 464
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Optimize]:* [!DNL Google Ads] privilégie les annonces qu’il s’attend à voir performer plus que les autres annonces du groupe publicitaire. Ces publicités entrent plus souvent dans les enchères publicitaires et, au fil du temps, une seule publicité est privilégiée. Cela peut être incompatible avec vos objectifs commerciaux et d’optimisation.
 
-* *[!UICONTROL Rotate forever]:*   Chacune de vos publicités entre dans la vente aux enchères un nombre plus régulier de fois, ce qui permet à Search, Social et Commerce de noter vos publicités non seulement sur le taux de clic publicitaire, mais également sur les conversions.
+* *[!UICONTROL Rotate forever]:* Chacune de vos publicités entre dans la vente aux enchères un nombre plus régulier de fois, ce qui permet à Search, Social et Commerce de noter vos publicités non seulement sur le taux de clic publicitaire, mais également sur les conversions.
 
 * *[!UICONTROL Use campaign setting]* (valeur par défaut pour les nouveaux groupes d’annonces) : utilise le paramètre de rotation des annonces au niveau de la campagne. **Remarque :** le paramètre au niveau de la campagne n’est pas visible dans Search, Social et Commerce.
 

@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 651
+source-wordcount: 655
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Pour les groupes publicitaires [!DNL Microsoft Advertising] dans le réseau d’
 
 * *[!UICONTROL Select From Below List]:* cible les genres sélectionnés. Effectuez un choix dans la liste de tous les genres disponibles.
 
-Le placement des annonces publicitaires de la télévision connectée (CTV) dépend de la qualité de votre vidéo et du montant de votre enchère. Consultez les [exigences techniques pour les publicités CTV](https://help.ads.microsoft.com/#apex/ads/en/60102/0/#TechnicalRequirements).
+Le placement des annonces publicitaires de la télévision connectée (CTV) dépend de la qualité de votre vidéo et du montant de votre enchère. Consultez les [exigences techniques pour les publicités CTV](#TechnicalRequirements).
 
 <!-- **[!UICONTROL Devices]:** -->
 
