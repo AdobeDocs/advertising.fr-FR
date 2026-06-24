@@ -4,10 +4,14 @@ description: Découvrez comment créer et gérer des listes d'URL pour le ciblag
 feature: DSP Placements
 exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
 TQID: https://experienceleague.adobe.com/evxwpbMXExxa30xpsojzTxcRfAxrozOSmwoJuCHPVPw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
 source-wordcount: 698
@@ -65,7 +69,7 @@ Vous pouvez créer et gérer des listes d&#39;URL de sites Web et d&#39;applicat
 
       1. Pour afficher le statut de la tâche, y compris le nombre d’URL ajoutées et le nombre de valeurs en échec :
 
-         1. Cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
+         1. Cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
 
          1. (Si aucune ligne n’a été ajoutée) Pour télécharger un fichier d’erreur contenant les valeurs en échec, cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
@@ -133,7 +137,7 @@ Vous pouvez créer et gérer des listes d&#39;URL de sites Web et d&#39;applicat
 
       1. Pour afficher le statut de la tâche, y compris le nombre d’URL ajoutées et le nombre de valeurs en échec :
 
-         1. Cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
+         1. Cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
 
          1. (Si aucune ligne n’a été ajoutée) Pour télécharger un fichier d’erreur contenant les valeurs en échec, cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
