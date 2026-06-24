@@ -12,7 +12,7 @@ subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
 source-wordcount: 698
 ht-degree: 0%
@@ -79,7 +79,7 @@ Vous pouvez créer et gérer des listes d&#39;URL de sites Web et d&#39;applicat
 
       * Pour sélectionner les URL à supprimer :
 
-         1. Cochez la case en regard de chaque offre à supprimer de la liste.
+         1. Cochez la case en regard de chaque URL à supprimer de la liste.
 
          1. Cliquez sur **[!UICONTROL Remove from List]**.
 
@@ -147,7 +147,7 @@ Vous pouvez créer et gérer des listes d&#39;URL de sites Web et d&#39;applicat
 
       * Pour sélectionner les URL à supprimer :
 
-         1. Cochez la case en regard de chaque offre à supprimer de la liste.
+         1. Cochez la case en regard de chaque URL à supprimer de la liste.
 
          1. Cliquez sur **[!UICONTROL Remove from List]**.
 
