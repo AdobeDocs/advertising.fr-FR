@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+source-git-commit: 8338485f735af56a90a50b8aa878861b5c0a5894
 workflow-type: tm+mt
-source-wordcount: 4532
+source-wordcount: 4555
 ht-degree: 0%
 
 ---
@@ -174,16 +174,18 @@ Pour spécifier des emplacements :
       1. (Si nécessaire) Cliquez sur un emplacement pour le développer.
       1. En regard de l’emplacement, cliquez sur *[!UICONTROL Include]* pour l’inclure en tant que cible ou *[!UICONTROL Exclude]* pour l’exclure en tant que cible.
    * Pour inclure ou exclure une liste [de codes postaux](/help/dsp/resources/lists-postal-codes-manage.md) :
-      1. Cliquez sur **[!UICONTROL Search Postal Code]**.
+      1. Cliquez sur **[!UICONTROL Postal Code List]** dans la colonne de gauche.
       1. En regard du code postal, cliquez sur *[!UICONTROL Include]* pour l’inclure en tant que cible ou *[!UICONTROL Exclude]* pour l’exclure en tant que cible.
    * Pour rechercher un code postal et inclure ou exclure tous les résultats sélectionnés :
-      1. Cliquez sur **[!UICONTROL Search Postal Code]**.
+      1. Cliquez sur **[!UICONTROL Postal Code]** dans la colonne de gauche.
+      1. Cliquez sur **[!UICONTROL Search]** au-dessus de la liste des pays.
       1. Sélectionnez le pays.
       1. Saisissez le nom de la ville, puis cliquez sur ![Modifier](/help/dsp/assets/search.png).
       1. Cliquez sur le résultat de recherche approprié.
       1. Cliquez sur *[!UICONTROL Include All]* pour inclure tous les emplacements en tant que cibles ou sur *[!UICONTROL Exclude All]* pour exclure tous les emplacements en tant que cibles.
    * Pour saisir ou coller des codes postaux et les inclure ou les exclure tous :
-      1. Cliquez sur **[!UICONTROL Paste Postal Code]**.
+      1. Cliquez sur **[!UICONTROL Postal Code]** dans la colonne de gauche.
+      1. Cliquez sur **[!UICONTROL Paste]** au-dessus de la liste des pays.
       1. Sélectionnez le pays.
       1. Saisissez ou collez jusqu’à 1 000 codes postaux.
 Incluez un code postal par ligne ou saisissez plusieurs valeurs séparées par des virgules ou des tabulations.
