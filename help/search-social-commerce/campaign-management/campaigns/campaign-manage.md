@@ -4,8 +4,10 @@ description: Découvrez comment créer et gérer des campagnes publicitaires.
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/ijW-K1aEtH2S2ksHlZFg37vIYL3yfLTKq9onQPbcbno
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 76dcbceead386ad4f5117c23e449aa904696f338
 workflow-type: tm+mt
 source-wordcount: 753
@@ -19,7 +21,7 @@ Une campagne est le composant principal d’un compte réseau publicitaire. Pour
 
 Une fois que vous [rendez un compte de réseau publicitaire accessible](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) et que Search, Social et Commerce a synchronisé les données du compte avec le réseau publicitaire, vous pouvez créer de nouvelles campagnes avec [types de campagnes pris en charge](/help/search-social-commerce/introduction/supported-inventory.md). Vous pouvez également modifier le statut des campagnes.
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
 
 ## Création d’une campagne
 
@@ -107,6 +109,6 @@ Vous pouvez également supprimer toute campagne de recherche active ou en pause.
 >* [[!DNL Baidu] paramètres de campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] paramètres de campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
 >* [[!DNL LY Ads] paramètres de campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
->* [ paramètres de la campagne [Meta Ads]](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-meta.md)
+>* [&#x200B; paramètres de la campagne [Meta Ads]](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-meta.md)
 >* [[!DNL Microsoft Advertising] paramètres de campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
 >* [[!DNL Yandex] paramètres de campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
