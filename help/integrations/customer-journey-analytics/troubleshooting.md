@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 3ca788a8a15277a105c065087ad9a5fbc9108311
+source-git-commit: b1904d5c8dad3e935245b45ff4b1a8104fc897dd
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: 716
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ Vous trouverez ci-dessous des problèmes de données potentiels et leurs causes.
 
 Vérifiez les points suivants :
 
+* Customer Journey Analytics Workspace référence la vue de données appropriée.
+
 * Le flux d’Adobe Advertising vers Customer Journey Analytics est activé. Vérifiez auprès de l’équipe chargée de votre compte Adobe.
 
 * Votre jeu de données de dimension/classification/recherche Adobe Advertising et votre jeu de données de résumé sont inclus dans votre connexion Customer Journey Analytics.
 
 * Vos dimensions Adobe Advertising et mesures récapitulatives sont incluses dans votre vue de données Customer Journey Analytics.
-
-* Customer Journey Analytics Workspace référence la vue de données appropriée.
 
 Si vous vérifiez tous les paramètres ci-dessus mais que vous ne voyez toujours pas de données récapitulatives, ouvrez un ticket d’assistance pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support).
 
@@ -45,9 +45,13 @@ Si vous vérifiez tous les paramètres ci-dessus mais que vous ne voyez toujours
 
 +++ Les données de rapports récapitulatives sont disponibles dans Customer Journey Analytics pour l’annonceur 1, mais pas pour l’annonceur 2.
 
-Vérifiez que le flux d’Adobe Advertising vers Customer Journey Analytics est activé pour l’annonceur 2. Vérifiez auprès de l’équipe chargée de votre compte Adobe.
+Vérifiez les points suivants :
 
-Si le flux est activé pour un annonceur, mais que vous ne voyez toujours pas de données récapitulatives, ouvrez un ticket d’assistance pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support).
+* Le flux d’Adobe Advertising vers Customer Journey Analytics est activé pour l’annonceur 2. Vérifiez auprès de l’équipe chargée de votre compte Adobe.
+
+* Le paramètre « [!UICONTROL Backfill all existing data] » est activé pour vos trois jeux de données (dimension/classification/recherche, résumé et mesures d’événement) dans les mesures) dans votre connexion Customer Journey Analytics.
+
+Si vous vérifiez toutes les conditions ci-dessus mais que vous ne voyez toujours pas de données récapitulatives, ouvrez un ticket d’assistance pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support).
 
 +++
 
@@ -67,8 +71,11 @@ Vérifiez les points suivants :
 
 * Les filtres et les segments appliqués dans [!DNL Workspace] et le rapport Adobe Advertising ne provoquent pas de différences dans les données.
 
-Si vous êtes sûr d’une incohérence des données, ouvrez un ticket d’assistance pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support). Incluez le [!UICONTROL Account ID] du compte réseau publicitaire.
-. Insérez des captures d’écran et des feuilles de calcul pour montrer les preuves de l’incohérence. Votre équipe de compte Adobe peut corriger rétroactivement le flux de données pour résoudre l’incohérence, si nécessaire.
+* La [!UICONTROL Time Zone] de la vue de données Customer Journey Analytics correspond à la [[!UICONTROL Default Timezone] de votre compte Advertising DSP](help/dsp/admin/user-own-profile-edit.md).
+
+* Le paramètre « [!UICONTROL Backfill all existing data] » est activé pour vos trois jeux de données (dimension/classification/recherche, résumé et mesures d’événement) dans les mesures) dans votre connexion Customer Journey Analytics.
+
+Si vous êtes sûr d’une incohérence des données, ouvrez un ticket d’assistance pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support). Incluez le [!UICONTROL Account ID] du compte réseau publicitaire.. Insérez des captures d’écran et des feuilles de calcul pour montrer les preuves de l’incohérence. Votre équipe de compte Adobe peut corriger rétroactivement le flux de données pour résoudre l’incohérence, si nécessaire.
 
 +++
 
@@ -78,15 +85,15 @@ Si vous êtes sûr d’une incohérence des données, ouvrez un ticket d’assis
 
 Vérifiez les points suivants, en commençant par les éléments qui présentent le moins d’obstacles à la vérification :
 
-* Les mesures de conversion applicables sont les événements web/en ligne qu’Adobe Advertising peut attribuer aux dimensions.
-
 * Vous utilisez la vue de données correcte.
+
+* Les mesures de conversion applicables sont les événements web/en ligne qu’Adobe Advertising peut attribuer aux dimensions.
 
 * Adobe Advertising effectue le suivi des clics publicitaires et des affichages publicitaires sur le site approprié. <!-- Link to validation instructions in the user guide -->
 
 * Dans la connexion Customer Journey Analytics du jeu de données de classifications, les valeurs des paramètres [!DNL Key] et [!DNL Matching Key] sont correctes : [!DNL Key] : `Tracking Code` (_customername.adLens2.trackingCode), [!DNL Matching Key] : `Tracking Code` (event._experience.adcloud.conversionDetails.trackingCode)
 
-* Le service [!DNL Adobe Advertising] est ajouté au flux de données Adobe Experience Platform, le schéma mappé du flux de données est `XDM ExperienceEvent Schema` et le groupe de champs `Adobe Advertising Cloud ExperienceEvent Full Extension` est ajouté au schéma.
+* Le service [!DNL Adobe Advertising] est ajouté au flux de données Adobe Experience Platform, le schéma mappé du flux de données est `XDM ExperienceEvent Schema` et le groupe de champs `Adobe Advertising Cloud ExperienceEvent Full Extension` est ajouté au schéma `XDM ExperienceEvent`.
 
 * Les paramètres Adobe Advertising sont correctement configurés dans l’extension WebSDK et publiés.
 
