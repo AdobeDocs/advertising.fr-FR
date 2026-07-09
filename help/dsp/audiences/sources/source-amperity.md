@@ -4,11 +4,17 @@ description: Découvrez comment activer DSP pour ingérer vos segments  [!DNL Am
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
 TQID: https://experienceleague.adobe.com/LOl3N6NB0alkOXiTNe7Xzj9mcVVfYxog3x-iIuVa82M
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 50af5a8fc6e5e82268489259073e27911ca5a45c
 workflow-type: tm+mt
 source-wordcount: 708
