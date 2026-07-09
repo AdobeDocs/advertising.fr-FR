@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 740192c3f000576e02c7dfaffbbbc593ad1b681d
+source-git-commit: ede5b5b1eb8ab449b982fdadba93e944cd2e062f
 workflow-type: tm+mt
-source-wordcount: 2095
+source-wordcount: 2103
 ht-degree: 1%
 
 ---
@@ -117,7 +117,7 @@ Utilisez l’extension Adobe Experience Platform Web SDK dans Adobe Tags pour en
 
          * Dans les paramètres [!UICONTROL Datastreams], sélectionnez le flux de données à utiliser pour chacun de vos environnements web (production, évaluation, développement).
 
-         * (Organisations avec Adobe Advertising DSP uniquement) Dans les paramètres de [[!UICONTROL Adobe Advertising]](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising) activez **[!UICONTROL Adobe Advertising DSP]** pour autoriser le suivi des vues publicitaires et spécifiez les annonceurs pour lesquels activer le suivi des vues publicitaires. Vous pouvez éventuellement collecter des identifiants à partir d’identifiants universels en ajoutant l’identifiant de partenaire ID5 de votre organisation et/ou le chemin d’accès au code JavaScript [!DNL LiveRamp RampID] de votre organisation (ats.js).
+         * (Organisations avec Adobe Advertising DSP uniquement) Dans les paramètres de [[!UICONTROL Adobe Advertising]](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising) activez **[!UICONTROL Adobe Advertising DSP]** pour autoriser le suivi des vues publicitaires et spécifiez les annonceurs pour lesquels activer le suivi des vues publicitaires. Vous pouvez éventuellement collecter des identifiants à partir d’identifiants universels (traduits à partir de vos [sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md)) en ajoutant l’identifiant de partenaire ID5 de votre organisation et/ou le chemin d’accès au code [!DNL LiveRamp] [!DNL LaunchPad] JavaScript (ats.js) de votre organisation pour [!DNL RampIDs].
 
            Si vos annonceurs ne sont pas répertoriés, saisissez l’ID de l’annonceur pour chaque annonceur. Si nécessaire, demandez les identifiants à l’équipe chargée de votre compte Adobe.
 
