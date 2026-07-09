@@ -4,23 +4,19 @@ description: Découvrez les fonctionnalités de gestion des campagnes dans Searc
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 61a66d7d35873247de40480f7361f87e2dedde88
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: 850
 ht-degree: 0%
 
 ---
 
 # À propos de la gestion des campagnes dans Search, Social et Commerce
 
-Search, Social et Commerce vous permet de suivre et de gérer vos campagnes Search, Display/Content, Social, Shopping, Audience et Performance Max à un seul endroit. Selon le réseau publicitaire et le type de campagne, les fonctionnalités disponibles peuvent inclure la synchronisation avec vos réseaux publicitaires, la création et la modification de fonctionnalités, l’attribution du suivi et de la conversion, le reporting et l’optimisation des enchères et du budget. Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
+Search, Social et Commerce vous permet de suivre et de gérer vos campagnes Search, Display/Content, Social, Shopping, Audience et Performance Max à un seul endroit. Selon le réseau publicitaire et le type de campagne, les fonctionnalités disponibles peuvent inclure la synchronisation avec vos réseaux publicitaires, la création et la modification de fonctionnalités, l’attribution du suivi et de la conversion, le reporting et l’optimisation des enchères et du budget. Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
 
 Lorsque vous ajoutez et modifiez des données de campagne dans les vues [!UICONTROL Campaigns], Search, Social et Commerce envoie immédiatement les modifications de données au réseau publicitaire. Search, Social et Commerce extraient également les données de structure de campagne et cliquent quotidiennement sur les données à partir des comptes réseau d’annonces synchronisés, ou plus souvent lorsque de nouvelles campagnes sont détectées. Pour tous les réseaux publicitaires synchronisés, vous pouvez également synchroniser les comptes à la demande si nécessaire.
 
@@ -30,11 +26,11 @@ Search, Social et Commerce extraient les données de performances toutes les heu
 
 Pour suivre les performances des publicités dans le compte du réseau publicitaire d’un annonceur (et éventuellement placer des enchères pour les publicités), l’équipe du compte Adobe [crée un enregistrement de compte correspondant](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) dans Search, Social et Commerce. L’enregistrement de compte inclut des options de suivi.
 
-Pour les comptes synchronisés via l’API du réseau publicitaire, l’enregistrement de compte inclut également les informations d’identification d’accès au compte. Une fois le compte activé, les données du compte sont extraites avec le réseau publicitaire. Vous pouvez ensuite afficher les données du compte existant, ainsi que créer et modifier la structure de la campagne et les données des annonces.
+Pour les comptes synchronisés via l’API du réseau publicitaire, l’enregistrement de compte inclut également les informations d’identification d’accès au compte. Une fois le compte activé, les données du compte sont extraites avec le réseau publicitaire. Vous pouvez ensuite afficher les données de compte existantes et être en mesure de créer et de modifier la structure de la campagne et les données des annonces.
 
 ## Suivi des clics pour lier les clics aux conversions
 
-Si vous utilisez le service de suivi des conversions Adobe Advertising, vous devez inclure le code de suivi des clics Search, Social et Commerce dans le suffixe de la page de destination, les modèles de suivi et les URL finales/de destination pour les annonces, les mots-clés, les emplacements, les liens de site et les listes de produits. Pour les [réseaux publicitaires et types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) dont les paramètres de campagne incluent « [!UICONTROL EF Redirect] » et « [!UICONTROL Auto Upload] », Search, Social et Commerce ajoute automatiquement son propre code de redirection et de suivi lorsque vous enregistrez l’enregistrement, de sorte que vous n’ayez pas à l’ajouter manuellement. Sinon, vous devez ajouter manuellement le code à vos modèles de tracking ou URL finales.
+Si vous utilisez le service de suivi des conversions Adobe Advertising, vous devez inclure le code de suivi des clics Search, Social et Commerce dans le suffixe de la page de destination, les modèles de suivi et les URL finales/de destination pour les annonces, les mots-clés, les emplacements, les liens de site et les listes de produits. Pour les [réseaux publicitaires et types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) dont les paramètres de campagne incluent « [!UICONTROL EF Redirect] » et « [!UICONTROL Auto Upload] », Search, Social et Commerce ajoute automatiquement son propre code de redirection et de suivi lorsque vous enregistrez l’enregistrement, de sorte que vous n’ayez pas à l’ajouter manuellement. Sinon, vous devez ajouter manuellement le code à vos modèles de suivi ou URL finales, soit depuis Search, Social et Commerce, soit depuis le propre éditeur du réseau publicitaire.
 
 Pour plus d’informations sur le tracking, consultez le chapitre « Tracking ».
 
