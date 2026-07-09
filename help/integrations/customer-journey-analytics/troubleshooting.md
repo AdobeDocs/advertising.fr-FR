@@ -14,7 +14,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: b1904d5c8dad3e935245b45ff4b1a8104fc897dd
+source-git-commit: cb1e07d89c0d8107fce38695b73352cd57246879
 workflow-type: tm+mt
 source-wordcount: 716
 ht-degree: 0%
@@ -71,7 +71,7 @@ Vérifiez les points suivants :
 
 * Les filtres et les segments appliqués dans [!DNL Workspace] et le rapport Adobe Advertising ne provoquent pas de différences dans les données.
 
-* La [!UICONTROL Time Zone] de la vue de données Customer Journey Analytics correspond à la [[!UICONTROL Default Timezone] de votre compte Advertising DSP](help/dsp/admin/user-own-profile-edit.md).
+* La [!UICONTROL Time Zone] de la vue de données Customer Journey Analytics correspond à la [[!UICONTROL Default Timezone] de votre compte Advertising DSP](/help/dsp/admin/user-own-profile-edit.md).
 
 * Le paramètre « [!UICONTROL Backfill all existing data] » est activé pour vos trois jeux de données (dimension/classification/recherche, résumé et mesures d’événement) dans les mesures) dans votre connexion Customer Journey Analytics.
 
