@@ -4,13 +4,11 @@ description: Découvrez comment personnaliser les données dans chacune des vues
 feature: Creative Introduction
 exl-id: 5255e0e4-a7f8-41d2-9b38-0e276dc1f3f0
 TQID: https://experienceleague.adobe.com/hOby2-Do4TakO04FrP6zzfdIyCf6OCcjXjBzyTBuHc8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
 workflow-type: tm+mt
-source-wordcount: 281
+source-wordcount: 273
 ht-degree: 0%
 
 ---
@@ -25,7 +23,9 @@ ht-degree: 0%
 
 ## Afficher les données sous forme de cartes ou de tableaux
 
-Affichez les données dans vos vues [!UICONTROL Creative Libraries] et [!UICONTROL Experiences] sous forme de cartes individuelles ou de tableaux/listes. Par défaut, les données s’affichent en mode Carte. Le mode Carte affiche une miniature d’un élément créatif approprié.
+<!-- Different images in Creative Studio, although pretty close -->
+
+Affichez les données dans vos vues [!UICONTROL Creative Studio], [!UICONTROL Creative Libraries] et [!UICONTROL Experiences] sous forme de cartes individuelles ou de tableaux/listes. Par défaut, les données s’affichent en mode Carte. Le mode Carte affiche une miniature d’un élément créatif approprié.
 
 Lorsque vous basculez entre les vues Carte et Tableau, vos filtres et sélections sont conservés.
 
@@ -91,6 +91,6 @@ Triez les vues suivantes à partir du mode Carte :
 
 * Bibliothèques Creative > [!UICONTROL Standard Ads] : triez les fichiers par [!UICONTROL Creative Name], par date de création ([!UICONTROL Created On]) ou par dernière mise à jour ([!UICONTROL Modified On]).
 
-* [!UICONTROL Experiences] : trier par date de début ([!UICONTROL Experience Name]) ([!UICONTROL Start On]) ou date de fin ([!UICONTROL End On]).
+* [!UICONTROL Experiences] : trier par date de début ([!UICONTROL Start On]) ([!UICONTROL Experience Name]) ou date de fin ([!UICONTROL End On]).
 
 ![Exemple d’options de tri](/help/creative/assets/sort.png "Exemple d’options de tri")
