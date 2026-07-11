@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+source-git-commit: 57e8552cd8b71fe06be153954294063fe810b327
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: 1558
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ La nouvelle interface utilisateur affiche un nouveau menu principal à gauche, q
 
    * **[!UICONTROL Extensions]** Ouvre les vues en lecture seule de vos extensions d’annonce existantes. Pour gérer vos extensions, utilisez la vue héritée [!UICONTROL Campaigns] > [!UICONTROL Campaigns] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Shopping]** Quitte le nouveau site et ouvre l’ancien [!UICONTROL Campaigns] > vue [!UICONTROL Campaigns].<!-- Should this go to Campaigns > Products? -->
+   * **[!UICONTROL Shopping]** Ouvre des vues en lecture seule de vos groupes de produits d’achat existants. Pour gérer vos groupes de produits, utilisez la vue héritée [!UICONTROL Campaigns] > [!UICONTROL Product Groups] . Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Set Up]** le sous-menu :
 
@@ -119,6 +119,8 @@ La nouvelle interface utilisateur affiche un nouveau menu principal à gauche, q
    * **[!UICONTROL Import Campaigns]** : ouvre une nouvelle vue à partir de laquelle vous pouvez importer les données de la campagne.
 
    * **[!UICONTROL Bulksheets]** : ouvre une nouvelle vue [!UICONTROL Bulksheets].
+
+   * **[!UICONTROL Products]** Ouvre des vues en lecture seule de vos produits et comptes de centre commercial existants. Pour ajouter un compte de centre commercial, utilisez la vue héritée [!UICONTROL Campaigns] > [!UICONTROL Products]. Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
 <!--
  What's happening to these?
