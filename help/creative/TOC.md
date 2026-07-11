@@ -3,10 +3,10 @@ role: User
 user-guide-title: Guide d’Advertising Creative
 user-guide-description: Découvrez les principaux paramètres, fonctionnalités, tâches et autres ressources nécessaires à l’utilisation d’Advertising Creative.
 breadcrumb-title: Guide créatif
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: 0c7c5962b0e2b0c72147b0ff27ba83acb5cbf326
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 5%
+source-wordcount: '428'
+ht-degree: 4%
 
 ---
 
@@ -20,6 +20,12 @@ ht-degree: 5%
    + [Workflows pour les publicités dynamiques](/help/creative/introduction/workflow-dynamic-ads.md)
    + [Prise en charge de la confidentialité des clients](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}
    + [Politiques et directives](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}
++ Creative Studio {#creative-studio}
+   + [À propos de Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
+   + [Gestion des publicités standard](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
+   + [Gestion des contenus publicitaires dynamiques](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md)
+   + [Gestion des modèles](/help/creative/creative-studio/creative-studio-manage-templates.md)
+   + [Gestion des ressources](/help/creative/creative-studio/creative-studio-manage-assets.md)
 + Bibliothèques Creative {#creative-libraries}
    + [À propos de vos bibliothèques de création](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md)
@@ -79,6 +85,7 @@ ht-degree: 5%
    + [Renommer une balise publicitaire](/help/creative/experiences/experience-tag-rename.md)
    + [Affichage du journal des modifications d’une expérience](/help/creative/experiences/experience-view-change-log.md)
    + [Suppression d’une expérience](/help/creative/experiences/experience-delete.md)
++ [Gestion des profils de marque](/help/creative/brands/brand-manage.md)
 + Flux {#feeds}
    + [Gestion des fichiers de ressources](/help/creative/feeds/asset-manage.md)
    + [Gestion des modèles de flux](/help/creative/feeds/feed-template-manage.md)
@@ -95,4 +102,4 @@ ht-degree: 5%
 + [Reciblage des pixels](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponibles pour le tracking des URL](/help/creative/creative-macros.md)
 + [Obtenir de l’aide](/help/creative/get-help.md)
-+ [Notes de mise à jour de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target="_blank"}
++ [Notes de mise à jour d’Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target="_blank"}

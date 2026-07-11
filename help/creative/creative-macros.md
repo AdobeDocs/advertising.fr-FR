@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 3c3bffe0c28bb24c0df9385f9cc91be1376a66d2
+source-git-commit: e1ce403e53ed6da4b16f5d7e4bfbbc50e1317ea8
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: 312
 ht-degree: 0%
 
 ---
@@ -78,4 +78,5 @@ Certaines des macros disponibles, ou leurs équivalents, sont automatiquement in
 >
 >* [Ajouter des contenus publicitaires standard à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Paramètres de création standard](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* &lbrack;Paramètres d’expérience ciblés*[Paramètres d’expérience non ciblés](/help/creative/experiences/experience-settings-no-targeting.md)
+>* [Paramètres d’expérience ciblés](/help/creative/experiences/experience-settings-targeting.md)
+>* [Paramètres d’expérience non ciblés](/help/creative/experiences/experience-settings-no-targeting.md)

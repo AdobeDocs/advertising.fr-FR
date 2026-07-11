@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+source-git-commit: 836dbc21997c7af7b8a2bc4e0c5e59d3c3605ea8
 workflow-type: tm+mt
-source-wordcount: 7507
+source-wordcount: 7665
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Les fonctionnalités suivantes sont nouvelles ou ont été récemment modifiées
 
 | Date | Fonctionnalité | Description | Pour Plus D’Informations |
 | ---- | ------- | ----------- | -------------------- |
+| 1 Juillet 2026 | [!DNL Creative] | Les fonctionnalités Beta suivantes sont disponibles dans Advertising Creative :<ul><li>**[!UICONTROL Creative Studio]** utilise l’IA générative pour créer, redimensionner et affiner les publicités display sur plusieurs formats dans une seule session. Utiliser une interface de conversation en langage naturel pour générer et modifier du contenu publicitaire ; aucun travail de conception manuel n’est nécessaire pour les champs de contenu.</li><li>Créez et gérez des **[!UICONTROL brand profiles]** qui reflètent l’identité visuelle et de messagerie de votre marque, y compris votre logo, votre palette de couleurs, vos directives vocales, les normes d’image et les directives de copie spécifiques à un canal. Lorsque vous créez des annonces dans [!UICONTROL Creative Studio], l’agent IA utilise les informations de profil de marque pour ancrer la génération de contenu dans votre marque spécifique.</li></ul> | Voir « [&#x200B; À propos de Creative Studio &#x200B;](/help/creative/creative-studio/creative-studio-about.md) » et « [&#x200B; Gérer les profils de marque &#x200B;](/help/creative/brands/brand-manage.md). » |
 | 23 Juin 2026 | [!UICONTROL Placements], codes postaux | Vous pouvez désormais créer des listes de codes postaux à réutiliser par pays en tant que cibles d’emplacement ou exclusions. | Voir « [&#x200B; Gérer les listes de codes postaux &#x200B;](/help/dsp/resources/lists-postal-codes-manage.md) » et « [&#x200B; Paramètres d’emplacement &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md). » |
 | 9 Juin 2026 | Intégration avec Adobe Customer Journey Analytics | Les annonceurs qui utilisent Customer Journey Analytics, mais pas [!DNL Analytics for Advertising], peuvent échanger des données de manière native entre Adobe Advertising et Customer Journey Analytics à l’aide du [!DNL Web SDK] Adobe Experience Platform. | Voir « [&#x200B; Présentation de l’intégration entre Adobe Advertising et Customer Journey Analytics &#x200B;](/help/integrations/customer-journey-analytics/overview.md). » |
 | 3 Juin 2026 | [!DNL Adobe Analytics for Advertising] | Les annonceurs avec Advertising Creative et [!DNL Adobe Analytics for Advertising] peuvent désormais afficher les données au niveau de la variante et de la branche dans Adobe Analytics. Les données s’affichent quel que soit le DSP utilisé pour exécuter les annonces issues de vos expériences [!DNL Creative]. Si vous exécutez les annonces à partir d’un emplacement Advertising DSP, vous verrez également des données au niveau de la campagne et de l’emplacement, ainsi que des mesures liées aux coûts.<br><br>Aucune configuration supplémentaire n’est requise. | Consultez les Advertising Creative [mesures de trafic](https://experienceleague.adobe.com/fr/docs/analytics/components/metrics/amo-metrics) et [classifications](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#classifications) visibles dans [!DNL Analytics]. |
