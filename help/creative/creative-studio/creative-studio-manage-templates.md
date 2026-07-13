@@ -1,15 +1,12 @@
 ---
 title: Gestion des modèles d’annonces publicitaires dans Creative Studio
 description: Découvrez comment créer, importer, organiser et gérer des modèles d’annonce publicitaire dans l’onglet Modèles de Creative Studio dans Adobe Advertising Creative.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 2509
+source-wordcount: 2512
 ht-degree: 2%
 
 ---
@@ -24,7 +21,7 @@ Créez, importez et gérez des modèles d’annonces vidéo et d’affichage à 
 
 L’onglet **[!UICONTROL Templates]** propose des actions rapides pour créer ou importer de nouveaux modèles d’annonces.
 
-L’onglet répertorie également vos modèles d’annonce publicitaire existants au bas de la page <!-- Only in the Templates tab -->en tant que [&#x200B; cartes individuelles (valeur par défaut) ou tableaux/listes](/help/creative/introduction/customize-data-views.md). La liste des modèles de publicité comprend des onglets pour [!UICONTROL All], [!UICONTROL System Templates] (qui sont chargés sur votre compte par l’équipe chargée de votre compte Adobe) et [!UICONTROL User Templates]. Par défaut, les modèles d’annonces pour tous vos annonceurs s’affichent. Pour afficher uniquement les modèles d’annonce pour un annonceur spécifique, sélectionnez dans la liste des annonceurs en haut de la page.
+L’onglet répertorie également vos modèles d’annonce publicitaire existants au bas de la page <!-- Only in the Templates tab -->en tant que [ cartes individuelles (valeur par défaut) ou tableaux/listes](/help/creative/introduction/customize-data-views.md). La liste des modèles de publicité comprend des onglets pour [!UICONTROL All], [!UICONTROL System Templates] (qui sont chargés sur votre compte par l’équipe chargée de votre compte Adobe) et [!UICONTROL User Templates]. Par défaut, les modèles d’annonces pour tous vos annonceurs s’affichent. Pour afficher uniquement les modèles d’annonce pour un annonceur spécifique, sélectionnez dans la liste des annonceurs en haut de la page.
 
 <!-- 
 Probably not necessary:
@@ -247,7 +244,7 @@ Le panneau de gauche contient une colonne d’icônes. Cliquez sur une icône po
 | Icon | Description |
 | --- | --- |
 | **[!UICONTROL Search]** | Effectuez une recherche dans tous les types de ressources de votre bibliothèque. |
-| **[!UICONTROL Upload]** | Charger les images<!-- not there as of 7/10:  or font files (TTF, OTF, WOFF, WOFF2)--> dans l’éditeur, en vue de les utiliser dans le modèle actif. Vous pouvez charger jusqu’à 20 fichiers à la fois. |
+| **[!UICONTROL Upload]** | Chargez des images ou des fichiers de polices dans l’éditeur pour les utiliser dans le modèle actif. Vous pouvez charger jusqu’à 20 fichiers à la fois. |
 | **[!UICONTROL Templates]** | Parcourez les modèles d’annonces de votre bibliothèque Creative Studio à utiliser comme calque de base ou élément de référence. |
 | **[!UICONTROL My Assets]** | Parcourez toutes les ressources que vous avez chargées dans l’onglet Assets de Creative Studio. |
 | **[!UICONTROL Images]** | Parcourez uniquement les ressources d’image que vous avez chargées dans l’onglet Assets de Creative Studio. |
@@ -434,7 +431,7 @@ These are all saved with the template, but they aren't what you see, as-is, in t
 
    La [!UICONTROL Ad Variations Generator] s’ouvre avec le modèle préchargé.
 
-1. Utilisez l’interface de chat de l’IA pour générer et affiner le contenu publicitaire. Voir « [&#x200B; Gérer les publicités standard dans Creative Studio &#x200B;](creative-studio-manage-standard-ads.md) » pour le workflow complet.
+1. Utilisez l’interface de chat de l’IA pour générer et affiner le contenu publicitaire. Voir « [ Gérer les publicités standard dans Creative Studio ](creative-studio-manage-standard-ads.md) » pour le workflow complet.
 
 ## Ajout ou suppression de libellés pour un modèle d’annonce publicitaire {#template-labels}
 
