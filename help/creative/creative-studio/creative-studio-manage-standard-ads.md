@@ -2,13 +2,10 @@
 title: Gestion des publicités standard dans Creative Studio
 description: Découvrez comment créer, modifier, dupliquer, télécharger et supprimer des publicités display standard dans la bibliothèque de contenus publicitaires de Creative Studio.
 exl-id: 01d3cdec-80d0-494c-94dd-d9d0ae8ca53c
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
 workflow-type: tm+mt
 source-wordcount: 1181
 ht-degree: 0%
@@ -79,7 +76,7 @@ Au moins un modèle d’annonce publicitaire doit exister dans votre bibliothèq
 
       >[!NOTE]
       >
-      >L’assistant d’IA peut générer et modifier du texte (titres, sous-titres, CTA, copie du corps), échanger des images d’arrière-plan, appliquer des couleurs de marque, changer de version de logo et créer de nouveaux modèles de taille. Il ne peut pas modifier la structure du modèle : position des éléments, disposition, espacement, marge intérieure, famille de polices, taille de police ou bordures. Effectuez des modifications structurelles dans l’éditeur de modèles avant de démarrer la session. Voir [&#x200B; Modification d’un modèle &#x200B;](creative-studio-manage-templates.md#edit-template).
+      >L’assistant d’IA peut générer et modifier du texte (titres, sous-titres, CTA, copie du corps), échanger des images d’arrière-plan, appliquer des couleurs de marque, changer de version de logo et créer de nouveaux modèles de taille. Il ne peut pas modifier la structure du modèle : position des éléments, disposition, espacement, marge intérieure, famille de polices, taille de police ou bordures. Effectuez des modifications structurelles dans l’éditeur de modèles avant de démarrer la session. Voir [ Modification d’un modèle ](creative-studio-manage-templates.md#edit-template).
 
    1. (Facultatif) Pour inclure une référence visuelle dans une requête, cliquez sur le bouton **[!UICONTROL +]** dans la zone de saisie de conversation. Dans la boîte de dialogue **[!UICONTROL Select from Asset Library]** :
 
@@ -204,3 +201,4 @@ Dupliquez une annonce publicitaire standard pour ajouter un nouveau contenu cré
 >* [Gestion des contenus créatifs dynamiques dans Creative Studio](creative-studio-manage-dynamic-ads.md)
 >* [Gestion des modèles dans Creative Studio](creative-studio-manage-templates.md)
 >* [Gestion des profils de marque dans Advertising Creative](/help/creative/brands/brand-manage.md)
+
