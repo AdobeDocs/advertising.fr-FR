@@ -7,9 +7,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 2509
+source-wordcount: 2512
 ht-degree: 2%
 
 ---
@@ -27,13 +27,11 @@ L’onglet **[!UICONTROL Templates]** propose des actions rapides pour créer ou
 L’onglet répertorie également vos modèles d’annonce publicitaire existants au bas de la page <!-- Only in the Templates tab -->en tant que [&#x200B; cartes individuelles (valeur par défaut) ou tableaux/listes](/help/creative/introduction/customize-data-views.md). La liste des modèles de publicité comprend des onglets pour [!UICONTROL All], [!UICONTROL System Templates] (qui sont chargés sur votre compte par l’équipe chargée de votre compte Adobe) et [!UICONTROL User Templates]. Par défaut, les modèles d’annonces pour tous vos annonceurs s’affichent. Pour afficher uniquement les modèles d’annonce pour un annonceur spécifique, sélectionnez dans la liste des annonceurs en haut de la page.
 
 <!-- 
-
 Probably not necessary:
 
 * **[!UICONTROL Card view]** &mdash; Displays templates as cards. Each card shows a preview thumbnail and the ad dimensions. Hovering a card reveals action controls.
 
 * **[!UICONTROL Table view]** &mdash; Displays templates in a table with columns for **[!UICONTROL Name]**, **[!UICONTROL Type]**, **[!UICONTROL Status]**, **[!UICONTROL Size/Duration]**, **[!UICONTROL Advertiser]**, and **[!UICONTROL Updated]**. Click the **[!UICONTROL Name]** or **[!UICONTROL Updated]** column header to sort ascending or descending. Pagination controls appear at the bottom of the list.
-
 -->
 
 ### Actions disponibles
@@ -249,7 +247,7 @@ Le panneau de gauche contient une colonne d’icônes. Cliquez sur une icône po
 | Icon | Description |
 | --- | --- |
 | **[!UICONTROL Search]** | Effectuez une recherche dans tous les types de ressources de votre bibliothèque. |
-| **[!UICONTROL Upload]** | Charger les images<!-- not there as of 7/10:  or font files (TTF, OTF, WOFF, WOFF2)--> dans l’éditeur, en vue de les utiliser dans le modèle actif. Vous pouvez charger jusqu’à 20 fichiers à la fois. |
+| **[!UICONTROL Upload]** | Chargez des images ou des fichiers de polices dans l’éditeur pour les utiliser dans le modèle actif. Vous pouvez charger jusqu’à 20 fichiers à la fois. |
 | **[!UICONTROL Templates]** | Parcourez les modèles d’annonces de votre bibliothèque Creative Studio à utiliser comme calque de base ou élément de référence. |
 | **[!UICONTROL My Assets]** | Parcourez toutes les ressources que vous avez chargées dans l’onglet Assets de Creative Studio. |
 | **[!UICONTROL Images]** | Parcourez uniquement les ressources d’image que vous avez chargées dans l’onglet Assets de Creative Studio. |
@@ -516,3 +514,4 @@ Les libellés vous permettent d’organiser et de filtrer les modèles utilisate
 >* [Gestion des ressources dans Creative Studio](creative-studio-manage-assets.md)
 >* [Gestion des publicités standard dans Creative Studio](creative-studio-manage-standard-ads.md)
 >* [Gestion des contenus créatifs dynamiques dans Creative Studio](creative-studio-manage-dynamic-ads.md)
+

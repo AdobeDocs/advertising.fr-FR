@@ -8,7 +8,7 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
 workflow-type: tm+mt
 source-wordcount: 1181
 ht-degree: 0%
@@ -204,3 +204,4 @@ Dupliquez une annonce publicitaire standard pour ajouter un nouveau contenu cré
 >* [Gestion des contenus créatifs dynamiques dans Creative Studio](creative-studio-manage-dynamic-ads.md)
 >* [Gestion des modèles dans Creative Studio](creative-studio-manage-templates.md)
 >* [Gestion des profils de marque dans Advertising Creative](/help/creative/brands/brand-manage.md)
+

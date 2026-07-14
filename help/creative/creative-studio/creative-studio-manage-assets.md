@@ -7,9 +7,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 292
+source-wordcount: 296
 ht-degree: 0%
 
 ---
@@ -37,15 +37,22 @@ L’onglet **[!UICONTROL Assets]** répertorie les ressources existantes en mode
 * [Suppression d’un élément](#assets-delete)
 
 <!--
-
 Should be in "Common Tasks" chapter
 
 ## Browse and search assets {#assets-search}
 
 * Use the **[!UICONTROL Search assets]** field to find assets by name. Enter at least three characters to trigger a search; shorter queries don't filter results.
 * Click **[!UICONTROL Filter]** to filter the asset library by type or other attributes.
-
 -->
+
+## Types de ressources pris en charge
+
+| Type | Formats pris en charge | Taille de fichier maximale |
+| --- | --- | --- |
+| Images | JPG/JPEG, PNG, GIF, WebP, SVG | 10 MO |
+| Vidéo | MP4, MOV, AVI, WebM | 512 MO |
+| Audio | MP3, WAV, AAC, OGG | 50 MO |
+| Polices | TTF, OTF, WOFF, WOFF2 | 5 MO |
 
 ## Chargement de ressources {#assets-upload}
 
@@ -57,27 +64,9 @@ Should be in "Common Tasks" chapter
 
 1. Sélectionnez un ou plusieurs fichiers sur votre ordinateur ou votre réseau.
 
-   Les types de fichiers pris en charge sont les suivants :
-
-   <!-- Verified 2026-07-09 against creative-api TemplateMediaValidator.java (IMAGE_EXTENSIONS, VIDEO_EXTENSIONS, AUDIO_EXTENSIONS), which backs the /v1/creative/template-medias upload/initiate endpoint used by this tab. The Assets tab file input has no client-side accept restriction (TemplateBrowser.tsx) and relies entirely on this backend validator, so it is authoritative. -->
-
-   | Type | Formats pris en charge | Taille de fichier maximale |
-   | --- | --- | --- |
-   | Images | JPG/JPEG, PNG, GIF, WebP, SVG | 10 MO |
-   | Vidéo | MP4, MOV, AVI, WebM | 512 MO |
-   | Audio | MP3, WAV, AAC, OGG | 50 MO |
-
    Les fichiers vides et les types de fichiers non pris en charge sont rejetés avec une notification d’erreur.
 
    Le nom de la ressource est enregistré comme nom de fichier chargé sans son extension. Les espaces et les caractères non-ASCII dans le nom de fichier sont remplacés par des traits de soulignement (par exemple, lors du chargement d’`My Logo.png`, une ressource nommée `My_Logo` est créée). Vous pouvez renommer la ressource par la suite.
-
-<!--
-
-maybe later:
-
-   | Fonts | TTF, OTF, WOFF, WOFF2 | 5 MB |
-   
--->
 
 ## Modification du nom d’une ressource {#asset-rename}
 
