@@ -17,7 +17,7 @@ ht-degree: 0%
 
 *Applicable uniquement aux unités d’enchères dans les campagnes CPC des portefeuilles hérités de niveau mot-clé*
 
-Les contraintes d&#39;unité d&#39;offres sont des règles qui limitent les offres optimisées pour toutes les [unités d&#39;offres](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html) avec des modèles de coût et de chiffre d&#39;affaires associés à la contrainte.
+Les contraintes d&#39;unité d&#39;offres sont des règles qui limitent les offres optimisées pour toutes les [unités d&#39;offres](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=fr) avec des modèles de coût et de chiffre d&#39;affaires associés à la contrainte.
 
 ## À propos des contraintes
 
@@ -64,7 +64,7 @@ Voici quelques raisons de limiter les unités d&#39;enchères :
 
 Outre l&#39;ouverture de la vue [&#128279;](#constraints-view) vous pouvez également afficher les informations relatives à vos contraintes des manières suivantes :[!UICONTROL Constraints]
 
-* Toutes vos contraintes sont des valeurs de libellé pour une seule [classification de libellé](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html) appelée « [!UICONTROL Constraints] ».
+* Toutes vos contraintes sont des valeurs de libellé pour une seule [classification de libellé](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=fr) appelée « [!UICONTROL Constraints] ».
 
    * « [!UICONTROL Constraints] » est inclus dans la liste « [!UICONTROL Classifications] » dans vos paramètres d&#39;affichage par défaut et personnalisés et dans les rapports planifiés. Vous pouvez ajouter la colonne où vous souhaitez voir les contraintes affectées aux entités pertinentes.
 
