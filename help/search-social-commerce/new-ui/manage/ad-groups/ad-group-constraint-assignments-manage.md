@@ -5,14 +5,10 @@ feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
 TQID: https://experienceleague.adobe.com/6z4-Pt25RaQpLiEYdnp-BXD0guz9S2zQLmamf8uSSXU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
 workflow-type: tm+mt
 source-wordcount: 389
 ht-degree: 0%
@@ -91,5 +87,5 @@ L’annulation de l’affectation d’une contrainte supprime l’association av
 >
 >* [(nouvelle interface utilisateur) Gérer les contraintes pour les unités d’enchères de recherche](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [(nouvelle interface utilisateur) Gérer les affectations de contraintes pour les campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [(Nouvelle interface utilisateur) Gérer les affectations de contraintes pour les mots-clés](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
->* [(nouvelle interface utilisateur) Gérer les affectations de contraintes pour les emplacements](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [(Nouvelle interface utilisateur) Gérer les affectations de contraintes pour les mots-clés](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
+>* [(nouvelle interface utilisateur) Gérer les affectations de contraintes pour les emplacements](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
