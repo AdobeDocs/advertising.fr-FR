@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
 workflow-type: tm+mt
 source-wordcount: 585
 ht-degree: 0%
@@ -57,7 +57,7 @@ Vous pouvez ensuite télécharger le fichier, corriger les erreurs et charger le
 
    **[!UICONTROL Report redirects as errors]:** lorsqu’une page de destination est redirigée vers une autre page (par exemple, si la page de destination est manquante et que le site affiche une page de substitution), la colonne [!UICONTROL EF Errors] du fichier d’erreur de la page de destination indique l’URL vers laquelle la page de destination est redirigée.
 
-Lorsque la tâche commence, une nouvelle ligne est ajoutée à la vue [!UICONTROL Bulksheets]. Lorsque les notifications par e-mail pour les feuilles d’envoi groupé sont [&#x200B; activées dans [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md), une notification par e-mail avec un lien vers le fichier est envoyée lors de la création du fichier. Selon la quantité de données compilées, la notification par e-mail peut prendre plusieurs minutes ou plus. Vous pouvez télécharger le fichier pour le modifier, puis le charger à nouveau pour publication, ou vous pouvez publier le fichier en l’état.
+Lorsque la tâche commence, une nouvelle ligne est ajoutée à la vue [!UICONTROL Bulksheets]. Lorsque les notifications par e-mail pour les feuilles d’envoi groupé sont [&#x200B; activées dans [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), une notification par e-mail avec un lien vers le fichier est envoyée lors de la création du fichier. Selon la quantité de données compilées, la notification par e-mail peut prendre plusieurs minutes ou plus. Vous pouvez télécharger le fichier pour le modifier, puis le charger à nouveau pour publication, ou vous pouvez publier le fichier en l’état.
 
 >[!NOTE]
 >

@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 38fd7ff63b177f13bdfb19b980fb1d1e14edcf56
+source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
 workflow-type: tm+mt
 source-wordcount: 830
 ht-degree: 0%
@@ -30,7 +30,7 @@ Vous pouvez charger des fichiers de feuilles d’envoi groupé, des fichiers d�
 
 1. Cliquez sur **[!UICONTROL Upload]**.
 
-Lorsque la tâche commence, le fichier est répertorié dans la vue [!UICONTROL Bulksheets]. Lorsque les notifications par e-mail des feuilles d’envoi groupé sont [&#x200B; activées dans [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md), une notification par e-mail est envoyée avec un lien vers le fichier une fois le traitement terminé. Selon la quantité de données compilées, la notification par e-mail peut prendre plusieurs minutes ou plus. Si la génération du fichier échoue, un fichier d’erreur est répertorié dans la vue [!UICONTROL Bulksheets] et une notification est envoyée par e-mail avec un lien vers le fichier d’erreur.
+Lorsque la tâche commence, le fichier est répertorié dans la vue [!UICONTROL Bulksheets]. Lorsque les notifications par e-mail des feuilles d’envoi groupé sont [&#x200B; activées dans [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), une notification par e-mail est envoyée avec un lien vers le fichier une fois le traitement terminé. Selon la quantité de données compilées, la notification par e-mail peut prendre plusieurs minutes ou plus. Si la génération du fichier échoue, un fichier d’erreur est répertorié dans la vue [!UICONTROL Bulksheets] et une notification est envoyée par e-mail avec un lien vers le fichier d’erreur.
 
 >[!NOTE]
 >

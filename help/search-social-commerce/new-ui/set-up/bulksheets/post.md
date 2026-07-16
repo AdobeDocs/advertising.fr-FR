@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 739034010787c2016720bef37fb75dc8efbae58b
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: 752
 ht-degree: 0%
@@ -38,7 +38,7 @@ Les fichiers de feuilles d’envoi groupé et les fichiers d’erreur sont autom
 
    Les mêmes paramètres s&#39;appliquent à tous les fichiers que vous publiez.
 
-Lorsque la tâche commence, le statut et la date de publication planifiée de la ligne sont mis à jour dans la vue [!UICONTROL Bulksheets]. Lorsque les notifications par e-mail pour les feuilles d’envoi groupé sont [&#x200B; activées dans [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md), une notification par e-mail avec un lien vers le fichier est envoyée lorsque le fichier est publié. Selon la quantité de données compilées, la notification par e-mail peut prendre plusieurs minutes ou plus. Si l’une des données ne peut pas être publiée, un fichier d’erreur est répertorié dans la vue [!UICONTROL Bulksheets] et une notification est envoyée par e-mail avec un lien vers le fichier d’erreur.
+Lorsque la tâche commence, le statut et la date de publication planifiée de la ligne sont mis à jour dans la vue [!UICONTROL Bulksheets]. Lorsque les notifications par e-mail pour les feuilles d’envoi groupé sont [&#x200B; activées dans [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), une notification par e-mail avec un lien vers le fichier est envoyée lorsque le fichier est publié. Selon la quantité de données compilées, la notification par e-mail peut prendre plusieurs minutes ou plus. Si l’une des données ne peut pas être publiée, un fichier d’erreur est répertorié dans la vue [!UICONTROL Bulksheets] et une notification est envoyée par e-mail avec un lien vers le fichier d’erreur.
 
 >[!NOTE]
 >

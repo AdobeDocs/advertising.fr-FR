@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
+source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
 workflow-type: tm+mt
 source-wordcount: 389
 ht-degree: 0%
@@ -91,5 +91,5 @@ L’annulation de l’affectation d’une contrainte supprime l’association av
 >
 >* [(nouvelle interface utilisateur) Gérer les contraintes pour les unités d’enchères de recherche](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [(nouvelle interface utilisateur) Gérer les affectations de contraintes pour les campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [(Nouvelle interface utilisateur) Gérer les affectations de contraintes pour les mots-clés](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
->* [(nouvelle interface utilisateur) Gérer les affectations de contraintes pour les emplacements](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [(Nouvelle interface utilisateur) Gérer les affectations de contraintes pour les mots-clés](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
+>* [(nouvelle interface utilisateur) Gérer les affectations de contraintes pour les emplacements](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
