@@ -2,7 +2,7 @@
 title: Gérer les classifications de libellés
 description: Découvrez comment utiliser les classifications d’étiquettes pour regrouper les composants de votre compte.
 feature: Search Label Classifications
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 44f83bcf32d671ad96a420827d16d8f1ec39049e
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
@@ -111,7 +111,7 @@ Les valeurs de libellé sont héritées par les entités enfants. Par conséquen
 >
 >Vos mots-clés et votre texte publicitaire pour certains réseaux publicitaires et types de campagne sont [non modifiables](/help/search-social-commerce/campaign-management/faqs-campaigns.md), ce qui signifie que leur modification supprime l’entité existante et en crée une nouvelle. Lorsqu&#39;une entité existante est supprimée de cette manière, la classification des libellés n&#39;est pas affectée à la nouvelle entité.
 
-1. [Téléchargez une feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) qui comprend les entités auxquelles vous souhaitez affecter des valeurs de classification de libellés :
+1. [Téléchargez une feuille d’envoi groupé](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md) qui comprend les entités auxquelles vous souhaitez affecter des valeurs de classification de libellés :
 
    * Dans l’onglet [!UICONTROL Rows and Columns] , développez la liste [!UICONTROL Campaign] dans le volet [!UICONTROL Bulksheet Columns] .
 
@@ -127,7 +127,7 @@ Les valeurs de libellé sont héritées par les entités enfants. Par conséquen
 
    Outre l’ajout de valeurs, vous pouvez également supprimer des valeurs existantes en les supprimant des lignes appropriées. Pour supprimer des valeurs à la fois d&#39;une entité parent et de ses entités enfant, soit a) incluez uniquement la ligne d&#39;entité parent et supprimez la valeur de classification existante, soit b) incluez à la fois l&#39;entité parent et ses entités enfant et supprimez la valeur de classification existante de toutes les lignes parent et enfant.
 
-1. [Chargez le fichier](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) pour créer les associations.<!-- Update once the new bulksheet UI is GA -->
+1. [Chargez le fichier](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md) pour créer les associations.
 
 Les valeurs de libellé chargées sont visibles dans les vues d’entité appropriées.
 
