@@ -4,7 +4,7 @@ description: Découvrez comment affecter des contraintes aux emplacements.
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Vous pouvez affecter une seule contrainte à un ou plusieurs emplacements.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
-## Annuler l&#39;affectation des contraintes des emplacements sélectionnés de la nouvelle vue [!UICONTROL Placements]
+## Supprimer les contraintes des emplacements sélectionnés de la nouvelle vue [!UICONTROL Placements]
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Target]>[!UICONTROL Placements]**.
 
