@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 82db1b4d0d8703229a4002e932d5b2f52f845814
+source-git-commit: e27316a62339036414dc1c624a35b398ad1cf392
 workflow-type: tm+mt
-source-wordcount: 2408
+source-wordcount: 2413
 ht-degree: 2%
 
 ---
@@ -214,6 +214,8 @@ ht-degree: 2%
       + [À propos de la vue [!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-view-about.md)
       + [Gérer les affectations de contraintes pour les emplacements](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
     + [Gestion  [!DNL Google Ads]  cibles de recherche dynamiques](/help/search-social-commerce/new-ui/target/dynamic-search-target-manage.md)
+  + Ressources {#assets}
+    + [Gérer les groupes de produits d’achat](/help/search-social-commerce/new-ui/assets/product-groups-manage.md)
   + Configuration {#setup}
     + Comptes {#accounts}
       + [À propos des comptes de réseau publicitaire](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)

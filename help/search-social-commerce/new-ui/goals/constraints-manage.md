@@ -6,7 +6,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: 2660
 ht-degree: 0%
@@ -66,9 +66,9 @@ Outre l&#39;ouverture de la vue [&#128279;](#constraints-view) vous pouvez égal
 
 * Toutes vos contraintes sont des valeurs de libellé pour une seule [classification de libellé](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=fr) appelée « [!UICONTROL Constraints] ».
 
-   * « [!UICONTROL Constraints] » est inclus dans la liste « [!UICONTROL Classifications] » dans vos paramètres d&#39;affichage par défaut et personnalisés et dans les rapports planifiés. Vous pouvez ajouter la colonne où vous souhaitez voir les contraintes affectées aux entités pertinentes.
+  * « [!UICONTROL Constraints] » est inclus dans la liste « [!UICONTROL Classifications] » dans vos paramètres d&#39;affichage par défaut et personnalisés et dans les rapports planifiés. Vous pouvez ajouter la colonne où vous souhaitez voir les contraintes affectées aux entités pertinentes.
 
-   * Lorsque vous téléchargez une feuille d’envoi groupé, « [!UICONTROL Constraints] » est répertorié sous la colonne « [!UICONTROL Classifications] » pour les entités applicables dans la boîte de dialogue [!UICONTROL Download Bulksheet]. Lorsque vous incluez la colonne , la feuille d’envoi groupé téléchargée inclut toutes les contraintes affectées aux entités pertinentes.
+  * Lorsque vous téléchargez une feuille d’envoi groupé, « [!UICONTROL Constraints] » est répertorié sous la colonne « [!UICONTROL Classifications] » pour les entités applicables dans la boîte de dialogue [!UICONTROL Download Bulksheet]. Lorsque vous incluez la colonne , la feuille d’envoi groupé téléchargée inclut toutes les contraintes affectées aux entités pertinentes.
 
   La classification [!UICONTROL Constraints] n’est pas incluse dans la vue [!UICONTROL Label Classifications] ; la vue [!UICONTROL Constraints] est distincte. La classification [!UICONTROL Constraints] n’est pas non plus incluse dans la limite de classification de 30 étiquettes.
 
@@ -134,7 +134,7 @@ Vous pouvez modifier les paramètres d&#39;une contrainte à la fois.
 
 Vous pouvez suspendre toute contrainte active pour la désactiver. Vous pouvez l’activer ultérieurement en redéfinissant son statut sur *actif*.
 
-Vous pouvez également supprimer une contrainte, ce qui supprime toutes les associations avec les composants de compte et rend la contrainte indisponible pour une utilisation ultérieure. Les données de rapport pour la contrainte ne sont plus disponibles. **Remarque :** pour dissocier simplement une contrainte d&#39;un composant de compte, reportez-vous à la rubrique [Annuler l&#39;affectation de contraintes des unités d&#39;enchères de recherche](#constraints-unassign). »
+Vous pouvez également supprimer une contrainte, ce qui supprime toutes les associations avec les composants de compte et rend la contrainte indisponible pour une utilisation ultérieure. Les données de rapport pour la contrainte ne sont plus disponibles. **Remarque :** pour dissocier simplement une contrainte d’un composant de compte, voir « [Supprimer les contraintes des unités d’enchères de recherche](#constraints-unassign) ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Constraints]**.
 
