@@ -2,10 +2,14 @@
 title: Gérer les groupes de produits d’achat
 description: Découvrez, créez, modifiez et supprimez des groupes de produits d’achat et référencez les paramètres de groupe de produits pour Google Ads et Microsoft Advertising.
 feature: Search Campaign Management
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: 2337
@@ -42,7 +46,7 @@ Avant de pouvoir créer des groupes de produits avec des attributs spécifiques 
 
 Au sein d’un groupe publicitaire, vous pouvez créer jusqu’à sept niveaux de groupes de produits (sans inclure « [!UICONTROL All Products] ») à inclure ou à exclure des offres, avec un ou plusieurs groupes de produits ciblant le même attribut à chaque niveau (par exemple, [!UICONTROL Brand]=Acme pour un groupe de produits et [!UICONTROL Brand]=AcmePlus pour un autre au même niveau). Les groupes de produits parents sont appelés subdivisions et le niveau de subdivision le plus bas est appelé unité. Vous pouvez définir des offres et des modèles de suivi, ou exclure complètement les offres, au niveau de l’unité. L’ensemble complet des groupes de produits actifs pour un groupe publicitaire est appliqué de manière hiérarchique afin de déterminer les produits éligibles. Par exemple, si vous subdivisez [!UICONTROL All Products] en [!UICONTROL Brand]=AcmeBasic et [!UICONTROL Brand]=AcmePlus, puis que vous subdivisez davantage chacun de ces groupes de produits en [!UICONTROL Condition]=Nouveau et définissez des enchères, seuls les nouveaux produits des marques AcmeBasic et AcmePlus peuvent faire l’objet d’une publicité ou être exclus des publicités.
 
-![Exemple d’ensemble de groupes ](/help/search-social-commerce/assets/product-group-list-new.png " produitsExemple d’ensemble de groupes de produits")
+![Exemple d’ensemble de groupes &#x200B;](/help/search-social-commerce/assets/product-group-list-new.png " produitsExemple d’ensemble de groupes de produits")
 
 ![Exemple de hiérarchie de groupe de produits](/help/search-social-commerce/assets/product-group-tree-new.png "Exemple de hiérarchie de groupe de produits")
 
@@ -50,7 +54,7 @@ Au sein d’un groupe publicitaire, vous pouvez créer jusqu’à sept niveaux d
 
 <!-- I should be able to point to help in GGL and MS -->
 
-Consultez également les [!DNL Google Ads] d’aide « [ Gérer une campagne d’achat avec des groupes de produits ](https://support.google.com/google-ads/answer/6275317) » et d’aide [!DNL Microsoft Advertising] « [ Comprendre et utiliser des groupes de produits ](https://help.ads.microsoft.com/#apex/bae/en/56782) ».
+Consultez également les [!DNL Google Ads] d’aide « [&#x200B; Gérer une campagne d’achat avec des groupes de produits &#x200B;](https://support.google.com/google-ads/answer/6275317) » et d’aide [!DNL Microsoft Advertising] « [&#x200B; Comprendre et utiliser des groupes de produits &#x200B;](https://help.ads.microsoft.com/#apex/bae/en/56782) ».
 
 | Réseau D&#39;Achats | Dimension du produit | Attributs | Remarques |
 |----|----|----|----|
@@ -279,7 +283,7 @@ Ce modèle remplace les modèles aux niveaux supérieurs et est utilisé uniquem
 
 Une fois que vous avez créé un groupe de produits pour des dimensions de produit spécifiques (c’est-à-dire, pas « Tous les produits »), Search, Social et Commerce crée automatiquement un groupe de produits pour « Tout le reste ».
 
-Pour obtenir la liste des dimensions de produit disponibles, voir « [ Filtres de produit ](#product-filters) ». Votre liste de dimensions peut être limitée en fonction du paramètre de [!UICONTROL Inventory Filter] de la campagne.
+Pour obtenir la liste des dimensions de produit disponibles, voir « [&#x200B; Filtres de produit &#x200B;](#product-filters) ». Votre liste de dimensions peut être limitée en fonction du paramètre de [!UICONTROL Inventory Filter] de la campagne.
 
 **[!UICONTROL Excluded]:** (facultatif pour les nouveaux groupes de produits ; en lecture seule pour les groupes de produits existants) Exclut les enchères sur les annonces de produits correspondants.
 
@@ -325,7 +329,7 @@ Ce modèle remplace les modèles aux niveaux supérieurs et est utilisé uniquem
 
 Une fois que vous avez créé un groupe de produits pour des dimensions de produit spécifiques (c’est-à-dire, pas « Tous les produits »), Search, Social et Commerce crée automatiquement un groupe de produits pour « Tout le reste ».
 
-Pour obtenir la liste des dimensions de produit disponibles, voir « [ Filtres de produit ](#product-filters) ». Votre liste de dimensions peut être limitée en fonction du paramètre de [!UICONTROL Inventory Filter] de la campagne.
+Pour obtenir la liste des dimensions de produit disponibles, voir « [&#x200B; Filtres de produit &#x200B;](#product-filters) ». Votre liste de dimensions peut être limitée en fonction du paramètre de [!UICONTROL Inventory Filter] de la campagne.
 
 **[!UICONTROL Excluded]:** (facultatif pour les nouveaux groupes de produits ; en lecture seule pour les groupes de produits existants) Exclut les enchères sur les annonces de produits correspondants.
 
