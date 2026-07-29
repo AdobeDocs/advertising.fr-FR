@@ -3,9 +3,9 @@ title: (Nouvelle interface utilisateur) Gestion des comptes réseau et
 description: Découvrez comment configurer et gérer les détails du compte dans la nouvelle interface utilisateur pour un réseau publicitaire synchronisé via l’API du réseau publicitaire.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 694cc3c6bc6217cf6f1febf5da28fd7988690622
+source-git-commit: 6b9aca3a3de262935428a749acc123fcf7b76c18
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2143'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Vous trouverez ci-dessous des instructions pour gérer les comptes de réseau pu
 
 <!-- Move out info about Naver into a separate page -->
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
 
 ## Créer un compte réseau publicitaire {#create-account}
 
@@ -40,13 +40,7 @@ Pour activer la synchronisation d’un compte, vous devez créer un enregistreme
 
 1. (Tous les réseaux publicitaires, à l’exception de [!DNL Yandex]) Connectez-vous au réseau publicitaire à l’aide des informations d’identification de l’annonceur. Sélectionnez l’option « Suivi des comptes pour ce compte ». Ensuite, en haut à droite, cliquez sur **[!UICONTROL Next]**.
 
-1. Spécifiez les [paramètres du compte](#account-settings-api) :
-
-   1. Dans l’onglet **[!UICONTROL Select Accounts]** , spécifiez les paramètres généraux du compte. Pour les comptes [!DNL Yandex], spécifiez les informations d’identification du compte.
-
-   1. Cliquez sur l’onglet **[!UICONTROL Setup Tracking]** et renseignez les paramètres de tracking.
-
-   1. (Annonceurs avec une [[!DNL Adobe Analytics for Advertising] intégration](/help/integrations/analytics/overview.md)) Cliquez sur l’onglet **[!UICONTROL Set up Adobe Analytics]** et sélectionnez toutes les suites de rapports [!DNL Analytics] à utiliser pour le suivi et les rapports d’activité de campagne.
+1. Spécifiez les [paramètres du compte](#account-settings-api) dans chaque onglet disponible.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -68,15 +62,7 @@ Pour réauthentifier les paramètres du compte afin d’actualiser les autorisat
 
    * Placez le curseur sur le nom du compte, cliquez sur **...**, puis sur **[!UICONTROL Edit]**.
 
-1. Modifiez les [paramètres du compte](#account-settings-api) :
-
-   1. (Facultatif) Dans l’onglet **[!UICONTROL Account Details]** , modifiez les détails du compte.
-
-   1. (Facultatif) Cliquez sur l’onglet **[!UICONTROL Setup Tracking]** et modifiez les paramètres de suivi.
-
-   1. (Facultatif ; annonceurs avec une [[!DNL Adobe Analytics for Advertising] intégration](/help/integrations/analytics/overview.md)) Cliquez sur l’onglet **[!UICONTROL Set up Adobe Analytics]** et modifiez les suites de rapports [!DNL Analytics] à utiliser pour le suivi et les rapports d’activité de campagne.
-
-   <!-- What are the repercussions of changing the suites? Timing of updated data? -->
+1. Modifiez les [paramètres du compte](#account-settings-api) dans les onglets disponibles.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -114,21 +100,21 @@ Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commer
 
    * (Vue [!UICONTROL Accounts]) :
 
-      * (Pour activer le compte) Cochez la case en regard du nom du compte, puis cliquez sur **[!UICONTROL Activate]** dans la barre d’outils des actions en bloc.
+     * (Pour activer le compte) Cochez la case en regard du nom du compte, puis cliquez sur **[!UICONTROL Activate]** dans la barre d’outils des actions en bloc.
 
-      * (Pour désactiver le compte) Cochez la case en regard du nom du compte, puis cliquez sur **[!UICONTROL Pause]** dans la barre d’outils des actions en bloc.
+     * (Pour désactiver le compte) Cochez la case en regard du nom du compte, puis cliquez sur **[!UICONTROL Pause]** dans la barre d’outils des actions en bloc.
 
    * (Dans les paramètres du compte) :
 
-      1. Sélectionnez le compte de l’une des manières suivantes :
+     1. Sélectionnez le compte de l’une des manières suivantes :
 
-         * Placez le curseur sur le nom du compte, cliquez sur **...**, puis sur **[!UICONTROL Edit]**.
+        * Placez le curseur sur le nom du compte, cliquez sur **...**, puis sur **[!UICONTROL Edit]**.
 
-         * Cochez la case en regard du nom du compte, puis cliquez sur **[!UICONTROL Edit]** dans la barre d’outils des actions en masse.
+        * Cochez la case en regard du nom du compte, puis cliquez sur **[!UICONTROL Edit]** dans la barre d’outils des actions en masse.
 
-      1. Dans l’onglet **[!UICONTROL Account Details]** , désactivez **[!UICONTROL Account enabled]**.
+     1. Dans l’onglet **[!UICONTROL Account Details]** , désactivez **[!UICONTROL Account enabled]**.
 
-      1. Cliquez sur **[!UICONTROL Save]**.
+     1. Cliquez sur **[!UICONTROL Save]**.
 
 ## Paramètres du compte réseau publicitaire {#account-settings-api}
 
@@ -203,7 +189,7 @@ Pour activer cette fonctionnalité, activez **[Activer le suivi]**.
 >* Si vous passez de [!UICONTROL Standard] à [!UICONTROL Token], ou vice versa, vous devez régénérer les URL de tracking pour le compte.
 >* Vous pouvez remplacer le paramètre au niveau du compte au niveau de la campagne.
 
-**[!UICONTROL Auto Update]:** (lorsque le suivi Search, Social et Commerce est activé) Standardise vos URL de suivi à des fins de compatibilité entre les navigateurs et les serveurs. Search, Social et Commerce télécharge automatiquement les éléments suivants sur le réseau publicitaire lors de la synchronisation suivante : (a) paramètres de tracking Search, Social et Commerce pour les modèles de tracking et les mêmes paramètres ajoutés aux URL finales ou (b) nouvelles URL de destination incorporées avec le code de tracking Search, Social et Commerce. Pour les annonceurs et annonceuses disposant d’une intégration [Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr) et d’une configuration d’AMO ID côté serveur (s_kwcid), le chargement inclut également les paramètres [AMO ID](/help/integrations/analytics/ids.md#amo-id) pour vos comptes [!DNL Google Ads] et [!DNL Microsoft Advertising]. Le paramètre par défaut au niveau du compte est hérité des paramètres de suivi de l’annonceur. Vous pouvez remplacer le paramètre au niveau du compte au niveau de la campagne.
+**[!UICONTROL Auto Update]:** (lorsque le suivi Search, Social et Commerce est activé) Standardise vos URL de suivi à des fins de compatibilité entre les navigateurs et les serveurs. Search, Social et Commerce télécharge automatiquement les éléments suivants sur le réseau publicitaire lors de la synchronisation suivante : (a) paramètres de tracking Search, Social et Commerce pour les modèles de tracking et les mêmes paramètres ajoutés aux URL finales ou (b) nouvelles URL de destination incorporées avec le code de tracking Search, Social et Commerce. Pour les annonceurs et annonceuses disposant d’une intégration [Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) et d’une configuration d’AMO ID côté serveur (s_kwcid), le chargement inclut également les paramètres [AMO ID](/help/integrations/analytics/ids.md#amo-id) pour vos comptes [!DNL Google Ads] et [!DNL Microsoft Advertising]. Le paramètre par défaut au niveau du compte est hérité des paramètres de suivi de l’annonceur. Vous pouvez remplacer le paramètre au niveau du compte au niveau de la campagne.
 
 Les URL de tracking ne sont mises à jour quotidiennement que pour les entités désynchronisées (c’est-à-dire les nouvelles entités ajoutées et les entités existantes dont les propriétés ont été modifiées). Par conséquent, si vous modifiez ce paramètre de désactivé à activé pour un annonceur/compte/campagne existant, les URL de suivi ne sont pas mises à jour pour les entités existantes qui sont déjà synchronisées. Pour ajouter le tracking aux URL des entités existantes non synchronisées, contactez l’équipe de votre compte Adobe et demandez un processus de synchronisation manuel unique. Le processus de chargement automatique gérera les modifications futures.
 
@@ -232,9 +218,9 @@ Les comptes qui utilisent le suivi des clics d’Adobe Advertising doivent inclu
 
 * Pour incorporer l’URL finale :
 
-   * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste de paramètres indiquant les URL finales dans les modèles de tracking, reportez-vous à la [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] uniquement) ou ([!DNL Google Ads] uniquement) aux paramètres « Modèle de tracking uniquement » dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+  * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste de paramètres indiquant les URL finales dans les modèles de tracking, reportez-vous à la [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] uniquement) ou ([!DNL Google Ads] uniquement) aux paramètres « Modèle de tracking uniquement » dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL LY Ads] uniquement) Utilisez le `!{lpurl}` de paramètre pour indiquer l’URL de la page de destination.
+  * ([!DNL LY Ads] uniquement) Utilisez le `!{lpurl}` de paramètre pour indiquer l’URL de la page de destination.
 
 * Vous pouvez éventuellement inclure des paramètres d’URL et tout paramètre personnalisé défini pour la campagne, séparés par des esperluettes (&amp;), tel que `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -248,11 +234,11 @@ Les comptes qui utilisent le suivi des clics d’Adobe Advertising doivent inclu
 >* Le modèle de suivi au niveau le plus granulaire remplace les valeurs à tous les niveaux supérieurs. Par exemple, si les paramètres du compte et les paramètres des mots-clés incluent tous deux une valeur, la valeur du mot-clé est appliquée.
 >* Si vous mettez à jour un modèle de suivi au niveau de l’annonce, du lien du site ou du mot-clé, les annonces pertinentes sont envoyées à nouveau pour révision. Vous pouvez mettre à jour vos modèles de suivi au niveau du compte, de la campagne ou du groupe publicitaire sans envoyer à nouveau vos publicités pour approbation.
 
-## onglet [!UICONTROL Setup Analytics]
+## onglet [!UICONTROL Set up Adobe Analytics]
 
-Ces paramètres sont disponibles pour les annonceurs qui disposent d’une [[!DNL Adobe Analytics for Advertising]  intégration &#x200B;](/help/integrations/analytics/overview.md).
+Ces paramètres sont disponibles pour les annonceurs qui disposent d’une [[!DNL Adobe Analytics for Advertising]  intégration ](/help/integrations/analytics/overview.md).
 
-**[!UICONTROL Adobe Analytics Report Suite]:** (facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoient les données qu’ils collectent sur le réseau publicitaire, y compris les classifications d’entités et les données de clics pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.
+**[!UICONTROL Adobe Analytics Report Suite]:** (facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoient les données qu’ils collectent sur le réseau publicitaire, y compris les classifications d’entités et les données de clics pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.<!-- What are the repercussions of changing the suites? Timing of updated data? -->
 
 Pour que les données apparaissent dans les suites de rapports, (a) la fonction d’identifiant AMO côté serveur doit être configurée pour le compte ou (b) le paramètre au niveau de l’annonceur sur « [!UICONTROL Enable Advertising reporting in Analytics] » doit être activé. En outre, le compte [!DNL Analytics] de l’annonceur doit être configuré pour recevoir des données de Search, Social et Commerce. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 
