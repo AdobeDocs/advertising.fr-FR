@@ -2,10 +2,14 @@
 title: Affichage et création de ressources de création
 description: Découvrez comment afficher et créer des ressources d’image, de vidéo et de texte réutilisables pour vos bibliothèques de ressources au niveau  [!DNL Google Ads]  compte et  [!DNL Microsoft Advertising]  compte.
 feature: Search Campaign Management
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47301d06bc2a06c2601107abd988e787114e36bb
 workflow-type: tm+mt
 source-wordcount: 492
@@ -102,7 +106,7 @@ Les ressources textuelles supprimées ne seront plus diffusées, mais les donné
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Remove]**.
 
-1. <!-- VERIFY -->Dans le message de confirmation, cliquez sur **[!UICONTROL Remove]**.
+1. &#x200B;<!-- VERIFY -->Dans le message de confirmation, cliquez sur **[!UICONTROL Remove]**.
 
 >[!MORELIKETHIS]
 >
