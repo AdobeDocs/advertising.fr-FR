@@ -2,9 +2,14 @@
 title: '[!DNL Google Ads] des paramètres de la campagne'
 description: Référencez les paramètres des campagnes  [!DNL Google Ads] .
 feature: Search Campaign Management
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
 workflow-type: tm+mt
 source-wordcount: 3057
@@ -406,7 +411,7 @@ Vous pouvez saisir du texte ou sélectionner des ressources à partir de votre [
 
 **[!UICONTROL Primary Status]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes Performance Max) Pourquoi le groupe de ressources est-il diffusé ou non à pleine capacité ? Il prend en compte le statut du groupe de ressources ainsi que d’autres signaux, tels que les approbations de politique et de qualité. Les valeurs peuvent inclure *ÉLIGIBLE,* *LIMITÉ,* *NOT_ELIGIBLE,* *EN PAUSE,* *EN ATTENTE,* SUPPRIMÉ,*UNKNOWN,* ou *UNSPECIFIED.* **<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
-**[!UICONTROL Primary Status Reason]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes Performance Max) Informations supplémentaires sur le statut principal du groupe de ressources. Les valeurs peuvent inclure *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* CAMPAIGN_ENDED,*CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,*ou* UNSPECIFIED.** ** **
+**[!UICONTROL Primary Status Reason]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes Performance Max) Informations supplémentaires sur le statut principal du groupe de ressources. Les valeurs peuvent inclure *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* CAMPAIGN_ENDED,*CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,*ou* UNSPECIFIED.**&#x200B; ** **
 
 ### [!UICONTROL Conversion Goals]
 
@@ -424,7 +429,7 @@ Pour créer un objectif de conversion personnalisé, cliquez sur **[!UICONTROL +
 
 ### [!UICONTROL Set Customer Acquisition Goal]
 
-Optimisez votre campagne pour les nouveaux clients, les clients existants ou les deux. Pour utiliser ce paramètre, vous devez d’abord activer l’objectif d’acquisition de nouveaux clients pour le compte [!DNL Google Ads] ou, le cas échéant, pour le compte responsable. L’objectif définit les listes de clients existants éligibles et la valeur de conversion supplémentaire pour les nouveaux clients dans les paramètres de conversion. Voir les étapes 1 à 2 dans l’aide [!DNL Google Ads] « [ Activer l’objectif d’acquisition de nouveaux clients ](https://support.google.com/google-ads/answer/14007601) ».
+Optimisez votre campagne pour les nouveaux clients, les clients existants ou les deux. Pour utiliser ce paramètre, vous devez d’abord activer l’objectif d’acquisition de nouveaux clients pour le compte [!DNL Google Ads] ou, le cas échéant, pour le compte responsable. L’objectif définit les listes de clients existants éligibles et la valeur de conversion supplémentaire pour les nouveaux clients dans les paramètres de conversion. Voir les étapes 1 à 2 dans l’aide [!DNL Google Ads] « [&#x200B; Activer l’objectif d’acquisition de nouveaux clients &#x200B;](https://support.google.com/google-ads/answer/14007601) ».
 
 **[!UICONTROL Customer Goal]:** Type d’objectif d’acquisition de client :
 
