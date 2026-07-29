@@ -2,9 +2,9 @@
 title: Colonnes de rapport pour les rapports de base et avancés
 description: Découvrez les colonnes de données disponibles pour les rapports de base et avancés.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: be8b6c1095e48b1aaba92004437de6d7e6ed181a
 workflow-type: tm+mt
-source-wordcount: '3841'
+source-wordcount: '3979'
 ht-degree: 0%
 
 ---
@@ -38,10 +38,17 @@ ht-degree: 0%
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] des annonces responsive sur le Réseau de Recherche) L’efficacité de l’annonce : <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> ou <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | (Campagnes [!DNL Google Ads], [!DNL LY Ads] et [!DNL Microsoft Advertising]) Ajustement des enchères mobiles au niveau du groupe publicitaire actuel, qui détermine la manière dont les enchères sont ajustées lorsque la publicité est affichée sur un appareil mobile. |
 | [!UICONTROL AI Max Bundling Required] | (Campagnes ciblant uniquement le réseau de recherche ; campagnes avec la fonction AI Max activée ; lecture seule) Si le regroupement est requis : *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* ou nul. |
-| [!UICONTROL AI Max Enabled] | Indique si la fonction [&#128279;](https://support.google.com/google-ads/answer/15910366) est activée : [!UICONTROL true]*, *[!UICONTROL false]* ou null.[!UICONTROL AI Max] |
+| [!UICONTROL AI Max Enabled] | Indique si la fonction ](https://support.google.com/google-ads/answer/15910366) est activée : [!UICONTROL true]*, *[!UICONTROL false]* ou null.[[!UICONTROL AI Max] |
 | [!UICONTROL AI Max Search Term Matching] | (Campagnes qui ciblent le réseau de recherche et pour lesquelles la fonctionnalité [IA Max](https://support.google.com/google-ads/answer/15910366) et la fonctionnalité de correspondance des termes de recherche au niveau de la campagne sont activées ; lecture seule) Si la correspondance des termes de recherche au niveau du groupe publicitaire est activée : *[!UICONTROL true]*, *[!UICONTROL false]* ou null. |
 | [!UICONTROL Advertiser] | Nom de l’annonceur. |
 | [!UICONTROL Advertiser ID] | Identifiant numérique du compte Search, Social et Commerce de l’annonceur. |
+| [!UICONTROL All Conversions] | ([!UICONTROL Asset Report]) Nombre total de conversions suivies par [!DNL Google], y compris celles provenant d’actions de conversion qui ne sont pas incluses dans votre colonne principale Conversions. |
+| [!UICONTROL All Conversions Value] | ([!UICONTROL Asset Report]) La valeur de toutes les conversions suivies par [!DNL Google], y compris celles provenant d’actions de conversion qui ne sont pas incluses dans votre colonne principale Conversions. |
+| [!UICONTROL Asset ID] | Identifiant unique qui identifie une ressource existante. |
+| [!UICONTROL Asset] | Nom de la ressource. |
+| [!UICONTROL Asset Type] | Type de ressource : *[!UICONTROL Image]*, *[!UICONTROL Text]* (par exemple titre ou description) ou *[!UICONTROL Video]*. |
+| [!UICONTROL Asset Performance Label] | ([!UICONTROL Asset Report]) Libellé de performance généré par algorithme pour la ressource : *[!UICONTROL Best]*, *[!UICONTROL Good]*, *[!UICONTROL Low]* ou *[!UICONTROL Learning]*. |
+| [!UICONTROL Average CPC] | Coût moyen par clic. |
 | [!UICONTROL Avg Position] | Position moyenne des annonces au cours de la période spécifiée.<br><br>Pour les campagnes [!DNL Google Ads] et [!DNL LY Ads], ces données ne sont disponibles que jusqu’en septembre 2019. Par [!DNL Microsoft Advertising], ces données ne sont disponibles que jusqu’au 22 janvier 2021. |
 | [!UICONTROL Base URL] | URL de base du mot-clé, y compris les paramètres d’ajout configurés pour la campagne ou le compte. Il n’inclut aucun code de redirection et de suivi Search, Social et Commerce. |
 | [!UICONTROL Bid Strategy] | (La plupart des réseaux publicitaires) Pour les campagnes ou les composants de campagne, il s’agit de la stratégie d’enchères de la campagne. Pour les comptes de réseau publicitaire liés à un compte Manager, il s’agit de la stratégie d’enchères entre comptes. Les valeurs disponibles varient en fonction du réseau publicitaire. |
@@ -73,6 +80,8 @@ ht-degree: 0%
 | [!UICONTROL Content IS Lost (budget)] | Estimation du pourcentage d’impressions que vos publicités sur le réseau d’affichage/d’audience n’ont pas reçues, car votre budget quotidien ou mensuel était trop faible. En [!DNL Microsoft Advertising], cela s’appelle « [!UICONTROL Audience lost IS (budget)] ». |
 | [!UICONTROL Content IS Lost (rank)] | Pourcentage estimé d’impressions dans lesquelles vos publicités sur le réseau d’affichage/d’audience n’ont pas été affichées en raison d’un mauvais classement publicitaire. En [!DNL Microsoft Advertising], cela s’appelle « [!UICONTROL Audience lost IS (rank)] ». |
 | [!UICONTROL Conversion Type] | ([!UICONTROL Transaction Report]) Action(s) ayant précédé la conversion :<ul><li><i>[!UICONTROL Click:]</i> Au moins un clic payant s’est produit avant la conversion.</li><li><i>[!UICONTROL Impression:]</i> Aucun clic payant ne s’est produit avant la conversion. Celle-ci a donc résulté d’une visualisation (impression sans clics payants).</li></ul> |
+| [!UICONTROL Conversions] | ([!UICONTROL Asset Report]) Total des conversions suivies par [!DNL Google] pour la période spécifiée à partir des actions de conversion pour lesquelles l’option « Inclure dans les conversions » est activée. |
+| [!UICONTROL Conversions Value] | ([!UICONTROL Asset Report]) La valeur de toutes les conversions suivies par [!DNL Google] à partir des actions de conversion pour lesquelles l’option « Inclure dans les conversions » est activée. |
 | [!UICONTROL Cost] | Coût total des publicités pendant la période spécifiée. |
 | [!UICONTROL Country] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) Pays d’où proviennent les clics. Il est déterminé à partir de l’adresse IP de l’utilisateur. |
 | [!UICONTROL CPC] | Coût par clic (CPC) pour les publicités pendant la période spécifiée. |
@@ -109,6 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Est. Clicks] | ([!UICONTROL Geo Distribution Report] ; campagnes de recherche et d’affichage uniquement) Nombre estimé de clics pour la combinaison groupe publicitaire/campagne/portfolio. Cette valeur peut être différente de celle fournie par les réseaux publicitaires. |
 | [!UICONTROL Estimated Cost] | Estimation totale du coût des publicités associées suivies par Search, Social et Commerce. Cette valeur peut être différente de celle fournie par les réseaux publicitaires. |
 | [!UICONTROL Estimated Impressions] | (Afficher les campagnes uniquement) Estimation du nombre d’impressions d’annonces publicitaires suivies par Search, Social et Commerce. Cette valeur peut être différente de la valeur de la colonne [!UICONTROL Impressions] (le cas échéant), qui affiche la valeur fournie par les réseaux publicitaires. |
+| [!UICONTROL Event Date] | Date à laquelle un événement a été enregistré. Les valeurs sont incluses uniquement pour les rapports avec une agrégation de données de « [!UICONTROL Daily] ». |
 | [!UICONTROL Exclude (yes/no)] | Indique si les enchères sont exclues (<i>[!UICONTROL Yes]</i>) ou autorisées (<i>[!UICONTROL No]</i>) pour les annonces de produits correspondants. |
 | [!UICONTROL First Page CPC] | (Campagnes Google uniquement) Coût par clic (CPC) pour les annonces qui apparaissent sur la première page des résultats de recherche pendant la période spécifiée. |
 | [!UICONTROL Frequency] | (Campagnes [!DNL Meta] uniquement) Nombre moyen de fois où une personne a vu votre publicité. |
@@ -125,7 +135,7 @@ ht-degree: 0%
 | [!UICONTROL Label Classification] | ([!UICONTROL Label Classification Report] et [!UICONTROL Label Value Report]) Classification de l’étiquette. |
 | [!UICONTROL Label Value] | ([!UICONTROL Label Classification Report] et [!UICONTROL Label Value Report]) Valeur pour la classification d’étiquettes. |
 | [!UICONTROL Language] | (Campagnes d’affichage) Langue(s) de l’audience cible. |
-| [!UICONTROL Link Type] | ([!UICONTROL Keyword Report] ; campagnes [!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement ; les données ne sont disponibles que lorsque la règle d’attribution spécifiée pour le rapport est « Dernier événement ») Lorsque la ligne signale une conversion résultant d’un clic sur une extension d’annonce (plutôt que sur l’annonce elle-même) ou sur une annonce de produit/d’achat, cette colonne affiche le type et le titre d’un lien sur lequel l’utilisateur a cliqué :<ul><li>`pla:*` — Les annonces de produits sont répertoriées comme `pla:<product ID>`, par exemple « pla:8525822. »</li><li>`sl:*` — Les liens de site sont répertoriés comme `sl:<Sitelink text>`, par exemple « sl:See Offres actuelles. »</li></ul> |
+| [!UICONTROL Link Type] | ([!UICONTROL Keyword Report] ; campagnes [!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement ; les données ne sont disponibles que lorsque la règle d’attribution spécifiée pour le rapport est « Dernier événement ») Lorsque la ligne signale une conversion résultant d’un clic sur une extension d’annonce (plutôt que sur l’annonce elle-même) ou sur une annonce de produit/d’achat, cette colonne affiche le type et le titre d’un lien sur lequel l’utilisateur a cliqué :<ul><li>`pla:*` — Les annonces de produits sont répertoriées comme `pla:<product ID>`, par exemple « pla:8525822 ».</li><li>`sl:*` — Les liens de site sont répertoriés comme `sl:<Sitelink text>`, par exemple « sl:See Offres actuelles. »</li></ul> |
 | [!UICONTROL Listing Match Type] | Type de correspondance de mot-clé pour la liste d’annonces, <i>[!UICONTROL Content]</i> pour une annonce dans une campagne ciblée sur le contenu ou <i>[!UICONTROL Sitecpc]</i> pour un emplacement dans une campagne ciblée sur le site. Pour les mots-clés [!DNL Microsoft Advertising], plusieurs types de correspondance peuvent être inclus (par exemple « [!UICONTROL Broad], [!UICONTROL Exact] »). |
 | [!UICONTROL Location] | (Afficher les campagnes) Emplacements de l’audience cible. |
 | [!UICONTROL Long Creative Title1] - [!UICONTROL Long Creative Title5] | (Dans les lignes de rapport terminées pour [!DNL Microsoft Advertising] annonces responsive et multimédia) Les grands titres de l’annonce. Pour afficher ces colonnes, incluez la colonne « [!UICONTROL Long Creative Titles] » dans les paramètres du rapport. |
@@ -137,6 +147,7 @@ ht-degree: 0%
 | [!UICONTROL Metro Code] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) Code de métro numérique d’où proviennent les impressions ou les clics (comme us-751 pour Denver). Il est déterminé à partir de l’adresse IP de l’utilisateur de la recherche. |
 | [!UICONTROL Min Spend (%)] | ([!UICONTROL Network Constraint Report]) Pourcentage minimal des dépenses du portefeuille configuré pour le réseau publicitaire. Pour les portefeuilles utilisant le type de contrainte « [!UICONTROL Min-Max] », il s’agit de la valeur [!UICONTROL Min %], si un [!UICONTROL Min %] est configuré. Pour les portefeuilles utilisant le type de contrainte « [!UICONTROL Target Spend] », il s&#39;agit de la valeur [!UICONTROL Target Spend]. |
 | [!UICONTROL Network Account ID] | Identifiant de compte attribué par le réseau. |
+| [!UICONTROL Network Ad ID] | ID d’annonce publicitaire attribué par le réseau. |
 | [!UICONTROL Network Ad Group ID] | ID de groupe publicitaire attribué par le réseau. |
 | [!UICONTROL Network Campaign ID] | Identifiant de campagne attribué par le réseau. |
 | [!UICONTROL Network Campaign Objective] | (Campagnes [!DNL Meta] uniquement) Objectif de la campagne. |
@@ -149,7 +160,7 @@ ht-degree: 0%
 | [!UICONTROL Path Position] | ([!UICONTROL Transaction Report]) Position de l’événement dans le chemin de conversion. |
 | [!UICONTROL Path Total] | ([!UICONTROL Transaction Report]) Nombre total d’événements pour la position du chemin. |
 | [!UICONTROL Portfolio] | Le portfolio. |
-| [!UICONTROL Portfolio Count] | ([!UICONTROL Portfolio Report]) Nombre de portefeuilles associés à un objectif. <!-- This count is different than what I see within the Objectives view. --> |
+| [!UICONTROL Portfolio Count] | ([!UICONTROL Portfolio Report]) Nombre de portefeuilles associés à un objectif. |
 | [!UICONTROL Portfolio Group Name] | Nom du groupe de portefeuilles auquel le portefeuille appartient. |
 | [!UICONTROL Portfolio ID] | Identifiant numérique de portfolio. |
 | [!UICONTROL Portfolio Spend Strategy] | ([!UICONTROL Portfolio Report]) la stratégie de dépenses du portefeuille : <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly]</i>, <i>[!UICONTROL Monthly]</i>, <i>[!UICONTROL ROI]</i>, <i>[!UICONTROL Day of week]</i>, <i>[!UICONTROL Day of month]</i>, <i>[!UICONTROL CPT]</i>, <i>[!UICONTROL Marginal CPT]</i>, <i>[!UICONTROL Google Target CPA]</i> ou <i>[!UICONTROL Google Target ROAS]</i>. |
@@ -179,8 +190,10 @@ ht-degree: 0%
 | [!UICONTROL Search Term] | ([!UICONTROL Transaction Report]) Terme de recherche sur lequel l’utilisateur a effectué une requête. |
 | [!UICONTROL SETrackingOnly] | Si vous suivez le compte sans enchérir : <i>[!UICONTROL TRUE]</i> ou <i>[!UICONTROL FALSE]</i>. |
 | [!UICONTROL Site] | (Rapport et [!UICONTROL Keyword Report] de référencement de domaine ; emplacements ciblés sur le site) Site d’où proviennent les clics. |
+| [!UICONTROL Source] | ([!UICONTROL Asset Report]) Source de la ressource. |
 | [!UICONTROL Start Date] | Le premier jour signalé. |
-| [!UICONTROL State] | (Rapport de distribution géographique, [!UICONTROL Keyword Report]) État d&#39;où provient la transaction. Il est déterminé à partir de l’adresse IP de l’utilisateur. |
+| [!UICONTROL State] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) État d’où provient la transaction. Il est déterminé à partir de l’adresse IP de l’utilisateur. |
+| [!UICONTROL Status] | ([!UICONTROL Asset Report]) Statut de la ressource. |
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) ID de l’utilisateur qui a effectué la transaction. |
 | [!UICONTROL Thru Plays] | (Campagnes [!DNL Meta] uniquement) Nombre de vues ayant visionné l’intégralité de la publicité. |
 | [!UICONTROL Top of Page CPC] | (Campagnes Google uniquement) Coût par clic (CPC) pour les annonces qui s’affichent en haut des pages de résultats de recherche pendant la période spécifiée. |

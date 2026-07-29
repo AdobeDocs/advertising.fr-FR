@@ -2,9 +2,9 @@
 title: À propos des rapports de base et avancés
 description: Découvrez les rapports de base et avancés personnalisables.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 169857badb39b94538c04439956439c2ad259a9d
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ Les rapports de base affichent le coût réel et les données de clics pour les 
 * [Le [!UICONTROL Keyword Report]](keyword-report.md)
 
 * [Le [!UICONTROL Product Group Report]](product-group-report.md)
+
+* [Le [!UICONTROL Asset Report]](asset-report.md)
 
 ### Rapports de classification
 
