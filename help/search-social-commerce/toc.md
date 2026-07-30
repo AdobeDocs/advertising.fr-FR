@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e27316a62339036414dc1c624a35b398ad1cf392
+source-git-commit: 3d853c1ce30e8891baf37b14d20f166c4f79437d
 workflow-type: tm+mt
-source-wordcount: 2413
+source-wordcount: 2371
 ht-degree: 2%
 
 ---
@@ -117,19 +117,21 @@ ht-degree: 2%
       + [Afficher l&#39;historique des modifications d&#39;un portefeuille](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
       + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
     + Campagnes {#campaigns}
-      + [À propos de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-      + [Affectation de campagnes à un portfolio](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio){target="_blank"}
-      + [Supprimer des campagnes d’un portfolio](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio){target="_blank"}
-      + [Gérer les affectations de contraintes pour les campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
-      + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
-      + [Modifier le statut d’une campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-change-status.md)
-      + [Renommer une campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-rename.md)
+      + [Gestion des campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
+      + Paramètres de la campagne par réseau publicitaire {#campaign-settings-by-network}
+        + [[!DNL Baidu] des paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
+        + [[!DNL Google Ads] des paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
+        + [[!DNL LY Ads] des paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yahoo-japan.md)
+        + [[!DNL Microsoft Advertising] des paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
+        + [[!DNL Yandex] des paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)
     + Groupes publicitaires {#ad-groups}
-      + [À propos de la vue [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
-      + [Gérer les affectations de contraintes pour les groupes publicitaires](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-      + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
-      + [Modifier le statut d’un groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-change-status.md)
-      + [Renommer un groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-rename.md)
+      + [Gestion des groupes publicitaires](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)
+      + Paramètres des groupes publicitaires par réseau publicitaire {#ad-group-settings-by-network}
+        + [[!DNL Baidu] paramètres de groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
+        + [[!DNL Google Ads] paramètres de groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
+        + [[!DNL LY Ads] paramètres de groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yahoo-japan.md)
+        + [[!DNL Microsoft Advertising] paramètres de groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
+        + [[!DNL Yandex] paramètres de groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)
     + Publicités {#ads}
       + [À propos de la vue [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
       + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
@@ -146,6 +148,7 @@ ht-degree: 2%
           + Formats de rapport de base {#basic-report-formats}
             + [Le [!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)
             + [Le [!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)
+            + [Le [!UICONTROL Asset Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/asset-report.md)
             + [Le [!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)
             + [Le [!UICONTROL Campaign Hourly Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-hourly-report.md)
             + [Le [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)
@@ -215,6 +218,7 @@ ht-degree: 2%
       + [Gérer les affectations de contraintes pour les emplacements](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
     + [Gestion  [!DNL Google Ads]  cibles de recherche dynamiques](/help/search-social-commerce/new-ui/target/dynamic-search-target-manage.md)
   + Ressources {#assets}
+    + [Affichage et création de ressources de création](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md)
     + [Gérer les groupes de produits d’achat](/help/search-social-commerce/new-ui/assets/product-groups-manage.md)
   + Configuration {#setup}
     + Comptes {#accounts}
