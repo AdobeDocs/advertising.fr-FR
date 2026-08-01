@@ -2,10 +2,14 @@
 title: Gestion des publicités
 description: Découvrez comment créer et gérer des annonces, y compris les types d’annonces disponibles.
 feature: Search Campaign Management
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
 workflow-type: tm+mt
 source-wordcount: 1732
@@ -23,7 +27,7 @@ Une publicité appartient à un groupe publicitaire et contient le contenu prés
 
 Une fois que vous [rendez un compte de réseau publicitaire accessible via une connexion API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) et que Search, Social et Commerce a synchronisé les données du compte avec le réseau publicitaire, vous pouvez créer des annonces pour un [type de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md). Vous pouvez également modifier le statut des publicités.
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
 
 ## À propos de la vue [!UICONTROL Ads] {#ad-view-about}
 
@@ -73,7 +77,7 @@ Vous pouvez créer et gérer des types d’annonces pris en charge pour les grou
 
   >[!NOTE]
   >
-  >[!DNL Google Ads] ne fournit pas de données en dehors de ses éditeurs natifs sur les combinaisons de texte affichées sous forme de publicités. Pour plus d’informations sur les rapports pour chaque combinaison de texte, consultez la documentation sur les [Google Ads ](https://support.google.com/google-ads/answer/7684791).
+  >[!DNL Google Ads] ne fournit pas de données en dehors de ses éditeurs natifs sur les combinaisons de texte affichées sous forme de publicités. Pour plus d’informations sur les rapports pour chaque combinaison de texte, consultez la documentation sur les [Google Ads &#x200B;](https://support.google.com/google-ads/answer/7684791).
 
 ### Données de performances au niveau des annonces
 
@@ -121,7 +125,7 @@ Cependant, il n’est pas disponible pour [!DNL Google Ads] publicité de recher
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
-1. <!-- Add link to where to generate this once available to users-->(Achats d’annonces dans des campagnes avec suivi des conversions Adobe Advertising ; facultatif) Pour effectuer le suivi des clics sur l’annonce, ajoutez manuellement une URL de suivi aux paramètres du compte, de la campagne ou du groupe de produits.
+1. &#x200B;<!-- Add link to where to generate this once available to users-->(Achats d’annonces dans des campagnes avec suivi des conversions Adobe Advertising ; facultatif) Pour effectuer le suivi des clics sur l’annonce, ajoutez manuellement une URL de suivi aux paramètres du compte, de la campagne ou du groupe de produits.
 
 ## Renommer une publicité {#ad-rename}
 
@@ -149,7 +153,7 @@ Renommez rapidement une publicité sans ouvrir les paramètres complets de la pu
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Edit]**.
 
-1. À l’étape **[!UICONTROL Ad Details]**, modifiez les paramètres [Annonce textuelle Baidu](ad-settings-baidu-text.md), [Annonce de recherche dynamique étendue Google Ads](ad-settings-google-dsa.md) (désormais appelée uniquement « annonce de recherche dynamique » dans Google Ads), [Annonce responsive Google Ads](ad-settings-google-rsa.md), [Annonce de recherche dynamique étendue Microsoft Advertising](ad-settings-microsoft-dsa.md), [Annonce multimédia Microsoft Advertising](ad-settings-microsoft-multimedia.md), [Annonce produit Microsoft Advertising Microsoft Advertising responsive (audience)](ad-settings-microsoft-responsive.md), [Annonce responsive Microsoft Advertising](ad-settings-microsoft-rsa.md) ou ](ad-settings-microsoft-product.md)Annonce textuelle Yandex[ ](ad-settings-yandex-text.md).[
+1. À l’étape **[!UICONTROL Ad Details]**, modifiez les paramètres [Annonce textuelle Baidu](ad-settings-baidu-text.md), [Annonce de recherche dynamique étendue Google Ads](ad-settings-google-dsa.md) (désormais appelée uniquement « annonce de recherche dynamique » dans Google Ads), [Annonce responsive Google Ads](ad-settings-google-rsa.md), [Annonce de recherche dynamique étendue Microsoft Advertising](ad-settings-microsoft-dsa.md), [Annonce multimédia Microsoft Advertising](ad-settings-microsoft-multimedia.md), [Annonce produit Microsoft Advertising Microsoft Advertising responsive (audience)](ad-settings-microsoft-responsive.md), [Annonce responsive Microsoft Advertising](ad-settings-microsoft-rsa.md) ou [&#128279;](ad-settings-microsoft-product.md)Annonce textuelle Yandex[&#x200B; &#x200B;](ad-settings-yandex-text.md).
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
@@ -193,7 +197,7 @@ Générez un rapport qui inclut les lignes de données pour une ou plusieurs pub
 
 Vous pouvez supprimer n’importe quel rapport généré.
 
-Consultez également les sections « [ (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) et « [ (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads] »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+Consultez également les sections « [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) et « [&#x200B; (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads] »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 
 ### Générer un rapport avec les lignes de données filtrées
 
@@ -205,7 +209,7 @@ Consultez également les sections « [ (interface utilisateur héritée) Téléc
 
    * Pour télécharger des données pour toutes les publicités, il n’est pas nécessaire de cocher des cases. Toutes les publicités sont incluses par défaut.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans les paramètres de [!UICONTROL Grid Reports], saisissez un nom de rapport unique, puis cliquez sur **[!UICONTROL Generate]**.
 
@@ -221,7 +225,7 @@ Consultez également les sections « [ (interface utilisateur héritée) Téléc
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") en regard du nom du fichier.
 
@@ -231,7 +235,7 @@ Consultez également les sections « [ (interface utilisateur héritée) Téléc
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete-new.png "Supprimer") en regard du nom du fichier.
 
