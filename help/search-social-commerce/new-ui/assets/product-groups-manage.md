@@ -10,7 +10,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
 workflow-type: tm+mt
 source-wordcount: 2337
 ht-degree: 0%
@@ -113,7 +113,7 @@ Avant de pouvoir créer des groupes de produits avec des attributs spécifiques,
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
-1. Si nécessaire, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit-new.png "Modifier") et modifiez les paramètres du groupe de produits [Google Ads](#google-ads-product-group-settings) ou [Microsoft Advertising](#microsoft-advertising-product-group-settings).
+1. Si nécessaire, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit-new.png "Modifier") **[!UICONTROL Edit]** et modifiez les paramètres du groupe de produits [Google Ads](#google-ads-product-group-settings) ou [Microsoft Advertising](#microsoft-advertising-product-group-settings).
 
 1. Cliquez sur **[!UICONTROL Create]**.
 

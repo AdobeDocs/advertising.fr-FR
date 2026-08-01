@@ -10,7 +10,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6b67f3e2759ddd80300c86df610b36684b7a07e2
+source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
 workflow-type: tm+mt
 source-wordcount: 2285
 ht-degree: 0%
@@ -72,7 +72,7 @@ Search, Social et Commerce extraient les données de performances toutes les heu
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
-1. Si nécessaire, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit-new.png "Modifier") et modifiez les paramètres de la campagne.
+1. Si nécessaire, cliquez sur le **[!UICONTROL Edit]** ![Modifier](/help/search-social-commerce/assets/edit-new.png "Modifier") et modifiez les paramètres de la campagne.
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
@@ -108,7 +108,7 @@ Vous pouvez modifier les paramètres de campagnes individuelles. Vous pouvez ég
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
-1. Si nécessaire, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit-new.png "Modifier") et modifiez les paramètres de la campagne.
+1. Si nécessaire, cliquez sur le **[!UICONTROL Edit]** ![Modifier](/help/search-social-commerce/assets/edit-new.png "Modifier") et modifiez les paramètres de la campagne.
 
 1. Cliquez sur **[!UICONTROL Update]**.
 
