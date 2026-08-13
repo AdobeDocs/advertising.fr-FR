@@ -55,4 +55,4 @@ ht-degree: 1%
   + [Mesures et dimensions Adobe Advertising dans Customer Journey Analytics](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
   + [Dépannage](/help/integrations/customer-journey-analytics/troubleshooting.md)
   + {hide-from-toc}[Dépannage](/help/integrations/customer-journey-analytics/troubleshooting-new.md)
-+ [Tutoriels vidéo sur les intégrations d’Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)
++ [Tutoriels vidéo sur les intégrations d’Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=fr)
