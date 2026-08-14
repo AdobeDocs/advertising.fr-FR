@@ -4,9 +4,9 @@ user-guide-description: Découvrez les intégrations d’Advertising DSP et d’
 breadcrumb-title: Intégrations avec CX Enterprise
 role: User, Developer
 index: true
-source-git-commit: 47ee85790ddbabbd9f7a51db98bcfa7b120648ce
+source-git-commit: de60dcf0a1f0e5d751fb4e85a6e64bca22fadc8b
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
@@ -55,4 +55,6 @@ ht-degree: 1%
   + [Mesures et dimensions Adobe Advertising dans Customer Journey Analytics](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
   + [Dépannage](/help/integrations/customer-journey-analytics/troubleshooting.md)
   + {hide-from-toc}[Dépannage](/help/integrations/customer-journey-analytics/troubleshooting-new.md)
-+ [Tutoriels vidéo sur les intégrations d’Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=fr)
+  + {hide-from-toc}[Dépannage](/help/integrations/customer-journey-analytics/troubleshooting-new-accordian.md)
+  + {hide-from-toc}[Dépannage](/help/integrations/customer-journey-analytics/troubleshooting-new-tables.md)
++ [Tutoriels vidéo sur les intégrations d’Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)
