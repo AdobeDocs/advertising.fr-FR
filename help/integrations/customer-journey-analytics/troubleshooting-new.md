@@ -60,7 +60,7 @@ Symptômes :
 
 | Cause | Correctif |
 | ----- | --- |
-| Bibliothèque non publiée ou à l’état de brouillon | Accédez à [Flux de publication](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) et assurez-vous que la bibliothèque contenant l’extension WebSDK est à l’état approuvé/publié. |
+| Bibliothèque non publiée ou à l’état de brouillon | Accédez à [Flux de publication](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/publishing-flow) et assurez-vous que la bibliothèque contenant l’extension WebSDK est à l’état approuvé/publié. |
 | Environnement manquant ou incorrect du code incorporé | Vérifiez que le code incorporé [!DNL Tags] sur la page web référence l’environnement approprié (Dev/Stage/Prod). Recherchez l’environnement dans la balise `<head>` pour la balise de script `//assets.adobedtm.com/...`. |
 | Conflit de charge asynchrone et synchrone | Assurez-vous qu’un seul code incorporé [!DNL Tags] est présent par page web. Les codes incorporés en double entraînent des conditions de concurrence. |
 | Blocage de la politique de sécurité du contenu (CSP) | Ajoutez `edge.adobedc.net` `and assets.adobedtm.com` à vos `connect-src` CSP et directives `script-src`. |
@@ -75,8 +75,8 @@ Symptômes :
 
 | Cause | Correctif |
 | ----- | --- |
-| L’identifiant du flux de données de la propriété de balise est manquant ou incorrect. | <ol><li>Dans [!DNL Tags], ouvrez les [paramètres de configuration du flux de données](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams) de votre propriété de balise.</li><li>Vérifiez que le champ [!UICONTROL Datastream] pointe vers le flux de données correct pour chaque environnement (développement, évaluation et production), ainsi que vers le schéma et le jeu de données corrects.<br><br>Chaque environnement doit avoir son propre flux de données, sauf si vous partagez explicitement un flux de données entre les trois environnements.</li></ol> |
-| Les services de flux de données ne sont pas activés pour la propriété de balise. | [Ouvrez les paramètres du flux de données](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) et assurez-vous que les services suivants sont activés :<ul><li>Adobe Advertising (pour la conversion/synchronisation de l’audience)</li><li>Adobe Experience Platform (pour l’ingestion de profils)</li></ul> |
+| L’identifiant du flux de données de la propriété de balise est manquant ou incorrect. | <ol><li>Dans [!DNL Tags], ouvrez les [paramètres de configuration du flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams) de votre propriété de balise.</li><li>Vérifiez que le champ [!UICONTROL Datastream] pointe vers le flux de données correct pour chaque environnement (développement, évaluation et production), ainsi que vers le schéma et le jeu de données corrects.<br><br>Chaque environnement doit avoir son propre flux de données, sauf si vous partagez explicitement un flux de données entre les trois environnements.</li></ol> |
+| Les services de flux de données ne sont pas activés pour la propriété de balise. | [Ouvrez les paramètres du flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure) et assurez-vous que les services suivants sont activés :<ul><li>Adobe Advertising (pour la conversion/synchronisation de l’audience)</li><li>Adobe Experience Platform (pour l’ingestion de profils)</li></ul> |
 | Incompatibilité de sandbox | Assurez-vous que le flux de données appartient au même sandbox Adobe Experience Platform que votre schéma et votre jeu de données. Une erreur courante est de créer un flux de données dans le sandbox de production, mais de pointer les schémas vers le sandbox de développement. |
 
 ### Problèmes d’identité et d’ECID {#identity-and-ecid-issues}
@@ -194,7 +194,7 @@ Symptômes :
 
   1. Ouvrez la page web avec des `ef_id=test&s_kwcid=test` ajoutées à l’URL.
   1. Ouvrez l’outil d’inspection du code de votre navigateur (souvent appelé [!DNL Inspect]), ouvrez l’onglet [!DNL Network] et recherchez un appel d’interaction pour event_type=« advertising.enrichment_ct » de Adobe Experience Platform.
-  1. Dans l’interface de collecte de données, [ouvrez la définition du schéma](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas) pour les données du site web que vous souhaitez collecter et confirmez que `xdm->_experience->adcloud->conversionDetails->trackingCode` et `trackingIdentities` contiennent des `ef_id` et des `s_kwcid`.
+  1. Dans l’interface de collecte de données, [ouvrez la définition du schéma](https://experienceleague.adobe.com/fr/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas) pour les données du site web que vous souhaitez collecter et confirmez que `xdm->_experience->adcloud->conversionDetails->trackingCode` et `trackingIdentities` contiennent des `ef_id` et des `s_kwcid`.
 
 * `_experience.adcloud` est absent de la payload du modèle de données d’expérience (XDM) pour les clics publicitaires.
 
@@ -202,8 +202,8 @@ Symptômes :
 
 | Cause | Correctif |
 | ----- | --- |
-| Le service `Adobe Advertising` n’est pas activé pour le flux de données | <ol><li>Dans [!DNL Tags], ouvrez les [paramètres de configuration du flux de données](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams) de votre propriété de balise.</li><li>Activez les services suivants et enregistrez les paramètres :<ul><li>Adobe Advertising (pour la conversion/synchronisation de l’audience)</li><li>Adobe Experience Platform (pour l’ingestion de profils)</li></ul></ol> |
-| Le composant `Adobe Advertising` n’est pas activé pour l’extension [!UICONTROL WebSDK] | Le composant `Adobe Advertising` de l’extension WebSDK est désactivé par défaut et doit être explicitement activé avant que le suivi des clics publicitaires ou des affichages publicitaires Adobe Advertising ne soit fonctionnel, quelle que soit la configuration du schéma ou des règles XDM.<ol><li>Dans [!DNL Tags], ouvrez les [options de build de la propriété dans les paramètres de configuration de Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components).</li><li>Activez le composant **&#x200B;**&#x200B;et enregistrez les paramètres.</li><li>Recréez et republiez la bibliothèque.</li></ol> |
+| Le service `Adobe Advertising` n’est pas activé pour le flux de données | <ol><li>Dans [!DNL Tags], ouvrez les [paramètres de configuration du flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams) de votre propriété de balise.</li><li>Activez les services suivants et enregistrez les paramètres :<ul><li>Adobe Advertising (pour la conversion/synchronisation de l’audience)</li><li>Adobe Experience Platform (pour l’ingestion de profils)</li></ul></ol> |
+| Le composant `Adobe Advertising` n’est pas activé pour l’extension [!UICONTROL WebSDK] | Le composant `Adobe Advertising` de l’extension WebSDK est désactivé par défaut et doit être explicitement activé avant que le suivi des clics publicitaires ou des affichages publicitaires Adobe Advertising ne soit fonctionnel, quelle que soit la configuration du schéma ou des règles XDM.<ol><li>Dans [!DNL Tags], ouvrez les [options de build de la propriété dans les paramètres de configuration de Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components).</li><li>Activez le composant **&#x200B;**&#x200B;et enregistrez les paramètres.</li><li>Recréez et republiez la bibliothèque.</li></ol> |
 | Seules les conversions par clic publicitaire sont enregistrées ; les conversions par affichage publicitaire n’apparaissent jamais | Il s’agit du comportement par défaut attendu. Une fois le composant `Adobe Advertising` activé, le suivi des clics publicitaires est automatiquement activé à l’aide des paramètres de requête d’URL `s_kwcid` et `ef_id`. Le suivi des vues publicitaires est désactivé par défaut et nécessite une configuration supplémentaire (voir la ligne suivante). |
 | Le suivi des affichages publicitaires n’est ni activé ni configuré | <ol><li>Activer le service Adobe Advertising pour le flux de données</li><ol><li>Accédez à [!UICONTROL Data Collection] > [!UICONTROL Datastreams] dans Adobe Experience Platform et ouvrez le flux de données utilisé par votre propriété [!DNL Tags].</li><li>Sélectionnez **Ajouter un service**, **Adobe Advertising** et **Adobe Experience Platform**, puis sélectionnez **Enregistrer**.</li></ol><li>Configuration des annonceurs dans Adobe Advertising DSP</li><ol><li>Dans [!DNL Tags], accédez à [!UICONTROL Extensions] > [!UICONTROL Installed] > **Adobe Experience Platform Web SDK** > [!UICONTROL Configure].</li><li>Dans la section [!UICONTROL Advertiser] , sélectionnez un annonceur dans la liste déroulante et activez-le. Pour configurer plusieurs annonceurs, sélectionnez **Ajouter un annonceur**.</li></ol><li>Vérifiez que les pixels de conversion de visionneuse se déclenchent</li><ol><li>Dans AEP Debugger, vérifiez que l’appel d’interaction inclut `stitchId` sous le champ `xdm.query` .</li><li>Vérifiez dans l’onglet de [!UICONTROL Network] du navigateur qu’un événement de type `advertising.enrichment` est déclenché et inclut des `stitchId` sous `xdm.query`.</li></ol></ol> Les conversions d’affichage publicitaire ne se déclenchent que toutes les 30 minutes, quel que soit le nombre de visites. Si aucun appel d’interaction ne s’affiche, effacez la mémoire cache du navigateur et réessayez. |
 | (Si aucun événement de visionnage publicitaire dans Experience Platform après le déclenchement de l’appel d’interaction Viewthrough) L’annonceur a été saisi manuellement au lieu d’être sélectionné dans la liste déroulante | Sélectionnez à nouveau l’annonceur dans la liste déroulante [!UICONTROL Advertiser] au lieu de le saisir manuellement. |
@@ -234,7 +234,7 @@ Vérifiez les points suivants :
 
 * Vos dimensions Adobe Advertising et mesures récapitulatives sont incluses dans votre vue de données Customer Journey Analytics.
 
-Si vous vérifiez tous les paramètres ci-dessus mais que vous ne voyez toujours pas de données récapitulatives, ouvrez un ticket d’assistance pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?support-tab=home#support).
+Si vous vérifiez tous les paramètres ci-dessus mais que vous ne voyez toujours pas de données récapitulatives, ouvrez un ticket d’assistance pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support).
 
 +++
 
@@ -246,7 +246,7 @@ Vérifiez les points suivants :
 
 * Le paramètre « [!UICONTROL Backfill all existing data] » est activé pour vos trois jeux de données (dimension/classification/recherche, résumé et mesures d’événement) dans votre connexion Customer Journey Analytics.
 
-Si vous vérifiez toutes les conditions ci-dessus mais que vous ne voyez toujours pas de données récapitulatives, ouvrez un ticket d’assistance pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?support-tab=home#support).
+Si vous vérifiez toutes les conditions ci-dessus mais que vous ne voyez toujours pas de données récapitulatives, ouvrez un ticket d’assistance pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support).
 
 +++
 
@@ -254,7 +254,7 @@ Si vous vérifiez toutes les conditions ci-dessus mais que vous ne voyez toujour
 
 Vérifiez que le flux d’Adobe Advertising vers Customer Journey Analytics est activé pour le compte réseau publicitaire spécifique. Vérifiez auprès de l’équipe chargée de votre compte Adobe.
 
-Si le flux est activé pour un compte, mais que vous ne voyez toujours pas de données récapitulatives, ouvrez un ticket d’assistance pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?support-tab=home#support). Incluez le [!UICONTROL Account ID] du compte réseau publicitaire.
+Si le flux est activé pour un compte, mais que vous ne voyez toujours pas de données récapitulatives, ouvrez un ticket d’assistance pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support). Incluez le [!UICONTROL Account ID] du compte réseau publicitaire.
 
 +++
 
@@ -270,7 +270,7 @@ Vérifiez les points suivants :
 
 * Le paramètre « [!UICONTROL Backfill all existing data] » est activé pour vos trois jeux de données (dimension/classification/recherche, résumé et mesures d’événement) dans votre connexion Customer Journey Analytics.
 
-Si vous êtes sûr d’une incohérence des données, ouvrez un ticket d’assistance pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?support-tab=home#support). Incluez le [!UICONTROL Account ID] du compte réseau publicitaire. Pour montrer la preuve de l’incohérence, incluez des captures d’écran et des feuilles de calcul. Votre équipe de compte Adobe peut corriger rétroactivement le flux de données pour résoudre l’incohérence, si nécessaire.
+Si vous êtes sûr d’une incohérence des données, ouvrez un ticket d’assistance pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support). Incluez le [!UICONTROL Account ID] du compte réseau publicitaire. Pour montrer la preuve de l’incohérence, incluez des captures d’écran et des feuilles de calcul. Votre équipe de compte Adobe peut corriger rétroactivement le flux de données pour résoudre l’incohérence, si nécessaire.
 
 +++
 
@@ -292,7 +292,7 @@ Vérifiez les points suivants, en commençant par les éléments présentant le 
 
 * Les paramètres Adobe Advertising sont correctement configurés dans l’extension WebSDK et publiés.
 
-Si vous vérifiez tous les paramètres ci-dessus mais que vous ne voyez toujours pas les données de conversion, ouvrez un ticket d’assistance pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?support-tab=home#support). Incluez le [!UICONTROL Account ID] du compte réseau publicitaire.
+Si vous vérifiez tous les paramètres ci-dessus mais que vous ne voyez toujours pas les données de conversion, ouvrez un ticket d’assistance pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support). Incluez le [!UICONTROL Account ID] du compte réseau publicitaire.
 
 +++
 
