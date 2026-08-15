@@ -17,9 +17,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a4042ccc2ff85513d35eb56cd514b8bac6ebf65e
+source-git-commit: 8259705179c77085be82b416f62a093186b03745
 workflow-type: tm+mt
-source-wordcount: 1788
+source-wordcount: 1716
 ht-degree: 0%
 
 ---
@@ -65,11 +65,9 @@ Vous pouvez générer des rapports une fois ou les planifier de manière quotidi
 
   * **[!UICONTROL Device]:** utilisez ce modèle prérempli pour afficher les mesures clés par dimensions liées à l’appareil.
 
-  * **[Conversions auto-attribuées DSP ] :** utilisez ce rapport pour afficher la contribution d’Advertising DSP aux conversions, y compris les parcours clients dans lesquels DSP a joué un rôle, mais a été touché ultérieurement (par exemple, un clic de recherche Adobe Advertising) et a reçu du crédit en dernier clic dans d’autres rapports.
+  * **[!UICONTROL DSP Self-Attributed Conversions]:** utilisez ce rapport pour afficher la contribution d’Advertising DSP aux conversions, y compris les parcours clients dans lesquels DSP a joué un rôle, mais a été touché ultérieurement (par exemple, un clic de recherche Adobe Advertising, un crédit de dernier clic reçu dans d’autres rapports). Pour plus d’informations, voir « [FAQ sur les rapports personnalisés](/help/dsp/reports/faq-reports.md) ».
 
-    Les rapports standard attribuent le crédit du dernier clic avant une conversion. Lorsqu’un client ou une cliente voit une annonce DSP et clique ultérieurement sur une annonce de recherche avant la conversion, cette exposition à DSP n’apparaît souvent pas dans vos numéros de conversion. Ce rapport relie les conversions aux impressions et aux clics DSP qui les ont précédées afin que vous puissiez voir le rôle de DSP même s’il ne s’agissait pas de la dernière touche. Elle est particulièrement utile pour les annonceurs qui utilisent à la fois Advertising DSP et Advertising Search, Social et Commerce.
-
-    **Important :** ce rapport ne modifie pas les rapports Adobe Analytics d’attribution ni la méthodologie d’attribution existante. Il fournit une vue complémentaire spécifique à DSP de la contribution à la conversion.
+    **Important :** ce rapport ne modifie pas la méthodologie d’attribution existante ni l’attribution dans les rapports Adobe Analytics. Il fournit une vue complémentaire spécifique à DSP de la contribution à la conversion.
 
   * **[!UICONTROL Frequency (by Impression)]:** utilisez ce rapport pour comprendre la distribution des impressions affichées pour les visiteurs uniques (par exemple, le nombre de visiteurs uniques qui ont vu une impression, deux impressions, trois impressions, etc.). Les données sont disponibles par emplacement ou campagne.
 
@@ -88,9 +86,9 @@ Vous pouvez générer des rapports une fois ou les planifier de manière quotidi
 
   * **[!UICONTROL Geo]** : utilisez ce modèle prérempli pour afficher les mesures clés par dimensions géographiques.
 
-  * **[!UICONTROL Household Conversions]:** utilisez ce rapport pour afficher les conversions d’affichage publicitaire au niveau du foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil ou d’un cookie. Utilisez les informations pour mesurer et optimiser les performances des campagnes. Pour plus d’informations, voir « [FAQ sur les rapports des ménages](/help/dsp/reports/faq-reports.md) ». Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
+  * **[!UICONTROL Household Conversions]:** utilisez ce rapport pour afficher les conversions d’affichage publicitaire au niveau du foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil ou d’un cookie. Utilisez les informations pour mesurer et optimiser les performances des campagnes. Pour plus d’informations, voir « [FAQ sur les rapports personnalisés](/help/dsp/reports/faq-reports.md) ». Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
 
-  * **[!UICONTROL Household Reach & Frequency]:** utilisez ce rapport pour afficher les impressions, la portée et la fréquence pour une seule dimension dans les formats d’annonce publicitaire au niveau d’un foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil ou d’un cookie. Utilisez les informations pour optimiser votre mix média, améliorer les performances et identifier les opportunités de portée incrémentielle. Pour plus d’informations, voir « [FAQ sur les rapports des ménages](/help/dsp/reports/faq-reports.md) ». Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
+  * **[!UICONTROL Household Reach & Frequency]:** utilisez ce rapport pour afficher les impressions, la portée et la fréquence pour une seule dimension dans les formats d’annonce publicitaire au niveau d’un foyer en fonction de l’adresse IP, plutôt qu’au niveau d’un appareil ou d’un cookie. Utilisez les informations pour optimiser votre mix média, améliorer les performances et identifier les opportunités de portée incrémentielle. Pour plus d’informations, voir « [FAQ sur les rapports personnalisés](/help/dsp/reports/faq-reports.md) ». Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
 
   * **[!UICONTROL Margin]:** utilisez ce rapport pour afficher les mesures clés telles que la marge, le profit et d’autres mesures de dépenses par campagne ou par emplacement. Les données ne sont pas disponibles pour les emplacements qui ciblent des ID universels.
 
@@ -158,7 +156,7 @@ Vous pouvez créer des rapports personnalisés, modifier des rapports existants 
 >* [Créer un rapport personnalisé](/help/dsp/reports/report-create.md)
 >* [Télécharger un rapport personnalisé](/help/dsp/reports/report-download.md)
 >* [Paramètres de rapport personnalisés](/help/dsp/reports/report-settings.md)
->* [FAQ sur les rapports des ménages](/help/dsp/reports/faq-reports.md)
+>* [FAQ sur les rapports personnalisés](/help/dsp/reports/faq-reports.md)
 >* [Types de rapports de performances dans les vues de gestion de campagnes](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonnes de rapport disponibles](/help/dsp/reports/report-columns.md)
 >* [À propos des destinations de rapport](/help/dsp/reports/report-destinations/report-destination-about.md)

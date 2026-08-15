@@ -15,9 +15,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1377772b3d43be341d4c40497fa186ebfbc29bc9
+source-git-commit: c3ffa88d5df4fa2ff7e52813503c10b67d7c6eb7
 workflow-type: tm+mt
-source-wordcount: 3291
+source-wordcount: 3290
 ht-degree: 0%
 
 ---
@@ -183,18 +183,18 @@ Vérifiez les points suivants :
 | Cause | Correctif |
 | ----- | --- |
 | Le groupe de champs [!UICONTROL Advertising] est absent du schéma | <ol><li>Accédez à Adobe Experience Platform > [!UICONTROL Data Management] > [!UICONTROL Schemas].</li><li>Ouvrez le schéma utilisé par votre flux de données.</li><li>Dans le panneau [!UICONTROL Field Groups], confirmez que **Extension complète Adobe Advertising Cloud ExperienceEvent** est répertoriée.</li><li>S’il est manquant, sélectionnez **Ajouter**, recherchez **Adobe Advertising Cloud**, sélectionnez **Extension complète Adobe Advertising Cloud ExperienceEvent**, puis enregistrez les paramètres.</li></ol>La republication de votre bibliothèque [!DNL Tags] n’est pas nécessaire pour les seules modifications de schéma, mais vous devez remapper l’élément de données XDM dans [!DNL Tags] si de nouveaux champs ont été ajoutés. |
-| Les champs Adobe Advertising obligatoires sont absents du schéma | Assurez-vous que les champs Adobe Advertising obligatoires sont présents dans le schéma sous `_experience.adcloud.conversionDetails` (voir le tableau de référence des champs ci-dessous). <br><br>Si l’un des champs est manquant, vérifiez que le groupe de champs **Extension complète Adobe Advertising Cloud ExperienceEvent** a été enregistré dans le schéma, puis actualisez l’éditeur de schémas. |
-| L’URL de la page de destination n’inclut pas les paramètres de requête requis | Assurez-vous que l’URL de la page de destination contient les paramètres de requête nécessaires. Lors d’un clic publicitaire, l’URL de la page de destination doit contenir les deux paramètres de requête, par exemple `https://www.example.com/landing-page?s_kwcid=AL!12345!3!abc123&ef_id=abc123xyz:G:s` (voir le tableau de référence ci-dessous pour connaître les causes probables). |
+| Les champs Adobe Advertising obligatoires sont absents du schéma | Assurez-vous que les champs Adobe Advertising requis sont présents dans le schéma sous `_experience.adcloud.conversionDetails`. Voir « [Référence : champs de schéma obligatoires &#x200B;](#required-schema-fields) ». <br><br>Si l’un des champs est manquant, vérifiez que le groupe de champs **Extension complète Adobe Advertising Cloud ExperienceEvent** a été enregistré dans le schéma, puis actualisez l’éditeur de schémas. |
+| L’URL de la page de destination n’inclut pas les paramètres de requête requis | Assurez-vous que l’URL de la page de destination contient les paramètres de requête nécessaires. Lors d’un clic publicitaire, l’URL de la page de destination doit contenir les deux paramètres de requête, par exemple `https://www.example.com/landing-page?s_kwcid=AL!12345!3!abc123&ef_id=abc123xyz:G:s`. Consultez « [Référence : paramètres de requête manquants](#missing-query-parameters) » pour connaître les causes probables. |
 | Certains paramètres de la payload XDM sont manquants ou vides | Pour valider la payload XDM sortante, ouvrez l’onglet Adobe Experience Platform Debugger ou [!DNL Network] de l’outil d’inspection du code de votre navigateur, recherchez des `edge.adobedc.net` et inspectez le corps de la requête d’interaction (voir l’exemple de payload ci-dessous).<br><br>Si les `trackingCode` ou les `trackingIdentity` sont vides ou manquants : le paramètre de requête n’était pas présent sur la page lors du déclenchement de la règle (vérifiez l’URL et le minutage d’événement de la règle) ou le groupe de champs est absent du schéma (revenez sur la première ligne ci-dessus). |
 
-**Référence : champs de schéma obligatoires**
+##### Référence : champs de schéma obligatoires {#required-schema-fields}
 
 | Chemin du champ | Type | Description |
 | ----- | --- | --- |
 | `_experience.adcloud.conversionDetails.trackingCode` | String | Mappe la conversion sur l’annonce publicitaire d’origine. Renseigné à partir du paramètre de requête `s_kwcid` sur l’URL de la page de destination. |
 | `_experience.adcloud.conversionDetails.trackingIdentity` | String | Stocke l’identité unique et d’autres détails pour l’événement de conversion d’affichage publicitaire ou de clic publicitaire suivi. Renseigné à partir du paramètre de requête `ef_id` sur l’URL de la page de destination. |
 
-**Référence : paramètres de requête manquants**
+##### Référence : paramètres de requête manquants {#missing-query-parameters}
 
 | Paramètre manquant | Cause probable |
 | ----- | --- |

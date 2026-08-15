@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+source-git-commit: f796a4002b9136299c414b789cd2c34c8d6dc11c
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: 467
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Vous pouvez afficher l’impression, le clic, la fréquence et d’autres mesure
       Les paramètres source incluent une clé source générée automatiquement.
 
    1. Partagez la clé source avec votre équipe [!DNL AdFixus] afin qu’elle puisse diffuser les segments requis vers DSP.
+
+      Ils peuvent continuer à utiliser la même clé source pour toutes les données [!DNL AdFixus] à partager avec le compte ou l’annonceur.
 
 1. Vérifiez dans la section [!UICONTROL First Party Segments] de votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le segment est renseigné. Comparez le nombre d’identifiants de [!DNL AdFixus] au nombre d’identifiants d’utilisateur dans [!DNL AdFixus].
 
