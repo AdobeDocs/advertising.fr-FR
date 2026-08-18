@@ -1,9 +1,12 @@
 ---
 title: Métadonnées C2PA dans Creative Studio
 description: Découvrez comment les métadonnées C2PA sont automatiquement associées au contenu généré ou modifié avec l’IA générative dans Creative Studio.
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: d335c890ccc3ff8b2d391881660a71d10fcba53a
 workflow-type: tm+mt
 source-wordcount: 414
@@ -13,7 +16,7 @@ ht-degree: 2%
 
 # Métadonnées C2PA dans [!UICONTROL Creative Studio]
 
-[!UICONTROL Creative Studio] associe automatiquement les métadonnées C2PA au contenu généré ou modifié avec l’IA générative, de sorte que la provenance de votre contenu publicitaire soit enregistrée en tant que métadonnées invisibles et durables. Les métadonnées respectent les normes de la [ Coalition for Content Provenance and Authenticity ](https://c2pa.org/) (C2PA).
+[!UICONTROL Creative Studio] associe automatiquement les métadonnées C2PA au contenu généré ou modifié avec l’IA générative, de sorte que la provenance de votre contenu publicitaire soit enregistrée en tant que métadonnées invisibles et durables. Les métadonnées respectent les normes de la [&#x200B; Coalition for Content Provenance and Authenticity &#x200B;](https://c2pa.org/) (C2PA).
 
 ## Types de contenu et leur portée {#cc-content-types}
 
