@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
 workflow-type: tm+mt
-source-wordcount: 735
+source-wordcount: 738
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ La vue détaillée du portefeuille comprend les informations suivantes sur un po
 
 1. Cliquez sur le nom du portfolio.
 
-1. (Facultatif) Dans le menu **[!UICONTROL Granularity]** , modifiez la granularité des données entre *[!UICONTROL Daily],* *[!UICONTROL Weekly],* ou *[!UICONTROL Monthly].*
+1. (Facultatif) Dans le menu **[!UICONTROL Data Aggregation]**, modifiez l’unité de temps des données incluses dans chaque ligne : *[!UICONTROL Daily],* *[!UICONTROL Weekly],* ou *[!UICONTROL Monthly].*
 
 1. (Facultatif) Pour modifier la période des détails du portefeuille, cliquez sur la période en haut à droite, spécifiez la période, puis cliquez sur **[!UICONTROL Apply]**.
 
@@ -55,41 +55,41 @@ La vue détaillée du portefeuille comprend les informations suivantes sur un po
 
 * (Facultatif) Pour personnaliser les rapports [!UICONTROL Portfolio Performance], effectuez l’une des opérations suivantes :
 
-   * Pour modifier les mesures de performances utilisées pour les mesures totales et les mesures détaillées, cliquez sur **[!UICONTROL Metrics]** et sélectionnez jusqu’à trois mesures.
+  * Pour modifier les mesures de performances utilisées pour les mesures totales et les mesures détaillées, cliquez sur **[!UICONTROL Metrics]** et sélectionnez jusqu’à trois mesures.
 
-     Les mesures par défaut sont *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* et *[!UICONTROL Objective Value]*.<!-- What else is available: the advertiser's revenue metrics? Anything else from the ad networks? -->
+    Les mesures par défaut sont *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* et *[!UICONTROL Objective Value]*.<!-- What else is available: the advertiser's revenue metrics? Anything else from the ad networks? -->
 
-   * Pour les mesures détaillées :
+  * Pour les mesures détaillées :
 
-      * Déplacez le commutateur en regard de **[!UICONTROL Display predictions]** pour afficher ou masquer les valeurs de mesure prévues.
+    * Déplacez le commutateur en regard de **[!UICONTROL Display predictions]** pour afficher ou masquer les valeurs de mesure prévues.
 
-      * Basculez entre la vue graphique (![Vue graphique](/help/search-social-commerce/assets/chart-view.png "Vue graphique")) et la vue Tableau (![Vue Tableau](/help/search-social-commerce/assets/table-view.png "Vue Tableau")).
+    * Basculez entre la vue graphique (![Vue graphique](/help/search-social-commerce/assets/chart-view.png "Vue graphique")) et la vue Tableau (![Vue Tableau](/help/search-social-commerce/assets/table-view.png "Vue Tableau")).
 
-      * (Dans la vue graphique) Pour afficher les données d&#39;un point du graphique, placez le curseur sur ce point.
+    * (Dans la vue graphique) Pour afficher les données d&#39;un point du graphique, placez le curseur sur ce point.
 
 * (Facultatif) Pour personnaliser le graphique de tendance [!UICONTROL Model accuracy], effectuez l’une des opérations suivantes :
 
-   * Basculez entre la vue graphique (![Vue graphique](/help/search-social-commerce/assets/chart-view.png "Vue graphique")) et la vue Tableau (![Vue Tableau](/help/search-social-commerce/assets/table-view.png "Vue Tableau")).
+  * Basculez entre la vue graphique (![Vue graphique](/help/search-social-commerce/assets/chart-view.png "Vue graphique")) et la vue Tableau (![Vue Tableau](/help/search-social-commerce/assets/table-view.png "Vue Tableau")).
 
-   * Basculez entre l’affichage des données par *[!UICONTROL Click Date]* et *[!UICONTROL Transaction Date]*.
+  * Basculez entre l’affichage des données par *[!UICONTROL Click Date]* et *[!UICONTROL Transaction Date]*.
 
-   * Basculez entre l’affichage des données sur le *[!UICONTROL Daily Accuracy]* et l’*[!UICONTROL 7 Day Rolling Accuracy]*.
+  * Basculez entre l’affichage des données sur le *[!UICONTROL Daily Accuracy]* et l’*[!UICONTROL 7 Day Rolling Accuracy]*.
 
-     [!UICONTROL 7 Day Rolling Accuracy] est l’exactitude moyenne des prévisions pour les sept jours précédents, exprimée en pourcentage. Par exemple, la valeur pour 8 mai 2025 est la précision moyenne pour la période du 1er au 7 mai 2025.
+    [!UICONTROL 7 Day Rolling Accuracy] est l’exactitude moyenne des prévisions pour les sept jours précédents, exprimée en pourcentage. Par exemple, la valeur pour 8 mai 2025 est la précision moyenne pour la période du 1er au 7 mai 2025.
 
-   * (Dans la vue graphique) Pour afficher les données d&#39;un point du graphique, placez le curseur sur ce point.
+  * (Dans la vue graphique) Pour afficher les données d&#39;un point du graphique, placez le curseur sur ce point.
 
 * (Facultatif) Pour personnaliser le graphique de tendance [!UICONTROL Target vs actual spend], effectuez l’une des opérations suivantes :
 
-   * Déplacez le bouton en regard de **[!UICONTROL Display budget]** pour afficher ou masquer le budget total de la campagne pour chaque date.
+  * Déplacez le bouton en regard de **[!UICONTROL Display budget]** pour afficher ou masquer le budget total de la campagne pour chaque date.
 
-   * Pour afficher les données de n’importe quel point du graphique, placez le curseur au-dessus de ce point.
+  * Pour afficher les données de n’importe quel point du graphique, placez le curseur au-dessus de ce point.
 
 * (Facultatif) Pour personnaliser le graphique de tendance [!UICONTROL Network Accuracy], effectuez l’une des opérations suivantes :
 
-   * Remplacez la mesure signalée par *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* ou *[!UICONTROL Objective Value]*.
+  * Remplacez la mesure signalée par *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* ou *[!UICONTROL Objective Value]*.
 
-   * Pour afficher les données de n’importe quel point du graphique, placez le curseur au-dessus de ce point.
+  * Pour afficher les données de n’importe quel point du graphique, placez le curseur au-dessus de ce point.
 
 1. Cliquez sur **[!UICONTROL Download report]**.
 
@@ -111,7 +111,7 @@ La vue détaillée du portefeuille comprend les informations suivantes sur un po
 
 * Pour afficher ou masquer les paramètres du portfolio, cliquez sur **[!UICONTROL Portfolio Settings]**.
 
-   * Pour modifier les paramètres de portfolio visibles, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier") en regard de la section de paramètre et [modifier les paramètres de portfolio](portfolio-edit.md).
+  * Pour modifier les paramètres de portfolio visibles, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier") en regard de la section de paramètre et [modifier les paramètres de portfolio](portfolio-edit.md).
 
 Pour plus d’informations sur les paramètres du portfolio, consultez le Guide d’optimisation , disponible dans Search, Social et Commerce.
 
@@ -119,21 +119,21 @@ Pour plus d’informations sur les paramètres du portfolio, consultez le Guide 
 
 * Pour télécharger tous les rapports :
 
-   1. Dans la barre d’outils, cliquez sur **[!UICONTROL Download report]**.
+  1. Dans la barre d’outils, cliquez sur **[!UICONTROL Download report]**.
 
-   1. Cochez la case en regard de chaque rapport de performances et de chaque type de composant de portefeuille à inclure.
+  1. Cochez la case en regard de chaque rapport de performances et de chaque type de composant de portefeuille à inclure.
 
-      Pour certains rapports de performances, vous pouvez choisir de télécharger les données sous la forme d’un graphique ou d’un tableau.
+     Pour certains rapports de performances, vous pouvez choisir de télécharger les données sous la forme d’un graphique ou d’un tableau.
 
-   1. Cliquez sur **[!UICONTROL Download report]**.
+  1. Cliquez sur **[!UICONTROL Download report]**.
 
 * Pour télécharger un rapport [!DNL model accuracy] avec des types de données spécifiques :
 
-   1. Dans la barre d’outils du rapport, cliquez sur **[!UICONTROL Download report]**.
+  1. Dans la barre d’outils du rapport, cliquez sur **[!UICONTROL Download report]**.
 
-   1. Cochez la case en regard de chaque type de données à inclure et comment ventiler les données (par unité d’enchère et/ou par volume de clics).
+  1. Cochez la case en regard de chaque type de données à inclure et comment ventiler les données (par unité d’enchère et/ou par volume de clics).
 
-   1. Cliquez sur **[!UICONTROL Download report]**.
+  1. Cliquez sur **[!UICONTROL Download report]**.
 
 >[!MORELIKETHIS]
 >

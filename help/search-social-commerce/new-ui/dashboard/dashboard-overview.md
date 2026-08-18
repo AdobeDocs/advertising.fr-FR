@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 0%
@@ -41,21 +41,21 @@ Votre [!UICONTROL Dashboard] comprend les rapports visuels suivants :
 
 * (Facultatif) Modifiez les portefeuilles applicables pour tous les rapports :
 
-   1. Cliquez sur les paramètres actuels en regard de **[!UICONTROL Select Portfolios]**.
+  1. Cliquez sur les paramètres actuels en regard de **[!UICONTROL Select Portfolios]**.
 
-   1. (Facultatif) En regard de **[!UICONTROL Select by]**, choisissez comment sélectionner les portefeuilles :
+  1. (Facultatif) En regard de **[!UICONTROL Select by]**, choisissez comment sélectionner les portefeuilles :
 
-      * *[!UICONTROL All Portfolios]* (valeur par défaut) : établit des rapports sur des portefeuilles spécifiés. Vous pouvez éventuellement filtrer la liste des portefeuilles en modifiant le **[!UICONTROL Currency]spécifié.** Par défaut, tous les portefeuilles utilisant USD sont sélectionnés.
+     * *[!UICONTROL All Portfolios]* (valeur par défaut) : établit des rapports sur des portefeuilles spécifiés. Vous pouvez éventuellement filtrer la liste des portefeuilles en modifiant le **[!UICONTROL Currency]spécifié.** Par défaut, tous les portfolios utilisant USD sont sélectionnés.
 
-      * *[!UICONTROL Portfolio Groups]:* Rapport sur des portefeuilles spécifiés dans un **[!UICONTROL Portfolio Group]spécifié.** Vous pouvez éventuellement filtrer la liste des portefeuilles en modifiant le **[!UICONTROL Currency]spécifié.** Par défaut, tous les portefeuilles utilisant USD dans le groupe de portefeuilles spécifié sont sélectionnés.
+     * *[!UICONTROL Portfolio Groups]:* Rapport sur des portefeuilles spécifiés dans un **[!UICONTROL Portfolio Group]spécifié.** Vous pouvez éventuellement filtrer la liste des portefeuilles en modifiant le **[!UICONTROL Currency]spécifié.** Par défaut, tous les portfolios utilisant USD dans le groupe de portfolios spécifié sont sélectionnés.
 
-      * *[!UICONTROL Objectives]:* Rapport sur des portefeuilles spécifiés avec un **[!UICONTROL Objective]spécifié.** . Vous pouvez éventuellement limiter la liste des portefeuilles en modifiant le **[!UICONTROL Currency]spécifié.** Par défaut, tous les portefeuilles utilisant USD avec l’objectif spécifié sont sélectionnés.
+     * *[!UICONTROL Objectives]:* Rapport sur des portefeuilles spécifiés avec un **[!UICONTROL Objective]spécifié.** . Vous pouvez éventuellement limiter la liste des portefeuilles en modifiant le **[!UICONTROL Currency]spécifié.** Par défaut, tous les portfolios utilisant USD avec l’objectif spécifié sont sélectionnés.
 
-   1. Cochez et décochez les cases en regard des portefeuilles selon vos besoins jusqu’à ce que la section [!UICONTROL Selected Portfolios] répertorie les portefeuilles sur lesquels vous souhaitez générer des rapports.
+  1. Cochez et décochez les cases en regard des portefeuilles selon vos besoins jusqu’à ce que la section [!UICONTROL Selected Portfolios] répertorie les portefeuilles sur lesquels vous souhaitez générer des rapports.
 
-   1. Cliquez sur **[!UICONTROL Select]**.
+  1. Cliquez sur **[!UICONTROL Select]**.
 
-* (Facultatif) Modifiez la granularité des données pour tous les rapports (*[!UICONTROL Daily]* \[la valeur par défaut\], *[!UICONTROL Weekly]* \[le cas échéant pour la période\] ou *[!UICONTROL Monthly]* \[le cas échéant pour la période\]) à partir du menu **[!UICONTROL Granularity]**.
+* (Facultatif) Modifiez l’agrégation des données pour tous les rapports (*[!UICONTROL Daily]* \[la valeur par défaut\], *[!UICONTROL Weekly]* \[le cas échéant pour la période\] ou *[!UICONTROL Monthly]* \[le cas échéant pour la période\]) à partir du menu **[!UICONTROL Data Aggregation]**.
 
 * (Facultatif) Modifiez la période de tous les rapports à partir du menu **[!UICONTROL Date range]**. Vous pouvez inclure les données des 90 derniers jours. La valeur par défaut est *[!UICONTROL Last 7 Days]*.
 
@@ -63,8 +63,8 @@ Votre [!UICONTROL Dashboard] comprend les rapports visuels suivants :
 
 * (Rapport [!UICONTROL Biggest Movers] ; facultatif) Effectuez l’une des opérations suivantes :
 
-   * Modifiez l’entité signalée. La seule option actuellement disponible est *[!UICONTROL Portfolio]*.
+  * Modifiez l’entité signalée. La seule option actuellement disponible est *[!UICONTROL Portfolio]*.
 
-   * Modifiez la mesure signalée ([!UICONTROL Cost] \[sélectionnée par défaut\], [!UICONTROL Clicks] ou [!UICONTROL Objective Value]).
+  * Modifiez la mesure signalée ([!UICONTROL Cost] \[sélectionnée par défaut\], [!UICONTROL Clicks] ou [!UICONTROL Objective Value]).
 
-   * Pour ouvrir la vue [!UICONTROL Portfolios], cliquez sur **[!UICONTROL View More]** en bas à droite du graphique. <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
+  * Pour ouvrir la vue [!UICONTROL Portfolios], cliquez sur **[!UICONTROL View More]** en bas à droite du graphique. <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
