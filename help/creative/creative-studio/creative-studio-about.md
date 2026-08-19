@@ -1,15 +1,12 @@
 ---
 title: À propos de Creative Studio dans Advertising Creative
 description: Découvrez comment utiliser Creative Studio pour créer du contenu publicitaire assisté par IA dans Adobe Advertising Creative.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 299275c1e8f37d75c46e825e584453bfe2cd4a95
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 408ddd6a3dde58fc3f600a842ef2c41c44f311fe
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: 814
 ht-degree: 0%
 
 ---
@@ -74,4 +71,4 @@ ht-degree: 0%
 >* [Gestion des modèles dans Creative Studio](creative-studio-manage-templates.md)
 >* [Gestion des ressources dans Creative Studio](creative-studio-manage-assets.md)
 >* [Gestion des profils de marque dans Advertising Creative](/help/creative/brands/brand-manage.md)
-
+>* Métadonnées [C2PA dans [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)
