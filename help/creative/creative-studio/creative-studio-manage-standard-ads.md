@@ -8,7 +8,7 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
 source-wordcount: 1181
 ht-degree: 0%
@@ -39,19 +39,19 @@ Au moins un modèle d’annonce publicitaire doit exister dans votre bibliothèq
 
    * **Dans l’onglet [!UICONTROL Creatives] :**
 
-      1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio]**.
+     1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio]**.
 
-      1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Generate]** dans la carte d’action rapide **[!UICONTROL Generate standard ads from templates]** .
+     1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Generate]** dans la carte d’action rapide **[!UICONTROL Generate standard ads from templates]** .
 
-      1. Dans la boîte de dialogue de sélection des modèles, cliquez sur un modèle pour le sélectionner, puis cliquez sur **[!UICONTROL Use this template]**.
+     1. Dans la boîte de dialogue de sélection des modèles, cliquez sur un modèle pour le sélectionner, puis cliquez sur **[!UICONTROL Use this template]**.
 
    * (Affichage des publicités uniquement) **À partir de l’onglet [!UICONTROL Templates] :**
 
-      1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio]**.
+     1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio]**.
 
-      1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
+     1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
 
-      1. Placez le curseur sur une carte de modèle, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Generate ad variations]**.
+     1. Placez le curseur sur une carte de modèle, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Generate ad variations]**.
 
    La [!UICONTROL Ad Variations Generator] s’ouvre. La zone de travail affiche la section **[!UICONTROL Template Sizes]** avec les formats d’annonce disponibles pour le modèle et une section **[!UICONTROL Ad Concepts]** dans laquelle le contenu généré s’affiche.
 
@@ -100,14 +100,14 @@ Au moins un modèle d’annonce publicitaire doit exister dans votre bibliothèq
 
    * Pour gérer un concept, placez le curseur sur le libellé du concept (par exemple, **[!UICONTROL Concept 3]**), cliquez sur **[!UICONTROL ...]**, puis sélectionnez une option :
 
-      * **[!UICONTROL Add to chat]:** fait référence au concept dans votre invite suivante.
-      * **[!UICONTROL Delete]:** Supprime le concept.
+     * **[!UICONTROL Add to chat]:** fait référence au concept dans votre invite suivante.
+     * **[!UICONTROL Delete]:** Supprime le concept.
 
    * Pour gérer une variation individuelle, placez le curseur sur la carte de variation, cliquez sur **[!UICONTROL ...]**, puis sélectionnez une option :
 
-      * **[!UICONTROL Add to Chat]:** fait référence à la variation dans votre invite suivante. Vous pouvez également cliquer directement sur le corps de la carte de variation pour activer/désactiver la mention.
-      * **[!UICONTROL Edit Data]:** ouvre une boîte de dialogue dans laquelle vous pouvez mettre à jour les **[!UICONTROL Name]** de variation et l’URL de clic publicitaire pour chaque balise de clic définie dans le modèle. Cliquez sur **[!UICONTROL Save]** pour appliquer.
-      * **[!UICONTROL Delete]:** supprime la variation.
+     * **[!UICONTROL Add to Chat]:** fait référence à la variation dans votre invite suivante. Vous pouvez également cliquer directement sur le corps de la carte de variation pour activer/désactiver la mention.
+     * **[!UICONTROL Edit Data]:** ouvre une boîte de dialogue dans laquelle vous pouvez mettre à jour les **[!UICONTROL Name]** de variation et l’URL de clic publicitaire pour chaque balise de clic définie dans le modèle. Cliquez sur **[!UICONTROL Save]** pour appliquer.
+     * **[!UICONTROL Delete]:** supprime la variation.
 
 1. Lorsque les concepts générés vous conviennent, cliquez sur **[!UICONTROL Save Standard Ads]** dans l’en-tête.
 
@@ -204,4 +204,3 @@ Dupliquez une annonce publicitaire standard pour ajouter un nouveau contenu cré
 >* [Gestion des contenus créatifs dynamiques dans Creative Studio](creative-studio-manage-dynamic-ads.md)
 >* [Gestion des modèles dans Creative Studio](creative-studio-manage-templates.md)
 >* [Gestion des profils de marque dans Advertising Creative](/help/creative/brands/brand-manage.md)
-
