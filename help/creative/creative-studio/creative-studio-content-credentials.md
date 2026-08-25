@@ -1,22 +1,19 @@
 ---
 title: Métadonnées C2PA dans Creative Studio
 description: Découvrez comment les métadonnées C2PA sont automatiquement associées au contenu généré ou modifié avec l’IA générative dans Creative Studio.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d335c890ccc3ff8b2d391881660a71d10fcba53a
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5c8c1895accc4fe504f581bb16ee7860a16458b2
 workflow-type: tm+mt
-source-wordcount: 414
+source-wordcount: 432
 ht-degree: 2%
 
 ---
 
 # Métadonnées C2PA dans [!UICONTROL Creative Studio]
 
-[!UICONTROL Creative Studio] associe automatiquement les métadonnées C2PA au contenu généré ou modifié avec l’IA générative, de sorte que la provenance de votre contenu publicitaire soit enregistrée en tant que métadonnées invisibles et durables. Les métadonnées respectent les normes de la [&#x200B; Coalition for Content Provenance and Authenticity &#x200B;](https://c2pa.org/) (C2PA).
+[!UICONTROL Creative Studio] associe automatiquement les métadonnées C2PA au contenu généré ou modifié avec l’IA générative, de sorte que la provenance de votre contenu publicitaire soit enregistrée en tant que métadonnées invisibles et durables. Les métadonnées respectent les normes de la [ Coalition for Content Provenance and Authenticity ](https://c2pa.org/) (C2PA).
 
 ## Types de contenu et leur portée {#cc-content-types}
 
@@ -59,6 +56,8 @@ Pour afficher l’historique complet des ressources d’une image, procédez com
 ![Exemple de métadonnées C2PA pour une image](/help/creative/assets/cs-content-credentials-example.png "Métadonnées C2PA pour une image")
 
 ## Ressources supplémentaires
+
+* [Transparence du contenu d’IA générative pour  [!DNL Adobe CX Enterprise]](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
 
 * [Directives d’utilisation relatives à l’IA [!DNL Adobe] générative](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
