@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
+source-git-commit: 1a49038dc4f679993eaf908ecbed291324075bc3
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 814
 ht-degree: 0%
 
 ---
@@ -95,13 +95,21 @@ La vue détaillée du portefeuille comprend les informations suivantes sur un po
 
 ## Répertorier les campagnes du portfolio
 
+Les détails de chaque campagne comprennent la stratégie d’enchères, le coût réel et prévu, les clics et la valeur de l’objectif, ainsi que la précision du coût, des clics et de la valeur de l’objectif.
+
 * Cliquez sur l’onglet **[!UICONTROL Campaigns]** .
 
 ## Répertorier les groupes publicitaires du portfolio
 
+Les détails de chaque groupe publicitaire incluent le coût, les clics et la valeur de l’objectif.
+
+* Pour afficher tous les groupes publicitaires du portfolio, cliquez sur l’onglet **[!UICONTROL Ad Groups]** .
+
 * Pour afficher tous les groupes publicitaires d’une campagne au sein du portfolio, cliquez sur l’onglet **[!UICONTROL Campaigns]** , puis sur le nom de la campagne.
 
 ## Répertorier les mots-clés du portfolio
+
+Les détails de chaque mot-clé incluent l’ID d’unité d’offre, le type de correspondance, le coût réel et prévu, les clics et la valeur d’objectif, ainsi que la différence entre le coût, le clic et la valeur d’objectif.
 
 * Pour afficher tous les mots-clés du portfolio, cliquez sur l’onglet **[!UICONTROL Keywords]** .
 
