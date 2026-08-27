@@ -3,9 +3,9 @@ title: (Nouvelle interface utilisateur) Activer le chargement des objectifs sur 
 description: Découvrez comment télécharger des objectifs pour vos portfolios hybrides vers Google Ads et Microsoft Advertising.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 4342b75f27a412803b0f96192e96cba9ebfbc347
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 *Les annonceurs activés pour l’optimisation hybride uniquement*
 
-Search, Social et Commerce peuvent charger les objectifs des portefeuilles d’un compte publicitaire vers [!DNL Google Ads] et [!DNL Microsoft Advertising] afin que vous puissiez les utiliser dans le cadre d’une optimisation hybride. Vos objectifs chargés sont disponibles sous forme d’actions de conversion pour les objectifs de conversion personnalisés au niveau du compte et de la campagne. Vous pouvez choisir de ne pas envoyer de données de valeur d’objectif pour un portfolio spécifique aux réseaux publicitaires à partir de l’onglet [!UICONTROL Manage Objectives] dans les paramètres du portfolio.
+Search, Social et Commerce peuvent charger les objectifs des portefeuilles d’un compte publicitaire vers [!DNL Google Ads] et [!DNL Microsoft Advertising] afin que vous puissiez les utiliser dans le cadre d’une optimisation hybride. Vos objectifs chargés sont disponibles sous forme d’actions de conversion pour les objectifs de conversion personnalisés au niveau du compte et de la campagne.<!-- You can opt not to send objective value data for a specific portfolio to ad networks from the [!UICONTROL Manage Objectives] tab in the portfolio settings. -->
 
 L’activation de cette option déclenche automatiquement un chargement pour les objectifs des portefeuilles contenant des campagnes avec des stratégies d’enchères intelligentes. Search, Social et Commerce génèrent une conversion sur le réseau publicitaire pour chaque objectif applicable. La conversion représente toutes les mesures de conversion pondérées de l’objectif au niveau de l’identifiant EF (identifiant de clic). Pour les clics [!DNL Google Ads], l’ID EF est le `gclid` [!DNL Google Ads] ; pour les clics [!DNL Microsoft Advertising], l’ID EF est le `msclkid` [!DNL Microsoft Advertising]. Grâce à cet identifiant de clic, les données de conversion peuvent être mappées au mot-clé spécifique et au temps de clic.
 

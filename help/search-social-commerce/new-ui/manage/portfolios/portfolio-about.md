@@ -14,9 +14,9 @@ topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: 729
+source-wordcount: 779
 ht-degree: 0%
 
 ---
@@ -66,9 +66,10 @@ Un portefeuille peut avoir les statuts suivants :
 
 La vue [!UICONTROL Portfolios] répertorie tous les portfolios existants dans la vue filtrée, avec des données de performances personnalisables. Vous pouvez [personnaliser les colonnes de la vue](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) et filtrer les données pour inclure des portfolios spécifiques [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou de l’en-tête de colonne [&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
-Au-dessus du tableau de données, vous pouvez ouvrir un graphique de performances avec jusqu’à trois mesures totalisées pour tous les portefeuilles dans la vue pour la période spécifiée.
+Au-dessus du tableau de données, vous pouvez ouvrir un graphique de performances avec jusqu’à trois mesures totalisées pour tous les portefeuilles dans la vue pour la période spécifiée. Vous pouvez également ouvrir les détails du portfolio, notamment ses performances et sa précision, ainsi que les données de performances de chaque campagne, groupe publicitaire et mot-clé qu’il contient.
 
-<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group, edit the Target column, or import/export DOW targets. -->
+Vous pouvez modifier certains paramètres, notamment le statut du portfolio, directement dans la ligne du portfolio.
+<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
 
 ### Actions disponibles
 
