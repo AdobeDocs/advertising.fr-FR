@@ -4,19 +4,12 @@ description: Découvrez les réponses aux questions courantes sur les rapports d
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
 TQID: https://experienceleague.adobe.com/2pGYTNuu54grOLUSyVpfQVttGWG8OMPCUrzAYmyIv0k
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 3922
+source-wordcount: 3975
 ht-degree: 0%
 
 ---
@@ -133,12 +126,12 @@ Vous trouverez ci-dessous les raisons courantes du manque de données de clics.
 
 | Cause | Détection/Analyse | Résolution |
 |---|---|---|
-| Échec du processus de récupération des données de clic du compte publicitaire. | Il n’existe aucun moyen systématique de détecter ce problème, mais vous remarquerez peut-être qu’une campagne n’affiche aucune information sur les coûts ou les clics, même si le compte publicitaire a dépensé de l’argent. | Contactez votre équipe de compte Adobe.<br><br>Si les données sont manquantes depuis plus de 24 heures, excluez ces dates des prévisions de coûts jusqu’à ce que les données soient récupérées. Votre équipe de compte Adobe peut exclure les dates. |
+| Échec du processus de récupération des données de clic du compte publicitaire. | Il n’existe aucun moyen systématique de détecter ce problème, mais vous remarquerez peut-être qu’une campagne n’affiche aucune information sur les coûts ou les clics, même si le compte publicitaire a dépensé de l’argent. | Contactez l’équipe chargée de votre compte Adobe. <br><br>Si les données sont manquantes depuis plus de 24 heures, excluez ces dates des prévisions de coûts jusqu’à ce que les données soient récupérées. Votre équipe de compte Adobe peut exclure les dates. |
 | Un problème de facturation entre l’annonceur et le réseau publicitaire empêche le compte publicitaire de dépenser. | Il n’existe aucun moyen systématique de détecter ce problème, mais vous remarquerez peut-être qu’une campagne n’affiche aucune information sur les coûts ou les clics. | Si vous savez qu’un compte publicitaire n’a pas pu dépenser en raison d’un problème de facturation, excluez ces dates des prévisions de coûts. Votre équipe de compte Adobe peut exclure les dates. |
 
 +++
 
-+++Les données de performances sont différentes de celles de l’éditeur de réseau publicitaire.
++++Les données de performances sont différentes de celles de l’éditeur du réseau publicitaire.
 Lorsque le réseau publicitaire envoie des mises à jour aux données précédentes (souvent parce qu’il a attribué la fraude aux clics à certains clics), Search, Social et Commerce ne mettent pas à jour les données à moins qu’il n’y ait plus de 5 % d’incohérence et que l’équipe du compte Adobe ne dépose une demande.
 
 En outre, lorsque vous comparez les données de partage d’impression agrégées sur une période, les données que les rapports Search, Social et Commerce peuvent différer des données rapportées par le réseau publicitaire. Cette différence est due à la manière dont les données sont rapportées par l’API du réseau publicitaire, que Search, Social et Commerce utilisent pour extraire les données. Par exemple, pour les données [!DNL Google Ads] :
@@ -149,7 +142,7 @@ En outre, lorsque vous comparez les données de partage d’impression agrégée
 +++
 
 +++Les données de performances des rapports sont différentes de celles des [!DNL Google Analytics].
-Les deux systèmes mesurent des données différentes. Vous devez donc vous attendre à voir des données différentes. Par exemple :
+Les deux systèmes mesurent des données différentes. Vous devez donc vous attendre à voir des données différentes. Par exemple :
 
 * Les publicités Search, Social et Commerce (et Google Ads) effectuent le suivi des clics, tandis que la [!DNL Google Analytics] effectue le suivi des visites par session de navigateur de 30 minutes. Par exemple, si un utilisateur clique sur votre publicité une fois, clique sur le bouton Précédent, puis clique de nouveau sur la publicité, Search, Social et Commerce enregistre deux clics mais enregistre [!DNL Google Analytics] une seule visite.
 
@@ -305,7 +298,7 @@ Consultez les causes possibles et les solutions pour les implémentations de pix
 +++
 
 +++Les données de chiffre d’affaires sont différentes des données d’Adobe Analytics
-Voir [&#128279;](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=fr).<!-- change link URL to relative link -->
+Voir [](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
 +++
 
 ## Rapports spécifiques
@@ -349,7 +342,7 @@ Pour résoudre ce problème, mettez à jour le flux de la feuille de calcul pour
 +++
 
 +++Lorsque j’essaie d’ouvrir un flux de feuille de calcul dans [!DNL Excel], [!DNL Excel] signale une erreur de « contenu illisible » et les données sont supprimées du contenu récupéré.
-Lorsque le modèle de [!DNL Microsoft Excel] ne trie pas les données par date de début dans l’ordre croissant, le flux de la feuille de calcul peut inclure des lignes vides. En particulier, [!DNL Excel] signale l’erreur « Excel a trouvé du contenu illisible dans « *nom du rapport*>.xlsx ». Voulez-vous récupérer le contenu du classeur ? Si la source de ce classeur est fiable, cliquez sur Oui. » Si vous cliquez sur « Oui », le message suivant s’affiche : « Enregistrements supprimés : informations de cellule de la partie /xl/worksheets/sheet1.xml » et le flux de la feuille de calcul inclut des lignes vides.
+Lorsque le modèle de [!DNL Microsoft Excel] ne trie pas les données par date de début dans l’ordre croissant, le flux de la feuille de calcul peut inclure des lignes vides. En particulier, [!DNL Excel] signale l’erreur « Excel a trouvé du contenu illisible dans « &lt;*nom du rapport*>.xlsx ». Voulez-vous récupérer le contenu du classeur ? Si la source de ce classeur est fiable, cliquez sur Oui. » Si vous cliquez sur « Oui », le message suivant s’affiche : « Enregistrements supprimés : informations de cellule de la partie /xl/worksheets/sheet1.xml » et le flux de la feuille de calcul inclut des lignes vides.
 
 Pour résoudre ce problème, modifiez le modèle de [!DNL Excel] associé au flux afin de trier les données par [!DNL Start date in Ascending (Oldest to Newest) order], puis chargez le modèle mis à jour via les paramètres de flux de la feuille de calcul. Pour plus d&#39;informations, voir « [Modifier les flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md) ».
 +++
