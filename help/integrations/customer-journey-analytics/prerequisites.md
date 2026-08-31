@@ -16,9 +16,9 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 3a493b159d0cb6a1216f6d795e33a2173cfd9e1b
+source-git-commit: d2b474e24ef2dbf951ea40c42497f6d6d37993ee
 workflow-type: tm+mt
-source-wordcount: 283
+source-wordcount: 321
 ht-degree: 0%
 
 ---
@@ -27,8 +27,11 @@ ht-degree: 0%
 
 *Annonceurs avec Advertising DSP et[!DNL Advertising Search, Social, & Commerce]*
 
+* (Annonceurs avec Customer Journey Analytics, mais pas [!DNL Analytics for Advertising]) :
 
-* (Annonceurs avec Customer Journey Analytics, mais pas [!DNL Analytics for Advertising]) [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) version 2.36 ou ultérieure.
+  * [&#x200B; [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) version 2.36 ou ultérieure.
+
+  * [Balises &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/home), y compris l’extension [[!DNL Web SDK] &#x200B;](https://experienceleague.adobe.com/fr/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension) version 2.37 ou ultérieure.
 
 * Adobe Customer Journey Analytics avec accès aux outils de gestion des données
 

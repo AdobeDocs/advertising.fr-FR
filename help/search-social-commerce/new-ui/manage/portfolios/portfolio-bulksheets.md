@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 433
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Une feuille groupée de portfolio est un fichier qui contient les paramètres de
 * Feuille de calcul [!UICONTROL Instructions] en lecture seule contenant des informations sur la modification des champs.
 
 * Un onglet [!UICONTROL Portfolio Settings Edit], avec une ligne par portefeuille inclus. Vous avez la possibilité de modifier les champs selon vos besoins, d’enregistrer le fichier localement, puis de [télécharger le fichier modifié](#portfolio-bulksheet-upload) vers Search, Social et Commerce. Les champs modifiables sont mis en surbrillance en couleur.
+
+Cette fonctionnalité est disponible pour les portefeuilles avec les stratégies de dépenses suivantes : Quotidienne, Hebdomadaire, Mensuelle et Jour de la semaine.
 
 ## Téléchargement d’un fichier de feuille d’envoi groupé avec les paramètres du portfolio
 
@@ -47,7 +49,7 @@ Une feuille groupée de portfolio est un fichier qui contient les paramètres de
 
 ## Charger un fichier de feuille d’envoi groupé avec les paramètres de portfolio mis à jour {#portfolio-bulksheet-upload}
 
-Le fichier doit être au format XLSX.
+Le fichier doit être au format XLSX, sa taille doit être comprise entre 1 Ko et 1 Mo et sa longueur maximale est de 100 caractères.
 
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Opérations en bloc](/help/search-social-commerce/assets/chevron-down.png "Opérations en bloc") > **[!UICONTROL Import Portfolio Details]**.
 
