@@ -2,13 +2,12 @@
 title: Affichage du journal des modifications d’une expérience
 description: Découvrez comment afficher les détails des modifications apportées à une expérience au cours d’une période spécifiée, y compris qui a apporté la modification.
 feature: Creative Experiences
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+exl-id: 124cc524-569b-4826-a4a2-9401b7c8daba
+source-git-commit: 29a679e99560c6776932f5da2d06fa0331c934a8
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
-
 ---
-
 # Affichage du journal des modifications d’une expérience
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
