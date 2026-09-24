@@ -3,9 +3,9 @@ title: (Nouvelle interface utilisateur) Gestion des comptes réseau et
 description: Découvrez comment configurer et gérer les détails du compte dans la nouvelle interface utilisateur pour un réseau publicitaire synchronisé via l’API du réseau publicitaire.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: fe4873a68b7b78000e6a380c22f8074d79c7184f
+source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2143'
 ht-degree: 0%
 ---
 # (Nouvelle interface utilisateur) Gérer les comptes réseau publicitaire via une connexion API
@@ -18,11 +18,9 @@ ht-degree: 0%
 
 Vous trouverez ci-dessous des instructions pour gérer les comptes de réseau publicitaire qui se synchronisent avec Search, Social et Commerce à l’aide de l’API du réseau publicitaire.
 
-<!-- Add somewhere:  Can now open a list of all campaigns for an ad network account by clicking account name -->
-
 <!-- Move out info about Naver into a separate page -->
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
 
 ## Créer un compte réseau publicitaire {#create-account}
 
@@ -135,8 +133,6 @@ Les paramètres du compte varient selon le réseau publicitaire. Il se peut que 
 >
 >Si vous disposez d’une intégration Search, Social et Commerce-Adobe Analytics et que vous modifiez le nom du compte de recherche, demandez à l’équipe chargée de votre compte Adobe de mettre à jour le mappage.
 
-**[!UICONTROL Access Key]:** (comptes [!DNL ChatGPT Ads] uniquement) Clé d’accès du compte de développeur à utiliser.<!-- From whom should people get access keys? Their organization's ChatGPT Ads team? -->
-
 **[!DNL [Ad Network] Accounts]:** (visible lorsque vous créez un compte) Compte du réseau publicitaire à synchroniser.
 
 **[Informations de connexion]:** (comptes Yandex uniquement) Informations d’identification du compte à utiliser :
@@ -161,7 +157,7 @@ Les paramètres du compte varient selon le réseau publicitaire. Il se peut que 
 
 **[!UICONTROL Currency]:** (Lecture seule) Abréviation de la devise utilisée pour le compte. Cette valeur est automatiquement renseignée avec la devise configurée pour le compte sur le réseau publicitaire une fois l’enregistrement enregistré.
 
-**[!UICONTROL Time Zone]:** (Lecture seule) Fuseau horaire de l’annonceur. Cette valeur est automatiquement renseignée avec le fuseau horaire configuré pour le compte Search, Social et Commerce de l’annonceur une fois l’enregistrement enregistré.
+**[!UICONTROL Time Zone]:** Fuseau horaire de l’annonceur. Cette valeur est automatiquement renseignée avec le fuseau horaire configuré pour le compte Search, Social et Commerce de l’annonceur une fois l’enregistrement enregistré.
 
 **[!UICONTROL Login]:** (Lecture seule) Compte utilisateur utilisé pour se connecter au compte.
 
@@ -191,7 +187,7 @@ Pour activer cette fonctionnalité, activez **[Activer le suivi]**.
 >* Si vous passez de [!UICONTROL Standard] à [!UICONTROL Token], ou vice versa, vous devez régénérer les URL de tracking pour le compte.
 >* Vous pouvez remplacer le paramètre au niveau du compte au niveau de la campagne.
 
-**[!UICONTROL Auto Update]:** (lorsque le suivi Search, Social et Commerce est activé) Standardise vos URL de suivi à des fins de compatibilité entre les navigateurs et les serveurs. Search, Social et Commerce télécharge automatiquement les éléments suivants sur le réseau publicitaire lors de la synchronisation suivante : (a) paramètres de tracking Search, Social et Commerce pour les modèles de tracking et les mêmes paramètres ajoutés aux URL finales ou (b) nouvelles URL de destination incorporées avec le code de tracking Search, Social et Commerce. Pour les annonceurs et annonceuses disposant d’une intégration [Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr) et d’une configuration d’AMO ID côté serveur (s_kwcid), le chargement inclut également les paramètres [AMO ID](/help/integrations/analytics/ids.md#amo-id) pour vos comptes [!DNL Google Ads] et [!DNL Microsoft Advertising]. Le paramètre par défaut au niveau du compte est hérité des paramètres de suivi de l’annonceur. Vous pouvez remplacer le paramètre au niveau du compte au niveau de la campagne.
+**[!UICONTROL Auto Update]:** (lorsque le suivi Search, Social et Commerce est activé) Standardise vos URL de suivi à des fins de compatibilité entre les navigateurs et les serveurs. Search, Social et Commerce télécharge automatiquement les éléments suivants sur le réseau publicitaire lors de la synchronisation suivante : (a) paramètres de tracking Search, Social et Commerce pour les modèles de tracking et les mêmes paramètres ajoutés aux URL finales ou (b) nouvelles URL de destination incorporées avec le code de tracking Search, Social et Commerce. Pour les annonceurs et annonceuses disposant d’une intégration [Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) et d’une configuration d’AMO ID côté serveur (s_kwcid), le chargement inclut également les paramètres [AMO ID](/help/integrations/analytics/ids.md#amo-id) pour vos comptes [!DNL Google Ads] et [!DNL Microsoft Advertising]. Le paramètre par défaut au niveau du compte est hérité des paramètres de suivi de l’annonceur. Vous pouvez remplacer le paramètre au niveau du compte au niveau de la campagne.
 
 Les URL de tracking ne sont mises à jour quotidiennement que pour les entités désynchronisées (c’est-à-dire les nouvelles entités ajoutées et les entités existantes dont les propriétés ont été modifiées). Par conséquent, si vous modifiez ce paramètre de désactivé à activé pour un annonceur/compte/campagne existant, les URL de suivi ne sont pas mises à jour pour les entités existantes qui sont déjà synchronisées. Pour ajouter le tracking aux URL des entités existantes non synchronisées, contactez l’équipe de votre compte Adobe et demandez un processus de synchronisation manuel unique. Le processus de chargement automatique gérera les modifications futures.
 
@@ -238,7 +234,7 @@ Les comptes qui utilisent le suivi des clics d’Adobe Advertising doivent inclu
 
 ## onglet [!UICONTROL Set up Adobe Analytics]
 
-Ces paramètres sont disponibles pour les annonceurs qui disposent d’une [[!DNL Adobe Analytics for Advertising]  intégration &#x200B;](/help/integrations/analytics/overview.md).
+Ces paramètres sont disponibles pour les annonceurs qui disposent d’une [[!DNL Adobe Analytics for Advertising]  intégration ](/help/integrations/analytics/overview.md).
 
 **[!UICONTROL Adobe Analytics Report Suite]:** (facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoient les données qu’ils collectent sur le réseau publicitaire, y compris les classifications d’entités et les données de clics pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.<!-- What are the repercussions of changing the suites? Timing of updated data? -->
 
