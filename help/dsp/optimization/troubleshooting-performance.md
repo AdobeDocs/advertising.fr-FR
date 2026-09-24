@@ -1,32 +1,40 @@
 ---
-title: Résolution des problèmes de performances
+title: Les raisons des problèmes de performances
 description: Référencez les problèmes de performances courants et découvrez comment les résoudre.
 feature: DSP Optimization
 exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
 TQID: https://experienceleague.adobe.com/CLEAjCOYzIKDaAbH4-mZxna7MK5jmpvaCjdhGScwzQs
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: DSP Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '526'
 ht-degree: 0%
-
 ---
+# Les raisons des problèmes de performances
 
-# Résolution des problèmes de performances
+<!-- Rename file and set up a redirect -->
+
+<!-- Reword/change path as needed:  See also "[Diagnose performance and delivery issues using the AI assistant](/help\dsp\campaign-management\reports\troubleshooting-agent.md)." -->
 
 | Problème | Cause possible | Mesures à prendre |
 | --- | --- | --- |
-| Aucune dépense sur l’emplacement | L’emplacement n’inclut pas de publicités, et/ou les publicités ne sont pas actives. | Vérifiez que toutes les publicités attendues sont jointes à l’emplacement et sont approuvées et actives.<br><br>Vérifiez également si l’emplacement inclut un planning d’annonces personnalisé, ce qui peut limiter la période de vol de chaque annonce. Pour afficher le planning publicitaire d’un emplacement dans la vue Emplacements , cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]** en regard du nom de l’emplacement. |
+| Aucune dépense sur l’emplacement | L’emplacement n’inclut pas de publicités, et/ou les publicités ne sont pas actives. | Vérifiez que toutes les annonces attendues sont jointes à l’emplacement et sont approuvées et actives.<br><br>Vérifiez également si l’emplacement inclut un planning d’annonces personnalisé, qui peut limiter la période de vol de chaque annonce. Pour afficher le planning publicitaire d’un emplacement dans la vue Emplacements , cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]** en regard du nom de l’emplacement. |
 | | Les dates affectées ne sont pas comprises dans les dates de vol configurées. | Vérifiez que les dates des vols sont valides au niveau de la campagne, du package et de l&#x200B;emplacement. |
 | | L’objectif budgétaire a été atteint et/ou n’est pas assez élevé. | Vérifiez les paramètres de budget au niveau de la campagne, du package et de l’emplacement. |
 | | Le compte n&#39;a pas assez de financement. | Pour voir si votre compte est suffisamment financé, accédez à **[!UICONTROL Settings]** > **[!UICONTROL Account]** et vérifiez le montant de la [!UICONTROL Usable Funds]. Si vous avez besoin d’ajouter des fonds, contactez l’équipe chargée de votre compte Adobe. |
@@ -37,12 +45,12 @@ ht-degree: 0%
 | | Le taux de gain de l’emplacement est faible. | Augmentez le [!UICONTROL Max Bid] pour améliorer le taux de gain.<br><br><b>REMARQUE :</b> les prix des stocks peuvent varier en fonction du ciblage de l’emplacement.<br><br>Un taux de gain de 10 % est considéré comme sain. |
 | | Un faible nombre de stocks est disponible. | Dans la mesure du possible, ciblez toutes les sources de stock ou d’autres sources.<br><br>Gardez à l’esprit que l’utilisation de plusieurs cibles d’emplacement, telles que les filtres de pré-enchères, les zones géographiques, les stocks et les audiences, peut limiter de manière cumulative les enchères et les dépenses. |
 | | Un faible nombre d’utilisateurs est disponible. | Vérifiez que les cibles d’audience spécifiées incluent suffisamment d’utilisateurs actifs. Si ce n’est pas le cas, développez les cibles en ajoutant d’autres audiences.<br><br>Gardez à l’esprit que l’utilisation de plusieurs cibles d’emplacement, telles que les filtres de pré-enchères, les zones géographiques, les stocks et les audiences, peut limiter de manière cumulative les enchères et les dépenses. |
-| | Le package comprend un grand nombre d’emplacements actifs. | Réduisez le nombre d’emplacements actifs dans le package ou augmentez le budget global du package.<br><br>Si le package comporte de nombreux emplacements, mais pas suffisamment de budget, DSP peut ne pas être en mesure d’allouer suffisamment de budget à chaque emplacement. Chaque placement doit avoir la possibilité de dépenser au moins 2 USD/jour. Par exemple, si votre forfait dispose d&#39;un budget de 10 USD/jour, il est préférable d&#39;inclure cinq emplacements ou moins. &#x200B; |
+| | Le package comprend un grand nombre d’emplacements actifs. | Réduisez le nombre d’emplacements actifs dans le package ou augmentez le budget global du package.<br><br>Si le package comporte de nombreux emplacements, mais pas suffisamment de budget, DSP peut ne pas être en mesure d’allouer suffisamment de budget à chaque emplacement. Chaque emplacement doit avoir la possibilité de passer au moins 2 USD par jour. Par exemple, si votre package dispose d’un budget de 10 USD/jour, il est préférable d’inclure cinq emplacements ou moins. &#x200B; |
 
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
->* [&#x200B; Paramètres du package &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Paramètres de Campaign](/help/dsp/campaign-management/campaigns/campaign-settings.md)

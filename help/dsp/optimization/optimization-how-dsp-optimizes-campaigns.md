@@ -6,22 +6,26 @@ exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
 TQID: https://experienceleague.adobe.com/rSt1uwd3p4hawA3HHdgw2AL3fXeY36nbewI90YbFhaY
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: DSP Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 679
+source-wordcount: '694'
 ht-degree: 0%
-
 ---
-
 # Optimisation des campagnes par Advertising DSP
 
 Cette page décrit comment le moteur d’optimisation DSP, qui est optimisé par [!DNL Adobe AI], optimise les packages dans vos campagnes. Pour obtenir des conseils et astuces sur la manière d’optimiser manuellement vos campagnes, contactez l’équipe chargée de votre compte Adobe. <!-- add link to trading playbook if we add it to help -->
@@ -44,7 +48,7 @@ DSP peut optimiser votre diffusion de deux manières fondamentales, avec 20 vari
 
 * Privilégiez l’équilibrage coût-efficacité avec le taux de performance
 
-Consultez la section [&#x200B; Objectifs d’optimisation et comment les utiliser &#x200B;](optimization-goals.md) pour déterminer quel objectif d’optimisation peut vous aider à atteindre vos KPI.
+Consultez la section [ Objectifs d’optimisation et comment les utiliser ](optimization-goals.md) pour déterminer quel objectif d’optimisation peut vous aider à atteindre vos KPI.
 
 ### Packages qui donnent la priorité au taux de performance
 
@@ -96,8 +100,8 @@ Voir [Filtres de pré-enchères au niveau de l’emplacement et comment les util
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Paramètres du package &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Objectifs d’optimisation et utilisation](optimization-goals.md)
 >* [Filtres de pré-enchères au niveau de l’emplacement et utilisation](optimization-pre-bid-filters.md)
->* [Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Raisons des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)

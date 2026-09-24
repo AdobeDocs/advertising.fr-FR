@@ -6,24 +6,30 @@ exl-id: 28a328b1-0839-442e-a245-f586a7042f41
 TQID: https://experienceleague.adobe.com/QEpUfFvrVq62P64w-7gwFk2ujuCNzkegHKz6UancZDY
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 713
+source-wordcount: '715'
 ht-degree: 0%
-
 ---
-
 # Création d’un emplacement
 
 >[!TIP]
@@ -92,61 +98,61 @@ ht-degree: 0%
 
       * Pour créer une annonce publicitaire :
 
-         1. Cliquez sur **[!UICONTROL Create a New Ad].**
+        1. Cliquez sur **[!UICONTROL Create a New Ad].**
 
-         1. Spécifiez les paramètres d’annonce publicitaire pour [annonces audio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [télévision connectée](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [affichages publicitaires](/help/dsp/campaign-management/ads/ad-settings-display.md), [annonces mobiles](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [annonces natives](/help/dsp/campaign-management/ads/ad-settings-native.md), [annonces pré-roll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md) ou [annonces vidéo universelles](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
+        1. Spécifiez les paramètres d’annonce publicitaire pour [annonces audio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [télévision connectée](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [affichages publicitaires](/help/dsp/campaign-management/ads/ad-settings-display.md), [annonces mobiles](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [annonces natives](/help/dsp/campaign-management/ads/ad-settings-native.md), [annonces pré-roll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md) ou [annonces vidéo universelles](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
         >[!NOTE]
         >
         >Les emplacements vidéo universels ne peuvent contenir que des publicités vidéo universelles.
 
-         1. Cliquez sur **[!UICONTROL Save & Submit for Review]**.
+        1. Cliquez sur **[!UICONTROL Save & Submit for Review]**.
 
-         1. (Facultatif) Pour chaque publicité supplémentaire que vous souhaitez créer pour l’emplacement, cliquez sur **[!UICONTROL Attach Another Ad]**, puis répétez les étapes 1 à 3.
+        1. (Facultatif) Pour chaque publicité supplémentaire que vous souhaitez créer pour l’emplacement, cliquez sur **[!UICONTROL Attach Another Ad]**, puis répétez les étapes 1 à 3.
 
-         1. Si vous ne souhaitez pas joindre d’annonces existantes, cliquez sur **[!UICONTROL I'm done for now]**.
+        1. Si vous ne souhaitez pas joindre d’annonces existantes, cliquez sur **[!UICONTROL I'm done for now]**.
 
       * Pour joindre des annonces existantes dans la campagne :
 
-         1. Cliquez sur **[!UICONTROL Select an Ad]**.
+        1. Cliquez sur **[!UICONTROL Select an Ad]**.
 
-         1. Effectuez l’une des opérations suivantes :
+        1. Effectuez l’une des opérations suivantes :
 
-            * Pour ajouter une annonce à la fois :
+           * Pour ajouter une annonce à la fois :
 
-               1. En regard du nom de l’annonce, cliquez sur **[!UICONTROL Select].**
+             1. En regard du nom de l’annonce, cliquez sur **[!UICONTROL Select].**
 
-               1. (Facultatif) Pour chaque annonce publicitaire supplémentaire à joindre, cliquez sur **[!UICONTROL Attach Another Ad]**, puis répétez le processus.
+             1. (Facultatif) Pour chaque annonce publicitaire supplémentaire à joindre, cliquez sur **[!UICONTROL Attach Another Ad]**, puis répétez le processus.
 
-            * Pour ajouter jusqu’à 20 publicités à la fois :
+           * Pour ajouter jusqu’à 20 publicités à la fois :
 
-               1. Cochez la case située au-dessus de la liste des publicités.
+             1. Cochez la case située au-dessus de la liste des publicités.
 
-               1. Cochez la case en regard de chaque publicité à ajouter.
+             1. Cochez la case en regard de chaque publicité à ajouter.
 
-               1. Cliquez sur **[!UICONTROL Attach]**.
+             1. Cliquez sur **[!UICONTROL Attach]**.
 
-               1. En regard du nom de l’annonce publicitaire, cliquez sur **[!UICONTROL Select]**.
+             1. En regard du nom de l’annonce publicitaire, cliquez sur **[!UICONTROL Select]**.
 
-         1. (Facultatif) Pour remplacer la période de vol et la rotation d’annonces par défaut pour des annonces spécifiques dans l’emplacement :
+        1. (Facultatif) Pour remplacer la période de vol et la rotation d’annonces par défaut pour des annonces spécifiques dans l’emplacement :
 
-            1. Cliquez sur **[!UICONTROL Custom Schedule Ads]**.
+           1. Cliquez sur **[!UICONTROL Custom Schedule Ads]**.
 
-            1. Effectuez l’une des opérations suivantes :
+           1. Effectuez l’une des opérations suivantes :
 
-               * Pour ajouter un vol, cliquez sur **[!UICONTROL Add Flight]**, puis spécifiez la date de début et la date de fin.
+              * Pour ajouter un vol, cliquez sur **[!UICONTROL Add Flight]**, puis spécifiez la date de début et la date de fin.
 
-               * Pour ajouter un vol existant à une publicité, cliquez sur **[!UICONTROL +]** dans la ligne de publicité de la colonne de vol.
+              * Pour ajouter un vol existant à une publicité, cliquez sur **[!UICONTROL +]** dans la ligne de publicité de la colonne de vol.
 
-               * Pour supprimer un vol existant d’une publicité, cliquez sur **[!UICONTROL x]** dans la ligne de publicité de la colonne de vol.
+              * Pour supprimer un vol existant d’une publicité, cliquez sur **[!UICONTROL x]** dans la ligne de publicité de la colonne de vol.
 
-               * (Lorsque plusieurs publicités présentent le même vol) Pour faire pivoter les publicités de manière inégale, cliquez sur **[!UICONTROL Even Rotation]** dans les informations de vol, puis entrez le poids relatif de rotation de chaque publicité, sous la forme d’un pourcentage.
+              * (Lorsque plusieurs publicités présentent le même vol) Pour faire pivoter les publicités de manière inégale, cliquez sur **[!UICONTROL Even Rotation]** dans les informations de vol, puis entrez le poids relatif de rotation de chaque publicité, sous la forme d’un pourcentage.
 
-                 Le poids total doit être égal à 100.
+                Le poids total doit être égal à 100.
 
-            1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Continue]**.
+           1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Continue]**.
 
-            1. Vérifiez les détails du vol, puis cliquez sur **[!UICONTROL Save & Finish]**.
+           1. Vérifiez les détails du vol, puis cliquez sur **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
@@ -159,6 +165,6 @@ ht-degree: 0%
 >* [Paramètres d’emplacement](placement-settings.md)
 >* [Afficher l&#39;état de prévision d&#39;emplacement](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [FAQ sur la vidéo universelle](/help/dsp/campaign-management/faq-universal-video.md)
->* [Raccourcis clavier &#x200B;](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Résolution des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vidéo : comment créer un emplacement d’affichage standard &#x200B;](https://video.tv.adobe.com/v/344999?captions=fre_fr)
+>* [Raccourcis clavier ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
+>* [Raisons des problèmes de performances](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Vidéo : comment créer un emplacement d’affichage standard ](https://video.tv.adobe.com/v/340454)

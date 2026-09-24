@@ -1,6 +1,6 @@
 ---
-title: Diagnostiquer les problèmes de performances et de diffusion à l’aide de la [!UICONTROL Troubleshooting Agent] assistée par l’IA
-description: Découvrez comment utiliser l’agent de dépannage assisté par l’IA pour diagnostiquer les problèmes de dépenses, de fréquence et de diffusion pour les packages et emplacements DSP.
+title: Résoudre les problèmes de performances et de diffusion à l’aide de l’assistant AI
+description: Découvrez comment utiliser l’agent de dépannage de l’assistant d’IA pour diagnostiquer les problèmes de dépenses, de fréquence et de diffusion pour les packages et emplacements DSP.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -15,14 +15,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 31ddb7928ca4e43132087b73829af55ae6315b0d
+source-git-commit: 2e97652901e16bd1079fac445f9a2a4794dcda56
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '652'
 ht-degree: 0%
 ---
-# Diagnostiquer les problèmes de performances et de diffusion à l’aide de la [!UICONTROL Troubleshooting Agent] assistée par l’IA
+# Résoudre les problèmes de performances et de diffusion à l’aide de l’assistant DSP AI
 
-Le [!UICONTROL Troubleshooting Agent] assisté par l’IA identifie les facteurs qui limitent les performances et fournit des recommandations pour résoudre les problèmes. Le [!UICONTROL Troubleshooting Agent] peut :
+L’agent de dépannage de l’assistant d’IA peut identifier les facteurs qui limitent les performances et fournit des recommandations pour résoudre les problèmes. L’agent de dépannage peut :
 
 * Aide pour diagnostiquer les problèmes de performances et de diffusion pour un package ou un emplacement actif sélectionné :
 
