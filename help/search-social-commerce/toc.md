@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 19e8de1ab13ab8a5451702e6130219277cf09631
+source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
 workflow-type: tm+mt
 source-wordcount: '2396'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
   + [À propos d’Adobe Advertising Search, Social et Commerce](/help/search-social-commerce/introduction/about.md)
   + [Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md)
   + Intégration à Adobe CX Enterprise {#integrations}
-    + [Intégration aux solutions et services d’entreprise Adobe CX](/help/search-social-commerce/introduction/integrations.md)
+    + [Intégration aux solutions et services Adobe CX Enterprise](/help/search-social-commerce/introduction/integrations.md)
     + [&#x200B; [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr){target="_blank"}
     + [Intégration avec Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=fr){target="_blank"}
   + [Prise en charge de la confidentialité des clients (lien)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}

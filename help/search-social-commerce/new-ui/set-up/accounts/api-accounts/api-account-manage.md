@@ -3,13 +3,11 @@ title: (Nouvelle interface utilisateur) Gestion des comptes réseau et
 description: Découvrez comment configurer et gérer les détails du compte dans la nouvelle interface utilisateur pour un réseau publicitaire synchronisé via l’API du réseau publicitaire.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 6b9aca3a3de262935428a749acc123fcf7b76c18
+source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 0%
-
 ---
-
 # (Nouvelle interface utilisateur) Gérer les comptes réseau publicitaire via une connexion API
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
