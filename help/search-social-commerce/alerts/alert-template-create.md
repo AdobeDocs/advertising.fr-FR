@@ -6,17 +6,18 @@ feature: Search Alerts
 TQID: https://experienceleague.adobe.com/6fPMkTJdD-TiBU45ja0E-z1XJO5Ve7-8zs4pCc7sbYQ
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 247087a18783a7f1c77088ffb2d1133ca9bb6e8d
 workflow-type: tm+mt
-source-wordcount: 256
+source-wordcount: '256'
 ht-degree: 0%
-
 ---
-
 # Création d’un modèle d’alerte personnalisé
 
 Vous pouvez créer un modèle d’alerte pour les portfolios, les campagnes, les groupes publicitaires, les mots-clés ou les annonces publicitaires et déclencher l’alerte selon un calendrier régulier. Les nouveaux modèles d’alerte ont le statut « [!UICONTROL Active] ».
@@ -29,7 +30,7 @@ Vous pouvez créer un modèle d’alerte pour les portfolios, les campagnes, les
 
 1. Dans la fenêtre de [!UICONTROL Create \[Entity\] Alert], spécifiez les [paramètres d’alerte](alert-template-settings.md) sur les onglets **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** et **[!UICONTROL Scheduling and Delivery]**.
 
-Vous pouvez passer d’un onglet à l’autre en cliquant sur son nom (par exemple, « Filtres ») ou en cliquant sur **[!UICONTROL Next]** en bas à droite.
+   Vous pouvez passer d’un onglet à l’autre en cliquant sur son nom (par exemple, « Filtres ») ou en cliquant sur **[!UICONTROL Next]** en bas à droite.
 
 1. Dans l’onglet [!UICONTROL Summary] , cliquez sur **[!UICONTROL Create]**.
 
@@ -41,17 +42,17 @@ Vous pouvez passer d’un onglet à l’autre en cliquant sur son nom (par exemp
 
 1. Dans la vue **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** , ouvrez la sous-vue Gestion de campagne pour le type d’entité à évaluer ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] ou [!UICONTROL Product Groups]).
 
-Par exemple, pour créer un modèle d’alerte au niveau du mot-clé, accédez à [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], puis sélectionnez [!UICONTROL Keywords].
+   Par exemple, pour créer un modèle d’alerte au niveau du mot-clé, accédez à [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], puis sélectionnez [!UICONTROL Keywords].
 
 1. Sur le côté droit de la barre d’outils, au-dessus du tableau de données, cliquez sur ![Créer une alerte](/help/search-social-commerce/assets/add-alert.png "Créer une alerte").
 
->[!NOTE]
->
->Il n’est pas nécessaire de sélectionner des lignes spécifiques.
+   >[!NOTE]
+   >
+   >Il n’est pas nécessaire de sélectionner des lignes spécifiques.
 
 1. Dans la fenêtre de [!UICONTROL Create \[Entity type\] Alert], spécifiez les [paramètres d’alerte](alert-template-settings.md) sur les onglets **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** et **[!UICONTROL Scheduling and Delivery]**.
 
-Vous pouvez passer d’un onglet à l’autre en cliquant sur son nom (par exemple, « Filtres ») ou en cliquant sur **[!UICONTROL Next]** en bas à droite.
+   Vous pouvez passer d’un onglet à l’autre en cliquant sur son nom (par exemple, « Filtres ») ou en cliquant sur **[!UICONTROL Next]** en bas à droite.
 
 1. Dans l’onglet [!UICONTROL Summary] , cliquez sur **[!UICONTROL Create]**.
 
