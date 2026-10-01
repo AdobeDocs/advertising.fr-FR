@@ -2,13 +2,11 @@
 title: Colonnes de rapports pour les rapports spécialisés
 description: Découvrez les colonnes de données disponibles pour les rapports spécialisés.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 43b3d16233aec1fce0f3db092b9911717686f448
+source-git-commit: fb089f61670a2c0029ac7857db55df3b93f781de
 workflow-type: tm+mt
-source-wordcount: '3172'
-ht-degree: 0%
-
+source-wordcount: '3223'
+ht-degree: 1%
 ---
-
 # Colonnes de rapports pour les rapports spécialisés
 
 | Colonne | Description |
@@ -70,6 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | ([!DNL Google Ads] uniquement ; [!UICONTROL Campaign Daily Impression Share Report]) Nombre d’impressions que vous avez reçues pour des publicités sur le réseau d’affichage/d’audience divisé par l’estimation du nombre d’impressions que vous pouviez recevoir. Les pourcentages inférieurs à 10 % sont indiqués comme « `<10%` » et les pourcentages supérieurs à 90 % sont indiqués comme « `>90%` ». |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | ([!DNL Google Ads] uniquement ; [!UICONTROL Campaign Daily Impression Share Report]) Pourcentage estimé d’impressions que vos publicités sur le réseau d’affichage/d’audience n’ont pas reçues car votre budget quotidien ou mensuel était trop faible. Les pourcentages inférieurs à 10 % sont indiqués comme « `<10%` » et les pourcentages supérieurs à 90 % sont indiqués comme « `>90%` ». |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | ([!DNL Google Ads] uniquement ; [!UICONTROL Campaign Daily Impression Share Report]) Pourcentage estimé d’impressions dans lesquelles vos publicités sur le réseau d’affichage/d’audience n’ont pas été affichées en raison d’un mauvais classement publicitaire. Les pourcentages inférieurs à 10 % sont indiqués comme « `<10%` » et les pourcentages supérieurs à 90 % sont indiqués comme « `>90%` ». |
+| [!UICONTROL Conversion Actions] | (Rapports [!UICONTROL Google AI Max Search Term Combination]) Action de conversion qui a entraîné des conversions. |
 | [!UICONTROL Conversion Rate] | Nombre de conversions divisé par le nombre total de clics. |
 | [!UICONTROL Conversion Type] | Type de conversion défini par l’utilisateur qui a fait l’objet d’un suivi sur le site web de l’annonceur. |
 | [!UICONTROL Conversions] | (rapports [!UICONTROL Google AI Max Search Term Combination], [!UICONTROL Google Asset Group Performance] et [!UICONTROL MSA Ad Extension]) Total des conversions pour la période spécifiée. Pour le rapport [!UICONTROL MSA Ad Extension], il s’agit du nombre de clics qui ont abouti à une vente ou à une autre mesure de succès. Pour le rapport [!UICONTROL Google AI Max Search Term Combination], il s’agit du nombre total de conversions provenant d’actions de conversion pour lesquelles l’option « Inclure dans les conversions » est activée |
@@ -147,7 +146,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Spend Strategy] | (Rapport Portfolio) Stratégie de dépenses du portefeuille : *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, *[!UICONTROL ROI]*, *[!UICONTROL Day of week]*, *[!UICONTROL Day of month]*, *[!UICONTROL CPT]*, *[!UICONTROL Marginal CPT]*, *[!UICONTROL Google Target CPA]* ou *[!UICONTROL Google Target ROAS]*. |
 | [!UICONTROL Portfolio Status] | Statut du portefeuille :<ul><li>*[!UICONTROL Optimize]* : la fonctionnalité d’optimisation collecte les données sur les clics et le chiffre d’affaires pour les campagnes appropriées, modélise les données utilisées pour l’optimisation et optimise les enchères, les budgets de campagne et les cibles de stratégie d’enchères de campagne (selon le type d’optimisation et les stratégies d’enchères).</li><li>*[!UICONTROL Active]* : la fonctionnalité d’optimisation collecte les données sur les clics et le chiffre d’affaires pour les campagnes appropriées et modélise les données, mais elle n’optimise pas les enchères ni les budgets de campagne.</li><li>*[!UICONTROL Inactive]* : la fonctionnalité d’optimisation collecte des données sur les clics pour les campagnes appropriées à des fins de création de rapports, mais elle ne modélise pas les données ni n’optimise les offres ou les budgets de campagne.</li></ul> |
 | [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report]) Pourquoi le groupe de ressources fonctionne ou non à pleine capacité. Il prend en compte le statut du groupe de ressources ainsi que d’autres signaux, tels que les approbations de politique et de qualité. Les valeurs peuvent inclure *ÉLIGIBLE,* *LIMITÉ,* *NOT_ELIGIBLE,* *EN PAUSE,* *EN ATTENTE,* SUPPRIMÉ,*UNKNOWN,* ou *UNSPECIFIED.* ** |
-| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) Informations supplémentaires sur le statut principal du groupe de ressources. Les valeurs peuvent inclure *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* CAMPAIGN_ENDED,*CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,*ou* UNSPECIFIED.**&#x200B; ** ** |
+| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) Informations supplémentaires sur le statut principal du groupe de ressources. Les valeurs peuvent inclure *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* CAMPAIGN_ENDED,*CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,*ou* UNSPECIFIED.** ** ** |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report]) ID de produit du produit affiché avec la publicité. <b>Remarque :</b> l’identifiant n’est capturé que lorsque la liste de produits inclut le paramètre de suivi `ev_plx=<GMC product ID>`, que vous devez ajouter dans [!DNL Google Merchant Center]. |
 | [!UICONTROL Product Type] ([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report]) Les types de produits de premier à cinquième niveau (les attributs que vous avez définis vous-même pour le groupe de produits). |
 | [!UICONTROL Query Match Type] | (Rapport de requête de recherche AdWords) Type de correspondance de mots-clés pour la requête. |
