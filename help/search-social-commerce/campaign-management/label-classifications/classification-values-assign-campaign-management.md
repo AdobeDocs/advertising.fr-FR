@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/r08RxDrdXIkUP7ZJgw8x-g47m0Ioxjo9SySjg71-PkM
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 764
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # Attribuer des valeurs de classification aux composants de compte à partir des vues de gestion de campagne
 
 Vous pouvez affecter et supprimer des valeurs de classification pour les entités de recherche suivantes des vues de gestion de campagne : campagne, groupe publicitaire, mot-clé, publicité, emplacement, groupe de produits au niveau de l&#39;unité et cible de recherche dynamique. Si nécessaire, vous pouvez créer des classifications et des valeurs de classification au cours du processus d’affectation. Chaque classification de libellé peut contenir jusqu’à 2 000 valeurs.
@@ -31,7 +31,7 @@ Les valeurs de libellé sont héritées par les entités enfants. Par conséquen
 
 Vous pouvez attribuer des valeurs de classification à n’importe quel composant de compte applicable disponible dans la nouvelle interface utilisateur.
 
-1. Ouvrez la vue d’entité à partir du menu **[!UICONTROL Manage]** ou **[!UICONTROL Target]** .
+1. Ouvrez la vue d’entité à partir du menu **[!UICONTROL Manage]** ou **[!UICONTROL Targeting]** .
 
 1. Cochez la case en regard de chaque ligne pertinente.
 
@@ -69,11 +69,11 @@ Vous pouvez attribuer des valeurs de classification à n’importe quel composan
 
    * (Pour attribuer des valeurs à une ou plusieurs entités) Procédez comme suit :
 
-      * Cochez la case en regard de chaque ligne pertinente.
+     * Cochez la case en regard de chaque ligne pertinente.
 
-        Pour obtenir des conseils sur la sélection de plusieurs lignes, reportez-vous à « [Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) ».
+       Pour obtenir des conseils sur la sélection de plusieurs lignes, reportez-vous à « [Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) ».
 
-      * Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Plus](/help/search-social-commerce/assets/more.png "Plus"), puis sur **[!UICONTROL Classification]**.
+     * Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Plus](/help/search-social-commerce/assets/more.png "Plus"), puis sur **[!UICONTROL Classification]**.
 
 1. Dans le [!UICONTROL Assignment Details], effectuez l’une des opérations suivantes :
 

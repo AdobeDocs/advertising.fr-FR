@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Un groupe publicitaire comprend un ensemble de publicités et leurs mots-clés associés. Un groupe publicitaire dans une campagne qui cible le réseau d’affichage peut également inclure des emplacements, qui sont des emplacements sur le réseau d’affichage dans lesquels vos publicités peuvent apparaître. Les paramètres du groupe publicitaire, qui s’appliquent à tous les composants du groupe publicitaire, varient selon le réseau publicitaire.
 
-Une fois que vous [rendez un compte de réseau publicitaire accessible via une connexion API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) et que Search, Social et Commerce a synchronisé les données du compte avec le réseau publicitaire, vous pouvez créer des groupes publicitaires pour un [type de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md). Vous pouvez également modifier le statut des groupes publicitaires.
+Une fois que vous [rendez un compte de réseau publicitaire accessible via une connexion API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) et que Search, Social et Commerce a synchronisé les données du compte avec le réseau publicitaire, vous pouvez créer des groupes publicitaires pour un [type de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md). Vous pouvez également modifier le statut des groupes publicitaires.
 
 Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
 
@@ -321,8 +321,8 @@ Consultez également les sections « >* [&#x200B; (interface utilisateur hérit�
 >
 >* [Gérer les contraintes pour les unités d’offres de recherche](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [Gérer les affectations de contrainte pour les campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [Gérer les affectations de contraintes pour les mots-clés](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
->* [Gérer les affectations de contrainte pour les emplacements](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+>* [Gérer les affectations de contraintes pour les mots-clés](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+>* [Gérer les affectations de contrainte pour les emplacements](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 >* [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(interface utilisateur héritée) Supprimez un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] paramètres du groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)

@@ -3,13 +3,11 @@ title: (Nouvelle interface utilisateur) Activer le chargement des objectifs sur 
 description: Découvrez comment télécharger des objectifs pour vos portfolios hybrides vers Google Ads et Microsoft Advertising.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
-
 ---
-
 # (Nouvelle interface utilisateur) Activer le chargement des objectifs sur les réseaux publicitaires
 
 *Fonction*
@@ -42,7 +40,7 @@ Les chargements vers [!DNL Google Ads] et [!DNL Microsoft Advertising] ont lieu 
 
 1. (Annonceurs disposant de comptes [!DNL Google Ads] qui font des affaires dans l’Espace économique européen (EEE) ou au Royaume-Uni (UK) ; facultatif) Si vous avez obtenu le consentement des utilisateurs de l’EEE et du Royaume-Uni pour télécharger leurs données à des fins publicitaires, cochez la case. Cela envoie le statut de consentement **[!UICONTROL GRANTED]** à [!DNL Google Ads] et [!DNL Microsoft Advertising]. Si vous ne cochez pas cette case, le statut du consentement est envoyé en tant que **[!UICONTROL UNSPECIFIED]**.
 
-1. (Si vos conversions sont suivies au niveau du compte du responsable) [Ajoutez les informations d’identification pour votre compte du responsable](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md) avant d’enregistrer.
+1. (Si vos conversions sont suivies au niveau du compte du responsable) [Ajoutez les informations d’identification pour votre compte du responsable](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md) avant d’enregistrer.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -79,7 +77,7 @@ Si l’objectif (nommé `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_
 
 * ([!DNL Google Ads]) Vérifiez si les conversions doivent être téléchargées au niveau du compte ou du responsable. S’ils doivent être chargés au niveau du responsable :
 
-  * Vérifiez si les informations d’identification du compte [!DNL Google Ads] Manager sont fournies. Si nécessaire, [ajoutez les informations d’identification du compte Manager](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md).
+  * Vérifiez si les informations d’identification du compte [!DNL Google Ads] Manager sont fournies. Si nécessaire, [ajoutez les informations d’identification du compte Manager](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md).
 
   * Vérifiez si le compte réseau publicitaire inclut déjà le même nom de mesure. Si c’est le cas, renommez la mesure afin de pouvoir créer la propriété de niveau responsable appropriée.
 
@@ -89,7 +87,7 @@ Si l’objectif (nommé `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_
 >
 >* [À propos des objectifs](objective-about.md)
 >* [Gérer les mesures de conversion d’un annonceur](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
->* [Gérer les informations d’identification pour les comptes  [!DNL Google Ads]  responsable](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
+>* [Gérer les informations d’identification pour les comptes  [!DNL Google Ads]  responsable](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 
 <!--
 I don't see this yet in new UI:

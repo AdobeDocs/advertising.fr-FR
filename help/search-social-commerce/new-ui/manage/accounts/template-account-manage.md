@@ -1,18 +1,16 @@
 ---
-title: (Nouvelle interface utilisateur) Gérer  [!DNL Naver]  comptes pour le suivi uniquement
-description: Découvrez comment configurer et gérer les détails du compte dans la nouvelle interface utilisateur d’un  [!DNL Naver] .
+title: (Nouvelle interface utilisateur) Gérer les comptes [!DNL Naver] pour le suivi uniquement
+description: Découvrez comment configurer et gérer les détails du compte dans la nouvelle interface utilisateur d’un compte [!DNL Naver].
 feature: Search Campaign Management
 exl-id: bc4be409-9935-448b-bfba-f93eb30bd5ca
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 0%
-
+source-wordcount: '491'
+ht-degree: 1%
 ---
-
 # (Nouvelle interface utilisateur) Gérer les comptes [!DNL Naver] pour le suivi uniquement
 
-*Fonction Beta*
+*Fonction*
 
 Vous trouverez ci-dessous des instructions pour gérer les [[!DNL Naver] comptes](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md) afin de suivre, de générer des rapports et de visualiser les performances des publicités que vous achetez directement à partir du réseau publicitaire. Search, Social et Commerce ne synchronisent pas les données avec le réseau publicitaire, ne fournissent pas d’enchères automatisées et ne fournissent aucun type d’optimisation ou de simulation.
 
@@ -26,7 +24,7 @@ Pour activer le suivi d’un compte, vous devez créer un enregistrement de comp
 >
 >Pour créer un compte sur le réseau publicitaire, accédez au site web du réseau publicitaire.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Cliquez sur **[!UICONTROL Create Account]**.
 
@@ -48,7 +46,7 @@ Pour modifier le nom du compte, son statut ou les suites de rapports [!DNL Analy
 >
 >Pour modifier un compte réel sur le réseau publicitaire, accédez au site web du réseau publicitaire.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Sélectionnez le compte de l’une des manières suivantes :
 
@@ -73,7 +71,7 @@ Pour modifier le nom du compte, son statut ou les suites de rapports [!DNL Analy
 
 When you enable an ad network account, Search, Social, & Commerce synchronizes campaign data with the account (when supported) and pushes automated bids and/or campaign budgets for campaigns in portfolios. When you disable an ad network account, Search, Social, & Commerce stops all activity on the account. Data collected while the account was active is still stored, but the campaign management views and reports don't include data for the time period in which the account is disabled. You can later re-enable the account to resume activity with the account.
 
-1. In the main menu, click **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. In the main menu, click **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Do either of the following:
 
@@ -126,4 +124,4 @@ Pour que les données apparaissent dans les suites de rapports, (a) la fonction 
 >[!MORELIKETHIS]
 >
 >* [Implémentation  [!DNL Naver]  comptes de tracking uniquement](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
->* [À propos des comptes de réseau publicitaire](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
+>* [À propos des comptes de réseau publicitaire](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)

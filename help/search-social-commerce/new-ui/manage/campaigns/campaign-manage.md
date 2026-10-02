@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
 source-wordcount: '2285'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Une campagne est le composant principal d’un compte réseau publicitaire. Pour la plupart des types de campagne, il se compose d’un ensemble de groupes ou de visionneuses d’annonces. Les paramètres de la campagne comprennent les paramètres de budget de la campagne, les cibles des publicités et les paramètres de suivi facultatifs pour toutes les publicités de la campagne. Les paramètres de tracking au niveau de la campagne remplacent les paramètres au niveau du compte, mais ils peuvent eux-mêmes être remplacés à un niveau inférieur.
 
-Une fois que vous [rendez un compte de réseau publicitaire accessible via une connexion API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) et que Search, Social et Commerce a synchronisé les données du compte avec le réseau publicitaire, vous pouvez créer de nouvelles campagnes avec [types de campagnes pris en charge](/help/search-social-commerce/introduction/supported-inventory.md). Vous pouvez également modifier le statut des campagnes.
+Une fois que vous [rendez un compte de réseau publicitaire accessible via une connexion API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) et que Search, Social et Commerce a synchronisé les données du compte avec le réseau publicitaire, vous pouvez créer de nouvelles campagnes avec [types de campagnes pris en charge](/help/search-social-commerce/introduction/supported-inventory.md). Vous pouvez également modifier le statut des campagnes.
 
 Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
 
@@ -424,8 +424,8 @@ Consultez également les sections « >* [&#x200B; (interface utilisateur hérit�
 >
 >* [Gérer les contraintes pour les unités d’offres de recherche](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [Gérer les affectations de contraintes pour les groupes publicitaires](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [Gérer les affectations de contraintes pour les mots-clés](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
->* [Gérer les affectations de contrainte pour les emplacements](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+>* [Gérer les affectations de contraintes pour les mots-clés](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+>* [Gérer les affectations de contrainte pour les emplacements](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 >* [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(interface utilisateur héritée) Supprimez un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] paramètres de campaign](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)

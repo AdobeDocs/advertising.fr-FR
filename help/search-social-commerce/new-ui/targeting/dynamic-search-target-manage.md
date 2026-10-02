@@ -1,24 +1,26 @@
 ---
-title: Gestion  [!DNL Google Ads]  cibles de recherche dynamiques
-description: Découvrez comment créer et gérer  [!DNL Google Ads]  cibles de recherche dynamiques.
+title: Gestion [!DNL Google Ads] cibles de recherche dynamique
+description: Découvrez comment créer et gérer [!DNL Google Ads] cibles de recherche dynamique.
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
 TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: '705'
 ht-degree: 0%
-
 ---
-
 # Gestion [!DNL Google Ads] cibles de recherche dynamique
 
 Comptes *[!DNL Google Ads]uniquement*
@@ -43,7 +45,7 @@ Pour plus d’informations sur [!DNL Google Ads] annonces de recherches dynamiqu
 
 ## La vue [!UICONTROL Auto Targets]
 
-La vue [!UICONTROL Target] > [!UICONTROL Auto Targets] répertorie toutes les cibles de recherche dynamique dans la vue filtrée pour le compte d’annonceur sélectionné. Vous pouvez également gérer vos cibles de recherche dynamique.
+La vue [!UICONTROL Targeting] > [!UICONTROL Auto Targets] répertorie toutes les cibles de recherche dynamique dans la vue filtrée pour le compte d’annonceur sélectionné. Vous pouvez également gérer vos cibles de recherche dynamique.
 
 ### Actions disponibles
 
@@ -178,7 +180,7 @@ You can also delete any dynamic target.
 
 ## Affectation d’une contrainte aux cibles de recherche dynamique sélectionnées à partir de la nouvelle vue [!UICONTROL Auto Targets] {#constraint-assign}
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Target]>[!UICONTROL Auto Targets]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Cochez la case en regard de chaque cible de recherche dynamique à laquelle vous affecterez une seule contrainte.
 
@@ -190,7 +192,7 @@ You can also delete any dynamic target.
 
 ## Suppression des contraintes des cibles de recherche dynamique sélectionnées dans la nouvelle vue de [!UICONTROL Auto Targets] {#constraint-unassign}
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Auto Targets]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Cochez la case en regard de chaque cible de recherche dynamique à partir de laquelle vous annulerez l’affectation des contraintes.
 
@@ -204,7 +206,7 @@ You can also delete any dynamic target.
 >
 >Les valeurs de libellé sont héritées par les entités enfants. Par conséquent, ne saisissez pas de valeurs pour les entités enfants, sauf si vous souhaitez remplacer les valeurs héritées.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Target]>[!UICONTROL Auto Targets]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Cochez la case en regard de chaque cible de recherche dynamique à laquelle vous attribuez une valeur de libellé.
 
@@ -236,7 +238,7 @@ You can also delete any dynamic target.
 
 La suppression d’une valeur de classification supprime l’association avec le composant de compte et tous ses composants enfants. Les données de rapport pour la valeur de classification ne sont plus disponibles pour ces composants. La suppression d’une valeur de classification ne supprime pas la valeur ni les composants de compte.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Target]>[!UICONTROL Auto Targets]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Cochez la case en regard de chaque cible de recherche dynamique à partir de laquelle vous allez supprimer une valeur de libellé.
 
@@ -253,4 +255,4 @@ La suppression d’une valeur de classification supprime l’association avec le
 >[!MORELIKETHIS]
 >
 >* [(nouvelle interface utilisateur) Gérer les contraintes pour les unités d’enchères de recherche](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [(Nouvelle interface utilisateur) Gérer les classifications de libellés](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
+>* [(Nouvelle interface utilisateur) Gérer les classifications de libellés](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)

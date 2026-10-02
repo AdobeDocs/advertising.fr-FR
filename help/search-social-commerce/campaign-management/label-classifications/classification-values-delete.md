@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/vVMgSqSBGNN7oqhiY6DLqQZPsi7TowVxNIOTtEtPLg0
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 # Supprimer les valeurs de classification de libellé
 
 La suppression des valeurs de classification d’étiquettes les rend indisponibles pour une utilisation ultérieure et les données de rapport ne sont plus disponibles pour les valeurs. Toutes les affectations entre les valeurs et leurs classifications de libellés parents et composants de compte spécifiques sont supprimées, mais les classifications de libellés parents et les composants de campagne ne sont pas supprimés.
@@ -25,7 +25,7 @@ La suppression des valeurs de classification d’étiquettes les rend indisponib
 
 ## (Nouvelle interface utilisateur) Supprimer les valeurs de classification de libellé
 
-1. Cliquez sur **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Cliquez sur **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. Cliquez sur l’onglet **[!UICONTROL Label Values]** .
 

@@ -1,28 +1,30 @@
 ---
 title: Affichage et création de ressources de création
-description: Découvrez comment afficher et créer des ressources d’image, de vidéo et de texte réutilisables pour vos bibliothèques de ressources au niveau  [!DNL Google Ads]  compte et  [!DNL Microsoft Advertising]  compte.
+description: Découvrez comment afficher et créer des ressources d’image, de vidéo et de texte réutilisables pour vos bibliothèques de ressources [!DNL Google Ads] et au niveau du compte [!DNL Microsoft Advertising].
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47301d06bc2a06c2601107abd988e787114e36bb
+    internal-label: User
+source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '494'
 ht-degree: 0%
-
 ---
-
 
 # Affichage et création de ressources de création
 
 *Comptes [!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement*
 
-Dans [!UICONTROL Assets] > [!UICONTROL Creatives], vous pouvez afficher toutes les ressources d’image, de vidéo et (par [!DNL Google Ads] uniquement) de texte réutilisables dans vos bibliothèques de ressources [!DNL Google Ads] et [!DNL Microsoft Advertising] au niveau du compte. La liste comprend des ressources générées par l’IA pour [!DNL Google Ads] groupes publicitaires dans des campagnes compatibles avec les [!DNL AI Max].
+Dans [!UICONTROL Library] > [!UICONTROL Creatives], vous pouvez afficher toutes les ressources d’image, de vidéo et (par [!DNL Google Ads] uniquement) de texte réutilisables dans vos bibliothèques de ressources [!DNL Google Ads] et [!DNL Microsoft Advertising] au niveau du compte. La liste comprend des ressources générées par l’IA pour [!DNL Google Ads] groupes publicitaires dans des campagnes compatibles avec les [!DNL AI Max].
 
 Vous pouvez créer manuellement des ressources pour un compte de réseau publicitaire et les charger vers le réseau publicitaire. <!-- Verify if you can use the AI-generated ones -->Vous pouvez utiliser l’une des ressources chargées pour vos campagnes Performance Max.
 
@@ -30,7 +32,7 @@ Vous pouvez également supprimer des ressources de texte générées par l’IA 
 
 ## Affichage des ressources de création
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Assets]>[!UICONTROL Creatives]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Library]>[!UICONTROL Creatives]**.
 
 1. Dans la barre d’outils, sélectionnez le réseau publicitaire et le compte.
 
@@ -42,7 +44,7 @@ Vous pouvez également supprimer des ressources de texte générées par l’IA 
 
 ## Création et chargement de ressources
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Assets]>[!UICONTROL Creatives]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Library]>[!UICONTROL Creatives]**.
 
 1. Dans la barre d’outils, sélectionnez le réseau publicitaire et le compte.
 
@@ -90,7 +92,7 @@ Vous pouvez également supprimer des ressources de texte générées par l’IA 
 
 Les ressources textuelles supprimées ne seront plus diffusées, mais les données de performances sont toujours disponibles dans les rapports.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Assets]>[!UICONTROL Creatives]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Library]>[!UICONTROL Creatives]**.
 
 1. Dans la barre d’outils, sélectionnez le réseau publicitaire et le compte.
 

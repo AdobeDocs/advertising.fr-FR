@@ -3,7 +3,7 @@ title: (Nouvelle interface utilisateur) Gestion des comptes réseau et
 description: Découvrez comment configurer et gérer les détails du compte dans la nouvelle interface utilisateur pour un réseau publicitaire synchronisé via l’API du réseau publicitaire.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Pour activer la synchronisation d’un compte, vous devez créer un enregistreme
 >
 >Pour créer un compte sur le réseau publicitaire, accédez au site web du réseau publicitaire.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Cliquez sur **[!UICONTROL Create Account]**.
 
@@ -52,7 +52,7 @@ Pour réauthentifier les paramètres du compte afin d’actualiser les autorisat
 >
 >Pour modifier un compte réel sur le réseau publicitaire, accédez au site web du réseau publicitaire.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Sélectionnez le compte de l’une des manières suivantes :
 
@@ -74,7 +74,7 @@ Pour actualiser la connexion au réseau publicitaire ou mettre à jour les autor
 
 1. (Si vous êtes connecté à un autre compte pour le même réseau publicitaire dans la même application de navigateur) Déconnectez-vous de tout compte autre que celui de l’annonceur.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -92,7 +92,7 @@ Pour actualiser la connexion au réseau publicitaire ou mettre à jour les autor
 
 Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commerce synchronise les données de campagne avec le compte (lorsqu’il est pris en charge) et diffuse des enchères automatisées et/ou des budgets de campagne pour les campagnes des portfolios. Lorsque vous désactivez un compte de réseau publicitaire, Search, Social et Commerce arrête toute activité sur le compte. Les données collectées alors que le compte était actif sont toujours stockées, mais les vues et rapports de gestion de campagne n’incluent pas les données de la période au cours de laquelle le compte est désactivé. Vous pourrez par la suite réactiver le compte pour reprendre l’activité avec le compte.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -153,7 +153,7 @@ Les paramètres du compte varient selon le réseau publicitaire. Il se peut que 
 
 >[!NOTE]
 >
->Les comptes Ad Network Manager ne sont pas pris en charge ici. Pour identifier un compte Manager pour [!DNL Microsoft Advertising], utilisez respectivement le champ ID de compte de Principal ou Compte MCC . Pour [configurer les informations d’identification d’un compte  [!DNL Google Ads]  responsable](/help/search-social-commerce/admin/manager-accounts.md), accédez à [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
+>Les comptes Ad Network Manager ne sont pas pris en charge ici. Pour identifier un compte Manager pour [!DNL Microsoft Advertising], utilisez respectivement le champ ID de compte de Principal ou Compte MCC . Pour [configurer les informations d’identification d’un compte  [!DNL Google Ads]  responsable](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md), accédez à [!UICONTROL Setup] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Currency]:** (Lecture seule) Abréviation de la devise utilisée pour le compte. Cette valeur est automatiquement renseignée avec la devise configurée pour le compte sur le réseau publicitaire une fois l’enregistrement enregistré.
 

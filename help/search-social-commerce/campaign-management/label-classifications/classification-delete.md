@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/Q6BgNtx1bPMVXDNdamwGvzcxKh9I8dnm0PRj1ByIktE
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 219
+source-wordcount: '217'
 ht-degree: 0%
-
 ---
-
 # Supprimer les classifications de libellés
 
 La suppression d’une classification supprime toutes les associations entre ses valeurs enfants et ses composants de compte. Une classification supprimée et ses valeurs ne sont pas disponibles pour une utilisation ultérieure. Les données de rapport pour les valeurs de classification ne sont plus disponibles.
@@ -25,7 +25,7 @@ La suppression d’une classification supprime toutes les associations entre ses
 
 ## (Nouvelle interface utilisateur) Supprimer les classifications de libellés
 
-1. Cliquez sur **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Cliquez sur **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. (Facultatif) Filtrez la liste pour inclure des classifications d’étiquettes spécifiques.
 

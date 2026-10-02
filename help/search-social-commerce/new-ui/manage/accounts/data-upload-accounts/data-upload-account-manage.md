@@ -3,13 +3,11 @@ title: Configuration des comptes réseau de publicités pour le chargement de do
 description: Découvrez comment configurer et gérer les détails d’un compte réseau publicitaire.
 feature: Search Campaign Management
 exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
-source-git-commit: 0305fde5c3448899c8ab8d45777a7bc4ed7089ce
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # Gestion des comptes réseau pour les chargements de données
 
 <!-- Edit all, including title and metadata -->
@@ -23,6 +21,8 @@ Pour plus d’informations sur les fonctionnalités disponibles pour chaque rés
 >Pour obtenir des instructions sur la gestion des détails d’un compte de réseau publicitaire que Search, Social et Commerce synchronise à l’aide de l’API du réseau publicitaire, voir « [&#x200B; Gérer les comptes du réseau publicitaire via la connexion API »](../api-accounts/api-account-manage.md) à la place.
 
 ## Créer des détails de compte {#create-account}
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Cliquez sur **[!UICONTROL Create Account]**.
 
@@ -40,7 +40,7 @@ Pour plus d’informations sur les fonctionnalités disponibles pour chaque rés
 
 ## Modifier les détails du compte {#edit-account}
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Sélectionnez le compte de l’une des manières suivantes :
 
@@ -62,27 +62,27 @@ Pour plus d’informations sur les fonctionnalités disponibles pour chaque rés
 
 ## Activer ou désactiver les comptes réseau publicitaires {#enable-disable-account}
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Effectuez l’une des opérations suivantes :
 
    * (Vue [!UICONTROL Accounts]) :
 
-      * (Pour activer le compte) Cochez la case en regard du nom du compte, puis cliquez sur **[!UICONTROL Activate]** dans la barre d’outils des actions en bloc.
+     * (Pour activer le compte) Cochez la case en regard du nom du compte, puis cliquez sur **[!UICONTROL Activate]** dans la barre d’outils des actions en bloc.
 
-      * (Pour désactiver le compte) Cochez la case en regard du nom du compte, puis cliquez sur **[!UICONTROL Pause]** dans la barre d’outils des actions en bloc.
+     * (Pour désactiver le compte) Cochez la case en regard du nom du compte, puis cliquez sur **[!UICONTROL Pause]** dans la barre d’outils des actions en bloc.
 
    * (Dans les paramètres du compte) :
 
-      1. Sélectionnez le compte de l’une des manières suivantes :
+     1. Sélectionnez le compte de l’une des manières suivantes :
 
-         * Placez le curseur sur le nom du compte, cliquez sur **...**, puis sur **[!UICONTROL Edit]**.
+        * Placez le curseur sur le nom du compte, cliquez sur **...**, puis sur **[!UICONTROL Edit]**.
 
-         * Cochez la case en regard du nom du compte, puis cliquez sur **[!UICONTROL Edit]** dans la barre d’outils des actions en masse.
+        * Cochez la case en regard du nom du compte, puis cliquez sur **[!UICONTROL Edit]** dans la barre d’outils des actions en masse.
 
-      1. Dans l’onglet **[!UICONTROL Account Details]** , désactivez **[!UICONTROL Account enabled]**.
+     1. Dans l’onglet **[!UICONTROL Account Details]** , désactivez **[!UICONTROL Account enabled]**.
 
-      1. Cliquez sur **[!UICONTROL Save]**.
+     1. Cliquez sur **[!UICONTROL Save]**.
 
 ## Paramètres du compte {#account-settings-upload}
 

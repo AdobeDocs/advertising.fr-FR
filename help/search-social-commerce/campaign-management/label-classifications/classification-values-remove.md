@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/xT4LpYXeTtuptPWK-HNQPylOzCFi1TT2FfbfEiuSJeo
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: '334'
 ht-degree: 0%
-
 ---
-
 # Supprimer les valeurs de classification de libellé des composants de compte
 
 La suppression d’une valeur de classification supprime l’association avec le composant de compte et tous ses composants enfants. Les données de rapport pour la valeur de classification ne sont plus disponibles pour ces composants. La suppression d’une valeur de classification ne supprime pas la valeur ni les composants de compte.
@@ -27,7 +27,7 @@ La suppression d’une valeur de classification supprime l’association avec le
 
 Vous pouvez supprimer des valeurs de classification de tous les composants de compte applicables disponibles dans la nouvelle interface utilisateur.
 
-1. Ouvrez la vue d’entité à partir du menu **[!UICONTROL Manage]** ou **[!UICONTROL Target]** .
+1. Ouvrez la vue d’entité à partir du menu **[!UICONTROL Manage]** ou **[!UICONTROL Targeting]** .
 
 1. Cochez la case en regard de chaque ligne pertinente.
 
@@ -51,11 +51,11 @@ Vous pouvez supprimer des valeurs de classification de tous les composants de co
 
    * (Pour supprimer des valeurs d’une ou plusieurs entités) Procédez comme suit :
 
-      * Cochez la case en regard de chaque ligne.
+     * Cochez la case en regard de chaque ligne.
 
-        Pour obtenir des conseils sur la sélection de plusieurs lignes, reportez-vous à « [Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) ».
+       Pour obtenir des conseils sur la sélection de plusieurs lignes, reportez-vous à « [Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) ».
 
-      * Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Plus](/help/search-social-commerce/assets/more.png "Plus"), puis sur **[!UICONTROL Classification]**.
+     * Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Plus](/help/search-social-commerce/assets/more.png "Plus"), puis sur **[!UICONTROL Classification]**.
 
 1. Dans la [!UICONTROL Assignment Details], sélectionnez **[!UICONTROL Remove]**.
 

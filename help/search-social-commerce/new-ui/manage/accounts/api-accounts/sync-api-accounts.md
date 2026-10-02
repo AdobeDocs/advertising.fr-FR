@@ -3,13 +3,11 @@ title: (Nouvelle interface utilisateur) Synchroniser manuellement les données r
 description: Découvrez comment déclencher manuellement la synchronisation de votre structure de campagne et de vos entités de campagne pour les réseaux publicitaires pris en charge à partir de la nouvelle interface utilisateur.
 feature: Search Campaign Management
 exl-id: 5e857713-53f0-4d90-8b7a-18a3675d320e
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '368'
 ht-degree: 0%
-
 ---
-
 # (Nouvelle interface utilisateur) Synchronisation manuelle des données réseau et publicitaire via la connexion API
 
 <!-- EDIT ALL -- FROM LEGACY UI -->
@@ -26,23 +24,30 @@ Pour les campagnes comportant l’option « [!UICONTROL Auto Update] », l’op�
 
 >[!NOTE]
 >
->Chaque fois que vous [créez une feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md), vous pouvez éventuellement effectuer une synchronisation avec le réseau publicitaire avant la création de la feuille d’envoi groupé.
+>Chaque fois que vous [créez une feuille d’envoi groupé](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md), vous pouvez éventuellement effectuer une synchronisation avec le réseau publicitaire avant la création de la feuille d’envoi groupé.
 
-## Synchroniser les campagnes dans un compte réseau publicitaire
+## Synchroniser toutes les campagnes dans les comptes de réseau publicitaire
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
-1. Cochez la case en regard du nom du compte.
+1. Cochez la case en regard du nom de chaque compte à synchroniser.
 
    <!-- As of 2/23, you can sync only one acct at a time:  Select the check box next to each account or campaign that you want to sync. You can sync up to 50 campaigns at a time. If you sync more than five accounts at a time, the job is broken into batches of up to five accounts each. -->
 
+1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Sync]**.
+
+Le traitement peut prendre une heure ou plus.
+
+## Synchronisez les campagnes à partir de la vue [!UICONTROL Campaigns].
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Campaigns]**.
+
+1. Cochez la case en regard du nom de chaque campagne à synchroniser.
+
 1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL ... More Actions]** > **[!UICONTROL Sync]**.
 
-   * Placez le curseur sur le nom du compte, cliquez sur **...**, puis sur **[!UICONTROL Edit]**.
-
-Vous pouvez suivre le statut de la tâche de synchronisation dans la vue [!UICONTROL Workspace]. Le travail peut prendre
-une heure ou plus à apparaître.
+Le traitement peut prendre une heure ou plus.
 
 >[!MORELIKETHIS]
 >
->* [Télécharger/créer un fichier de feuille d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
+>* [Télécharger/créer un fichier de feuille d’envoi groupé](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)

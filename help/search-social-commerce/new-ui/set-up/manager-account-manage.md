@@ -2,13 +2,11 @@
 title: (Nouvelle interface utilisateur) Gérer les informations d’identification pour les comptes du gestionnaire Google Ads
 description: Découvrez comment configurer et gérer les informations d’identification des comptes du gestionnaire Google Ads dans la nouvelle interface utilisateur.
 feature: Search Admin
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
-
 ---
-
 # (Nouvelle interface utilisateur) Gestion des informations d’identification pour les comptes [!DNL Google Ads] Manager
 
 *Fonction*

@@ -6,22 +6,22 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/zdshElTCMuExmxn7sV-9fXY8hyjRximonpWr7hAkDtI
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: '302'
 ht-degree: 0%
-
 ---
-
 # Créer une classification de libellé
 
 Chaque annonceur peut avoir jusqu’à 30 classifications de libellés.
 
 ## (Nouvelle interface utilisateur) Créer une classification de libellé
 
-1. Cliquez sur **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Cliquez sur **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Create Classification]**.
 

@@ -1,17 +1,15 @@
 ---
-title: Gérer les affectations de contraintes pour les emplacements
-description: Découvrez comment affecter des contraintes aux emplacements.
+title: Gérer les affectations de contraintes pour les mots-clés
+description: Découvrez comment attribuer des contraintes aux mots-clés.
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
-
 ---
-
-# (Nouvelle interface utilisateur) Gérer les affectations de contraintes pour les emplacements
+# (Nouvelle interface utilisateur) Gérer les affectations de contraintes pour les mots-clés
 
 *Fonction*
 
@@ -26,13 +24,13 @@ L’annulation de l’affectation d’une contrainte supprime l’association av
 >* Si vous modifiez par la suite un mot-clé ou la copie d’une publicité non modifiable (créant ainsi un nouveau mot-clé ou une nouvelle publicité), la contrainte n’est pas affectée à la nouvelle entité.
 >* Les contraintes actives limitent les enchères uniquement pour les unités d’offre affectées dans les portefeuilles optimisés au niveau des mots-clés hérités. Elles sont ignorées pour les unités d&#39;enchères qui se trouvent dans des portefeuilles actifs, dans des portefeuilles hybrides ou qui ne se trouvent pas dans des portefeuilles.
 
-## Affecter une contrainte aux emplacements sélectionnés à partir de la nouvelle vue [!UICONTROL Placements]
+## Affecter une contrainte aux annonces sélectionnées à partir de la nouvelle vue [!UICONTROL Keywords]
 
-Vous pouvez affecter une seule contrainte à un ou plusieurs emplacements.
+Vous pouvez affecter une seule contrainte à une ou plusieurs campagnes.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Target]>[!UICONTROL Placements]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
 
-1. Dans l&#39;onglet **[!UICONTROL Placements]** , cochez la case en regard de chaque emplacement auquel vous affecterez une seule contrainte.
+1. Dans l’onglet **[!UICONTROL Keywords]** , cochez la case en regard de chaque mot-clé auquel vous affecterez une seule contrainte.
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
@@ -60,11 +58,11 @@ Vous pouvez affecter une seule contrainte à un ou plusieurs emplacements.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
-## Supprimer les contraintes des emplacements sélectionnés de la nouvelle vue [!UICONTROL Placements]
+## Supprimer les contraintes des campagnes sélectionnées de la nouvelle vue [!UICONTROL Keywords]
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Target]>[!UICONTROL Placements]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
 
-1. Dans l’onglet **[!UICONTROL Placements]** , cochez la case en regard de chaque emplacement duquel vous annulez l’affectation des contraintes.
+1. Dans l’onglet **[!UICONTROL Keywords]** , cochez la case en regard de chaque mot-clé duquel vous annulez l’affectation des contraintes.
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
@@ -91,4 +89,4 @@ Vous pouvez affecter une seule contrainte à un ou plusieurs emplacements.
 >* [(nouvelle interface utilisateur) Gérer les contraintes pour les unités d’enchères de recherche](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [(nouvelle interface utilisateur) Gérer les affectations de contraintes pour les campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [(Nouvelle interface utilisateur) Gérer les affectations de contraintes pour les groupes publicitaires](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [(Nouvelle interface utilisateur) Gérer les affectations de contraintes pour les mots-clés](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
+>* [(nouvelle interface utilisateur) Gérer les affectations de contraintes pour les emplacements](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)

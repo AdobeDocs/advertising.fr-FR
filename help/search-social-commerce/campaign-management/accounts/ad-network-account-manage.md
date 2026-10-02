@@ -6,20 +6,24 @@ feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: Optimization
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 2136
+source-wordcount: '2136'
 ht-degree: 0%
-
 ---
-
 # Gestion des comptes réseau et
 
 Vous trouverez ci-dessous des instructions pour créer et modifier les détails du compte réseau publicitaire, actualiser le jeton [!DNL oAuth] pour un compte et désactiver les comptes.
@@ -30,7 +34,7 @@ Vous trouverez ci-dessous des instructions pour créer et modifier les détails 
 
 Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
 
-Pour obtenir des instructions sur la gestion des comptes de réseau publicitaire dans la nouvelle interface utilisateur, voir « [(Nouvelle interface utilisateur) Gérer les comptes de réseau publicitaire via une connexion API &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) ».
+Pour obtenir des instructions sur la gestion des comptes de réseau publicitaire dans la nouvelle interface utilisateur, voir « [(Nouvelle interface utilisateur) Gérer les comptes de réseau publicitaire via une connexion API &#x200B;](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) ».
 
 ## Créer un compte réseau publicitaire {#create-account}
 
@@ -139,11 +143,11 @@ Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commer
 
    * (Pour modifier le statut d’un ou de plusieurs comptes) Procédez comme suit :
 
-      1. Cochez la case en regard de chaque compte.
+     1. Cochez la case en regard de chaque compte.
 
-         Pour obtenir des conseils sur la sélection de plusieurs lignes, reportez-vous à « [Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) ».
+        Pour obtenir des conseils sur la sélection de plusieurs lignes, reportez-vous à « [Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) ».
 
-      1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Icône Activer](/help/search-social-commerce/assets/activate.png "Icône Activer") pour activer le compte ou sur ![Icône Désactiver](/help/search-social-commerce/assets/disable.png "Icône Désactiver") pour le désactiver.
+     1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Icône Activer](/help/search-social-commerce/assets/activate.png "Icône Activer") pour activer le compte ou sur ![Icône Désactiver](/help/search-social-commerce/assets/disable.png "Icône Désactiver") pour le désactiver.
 
 ## Paramètres du compte réseau publicitaire {#account-settings}
 
@@ -205,9 +209,9 @@ Les comptes qui utilisent le suivi des clics d’Adobe Advertising doivent inclu
 
 * Pour incorporer l’URL finale :
 
-   * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste de paramètres indiquant les URL finales dans les modèles de tracking, reportez-vous à la [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] uniquement) ou ([!DNL Google Ads] uniquement) aux paramètres « Modèle de tracking uniquement » dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+  * ([!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement) Pour obtenir une liste de paramètres indiquant les URL finales dans les modèles de tracking, reportez-vous à la [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] uniquement) ou ([!DNL Google Ads] uniquement) aux paramètres « Modèle de tracking uniquement » dans la section Paramètres de [!DNL ValueTrack] disponibles dans la [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL LY Ads] uniquement) Utilisez le `!{lpurl}` de paramètre pour indiquer l’URL de la page de destination.
+  * ([!DNL LY Ads] uniquement) Utilisez le `!{lpurl}` de paramètre pour indiquer l’URL de la page de destination.
 
 * Vous pouvez éventuellement inclure des paramètres d’URL et tout paramètre personnalisé défini pour la campagne, séparés par des esperluettes (&amp;), tel que `{lpurl}?matchtype={matchtype}&device={device}`.
 

@@ -3,13 +3,11 @@ title: (Nouvelle interface utilisateur) À propos des comptes réseau publicitai
 description: Découvrez les comptes de réseau publicitaire dans la nouvelle interface utilisateur de Search, Social et Commerce.
 feature: Search Campaign Management
 exl-id: 62c69582-6b95-4ae3-b027-d1efc3deb39e
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
-
 ---
-
 # (Nouvelle interface utilisateur) À propos des comptes réseau publicitaires
 
 Search, Social et Commerce peuvent suivre n’importe quel compte d’un annonceur sur les réseaux publicitaires pris en charge. Pour activer le suivi d’un compte, vous devez créer un enregistrement de compte correspondant. Vous devez configurer les détails du compte pour tout type de compte, que Search, Social et Commerce se synchronise ou non avec lui ou optimise les enchères et les budgets sur ses annonces.
@@ -42,8 +40,8 @@ Vous ne pouvez pas configurer de nouveaux comptes [!DNL Naver] dans Search, Soci
 
 >[!MORELIKETHIS]
 >
->* [Gestion des comptes réseau publicitaires via la connexion API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
->* [Gestion des comptes réseau des publicités pour les chargements de données](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
->* [Gérer [!DNL Naver] les comptes pour le suivi uniquement](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+>* [Gestion des comptes réseau publicitaires via la connexion API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)
+>* [Gestion des comptes réseau des publicités pour les chargements de données](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/data-upload-account-manage.md)
+>* [Gérer [!DNL Naver] les comptes pour le suivi uniquement](/help/search-social-commerce/new-ui/manage/accounts/template-account-manage.md)
 >* [Implémentation  [!DNL Naver]  comptes de tracking uniquement](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [Gérer les comptes de centre commercial](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
