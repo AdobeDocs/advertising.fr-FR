@@ -1,25 +1,25 @@
 ---
-title: Répliquer  [!DNL Google Ads]  campagnes dans  [!DNL Microsoft Advertising]
-description: Découvrez comment exporter vos campagnes synchronisées dans un compte  [!DNL Google Ads]  directement dans un compte  [!DNL Microsoft Advertising] .
+title: Réplication des campagnes [!DNL Google Ads] dans [!DNL Microsoft Advertising]
+description: Découvrez comment exporter vos campagnes synchronisées dans un compte [!DNL Google Ads] directement dans un compte [!DNL Microsoft Advertising] synchronisé.
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
 TQID: https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: '981'
 ht-degree: 0%
-
 ---
-
 # Réplication des campagnes [!DNL Google Ads] dans [!DNL Microsoft Advertising]
 
 >[!NOTE]
 >
->Les instructions pour cette tâche dans la nouvelle interface utilisateur sont disponibles à l’adresse « (Nouvelle interface utilisateur) [Répliquer  [!DNL Google Ads]  campagnes dans [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md) ».
+>Les instructions pour cette tâche dans la nouvelle interface utilisateur sont disponibles à l’adresse « (Nouvelle interface utilisateur) [Répliquer  [!DNL Google Ads]  campagnes dans [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md) ».
 
 Vous pouvez exporter vos campagnes synchronisées dans un compte [!DNL Google Ads] directement vers un compte [!DNL Microsoft Advertising] synchronisé en tant que campagnes CPC améliorées (eCPC). Les offres existantes et les budgets de campagne sont mis à l’échelle. Le suivi Search, Social et Commerce existant n’est pas importé.
 
@@ -35,7 +35,7 @@ Vous pouvez répliquer les types de campagne suivants et leur structure :
 
 Vous pouvez choisir de mettre à jour les campagnes une fois, tous les jours, toutes les semaines ou tous les mois, ou selon le planning recommandé par [!DNL Microsoft Advertising]. Vous pouvez éventuellement configurer des notifications chaque fois qu’une tâche d’importation s’exécute ou que des erreurs ou des modifications se produisent. Une fois que vous avez importé vos campagnes dans [!DNL Microsoft Advertising], vous pouvez vérifier le statut de votre tâche d’importation, consulter les journaux d’erreur, exécuter manuellement une tâche d’importation et modifier, suspendre, activer ou supprimer votre planning d’importation.
 
-Toutes les informations sur les campagnes ne sont pas répliquées, et vous devrez peut-être ajouter certaines informations à vos campagnes [!DNL Microsoft Advertising]. Pour plus d’informations sur les données importées, consultez [!DNL Microsoft Advertising]’aide dans la section « [&#x200B; de quoi est importé  [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851) ». Étant donné que le suivi des recherches, des réseaux sociaux et de Commerce n’est pas importé, vous devez également ajouter le suivi dans les paramètres [compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) ou [annonce](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md).
+Toutes les informations sur les campagnes ne sont pas répliquées, et vous devrez peut-être ajouter certaines informations à vos campagnes [!DNL Microsoft Advertising]. Pour plus d’informations sur les données importées, consultez [!DNL Microsoft Advertising]’aide dans la section « [ de quoi est importé  [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851) ». Étant donné que le suivi des recherches, des réseaux sociaux et de Commerce n’est pas importé, vous devez également ajouter le suivi dans les paramètres [compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) ou [annonce](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md).
 
 ## Réplication des campagnes [!DNL Google Ads]
 
@@ -87,11 +87,11 @@ Vous pouvez répertorier toutes les tâches d’importation, y compris le compte
 
 * Effectuez l’une des opérations suivantes :
 
-   * Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+  * Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
-     Par défaut, la vue s’ouvre sur l’onglet [!UICONTROL List of Import Jobs] .
+    Par défaut, la vue s’ouvre sur l’onglet [!UICONTROL List of Import Jobs] .
 
-   * Dans l’onglet [[!UICONTROL Import Logs] , cliquez &#x200B;](#campaign-import-log) l’onglet **[!UICONTROL List of Import Jobs]** .
+  * Dans l’onglet [[!UICONTROL Import Logs] , cliquez ](#campaign-import-log) l’onglet **[!UICONTROL List of Import Jobs]** .
 
 ## Exécution d’un traitement d’import de campagne
 
@@ -131,15 +131,15 @@ La génération automatique des informations d’identification [!DNL Microsoft 
 
 * *[!UICONTROL Import specific campaigns and adgroups]:* pour sélectionner des campagnes et des groupes publicitaires spécifiques.
 
-   * Pour développer une campagne en ses groupes d’annonces enfants, cliquez sur **[!UICONTROL >]** après le nom de la campagne.
+  * Pour développer une campagne en ses groupes d’annonces enfants, cliquez sur **[!UICONTROL >]** après le nom de la campagne.
 
-   * Pour sélectionner une campagne ou un groupe publicitaire, sélectionnez l’élément afin qu’une coche s’affiche.
+  * Pour sélectionner une campagne ou un groupe publicitaire, sélectionnez l’élément afin qu’une coche s’affiche.
 
-   * Pour supprimer une campagne ou un groupe publicitaire :
+  * Pour supprimer une campagne ou un groupe publicitaire :
 
-      * Dans la colonne [!UICONTROL Campaigns] ou [!UICONTROL Adgroups], désélectionnez la campagne ou le groupe publicitaire afin que la coche disparaisse.
+    * Dans la colonne [!UICONTROL Campaigns] ou [!UICONTROL Adgroups], désélectionnez la campagne ou le groupe publicitaire afin que la coche disparaisse.
 
-      * Dans la colonne [!UICONTROL Selected], cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete.png "Supprimer").
+    * Dans la colonne [!UICONTROL Selected], cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete.png "Supprimer").
 
 ### [!UICONTROL Customize your import]
 

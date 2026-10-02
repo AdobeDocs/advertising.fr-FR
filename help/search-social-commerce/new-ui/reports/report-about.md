@@ -4,20 +4,25 @@ description: Découvrez les rapports de performances planifiés, y compris les d
 feature: Search Reports
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
+    internal-label: Reports
   - id: c916feea-e212-4773-b673-4daed287b8a3
+    internal-label: Assist reports
   - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+    internal-label: Basic reports
   - id: ff99aaef-142d-4c93-a88c-011e979e3843
+    internal-label: Advanced reports
   - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+    internal-label: Model accuracy reports
   - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
-source-git-commit: bd4246ec79684167254a153d2f3d0b917a493096
+    internal-label: Specialty reports
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 0%
-
 ---
-
 # (Nouvelle interface utilisateur) À propos des rapports planifiés
 
 Les rapports de performances planifiés vous permettent de suivre et de gérer les performances de vos portefeuilles, réseaux publicitaires et entités de compte réseau publicitaire avec le niveau de granularité souhaité. La plupart des rapports offrent une visibilité complète sur la manière dont les annonces publicitaires de chaque canal marketing contribuent au taux de conversion global.
@@ -28,7 +33,7 @@ Tous les rapports terminés sont disponibles dans la section [!UICONTROL Latest 
 
 ## Catégories de rapports disponibles
 
-Les catégories de rapports suivantes sont disponibles à partir de la vue [!UICONTROL Scheduled Reports]. Il se peut que vous n’ayez pas accès à tous ces rapports. Les rapports disponibles et les données qu’ils génèrent sont déterminés par votre rôle et par la configuration de votre compte client.
+Les catégories de rapports suivantes sont disponibles à partir de la vue [!UICONTROL Reports] > [!UICONTROL Reports] . Il se peut que vous n’ayez pas accès à tous ces rapports. Les rapports disponibles et les données qu’ils génèrent sont déterminés par votre rôle et par la configuration de votre compte client.
 
 | Catégorie de rapport | Description |
 | ----| ---- |
@@ -42,15 +47,15 @@ Les catégories de rapports suivantes sont disponibles à partir de la vue [!UIC
 
 Planifiez la génération automatique de rapports personnalisés de l’une des façons suivantes, ou des deux :
 
-* Générez automatiquement des rapports chaque jour, ou un jour spécifique de la semaine ou du mois, à l’aide de [&#x200B; modèles de rapport &#x200B;](/help/search-social-commerce/new-ui/reports/report-templates-manage.md).
+* Générez automatiquement des rapports chaque jour, ou un jour spécifique de la semaine ou du mois, à l’aide de [ modèles de rapport ](/help/search-social-commerce/new-ui/reports/report-templates-manage.md).
 
   Vous pouvez éventuellement paramétrer la diffusion [FTP) de rapports de base et avancés](/help/search-social-commerce/new-ui/reports/ftp-reports.md) qui utilisent un modèle.
 
 * Continuez à actualiser vos modèles de feuilles de calcul personnalisés avec les données de performances quotidiennes à l’aide des [flux de feuilles de calcul](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md).
 
-## La vue [!UICONTROL Scheduled Reports]
+## La vue [!UICONTROL Reports]
 
-La vue [!UICONTROL Reports] > [!UICONTROL Scheduled Reports] vous permet de créer et de gérer des rapports, des modèles et des flux de feuilles de calcul. La vue comprend deux onglets :
+La vue [!UICONTROL Reports] > [!UICONTROL Reports] vous permet de créer et de gérer des rapports, des modèles et des flux de feuilles de calcul. La vue comprend deux onglets :
 
 * L’onglet **[!UICONTROL Latest Reports]** répertorie tous les rapports disponibles qui ont été demandés au cours des sept derniers jours, à l’exception de ceux qui ont été supprimés manuellement, le rapport le plus récent étant en haut par défaut. Les informations affichées pour chaque rapport incluent le planning de son exécution (le cas échéant), les dates de début et de fin pour lesquelles des données ont été ou seront générées, ainsi que le statut du rapport (*[!UICONTROL Finished]*, *[!UICONTROL In Progress]* ou *[!UICONTROL Error]*).
 
@@ -68,8 +73,8 @@ La vue [!UICONTROL Reports] > [!UICONTROL Scheduled Reports] vous permet de cré
 | ---- | ---- |
 | Surveillance des performances | <ul><li>[Le [!UICONTROL Portfolio Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/portfolio-report.md)</li><li>[Le [!UICONTROL Search Engine Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-report.md)</li><li>[Le [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[Le [!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)</li><li>[Le [!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)</li><li>[Le [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | Dépannage des performances et analyse des tendances | <ul><li>[Le [!UICONTROL Keyword Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/keyword-report.md)</li><li>[Le [!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)</li><li>[Le [!UICONTROL Transaction Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/transaction-report.md)</li><li>[Le [!UICONTROL RSA Asset Report]](/help/search-social-commerce/new-ui/reports/management/specialty/rsa-asset-report.md)</li><li>[Le [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/keyword-daily-impression-share-report.md) et [Le [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>Tout rapport de base qui compare deux fenêtres temporelles à l’aide de la fonction « [!UICONTROL Compare with] »</li></ul> |
-| Identifier les opportunités de croissance commerciale | <ul><li>(Annonceurs avec suivi des conversions Adobe Advertising uniquement) [Le [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Annonceurs avec suivi des conversions Adobe Advertising uniquement) [Le [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Annonceurs avec [&#x200B; [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr)) Rapports personnalisés dans Adobe Analytics Analysis Workspace</li></ul> |
-| Analytics | <ul><li>(Annonceurs avec suivi des conversions Adobe Advertising uniquement) [Le [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(Annonceurs avec [&#x200B; [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr)) Rapports personnalisés dans Adobe Analytics Analysis Workspace</li></ul> |
+| Identifier les opportunités de croissance commerciale | <ul><li>(Annonceurs avec suivi des conversions Adobe Advertising uniquement) [Le [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Annonceurs avec suivi des conversions Adobe Advertising uniquement) [Le [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Annonceurs avec [ [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Rapports personnalisés dans Adobe Analytics Analysis Workspace</li></ul> |
+| Analytics | <ul><li>(Annonceurs avec suivi des conversions Adobe Advertising uniquement) [Le [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(Annonceurs avec [ [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Rapports personnalisés dans Adobe Analytics Analysis Workspace</li></ul> |
 
 >[!MORELIKETHIS]
 >

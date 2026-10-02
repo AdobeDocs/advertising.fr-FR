@@ -1,27 +1,15 @@
 ---
-title: Gérer les affectations de contraintes pour les groupes publicitaires
-description: Découvrez comment attribuer des contraintes aux groupes d’annonces.
+title: Gérer les affectations de contraintes pour les mots-clés
+description: Découvrez comment attribuer des contraintes aux mots-clés.
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
-TQID: https://experienceleague.adobe.com/6z4-Pt25RaQpLiEYdnp-BXD0guz9S2zQLmamf8uSSXU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-    internal-label: Advertising
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-    internal-label: Search optimization
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
+exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
 source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '464'
 ht-degree: 0%
 ---
-# (Nouvelle interface utilisateur) Gérer les affectations de contraintes pour les groupes publicitaires
+# (Nouvelle interface utilisateur) Gérer les affectations de contraintes pour les mots-clés
 
 *Fonction*
 
@@ -31,11 +19,18 @@ Les contraintes sont héritées par les entités enfants. Il n’est donc pas n�
 
 L’annulation de l’affectation d’une contrainte supprime l’association avec les composants de compte et tous leurs composants enfants, et les données de rapport pour la contrainte ne sont plus disponibles pour ces composants. L’annulation de l’affectation d’une contrainte ne supprime pas la contrainte ni les composants de compte eux-mêmes.
 
-## Affecter une contrainte aux groupes publicitaires sélectionnés à partir de la nouvelle vue [!UICONTROL Ad Groups]
+>[!NOTE]
+>
+>* Si vous modifiez par la suite un mot-clé ou la copie d’une publicité non modifiable (créant ainsi un nouveau mot-clé ou une nouvelle publicité), la contrainte n’est pas affectée à la nouvelle entité.
+>* Les contraintes actives limitent les enchères uniquement pour les unités d’offre affectées dans les portefeuilles optimisés au niveau des mots-clés hérités. Elles sont ignorées pour les unités d&#39;enchères qui se trouvent dans des portefeuilles actifs, dans des portefeuilles hybrides ou qui ne se trouvent pas dans des portefeuilles.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
+## Affecter une contrainte aux annonces sélectionnées à partir de la nouvelle vue [!UICONTROL Keywords]
 
-1. Cochez la case en regard de chaque groupe d’annonces auquel vous affecterez une seule contrainte.
+Vous pouvez affecter une seule contrainte à une ou plusieurs campagnes.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
+
+1. Dans l’onglet **[!UICONTROL Keywords]** , cochez la case en regard de chaque mot-clé auquel vous affecterez une seule contrainte.
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
@@ -63,11 +58,11 @@ L’annulation de l’affectation d’une contrainte supprime l’association av
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
-## Supprimer les contraintes des groupes publicitaires sélectionnés de la nouvelle vue [!UICONTROL Ad Groups]
+## Supprimer les contraintes des campagnes sélectionnées de la nouvelle vue [!UICONTROL Keywords]
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
 
-1. Cochez la case en regard de chaque groupe d’annonces duquel vous annulerez l’affectation des contraintes.
+1. Dans l’onglet **[!UICONTROL Keywords]** , cochez la case en regard de chaque mot-clé duquel vous annulez l’affectation des contraintes.
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
@@ -93,5 +88,5 @@ L’annulation de l’affectation d’une contrainte supprime l’association av
 >
 >* [(nouvelle interface utilisateur) Gérer les contraintes pour les unités d’enchères de recherche](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [(nouvelle interface utilisateur) Gérer les affectations de contraintes pour les campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [(Nouvelle interface utilisateur) Gérer les affectations de contraintes pour les mots-clés](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+>* [(Nouvelle interface utilisateur) Gérer les affectations de contraintes pour les groupes publicitaires](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [(nouvelle interface utilisateur) Gérer les affectations de contraintes pour les emplacements](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
