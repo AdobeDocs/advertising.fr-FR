@@ -3,20 +3,26 @@ title: '[!UICONTROL Bing Ads Geo Report]'
 description: En savoir plus sur le [!UICONTROL Bing Ads Geo Report].
 exl-id: 8829ac72-d622-485d-abfb-310778f266b7
 feature: Search Reports, Search Specialty Reports
-TQID: https://experienceleague.adobe.com/eHhR6-ryKtKJFBuvC-U1a3D72b8QgJip8D5pf3kKZKM
+TQID: 'https://experienceleague.adobe.com/eHhR6-ryKtKJFBuvC-U1a3D72b8QgJip8D5pf3kKZKM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 225
+source-wordcount: '230'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Bing Ads Geo Report]
 
 Comptes *[!DNL Microsoft Advertising]uniquement*
@@ -28,7 +34,7 @@ Vous pouvez afficher les données des deux mois précédents.
 >[!NOTE]
 >
 >* Les totaux de ce rapport peuvent différer des totaux des mêmes campagnes et périodes dans le [!UICONTROL Geo Distribution Report] (compilé par Search, Social et Commerce) en raison de fournisseurs et de méthodologies différents pour déterminer les emplacements géographiques.
->* Les données de ce rapport sont extraites pour la journée précédente à 23 :00 (23 :00) chaque jour. Par exemple, à 23:00 le 18 juin, il extrait les données du 17 juin. Si vous exécutez le rapport le 19 juin à 09:00 avant l’extraction des données du 18 juin, le rapport inclut les données jusqu’au 17 juin à 23:00.
+>* Les données de ce rapport sont extraites pour la journée précédente à 23 h (23 h) chaque jour. Par exemple, à 23 h le 18 juin, il extrait les données du 17 juin. Si vous exécutez le rapport le 19 juin à 09:00 (avant l’extraction des données du 18 juin), le rapport inclut les données jusqu’au 17 juin à 23:00.
 
 ## Colonnes par défaut
 

@@ -3,27 +3,31 @@ title: Gérer les multiplicateurs d’enchères pour les placements
 description: Découvrez comment créer et modifier des multiplicateurs d’enchères pour vos cibles de placement.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-TQID: https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0
+TQID: 'https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: '912'
 ht-degree: 1%
-
 ---
-
 # Gérer les multiplicateurs d’enchères pour les placements
 
 Vous pouvez créer et gérer des multiplicateurs d&#39;enchères, par lesquels une enchère calculée par algorithme est multipliée pour augmenter ou diminuer l&#39;enchère, pour vos cibles d&#39;emplacement existantes de [types de cible éligibles](#bid-multiplier-by-target). Vous pouvez modifier manuellement les valeurs du multiplicateur d’enchères pour un emplacement ou charger une feuille de calcul avec des valeurs pour un ou plusieurs emplacements.
 
-Par défaut, le multiplicateur d’enchères pour une cible est de 1,00, ce qui signifie que l’enchère n’est pas ajustée pour cette cible. Les valeurs peuvent être comprises entre 0,10 et 10,00. Par exemple, un multiplicateur d’enchères de 0,5 réduit une enchère de 6 USD à 3 USD (0,5 x 6). Lorsqu&#39;une mise aux enchères est admissible pour plusieurs conditions commerciales d&#39;offre, tous les multiplicateurs d&#39;offre applicables sont multipliés. Par exemple, si la Californie a un multiplicateur d’enchères de 2 et que San Francisco a un multiplicateur d’enchères de 3, le multiplicateur d’enchères final pour les publicités diffusées à San Francisco est de 6.
+Par défaut, le multiplicateur d’enchères pour une cible est de 1,00, ce qui signifie que l’enchère n’est pas ajustée pour cette cible. Les valeurs peuvent être comprises entre 0,10 et 10,00. Par exemple, un multiplicateur d’enchères de 0,5 réduit une enchère USD 6 sur USD 3 (0,5 x 6). Lorsqu&#39;une mise aux enchères est admissible pour plusieurs conditions commerciales d&#39;offre, tous les multiplicateurs d&#39;offre applicables sont multipliés. Par exemple, si la Californie a un multiplicateur d’enchères de 2 et que San Francisco a un multiplicateur d’enchères de 3, le multiplicateur d’enchères final pour les publicités diffusées à San Francisco est de 6.
 
 >[!NOTE]
 >
@@ -31,7 +35,7 @@ Par défaut, le multiplicateur d’enchères pour une cible est de 1,00, ce qui 
 
 Vous pouvez définir des multiplicateurs d&#39;enchères (avec des valeurs autres que 1,00) pour un [nombre limité de cibles](#bid-multiplier-limits-by-target).
 
-Cette fonctionnalité fonctionne avec vos cibles d’emplacement existantes. Pour modifier les cibles sélectionnées pour vos emplacements, voir « [&#x200B; Modifier les emplacements &#x200B;](/help/dsp/campaign-management/placements/placement-edit.md). »
+Cette fonctionnalité fonctionne avec vos cibles d’emplacement existantes. Pour modifier les cibles sélectionnées pour vos emplacements, voir « [ Modifier les emplacements ](/help/dsp/campaign-management/placements/placement-edit.md). »
 
 ## Gérer les multiplicateurs d’enchères pour un emplacement unique
 
@@ -53,21 +57,21 @@ Vous pouvez modifier manuellement les valeurs ou charger une feuille de calcul p
 
    * Pour charger un fichier CSV avec des valeurs de multiplicateur d’enchères afin de remplacer toutes les valeurs existantes :
 
-      1. Cliquez sur **[!UICONTROL CSV File Edit]** en haut à droite.
+     1. Cliquez sur **[!UICONTROL CSV File Edit]** en haut à droite.
 
-      1. Soit a) cliquez sur **[!UICONTROL Download Template]** et modifiez le fichier, soit b) modifiez un modèle téléchargé précédemment. Enregistrez le fichier modifié sur votre appareil ou réseau.
+     1. Soit a) cliquez sur **[!UICONTROL Download Template]** et modifiez le fichier, soit b) modifiez un modèle téléchargé précédemment. Enregistrez le fichier modifié sur votre appareil ou réseau.
 
-         Les feuilles de calcul téléchargées comprennent une feuille pour chaque type de cible (par exemple, pays, sources et catégorie de site). Seuls les multiplicateurs d&#39;enchères existants dont les valeurs sont &lt; 1,0 ou > 1,0 sont inclus.
+        Les feuilles de calcul téléchargées comprennent une feuille pour chaque type de cible (par exemple, pays, sources et catégorie de site). Seuls les multiplicateurs d&#39;enchères existants dont les valeurs sont &lt; 1,0 ou > 1,0 sont inclus.
 
-         * Pour ajouter un multiplicateur d&#39;enchères pour une cible existante, saisissez la cible en utilisant la même syntaxe que celle visible dans l&#39;interface utilisateur et la valeur du multiplicateur d&#39;enchères correspondant.
+        * Pour ajouter un multiplicateur d&#39;enchères pour une cible existante, saisissez la cible en utilisant la même syntaxe que celle visible dans l&#39;interface utilisateur et la valeur du multiplicateur d&#39;enchères correspondant.
 
-         * Pour supprimer un modificateur d&#39;offre, définissez la valeur du multiplicateur d&#39;offre sur 1,0 ou supprimez toutes les informations de la ligne.
+        * Pour supprimer un modificateur d&#39;offre, définissez la valeur du multiplicateur d&#39;offre sur 1,0 ou supprimez toutes les informations de la ligne.
 
-         ![Exemple de ligne dans un fichier de feuille de calcul du multiplicateur d&#39;enchères](/help/dsp/assets/bid-multiplier-spreadsheet.png "Exemple de ligne dans un fichier de feuille de calcul du multiplicateur d&#39;enchères")
+        ![Exemple de ligne dans un fichier de feuille de calcul du multiplicateur d&#39;enchères](/help/dsp/assets/bid-multiplier-spreadsheet.png "Exemple de ligne dans un fichier de feuille de calcul du multiplicateur d&#39;enchères")
 
-      1. Cliquez sur **[!UICONTROL Next]** pour accéder à la section [!UICONTROL Upload File] et a) faites glisser et déposez le fichier modifié dans la zone ou b) cliquez à l’intérieur de la zone pour sélectionner le fichier sur votre appareil ou réseau.
+     1. Cliquez sur **[!UICONTROL Next]** pour accéder à la section [!UICONTROL Upload File] et a) faites glisser et déposez le fichier modifié dans la zone ou b) cliquez à l’intérieur de la zone pour sélectionner le fichier sur votre appareil ou réseau.
 
-      1. Vérifiez les données chargées dans la section [!UICONTROL Review & Submit], puis cliquez sur **[!UICONTROL Save]**.
+     1. Vérifiez les données chargées dans la section [!UICONTROL Review & Submit], puis cliquez sur **[!UICONTROL Save]**.
 
 ## Charger les multiplicateurs d’enchères pour un ou plusieurs emplacements
 

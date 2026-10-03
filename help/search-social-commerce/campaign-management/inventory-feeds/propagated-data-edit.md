@@ -3,18 +3,21 @@ title: Modifier les données générées à partir des flux
 description: Découvrez comment modifier les données générées à partir des flux de données d’inventaire.
 exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/YAjOramjWXPJmOkLB2dhjG3PLUUAEbDAPRBYLVSl3vo
+TQID: 'https://experienceleague.adobe.com/YAjOramjWXPJmOkLB2dhjG3PLUUAEbDAPRBYLVSl3vo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 426
+source-wordcount: '426'
 ht-degree: 0%
-
 ---
-
 # Modifier les données générées à partir des flux
 
 comptes *[!DNL Google Ads], [!DNL LY Ads] (actions de suppression uniquement), [!DNL Microsoft Advertising] et [!DNL Yandex] uniquement*
@@ -27,32 +30,32 @@ Lorsque vous propagez des données de flux sans les publier simultanément sur l
 
   Les vues de hiérarchie de la campagne affichent uniquement les données générées à partir du fichier de flux, et non les composants de compte existants. Une fois les données d’un composant et de tous ses sous-composants publiées sur le réseau publicitaire, elles ne sont plus répertoriées dans la hiérarchie de la campagne.
 
-   1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** pour ouvrir l’onglet [!UICONTROL Templates] .
+  1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** pour ouvrir l’onglet [!UICONTROL Templates] .
 
-   1. (Facultatif) Pour afficher uniquement les composants de campagne créés pour un modèle spécifique :
+  1. (Facultatif) Pour afficher uniquement les composants de campagne créés pour un modèle spécifique :
 
-      1. Cliquez sur le nom du modèle.
+     1. Cliquez sur le nom du modèle.
 
-      1. Dans le menu [!UICONTROL Accounts] du volet de navigation de gauche, développez le nœud de réseau publicitaire et le nœud de compte de réseau publicitaire, puis cochez la case en regard du nom du modèle.
+     1. Dans le menu [!UICONTROL Accounts] du volet de navigation de gauche, développez le nœud de réseau publicitaire et le nœud de compte de réseau publicitaire, puis cochez la case en regard du nom du modèle.
 
-   1. Cliquez sur l’onglet **[!UICONTROL Campaigns]**, **[!UICONTROL Ad Groups]**, **[!UICONTROL Keywords]** ou **[!UICONTROL Ads]** , selon les composants que vous souhaitez afficher.
+  1. Cliquez sur l’onglet **[!UICONTROL Campaigns]**, **[!UICONTROL Ad Groups]**, **[!UICONTROL Keywords]** ou **[!UICONTROL Ads]** , selon les composants que vous souhaitez afficher.
 
-      >[!NOTE]
-      >
-      >* À moins que vous n’affichiez des données pour un modèle spécifique, les onglets [!UICONTROL Ad Groups], [!UICONTROL Keywords] et [!UICONTROL Ads] répertorient tous les groupes publicitaires, mots-clés et publicités créés à partir de tous les modèles et fichiers de flux. Les groupes de produits utilisés pour les annonces d’achats [!DNL Google Ads] sont répertoriés dans l’onglet [!UICONTROL Keywords] .
-      >* Pour afficher uniquement les sous-composants d’une campagne spécifique, commencez par consulter l’onglet [!UICONTROL Campaigns] . De même, pour afficher uniquement les sous-composants d’un groupe publicitaire spécifique, commencez par afficher l’onglet [!UICONTROL Ad Groups] .
+     >[!NOTE]
+     >
+     >* À moins que vous n’affichiez des données pour un modèle spécifique, les onglets [!UICONTROL Ad Groups], [!UICONTROL Keywords] et [!UICONTROL Ads] répertorient tous les groupes publicitaires, mots-clés et publicités créés à partir de tous les modèles et fichiers de flux. Les groupes de produits utilisés pour les annonces d’achats [!DNL Google Ads] sont répertoriés dans l’onglet [!UICONTROL Keywords] .
+     >* Pour afficher uniquement les sous-composants d’une campagne spécifique, commencez par consulter l’onglet [!UICONTROL Campaigns] . De même, pour afficher uniquement les sous-composants d’un groupe publicitaire spécifique, commencez par afficher l’onglet [!UICONTROL Ad Groups] .
 
-   1. (Facultatif ; pour modifier uniquement des groupes publicitaires, des mots-clés ou des annonces) Filtrez la liste afin d’inclure uniquement les sous-composants d’une campagne ou d’un groupe publicitaire spécifique :
+  1. (Facultatif ; pour modifier uniquement des groupes publicitaires, des mots-clés ou des annonces) Filtrez la liste afin d’inclure uniquement les sous-composants d’une campagne ou d’un groupe publicitaire spécifique :
 
-      * Pour répertorier tous les groupes publicitaires d’une campagne, cliquez sur le nom de la campagne.
+     * Pour répertorier tous les groupes publicitaires d’une campagne, cliquez sur le nom de la campagne.
 
-      * Pour répertorier tous les mots-clés d’un groupe publicitaire, cliquez sur le nom du groupe publicitaire.
+     * Pour répertorier tous les mots-clés d’un groupe publicitaire, cliquez sur le nom du groupe publicitaire.
 
-      * Pour répertorier toutes les publicités comme dans un groupe publicitaire, cliquez sur le nom du groupe publicitaire, puis cliquez sur l’onglet [!UICONTROL Ads] .
+     * Pour répertorier toutes les publicités comme dans un groupe publicitaire, cliquez sur le nom du groupe publicitaire, puis cliquez sur l’onglet [!UICONTROL Ads] .
 
-   1. Cliquez sur [icône Afficher/modifier les paramètres](/help/search-social-commerce/assets/settings.png "Icône Afficher/modifier les paramètres") en regard de la campagne, du groupe publicitaire, du mot-clé ou du nom de l’annonce.
+  1. Cliquez sur [icône Afficher/modifier les paramètres](/help/search-social-commerce/assets/settings.png "Icône Afficher/modifier les paramètres") en regard de la campagne, du groupe publicitaire, du mot-clé ou du nom de l’annonce.
 
-   1. Modifiez les paramètres, puis cliquez sur **[!UICONTROL Save]**.
+  1. Modifiez les paramètres, puis cliquez sur **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >

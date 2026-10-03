@@ -1,22 +1,29 @@
 ---
 title: Chargement des données de conversion hors ligne pour les conversions améliorées
-description: Découvrez comment charger des données de conversion propriétaires hors ligne pour mapper vers des conversions  [!DNL Google Ads]  pour les prospects et des conversions  [!DNL Microsoft Advertising] .
+description: Découvrez comment charger des données de conversion propriétaires hors ligne pour mapper vers des conversions améliorées [!DNL Google Ads] pour les prospects et les conversions améliorées [!DNL Microsoft Advertising].
 feature: Conversions
 exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-TQID: https://experienceleague.adobe.com/Hfmc5VCw9682cYmOQIcoy1Yy6InkoSmE18qqILbD2oI
+TQID: 'https://experienceleague.adobe.com/Hfmc5VCw9682cYmOQIcoy1Yy6InkoSmE18qqILbD2oI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ab69d6b27b86f6e4d9da6be3cd0245d6116469d3
+    internal-label: Personalization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 792
+source-wordcount: '794'
 ht-degree: 0%
-
 ---
-
 # Chargement des données de conversion hors ligne pour les conversions améliorées
 
 Comptes *[!DNL Google Ads]et [!DNL Microsoft Advertising] uniquement*
@@ -65,7 +72,7 @@ Pour plus d’informations sur le formatage et le hachage des données, consulte
 | [!UICONTROL Email] | L’adresse e-mail de l’utilisateur, qui doit être hachée à l’aide de l’algorithme SHA-256. Chaque ligne doit inclure une valeur [!UICONTROL Email] ou une valeur [!UICONTROL Phone Number]. |
 | [!UICONTROL Phone Number] | Le numéro de téléphone de l’utilisateur ou de l’utilisatrice, qui doit être haché à l’aide de l’algorithme SHA-256. Il doit inclure un code de pays et peut contenir des tirets et d’autres symboles. Pour les conversions hors ligne améliorées, chaque ligne doit inclure une valeur [!UICONTROL Email] ou une valeur [!UICONTROL Phone Number]. |
 | [!UICONTROL Conversion Name] | (Obligatoire) Nom de l’action de conversion. |
-| [!UICONTROL Conversion Time] | (Obligatoire) Heure à laquelle l’événement de conversion s’est produit. Si vous n’incluez pas l’identifiant de fuseau horaire du compte sur la ligne `Parameters:TimeZone=insert_timezone` au-dessus du tableau de données, incluez le fuseau horaire de chaque ligne à l’aide du décalage GMT, comme indiqué par + ou - et la différence temporelle à 4 chiffres (comme -0500 pour New York, +0100 pour Berlin ou +0000 pour le temps universel coordonné). Pour obtenir la liste des fuseaux horaires de différentes villes, voir [&#128279;](https://learn.microsoft.com/en-us/advertising/guides/time-zones), mais veillez à utiliser le format spécifié ici au lieu du format de la liste des fuseaux horaires. |
+| [!UICONTROL Conversion Time] | (Obligatoire) Heure à laquelle l’événement de conversion s’est produit. Si vous n’incluez pas l’identifiant de fuseau horaire du compte sur la ligne `Parameters:TimeZone=insert_timezone` au-dessus du tableau de données, incluez le fuseau horaire de chaque ligne à l’aide du décalage GMT, comme indiqué par + ou - et la différence temporelle à 4 chiffres (comme -0500 pour New York, +0100 pour Berlin ou +0000 pour le temps universel coordonné). Pour obtenir la liste des fuseaux horaires de différentes villes, voir [](https://learn.microsoft.com/en-us/advertising/guides/time-zones), mais veillez à utiliser le format spécifié ici au lieu du format de la liste des fuseaux horaires. |
 | [!UICONTROL Conversion Value] | (Obligatoire) Valeur de conversion numérique. |
 | [!UICONTROL Conversion Currency] | Code de devise de l’événement de conversion. |
 

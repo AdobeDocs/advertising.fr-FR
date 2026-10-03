@@ -3,26 +3,37 @@ title: À propos des insights
 description: Découvrez les informations sur les performances des visualisations.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-TQID: https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4
+TQID: 'https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4da54d315e39dac4799887e876272102b8efe4f9
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1369
+source-wordcount: '1384'
 ht-degree: 0%
-
 ---
-
 # À propos des insights
 
 Grâce aux visualisations, vous obtenez des informations de haut niveau sur les performances qui vous permettent d’optimiser efficacement vos campagnes et de découvrir de nouvelles opportunités d’optimisation des performances. Vous pouvez afficher les données de plusieurs campagnes pour un annonceur spécifié ou effectuer une analyse vers le bas à un niveau inférieur.
@@ -43,7 +54,7 @@ Vous pouvez également [modifier la période, configurer la vue et enregistrer u
 
 ### onglet [!UICONTROL Home]
 
-L’onglet [!UICONTROL Home] fournit des mesures clés de norme, de performances et de visibilité sur toutes les campagnes d’un annonceur. Par défaut, les données d’emplacement croisé pour un annonceur spécifique et un objectif personnalisé s’affichent. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur, d’un autre objectif personnalisé ou d’un emplacement spécifique. <!-- I don't see campaigns or packages anymore:  You can optionally configure filters to show data for a different advertiser or data for only specific campaigns, packages, custom goals, and placements. --> Les informations incluent :
+L’onglet [!UICONTROL Home] fournit des mesures clés de norme, de performances et de visibilité sur toutes les campagnes d’un annonceur. Par défaut, les données d’emplacement croisé pour un annonceur spécifique et un objectif personnalisé s’affichent. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur, d’un autre objectif personnalisé ou d’un emplacement spécifique. <!-- I don't see campaigns or packages anymore:  You can optionally configure filters to show data for a different advertiser or data for only specific campaigns, packages, custom goals, and placements. --> Ces informations incluent :
 
 * **[!UICONTROL Trends]:** graphique de tendance pour trois mesures spécifiées par le client (par défaut, [!UICONTROL Net Spend], [!UICONTROL Impressions] et [!UICONTROL Net CPM]).
 
@@ -69,9 +80,9 @@ L’onglet [!UICONTROL Household Reach] fournit des mesures de portée des ména
 
   Les niveaux d&#39;impact sont les suivants :
 
-   * **Impact important :** envisager d’augmenter le budget.
-   * **Impact modéré**
-   * **Impact limité :** attention requise
+  * **Impact important :** envisager d’augmenter le budget.
+  * **Impact modéré**
+  * **Impact limité :** attention requise
 
 ### onglet [!UICONTROL Household Conversion]
 
@@ -91,9 +102,9 @@ L’onglet [!UICONTROL Household Conversion] fournit des mesures de conversion d
 
   Les niveaux d&#39;impact sont les suivants :
 
-   * **Impact important :** envisager d’augmenter le budget.
-   * **Impact modéré**
-   * **Impact limité :** attention requise
+  * **Impact important :** envisager d’augmenter le budget.
+  * **Impact modéré**
+  * **Impact limité :** attention requise
 
 ### onglet [!UICONTROL Audience Analysis]
 
@@ -109,15 +120,15 @@ Ces informations incluent :
 
 * **[!UICONTROL Audience Funnel Analysis]:** tableau de séries temporelles quotidiennes qui montre comment votre audience cible diminue du pool total disponible pour atteindre le niveau d’impression réel après l’application de tous les filtres de ciblage et d’éligibilité. Les données s’affichent pour la journée précédente. Le funnel inclut les mesures suivantes, dans l’ordre décroissant :
 
-   * **[!UICONTROL Total Target Audience]:** nombre total d’utilisateurs uniques dans l’audience agrégée.
+  * **[!UICONTROL Total Target Audience]:** nombre total d’utilisateurs uniques dans l’audience agrégée.
 
-   * **[!UICONTROL Reachable Audience (Last 24 Hours)]:** nombre d’utilisateurs de l’audience cible qui étaient actifs dans le flux d’enchères au cours de la période de 24 heures précédente. Ce nombre inclut chaque utilisateur de la portée, que l’emplacement lui ait été proposé ou non. Une diminution du [!UICONTROL Total Target Audience] au [!UICONTROL Reachable Audience] reflète la partie de l&#39;audience qui n&#39;était pas active dans le flux d&#39;enchères au cours de la période de rapport, ce qui ne reflète pas la performance des enchères.
+  * **[!UICONTROL Reachable Audience (Last 24 Hours)]:** nombre d’utilisateurs de l’audience cible qui étaient actifs dans le flux d’enchères au cours de la période de 24 heures précédente. Ce nombre inclut chaque utilisateur de la portée, que l’emplacement lui ait été proposé ou non. Une diminution du [!UICONTROL Total Target Audience] au [!UICONTROL Reachable Audience] reflète la partie de l&#39;audience qui n&#39;était pas active dans le flux d&#39;enchères au cours de la période de rapport, ce qui ne reflète pas la performance des enchères.
 
-   * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:** sous-ensemble d’utilisateurs accessibles qui restent après l’application des filtres de zone géographique, de type d’appareil, de système d’exploitation et de navigateur. Si ce nombre est considérablement inférieur à [!UICONTROL Reachable Audience], pensez à déterminer si le ciblage de type d’appareil ou de zone géographique est trop restrictif.
+  * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:** sous-ensemble d’utilisateurs accessibles qui restent après l’application des filtres de zone géographique, de type d’appareil, de système d’exploitation et de navigateur. Si ce nombre est considérablement inférieur à [!UICONTROL Reachable Audience], pensez à déterminer si le ciblage de type d’appareil ou de zone géographique est trop restrictif.
 
   **[!UICONTROL Devices/Ad Opportunities Bid On]:** nombre d&#39;opportunités éligibles pour lesquelles l&#39;emplacement a soumis une offre. Une baisse marquée à ce stade peut indiquer des contraintes de budget ou de rythme qui limitent le volume des offres.
 
-   * **[!UICONTROL Impression Wins]:** nombre d’opportunités pour lesquelles l’emplacement a obtenu une impression. Si les gains sont beaucoup plus faibles que les enchères, le prix de votre enchère peut être inférieur au taux du marché en vigueur pour l&#39;inventaire ciblé.
+  * **[!UICONTROL Impression Wins]:** nombre d’opportunités pour lesquelles l’emplacement a obtenu une impression. Si les gains sont beaucoup plus faibles que les enchères, le prix de votre enchère peut être inférieur au taux du marché en vigueur pour l&#39;inventaire ciblé.
 
 ## Affichage des informations sur les performances
 

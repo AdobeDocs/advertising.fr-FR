@@ -1,20 +1,23 @@
 ---
 title: Modifier le statut des emplacements et des emplacements négatifs
-description: Découvrez comment modifier le statut des emplacements et des emplacements négatifs pour  [!DNL Google Ads].
+description: Découvrez comment modifier le statut des emplacements et des emplacements négatifs pour les [!DNL Google Ads].
 exl-id: 3c54a80e-6f4c-4936-97b1-67ac8de24830
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/-V9u4kusa44SSH95feX1PKCrVTyxWfTX96KBqU4UtZg
+TQID: 'https://experienceleague.adobe.com/-V9u4kusa44SSH95feX1PKCrVTyxWfTX96KBqU4UtZg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 180
+source-wordcount: '177'
 ht-degree: 0%
-
 ---
-
 # Modifier le statut des emplacements [!DNL Google Ads] et des emplacements négatifs
 
 Vous pouvez mettre en pause un emplacement actif pouvant faire l’objet d’une offre afin de désactiver les enchères associées. Vous pouvez ensuite reprendre les enchères en redéfinissant leur statut sur Actif.

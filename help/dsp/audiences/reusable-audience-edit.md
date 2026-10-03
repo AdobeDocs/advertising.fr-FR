@@ -3,22 +3,26 @@ title: Modification d’une audience réutilisable
 description: Découvrez comment modifier une audience réutilisable.
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-TQID: https://experienceleague.adobe.com/NkmnBZ5GKhOxmOJZhIS8-V99cV7x2-DTl-tp1cij8W4
+TQID: 'https://experienceleague.adobe.com/NkmnBZ5GKhOxmOJZhIS8-V99cV7x2-DTl-tp1cij8W4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 459
+source-wordcount: '461'
 ht-degree: 0%
-
 ---
-
 # Modification d’une audience réutilisable
 
 Lorsque vous modifiez une audience utilisée à des emplacements ou dans d’autres audiences réutilisables, les modifications sont immédiatement appliquées à ces emplacements et audiences.<!-- verify -->
@@ -41,43 +45,43 @@ Lorsque vous modifiez une audience utilisée à des emplacements ou dans d’aut
 
    * (Facultatif) Pour modifier manuellement la logique du segment à l’aide des segments disponibles dans les onglets [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] et [!UICONTROL Saved Audiences]](audience-settings.md) procédez comme suit.
 
-      * Pour ajouter un segment à un groupe de segments existant :
+     * Pour ajouter un segment à un groupe de segments existant :
 
-      1. Cliquez sur le groupe de segments dans le panneau de droite.
+     1. Cliquez sur le groupe de segments dans le panneau de droite.
 
-      1. (Facultatif) Modifiez la logique de groupe en *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, selon les besoins.
+     1. (Facultatif) Modifiez la logique de groupe en *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, selon les besoins.
 
-         *[!UICONTROL Exclude All]* n’est pas disponible pour le premier groupe de segments. Pour une audience qui comprend uniquement des exclusions, créez-la sous la forme *[!UICONTROL Include Any]*, puis, au sein d’un emplacement, sélectionnez-la dans le menu Audiences exclues .
+        *[!UICONTROL Exclude All]* n’est pas disponible pour le premier groupe de segments. Pour une audience qui comprend uniquement des exclusions, créez-la sous la forme *[!UICONTROL Include Any]*, puis, au sein d’un emplacement, sélectionnez-la dans le menu Audiences exclues .
 
-      1. Recherchez le nouveau segment dans le panneau de gauche, puis cochez la case en regard du nom du segment.
+     1. Recherchez le nouveau segment dans le panneau de gauche, puis cochez la case en regard du nom du segment.
 
-         Le groupe de segments est automatiquement mis à jour avec le nouveau segment.
+        Le groupe de segments est automatiquement mis à jour avec le nouveau segment.
 
    * Pour ajouter un nouveau groupe de segments :
 
-      1. Cliquez sur **[!UICONTROL + New Group]** dans le panneau de droite.
+     1. Cliquez sur **[!UICONTROL + New Group]** dans le panneau de droite.
 
-      1. (Facultatif) Modifiez la logique entre le groupe précédent et le nouveau groupe en *[!UICONTROL And]* ou *[!UICONTROL Or]*, selon les besoins.
+     1. (Facultatif) Modifiez la logique entre le groupe précédent et le nouveau groupe en *[!UICONTROL And]* ou *[!UICONTROL Or]*, selon les besoins.
 
-      1. Recherchez les segments du nouveau groupe dans le panneau de gauche, puis cochez les cases en regard des noms de segment.
+     1. Recherchez les segments du nouveau groupe dans le panneau de gauche, puis cochez les cases en regard des noms de segment.
 
-      1. (Facultatif) Modifiez la logique de groupe en *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, selon les besoins.
+     1. (Facultatif) Modifiez la logique de groupe en *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, selon les besoins.
 
    * Pour utiliser la logique de segment à partir d’une audience existante :
 
-      1. Copiez la logique de segment de l’audience existante de l’une des manières suivantes :
+     1. Copiez la logique de segment de l’audience existante de l’une des manières suivantes :
 
-         * Dans la vue Toutes les audiences, placez le curseur sur la ligne d’audience, puis cliquez sur **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+        * Dans la vue Toutes les audiences, placez le curseur sur la ligne d’audience, puis cliquez sur **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Dans les paramètres de l’audience existante, en haut du panneau logique des segments, cliquez sur **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+        * Dans les paramètres de l’audience existante, en haut du panneau logique des segments, cliquez sur **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Dans un éditeur de texte, créez manuellement la logique du segment à l’aide des identifiants de segment alphanumériques et de la [syntaxe booléenne](audience-segment-logic-syntax.md), puis copiez-la dans le presse-papiers.
+        * Dans un éditeur de texte, créez manuellement la logique du segment à l’aide des identifiants de segment alphanumériques et de la [syntaxe booléenne](audience-segment-logic-syntax.md), puis copiez-la dans le presse-papiers.
 
-      1. Cliquez sur **[!UICONTROL paste in an audience rule to begin building]**, collez la logique de segment existante dans le champ de saisie, puis cliquez sur **[!UICONTROL Apply]**.
+     1. Cliquez sur **[!UICONTROL paste in an audience rule to begin building]**, collez la logique de segment existante dans le champ de saisie, puis cliquez sur **[!UICONTROL Apply]**.
 
-         >[!NOTE]
-         >
-         >Si l’audience inclut déjà une logique de segment, coller une nouvelle logique de segment remplace la logique existante.
+        >[!NOTE]
+        >
+        >Si l’audience inclut déjà une logique de segment, coller une nouvelle logique de segment remplace la logique existante.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 

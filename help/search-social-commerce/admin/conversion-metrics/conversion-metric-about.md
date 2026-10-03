@@ -3,25 +3,32 @@ title: À propos de la gestion des mesures de conversion d’un annonceur
 description: Découvrez comment utiliser les mesures de conversion suivies par Adobe Advertising pour un annonceur.
 feature: Conversions
 exl-id: 8cfb4df8-ed48-4809-b383-7a6011b1f530
-TQID: https://experienceleague.adobe.com/GkZBWh5moYP6yKxE3yhfpUNsTLxpkjFWTThE0tAtNAg
+TQID: 'https://experienceleague.adobe.com/GkZBWh5moYP6yKxE3yhfpUNsTLxpkjFWTThE0tAtNAg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: '280'
 ht-degree: 0%
-
 ---
-
 # À propos de la gestion des mesures de conversion d’un annonceur
 
-Les mesures [conversion](/help/search-social-commerce/glossary.md#c-d) suivies par Adobe Advertising pour un annonceur, y compris les mesures de conversion et d’engagement du site [&#x200B; synchronisées à partir d’Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md), sont utilisées dans Search, Social, Commerce et Advertising DSP.
+Les mesures [conversion](/help/search-social-commerce/glossary.md#c-d) suivies par Adobe Advertising pour un annonceur, y compris les mesures de conversion et d’engagement du site [ synchronisées à partir d’Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md), sont utilisées dans Search, Social, Commerce et Advertising DSP.
 
 * Dans Search, Social et Commerce, vous pouvez utiliser vos mesures de conversion pour créer des objectifs utilisés afin d’optimiser les portfolios. En outre, les données des mesures de conversion peuvent être affichées dans des colonnes des vues Campagne et Gestion de portefeuille, ainsi que dans des rapports.
 

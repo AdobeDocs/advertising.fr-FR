@@ -3,20 +3,24 @@ title: À propos des balises de suivi des conversions d’Adobe Advertising
 description: Découvrez comment utiliser les balises de suivi des conversions Adobe Advertising.
 exl-id: 8194d5eb-9a5d-4c4e-bb02-e578ffb84d18
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/SKNAm2olxXOI-qdf67XVYpo9GtQCpQO9acywqE7YTv0
+TQID: 'https://experienceleague.adobe.com/SKNAm2olxXOI-qdf67XVYpo9GtQCpQO9acywqE7YTv0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 500
+source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 # À propos des balises de suivi des conversions d’Adobe Advertising
 
 Adobe Advertising effectue le suivi des conversions résultant des clics sur les annonces à l’aide des balises de suivi des conversions Adobe Advertising insérées dans les pages web qui s’ouvrent lorsqu’un événement de conversion se produit, comme une page « succès ». Les balises incluent des informations intégrées pour envoyer les données de transaction, avec le cookie Adobe Advertising de l’utilisateur, à un serveur de suivi, à partir duquel la transaction est créditée au clic publicitaire ou à l’impression publicitaire appropriés (conformément aux paramètres d’attribution de conversion de l’annonceur).

@@ -3,20 +3,26 @@ title: Workflows pour les publicités dynamiques
 description: Découvrez les workflows de gestion des annonces dynamiques.
 feature: Creative Dynamic Creatives
 exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
-TQID: https://experienceleague.adobe.com/2ysfPVepzFjlxE-ecuAVpX-ntQBWB9dN61AELW74ZvI
+TQID: 'https://experienceleague.adobe.com/2ysfPVepzFjlxE-ecuAVpX-ntQBWB9dN61AELW74ZvI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '644'
 ht-degree: 0%
-
 ---
-
 # Workflows pour les publicités dynamiques
 
 *Utilisateurs autorisés à créer des annonces dynamiques*
@@ -64,17 +70,17 @@ Vous pouvez configurer des annonces dynamiques de deux manières :
 
    * (Pour les publicités dynamiques HTML5 et vidéo) Créez des catalogues de vos éléments publicitaires :
 
-      1. Créez un fichier de flux au format de feuille de calcul Microsoft Excel (XLSX), avec une ligne pour chaque variation publicitaire. Incluez un nom d’image ou de vidéo dans chaque ligne. Collectez séparément les images et les ressources vidéo associées.
+     1. Créez un fichier de flux au format de feuille de calcul Microsoft Excel (XLSX), avec une ligne pour chaque variation publicitaire. Incluez un nom d’image ou de vidéo dans chaque ligne. Collectez séparément les images et les ressources vidéo associées.
 
-      1. [Chargez le fichier de flux et les ressources](/help/creative/feeds/asset-manage.md).
+     1. [Chargez le fichier de flux et les ressources](/help/creative/feeds/asset-manage.md).
 
-      1. [Créez un modèle de flux](/help/creative/feeds/feed-template-manage.md) pour mapper les champs de votre fichier de flux (feuille de calcul) aux champs du serveur principal d’Advertising Creative. Vous avez la possibilité de télécharger et de renseigner un modèle de flux universel avec des champs appropriés à n’importe quel type de campagne.
+     1. [Créez un modèle de flux](/help/creative/feeds/feed-template-manage.md) pour mapper les champs de votre fichier de flux (feuille de calcul) aux champs du serveur principal d’Advertising Creative. Vous avez la possibilité de télécharger et de renseigner un modèle de flux universel avec des champs appropriés à n’importe quel type de campagne.
 
-      1. [Créez un catalogue](/help/creative/feeds/catalog-manage.md#feed-catalog-create) à partir d’un fichier de flux spécifié et d’un modèle de flux spécifié, puis [traitez le catalogue](/help/creative/feeds/catalog-manage.md#feed-catalog-process) pour afficher les variations de publicité qui peuvent être créées à partir de celui-ci.
+     1. [Créez un catalogue](/help/creative/feeds/catalog-manage.md#feed-catalog-create) à partir d’un fichier de flux spécifié et d’un modèle de flux spécifié, puis [traitez le catalogue](/help/creative/feeds/catalog-manage.md#feed-catalog-process) pour afficher les variations de publicité qui peuvent être créées à partir de celui-ci.
 
-         Vous ne pouvez utiliser chaque fichier de flux que pour un seul catalogue.
+        Vous ne pouvez utiliser chaque fichier de flux que pour un seul catalogue.
 
-         Vous pouvez [suivre le statut des tâches de traitement du catalogue](/help/creative/feeds/job-status-track.md) sur l’onglet [!UICONTROL Creative] > [!UICONTROL Feeds] > [!UICONTROL Job Status] .
+        Vous pouvez [suivre le statut des tâches de traitement du catalogue](/help/creative/feeds/job-status-track.md) sur l’onglet [!UICONTROL Creative] > [!UICONTROL Feeds] > [!UICONTROL Job Status] .
 
 1. [Créer des contenus publicitaires dynamiques](/help/creative/creative-libraries/creative-add-dynamic.md) pour une bibliothèque de contenus publicitaires. Pour les annonces HTML5 dynamiques, utilisez un modèle d’annonce spécifié et des catalogues spécifiés.
 

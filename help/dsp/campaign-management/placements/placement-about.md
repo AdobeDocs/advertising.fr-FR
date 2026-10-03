@@ -3,16 +3,18 @@ title: À propos de la gestion des emplacements dans Advertising DSP
 description: En savoir plus sur la gestion des emplacements.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-TQID: https://experienceleague.adobe.com/2NzvUNMqkGVsPaEDM3ifXGNOAIuR1qifdC1-pacbK7U
+TQID: 'https://experienceleague.adobe.com/2NzvUNMqkGVsPaEDM3ifXGNOAIuR1qifdC1-pacbK7U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
     internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-    internal-label: DSP placements
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,7 +25,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -50,7 +52,7 @@ Vous pouvez créer un emplacement manuellement ou en dupliquant un emplacement e
 
 Le tableau de bord [!UICONTROL Placements] centralise les rapports de performances et d’économie sur tous vos emplacements, fournissant des instantanés rapides de la performance de vos emplacements au cours d’une période spécifiée.
 
-![&#x200B; Tableau de bord des emplacements &#x200B;](/help/dsp/assets/placement-dashboard.png)
+![ Tableau de bord des emplacements ](/help/dsp/assets/placement-dashboard.png)
 
 Le tableau de bord comprend un graphique de tendances personnalisable de haut niveau avec trois mesures.
 

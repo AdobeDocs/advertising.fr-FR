@@ -1,22 +1,26 @@
 ---
 title: Afficher le journal des recommandations de l’éditeur pour un compte
-description: Découvrez comment afficher un journal de chaque recommandation appliquée pour un compte  [!DNL Google Ads]  ou  [!DNL Microsoft Advertising] .
+description: Découvrez comment afficher un journal de chaque recommandation appliquée pour un compte [!DNL Google Ads] ou [!DNL Microsoft Advertising].
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-TQID: https://experienceleague.adobe.com/0xxt5Qj5yNxayS5WKHdWQsXei3u2A4n0FpqZlNBDCOI
+TQID: 'https://experienceleague.adobe.com/0xxt5Qj5yNxayS5WKHdWQsXei3u2A4n0FpqZlNBDCOI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae143aa5-b8d8-5a93-93ab-45e919f0c418
+    internal-label: Search Recommendations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 128
+source-wordcount: '130'
 ht-degree: 0%
-
 ---
-
 # Afficher un journal des recommandations de l’éditeur pour un compte
 
 *[!DNL Google Ads]et [!DNL Microsoft Advertising] comptes*

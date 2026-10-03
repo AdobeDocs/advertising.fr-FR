@@ -3,22 +3,26 @@ title: Joindre et supprimer des annonces des emplacements
 description: Découvrez comment joindre des annonces aux emplacements et supprimer des annonces des emplacements.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-TQID: https://experienceleague.adobe.com/dimjD7vLQExGblC-J9W1e-1lK4NfF4M38TuCjwDi3lU
+TQID: 'https://experienceleague.adobe.com/dimjD7vLQExGblC-J9W1e-1lK4NfF4M38TuCjwDi3lU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '365'
 ht-degree: 0%
-
 ---
-
 # Joindre et supprimer des annonces des emplacements
 
 Vous pouvez joindre et supprimer des annonces à partir d’emplacements.
@@ -59,27 +63,27 @@ Vous pouvez joindre et supprimer des annonces à partir d’emplacements.
 
    * Pour créer un emplacement et y joindre la publicité :
 
-      1. Cliquez sur **[!UICONTROL Create a New Placement]**.
+     1. Cliquez sur **[!UICONTROL Create a New Placement]**.
 
-      1. Saisissez les [paramètres d&#39;emplacement](/help/dsp/campaign-management/placements/placement-settings.md), puis cliquez sur **[!UICONTROL Create Placement]**.
+     1. Saisissez les [paramètres d&#39;emplacement](/help/dsp/campaign-management/placements/placement-settings.md), puis cliquez sur **[!UICONTROL Create Placement]**.
 
-         Le type d’emplacement est déterminé par le type d’annonce.
+        Le type d’emplacement est déterminé par le type d’annonce.
 
-      1. Cliquez sur **[!UICONTROL Attach ad]**.
+     1. Cliquez sur **[!UICONTROL Attach ad]**.
 
-      1. Cochez la case en regard de chaque annonce à joindre à l’emplacement.
+     1. Cochez la case en regard de chaque annonce à joindre à l’emplacement.
 
-      1. Cliquez sur **[!UICONTROL Attach Selected Ads]**.
+     1. Cliquez sur **[!UICONTROL Attach Selected Ads]**.
 
    * Pour joindre l’annonce publicitaire à un emplacement existant :
 
-      1. Cliquez sur **[!UICONTROL Select a Placement].**
+     1. Cliquez sur **[!UICONTROL Select a Placement].**
 
-      1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL Select].**
+     1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL Select].**
 
-      1. (Facultatif) Pour chaque emplacement supplémentaire, cliquez sur **[!UICONTROL Attach To Another Placement]**, puis répétez les étapes précédentes.
+     1. (Facultatif) Pour chaque emplacement supplémentaire, cliquez sur **[!UICONTROL Attach To Another Placement]**, puis répétez les étapes précédentes.
 
-      1. Cliquez sur **[!UICONTROL I'm done for now]**.
+     1. Cliquez sur **[!UICONTROL I'm done for now]**.
 
 ## Supprimer les annonces des emplacements de la vue [!UICONTROL Placements] {#remove-ads-placement}
 

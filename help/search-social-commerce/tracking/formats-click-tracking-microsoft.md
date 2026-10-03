@@ -1,22 +1,26 @@
 ---
-title: Formats de suivi des clics pour  [!DNL Microsoft Advertising]
-description: Découvrez les formats de suivi des clics pour les comptes  [!DNL Microsoft Advertising] .
+title: Formats de suivi des clics pour les [!DNL Microsoft Advertising]
+description: Découvrez les formats de suivi des clics pour les comptes [!DNL Microsoft Advertising].
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/lqhCk4KG68-Rcyku4buSB1xeVhjNEP6QYOl85yJgmtE
+TQID: 'https://experienceleague.adobe.com/lqhCk4KG68-Rcyku4buSB1xeVhjNEP6QYOl85yJgmtE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f3cafbaa91871505a9999402e0979fd4944e835a
+    internal-label: Customer experience
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 579
+source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
 # Formats de suivi des clics pour les [!DNL Microsoft Advertising]
 
 Vous trouverez ci-dessous les formats de modèle de suivi de base et de suffixe de page de destination (suffixe d’URL final) requis par Search, Social et Commerce pour [!DNL Microsoft Advertising].
@@ -114,4 +118,4 @@ Les comptes qui utilisent le suivi des conversions Adobe Advertising doivent inc
 >[!MORELIKETHIS]
 >
 >* [À propos des formats d’URL de suivi des clics pour le service de suivi des conversions Adobe Advertising](formats-click-tracking-about.md)
->* [Formats d’ID AMO](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [Formats d’ID AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

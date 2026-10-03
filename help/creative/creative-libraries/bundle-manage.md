@@ -3,20 +3,27 @@ title: Gestion des offres groupées de création
 description: Découvrez comment gérer et utiliser des groupes de contenus publicitaires.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-TQID: https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg
+TQID: 'https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ea400851-fc23-4174-bc9c-b50ea0ed4d00
+    internal-label: Creative Bundles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: '1588'
 ht-degree: 0%
-
 ---
-
 # Gestion des offres groupées de création
 
 <!--
@@ -75,9 +82,9 @@ Vous pouvez joindre un élément créatif à plusieurs lots.
 
    * Pour dupliquer un seul lot :
 
-      * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom du lot, puis cliquez sur **[!UICONTROL Duplicate]**.
+     * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom du lot, puis cliquez sur **[!UICONTROL Duplicate]**.
 
-      * Dans la vue Tableau, placez le curseur sur la ligne et cliquez sur **[!UICONTROL Duplicate]**.
+     * Dans la vue Tableau, placez le curseur sur la ligne et cliquez sur **[!UICONTROL Duplicate]**.
 
    * Pour dupliquer un ou plusieurs lots, cochez la case correspondant à chaque lot à dupliquer. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Duplicate].**
 
@@ -175,9 +182,9 @@ La désolidarisation d’un contenu créatif de l’offre groupée ne supprime p
 
    * Pour désolidariser un élément créatif unique :
 
-      * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom du contenu créatif, puis cliquez sur **[!UICONTROL Detach]**.
+     * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom du contenu créatif, puis cliquez sur **[!UICONTROL Detach]**.
 
-      * Dans la vue Tableau, placez le curseur sur la ligne et cliquez sur **[!UICONTROL Detach]**.
+     * Dans la vue Tableau, placez le curseur sur la ligne et cliquez sur **[!UICONTROL Detach]**.
 
    * Pour désolidariser un ou plusieurs contenus publicitaires, cochez la case correspondant à chacun des contenus publicitaires que vous souhaitez désolidariser. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Detach]**.
 
@@ -316,9 +323,9 @@ Vous pouvez supprimer des lots qui ne sont pas affectés à une expérience [en 
 
    * Pour supprimer un seul lot :
 
-      * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom du lot, puis cliquez sur **[!UICONTROL Delete]**.
+     * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom du lot, puis cliquez sur **[!UICONTROL Delete]**.
 
-      * Dans la vue Tableau, placez le curseur sur la ligne et cliquez sur **[!UICONTROL Delete]**.
+     * Dans la vue Tableau, placez le curseur sur la ligne et cliquez sur **[!UICONTROL Delete]**.
 
    * Pour supprimer un ou plusieurs lots, cochez la case correspondant à chaque lot à supprimer. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Delete].**
 

@@ -3,7 +3,15 @@ title: (Nouvelle interface utilisateur) Activer le chargement des objectifs sur 
 description: Découvrez comment télécharger des objectifs pour vos portfolios hybrides vers Google Ads et Microsoft Advertising.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -46,7 +54,7 @@ Les chargements vers [!DNL Google Ads] et [!DNL Microsoft Advertising] ont lieu 
 
 1. Vérifiez que chaque objectif — nommé `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` — apparaît dans les deux jours sur le réseau publicitaire.
 
-   Dans l’éditeur de [!DNL Google Ads], recherchez vos [&#x200B; actions de conversion &#x200B;](https://support.google.com/google-ads/answer/11461796){target="_blank"}. Dans l’éditeur de [!DNL Microsoft Advertising], recherchez vos [&#x200B; objectifs de conversion &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/56709){target="_blank"}.
+   Dans l’éditeur de [!DNL Google Ads], recherchez vos [ actions de conversion ](https://support.google.com/google-ads/answer/11461796){target="_blank"}. Dans l’éditeur de [!DNL Microsoft Advertising], recherchez vos [ objectifs de conversion ](https://help.ads.microsoft.com/#apex/ads/en/56709){target="_blank"}.
 
    Si nécessaire, mettez à jour la période pour inclure la date de chargement.
 

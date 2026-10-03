@@ -3,22 +3,26 @@ title: Affichage du rapport de [!UICONTROL Diagnostics] des emplacements
 description: Découvrez comment diagnostiquer les problèmes liés à la configuration et à la fréquence des emplacements.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-TQID: https://experienceleague.adobe.com/aRELxvUfrIZVu7-qzxO8QfrlMGNP17YJk0ru04oRFQQ
+TQID: 'https://experienceleague.adobe.com/aRELxvUfrIZVu7-qzxO8QfrlMGNP17YJk0ru04oRFQQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '306'
 ht-degree: 0%
-
 ---
-
 # Affichage du rapport de [!UICONTROL Diagnostics] des emplacements
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
@@ -51,31 +55,31 @@ Les rapports de diagnostic peuvent vous aider à diagnostiquer les problèmes de
 
    * Pour afficher le journal des modifications :
 
-      1. Cliquez sur **[!UICONTROL Change Log]**.
+     1. Cliquez sur **[!UICONTROL Change Log]**.
 
-      1. (Facultatif) Filtrez les résultats du rapport :
+     1. (Facultatif) Filtrez les résultats du rapport :
 
-         * Dans le menu de date, remplacez la période de rapport des 14 derniers jours par défaut par une autre période (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* ou *[!UICONTROL Last 1 year]*).
+        * Dans le menu de date, remplacez la période de rapport des 14 derniers jours par défaut par une autre période (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* ou *[!UICONTROL Last 1 year]*).
 
-         * Dans le menu de gauche, filtrez le rapport par nom d’utilisateur spécifique.
+        * Dans le menu de gauche, filtrez le rapport par nom d’utilisateur spécifique.
 
-         * Dans le menu de droite, filtrez le rapport selon un paramètre d’emplacement spécifique.
+        * Dans le menu de droite, filtrez le rapport selon un paramètre d’emplacement spécifique.
 
    * Pour afficher le statut des validations d’annonces :
 
-      1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Ad Approvals]**.
+     1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Ad Approvals]**.
 
-      1. (Facultatif) Pour mettre la publicité en pause ou l’activer, cliquez sur le bouton de changement de statut (![Basculement de statut](/help/dsp/assets/status-switch.png)) dans la colonne Publicité .)
+     1. (Facultatif) Pour mettre la publicité en pause ou l’activer, cliquez sur le bouton de changement de statut (![Basculement de statut](/help/dsp/assets/status-switch.png)) dans la colonne Publicité .)
 
-      1. (Facultatif) Pour ouvrir les paramètres d’une publicité, cliquez sur **[!UICONTROL View Ad]** en regard de la publicité.
+     1. (Facultatif) Pour ouvrir les paramètres d’une publicité, cliquez sur **[!UICONTROL View Ad]** en regard de la publicité.
 
    * Pour savoir pourquoi DSP n’a pas enchéri sur l’emplacement :
 
-      1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Non Bids]**.
+     1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Non Bids]**.
 
-      1. (Facultatif) Pour filtrer l’emplacement selon une cible d’opération privée spécifique, sélectionnez l’opération. <!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
+     1. (Facultatif) Pour filtrer l’emplacement selon une cible d’opération privée spécifique, sélectionnez l’opération. <!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
 
-      1. (Facultatif) Pour modifier la période, cliquez dans le champ de date et sélectionnez une autre date ou période.
+     1. (Facultatif) Pour modifier la période, cliquez dans le champ de date et sélectionnez une autre date ou période.
 
 <!-- Later, add link to >* Definitions for NBRs (Reading No Bid Reports (NBRs)) -->
 

@@ -3,18 +3,21 @@ title: Format des balises de tracking de conversion d’images
 description: Référencez le format des balises de suivi de conversion d’images.
 exl-id: e23107e1-b719-4572-a471-13e51387465d
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/TQMACo5-LkbCU2SiMmUE-ZDBRTb8NERQPQ9ISzU0DdU
+TQID: 'https://experienceleague.adobe.com/TQMACo5-LkbCU2SiMmUE-ZDBRTb8NERQPQ9ISzU0DdU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 249
+source-wordcount: '251'
 ht-degree: 0%
-
 ---
-
 # Format des balises de tracking de conversion d’images
 
 >[!NOTE]

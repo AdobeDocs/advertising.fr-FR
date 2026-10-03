@@ -3,18 +3,21 @@ title: À propos des classifications de libellés
 description: Découvrez comment utiliser les classifications d’étiquettes pour regrouper les composants de votre compte.
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
-TQID: https://experienceleague.adobe.com/dZL-v9IRny6Q2rjXcEeFKicL8UHKhRofQS4bBEd0sX8
+TQID: 'https://experienceleague.adobe.com/dZL-v9IRny6Q2rjXcEeFKicL8UHKhRofQS4bBEd0sX8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '307'
 ht-degree: 0%
-
 ---
-
 # À propos des classifications de libellés
 
 Les classifications d’étiquettes vous permettent de regrouper vos composants de compte en ensembles significatifs. Par exemple, vous pouvez créer une classification d&#39;étiquettes parente appelée « Geo », créer une valeur d&#39;étiquette différente pour chaque zone géographique (par exemple « Royaume-Uni » et « Japon ») dans la classification, puis affecter les valeurs d&#39;étiquette à vos [unités d&#39;enchères](/help/search-social-commerce/glossary.md#a-b) ou campagnes parentes. Vous pouvez ensuite inclure n’importe quelle valeur d’étiquette dans une colonne distincte dans vos vues et rapports, et faire pivoter vos rapports sur différents groupes et valeurs de classification.

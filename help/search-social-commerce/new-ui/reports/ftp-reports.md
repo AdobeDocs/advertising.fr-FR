@@ -2,13 +2,17 @@
 title: (Nouvelle interface utilisateur) Accès FTP aux rapports
 description: Découvrez comment recevoir des rapports à un emplacement FTP en lecture seule.
 feature: Search Reports
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
-
 ---
-
 # (Nouvelle interface utilisateur) Accès FTP aux rapports
 
 Vous pouvez éventuellement recevoir des rapports à un emplacement FTP en lecture seule, à partir duquel vous pouvez récupérer les fichiers pour d’autres processus automatisés (par exemple, pour analyser les données avec un autre programme). Tous les rapports de base, à l’exception de [!UICONTROL Search Engine Account Report], et tous les rapports avancés peuvent être envoyés vers un emplacement FTP sous la forme de fichiers TSV compressés (valeur par défaut) ou de fichiers CSV, avec une extension de fichier .ZIP. Tous les en-têtes de fichier TSV ou CSV sont inclus et ne peuvent pas être supprimés.
@@ -35,11 +39,11 @@ Pour générer des rapports dans le répertoire FTP désigné, créez un modèle
 
    * (Facultatif) L’un des trois systèmes de dates, en utilisant la syntaxe sensible à la casse suivante, y compris les crochets :
 
-      * `[TODAY]` — Pour inclure la date, l&#39;heure et la minute d&#39;exécution du rapport. Comme l’heure exacte est incluse, le même modèle peut être exécuté plusieurs fois par jour sans remplacer le rapport précédent.
+     * `[TODAY]` — Pour inclure la date, l&#39;heure et la minute d&#39;exécution du rapport. Comme l’heure exacte est incluse, le même modèle peut être exécuté plusieurs fois par jour sans remplacer le rapport précédent.
 
-      * `[SDATE]` — Pour inclure la date de début de la période du rapport.
+     * `[SDATE]` — Pour inclure la date de début de la période du rapport.
 
-      * `[EDATE]` — Pour inclure la date de fin de la période du rapport.
+     * `[EDATE]` — Pour inclure la date de fin de la période du rapport.
 
    * (Facultatif) `[CSV]` (en lettres majuscules et entre crochets) de créer des fichiers au format CSV plutôt qu’au format TSV par défaut.
 

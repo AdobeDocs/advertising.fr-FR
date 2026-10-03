@@ -2,13 +2,19 @@
 title: '[!UICONTROL Keyword Assist Report]'
 description: En savoir plus sur le [!UICONTROL Keyword Assist Report].
 feature: Search Reports, Search Assist Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
+    internal-label: Search Assist Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 0%
-
 ---
-
 # Le [!UICONTROL Keyword Assist Report]
 
 *Publicitaires avec suivi des clics Search, Social et Commerce et avec suivi des conversions à partir d’Adobe Advertising, Adobe Analytics (avec une intégration [!DNL Analytics]) ou fournis dans les flux à l’aide d’un jeton (`ef_id`) uniquement*
@@ -33,7 +39,7 @@ Voici les colonnes disponibles pour chaque rapport. Les colonnes par défaut son
 | Colonne | Par défaut ? | Description |
 | ---- | ---- | ---- |
 | [!UICONTROL 1st Keyword] à [!UICONTROL 5th Keyword] | Par défaut | Les cinq premiers clics de mots-clés de référencement payant ou d’emplacements dans le chemin de conversion qui se sont produits dans l’[intervalle de recherche en amont de clics](/help/search-social-commerce/glossary.md#c-d) et l’[intervalle de recherche en amont d’impressions](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Remarque :</b> si le rapport inclut des emplacements provenant de campagnes de recherche activées par le contenu (qui n’incluent pas de mots-clés), ces colonnes affichent les noms de groupes publicitaires applicables, tels que « (contenu du groupe publicitaire) nom de votre groupe publicitaire » à la place. |
-| [!UICONTROL Path Size] | Par défaut | Nombre de mots-clés et/ou d’emplacements dans le chemin de conversion qui se sont produits dans l’intervalle de recherche en amont de clic [clics](/help/search-social-commerce/glossary.md#c-d) et l’intervalle de recherche en amont d’impression [&#x200B; de l’annonceur](/help/search-social-commerce/glossary.md#i-j). |
+| [!UICONTROL Path Size] | Par défaut | Nombre de mots-clés et/ou d’emplacements dans le chemin de conversion qui se sont produits dans l’intervalle de recherche en amont de clic [clics](/help/search-social-commerce/glossary.md#c-d) et l’intervalle de recherche en amont d’impression [ de l’annonceur](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Keyword] | Par défaut | Premier mot-clé ou emplacement dans le chemin de conversion. |
 | [!UICONTROL Last Keyword] | Par défaut | Dernier mot-clé ou dernier emplacement ayant entraîné des conversions (même si le dernier mot-clé est en dehors de la taille de chemin spécifiée). |
 | \[Mesures personnalisées (dérivées) spécifiques à l’annonceur\] | Valeur personnalisée | Valeur d’une mesure personnalisée que vous avez créée, calculée à partir de mesures existantes. |

@@ -3,20 +3,24 @@ title: Gestion des fichiers de flux de données d’inventaire
 description: Découvrez comment configurer les paramètres qui contrôlent le traitement des données de flux.
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc
+TQID: 'https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: '1249'
 ht-degree: 0%
-
 ---
-
 # Gestion des fichiers de flux de données d’inventaire
 
 comptes *[!DNL Google Ads], [!DNL LY Ads] (actions de suppression uniquement), [!DNL Microsoft Advertising] et [!DNL Yandex] uniquement*
@@ -33,7 +37,7 @@ Vous pouvez charger et traiter des fichiers de flux de données de l’une des m
 
   Pour configurer un répertoire FTP afin de déposer et de traiter automatiquement les fichiers de données, contactez l’équipe chargée de votre compte Adobe.
 
-* **Traitement manuel :** vous pouvez [charger manuellement des fichiers de flux](#feed-file-upload) à partir de la vue [!UICONTROL Advanced] (ACM). Après avoir associé un fichier de flux à un ou plusieurs [modèles](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) spécifiques au réseau publicitaire, vous pouvez générer des données de campagne et d’annonce publicitaire en [propageant les données de flux à travers les modèles](feed-data-propagate.md) en fonction des paramètres des données de flux [&#128279;](feed-settings-manage.md). Vous pouvez également prévisualiser les données générées dans les vues de hiérarchie de campagne, générer un fichier de feuille d&#39;envoi groupé pour révision ou générer un fichier de feuille d&#39;envoi groupé pour une validation immédiate sur le réseau publicitaire. Si vous ne publiez pas les données immédiatement, vous pouvez [prévisualiser](propagated-data-view.md) et [les publier](propagated-data-post.md) plus tard. Vous pouvez ensuite [remplacer le fichier de flux existant par un nouveau fichier](#feed-file-replace) sans perdre les associations de modèles existantes.
+* **Traitement manuel :** vous pouvez [charger manuellement des fichiers de flux](#feed-file-upload) à partir de la vue [!UICONTROL Advanced] (ACM). Après avoir associé un fichier de flux à un ou plusieurs [modèles](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) spécifiques au réseau publicitaire, vous pouvez générer des données de campagne et d’annonce publicitaire en [propageant les données de flux à travers les modèles](feed-data-propagate.md) en fonction des paramètres des données de flux [](feed-settings-manage.md). Vous pouvez également prévisualiser les données générées dans les vues de hiérarchie de campagne, générer un fichier de feuille d&#39;envoi groupé pour révision ou générer un fichier de feuille d&#39;envoi groupé pour une validation immédiate sur le réseau publicitaire. Si vous ne publiez pas les données immédiatement, vous pouvez [prévisualiser](propagated-data-view.md) et [les publier](propagated-data-post.md) plus tard. Vous pouvez ensuite [remplacer le fichier de flux existant par un nouveau fichier](#feed-file-replace) sans perdre les associations de modèles existantes.
 
 ## Exigences relatives aux fichiers de flux
 
@@ -75,15 +79,15 @@ shoes<TAB>Clarks<TAB>20
 
 * Pour réaliser un processus répétable avec une révision ou une modification manuelle limitée, configurez les fichiers de flux et leurs données de structure de compte comme suit :
 
-   * Incluez des colonnes et des lignes contenant suffisamment de données pour créer une structure de compte ou mapper à la structure de compte existante. Idéalement, utilisez une structure de compte existante étroitement liée à la taxonomie du produit et à laquelle les données de flux sont facilement mappées.
+  * Incluez des colonnes et des lignes contenant suffisamment de données pour créer une structure de compte ou mapper à la structure de compte existante. Idéalement, utilisez une structure de compte existante étroitement liée à la taxonomie du produit et à laquelle les données de flux sont facilement mappées.
 
-   * Incluez des descriptions suffisamment courtes pour être utilisées dans la copie publicitaire.
+  * Incluez des descriptions suffisamment courtes pour être utilisées dans la copie publicitaire.
 
-   * Utilisez des modèles de données et des conventions de nommage cohérents entre les lignes de produits.
+  * Utilisez des modèles de données et des conventions de nommage cohérents entre les lignes de produits.
 
-   * Supprimez tous les espaces précédents et les espaces de fin.
+  * Supprimez tous les espaces précédents et les espaces de fin.
 
-   * Supprimez tous les caractères illisibles.
+  * Supprimez tous les caractères illisibles.
 
 ## Affichage ou téléchargement d’un fichier de flux
 

@@ -3,25 +3,31 @@ title: Paramètres des rapports personnalisés
 description: Voir les descriptions des paramètres du rapport personnalisé.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-TQID: https://experienceleague.adobe.com/4b95Ua1HlD3KnjH0A4ZWIxvFAouU3bxJWrVysM5xnUU
+TQID: 'https://experienceleague.adobe.com/4b95Ua1HlD3KnjH0A4ZWIxvFAouU3bxJWrVysM5xnUU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a8f4be51-fec2-5e52-b41e-a611c28e444c
+    internal-label: DSP Custom Reports
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9c0a1de4a3514cbb28856250b76e79e1b7913963
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1535
+source-wordcount: '1536'
 ht-degree: 0%
-
 ---
-
 # Paramètres des rapports personnalisés
 
 **[!UICONTROL Name]:** nom du rapport. La longueur maximale est de 180 caractères.
@@ -56,21 +62,21 @@ Cette section détermine les dates d&#39;exécution du rapport. Pour configurer 
   >
   >Vous pouvez également [exécuter un rapport personnalisé à tout moment](report-run-now.md) à partir de la vue [!UICONTROL Reports].
 
-* *[!UICONTROL On]\&lt;Date\> :* exécute le rapport à une date spécifiée pour s’achever à 09:00 dans le fuseau horaire du compte.
+* *[!UICONTROL On]\&lt;Date\>:* exécute le rapport à une date spécifiée pour s’achever à 9 h dans le fuseau horaire du compte.
 
 * *[!UICONTROL Recurring]:* exécute le rapport selon un planning défini au cours d’une période donnée.
 
-   * **\[Planification\]:** Fréquence d’exécution du rapport :
+  * **\[Planification\]:** Fréquence d’exécution du rapport :
 
-      * *Quotidien* pour exécuter le rapport tous les N jours. Par exemple, pour exécuter le rapport toutes les deux semaines (14 jours), sélectionnez cette option et saisissez **14**.
+    * *Quotidien* pour exécuter le rapport tous les N jours. Par exemple, pour exécuter le rapport toutes les deux semaines (14 jours), sélectionnez cette option et saisissez **14**.
 
-      * *Hebdomadaire* pour exécuter le rapport à des jours spécifiés de la semaine. Par exemple, pour exécuter le rapport tous les lundis et vendredis, sélectionnez cette option et cochez les cases en regard de **lundi** et **vendredi**.
+    * *Hebdomadaire* pour exécuter le rapport à des jours spécifiés de la semaine. Par exemple, pour exécuter le rapport tous les lundis et vendredis, sélectionnez cette option et cochez les cases en regard de **lundi** et **vendredi**.
 
-      * *Mensuel* pour exécuter le rapport un jour numérique spécifique du mois, compris entre 1 et 30. Par exemple, pour exécuter le rapport le premier jour de chaque mois, sélectionnez cette option et saisissez **1**.
+    * *Mensuel* pour exécuter le rapport un jour numérique spécifique du mois, compris entre 1 et 30. Par exemple, pour exécuter le rapport le premier jour de chaque mois, sélectionnez cette option et saisissez **1**.
 
-   * **De** : première date à laquelle le rapport peut être exécuté. Selon le planning spécifié, la première instance de rapport peut se produire après cette date.
+  * **De** : première date à laquelle le rapport peut être exécuté. Selon le planning spécifié, la première instance de rapport peut se produire après cette date.
 
-   * **Jusqu’au** : date d’expiration du rapport, qui peut prendre jusqu’à quatre mois civils. Avant l’expiration d’un rapport, toutes les destinations d’e-mail spécifiées reçoivent une alerte par e-mail sept jours et un jour avant la date d’expiration. Pour conserver le rapport plus longtemps, modifiez cette date.
+  * **Jusqu’au** : date d’expiration du rapport, qui peut prendre jusqu’à quatre mois civils. Avant l’expiration d’un rapport, toutes les destinations d’e-mail spécifiées reçoivent une alerte par e-mail sept jours et un jour avant la date d’expiration. Pour conserver le rapport plus longtemps, modifiez cette date.
 
 ## section [!UICONTROL Apply Filters]
 
@@ -132,9 +138,9 @@ Consultez « [Colonnes de rapport disponibles](report-columns.md) » pour obteni
 
 * **\[Type d’attribution\]:** ([!UICONTROL Household Conversion] les rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes) Dans le rapport, comment attribuer les données de conversion dans une série d’événements qui entraînent une conversion :
 
-   * *[!UICONTROL Unique]:* (valeur par défaut) compte le nombre de fois qu’une valeur de dimension (un appareil ou un emplacement, par exemple) a été sur le chemin d’accès à la conversion.
+  * *[!UICONTROL Unique]:* (valeur par défaut) compte le nombre de fois qu’une valeur de dimension (un appareil ou un emplacement, par exemple) a été sur le chemin d’accès à la conversion.
 
-   * *[!UICONTROL Multi-Touch Attribution (MTA)]:* distribue le crédit de chaque conversion en fonction de la fréquence d’occurrence de la valeur de dimension (telle qu’un appareil ou un emplacement) sur le chemin d’accès à la conversion. Par exemple, s’il y avait un total de 10 impressions avant la conversion, avec 8 sur CTV et 2 sur Mobile, alors 80 % du crédit (0,8) est attribué aux écrans de CTV et 0,2 à Mobile.
+  * *[!UICONTROL Multi-Touch Attribution (MTA)]:* distribue le crédit de chaque conversion en fonction de la fréquence d’occurrence de la valeur de dimension (telle qu’un appareil ou un emplacement) sur le chemin d’accès à la conversion. Par exemple, s’il y avait un total de 10 impressions avant la conversion, avec 8 sur CTV et 2 sur Mobile, alors 80 % du crédit (0,8) est attribué aux écrans de CTV et 0,2 à Mobile.
 
 * **\[Type de règle\]:** (tous les rapports [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment] et [!UICONTROL Site] avec des colonnes [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] ; annonceurs avec suivi des conversions Adobe Advertising uniquement) Dans le rapport, comment attribuer les données de conversion dans une série d’événements qui conduisent à une conversion. Vous pouvez choisir plusieurs règles pour comparer les différences entre elles.
 
@@ -142,23 +148,23 @@ Consultez « [Colonnes de rapport disponibles](report-columns.md) » pour obteni
   >
   >Les chemins de conversion incluent les impressions et les clics dans les intervalles d’impression ou de recherche en amont des clics de l’annonceur, qui sont configurés dans [!DNL Advertising Search, Social, & Commerce]. Les clics sont prioritaires sur les impressions lors de l’attribution de la conversion. Tous les clics effectués dans un chemin de conversion sont crédités intégralement en fonction de la règle d’attribution. Les impressions reçoivent du crédit uniquement lorsque aucun clic n’est suivi dans le chemin de conversion.
 
-   * *[!UICONTROL Last Event]:* attribue des conversions au dernier clic ou à la dernière impression dans le chemin de conversion.
+  * *[!UICONTROL Last Event]:* attribue des conversions au dernier clic ou à la dernière impression dans le chemin de conversion.
 
-   * *[!UICONTROL Weight Last More]:* Attribue des conversions à tous les événements du chemin de conversion, mais donne le plus de poids au dernier événement et successivement moins de poids aux événements précédents.
+  * *[!UICONTROL Weight Last More]:* Attribue des conversions à tous les événements du chemin de conversion, mais donne le plus de poids au dernier événement et successivement moins de poids aux événements précédents.
 
-   * *[!UICONTROL Even Distribution]:* Attribue les conversions de manière égale à chaque événement dans le chemin de conversion.
+  * *[!UICONTROL Even Distribution]:* Attribue les conversions de manière égale à chaque événement dans le chemin de conversion.
 
-   * *[!UICONTROL Weight First More]:* Attribue des conversions à tous les événements du chemin de conversion, mais donne le plus de poids au premier événement et successivement moins de poids aux événements suivants.
+  * *[!UICONTROL Weight First More]:* Attribue des conversions à tous les événements du chemin de conversion, mais donne le plus de poids au premier événement et successivement moins de poids aux événements suivants.
 
-   * *[!UICONTROL First Event]:* attribue des conversions au premier clic ou à la première impression dans le chemin de conversion.
+  * *[!UICONTROL First Event]:* attribue des conversions au premier clic ou à la première impression dans le chemin de conversion.
 
-   * *[!UICONTROL U-shaped]:* Attribue la conversion à tous les événements du chemin de conversion, mais donne le plus de poids au premier et au dernier événements, avec successivement moins de poids aux événements au milieu du chemin de conversion.
+  * *[!UICONTROL U-shaped]:* Attribue la conversion à tous les événements du chemin de conversion, mais donne le plus de poids au premier et au dernier événements, avec successivement moins de poids aux événements au milieu du chemin de conversion.
 
-   * *[!UICONTROL Display Only]:* Attribue les conversions au dernier clic ou à la dernière impression DSP dans le chemin de conversion. Cela inclut les publicités vidéo et TV connectées, et exclut les clics sur les publicités [!DNL Advertising Search, Social, & Commerce].
+  * *[!UICONTROL Display Only]:* Attribue les conversions au dernier clic ou à la dernière impression DSP dans le chemin de conversion. Cela inclut les publicités vidéo et TV connectées, et exclut les clics sur les publicités [!DNL Advertising Search, Social, & Commerce].
 
-   * *[!UICONTROL Social Only]:* Obsolète
+  * *[!UICONTROL Social Only]:* Obsolète
 
-Consultez également la section « [&#x200B; Comment les règles d’attribution sont calculées pour Adobe Advertising &#x200B;](/help/search-social-commerce/reports/attribution-rules.md) ».
+Consultez également la section « [ Comment les règles d’attribution sont calculées pour Adobe Advertising ](/help/search-social-commerce/reports/attribution-rules.md) ».
 
 * **Recherche en amont :** ([!UICONTROL Household Conversion] des rapports avec [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colonnes et des rapports [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion] avec [!UICONTROL Conversion Metrics] colonnes uniquement ; annonceurs avec suivi des conversions Adobe Advertising uniquement) dans le rapport, le nombre maximal de jours après un événement d’impression ou un événement de clic (pour les rapports [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion]) dans lequel un événement de conversion peut lui être attribué. La valeur par défaut est *[!UICONTROL 30 days]* et la valeur maximale est de 92 jours.
 
@@ -196,7 +202,7 @@ Consultez également la section « [&#x200B; Comment les règles d’attribution
 
 * *[!UICONTROL FTP]:* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
+* *[!UICONTROL FTP SSL](actuellement dans Beta) :* pour envoyer le rapport terminé à un ou plusieurs emplacements FTP SSL, que vous devez sélectionner dans le champ **[!UICONTROL Destination Name]** .
 
 * *[!UICONTROL Email]:* pour spécifier la ou les adresses e-mail auxquelles envoyer les rapports terminés ou les notifications si le rapport est annulé en raison d’erreurs.
 
@@ -208,13 +214,13 @@ Consultez également la section « [&#x200B; Comment les règles d’attribution
 
 * Pour créer une destination :
 
-   1. Cliquez sur **Ajouter une nouvelle destination**.
+  1. Cliquez sur **Ajouter une nouvelle destination**.
 
-   1. Saisissez le [paramètres de destination du rapport](/help/dsp/reports/report-destinations/report-destination-settings.md), puis cliquez sur **Enregistrer**.
+  1. Saisissez le [paramètres de destination du rapport](/help/dsp/reports/report-destinations/report-destination-settings.md), puis cliquez sur **Enregistrer**.
 
-   1. De retour dans les paramètres du rapport, cliquez sur **Actualiser les noms de destination.**
+  1. De retour dans les paramètres du rapport, cliquez sur **Actualiser les noms de destination.**
 
-      La nouvelle destination est désormais disponible dans la liste des destinations existantes et vous pouvez éventuellement l’ajouter au rapport.
+     La nouvelle destination est désormais disponible dans la liste des destinations existantes et vous pouvez éventuellement l’ajouter au rapport.
 
 >[!MORELIKETHIS]
 >

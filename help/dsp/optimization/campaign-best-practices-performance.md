@@ -3,30 +3,43 @@ title: Bonnes pratiques pour configurer des campagnes de performances
 description: Découvrez les bonnes pratiques pour configurer vos campagnes axées sur les performances, qui incluent des emplacements optimisés pour la CPA la plus faible ou le retour sur investissement le plus élevé.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-TQID: https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs
+TQID: 'https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: ed26409b-14af-5033-ae27-1b71cecfe497
+    internal-label: DSP Optimization
+  - id: 1065ba73-45b2-5aee-bca8-3ae622f2c15d
+    internal-label: DSP Best Practices
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: Optimization
   - id: e9bcaec6-1079-409c-9aee-942e06c44d0a
+    internal-label: Best practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 0%
-
+source-wordcount: '1304'
+ht-degree: 1%
 ---
-
 # Bonnes pratiques pour configurer des campagnes de performances
 
 DSP peut optimiser vos campagnes axées sur les performances. Consultez les bonnes pratiques suivantes pour les campagnes de performances :
@@ -39,9 +52,9 @@ DSP peut optimiser vos campagnes axées sur les performances. Consultez les bonn
 
 ## Étape 1 - Définir votre objectif
 
-Il est important de comprendre l’objectif de la campagne, par exemple obtenir le retour sur dépenses publicitaires le plus élevé possible ou le CPA le plus bas possible. Les campagnes de performances ont les [&#x200B; objectifs d’optimisation &#x200B;](/help/dsp/optimization/optimization-goals.md) « [!UICONTROL Highest Return on Ad Spend (ROAS)"] ou « [!UICONTROL Lowest Cost per Acquisition (CPA)] ». Pour chaque package de la campagne, spécifiez l’objectif d’optimisation en conséquence.
+Il est important de comprendre l’objectif de la campagne, par exemple obtenir le retour sur dépenses publicitaires le plus élevé possible ou le CPA le plus bas possible. Les campagnes de performances ont les [ objectifs d’optimisation ](/help/dsp/optimization/optimization-goals.md) « [!UICONTROL Highest Return on Ad Spend (ROAS)"] ou « [!UICONTROL Lowest Cost per Acquisition (CPA)] ». Pour chaque package de la campagne, spécifiez l’objectif d’optimisation en conséquence.
 
-![objectif d’optimisation &#x200B;](/help/dsp/assets/optimization-goals.png)
+![objectif d’optimisation ](/help/dsp/assets/optimization-goals.png)
 
 Vous devez également déterminer le ou les événements de succès qui mènent à l’objectif global et créer des objectifs personnalisés en conséquence. Pour chaque package, spécifiez un objectif personnalisé à utiliser avec l’objectif d’optimisation globale pour les rapports et l’optimisation algorithmique à l’aide de [!DNL Adobe AI]. Pour plus d’informations sur les objectifs personnalisés, consultez les sections « [Gérer les objectifs personnalisés](/help/dsp/admin/custom-objectives-manage.md) » et « [Bonnes pratiques pour les objectifs personnalisés](custom-goal.md) ».
 
@@ -55,10 +68,10 @@ Les packages Upper funnel incluent des emplacements avec un ciblage très large 
 
 * Trouvez de nouvelles audiences qui sont susceptibles d’être converties à l’aide des tactiques suivantes :
 
-   * Modélisation similaire à partir d’une plateforme de gestion des données (DMP), telle que Adobe Audience Manager.
-   * Ciblage comportemental à l’aide de données tierces.
-   * Le ciblage contextuel.
-   * Ciblage des sites/catégories.
+  * Modélisation similaire à partir d’une plateforme de gestion des données (DMP), telle que Adobe Audience Manager.
+  * Ciblage comportemental à l’aide de données tierces.
+  * Le ciblage contextuel.
+  * Ciblage des sites/catégories.
 
 * Utiliser le ciblage RON (run of network) : il est important d’inclure une exécution d’emplacement réseau sans ciblage d’audience et avec un ciblage d’inventaire large. Cela permet à l’algorithme optimisé par [!DNL Adobe AI] de trouver des utilisateurs importants qui peuvent avoir des cookies plus récents qui n’ont pas encore été classés en audience.
 
@@ -93,8 +106,8 @@ Utilisez également les paramètres suivants.
 * **Objectifs d’optimisation :** utilisez l’un des deux objectifs d’optimisation des performances, *[!UICONTROL Highest Return on Ad Spend]* ou *[!UICONTROL Lowest Cost per Acquisition]*, selon l’objectif du package. Ces objectifs optimisent automatiquement le package vers les emplacements de retour sur dépenses publicitaires les plus élevés ou de CPA le plus bas, respectivement.
 
 * **Objectifs personnalisés :**
-   * Si un nouveau package a le même objectif qu’un package existant, vous pouvez éventuellement lier le package existant afin que l’algorithme puisse utiliser les données de machine learning existantes.
-   * Saisissez le [!UICONTROL Target CPA] ou le [!UICONTROL Target ROAS] approprié.
+  * Si un nouveau package a le même objectif qu’un package existant, vous pouvez éventuellement lier le package existant afin que l’algorithme puisse utiliser les données de machine learning existantes.
+  * Saisissez le [!UICONTROL Target CPA] ou le [!UICONTROL Target ROAS] approprié.
 
 * **Fréquence du vol et Fréquence intrajournalière :** pour les deux types de fréquence, sélectionnez *[!UICONTROL Even]* pour optimiser vos objectifs de performances en effectuant une fréquence uniforme tout au long de la journée et du vol.
 
@@ -115,14 +128,14 @@ Vous trouverez ci-dessous les paramètres d’emplacement recommandés pour les 
 Vous devez configurer l’optimisation du CPA ou du ROAS au niveau du package (voir Étape 3 - Créer des packages), mais vous pouvez ajouter des paramètres supplémentaires au niveau de l’emplacement.
 
 * **Enchère max. :**
-   * Pour les placements de prospection, utilisez une enchère maximum faible (5 $).
-   * Pour recibler les emplacements, utilisez une enchère maximum élevée (12 $).
+  * Pour les placements de prospection, utilisez une enchère maximum faible (5 $).
+  * Pour recibler les emplacements, utilisez une enchère maximum élevée (12 $).
 
 * **Filtres de pré-enchères :** minimisez ou, idéalement, évitez de définir des filtres de pré-enchères agressifs, qui empêchent l’échelle de l’emplacement. Les bonnes pratiques sont les suivantes :
 
-   * Utilisez un (1) filtre de pré-enchères par emplacement. L’utilisation de plusieurs filtres de pré-enchères nécessite que les deux soient respectés, ce qui réduit l’échelle.
+  * Utilisez un (1) filtre de pré-enchères par emplacement. L’utilisation de plusieurs filtres de pré-enchères nécessite que les deux soient respectés, ce qui réduit l’échelle.
 
-   * Pensez à définir des filtres de pré-enchères moins stricts dans les cas où un ciblage supplémentaire (comme le ciblage d’audience, géographique et de site) est appliqué.
+  * Pensez à définir des filtres de pré-enchères moins stricts dans les cas où un ciblage supplémentaire (comme le ciblage d’audience, géographique et de site) est appliqué.
 
 Voir les descriptions sur l’utilisation de chaque filtre de pré-enchères au niveau de l’emplacement [Filtres de pré-enchères au niveau de l’emplacement et sur la manière de les utiliser](/help/dsp/optimization/optimization-pre-bid-filters.md).
 
@@ -140,10 +153,10 @@ Pour optimiser l’échelle, utilisez [!UICONTROL Public] (Open Exchange) et l�
 <!-- Say something about limiting unnecessary constraints/limitations, including dayparting, which limit your chances for ad exposure. Use only when it's required for your audience. -->
 
 * **[!UICONTROL Included Audiences]:**
-   * Pour les emplacements de prospection, regroupez des catégories d’audience similaires et des tailles d’audience similaires en un seul emplacement. Ensuite, en fonction des performances, effectuez l’une des opérations suivantes :
-      * Supprimez les audiences peu performantes des emplacements existants.
-      * Placez les audiences les plus performantes dans un emplacement distinct pour mieux contrôler les budgets.
-   * Pour les emplacements de reciblage, vous devez idéalement inclure un segment d’audience par emplacement pour contrôler facilement les offres et le budget.
+  * Pour les emplacements de prospection, regroupez des catégories d’audience similaires et des tailles d’audience similaires en un seul emplacement. Ensuite, en fonction des performances, effectuez l’une des opérations suivantes :
+    * Supprimez les audiences peu performantes des emplacements existants.
+    * Placez les audiences les plus performantes dans un emplacement distinct pour mieux contrôler les budgets.
+  * Pour les emplacements de reciblage, vous devez idéalement inclure un segment d’audience par emplacement pour contrôler facilement les offres et le budget.
 
 >[!NOTE]
 >
@@ -152,13 +165,13 @@ Pour optimiser l’échelle, utilisez [!UICONTROL Public] (Open Exchange) et l�
 > Vous pouvez éviter le chevauchement des audiences en créant vos audiences dans des niveaux afin de pouvoir supprimer les niveaux les plus élevés et les plus inclusifs des emplacements, si nécessaire.
 
 * **[!UICONTROL Frequency Capping]:**
-   * Pour les placements de prospection, utilisez des plafonds de fréquence serrés (une impression par jour).
-   * Pour recibler les emplacements, définissez la limite d’emplacement principale sur 6 à 10 impressions par jour et la limite secondaire sur une impression par heure.
+  * Pour les placements de prospection, utilisez des plafonds de fréquence serrés (une impression par jour).
+  * Pour recibler les emplacements, définissez la limite d’emplacement principale sur 6 à 10 impressions par jour et la limite secondaire sur une impression par heure.
 
 * **[!UICONTROL Device Targeting]**:
-   * Incluez [!UICONTROL Computer], [!UICONTROL Mobile] et [!UICONTROL Tablet].
-   * Ne ciblez pas les [!UICONTROL Firefox] et les [!UICONTROL Safari] en raison des limites de ciblage et de mesure. Contactez l’équipe chargée de votre compte Adobe pour en savoir plus sur la prise en charge [!DNL Adobe] des [!DNL Safari ITP].
-   * Si vous ciblez le trafic web mobile, désactivez tous les navigateurs mobiles, à l’exception de [!UICONTROL Chrome] et [!UICONTROL Edge].
+  * Incluez [!UICONTROL Computer], [!UICONTROL Mobile] et [!UICONTROL Tablet].
+  * Ne ciblez pas les [!UICONTROL Firefox] et les [!UICONTROL Safari] en raison des limites de ciblage et de mesure. Contactez l’équipe chargée de votre compte Adobe pour en savoir plus sur la prise en charge [!DNL Adobe] des [!DNL Safari ITP].
+  * Si vous ciblez le trafic web mobile, désactivez tous les navigateurs mobiles, à l’exception de [!UICONTROL Chrome] et [!UICONTROL Edge].
 
 ### Sécurité de la marque et qualité des médias
 
@@ -172,7 +185,7 @@ Le filtrage contextuel, le blocage des fraudes lors des enchères anticipées et
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Paramètres du package &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Comment DSP optimise vos campagnes](optimization-how-dsp-optimizes-campaigns.md)
 >* [Objectifs d’optimisation et utilisation](optimization-goals.md)

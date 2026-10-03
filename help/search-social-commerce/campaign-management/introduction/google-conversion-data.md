@@ -1,24 +1,35 @@
 ---
 title: '[!DNL Google Ads] des données de conversion'
-description: Découvrez les types de données  [!DNL Google Ads] conversion suivies par dans Search, Social et Commerce.
+description: Découvrez les types de données de conversion suivies par [!DNL Google Ads] disponibles dans Search, Social et Commerce.
 exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-TQID: https://experienceleague.adobe.com/7qqQKfVhueHMc7hJDEac86la9dp36hwtrLF5ikxJzJM
+TQID: 'https://experienceleague.adobe.com/7qqQKfVhueHMc7hJDEac86la9dp36hwtrLF5ikxJzJM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 661
+source-wordcount: '671'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] des données de conversion dans Search, Social et Commerce
 
 Search, Social et Commerce synchronise automatiquement les données de conversion suivies par le [!DNL Google Ads] pour toutes vos campagnes sur les réseaux de recherche et d’achat [!DNL Google Ads] dans Search, Social et Commerce à des fins de création de rapports et d’optimisation.
@@ -29,7 +40,7 @@ Toutes les mesures sont automatiquement disponibles dans les vues de gestion de 
 
 Search, Social et Commerce synchronise les données pour les conversions pour lesquelles l’option « [!DNL Include in 'Conversions'] » est activée, en extrayant les données des 35 derniers jours, puis en extrayant les modifications quotidiennes jusqu’à 09 :00-10: dans le fuseau horaire de l’annonceur. Les données historiques peuvent changer d’un jour à l’autre à mesure que de nouvelles conversions sont suivies pour chaque clic.
 
-Jusqu’à trois mesures pour chaque conversion [[!DNL Google Ads] (que vous configurez dans &#x200B;](https://support.google.com/google-ads/answer/4677036)) sont automatiquement disponibles dans Search, Social et Commerce[!DNL Google Ads] en utilisant les noms de conversion configurés dans [!DNL Google Ads]. Les mesures de chaque conversion sont les suivantes :
+Jusqu’à trois mesures pour chaque conversion [[!DNL Google Ads] (que vous configurez dans [!DNL Google Ads]) sont automatiquement disponibles dans Search, Social et Commerce](https://support.google.com/google-ads/answer/4677036) en utilisant les noms de conversion configurés dans [!DNL Google Ads]. Les mesures de chaque conversion sont les suivantes :
 
 <!--
 

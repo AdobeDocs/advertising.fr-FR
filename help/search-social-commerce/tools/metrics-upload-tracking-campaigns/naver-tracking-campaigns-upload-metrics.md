@@ -1,22 +1,26 @@
 ---
-title: Chargement des mesures de trafic et de conversion pour les comptes  [!DNL Naver]  suivi uniquement
-description: Découvrez comment charger des mesures de trafic et de conversion pour le suivi et le compte rendu des performances uniquement pour les comptes  [!DNL Naver] .
+title: Chargement de mesures de trafic et de conversion pour les comptes de suivi [!DNL Naver] uniquement
+description: Découvrez comment charger des mesures de trafic et de conversion pour le suivi et le compte rendu des performances uniquement pour les comptes [!DNL Naver].
 exl-id: 2e4c26fa-16a8-4f36-bc17-b3a38a18120b
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/vmx5EJXshqcimgaiZLntRL2ydVi7S-toZHdmIaVlFwE
+TQID: 'https://experienceleague.adobe.com/vmx5EJXshqcimgaiZLntRL2ydVi7S-toZHdmIaVlFwE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 137
+source-wordcount: '139'
 ht-degree: 0%
-
 ---
-
 # Chargement de mesures de trafic et de conversion pour les comptes de suivi [!DNL Naver] uniquement
 
 *Comptes Naver Uniquement*

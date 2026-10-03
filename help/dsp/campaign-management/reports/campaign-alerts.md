@@ -3,26 +3,42 @@ title: Affichage des alertes
 description: Découvrez comment afficher les alertes et les résolutions recommandées pour vos campagnes et composants de campagne. Utilisez des alertes pour résoudre les problèmes liés à vos campagnes.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-TQID: https://experienceleague.adobe.com/WhIrF0O8OiqE1aVijiIJ1a-no-sXpimM2CEevnZyWhc
+TQID: 'https://experienceleague.adobe.com/WhIrF0O8OiqE1aVijiIJ1a-no-sXpimM2CEevnZyWhc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
+  - id: 2cfe5a2c-1e84-5461-b310-20f6bb734742
+    internal-label: DSP Campaign Data Views
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
   - id: f784309e-91ce-4bb5-ade4-5cbbceabecc0
+    internal-label: Campaign Data Views
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 656
+source-wordcount: '650'
 ht-degree: 0%
-
 ---
-
 # Affichage des alertes
 
 DSP vous aide à identifier les problèmes éventuels liés à l’une de vos campagnes ou à l’un de vos composants de campagne. Pour chaque problème, DSP crée une alerte avec un horodatage et l’action recommandée pour résoudre le problème. Les causes des alertes incluent les problèmes de configuration (par exemple, lorsqu’aucune publicité n’est jointe à un emplacement ou lorsqu’une offre est configurée incorrectement), le rejet de la publicité et les problèmes d’intégrité de la campagne (comme une diffusion ou des performances publicitaires médiocres). Les alertes sont disponibles aux niveaux de la campagne, du package, de l’emplacement, de l’annonce publicitaire et des affaires.
@@ -51,11 +67,11 @@ Les alertes et indicateurs d’alerte disparaissent automatiquement lorsque les 
 
    * (Pour toutes les alertes d’un package, d’un emplacement ou d’une annonce publicitaire spécifique) Procédez comme suit :
 
-      1. Cliquez sur le nom de la campagne.
+     1. Cliquez sur le nom de la campagne.
 
-      1. Dans le sous-menu, cliquez sur **[!UICONTROL Packages]**, **[!UICONTROL Placements]** ou **[!UICONTROL Ads]** pour ouvrir la vue du composant de campagne approprié.
+     1. Dans le sous-menu, cliquez sur **[!UICONTROL Packages]**, **[!UICONTROL Placements]** ou **[!UICONTROL Ads]** pour ouvrir la vue du composant de campagne approprié.
 
-      1. Cliquez sur l’indicateur d’alerte d’un package, d’un emplacement ou d’une ligne d’annonce, puis sur **[!UICONTROL View in Pulse Panel]**.
+     1. Cliquez sur l’indicateur d’alerte d’un package, d’un emplacement ou d’une ligne d’annonce, puis sur **[!UICONTROL View in Pulse Panel]**.
 
    Toutes les alertes associées à la campagne et à ses composants, y compris les offres ciblées, sont répertoriées. Par défaut, les alertes critiques sont répertoriées en premier.
 

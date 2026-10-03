@@ -3,26 +3,34 @@ title: À propos d’Adobe Advertising Search, Social et Commerce
 description: En savoir plus sur Search, Social et Commerce.
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg
+TQID: 'https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Predictive modeling
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 776
+source-wordcount: '776'
 ht-degree: 0%
-
 ---
-
 # À propos d’Adobe Advertising Search, Social et Commerce
 
 [!DNL Adobe] est le leader du marché et de la technologie dans les solutions d’expérience client. Adobe Advertising simplifie la diffusion cross-canal des campagnes publicitaires pour la gestion des campagnes de marque et de performances sur n’importe quel écran et dans n’importe quel format. Adobe Advertising se compose de trois sous-solutions : Advertising Search, Social et Commerce pour les canaux de recherche, d’achat, de réseau social, d’audience et de performance maximale ; Advertising DSP (Demand Side Platform) pour les canaux d’affichage ; et Advertising Creative pour la création d’expériences utilisateur final pour vos publicités.
@@ -51,11 +59,11 @@ Search, Social et Commerce offre une gestion de campagne, une optimisation, un s
 
 * **Reporting :** surveillez et analysez les performances de vos portfolios et de toutes les autres campagnes dont vous effectuez le suivi au moyen de vues de données de performances et de rapports détaillés et personnalisables. Vous pouvez inclure des mesures de conversion provenant d’Adobe Analytics, de [!DNL Google Ads], de [!DNL Google Analytics] et de vos autres flux d’entreprise propriétaires dans les vues de données et les rapports.
 
-   * Configurez les différentes vues de données de performance pour une visibilité optimale sur les données de performance qui vous intéressent.
+  * Configurez les différentes vues de données de performance pour une visibilité optimale sur les données de performance qui vous intéressent.
 
-   * Automatisez la production de rapports en utilisant des modèles de rapports et des flux de feuilles de calcul.
+  * Automatisez la production de rapports en utilisant des modèles de rapports et des flux de feuilles de calcul.
 
-   * Pour les portefeuilles, les informations normatives fournissent également des données visuelles exploitables que vous pouvez utiliser pour améliorer les performances.
+  * Pour les portefeuilles, les informations normatives fournissent également des données visuelles exploitables que vous pouvez utiliser pour améliorer les performances.
 
 Consultez « [Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) » pour plus d’informations sur la prise en charge de différents réseaux et types d’annonces.
 
@@ -63,7 +71,7 @@ Consultez « [Inventaire pris en charge](/help/search-social-commerce/introducti
 
 Les intégrations natives à Adobe Analytics et Adobe Audience Manager vous permettent de connecter vos données et segments d’audience pour le ciblage publicitaire, la création [!DNL Google Ads] d’audiences, l’optimisation et le reporting/analytics.
 
-Pour plus d’informations sur les intégrations à ces produits et à d’autres produits Adobe, voir « [&#x200B; Intégration aux solutions et services Adobe CX Enterprise &#x200B;](/help/search-social-commerce/introduction/integrations.md). »
+Pour plus d’informations sur les intégrations à ces produits et à d’autres produits Adobe, voir « [ Intégration aux solutions et services Adobe CX Enterprise ](/help/search-social-commerce/introduction/integrations.md). »
 
 ## Suivi des conversions
 

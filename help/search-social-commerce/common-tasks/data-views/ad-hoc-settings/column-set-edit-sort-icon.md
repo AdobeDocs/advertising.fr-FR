@@ -3,18 +3,23 @@ title: Modifier et trier le jeu de colonnes à partir de l’icône [!UICONTROL 
 description: Découvrez comment modifier les colonnes visibles à l’aide du personnalisateur de colonne.
 exl-id: bc03b53f-179a-426f-bc31-20be25915506
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/LLIbApYJXT6AZ4m7VpcJAzED1nevloYNhFyzZGUx-DI
+TQID: 'https://experienceleague.adobe.com/LLIbApYJXT6AZ4m7VpcJAzED1nevloYNhFyzZGUx-DI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 308
+source-wordcount: '303'
 ht-degree: 0%
-
 ---
-
 # Modifier et trier le jeu de colonnes à partir de l’icône [!UICONTROL Custom Columns]
 
 <!-- The same in new UI and legacy CM views except for icon -->
@@ -51,8 +56,8 @@ Vous pouvez modifier les colonnes visibles dans n’importe quel mode dans la ba
 
    * (Facultatif) Spécifiez l’ordre de tri des valeurs de la colonne sélectionnée :
 
-      * (Nouvelle interface utilisateur) Sélectionnez **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
+     * (Nouvelle interface utilisateur) Sélectionnez **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
 
-      * (IU héritée) Déplacez le curseur vers **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
+     * (IU héritée) Déplacez le curseur vers **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
 
 1. Cliquez sur **[!UICONTROL Apply]**.

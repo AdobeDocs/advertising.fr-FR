@@ -2,7 +2,13 @@
 title: (Nouvelle interface utilisateur) Répliquer des campagnes Google Ads dans Microsoft Advertising
 description: Découvrez comment exporter vos campagnes synchronisées dans un compte Google Ads directement vers un compte Microsoft Advertising synchronisé.
 feature: Search Campaign Management
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -25,7 +31,7 @@ Vous pouvez répliquer les types de campagne suivants et leur structure :
 
 Vous pouvez choisir de mettre à jour les campagnes une fois ; tous les jours, toutes les semaines ou tous les mois ; ou selon le planning recommandé par [!DNL Microsoft Advertising]. Vous pouvez éventuellement configurer des notifications chaque fois qu’une tâche d’importation s’exécute ou que des erreurs ou des modifications se produisent. Une fois que vous avez importé vos campagnes dans [!DNL Microsoft Advertising], vous pouvez vérifier le statut de votre tâche d’importation, consulter les journaux d’erreur, exécuter manuellement une tâche d’importation et modifier, suspendre, activer ou supprimer votre planning d’importation.
 
-Toutes les informations sur les campagnes ne sont pas répliquées, et vous devrez peut-être ajouter certaines informations à vos campagnes [!DNL Microsoft Advertising]. Pour plus d’informations sur les données importées, consultez [!DNL Microsoft Advertising]’aide dans la section « [&#x200B; de quoi est importé  [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851){target="_blank"} ». Étant donné que le suivi des recherches, des réseaux sociaux et de Commerce n’est pas importé, vous devez également ajouter le suivi dans les paramètres [compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [groupe publicitaire](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md) ou [annonce](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md).
+Toutes les informations sur les campagnes ne sont pas répliquées, et vous devrez peut-être ajouter certaines informations à vos campagnes [!DNL Microsoft Advertising]. Pour plus d’informations sur les données importées, consultez [!DNL Microsoft Advertising]’aide dans la section « [ de quoi est importé  [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851){target="_blank"} ». Étant donné que le suivi des recherches, des réseaux sociaux et de Commerce n’est pas importé, vous devez également ajouter le suivi dans les paramètres [compte](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [groupe publicitaire](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md) ou [annonce](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md).
 
 ## Réplication des campagnes [!DNL Google Ads]
 
@@ -41,7 +47,7 @@ Voir [Qu’est-ce qui est importé des  [!DNL Google Ads] campagnes](https://hel
 
 1. Cliquez sur **[!UICONTROL + Import Campaigns]**.
 
-1. Spécifiez les [&#x200B; paramètres d’importation &#x200B;](#campaign-import-settings).
+1. Spécifiez les [ paramètres d’importation ](#campaign-import-settings).
 
 1. Cliquez sur **[!UICONTROL Review and Save]** en haut à droite.
 

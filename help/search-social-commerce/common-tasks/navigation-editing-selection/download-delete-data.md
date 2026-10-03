@@ -3,18 +3,21 @@ title: Supprimer un rapport de données de performances ou un fichier de feuille
 description: Découvrez comment supprimer un fichier de rapport ou de feuille d’envoi groupé que vous avez téléchargé une vue de gestion de campagne.
 exl-id: cd1244da-ddb8-4ee1-8ebb-2df4e9924952
 feature: Search Common Tasks
-TQID: https://experienceleague.adobe.com/BHELz3pVJw9al4r-lWc4Mlm5BwlBG6J8hAXZhSoOvtk
+TQID: 'https://experienceleague.adobe.com/BHELz3pVJw9al4r-lWc4Mlm5BwlBG6J8hAXZhSoOvtk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 148
+source-wordcount: '146'
 ht-degree: 0%
-
 ---
-
 # (Interface utilisateur héritée) Supprimez un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads]
 
 *Interface utilisateur héritée*
@@ -34,7 +37,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
 >* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
 >* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

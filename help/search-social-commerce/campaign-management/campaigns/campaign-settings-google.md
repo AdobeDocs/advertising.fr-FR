@@ -1,24 +1,30 @@
 ---
 title: '[!DNL Google Ads] des paramètres de la campagne'
-description: Référencez les paramètres des campagnes  [!DNL Google Ads] .
+description: Référencez les paramètres des campagnes [!DNL Google Ads].
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4
+TQID: 'https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2700
+source-wordcount: '2703'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] des paramètres de la campagne
 
 ## \[Écran de création de campagne\]
@@ -37,13 +43,13 @@ ht-degree: 0%
 
   **Remarques :**
 
-   * Seuls les paramètres requis sont disponibles. Pour obtenir des paramètres facultatifs, connectez-vous à l’éditeur de [!DNL Google Ads].
+  * Seuls les paramètres requis sont disponibles. Pour obtenir des paramètres facultatifs, connectez-vous à l’éditeur de [!DNL Google Ads].
 
-   * Les liens vers les flux de produits [!DNL Google Merchant Center] ne sont pas pris en charge.
+  * Les liens vers les flux de produits [!DNL Google Merchant Center] ne sont pas pris en charge.
 
-   * La prise en charge des groupes de listes n’est pas disponible. Pour gérer et afficher les données des groupes de listes, connectez-vous à l’éditeur de [!DNL Google Ads].
+  * La prise en charge des groupes de listes n’est pas disponible. Pour gérer et afficher les données des groupes de listes, connectez-vous à l’éditeur de [!DNL Google Ads].
 
-   * L’optimisation hybride est prise en charge. Les cibles de la stratégie d’enchères et les budgets de campagne sont définis au niveau de la campagne.
+  * L’optimisation hybride est prise en charge. Les cibles de la stratégie d’enchères et les budgets de campagne sont définis au niveau de la campagne.
 
 ## [!UICONTROL Campaign Details]
 
@@ -71,7 +77,7 @@ ht-degree: 0%
 
 **[!UICONTROL Contains EU Political Ads]:**(Applicable aux campagnes qui ciblent des audiences dans l’Union européenne (UE)) Que la campagne contienne ou non de la publicité politique selon les exigences pour les publicités diffusées dans l’Union européenne en vertu du règlement 2024/90 de l’UE : *[!UICONTROL Yes]* ou *[!UICONTROL No]*.
 
-**[!UICONTROL AI Max Enabled]:** (campagnes qui ciblent uniquement le réseau de recherche ; lecture seule) Si la fonction [[!UICONTROL AI Max] est activée &#x200B;](https://support.google.com/google-ads/answer/15910366) : *[!UICONTROL On]* ou *[!UICONTROL Off]*.
+**[!UICONTROL AI Max Enabled]:** (campagnes qui ciblent uniquement le réseau de recherche ; lecture seule) Si la fonction [[!UICONTROL AI Max] est activée ](https://support.google.com/google-ads/answer/15910366) : *[!UICONTROL On]* ou *[!UICONTROL Off]*.
 
 **[!UICONTROL AI Max Bundling]:** (campagnes ciblant uniquement le réseau de recherche ; campagnes avec la fonction AI Max activée ; lecture seule) Si le regroupement est requis : *[!UICONTROL Not Required]*, *[!UICONTROL Required]*, *[!UICONTROL Unknown]* ou *[!UICONTROL Unspecified]*.
 
@@ -107,7 +113,7 @@ Pour les campagnes de recherche, les paramètres supplémentaires suivants sont 
 
 * *[!UICONTROL Manual CPC]* (valeur par défaut) : (non disponible pour les campagnes de type Performance Max) utilise le modèle de coût par clic (CPC). Vous pouvez éventuellement permettre au réseau publicitaire de modifier les enchères pour la campagne :
 
-   * **[!UICONTROL Enable Enhanced CPC]** (désactivé par défaut) : revient à utiliser l’option « [!UICONTROL Enhanced CPC] », qui est obsolète. Le 15 mars 2025, [!DNL Google Ads] a commencé à modifier automatiquement les [stratégies d’enchères CPC améliorées](https://support.google.com/google-ads/answer/2464964) existantes pour les remplacer par une CPC manuelle.
+  * **[!UICONTROL Enable Enhanced CPC]** (désactivé par défaut) : revient à utiliser l’option « [!UICONTROL Enhanced CPC] », qui est obsolète. Le 15 mars 2025, [!DNL Google Ads] a commencé à modifier automatiquement les [stratégies d’enchères CPC améliorées](https://support.google.com/google-ads/answer/2464964) existantes pour les remplacer par une CPC manuelle.
 
 * *[!UICONTROL Maximize Clicks]:* (campagnes de recherche, d’affichage et d’achat) Le réseau publicitaire , et non Search, Social et Commerce, optimise les enchères pour maximiser les clics. Vous pouvez éventuellement saisir un **[!UICONTROL Max CPC]** (coût par clic) pour vous assurer que le réseau publicitaire ne paie pas plus d’un montant spécifique pour chaque clic. **Attention :** lorsque vous ajoutez une campagne avec cette stratégie à un portefeuille, les offres sont pilotées par le poids de clic, et non par l’objectif du portefeuille.
 
@@ -162,19 +168,19 @@ les produits de la campagne sont vendus. Comme les produits sont associés aux p
 
 * Pour cibler ou exclure des emplacements spécifiques :
 
-   * (Pays, États, régions métropolitaines ou villes) Cliquez sur **[!UICONTROL Location Target]** (![Cible de l’emplacement](/help/search-social-commerce/assets/location-target.png "Cible de l’emplacement")) et localisez les emplacements à inclure et à exclure :
+  * (Pays, États, régions métropolitaines ou villes) Cliquez sur **[!UICONTROL Location Target]** (![Cible de l’emplacement](/help/search-social-commerce/assets/location-target.png "Cible de l’emplacement")) et localisez les emplacements à inclure et à exclure :
 
-      * Pour inclure un emplacement et ses emplacements enfants, cliquez une fois sur le cercle adjacent afin qu’une coche bleue (![Inclure](/help/search-social-commerce/assets/include.png "Inclure")) s’affiche.
+    * Pour inclure un emplacement et ses emplacements enfants, cliquez une fois sur le cercle adjacent afin qu’une coche bleue (![Inclure](/help/search-social-commerce/assets/include.png "Inclure")) s’affiche.
 
-      * Pour exclure un emplacement, cliquez deux fois sur le cercle adjacent afin d’afficher une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")).
+    * Pour exclure un emplacement, cliquez deux fois sur le cercle adjacent afin d’afficher une coche rouge (![Exclure](/help/search-social-commerce/assets/exclude.png "Exclure")).
 
-      * Pour développer un emplacement dans ses sous-composants (tels que les États, les régions métropolitaines ou les villes des États-Unis), cliquez sur le nom de l’emplacement.
+    * Pour développer un emplacement dans ses sous-composants (tels que les États, les régions métropolitaines ou les villes des États-Unis), cliquez sur le nom de l’emplacement.
 
-      * Pour rechercher un emplacement, saisissez ou collez au moins les trois premiers caractères de l’emplacement dans le champ de saisie. Dans les résultats de la recherche, cliquez sur **[!UICONTROL Include]** en regard d’un emplacement à inclure ou **[!UICONTROL Exclude]** en regard d’un emplacement à exclure.
+    * Pour rechercher un emplacement, saisissez ou collez au moins les trois premiers caractères de l’emplacement dans le champ de saisie. Dans les résultats de la recherche, cliquez sur **[!UICONTROL Include]** en regard d’un emplacement à inclure ou **[!UICONTROL Exclude]** en regard d’un emplacement à exclure.
 
-   * (Emplacements proches d’une adresse ; cibles incluses uniquement) Cliquez sur **[!UICONTROL Radius Target]** (![Cible de rayon](/help/search-social-commerce/assets/radius-target.png "Cible de rayon")), puis sur **[!UICONTROL Address]**. Saisissez l’adresse et le rayon en milles ou kilomètres autour de l’adresse à cibler, puis cliquez sur **[!UICONTROL Add]**.
+  * (Emplacements proches d’une adresse ; cibles incluses uniquement) Cliquez sur **[!UICONTROL Radius Target]** (![Cible de rayon](/help/search-social-commerce/assets/radius-target.png "Cible de rayon")), puis sur **[!UICONTROL Address]**. Saisissez l’adresse et le rayon en milles ou kilomètres autour de l’adresse à cibler, puis cliquez sur **[!UICONTROL Add]**.
 
-   * (Emplacements proches des coordonnées géographiques ; cibles incluses uniquement) Cliquez sur **[!UICONTROL Radius Target]** (![Cible de rayon](/help/search-social-commerce/assets/radius-target.png "Cible de rayon")), puis cliquez sur **[!UICONTROL Coordinate]**. Saisissez la latitude, la longitude et le rayon en milles ou kilomètres autour de l’emplacement à cibler, puis cliquez sur **[!UICONTROL Add]**.
+  * (Emplacements proches des coordonnées géographiques ; cibles incluses uniquement) Cliquez sur **[!UICONTROL Radius Target]** (![Cible de rayon](/help/search-social-commerce/assets/radius-target.png "Cible de rayon")), puis cliquez sur **[!UICONTROL Coordinate]**. Saisissez la latitude, la longitude et le rayon en milles ou kilomètres autour de l’emplacement à cibler, puis cliquez sur **[!UICONTROL Add]**.
 
 * (Pour ajouter un ajustement d&#39;offre pour un lieu cible inclus) Saisissez une valeur d&#39;ajustement d&#39;offre :
 
@@ -186,9 +192,9 @@ les produits de la campagne sont vendus. Comme les produits sont associés aux p
 
 * Search, Social et Commerce ne fournissent pas d’ajustements d’enchères ajustés automatiquement pour les cibles d’emplacement suivantes en raison des limites des données fournies par [!DNL Google Ads] pour mapper les emplacements d’internaute aux cibles d’emplacement :
 
-   * Cibles de rayon.
+  * Cibles de rayon.
 
-   * Certains emplacements sous le niveau État/province/région/comté/préfecture pour lesquels [!DNL Google Ads] n’envoie pas d’emplacement parent dans l’URL de l’utilisateur, notamment les aéroports et les districts du Congrès des États-Unis.
+  * Certains emplacements sous le niveau État/province/région/comté/préfecture pour lesquels [!DNL Google Ads] n’envoie pas d’emplacement parent dans l’URL de l’utilisateur, notamment les aéroports et les districts du Congrès des États-Unis.
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -233,7 +239,7 @@ par pays. Si vous ne sélectionnez aucune option, elles sont toutes ciblées.
 
 * *[!UICONTROL Bid higher for new customers than for existing customers]*
 
-  **Remarque :** pour utiliser ce paramètre, vous devez d’abord activer le nouvel objectif d’acquisition de clients pour le compte [!DNL Google Ads] ou, le cas échéant, pour le compte responsable. L’objectif définit les listes de clients existants éligibles et la valeur de conversion supplémentaire pour les nouveaux clients dans les paramètres de conversion. Voir les étapes 1 à 2 dans l’aide [!DNL Google Ads] « [&#x200B; Activer l’objectif d’acquisition de nouveaux clients &#x200B;](https://support.google.com/google-ads/answer/14007601) ».
+  **Remarque :** pour utiliser ce paramètre, vous devez d’abord activer le nouvel objectif d’acquisition de clients pour le compte [!DNL Google Ads] ou, le cas échéant, pour le compte responsable. L’objectif définit les listes de clients existants éligibles et la valeur de conversion supplémentaire pour les nouveaux clients dans les paramètres de conversion. Voir les étapes 1 à 2 dans l’aide [!DNL Google Ads] « [ Activer l’objectif d’acquisition de nouveaux clients ](https://support.google.com/google-ads/answer/14007601) ».
 
 * *[!UICONTROL Only bid for new customers]*
 
@@ -297,21 +303,21 @@ par pays. Si vous ne sélectionnez aucune option, elles sont toutes ciblées.
 
 * Pour charger des images :
 
-   1. Sur l’onglet [!UICONTROL Upload from Device] , cliquez sur **[!UICONTROL +]** et sélectionnez les images sur votre appareil ou réseau.
+  1. Sur l’onglet [!UICONTROL Upload from Device] , cliquez sur **[!UICONTROL +]** et sélectionnez les images sur votre appareil ou réseau.
 
-   1. Pour chaque image :
+  1. Pour chaque image :
 
-      1. Sélectionnez les proportions.
+     1. Sélectionnez les proportions.
 
-      1. Faites glisser et positionnez la zone de recadrage selon vos besoins pour sélectionner la partie visible de l’image, puis redimensionnez la partie visible de l’image selon vos besoins, si possible.
+     1. Faites glisser et positionnez la zone de recadrage selon vos besoins pour sélectionner la partie visible de l’image, puis redimensionnez la partie visible de l’image selon vos besoins, si possible.
 
-      1. (Facultatif) Sélectionnez d’autres proportions et, éventuellement, repositionnez et redimensionnez l’image selon les besoins pour chaque proportion sélectionnée.
+     1. (Facultatif) Sélectionnez d’autres proportions et, éventuellement, repositionnez et redimensionnez l’image selon les besoins pour chaque proportion sélectionnée.
 
-         Une ressource est créée pour chaque format sélectionné.
+        Une ressource est créée pour chaque format sélectionné.
 
-      1. Cliquez sur **[!UICONTROL Proceed]**.
+     1. Cliquez sur **[!UICONTROL Proceed]**.
 
-   1. Lorsque vous avez terminé de spécifier des images, cliquez sur **[!UICONTROL Upload]**.
+  1. Lorsque vous avez terminé de spécifier des images, cliquez sur **[!UICONTROL Upload]**.
 
 * Pour sélectionner des images dans votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez les images.
 
@@ -319,21 +325,21 @@ par pays. Si vous ne sélectionnez aucune option, elles sont toutes ciblées.
 
 * Pour charger des images :
 
-   1. Sur l’onglet [!UICONTROL Upload from Device] , cliquez sur **[!UICONTROL +]** et sélectionnez les images sur votre appareil ou réseau.
+  1. Sur l’onglet [!UICONTROL Upload from Device] , cliquez sur **[!UICONTROL +]** et sélectionnez les images sur votre appareil ou réseau.
 
-   1. Pour chaque image :
+  1. Pour chaque image :
 
-      1. Sélectionnez les proportions.
+     1. Sélectionnez les proportions.
 
-      1. Faites glisser et positionnez la zone de recadrage selon vos besoins pour sélectionner la partie visible de l’image, puis redimensionnez la partie visible de l’image selon vos besoins, si possible.
+     1. Faites glisser et positionnez la zone de recadrage selon vos besoins pour sélectionner la partie visible de l’image, puis redimensionnez la partie visible de l’image selon vos besoins, si possible.
 
-      1. (Facultatif) Sélectionnez d’autres proportions et, éventuellement, repositionnez et redimensionnez l’image selon les besoins pour chaque proportion sélectionnée.
+     1. (Facultatif) Sélectionnez d’autres proportions et, éventuellement, repositionnez et redimensionnez l’image selon les besoins pour chaque proportion sélectionnée.
 
-         Une ressource est créée pour chaque format sélectionné.
+        Une ressource est créée pour chaque format sélectionné.
 
-      1. Cliquez sur **[!UICONTROL Proceed]**.
+     1. Cliquez sur **[!UICONTROL Proceed]**.
 
-   1. Lorsque vous avez terminé de spécifier des images, cliquez sur **[!UICONTROL Upload]**.
+  1. Lorsque vous avez terminé de spécifier des images, cliquez sur **[!UICONTROL Upload]**.
 
 * Pour sélectionner des images dans votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez les images.
 
@@ -341,9 +347,9 @@ par pays. Si vous ne sélectionnez aucune option, elles sont toutes ciblées.
 
 * Pour saisir des URL :
 
-   1. Dans l’onglet [!UICONTROL Enter Video Url] , saisissez une URL.
+  1. Dans l’onglet [!UICONTROL Enter Video Url] , saisissez une URL.
 
-   1. (Facultatif) Pour ajouter une autre URL, cliquez sur **[!UICONTROL + Add]** et saisissez l’URL.
+  1. (Facultatif) Pour ajouter une autre URL, cliquez sur **[!UICONTROL + Add]** et saisissez l’URL.
 
 * Pour sélectionner des vidéos dans votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez les vidéos.
 
@@ -353,9 +359,9 @@ Vous pouvez saisir du texte ou sélectionner des ressources à partir de votre [
 
 * Pour saisir du texte :
 
-   1. Dans l’onglet [!UICONTROL Enter Text] , saisissez le texte.
+  1. Dans l’onglet [!UICONTROL Enter Text] , saisissez le texte.
 
-   1. (Facultatif) Pour ajouter une autre chaîne de texte, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
+  1. (Facultatif) Pour ajouter une autre chaîne de texte, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
 
 * Pour sélectionner des ressources dans votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez-les.
 
@@ -363,9 +369,9 @@ Vous pouvez saisir du texte ou sélectionner des ressources à partir de votre [
 
 * Pour saisir du texte :
 
-   1. Dans l’onglet [!UICONTROL Enter Text] , saisissez le texte.
+  1. Dans l’onglet [!UICONTROL Enter Text] , saisissez le texte.
 
-   1. (Facultatif) Pour ajouter une autre chaîne de texte, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
+  1. (Facultatif) Pour ajouter une autre chaîne de texte, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
 
 * Pour sélectionner des ressources dans votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez-les.
 
@@ -373,9 +379,9 @@ Vous pouvez saisir du texte ou sélectionner des ressources à partir de votre [
 
 * Pour saisir du texte :
 
-   1. Dans l’onglet [!UICONTROL Enter Text] , saisissez le texte.
+  1. Dans l’onglet [!UICONTROL Enter Text] , saisissez le texte.
 
-   1. (Facultatif) Pour ajouter une autre chaîne de texte, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
+  1. (Facultatif) Pour ajouter une autre chaîne de texte, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
 
 * Pour sélectionner des ressources dans votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez-les.
 
@@ -390,7 +396,7 @@ Vous pouvez saisir du texte ou sélectionner des ressources à partir de votre [
 
 **[!UICONTROL Primary Status]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes Performance Max) Pourquoi le groupe de ressources est-il diffusé ou non à pleine capacité ? Il prend en compte le statut du groupe de ressources ainsi que d’autres signaux, tels que les approbations de politique et de qualité. Les valeurs peuvent inclure *ÉLIGIBLE,* *LIMITÉ,* *NOT_ELIGIBLE,* *EN PAUSE,* *EN ATTENTE,* SUPPRIMÉ,*UNKNOWN,* ou *UNSPECIFIED.* **<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
-**[!UICONTROL Primary Status Reason]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes Performance Max) Informations supplémentaires sur le statut principal du groupe de ressources. Les valeurs peuvent inclure *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* CAMPAIGN_ENDED,*CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,*ou* UNSPECIFIED.**&#x200B; ** **
+**[!UICONTROL Primary Status Reason]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes Performance Max) Informations supplémentaires sur le statut principal du groupe de ressources. Les valeurs peuvent inclure *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* CAMPAIGN_ENDED,*CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,*ou* UNSPECIFIED.** ** **
 
 ## [!UICONTROL Conversion Goals]
 
@@ -404,7 +410,7 @@ Pour créer un objectif de conversion personnalisé, cliquez sur **[!UICONTROL +
 >
 >Si la campagne fait partie d’un portfolio hybride, la bonne pratique consiste à utiliser des objectifs au niveau de la campagne qui correspondent aux objectifs de conversion de l’objectif du portfolio. L’inclusion d’objectifs de conversion supplémentaires peut avoir une incidence sur les performances du portfolio.
 >
->Toutefois, pour les campagnes dans des portfolios hybrides pour lesquelles vous [chargez les objectifs vers le réseau publicitaire](/help/search-social-commerce/tools/objective-upload-to-networks.md), procédez comme suit dans l’éditeur du réseau publicitaire au lieu de procéder ici : a) ajoutez la mesure d’objectif de portfolio Search, Social et Commerce téléchargée (qui commence par « O_ACS_OBJ ») comme action de conversion pour la campagne, et b) ajoutez tous les objectifs de campagne qui incluent des conversions suivies par le [!DNL Google], car les mesures suivies par le réseau publicitaire ne sont pas téléchargées sur le réseau publicitaire avec l’objectif .
+>Toutefois, pour les campagnes dans des portfolios hybrides pour lesquelles vous [chargez les objectifs vers le réseau publicitaire](/help/search-social-commerce/tools/objective-upload-to-networks.md), procédez comme suit dans l’éditeur du réseau publicitaire au lieu de procéder ici : a) ajoutez la mesure d’objectif de portfolio Search, Social et Commerce chargée (qui commence par « O_ACS_OBJ ») comme action de conversion pour la campagne, et b) ajoutez tous les objectifs de campagne qui incluent des conversions suivies par le [!DNL Google], car les mesures suivies par le réseau publicitaire ne sont pas chargées sur le réseau publicitaire avec l’objectif .
 
 >[!MORELIKETHIS]
 >

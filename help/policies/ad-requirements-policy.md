@@ -3,28 +3,37 @@ title: politique des exigences publicitaires d’Adobe Advertising
 description: Consultez la politique pour connaître les exigences en matière de publicité.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-TQID: https://experienceleague.adobe.com/Od9i55zraQgaZGD1iWLFX6CcfXnUqCsrHQHt58tiHfU
+TQID: 'https://experienceleague.adobe.com/Od9i55zraQgaZGD1iWLFX6CcfXnUqCsrHQHt58tiHfU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: bc1ebc31-ef28-453d-ab0e-79fb34941421
+    internal-label: Policies
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
   - id: fcb67316-5ddd-4bee-82b6-d36475c67b56
+    internal-label: Privacy
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: '2224'
 ht-degree: 0%
-
 ---
-
 # politique des exigences publicitaires d’Adobe Advertising
 
 *Dernière mise à jour de la politique : 17 juillet 2024<!-- (except for formatting changes unrelated to content)-->*
@@ -67,7 +76,7 @@ Vous devez vous assurer que vos publicités et le ou les sites Web vers lesquels
 
 * **Tabac**. Les publicités ne peuvent offrir ou promouvoir la vente ou l&#39;utilisation de produits du tabac ou d&#39;accessoires, y compris les cigarettes électroniques.
 
-* **Blasphème et langage vulgaire ou obscène.** publicités ne doivent pas contenir de blasphèmes, ni de propos vulgaires ou obscènes. Les publicités peuvent également ne pas inclure un langage visant à accomplir le même effet, mais qui obscurcit le blasphème.
+* **Blasphème et langage vulgaire ou obscène.** Les publicités ne doivent pas contenir de blasphèmes, ni de propos vulgaires ou obscènes. Les publicités peuvent également ne pas inclure un langage visant à accomplir le même effet, mais qui obscurcit le blasphème.
 
 * **Publicités Haineuses**. Les publicités ne doivent pas promouvoir ou se rapporter à un discours haineux ou à l&#39;intolérance religieuse et ne doivent pas dénigrer une personne ou un groupe en fonction de sa race ou de son origine ethnique, de sa religion, de son handicap, de son état médical ou génétique, de son âge, de sa nationalité ou de son origine nationale, de son statut d&#39;ancien combattant, de réfugié, de statut d&#39;immigrant, de son orientation sexuelle, de son genre, de son identité de genre ou d&#39;autres caractéristiques associées à la discrimination ou à la marginalisation systémiques.
 
@@ -125,22 +134,22 @@ Les Services ne peuvent pas être utilisés pour cibler des annonces destinées 
 
 
 
-   * Croyances ou affiliations religieuses ou similaires
-   * Race, couleur ou origine ethnique
-   * Antécédents, intérêts ou orientation sexuels
-   * Identification des personnes transgenres
-   * Informations génétiques ou biométriques
-   * Statut financier négatif (comme la cote de crédit) ou casier judiciaire, antécédents ou condamnations
-   * Dossiers médicaux ou de santé, y compris les dossiers de prescription
-   * Les relations ou le statut de la relation liés à des difficultés personnelles (comme le divorce, le deuil)
-   * Abus et traumatismes, y compris le statut de victime d&#39;un crime, d&#39;un abus ou d&#39;un événement traumatisant
-   * Appartenance à un groupe marginalisé ou vulnérable, y compris sur la base de la caste sociale ou du statut d’immigrant ou de réfugié
+  * Croyances ou affiliations religieuses ou similaires
+  * Race, couleur ou origine ethnique
+  * Antécédents, intérêts ou orientation sexuels
+  * Identification des personnes transgenres
+  * Informations génétiques ou biométriques
+  * Statut financier négatif (comme la cote de crédit) ou casier judiciaire, antécédents ou condamnations
+  * Dossiers médicaux ou de santé, y compris les dossiers de prescription
+  * Les relations ou le statut de la relation liés à des difficultés personnelles (comme le divorce, le deuil)
+  * Abus et traumatismes, y compris le statut de victime d&#39;un crime, d&#39;un abus ou d&#39;un événement traumatisant
+  * Appartenance à un groupe marginalisé ou vulnérable, y compris sur la base de la caste sociale ou du statut d’immigrant ou de réfugié
 
 * **Union européenne**. En outre, dans l’Union européenne, les publicités ne peuvent pas être ciblées ou destinées à un public en fonction des facteurs suivants, qu’ils soient connus ou déduits de l’utilisateur :
 
-   * Affiliation politique
-   * Adhésion syndicale
-   * Toute autre catégorie spéciale de données personnelles
+  * Affiliation politique
+  * Adhésion syndicale
+  * Toute autre catégorie spéciale de données personnelles
 
 * **Ciblage lié à la santé**. Vous ne pouvez pas utiliser les Services pour collecter des données sensibles liées à la santé ou pour faire des inférences sur la santé ou les traitements médicaux sensibles des utilisateurs. En particulier, vous ne pouvez pas utiliser les Services pour cibler les publicités pour tout type de cancer, de maladie mentale ou de maladies sexuellement transmissibles. Les publicités peuvent cibler des troubles de santé non sensibles, notamment l&#39;acné, les allergies, les soins dentaires, la vision, les brûlures d&#39;estomac, le rhume et la grippe, les sinus, les maux de tête, les maux de dos, les premiers soins, les maux de gorge, la gestion de la glycémie, le régime et la forme physique, l&#39;épilation, ainsi que les vitamines et les suppléments.
 

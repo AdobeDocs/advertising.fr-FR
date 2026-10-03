@@ -3,18 +3,24 @@ title: Prévisualisation d’un contenu créatif
 description: Découvrez comment ouvrir l’aperçu d’une création.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-TQID: https://experienceleague.adobe.com/T6NV9uopJw7nQ2Janpw6BMGK0N2Ya0tzGckB75qbg0M
+TQID: 'https://experienceleague.adobe.com/T6NV9uopJw7nQ2Janpw6BMGK0N2Ya0tzGckB75qbg0M'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 198
+source-wordcount: '202'
 ht-degree: 0%
-
 ---
-
 # Prévisualisation d’un contenu créatif
 
 Vous pouvez prévisualiser une création telle que les visiteurs la verront, y compris sous forme de liens hypertexte.
@@ -31,7 +37,7 @@ Vous pouvez prévisualiser une création telle que les visiteurs la verront, y c
 
 1. (Facultatif si disponible) Pour redimensionner l’image à l’écran, sélectionnez une option dans la liste **[!UICONTROL Zoom]**, de 10 % à 100 % de la taille de l’image.
 
-1. (Éléments créatifs HTML5 flexibles, facultatif) Pour faire défiler les images du contenu créatif, cliquez sur **\&lt;** et **\>**.
+1. (Contenu publicitaire HTML5 flexible ; facultatif) Pour faire défiler les images du contenu publicitaire entre elles, cliquez sur **\&lt;** et **\>**.
 
 1. (Contenus vidéo ; facultatif) Effectuez l’une des opérations suivantes à l’aide des commandes sous le contenu créatif :
 

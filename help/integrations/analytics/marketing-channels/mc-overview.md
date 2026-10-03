@@ -1,37 +1,46 @@
 ---
-title: Principes fondamentaux de  [!DNL Marketing Channels]
-description: Découvrez les informations clés sur  [!DNL Analytics Marketing Channels]  que les utilisateurs et  [!DNL Analytics for Advertising]  utilisatrices doivent comprendre.
+title: Principes fondamentaux de la [!DNL Marketing Channels]
+description: Découvrez des informations clés sur les [!DNL Analytics Marketing Channels] que [!DNL Analytics for Advertising] utilisateurs doivent comprendre.
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-TQID: https://experienceleague.adobe.com/NJ4LPss-g-J06PuvdCaUktHPyP7MARdJK84-D8gnwAk
+TQID: 'https://experienceleague.adobe.com/NJ4LPss-g-J06PuvdCaUktHPyP7MARdJK84-D8gnwAk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Email marketing
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: '563'
 ht-degree: 0%
-
 ---
-
 # Principes fondamentaux de la [!DNL Analytics Marketing Channels]
 
 Cette page fournit des informations clés sur les [!DNL Analytics Marketing Channels] que [!DNL Analytics for Advertising] utilisateurs doivent comprendre.
 
-Pour obtenir une documentation complète sur les [!DNL Marketing Channels], voir « [Prise en main de  [!DNL Marketing Channels]](https://experienceleague.adobe.com/fr/docs/analytics/components/marketing-channels/c-getting-started-mchannel) ».
+Pour obtenir une documentation complète sur les [!DNL Marketing Channels], voir « [Prise en main de  [!DNL Marketing Channels]](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel) ».
 
 ## Présentation de [!DNL Marketing Channels]
 
 [!DNL Marketing Channels] sont des fonctionnalités essentielles d’Adobe Analytics. [!DNL Marketing Channels] rapports montrent comment les clients accèdent à votre site web par la fenêtre de création de rapports et comment chaque canal affecte le chiffre d’affaires ou le comportement sur site.
 
-Prenons l’exemple suivant d’un parcours de visites croisées. Chaque visite de votre site web est indiquée par le canal marketing à partir duquel le visiteur a rejoint le site. La première visite, également appelée canal Première touche, est l’e-mail. L’affichage lors de la deuxième visite est un canal participant, et la recherche naturelle est considérée comme le canal Dernière touche. Si vous utilisez [!UICONTROL Last Touch Attribution] dans [!UICONTROL Attribution IQ], Natural Search reçoit un crédit complet pour l’événement de conversion de 250 $. À l’aide du service Adobe CX Enterprise ID, vous pouvez associer ces visites individuelles afin d’afficher un parcours par un seul visiteur.
+Prenons l’exemple suivant d’un parcours de visites croisées. Chaque visite de votre site web est indiquée par le canal marketing à partir duquel le visiteur a rejoint le site. La première visite, également appelée canal Première touche, est l’e-mail. L’affichage lors de la deuxième visite est un canal participant, et la recherche naturelle est considérée comme le canal Dernière touche. Si vous utilisez [!UICONTROL Last Touch Attribution] dans [!UICONTROL Attribution IQ], Natural Search reçoit un crédit complet pour l’événement de conversion de 250 $. À l’aide du service Adobe CX Enterprise ID, vous pouvez lier ces visites individuelles afin d’afficher un parcours par un seul visiteur.
 
 ![Exemple de parcours de conversion entre visites dans les canaux marketing](/help/integrations/assets/a4adc-mc-sample-journey.png)
 
@@ -47,12 +56,12 @@ Les autres canaux ne disposent pas de chemins d’URL traçables et ont besoin d
 
 Adobe recommande de travailler avec votre équipe [!DNL Analytics] pour créer un ensemble complet de règles de traitement des [!DNL Marketing Channels] qui effectuent le suivi de tous les canaux pertinents. Cela vous permet de créer des rapports d’attribution puissants.
 
-Pour comprendre comment Adobe Advertising peut contribuer aux signaux nécessaires à la création de canaux marketing personnalisés, consultez la section « [&#x200B; Utilisation des Adobe Advertising ID pour créer [!DNL Marketing Channels] traiter des règles &#x200B;](mc-ids.md) ».
+Pour comprendre comment Adobe Advertising peut contribuer aux signaux nécessaires à la création de canaux marketing personnalisés, consultez la section « [ Utilisation des Adobe Advertising ID pour créer [!DNL Marketing Channels] traiter des règles ](mc-ids.md) ».
 
 >[!MORELIKETHIS]
 >
 >* [Utilisation des Adobe Advertising ID pour la création [!DNL Marketing Channels] le traitement des règles](mc-ids.md)
 >* [Pourquoi les données de canal peuvent varier entre Adobe Advertising et  [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Utilisation [!DNL Analytics Marketing Channels] avec des données Adobe Advertising](mc-ac-data.md)
->* [Vidéo : Utilisation  [!DNL Marketing Channels]  rapports pour Adobe Advertising](https://experienceleague.adobe.com/fr/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
+>* [Vidéo : Utilisation  [!DNL Marketing Channels]  rapports pour Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
 >* [Présentation de  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

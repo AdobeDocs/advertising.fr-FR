@@ -3,20 +3,26 @@ title: Générer un rapport spécialisé
 description: Découvrez comment générer un rapport spécialisé.
 exl-id: 2428fafa-109a-4a17-9004-a32941cd5519
 feature: Search Reports, Search Specialty Reports
-TQID: https://experienceleague.adobe.com/07Y3trfC76LSKTfxMQig34wXASS1noGms2QHl3dEA1s
+TQID: 'https://experienceleague.adobe.com/07Y3trfC76LSKTfxMQig34wXASS1noGms2QHl3dEA1s'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 343
+source-wordcount: '343'
 ht-degree: 0%
-
 ---
-
 # Générer un rapport spécialisé
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
@@ -45,7 +51,7 @@ ht-degree: 0%
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
-Si vous n&#39;avez pas spécifié de planning de rapport, le rapport est exécuté immédiatement ; dans le cas contraire, il l&#39;est selon le planning spécifié. Le nom du rapport est ajouté à la vue [[!UICONTROL Latest Reports]. &#x200B;](/help/search-social-commerce/reports/report-about.md) Si vous avez enregistré le rapport en tant que modèle, il est également ajouté à la vue [[!UICONTROL Templates]. &#x200B;](/help/search-social-commerce/reports/report-about.md). Une fois le rapport terminé, vous pouvez ouvrir ou enregistrer le fichier ; les modèles sont disponibles immédiatement.
+Si vous n&#39;avez pas spécifié de planning de rapport, le rapport est exécuté immédiatement ; dans le cas contraire, il l&#39;est selon le planning spécifié. Le nom du rapport est ajouté à la vue ](/help/search-social-commerce/reports/report-about.md). [[!UICONTROL Latest Reports]Si vous avez enregistré le rapport en tant que modèle, il est également ajouté à la vue [[!UICONTROL Templates]. ](/help/search-social-commerce/reports/report-about.md). Une fois le rapport terminé, vous pouvez ouvrir ou enregistrer le fichier ; les modèles sont disponibles immédiatement.
 
 Si vous avez saisi des adresses e-mail pour la notification, chaque destinataire reçoit une notification lorsque la tâche de rapport est terminée ou échoue, en fonction des [paramètres de notification configurés](/help/search-social-commerce/notifications/notification-edit.md) de l’utilisateur pour les rapports.
 

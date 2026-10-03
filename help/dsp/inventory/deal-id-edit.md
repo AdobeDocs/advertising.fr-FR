@@ -3,23 +3,30 @@ title: Modifier les paramètres d’une transaction privée
 description: Découvrez comment modifier les détails d’une transaction privée.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: c6ab7d39-5581-423b-90aa-3e142c235072
-TQID: https://experienceleague.adobe.com/dEPZaqOf2ghXi4t7q1-WM6J4Qg-XdWDXP4F-B846jl4
+TQID: 'https://experienceleague.adobe.com/dEPZaqOf2ghXi4t7q1-WM6J4Qg-XdWDXP4F-B846jl4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 123
+source-wordcount: '123'
 ht-degree: 0%
-
 ---
-
 # Modifier les paramètres d’une transaction privée
 
 Les modifications apportées à une offre acceptée ne sont pas synchronisées à partir du fournisseur de services partagés. Si vous avez accepté une offre mais que l’éditeur a envoyé des modifications, vous pouvez modifier certains éléments des paramètres de l’offre depuis [!UICONTROL Inventory] > [!UICONTROL Deals]. Vous pouvez également renommer une offre à tout moment.

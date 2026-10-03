@@ -3,21 +3,26 @@ title: Activer le chargement des objectifs sur les réseaux publicitaires
 description: Découvrez comment charger des objectifs pour vos portfolios hybrides vers [!DNL Google Ads] et [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0
+TQID: 'https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 676
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # Activer le chargement des objectifs sur les réseaux publicitaires
 
 *Annonceurs disposant uniquement de comptes [!DNL Google Ads] et [!DNL Microsoft Advertising]*
@@ -26,7 +31,7 @@ ht-degree: 0%
 
 Search, Social et Commerce peuvent charger les objectifs des portefeuilles d’un compte publicitaire vers [!DNL Google Ads] et [!DNL Microsoft Advertising] afin que vous puissiez les utiliser dans le cadre d’une optimisation hybride. Vos objectifs chargés sont disponibles sous forme d’actions de conversion pour les objectifs de conversion personnalisés au niveau du compte et de la campagne.
 
-L’activation de cette option déclenche automatiquement un chargement pour les objectifs des portefeuilles contenant des campagnes avec des stratégies d’enchères intelligentes. Search, Social et Commerce génèrent une conversion sur le réseau publicitaire pour chaque objectif applicable. La conversion représente toutes les mesures de conversion pondérées de l’objectif au niveau de l’identifiant EF (identifiant de clic). Pour les clics [!DNL Google Ads], l’ID EF est le [!DNL Google Ads] `gclid` ; pour les clics [!DNL Microsoft Advertising], l’ID EF est le [!DNL Microsoft Advertising] `msclkid`. Grâce à cet identifiant de clic, les données de conversion peuvent être mappées au mot-clé spécifique et au temps de clic.
+L’activation de cette option déclenche automatiquement un chargement pour les objectifs des portefeuilles contenant des campagnes avec des stratégies d’enchères intelligentes. Search, Social et Commerce génèrent une conversion sur le réseau publicitaire pour chaque objectif applicable. La conversion représente toutes les mesures de conversion pondérées de l’objectif au niveau de l’identifiant EF (identifiant de clic). Pour les clics [!DNL Google Ads], l’ID EF est le `gclid` [!DNL Google Ads] ; pour les clics [!DNL Microsoft Advertising], l’ID EF est le `msclkid` [!DNL Microsoft Advertising]. Grâce à cet identifiant de clic, les données de conversion peuvent être mappées au mot-clé spécifique et au temps de clic.
 
 Chaque conversion chargée porte le nom suivant :
 
@@ -52,7 +57,7 @@ Les chargements vers [!DNL Google Ads] et [!DNL Microsoft Advertising] ont lieu 
 
 1. Vérifiez que chaque objectif — nommé `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` — apparaît dans les deux jours sur le réseau publicitaire.
 
-   Dans l’éditeur de [!DNL Google Ads], recherchez vos [&#x200B; actions de conversion &#x200B;](https://support.google.com/google-ads/answer/11461796). Dans l’éditeur de [!DNL Microsoft Advertising], recherchez vos [&#x200B; objectifs de conversion &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/56709).
+   Dans l’éditeur de [!DNL Google Ads], recherchez vos [ actions de conversion ](https://support.google.com/google-ads/answer/11461796). Dans l’éditeur de [!DNL Microsoft Advertising], recherchez vos [ objectifs de conversion ](https://help.ads.microsoft.com/#apex/ads/en/56709).
 
    Si nécessaire, mettez à jour la période pour inclure la date de chargement.
 
@@ -83,9 +88,9 @@ Si l’objectif (nommé `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_
 
 * ([!DNL Google Ads]) Vérifiez si les conversions doivent être téléchargées au niveau du compte ou du responsable. S’ils doivent être chargés au niveau du responsable :
 
-   * Vérifiez si les informations d’identification du compte [!DNL Google Ads] Manager sont fournies sous **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Si nécessaire, [ajoutez les informations d’identification du compte Manager](/help/search-social-commerce/admin/manager-accounts.md).
+  * Vérifiez si les informations d’identification du compte [!DNL Google Ads] Manager sont fournies sous **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Si nécessaire, [ajoutez les informations d’identification du compte Manager](/help/search-social-commerce/admin/manager-accounts.md).
 
-   * Vérifiez si le compte réseau publicitaire inclut déjà le même nom de mesure. Si c’est le cas, renommez la mesure afin de pouvoir créer la propriété de niveau responsable appropriée.
+  * Vérifiez si le compte réseau publicitaire inclut déjà le même nom de mesure. Si c’est le cas, renommez la mesure afin de pouvoir créer la propriété de niveau responsable appropriée.
 
 * Vérifiez que l&#39;option « hybride » du portefeuille est sélectionnée et que l&#39;objectif a un chiffre d&#39;affaires valide.
 

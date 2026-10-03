@@ -1,23 +1,30 @@
 ---
 title: '[!DNL Microsoft Advertising] des paramètres de la campagne'
-description: Référencez les paramètres des campagnes  [!DNL Microsoft Advertising] .
+description: Référencez les paramètres des campagnes [!DNL Microsoft Advertising].
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2255
+source-wordcount: '2256'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] des paramètres de la campagne
 
 ## \[Haut de la page]
@@ -239,7 +246,7 @@ Pour plus d’informations sur la disponibilité, consultez l’aide de Microsof
 >
 >Si la campagne fait partie d’un portfolio hybride, la bonne pratique consiste à utiliser des objectifs au niveau de la campagne qui correspondent aux objectifs de conversion de l’objectif du portfolio. L’inclusion d’objectifs de conversion supplémentaires peut avoir une incidence sur les performances du portfolio.
 >
-> Toutefois, pour les campagnes dans des portfolios hybrides pour lesquelles vous [chargez les objectifs vers le réseau publicitaire](/help/search-social-commerce/tools/objective-upload-to-networks.md), procédez comme suit dans l’éditeur du réseau publicitaire au lieu de procéder ici : a) ajoutez la mesure d’objectif de portfolio Search, Social et Commerce chargée (qui commence par « O_ACS_OBJ ») comme objectif de conversion pour la campagne, et b) ajoutez tous les objectifs de campagne qui incluent les conversions suivies par la balise de suivi d’événement universel (UET) [!DNL Microsoft Advertising], car les mesures suivies par le réseau publicitaire ne sont pas chargées sur le réseau publicitaire avec l’objectif .
+> Toutefois, pour les campagnes dans des portfolios hybrides pour lesquelles vous [chargez les objectifs vers le réseau publicitaire](/help/search-social-commerce/tools/objective-upload-to-networks.md), procédez comme suit dans l’éditeur du réseau publicitaire au lieu de procéder ici : a) ajoutez la mesure d’objectif du portfolio Search, Social et Commerce téléchargée (qui commence par « O_ACS_OBJ ») comme objectif de conversion pour la campagne, et b) ajoutez tous les objectifs de campagne qui incluent les conversions suivies par la balise de suivi d’événement universel (UET) [!DNL Microsoft Advertising], car les mesures suivies par le réseau publicitaire ne sont pas téléchargées sur le réseau publicitaire avec l’objectif .
 
 ### [!UICONTROL Asset Groups] (par groupe de ressources)
 

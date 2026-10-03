@@ -1,27 +1,31 @@
 ---
-title: 'Données de feuille d’envoi groupé requises pour les comptes  [!DNL Microsoft Advertising] '
-description: Référencez les champs d’en-tête et de données obligatoires dans les feuilles d’envoi groupé pour les comptes  [!DNL Microsoft Advertising] .
+title: Données de feuille d’envoi groupé requises pour les comptes [!DNL Microsoft Advertising]
+description: Référencez les champs d’en-tête et de données obligatoires dans les feuilles d’envoi groupé pour les comptes [!DNL Microsoft Advertising].
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
+TQID: 'https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 7024
-ht-degree: 0%
-
+source-wordcount: '7150'
+ht-degree: 1%
 ---
-
 # Annexe - Données de feuille d’envoi groupé requises pour les comptes [!DNL Microsoft Advertising]
 
 Pour créer et mettre à jour [!DNL Microsoft Advertising] données de campagne en bloc, vous pouvez utiliser des fichiers de feuille d’envoi groupé Search, Social et Commerce formatés spécifiquement pour les comptes [!DNL Microsoft Advertising]. Vous pouvez a) [générer des fichiers de feuilles de support pour les comptes existants](../bulksheet-download.md) au format de fichier requis ou b) les créer manuellement (voir « [Formats de fichiers de feuilles de support pris en charge](bulksheet-file-formats.md) » pour obtenir des informations générales sur les formats de fichiers pris en charge).
 
-Chaque feuille d’envoi groupé doit inclure les champs d’en-tête et les champs de données correspondants requis pour les [&#x200B; opérations spécifiques que vous souhaitez effectuer &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) (telles que la création d’une annonce publicitaire). Lorsqu’un champ n’est pas obligatoire, vous pouvez l’omettre dans l’en-tête et les lignes de données. Toutes les colonnes personnalisées sont supprimées lorsque vous téléchargez le fichier de feuille en bloc.
+Chaque feuille d’envoi groupé doit inclure les champs d’en-tête et les champs de données correspondants requis pour les [ opérations spécifiques que vous souhaitez effectuer ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) (telles que la création d’une annonce publicitaire). Lorsqu’un champ n’est pas obligatoire, vous pouvez l’omettre dans l’en-tête et les lignes de données. Toutes les colonnes personnalisées sont supprimées lorsque vous téléchargez le fichier de feuille en bloc.
 
 Vous trouverez ci-dessous un tableau de tous les champs de données disponibles et des tableaux supplémentaires indiquant les champs nécessaires à l’ajout, la modification ou la suppression de données pour des entités individuelles (telles que des campagnes et des mots-clés).
 
@@ -74,7 +78,7 @@ Pour les champs de données pertinents pour les entités de compte, reportez-vou
 | [!UICONTROL Start Date] | (Liens du site améliorés uniquement) Première date à laquelle des offres peuvent être faites pour le lien du site, dans le fuseau horaire de l’annonceur et dans l’un des formats suivants : aaaa/mm/aaaa, jj/aa, jj-aaaa ou jj-aa. La valeur par défaut des nouveaux liens de site améliorés est la date du jour. <b>Remarque :</b> les nouveaux liens de site améliorés ne peuvent être créés que dans les campagnes avec des liens de site améliorés existants ou sans liens de site. |
 | [!UICONTROL End Date] | Dernière date à laquelle le lien du site peut apparaître avec des annonces, dans le fuseau horaire de l’annonceur et dans l’un des formats suivants : j/mm/aaaa, j/j/aaaa, j-j-aaaa ou j-j-aaaa. Pour un nouveau lien du site, la valeur par défaut est `[blank]` (c’est-à-dire aucune date de fin). |
 | [!UICONTROL Call To Action] | Call to action à inclure dans la publicité. Consultez la [Référence d’API pour obtenir une liste des valeurs possibles](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction), mais saisissez des appels à l’action à mots multiples sous la forme de mots multiples (tels que « Bet Now » au lieu de « BetNow ») dans les feuilles d’envoi groupé. |
-| [!UICONTROL Call To Action Language] | Langue des options call to action. Consultez la section [&#x200B; Référence d’API pour obtenir une liste des langues possibles](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename). |
+| [!UICONTROL Call To Action Language] | Langue des options call to action. Consultez la section [ Référence d’API pour obtenir une liste des langues possibles](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename). |
 | [!UICONTROL Base URL/Final URL] | URL de la page de destination vers laquelle les utilisateurs et utilisatrices du moteur de recherche sont dirigés lorsqu’ils cliquent sur votre annonce, y compris tout paramètre d’ajout configuré pour la campagne ou le compte. Les URL de base/finales au niveau du mot-clé remplacent celles au niveau de l’annonce et aux niveaux supérieurs.<br><br>Pour supprimer la valeur existante, utilisez le `[delete]` de valeur (y compris les crochets). |
 | [!UICONTROL Destination URL] | (Incluse dans les feuilles d&#39;envoi groupé générées à titre d&#39;information ; non publiée dans le moteur de recherche) Pour les comptes avec des URL de destination, il s&#39;agit de l&#39;URL qui lie une annonce à une URL de base/page de destination sur le site Web de l&#39;annonceur (parfois via un autre site qui suit le clic et redirige ensuite l&#39;utilisateur vers la page de destination). Elle inclut tous les paramètres d’ajout configurés pour la campagne ou le compte Search, Social et Commerce. Si vous avez généré des URL de tracking, cela dépend des paramètres de tracking définis dans les paramètres de votre compte et de votre campagne. Si vous avez ajouté des paramètres spécifiques au moteur de recherche, ils peuvent être remplacés par des paramètres équivalents pour Rechercher, Social et Commerce. <br><br>Pour les comptes avec des URL finales, cette colonne affiche la même valeur que la colonne URL de base/URL finale. |
 | [!UICONTROL Custom URL Param] | Données à substituer à la variable dynamique `{custom_code}` lorsque la variable est incluse dans les paramètres de tracking du compte de recherche ou des paramètres de la campagne. Pour insérer la valeur personnalisée dans l&#39;URL de tracking, vous devez télécharger le fichier de feuille d&#39;envoi groupé via l&#39;option Générer les URL de tracking . |
@@ -88,7 +92,7 @@ Pour les champs de données pertinents pour les entités de compte, reportez-vou
 | [!UICONTROL Languages] | Langue cible des publicités du groupe publicitaire : [!UICONTROL English], [!UICONTROL French], [!UICONTROL Finnish], [!UICONTROL German], [!UICONTROL Norwegian], [!UICONTROL Spanish] ou [!UICONTROL Swedish]. La valeur par défaut pour les nouvelles campagnes est [!UICONTROL English].<br><br>Ce paramètre détermine les pays et les régions dans lesquels votre publicité peut être affichée. Veillez à choisir une langue compatible avec les cibles de localisation de la campagne. |
 | [!UICONTROL Budget Type] | Que le budget soit <i>[!UICONTROL Daily]</i> (valeur par défaut) ou <i>[!UICONTROL Monthly]</i>.<br><br>Remarque : si vous affectez la campagne à un portfolio optimisé, cette valeur est automatiquement définie sur [!UICONTROL Daily]. |
 | [!UICONTROL Device] | Type d’appareil pour lequel des ajustements d’offre sont effectués au niveau de la campagne ou du groupe publicitaire : <i>[!UICONTROL smartphone]</i>, <i>[!UICONTROL tablet]</i> ou <i>[!UICONTROL desktop]</i>. |
-| [!UICONTROL Bid Adjustment] | Ajustement d&#39;offre pour un type de cible spécifié. Par exemple, si l’enchère au niveau du mot-clé est de 1 USD et que l’ajustement de l’enchère pour les smartphones est de 50 %, l’enchère pour les smartphones est de 1,50 USD. Par défaut, toutes les cibles sont enchéries au niveau de l’enchère par mot-clé. Les pourcentages valides peuvent inclure :<ul><li>Smartphones et tablettes : -100 (pour ne pas enchérir sur le type d&#39;appareil) et de -90 à 900</li><li>Bureau : de 0 à 900</li></ul> |
+| [!UICONTROL Bid Adjustment] | Ajustement d&#39;offre pour un type de cible spécifié. Par exemple, si l’enchère au niveau du mot-clé est de 1 USD et que l’ajustement d’enchère pour les smartphones est de 50 %, l’enchère pour les smartphones est de 1,50 USD. Par défaut, toutes les cibles sont enchéries au niveau de l’enchère par mot-clé. Les pourcentages valides peuvent inclure :<ul><li>Smartphones et tablettes : -100 (pour ne pas enchérir sur le type d&#39;appareil) et de -90 à 900</li><li>Bureau : de 0 à 900</li></ul> |
 | [!UICONTROL Creative Preferred Devices] | Types d’appareils sur lesquels vous préférez afficher la publicité ou le lien du site : <i>[!UICONTROL All]</i> (valeur par défaut) ou <i>[!UICONTROL Mobile]</i>. Lorsque Mobile est spécifié, le réseau tente d’afficher la publicité ou le lien du site aux utilisateurs d’appareils mobiles plutôt qu’aux utilisateurs d’ordinateurs de bureau ou de tablettes. Dans le cas contraire, le réseau affiche la publicité ou le lien du site sur n’importe quel type d’appareil. <b>Remarque :</b> Le réseau ne garantit pas qu&#39;il affichera la publicité sur le type d&#39;appareil préféré. |
 | [!UICONTROL Param2] | Chaîne à utiliser comme valeur de substitution si l’URL de base du mot-clé ou le titre, la description ou l’URL de base de l’annonce publicitaire contient la chaîne de substitution dynamique `{Param2}`. La longueur maximale est de 70 caractères, mais gardez à l’esprit la longueur maximale des éléments publicitaires dans lesquels vous l’utilisez (par exemple, les titres 1 et 2 combinés peuvent contenir un maximum de 76 caractères). Pour supprimer la valeur existante, utilisez l’`[delete]` de valeur (y compris les crochets). |
 | [!UICONTROL Param3] | Chaîne à utiliser comme valeur de substitution si l’URL de base du mot-clé ou le titre, la description ou l’URL de base de l’annonce publicitaire contient la chaîne de substitution dynamique `{Param3}`. La longueur maximale est de 70 caractères, mais gardez à l’esprit la longueur maximale des éléments publicitaires dans lesquels vous l’utilisez (par exemple, les titres 1 et 2 combinés peuvent contenir un maximum de 76 caractères). Pour supprimer la valeur existante, utilisez l’`[delete]` de valeur (y compris les crochets). |
@@ -239,7 +243,7 @@ Pour obtenir une description de chaque champ de données, voir « [Tous les cham
 
 ### Champs d’annonce de produit (achats)
 
-Pour plus d’informations sur la création d’annonces d’achats, voir « [Implémenter [!DNL Microsoft Advertising] des campagnes d’achats](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=fr) ».
+Pour plus d’informations sur la création d’annonces d’achats, voir « [Implémenter [!DNL Microsoft Advertising] des campagnes d’achats](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html) ».
 
 Pour ce type d’annonce, utilisez la ligne « [!UICONTROL Creative (except RSA)] » dans la boîte de dialogue [!UICONTROL Download Bulksheet].
 

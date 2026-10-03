@@ -3,18 +3,21 @@ title: À propos des formats d’URL de suivi des clics pour le service de suivi
 description: Découvrez les formats de suivi des clics pour les réseaux publicitaires pris en charge.
 exl-id: b6f225d5-2268-4b2a-9927-063155ba0dc5
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg
+TQID: 'https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 274
+source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # À propos des formats d’URL de suivi des clics pour le service de suivi des conversions d’Adobe Advertising
 
 Les modèles de tracking, les suffixes de page de destination (suffixes d’URL finaux) et les URL de destination pour les comptes publicitaires et les campagnes qui utilisent le service de tracking des conversions d’Adobe Advertising ont le format suivant :
@@ -29,9 +32,9 @@ où :
 
 * `<token passing parameter>` est une variable pour l’un des éléments suivants :
 
-   * `cq?` ou `rq` indique que la transmission du jeton est activée.
+  * `cq?` ou `rq` indique que la transmission du jeton est activée.
 
-   * `c?` ou `r` indique que la transmission du jeton est désactivée.
+  * `c?` ou `r` indique que la transmission du jeton est désactivée.
 
 * `<ad network ID>` est une variable pour l’ID numérique du réseau publicitaire spécifié, par exemple *3* pour [!DNL Google Ads], *10* pour [!DNL Microsoft Advertising], *45* pour [!DNL Meta], *86* pour [!DNL Yahoo DSP], *87*, [!DNL Naver]88 *,* 90[!DNL Baidu] pour *,* 94[!DNL Yandex] pour *(anciennement*), [!DNL LY Ads]105[!DNL Yahoo! Japan Ads] pour *(obsolète) ou* 106[!DNL Yahoo Native] pour ** [!DNL Pinterest] (obsolète).
 

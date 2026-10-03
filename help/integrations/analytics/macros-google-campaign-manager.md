@@ -1,27 +1,35 @@
 ---
-title: Ajout  [!DNL Analytics for Advertising]  macros aux balises  [!DNL Google Campaign Manager 360] ’annonces
-description: Découvrez pourquoi et comment ajouter  [!DNL Analytics for Advertising]  macros à vos balises  [!DNL Google Campaign Manager 360]  publicité
+title: Ajout de macros [!DNL Analytics for Advertising] aux balises d’annonces [!DNL Google Campaign Manager 360]
+description: Découvrez pourquoi et comment ajouter des macros [!DNL Analytics for Advertising] à vos balises d’annonces [!DNL Google Campaign Manager 360]
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-TQID: https://experienceleague.adobe.com/9qDSGAIk2uelZpEekvKmQMxIMAQeCT8cy55zub-uFv4
+TQID: 'https://experienceleague.adobe.com/9qDSGAIk2uelZpEekvKmQMxIMAQeCT8cy55zub-uFv4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 487
+source-wordcount: '513'
 ht-degree: 0%
-
 ---
-
 # Ajout de macros [!DNL Analytics for Advertising] aux balises d’annonces [!DNL Google Campaign Manager 360]
 
 *Publicitaires avec une intégration Adobe Advertising-Adobe Analytics uniquement*
@@ -54,7 +62,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->&#x200B;>* Si l’URL de la page de destination comprend un symbole de hachage (#), ce qui n’est pas courant, placez le paramètre `amo` avant le symbole de hachage.
+>>* Si l’URL de la page de destination comprend un symbole de hachage (#), ce qui n’est pas courant, placez le paramètre `amo` avant le symbole de hachage.
 >* Si aucun autre paramètre n’est inclus après le paramètre `amo`, ajoutez un paramètre (par exemple, &amp;a=b) après celui-ci. Exemple : `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### Configurer le suffixe d’URL de page de destination au niveau de l’annonceur

@@ -3,18 +3,24 @@ title: Gestion des modèles de flux
 description: Découvrez comment gérer les modèles de flux.
 feature: Creative Dynamic Creatives
 exl-id: 63f8af87-639c-45c8-b17f-99ce19594d35
-TQID: https://experienceleague.adobe.com/5bEvYLuXmwYHifo--x98vtfZ7-tVsLcRq5LGSLilFvM
+TQID: 'https://experienceleague.adobe.com/5bEvYLuXmwYHifo--x98vtfZ7-tVsLcRq5LGSLilFvM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # Gestion des modèles de flux
 
 <!-- I have a "Retail" feed template that was created by rkarthik@adobe. Ask product if this is available to all clients or just internal.  -->
@@ -109,7 +115,7 @@ Au moins un champ de fichier de flux doit être marqué comme « [!UICONTROL Is 
 
 **[!UICONTROL Is Unique]:** indique que le champ est un ID unique (clé). Au moins un champ par modèle de flux doit être unique. Pour sélectionner cette option, cliquez sur le bouton pour la déplacer vers la droite.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** champ [&#x200B; sur le serveur principal d’Advertising Creative](/help/creative/appendix-available-feed-fields.md) qui correspond au [!UICONTROL Field Name] spécifié dans le fichier de flux.
+**[!UICONTROL Backend Field]:** champ [ sur le serveur principal d’Advertising Creative](/help/creative/appendix-available-feed-fields.md) qui correspond au [!UICONTROL Field Name] spécifié dans le fichier de flux.
 
 >[!MORELIKETHIS]
 >

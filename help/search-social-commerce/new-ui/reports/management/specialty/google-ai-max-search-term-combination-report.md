@@ -2,7 +2,15 @@
 title: '[!UICONTROL Google AI Max Search Term Combination Report]'
 description: En savoir plus sur le [!UICONTROL Google AI Max Search Term Combination Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a595c7d6245fa5d65e704e88230f2eab0a336e72
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -17,7 +25,7 @@ La [!UICONTROL Google AI Max Search Term Combination Report] montre comment des 
 
   Utilisez cette feuille pour analyser l’intention et les performances des éléments publicitaires résultants par requête afin de pouvoir créer des listes de mots-clés négatifs fiables.
 
-* &#x200B;<!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1] : données de conversion suivies par [!DNL Google Ads] par action de conversion pour chaque terme de recherche et type de correspondance. Chaque ligne comprend l’action de conversion, le nombre de conversions et la valeur de conversion, ainsi que toute autre mesure de conversion [!DNL Google Ads] facultative spécifiée dans les paramètres du rapport. Par défaut, les données incluent une ligne pour chaque combinaison de terme de recherche et d’action de conversion dans la plage de données spécifiée. Les lignes sont dans le même ordre que celles de la première feuille.
+* <!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1] : données de conversion suivies par [!DNL Google Ads] par action de conversion pour chaque terme de recherche et type de correspondance. Chaque ligne comprend l’action de conversion, le nombre de conversions et la valeur de conversion, ainsi que toute autre mesure de conversion [!DNL Google Ads] facultative spécifiée dans les paramètres du rapport. Par défaut, les données incluent une ligne pour chaque combinaison de terme de recherche et d’action de conversion dans la plage de données spécifiée. Les lignes sont dans le même ordre que celles de la première feuille.
 
   <!-- Should it be this?  The sheet includes the number of conversions and the conversion value, all conversions and the all conversions value, and cross-device conversions. -->
 

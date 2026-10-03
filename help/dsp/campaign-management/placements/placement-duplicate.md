@@ -3,22 +3,26 @@ title: Dupliquer les emplacements
 description: Découvrez comment dupliquer un ou plusieurs emplacements.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-TQID: https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM
+TQID: 'https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 445
+source-wordcount: '445'
 ht-degree: 0%
-
 ---
-
 # Dupliquer les emplacements
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
@@ -30,7 +34,7 @@ Dupliquez un ou plusieurs emplacements pour créer des emplacements avec des par
 * (Pour les emplacements dupliqués dans les campagnes d’origine) Dupliquez éventuellement les annonces d’origine
 * Modifier le statut et les dates de vol des nouveaux emplacements
 
-Pour obtenir la liste des paramètres d&#39;emplacement qui ne sont pas dupliqués[&#128279;](#placement-not-duplicated) reportez-vous à « Qu&#39;est-ce qui n&#39;est pas dupliqué ? ».
+Pour obtenir la liste des paramètres d&#39;emplacement qui ne sont pas dupliqués](#placement-not-duplicated) reportez-vous à « [Qu&#39;est-ce qui n&#39;est pas dupliqué ? ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -44,9 +48,9 @@ Pour obtenir la liste des paramètres d&#39;emplacement qui ne sont pas dupliqu�
 
    * Pour dupliquer plusieurs emplacements :
 
-      1. Cochez la case en regard de chaque emplacement à dupliquer.
+     1. Cochez la case en regard de chaque emplacement à dupliquer.
 
-      1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Duplicate]**.
+     1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Duplicate]**.
 
 1. Spécifiez les nouveaux paramètres d&#39;emplacement :
 
@@ -74,10 +78,10 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 * (Si vous ne joignez pas d’annonces) Pondération et planification personnalisées des annonces
 * Emplacements par défaut pour les offres programmatiques garanties (PG) et emplacements pour les offres [!UICONTROL Simple Ad Serving]
 * (Si vous copiez des emplacements dans une autre campagne) :
-   * Cibles géographiques
-   * Pixels d’événement
-   * Publicités
-   * Segments [!DNL DoubleVerify Authentic Brand Suitability] au niveau de l’emplacement (qui remplacent les segments au niveau de l’annonceur)
+  * Cibles géographiques
+  * Pixels d’événement
+  * Publicités
+  * Segments [!DNL DoubleVerify Authentic Brand Suitability] au niveau de l’emplacement (qui remplacent les segments au niveau de l’annonceur)
 
 ## Bonnes pratiques pour configurer les nouveaux emplacements
 
@@ -90,19 +94,19 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 
 * Tenez compte des points suivants et modifiez les nouveaux emplacements selon vos besoins :
 
-   * Le compte dispose-t-il de fonds suffisants pour accueillir les nouveaux budgets de placement ?
+  * Le compte dispose-t-il de fonds suffisants pour accueillir les nouveaux budgets de placement ?
 
-   * Les nouveaux emplacements ont-ils besoin de budgets différents des emplacements précédents ? Des budgets minimaux sont-ils nécessaires ?
+  * Les nouveaux emplacements ont-ils besoin de budgets différents des emplacements précédents ? Des budgets minimaux sont-ils nécessaires ?
 
-   * Chargez des contenus publicitaires, y compris la pondération et la planification personnalisées des annonces nécessaires, et joignez-les aux emplacements.
+  * Chargez des contenus publicitaires, y compris la pondération et la planification personnalisées des annonces nécessaires, et joignez-les aux emplacements.
 
-   * Ajoutez des pixels d’événement si nécessaire aux emplacements et aux annonces.
+  * Ajoutez des pixels d’événement si nécessaire aux emplacements et aux annonces.
 
-   * Incluez des cibles géographiques et des segments de [!DNL DoubleVerify Authentic Brand Suitability] au niveau de l’emplacement selon les besoins des emplacements.
+  * Incluez des cibles géographiques et des segments de [!DNL DoubleVerify Authentic Brand Suitability] au niveau de l’emplacement selon les besoins des emplacements.
 
-   * Pour les offres programmatiques garanties, utilisez les nouveaux ID d’offres et créez des emplacements par défaut.
+  * Pour les offres programmatiques garanties, utilisez les nouveaux ID d’offres et créez des emplacements par défaut.
 
-   * Créez de nouveaux emplacements pour les offres [!UICONTROL Simple Ad Serving], si nécessaire.
+  * Créez de nouveaux emplacements pour les offres [!UICONTROL Simple Ad Serving], si nécessaire.
 
 >[!MORELIKETHIS]
 >

@@ -3,25 +3,31 @@ title: Spécifications publicitaires
 description: Référencez les spécifications publicitaires générales et spécifiques à l’éditeur.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-TQID: https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ
+TQID: 'https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 0%
-
+source-wordcount: '950'
+ht-degree: 1%
 ---
-
 # Spécifications pour les types d’annonces pris en charge
 
 ## Publicités vidéo (pré-roll, CTV et vidéo universelle)
@@ -68,19 +74,19 @@ Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flas
 
 * **A+E Network :** consultez les spécifications [ad de A+E Network](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
 
-* **Discovery :** consultez les spécifications des annonces publicitaires [&#x200B; de Discovery](/help/dsp/assets/discovery-networks-ad-specs.pdf).
+* **Discovery :** consultez les spécifications des annonces publicitaires [ de Discovery](/help/dsp/assets/discovery-networks-ad-specs.pdf).
 
-* **Disney (inclus Hulu) :** Voir les spécifications des [annonces publicitaires](https://www.disneyadvertising.com/mediakit/#specifications) de Disney.
+* **Disney (y compris Hulu) :** voir les spécifications [ad de Disney](https://www.disneyadvertising.com/mediakit/#specifications).
 
 * **HBO Max :** consultez les spécifications [ad de HBO Max](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
 
 * **NBCUniversal:**
 
-   * [Vidéo numérique](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
+  * [Vidéo numérique](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
-   * [&#x200B; Livestream &#x200B;](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+  * [Livestream](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
-   * [Paon](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
+  * [Paon](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
 * **Paramount :** consultez les spécifications [ad de Paramount](https://www.paramount.com/digital-ads).
 
@@ -129,35 +135,35 @@ Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flas
 #### Exigences supplémentaires de l’éditeur
 
 * **[!DNL iHeartRadio]**
-   * Durée : 5, 15, 30 ou 60 secondes
-   * Type de fichier : MP3
-   * Taille de fichier maximale : 320 kbit/s
-   * Volume : 44,1 kHz
+  * Durée : 5, 15, 30 ou 60 secondes
+  * Type de fichier : MP3
+  * Taille de fichier maximale : 320 kbit/s
+  * Volume : 44,1 kHz
 
 * **[!DNL Pandora]**
-   * Durée : 15 ou 30 secondes
-   * Type de fichier : MP4 (in-app), MP3 (desktop)
-   * Taille de fichier maximale : 2,2 Mo
+  * Durée : 15 ou 30 secondes
+  * Type de fichier : MP4 (in-app), MP3 (desktop)
+  * Taille de fichier maximale : 2,2 Mo
 
 * **[!DNL SoundCloud]**
-   * Durée : 6, 15 ou 30 secondes
-   * Type de fichier : MP3
-   * Taille de fichier maximale : 5 Mo
+  * Durée : 6, 15 ou 30 secondes
+  * Type de fichier : MP3
+  * Taille de fichier maximale : 5 Mo
 
 * **[!DNL Spotify]**
-   * Durée : jusqu’à 30 secondes
-   * Type de fichier : OGG
-   * Taille de fichier maximale : 500MB
-   * Volume : RMS normalisé à -14 ; pic de dBFS normalisé à -0,2 dBFS
+  * Durée : jusqu’à 30 secondes
+  * Type de fichier : OGG
+  * Taille de fichier maximale : 500MB
+  * Volume : RMS normalisé à -14 ; pic de dBFS normalisé à -0,2 dBFS
 
 * **[!DNL TargetSpot]**
-   * Durée : 15, 30 ou 60 secondes
-   * Type de fichier : MP3
+  * Durée : 15, 30 ou 60 secondes
+  * Type de fichier : MP3
 
 * **[!DNL TuneIn]**
-   * Durée : 10, 15 ou 30 secondes
-   * Type de fichier : MP3, OGG
-   * Volume : 44,1 kHz
+  * Durée : 10, 15 ou 30 secondes
+  * Type de fichier : MP3, OGG
+  * Volume : 44,1 kHz
 
 ### Conditions requises pour les bannières publicitaires associées (facultatif)
 
@@ -166,29 +172,29 @@ Vous pouvez utiliser des feuilles de balises provenant de [!DNL DCM], [!DNL Flas
 #### Exigences supplémentaires de l’éditeur
 
 * **[!DNL iHeartRadio]:**
-   * Type de fichier : JPEG, JPG, PNG, GIF, SWF, HTML
-   * Taille de fichier maximale : 2,2 Mo
-   * Dimensions : 300x250
+  * Type de fichier : JPEG, JPG, PNG, GIF, SWF, HTML
+  * Taille de fichier maximale : 2,2 Mo
+  * Dimensions : 300x250
 
 * **[!DNL Pandora]:**
-   * Type de fichier : JPEG, GIF
-   * Taille de fichier maximale : Taille : 100 Ko
-   * Dimensions : 300 x 250 (mobile ou bureau) ou 500 x 500 (bureau)
+  * Type de fichier : JPEG, GIF
+  * Taille de fichier maximale : Taille : 100 Ko
+  * Dimensions : 300 x 250 (mobile ou bureau) ou 500 x 500 (bureau)
 
 * **[!DNL SoundCloud]:**
-   * Type de fichier : JPG statique, PNG
-   * Taille de fichier maximale : moins de 400 Ko
-   * Dimensions : 1 024 x 1 024
+  * Type de fichier : JPG statique, PNG
+  * Taille de fichier maximale : moins de 400 Ko
+  * Dimensions : 1 024 x 1 024
 
 * **[!DNL Spotify]:**
-   * Type de fichier : JPG statique, PNG
-   * Taille de fichier maximale : 200 Ko
-   * Dimensions : 300x250
+  * Type de fichier : JPG statique, PNG
+  * Taille de fichier maximale : 200 Ko
+  * Dimensions : 300x250
 
 * **[!DNL TuneIn]:**
-   * Type de fichier : JPEG, JPG, PNG, GIF, HTML
-   * Taille de fichier maximale : 2 Mo
-   * Dimensions : 300x250
+  * Type de fichier : JPEG, JPG, PNG, GIF, HTML
+  * Taille de fichier maximale : 2 Mo
+  * Dimensions : 300x250
 
 ## Publicités display natives
 

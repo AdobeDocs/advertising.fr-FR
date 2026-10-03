@@ -4,13 +4,17 @@ description: Découvrez comment créer des audiences réutilisables dans Adobe A
 feature: DSP Audiences
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 0%
-
 ---
-
 # Créer une audience réutilisable à l’aide de l’IA générative
 
 *Fonction*
@@ -89,11 +93,11 @@ Vous pouvez utiliser vos audiences comme cibles ou exclusions pour plusieurs emp
 
 * Utilisez un langage clair et descriptif pour décrire l’audience cible.
 
-   * Vous pouvez saisir des phrases complètes ou simplement une chaîne de caractéristiques. La ponctuation n&#39;est pas nécessaire, sauf lorsque cela est nécessaire pour des raisons de clarté.
+  * Vous pouvez saisir des phrases complètes ou simplement une chaîne de caractéristiques. La ponctuation n&#39;est pas nécessaire, sauf lorsque cela est nécessaire pour des raisons de clarté.
 
-   * En règle générale, les invites ne respectent pas la casse.
+  * En règle générale, les invites ne respectent pas la casse.
 
-   * L’agent d’audience reconnaît les synonymes les plus courants.
+  * L’agent d’audience reconnaît les synonymes les plus courants.
 
 * Soyez spécifique et fournissez des détails sur toutes les caractéristiques d’audience que vous souhaitez inclure et sur toutes les caractéristiques que vous souhaitez spécifiquement exclure. Plus vous fournissez de détails, plus vous avez de chances d&#39;obtenir les résultats qui répondent à vos besoins.
 

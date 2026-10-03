@@ -1,31 +1,36 @@
 ---
-title: À propos  [!DNL On Demand]  stock premium
+title: À propos [!DNL On Demand] stock Premium
 description: Découvrez les contrats que DSP a prénégociés avec les partenaires éditeurs premium.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-TQID: https://experienceleague.adobe.com/eQWPc1b2GRmORoOHXR6AzFFE1TdjI1fJe9Jr8pMjPZo
+TQID: 'https://experienceleague.adobe.com/eQWPc1b2GRmORoOHXR6AzFFE1TdjI1fJe9Jr8pMjPZo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: '461'
 ht-degree: 0%
-
 ---
-
 # À propos [!DNL On Demand] stock Premium
 
 *Non disponible pour les utilisateurs disposant des types de compte [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] et [!UICONTROL Other] ; les annonceurs avec le [!UICONTROL Other] de catégorie ; et les revendeurs*
 
-La galerie [!DNL On Demand] est un outil de découverte d’inventaire haut de gamme qui permet d’explorer les offres prénégociées que DSP a organisées avec des partenaires d’édition haut de gamme. Il vous permet d’accéder à des stocks non garantis des éditeurs de premier plan de la région sans avoir besoin de négociations ou de contrats 1:1. Vous pouvez demander des offres individuelles et vous abonner à un éditeur pour demander toutes les offres de l&#39;éditeur en même temps.
+La galerie [!DNL On Demand] est un outil de découverte d’inventaire haut de gamme qui permet d’explorer les offres prénégociées que DSP a organisées avec des partenaires d’édition haut de gamme. Il vous permet d’accéder à des stocks non garantis des éditeurs de premier plan de la région sans avoir à négocier ou à conclure des contrats 1:1. Vous pouvez demander des offres individuelles et vous abonner à un éditeur pour demander toutes les offres de l&#39;éditeur en même temps.
 
 Le marché DSP Premium vous permet d’effectuer les opérations suivantes :
 
@@ -56,7 +61,7 @@ Sous le carrousel, vous pouvez afficher toutes les offres et tous les éditeurs 
 Les détails de chaque transaction incluent des données dans les colonnes suivantes :
 
 * **[!UICONTROL TVB]:** indique quand l’éditeur est un télédiffuseur
-* **[!UICONTROL Tune]:** Indique le moment où l’éditeur accepte les contenus publicitaires « tuning » (par exemple, « Tune in night at 9 pm for the new episode of \*our show*\>)
+* **[!UICONTROL Tune]:** Indique le moment où l’éditeur accepte les contenus publicitaires « à régler » (par exemple, « À régler ce soir à 21 h pour le nouvel épisode de \&lt;*notre émission*\>).
 * **[!UICONTROL LDA]:** (âge légal pour boire) Indique quand l’éditeur a appliqué le ciblage 21+ et accepte les publicités pour l’alcool
 * **[!UICONTROL CPM]:** Indique à quel moment le plancher ou la CPM à taux fixe pour l&#39;opération n&#39;est pas visible tant que l&#39;annonceur n&#39;a pas eu accès à l&#39;opération
 * **[!UICONTROL Status]:** statut de votre demande d’abonnement (le cas échéant)

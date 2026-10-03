@@ -3,22 +3,26 @@ title: Vérifier et modifier les paramètres d’emplacement à l’aide des feu
 description: Découvrez comment vérifier et modifier les paramètres d’emplacement clés en bloc à l’aide de feuilles de calcul.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-TQID: https://experienceleague.adobe.com/fVhs2093-NpwCXHIjGsejlkPJUzINtQ93ghUM4XaIYs
+TQID: 'https://experienceleague.adobe.com/fVhs2093-NpwCXHIjGsejlkPJUzINtQ93ghUM4XaIYs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 578
+source-wordcount: '578'
 ht-degree: 0%
-
 ---
-
 # Vérifier et modifier les paramètres d’emplacement à l’aide des feuilles d’envoi groupé
 
 Vous pouvez télécharger les paramètres pour un ou plusieurs emplacements, ou pour tous les emplacements d’une campagne, au format XLSX (feuille de calcul [!DNL Microsoft Excel]) pour révision. Utilisez cette fonctionnalité pour consulter rapidement des informations telles que :
@@ -31,7 +35,7 @@ Pour mettre à jour plusieurs paramètres à la fois, vous pouvez apporter des m
 
 >[!TIP]
 >
->Pour modifier rapidement d’autres champs pour un ou plusieurs emplacements, voir « [&#x200B; Modifier des emplacements &#x200B;](/help/dsp/campaign-management/placements/placement-edit.md) ».
+>Pour modifier rapidement d’autres champs pour un ou plusieurs emplacements, voir « [ Modifier des emplacements ](/help/dsp/campaign-management/placements/placement-edit.md) ».
 
 ## Paramètres de téléchargement pour tous les emplacements d’une campagne
 
@@ -53,7 +57,7 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
    Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -75,7 +79,7 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![ Tâches ](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
 
    Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 

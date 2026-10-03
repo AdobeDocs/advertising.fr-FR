@@ -3,20 +3,23 @@ title: Paramètres des offres [!UICONTROL Simple Ad Serving]
 description: Découvrez les paramètres disponibles pour les offres [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-TQID: https://experienceleague.adobe.com/3MqeK9NlWy3VvNJyo-bYCwKyqIp9psB9HhJeVWvIm3M
+TQID: 'https://experienceleague.adobe.com/3MqeK9NlWy3VvNJyo-bYCwKyqIp9psB9HhJeVWvIm3M'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 98ea1d8f-85a7-5f89-b8d8-c40726baa182
+    internal-label: DSP Simple Ad Serving
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 468
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # Paramètres des offres [!UICONTROL Simple Ad Serving]
 
 ## Nouvelles offres [!UICONTROL Simple Ad Serving]
@@ -45,8 +48,8 @@ ht-degree: 0%
 
 | Paramètre | Description |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | Coût par 1 000 impressions (CPM), tel qu’il figure dans la carte tarifaire de votre contrat. Contactez l’équipe chargée de votre compte Adobe pour connaître cette valeur. <br><br>Indiquez également la devise de l’opération. Tous les utilisateurs peuvent sélectionner USD ou, si le fournisseur de services partagés prend en charge d’autres devises, la devise du compte DSP. |
-| **[!UICONTROL Third Party Billed Fees]** | (Facultatif) Frais de tiers statiques à suivre en tant que coût non facturable, et devise de l’opération.<br><br>Tous les utilisateurs peuvent sélectionner USD ou, si le SSP prend en charge d’autres devises, la devise du compte DSP. **REMARQUE :** les frais facturables sont reflétés dans la mesure [!UICONTROL Net CPM]. |
+| **[!UICONTROL Media CPM]** | Coût par 1 000 impressions (CPM), tel qu’il figure dans la carte tarifaire de votre contrat. Contactez l’équipe chargée de votre compte Adobe pour connaître cette valeur. <br><br>Indiquez également la devise de l’opération. Tous les utilisateurs peuvent sélectionner USD ou, si le fournisseur de services partagés prend en charge des devises supplémentaires, la devise du compte DSP. |
+| **[!UICONTROL Third Party Billed Fees]** | (Facultatif) Frais de tiers statiques à suivre en tant que coût non facturable, et devise de l’opération.<br><br>Tous les utilisateurs peuvent sélectionner USD ou, si le fournisseur de services partagés prend en charge des devises supplémentaires, la devise du compte DSP. **REMARQUE :** les frais facturables sont reflétés dans la mesure [!UICONTROL Net CPM]. |
 | **[!UICONTROL Third Party Fee Description]** | (Facultatif) Description des frais facturés aux tiers. |
 | **[!UICONTROL Flight Dates]** | Dates de début et de fin du trafic utilisant cette offre. Les dates des vols doivent être incluses dans les dates des vols de la campagne. Les balises d’annonces ne renvoient une réponse que pendant le vol spécifié.<br><br> Il est recommandé de créer une campagne de diffusion d’annonces simple distincte d’une durée d’un an et d’y créer des pixels de suivi. |
 | **[!UICONTROL Impressions]** | (Facultatif) Estimation du nombre d’impressions que vous prévoyez d’exécuter à l’aide de cette offre. Cette valeur est utilisée uniquement à des fins de suivi et pour indiquer le moment où les objectifs de diffusion sont atteints. L’éditeur contrôle la diffusion réelle des annonces. La bonne pratique consiste à saisir un grand nombre d’impressions pour que la balise reste active dans DSP afin qu’elle puisse être renouvelée ou étendue si nécessaire. |

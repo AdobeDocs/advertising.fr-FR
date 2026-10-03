@@ -3,7 +3,13 @@ title: (Nouvelle interface utilisateur) À propos des comptes réseau publicitai
 description: Découvrez les comptes de réseau publicitaire dans la nouvelle interface utilisateur de Search, Social et Commerce.
 feature: Search Campaign Management
 exl-id: 62c69582-6b95-4ae3-b027-d1efc3deb39e
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
@@ -36,7 +42,7 @@ Les campagnes de tracking vous permettent de suivre, de générer des rapports e
 
 Pour permettre à Search, Social et Commerce d’attribuer des conversions aux clics, configurez des options de suivi dans l’enregistrement de compte et activez l’enregistrement de compte. Vous pouvez ensuite utiliser des feuilles d’envoi groupé pour générer des URL de tracking pour vos publicités et mots-clés, et ajouter manuellement les URL de tracking dans le gestionnaire de publicités [!DNL Naver].
 
-Vous ne pouvez pas configurer de nouveaux comptes [!DNL Naver] dans Search, Social et Commerce. Pour plus d’informations sur l’[!DNL Naver] de campagnes de tracking uniquement, voir « [&#x200B; Implémentation  [!DNL Naver]  comptes de tracking uniquement &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md). »
+Vous ne pouvez pas configurer de nouveaux comptes [!DNL Naver] dans Search, Social et Commerce. Pour plus d’informations sur l’[!DNL Naver] de campagnes de tracking uniquement, voir « [ Implémentation  [!DNL Naver]  comptes de tracking uniquement ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md). »
 
 >[!MORELIKETHIS]
 >

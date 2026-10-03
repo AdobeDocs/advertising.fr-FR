@@ -3,26 +3,35 @@ title: Questions fréquentes sur la vidéo universelle
 description: En savoir plus sur les publicités vidéo universelles.
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-TQID: https://experienceleague.adobe.com/LAzSivup-EVuDgtWN1T58lfRjzgrchIiFF9-lMJAVlw
+TQID: 'https://experienceleague.adobe.com/LAzSivup-EVuDgtWN1T58lfRjzgrchIiFF9-lMJAVlw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 348
+source-wordcount: '348'
 ht-degree: 0%
-
 ---
-
 # Questions fréquentes sur la vidéo universelle
 
 [Les publicités vidéo universelles](/help/dsp/campaign-management/ads/ad-about.md#ad-types) vous permettent de cibler l’inventaire vidéo à partir d’environnements de bureau, mobiles et de télévision connectée pour un inventaire VPAID et VAST à l’aide d’un seul emplacement vidéo.
@@ -33,7 +42,7 @@ Les emplacements vidéo universels ne peuvent contenir que des annonces vidéo u
 
 Créez des emplacements vidéo et des annonces universels de la même manière que vous créez d’autres types d’emplacements et de vidéos :
 
-1. Dans la campagne souhaitée, [créez un emplacement vidéo universel](/help/dsp/campaign-management/placements/placement-create.md), en sélectionnant le [!UICONTROL Placement Type] **[!UICONTROL Universal Video]**.
+1. Dans la campagne souhaitée, [créez un emplacement vidéo universel](/help/dsp/campaign-management/placements/placement-create.md), en sélectionnant le **[!UICONTROL Universal Video]** [!UICONTROL Placement Type].
 
    Vous devez spécifier au moins un environnement (bureau, mobile, télévision connectée) à cibler.
 
@@ -51,7 +60,7 @@ Créez des emplacements vidéo et des annonces universels de la même manière q
    * **[!UICONTROL VPAID & VAST (Default)]:** inclut l’inventaire qui ne permet pas de mesurer la visibilité.
    * **[!UICONTROL VAST]** - Convient pour l&#39;inventaire de la télévision connectée.
 
-   Pour plus d’informations, reportez-vous à « [&#x200B; Paramètres universels de publicité vidéo &#x200B;](/help/dsp/campaign-management/ads/ad-settings-universal-video.md) ».
+   Pour plus d’informations, reportez-vous à « [ Paramètres universels de publicité vidéo ](/help/dsp/campaign-management/ads/ad-settings-universal-video.md) ».
 
 1. [Joignez les nouvelles publicités vidéo universelles](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) à l’emplacement vidéo universel.
 

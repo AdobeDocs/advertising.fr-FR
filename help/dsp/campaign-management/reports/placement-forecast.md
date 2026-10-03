@@ -3,22 +3,26 @@ title: Afficher le rapport de prévision d'emplacement
 description: Affichez le nombre d’impressions, les dépenses et l’enchère maximale optimale prévue pour une stratégie de ciblage particulière pour un emplacement.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-TQID: https://experienceleague.adobe.com/2yZV8tIzlLDMAVjDkqcUVt55-a-L0vjLFkWrni-mNU8
+TQID: 'https://experienceleague.adobe.com/2yZV8tIzlLDMAVjDkqcUVt55-a-L0vjLFkWrni-mNU8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 548
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # Afficher le rapport de prévision d&#39;emplacement
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
@@ -36,11 +40,11 @@ La prévision comprend les informations suivantes :
 
 * **[!UICONTROL Summary]:**
 
-   * **[!UICONTROL Estimated CPM]:** coût estimé pour mille impressions (eCPM) que les paramètres de ciblage peuvent s’attendre à atteindre.
+  * **[!UICONTROL Estimated CPM]:** coût estimé pour mille impressions (eCPM) que les paramètres de ciblage peuvent s’attendre à atteindre.
 
-   * **[!UICONTROL Budget]:** Budget estimé pour les paramètres de ciblage.
+  * **[!UICONTROL Budget]:** Budget estimé pour les paramètres de ciblage.
 
-   * **[!UICONTROL Impression]:** nombre estimé d’impressions pour les paramètres de ciblage.
+  * **[!UICONTROL Impression]:** nombre estimé d’impressions pour les paramètres de ciblage.
 
 * **[!UICONTROL Budget Yield Curve]:** nombre estimé d’impressions que l’emplacement peut générer à différents niveaux budgétaires si tous les autres paramètres de ciblage sont identiques.
 
@@ -66,13 +70,13 @@ La prévision comprend les informations suivantes :
 
 * Données historiques : la prévision d’emplacement est disponible lorsque des données historiques suffisantes sont disponibles. Voici des exemples de cas où des données historiques insuffisantes peuvent être disponibles :
 
-   * L’emplacement cible une nouvelle région pour la campagne.
+  * L’emplacement cible une nouvelle région pour la campagne.
 
-   * L’emplacement cible une nouvelle transaction de stock pour la campagne.
+  * L’emplacement cible une nouvelle transaction de stock pour la campagne.
 
-   * L’emplacement utilise un nouveau type d’annonce pour la campagne.
+  * L’emplacement utilise un nouveau type d’annonce pour la campagne.
 
-     Un emplacement consiste généralement en un ensemble de plusieurs modèles d’annonces publicitaires définis par des plateformes côté offre. Ainsi, même si l’emplacement existe depuis longtemps, si le modèle d’annonce publicitaire sous-jacent est nouveau, l’outil de prévision ne peut pas créer de prévision.
+    Un emplacement consiste généralement en un ensemble de plusieurs modèles d’annonces publicitaires définis par des plateformes côté offre. Ainsi, même si l’emplacement existe depuis longtemps, si le modèle d’annonce publicitaire sous-jacent est nouveau, l’outil de prévision ne peut pas créer de prévision.
 
 ## Ouvrir le rapport de prévision d&#39;emplacement
 
@@ -82,7 +86,7 @@ La prévision comprend les informations suivantes :
 
 1. En regard du nom de l’emplacement, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. Recherchez la section **[!UICONTROL Forecast]** en haut à droite. Si nécessaire, cliquez sur ![&#x200B; Prévision &#x200B;](/help/dsp/assets/placement-forecast.png).
+1. Recherchez la section **[!UICONTROL Forecast]** en haut à droite. Si nécessaire, cliquez sur ![ Prévision ](/help/dsp/assets/placement-forecast.png).
 
    >[!NOTE]
    >

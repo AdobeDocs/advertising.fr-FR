@@ -1,24 +1,35 @@
 ---
 title: '[!DNL Microsoft Advertising] des données de conversion'
-description: Découvrez les types de données de conversion suivies par  [!DNL Microsoft Advertising] disponibles dans Search, Social et Commerce.
+description: Découvrez les types de données de conversion suivies par [!DNL Microsoft Advertising] disponibles dans Search, Social et Commerce.
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-TQID: https://experienceleague.adobe.com/ZK-uDqw0sThnMzX6bdR-d33gh-AlLTaytJr1fS7pdgs
+TQID: 'https://experienceleague.adobe.com/ZK-uDqw0sThnMzX6bdR-d33gh-AlLTaytJr1fS7pdgs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 629
+source-wordcount: '646'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] des données de conversion dans Search, Social et Commerce
 
 Search, Social et Commerce synchronise automatiquement toutes les conversions suivies par vos balises [[!DNL Microsoft Advertising] suivi d’événement universel (UET)](https://help.ads.microsoft.com/#apex/ads/en/53056) pour les conversions de sites web, y compris les conversions d’affichage publicitaire, à des fins de création de rapports et d’optimisation.
@@ -29,7 +40,7 @@ Toutes les mesures sont automatiquement disponibles dans les vues de gestion de 
 
 Search, Social et Commerce synchronise les données pour les conversions pour lesquelles l’option « [!DNL Include in 'Conversions'] » est activée, en extrayant les données des 35 derniers jours, puis en extrayant les modifications quotidiennes jusqu’à 09 :00-10: dans le fuseau horaire de l’annonceur. Les données historiques peuvent changer d’un jour à l’autre à mesure que de nouvelles conversions sont suivies pour chaque clic.
 
-Deux mesures pour chaque conversion [[!DNL Microsoft Advertising] (que vous configurez dans &#x200B;](https://help.ads.microsoft.com/apex/index/3/en-us/n5012)) sont automatiquement disponibles dans Search, Social et Commerce[!DNL Microsoft Advertising] en utilisant les noms de conversion configurés dans [!DNL Microsoft Advertising]. Les mesures de chaque conversion sont les suivantes :
+Deux mesures pour chaque conversion [[!DNL Microsoft Advertising] (que vous configurez dans [!DNL Microsoft Advertising]) sont automatiquement disponibles dans Search, Social et Commerce](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) en utilisant les noms de conversion configurés dans [!DNL Microsoft Advertising]. Les mesures de chaque conversion sont les suivantes :
 
 * `<conversion-name>` : valeur de conversion du mot-clé (par exemple Achat).
 

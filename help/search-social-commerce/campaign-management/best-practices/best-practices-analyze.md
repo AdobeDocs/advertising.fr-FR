@@ -3,20 +3,24 @@ title: Analyse des rapports pour affiner les mots-clés et les paramètres de la
 description: Découvrez les bonnes pratiques relatives à l’utilisation des rapports pour affiner vos mots-clés et les paramètres de campagne.
 exl-id: f1e3834b-2a6c-4d41-9355-70435a9e83e6
 feature: Search Best Practices
-TQID: https://experienceleague.adobe.com/RJfrnMplFPld70TgLzc98p77-8pnM870Vv4ETt2gFeg
+TQID: 'https://experienceleague.adobe.com/RJfrnMplFPld70TgLzc98p77-8pnM870Vv4ETt2gFeg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4448d932-c6c2-59c8-8d0c-d940413abe6b
+    internal-label: Search Best Practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '255'
 ht-degree: 0%
-
 ---
-
 # Analyse des rapports pour affiner les mots-clés et les paramètres de la campagne
 
 Les rapports avancés peuvent vous aider à prendre des décisions stratégiques sur les mots-clés et les types de correspondances à inclure dans vos campagnes de recherche, ainsi que sur les cibles géographiques et de site pour tous les types de campagnes. Toutefois, faites preuve de prudence dans le choix des mots-clés, des cibles géographiques et des sites web à exclure de vos campagnes :

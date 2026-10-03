@@ -3,18 +3,21 @@ title: Paramètres de tracking optionnels des URL de tracking des clics
 description: Découvrez les paramètres de suivi facultatifs Search, Social et Commerce, ainsi que les paramètres de suivi spécifiques au réseau publicitaire que vous pouvez ajouter à vos URL de suivi des clics.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E
+TQID: 'https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: '1146'
 ht-degree: 0%
-
 ---
-
 # Paramètres de tracking optionnels des URL de tracking des clics
 
 Comptes *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] et [!DNL Yandex] uniquement*
@@ -25,11 +28,11 @@ Au lieu d’utiliser uniquement les paramètres de suivi standard pour une URL f
 
 * Vous pouvez ajouter des paramètres spécifiques à Adobe Advertising et au réseau publicitaire dans les URL de base pour que le compte/la campagne suive davantage de données :
 
-   * Les paramètres Adobe Advertising sont semi-statiques. Adobe Advertising insère une valeur de données lorsqu’il charge l’URL de base sur le réseau publicitaire. Par exemple, lorsque vous ajoutez des `campaign={ef_campaign}` à l’URL de base, Adobe Advertising remplace `{ef_campaign}` par le nom réel de la campagne (tel que « Back-to-school-Campaign ») lorsqu’il charge l’URL.
+  * Les paramètres Adobe Advertising sont semi-statiques. Adobe Advertising insère une valeur de données lorsqu’il charge l’URL de base sur le réseau publicitaire. Par exemple, lorsque vous ajoutez des `campaign={ef_campaign}` à l’URL de base, Adobe Advertising remplace `{ef_campaign}` par le nom réel de la campagne (tel que « Back-to-school-Campaign ») lorsqu’il charge l’URL.
 
-     **Remarque :** une fois les valeurs insérées, elles restent statiques. Si vous déplacez un mot-clé ou une annonce publicitaire vers un autre groupe publicitaire, ou si vous déplacez le groupe publicitaire vers une autre campagne, le paramètre {ef_adgroup} ou {ef_campaign} n’est pas automatiquement mis à jour. Vous devez donc générer manuellement une nouvelle URL de destination ou une URL de base (finale).
+    **Remarque :** une fois les valeurs insérées, elles restent statiques. Si vous déplacez un mot-clé ou une annonce publicitaire vers un autre groupe publicitaire, ou si vous déplacez le groupe publicitaire vers une autre campagne, le paramètre {ef_adgroup} ou {ef_campaign} n’est pas automatiquement mis à jour. Vous devez donc générer manuellement une nouvelle URL de destination ou une URL de base (finale).
 
-   * Les paramètres spécifiques au réseau publicitaire sont dynamiques et le moteur de recherche insère une valeur de données lorsque l’utilisateur clique sur une publicité. Par exemple, lorsque vous ajoutez des `{param1}` à l’URL de base, le réseau publicitaire la remplace par la valeur {param1} réelle lorsqu’un utilisateur final clique sur la publicité.
+  * Les paramètres spécifiques au réseau publicitaire sont dynamiques et le moteur de recherche insère une valeur de données lorsque l’utilisateur clique sur une publicité. Par exemple, lorsque vous ajoutez des `{param1}` à l’URL de base, le réseau publicitaire la remplace par la valeur {param1} réelle lorsqu’un utilisateur final clique sur la publicité.
 
 >[!NOTE]
 >
@@ -38,8 +41,8 @@ Au lieu d’utiliser uniquement les paramètres de suivi standard pour une URL f
 >* Les caractères spéciaux dans les paramètres ajoutés sont remplacés comme suit dans l’URL de destination générée ou l’URL de base (finale) :
 >  * `=` est remplacé par `%3D`
 >  * `?` est remplacé par `%26`
->  * un espace vide est remplacé par `%2B`
->  Par exemple, lorsque vous ajoutez le paramètre `campaign={ef_campaign}` à l’URL de base http://www.example.com pour un mot-clé, l’URL de base de ce mot-clé est générée sous la forme `http://www.example.com/campaign%3D{ef_campaign}`.
+>  * un espace vide est remplacé par . `%2B`
+>  Par exemple, lorsque vous ajoutez le paramètre `campaign={ef_campaign}` à l’URL de base http://www.example.com pour un mot-clé, l’URL de base de ce mot-clé est générée comme `http://www.example.com/campaign%3D{ef_campaign}`.
 
 ## Paramètres de suivi statique Search, Social et Commerce
 
@@ -65,19 +68,19 @@ Tous les paramètres suivants doivent être spécifiés sous la forme d’une pa
 
 ## [!DNL Google Ads] des paramètres de tracking dynamique
 
-Voir [&#128279;](https://support.google.com/google-ads/answer/2375447).
+Voir [](https://support.google.com/google-ads/answer/2375447).
 
 ## [!DNL LY Ads] des paramètres de tracking dynamique
 
-Voir [&#128279;](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
+Voir [](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## [!DNL Microsoft Advertising] des paramètres de tracking dynamique
 
-Voir [&#128279;](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
+Voir [](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 
 ## [!DNL Yandex] des paramètres de tracking dynamique
 
-Voir [&#128279;](https://yandex.com/support/direct/statistics/url-tags.html).
+Voir [](https://yandex.com/support/direct/statistics/url-tags.html).
 
 >[!MORELIKETHIS]
 >

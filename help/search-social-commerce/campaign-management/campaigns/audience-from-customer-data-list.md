@@ -1,22 +1,26 @@
 ---
 title: Gérer les audiences de correspondance de clients à l’aide de listes de données client
-description: Découvrez comment créer et modifier  [!DNL Google Ads]  audiences et  [!DNL Microsoft Advertising]  correspondance client à partir de vos listes de données client.
+description: Découvrez comment créer et modifier des [!DNL Google Ads] et [!DNL Microsoft Advertising] des audiences de correspondance client à partir de vos listes de données client.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/XoDGbJAFowx-KX0hWQH4XoFrc0R2YiftT-mN6f4KWDE
+TQID: 'https://experienceleague.adobe.com/XoDGbJAFowx-KX0hWQH4XoFrc0R2YiftT-mN6f4KWDE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 840
+source-wordcount: '866'
 ht-degree: 0%
-
 ---
-
 # Gérer des audiences de correspondance client [!DNL Google Ads] et [!DNL Microsoft Advertising] à l’aide de listes de données client
 
 Vous pouvez créer des audiences de correspondance client [!DNL Google Ads] et [!DNL Microsoft Advertising] à partir de vos listes de données client. Vous pouvez également mettre à jour n’importe quelle audience de correspondance client [!DNL Google Ads] ou [!DNL Microsoft Advertising], à l’exception des audiences [!DNL Google Ads] créées à partir d’une audience [!DNL Adobe].

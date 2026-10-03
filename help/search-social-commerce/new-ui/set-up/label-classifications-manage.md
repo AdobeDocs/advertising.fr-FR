@@ -2,7 +2,13 @@
 title: Gérer les classifications de libellés
 description: Découvrez comment utiliser les classifications d’étiquettes pour regrouper les composants de votre compte.
 feature: Search Label Classifications
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
@@ -53,7 +59,7 @@ La vue [!UICONTROL Reports] > [!UICONTROL Labels Classifications] comprend les s
 
 1. Saisissez un nom de classification de libellé unique, puis cliquez sur **[!UICONTROL Create]**.
 
-   Le nom doit être unique pour le compte de l’annonceur et comporter [caractères ASCII compris entre 32 et 126](https://www.asciitable.com/). La longueur maximale est de 27 caractères codés sur un seul octet. Le nom ne peut pas être identique au nom d&#39;une colonne de rapport existante ou d&#39;une colonne de feuille d&#39;envoi groupé existante. Voir les noms des colonnes de la feuille d’envoi groupé pour [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo ! Affichez les &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) Réseau et [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+   Le nom doit être unique pour le compte de l’annonceur et comporter [caractères ASCII compris entre 32 et 126](https://www.asciitable.com/). La longueur maximale est de 27 caractères codés sur un seul octet. Le nom ne peut pas être identique au nom d&#39;une colonne de rapport existante ou d&#39;une colonne de feuille d&#39;envoi groupé existante. Voir les noms des colonnes de la feuille d’envoi groupé pour [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo ! Affichez les ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) Réseau et [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
 
 ## Attribuer des valeurs de classification aux composants de compte à partir des vues de gestion de campagne {#classification-values-assign-campaign-management}
 

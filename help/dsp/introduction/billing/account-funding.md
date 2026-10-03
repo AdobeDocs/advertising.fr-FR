@@ -3,22 +3,26 @@ title: Financement du compte
 description: Découvrez le financement des comptes pour DSP.
 feature: DSP Introduction
 exl-id: 95e1fd75-ed38-41e3-a464-afe5e23c1c22
-TQID: https://experienceleague.adobe.com/TYwqNENRaL6sceEASH8FlVhIs1wd9fRQjm1rJCTE1qc
+TQID: 'https://experienceleague.adobe.com/TYwqNENRaL6sceEASH8FlVhIs1wd9fRQjm1rJCTE1qc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 263
+source-wordcount: '266'
 ht-degree: 0%
-
 ---
-
 # Financement du compte Advertising DSP
 
 DSP finance les comptes clients pour l’achat de médias et de services de l’une des deux façons suivantes :
@@ -38,4 +42,4 @@ Adobe se réserve le droit de bloquer les dépenses de votre compte sur DSP pour
 
 >[!MORELIKETHIS]
 >
->* [Devises prises en charge &#x200B;](/help/dsp/currency.md)
+>* [Devises prises en charge ](/help/dsp/currency.md)

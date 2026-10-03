@@ -3,18 +3,26 @@ title: Dupliquer les contenus publicitaires
 description: Découvrez comment dupliquer des contenus publicitaires dans une bibliothèque de contenus publicitaires.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-TQID: https://experienceleague.adobe.com/6bYzgOvJsLMr56-nTkPIe3AWsTST--he0xQ9-btQ2nA
+TQID: 'https://experienceleague.adobe.com/6bYzgOvJsLMr56-nTkPIe3AWsTST--he0xQ9-btQ2nA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 195
+source-wordcount: '195'
 ht-degree: 0%
-
 ---
-
 # Dupliquer les contenus publicitaires
 
 Dupliquez des contenus publicitaires pour ajouter de nouveaux contenus publicitaires présentant les mêmes paramètres à la même bibliothèque. Vous pouvez ensuite renommer les nouveaux contenus publicitaires et modifier les paramètres créatifs selon vos besoins.
@@ -31,9 +39,9 @@ Dupliquez des contenus publicitaires pour ajouter de nouveaux contenus publicita
 
    * Pour dupliquer un élément créatif unique :
 
-      * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom du contenu créatif, puis cliquez sur **[!UICONTROL Duplicate]**.
+     * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom du contenu créatif, puis cliquez sur **[!UICONTROL Duplicate]**.
 
-      * Dans la vue Tableau, placez le curseur sur la ligne et cliquez sur **[!UICONTROL Duplicate]**.
+     * Dans la vue Tableau, placez le curseur sur la ligne et cliquez sur **[!UICONTROL Duplicate]**.
 
    * Pour dupliquer un ou plusieurs contenus publicitaires, cochez la case correspondant à chaque contenu publicitaire à dupliquer. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Duplicate]**.
 

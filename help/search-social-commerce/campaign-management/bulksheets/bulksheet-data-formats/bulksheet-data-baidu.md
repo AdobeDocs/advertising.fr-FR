@@ -1,27 +1,33 @@
 ---
-title: 'Données de feuille d’envoi groupé requises pour les comptes  [!DNL Baidu] '
-description: Référencez les champs d’en-tête et de données obligatoires dans les feuilles d’envoi groupé pour les comptes  [!DNL Baidu] .
+title: Données de feuille d’envoi groupé requises pour les comptes [!DNL Baidu]
+description: Référencez les champs d’en-tête et de données obligatoires dans les feuilles d’envoi groupé pour les comptes [!DNL Baidu].
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/-MST6KDJBF73Dcbi4zwIbqK9W8EiV7UvUMpGq2aYeGE
+TQID: 'https://experienceleague.adobe.com/-MST6KDJBF73Dcbi4zwIbqK9W8EiV7UvUMpGq2aYeGE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 subfeature_v2:
   - id: e58024d1-d6da-420c-80af-6be211808316
+    internal-label: Bulksheets
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a8176f810ef6ff35620526bb93e2520ecab74bd9
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1954
+source-wordcount: '1956'
 ht-degree: 0%
-
 ---
-
 # Annexe - Données de feuille d’envoi groupé requises pour les comptes [!DNL Baidu]
 
 Pour créer et mettre à jour [!DNL Baidu] données de campagne en bloc, vous pouvez utiliser des fichiers de feuille d’envoi groupé Search, Social et Commerce formatés spécifiquement pour les comptes [!DNL Baidu]. Vous pouvez a) [générer des fichiers de feuilles de support pour les comptes existants](../bulksheet-download.md) au format de fichier requis ou b) les créer manuellement (voir « [Formats de fichiers de feuilles de support pris en charge](bulksheet-file-formats.md) » pour obtenir des informations générales sur les formats de fichiers pris en charge).

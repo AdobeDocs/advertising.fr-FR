@@ -3,20 +3,24 @@ title: Afficher le rapport [!UICONTROL Change History]
 description: Découvrez comment afficher les modifications récentes apportées au compte de l’annonceur.
 exl-id: f8744da7-cc7a-49c1-aeac-1e601768f992
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/nRlvKpVQf3wbMd83plf3CQp1pPYpHVJzMVJN54lryYM
+TQID: 'https://experienceleague.adobe.com/nRlvKpVQf3wbMd83plf3CQp1pPYpHVJzMVJN54lryYM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 546
+source-wordcount: '546'
 ht-degree: 0%
-
 ---
-
 # Afficher le rapport [!UICONTROL Change History]
 
 Le rapport (nouvelle interface utilisateur) [!UICONTROL History Logs] et (ancienne interface utilisateur) [!UICONTROL Change History] comprend un journal des modifications apportées au compte de l’annonceur au cours des 31 derniers jours. Le rapport peut inclure des modifications apportées aux types d’objets suivants : utilisateurs (annonceurs), portfolios, campagnes, groupes publicitaires, publicités, mots-clés, emplacements et cibles de produits. Vous pouvez trier et filtrer les données selon n’importe quelle colonne.
@@ -81,23 +85,23 @@ Vous pouvez télécharger des informations supplémentaires sur les journaux d�
 
    * (Pour filtrer les données par valeur de colonne) Effectuez l’une des opérations suivantes :
 
-      * [Appliquer un filtre à partir du lien **[!UICONTROL Add Filter]**](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+     * [Appliquer un filtre à partir du lien **[!UICONTROL Add Filter]**](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
-      * [Appliquer un filtre à partir du menu d’en-tête de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+     * [Appliquer un filtre à partir du menu d’en-tête de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
    * (Pour modifier la période du rapport) Procédez comme suit :
 
-      1. Au-dessus du tableau de données, cliquez sur la période en cours.
+     1. Au-dessus du tableau de données, cliquez sur la période en cours.
 
-      1. Spécifiez la plage :
+     1. Spécifiez la plage :
 
-         * (Pour une plage prédéfinie) — Effectuez un choix dans la liste des incréments de temps courants. La valeur par défaut est *[!UICONTROL 2 Days Ago]*.
+        * (Pour une plage prédéfinie) — Effectuez un choix dans la liste des incréments de temps courants. La valeur par défaut est *[!UICONTROL 2 Days Ago]*.
 
-         * (Pour une plage spécifique) : sélectionnez **[!UICONTROL Custom Date Range]**, puis spécifiez la date de début et la date de fin.
+        * (Pour une plage spécifique) : sélectionnez **[!UICONTROL Custom Date Range]**, puis spécifiez la date de début et la date de fin.
 
-           Saisissez les dates au format MM/JJ/AAAA ou MM-JJ-AAAA, ou cliquez sur ![Calendrier](/help/search-social-commerce/assets/calendar.png "Calendrier") en regard de chaque champ pour ouvrir le calendrier et sélectionner une date. Vous ne pouvez inclure que les données des 31 jours précédents.
+          Saisissez les dates au format MM/JJ/AAAA ou MM-JJ-AAAA, ou cliquez sur ![Calendrier](/help/search-social-commerce/assets/calendar.png "Calendrier") en regard de chaque champ pour ouvrir le calendrier et sélectionner une date. Vous ne pouvez inclure que les données des 31 jours précédents.
 
-      1. Cliquez sur **[!UICONTROL Apply]**.
+     1. Cliquez sur **[!UICONTROL Apply]**.
 
 1. (Facultatif) Téléchargez une copie du rapport :
 

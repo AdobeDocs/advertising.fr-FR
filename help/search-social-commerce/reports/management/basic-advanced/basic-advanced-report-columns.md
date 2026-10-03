@@ -3,23 +3,34 @@ title: Colonnes de rapport pour les rapports de base et avancés
 description: Découvrez les colonnes de données disponibles pour les rapports de base et avancés.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-TQID: https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU
+TQID: 'https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 41a9add10a9d12e8452d18825fd732720b27243f
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3847
+source-wordcount: '3878'
 ht-degree: 0%
-
 ---
-
 # Colonnes de rapport pour les rapports de base et avancés
 
 | Colonne | Description |
@@ -49,7 +60,7 @@ ht-degree: 0%
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] des annonces responsive sur le Réseau de Recherche) L’efficacité de l’annonce : <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> ou <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | (Campagnes [!DNL Google Ads], [!DNL LY Ads] et [!DNL Microsoft Advertising]) Ajustement des enchères mobiles au niveau du groupe publicitaire actuel, qui détermine la manière dont les enchères sont ajustées lorsque la publicité est affichée sur un appareil mobile. |
 | [!UICONTROL AI Max Bundling Required] | (Campagnes ciblant uniquement le réseau de recherche ; campagnes avec la fonction AI Max activée ; lecture seule) Si le regroupement est requis : *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* ou nul. |
-| [!UICONTROL AI Max Enabled] | Indique si la fonction [&#128279;](https://support.google.com/google-ads/answer/15910366) est activée : *[!UICONTROL true]*, *[!UICONTROL false]* ou null.[!UICONTROL AI Max] |
+| [!UICONTROL AI Max Enabled] | Indique si la fonction ](https://support.google.com/google-ads/answer/15910366) est activée : *[!UICONTROL true]*, *[!UICONTROL false]* ou null.[[!UICONTROL AI Max] |
 | [!UICONTROL AI Max Search Term Matching] | (Campagnes qui ciblent le réseau de recherche et pour lesquelles la fonctionnalité [IA Max](https://support.google.com/google-ads/answer/15910366) et la fonctionnalité de correspondance des termes de recherche au niveau de la campagne sont activées ; lecture seule) Si la correspondance des termes de recherche au niveau du groupe publicitaire est activée : *[!UICONTROL true]*, *[!UICONTROL false]* ou null. |
 | [!UICONTROL Advertiser] | Nom de l’annonceur. |
 | [!UICONTROL Advertiser ID] | Identifiant numérique du compte Search, Social et Commerce de l’annonceur. |
@@ -172,7 +183,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group Status] | Statut du groupe de produits. |
 | [!UICONTROL Product Groupings] | Groupe de produits parent. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report] ; [!DNL Google Ads] les annonces de listes de produits) Identifiant du produit affiché avec l’annonce.<br><br><b>Remarque :</b> l’identifiant n’est capturé que lorsque la liste de produits inclut le paramètre de suivi `ev_plx=<GMC product ID>`, que vous devez ajouter dans [!DNL Google Merchant Center]. |
-| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Chiffre d’affaires de la mesure de conversion (par exemple, 1 pour un enregistrement ou 12 pour une commande de 12 USD). Si plusieurs unités d’enchères ont le même ID de transaction, le chiffre d’affaires de l’ID de suivi est fractionné en fonction du nombre de clics à la date de clic spécifiée (lorsque les données de clic sont disponibles). |
+| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Chiffre d’affaires de la mesure de conversion (par exemple, 1 pour un enregistrement ou 12 pour une commande USD de 12). Si plusieurs unités d’enchères ont le même ID de transaction, le chiffre d’affaires de l’ID de suivi est fractionné en fonction du nombre de clics à la date de clic spécifiée (lorsque les données de clic sont disponibles). |
 | [!UICONTROL Reach] | (Campagnes [!DNL Meta] uniquement) Nombre de personnes qui ont vu vos annonces au moins une fois. Remarque : [!DNL Meta] déduplique quotidiennement la portée des profils utilisateur. Les nombres signalés par [!DNL Meta] et par Search, Social et Commerce peuvent donc différer. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) Région ou État américain/canadien d’où proviennent les impressions ou les clics. Il est déterminé à partir de l’adresse IP de l’utilisateur. |
 | [!UICONTROL SE Creative ID] | ID d’annonce publicitaire attribué par le réseau. |

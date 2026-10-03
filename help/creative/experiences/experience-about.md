@@ -3,25 +3,33 @@ title: À propos des expériences dans Advertising Creative
 description: Découvrez comment configurer des expériences publicitaires personnalisées et optimiser les éléments publicitaires en fonction des performances.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-TQID: https://experienceleague.adobe.com/eX9wJedhnS994mEpRna6vL2En7vVXEYWp1xs-hz6iBo
+TQID: 'https://experienceleague.adobe.com/eX9wJedhnS994mEpRna6vL2En7vVXEYWp1xs-hz6iBo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: '1181'
 ht-degree: 0%
-
 ---
-
 # À propos des expériences dans Advertising Creative 2.0
 
 Chaque expérience publicitaire peut inclure un type d’annonce (affichage standard, vidéo standard, affichage dynamique ou vidéo dynamique). [!DNL Advertising Creative 2.0] fournit deux structures d’expérience publicitaire différentes pour les publicités dans une seule bibliothèque de contenu créatif.
@@ -32,15 +40,15 @@ Chaque expérience publicitaire peut inclure un type d’annonce (affichage stan
 
   Les options de ciblage sont les suivantes :
 
-   * Vos segments d’audience provenant de Adobe Audience Manager, Adobe Analytics et Advertising DSP ; tous les autres segments propriétaires importés pour le compte ; vos segments personnalisés provenant d’Advertising DSP ; les segments tiers fournis par Advertising DSP ; et toutes les audiences Advertising DSP existantes créées dans la bibliothèque d’audiences
+  * Vos segments d’audience provenant de Adobe Audience Manager, Adobe Analytics et Advertising DSP ; tous les autres segments propriétaires importés pour le compte ; vos segments personnalisés provenant d’Advertising DSP ; les segments tiers fournis par Advertising DSP ; et toutes les audiences Advertising DSP existantes créées dans la bibliothèque d’audiences
 
-   * Emplacements géographiques spécifiques, notamment les pays, les États, les DMA aux États-Unis, les villes et les codes postaux
+  * Emplacements géographiques spécifiques, notamment les pays, les États, les DMA aux États-Unis, les villes et les codes postaux
 
-   * Les visionneuses pour lesquelles des paires clé-valeur spécifiques (cibles de transmission de données) sont transmises par le DSP, l’éditeur ou le partenaire (SKU=01234567890123 ou Cart=vide, par exemple)
+  * Les visionneuses pour lesquelles des paires clé-valeur spécifiques (cibles de transmission de données) sont transmises par le DSP, l’éditeur ou le partenaire (SKU=01234567890123 ou Cart=vide, par exemple)
 
-   * [!DNL Creative] le reciblage des pixels et des valeurs d’attribut spécifiées
+  * [!DNL Creative] le reciblage des pixels et des valeurs d’attribut spécifiées
 
-   * Types d’appareils, systèmes d’exploitation et navigateurs spécifiques
+  * Types d’appareils, systèmes d’exploitation et navigateurs spécifiques
 
   Une fois que vous avez créé une branche d’audience cible dans l’arborescence de décision, vous pouvez associer l’audience cible à des contenus publicitaires potentiels en attribuant des lots de contenu créatif à la branche. Pour chaque expérience, vous pouvez personnaliser l’optimisation et la planification des offres groupées de contenu créatif et modifier les pages de destination et les URL de suivi par défaut<!-- later: and any flexible attributes --> pour chaque contenu créatif de chaque offre groupée.
 
@@ -89,7 +97,7 @@ Les données de performances disponibles sont les suivantes :
 
 ## Indicateurs d’alerte
 
-Une colonne « [!UICONTROL Alerts] » indique lorsqu’une expérience ou toute création enfant associée rencontre un problème. Une icône [!UICONTROL Pulse Panel] située à droite de la barre d’outils indique si des alertes sont disponibles pour l’expérience, y compris les contenus publicitaires enfants. Voir « [&#x200B; Afficher les alertes &#x200B;](/help/creative/reports/alerts-view.md) pour plus d’informations.
+Une colonne « [!UICONTROL Alerts] » indique lorsqu’une expérience ou toute création enfant associée rencontre un problème. Une icône [!UICONTROL Pulse Panel] située à droite de la barre d’outils indique si des alertes sont disponibles pour l’expérience, y compris les contenus publicitaires enfants. Voir « [ Afficher les alertes ](/help/creative/reports/alerts-view.md) pour plus d’informations.
 
 ## Statuts des expériences {#experience-statuses}
 

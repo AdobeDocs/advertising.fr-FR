@@ -2,13 +2,21 @@
 title: Modifier les balises d’attribut pour un ID d’offre
 description: Découvrez comment créer et modifier les balises d’attribut pour un ID d’offre.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
+  - id: ea1cb503-33dd-595d-833b-f365576083b6
+    internal-label: DSP Programmatic Guaranteed Deals
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
-
 ---
-
 # Modifier les balises d’attribut pour un ID d’offre
 
 Vous pouvez créer et affecter des balises à des ID d’offres afin de regrouper des offres similaires. Lorsque vous créez ou modifiez un emplacement, vous pouvez rechercher un inventaire disponible par nom de balise.

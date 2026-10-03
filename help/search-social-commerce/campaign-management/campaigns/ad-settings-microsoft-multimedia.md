@@ -1,20 +1,23 @@
 ---
 title: '[!DNL Microsoft Advertising] des paramètres de publicité multimédia'
-description: Référencez les paramètres des publicités multimédias  [!DNL Microsoft Advertising] .
+description: Référencez les paramètres des publicités multimédias [!DNL Microsoft Advertising].
 exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/BmzclS43QHM1mtVus2pIdJqEh0B-tUQVKyUFdzH4iEw
+TQID: 'https://experienceleague.adobe.com/BmzclS43QHM1mtVus2pIdJqEh0B-tUQVKyUFdzH4iEw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 203
+source-wordcount: '211'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] des paramètres de publicité multimédia
 
 Les annonces multimédias sont disponibles sur le réseau de recherche. Le réseau publicitaire assemble dynamiquement des publicités multimédia en utilisant les combinaisons les plus efficaces d&#39;éléments publicitaires.
@@ -23,7 +26,7 @@ Les annonces multimédias sont disponibles sur le réseau de recherche. Le rése
 
 **[!UICONTROL Images]:** jusqu’à 15 images JPEG, JPG ou PNG pour la publicité, y compris les tailles suivantes :
 
-* Au moins une image avec un format de 1,91 :1.
+* Au moins une image avec un format de 1,91:1.
 
 * Au moins une image carrée (1:1).
 

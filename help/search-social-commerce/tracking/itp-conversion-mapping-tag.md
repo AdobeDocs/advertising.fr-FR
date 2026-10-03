@@ -3,18 +3,21 @@ title: La balise de mappage de conversion Adobe Advertising
 description: Découvrez la balise de mappage de conversion basée sur JavaScript pour ITP 2.2, qui permet à Adobe Advertising de suivre un événement de conversion qui se produit sur une page qui n’est pas la page de destination.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+TQID: 'https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 637
+source-wordcount: '643'
 ht-degree: 0%
-
 ---
-
 # Balise de mappage de conversion Adobe Advertising JavaScript
 
 *Annonceurs avec suivi des conversions Adobe Advertising uniquement*
@@ -27,7 +30,7 @@ Pour utiliser la balise de mappage de conversion, procédez comme suit :
 
 1. [Déployez la balise de mappage de conversion](#deploy-conversion-mapping-tag).
 
-1. Si votre organisation utilise plusieurs identifiants d’organisation Adobe Experience Cloud Identity Service (anciennement appelés ID d’organisation IMS), [mettez à jour vos balises de conversion](#update-conversion-tags) pour inclure l’identifiant de l’organisation.
+1. Si votre organisation utilise plusieurs identifiants d’organisation du service d’identités Adobe Experience Cloud (anciennement appelés ID d’organisation IMS), [mettez à jour vos balises de conversion](#update-conversion-tags) pour inclure l’identifiant de l’organisation.
 
 1. [Validez le déploiement de la balise](#validate-conversion-mapping).
 
@@ -49,9 +52,9 @@ Pour utiliser la balise de mappage de conversion, procédez comme suit :
 
   où :
 
-   * vous remplacez la valeur `{xxxxxx@AdobeOrg}` par l’ID d’organisation pour lequel les conversions de la page sont suivies. Utilisez le même ID d’organisation pour toutes les pages de conversion.
+  * vous remplacez la valeur `{xxxxxx@AdobeOrg}` par l’ID d’organisation pour lequel les conversions de la page sont suivies. Utilisez le même ID d’organisation pour toutes les pages de conversion.
 
-   * vous remplacez `{AMO User ID}` par l’ID d’utilisateur unique pour votre compte Search, Social et Commerce.
+  * vous remplacez `{AMO User ID}` par l’ID d’utilisateur unique pour votre compte Search, Social et Commerce.
 
 * Si vous utilisez un système de gestion des balises qui ne prend pas en charge l’ajout de la variable `imsorgid` à la balise du script, utilisez plutôt le code suivant :
 
@@ -67,22 +70,22 @@ Pour utiliser la balise de mappage de conversion, procédez comme suit :
 
   où vous remplacez `{AMO User ID}` par l’ID d’utilisateur unique de votre compte Search, Social et Commerce.
 
-   * Si votre organisation utilise plusieurs ID d’organisation :
+  * Si votre organisation utilise plusieurs ID d’organisation :
 
-     ```
-     <script>
-     window.ad_cloud = window.ad_cloud || {};
-     window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
-     window.ad_cloud.userid = "{AMO User ID}"
-     </script>
-     <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-     ```
+    ```
+    <script>
+    window.ad_cloud = window.ad_cloud || {};
+    window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
+    window.ad_cloud.userid = "{AMO User ID}"
+    </script>
+    <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+    ```
 
-     où :
+    où :
 
-      * vous remplacez la valeur `{xxxxxx@AdobeOrg}` par l’ID d’organisation pour lequel les conversions de la page sont suivies. Utilisez le même ID d’organisation pour toutes les pages de conversion.
+    * vous remplacez la valeur `{xxxxxx@AdobeOrg}` par l’ID d’organisation pour lequel les conversions de la page sont suivies. Utilisez le même ID d’organisation pour toutes les pages de conversion.
 
-      * vous remplacez `{AMO User ID}` par l’ID d’utilisateur unique pour votre compte Search, Social et Commerce.
+    * vous remplacez `{AMO User ID}` par l’ID d’utilisateur unique pour votre compte Search, Social et Commerce.
 
 Si vous ne connaissez pas la valeur de votre identifiant d’organisation ou de votre identifiant utilisateur Search, Social et Commerce, demandez à l’équipe chargée de votre compte Adobe.
 

@@ -1,20 +1,23 @@
 ---
 title: '[!DNL Microsoft Advertising] des paramètres d’annonce responsive'
-description: Référencez les paramètres des annonces  [!DNL Microsoft Advertising] .
+description: Référencez les paramètres des publicités réactives [!DNL Microsoft Advertising].
 exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/K4R8gmgxfaMP0JdZiz4RkZkfC6-0T2BsyxpcwK-X3bQ
+TQID: 'https://experienceleague.adobe.com/K4R8gmgxfaMP0JdZiz4RkZkfC6-0T2BsyxpcwK-X3bQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 232
+source-wordcount: '244'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] des paramètres d’annonce publicitaire réactifs (audience)
 
 Le format d’annonce responsive est disponible pour les annonces d’audience vidéo basées sur des images, des vidéos et de la télévision connectée sur le [!DNL Microsoft Audience Network]. Le réseau publicitaire assemble dynamiquement des publicités réactives en utilisant les combinaisons les plus efficaces d&#39;éléments publicitaires.
@@ -31,7 +34,7 @@ Le format d’annonce responsive est disponible pour les annonces d’audience v
 >
 >Le réseau publicitaire crée automatiquement des annonces pour les campagnes d’audience liées à une boutique de centre commercial à l’aide des informations sur les produits de la boutique et du ciblage utilisateur au niveau du groupe publicitaire. Vous n’avez pas besoin de créer manuellement des annonces.
 
-**[!UICONTROL Images]:** jusqu’à 15 images JPEG ou PNG pour la publicité. Incluez au moins une image avec un format de 1,91 :1. Consultez les proportions et dimensions autorisées pour [images publicitaires d’audience](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
+**[!UICONTROL Images]:** jusqu’à 15 images JPEG ou PNG pour la publicité. Incluez au moins une image avec un rapport d’aspect de 1,91:1. Consultez les proportions et dimensions autorisées pour [images publicitaires d’audience](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
 
 Pour les publicités d’audience, [!DNL Microsoft Advertising] recadre automatiquement cette image pour tous les proportions possibles.
 

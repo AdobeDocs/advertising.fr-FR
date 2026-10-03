@@ -3,20 +3,27 @@ title: Affectation de contenu publicitaire à une balise publicitaire pour des e
 description: Découvrez comment affecter des contenus créatifs à une balise d’annonce publicitaire pour une taille de contenu créatif spécifique.
 feature: Creative Experiences
 exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
-TQID: https://experienceleague.adobe.com/MFD3iHLYWisIOy1neCge7nlDCd17Fd0KMUYzxStXJXQ
+TQID: 'https://experienceleague.adobe.com/MFD3iHLYWisIOy1neCge7nlDCd17Fd0KMUYzxStXJXQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 272
+source-wordcount: '272'
 ht-degree: 0%
-
 ---
-
 # Affectation de contenu publicitaire à une balise publicitaire pour des expériences sans ciblage
 
 *Expériences sans ciblage d’arborescence de décision uniquement*

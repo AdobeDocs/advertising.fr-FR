@@ -3,20 +3,26 @@ title: Ajout de contenus publicitaires standard à une bibliothèque de contenus
 description: Découvrez comment ajouter des contenus publicitaires standard (non dynamiques) à une bibliothèque de contenus publicitaires.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-TQID: https://experienceleague.adobe.com/mgUcE-E6LAIFFU8S5WrUceCQ6ZMSGF9tFkqEfnuKKSQ
+TQID: 'https://experienceleague.adobe.com/mgUcE-E6LAIFFU8S5WrUceCQ6ZMSGF9tFkqEfnuKKSQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1068
+source-wordcount: '1069'
 ht-degree: 0%
-
 ---
-
 # Ajout de contenus publicitaires standard à une bibliothèque de contenus publicitaires
 
 Ajoutez des contenus publicitaires standard à vos [bibliothèques de contenus publicitaires](creative-library-manage.md) pour les utiliser avec des [expériences publicitaires](/help/creative/experiences/experience-about.md) standard.
@@ -137,29 +143,29 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Pour les ressources d’image locale ou d’HTML5, effectuez l’une des opérations suivantes :
 
-      * Glissez-déposez des fichiers sur votre appareil ou réseau dans la zone.
+     * Glissez-déposez des fichiers sur votre appareil ou réseau dans la zone.
 
-      * Cliquez sur **[!UICONTROL Select a file]** pour localiser les fichiers sur votre appareil ou réseau.
+     * Cliquez sur **[!UICONTROL Select a file]** pour localiser les fichiers sur votre appareil ou réseau.
 
    * Pour les images approuvées dans une bibliothèque Experience Manager [connectée à votre compte DSP](/help/creative/creative-libraries/aem-assets-configure.md), procédez comme suit :
 
-      1. Cliquez sur **[!UICONTROL AEM Asset Library]**.
+     1. Cliquez sur **[!UICONTROL AEM Asset Library]**.
 
-      1. (Si ce n’est pas déjà fait, connectez-vous à votre compte Experience Manager) Connectez-vous à votre compte Experience Manager.
+     1. (Si ce n’est pas déjà fait, connectez-vous à votre compte Experience Manager) Connectez-vous à votre compte Experience Manager.
 
-      1. Recherchez et sélectionnez les fichiers dans vos vues [!UICONTROL Assets] ou [!UICONTROL Collections], puis cliquez sur **[!UICONTROL Select]** en haut à droite.
+     1. Recherchez et sélectionnez les fichiers dans vos vues [!UICONTROL Assets] ou [!UICONTROL Collections], puis cliquez sur **[!UICONTROL Select]** en haut à droite.
 
-         <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
+        <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
 
    * Pour les expériences GenStudio, procédez comme suit :
 
-      1. Cliquez sur **[!UICONTROL GenStudio Library]**.
+     1. Cliquez sur **[!UICONTROL GenStudio Library]**.
 
-      1. (Si ce n’est pas déjà fait, connectez-vous à votre compte GenStudio) Connectez-vous à votre compte GenStudio.
+     1. (Si ce n’est pas déjà fait, connectez-vous à votre compte GenStudio) Connectez-vous à votre compte GenStudio.
 
-         Vos expériences d’affichage et d’affichage sont affichées par défaut. Vous pouvez éventuellement filtrer vos expériences par campagne ou autres attributs selon vos besoins.
+        Vos expériences d’affichage et d’affichage sont affichées par défaut. Vous pouvez éventuellement filtrer vos expériences par campagne ou autres attributs selon vos besoins.
 
-      1. Recherchez et sélectionnez les expériences d’affichage des publicités, puis cliquez sur **[!UICONTROL Select]** dans le coin supérieur droit.
+     1. Recherchez et sélectionnez les expériences d’affichage des publicités, puis cliquez sur **[!UICONTROL Select]** dans le coin supérieur droit.
 
      Chaque variante créative d’une expérience sélectionnée est importée en tant que contenu créatif HTML5 distinct.
 
@@ -207,7 +213,7 @@ Consultez les [spécifications de création vidéo](/help/creative/creative-libr
 
    * Cliquez sur **[!UICONTROL Select a file]** pour localiser les fichiers sur votre appareil ou réseau.
 
-1. Spécifiez les [&#x200B; paramètres de création vidéo &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
+1. Spécifiez les [ paramètres de création vidéo ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
 
    Par défaut, le contenu créatif que vous venez de charger est sélectionné et tous les paramètres que vous spécifiez s’appliquent au contenu créatif sélectionné.<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
 

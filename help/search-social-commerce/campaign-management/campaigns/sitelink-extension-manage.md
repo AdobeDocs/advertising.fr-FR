@@ -3,22 +3,26 @@ title: Gestion des liens de site partagés
 description: Découvrez comment créer et gérer des extensions de lien de site partagées.
 exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI
+TQID: 'https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '952'
 ht-degree: 0%
-
 ---
-
 # Gestion des liens de site partagés
 
 *[!DNL Google Ads]et [!DNL Microsoft Advertising] uniquement*
@@ -81,9 +85,9 @@ Pour d’autres politiques et raisons de désapprobation du lien du site, consul
 
 **[!UICONTROL Description Line 1], [!UICONTROL Description Line 2] :** texte supplémentaire que le moteur de recherche peut afficher sous le texte du lien. Pour inclure une description, saisissez des valeurs pour les deux champs de description. Chaque champ de description peut contenir jusqu’à 35 caractères codés sur un octet ou 17 caractères codés sur deux octets.
 
-**[!UICONTROL Start Date]:** (campagnes avec liens de site hérités existants ou sans liens de site uniquement ; facultatif) Première date à laquelle le lien de site peut être affiché avec des annonces dans la campagne. La valeur par défaut pour les nouveaux liens de site est la date actuelle. Pour spécifier une date de début ultérieure, entrez une date au format MM/JJ/AAAA ou MM/JJ/AAAA, ou cliquez sur   et sélectionnez une date.
+**[!UICONTROL Start Date]:** (campagnes avec liens de site hérités existants ou sans liens de site uniquement ; facultatif) Première date à laquelle le lien de site peut être affiché avec des annonces dans la campagne. La valeur par défaut pour les nouveaux liens de site est la date actuelle. Pour spécifier une date de début ultérieure, saisissez une date au format MM/JJ/AAAA ou MM/J/AAAA, ou cliquez sur et sélectionnez une date.
 
-**[!UICONTROL End Date]:** (facultatif) Dernière date à laquelle le lien du site peut être affiché avec des annonces dans la campagne. Par défaut, le lien du site peut être affiché indéfiniment. Pour spécifier une date de fin, saisissez une date au format MM/JJ/AAAA ou MM/J/AAAA, ou cliquez sur   et sélectionnez une date.
+**[!UICONTROL End Date]:** (facultatif) Dernière date à laquelle le lien du site peut être affiché avec des annonces dans la campagne. Par défaut, le lien du site peut être affiché indéfiniment. Pour spécifier une date de fin, saisissez une date au format MM/JJ/AAAA ou MM/J/AAAA, ou cliquez sur et sélectionnez une date.
 
 **[!UICONTROL Mobile Preference]:** (facultatif) Permet au réseau d’essayer d’afficher l’extension d’annonce aux utilisateurs d’appareils mobiles plutôt qu’aux utilisateurs d’ordinateurs de bureau ou de tablettes. Par défaut, l’option n’est pas activée et l’extension d’annonce publicitaire apparaît sur n’importe quel type d’appareil.
 

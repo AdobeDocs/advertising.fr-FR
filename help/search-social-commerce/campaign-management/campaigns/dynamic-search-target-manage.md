@@ -1,22 +1,26 @@
 ---
-title: Gestion  [!DNL Google Ads]  cibles de recherche dynamiques
-description: Découvrez comment créer et gérer  [!DNL Google Ads]  cibles de recherche dynamiques.
+title: Gestion [!DNL Google Ads] cibles de recherche dynamique
+description: Découvrez comment créer et gérer [!DNL Google Ads] cibles de recherche dynamique.
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0
+TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '676'
 ht-degree: 0%
-
 ---
-
 # Gestion [!DNL Google Ads] cibles de recherche dynamique
 
 Comptes *[!DNL Google Ads]uniquement*
@@ -93,13 +97,13 @@ Vous pouvez également supprimer n’importe quelle cible dynamique.
 
    * Pour supprimer une ou plusieurs cibles dynamiques, procédez comme suit :
 
-      1. Cochez la case en regard de chaque cible dynamique à supprimer.
+     1. Cochez la case en regard de chaque cible dynamique à supprimer.
 
      Pour obtenir des conseils sur la sélection de plusieurs lignes, reportez-vous à « [Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) ».
 
-      1. Dans la barre d’outils, cliquez sur ![Plus](/help/search-social-commerce/assets/more.png "Plus") et sélectionnez **[!UICONTROL Delete]**.
+     1. Dans la barre d’outils, cliquez sur ![Plus](/help/search-social-commerce/assets/more.png "Plus") et sélectionnez **[!UICONTROL Delete]**.
 
-      1. Dans le message de confirmation, cliquez sur **[!UICONTROL Delete]**.
+     1. Dans le message de confirmation, cliquez sur **[!UICONTROL Delete]**.
 
 ## [!DNL Google Ads] des paramètres de la cible de recherche dynamique {#dynamic-search-target-settings}
 
@@ -111,13 +115,13 @@ Vous pouvez également supprimer n’importe quelle cible dynamique.
 
 * *\[Cibles spécifiques\]:* cible jusqu’à trois critères pour les pages indexées. Lorsque vous sélectionnez cette option, vous devez spécifier les critères en spécifiant les catégories d’informations et les valeurs spécifiques pour lesquelles cibler les annonces (par exemple, « L’URL contient des chaussures.exemple.com »). Pour spécifier plusieurs critères, cliquez sur **[!UICONTROL + And]**. Les critères cibles sont les suivants :
 
-   * *[!UICONTROL Category]:* pour afficher des publicités pour des pages indexées avec une catégorie de contenu [!DNL Google Ads] spécifique.
+  * *[!UICONTROL Category]:* pour afficher des publicités pour des pages indexées avec une catégorie de contenu [!DNL Google Ads] spécifique.
 
-   * *[!UICONTROL URL]:* pour afficher des publicités pour des pages indexées avec une URL spécifique, où la valeur peut être incluse n’importe où dans l’URL.
+  * *[!UICONTROL URL]:* pour afficher des publicités pour des pages indexées avec une URL spécifique, où la valeur peut être incluse n’importe où dans l’URL.
 
-   * *[!UICONTROL Page Title]:* pour afficher des annonces pour les pages indexées avec un texte spécifique dans le titre de la page.
+  * *[!UICONTROL Page Title]:* pour afficher des annonces pour les pages indexées avec un texte spécifique dans le titre de la page.
 
-   * *[!UICONTROL Page Content]:* pour afficher des publicités pour des pages indexées avec un contenu spécifique.
+  * *[!UICONTROL Page Content]:* pour afficher des publicités pour des pages indexées avec un contenu spécifique.
 
 **Statut :** statut des paramètres de la cible :
 

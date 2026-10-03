@@ -3,22 +3,26 @@ title: Exporter les détails d’une audience réutilisable
 description: Découvrez comment afficher la configuration, la taille de l’audience et les emplacements ciblés pour une audience réutilisable.
 feature: DSP Audiences
 exl-id: 6d69706e-4398-41e0-b7a3-04ba72b08bfc
-TQID: https://experienceleague.adobe.com/BD8w-IjoQRbmCgwkrdd3JjtsaxPN5hPhlpUTHJoh3SM
+TQID: 'https://experienceleague.adobe.com/BD8w-IjoQRbmCgwkrdd3JjtsaxPN5hPhlpUTHJoh3SM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 147
+source-wordcount: '148'
 ht-degree: 0%
-
 ---
-
 # Exporter les détails d’une audience réutilisable
 
 Vous pouvez télécharger un fichier de feuille de calcul [!DNL Microsoft Excel] avec la règle de configuration de l’audience, le nombre de membres actifs de l’audience par type d’appareil, les détails de chaque segment de l’audience et tous les emplacements qui ciblent l’audience.

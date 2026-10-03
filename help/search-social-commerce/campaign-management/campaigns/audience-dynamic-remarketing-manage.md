@@ -1,20 +1,23 @@
 ---
-title: Gestion  [!DNL Microsoft Advertising]  audiences de remarketing dynamique
-description: Découvrez comment créer et gérer  [!DNL Microsoft Advertising]  audiences de remarketing dynamique.
+title: Gestion [!DNL Microsoft Advertising] audiences de remarketing dynamique
+description: Découvrez comment créer et gérer [!DNL Microsoft Advertising] audiences de remarketing dynamique.
 exl-id: 52faab75-e723-4e59-aac6-b4d0c4c1cf60
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/ev1y2UpkEHJhIgS3vQz8GRF0LNJwG9BHSxufQeeQAfA
+TQID: 'https://experienceleague.adobe.com/ev1y2UpkEHJhIgS3vQz8GRF0LNJwG9BHSxufQeeQAfA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: '515'
 ht-degree: 0%
-
 ---
-
 # Gestion [!DNL Microsoft Advertising] audiences de remarketing dynamique
 
 Comptes *[!DNL Microsoft Advertising]uniquement*
@@ -29,7 +32,7 @@ Pour plus d’informations sur le remarketing dynamique et sur la mise en œuvre
 
 >[!NOTE]
 >
->Pour les comptes [!DNL Microsoft Advertising], la balise JavaScript doit inclure les paramètres [ID de produit et type de page](https://help.ads.microsoft.com/#apex/ads/en/56910/1/#exp85).
+>Pour les comptes [!DNL Microsoft Advertising], la balise JavaScript doit inclure les paramètres [ID de produit et type de page](#exp85).
 
 1. Identifiez le nom de la balise de suivi d’événement universel (UET) [!DNL Microsoft Advertising] incluse dans les pages web à partir desquelles l’audience sera créée.
 

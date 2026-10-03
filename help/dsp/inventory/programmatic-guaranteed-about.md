@@ -3,25 +3,35 @@ title: À propos des offres programmatiques garanties
 description: Découvrez les offres programmatiques garanties (PG) et les fournisseurs de services partagés certifiés pour les fournir.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-TQID: https://experienceleague.adobe.com/LJPeIv8z6DiQS-eCe8obWgKkWi5onwpBadIgElLzkXw
+TQID: 'https://experienceleague.adobe.com/LJPeIv8z6DiQS-eCe8obWgKkWi5onwpBadIgElLzkXw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
+  - id: ea1cb503-33dd-595d-833b-f365576083b6
+    internal-label: DSP Programmatic Guaranteed Deals
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 240
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 # À propos des offres programmatiques garanties
 
 Une offre programmatique garantie (PG) est un achat garanti directement auprès d’un éditeur via un ID d’offre (plutôt que via des balises de serveur de publicités). PG est plus flexible à gérer pour vous et votre éditeur, et offre plus de transparence que les achats de balises standard. La facturation et le reporting sont consolidés via DSP, ce qui vous permet de gagner du temps.

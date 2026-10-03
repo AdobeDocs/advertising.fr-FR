@@ -1,24 +1,28 @@
 ---
-title: 'Abonnez-vous et demandez l’accès aux offres d’inventaire  [!DNL On Demand] '
+title: Abonnez-vous et demandez l’accès à [!DNL On Demand] offres d’inventaire premium
 description: Découvrez comment vous abonner à des offres [!DNL On Demand] et demander l’accès à ces offres.
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-TQID: https://experienceleague.adobe.com/k3uCoU7U-K-TfHrlpFPn8XYtb-Vk5XWwmxCXby57tKs
+TQID: 'https://experienceleague.adobe.com/k3uCoU7U-K-TfHrlpFPn8XYtb-Vk5XWwmxCXby57tKs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '395'
 ht-degree: 0%
-
 ---
-
 # Abonnez-vous et demandez l’accès à [!DNL On Demand] offres d’inventaire premium
 
 *Non disponible pour les utilisateurs disposant des types de compte [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] et [!UICONTROL Other] ; les annonceurs avec le [!UICONTROL Other] de catégorie ; et les revendeurs*
@@ -81,15 +85,15 @@ Une fois qu’une transaction est [approuvée](/help/dsp/inventory/on-demand-inv
 
    * Pour demander des offres ajoutées récemment :
 
-      1. Dans le carrousel supérieur des éditeurs, placez le curseur sur le logo de l’éditeur, puis cliquez sur **[!UICONTROL See Deals]**.
+     1. Dans le carrousel supérieur des éditeurs, placez le curseur sur le logo de l’éditeur, puis cliquez sur **[!UICONTROL See Deals]**.
 
-      1. Pour vous abonner à une offre individuelle, cliquez sur **[!UICONTROL Request]** dans la colonne [!UICONTROL Action] de la ligne correspondante.
+     1. Pour vous abonner à une offre individuelle, cliquez sur **[!UICONTROL Request]** dans la colonne [!UICONTROL Action] de la ligne correspondante.
 
    * Pour demander des offres à partir de la vue [!UICONTROL Deal] :
 
-      1. Cliquez sur **[!UICONTROL Deal view]**.
+     1. Cliquez sur **[!UICONTROL Deal view]**.
 
-      1. Cliquez sur **[!UICONTROL Request]** dans la colonne [!UICONTROL Action] de la ligne correspondante.
+     1. Cliquez sur **[!UICONTROL Request]** dans la colonne [!UICONTROL Action] de la ligne correspondante.
 
 >[!MORELIKETHIS]
 >

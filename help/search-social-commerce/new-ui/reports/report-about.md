@@ -2,9 +2,14 @@
 title: (Nouvelle interface utilisateur) À propos des rapports planifiés
 description: Découvrez les rapports de performances planifiés, y compris les différents types de rapports disponibles et comment automatiser les rapports.
 feature: Search Reports
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
     internal-label: Search, Social, & Commerce
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 subfeature_v2:
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
     internal-label: Reports
@@ -18,7 +23,7 @@ subfeature_v2:
     internal-label: Model accuracy reports
   - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
     internal-label: Specialty reports
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 0%
@@ -47,7 +52,7 @@ Les catégories de rapports suivantes sont disponibles à partir de la vue [!UIC
 
 Planifiez la génération automatique de rapports personnalisés de l’une des façons suivantes, ou des deux :
 
-* Générez automatiquement des rapports chaque jour, ou un jour spécifique de la semaine ou du mois, à l’aide de [&#x200B; modèles de rapport &#x200B;](/help/search-social-commerce/new-ui/reports/report-templates-manage.md).
+* Générez automatiquement des rapports chaque jour, ou un jour spécifique de la semaine ou du mois, à l’aide de [ modèles de rapport ](/help/search-social-commerce/new-ui/reports/report-templates-manage.md).
 
   Vous pouvez éventuellement paramétrer la diffusion [FTP) de rapports de base et avancés](/help/search-social-commerce/new-ui/reports/ftp-reports.md) qui utilisent un modèle.
 
@@ -73,8 +78,8 @@ La vue [!UICONTROL Reports] > [!UICONTROL Reports] vous permet de créer et de g
 | ---- | ---- |
 | Surveillance des performances | <ul><li>[Le [!UICONTROL Portfolio Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/portfolio-report.md)</li><li>[Le [!UICONTROL Search Engine Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-report.md)</li><li>[Le [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[Le [!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)</li><li>[Le [!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)</li><li>[Le [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | Dépannage des performances et analyse des tendances | <ul><li>[Le [!UICONTROL Keyword Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/keyword-report.md)</li><li>[Le [!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)</li><li>[Le [!UICONTROL Transaction Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/transaction-report.md)</li><li>[Le [!UICONTROL RSA Asset Report]](/help/search-social-commerce/new-ui/reports/management/specialty/rsa-asset-report.md)</li><li>[Le [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/keyword-daily-impression-share-report.md) et [Le [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>Tout rapport de base qui compare deux fenêtres temporelles à l’aide de la fonction « [!UICONTROL Compare with] »</li></ul> |
-| Identifier les opportunités de croissance commerciale | <ul><li>(Annonceurs avec suivi des conversions Adobe Advertising uniquement) [Le [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Annonceurs avec suivi des conversions Adobe Advertising uniquement) [Le [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Annonceurs avec [&#x200B; [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr)) Rapports personnalisés dans Adobe Analytics Analysis Workspace</li></ul> |
-| Analytics | <ul><li>(Annonceurs avec suivi des conversions Adobe Advertising uniquement) [Le [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(Annonceurs avec [&#x200B; [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr)) Rapports personnalisés dans Adobe Analytics Analysis Workspace</li></ul> |
+| Identifier les opportunités de croissance commerciale | <ul><li>(Annonceurs avec suivi des conversions Adobe Advertising uniquement) [Le [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Annonceurs avec suivi des conversions Adobe Advertising uniquement) [Le [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Annonceurs avec [ [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Rapports personnalisés dans Adobe Analytics Analysis Workspace</li></ul> |
+| Analytics | <ul><li>(Annonceurs avec suivi des conversions Adobe Advertising uniquement) [Le [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(Annonceurs avec [ [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Rapports personnalisés dans Adobe Analytics Analysis Workspace</li></ul> |
 
 >[!MORELIKETHIS]
 >

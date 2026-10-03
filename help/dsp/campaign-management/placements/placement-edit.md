@@ -3,22 +3,26 @@ title: Modifier les emplacements
 description: Découvrez comment modifier un emplacement.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-TQID: https://experienceleague.adobe.com/Fsngq1-yVcKCNO9eJmXU4d8hQKf27WWHx6AqE4S0GDI
+TQID: 'https://experienceleague.adobe.com/Fsngq1-yVcKCNO9eJmXU4d8hQKf27WWHx6AqE4S0GDI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 381
+source-wordcount: '391'
 ht-degree: 0%
-
 ---
-
 # Modifier les emplacements
 
 Vous pouvez modifier les paramètres d’un seul emplacement ou de plusieurs emplacements à la fois. Certains paramètres ne peuvent pas être modifiés une fois l’emplacement activé.
@@ -110,5 +114,5 @@ Utilisez cette option uniquement lorsque vous souhaitez appliquer les mêmes mod
 >* [Affichage du journal des modifications d’un emplacement](placement-change-log.md)
 >* [Paramètres d’emplacement](placement-settings.md)
 >* [Afficher l&#39;état de prévision d&#39;emplacement](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [Raccourcis clavier &#x200B;](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Vidéo : modifier des emplacements à l’aide d’outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=fr)
+>* [Raccourcis clavier ](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
+>* [Vidéo : modifier des emplacements à l’aide d’outils de modification en bloc](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

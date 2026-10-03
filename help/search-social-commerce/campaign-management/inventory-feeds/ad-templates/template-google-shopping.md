@@ -1,23 +1,28 @@
 ---
 title: '[!DNL Google Ads] des paramètres de modèle d’annonce publicitaire pour les flux d’inventaire'
-description: Référencez les paramètres des modèles d [!DNL Google Ads] annonces d’achat pour les flux d’inventaire.
+description: Référencez les paramètres des modèles d’annonces d’achat [!DNL Google Ads] pour les flux d’inventaire.
 exl-id: 36cbe719-f984-4456-8575-94b9d3e6094e
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/IIgGNn0rpJsvZjRnrqbT6EIQXpf4BRx2C1GgtU4AdbA
+TQID: 'https://experienceleague.adobe.com/IIgGNn0rpJsvZjRnrqbT6EIQXpf4BRx2C1GgtU4AdbA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 518
+source-wordcount: '530'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] des paramètres de modèle d’annonce publicitaire pour les flux d’inventaire
 
 Utilisez des modèles d’annonces publicitaires pour configurer les annonces publicitaires.

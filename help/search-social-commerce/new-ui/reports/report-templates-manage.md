@@ -2,7 +2,13 @@
 title: (Nouvelle interface utilisateur) Gestion des modèles de rapport
 description: Découvrez comment créer, afficher, modifier et supprimer des modèles de rapport réutilisables pour les rapports planifiés et à la demande.
 feature: Search Reports
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
