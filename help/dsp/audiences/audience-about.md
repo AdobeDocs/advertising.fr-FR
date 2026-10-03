@@ -3,49 +3,60 @@ title: À propos de la gestion des audiences dans Advertising DSP
 description: Découvrez les fonctionnalités de gestion de l’audience.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-TQID: https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA
+TQID: 'https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: '1457'
 ht-degree: 0%
-
 ---
-
 # À propos de la gestion des audiences dans Advertising DSP
 
 Dans DSP, vous pouvez créer et gérer des segments d’audience et des ensembles d’audiences, que vous pouvez utiliser comme cibles pour vos emplacements :
 
 * Collectez vos propres données d’audience propriétaires en créant et en implémentant des segments DSP. Vous pouvez par la suite recibler les utilisateurs du segment avec des annonces ou empêcher les utilisateurs du segment de recevoir des annonces. Vous pouvez créer les types de segments suivants :
 
-   * [Segments personnalisés](/help/dsp/audiences/custom-segment-create.md) pour effectuer le suivi a) des utilisateurs exposés aux publicités des ordinateurs de bureau et des appareils mobiles et b) des utilisateurs qui visitent des pages web spécifiques. La balise de suivi peut effectuer le suivi des utilisateurs basés sur des cookies ou des utilisateurs associés aux ID5 universels.
+  * [Segments personnalisés](/help/dsp/audiences/custom-segment-create.md) pour effectuer le suivi a) des utilisateurs exposés aux publicités des ordinateurs de bureau et des appareils mobiles et b) des utilisateurs qui visitent des pages web spécifiques. La balise de suivi peut effectuer le suivi des utilisateurs basés sur des cookies ou des utilisateurs associés aux ID5 universels.
 
-   * [Segments d’opposition à la vente de l’ACPCP](/help/dsp/audiences/ccpa-opt-out-segment-create.md) pour effectuer le suivi des identifiants des utilisateurs à partir des demandes d’opposition à la vente des consommateurs sur votre site web, conformément à la Loi sur la protection de la vie privée des consommateurs de Californie (CCPA). Vous pouvez récupérer les rapports mensuels des ID utilisateur à partir des requêtes d’opposition à la vente des informations personnelles.
+  * [Segments d’opposition à la vente de l’ACPCP](/help/dsp/audiences/ccpa-opt-out-segment-create.md) pour effectuer le suivi des identifiants des utilisateurs à partir des demandes d’opposition à la vente des consommateurs sur votre site web, conformément à la Loi sur la protection de la vie privée des consommateurs de Californie (CCPA). Vous pouvez récupérer les rapports mensuels des ID utilisateur à partir des requêtes d’opposition à la vente des informations personnelles.
 
-     Pour plus d’informations sur la prise en charge par Adobe Advertising des demandes d’opposition à la vente du CCPA, consultez [Prise en charge par Adobe Advertising de la Loi sur la protection de la vie privée des consommateurs de Californie : prise en charge de l’opposition à la vente du consommateur](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+    Pour plus d’informations sur la prise en charge par Adobe Advertising des demandes d’opposition à la vente du CCPA, consultez [Prise en charge par Adobe Advertising de la Loi sur la protection de la vie privée des consommateurs de Californie : prise en charge de l’opposition à la vente du consommateur](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 * [Obtention et utilisation d’ID universels pour le ciblage sans cookie](/help/dsp/audiences/universal-ids.md) :
 
-   * Envoyez manuellement vos segments authentifiés [!DNL LiveRamp] [!DNL RampID] directement à DSP.
+  * Envoyez manuellement vos segments authentifiés [!DNL LiveRamp] [!DNL RampID] directement à DSP.
 
-   * Autorisez DSP à importer des segments propriétaires à partir de votre plateforme de données client et à les traduire en types d’identifiants universels pris en charge.
+  * Autorisez DSP à importer des segments propriétaires à partir de votre plateforme de données client et à les traduire en types d’identifiants universels pris en charge.
 
-   * Importez les segments de [!DNL AdFixus] propriétaires qui contiennent des identifiants universels [!DNL AdFixus] (Australie uniquement). Vous pouvez ensuite cibler des emplacements sur des identifiants de [!DNL AdFixus], ajouter ces segments aux [audiences réutilisables](/help/dsp/audiences/reusable-audience-create.md) et utiliser les rapports décrits dans la section « [Importer des segments propriétaires depuis [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md) ».
+  * Importez les segments de [!DNL AdFixus] propriétaires qui contiennent des identifiants universels [!DNL AdFixus] (Australie uniquement). Vous pouvez ensuite cibler des emplacements sur des identifiants de [!DNL AdFixus], ajouter ces segments aux [audiences réutilisables](/help/dsp/audiences/reusable-audience-create.md) et utiliser les rapports décrits dans la section « [Importer des segments propriétaires depuis [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md) ».
 
-   * Incluez des segments tiers qui contiennent des identifiants universels dans vos cibles d’emplacement sans étapes supplémentaires.
+  * Incluez des segments tiers qui contiennent des identifiants universels dans vos cibles d’emplacement sans étapes supplémentaires.
 
 * Créez une bibliothèque d’audiences [audiences réutilisables](/help/dsp/audiences/reusable-audience-create.md). Les audiences enregistrées sont composées de l’un des segments d’audience disponibles et de l’autre de vos audiences enregistrées. Toutes les modifications apportées à une audience enregistrée sont automatiquement appliquées à tous les emplacements qui ciblent ou excluent l’audience et à toutes les autres audiences qui incluent l’audience enregistrée.
 
@@ -79,11 +90,11 @@ Vous pouvez cibler vos emplacements sur tous les types d’audiences suivants.
 
 * Tous les segments d’audience créés par l’utilisateur ou l’utilisatrice qui ont été créés dans DSP :
 
-   * Segments personnalisés pour les utilisateurs et utilisatrices qui ont visité des pages web spécifiques et les utilisateurs et utilisatrices exposés aux impressions d’annonces spécifiques.
+  * Segments personnalisés pour les utilisateurs et utilisatrices qui ont visité des pages web spécifiques et les utilisateurs et utilisatrices exposés aux impressions d’annonces spécifiques.
 
-     Aucun frais n’est encouru pour les impressions diffusées aux identifiants universels.
+    Aucun frais n’est encouru pour les impressions diffusées aux identifiants universels.
 
-   * Segments d’audience d’opposition à la vente de la CCPA pour les utilisateurs qui ont soumis des requêtes d’opposition à la vente sur votre site web, conformément à la Loi sur la protection de la vie privée des consommateurs de Californie (CCPA).
+  * Segments d’audience d’opposition à la vente de la CCPA pour les utilisateurs qui ont soumis des requêtes d’opposition à la vente sur votre site web, conformément à la Loi sur la protection de la vie privée des consommateurs de Californie (CCPA).
 
 * Tous vos segments de données propriétaires importés, y compris les segments qui ont été traduits en identifiants universels et les segments qui contiennent des identifiants universels [!DNL AdFixus] importés.
 
@@ -97,15 +108,15 @@ Vous pouvez cibler vos emplacements sur tous les types d’audiences suivants.
 
   Les segments tiers entraînent des frais supplémentaires, qui sont indiqués en regard de chaque nom de segment.
 
-* (Annonceurs sous Adobe Experience Platform et [!DNL Real-Time CDP], Adobe Audience Manager ou Adobe Analytics qui utilisent uniquement les balises de conversion Adobe Advertising JavaScript) Tous les segments d’audience propriétaires, secondaires ou tiers disponibles, créés dans [!DNL Real-Time CDP], créés dans Audience Manager ou publiés sur Adobe CX Enterprise à partir d’Audience Manager ou [!DNL Analytics].
+* (Annonceurs sous Adobe Experience Platform et [!DNL Real-Time CDP], Adobe Audience Manager ou Adobe Analytics qui utilisent uniquement les balises de conversion Adobe Advertising JavaScript) Tous les segments d’audience propriétaires, secondaires ou tiers disponibles, créés dans [!DNL Real-Time CDP], créés dans Audience Manager ou publiés sur Adobe CX Enterprise à partir d’Audience Manager ou d’[!DNL Analytics].
 
   Le prix d’utilisation des segments est prénégocié et n’est pas visible dans DSP.
 
-  Les segments provenant de [!DNL Analytics] sont disponibles environ une heure après leur création ou leur publication en tant qu’audiences d’entreprise CX. Les segments provenant directement d’Audience Manager ou de [!DNL Real-Time CDP] sont disponibles dans les 24 heures suivant leur partage.
+  Les segments provenant de [!DNL Analytics] sont disponibles environ une heure après leur création ou leur publication en tant qu’audiences CX Enterprise. Les segments provenant directement d’Audience Manager ou de [!DNL Real-Time CDP] sont disponibles dans les 24 heures suivant leur partage.
 
   >[!NOTE]
   >
-  >Pour plus d’informations sur la configuration et la collecte de données pour les segments dans ces solutions [!DNL Real-Time CDP][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=fr) consultez la documentation de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=fr), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=fr) et the.
+  >Pour plus d’informations sur la configuration et la collecte de données pour les segments dans ces solutions [!DNL Real-Time CDP]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=fr) consultez la documentation de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=fr), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=fr) et the.
 
 ## Données de taille d’audience
 

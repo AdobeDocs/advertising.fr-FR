@@ -2,13 +2,19 @@
 title: '[!UICONTROL Transaction Report]'
 description: En savoir plus sur le [!UICONTROL Transaction Report].
 feature: Search Reports, Search Advanced Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Transaction Report]
 
 Le [!UICONTROL Transaction Report] fournit des détails au niveau de la transaction pour les mots-clés actuels dans les groupes publicitaires dans la recherche et

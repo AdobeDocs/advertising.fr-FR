@@ -3,18 +3,24 @@ title: Affichage des mesures de conversion suivies pour un annonceur
 description: Découvrez comment afficher une liste des mesures de conversion suivies pour un annonceur.
 feature: Conversions
 exl-id: 7c9e2271-4127-4d43-aff8-5a2788bfe60f
-TQID: https://experienceleague.adobe.com/KLE8V8uHqBH4-KzsG-uYQ6nvZWY1YKY9Q0ZotIZ4xq0
+TQID: 'https://experienceleague.adobe.com/KLE8V8uHqBH4-KzsG-uYQ6nvZWY1YKY9Q0ZotIZ4xq0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 134
+source-wordcount: '134'
 ht-degree: 0%
-
 ---
-
 # Affichage des mesures de conversion suivies pour un annonceur
 
 Vous pouvez afficher une liste de toutes les mesures [conversion](/help/search-social-commerce/glossary.md#c-d) qu’Adobe Advertising a suivies pour un annonceur. Chaque ligne de mesure inclut la source de la mesure.

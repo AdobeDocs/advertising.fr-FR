@@ -1,22 +1,29 @@
 ---
-title: Création d’une action de conversion pour une conversion  [!DNL Google Ads]  pour les prospects
-description: Découvrez comment créer une action  [!DNL Google Ads]  conversion pour améliorer la conversion des prospects.
+title: Création d’une action de conversion pour une conversion améliorée [!DNL Google Ads] pour les prospects
+description: Découvrez comment créer une action de conversion [!DNL Google Ads] pour améliorer la conversion des prospects.
 feature: Conversions
 exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
-TQID: https://experienceleague.adobe.com/KqFHgxjc-4snyo3nf-3-ry6nsyapMPcwKEWvgi-pxGc
+TQID: 'https://experienceleague.adobe.com/KqFHgxjc-4snyo3nf-3-ry6nsyapMPcwKEWvgi-pxGc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: '879'
 ht-degree: 0%
-
 ---
-
 # Création d’une action de conversion pour une conversion améliorée [!DNL Google Ads] pour les prospects
 
 Comptes *[!DNL Google Ads]uniquement*

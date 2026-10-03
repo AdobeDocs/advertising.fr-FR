@@ -1,22 +1,29 @@
 ---
 title: Chargement des données de conversion hors ligne pour les conversions améliorées
-description: Découvrez comment charger des données de conversion propriétaires hors ligne pour mapper vers des conversions  [!DNL Google Ads]  pour les prospects et des conversions  [!DNL Microsoft Advertising] .
+description: Découvrez comment charger des données de conversion propriétaires hors ligne pour mapper vers des conversions améliorées [!DNL Google Ads] pour les prospects et les conversions améliorées [!DNL Microsoft Advertising].
 feature: Conversions
 exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-TQID: https://experienceleague.adobe.com/Hfmc5VCw9682cYmOQIcoy1Yy6InkoSmE18qqILbD2oI
+TQID: 'https://experienceleague.adobe.com/Hfmc5VCw9682cYmOQIcoy1Yy6InkoSmE18qqILbD2oI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ab69d6b27b86f6e4d9da6be3cd0245d6116469d3
+    internal-label: Personalization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 792
+source-wordcount: '794'
 ht-degree: 0%
-
 ---
-
 # Chargement des données de conversion hors ligne pour les conversions améliorées
 
 Comptes *[!DNL Google Ads]et [!DNL Microsoft Advertising] uniquement*

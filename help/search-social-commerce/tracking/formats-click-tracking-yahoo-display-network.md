@@ -1,20 +1,23 @@
 ---
-title: Formats de suivi des clics pour  [!DNL Yahoo DSP]
-description: Découvrez les formats de suivi des clics pour les comptes  [!DNL Yahoo DSP] .
+title: Formats de suivi des clics pour les [!DNL Yahoo DSP]
+description: Découvrez les formats de suivi des clics pour les comptes [!DNL Yahoo DSP].
 exl-id: ee6642b3-fb84-4604-91cc-da1213835be8
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/sQo6hr3UHQwN9GgazCKv2ba-m4ZXf2ZrhdemCpbVYvU
+TQID: 'https://experienceleague.adobe.com/sQo6hr3UHQwN9GgazCKv2ba-m4ZXf2ZrhdemCpbVYvU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 103
+source-wordcount: '104'
 ht-degree: 0%
-
 ---
-
 # Formats de suivi des clics pour les publicités sponsorisées sur [!DNL Yahoo DSP]
 
 Le format d’URL de destination de base suivant s’applique aux publicités sponsorisées :

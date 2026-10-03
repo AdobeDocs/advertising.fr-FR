@@ -3,20 +3,27 @@ title: Rapports de performances au niveau de l’expérience
 description: Découvrez comment afficher des rapports de performances au niveau de l’expérience.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-TQID: https://experienceleague.adobe.com/1k8mcvg9-anlNxZQ43czfxpLEweDr-TolaaEIrDz-Fg
+TQID: 'https://experienceleague.adobe.com/1k8mcvg9-anlNxZQ43czfxpLEweDr-TolaaEIrDz-Fg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 50e002abe0c434e5eba9bd9785d7fc3d7ee7d10c
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 791
+source-wordcount: '791'
 ht-degree: 0%
-
 ---
-
 # Rapports de performances au niveau de l’expérience
 
 Vous pouvez afficher des données de performances détaillées pour n’importe quelle expérience.
@@ -27,39 +34,39 @@ La vue Rapport inclut les données suivantes :
 
 * Onglet **Aperçu** : aperçu des performances de toutes les mesures de conversion pour l’ensemble de l’expérience<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." --> notamment :
 
-   * **Performance globale** section :
+  * **Performance globale** section :
 
-      * **Performances globales** : nombre total d’impressions, de clics, de taux de clics publicitaires (CTR), de conversions d’affichage publicitaire et de conversions de clics publicitaires.
+    * **Performances globales** : nombre total d’impressions, de clics, de taux de clics publicitaires (CTR), de conversions d’affichage publicitaire et de conversions de clics publicitaires.
 
-     <!--
+    <!--
       ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
      -->
 
-      * **Taux par défaut** : (expériences avec ciblage d’arborescence de décision uniquement) nombre d’impressions provenant de contenus publicitaires ciblés, de contenus publicitaires génériques sans cible ou ciblés sur « Tout le monde » et du contenu publicitaire par défaut pour l’expérience.
+    * **Taux par défaut** : (expériences avec ciblage d’arborescence de décision uniquement) nombre d’impressions provenant de contenus publicitaires ciblés, de contenus publicitaires génériques sans cible ou ciblés sur « Tout le monde » et du contenu publicitaire par défaut pour l’expérience.
 
-     <!--
+    <!--
       ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-   * Section **Répartition des performances** :
+  * Section **Répartition des performances** :
 
-      * **Performance régionale :** : mesures individuelles par emplacement géographique.
+    * **Performance régionale :** : mesures individuelles par emplacement géographique.
 
-     <!--
+    <!--
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
      -->
 
-      * **Performances de l’appareil :** mesures individuelles par type d’appareil, système d’exploitation et navigateur. Si vous le souhaitez, cliquez sur la valeur de n’importe quelle catégorie d’appareils pour afficher la liste des 10 meilleurs contenus publicitaires diffusés selon ce critère.
+    * **Performances de l’appareil :** mesures individuelles par type d’appareil, système d’exploitation et navigateur. Si vous le souhaitez, cliquez sur la valeur de n’importe quelle catégorie d’appareils pour afficher la liste des 10 meilleurs contenus publicitaires diffusés selon ce critère.
 
-     <!--
+    <!--
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
      -->
 
 * **Onglet Performances de Creative*** : aperçu des performances par élément créatif et lot ou balise publicitaire, y compris :
 
-   * **Contenu créatif** sous-onglet : nombre total d’impressions, de clics et de CTR pour chaque contenu créatif de l’expérience.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
+  * **Contenu créatif** sous-onglet : nombre total d’impressions, de clics et de CTR pour chaque contenu créatif de l’expérience.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
-   * **Bundles/Balises** sous-onglet : nombre total d’impressions, de clics et de CTR pour des lots individuels (expériences avec ciblage d’arbre de décision) ou des balises d’annonce (expériences sans ciblage d’arbre de décision) dans l’expérience.
+  * **Bundles/Balises** sous-onglet : nombre total d’impressions, de clics et de CTR pour des lots individuels (expériences avec ciblage d’arbre de décision) ou des balises d’annonce (expériences sans ciblage d’arbre de décision) dans l’expérience.
 
 ## Affichage des rapports de performances pour une expérience
 
@@ -79,9 +86,9 @@ La vue Rapport inclut les données suivantes :
 
    * (Facultatif) Pour modifier la période des données de performances, choisissez une option dans le menu de date :
 
-      * Pour spécifier une période prédéfinie, sélectionnez le rapport : (*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today]ou* *[!UICONTROL Yesterday]*.
+     * Pour spécifier une période prédéfinie, sélectionnez le rapport : (*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today]ou* *[!UICONTROL Yesterday]*.
 
-      * Pour spécifier une période personnalisée, saisissez la date de début et la date de fin, ou cliquez sur ![icône de calendrier](/help/search-social-commerce/assets/calendar.png) en regard d’un champ et sélectionnez une date.
+     * Pour spécifier une période personnalisée, saisissez la date de début et la date de fin, ou cliquez sur ![icône de calendrier](/help/search-social-commerce/assets/calendar.png) en regard d’un champ et sélectionnez une date.
 
    * (Facultatif) Pour modifier la règle utilisée pour attribuer des données de conversion dans une série d’événements qui entraînent une conversion, cliquez sur ![Paramètres](/help/creative/assets/settings.png) et modifiez la **[!UICONTROL Attribution Rule]**.
 
@@ -97,27 +104,27 @@ La vue Rapport inclut les données suivantes :
 
    * (Facultatif) Dans la section [!UICONTROL Regional Performance], effectuez l’une des opérations suivantes :
 
-      * Cliquez sur le nom d’une mesure (tel que [!UICONTROL Impressions]) pour l’afficher.
+     * Cliquez sur le nom d’une mesure (tel que [!UICONTROL Impressions]) pour l’afficher.
 
-      * Sélectionnez la région dans le menu [!UICONTROL Region].
+     * Sélectionnez la région dans le menu [!UICONTROL Region].
 
-      * Placez le curseur sur un pays ou un état pour afficher les données de cette région.
+     * Placez le curseur sur un pays ou un état pour afficher les données de cette région.
 
    * (Facultatif) Dans la section [!UICONTROL Device Performance], effectuez l’une des opérations suivantes :
 
-      * Placez le curseur sur la valeur de n’importe quelle catégorie d’appareils pour afficher les données de ce critère.
+     * Placez le curseur sur la valeur de n’importe quelle catégorie d’appareils pour afficher les données de ce critère.
 
-      * Cliquez sur la valeur de n’importe quelle catégorie d’appareils pour afficher la liste des principaux talents créatifs diffusés selon ce critère<!-- NN-->
+     * Cliquez sur la valeur de n’importe quelle catégorie d’appareils pour afficher la liste des principaux talents créatifs diffusés selon ce critère<!-- NN-->
 
 1. (Facultatif) Pour afficher les données par élément créatif et par lot ou balise publicitaire, cliquez sur l’onglet **[!UICONTROL Creative Performance]** .
 
    * Dans le sous-onglet [!UICONTROL Creatives] , vous pouvez effectuer l’une des opérations suivantes :
 
-      * (Facultatif) Pour basculer entre les vues graphique et grille, cliquez respectivement sur ![Graphique](/help/creative/assets/chart-view-button.png "Graphique") et ![Grille](/help/creative/assets/table-view-button.png "Grille").
+     * (Facultatif) Pour basculer entre les vues graphique et grille, cliquez respectivement sur ![Graphique](/help/creative/assets/chart-view-button.png "Graphique") et ![Grille](/help/creative/assets/table-view-button.png "Grille").
 
-      * (Facultatif) Dans la vue graphique, placez le curseur sur un point du graphique pour afficher les données relatives à ce point.
+     * (Facultatif) Dans la vue graphique, placez le curseur sur un point du graphique pour afficher les données relatives à ce point.
 
-      * (Expériences avec ciblage d’arborescence de décision uniquement ; facultatif) Pour ventiler les performances pour chaque cible publicitaire appliquée, activez **[!UICONTROL Split targeting]**.
+     * (Expériences avec ciblage d’arborescence de décision uniquement ; facultatif) Pour ventiler les performances pour chaque cible publicitaire appliquée, activez **[!UICONTROL Split targeting]**.
 
 1. Pour afficher les données par lot (expériences avec ciblage d’arbre de décision) ou balise publicitaire (expériences sans ciblage d’arbre de décision), cliquez sur le sous-onglet **[!UICONTROL Bundles]** . Vous pouvez effectuer l’une des opérations suivantes :
 

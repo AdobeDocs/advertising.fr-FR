@@ -1,22 +1,26 @@
 ---
-title: Création d’une audience  [!DNL Google Ads]  correspondance client à partir d’une liste d’emails Adobe Campaign
-description: Découvrez comment créer une audience  [!DNL Google Ads]  correspondance client à partir d’une liste d’emails Adobe Campaign existante.
+title: Création d’une audience de correspondance de clients [!DNL Google Ads] à partir d’une liste d’emails Adobe Campaign
+description: Découvrez comment créer une audience de correspondance client [!DNL Google Ads] à partir d’une liste d’emails Adobe Campaign existante.
 exl-id: 92812af2-ac31-48cd-badf-ea287799bddb
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g
+TQID: 'https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 669
+source-wordcount: '693'
 ht-degree: 0%
-
 ---
-
 # Création d’une audience de correspondance de clients [!DNL Google Ads] à partir d’une liste d’emails Adobe Campaign
 
 *[!DNL Google Ads]les comptes éligibles à la correspondance client uniquement*
@@ -99,11 +103,11 @@ Pour ce faire, vous devez accéder à votre instance [!DNL Campaign] et à un fi
 
          * (Facultatif) Dans l’onglet **[!UICONTROL Schedule]** , spécifiez un planning différent pour le transfert du fichier.
 
-           Par défaut, le workflow est exécuté à 00 :00 (minuit), ce qui garantit le traitement de tous les enregistrements. Pour minimiser la latence, planifiez l’exécution du workflow au plus tard à 18 :00.
+           Par défaut, le workflow est exécuté à minuit (00:00), ce qui garantit le traitement de tous les enregistrements. Pour minimiser la latence, planifiez l’exécution du workflow au plus tard à 18 h.
 
          * Cliquez sur **[!UICONTROL Ok]**.
 
-Search, Social et Commerce vérifie le répertoire toutes les 30 minutes (aux fuseaux horaires NN:30 et NN:59 de l’annonceur) et déplace tous les fichiers qu’il trouve vers un autre emplacement, puis crée automatiquement une audience à partir des données et la transmet à Google à 22 :00 (22 heures). Search, Social et Commerce continuent de rechercher des mises à jour (ajouts et soustractions) dans la liste d’e-mails toutes les 30 minutes et mettent à jour l’audience sur [!DNL Google Ads] en conséquence à 22 :00 par jour.
+Search, Social et Commerce vérifie le répertoire toutes les 30 minutes (à NN:30 et NN:59 dans le fuseau horaire de l’annonceur) et déplace tous les fichiers qu’il trouve vers un autre emplacement, puis crée automatiquement une audience à partir des données et la transmet à Google à 22 h (22 h). Search, Social et Commerce continuent de rechercher des mises à jour (ajouts et soustractions) dans la liste d’e-mails toutes les 30 minutes et mettent à jour l’audience le [!DNL Google Ads] en conséquence à 22 h 00 tous les jours.
 
 >[!NOTE]
 >

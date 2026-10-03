@@ -3,20 +3,27 @@ title: Modification d’une expérience avec le ciblage d’arborescence de déc
 description: Découvrez comment modifier les paramètres d’une expérience publicitaire ciblée à l’aide d’une arborescence de décision.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-TQID: https://experienceleague.adobe.com/0mcPjfiET-DKrm2qaa1Odygv1GIgv4cR7lBRNmrYGBk
+TQID: 'https://experienceleague.adobe.com/0mcPjfiET-DKrm2qaa1Odygv1GIgv4cR7lBRNmrYGBk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 528
+source-wordcount: '529'
 ht-degree: 0%
-
 ---
-
 # Modification d’une expérience avec le ciblage d’arborescence de décision
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
@@ -41,11 +48,11 @@ ht-degree: 0%
 
    * ([Traitement](experience-about.md#experience-statuses) expériences) Effectuez l’une des opérations suivantes :
 
-      * Pour ignorer les modifications existantes non publiées de l’expérience en direct, cliquez sur **[!UICONTROL Discard and start again]**.
+     * Pour ignorer les modifications existantes non publiées de l’expérience en direct, cliquez sur **[!UICONTROL Discard and start again]**.
 
-      * Pour conserver les modifications existantes non validées, cliquez sur **[!UICONTROL Continue editing draft]**.
+     * Pour conserver les modifications existantes non validées, cliquez sur **[!UICONTROL Continue editing draft]**.
 
-      * Pour modifier les détails de l’expérience, cliquez sur **[!UICONTROL Edit Experience Details]**.
+     * Pour modifier les détails de l’expérience, cliquez sur **[!UICONTROL Edit Experience Details]**.
 
    * (Facultatif) Modifiez les paramètres d’affichage de l’arborescence de décision.
 
@@ -57,25 +64,25 @@ ht-degree: 0%
 
    * (Facultatif) Modifiez les cibles d’annonces publicitaires et les contenus publicitaires correspondants de l’une des manières suivantes :
 
-      * Cibles :
+     * Cibles :
 
-        *[Ajoutez un nœud cible au niveau final](experience-target-node-add-final.md) dans une expérience.
+       *[Ajoutez un nœud cible au niveau final](experience-target-node-add-final.md) dans une expérience.
 
-         * [Insérez un nœud cible entre les nœuds](experience-target-node-add-inner.md).
+       * [Insérez un nœud cible entre les nœuds](experience-target-node-add-inner.md).
 
-         * [Ajoutez un nœud cible frère entre les nœuds](experience-target-node-add-sibling.md).
+       * [Ajoutez un nœud cible frère entre les nœuds](experience-target-node-add-sibling.md).
 
-         * [Copiez les nœuds enfants et les contenus publicitaires dans un autre nœud au même niveau](experience-target-node-copy.md).
+       * [Copiez les nœuds enfants et les contenus publicitaires dans un autre nœud au même niveau](experience-target-node-copy.md).
 
-      * Lots Creative :
+     * Lots Creative :
 
-         * [Affectez et annulez l’affectation de contenus publicitaires à un nœud final](experience-assign-creative-bundles.md).
+       * [Affectez et annulez l’affectation de contenus publicitaires à un nœud final](experience-assign-creative-bundles.md).
 
-           Si vous n’affectez pas au moins une offre groupée à chaque nœud final, vous pouvez choisir d’utiliser les contenus publicitaires par défaut pour chaque nœud non affecté lorsque vous enregistrez l’expérience. Pour publier une expérience, vous devez attribuer des lots ou utiliser les contenus publicitaires par défaut pour chaque nœud final.
+         Si vous n’affectez pas au moins une offre groupée à chaque nœud final, vous pouvez choisir d’utiliser les contenus publicitaires par défaut pour chaque nœud non affecté lorsque vous enregistrez l’expérience. Pour publier une expérience, vous devez attribuer des lots ou utiliser les contenus publicitaires par défaut pour chaque nœud final.
 
-         * [Personnalisez les URL de tracking pour les contenus publicitaires des lots attribués](experience-tracking-urls-targeting.md).
+       * [Personnalisez les URL de tracking pour les contenus publicitaires des lots attribués](experience-tracking-urls-targeting.md).
 
-         * [Personnalisez l’optimisation et la planification de la création](experience-optimization-scheduling-targeting.md) pour les lots affectés.
+       * [Personnalisez l’optimisation et la planification de la création](experience-optimization-scheduling-targeting.md) pour les lots affectés.
 
 1. (Facultatif) Modifiez les [paramètres généraux de l’expérience](experience-settings-targeting.md).
 
@@ -85,13 +92,13 @@ ht-degree: 0%
 
    * (Si chaque nœud au niveau le plus bas n’inclut pas au moins un lot de contenu créatif) Effectuez l’une des opérations suivantes :
 
-      * Pour enregistrer l’expérience sans tous les lots de création requis, cliquez sur **[!UICONTROL Save as Draft]**.
+     * Pour enregistrer l’expérience sans tous les lots de création requis, cliquez sur **[!UICONTROL Save as Draft]**.
 
-        Vous ne pouvez pas créer de balise publicitaire pour une expérience [brouillon](experience-about.md#experience-statuses).
+       Vous ne pouvez pas créer de balise publicitaire pour une expérience [brouillon](experience-about.md#experience-statuses).
 
-      * Pour attribuer le contenu créatif par défaut à chaque cible qui n’a pas encore reçu de lot de contenu créatif, cliquez sur **[!UICONTROL Assign Default Creatives]**. Après avoir consulté l’arborescence mise à jour avec les contenus publicitaires par défaut attribués, cliquez sur **[!UICONTROL Save]** et **[!UICONTROL OK]**.
+     * Pour attribuer le contenu créatif par défaut à chaque cible qui n’a pas encore reçu de lot de contenu créatif, cliquez sur **[!UICONTROL Assign Default Creatives]**. Après avoir consulté l’arborescence mise à jour avec les contenus publicitaires par défaut attribués, cliquez sur **[!UICONTROL Save]** et **[!UICONTROL OK]**.
 
-      * Pour continuer à modifier l’arborescence de décision, cliquez sur **[!UICONTROL Continue Edit]**.
+     * Pour continuer à modifier l’arborescence de décision, cliquez sur **[!UICONTROL Continue Edit]**.
 
 >[!MORELIKETHIS]
 >

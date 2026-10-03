@@ -3,18 +3,21 @@ title: Quand et comment générer des URL de suivi des clics par réseau publici
 description: Découvrez quand et comment les URL de suivi des clics sont ajoutées automatiquement, et quand et comment les ajouter manuellement pour divers composants de campagne.
 exl-id: 896de0c1-75ed-450c-b995-893f1a63e5ce
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/coG6SeshFIDQwfuv5RNK3Q9dhLdj4uXzl0bZs4syil8
+TQID: 'https://experienceleague.adobe.com/coG6SeshFIDQwfuv5RNK3Q9dhLdj4uXzl0bZs4syil8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 905
+source-wordcount: '911'
 ht-degree: 0%
-
 ---
-
 # Quand et comment générer des URL de suivi des clics par réseau publicitaire et objet
 
 Le tableau suivant explique comment générer des URL de suivi des clics pour les différents composants de Campaign.

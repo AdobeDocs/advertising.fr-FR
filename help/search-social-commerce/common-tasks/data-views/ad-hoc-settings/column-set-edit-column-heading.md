@@ -3,18 +3,23 @@ title: Modifiez le jeu de colonnes à partir du menu d’en-tête de colonne
 description: Découvrez comment afficher et masquer les colonnes de l’en-tête de colonne.
 exl-id: ebcf5759-f3a0-4816-8095-5679a642f862
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/M-MDI8D7W9JFepbY-CR0QV64oh6KVPqevVtSz8NQCTg
+TQID: 'https://experienceleague.adobe.com/M-MDI8D7W9JFepbY-CR0QV64oh6KVPqevVtSz8NQCTg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 191
+source-wordcount: '194'
 ht-degree: 0%
-
 ---
-
 # Modifiez le jeu de colonnes à partir du menu d’en-tête de colonne
 
 <!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->

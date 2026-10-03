@@ -3,29 +3,40 @@ title: Présentation des fonctionnalités d’inventaire dans Advertising DSP
 description: Découvrez les fonctionnalités d’inventaire disponibles.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: e55b9276-0d13-436e-9c09-968de963d551
-TQID: https://experienceleague.adobe.com/7XrswlcmoT2mpja9FsEBXwBbNUw0zNmI52-7sYgOtIs
+TQID: 'https://experienceleague.adobe.com/7XrswlcmoT2mpja9FsEBXwBbNUw0zNmI52-7sYgOtIs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 241
-ht-degree: 0%
-
+source-wordcount: '251'
+ht-degree: 1%
 ---
-
 # Présentation des fonctionnalités d’inventaire dans Advertising DSP
 
-DSP peut répondre à vos besoins en matière d’inventaire, que vous souhaitiez trouver de l’échelle avec l’inventaire public, trouver de l’échelle parmi les éditeurs premium avec [!DNL On Demand] ou configurer une offre 1:1 private marketplace (PMP) avec un éditeur pour l’activer en fonction d’audiences ou de sites spécifiques. Les objectifs de votre campagne vous aident à déterminer le type d’inventaire le mieux adapté aux besoins de performances de votre campagne. Les intégrations avec les principales plateformes côté offre (SSP) permettent une configuration et une activation transparentes de vos PMP.
+DSP peut répondre à vos besoins en matière d’inventaire, que vous souhaitiez trouver une mise à l’échelle avec l’inventaire public, trouver une mise à l’échelle parmi les éditeurs premium avec [!DNL On Demand] ou configurer une offre de marché privée 1:1 avec un éditeur pour l’activer en fonction d’audiences ou de sites spécifiques. Les objectifs de votre campagne vous aident à déterminer le type d’inventaire le mieux adapté aux besoins de performances de votre campagne. Les intégrations avec les principales plateformes côté offre (SSP) permettent une configuration et une activation transparentes de vos PMP.
 
 Une fois que vous avez accès à vos offres d’inventaire dans DSP ou que vous les avez identifiées, vous pouvez les utiliser comme cibles d’emplacement pour vos campagnes.
 
@@ -33,7 +44,7 @@ Les types de stock disponibles sont les suivants :
 
 * Inventaire des **[!DNL On Demand]:** à la recherche d’offres prénégociées et non garanties qu’Adobe a organisées avec des partenaires éditeurs premium.
 
-* **Private Inventory [!DNL Deal IDs] :** configurez et gérez les contrats de marché privé (PMP) que vous avez négociés directement 1:1 avec l’éditeur.
+* **Private Inventory [!DNL Deal IDs] :** configurez et gérez les contrats de marché privé (PMP) que vous avez négociés directement 1:1 avec l&#39;éditeur.
 
 * **[!DNL Simple Ad Serving]:** utilisez une technologie rationalisée pour une diffusion et un reporting d’annonces garantis et non décisionnels lorsque votre éditeur ne peut pas exécuter votre transaction à l’aide d’ID d’offres.
 
@@ -41,11 +52,11 @@ Les types de stock disponibles sont les suivants :
 
 * **[!UICONTROL Inventory]> [!UICONTROL Deals]:**
 
-   * Affichez toutes vos offres existantes.
+  * Affichez toutes vos offres existantes.
 
-   * Personnalisez davantage la manière dont les données d’opération existantes sont présentées en appliquant des filtres, en personnalisant les colonnes visibles et en enregistrant éventuellement des vues personnalisées, en triant les colonnes et en affichant les données sous forme de graphiques.
+  * Personnalisez davantage la manière dont les données d’opération existantes sont présentées en appliquant des filtres, en personnalisant les colonnes visibles et en enregistrant éventuellement des vues personnalisées, en triant les colonnes et en affichant les données sous forme de graphiques.
 
-   * Créez et gérez des paramètres d’offres privées et des offres [!DNL Simple Ad Serving].
+  * Créez et gérez des paramètres d’offres privées et des offres [!DNL Simple Ad Serving].
 
 * **[!UICONTROL Inventory]> [!UICONTROL Deals] :** permet d’afficher et de gérer [!DNL On Demand] inventaire.
 

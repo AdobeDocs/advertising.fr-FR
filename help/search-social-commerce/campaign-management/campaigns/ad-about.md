@@ -3,20 +3,24 @@ title: Gestion des publicités
 description: Découvrez les annonces dans Search, Social et Commerce, y compris les types d’annonces disponibles.
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU
+TQID: 'https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # À propos des publicités
 
 Comptes *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] et [!DNL Baidu] existants uniquement*
@@ -31,9 +35,9 @@ Vous pouvez créer et gérer des types d’annonces pris en charge pour les grou
 
 * Publicités natives sur plusieurs appareils **audiences** pour [!DNL Microsoft Advertising] campagnes sur le [!DNL Microsoft Audience Network]. Vous disposez de deux options pour les annonces d’audience, en fonction des paramètres de la campagne :
 
-   * Si la campagne est liée à une boutique de centre commercial, laissez le réseau publicitaire générer automatiquement des annonces basées sur des flux publicitaires pour la campagne, à l’aide des informations sur les produits de la boutique. Vous n’avez pas besoin de créer des annonces basées sur des flux pour la campagne, mais vous devez créer des groupes publicitaires avec un ciblage utilisateur.
+  * Si la campagne est liée à une boutique de centre commercial, laissez le réseau publicitaire générer automatiquement des annonces basées sur des flux publicitaires pour la campagne, à l’aide des informations sur les produits de la boutique. Vous n’avez pas besoin de créer des annonces basées sur des flux pour la campagne, mais vous devez créer des groupes publicitaires avec un ciblage utilisateur.
 
-   * Si la campagne n’est pas liée à un compte de centre commercial, créez des annonces d’audience basées sur des images à l’aide du format d’annonce responsive, qui comprend plusieurs ressources de texte et d’image. Le réseau publicitaire rassemble les publicités en utilisant les combinaisons les plus efficaces d’éléments publicitaires et les affiche sur des sites comme [!DNL MSN], [!DNL Outlook.com] et [!DNL Microsoft Edge].
+  * Si la campagne n’est pas liée à un compte de centre commercial, créez des annonces d’audience basées sur des images à l’aide du format d’annonce responsive, qui comprend plusieurs ressources de texte et d’image. Le réseau publicitaire rassemble les publicités en utilisant les combinaisons les plus efficaces d’éléments publicitaires et les affiche sur des sites comme [!DNL MSN], [!DNL Outlook.com] et [!DNL Microsoft Edge].
 
 * **Annonces d’appel uniquement** pour les campagnes [!DNL Google Ads] sur le réseau de recherche. Les annonces d’appel uniquement sont des annonces textuelles comprenant un numéro de téléphone. Vous pouvez éventuellement utiliser un numéro de transfert [!DNL Google Ads] pour le compte rendu des performances d’appel avancé.
 

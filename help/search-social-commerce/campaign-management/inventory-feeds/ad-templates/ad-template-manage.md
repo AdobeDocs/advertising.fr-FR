@@ -3,18 +3,21 @@ title: Gestion des modèles de publicité pour les flux d’inventaire
 description: Découvrez la gestion des modèles d’annonces publicitaires grâce auxquels vos données d’inventaire peuvent être traitées pour gérer la structure du compte et diffuser des annonces dynamiques.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM
+TQID: 'https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1427
+source-wordcount: '1427'
 ht-degree: 0%
-
 ---
-
 # Gestion des modèles de publicité pour les flux d’inventaire
 
 comptes *[!DNL Google Ads], [!DNL LY Ads] (actions de suppression uniquement), [!DNL Microsoft Advertising] et [!DNL Yandex] uniquement*
@@ -41,9 +44,9 @@ Créez des modèles distincts pour les annonces textuelles et les annonces textu
 
    * Pour cloner un modèle existant :
 
-      1. Cochez la case en regard du modèle que vous souhaitez copier.
+     1. Cochez la case en regard du modèle que vous souhaitez copier.
 
-      1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Create/Clone]**, puis sélectionnez le réseau publicitaire approprié.
+     1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Create/Clone]**, puis sélectionnez le réseau publicitaire approprié.
 
    * (Pour modifier un modèle existant) En regard du nom du modèle, cliquez sur ![Afficher/modifier les paramètres](/help/search-social-commerce/assets/settings.png "Afficher/modifier les paramètres").
 
@@ -76,43 +79,43 @@ Créez des modèles distincts pour les annonces textuelles et les annonces textu
 
       * Pour ajouter une variation d’annonce publicitaire, procédez comme suit :
 
-         1. Cliquez sur **[!UICONTROL Add Ad Variation]** pour créer une publicité texte, **[!UICONTROL Add ETA Variation]** pour créer une publicité texte développée/étendue ou **[!UICONTROL Add RSA Variation]** pour créer une publicité texte réactive.
+        1. Cliquez sur **[!UICONTROL Add Ad Variation]** pour créer une publicité texte, **[!UICONTROL Add ETA Variation]** pour créer une publicité texte développée/étendue ou **[!UICONTROL Add RSA Variation]** pour créer une publicité texte réactive.
 
-            Une fois que vous avez spécifié le type d’annonce, vous ne pouvez créer que ce type d’annonce avec le modèle.
+           Une fois que vous avez spécifié le type d’annonce, vous ne pouvez créer que ce type d’annonce avec le modèle.
 
-         1. Spécifiez les paramètres de l’annonce publicitaire.
+        1. Spécifiez les paramètres de l’annonce publicitaire.
 
-            Pour les annonces de recherches réactives, vous pouvez inclure 3 à 15 titres et 2 à 4 descriptions.
+           Pour les annonces de recherches réactives, vous pouvez inclure 3 à 15 titres et 2 à 4 descriptions.
 
-         1. (Facultatif) Pour préremplir tous les autres champs de copie publicitaire avec du texte provenant des champs de copie publicitaire d’origine, cochez la case en regard de **[!UICONTROL Prefill]**.
+        1. (Facultatif) Pour préremplir tous les autres champs de copie publicitaire avec du texte provenant des champs de copie publicitaire d’origine, cochez la case en regard de **[!UICONTROL Prefill]**.
 
-         1. (Facultatif) Pour ajouter un autre ensemble de copies d’annonce à une annonce, qui peut être utilisé si l’une des lignes de la copie d’annonce d’origine dépasse la longueur maximale une fois que des paramètres dynamiques ont été remplacés par des données pendant la propagation, cliquez sur **[!UICONTROL Add Alternate]**, puis ajoutez les autres valeurs.
+        1. (Facultatif) Pour ajouter un autre ensemble de copies d’annonce à une annonce, qui peut être utilisé si l’une des lignes de la copie d’annonce d’origine dépasse la longueur maximale une fois que des paramètres dynamiques ont été remplacés par des données pendant la propagation, cliquez sur **[!UICONTROL Add Alternate]**, puis ajoutez les autres valeurs.
 
-            >[!NOTE]
-            >
-            >* Si l’option [!UICONTROL Prefill] est sélectionnée, les champs secondaires sont préremplis avec les champs d’origine et vous pouvez les modifier si nécessaire.
-            >* Seuls les champs de la copie publicitaire qui dépassent la longueur maximale sont remplacés par la valeur alternative. Par exemple, si seul un titre ou un titre d’origine est trop long, la variation publicitaire générée utilise le titre ou le titre secondaire et la ou les descriptions d’origine. Par conséquent, assurez-vous que la copie alternative de l’annonce publicitaire a du sens lorsqu’elle est combinée avec la copie originale de l’annonce.
-            >* Si la copie de l’annonce originale répond aux exigences de longueur du moteur de recherche, la copie de l’annonce alternative est ignorée.
-            >* Vous pouvez spécifier jusqu’à quatre alternatives pour chaque champ de copie publicitaire.
+           >[!NOTE]
+           >
+           >* Si l’option [!UICONTROL Prefill] est sélectionnée, les champs secondaires sont préremplis avec les champs d’origine et vous pouvez les modifier si nécessaire.
+           >* Seuls les champs de la copie publicitaire qui dépassent la longueur maximale sont remplacés par la valeur alternative. Par exemple, si seul un titre ou un titre d’origine est trop long, la variation publicitaire générée utilise le titre ou le titre secondaire et la ou les descriptions d’origine. Par conséquent, assurez-vous que la copie alternative de l’annonce publicitaire a du sens lorsqu’elle est combinée avec la copie originale de l’annonce.
+           >* Si la copie de l’annonce originale répond aux exigences de longueur du moteur de recherche, la copie de l’annonce alternative est ignorée.
+           >* Vous pouvez spécifier jusqu’à quatre alternatives pour chaque champ de copie publicitaire.
 
-         * Pour modifier une variation d’annonce publicitaire, procédez comme suit :
+        * Pour modifier une variation d’annonce publicitaire, procédez comme suit :
 
-            1. Modifiez les paramètres de la publicité.
+          1. Modifiez les paramètres de la publicité.
 
-               Pour les annonces de recherches réactives, vous pouvez inclure 3 à 15 titres et 2 à 4 descriptions.
+             Pour les annonces de recherches réactives, vous pouvez inclure 3 à 15 titres et 2 à 4 descriptions.
 
-            1. (Facultatif) Pour préremplir tous les autres champs de copie publicitaire avec du texte provenant des champs de copie publicitaire d’origine, cochez la case en regard de **[!UICONTROL Prefill]**.
+          1. (Facultatif) Pour préremplir tous les autres champs de copie publicitaire avec du texte provenant des champs de copie publicitaire d’origine, cochez la case en regard de **[!UICONTROL Prefill]**.
 
-            1. (Facultatif) Pour ajouter un autre ensemble de copies d’annonce à une annonce, qui peut être utilisé si l’une des lignes de la copie d’annonce d’origine dépasse la longueur maximale une fois que des paramètres dynamiques ont été remplacés par des données pendant la propagation, cliquez sur **[!UICONTROL Add Alternate]**, puis ajoutez les autres valeurs.
+          1. (Facultatif) Pour ajouter un autre ensemble de copies d’annonce à une annonce, qui peut être utilisé si l’une des lignes de la copie d’annonce d’origine dépasse la longueur maximale une fois que des paramètres dynamiques ont été remplacés par des données pendant la propagation, cliquez sur **[!UICONTROL Add Alternate]**, puis ajoutez les autres valeurs.
 
-               >[!NOTE]
-               >
-               >* Si l’option [!UICONTROL Prefill] est sélectionnée, les champs secondaires sont préremplis avec les champs d’origine et vous pouvez les modifier si nécessaire.
-               >* Seuls les champs de la copie publicitaire qui dépassent la longueur maximale sont remplacés par la valeur alternative. Par exemple, si seul un titre ou un titre d’origine est trop long, la variation publicitaire générée utilise le titre ou le titre secondaire et la ou les descriptions d’origine. Par conséquent, assurez-vous que la copie alternative de l’annonce publicitaire a du sens lorsqu’elle est combinée avec la copie originale de l’annonce.
-               >* Si la copie de l’annonce originale répond aux exigences de longueur du moteur de recherche, la copie de l’annonce alternative est ignorée.
-               >* Vous pouvez spécifier jusqu’à quatre alternatives pour chaque champ de copie publicitaire.
+             >[!NOTE]
+             >
+             >* Si l’option [!UICONTROL Prefill] est sélectionnée, les champs secondaires sont préremplis avec les champs d’origine et vous pouvez les modifier si nécessaire.
+             >* Seuls les champs de la copie publicitaire qui dépassent la longueur maximale sont remplacés par la valeur alternative. Par exemple, si seul un titre ou un titre d’origine est trop long, la variation publicitaire générée utilise le titre ou le titre secondaire et la ou les descriptions d’origine. Par conséquent, assurez-vous que la copie alternative de l’annonce publicitaire a du sens lorsqu’elle est combinée avec la copie originale de l’annonce.
+             >* Si la copie de l’annonce originale répond aux exigences de longueur du moteur de recherche, la copie de l’annonce alternative est ignorée.
+             >* Vous pouvez spécifier jusqu’à quatre alternatives pour chaque champ de copie publicitaire.
 
-         * Pour supprimer une variation d’annonce, cliquez sur **[!UICONTROL Remove ETA Variation]** (pour les annonces textuelles développées/étendues) ou **[!UICONTROL Remove RSA Variation]** (pour les annonces de recherches réactives) en regard de la variation d’annonce, selon le cas.
+        * Pour supprimer une variation d’annonce, cliquez sur **[!UICONTROL Remove ETA Variation]** (pour les annonces textuelles développées/étendues) ou **[!UICONTROL Remove RSA Variation]** (pour les annonces de recherches réactives) en regard de la variation d’annonce, selon le cas.
 
    1. (Modèles d’achat uniquement) Cliquez sur l’onglet **[!UICONTROL Product Groups]**, puis spécifiez des informations sur les groupes de produits que vous souhaitez cibler.
 

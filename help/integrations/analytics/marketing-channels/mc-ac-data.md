@@ -1,25 +1,33 @@
 ---
-title: Utilisation  [!DNL Marketing Channels]  données Adobe Advertising
-description: Découvrez comment utiliser les données Adobe Advertising dans  [!DNL Analytics Marketing Channels].
+title: Utilisation de [!DNL Marketing Channels] avec des données Adobe Advertising
+description: Découvrez comment utiliser les données Adobe Advertising dans [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 522c7f01-1138-477d-8018-36030caab55e
-TQID: https://experienceleague.adobe.com/VQMlRz2xtbbr6Nns5EZOh9zUUKIifKy-DGN-9JateJs
+TQID: 'https://experienceleague.adobe.com/VQMlRz2xtbbr6Nns5EZOh9zUUKIifKy-DGN-9JateJs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 727
+source-wordcount: '728'
 ht-degree: 0%
-
 ---
-
 # Utilisation de [!DNL Analytics Marketing Channels] avec des données Adobe Advertising
 
 *Publicitaires avec une intégration Adobe Advertising-Adobe Analytics uniquement*

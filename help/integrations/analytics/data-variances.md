@@ -1,30 +1,41 @@
 ---
-title: Écarts de données attendus entre  [!DNL Analytics]  et Adobe Advertising
-description: Écarts de données attendus entre  [!DNL Analytics]  et Adobe Advertising
+title: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
+description: Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-TQID: https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34
+TQID: 'https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3d540e71081d223cc4e9ee28bb8b4f168c07ff50
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3528
+source-wordcount: '3529'
 ht-degree: 0%
-
 ---
-
 # Écarts de données attendus entre [!DNL Analytics] et Adobe Advertising
 
 *Publicitaires avec une intégration Adobe Advertising-Adobe Analytics uniquement*
@@ -53,7 +64,7 @@ Si un intervalle de recherche en amont ou un modèle d’attribution de rapports
 
 * **Exemple d’incohérences dues à différents modèles d’attribution :**
 
-  Supposons qu’un utilisateur interagisse avec trois annonces Adobe Advertising différentes avant la conversion, avec le chiffre d’affaires comme type de conversion. Si un rapport Adobe Advertising utilise un modèle de distribution égale pour l’attribution, il attribue le chiffre d’affaires de manière égale sur toutes les publicités. Toutefois, si [!DNL Analytics] utilise le modèle d’attribution Dernière touche , il attribue le chiffre d’affaires à la dernière publicité. Dans l’exemple suivant, Adobe Advertising attribue un montant pair de 10 USD sur les 30 USD de chiffre d’affaires capturés à chacune des trois publicités, tandis que [!DNL Analytics] attribue l’ensemble des 30 USD de chiffre d’affaires à la dernière publicité vue par l’utilisateur. Lorsque vous comparez des rapports d’Adobe Advertising et de [!DNL Analytics], vous pouvez vous attendre à voir l’impact de la différence d’attribution.
+  Supposons qu’un utilisateur interagisse avec trois annonces Adobe Advertising différentes avant la conversion, avec le chiffre d’affaires comme type de conversion. Si un rapport Adobe Advertising utilise un modèle de distribution égale pour l’attribution, il attribue le chiffre d’affaires de manière égale sur toutes les publicités. Toutefois, si [!DNL Analytics] utilise le modèle d’attribution Dernière touche , il attribue le chiffre d’affaires à la dernière publicité. Dans l’exemple suivant, Adobe Advertising attribue une valeur égale à 10 USD sur les 30 USD de chiffre d’affaires capturées à chacune des trois publicités, tandis que [!DNL Analytics] attribue la valeur des 30 USD de chiffre d’affaires à la dernière publicité vue par l’utilisateur. Lorsque vous comparez des rapports d’Adobe Advertising et de [!DNL Analytics], vous pouvez vous attendre à voir l’impact de la différence d’attribution.
 
   ![Différents revenus attribués à Adobe Advertising et [!DNL Analytics] en fonction de différents modèles d’attribution](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -73,7 +84,7 @@ Dans l’exemple suivant, supposons qu’un visiteur ait reçu une publicité le
 
 ![Exemple de conversion d’affichage publicitaire attribuée dans [!DNL Analytics] mais pas dans Adobe Advertising](/help/integrations/assets/a4adc-viewthrough-example.png)
 
-Une autre cause des incohérences est que, dans Adobe Advertising, vous pouvez attribuer aux conversions d’affichage publicitaire un *poids d’affichage publicitaire* personnalisé par rapport au poids attribué à une conversion basée sur les clics. Le poids d’affichage publicitaire par défaut est de 40 %, ce qui signifie qu’une conversion d’affichage publicitaire est comptabilisée comme 40 % de la valeur d’une conversion basée sur les clics. [!DNL Analytics] ne fournit pas une telle pondération des conversions en affichage publicitaire. Ainsi, par exemple, une commande de chiffre d’affaires de 100 USD capturée en [!DNL Analytics] est actualisée à 40 USD dans Adobe Advertising si vous utilisez le poids d’affichage publicitaire par défaut, soit une différence de 60 USD.
+Une autre cause des incohérences est que, dans Adobe Advertising, vous pouvez attribuer aux conversions d’affichage publicitaire un *poids d’affichage publicitaire* personnalisé par rapport au poids attribué à une conversion basée sur les clics. Le poids d’affichage publicitaire par défaut est de 40 %, ce qui signifie qu’une conversion d’affichage publicitaire est comptabilisée comme 40 % de la valeur d’une conversion basée sur les clics. [!DNL Analytics] ne fournit pas une telle pondération des conversions en affichage publicitaire. Ainsi, par exemple, une commande de revenus de 100 USD capturée en [!DNL Analytics] est actualisée à 40 USD dans Adobe Advertising si vous utilisez le poids d’affichage publicitaire par défaut, soit une différence de 60 USD.
 
 Tenez compte de ces différences lors de la comparaison des conversions d’affichage publicitaire entre les rapports Adobe Advertising et [!DNL Analytics].
 

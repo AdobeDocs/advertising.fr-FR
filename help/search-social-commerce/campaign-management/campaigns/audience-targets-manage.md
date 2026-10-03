@@ -1,20 +1,23 @@
 ---
 title: Gestion des cibles d’audience pour les campagnes et les groupes publicitaires
-description: Découvrez comment configurer et gérer les cibles d’audience pour vos campagnes [!DNL Google Ads] et [!DNL Microsoft Advertising] groupes publicitaires.
+description: Découvrez comment configurer et gérer les cibles d’audience pour vos campagnes et groupes publicitaires [!DNL Google Ads] et [!DNL Microsoft Advertising].
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY
+TQID: 'https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # Gérer les cibles d’audience pour vos campagnes et groupes publicitaires [!DNL Google Ads] et [!DNL Microsoft Advertising]
 
 *[!DNL Google Ads]et [!DNL Microsoft Advertising] uniquement*
@@ -65,7 +68,7 @@ Vous pouvez configurer des cibles d’audience, modifier les modificateurs d’e
 
    * *0 % :* pour ne pas ajuster les enchères pour les publicités de cette audience.
 
-   * /[*Autres valeurs de -90 % à 900 %*/] : pour augmenter ou diminuer l’enchère pour les publicités de cette audience. Par exemple, si l’enchère au niveau du mot-clé est de 1 USD et que l’ajustement d’enchère pour une cible d’audience spécifique est de 50 %, l’enchère pour cette audience augmente à 1,50 USD.
+   * /[*Autres valeurs de -90 % à 900 %*/] : pour augmenter ou diminuer l’enchère pour les publicités de cette audience. Par exemple, si l’enchère au niveau du mot-clé est de 1 USD et que l’ajustement d’enchère pour une cible d’audience spécifique est de 50 %, l’enchère pour cette audience passe à 1,50 USD.
 
 ## Modifier le modificateur d’offre pour les cibles d’audience
 
@@ -83,27 +86,27 @@ Vous pouvez modifier les conditions commerciales et le statut des cibles d’aud
 
    * Pour modifier un modificateur d&#39;offre pour une ou plusieurs cibles, procédez comme suit :
 
-      1. Cochez la case en regard de chaque cible à modifier.
+     1. Cochez la case en regard de chaque cible à modifier.
 
-         Pour obtenir des conseils sur la sélection de plusieurs lignes, reportez-vous à « [Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) ».
+        Pour obtenir des conseils sur la sélection de plusieurs lignes, reportez-vous à « [Sélectionner plusieurs lignes](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md) ».
 
-      1. Dans la barre d&#39;outils située au-dessus du tableau de données, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier").
+     1. Dans la barre d&#39;outils située au-dessus du tableau de données, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier").
 
-      1. Modifiez les champs de **[!UICONTROL Bid Modifier]** et/ou de **[!UICONTROL Status]**.
+     1. Modifiez les champs de **[!UICONTROL Bid Modifier]** et/ou de **[!UICONTROL Status]**.
 
-         Pour le champ [!UICONTROL Bid Modifier], vous avez la possibilité de modifier les valeurs existantes à une valeur spécifiée ou d’augmenter ou de diminuer le montant d’un pourcentage ou d’un montant monétaire spécifié, avec une limite.
+        Pour le champ [!UICONTROL Bid Modifier], vous avez la possibilité de modifier les valeurs existantes à une valeur spécifiée ou d’augmenter ou de diminuer le montant d’un pourcentage ou d’un montant monétaire spécifié, avec une limite.
 
-         Pour une valeur définie, la valeur peut inclure :
+        Pour une valeur définie, la valeur peut inclure :
 
-         * *0 % :* pour ne pas ajuster les enchères pour les publicités de cette audience.
+        * *0 % :* pour ne pas ajuster les enchères pour les publicités de cette audience.
 
-         * /[*Autres valeurs de -90 % à 900 %*/] : pour augmenter ou diminuer l’enchère pour les publicités de cette audience. Par exemple, si l’enchère au niveau du mot-clé est de 1 USD et que l’ajustement d’enchère pour une cible d’audience spécifique est de 50 %, l’enchère pour cette audience augmente à 1,50 USD.
+        * /[*Autres valeurs de -90 % à 900 %*/] : pour augmenter ou diminuer l’enchère pour les publicités de cette audience. Par exemple, si l’enchère au niveau du mot-clé est de 1 USD et que l’ajustement d’enchère pour une cible d’audience spécifique est de 50 %, l’enchère pour cette audience passe à 1,50 USD.
 
-         Si plusieurs cibles sont sélectionnées, vos modifications sont appliquées à toutes les cibles sélectionnées.
+        Si plusieurs cibles sont sélectionnées, vos modifications sont appliquées à toutes les cibles sélectionnées.
 
-      1. (Facultatif) Cliquez sur **[!UICONTROL Additional Details]** et entrez éventuellement un nom et une description de projet.
+     1. (Facultatif) Cliquez sur **[!UICONTROL Additional Details]** et entrez éventuellement un nom et une description de projet.
 
-      1. Cliquez sur **[!UICONTROL Post]**.
+     1. Cliquez sur **[!UICONTROL Post]**.
 
 ## Modifier le statut des cibles d’audience
 

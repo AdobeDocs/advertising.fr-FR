@@ -3,26 +3,33 @@ title: Bonnes pratiques pour les objectifs personnalisés
 description: Découvrez les bonnes pratiques pour définir des objectifs personnalisés pour les packages optimisés pour la CPA la plus faible ou le retour sur investissement le plus élevé.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-TQID: https://experienceleague.adobe.com/xSM4vyVErtNbVqF3eMDeHpgEWaMK6hBwQpvijHEs0dc
+TQID: 'https://experienceleague.adobe.com/xSM4vyVErtNbVqF3eMDeHpgEWaMK6hBwQpvijHEs0dc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: ed26409b-14af-5033-ae27-1b71cecfe497
+    internal-label: DSP Optimization
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: Optimization
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 700
+source-wordcount: '700'
 ht-degree: 0%
-
 ---
-
 # Bonnes pratiques pour les objectifs personnalisés
 
 Les objectifs personnalisés définissent les événements de succès dont un annonceur a besoin pour atteindre ses objectifs commerciaux. Chaque package qui utilise l’objectif d’optimisation « [!UICONTROL Highest Return on Ad Spend (ROAS)"] » ou « [!UICONTROL Lowest Cost per Acquisition (CPA)] » doit inclure un objectif personnalisé pour faciliter l’atteinte de l’objectif d’optimisation global. Vous pouvez créer des objectifs personnalisés en tant qu *[objectifs personnalisés](/help/dsp/admin/custom-objectives-manage.md)*.

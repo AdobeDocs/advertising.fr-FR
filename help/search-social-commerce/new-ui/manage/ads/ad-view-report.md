@@ -5,17 +5,22 @@ feature: Search Optimization, Search Campaign Management
 hide: true
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
-source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
+    internal-label: Campaign management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 327
+source-wordcount: '327'
 ht-degree: 0%
-
 ---
-
 # (Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ads]
 
 *Fonction*

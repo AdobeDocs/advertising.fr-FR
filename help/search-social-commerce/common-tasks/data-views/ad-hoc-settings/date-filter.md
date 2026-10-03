@@ -3,20 +3,26 @@ title: Filtrer les données par période
 description: Découvrez comment utiliser le filtre de période globale.
 exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/1zB1NSise7wN1B68fUTq6ef824eiJx3zEglI0iUzwKQ
+TQID: 'https://experienceleague.adobe.com/1zB1NSise7wN1B68fUTq6ef824eiJx3zEglI0iUzwKQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 398
+source-wordcount: '400'
 ht-degree: 0%
-
 ---
-
 # Filtrer les données par période
 
 <!-- The same in new UI and legacy CM views -->
@@ -30,7 +36,7 @@ Lorsque vous enregistrez une période spécifique pour une vue par défaut ou pe
 >[!NOTE]
 >
 >* Vous pouvez afficher les données des 13 derniers mois, mais toutes les vues personnalisées existantes ne peuvent inclure que les données des 180 derniers jours au maximum.
->* Pour afficher des données antérieures, accédez à la vue [[!UICONTROL Reports] puis exécutez un rapport de base.](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
+>* Pour afficher des données antérieures, accédez à la vue [&#128279;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) puis exécutez un rapport de base.[!UICONTROL Reports]
 >* Vous pouvez également enregistrer une période pour une vue [&#x200B; par défaut ou personnalisée](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
 ## Modification du filtre de date global dans les vues de campagne

@@ -3,22 +3,26 @@ title: Paramètres des plans de portée TV connectée
 description: Voir les descriptions des paramètres des plans de portée TV connectée.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-TQID: https://experienceleague.adobe.com/IDfRNpdLmCqxU2TSuRiueLn1DpIzEH23qiorfW5DeLs
+TQID: 'https://experienceleague.adobe.com/IDfRNpdLmCqxU2TSuRiueLn1DpIzEH23qiorfW5DeLs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a516b982-58a0-530b-84c5-9b83f41039ad
+    internal-label: DSP Planner
 subfeature_v2:
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: '412'
 ht-degree: 0%
-
 ---
-
 # Paramètres des plans de portée TV connectée
 
 <!-- Move out of table for consistency at some point. -->
@@ -27,9 +31,9 @@ ht-degree: 0%
 | --- | --- | --- |
 | [!UICONTROL Name] | Nom permettant d’identifier votre plan. | Oui |
 | [!UICONTROL Advertiser] | Annonceur spécifique dans le compte pour lequel le plan est en cours de création. | Oui |
-| [!UICONTROL Media Type] | Type de média à inclure dans le plan.<br><br>Actuellement, seul [!UICONTROL Connected TV] est disponible. | Oui |
+| [!UICONTROL Media Type] | Type de média à inclure dans le plan.<br><br>Actuellement, seul le [!UICONTROL Connected TV] est disponible. | Oui |
 | [!UICONTROL Date Range] | Dates de début et de fin du plan.<br><br>La date de début ne peut pas être antérieure à la date actuelle. La période ne peut pas dépasser 90 jours. | Oui |
-| [!UICONTROL Goal Type] | Type d’objectif (tel que [!UICONTROL Budget]) à prendre en compte pour le plan.<br><br>Actuellement, seul [!UICONTROL Budget] est disponible. | Oui |
+| [!UICONTROL Goal Type] | Type d’objectif (tel que [!UICONTROL Budget]) à prendre en compte pour le plan.<br><br>Actuellement, seul l’[!UICONTROL Budget] est disponible. | Oui |
 | [!UICONTROL Goal Value] | Valeur d’objectif de la prévision. Pour des résultats de prévision plus précis, utilisez une valeur > 5 000 USD. | Oui |
 | [!UICONTROL Max Bid] | Montant maximal à payer pour 1 000 impressions. Si le type de média [!UICONTROL Connected TV] est sélectionné, saisissez une valeur d’au moins 10 USD. | Oui |
 | [!UICONTROL Frequency Cap] | Le nombre de fois où un foyer unique doit recevoir des publicités.<br><br>Lorsque vous implémentez un plan et que vous devez créer plusieurs emplacements, appliquez le paramètre de limitation de fréquence au niveau du package et non au niveau de l’emplacement, pour garantir une diffusion correcte. | Oui |

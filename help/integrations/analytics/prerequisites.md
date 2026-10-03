@@ -1,30 +1,43 @@
 ---
-title: Conditions préalables et informations clés pour la mise en œuvre  [!DNL Analytics for Advertising]
-description: Conditions préalables et informations clés pour la mise en œuvre  [!DNL Analytics for Advertising]
+title: Conditions préalables et informations clés pour l’implémentation de [!DNL Analytics for Advertising]
+description: Conditions préalables et informations clés pour l’implémentation de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-TQID: https://experienceleague.adobe.com/ZUROuxkhySqUbUOInKkdhgvmqJth3P-9-fVDHojrn34
+TQID: 'https://experienceleague.adobe.com/ZUROuxkhySqUbUOInKkdhgvmqJth3P-9-fVDHojrn34'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
+    internal-label: Data integration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 840
+source-wordcount: '840'
 ht-degree: 0%
-
 ---
-
 # Conditions préalables et informations clés pour l’implémentation de [!DNL Analytics for Advertising]
 
 *Annonceurs avec Advertising Creative, Advertising DSP et Advertising Search, Social et Commerce*
@@ -34,8 +47,8 @@ Consultez les informations suivantes avant d’intégrer Adobe Advertising à Ad
 ## Conditions requises pour la création de rapports sur les données Adobe Advertising dans [!DNL Analytics]
 
 * L’une des options suivantes :
-   * Adobe Experience Platform Web SDK : `alloy.js`
-   * Experience Cloud Identity Service : version `visitorAPI.js` 2.0 ou ultérieure.
+  * Adobe Experience Platform Web SDK : `alloy.js`
+  * Experience Cloud Identity Service : version `visitorAPI.js` 2.0 ou ultérieure.
 * Toute version d’Adobe Analytics (y compris [!DNL Prime], [!DNL Premium] ou [!DNL Ultimate])
 * Adobe Analytics : `appMeasurement.js` version 2.1 ou ultérieure
 * (Clients Advertising DSP) Un [fragment de code Advertising DSP JavaScript](javascript.md) déployé dans vos pages web pour effectuer le suivi des visites publicitaires.
@@ -54,7 +67,7 @@ Consultez les informations suivantes avant d’intégrer Adobe Advertising à Ad
 Fournissez les éléments suivants à l’équipe d’implémentation d’Adobe Advertising :
 
 * Identifiant de suite de rapports [!DNL Analytics] à utiliser pour le reporting sur l’activité de média payant et pour alimenter l’activité du site à des fins d’optimisation et de création de rapports dans Adobe Advertising
-* Identifiant d’organisation de l’entreprise CX (identifiant d’organisation) de l’entreprise.
+* L’identifiant d’organisation CX Enterprise de l’entreprise (identifiant d’organisation).
 
 Ces deux identifiants sont disponibles dans l’onglet [&#x200B; Résumé d’Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=fr).
 

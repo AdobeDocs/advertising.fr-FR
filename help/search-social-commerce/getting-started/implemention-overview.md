@@ -3,23 +3,30 @@ title: Présentation de l’implémentation de Search, Social et Commerce
 description: Découvrez le workflow général de lancement et de gestion d’un portfolio.
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-TQID: https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY
+TQID: 'https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 54967645-9f46-5896-8af7-b943b426aadf
+    internal-label: Search Getting Started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 0%
-
 ---
-
 # Présentation de l’implémentation de Search, Social et Commerce
 
 [!DNL Adobe] ou l&#39;une de ses agences affiliées travaille avec chaque annonceur pour lancer ses portefeuilles de publicité en ligne et pour suivre toutes les campagnes publicitaires supplémentaires. Après le lancement initial, d&#39;autres tâches continues assurent que les objectifs de l&#39;annonceur continueront d&#39;être atteints.
@@ -106,16 +113,16 @@ Après le lancement initial, les tâches en cours suivantes sont requises. Selon
 
 * Ajustez les différentes stratégies et paramètres que vous utilisez pour gérer l&#39;ensemble de portefeuilles, si nécessaire, en fonction des performances réelles et prévues du portefeuille et des opportunités de croissance :
 
-   * Ajustez les budgets, les objectifs et les autres paramètres du portefeuille.
+  * Ajustez les budgets, les objectifs et les autres paramètres du portefeuille.
 
-   * Ajustez les structures de compte/campagne pour tenir compte des modifications apportées à la stratégie marketing.
+  * Ajustez les structures de compte/campagne pour tenir compte des modifications apportées à la stratégie marketing.
 
-   * Ajouter/suspendre/supprimer des composants de campagne. Cela peut inclure le développement d’ensembles de mots-clés basés sur l’analyse des termes de recherche, ainsi que le test de copies d’annonces et de pages de destination.
+  * Ajouter/suspendre/supprimer des composants de campagne. Cela peut inclure le développement d’ensembles de mots-clés basés sur l’analyse des termes de recherche, ainsi que le test de copies d’annonces et de pages de destination.
 
-   * Mettez à jour les stratégies de ciblage géographique et de site en fonction de rapports de performances avancés.
+  * Mettez à jour les stratégies de ciblage géographique et de site en fonction de rapports de performances avancés.
 
-   * (Facultatif) Ajoutez des contraintes d’enchères à des mots-clés de recherche individuels ou à tous les mots-clés d’un groupe publicitaire, d’une campagne ou d’un portfolio.
+  * (Facultatif) Ajoutez des contraintes d’enchères à des mots-clés de recherche individuels ou à tous les mots-clés d’un groupe publicitaire, d’une campagne ou d’un portfolio.
 
-   * Ajoutez de nouveaux portefeuilles.
+  * Ajoutez de nouveaux portefeuilles.
 
 Pour obtenir des instructions sur la surveillance des portefeuilles et l’ajustement des stratégies de portefeuille, consultez le sous-chapitre d’aide « Optimisation » > « Gestion des portefeuilles » > « Surveillance et gestion des performances », disponible à partir du menu [!UICONTROL Help] (![menu Aide](/help/search-social-commerce/assets/help-main-menu.png "menu Aide")) en haut à droite de n’importe quelle page dans Search, Social et Commerce.

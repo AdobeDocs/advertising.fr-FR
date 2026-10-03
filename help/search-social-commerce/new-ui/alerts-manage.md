@@ -2,13 +2,17 @@
 title: (Nouvelle interface utilisateur) Gérer les alertes personnalisées
 description: Découvrez comment créer, configurer, mettre en pause, activer, supprimer, afficher et exporter des alertes et des modèles d’alerte personnalisés.
 feature: Search Alerts
-source-git-commit: 0fddeb8f01bd7c310544973ae2aff78339eb2144
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 0%
-
 ---
-
 # (Nouvelle interface utilisateur) Gérer les alertes personnalisées
 
 Créez des modèles d’alerte pour déterminer à quel moment un portfolio, une campagne ou un groupe publicitaire répond à des conditions spécifiques, telles qu’une mesure de performances, au cours d’une période spécifiée, puis générez une alerte. Des alertes sont disponibles pour un seul annonceur. Les alertes incluent toutes les colonnes dans la vue par défaut correspondante. Par exemple, les alertes au niveau de la campagne incluent toutes les colonnes de la vue [!UICONTROL Campaigns] par défaut.

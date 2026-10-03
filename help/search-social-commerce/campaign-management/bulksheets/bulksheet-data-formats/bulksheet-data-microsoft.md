@@ -1,22 +1,26 @@
 ---
-title: 'Données de feuille d’envoi groupé requises pour les comptes  [!DNL Microsoft Advertising] '
-description: Référencez les champs d’en-tête et de données obligatoires dans les feuilles d’envoi groupé pour les comptes  [!DNL Microsoft Advertising] .
+title: Données de feuille d’envoi groupé requises pour les comptes [!DNL Microsoft Advertising]
+description: Référencez les champs d’en-tête et de données obligatoires dans les feuilles d’envoi groupé pour les comptes [!DNL Microsoft Advertising].
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
+TQID: 'https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 7024
-ht-degree: 0%
-
+source-wordcount: '7150'
+ht-degree: 1%
 ---
-
 # Annexe - Données de feuille d’envoi groupé requises pour les comptes [!DNL Microsoft Advertising]
 
 Pour créer et mettre à jour [!DNL Microsoft Advertising] données de campagne en bloc, vous pouvez utiliser des fichiers de feuille d’envoi groupé Search, Social et Commerce formatés spécifiquement pour les comptes [!DNL Microsoft Advertising]. Vous pouvez a) [générer des fichiers de feuilles de support pour les comptes existants](../bulksheet-download.md) au format de fichier requis ou b) les créer manuellement (voir « [Formats de fichiers de feuilles de support pris en charge](bulksheet-file-formats.md) » pour obtenir des informations générales sur les formats de fichiers pris en charge).
@@ -88,7 +92,7 @@ Pour les champs de données pertinents pour les entités de compte, reportez-vou
 | [!UICONTROL Languages] | Langue cible des publicités du groupe publicitaire : [!UICONTROL English], [!UICONTROL French], [!UICONTROL Finnish], [!UICONTROL German], [!UICONTROL Norwegian], [!UICONTROL Spanish] ou [!UICONTROL Swedish]. La valeur par défaut pour les nouvelles campagnes est [!UICONTROL English].<br><br>Ce paramètre détermine les pays et les régions dans lesquels votre publicité peut être affichée. Veillez à choisir une langue compatible avec les cibles de localisation de la campagne. |
 | [!UICONTROL Budget Type] | Que le budget soit <i>[!UICONTROL Daily]</i> (valeur par défaut) ou <i>[!UICONTROL Monthly]</i>.<br><br>Remarque : si vous affectez la campagne à un portfolio optimisé, cette valeur est automatiquement définie sur [!UICONTROL Daily]. |
 | [!UICONTROL Device] | Type d’appareil pour lequel des ajustements d’offre sont effectués au niveau de la campagne ou du groupe publicitaire : <i>[!UICONTROL smartphone]</i>, <i>[!UICONTROL tablet]</i> ou <i>[!UICONTROL desktop]</i>. |
-| [!UICONTROL Bid Adjustment] | Ajustement d&#39;offre pour un type de cible spécifié. Par exemple, si l’enchère au niveau du mot-clé est de 1 USD et que l’ajustement de l’enchère pour les smartphones est de 50 %, l’enchère pour les smartphones est de 1,50 USD. Par défaut, toutes les cibles sont enchéries au niveau de l’enchère par mot-clé. Les pourcentages valides peuvent inclure :<ul><li>Smartphones et tablettes : -100 (pour ne pas enchérir sur le type d&#39;appareil) et de -90 à 900</li><li>Bureau : de 0 à 900</li></ul> |
+| [!UICONTROL Bid Adjustment] | Ajustement d&#39;offre pour un type de cible spécifié. Par exemple, si l’enchère au niveau du mot-clé est de 1 USD et que l’ajustement d’enchère pour les smartphones est de 50 %, l’enchère pour les smartphones est de 1,50 USD. Par défaut, toutes les cibles sont enchéries au niveau de l’enchère par mot-clé. Les pourcentages valides peuvent inclure :<ul><li>Smartphones et tablettes : -100 (pour ne pas enchérir sur le type d&#39;appareil) et de -90 à 900</li><li>Bureau : de 0 à 900</li></ul> |
 | [!UICONTROL Creative Preferred Devices] | Types d’appareils sur lesquels vous préférez afficher la publicité ou le lien du site : <i>[!UICONTROL All]</i> (valeur par défaut) ou <i>[!UICONTROL Mobile]</i>. Lorsque Mobile est spécifié, le réseau tente d’afficher la publicité ou le lien du site aux utilisateurs d’appareils mobiles plutôt qu’aux utilisateurs d’ordinateurs de bureau ou de tablettes. Dans le cas contraire, le réseau affiche la publicité ou le lien du site sur n’importe quel type d’appareil. <b>Remarque :</b> Le réseau ne garantit pas qu&#39;il affichera la publicité sur le type d&#39;appareil préféré. |
 | [!UICONTROL Param2] | Chaîne à utiliser comme valeur de substitution si l’URL de base du mot-clé ou le titre, la description ou l’URL de base de l’annonce publicitaire contient la chaîne de substitution dynamique `{Param2}`. La longueur maximale est de 70 caractères, mais gardez à l’esprit la longueur maximale des éléments publicitaires dans lesquels vous l’utilisez (par exemple, les titres 1 et 2 combinés peuvent contenir un maximum de 76 caractères). Pour supprimer la valeur existante, utilisez l’`[delete]` de valeur (y compris les crochets). |
 | [!UICONTROL Param3] | Chaîne à utiliser comme valeur de substitution si l’URL de base du mot-clé ou le titre, la description ou l’URL de base de l’annonce publicitaire contient la chaîne de substitution dynamique `{Param3}`. La longueur maximale est de 70 caractères, mais gardez à l’esprit la longueur maximale des éléments publicitaires dans lesquels vous l’utilisez (par exemple, les titres 1 et 2 combinés peuvent contenir un maximum de 76 caractères). Pour supprimer la valeur existante, utilisez l’`[delete]` de valeur (y compris les crochets). |

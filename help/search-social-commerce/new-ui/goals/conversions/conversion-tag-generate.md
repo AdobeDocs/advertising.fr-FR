@@ -2,13 +2,19 @@
 title: (Nouvelle interface utilisateur) Générer et implémenter une balise de suivi des conversions Adobe Advertising
 description: Découvrez comment créer une balise de conversion Adobe Advertising pour suivre vos événements de conversion.
 feature: Search Tools, Search Tracking
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 0%
-
 ---
-
 # (Nouvelle interface utilisateur) Générer et implémenter une balise de suivi des conversions Adobe Advertising
 
 *Annonceurs avec suivi des conversions Adobe Advertising uniquement*

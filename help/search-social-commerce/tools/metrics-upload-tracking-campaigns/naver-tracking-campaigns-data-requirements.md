@@ -1,20 +1,23 @@
 ---
-title: Exigences en matière de données pour les mesures de trafic et de conversion pour les comptes  [!DNL Naver]  suivi uniquement
-description: Référencez les exigences de chargement des données pour les comptes  [!DNL Naver]  suivi uniquement.
+title: Exigences en matière de données pour les mesures de trafic et de conversion des comptes de suivi uniquement [!DNL Naver]
+description: Référencez les exigences de chargement des données pour les comptes de suivi uniquement [!DNL Naver].
 exl-id: cc8ee5de-2bf2-48fd-9fa7-28421aed673f
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/e4n2ab469CRIiEmqq5wd97pXSQZ9Dt-tehqJSp125GU
+TQID: 'https://experienceleague.adobe.com/e4n2ab469CRIiEmqq5wd97pXSQZ9Dt-tehqJSp125GU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 230
+source-wordcount: '232'
 ht-degree: 0%
-
 ---
-
 # Exigences en matière de données de mesure pour les comptes de suivi uniquement [!DNL Naver]
 
 Vous trouverez ci-dessous les exigences en matière de données pour les mesures de trafic et de conversion [!DNL Naver] pour les comptes de suivi uniquement.

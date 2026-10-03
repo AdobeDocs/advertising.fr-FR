@@ -1,22 +1,26 @@
 ---
-title: Implémenter  [!DNL Microsoft Advertising]  campagnes d’achat
-description: Découvrez le workflow de configuration  [!DNL Microsoft Advertising]  campagnes d’achat.
+title: Implémenter des campagnes d’achats [!DNL Microsoft Advertising]
+description: Découvrez le workflow de configuration des campagnes d’achats [!DNL Microsoft Advertising].
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2SXWaNmPPcXmljB2DUKq9DNWgPv9Qb-0t3SJcdO6aR8
+TQID: 'https://experienceleague.adobe.com/2SXWaNmPPcXmljB2DUKq9DNWgPv9Qb-0t3SJcdO6aR8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 587
+source-wordcount: '598'
 ht-degree: 0%
-
 ---
-
 # Implémenter des campagnes d’achats [!DNL Microsoft Advertising]
 
 Les publicités des campagnes d’achat utilisent les données sur les produits de votre flux de produits [!DNL Microsoft Merchant Center] existant, plutôt que des mots-clés, pour décider comment et où afficher vos publicités.

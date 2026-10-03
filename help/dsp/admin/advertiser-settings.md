@@ -2,13 +2,19 @@
 title: Paramètres du compte publicitaire
 description: Voir les descriptions des paramètres d’annonceur disponibles.
 role: User, Admin
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
-
+source-wordcount: '1035'
+ht-degree: 7%
 ---
-
 # Paramètres du compte publicitaire
 
 *Non disponible pour les utilisateurs en lecture seule*
@@ -31,15 +37,15 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-Les annonceurs qui disposent de produits Adobe CX Enterprise supplémentaires peuvent partager des données entre certains produits à l’aide de l’identifiant unique de l’organisation pour l’expérience client Entreprise. Vous pouvez configurer des intégrations de produits spécifiques dans la section [!UICONTROL Integrations] .
+Les annonceurs qui disposent de produits Adobe CX Enterprise supplémentaires peuvent partager des données entre certains produits à l’aide de l’ID unique pour CX Enterprise de l’organisation. Vous pouvez configurer des intégrations de produits spécifiques dans la section [!UICONTROL Integrations] .
 
-**[!UICONTROL Account IMS org and ID]:** (Annonceurs disposant de produits CX Enterprise supplémentaires sous licence par le biais d’un compte CX Enterprise avec plusieurs annonceurs ; facultatif) ID d’organisation CX Enterprise de l’annonceur.
+**[!UICONTROL Account IMS org and ID]:** (annonceurs avec des produits CX Enterprise supplémentaires mis sous licence par le biais d’un compte CX Enterprise avec plusieurs annonceurs ; facultatif) ID d’organisation CX Enterprise de l’annonceur.
 
 **[!UICONTROL Advertiser IMS org and ID]:** (annonceurs disposant de licences directes pour des produits CX Enterprise supplémentaires ; facultatif) ID d’organisation CX Enterprise de l’annonceur.
 
 ### [!UICONTROL Integrations]
 
-(Facultatif) Produits CX Enterprise supplémentaires liés au compte DSP. Les produits doivent être associés au même identifiant d&#39;organisation CX Enterprise que celui fourni dans la section [!UICONTROL Adobe IMS IDs].
+(Facultatif) Produits CX Enterprise supplémentaires liés au compte DSP. Les produits doivent être associés au même identifiant d’organisation CX Enterprise que celui fourni dans la section [!UICONTROL Adobe IMS IDs] .
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (annonceurs avec des [!DNL Advertising Search, Social, & Commerce] ou qui utilisent des pixels de conversion Adobe Advertising) Compte [!DNL Search, Social, & Commerce] avec lequel DSP échange des données d’attribution.
 
@@ -57,7 +63,7 @@ Pour plus d’informations sur l’intégration d’à [!DNL Analytics], consult
 
 * Segments Audience Manager
 * [!DNL Analytics] les segments publiés sur Adobe CX Enterprise
-* Segments créés à l’aide de l’Adobe CX Enterprise [!DNL Audience Library]
+* Segments créés à l’aide de l’[!DNL Audience Library] Adobe CX Enterprise
 * Segments créés dans Adobe Experience Platform et envoyés à Adobe Advertising via Audience Manager
 
 La synchronisation initiale prend environ 24 heures. Ensuite, les données sont synchronisées en temps réel, avec un délai d’une à deux secondes.

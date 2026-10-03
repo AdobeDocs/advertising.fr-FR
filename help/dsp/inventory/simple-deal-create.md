@@ -3,22 +3,26 @@ title: Créer une offre [!UICONTROL Simple Ad Serving]
 description: Découvrez comment créer un pixel de tracking pour une offre [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-TQID: https://experienceleague.adobe.com/HcfL-Lh8-64QbufAL-otB4gHupVKllJAzXL8f4TpAIA
+TQID: 'https://experienceleague.adobe.com/HcfL-Lh8-64QbufAL-otB4gHupVKllJAzXL8f4TpAIA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 98ea1d8f-85a7-5f89-b8d8-c40726baa182
+    internal-label: DSP Simple Ad Serving
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 384
+source-wordcount: '388'
 ht-degree: 0%
-
 ---
-
 # Créer une offre [!UICONTROL Simple Ad Serving]
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
@@ -52,21 +56,21 @@ ht-degree: 0%
 
      Lorsque vous avez terminé les étapes précédentes, DSP génère un e-mail que vous pouvez envoyer à l’éditeur. Le message comprend les détails de l’opération, un lien à partir duquel récupérer l’étiquette de l’opération et un code d’autorisation pour le lien.
 
-      1. Passez en revue les détails de l’opération, puis effectuez l’une des opérations suivantes :
+     1. Passez en revue les détails de l’opération, puis effectuez l’une des opérations suivantes :
 
-         * Pour coller les informations dans un e-mail dans une application de messagerie sur votre appareil, cliquez sur **[!UICONTROL Email & Done]** et sélectionnez l’application de messagerie. Le champ [!UICONTROL CC:] est prérempli avec une adresse d’assistance [!DNL Adobe]. Vous pouvez ensuite envoyer le message au contact approprié pour l’éditeur.
+        * Pour coller les informations dans un e-mail dans une application de messagerie sur votre appareil, cliquez sur **[!UICONTROL Email & Done]** et sélectionnez l’application de messagerie. Le champ [!UICONTROL CC:] est prérempli avec une adresse d’assistance [!DNL Adobe]. Vous pouvez ensuite envoyer le message au contact approprié pour l’éditeur.
 
-         * Pour copier les informations dans le presse-papiers, cliquez sur **[!UICONTROL Copy Email].** Vous pouvez ensuite coller manuellement le contenu dans un e-mail et l’envoyer au contact approprié pour l’éditeur. Insérez une copie (CC :) à `publisher-support-global@adobe.com`. Lorsque vous avez terminé de copier le message, cliquez sur **[!UICONTROL Email & Done]**.
+        * Pour copier les informations dans le presse-papiers, cliquez sur **[!UICONTROL Copy Email].** Vous pouvez ensuite coller manuellement le contenu dans un e-mail et l’envoyer au contact approprié pour l’éditeur. Insérez une copie (CC :) à `publisher-support-global@adobe.com`. Lorsque vous avez terminé de copier le message, cliquez sur **[!UICONTROL Email & Done]**.
 
-      1. (Si nécessaire) Contactez l’éditeur pour vérifier si la balise inclut les macros appropriées afin que la balise fonctionne avec le serveur de publicités de l’éditeur.
+     1. (Si nécessaire) Contactez l’éditeur pour vérifier si la balise inclut les macros appropriées afin que la balise fonctionne avec le serveur de publicités de l’éditeur.
 
    * (Facultatif) Envoyez manuellement les pixels de suivi d’événement à l’éditeur :
 
-      1. Dans la ligne d&#39;opération de la vue [!UICONTROL Deals], cliquez sur ![menu Options](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
+     1. Dans la ligne d&#39;opération de la vue [!UICONTROL Deals], cliquez sur ![menu Options](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
 
-         Les pixels d’événement comprennent un pixel [!UICONTROL Clickthrough] et un pixel [!UICONTROL Impression]. Les publicités vidéo et audio incluent également des pixels d’événement par quartile renseigné (de [!UICONTROL 25% Complete] à [!UICONTROL 100% Complete]).
+        Les pixels d’événement comprennent un pixel [!UICONTROL Clickthrough] et un pixel [!UICONTROL Impression]. Les publicités vidéo et audio incluent également des pixels d’événement par quartile renseigné (de [!UICONTROL 25% Complete] à [!UICONTROL 100% Complete]).
 
-      1. Copiez les pixels de suivi d’événement et fournissez-les à votre éditeur.
+     1. Copiez les pixels de suivi d’événement et fournissez-les à votre éditeur.
 
 >[!MORELIKETHIS]
 >

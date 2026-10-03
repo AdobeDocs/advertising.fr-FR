@@ -3,23 +3,34 @@ title: Paramètres de rapport de base et avancés
 description: Découvrez les paramètres obligatoires et facultatifs des rapports de base et avancés.
 exl-id: 856d7bc2-7316-4556-a04e-33346591b18f
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-TQID: https://experienceleague.adobe.com/WYVC76Mkfe5-VXa1hjyphXW34xqkbV7VEq9lHPhGPT8
+TQID: 'https://experienceleague.adobe.com/WYVC76Mkfe5-VXa1hjyphXW34xqkbV7VEq9lHPhGPT8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3822
+source-wordcount: '3838'
 ht-degree: 0%
-
 ---
-
 # Paramètres de rapport de base et avancés
 
 | Tabulation | Paramètre | Description |
@@ -51,7 +62,7 @@ ht-degree: 0%
 |  | [!UICONTROL Impression Override Weight] | (Pour toutes les règles d’attribution, à l’exception de [!UICONTROL Last Event] ou [!UICONTROL First Event]) Lorsque la conversion est précédée à la fois de clics payants et d’impressions, attribue le pourcentage spécifié d’une valeur de conversion aux impressions qui se sont produites dans l’intervalle de recherche en amont [impression)](/help/search-social-commerce/glossary.md#i-j) de l’annonceur. Par défaut, cette valeur est de 10 % ; vous pouvez modifier la valeur en nombre entier compris entre 0 et 100. Cette valeur est utilisée uniquement dans le rapport.<br><br>Lorsqu’une conversion n’est précédée que d’impressions, le [poids de visionnage](/help/search-social-commerce/glossary.md#u-v) de l’annonceur, plutôt que le poids de remplacement de l’impression, est appliqué aux impressions. |
 |  | [!UICONTROL Conversion Attribution] | (Applicable aux campagnes d’affichage uniquement ; tous les rapports, à l’exception des [!UICONTROL Keyword Report], [!UICONTROL Product Group Report] et [!UICONTROL Campaign Hourly Report]) Quels types de conversions signaler lorsque des événements précédents se sont produits :<ul><li><i>[!UICONTROL Clicks]:</i> pour signaler uniquement les conversions résultant de clics. Chaque nom de conversion est suivi de « [!UICONTROL (CT)] ».</li><li><i>[!UICONTROL View-throughs Only]:</i> pour signaler uniquement les conversions résultant de vues publicitaires. Chaque nom de conversion est suivi de « [!UICONTROL (VT)] ». Lorsque vous sélectionnez cette option, vous choisissez la valeur à donner à chaque conversion. Dans la zone Afficher la méthode d&#39;évaluation des produits publicitaires, sélectionnez une option :<ul><li><i>[!UICONTROL Raw]:</i> pour signaler des conversions sans appliquer de poids.</li><li><i>[!UICONTROL Weighted]</i> (valeur par défaut) : pour pondérer chaque conversion en fonction du poids de visionnage publicitaire spécifié pour l’annonceur.</li></ul></li><li><i>[!UICONTROL Clicks + View-throughs]:</i> Pour signaler toutes les conversions. Par défaut, chaque nom de conversion est suivi de « [!UICONTROL (CT+VT)] ». Ce type d’attribution de conversion comprend deux options supplémentaires :<ul><li>[!UICONTROL Discrete columns for click & view-through conversions] : comprend trois colonnes distinctes pour chaque type de conversion que vous incluez : une pour 1) les conversions par clic publicitaire, ajoutées avec « [!UICONTROL (CT)] », 2) les conversions par affichage publicitaire, ajoutées avec « [!UICONTROL (VT)] », 3) et toutes les conversions, ajoutées avec « [!UICONTROL (CT+VT)] ». Lorsque vous choisissez cette option, sélectionnez l’une des trois colonnes à utiliser pour le filtrage et le tri dans la liste « [!UICONTROL Filter & sort using] » : <i>[!UICONTROL click]</i> (valeur par défaut), <i>[!UICONTROL view-through]</i> ou <i>[!UICONTROL click + view-through]</i>.<br><br><b>Remarque :</b> les conversions des campagnes de recherche apparaissent dans les colonnes pour les clics publicitaires, mais pas dans la colonne pour les conversions d’affichage publicitaire.</li><li>[!UICONTROL View-through valuation method] : valeur à donner à chaque conversion qui résulte d’une vue d’ensemble :</li><ul><i>[!UICONTROL Weighted]</i> (valeur par défaut) : pour pondérer chaque conversion en fonction du poids de visionnage publicitaire spécifié pour l’annonceur.</li><li><i>[!UICONTROL Raw]:</i> pour signaler des conversions sans appliquer de poids.</li></ul></li></ul> |
 |  | [!UICONTROL Conversion Attribution] > [!UICONTROL Discrete columns for cross device conversions] | Obsolète |
-| [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (Facultatif ; disponible uniquement lorsque l’option « [!UICONTROL Save as template] » est sélectionnée) Quand exécuter le rapport : <i>[!UICONTROL Now]</i> (pour exécuter le rapport une seule fois, valeur par défaut), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Jour de la semaine]</i> ou <i>[!UICONTROL Every Month] [Jour du mois]</i>. Pour toutes les périodes, à l’exception de <i>[!UICONTROL Now]</i>, sélectionnez l’heure dans le fuseau horaire de l’annonceur, en commençant par 09 :00. |
+| [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (Facultatif ; disponible uniquement lorsque l’option « [!UICONTROL Save as template] » est sélectionnée) Quand exécuter le rapport : <i>[!UICONTROL Now]</i> (pour exécuter le rapport une seule fois, valeur par défaut), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Jour de la semaine]</i> ou <i>[!UICONTROL Every Month] [Jour du mois]</i>. Pour toutes les périodes, à l’exception de <i>[!UICONTROL Now]</i>, sélectionnez l’heure dans le fuseau horaire de l’annonceur, à partir de 9 h 00. |
 |  | [!UICONTROL Email Recipients] | <b>Remarque :</b> ce paramètre est utilisé uniquement lorsque les notifications par e-mail pour les [!UICONTROL Reports] sont [activées dans [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>Adresses e-mail des utilisateurs Search, Social et Commerce enregistrés auxquels envoyer des notifications lorsque le rapport est terminé ou annulé en raison d’erreurs. Par défaut, l’adresse de votre compte utilisateur est saisie. Pour spécifier plusieurs adresses, séparez-les par des virgules, des espaces ou de nouvelles lignes. Lorsque l’exécution du rapport est planifiée à plusieurs reprises, une notification est envoyée chaque fois qu’un rapport est terminé. |
 |  | [!UICONTROL Email Notification] | <b>Remarque :</b> ce paramètre est utilisé uniquement lorsque les notifications par e-mail pour les [!UICONTROL Reports] sont [activées dans [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(Lorsque [!UICONTROL Email Recipients] sont spécifiés) Que doit-on inclure dans les notifications par e-mail aux adresses spécifiées :<ul><li><i>[!UICONTROL Notification Only]</i> (valeur par défaut) : pour envoyer uniquement une notification d’achèvement ou d’échec du rapport, sans pièces jointes. La notification comprend des liens de téléchargement temporaires pour tous les formats de rapport.</li><li><i>[!UICONTROL XLS Attachment]:</i> pour inclure une copie du rapport terminé au format XLS si le fichier fait moins de 10 Mo environ. Les fichiers de plus de 1 Mo sont compressés.</li><li><i>[!UICONTROL TSV Attachment]:</i> Inclure une copie du rapport rempli au format TSV si le fichier est inférieur à environ 10 Mo. Les fichiers de plus de 1 Mo sont compressés.</li><li><i>[!UICONTROL CSV Attachment]:</i> pour inclure une copie du rapport complété au format CSV si le fichier est inférieur à environ 10 Mo. Les fichiers de plus de 1 Mo sont compressés. |
 

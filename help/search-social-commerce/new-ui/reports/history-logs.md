@@ -2,13 +2,17 @@
 title: (Nouvelle interface utilisateur) Afficher les journaux de l’historique des modifications
 description: Découvrez comment afficher les modifications récentes apportées au compte de l’annonceur.
 feature: Search Reports
-source-git-commit: b68aac34cd7e10fcceceb622b5365cb0ecec040d
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
-
 ---
-
 # (Nouvelle interface utilisateur) Afficher les journaux de l’historique des modifications
 
 Le rapport [!UICONTROL History Logs] comprend un journal des modifications apportées au compte de l’annonceur au cours des 31 derniers jours. Le rapport peut inclure des modifications apportées aux types d’objets suivants : utilisateurs (annonceurs), portfolios, campagnes, groupes publicitaires, publicités, mots-clés, emplacements et cibles de produits. Vous pouvez trier et filtrer les données selon n’importe quelle colonne.

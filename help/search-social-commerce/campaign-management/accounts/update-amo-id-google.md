@@ -1,23 +1,28 @@
 ---
-title: 'Mettre à jour le code de suivi AMO ID (s_kwcid) pour un compte  [!DNL Google Ads] '
-description: Découvrez comment passer au dernier code de suivi AMO ID pour un compte  [!DNL Google Ads] .
+title: Mettre à jour le code de suivi AMO ID (s_kwcid) pour un compte [!DNL Google Ads]
+description: Découvrez comment passer au dernier code de suivi AMO ID pour un compte [!DNL Google Ads].
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/7BOrtiEjkYEi1ZbY-PyU-dgstfa30ebtt-WBYHPX0-I
+TQID: 'https://experienceleague.adobe.com/7BOrtiEjkYEi1ZbY-PyU-dgstfa30ebtt-WBYHPX0-I'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '499'
 ht-degree: 0%
-
 ---
-
 # Mettre à jour le code de suivi AMO ID (s_kwcid) pour un compte [!DNL Google Ads]
 
 *Publicitaires avec une intégration Adobe Advertising-Adobe Analytics uniquement*

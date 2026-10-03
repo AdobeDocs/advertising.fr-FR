@@ -3,20 +3,26 @@ title: Gestion des vues par défaut et personnalisées
 description: Découvrez comment personnaliser vos vues par défaut et vos vues personnalisées.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/aHuRfuYTOiAOMEeer1ud9yRDiC52UF9Hb-mAi1Y-l1U
+TQID: 'https://experienceleague.adobe.com/aHuRfuYTOiAOMEeer1ud9yRDiC52UF9Hb-mAi1Y-l1U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 4453
+source-wordcount: '4470'
 ht-degree: 0%
-
 ---
-
 # Gestion des vues par défaut et personnalisées
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
@@ -43,17 +49,17 @@ Dans l’interface utilisateur héritée, chaque vue est disponible sous forme d
 
 * (Vues personnalisées) À partir du panneau de navigation de gauche :
 
-   1. Dans le panneau de gauche, cliquez sur le menu **[!UICONTROL Custom Views]** pour le développer.
+  1. Dans le panneau de gauche, cliquez sur le menu **[!UICONTROL Custom Views]** pour le développer.
 
-      Les vues sont triées par entité applicable.
+     Les vues sont triées par entité applicable.
 
-   1. Développez les menus disponibles.
+  1. Développez les menus disponibles.
 
-      « [!UICONTROL Universal Views] » inclut des vues personnalisées qui peuvent être utilisées dans toutes les vues d’entité. Toutes les autres vues personnalisées sont regroupées par type d&#39;entité.
+     « [!UICONTROL Universal Views] » inclut des vues personnalisées qui peuvent être utilisées dans toutes les vues d’entité. Toutes les autres vues personnalisées sont regroupées par type d&#39;entité.
 
-   1. Cliquez sur le nom de la vue.
+  1. Cliquez sur le nom de la vue.
 
-      Si la vue est universelle ou s&#39;applique à l&#39;entité actuelle, le tableau de données est réaffiché selon la configuration de la vue. Si la vue s&#39;applique à une autre entité, les données de l&#39;entité applicable sont affichées selon la configuration de la vue.
+     Si la vue est universelle ou s&#39;applique à l&#39;entité actuelle, le tableau de données est réaffiché selon la configuration de la vue. Si la vue s&#39;applique à une autre entité, les données de l&#39;entité applicable sont affichées selon la configuration de la vue.
 
 ## Création d’une vue personnalisée {#create-custom-view}
 
@@ -165,19 +171,19 @@ Les paramètres système par défaut varient selon la vue de gestion. Pour la pl
 
 * Dans la nouvelle interface utilisateur :
 
-   1. Au-dessus du tableau de données, cliquez sur le nom de la vue actuellement appliquée (![Vue](/help/search-social-commerce/assets/view.png "Vue")).
+  1. Au-dessus du tableau de données, cliquez sur le nom de la vue actuellement appliquée (![Vue](/help/search-social-commerce/assets/view.png "Vue")).
 
-   1. Si nécessaire, cliquez sur l’un des onglets ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] et [!UICONTROL From Others]) pour localiser la vue.
+  1. Si nécessaire, cliquez sur l’un des onglets ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] et [!UICONTROL From Others]) pour localiser la vue.
 
-   1. Placez le curseur sur le nom de la vue et cliquez sur ![Rétablir](/help/search-social-commerce/assets/revert-new.png).
+  1. Placez le curseur sur le nom de la vue et cliquez sur ![Rétablir](/help/search-social-commerce/assets/revert-new.png).
 
 * Depuis les vues de gestion de campagne héritées :
 
-   1. Dans le panneau de gauche, cliquez sur ![Vues personnalisées](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Vues personnalisées") pour développer le menu [!UICONTROL Custom Views].
+  1. Dans le panneau de gauche, cliquez sur ![Vues personnalisées](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Vues personnalisées") pour développer le menu [!UICONTROL Custom Views].
 
-      Les vues sont triées par entité applicable.
+     Les vues sont triées par entité applicable.
 
-   1. En regard du nom de l’affichage, cliquez sur ![Restaurer les paramètres par défaut](/help/search-social-commerce/assets/restore.png "Restaurer les paramètres par défaut").
+  1. En regard du nom de l’affichage, cliquez sur ![Restaurer les paramètres par défaut](/help/search-social-commerce/assets/restore.png "Restaurer les paramètres par défaut").
 
 ## Suppression d’une vue personnalisée
 
@@ -187,21 +193,21 @@ Si vous supprimez une vue personnalisée appliquée à l’onglet actif, l’ong
 
 * Dans la nouvelle interface utilisateur :
 
-   1. Au-dessus du tableau de données, cliquez sur le nom de la vue actuellement appliquée (![Vue](/help/search-social-commerce/assets/view.png "Vue")).
+  1. Au-dessus du tableau de données, cliquez sur le nom de la vue actuellement appliquée (![Vue](/help/search-social-commerce/assets/view.png "Vue")).
 
-   1. Si nécessaire, cliquez sur l’un des onglets ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] et [!UICONTROL From Others]) pour localiser la vue.
+  1. Si nécessaire, cliquez sur l’un des onglets ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] et [!UICONTROL From Others]) pour localiser la vue.
 
-   1. Placez le curseur sur le nom de la vue et cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete-new.png).
+  1. Placez le curseur sur le nom de la vue et cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete-new.png).
 
-   1. Dans le message de confirmation, cliquez sur **[!UICONTROL Delete]**.
+  1. Dans le message de confirmation, cliquez sur **[!UICONTROL Delete]**.
 
 * Depuis les vues de gestion de campagne héritées :
 
-   1. Dans le panneau de gauche, cliquez sur ![Vues personnalisées](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Vues personnalisées") pour développer le menu [!UICONTROL Custom Views].
+  1. Dans le panneau de gauche, cliquez sur ![Vues personnalisées](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Vues personnalisées") pour développer le menu [!UICONTROL Custom Views].
 
-   1. Placez le curseur sur le nom de la vue personnalisée, puis cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete.png "Supprimer").
+  1. Placez le curseur sur le nom de la vue personnalisée, puis cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete.png "Supprimer").
 
-   1. Dans le message de confirmation, cliquez sur **[!UICONTROL Continue]**.
+  1. Dans le message de confirmation, cliquez sur **[!UICONTROL Continue]**.
 
 ## Paramètres d’affichage par défaut et personnalisés
 

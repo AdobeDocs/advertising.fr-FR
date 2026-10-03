@@ -3,18 +3,23 @@ title: À propos des outils de création et de décodage des balises de tracking
 description: Découvrez les outils de création des balises de suivi des conversions Adobe Advertising et des balises de suivi des clics Search, Social et Commerce, ainsi que la manière de décoder les balises de suivi des clics existantes.
 exl-id: ca8058a7-6a36-44e9-a42f-3b7cd91e664a
 feature: Search Tools, Search Tracking
-TQID: https://experienceleague.adobe.com/lOua8gMHIFAogvtnwAvmbXtfY3tEhTDPpA2K0Jt1pMo
+TQID: 'https://experienceleague.adobe.com/lOua8gMHIFAogvtnwAvmbXtfY3tEhTDPpA2K0Jt1pMo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 211
+source-wordcount: '221'
 ht-degree: 0%
-
 ---
-
 # À propos des outils de création et de décodage des balises de tracking
 
 Si vous utilisez le service de suivi des conversions d’Adobe Advertising, vous pouvez créer et décoder les balises de suivi à l’aide des outils suivants :

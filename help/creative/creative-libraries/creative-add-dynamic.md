@@ -3,18 +3,24 @@ title: Ajout de contenus publicitaires dynamiques à une bibliothèque de conten
 description: Découvrez comment ajouter des contenus créatifs dynamiques à une bibliothèque de contenus créatifs.
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-TQID: https://experienceleague.adobe.com/OGBJ2IszfF6kv86wYyEvbU5UxJmwxEo6MNjCM9n6Cws
+TQID: 'https://experienceleague.adobe.com/OGBJ2IszfF6kv86wYyEvbU5UxJmwxEo6MNjCM9n6Cws'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: '515'
 ht-degree: 0%
-
 ---
-
 # Ajout de contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires
 
 Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus publicitaires](creative-library-manage.md) pour les utiliser avec des [&#x200B; dynamiques](/help/creative/experiences/experience-about.md). Vous pouvez créer une publicité HTML5 statique unique ou des publicités HTML5 dynamiques à partir d’un seul modèle de publicité. Pour les publicités HTML5 dynamiques, utilisez les ressources des catalogues spécifiés créés à partir de fichiers de flux.
@@ -52,17 +58,17 @@ Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus
 
    * À partir d’une bibliothèque de contenu créatif :
 
-      1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+     1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
-      1. Cliquez sur le nom de la bibliothèque.
+     1. Cliquez sur le nom de la bibliothèque.
 
-      1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**.
+     1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**.
 
    * À partir d’un modèle d’annonce publicitaire :
 
-      1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**.
+     1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**.
 
-      1. Placez le curseur sur la ligne du modèle d’annonce et cliquez sur **[!UICONTROL Create Dynamic Ad]**.
+     1. Placez le curseur sur la ligne du modèle d’annonce et cliquez sur **[!UICONTROL Create Dynamic Ad]**.
 
 1. Spécifiez les [paramètres de publicité dynamique](/help/creative/creative-libraries/creative-settings-dynamic.md) :
 
@@ -90,11 +96,11 @@ Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus
 
       * Modifiez le contenu :
 
-         * (Affichage des annonces uniquement) Pour modifier la valeur d’une cellule dans le tableau, cliquez à l’intérieur de la cellule et modifiez la valeur. Cliquez en dehors de la cellule ou appuyez sur la touche **[!DNL Enter]** pour enregistrer vos modifications.
+        * (Affichage des annonces uniquement) Pour modifier la valeur d’une cellule dans le tableau, cliquez à l’intérieur de la cellule et modifiez la valeur. Cliquez en dehors de la cellule ou appuyez sur la touche **[!DNL Enter]** pour enregistrer vos modifications.
 
-         * Pour marquer un seul produit comme produit par défaut<!--Explain what this means. --> maintenez le curseur au-dessus de la ligne et cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+        * Pour marquer un seul produit comme produit par défaut<!--Explain what this means. --> maintenez le curseur au-dessus de la ligne et cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
 
-         * (Lorsque l’annonce publicitaire comprend plusieurs offres) Pour marquer plusieurs produits comme produits par défaut, sélectionnez les lignes (jusqu’au nombre d’offres) et cliquez sur **[!UICONTROL Set as Default]** dans la barre d’outils des actions en masse.
+        * (Lorsque l’annonce publicitaire comprend plusieurs offres) Pour marquer plusieurs produits comme produits par défaut, sélectionnez les lignes (jusqu’au nombre d’offres) et cliquez sur **[!UICONTROL Set as Default]** dans la barre d’outils des actions en masse.
 
       * Pour supprimer un produit du catalogue, maintenez le curseur sur la ligne et cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
 
@@ -104,11 +110,11 @@ Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus
 
    * Pour enregistrer les publicités et les ajouter à un [lot de contenu créatif](/help/creative/creative-libraries/bundle-manage.md) dans la bibliothèque :
 
-      1. Cliquez sur **[!UICONTROL Save and Attach to Bundle]**.
+     1. Cliquez sur **[!UICONTROL Save and Attach to Bundle]**.
 
-      1. Cliquez sur **[!UICONTROL Save]** pour enregistrer les publicités.
+     1. Cliquez sur **[!UICONTROL Save]** pour enregistrer les publicités.
 
-      1. Sélectionnez les lots, puis cliquez sur **[!UICONTROL Attach Creative to Bundles]**.
+     1. Sélectionnez les lots, puis cliquez sur **[!UICONTROL Attach Creative to Bundles]**.
 
    * Pour enregistrer les publicités et quitter la configuration, cliquez sur **[!UICONTROL Save]**, puis cliquez de nouveau sur **[!UICONTROL Save]**.
 

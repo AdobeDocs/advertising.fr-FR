@@ -3,25 +3,31 @@ title: Création et implémentation d’un segment personnalisé
 description: Découvrez comment créer et implémenter un segment personnalisé pour effectuer le suivi des utilisateurs exposés aux publicités ou des utilisateurs qui visitent vos pages web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-TQID: https://experienceleague.adobe.com/Xemx2oExt-bNTgJPVkDaWfillRBAZAfOPQx1eJYxupw
+TQID: 'https://experienceleague.adobe.com/Xemx2oExt-bNTgJPVkDaWfillRBAZAfOPQx1eJYxupw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 700
+source-wordcount: '705'
 ht-degree: 0%
-
 ---
-
 # Création et implémentation d’un segment personnalisé
 
 Vous pouvez collecter vos propres données d’audience propriétaires en créant et en implémentant un segment DSP personnalisé. Vous pouvez utiliser le segment pour effectuer le suivi a) des utilisateurs exposés aux publicités des ordinateurs de bureau et des appareils mobiles et b) des utilisateurs qui visitent des pages web spécifiques. Vous pouvez par la suite recibler les utilisateurs du segment avec des annonces supplémentaires ou empêcher les utilisateurs du segment de recevoir des annonces supplémentaires.
@@ -36,26 +42,26 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
 * Pour les mesures dans Adobe Analytics, vous devez :
 
-   1. Renseignez tous les [prérequis pour l’implémentation [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) et assurez-vous que les [ID AMO et ID EF](/help/integrations/analytics/ids.md) sont renseignés dans vos URL de tracking.
+  1. Renseignez tous les [prérequis pour l’implémentation [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) et assurez-vous que les [ID AMO et ID EF](/help/integrations/analytics/ids.md) sont renseignés dans vos URL de tracking.
 
-   1. Ajoutez le paramètre suivant à vos pages web avant ou pendant le code [JavaScript requis pour  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) — n’importe où avant l’initialisation du dernier service d’événement.
+  1. Ajoutez le paramètre suivant à vos pages web avant ou pendant le code [JavaScript requis pour  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) — n’importe où avant l’initialisation du dernier service d’événement.
 
-      `window.id5PartnerId=ID5_PartnerID;`
+     `window.id5PartnerId=ID5_PartnerID;`
 
-      Exemple :
+     Exemple :
 
-      ```
-      <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
-      <script>
-        window.id5PartnerId=ID5_PartnerID;
-             if("undefined" != typeof AdCloudEvent)
-                 AdCloudEvent('IMS ORG Id','rsid');
-      </script>
-      ```
+     ```
+     <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
+     <script>
+       window.id5PartnerId=ID5_PartnerID;
+            if("undefined" != typeof AdCloudEvent)
+                AdCloudEvent('IMS ORG Id','rsid');
+     </script>
+     ```
 
-      Consultez les sections « [Format des balises de suivi de conversion JavaScript version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md) » et « [Format des balises de suivi de conversion JavaScript version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md) » pour connaître le format complet des balises.
+     Consultez les sections « [Format des balises de suivi de conversion JavaScript version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md) » et « [Format des balises de suivi de conversion JavaScript version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md) » pour connaître le format complet des balises.
 
-   1. Utilisez n’importe quel outil de débogage du navigateur pour vérifier que chaque appel est initié au domaine `lasteventf-tm.everesttech.net` et contient le paramètre `_les_id5` avec un ID5 chiffré comme valeur.
+  1. Utilisez n’importe quel outil de débogage du navigateur pour vérifier que chaque appel est initié au domaine `lasteventf-tm.everesttech.net` et contient le paramètre `_les_id5` avec un ID5 chiffré comme valeur.
 
 ## Création et implémentation d’un segment personnalisé
 
@@ -77,11 +83,11 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
       * [!UICONTROL Legacy]:
 
-         * *[!UICONTROL Cookies]:* (valeur par défaut) La balise de segment effectue le suivi des cookies.
+        * *[!UICONTROL Cookies]:* (valeur par défaut) La balise de segment effectue le suivi des cookies.
 
       * [!UICONTROL Universal IDs]:
 
-         * *[!UICONTROL ID5]:* La balise de segment effectue le suivi des identifiants de [!DNL ID5]. Aucun frais n’est encouru pour les impressions diffusées aux identifiants universels.
+        * *[!UICONTROL ID5]:* La balise de segment effectue le suivi des identifiants de [!DNL ID5]. Aucun frais n’est encouru pour les impressions diffusées aux identifiants universels.
 
         **[!UICONTROL Terms of Service]:** Conditions générales de service relatives à l’utilisation des ID universels. Vous ou un autre utilisateur du compte DSP devez accepter les conditions une seule fois avant de pouvoir utiliser les identifiants universels pour un nouveau type d’identifiant. Pour les clients qui disposent de contrats de service géré, l’équipe chargée de votre compte Adobe obtiendra votre consentement et acceptera les conditions au nom de votre entreprise. Pour lire les termes, cliquez sur **>**. Pour accepter les conditions, faites défiler l’écran jusqu’au bas des conditions et cliquez sur **[!UICONTROL Accept]**.
 
@@ -95,31 +101,31 @@ Vous pouvez collecter vos propres données d’audience propriétaires en créan
 
       * Pour effectuer le suivi des visiteurs sur poste de travail et mobile sur une page web :
 
-         1. Copiez la balise de suivi des pages vues intitulée « [!UICONTROL Desktop or mobile websites] ».
+        1. Copiez la balise de suivi des pages vues intitulée « [!UICONTROL Desktop or mobile websites] ».
 
-         1. (Balises pour les segments qui effectuent le suivi des ID de [!DNL ID5]) Dans la balise copiée, remplacez `ID5_PARTNER_ID` par l’ID de partenaire qui [!DNL ID5] affecté à votre organisation.
+        1. (Balises pour les segments qui effectuent le suivi des ID de [!DNL ID5]) Dans la balise copiée, remplacez `ID5_PARTNER_ID` par l’ID de partenaire qui [!DNL ID5] affecté à votre organisation.
 
-            Par exemple, si votre ID de partenaire ID5 est `abcde` et que la balise de segment générée est
+           Par exemple, si votre ID de partenaire ID5 est `abcde` et que la balise de segment générée est
 
-            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
+           `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
-            remplacez ensuite `ID5_PARTNER_ID` par `abcde` dans la balise pour obtenir les éléments suivants :
+           remplacez ensuite `ID5_PARTNER_ID` par `abcde` dans la balise pour obtenir les éléments suivants :
 
-            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
+           `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
-            Votre organisation a reçu l’ID de partenaire lorsqu’elle a signé un accord avec [!DNL ID5]. Si vous ne connaissez pas votre ID de partenaire, contactez l’équipe chargée de votre compte Adobe.
+           Votre organisation a reçu l’ID de partenaire lorsqu’elle a signé un accord avec [!DNL ID5]. Si vous ne connaissez pas votre ID de partenaire, contactez l’équipe chargée de votre compte Adobe.
 
-            Cette étape n’est pas nécessaire pour que les balises effectuent le suivi des identifiants [!DNL ID5] pour les utilisateurs exposés à une annonce publicitaire sur des ordinateurs de bureau ou des appareils mobiles.
+           Cette étape n’est pas nécessaire pour que les balises effectuent le suivi des identifiants [!DNL ID5] pour les utilisateurs exposés à une annonce publicitaire sur des ordinateurs de bureau ou des appareils mobiles.
 
-         1. Fournissez la balise à l’annonceur ou au contact du site web pour le déploiement.
+        1. Fournissez la balise à l’annonceur ou au contact du site web pour le déploiement.
 
-            Le service informatique de l’annonceur ou un autre groupe peut avoir besoin de planifier le déploiement des balises ou d’être informé de celui-ci.
+           Le service informatique de l’annonceur ou un autre groupe peut avoir besoin de planifier le déploiement des balises ou d’être informé de celui-ci.
 
       * Pour suivre les utilisateurs exposés à une annonce publicitaire sur des ordinateurs de bureau ou des appareils mobiles :
 
-         1. Copiez la balise de suivi d’impression, qui est intitulée « [!UICONTROL Desktop or mobile ads] ».
+        1. Copiez la balise de suivi d’impression, qui est intitulée « [!UICONTROL Desktop or mobile ads] ».
 
-         1. Ajoutez la balise à l’onglet [!UICONTROL Pixel] pour chaque annonce publicitaire pertinente ou à la section [!UICONTROL Event Pixels] des paramètres [[!UICONTROL Tracking] pour chaque emplacement pertinent](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+        1. Ajoutez la balise à l’onglet [!UICONTROL Pixel] pour chaque annonce publicitaire pertinente ou à la section [!UICONTROL Event Pixels] des paramètres [[!UICONTROL Tracking] pour chaque emplacement pertinent](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 Une fois qu’une balise de tracking est implémentée, vous pouvez utiliser le segment dans les cibles ou exclusions d’audience pour n’importe quel emplacement.
 

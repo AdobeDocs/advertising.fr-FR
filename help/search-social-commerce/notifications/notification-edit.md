@@ -3,20 +3,24 @@ title: Modifier vos paramètres de notification
 description: Découvrez comment modifier les paramètres de vos notifications.
 exl-id: b60d3abe-10ec-4fc0-8c91-6b329a3e9ecc
 feature: Search Notifications
-TQID: https://experienceleague.adobe.com/DYykxfXqovRIkUXI1OwGJDNvbyIxziy92UUs6QVhLfY
+TQID: 'https://experienceleague.adobe.com/DYykxfXqovRIkUXI1OwGJDNvbyIxziy92UUs6QVhLfY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 225
+source-wordcount: '223'
 ht-degree: 0%
-
 ---
-
 # Modifier vos paramètres de notification
 
 *Fonctionnalité*
@@ -33,9 +37,9 @@ Vous avez la possibilité de vous abonner ou de vous désabonner des notificatio
 
    * Pour vous abonner ou vous désabonner des notifications, déplacez le curseur dans la colonne [!UICONTROL Subscribe] :
 
-      * Pour vous désabonner de tous les types de notification, déplacez le curseur vers la gauche (désactivé).
+     * Pour vous désabonner de tous les types de notification, déplacez le curseur vers la gauche (désactivé).
 
-      * Pour vous abonner à un ou plusieurs types de notification, déplacez le curseur vers la droite (activé).
+     * Pour vous abonner à un ou plusieurs types de notification, déplacez le curseur vers la droite (activé).
 
    * (Lorsque l’[!UICONTROL Subscribe] est activée) Pour vous abonner aux notifications par e-mail, cochez la case située dans la colonne **[!UICONTROL Email]** .
 

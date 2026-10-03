@@ -3,20 +3,26 @@ title: '[!UICONTROL AdWords Search Query Report]'
 description: En savoir plus sur le [!UICONTROL AdWords Search Query Report].
 exl-id: cf472731-f9e5-4878-9a83-59f5c022ec69
 feature: Search Reports, Search Specialty Reports
-TQID: https://experienceleague.adobe.com/iZ2j7QXg4-u3rfN6gzVZ7CYhgb-k03-GkwJowaaMg4E
+TQID: 'https://experienceleague.adobe.com/iZ2j7QXg4-u3rfN6gzVZ7CYhgb-k03-GkwJowaaMg4E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 186
+source-wordcount: '191'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL AdWords Search Query Report]
 
 Comptes *[!DNL Google Ads]uniquement*
@@ -25,7 +31,7 @@ La [!UICONTROL AdWords Search Query Report] inclut des données de coût, de cli
 
 >[!NOTE]
 >
->Les données de ce rapport sont extraites pour la journée précédente à 23 :00 (23 :00) chaque jour. Par exemple, à 23:00 le 18 juin, il extrait les données du 17 juin. Si vous exécutez le rapport le 19 juin à 09:00 avant l’extraction des données du 18 juin, le rapport inclut les données jusqu’au 17 juin à 23:00.
+>Les données de ce rapport sont extraites pour la journée précédente à 23 h (23 h) chaque jour. Par exemple, à 23 h le 18 juin, il extrait les données du 17 juin. Si vous exécutez le rapport le 19 juin à 09:00 (avant l’extraction des données du 18 juin), le rapport inclut les données jusqu’au 17 juin à 23:00.
 
 ## Colonnes par défaut
 

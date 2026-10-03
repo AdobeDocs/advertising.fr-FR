@@ -3,18 +3,23 @@ title: À propos de la personnalisation des données dans les vues de gestion de
 description: Découvrez les types de données que vous pouvez personnaliser dans les vues de données de Campaign.
 exl-id: 89f36865-9275-494e-ac33-d41fa30faa2a
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/PnBql37yqK03DWH2OhLf8hnCBPOwFAVZxD65NNZu0VU
+TQID: 'https://experienceleague.adobe.com/PnBql37yqK03DWH2OhLf8hnCBPOwFAVZxD65NNZu0VU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 411
+source-wordcount: '412'
 ht-degree: 0%
-
 ---
-
 # À propos de la personnalisation des données dans les vues de gestion de campagne
 
 <!-- Add info about new UI -->
@@ -27,11 +32,11 @@ Dans la plupart des vues de données de campagne, vous pouvez personnaliser les 
 
 * (Interface utilisateur héritée uniquement) [À partir du panneau de navigation de gauche](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md) vous pouvez :
 
-   * Parcourez ou recherchez des entités par réseau publicitaire et filtrez selon le statut de l’entité et le statut du compte, de la campagne et du groupe publicitaire ou de l’ensemble publicitaire. Cliquez sur une entité ou un groupe d’entités dans le panneau pour charger une vue des entités enfants (par exemple, cliquez sur un nom de campagne pour afficher ses groupes d’annonces enfants).
+  * Parcourez ou recherchez des entités par réseau publicitaire et filtrez selon le statut de l’entité et le statut du compte, de la campagne et du groupe publicitaire ou de l’ensemble publicitaire. Cliquez sur une entité ou un groupe d’entités dans le panneau pour charger une vue des entités enfants (par exemple, cliquez sur un nom de campagne pour afficher ses groupes d’annonces enfants).
 
-   * Parcourez ou recherchez des campagnes par portefeuille ou groupe de portefeuilles, et filtrez selon le statut de l’entité et le statut du groupe de portefeuilles, du portefeuille et de la campagne. Cliquez sur un groupe de portefeuilles, un portefeuille ou une campagne dans le panneau pour charger les données du groupe de portefeuilles, du portefeuille ou de la campagne dans la vue d&#39;entité actuelle.
+  * Parcourez ou recherchez des campagnes par portefeuille ou groupe de portefeuilles, et filtrez selon le statut de l’entité et le statut du groupe de portefeuilles, du portefeuille et de la campagne. Cliquez sur un groupe de portefeuilles, un portefeuille ou une campagne dans le panneau pour charger les données du groupe de portefeuilles, du portefeuille ou de la campagne dans la vue d&#39;entité actuelle.
 
-   * Accédez à vos vues par défaut, modifiez-les et réinitialisez-les, et accédez à vos vues personnalisées, modifiez-les et supprimez-les. Cliquez sur le nom d’une vue pour charger la vue appropriée.
+  * Accédez à vos vues par défaut, modifiez-les et réinitialisez-les, et accédez à vos vues personnalisées, modifiez-les et supprimez-les. Cliquez sur le nom d’une vue pour charger la vue appropriée.
 
 * Appliquez des filtres sur toutes les colonnes de données disponibles pour modifier les données affichées dans l’onglet actif. Vous pouvez créer des filtres [à partir des en-têtes de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) ou [à partir d’un bouton de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md). Pour les vues de gestion de campagne, les filtres sont conservés tels qu&#39;applicables lorsque vous ouvrez des entités enfants. Par exemple, si vous affichez des campagnes avec \> 100 clics, puis ouvrez un groupe publicitaire dans cette campagne, seuls les groupes publicitaires avec \> 100 clics s’affichent.
 

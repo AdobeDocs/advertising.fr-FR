@@ -4,20 +4,25 @@ description: Découvrez comment charger manuellement un fichier de feuille d’e
 feature: Search Bulksheets
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 subfeature_v2:
   - id: e58024d1-d6da-420c-80af-6be211808316
+    internal-label: Bulksheets
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 830
+source-wordcount: '831'
 ht-degree: 0%
-
 ---
-
 # (Nouvelle interface utilisateur) Charger une feuille d’envoi groupé ou un fichier d’erreur corrigé
 
 Vous pouvez charger des fichiers de feuilles d’envoi groupé, des fichiers d’erreur de validation de page de destination corrigés et d’autres fichiers d’erreur corrigés depuis votre appareil ou réseau pour les [réseaux publicitaires pris en charge](about.md#bulksheet-functionality-by-network). Toutes les colonnes personnalisées du fichier sont supprimées lorsque vous chargez le fichier.
@@ -44,7 +49,7 @@ Lorsque la tâche commence, le fichier est répertorié dans la vue [!UICONTROL 
 | [!UICONTROL Single Account] | Si le fichier s’applique à un compte : *[!UICONTROL Yes]* (pour un compte) ou *[!UICONTROL No]* (pour plusieurs comptes). |
 | [!UICONTROL Account (Search Engine)] | (Lorsque le fichier s’applique à un seul compte) Compte sur lequel charger les données. |
 | [!UICONTROL Search Engine] | (Lorsque le fichier s’applique à plusieurs comptes) Réseau publicitaire sur lequel télécharger les données.<br><br>**Remarque :** les modifications d’enchères pour les mots-clés des portfolios optimisés ne sont pas prises en charge avec les feuilles d’envoi groupé à comptes multiples. |
-| [!UICONTROL Scheduling] | Quand ou si le fichier doit être publié sur le réseau publicitaire spécifié :<ul><li>*[!UICONTROL Post to search engine now]* (valeur par défaut) : commence à publier immédiatement les données.</li><li>*[!UICONTROL Post to search engine on \[specified date\] \[specified time\]]:* Commence à publier les données à la date et à l’heure spécifiées ; la valeur par défaut est demain à 02 :00 (2 heures). Pour modifier la date, saisissez une date au format JJ/MM/AAAA ou cliquez sur l’icône de calendrier pour ouvrir le calendrier et sélectionner une date. Pour modifier l’heure, sélectionnez une heure (par intervalles de 15 minutes) dans la liste.</li><li>*[!UICONTROL Preview only]:* télécharge le fichier dans Search, Social et Commerce sans publier les données sur le réseau publicitaire ; vous pourrez toujours publier le fichier ultérieurement. Lorsque le fichier de feuille d’envoi groupé fait plus de 10 Mo, mais moins de 2 Go, le fichier est au format ZIP ; il n’est pas nécessaire de décompresser le fichier pour le publier.</li></ul> |
+| [!UICONTROL Scheduling] | Quand ou si le fichier doit être publié sur le réseau publicitaire spécifié :<ul><li>*[!UICONTROL Post to search engine now]* (valeur par défaut) : commence à publier immédiatement les données.</li><li>*[!UICONTROL Post to search engine on \[specified date\] \[specified time\]]:* Commence à publier les données à la date et à l’heure spécifiées ; la valeur par défaut est demain à 02:00 (2 h). Pour modifier la date, saisissez une date au format JJ/MM/AAAA ou cliquez sur l’icône de calendrier pour ouvrir le calendrier et sélectionner une date. Pour modifier l’heure, sélectionnez une heure (par intervalles de 15 minutes) dans la liste.</li><li>*[!UICONTROL Preview only]:* télécharge le fichier dans Search, Social et Commerce sans publier les données sur le réseau publicitaire ; vous pourrez toujours publier le fichier ultérieurement. Lorsque le fichier de feuille d’envoi groupé fait plus de 10 Mo, mais moins de 2 Go, le fichier est au format ZIP ; il n’est pas nécessaire de décompresser le fichier pour le publier.</li></ul> |
 | [!UICONTROL Generate Tracking URLs] | Indique s’il faut inclure des modèles de suivi et des suffixes de page de destination (pour les réseaux publicitaires applicables) dans les comptes avec modèles de suivi, ou des URL de destination avec codes de suivi incorporés dans les comptes avec URL de destination, pour tous les mots-clés, annonces, emplacements, liens de site et groupes de produits [!DNL Google Ads] dans la publication : *[!UICONTROL Yes]* (par défaut) ou *[!UICONTROL No]*. Peu importe si les unités de soumission se trouvent dans un portefeuille.<br><br>Si vous sélectionnez *[!UICONTROL Yes]*, les URL sont générées en fonction des paramètres de la section [!UICONTROL Tracking Methods] des paramètres du compte ou des paramètres de campagne appropriés. Par défaut, si des URL de tracking existent, elles ne sont pas régénérées, sauf si de nouvelles URL sont nécessaires (par exemple, si le type de correspondance de mot-clé, le texte de l’annonce ou les paramètres de tracking pour les comptes concernés ont changé).<br><br>Si vous sélectionnez *[!UICONTROL No]*, vous pouvez toujours générer des URL de tracking ultérieurement en publiant manuellement le fichier chargé.<br><br>**Remarque :** Si l’annonceur utilise le tracking des conversions Adobe Advertising et que l’URL de base a changé, vous devez générer de nouvelles URL de tracking, sauf si le compte est configuré pour générer et charger automatiquement des URL de tracking. |
 | [!UICONTROL Replace Media Optimizer Tracking] | (Disponible si [!UICONTROL Generate Tracking URLs] est *[!UICONTROL Yes]*) Remplace tout suivi Adobe Advertising existant dans les URL du fichier chargé par un suivi nouvellement généré. |
 | [!UICONTROL Enable budget changes on optimized campaigns] | Autorise les modifications de budget apportées aux campagnes dans des portfolios optimisés en fonction des données publiées. Par défaut, cette option n’est pas sélectionnée. Si vous sélectionnez cette option, les modifications du budget de la campagne spécifiées sont applicables jusqu&#39;à ce que la fonctionnalité d&#39;optimisation détermine que le budget doit être réaffecté (généralement lors du prochain cycle d&#39;enchères).<br><br>**Remarque :** toute modification du budget résultant des données validées pour les campagnes dans des portefeuilles non optimisés se produit lorsque le fichier est validé. Les modifications apparaissent dans les vues de gestion de campagne le lendemain. |

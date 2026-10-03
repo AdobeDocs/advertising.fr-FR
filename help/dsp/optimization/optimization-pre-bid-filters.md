@@ -3,25 +3,31 @@ title: Filtres de pré-enchères au niveau de l’emplacement et utilisation
 description: Référencez les filtres de pré-enchères au niveau de l’emplacement disponibles et découvrez comment les utiliser.
 feature: DSP Optimization
 exl-id: 34a15666-7ca2-416d-9064-8638ca81e5b3
-TQID: https://experienceleague.adobe.com/3-OOibzlRa5ethq6xkaHBngX2kwENFWhCSA-qzJQ-h4
+TQID: 'https://experienceleague.adobe.com/3-OOibzlRa5ethq6xkaHBngX2kwENFWhCSA-qzJQ-h4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: ed26409b-14af-5033-ae27-1b71cecfe497
+    internal-label: DSP Optimization
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: '465'
 ht-degree: 0%
-
 ---
-
 # Filtres de pré-enchères au niveau de l’emplacement et utilisation
 
 | Filtre de pré-enchères | Description | Quand utiliser ce filtre |
@@ -30,7 +36,7 @@ ht-degree: 0%
 | [!UICONTROL 100% Completion Rate] | Définit un taux d&#39;achèvement minimal requis qui doit être atteint avant que vous enchérissiez sur une impression. | Utilisez ce filtre lorsque l’objectif principal de la campagne est le taux d’achèvement. Tenez compte des autres paramètres de ciblage, mais 65 % est le pourcentage de départ recommandé. |
 | [!UICONTROL Player Size - Adobe] | Définit la taille minimale requise pour le lecteur à l’aide des données de DSP. Vous pouvez enchérir sur une impression lorsque le seuil de [!UICONTROL Player Size] est atteint. | Utilisez pour vous assurer que vous diffusez un inventaire complet des lecteurs d’épisodes à l’aide de données provenant de DSP. |
 | [!UICONTROL Player Size 3rdParty (Moat/IAS)] | Définit une taille de lecteur minimale requise, à l’aide des données de [!DNL Moat] ou [!DNL Integral Ad Science] ([!DNL IAS]). Vous pouvez enchérir sur une impression lorsque le seuil de [!UICONTROL Player Size] est atteint. | Utilisez pour vous assurer que vous diffusez un inventaire complet des lecteurs d’épisodes à l’aide de données [!DNL Moat] ou [!DNL IAS] à l’échelle de la plateforme.<br><br><b>Remarque :</b> utilisez ce filtre uniquement lorsque la campagne est configurée pour utiliser des données [!DNL Moat] ou [!DNL IAS]. |
-| [!UICONTROL Viewability Adobe (MRC or [!DNL GroupM])] | Définit un pourcentage de visibilité minimal requis à l’aide des mesures et des nombres de visibilité de DSP. Vous pouvez enchérir sur une impression lorsque le seuil spécifié est atteint.<br><br><b>Remarques :</b><ul><li>Si le paramètre de [!UICONTROL Viewability Sensitivity] de la campagne est « [!UICONTROL Standard (50% of ad in view for 2 consecutive seconds)] », la norme de mesure de visibilité [!DNL Media Rating Council] (MRC) est utilisée pour la campagne. Si le paramètre [!UICONTROL Viewability Sensitivity] est défini sur « [!UICONTROL Strict (100% of ad in view & audio on for 50% duration)] », la norme de mesure de visibilité [!DNL GroupM] est utilisée pour la campagne.</li><li>Les définitions de mesure d’Adobe diffèrent des définitions tierces. Il peut donc y avoir de légères incohérences avec les données tierces.</li></ul> | La bonne pratique consiste à faire correspondre l’objectif d’optimisation et les paramètres de filtre de pré-enchères avec le paramètre [!UICONTROL Viewability Sensitivity] de la campagne. |
+| [!UICONTROL Viewability Adobe (MRC or [!DNL GroupM])] | Définit un pourcentage de visibilité minimal requis à l’aide des mesures et des nombres de visibilité de DSP. Vous pouvez enchérir sur une impression lorsque le seuil spécifié est atteint.<br><br><b>Notes :</b><ul><li>Si le paramètre de [!UICONTROL Viewability Sensitivity] de la campagne est « [!UICONTROL Standard (50% of ad in view for 2 consecutive seconds)] », la norme de mesure de visibilité [!DNL Media Rating Council] (MRC) est utilisée pour la campagne. Si le paramètre [!UICONTROL Viewability Sensitivity] est défini sur « [!UICONTROL Strict (100% of ad in view & audio on for 50% duration)] », la norme de mesure de visibilité [!DNL GroupM] est utilisée pour la campagne.</li><li>Les définitions de mesure d’Adobe diffèrent des définitions tierces. Il peut donc y avoir de légères incohérences avec les données tierces.</li></ul> | La bonne pratique consiste à faire correspondre l’objectif d’optimisation et les paramètres de filtre de pré-enchères avec le paramètre [!UICONTROL Viewability Sensitivity] de la campagne. |
 
 {style="table-layout:auto"}
 

@@ -2,13 +2,21 @@
 title: Colonnes de rapport pour les rapports de base et avancés
 description: Découvrez les colonnes de données disponibles pour les rapports de base et avancés.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '3992'
+source-wordcount: '4023'
 ht-degree: 0%
-
 ---
-
 # Colonnes de rapport pour les rapports de base et avancés
 
 | Colonne | Description |
@@ -172,7 +180,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group Status] | Statut du groupe de produits. |
 | [!UICONTROL Product Groupings] | Groupe de produits parent. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report] ; [!DNL Google Ads] les annonces de listes de produits) Identifiant du produit affiché avec l’annonce.<br><br><b>Remarque :</b> l’identifiant n’est capturé que lorsque la liste de produits inclut le paramètre de suivi `ev_plx=<GMC product ID>`, que vous devez ajouter dans [!DNL Google Merchant Center]. |
-| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Chiffre d’affaires de la mesure de conversion (par exemple, 1 pour un enregistrement ou 12 pour une commande de 12 USD). Si plusieurs unités d’enchères ont le même ID de transaction, le chiffre d’affaires de l’ID de suivi est fractionné en fonction du nombre de clics à la date de clic spécifiée (lorsque les données de clic sont disponibles). |
+| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Chiffre d’affaires de la mesure de conversion (par exemple, 1 pour un enregistrement ou 12 pour une commande USD de 12). Si plusieurs unités d’enchères ont le même ID de transaction, le chiffre d’affaires de l’ID de suivi est fractionné en fonction du nombre de clics à la date de clic spécifiée (lorsque les données de clic sont disponibles). |
 | [!UICONTROL Reach] | (Campagnes [!DNL Meta] uniquement) Nombre de personnes qui ont vu vos annonces au moins une fois. Remarque : [!DNL Meta] déduplique quotidiennement la portée des profils utilisateur. Les nombres signalés par [!DNL Meta] et par Search, Social et Commerce peuvent donc différer. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) Région ou État américain/canadien d’où proviennent les impressions ou les clics. Il est déterminé à partir de l’adresse IP de l’utilisateur. |
 | [!UICONTROL SE Creative ID] | ID d’annonce publicitaire attribué par le réseau. |

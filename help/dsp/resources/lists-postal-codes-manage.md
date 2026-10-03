@@ -4,19 +4,23 @@ description: Découvrez comment créer et gérer des listes de codes postaux pou
 feature: DSP Placements
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 405
+source-wordcount: '405'
 ht-degree: 0%
-
 ---
-
 # Gérer les listes de codes postaux
 
 Vous pouvez créer et gérer des listes de codes postaux pour des pays individuels pour le ciblage des emplacements. Ciblez ou excluez des listes de codes postaux spécifiques dans les paramètres d’emplacement.
@@ -43,33 +47,33 @@ Vous pouvez créer et gérer des listes de codes postaux pour des pays individue
 
    * Pour saisir ou coller manuellement des codes postaux à ajouter :
 
-      1. Cliquez sur **[!UICONTROL Add Postal Codes]**.
+     1. Cliquez sur **[!UICONTROL Add Postal Codes]**.
 
-      1. Saisissez ou collez jusqu’à 25 000 codes postaux, chaque code postal étant indiqué sur une ligne distincte.
+     1. Saisissez ou collez jusqu’à 25 000 codes postaux, chaque code postal étant indiqué sur une ligne distincte.
 
-      1. Cliquez sur **[!UICONTROL Validate]** pour vérifier si les codes postaux sont valides.
+     1. Cliquez sur **[!UICONTROL Validate]** pour vérifier si les codes postaux sont valides.
 
-         Tous les codes postaux non valides sont identifiés dans le [!UICONTROL Validation Results]. Seuls des codes postaux valides sont ajoutés si vous continuez.
+        Tous les codes postaux non valides sont identifiés dans le [!UICONTROL Validation Results]. Seuls des codes postaux valides sont ajoutés si vous continuez.
 
-         * Pour télécharger des codes postaux non valides au format XLSX (feuille de calcul [!DNL Microsoft Excel]), cliquez sur **[!UICONTROL Download invalid codes]**. Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
+        * Pour télécharger des codes postaux non valides au format XLSX (feuille de calcul [!DNL Microsoft Excel]), cliquez sur **[!UICONTROL Download invalid codes]**. Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
 
-      1. Cliquez sur **[!UICONTROL Add to list]**.
+     1. Cliquez sur **[!UICONTROL Add to list]**.
 
    * Pour supprimer des codes postaux spécifiques, effectuez l’une des opérations suivantes :
 
-      * Pour sélectionner les codes postaux à supprimer :
+     * Pour sélectionner les codes postaux à supprimer :
 
-         1. Cochez la case en regard de chaque code postal à supprimer de la liste.
+       1. Cochez la case en regard de chaque code postal à supprimer de la liste.
 
-         1. Cliquez sur **[!UICONTROL Remove]**.
+       1. Cliquez sur **[!UICONTROL Remove]**.
 
-         1. Dans le message de confirmation, cliquez sur **[!UICONTROL Remove]**.
+       1. Dans le message de confirmation, cliquez sur **[!UICONTROL Remove]**.
 
-      * Pour supprimer tous les codes postaux :
+     * Pour supprimer tous les codes postaux :
 
-         1. Cliquez sur **[!UICONTROL Remove All]**.
+       1. Cliquez sur **[!UICONTROL Remove All]**.
 
-         1. Dans le message de confirmation, cliquez sur **[!UICONTROL Remove All]**.
+       1. Dans le message de confirmation, cliquez sur **[!UICONTROL Remove All]**.
 
 ## Modifier une liste de codes postaux
 
@@ -81,33 +85,33 @@ Vous pouvez créer et gérer des listes de codes postaux pour des pays individue
 
    * Pour saisir ou coller manuellement des codes postaux à ajouter :
 
-      1. Cliquez sur **[!UICONTROL Add Postal Codes]**.
+     1. Cliquez sur **[!UICONTROL Add Postal Codes]**.
 
-      1. Saisissez ou collez jusqu’à 25 000 codes postaux, chaque code postal étant indiqué sur une ligne distincte.
+     1. Saisissez ou collez jusqu’à 25 000 codes postaux, chaque code postal étant indiqué sur une ligne distincte.
 
-      1. Cliquez sur **[!UICONTROL Validate]** pour vérifier si les codes postaux sont valides.
+     1. Cliquez sur **[!UICONTROL Validate]** pour vérifier si les codes postaux sont valides.
 
-         Tous les codes postaux non valides sont identifiés dans le [!UICONTROL Validation Results]. Seuls des codes postaux valides sont ajoutés si vous continuez.
+        Tous les codes postaux non valides sont identifiés dans le [!UICONTROL Validation Results]. Seuls des codes postaux valides sont ajoutés si vous continuez.
 
-         * Pour télécharger des codes postaux non valides au format XLSX (feuille de calcul [!DNL Microsoft Excel]), cliquez sur **[!UICONTROL Download invalid codes]**. Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
+        * Pour télécharger des codes postaux non valides au format XLSX (feuille de calcul [!DNL Microsoft Excel]), cliquez sur **[!UICONTROL Download invalid codes]**. Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
 
-      1. Cliquez sur **[!UICONTROL Add to list]**.
+     1. Cliquez sur **[!UICONTROL Add to list]**.
 
    * Pour supprimer des codes postaux spécifiques, effectuez l’une des opérations suivantes :
 
-      * Pour sélectionner les codes postaux à supprimer :
+     * Pour sélectionner les codes postaux à supprimer :
 
-         1. Cochez la case en regard de chaque code postal à supprimer de la liste.
+       1. Cochez la case en regard de chaque code postal à supprimer de la liste.
 
-         1. Cliquez sur **[!UICONTROL Remove]**.
+       1. Cliquez sur **[!UICONTROL Remove]**.
 
-         1. Dans le message de confirmation, cliquez sur **[!UICONTROL Remove]**.
+       1. Dans le message de confirmation, cliquez sur **[!UICONTROL Remove]**.
 
-      * Pour supprimer tous les codes postaux :
+     * Pour supprimer tous les codes postaux :
 
-         1. Cliquez sur **[!UICONTROL Remove All]**.
+       1. Cliquez sur **[!UICONTROL Remove All]**.
 
-         1. Dans le message de confirmation, cliquez sur **[!UICONTROL Remove All]**.
+       1. Dans le message de confirmation, cliquez sur **[!UICONTROL Remove All]**.
 
 ## Exporter une liste de codes postaux
 

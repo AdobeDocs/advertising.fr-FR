@@ -4,24 +4,31 @@ description: Découvrez les objectifs permettant d’atteindre les objectifs de 
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
-TQID: https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE
+autotag-review: '2026-04-14T00:06:19.870Z'
+TQID: 'https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-autotag-review: '2026-04-14T00:06:19.870Z'
-source-git-commit: 604fb0c3541ba9c3b1fdb1c3cae5464bfcf67d4d
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # (Nouvelle interface utilisateur) À propos des objectifs
 
 <!-- no subfeature tag for objectives -->
@@ -34,7 +41,7 @@ Les objectifs sont des objectifs qu’un annonceur définit pour atteindre ses o
 
 * Dans DSP, les objectifs s’affichent en tant qu’objectifs personnalisés pour les comptes DSP liés aux comptes Search, Social et Commerce. Chaque package qui utilise les objectifs d’optimisation « Retour sur dépenses publicitaires le plus élevé » ou « Coût par acquisition le plus bas » doit inclure un objectif personnalisé qui permet d’atteindre l’objectif d’optimisation global.
 
-Un objectif se compose des mesures de conversion à suivre et à optimiser, ainsi que des poids relatifs de ces mesures. Supposons, par exemple, qu’un magazine en ligne avec deux niveaux d’abonnement en ligne et un niveau d’abonnement papier et l’objectif « maximiser les bénéfices » ait trois mesures : « abonnements en ligne de base » évalués à 20 USD, « abonnements en ligne premium » évalués à 40 USD et « abonnements sur papier » évalués à 30 USD. Si le magazine souhaite donner un poids en fonction de la valeur monétaire unique de l’abonnement, les poids relatifs des mesures seraient respectivement de 1, 2 et 1,5.
+Un objectif se compose des mesures de conversion à suivre et à optimiser, ainsi que des poids relatifs de ces mesures. Supposons, par exemple, qu’un magazine en ligne avec deux niveaux d’abonnement en ligne et un niveau d’abonnement papier et l’objectif « maximiser les bénéfices » ait trois mesures : « abonnements en ligne de base » évalués à 20 USD, « abonnements en ligne premium » évalués à 40 USD et « abonnements en ligne imprimés » évalués à 30 USD. Si le magazine souhaite donner un poids en fonction de la valeur monétaire unique de l’abonnement, les poids relatifs des mesures seraient respectivement de 1, 2 et 1,5.
 
 Pour chaque mesure de l’objectif, vous pouvez :
 
@@ -64,11 +71,11 @@ Vous pouvez inclure l’un des éléments suivants dans vos objectifs :
 
 * Mesures [!DNL Google] : <!-- Search only, or might DSP-only clients also have these? -->
 
-   * [[!DNL Google Ads] des conversions suivies &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) à partir de comptes [!DNL Google Ads] synchronisés.
+  * [[!DNL Google Ads] des conversions suivies &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) à partir de comptes [!DNL Google Ads] synchronisés.
 
-   * (Annonceurs avec [[!DNL Google Analytics] intégrations](/help/search-social-commerce/admin/data-sources/data-source-about.md)) Pages vues, Sessions, Taux de rebond (calculé comme rebonds/sessions) et Durée de la session.
+  * (Annonceurs avec [[!DNL Google Analytics] intégrations](/help/search-social-commerce/admin/data-sources/data-source-about.md)) Pages vues, Sessions, Taux de rebond (calculé comme rebonds/sessions) et Durée de la session.
 
-     Dans Search, Social et Commerce, ces mesures sont automatiquement prises en compte dans les algorithmes d’offres du portefeuille.
+    Dans Search, Social et Commerce, ces mesures sont automatiquement prises en compte dans les algorithmes d’offres du portefeuille.
 
 ## Option de chargement des objectifs sur les réseaux publicitaires
 

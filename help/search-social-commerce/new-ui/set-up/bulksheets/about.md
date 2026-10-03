@@ -4,20 +4,25 @@ description: Découvrez les fonctionnalités des feuilles d’envoi groupé disp
 feature: Search Bulksheets
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 subfeature_v2:
   - id: e58024d1-d6da-420c-80af-6be211808316
+    internal-label: Bulksheets
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 0%
-
 ---
-
 # (Nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé
 
 Une feuille d’envoi groupé est un fichier qui contient des données de campagne dans un format spécifique et qui peut être utilisé pour créer ou modifier rapidement des données de structure de campagne et de groupe publicitaire, ainsi que des annonces textuelles. Vous pouvez générer (télécharger) des feuilles d’envoi groupé contenant des données pour un ou plusieurs comptes, pour des campagnes et des groupes publicitaires spécifiques, ou même pour des annonces textuelles, des emplacements et des groupes de produits spécifiques. Vous pouvez utiliser des feuilles d’envoi groupé pour gérer des jeux de données volumineux ou apporter de petites modifications. Chaque réseau publicitaire nécessite différentes colonnes d’informations.

@@ -3,27 +3,33 @@ title: Gestion des pixels de reciblage
 description: Découvrez comment créer et implémenter des pixels de reciblage à utiliser comme cibles pour les expériences publicitaires.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-TQID: https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg
+TQID: 'https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: c6a20e0e-e1b3-4d7d-b454-3943a711b15e
+    internal-label: Creative Pixels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 936
+source-wordcount: '942'
 ht-degree: 0%
-
 ---
-
 # Gestion des pixels de reciblage
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
 Vous pouvez créer un pixel de reciblage pour identifier les visiteurs sur les pages de destination ou de conversion d’un annonceur à l’aide de cookies utilisateur ou d’identifiants universels. Le pixel effectue le suivi de l’événement le plus récent que le visiteur a effectué sur une page et capture les attributs spécifiques suivis par la page pour ces visiteurs. Une fois le pixel créé, générez une balise de pixel à insérer dans les pages web appropriées pour commencer à suivre les visiteurs.<!-- Note to self: surfer id=cookie or universal ID -->
 
-Vous pouvez ensuite utiliser le pixel comme cible pour toute création dans une expérience publicitaire afin d’afficher les annonces uniquement aux utilisateurs avec des attributs spécifiés qui ont précédemment visité les pages web associées au pixel. Par exemple, vous pouvez cibler les visiteurs et visiteuses qui regardent des chaussures rouges en taille 10, si les pages web effectuent le suivi de ces valeurs d’attribut.<!-- better example? Make sure they match attribute examples below --> Les cibles au niveau de l’expérience sont appliquées conjointement avec vos options de ciblage DSP. Le comportement de ciblage hiérarchique peut varier selon le DSP.
+Vous pouvez ensuite utiliser le pixel comme cible pour toute création dans une expérience publicitaire afin d’afficher les annonces uniquement aux utilisateurs avec des attributs spécifiés qui ont précédemment visité les pages web associées au pixel. Par exemple, vous pouvez cibler les visiteurs et visiteuses qui regardent des chaussures rouges en taille 10, si les pages web effectuent le suivi de ces valeurs d’attribut.<!-- better example? Make sure they match attribute examples below --> Les cibles au niveau de l’expérience sont appliquées conjointement avec vos options de ciblage DSP. Le comportement de ciblage hiérarchique peut varier selon DSP.
 
 Les profils de reciblage sont stockés pendant 180 jours.
 

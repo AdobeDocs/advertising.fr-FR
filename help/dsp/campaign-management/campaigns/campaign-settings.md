@@ -3,26 +3,33 @@ title: Paramètres de la campagne
 description: Voir les descriptions des paramètres de campagne disponibles.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-TQID: https://experienceleague.adobe.com/tLMBR-i1XpRHeFkfrhh2CtCQI4K0rPgCHqkZv8dk4cA
+TQID: 'https://experienceleague.adobe.com/tLMBR-i1XpRHeFkfrhh2CtCQI4K0rPgCHqkZv8dk4cA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1437
+source-wordcount: '1454'
 ht-degree: 0%
-
 ---
-
 # Paramètres de la campagne
 
 ## [!UICONTROL Basic Campaign Details]
@@ -47,23 +54,23 @@ ht-degree: 0%
 
 * **[!UICONTROL How would you like to compute agency fees?]:** (Campagnes avec gestion des marges uniquement) Comment calculer les frais d’agence, qui sont la partie du budget brut de la campagne qui est retenue et non incluse dans les dépenses nettes :
 
-   * *[!UICONTROL Margin % of Total Budget]:* (valeur par défaut) Calculez les frais en pourcentage des dépenses brutes. Spécifiez le [!UICONTROL Agency Fee Type] (fixe ou composite) et le [!UICONTROL Margin %] ou le [!UICONTROL Composite Margin %].
+  * *[!UICONTROL Margin % of Total Budget]:* (valeur par défaut) Calculez les frais en pourcentage des dépenses brutes. Spécifiez le [!UICONTROL Agency Fee Type] (fixe ou composite) et le [!UICONTROL Margin %] ou le [!UICONTROL Composite Margin %].
 
-   * *[!UICONTROL Apply Markup % on top of individual cost components]:* Calculez les frais sous la forme d&#39;un pourcentage spécifié du coût des médias, des données et d&#39;autres coûts, et/ou des frais techniques [!DNL Adobe]. Spécifiez le [!UICONTROL Markup %] et sélectionnez les composants sur lesquels appliquer le balisage.
+  * *[!UICONTROL Apply Markup % on top of individual cost components]:* Calculez les frais sous la forme d&#39;un pourcentage spécifié du coût des médias, des données et d&#39;autres coûts, et/ou des frais techniques [!DNL Adobe]. Spécifiez le [!UICONTROL Markup %] et sélectionnez les composants sur lesquels appliquer le balisage.
 
 * **[!UICONTROL Agency Fee Type]:** (campagnes qui utilisent [!UICONTROL Margin % of Total Budget]) Type de frais d’agence.
 
-   * *[!UICONTROL Fixed]:* (valeur par défaut) Permet à DSP de retenir un pourcentage fixe des dépenses brutes sous forme de frais d’agence. Spécifiez la [!UICONTROL Margin %].
+  * *[!UICONTROL Fixed]:* (valeur par défaut) Permet à DSP de retenir un pourcentage fixe des dépenses brutes sous forme de frais d’agence. Spécifiez la [!UICONTROL Margin %].
 
-   * *[!UICONTROL Composite]:* permet à DSP de retenir un pourcentage des dépenses brutes pour tenir compte à la fois des frais d’agence et des frais techniques [!DNL Adobe]. Spécifiez la [!UICONTROL Composite Margin %].
+  * *[!UICONTROL Composite]:* permet à DSP de retenir un pourcentage des dépenses brutes pour tenir compte à la fois des frais d’agence et des frais techniques [!DNL Adobe]. Spécifiez la [!UICONTROL Composite Margin %].
 
 * **[!UICONTROL Margin %]:** (campagnes qui utilisent des [!UICONTROL Margin % of Total Budget] avec des marges fixes) Pourcentage des dépenses brutes à retenir en tant que frais d’agence. Toute modification de la valeur de la marge est appliquée aux dépenses brutes futures uniquement et non aux dépenses brutes historiques pour la campagne. La valeur [!UICONTROL Estimated Tax Withholding] est exclue des dépenses brutes avant l&#39;application de la marge. Consultez les exemples suivants, qui supposent que la campagne ne dépense pas trop ou ne dépense pas trop.
 
-   * Exemple 1 : supposons que le [!UICONTROL Gross Budget] soit `100 USD` et que le [!UICONTROL Margin %] soit `5%` tout au long du vol. À la fin du vol de la campagne, les frais d’agence sont calculés comme `5 USD` (ce qui est `5% of 100 USD`) et les dépenses nettes sont `95 USD` (ce qui est `campaign budget [100 USD] - agency fees [5 USD]`).
+  * Exemple 1 : supposons que le [!UICONTROL Gross Budget] soit `100 USD` et que le [!UICONTROL Margin %] soit `5%` tout au long du vol. À la fin du vol de la campagne, les frais d’agence sont calculés comme `5 USD` (ce qui est `5% of 100 USD`) et les dépenses nettes sont `95 USD` (ce qui est `campaign budget [100 USD] - agency fees [5 USD]`).
 
-   * Exemple 2 avec des modifications de la marge : pour la même campagne, supposons que [!UICONTROL Margin %] ait été modifié de `5%` en `10%` lorsque les dépenses brutes ont été `40 USD`. Pour la période précédant le changement, les frais d&#39;agence sont calculés comme `2 USD` (ce qui est `5% of 40 USD`); pour la période suivant le changement, les frais d&#39;agence sont calculés comme `6 USD` (ce qui est `10% of 60 USD`). Le total des frais d&#39;agence est calculé comme `8 USD` (ce qui est `2 USD + 6 USD`), et les dépenses nettes sont `92 USD` (ce qui est `campaign budget [100 USD] - total agency fees [8 USD]`).
+  * Exemple 2 avec des modifications de la marge : pour la même campagne, supposons que [!UICONTROL Margin %] ait été modifié de `5%` en `10%` lorsque les dépenses brutes ont été `40 USD`. Pour la période précédant le changement, les frais d&#39;agence sont calculés comme `2 USD` (ce qui est `5% of 40 USD`); pour la période suivant le changement, les frais d&#39;agence sont calculés comme `6 USD` (ce qui est `10% of 60 USD`). Le total des frais d&#39;agence est calculé comme `8 USD` (ce qui est `2 USD + 6 USD`), et les dépenses nettes sont `92 USD` (ce qui est `campaign budget [100 USD] - total agency fees [8 USD]`).
 
-   * Exemple 3 avec retenue d’impôt : supposons que la [!UICONTROL Gross Budget] soit `100 USD`, que la [!UICONTROL Estimated Tax Withholding] à la fin du vol de campagne soit `10 USD` et que la [!UICONTROL Margin %] soit `5%` tout au long du vol. À la fin du vol de la campagne, les frais d’agence sont calculés comme `4.5 USD` (ce qui est `5% of (campaign budget [100 USD] - tax withholding [USD 10])`) et les dépenses nettes sont `85.5 USD` (ce qui est `campaign budget [100 USD] - agency fees [4.5 USD] - tax withholding [10 USD]`).
+  * Exemple 3 avec retenue d’impôt : supposons que la [!UICONTROL Gross Budget] soit `100 USD`, que la [!UICONTROL Estimated Tax Withholding] à la fin du vol de campagne soit `10 USD` et que la [!UICONTROL Margin %] soit `5%` tout au long du vol. À la fin du vol de la campagne, les frais d’agence sont calculés comme `4.5 USD` (ce qui est `5% of (campaign budget [100 USD] - tax withholding [USD 10])`) et les dépenses nettes sont `85.5 USD` (ce qui est `campaign budget [100 USD] - agency fees [4.5 USD] - tax withholding [10 USD]`).
 
 * **[!UICONTROL Composite Margin %]:** (campagnes qui utilisent des [!UICONTROL Margin % of Total Budget] avec des marges composites) Pourcentage des dépenses brutes qui, combinées aux frais techniques et aux frais d’agence [!DNL Adobe], doivent être retenues. Les frais d’agence sont calculés en soustrayant les frais techniques Adobe du montant de la marge composite. Toute modification de la valeur de la marge composite est appliquée aux dépenses brutes futures uniquement et non aux dépenses brutes historiques pour la campagne. La valeur [!UICONTROL Estimated Tax Withholding] est exclue des dépenses brutes avant l&#39;application de la marge composite.
 
@@ -145,7 +152,7 @@ Pour estimer les taxes à retenir :
 
 #### Vérification de l’audience
 
-**[!UICONTROL Comscore Campaign Ratings]:** (facultatif) Permet la mesure et le compte rendu des [!DNL Comscore] validés [!DNL Campaign Ratings] de la vérification de l’audience, à l’aide des paramètres spécifiés. Des frais supplémentaires s’appliquent.
+**[!UICONTROL Comscore Campaign Ratings]:** (facultatif) Permet la mesure et le compte rendu des [!DNL Campaign Ratings] validés [!DNL Comscore] de la vérification de l’audience, à l’aide des paramètres spécifiés. Des frais supplémentaires s’appliquent.
 
 * **[!UICONTROL Target Gender]:** genre à cibler : *[!UICONTROL Both]* (valeur par défaut), *[!UICONTROL Male]* ou *[!UICONTROL Female]*
 

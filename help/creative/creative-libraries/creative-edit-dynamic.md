@@ -3,18 +3,24 @@ title: Modification d’un élément créatif dynamique dans une bibliothèque d
 description: Découvrez comment modifier un contenu créatif dynamique dans une bibliothèque de contenu créatif.
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
-TQID: https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y
+TQID: 'https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '322'
 ht-degree: 0%
-
 ---
-
 # Modification d’un élément créatif dynamique dans une bibliothèque de contenu créatif
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
@@ -37,25 +43,25 @@ ht-degree: 0%
 
    * Modifiez le contenu :
 
-      * (Affichage des annonces uniquement) Pour modifier la valeur d’une cellule dans le tableau, cliquez à l’intérieur de la cellule et modifiez la valeur. Cliquez en dehors de la cellule ou appuyez sur la touche **[!DNL Enter]** pour enregistrer vos modifications.
+     * (Affichage des annonces uniquement) Pour modifier la valeur d’une cellule dans le tableau, cliquez à l’intérieur de la cellule et modifiez la valeur. Cliquez en dehors de la cellule ou appuyez sur la touche **[!DNL Enter]** pour enregistrer vos modifications.
 
-      * Pour marquer un seul produit comme produit par défaut<!--Explain what this means. --> maintenez le curseur au-dessus de la ligne et cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+     * Pour marquer un seul produit comme produit par défaut<!--Explain what this means. --> maintenez le curseur au-dessus de la ligne et cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
 
-      * (Lorsque l’annonce publicitaire comprend plusieurs offres) Pour marquer plusieurs produits comme produits par défaut, sélectionnez les lignes (jusqu’au nombre d’offres) et cliquez sur **[!UICONTROL Set as Default]** dans la barre d’outils des actions en masse.
+     * (Lorsque l’annonce publicitaire comprend plusieurs offres) Pour marquer plusieurs produits comme produits par défaut, sélectionnez les lignes (jusqu’au nombre d’offres) et cliquez sur **[!UICONTROL Set as Default]** dans la barre d’outils des actions en masse.
 
-      * Pour supprimer un produit du catalogue, maintenez le curseur sur la ligne et cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
+     * Pour supprimer un produit du catalogue, maintenez le curseur sur la ligne et cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
 
-      * (Lorsque l’annonce publicitaire comprend plusieurs offres) Pour supprimer plusieurs produits du catalogue, sélectionnez les lignes (jusqu’au nombre d’offres) et cliquez sur **[!UICONTROL Delete Row]** dans la barre d’outils d’actions en masse.
+     * (Lorsque l’annonce publicitaire comprend plusieurs offres) Pour supprimer plusieurs produits du catalogue, sélectionnez les lignes (jusqu’au nombre d’offres) et cliquez sur **[!UICONTROL Delete Row]** dans la barre d’outils d’actions en masse.
 
 1. Enregistrez les contenus publicitaires :
 
    * Pour enregistrer les publicités et les ajouter à un [lot de contenu créatif](bundle-manage.md) dans la bibliothèque :
 
-      1. Cliquez sur **[!UICONTROL Save and Attach to Bundle]**.
+     1. Cliquez sur **[!UICONTROL Save and Attach to Bundle]**.
 
-      1. Cliquez sur **[!UICONTROL Save]** pour enregistrer les publicités.
+     1. Cliquez sur **[!UICONTROL Save]** pour enregistrer les publicités.
 
-      1. Sélectionnez les lots, puis cliquez sur **[!UICONTROL Attach Creative to Bundles]**.
+     1. Sélectionnez les lots, puis cliquez sur **[!UICONTROL Attach Creative to Bundles]**.
 
    * Pour enregistrer les publicités et quitter la configuration, cliquez sur **[!UICONTROL Save]**, puis cliquez de nouveau sur **[!UICONTROL Save]**.
 

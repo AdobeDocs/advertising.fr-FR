@@ -1,23 +1,28 @@
 ---
-title: 'Données de feuille d’envoi groupé requises pour les comptes  [!DNL Google Ads] '
-description: Référencez les champs d’en-tête et de données obligatoires dans les feuilles d’envoi groupé pour les comptes  [!DNL Google Ads] .
+title: Données de feuille d’envoi groupé requises pour les comptes [!DNL Google Ads]
+description: Référencez les champs d’en-tête et de données obligatoires dans les feuilles d’envoi groupé pour les comptes [!DNL Google Ads].
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA
+TQID: 'https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a534a6eb822a22dcff7ca7ca9e8dcd4f3d75712c
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 8027
+source-wordcount: '8101'
 ht-degree: 0%
-
 ---
-
 # Annexe - Données de feuille d’envoi groupé requises pour les comptes [!DNL Google Ads]
 
 Pour créer et mettre à jour [!DNL Google Ads] données de campagne en bloc, vous pouvez utiliser des fichiers de feuille d’envoi groupé Search, Social et Commerce formatés spécifiquement pour les comptes [!DNL Google Ads]. Vous pouvez a) [générer des fichiers de feuilles de support pour les comptes existants](../bulksheet-download.md) au format de fichier requis ou b) les créer manuellement (voir « [Formats de fichiers de feuilles de support pris en charge](bulksheet-file-formats.md) » pour obtenir des informations générales sur les formats de fichiers pris en charge).
@@ -75,7 +80,7 @@ Add in when released:
 | [!UICONTROL Location Type] | (Lorsque vous incluez un emplacement) Le [type d’emplacement](https://developers.google.com/google-ads/api/data/geotargets). |
 | [!UICONTROL Device] | Type d’appareil pour lequel des ajustements d’offre sont effectués au niveau de la campagne ou du groupe publicitaire : <i>[!UICONTROL smartphone]</i>, <i>[!UICONTROL tablet]</i> ou <i>[!UICONTROL desktop]</i>. |
 | [!UICONTROL Bid Adjustment] | <p>(Lorsque vous incluez une cible [!UICONTROL Location], [!UICONTROL Device] ou [!UICONTROL RLSA]) Ajuster les enchères pour des annonces à un emplacement spécifique, sur un type d’appareil spécifique ou avec une cible d’audience spécifique :</p><ul><li><p>Pour utiliser l&#39;enchère par mot-clé (différence de 0 %), entrez 0. Pour les nouvelles cibles, vous pouvez également laisser ce champ vide.</p></li><li><p>Pour utiliser une enchère différente pour cette cible, entrez le pourcentage d&#39;augmentation ou de diminution des enchères.</p></li><ul><li><p>Pour les cibles de localisation et de RLSA, les pourcentages valides sont compris entre -90 et 900.</p></li><li><p>Pour les ajustements d’enchères d’appareil, les pourcentages valides sont les suivants :</p></li><ul><li><p>(Campagnes)-100 (pour ne pas enchérir sur des annonces sur le type d’appareil) ou de -90 à 900.</p></li><li><p>(Groupes publicitaires) -100 pour les smartphones et les tablettes (pour ne pas enchérir sur le type d’appareil), et de -90 à 900 pour tous les types d’appareils.</p></li></ul></ul><li><p>(Campagnes et groupes publicitaires existants) Pour utiliser l’ajustement d’enchère existant, laissez ce champ vide.</p></li></ul> |
-| [!UICONTROL Adobe Rec Bid Adjustment] | (Inclus dans les feuilles d’envoi groupé générées à titre d’information) Ajustement d’offre en lecture seule recommandé par Adobe pour la cible de l’emplacement au niveau de la campagne ou un RLSA. Il est calculé uniquement lorsque la campagne se trouve dans un portefeuille avec un objectif qui utilise des mesures de conversion pondérées (et non l’objectif [!UICONTROL Maximize Clicks]) et que la campagne contient au moins deux cibles d’emplacement ou RLSA avec au moins cinq clics ou un coût de 5 USD au cours des 90 derniers jours.</p><p>Si vous souhaitez modifier manuellement une cible d’emplacement ou un RLSA pour utiliser la valeur recommandée, attendez au moins deux semaines après avoir créé la cible d’emplacement ou le RLSA pour permettre une collecte de données suffisante, et ne modifiez pas la valeur plus d’une fois par semaine. |
+| [!UICONTROL Adobe Rec Bid Adjustment] | (Inclus dans les feuilles d’envoi groupé générées à titre d’information) Ajustement d’offre en lecture seule recommandé par Adobe pour la cible de l’emplacement au niveau de la campagne ou un RLSA. Il est calculé uniquement lorsque la campagne se trouve dans un portfolio avec un objectif qui utilise des mesures de conversion pondérées (et non l’objectif [!UICONTROL Maximize Clicks]) et que la campagne contient au moins deux cibles d’emplacement ou RLSA avec au moins cinq clics ou 5 USD de coût au cours des 90 derniers jours.</p><p>Si vous souhaitez modifier manuellement une cible d’emplacement ou un RLSA pour utiliser la valeur recommandée, attendez au moins deux semaines après avoir créé la cible d’emplacement ou le RLSA pour permettre une collecte de données suffisante, et ne modifiez pas la valeur plus d’une fois par semaine. |
 | [!UICONTROL Device Targets] | <p>(Types de campagne hérités uniquement) Appareils sur lesquels la publicité peut être affichée : <i>[!UICONTROL All]</i>, <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Smartphones]</i> ou <i>[!UICONTROL Tablets]</i>. Pour les nouvelles campagnes, la valeur par défaut est <i>[!UICONTROL All]</i>.</p> |
 | [!UICONTROL Device OS Targets (Google Adwords)] | (Types de campagne hérités uniquement ; applicable lorsque les cibles d’appareil incluent des « smartphones » ou des « tablettes ») Les systèmes d’exploitation sur lesquels l’annonce publicitaire peut être affichée : <i>[!UICONTROL All]</i>, <i>[!UICONTROL Android]</i>, <i>[!UICONTROL iOS]</i> ou <i>[!UICONTROL Palm]</i>. Pour les nouvelles campagnes, la valeur par défaut est <i>[!UICONTROL All]</i>.</p> |
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>(Types de campagne hérités uniquement ; applicable lorsque les [!UICONTROL Device Targets] incluent « [!UICONTROL All] » ou « [!UICONTROL Smartphones] ») Opérateurs mobiles auxquels les smartphones peuvent être connectés : <i>[!UICONTROL All]</i>, ou un ou plusieurs opérateurs indiqués par &lt;c<i>code d’opérateur</i>>,&lt;<i>code de pays</i>> (par exemple T-Mobile, US) à l’aide de la liste <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">opérateurs et codes disponibles pour les [!DNL Google Ads]</a>. Séparez plusieurs opérateurs par des points-virgules (tels que T-Mobile, US ; T-Mobile, GB). Pour les nouvelles campagnes, la valeur par défaut est <i>[!UICONTROL All]</i>.</p> |

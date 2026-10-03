@@ -3,24 +3,30 @@ title: Sécurité de la marque et qualité des médias
 description: En savoir plus sur les fonctionnalités de sécurité de la marque et de qualité multimédia.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-TQID: https://experienceleague.adobe.com/-buJmAx0gdtqiPETqfBFcr90LAHly8BNyjM6lVO-JKc
+TQID: 'https://experienceleague.adobe.com/-buJmAx0gdtqiPETqfBFcr90LAHly8BNyjM6lVO-JKc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47596cdd765ba7da7c10e21388f0230327b49c01
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: '1445'
 ht-degree: 0%
-
 ---
-
 # Sécurité de la marque et qualité des médias
 
 <!-- Check on logo sizes in staging environment -- I made them all 100 pixels high except for DoubleVerify, which is 150 (harder to see at 100), but some instances look larger in VS Code. -->
@@ -63,19 +69,19 @@ Le mappage des stocks est le processus d’examen et d’intégration détaillé
 
 * **Mappage :** notre équipe d’inventaire examine attentivement chaque domaine et évalue des aspects tels que :
 
-   * Sécurité de la marque
+  * Sécurité de la marque
 
-   * Vérification du type d’annonce publicitaire
+  * Vérification du type d’annonce publicitaire
 
-   * Contenu générique, domaines en double et diffusion de fausses publicités
+  * Contenu générique, domaines en double et diffusion de fausses publicités
 
 * **Hiérarchisation :** nous examinons de manière holistique la présence des marques dans l’écosystème global pour classer les stocks à différents niveaux. Vous pouvez [cibler vos emplacements](/help/dsp/campaign-management/placements/placement-settings.md) sur ces niveaux pour le niveau de portée souhaité :
 
-   * **[!UICONTROL T1]** — Sites de marque reconnus internationalement
+  * **[!UICONTROL T1]** — Sites de marque reconnus internationalement
 
-   * **[!UICONTROL T2]** : sites attrayants, actuels, à jour, sans contenu créé par l&#39;utilisateur et généralement dépourvus de reconnaissance internationale
+  * **[!UICONTROL T2]** : sites attrayants, actuels, à jour, sans contenu créé par l&#39;utilisateur et généralement dépourvus de reconnaissance internationale
 
-   * **[!UICONTROL T3]** — Contenu créé par l&#39;utilisateur et contenu spécialisé
+  * **[!UICONTROL T3]** — Contenu créé par l&#39;utilisateur et contenu spécialisé
 
 * **Catégorisation des sites :** pour faciliter le ciblage et le blocage du contenu, nous balisons chaque propriété avec une catégorie de site définie par DSP en fonction du contenu de la propriété. Vous pouvez [cibler ou exclure ces catégories de site pour chaque emplacement](/help/dsp/campaign-management/placements/placement-settings.md) en fonction des objectifs d’emplacement.
 

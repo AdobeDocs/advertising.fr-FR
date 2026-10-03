@@ -1,20 +1,23 @@
 ---
 title: Affichage et création de ressources publicitaires à partir de votre [!UICONTROL Asset Library]
-description: Découvrez comment afficher et créer des ressources d’image, de vidéo et de texte réutilisables pour vos bibliothèques de ressources au niveau  [!DNL Google Ads]  compte et  [!DNL Microsoft Advertising]  compte.
+description: Découvrez comment afficher et créer des ressources d’image, de vidéo et de texte réutilisables pour vos bibliothèques de ressources [!DNL Google Ads] et au niveau du compte [!DNL Microsoft Advertising].
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-TQID: https://experienceleague.adobe.com/8dYDiQr2TaX19uvghunW89MnrpAdds3-se4XdWyboIk
+TQID: 'https://experienceleague.adobe.com/8dYDiQr2TaX19uvghunW89MnrpAdds3-se4XdWyboIk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: '344'
 ht-degree: 0%
-
 ---
-
 # Affichage et création de ressources publicitaires à partir de votre [!UICONTROL Asset Library]
 
 *Comptes [!DNL Google Ads] et [!DNL Microsoft Advertising] uniquement*
@@ -39,23 +42,23 @@ Vous pouvez utiliser n’importe quelle ressource pour vos campagnes de type Per
 
       * Pour les ressources d’image :
 
-         1. Cliquez sur **[!UICONTROL +]** et sélectionnez des images sur votre appareil ou réseau.
+        1. Cliquez sur **[!UICONTROL +]** et sélectionnez des images sur votre appareil ou réseau.
 
-            Chaque image peut faire au maximum 10 Mo. Vous pouvez charger jusqu’à 200 Mo d’images à la fois.
+           Chaque image peut faire au maximum 10 Mo. Vous pouvez charger jusqu’à 200 Mo d’images à la fois.
 
-         1. Pour chaque image :
+        1. Pour chaque image :
 
-            1. Cliquez sur ![Crop](/help/search-social-commerce/assets/crop.png "Crop").
+           1. Cliquez sur ![Crop](/help/search-social-commerce/assets/crop.png "Crop").
 
-            1. Sélectionnez les proportions.
+           1. Sélectionnez les proportions.
 
-            1. Faites glisser et positionnez la zone de recadrage selon vos besoins pour sélectionner la partie visible de l’image, puis redimensionnez la partie visible de l’image selon vos besoins, si possible.
+           1. Faites glisser et positionnez la zone de recadrage selon vos besoins pour sélectionner la partie visible de l’image, puis redimensionnez la partie visible de l’image selon vos besoins, si possible.
 
-            1. (Facultatif) Sélectionnez d’autres proportions et, éventuellement, repositionnez et redimensionnez l’image selon les besoins pour chaque proportion sélectionnée.
+           1. (Facultatif) Sélectionnez d’autres proportions et, éventuellement, repositionnez et redimensionnez l’image selon les besoins pour chaque proportion sélectionnée.
 
-               Une ressource est créée pour chaque format sélectionné.
+              Une ressource est créée pour chaque format sélectionné.
 
-            1. Cliquez sur **[!UICONTROL Proceed]**.
+           1. Cliquez sur **[!UICONTROL Proceed]**.
 
       * Pour les ressources vidéo, saisissez l’URL d’une vidéo [!DNL YouTube] d’au moins 10 secondes. Pour ajouter une autre ressource vidéo, cliquez sur **+ Ajouter** puis saisissez une autre URL.
 

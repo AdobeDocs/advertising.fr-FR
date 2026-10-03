@@ -1,24 +1,30 @@
 ---
-title: Formats de suivi des clics pour  [!DNL Google Ads]
-description: Découvrez les formats de suivi des clics pour les comptes  [!DNL Google Ads] .
+title: Formats de suivi des clics pour les [!DNL Google Ads]
+description: Découvrez les formats de suivi des clics pour les comptes [!DNL Google Ads].
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/zlglYQa3JRxc5hz07rdjPQUMk7ogdrFKf2mxVkByCjU
+TQID: 'https://experienceleague.adobe.com/zlglYQa3JRxc5hz07rdjPQUMk7ogdrFKf2mxVkByCjU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 24a5511c46132725ff82dac81e671ab4ec6f4482
+    internal-label: Customer experience
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: '579'
 ht-degree: 0%
-
 ---
-
 # Formats de suivi des clics pour les [!DNL Google Ads]
 
 Vous trouverez ci-dessous les formats de modèle de suivi de base et de suffixe de page de destination (suffixe d’URL final) requis par Search, Social et Commerce pour [!DNL Google Ads].
@@ -79,15 +85,15 @@ Les comptes qui utilisent le suivi des conversions Adobe Advertising doivent inc
 
 * Lorsque l’annonceur dispose d’une intégration Adobe Analytics, le suffixe doit inclure l’un des éléments suivants :
 
-   * [!DNL Google Ads] les comptes qui utilisent le dernier [format d’identifiant AMO](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#dimension-items) (commençant par `s_kwcid`), qui prend en charge le reporting au niveau de la campagne et du groupe publicitaire pour les campagnes de type Performances max , ainsi que les campagnes sous forme de brouillons et d’expériences :
+  * [!DNL Google Ads] les comptes qui utilisent le dernier [format d’identifiant AMO](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#dimension-items) (commençant par `s_kwcid`), qui prend en charge le reporting au niveau de la campagne et du groupe publicitaire pour les campagnes de type Performances max , ainsi que les campagnes sous forme de brouillons et d’expériences :
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+    `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Si le compte possède une implémentation AMO ID côté serveur et que le compte ou le paramètre de campagne « [!UICONTROL Auto Upload] » est activé, le paramètre est automatiquement ajouté. Sinon, vous devez l’ajouter manuellement. Voir « [Adobe Advertising IDs utilisés par  [!DNL Analytics]](/help/integrations/analytics/ids.md). »
+    Si le compte possède une implémentation AMO ID côté serveur et que le compte ou le paramètre de campagne « [!UICONTROL Auto Upload] » est activé, le paramètre est automatiquement ajouté. Sinon, vous devez l’ajouter manuellement. Voir « [Adobe Advertising IDs utilisés par  [!DNL Analytics]](/help/integrations/analytics/ids.md). »
 
-   * Tous les autres comptes [!DNL Google Ads] :
+  * Tous les autres comptes [!DNL Google Ads] :
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+    `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * Lorsque l’annonceur ne dispose pas d’une intégration Adobe Analytics, le suffixe doit inclure les éléments suivants :
 

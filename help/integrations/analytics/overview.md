@@ -1,30 +1,41 @@
 ---
-title: Présentation de  [!DNL Analytics for Advertising]
-description: Présentation de  [!DNL Analytics for Advertising]
+title: Présentation de [!DNL Analytics for Advertising]
+description: Présentation de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-TQID: https://experienceleague.adobe.com/OHxJO1mtbzOtt5oGDJF26xSuVLG-HnRDdIGDrUH2pzk
+TQID: 'https://experienceleague.adobe.com/OHxJO1mtbzOtt5oGDJF26xSuVLG-HnRDdIGDrUH2pzk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
+    internal-label: Audience segmentation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1310
+source-wordcount: '1310'
 ht-degree: 0%
-
 ---
-
 # Présentation de [!DNL Analytics for Advertising]
 
 *Annonceurs avec Advertising Creative, Advertising DSP et Advertising Search, Social et Commerce*
@@ -73,10 +84,10 @@ Les dimensions Adobe Advertising sont ajoutées avec le suffixe « (AMO ID) » (
 Sans nécessiter de pixels supplémentaires, [!DNL Analytics for Advertising] permet une meilleure optimisation et une segmentation plus facile de l’audience en envoyant deux signaux principaux à Adobe Advertising :
 
 * Mesures de conversion à utiliser comme signaux d’offre :
-   * mesures standard, telles que [!UICONTROL Revenue] et [!UICONTROL Cart Views].
-   * mesures d’engagement du site, telles que les mesures de pages vues et de visites.
-   * mesures de chiffre d’affaires personnalisé.
-   * mesures de chiffre d’affaires réservé.
+  * mesures standard, telles que [!UICONTROL Revenue] et [!UICONTROL Cart Views].
+  * mesures d’engagement du site, telles que les mesures de pages vues et de visites.
+  * mesures de chiffre d’affaires personnalisé.
+  * mesures de chiffre d’affaires réservé.
 * Segments créés dans [!DNL Analytics] et publiés sur CX Enterprise.
 
   Vous pouvez utiliser des segments de [!DNL Analytics] pour le reciblage de site propriétaire dans les annonces de [!DNL DSP], de [!DNL Creative] et de référencement payant.
@@ -99,13 +110,13 @@ Consultez « [&#x200B; Mesures Analytics dans Adobe Advertising &#x200B;](analyt
 
 ### Segments Analytics pour le reciblage du site
 
-Adobe Advertising peut ingérer des segments [!DNL Analytics] à des fins de remarketing pour des annonces [!DNL Creative], [!DNL DSP] et [!DNL Search, Social, & Commerce] à l’aide de l’intégration native des audiences d’entreprise CX entre [!DNL Analytics] et l’entreprise CX.
+Adobe Advertising peut ingérer des segments [!DNL Analytics] à des fins de remarketing pour des annonces [!DNL Creative], [!DNL DSP] et [!DNL Search, Social, & Commerce] à l’aide de l’intégration native des audiences CX Enterprise entre [!DNL Analytics] et CX Enterprise.
 
-Pour accéder aux segments [!DNL Analytics], un compte d’annonceur doit activer le [service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Lorsque le service d’ID est activé, tous les segments CX Enterprise sont disponibles dans Adobe Advertising dès qu’ils sont traités. Les segments CX Enterprise comprennent les segments créés dans [!DNL Analytics] et publiés sur CX Enterprise, les segments créés dans Adobe Audience Manager, les segments créés dans CX Enterprise à l’aide de l’[!DNL People core service] et les segments créés dans Adobe Experience Platform et envoyés à Adobe Advertising via Audience Manager.
+Pour accéder aux segments [!DNL Analytics], un compte d’annonceur doit activer le [service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Lorsque le service d’ID est activé, tous les segments CX Enterprise sont disponibles dans Adobe Advertising dès qu’ils sont traités. Les segments CX Enterprise incluent les segments créés dans [!DNL Analytics] et publiés sur CX Enterprise, les segments créés dans Adobe Audience Manager, les segments créés dans CX Enterprise à l’aide de l’[!DNL People core service] et les segments créés dans Adobe Experience Platform et envoyés à Adobe Advertising via Audience Manager.
 
 [!DNL Analytics] segments sont disponibles dans les 24 heures et sont mis à jour quotidiennement.
 
-Pour plus d’informations sur le service CX Enterprise Audiences, voir [CX Enterprise Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr).
+Pour plus d’informations sur le service Audiences CX Enterprise, voir [Audiences CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr).
 
 ## Exemples d’utilisation de l’intégration {#integration-examples}
 

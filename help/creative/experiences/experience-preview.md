@@ -3,21 +3,29 @@ title: Prévisualisation d’une expérience
 description: Découvrez comment prévisualiser les contenus publicitaires dans une expérience publicitaire.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-TQID: https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI
+TQID: 'https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 554
+source-wordcount: '552'
 ht-degree: 0%
-
 ---
-
 # Prévisualisation d’une expérience
 
 Vous pouvez prévisualiser les contenus publicitaires avec une taille d’annonce spécifique que les visiteurs cibles verront pour une expérience, y compris tous les liens hypertexte. Pour les expériences avec le ciblage de l’arborescence de décision, vous pouvez prévisualiser un élément créatif unique, les éléments créatifs d’une branche particulière (type de cible) ou tous les éléments créatifs de l’expérience. Pour les expériences sans ciblage d’arbre de décision, vous pouvez prévisualiser une seule création. <!-- verify -->
@@ -26,11 +34,11 @@ Vous pouvez prévisualiser les contenus publicitaires avec une taille d’annonc
 
 * Lorsque vous prévisualisez un seul contenu créatif et que plusieurs contenus créatifs correspondent aux critères, le contenu créatif affiché à chaque actualisation de l’aperçu est basé sur les paramètres de rotation des annonces publicitaires de l’expérience :
 
-   * Pour la rotation algorithmique des publicités, le contenu créatif est sélectionné en fonction de l’objectif d’optimisation.
+  * Pour la rotation algorithmique des publicités, le contenu créatif est sélectionné en fonction de l’objectif d’optimisation.
 
-   * Pour la rotation d’annonces planifiées, le premier élément créatif du planning s’affiche. Vous pouvez continuer à actualiser l’aperçu pour continuer tout au long de la séquence.
+  * Pour la rotation d’annonces planifiées, le premier élément créatif du planning s’affiche. Vous pouvez continuer à actualiser l’aperçu pour continuer tout au long de la séquence.
 
-   * Pour la rotation pondérée des annonces, le contenu publicitaire est sélectionné en fonction des poids spécifiés (par exemple, 80 % de chances que Creative A s’affiche et 20 % de chances que Creative B s’affiche) à chaque fois.
+  * Pour la rotation pondérée des annonces, le contenu publicitaire est sélectionné en fonction des poids spécifiés (par exemple, 80 % de chances que Creative A s’affiche et 20 % de chances que Creative B s’affiche) à chaque fois.
 
 ## Prévisualiser des contenus publicitaires dans une expérience avec le ciblage de l’arborescence de décision
 
@@ -48,24 +56,24 @@ Vous pouvez prévisualiser les contenus publicitaires avec une taille d’annonc
 
    * Pour prévisualiser un élément créatif unique :
 
-      1. Cliquez sur **[!UICONTROL Creative]**.
+     1. Cliquez sur **[!UICONTROL Creative]**.
 
-      1. Sélectionnez la taille de l’annonce publicitaire.
+     1. Sélectionnez la taille de l’annonce publicitaire.
 
-      1. Dans la section [!UICONTROL Decision Tree Targeting] , sélectionnez la cible créative.
+     1. Dans la section [!UICONTROL Decision Tree Targeting] , sélectionnez la cible créative.
 
    * Pour prévisualiser les contenus publicitaires d’une branche spécifique :
 
-      1. Cliquez sur **[!UICONTROL Particular branch]**.
+     1. Cliquez sur **[!UICONTROL Particular branch]**.
 
-      1. Sélectionnez la taille de l’annonce publicitaire.
+     1. Sélectionnez la taille de l’annonce publicitaire.
 
      <!--
       I don't see this as of 2/3:
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
-      1. Sélectionnez la cible créative.
+     1. Sélectionnez la cible créative.
 
    * Pour prévisualiser tous les contenus publicitaires dans l’expérience, cliquez sur **[!UICONTROL Entire Tree]**.
 

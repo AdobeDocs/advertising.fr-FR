@@ -1,27 +1,37 @@
 ---
-title: Pourquoi les données de canal peuvent-elles varier entre Adobe Advertising et  [!DNL Marketing Channels]
-description: Découvrez pourquoi les données de canal suivies par l’ID AMO peuvent différer des données de canal suivies par  [!DNL Analytics Marketing Channels].
+title: Pourquoi les données de canal peuvent-elles varier entre Adobe Advertising et [!DNL Marketing Channels] ?
+description: Découvrez pourquoi les données de canal suivies par l’ID AMO peuvent différer des données de canal suivies par [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
-TQID: https://experienceleague.adobe.com/zzYKrbiwvW9Ysf7baDfKGsETmSvYbXDY7-lIygorXH8
+TQID: 'https://experienceleague.adobe.com/zzYKrbiwvW9Ysf7baDfKGsETmSvYbXDY7-lIygorXH8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: dba482e5-29a8-4127-afa2-c4b913512ef8
+    internal-label: Data and analytics
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 414
+source-wordcount: '427'
 ht-degree: 0%
-
 ---
-
 # Pourquoi les données de canal peuvent-elles varier entre Adobe Advertising et [!DNL Marketing Channels] ?
 
 *Publicitaires avec une intégration Adobe Advertising-Adobe Analytics uniquement*

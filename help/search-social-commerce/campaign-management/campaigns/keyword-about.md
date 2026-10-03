@@ -3,18 +3,21 @@ title: À propos des mots clés
 description: Découvrez les options relatives aux mots-clés pouvant faire l’objet d’une offre et aux mots-clés négatifs.
 exl-id: d94c6f3f-0ea3-4792-8a6d-78f3a2af80e8
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/UV8Vf9pZU9zq9Ic4vTwFFoDGaOwoa8zR-9UgCFxqrH0
+TQID: 'https://experienceleague.adobe.com/UV8Vf9pZU9zq9Ic4vTwFFoDGaOwoa8zR-9UgCFxqrH0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 171
+source-wordcount: '171'
 ht-degree: 0%
-
 ---
-
 # À propos des mots clés
 
 Comptes *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] et [!DNL Baidu] existants uniquement*

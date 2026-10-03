@@ -6,19 +6,23 @@ exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
 TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9c0e1d04187ee5f80d4b5899ab36833f202b16a
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1082
+source-wordcount: '1082'
 ht-degree: 0%
-
 ---
-
 # (Nouvelle interface utilisateur) Administration des utilisateurs pour Search, Social et Commerce
 
 Certains utilisateurs peuvent gérer l’accès à la nouvelle interface utilisateur de Search, Social et Commerce à l’aide de [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html), qui est l’emplacement central de la gestion de tous les droits Adobe et de la gestion des utilisateurs. Les utilisateurs sont classés en tant qu’utilisateurs finaux ou administrateurs. Si vous êtes administrateur, l’équipe chargée de votre compte Adobe vous en informe. Si vous êtes administrateur, reportez-vous aux sections suivantes pour identifier vos autorisations et workflows de gestion des utilisateurs.
@@ -143,13 +147,13 @@ Noone has permissions as of 6/1; spelling [sic]:
 
 1. Accédez à https://adminconsole.adobe.com/enterprise/.
 
-1. (Si vous n&#39;êtes pas connecté à CX Enterprise) Connectez-vous à CX Enterprise :
+1. (Si vous n’êtes pas connecté à CX Enterprise) Connectez-vous à CX Enterprise :
 
    1. Saisissez votre ID de [!DNL Adobe], puis cliquez sur **[!UICONTROL Continue]**.
 
    1. Sélectionnez **[!UICONTROL Personal Account] » ou &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
-   1. Sélectionnez l’organisation CX Entreprise applicable.
+   1. Sélectionnez l’organisation CX Enterprise applicable.
 
       Admin Console s’ouvre sur l’onglet [!UICONTROL Overview] .
 

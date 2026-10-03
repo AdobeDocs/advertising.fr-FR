@@ -1,7 +1,10 @@
 ---
 title: Chargement des données de compte hors ligne pour les rapports et les simulations
 description: Découvrez comment charger manuellement des données de compte hors ligne ou les transférer vers un compartiment de [!DNL S3] [!DNL Amazon] pour la prise en charge des rapports et des simulations. Les fichiers journaux consignent la progression des tâches de chargement.
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%

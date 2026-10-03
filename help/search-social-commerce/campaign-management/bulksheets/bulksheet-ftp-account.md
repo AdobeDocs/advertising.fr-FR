@@ -3,18 +3,21 @@ title: Configuration d’un compte FTP pour le chargement des feuilles d’envoi
 description: Découvrez comment demander un compte FTP pour charger des fichiers de feuille d’envoi groupé.
 exl-id: c8c70638-10ea-476c-8b02-921adb091ef9
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/VBIFLPV-BiCWFrqmwuNGmsx5xgXU80RfnouM1p4VnrY
+TQID: 'https://experienceleague.adobe.com/VBIFLPV-BiCWFrqmwuNGmsx5xgXU80RfnouM1p4VnrY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 161
+source-wordcount: '161'
 ht-degree: 0%
-
 ---
-
 # Configuration d’un compte FTP pour le chargement des feuilles d’envoi groupé
 
 Vous pouvez éventuellement charger des fichiers de feuilles d’envoi groupé pour les réseaux d’annonces pris en charge vers un compte FTP spécifié à des fins de récupération et de publication automatique. Le répertoire est analysé toutes les heures et les nouveaux fichiers sont publiés dans l&#39;ordre dans lequel ils ont été reçus.

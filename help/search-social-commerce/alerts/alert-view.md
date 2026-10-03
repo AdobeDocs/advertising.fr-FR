@@ -3,20 +3,24 @@ title: Afficher une alerte personnalisée
 description: Découvrez comment répertorier vos instances d’alerte.
 exl-id: 0a5260f6-8651-451e-841c-600be371cc3f
 feature: Search Alerts
-TQID: https://experienceleague.adobe.com/yj5l6KUdSE49qs2wJ7ZXhptphUwNX-J5Pz5By-XLFko
+TQID: 'https://experienceleague.adobe.com/yj5l6KUdSE49qs2wJ7ZXhptphUwNX-J5Pz5By-XLFko'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: '445'
 ht-degree: 0%
-
 ---
-
 # Affichage des alertes personnalisées
 
 Vous pouvez afficher une liste de toutes les instances d’alerte à partir des modèles d’alerte dans la vue [!UICONTROL Triggered Alerts] et dans la vue de gestion de campagne appropriée.

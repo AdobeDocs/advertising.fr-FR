@@ -3,24 +3,29 @@ title: À propos des sources d’audience propriétaires
 description: Découvrez comment convertir d’autres identifiants d’utilisateur de vos segments propriétaires en identifiants universels pour le ciblage sans cookie.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-TQID: https://experienceleague.adobe.com/8wdjwhNF-KDspEa1wSYWwlDOJxc3LiyqnSwEE-Fq9bY
+TQID: 'https://experienceleague.adobe.com/8wdjwhNF-KDspEa1wSYWwlDOJxc3LiyqnSwEE-Fq9bY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 710
+source-wordcount: '715'
 ht-degree: 0%
-
 ---
-
 # À propos des sources d’audience propriétaires
 
 La fonctionnalité de source d’audience vous permet d’importer des segments propriétaires contenant des identifiants universels en l’état ou de les convertir en segments contenant des types d’identifiants universels spécifiés :
@@ -46,21 +51,21 @@ Vous pouvez traduire vos segments propriétaires à partir de [!DNL ActionIQ], [
 
 * [[!DNL LiveRamp] [!DNL RampIDs]](https://liveramp.com/identity-resolution):
 
-   * Pour le reciblage des utilisateurs connectés.
+  * Pour le reciblage des utilisateurs connectés.
 
-     [!DNL RampIDs] sont disponibles pour les utilisateurs en Amérique du Nord, en Australie et en Nouvelle-Zélande.
+    [!DNL RampIDs] sont disponibles pour les utilisateurs en Amérique du Nord, en Australie et en Nouvelle-Zélande.
 
-     Les frais sont de 0,15 USD par impression publicitaire diffusée et de 0,25 USD par impression publicitaire vidéo diffusée.
+    Les frais sont de 0,15 USD par impression d’annonce publicitaire diffusée et de 0,25 USD par impression d’annonce publicitaire vidéo diffusée.
 
-   * Pour la mesure à l’aide de [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
+  * Pour la mesure à l’aide de [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
 * [[!DNL Unified ID 2.0 (UID2.0)] IDs](https://unifiedid.com) :
 
-   * Pour le reciblage des utilisateurs connectés.
+  * Pour le reciblage des utilisateurs connectés.
 
-     [!DNL UID2 IDs] ne sont pas disponibles pour les utilisateurs dans l&#39;Espace économique européen et dans certains autres pays. Voir la [liste des pays interdits](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+    [!DNL UID2 IDs] ne sont pas disponibles pour les utilisateurs dans l&#39;Espace économique européen et dans certains autres pays. Voir la [liste des pays interdits](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
 
-     Les frais sont de 0,15 USD par impression publicitaire diffusée et de 0,25 USD par impression publicitaire vidéo diffusée.
+    Les frais sont de 0,15 USD par impression d’annonce publicitaire diffusée et de 0,25 USD par impression d’annonce publicitaire vidéo diffusée.
 
 <!--
  Not yet

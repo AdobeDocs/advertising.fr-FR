@@ -3,27 +3,35 @@ title: Prise en charge de l’activation des identifiants universels
 description: Découvrez la prise en charge de l’importation de vos segments d’ID universels, de la création de segments personnalisés pour effectuer le suivi des ID universels et de la conversion d’autres identifiants d’utilisateur de vos segments propriétaires en ID universels pour le ciblage sans cookie.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-TQID: https://experienceleague.adobe.com/A4fMoTW9gHD1i9Gdg1FALrBlz0XxMqhHOp9YO6kf3BQ
+TQID: 'https://experienceleague.adobe.com/A4fMoTW9gHD1i9Gdg1FALrBlz0XxMqhHOp9YO6kf3BQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1610
+source-wordcount: '1610'
 ht-degree: 0%
-
 ---
-
 # Prise en charge de l’activation des identifiants universels
 
 <!-- Once we have CDP support for ID5 and can set up activation via sources, then maybe I can move this info into "About Sources" and "About Audiences." Or maybe make this the go-to page, removing info from those other pages? -->
@@ -94,19 +102,19 @@ Utilisez les bonnes pratiques suivantes pour les segments basés sur [!DNL RampI
 
 * Copiez vos packages et emplacements d’origine, ajustez les budgets en fonction de la taille du test, modifiez les audiences pour utiliser des segments basés sur [!DNL RampID] (pour les utilisateurs authentifiés) ou des segments basés sur ID5 (pour les utilisateurs non authentifiés) et vérifiez que les nouveaux packages et emplacements dépensent l’intégralité de leurs budgets.
 
-   * Pour comparer les performances des segments basés sur l’ID universel avec celles des emplacements ciblant d’autres identifiants d’audience, tels que les cookies ou les identifiants publicitaires mobiles, créez une campagne avec un emplacement basé sur l’ID universel distinct et un emplacement basé sur l’ID hérité.
+  * Pour comparer les performances des segments basés sur l’ID universel avec celles des emplacements ciblant d’autres identifiants d’audience, tels que les cookies ou les identifiants publicitaires mobiles, créez une campagne avec un emplacement basé sur l’ID universel distinct et un emplacement basé sur l’ID hérité.
 
-     Pour un test de reciblage complet, ciblez les RampID pour les utilisateurs authentifiés et les ID5S pour les utilisateurs non authentifiés.
+    Pour un test de reciblage complet, ciblez les RampID pour les utilisateurs authentifiés et les ID5S pour les utilisateurs non authentifiés.
 
-     Obtenir les meilleures performances ne devrait pas être la principale comparaison. Au lieu de cela, déterminez quels identifiants sont correctement mis à l’échelle, ce qui pourrait informer votre optimisation et vos allocations budgétaires ultérieurement. L’objectif à long terme est de rattraper les impressions perdues et le trafic sur le site lorsque les cookies sont obsolètes.
+    Obtenir les meilleures performances ne devrait pas être la principale comparaison. Au lieu de cela, déterminez quels identifiants sont correctement mis à l’échelle, ce qui pourrait informer votre optimisation et vos allocations budgétaires ultérieurement. L’objectif à long terme est de rattraper les impressions perdues et le trafic sur le site lorsque les cookies sont obsolètes.
 
-   * Pour comparer la portée totale du navigateur, ciblez les segments basés sur l’ID universel et les segments basés sur l’ID hérité dans le même emplacement. Utilisez les mêmes paramètres de campagne que le cas d’utilisation précédent, mais sans fractionner le budget de la campagne.
+  * Pour comparer la portée totale du navigateur, ciblez les segments basés sur l’ID universel et les segments basés sur l’ID hérité dans le même emplacement. Utilisez les mêmes paramètres de campagne que le cas d’utilisation précédent, mais sans fractionner le budget de la campagne.
 
-     La préférence d’enchères est donnée aux identifiants universels, mais les identifiants hérités reçoivent des enchères lorsque les identifiants universels ne sont pas disponibles. Veillez à comparer la portée dans différents navigateurs (y compris Chrome, Safari et Mozilla).
+    La préférence d’enchères est donnée aux identifiants universels, mais les identifiants hérités reçoivent des enchères lorsque les identifiants universels ne sont pas disponibles. Veillez à comparer la portée dans différents navigateurs (y compris Chrome, Safari et Mozilla).
 
-     >[!NOTE]
-     >
-     >Le capping de la fréquence s’applique à un identifiant individuel. Lorsqu’un utilisateur possède plusieurs types d’ID, vous pouvez atteindre cet utilisateur plus facilement que vous ne le pensiez.
+    >[!NOTE]
+    >
+    >Le capping de la fréquence s’applique à un identifiant individuel. Lorsqu’un utilisateur possède plusieurs types d’ID, vous pouvez atteindre cet utilisateur plus facilement que vous ne le pensiez.
 
 * N’oubliez pas que la portée des segments d’audience authentifiés est naturellement plus petite que celle des segments basés sur des cookies et que l’utilisation d’options de ciblage supplémentaires réduit davantage votre portée. Soyez judicieux dans l’utilisation du ciblage granulaire, en particulier en joignant plusieurs cibles avec des instructions AND.
 
@@ -128,11 +136,11 @@ Par [!DNL RampIDs], contactez votre équipe de compte Adobe pour plus d’inform
 
 * ID d’e-mail hachés traduits en [!DNL RampIDs] :
 
-   * Lorsque plusieurs profils utilisent le même ID d’e-mail, le nombre de segments DSP peut être inférieur au nombre de profils dans votre plateforme de données client. Par exemple, dans Adobe Photoshop, vous pouvez créer un compte d’entreprise et un compte personnel à l’aide d’un seul ID d’e-mail. Cependant, si les deux profils appartiennent à la même personne, ils sont mappés à un ID d’e-mail et, de manière correspondante, à un [!DNL RampID].
+  * Lorsque plusieurs profils utilisent le même ID d’e-mail, le nombre de segments DSP peut être inférieur au nombre de profils dans votre plateforme de données client. Par exemple, dans Adobe Photoshop, vous pouvez créer un compte d’entreprise et un compte personnel à l’aide d’un seul ID d’e-mail. Cependant, si les deux profils appartiennent à la même personne, ils sont mappés à un ID d’e-mail et, de manière correspondante, à un [!DNL RampID].
 
-   * Une [!DNL RampID] peut être mise à niveau vers une nouvelle valeur. Si [!DNL LiveRamp] ne reconnaît pas un ID d’e-mail ou ne peut pas le mapper à un [!DNL RampID] existant dans sa base de données, il attribue un nouveau [!DNL RampID] à l’ID d’e-mail. À l’avenir, lorsqu’ils pourront mapper l’ID d’e-mail à un autre [!DNL RampID] ou collecter davantage d’informations sur le même ID d’e-mail, ils mettront à niveau le [!DNL RampID] vers une nouvelle valeur. [!DNL LiveRamp] appelle cette action la mise à niveau d’un [!DNL RampID] « dérivé » vers un [!DNL RampID] « conservé ». Cependant, DSP n’obtient pas de mappages entre les [!DNL RampIDs] dérivés et conservés et ne peut donc pas supprimer la version précédente de l’ID de rampe du segment DSP. Dans ce cas, le nombre de segments peut être supérieur au nombre de profils.
+  * Une [!DNL RampID] peut être mise à niveau vers une nouvelle valeur. Si [!DNL LiveRamp] ne reconnaît pas un ID d’e-mail ou ne peut pas le mapper à un [!DNL RampID] existant dans sa base de données, il attribue un nouveau [!DNL RampID] à l’ID d’e-mail. À l’avenir, lorsqu’ils pourront mapper l’ID d’e-mail à un autre [!DNL RampID] ou collecter davantage d’informations sur le même ID d’e-mail, ils mettront à niveau le [!DNL RampID] vers une nouvelle valeur. [!DNL LiveRamp] appelle cette action la mise à niveau d’un [!DNL RampID] « dérivé » vers un [!DNL RampID] « conservé ». Cependant, DSP n’obtient pas de mappages entre les [!DNL RampIDs] dérivés et conservés et ne peut donc pas supprimer la version précédente de l’ID de rampe du segment DSP. Dans ce cas, le nombre de segments peut être supérieur au nombre de profils.
 
-     Exemple : un utilisateur se connecte au site web [!DNL Adobe] et visite la page Photoshop . Si [!DNL LiveRamp] ne dispose d’aucune information existante sur l’ID d’e-mail, alors ils lui attribuent un [!DNL RampID] dérivé, tel que D123. Quinze jours plus tard, l’utilisateur visite la même page, mais [!DNL LiveRamp] a mis à niveau le [!DNL RampID] au cours de ces 15 jours et a réaffecté le [!DNL RampID] au M123. Bien que le segment « Photoshop Enthusiast » de la plateforme de données client ne dispose que d’un seul ID d’e-mail pour l’utilisateur, le segment DSP comporte deux ID de rampe : D123 et M123.
+    Exemple : un utilisateur se connecte au site web [!DNL Adobe] et visite la page Photoshop . Si [!DNL LiveRamp] ne dispose d’aucune information existante sur l’ID d’e-mail, alors ils lui attribuent un [!DNL RampID] dérivé, tel que D123. Quinze jours plus tard, l’utilisateur visite la même page, mais [!DNL LiveRamp] a mis à niveau le [!DNL RampID] au cours de ces 15 jours et a réaffecté le [!DNL RampID] au M123. Bien que le segment « Photoshop Enthusiast » de la plateforme de données client ne dispose que d’un seul ID d’e-mail pour l’utilisateur, le segment DSP comporte deux ID de rampe : D123 et M123.
 
 ## Dépannage
 

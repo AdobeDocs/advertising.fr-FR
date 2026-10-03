@@ -3,20 +3,24 @@ title: Publier des feuilles d’envoi groupé ou des fichiers d’erreur corrig�
 description: Découvrez comment publier des fichiers de feuilles d’envoi groupé sur vos réseaux publicitaires.
 exl-id: 49b930ba-71b3-442d-a162-67cf7ae14e14
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/N2xYU3CSbNaftsEOKKyXDjDQRYeqhYOolhf5ZyCPiGA
+TQID: 'https://experienceleague.adobe.com/N2xYU3CSbNaftsEOKKyXDjDQRYeqhYOolhf5ZyCPiGA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 726
+source-wordcount: '726'
 ht-degree: 0%
-
 ---
-
 # Publier des feuilles d’envoi groupé ou des fichiers d’erreur corrigés
 
 Vous pouvez publier des fichiers de feuilles d&#39;envoi groupé existants ou des fichiers d&#39;erreur corrigés sur les comptes appropriés pour [réseaux publicitaires pris en charge](bulksheet-about.md#bulksheet-functionality-by-network). Si le fichier est au format ZIP, il n’est pas nécessaire de le décompresser au préalable.
@@ -32,7 +36,7 @@ Les fichiers de feuilles d’envoi groupé et les fichiers d’erreur sont autom
 
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Post]**.
 
-1. Dans la boîte de dialogue, saisissez ou sélectionnez des informations dans les paramètres de [[!UICONTROL Post Bulksheet] puis cliquez sur &#x200B;](#bulksheet-post-settings).**[!UICONTROL Post]**
+1. Dans la boîte de dialogue, saisissez ou sélectionnez des informations dans les paramètres de [&#128279;](#bulksheet-post-settings) puis cliquez sur **[!UICONTROL Post]**.[!UICONTROL Post Bulksheet]
 
    Les mêmes paramètres s&#39;appliquent à tous les fichiers que vous publiez.
 
@@ -49,9 +53,9 @@ Lorsque la tâche commence, le statut et la date de publication planifiée de la
 | Paramètre | Description |
 |----|----|
 | [!UICONTROL Account (Search Engine)] | Compte réseau publicitaire pour lequel les données sont publiées. Si vous publiez plusieurs fichiers simultanément ou un fichier qui s’applique à plusieurs comptes, la valeur est <i>Plusieurs comptes sélectionnés</i>.<br><br>La première lettre du nom du réseau publicitaire est entre parenthèses après le nom du compte (par exemple, « Acme Realty (G) » pour un compte [!DNL Google Ads]). |
-| [!UICONTROL Scheduling] | Quand publier le fichier sur le réseau publicitaire spécifié :<ul><li><i>[!UICONTROL Post to ad network now]</i> (valeur par défaut) : commence à publier immédiatement les données.</li><li><i>[!UICONTROL Post to ad network on \[specified date\] \[specified time\]]:</i> Commence à publier les données à la date et à l’heure spécifiées ; la valeur par défaut est demain à 02 :00 (2 heures). Pour modifier la date, saisissez une date au format JJ/MM/AAAA ou JJ/MM/AAAA ou cliquez sur ![Calendrier](/help/search-social-commerce/assets/calendar.png "Calendrier") pour ouvrir le calendrier et [sélectionner une date](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Pour modifier l’heure, saisissez l’heure au format HH/MM ou H/M ou sélectionnez une heure (par intervalles de 15 minutes) dans la liste.</li></ul> |
-| [!UICONTROL Generate Tracking URLs] | Indique s’il faut inclure des modèles de suivi et des suffixes de page de destination (pour les réseaux publicitaires applicables) dans les comptes avec modèles de suivi, ou des URL de destination avec codes de suivi incorporés dans les comptes avec URL de destination, pour tous les mots-clés, annonces, emplacements, liens de site et groupes de produits [!DNL Google Ads] dans la publication : <i>[!UICONTROL Yes]</i> (par défaut) ou <i>[!UICONTROL No]</i>. Peu importe si les unités de soumission se trouvent dans un portefeuille.<br><br>Si vous sélectionnez <i>[!UICONTROL Yes]</i>, les URL sont générées en fonction des paramètres de la section [!UICONTROL Tracking Methods] des paramètres du compte ou des paramètres de campagne appropriés. Par défaut, si des URL de tracking existent, elles ne sont pas régénérées, sauf si de nouvelles URL sont nécessaires (par exemple, si le type de correspondance de mot-clé, le texte de l’annonce ou les paramètres de tracking pour les comptes concernés ont changé).<br><br>Si vous sélectionnez <i>[!UICONTROL No]</i>, vous pouvez toujours générer des URL de tracking ultérieurement en publiant manuellement le fichier chargé.<br><br><b>Remarque :</b> si l’annonceur utilise le suivi des conversions Adobe Advertising et que l’URL de base a changé, vous devez générer de nouvelles URL de suivi, sauf si le compte est configuré pour générer et charger automatiquement des URL de suivi. |
-| [!UICONTROL Enable budget changes on optimized campaigns] | Autorise les modifications de budget apportées aux campagnes dans des portfolios optimisés en fonction des données publiées. Par défaut, cette option n’est pas sélectionnée. Si vous sélectionnez cette option, les modifications du budget de campagne spécifiées sont applicables jusqu&#39;à ce que la fonctionnalité d&#39;optimisation détermine que le budget doit être réaffecté (généralement lors du prochain cycle d&#39;enchères).<br><br><b>Remarque :</b> toute modification de budget résultant des données validées pour des campagnes dans des portefeuilles non optimisés se produit lorsque le fichier est validé. Les modifications apparaissent dans les vues de gestion de campagne le lendemain. |
+| [!UICONTROL Scheduling] | Quand publier le fichier sur le réseau publicitaire spécifié :<ul><li><i>[!UICONTROL Post to ad network now]</i> (valeur par défaut) : commence à publier immédiatement les données.</li><li><i>[!UICONTROL Post to ad network on \[specified date\] \[specified time\]]:</i> Commence à publier les données à la date et à l’heure spécifiées ; la valeur par défaut est demain à 02:00 (2 h). Pour modifier la date, saisissez une date au format JJ/MM/AAAA ou JJ/MM/AAAA ou cliquez sur ![Calendrier](/help/search-social-commerce/assets/calendar.png "Calendrier") pour ouvrir le calendrier et [sélectionner une date](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Pour modifier l’heure, saisissez l’heure au format HH/MM ou H/M ou sélectionnez une heure (par intervalles de 15 minutes) dans la liste.</li></ul> |
+| [!UICONTROL Generate Tracking URLs] | Indique s’il faut inclure des modèles de suivi et des suffixes de page de destination (pour les réseaux publicitaires applicables) dans les comptes avec modèles de suivi, ou des URL de destination avec codes de suivi incorporés dans les comptes avec URL de destination, pour tous les mots-clés, annonces, emplacements, liens de site et groupes de produits [!DNL Google Ads] dans la publication : <i>[!UICONTROL Yes]</i> (par défaut) ou <i>[!UICONTROL No]</i>. Peu importe si les unités de soumission se trouvent dans un portefeuille.<br><br>Si vous sélectionnez <i>[!UICONTROL Yes]</i>, les URL sont générées en fonction des paramètres de la section [!UICONTROL Tracking Methods] des paramètres du compte ou des paramètres de campagne appropriés. Par défaut, si des URL de tracking existent, elles ne sont pas régénérées, sauf si de nouvelles URL sont nécessaires (par exemple, si le type de correspondance de mot-clé, le texte de l’annonce ou les paramètres de tracking pour les comptes concernés ont changé).<br><br>Si vous sélectionnez <i>[!UICONTROL No]</i>, vous pouvez toujours générer des URL de tracking ultérieurement en publiant manuellement le fichier chargé.<br><br><b>Remarque :</b> Si l’annonceur utilise le tracking des conversions Adobe Advertising et que l’URL de base a changé, vous devez générer de nouvelles URL de tracking, sauf si le compte est configuré pour générer et charger automatiquement des URL de tracking. |
+| [!UICONTROL Enable budget changes on optimized campaigns] | Autorise les modifications de budget apportées aux campagnes dans des portfolios optimisés en fonction des données publiées. Par défaut, cette option n’est pas sélectionnée. Si vous sélectionnez cette option, les modifications du budget de la campagne spécifiées sont applicables jusqu&#39;à ce que la fonctionnalité d&#39;optimisation détermine que le budget doit être réaffecté (généralement lors du prochain cycle d&#39;enchères).<br><br><b>Remarque :</b> toute modification du budget résultant des données validées pour les campagnes dans des portefeuilles non optimisés se produit lorsque le fichier est validé. Les modifications apparaissent dans les vues de gestion de campagne le lendemain. |
 | [!UICONTROL Enable bidding on ads within portfolios] | Lorsque les composants de campagne inclus se trouvent dans un portfolio optimisé, cette fonctionnalité remplace la stratégie d’optimisation et permet de modifier les enchères en fonction des données de la feuille d’envoi groupé jusqu’à une date de fin spécifiée. Si vous sélectionnez cette option, indiquez une date de fin comprise entre 1 et 7 jours dans le champ **[!UICONTROL Hold bulksheet bids until]** . |
 
 >[!MORELIKETHIS]

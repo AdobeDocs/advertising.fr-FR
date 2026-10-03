@@ -3,22 +3,26 @@ title: Créer une audience réutilisable
 description: Découvrez comment créer des audiences réutilisables composées de segments d’audience et d’autres audiences enregistrées. Vous pouvez éventuellement utiliser un agent d’audience assisté par l’IA en décrivant votre audience cible dans des invites en langage naturel ; l’agent suggère des segments tiers et crée des expressions d’audience à utiliser comme cibles ou exclusions.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-TQID: https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ
+TQID: 'https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a4b509995f362ed81e00485409b0c729b5130e35
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1667
+source-wordcount: '1667'
 ht-degree: 0%
-
 ---
-
 # Créer une audience réutilisable
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
@@ -57,49 +61,49 @@ Vous pouvez enregistrer et gérer des audiences réutilisables, qui sont des gro
 
    * Pour créer manuellement la logique du segment, à l’aide des segments disponibles dans les onglets [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] et [!UICONTROL Saved Audiences]](audience-settings.md) procédez comme suit.
 
-      * (Facultatif) Recherchez un nom, une description ou un chemin de segment.
+     * (Facultatif) Recherchez un nom, une description ou un chemin de segment.
 
-        Les résultats de recherche incluent des segments basés sur les termes exacts que vous utilisez. Lorsque vous saisissez plusieurs termes, tous les termes doivent être trouvés pour un segment.
+       Les résultats de recherche incluent des segments basés sur les termes exacts que vous utilisez. Lorsque vous saisissez plusieurs termes, tous les termes doivent être trouvés pour un segment.
 
-      * Pour ajouter le premier segment, localisez le segment dans le panneau de gauche, puis cochez la case en regard du nom du segment.
+     * Pour ajouter le premier segment, localisez le segment dans le panneau de gauche, puis cochez la case en regard du nom du segment.
 
-      * Pour ajouter un segment à un groupe de segments existant :
+     * Pour ajouter un segment à un groupe de segments existant :
 
-         1. Cliquez sur le groupe de segments dans le panneau de droite.
+       1. Cliquez sur le groupe de segments dans le panneau de droite.
 
-         1. (Facultatif) Modifiez la logique de groupe en *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, selon les besoins.
+       1. (Facultatif) Modifiez la logique de groupe en *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, selon les besoins.
 
-            *[!UICONTROL Exclude All]* n’est pas disponible pour le premier groupe de segments. Pour une audience qui comprend uniquement des exclusions, créez-la sous la forme *[!UICONTROL Include Any]*, puis, au sein d’un emplacement, sélectionnez-la dans le menu Audiences exclues .
+          *[!UICONTROL Exclude All]* n’est pas disponible pour le premier groupe de segments. Pour une audience qui comprend uniquement des exclusions, créez-la sous la forme *[!UICONTROL Include Any]*, puis, au sein d’un emplacement, sélectionnez-la dans le menu Audiences exclues .
 
-         1. Recherchez le nouveau segment dans le panneau de gauche, puis cochez la case en regard du nom du segment.
+       1. Recherchez le nouveau segment dans le panneau de gauche, puis cochez la case en regard du nom du segment.
 
-            Le groupe de segments est automatiquement mis à jour avec le nouveau segment.
+          Le groupe de segments est automatiquement mis à jour avec le nouveau segment.
 
-      * Pour ajouter un nouveau groupe de segments :
+     * Pour ajouter un nouveau groupe de segments :
 
-         1. Cliquez sur **[!UICONTROL + New Group]** dans le panneau de droite.
+       1. Cliquez sur **[!UICONTROL + New Group]** dans le panneau de droite.
 
-            1. (Facultatif) Modifiez la logique entre le groupe précédent et le nouveau groupe en *[!UICONTROL And]* ou *[!UICONTROL Or]*, selon les besoins.
+          1. (Facultatif) Modifiez la logique entre le groupe précédent et le nouveau groupe en *[!UICONTROL And]* ou *[!UICONTROL Or]*, selon les besoins.
 
-            1. Recherchez les segments du nouveau groupe dans le panneau de gauche, puis cochez les cases en regard des noms de segment.
+          1. Recherchez les segments du nouveau groupe dans le panneau de gauche, puis cochez les cases en regard des noms de segment.
 
-            1. (Facultatif) Modifiez la logique de groupe en *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, selon les besoins.
+          1. (Facultatif) Modifiez la logique de groupe en *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, selon les besoins.
 
    * Pour utiliser la logique de segment à partir d’une audience existante :
 
-      1. Copiez la logique de segment de l’audience existante de l’une des manières suivantes :
+     1. Copiez la logique de segment de l’audience existante de l’une des manières suivantes :
 
-         * Dans la vue Toutes les audiences, placez le curseur sur la ligne d’audience, puis cliquez sur **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+        * Dans la vue Toutes les audiences, placez le curseur sur la ligne d’audience, puis cliquez sur **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Dans les paramètres de l’audience existante, en haut du panneau logique des segments, cliquez sur **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+        * Dans les paramètres de l’audience existante, en haut du panneau logique des segments, cliquez sur **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Dans un éditeur de texte, créez manuellement la logique du segment à l’aide des identifiants de segment alphanumériques et de la [syntaxe booléenne](audience-segment-logic-syntax.md), puis copiez-la dans le presse-papiers.
+        * Dans un éditeur de texte, créez manuellement la logique du segment à l’aide des identifiants de segment alphanumériques et de la [syntaxe booléenne](audience-segment-logic-syntax.md), puis copiez-la dans le presse-papiers.
 
-      1. Cliquez sur **[!UICONTROL paste in an audience rule to begin building]**, collez la logique de segment existante dans le champ de saisie, puis cliquez sur **[!UICONTROL Apply]**.
+     1. Cliquez sur **[!UICONTROL paste in an audience rule to begin building]**, collez la logique de segment existante dans le champ de saisie, puis cliquez sur **[!UICONTROL Apply]**.
 
-         >[!NOTE]
-         >
-         >Si l’audience inclut déjà une logique de segment, coller une nouvelle logique de segment remplace la logique existante.
+        >[!NOTE]
+        >
+        >Si l’audience inclut déjà une logique de segment, coller une nouvelle logique de segment remplace la logique existante.
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
@@ -161,11 +165,11 @@ Vous pouvez enregistrer et gérer des audiences réutilisables, qui sont des gro
 
 * Utilisez un langage clair et descriptif pour décrire l’audience cible.
 
-   * Vous pouvez saisir des phrases complètes ou simplement une chaîne de caractéristiques. La ponctuation n&#39;est pas nécessaire, sauf lorsque cela est nécessaire pour des raisons de clarté.
+  * Vous pouvez saisir des phrases complètes ou simplement une chaîne de caractéristiques. La ponctuation n&#39;est pas nécessaire, sauf lorsque cela est nécessaire pour des raisons de clarté.
 
-   * En règle générale, les invites ne respectent pas la casse.
+  * En règle générale, les invites ne respectent pas la casse.
 
-   * L’agent d’audience reconnaît les synonymes les plus courants.
+  * L’agent d’audience reconnaît les synonymes les plus courants.
 
 * Soyez spécifique et fournissez des détails sur toutes les caractéristiques d’audience que vous souhaitez inclure et sur toutes les caractéristiques que vous souhaitez spécifiquement exclure. Plus vous fournissez de détails, plus vous avez de chances d&#39;obtenir les résultats qui répondent à vos besoins.
 

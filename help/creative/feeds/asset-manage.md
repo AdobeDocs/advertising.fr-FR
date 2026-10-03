@@ -3,18 +3,24 @@ title: Gestion des fichiers de ressources
 description: Découvrez comment charger et gérer un fichier de ressource pour un annonceur.
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
-TQID: https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc
+TQID: 'https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '617'
 ht-degree: 0%
-
 ---
-
 # Gestion des fichiers de ressources
 
 * Les publicités dynamiques HTML5 nécessitent un fichier de flux au format de feuille de calcul Microsoft Excel (XLSX) et les ressources d’image réelles référencées dans la feuille de calcul.
@@ -35,29 +41,29 @@ Taille de fichier maximale : 2 Go
 
 * Publicités dynamiques HTML5 :
 
-   * Fichier de flux au format CSV, TSV ou feuille de calcul Microsoft Excel (XLSX), avec une ligne d’en-tête et une ligne de données pour chaque variation publicitaire. Incluez un nom d’image dans chaque ligne à l’aide du `images/image_name` de format (`images/300x250_acme_logo.png`, par exemple).
+  * Fichier de flux au format CSV, TSV ou feuille de calcul Microsoft Excel (XLSX), avec une ligne d’en-tête et une ligne de données pour chaque variation publicitaire. Incluez un nom d’image dans chaque ligne à l’aide du `images/image_name` de format (`images/300x250_acme_logo.png`, par exemple).
 
-     Les noms de champ spécifiques à l’annonceur doivent correspondre aux [champs disponibles pour les fichiers de flux publicitaires dynamiques](/help/creative/appendix-available-feed-fields.md).
+    Les noms de champ spécifiques à l’annonceur doivent correspondre aux [champs disponibles pour les fichiers de flux publicitaires dynamiques](/help/creative/appendix-available-feed-fields.md).
 
-   * Ressources d’image associées au format GIF, JPEG, JPG ou PNG. La taille de fichier maximale est de 10 Mo. Consultez les [tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md).
+  * Ressources d’image associées au format GIF, JPEG, JPG ou PNG. La taille de fichier maximale est de 10 Mo. Consultez les [tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md).
 
   Vous pouvez charger un seul fichier XLSX, un seul fichier image ou un seul fichier ZIP contenant n’importe quelle combinaison de fichiers XLSX et d’image.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Publicités HTML5 statiques :
 
-   * Une ressource image par annonce au format GIF, JPG, JPEG ou PNG.
+  * Une ressource image par annonce au format GIF, JPG, JPEG ou PNG.
 
-     Vous pouvez charger une ou plusieurs images dans un fichier ZIP.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+    Vous pouvez charger une ou plusieurs images dans un fichier ZIP.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Publicités vidéo dynamiques :
 
-   * Fichier de flux au format CSV, TSV ou feuille de calcul Microsoft Excel (XLSX), avec une ligne d’en-tête et une ligne de données pour chaque variation publicitaire. Insérez un nom de vidéo dans chaque ligne à l’aide du `videos/image_name` de format (`videos/300x250_acme_logo.png`, par exemple). Le fichier ZIP ne peut pas dépasser 512 Mo avec un maximum de 500 lignes.
+  * Fichier de flux au format CSV, TSV ou feuille de calcul Microsoft Excel (XLSX), avec une ligne d’en-tête et une ligne de données pour chaque variation publicitaire. Insérez un nom de vidéo dans chaque ligne à l’aide du `videos/image_name` de format (`videos/300x250_acme_logo.png`, par exemple). Le fichier ZIP ne peut pas dépasser 512 Mo avec un maximum de 500 lignes.
 
-     Les noms de champ spécifiques à l’annonceur doivent correspondre aux [champs disponibles pour les fichiers de flux publicitaires dynamiques](/help/creative/appendix-available-feed-fields.md).
+    Les noms de champ spécifiques à l’annonceur doivent correspondre aux [champs disponibles pour les fichiers de flux publicitaires dynamiques](/help/creative/appendix-available-feed-fields.md).
 
-     Pour tous les comptes disposant de vidéos dynamiques, la bonne pratique consiste à [créer un catalogue](catalog-manage.md) à l’aide du fichier de ressource avec une copie du modèle de flux universel [[!UICONTROL Adobe Creative Template]](feed-template-manage.md), dans lequel vous mappez chaque champ du fichier de ressource à un champ du serveur principal d’Advertising Creative.
+    Pour tous les comptes disposant de vidéos dynamiques, la bonne pratique consiste à [créer un catalogue](catalog-manage.md) à l’aide du fichier de ressource avec une copie du modèle de flux universel [[!UICONTROL Adobe Creative Template]](feed-template-manage.md), dans lequel vous mappez chaque champ du fichier de ressource à un champ du serveur principal d’Advertising Creative.
 
-   * Ressources vidéo associées au format MP4, MOV ou WEBM. Les modèles d’annonce pris en charge sont les suivants : carte de départ, carte d’extrémité, superposition supérieure, superposition inférieure ou en forme de L. La durée de chaque vidéo doit être comprise entre 1 et 90 secondes. Consultez les [tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md).
+  * Ressources vidéo associées au format MP4, MOV ou WEBM. Les modèles d’annonce pris en charge sont les suivants : carte de départ, carte d’extrémité, superposition supérieure, superposition inférieure ou en forme de L. La durée de chaque vidéo doit être comprise entre 1 et 90 secondes. Consultez les [tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md).
 
   Vous pouvez charger un seul fichier XLSX, un seul fichier image ou un seul fichier ZIP contenant n’importe quelle combinaison de fichiers XLSX et vidéo.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 

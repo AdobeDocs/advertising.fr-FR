@@ -1,22 +1,26 @@
 ---
-title: Implémenter  [!DNL Google Ads]  campagnes de performances maximales
-description: Découvrez le workflow de configuration  [!DNL Google Ads]  campagnes de performances maximales .
+title: Implémenter des campagnes de performances maximales [!DNL Google Ads]
+description: Découvrez le workflow de configuration des campagnes [!DNL Google Ads] Performance Max .
 exl-id: 4208774c-e4dd-499d-987e-933fe073c04f
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2vNnyo0W66ZuIZ3cY1nlSYWTjEPOiNXkc-ppbuxNMnI
+TQID: 'https://experienceleague.adobe.com/2vNnyo0W66ZuIZ3cY1nlSYWTjEPOiNXkc-ppbuxNMnI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 286
+source-wordcount: '297'
 ht-degree: 0%
-
 ---
-
 # Implémenter des campagnes de performances maximales [!DNL Google Ads]
 
 Dans les campagnes [!DNL Google Ads] Performance Max, vous ne configurez pas de groupes publicitaires, de publicités ou de mots-clés. Dans les paramètres de la campagne, vous spécifiez plutôt un ou plusieurs groupes de ressources, qui incluent des titres, des descriptions, des images, des logos et des [!DNL YouTube videos] chargés. [!DNL Google Ads] combine automatiquement les ressources pour diffuser des annonces en fonction du canal (par exemple [!DNL YouTube], [!DNL Gmail] ou [!DNL Search]).

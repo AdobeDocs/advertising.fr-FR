@@ -3,24 +3,29 @@ title: À propos de l’outil DSP [!UICONTROL Planner]
 description: Découvrez l’outil de planification pour prévoir la portée unique des emplacements de télévision connectée (CTV) en fonction du budget et des critères de ciblage spécifiés.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-TQID: https://experienceleague.adobe.com/dvO9ZtGs76Tm-AxE8ljLsnBXqUcX-q2J0HueG1-HASA
+TQID: 'https://experienceleague.adobe.com/dvO9ZtGs76Tm-AxE8ljLsnBXqUcX-q2J0HueG1-HASA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a516b982-58a0-530b-84c5-9b83f41039ad
+    internal-label: DSP Planner
 subfeature_v2:
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: '544'
 ht-degree: 0%
-
 ---
-
 # À propos de l’outil DSP [!UICONTROL Planner]
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
@@ -60,7 +65,7 @@ L’outil de planification prend en charge tous les types d’inventaire, y comp
 
 +++Pourquoi est-ce que je vois « [!UICONTROL Unable to generate forecast] ? »
 
-L&#39;une des raisons les plus courantes de cette erreur est un budget insuffisant ou une soumission maximale. Pour de meilleurs résultats, utilisez un budget minimum de 5000 USD. Si le type de média [!UICONTROL Connected TV] est sélectionné, saisissez une enchère maximale d&#39;au moins 10 USD.
+L&#39;une des raisons les plus courantes de cette erreur est un budget insuffisant ou une soumission maximale. Pour de meilleurs résultats, utilisez un budget minimum de 5 000 USD. Si le type de média [!UICONTROL Connected TV] est sélectionné, saisissez une enchère maximale d’au moins 10 USD.
 
 Assurez-vous également que les éditeurs ou les offres inclus sont actifs et ont une activité d’impression récente.
 

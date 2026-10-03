@@ -3,22 +3,26 @@ title: Vérifier et modifier les paramètres du package à l’aide des feuilles
 description: Découvrez comment vérifier et modifier les paramètres clés des packages en bloc à l’aide de feuilles de calcul.
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-TQID: https://experienceleague.adobe.com/daZta9ZI28ZyskwnM9RvJO3yGhFCi-DFKapeq5rtuNg
+TQID: 'https://experienceleague.adobe.com/daZta9ZI28ZyskwnM9RvJO3yGhFCi-DFKapeq5rtuNg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
 subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 715
+source-wordcount: '715'
 ht-degree: 0%
-
 ---
-
 # Vérifier et modifier les paramètres du package à l’aide des feuilles d’envoi groupé
 
 Vous pouvez télécharger les paramètres d’un ou plusieurs packages au format XLSX (feuille de calcul [!DNL Microsoft Excel]) pour révision. Le fichier *bulksheet* comprend un onglet distinct contenant des informations sur les vols.

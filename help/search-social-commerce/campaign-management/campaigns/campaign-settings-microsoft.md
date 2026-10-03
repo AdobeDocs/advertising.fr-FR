@@ -1,25 +1,32 @@
 ---
 title: '[!DNL Microsoft Advertising] des paramètres de la campagne'
-description: Référencez les paramètres des campagnes  [!DNL Microsoft Advertising] .
+description: Référencez les paramètres des campagnes [!DNL Microsoft Advertising].
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w
+TQID: 'https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2112
+source-wordcount: '2113'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] des paramètres de la campagne
 
 ## \[Écran de création de campagne\]
@@ -83,7 +90,7 @@ la campagne peut contenir :
 
 * *[!UICONTROL Manual CPC]* : (campagnes d’achat pour les marques ; campagnes [!DNL Microsoft Store Ads] ; obsolète pour les autres types de campagne) utilise le modèle de coût par clic (CPC). Pour certains types d’annonces, vous pouvez éventuellement autoriser le réseau publicitaire à modifier les enchères pour la campagne :
 
-   * **[!UICONTROL Enable Enhanced CPC]** (désactivé par défaut) : cette option est identique à l’utilisation de l’option « [!UICONTROL Enhanced CPC] ».
+  * **[!UICONTROL Enable Enhanced CPC]** (désactivé par défaut) : cette option est identique à l’utilisation de l’option « [!UICONTROL Enhanced CPC] ».
 
 * *[!UICONTROL Manual CPA]:* (campagnes [!DNL Microsoft Store Ads]) utilise le modèle de coût par acquisition (CPA).
 
@@ -224,21 +231,21 @@ Pour plus d’informations sur la disponibilité, consultez l’aide de Microsof
 
 * Pour charger des images :
 
-   1. Sur l’onglet [!UICONTROL Upload from Device] , cliquez sur **[!UICONTROL +]** et sélectionnez les images sur votre appareil ou réseau.
+  1. Sur l’onglet [!UICONTROL Upload from Device] , cliquez sur **[!UICONTROL +]** et sélectionnez les images sur votre appareil ou réseau.
 
-   1. Pour chaque image :
+  1. Pour chaque image :
 
-      1. Sélectionnez les proportions.
+     1. Sélectionnez les proportions.
 
-      1. Faites glisser et positionnez la zone de recadrage selon vos besoins pour sélectionner la partie visible de l’image, puis redimensionnez la partie visible de l’image selon vos besoins, si possible.
+     1. Faites glisser et positionnez la zone de recadrage selon vos besoins pour sélectionner la partie visible de l’image, puis redimensionnez la partie visible de l’image selon vos besoins, si possible.
 
-      1. (Facultatif) Sélectionnez d’autres proportions et, éventuellement, repositionnez et redimensionnez l’image selon les besoins pour chaque proportion sélectionnée.
+     1. (Facultatif) Sélectionnez d’autres proportions et, éventuellement, repositionnez et redimensionnez l’image selon les besoins pour chaque proportion sélectionnée.
 
-         Une ressource est créée pour chaque format sélectionné.
+        Une ressource est créée pour chaque format sélectionné.
 
-      1. Cliquez sur **[!UICONTROL Proceed]**.
+     1. Cliquez sur **[!UICONTROL Proceed]**.
 
-   1. Lorsque vous avez terminé de spécifier des images, cliquez sur **[!UICONTROL Upload]**.
+  1. Lorsque vous avez terminé de spécifier des images, cliquez sur **[!UICONTROL Upload]**.
 
 * Pour sélectionner des images dans votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez les images.
 
@@ -246,21 +253,21 @@ Pour plus d’informations sur la disponibilité, consultez l’aide de Microsof
 
 * Pour charger des images :
 
-   1. Sur l’onglet [!UICONTROL Upload from Device] , cliquez sur **[!UICONTROL +]** et sélectionnez les images sur votre appareil ou réseau.
+  1. Sur l’onglet [!UICONTROL Upload from Device] , cliquez sur **[!UICONTROL +]** et sélectionnez les images sur votre appareil ou réseau.
 
-   1. Pour chaque image :
+  1. Pour chaque image :
 
-      1. Sélectionnez les proportions.
+     1. Sélectionnez les proportions.
 
-      1. Faites glisser et positionnez la zone de recadrage selon vos besoins pour sélectionner la partie visible de l’image, puis redimensionnez la partie visible de l’image selon vos besoins, si possible.
+     1. Faites glisser et positionnez la zone de recadrage selon vos besoins pour sélectionner la partie visible de l’image, puis redimensionnez la partie visible de l’image selon vos besoins, si possible.
 
-      1. (Facultatif) Sélectionnez d’autres proportions et, éventuellement, repositionnez et redimensionnez l’image selon les besoins pour chaque proportion sélectionnée.
+     1. (Facultatif) Sélectionnez d’autres proportions et, éventuellement, repositionnez et redimensionnez l’image selon les besoins pour chaque proportion sélectionnée.
 
-         Une ressource est créée pour chaque format sélectionné.
+        Une ressource est créée pour chaque format sélectionné.
 
-      1. Cliquez sur **[!UICONTROL Proceed]**.
+     1. Cliquez sur **[!UICONTROL Proceed]**.
 
-   1. Lorsque vous avez terminé de spécifier des images, cliquez sur **[!UICONTROL Upload]**.
+  1. Lorsque vous avez terminé de spécifier des images, cliquez sur **[!UICONTROL Upload]**.
 
 * Pour sélectionner des images dans votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez les images.
 
@@ -268,9 +275,9 @@ Pour plus d’informations sur la disponibilité, consultez l’aide de Microsof
 
 * Pour saisir du texte :
 
-   1. Dans l’onglet [!UICONTROL Enter Text] , saisissez le texte.
+  1. Dans l’onglet [!UICONTROL Enter Text] , saisissez le texte.
 
-   1. (Facultatif) Pour ajouter une autre chaîne de texte, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
+  1. (Facultatif) Pour ajouter une autre chaîne de texte, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
 
 * Pour sélectionner des ressources dans votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez-les.
 
@@ -278,9 +285,9 @@ Pour plus d’informations sur la disponibilité, consultez l’aide de Microsof
 
 * Pour saisir du texte :
 
-   1. Dans l’onglet [!UICONTROL Enter Text] , saisissez le texte.
+  1. Dans l’onglet [!UICONTROL Enter Text] , saisissez le texte.
 
-   1. (Facultatif) Pour ajouter une autre chaîne de texte, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
+  1. (Facultatif) Pour ajouter une autre chaîne de texte, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
 
 * Pour sélectionner des ressources dans votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez-les.
 
@@ -288,9 +295,9 @@ Pour plus d’informations sur la disponibilité, consultez l’aide de Microsof
 
 * Pour saisir du texte :
 
-   1. Dans l’onglet [!UICONTROL Enter Text] , saisissez le texte.
+  1. Dans l’onglet [!UICONTROL Enter Text] , saisissez le texte.
 
-   1. (Facultatif) Pour ajouter une autre chaîne de texte, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
+  1. (Facultatif) Pour ajouter une autre chaîne de texte, cliquez sur **[!UICONTROL + Add]** et saisissez la chaîne.
 
 * Pour sélectionner des ressources dans votre [!UICONTROL Asset Library], cliquez sur **[!UICONTROL Asset Library]** et sélectionnez-les.
 
@@ -317,7 +324,7 @@ Pour plus d’informations sur la disponibilité, consultez l’aide de Microsof
 >
 >Si la campagne fait partie d’un portfolio hybride, la bonne pratique consiste à utiliser des objectifs au niveau de la campagne qui correspondent aux objectifs de conversion de l’objectif du portfolio. L’inclusion d’objectifs de conversion supplémentaires peut avoir une incidence sur les performances du portfolio.
 >
-> Toutefois, pour les campagnes dans des portfolios hybrides pour lesquelles vous [chargez les objectifs vers le réseau publicitaire](/help/search-social-commerce/tools/objective-upload-to-networks.md), procédez comme suit dans l’éditeur du réseau publicitaire au lieu de procéder ici : a) ajoutez la mesure d’objectif de portfolio Search, Social et Commerce chargée (qui commence par « O_ACS_OBJ ») comme objectif de conversion pour la campagne, et b) ajoutez tous les objectifs de campagne qui incluent les conversions suivies par la balise de suivi d’événement universel (UET) [!DNL Microsoft Advertising], car les mesures suivies par le réseau publicitaire ne sont pas chargées sur le réseau publicitaire avec l’objectif .
+> Toutefois, pour les campagnes dans des portfolios hybrides pour lesquelles vous [chargez les objectifs vers le réseau publicitaire](/help/search-social-commerce/tools/objective-upload-to-networks.md), procédez comme suit dans l’éditeur du réseau publicitaire au lieu de procéder ici : a) ajoutez la mesure d’objectif du portfolio Search, Social et Commerce téléchargée (qui commence par « O_ACS_OBJ ») comme objectif de conversion pour la campagne, et b) ajoutez tous les objectifs de campagne qui incluent les conversions suivies par la balise de suivi d’événement universel (UET) [!DNL Microsoft Advertising], car les mesures suivies par le réseau publicitaire ne sont pas téléchargées sur le réseau publicitaire avec l’objectif .
 
 >[!MORELIKETHIS]
 >

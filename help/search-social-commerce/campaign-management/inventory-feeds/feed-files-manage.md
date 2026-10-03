@@ -3,20 +3,24 @@ title: Gestion des fichiers de flux de données d’inventaire
 description: Découvrez comment configurer les paramètres qui contrôlent le traitement des données de flux.
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc
+TQID: 'https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: '1249'
 ht-degree: 0%
-
 ---
-
 # Gestion des fichiers de flux de données d’inventaire
 
 comptes *[!DNL Google Ads], [!DNL LY Ads] (actions de suppression uniquement), [!DNL Microsoft Advertising] et [!DNL Yandex] uniquement*
@@ -75,15 +79,15 @@ shoes<TAB>Clarks<TAB>20
 
 * Pour réaliser un processus répétable avec une révision ou une modification manuelle limitée, configurez les fichiers de flux et leurs données de structure de compte comme suit :
 
-   * Incluez des colonnes et des lignes contenant suffisamment de données pour créer une structure de compte ou mapper à la structure de compte existante. Idéalement, utilisez une structure de compte existante étroitement liée à la taxonomie du produit et à laquelle les données de flux sont facilement mappées.
+  * Incluez des colonnes et des lignes contenant suffisamment de données pour créer une structure de compte ou mapper à la structure de compte existante. Idéalement, utilisez une structure de compte existante étroitement liée à la taxonomie du produit et à laquelle les données de flux sont facilement mappées.
 
-   * Incluez des descriptions suffisamment courtes pour être utilisées dans la copie publicitaire.
+  * Incluez des descriptions suffisamment courtes pour être utilisées dans la copie publicitaire.
 
-   * Utilisez des modèles de données et des conventions de nommage cohérents entre les lignes de produits.
+  * Utilisez des modèles de données et des conventions de nommage cohérents entre les lignes de produits.
 
-   * Supprimez tous les espaces précédents et les espaces de fin.
+  * Supprimez tous les espaces précédents et les espaces de fin.
 
-   * Supprimez tous les caractères illisibles.
+  * Supprimez tous les caractères illisibles.
 
 ## Affichage ou téléchargement d’un fichier de flux
 

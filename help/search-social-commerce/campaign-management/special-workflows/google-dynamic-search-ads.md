@@ -1,20 +1,23 @@
 ---
-title: Implémenter  [!DNL Google Ads]  publicités de recherche dynamiques
-description: Découvrez le processus de configuration  [!DNL Google Ads]  publicités de recherche dynamique.
+title: Implémenter [!DNL Google Ads] publicités de recherche dynamiques
+description: Découvrez le processus de configuration des annonces de recherche dynamique [!DNL Google Ads].
 exl-id: 69e5069f-3f82-4ee3-841a-0c1292677223
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE
+TQID: 'https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # Implémenter [!DNL Google Ads] publicités de recherche dynamiques
 
 *[!DNL Google Ads]les campagnes de recherche uniquement avec un suivi de niveau création ou de niveau mot-clé et création uniquement*
@@ -62,7 +65,7 @@ Vous pouvez configurer les annonces de recherches dynamiques individuellement ou
 1. [Créez chaque annonce publicitaire de recherche dynamique](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) dans le groupe d’annonces.
 
    [!DNL Google Ads] génère dynamiquement le titre, l’URL d’affichage et l’URL de la page de destination pour chaque publicité. Vous pouvez éventuellement ajouter des redirections et un suivi au modèle de suivi au niveau des annonces, ce qui remplace les modèles de suivi aux niveaux supérieurs.
-Si vous souhaitez remplacer un suivi Adobe Analytics à des niveaux supérieurs par un suivi au niveau des annonces, ajoutez-le ici. Voir les étapes 1e et 2c.
+   Si vous souhaitez remplacer un suivi Adobe Analytics à des niveaux supérieurs par un suivi au niveau des annonces, ajoutez-le ici. Voir les étapes 1e et 2c.
 
 1. (Obligatoire si vous n’incluez pas le domaine racine et la langue du domaine dans la section Options DSA des paramètres de la campagne, facultatif dans le cas contraire) Créez [cibles de recherche dynamique](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) pour le groupe publicitaire. Vous pouvez également remplacer l&#39;offre au niveau du groupe publicitaire par des offres au niveau de la cible.
 

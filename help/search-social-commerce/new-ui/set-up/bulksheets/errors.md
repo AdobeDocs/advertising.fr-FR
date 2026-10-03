@@ -4,20 +4,25 @@ description: Référencez les raisons potentielles de chaque erreur de feuille d
 feature: Search Bulksheets
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 subfeature_v2:
   - id: e58024d1-d6da-420c-80af-6be211808316
+    internal-label: Bulksheets
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1159
+source-wordcount: '1159'
 ht-degree: 1%
-
 ---
-
 # (Nouvelle interface utilisateur) Erreurs de feuille d’envoi groupé
 
 Search, Social et Commerce génèrent deux types de fichiers d’erreur lors des opérations de feuilles d’envoi groupé :
@@ -52,8 +57,8 @@ Les erreurs suivantes peuvent être incluses dans la colonne [!UICONTROL EF Erro
 | Général | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | L’opération a complètement échoué. Si le problème persiste, contactez l’équipe chargée de votre compte Adobe. |
 | Toutes les entités | [!UICONTROL Invalid Fields.] \[champs non valides et erreur\] | Les données spécifiées sont manquantes ou non valides. |
 |  | [!UICONTROL Invalid Reference Given] | L’ID de l’entité sur le réseau publicitaire ou un ID d’entité parent (tel que l’ID de compte) ne correspond pas à une entité dans Search, Social et Commerce. Cela peut se produire lorsque vous avez modifié l’ID dans la feuille d’envoi groupé. |
-|  | [!UICONTROL &lt;Entity> is deleted or expired] | L’entité a expiré ou a été supprimée, et vous ne pouvez pas modifier ses propriétés. L&#39;entité peut être supprimée lorsqu&#39;une personne a modifié manuellement le statut. |
-|  | [!UICONTROL &lt;Entity> status should be Active or Paused] | (Nouvelles entités) Une nouvelle entité ne peut être que « Active » ou « Paused ». |
+|  | [!UICONTROL <Entity> is deleted or expired] | L’entité a expiré ou a été supprimée, et vous ne pouvez pas modifier ses propriétés. L&#39;entité peut être supprimée lorsqu&#39;une personne a modifié manuellement le statut. |
+|  | [!UICONTROL <Entity> status should be Active or Paused] | (Nouvelles entités) Une nouvelle entité ne peut être que « Active » ou « Paused ». |
 |  | [!UICONTROL Duplicate Entries are present] | Plusieurs lignes sont incluses pour la même entité, avec des attributs différents dans chaque ligne. Consolidez les modifications dans une seule ligne. |
 |  | [!UICONTROL Invalid AMO ID given] | L&#39;ID AMO pour la ligne n&#39;existe pas. Cela peut se produire si vous avez modifié l’ID dans la feuille d’envoi groupé. |
 |  | [!UICONTROL Invalid row given] | La ligne ne contient pas suffisamment d’informations pour déterminer le type d’entité. Modifiez la ligne afin d’inclure tous les champs obligatoires pour le type d’entité. |
@@ -69,7 +74,7 @@ Les erreurs suivantes peuvent être incluses dans la colonne [!UICONTROL EF Erro
 | Tous les composants du groupe publicitaire | [!UICONTROL Adgroup creation failed] | Le groupe publicitaire parent n&#39;a pas été créé. Cette entité n&#39;a donc pas pu être créée. Cela peut être dû à une erreur dans les champs du groupe publicitaire ou à l’échec de la campagne parente. Assurez-vous que toutes les entités parentes contiennent tous les champs obligatoires. |
 |  | [!UICONTROL Adgroup Row Missing] | Le groupe publicitaire parent spécifié n&#39;existe pas. L&#39;entité n&#39;a donc pas pu être créée. Créez le groupe publicitaire parent sur une nouvelle ligne. |
 |  | [!UICONTROL Cannot modify Tracking Template at Keyword / Creative / Site Link level until Account has been migrated to use Upgraded URLs. Please retry after migration] | Le champ « [!UICONTROL Tracking Template] » concerne uniquement les comptes qui utilisent des URL finales/avancées. Supprimez la valeur jusqu’à ce que vous ayez migré le compte pour utiliser les URL finales/avancées. |
-| Annonce publicitaire | [!UICONTROL Cannot modify attributes other than status code and url for &lt;ad type>] | (Types d’annonces autres que texte, texte développé, produit, installation d’application et recherche dynamique) Vous ne pouvez modifier que le statut et l’URL de ce type d’annonce. |
+| Annonce publicitaire | [!UICONTROL Cannot modify attributes other than status code and url for <ad type>] | (Types d’annonces autres que texte, texte développé, produit, installation d’application et recherche dynamique) Vous ne pouvez modifier que le statut et l’URL de ce type d’annonce. |
 |  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | Chaque groupe d’annonces peut inclure jusqu’à 50 annonces, et cette feuille d’envoi groupé en inclut plus de 50. Réduisez le nombre de publicités. |
 |  | [!UICONTROL Cannot modify an ad which is either deleted/expired or under an deleted/expired campaign] | L’annonce publicitaire se trouve dans une entité parent expirée ou supprimée. Vous ne pouvez donc pas la modifier. |
 | Mot-clé | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | La campagne ou le groupe publicitaire parent est supprimé ou a expiré. Vous ne pouvez donc pas modifier l’entité. |
@@ -92,7 +97,7 @@ Les erreurs suivantes se produisent dans les fichiers [!UICONTROL EF Errors] uni
 |----|----|----|
 | Général | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | L’opération a complètement échoué. Si le problème persiste, contactez l’équipe chargée de votre compte Adobe. |
 | Toutes les entités | [!UICONTROL Entity] est publié sur le réseau publicitaire | L’entité a été publiée sur le réseau publicitaire, mais elle n’a pas été synchronisée en même temps sur Search, Social et Commerce, de sorte que les données d’entité ne sont pas immédiatement disponibles dans Search, Social et Commerce. Le processus de synchronisation est désormais automatiquement déclenché.<br><br>Lorsque de grandes quantités de données sont synchronisées, les données peuvent ne pas être disponibles dans Search, Social et Commerce pendant plusieurs heures ou plus. |
-| | [!UICONTROL Skipping &lt;ENTITY> creation since &lt;PARENT ENTITY> creation failed.] | L&#39;entité parent n&#39;a pas pu être créée. Cette entité enfant n&#39;a donc pas été créée. |
+| | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | L&#39;entité parent n&#39;a pas pu être créée. Cette entité enfant n&#39;a donc pas été créée. |
 
 >[!MORELIKETHIS]
 >

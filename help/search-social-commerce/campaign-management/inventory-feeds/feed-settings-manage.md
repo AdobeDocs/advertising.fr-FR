@@ -3,18 +3,21 @@ title: Configurer les paramètres des données de flux
 description: Découvrez comment configurer les paramètres qui contrôlent le traitement des données de flux.
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
+TQID: 'https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: '1165'
 ht-degree: 0%
-
 ---
-
 # Configurer les paramètres des données de flux
 
 comptes *[!DNL Google Ads], [!DNL LY Ads] (actions de suppression uniquement), [!DNL Microsoft Advertising] et [!DNL Yandex] uniquement*
@@ -100,7 +103,7 @@ Le niveau de stock de chaque ligne provient d&#39;une colonne du fichier de flux
 >[!NOTE]
 >
 >* Pour les fichiers FTP, le service de flux vérifie les mises à jour du répertoire FTP toutes les deux heures (heures paires dans le fuseau horaire PST). Cette option traite tous les fichiers chargés depuis la dernière vérification.
->* Pour les comptes de centre commercial, Search, Social et Commerce se synchronise quotidiennement avec le compte à environ 06:00 dans le fuseau horaire de l’annonceur. Cette option traite toutes les données mises à jour depuis la dernière synchronisation.
+>* Pour les comptes de centre commercial, Search, Social et Commerce se synchronise quotidiennement avec le compte vers 6 h 00 dans le fuseau horaire de l’annonceur. Cette option traite toutes les données mises à jour depuis la dernière synchronisation.
 >* Les données propagées sont disponibles à partir des onglets [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] et [!UICONTROL Ads] jusqu’à ce qu’elles soient publiées sur le réseau publicitaire ou dans la vue [!UICONTROL Bulksheets].
 
 **[!UICONTROL Post to the SE]:** (les annonceurs téléchargent les fichiers de données via FTP ou un compte de centre commercial) Crée automatiquement des fichiers de feuilles d’envoi groupé dans les formats appropriés pour les réseaux publicitaires appropriés après la propagation de nouvelles données par le biais des modèles applicables. Cette option supprime également les données des onglets [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] et [!UICONTROL Ads], sauf si des sous-composants comportent des erreurs.
