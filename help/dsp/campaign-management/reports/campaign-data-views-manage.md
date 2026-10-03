@@ -194,4 +194,4 @@ En bas à droite d’une page, à côté de **[!UICONTROL Items per page]** , s�
 >* [Afficher l&#39;état de prévision d&#39;emplacement](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Afficher les rapports de diagnostic des emplacements](placement-diagnostics.md)
 >* [Exporter des données à partir d&#39;une vue de gestion de campagne](campaign-export-data.md)
->* [Vidéo : structure du compte DSP et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Vidéo : structure du compte DSP et interface utilisateur](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=fr)
