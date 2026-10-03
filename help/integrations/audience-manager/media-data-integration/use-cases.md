@@ -90,7 +90,7 @@ Une fois que les données d’impression et de clic de campagne sont disponibles
 
 ## [!DNL Audience Optimization Reports]
 
-Vous pouvez tirer parti de [ [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html) pour identifier les opportunités de performances potentielles pour les segments de vos campagnes. Ces rapports combinent les données d’impression, de clic et de conversion de la campagne avec les mesures de segment afin d’informer les optimisations centrées sur les segments et un mix de canaux efficace.
+Vous pouvez tirer parti de [&#x200B; [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html) pour identifier les opportunités de performances potentielles pour les segments de vos campagnes. Ces rapports combinent les données d’impression, de clic et de conversion de la campagne avec les mesures de segment afin d’informer les optimisations centrées sur les segments et un mix de canaux efficace.
 
 ### Types de rapports Audience Optimization pertinents
 

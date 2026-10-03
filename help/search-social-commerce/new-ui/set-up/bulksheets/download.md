@@ -163,17 +163,17 @@ Critères pour les campagnes, groupes publicitaires, annonces/contenus publicita
 
 Pour plus d’informations sur les colonnes obligatoires et facultatives pour chaque réseau publicitaire, reportez-vous aux articles relatifs au format de données de feuille d’envoi groupé spécifique au réseau publicitaire :
 
-* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Baidu] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL LY Ads] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Microsoft Advertising] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Naver] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Yahoo DSP] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Yandex] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Baidu] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL LY Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Microsoft Advertising] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Naver] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Yahoo DSP] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+* [Données de feuille d’envoi groupé obligatoires et facultatives pour les comptes  [!DNL Yandex] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]
 >
->* [ (nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé](about.md)
+>* [&#x200B; (nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé](about.md)
 >* [(Nouvelle interface utilisateur) Chargez une feuille d’envoi groupé ou un fichier d’erreur corrigé](upload.md)
 >* [(Nouvelle interface utilisateur) Publier des feuilles d’envoi groupé ou des fichiers d’erreur corrigés](post.md)
 >* [(nouvelle interface utilisateur) Valider les pages de destination dans des fichiers de feuille d’envoi groupé](validate-landing-pages.md)

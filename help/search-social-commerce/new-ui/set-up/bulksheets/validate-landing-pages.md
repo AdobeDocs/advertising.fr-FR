@@ -62,7 +62,7 @@ Vous pouvez ensuite télécharger le fichier, corriger les erreurs et charger le
 
    **[!UICONTROL Report redirects as errors]:** lorsqu’une page de destination est redirigée vers une autre page (par exemple, si la page de destination est manquante et que le site affiche une page de substitution), la colonne [!UICONTROL EF Errors] du fichier d’erreur de la page de destination indique l’URL vers laquelle la page de destination est redirigée.
 
-Lorsque la tâche commence, une nouvelle ligne est ajoutée à la vue [!UICONTROL Bulksheets]. Lorsque les notifications par e-mail pour les feuilles d’envoi groupé sont [ activées dans [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), une notification par e-mail avec un lien vers le fichier est envoyée lors de la création du fichier. Selon la quantité de données compilées, la notification par e-mail peut prendre plusieurs minutes ou plus. Vous pouvez télécharger le fichier pour le modifier, puis le charger à nouveau pour publication, ou vous pouvez publier le fichier en l’état.
+Lorsque la tâche commence, une nouvelle ligne est ajoutée à la vue [!UICONTROL Bulksheets]. Lorsque les notifications par e-mail pour les feuilles d’envoi groupé sont [&#x200B; activées dans [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), une notification par e-mail avec un lien vers le fichier est envoyée lors de la création du fichier. Selon la quantité de données compilées, la notification par e-mail peut prendre plusieurs minutes ou plus. Vous pouvez télécharger le fichier pour le modifier, puis le charger à nouveau pour publication, ou vous pouvez publier le fichier en l’état.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Lorsque la tâche commence, une nouvelle ligne est ajoutée à la vue [!UICONTRO
 
 >[!MORELIKETHIS]
 >
->* [ (nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé](about.md)
+>* [&#x200B; (nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé](about.md)
 >* [(Nouvelle interface utilisateur) Chargez une feuille d’envoi groupé ou un fichier d’erreur corrigé](upload.md)
 >* [(Nouvelle interface utilisateur) Publier des feuilles d’envoi groupé ou des fichiers d’erreur corrigés](post.md)
 >* [(Nouvelle interface utilisateur) Supprimer les feuilles d’envoi groupé et les fichiers d’erreur chargés](delete.md)

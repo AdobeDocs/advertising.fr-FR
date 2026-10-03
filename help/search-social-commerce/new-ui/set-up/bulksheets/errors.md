@@ -101,7 +101,7 @@ Les erreurs suivantes se produisent dans les fichiers [!UICONTROL EF Errors] uni
 
 >[!MORELIKETHIS]
 >
->* [ (nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé](about.md)
+>* [&#x200B; (nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé](about.md)
 >* [(nouvelle interface utilisateur) Télécharger/créer un fichier de feuille d’envoi groupé](download.md)
 >* [(nouvelle interface utilisateur) Valider les pages de destination dans des fichiers de feuille d’envoi groupé](validate-landing-pages.md)
 >* [(Nouvelle interface utilisateur) Chargez une feuille d’envoi groupé ou un fichier d’erreur corrigé](upload.md)

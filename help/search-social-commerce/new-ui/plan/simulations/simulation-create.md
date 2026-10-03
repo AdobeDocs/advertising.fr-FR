@@ -32,7 +32,7 @@ ht-degree: 0%
 
 *Fonction*
 
-Vous pouvez générer une simulation personnalisée pour un portfolio [ optimisé ou actif ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md). Vous pouvez également modifier les paramètres d&#39;une simulation existante et la régénérer ou réexécuter une simulation existante avec les paramètres existants.
+Vous pouvez générer une simulation personnalisée pour un portfolio [&#x200B; optimisé ou actif &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md). Vous pouvez également modifier les paramètres d&#39;une simulation existante et la régénérer ou réexécuter une simulation existante avec les paramètres existants.
 
 <!-- You can't run sims for portfolios with legacy keyword-level optimization when they include smart bidding campaigns. Clarify all exceptions so users don't find out via error messages. -->
 

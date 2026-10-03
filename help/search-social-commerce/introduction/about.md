@@ -71,7 +71,7 @@ Consultez « [Inventaire pris en charge](/help/search-social-commerce/introducti
 
 Les intégrations natives à Adobe Analytics et Adobe Audience Manager vous permettent de connecter vos données et segments d’audience pour le ciblage publicitaire, la création [!DNL Google Ads] d’audiences, l’optimisation et le reporting/analytics.
 
-Pour plus d’informations sur les intégrations à ces produits et à d’autres produits Adobe, voir « [ Intégration aux solutions et services Adobe CX Enterprise ](/help/search-social-commerce/introduction/integrations.md). »
+Pour plus d’informations sur les intégrations à ces produits et à d’autres produits Adobe, voir « [&#x200B; Intégration aux solutions et services Adobe CX Enterprise &#x200B;](/help/search-social-commerce/introduction/integrations.md). »
 
 ## Suivi des conversions
 

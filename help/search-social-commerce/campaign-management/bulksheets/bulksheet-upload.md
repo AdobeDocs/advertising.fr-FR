@@ -29,7 +29,7 @@ Vous pouvez charger des fichiers de feuilles d’envoi groupé, des fichiers d�
 
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Upload Bulksheet]**.
 
-1. Saisissez ou sélectionnez des informations dans les paramètres de ](#bulksheet-upload-settings).[[!UICONTROL Upload Bulksheet]
+1. Saisissez ou sélectionnez des informations dans les paramètres de [&#128279;](#bulksheet-upload-settings).[!UICONTROL Upload Bulksheet]
 
 1. Cliquez sur **[!UICONTROL Apply]**.
 
