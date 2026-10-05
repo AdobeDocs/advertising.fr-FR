@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2304'
 ht-degree: 0%
 ---
 # Gestion des campagnes
@@ -29,7 +29,7 @@ Une campagne est le composant principal d’un compte réseau publicitaire. Pour
 
 Une fois que vous [rendez un compte de réseau publicitaire accessible via une connexion API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) et que Search, Social et Commerce a synchronisé les données du compte avec le réseau publicitaire, vous pouvez créer de nouvelles campagnes avec [types de campagnes pris en charge](/help/search-social-commerce/introduction/supported-inventory.md). Vous pouvez également modifier le statut des campagnes.
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
 
 ## À propos de la vue [!UICONTROL Campaigns] {#campaign-view-about}
 
@@ -72,7 +72,7 @@ Search, Social et Commerce extraient les données de performances toutes les heu
 
 1. Cliquez sur **[!UICONTROL Create Campaign]**.
 
-1. Spécifiez les paramètres de la campagne [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
+1. Spécifiez les paramètres de la campagne [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
@@ -108,7 +108,7 @@ Vous pouvez modifier les paramètres de campagnes individuelles. Vous pouvez ég
 
    * Cochez la case en regard de la campagne. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Edit]**.
 
-1. Modifiez les [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Paramètres de la campagne [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
+1. Modifiez les [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Paramètres de la campagne [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
@@ -124,7 +124,7 @@ Modifier rapidement le statut d’une campagne sans ouvrir l’ensemble des para
 
 Vous pouvez suspendre n’importe quelle campagne active sur un réseau publicitaire pris en charge afin de désactiver les enchères associées. Vous pouvez ensuite reprendre les enchères en redéfinissant leur statut sur Actif.
 
-Vous pouvez également supprimer toute campagne active ou en pause. Les campagnes supprimées sont supprimées du réseau publicitaire. Ils sont toujours visibles lorsque vous les incluez dans le filtre de données, mais vous ne pouvez pas les modifier.
+Vous pouvez également supprimer (appelée « archive » dans [!DNL ChatGPT Ads Manager]) toute campagne active ou en pause. Les campagnes supprimées ou archivées sont supprimées ou archivées du réseau publicitaire. Ils sont toujours visibles lorsque vous les incluez dans le filtre de données, mais vous ne pouvez pas les modifier.
 
 ### Activer ou mettre en pause une campagne
 
@@ -138,7 +138,7 @@ Vous pouvez également supprimer toute campagne active ou en pause. Les campagne
 
    * Pour suspendre une campagne active, sélectionnez **[!UICONTROL Paused]**.
 
-### Suppression d’une campagne
+### Supprimer ou archiver une campagne
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
 
@@ -152,7 +152,7 @@ Vous pouvez également supprimer toute campagne active ou en pause. Les campagne
 
 L’affectation d’une campagne à un portfolio optimisé permet à Search, Social et Commerce d’optimiser les enchères, les budgets de campagne et les cibles de stratégie d’enchères pour les mots-clés et les annonces de la campagne. Vous pouvez affecter des campagnes à un portfolio à partir de la vue [!UICONTROL Campaigns], lorsque vous créez le portfolio ou en modifiant les paramètres d’un portfolio.
 
-L’optimisation ne s’applique pas à tous les types de campagne et réseaux publicitaires. Consultez la liste des [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) que vous pouvez inclure dans un portfolio. Vérifiez également la prise en charge de l’optimisation [&#x200B; pour chaque stratégie d’enchères de campagne](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy).
+L’optimisation ne s’applique pas à tous les types de campagne et réseaux publicitaires. Consultez la liste des [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) que vous pouvez inclure dans un portfolio. Vérifiez également la prise en charge de l’optimisation [ pour chaque stratégie d’enchères de campagne](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy).
 
 >[!NOTE]
 >
@@ -209,6 +209,8 @@ Pour plus d’informations sur l’optimisation, consultez le Guide d’optimisa
 1. Vérifiez les paramètres et apportez les modifications nécessaires, puis cliquez sur **[!UICONTROL Save]**.
 
 ## Gérer les affectations de contrainte d’offre pour les campagnes {#campaign-constraints}
+
+*Non disponible pour l’[!DNL ChatGPT Ads]*
 
 Chaque entité ne peut avoir qu&#39;une seule contrainte. Les contraintes sont héritées par les entités enfants. Il n’est donc pas nécessaire d’affecter des contraintes aux entités enfants, sauf si vous souhaitez remplacer les valeurs héritées.
 
@@ -279,6 +281,8 @@ Vous pouvez affecter une seule contrainte à une ou plusieurs campagnes.
 1. Dans la boîte de dialogue de confirmation, sélectionnez **[!UICONTROL Yes, Unassign]**.
 
 ## Gérer les affectations de contraintes de cible pour les campagnes {#campaign-target-constraints}
+
+*Non disponible pour l’[!DNL ChatGPT Ads]*
 
 ### Affecter une contrainte de cible à des campagnes sélectionnées à partir de la nouvelle vue [!UICONTROL Campaigns]
 
@@ -380,7 +384,7 @@ Générez un rapport qui inclut les lignes de données d&#39;une ou plusieurs ca
 
 Vous pouvez supprimer n’importe quel rapport généré.
 
-Consultez également les sections « >* [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) et « [&#x200B; (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads] »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md).
+Consultez également les sections « >* [ (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) et « [ (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads] »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md).
 
 ### Générer un rapport avec les lignes de données filtrées
 
@@ -392,7 +396,7 @@ Consultez également les sections « >* [&#x200B; (interface utilisateur hérit�
 
    * Pour télécharger des données pour toutes les campagnes, il n’est pas nécessaire de cocher des cases. Toutes les campagnes sont incluses par défaut.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans les paramètres de [!UICONTROL Grid Reports], saisissez un nom de rapport unique, puis cliquez sur **[!UICONTROL Generate]**.
 
@@ -408,7 +412,7 @@ Consultez également les sections « >* [&#x200B; (interface utilisateur hérit�
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") en regard du nom du fichier.
 
@@ -418,7 +422,7 @@ Consultez également les sections « >* [&#x200B; (interface utilisateur hérit�
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete-new.png "Supprimer") en regard du nom du fichier.
 
@@ -428,7 +432,7 @@ Consultez également les sections « >* [&#x200B; (interface utilisateur hérit�
 >* [Gérer les affectations de contraintes pour les groupes publicitaires](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [Gérer les affectations de contraintes pour les mots-clés](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
 >* [Gérer les affectations de contrainte pour les emplacements](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
->* [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(interface utilisateur héritée) Supprimez un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] paramètres de campaign](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] paramètres de campaign](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)

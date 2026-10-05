@@ -9,24 +9,19 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2100'
 ht-degree: 0%
 ---
 # (Nouvelle interface utilisateur) Gérer les comptes réseau publicitaire via une connexion API
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
-
-*Fonction*
-
-<!-- Move out info about Naver into a separate page -->
-
 Vous trouverez ci-dessous des instructions pour gérer les comptes de réseau publicitaire qui se synchronisent avec Search, Social et Commerce à l’aide de l’API du réseau publicitaire.
 
 <!-- Move out info about Naver into a separate page -->
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
 
 ## Créer un compte réseau publicitaire {#create-account}
 
@@ -36,13 +31,13 @@ Pour activer la synchronisation d’un compte, vous devez créer un enregistreme
 >
 >Pour créer un compte sur le réseau publicitaire, accédez au site web du réseau publicitaire.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 1. Cliquez sur **[!UICONTROL Create Account]**.
 
 1. Cliquez sur le nom du réseau publicitaire, puis sur **[!UICONTROL Next]**.
 
-1. (Tous les réseaux publicitaires, à l’exception de [!DNL Yandex]) Connectez-vous au réseau publicitaire à l’aide des informations d’identification de l’annonceur. Sélectionnez l’option « Suivi des comptes pour ce compte ». Ensuite, en haut à droite, cliquez sur **[!UICONTROL Next]**.
+1. (Tous les réseaux publicitaires, à l’exception de [!DNL ChatGPT Ads] et [!DNL Yandex]) Connectez-vous au réseau publicitaire à l’aide des informations d’identification de l’annonceur. Sélectionnez l’option « Suivi des comptes pour ce compte ». Ensuite, en haut à droite, cliquez sur **[!UICONTROL Next]**.
 
 1. Spécifiez les [paramètres du compte](#account-settings-api) dans chaque onglet disponible.
 
@@ -58,7 +53,7 @@ Pour réauthentifier les paramètres du compte afin d’actualiser les autorisat
 >
 >Pour modifier un compte réel sur le réseau publicitaire, accédez au site web du réseau publicitaire.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 1. Sélectionnez le compte de l’une des manières suivantes :
 
@@ -76,11 +71,13 @@ Pour réauthentifier les paramètres du compte afin d’actualiser les autorisat
 
 ## Réauthentifier un compte réseau publicitaire {#reauthenticate}
 
+*Ne s’applique pas aux comptes [!DNL ChatGPT Ads]*
+
 Pour actualiser la connexion au réseau publicitaire ou mettre à jour les autorisations pour le compte, réauthentifiez le compte.
 
 1. (Si vous êtes connecté à un autre compte pour le même réseau publicitaire dans la même application de navigateur) Déconnectez-vous de tout compte autre que celui de l’annonceur.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -98,7 +95,7 @@ Pour actualiser la connexion au réseau publicitaire ou mettre à jour les autor
 
 Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commerce synchronise les données de campagne avec le compte (lorsqu’il est pris en charge) et diffuse des enchères automatisées et/ou des budgets de campagne pour les campagnes des portfolios. Lorsque vous désactivez un compte de réseau publicitaire, Search, Social et Commerce arrête toute activité sur le compte. Les données collectées alors que le compte était actif sont toujours stockées, mais les vues et rapports de gestion de campagne n’incluent pas les données de la période au cours de laquelle le compte est désactivé. Vous pourrez par la suite réactiver le compte pour reprendre l’activité avec le compte.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -141,7 +138,7 @@ Les paramètres du compte varient selon le réseau publicitaire. Il se peut que 
 
 **[!DNL [Ad Network] Accounts]:** (visible lorsque vous créez un compte) Compte du réseau publicitaire à synchroniser.
 
-**[Informations de connexion]:** (comptes Yandex uniquement) Informations d’identification du compte à utiliser :
+**[Détails de connexion]:** (comptes [!DNL Yandex] uniquement) Informations d’identification du compte à utiliser :
 
 * **[!UICONTROL Login]:** nom ou ID de connexion permettant d’activer l’accès API au compte.
 
@@ -154,12 +151,6 @@ Les paramètres du compte varient selon le réseau publicitaire. Il se peut que 
 * **[!UICONTROL Purse Campaign ID]:** (comptes [!DNL Yandex] dont le paramètre Compte partagé est désactivé uniquement ; facultatif) Identifiant numérique de la campagne utilisé pour payer toutes les campagnes publicitaires du compte.
 
 * **[!UICONTROL Finance Token]:** (comptes [!DNL Yandex] avec le paramètre Compte partagé désactivé uniquement ; facultatif) Jeton de développement à utiliser pour les appels API liés à la finance, comme pour réaffecter de l’argent du portefeuille entre les campagnes de l’annonceur, si nécessaire pour l’optimisation du portefeuille.
-
-**[!UICONTROL Network Account ID]:** (Tous les réseaux publicitaires, à l’exception de [!DNL Yandex] ID de compte attribué par le réseau publicitaire.
-
->[!NOTE]
->
->Les comptes Ad Network Manager ne sont pas pris en charge ici. Pour identifier un compte Manager pour [!DNL Microsoft Advertising], utilisez respectivement le champ ID de compte de Principal ou Compte MCC . Pour [configurer les informations d’identification d’un compte  [!DNL Google Ads]  responsable](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md), accédez à [!UICONTROL Setup] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Currency]:** (Lecture seule) Abréviation de la devise utilisée pour le compte. Cette valeur est automatiquement renseignée avec la devise configurée pour le compte sur le réseau publicitaire une fois l’enregistrement enregistré.
 
@@ -193,7 +184,7 @@ Pour activer cette fonctionnalité, activez **[Activer le suivi]**.
 >* Si vous passez de [!UICONTROL Standard] à [!UICONTROL Token], ou vice versa, vous devez régénérer les URL de tracking pour le compte.
 >* Vous pouvez remplacer le paramètre au niveau du compte au niveau de la campagne.
 
-**[!UICONTROL Auto Update]:** (lorsque le suivi Search, Social et Commerce est activé) Standardise vos URL de suivi à des fins de compatibilité entre les navigateurs et les serveurs. Search, Social et Commerce télécharge automatiquement les éléments suivants sur le réseau publicitaire lors de la synchronisation suivante : (a) paramètres de tracking Search, Social et Commerce pour les modèles de tracking et les mêmes paramètres ajoutés aux URL finales ou (b) nouvelles URL de destination incorporées avec le code de tracking Search, Social et Commerce. Pour les annonceurs et annonceuses disposant d’une intégration [Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr) et d’une configuration d’AMO ID côté serveur (s_kwcid), le chargement inclut également les paramètres [AMO ID](/help/integrations/analytics/ids.md#amo-id) pour vos comptes [!DNL Google Ads] et [!DNL Microsoft Advertising]. Le paramètre par défaut au niveau du compte est hérité des paramètres de suivi de l’annonceur. Vous pouvez remplacer le paramètre au niveau du compte au niveau de la campagne.
+**[!UICONTROL Auto Update]:** (lorsque le suivi Search, Social et Commerce est activé) Standardise vos URL de suivi à des fins de compatibilité entre les navigateurs et les serveurs. Search, Social et Commerce télécharge automatiquement les éléments suivants sur le réseau publicitaire lors de la synchronisation suivante : (a) paramètres de tracking Search, Social et Commerce pour les modèles de tracking et les mêmes paramètres ajoutés aux URL finales ou (b) nouvelles URL de destination incorporées avec le code de tracking Search, Social et Commerce. Pour les annonceurs et annonceuses disposant d’une intégration [Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) et d’une configuration d’AMO ID côté serveur (s_kwcid), le chargement inclut également les paramètres [AMO ID](/help/integrations/analytics/ids.md#amo-id) pour vos comptes [!DNL Google Ads] et [!DNL Microsoft Advertising]. Le paramètre par défaut au niveau du compte est hérité des paramètres de suivi de l’annonceur. Vous pouvez remplacer le paramètre au niveau du compte au niveau de la campagne.
 
 Les URL de tracking ne sont mises à jour quotidiennement que pour les entités désynchronisées (c’est-à-dire les nouvelles entités ajoutées et les entités existantes dont les propriétés ont été modifiées). Par conséquent, si vous modifiez ce paramètre de désactivé à activé pour un annonceur/compte/campagne existant, les URL de suivi ne sont pas mises à jour pour les entités existantes qui sont déjà synchronisées. Pour ajouter le tracking aux URL des entités existantes non synchronisées, contactez l’équipe de votre compte Adobe et demandez un processus de synchronisation manuel unique. Le processus de chargement automatique gérera les modifications futures.
 
@@ -240,7 +231,7 @@ Les comptes qui utilisent le suivi des clics d’Adobe Advertising doivent inclu
 
 ## onglet [!UICONTROL Set up Adobe Analytics]
 
-Ces paramètres sont disponibles pour les annonceurs qui disposent d’une [[!DNL Adobe Analytics for Advertising]  intégration &#x200B;](/help/integrations/analytics/overview.md).
+Ces paramètres sont disponibles pour les annonceurs qui disposent d’une [[!DNL Adobe Analytics for Advertising]  intégration ](/help/integrations/analytics/overview.md).
 
 **[!UICONTROL Adobe Analytics Report Suite]:** (facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoient les données qu’ils collectent sur le réseau publicitaire, y compris les classifications d’entités et les données de clics pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.<!-- What are the repercussions of changing the suites? Timing of updated data? -->
 
@@ -251,5 +242,5 @@ Pour que les données apparaissent dans les suites de rapports, (a) la fonction 
 >[!MORELIKETHIS]
 >
 >* [À propos des comptes de réseau publicitaire](../ad-network-account-about.md)
->* [Gérer les comptes de centre commercial](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
+>* [Gérer les comptes de centre commercial](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 >* [Mettre à jour le code de suivi s_kwcid pour un  [!DNL Google Ads] compte](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)

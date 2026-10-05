@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1761'
 ht-degree: 0%
 ---
 # Gestion des publicités
@@ -31,7 +31,7 @@ Une publicité appartient à un groupe publicitaire et contient le contenu prés
 
 Une fois que vous [rendez un compte de réseau publicitaire accessible via une connexion API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) et que Search, Social et Commerce a synchronisé les données du compte avec le réseau publicitaire, vous pouvez créer des annonces pour un [type de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md). Vous pouvez également modifier le statut des publicités.
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
 
 ## À propos de la vue [!UICONTROL Ads] {#ad-view-about}
 
@@ -67,6 +67,8 @@ Vous pouvez créer et gérer des types d’annonces pris en charge pour les grou
   >
   >Vous ne pouvez actuellement pas créer ni modifier des annonces réservées aux appels uniquement. Vous pouvez afficher, modifier le statut ou supprimer une annonce d’appel uniquement existante.
 
+* **Annonces conversationnelles** pour un groupe publicitaire dans une campagne [!DNL ChatGPT Ads]. Les annonces publicitaires conversationnelles apparaissent en regard des conversions de chat IA.
+
 * **Annonces de recherche dynamique étendues** (désormais appelées uniquement « annonces de recherche dynamique » sur les réseaux publicitaires) pour [!DNL Google Ads] et [!DNL Microsoft Advertising] des groupes d’annonces de recherche dynamique dans les campagnes de recherche. Les annonces de recherche dynamique utilisent le contenu de votre site web plutôt que des mots-clés pour décider quand afficher vos annonces. Le réseau publicitaire génère dynamiquement le titre, choisit l’URL de la page de destination et l’URL d’affichage, et génère automatiquement l’URL finale.
 
   Pour plus d’informations sur les annonces de recherche dynamique, consultez les [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/2471185) et [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/ads/en/56794).
@@ -81,7 +83,7 @@ Vous pouvez créer et gérer des types d’annonces pris en charge pour les grou
 
   >[!NOTE]
   >
-  >[!DNL Google Ads] ne fournit pas de données en dehors de ses éditeurs natifs sur les combinaisons de texte affichées sous forme de publicités. Pour plus d’informations sur les rapports pour chaque combinaison de texte, consultez la documentation sur les [Google Ads &#x200B;](https://support.google.com/google-ads/answer/7684791).
+  >[!DNL Google Ads] ne fournit pas de données en dehors de ses éditeurs natifs sur les combinaisons de texte affichées sous forme de publicités. Pour plus d’informations sur les rapports pour chaque combinaison de texte, consultez la documentation sur les [Google Ads ](https://support.google.com/google-ads/answer/7684791).
 
 ### Données de performances au niveau des annonces
 
@@ -117,7 +119,7 @@ Cependant, il n’est pas disponible pour [!DNL Google Ads] publicité de recher
 
    Pour plus d’informations sur les types d’annonces disponibles, voir « [Types d’annonces disponibles](#ad-types) ».
 
-1. Spécifiez les paramètres restants pour une [annonce de texte Baidu](ad-settings-baidu-text.md), une [annonce de recherche dynamique étendue Google Ads](ad-settings-google-dsa.md) (appelée simplement « annonce de recherche dynamique » dans Google Ads), une [annonce de recherche réactive Google Ads](ad-settings-google-rsa.md), une [annonce de recherche dynamique étendue Microsoft Advertising](ad-settings-microsoft-dsa.md), une [annonce multimédia Microsoft Advertising](ad-settings-microsoft-multimedia.md), une [annonce de produit Microsoft Advertising Microsoft](ad-settings-microsoft-product.md), une [annonce responsive Advertising (audience)](ad-settings-microsoft-responsive.md), une [annonce de recherche réactive Microsoft](ad-settings-microsoft-rsa.md) ou des paramètres [annonce de texte Yandex](ad-settings-yandex-text.md).
+1. Spécifiez les paramètres restants pour une [annonce de texte Baidu](ad-settings-baidu-text.md), une [[!DNL ChatGPT Ads] annonce](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md), une [annonce de recherche dynamique étendue Google Ads](ad-settings-google-dsa.md) (appelée simplement « annonce de recherche dynamique » dans Google Ads), une [annonce de recherche réactive Google Ads](ad-settings-google-rsa.md), une [annonce de recherche dynamique étendue Microsoft Advertising](ad-settings-microsoft-dsa.md), une [annonce multimédia Microsoft Advertising](ad-settings-microsoft-multimedia.md), une [annonce de produit Microsoft Advertising Microsoft responsive (audience)](ad-settings-microsoft-responsive.md), une [annonce de recherche réactive Advertising](ad-settings-microsoft-product.md) ou des paramètres ](ad-settings-microsoft-rsa.md)annonce de texte Yandex[ ](ad-settings-yandex-text.md).[
 
    >[!NOTE]
    >
@@ -129,7 +131,7 @@ Cependant, il n’est pas disponible pour [!DNL Google Ads] publicité de recher
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
-1. &#x200B;<!-- Add link to where to generate this once available to users-->(Achats d’annonces dans des campagnes avec suivi des conversions Adobe Advertising ; facultatif) Pour effectuer le suivi des clics sur l’annonce, ajoutez manuellement une URL de suivi aux paramètres du compte, de la campagne ou du groupe de produits.
+1. <!-- Add link to where to generate this once available to users-->(Achats d’annonces dans des campagnes avec suivi des conversions Adobe Advertising ; facultatif) Pour effectuer le suivi des clics sur l’annonce, ajoutez manuellement une URL de suivi aux paramètres du compte, de la campagne ou du groupe de produits.
 
 ## Renommer une publicité {#ad-rename}
 
@@ -157,7 +159,7 @@ Renommez rapidement une publicité sans ouvrir les paramètres complets de la pu
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Edit]**.
 
-1. Modifiez les paramètres restants d’une [annonce de texte Baidu](ad-settings-baidu-text.md), d’une [annonce de recherche dynamique étendue Google Ads](ad-settings-google-dsa.md) (désormais appelée uniquement « annonce de recherche dynamique » dans Google Ads), d’une [annonce de recherche réactive Google Ads](ad-settings-google-rsa.md), d’une [annonce de recherche dynamique étendue Microsoft Advertising](ad-settings-microsoft-dsa.md), d’une [annonce multimédia Microsoft Advertising](ad-settings-microsoft-multimedia.md), d’une [annonce de produit Microsoft Microsoft Advertising Microsoft responsive (audience)](ad-settings-microsoft-responsive.md), d’une [annonce de recherche réactive Advertising Advertising](ad-settings-microsoft-rsa.md) ou des paramètres [&#128279;](ad-settings-yandex-text.md) annonce de texte Yandex[&#128279;](ad-settings-microsoft-product.md).
+1. Modifiez les paramètres restants d’une [annonce de texte Baidu](ad-settings-baidu-text.md), [[!DNL ChatGPT Ads] annonce](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md), [annonce de recherche dynamique étendue Google Ads](ad-settings-google-dsa.md) (désormais appelée uniquement « annonce de recherche dynamique » dans Google Ads), [annonce de recherche réactive Google Ads](ad-settings-google-rsa.md), [annonce de recherche dynamique étendue Microsoft Advertising](ad-settings-microsoft-dsa.md), [annonce multimédia Microsoft Advertising](ad-settings-microsoft-multimedia.md), [annonce de produit Microsoft Advertising Microsoft](ad-settings-microsoft-product.md), [annonce de recherche réactive Advertising (audience)](ad-settings-microsoft-responsive.md), [annonce de recherche réactive Microsoft](ad-settings-microsoft-rsa.md) ou [](ad-settings-yandex-text.md) paramètres d’annonce de texte Yandex.
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
@@ -171,7 +173,7 @@ Modifiez rapidement le statut d’une publicité sans ouvrir les paramètres de 
 
 Vous pouvez suspendre toute publicité active sur un réseau publicitaire pris en charge afin de désactiver les enchères sur celui-ci. Vous pouvez ensuite reprendre les enchères en redéfinissant leur statut sur Actif.
 
-Vous pouvez également supprimer toute publicité active ou en pause. Les publicités supprimées sont supprimées du réseau publicitaire. Ils sont toujours visibles lorsque vous les incluez dans le filtre de données, mais vous ne pouvez pas les modifier.
+Vous pouvez également supprimer (appelée « archive » dans [!DNL ChatGPT Ads Manager]) toute publicité active ou en pause. Les publicités supprimées ou archivées sont supprimées ou archivées du réseau publicitaire. Ils sont toujours visibles lorsque vous les incluez dans le filtre de données, mais vous ne pouvez pas les modifier.
 
 ### Activer ou mettre en pause une publicité
 
@@ -185,7 +187,7 @@ Vous pouvez également supprimer toute publicité active ou en pause. Les public
 
    * Pour mettre en pause une publicité active, cliquez sur **[!UICONTROL Pause]**.
 
-### Suppression d’une publicité
+### Suppression ou archivage d’une publicité
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
@@ -201,7 +203,7 @@ Générez un rapport qui inclut les lignes de données pour une ou plusieurs pub
 
 Vous pouvez supprimer n’importe quel rapport généré.
 
-Consultez également les sections « [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) et « [&#x200B; (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads] »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+Consultez également les sections « [ (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) et « [ (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads] »](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 
 ### Générer un rapport avec les lignes de données filtrées
 
@@ -213,7 +215,7 @@ Consultez également les sections « [&#x200B; (interface utilisateur héritée)
 
    * Pour télécharger des données pour toutes les publicités, il n’est pas nécessaire de cocher des cases. Toutes les publicités sont incluses par défaut.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans les paramètres de [!UICONTROL Grid Reports], saisissez un nom de rapport unique, puis cliquez sur **[!UICONTROL Generate]**.
 
@@ -229,7 +231,7 @@ Consultez également les sections « [&#x200B; (interface utilisateur héritée)
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") en regard du nom du fichier.
 
@@ -239,7 +241,7 @@ Consultez également les sections « [&#x200B; (interface utilisateur héritée)
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete-new.png "Supprimer") en regard du nom du fichier.
 
