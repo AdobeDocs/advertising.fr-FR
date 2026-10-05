@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2c5cc3a9b50bf58aa7d44300471716674e244451
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Consultez les informations suivantes avant d’intégrer Adobe Advertising à Ad
 
 * L’une des options suivantes :
   * Adobe Experience Platform Web SDK : `alloy.js`
-  * Experience Cloud Identity Service : version `visitorAPI.js` 2.0 ou ultérieure.
+  * Service d’identification des visiteurs Adobe : `visitorAPI.js` version 2.0 ou ultérieure
 * Toute version d’Adobe Analytics (y compris [!DNL Prime], [!DNL Premium] ou [!DNL Ultimate])
 * Adobe Analytics : `appMeasurement.js` version 2.1 ou ultérieure
 * (Clients Advertising DSP) Un [fragment de code Advertising DSP JavaScript](javascript.md) déployé dans vos pages web pour effectuer le suivi des visites publicitaires.
@@ -59,7 +59,7 @@ Consultez les informations suivantes avant d’intégrer Adobe Advertising à Ad
 
 ## Conditions requises pour le partage de segments Analytics avec Adobe Advertising
 
-* Service Experience Cloud Identity : `visitorAPI.js` version 2.1 ou ultérieure
+* Service d’identification des visiteurs Adobe : `visitorAPI.js` version 2.1 ou ultérieure
 * Adobe Analytics : `appMeasurement.js` version 1.8 ou ultérieure
 
 ## Conditions requises pour la création de rapports [!DNL Analytics] les données dans Adobe Advertising
@@ -69,9 +69,9 @@ Fournissez les éléments suivants à l’équipe d’implémentation d’Adobe 
 * Identifiant de suite de rapports [!DNL Analytics] à utiliser pour le reporting sur l’activité de média payant et pour alimenter l’activité du site à des fins d’optimisation et de création de rapports dans Adobe Advertising
 * L’identifiant d’organisation CX Enterprise de l’entreprise (identifiant d’organisation).
 
-Ces deux identifiants sont disponibles dans l’onglet [&#x200B; Résumé d’Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=fr).
+Ces deux identifiants sont disponibles dans l’onglet [ Résumé d’Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
 
-![Écran Résumé du débogueur &#x200B;](/help/integrations/assets/a4adc-debugger-summary.png)
+![Écran Résumé du débogueur ](/help/integrations/assets/a4adc-debugger-summary.png)
 
 ## [!DNL Analytics] de données dans Adobe Advertising {#lookback-a4adc}
 
@@ -96,7 +96,7 @@ Le JavaScript [!DNL Analytics for Advertising] utilise ces paramètres pour dét
 
 >[!NOTE]
 >
->Pour segmenter les données pour une période différente, vous pouvez [configurer des segments personnalisés](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=fr) avec différents intervalles de recherche en amont dans Analysis Workspace.
+>Pour segmenter les données pour une période différente, vous pouvez [configurer des segments personnalisés](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) avec différents intervalles de recherche en amont dans Analysis Workspace.
 
 ## Environnements publicitaires pris en charge
 
@@ -139,7 +139,7 @@ Exemple : `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 
 Pour une intégration de données précise, tous les appels Adobe Advertising utilisés par une activité [!DNL Analytics for Advertising] pour diffuser du contenu ou enregistrer la mesure d’objectif doivent avoir un accès [!DNL Analytics] correspondant qui partage le même identifiant supplémentaire.
 
-Lorsque vous effectuez un dépannage dans [!DNL Analytics], assurez-vous que l’ID supplémentaire est présent pour les accès [!DNL Analytics]. Dans [&#128279;](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=fr), vous pouvez voir cet identifiant dans l’onglet Adobe Advertising en tant que paramètre `sdid`.
+Lorsque vous effectuez un dépannage dans [!DNL Analytics], assurez-vous que l’ID supplémentaire est présent pour les accès [!DNL Analytics]. Dans [](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html), vous pouvez voir cet identifiant dans l’onglet Adobe Advertising en tant que paramètre `sdid`.
 
 >[!NOTE]
 >
