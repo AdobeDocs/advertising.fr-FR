@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1721'
 ht-degree: 0%
 ---
 # Gestion des groupes publicitaires
@@ -65,7 +65,7 @@ La vue [!UICONTROL Manage] > [!UICONTROL Ad Groups] répertorie tous les groupes
 
 1. Cliquez sur **[!UICONTROL Create Ad Group]**.
 
-1. Spécifiez les paramètres du groupe publicitaire [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md).
+1. Spécifiez les paramètres du groupe publicitaire [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md),[Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md).
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
@@ -101,7 +101,7 @@ Vous pouvez modifier les paramètres de groupes d’annonces individuels. Vous p
 
    * Cochez la case en regard du groupe publicitaire . Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Edit]**.
 
-1. Modifiez les paramètres du groupe publicitaire [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md).
+1. Modifiez les paramètres du groupe publicitaire [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md),[Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md).
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
@@ -115,7 +115,9 @@ Modifiez rapidement le statut d’un groupe publicitaire sans ouvrir les paramè
 
 Vous pouvez suspendre n’importe quel groupe publicitaire actif sur un réseau publicitaire pris en charge afin de désactiver les enchères sur ce réseau. Vous pouvez ensuite reprendre les enchères en redéfinissant leur statut sur Actif.
 
-Vous pouvez également supprimer n’importe quel groupe publicitaire actif ou en pause. Les groupes publicitaires supprimés sont supprimés du réseau publicitaire. Ils sont toujours visibles lorsque vous les incluez dans le filtre de données, mais vous ne pouvez pas les modifier.
+Vous pouvez suspendre n’importe quel groupe publicitaire actif sur un réseau publicitaire pris en charge afin de désactiver les enchères sur ce réseau. Vous pouvez ensuite reprendre les enchères en redéfinissant leur statut sur Actif.
+
+Vous pouvez également supprimer (appelé « archive » dans [!DNL ChatGPT Ads Manager]) tout groupe publicitaire actif ou en pause. Les groupes publicitaires supprimés ou archivés sont supprimés ou archivés du réseau publicitaire. Ils sont toujours visibles lorsque vous les incluez dans le filtre de données, mais vous ne pouvez pas les modifier.
 
 ### Activer ou mettre en pause un groupe publicitaire
 
@@ -129,7 +131,7 @@ Vous pouvez également supprimer n’importe quel groupe publicitaire actif ou e
 
    * Pour mettre en pause un groupe publicitaire actif, sélectionnez **[!UICONTROL Paused]**.
 
-### Suppression d’un groupe publicitaire
+### Suppression ou archivage d’un groupe publicitaire
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
 
@@ -140,6 +142,8 @@ Vous pouvez également supprimer n’importe quel groupe publicitaire actif ou e
    * Placez le curseur sur la ligne du groupe publicitaire et cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier") en regard de la colonne [!UICONTROL Status]. Sélectionnez **[!UICONTROL Deleted]**.
 
 ## Gérer les affectations de contraintes d’offre pour les groupes publicitaires {#ad-group-constraints}
+
+*Non disponible pour l’[!DNL ChatGPT Ads]*
 
 Chaque entité ne peut avoir qu&#39;une seule contrainte. Les contraintes sont héritées par les entités enfants. Il n’est donc pas nécessaire d’affecter des contraintes aux entités enfants, sauf si vous souhaitez remplacer les valeurs héritées.
 

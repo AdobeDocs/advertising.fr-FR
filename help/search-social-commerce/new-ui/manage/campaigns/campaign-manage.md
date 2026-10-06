@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2304'
 ht-degree: 0%
 ---
 # Gestion des campagnes
@@ -72,7 +72,7 @@ Search, Social et Commerce extraient les données de performances toutes les heu
 
 1. Cliquez sur **[!UICONTROL Create Campaign]**.
 
-1. Spécifiez les paramètres de la campagne [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
+1. Spécifiez les paramètres de la campagne [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
@@ -108,7 +108,7 @@ Vous pouvez modifier les paramètres de campagnes individuelles. Vous pouvez ég
 
    * Cochez la case en regard de la campagne. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Edit]**.
 
-1. Modifiez les [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Paramètres de la campagne [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
+1. Modifiez les [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Paramètres de la campagne [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
@@ -124,7 +124,7 @@ Modifier rapidement le statut d’une campagne sans ouvrir l’ensemble des para
 
 Vous pouvez suspendre n’importe quelle campagne active sur un réseau publicitaire pris en charge afin de désactiver les enchères associées. Vous pouvez ensuite reprendre les enchères en redéfinissant leur statut sur Actif.
 
-Vous pouvez également supprimer toute campagne active ou en pause. Les campagnes supprimées sont supprimées du réseau publicitaire. Ils sont toujours visibles lorsque vous les incluez dans le filtre de données, mais vous ne pouvez pas les modifier.
+Vous pouvez également supprimer (appelée « archive » dans [!DNL ChatGPT Ads Manager]) toute campagne active ou en pause. Les campagnes supprimées ou archivées sont supprimées ou archivées du réseau publicitaire. Ils sont toujours visibles lorsque vous les incluez dans le filtre de données, mais vous ne pouvez pas les modifier.
 
 ### Activer ou mettre en pause une campagne
 
@@ -138,7 +138,7 @@ Vous pouvez également supprimer toute campagne active ou en pause. Les campagne
 
    * Pour suspendre une campagne active, sélectionnez **[!UICONTROL Paused]**.
 
-### Suppression d’une campagne
+### Supprimer ou archiver une campagne
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
 
@@ -210,6 +210,8 @@ Pour plus d’informations sur l’optimisation, consultez le Guide d’optimisa
 
 ## Gérer les affectations de contrainte d’offre pour les campagnes {#campaign-constraints}
 
+*Non disponible pour l’[!DNL ChatGPT Ads]*
+
 Chaque entité ne peut avoir qu&#39;une seule contrainte. Les contraintes sont héritées par les entités enfants. Il n’est donc pas nécessaire d’affecter des contraintes aux entités enfants, sauf si vous souhaitez remplacer les valeurs héritées.
 
 L’annulation de l’affectation d’une contrainte supprime l’association avec les composants de compte et tous leurs composants enfants, et les données de rapport pour la contrainte ne sont plus disponibles pour ces composants. L’annulation de l’affectation d’une contrainte ne supprime pas la contrainte ni les composants de compte eux-mêmes.
@@ -279,6 +281,8 @@ Vous pouvez affecter une seule contrainte à une ou plusieurs campagnes.
 1. Dans la boîte de dialogue de confirmation, sélectionnez **[!UICONTROL Yes, Unassign]**.
 
 ## Gérer les affectations de contraintes de cible pour les campagnes {#campaign-target-constraints}
+
+*Non disponible pour l’[!DNL ChatGPT Ads]*
 
 ### Affecter une contrainte de cible à des campagnes sélectionnées à partir de la nouvelle vue [!UICONTROL Campaigns]
 

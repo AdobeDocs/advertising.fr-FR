@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1761'
 ht-degree: 0%
 ---
 # Gestion des publicités
@@ -66,6 +66,8 @@ Vous pouvez créer et gérer des types d’annonces pris en charge pour les grou
   >[!NOTE]
   >
   >Vous ne pouvez actuellement pas créer ni modifier des annonces réservées aux appels uniquement. Vous pouvez afficher, modifier le statut ou supprimer une annonce d’appel uniquement existante.
+
+* **Annonces conversationnelles** pour un groupe publicitaire dans une campagne [!DNL ChatGPT Ads]. Les annonces publicitaires conversationnelles apparaissent en regard des conversions de chat IA.
 
 * **Annonces de recherche dynamique étendues** (désormais appelées uniquement « annonces de recherche dynamique » sur les réseaux publicitaires) pour [!DNL Google Ads] et [!DNL Microsoft Advertising] des groupes d’annonces de recherche dynamique dans les campagnes de recherche. Les annonces de recherche dynamique utilisent le contenu de votre site web plutôt que des mots-clés pour décider quand afficher vos annonces. Le réseau publicitaire génère dynamiquement le titre, choisit l’URL de la page de destination et l’URL d’affichage, et génère automatiquement l’URL finale.
 
@@ -117,7 +119,7 @@ Cependant, il n’est pas disponible pour [!DNL Google Ads] publicité de recher
 
    Pour plus d’informations sur les types d’annonces disponibles, voir « [Types d’annonces disponibles](#ad-types) ».
 
-1. Spécifiez les paramètres restants pour une [annonce de texte Baidu](ad-settings-baidu-text.md), une [annonce de recherche dynamique étendue Google Ads](ad-settings-google-dsa.md) (appelée simplement « annonce de recherche dynamique » dans Google Ads), une [annonce de recherche réactive Google Ads](ad-settings-google-rsa.md), une [annonce de recherche dynamique étendue Microsoft Advertising](ad-settings-microsoft-dsa.md), une [annonce multimédia Microsoft Advertising](ad-settings-microsoft-multimedia.md), une [annonce de produit Microsoft Advertising Microsoft](ad-settings-microsoft-product.md), une [annonce responsive Advertising (audience)](ad-settings-microsoft-responsive.md), une [annonce de recherche réactive Microsoft](ad-settings-microsoft-rsa.md) ou des paramètres [annonce de texte Yandex](ad-settings-yandex-text.md).
+1. Spécifiez les paramètres restants pour une [annonce de texte Baidu](ad-settings-baidu-text.md), une [[!DNL ChatGPT Ads] annonce](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md), une [annonce de recherche dynamique étendue Google Ads](ad-settings-google-dsa.md) (appelée simplement « annonce de recherche dynamique » dans Google Ads), une [annonce de recherche réactive Google Ads](ad-settings-google-rsa.md), une [annonce de recherche dynamique étendue Microsoft Advertising](ad-settings-microsoft-dsa.md), une [annonce multimédia Microsoft Advertising](ad-settings-microsoft-multimedia.md), une [annonce de produit Microsoft Advertising Microsoft responsive (audience)](ad-settings-microsoft-responsive.md), une [annonce de recherche réactive Advertising](ad-settings-microsoft-product.md) ou des paramètres [&#128279;](ad-settings-microsoft-rsa.md)annonce de texte Yandex[&#x200B; &#x200B;](ad-settings-yandex-text.md).
 
    >[!NOTE]
    >
@@ -157,7 +159,7 @@ Renommez rapidement une publicité sans ouvrir les paramètres complets de la pu
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Edit]**.
 
-1. Modifiez les paramètres restants d’une [annonce de texte Baidu](ad-settings-baidu-text.md), d’une [annonce de recherche dynamique étendue Google Ads](ad-settings-google-dsa.md) (désormais appelée uniquement « annonce de recherche dynamique » dans Google Ads), d’une [annonce de recherche réactive Google Ads](ad-settings-google-rsa.md), d’une [annonce de recherche dynamique étendue Microsoft Advertising](ad-settings-microsoft-dsa.md), d’une [annonce multimédia Microsoft Advertising](ad-settings-microsoft-multimedia.md), d’une [annonce de produit Microsoft Microsoft Advertising Microsoft responsive (audience)](ad-settings-microsoft-responsive.md), d’une [annonce de recherche réactive Advertising Advertising](ad-settings-microsoft-rsa.md) ou des paramètres [&#128279;](ad-settings-yandex-text.md) annonce de texte Yandex[&#128279;](ad-settings-microsoft-product.md).
+1. Modifiez les paramètres restants d’une [annonce de texte Baidu](ad-settings-baidu-text.md), [[!DNL ChatGPT Ads] annonce](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md), [annonce de recherche dynamique étendue Google Ads](ad-settings-google-dsa.md) (désormais appelée uniquement « annonce de recherche dynamique » dans Google Ads), [annonce de recherche réactive Google Ads](ad-settings-google-rsa.md), [annonce de recherche dynamique étendue Microsoft Advertising](ad-settings-microsoft-dsa.md), [annonce multimédia Microsoft Advertising](ad-settings-microsoft-multimedia.md), [annonce de produit Microsoft Advertising Microsoft](ad-settings-microsoft-product.md), [annonce de recherche réactive Advertising (audience)](ad-settings-microsoft-responsive.md), [annonce de recherche réactive Microsoft](ad-settings-microsoft-rsa.md) ou [&#128279;](ad-settings-yandex-text.md) paramètres d’annonce de texte Yandex.
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
@@ -171,7 +173,7 @@ Modifiez rapidement le statut d’une publicité sans ouvrir les paramètres de 
 
 Vous pouvez suspendre toute publicité active sur un réseau publicitaire pris en charge afin de désactiver les enchères sur celui-ci. Vous pouvez ensuite reprendre les enchères en redéfinissant leur statut sur Actif.
 
-Vous pouvez également supprimer toute publicité active ou en pause. Les publicités supprimées sont supprimées du réseau publicitaire. Ils sont toujours visibles lorsque vous les incluez dans le filtre de données, mais vous ne pouvez pas les modifier.
+Vous pouvez également supprimer (appelée « archive » dans [!DNL ChatGPT Ads Manager]) toute publicité active ou en pause. Les publicités supprimées ou archivées sont supprimées ou archivées du réseau publicitaire. Ils sont toujours visibles lorsque vous les incluez dans le filtre de données, mais vous ne pouvez pas les modifier.
 
 ### Activer ou mettre en pause une publicité
 
@@ -185,7 +187,7 @@ Vous pouvez également supprimer toute publicité active ou en pause. Les public
 
    * Pour mettre en pause une publicité active, cliquez sur **[!UICONTROL Pause]**.
 
-### Suppression d’une publicité
+### Suppression ou archivage d’une publicité
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
