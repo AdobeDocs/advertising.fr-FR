@@ -66,9 +66,9 @@ S’il s’agit de la première ou de la seule chaîne de requête après l’UR
 
 Exemples :
 
-`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/fr/products/photoshop?[ftqs:[AdobeAMO]]`
 
-`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/fr/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## Balises de publicité vidéo
 
@@ -82,9 +82,9 @@ S’il s’agit de la première ou de la seule chaîne de requête après l’UR
 
 Exemples :
 
-`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/fr/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
-`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/fr/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >

@@ -30,7 +30,7 @@ ht-degree: 0%
 ---
 # Convertir les ID utilisateur de [!DNL Adobe Real-Time CDP] en ID universels
 
-Utilisez l’intégration de DSP à [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), qui fait partie de Adobe Experience Platform, pour convertir vos identifiants d’utilisateur (y compris les adresses e-mail hachées, les cookies et les identifiants publicitaires mobiles) en identifiants universels pour la publicité ciblée.
+Utilisez l’intégration de DSP à [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr), qui fait partie de Adobe Experience Platform, pour convertir vos identifiants d’utilisateur (y compris les adresses e-mail hachées, les cookies et les identifiants publicitaires mobiles) en identifiants universels pour la publicité ciblée.
 
 1. (Pour convertir les ID utilisateur en [!DNL RampIDs]<!-- or [!DNL ID5] IDs --> ; annonceurs avec [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Configurez le suivi de la mesure [!DNL Analytics] :
 
@@ -48,11 +48,11 @@ Utilisez l’intégration de DSP à [the [!DNL Adobe Real-Time CDP]](https://exp
 
    Les adresses e-mail doivent être hachées à l’aide de l’algorithme SHA-256.
 
-   Pour obtenir des instructions sur l’activation de la connexion de destination DSP, l’activation des audiences et la validation de l’exportation des données, voir « [Connexion Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html) ».
+   Pour obtenir des instructions sur l’activation de la connexion de destination DSP, l’activation des audiences et la validation de l’exportation des données, voir « [Connexion Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=fr) ».
 
    >[!NOTE]
    >
-   >La connexion héritée, qui inclut la prise en charge des adresses e-mail hachées uniquement, est désormais appelée « [ancienne connexion DSP Adobe Advertising Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Si vous utilisez déjà la connexion héritée, vous n’avez pas besoin d’apporter immédiatement des modifications. Cependant, la connexion héritée finira par être supprimée.
+   >La connexion héritée, qui inclut la prise en charge des adresses e-mail hachées uniquement, est désormais appelée « [ancienne connexion DSP Adobe Advertising Cloud](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Si vous utilisez déjà la connexion héritée, vous n’avez pas besoin d’apporter immédiatement des modifications. Cependant, la connexion héritée finira par être supprimée.
 
 1. Vérifiez dans votre bibliothèque d’audiences (disponible lorsque vous créez ou modifiez une audience à partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou dans les paramètres d’emplacement) que le segment est renseigné et comparez le nombre d’identifiants universels avec le nombre d’identifiants d’utilisateur d’origine.
 
@@ -70,7 +70,7 @@ Pour résoudre les problèmes liés à la procédure de conversion, contactez l�
 >
 >* [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md)
 >* [Gérer les sources d’audience pour activer les audiences d’ID universel](source-manage.md)
->* [Connexion &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Adobe Experience Platform [Présentation du catalogue des destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [Connexion &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=fr)
+>* Adobe Experience Platform [Présentation du catalogue des destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=fr)
 >* [Prise en charge de l’activation des identifiants universels](/help/dsp/audiences/universal-ids.md)
 >* [À propos de la gestion des audiences](/help/dsp/audiences/audience-about.md)
