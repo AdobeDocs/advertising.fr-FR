@@ -34,7 +34,7 @@ Vous pouvez générer des rapports une fois ou les planifier de manière quotidi
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
-* &#x200B;<!-- (in beta) --> SSL FTP
+* <!-- (in beta) --> SSL FTP
 * SFTP
 
 ## Rapports disponibles

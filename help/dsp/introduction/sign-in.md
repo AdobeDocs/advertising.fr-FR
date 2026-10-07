@@ -57,15 +57,15 @@ Vos informations d’identification DSP actuelles resteront actives pendant une 
 
 1. Choisissez votre organisation :
 
-   * À l’invite, sélectionnez **[!UICONTROL Personal Account] » ou &#x200B;** [!UICONTROL Company or School Account]**.
+   * À l’invite, sélectionnez **[!UICONTROL Personal Account] » ou **[!UICONTROL Company or School Account]**.
 
    * Si vous avez accès à plusieurs organisations IMS, sélectionnez celle qui convient.
 
-Pour plus d’informations sur l’interface de CX Enterprise, notamment sur la gestion de votre profil utilisateur, voir « Interface et administration de [CX Enterprise &#x200B;](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud) ».
+Pour plus d’informations sur l’interface de CX Enterprise, notamment sur la gestion de votre profil utilisateur, voir « Interface et administration de [CX Enterprise ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud) ».
 
 ### Dépannage
 
-Pour les problèmes de connexion généraux, consultez également la section « [Résoudre les problèmes de connexion au compte Adobe](https://helpx.adobe.com/fr/manage-account/kb/account-password-sign-help.linkfree.html) ».
+Pour les problèmes de connexion généraux, consultez également la section « [Résoudre les problèmes de connexion au compte Adobe](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html) ».
 
 #### Existe-t-il des conditions préalables pour activer une nouvelle connexion IMS [!DNL Adobe] ?
 

@@ -35,7 +35,7 @@ Vous pouvez configurer des campagnes d’achat à l’aide de [modèles de flux 
 
 1. Configurez votre compte [!DNL Google Merchant Center] et renseignez-le avec des données de produit.
 
-1. [Autoriser Search, Social et Commerce à télécharger des données à partir du compte  [!DNL Google Merchant Center] &#x200B;](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. [Autoriser Search, Social et Commerce à télécharger des données à partir du compte  [!DNL Google Merchant Center] ](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 1. [Créez une campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) sur le réseau d’achats.
 

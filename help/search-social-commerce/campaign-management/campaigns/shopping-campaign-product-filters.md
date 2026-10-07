@@ -20,7 +20,7 @@ ht-degree: 22%
 ---
 # Filtres de produits de campagne d’achat
 
-Consultez également les [!DNL Google Ads] d’aide « [&#x200B; Gérer une campagne d’achat avec des groupes de produits &#x200B;](https://support.google.com/google-ads/answer/6275317) » et d’aide [!DNL Microsoft Advertising] « [&#x200B; Comprendre et utiliser des groupes de produits &#x200B;](https://help.ads.microsoft.com/#apex/bae/en/56782) ».
+Consultez également les [!DNL Google Ads] d’aide « [ Gérer une campagne d’achat avec des groupes de produits ](https://support.google.com/google-ads/answer/6275317) » et d’aide [!DNL Microsoft Advertising] « [ Comprendre et utiliser des groupes de produits ](https://help.ads.microsoft.com/#apex/bae/en/56782) ».
 
 | Réseau D&#39;Achats | Dimension du produit | Attributs | Remarques |
 |----|----|----|----|

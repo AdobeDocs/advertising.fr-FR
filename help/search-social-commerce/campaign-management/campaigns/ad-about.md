@@ -61,7 +61,7 @@ Vous pouvez créer et gérer des types d’annonces pris en charge pour les grou
 
 >[!NOTE]
 >
->[!DNL Google Ads] ne fournissez pas de données en dehors de ses éditeurs natifs sur les combinaisons de texte affichées sous forme de publicités. Pour plus d’informations sur les rapports pour chaque combinaison de texte, consultez la documentation sur les [Google Ads &#x200B;](https://support.google.com/google-ads/answer/7684791).
+>[!DNL Google Ads] ne fournissez pas de données en dehors de ses éditeurs natifs sur les combinaisons de texte affichées sous forme de publicités. Pour plus d’informations sur les rapports pour chaque combinaison de texte, consultez la documentation sur les [Google Ads ](https://support.google.com/google-ads/answer/7684791).
 
 ## La vue [!UICONTROL Ads]
 

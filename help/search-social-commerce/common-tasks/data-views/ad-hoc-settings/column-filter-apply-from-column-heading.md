@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
-Vous pouvez appliquer autant de filtres que vous le souhaitez à une colonne, un par un.<!-- True only for entity names, I think: All filters are joined using the AND operator. --> Pour ajouter plusieurs filtres à la fois à l’aide de toutes les mesures disponibles, reportez-vous à « [&#x200B; Appliquer des filtres de données à partir de la barre d’outils &#x200B;](column-filter-apply-from-toolbar.md) ».
+Vous pouvez appliquer autant de filtres que vous le souhaitez à une colonne, un par un.<!-- True only for entity names, I think: All filters are joined using the AND operator. --> Pour ajouter plusieurs filtres à la fois à l’aide de toutes les mesures disponibles, reportez-vous à « [ Appliquer des filtres de données à partir de la barre d’outils ](column-filter-apply-from-toolbar.md) ».
 
 1. Sur le côté droit de l’en-tête de colonne, cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-dropdown.png "Flèche vers le bas"), puis sur **[!UICONTROL Add Filter]**.
 

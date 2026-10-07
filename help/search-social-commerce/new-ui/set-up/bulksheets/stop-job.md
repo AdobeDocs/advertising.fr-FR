@@ -41,5 +41,5 @@ Vous pouvez arrêter n&#39;importe quelle tâche de feuille d&#39;envoi groupé,
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; (nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé](about.md)
+>* [ (nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé](about.md)
 >* [(Nouvelle interface utilisateur) Supprimer les feuilles d’envoi groupé et les fichiers d’erreur chargés](delete.md)

@@ -50,9 +50,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
+>* [ (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
 >* [(nouvelle interface utilisateur) Modifier en bloc les paramètres de portfolio à l’aide de fichiers de feuilles de calcul](portfolio-bulksheets.md)
->* [&#x200B; (nouvelle interface utilisateur) Dupliquer un portfolio](portfolio-duplicate.md)
+>* [ (nouvelle interface utilisateur) Dupliquer un portfolio](portfolio-duplicate.md)
 >* [(Nouvelle interface utilisateur) Afficher les détails sur les performances du portefeuille](portfolio-details.md)
->* [&#x200B; (nouvelle interface utilisateur) Télécharger des données dans la vue [!UICONTROL Portfolios]](portfolio-view-report.md)
->* [&#x200B; (nouvelle interface utilisateur) À propos des portfolios](portfolio-about.md)
+>* [ (nouvelle interface utilisateur) Télécharger des données dans la vue [!UICONTROL Portfolios]](portfolio-view-report.md)
+>* [ (nouvelle interface utilisateur) À propos des portfolios](portfolio-about.md)

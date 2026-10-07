@@ -31,11 +31,11 @@ Vous pouvez charger des fichiers de feuilles d’envoi groupé, des fichiers d�
 
 1. Dans la barre d’outils, cliquez sur **[!UICONTROL Bulk Operations]** \> **[!UICONTROL Upload Bulksheet]**.
 
-1. Saisissez ou sélectionnez des informations dans les paramètres de [&#128279;](#bulksheet-upload-settings).[!UICONTROL Upload Bulksheet]
+1. Saisissez ou sélectionnez des informations dans les paramètres de ](#bulksheet-upload-settings).[[!UICONTROL Upload Bulksheet]
 
 1. Cliquez sur **[!UICONTROL Upload]**.
 
-Lorsque la tâche commence, le fichier est répertorié dans la vue [!UICONTROL Bulksheets]. Lorsque les notifications par e-mail des feuilles d’envoi groupé sont [&#x200B; activées dans [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), une notification par e-mail est envoyée avec un lien vers le fichier une fois le traitement terminé. Selon la quantité de données compilées, la notification par e-mail peut prendre plusieurs minutes ou plus. Si la génération du fichier échoue, un fichier d’erreur est répertorié dans la vue [!UICONTROL Bulksheets] et une notification est envoyée par e-mail avec un lien vers le fichier d’erreur.
+Lorsque la tâche commence, le fichier est répertorié dans la vue [!UICONTROL Bulksheets]. Lorsque les notifications par e-mail des feuilles d’envoi groupé sont [ activées dans [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), une notification par e-mail est envoyée avec un lien vers le fichier une fois le traitement terminé. Selon la quantité de données compilées, la notification par e-mail peut prendre plusieurs minutes ou plus. Si la génération du fichier échoue, un fichier d’erreur est répertorié dans la vue [!UICONTROL Bulksheets] et une notification est envoyée par e-mail avec un lien vers le fichier d’erreur.
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ Lorsque la tâche commence, le fichier est répertorié dans la vue [!UICONTROL 
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; (nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé](about.md)
+>* [ (nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé](about.md)
 >* [(nouvelle interface utilisateur) Télécharger/créer un fichier de feuille d’envoi groupé](download.md)
 >* [(Nouvelle interface utilisateur) Publier des feuilles d’envoi groupé ou des fichiers d’erreur corrigés](post.md)
 >* [(nouvelle interface utilisateur) Valider les pages de destination dans des fichiers de feuille d’envoi groupé](validate-landing-pages.md)

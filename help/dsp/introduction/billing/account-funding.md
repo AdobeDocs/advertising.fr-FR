@@ -42,4 +42,4 @@ Adobe se réserve le droit de bloquer les dépenses de votre compte sur DSP pour
 
 >[!MORELIKETHIS]
 >
->* [Devises prises en charge &#x200B;](/help/dsp/currency.md)
+>* [Devises prises en charge ](/help/dsp/currency.md)

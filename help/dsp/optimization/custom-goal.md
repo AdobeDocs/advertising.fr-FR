@@ -110,5 +110,5 @@ Si, au contraire, vous pondériez les visites de pages de destination de manièr
 >
 >* [Gérer les objectifs personnalisés](/help/dsp/admin/custom-objectives-manage.md)
 >* [Objectifs d’optimisation et utilisation](optimization-goals.md)
->* [&#x200B; Paramètres du package &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
+>* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Comment DSP optimise vos campagnes](optimization-how-dsp-optimizes-campaigns.md)

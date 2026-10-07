@@ -28,7 +28,7 @@ ht-degree: 0%
 ---
 # À propos de la gestion des mesures de conversion d’un annonceur
 
-Les mesures [conversion](/help/search-social-commerce/glossary.md#c-d) suivies par Adobe Advertising pour un annonceur, y compris les mesures de conversion et d’engagement du site [&#x200B; synchronisées à partir d’Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md), sont utilisées dans Search, Social, Commerce et Advertising DSP.
+Les mesures [conversion](/help/search-social-commerce/glossary.md#c-d) suivies par Adobe Advertising pour un annonceur, y compris les mesures de conversion et d’engagement du site [ synchronisées à partir d’Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md), sont utilisées dans Search, Social, Commerce et Advertising DSP.
 
 * Dans Search, Social et Commerce, vous pouvez utiliser vos mesures de conversion pour créer des objectifs utilisés afin d’optimiser les portfolios. En outre, les données des mesures de conversion peuvent être affichées dans des colonnes des vues Campagne et Gestion de portefeuille, ainsi que dans des rapports.
 

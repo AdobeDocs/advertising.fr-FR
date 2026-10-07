@@ -110,7 +110,7 @@ Les ressources textuelles supprimées ne seront plus diffusées, mais les donné
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Remove]**.
 
-1. &#x200B;<!-- VERIFY -->Dans le message de confirmation, cliquez sur **[!UICONTROL Remove]**.
+1. <!-- VERIFY -->Dans le message de confirmation, cliquez sur **[!UICONTROL Remove]**.
 
 >[!MORELIKETHIS]
 >

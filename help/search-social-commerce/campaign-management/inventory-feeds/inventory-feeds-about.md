@@ -53,7 +53,7 @@ Testez d’abord au moins un fichier ou compte de flux, puis vous pouvez entièr
 
    Sinon, vous pouvez charger manuellement les fichiers dans la vue [!UICONTROL Advanced (ACM)].
 
-1. Définissez [&#x200B; paramètres de traitement des données de flux &#x200B;](feed-settings-manage.md#feed-data-settings).
+1. Définissez [ paramètres de traitement des données de flux ](feed-settings-manage.md#feed-data-settings).
 
    Si vous utilisez le protocole FTP, ne publiez pas automatiquement les données sur les réseaux publicitaires au départ. Une fois que vous avez vérifié la sortie de votre premier fichier et que vous êtes satisfait des résultats, vous pouvez modifier les paramètres.
 

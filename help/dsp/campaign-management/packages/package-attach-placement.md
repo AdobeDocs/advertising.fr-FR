@@ -74,5 +74,5 @@ ht-degree: 0%
 >* [Gestion des packages dans Advertising DSP](package-about.md)
 >* [Créer un package](package-create.md)
 >* [Afficher le journal des modifications d&#39;un package](package-change-log.md)
->* [&#x200B; Paramètres du package &#x200B;](package-settings.md)
+>* [ Paramètres du package ](package-settings.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -37,5 +37,5 @@ Les champs d’en-tête suivants sont obligatoires et facultatifs. Chaque ligne 
 >[!MORELIKETHIS]
 >
 >* [Implémentation  [!DNL Naver]  comptes de tracking uniquement](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
->* [Annexe - Données de feuille d’envoi groupé requises pour  [!DNL Naver]  comptes &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md))
+>* [Annexe - Données de feuille d’envoi groupé requises pour  [!DNL Naver]  comptes ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md))
 >* [Chargement des mesures de trafic et de conversion pour les comptes  [!DNL Naver]  suivi uniquement](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)

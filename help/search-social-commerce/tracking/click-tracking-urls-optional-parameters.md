@@ -68,19 +68,19 @@ Tous les paramètres suivants doivent être spécifiés sous la forme d’une pa
 
 ## [!DNL Google Ads] des paramètres de tracking dynamique
 
-Voir [&#128279;](https://support.google.com/google-ads/answer/2375447).
+Voir [](https://support.google.com/google-ads/answer/2375447).
 
 ## [!DNL LY Ads] des paramètres de tracking dynamique
 
-Voir [&#128279;](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
+Voir [](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## [!DNL Microsoft Advertising] des paramètres de tracking dynamique
 
-Voir [&#128279;](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
+Voir [](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 
 ## [!DNL Yandex] des paramètres de tracking dynamique
 
-Voir [&#128279;](https://yandex.com/support/direct/statistics/url-tags.html).
+Voir [](https://yandex.com/support/direct/statistics/url-tags.html).
 
 >[!MORELIKETHIS]
 >

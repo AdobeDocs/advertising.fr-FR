@@ -71,4 +71,4 @@ Les paramètres ci-dessous concernent les publicités display standard.
 >* [Créer une seule annonce publicitaire](ad-create.md)
 >* [Liste des emplacements associés à une publicité](ad-list-placements.md)
 >* [Spécifications publicitaires](ad-specs.md)
->* [Macros &#x200B;](/help/dsp/campaign-management/macros.md)
+>* [Macros ](/help/dsp/campaign-management/macros.md)
