@@ -300,7 +300,7 @@ Vous pouvez classer les mesures récapitulatives et les données d’événement
 >Les événements récapitulatifs ajoutent généralement une petite quantité de données supplémentaires aux rapports, telles que quelques événements supplémentaires, une session supplémentaire par jour ou une personne supplémentaire par rapport. Ces ajouts sont négligeables par rapport aux événements web standard. Cependant, vous pouvez filtrer ces données d’événement de résumé supplémentaires en excluant les données du `00000000-0000-0000-0000-000000000000` ID de personne factice.
 >![Exemple d’exclusion de données à l’aide d’un ID de personne](/help/integrations/assets/cja-report-with-person-id.png "Exemple d’exclusion de données à l’aide d’un ID de personne")
 
-![Comment vos jeux de données peuvent-ils apparaître dans Customer Journey Analytics ](/help/integrations/assets/cja-report-example.png "Comment vos jeux de données peuvent-ils apparaître dans Customer Journey Analytics ")
+![Comment vos jeux de données peuvent-ils apparaître dans Customer Journey Analytics &#x200B;](/help/integrations/assets/cja-report-example.png "Comment vos jeux de données peuvent-ils apparaître dans Customer Journey Analytics ")
 
 >[!MORELIKETHIS]
 >
@@ -310,5 +310,5 @@ Vous pouvez classer les mesures récapitulatives et les données d’événement
 >* [Mesures et dimensions Adobe Advertising dans Customer Journey Analytics](advertising-data-in-cja.md)
 >* [Collecter des données historiques pour les ID AMO et les ID EF à utiliser dans Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 >* [Dépannage](troubleshooting.md)
->* Guide de [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
+>* Guide de [&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
 >* Customer Journey Analytics [Guide de l’utilisateur pour les utilisateurs d’Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)

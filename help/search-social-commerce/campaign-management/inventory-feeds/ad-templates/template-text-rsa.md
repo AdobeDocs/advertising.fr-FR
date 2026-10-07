@@ -192,9 +192,9 @@ Pour insérer un nom de colonne ou un groupe de modificateurs en tant que param�
 
 * Pour les modèles [!DNL Yandex] :
 
-  * Pour les paramètres dynamiques : insérez le nom de la colonne, par exemple `[keyword]`. Pour indiquer le type de correspondance, utilisez la syntaxe spécifique au ](https://yandex.com/support/direct/keywords/symbols-and-operators.html). [[!DNL Yandex]**Remarque :** pour les termes à correspondance large, utilisez la syntaxe suivante : Modificateur de correspondance large pour le premier terme de la colonne Mot-clé (tel que +chaussures bleu en daim) = `+[keyword]`, Modificateur de correspondance large pour chaque terme de la colonne Mot-clé (tel que +bleu +daim +chaussures) = `+[keyword]+`
+  * Pour les paramètres dynamiques : insérez le nom de la colonne, par exemple `[keyword]`. Pour indiquer le type de correspondance, utilisez la syntaxe spécifique au [&#128279;](https://yandex.com/support/direct/keywords/symbols-and-operators.html). [!DNL Yandex]&#x200B;**Remarque :** pour les termes à correspondance large, utilisez la syntaxe suivante : Modificateur de correspondance large pour le premier terme de la colonne Mot-clé (tel que +chaussures bleu en daim) = `+[keyword]`, Modificateur de correspondance large pour chaque terme de la colonne Mot-clé (tel que +bleu +daim +chaussures) = `+[keyword]+`
 
-  * Pour les mots-clés statiques : seuls les mots-clés de recherche sont pris en charge. Utilisez la syntaxe spécifique au ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) pour le mot-clé . [[!DNL Yandex]Les crochets (`[]`) pour indiquer l’ordre des mots ne sont pas pris en charge.
+  * Pour les mots-clés statiques : seuls les mots-clés de recherche sont pris en charge. Utilisez la syntaxe spécifique au [&#128279;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) pour le mot-clé . [!DNL Yandex]Les crochets (`[]`) pour indiquer l’ordre des mots ne sont pas pris en charge.
 
 >[!NOTE]
 >

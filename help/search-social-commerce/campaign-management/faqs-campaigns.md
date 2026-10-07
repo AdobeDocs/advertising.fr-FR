@@ -173,7 +173,7 @@ Lorsque vous envoyez des données, les champs de données des colonnes [!UICONTR
 
 +++Mes campagnes générées à partir des flux d’inventaire comportent de nombreuses transactions orphelines.
 
-Si les [ paramètres des données de flux ](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) sont configurés pour supprimer des publicités dans diverses situations, les conversions différées qui se produisent après des clics sur la publicité peuvent entraîner des [ transactions orphelines ](/help/search-social-commerce/glossary.md#o-p). La bonne pratique consiste à suspendre les publicités au lieu de les supprimer. Si une publicité n’a toujours pas reçu de chiffre d’affaires après un long moment, vous pouvez la supprimer via une feuille d’envoi groupé ou la vue de gestion des publicités.
+Si les [&#x200B; paramètres des données de flux &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) sont configurés pour supprimer des publicités dans diverses situations, les conversions différées qui se produisent après des clics sur la publicité peuvent entraîner des [&#x200B; transactions orphelines &#x200B;](/help/search-social-commerce/glossary.md#o-p). La bonne pratique consiste à suspendre les publicités au lieu de les supprimer. Si une publicité n’a toujours pas reçu de chiffre d’affaires après un long moment, vous pouvez la supprimer via une feuille d’envoi groupé ou la vue de gestion des publicités.
 +++
 
 ## Problèmes de performances liés au compte et à la campagne

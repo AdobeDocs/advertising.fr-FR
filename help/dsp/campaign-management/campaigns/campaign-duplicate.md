@@ -38,7 +38,7 @@ Dupliquez une campagne pour créer une campagne avec des paramètres similaires.
 
 * Modifier les dates de vol de la nouvelle campagne
 
-Pour obtenir la liste des paramètres d&#39;emplacement qui ne sont pas dupliqués](#campaign-not-duplicated) reportez-vous à « [Qu&#39;est-ce qui n&#39;est pas dupliqué ? ».
+Pour obtenir la liste des paramètres d&#39;emplacement qui ne sont pas dupliqués[&#128279;](#campaign-not-duplicated) reportez-vous à « Qu&#39;est-ce qui n&#39;est pas dupliqué ? ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -96,7 +96,7 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 
   * Créez de nouveaux emplacements pour les offres [!UICONTROL Simple Ad Serving], si nécessaire.
 
-* Pour les campagnes de performances (c’est-à-dire les campagnes avec des packages qui utilisent des objectifs d’optimisation personnalisés), utilisez le paramètre ](/help/dsp/campaign-management/packages/package-settings.md) pour chaque package afin d’utiliser les données historiques de la campagne précédente comme entrée pour optimiser le package.[[!UICONTROL Linked Package for Optimization Learnings Carryover]
+* Pour les campagnes de performances (c’est-à-dire les campagnes avec des packages qui utilisent des objectifs d’optimisation personnalisés), utilisez le paramètre [&#128279;](/help/dsp/campaign-management/packages/package-settings.md) pour chaque package afin d’utiliser les données historiques de la campagne précédente comme entrée pour optimiser le package.[!UICONTROL Linked Package for Optimization Learnings Carryover]
 
 >[!MORELIKETHIS]
 >

@@ -66,5 +66,5 @@ Vous ne pouvez supprimer que les portefeuilles inactifs. Si le portfolio est opt
 >[!MORELIKETHIS]
 >
 >* [Créer un portfolio](portfolio-create.md)
->* [ (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
+>* [&#x200B; (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
 >* [À propos des portefeuilles](portfolio-about.md)

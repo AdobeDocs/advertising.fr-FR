@@ -43,5 +43,5 @@ Vous pouvez supprimer manuellement les fichiers de feuille d&#39;envoi groupé, 
 
 >[!MORELIKETHIS]
 >
->* [ (nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé](about.md)
+>* [&#x200B; (nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé](about.md)
 >* [(nouvelle interface utilisateur) Arrêter un traitement groupé en cours](stop-job.md)

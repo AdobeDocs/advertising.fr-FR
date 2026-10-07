@@ -63,7 +63,7 @@ Les annonceurs peuvent créer et implémenter des balises d’événement pour l
 
 >[!NOTE]
 >
->Si votre entreprise utilise le suivi des clics [!DNL Analytics], vous n’aurez peut-être pas besoin du suivi des clics Audience Manager. Adobe Analytics capture les signaux de clic et peut les envoyer à Audience Manager par le biais du [ transfert côté serveur ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Si votre entreprise utilise le suivi des clics [!DNL Analytics], vous n’aurez peut-être pas besoin du suivi des clics Audience Manager. Adobe Analytics capture les signaux de clic et peut les envoyer à Audience Manager par le biais du [&#x200B; transfert côté serveur &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 ### Syntaxe des pixels
 
@@ -107,7 +107,7 @@ où :
 
 Les deux types de pixels peuvent contenir des paramètres supplémentaires sous la forme de *paires clé-valeur* pour collecter des caractéristiques ou fournir des métadonnées de campagne (comme un nom d’emplacement ou un nom de campagne) pour d’autres rapports. Une paire clé-valeur se compose de deux éléments associés : une *clé*, qui est une constante définissant le jeu de données, et une *valeur*, qui est une variable appartenant au jeu.
 
-Dans la paire clé-valeur, la variable valeur peut être un identifiant codé en dur ou une *macro*, qui est une petite unité de code autonome remplacée dynamiquement par les valeurs correspondantes lors du chargement de la balise publicitaire pour la campagne et le suivi des utilisateurs. Pour les paramètres liés à la campagne, vous pouvez utiliser [les macros ](/help/dsp/campaign-management/macros.md) au lieu des macros Audience Manager, afin d’envoyer les attributs de campagne avec les données d’impression ou de clic correspondantes à Audience Manager, à l’aide d’un seul pixel sur toutes les publicités. Les macros DSP que vous insérez dans les pixels d’événement doivent être des valeurs appropriées pour les paires clé-valeur que vous incluez dans les pixels. Par exemple, pour la clé `d_placement`, vous utiliserez la macro DSP `${TM_PLACEMENT_ID_NUM}` comme valeur pour capturer les identifiants d&#39;emplacement générés par la macro Adobe Advertising.
+Dans la paire clé-valeur, la variable valeur peut être un identifiant codé en dur ou une *macro*, qui est une petite unité de code autonome remplacée dynamiquement par les valeurs correspondantes lors du chargement de la balise publicitaire pour la campagne et le suivi des utilisateurs. Pour les paramètres liés à la campagne, vous pouvez utiliser [les macros &#x200B;](/help/dsp/campaign-management/macros.md) au lieu des macros Audience Manager, afin d’envoyer les attributs de campagne avec les données d’impression ou de clic correspondantes à Audience Manager, à l’aide d’un seul pixel sur toutes les publicités. Les macros DSP que vous insérez dans les pixels d’événement doivent être des valeurs appropriées pour les paires clé-valeur que vous incluez dans les pixels. Par exemple, pour la clé `d_placement`, vous utiliserez la macro DSP `${TM_PLACEMENT_ID_NUM}` comme valeur pour capturer les identifiants d&#39;emplacement générés par la macro Adobe Advertising.
 
 Pour obtenir une liste des macros prises en charge par Audience Manager pour les pixels d’événement d’impression, voir « [Capture de données d’impression de campagne via des appels de pixels](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs) ».
 
@@ -130,7 +130,7 @@ Exemple de pixel d&#39;événement d&#39;impression :
 
 Joignez un pixel de suivi d’événement d’impression à toutes les annonces de vos campagnes [!DNL DSP]. Vous pouvez le faire dans l’un des emplacements suivants :
 
-* Au niveau de l’emplacement : applique le pixel par défaut à toutes les publicités de l’emplacement. Dans la section Suivi des paramètres d’emplacement, ajoutez le pixel dans le champ [[!UICONTROL Event pixels] ](/help/dsp/campaign-management/placements/placement-settings.md).
+* Au niveau de l’emplacement : applique le pixel par défaut à toutes les publicités de l’emplacement. Dans la section Suivi des paramètres d’emplacement, ajoutez le pixel dans le champ [[!UICONTROL Event pixels] &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
 
 * Au niveau de l’annonce publicitaire, qui remplace tous les pixels d’événement au niveau de l’emplacement. Dans les paramètres de l’annonce publicitaire, [créez un pixel d’événement sur l’onglet [!UICONTROL Pixel]](/help/dsp/campaign-management/ads/ad-edit.md).
 
@@ -161,6 +161,6 @@ Exemple de caractéristique qui renseigne les données au niveau de l’utilisat
 
 >[!MORELIKETHIS]
 >
->* [Macros ](/help/dsp/campaign-management/macros.md)
+>* [Macros &#x200B;](/help/dsp/campaign-management/macros.md)
 >* [Présentation de l’envoi de données d’exposition aux médias DSP vers Adobe Audience Manager](overview.md)
 >* [Cas pratiques](use-cases.md)

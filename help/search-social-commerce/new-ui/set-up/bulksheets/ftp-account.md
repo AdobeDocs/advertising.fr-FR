@@ -41,5 +41,5 @@ Les fichiers de feuilles d&#39;envoi groupé récupérés et les fichiers d&#39;
 
 >[!MORELIKETHIS]
 >
->* [ (nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé](about.md)
+>* [&#x200B; (nouvelle interface utilisateur) À propos de la gestion des données de campagne à l’aide de feuilles d’envoi groupé](about.md)
 >* [(Nouvelle interface utilisateur) Chargez une feuille d’envoi groupé ou un fichier d’erreur corrigé](upload.md)

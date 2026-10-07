@@ -87,4 +87,4 @@ Il s’agit du même champ que le champ **[!UICONTROL Height]**.
 >* [Créer une seule annonce publicitaire](ad-create.md)
 >* [Liste des emplacements associés à une publicité](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Spécifications publicitaires](ad-specs.md)
->* [Macros ](/help/dsp/campaign-management/macros.md)
+>* [Macros &#x200B;](/help/dsp/campaign-management/macros.md)

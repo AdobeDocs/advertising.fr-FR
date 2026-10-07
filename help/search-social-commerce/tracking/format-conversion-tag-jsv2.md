@@ -52,7 +52,7 @@ où :
 
 * `<ef-userid>` est un identifiant utilisateur numérique unique attribué par Search, Social et Commerce à l’annonceur.
 
-* `<ID5_PartnerID>` est l’ID de partenaire ID5 de l’organisation, que l’organisation reçoit après avoir signé un accord avec [!DNL ID5]. Incluez cette variable uniquement lorsque l’entreprise utilise DSP et dispose de segments [ personnalisés qui effectuent le suivi des utilisateurs associés aux ID5 universels](/help/dsp/audiences/universal-ids.md).
+* `<ID5_PartnerID>` est l’ID de partenaire ID5 de l’organisation, que l’organisation reçoit après avoir signé un accord avec [!DNL ID5]. Incluez cette variable uniquement lorsque l’entreprise utilise DSP et dispose de segments [&#x200B; personnalisés qui effectuent le suivi des utilisateurs associés aux ID5 universels](/help/dsp/audiences/universal-ids.md).
 
 * `<propertyname>` est la conversion à suivre. Par exemple, si vous effectuez le suivi d’une conversion appelée « enregistrement », la balise inclut le paramètre `ev_registration=<registration>` et vous devez transmettre le chiffre d’affaires réel pour chaque transaction (tel que `ev_registration=1`). Lorsque plusieurs propriétés sont suivies, elles sont reliées par une esperluette (`&`), telle que `ev_registration=<registration>&ev_sale=<sale>` (par exemple, `ev_registration=1&ev_sale=12.99`). **Remarque :** le nom de la propriété ne peut pas contenir de caractères spéciaux.
 

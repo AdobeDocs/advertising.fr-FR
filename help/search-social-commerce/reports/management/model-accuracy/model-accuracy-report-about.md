@@ -45,4 +45,4 @@ Des inexactitudes peuvent indiquer des problèmes de performances et vous devrez
 >* [Le [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 >* [Générer un rapport de précision de modèle](model-accuracy-report-generate.md)
 >* [Paramètres du rapport de précision du modèle](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
->* [À propos des rapports ](/help/search-social-commerce/reports/report-about.md)
+>* [À propos des rapports &#x200B;](/help/search-social-commerce/reports/report-about.md)

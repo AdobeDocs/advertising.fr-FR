@@ -49,4 +49,4 @@ Les rapports d’assistance fournissent des informations sur les chemins de conv
 >* [Le [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Paramètres des rapports d’assistance](assist-report-settings.md)
 >* [Générer un rapport d’assistance](assist-report-generate.md)
->* [À propos des rapports ](/help/search-social-commerce/reports/report-about.md)
+>* [À propos des rapports &#x200B;](/help/search-social-commerce/reports/report-about.md)

@@ -36,7 +36,7 @@ Les fichiers de feuilles d’envoi groupé et les fichiers d’erreur sont autom
 
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Post]**.
 
-1. Dans la boîte de dialogue, saisissez ou sélectionnez des informations dans les paramètres de ](#bulksheet-post-settings) puis cliquez sur **[!UICONTROL Post]**.[[!UICONTROL Post Bulksheet]
+1. Dans la boîte de dialogue, saisissez ou sélectionnez des informations dans les paramètres de [&#128279;](#bulksheet-post-settings) puis cliquez sur **[!UICONTROL Post]**.[!UICONTROL Post Bulksheet]
 
    Les mêmes paramètres s&#39;appliquent à tous les fichiers que vous publiez.
 
@@ -46,7 +46,7 @@ Lorsque la tâche commence, le statut et la date de publication planifiée de la
 >
 >* La publication de grandes quantités de données prend plus de temps. Vous pouvez suivre la progression du fichier dans la colonne [!UICONTROL Progress] de la vue [!UICONTROL Bulksheets].
 >* Toutes les données publiées sont soumises au processus éditorial du réseau.
-* Avant la validation du fichier de feuille d&#39;envoi groupé, vous pouvez annuler la validation.
+>* Avant la validation du fichier de feuille d&#39;envoi groupé, vous pouvez annuler la validation.
 
 ## Paramètres de publication pour les feuilles d’envoi groupé et les fichiers d’erreur corrigés {#bulksheet-post-settings}
 

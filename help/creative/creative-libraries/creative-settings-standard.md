@@ -154,7 +154,7 @@ Pour remplacer le modèle d’annonce publicitaire existant :
 
    * Cliquez sur **[!UICONTROL select a file]** pour localiser le fichier sur votre appareil ou réseau.
 
-   Voir les [spécifications de publicité ](html5-creative-specification.md).
+   Voir les [spécifications de publicité &#x200B;](html5-creative-specification.md).
 
 1. Modifiez les nouveaux paramètres de publicité [HTML5](#creative-settings-html5) si nécessaire.
 

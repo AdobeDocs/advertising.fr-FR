@@ -151,7 +151,7 @@ Noone has permissions as of 6/1; spelling [sic]:
 
    1. Saisissez votre ID de [!DNL Adobe], puis cliquez sur **[!UICONTROL Continue]**.
 
-   1. Sélectionnez **[!UICONTROL Personal Account] » ou **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Sélectionnez **[!UICONTROL Personal Account] » ou &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. Sélectionnez l’organisation CX Enterprise applicable.
 
@@ -199,6 +199,6 @@ Suivez ce workflow pour chaque instance cliente de Search, Social et Commerce.
 
 ## Guide complet d’administration des utilisateurs et des liens supplémentaires
 
-* Pour plus d’informations sur l’administration des utilisateurs à l’aide de Adobe Admin Console, consultez le « Guide d’administration d’Adobe Enterprise et Teams ](https://helpx.adobe.com/enterprise/admin-guide.html) », y compris la [présentation d’Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html).[
+* Pour plus d’informations sur l’administration des utilisateurs à l’aide de Adobe Admin Console, consultez le « Guide d’administration d’Adobe Enterprise et Teams [&#128279;](https://helpx.adobe.com/enterprise/admin-guide.html) », y compris la [présentation d’Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html).
 
 * Admin Console : [https://adminconsole.adobe.com](https://adminconsole.adobe.com)

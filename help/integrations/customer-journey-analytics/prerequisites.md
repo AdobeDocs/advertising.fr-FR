@@ -40,9 +40,9 @@ ht-degree: 0%
 
 * (Annonceurs avec Customer Journey Analytics, mais pas [!DNL Analytics for Advertising]) :
 
-  * [ [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) version 2.36 ou ultérieure.
+  * [&#x200B; [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) version 2.36 ou ultérieure.
 
-  * [Balises ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home), y compris l’extension [[!DNL Web SDK] ](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension) version 2.37 ou ultérieure.
+  * [Balises &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home), y compris l’extension [[!DNL Web SDK] &#x200B;](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension) version 2.37 ou ultérieure.
 
 * Adobe Customer Journey Analytics avec accès aux outils de gestion des données
 

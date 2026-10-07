@@ -38,7 +38,7 @@ Dupliquez un package pour créer un package avec des paramètres similaires. Vou
 
 * Modifier les dates de vol du nouveau forfait
 
-Pour obtenir la liste des paramètres d&#39;emplacement qui ne sont pas dupliqués](#package-not-duplicated) reportez-vous à « [Qu&#39;est-ce qui n&#39;est pas dupliqué ? ».
+Pour obtenir la liste des paramètres d&#39;emplacement qui ne sont pas dupliqués[&#128279;](#package-not-duplicated) reportez-vous à « Qu&#39;est-ce qui n&#39;est pas dupliqué ? ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Campaigns]**.
 
@@ -106,7 +106,7 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 
   * Créez de nouveaux emplacements pour les offres [!UICONTROL Simple Ad Serving], si nécessaire.
 
-* Pour les packages qui utilisent des objectifs d’optimisation personnalisés, utilisez le paramètre [[!UICONTROL Linked Package for Optimization Learnings Carryover] ](/help/dsp/campaign-management/packages/package-settings.md) pour chaque package afin d’utiliser les données historiques de la campagne précédente comme entrée pour optimiser le package.
+* Pour les packages qui utilisent des objectifs d’optimisation personnalisés, utilisez le paramètre [[!UICONTROL Linked Package for Optimization Learnings Carryover] &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) pour chaque package afin d’utiliser les données historiques de la campagne précédente comme entrée pour optimiser le package.
 
 >[!MORELIKETHIS]
 >
@@ -114,4 +114,4 @@ Tous les paramètres des emplacements d’origine sont dupliqués, sauf :
 >* [Créer un package](package-create.md)
 >* [Modifier un package](package-edit.md)
 >* [Afficher le journal des modifications d&#39;un package](package-change-log.md)
->* [ Paramètres du package ](package-settings.md)
+>* [&#x200B; Paramètres du package &#x200B;](package-settings.md)

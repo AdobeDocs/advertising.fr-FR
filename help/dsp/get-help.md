@@ -45,7 +45,7 @@ Look for answers to your questions in the [Adobe Advertising community forums](h
 
 En cas de problèmes liés au produit ou au compte, procédez comme suit :
 
-* (Annonceurs avec des contrats de libre-service) Ouvrez un ticket pour votre organisation à l’adresse [](https://experienceleague.adobe.com/home?support-tab=home#support).
+* (Annonceurs avec des contrats de libre-service) Ouvrez un ticket pour votre organisation à l’adresse [&#128279;](https://experienceleague.adobe.com/home?support-tab=home#support).
 
   Pour le produit, sélectionnez « [!UICONTROL Advertising - DSP] ».
 

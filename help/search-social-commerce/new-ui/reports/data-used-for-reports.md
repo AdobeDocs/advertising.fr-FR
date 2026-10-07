@@ -52,7 +52,7 @@ La plupart des rapports peuvent être personnalisés pour afficher uniquement le
 
 * **Mesures de conversion :** nombre total de conversions pour chacune des mesures de conversion de l’annonceur ou des données de transaction suivies vers une mesure de conversion. Il peut s’agir de mesures d’engagement du site et de conversion, mais pas de mesures calculées ni de mesures calculées avancées, synchronisées à partir d’Adobe Analytics.
 
-  Cela peut également inclure les conversions suivies par [[!DNL Google Ads] et ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) conversions suivies par [[!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) qui sont synchronisées pour le compte de l’annonceur.
+  Cela peut également inclure les conversions suivies par [[!DNL Google Ads] et &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) conversions suivies par [[!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) qui sont synchronisées pour le compte de l’annonceur.
 
 * **Mesures personnalisées :** vos propres mesures, que vous obtenez en créant des formules basées sur des mesures existantes (telles que le coût par commande).
 
@@ -79,5 +79,5 @@ Selon la règle d’attribution que vous spécifiez pour le rapport, les donnée
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports ](report-about.md)
+>* [À propos des rapports &#x200B;](report-about.md)
 >* [Tâches de configuration initiales pour les rapports](initial-setup.md)

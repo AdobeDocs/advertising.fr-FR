@@ -53,5 +53,5 @@ Vous pouvez également supprimer toute publicité active ou en pause. Les public
 
 >[!MORELIKETHIS]
 >
->* [ (nouvelle interface utilisateur) À propos de la vue [!UICONTROL Ads]](ad-view-about.md)
+>* [&#x200B; (nouvelle interface utilisateur) À propos de la vue [!UICONTROL Ads]](ad-view-about.md)
 >* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ads]](ad-view-report.md)
