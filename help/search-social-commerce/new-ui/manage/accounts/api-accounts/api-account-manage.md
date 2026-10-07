@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Pour activer la synchronisation d’un compte, vous devez créer un enregistreme
 >
 >Pour créer un compte sur le réseau publicitaire, accédez au site web du réseau publicitaire.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Cliquez sur **[!UICONTROL Create Account]**.
 
@@ -53,7 +53,7 @@ Pour réauthentifier les paramètres du compte afin d’actualiser les autorisat
 >
 >Pour modifier un compte réel sur le réseau publicitaire, accédez au site web du réseau publicitaire.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Sélectionnez le compte de l’une des manières suivantes :
 
@@ -77,7 +77,7 @@ Pour actualiser la connexion au réseau publicitaire ou mettre à jour les autor
 
 1. (Si vous êtes connecté à un autre compte pour le même réseau publicitaire dans la même application de navigateur) Déconnectez-vous de tout compte autre que celui de l’annonceur.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -95,7 +95,7 @@ Pour actualiser la connexion au réseau publicitaire ou mettre à jour les autor
 
 Lorsque vous activez un compte de réseau publicitaire, Search, Social et Commerce synchronise les données de campagne avec le compte (lorsqu’il est pris en charge) et diffuse des enchères automatisées et/ou des budgets de campagne pour les campagnes des portfolios. Lorsque vous désactivez un compte de réseau publicitaire, Search, Social et Commerce arrête toute activité sur le compte. Les données collectées alors que le compte était actif sont toujours stockées, mais les vues et rapports de gestion de campagne n’incluent pas les données de la période au cours de laquelle le compte est désactivé. Vous pourrez par la suite réactiver le compte pour reprendre l’activité avec le compte.
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Effectuez l’une des opérations suivantes :
 
