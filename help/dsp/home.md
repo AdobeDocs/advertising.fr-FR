@@ -8,31 +8,43 @@ exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
 TQID: https://experienceleague.adobe.com/HgUQENjtjLRyizGpXGBRYZOanvoouKfGdcjDyf5Dlaw
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: DSP Planner
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: DSP Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f39dd5f12876b2ff486b6de57c0578fd5a7abf89
+    internal-label: Privacy
+source-git-commit: cbbbdbcf073cf593f49b3e481cd0e2482358063a
 workflow-type: tm+mt
-source-wordcount: 7727
+source-wordcount: '7729'
 ht-degree: 0%
-
 ---
-
-# Nouveautés
+# Nouveautés de DSP
 
 Les fonctionnalités suivantes sont nouvelles ou ont été récemment modifiées.
 
@@ -81,9 +93,9 @@ Les fonctionnalités suivantes sont nouvelles ou ont été récemment modifiées
 | 5 Mai 2025 | [!UICONTROL Inventory Targeting], [!UICONTROL Placements] | DSP a conclu un partenariat stratégique avec Amazon Publisher Services (APS), qui permet aux utilisateurs de DSP d’accéder directement aux sites du marché des publicités unifiées APS, notamment Fire TV, Twitch, IMDb, Goodreads et 6pm. L’accès est disponible dans les inventaires publics, à la demande et privés pour les offres privées garanties non programmatiques. Les types d’annonces pris en charge comprennent l’affichage, la vidéo en ligne et la télévision connectée.<br><br>L’accès est disponible dans toutes les régions, à l’exception de l’Union européenne, du Brésil et du Japon, mais Twitch est actuellement en mode pilote en Australie et en Nouvelle-Zélande uniquement. | — |
 | 25 Avril 2025 | [!UICONTROL Placements], sécurité des marques et qualité des médias | DSP offre désormais [!DNL DoubleVerify] prise en charge du blocage des fraudes avant enchères pour les emplacements de télévision connectée standard. Les nouveaux emplacements héritent automatiquement des paramètres de blocage de la fraude au niveau de l’annonceur. Pour exclure un paramètre hérité, supprimez-le manuellement.<br><br>La prise en charge des emplacements vidéo universels sera disponible dans une version ultérieure. | Voir « [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md#prebid-fraud-blocking) ». |
 | 24 Avril 2025 | [!UICONTROL Insights] des performances | (Fonctionnalité Beta) Des informations de performances de haut niveau grâce aux visualisations vous donnent les informations dont vous avez besoin pour optimiser efficacement vos campagnes et découvrir de nouvelles opportunités d’évolution des performances. Vous pouvez afficher les données de plusieurs campagnes ou effectuer une analyse vers le bas à un niveau inférieur. | Voir « [&#x200B; À propos des informations &#x200B;](/help/dsp/campaign-management/insights/insights-about.md). » |
-| 26 Mars 2025 | Login | DSP effectue une transition vers Adobe Identity Management Service (IMS) pour l’authentification de la connexion. IMS fournit un accès SSO (authentification unique) à tous les produits [!DNL Adobe] qui prennent en charge IMS, notamment Real-Time Customer Data Platform, Customer Journey Analytics, Target et Analytics. Vous pouvez désormais utiliser une [!DNL Adobe ID] pour vous connecter à [!DNL Adobe] produits à partir de la page de connexion CX Enterprise ou de la page de connexion DSP héritée. Vos informations d’identification DSP actuelles resteront actives pendant 90 jours afin que vous puissiez vous préparer au changement. | Voir « [Connexion à Adobe Advertising DSP](/help/dsp/introduction/sign-in.md). »<br><br>Pour plus d’informations sur l’interface CX Enterprise, y compris la gestion de votre profil utilisateur, voir « [Interface et administration CX Enterprise](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud). » |
+| 26 Mars 2025 | Login | DSP effectue une transition vers Adobe Identity Management Service (IMS) pour l’authentification de la connexion. IMS fournit un accès SSO (authentification unique) à tous les produits [!DNL Adobe] qui prennent en charge IMS, notamment Real-Time Customer Data Platform, Customer Journey Analytics, Target et Analytics. Vous pouvez désormais utiliser une [!DNL Adobe ID] pour vous connecter à [!DNL Adobe] produits à partir de la page de connexion de CX Enterprise ou de la page de connexion de DSP héritée. Vos informations d’identification DSP actuelles resteront actives pendant 90 jours afin que vous puissiez vous préparer au changement. | Voir « [Connexion à Adobe Advertising DSP](/help/dsp/introduction/sign-in.md). »<br><br>Pour plus d’informations sur l’interface CX Enterprise, y compris la gestion de votre profil utilisateur, voir « [Interface et administration de CX Enterprise](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud) ». |
 | | [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads] | Les fonctionnalités de modification en masse suivantes sont désormais disponibles :<ul><li>Vous pouvez directement modifier et charger à nouveau des feuilles de calcul au niveau de la campagne qui contiennent les paramètres des packages, emplacements et publicités de la campagne. Auparavant, vous deviez télécharger un fichier modèle et saisir manuellement les modifications à charger.</li><li>Les fichiers sont désormais appelés « *feuilles d’envoi groupé* » dans l’ensemble des vues [!UICONTROL Campaigns], au lieu de « feuilles d’assurance qualité », et vous sélectionnez les options « [!UICONTROL Download Bulksheet] » et « [!UICONTROL Upload Bulksheet] ».</li><li>La plupart des paramètres d’emplacement sont désormais disponibles dans les feuilles d’envoi groupé.</li></ul> | Voir « [Vérifier et modifier les paramètres des composants de campagne à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md). »<br><br>Voir aussi « [Vérifier et modifier les paramètres de package à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/packages/package-qa.md) » et « [Vérifier et modifier les paramètres d’emplacement à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/placements/placement-qa.md) ». |
-| Publié Le 10 Mars 2025 | Confidentialité | Grâce à [!DNL Adobe's] partenariat avec Digital Advertising Alliance (DAA), vos utilisateurs finaux peuvent désormais se désabonner de tout ciblage comportemental qui repose sur des adresses e-mail hachées de « Adobe Marketing Cloud - Advertising Services » (un ancien nom pour Adobe CX Enterprise, précédemment également appelé Adobe Experience Cloud, qui inclut les cookies DSP + Audience Manager). Auparavant, DSP ne prenait en charge que les désinscriptions basées sur les cookies. <br><br>Lorsqu’un utilisateur final se désinscrit du ciblage comportemental, DSP capture le cookie de l’utilisateur final, son identifiant mobile ou son adresse e-mail hachée (que DSP peut associer à un identifiant [!DNL Unified ID 2.0 (UID2.0)] ou un [!DNL RampID] [!DNL LiveRamp]). DSP exclut ensuite le ciblage comportemental des impressions d’annonce publicitaire pour cet utilisateur final, tant que celui-ci conserve son cookie d’exclusion, qui dure cinq ans.<br><br>Vos utilisateurs finaux peuvent : a\) se désabonner des publicités sur leur navigateur à partir de [https://optout.aboutads.info](https://optout.aboutads.info) ou b\) se désabonner des publicités sur leur navigateur, leurs applications ou à l’aide d’un identifiant de jeton provenant de [https://youradchoices.com/control](https://youradchoices.com/control).<br><br>Aucun travail n’est requis pour les annonceurs. | Voir « [Politique de confidentialité d’Adobe &#x200B;](https://www.adobe.com/privacy/policy.html). » |
+| Publié Le 10 Mars 2025 | Confidentialité | Grâce à [!DNL Adobe's] partenariat avec Digital Advertising Alliance (DAA), vos utilisateurs finaux peuvent désormais se désabonner de tout ciblage comportemental qui repose sur des adresses e-mail hachées de « Adobe Marketing Cloud - Services Advertising » (un ancien nom pour Adobe CX Enterprise, précédemment également appelé Adobe Experience Cloud, qui inclut les cookies DSP + Audience Manager). Auparavant, DSP ne prenait en charge que les désinscriptions basées sur les cookies. <br><br>Lorsqu’un utilisateur final se désinscrit du ciblage comportemental, DSP capture le cookie de l’utilisateur final, son identifiant mobile ou son adresse e-mail hachée (que DSP peut associer à un identifiant [!DNL Unified ID 2.0 (UID2.0)] ou un [!DNL RampID] [!DNL LiveRamp]). DSP exclut ensuite le ciblage comportemental des impressions d’annonce publicitaire pour cet utilisateur final, tant que celui-ci conserve son cookie d’exclusion, qui dure cinq ans.<br><br>Vos utilisateurs finaux peuvent : a\) se désabonner des publicités sur leur navigateur à partir de [https://optout.aboutads.info](https://optout.aboutads.info) ou b\) se désabonner des publicités sur leur navigateur, leurs applications ou à l’aide d’un identifiant de jeton provenant de [https://youradchoices.com/control](https://youradchoices.com/control).<br><br>Aucun travail n’est requis pour les annonceurs. | Voir « [Politique de confidentialité d’Adobe &#x200B;](https://www.adobe.com/privacy/policy.html). » |
 |  | Ciblage des audiences | DSP a amélioré le mappage des ID de télévision connectés et des ID de publicité mobile aux adresses IP hachées et aux ID de cookie correspondants afin de fournir un ciblage de performances plus efficace sur les points de contact numériques. | — |
 | 3 Février 2025 | [!UICONTROL Packages] | Pour les packages avec les objectifs d’optimisation [!UICONTROL Highest Return on Ad Spend] et [!UICONTROL Lowest Cost per Acquisition] , le paramètre [!UICONTROL Conversion Metric] est désormais requis. Auparavant, elle était facultative.<br><br> Le [!UICONTROL Conversion Metric] est l’événement de conversion final (tel que les inscriptions) ou le montant de l’événement/de la vente du chiffre d’affaires (tel que les achats et les valeurs d’achat) à utiliser pour calculer le retour sur dépenses publicitaires ou le coût par acquisition. | Voir « [Paramètres du package](/help/dsp/campaign-management/packages/package-settings.md) ». |
 | 12 Décembre 2024 | [!UICONTROL Placements], sécurité des marques | Vous pouvez désormais cibler les identifiants de segment [!DNL DoubleVerify Authentic Brand Suitability] au niveau de l’emplacement. Auparavant, vous pouviez uniquement les cibler au niveau de l’annonceur.<br><br>Par défaut, si un ID de segment est spécifié dans les paramètres du compte de l’annonceur, l’ID au niveau de l’annonceur est saisi dans les paramètres d’emplacement, mais vous pouvez modifier l’ID pour utiliser un autre segment ou supprimer l’ID pour désactiver la fonction.<br><br>Dans les paramètres au niveau de l’annonceur, l’option permettant d’activer la fonctionnalité a été supprimée ; la spécification d’un identifiant de segment active désormais la fonctionnalité. Si la fonction a été désactivée pour l’un de vos annonceurs existants, le champ Identifiant du segment est maintenant vide. Aucune action de l’utilisateur n’est nécessaire. | Voir « [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md) ». |
