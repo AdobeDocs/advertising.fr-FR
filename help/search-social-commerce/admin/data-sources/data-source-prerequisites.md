@@ -48,7 +48,7 @@ Une fois toutes les conditions préalables remplies, la `ef_id` est utilisée co
 
 ## Condition préalable 2 : capturez le jeton Search, Social et Commerce (paramètre de chaîne de requête « ef_id ») dans une dimension personnalisée pour chaque propriété [!DNL Google Analytics] appropriée.
 
-Répétez les tâches suivantes pour chaque combinaison de compte et de propriété [!DNL Google Analytics] pour laquelle vous souhaitez synchroniser les données. Pour obtenir de l’aide sur ces tâches](https://support.google.com/analytics/answer/2709829?hl=en#zippy=%2Cin-this-article) consultez la [[!DNL Google Analytics]  documentation sur la création et l’implémentation de dimensions personnalisées .
+Répétez les tâches suivantes pour chaque combinaison de compte et de propriété [!DNL Google Analytics] pour laquelle vous souhaitez synchroniser les données. Pour obtenir de l’aide sur ces tâches[&#128279;](https://support.google.com/analytics/answer/2709829?hl=en#zippy=%2Cin-this-article) consultez la [!DNL Google Analytics]  documentation sur la création et l’implémentation de dimensions personnalisées .
 
 1. Dans [!DNL Google Analytics], créez une dimension personnalisée nommée « `ef_id` ». Définissez l’étendue de la dimension sur [!DNL User], puis définissez la dimension sur active.
 
