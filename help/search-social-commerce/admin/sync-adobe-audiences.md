@@ -8,17 +8,20 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
-  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-    internal-label: ''
   - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
     internal-label: Search Admin
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+subfeature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -37,7 +40,7 @@ Vous pouvez permettre à Search, Social et Commerce d’extraire des métadonné
 
 * Segments créés à l’aide de l’[!DNL Audience Library] Adobe CX Enterprise
 
-Pour être éligible, l’annonceur ou l’agence doit mettre en œuvre le [service d’identités &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) et fournir son identifiant d’organisation (anciennement appelé [!DNL IMS Org ID]).
+Pour être éligible, l’annonceur ou l’agence doit mettre en œuvre le [service d’identités ](https://experienceleague.adobe.com/docs/id-service/using/home.html) et fournir son identifiant d’organisation (anciennement appelé [!DNL IMS Org ID]).
 
 La synchronisation initiale prend environ 24 heures. Ensuite, les données sont synchronisées en temps réel, avec un délai d’une à deux secondes.
 

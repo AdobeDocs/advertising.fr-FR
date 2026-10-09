@@ -9,15 +9,17 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
-  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-    internal-label: ''
   - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
     internal-label: Search Admin
   - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
     internal-label: Search Data Sources
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
     internal-label: Data sources
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -28,7 +30,7 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
@@ -85,7 +87,7 @@ Pour intégrer des mesures pour plusieurs propriétés ou pour plusieurs vues po
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Post]**.
 
-   La source de données s’appelle « AccountName > PropertyName > ViewName » et est automatiquement activée. Pour mettre la source de données en pause, reportez-vous à [&#x200B; Mise en pause d’un flux à partir d’une Source de données &#x200B;](data-source-pause.md).
+   La source de données s’appelle « AccountName > PropertyName > ViewName » et est automatiquement activée. Pour mettre la source de données en pause, reportez-vous à [ Mise en pause d’un flux à partir d’une Source de données ](data-source-pause.md).
 
    Les mesures sont disponibles le lendemain de la fin de la synchronisation quotidienne des données, qui commence à 5 h dans le fuseau horaire de l’annonceur. Une fois les mesures disponibles, elles sont visibles dans [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md). Chaque nouvelle mesure de conversion est nommée « `ga:backEndMetricName_propertyID_viewID` », où « backEndMetricName » est le nom de la mesure utilisée par l’API. Le nom d’affichage de chaque nouvelle mesure de conversion est « `friendlyMetricName_ga:MetricTag` », où « friendlyMetricName » est le nom de la mesure qui apparaît dans [!DNL Google Analytics] et « MetricTag » est le [!UICONTROL Metric Tag] défini dans les paramètres de la source de données.
 
