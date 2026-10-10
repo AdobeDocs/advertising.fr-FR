@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '216'
 ht-degree: 0%
 ---
 # Téléchargement de contenus publicitaires
@@ -27,7 +27,29 @@ ht-degree: 0%
 
 Téléchargez tous les contenus publicitaires sélectionnés dans un fichier au format ZIP conformément à la procédure normale de votre navigateur.
 
+## Dans la nouvelle interface utilisateur
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Effectuez l’une des opérations suivantes :
+
+   * Cliquez sur le nom de la bibliothèque.
+
+   * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Dans l’onglet **[!UICONTROL Creatives]** , sélectionnez les contenus publicitaires :
+
+   * Pour télécharger une seule création, cliquez sur **[!UICONTROL ...]** en regard du nom de la création, puis cliquez sur **[!UICONTROL Download]**.
+
+   * Pour télécharger un ou plusieurs contenus publicitaires, cochez la case correspondant à chacun des contenus publicitaires que vous souhaitez télécharger. Dans la barre d’outils des actions en bloc, cliquez sur ![Télécharger](/help/creative/assets/download.png "Télécharger") (**[!UICONTROL Download]**).
+
+     Pour sélectionner toutes les lignes, cochez la case globale dans le coin supérieur gauche.
+
+## À partir de l’interface utilisateur héritée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
 
 1. Cliquez sur le nom de la bibliothèque.
 

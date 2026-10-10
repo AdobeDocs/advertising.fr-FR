@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '2590'
 ht-degree: 0%
 ---
 # Gestion des offres groupées de création
@@ -44,21 +44,69 @@ Les contenus publicitaires associés à des offres groupées sont toujours dispo
 
 Vous pouvez joindre un élément créatif à plusieurs lots.
 
+## Dans la nouvelle interface utilisateur
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. Ouvrez la bibliothèque de l’une des manières suivantes :
+
+   * Cliquez sur le nom de la bibliothèque.
+
+   * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Effectuez l’une des opérations suivantes :
+
+   * Dans l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Add new]** > **[!UICONTROL Bundle]** dans le coin supérieur droit.
+
+   * Cliquez sur l’onglet **[!UICONTROL Bundles]** . Dans le coin supérieur droit, cliquez sur **[!UICONTROL Create bundle]**.
+
+1. Saisissez un **[!UICONTROL Bundle Name]** unique et sélectionnez **[!UICONTROL Bundle type]:** *Affichage standard* (pour les contenus publicitaires d’affichage standard), *Affichage dynamique* (pour les contenus publicitaires d’affichage dynamique), *Vidéo standard* (pour les contenus publicitaires de vidéo standard) ou *Dynamic Video* (pour les contenus vidéo dynamiques).
+
+1. Cliquez sur **[!UICONTROL Create]**.
+
+### À partir de l’interface utilisateur héritée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
 
 1. Cliquez sur le nom de la bibliothèque.
 
 1. Cliquez sur l’onglet **[!UICONTROL Bundles]** .
 
-1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**.
+1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Bundle]**.
 
-1. Saisissez un **[!UICONTROL Bundle Name]** unique et le **[!UICONTROL Bundle Type]:** *Affichage standard* (pour les contenus publicitaires d’affichage standard), *Affichage dynamique* (pour les contenus publicitaires d’affichage dynamique), *Vidéo standard* (pour les contenus publicitaires de vidéo standard) ou *Dynamic Video* (pour les contenus publicitaires de vidéo dynamique).
+1. Saisissez un **[!UICONTROL Bundle Name]** unique, puis sélectionnez le **[!UICONTROL Bundle Type]:** *Affichage standard* (pour les contenus publicitaires d’affichage standard), *Affichage dynamique* (pour les contenus publicitaires d’affichage dynamique), *Vidéo standard* (pour les contenus publicitaires de vidéo standard) ou *Dynamic Video* (pour les contenus publicitaires de vidéo dynamique).
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
 ## Répertorier les contenus publicitaires d’un lot
 
+### Dans la nouvelle interface utilisateur
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. Ouvrez la bibliothèque de l’une des manières suivantes :
+
+   * Cliquez sur le nom de la bibliothèque.
+
+   * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Cliquez sur l’onglet **[!UICONTROL Bundles]** .
+
+1. Cliquez sur le nom du lot pour afficher tous les contenus publicitaires qu’il contient.
+
+### À partir de l’interface utilisateur héritée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
 
 1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
 
@@ -69,6 +117,32 @@ Vous pouvez joindre un élément créatif à plusieurs lots.
 1. Cliquez sur la carte ou la ligne du lot pour afficher tous les contenus publicitaires qu’il contient.
 
 ## Dupliquer les lots
+
+Les nouveaux lots sont nommés `<original name> (copy) # 1` (ou le numéro suivant dans la séquence). Par exemple, si vous créez deux doublons de « Test bundle », les doublons sont nommés « Test bundle (copy) # 1 » et « Test bundle (copy) # 2 ».
+
+### Dans la nouvelle interface utilisateur
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. Ouvrez la bibliothèque de l’une des manières suivantes :
+
+   * Cliquez sur le nom de la bibliothèque.
+
+   * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Cliquez sur l’onglet **[!UICONTROL Bundles]** .
+
+1. Sélectionnez les lots à dupliquer :
+
+   * Pour dupliquer un seul lot, cliquez sur **[!UICONTROL ...]** en regard du nom du lot, puis cliquez sur **[!UICONTROL Duplicate]**.
+
+   * Pour dupliquer un ou plusieurs lots, cochez la case correspondant à chaque lot à supprimer. Dans la barre d’outils des actions en bloc, cliquez sur ![Dupliquer](/help/creative/assets/duplicate.png "Dupliquer") (**[!UICONTROL Duplicate]**).
+
+     Pour sélectionner toutes les lignes, cochez la case globale dans le coin supérieur gauche.
+
+### À partir de l’interface utilisateur héritée
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -90,13 +164,39 @@ Vous pouvez joindre un élément créatif à plusieurs lots.
 
      Pour sélectionner toutes les lignes, cochez la case globale dans le coin supérieur gauche.
 
-   Les nouveaux lots sont nommés `<original name> (copy) # 1` (ou le numéro suivant dans la séquence). Par exemple, si vous créez deux doublons de « Test bundle », les doublons sont nommés « Test bundle (copy) # 1 » et « Test bundle (copy) # 2 ».
-
-## Modifier le nom d’un lot
+## Renommer un lot
 
 Les modifications apportées à un nom de lot sont propagées à toutes les expériences associées.
 
+### Dans la nouvelle interface utilisateur
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. Ouvrez la bibliothèque de l’une des manières suivantes :
+
+   * Cliquez sur le nom de la bibliothèque.
+
+   * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Cliquez sur l’onglet **[!UICONTROL Bundles]** .
+
+1. En regard du nom du lot, cliquez sur **[!UICONTROL ...]**, puis sur **[!UICONTROL Edit]**.<!-- Not "Rename" like for library objects -->
+
+1. Modifiez le **[!UICONTROL Bundle Name]**.
+
+   Le [!UICONTROL Bundle Name] doit être unique.
+
+1. Cliquez sur **[!UICONTROL Save]**.
+
+### À partir de l’interface utilisateur héritée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
 
 1. Cliquez sur le nom de la bibliothèque.
 
@@ -112,7 +212,7 @@ Les modifications apportées à un nom de lot sont propagées à toutes les exp�
 
    Le [!UICONTROL Bundle Name] doit être unique.
 
-1. Cliquez sur **[!UICONTROL Update]**.<!-- inconsistent with "Edit" for creative libraries and creatives -->
+1. Cliquez sur **[!UICONTROL Update]**.
 
 ## Joindre des contenus publicitaires à une offre groupée
 
@@ -124,7 +224,29 @@ Vous pouvez joindre des contenus publicitaires d’affichage standard existants 
 
 ### Joignez des contenus publicitaires à une offre groupée à partir de la liste Offres groupées .
 
+### Dans la nouvelle interface utilisateur
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. Ouvrez la bibliothèque de l’une des manières suivantes :
+
+   * Cliquez sur le nom de la bibliothèque.
+
+   * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Cliquez sur l’onglet **[!UICONTROL Bundles]** .
+
+1. En regard du nom du lot, cliquez sur **[!UICONTROL ...]**, puis sur **[!UICONTROL Attach creatives]**.
+
+1. Dans le panneau de droite, cochez la case en regard de chaque élément créatif à joindre au lot, puis cliquez sur **[!UICONTROL Attach]**.
+
+### À partir de l’interface utilisateur héritée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
 
 1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
 
@@ -142,11 +264,33 @@ Vous pouvez joindre des contenus publicitaires d’affichage standard existants 
 
 1. (Facultatif) Basculez entre la vue Tableau par défaut et une vue Carte des lots disponibles en cliquant sur ![Vue Carte](/help/creative/assets/card-view-button.png "Vue Carte") pour ouvrir la vue Carte ou ![Vue Tableau/liste](/help/creative/assets/table-view-button.png "Vue Tableau") pour revenir à la vue Tableau.
 
-1. Dans le cadre de droite, cochez la case en regard de chaque élément créatif à joindre au lot, puis cliquez sur **[!UICONTROL Attach Creative to Bundle]**.
+1. Dans le panneau de droite, cochez la case en regard de chaque élément créatif à joindre au lot, puis cliquez sur **[!UICONTROL Attach Creative to Bundle]**.
 
 ### Associez des contenus publicitaires à une offre groupée à partir de la liste des contenus publicitaires de l’offre groupée
 
+### Dans la nouvelle interface utilisateur
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. Ouvrez la bibliothèque de l’une des manières suivantes :
+
+   * Cliquez sur le nom de la bibliothèque.
+
+   * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Cliquez sur l’onglet **[!UICONTROL Bundles]** .
+
+1. Cliquez sur le nom du lot pour afficher tous les contenus publicitaires qu’il contient.
+
+1. Dans le panneau de droite, cochez la case en regard de chaque élément créatif à joindre au lot, puis cliquez sur **[!UICONTROL Attach]**.
+
+### À partir de l’interface utilisateur héritée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
 
 1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
 
@@ -168,7 +312,35 @@ La désolidarisation d’un élément créatif d’un lot supprime l’associati
 
 La désolidarisation d’un contenu créatif de l’offre groupée ne supprime pas le contenu créatif de l’onglet Contenu créatif de votre bibliothèque de contenus créatifs.
 
+### Dans la nouvelle interface utilisateur
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. Ouvrez la bibliothèque de l’une des manières suivantes :
+
+   * Cliquez sur le nom de la bibliothèque.
+
+   * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Cliquez sur l’onglet **[!UICONTROL Bundles]** .
+
+1. Cliquez sur le nom du lot pour afficher tous les contenus publicitaires qu’il contient.
+
+1. Sélectionnez les lots à désolidariser :
+
+   * Pour désolidariser un lot, cliquez sur **[!UICONTROL ...]** en regard du nom du lot, puis cliquez sur **[!UICONTROL Detach]**.
+
+   * Pour désolidariser un ou plusieurs lots, cochez la case correspondant à chaque lot à désolidariser. Dans la barre d’outils des actions en bloc, cliquez sur ![Désolidariser](/help/creative/assets/detach.png "Désolidariser") (**[!UICONTROL Detach]**).
+
+     Pour sélectionner toutes les lignes, cochez la case globale dans le coin supérieur gauche.
+
+### À partir de l’interface utilisateur héritée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
 
 1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
 
@@ -194,7 +366,45 @@ La désolidarisation d’un contenu créatif de l’offre groupée ne supprime p
 
 Vous pouvez prévisualiser une création telle que les visiteurs la verront, y compris sous forme de liens hypertexte.
 
+### Dans la nouvelle interface utilisateur
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. Ouvrez la bibliothèque de l’une des manières suivantes :
+
+   * Cliquez sur le nom de la bibliothèque.
+
+   * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Cliquez sur l’onglet **[!UICONTROL Bundles]** .
+
+1. Cliquez sur le nom du lot pour afficher tous les contenus publicitaires qu’il contient.
+
+1. En regard du nom du lot, cliquez sur **[!UICONTROL ...]**, puis sur **[!UICONTROL Preview]**.
+
+   Pour les contenus publicitaires HTML5 et flexibles d’HTML5, vous pouvez passer aux onglets Calques, Détails et Attributs pour plus d’informations.
+
+1. (Facultatif) Pour ouvrir la page de destination du contenu créatif, cliquez sur le contenu créatif.
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. (Facultatif ; le cas échéant) Pour télécharger le contenu créatif, cliquez sur ![Télécharger](/help/creative/assets/download.png "Télécharger").
+
+   Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
+
+1. (Facultatif ; le cas échéant) Pour partager une URL de démonstration afin que d’autres personnes sans connexion à [!DNL Creative] puissent prévisualiser les contenus publicitaires :
+
+   1. Cliquez sur ![Partager](/help/creative/assets/share.png "Partager") dans l’angle supérieur droit de l’aperçu.
+
+   1. Dans la boîte de dialogue [!UICONTROL Share demo URL], cliquez sur **[!UICONTROL Copy]** pour copier l’URL dans le presse-papiers afin de la partager avec une autre personne.
+
+### À partir de l’interface utilisateur héritée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
 
 1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
 
@@ -226,13 +436,47 @@ Vous pouvez prévisualiser une création telle que les visiteurs la verront, y c
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. Ouvrez la bibliothèque de l’une des manières suivantes :
+
+   * Cliquez sur le nom de la bibliothèque.
+
+   * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Cliquez sur l’onglet **[!UICONTROL Bundles]** .
+
+1. En regard du nom du lot, cliquez sur **[!UICONTROL ...]**, puis sur **[!UICONTROL Preview]**.
+
+1. (Facultatif) Pour ouvrir la page de destination du contenu créatif, cliquez sur le contenu créatif.
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. (Facultatif ; le cas échéant) Pour télécharger le contenu créatif, cliquez sur ![Télécharger](/help/creative/assets/download.png "Télécharger").
+
+   Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
+
+1. (Facultatif ; le cas échéant) Pour partager une URL de démonstration afin que d’autres personnes sans connexion à [!DNL Creative] puissent prévisualiser les contenus publicitaires :
+
+   1. Cliquez sur ![Partager](/help/creative/assets/share.png "Partager") dans l’angle supérieur droit de l’aperçu.
+
+   1. Dans la boîte de dialogue [!UICONTROL Share demo URL], cliquez sur **[!UICONTROL Copy]** pour copier l’URL dans le presse-papiers afin de la partager avec une autre personne.
+
+### À partir de l’interface utilisateur héritée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
 1. Cliquez sur le nom de la bibliothèque.
 
 1. Cliquez sur l’onglet **[!UICONTROL Bundles]** .
 
 1. Sélectionnez le lot :
 
-   * En mode Carte, cliquez sur **[!UICONTROL ...]** en regard du nom du lot, puis cliquez sur **[!UICONTROL Preview]**.
+   * En mode Carte, cliquez sur **[!UICONTROL ...]**, puis sur **[!UICONTROL Preview]**.
 
    * Dans la vue Tableau, placez le curseur sur la ligne et cliquez sur **[!UICONTROL Preview]**.
 
@@ -248,7 +492,7 @@ Vous pouvez prévisualiser une création telle que les visiteurs la verront, y c
 
 1. (Facultatif) Pour partager une URL de démonstration afin que d’autres personnes sans connexion à [!DNL Creative] puissent prévisualiser les contenus publicitaires :
 
-   1. Cliquez sur ![Partager](/help/creative/assets/share.png "Partager") dans l’angle supérieur droit de l’aperçu.
+   1. Cliquez sur ![Partager](/help/creative/assets/share-legacy.png "Partager") dans l’angle supérieur droit de l’aperçu.
 
    1. Dans la boîte de dialogue [!UICONTROL Share Demo URL], cliquez sur **[!UICONTROL Copy]** pour copier l’URL dans le presse-papiers afin de la partager avec une autre personne.
 
@@ -287,7 +531,13 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## Afficher le journal des modifications d’une offre groupée
 
+*Non disponible dans la nouvelle interface utilisateur*
+
+### À partir de l’interface utilisateur héritée
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
 
 1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
 
@@ -311,7 +561,35 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 Vous pouvez supprimer des lots qui ne sont pas affectés à une expérience [en ligne](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Si un lot est affecté à une expérience active, [supprimez le lot de l’arborescence de décision](/help/creative/experiences/experience-target-node-delete.md) pour l’expérience avant de continuer.
 
+### Dans la nouvelle interface utilisateur
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. Ouvrez la bibliothèque de l’une des manières suivantes :
+
+   * Cliquez sur le nom de la bibliothèque.
+
+   * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Cliquez sur l’onglet **[!UICONTROL Bundles]** .
+
+1. Sélectionnez les lots à supprimer :
+
+   * Pour supprimer une seule offre groupée, cliquez sur **[!UICONTROL ...]** en regard de son nom, puis cliquez sur **[!UICONTROL Delete]**.
+
+   * Pour supprimer un ou plusieurs lots, cochez la case correspondant à chaque lot à supprimer. Dans la barre d’outils des actions en bloc, cliquez sur ![Supprimer](/help/creative/assets/delete.png "Supprimer") (**[!UICONTROL Delete]**).
+
+     Pour sélectionner toutes les lignes, cochez la case globale dans le coin supérieur gauche.
+
+1. Dans le message de confirmation, cliquez sur **[!UICONTROL Delete].**
+
+### À partir de l’interface utilisateur héritée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
 
 1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
 

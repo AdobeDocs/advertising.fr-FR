@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Vous pouvez prévisualiser les contenus publicitaires avec une taille d’annonc
 
 1. (Facultatif) Pour copier une URL de démonstration de l’expérience à partager avec d’autres personnes sans connexion à [!DNL Creative] :
 
-   1. Dans l’angle supérieur droit de l’aperçu, cliquez sur ![Partager](/help/creative/assets/share.png "Partager").
+   1. Dans l’angle supérieur droit de l’aperçu, cliquez sur ![Partager](/help/creative/assets/share-legacy.png "Partager").
 
    1. Dans la boîte de dialogue [!UICONTROL Share Demo URL], cliquez sur **[!UICONTROL Copy]** pour copier l’URL dans le presse-papiers afin de la partager avec une autre personne.
 
@@ -120,7 +120,7 @@ Vous pouvez prévisualiser les contenus publicitaires avec une taille d’annonc
 
 1. (Facultatif) Pour copier une URL de démonstration de l’expérience à partager avec d’autres personnes sans connexion à [!DNL Creative] :
 
-   1. Dans l’angle supérieur droit de l’aperçu, cliquez sur ![Partager](/help/creative/assets/share.png "Partager").
+   1. Dans l’angle supérieur droit de l’aperçu, cliquez sur ![Partager](/help/creative/assets/share-legacy.png "Partager").
 
    1. Dans la boîte de dialogue [!UICONTROL Share Demo URL], cliquez sur **[!UICONTROL Copy]** pour copier l’URL dans le presse-papiers afin de la partager avec une autre personne.
 
