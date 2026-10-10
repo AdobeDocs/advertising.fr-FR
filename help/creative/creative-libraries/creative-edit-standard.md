@@ -16,20 +16,46 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '494'
 ht-degree: 0%
 ---
 # Modification de contenus publicitaires standard dans une bibliothèque de contenus publicitaires
 
-Vous pouvez modifier certains paramètres pour chaque type de contenu créatif standard. Vous pouvez modifier plusieurs contenus publicitaires du même type (HTML5 simple avec une seule landing page, HTML5 statique avec plusieurs landing pages, HTML5 flexible, image ou tiers) uniquement.
+Vous pouvez modifier certains paramètres pour chaque type de contenu créatif standard.
 
 Pour les créatifs HTML5 flexibles et HTML5 statiques, vous pouvez charger un nouveau fichier modèle avec une disposition différente, mais le même ensemble de noms d’attributs. Pour les contenus publicitaires HTML5 simples, vous pouvez modifier n’importe quel attribut ou ajouter des images en chargeant un nouveau modèle avec les nouveaux attributs ou images. Dans tous les cas, le modèle doit être un fichier local au format ZIP d’une taille maximale de 2 Mo.
 
 Lorsque vous modifiez un contenu créatif inclus dans une offre groupée, vos modifications sont automatiquement appliquées à toutes les expériences qui incluent l’offre groupée, sauf que les pages de destination et URL de suivi personnalisées spécifiées au niveau de l’expérience restent applicables à l’offre groupée associée à cette expérience.
 
+## Dans la nouvelle interface utilisateur
+
+Vous pouvez modifier une seule création.
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. Ouvrez la bibliothèque de l’une des manières suivantes :
+
+   * Cliquez sur le nom de la bibliothèque.
+
+   * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Dans l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL ...]** en regard du nom du contenu créatif, puis cliquez sur **[!UICONTROL Edit]**.
+
+1. Modifiez les [paramètres de création d’image](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), [paramètres de création HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), [paramètres de création HTML5 flexibles](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) ou [paramètres de création tiers](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party).
+
+1. Cliquez sur **[!UICONTROL Update Creative]**.
+
+## À partir de l’interface utilisateur héritée
+
+Vous pouvez modifier plusieurs contenus publicitaires du même type (HTML5 simple avec une seule landing page, HTML5 statique avec plusieurs landing pages, HTML5 flexible, image ou tiers) uniquement.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
 
 1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
 

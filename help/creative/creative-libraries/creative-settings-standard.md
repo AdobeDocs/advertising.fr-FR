@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '2119'
+source-wordcount: '3351'
 ht-degree: 0%
 ---
 # Paramètres de création standard
@@ -36,6 +36,30 @@ Lorsque vous modifiez plusieurs contenus publicitaires en même temps :
 ## Paramètres de création HTML5 flexibles {#creative-settings-flexible-html5}
 
 ### Onglet Détails
+
+#### Nouvelle interface utilisateur
+
+**Nom du Creative :** nom du contenu publicitaire. Le nom du modèle ou le nom du fichier chargé est utilisé par défaut, mais vous pouvez modifier le nom. Pour plusieurs contenus publicitaires, vous pouvez modifier les noms de chaque contenu publicitaire. **Conseil :** incluez la taille de l’annonce dans le nom du contenu créatif et utilisez un nom que vous pouvez facilement trouver lorsque vous incluez le contenu créatif dans une expérience.
+
+**Langue :** langue par défaut de chaque publicité à laquelle vous associez les contenus publicitaires. Lorsque vous chargez ou modifiez plusieurs contenus publicitaires, la même valeur est appliquée à chaque contenu publicitaire sélectionné.
+
+**Format:** (Lecture seule ; contenu créatif existant uniquement) Format créatif (*[!UICONTROL Flexible]*).
+
+**Taille du Creative :** (Lecture seule pour les contenus publicitaires existants) Dimensions du contenu publicitaire. Si des images incluses dans le contenu créatif sont plus grandes que la taille spécifiée, elles sont redimensionnées en conséquence.
+
+**[!UICONTROL Click Tags]:** variables qui permettent le suivi des clics redirigés depuis les bannières publicitaires incluses. Les noms des variables et les URL de page de destination correspondantes sont renseignés à partir de l’unité de création chargée, mais vous pouvez modifier les URL par défaut. Pour plusieurs contenus publicitaires, vous pouvez modifier les balises de clic individuelles.
+
+**Libellé :** (facultatif) tous les libellés à appliquer à tous les contenus publicitaires sélectionnés. Vous pouvez filtrer les contenus publicitaires par libellé dans différentes vues de [!DNL Creative].
+
+* Pour sélectionner un libellé existant, cliquez sur ![Bas](/help/creative/assets/chevron-down.png "Bas"), puis cliquez sur le libellé à appliquer.
+
+* Pour rechercher des libellés existants, commencez à saisir une chaîne de texte dans le champ **[!UICONTROL Label]**.
+
+* Pour créer un libellé à appliquer aux contenus publicitaires, saisissez un nom de libellé unique dans le champ **[!UICONTROL Label]**, puis cliquez sur **Ajouter une balise**
+
+* Pour supprimer un libellé appliqué, cliquez sur **X** en regard du nom du libellé.
+
+#### Interface utilisateur héritée
 
 **Nom du Creative :** nom du contenu publicitaire. Le nom du modèle ou le nom du fichier chargé est utilisé par défaut, mais vous pouvez modifier le nom. Pour plusieurs contenus publicitaires, vous pouvez modifier les noms de chaque contenu publicitaire. **Conseil :** incluez la taille de l’annonce dans le nom du contenu créatif et utilisez un nom que vous pouvez facilement trouver lorsque vous incluez le contenu créatif dans une expérience.
 
@@ -86,25 +110,61 @@ Pour remplacer le modèle d’annonce publicitaire existant :
 
 1. Cliquez sur **Mettre à jour le modèle**.
 
-1. Cliquez sur **Continuer**.
+1. (IU héritée uniquement) Cliquez sur **Continuer**.
 
-1. Spécifiez un fichier ZIP de l’une des manières suivantes :
+1. Spécifiez un fichier ZIP :
 
-   * Faites glisser et déposez un fichier sur votre appareil ou réseau dans la zone.
+   * (Nouvelle interface utilisateur) Effectuez l’une des opérations suivantes :
 
-   * Cliquez sur **[!UICONTROL select a file]** pour localiser le fichier sur votre appareil ou réseau.
+     * Faites glisser et déposez un fichier sur votre appareil ou réseau dans la zone.
+
+     * Cliquez sur **[!UICONTROL Browse files]** pour localiser le fichier sur votre appareil ou réseau.
+
+   * (IU héritée) Sélectionnez un fichier sur votre appareil ou réseau dans la zone.
 
    Voir [spécifications d’annonces publicitaires flexibles](#flexible-ad-spec).
 
 1. Modifiez les nouveaux [paramètres flexibles des annonces HTML](#flexible-ad-settings) selon les besoins.
 
-1. Clic **[!UICONTROL Edit]**
+1. Cliquez sur (nouvelle interface utilisateur) **[!UICONTROL Update Creative]** ou (interface utilisateur héritée) **[!UICONTROL Save]**
 
 ## Paramètres de création HTML5 {#creative-settings-html5}
 
 ### Onglet Détails
 
 Pour les nouveaux créatifs, les paramètres suivants ne se trouvent pas dans un onglet nommé.
+
+#### Nouvelle interface utilisateur
+
+**Nom du Creative :** nom du contenu publicitaire. Pour une nouvelle création, le nom du fichier est utilisé par défaut, mais vous pouvez le modifier. Pour plusieurs contenus publicitaires, vous pouvez modifier les noms de chaque contenu publicitaire. **Conseil :** incluez la taille de l’annonce dans le nom du contenu créatif et utilisez un nom que vous pouvez facilement trouver lorsque vous incluez le contenu créatif dans une expérience.
+
+**Format:** (Lecture seule ; contenu créatif existant uniquement) Format créatif (*[!UICONTROL HTML5]*).
+
+**Langue :** langue par défaut de chaque publicité à laquelle vous associez les contenus publicitaires. Lorsque vous chargez ou modifiez plusieurs contenus publicitaires, la même valeur est appliquée à chaque contenu publicitaire sélectionné.
+
+**Taille du Creative :** (Lecture seule pour les contenus publicitaires existants) Dimensions du contenu publicitaire. Si des images incluses dans le contenu créatif sont plus grandes que la taille spécifiée, elles sont redimensionnées en conséquence.
+
+**[!UICONTROL Click Tags]:** (contenus publicitaires HTML5 statiques uniquement) Variables qui permettent les redirections du suivi des clics à partir des bannières publicitaires incluses. Les noms des variables et les URL de page de destination correspondantes sont renseignés à partir de l’unité de création chargée, mais vous pouvez modifier les URL par défaut. Pour plusieurs contenus publicitaires, vous pouvez modifier les balises de clic individuelles.
+
+>[!NOTE]
+>
+>Lorsque vous incluez le contenu créatif dans une expérience, vous pouvez remplacer la valeur par défaut de l’une des balises de clic par une URL de page de destination personnalisée afin de générer une dérivation du contenu créatif de base.
+
+**URL de la page de destination :** (contenu publicitaire HTML5 simple avec une seule page de destination) URL de la page de destination par défaut pour chaque publicité à laquelle vous associez les contenus publicitaires. Il doit s’agir d’une URL valide commençant par http:// ou https://. Il peut inclure des paramètres de suivi tiers ou des [[!DNL Creative] macros](/help/creative/creative-macros.md) pour votre propre usage.
+
+Lorsque vous incluez un contenu créatif dans une offre groupée et que vous attribuez l’offre groupée à une expérience, vous pouvez éventuellement modifier l’URL de la page de destination, ainsi qu’ajouter des URL de suivi d’impression et de clics et des JavaScript, pour chaque contenu créatif de l’offre groupée. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
+
+**Libellé :** (facultatif) tous les libellés à appliquer à tous les contenus publicitaires sélectionnés. Vous pouvez filtrer les contenus publicitaires par libellé dans différentes vues de [!DNL Creative].
+
+* Pour sélectionner un libellé existant, cliquez sur ![Bas](/help/creative/assets/chevron-down.png "Bas"), puis cliquez sur le libellé à appliquer.
+
+* Pour rechercher des libellés existants, commencez à saisir une chaîne de texte dans le champ **[!UICONTROL Label]**.
+
+* Pour créer un libellé à appliquer aux contenus publicitaires, saisissez un nom de libellé unique dans le champ **[!UICONTROL Label]**, puis cliquez sur **Ajouter une balise**
+
+* Pour supprimer un libellé appliqué, cliquez sur **X** en regard du nom du libellé.
+
+#### Interface utilisateur héritée
 
 **Nom du Creative :** nom du contenu publicitaire. Pour une nouvelle création, le nom du fichier est utilisé par défaut, mais vous pouvez le modifier. Pour plusieurs contenus publicitaires, vous pouvez modifier les noms de chaque contenu publicitaire. **Conseil :** incluez la taille de l’annonce dans le nom du contenu créatif et utilisez un nom que vous pouvez facilement trouver lorsque vous incluez le contenu créatif dans une expérience.
 
@@ -162,6 +222,32 @@ Pour remplacer le modèle d’annonce publicitaire existant :
 
 ## Paramètres de création d’image {#creative-settings-image}
 
+### Nouvelle interface utilisateur
+
+**Nom du Creative :** nom du contenu publicitaire. Pour une nouvelle création, le nom du fichier est utilisé par défaut, mais vous pouvez le modifier. Pour plusieurs images, vous pouvez modifier les noms des créations individuelles. **Conseil :** utilisez un nom que vous pouvez facilement trouver lorsque vous incluez le contenu créatif dans une expérience.
+
+**Format:** (Lecture seule ; contenu créatif existant uniquement) Format créatif (*[!UICONTROL Image]*).
+
+**Taille du Creative :** (Lecture seule) dimensions des images chargées.
+
+**Langue :** langue par défaut de chaque publicité à laquelle vous associez les contenus publicitaires. La même valeur s’applique à toutes les images sélectionnées. Lorsque vous incluez les contenus publicitaires dans une expérience, vous pouvez éventuellement personnaliser les préférences linguistiques de l’expérience.
+
+**URL de la page de destination :** URL de la page de destination par défaut pour chaque publicité à laquelle vous associez les contenus publicitaires. L’URL de la page de destination doit être une URL valide commençant par http:// ou https://. Il peut inclure des paramètres de suivi tiers ou des [[!DNL Creative] macros](/help/creative/creative-macros.md) pour votre propre usage. La même valeur s’applique à toutes les images sélectionnées.
+
+Lorsque vous incluez un contenu créatif dans une offre groupée, puis que vous affectez l’offre groupée à une expérience, vous pouvez éventuellement modifier l’URL de la page de destination, ainsi qu’ajouter des URL de suivi d’impression et de clics et des JavaScript, pour chaque contenu créatif de l’offre groupée. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
+
+**Libellé :** (facultatif) tous les libellés à appliquer à tous les contenus publicitaires sélectionnés. Vous pouvez filtrer les contenus publicitaires par libellé dans différentes vues de [!DNL Creative].
+
+* Pour sélectionner un libellé existant, cliquez sur ![Bas](/help/creative/assets/chevron-down.png "Bas"), puis cliquez sur le libellé à appliquer.
+
+* Pour rechercher des libellés existants, commencez à saisir une chaîne de texte dans le champ **[!UICONTROL Label]**.
+
+* Pour créer un libellé à appliquer aux contenus publicitaires, saisissez un nom de libellé unique dans le champ **[!UICONTROL Label]**, puis cliquez sur **Ajouter une balise**
+
+* Pour supprimer un libellé appliqué, cliquez sur **X** en regard du nom du libellé.
+
+### Interface utilisateur héritée
+
 **Nom du Creative :** nom du contenu publicitaire. Pour une nouvelle création, le nom du fichier est utilisé par défaut, mais vous pouvez le modifier. Pour plusieurs images, vous pouvez modifier les noms des créations individuelles. **Conseil :** utilisez un nom que vous pouvez facilement trouver lorsque vous incluez le contenu créatif dans une expérience.
 
 **Langue :** langue par défaut de chaque publicité à laquelle vous associez les contenus publicitaires. La même valeur s’applique à toutes les images sélectionnées. Lorsque vous incluez les contenus publicitaires dans une expérience, vous pouvez éventuellement personnaliser les préférences linguistiques de l’expérience.
@@ -212,11 +298,39 @@ Lorsque vous incluez ce contenu créatif dans une expérience que vous implémen
 
 ## Paramètres de création vidéo {#creative-settings-video}
 
-**Nom de la ressource Creative :** nom du contenu publicitaire. Pour une nouvelle création, le nom du fichier est utilisé par défaut, mais vous pouvez le modifier. Pour plusieurs images, vous pouvez modifier les noms des créations individuelles. **Conseil :** utilisez un nom que vous pouvez facilement trouver lorsque vous incluez le contenu créatif dans une expérience.
+### Nouvelle interface utilisateur
+
+**Nom du Creative :** nom du contenu publicitaire. Pour une nouvelle création, le nom du fichier est utilisé par défaut, mais vous pouvez le modifier. **Conseil :** utilisez un nom que vous pouvez facilement trouver lorsque vous incluez le contenu créatif dans une expérience.
+
+**Format:** (Lecture seule ; contenu créatif existant uniquement) Format créatif (*[!UICONTROL Standard Video]*).
+
+**Taille :** (lecture seule) dimensions de la vidéo, qui est remplie automatiquement.
 
 **Durée :** (lecture seule) durée de la vidéo, qui est remplie automatiquement.
 
-**Langue :** langue par défaut de chaque publicité à laquelle vous associez les contenus publicitaires. La même valeur s’applique à toutes les images sélectionnées. Lorsque vous incluez les contenus publicitaires dans une expérience, vous pouvez éventuellement personnaliser les préférences linguistiques de l’expérience.
+**Langue :** langue par défaut de chaque publicité à laquelle vous associez le contenu créatif. Lorsque vous incluez le contenu créatif dans une expérience, vous pouvez éventuellement personnaliser les préférences linguistiques de l’expérience.
+
+**URL de la page de destination :** l’URL de la page de destination par défaut pour chaque publicité à laquelle vous associez le contenu créatif. L’URL de la page de destination doit être une URL valide commençant par http:// ou https://. Il peut inclure des paramètres de suivi tiers ou des [[!DNL Creative] macros](/help/creative/creative-macros.md) pour votre propre usage.
+
+Lorsque vous incluez un contenu créatif dans une offre groupée, puis que vous affectez l’offre groupée à une expérience, vous pouvez éventuellement modifier l’URL de la page de destination, ainsi qu’ajouter des URL de suivi d’impression et de clics et des JavaScript, pour chaque contenu créatif de l’offre groupée.
+
+**Libellé :** (facultatif) tous les libellés à appliquer au contenu créatif. Vous pouvez filtrer les contenus publicitaires par libellé dans différentes vues de [!DNL Creative].
+
+* Pour sélectionner un libellé existant, cliquez sur ![Bas](/help/creative/assets/chevron-down.png "Bas"), puis cliquez sur le libellé à appliquer.
+
+* Pour rechercher des libellés existants, commencez à saisir une chaîne de texte dans le champ **[!UICONTROL Label]**.
+
+* Pour créer un libellé à appliquer aux contenus publicitaires, saisissez un nom de libellé unique dans le champ **[!UICONTROL Label]**, puis cliquez sur **Ajouter une balise**
+
+* Pour supprimer un libellé appliqué, cliquez sur **X** en regard du nom du libellé.
+
+### Interface utilisateur héritée
+
+**Nom de la ressource Creative :** nom du contenu publicitaire. Pour une nouvelle création, le nom du fichier est utilisé par défaut, mais vous pouvez le modifier. Pour plusieurs fichiers, vous pouvez modifier les noms des créations individuelles. **Conseil :** utilisez un nom que vous pouvez facilement trouver lorsque vous incluez le contenu créatif dans une expérience.
+
+**Durée :** (lecture seule) durée de la vidéo, qui est remplie automatiquement.
+
+**Langue :** langue par défaut de chaque publicité à laquelle vous associez les contenus publicitaires. La même valeur s’applique à tous les contenus publicitaires sélectionnés. Lorsque vous incluez les contenus publicitaires dans une expérience, vous pouvez éventuellement personnaliser les préférences linguistiques de l’expérience.
 
 **URL de la page de destination :** URL de la page de destination par défaut pour chaque publicité à laquelle vous associez les contenus publicitaires. L’URL de la page de destination doit être une URL valide commençant par http:// ou https://. Il peut inclure des paramètres de suivi tiers ou des [[!DNL Creative] macros](/help/creative/creative-macros.md) pour votre propre usage. La même valeur s’applique à toutes les images sélectionnées.
 

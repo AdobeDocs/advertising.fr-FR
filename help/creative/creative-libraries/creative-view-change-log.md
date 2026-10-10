@@ -12,12 +12,14 @@ feature_v2:
 subfeature_v2:
   - id: d06c1576-7039-4934-b256-7366e138fbb6
     internal-label: Creative Standard Creatives
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '136'
 ht-degree: 0%
 ---
 # Affichage du journal des modifications d’un élément créatif
+
+*Disponible uniquement dans l’interface utilisateur héritée*
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 

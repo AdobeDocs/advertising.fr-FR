@@ -16,16 +16,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '423'
 ht-degree: 0%
 ---
 # Gestion des bibliothèques de contenu publicitaire
 
 Vous pouvez créer plusieurs bibliothèques de contenu publicitaire pour chaque annonceur. Vous pouvez ensuite remplir chaque bibliothèque avec des [contenus publicitaires standard](creative-add-standard.md), [contenus publicitaires dynamiques](creative-add-dynamic.md) et [lots créatifs](bundle-manage.md).
 
-## Création d’une bibliothèque de contenu créatif
+## Basculer entre la nouvelle interface utilisateur et l’ancienne interface utilisateur {#library-switch-ui}
+
+* Dans le coin supérieur droit, cliquez sur **[!UICONTROL Switch to classic UI]** ou **[!UICONTROL Switch to new UI]**.
+
+## Création d’une bibliothèque de contenu créatif {#library-create}
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -35,9 +39,27 @@ Vous pouvez créer plusieurs bibliothèques de contenu publicitaire pour chaque 
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
-## Modification du nom d’une bibliothèque de contenu créatif
+## Renommer une bibliothèque de contenu créatif {#library-rename}
+
+### Dans la nouvelle interface utilisateur
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Rename]**.
+
+1. Modifiez le **[!UICONTROL Library Name]**.
+
+   Le [!UICONTROL Library Name] doit être unique.
+
+1. Cliquez sur **[!UICONTROL Save]**.
+
+### À partir de l’interface utilisateur héritée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
 
 1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
 
@@ -53,17 +75,51 @@ Vous pouvez créer plusieurs bibliothèques de contenu publicitaire pour chaque 
 
 1. Cliquez sur **[!UICONTROL Edit]**.
 
-## Ouverture d’une bibliothèque de contenu créatif
+## Ouverture d’une bibliothèque de contenu créatif {#library-open}
+
+### Dans la nouvelle interface utilisateur
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Effectuez l’une des opérations suivantes :
+
+   * Cliquez sur le nom de la bibliothèque.
+
+   * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+### À partir de l’interface utilisateur héritée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
 
 1. Cliquez sur le nom de la bibliothèque.
 
-## Suppression de bibliothèques de création
+## Suppression de bibliothèques de création {#library-delete}
 
 Vous pouvez supprimer des bibliothèques comportant des contenus publicitaires et des lots qui ne sont pas affectés à une expérience [en ligne](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Pour une expérience ciblée en direct, [supprimez tous les contenus publicitaires ou les lots de l’arborescence de décision](/help/creative/experiences/experience-target-node-delete.md) pour l’expérience avant de continuer.<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
+### Dans la nouvelle interface utilisateur
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. Sélectionnez les bibliothèques à supprimer :
+
+   * Pour supprimer une seule bibliothèque, cliquez sur **[!UICONTROL ...]** en regard du nom de la bibliothèque, puis cliquez sur **[!UICONTROL Delete]**.
+
+   * Pour supprimer une ou plusieurs bibliothèques, activez la case à cocher correspondant à chacune des bibliothèques à supprimer. Dans la barre d’outils des actions en bloc, cliquez sur ![Supprimer](/help/creative/assets/delete.png "Supprimer") (**[!UICONTROL Delete]**).
+
+     Pour sélectionner toutes les lignes, cochez la case globale dans le coin supérieur gauche.
+
+1. Dans le message de confirmation, cliquez sur **[!UICONTROL Delete].**
+
+### À partir de l’interface utilisateur héritée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
 
 1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
 

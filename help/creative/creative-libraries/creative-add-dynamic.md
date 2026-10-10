@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # Ajout de contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires
@@ -54,11 +54,33 @@ Ajoutez des contenus publicitaires dynamiques à vos [bibliothèques de contenus
 
 ## Ajout de contenu publicitaire dynamique à l’aide d’un modèle d’annonce HTML5 dynamique
 
+## Dans la nouvelle interface utilisateur
+
+<!-- NEED TO ADD SAME INSTRUCTIONS AS FOR CREATIVE STUDIO -->
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+
+1. Ouvrez la bibliothèque de l’une des manières suivantes :
+
+   * Cliquez sur le nom de la bibliothèque.
+
+   * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Add new]** > **[!UICONTROL Creative Studio]** > **[!UICONTROL Dynamic Ad]**.
+
+1. Spécifiez les paramètres de publicité dynamique dans [!DNL Creative Studio], en commençant par l’[étape 2 de la section « Gestion des contenus publicitaires dynamiques dans [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template) ».
+
+## À partir de l’interface utilisateur héritée
+
 1. Effectuez l’une des opérations suivantes :
 
    * À partir d’une bibliothèque de contenu créatif :
 
      1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+     1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
 
      1. Cliquez sur le nom de la bibliothèque.
 

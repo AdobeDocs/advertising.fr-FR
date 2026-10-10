@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '275'
 ht-degree: 0%
 ---
 # Suppression de contenus publicitaires d’une bibliothèque de contenus publicitaires
@@ -37,7 +37,31 @@ Vous pouvez supprimer :
 >
 >Si vous supprimez un contenu créatif dynamique et générez de nouvelles annonces pour le catalogue à l’aide des mêmes données que celles utilisées pour créer le contenu créatif d’origine, le contenu créatif est de nouveau ajouté au catalogue.
 
+## Dans la nouvelle interface utilisateur
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Effectuez l’une des opérations suivantes :
+
+   * Cliquez sur le nom de la bibliothèque.
+
+   * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Dans l’onglet **[!UICONTROL Creatives]** , sélectionnez les contenus publicitaires à supprimer :
+
+   * Pour supprimer un élément créatif, cliquez sur **[!UICONTROL ...]** en regard de son nom, puis cliquez sur **[!UICONTROL Delete]**.
+
+   * Pour supprimer un ou plusieurs contenus publicitaires, cochez la case correspondant à chacun des contenus publicitaires à supprimer. Dans la barre d’outils des actions en bloc, cliquez sur ![Supprimer](/help/creative/assets/delete.png "Supprimer") (**[!UICONTROL Delete]**).
+
+     Pour sélectionner toutes les lignes, cochez la case globale dans le coin supérieur gauche.
+
+1. Dans le message de confirmation, cliquez sur **[!UICONTROL Delete].**
+
+## À partir de l’interface utilisateur héritée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
 
 1. Cliquez sur le nom de la bibliothèque.
 

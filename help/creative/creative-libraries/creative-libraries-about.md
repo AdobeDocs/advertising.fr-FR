@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1643'
 ht-degree: 0%
 ---
 # À propos de vos bibliothèques de création
@@ -155,63 +155,55 @@ Lorsque vous êtes en mode Carte, vous pouvez faire défiler les images d’une 
 
 #### Actions disponibles
 
-* [Création d’une bibliothèque](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
+* [Création d’une bibliothèque](/help/creative/creative-libraries/creative-library-manage.md#library-create)
 
 * Pour chaque bibliothèque de contenu créatif :
 
-  * [Modification du nom d’une bibliothèque](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+  * [Renommer une bibliothèque](/help/creative/creative-libraries/creative-library-manage.md#library-rename)
 
-  * [Ouvrez une bibliothèque pour afficher les contenus publicitaires et les lots affectés à la bibliothèque](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+  * [Ouvrez une bibliothèque pour afficher les contenus publicitaires et les lots affectés à la bibliothèque](/help/creative/creative-libraries/creative-library-manage.md#library-open)
 
-  * [Suppression de bibliothèques](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
+  * [Suppression de bibliothèques](/help/creative/creative-libraries/creative-library-manage.md#library-delete)
 
-### Les vues [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]
+### La vue [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]
 
-#### [!UICONTROL Standard Ads]
+La vue [!UICONTROL Creatives] affiche :
 
-L’onglet [!UICONTROL Standard Ads] affiche tous les contenus publicitaires standard que vous avez créés. Les données de chaque élément créatif incluent la taille de l’élément créatif, le type d’élément créatif et la date de création. Le mode Tableau comprend également des colonnes pour la langue par défaut et la page de destination par défaut.
+* Toutes les créations standard que vous avez créées.
 
-##### Actions disponibles
+  Les données de chaque élément créatif standard incluent la taille de l’élément créatif, le type d’élément créatif et la date de création. Le mode Tableau comprend également des colonnes pour la langue par défaut et la page de destination par défaut.
 
-* [Ajout de contenus publicitaires standard à une bibliothèque](creative-add-standard.md)
+* Tous les contenus publicitaires dynamiques qui ont été créés dynamiquement pour vos catalogues créatifs, à l’exception de ceux que vous [avez supprimés manuellement](creative-delete.md). Si vous [avez dupliqué manuellement](creative-duplicate.md) des contenus publicitaires dynamiques<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, la liste des contenus publicitaires de ce catalogue inclut également les contenus publicitaires dupliqués.
 
-* [Modification d’un contenu créatif standard](creative-edit-standard.md)
+  Les données de chaque élément créatif dynamique incluent le type d’élément créatif, la taille de l’élément créatif, le nombre de catalogues auxquels il appartient et la date de création. Le mode Tableau comprend également des colonnes pour le modèle d’annonce publicitaire à partir duquel la création a été générée et le nombre d’offres.
 
-* [Aperçu d’un contenu créatif standard](creative-preview.md)
+  >[!NOTE]
+  >
+  >Chaque fois qu’un catalogue est traité, les données sont actualisées pour les contenus publicitaires dynamiques existants de ce catalogue.<!-- Verify this!!! And is there anything more to say w/regard to  -->
+
+>[!NOTE]
+>
+>Dans l’interface utilisateur héritée, [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] est organisé en onglets [!UICONTROL Standard Ads] et [!UICONTROL Dynamic Ads] distincts.
+
+#### Actions disponibles
+
+* Ajouter [contenus publicitaires standard](creative-add-standard.md) et [contenus publicitaires dynamiques](creative-add-dynamic.md) à une bibliothèque
+
+* Modifiez une [création standard](creative-edit-standard.md) et une [création dynamique](creative-edit-dynamic.md)
+
+* Prévisualisez un [contenu créatif standard](creative-preview.md) et [contenu créatif dynamique](creative-preview.md)
 
 * [Ajoutez des contenus publicitaires standard aux lots d’affichage standard et supprimez les contenus publicitaires standard des lots d’affichage standard](creative-attach-detach-bundles.md)
 
 * [Ajoutez des contenus publicitaires vidéo aux lots vidéo standard et supprimez-en certains d’entre eux](creative-attach-detach-bundles.md)
 
-* [Dupliquer les contenus publicitaires standard](creative-duplicate.md)
+* [Ajout de contenus publicitaires dynamiques à des lots d’affichage dynamique et suppression de contenus publicitaires dynamiques d’un lot d’affichage dynamique](creative-attach-detach-bundles.md)
+
+* Dupliquez [contenus publicitaires standard](creative-duplicate.md) et [contenus publicitaires dynamiques](creative-duplicate.md)
 
 * [Téléchargement de contenus publicitaires standard](creative-download.md)
 
-* [Supprimer les contenus publicitaires standard](creative-delete.md)
-
-#### [!UICONTROL Dynamic Ads]
-
-L’onglet [!UICONTROL Dynamic Ads] affiche tous les contenus publicitaires dynamiques créés dynamiquement pour vos catalogues créatifs, à l’exception de ceux que vous [avez supprimés manuellement](creative-delete.md) dans l’onglet [!UICONTROL Dynamic Ads]. Si vous [avez dupliqué manuellement](creative-duplicate.md) des contenus publicitaires dynamiques<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, la liste des contenus publicitaires de ce catalogue inclut également les contenus publicitaires dupliqués.
-
-Les données de chaque élément créatif incluent le type d’élément créatif, la taille de l’élément créatif, le nombre de catalogues auxquels il appartient et la date de création. Le mode Tableau comprend également des colonnes pour le modèle d’annonce publicitaire à partir duquel la création a été générée et le nombre d’offres.
-
->[!NOTE]
->
->Chaque fois qu’un catalogue est traité, les données sont actualisées pour les contenus publicitaires dynamiques existants de ce catalogue.<!-- Verify this!!! And is there anything more to say w/regard to  -->
-
-##### Actions disponibles
-
-* [Ajout de contenus publicitaires dynamiques à une bibliothèque](creative-add-dynamic.md)
-
-* [Modification d’un élément créatif dynamique](creative-edit-dynamic.md)
-
-* [Aperçu de contenus publicitaires dynamiques](creative-preview.md)
-
-* [Ajout de contenus publicitaires dynamiques à des lots d’affichage dynamique et suppression de contenus publicitaires dynamiques d’un lot d’affichage dynamique](creative-attach-detach-bundles.md)
-
-* [Duplication de contenus publicitaires dynamiques](creative-duplicate.md)
-
-* [Suppression de contenus publicitaires dynamiques](creative-delete.md)
+* Supprimez [contenus publicitaires standard](creative-delete.md) et [contenus publicitaires dynamiques](creative-delete.md)
 
 <!-- Later:  Dynamic creatives are generated automatically when you save a catalog, but can regenerate the catalog using the contents of an updated asset file [using the Run Now option]. -->
 
@@ -225,7 +217,7 @@ La vue [!UICONTROL Bundles] affiche tous vos conteneurs de lots standard et dyna
 
 * Répertorier et prévisualiser les contenus publicitaires d’une offre groupée
 
-* Modifier le nom d’un lot
+* Renommer un lot
 
 * Ajouter des contenus publicitaires d’affichage standard aux lots d’affichage standard et supprimer les contenus publicitaires d’affichage standard d’un lot d’affichage standard
 

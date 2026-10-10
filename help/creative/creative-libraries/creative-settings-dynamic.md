@@ -18,14 +18,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '452'
 ht-degree: 2%
 ---
 # Paramètres de création dynamique
 
 <!-- add a description -->
+
+Les paramètres suivants s’appliquent aux annonces dynamiques créées à l’aide de l’interface utilisateur héritée. Si vous créez des annonces dynamiques à l’aide de la nouvelle interface utilisateur ou de la nouvelle [!DNL Creative Studio], consultez les paramètres de la section « [&#x200B; Gérer les contenus publicitaires dynamiques dans [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template) ».
 
 ## Paramètres des annonces dynamiques<!-- for dynamic HTML5 ads {#dynamic-ad-settings-dynamic-html5}-->
 

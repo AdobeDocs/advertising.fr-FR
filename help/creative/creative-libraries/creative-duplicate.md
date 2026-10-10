@@ -18,20 +18,44 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '281'
 ht-degree: 0%
 ---
 # Dupliquer les contenus publicitaires
 
 Dupliquez des contenus publicitaires pour ajouter de nouveaux contenus publicitaires présentant les mêmes paramètres à la même bibliothèque. Vous pouvez ensuite renommer les nouveaux contenus publicitaires et modifier les paramètres créatifs selon vos besoins.
 
+Les nouveaux contenus publicitaires sont nommés `<original name> (copy) # 1` (ou le numéro suivant dans la séquence). Par exemple, si vous créez deux doublons de « Image test », les doublons sont nommés « Image test (copie) n° 1 » et « Image test (copie) n° 2 ».
+
 >[!NOTE]
 >
 >Lorsque vous dupliquez un élément créatif dynamique, le duplicata est ajouté au même catalogue que l’élément créatif d’origine.
 
+## Dans la nouvelle interface utilisateur
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Effectuez l’une des opérations suivantes :
+
+   * Cliquez sur le nom de la bibliothèque.
+
+   * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Dans l’onglet **[!UICONTROL Creatives]** , sélectionnez les contenus publicitaires :
+
+   * Pour dupliquer une seule création, cliquez sur **[!UICONTROL ...]** en regard du nom de la création, puis cliquez sur **[!UICONTROL Duplicate]**.
+
+   * Pour dupliquer un ou plusieurs contenus publicitaires, cochez la case correspondant à chaque contenu publicitaire à dupliquer. Dans la barre d’outils des actions en bloc, cliquez sur ![Dupliquer](/help/creative/assets/duplicate.png "Dupliquer") (**[!UICONTROL Duplicate]**).
+
+     Pour sélectionner toutes les lignes, cochez la case globale dans le coin supérieur gauche.
+
+## À partir de l’interface utilisateur héritée
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
 
 1. Cliquez sur le nom de la bibliothèque.
 
@@ -46,8 +70,6 @@ Dupliquez des contenus publicitaires pour ajouter de nouveaux contenus publicita
    * Pour dupliquer un ou plusieurs contenus publicitaires, cochez la case correspondant à chaque contenu publicitaire à dupliquer. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Duplicate]**.
 
      Pour sélectionner toutes les lignes, cochez la case globale dans le coin supérieur gauche.
-
-   Les nouveaux contenus publicitaires sont nommés `<original name> (copy) # 1` (ou le numéro suivant dans la séquence). Par exemple, si vous créez deux doublons de « Image test », les doublons sont nommés « Image test (copie) n° 1 » et « Image test (copie) n° 2 ».
 
 <!--
  Add to TOC later when this feature is available to users:

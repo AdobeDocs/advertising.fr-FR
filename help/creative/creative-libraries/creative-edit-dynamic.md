@@ -16,14 +16,62 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '546'
 ht-degree: 0%
 ---
 # Modification d’un élément créatif dynamique dans une bibliothèque de contenu créatif
 
+## Dans la nouvelle interface utilisateur
+
+1. Ouvrez les paramètres de création :
+
+   * À partir d’une bibliothèque de contenu créatif :
+
+     1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+     1. Ouvrez la bibliothèque de l’une des manières suivantes :
+
+        * Cliquez sur le nom de la bibliothèque.
+
+        * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+     1. Dans l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL ...]** en regard du nom du contenu créatif, puis cliquez sur **[!UICONTROL Edit]**.
+
+   * Depuis le [!UICONTROL Creative Studio] :
+
+     1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]>[!UICONTROL Creative Studio]**.
+
+     1. Dans l’onglet **[!UICONTROL Creatives]** , placez le curseur sur la carte de contenu créatif et cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+
+        Un éditeur plein écran s’ouvre avec un aperçu d’annonce publicitaire à gauche et un panneau de paramètres à droite.
+
+1. Modifiez les paramètres créatifs à l’aide des onglets **[!UICONTROL Details]** et **[!UICONTROL Attribute Mapping]** :
+
+   Onglet **[!UICONTROL Details]** :
+
+   * **[!UICONTROL Advertiser]**, **[!UICONTROL Ad Library]** et **[!UICONTROL Ad template]** sont en lecture seule.
+   * **[!UICONTROL Dynamic creative name]:** nom d’affichage du contenu créatif.
+   * **[!UICONTROL Number of cards]:** nombre d’offres de catalogue incluses dans chaque combinaison d’annonces (1-50).
+   * (Facultatif) Sous **[!UICONTROL Catalogs]**, mettez à jour la sélection de catalogue :
+     * Utilisez **[!UICONTROL Catalog template]** pour filtrer les catalogues disponibles. Pour télécharger éventuellement le fichier de modèle, cliquez sur **[!UICONTROL Download feed template]**.
+     * Recherchez et sélectionnez des catalogues dans la liste, ou chargez un nouveau fichier catalogue en le faisant glisser vers la zone de chargement ou en cliquant sur **[!UICONTROL Browse Files]** (formats pris en charge : JPG, PNG, JPEG, XLS, XLSX, CSV, TSV, ZIP, MP4 ; 25 Mo maximum ; un fichier à la fois). Les catalogues chargés sont étiquetés **(chargés)** dans la liste des puces.
+
+     Tous les catalogues doivent appartenir à la même famille de modèles de catalogue.
+
+   Onglet **[!UICONTROL Attribute Mapping]** :
+
+   * Sous **[!UICONTROL Targeting]**, sélectionnez au moins une source de données : **[!UICONTROL Profile data]**, **[!UICONTROL Geographic data]**, **[!UICONTROL Data pass]** ou **[!UICONTROL Audience Segment]**.
+   * Sous **[!UICONTROL Attribute Mapping]**, mettez à jour le mappage de chaque nom de calque de modèle vers le libellé de colonne de catalogue correspondant.
+
+1. Cliquez sur **[!UICONTROL Update Creative]**.
+
+## À partir de l’interface utilisateur héritée
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Cliquez sur **[!UICONTROL Switch to classic UI]**.
 
 1. Cliquez sur le nom de la bibliothèque.
 
