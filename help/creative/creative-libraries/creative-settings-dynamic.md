@@ -27,7 +27,7 @@ ht-degree: 2%
 
 <!-- add a description -->
 
-Les paramètres suivants s’appliquent aux annonces dynamiques créées à l’aide de l’interface utilisateur héritée. Si vous créez des annonces dynamiques à l’aide de la nouvelle interface utilisateur ou de la nouvelle [!DNL Creative Studio], consultez les paramètres de la section « [ Gérer les contenus publicitaires dynamiques dans [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template) ».
+Les paramètres suivants s’appliquent aux annonces dynamiques créées à l’aide de l’interface utilisateur héritée. Si vous créez des annonces dynamiques à l’aide de la nouvelle interface utilisateur ou de la nouvelle [!DNL Creative Studio], consultez les paramètres de la section « [&#x200B; Gérer les contenus publicitaires dynamiques dans [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template) ».
 
 ## Paramètres des annonces dynamiques<!-- for dynamic HTML5 ads {#dynamic-ad-settings-dynamic-html5}-->
 
