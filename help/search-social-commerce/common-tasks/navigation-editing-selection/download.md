@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Vous pouvez télécharger des données à partir des vues [!UICONTROL Search, So
 
 >[!NOTE]
 >
->Consultez également l’aide sur le téléchargement de données dans la nouvelle interface utilisateur à partir de la « vue [[!UICONTROL Portfolios] »](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md) de la « vue [[!UICONTROL Campaigns] »](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md) et de la « vue [[!UICONTROL Ad Groups] »](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md).
+>Consultez également l’aide sur le téléchargement de données dans la nouvelle interface utilisateur à partir de la « vue [[!UICONTROL Portfolios] »](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md) de la « vue [[!UICONTROL Campaigns] »](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports) et de la « vue [[!UICONTROL Ad Groups] »](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md).
 
 1. (Facultatif) Sélectionnez les lignes individuelles à inclure dans le fichier.
 
@@ -56,5 +56,5 @@ Vous pouvez télécharger des données à partir des vues [!UICONTROL Search, So
 >
 >* [(interface utilisateur héritée) Supprimez un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
->* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)
 >* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 9aa8125392f6025110113334399b0ab1e406987e
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Pour les campagnes comportant l’option « [!UICONTROL Auto Update] », l’op�
 
 Le traitement peut prendre une heure ou plus.
 
-## Synchronisez les campagnes à partir de la vue [!UICONTROL Campaigns].
+## Synchroniser les campagnes à partir de la vue [!UICONTROL Campaigns]
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Campaigns]**.
 
