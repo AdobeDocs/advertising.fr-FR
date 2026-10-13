@@ -53,7 +53,7 @@ Links to unused (separate) pages:
 
 * Delete or change the status of a campaign from within the row.
 
-* [Assign campaigns to existing or new portfolios](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio), and [unassign campaigns from portfolios](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [Assign campaigns to existing or new portfolios](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio), and [unassign campaigns from portfolios](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [Assign constraints to campaigns, and unassign constraints from campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
 
@@ -65,7 +65,7 @@ Links to unused (separate) pages:
 
 >[!MORELIKETHIS]
 >
->* [Affecter des campagnes à un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [Supprimer des campagnes d’un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [Affecter des campagnes à un portfolio](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [Supprimer des campagnes d’un portfolio](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [Gérer les affectations de contrainte pour les campagnes](campaign-constraint-assignments-manage.md)
 >* [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]](campaign-view-report.md)
