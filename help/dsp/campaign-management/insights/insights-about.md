@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5b9a22cae9ed7094affb547b3ebe1e6db732fed5
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '2068'
 ht-degree: 0%
 ---
 # À propos des insights
@@ -129,6 +129,56 @@ Ces informations incluent :
   **[!UICONTROL Devices/Ad Opportunities Bid On]:** nombre d&#39;opportunités éligibles pour lesquelles l&#39;emplacement a soumis une offre. Une baisse marquée à ce stade peut indiquer des contraintes de budget ou de rythme qui limitent le volume des offres.
 
   * **[!UICONTROL Impression Wins]:** nombre d’opportunités pour lesquelles l’emplacement a obtenu une impression. Si les gains sont beaucoup plus faibles que les enchères, le prix de votre enchère peut être inférieur au taux du marché en vigueur pour l&#39;inventaire ciblé.
+
+### onglet [!UICONTROL Delivery Composition]
+
+*Disponible uniquement pour les annonceurs avec [!DNL Analytics for Advertising]*
+
+L’onglet [!UICONTROL Delivery Composition] vous indique comment le modèle d’utilisateur DSP enchérit en fonction de la probabilité que les utilisateurs se convertissent.  Les informations utilisent les données de votre convertisseur organique Adobe Analytics mises en correspondance avec les utilisateurs du flux d’enchères programmatique (la population d’utilisateurs observés dans les opportunités publicitaires programmatiques).  Utilisez ces informations pour passer en revue un emplacement en cours de diffusion.
+
+Par défaut, les données s’affichent pour un annonceur spécifique et un emplacement spécifique. La période du rapport, la dernière date à laquelle les données ont été mises à jour et la prochaine date à laquelle le rapport sera mis à jour sont incluses. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur ou sélectionner un autre emplacement.
+
+Ces informations incluent :
+
+* **[!UICONTROL Placement Summary]:** (emplacements dans des packages) Indique le package et l’objectif du package associés.
+
+* **[!UICONTROL Propensity Breakdown]:** sépare les utilisateurs avec convertisseur apparié en [!UICONTROL High Propensity], [!UICONTROL Medium Propensity] et [!UICONTROL Low Propensity] niveaux en fonction de leur probabilité de conversion prévue. Pour chaque groupe, les données incluent [!UICONTROL Avg Bid], [!UICONTROL Conversion Rate], [!UICONTROL Share of Conversions] et [!UICONTROL Conversion Rate Lift] (taux de conversion du groupe par rapport à la ligne de base de référence). Les données indiquent la façon dont le modèle offre le plus d’utilisateurs qu’il prédit être plus susceptible de convertir.  **Remarque :** les données sont basées sur les performances observées, et non sur la preuve que le modèle a provoqué un gain incrémentiel des conversions.
+
+* **[!UICONTROL Bid Multiplier Graph]:** indique le multiplicateur d’enchères pour chacun des 20 compartiments d’audience, en mettant à l’échelle les dépenses en proportion de la probabilité de conversion estimée par un utilisateur ou une utilisatrice. Le compartiment 20 contient les utilisateurs ayant la plus forte propension et reçoit le multiplicateur le plus élevé. Élevée, Medium et Faible sont des regroupements simplifiés de ces intervalles, et non des pourcentages d’audience fixes.
+
+  Lorsque le multiplicateur est 1,0x , aucun ajustement n’est effectué sur l’offre sous-jacente. Les multiplicateurs supérieurs à 1,0x entraînent une enchère plus élevée, et les multiplicateurs inférieurs à 1,0x entraînent une enchère plus faible.
+
+### onglet [!UICONTROL Organic Seed Profile]
+
+*Disponible uniquement pour les annonceurs avec [!DNL Analytics for Advertising]*
+
+L’onglet [!UICONTROL Organic Seed Profile] utilise l’intelligence de l’audience pour vous montrer les centres d’intérêt, les heures, les emplacements et les appareils associés à vos convertisseurs. Ces informations utilisent les données de votre convertisseur organique Adobe Analytics mises en correspondance avec les utilisateurs du flux d’enchères programmatique. Comme ces informations utilisent les données de convertisseur existantes plutôt que la diffusion de campagne, elles peuvent prendre en charge la planification avant les dépenses DSP, lorsque des données d’amorçage appropriées sont disponibles. Utilisez ces informations pour planifier le lancement d’un package ou d’un emplacement ou pour informer votre prochaine campagne.
+
+Par défaut, les données s’affichent pour un annonceur spécifique et un package ou un emplacement spécifique. La période du rapport, la dernière date à laquelle les données ont été mises à jour et la prochaine date à laquelle le rapport sera mis à jour sont incluses. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur ou sélectionner un autre package ou emplacement.
+
+Ces informations incluent :
+
+* **[!UICONTROL Affinity Insights]:** affiche les intérêts et les caractéristiques comportementales dérivés de la consommation multimédia des convertisseurs, classés par leur effet élévateur de taux de conversion par rapport à la population globale. **Remarque :** les caractéristiques décrivent le comportement de consommation des médias, mais pas les attributs démographiques vérifiés. Comme les utilisateurs et utilisatrices peuvent avoir plusieurs caractéristiques, tous les pourcentages de caractéristiques peuvent ne pas totaliser 100 %.
+
+* **[!UICONTROL Temporal Insights]:** affiche l’activité du convertisseur agrégée par *Jour de la semaine* ou *Heure de la journée* afin que vous puissiez identifier le moment où l’audience de cet annonceur est la plus active.
+
+* **[!UICONTROL Geographic Insights]:** affiche l’activité du convertisseur agrégée par *Pays* ou *Région*, pondérée par l’effet élévateur du taux de conversion par rapport à la population globale.  **Remarque :** ne prenez en compte que les emplacements pertinents pour votre entreprise et votre campagne.
+
+* **[!UICONTROL Device Insights]:** affiche l’activité du convertisseur agrégée par combinaison de types d’appareils, pondérée par l’effet élévateur du taux de conversion par rapport à la population globale. **Remarque :** Interpréter les modèles d’appareil dans le contexte de la campagne. Par exemple, les campagnes CTV et non CTV peuvent avoir différents modèles d’appareils.
+
+Chaque [!UICONTROL Organic Seed Profile] insight comprend les colonnes suivantes :
+
+**[!UICONTROL Bid-stream Users]:** utilisateurs du flux d’enchères qui appartiennent au groupe.
+
+**[!UICONTROL Converters]:** Convertisseurs appartenant au groupe.
+
+**[!UICONTROL Precision]:** pourcentage d’utilisateurs et d’utilisatrices du groupe ayant effectué une conversion. **Remarque :** les petits taux non nuls peuvent arrondir à 0,0 % à la précision affichée. Une valeur égale à 0 ne signifie pas nécessairement qu’il n’y avait aucun convertisseur ; vérifiez le nombre de [!UICONTROL Converters].
+
+**[!UICONTROL Recall]:** pourcentage de tous les convertisseurs appartenant au groupe. **Remarque :** un groupe peut avoir un effet élévateur de conversion élevé, mais ne représente qu’une petite partie de vos convertisseurs.
+
+**[!UICONTROL Bid-stream %]:** pourcentage d’utilisateurs du flux d’enchères qui appartiennent au groupe.
+
+**[!UICONTROL Conv. Rate Lift]:** Taux de conversion du groupe par rapport à la ligne de base de référence. 1,00x signifie le même taux que la ligne de base ; 1,50x signifie 50 % plus élevé ; 0,50x signifie 50 % plus bas. **Remarque :**&#39;effet élévateur n&#39;est pas une garantie de performances futures.
 
 ## Affichage des informations sur les performances
 

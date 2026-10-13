@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: b495d4e7b4309f8933d29489d77896645bebc538
 workflow-type: tm+mt
-source-wordcount: '7729'
+source-wordcount: '7809'
 ht-degree: 0%
 ---
 # Nouveautés de DSP
@@ -50,6 +50,7 @@ Les fonctionnalités suivantes sont nouvelles ou ont été récemment modifiées
 
 | Date | Fonctionnalité | Description | Pour Plus D’Informations |
 | ---- | ------- | ----------- | -------------------- |
+| 8 octobre | [!UICONTROL Insights] | (Annonceurs avec [!DNL Analytics for Advertising] uniquement) Deux nouvelles informations basées sur l’intelligence de l’audience à partir de vos données de conversion Adobe Analytics sont disponibles :<ul><li>[!UICONTROL Delivery Composition] vous explique comment le modèle utilisateur DSP enchérit sur les utilisateurs avec différentes probabilités de conversion. Utilisez cette insight pour passer en revue un emplacement en cours de diffusion.</li><li>[!UICONTROL Organic Seed Profile] indique les centres d&#39;intérêt, les heures, les emplacements et les appareils associés à vos convertisseurs. Utilisez cet insight pour planifier le lancement d’un package ou d’un emplacement, ou pour informer votre prochaine campagne.</li></ul> | Voir « [&#x200B; À propos des informations &#x200B;](/help/dsp/campaign-management/insights/insights-about.md). » |
 | 14 Août 2026 | [!UICONTROL Reports] | Le nouveau rapport [!UICONTROL DSP Self-Attributed Conversions] montre la contribution d’Advertising DSP aux conversions, y compris les parcours clients dans lesquels DSP a joué un rôle, mais a été utilisé ultérieurement (par exemple, lors d’un clic de recherche Adobe Advertising) pour recevoir du crédit en dernier clic dans d’autres rapports. Elle est particulièrement utile pour les annonceurs qui utilisent à la fois Advertising DSP et Advertising Search, Social et Commerce. | Voir « [À propos des rapports personnalisés](/help/dsp/reports/report-about.md) » et « [Questions fréquentes sur les rapports personnalisés](/help/dsp/reports/faq-reports.md) ». |
 | 1 Juillet 2026 | [!DNL Creative] | Les fonctionnalités Beta suivantes sont disponibles dans Advertising Creative :<ul><li>**[!UICONTROL Creative Studio]** utilise l’IA générative pour créer, redimensionner et affiner les publicités display sur plusieurs formats dans une seule session. Utiliser une interface de conversation en langage naturel pour générer et modifier du contenu publicitaire ; aucun travail de conception manuel n’est nécessaire pour les champs de contenu.</li><li>Créez et gérez des **[!UICONTROL brand profiles]** qui reflètent l’identité visuelle et de messagerie de votre marque, y compris votre logo, votre palette de couleurs, vos directives vocales, les normes d’image et les directives de copie spécifiques à un canal. Lorsque vous créez des annonces dans [!UICONTROL Creative Studio], l’agent IA utilise les informations de profil de marque pour ancrer la génération de contenu dans votre marque spécifique.</li></ul> | Voir « [&#x200B; À propos de Creative Studio &#x200B;](/help/creative/creative-studio/creative-studio-about.md) » et « [&#x200B; Gérer les profils de marque &#x200B;](/help/creative/brands/brand-manage.md). » |
 | 23 Juin 2026 | [!UICONTROL Placements], codes postaux | Vous pouvez désormais créer des listes de codes postaux à réutiliser par pays en tant que cibles d’emplacement ou exclusions. | Voir « [&#x200B; Gérer les listes de codes postaux &#x200B;](/help/dsp/resources/lists-postal-codes-manage.md) » et « [&#x200B; Paramètres d’emplacement &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md). » |
