@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4d0f262a450d478903d0a182a71bb25f8a766b02
+source-git-commit: 5b9a22cae9ed7094affb547b3ebe1e6db732fed5
 workflow-type: tm+mt
-source-wordcount: '1986'
+source-wordcount: '2068'
 ht-degree: 0%
 ---
 # À propos des insights
@@ -132,7 +132,9 @@ Ces informations incluent :
 
 ### onglet [!UICONTROL Delivery Composition]
 
-L’onglet [!UICONTROL Delivery Composition] vous indique comment le modèle enchérit sur les utilisateurs avec différentes probabilités de conversion. Utilisez cette visionneuse insight pour passer en revue un emplacement en cours de diffusion.
+*Disponible uniquement pour les annonceurs avec [!DNL Analytics for Advertising]*
+
+L’onglet [!UICONTROL Delivery Composition] vous indique comment le modèle d’utilisateur DSP enchérit en fonction de la probabilité que les utilisateurs se convertissent.  Les informations utilisent les données de votre convertisseur organique Adobe Analytics mises en correspondance avec les utilisateurs du flux d’enchères programmatique (la population d’utilisateurs observés dans les opportunités publicitaires programmatiques).  Utilisez ces informations pour passer en revue un emplacement en cours de diffusion.
 
 Par défaut, les données s’affichent pour un annonceur spécifique et un emplacement spécifique. La période du rapport, la dernière date à laquelle les données ont été mises à jour et la prochaine date à laquelle le rapport sera mis à jour sont incluses. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur ou sélectionner un autre emplacement.
 
@@ -148,21 +150,23 @@ Ces informations incluent :
 
 ### onglet [!UICONTROL Organic Seed Profile]
 
-L&#39;onglet [!UICONTROL Organic Seed Profile] vous indique les centres d&#39;intérêt, les heures, les emplacements et les appareils associés à vos convertisseurs. L’ensemble insight utilise les données de votre convertisseur organique Adobe Analytics, mises en correspondance avec les utilisateurs du flux d’enchères programmatique, qui correspond à la population d’utilisateurs observés dans les opportunités publicitaires programmatiques. Comme cette insight utilise les données de convertisseur existantes plutôt que la diffusion de campagne, elle peut prendre en charge la planification avant les dépenses DSP, lorsque des données de contrôle appropriées sont disponibles. Utilisez cette expérience pour planifier le lancement d’un package ou d’un emplacement, ou pour informer votre prochaine campagne.
+*Disponible uniquement pour les annonceurs avec [!DNL Analytics for Advertising]*
+
+L’onglet [!UICONTROL Organic Seed Profile] utilise l’intelligence de l’audience pour vous montrer les centres d’intérêt, les heures, les emplacements et les appareils associés à vos convertisseurs. Ces informations utilisent les données de votre convertisseur organique Adobe Analytics mises en correspondance avec les utilisateurs du flux d’enchères programmatique. Comme ces informations utilisent les données de convertisseur existantes plutôt que la diffusion de campagne, elles peuvent prendre en charge la planification avant les dépenses DSP, lorsque des données d’amorçage appropriées sont disponibles. Utilisez ces informations pour planifier le lancement d’un package ou d’un emplacement ou pour informer votre prochaine campagne.
 
 Par défaut, les données s’affichent pour un annonceur spécifique et un package ou un emplacement spécifique. La période du rapport, la dernière date à laquelle les données ont été mises à jour et la prochaine date à laquelle le rapport sera mis à jour sont incluses. Vous pouvez éventuellement configurer des filtres pour afficher les données d’un autre annonceur ou sélectionner un autre package ou emplacement.
 
 Ces informations incluent :
 
-* **[!UICONTROL Affinity Insights]:** affiche les intérêts et les caractéristiques comportementales dérivés de la consommation multimédia des convertisseurs, classés par leur effet élévateur de taux de conversion par rapport à la population globale.
+* **[!UICONTROL Affinity Insights]:** affiche les intérêts et les caractéristiques comportementales dérivés de la consommation multimédia des convertisseurs, classés par leur effet élévateur de taux de conversion par rapport à la population globale. **Remarque :** les caractéristiques décrivent le comportement de consommation des médias, mais pas les attributs démographiques vérifiés. Comme les utilisateurs et utilisatrices peuvent avoir plusieurs caractéristiques, tous les pourcentages de caractéristiques peuvent ne pas totaliser 100 %.
 
 * **[!UICONTROL Temporal Insights]:** affiche l’activité du convertisseur agrégée par *Jour de la semaine* ou *Heure de la journée* afin que vous puissiez identifier le moment où l’audience de cet annonceur est la plus active.
 
-* **[!UICONTROL Geographic Insights]:** affiche l’activité du convertisseur agrégée par *Pays* ou *Région*, pondérée par l’effet élévateur du taux de conversion par rapport à la population globale.
+* **[!UICONTROL Geographic Insights]:** affiche l’activité du convertisseur agrégée par *Pays* ou *Région*, pondérée par l’effet élévateur du taux de conversion par rapport à la population globale.  **Remarque :** ne prenez en compte que les emplacements pertinents pour votre entreprise et votre campagne.
 
-* **[!UICONTROL Device Insights]:** affiche l’activité du convertisseur agrégée par combinaison de types d’appareils, pondérée par l’effet élévateur du taux de conversion par rapport à la population globale.
+* **[!UICONTROL Device Insights]:** affiche l’activité du convertisseur agrégée par combinaison de types d’appareils, pondérée par l’effet élévateur du taux de conversion par rapport à la population globale. **Remarque :** Interpréter les modèles d’appareil dans le contexte de la campagne. Par exemple, les campagnes CTV et non CTV peuvent avoir différents modèles d’appareils.
 
-Chaque insight comprend les colonnes suivantes :
+Chaque [!UICONTROL Organic Seed Profile] insight comprend les colonnes suivantes :
 
 **[!UICONTROL Bid-stream Users]:** utilisateurs du flux d’enchères qui appartiennent au groupe.
 
@@ -174,7 +178,7 @@ Chaque insight comprend les colonnes suivantes :
 
 **[!UICONTROL Bid-stream %]:** pourcentage d’utilisateurs du flux d’enchères qui appartiennent au groupe.
 
-**[!UICONTROL Conv. Rate Lift]:** Taux de conversion du groupe par rapport à la ligne de base de référence. 1,00x signifie le même taux que la ligne de base ; 1,50x signifie 50 % plus élevé ; 0,50x signifie 50 % plus bas. **Remarque :** effet élévateur n’est ni une prévision ni une preuve de conversions incrémentielles.
+**[!UICONTROL Conv. Rate Lift]:** Taux de conversion du groupe par rapport à la ligne de base de référence. 1,00x signifie le même taux que la ligne de base ; 1,50x signifie 50 % plus élevé ; 0,50x signifie 50 % plus bas. **Remarque :**&#39;effet élévateur n&#39;est pas une garantie de performances futures.
 
 ## Affichage des informations sur les performances
 
