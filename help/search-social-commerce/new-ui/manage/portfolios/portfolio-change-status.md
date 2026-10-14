@@ -28,7 +28,7 @@ Toutes les modifications apportées au statut du portefeuille sont consignées d
 
 >[!NOTE]
 >
->Vous pouvez modifier le statut de plusieurs portefeuilles à l’aide de [ feuilles d’envoi groupé de portefeuille ](portfolio-bulksheets.md).
+>Vous pouvez modifier le statut de plusieurs portefeuilles à l’aide de [&#x200B; feuilles d’envoi groupé de portefeuille &#x200B;](portfolio-bulksheets.md).
 
 ## Optimiser, activer ou désactiver un portefeuille à partir de la vue [!UICONTROL Portfolios]
 
@@ -70,5 +70,5 @@ Vous ne pouvez supprimer que les portefeuilles inactifs. Si le portfolio est opt
 >[!MORELIKETHIS]
 >
 >* [Créer un portfolio](portfolio-create.md)
->* [ (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
+>* [&#x200B; (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
 >* [À propos des portefeuilles](portfolio-about.md)
