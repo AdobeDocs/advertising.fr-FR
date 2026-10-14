@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: 249cdc80b3f918eca64479b6cda50d6d5d157d46
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2363'
 ht-degree: 0%
 ---
 # Gestion des campagnes
@@ -60,6 +60,8 @@ Search, Social et Commerce extraient les données de performances toutes les heu
 * [Attribuez des classifications de libellé aux campagnes et supprimez des classifications de libellé des campagnes](#campaign-classifications)
 
 * [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]](#campaign-reports)
+
+* [Synchroniser les données de la campagne avec le réseau publicitaire](#campaign-sync)
 
 ## Création d’une campagne {#campaign-create}
 
@@ -425,6 +427,18 @@ Consultez également les sections « >* [&#x200B; (interface utilisateur hérit�
 1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans la liste [!UICONTROL Recently Generated] de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete-new.png "Supprimer") en regard du nom du fichier.
+
+## Synchroniser les données de la campagne avec le réseau publicitaire {#campaign-sync}
+
+Vous pouvez également [synchroniser les données de toutes les campagnes dans un compte](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/sync-api-accounts.md).
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** > **[!UICONTROL Campaigns]**.
+
+1. Cochez la case en regard du nom de chaque campagne à synchroniser.
+
+1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL ... More Actions]** > **[!UICONTROL Sync]**.
+
+Le traitement peut prendre une heure ou plus.
 
 >[!MORELIKETHIS]
 >

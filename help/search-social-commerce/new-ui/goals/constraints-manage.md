@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
     internal-label: Portfolios
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
 source-wordcount: '2660'
 ht-degree: 0%
@@ -190,7 +190,7 @@ Chaque entité ne peut avoir qu&#39;une seule contrainte. Vous pouvez affecter u
 >[!NOTE]
 >
 >* Si vous modifiez par la suite un mot-clé ou la copie d’une publicité, créant ainsi un nouveau mot-clé ou une nouvelle publicité, la contrainte n’est pas affectée à la nouvelle entité.
->* Consultez les mêmes instructions dans la vue &rbrack;(/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md) la vue [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md) la vue [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md) ou la vue [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->&lbrack;[!UICONTROL Campaigns]
+>* Consultez les mêmes instructions dans la vue &rbrack;(/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints) la vue [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md) la vue [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md) ou la vue [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->&lbrack;[!UICONTROL Campaigns]
 
 1. Dans le menu principal, ouvrez la vue de gestion correspondante.
 
@@ -211,7 +211,7 @@ Chaque entité ne peut avoir qu&#39;une seule contrainte. Vous pouvez affecter u
 >[!NOTE]
 >
 >* Pour supprimer une contrainte, ce qui la rend indisponible pour une utilisation ultérieure, voir « [Modifier le statut des contraintes](#constraint-change-status) ».
->* Consultez les mêmes instructions dans la vue &rbrack;(/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md) la vue [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md) la vue [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md) ou la vue [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->&lbrack;[!UICONTROL Campaigns]
+>* Consultez les mêmes instructions dans la vue &rbrack;(/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints) la vue [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md) la vue [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md) ou la vue [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->&lbrack;[!UICONTROL Campaigns]
 
 1. Dans le menu principal, ouvrez la vue de gestion correspondante.
 
@@ -225,7 +225,7 @@ Chaque entité ne peut avoir qu&#39;une seule contrainte. Vous pouvez affecter u
 
 >[!MORELIKETHIS]
 >
->* [Gérer les affectations de contrainte pour les campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [Gérer les affectations de contrainte pour les campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
 >* [Gérer les affectations de contraintes pour les groupes publicitaires](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [Gérer les affectations de contraintes pour les mots-clés](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
 >* [Gérer les affectations de contrainte pour les emplacements](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
