@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '826'
 ht-degree: 0%
 ---
 # (Nouvelle interface utilisateur) À propos des portefeuilles
@@ -73,11 +73,11 @@ Un portefeuille peut avoir les statuts suivants :
 
 ## La vue [!UICONTROL Portfolios]
 
-La vue [!UICONTROL Portfolios] répertorie tous les portfolios existants dans la vue filtrée, avec des données de performances personnalisables. Vous pouvez [personnaliser les colonnes de la vue](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) et filtrer les données pour inclure des portfolios spécifiques [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou de l’en-tête de colonne [&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+La vue [!UICONTROL Portfolios] répertorie tous les portfolios existants dans la vue filtrée, avec des données de performances personnalisables. Vous pouvez [personnaliser les colonnes de la vue](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) et filtrer les données pour inclure des portfolios spécifiques [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou de l’en-tête de colonne [](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 Au-dessus du tableau de données, vous pouvez ouvrir un graphique de performances avec jusqu’à trois mesures totalisées pour tous les portefeuilles dans la vue pour la période spécifiée. Vous pouvez également ouvrir les détails du portfolio, notamment ses performances et sa précision, ainsi que les données de performances de chaque campagne, groupe publicitaire et mot-clé qu’il contient.
 
-Vous pouvez modifier certains paramètres, notamment le statut du portfolio, directement dans la ligne du portfolio.
+Vous pouvez modifier certains paramètres, notamment le statut du portfolio, directement dans la ligne du portfolio. Lorsqu&#39;un portefeuille ou ses campagnes associées et entités de campagne enfant sont configurés avec des contraintes qui affectent les dépenses (notamment les contraintes de réseau, de budget de campagne, de cible, de CPC ou d&#39;unité d&#39;offre), cliquez sur [!UICONTROL Yes] dans la colonne [!UICONTROL Constraints] pour afficher la liste de toutes les contraintes, y compris le niveau et le type de contrainte.
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
 
 ### Actions disponibles

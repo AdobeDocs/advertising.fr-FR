@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Les segments sont actualisés et disponibles pour le ciblage toutes les trois he
 >
 >* [À propos des sources d’audience propriétaires](/help/dsp/audiences/sources/source-about.md)
 >* [Gérer les sources d’audience pour activer les audiences d’ID universel](source-manage.md)
->* [Connexion &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=fr)
->* Adobe Experience Platform [Présentation du catalogue des destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=fr)
+>* [Connexion ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Adobe Experience Platform [Présentation du catalogue des destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [Prise en charge de l’activation des identifiants universels](/help/dsp/audiences/universal-ids.md)
 >* [À propos de la gestion des audiences](/help/dsp/audiences/audience-about.md)

@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
     internal-label: Search Notifications
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1724'
 ht-degree: 0%
 ---
 # (Nouvelle interface utilisateur) Gérer les notifications
@@ -119,14 +119,13 @@ In Campaign Management:
   * **[!UICONTROL Accuracy]**: Notifications when a portfolio's model accuracy deviates [by how much?] from expectations.
 -->
 
-
 ## Actions disponibles
 
 * [Affichage des notifications](#notification-view)
 
 * [Modifier vos paramètres de notification](#notification-edit)
 
-* [Marquer une notification comme lue ou non lue](#notification-mark-read-unread)
+* [Marquer les notifications comme lues ou non lues](#notification-mark-read-unread)
 
 * [Supprimer une notification](#notification-delete)
 
@@ -136,7 +135,7 @@ In Campaign Management:
 
 ## Affichage des notifications {#notification-view}
 
-Lorsque vous êtes [abonné aux notifications](#notification-edit) concernant les erreurs d’authentification du compte, les alertes personnalisées déclenchées et les [!UICONTROL Advertising Insights] générées, vous pouvez afficher vos notifications dans le panneau [!UICONTROL Notifications] ou dans le [!UICONTROL Notification Center].
+Lorsque vous êtes [abonné aux notifications](#notification-edit) concernant les erreurs d’authentification du compte, les alertes personnalisées déclenchées et les [!UICONTROL Advertising Insights] générées, vous pouvez afficher vos notifications dans le panneau [!UICONTROL Notifications] ou le [!UICONTROL Notification Center].
 
 ### Affichage des notifications dans le panneau [!UICONTROL Notifications]
 
@@ -208,7 +207,7 @@ Vous avez la possibilité de vous abonner ou de vous désabonner des notificatio
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
-## Marquer une notification comme lue ou non lue {#notification-mark-read-unread}
+## Marquer les notifications comme lues ou non lues {#notification-mark-read-unread}
 
 Le marquage d’une notification comme *lue* ou *non lue* modifie le nombre de notifications non lues indiquées dans le lien [!UICONTROL Notifications] en haut de chaque page (par exemple, ![Icône Notifications avec compteur de notifications non lues](/help/search-social-commerce/assets/notifications-unread.png "Icône Notifications avec compteur de notifications non lues")).
 
@@ -218,7 +217,11 @@ Les notifications marquées comme *lues* apparaissent dans un texte plus clair, 
 
 1. [Ouvrez le panneau Notifications ou le Centre de notifications](#notification-view).
 
-1. Placez le curseur sur le nom de l’alerte et cliquez sur ![Marquer comme lu ou Non lu](/help/search-social-commerce/assets/notifications-read-unread.png "Marquer comme lu ou Non lu").
+1. Effectuez l’une des opérations suivantes :
+
+   * Pour une seule notification, placez le curseur sur le nom de l’alerte et cliquez sur ![Marquer comme lu ou Non lu](/help/search-social-commerce/assets/notifications-read-unread.png "Marquer comme lu ou Non lu").
+
+   * Pour marquer toutes les notifications comme lues, cliquez sur **[!UICONTROL Mark all as read]**.
 
 ## Supprimer une notification {#notification-delete}
 

@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '410'
 ht-degree: 0%
 ---
 # (Nouvelle interface utilisateur) Modifier le statut d’un portfolio
@@ -26,7 +26,11 @@ Pour arrêter la collecte des données de coût/clic/impression et des données 
 
 Toutes les modifications apportées au statut du portefeuille sont consignées dans l’historique des modifications du portefeuille.
 
-## Optimiser, activer ou désactiver un portefeuille
+>[!NOTE]
+>
+>Vous pouvez modifier le statut de plusieurs portefeuilles à l’aide de [ feuilles d’envoi groupé de portefeuille ](portfolio-bulksheets.md).
+
+## Optimiser, activer ou désactiver un portefeuille à partir de la vue [!UICONTROL Portfolios]
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
@@ -49,7 +53,7 @@ Toutes les modifications apportées au statut du portefeuille sont consignées d
      >* Une fois que Search, Social et Commerce commencent à optimiser un portfolio, laissez-le gérer tous les budgets futurs de la campagne et (le cas échéant) le changement d’enchères (le cas échéant). Search, Social et Commerce remplaceront toutes les modifications que vous apportez depuis le réseau publicitaire.
      >* Vous pouvez temporairement définir des enchères manuelles pour toute campagne CPC optimisée du portefeuille en créant et en publiant des feuilles d&#39;envoi groupé de campagne. Toutes les modifications d’enchères résultant des données validées sont applicables pendant une journée. Ensuite, Search, Social et Commerce reprennent la définition des enchères en fonction de sa propre stratégie d’optimisation.
 
-## Supprimer un portefeuille inactif
+## Supprimer un portefeuille inactif de la vue [!UICONTROL Portfolios]
 
 Vous ne pouvez supprimer que les portefeuilles inactifs. Si le portfolio est optimisé ou actif, vous devez d’abord changer son statut en inactif avant d’avoir la possibilité de le supprimer.
 
@@ -66,5 +70,5 @@ Vous ne pouvez supprimer que les portefeuilles inactifs. Si le portfolio est opt
 >[!MORELIKETHIS]
 >
 >* [Créer un portfolio](portfolio-create.md)
->* [&#x200B; (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
+>* [ (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
 >* [À propos des portefeuilles](portfolio-about.md)

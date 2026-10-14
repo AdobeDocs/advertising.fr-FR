@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '1080'
 ht-degree: 0%
 ---
 # (Nouvelle interface utilisateur) Afficher les détails sur les performances du portefeuille
@@ -38,7 +38,7 @@ La vue détaillée du portefeuille comprend les informations suivantes sur un po
 
 * Données de précision du modèle pour les portefeuilles actifs, qui montrent dans quelle mesure les modèles se sont écartés des prédictions. Le rapport affiche la précision globale des coûts sur une période de sept jours, la précision des clics et la précision de la valeur objective.
 
-  Vous pouvez afficher les données par date de clic (valeur par défaut) ou par date de transaction.   Vous pouvez également afficher les données sous la forme d’un graphique de tendances (valeur par défaut) ou d’un tableau.
+  Vous pouvez afficher les données par date de clic (valeur par défaut) ou par date de transaction. Vous pouvez également afficher les données sous la forme d’un graphique de tendances (valeur par défaut) ou d’un tableau.
 
 * Dépenses cibles par rapport aux dépenses réelles pour les portefeuilles actifs. Vous pouvez également inclure le total des budgets de campagne pour le portefeuille.
 
@@ -48,11 +48,23 @@ La vue détaillée du portefeuille comprend les informations suivantes sur un po
 
   Vous pouvez éventuellement ouvrir les paramètres du portfolio pour les modifier.
 
+* Listes des campagnes, groupes publicitaires et mots-clés du portfolio. Pour des mots-clés individuels, vous pouvez afficher les détails des unités d&#39;enchères, y compris les prévisions, les informations historiques et les informations hiérarchiques.
+
+  La vue [!UICONTROL Bid Unit Details] comprend les prévisions, les informations historiques et les informations hiérarchiques suivantes pour l&#39;unité d&#39;enchères sélectionnée :
+
+  * Onglet [!UICONTROL Forecast] : clics, coût, coût par clic, position et chiffre d&#39;affaires actuellement prévus pour l&#39;unité d&#39;offre à différents prix d&#39;offre. Les données s’affichent pour tous les appareils et pour chaque type d’appareil ([!UICONTROL Mobile], [!UICONTROL Computer] et [!UICONTROL Tablet]).<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
+
+    **Remarque :** aucune donnée de prévision n’est disponible pour un type d’appareil lorsque les données spécifiques à l’appareil sont insuffisantes pour créer des modèles et définir des ajustements pour ce type d’appareil. **Remarque :** pour voir la précision des coûts ou la précision du chiffre d&#39;affaires pour chaque unité d&#39;offre d&#39;un portefeuille qui a reçu un clic au cours d&#39;une période spécifique, reportez-vous à la section Afficher les détails de la précision des coûts ou des chiffres d&#39;affaires du portefeuille, respectivement.
+
+  * Onglet [!UICONTROL History] : Toutes les offres des 36 derniers jours, y compris les données suivantes pour chacune des offres : date et heure, impressions, clics, coût total, coût par clic moyen, position moyenne et revenu pondéré affiché par date de clic. Les données s’affichent pour tous les appareils et pour chaque type d’appareil (mobile, ordinateur et tablette).<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
+
+  * Onglet [!UICONTROL Detail] : type de correspondance (le cas échéant) et groupe publicitaire parent, campagne, compte réseau publicitaire et portefeuille auxquels appartient l’entité publicitaire.
+
 ## Ouvrir les détails de performances d’un portfolio
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-1. Cliquez sur le nom du portfolio.
+1. Placez le curseur sur le nom du portfolio et cliquez sur (/help/search-social-commerce/assets/portfolio-overview.png « Portfolio Overview »).
 
 1. (Facultatif) Dans le menu **[!UICONTROL Data Aggregation]**, modifiez l’unité de temps des données incluses dans chaque ligne : *[!UICONTROL Daily],* *[!UICONTROL Weekly],* ou *[!UICONTROL Monthly].*
 
@@ -114,13 +126,17 @@ Les détails de chaque groupe publicitaire incluent le coût, les clics et la va
 
 * Pour afficher tous les groupes publicitaires d’une campagne au sein du portfolio, cliquez sur l’onglet **[!UICONTROL Campaigns]** , puis sur le nom de la campagne.
 
-## Répertorier les mots-clés du portfolio
+## Répertorier et afficher les détails sur les mots-clés du portefeuille
 
-Les détails de chaque mot-clé incluent l’ID d’unité d’offre, le type de correspondance, le coût réel et prévu, les clics et la valeur d’objectif, ainsi que la différence entre le coût, le clic et la valeur d’objectif.
+Les détails de chaque mot-clé incluent l’ID d’unité d’offre, le type de correspondance, le coût réel et prévu, les clics et la valeur d’objectif, ainsi que la différence entre le coût, le clic et la valeur d’objectif. Vous pouvez afficher les détails des unités d&#39;enchères sur un mot-clé individuel.
 
-* Pour afficher tous les mots-clés du portfolio, cliquez sur l’onglet **[!UICONTROL Keywords]** .
+1. Répertoriez les mots-clés :
 
-* Pour afficher tous les mots-clés d&#39;un groupe publicitaire dans le portfolio, cliquez sur l&#39;onglet **[!UICONTROL Ad Groups]**, puis cliquez sur le nom du groupe publicitaire.
+   * Pour afficher tous les mots-clés du portfolio, cliquez sur l’onglet **[!UICONTROL Keywords]** .
+
+   * Pour afficher tous les mots-clés d&#39;un groupe publicitaire dans le portfolio, cliquez sur l&#39;onglet **[!UICONTROL Ad Groups]**, puis cliquez sur le nom du groupe publicitaire.
+
+1. (Facultatif) Pour afficher des détails sur une unité d&#39;enchères spécifique, cliquez sur la valeur dans la colonne **[!UICONTROL Bid Unit ID]**. Pour plus d’informations, cliquez sur n’importe quel onglet de la [!UICONTROL Bid Unit Details].
 
 ## Afficher et modifier les paramètres du portfolio
 
@@ -152,6 +168,6 @@ Pour plus d’informations sur les paramètres du portfolio, consultez le Guide 
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; (nouvelle interface utilisateur) À propos des portfolios](portfolio-about.md)
->* [&#x200B; (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
->* [&#x200B; (nouvelle interface utilisateur) Télécharger des données dans la vue [!UICONTROL Portfolios]](portfolio-view-report.md)
+>* [ (nouvelle interface utilisateur) À propos des portfolios](portfolio-about.md)
+>* [ (nouvelle interface utilisateur) Modification d’un portfolio](portfolio-edit.md)
+>* [ (nouvelle interface utilisateur) Télécharger des données dans la vue [!UICONTROL Portfolios]](portfolio-view-report.md)
