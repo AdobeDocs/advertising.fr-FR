@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '99'
 ht-degree: 0%
 ---
 # (Nouvelle interface utilisateur) Supprimer un objectif
@@ -34,7 +34,11 @@ Vous pouvez supprimer un objectif qui n&#39;est pas affecté à un portefeuille.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
-1. Cochez la case en regard de l’objectif. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete-new.png "Supprimer") **[!UICONTROL Delete]**.
+1. Effectuez l’une des opérations suivantes :
+
+   * Pour un seul objectif, placez le curseur sur le nom de l&#39;objectif, puis cliquez sur **[!UICONTROL ...]>[!UICONTROL Delete]**.
+
+   * Pour un ou plusieurs objectifs, cochez la case en regard de chaque objectif à supprimer. Dans la barre d’outils des actions en bloc, cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete-new.png "Supprimer") **[!UICONTROL Delete]**.
 
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Confirm]**.
 
@@ -45,3 +49,4 @@ Vous pouvez supprimer un objectif qui n&#39;est pas affecté à un portefeuille.
 >* [Modifier un objectif](objective-edit.md)
 >* [Appliquer des recommandations de poids à un objectif](objective-apply-weight-recommendations.md)
 >* [Paramètres des objectifs](objective-settings.md)
+>* [Exporter une configuration d’objectif](objective-export.md)

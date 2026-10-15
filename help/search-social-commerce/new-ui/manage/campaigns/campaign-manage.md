@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 249cdc80b3f918eca64479b6cda50d6d5d157d46
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2401'
 ht-degree: 0%
 ---
 # Gestion des campagnes
@@ -47,17 +47,19 @@ Search, Social et Commerce extraient les données de performances toutes les heu
 
 * [Modifier les paramètres de la campagne](#campaign-edit)
 
-* [Modifier le statut d’une campagne ou la supprimer à partir de la ligne](#campaign-status)
+* [Modifier le statut d’une campagne à partir de la ligne](#campaign-status)
 
 * [Affectation de campagnes à un portfolio et suppression de campagnes d’un portfolio](#campaign-portfolio)
-
-* [Afficher un graphique des performances dans la vue [!UICONTROL Campaigns]](#campaign-performance-graph)
 
 * [Affectez des contraintes d’enchères aux campagnes et annulez l’affectation des contraintes des campagnes](#campaign-constraints)
 
 * [Affectez des contraintes de cible aux campagnes et annulez l’affectation des contraintes de cible des campagnes](#campaign-target-constraints)
 
 * [Attribuez des classifications de libellé aux campagnes et supprimez des classifications de libellé des campagnes](#campaign-classifications)
+
+* [Afficher un graphique des performances dans la vue [!UICONTROL Campaigns]](#campaign-performance-graph)
+
+* [Afficher l&#39;historique du budget de la campagne](#campaign-budget-history)
 
 * [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]](#campaign-reports)
 
@@ -377,6 +379,14 @@ Ouvrez et configurez un graphique de performances avec jusqu’à trois mesures 
 ### Masquage d’un graphique de performances visible
 
 * Au-dessus du tableau de données, cliquez sur ![Graphiques](/help/search-social-commerce/assets/charts.png "Graphiques").
+
+## Afficher l&#39;historique du budget de la campagne {#campaign-budget-history}
+
+L&#39;historique budgétaire répertorie chaque modification apportée au budget de la campagne, y compris la source de la modification.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
+
+1. Placez le curseur sur le nom de la campagne, puis cliquez sur **[!UICONTROL ...]>[!UICONTROL Budget Change History]**.
 
 ## Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns] {#campaign-reports}
 

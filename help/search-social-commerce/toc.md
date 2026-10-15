@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2407'
 ht-degree: 2%
 ---
 # Guide d’Advertising Search, Social et Commerce {#search-social-commerce}
@@ -235,6 +235,7 @@ ht-degree: 2%
       + [Modification d’un objectif](/help/search-social-commerce/new-ui/goals/objectives/objective-edit.md)
       + [Supprimer un objectif](/help/search-social-commerce/new-ui/goals/objectives/objective-delete.md)
       + [Appliquer des recommandations de poids à un objectif](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
+      + [Exporter les configurations d’objectif](/help/search-social-commerce/new-ui/goals/objectives/objective-export.md)
       + [Téléchargement des mesures de performances des objectifs](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
       + [Paramètres des objectifs](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
       + [Activer le chargement des objectifs sur les réseaux publicitaires](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)

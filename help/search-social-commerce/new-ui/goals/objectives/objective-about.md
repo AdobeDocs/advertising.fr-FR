@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 # (Nouvelle interface utilisateur) À propos des objectifs
@@ -82,7 +82,21 @@ Vous pouvez inclure l’un des éléments suivants dans vos objectifs :
 
 ## Option de chargement des objectifs sur les réseaux publicitaires
 
-Vous pouvez éventuellement  [!DNL Google Ads]  charger les objectifs des portefeuilles du compte vers et/ou  [!DNL Microsoft Advertising]  tant que conversions[&#128279;](/help/search-social-commerce/tools/objective-upload-to-networks.md) afin de les utiliser pour une optimisation au niveau de la campagne ou du groupe publicitaire. Lorsque vous activez cette option, Search, Social et Commerce transmettent quotidiennement au réseau publicitaire les données pondérées relatives au chiffre d’affaires au niveau de l’identifiant EF (identifiant de clic). Il omet toutes les mesures suivies par le réseau publicitaire.
+Vous pouvez éventuellement  [!DNL Google Ads]  charger les objectifs des portefeuilles du compte vers et/ou  [!DNL Microsoft Advertising]  tant que conversions[&#128279;](objective-upload-to-networks.md) afin de les utiliser pour une optimisation au niveau de la campagne ou du groupe publicitaire. Lorsque vous activez cette option, Search, Social et Commerce transmettent quotidiennement au réseau publicitaire les données pondérées relatives au chiffre d’affaires au niveau de l’identifiant EF (identifiant de clic). Il omet toutes les mesures suivies par le réseau publicitaire.
+
+## Actions disponibles
+
+* [Création d’un objectif](objective-create.md)
+
+* [Modification d’un objectif](objective-edit.md)
+
+* [Appliquer des recommandations de poids à un objectif](objective-apply-weight-recommendations.md)
+
+* [Exporter une configuration d’objectif vers une feuille  [!DNL Microsoft Excel]  calcul](objective-export.md)
+
+* [Télécharger les données de performances pour les objectifs](objective-download-performance-data.md)
+
+* [Supprimer un objectif](objective-delete.md)
 
 >[!MORELIKETHIS]
 >
@@ -91,4 +105,5 @@ Vous pouvez éventuellement  [!DNL Google Ads]  charger les objectifs des portef
 >* [Supprimer un objectif](objective-delete.md)
 >* [Appliquer des recommandations de poids à un objectif](objective-apply-weight-recommendations.md)
 >* [Paramètres des objectifs](objective-settings.md)
+>* [Exporter une configuration d’objectif](objective-export.md)
 >* [Télécharger des données de performances pour les objectifs](objective-download-performance-data.md)
