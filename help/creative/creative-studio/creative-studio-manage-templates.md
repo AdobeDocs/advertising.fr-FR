@@ -3,20 +3,19 @@ title: Gestion des modèles d’annonces publicitaires dans Creative Studio
 description: Découvrez comment créer, importer, organiser et gérer des modèles d’annonce publicitaire dans l’onglet Modèles de Creative Studio dans Adobe Advertising Creative.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 2512
+source-wordcount: '2510'
 ht-degree: 2%
-
 ---
-
 # Gestion des modèles d’annonce publicitaire dans [!UICONTROL Creative Studio]
-
-*Fonction*
 
 Créez, importez et gérez des modèles d’annonces vidéo et d’affichage à utiliser dans les sessions de génération d’annonces.
 
@@ -24,7 +23,7 @@ Créez, importez et gérez des modèles d’annonces vidéo et d’affichage à 
 
 L’onglet **[!UICONTROL Templates]** propose des actions rapides pour créer ou importer de nouveaux modèles d’annonces.
 
-L’onglet répertorie également vos modèles d’annonce publicitaire existants au bas de la page <!-- Only in the Templates tab -->en tant que [&#x200B; cartes individuelles (valeur par défaut) ou tableaux/listes](/help/creative/introduction/customize-data-views.md). La liste des modèles de publicité comprend des onglets pour [!UICONTROL All], [!UICONTROL System Templates] (qui sont chargés sur votre compte par l’équipe chargée de votre compte Adobe) et [!UICONTROL User Templates]. Par défaut, les modèles d’annonces pour tous vos annonceurs s’affichent. Pour afficher uniquement les modèles d’annonce pour un annonceur spécifique, sélectionnez dans la liste des annonceurs en haut de la page.
+L’onglet répertorie également vos modèles d’annonce publicitaire existants au bas de la page <!-- Only in the Templates tab -->en tant que [ cartes individuelles (valeur par défaut) ou tableaux/listes](/help/creative/introduction/customize-data-views.md). La liste des modèles de publicité comprend des onglets pour [!UICONTROL All], [!UICONTROL System Templates] (qui sont chargés sur votre compte par l’équipe chargée de votre compte Adobe) et [!UICONTROL User Templates]. Par défaut, les modèles d’annonces pour tous vos annonceurs s’affichent. Pour afficher uniquement les modèles d’annonce pour un annonceur spécifique, sélectionnez dans la liste des annonceurs en haut de la page.
 
 <!-- 
 Probably not necessary:
@@ -40,9 +39,9 @@ Probably not necessary:
 
 Création :
 
-* [Importer des modèles d’annonces HTML5](#templates-import)
-
 * [Création manuelle d’un modèle d’annonce](#template-create)
+
+* [Importer des modèles d’annonces HTML5](#templates-import)
 
 Actions sur vos modèles existants :
 
@@ -97,6 +96,34 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 -->
 
+## Création manuelle d’un modèle d’annonce {#template-create}
+
+Créez un modèle d’affichage ou de vidéo vierge à l’aide de l’éditeur de modèles.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio].**
+
+1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
+
+1. Dans la zone de **[!UICONTROL Create New Ad Template]**, cliquez sur **[!UICONTROL Create]**, puis sélectionnez **[!UICONTROL Display Ad Template]** ou **[!UICONTROL Video Ad Template]**.
+
+1. (Afficher les publicités) Sélectionnez la taille du modèle de publicité, puis cliquez sur **[!UICONTROL Continue]**.
+
+1. Configurez les paramètres du modèle à l’aide des commandes [dans l’éditeur de modèles](#template-controls).
+
+1. (Facultatif) Pour télécharger une copie du modèle tel que défini, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Download]**.
+
+   Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
+
+1. Enregistrez le modèle :
+
+   1. Effectuez l’une des opérations suivantes :
+
+      * Cliquez sur **[!UICONTROL Save]**.
+
+      * Pour enregistrer le modèle en tant que brouillon, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**.
+
+   1. Saisissez la **[!UICONTROL Template name]**, sélectionnez le **[!UICONTROL Advertiser]**, sélectionnez éventuellement les balises existantes ou ajoutez de nouvelles balises au modèle, puis cliquez sur **[!UICONTROL Save]**.
+
 ## Importer des modèles d’annonces HTML5 {#templates-import}
 
 Chargez un ou plusieurs modèles HTML5 préconfigurés sous forme de fichiers ZIP. Les modèles sont validés lors de l’importation. L’importation échoue si l’HTML dépasse 200 000 caractères, le CSS dépasse 60 000 caractères, le modèle contient plus de 5 000 éléments DOM ou le modèle inclut des balises de script non prises en charge.
@@ -128,34 +155,6 @@ Chargez un ou plusieurs modèles HTML5 préconfigurés sous forme de fichiers ZI
 >[!NOTE]
 >
 >Si l’importation échoue, simplifiez le modèle ou contactez l’équipe chargée de votre compte Adobe.
-
-## Création manuelle d’un modèle d’annonce {#template-create}
-
-Créez un modèle d’affichage ou de vidéo vierge à l’aide de l’éditeur de modèles.
-
-1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio].**
-
-1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
-
-1. Dans la zone de **[!UICONTROL Create New Ad Template]**, cliquez sur **[!UICONTROL Create]**, puis sélectionnez **[!UICONTROL Display Ad Template]** ou **[!UICONTROL Video Ad Template]**.
-
-1. (Afficher les publicités) Sélectionnez la taille du modèle de publicité, puis cliquez sur **[!UICONTROL Continue]**.
-
-1. Configurez les paramètres du modèle à l’aide des commandes [dans l’éditeur de modèles](#template-controls).
-
-1. (Facultatif) Pour télécharger une copie du modèle tel que défini, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Download]**.
-
-   Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
-
-1. Enregistrez le modèle :
-
-   1. Effectuez l’une des opérations suivantes :
-
-      * Cliquez sur **[!UICONTROL Save]**.
-
-      * Pour enregistrer le modèle en tant que brouillon, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**.
-
-   1. Saisissez la **[!UICONTROL Template name]**, sélectionnez le **[!UICONTROL Advertiser]**, sélectionnez éventuellement les balises existantes ou ajoutez de nouvelles balises au modèle, puis cliquez sur **[!UICONTROL Save]**.
 
 ## Modification d’un modèle de publicité {#template-edit}
 
@@ -434,7 +433,7 @@ These are all saved with the template, but they aren't what you see, as-is, in t
 
    La [!UICONTROL Ad Variations Generator] s’ouvre avec le modèle préchargé.
 
-1. Utilisez l’interface de chat de l’IA pour générer et affiner le contenu publicitaire. Voir « [&#x200B; Gérer les publicités standard dans Creative Studio &#x200B;](creative-studio-manage-standard-ads.md) » pour le workflow complet.
+1. Utilisez l’interface de chat de l’IA pour générer et affiner le contenu publicitaire. Voir « [ Gérer les publicités standard dans Creative Studio ](creative-studio-manage-standard-ads.md) » pour le workflow complet.
 
 ## Ajout ou suppression de libellés pour un modèle d’annonce publicitaire {#template-labels}
 

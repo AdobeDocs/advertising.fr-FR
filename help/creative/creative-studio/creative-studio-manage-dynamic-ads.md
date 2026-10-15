@@ -3,20 +3,19 @@ title: Gestion des contenus créatifs dynamiques dans Creative Studio
 description: Découvrez comment créer, modifier, dupliquer et supprimer des contenus publicitaires dynamiques pilotés par catalogue dans Adobe Advertising Creative Studio.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 1044
+source-wordcount: '1042'
 ht-degree: 0%
-
 ---
-
 # Gestion des contenus publicitaires dynamiques dans [!UICONTROL Creative Studio]
-
-*Fonction*
 
 L’onglet **[!UICONTROL Creatives]** dans [!UICONTROL Creative Studio] répertorie vos contenus publicitaires dynamiques par bibliothèque. À partir de là, vous pouvez créer des contenus publicitaires dynamiques pilotés par catalogue, modifier les détails et le mappage des attributs des contenus publicitaires existants, afficher les journaux des modifications, dupliquer des contenus publicitaires et supprimer des contenus publicitaires.
 
@@ -96,26 +95,26 @@ Mappez chaque champ du catalogue à l’élément correspondant de votre modèle
 
       * Pour modifier une combinaison d’annonces :
 
-         1. Placez le curseur sur la ligne du catalogue et cliquez sur **[!UICONTROL Edit]**.
+        1. Placez le curseur sur la ligne du catalogue et cliquez sur **[!UICONTROL Edit]**.
 
-         1. Dans la boîte de dialogue **[!UICONTROL Edit Row]**, mettez à jour les valeurs de champ.
+        1. Dans la boîte de dialogue **[!UICONTROL Edit Row]**, mettez à jour les valeurs de champ.
 
-         1. Cliquez sur **[!UICONTROL Save]**.
+        1. Cliquez sur **[!UICONTROL Save]**.
 
         La zone de travail s’actualise pour refléter les valeurs mises à jour.
 
       * Utilisez le panneau de conversation **[!UICONTROL AI Assistant]** pour analyser et filtrer les combinaisons de catalogues. Saisissez votre demande dans le champ **[!UICONTROL Ask anything]** ou cliquez sur l’une des invites suggérées :
 
-         * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
-         * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
-         * **[!UICONTROL Show me all ads for millennial women in urban markets]**
+        * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
+        * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
+        * **[!UICONTROL Show me all ads for millennial women in urban markets]**
 
         L’agent AI peut :
 
-         * Filtrez la zone de travail pour afficher les annonces correspondant à un segment d’audience, une zone géographique, une langue, une catégorie ou un autre champ de catalogue spécifique.
-         * Vérifiez les problèmes de qualité tels que les dépassements de limite de caractères, le débordement ou le fond perdu du contenu, les liens d’image rompus et la visibilité de clause de non-responsabilité.
-         * Comparez les combinaisons d’annonces pour l’analyse des tests A/B.
-         * Organisez les annonces en groupes pour une révision côte à côte.
+        * Filtrez la zone de travail pour afficher les annonces correspondant à un segment d’audience, une zone géographique, une langue, une catégorie ou un autre champ de catalogue spécifique.
+        * Vérifiez les problèmes de qualité tels que les dépassements de limite de caractères, le débordement ou le fond perdu du contenu, les liens d’image rompus et la visibilité de clause de non-responsabilité.
+        * Comparez les combinaisons d’annonces pour l’analyse des tests A/B.
+        * Organisez les annonces en groupes pour une révision côte à côte.
 
         L’agent d’IA ne peut pas modifier le contenu provenant du catalogue. Pour modifier le contenu de l’annonce publicitaire, mettez à jour le catalogue source.
 
@@ -139,8 +138,8 @@ Mappez chaque champ du catalogue à l’élément correspondant de votre modèle
    * **[!UICONTROL Dynamic creative name]:** nom d’affichage du contenu créatif.
    * **[!UICONTROL Number of cards]:** nombre d’offres de catalogue incluses dans chaque combinaison d’annonces (1-50).
    * (Facultatif) Sous **[!UICONTROL Catalogs]**, mettez à jour la sélection de catalogue :
-      * Utilisez **[!UICONTROL Catalog template]** pour filtrer les catalogues disponibles. Pour télécharger éventuellement le fichier de modèle, cliquez sur **[!UICONTROL Download feed template]**.
-      * Recherchez et sélectionnez des catalogues dans la liste, ou chargez un nouveau fichier catalogue en le faisant glisser vers la zone de chargement ou en cliquant sur **[!UICONTROL Browse Files]** (formats pris en charge : JPG, PNG, JPEG, XLS, XLSX, CSV, TSV, ZIP, MP4 ; 25 Mo maximum ; un fichier à la fois). Les catalogues chargés sont étiquetés **(chargés)** dans la liste des puces.
+     * Utilisez **[!UICONTROL Catalog template]** pour filtrer les catalogues disponibles. Pour télécharger éventuellement le fichier de modèle, cliquez sur **[!UICONTROL Download feed template]**.
+     * Recherchez et sélectionnez des catalogues dans la liste, ou chargez un nouveau fichier catalogue en le faisant glisser vers la zone de chargement ou en cliquant sur **[!UICONTROL Browse Files]** (formats pris en charge : JPG, PNG, JPEG, XLS, XLSX, CSV, TSV, ZIP, MP4 ; 25 Mo maximum ; un fichier à la fois). Les catalogues chargés sont étiquetés **(chargés)** dans la liste des puces.
 
      Tous les catalogues doivent appartenir à la même famille de modèles de catalogue.
 
@@ -157,7 +156,7 @@ Mappez chaque champ du catalogue à l’élément correspondant de votre modèle
 
 1. Dans l’onglet **[!UICONTROL Creatives]** , placez le curseur sur la carte de contenu créatif et cliquez sur **[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**.
 
-   L’écran d’assurance qualité s’ouvre. Consultez « [Étape 5 : prévisualisation et assurance qualité avec l’IA &#x200B;](#qa) » pour connaître les commandes de la zone de travail disponibles et les fonctionnalités de l’assistant d’IA.
+   L’écran d’assurance qualité s’ouvre. Consultez « [Étape 5 : prévisualisation et assurance qualité avec l’IA ](#qa) » pour connaître les commandes de la zone de travail disponibles et les fonctionnalités de l’assistant d’IA.
 
 ## Affichage du journal des modifications d’un élément créatif dynamique {#view-change-log}
 

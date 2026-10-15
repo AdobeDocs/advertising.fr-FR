@@ -4,20 +4,19 @@ description: Découvrez comment créer, modifier, dupliquer, télécharger et su
 exl-id: 01d3cdec-80d0-494c-94dd-d9d0ae8ca53c
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 1184
+source-wordcount: '1182'
 ht-degree: 0%
-
 ---
-
 # Gestion des publicités standard dans [!UICONTROL Creative Studio]
-
-*Fonction*
 
 L’onglet **[!UICONTROL Creatives]** de [!UICONTROL Creative Studio] est votre bibliothèque d’annonces publicitaires standard générées à partir de modèles. À partir de là, vous pouvez créer des annonces à l’aide de l’[!UICONTROL Ad Variations Generator], modifier des annonces enregistrées, générer de nouvelles variantes d’une annonce existante, afficher le journal des modifications, dupliquer, télécharger et supprimer.
 
@@ -79,7 +78,7 @@ Au moins un modèle d’annonce publicitaire doit exister dans votre bibliothèq
 
       >[!NOTE]
       >
-      >L’assistant d’IA peut générer et modifier du texte (titres, sous-titres, CTA, copie du corps), échanger des images d’arrière-plan, appliquer des couleurs de marque, changer de version de logo et créer de nouveaux modèles de taille. Il ne peut pas modifier la structure du modèle : position des éléments, disposition, espacement, marge intérieure, famille de polices, taille de police ou bordures. Effectuez des modifications structurelles dans l’éditeur de modèles avant de démarrer la session. Voir [&#x200B; Modification d’un modèle &#x200B;](creative-studio-manage-templates.md#edit-template).
+      >L’assistant d’IA peut générer et modifier du texte (titres, sous-titres, CTA, copie du corps), échanger des images d’arrière-plan, appliquer des couleurs de marque, changer de version de logo et créer de nouveaux modèles de taille. Il ne peut pas modifier la structure du modèle : position des éléments, disposition, espacement, marge intérieure, famille de polices, taille de police ou bordures. Effectuez des modifications structurelles dans l’éditeur de modèles avant de démarrer la session. Voir [ Modification d’un modèle ](creative-studio-manage-templates.md#edit-template).
 
    1. (Facultatif) Pour inclure une référence visuelle dans une requête, cliquez sur le bouton **[!UICONTROL +]** dans la zone de saisie de conversation. Dans la boîte de dialogue **[!UICONTROL Select from Asset Library]** :
 
