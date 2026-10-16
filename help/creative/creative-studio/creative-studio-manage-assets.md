@@ -3,20 +3,19 @@ title: Gestion des ressources dans Creative Studio
 description: Découvrez comment charger, parcourir et gérer des ressources dans l’onglet Assets de Creative Studio dans Adobe Advertising Creative.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '294'
 ht-degree: 0%
-
 ---
-
 # Gestion des ressources dans [!UICONTROL Creative Studio]
-
-*Fonction*
 
 Chargez des images, des vidéos, des fichiers audio et des polices pour les référencer dans les modèles publicitaires et les joindre aux messages de conversation de l’agent IA pendant les sessions de génération publicitaire.
 
