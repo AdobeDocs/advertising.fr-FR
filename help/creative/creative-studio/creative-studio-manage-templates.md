@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8fa8d6c66228d3a0af1de2514dd016d8f50262e8
+source-git-commit: fcd97d29c5009d22100283970892d258043b2d90
 workflow-type: tm+mt
-source-wordcount: '3702'
+source-wordcount: '3697'
 ht-degree: 1%
 ---
 # Gestion des modèles d’annonce publicitaire dans [!UICONTROL Creative Studio]
@@ -23,7 +23,7 @@ Créez, importez et gérez des modèles d’annonces vidéo et d’affichage à 
 
 L’onglet **[!UICONTROL Templates]** propose des actions rapides pour créer ou importer de nouveaux modèles d’annonces.
 
-L’onglet [!UICONTROL Templates] répertorie également vos modèles d’annonces existants au bas de la page <!-- Only in the Templates tab -->en tant que [&#x200B; cartes individuelles (valeur par défaut) ou tableaux/listes](/help/creative/introduction/customize-data-views.md). La liste des modèles de publicité comprend des onglets pour [!UICONTROL All], [!UICONTROL System Templates] (que l’équipe chargée de votre compte Adobe charge sur votre compte) et [!UICONTROL User Templates]. Par défaut, les modèles d’annonces pour tous vos annonceurs s’affichent. Pour afficher uniquement les modèles d’annonce pour un annonceur spécifique, sélectionnez dans la liste des annonceurs en haut de la page.
+L’onglet [!UICONTROL Templates] répertorie également vos modèles d’annonces existants au bas de la page <!-- Only in the Templates tab -->en tant que [ cartes individuelles (valeur par défaut) ou tableaux/listes](/help/creative/introduction/customize-data-views.md). La liste des modèles de publicité comprend des onglets pour [!UICONTROL All], [!UICONTROL System Templates] (que l’équipe chargée de votre compte Adobe charge sur votre compte) et [!UICONTROL User Templates]. Par défaut, les modèles d’annonces pour tous vos annonceurs s’affichent. Pour afficher uniquement les modèles d’annonce pour un annonceur spécifique, sélectionnez dans la liste des annonceurs en haut de la page.
 
 <!--
 Probably not necessary:
@@ -202,7 +202,7 @@ Switch to this when prompt-based generation becomes available:
 
 Vous pouvez ensuite utiliser le modèle pour [générer des variations d’annonce publicitaire](#ad-variations-generate).
 
-### Si vous ne pouvez pas générer de modèle {#troubleshooting}
+### Dépannage {#troubleshooting}
 
 | Problème | Que faire |
 | --- | --- |
@@ -323,7 +323,7 @@ I don't see this anywhere:
 
    La [!UICONTROL Ad Variations Generator] s’ouvre avec le modèle préchargé.
 
-1. Utilisez l’interface de chat de l’IA pour générer et affiner le contenu publicitaire. Voir « [&#x200B; Gérer les publicités standard dans Creative Studio &#x200B;](creative-studio-manage-standard-ads.md) » pour le workflow complet.
+1. Utilisez l’interface de chat de l’IA pour générer et affiner le contenu publicitaire. Voir « [ Gérer les publicités standard dans Creative Studio ](creative-studio-manage-standard-ads.md) » pour le workflow complet.
 
 ## Ajout ou suppression de libellés pour un modèle d’annonce publicitaire {#template-labels}
 
