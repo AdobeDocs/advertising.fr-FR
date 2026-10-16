@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8fa8d6c66228d3a0af1de2514dd016d8f50262e8
+source-git-commit: fcd97d29c5009d22100283970892d258043b2d90
 workflow-type: tm+mt
-source-wordcount: '3702'
+source-wordcount: '3697'
 ht-degree: 1%
 ---
 # Gestion des modèles d’annonce publicitaire dans [!UICONTROL Creative Studio]
@@ -202,7 +202,7 @@ Switch to this when prompt-based generation becomes available:
 
 Vous pouvez ensuite utiliser le modèle pour [générer des variations d’annonce publicitaire](#ad-variations-generate).
 
-### Si vous ne pouvez pas générer de modèle {#troubleshooting}
+### Dépannage {#troubleshooting}
 
 | Problème | Que faire |
 | --- | --- |
