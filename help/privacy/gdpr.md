@@ -45,7 +45,7 @@ Adobe CX Enterprise agit en tant que responsable du traitement des données pour
 
 Ce document décrit comment [!DNL Advertising Search, Social, & Commerce], Advertising Creative, Advertising DSP (Demand Side Platform) et [!DNL Advertising DCO] prennent en charge les droits d’accès et de suppression des données des titulaires de données selon le RGPD à l’aide de l’API Adobe Experience Platform Privacy Service et de l’interface utilisateur de Privacy Service.
 
-Pour plus d’informations sur ce que le RGPD signifie pour votre entreprise, consultez [RGPD et votre entreprise](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+Pour plus d’informations sur ce que le RGPD signifie pour votre entreprise, consultez [RGPD et votre entreprise](https://www.adobe.com/fr/privacy/general-data-protection-regulation.html).
 
 ## Types de requêtes de données pris en charge pour Adobe Advertising
 
@@ -71,7 +71,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour Adobe Ad
 
    >[!NOTE]
    >
-   >La suppression des données personnelles est différente de l’opt-out, qui arrête le ciblage d’un utilisateur final avec des segments d’audience. Cependant, lorsqu’un titulaire de données demande à supprimer des données personnelles de [!DNL Creative], [!DNL DSP] ou [!DNL DCO], la bibliothèque envoie également une demande à Adobe Advertising pour exclure le titulaire de données du ciblage de segment. Pour les annonceurs avec [!DNL Search, Social, & Commerce], nous vous recommandons de fournir aux titulaires de données un lien vers [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html), qui explique comment se désabonner du ciblage des segments d’audience.
+   >La suppression des données personnelles est différente de l’opt-out, qui arrête le ciblage d’un utilisateur final avec des segments d’audience. Cependant, lorsqu’un titulaire de données demande à supprimer des données personnelles de [!DNL Creative], [!DNL DSP] ou [!DNL DCO], la bibliothèque envoie également une demande à Adobe Advertising pour exclure le titulaire de données du ciblage de segment. Pour les annonceurs avec [!DNL Search, Social, & Commerce], nous vous recommandons de fournir aux titulaires de données un lien vers [https://www.adobe.com/fr/privacy/opt-out.html](https://www.adobe.com/fr/privacy/opt-out.html), qui explique comment se désabonner du ciblage des segments d’audience.
 
 1. Identifiez votre ID d’organisation CX Enterprise et assurez-vous qu’il est lié à vos comptes Adobe Advertising.
 
