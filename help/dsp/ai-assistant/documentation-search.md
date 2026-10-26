@@ -14,18 +14,18 @@ feature_v2:
 subfeature_v2:
   - id: ba946348-465d-45f3-8d28-c42d0a2599c5
     internal-label: Creative introduction
-source-git-commit: 8bab50fe8bf737d208d059d89b2592e16bc40c69
+source-git-commit: c6ab712d47cafc8e9590a212253949a053b7c476
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '470'
 ht-degree: 0%
 ---
 # Rechercher de la documentation sur les produits à l’aide de l’assistant AI
 
 *Prise en charge en anglais uniquement*
 
-Utilisez l’assistant AI pour DSP pour rechercher du contenu conceptuel et pratique dans le [Guide d’Advertising DSP](/help/dsp/home.md) et (les annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md) à l’aide d’une interface de conversation. Les réponses reposent uniquement sur ce qui est documenté pour ces produits dans [&#128279;](https://experienceleague.adobe.com/fr/docs/advertising).
+Utilisez l’assistant AI pour DSP pour rechercher du contenu conceptuel et pratique dans le [Guide d’Advertising DSP](/help/dsp/home.md) et (les annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md) à l’aide d’une interface de conversation. Les réponses reposent uniquement sur ce qui est documenté pour ces produits dans [](https://experienceleague.adobe.com/en/docs/advertising).
 
-Les réponses incluent des citations, ainsi que des requêtes et des questions de suivi supplémentaires pour vous aider à affiner votre requête et à trouver plus d’informations.
+Vous pouvez poser des questions sur la gestion des campagnes, l’optimisation, la gestion des audiences, les offres, les rapports et d’autres fonctionnalités de produit. Les réponses incluent des citations, ainsi que des requêtes et des questions de suivi supplémentaires pour vous aider à affiner votre requête et à trouver plus d’informations.
 
 ![Exemple de requête et de réponse](/help/dsp/assets/agent-chat-response.png "Exemple de requête et de réponse")
 
@@ -34,8 +34,6 @@ Les réponses incluent des citations, ainsi que des requêtes et des questions d
 >Les réponses générées par l&#39;IA peuvent être inexactes ou trompeuses. Vérifiez toujours les réponses et les sources avant de les utiliser pour les décisions qui affectent les coûts ou les efforts.
 
 ## Exemples de requêtes
-
-Vous pouvez poser des questions sur la gestion des campagnes, l’optimisation, la gestion des audiences, les offres, les rapports et d’autres fonctionnalités de produit. Voici quelques exemples :
 
 * Comment joindre une annonce publicitaire à un emplacement ?
 
@@ -65,7 +63,7 @@ Vous pouvez poser plusieurs questions dans un seul message, mais un seul message
 
         1. (Facultatif) Modifiez le texte en fonction de vos besoins.
 
-   Pour plus d’informations sur les requêtes, voir « [&#x200B; Bonnes pratiques relatives à l’écriture de requêtes et d’invites &#x200B;](ai-assistant-about.md#writing-queries). »
+   Pour plus d’informations sur les requêtes, voir « [ Bonnes pratiques relatives à l’écriture de requêtes et d’invites ](ai-assistant-about.md#writing-queries). »
 
 1. Cliquez sur ![Envoyer la requête](/help/dsp/assets/submit-prompt.png "Envoyer la requête") ou appuyez sur la touche **Entrée** du clavier.
 
