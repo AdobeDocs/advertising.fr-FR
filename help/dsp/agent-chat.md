@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: ba946348-465d-45f3-8d28-c42d0a2599c5
     internal-label: Creative introduction
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a461e1f9377bdb5db07dcb38cd5a1cf8fea510aa
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '472'
 ht-degree: 0%
 ---
 # Rechercher de la documentation sur les produits à l’aide d’une interface de chat assistée par IA
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Utilisez l’interface de conversation de l’IA pour rechercher du contenu conceptuel et pratique dans le [Guide d’](/help/dsp/home.md) et (les annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md). Les réponses reposent uniquement sur ce qui est documenté pour ces produits dans [&#128279;](https://experienceleague.adobe.com/fr/docs/advertising).
+Utilisez l’interface de conversation de l’IA pour rechercher du contenu conceptuel et pratique dans le [Guide d’](/help/dsp/home.md) et (les annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md). Les réponses reposent uniquement sur ce qui est documenté pour ces produits dans [](https://experienceleague.adobe.com/en/docs/advertising).
 
 Les réponses comprennent des citations ainsi que des invites supplémentaires et des questions de suivi pour vous aider à affiner votre requête et à trouver plus d’informations. Votre historique de conversation est conservé tout au long d’une session et vos requêtes ne sont pas partagées avec d’autres utilisateurs.
 
@@ -63,7 +63,7 @@ Vous pouvez poser plusieurs questions dans un seul message, mais un seul message
 
 1. Dans le coin supérieur droit d&#39;une page, cliquez sur ![Chat](/help/dsp/assets/agent-chat.png "Agentic chat").
 
-1. Saisissez votre requête et cliquez sur ![Invite Envoyer](/help/dsp/assets/submit-prompt.png "Invite Envoyer").
+1. Saisissez votre requête, puis cliquez sur ![Invite d’envoi](/help/dsp/assets/submit-prompt.png "Invite d’envoi") ou appuyez sur la touche **Entrée** du clavier.
 
    Pour plus d’informations, voir « [Écriture d’invites](#writing-prompts) ».
 
@@ -75,15 +75,19 @@ Vous pouvez poser plusieurs questions dans un seul message, mais un seul message
 
    * Cliquez sur **[!UICONTROL Documentation Sources]** pour afficher la liste de toutes les pages citées dans la réponse, puis cliquez sur le lien de la page.
 
-## Fournir un retour d’informations sur une réponse
+<!-- 
 
-<!-- Not actionable in terms of improving page content -->
+Not there as of 10/22/26. Anyway, this feature isn't actionable in terms of improving page content.
 
-* En regard de la liste [!UICONTROL Documentation Sources] :
+## Provide feedback about a response
 
-  * Pour obtenir des réponses utiles, cliquez sur ![pouces vers le haut](/help/dsp/assets/thumbs-up.png "pouces vers le haut").
+* Next to the [!UICONTROL Documentation Sources] list:
 
-  * Pour obtenir des réponses inutiles, cliquez sur ![Thumbs down](/help/dsp/assets/thumbs-down.png "Thumbs down").
+  * For helpful responses, click ![Thumbs up](/help/dsp/assets/thumbs-up.png "Thumbs up").
+
+  * For unhelpful responses, click ![Thumbs down](/help/dsp/assets/thumbs-down.png "Thumbs down").
+
+ -->
 
 ## Principes de base de l’écriture d’invites {#writing-prompts}
 

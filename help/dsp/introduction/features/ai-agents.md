@@ -17,15 +17,23 @@ subfeature_v2:
     internal-label: AI features
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
     internal-label: Audiences
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '117'
 ht-degree: 0%
 ---
 # Fonctionnalités assistées par l’IA dans Adobe Advertising DSP
 
 DSP fournit des agents assistés par l’IA qui utilisent des invites en langage naturel pour vous aider à effectuer plusieurs tâches :
 
-* [Recherchez du contenu conceptuel et pratique](/help/dsp/agent-chat.md) dans le [Guide d’Advertising DSP](/help/dsp/home.md) et (les annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md) à l’aide d’une interface de conversation assistée par l’IA.
+* [Recherche de contenu conceptuel et pratique](/help/dsp/agent-chat.md)
 
-* [Utilisez l’agent d’audience généré avec l’aide de l’IA pour générer de nouvelles audiences réutilisables](/help/dsp/audiences/reusable-audience-create.md) que vous pouvez utiliser comme cibles ou exclusions pour vos emplacements.
+* Assistant d’IA unifiée :
+
+  * [Créez des rapports pour vos campagnes, composants de campagne, expériences Advertising Creative, annonceurs et cibles publicitaires](/help/dsp/ai-assistant/insights-agent.md).
+
+  * [Résolution des problèmes de performances et de diffusion pour vos packages et emplacements](/help/dsp/ai-assistant/troubleshooting-agent.md).
+
+  * [Recherchez la documentation du produit](/help/dsp/ai-assistant/documentation-search.md) dans le [Guide d’Advertising DSP](/help/dsp/home.md) et (annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md).
+
+* [Utilisez l’agent d’audience généré avec l’aide de l’IA dans [!UICONTROL Audiences] > [!UICONTROL All Audiences] pour générer de nouvelles audiences réutilisables](/help/dsp/audiences/reusable-audience-create.md) que vous pouvez utiliser comme cibles ou exclusions pour vos emplacements.
