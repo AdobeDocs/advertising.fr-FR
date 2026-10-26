@@ -23,7 +23,7 @@ ht-degree: 0%
 
 *Prise en charge en anglais uniquement*
 
-Utilisez l’assistant AI pour DSP pour rechercher du contenu conceptuel et pratique dans le [Guide d’Advertising DSP](/help/dsp/home.md) et (les annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md) à l’aide d’une interface de conversation. Les réponses reposent uniquement sur ce qui est documenté pour ces produits dans [](https://experienceleague.adobe.com/en/docs/advertising).
+Utilisez l’assistant AI pour DSP pour rechercher du contenu conceptuel et pratique dans le [Guide d’Advertising DSP](/help/dsp/home.md) et (les annonceurs avec Advertising Creative) le [Guide d’Advertising Creative](/help/creative/home.md) à l’aide d’une interface de conversation. Les réponses reposent uniquement sur ce qui est documenté pour ces produits dans [&#128279;](https://experienceleague.adobe.com/en/docs/advertising).
 
 Vous pouvez poser des questions sur la gestion des campagnes, l’optimisation, la gestion des audiences, les offres, les rapports et d’autres fonctionnalités de produit. Les réponses incluent des citations, ainsi que des requêtes et des questions de suivi supplémentaires pour vous aider à affiner votre requête et à trouver plus d’informations.
 
@@ -63,7 +63,7 @@ Vous pouvez poser plusieurs questions dans un seul message, mais un seul message
 
         1. (Facultatif) Modifiez le texte en fonction de vos besoins.
 
-   Pour plus d’informations sur les requêtes, voir « [ Bonnes pratiques relatives à l’écriture de requêtes et d’invites ](ai-assistant-about.md#writing-queries). »
+   Pour plus d’informations sur les requêtes, voir « [&#x200B; Bonnes pratiques relatives à l’écriture de requêtes et d’invites &#x200B;](ai-assistant-about.md#writing-queries). »
 
 1. Cliquez sur ![Envoyer la requête](/help/dsp/assets/submit-prompt.png "Envoyer la requête") ou appuyez sur la touche **Entrée** du clavier.
 
