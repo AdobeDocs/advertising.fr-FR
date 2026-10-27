@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3d982df6837633d7e21b7acb85e8d7fd2c3e1655
 workflow-type: tm+mt
-source-wordcount: '3058'
+source-wordcount: '3216'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] des paramètres de la campagne
@@ -239,13 +239,21 @@ par pays. Si vous ne sélectionnez aucune option, elles sont toutes ciblées.
 
 * **[!UICONTROL Final URL expansion]:** permet-il aux [!DNL Google Ads] d’acheminer le trafic vers la page de destination la plus pertinente de votre site web en fonction de leur intention de recherche ? Ce paramètre est disponible uniquement lorsque **[!UICONTROL Text customization]** est activé.
 
-<!-- Clarify why this is "Unspecified" and read-only for me as of 7/23. Also, shouldn't we reword this? -->
+  >[!NOTE]
+  >
+  >(Annonces de recherche réactives avec des ressources épinglées) Lorsque ce paramètre est activé, [!DNL Google Ads] n’utilise pas de ressources épinglées lorsque l’URL finale dirige vers une page de destination sur laquelle la copie épinglée ne correspond pas à l’intention de l’utilisateur. Pour toujours utiliser les ressources épinglées, désactivez [!UICONTROL Final URL expansion] et ne spécifiez pas de [!UICONTROL URL inclusions] au niveau du groupe publicitaire.
 
 **[!UICONTROL Bundling required]:** (campagnes existantes avec la fonction [!UICONTROL AI Max] activée uniquement ; lecture seule) Si [!UICONTROL AI Max] devez être activé pour respecter ou modifier la personnalisation du texte et les contrôles de liste de marque pour la campagne : *[!UICONTROL Required]*, *[!UICONTROL Not required]* ou *[!UICONTROL Unspecified]*.
 
 <!-- Is this based on the advanced location options set elsewhere in Google Ads editor? -->
 
 **[!UICONTROL Geo Targeting Type]:** (Campagnes existantes avec la fonction [!UICONTROL AI Max] activée uniquement ; lecture seule) Lorsque l’un des groupes publicitaires de la campagne inclut des cibles [!UICONTROL Locations of Interest], les types d’intérêts des utilisateurs et utilisatrices ciblés sont indiqués : *[!UICONTROL Search Interest]* (utilisateurs et utilisatrices intéressés par un emplacement spécifié), *[!UICONTROL Presence]* (utilisateurs et utilisatrices dans un emplacement spécifié ou régulièrement dans un emplacement spécifié) ou *[!UICONTROL Presence or Interest]* (utilisateurs et utilisatrices dans un emplacement spécifié, régulièrement dans un emplacement spécifié ou intéressés par un emplacement spécifié).
+
+**[!UICONTROL URL exclusions]:** (campagnes pour lesquelles [!DNL AI Max], [!UICONTROL Text customization] et [!UICONTROL Final URL expansion] sont activés) URL à exclure en tant que pages de destination générées à partir de l’extension d’URL finale. Vous pouvez éventuellement ajouter une URL *inclusions* (et non des exclusions) au niveau du groupe publicitaire. Pour ajouter une URL, saisissez une URL ou un fragment d’URL dans le champ de saisie, puis cliquez sur **+**.
+
+**[!UICONTROL Brand inclusions]:** (campagnes pour lesquelles [!DNL AI Max] est activé) Listes des marques pour le compte pour lequel les requêtes liées à la marque peuvent correspondre. Cochez la case en regard de chaque liste de marques à inclure. Vous pouvez remplacer ce paramètre au niveau du groupe publicitaire.
+
+**[!UICONTROL Brand exclusions]:** (campagnes pour lesquelles [!DNL AI Max] est activé) Listes des marques pour le compte pour lequel les requêtes liées à la marque peuvent ne pas correspondre. Cochez la case en regard de chaque liste de marques à exclure.
 
 ## onglet [!UICONTROL Additional Campaign Information]
 
@@ -417,7 +425,7 @@ Vous pouvez saisir du texte ou sélectionner des ressources à partir de votre [
 
 **[!UICONTROL Primary Status]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes Performance Max) Pourquoi le groupe de ressources est-il diffusé ou non à pleine capacité ? Il prend en compte le statut du groupe de ressources ainsi que d’autres signaux, tels que les approbations de politique et de qualité. Les valeurs peuvent inclure *ÉLIGIBLE,* *LIMITÉ,* *NOT_ELIGIBLE,* *EN PAUSE,* *EN ATTENTE,* SUPPRIMÉ,*UNKNOWN,* ou *UNSPECIFIED.* **<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
-**[!UICONTROL Primary Status Reason]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes Performance Max) Informations supplémentaires sur le statut principal du groupe de ressources. Les valeurs peuvent inclure *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* CAMPAIGN_ENDED,*CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,*ou* UNSPECIFIED.**&#x200B; ** **
+**[!UICONTROL Primary Status Reason]:** (champ en lecture seule pour les groupes de ressources existants dans les campagnes Performance Max) Informations supplémentaires sur le statut principal du groupe de ressources. Les valeurs peuvent inclure *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* CAMPAIGN_ENDED,*CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,*ou* UNSPECIFIED.** ** **
 
 ### [!UICONTROL Conversion Goals]
 
@@ -435,7 +443,7 @@ Pour créer un objectif de conversion personnalisé, cliquez sur **[!UICONTROL +
 
 ### [!UICONTROL Set Customer Acquisition Goal]
 
-Optimisez votre campagne pour les nouveaux clients, les clients existants ou les deux. Pour utiliser ce paramètre, vous devez d’abord activer l’objectif d’acquisition de nouveaux clients pour le compte [!DNL Google Ads] ou, le cas échéant, pour le compte responsable. L’objectif définit les listes de clients existants éligibles et la valeur de conversion supplémentaire pour les nouveaux clients dans les paramètres de conversion. Voir les étapes 1 à 2 dans l’aide [!DNL Google Ads] « [&#x200B; Activer l’objectif d’acquisition de nouveaux clients &#x200B;](https://support.google.com/google-ads/answer/14007601) ».
+Optimisez votre campagne pour les nouveaux clients, les clients existants ou les deux. Pour utiliser ce paramètre, vous devez d’abord activer l’objectif d’acquisition de nouveaux clients pour le compte [!DNL Google Ads] ou, le cas échéant, pour le compte responsable. L’objectif définit les listes de clients existants éligibles et la valeur de conversion supplémentaire pour les nouveaux clients dans les paramètres de conversion. Voir les étapes 1 à 2 dans l’aide [!DNL Google Ads] « [ Activer l’objectif d’acquisition de nouveaux clients ](https://support.google.com/google-ads/answer/14007601) ».
 
 **[!UICONTROL Customer Goal]:** Type d’objectif d’acquisition de client :
 
