@@ -32,7 +32,7 @@ ht-degree: 0%
 
 <!-- Rename file and set up a redirect -->
 
-Consultez également la section « [ Résolution des problèmes de performances et de diffusion à l’aide de l’assistant AI ](/help/dsp/ai-assistant/troubleshooting-agent.md) ».
+Consultez également la section « [&#x200B; Résolution des problèmes de performances et de diffusion à l’aide de l’assistant AI &#x200B;](/help/dsp/ai-assistant/troubleshooting-agent.md) ».
 
 | Problème | Cause possible | Mesures à prendre |
 | --- | --- | --- |
@@ -54,5 +54,5 @@ Consultez également la section « [ Résolution des problèmes de performances 
 >[!MORELIKETHIS]
 >
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
->* [ Paramètres du package ](/help/dsp/campaign-management/packages/package-settings.md)
+>* [&#x200B; Paramètres du package &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Paramètres de Campaign](/help/dsp/campaign-management/campaigns/campaign-settings.md)
