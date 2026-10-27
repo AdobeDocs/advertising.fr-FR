@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 58b07a3c997005bbeb394f4925a894ea5960b9f7
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '712'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] paramètres de groupe publicitaire
@@ -100,6 +100,16 @@ Si la campagne utilise une stratégie d’enchères intelligentes (telle que [!U
 **[!UICONTROL AI Search Term Matching]:** (Campagnes avec [!DNL AI Max] activé uniquement) Utilisation ou non de la correspondance de termes de recherche sans mots-clés pilotée par l’IA pour améliorer la portée et l’optimisation.<!--SUPPOSEDLY, BUT THIS IS OFF FOR ME:  It's enabled by default for campaigns with [!DNL AI Max], but you can disable it at the ad group level. -->
 
 **[!UICONTROL Locations of Interest]:** (Campagnes avec [!DNL AI Max] activé uniquement) Emplacements spécifiques de l’intention géographique à cibler (sans exclure) ; les utilisateurs doivent également répondre au ciblage géographique de la campagne. Par défaut, tous les utilisateurs et utilisatrices de , qui se trouvent régulièrement dans ou qui s’intéressent à toutes les zones géographiques sont ciblés. Pour réduire les cibles, sélectionnez chaque emplacement à cibler.
+
+**[!UICONTROL URL inclusions]:** (campagnes pour lesquelles [!DNL AI Max] et [!UICONTROL Text customization] sont activés) URL à inclure en tant que pages de destination générées à partir de l’extension d’URL finale. Pour ajouter une URL, saisissez une URL ou un fragment d’URL dans le champ de saisie, puis cliquez sur **+**.
+
+>[!NOTE]
+>
+>* Lorsque le paramètre de [!UICONTROL Final URL expansion] au niveau de la campagne est *activé*, [!DNL Google Ads] utilise les URL spécifiées et d’autres URL sélectionnées par Google en tant que pages de destination dynamiques pour le groupe publicitaire.
+>* Lorsque le paramètre de [!UICONTROL Final URL expansion] au niveau de la campagne est *désactivé*, [!DNL Google Ads] utilise uniquement les URL spécifiées comme pages de destination dynamiques pour le groupe publicitaire.
+>* (Annonces de recherche réactives avec des ressources épinglées) Lorsque ce paramètre spécifie les inclusions d’URL, [!DNL Google Ads] n’utilise pas de ressources épinglées lorsque l’URL finale dirige vers une page de destination sur laquelle la copie épinglée ne correspond pas à l’intention de l’utilisateur. Pour toujours utiliser les ressources épinglées, ne spécifiez pas d’inclusions d’URL et désactivez le paramètre de [!UICONTROL Final URL expansion] au niveau de la campagne.
+
+**[!UICONTROL Brand inclusions]:** (campagnes pour lesquelles [!DNL AI Max] est activé) Marques pour le compte pour lequel les requêtes liées à la marque peuvent correspondre. Cochez la case en regard de chaque liste de marques à inclure. Ce paramètre remplace le paramètre au niveau de la campagne.
 
 ## onglet [!UICONTROL URL Options]
 

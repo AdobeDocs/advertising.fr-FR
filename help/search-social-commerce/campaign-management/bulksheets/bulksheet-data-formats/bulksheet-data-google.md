@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: ff1657a7f005eb93c83fdc7fd2e53810d9e03bd8
 workflow-type: tm+mt
-source-wordcount: '8101'
+source-wordcount: '8378'
 ht-degree: 0%
 ---
 # Annexe - Données de feuille d’envoi groupé requises pour les comptes [!DNL Google Ads]
@@ -44,20 +44,6 @@ Pour les champs de données pertinents pour les entités de compte, reportez-vou
 >* Pour les champs qui ne sont pas spécifiés ci-dessous, la valeur par défaut pour le réseau publicitaire est utilisée.
 >* Pour obtenir la liste des lignes de feuilles d’envoi groupé disponibles dans la boîte de dialogue [!UICONTROL Download Bulksheet], reportez-vous à « [Lignes de feuilles d’envoi groupé par réseau publicitaire](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network) ».
 
-
-<!--
-
-Add in when released:
-
-| [!UICONTROL AI Max Enabled] | Whether the [[!UICONTROL AI Max] feature](https://support.google.com/google-ads/answer/15910366) is enabled for the campaign: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
-| [!UICONTROL AI Max Asset Automation] | Whether the "Text Automation" setting for [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
-
-| [!UICONTROL AI Max Search Term Matching] | Whether the "[!UICONTROL AI Max Search Term Matching]" setting for ad groups in [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
--->
-
 | Champ | Description |
 | ---- | ---- |
 | [!UICONTROL Platform] | (Inclus dans les feuilles d’envoi groupé générées à titre d’information) La plateforme publicitaire. Obligatoire sauf si chaque ligne inclut un « [!UICONTROL AMO ID] » pour l’entité. |
@@ -72,6 +58,8 @@ Add in when released:
 | [!UICONTROL GDN Custom Bid Level] | (Campagnes ciblant uniquement le réseau d’affichage) Comment enchérir : par <i>[!UICONTROL Ad Group]</i> (valeur par défaut), <i>[!UICONTROL Keyword]</i>, <i>[!UICONTROL Placement]</i> (site web) ou <i>[!UICONTROL None]</i> (pour réinitialiser la valeur existante). D’autres dimensions (<i>Âge</i>, <i>Sexe</i>, <i>Intérêt et liste</i>, <i>Rubrique</i> et <i>Vertical</i>) sont disponibles dans l’interface [!DNL Google Ads]. Si vous avez utilisé l’interface [!DNL Google Ads] pour configurer les enchères selon une autre dimension, cette valeur s’affiche, mais vous ne pouvez pas sélectionner ni saisir ces dimensions ici.</p><p><b>Remarque :</b></p><ul><li><p>Lorsque vous enchérissez par mot-clé, créez des modèles de suivi au niveau du mot-clé. De même, lorsque vous enchérissez par emplacement, créez des modèles de suivi au niveau de l’emplacement. Pour toutes les autres dimensions, créez des modèles de suivi au niveau des annonces.</p></li><li><p>Lorsque vous enchérissez en fonction d’une dimension non prise en charge (âge, sexe, centre d’intérêt et liste ou rubrique), les options Recherche, Réseau social et Commerce n’optimisent pas les enchères pour la dimension et toutes les attributions sont appliquées au groupe publicitaire.</p></li><li><p>Les publicités sur le réseau de recherche utilisent toujours des offres par mot-clé.</p></li></ul> |
 | [!UICONTROL Campaign Priority] | <p>(Campagnes d’achat uniquement) Priorité d’utilisation de la campagne lorsque plusieurs campagnes font la publicité du même produit : <i>[!UICONTROL Low]</i> (valeur par défaut pour les nouvelles campagnes), <i>[!UICONTROL Medium]</i> ou <i>[!UICONTROL High]</i>.</p><p>Lorsque le même produit est inclus dans plusieurs campagnes, le réseau publicitaire utilise d’abord la priorité de campagne pour déterminer quelle campagne (et l’enchère associée) est éligible à la mise aux enchères publicitaire. Lorsque toutes les campagnes ont la même priorité, la campagne ayant la meilleure enchère est éligible. |
 | [!UICONTROL Has EU Political Ads] | (Applicable aux campagnes qui ciblent un public dans l’Union européenne (UE)) Que la campagne contienne ou non de la publicité politique conformément aux exigences du règlement de l’UE 2024/90 concernant les publicités diffusées dans l’Union européenne : <i>[!UICONTROL Yes]</i> ou <i>[!UICONTROL No]</i>. |
+| [!UICONTROL AI Max Enabled] | Indique si la fonctionnalité [&#128279;](https://support.google.com/google-ads/answer/15910366) est activée pour la campagne : *[!UICONTROL true]*, *[!UICONTROL false]* ou null.[!UICONTROL AI Max] |
+| [!UICONTROL AI Max Asset Automation] | Indique si le paramètre « Automatisation du texte » pour les campagnes activées pour le [!UICONTROL AI Max] est activé : *[!UICONTROL true]*, *[!UICONTROL false]* ou nul. |
 | [!UICONTROL Merchant ID] | (Campagnes d’achat et campagnes d’audience liées à un flux de commerçant uniquement) ID de client du compte de commerçant dont les produits sont utilisés pour la campagne. |
 | [!UICONTROL Sales Country] | (Campagnes d’achat uniquement ; lecture seule pour les campagnes existantes) Pays dans lequel les produits de la campagne sont vendus. Comme les produits sont associés aux pays cibles, ce paramètre détermine les produits qui sont annoncés dans la campagne. |
 | [!UICONTROL Product Scope Filter] | (Campagnes utilisant uniquement le réseau d’achats [!DNL Google Ads]) Les produits de votre compte [!DNL Google Merchant Center] pour lesquels des annonces d’achats peuvent être créées pour la campagne. Vous pouvez saisir jusqu’à sept combinaisons de dimensions de produit et d’attributs pour filtrer vos produits à l’aide du format dimension=attribute. Séparez plusieurs filtres avec un délimiteur « > ». Pour obtenir la liste des dimensions de produit disponibles, voir « [&#x200B; Filtres de produit de campagne d’achat &#x200B;](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md) ».</p><p>Exemple : « CategoryL1=activities>>CategoryL2=pet Supplies>>Brand=Acme Pet Supplies »</p><p>Pour supprimer les valeurs existantes, utilisez la valeur <code>[delete]</code> (y compris les crochets).</p> |
@@ -86,12 +74,20 @@ Add in when released:
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>(Types de campagne hérités uniquement ; applicable lorsque les [!UICONTROL Device Targets] incluent « [!UICONTROL All] » ou « [!UICONTROL Smartphones] ») Opérateurs mobiles auxquels les smartphones peuvent être connectés : <i>[!UICONTROL All]</i>, ou un ou plusieurs opérateurs indiqués par &lt;c<i>code d’opérateur</i>>,&lt;<i>code de pays</i>> (par exemple T-Mobile, US) à l’aide de la liste <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">opérateurs et codes disponibles pour les [!DNL Google Ads]</a>. Séparez plusieurs opérateurs par des points-virgules (tels que T-Mobile, US ; T-Mobile, GB). Pour les nouvelles campagnes, la valeur par défaut est <i>[!UICONTROL All]</i>.</p> |
 | [!UICONTROL Ad Group Name] | <p>Nom unique qui identifie un groupe publicitaire. La longueur maximale est de 255 caractères ; les caractères vides de fin ne sont pas enregistrés (par exemple, « Groupe publicitaire 1 » est enregistré comme « Groupe publicitaire 1 »). Ce champ ne s’applique pas aux liens de site au niveau de la campagne ni aux cibles d’appareil au niveau de la campagne.</p> |
 | [!UICONTROL Ad Group Type] | <p>Le type de groupe publicitaire : <i>[!UICONTROL Demand Gen]</i> (pour les campagnes de génération de la demande uniquement), <i>[!UICONTROL Display]</i> (pour les campagnes d’affichage), <i>[!UICONTROL Search Dynamic]</i> (pour les annonces de recherche dynamique étendue), <i>[!UICONTROL Search Standard]</i> (pour les annonces de recherche), <i>[!UICONTROL Shopping Product]</i> (pour les annonces de produits d’achat), <i>[!UICONTROL Shopping Showcase]</i> (création et modification non prises en charge) ou <i>[!UICONTROL Unknown]</i>.</p> |
+| [!UICONTROL AI Max Search Term Matching] | Indique si le paramètre « [!UICONTROL AI Max Search Term Matching] » pour les groupes publicitaires dans les campagnes [!UICONTROL AI Max] est activé : *[!UICONTROL true]*, *[!UICONTROL false]* ou nul. |
 | [!UICONTROL Max CPC] | <p>(Campagnes CPC uniquement) Coût maximum par clic (CPC), qui est le montant le plus élevé à payer pour un clic publicitaire sur le réseau publicitaire, avec ou sans symboles monétaires et ponctuation. Vous pouvez définir des valeurs pour les groupes publicitaires et les mots-clés, les groupes de produits et les cibles de recherche dynamique. La valeur par défaut d’un nouveau mot-clé est héritée du niveau du groupe publicitaire . Pour les groupes de produits, vous pouvez définir des valeurs pour le niveau de groupe de produits le plus bas ; la valeur par défaut d’un nouveau niveau est héritée du niveau parent.</p><p>Pour les groupes de produits existants et les cibles de recherche dynamiques dans les portfolios optimisés, les mises à jour ne sont efficaces que pendant une journée et sont remplacées lors du cycle d’optimisation suivant.</p> |
 | [!UICONTROL Max Content CPC] | <p>(Campagnes CPC uniquement) Coût maximal du contenu par clic (CPC), qui est le montant le plus élevé à payer pour un clic publicitaire à partir d’un site réseau d’affichage, avec ou sans symboles monétaires et ponctuation. Vous pouvez définir et modifier des valeurs au niveau du groupe publicitaire dans les campagnes qui ne sont pas ciblées par emplacement.</p> |
 | [!UICONTROL Audience Target Method] | <p>(Campagnes sur le réseau de recherche uniquement et campagnes de [!DNL Gmail] existantes en lecture seule sur le réseau d’affichage) Si :</p><ul><li><p><i>[!UICONTROL Target and Bid]</i> : affichage des publicités uniquement pour les utilisateurs et utilisatrices associés aux audiences cibles qui répondent également aux autres cibles du groupe publicitaire.</p></li><li><p><i>[!UICONTROL Bid Only]</i> : affichage des annonces même aux personnes qui ne sont pas associées aux audiences cibles, à condition qu’elles répondent aux objectifs d’autres groupes d’annonces.</p><p>Vous pouvez toutefois augmenter les chances que les publicités soient présentées à des audiences spécifiques en fixant des enchères plus élevées pour ces audiences.</p></li></ul> |
 | [!UICONTROL Keyword] | Chaîne du mot-clé. La longueur maximale est de 80 caractères et de 10 mots au maximum. Elle ne peut contenir que des lettres, des chiffres et les caractères spéciaux suivants : espace `# $ & _ - " [ ] ' + . / :`</p><p><b>Remarque :</b></p><ul><li><p>Pour exclure un mot-clé au niveau du groupe publicitaire ou de la campagne, définissez la [!UICONTROL Match Type] sur <i>[!UICONTROL Negative]</i>. Si la ligne contient le nom du groupe publicitaire, le mot-clé est exclu pour ce groupe publicitaire. Si la ligne n’inclut pas le nom du groupe publicitaire, le mot-clé est exclu pour l’ensemble de la campagne.</p></li><li><p>La modification d’un [!DNL Google Ads] mot-clé ou d’un type de correspondance supprime le mot-clé existant et en crée un nouveau.</p></li></ul> |
 | [!UICONTROL Placement] | (Campagnes utilisant uniquement la correspondance de contenu) Emplacement dans le réseau d’affichage sur lequel vos publicités peuvent être affichées. Spécifiez l’une des options suivantes :</p><ul><li><p>Site web : saisissez une URL valide. Il peut s’agir d’un domaine de niveau supérieur, d’un sous-domaine de premier niveau ou d’un domaine avec un seul nom de répertoire. L&#39;URL ne peut pas contenir de point d&#39;interrogation (?). Exemples :<code><br /><br />example.com<br />autos.example.com<br />example.com/widgets</code></p></li><li><p>Une position d’annonce sur une page spécifique : utilisez le `<URL> >> <location,sublocation>` de format (`finance.google.com >> Company pages,Top right`, par exemple).</p></li><li><p>Une catégorie de rubrique : utilisez la syntaxe `<category::<category> > <subcategory>` etc. (telle que `category::Industries > Energy & Utilities > Oil & Gas`).</p></li></ul><p><b>Remarque :</b> pour exclure un emplacement au niveau du groupe publicitaire ou de la campagne, définissez la [!UICONTROL Match Type] sur <i>[!UICONTROL Negative]</i>. Si la ligne contient le nom du groupe publicitaire, l’emplacement est exclu pour ce groupe publicitaire. Si la ligne n’inclut pas le nom du groupe publicitaire, l’emplacement est exclu pour l’ensemble de la campagne.</p> |
 | [!UICONTROL Auto Target Expression] | <p>(Obligatoire lorsque le paramètre de campagne défini sur « [!UICONTROL Use my website contents to target my ads] » n’est pas activé, facultatif dans le cas contraire) Recherche dynamique cible le groupe publicitaire.</p><p>Pour toutes les cibles, utilisez un astérisque (*).</p><p>Pour cibler jusqu’à trois critères de recherche dynamiques, utilisez le format `<category>=<target>`, où `<category>` pouvez inclure l’une des catégories ci-dessous. Rejoignez plusieurs cibles pour une catégorie individuelle avec « \[espace vide\] » et « \[espace vide\] », puis joignez plusieurs catégories avec « [espace vide] et [espace vide] ».</p><ul><li><p><i>[!UICONTROL Category]</i> : affichage d’annonces de recherche dynamique étendues pour les pages indexées avec une catégorie de contenu [!DNL Google Ads] spécifique.</p></li><li><p><i>[!UICONTROL URL]</i> : affichage d’annonces de recherche dynamique étendues pour les pages indexées avec une URL spécifique, où la valeur peut être incluse n’importe où dans l’URL.</p></li><li><p><i>[!UICONTROL Page Title]</i> : affichage d’annonces de recherche dynamique étendues pour les pages indexées avec un texte spécifique dans le titre de la page.</p></li><li><p><i>[!UICONTROL Page Content]</i> : affichage d’annonces de recherche dynamique étendues pour les pages indexées avec un contenu spécifique.</p></li></ul><p>Exemple : url=shoes.example.com et page title=footwear</p> |
+| [!UICONTROL Campaign Excluded URL] | URL à exclure en tant que landing pages générées à partir de l&#39;extension d&#39;URL finale pour la campagne. Vous pouvez éventuellement ajouter des inclusions d’URL (et non des exclusions) au niveau du groupe publicitaire. Exemple : « L’URL contient des `https://www.example.com`. » |
+| [!UICONTROL Ad Group Included URL] | URL à inclure en tant que pages de destination générées à partir de l’extension d’URL finale pour le groupe publicitaire.  Exemple : « L’URL contient des `https://www.example.com`. » |
+| [!UICONTROL Campaign Brand List] | Listes des marques pour le compte pour lequel les requêtes liées à la marque peuvent correspondre ou doivent être exclues pour la campagne. Utilisez le champ [!UICONTROL Campaign Brand List Type] pour spécifier le comportement. |
+| [!UICONTROL Campaign Brand List ID] | ID des listes de marques incluses ou exclues au niveau de la campagne. |
+| [!UICONTROL Campaign Brand List Type] | Indique si les listes de marques spécifiées pour le compte pour lequel les requêtes liées à la marque peuvent correspondre ou doivent être exclues des requêtes liées à la marque : *inclusion* ou *exclusion*. |
+| [!UICONTROL Ad Group Brand List] | Marques pour le compte pour lequel les requêtes liées à la marque peuvent correspondre pour le groupe publicitaire. |
+| [!UICONTROL Ad Group Brand List ID] | ID des listes de marques incluses au niveau du groupe publicitaire. |
 | [!UICONTROL Parent Product Groupings] | La hiérarchie de tout groupe de produits parent.<br><br>Exemple : `All Products>>ProductTypeL1=a>>ProductTypeL2=b` |
 | [!UICONTROL Product Grouping] | <p>Le groupe de produits (par exemple, « brand=acme » ou « All Products »).</p><p><b>Remarque :</b></p><ul><li><p>Lorsqu’un groupe de produits spécifié n’existe pas dans la hiérarchie des [!UICONTROL Parent Product Groupings], Search, Social et Commerce crée les parties de la hiérarchie nécessaires.</p></li><li><p>Search, Social et Commerce crée automatiquement un groupe « [!UICONTROL All Products] » lorsque vous créez un groupe publicitaire dans une campagne [!DNL Google Ads] Shopping avec une enchère par défaut définie sur l’enchère par défaut du groupe publicitaire. Search, Social et Commerce crée automatiquement un groupe « [!UICONTROL Everything Else] » avec l’enchère par défaut du groupe publicitaire à chaque niveau de la hiérarchie du groupe de produits. Vous pouvez toujours créer explicitement ces groupes par défaut et les exclure ou modifier leurs enchères.</p></li><li><p>Chaque groupe publicitaire peut inclure jusqu’à huit niveaux de groupes de produits, y compris « [!UICONTROL All Products] » et sept autres niveaux.</p></li></ul> |
 | [!UICONTROL Partition Type] | Type de répartition du groupe de produits : <i>subdivision</i> (s&#39;il a des groupes de produits enfants) ou <i>unité</i> (s&#39;il n&#39;a pas de groupes de produits enfants). |
@@ -133,6 +129,10 @@ Add in when released:
 | [!UICONTROL Product Group Status] | Statut d’affichage du groupe de produits : <i>[!UICONTROL Active]</i> <span> ou </span> <i>[!UICONTROL Deleted]</i> (groupes de produits existants uniquement). La valeur par défaut pour les nouveaux groupes de produits est <i>[!UICONTROL Active]</i>. Pour supprimer un groupe de produits actif, saisissez la valeur <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Sitelink Status] | Statut d&#39;affichage du lien du site : <i>Actif ou Supprimé</i> (liens de site existants uniquement). La valeur par défaut des nouveaux liens de site est <i>[!UICONTROL Active]</i>. Pour supprimer un lien de site actif, saisissez la valeur <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Location Status] | Statut de la cible de l’emplacement : <i>[!UICONTROL Active]</i> ou <i>[!UICONTROL Deleted]</i> (emplacements existants uniquement). La valeur par défaut pour les nouveaux emplacements est [!UICONTROL Active]. Pour supprimer un emplacement actif, saisissez la valeur <i>[!UICONTROL Deleted]</i>. |
+| [!UICONTROL Campaign Excluded URL Status] | Statut des URL exclues pour la campagne : *Active* ou `null`. |
+| [!UICONTROL Ad Group Included URL Status] | Statut des URL incluses pour la campagne : *Active* ou `null`. |
+| [!UICONTROL Campaign Brand List Status] | Statut des listes de marques incluses ou exclues pour la campagne : *Actif* ou `null`. |
+| [!UICONTROL Ad Group Brand List Status] | Statut des listes de marques incluses pour le groupe publicitaire : *Actif* ou `null`. |
 | [!UICONTROL RLSA Target Status] | Statut de la cible ou de l’exclusion du RLSA au niveau de la campagne ou du groupe publicitaire : <i>[!UICONTROL Active]</i> ou [!UICONTROL Deleted]</i> (cibles existantes uniquement). La valeur par défaut pour les nouvelles cibles ou exclusions est <i>[!UICONTROL Active]</i>. Pour supprimer une cible active ou une exclusion, saisissez la valeur <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Device Target Status] | <p>Statut de la cible de l’appareil au niveau de la campagne ou du groupe publicitaire : <i>[!UICONTROL Active]</i> ou <i>[!UICONTROL Deleted]</i>. Pour les nouvelles campagnes et groupes publicitaires, la valeur par défaut est <i>[!UICONTROL Active]</i>.</p> |
 | \[Classification d’étiquette spécifique à l’annonceur\] | (Nom pour une classification d’étiquettes spécifique à l’annonceur, telle que « Couleur » pour une classification d’étiquettes appelée Couleur) Valeur pour la classification spécifiée associée à l’entité. Vous ne pouvez inclure qu’une seule valeur par classification par entité (telle que « rouge » pour la classification de libellé « Couleur » pour la campagne A). La longueur maximale est de 100 caractères et la valeur peut inclure des caractères ASCII et non ASCII.<br><br>Les classifications de libellés et leurs valeurs de libellé sont appliqués à tous les composants enfants ; les nouveaux composants ajoutés ultérieurement sont automatiquement associés au libellé. Les classifications d’étiquettes pour les groupes de produits sont appliquées au niveau de l’unité (le plus granulaire).<br><br>Ni le nom de la classification, ni la valeur de classification ne sont sensibles à la casse. |
@@ -147,6 +147,10 @@ Add in when released:
 | [!UICONTROL Sitelink ID] | Identifiant unique qui identifie un lien de site existant. Dans les fichiers CSV et TSV, elle doit être précédée d&#39;un guillemet simple (&#39;).[^1] Obligatoire uniquement lorsque vous modifiez ou supprimez le lien du site, sauf si la ligne comprend a) suffisamment de colonnes de propriétés pour identifier le lien du site ou b) un « [!UICONTROL AMO ID] ». Cependant, si vous n’incluez ni [!UICONTROL Sitelink ID] ni [!UICONTROL AMO ID] et que les colonnes de propriété correspondent à plusieurs liens de site, le statut d’un seul des liens de site change.</p><p><b>Remarque :</b> si vous modifiez les colonnes de propriété du lien du site, à l&#39;exception de l&#39;état d&#39;un lien de site existant, et que vous n&#39;incluez ni le [!UICONTROL Sitelink ID] ni le [!UICONTROL AMO ID], un nouveau lien de site est créé et le lien existant n&#39;est pas modifié. |
 | [!UICONTROL RLSA Target ID] | Identifiant unique qui identifie une cible ou une exclusion RLSA existante au niveau d’une campagne ou d’un groupe publicitaire. Dans les fichiers CSV et TSV, elle doit être précédée d’un guillemet simple (&#39;).[^1] Obligatoire uniquement lorsque vous modifiez ou supprimez la cible ou l’exclusion, sauf si la ligne comprend un « [!UICONTROL AMO ID] » pour la cible. |
 | [!UICONTROL Device Target ID] | <p>Identifiant unique qui identifie une cible ou une exclusion d’appareil existante au niveau de la campagne ou du groupe publicitaire. Dans les fichiers CSV et TSV, elle doit être précédée d’un guillemet simple (&#39;).[^1] Obligatoire uniquement lorsque vous modifiez ou supprimez la cible, sauf si la ligne comprend un « [!UICONTROL AMO ID] » pour la cible.</p> |
+| [!UICONTROL Campaign Excluded URL ID] | Identifiant de l’expression d’URL exclue pour la campagne. |
+| [!UICONTROL Ad Group Included URL ID] | Identifiant de l’expression URL incluse pour le groupe publicitaire. |
+| [!UICONTROL Campaign Brand Criterion ID] | L’identifiant pour les critères de liste de marque de la campagne. |
+| [!UICONTROL Ad Group Brand Criterion ID] | Identifiant pour les critères de liste de marque du groupe publicitaire. |
 | [!UICONTROL AMO ID] | (Dans les feuilles d’envoi groupé générées) Identifiant unique généré par Adobe pour une entité synchronisée. Pour les annonces responsive sur le Réseau de Recherche, l’AMO ID est requis pour modifier ou supprimer des annonces, sauf si vous incluez l’ID d’annonce. Pour modifier les données de tous les autres types d’entités avec un AMO ID, l’AMO ID est requis pour modifier ou supprimer les données, sauf si vous incluez l’entité ID et l’entité parent ID.<br><br>Search, Social et Commerce utilise la valeur pour déterminer l’identité correcte à modifier, mais ne publie pas l’ID sur le réseau publicitaire. |
 | [!UICONTROL EF Error Message] | (Inclus dans les feuilles d’envoi groupé générées à titre d’information) Espace réservé pour l’affichage des messages d’erreur du réseau publicitaire concernant les données de la ligne ; les messages d’erreur sont inclus dans les fichiers [!UICONTROL EF Errors]. Cette valeur n&#39;est pas publiée sur le réseau publicitaire. |
 | [!UICONTROL SE Error Message] | (Inclus dans les feuilles d’envoi groupé générées à titre d’information) Espace réservé pour l’affichage des messages d’erreur du réseau publicitaire concernant les données de la ligne ; les messages d’erreur sont inclus dans les fichiers [!UICONTROL SE Errors]. Cette valeur n&#39;est pas publiée sur le réseau publicitaire. |
@@ -172,24 +176,34 @@ Pour obtenir une description de chaque champ de données, voir « [Tous les cham
 | [!UICONTROL Acct Name] | Obligatoire sauf si chaque ligne inclut un « [!UICONTROL AMO ID] » pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
 | [!UICONTROL Campaign Budget] | Obligatoire pour créer une campagne. |
+| [!UICONTROL Campaign Status] | Obligatoire uniquement pour supprimer une campagne. |
 | [!UICONTROL Delivery Method] | Obligatoire pour créer une campagne. |
-| [!UICONTROL Channel Type] | Obligatoire pour créer une campagne. |
+| [!UICONTROL Device Targets] | Facultatif |
+| [!UICONTROL Device OS Targets (Google Adwords)] | Facultatif |
+| [!UICONTROL Languages] | Facultatif |
+| [!UICONTROL Mobile Carriers (Google Adwords)] | Facultatif |
 | [!UICONTROL Networks] | Obligatoire pour créer une campagne. |
-| [!UICONTROL DSA Domain Name] | Obligatoire pour créer une campagne avec des annonces de recherche dynamique sur le réseau de recherche. |
-| [!UICONTROL DSA Domain Language] | Obligatoire pour créer une campagne avec des annonces de recherche dynamique sur le réseau de recherche. |
+| [!UICONTROL Tracking Template] | Facultatif |
+| [!UICONTROL Channel Type] | Obligatoire pour créer une campagne. |
 | [!UICONTROL Campaign Priority] | Obligatoire pour créer une campagne d’achat. |
 | [!UICONTROL Has EU Political Ads] | Obligatoire pour créer une campagne. |
 | [!UICONTROL Merchant ID] | Obligatoire pour créer une campagne d’achat. |
 | [!UICONTROL Sales Country] | Obligatoire pour créer une campagne d’achat. |
-| [!UICONTROL Product Scope Filter] | (Campagnes d’achat) Facultatif |
-| [!UICONTROL Languages] | Facultatif |
-| [!UICONTROL Device Targets] | Facultatif |
-| [!UICONTROL Device Targets (Google Adwords)] | Facultatif |
-| [!UICONTROL Mobile Carriers (Google Adwords)] | Facultatif |
 | [!UICONTROL Audience Target Method] | s.o. |
+| [!UICONTROL Product Scope Filter] | (Campagnes d’achat) Facultatif |
+| [!UICONTROL DSA Domain Name] | Obligatoire pour créer une campagne avec des annonces de recherche dynamique sur le réseau de recherche. |
+| [!UICONTROL DSA Domain Language] | Obligatoire pour créer une campagne avec des annonces de recherche dynamique sur le réseau de recherche. |
 | [!UICONTROL Landing Page Suffix] | Facultatif |
-| [!UICONTROL Tracking Template] | Facultatif |
-| [!UICONTROL Campaign Status] | Obligatoire uniquement pour supprimer une campagne. |
+| [!UICONTROL AI Max Enabled] | Facultatif |
+| [!UICONTROL AI Max Asset Automation] | Facultatif |
+| [!UICONTROL Campaign Brand Criterion ID] | Facultatif |
+| [!UICONTROL Campaign Brand List] | Facultatif |
+| [!UICONTROL Campaign Brand List ID] | Facultatif |
+| [!UICONTROL Campaign Brand List Status] | Facultatif |
+| [!UICONTROL Campaign Brand List Type] | Facultatif |
+| [!UICONTROL Included URL] | Facultatif |
+| [!UICONTROL Included URL ID] | Facultatif |
+| [!UICONTROL Included URL Status] | Facultatif |
 | \[Classification d’étiquette spécifique à l’annonceur\] | Facultatif |
 | [!UICONTROL Constraints] | Facultatif |
 | [!UICONTROL Campaign ID] | Obligatoire uniquement lorsque vous modifiez le nom de la campagne, sauf si la ligne inclut un « [!UICONTROL AMO ID] » pour la campagne. |
@@ -203,15 +217,23 @@ Pour obtenir une description de chaque champ de données, voir « [Tous les cham
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoire sauf si chaque ligne inclut un « [!UICONTROL AMO ID] » pour l’entité. |
 | [!UICONTROL Campaign Name] | Obligatoire |
-| [!UICONTROL Networks] | s.o. |
-| [!UICONTROL GDN Custom Bid Level] | Facultatif |
 | [!UICONTROL Ad Group Name] | Obligatoire |
 | [!UICONTROL Ad Group Type] | Obligatoire pour créer un groupe publicitaire. |
+| [!UICONTROL GDN Custom Bid Level] | Facultatif |
+| [!UICONTROL Networks] | s.o. |
+| [!UICONTROL Ad Group Status] | Obligatoire uniquement pour supprimer un groupe publicitaire. |
 | [!UICONTROL Max CPC] | Facultatif |
 | [!UICONTROL Max Content CPC] | Facultatif |
-| [!UICONTROL Audience Target Method] | Obligatoire |
 | [!UICONTROL Tracking Template] | Facultatif |
-| [!UICONTROL Ad Group Status] | Obligatoire uniquement pour supprimer un groupe publicitaire. |
+| [!UICONTROL Audience Target Method] | Obligatoire |
+| [!UICONTROL AI Max Search Term Matching] | Facultatif |
+| [!UICONTROL Ad Group Brand Criterion ID] | Facultatif |
+| [!UICONTROL Ad Group Brand List] | Facultatif |
+| [!UICONTROL Ad Group Brand List ID] | Facultatif |
+| [!UICONTROL Ad Group Brand List Status] | Facultatif |
+| [!UICONTROL Ad Group Included URL] | Facultatif |
+| [!UICONTROL Ad Group Included URL ID] | Facultatif |
+| [!UICONTROL Ad Group Included URL Status] | Facultatif |
 | \[Classification d’étiquette spécifique à l’annonceur\] | Facultatif |
 | [!UICONTROL Constraints] | Facultatif |
 | [!UICONTROL Ad Group ID] | Obligatoire uniquement lorsque vous modifiez le nom du groupe publicitaire, sauf si la ligne inclut un « [!UICONTROL AMO ID] » pour le groupe publicitaire. |
