@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 58b07a3c997005bbeb394f4925a894ea5960b9f7
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '727'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] paramètres de groupe publicitaire
@@ -109,7 +109,7 @@ Si la campagne utilise une stratégie d’enchères intelligentes (telle que [!U
 >* Lorsque le paramètre de [!UICONTROL Final URL expansion] au niveau de la campagne est *désactivé*, [!DNL Google Ads] utilise uniquement les URL spécifiées comme pages de destination dynamiques pour le groupe publicitaire.
 >* (Annonces de recherche réactives avec des ressources épinglées) Lorsque ce paramètre spécifie les inclusions d’URL, [!DNL Google Ads] n’utilise pas de ressources épinglées lorsque l’URL finale dirige vers une page de destination sur laquelle la copie épinglée ne correspond pas à l’intention de l’utilisateur. Pour toujours utiliser les ressources épinglées, ne spécifiez pas d’inclusions d’URL et désactivez le paramètre de [!UICONTROL Final URL expansion] au niveau de la campagne.
 
-**[!UICONTROL Brand inclusions]:** (campagnes pour lesquelles [!DNL AI Max] est activé) Marques pour le compte pour lequel les requêtes liées à la marque peuvent correspondre. Cochez la case en regard de chaque liste de marques à inclure. Ce paramètre remplace le paramètre au niveau de la campagne.
+**[!UICONTROL Brand inclusions]:** (campagnes pour lesquelles [!DNL AI Max] est activé) Listes de marques incluant les marques pour lesquelles les requêtes liées à la marque peuvent correspondre. Dans la liste de toutes les listes de marques configurées pour le compte dans l’éditeur de [!DNL Google Ads], cochez la case en regard de chaque liste de marques à inclure. Ce paramètre remplace le paramètre au niveau de la campagne.
 
 ## onglet [!UICONTROL URL Options]
 
