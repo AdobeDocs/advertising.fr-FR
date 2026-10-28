@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 9d4ed06ec7196fc10be86a3e8c5c94701c90d170
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '471'
 ht-degree: 3%
 ---
 # Partenaires SSP
@@ -40,7 +40,7 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | Prise en charge de PG | Global | USD, EUR, GBP | Poste de travail audio et mobile |
 | [!DNL Cadent] | [!DNL Cadent] (anciennement [!DNL EMX Digital]) | Adobe Advertising | — | US/CA | USD | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] ou Adobe Advertising | — | États-Unis + EMEA | USD, EUR | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
-| [!DNL Equativ] | [!DNL Equativ] (anciennement [!DNL Smart AdServer]) | [!DNL TubeMogul] ou Adobe Advertising | — | EMEA | USD, EUR | Affichage sur poste de travail et mobile<br><br>vidéo sur poste de travail et mobile |
+| [!DNL Equativ/Sharethrough] | [!DNL Equativ] | [!DNL TubeMogul] ou Adobe Advertising | — | Global | USD | Écran de bureau et mobile<br><br>écran natif<br><br>vidéo de bureau, mobile et CTV |
 | [!DNL FreeWheel] | [!DNL Comcast] | [!DNL TubeMogul] ou Adobe Advertising | Prise en charge de PG | Global | USD, EUR, AUD, GBP | Ordinateur de bureau, mobile et CTV vidéo |
 | [!DNL Google Authorized Buyers] (anciennement [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC et UE - 89185975 | Prise en charge de PG | Global | USD, BRL | Poste de travail audio et mobile<br><br>Affichage poste de travail et mobile<br><br>Vidéo, poste de travail, mobile et CTV |
 | [!DNL GumGum] |  | Adobe Advertising | — | Global | USD | Affichage sur poste de travail et mobile<br><br>vidéo sur poste de travail et mobile |
@@ -51,7 +51,6 @@ Une plateforme côté offre (SSP) est une plateforme technologique publicitaire 
 | [!DNL Nexxen] | [!DNL Nexxen] (anciennement [!DNL Unruly]) | Adobe Advertising | — | États-Unis + EMEA | USD | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] ou Adobe Advertising | Prise en charge de PG | Global | USD | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
 | [!DNL PubMatic] | [!DNL Pubmatic] | [!DNL TubeMogul] ou Adobe Advertising | — | Global | USD | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
-| [!DNL ShareThrough] |  | [!DNL TubeMogul] ou Adobe Advertising | — | Global | USD | Écran de bureau et mobile<br><br>écran natif<br><br>vidéo de bureau, mobile et CTV |
 | [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | Toutes les devises | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
 | [!DNL Taboola] |  | Adobe Advertising | — | US/CA | USD | Ordinateur de bureau et mobile vidéo |
 | [!DNL Teads] |  | [!DNL TubeMogul] ou Adobe Advertising | — | Vidéo en aval = Affichage global <br> = NA + EMEA | USD | Affichage sur poste de travail et mobile<br><br>poste de travail vidéo, mobile et CTV |
