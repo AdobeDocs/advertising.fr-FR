@@ -98,7 +98,7 @@ Vous pouvez cibler vos emplacements sur tous les types d’audiences suivants.
 
 * Tous vos segments de données propriétaires importés, y compris les segments qui ont été traduits en identifiants universels et les segments qui contiennent des identifiants universels [!DNL AdFixus] importés.
 
-  Des frais supplémentaires sont facturés pour les impressions remises aux cartes d’identité universelles. Consultez « [ À propos des sources d’audience propriétaires ](/help/dsp/audiences/sources/source-about.md) » pour connaître les taux.
+  Des frais supplémentaires sont facturés pour les impressions remises aux cartes d’identité universelles. Consultez « [&#x200B; À propos des sources d’audience propriétaires &#x200B;](/help/dsp/audiences/sources/source-about.md) » pour connaître les taux.
 
 * Tous vos segments de données tiers personnalisés importés.
 
@@ -116,7 +116,7 @@ Vous pouvez cibler vos emplacements sur tous les types d’audiences suivants.
 
   >[!NOTE]
   >
-  >Pour plus d’informations sur la configuration et la collecte de données pour les segments dans ces solutions [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) consultez la documentation de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) et [the.
+  >Pour plus d’informations sur la configuration et la collecte de données pour les segments dans ces solutions [!DNL Real-Time CDP]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) consultez la documentation de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) et the.
 
 ## Données de taille d’audience
 
@@ -170,7 +170,7 @@ La vue [!UICONTROL Segments] répertorie également les types de segment suivant
 
 Dans la vue [!UICONTROL Sources], vous pouvez configurer les sources des segments propriétaires à partir des plateformes de données client prises en charge que vous souhaitez convertir en segments contenant des types d’identifiants universels spécifiés. Vous pouvez également configurer des sources de [!UICONTROL AdFixus ID] pour importer des segments avec des identifiants universels [!DNL AdFixus] (Australie uniquement). Les paramètres source incluent une clé source générée automatiquement à partager avec votre CDP ou votre équipe [!DNL AdFixus].
 
-Pour plus d’informations sur les plateformes prises en charge, les types d’ID universels pris en charge et les workflows de configuration, consultez la section « [ À propos des sources d’audience propriétaires ](/help/dsp/audiences/sources/source-about.md) ».
+Pour plus d’informations sur les plateformes prises en charge, les types d’ID universels pris en charge et les workflows de configuration, consultez la section « [&#x200B; À propos des sources d’audience propriétaires &#x200B;](/help/dsp/audiences/sources/source-about.md) ».
 
 Les segments importés par le biais de [!UICONTROL Sources] sont disponibles pour des audiences réutilisables et un ciblage [!UICONTROL Universal ID] dans les paramètres d’emplacement, le cas échéant.
 

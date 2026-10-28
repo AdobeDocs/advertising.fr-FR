@@ -26,7 +26,7 @@ ht-degree: 0%
 
 *Prise en charge en anglais uniquement*
 
-Utilisez l’agent de création d’audiences de l’assistant AI pour générer des [ audiences réutilisables ](/help/dsp/audiences/audience-about.md). Les audiences réutilisables peuvent inclure tous les segments propriétaires et tiers qui sont disponibles pour vous, et même d’autres audiences enregistrées.
+Utilisez l’agent de création d’audiences de l’assistant AI pour générer des [&#x200B; audiences réutilisables &#x200B;](/help/dsp/audiences/audience-about.md). Les audiences réutilisables peuvent inclure tous les segments propriétaires et tiers qui sont disponibles pour vous, et même d’autres audiences enregistrées.
 
 >[!IMPORTANT]
 >
