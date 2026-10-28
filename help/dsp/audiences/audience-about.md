@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1464'
 ht-degree: 0%
 ---
 # À propos de la gestion des audiences dans Advertising DSP
@@ -58,7 +58,7 @@ Dans DSP, vous pouvez créer et gérer des segments d’audience et des ensemble
 
   * Incluez des segments tiers qui contiennent des identifiants universels dans vos cibles d’emplacement sans étapes supplémentaires.
 
-* Créez une bibliothèque d’audiences [audiences réutilisables](/help/dsp/audiences/reusable-audience-create.md). Les audiences enregistrées sont composées de l’un des segments d’audience disponibles et de l’autre de vos audiences enregistrées. Toutes les modifications apportées à une audience enregistrée sont automatiquement appliquées à tous les emplacements qui ciblent ou excluent l’audience et à toutes les autres audiences qui incluent l’audience enregistrée.
+* Créez une bibliothèque d’audiences [audiences réutilisables](/help/dsp/audiences/reusable-audience-create.md) à l’aide d’un workflow assisté par l’IA ou manuellement. Les audiences enregistrées sont composées de l’un des segments d’audience disponibles et de l’autre de vos audiences enregistrées. Toutes les modifications apportées à une audience enregistrée sont automatiquement appliquées à tous les emplacements qui ciblent ou excluent l’audience et à toutes les autres audiences qui incluent l’audience enregistrée.
 
   Les audiences enregistrées permettent aux planificateurs de médias de regrouper les audiences selon les besoins, en incluant et en excluant plusieurs segments à l’aide d’une logique booléenne complexe. La taille (ciblée) de chaque segment individuel et la taille globale de l’audience active sont indiquées au fur et à mesure que vous créez une audience. Les personnes en charge de l&#39;exécution des campagnes peuvent alors simplement sélectionner une ou plusieurs audiences enregistrées comme cibles d&#39;emplacement plutôt que de configurer manuellement les cibles d&#39;audience pour chaque emplacement.
 
@@ -98,7 +98,7 @@ Vous pouvez cibler vos emplacements sur tous les types d’audiences suivants.
 
 * Tous vos segments de données propriétaires importés, y compris les segments qui ont été traduits en identifiants universels et les segments qui contiennent des identifiants universels [!DNL AdFixus] importés.
 
-  Des frais supplémentaires sont facturés pour les impressions remises aux cartes d’identité universelles. Consultez « [&#x200B; À propos des sources d’audience propriétaires &#x200B;](/help/dsp/audiences/sources/source-about.md) » pour connaître les taux.
+  Des frais supplémentaires sont facturés pour les impressions remises aux cartes d’identité universelles. Consultez « [ À propos des sources d’audience propriétaires ](/help/dsp/audiences/sources/source-about.md) » pour connaître les taux.
 
 * Tous vos segments de données tiers personnalisés importés.
 
@@ -116,7 +116,7 @@ Vous pouvez cibler vos emplacements sur tous les types d’audiences suivants.
 
   >[!NOTE]
   >
-  >Pour plus d’informations sur la configuration et la collecte de données pour les segments dans ces solutions [!DNL Real-Time CDP]&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=fr) consultez la documentation de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=fr), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=fr) et the.
+  >Pour plus d’informations sur la configuration et la collecte de données pour les segments dans ces solutions [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) consultez la documentation de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) et [the.
 
 ## Données de taille d’audience
 
@@ -170,7 +170,7 @@ La vue [!UICONTROL Segments] répertorie également les types de segment suivant
 
 Dans la vue [!UICONTROL Sources], vous pouvez configurer les sources des segments propriétaires à partir des plateformes de données client prises en charge que vous souhaitez convertir en segments contenant des types d’identifiants universels spécifiés. Vous pouvez également configurer des sources de [!UICONTROL AdFixus ID] pour importer des segments avec des identifiants universels [!DNL AdFixus] (Australie uniquement). Les paramètres source incluent une clé source générée automatiquement à partager avec votre CDP ou votre équipe [!DNL AdFixus].
 
-Pour plus d’informations sur les plateformes prises en charge, les types d’ID universels pris en charge et les workflows de configuration, consultez la section « [&#x200B; À propos des sources d’audience propriétaires &#x200B;](/help/dsp/audiences/sources/source-about.md) ».
+Pour plus d’informations sur les plateformes prises en charge, les types d’ID universels pris en charge et les workflows de configuration, consultez la section « [ À propos des sources d’audience propriétaires ](/help/dsp/audiences/sources/source-about.md) ».
 
 Les segments importés par le biais de [!UICONTROL Sources] sont disponibles pour des audiences réutilisables et un ciblage [!UICONTROL Universal ID] dans les paramètres d’emplacement, le cas échéant.
 

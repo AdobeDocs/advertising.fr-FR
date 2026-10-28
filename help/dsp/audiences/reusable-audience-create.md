@@ -18,16 +18,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a8b5c9e6cbeb50467224496a1f52f06252da1e36
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2106'
 ht-degree: 0%
 ---
 # Créer une audience réutilisable
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-Vous pouvez enregistrer et gérer des audiences réutilisables, qui sont des groupes de segments d’audience (y compris les segments propriétaires et tiers qui sont disponibles pour vous) et même d’autres audiences enregistrées. Vous pouvez utiliser les audiences comme cibles ou exclusions pour plusieurs emplacements.
+Vous pouvez enregistrer et gérer des audiences réutilisables, qui sont des groupes de segments d’audience que vous pouvez utiliser comme cibles ou exclusions pour plusieurs emplacements. Les audiences réutilisables peuvent inclure tous les segments propriétaires et tiers qui sont disponibles pour vous, et même d’autres audiences enregistrées.
 
 Créez des audiences à l’aide de l’agent d’audience assisté par l’IA dans l’assistant [AI unifié](/help/dsp/ai-assistant/ai-assistant-about.md) ou dans la vue [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou créez des audiences manuellement.
 
