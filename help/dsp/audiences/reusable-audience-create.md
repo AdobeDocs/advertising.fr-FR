@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 59d4abad49f2684a4b0a5d46774757bffcd7afee
+source-git-commit: 8385743efa75e0c44cf44d0443094b11d579216d
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2318'
 ht-degree: 0%
 ---
 # Créer une audience réutilisable
@@ -42,6 +42,8 @@ Créez des audiences à l’aide de l’agent d’audience assisté par l’IA d
 *Fonction*
 
 *Prise en charge en anglais uniquement*
+
+Donnez à l’assistant AI un résumé de l’audience ou décrivez les caractéristiques de l’audience que vous souhaitez inclure ou exclure dans les invites en langage naturel. Dans la définition de l’audience, vous pouvez affiner les critères d’optimisation, les types d’identifiants à inclure et les segments propriétaires à exclure. Une fois que l’assistant AI assemble une liste des segments d’audience correspondants, vous pouvez affiner la liste de segments avant d’enregistrer l’audience.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -77,13 +79,19 @@ Créez des audiences à l’aide de l’agent d’audience assisté par l’IA d
 
       Vous pouvez poser plusieurs questions dans une seule invite, mais une seule invite à la fois. Attendez une réponse avant de pouvoir envoyer une autre invite.
 
-      Un panneau s’ouvre sur le côté, avec la définition de l’audience dans l’onglet [!UICONTROL Step 1: Audience Definition] . La définition inclut tous les filtres d’audience définis, les critères d’optimisation et tout segment propriétaire à exclure.
+      Un panneau s’ouvre sur le côté, avec la définition de l’audience dans l’onglet [!UICONTROL Step 1: Audience Definition] . La définition inclut tous les filtres d’audience définis, les critères d’optimisation (y compris les types d’identifiants d’appareil et les types d’identifiants universels à inclure) et l’un de vos segments propriétaires à exclure. Si vous n’avez pas spécifié de limites, les segments sont basés sur l’optimisation pour le volume le plus élevé, y compris tous les types d’ID de type d’appareil et les ID universels, et y compris toutes vos audiences propriétaires.
 
       Le cas échéant, l’assistant AI suggère des filtres d’audience supplémentaires pour vous aider à créer un briefing d’audience plus efficace. Vous pouvez accepter ou rejeter les suggestions.
 
-   1. (Facultatif) Pour exclure l’un de vos segments propriétaires, invitez l’assistant AI à le faire ou cliquez sur ![Modifier](/help/dsp/assets/edit-ai.png "Modifier") dans la section **[!UICONTROL First-party segments to exclude]**, sélectionnez les segments que vous souhaitez exclure de l’audience, puis cliquez sur **[!UICONTROL Apply]**.
+   1. (Facultatif) Affinez la définition de l’audience :
 
-   1. (Facultatif) Envoyez d’autres invites si nécessaire pour décrire les caractéristiques d’audience à inclure et à exclure. Pour envoyer chaque invite, cliquez sur ![Envoyer une invite](/help/dsp/assets/submit-prompt.png "Envoyer une invite").
+      * Pour modifier les critères d’optimisation entre les *[!UICONTROL Highest volume]* en *[!UICONTROL Lowest cost]*, demandez à l’assistant AI de le faire ou cliquez sur ![Modifier](/help/dsp/assets/edit-ai.png "Modifier") en regard de **[!UICONTROL Criteria]**, sélectionnez les critères, puis cliquez sur **[!UICONTROL Apply]**.
+
+      * Pour passer de l’inclusion de tous les types d’ID (y compris tous les types d’ID d’appareil et les ID universels) à uniquement des types d’ID spécifiques, demandez à l’assistant AI de le faire ou cliquez sur ![Modifier](/help/dsp/assets/edit-ai.png "Modifier") en regard de **[!UICONTROL ID type]**, sélectionnez les types d’ID à inclure, puis cliquez sur **[!UICONTROL Apply]**.
+
+      * Pour exclure l’un de vos segments propriétaires, demandez à l’assistant AI de le faire ou cliquez sur ![Modifier](/help/dsp/assets/edit-ai.png "Modifier") dans la section **[!UICONTROL First-party segments to exclude]**, sélectionnez les segments que vous souhaitez exclure de l’audience, puis cliquez sur **[!UICONTROL Apply]**.
+
+      * Envoyez d’autres invites si nécessaire pour décrire les caractéristiques d’audience à inclure et à exclure. Pour envoyer chaque invite, cliquez sur ![Envoyer une invite](/help/dsp/assets/submit-prompt.png "Envoyer une invite").
 
 1. Lorsque la définition de l’audience répond à vos critères, spécifiez les segments à inclure :
 
@@ -110,6 +118,8 @@ Créez des audiences à l’aide de l’agent d’audience assisté par l’IA d
 *Fonction*
 
 *Prise en charge en anglais uniquement*
+
+Donnez à l’agent d’audience une note d’audience ou des invites en langage naturel décrivant les caractéristiques d’audience que vous souhaitez inclure et exclure.
 
 >[!NOTE]
 >
@@ -154,6 +164,72 @@ Créez des audiences à l’aide de l’agent d’audience assisté par l’IA d
    >[!NOTE]
    >
    >Pour modifier l’audience ultérieurement, [modifiez manuellement l’expression de l’audience](/help/dsp/audiences/reusable-audience-edit.md).
+
+### Écrire des invites et répondre à l&#39;agent d&#39;audience {#writing-prompts}
+
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
+#### Instructions pour la création d’invites d’audience
+
+* Utilisez un langage clair et descriptif pour décrire l’audience cible.
+
+  * Vous pouvez saisir des phrases complètes ou une chaîne de caractéristiques. La ponctuation n&#39;est pas nécessaire, sauf lorsque cela est nécessaire pour des raisons de clarté.
+
+  * En règle générale, les invites ne respectent pas la casse.
+
+  * L’agent d’audience reconnaît les synonymes les plus courants.
+
+* Soyez précis :
+
+  * Fournissez des détails sur toutes les caractéristiques d’audience que vous souhaitez inclure et sur toutes les caractéristiques que vous souhaitez spécifiquement exclure. Fournir plus de détails augmente la probabilité d’obtenir des résultats qui répondent à vos besoins.
+
+  * Identifiez les emplacements, les types d’appareils et les fournisseurs de données à inclure ou à exclure.
+
+  Vous avez toujours la possibilité de modifier les filtres d’audience, les critères d’optimisation, les segments propriétaires à exclure et la liste de segments finale avant d’enregistrer l’audience. Prouver tous les détails pour démarrer raccourcit le processus.
+
+* Fournissez des détails de manière itérative pour affiner vos critères et l’expression d’audience générée avant d’enregistrer l’audience.
+
+* L’agent d’audience n’enregistre pas automatiquement une expression d’audience générée en tant qu’audience. Vous ne pouvez enregistrer une audience qu’en cliquant sur le bouton [!UICONTROL Save Audience] ou [!UICONTROL Create], qui se trouvent en dehors de la zone d’invite, afin d’annuler les modifications que vous ne souhaitez pas conserver.
+
+Consultez la rubrique « [Bonnes pratiques pour créer un résumé d’audience](#audience-brief-best-practices) » pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
+
+<!--
+Consider starting by asking for what you should include.
+
+you can give thumbs up or down to [what exactly?].
+
+Verify what info is carried over from session to session and what starts from scratch.
+
+-->
+
+#### Limites des invites
+
+* Références à des audiences existantes.
+
+* Texte dans d’autres langues que l’anglais.
+
+#### Comment répondre à l’agent d’audience
+
+Lorsque l’agent d’audience a besoin d’une réponse de votre part, vous pouvez lui répondre à l’aide de mots-clés dans la requête ou de synonymes courants.
+
+##### Confirmer s’il faut continuer
+
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+
+Votre réponse affirmative : « continuer », « ok », « ok », « oui » ou un autre mot similaire
+
+Vous pouvez également ignorer la requête et continuer à spécifier des critères d’audience supplémentaires à la place.
+
+##### Choisir parmi les options suggérées
+
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
+
+Votre réponse : `1`, `proceed`, `2`, `maximum reach`, etc.
+
+Vous pouvez également ignorer la requête et continuer à spécifier des critères d’audience supplémentaires à la place.
 
 ### Bonnes pratiques pour créer un briefing d’audience {#audience-brief-best-practices}
 
@@ -210,72 +286,6 @@ Incluez autant de types d’attributs d’audience que possible à partir de la 
 Voici un exemple de brief d’audience fort pour une campagne de sensibilisation et d’essai pour un service d’abonnement à un kit de repas haut de gamme :
 
 `The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
-
-### Écrire des invites et répondre à l&#39;agent d&#39;audience {#writing-prompts}
-
-<!-- Change heading level for this whole section to fit under AI procedure -->
-
-#### Instructions pour la création d’invites d’audience
-
-* Utilisez un langage clair et descriptif pour décrire l’audience cible.
-
-  * Vous pouvez saisir des phrases complètes ou une chaîne de caractéristiques. La ponctuation n&#39;est pas nécessaire, sauf lorsque cela est nécessaire pour des raisons de clarté.
-
-  * En règle générale, les invites ne respectent pas la casse.
-
-  * L’agent d’audience reconnaît les synonymes les plus courants.
-
-* Soyez spécifique et fournissez des détails sur toutes les caractéristiques d’audience que vous souhaitez inclure et sur toutes les caractéristiques que vous souhaitez spécifiquement exclure. Fournir plus de détails augmente la probabilité d’obtenir des résultats qui répondent à vos besoins.
-
-* Identifiez les emplacements, les types d’appareils et les fournisseurs de données à inclure ou à exclure.
-
-* Fournissez des détails de manière itérative pour affiner vos critères et l’expression d’audience générée avant d’enregistrer l’audience.
-
-* En savoir plus sur les invites à travers l’expérimentation.
-
-  Si votre invite n’est pas claire, l’agent d’audience demande une autre invite, afin que vous puissiez réessayer.
-
-  L’agent d’audience n’enregistre pas automatiquement une expression d’audience générée en tant qu’audience. Vous ne pouvez enregistrer une audience qu’en cliquant sur le bouton [!UICONTROL Create], qui se trouve en dehors de la zone d’invite, afin d’annuler les modifications que vous ne souhaitez pas conserver.
-
-Consultez la rubrique « [Bonnes pratiques pour créer un résumé d’audience](#audience-brief-best-practices) » pour découvrir d’autres moyens d’optimiser les invites pour les audiences.
-
-<!--
-Consider starting by asking for what you should include.
-
-you can give thumbs up or down to [what exactly?].
-
-Verify what info is carried over from session to session and what starts from scratch.
-
--->
-
-#### Limites des invites
-
-* Références à des audiences existantes.
-
-* Texte dans d’autres langues que l’anglais.
-
-#### Comment répondre à l’agent d’audience
-
-Lorsque l’agent d’audience a besoin d’une réponse de votre part, vous pouvez lui répondre à l’aide de mots-clés dans la requête ou de synonymes courants.
-
-##### Confirmer s’il faut continuer
-
-`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
-
-Votre réponse affirmative : « continuer », « ok », « ok », « oui » ou un autre mot similaire
-
-Vous pouvez également ignorer la requête et continuer à spécifier des critères d’audience supplémentaires à la place.
-
-##### Choisir parmi les options suggérées
-
-`Would you like to:`
-`1) Proceed with this expression,`
-`2) Get maximum reach alternatives, or`
-`3) Modify the expression manually?`
-
-Votre réponse : `1`, `proceed`, `2`, `maximum reach`, etc.
-
-Vous pouvez également ignorer la requête et continuer à spécifier des critères d’audience supplémentaires à la place.
 
 ## Création manuelle d’une audience réutilisable
 
