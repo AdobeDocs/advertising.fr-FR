@@ -77,7 +77,7 @@ Vous pouvez poser plusieurs questions dans un seul message, mais un seul message
       * Entités Advertising Creative : [!UICONTROL Experience]
       * Cibles publicitaires : [!UICONTROL Audience], [!UICONTROL City], [!UICONTROL Country], [!UICONTROL State], [!UICONTROL DMA], [!UICONTROL Retargeting Pixel], [!UICONTROL Device OS], [!UICONTROL Device Browser], [!UICONTROL Device Type], [!UICONTROL Zip Code]
 
-   Pour plus d’informations sur les requêtes, voir « [ Bonnes pratiques relatives à l’écriture de requêtes et d’invites ](ai-assistant-about.md#writing-queries). »
+   Pour plus d’informations sur les requêtes, voir « [&#x200B; Bonnes pratiques relatives à l’écriture de requêtes et d’invites &#x200B;](ai-assistant-about.md#writing-queries). »
 
 1. Cliquez sur ![Envoyer la requête](/help/dsp/assets/submit-prompt.png "Envoyer la requête") ou appuyez sur la touche **Entrée** du clavier. Si l’agent demande des informations supplémentaires, fournissez les informations requises.
 

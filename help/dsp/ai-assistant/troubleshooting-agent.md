@@ -74,7 +74,7 @@ Vous pouvez poser plusieurs questions dans un seul message, mais un seul message
 
         1. (Facultatif) Modifiez le texte en fonction de vos besoins.
 
-   Pour plus d’informations sur les requêtes, voir « [ Bonnes pratiques relatives à l’écriture de requêtes et d’invites ](ai-assistant-about.md#writing-queries). »
+   Pour plus d’informations sur les requêtes, voir « [&#x200B; Bonnes pratiques relatives à l’écriture de requêtes et d’invites &#x200B;](ai-assistant-about.md#writing-queries). »
 
    >[!NOTE]
    >
@@ -115,7 +115,7 @@ Vous pouvez poser plusieurs questions dans un seul message, mais un seul message
 
         1. (Facultatif) Modifiez le texte en fonction de vos besoins.
 
-   Pour plus d’informations sur les requêtes, voir « [ Bonnes pratiques relatives à l’écriture de requêtes et d’invites ](ai-assistant-about.md#writing-queries). »
+   Pour plus d’informations sur les requêtes, voir « [&#x200B; Bonnes pratiques relatives à l’écriture de requêtes et d’invites &#x200B;](ai-assistant-about.md#writing-queries). »
 
    >[!NOTE]
    >
