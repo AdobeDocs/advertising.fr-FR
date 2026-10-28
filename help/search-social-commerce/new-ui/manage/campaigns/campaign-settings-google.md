@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 3d982df6837633d7e21b7acb85e8d7fd2c3e1655
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3244'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] des paramètres de la campagne
@@ -251,9 +251,9 @@ par pays. Si vous ne sélectionnez aucune option, elles sont toutes ciblées.
 
 **[!UICONTROL URL exclusions]:** (campagnes pour lesquelles [!DNL AI Max], [!UICONTROL Text customization] et [!UICONTROL Final URL expansion] sont activés) URL à exclure en tant que pages de destination générées à partir de l’extension d’URL finale. Vous pouvez éventuellement ajouter une URL *inclusions* (et non des exclusions) au niveau du groupe publicitaire. Pour ajouter une URL, saisissez une URL ou un fragment d’URL dans le champ de saisie, puis cliquez sur **+**.
 
-**[!UICONTROL Brand inclusions]:** (campagnes pour lesquelles [!DNL AI Max] est activé) Listes des marques pour le compte pour lequel les requêtes liées à la marque peuvent correspondre. Cochez la case en regard de chaque liste de marques à inclure. Vous pouvez remplacer ce paramètre au niveau du groupe publicitaire.
+**[!UICONTROL Brand inclusions]:** (campagnes pour lesquelles [!DNL AI Max] est activé) Listes de marques incluant les marques pour lesquelles les requêtes liées à la marque peuvent correspondre. Dans la liste de toutes les listes de marques configurées pour le compte dans l’éditeur de [!DNL Google Ads], cochez la case en regard de chaque liste de marques à inclure. Vous pouvez remplacer ce paramètre au niveau du groupe publicitaire.
 
-**[!UICONTROL Brand exclusions]:** (campagnes pour lesquelles [!DNL AI Max] est activé) Listes des marques pour le compte pour lequel les requêtes liées à la marque peuvent ne pas correspondre. Cochez la case en regard de chaque liste de marques à exclure.
+**[!UICONTROL Brand exclusions]:** (campagnes pour lesquelles le [!DNL AI Max] est activé) Listes de marques incluant des marques pour lesquelles les requêtes liées à la marque peuvent ne pas correspondre. Dans la liste de toutes les listes de marques configurées pour le compte dans l’éditeur de [!DNL Google Ads], cochez la case en regard de chaque liste de marques à exclure.
 
 ## onglet [!UICONTROL Additional Campaign Information]
 

@@ -15,16 +15,17 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '804'
 ht-degree: 0%
 ---
-# Résoudre les problèmes de performances et de diffusion à l’aide de l’assistant AI
+# Résolution des problèmes de performances et de diffusion à l’aide de l’assistant AI
+
 
 *Fonction*
 
-L’agent de dépannage de l’assistant AI peut identifier les facteurs qui limitent les performances des packages et emplacements en direct et fournit des recommandations pour résoudre les problèmes. L’agent de dépannage peut vous aider à diagnostiquer les types de problèmes de performances et de diffusion suivants :
+L&#39;agent de dépannage d&#39;AI Assistant identifie les facteurs qui limitent les performances des packages et des emplacements en direct et fournit des instructions et des recommandations étape par étape basées sur les données historiques pour résoudre les problèmes. L’agent de dépannage peut vous aider à diagnostiquer les types de problèmes de performances et de diffusion suivants :
 
 * (Emplacements uniquement) Questions relatives aux dépenses, y compris les dépenses excessives, les dépenses insuffisantes et l’incapacité de dépenser. L&#39;agent évalue les facteurs de fréquence, d&#39;enchères, de ciblage et de plafonnement budgétaire associés dans le cadre du diagnostic.
 
@@ -32,7 +33,7 @@ L’agent de dépannage de l’assistant AI peut identifier les facteurs qui lim
 
 Chaque conversation couvre un seul diagnostic pour un seul package ou emplacement. Une fois que l&#39;agent a obtenu un résultat, commencez une nouvelle conversation pour poser des questions sur un autre problème ou sur un autre package ou emplacement.
 
-L’agent ne peut pas modifier les paramètres, ni créer ou modifier des campagnes ou des composants de campagne. Il ne peut pas non plus diagnostiquer les problèmes d&#39;un emplacement ou d&#39;un package en pause, terminé, archivé ou planifié.
+L’agent ne peut pas modifier les paramètres, créer ou modifier des campagnes ou des composants de campagne, ni diagnostiquer des problèmes pour un emplacement ou un package en pause, terminé, archivé ou planifié.
 
 >[!IMPORTANT]
 >
@@ -87,7 +88,7 @@ Vous pouvez poser plusieurs questions dans un seul message, mais un seul message
 >
 >Pour poser des questions sur un autre problème, ou sur un autre package ou emplacement, [démarrez une nouvelle conversation](#conversation-new).
 
-## Envoyer une requête à partir de la vue [!UICONTROL Placements] ou [!UICONTROL Placements]
+## Envoyer une requête à partir de la vue [!UICONTROL Packages] ou [!UICONTROL Placements]
 
 Vous pouvez poser plusieurs questions dans un seul message, mais un seul message à la fois. Attendez une réponse avant d’en envoyer une autre.
 
@@ -130,7 +131,7 @@ Vous pouvez poser plusieurs questions dans un seul message, mais un seul message
 
 ## Démarrer une nouvelle conversation {#conversation-new}
 
-Chaque conversation, ou thread de requête, est enregistré séparément afin que vous puissiez distinguer vos conversations précédentes.
+Chaque conversation (ou thread de requête) est enregistré séparément afin que vous puissiez distinguer vos conversations précédentes.
 
 1. Dans la partie supérieure du [chatbox](#ai-assistant-open), cliquez sur ![Démarrer une nouvelle conversation](/help/dsp/assets/new-selection.png "Démarrer une nouvelle conversation").
 
