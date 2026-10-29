@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1390'
 ht-degree: 0%
 ---
 # Gestion des emplacements
@@ -86,7 +86,7 @@ L’affichage de la page nécessite l’autorisation [!UICONTROL View Placements
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
-1. Si nécessaire, cliquez sur le **[!UICONTROL Edit]** ![Modifier](/help/search-social-commerce/assets/edit-new.png "Modifier") et modifiez l&#39;entité et/ou les paramètres d&#39;emplacement.
+1. Vérifiez les paramètres. Pour modifier des paramètres, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit-new.png "Modifier") **[!UICONTROL Edit]** dans la section applicable et modifiez les paramètres.
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
@@ -114,7 +114,7 @@ Vous pouvez créer des emplacements négatifs pour une campagne [!DNL Google Ads
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
-1. Si nécessaire, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit-new.png "Modifier") **[!UICONTROL Edit]** et modifiez l’entité et/ou les URL de site web négatives.
+1. Vérifiez les paramètres. Pour modifier des paramètres, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit-new.png "Modifier") **[!UICONTROL Edit]** dans la section applicable et modifiez les paramètres.
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
@@ -209,7 +209,7 @@ Vous pouvez affecter une seule contrainte à un ou plusieurs emplacements.
 
 ### Annuler l’affectation des contraintes des emplacements {#placement-constraint-unassign}
 
-L’annulation de l’affectation d’une contrainte ne la supprime pas. Pour supprimer une contrainte, ce qui la rend indisponible pour une utilisation ultérieure, reportez-vous à « [&#x200B; Gérer les contraintes pour les unités d’offres de recherche &#x200B;](/help/search-social-commerce/new-ui/goals/constraints-manage.md#constraint-change-status) ».
+L’annulation de l’affectation d’une contrainte ne la supprime pas. Pour supprimer une contrainte, ce qui la rend indisponible pour une utilisation ultérieure, reportez-vous à « [ Gérer les contraintes pour les unités d’offres de recherche ](/help/search-social-commerce/new-ui/goals/constraints-manage.md#constraint-change-status) ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Targeting]>[!UICONTROL Placements]**.
 

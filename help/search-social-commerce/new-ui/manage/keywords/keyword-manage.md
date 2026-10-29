@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1282'
 ht-degree: 0%
 ---
 # Gestion des mots-clés
@@ -33,7 +33,7 @@ Un mot-clé est un mot ou une expression associé à une publicité. Les paramè
 
 Une fois que vous [rendez un compte de réseau publicitaire accessible via une connexion API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) et que Search, Social et Commerce a synchronisé les données du compte avec le réseau publicitaire, vous pouvez créer des mots-clés pour les groupes publicitaires de recherche dans [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md). Vous pouvez également modifier et modifier le statut des mots-clés, ainsi que créer et supprimer des mots-clés négatifs.
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
 
 ## À propos de la vue [!UICONTROL Keywords] {#keyword-view-about}
 
@@ -81,7 +81,7 @@ La vue [!UICONTROL Manage] > [!UICONTROL Keywords] comprend deux onglets pour le
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
-1. Si nécessaire, cliquez sur le **[!UICONTROL Edit]** ![Modifier](/help/search-social-commerce/assets/edit-new.png "Modifier") et modifiez les paramètres de l’entité et/ou du mot-clé.
+1. Vérifiez les paramètres. Pour modifier des paramètres, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit-new.png "Modifier") **[!UICONTROL Edit]** dans la section applicable et modifiez les paramètres.
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
@@ -105,7 +105,7 @@ La modification du texte du mot-clé ou du type de correspondance peut supprimer
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
-1. Si nécessaire, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit-new.png "Modifier") **[!UICONTROL Edit]** et modifiez les paramètres du mot-clé.
+1. Vérifiez les paramètres. Pour modifier des paramètres, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit-new.png "Modifier") **[!UICONTROL Edit]** dans la section applicable et modifiez les paramètres.
 
 1. Cliquez sur **[!UICONTROL Update]**.
 
@@ -147,7 +147,7 @@ Vous pouvez créer des mots-clés négatifs pour un groupe publicitaire ou une c
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
-1. Si nécessaire, cliquez sur le **[!UICONTROL Edit]** ![Modifier](/help/search-social-commerce/assets/edit-new.png "Modifier") et modifiez l’entité et/ou les mots-clés négatifs.
+1. Vérifiez les paramètres. Pour modifier des paramètres, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit-new.png "Modifier") **[!UICONTROL Edit]** dans la section applicable et modifiez les paramètres.
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
