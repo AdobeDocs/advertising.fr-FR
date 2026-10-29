@@ -27,7 +27,7 @@ Vous gérerez vos comptes publicitaires conversationnels [!DNL ChatGPT Ads] (y c
 
 Les critères d’éligibilité pour cette fonctionnalité sont les suivants :
 
-* **Clients [!DNL Search, Social, & Commerce] existants :** si votre annonceur utilise déjà [!DNL Search, Social, & Commerce], [ [!DNL ChatGPT Ads]  créez et gérez ses campagnes dans Search, Social et Commerce](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md) plutôt que dans DSP.
+* **Clients [!DNL Search, Social, & Commerce] existants :** si votre annonceur utilise déjà [!DNL Search, Social, & Commerce], [&#x200B; [!DNL ChatGPT Ads]  créez et gérez ses campagnes dans Search, Social et Commerce](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md) plutôt que dans DSP.
 
 * **Secteurs restreints :** les annonceurs appartenant à des catégories restreintes (par exemple, finance ou santé) ne peuvent pas créer de comptes ou de campagnes publicitaires conversationnels.
 
