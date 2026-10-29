@@ -209,7 +209,7 @@ Vous pouvez affecter une seule contrainte à un ou plusieurs emplacements.
 
 ### Annuler l’affectation des contraintes des emplacements {#placement-constraint-unassign}
 
-L’annulation de l’affectation d’une contrainte ne la supprime pas. Pour supprimer une contrainte, ce qui la rend indisponible pour une utilisation ultérieure, reportez-vous à « [ Gérer les contraintes pour les unités d’offres de recherche ](/help/search-social-commerce/new-ui/goals/constraints-manage.md#constraint-change-status) ».
+L’annulation de l’affectation d’une contrainte ne la supprime pas. Pour supprimer une contrainte, ce qui la rend indisponible pour une utilisation ultérieure, reportez-vous à « [&#x200B; Gérer les contraintes pour les unités d’offres de recherche &#x200B;](/help/search-social-commerce/new-ui/goals/constraints-manage.md#constraint-change-status) ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Targeting]>[!UICONTROL Placements]**.
 
