@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1464'
 ht-degree: 0%
 ---
 # À propos de la gestion des audiences dans Advertising DSP
@@ -58,7 +58,7 @@ Dans DSP, vous pouvez créer et gérer des segments d’audience et des ensemble
 
   * Incluez des segments tiers qui contiennent des identifiants universels dans vos cibles d’emplacement sans étapes supplémentaires.
 
-* Créez une bibliothèque d’audiences [audiences réutilisables](/help/dsp/audiences/reusable-audience-create.md). Les audiences enregistrées sont composées de l’un des segments d’audience disponibles et de l’autre de vos audiences enregistrées. Toutes les modifications apportées à une audience enregistrée sont automatiquement appliquées à tous les emplacements qui ciblent ou excluent l’audience et à toutes les autres audiences qui incluent l’audience enregistrée.
+* Créez une bibliothèque d’audiences [audiences réutilisables](/help/dsp/audiences/reusable-audience-create.md) à l’aide d’un workflow assisté par l’IA ou manuellement. Les audiences enregistrées sont composées de l’un des segments d’audience disponibles et de l’autre de vos audiences enregistrées. Toutes les modifications apportées à une audience enregistrée sont automatiquement appliquées à tous les emplacements qui ciblent ou excluent l’audience et à toutes les autres audiences qui incluent l’audience enregistrée.
 
   Les audiences enregistrées permettent aux planificateurs de médias de regrouper les audiences selon les besoins, en incluant et en excluant plusieurs segments à l’aide d’une logique booléenne complexe. La taille (ciblée) de chaque segment individuel et la taille globale de l’audience active sont indiquées au fur et à mesure que vous créez une audience. Les personnes en charge de l&#39;exécution des campagnes peuvent alors simplement sélectionner une ou plusieurs audiences enregistrées comme cibles d&#39;emplacement plutôt que de configurer manuellement les cibles d&#39;audience pour chaque emplacement.
 

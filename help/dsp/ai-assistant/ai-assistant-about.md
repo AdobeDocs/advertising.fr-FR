@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '455'
 ht-degree: 0%
 ---
 # À propos de l’assistant AI dans Advertising DSP
@@ -36,6 +36,7 @@ Les workflows suivants peuvent vous aider à accomplir votre travail plus effica
 
 | Fonctionnalité | Description | Réponses |
 | --- | --- | --- |
+| [Agent du créateur d’audience](/help/dsp/ai-assistant/audience-builder-agent.md) | (Fonctionnalité Beta) Générez des audiences réutilisables, qui peuvent inclure tous les segments propriétaires et tiers disponibles pour vous, ainsi que d’autres audiences enregistrées. | Les réponses incluent d’abord une définition d’audience, puis les segments d’audience résultants, que vous pouvez enregistrer en tant qu’audience. |
 | [Dépannage](troubleshooting-agent.md) | (Fonction Beta) Diagnostiquer les problèmes de performances et de diffusion pour les packages et emplacements en direct. | La réponse inclut des facteurs qui limitent les performances et fournit des instructions et des recommandations détaillées pour résoudre les problèmes. |
 | [Informations](insights-agent.md) | (Fonction Beta) Obtenez des mesures de campagne et des rapports complets sans créer manuellement de rapport. Vous pouvez télécharger les résultats au format CSV. | Les premières lignes du rapport s’affichent avec des liens pour prévisualiser le rapport complet et télécharger le rapport sous la forme d’un fichier de valeurs séparées par des virgules [!DNL Microsoft Excel] (.csv). |
 | [Recherche de documentation du produit](documentation-search.md) | Recherchez du contenu conceptuel et pratique dans le [Guide d’](/help/dsp/home.md) et, pour les annonceurs qui utilisent Advertising Creative, le [Guide d’Advertising Creative](/help/creative/home.md). | La réponse comprend des citations intégrées et une liste de [!UICONTROL Documentation Sources] extensible en bas. Cliquez sur une citation ou une liste de sources pour ouvrir la page correspondante.<br><br>La réponse peut également inclure des questions et des suggestions de suivi pour vous aider à affiner votre requête et à trouver plus d’informations. |

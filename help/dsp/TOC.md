@@ -4,9 +4,9 @@ user-guide-title: Guide d’Advertising DSP
 user-guide-description: Découvrez les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires pour gérer, optimiser et établir des rapports sur vos stratégies de publicité display à lʼaide dʼAdvertising DSP.
 breadcrumb-title: Guide DSP
 index: true
-source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1103'
 ht-degree: 3%
 ---
 
@@ -27,8 +27,9 @@ ht-degree: 3%
   + [Solutions de mesure avancées](/help/dsp/introduction/advanced-measurement-services.md)
 + Assistant AI dans Advertising DSP {#ai-assistant}
   + [À propos de l’assistant AI dans Advertising DSP](/help/dsp/ai-assistant/ai-assistant-about.md)
+  + [Générer des audiences réutilisables à l’aide de l’assistant AI](/help/dsp/ai-assistant/audience-builder-agent.md)
   + [Créer des rapports à l’aide de l’assistant AI](/help/dsp/ai-assistant/insights-agent.md)
-  + [Résoudre les problèmes de performances et de diffusion à l’aide de l’assistant AI](/help/dsp/ai-assistant/troubleshooting-agent.md)
+  + [Résolution des problèmes de performances et de diffusion à l’aide de l’assistant AI](/help/dsp/ai-assistant/troubleshooting-agent.md)
   + [Rechercher de la documentation sur les produits à l’aide de l’assistant AI](/help/dsp/ai-assistant/documentation-search.md)
   + [Utiliser les conversations précédentes de l’assistant d’IA](/help/dsp/ai-assistant/previous-conversations.md)
 + Gestion des campagnes {#campaign-management}

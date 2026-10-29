@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3d3a87acf3e963eb0ebbc8528c154d4193457c69
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '438'
 ht-degree: 0%
 ---
 # (Nouvelle interface utilisateur) Afficher l’historique des modifications d’un portefeuille
@@ -26,7 +26,7 @@ Vous pouvez filtrer les données par catégorie<!-- Not available as of 5-14: an
 
 Vous pouvez également télécharger les données dans un fichier de feuille de calcul.
 
-## (Nouvelle interface utilisateur) Afficher l’historique des modifications d’un portefeuille {#portfolio-change-history}
+## Afficher l&#39;historique des modifications d&#39;un portefeuille {#portfolio-change-history}
 
 Les informations de chaque modification incluent la date, le nom d’utilisateur de la personne qui a effectué la modification, le type de modification et la valeur modifiée.
 

@@ -15,15 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '808'
 ht-degree: 0%
 ---
 # Résolution des problèmes de performances et de diffusion à l’aide de l’assistant AI
 
-
 *Fonction*
+
+*Prise en charge en anglais uniquement*
 
 L&#39;agent de dépannage d&#39;AI Assistant identifie les facteurs qui limitent les performances des packages et des emplacements en direct et fournit des instructions et des recommandations étape par étape basées sur les données historiques pour résoudre les problèmes. L’agent de dépannage peut vous aider à diagnostiquer les types de problèmes de performances et de diffusion suivants :
 

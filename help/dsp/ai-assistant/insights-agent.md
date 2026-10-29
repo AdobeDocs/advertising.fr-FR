@@ -15,14 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 ---
 # Créer des rapports à l’aide de l’assistant AI
 
 *Fonction*
+
+*Prise en charge en anglais uniquement*
 
 Utilisez l’agent d’informations de l’assistant d’IA pour obtenir des mesures et des rapports complets pour vos campagnes, composants de campagne, expériences Advertising Creative, annonceurs et cibles publicitaires, sans créer manuellement de rapport. Vous pouvez poser des questions simples sur une mesure spécifique, telle que les dépenses ou le CPA pour une campagne, ou demander un rapport plus complexe pour une dimension spécifique (telle qu’une campagne ou une audience unique) ou entre les dimensions (pour les répartitions pour chaque campagne et annonceur). Vous pouvez télécharger les résultats au format CSV.
 
