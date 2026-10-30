@@ -56,7 +56,7 @@ Vos bibliothèques Creative vous permettent de gérer les contenus publicitaires
 
 ## Expériences basées sur des règles et expériences non ciblées
 
-* **Expériences ciblées et basées sur des règles :** créez des histoires à l’aide d’un modèle d’arbre de décision basé sur des règles, en déployant une chaîne chorégraphiée d’annonces personnalisées en temps réel en fonction de ce que vous savez de votre audience. Par exemple, les histoires peuvent changer en fonction du comportement des clients, de la zone géographique, des données démographiques, du reciblage, de la position sur le parcours des clients, etc. Créez et modifiez l’arborescence de décision à l’aide de l’éditeur piloté par l’IA [ (Beta)](/help/creative/experiences/experience-decision-tree.md#ai-editor) avec une assistance conversationnelle et des commandes de zone de travail directes, ou utilisez l’éditeur manuel.
+* **Expériences ciblées et basées sur des règles :** créez des histoires à l’aide d’un modèle d’arbre de décision basé sur des règles, en déployant une chaîne chorégraphiée d’annonces personnalisées en temps réel en fonction de ce que vous savez de votre audience. Par exemple, les histoires peuvent changer en fonction du comportement des clients, de la zone géographique, des données démographiques, du reciblage, de la position sur le parcours des clients, etc. Créez et modifiez l’arborescence de décision à l’aide de l’éditeur piloté par l’IA [&#x200B; (Beta)](/help/creative/experiences/experience-decision-tree.md#ai-editor) avec une assistance conversationnelle et des commandes de zone de travail directes, ou utilisez l’éditeur manuel.
 
 * **Expériences non ciblées :** planifiez et optimisez les éléments publicitaires sans réduire l’audience.
 

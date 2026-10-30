@@ -63,7 +63,7 @@ L’éditeur piloté par l’IA (Beta) s’ouvre par défaut. Vous pouvez config
 
    * [Copiez les nœuds enfants et les éléments créatifs](experience-target-node-copy.md#ai-editor) ou [supprimez un nœud](experience-target-node-delete.md#ai-editor).
 
-1. [Attribuez des lots créatifs aux nœuds finaux](experience-assign-creative-bundles.md#ai-editor) et, éventuellement[ personnalisez l’optimisation et la planification de la création](experience-optimization-scheduling-targeting.md) ainsi que les [URL de suivi](experience-tracking-urls-targeting.md#ai-editor).
+1. [Attribuez des lots créatifs aux nœuds finaux](experience-assign-creative-bundles.md#ai-editor) et, éventuellement[&#x200B; personnalisez l’optimisation et la planification de la création](experience-optimization-scheduling-targeting.md) ainsi que les [URL de suivi](experience-tracking-urls-targeting.md#ai-editor).
 
    Pour publier l’expérience, vous devez affecter des lots à chaque nœud final ou utiliser les contenus publicitaires par défaut de l’expérience. Lors de l’enregistrement, vous pouvez affecter des valeurs par défaut aux nœuds non affectés.
 
@@ -99,7 +99,7 @@ L’éditeur piloté par l’IA (Beta) s’ouvre par défaut. Vous pouvez config
 
    * [Copiez les nœuds enfants et les éléments créatifs](experience-target-node-copy.md#manual-editor) ou [supprimez un nœud](experience-target-node-delete.md#manual-editor).
 
-   * [Attribuez des lots de contenu créatif](experience-assign-creative-bundles.md#manual-editor) et, éventuellement[ personnalisez l’optimisation et la planification de la création](experience-optimization-scheduling-targeting.md) ainsi que les [URL de suivi](experience-tracking-urls-targeting.md#manual-editor).
+   * [Attribuez des lots de contenu créatif](experience-assign-creative-bundles.md#manual-editor) et, éventuellement[&#x200B; personnalisez l’optimisation et la planification de la création](experience-optimization-scheduling-targeting.md) ainsi que les [URL de suivi](experience-tracking-urls-targeting.md#manual-editor).
 
 1. (Facultatif) Pour modifier les paramètres généraux de l’expérience, cliquez sur **[!UICONTROL Experience Form]** et modifiez les [paramètres généraux de l’expérience](experience-settings-targeting.md).
 

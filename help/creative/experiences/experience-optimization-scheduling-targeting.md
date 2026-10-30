@@ -44,7 +44,7 @@ Vous pouvez configurer ces paramètres directement dans la zone de travail de l�
 
 * **[!UICONTROL Algorithmic]:** affiche plus souvent les variantes d’annonce publicitaire les plus efficaces, en fonction d’un objectif d’optimisation spécifié, tel que le taux de clic publicitaire ou un objectif personnalisé Advertising DSP.
 
-* **[!UICONTROL Sequence](éditeur piloté par l’IA) ou [!UICONTROL Sequencing] (éditeur manuel) :** affiche les lots de création associés dans un ordre spécifié, avec un nombre spécifié d’impressions pour chaque lot de la séquence. Par défaut, les lots sont séquencés dans l’ordre dans lequel ils ont été ajoutés à l’expérience. Les tailles des annonces diffusées sont déterminées par l’inventaire disponible. Le lot final peut servir indéfiniment (valeur par défaut) ou la séquence peut revenir au premier lot.
+* **[!UICONTROL Sequence] (éditeur piloté par l’IA) ou [!UICONTROL Sequencing] (éditeur manuel) :** affiche les lots de création associés dans un ordre spécifié, avec un nombre spécifié d’impressions pour chaque lot de la séquence. Par défaut, les lots sont séquencés dans l’ordre dans lequel ils ont été ajoutés à l’expérience. Les tailles des annonces diffusées sont déterminées par l’inventaire disponible. Le lot final peut servir indéfiniment (valeur par défaut) ou la séquence peut revenir au premier lot.
 
   Par exemple, une séquence peut servir de variantes d’annonces du lot 1 pour trois impressions, du lot 2 pour une impression et du lot 3 pour deux impressions, puis se répéter. Sans bouclage, le lot 3 continue à servir indéfiniment.
 
