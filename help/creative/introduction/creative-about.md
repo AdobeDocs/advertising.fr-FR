@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 336176fe71b8835779710cabf71bcb33568df688
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '531'
 ht-degree: 0%
 ---
 # À propos de Adobe Advertising Creative 2.0
@@ -56,7 +56,7 @@ Vos bibliothèques Creative vous permettent de gérer les contenus publicitaires
 
 ## Expériences basées sur des règles et expériences non ciblées
 
-* **Expériences ciblées et basées sur des règles :** créez des histoires à l’aide d’un modèle d’arbre de décision basé sur des règles, en déployant une chaîne chorégraphiée d’annonces personnalisées en temps réel en fonction de ce que vous savez de votre audience. Par exemple, les histoires peuvent changer en fonction du comportement des clients, de la zone géographique, des données démographiques, du reciblage, de la position sur le parcours des clients, etc.
+* **Expériences ciblées et basées sur des règles :** créez des histoires à l’aide d’un modèle d’arbre de décision basé sur des règles, en déployant une chaîne chorégraphiée d’annonces personnalisées en temps réel en fonction de ce que vous savez de votre audience. Par exemple, les histoires peuvent changer en fonction du comportement des clients, de la zone géographique, des données démographiques, du reciblage, de la position sur le parcours des clients, etc. Créez et modifiez l’arborescence de décision à l’aide de l’éditeur piloté par l’IA [ (Beta)](/help/creative/experiences/experience-decision-tree.md#ai-editor) avec une assistance conversationnelle et des commandes de zone de travail directes, ou utilisez l’éditeur manuel.
 
 * **Expériences non ciblées :** planifiez et optimisez les éléments publicitaires sans réduire l’audience.
 

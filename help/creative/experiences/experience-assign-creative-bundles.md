@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '453'
 ht-degree: 0%
 ---
 # Affectez et annulez l’affectation des bundles de création à un nœud final d’une expérience
@@ -36,7 +36,31 @@ Pour les expériences publicitaires standard, vous ne pouvez affecter que des lo
 >
 >Si vous n’affectez pas au moins une offre groupée de contenu créatif à chaque nœud final, vous pouvez choisir d’utiliser les contenus créatifs par défaut pour chaque nœud non affecté lorsque vous [enregistrez l’expérience](experience-create-targeting.md). Pour publier une expérience, vous devez attribuer des lots ou utiliser les contenus publicitaires par défaut pour chaque nœud final.
 
-<!-- 1. [ways to get to the decision tree] -->
+## Utilisation de l’éditeur piloté par l’IA (Beta) {#ai-editor}
+
+Pendant que vous [créez](experience-create-targeting.md#ai-editor) ou [modifiez](experience-edit-targeting.md#ai-editor) l’expérience, utilisez les commandes de la zone de travail :
+
+1. Effectuez l’une des opérations suivantes :
+
+   * Pour un dernier nœud sans lots, cliquez sur **[!UICONTROL Assign Bundles]**.
+
+   * Pour un nœud avec des lots existants, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]** sur son nœud feuille de création.
+
+1. Dans l’onglet **[!UICONTROL Assign Bundles]** , cochez la case en regard de chaque lot à affecter, puis décochez la case en regard de chaque lot à annuler l’affectation.
+
+   Seuls les lots du type approprié pour l’expérience (standard ou dynamique) sont répertoriés.
+
+1. (Facultatif) Ouvrez l’onglet **[!UICONTROL Creative optimisation]** pour [personnaliser la rotation et la planification](experience-optimization-scheduling-targeting.md).
+
+1. Cliquez sur **[!UICONTROL Save]** dans la boîte de dialogue pour mettre à jour l’arborescence de travail.
+
+1. (Facultatif) [Personnaliser les URL de tracking](experience-tracking-urls-targeting.md#ai-editor).
+
+1. [Enregistrez l’expérience](#save) à partir de l’en-tête de l’arborescence pour conserver vos modifications.
+
+## Utilisation de l’éditeur manuel {#manual-editor}
+
+[Ouvrez l’éditeur manuel](experience-edit-targeting.md#experience-open) avant de suivre ces étapes.
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -54,12 +78,9 @@ Pour les expériences publicitaires standard, vous ne pouvez affecter que des lo
 
 1. (Facultatif) [Personnalisez les URL de tracking pour les contenus publicitaires des lots attribués](experience-tracking-urls-targeting.md).
 
-<!--
-1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
-...
+## Enregistrer l’expérience {#save}
 
-These formatted steps are inserted automatically from text in the following file in the _includes folder, which reused in multiple places.
--->
+Les étapes suivantes s’appliquent aux deux éditeurs. L’enregistrement de la boîte de dialogue de lot seul n’enregistre ni ne publie l’expérience.
 
 {{$include /help/_includes/experience-save.md}}
 

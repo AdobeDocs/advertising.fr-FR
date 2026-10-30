@@ -1,23 +1,28 @@
 ---
-source-git-commit: b64f5acd75a7422cb9639e471583effe6a63de42
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '141'
 ht-degree: 0%
 ---
 # Procédure d’enregistrement d’une expérience
 
 <!-- used in multiple procedures -->
 
-1. (Facultatif) Pour enregistrer l’expérience, cliquez sur **[!UICONTROL Save]**, puis procédez comme suit.
+1. Pour enregistrer l’expérience, cliquez sur **[!UICONTROL Save]** dans l’en-tête de l’arborescence de décision.
 
-   * (Si chaque nœud au niveau le plus bas comprend au moins un lot de contenu créatif) Cliquez sur **[!UICONTROL OK]**.
+   Dans l’éditeur piloté par l’IA (Beta), attendez que l’assistant ait terminé le traitement avant d’enregistrer.
 
-   * (Si chaque nœud au niveau le plus bas n’inclut pas au moins un lot de contenu créatif) Effectuez l’une des opérations suivantes :
+1. Si un avertissement indique que la planification est incomplète, cliquez sur **[!UICONTROL OK]**, corrigez les planifications afin que les lots couvrent toutes les dates de la planification publicitaire, puis cliquez de nouveau sur **[!UICONTROL Save]**.
 
-     * Pour enregistrer l’expérience sans tous les lots de création requis, cliquez sur **[!UICONTROL Save as Draft]**.
+1. Dans la boîte de dialogue de confirmation d’enregistrement, effectuez l’une des opérations suivantes :
 
-       Vous ne pouvez pas créer de balise publicitaire pour une expérience [brouillon](/help/creative/experiences/experience-about.md#experience-statuses).
+   * Si chaque nœud final a affecté des offres groupées de contenu créatif ou utilise des contenus créatifs par défaut, cliquez sur **[!UICONTROL OK]** dans la boîte de dialogue **[!UICONTROL Save & Publish]** pour enregistrer et publier l’arborescence.
 
-       * Pour attribuer le contenu créatif par défaut à chaque cible qui n’a pas encore reçu de lot de contenu créatif, cliquez sur **[!UICONTROL Assign Default Creatives]**. Après avoir consulté l’arborescence mise à jour avec les contenus publicitaires par défaut attribués, cliquez sur **[!UICONTROL Save]** et **[!UICONTROL OK]**.
+   * Si les nœuds finaux ne comportent pas de contenu publicitaire, choisissez l’une des options suivantes :
 
-       * Pour continuer à modifier l’arborescence de décision, cliquez sur **[!UICONTROL Continue Edit]**.
+     * Cliquez sur **[!UICONTROL Save as Draft]** pour enregistrer sans publier. Vous ne pouvez pas générer de balise publicitaire pour une expérience [brouillon](/help/creative/experiences/experience-about.md#experience-statuses).
+
+     * Cliquez sur **[!UICONTROL Assign Default Creatives]** pour utiliser les contenus publicitaires par défaut de l’expérience pour les nœuds non affectés. Vérifiez l’arborescence mise à jour, puis cliquez sur **[!UICONTROL Save]** et **[!UICONTROL OK]**.
+
+     * Cliquez sur **[!UICONTROL Continue Edit]** pour revenir à l’arborescence sans enregistrer.
+

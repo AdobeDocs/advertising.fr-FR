@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '1225'
 ht-degree: 0%
 ---
 # Ajouter un nœud cible au niveau final d’une expérience
@@ -31,45 +31,119 @@ Lorsque vous ajoutez un nœud cible au niveau le plus bas de l’expérience, qu
 
 >[!NOTE]
 >
->Pour insérer un nœud cible entre les niveaux existants d’une arborescence de décision, consultez « [&#x200B; Insérer un nœud cible entre les nœuds d’une expérience &#x200B;](experience-target-node-add-inner.md) ».
+>Pour insérer un nœud cible entre les niveaux existants d’une arborescence de décision, consultez « [ Insérer un nœud cible entre les nœuds d’une expérience ](experience-target-node-add-inner.md) ».
 
-<!-- 1. [ways to get to the decision tree] -->
+## Utilisation de l’éditeur piloté par l’IA (Beta) {#ai-editor}
 
-1. Sous le nœud où vous souhaitez insérer la cible, cliquez sur ![Ajouter](/help/creative/assets/add.png "Ajouter"), puis sélectionnez **[!UICONTROL Insert New Target]**.
+Pendant que vous [créez](experience-create-targeting.md#ai-editor) ou [modifiez](experience-edit-targeting.md#ai-editor) l’expérience, vous pouvez décrire la nouvelle cible et sa branche parente à l’agent d’IA. Examinez l’arborescence résultante avant d’enregistrer. Pour ajouter la cible directement dans la zone de travail :
 
-1. Spécifiez les cibles :
+1. Placez le curseur au-dessus du nœud parent à la fin de la branche, puis cliquez sur **[!UICONTROL +]**.
 
-   * Pour les cibles d’audience, sélectionnez **[!UICONTROL Audience]**, cliquez sur **[!UICONTROL Click to Browse]** pour ouvrir vos options de [!UICONTROL Audience Targeting], puis procédez comme suit :
+1. Dans **[!UICONTROL New targeting level]**, sélectionnez la catégorie cible, puis cliquez sur **[!UICONTROL Add targeting level]**.
 
-     * Pour ajouter le premier segment, localisez le segment dans le panneau de gauche, puis cochez la case en regard du nom du segment.
+1. Indiquez les valeurs cibles pour la catégorie :
 
-     * Pour ajouter un segment à un groupe de segments existant :
+   * Pour les cibles d’audience :
 
-       1. Cliquez sur le groupe de segments dans le panneau de droite.
+     * Pour ajouter le premier segment, recherchez et sélectionnez le segment ciblé.
 
-       1. (Facultatif) Modifiez la logique de groupe en *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, selon les besoins.
+     * Pour ajouter des segments à un groupe de segments existant :
 
-          *[!UICONTROL Exclude All]* n’est pas disponible pour le premier groupe de segments. Dans le cas d’une audience qui comprend uniquement des exclusions, créez cette audience sous la forme *[!UICONTROL Include Any]*, puis excluez-la lorsque vous l’ajoutez à un emplacement de votre DSP.
+       1. Sélectionnez le groupe de segments.
 
-       1. Recherchez le nouveau segment dans le panneau de gauche, puis cochez la case en regard du nom du segment.
+       1. (Facultatif) Modifiez la logique de groupe en **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** ou **[!UICONTROL Exclude All]**, selon les besoins.
 
-          Le groupe de segments est automatiquement mis à jour avec le nouveau segment.
+          **[!UICONTROL Include Any]** correspond aux utilisateurs d’au moins un segment sélectionné ; **[!UICONTROL Include All]** nécessite une adhésion à tous les segments sélectionnés.
+
+          **[!UICONTROL Exclude All]** n’est pas disponible pour le premier groupe de segments. Dans le cas d’une audience qui comprend uniquement des exclusions, créez l’audience à l’aide de **[!UICONTROL Include Any]**, puis excluez cette audience lorsque vous l’ajoutez à un emplacement de votre DSP.
+
+       1. Recherchez et sélectionnez les segments supplémentaires.
 
      * Pour ajouter un nouveau groupe de segments :
 
-       1. Cliquez sur **[!UICONTROL + New Group]** dans le panneau de droite.
+       1. Ajoutez un groupe.
 
-       1. (Facultatif) Modifiez la logique entre le groupe précédent et le nouveau groupe en *[!UICONTROL And]* ou *[!UICONTROL Or]*, selon les besoins.
+       1. (Facultatif) Modifiez la logique entre le groupe précédent et le nouveau groupe en **[!UICONTROL And]** ou **[!UICONTROL Or]**, selon les besoins.
 
-       1. Recherchez les segments du nouveau groupe dans le panneau de gauche, puis cochez les cases en regard des noms de segment.
+          **[!UICONTROL And]** exige que les utilisateurs et utilisatrices remplissent les conditions des deux groupes ; **[!UICONTROL Or]** exige qu’ils remplissent au moins les conditions d’un groupe.
 
-       1. (Facultatif) Modifiez la logique de groupe en *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, selon les besoins.
+       1. Recherchez et sélectionnez les segments pour le nouveau groupe.
+
+       1. (Facultatif) Modifiez la logique de groupe en **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** ou **[!UICONTROL Exclude All]**, selon les besoins.
+
+   * Pour les objectifs géographiques :
+
+     * Sélectionnez les emplacements au sein de la catégorie géographique que vous avez choisie, tels que les pays, les régions ou les villes.
+
+     * Pour les cibles de code postal, sélectionnez le pays et saisissez les codes postaux à inclure. Pour saisir plusieurs codes postaux en bloc, séparez-les par des virgules ou placez chaque code sur une ligne distincte.
+
+   * Pour les cibles de transfert de données, saisissez la clé et la valeur à faire correspondre.
+
+     La clé de transfert de données par défaut est configurée dans le champ **[!UICONTROL Data Pass]** de la section **[!UICONTROL Advanced]** des [paramètres généraux de l’expérience](experience-settings-targeting.md). Si nécessaire, personnalisez la clé de la cible.
+
+   * Pour le reciblage des cibles de pixels, sélectionnez le pixel de reciblage et spécifiez les valeurs de tous les attributs de pixel requis pour afficher les éléments créatifs.
+
+     Les attributs disponibles sont configurés dans les [paramètres des pixels de reciblage](/help/creative/pixels/retargeting-pixel-manage.md).
+
+   * Pour les cibles d’appareil, sélectionnez les valeurs dans la catégorie d’appareil choisie : types d’appareil, systèmes d’exploitation ou navigateurs.
+
+1. (Si disponible ; facultatif) Sélectionnez **[!UICONTROL Split Nodes]** pour créer un nœud cible distinct pour chaque valeur sélectionnée, avec ses propres affectations de lot de création. Dans le cas contraire, les valeurs sélectionnées seront regroupées dans un nœud cible.
+
+1. Cliquez sur **[!UICONTROL Add Node]**.
+
+1. (Facultatif) Pour renommer un nœud cible défini par l’utilisateur, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**, saisissez le **[!UICONTROL Node Name]**, puis cliquez sur **[!UICONTROL Save]**.
+
+   Vous ne pouvez pas renommer un nœud « Tous » ou « Tous les autres ».
+
+1. [Attribuez des lots de contenu créatif](experience-assign-creative-bundles.md#ai-editor) aux nouveaux nœuds finaux, y compris la branche de secours, ou utilisez des contenus créatifs par défaut lorsque vous [enregistrez l’expérience](#save).
+
+## Utilisation de l’éditeur manuel {#manual-editor}
+
+[Ouvrez l’éditeur manuel](experience-edit-targeting.md#experience-open) avant de suivre ces étapes.
+
+1. Sous le nœud où vous souhaitez insérer la cible, cliquez sur ![Ajouter](/help/creative/assets/add.png "Ajouter"), puis sélectionnez **[!UICONTROL Insert New Target]**.
+
+1. Indiquez les valeurs cibles pour la catégorie :
+
+   * Pour les cibles d’audience :
+
+     1. Sélectionnez **[!UICONTROL Audience]**, puis cliquez sur **[!UICONTROL Click to Browse]** pour ouvrir les options **[!UICONTROL Audience Targeting]**.
+
+     1. Configurez les segments et groupes d’audience :
+
+        * Pour ajouter le premier segment, localisez le segment dans le panneau de gauche, puis cochez la case en regard du nom du segment.
+
+        * Pour ajouter des segments à un groupe de segments existant :
+
+          1. Cliquez sur le groupe de segments dans le panneau de droite.
+
+          1. (Facultatif) Modifiez la logique de groupe en **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** ou **[!UICONTROL Exclude All]**, selon les besoins.
+
+             **[!UICONTROL Include Any]** correspond aux utilisateurs d’au moins un segment sélectionné ; **[!UICONTROL Include All]** nécessite une adhésion à tous les segments sélectionnés.
+
+             **[!UICONTROL Exclude All]** n’est pas disponible pour le premier groupe de segments. Dans le cas d’une audience qui comprend uniquement des exclusions, créez l’audience à l’aide de **[!UICONTROL Include Any]**, puis excluez cette audience lorsque vous l’ajoutez à un emplacement de votre DSP.
+
+          1. Recherchez le nouveau segment dans le panneau de gauche, puis cochez la case en regard du nom du segment. Répétez l’opération pour chaque segment supplémentaire.
+
+             Le groupe de segments est automatiquement mis à jour avec les nouveaux segments.
+
+        * Pour ajouter un nouveau groupe de segments :
+
+          1. Cliquez sur **[!UICONTROL + New Group]** dans le panneau de droite.
+
+          1. (Facultatif) Modifiez la logique entre le groupe précédent et le nouveau groupe en **[!UICONTROL And]** ou **[!UICONTROL Or]**, selon les besoins.
+
+             **[!UICONTROL And]** exige que les utilisateurs et utilisatrices remplissent les conditions des deux groupes ; **[!UICONTROL Or]** exige qu’ils remplissent au moins les conditions d’un groupe.
+
+          1. Recherchez les segments du nouveau groupe dans le panneau de gauche, puis cochez les cases en regard des noms de segment.
+
+          1. (Facultatif) Modifiez la logique de groupe en **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** ou **[!UICONTROL Exclude All]**, selon les besoins.
 
      1. Cliquez sur **[!UICONTROL Create]**.
 
      1. Cliquez sur **[!UICONTROL Apply]**.
 
-   * Pour les cibles géographiques, sélectionnez une seule catégorie géographique (par exemple, [!UICONTROL Geo: Country]), puis procédez comme suit :
+   * Pour les cibles géographiques, sélectionnez une seule catégorie géographique (par exemple, **[!UICONTROL Geo: Country]**), puis procédez comme suit :
 
      1. Cliquez sur **[!UICONTROL Click to Browse]** pour ouvrir les options de votre [!UICONTROL Geo Targeting], spécifiez une ou plusieurs cibles géographiques, puis cliquez sur **[!UICONTROL Save]**.
 
@@ -83,11 +157,11 @@ Lorsque vous ajoutez un nœud cible au niveau le plus bas de l’expérience, qu
 
    * Pour une cible de transfert de données, sélectionnez **[!UICONTROL Data Pass]**, personnalisez éventuellement la clé de transfert de données, saisissez une valeur de transfert de données unique, puis cliquez sur **[!UICONTROL Apply]**.
 
-   Une valeur par défaut pour la clé de la paire clé-valeur est déjà définie dans le champ **[!UICONTROL Data Pass]** de la section [!UICONTROL Advanced] des [paramètres d’expérience](experience-settings-targeting.md). Vous pouvez éventuellement personnaliser la clé .
+     La clé de transfert de données par défaut est configurée dans le champ **[!UICONTROL Data Pass]** de la section **[!UICONTROL Advanced]** des [paramètres généraux de l’expérience](experience-settings-targeting.md). Si nécessaire, personnalisez la clé de la cible.
 
    * Pour une cible de pixel de reciblage, sélectionnez **[!UICONTROL RT Pixel]**, sélectionnez un seul pixel de reciblage à utiliser et les valeurs de l’un des attributs de pixel requis pour afficher les contenus publicitaires, puis cliquez sur **[!UICONTROL Apply]**.
 
-     Les attributs du pixel de reciblage sont configurés dans les [paramètres du pixel de reciblage](/help/creative/pixels/retargeting-pixel-manage.md).
+     Les attributs disponibles sont configurés dans les [paramètres des pixels de reciblage](/help/creative/pixels/retargeting-pixel-manage.md).
 
    * Pour les cibles d’appareil, procédez comme suit :
 
@@ -109,23 +183,13 @@ Lorsque vous ajoutez un nœud cible au niveau le plus bas de l’expérience, qu
 
    1. Saisissez le **[!UICONTROL Node Name]**, puis cliquez sur **[!UICONTROL Save]**.
 
-1. Effectuez l’une des opérations suivantes :
+1. (Facultatif) [Attribuez des bundles de création](experience-assign-creative-bundles.md#manual-editor) au nouveau nœud cible et au nœud « Tout le reste ».
 
-   * (Facultatif) [Attribuez des contenus publicitaires](experience-assign-creative-bundles.md) au nouveau nœud cible et au nœud « Tout le reste ».
+## Enregistrer l’expérience {#save}
 
-   * (Facultatif) Pour enregistrer l’expérience :
+Les étapes suivantes s’appliquent aux deux éditeurs.
 
-     1. Cliquez sur **[!UICONTROL Save]**, puis sur **[!UICONTROL OK]**.
-
-     1. (Si chaque nœud du niveau le plus bas n’inclut pas au moins un élément créatif) : Effectuez l’une des opérations suivantes :
-
-        * Pour enregistrer l’expérience sans tous les lots de création requis, cliquez sur **[!UICONTROL Save as Draft]**.
-
-          Vous ne pouvez pas créer de balise publicitaire pour une expérience de brouillon.
-
-        * Pour attribuer le contenu créatif par défaut à chaque cible qui n’a pas encore reçu de lot de contenu créatif, cliquez sur **[!UICONTROL Assign Default Creatives]**. Après avoir consulté l’arborescence mise à jour avec les contenus publicitaires par défaut attribués, cliquez sur **[!UICONTROL Save]** et **[!UICONTROL OK]**.
-
-        * Pour continuer à modifier l’arborescence de décision, cliquez sur **[!UICONTROL Continue Edit]**.
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

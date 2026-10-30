@@ -19,38 +19,72 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '448'
 ht-degree: 0%
 ---
 # Personnaliser les URL de tracking pour les créatifs d’une expérience avec le ciblage de l’arborescence de décision
 
 *Nœuds Target avec contenu publicitaire existant uniquement*
 
-Pour les expériences avec le ciblage d’arborescence de décision, vous pouvez créer jusqu’à cinq URL de suivi d’impression personnalisées, cinq URL de suivi des clics personnalisées et une URL de page de destination personnalisée pour chaque élément créatif individuel utilisé pour l’expérience. Vous pouvez personnaliser les URL de tracking depuis l’arborescence de décision.
+Pour les expériences avec le ciblage d’arborescence de décision, vous pouvez créer jusqu’à cinq URL de suivi d’impression personnalisées et cinq URL de suivi des clics personnalisées pour chaque élément créatif individuel utilisé pour l’expérience. Lorsque le remplacement de la page de destination est disponible, vous pouvez également spécifier une URL de page de destination personnalisée. Vous pouvez personnaliser les URL de suivi dans l’un des éditeurs d’arborescence de décision.
 
 Les URL personnalisées sont utilisées uniquement pour les annonces créées à partir de l’expérience et ne sont pas enregistrées dans les paramètres de création de base dans [!UICONTROL Creative Libraries].
 
-1. Placez le curseur au-dessus de la feuille/du dossier du lot de création sous le nœud cible, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
+Le remplacement de la page de destination est disponible pour les expériences standard et pour les nœuds utilisant des contenus publicitaires par défaut. Pour les lots dynamiques attribués, les pages de destination sont déterminées par le flux et l’onglet de page de destination n’est pas affiché.
 
-   Les onglets [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] et [!UICONTROL Landing URLs] répertorient les noms de tous les contenus publicitaires dans les tailles applicables des lots attribués. La taille des contenus publicitaires par défaut pour l’expérience détermine les tailles disponibles.<!-- There's no distinct "Creative Sizes" setting. -->
+## Utilisation de l’éditeur piloté par l’IA (Beta) {#ai-editor}
 
-1. Sur les onglets **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** et **[!UICONTROL Landing URLs]**, procédez comme suit pour chaque élément créatif selon vos besoins :
+Pendant que vous [créez](experience-create-targeting.md#ai-editor) ou [modifiez](experience-edit-targeting.md#ai-editor) l’expérience, utilisez les commandes de la zone de travail :
 
-   1. Développez la ligne pour le contenu créatif.
+1. Sur le nœud feuille de contenu créatif situé sous le nœud cible, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
 
-   1. Effectuez l’une des opérations suivantes :
+1. Sélectionnez l’onglet de **[!UICONTROL Landing URL]** **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** ou (le cas échéant).
 
-      * Pour ajouter ou modifier une URL personnalisée, saisissez l’URL dans le champ de saisie.
+   Les contenus publicitaires sont regroupés par lot. Les tailles de contenu créatif par défaut de l’expérience déterminent les tailles de contenu créatif disponibles.
 
-      * Pour ajouter une autre URL personnalisée, cliquez sur **[!UICONTROL +]** et saisissez l’URL dans le champ de saisie.
+1. Développez le contenu créatif à modifier et effectuez l’une des opérations suivantes :
 
-      * Pour supprimer une URL personnalisée, placez le curseur sur la ligne Creative et cliquez sur ![Supprimer](/help/creative/assets/delete.png "Supprimer").
+   * Pour ajouter ou modifier une URL personnalisée, saisissez l’URL dans le champ de saisie.
 
-      Vous pouvez inclure jusqu’à cinq URL de suivi d’impression personnalisées, cinq URL de suivi des clics personnalisées et une URL de page de destination personnalisée.
+   * Pour ajouter une autre URL de tracking personnalisée, cliquez sur **[!UICONTROL Add URL]**, puis saisissez l&#39;URL dans le champ de saisie.
 
-1. Cliquez sur **[!UICONTROL Save]**.
+   * Pour supprimer une URL personnalisée, cliquez sur **[!UICONTROL Delete URL]**.
+
+   Cliquez en dehors d’un champ modifié et corrigez les erreurs de validation avant d’enregistrer.
+
+1. Cliquez sur **[!UICONTROL Save]** dans la boîte de dialogue pour mettre à jour l’arborescence de travail.
+
+1. [Enregistrez l’expérience](#save) à partir de l’en-tête de l’arborescence.
+
+## Utilisation de l’éditeur manuel {#manual-editor}
+
+[Ouvrez l’éditeur manuel](experience-edit-targeting.md#experience-open) avant de suivre ces étapes.
+
+1. Sur le nœud feuille de contenu créatif situé sous le nœud cible, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
+
+1. Sélectionnez l’onglet de **[!UICONTROL Landing URLs]** **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** ou (le cas échéant).
+
+   Les onglets répertorient les contenus publicitaires dans les lots attribués. Les tailles de contenu créatif par défaut de l’expérience déterminent les tailles de contenu créatif disponibles.<!-- There's no distinct "Creative Sizes" setting. -->
+
+1. Développez le contenu créatif à modifier et effectuez l’une des opérations suivantes :
+
+   * Pour ajouter ou modifier une URL personnalisée, saisissez l’URL dans le champ de saisie.
+
+   * Pour ajouter une autre URL de tracking personnalisée, cliquez sur **[!UICONTROL +]**, puis saisissez l&#39;URL dans le champ de saisie.
+
+   * Pour supprimer une URL personnalisée, placez le curseur sur la ligne Creative, puis cliquez sur ![Supprimer](/help/creative/assets/delete.png "Supprimer").
+
+1. Cliquez sur **[!UICONTROL Save]** dans la boîte de dialogue pour mettre à jour l’arborescence de travail.
+
+1. [Enregistrez l’expérience](#save) à partir de l’en-tête de l’arborescence.
+
+## Enregistrer l’expérience {#save}
+
+Les étapes suivantes s’appliquent aux deux éditeurs. L’enregistrement de la boîte de dialogue d’URL de tracking seule n’enregistre ni ne publie l’expérience.
+
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >
