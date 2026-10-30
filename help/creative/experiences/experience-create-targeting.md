@@ -1,6 +1,6 @@
 ---
 title: Création d’une expérience avec le ciblage d’arborescence de décision
-description: Découvrez comment créer une expérience d’annonce publicitaire ciblée à l’aide d’une arborescence de décision.
+description: Découvrez comment créer une expérience publicitaire ciblée à l’aide de l’éditeur d’arborescence de décision manuel ou piloté par l’IA.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
 TQID: 'https://experienceleague.adobe.com/nxegtoNEqfAk7LUyb-3qD6YJYaGfx3M3QdrLx-q5y14'
@@ -21,79 +21,97 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '715'
 ht-degree: 0%
 ---
 # Création d’une expérience avec le ciblage d’arborescence de décision
 
 Créez une expérience d’annonce publicitaire ciblée à l’aide d’une arborescence de décision. Chaque expérience utilise les annonces d’une seule bibliothèque de contenu créatif.
 
+L’éditeur piloté par l’IA (Beta) s’ouvre par défaut. Vous pouvez configurer l’arborescence par le biais de l’agent AI ou modifier directement sa zone de travail. Vous pouvez également passer à l’éditeur manuel existant.
+
 >[!NOTE]
 >
 >* Une fois que vous avez créé une expérience ciblée, vous ne pouvez pas la modifier ultérieurement en une expérience non ciblée, qui utilise un autre workflow.
 >* Assurez-vous que vos expériences publicitaires incluent un ciblage compatible avec les campagnes dans lesquelles vous allez le mettre en œuvre. Le comportement de ciblage hiérarchique peut varier en fonction du DSP. Lorsque vous chargez une balise d’expérience de publicité vers Advertising DSP et que vous la joignez à un emplacement, le ciblage au niveau des annonces s’applique en plus (et non à la place) du ciblage au niveau des emplacements. Par exemple, si un emplacement cible des utilisateurs en Australie et qu’une annonce cible des utilisateurs au Japon, l’annonce cible la branche « Tout le monde ».
 
+## Création de l’expérience
+
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
 1. Cliquez sur **[!UICONTROL Create New Experience]**.
 
-1. Saisissez les [paramètres généraux de l’expérience](experience-settings-targeting.md).
+1. Renseignez les [paramètres généraux de l’expérience](experience-settings-targeting.md), avec les **[!UICONTROL Targeting]** activés.
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
-1. Dans l’arborescence de décision, procédez comme suit :
+   L’éditeur d’arborescence de décision piloté par l’IA s’ouvre pour la nouvelle expérience.
 
-   1. (Facultatif) Modifiez les paramètres d’affichage de l’arborescence de décision.
+1. Configurez l’arborescence en suivant l’une des procédures suivantes.
 
-      Vos paramètres sont enregistrés jusqu’à la déconnexion.
+## Configurer l’arborescence à l’aide de l’éditeur piloté par l’IA (Beta) {#ai-editor}
 
-      * Effectuez un zoom avant ou arrière en déplaçant le curseur.
+1. Au cours de la conversation, décrivez la structure de ciblage de votre choix, y compris les critères de chaque branche et la manière de gérer les visionneuses qui ne correspondent pas à une cible spécifiée.
 
-      * Basculez entre l&#39;affichage d&#39;une liste verticale et d&#39;une liste horizontale en cliquant sur ![Afficher en tant qu&#39;arborescence verticale](/help/creative/assets/tree-vertical.png "Afficher en tant qu&#39;arborescence verticale") ou ![Afficher comme arborescence horizontale](/help/creative/assets/tree-horizontal.png "Afficher comme arborescence horizontale"), respectivement.
+1. Examinez l’arborescence dans la zone de travail. Pour demander des modifications, décrivez-les dans la conversation. Attendez que l’assistant ait terminé le traitement avant d’interagir avec la zone de travail.
 
-   1. (Facultatif) Configurez les cibles d’annonces publicitaires et les contenus publicitaires correspondants de l’une des manières suivantes :
+1. (Facultatif) Affinez l’arborescence directement dans la zone de travail :
 
-      * Cibles :
+   * [Ajouter une cible de niveau final](experience-target-node-add-final.md#ai-editor), [insérer un niveau cible](experience-target-node-add-inner.md#ai-editor) ou [ajouter une cible sœur](experience-target-node-add-sibling.md#ai-editor).
 
-        * [Ajoutez un nœud cible au niveau final](experience-target-node-add-final.md).
+   * [Copiez les nœuds enfants et les éléments créatifs](experience-target-node-copy.md#ai-editor) ou [supprimez un nœud](experience-target-node-delete.md#ai-editor).
 
-        * [Insérez un nœud cible entre les nœuds](experience-target-node-add-inner.md).
+1. [Attribuez des lots créatifs aux nœuds finaux](experience-assign-creative-bundles.md#ai-editor) et, éventuellement[&#x200B; personnalisez l’optimisation et la planification de la création](experience-optimization-scheduling-targeting.md) ainsi que les [URL de suivi](experience-tracking-urls-targeting.md#ai-editor).
 
-        * [Ajoutez un nœud cible frère entre les nœuds](experience-target-node-add-sibling.md).
+   Pour publier l’expérience, vous devez affecter des lots à chaque nœud final ou utiliser les contenus publicitaires par défaut de l’expérience. Lors de l’enregistrement, vous pouvez affecter des valeurs par défaut aux nœuds non affectés.
 
-        * [Copiez les nœuds enfants et les contenus publicitaires dans un autre nœud au même niveau](experience-target-node-copy.md).
+1. (Facultatif) Modifiez les paramètres généraux de l’expérience :
 
-      * Lots Creative :
+   1. Pour enregistrer les modifications d’arborescence que vous souhaitez conserver, cliquez sur **[!UICONTROL Save]**.
 
-        * [Affectez et annulez l’affectation de contenus publicitaires à un nœud final](experience-assign-creative-bundles.md).
+   1. Cliquez sur **[!UICONTROL Experience Form]**, puis sur **[!UICONTROL Yes]** pour ignorer les modifications d’arborescence non enregistrées et ouvrir le formulaire.
 
-          Si vous n’affectez pas au moins une offre groupée à chaque nœud final, vous pouvez choisir d’utiliser les contenus publicitaires par défaut pour chaque nœud non affecté lorsque vous enregistrez l’expérience. Pour publier une expérience, vous devez attribuer des lots ou utiliser les contenus publicitaires par défaut pour chaque nœud final.
+   1. Modifiez le [paramètres généraux de l’expérience](experience-settings-targeting.md), puis cliquez sur **[!UICONTROL Save]**.
 
-        * [Personnalisez l’optimisation et la planification de la création](experience-optimization-scheduling-targeting.md) pour les lots affectés.
+      L’éditeur piloté par l’IA s’ouvre.
 
-        * [Personnalisez les URL de tracking pour les contenus publicitaires des lots attribués](experience-tracking-urls-targeting.md).
+1. [Enregistrez l’expérience](#save).
 
-1. (Facultatif) Basculez entre l’arborescence de décision et les paramètres généraux :
+## Configuration de l’arborescence à l’aide de l’éditeur manuel {#manual-editor}
 
-   * Pour ouvrir les paramètres généraux à partir de l’arborescence de décision, cliquez sur **[!UICONTROL Experience Form]** dans le coin supérieur droit.
+1. Dans l’éditeur piloté par l’IA, cliquez sur **[!UICONTROL Manual Decision Tree]**, puis sur **[!UICONTROL Yes]** pour quitter l’éditeur piloté par l’IA.
 
-   * Pour ouvrir l’arborescence de décision à partir des paramètres généraux, cliquez sur **[!UICONTROL Decision Tree]** dans le coin supérieur droit.
+   Enregistrez toutes les modifications de l’éditeur d’IA que vous souhaitez conserver avant de changer. Confirmer le changement ignore les modifications d’arborescence non enregistrées.
 
-1. Cliquez sur **[!UICONTROL Save]**, puis procédez comme suit.
+1. (Facultatif) Modifiez les paramètres d’affichage :
 
-   * (Si chaque nœud au niveau le plus bas comprend au moins un lot de contenu créatif) Cliquez sur **[!UICONTROL OK]**.
+   * Effectuez un zoom avant ou arrière en déplaçant le curseur.
 
-   * (Si chaque nœud au niveau le plus bas n’inclut pas au moins un lot de contenu créatif) Effectuez l’une des opérations suivantes :
+   * Basculez entre les vues verticale et horizontale en cliquant sur ![Afficher en tant qu&#39;arborescence verticale](/help/creative/assets/tree-vertical.png "Afficher en tant qu&#39;arborescence verticale") ou ![Afficher comme arborescence horizontale](/help/creative/assets/tree-horizontal.png "Afficher comme arborescence horizontale").
 
-     * Pour enregistrer l’expérience sans tous les lots de création requis, cliquez sur **[!UICONTROL Save as Draft]**.
+   Vos paramètres d’affichage sont enregistrés jusqu’à votre déconnexion.
 
-       Vous ne pouvez pas créer de balise publicitaire pour une expérience [brouillon](experience-about.md#experience-statuses).
+1. Configurez les cibles d’annonces publicitaires et les contenus publicitaires correspondants :
 
-     * Pour attribuer le contenu créatif par défaut à chaque cible qui n’a pas encore reçu de lot de contenu créatif, cliquez sur **[!UICONTROL Assign Default Creatives]**. Après avoir consulté l’arborescence mise à jour avec les contenus publicitaires par défaut attribués, cliquez sur **[!UICONTROL Save]** et **[!UICONTROL OK]**.
+   * [Ajoutez une cible de niveau final](experience-target-node-add-final.md#manual-editor), [insérez une cible entre des nœuds](experience-target-node-add-inner.md#manual-editor) ou [ajoutez une cible sœur](experience-target-node-add-sibling.md#manual-editor).
 
-     * Pour continuer à modifier l’arborescence de décision, cliquez sur **[!UICONTROL Continue Edit]**.
+   * [Copiez les nœuds enfants et les éléments créatifs](experience-target-node-copy.md#manual-editor) ou [supprimez un nœud](experience-target-node-delete.md#manual-editor).
+
+   * [Attribuez des lots de contenu créatif](experience-assign-creative-bundles.md#manual-editor) et, éventuellement[&#x200B; personnalisez l’optimisation et la planification de la création](experience-optimization-scheduling-targeting.md) ainsi que les [URL de suivi](experience-tracking-urls-targeting.md#manual-editor).
+
+1. (Facultatif) Pour modifier les paramètres généraux de l’expérience, cliquez sur **[!UICONTROL Experience Form]** et modifiez les [paramètres généraux de l’expérience](experience-settings-targeting.md).
+
+1. [Enregistrez l’expérience](#save).
+
+## Enregistrer l’expérience {#save}
+
+Les étapes suivantes s’appliquent aux deux éditeurs.
+
+{{$include /help/_includes/experience-save.md}}
+
+## Balises publicitaires et transcodage vidéo pour les expériences enregistrées
 
 Lorsque l’expérience est en ligne, [!DNL Creative] crée automatiquement une balise d’annonce publicitaire pour chaque taille de contenu créatif ou durée de vidéo applicable. Vous pouvez ensuite [exporter une balise publicitaire et l’implémenter dans un DSP](/help/creative/experiences/experience-tag-export.md).
 

@@ -20,12 +20,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1262'
 ht-degree: 0%
 ---
 # Paramètres d’expérience publicitaire ciblée
+
+Ces paramètres généraux sont partagés par l’éditeur d’arborescence de décision piloté par l’IA (Beta) et l’éditeur manuel.
+
+Pour une expérience existante, cliquez sur **[!UICONTROL Experience Form]** dans l’arborescence de décision. Enregistrez d’abord les modifications d’arborescence que vous souhaitez conserver. Quitter l’éditeur piloté par l’IA nécessite une confirmation et ignore les modifications d’arborescence non enregistrées. Voir [Changement d’éditeur ou modification des paramètres d’expérience](experience-edit-targeting.md#switch-editors).
 
 ## section [!UICONTROL Experience basics]
 

@@ -1,6 +1,6 @@
 ---
 title: Disposition de l’arborescence de décision
-description: Découvrez l’arborescence de décision pour les expériences de ciblage.
+description: Découvrez les éditeurs d’arborescence de décision manuels et pilotés par l’IA pour des expériences avec le ciblage.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
 TQID: 'https://experienceleague.adobe.com/JFrcVBHxv90Fchk-VfkmxAITQJswboszNMFOfaAQlL4'
@@ -18,28 +18,46 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '807'
 ht-degree: 0%
 ---
 # Disposition de l’arborescence de décision pour les expériences [!DNL Creative]
 
 Lorsque vous activez l’option « [!UICONTROL Targeting] » pour une expérience, vous configurez l’expérience à l’aide d’une arborescence de décision.
 
-Au départ, chaque arborescence de décision commence par le niveau racine « Tous ». Vous pouvez ajouter un ou plusieurs nœuds cibles, puis attribuer des lots créatifs aux nœuds finaux dans chaque branche de l’arborescence de décision. Par défaut, l’arborescence de décision est affichée verticalement, mais vous pouvez éventuellement la visualiser horizontalement à la place.
+Au départ, chaque arborescence de décision commence par le niveau racine « Tous ». Vous pouvez ajouter un ou plusieurs nœuds cibles, puis attribuer des lots créatifs aux nœuds finaux dans chaque branche de l’arborescence de décision.
+
+## Éditeur piloté par l’IA (Beta) {#ai-editor}
+
+L’éditeur piloté par l’IA s’ouvre par défaut lorsque vous créez ou modifiez une expérience avec le ciblage. Il combine une conversation avec l’agent d’IA et une zone de travail interactive d’arbre de décision.
+
+* Décrivez la structure de ciblage ou les modifications que vous souhaitez apporter à la conversation, puis passez en revue l’arborescence obtenue avant d’enregistrer.
+
+* Modifiez directement la zone de travail pour ajouter des niveaux et des nœuds cibles, attribuer des lots et configurer l’optimisation créative et les URL de suivi. Il n’est pas nécessaire de passer à l’éditeur manuel pour utiliser ces commandes.
+
+* Affichez le nom de l’expérience, le statut et l’annonceur dans l’en-tête et utilisez les identifiants de nœud, le cas échéant, pour identifier les nœuds cibles lorsque vous décrivez des modifications.
+
+* Utilisez **[!UICONTROL Zoom in]**, **[!UICONTROL Zoom out]** et **[!UICONTROL Change orientation]** pour ajuster la vue. **[!UICONTROL Reset tree]** efface l’arborescence après confirmation ; il ne se contente pas de réinitialiser le zoom.
+
+Lorsque l’assistant traite une modification, la zone de travail et son bouton **[!UICONTROL Save]** sont temporairement désactivés. Attendez la fin du traitement avant d’effectuer une autre modification de la zone de travail.
+
+## Éditeur manuel {#manual-editor}
+
+Pour ouvrir l’éditeur manuel existant à partir de l’éditeur piloté par l’IA, cliquez sur **[!UICONTROL Manual Decision Tree]**. Vous pouvez également sélectionner des **[!UICONTROL Create Decision Tree Manually (Legacy)]** à partir des actions de l’expérience dans la vue [!UICONTROL Experiences]. Voir [Changement d’éditeur ou modification des paramètres d’expérience](experience-edit-targeting.md#switch-editors).
+
+Dans l’éditeur manuel, l’arborescence est affichée verticalement par défaut. Vous pouvez passer à une vue horizontale et ajuster le zoom à l’aide d’un curseur. Vos paramètres d’affichage sont enregistrés jusqu’à votre déconnexion.
+
+Les exemples suivants illustrent l’éditeur manuel :
 
 ![Exemple d’arborescence de décision verticale sans cibles](/help/creative/assets/experience-decision-tree-no-targets.png "Exemple d’arborescence de décision verticale sans cibles")
 
 ![Exemple d’arbre de décision horizontal sans cibles](/help/creative/assets/experience-decision-tree-no-targets-horizontal.png "Exemple d’arbre de décision horizontal sans cibles")
 
-<!--
->[!NOTE]
+>[!IMPORTANT]
 >
->You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.
--->
-
-<!-- Explain the diff and why to choose the other option. -->
+>Enregistrez les modifications que vous souhaitez conserver avant de quitter l’éditeur piloté par l’IA. Cliquez sur **[!UICONTROL Manual Decision Tree]**, **[!UICONTROL Experience Form]** ou **[!UICONTROL Cancel]** pour ouvrir une boîte de dialogue de confirmation. Cliquer sur **[!UICONTROL Yes]** ignore les modifications d’arborescence non enregistrées ; cliquer sur **[!UICONTROL No]** vous maintient dans l’éditeur.
 
 ## Termes
 
@@ -54,6 +72,8 @@ Au départ, chaque arborescence de décision commence par le niveau racine « To
 Chaque arborescence de décision peut comporter jusqu’à cinq niveaux de cibles. Les cibles au niveau de l’expérience sont appliquées conjointement avec vos options de ciblage DSP. Le comportement de ciblage hiérarchique peut varier selon DSP. Assurez-vous que vos expériences publicitaires incluent un ciblage compatible avec les campagnes dans lesquelles vous allez le mettre en œuvre.
 
 Chaque niveau cible peut inclure plusieurs branches, chacune avec un ou plusieurs nœuds avec le même type de cible (segment d’audience, type d’emplacement géographique, valeurs pour des clés de passe de données spécifiées, attributs pour un pixel de reciblage spécifié ou catégorie d’appareils). Vous pouvez affecter des lots de contenu créatif dans chaque taille d’annonce publicitaire pour laquelle vous avez spécifié un contenu créatif d’image ou vidéo par défaut aux nœuds cibles de niveau inférieur.
+
+<!-- Add a screen shot of the AI editor -->L’exemple suivant illustre des cibles dans l’éditeur manuel :
 
 ![Exemple d’arborescence de décision avec cibles](/help/creative/assets/experience-decision-tree.png "Exemple d’arborescence de décision avec cibles")
 

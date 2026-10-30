@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 0%
 ---
 # Suppression d’un nœud cible ou d’un nœud feuille créatif dans une expérience
@@ -27,25 +27,31 @@ ht-degree: 0%
 
 Vous pouvez supprimer un nœud cible, y compris toutes les cibles enfants et les bundles de création qui leur sont affectés. Vous pouvez également supprimer un nœud feuille de contenu créatif.
 
-<!-- 1. [ways to get to the decision tree] -->
+## Utilisation de l’éditeur piloté par l’IA (Beta) {#ai-editor}
+
+Pendant que vous [créez](experience-create-targeting.md#ai-editor) ou [modifiez](experience-edit-targeting.md#ai-editor) l’expérience, utilisez les commandes de la zone de travail :
+
+1. Vérifiez le nœud et ses cibles enfants et les éléments créatifs avant de le supprimer.
+
+1. Placez le curseur sur le nœud cible ou le nœud feuille de contenu créatif, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
+
+   Le nœud est supprimé de l’arborescence de travail sans confirmation de **[!UICONTROL Delete Node]** distincte.
+
+1. Examinez les branches restantes, puis [enregistrez l’expérience](#save).
+
+## Utilisation de l’éditeur manuel {#manual-editor}
+
+[Ouvrez l’éditeur manuel](experience-edit-targeting.md#experience-open) avant de suivre ces étapes.
 
 1. Placez le curseur sur le nœud cible ou le nœud feuille de contenu créatif, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
 
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Delete Node]**.
 
-1. (Facultatif) Pour enregistrer l’expérience :
+## Enregistrer l’expérience {#save}
 
-   1. Cliquez sur **[!UICONTROL Save]**, puis sur **[!UICONTROL OK]**.
+Les étapes suivantes s’appliquent aux deux éditeurs.
 
-   1. (Si chaque nœud du niveau le plus bas n’inclut pas au moins un élément créatif) : Effectuez l’une des opérations suivantes :
-
-      * Pour enregistrer l’expérience sans tous les lots de création requis, cliquez sur **[!UICONTROL Save as Draft]**.
-
-        Vous ne pouvez pas créer de balise publicitaire pour une expérience de brouillon.
-
-      * Pour attribuer le contenu créatif par défaut à chaque cible qui n’a pas encore reçu de lot de contenu créatif, cliquez sur **[!UICONTROL Assign Default Creatives]**. Après avoir consulté l’arborescence mise à jour avec les contenus publicitaires par défaut attribués, cliquez sur **[!UICONTROL Save]** et **[!UICONTROL OK]**.
-
-      * Pour continuer à modifier l’arborescence de décision, cliquez sur **[!UICONTROL Continue Edit]**.
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

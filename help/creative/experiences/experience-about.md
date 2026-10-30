@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1242'
 ht-degree: 0%
 ---
 # À propos des expériences dans Advertising Creative 2.0
@@ -51,6 +51,8 @@ Chaque expérience publicitaire peut inclure un type d’annonce (affichage stan
   * Types d’appareils, systèmes d’exploitation et navigateurs spécifiques
 
   Une fois que vous avez créé une branche d’audience cible dans l’arborescence de décision, vous pouvez associer l’audience cible à des contenus publicitaires potentiels en attribuant des lots de contenu créatif à la branche. Pour chaque expérience, vous pouvez personnaliser l’optimisation et la planification des offres groupées de contenu créatif et modifier les pages de destination et les URL de suivi par défaut<!-- later: and any flexible attributes --> pour chaque contenu créatif de chaque offre groupée.
+
+  L’éditeur d’arborescence de décision par défaut piloté par l’IA (Beta) vous permet de décrire l’arborescence ou les modifications que vous souhaitez apporter à l’agent d’IA, de passer en revue le résultat et de modifier directement la zone de travail interactive. Vous pouvez également utiliser l’éditeur manuel existant. Les deux éditeurs configurent le même type d’expérience ciblée. Voir [Disposition de l’arborescence de décision](experience-decision-tree.md) et [Modification d’une expérience avec le ciblage de l’arborescence de décision](experience-edit-targeting.md).
 
 * **Expériences sans ciblage d’arborescence de décision :** [!DNL Creative] optimise les éléments publicitaires pour l’expérience publicitaire sans réduire l’audience. Pour chaque expérience, vous spécifiez des dates de début et de fin, ainsi que certains paramètres par défaut, mais la plupart des workflows ne sont pas directement liés à l’expérience. Au lieu d’ajouter directement des créatifs à l’expérience, utilisez [!UICONTROL Tag Manager] pour créer une balise d’annonce pour chaque taille d’annonce pour l’expérience, puis ajoutez des créatifs à l’expérience, configurez l’optimisation et la planification des créations et personnalisez les pages de destination et les URL de suivi<!-- later: and any flexible attributes -->.
 

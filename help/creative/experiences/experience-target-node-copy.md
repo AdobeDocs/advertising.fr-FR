@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '403'
 ht-degree: 0%
 ---
 # Copiez les nœuds enfants dans un autre nœud cible au même niveau.
@@ -29,22 +29,37 @@ Vous pouvez copier tous les nœuds enfants d’un nœud cible parent (y compris 
 
 Cette fonction n’affecte pas la cible spécifiée pour le nœud parent. Elle n’affecte que les nœuds enfants.
 
-<!-- 1. [ways to get to the decision tree] -->
+## Utilisation de l’éditeur piloté par l’IA (Beta) {#ai-editor}
+
+Pendant que vous [créez](experience-create-targeting.md#ai-editor) ou [modifiez](experience-edit-targeting.md#ai-editor) l’expérience, utilisez les commandes de la zone de travail :
+
+1. Sur le nœud parent dont vous souhaitez copier les enfants, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Copy Children]**.
+
+1. Sur le nœud de destination au même niveau, cliquez sur **[!UICONTROL ...]**, puis choisissez l’une des options suivantes :
+
+   * Pour ajouter les cibles enfants copiées et les éléments créatifs sans supprimer les enfants existants, cliquez sur **[!UICONTROL Add]**.
+
+   * Pour remplacer les enfants cibles et les éléments créatifs existants par les enfants copiés, cliquez sur **[!UICONTROL Replace]**.
+
+   Une action est désactivée lorsque l’arborescence ne la prend pas en charge. Examinez les avertissements avant de continuer.
+
+1. Vérifiez la branche de destination, puis [enregistrez l’expérience](#save).
+
+## Utilisation de l’éditeur manuel {#manual-editor}
+
+[Ouvrez l’éditeur manuel](experience-edit-targeting.md#experience-open) avant de suivre ces étapes.
 
 1. Cliquez sur le nœud parent dont vous souhaitez copier les enfants, cliquez sur ![Ajouter](/help/creative/assets/add.png "Ajouter"), puis sur a\), sélectionnez **[!UICONTROL Copy Children ctrl+c]** ou b\), saisissez **[!UICONTROL Ctrl+C]** ([!DNL Microsoft Windows]) ou **[!UICONTROL Command-C]** ([!DNL Apple Macintosh]) sur le clavier.
 
 1. Effectuez l’une des opérations suivantes :
 
-   * Pour remplacer tous les nœuds enfants et les éléments créatifs d’un nœud, cliquez sur le nœud dans lequel vous souhaitez coller les informations copiées, cliquez sur **...**, puis sur a\), sélectionnez **[!UICONTROL Replace ctrl+shift+v]** ou b\) saisissez **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) ou **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) sur le clavier.
+   * Pour remplacer tous les nœuds enfants et les éléments créatifs d’un nœud, cliquez sur le nœud dans lequel vous souhaitez coller les informations copiées, cliquez sur **[!UICONTROL ...]**, puis sur a\), sélectionnez **[!UICONTROL Replace ctrl+shift+v]** ou b\) saisissez **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) ou **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) sur votre clavier.
 
-   * (Nœuds avec plusieurs cibles enfants, pas de nœuds « Tous » et pas de contenu publicitaire uniquement) Pour ajouter tous les nœuds enfants et les contenus publicitaires à un nœud, sans supprimer les nœuds existants, cliquez sur le nœud dans lequel vous souhaitez coller les informations copiées, cliquez sur **...**, puis a\) sélectionnez **[!UICONTROL Add ctrl+v]** **&#x200B; ou b\) saisissez &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows]) ou &#x200B;** [!UICONTROL Command-V]** ([!DNL Apple Macintosh]) sur votre clavier.
+   * (Nœuds avec plusieurs cibles enfants, pas de nœuds « Tous » et pas de contenu publicitaire uniquement) Pour ajouter tous les nœuds enfants et les contenus publicitaires à un nœud, sans supprimer les nœuds existants, cliquez sur le nœud dans lequel vous souhaitez coller les informations copiées, cliquez sur **[!UICONTROL ...]**, puis a\) sélectionnez **[!UICONTROL Add ctrl+v]** ou b\) saisissez **[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows]) ou **[!UICONTROL Command-V]** ([!DNL Apple Macintosh]) sur votre clavier.
 
-<!--
-1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
-...
+## Enregistrer l’expérience {#save}
 
-These formatted steps are inserted automatically from text in the following file in the _includes folder, which reused in multiple places.
--->
+Les étapes suivantes s’appliquent aux deux éditeurs.
 
 {{$include /help/_includes/experience-save.md}}
 
