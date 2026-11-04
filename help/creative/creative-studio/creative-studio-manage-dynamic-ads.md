@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 88fead9ffc4eaa572be090877790422e67831036
+source-git-commit: b9a68528b3c622aae44a46bca9b3bb747019bc95
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # Gestion des contenus publicitaires dynamiques dans [!UICONTROL Creative Studio]
@@ -117,33 +117,21 @@ Mappez chaque champ du catalogue à l’élément correspondant de votre modèle
 
 ## Vérification de la qualité d’une création dynamique {#qa-dynamic-creative}
 
-Utilisez l’agent d’assurance qualité pour analyser les lignes du catalogue par rapport au modèle d’un créatif dynamique, prévisualiser les publicités obtenues et identifier les problèmes de contenu potentiels. Vous pouvez filtrer et regrouper des annonces publicitaires à l’aide de l’**[!UICONTROL AI Assistant]**, passer en revue les alertes de catalogue et corriger manuellement les valeurs de catalogue avant de publier les modifications.
-
-L’agent ouvre l’écran de **[!UICONTROL Dynamic Creative QA]** depuis [!UICONTROL Creative Libraries] ou [!UICONTROL Creative Studio]. Bien que les libellés de menu diffèrent, les deux points d’entrée fournissent la même fonctionnalité d’assurance qualité. L’analyse dépend du contenu créatif, du catalogue et de la requête sélectionnés.
+Utilisez l’assistant d’assurance qualité pour analyser les lignes du catalogue par rapport au modèle d’un créatif dynamique, prévisualiser les publicités obtenues et identifier les problèmes de contenu potentiels. Vous pouvez filtrer et regrouper des annonces publicitaires à l’aide de l’**[!UICONTROL AI Assistant]**, passer en revue les alertes de catalogue et corriger manuellement les valeurs de catalogue avant de publier les modifications.
 
 >[!NOTE]
 >
->L’agent d’assurance qualité est disponible pour les contenus publicitaires à affichage dynamique, et non pour les contenus publicitaires standard ou vidéo dynamiques. Dans [!UICONTROL Creative Libraries], l’action n’est disponible que pour les contenus publicitaires dynamiques basés sur des modèles dynamiques.
+>Vous pouvez vérifier la qualité des contenus publicitaires dynamiques depuis [!UICONTROL Creative Studio] ou [!UICONTROL Creative Libraries]. Bien que les libellés de menu diffèrent, les deux points d’entrée ouvrent le même écran de **[!UICONTROL Dynamic Creative QA]** avec la même fonctionnalité. L’analyse dépend du contenu créatif, du catalogue et de la requête sélectionnés. Pour l’autre point d’entrée, reportez-vous à « [Vérification de la qualité d’un élément créatif dynamique à partir des bibliothèques Creative](/help/creative/creative-libraries/creative-edit-dynamic.md#qa-dynamic-creative) ».
 
-### Ouvrez l’agent d’assurance qualité. {#open-qa-agent}
+L’assistant QA est disponible pour les contenus publicitaires d’affichage dynamique, et non pour les contenus publicitaires standard ou vidéo dynamiques.
 
-1. Ouvrez un élément créatif dynamique enregistré pour l’assurance qualité de l’une des manières suivantes :
+### Ouvrez l’assistant d’assurance qualité {#open-qa-agent}
 
-   * **De [!UICONTROL Creative Libraries]:**
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Studio]**.
 
-     1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+1. Dans l’onglet **[!UICONTROL Creatives]** , recherchez le contenu créatif dynamique dans sa bibliothèque de contenu créatif sous la section [!UICONTROL Generate or Build Creatives] .
 
-     1. Cliquez sur le nom de la bibliothèque pour l’ouvrir.
-
-     1. Dans l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL ...]** en regard du nom du contenu créatif dynamique, puis cliquez sur **[!UICONTROL QA Agent]**.
-
-   * **De [!UICONTROL Creative Studio]:**
-
-     1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Studio]**.
-
-     1. Dans l’onglet **[!UICONTROL Creatives]** , recherchez le contenu créatif dynamique dans sa bibliothèque de contenu créatif sous la section [!UICONTROL Generate or Build Creatives] .
-
-     1. Placez le curseur sur la carte de contenu créatif, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**.
+1. Placez le curseur sur la carte de contenu créatif, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**.
 
    L’écran de **[!UICONTROL Dynamic Creative QA]** s’ouvre avec une zone de travail de prévisualisation et le panneau de conversation **[!UICONTROL AI Assistant]**.
 
@@ -217,7 +205,7 @@ Vous pouvez modifier manuellement les valeurs de catalogue à partir d’une pr�
      * Pour un nouvel élément créatif, dans la boîte de dialogue de confirmation de **[!UICONTROL Create Dynamic Creative]**, cliquez sur **[!UICONTROL Create]**.
      * Pour un élément créatif existant, dans la boîte de dialogue de confirmation de **[!UICONTROL Update Dynamic Creative]**, cliquez sur **[!UICONTROL Update]**.
 
-     Vous revenez à la bibliothèque de contenu créatif ou à la [!UICONTROL Creative Studio], selon l’emplacement où vous avez ouvert l’écran d’assurance qualité.
+     Vous revenez à [!UICONTROL Creative Studio].
 
 * Pour quitter sans publier les modifications de catalogue en attente, cliquez sur **[!UICONTROL Cancel]** dans l’en-tête de la page.
 
