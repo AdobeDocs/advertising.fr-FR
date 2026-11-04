@@ -3,13 +3,11 @@ role: User
 user-guide-title: Guide d’Advertising Creative
 user-guide-description: Découvrez les principaux paramètres, fonctionnalités, tâches et autres ressources nécessaires à l’utilisation d’Advertising Creative.
 breadcrumb-title: Guide créatif
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: 1cc477f531051d94ea88eaae0a4fb83918e95ea5
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '440'
 ht-degree: 4%
-
 ---
-
 
 # Guide d’Advertising Creative 2.0 {#creative}
 
@@ -36,11 +34,12 @@ ht-degree: 4%
     + Création standard {#standard-creatives}
       + [Ajout de contenus publicitaires standard à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-standard.md)
       + [Modification de contenus publicitaires standard](/help/creative/creative-libraries/creative-edit-standard.md)
+      + [Générer des variantes de contenus publicitaires HTML5 flexibles](/help/creative/creative-libraries/creative-generate-variations.md)
       + [Paramètres de création standard](/help/creative/creative-libraries/creative-settings-standard.md)
       + [Spécification de création HTML5](/help/creative/creative-libraries/html5-creative-specification.md)
     + Créations dynamiques {#dynamic-creatives}
       + [Ajout de contenus publicitaires dynamiques à une bibliothèque de contenus publicitaires](/help/creative/creative-libraries/creative-add-dynamic.md)
-      + [Modification de contenus publicitaires dynamiques](/help/creative/creative-libraries/creative-edit-dynamic.md)
+      + [Modification et vérification de la qualité des contenus publicitaires dynamiques](/help/creative/creative-libraries/creative-edit-dynamic.md)
       + [Paramètres de création dynamique](/help/creative/creative-libraries/creative-settings-dynamic.md)
     + [Prévisualisation d’un contenu créatif](/help/creative/creative-libraries/creative-preview.md)
     + [Joindre des contenus publicitaires aux offres groupées](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
@@ -103,4 +102,4 @@ ht-degree: 4%
 + [Reciblage des pixels](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponibles pour le tracking des URL](/help/creative/creative-macros.md)
 + [Obtenir de l’aide](/help/creative/get-help.md)
-+ [Notes de mise à jour d’Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target="_blank"}
++ [Notes de mise à jour de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target="_blank"}
