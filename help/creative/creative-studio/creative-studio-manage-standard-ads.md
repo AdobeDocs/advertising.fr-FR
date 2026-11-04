@@ -11,9 +11,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: 1cc477f531051d94ea88eaae0a4fb83918e95ea5
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1263'
 ht-degree: 0%
 ---
 # Gestion des publicités standard dans [!UICONTROL Creative Studio]
@@ -78,7 +78,7 @@ Au moins un modèle d’annonce publicitaire doit exister dans votre bibliothèq
 
       >[!NOTE]
       >
-      >L’assistant d’IA peut générer et modifier du texte (titres, sous-titres, CTA, copie du corps), échanger des images d’arrière-plan, appliquer des couleurs de marque, changer de version de logo et créer de nouveaux modèles de taille. Il ne peut pas modifier la structure du modèle : position des éléments, disposition, espacement, marge intérieure, famille de polices, taille de police ou bordures. Effectuez des modifications structurelles dans l’éditeur de modèles avant de démarrer la session. Voir [&#x200B; Modification d’un modèle &#x200B;](creative-studio-manage-templates.md#edit-template).
+      >L’assistant d’IA peut générer et modifier du texte (titres, sous-titres, CTA, copie du corps), échanger des images d’arrière-plan, appliquer des couleurs de marque, changer de version de logo et créer de nouveaux modèles de taille. Il ne peut pas modifier la structure du modèle : position des éléments, disposition, espacement, marge intérieure, famille de polices, taille de police ou bordures. Effectuez des modifications structurelles dans l’éditeur de modèles avant de démarrer la session. Voir [ Modification d’un modèle ](creative-studio-manage-templates.md#edit-template).
 
    1. (Facultatif) Pour inclure une référence visuelle dans une requête, cliquez sur le bouton **[!UICONTROL +]** dans la zone de saisie de conversation. Dans la boîte de dialogue **[!UICONTROL Select from Asset Library]** :
 
@@ -149,11 +149,17 @@ Au moins un modèle d’annonce publicitaire doit exister dans votre bibliothèq
 
 1. Cliquez sur **[!UICONTROL Update Creative]**.
 
-## Générer des variations d’annonces publicitaires pour une annonce publicitaire standard {#generate-ad-variations}
+## Générer des variantes d’annonces pour une création HTML5 flexible {#generate-ad-variations}
+
+L’action **[!UICONTROL Generate Variations]** est disponible uniquement pour les créatifs flexibles d’HTML5. Elle est désactivée lorsque le contenu créatif ne dispose pas de la référence de modèle d’annonce parent interne requise par le générateur ou lorsqu’une autre requête de génération de variation est en cours de démarrage. La référence du modèle de publicité parent n&#39;est pas un paramètre que vous pouvez modifier.
+
+>[!NOTE]
+>
+>Vous pouvez également générer des variantes de contenus publicitaires HTML5 flexibles éligibles à partir de [!UICONTROL Creative Libraries]. Les deux points d’entrée ouvrent la même [!UICONTROL Ad Variations Generator]. Consultez « [ Générer des variantes de contenus publicitaires HTML5 flexibles »](/help/creative/creative-libraries/creative-generate-variations.md) pour connaître les autres points d’entrée et exigences de disponibilité.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio]**.
 
-1. Dans l’onglet **[!UICONTROL Creatives]** , placez le curseur sur la carte de contenu créatif et cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Generate Ad Variations]**.
+1. Dans l’onglet **[!UICONTROL Creatives]** , placez le curseur sur la carte de contenu créatif et cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Generate Variations]**.
 
    La [!UICONTROL Ad Variations Generator] s’ouvre avec l’annonce sélectionnée préchargée.
 
