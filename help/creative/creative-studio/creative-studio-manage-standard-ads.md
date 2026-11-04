@@ -78,7 +78,7 @@ Au moins un modèle d’annonce publicitaire doit exister dans votre bibliothèq
 
       >[!NOTE]
       >
-      >L’assistant d’IA peut générer et modifier du texte (titres, sous-titres, CTA, copie du corps), échanger des images d’arrière-plan, appliquer des couleurs de marque, changer de version de logo et créer de nouveaux modèles de taille. Il ne peut pas modifier la structure du modèle : position des éléments, disposition, espacement, marge intérieure, famille de polices, taille de police ou bordures. Effectuez des modifications structurelles dans l’éditeur de modèles avant de démarrer la session. Voir [ Modification d’un modèle ](creative-studio-manage-templates.md#edit-template).
+      >L’assistant d’IA peut générer et modifier du texte (titres, sous-titres, CTA, copie du corps), échanger des images d’arrière-plan, appliquer des couleurs de marque, changer de version de logo et créer de nouveaux modèles de taille. Il ne peut pas modifier la structure du modèle : position des éléments, disposition, espacement, marge intérieure, famille de polices, taille de police ou bordures. Effectuez des modifications structurelles dans l’éditeur de modèles avant de démarrer la session. Voir [&#x200B; Modification d’un modèle &#x200B;](creative-studio-manage-templates.md#edit-template).
 
    1. (Facultatif) Pour inclure une référence visuelle dans une requête, cliquez sur le bouton **[!UICONTROL +]** dans la zone de saisie de conversation. Dans la boîte de dialogue **[!UICONTROL Select from Asset Library]** :
 
@@ -155,7 +155,7 @@ L’action **[!UICONTROL Generate Variations]** est disponible uniquement pour l
 
 >[!NOTE]
 >
->Vous pouvez également générer des variantes de contenus publicitaires HTML5 flexibles éligibles à partir de [!UICONTROL Creative Libraries]. Les deux points d’entrée ouvrent la même [!UICONTROL Ad Variations Generator]. Consultez « [ Générer des variantes de contenus publicitaires HTML5 flexibles »](/help/creative/creative-libraries/creative-generate-variations.md) pour connaître les autres points d’entrée et exigences de disponibilité.
+>Vous pouvez également générer des variantes de contenus publicitaires HTML5 flexibles éligibles à partir de [!UICONTROL Creative Libraries]. Les deux points d’entrée ouvrent la même [!UICONTROL Ad Variations Generator]. Consultez « [&#x200B; Générer des variantes de contenus publicitaires HTML5 flexibles »](/help/creative/creative-libraries/creative-generate-variations.md) pour connaître les autres points d’entrée et exigences de disponibilité.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio]**.
 
