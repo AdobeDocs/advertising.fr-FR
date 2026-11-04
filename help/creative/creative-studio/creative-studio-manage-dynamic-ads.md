@@ -1,6 +1,6 @@
 ---
 title: Gestion des contenus créatifs dynamiques dans Creative Studio
-description: Découvrez comment créer, modifier, dupliquer et supprimer des contenus publicitaires dynamiques pilotés par catalogue dans Adobe Advertising Creative Studio.
+description: Découvrez comment créer, vérifier la qualité, modifier, dupliquer et supprimer des contenus publicitaires dynamiques pilotés par catalogue dans Adobe Advertising Creative Studio.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -10,20 +10,20 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: 88fead9ffc4eaa572be090877790422e67831036
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1469'
 ht-degree: 0%
 ---
 # Gestion des contenus publicitaires dynamiques dans [!UICONTROL Creative Studio]
 
-L’onglet **[!UICONTROL Creatives]** dans [!UICONTROL Creative Studio] répertorie vos contenus publicitaires dynamiques par bibliothèque. À partir de là, vous pouvez créer des contenus publicitaires dynamiques pilotés par catalogue, modifier les détails et le mappage des attributs des contenus publicitaires existants, afficher les journaux des modifications, dupliquer des contenus publicitaires et supprimer des contenus publicitaires.
+L’onglet **[!UICONTROL Creatives]** dans [!UICONTROL Creative Studio] répertorie vos contenus publicitaires dynamiques par bibliothèque. À partir de là, vous pouvez créer des contenus publicitaires dynamiques pilotés par catalogue, vérifier la qualité des contenus publicitaires à l’aide de l’IA, modifier les détails et le mappage des attributs des contenus publicitaires existants, afficher les journaux des modifications, dupliquer des contenus publicitaires et supprimer des contenus publicitaires.
 
 ## Créer un contenu créatif dynamique {#build-dynamic-creative}
 
 Utilisez ce workflow pour créer des contenus publicitaires dynamiques pilotés par catalogue. Un assistant guidé en quatre étapes vous guide tout au long de la sélection d’un modèle, de la connexion d’un catalogue et du mappage des champs du catalogue aux éléments du modèle. Après la configuration, le [!UICONTROL AI Assistant] vous permet de prévisualiser et de vérifier la qualité de chaque combinaison d’annonces générée à partir des données du catalogue.
 
-Les contenus créatifs dynamiques diffèrent des publicités standard d’une manière essentielle : l’agent d’IA ne peut pas modifier le contenu provenant du catalogue. Il peut filtrer, analyser et signaler des problèmes, mais pour modifier le contenu de l’annonce, vous devez mettre à jour le catalogue source.
+Les contenus créatifs dynamiques diffèrent des publicités standard d’une manière essentielle : l’agent d’IA ne peut pas modifier le contenu provenant du catalogue. Il peut filtrer, analyser et signaler des problèmes, mais pour modifier le contenu de l’annonce, vous devez mettre à jour manuellement les valeurs du catalogue, à partir de l’écran d’assurance qualité ou dans le catalogue source.
 
 ### Conditions préalables
 
@@ -83,44 +83,9 @@ Mappez chaque champ du catalogue à l’élément correspondant de votre modèle
 
 1. Choisissez s’il faut *[!UICONTROL Save Dynamic Creative & Skip QA]* ou *[!UICONTROL Continue to QA]*.
 
-   Si vous continuez à effectuer un contrôle qualité, la zone de travail affiche toutes les combinaisons d’annonces générées à partir du catalogue, affichées sous forme de lignes avec un aperçu de chaque entrée du catalogue rendue dans le modèle.
+   Si vous passez à l’assurance qualité, l’écran de **[!UICONTROL Dynamic Creative QA]** s’ouvre avec une zone de travail de prévisualisation et le panneau de conversation **[!UICONTROL AI Assistant]**.
 
-1. Si vous continuez le contrôle qualité :
-
-   1. Effectuez l’une des opérations suivantes :
-
-      * Utilisez les commandes **[!UICONTROL Zoom in]** et **[!UICONTROL Zoom out]** pour ajuster la vue de la zone de travail.
-
-      * Utilisez les commandes de pagination (**X-Y sur Z**) pour parcourir les lignes du catalogue.
-
-      * Pour modifier une combinaison d’annonces :
-
-        1. Placez le curseur sur la ligne du catalogue et cliquez sur **[!UICONTROL Edit]**.
-
-        1. Dans la boîte de dialogue **[!UICONTROL Edit Row]**, mettez à jour les valeurs de champ.
-
-        1. Cliquez sur **[!UICONTROL Save]**.
-
-        La zone de travail s’actualise pour refléter les valeurs mises à jour.
-
-      * Utilisez le panneau de conversation **[!UICONTROL AI Assistant]** pour analyser et filtrer les combinaisons de catalogues. Saisissez votre demande dans le champ **[!UICONTROL Ask anything]** ou cliquez sur l’une des invites suggérées :
-
-        * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
-        * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
-        * **[!UICONTROL Show me all ads for millennial women in urban markets]**
-
-        L’agent AI peut :
-
-        * Filtrez la zone de travail pour afficher les annonces correspondant à un segment d’audience, une zone géographique, une langue, une catégorie ou un autre champ de catalogue spécifique.
-        * Vérifiez les problèmes de qualité tels que les dépassements de limite de caractères, le débordement ou le fond perdu du contenu, les liens d’image rompus et la visibilité de clause de non-responsabilité.
-        * Comparez les combinaisons d’annonces pour l’analyse des tests A/B.
-        * Organisez les annonces en groupes pour une révision côte à côte.
-
-        L’agent d’IA ne peut pas modifier le contenu provenant du catalogue. Pour modifier le contenu de l’annonce publicitaire, mettez à jour le catalogue source.
-
-   1. Enregistrez le **[!UICONTROL Save Dynamic Creative]** dans l’en-tête.
-
-   1. Dans le message de confirmation, cliquez sur **[!UICONTROL Create]**.
+1. Si vous continuez à effectuer un contrôle qualité, suivez les procédures de la section « [Vérification de la qualité d’un contenu créatif dynamique](#qa-dynamic-creative) » pour [analyser et filtrer les publicités](#analyze-ads), [consulter les aperçus et les alertes](#review-previews) et éventuellement [corriger les valeurs de catalogue](#correct-catalog-values). Lorsque vous avez terminé, [enregistrez la création dynamique](#save-or-exit).
 
 ## Modification d’un élément créatif dynamique {#edit-dynamic-creative}
 
@@ -150,13 +115,111 @@ Mappez chaque champ du catalogue à l’élément correspondant de votre modèle
 
 1. Cliquez sur **[!UICONTROL Update Creative]**.
 
-## Rouvrez l’assistant de contrôle qualité pour une création dynamique {#qa-dynamic-creative}
+## Vérification de la qualité d’une création dynamique {#qa-dynamic-creative}
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio]**.
+Utilisez l’agent d’assurance qualité pour analyser les lignes du catalogue par rapport au modèle d’un créatif dynamique, prévisualiser les publicités obtenues et identifier les problèmes de contenu potentiels. Vous pouvez filtrer et regrouper des annonces publicitaires à l’aide de l’**[!UICONTROL AI Assistant]**, passer en revue les alertes de catalogue et corriger manuellement les valeurs de catalogue avant de publier les modifications.
 
-1. Dans l’onglet **[!UICONTROL Creatives]** , placez le curseur sur la carte de contenu créatif et cliquez sur **[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**.
+L’agent ouvre l’écran de **[!UICONTROL Dynamic Creative QA]** depuis [!UICONTROL Creative Libraries] ou [!UICONTROL Creative Studio]. Bien que les libellés de menu diffèrent, les deux points d’entrée fournissent la même fonctionnalité d’assurance qualité. L’analyse dépend du contenu créatif, du catalogue et de la requête sélectionnés.
 
-   L’écran d’assurance qualité s’ouvre. Consultez « [Étape 5 : prévisualisation et assurance qualité avec l’IA &#x200B;](#qa) » pour connaître les commandes de la zone de travail disponibles et les fonctionnalités de l’assistant d’IA.
+>[!NOTE]
+>
+>L’agent d’assurance qualité est disponible pour les contenus publicitaires à affichage dynamique, et non pour les contenus publicitaires standard ou vidéo dynamiques. Dans [!UICONTROL Creative Libraries], l’action n’est disponible que pour les contenus publicitaires dynamiques basés sur des modèles dynamiques.
+
+### Ouvrez l’agent d’assurance qualité. {#open-qa-agent}
+
+1. Ouvrez un élément créatif dynamique enregistré pour l’assurance qualité de l’une des manières suivantes :
+
+   * **De [!UICONTROL Creative Libraries]:**
+
+     1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+     1. Cliquez sur le nom de la bibliothèque pour l’ouvrir.
+
+     1. Dans l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL ...]** en regard du nom du contenu créatif dynamique, puis cliquez sur **[!UICONTROL QA Agent]**.
+
+   * **De [!UICONTROL Creative Studio]:**
+
+     1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Studio]**.
+
+     1. Dans l’onglet **[!UICONTROL Creatives]** , recherchez le contenu créatif dynamique dans sa bibliothèque de contenu créatif sous la section [!UICONTROL Generate or Build Creatives] .
+
+     1. Placez le curseur sur la carte de contenu créatif, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**.
+
+   L’écran de **[!UICONTROL Dynamic Creative QA]** s’ouvre avec une zone de travail de prévisualisation et le panneau de conversation **[!UICONTROL AI Assistant]**.
+
+1. Si le contenu créatif utilise plusieurs catalogues, sélectionnez le catalogue à réviser dans les **[!UICONTROL Catalog]** de l’en-tête.
+
+   L&#39;assistant analyse le catalogue sélectionné. Le sélecteur de catalogues est désactivé lorsque le contenu créatif n’utilise qu’un seul catalogue.
+
+### Analyser et filtrer les publicités avec l’IA {#analyze-ads}
+
+1. Dans le panneau **[!UICONTROL AI Assistant]**, saisissez une requête dans **[!UICONTROL Ask anything]** et appuyez sur **[!UICONTROL Enter]**, ou cliquez sur l’une des invites suggérées :
+
+   * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
+   * **[!UICONTROL Group ads by product]**
+   * **[!UICONTROL Filter ads by geography]**
+   * **[!UICONTROL Show all ads with headlines over 80 characters]**
+
+   L’assistant répond dans le panneau de conversation et affiche les lignes de catalogue correspondantes sous forme d’aperçus publicitaires sur la zone de travail. Tant que vous n’avez pas envoyé de requête, la zone de travail vous invite à demander à l’assistant d’analyser le catalogue.
+
+1. Continuer à affiner l’examen avec des demandes de suivi. L’assistant peut vous aider à :
+
+   * Filtrez les annonces par segment d’audience, langue, zone géographique ou code postal.
+   * Vérifiez la longueur des caractères à l’aide d’un seuil que vous spécifiez.
+   * Recherchez les erreurs de flux, le contenu manquant et le contenu suspect.
+   * Vérifiez le statut de la traduction.
+   * Comparez les variantes des tests A/B.
+   * Regroupez les publicités pour examen, par exemple par produit ou problème.
+
+   Vérifiez les réponses de l&#39;assistant et examinez les aperçus avant d&#39;enregistrer les modifications.
+
+### Prévisualisations et alertes de révision {#review-previews}
+
+* Utilisez la barre d’outils de la zone de travail pour :
+
+  * Ajustez le zoom.
+  * Basculez entre **[!UICONTROL Thumbnail view]** et **[!UICONTROL Actual size]**.
+  * Cliquez sur **[!UICONTROL Replay animations]** pour relire les aperçus.
+  * Sélectionnez le nombre de lignes par page, un numéro de page ou utilisez **[!UICONTROL Previous page]** et **[!UICONTROL Next page]**.
+
+* Lorsque l’assistant regroupe les résultats, cliquez sur le lien pour afficher tous les contenus publicitaires d’un groupe. Utilisez **[!UICONTROL Back to groups]** pour revenir aux résultats groupés ou **[!UICONTROL Catalog Rows]** pour quitter la vue groupée.
+
+* Lorsqu’un aperçu s’affiche en **[!UICONTROL Issues detected]**, placez le curseur sur l’indicateur pour afficher les détails de l’événement.
+
+* Lorsque des alertes de catalogue sont disponibles, cliquez sur **[!UICONTROL View Alerts]**. La boîte de dialogue **[!UICONTROL Alerts]** répertorie le catalogue, le numéro de ligne, la colonne et le message d’erreur pour chaque événement. Cliquez sur **[!UICONTROL Close]** pour revenir à la zone de travail.
+
+### Valeurs de catalogue correctes {#correct-catalog-values}
+
+Vous pouvez modifier manuellement les valeurs de catalogue à partir d’une prévisualisation d’annonce publicitaire sans quitter l’écran d’assurance qualité.
+
+1. Dans l’aperçu à corriger, cliquez sur **[!UICONTROL Edit]**.
+
+1. Dans la boîte de dialogue de modification, sélectionnez les colonnes à modifier sous **[!UICONTROL Catalog columns to edit]**. Pour rechercher une colonne, utilisez **[!UICONTROL Search columns]**.
+
+1. Sous **[!UICONTROL Columns content]**, mettez à jour les valeurs de champ sélectionnées.
+
+1. Cliquez sur **[!UICONTROL Update]**.
+
+   L’aperçu s’actualise pour refléter les valeurs mises à jour. Les modifications du catalogue ne sont pas publiées tant que vous n’avez pas enregistré la création dynamique.
+
+>[!IMPORTANT]
+>
+>Ces modifications mettent à jour les données du catalogue, et pas seulement la prévisualisation de l’annonce publicitaire. Passez en revue les valeurs avant de les publier.
+
+### Enregistrer les modifications ou quitter {#save-or-exit}
+
+* Pour enregistrer le contenu créatif dynamique et publier les modifications du catalogue :
+
+  1. Cliquez sur **[!UICONTROL Save Dynamic Creative]** dans l’en-tête.
+
+  1. Confirmez l’enregistrement :
+
+     * Pour un nouvel élément créatif, dans la boîte de dialogue de confirmation de **[!UICONTROL Create Dynamic Creative]**, cliquez sur **[!UICONTROL Create]**.
+     * Pour un élément créatif existant, dans la boîte de dialogue de confirmation de **[!UICONTROL Update Dynamic Creative]**, cliquez sur **[!UICONTROL Update]**.
+
+     Vous revenez à la bibliothèque de contenu créatif ou à la [!UICONTROL Creative Studio], selon l’emplacement où vous avez ouvert l’écran d’assurance qualité.
+
+* Pour quitter sans publier les modifications de catalogue en attente, cliquez sur **[!UICONTROL Cancel]** dans l’en-tête de la page.
 
 ## Affichage du journal des modifications d’un élément créatif dynamique {#view-change-log}
 
@@ -187,4 +250,3 @@ Dupliquez un contenu créatif dynamique pour ajouter un nouveau contenu créatif
 >* [À propos de Creative Studio dans Advertising Creative](creative-studio-about.md)
 >* [Gestion des publicités standard dans Creative Studio](creative-studio-manage-standard-ads.md)
 >* [Gestion des modèles dans Creative Studio](creative-studio-manage-templates.md)
-
