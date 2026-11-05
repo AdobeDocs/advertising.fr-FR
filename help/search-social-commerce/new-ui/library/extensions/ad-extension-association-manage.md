@@ -67,7 +67,7 @@ Vous pouvez attribuer jusqu’à 20 liens de site par compte, campagne ou groupe
 
 Comptes *[!DNL Google Ads]uniquement*
 
-Vous pouvez associer des légendes partagées à des campagnes et des groupes publicitaires Google Ads pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) sur le réseau de recherche. [Attribuez au moins deux légendes à chaque campagne ou groupe publicitaire.
+Vous pouvez associer des légendes partagées à des campagnes et des groupes publicitaires Google Ads pris en charge[&#128279;](/help/search-social-commerce/introduction/supported-inventory.md) sur le réseau de recherche. Attribuez au moins deux légendes à chaque campagne ou groupe publicitaire.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Library]>[!UICONTROL Extensions]**, puis sur l&#39;onglet **[!UICONTROL Associations]**.
 

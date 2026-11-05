@@ -69,7 +69,7 @@ Consultez la documentation de [Google Ads sur les limites de compte](https://sup
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
-Après avoir créé la légende, [ l’associer à une campagne ou à un groupe publicitaire](ad-extension-association-manage.md#callout-associate).
+Après avoir créé la légende, [&#x200B; l’associer à une campagne ou à un groupe publicitaire](ad-extension-association-manage.md#callout-associate).
 
 ## Modifier les paramètres des légendes partagées {#callout-edit}
 
@@ -109,7 +109,7 @@ Copiez les informations visibles dans les lignes sélectionnées, en fonction de
 
 ## Paramètres des légendes partagées {#shared-callout-settings}
 
-Pour d’autres politiques et raisons de désapprobation des légendes, consultez les [Exigences relatives aux légendes des publicités ](https://support.google.com/adspolicy/answer/1054212).
+Pour d’autres politiques et raisons de désapprobation des légendes, consultez les [Exigences relatives aux légendes des publicités &#x200B;](https://support.google.com/adspolicy/answer/1054212).
 
 **[!UICONTROL Callout Text]:** Texte à afficher. Il peut contenir jusqu’à 25 caractères codés sur un octet ou 12 caractères codés sur deux octets. Il ne peut pas contenir de points d&#39;exclamation ou de ponctuation au début du texte.
 

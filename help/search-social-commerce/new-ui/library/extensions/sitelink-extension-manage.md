@@ -37,7 +37,7 @@ Dans **[!UICONTROL Library]>[!UICONTROL Extensions]**, l’onglet **[!UICONTROL 
 
 L’affichage de ces onglets nécessite l’autorisation [!UICONTROL View Extensions] . La création, la modification et la suppression de liens de site, ainsi que la création ou la suppression d’associations, nécessitent l’autorisation [!UICONTROL Edit Extensions].
 
-Consultez l’aide du réseau publicitaire pour connaître le nombre maximal d’extensions par compte Google Ads [](https://support.google.com/google-ads/answer/6372658) et par compte Microsoft Advertising [](https://help.ads.microsoft.com/#apex/3/en/52001).
+Consultez l’aide du réseau publicitaire pour connaître le nombre maximal d’extensions par compte Google Ads [&#128279;](https://support.google.com/google-ads/answer/6372658) et par compte Microsoft Advertising [&#128279;](https://help.ads.microsoft.com/#apex/3/en/52001).
 
 ### Actions disponibles
 
@@ -69,7 +69,7 @@ Consultez l’aide du réseau publicitaire pour connaître le nombre maximal d�
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
-Après avoir créé le lien du site, [ l’associer à un compte, une campagne ou un groupe publicitaire](ad-extension-association-manage.md#sitelink-associate).
+Après avoir créé le lien du site, [&#x200B; l’associer à un compte, une campagne ou un groupe publicitaire](ad-extension-association-manage.md#sitelink-associate).
 
 ## Modifier les paramètres du lien de site partagé {#sitelink-edit}
 
