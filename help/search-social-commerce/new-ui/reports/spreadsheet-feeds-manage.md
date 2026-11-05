@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
     internal-label: Search Reports
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b0691683d8b9a02169920645c4220c3737cb9bd9
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1632'
 ht-degree: 0%
 ---
 # (Nouvelle interface utilisateur) Gérer les flux de rapports de feuille de calcul
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 <!-- Update link to notifications once available -->
 
-Les flux de feuilles de calcul fournissent des données de performances quotidiennes pour tous les rapports de base et modélisent les rapports de précision au format de feuille de calcul personnalisé dans [!DNL Microsoft Excel] XLSX. Vous pouvez configurer des flux de feuilles de calcul à l&#39;aide de modèles de feuilles de calcul [!DNL Excel] spécialement formatés que vous créez à partir de modèles de rapport standard. Chaque jour, la feuille de calcul est automatiquement actualisée à une heure spécifiée avec de nouvelles données brutes qui sont agrégées quotidiennement. Les données brutes renseignent toutes les colonnes et tous les graphiques que vous avez inclus dans le modèle de feuille de calcul. Une fois qu’un fichier de flux de feuille de calcul est disponible ou si la génération du fichier échoue, chaque destinataire d’e-mail dans le modèle de rapport reçoit une notification, en fonction des [paramètres de notification pour les rapports](/help/search-social-commerce/notifications/notification-about.md) configurés par l’utilisateur.
+Les flux de feuilles de calcul fournissent des données de performances quotidiennes pour tous les rapports de base et modélisent les rapports de précision au format de feuille de calcul personnalisé dans [!DNL Microsoft Excel] XLSX. Vous pouvez configurer des flux de feuilles de calcul à l&#39;aide de modèles de feuilles de calcul [!DNL Excel] spécialement formatés que vous créez à partir de modèles de rapport standard. Chaque jour, la feuille de calcul est automatiquement actualisée à une heure spécifiée avec de nouvelles données brutes qui sont agrégées quotidiennement. Les données brutes renseignent toutes les colonnes et tous les graphiques que vous avez inclus dans le modèle de feuille de calcul. Une fois qu’un fichier de flux de feuille de calcul est disponible ou si la génération du fichier échoue, chaque destinataire d’e-mail spécifié dans les paramètres de flux de feuille de calcul reçoit une notification, en fonction des [paramètres de notification pour les rapports](/help/search-social-commerce/notifications/notification-about.md) configurés par l’utilisateur.
 
 Vous pouvez configurer le flux pour actualiser jusqu’aux 90 derniers jours de données et toutes les données existantes précédentes seront conservées, en continuant à s’accumuler.
 
-La vue [!UICONTROL Reports] > [!UICONTROL Spreadsheets Feeds] répertorie tous les flux de feuille de calcul que vous avez créés. Cette vue vous permet de créer des flux de feuille de calcul, d’actualiser manuellement un flux ou de supprimer un flux.
+La vue [!UICONTROL Reports] > [!UICONTROL Spreadsheet Feeds] répertorie tous les flux de feuille de calcul que vous avez créés. Dans cette vue, vous pouvez créer, modifier, actualiser manuellement ou supprimer des flux de feuille de calcul, afficher les paramètres du modèle de rapport associé et copier les données de ligne sélectionnées.
 
 ## Actions disponibles
 
@@ -33,17 +33,19 @@ La vue [!UICONTROL Reports] > [!UICONTROL Spreadsheets Feeds] répertorie tous l
 
 * [Modifier les paramètres du flux de rapports d&#39;une feuille de calcul](#spreadsheet-feed-edit)
 
+* [Afficher les paramètres du modèle de rapport associé](#spreadsheet-feed-view-template)
+
 * [Afficher ou enregistrer un fichier de flux de rapports de feuille de calcul](#spreadsheet-feed-view-or-save)
 
 * [Actualiser manuellement les flux de rapports de feuille de calcul](#spreadsheet-feed-refresh)
 
 * [Supprimer les flux de rapports de feuille de calcul](#spreadsheet-feed-delete)
 
+* [Copier toutes les données des lignes sélectionnées dans le presse-papiers](#copy-to-clipboard)
+
 ## Créer un modèle de [!DNL Excel] pour un flux de rapports de feuille de calcul {#spreadsheet-feed-create-excel-template}
 
-<!-- Add x-refs when available -->
-
-Pour créer des flux de feuilles de calcul, vous devez d&#39;abord créer des modèles de feuilles de calcul [!DNL Microsoft Excel] spécialement formatés à l&#39;aide de modèles de rapport standard. Vous pouvez éventuellement personnaliser la feuille de calcul [!DNL Excel] pour inclure des colonnes et des graphiques supplémentaires.
+Pour créer des flux de feuilles de calcul, vous devez d&#39;abord créer des modèles de feuilles de calcul [!DNL Microsoft Excel] spécialement formatés à l&#39;aide de modèles de rapport [standard](report-templates-manage.md). Vous pouvez éventuellement personnaliser la feuille de calcul [!DNL Excel] pour inclure des colonnes et des graphiques supplémentaires.
 
 1. Dans **[!UICONTROL Reports]>[!UICONTROL Reports]**, générez le type de rapport souhaité à l’aide d’une unité de [!UICONTROL Date Aggregation] de « [!UICONTROL Daily] » et de tous les autres paramètres de données souhaités, en enregistrant le rapport en tant que modèle.
 
@@ -98,7 +100,7 @@ Pour créer des flux de feuilles de calcul, vous devez d&#39;abord créer des mo
       >
       >Si le modèle de rapport associé au flux est supprimé ultérieurement, le flux est également supprimé.
 
-      Les flux de la feuille de calcul sont automatiquement actualisés chaque jour au [!UICONTROL Schedule Time] configuré. Si le modèle de rapport inclut des adresses pour des destinataires d’e-mails, ces adresses reçoivent des notifications lorsque la feuille de calcul est actualisée.
+      Les flux de la feuille de calcul sont automatiquement actualisés chaque jour au [!UICONTROL Schedule Time] configuré. Les adresses spécifiées dans le paramètre [!UICONTROL Email Recipients] du flux reçoivent des notifications lorsque la feuille de calcul est actualisée.
 
 ## Modifier les paramètres du flux de rapports d&#39;une feuille de calcul {#spreadsheet-feed-edit}
 
@@ -110,7 +112,7 @@ Pour créer des flux de feuilles de calcul, vous devez d&#39;abord créer des mo
 
    * (Facultatif) Pour utiliser un modèle de rapport différent ou mis à jour pour le flux, [créez un nouveau modèle  [!DNL Excel]  modèle de rapport](#spreadsheet-feed-create-excel-template).
 
-     Dans les étapes suivantes, vous allez charger à la fois le modèle de rapport et le nouveau fichier [!DNL Excel].
+     Vous allez sélectionner le modèle de rapport et charger le nouveau fichier [!DNL Excel] dans les étapes suivantes.
 
    * (Facultatif) Pour ajouter simplement des colonnes personnalisées au modèle de [!DNL Excel], insérez les colonnes à droite des colonnes du modèle de rapport, puis enregistrez le fichier en tant que feuille de calcul [!DNL Excel] au format .XLSX. Vous devrez charger le nouveau fichier [!DNL Excel] à l’étape suivante.
 
@@ -122,7 +124,7 @@ Pour créer des flux de feuilles de calcul, vous devez d&#39;abord créer des mo
 
    1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Edit]**.
 
-   1. Dans la boîte de dialogue [!UICONTROL Create Spreadsheet Feed]<!-- sic -->, modifiez les [paramètres de flux de feuille de calcul](#spreadsheet-feed-settings).
+   1. Dans la boîte de dialogue **[!UICONTROL Edit Spreadsheet Feed]**, modifiez les [paramètres de flux de feuille de calcul](#spreadsheet-feed-settings).
 
    1. Cliquez sur **[!UICONTROL Submit]**.
 
@@ -132,20 +134,34 @@ Pour créer des flux de feuilles de calcul, vous devez d&#39;abord créer des mo
    >
    > Si le modèle de rapport associé au flux est supprimé ultérieurement, le flux est également supprimé.
 
-   Les flux des feuilles de calcul sont automatiquement actualisés à 8 h chaque jour dans le fuseau horaire de l’annonceur. Si le modèle de rapport inclut des adresses pour des destinataires d’e-mails, ces adresses reçoivent des notifications lorsque la feuille de calcul est actualisée.
+   Les flux de feuilles de calcul sont automatiquement actualisés chaque jour au [!UICONTROL Schedule Time] configuré dans le fuseau horaire de l’annonceur. Les adresses spécifiées dans le paramètre [!UICONTROL Email Recipients] du flux reçoivent des notifications lorsque la feuille de calcul est actualisée.
 
 ## Paramètres de flux de rapports des feuilles de calcul {#spreadsheet-feed-settings}
 
 | Champ | Description |
 |---|---|
-| [!UICONTROL Feed Name] | Nom du flux de la feuille de calcul. |
+| [!UICONTROL Feed Name] | Nom du flux de la feuille de calcul, avec un maximum de 120 caractères. |
 | [!UICONTROL Report Template] | Modèle de rapport spécifiant les données de rapport requises. Sélectionnez celui que vous avez utilisé pour créer le modèle de [!DNL Excel]. Tous les modèles de rapport de base sont répertoriés.<br><br><b>Remarque :</b> si vous modifiez le modèle de rapport utilisé pour le rapport ou si vous mettez à jour les colonnes du modèle, vous devez créer et charger un nouveau modèle de [!DNL Excel]. |
-| [!UICONTROL Excel Template] | Modèle de [!DNL Excel] spécialement formaté que vous avez créé au format .XLSX et qui est appliqué aux données spécifiées dans le modèle de rapport. Indiquez le fichier à charger en saisissant le chemin d’accès complet et le nom du fichier ou en cliquant sur <b>[!UICONTROL Browse]</b> pour localiser le fichier sur votre appareil ou réseau. |
-| [!UICONTROL Back Fill From] | Date de début pour laquelle les données existantes sur l’onglet [!UICONTROL RAW] sont actualisées, représentée par un nombre de jours dans le passé. Entrez une valeur allant jusqu’à 90 jours ; la valeur par défaut est de sept (7) jours.<br><br>Par exemple, si la valeur est 7 et que la date d’aujourd’hui est le 7 mars, les données existantes dans l’onglet [!UICONTROL RAW] commençant par le 1er mars sont actualisées (jusqu’à la date de fin spécifiée par le paramètre [!UICONTROL Back Fill Until] ). Les lignes de données existantes pour les dates antérieures au 1er mars ne sont pas supprimées, mais elles ne sont pas actualisées. |
-| [!UICONTROL Back Fill Until] | Date de fin à laquelle les données existantes sur l’onglet [!UICONTROL RAW] sont actualisées, représentée par un nombre de jours dans le passé. La valeur par défaut est de un (1) jour.<br><br>Par exemple, si cette valeur est définie sur 1 et que la date d’aujourd’hui est le 7 mars, les données existantes dans l’onglet [!UICONTROL RAW] sont actualisées jusqu’au 6 mars (et en commençant par la date de début spécifiée par le paramètre [!UICONTROL Back Fill From] ). Si cette valeur est définie sur 1, le paramètre [!UICONTROL Back Fill Until] est défini sur 7 et que la valeur actuelle est le 7 mars, les données existantes dans l’onglet [!UICONTROL RAW] sont actualisées du 1er au 6 mars. Dans les deux exemples, les lignes de données existantes pour les dates postérieures au 6 mars ne sont pas supprimées, mais elles ne sont pas actualisées. |
-| [!UICONTROL Email Recipients] | Adresses e-mail auxquelles envoyer des notifications chaque fois que le rapport est actualisé ou chaque fois que le rapport est exécuté lorsque le modèle inclut un planning. Par défaut, l’adresse de votre compte utilisateur est saisie. Pour spécifier plusieurs adresses, séparez-les par des virgules, des espaces ou de nouvelles lignes. |
-| [!UICONTROL Schedule Time] | Heure à laquelle les flux de la feuille de calcul sont actualisés : à 8 h ou à toute heure entre 10 h et 23 h dans le fuseau horaire de l’annonceur. La valeur par défaut pour les nouveaux flux de feuilles de calcul est 10:00.<br><br><b>Remarque :</b> pour des raisons de performances, vous ne pouvez pas actualiser les flux de feuilles de calcul à 9:00, lorsque d’autres rapports sont générés. |
-| [!UICONTROL Email Notification] | (Lorsque les destinataires d’e-mails sont spécifiés) Éléments à inclure dans les notifications par e-mail aux adresses spécifiées :<ul><li><i>[!UICONTROL Attach feed]</i> — Pour envoyer une copie du rapport complété au format XLSX. Si le fichier dépasse 10 Mo, la notification n’inclut pas de pièce jointe.</li><li><i>[!UICONTROL Notification Only]</i> (valeur par défaut) : pour envoyer uniquement une notification de fin ou d&#39;échec du rapport, avec un lien vers le rapport.</li></ul> |
+| [!UICONTROL Excel Template] | Modèle de [!DNL Excel] spécialement formaté que vous avez créé au format .XLSX et qui est appliqué aux données spécifiées dans le modèle de rapport. Cliquez sur <b>[!UICONTROL Choose file]</b> pour localiser le fichier à charger. |
+| [!UICONTROL Back Fill From] | Date de début pour laquelle les données existantes sur l’onglet [!UICONTROL RAW] sont actualisées, représentée par un nombre de jours dans le passé. Entrez une valeur comprise entre 1 et 90 qui est supérieure à [!UICONTROL Back Fill Until] ; la valeur par défaut est de sept (7) jours.<br><br>Par exemple, si la valeur est 7 et que la date d’aujourd’hui est le 7 mars, les données existantes dans l’onglet [!UICONTROL RAW] commençant par le 1er mars sont actualisées (jusqu’à la date de fin spécifiée par le paramètre [!UICONTROL Back Fill Until] ). Les lignes de données existantes pour les dates antérieures au 1er mars ne sont pas supprimées, mais elles ne sont pas actualisées. |
+| [!UICONTROL Back Fill Until] | Date de fin à laquelle les données existantes sur l’onglet [!UICONTROL RAW] sont actualisées, représentée par un nombre de jours dans le passé. Entrez une valeur comprise entre 1 et 90 qui est inférieure à [!UICONTROL Back Fill From]. La valeur par défaut est de un (1) jour.<br><br>Par exemple, si cette valeur est définie sur 1 et que la date d’aujourd’hui est le 7 mars, les données existantes dans l’onglet [!UICONTROL RAW] sont actualisées jusqu’au 6 mars (et en commençant par la date de début spécifiée par le paramètre [!UICONTROL Back Fill From] ). Si cette valeur est définie sur 1, le paramètre [!UICONTROL Back Fill From] est défini sur 7 et que la valeur actuelle est le 7 mars, les données existantes dans l’onglet [!UICONTROL RAW] sont actualisées du 1er au 6 mars. Dans les deux exemples, les lignes de données existantes pour les dates postérieures au 6 mars ne sont pas supprimées, mais elles ne sont pas actualisées. |
+| [!UICONTROL Email Recipients] | Adresses e-mail auxquelles envoyer des notifications à chaque actualisation du flux de la feuille de calcul. Par défaut, l’adresse de votre compte utilisateur est saisie. Pour spécifier plusieurs adresses, séparez-les par des virgules, des espaces ou de nouvelles lignes. |
+| [!UICONTROL Schedule Time] | Heure à laquelle le flux de la feuille de calcul est actualisé chaque jour dans le fuseau horaire de l’annonceur. Sélectionnez une heure dans les options disponibles. La valeur par défaut pour les nouveaux flux de feuille de calcul est de 10 h. |
+| [!UICONTROL Email Notification] | Éléments à inclure dans les notifications par e-mail aux adresses spécifiées :<ul><li><i>[!UICONTROL Attach Feed (Max 10MB)]</i> — Pour envoyer une copie du rapport complété au format XLSX. Si le fichier dépasse 10 Mo, la notification n’inclut pas de pièce jointe.</li><li><i>[!UICONTROL Notification Only]</i> (valeur par défaut) : pour envoyer uniquement une notification de fin ou d&#39;échec du rapport, avec un lien vers le rapport.</li></ul> |
+
+## Afficher les paramètres du modèle de rapport associé {#spreadsheet-feed-view-template}
+
+L’icône d’engrenage **[!UICONTROL Template Settings]** ouvre un duplicata du modèle de rapport associé au flux. L’ouverture du doublon n’enregistre pas un nouveau modèle et ne modifie pas le modèle associé au flux.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
+
+1. Cliquez sur l’icône d’engrenage **[!UICONTROL Template Settings]** en regard du nom du modèle de rapport associé.
+
+1. Vérifiez les paramètres du rapport.
+
+1. Cliquez sur **[!UICONTROL Cancel]** lorsque vous avez terminé. Si vous êtes invité à annuler la configuration, cliquez sur **[!UICONTROL Discard]**.
+
+Pour modifier le modèle de rapport d&#39;origine, suivez la procédure d&#39;édition [modèle de rapport](report-templates-manage.md#template-edit). Pour utiliser un autre modèle pour le flux, [modifiez les paramètres du flux de la feuille de calcul](#spreadsheet-feed-edit) puis sélectionnez le modèle.
 
 ## Afficher ou enregistrer un fichier de flux de rapports de feuille de calcul {#spreadsheet-feed-view-or-save}
 
@@ -159,7 +175,7 @@ Vous pouvez afficher n’importe quel flux de feuille de calcul généré ou l�
 
 >[!NOTE]
 >
->Les flux des feuilles de calcul sont automatiquement actualisés à 8 h chaque jour dans le fuseau horaire local.
+>Les flux de feuilles de calcul sont automatiquement actualisés chaque jour au [!UICONTROL Schedule Time] configuré dans le fuseau horaire de l’annonceur.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
 
@@ -182,5 +198,17 @@ Vous pouvez afficher n’importe quel flux de feuille de calcul généré ou l�
 1. Cochez la case en regard de chaque flux à supprimer.
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Delete]**.
+
+1. Dans le message de confirmation, cliquez sur **[!UICONTROL Confirm]**.
+
+## Copier toutes les données des lignes sélectionnées dans le presse-papiers {#copy-to-clipboard}
+
+Copiez les informations visibles dans les lignes sélectionnées, en fonction des filtres appliqués et des colonnes visibles dans la vue. Les informations sont enregistrées en tant que valeurs séparées par des tabulations (TSV).
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
+
+1. Cochez la case en regard de chaque ligne dont vous souhaitez copier les données.
+
+1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Copy]**.
 
 1. Dans le message de confirmation, cliquez sur **[!UICONTROL Confirm]**.

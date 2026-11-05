@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 7e7dcde9fb195e04025a1a8d89e792ff562b053f
 workflow-type: tm+mt
 source-wordcount: '2256'
 ht-degree: 0%
@@ -337,7 +337,7 @@ Pour plus d’informations sur la disponibilité, consultez l’aide de Microsof
 **[!UICONTROL Audience Signal]:** (facultatif) [!DNL Microsoft Advertising] les audiences à utiliser comme signaux d’audience pour la campagne. Les modèles de machine learning [!DNL Microsoft Advertising] utilisent les audiences pour trouver des internautes similaires à cibler et peuvent également afficher des annonces à des audiences qui ne sont pas spécifiées comme signaux pour vous aider à atteindre vos objectifs de performances. Sélectionnez les audiences les plus susceptibles d’être converties.
 
 >[!NOTE]
->Les signaux d’audience sont différents des [cibles d’audience au niveau du groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+>Les signaux d’audience sont différents des [cibles d’audience au niveau du groupe publicitaire](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md).
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 
