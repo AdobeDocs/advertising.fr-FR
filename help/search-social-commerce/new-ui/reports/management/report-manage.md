@@ -18,7 +18,7 @@ feature_v2:
     internal-label: Search Model Accuracy Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: ea1ad3de65362d59f5c45341bc4807cfbaf0610e
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Les catégories de rapports suivantes sont disponibles à partir de la vue [!UIC
 
 Planifiez la génération automatique de rapports personnalisés de l’une des façons suivantes, ou des deux :
 
-* Générez automatiquement des rapports chaque jour, ou un jour spécifique de la semaine ou du mois, à l’aide de [&#x200B; modèles de rapport &#x200B;](/help/search-social-commerce/reports/automation/templates/template-about.md).
+* Générez automatiquement des rapports chaque jour, ou un jour spécifique de la semaine ou du mois, à l’aide de [&#x200B; modèles de rapport &#x200B;](/help/search-social-commerce/new-ui/reports/report-templates-manage.md).
 
   Vous pouvez éventuellement paramétrer la diffusion [FTP) de rapports de base et avancés](/help/search-social-commerce/new-ui/reports/ftp-reports.md) qui utilisent un modèle.
 
