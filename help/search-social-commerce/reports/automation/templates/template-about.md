@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '188'
 ht-degree: 0%
 ---
 # À propos des modèles de rapport
 
 Les modèles de rapport sont des dispositions de rapport prédéfinies que vous pouvez réutiliser lorsque vous générez la plupart des rapports. L&#39;utilisation de modèles vous permet de gagner du temps si vous souhaitez utiliser des paramètres autres que ceux par défaut, exécuter des variantes du même rapport ou exécuter le même rapport selon une planification régulière. Les modèles de rapport enregistrés sont disponibles à partir de la section Modèles de rapport de la page Rapports .
 
-Pour tout type de rapport de performances, vous pouvez enregistrer plusieurs modèles de rapport, en les créant entièrement ou en les basant sur des modèles existants. Vous pouvez également modifier les paramètres de n’importe quel modèle de rapport que vous avez créé ; les nouveaux paramètres sont appliqués à tous les rapports générés ultérieurement à l’aide du modèle. Vous pouvez exécuter des rapports pour un ou plusieurs modèles à tout moment.
+Pour tout type de rapport de performances, vous pouvez enregistrer plusieurs modèles de rapport, les créer avec de nouveaux paramètres ou les baser sur des modèles existants. Vous pouvez également modifier les paramètres de n’importe quel modèle de rapport que vous avez créé ; les nouveaux paramètres sont appliqués à tous les rapports générés ultérieurement à l’aide du modèle. Vous pouvez exécuter des rapports pour un ou plusieurs modèles à tout moment.
 
 Vous pouvez également supprimer tout modèle disponible. Lorsque vous supprimez un modèle qui inclut un planning, ce rapport n’est plus généré.
 

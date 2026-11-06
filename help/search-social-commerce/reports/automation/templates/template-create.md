@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '173'
 ht-degree: 0%
 ---
 # Création d’un modèle de rapport
 
-Vous pouvez enregistrer plusieurs modèles de rapport pour n&#39;importe quel type de rapport de performances. Vous pouvez créer un modèle à partir de zéro ou le baser sur un modèle existant. Vous pouvez gérer jusqu’à 100 modèles à la fois.
+Vous pouvez enregistrer plusieurs modèles de rapport pour n&#39;importe quel type de rapport de performances. Vous pouvez créer un modèle avec de nouveaux paramètres ou le baser sur un modèle existant. Vous pouvez gérer jusqu’à 100 modèles à la fois.
 
-* Pour créer un modèle à partir de zéro, effectuez l’une des opérations suivantes :
+* Pour créer un modèle avec de nouveaux paramètres, effectuez l’une des opérations suivantes :
 
   * Dans l’onglet [!UICONTROL Reports] , créez un rapport en cochant la case en regard de **[!UICONTROL Save as template]**, qui se trouve à côté du nom du rapport.
 
