@@ -32,7 +32,7 @@ ht-degree: 0%
 
 *Fonction*
 
-Vous pouvez générer une simulation personnalisée pour un portfolio [ optimisé ou actif ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-status). Vous pouvez également sélectionner une simulation dans la liste pour exécuter une nouvelle simulation pour le même portfolio, ou réexécuter des simulations avec leurs paramètres existants.
+Vous pouvez générer une simulation personnalisée pour un portfolio [&#x200B; optimisé ou actif &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-status). Vous pouvez également sélectionner une simulation dans la liste pour exécuter une nouvelle simulation pour le même portfolio, ou réexécuter des simulations avec leurs paramètres existants.
 
 La création d’une simulation personnalisée nécessite l’autorisation [!UICONTROL Create Simulation]. La sélection d’un portfolio nécessite l’autorisation [!UICONTROL View Portfolios].
 

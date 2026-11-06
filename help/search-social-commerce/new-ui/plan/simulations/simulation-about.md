@@ -51,7 +51,7 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 Search, Social et Commerce exécutent automatiquement des rapports de simulation chaque semaine en utilisant les paramètres actuels du portfolio. Les simulations hebdomadaires automatisées ne sont disponibles que pour les périodes où le portefeuille est [optimisé ou actif](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md).
 
-Vous pouvez [télécharger des simulations hebdomadaires pour un maximum de 100 portfolios pour une date d’exécution sélectionnée à partir de la vue [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations) ou [ télécharger des simulations individuelles à partir de la vue [!UICONTROL Simulations]](simulation-download.md).
+Vous pouvez [télécharger des simulations hebdomadaires pour un maximum de 100 portfolios pour une date d’exécution sélectionnée à partir de la vue [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations) ou [&#x200B; télécharger des simulations individuelles à partir de la vue [!UICONTROL Simulations]](simulation-download.md).
 
 #### Simulations hebdomadaires téléchargées
 
