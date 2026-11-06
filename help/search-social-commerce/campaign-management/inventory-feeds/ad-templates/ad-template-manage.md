@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1428'
 ht-degree: 0%
 ---
 # Gestion des modèles de publicité pour les flux d’inventaire
@@ -26,7 +26,7 @@ Avant ou après le chargement des données, vous pouvez créer des modèles d’
 
 Vous pouvez associer chaque modèle à un fichier de flux, un compte [!DNL Google Merchant Center] ou un compte [!DNL Microsoft Merchant Center], et vous pouvez associer plusieurs modèles au même fichier de flux ou compte. Un modèle de publicité peut inclure des variables qui sont remplacées par des colonnes de données réelles d’un fichier chargé ou d’un compte. Dans la plupart des cas, les variables peuvent également inclure [un groupe de modificateurs](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) que vous configurez dans Search, Social et Commerce pour créer plusieurs annonces, mots-clés, campagnes ou groupes d’annonces pour chaque ligne applicable dans le fichier de données. Les options de modèle vous permettent de créer une nouvelle structure de compte (campagnes, groupes publicitaires, mots-clés) pour les publicités ou de mapper les publicités à la structure de compte existante.
 
-Outre la création de modèles à partir de zéro, vous avez la possibilité de créer des modèles en clonant des modèles existants et en les modifiant.
+Outre la création de modèles avec de nouveaux paramètres, vous pouvez éventuellement créer des modèles en clonant des modèles existants et en modifiant des modèles existants.
 
 Une fois que vous avez créé un modèle et que vous l’avez associé à un fichier de flux de données ou à un compte de centre commercial, vous pouvez propager les données du fichier à travers le modèle afin de créer des données de campagne et une structure de compte, en créant éventuellement un fichier de feuille d’envoi groupé à réviser ou à publier immédiatement sur le réseau publicitaire.
 
@@ -40,7 +40,7 @@ Créez des modèles distincts pour les annonces textuelles et les annonces textu
 
 1. Effectuez l’une des opérations suivantes :
 
-   * Pour créer entièrement un modèle, cliquez sur **[!UICONTROL Create/Clone]** dans la barre d’outils au-dessus du tableau de données, puis sélectionnez le réseau publicitaire applicable.
+   * Pour créer un modèle avec de nouveaux paramètres, cliquez sur **[!UICONTROL Create/Clone]** dans la barre d’outils au-dessus du tableau de données, puis sélectionnez le réseau publicitaire applicable.
 
    * Pour cloner un modèle existant :
 

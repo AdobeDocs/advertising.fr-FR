@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: 700d05fb39b04918ae2662ce24746ed1e84f110e
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '905'
 ht-degree: 0%
 ---
 # (Nouvelle interface utilisateur) À propos des portefeuilles
@@ -73,7 +73,7 @@ Un portefeuille peut avoir les statuts suivants :
 
 ## La vue [!UICONTROL Portfolios]
 
-La vue [!UICONTROL Portfolios] répertorie tous les portfolios existants dans la vue filtrée, avec des données de performances personnalisables. Vous pouvez [personnaliser les colonnes de la vue](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) et filtrer les données pour inclure des portfolios spécifiques [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou de l’en-tête de colonne [&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+La vue [!UICONTROL Portfolios] répertorie tous les portfolios existants dans la vue filtrée, avec des données de performances personnalisables. Vous pouvez [personnaliser les colonnes de la vue](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) et filtrer les données pour inclure des portfolios spécifiques [à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou de l’en-tête de colonne [](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 ### Actions disponibles {#available-actions}
 
@@ -110,6 +110,8 @@ La vue [!UICONTROL Portfolios] répertorie tous les portfolios existants dans la
 * [Afficher un graphique des performances pour tous les portefeuilles dans la vue](portfolio-view-performance-graph.md)
 
 * [Affichage des détails sur les performances du portefeuille](portfolio-details.md)
+
+* [Exécution d’une simulation personnalisée ou téléchargement de simulations hebdomadaires](portfolio-create-simulation.md)
 
 * [Afficher l&#39;historique des modifications d&#39;un portefeuille](portfolio-view-change-history.md)
 

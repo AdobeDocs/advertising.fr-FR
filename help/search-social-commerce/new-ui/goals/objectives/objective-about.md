@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '556'
 ht-degree: 0%
 ---
 # (Nouvelle interface utilisateur) À propos des objectifs
@@ -74,7 +74,7 @@ Vous pouvez inclure l’un des éléments suivants dans vos objectifs :
 
 * Mesures [!DNL Google] : <!-- Search only, or might DSP-only clients also have these? -->
 
-  * [[!DNL Google Ads] des conversions suivies &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) à partir de comptes [!DNL Google Ads] synchronisés.
+  * [[!DNL Google Ads] des conversions suivies ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) à partir de comptes [!DNL Google Ads] synchronisés.
 
   * (Annonceurs avec [[!DNL Google Analytics] intégrations](/help/search-social-commerce/admin/data-sources/data-source-about.md)) Pages vues, Sessions, Taux de rebond (calculé comme rebonds/sessions) et Durée de la session.
 
@@ -82,11 +82,11 @@ Vous pouvez inclure l’un des éléments suivants dans vos objectifs :
 
 ## Option de chargement des objectifs sur les réseaux publicitaires
 
-Vous pouvez éventuellement  [!DNL Google Ads]  charger les objectifs des portefeuilles du compte vers et/ou  [!DNL Microsoft Advertising]  tant que conversions[&#128279;](objective-upload-to-networks.md) afin de les utiliser pour une optimisation au niveau de la campagne ou du groupe publicitaire. Lorsque vous activez cette option, Search, Social et Commerce transmettent quotidiennement au réseau publicitaire les données pondérées relatives au chiffre d’affaires au niveau de l’identifiant EF (identifiant de clic). Il omet toutes les mesures suivies par le réseau publicitaire.
+Vous pouvez éventuellement  [!DNL Google Ads]  charger les objectifs des portefeuilles du compte vers et/ou  [!DNL Microsoft Advertising]  tant que conversions](objective-upload-to-networks.md) afin de les utiliser pour une optimisation au niveau de la campagne ou du groupe publicitaire. [Lorsque vous activez cette option, Search, Social et Commerce transmettent quotidiennement au réseau publicitaire les données pondérées relatives au chiffre d’affaires au niveau de l’identifiant EF (identifiant de clic). Il omet toutes les mesures suivies par le réseau publicitaire.
 
 ## Actions disponibles
 
-* [Création d’un objectif](objective-create.md)
+* [Créer un objectif](objective-create.md) ou [dupliquer un objectif existant](objective-create.md#objective-duplicate)
 
 * [Modification d’un objectif](objective-edit.md)
 
