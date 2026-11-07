@@ -20,7 +20,7 @@ Ces instructions expliquent comment gérer les comptes de réseau publicitaire q
 
 Pour créer, modifier ou réauthentifier des comptes, vous devez disposer des autorisations nécessaires pour modifier les comptes.
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [ Inventaire pris en charge ](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
 
 ## À propos de la vue [!UICONTROL Accounts] {#account-view-about}
 
@@ -208,7 +208,7 @@ Vous pouvez supprimer les rapports terminés et ceux dont la génération a éch
 
    * Pour télécharger des données pour tous les comptes dans la vue filtrée, laissez toutes les cases à cocher désactivées.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans la boîte de dialogue [!UICONTROL Grid Reports], conservez le **[!UICONTROL Report Name]** par défaut ou saisissez un autre nom, puis cliquez sur **[!UICONTROL Generate]**.
 
@@ -222,7 +222,7 @@ Vous pouvez supprimer les rapports terminés et ceux dont la génération a éch
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans la liste **[!UICONTROL Recently Generated]** de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Télécharger](/help/search-social-commerce/assets/download.png "Télécharger") en regard du nom du fichier.
 
@@ -232,7 +232,7 @@ Vous pouvez supprimer les rapports terminés et ceux dont la génération a éch
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
-1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![ Télécharger le rapport ](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
+1. Dans la barre d’outils située au-dessus du tableau de données, cliquez sur ![&#x200B; Télécharger le rapport &#x200B;](/help/search-social-commerce/assets/download.png " Télécharger le rapport ") **[!UICONTROL Reports]**.
 
 1. Dans la liste **[!UICONTROL Recently Generated]** de la boîte de dialogue [!UICONTROL Grid Reports], cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete-new.png "Supprimer") en regard du nom d’un rapport terminé ou d’un rapport dont la génération a échoué.
 
@@ -351,7 +351,7 @@ Les comptes qui utilisent le suivi des clics d’Adobe Advertising doivent inclu
 
 ## onglet [!UICONTROL Set up Adobe Analytics]
 
-Ces paramètres sont disponibles pour les annonceurs qui disposent d’une [[!DNL Adobe Analytics for Advertising]  intégration ](/help/integrations/analytics/overview.md).
+Ces paramètres sont disponibles pour les annonceurs qui disposent d’une [[!DNL Adobe Analytics for Advertising]  intégration &#x200B;](/help/integrations/analytics/overview.md).
 
 **[!UICONTROL Adobe Analytics Report Suite]:** (facultatif) Une ou plusieurs suites de rapports Analytics auxquelles Search, Social et Commerce envoient les données qu’ils collectent sur le réseau publicitaire, y compris les classifications d’entités et les données de clics pour le compte. Cette fonctionnalité est disponible uniquement pour les réseaux publicitaires pris en charge.<!-- What are the repercussions of changing the suites? Timing of updated data? -->
 
