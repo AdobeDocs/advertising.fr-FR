@@ -13,9 +13,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
     internal-label: Search Simulations
-source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
+source-git-commit: 3e70998ad9547cecc0f3581d6cfd917051d549db
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '396'
 ht-degree: 0%
 ---
 # Exécuter et télécharger des simulations à partir de la vue [!UICONTROL Portfolios]
@@ -40,7 +40,7 @@ L’exécution d’une simulation personnalisée nécessite l’autorisation [!U
 
    * Cochez la case en regard du portefeuille. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL More]>[!UICONTROL Run Simulation]**.
 
-1. Définissez les [paramètres personnalisés de la simulation](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md#custom-simulation-settings) :
+1. Définissez les [paramètres personnalisés de la simulation](#custom-simulation-settings) :
 
    1. Dans l’onglet **[!UICONTROL Basic Settings]** , saisissez un **[!UICONTROL Simulation Name]** unique et modifiez les paramètres de base selon les besoins.
 
@@ -75,6 +75,10 @@ Vous pouvez télécharger des simulations hebdomadaires pour une date d’exécu
    Le fichier est téléchargé conformément à la procédure normale de votre navigateur. Le message d’achèvement indique le nombre de portefeuilles inclus.
 
 Pour télécharger des simulations personnalisées ou sélectionner des simulations hebdomadaires individuelles, utilisez la vue [&#128279;](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md).[!UICONTROL Simulations]
+
+## Paramètres personnalisés de la simulation {#custom-simulation-settings}
+
+Pour plus d’informations sur les paramètres personnalisés de la simulation, consultez le Guide d’optimisation , disponible dans Search, Social et Commerce.
 
 >[!MORELIKETHIS]
 >

@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a2ff8c1115487f12eb67f6db06e25f723c551e80
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '265'
 ht-degree: 0%
 ---
 # Création d’une mesure personnalisée
 
 ## (Nouvelle interface utilisateur) Créer une mesure personnalisée à partir d’une vue de gestion
 
-*Disponible dans les vues [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] et [!UICONTROL Ad Groups]*
+*Disponible dans la plupart des vues d&#39;entité du menu [!UICONTROL Manage],<!-- [!UICONTROL Plan] > [!UICONTROL Simulations],--> [!UICONTROL Setup] > [!UICONTROL Label Classifications], [!UICONTROL Goals] > [!UICONTROL Objectives] et [!UICONTROL Constraints], et [!UICONTROL Targeting] > [!UICONTROL Placements]*
 
 1. Au-dessus du tableau de données, effectuez l’une des opérations suivantes :
 
