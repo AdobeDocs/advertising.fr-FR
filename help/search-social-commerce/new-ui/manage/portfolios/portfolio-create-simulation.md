@@ -74,7 +74,7 @@ Vous pouvez télécharger des simulations hebdomadaires pour une date d’exécu
 
    Le fichier est téléchargé conformément à la procédure normale de votre navigateur. Le message d’achèvement indique le nombre de portefeuilles inclus.
 
-Pour télécharger des simulations personnalisées ou sélectionner des simulations hebdomadaires individuelles, utilisez la vue ](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md).[[!UICONTROL Simulations]
+Pour télécharger des simulations personnalisées ou sélectionner des simulations hebdomadaires individuelles, utilisez la vue [&#128279;](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md).[!UICONTROL Simulations]
 
 ## Paramètres personnalisés de la simulation {#custom-simulation-settings}
 
