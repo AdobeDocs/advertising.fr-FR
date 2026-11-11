@@ -264,7 +264,7 @@ ht-degree: 2%
     + [Affichage et création de ressources de création](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)
     + Extensions {#extensions-new-ui}
       + [Gestion des extensions de lien de site partagées](/help/search-social-commerce/new-ui/library/extensions/sitelink-extension-manage.md)
-      + [Gérer les extensions de légende partagées [!DNL Google Ads] ](/help/search-social-commerce/new-ui/library/extensions/callout-extension-manage.md)
+      + [Gérer les extensions de légende partagées [!DNL Google Ads] &#x200B;](/help/search-social-commerce/new-ui/library/extensions/callout-extension-manage.md)
       + [Gestion des associations d’extensions d’annonces](/help/search-social-commerce/new-ui/library/extensions/ad-extension-association-manage.md)
   + [Gestion des alertes personnalisées](/help/search-social-commerce/new-ui/alerts-manage.md)
   + [Gérer les notifications](/help/search-social-commerce/new-ui/notifications-manage.md)
@@ -318,7 +318,7 @@ ht-degree: 2%
     + Comptes réseau publicitaires {#ad-network-accounts}
       + [À propos des comptes de réseau publicitaire](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
       + [Gestion des comptes réseau et](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-      + [Mettre à jour le code de suivi AMO ID pour un compte  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
+      + [Mettre à jour le code de suivi AMO ID pour un compte  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
     + [Gérer les comptes de centre commercial](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
   + [Implémenter  [!DNL Naver] des comptes de tracking uniquement](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
   + Gestion des campagnes {#management}
@@ -393,8 +393,8 @@ ht-degree: 2%
           + [Gestion des exclusions d’audience pour les campagnes et les groupes publicitaires](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
       + Ajouter des extensions {#ad-extensions}
         + [!DNL Google Ads] extensions de légende {#callouts}
-          + [À propos des extensions de légende  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
-          + [Gérer les extensions de légende  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
+          + [À propos des extensions de légende  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
+          + [Gérer les extensions de légende  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
           + [Associer des extensions de légende partagées [!DNL Google Ads] à des campagnes ou à des groupes publicitaires](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
         + Extensions de lien de site {#sitelinks}
           + [À propos des extensions sitelink](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-about.md)
@@ -608,11 +608,11 @@ ht-degree: 2%
   + [Synchroniser les  [!DNL Adobe] audiences](/help/search-social-commerce/admin/sync-adobe-audiences.md)
   + Configuration des sources de données {#data-sources}
     + [À propos de la synchronisation des  [!DNL Google Analytics] mesures de conversion](/help/search-social-commerce/admin/data-sources/data-source-about.md)
-    + [Conditions préalables à la configuration d&#39;une source de données  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
+    + [Conditions préalables à la configuration d&#39;une source de données  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
     + [Configurer une vue  [!DNL Google Analytics]  comme source de données](/help/search-social-commerce/admin/data-sources/data-source-configure.md)
-    + [Modifier une source de données  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
+    + [Modifier une source de données  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
     + [Suspendre la synchronisation d’une source de données](/help/search-social-commerce/admin/data-sources/data-source-pause.md)
-    + [Réauthentifier une source de données  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
+    + [Réauthentifier une source de données  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
     + [[!DNL Google Analytics] paramètres de source de données](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
     + [Annexe - Mesures  [!DNL Google Analytics]  disponibles](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
   + Gestion des mesures de conversion d’un annonceur{#conversion-metrics}
