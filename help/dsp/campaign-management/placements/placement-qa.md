@@ -18,14 +18,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '584'
 ht-degree: 0%
 ---
 # Vérifier et modifier les paramètres d’emplacement à l’aide des feuilles d’envoi groupé
 
-Vous pouvez télécharger les paramètres pour un ou plusieurs emplacements, ou pour tous les emplacements d’une campagne, au format XLSX (feuille de calcul [!DNL Microsoft Excel]) pour révision. Utilisez cette fonctionnalité pour consulter rapidement des informations telles que :
+Vous pouvez télécharger les paramètres pour un ou plusieurs emplacements, ou pour tous les emplacements d’une campagne, au format XLSX ([!DNL Microsoft Excel] feuille de calcul) pour révision. Utilisez cette fonctionnalité pour consulter rapidement des informations telles que :
 
 * Les audiences ciblées par la campagne.
 * Lorsque les emplacements commencent à délivrer et lorsqu’ils s’arrêtent.
@@ -35,7 +35,7 @@ Pour mettre à jour plusieurs paramètres à la fois, vous pouvez apporter des m
 
 >[!TIP]
 >
->Pour modifier rapidement d’autres champs pour un ou plusieurs emplacements, voir « [&#x200B; Modifier des emplacements &#x200B;](/help/dsp/campaign-management/placements/placement-edit.md) ».
+>Pour modifier rapidement d’autres champs pour un ou plusieurs emplacements, voir « [Modifier des emplacements](/help/dsp/campaign-management/placements/placement-edit.md) ».
 
 ## Paramètres de téléchargement pour tous les emplacements d’une campagne
 
@@ -47,7 +47,7 @@ Pour mettre à jour plusieurs paramètres à la fois, vous pouvez apporter des m
 
    * Cliquez sur le nom de la campagne. Dans le coin supérieur droit, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
 
-1. Dans la boîte de dialogue [!UICONTROL Bulksheet Download], désélectionnez les composants de campagne dont vous souhaitez exclure les paramètres du fichier téléchargé, puis cliquez sur **[!UICONTROL Download]**.
+1. Dans la boîte de dialogue [!UICONTROL Bulksheet Download], désélectionnez tous les composants de campagne dont vous souhaitez exclure les paramètres du fichier téléchargé, puis cliquez sur **[!UICONTROL Download]**.
 
 Par défaut, les paramètres de tous les emplacements et annonces publicitaires associés aux packages sont sélectionnés.
 
@@ -57,7 +57,7 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![Gestionnaire de tâches](/help/creative/assets/job-manager.png "Gestionnaire de tâches") (**[!UICONTROL Job Manager]**). Cliquez sur **[!UICONTROL Download]** en regard du traitement.
 
    Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -79,7 +79,7 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![Gestionnaire de tâches](/help/creative/assets/job-manager.png "Gestionnaire de tâches") (**[!UICONTROL Job Manager]**). Cliquez sur **[!UICONTROL Download]** en regard du traitement.
 
    Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -93,13 +93,13 @@ Vous pouvez charger les paramètres de vos emplacements, ainsi que des annonces 
 
 1. Effectuez l’une des opérations suivantes :
 
-   * En regard de la campagne parent, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
+   * En regard de la campagne parente, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
 
    * Cliquez sur le nom de la campagne. Dans le coin supérieur droit, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
 
-     Cette option est disponible à partir de l’onglet [!UICONTROL Packages], [!UICONTROL Placements] ou [!UICONTROL Ads] .
+     Cette option est disponible à partir de l’onglet [!UICONTROL Packages], [!UICONTROL Placements] ou [!UICONTROL Ads].
 
-   * Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**, puis activez la case à cocher de n&#39;importe quel emplacement. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
+   * Dans le sous-menu, cliquez sur **[!UICONTROL Placements]**, puis cochez la case de n&#39;importe quel emplacement. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
 
 1. Dans la boîte de dialogue [!UICONTROL Upload Bulksheet] :
 
@@ -107,7 +107,7 @@ Vous pouvez charger les paramètres de vos emplacements, ainsi que des annonces 
 
    1. Cliquez sur **[!UICONTROL Upload]**.
 
-1. (Facultatif) Pour vérifier que les mises à jour ont été traitées, cliquez sur ![Tâches](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
+1. (Facultatif) Pour vérifier que les mises à jour ont été traitées, cliquez sur ![Gestionnaire de tâches](/help/creative/assets/job-manager.png "Gestionnaire de tâches") (**[!UICONTROL Job Manager]**) dans la partie droite de la barre de menus supérieure.
 
 Lorsqu’une mise à jour de paramètre échoue, vous pouvez télécharger un fichier d’erreur de feuille d’envoi groupé avec un codage de couleur pour afficher les paramètres (lignes) enregistrés et ceux qui ont échoué, avec une raison pour chaque échec. Vous pouvez ensuite résoudre les problèmes du même fichier et le charger à nouveau pour traiter les informations corrigées.
 
@@ -246,6 +246,6 @@ Check on Brand Safety - Contextual Filtering # with new DV feature/fct change.
 
 >[!MORELIKETHIS]
 >
->* [Examiner et modifier les paramètres des composants de campagne à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [Examinez et modifiez les paramètres des composants de campagne à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [Modifier les emplacements](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -18,22 +18,22 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '269'
 ht-degree: 0%
 ---
 # Révision et modification des détails des annonces publicitaires à l’aide de feuilles d’envoi groupé
 
 <!-- I should probably change this filename and get __?__ to set up a redirect from the old file to the new file. -->
 
-Vous pouvez télécharger les détails de toutes les publicités d’une campagne au format XLSX (feuille de calcul Excel) à des fins de révision. La *feuille d’envoi groupé* comprend un onglet avec les paramètres et les emplacements associés pour chaque publicité et un autre onglet avec chaque pixel utilisé pour les publicités dans la campagne.
+Vous pouvez télécharger les détails de toutes les publicités d’une campagne au format XLSX (feuille de calcul Excel) à des fins de révision. Les détails de la *feuille d’envoi groupé* incluent un onglet avec les paramètres et les emplacements associés pour chaque publicité et un autre onglet avec chaque pixel utilisé pour les publicités dans la campagne.
 
-Pour modifier les détails de l’annonce publicitaire, voir « [Vérification et modification des paramètres des composants de campagne à l’aide de feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md) ».
+Pour modifier les détails de l’annonce publicitaire, voir « [Examiner et modifier les paramètres des composants de la campagne à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md) ».
 
 >[!NOTE]
 >
->*Pour modifier les paramètres d’une annonce publicitaire, voir aussi « [&#x200B; Modifier une annonce &#x200B;](/help/dsp/campaign-management/ads/ad-edit.md) ».
+>*Pour modifier les paramètres d’une annonce publicitaire, voir aussi « [Modifier une annonce publicitaire](/help/dsp/campaign-management/ads/ad-edit.md) ».
 >*Pour modifier les pixels de suivi tiers pour plusieurs annonces à la fois ou pour joindre des annonces aux emplacements, voir également « [Joindre des annonces aux emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) ».
 
 ## Télécharger les détails de toutes les annonces d’une campagne
@@ -46,7 +46,7 @@ Pour modifier les détails de l’annonce publicitaire, voir « [Vérification e
 
    * Cliquez sur le nom de la campagne. Dans le coin supérieur droit, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
 
-1. Dans la boîte de dialogue [!UICONTROL Bulksheet Download], désélectionnez les composants de campagne dont vous souhaitez exclure les paramètres du fichier téléchargé, puis cliquez sur **[!UICONTROL Download]**.
+1. Dans la boîte de dialogue [!UICONTROL Bulksheet Download], désélectionnez tous les composants de campagne dont vous souhaitez exclure les paramètres du fichier téléchargé, puis cliquez sur **[!UICONTROL Download]**.
 
 Par défaut, les paramètres de tous les composants de campagne sont sélectionnés.
 
@@ -56,17 +56,17 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![Gestionnaire de tâches](/help/creative/assets/job-manager.png "Gestionnaire de tâches") (**[!UICONTROL Job Manager]**). Cliquez sur **[!UICONTROL Download]** en regard du traitement.
 
      Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
 >[!MORELIKETHIS]
 >
->* [Modification d’une publicité](/help/dsp/campaign-management/ads/ad-edit.md)
+>* [Modifier une annonce publicitaire](/help/dsp/campaign-management/ads/ad-edit.md)
 >* [Joindre des annonces à des emplacements](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
 >* [Paramètres des publicités audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
 >* [Paramètres de la télévision connectée](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [Afficher les paramètres de l’annonce publicitaire](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Afficher les paramètres de l&#39;annonce publicitaire](/help/dsp/campaign-management/ads/ad-settings-display.md)
 >* [Paramètres des annonces publicitaires mobiles](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
 >* [Paramètres natifs des publicités display](/help/dsp/campaign-management/ads/ad-settings-native.md)
 >* [Paramètres de publicité preroll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
