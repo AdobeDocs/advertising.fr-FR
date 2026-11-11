@@ -1,6 +1,6 @@
 ---
 title: Gestion des mots-clés
-description: Découvrez comment créer et gérer des mots-clés pouvant faire l’objet d’une offre et négatifs, et affecter des contraintes aux mots-clés.
+description: Découvrez comment gérer les mots-clés pouvant faire l’objet d’enchères et négatifs, attribuer des contraintes, et afficher et télécharger l’historique des unités d’enchères de mots-clés dans Adobe Advertising Search, Social et Commerce.
 feature: Search Optimization, Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
@@ -18,22 +18,22 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # Gestion des mots-clés
 
-*Fonction*
+*Fonctionnalité Beta*
 
-Comptes *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] et [!DNL Baidu] existants uniquement*
+*[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] et comptes [!DNL Baidu] existants uniquement*
 
 Un mot-clé est un mot ou une expression associé à une publicité. Les paramètres de mot-clé incluent le type de correspondance de mot-clé, les enchères maximales à utiliser lorsque votre publicité est déclenchée par le mot-clé et (pour certains réseaux publicitaires) des paramètres de suivi facultatifs. Les paramètres au niveau du mot-clé remplacent les paramètres du groupe publicitaire ou de la campagne. Les mots-clés négatifs empêchent l’affichage des publicités pour les recherches correspondantes.
 
 Une fois que vous [rendez un compte de réseau publicitaire accessible via une connexion API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) et que Search, Social et Commerce a synchronisé les données du compte avec le réseau publicitaire, vous pouvez créer des mots-clés pour les groupes publicitaires de recherche dans [types de campagne pris en charge](/help/search-social-commerce/introduction/supported-inventory.md). Vous pouvez également modifier et modifier le statut des mots-clés, ainsi que créer et supprimer des mots-clés négatifs.
 
-Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, reportez-vous à [&#x200B; Inventaire pris en charge &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md).
+Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, voir « [Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) ».
 
 ## À propos de la vue [!UICONTROL Keywords] {#keyword-view-about}
 
@@ -53,25 +53,45 @@ La vue [!UICONTROL Manage] > [!UICONTROL Keywords] comprend deux onglets pour le
 
 * [Modifier le statut des mots-clés et des mots-clés négatifs, ou les supprimer](#keyword-status)
 
+* [Afficher et télécharger l&#39;historique des unités d&#39;enchères](#bid-unit-history)
+
 * [Copier toutes les données des lignes sélectionnées dans le presse-papiers](#copy-to-clipboard)
 
 * [Attribuez des contraintes aux mots-clés et annulez l’attribution des contraintes aux mots-clés](#keyword-constraints)
 
 * [Attribuer des classifications de libellés](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) aux mots-clés
 
+## Afficher et télécharger l&#39;historique des unités d&#39;enchères {#bid-unit-history}
+
+Lorsque la colonne [!UICONTROL Bid Unit ID] est disponible dans le tableau de données de mots-clés, vous pouvez ouvrir l&#39;historique de l&#39;entité d&#39;enchères directement à partir de l&#39;ID.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
+
+1. Dans l’onglet **[!UICONTROL Keywords]**, cliquez sur la valeur de la colonne **[!UICONTROL Bid Unit ID]** pour le mot-clé.
+
+1. Dans la boîte de dialogue [!UICONTROL Bid Unit Details], cliquez sur l’onglet **[!UICONTROL History]**.
+
+1. (Facultatif) Dans le menu d’appareil situé au-dessus du tableau, sélectionnez un type d’appareil pour lequel afficher l’historique. Par défaut, les données de tous les appareils s’affichent.
+
+1. (Facultatif) Lorsque des données d’historique sont disponibles, cliquez sur **[!UICONTROL Export as csv]** pour télécharger l’historique affiché.
+
+Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
+
+Vous pouvez également ouvrir les [informations sur l&#39;unité d&#39;enchères à partir des informations sur les performances d&#39;un portefeuille](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md#bid-unit-details). Pour plus d’informations sur les autres onglets de la boîte de dialogue, voir « [Afficher les détails sur les performances du portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md) ».
+
 ## Créer des mots-clés {#keyword-create}
 
 >[!TIP]
 >
->Pour créer un grand nombre de mots-clés à la fois, utilisez [feuilles d’envoi groupé de campagne](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md).
+>Pour créer un grand nombre de mots-clés à la fois, utilisez [feuilles d&#39;envoi groupé de campagne](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md).
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
 
-1. Dans l’onglet **[!UICONTROL Keywords]** , cliquez sur **[!UICONTROL Create Keywords]**.
+1. Sur l&#39;onglet **[!UICONTROL Keywords]**, cliquez sur **[!UICONTROL Create Keywords]**.
 
 1. À l’étape **[!UICONTROL Basic Settings]**, sélectionnez le réseau, le compte, la campagne et le groupe publicitaire.
 
-1. Saisissez les [[!DNL Baidu] paramètres de mot-clé](keyword-settings-baidu.md), [[!DNL Google Ads] paramètres de mot-clé](keyword-settings-google.md), [[!DNL LY Ads] paramètres de mot-clé](keyword-settings-yahoo-japan.md), [[!DNL Microsoft Advertising] paramètres de mot-clé](keyword-settings-microsoft.md) ou [[!DNL Yandex] paramètres de mot-clé](keyword-settings-yandex.md).
+1. Saisissez les [[!DNL Baidu] paramètres de mots-clés](keyword-settings-baidu.md), [[!DNL Google Ads] paramètres de mots-clés](keyword-settings-google.md), [[!DNL LY Ads] paramètres de mots-clés](keyword-settings-yahoo-japan.md), [[!DNL Microsoft Advertising] paramètres de mots-clés](keyword-settings-microsoft.md) ou [[!DNL Yandex] paramètres de mots-clés](keyword-settings-yandex.md).
 
    Vous pouvez saisir ou coller jusqu’à 2 000 mots-clés en une seule opération. Séparez plusieurs mots-clés par des virgules ou saisissez-les sur des lignes distinctes.
 
@@ -91,15 +111,15 @@ La modification du texte du mot-clé ou du type de correspondance peut supprimer
 
 >[!TIP]
 >
->Pour modifier une grande quantité de données de mots-clés en même temps, y compris des mots-clés sur différents réseaux publicitaires, utilisez [feuilles d’envoi groupé de campagne](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md).
+>Pour modifier une grande quantité de données de mots-clés à la fois, y compris des mots-clés sur différents réseaux publicitaires, utilisez les [feuilles d&#39;envoi groupé de campagne](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md).
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
 
-1. Dans l’onglet **[!UICONTROL Keywords]** , cochez la case en regard de chaque mot-clé à modifier.
+1. Dans l’onglet **[!UICONTROL Keywords]**, cochez la case en regard de chaque mot-clé à modifier.
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Edit]**.
 
-1. Modifiez les [[!DNL Baidu] paramètres de mot-clé](keyword-settings-baidu.md), [[!DNL Google Ads] paramètres de mot-clé](keyword-settings-google.md), [[!DNL LY Ads] paramètres de mot-clé](keyword-settings-yahoo-japan.md), [[!DNL Microsoft Advertising] paramètres de mot-clé](keyword-settings-microsoft.md) ou [[!DNL Yandex] paramètres de mot-clé](keyword-settings-yandex.md).
+1. Modifiez les [[!DNL Baidu] paramètres de mots-clés](keyword-settings-baidu.md), [[!DNL Google Ads] paramètres de mots-clés](keyword-settings-google.md), [[!DNL LY Ads] paramètres de mots-clés](keyword-settings-yahoo-japan.md), [[!DNL Microsoft Advertising] paramètres de mots-clés](keyword-settings-microsoft.md) ou [[!DNL Yandex] paramètres de mots-clés](keyword-settings-yandex.md).
 
    Si plusieurs mots-clés sont sélectionnés, vous ne pouvez modifier que les champs communs à tous les mots-clés et vos modifications sont appliquées à tous les mots-clés sélectionnés. Pour certains champs alphanumériques, vous pouvez modifier les valeurs existantes à une valeur spécifiée, remplacer une chaîne existante par une chaîne spécifiée, ajouter un préfixe ou ajouter un suffixe. Pour certains champs monétaires, vous pouvez modifier les valeurs existantes à une valeur spécifiée ou augmenter ou diminuer le montant d’un pourcentage ou d’un montant monétaire spécifié, avec une limite.
 
@@ -111,21 +131,21 @@ La modification du texte du mot-clé ou du type de correspondance peut supprimer
 
 ## Créer des mots-clés négatifs {#keyword-negative-create}
 
-Comptes *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] et [!DNL Baidu] existants uniquement*
+*[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] et comptes [!DNL Baidu] existants uniquement*
 
 Vous pouvez créer des mots-clés négatifs pour un groupe publicitaire ou une campagne de recherche qui cible la recherche ou le réseau d’affichage/natif.
 
 >[!NOTE]
 >
->Vous pouvez également créer et modifier des mots-clés négatifs dans les [paramètres du groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md) et [paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md).
+>Vous pouvez également créer et modifier des mots-clés négatifs dans les [paramètres du groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md) et les [paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md).
 
 >[!TIP]
 >
->Pour créer un grand nombre de mots-clés négatifs en même temps, utilisez [feuilles d’envoi groupé de campagne](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md).
+>Pour créer un grand nombre de mots-clés négatifs en même temps, utilisez [feuilles d&#39;envoi groupé de campagne](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md).
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
 
-1. Dans l’onglet **[!UICONTROL Negatives]** , cliquez sur **[!UICONTROL Create Negatives]** , puis sur **[!UICONTROL Campaign Negative Keyword]** ou **[!UICONTROL Ad Group Negative Keyword]**.
+1. Dans l’onglet **[!UICONTROL Negatives]**, cliquez sur **[!UICONTROL Create Negatives]**, puis sur **[!UICONTROL Campaign Negative Keyword]** ou **[!UICONTROL Ad Group Negative Keyword]**.
 
 1. Sélectionnez le réseau, le compte, la campagne et (pour les mots-clés négatifs au niveau du groupe publicitaire) le groupe publicitaire.
 
@@ -133,7 +153,7 @@ Vous pouvez créer des mots-clés négatifs pour un groupe publicitaire ou une c
 
    * Correspondance large négative : `keyword` (non prise en charge par [!DNL Microsoft Advertising])
 
-   * Correspondance de l’expression négative : `"keyword"`
+   * Correspondance de l&#39;expression négative : `"keyword"`
 
    * Correspondance exacte négative : `[keyword]`
 
@@ -141,7 +161,7 @@ Vous pouvez créer des mots-clés négatifs pour un groupe publicitaire ou une c
 
    * Longueur maximale des caractères : [!DNL Baidu] : 30 octets simples ou 15 octets doubles ; [!DNL Microsoft Advertising] : 100 octets simples ou 50 octets doubles ; [!DNL Google Ads] et [!DNL LY Ads] : 80 octets simples ou 40 octets doubles.
 
-   * [!DNL Baidu] n’autorise qu’un seul type de correspondance par mot-clé par groupe publicitaire. Par exemple, le groupe publicitaire 1 ne peut pas inclure à la fois `"keyword"` et `[keyword]`.
+   * [!DNL Baidu] autorise un seul type de correspondance par mot-clé par groupe publicitaire. Par exemple, le groupe publicitaire 1 ne peut pas inclure à la fois `"keyword"` et `[keyword]`.
 
    * [!DNL Google Ads] : chaque mot-clé ne peut pas comporter plus de 10 mots et ne peut contenir que des lettres, des chiffres et les caractères spéciaux suivants : espace `# $ & _ - " [ ] ' + . / :`
 
@@ -161,7 +181,7 @@ Vous pouvez également supprimer des mots-clés de recherche actifs ou en pause 
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
 
-1. Sur l’onglet **[!UICONTROL Keywords]** , vous pouvez éventuellement filtrer la liste, puis cocher la case en regard de chaque mot-clé dont vous souhaitez modifier le statut.
+1. Sous l&#39;onglet **[!UICONTROL Keywords]**, vous pouvez éventuellement filtrer la liste, puis cocher la case en regard de chaque mot-clé dont vous souhaitez modifier le statut.
 
 1. Dans la barre d’outils des actions en bloc, modifiez le statut :
 
@@ -173,7 +193,7 @@ Vous pouvez également supprimer des mots-clés de recherche actifs ou en pause 
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
 
-1. Sous l’onglet **[!UICONTROL Keywords]** ou **[!UICONTROL Negatives]** , vous pouvez éventuellement filtrer la liste, puis cocher la case en regard de chaque mot-clé ou mot-clé négatif à supprimer.
+1. Sous l’onglet **[!UICONTROL Keywords]** ou **[!UICONTROL Negatives]**, vous pouvez éventuellement filtrer la liste, puis cocher la case en regard de chaque mot-clé ou mot-clé négatif à supprimer.
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Delete]**.
 
@@ -206,7 +226,7 @@ Vous pouvez affecter une seule contrainte à un ou plusieurs mots-clés.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
 
-1. Dans l’onglet **[!UICONTROL Keywords]** , cochez la case en regard de chaque mot-clé auquel vous affecterez une seule contrainte.
+1. Dans l&#39;onglet **[!UICONTROL Keywords]**, cochez la case en regard de chaque mot-clé auquel vous affecterez une seule contrainte.
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
@@ -220,7 +240,7 @@ L’annulation de l’affectation d’une contrainte ne la supprime pas. Pour su
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
 
-1. Dans l’onglet **[!UICONTROL Keywords]** , cochez la case en regard de chaque mot-clé duquel vous annulez l’affectation des contraintes.
+1. Dans l’onglet **[!UICONTROL Keywords]**, cochez la case en regard de chaque mot-clé duquel vous annulerez l’affectation des contraintes.
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
@@ -228,10 +248,10 @@ L’annulation de l’affectation d’une contrainte ne la supprime pas. Pour su
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Baidu] paramètres des mots-clés](keyword-settings-baidu.md)
->* [[!DNL Google Ads] paramètres des mots-clés](keyword-settings-google.md)
->* [[!DNL LY Ads] paramètres des mots-clés](keyword-settings-yahoo-japan.md)
->* [[!DNL Microsoft Advertising] paramètres des mots-clés](keyword-settings-microsoft.md)
->* [[!DNL Yandex] paramètres des mots-clés](keyword-settings-yandex.md)
->* [Gérer les contraintes pour les unités d’offres de recherche](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
+>* [[!DNL Baidu] paramètres de mot-clé](keyword-settings-baidu.md)
+>* [[!DNL Google Ads] paramètres de mot-clé](keyword-settings-google.md)
+>* [[!DNL LY Ads] paramètres de mot-clé](keyword-settings-yahoo-japan.md)
+>* [[!DNL Microsoft Advertising] paramètres de mot-clé](keyword-settings-microsoft.md)
+>* [[!DNL Yandex] paramètres de mot-clé](keyword-settings-yandex.md)
+>* [Gérer les contraintes pour les unités d&#39;enchères de recherche](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [Gérer les classifications de libellés](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
