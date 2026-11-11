@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '2440'
+source-wordcount: '2443'
 ht-degree: 2%
 ---
 # Guide d’Advertising Search, Social et Commerce {#search-social-commerce}
@@ -27,10 +27,10 @@ ht-degree: 2%
   + [Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md)
   + Intégration à Adobe CX Enterprise {#integrations}
     + [Intégration aux solutions et services Adobe CX Enterprise](/help/search-social-commerce/introduction/integrations.md)
-    + [&#x200B; [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr){target="_blank"}
-    + [Intégration avec Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=fr){target="_blank"}
-  + [Prise en charge de la confidentialité des clients (lien)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}
-  + [Politiques et directives (lien)](https://experienceleague.adobe.com/fr/docs/advertising/policies/ad-requirements-policy){target="_blank"}
+    + [Adobe [!DNL Analytics for Advertising] (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+    + [Intégration avec Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+  + [Prise en charge de la confidentialité des clients (lien)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+  + [Politiques et directives (lien)](https://experienceleague.adobe.com/en/docs/advertising/policies/ad-requirements-policy){target="_blank"}
 + Prise en main {#getting-started}
   + [Présentation de l’implémentation](/help/search-social-commerce/getting-started/implemention-overview.md)
   + [Configuration requise](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -46,7 +46,7 @@ ht-degree: 2%
     + [Gestion des vues par défaut et personnalisées](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)
     + Paramètres des vues ad hoc {#ad-hoc-settings}
       + [Modifiez le jeu de colonnes à partir du menu d’en-tête de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)
-      + [Modifier et trier le jeu de colonnes à partir de l’icône [!UICONTROL Custom Columns]](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
+      + [Modifiez et triez le jeu de colonnes à partir de l’icône [!UICONTROL Custom Columns]](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
       + [Verrouiller et déverrouiller une configuration de colonne dans les vues de campagne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md)
       + [Réorganiser une colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)
       + [Filtrer les données par période](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)
@@ -86,10 +86,10 @@ ht-degree: 2%
       + [Renommer un portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md)
       + [Modifier le statut d&#39;un portefeuille](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-change-status.md)
       + [Paramètres de Portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
-      + [Exécuter et télécharger des simulations à partir de la vue [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
-      + [Afficher un graphique des performances dans la vue [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
+      + [Exécuter et télécharger des simulations depuis la vue [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
+      + [Afficher un graphique de performances dans la vue [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
       + [Affichage des détails sur les performances du portefeuille](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
-      + [Afficher l&#39;historique des modifications d&#39;un portefeuille](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
+      + [Afficher l&#39;historique des modifications de portefeuille et l&#39;historique des modifications d&#39;enchères](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
       + [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
     + Comptes {#accounts}
       + [À propos des comptes de réseau publicitaire](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)
@@ -98,47 +98,47 @@ ht-degree: 2%
         + [Synchronisation manuelle des données réseau et via la connexion API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/sync-api-accounts.md)
       + Comptes de chargement de données {#data-upload}
         + [Gestion des comptes réseau pour les chargements de données](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/data-upload-account-manage.md)
-      + [Gestion  [!DNL Naver]  comptes pour le suivi uniquement](/help/search-social-commerce/new-ui/manage/accounts/template-account-manage.md)
+      + [Gérer les  [!DNL Naver] comptes pour le suivi uniquement](/help/search-social-commerce/new-ui/manage/accounts/template-account-manage.md)
     + Campagnes {#campaigns}
       + [Gestion des campagnes](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
-      + [Répliquer  [!DNL Google Ads]  campagnes dans  [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md)
+      + [Répliquer les campagnes  [!DNL Google Ads]  dans [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md)
       + Paramètres de la campagne par réseau publicitaire {#campaign-settings-by-network}
-        + [[!DNL Baidu] des paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
-        + [[!DNL ChatGPT Ads] des paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)
-        + [[!DNL Google Ads] des paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
-        + [[!DNL LY Ads] des paramètres de la campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
-        + [[!DNL Microsoft Advertising] des paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
-        + [[!DNL Yandex] des paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)
+        + [[!DNL Baidu] paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
+        + [[!DNL ChatGPT Ads] paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)
+        + [[!DNL Google Ads] paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
+        + [[!DNL LY Ads] paramètres de la campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+        + [[!DNL Microsoft Advertising] paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
+        + [[!DNL Yandex] paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)
     + Groupes publicitaires {#ad-groups}
       + [Gestion des groupes publicitaires](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)
       + Paramètres des groupes publicitaires par réseau publicitaire {#ad-group-settings-by-network}
-        + [[!DNL Baidu] paramètres de groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
-        + [[!DNL ChatGPT Ads] paramètres de groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)
-        + [[!DNL Google Ads] paramètres de groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
-        + [[!DNL LY Ads] paramètres de groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
-        + [[!DNL Microsoft Advertising] paramètres de groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
-        + [[!DNL Yandex] paramètres de groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)
+        + [[!DNL Baidu] paramètres du groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
+        + [[!DNL ChatGPT Ads] paramètres du groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)
+        + [[!DNL Google Ads] paramètres du groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
+        + [[!DNL LY Ads] paramètres du groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
+        + [[!DNL Microsoft Advertising] paramètres du groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
+        + [[!DNL Yandex] paramètres du groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)
     + Publicités {#ads}
       + [Gestion des publicités](/help/search-social-commerce/new-ui/manage/ads/ad-manage.md)
       + Paramètres publicitaires par réseau publicitaire {#ad-settings-by-network}
-        + [[!DNL Baidu] les paramètres d’annonces de texte](/help/search-social-commerce/new-ui/manage/ads/ad-settings-baidu-text.md)
-        + [[!DNL ChatGPT Ads] des paramètres publicitaires de la carte de conversation](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)
-        + [[!DNL Google Ads] des paramètres d’annonce de recherche dynamique étendus](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-dsa.md)
-        + [[!DNL Google Ads] des paramètres des annonces de recherches réactives](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-rsa.md)
-        + [[!DNL Microsoft Advertising] des paramètres d’annonce de recherche dynamique étendus](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-dsa.md)
-        + [[!DNL Microsoft Advertising] des paramètres de publicité multimédia](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-multimedia.md)
-        + [[!DNL Microsoft Advertising] les paramètres de publicité du produit](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-product.md)
-        + [[!DNL Microsoft Advertising] des paramètres d’annonce publicitaire réactifs (audience)](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-responsive.md)
-        + [[!DNL Microsoft Advertising] des paramètres des annonces de recherches réactives](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-rsa.md)
-        + [[!DNL Yandex] les paramètres d’annonces de texte](/help/search-social-commerce/new-ui/manage/ads/ad-settings-yandex-text.md)
+        + [[!DNL Baidu] paramètres de publicité texte](/help/search-social-commerce/new-ui/manage/ads/ad-settings-baidu-text.md)
+        + [[!DNL ChatGPT Ads] paramètres d’annonce de carte de conversation](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)
+        + [paramètres d’annonce publicitaire de recherche dynamique développés [!DNL Google Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-dsa.md)
+        + [[!DNL Google Ads] paramètres des annonces responsive sur le Réseau de Recherche](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-rsa.md)
+        + [paramètres d’annonce publicitaire de recherche dynamique développés [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-dsa.md)
+        + [[!DNL Microsoft Advertising] paramètres de publicité multimédia](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-multimedia.md)
+        + [paramètres de publicité du produit [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-product.md)
+        + [[!DNL Microsoft Advertising] paramètres d’annonce responsive (audience)](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-responsive.md)
+        + [[!DNL Microsoft Advertising] paramètres des annonces responsive sur le Réseau de Recherche](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-rsa.md)
+        + [[!DNL Yandex] paramètres de publicité texte](/help/search-social-commerce/new-ui/manage/ads/ad-settings-yandex-text.md)
     + Mots-clés {#keywords}
       + [Gestion des mots-clés](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md)
       + Paramètres des mots-clés par réseau publicitaire {#keyword-settings-by-network}
-        + [Paramètres des mots-clés [!DNL Baidu]](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-baidu.md)
-        + [Paramètres des mots-clés [!DNL Google Ads]](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-google.md)
-        + [Paramètres des mots-clés [!DNL LY Ads]](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yahoo-japan.md)
-        + [Paramètres des mots-clés [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-microsoft.md)
-        + [Paramètres des mots-clés [!DNL Yandex]](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yandex.md)
+        + [[!DNL Baidu] paramètres de mot-clé](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-baidu.md)
+        + [[!DNL Google Ads] paramètres de mot-clé](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-google.md)
+        + [[!DNL LY Ads] paramètres de mot-clé](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yahoo-japan.md)
+        + [[!DNL Microsoft Advertising] paramètres de mot-clé](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-microsoft.md)
+        + [[!DNL Yandex] paramètres de mot-clé](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yandex.md)
     + [Gérer les groupes de produits d’achat](/help/search-social-commerce/new-ui/manage/product-groups-manage.md)
   + Rapports {#reports}
     + Rapports planifiés {#scheduled}
@@ -208,8 +208,8 @@ ht-degree: 2%
           + [Paramètres du rapport de précision du modèle](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
       + [Gestion des modèles de rapport](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
       + [Accès FTP aux rapports](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
-      + [Méthode de calcul des règles d’attribution](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
-      + [Questions fréquentes sur les rapports personnalisés](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
+      + [Méthode de calcul des règles d’attribution](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
+      + [Questions fréquentes sur les rapports personnalisés](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
     + [Gérer les flux de rapports de feuille de calcul](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
     + [Afficher les journaux de l’historique des modifications](/help/search-social-commerce/new-ui/reports/history-logs.md)
   + Plan {#plan}
@@ -218,7 +218,7 @@ ht-degree: 2%
       + [Exécuter ou réexécuter une simulation personnalisée](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
       + [Afficher les détails de la simulation](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
       + [Téléchargement de simulations](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
-    + [Utilisation de l’[!UICONTROL Spend Planner]](/help/search-social-commerce/new-ui/plan/spend-planner.md)
+    + [Utilisation de [!UICONTROL Spend Planner]](/help/search-social-commerce/new-ui/plan/spend-planner.md)
   + Configuration {#setup}
     + Feuilles de support {#bulksheets}
       + [À propos de la gestion des données de campagne à l&#39;aide de feuilles d&#39;envoi groupé](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)
@@ -232,7 +232,7 @@ ht-degree: 2%
       + [Supprimer les feuilles d’envoi groupé et les fichiers d’erreur chargés](/help/search-social-commerce/new-ui/set-up/bulksheets/delete.md)
       + [Arrêter une tâche de feuille d&#39;envoi groupé en cours](/help/search-social-commerce/new-ui/set-up/bulksheets/stop-job.md)
     + [Gérer les classifications de libellés](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
-    + [Gestion des informations d’identification pour les comptes  [!DNL Google Ads]  responsable](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
+    + [Gérer les informations d&#39;identification pour  [!DNL Google Ads] les comptes du responsable](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
   + Objectifs {#goals}
     + Objectifs {#objectives}
       + [À propos des objectifs](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
@@ -249,22 +249,22 @@ ht-degree: 2%
       + [Générer et implémenter une balise de suivi des conversions Adobe Advertising](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
       + [Gérer les mesures de conversion d’un annonceur](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
       + Conversions améliorées {#enhanced-conversions}
-        + [Création d’une action de conversion pour une conversion  [!DNL Google Ads]  pour les prospects](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
+        + [Création d’une action de conversion pour une conversion améliorée  [!DNL Google Ads]  des prospects](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
         + [Chargement des données de conversion hors ligne pour les conversions améliorées](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
-    + [Gestion  [!DNL Google Ads]  règles de valeur de conversion](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
+    + [Gérer [!DNL Google Ads] les règles de valeur de conversion](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
     + [Gérer les contraintes pour les unités d’offres de recherche](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
   + Ciblage {#targeting}
     + Audiences {#audiences-new-ui}
       + [Gestion des audiences](/help/search-social-commerce/new-ui/targeting/audiences/audience-manage.md)
       + [Gestion des cibles d’audience pour les campagnes et les groupes publicitaires](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md)
       + [Gestion des exclusions d’audience pour les campagnes et les groupes publicitaires](/help/search-social-commerce/new-ui/targeting/audiences/audience-exclusions.md)
-    + [Gestion  [!DNL Google Ads]  cibles de recherche dynamiques](/help/search-social-commerce/new-ui/targeting/dynamic-search-target-manage.md)
+    + [Gérer [!DNL Google Ads] les cibles de recherche dynamique](/help/search-social-commerce/new-ui/targeting/dynamic-search-target-manage.md)
     + [Gestion des emplacements](/help/search-social-commerce/new-ui/targeting/placement-manage.md)
   + Bibliothèque {#library}
     + [Affichage et création de ressources de création](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)
     + Extensions {#extensions-new-ui}
       + [Gestion des extensions de lien de site partagées](/help/search-social-commerce/new-ui/library/extensions/sitelink-extension-manage.md)
-      + [Gestion  [!DNL Google Ads]  extensions de légende partagées](/help/search-social-commerce/new-ui/library/extensions/callout-extension-manage.md)
+      + [Gérer les extensions de légende partagées [!DNL Google Ads] ](/help/search-social-commerce/new-ui/library/extensions/callout-extension-manage.md)
       + [Gestion des associations d’extensions d’annonces](/help/search-social-commerce/new-ui/library/extensions/ad-extension-association-manage.md)
   + [Gestion des alertes personnalisées](/help/search-social-commerce/new-ui/alerts-manage.md)
   + [Gérer les notifications](/help/search-social-commerce/new-ui/notifications-manage.md)
@@ -285,13 +285,13 @@ ht-degree: 2%
         + [Formats de suivi des clics pour  [!DNL Yahoo DSP]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
         + [Formats de suivi des clics pour  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
       + [Paramètres de tracking optionnels des URL de tracking des clics](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-    + [Cookies Adobe Advertising (lien)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=fr){target="_blank"}
+    + [Cookies Adobe Advertising (lien)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
     + [Le paramètre de tracking AMO ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
   + Suivi des conversions {#conversion-tracking}
     + [Options de suivi des conversions](/help/search-social-commerce/tracking/conversion-tracking-about.md)
     + Suivi des conversions Adobe Advertising {#advertising-conversion-tracking}
       + [À propos des balises de suivi des conversions d’Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-      + [Génération et implémentation d’une balise de conversion Adobe Advertising](https://experienceleague.adobe.com/fr/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
+      + [Génération et implémentation d’une balise de conversion Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
       + [Format des balises de suivi des conversions JavaScript version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
       + [Format des balises de suivi des conversions JavaScript version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
       + [Format des balises de tracking de conversion d’images](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
@@ -312,15 +312,15 @@ ht-degree: 2%
     + [À propos de la gestion des campagnes dans Search, Social et Commerce](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
     + [Présentation de l’implémentation des comptes et des campagnes de réseau publicitaire](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
     + [Surveiller et gérer les performances de vos campagnes réseau publicitaire](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
-    + [[!DNL Google Ads] des données de conversion dans Search, Social et Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
-    + [[!DNL Microsoft Advertising] des données de conversion dans Search, Social et Commerce](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
+    + [[!DNL Google Ads] données de conversion dans Search, Social et Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+    + [[!DNL Microsoft Advertising] données de conversion dans Search, Social et Commerce](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
   + Configuration des comptes {#campaign-management-accounts}
     + Comptes réseau publicitaires {#ad-network-accounts}
       + [À propos des comptes de réseau publicitaire](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
       + [Gestion des comptes réseau et](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-      + [Mettre à jour le code de suivi AMO ID pour un compte  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
+      + [Mettre à jour le code de suivi AMO ID pour un compte  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
     + [Gérer les comptes de centre commercial](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
-  + [Implémentation  [!DNL Naver]  comptes de tracking uniquement](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+  + [Implémenter  [!DNL Naver] des comptes de tracking uniquement](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
   + Gestion des campagnes {#management}
     + [Options de gestion des campagnes réseau publicitaire](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)
     + Gestion des données dans les vues [!UICONTROL Campaigns] > [!UICONTROL Campaigns] {#campaigns}
@@ -328,50 +328,50 @@ ht-degree: 2%
       + Campagnes {#campaigns}
         + [Gestion des campagnes](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
         + Paramètres de la campagne par réseau publicitaire {#campaign-settings-by-network}
-          + [[!DNL Baidu] des paramètres de la campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
-          + [[!DNL Google Ads] des paramètres de la campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
-          + [[!DNL LY Ads] des paramètres de la campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+          + [[!DNL Baidu] paramètres de la campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
+          + [[!DNL Google Ads] paramètres de la campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+          + [[!DNL LY Ads] paramètres de la campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
           + [Paramètres de la campagne [Meta Ads]](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-meta.md)
-          + [[!DNL Microsoft Advertising] des paramètres de la campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
-          + [[!DNL Yandex] des paramètres de la campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
+          + [[!DNL Microsoft Advertising] paramètres de la campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
+          + [[!DNL Yandex] paramètres de la campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
       + Groupes publicitaires {#ad-groups}
         + [Gestion des groupes publicitaires](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
         + Paramètres des groupes publicitaires par réseau publicitaire {#ad-group-settings-by-network}
-          + [[!DNL Baidu] paramètres de groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
-          + [[!DNL Google Ads] paramètres de groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
-          + [[!DNL LY Ads] paramètres de groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
-          + [[!DNL Microsoft Advertising] paramètres de groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
-          + [[!DNL Yandex] paramètres de groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
+          + [[!DNL Baidu] paramètres du groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
+          + [[!DNL Google Ads] paramètres du groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+          + [[!DNL LY Ads] paramètres du groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
+          + [[!DNL Microsoft Advertising] paramètres du groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
+          + [[!DNL Yandex] paramètres du groupe publicitaire](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
       + Mots-clés {#keywords}
         + [À propos des mots clés](/help/search-social-commerce/campaign-management/campaigns/keyword-about.md)
         + [Gérer les mots-clés susceptibles d&#39;être enchéris](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
         + [Créer des mots-clés négatifs](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
         + [Modifier le statut des mots-clés et des mots-clés négatifs](/help/search-social-commerce/campaign-management/campaigns/keyword-status-edit.md)
         + Paramètres des mots-clés par réseau publicitaire {#keyword-settings-by-network}
-          + [Paramètres des mots-clés [!DNL Baidu]](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-baidu.md)
-          + [Paramètres des mots-clés [!DNL Google Ads]](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-google.md)
-          + [Paramètres des mots-clés [!DNL LY Ads]](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yahoo-japan.md)
-          + [Paramètres des mots-clés [!DNL Microsoft Advertising]](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-microsoft.md)
-          + [Paramètres des mots-clés [!DNL Yandex]](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yandex.md)
+          + [[!DNL Baidu] paramètres de mot-clé](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-baidu.md)
+          + [[!DNL Google Ads] paramètres de mot-clé](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-google.md)
+          + [[!DNL LY Ads] paramètres de mot-clé](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yahoo-japan.md)
+          + [[!DNL Microsoft Advertising] paramètres de mot-clé](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-microsoft.md)
+          + [[!DNL Yandex] paramètres de mot-clé](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yandex.md)
       + Publicités {#ads}
         + [À propos des publicités](/help/search-social-commerce/campaign-management/campaigns/ad-about.md)
         + [Gestion des publicités](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)
         + Paramètres publicitaires par réseau publicitaire {#ad-settings-by-network}
-          + [[!DNL Baidu] les paramètres d’annonces de texte](/help/search-social-commerce/campaign-management/campaigns/ad-settings-baidu-text.md)
-          + [[!DNL Google Ads] des paramètres de publicité d’appel uniquement](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-call.md)
-          + [[!DNL Google Ads] des paramètres d’annonce de recherche dynamique étendus](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-dsa.md)
-          + [[!DNL Google Ads] des paramètres des annonces de recherches réactives](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-rsa.md)
-          + [[!DNL Microsoft Advertising] des paramètres d’annonce de recherche dynamique étendus](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-dsa.md)
-          + [[!DNL Microsoft Advertising] des paramètres de publicité multimédia](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-multimedia.md)
-          + [[!DNL Microsoft Advertising] les paramètres de publicité du produit](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-product.md)
-          + [[!DNL Microsoft Advertising] des paramètres d’annonce publicitaire réactifs (audience)](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-responsive.md)
-          + [[!DNL Microsoft Advertising] des paramètres des annonces de recherches réactives](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-rsa.md)
-          + [[!DNL Yandex] les paramètres d’annonces de texte](/help/search-social-commerce/campaign-management/campaigns/ad-settings-yandex-text.md)
+          + [[!DNL Baidu] paramètres de publicité texte](/help/search-social-commerce/campaign-management/campaigns/ad-settings-baidu-text.md)
+          + [[!DNL Google Ads] paramètres d’annonce publicitaire d’appel uniquement](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-call.md)
+          + [paramètres d’annonce publicitaire de recherche dynamique développés [!DNL Google Ads]](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-dsa.md)
+          + [[!DNL Google Ads] paramètres des annonces responsive sur le Réseau de Recherche](/help/search-social-commerce/campaign-management/campaigns/ad-settings-google-rsa.md)
+          + [paramètres d’annonce publicitaire de recherche dynamique développés [!DNL Microsoft Advertising]](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-dsa.md)
+          + [[!DNL Microsoft Advertising] paramètres de publicité multimédia](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-multimedia.md)
+          + [paramètres de publicité du produit [!DNL Microsoft Advertising]](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-product.md)
+          + [[!DNL Microsoft Advertising] paramètres d’annonce responsive (audience)](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-responsive.md)
+          + [[!DNL Microsoft Advertising] paramètres des annonces responsive sur le Réseau de Recherche](/help/search-social-commerce/campaign-management/campaigns/ad-settings-microsoft-rsa.md)
+          + [[!DNL Yandex] paramètres de publicité texte](/help/search-social-commerce/campaign-management/campaigns/ad-settings-yandex-text.md)
       + Groupes de produits {#product-groups}
         + [À propos des groupes de produits](/help/search-social-commerce/campaign-management/campaigns/product-group-about.md)
         + [Gestion des groupes de produits](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)
-        + [[!DNL Google Ads] des paramètres de groupe de produits](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
-        + [[!DNL Microsoft Advertising] des paramètres de groupe de produits](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
+        + [Paramètres du groupe de produits [!DNL Google Ads]](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
+        + [Paramètres du groupe de produits [!DNL Microsoft Advertising]](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
         + [Filtres de produits de campagne d’achat](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
       + Stages {#placements}
         + [À propos des emplacements](/help/search-social-commerce/campaign-management/campaigns/placement-about.md)
@@ -379,23 +379,23 @@ ht-degree: 2%
         + [Créer des emplacements négatifs](/help/search-social-commerce/campaign-management/campaigns/placement-negative-create.md)
         + [Modifier le statut des emplacements et des emplacements négatifs](/help/search-social-commerce/campaign-management/campaigns/placement-status-edit.md)
       + Cibles automatiques {#auto-targets}
-        + [À propos  [!DNL Google Ads]  cibles de recherche dynamique](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-about.md)
-        + [Gestion  [!DNL Google Ads]  cibles de recherche dynamiques](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)
+        + [À propos des  [!DNL Google Ads] cibles de recherche dynamique](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-about.md)
+        + [Gérer [!DNL Google Ads] les cibles de recherche dynamique](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)
       + Audiences et cibles d’audience {#audiences-and-targets}
         + Audiences {#audiences}
           + [À propos des audiences](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
-          + [Créer  [!DNL Google Ads]  audiences de correspondance client à partir d’audiences  [!DNL Adobe] &#x200B;](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
-          + [Création d’une audience  [!DNL Google Ads]  correspondance client à partir d’une liste d’emails Adobe Campaign](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
+          + [Créer  [!DNL Google Ads] des audiences de correspondance client à partir de [!DNL Adobe] audiences](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
+          + [Création d’une audience de  [!DNL Google Ads]  correspondance client à partir d’une liste d’emails Adobe Campaign](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
           + [Gérer les audiences de correspondance de clients à l’aide de listes de données client](/help/search-social-commerce/campaign-management/campaigns/audience-from-customer-data-list.md)
           + [Gestion des audiences de remarketing dynamique](/help/search-social-commerce/campaign-management/campaigns/audience-dynamic-remarketing-manage.md)
         + Cibles d’audience et exclusions {#audience-targets}
           + [Gestion des cibles d’audience pour les campagnes et les groupes publicitaires](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
           + [Gestion des exclusions d’audience pour les campagnes et les groupes publicitaires](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
       + Ajouter des extensions {#ad-extensions}
-        + [!DNL Google Ads] des extensions de légende {#callouts}
-          + [À propos  [!DNL Google Ads]  extensions de légende](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
-          + [Gérer  [!DNL Google Ads]  extensions de légende](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
-          + [Associer  [!DNL Google Ads]  extensions de légende partagées à des campagnes ou des groupes publicitaires](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
+        + [!DNL Google Ads] extensions de légende {#callouts}
+          + [À propos des extensions de légende  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
+          + [Gérer les extensions de légende  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
+          + [Associer des extensions de légende partagées [!DNL Google Ads] à des campagnes ou à des groupes publicitaires](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
         + Extensions de lien de site {#sitelinks}
           + [À propos des extensions sitelink](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-about.md)
           + [Gestion des liens de site partagés](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md)
@@ -415,13 +415,13 @@ ht-degree: 2%
       + Données requises/incluses dans les feuilles d’envoi groupé{#bulksheet-data-formats}
         + [Formats de fichiers de feuilles d’envoi groupé pris en charge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-file-formats.md)
         + [Opérations pouvant être effectuées dans des feuilles d’envoi groupé](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)
-        + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Baidu] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-        + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-        + [Données de feuille d’envoi groupé pour les comptes  [!DNL LY Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-        + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Microsoft Advertising] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-        + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Naver] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-        + [Données de feuille d’envoi groupé pour les comptes  [!DNL Yahoo DSP] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-        + [Données de feuille d’envoi groupé requises pour les comptes  [!DNL Yandex] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+        + [Données de feuille d&#39;envoi groupé requises pour  [!DNL Baidu]  comptes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+        + [Données de feuille d&#39;envoi groupé requises pour  [!DNL Google Ads]  comptes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+        + [Données de feuille d&#39;envoi groupé pour  [!DNL LY Ads]  comptes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+        + [Données de feuille d&#39;envoi groupé requises pour  [!DNL Microsoft Advertising]  comptes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+        + [Données de feuille d&#39;envoi groupé requises pour  [!DNL Naver]  comptes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+        + [Données de feuille d&#39;envoi groupé pour  [!DNL Yahoo DSP]  comptes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+        + [Données de feuille d&#39;envoi groupé requises pour  [!DNL Yandex]  comptes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
     + Automatisation des données de campagne à l’aide de flux d’inventaire {#inventory-feeds}
       + [À propos de l’automatisation de la gestion des publicités à l’aide de flux d’inventaire](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
       + [Quand les composants de compte sont-ils créés ou supprimés par les flux d’inventaire ?](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
@@ -431,8 +431,8 @@ ht-degree: 2%
       + Modèles {#feed-templates}
         + [Gestion des modèles de publicité](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
         + [Paramètres d’annonce textuelle et de modèle d’annonce responsive sur le Réseau de recherche](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)
-        + [[!DNL Google Ads] des paramètres de modèle d’annonce publicitaire](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
-        + [[!DNL Microsoft Advertising] des paramètres de modèle d’annonce publicitaire](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
+        + [[!DNL Google Ads] paramètres du modèle d’annonce publicitaire](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
+        + [[!DNL Microsoft Advertising] paramètres du modèle d’annonce publicitaire](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
       + [Propager les données de flux par le biais de modèles](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
       + Utilisation des données de campagne créées à partir de flux {#propagated-data}
         + [Afficher les données générées à partir des flux](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-view.md)
@@ -441,12 +441,12 @@ ht-degree: 2%
         + [Arrêter un traitement de validation des données de flux de stock](/help/search-social-commerce/campaign-management/inventory-feeds/stop-job.md)
         + [Statuts des données générées à partir des flux](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-status.md)
     + Mise en œuvre de campagnes, d’annonces et de conversions avec des workflows uniques{#special-workflows}
-      + [Implémenter  [!DNL Google Ads]  conversions améliorées pour les prospects](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
-      + [Implémenter  [!DNL Google Ads]  publicités de recherche dynamiques](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
-      + [Implémenter  [!DNL Google Ads]  campagnes de performances maximales](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
-      + [Implémenter  [!DNL Google Ads]  campagnes d’achat](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
-      + [Implémenter  [!DNL Microsoft Advertising]  conversions améliorées pour les conversions hors ligne](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
-      + [Implémenter  [!DNL Microsoft Advertising]  campagnes d’achat](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+      + [Implémenter  [!DNL Google Ads] des conversions améliorées pour les prospects](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
+      + [Implémenter [!DNL Google Ads] les annonces de recherche dynamique](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
+      + [Implémenter  [!DNL Google Ads] des campagnes de performances maximales](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
+      + [Implémenter  [!DNL Google Ads] des campagnes d’achat](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+      + [Implémenter  [!DNL Microsoft Advertising] des conversions améliorées pour les conversions hors ligne](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
+      + [Implémenter  [!DNL Microsoft Advertising] des campagnes d’achat](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
     + [Synchronisation manuelle des données réseau et](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
   + [Affectation de campagnes à un portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
   + [Supprimer des campagnes d’un portfolio](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
@@ -467,7 +467,7 @@ ht-degree: 2%
   + [Questions fréquentes sur la gestion de campagnes](/help/search-social-commerce/campaign-management/faqs-campaigns.md)
 + Informations et rapports {#insights-reports}
   + Advertising Insights {#insights}
-    + [À propos des [!UICONTROL Advertising Insights]](/help/search-social-commerce/advertising-insights/insight-about.md)
+    + [À Propos De [!UICONTROL Advertising Insights]](/help/search-social-commerce/advertising-insights/insight-about.md)
     + [Générer un  [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-generate.md)
     + [Afficher ou enregistrer un  [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-view-save.md)
     + [Supprimer un  [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-delete.md)
@@ -551,7 +551,7 @@ ht-degree: 2%
         + [Suppression d’un modèle de rapport](/help/search-social-commerce/reports/automation/templates/template-delete.md)
       + Flux de feuilles de calcul {#spreadsheet-feeds}
         + [À propos des flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)
-        + [Création d [!DNL Excel] un modèle pour un flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create-excel-template.md)
+        + [Créer un modèle  [!DNL Excel]  pour un flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create-excel-template.md)
         + [Créer un flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create.md)
         + [Modifier les paramètres du flux de rapports d&#39;une feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)
         + [Actualiser manuellement les flux de rapports de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-refresh.md)
@@ -567,8 +567,8 @@ ht-degree: 2%
     + [Marquer une notification comme lue ou non lue](/help/search-social-commerce/notifications/notification-mark-read-unread.md)
     + [Supprimer une notification](/help/search-social-commerce/notifications/notification-delete.md)
     + [Modifier vos paramètres de notification](/help/search-social-commerce/notifications/notification-edit.md)
-    + [Activer et désactiver les notifications push depuis [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notifications-push-enable-disable.md)
-    + [Installation et désinstallation de l’application web [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-app-install-uninstall.md)
+    + [Activer et désactiver les notifications push de [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notifications-push-enable-disable.md)
+    + [Installer et désinstaller l’application web [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-app-install-uninstall.md)
   + Alertes personnalisées {#alerts}
     + [À propos des alertes personnalisées](/help/search-social-commerce/alerts/alert-about.md)
     + Modèles d’alerte {#alert-templates}
@@ -595,25 +595,25 @@ ht-degree: 2%
     + [Décodage d’une URL de suivi des clics](/help/search-social-commerce/tools/click-tracking-url-decode.md)
     + [Génération et implémentation d’une balise de conversion Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
   + Chargement des données de conversion vers les réseaux publicitaires {#upload-ad-networks}
-    + [Chargez les mesures de conversion suivies par Search, Social et Commerce vers  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
+    + [Charger les mesures de conversion suivies par Search, Social et Commerce vers [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
     + [Activer le chargement des objectifs sur les réseaux publicitaires](/help/search-social-commerce/tools/objective-upload-to-networks.md)
   + Chargement de mesures pour les comptes de suivi [!DNL Naver] uniquement {#generic-tracking}
-    + [Chargement des mesures de trafic et de conversion pour les comptes  [!DNL Naver]  suivi uniquement](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
-    + [Exigences en matière de données de mesure pour les comptes  [!DNL Naver]  suivi uniquement](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
+    + [Chargement de mesures de trafic et de conversion pour les  [!DNL Naver] comptes de suivi uniquement](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
+    + [Exigences en matière de données de mesure pour les comptes de  [!DNL Naver]  suivi uniquement](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
   + [Activer la synchronisation d&#39;inventaire supplémentaire](/help/search-social-commerce/tools/sync-inventory.md)
-  + [Répliquer  [!DNL Google Ads]  campagnes dans  [!DNL Microsoft Advertising]](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
+  + [Répliquer les campagnes  [!DNL Google Ads]  dans [!DNL Microsoft Advertising]](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
 + Administration {#admin}
   + [À propos des rôles](/help/search-social-commerce/admin/role-about.md)
   + [Gestion des informations d’identification pour les comptes du gestionnaire de réseau publicitaire](/help/search-social-commerce/admin/manager-accounts.md)
-  + [Sync [!DNL Adobe] audiences](/help/search-social-commerce/admin/sync-adobe-audiences.md)
+  + [Synchroniser les  [!DNL Adobe] audiences](/help/search-social-commerce/admin/sync-adobe-audiences.md)
   + Configuration des sources de données {#data-sources}
-    + [À propos de la synchronisation [!DNL Google Analytics] des mesures de conversion](/help/search-social-commerce/admin/data-sources/data-source-about.md)
-    + [Conditions préalables à la configuration d’une source  [!DNL Google Analytics]  données](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
-    + [Configurer une  [!DNL Google Analytics]  en tant que source de données](/help/search-social-commerce/admin/data-sources/data-source-configure.md)
-    + [Modifier une source  [!DNL Google Analytics]  données](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
+    + [À propos de la synchronisation des  [!DNL Google Analytics] mesures de conversion](/help/search-social-commerce/admin/data-sources/data-source-about.md)
+    + [Conditions préalables à la configuration d&#39;une source de données  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
+    + [Configurer une vue  [!DNL Google Analytics]  comme source de données](/help/search-social-commerce/admin/data-sources/data-source-configure.md)
+    + [Modifier une source de données  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
     + [Suspendre la synchronisation d’une source de données](/help/search-social-commerce/admin/data-sources/data-source-pause.md)
-    + [Réauthentifier une source  [!DNL Google Analytics]  données](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
-    + [[!DNL Google Analytics] des paramètres des sources de données](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
+    + [Réauthentifier une source de données  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
+    + [[!DNL Google Analytics] paramètres de source de données](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
     + [Annexe - Mesures  [!DNL Google Analytics]  disponibles](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
   + Gestion des mesures de conversion d’un annonceur{#conversion-metrics}
     + [À propos de la gestion des mesures de conversion d’un annonceur](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
@@ -621,9 +621,9 @@ ht-degree: 2%
     + [Modification des mesures de conversion disponibles dans les vues de gestion et les rapports](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
     + [Modification du nom d’affichage d’une mesure de conversion](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
     + Gestion des balises de conversion et des actions/objectifs de conversion spécifiques au réseau publicitaire {#network-conversions}
-      + [Créez une balise de conversion pour  [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
+      + [Créer une balise de conversion pour  [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
       + Gestion des actions et des objectifs de conversion {#conversion-actions}
-        + [Création d’une action de conversion pour une conversion  [!DNL Google Ads]  pour les prospects](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+        + [Création d’une action de conversion pour une conversion améliorée  [!DNL Google Ads]  des prospects](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
         + [Chargement des données de conversion hors ligne pour les conversions améliorées](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 + [Obtenir de l’aide](get-help.md)
 + [Glossaire](glossary.md)
