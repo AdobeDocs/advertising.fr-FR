@@ -18,26 +18,26 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '721'
 ht-degree: 0%
 ---
 # Vérifier et modifier les paramètres du package à l’aide des feuilles d’envoi groupé
 
-Vous pouvez télécharger les paramètres d’un ou plusieurs packages au format XLSX (feuille de calcul [!DNL Microsoft Excel]) pour révision. Le fichier *bulksheet* comprend un onglet distinct contenant des informations sur les vols.
+Vous pouvez télécharger les paramètres d&#39;un ou plusieurs packages au format XLSX ([!DNL Microsoft Excel] feuille de calcul) pour révision. Le fichier *bulksheet* comprend un onglet distinct avec les informations de vol.
 
 Pour mettre à jour plusieurs paramètres à la fois, vous pouvez effectuer l’une des opérations suivantes :
 
 * Apportez des modifications à certains champs, enregistrez le fichier et chargez à nouveau le fichier de feuille d’envoi groupé modifié dans DSP.
 
-* Pour apporter des modifications à d’autres packages, emplacements ou annonces dans la campagne, téléchargez une feuille d’envoi groupé pour la campagne. Saisissez ou collez les paramètres mis à jour dans le fichier , puis chargez le fichier pour apporter les modifications. Pour obtenir des instructions, reportez-vous à « [Vérification et modification des paramètres des composants de campagne à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md) ».
+* Pour apporter des modifications à d’autres packages, emplacements ou annonces dans la campagne, téléchargez une feuille d’envoi groupé pour la campagne. Saisissez ou collez les paramètres mis à jour dans le fichier , puis chargez le fichier pour apporter les modifications. Pour obtenir des instructions, voir « [Examiner et modifier les paramètres des composants de campagne à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md) ».
 
 Les champs modifiables incluent la plupart des paramètres qui sont normalement modifiables.
 
 >[!TIP]
 >
->Pour modifier rapidement d’autres champs pour un ou plusieurs packages, consultez « [&#x200B; Modifier des packages &#x200B;](/help/dsp/campaign-management/packages/package-edit.md). »
+>Pour modifier rapidement d’autres champs pour un ou plusieurs packages, voir « [Modifier les packages](/help/dsp/campaign-management/packages/package-edit.md) ».
 
 ## Paramètres de téléchargement pour tous les packages d’une campagne
 
@@ -51,7 +51,7 @@ Lorsque vous téléchargez les paramètres de tous les packages d’une campagne
 
    * Cliquez sur le nom de la campagne. Dans le coin supérieur droit, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
 
-1. Dans la boîte de dialogue [!UICONTROL Bulksheet Download], désélectionnez les composants de campagne dont vous souhaitez exclure les paramètres du fichier téléchargé, puis cliquez sur **[!UICONTROL Download]**.
+1. Dans la boîte de dialogue [!UICONTROL Bulksheet Download], désélectionnez tous les composants de campagne dont vous souhaitez exclure les paramètres du fichier téléchargé, puis cliquez sur **[!UICONTROL Download]**.
 
 Par défaut, les paramètres de tous les emplacements et annonces publicitaires associés aux packages sont sélectionnés.
 
@@ -61,7 +61,7 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![Gestionnaire de tâches](/help/creative/assets/job-manager.png "Gestionnaire de tâches") (**[!UICONTROL Job Manager]**). Cliquez sur **[!UICONTROL Download]** en regard du traitement.
 
      Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -87,9 +87,9 @@ Lorsque vous téléchargez des paramètres pour des packages spécifiques, le fi
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![Gestionnaire de tâches](/help/creative/assets/job-manager.png "Gestionnaire de tâches") (**[!UICONTROL Job Manager]**). Cliquez sur **[!UICONTROL Download]** en regard du traitement.
 
-     Le fichier est enregistré dans le dossier Téléchargements du navigateur. Pour obtenir la liste des colonnes incluses, reportez-vous à « [Colonnes d’emplacement dans des feuilles d’envoi groupé téléchargées/chargées](#qa-sheet-columns) ».
+     Le fichier est enregistré dans le dossier Téléchargements du navigateur. Consultez « [Colonnes d’emplacement dans les feuilles d’envoi groupé téléchargées/chargées](#qa-sheet-columns) » pour obtenir une liste des colonnes incluses.
 
      Pour modifier l’un des paramètres, modifiez directement le fichier, puis chargez les modifications. Toutes les colonnes modifiables sont surlignées en bleu. Pour utiliser le format correct pour un champ, sélectionnez et copiez la valeur à partir du paramètre de package ou du paramètre d’emplacement approprié. Pour certains paramètres de la cible, tels que le changement de date, les objectifs personnalisés et les mesures de conversion, une option de copie est disponible dans le paramètre .
 
@@ -101,13 +101,13 @@ Vous pouvez charger les paramètres de vos packages, y compris les emplacements 
 
 1. Effectuez l’une des opérations suivantes :
 
-   * En regard de la campagne parent, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
+   * En regard de la campagne parente, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
 
    * Cliquez sur le nom de la campagne. Dans le coin supérieur droit, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
 
-     Cette option est disponible à partir de l’onglet [!UICONTROL Packages], [!UICONTROL Placements] ou [!UICONTROL Ads] .
+     Cette option est disponible à partir de l’onglet [!UICONTROL Packages], [!UICONTROL Placements] ou [!UICONTROL Ads].
 
-   * Dans le sous-menu, cliquez sur **[!UICONTROL Packages]**, puis cochez la case d’un package. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
+   * Dans le sous-menu, cliquez sur **[!UICONTROL Packages]**, puis cochez la case d&#39;un package. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
 
 1. Dans la boîte de dialogue [!UICONTROL Upload Bulksheet] :
 
@@ -115,7 +115,7 @@ Vous pouvez charger les paramètres de vos packages, y compris les emplacements 
 
    1. Cliquez sur **[!UICONTROL Upload]**.
 
-1. (Facultatif) Pour vérifier que les mises à jour ont été traitées, cliquez sur ![Tâches](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
+1. (Facultatif) Pour vérifier que les mises à jour ont été traitées, cliquez sur ![Gestionnaire de tâches](/help/creative/assets/job-manager.png "Gestionnaire de tâches") (**[!UICONTROL Job Manager]**) dans la partie droite de la barre de menus supérieure.
 
 Lorsqu’une mise à jour de paramètre échoue, vous pouvez télécharger un fichier d’erreur de feuille d’envoi groupé avec un codage de couleur pour afficher les paramètres (lignes) enregistrés et ceux qui ont échoué, avec une raison pour chaque échec. Vous pouvez ensuite résoudre les problèmes du même fichier et le charger à nouveau pour traiter les informations corrigées.
 
@@ -179,6 +179,6 @@ Lorsqu’une mise à jour de paramètre échoue, vous pouvez télécharger un fi
 
 >[!MORELIKETHIS]
 >
->* [Examiner et modifier les paramètres des composants de campagne à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [Examinez et modifiez les paramètres des composants de campagne à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [Modifier les packages](/help/dsp/campaign-management/packages/package-edit.md)
->* [&#x200B; Paramètres du package &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
+>* [Paramètres du package](/help/dsp/campaign-management/packages/package-settings.md)

@@ -18,20 +18,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # Examiner et modifier les paramètres des composants de campagne à l’aide des feuilles d’envoi groupé
 
-Vous pouvez télécharger les paramètres des packages, des emplacements et des annonces publicitaires dans une seule campagne au format XLSX (feuille de calcul [!DNL Microsoft Excel]) pour consulter et modifier les paramètres. Par défaut, le fichier téléchargé, appelé *feuille d’envoi groupé*, comprend des onglets distincts pour les paramètres de package, les informations de vol du package, les paramètres d’emplacement et les plannings d’annonces d’emplacement. Vous pouvez éventuellement exclure les paramètres de certains types de composants de campagne.
+Vous pouvez télécharger les paramètres des packages, des emplacements et des annonces publicitaires dans une seule campagne au format XLSX ([!DNL Microsoft Excel] feuille de calcul) pour consulter et modifier les paramètres. Par défaut, le fichier téléchargé, appelé *feuille d&#39;envoi groupé*, comprend des onglets distincts pour les paramètres de package, les informations de vol du package, les paramètres d&#39;emplacement et les plannings d&#39;annonces d&#39;emplacement. Vous pouvez éventuellement exclure les paramètres de certains types de composants de campagne.
 
 Pour mettre à jour plusieurs paramètres à la fois, chargez un fichier de feuille d’envoi groupé valide avec les modifications. Pour créer la feuille d’envoi groupé, modifiez une feuille d’envoi groupé téléchargée avec les paramètres existants. Les champs modifiables incluent la plupart des paramètres qui sont normalement modifiables. Les champs des paramètres qui ne sont pas utilisés contiennent des valeurs vides.
 
 >[!NOTE]
 >
->Vous pouvez également télécharger et modifier les paramètres pour des packages et des emplacements spécifiques uniquement. Voir « [Révision et modification des paramètres de package à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/packages/package-qa.md) » et « [Révision et modification des paramètres d’emplacement à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/placements/placement-qa.md) ».
+>Vous pouvez également télécharger et modifier les paramètres pour des packages et des emplacements spécifiques uniquement. Voir « [Vérification et modification des paramètres de package à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/packages/package-qa.md) » et « [Vérification et modification des paramètres d’emplacement à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/placements/placement-qa.md) ».
 
 ## Paramètres de téléchargement des packages, des emplacements et des annonces publicitaires dans une campagne {#download-bulksheet-campaign}
 
@@ -43,7 +43,7 @@ Pour mettre à jour plusieurs paramètres à la fois, chargez un fichier de feui
 
    * Cliquez sur le nom de la campagne. Dans le coin supérieur droit, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
 
-1. Dans la boîte de dialogue [!UICONTROL Bulksheet Download], désélectionnez les composants de campagne dont vous souhaitez exclure les paramètres du fichier téléchargé, puis cliquez sur **[!UICONTROL Download]**.
+1. Dans la boîte de dialogue [!UICONTROL Bulksheet Download], désélectionnez tous les composants de campagne dont vous souhaitez exclure les paramètres du fichier téléchargé, puis cliquez sur **[!UICONTROL Download]**.
 
 Par défaut, les paramètres de tous les composants de campagne sont sélectionnés.
 
@@ -53,7 +53,7 @@ Un message de notification indique quand le fichier peut être téléchargé.
 
    * Dans le message de notification, cliquez sur **[!UICONTROL Download].**
 
-   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png). Cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+   * Dans la partie droite de la barre de menus supérieure, cliquez sur ![Gestionnaire de tâches](/help/creative/assets/job-manager.png "Gestionnaire de tâches") (**[!UICONTROL Job Manager]**). Cliquez sur **[!UICONTROL Download]** en regard du traitement.
 
      Le fichier est enregistré dans le dossier Téléchargements du navigateur.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -81,7 +81,7 @@ Chargez les paramètres des packages, des emplacements et des annonces publicita
 
    1. Cliquez sur **[!UICONTROL Upload]**.
 
-1. (Facultatif) Pour vérifier que les mises à jour ont été traitées, cliquez sur ![Tâches](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
+1. (Facultatif) Pour vérifier que les mises à jour ont été traitées, cliquez sur ![Gestionnaire de tâches](/help/creative/assets/job-manager.png "Gestionnaire de tâches") (**[!UICONTROL Job Manager]**) dans la partie droite de la barre de menus supérieure.
 
 Lorsqu’une mise à jour de paramètre échoue, vous pouvez télécharger un fichier d’erreur de feuille d’envoi groupé avec un codage de couleur pour afficher les paramètres (lignes) enregistrés et ceux qui ont échoué, avec une raison pour chaque échec. Vous pouvez ensuite résoudre les problèmes du même fichier et le charger à nouveau pour traiter les informations corrigées.
 
@@ -165,12 +165,12 @@ Lorsqu’une mise à jour de paramètre échoue, vous pouvez télécharger un fi
 >[!MORELIKETHIS]
 >
 >* [Vérifier et modifier les paramètres du package à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/packages/package-qa.md)
->* [&#x200B; Paramètres du package &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)
->* [Vérification et modification des paramètres d’emplacement à l’aide des feuilles d’envoi groupé](/help/dsp/campaign-management/placements/placement-qa.md)
+>* [Paramètres du package](/help/dsp/campaign-management/packages/package-settings.md)
+>* [Vérifier et modifier les paramètres d&#39;emplacement à l&#39;aide des feuilles d&#39;envoi groupé](/help/dsp/campaign-management/placements/placement-qa.md)
 >* [Paramètres d’emplacement](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Paramètres des publicités audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
 >* [Paramètres de la télévision connectée](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [Afficher les paramètres de l’annonce publicitaire](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Afficher les paramètres de l&#39;annonce publicitaire](/help/dsp/campaign-management/ads/ad-settings-display.md)
 >* [Paramètres des annonces publicitaires mobiles](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
 >* [Paramètres natifs des publicités display](/help/dsp/campaign-management/ads/ad-settings-native.md)
 >* [Paramètres de publicité preroll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)

@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '702'
 ht-degree: 0%
 ---
 # Gestion des listes d’URL
@@ -33,7 +33,7 @@ Vous pouvez créer et gérer des listes d&#39;URL de sites Web et d&#39;applicat
 
 1. Cliquez sur le nom de la liste.
 
-1. (Facultatif) Pour exporter la liste sélectionnée au format XLSX (feuille de calcul [!DNL Microsoft Excel]), cliquez sur ![Exporter](/help/dsp/assets/export.png "Exporter") **[!UICONTROL Export]**.
+1. (Facultatif) Pour exporter la liste sélectionnée au format XLSX ([!DNL Microsoft Excel] feuille de calcul), cliquez sur ![Exporter](/help/dsp/assets/export.png "Exporter") **[!UICONTROL Export]**.
 
    Le fichier est téléchargé conformément à la procédure normale de votre navigateur.
 
@@ -43,7 +43,7 @@ Vous pouvez créer et gérer des listes d&#39;URL de sites Web et d&#39;applicat
 
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL Create].**
 
-1. Saisissez le **[!UICONTROL List name]**, puis cliquez sur **[!UICONTROL Create].**
+1. Entrez **[!UICONTROL List name]**, puis cliquez sur **[!UICONTROL Create].**
 
 1. Effectuez l’une des opérations suivantes :
 
@@ -73,9 +73,9 @@ Vous pouvez créer et gérer des listes d&#39;URL de sites Web et d&#39;applicat
 
      1. Pour afficher le statut de la tâche, y compris le nombre d’URL ajoutées et le nombre de valeurs en échec :
 
-        1. Cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
+        1. Cliquez sur ![Gestionnaire de tâches](/help/creative/assets/job-manager.png "Gestionnaire de tâches") (**[!UICONTROL Job Manager]**) dans la partie droite de la barre de menus supérieure.
 
-        1. (Si aucune ligne n’a été ajoutée) Pour télécharger un fichier d’erreur contenant les valeurs en échec, cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+        1. (Si aucune ligne n’a été ajoutée) Pour télécharger un fichier d’erreur contenant les valeurs en échec, cliquez sur **[!UICONTROL Download]** en regard du traitement.
 
            Le fichier est enregistré dans le dossier Téléchargements du navigateur.
 
@@ -141,9 +141,9 @@ Vous pouvez créer et gérer des listes d&#39;URL de sites Web et d&#39;applicat
 
      1. Pour afficher le statut de la tâche, y compris le nombre d’URL ajoutées et le nombre de valeurs en échec :
 
-        1. Cliquez sur ![&#x200B; Tâches &#x200B;](/help/dsp/assets/downloads.png) dans la partie droite de la barre de menus supérieure.
+        1. Cliquez sur ![Gestionnaire de tâches](/help/creative/assets/job-manager.png "Gestionnaire de tâches") (**[!UICONTROL Job Manager]**) dans la partie droite de la barre de menus supérieure.
 
-        1. (Si aucune ligne n’a été ajoutée) Pour télécharger un fichier d’erreur contenant les valeurs en échec, cliquez sur **[!UICONTROL Download]** en regard de la tâche.
+        1. (Si aucune ligne n’a été ajoutée) Pour télécharger un fichier d’erreur contenant les valeurs en échec, cliquez sur **[!UICONTROL Download]** en regard du traitement.
 
            Le fichier est enregistré dans le dossier Téléchargements du navigateur.
 
@@ -181,9 +181,9 @@ Vous pouvez créer et gérer des listes d&#39;URL de sites Web et d&#39;applicat
 
 1. Cliquez sur le nom de la liste.
 
-1. Cliquez sur ![Exporter](/help/dsp/assets/export.png "Exporter") **[!UICONTROL Export]**.
+1. Cliquez Sur ![Exporter](/help/dsp/assets/export.png "Exporter") **[!UICONTROL Export]**.
 
-   Le fichier est téléchargé au format XLSX (feuille de calcul [!DNL Microsoft Excel]) conformément à la procédure normale de votre navigateur.
+   Le fichier est téléchargé au format XLSX ([!DNL Microsoft Excel] feuille de calcul) conformément à la procédure normale de votre navigateur.
 
 >[!MORELIKETHIS]
 >
