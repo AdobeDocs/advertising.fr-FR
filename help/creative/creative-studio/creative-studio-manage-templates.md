@@ -10,20 +10,20 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fcd97d29c5009d22100283970892d258043b2d90
+source-git-commit: 1683592f2645be8911a142b5696ad481393023c3
 workflow-type: tm+mt
-source-wordcount: '3697'
+source-wordcount: '4143'
 ht-degree: 1%
 ---
-# Gestion des modèles d’annonce publicitaire dans [!UICONTROL Creative Studio]
+# Gérer les modèles publicitaires dans [!UICONTROL Creative Studio]
 
 Créez, importez et gérez des modèles d’annonces vidéo et d’affichage à utiliser dans les sessions de génération d’annonces.
 
 ## La vue [!UICONTROL Creative Studio] > [!UICONTROL Templates]
 
-L’onglet **[!UICONTROL Templates]** propose des actions rapides pour créer ou importer de nouveaux modèles d’annonces.
+L’onglet **[!UICONTROL Templates]** fournit des actions rapides pour créer ou importer de nouveaux modèles d’annonces.
 
-L’onglet [!UICONTROL Templates] répertorie également vos modèles d’annonces existants au bas de la page <!-- Only in the Templates tab -->en tant que [&#x200B; cartes individuelles (valeur par défaut) ou tableaux/listes](/help/creative/introduction/customize-data-views.md). La liste des modèles de publicité comprend des onglets pour [!UICONTROL All], [!UICONTROL System Templates] (que l’équipe chargée de votre compte Adobe charge sur votre compte) et [!UICONTROL User Templates]. Par défaut, les modèles d’annonces pour tous vos annonceurs s’affichent. Pour afficher uniquement les modèles d’annonce pour un annonceur spécifique, sélectionnez dans la liste des annonceurs en haut de la page.
+L’onglet [!UICONTROL Templates] répertorie également vos modèles d’annonces existants au bas de la page <!-- Only in the Templates tab --> sous la forme de [&#x200B; cartes individuelles (valeur par défaut) ou de tableaux/listes](/help/creative/introduction/customize-data-views.md). La liste des modèles de publicité comprend des onglets pour [!UICONTROL All], [!UICONTROL System Templates] (que l’équipe chargée de votre compte Adobe charge sur votre compte) et [!UICONTROL User Templates]. Par défaut, les modèles d’annonces pour tous vos annonceurs s’affichent. Pour afficher uniquement les modèles d’annonce pour un annonceur spécifique, sélectionnez dans la liste des annonceurs en haut de la page.
 
 <!--
 Probably not necessary:
@@ -39,7 +39,9 @@ Probably not necessary:
 
 Création :
 
-* [Générer un modèle d’annonce publicitaire à l’aide de l’IA](#template-generate)
+* [Générer un modèle d’annonce publicitaire à partir d’une invite de texte à l’aide de l’IA](#template-generate-from-text)
+
+* [Générer un modèle d’annonce publicitaire à partir d’une image à l’aide de l’IA](#template-generate-from-image)
 
 * [Création manuelle d’un modèle d’annonce](#template-create)
 
@@ -100,71 +102,95 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 ## Générer un modèle d’annonce publicitaire à l’aide de l’IA {#template-generate}
 
-*Fonction*
+Utilisez l’IA dans [!UICONTROL Creative Studio] pour générer un modèle d’annonce publicitaire d’affichage modifiable à partir d’une invite de texte ou d’une image d’annonce publicitaire d’affichage statique existante.
 
-Utilisez l’IA dans [!UICONTROL Creative Studio] pour convertir une image d’annonce publicitaire à affichage statique existante en modèle d’annonce publicitaire à affichage modifiable. Un assistant en trois étapes vous permet de générer et de réviser le modèle, de demander des modifications à l’aide du langage naturel et d’ouvrir l’éditeur de modèles pour apporter des modifications manuelles et enregistrer le modèle.
+### Générer un modèle de publicité à partir d’une invite de texte {#template-generate-from-text}
 
-### Conditions préalables
-
-Vous avez besoin d’une publicité d’images statique dans une bibliothèque Creative. Ce workflow sélectionne des publicités dans vos bibliothèques ; il ne charge pas de nouvelle image directement dans la boîte de dialogue de génération.
-
-<!--
-
-Publish this when prompt-based generation becomes available:
-
-To generate a template from an existing image, you need a static image ad in a Creative Library. This option selects ads from your libraries; it doesn't upload a new image directly in the generation dialog. You don't need an existing ad image to generate a template from a prompt.
-
--->
-
-### Étape 1 : générer et réviser le modèle
+Décrivez le modèle que vous souhaitez créer, sélectionnez éventuellement un profil de marque et une image, puis passez en revue les différents modèles générés. Vous n’avez pas besoin d’une annonce publicitaire d’image existante.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio]**.
 
-1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
+1. Cliquez sur l’onglet **[!UICONTROL Templates]**.
+
+1. (Facultatif) Sélectionnez un annonceur dans la liste des annonceurs en haut de la page pour afficher ses profils de marque.
+
+1. Dans la zone **[!UICONTROL Use AI to Generate a New Display Ad Template]**, cliquez sur **[!UICONTROL Generate]**.
+
+1. Dans la boîte de dialogue **[!UICONTROL Generate New Ad Template]**, cliquez sur l’onglet **[!UICONTROL Generate from Prompt]** s’il n’est pas déjà sélectionné.
+
+1. Sélectionnez **[!UICONTROL Template size]**.
+
+   La valeur par défaut est de 300 x 250 pixels. Vous ne pouvez pas modifier la taille une fois que la génération a commencé dans la session en cours.
+
+1. (Facultatif) Sélectionnez un profil de marque dans la liste **[!UICONTROL Brand]** pour fournir un contexte de marque pour la génération.
+
+1. (Facultatif) Pour inclure une image dans le modèle généré :
+
+   1. Cliquez sur **[!UICONTROL Add image]**.
+
+   1. Dans la vue **[!UICONTROL Select from Asset Library]**, sélectionnez une image existante ou cliquez sur **[!UICONTROL Browse files]** pour en télécharger une.
+
+      Les formats de chargement pris en charge sont PNG, JPEG, GIF et TIFF. Vous pouvez joindre une image à la fois.
+
+   1. Cliquez sur **[!UICONTROL Add to chat]**.
+
+1. Dans le champ **[!UICONTROL Generation prompt]**, décrivez le modèle que vous souhaitez créer. Incluez des détails tels que la mise en page, le titre, le call to action et le style visuel.
+
+   Par exemple, saisissez `Create a summer sale ad with a blue background, the headline "Summer Savings," and a "Shop Now" button`.
+
+1. Cliquez sur **[!UICONTROL Generate]** et attendez les aperçus du modèle.
+
+   Chaque requête génère jusqu’à quatre modèles. Examinez le texte, les images et la mise en page avant de choisir un modèle.
+
+1. (Facultatif) Pour afficher d&#39;autres options, cliquez sur **[!UICONTROL Generate more results]**. Vous pouvez également réviser l’invite et cliquer sur **[!UICONTROL Generate]**.
+
+   Les résultats s’accumulent dans la boîte de dialogue, jusqu’à 20 modèles générés par session.
+
+1. Placez le curseur sur le modèle à utiliser, puis cliquez sur **[!UICONTROL Open in Editor]**.
+
+   L’éditeur de modèle d’affichage s’ouvre dans un nouvel onglet du navigateur, laissant les résultats générés disponibles dans l’onglet d’origine.
+
+1. Vérifiez les éléments générés et apportez les modifications restantes à l&#39;aide des [contrôles de l&#39;éditeur de modèles](#template-controls).
+
+1. Cliquez sur **[!UICONTROL Save]**.
+
+1. Dans la boîte de dialogue **[!UICONTROL Save As New Template]**, saisissez le **[!UICONTROL Template name]**, sélectionnez le **[!UICONTROL Advertiser]**, ajoutez éventuellement des balises, puis cliquez sur **[!UICONTROL Save]**.
+
+   Le modèle est enregistré en tant que nouvelle copie et l&#39;onglet éditeur revient à la vue **[!UICONTROL Templates]**. Vous pouvez ensuite utiliser le modèle enregistré pour [générer des variations de publicité](#ad-variations-generate).
+
+>[!NOTE]
+>
+> Une fois la génération commencée, vous ne pouvez pas basculer entre la génération de texte et celle d’images dans la même boîte de dialogue. Pour recommencer avec une taille ou une méthode de génération différente, cliquez sur **[!UICONTROL Cancel]** et rouvrez la boîte de dialogue. Enregistrez d’abord les modèles que vous souhaitez conserver dans l’éditeur.
+
+### Génération d’un modèle d’annonce publicitaire à partir d’une image {#template-generate-from-image}
+
+Convertissez une image de publicité à affichage statique existante en modèle de publicité à affichage modifiable, demandez des modifications en langage naturel et ouvrez l’éditeur de modèles pour apporter des modifications manuelles et enregistrer le modèle.
+
+#### Conditions préalables
+
+Cette fonctionnalité nécessite une publicité d’image statique dans une bibliothèque Creative. Ce workflow sélectionne des publicités dans vos bibliothèques ; il ne charge pas de nouvelle image directement dans la boîte de dialogue de génération.
+
+#### Étape 1 : générer et réviser le modèle
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio]**.
+
+1. Cliquez sur l’onglet **[!UICONTROL Templates]**.
 
 1. (Facultatif) Sélectionnez un annonceur dans la liste des annonceurs située en haut de la page pour afficher ses bibliothèques.
 
-1. Dans la zone de **[!UICONTROL Use AI to Generate a New Display Ad Template]**, cliquez sur **[!UICONTROL Generate]**.
+1. Dans la zone **[!UICONTROL Use AI to Generate a New Display Ad Template]**, cliquez sur **[!UICONTROL Generate]**.
 
-1. Dans la boîte de dialogue **[!UICONTROL Generate New Ad Template]**, sélectionnez **[!UICONTROL Generate from Existing Standard Ad Image]** s’il n’est pas déjà sélectionné.
+1. Dans la boîte de dialogue **[!UICONTROL Generate New Ad Template]**, cliquez sur l’onglet **[!UICONTROL Generate from Existing Standard Ad Image]**.
 
-1. Sélectionnez la bibliothèque contenant l’annonce publicitaire d’image dans la liste **[!UICONTROL Ad Library]** .
+1. Sélectionnez la bibliothèque contenant l’annonce publicitaire d’image dans la liste **[!UICONTROL Ad Library]**.
 
-1. Placez le curseur sur la carte publicitaire de l’image, puis cliquez sur **[!UICONTROL Use this Standard Ad]**.
+1. Placez le curseur sur la carte publicitaire de l’image et cliquez sur **[!UICONTROL Use this Standard Ad]**.
 
    La génération commence automatiquement, en utilisant la largeur et la hauteur de l’annonce sélectionnée.
 
-<!--
-
-Switch to this when prompt-based generation becomes available:
-
-1. In the **[!UICONTROL Generate New Ad Template]** dialog, choose how to generate the template:
-
-   * **[!UICONTROL Generate from Prompt]:** Describe the ad template you want to create using a text prompt.
-
-   * **[!UICONTROL Generate from Existing Standard Ad Image]:** Convert an existing static image ad into an editable template.
-
-1. Follow the steps for your selected option:
-
-   * From a prompt:
-
-      1. Enter a description of the template you want to create. Include details such as the layout, headline, call to action, and visual style.
-
-      1. Follow the on-screen instructions to generate the template.
-
-   * From an existing standard ad image:
-
-      1. Select the library containing the image ad from the **[!UICONTROL Ad Library]** list.
-
-      1. Hold the cursor over the image ad card and click **[!UICONTROL Use this Standard Ad]**.
-
-         Generation begins automatically, using the selected ad's width and height.
-
--->
-
 1. [Examinez et affinez le modèle généré](#template-review).
 
-### Étape 2 : examiner et affiner le modèle {#template-review}
+#### Étape 2 : examiner et affiner le modèle {#template-review}
 
 1. Attendez la fin de la génération, puis passez en revue l’aperçu du modèle et le panneau **[!UICONTROL Layers]**, le cas échéant.
 
@@ -172,7 +198,7 @@ Switch to this when prompt-based generation becomes available:
 
 1. (Facultatif) Demandez des modifications au modèle généré :
 
-   1. Dans le champ **[!UICONTROL Ask the AI for any changes]** , décrivez les modifications que vous souhaitez apporter. Par exemple, saisissez `Change the headline to "Limited Time Offer" and the button text to "Shop Now"`.
+   1. Dans le champ **[!UICONTROL Ask the AI for any changes]**, décrivez les modifications que vous souhaitez apporter. Par exemple, saisissez `Change the headline to "Limited Time Offer" and the button text to "Shop Now"`.
 
    1. Cliquez sur **[!UICONTROL Regenerate]**.
 
@@ -182,7 +208,7 @@ Switch to this when prompt-based generation becomes available:
 
    Le modèle généré s’ouvre dans l’éditeur de modèles d’affichage.
 
-### Étape 3 : modifier et enregistrer le modèle {#template-save}
+#### Étape 3 : modifier et enregistrer le modèle {#template-save}
 
 >[!TIP]
 >
@@ -190,7 +216,7 @@ Switch to this when prompt-based generation becomes available:
 >
 > Pour de meilleurs résultats, remplacez le logo généré par l’IA par votre logo original, parfait en pixels, dans l’éditeur de modèles.
 
-1. Dans l’éditeur de modèles, passez en revue les éléments générés et apportez les modifications restantes à l’aide des commandes de l’[éditeur de modèles](#template-controls).
+1. Dans l&#39;éditeur de modèles, passez en revue les éléments générés et apportez les modifications restantes à l&#39;aide des [contrôles de l&#39;éditeur de modèles](#template-controls).
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -200,22 +226,17 @@ Switch to this when prompt-based generation becomes available:
 
    Pour enregistrer une copie distincte à la place, cliquez sur **[!UICONTROL Save As New]**.
 
-Vous pouvez ensuite utiliser le modèle pour [générer des variations d’annonce publicitaire](#ad-variations-generate).
+Vous pouvez ensuite utiliser le modèle pour [générer des variations de publicité](#ad-variations-generate).
 
 ### Dépannage {#troubleshooting}
 
 | Problème | Que faire |
 | --- | --- |
-| Aucune bibliothèque ni publicité d’images n’est répertoriée lors de la génération à partir d’une image | Vérifiez l’annonceur et le **[!UICONTROL Ad Library]** sélectionnés. Si la bibliothèque ne comporte pas d’images d’annonce publicitaire standard, sélectionnez une autre bibliothèque contenant une annonce d’image statique existante. |
+| La génération basée sur le texte échoue ou la demande est refusée | Vérifiez le message affiché, modifiez l’invite si nécessaire, puis cliquez sur **[!UICONTROL Generate]** pour réessayer. |
+| La session a atteint 20 modèles générés | Enregistrez les modèles que vous souhaitez conserver dans l’éditeur, cliquez sur **[!UICONTROL Cancel]**, puis rouvrez la boîte de dialogue de génération pour démarrer une nouvelle session. |
+| L’éditeur ne s’ouvre pas à partir d’un résultat généré par du texte | Autorisez les pop-ups pour le site, puis cliquez de nouveau sur **[!UICONTROL Open in Editor]**. |
+| Aucune bibliothèque ni publicité d’images n’est répertoriée lors de la génération à partir d’une image | Vérifiez l’annonceur sélectionné et **[!UICONTROL Ad Library]**. Si la bibliothèque ne comporte pas d’images d’annonce publicitaire standard, sélectionnez une autre bibliothèque contenant une annonce d’image statique existante. |
 | La génération basée sur l’image échoue ou l’image ne peut pas être convertie | Vérifiez le message affiché, cliquez sur **[!UICONTROL Back to library]**, puis sélectionnez une annonce publicitaire d’image pour réessayer. |
-
-<!--
-
-Add when prompt-based generation is available:
-
-| Prompt-based generation fails | Review the displayed message and revise your prompt before trying again. |
-
--->
 
 ## Création manuelle d’un modèle d’annonce {#template-create}
 
@@ -223,13 +244,13 @@ Créez un modèle d’affichage ou de vidéo vierge à l’aide de l’éditeur 
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio].**
 
-1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
+1. Cliquez sur l’onglet **[!UICONTROL Templates]**.
 
-1. Dans la zone de **[!UICONTROL Create New Ad Template]**, cliquez sur **[!UICONTROL Create]**, puis sélectionnez **[!UICONTROL Display Ad Template]** ou **[!UICONTROL Video Ad Template]**.
+1. Dans la zone **[!UICONTROL Create New Ad Template]**, cliquez sur **[!UICONTROL Create]**, puis sélectionnez **[!UICONTROL Display Ad Template]** ou **[!UICONTROL Video Ad Template]**.
 
 1. (Afficher les publicités) Sélectionnez la taille du modèle de publicité, puis cliquez sur **[!UICONTROL Continue]**.
 
-1. Configurez les paramètres du modèle à l’aide des commandes [dans l’éditeur de modèles](#template-controls).
+1. Configurez les paramètres du modèle à l&#39;aide des contrôles [dans l&#39;éditeur de modèles](#template-controls).
 
 1. (Facultatif) Pour télécharger une copie du modèle tel que défini, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Download]**.
 
@@ -243,7 +264,7 @@ Créez un modèle d’affichage ou de vidéo vierge à l’aide de l’éditeur 
 
       * Pour enregistrer le modèle en tant que brouillon, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**.
 
-   1. Saisissez la **[!UICONTROL Template name]**, sélectionnez le **[!UICONTROL Advertiser]**, sélectionnez éventuellement les balises existantes ou ajoutez de nouvelles balises au modèle, puis cliquez sur **[!UICONTROL Save]**.
+   1. Saisissez la **[!UICONTROL Template name]**, sélectionnez la **[!UICONTROL Advertiser]**, sélectionnez éventuellement des balises existantes ou ajoutez de nouvelles balises au modèle, puis cliquez sur **[!UICONTROL Save]**.
 
 ## Importer des modèles d’annonces HTML5 {#templates-import}
 
@@ -253,9 +274,9 @@ Chargez un ou plusieurs modèles HTML5 préconfigurés sous forme de fichiers ZI
 
 1. Sélectionnez l’annonceur en haut de la page.
 
-1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
+1. Cliquez sur l’onglet **[!UICONTROL Templates]**.
 
-1. Dans la zone de **[!UICONTROL Upload HTML5 Templates]**, cliquez sur **[!UICONTROL Upload]**, puis sélectionnez **[!UICONTROL Display Ad Template]** ou **[!UICONTROL Video Ad Template]**.
+1. Dans la zone **[!UICONTROL Upload HTML5 Templates]**, cliquez sur **[!UICONTROL Upload]**, puis sélectionnez **[!UICONTROL Display Ad Template]** ou **[!UICONTROL Video Ad Template]**.
 
 1. Sélectionnez un ou plusieurs fichiers ZIP sur votre appareil ou réseau.
 
@@ -265,7 +286,7 @@ Chargez un ou plusieurs modèles HTML5 préconfigurés sous forme de fichiers ZI
 
       Si vous avez déjà sélectionné un annonceur spécifique en haut de la page, cet annonceur est présélectionné.
 
-   1. (Facultatif) Modifiez le **[!UICONTROL Template Name]** pour chaque fichier.
+   1. (Facultatif) Pour chaque fichier, modifiez le **[!UICONTROL Template Name]**.
 
       Le nom de fichier est utilisé par défaut.
 
@@ -279,7 +300,7 @@ Chargez un ou plusieurs modèles HTML5 préconfigurés sous forme de fichiers ZI
 
 ## Modification d’un modèle de publicité {#template-edit}
 
-*Afficher uniquement les modèles d’annonce publicitaire.*
+*Afficher uniquement les modèles d&#39;annonces publicitaires.*
 
 >[!IMPORTANT]
 >
@@ -287,11 +308,11 @@ Chargez un ou plusieurs modèles HTML5 préconfigurés sous forme de fichiers ZI
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio].**
 
-1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
+1. Cliquez sur l’onglet **[!UICONTROL Templates]**.
 
 1. Placez le curseur sur la ligne de carte ou de tableau du modèle, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit Template]**.
 
-1. Modifiez la disposition du modèle ou les éléments à l’aide des contrôles [dans l’éditeur de modèles](#template-controls).
+1. Modifiez la disposition du modèle ou les éléments à l&#39;aide des contrôles [dans l&#39;éditeur de modèles](#template-controls).
 
 1. (Facultatif) Pour télécharger une copie du modèle tel que défini, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Download]**.
 
@@ -301,7 +322,7 @@ Chargez un ou plusieurs modèles HTML5 préconfigurés sous forme de fichiers ZI
 
    * Cliquez sur **[!UICONTROL Save]**.
 
-   * Pour enregistrer le modèle en tant que brouillon, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**. Saisissez la **[!UICONTROL Template name]**, sélectionnez le **[!UICONTROL Advertiser]**, sélectionnez éventuellement les balises existantes ou ajoutez de nouvelles balises au modèle, puis cliquez sur **[!UICONTROL Save]**.
+   * Pour enregistrer le modèle en tant que brouillon, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**. Saisissez la **[!UICONTROL Template name]**, sélectionnez la **[!UICONTROL Advertiser]**, sélectionnez éventuellement des balises existantes ou ajoutez de nouvelles balises au modèle, puis cliquez sur **[!UICONTROL Save]**.
 
 <!--
 
@@ -313,33 +334,33 @@ I don't see this anywhere:
 
 ## Générer des variations d’annonce publicitaire à partir d’un modèle d’annonce publicitaire affichée {#ad-variations-generate}
 
-*Afficher uniquement les modèles d’annonce publicitaire.*
+*Afficher uniquement les modèles d&#39;annonces publicitaires.*
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio].**
 
-1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
+1. Cliquez sur l’onglet **[!UICONTROL Templates]**.
 
 1. Placez le curseur sur la ligne de carte ou de tableau du modèle, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Generate Ad Variations]**.
 
-   La [!UICONTROL Ad Variations Generator] s’ouvre avec le modèle préchargé.
+   Le [!UICONTROL Ad Variations Generator] s’ouvre avec le modèle préchargé.
 
-1. Utilisez l’interface de chat de l’IA pour générer et affiner le contenu publicitaire. Voir « [&#x200B; Gérer les publicités standard dans Creative Studio &#x200B;](creative-studio-manage-standard-ads.md) » pour le workflow complet.
+1. Utilisez l’interface de chat de l’IA pour générer et affiner le contenu publicitaire. Voir « [Gérer les publicités standard dans Creative Studio](creative-studio-manage-standard-ads.md) » pour le workflow complet.
 
 ## Ajout ou suppression de libellés pour un modèle d’annonce publicitaire {#template-labels}
 
-*Afficher uniquement les modèles d’annonce publicitaire.*
+*Afficher uniquement les modèles d&#39;annonces publicitaires.*
 
 Les libellés vous permettent d’organiser et de filtrer les modèles utilisateur. Vous ne pouvez pas ajouter de libellés aux modèles système.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio].**
 
-1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
+1. Cliquez sur l’onglet **[!UICONTROL Templates]**.
 
 1. Placez le curseur sur la ligne de carte ou de tableau du modèle, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Edit Labels]**.
 
 1. Dans la boîte de dialogue **[!UICONTROL Edit Labels]** :
 
-   * Pour ajouter un libellé, sélectionnez un libellé existant ou saisissez un nom dans le champ de saisie, puis cliquez sur **[!UICONTROL Add Tag]**.
+   * Pour ajouter un libellé, sélectionnez un libellé existant ou saisissez un nom dans le champ de saisie et cliquez sur **[!UICONTROL Add Tag]**.
 
    * Pour supprimer un libellé, cliquez sur **[!UICONTROL X]** en regard de la balise de libellé.
 
@@ -349,7 +370,7 @@ Les libellés vous permettent d’organiser et de filtrer les modèles utilisate
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio].**
 
-1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
+1. Cliquez sur l’onglet **[!UICONTROL Templates]**.
 
 1. Placez le curseur sur la carte du modèle.
 
@@ -365,7 +386,7 @@ Les libellés vous permettent d’organiser et de filtrer les modèles utilisate
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio].**
 
-1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
+1. Cliquez sur l’onglet **[!UICONTROL Templates]**.
 
 1. Placez le curseur sur la ligne de carte ou de tableau du modèle, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Download]**.
 
@@ -377,7 +398,7 @@ Les libellés vous permettent d’organiser et de filtrer les modèles utilisate
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio].**
 
-1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
+1. Cliquez sur l’onglet **[!UICONTROL Templates]**.
 
 1. Placez le curseur sur la carte du modèle.
 
@@ -391,7 +412,7 @@ Les libellés vous permettent d’organiser et de filtrer les modèles utilisate
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative Studio].**
 
-1. Cliquez sur l’onglet **[!UICONTROL Templates]** .
+1. Cliquez sur l’onglet **[!UICONTROL Templates]**.
 
 1. Placez le curseur sur la ligne de carte ou de tableau du modèle, puis cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
 
@@ -399,7 +420,7 @@ Les libellés vous permettent d’organiser et de filtrer les modèles utilisate
 
 ## Contrôles de l’éditeur de modèles {#template-controls}
 
-Les éditeurs de modèle d’affichage et de vidéo fournissent une barre d’outils au-dessus de la zone de travail pour annuler les modifications et ajuster l’affichage, des panneaux à gauche pour ajouter des ressources et des éléments et un panneau [!UICONTROL Layers] à droite pour gérer les calques. Les outils de modification des éléments sélectionnés et de contrôle de la durée et de la lecture diffèrent entre les modèles d’affichage et vidéo.
+Les éditeurs de modèle d’affichage et de vidéo fournissent tous deux une barre d’outils au-dessus de la zone de travail pour annuler les modifications et ajuster l’affichage, des panneaux à gauche pour ajouter des ressources et des éléments, et un panneau [!UICONTROL Layers] à droite pour gérer les calques. Les outils de modification des éléments sélectionnés et de contrôle de la durée et de la lecture diffèrent entre les modèles d’affichage et vidéo.
 
 <!--
 
@@ -432,15 +453,15 @@ La barre d’outils des actions générales se trouve au-dessus de la zone de tr
 | **[!UICONTROL Links]** | Ouvre un panneau permettant de gérer les URL de clics publicitaires associées aux éléments du modèle. |
 | Contrôles de zoom | Cliquez sur **[!UICONTROL Zoom out]** ou **[!UICONTROL Zoom in]** pour ajuster le zoom de la zone de travail (10 à 150 %, par incréments de 10 %). Cliquez sur le libellé de niveau de zoom, qui indique **[!UICONTROL Auto]** lorsque la zone de travail s’ajuste automatiquement, ou un pourcentage lorsqu’il est défini manuellement, pour ouvrir un menu avec des options : **[!UICONTROL Auto-Fit Page]**, **[!UICONTROL 100% Zoom]**, **[!UICONTROL 50% Zoom]**, **[!UICONTROL Zoom In]** et **[!UICONTROL Zoom Out]**. |
 | Taille de l’annonce | Affiche les dimensions d’annonce publicitaire actuelles (par exemple, 300 × 250). Cliquez pour ouvrir le sélecteur de taille, qui propose six tailles standard IAB couramment utilisées en tant que cartes, ainsi qu&#39;une liste déroulante avec les 19 tailles standard d&#39;annonces publicitaires IAB. La taille par défaut des nouveaux modèles est de 300 × 250 (rectangle Medium). |
-| ![Ouverture du panneau Calques](/help/creative/assets/layers-panel-open.png "ouverture du panneau Calques") | Ouvre le panneau [!UICONTROL Layers]. S’affiche uniquement lorsque le panneau [!UICONTROL Layers] est fermé. |
+| ![Ouvrir le panneau Calques](/help/creative/assets/layers-panel-open.png "Ouvrir le panneau Calques") | Ouvre le panneau [!UICONTROL Layers]. S’affiche uniquement lorsque le panneau [!UICONTROL Layers] est fermé. |
 
 #### Modèles de publicité vidéo
 
 | Contrôle | Description |
 | --- | --- |
 | **[!UICONTROL Undo]** / ![Rétablir](/help/creative/assets/cs-icon-redo.png "Rétablir") **[!UICONTROL Redo]** | Annule ou rétablisse la dernière action. |
-| Contrôles de zoom | Cliquez sur **[!UICONTROL Zoom out]** ou **[!UICONTROL Zoom in]** pour ajuster le zoom de la zone de travail. Cliquez sur le niveau de zoom pour ouvrir un menu avec les options suivantes : **[!UICONTROL Auto-Fit Page]**, **[!UICONTROL 100% Zoom]**, **[!UICONTROL 50% Zoom]**, **[!UICONTROL Zoom In]** et **[!UICONTROL Zoom Out]**. |
-| ![Ouverture du panneau Calques](/help/creative/assets/layers-panel-open.png "ouverture du panneau Calques") | Ouvre le panneau [!UICONTROL Layers]. S’affiche uniquement lorsque le panneau [!UICONTROL Layers] est fermé. |
+| Contrôles de zoom | Cliquez sur **[!UICONTROL Zoom out]** ou **[!UICONTROL Zoom in]** pour ajuster le zoom de la zone de travail. Cliquez sur le niveau de zoom pour ouvrir un menu avec les options : **[!UICONTROL Auto-Fit Page]**, **[!UICONTROL 100% Zoom]**, **[!UICONTROL 50% Zoom]**, **[!UICONTROL Zoom In]** et **[!UICONTROL Zoom Out]**. |
+| ![Ouvrir le panneau Calques](/help/creative/assets/layers-panel-open.png "Ouvrir le panneau Calques") | Ouvre le panneau [!UICONTROL Layers]. S’affiche uniquement lorsque le panneau [!UICONTROL Layers] est fermé. |
 
 <!--
 
@@ -462,8 +483,8 @@ Le panneau de gauche vous permet d’ajouter des ressources et des éléments au
 | **[!UICONTROL Search]** | Effectuez une recherche dans tous les types de ressources de votre bibliothèque. |
 | **[!UICONTROL Upload]** | Chargez des images ou des fichiers de polices dans l’éditeur pour les utiliser dans le modèle actif. Vous pouvez charger jusqu’à 20 fichiers à la fois. |
 | **[!UICONTROL Templates]** | Parcourez les modèles d’annonces de votre bibliothèque Creative Studio à utiliser comme calque de base ou élément de référence. |
-| **[!UICONTROL My Assets]** | Parcourez toutes les ressources que vous avez chargées dans l’onglet [!UICONTROL Assets] de Creative Studio. |
-| **[!UICONTROL Images]** | Parcourez uniquement les ressources d’image que vous avez chargées dans l’onglet [!UICONTROL Assets] de Creative Studio. |
+| **[!UICONTROL My Assets]** | Parcourez toutes les ressources que vous avez chargées dans l’onglet Creative Studio [!UICONTROL Assets]. |
+| **[!UICONTROL Images]** | Parcourez uniquement les ressources d’image que vous avez chargées dans l’onglet Creative Studio [!UICONTROL Assets]. |
 | **[!UICONTROL Text]** | Ajoutez un élément de texte à la zone de travail, y compris les polices personnalisées que vous avez chargées. |
 | **[!UICONTROL Elements]** | Ajouter des formes et des éléments de disposition tels que des boutons et des rectangles. |
 
@@ -476,10 +497,10 @@ Vous pouvez faire glisser un élément de n’importe quel panneau directement s
 | **[!UICONTROL Search]** | Effectuez une recherche dans tous les types de ressources de votre bibliothèque. |
 | **[!UICONTROL Upload]** | Chargez les fichiers image, vidéo, audio ou de police (TTF, OTF, WOFF, WOFF2) dans l’éditeur pour les utiliser dans le modèle actif. Vous pouvez charger jusqu’à 20 fichiers à la fois. |
 | **[!UICONTROL Templates]** | Parcourez les modèles d’annonces publicitaires depuis votre bibliothèque Creative Studio. |
-| **[!UICONTROL My Assets]** | Parcourez toutes les ressources que vous avez chargées dans l’onglet [!UICONTROL Assets] de Creative Studio. |
-| **[!UICONTROL Images]** | Parcourez uniquement les ressources d’image que vous avez chargées dans l’onglet [!UICONTROL Assets] de Creative Studio. |
-| **[!UICONTROL Video]** | Parcourez uniquement les ressources vidéo que vous avez chargées dans l’onglet [!UICONTROL Assets] de Creative Studio. |
-| **[!UICONTROL Audio]** | Parcourez uniquement les ressources audio que vous avez chargées dans l’onglet [!UICONTROL Assets] de Creative Studio. |
+| **[!UICONTROL My Assets]** | Parcourez toutes les ressources que vous avez chargées dans l’onglet Creative Studio [!UICONTROL Assets]. |
+| **[!UICONTROL Images]** | Parcourez uniquement les ressources d’image que vous avez chargées dans l’onglet Creative Studio [!UICONTROL Assets]. |
+| **[!UICONTROL Video]** | Parcourez uniquement les ressources vidéo que vous avez chargées dans l’onglet Creative Studio [!UICONTROL Assets]. |
+| **[!UICONTROL Audio]** | Parcourez uniquement les ressources audio que vous avez chargées dans l’onglet Creative Studio [!UICONTROL Assets]. |
 | **[!UICONTROL Text]** | Ajoutez un élément de texte à la zone de travail, y compris les polices personnalisées que vous avez chargées. |
 | **[!UICONTROL Elements]** | Ajoutez des formes et des éléments vectoriels. |
 
@@ -497,11 +518,11 @@ Les commandes varient selon le type d’élément.
 
 | Contrôle | Types d’éléments | Description |
 | --- | --- | --- |
-| **[!UICONTROL Properties]** | Tous | Ouvre un panneau pour modifier le nom du calque, marquer le calque comme dynamique (permutable pendant la génération de la publicité) et définir une URL de clic publicitaire (liens uniquement). En dessous, choisissez un état **[!UICONTROL Default]**, **[!UICONTROL Hover]**, **[!UICONTROL Click]** ou **[!UICONTROL Focus]** pour mettre en forme l’élément pour cet état d’interaction, puis ajustez le style (typographie (texte et liens uniquement), les décorations (remplissage, bordure, rayon de coin), les dimensions, la position) en fonction du type d’élément. |
+| **[!UICONTROL Properties]** | Tous | Ouvre un panneau pour modifier le nom du calque, marquer le calque comme dynamique (permutable pendant la génération de la publicité) et définir une URL de clic publicitaire (liens uniquement). En dessous, choisissez un état **[!UICONTROL Default]**, **[!UICONTROL Hover]**, **[!UICONTROL Click]** ou **[!UICONTROL Focus]** pour appliquer un style à l’élément pour cet état d’interaction, puis ajustez le style (typographie (texte et liens uniquement), les décorations (remplissage, bordure, rayon d’angle), les dimensions, la position, en fonction du type d’élément. |
 | **[!UICONTROL Effects]** | Tous | Ouvre un panneau dans lequel vous choisissez un état **[!UICONTROL Default]**, **[!UICONTROL Hover]**, **[!UICONTROL Click]** ou **[!UICONTROL Focus]** auquel appliquer des effets pour cet état d’interaction, puis ajustez les sections **[!UICONTROL Transform]**, **[!UICONTROL Transition]**, **[!UICONTROL Box Shadow]**, **[!UICONTROL Filter]**, **[!UICONTROL Blend Mode]** et **[!UICONTROL Cursor]**. Les éléments de texte incluent également une section **[!UICONTROL Text Shadow]**. |
-| **[!UICONTROL Animations]** | Tous | Ouvre un panneau pour définir l’heure d’entrée et de sortie du calque sur le montage et pour configurer les paramètres prédéfinis de **[!UICONTROL Entrance Animation]**, de **[!UICONTROL Loop Animation]** et de **[!UICONTROL Exit Animation]** avec la durée et l’accélération. Inclut des actions **[!UICONTROL Copy]**, **[!UICONTROL Paste]** et **[!UICONTROL Reset]**. |
-| **[!UICONTROL Crop]** | Images | Ouvre une barre d’outils pour recadrer l’image. Sélectionnez un paramètre prédéfini de **[!UICONTROL Aspect Ratio]** (ou **[!UICONTROL Free]**), puis cliquez sur **[!UICONTROL Apply]** ou **[!UICONTROL Cancel]**. |
-| **[!UICONTROL Position]** | Tous | Ouvre un menu avec des options **[!UICONTROL Move]** (**[!UICONTROL Forward]**, **[!UICONTROL Backward]**, **[!UICONTROL To front]**, **[!UICONTROL To back]**), des options **[!UICONTROL Align to Page]** (**[!UICONTROL Top]**, **[!UICONTROL Left]**, **[!UICONTROL Middle]**, **[!UICONTROL Center]**, **[!UICONTROL Bottom]**, **[!UICONTROL Right]**, **[!UICONTROL Fit Vertically]**, **[!UICONTROL Fit Horizontally]**, **[!UICONTROL Fit to Page]**, **[!UICONTROL Layer Level Alignment]**, **[!UICONTROL Fit to Content]**) et, pour les éléments qui ne sont pas des images, des options (les mêmes six options d’alignement, plus). |
+| **[!UICONTROL Animations]** | Tous | Ouvre un panneau pour définir l’heure d’entrée et de sortie du calque sur le journal et pour configurer les paramètres prédéfinis **[!UICONTROL Entrance Animation]**, **[!UICONTROL Loop Animation]** et **[!UICONTROL Exit Animation]** avec une durée et un assouplissement. Inclut les actions **[!UICONTROL Copy]**, **[!UICONTROL Paste]** et **[!UICONTROL Reset]**. |
+| **[!UICONTROL Crop]** | Images | Ouvre une barre d’outils pour recadrer l’image. Sélectionnez un paramètre prédéfini **[!UICONTROL Aspect Ratio]** (ou **[!UICONTROL Free]**), puis cliquez sur **[!UICONTROL Apply]** ou **[!UICONTROL Cancel]**. |
+| **[!UICONTROL Position]** | Tous | Ouvre un menu avec **[!UICONTROL Move]** options (**[!UICONTROL Forward]**, **[!UICONTROL Backward]**, **[!UICONTROL To front]**, **[!UICONTROL To back]**), **[!UICONTROL Align to Page]** options (**[!UICONTROL Top]**, **[!UICONTROL Left]**, **[!UICONTROL Middle]**, **[!UICONTROL Center]**, **[!UICONTROL Bottom]**, **[!UICONTROL Right]**, **[!UICONTROL Fit Vertically]**, **[!UICONTROL Fit Horizontally]**, **[!UICONTROL Fit to Page]**) et, pour les éléments autres que les images, **[!UICONTROL Layer Level Alignment]** options (les mêmes six options d’alignement, plus **[!UICONTROL Fit to Content]**). |
 
 #### Barre d’outils d’édition de modèle vidéo
 
@@ -517,20 +538,20 @@ Les commandes varient selon le type d’élément.
 | **[!UICONTROL Trim]** | Vidéo et audio | Ouvre le mode de rognage pour définir les points de début et de fin de l’élément. |
 | ![Volume](/help/creative/assets/volume.png "Volume") ([!UICONTROL Volume]) | Vidéo et audio | Ajuste le niveau audio. |
 | ![Vitesse de lecture](/help/creative/assets/speed.png "Vitesse de lecture") ([!UICONTROL Playback speed]) | Vidéo et audio | Ajuste le taux de lecture. |
-| ![Crop](/help/creative/assets/crop.png "Crop") ([!UICONTROL Crop]) | Tous | Recadre l’élément dans une zone personnalisée. |
+| ![Recadrer](/help/creative/assets/crop.png "Recadrer") ([!UICONTROL Crop]) | Tous | Recadre l’élément dans une zone personnalisée. |
 | Commandes de rotation et de basculement | Tous | Faire pivoter ou retourner l’élément sélectionné. |
-| ![Contour](/help/creative/assets/stroke.png "Contour") ([!UICONTROL Stroke]) | Tous | Définit la couleur et la largeur de la bordure. |
+| ![Trait](/help/creative/assets/stroke.png "Trait") ([!UICONTROL Stroke]) | Tous | Définit la couleur et la largeur de la bordure. |
 | **[!UICONTROL Text Background]** | Texte | Ajoute une couleur de fond derrière le texte. |
 | **[!UICONTROL Animations]** | Tous | Ajoute ou modifie des animations d’entrée, de sortie ou en boucle. |
-| **[!UICONTROL Style]** | Tous | Ouvre un menu avec des options **[!UICONTROL Adjustments]**, **[!UICONTROL Filter]**, **[!UICONTROL Effect]** et **[!UICONTROL Blur]**. |
+| **[!UICONTROL Style]** | Tous | Ouvre un menu avec les options **[!UICONTROL Adjustments]**, **[!UICONTROL Filter]**, **[!UICONTROL Effect]** et **[!UICONTROL Blur]**. |
 | **[!UICONTROL Shadow]** | Tous | Ajoute ou modifie une ombre portée. |
 | **[!UICONTROL Opacity]** | Tous | Définit le niveau de transparence de l’élément. |
 | **[!UICONTROL Position]** | Tous | Ajuste numériquement la taille, la position et la rotation de l’élément. |
-| ![Panneau d’édition](/help/creative/assets/cs-template-video-editing-panel.png "Panneau d’édition") | Tous | Ouvre ou ferme un panneau [édition](#detailed-element-properties-for-video-templates) pour l’élément sélectionné avec davantage de fonctionnalités d’édition. |
+| ![Panneau de modification](/help/creative/assets/cs-template-video-editing-panel.png "Panneau de modification") | Tous | Ouvre ou ferme un [panneau de modification](#detailed-element-properties-for-video-templates) pour l&#39;élément sélectionné avec davantage de fonctionnalités de modification. |
 
 #### Propriétés d’élément détaillées pour les modèles vidéo
 
-Dans l’éditeur de modèles vidéo, cliquez sur ![Panneau d’édition](/help/creative/assets/cs-template-video-editing-panel.png "Panneau d’édition") dans la barre d’outils pour ouvrir un panneau d’édition pour l’élément sélectionné avec davantage de fonctionnalités d’édition. Le panneau Modification s’affiche à gauche de la zone de travail et est distinct du panneau [!UICONTROL Layers], qui répertorie les calques du modèle.
+Dans l’éditeur de modèles vidéo, cliquez sur ![Panneau d’édition](/help/creative/assets/cs-template-video-editing-panel.png "Panneau d’édition") dans la barre d’outils pour ouvrir un panneau d’édition pour l’élément sélectionné avec davantage de fonctionnalités d’édition. Le panneau de modification s’affiche à gauche de la zone de travail et est distinct du panneau [!UICONTROL Layers], qui répertorie les calques du modèle.
 
 ##### Éléments individuels
 
@@ -545,15 +566,15 @@ Lorsque vous sélectionnez un seul élément d’image, de vidéo, de forme ou d
 | | [!UICONTROL Transform]: [!UICONTROL Position & Size] | Ouvre des commandes supplémentaires pour la position et les cotes du calque. La disponibilité dépend des autorisations de transformation du calque sélectionné. |
 | [!UICONTROL Shape] | ![Options de forme](/help/creative/assets/cs-template-video-shape-options.png "Options de forme") [!UICONTROL Shape] et propriétés spécifiques à la forme | Modifie la forme et ses propriétés disponibles, telles que les points, les côtés, le diamètre interne, la largeur de trait ou le rayon de coin. Les commandes dépendent de la forme sélectionnée. |
 | | [!UICONTROL Vector]: [!UICONTROL Edit Path] | Active le mode de modification vectorielle pour modifier le chemin d&#39;accès de la forme, le cas échéant. |
-| [!UICONTROL Character] | ![Typeface](/help/creative/assets/cs-template-video-typeface.png "Typeface") Typeface, ![Style de texte](/help/creative/assets/cs-template-video-text-style.png "Style de texte") Style de texte, ![Bold](/help/creative/assets/cs-template-video-text-bold.png "Bold") gras, ![Italic](/help/creative/assets/cs-template-video-text-italic.png "Italic") italic et ![Font size](/help/creative/assets/cs-template-video-font-size.png "Font size") taille de police | (Calques de texte) Modifie la famille, le style et la taille de la police du texte sélectionné. |
-| | ![Aligner à gauche](/help/creative/assets/cs-template-video-text-align-l.png "Aligner à gauche") / ![Aligner au centre](/help/creative/assets/cs-template-video-text-align-c.png "Aligner au centre") / ![Aligner à droite](/help/creative/assets/cs-template-video-text-align-r.png "Aligner à droite") Alignement du texte | (Calques de texte) Aligne le texte de son bloc à gauche, au centre ou à droite, ou détecte automatiquement l’alignement. |
+| [!UICONTROL Character] | ![Police](/help/creative/assets/cs-template-video-typeface.png "Police"), ![Style de texte](/help/creative/assets/cs-template-video-text-style.png "Style de texte") Style de texte, ![Gras](/help/creative/assets/cs-template-video-text-bold.png "Gras") Gras, ![Italique](/help/creative/assets/cs-template-video-text-italic.png "Italique") italique et ![Taille de police](/help/creative/assets/cs-template-video-font-size.png "Taille de police") | (Calques de texte) Modifie la famille, le style et la taille de la police du texte sélectionné. |
+| | ![Aligner à gauche](/help/creative/assets/cs-template-video-text-align-l.png "Aligner à gauche") / ![Aligner au centre](/help/creative/assets/cs-template-video-text-align-c.png "Aligner au centre") / ![Aligner à droite](/help/creative/assets/cs-template-video-text-align-r.png "Aligner à droite") Aligner le texte | (Calques de texte) Aligne le texte de son bloc à gauche, au centre ou à droite, ou détecte automatiquement l’alignement. |
 | | ![Paramètres de texte avancés](/help/creative/assets/cs-template-video-advanced-text.png "Paramètres de texte avancés") Paramètres de texte avancés | (Calques de texte) Ouvre des paramètres de typographie supplémentaires. |
-| [!UICONTROL Fill] | Contrôles de remplissage ![Fill](/help/creative/assets/cs-template-video-fill.png "Fill") | Modifie la couleur, l’image ou le remplissage vidéo du calque sélectionné. Les contrôles reflètent le type de remplissage actuel et ouvrent ses paramètres. Pour le texte, modifie la couleur du texte. |
-| [!UICONTROL Stroke] | Contrôles ![Stroke](/help/creative/assets/cs-template-video-stroke.png "Stroke") Stroke | Active ou désactive le contour et modifie sa couleur, sa largeur, son style et son emplacement. Des commandes supplémentaires apparaissent lorsque le trait est activé. |
+| [!UICONTROL Fill] | ![Remplir](/help/creative/assets/cs-template-video-fill.png "Remplir") les contrôles | Modifie la couleur, l’image ou le remplissage vidéo du calque sélectionné. Les contrôles reflètent le type de remplissage actuel et ouvrent ses paramètres. Pour le texte, modifie la couleur du texte. |
+| [!UICONTROL Stroke] | ![Contour](/help/creative/assets/cs-template-video-stroke.png "Contour") | Active ou désactive le contour et modifie sa couleur, sa largeur, son style et son emplacement. Des commandes supplémentaires apparaissent lorsque le trait est activé. |
 | [!UICONTROL Text Background] | ![Arrière-plan texte](/help/creative/assets/cs-template-video-text-bg.png "Arrière-plan texte") Contrôles d&#39;arrière-plan | (Calques de texte) Ajoute ou modifie l’arrière-plan derrière le texte. |
 | [!UICONTROL Animations] | ![Animation](/help/creative/assets/cs-template-video-animation.png "Animation") [!UICONTROL Presets] | Ouvre les paramètres prédéfinis d’animation du calque sélectionné, y compris les animations d’entrée, de sortie et en boucle. |
 | [!UICONTROL Appearance] | ![Ajustements](/help/creative/assets/cs-template-video-adjustments.png "Ajustements") [!UICONTROL Adjustments] | Modifie les propriétés visuelles du calque sélectionné. |
-| | ![Filter](/help/creative/assets/cs-template-video-filter.png "Filter") [!UICONTROL Filter] | Applique un filtre visuel au calque sélectionné. |
+| | ![Filtrer](/help/creative/assets/cs-template-video-filter.png "Filtrer") [!UICONTROL Filter] | Applique un filtre visuel au calque sélectionné. |
 | | ![Effets](/help/creative/assets/cs-template-video-effects.png "Effets") [!UICONTROL Effect] | Applique un effet au calque sélectionné. |
 | | ![Flou](/help/creative/assets/cs-template-video-blur.png "Flou") [!UICONTROL Blur] | Applique un flou au calque sélectionné. |
 | | ![Ombre](/help/creative/assets/cs-template-video-shadow.png "Ombre") [!UICONTROL Shadow] | Ajoute ou modifie l&#39;ombre du calque sélectionné. |
@@ -569,9 +590,9 @@ Lorsque vous sélectionnez plusieurs éléments, un groupe, un élément découp
 | | ![Opacité](/help/creative/assets/cs-template-video-opacity.png "Opacité") [!UICONTROL Opacity] | Rend les éléments ou groupes sélectionnés plus ou moins transparents. |
 | | ![Mode de fusion](/help/creative/assets/cs-template-video-blend-mode.png "Mode de fusion") [!UICONTROL Blend Mode] | Modifie la manière dont les couleurs des éléments ou des groupes sélectionnés se combinent avec les calques situés derrière eux. |
 | | [!UICONTROL Transform]: [!UICONTROL Position & Size] | Ouvre les contrôles relatifs à la position et aux cotes des éléments ou groupes sélectionnés. Les contrôles disponibles dépendent des éléments sélectionnés. |
-| [!UICONTROL Selection] | ![Group](/help/creative/assets/cs-template-video-group.png "Group") Group / ![Ungroup](/help/creative/assets/cs-template-video-ungroup.png "Ungroup") Ungroup | S’affiche sous [!UICONTROL Layer] pour plusieurs calques sélectionnés ou un groupe sélectionné. Regroupe les calques sélectionnés afin qu’ils puissent être gérés ensemble ou sépare un groupe en calques individuels. |
-| [!UICONTROL Settings] | ![Clip découpé](/help/creative/assets/cs-template-video-cutout-clip.png "Clip découpé") / ![Superposition découpée](/help/creative/assets/cs-template-video-cutout-overlay.png "Superposition découpée") Contrôles découpés | (Calques découpés) Apparaît sous [!UICONTROL Layer]. Sélectionne le type de découpe et ajuste son décalage et le lissage des arêtes. |
-| [!UICONTROL Audio Properties] | ![Rogner](/help/creative/assets/cs-template-video-trim.png "Rogner") Rogner, ![Volume](/help/creative/assets/cs-template-video-volume.png "Volume") volume et ![Vitesse de lecture](/help/creative/assets/cs-template-video-playback-speed.png "Vitesse de lecture") vitesse de lecture | (Calques audio) Définit les points de début et de fin de l’élément, le niveau audio et la vitesse de lecture. |
+| [!UICONTROL Selection] | ![Groupe](/help/creative/assets/cs-template-video-group.png "Groupe") Groupe / ![Dissocier](/help/creative/assets/cs-template-video-ungroup.png "Dissocier") Dissocier | S’affiche sous [!UICONTROL Layer] pour plusieurs calques sélectionnés ou un groupe sélectionné. Regroupe les calques sélectionnés afin qu’ils puissent être gérés ensemble ou sépare un groupe en calques individuels. |
+| [!UICONTROL Settings] | ![Découper le clip](/help/creative/assets/cs-template-video-cutout-clip.png "Découper le clip") / ![Recouvrement de découpe](/help/creative/assets/cs-template-video-cutout-overlay.png "Recouvrement de découpe") | (Couper les calques) Apparaît sous [!UICONTROL Layer]. Sélectionne le type de découpe et ajuste son décalage et le lissage des arêtes. |
+| [!UICONTROL Audio Properties] | ![Rogner](/help/creative/assets/cs-template-video-trim.png "Rogner") Rogner, ![Volume](/help/creative/assets/cs-template-video-volume.png "Volume") et ![Vitesse de lecture](/help/creative/assets/cs-template-video-playback-speed.png "Vitesse de lecture") | (Calques audio) Définit les points de début et de fin de l’élément, le niveau audio et la vitesse de lecture. |
 
 #### Modifier les éléments directement sur la zone de travail
 
@@ -583,7 +604,7 @@ Lorsque vous sélectionnez plusieurs éléments, un groupe, un élément découp
 | ![Avancer](/help/creative/assets/cs-icon-move-forward.png "Avancer") **[!UICONTROL Move forward]** | Déplace l’élément d’un pas en avant dans l’ordre d’empilement (vers l’avant). |
 | ![Reculer](/help/creative/assets/cs-icon-move-backward.png "Reculer") **[!UICONTROL Move backward]** | Déplace l’élément d’un pas en arrière dans l’ordre d’empilement (vers l’arrière). |
 | ![Dupliquer](/help/creative/assets/cs-icon-duplicate.png "Dupliquer") **[!UICONTROL Duplicate]** | Crée une copie de l’élément. |
-| ![Delete](/help/creative/assets/cs-icon-delete.png "Delete") **[!UICONTROL Delete]** | Supprime l’élément de la zone de travail. |
+| ![Supprimer](/help/creative/assets/cs-icon-delete.png "Supprimer") **[!UICONTROL Delete]** | Supprime l’élément de la zone de travail. |
 | Poignée de rotation | Cliquez et faites glisser la poignée au-dessus d’un élément sélectionné pour le faire pivoter. Maintenez la touche **[!UICONTROL Shift]** enfoncée tout en faisant glisser pour aligner la rotation sur des incréments de 15 degrés. |
 
 Vous pouvez également cliquer et faire glisser un élément sélectionné pour le repositionner, puis cliquer et faire glisser les poignées autour pour le redimensionner.
@@ -592,7 +613,7 @@ Vous pouvez également cliquer et faire glisser un élément sélectionné pour 
 
 | Action | Description |
 | --- | --- |
-| **[!UICONTROL Edit text]** | (Éléments de texte uniquement) Passe en mode d’édition de texte afin que vous puissiez saisir et mettre en forme du texte directement sur la zone de travail. En mode d’édition de texte, un menu secondaire fournit des **[!UICONTROL Text color]**, des **[!UICONTROL Bold]**, des **[!UICONTROL Italic]** et des **[!UICONTROL Text variables]** (espaces réservés de modèle). |
+| **[!UICONTROL Edit text]** | (Éléments de texte uniquement) Passe en mode d’édition de texte afin que vous puissiez saisir et mettre en forme du texte directement sur la zone de travail. En mode d’édition de texte, un menu secondaire fournit **[!UICONTROL Text color]**, **[!UICONTROL Bold]**, **[!UICONTROL Italic]** et **[!UICONTROL Text variables]** (espaces réservés du modèle). |
 | **[!UICONTROL Replace]** | (Éléments d’image uniquement) Ouvre la bibliothèque de ressources afin que vous puissiez intervertir l’image. |
 | **[!UICONTROL Bring forward]** | Déplace l’élément d’un pas en avant dans l’ordre d’empilement. |
 | **[!UICONTROL Send backward]** | Déplace l’élément d’un pas en arrière dans l’ordre d’empilement. |
@@ -613,7 +634,7 @@ Les éditeurs vidéo et d’affichage affichent tous deux un panneau Chronologie
 
 La chronologie affiche une piste pour chaque calque de la zone de travail, couvrant la période pendant laquelle le calque est visible en fonction de sa synchronisation d’animation d’entrée et de sortie. Faites glisser la poignée de début ou de fin d’une piste pour ajuster son heure d’entrée ou de sortie, ou faites glisser une piste pour réorganiser les calques. Cliquez sur la règle ou faites glisser le curseur de lecture pour vous déplacer vers un point dans le temps.
 
-La barre d’outils de la chronologie comprend un champ **[!UICONTROL Duration]** (0 à 60 secondes), **[!UICONTROL Play]**/**[!UICONTROL Pause]**, un affichage de la durée actuelle/totale, un bouton bascule de boucle, des commandes de zoom **[!UICONTROL Timeline Scale]**, un bouton de **[!UICONTROL Fit View]** et un bouton bascule de réduction/développement.
+La barre d’outils de la chronologie comprend un champ **[!UICONTROL Duration]** (0 à 60 secondes), **[!UICONTROL Play]**/**[!UICONTROL Pause]**, un affichage de l’heure actuelle/de la durée totale, un bouton bascule en boucle, **[!UICONTROL Timeline Scale]** commandes de zoom, un bouton **[!UICONTROL Fit View]** et un bouton bascule réduire/développer.
 
 #### Modèles de publicité vidéo
 
@@ -625,12 +646,12 @@ Le panneau [!UICONTROL Layers] sur le côté droit de la zone de travail répert
 
 Cliquez sur un calque pour sélectionner l’élément correspondant sur la zone de travail.
 
-**Onglets (modèles d’annonce publicitaire affichés uniquement)**
+**Onglets (afficher uniquement les modèles d’annonce publicitaire)**
 
-Les modèles d’affichage comportent deux onglets dans la partie supérieure du panneau [!UICONTROL Layers] :
+Les modèles d’affichage comportent deux onglets en haut du panneau [!UICONTROL Layers] :
 
-* **[!UICONTROL Dynamic]** : répertorie uniquement les calques qui peuvent être permutés pendant la génération de l’annonce, tels que les images et le texte que l’agent d’IA peut remplacer. Il s’agit de la vue par défaut pour la génération des variations de publicité.
-* **[!UICONTROL All]** : affiche la hiérarchie complète des calques du modèle, y compris les conteneurs structurels. Utilisez cette vue pour examiner ou réorganiser la manière dont les éléments sont imbriqués.
+* **[!UICONTROL Dynamic]** — Répertorie uniquement les calques qui peuvent être permutés pendant la génération de la publicité, tels que les images et le texte que l’agent d’IA peut remplacer. Il s’agit de la vue par défaut pour la génération des variations de publicité.
+* **[!UICONTROL All]** — Affiche la hiérarchie complète des calques du modèle, y compris les conteneurs structurels. Utilisez cette vue pour examiner ou réorganiser la manière dont les éléments sont imbriqués.
 
 Les modèles vidéo affichent tous les calques dans une seule liste sans onglets.
 
@@ -687,4 +708,4 @@ These are all saved with the template, but they aren't what you see, as-is, in t
 >* [À propos de Creative Studio dans Advertising Creative](creative-studio-about.md)
 >* [Gestion des ressources dans Creative Studio](creative-studio-manage-assets.md)
 >* [Gestion des publicités standard dans Creative Studio](creative-studio-manage-standard-ads.md)
->* [Gestion des contenus créatifs dynamiques dans Creative Studio](creative-studio-manage-dynamic-ads.md)
+>* [Gestion des contenus publicitaires dynamiques dans Creative Studio](creative-studio-manage-dynamic-ads.md)

@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
+source-git-commit: e5b13eece252d5f0a86d86e0449dd13483c3665f
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '3129'
 ht-degree: 0%
 ---
 # Colonnes de rapport disponibles
@@ -124,12 +124,13 @@ Les colonnes de rapport disponibles varient selon le type de rapport. Voici un s
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement End Date] | Date de fin de l’emplacement. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Start Date] | Date de début de l’emplacement. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Tags] | Balise d’emplacement utilisée comme identifiant personnalisé pour l’emplacement. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Description] | Description associée à un segment facturable. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Key] | Clé unique associée à un segment facturable. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Name] | Nom d’un segment facturable. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Description] | Description associée à un segment auquel des impressions sont attribuées, fournie par le fournisseur de données. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Key] | Clé unique associée à un segment auquel des impressions sont attribuées. **Remarque :** Chaque impression est attribuée à un seul segment. Par conséquent, les dépenses s’additionnent au total réel. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Name] | Nom d’un segment auquel des impressions sont attribuées. **Remarque :** Chaque impression est attribuée à un seul segment. Par conséquent, les dépenses s’additionnent au total réel. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Provider Name] | Nom du fournisseur de données associé à un segment auquel des impressions sont attribuées. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Description] | Description associée à un segment, fournie par le fournisseur de données. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Key] | Clé unique associée à un segment. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Name] | Nom d’un segment. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Key] | Clé unique associée à un segment. **Remarque :** Si une impression correspond à plusieurs segments, l’impression et toutes ses mesures standard, de dépenses et de performances sont attribuées à chaque segment correspondant. Les mesures des lignes de segment combinées peuvent être supérieures aux totaux de votre campagne. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Name] | Nom d’un segment. **Remarque :** Si une impression correspond à plusieurs segments, l’impression et toutes ses mesures standard, de dépenses et de performances sont attribuées à chaque segment correspondant. Les mesures des lignes de segment combinées peuvent être supérieures aux totaux de votre campagne. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Provider Name] | Nom du fournisseur de données associé à un segment. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | Identifiant unique du site ou de l’application dans DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | Nom du site. |

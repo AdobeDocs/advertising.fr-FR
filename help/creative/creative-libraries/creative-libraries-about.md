@@ -27,30 +27,30 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: 1e29e61573d581d3760a2f5d95c34021ade5de31
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1667'
 ht-degree: 0%
 ---
 # À propos de vos bibliothèques de création
 
-Vos bibliothèques de contenu publicitaire vous permettent de gérer les contenus publicitaires que vous utiliserez dans vos expériences publicitaires. Vous pouvez créer plusieurs bibliothèques, chacune avec un ensemble de contenus publicitaires et *lots de contenus publicitaires*, qui sont des groupes de contenus publicitaires que vous pouvez ajouter à une expérience en tant qu’unité.
+Vos bibliothèques de contenu publicitaire vous permettent de gérer les contenus publicitaires que vous utiliserez dans vos expériences publicitaires. Vous pouvez créer plusieurs bibliothèques, chacune avec un ensemble de contenus publicitaires et *des lots de contenus publicitaires*, qui sont des groupes de contenus publicitaires que vous pouvez ajouter à une expérience en tant qu’unité.
 
 Vos bibliothèques peuvent inclure les éléments suivants :
 
-* **Contenu publicitaire individuel :** vous pouvez inclure des contenus publicitaires individuels directement dans des expériences publicitaires pour lesquelles aucune cible utilisateur n’est définie. Vous pouvez également utiliser vos contenus publicitaires pour créer des offres groupées, que vous pouvez inclure dans des [expériences publicitaires](/help/creative/experiences/experience-about.md) ciblées.
+* **Contenu publicitaire individuel :** Vous pouvez inclure des contenus publicitaires individuels directement dans des expériences publicitaires pour lesquelles aucune cible utilisateur n’est définie. Vous pouvez également utiliser vos contenus publicitaires pour créer des offres groupées, que vous pouvez inclure dans les [expériences publicitaires ciblées](/help/creative/experiences/experience-about.md).
 
-  * **Contenu publicitaire standard :** vous pouvez charger et gérer des contenus publicitaires dans [différents formats](#creative-creative-formats). Pour chaque élément créatif, spécifiez la langue par défaut de chaque publicité à laquelle vous associez l’élément créatif et la page de destination par défaut qui s’ouvre lorsqu’un utilisateur clique sur une publicité qui inclut l’élément créatif. Vous pouvez éventuellement spécifier des libellés à utiliser comme filtres dans différentes vues dans [!DNL Creative] et comme valeurs de colonne dans le [!UICONTROL Custom Creative Report] lorsque vous incluez à l’aide de la dimension [!UICONTROL Creative Label] .
+  * **Contenus publicitaires standard :** vous pouvez charger et gérer des contenus publicitaires dans [divers formats](#creative-creative-formats). Pour chaque élément créatif, spécifiez la langue par défaut de chaque publicité à laquelle vous associez l’élément créatif et la page de destination par défaut qui s’ouvre lorsqu’un utilisateur clique sur une publicité qui inclut l’élément créatif. Vous pouvez éventuellement spécifier des libellés à utiliser comme filtres dans différentes vues dans [!DNL Creative] et comme valeurs de colonne dans [!UICONTROL Custom Creative Report] lorsque vous incluez à l’aide de la dimension [!UICONTROL Creative Label].
 
-  * **Contenu publicitaire dynamique :** vous pouvez créer des contenus publicitaires générés dynamiquement en mappant les variables dynamiques d’un modèle d’annonce publicitaire aux valeurs d’un fichier de flux. Tous les utilisateurs peuvent prévisualiser, dupliquer et supprimer des annonces dynamiques existantes.
+  * **Créatifs dynamiques :** vous pouvez créer des créatifs générés dynamiquement en mappant les variables dynamiques d’un modèle d’annonce publicitaire aux valeurs d’un fichier de flux. Tous les utilisateurs peuvent prévisualiser, dupliquer et supprimer des annonces dynamiques existantes.
 
-* **Lots de contenu publicitaire :** regroupez les contenus publicitaires en lots à utiliser dans plusieurs expériences avec des cibles utilisateur définies. Vous pouvez créer des *bundles d’affichage standard* qui consistent en des publicités d’affichage standard, des *bundles vidéo standard* qui consistent en des publicités vidéo standard, des *bundles d’affichage dynamique* qui consistent en des publicités d’affichage générées dynamiquement, et des *bundles vidéo dynamiques* qui consistent en des publicités vidéo générées dynamiquement.
+* **Lots de contenus publicitaires :** regroupez les contenus publicitaires en lots à utiliser dans plusieurs expériences avec des cibles utilisateur définies. Vous pouvez créer *des offres groupées d’affichage standard* composées d’annonces d’affichage standard, *des offres groupées de vidéo standard* composées d’annonces vidéo standard, *des offres groupées d’affichage dynamique* composées d’annonces d’affichage générées dynamiquement et *des offres groupées de vidéo dynamique* composées d’annonces vidéo générées dynamiquement.
 
 ## Formats créatifs pris en charge {#creative-creative-formats}
 
 ### Formats pour les contenus publicitaires standard
 
-Vous pouvez ajouter et gérer les types de contenu créatif suivants dans les [Tailles de contenu créatif prises en charge](creative-sizes.md).
+Vous pouvez ajouter et gérer les types de contenu créatif suivants dans les [tailles de contenu créatif prises en charge](creative-sizes.md).
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ Vous pouvez ajouter et gérer les types de contenu créatif suivants dans les [T
 
 Les contenus créatifs HTML5 flexibles sont des contenus créatifs HTML5 avec toutes leurs images et autres attributs comme des balises HTML standard, que vous pouvez modifier directement dans [!DNL Creative], soit dans une bibliothèque de contenus créatifs, soit dans une expérience individuelle (ce qui crée une variante du contenu créatif d’origine). Dans DSP, les contenus publicitaires flexibles d’HTML5 sont destinés à une seule taille d’annonce spécifique (en pixels). Vous pouvez éventuellement modifier les valeurs par défaut des attributs spécifiés dans un élément créatif HTML5 flexible. Par la suite, vous pouvez spécifier des valeurs personnalisées pour les attributs dans une expérience spécifique, ce qui crée une variante du contenu créatif parent.
 
-Vous pouvez charger des contenus publicitaires HTML5 flexibles sous forme de fichiers ZIP ou utiliser l’un des modèles disponibles pour votre compte comme point de départ. Consultez les [spécifications des contenus publicitaires HTML5 flexibles](html5-creative-specification.md).
+Vous pouvez charger des contenus publicitaires HTML5 flexibles sous forme de fichiers ZIP ou utiliser l’un des modèles disponibles pour votre compte comme point de départ. Consultez les [spécifications pour les contenus publicitaires HTML5 flexibles](html5-creative-specification.md).
 
 #### Contenu publicitaire d’affichage standard
 
@@ -73,7 +73,7 @@ Les publicités display standard incluent :
 
 ##### Conceptions HTML5
 
-* **Expériences GenStudio :** vous pouvez importer toutes les variantes d’une [expérience d’affichage d’annonce](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) dans [GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/home) en tant que contenu publicitaire HTML5 individuel. Les liens externes sont convertis en références locales. Le contenu d’HTML peut atteindre 20 Mo et les images individuelles jusqu’à 50 Mo.
+* **Expériences GenStudio :** vous pouvez importer toutes les variantes d’une [expérience d’affichage de l’annonce](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) dans [GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/home) en tant que contenu publicitaire HTML5 individuel. Les liens externes sont convertis en références locales. Le contenu d’HTML peut atteindre 20 Mo et les images individuelles jusqu’à 50 Mo.
 
   Une fois que vous avez importé une expérience GenStudio, vous pouvez modifier les métadonnées (nom, langue, balises) du contenu créatif importé, mais pas celles du contenu créatif. Si vous modifiez l’expérience GenStudio dans GenStudio, importez à nouveau l’expérience dans [!DNL Creative] pour utiliser la dernière version.
 
@@ -81,7 +81,7 @@ Les publicités display standard incluent :
   >
   >Pour utiliser cette fonctionnalité, le compte GenStudio et le compte Advertising Creative doivent tous deux utiliser le même ID d’organisation et l’utilisateur doit disposer des autorisations nécessaires pour accéder à GenStudio.
 
-* **Fichiers téléchargés :** vous pouvez également télécharger des contenus publicitaires HTML5 simples ou statiques, avec tous les attributs et les images spécifiés, sous la forme de fichiers ZIP. Vous ne pouvez pas modifier d’attributs ni ajouter d’images ; au lieu de cela, chargez un nouveau fichier ZIP pour ajouter un nouveau contenu créatif. Consultez les [spécifications des contenus publicitaires HTML5 simples et statiques](html5-creative-specification.md).
+* **Fichiers téléchargés :** Vous pouvez également télécharger des contenus publicitaires HTML5 simples ou statiques, avec tous les attributs et images spécifiés, sous la forme de fichiers ZIP. Vous ne pouvez pas modifier d’attributs ni ajouter d’images ; au lieu de cela, chargez un nouveau fichier ZIP pour ajouter un nouveau contenu créatif. Consultez les [spécifications pour les contenus publicitaires HTML5 simples et statiques](html5-creative-specification.md).
 
 ##### Conceptions d’image
 
@@ -91,7 +91,7 @@ Chaque expérience d’affichage et de publicité standard nécessite une image 
 
 #### Contenus publicitaires tiers
 
-Saisissez les balises de suivi JavaScript pour les contenus publicitaires hébergés sur des serveurs de publicités tiers. Le script varie selon le serveur de publicités. Voici un exemple :
+[Ajoutez des contenus publicitaires tiers](creative-add-standard.md#creative-add-third-party) hébergés sur des serveurs d’annonces externes en chargeant une feuille de trafic dans la nouvelle interface utilisateur ou en saisissant une balise JavaScript dans l’interface utilisateur héritée. Le chargement en masse accepte les fichiers Excel, CSV et TSV. Le script varie selon le serveur de publicités. Voici un exemple :
 
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
@@ -101,33 +101,33 @@ Saisissez les balises de suivi JavaScript pour les contenus publicitaires héber
 
 Vous pouvez télécharger des contenus vidéo propriétaires pour le web, les appareils mobiles ou les télévisions connectées depuis votre appareil ou réseau. Chaque expérience publicitaire vidéo nécessite une création vidéo par défaut pour chaque durée de création attribuée à l’expérience. DSP transcode automatiquement tous les contenus vidéo en tant que balises VAST 2.0 afin que vous puissiez les prévisualiser. Dans [!UICONTROL Tag Manager], vous pouvez éventuellement [appliquer un transcodage spécifique à DSP](/help/creative/experiences/experience-tag-video-transcoding.md) à n’importe quelle balise d’expérience d’annonce vidéo.
 
-Consultez les exigences de création vidéo suivantes. **Remarque :** si vous chargez des expériences vidéo vers Advertising DSP, consultez également la section DSP [Conditions requises pour la vidéo haute définition Assets](https://experienceleague.adobe.com/fr/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), qui peut être plus limitée.
+Consultez les exigences de création vidéo suivantes. **Remarque :** si vous téléchargez des expériences vidéo vers Advertising DSP, consultez également la section [Conditions requises pour la vidéo haute définition Assets](https://experienceleague.adobe.com/fr/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) de DSP, qui peuvent être plus limitées.
 
 **Type de fichier :** .mov, .mp4, .webm
 
-**Taille du fichier :** max. 512 Mo
+**Taille de fichier :** 512 Mo maximum
 
-**Format vidéo :** 16:9, 4:3
+**Format De La Vidéo :** 16:9, 4:3
 
 **Résolution vidéo :** 640x360 pour 360p, 1 280x720 pour 720p, 1 920x1 080 pour 1 080p
 
-**Durée de la vidéo :** maximum de 90 secondes
+**Durée de la vidéo :** 90 secondes maximum
 
-**Débit :** 600 à 1 200 kbit/s pour 360p, 1 500 à 2 500 kbit/s pour 720p, 3 000 à 5 000+ kbit/s pour 1 080p
+**Débit :** 600-1200 kbit/s pour 360p, 1500-2500 kbit/s pour 720p, 3000-5000+ kbit/s pour 1080p
 
-**Fréquence d’image vidéo :** 23,98 i/s. Des tarifs d&#39;images supplémentaires peuvent être acceptés en fonction des exigences régionales ou de l&#39;éditeur
+**Débit d&#39;images vidéo :** 23,98 i/s. Des tarifs d&#39;images supplémentaires peuvent être acceptés en fonction des exigences régionales ou de l&#39;éditeur
 
 **Codec vidéo :** H.264 (norme industrielle), AV1, H.265
 
-**Format audio :** ACC (standard de l’industrie/MP4), Opus (WebM/AV1)
+**Format audio :** ACC (standard du secteur/MP4), Opus (WebM/AV1)
 
-**Débit audio :** 16 à 512 kbit/s
+**Débit audio :** 16-512 kbit/s
 
-**Fréquence d’échantillonnage audio :** 44100-48000 Hz
+**Fréquence D&#39;Échantillonnage Audio :** 44100-48000 Hz
 
 **Fréquence audio :** 44,1 kHz ou 48 kHz
 
-**Audio Autre :** le fichier chargé doit être non entrelacé, mélangé et contenir une piste audio. Il se peut qu’il n’y ait pas de son, mais une piste audio doit être incluse dans le fichier vidéo.
+**Audio Autre :** Le fichier chargé doit être non entrelacé, mixte et contenir une piste audio. Il se peut qu’il n’y ait pas de son, mais une piste audio doit être incluse dans le fichier vidéo.
 
 ### Format pour les publicités dynamiques
 
@@ -139,13 +139,13 @@ Les contenus publicitaires d’affichage dynamique sont au format HTML5 avec des
 
 #### Conceptions vidéo dynamiques
 
-Les contenus vidéo dynamiques incluent des fichiers vidéo présentant les mêmes spécifications que les contenus vidéo standard. Voir « [Vidéo créatives](#creative-video-specs) ».
+Les contenus vidéo dynamiques incluent des fichiers vidéo présentant les mêmes spécifications que les contenus vidéo standard. Voir « [Contenus vidéo](#creative-video-specs) ».
 
 Les formats publicitaires pris en charge sont les suivants : carte de départ, carte d’extrémité, superposition supérieure, superposition inférieure ou en forme de L.
 
-## Les vues [!UICONTROL Creative Libraries]
+## Les [!UICONTROL Creative Libraries] vues
 
-Voir « [&#x200B; Personnaliser vos vues de données »](/help/creative/introduction/customize-data-views.md) pour plus d’informations sur la personnalisation de chaque vue.
+Voir « [Personnaliser vos vues de données](/help/creative/introduction/customize-data-views.md) » pour plus d’informations sur la personnalisation de chaque vue.
 
 ### La vue principale [!UICONTROL Creative Libraries]
 
@@ -173,13 +173,13 @@ La vue [!UICONTROL Creatives] affiche :
 
   Les données de chaque élément créatif standard incluent la taille de l’élément créatif, le type d’élément créatif et la date de création. Le mode Tableau comprend également des colonnes pour la langue par défaut et la page de destination par défaut.
 
-* Tous les contenus publicitaires dynamiques qui ont été créés dynamiquement pour vos catalogues créatifs, à l’exception de ceux que vous [avez supprimés manuellement](creative-delete.md). Si vous [avez dupliqué manuellement](creative-duplicate.md) des contenus publicitaires dynamiques<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, la liste des contenus publicitaires de ce catalogue inclut également les contenus publicitaires dupliqués.
+* Tous les contenus publicitaires dynamiques créés dynamiquement pour vos catalogues de contenus publicitaires, à l’exception de ceux que vous avez [supprimés manuellement](creative-delete.md). Si [vous avez &#x200B;](creative-duplicate.md) dupliqué manuellement des contenus publicitaires dynamiques<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, la liste des contenus publicitaires de ce catalogue inclut également les contenus publicitaires dupliqués.
 
   Les données de chaque élément créatif dynamique incluent le type d’élément créatif, la taille de l’élément créatif, le nombre de catalogues auxquels il appartient et la date de création. Le mode Tableau comprend également des colonnes pour le modèle d’annonce publicitaire à partir duquel la création a été générée et le nombre d’offres.
 
   >[!NOTE]
   >
-  >Chaque fois qu’un catalogue est traité, les données sont actualisées pour les contenus publicitaires dynamiques existants de ce catalogue.<!-- Verify this!!! And is there anything more to say w/regard to  -->
+  >Chaque fois qu&#39;un catalogue est traité, les données sont actualisées pour les contenus publicitaires dynamiques existants de ce catalogue.<!-- Verify this!!! And is there anything more to say w/regard to  -->
 
 >[!NOTE]
 >
@@ -189,9 +189,9 @@ La vue [!UICONTROL Creatives] affiche :
 
 * Ajouter [contenus publicitaires standard](creative-add-standard.md) et [contenus publicitaires dynamiques](creative-add-dynamic.md) à une bibliothèque
 
-* Modifiez une [création standard](creative-edit-standard.md) et une [création dynamique](creative-edit-dynamic.md)
+* Modifiez un [élément créatif standard](creative-edit-standard.md) et un [élément créatif dynamique](creative-edit-dynamic.md)
 
-* Prévisualisez un [contenu créatif standard](creative-preview.md) et [contenu créatif dynamique](creative-preview.md)
+* Prévisualisation d’un [contenu créatif standard](creative-preview.md) et de [contenus créatifs dynamiques](creative-preview.md)
 
 * [Ajoutez des contenus publicitaires standard aux lots d’affichage standard et supprimez les contenus publicitaires standard des lots d’affichage standard](creative-attach-detach-bundles.md)
 
@@ -199,11 +199,11 @@ La vue [!UICONTROL Creatives] affiche :
 
 * [Ajout de contenus publicitaires dynamiques à des lots d’affichage dynamique et suppression de contenus publicitaires dynamiques d’un lot d’affichage dynamique](creative-attach-detach-bundles.md)
 
-* Dupliquez [contenus publicitaires standard](creative-duplicate.md) et [contenus publicitaires dynamiques](creative-duplicate.md)
+* [contenus publicitaires standard](creative-duplicate.md) et [contenus publicitaires dynamiques](creative-duplicate.md) en double
 
 * [Téléchargement de contenus publicitaires standard](creative-download.md)
 
-* Supprimez [contenus publicitaires standard](creative-delete.md) et [contenus publicitaires dynamiques](creative-delete.md)
+* Supprimer [contenus publicitaires standard](creative-delete.md) et [contenus publicitaires dynamiques](creative-delete.md)
 
 <!-- Later:  Dynamic creatives are generated automatically when you save a catalog, but can regenerate the catalog using the contents of an updated asset file [using the Run Now option]. -->
 
@@ -229,7 +229,7 @@ La vue [!UICONTROL Bundles] affiche tous vos conteneurs de lots standard et dyna
 
 >[!MORELIKETHIS]
 >
->* [Gestion des bibliothèques de création](/help/creative/creative-libraries/creative-library-manage.md)
+>* [Gérer les bibliothèques de création](/help/creative/creative-libraries/creative-library-manage.md)
 >* [Ajouter des contenus publicitaires standard à une bibliothèque](creative-add-standard.md)
->* [Gestion des offres groupées de création](bundle-manage.md)
->* [Personnaliser les vues de données](/help/creative/introduction/customize-data-views.md)
+>* [Gérer les offres groupées de création](bundle-manage.md)
+>* [Personnaliser vos vues de données](/help/creative/introduction/customize-data-views.md)
