@@ -23,7 +23,7 @@ Créez, importez et gérez des modèles d’annonces vidéo et d’affichage à 
 
 L’onglet **[!UICONTROL Templates]** fournit des actions rapides pour créer ou importer de nouveaux modèles d’annonces.
 
-L’onglet [!UICONTROL Templates] répertorie également vos modèles d’annonces existants au bas de la page <!-- Only in the Templates tab --> sous la forme de [ cartes individuelles (valeur par défaut) ou de tableaux/listes](/help/creative/introduction/customize-data-views.md). La liste des modèles de publicité comprend des onglets pour [!UICONTROL All], [!UICONTROL System Templates] (que l’équipe chargée de votre compte Adobe charge sur votre compte) et [!UICONTROL User Templates]. Par défaut, les modèles d’annonces pour tous vos annonceurs s’affichent. Pour afficher uniquement les modèles d’annonce pour un annonceur spécifique, sélectionnez dans la liste des annonceurs en haut de la page.
+L’onglet [!UICONTROL Templates] répertorie également vos modèles d’annonces existants au bas de la page <!-- Only in the Templates tab --> sous la forme de [&#x200B; cartes individuelles (valeur par défaut) ou de tableaux/listes](/help/creative/introduction/customize-data-views.md). La liste des modèles de publicité comprend des onglets pour [!UICONTROL All], [!UICONTROL System Templates] (que l’équipe chargée de votre compte Adobe charge sur votre compte) et [!UICONTROL User Templates]. Par défaut, les modèles d’annonces pour tous vos annonceurs s’affichent. Pour afficher uniquement les modèles d’annonce pour un annonceur spécifique, sélectionnez dans la liste des annonceurs en haut de la page.
 
 <!--
 Probably not necessary:
