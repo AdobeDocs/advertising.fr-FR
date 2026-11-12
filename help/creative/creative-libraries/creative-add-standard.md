@@ -18,14 +18,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: a2a6d94329df17c332a140de428bb44fb892c97a
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '2018'
 ht-degree: 0%
 ---
 # Ajout de contenus publicitaires standard à une bibliothèque de contenus publicitaires
 
-Ajoutez des contenus publicitaires standard à vos [bibliothèques de contenus publicitaires](creative-library-manage.md) pour les utiliser avec des [expériences publicitaires](/help/creative/experiences/experience-about.md) standard.
+Ajoutez des contenus publicitaires standard à vos [bibliothèques de contenus publicitaires](creative-library-manage.md) pour les utiliser avec des [expériences publicitaires standard](/help/creative/experiences/experience-about.md).
 
 >[!NOTE]
 >
@@ -41,13 +41,13 @@ Vous pouvez effectuer l’une des opérations suivantes :
 
 ### Chargement de vos propres contenus publicitaires flexibles {#flexible-creative-upload}
 
-Vous pouvez charger plusieurs unités de création flexibles. Les contenus publicitaires flexibles doivent être au format ZIP et peuvent atteindre 2 Mo. Pour connaître les exigences en matière de fichiers, consultez la spécification de création [HTML5](html5-creative-specification.md).
+Vous pouvez charger plusieurs unités de création flexibles. Les contenus publicitaires flexibles doivent être au format ZIP et peuvent atteindre 2 Mo. Pour connaître les exigences en matière de fichiers, consultez la [spécification de création HTML5](html5-creative-specification.md).
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
 1. Cliquez sur le nom de la bibliothèque.
 
-1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Flexible]**.
+1. Sur l’onglet **[!UICONTROL Creatives]**, cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Flexible]**.
 
 1. Cliquez sur **[!UICONTROL Upload New]**.
 
@@ -57,7 +57,7 @@ Vous pouvez charger plusieurs unités de création flexibles. Les contenus publi
 
    * Cliquez sur **[!UICONTROL Select a file]** pour localiser les fichiers sur votre appareil ou réseau.
 
-   Voir [spécifications d’annonces publicitaires flexibles](#flexible-ad-spec).
+   Consultez les [spécifications d’annonce publicitaire flexibles](#flexible-ad-spec).
 
 1. Ajoutez ou supprimez des fichiers créatifs flexibles :
 
@@ -71,7 +71,7 @@ Vous pouvez charger plusieurs unités de création flexibles. Les contenus publi
 
    Par défaut, tous les contenus publicitaires que vous venez de télécharger sont sélectionnés. Tous les paramètres ne comportant qu’une seule valeur s’appliquent à tous les contenus publicitaires sélectionnés ; pour certains paramètres, vous pouvez spécifier des valeurs individuelles. Pour définir des paramètres pour des contenus publicitaires spécifiques, décochez la case en regard de chaque contenu publicitaire inapplicable.
 
-1. Clic **[!UICONTROL Create]**
+1. Cliquez sur **[!UICONTROL Create]**
 
 ### Ajouter des contenus publicitaires flexibles à l’aide d’un modèle {#flexible-creative-use-template}
 
@@ -92,7 +92,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. Cliquez sur le nom de la bibliothèque.
 
-1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Flexible]**.
+1. Sur l’onglet **[!UICONTROL Creatives]**, cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Flexible]**.
 
 1. Cliquez sur **[!UICONTROL Browse System Flexible Templates]**.
 
@@ -100,7 +100,7 @@ For information about the attributes available in predefined templates, see "[Av
 
    Vous avez la possibilité de télécharger le modèle : cliquez sur **[!UICONTROL ...]** en regard du nom du modèle, puis cliquez sur **[!UICONTROL Download]**.
 
-1. En regard du nom du modèle, cliquez sur **[!UICONTROL ...]** , puis sur **[!UICONTROL Use Selected]**.
+1. En regard du nom du modèle, cliquez sur **[!UICONTROL ...]** puis sur **[!UICONTROL Use Selected]**.
 
 1. Modifiez les [paramètres de création HTML5 flexibles](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) pour spécifier la langue et inclure vos propres balises de clic, images et autres attributs.
 
@@ -120,7 +120,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 Les contenus publicitaires d’affichage standard comprennent les contenus publicitaires d’image et HTML5, y compris ceux importés de Adobe Experience Manager et d’Adobe GenStudio for Performance Marketing.
 
-* Les contenus publicitaires d’image peuvent être au format GIF, JPEG, JPG ou PNG. La taille de fichier maximale est de deux (2) Mo. Consultez les [tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md).
+* Les contenus publicitaires d’image peuvent être au format GIF, JPEG, JPG ou PNG. La taille de fichier maximale est de deux (2) Mo. Afficher les [tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md).
 
 * Vous pouvez ajouter plusieurs ressources Experience Manager, plusieurs expériences GenStudio ou plusieurs contenus publicitaires HTML5 locaux d’un seul type (simple ou statique) à la fois. Pour les contenus publicitaires HTML5, consultez la [spécification publicitaire HTML5](/help/creative/creative-libraries/html5-creative-specification.md).
 
@@ -145,7 +145,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
 
-1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Upload]** > **[!UICONTROL Display]**.
+1. Sur l’onglet **[!UICONTROL Creatives]**, cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Upload]** > **[!UICONTROL Display]**.
 
 1. Spécifiez les contenus publicitaires :
 
@@ -155,7 +155,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
      * Cliquez sur **[!UICONTROL Select a file]** pour localiser les fichiers sur votre appareil ou réseau.
 
-   * Pour les images approuvées dans une bibliothèque Experience Manager [connectée à votre compte DSP](/help/creative/creative-libraries/aem-assets-configure.md), procédez comme suit :
+   * Pour les images approuvées dans une [bibliothèque Experience Manager connectée à votre compte DSP](/help/creative/creative-libraries/aem-assets-configure.md), procédez comme suit :
 
      1. Cliquez sur **[!UICONTROL AEM Asset Library]**.
 
@@ -173,7 +173,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
         Vos expériences d’affichage et d’affichage sont affichées par défaut. Vous pouvez éventuellement filtrer vos expériences par campagne ou autres attributs selon vos besoins.
 
-     1. Recherchez et sélectionnez les expériences d’affichage des publicités, puis cliquez sur **[!UICONTROL Select]** dans le coin supérieur droit.
+     1. Recherchez et sélectionnez les expériences d’affichage publicitaire, puis cliquez sur **[!UICONTROL Select]** en haut à droite.
 
      Chaque variante créative d’une expérience sélectionnée est importée en tant que contenu créatif HTML5 distinct.
 
@@ -183,7 +183,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Pour supprimer une image, décochez la case située en regard de celle-ci.
 
-1. Spécifiez les [paramètres de création HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) ou [paramètres de création d’image](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image).
+1. Spécifiez les [paramètres de création HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) ou les [paramètres de création d’image](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image).
 
    Par défaut, toutes les contenus publicitaires ou expériences GenStudio que vous venez de télécharger sont sélectionnés et tous les paramètres que vous spécifiez s’appliquent à tous les éléments sélectionnés. Les paramètres comportant une seule valeur s’appliquent à tous les éléments sélectionnés. Pour saisir des paramètres pour des contenus publicitaires ou des expériences GenStudio spécifiques, désélectionnez chaque contenu publicitaire ou expérience inapplicable.
 
@@ -197,7 +197,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Cliquez sur le nom de la bibliothèque.
 
-1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Standard Display]**.
+1. Sur l’onglet **[!UICONTROL Creatives]**, cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Standard Display]**.
 
 1. Spécifiez les contenus publicitaires :
 
@@ -207,7 +207,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
      * Cliquez sur **[!UICONTROL Select a file]** pour localiser les fichiers sur votre appareil ou réseau.
 
-   * Pour les images approuvées dans une bibliothèque Experience Manager [connectée à votre compte DSP](/help/creative/creative-libraries/aem-assets-configure.md), procédez comme suit :
+   * Pour les images approuvées dans une [bibliothèque Experience Manager connectée à votre compte DSP](/help/creative/creative-libraries/aem-assets-configure.md), procédez comme suit :
 
      1. Cliquez sur **[!UICONTROL AEM Asset Library]**.
 
@@ -225,7 +225,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
         Vos expériences d’affichage et d’affichage sont affichées par défaut. Vous pouvez éventuellement filtrer vos expériences par campagne ou autres attributs selon vos besoins.
 
-     1. Recherchez et sélectionnez les expériences d’affichage des publicités, puis cliquez sur **[!UICONTROL Select]** dans le coin supérieur droit.
+     1. Recherchez et sélectionnez les expériences d’affichage publicitaire, puis cliquez sur **[!UICONTROL Select]** en haut à droite.
 
      Chaque variante créative d’une expérience sélectionnée est importée en tant que contenu créatif HTML5 distinct.
 
@@ -235,21 +235,38 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Pour supprimer une image, décochez la case située en regard de celle-ci.
 
-1. Spécifiez les [paramètres de création HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) ou [paramètres de création d’image](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image).
+1. Spécifiez les [paramètres de création HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) ou les [paramètres de création d’image](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image).
 
    Par défaut, toutes les contenus publicitaires ou expériences GenStudio que vous venez de télécharger sont sélectionnés et tous les paramètres que vous spécifiez s’appliquent à tous les éléments sélectionnés. Les paramètres comportant une seule valeur s’appliquent à tous les éléments sélectionnés. Pour saisir des paramètres pour des contenus publicitaires ou des expériences GenStudio spécifiques, désélectionnez chaque contenu publicitaire ou expérience inapplicable.
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
-## Ajout d’un contenu créatif tiers à une bibliothèque de contenu créatif {#creative-add-third-party}
+## Ajout de contenus publicitaires tiers à une bibliothèque de contenus publicitaires {#creative-add-third-party}
 
-[!DNL Creative] prend en charge les balises de suivi JavaScript pour les contenus publicitaires hébergés sur la plupart des serveurs de publicités tiers.
+[!DNL Creative] prend en charge les balises d’annonces pour les contenus publicitaires display hébergés sur des serveurs d’annonces tiers. Dans la nouvelle interface utilisateur, vous pouvez importer un ou plusieurs contenus publicitaires d&#39;une feuille de trafic. L’interface utilisateur héritée prend en charge la saisie d’une balise pour un créatif unique.
 
 ### Dans la nouvelle interface utilisateur
 
-1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+#### Préparez votre fiche de trafic {#third-party-sheet-requirements}
 
-1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des bibliothèques spécifiques.
+* Utilisez un fichier Excel (`.xlsx` ou `.xls`), CSV ou TSV d’une taille maximale de 10 Mo, sans dépasser 500 contenus publicitaires.
+
+* Pour les fichiers Excel, placez les éléments créatifs sur la première feuille de calcul. Seule la première feuille de calcul est importée. Les fichiers protégés par mot de passe ne sont pas pris en charge.
+
+* Utilisez une exportation [!DNL Flashtalking] ou [!DNL Google Campaign Manager 360], ou préparez une feuille générique. La feuille doit correspondre à la disposition du serveur de publicités que vous sélectionnez lors de son chargement.
+
+* Incluez un nom, une taille et une balise d’annonce publicitaire pour chaque élément créatif. Les noms peuvent contenir jusqu’à 255 caractères. Spécifiez des dimensions dans une seule colonne de taille (telle que `300x250`) ou dans des colonnes de largeur et de hauteur distinctes dans les exportations de fournisseurs. Utilisez [les tailles créatives prises en charge](creative-sizes.md).
+
+* Pour une feuille générique, utilisez les en-têtes de colonne `Creative Name`, `Size` et `Ad Tag`. Vous pouvez télécharger un modèle CSV à partir de la boîte de dialogue de chargement. Remplacez sa ligne d’exemple par vos propres données créatives.
+
+>[!IMPORTANT]
+>
+>* Le chargement en masse prend uniquement en charge les balises d’affichage. Les balises vidéo et VAST ne sont pas prises en charge.
+>* Le chargement en masse stocke les balises de chargement telles qu’elles sont fournies ; il n’insère pas de macros de tracking et ne réécrit pas les URL de tracking pendant l’importation. Incluez les [macros de tracking](/help/creative/creative-macros.md) requises dans vos balises avant de charger la feuille.
+
+#### Chargement et révision des contenus publicitaires {#third-party-bulk-upload}
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
 1. Ouvrez la bibliothèque de l’une des manières suivantes :
 
@@ -257,13 +274,45 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
 
-1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Add new]** > **[!UICONTROL Upload]** > **[!UICONTROL 3rd Party]**.
+1. Sur l’onglet **[!UICONTROL Creatives]**, cliquez sur **[!UICONTROL Add new]** > **[!UICONTROL Upload]** > **[!UICONTROL 3rd Party]**.
 
-1. Spécifiez la balise JavaScript et d’autres paramètres pour les créatifs dans les [paramètres de création tiers](#creative-settings-third-party).
+   La boîte de dialogue **[!UICONTROL Bulk upload third-party tags]** s’ouvre.
 
-   Vous pouvez copier et coller l’une des [macros disponibles](/help/creative/creative-macros.md) dans la balise JavaScript.
+1. Sélectionnez la **[!UICONTROL Ad server]** qui correspond à votre feuille :
 
-1. Cliquez sur **[!UICONTROL Create]**.
+   * **[!UICONTROL Flashtalking]**
+
+   * **[!UICONTROL Google CM360]**
+
+   * **[!UICONTROL Generic]**
+
+   Vous devez sélectionner un serveur de publicités avant de pouvoir charger un fichier. Le serveur de publicités sélectionné s’applique à chaque élément créatif de la feuille ; il n’est pas détecté à partir de balises individuelles.
+
+1. (Facultatif) Pour préparer une feuille générique, cliquez sur **[!UICONTROL Download CSV template]**, remplacez les données d’exemple par vos propres contenus publicitaires et enregistrez le fichier.
+
+1. Spécifiez la feuille de l’une des manières suivantes :
+
+   * Faites glisser le fichier dans la zone de chargement.
+
+   * Cliquez sur **[!UICONTROL select a file]** pour localiser le fichier sur votre appareil ou réseau.
+
+   La feuille est chargée et analysée. Si sa disposition ne correspond pas au serveur de publicités sélectionné, corrigez la feuille ou sélectionnez le serveur de publicités correspondant, puis chargez à nouveau le fichier.
+
+1. Dans **[!UICONTROL Review third-party creatives]**, passez en revue les **[!UICONTROL Creative name]**, **[!UICONTROL Size]**, **[!UICONTROL Type]**, **[!UICONTROL Language]** et **[!UICONTROL Status]** pour chaque ligne.
+
+   * Si la feuille contient plusieurs formats de balise, sélectionnez l’onglet de la colonne de balises à importer. Le format sélectionné s’applique à toutes les lignes, et les lignes sans balise dans cette colonne ne sont pas affichées. La modification des onglets réinitialise la sélection sur toutes les lignes importables pour ce format.
+
+   * Toutes les lignes importables sont sélectionnées par défaut. Décochez la case en regard des éléments créatifs que vous ne souhaitez pas importer.
+
+   * (Facultatif) Modifiez le **[!UICONTROL Language]** pour les contenus publicitaires individuels. La valeur par défaut est l’anglais.
+
+   * Les lignes avec un statut **[!UICONTROL Error]** ne peuvent pas être sélectionnées ni importées. Vous pouvez importer les lignes valides ou cliquer sur **[!UICONTROL Cancel]**, corriger la feuille source et la charger à nouveau. Corrigez les noms, dimensions ou balises manquants et supprimez les balises vidéo ou les caractères signalés comme non pris en charge.
+
+1. Cliquez sur **[!UICONTROL Importer <N> contenus publicitaires ]**, où `<N>` correspond au nombre de contenus publicitaires sélectionnés. Pour une seule création, cliquez sur **[!UICONTROL Import 1 creative]**.
+
+   La boîte de dialogue se ferme et une notification confirme le démarrage de l’importation. Les contenus publicitaires apparaissent dans la bibliothèque une fois le traitement terminé.
+
+Pour suivre l’importation, cliquez sur ![Gestionnaire de tâches](/help/creative/assets/job-manager.png "Gestionnaire de tâches") (**[!UICONTROL Job Manager]**) dans la partie droite de la barre de menus supérieure. Si des lignes échouent lors du traitement, cliquez sur **[!UICONTROL Download failed rows]** pour la tâche d’importation, corrigez la feuille téléchargée et chargez-la à nouveau.
 
 ### À partir de l’interface utilisateur héritée
 
@@ -275,11 +324,11 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Cliquez sur le nom de la bibliothèque.
 
-1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL 3rd Party]**.
+1. Sur l’onglet **[!UICONTROL Creatives]**, cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL 3rd Party]**.
 
 1. Spécifiez la balise JavaScript et d’autres paramètres pour les créatifs dans les [paramètres de création tiers](#creative-settings-third-party).
 
-   Vous pouvez copier et coller l’une des [macros disponibles](/help/creative/creative-macros.md) dans la balise JavaScript.
+   Vous pouvez copier et coller l’une des [macros](/help/creative/creative-macros.md) disponibles dans la balise JavaScript.
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
@@ -301,7 +350,7 @@ Vous pouvez charger une vidéo à la fois.
 
    * En regard du nom de la bibliothèque, cliquez sur **[!UICONTROL ...]** > **[!UICONTROL Open]**.
 
-1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Upload]** > **[!UICONTROL Video]**.
+1. Sur l’onglet **[!UICONTROL Creatives]**, cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Upload]** > **[!UICONTROL Video]**.
 
 1. Spécifiez le fichier vidéo de l’une des manières suivantes :
 
@@ -309,7 +358,7 @@ Vous pouvez charger une vidéo à la fois.
 
    * Cliquez sur **[!UICONTROL Select a file]** pour localiser un fichier sur votre appareil ou réseau.
 
-1. Spécifiez les [&#x200B; paramètres de création vidéo &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
+1. Spécifiez les [paramètres de création vidéo](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
 
 1. Cliquez sur **[!UICONTROL Save Creative]**.
 
@@ -321,7 +370,7 @@ Vous pouvez charger une vidéo à la fois.
 
 1. Cliquez sur le nom de la bibliothèque.
 
-1. Sur l’onglet **[!UICONTROL Creatives]** , cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Video]**.
+1. Sur l’onglet **[!UICONTROL Creatives]**, cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Video]**.
 
 1. Spécifiez les fichiers vidéo de l’une des manières suivantes :
 
@@ -329,20 +378,20 @@ Vous pouvez charger une vidéo à la fois.
 
    * Cliquez sur **[!UICONTROL Select a file]** pour localiser les fichiers sur votre appareil ou réseau.
 
-1. Spécifiez les [&#x200B; paramètres de création vidéo &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
+1. Spécifiez les [paramètres de création vidéo](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
 
-   Par défaut, le contenu créatif que vous venez de charger est sélectionné et tous les paramètres que vous spécifiez s’appliquent au contenu créatif sélectionné.<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
+   Par défaut, le contenu créatif que vous venez de charger est sélectionné et tous les paramètres que vous spécifiez s&#39;appliquent au contenu créatif sélectionné.<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
 
-1. Clic **[!UICONTROL Create]**
+1. Cliquez sur **[!UICONTROL Create]**
 
 >[!MORELIKETHIS]
 >
->* [Modification de contenus publicitaires standard](/help/creative/creative-libraries/creative-edit-standard.md)
+>* [Modifier des contenus publicitaires standard](/help/creative/creative-libraries/creative-edit-standard.md)
 >* [Paramètres de création standard](/help/creative/creative-libraries/creative-settings-standard.md)
->* [Afficher le journal des modifications d’un élément créatif](/help/creative/creative-libraries/creative-view-change-log.md)
+>* [Afficher le journal des modifications pour un créatif](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [Macros disponibles pour le tracking des URL](/help/creative/creative-macros.md)
 >* [Tailles créatives prises en charge](/help/creative/creative-libraries/creative-sizes.md)
->* [Prévisualisation d’une création](/help/creative/creative-libraries/creative-preview.md)
+>* [Aperçu d’une création](/help/creative/creative-libraries/creative-preview.md)
 >* [Joindre et détacher des contenus publicitaires des offres groupées](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
 >* [À propos de vos bibliothèques de création](/help/creative/creative-libraries/creative-libraries-about.md)
->* [Gestion des bibliothèques de création](/help/creative/creative-libraries/creative-library-manage.md)
+>* [Gérer les bibliothèques de création](/help/creative/creative-libraries/creative-library-manage.md)
