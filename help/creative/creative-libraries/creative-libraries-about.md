@@ -173,7 +173,7 @@ La vue [!UICONTROL Creatives] affiche :
 
   Les données de chaque élément créatif standard incluent la taille de l’élément créatif, le type d’élément créatif et la date de création. Le mode Tableau comprend également des colonnes pour la langue par défaut et la page de destination par défaut.
 
-* Tous les contenus publicitaires dynamiques créés dynamiquement pour vos catalogues de contenus publicitaires, à l’exception de ceux que vous avez [supprimés manuellement](creative-delete.md). Si [vous avez ](creative-duplicate.md) dupliqué manuellement des contenus publicitaires dynamiques<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, la liste des contenus publicitaires de ce catalogue inclut également les contenus publicitaires dupliqués.
+* Tous les contenus publicitaires dynamiques créés dynamiquement pour vos catalogues de contenus publicitaires, à l’exception de ceux que vous avez [supprimés manuellement](creative-delete.md). Si [vous avez &#x200B;](creative-duplicate.md) dupliqué manuellement des contenus publicitaires dynamiques<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, la liste des contenus publicitaires de ce catalogue inclut également les contenus publicitaires dupliqués.
 
   Les données de chaque élément créatif dynamique incluent le type d’élément créatif, la taille de l’élément créatif, le nombre de catalogues auxquels il appartient et la date de création. Le mode Tableau comprend également des colonnes pour le modèle d’annonce publicitaire à partir duquel la création a été générée et le nombre d’offres.
 

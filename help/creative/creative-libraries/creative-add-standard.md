@@ -308,7 +308,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Les lignes avec un statut **[!UICONTROL Error]** ne peuvent pas être sélectionnées ni importées. Vous pouvez importer les lignes valides ou cliquer sur **[!UICONTROL Cancel]**, corriger la feuille source et la charger à nouveau. Corrigez les noms, dimensions ou balises manquants et supprimez les balises vidéo ou les caractères signalés comme non pris en charge.
 
-1. Cliquez sur **[!UICONTROL Importer <N> contenus publicitaires ]**, où `<N>` correspond au nombre de contenus publicitaires sélectionnés. Pour une seule création, cliquez sur **[!UICONTROL Import 1 creative]**.
+1. Cliquez sur **[!UICONTROL Importer <N> contenus publicitaires &#x200B;]**, où `<N>` correspond au nombre de contenus publicitaires sélectionnés. Pour une seule création, cliquez sur **[!UICONTROL Import 1 creative]**.
 
    La boîte de dialogue se ferme et une notification confirme le démarrage de l’importation. Les contenus publicitaires apparaissent dans la bibliothèque une fois le traitement terminé.
 
