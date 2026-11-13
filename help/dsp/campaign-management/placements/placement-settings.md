@@ -214,7 +214,7 @@ Pour spécifier des emplacements :
 
   Vous pouvez afficher la liste par source ou par flux. Lorsque vous affichez la liste par flux, vous pouvez effectuer une recherche par nom de flux, clé de flux ou balise de caractéristique sélectionnée.
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private] : vos offres privées existantes (ou vos [!DNL Roku] offres privées existantes pour [!DNL Roku] emplacements) avec les éditeurs que vous avez configurés dans DSP, et vos [ listes d’offres privées existantes](/help/dsp/inventory/lists-deals-manage.md). Vous pouvez inclure, mais pas exclure, les stocks publics.
+* [!UICONTROL Private] | [!UICONTROL Roku Private] : vos offres privées existantes (ou vos [!DNL Roku] offres privées existantes pour [!DNL Roku] emplacements) avec les éditeurs que vous avez configurés dans DSP, et vos [&#x200B; listes d’offres privées existantes](/help/dsp/inventory/lists-deals-manage.md). Vous pouvez inclure, mais pas exclure, les stocks publics.
 
   Dans l’onglet [!UICONTROL Deals], vous pouvez rechercher la liste par mot-clé, clé, ID d’offre ou balise personnalisée. Dans l&#39;onglet [!UICONTROL Deal Lists], vous pouvez rechercher la liste par nom ou ID de liste d&#39;offres.
 
