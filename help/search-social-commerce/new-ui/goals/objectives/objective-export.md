@@ -1,6 +1,6 @@
 ---
 title: (Nouvelle interface utilisateur) Exporter les configurations des objectifs
-description: Découvrez comment exporter des configurations d’objectifs vers des fichiers de feuille de calcul [!DNL Microsoft Excel].
+description: Découvrez comment exporter des configurations d’objectif vers [!DNL Microsoft Excel] fichiers de feuille de calcul.
 feature: Search Objectives, Search Optimization
 hide: true
 product_v2:
@@ -19,24 +19,32 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '152'
 ht-degree: 0%
 ---
 # (Nouvelle interface utilisateur) Exporter les configurations des objectifs
 
-*Fonction*
+*Fonctionnalité Beta*
 
-Exportez les configurations d’un ou de plusieurs objectifs dans des fichiers de feuille de calcul [!DNL Microsoft Excel]. La configuration de chaque objectif comprend chaque mesure et sa source, le type de mesure (objectif ou assistance), les poids non mobile et mobile, ainsi que les poids non mobile et mobile recommandés.
+Exportez les configurations d&#39;un ou plusieurs objectifs vers [!DNL Microsoft Excel] fichiers de feuille de calcul. La configuration de chaque objectif comprend chaque mesure et sa source, le type de mesure (objectif ou assistance), les poids non mobile et mobile, ainsi que les poids non mobile et mobile recommandés.
 
 Lorsque vous exportez plusieurs objectifs, l’exportation consiste en un fichier ZIP avec une feuille de calcul distincte pour chaque objectif.
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
-1. Cochez la case en regard de chaque objectif à exporter.
+1. Effectuez l’une des opérations suivantes :
 
-1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Export Objectives]**.
+   * Pour exporter un seul objectif :
+
+     1. Placez le curseur sur la ligne d’objectif et cliquez sur **[!UICONTROL ...]>[!UICONTROL Export Objective]**.
+
+   * Pour exporter un ou plusieurs objectifs :
+
+     1. Cochez la case en regard de chaque objectif à exporter.
+
+     1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Export Objectives]**.
 
 >[!MORELIKETHIS]
 >
@@ -45,4 +53,4 @@ Lorsque vous exportez plusieurs objectifs, l’exportation consiste en un fichie
 >* [Supprimer un objectif](objective-delete.md)
 >* [Appliquer des recommandations de poids à un objectif](objective-apply-weight-recommendations.md)
 >* [Paramètres des objectifs](objective-settings.md)
->* [Télécharger des données de performances pour les objectifs](objective-download-performance-data.md)
+>* [Télécharger les données de performances pour les objectifs](objective-download-performance-data.md)
