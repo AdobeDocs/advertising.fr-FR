@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a2ff8c1115487f12eb67f6db06e25f723c551e80
+source-git-commit: 9837cac1a920b1b3b88b04b150cb604832209eaf
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '391'
 ht-degree: 0%
 ---
 # Création d’une mesure personnalisée
 
 ## (Nouvelle interface utilisateur) Créer une mesure personnalisée à partir d’une vue de gestion
 
-*Disponible dans la plupart des vues d&#39;entité du menu [!UICONTROL Manage],<!-- [!UICONTROL Plan] > [!UICONTROL Simulations],--> [!UICONTROL Setup] > [!UICONTROL Label Classifications], [!UICONTROL Goals] > [!UICONTROL Objectives] et [!UICONTROL Constraints], et [!UICONTROL Targeting] > [!UICONTROL Placements]*
+*Disponible dans la plupart des vues d&#39;entités dans le menu [!UICONTROL Manage],<!-- [!UICONTROL Plan] > [!UICONTROL Simulations],--> [!UICONTROL Setup] > [!UICONTROL Label Classifications], [!UICONTROL Goals] > [!UICONTROL Objectives] et [!UICONTROL Constraints], et [!UICONTROL Targeting] > [!UICONTROL Placements]*
 
 1. Au-dessus du tableau de données, effectuez l’une des opérations suivantes :
 
@@ -39,6 +39,24 @@ ht-degree: 0%
 1. Spécifiez les [paramètres de mesure personnalisés](custom-metric-settings.md).
 
 1. Cliquez sur **[!UICONTROL Create]**.
+
+## (Nouvelle interface utilisateur) Créer une mesure personnalisée à partir des paramètres d’un rapport ou d’un modèle de rapport {#create-from-report-settings}
+
+1. Dans les paramètres du rapport ou du modèle de rapport, passez à l’étape **[!UICONTROL Columns]**.
+
+1. Dans la section **[!UICONTROL Custom Metrics]**, spécifiez les paramètres de mesure :
+
+   * **[!UICONTROL Custom Metric Name]:** Saisissez un nom pour la mesure.
+
+   * **[!UICONTROL Format]:** sélectionnez **[!UICONTROL Currency]**, **[!UICONTROL Number to 2 Decimal Places]**, **[!UICONTROL Number to 3 Decimal Places]**, **[!UICONTROL Number w/out Decimal Places]** ou **[!UICONTROL Percentage]**.
+
+   * **[Champ de saisie de formule] :** Créez la formule en sélectionnant des mesures dans **[!UICONTROL Insert Metric]** et en cliquant sur les boutons de l’opérateur (`+`, `-`, `*`, `/`, `(` et `)`). Vous pouvez également saisir la formule manuellement. Placez le curseur à l’endroit où vous souhaitez insérer chaque mesure ou opérateur.
+
+1. Cliquez sur **[!UICONTROL Add Metric]**.
+
+   Une fois la mesure créée, la liste des colonnes disponibles est filtrée en fonction de son nom. Sa création ne l’inclut pas automatiquement dans le rapport.
+
+1. Pour inclure la mesure dans le rapport, sélectionnez-la dans la liste des colonnes disponibles et cliquez sur ![Flèche à droite](/help/search-social-commerce/assets/arrow-right-customize.png "Flèche à droite") pour la déplacer dans la liste des colonnes sélectionnées.
 
 ## (interface utilisateur héritée) Créer une mesure personnalisée à partir d’une vue de gestion de campagne
 
@@ -56,7 +74,7 @@ ht-degree: 0%
 
 ## (interface utilisateur héritée) Créer une mesure personnalisée à partir d’un rapport ou d’un formulaire de modèle de rapport
 
-1. Dans un rapport ou un formulaire de modèle de rapport, accédez à l’onglet **[!UICONTROL Columns]** .
+1. Dans un rapport ou un formulaire de modèle de rapport, accédez à l&#39;onglet **[!UICONTROL Columns]**.
 
 1. Dans la section de droite, cliquez sur **[!UICONTROL Create]**.
 
@@ -68,7 +86,7 @@ ht-degree: 0%
 
 1. Au-dessus du tableau de données, cliquez sur ![Modifier la vue sélectionnée](/help/search-social-commerce/assets/view-settings.png "Modifier la vue sélectionnée").
 
-1. Cliquez sur l’onglet **[!UICONTROL Columns]** .
+1. Cliquez sur l’onglet **[!UICONTROL Columns]**.
 
 1. Dans la section de droite, cliquez sur **[!UICONTROL Create]**.
 
