@@ -20,7 +20,7 @@ ht-degree: 0%
 
 *Fonctionnalité Beta*
 
-Vous pouvez modifier rapidement le statut d&#39;un portfolio [1} sans ouvrir les paramètres complets du portfolio.](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-status)
+Vous pouvez modifier rapidement le statut d&#39;un portfolio [1&rbrace; sans ouvrir les paramètres complets du portfolio.](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-status)
 
 Pour arrêter la collecte des données de coût/clic/impression et des données de chiffre d’affaires pour les campagnes appropriées, supprimez le portfolio . La suppression d’un portfolio le rend indisponible dans Search, Social et Commerce.
 
