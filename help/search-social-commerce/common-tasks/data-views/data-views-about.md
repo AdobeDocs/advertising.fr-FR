@@ -15,22 +15,20 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '570'
 ht-degree: 0%
 ---
 # À propos de la personnalisation des données dans les vues de gestion de campagne
 
-<!-- Add info about new UI -->
-
 Dans la plupart des vues de données de campagne, vous pouvez personnaliser les données qui apparaissent dans le tableau de données. Vous pouvez personnaliser les données des manières suivantes :
 
-* [Modifiez les paramètres de l’ensemble de la vue par défaut](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md##view-edit) pour une vue d’entité spécifique (telle que [!UICONTROL Campaigns]) afin d’inclure un ordre de colonne spécifique, des filtres, une période, une règle d’attribution, etc., et d’appliquer les paramètres temporairement ou de les enregistrer. Vous pouvez également [créer des vues personnalisées supplémentaires](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view), [cloner des vues existantes](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#view-clone) et [appliquer n’importe laquelle de vos vues](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#apply-a-default-or-custom-view).
+* [Modifiez les paramètres de l&#39;ensemble de votre vue par défaut](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md##view-edit) pour une vue d&#39;entité spécifique (telle que [!UICONTROL Campaigns]) afin d&#39;inclure un ordre de colonne spécifique, des filtres, une période, une règle d&#39;attribution, etc., puis appliquez les paramètres temporairement ou enregistrez-les. Vous pouvez également [créer des vues personnalisées supplémentaires](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view), [cloner des vues existantes](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#view-clone) et [appliquer l’une de vos vues](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#apply-a-default-or-custom-view).
 
-* [Modifiez les colonnes et leur ordre de tri](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) à partir de l’icône [!UICONTROL Columns] sur le côté droit de la barre d’outils, ou [modifiez rapidement uniquement les colonnes](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) à partir de n’importe quel en-tête de colonne de l’affichage.
+* [Modifiez les colonnes et leur ordre de tri](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) à l&#39;aide du contrôle [!UICONTROL Custom Columns] de la barre d&#39;outils. Dans la nouvelle interface utilisateur, si la barre d&#39;outils est trop étroite pour afficher le contrôle, cliquez sur **[!UICONTROL Actions]>[!UICONTROL Custom Columns]**. Vous pouvez également [modifier rapidement uniquement les colonnes](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) de n’importe quel en-tête de colonne de l’affichage.
 
-* (Interface utilisateur héritée uniquement) [À partir du panneau de navigation de gauche](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md) vous pouvez :
+* (Interface utilisateur héritée uniquement) [À partir du panneau de navigation de gauche](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md), vous pouvez :
 
   * Parcourez ou recherchez des entités par réseau publicitaire et filtrez selon le statut de l’entité et le statut du compte, de la campagne et du groupe publicitaire ou de l’ensemble publicitaire. Cliquez sur une entité ou un groupe d’entités dans le panneau pour charger une vue des entités enfants (par exemple, cliquez sur un nom de campagne pour afficher ses groupes d’annonces enfants).
 
@@ -38,10 +36,31 @@ Dans la plupart des vues de données de campagne, vous pouvez personnaliser les 
 
   * Accédez à vos vues par défaut, modifiez-les et réinitialisez-les, et accédez à vos vues personnalisées, modifiez-les et supprimez-les. Cliquez sur le nom d’une vue pour charger la vue appropriée.
 
-* Appliquez des filtres sur toutes les colonnes de données disponibles pour modifier les données affichées dans l’onglet actif. Vous pouvez créer des filtres [à partir des en-têtes de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) ou [à partir d’un bouton de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md). Pour les vues de gestion de campagne, les filtres sont conservés tels qu&#39;applicables lorsque vous ouvrez des entités enfants. Par exemple, si vous affichez des campagnes avec \> 100 clics, puis ouvrez un groupe publicitaire dans cette campagne, seuls les groupes publicitaires avec \> 100 clics s’affichent.
+* Appliquez des filtres sur toutes les colonnes de données disponibles pour modifier les données affichées dans l’onglet actif. Vous pouvez créer des filtres [&#x200B; à partir des en-têtes de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) ou [&#x200B; à partir d’un bouton de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md). Pour les vues de gestion de campagne, les filtres sont conservés tels qu&#39;applicables lorsque vous ouvrez des entités enfants. Par exemple, si vous affichez des campagnes avec \> 100 clics, puis ouvrez un groupe publicitaire dans cette campagne, seuls les groupes publicitaires avec \> 100 clics s’affichent.
 
-* [Modifier la période](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md) utilisée dans tous les affichages par défaut et personnalisés pour lesquels vous n’avez pas enregistré de périodes spécifiques.
+* [Modifiez la période](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md) utilisée dans toutes les vues personnalisées et par défaut pour lesquelles vous n&#39;avez pas enregistré de périodes spécifiques.
 
-* [Triez à nouveau les données](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md) en fonction des valeurs d’une colonne spécifique.
+* [Triez à nouveau les données](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md) en fonction des valeurs d&#39;une colonne spécifique.
 
-* Choisissez d’afficher 25 lignes, 50 lignes, 100 lignes, (interface utilisateur héritée uniquement) 200 lignes ou (interface utilisateur héritée uniquement) [!UICONTROL Continuous Scroll] au bas d’une page.
+* Choisissez d&#39;afficher 25 lignes, 50 lignes, 100 lignes, (interface utilisateur héritée uniquement) 200 lignes ou (interface utilisateur héritée uniquement) [!UICONTROL Continuous Scroll] au bas d&#39;une page.
+
+
+## (Nouvelle interface utilisateur) Contrôles de tableau de données {#data-table-tools-new-ui}
+
+Utilisez la barre d’outils située au-dessus du tableau de données pour gérer les données et modifier leur affichage. Les outils disponibles dépendent de la vue et de vos autorisations.
+
+Si la barre d&#39;outils est trop étroite pour afficher un outil, recherchez-le dans le menu **[!UICONTROL Actions]**.
+
+Le cas échéant, vous pouvez :
+
+* Sélectionnez *[!UICONTROL Click Date]* ou *[!UICONTROL Transaction Date]* dans [!UICONTROL Conversion based on] pour contrôler la manière dont les données de conversion sont rapportées.
+
+* Comparez les performances pour deux périodes et choisissez comment afficher la différence. Voir « [Filtrer les données par période](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#compare-periods-new-ui) ».
+
+* Activez ou désactivez l’espacement compact du tableau à l’aide de **[!UICONTROL Compressed Mode]** dans la barre d’outils ou le menu **[!UICONTROL Actions]**.
+
+  Le bouton de la barre d’outils est sélectionné lorsque le mode compressé est activé. Dans [!UICONTROL Actions], un commutateur indique l&#39;état actuel.
+
+* Afficher ou masquer les graphiques à l&#39;aide de **[!UICONTROL Charts]** dans la barre d&#39;outils ou le menu **[!UICONTROL Actions]**.
+
+  Le bouton de la barre d’outils est sélectionné lorsque les graphiques sont affichés. Dans [!UICONTROL Actions], un commutateur indique si les graphiques sont affichés. Cliquez à nouveau sur le contrôle pour masquer les graphiques.

@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '145'
 ht-degree: 0%
 ---
 # Afficher les données pour un autre annonceur
@@ -24,12 +24,20 @@ ht-degree: 0%
 
 ## (Nouvelle interface utilisateur) Afficher les données d’un autre annonceur
 
-* Dans la barre d’outils située au-dessus du tableau de données, sélectionnez l’annonceur.
+1. Si le panneau de navigation de gauche est réduit, cliquez sur ![Réduire/développer](/help/search-social-commerce/assets/collapse-expand.png "Réduire/développer") pour le développer.
 
-  ![Sélecteur publicitaire dans la barre d’outils](/help/search-social-commerce/assets/advertiser-selector.png "Sélecteur publicitaire dans la barre d’outils")
+1. Au-dessus du champ de recherche dans le panneau de navigation de gauche, ouvrez la liste des annonceurs et sélectionnez l’annonceur.
+
+   Vous pouvez effectuer une recherche dans la liste pour localiser un annonceur. La liste affiche l’annonceur actuellement sélectionné.
+
+   ![Sélecteur d’annonceurs au-dessus du menu principal](/help/search-social-commerce/assets/advertiser-selector.png "Sélecteur d’annonceurs au-dessus du menu principal")
+
+>[!NOTE]
+>
+>Le changement d’annonceur est désactivé dans certaines vues détaillées, y compris les détails du portfolio et les détails de la simulation. Revenez à la vue de liste correspondante pour sélectionner un autre annonceur.
 
 ## (interface utilisateur héritée) Afficher les données d’un autre annonceur
 
-*Rôles de gestionnaire de compte d’agence, de gestionnaire de compte [!DNL Adobe] et d’utilisateur administrateur uniquement*
+*Gestionnaire de compte d’agence, [!DNL Adobe] gestionnaire de compte et rôles utilisateur d’administrateur uniquement*
 
 * Dans la liste des annonceurs en haut à droite de n’importe quelle page, sélectionnez l’annonceur.

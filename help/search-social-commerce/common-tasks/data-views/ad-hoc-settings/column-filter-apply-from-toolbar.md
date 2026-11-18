@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '500'
 ht-degree: 0%
 ---
 # Application de filtres de données à partir de la barre d’outils
@@ -28,7 +28,7 @@ Vous pouvez appliquer autant de filtres que vous le souhaitez à une vue.<!-- Tr
 
 ## (Nouvelle interface utilisateur) Appliquer des filtres de données à partir de la barre d’outils dans les vues de gestion
 
-1. Dans la barre d’outils, cliquez sur ![Filtrer](/help/search-social-commerce/assets/filter-new.png "Filtrer").
+1. Dans la barre d’outils, cliquez sur le contrôle ![Filtrer](/help/search-social-commerce/assets/filter-new.png "Filtrer") en regard du champ de recherche.
 
 1. Dans les paramètres de filtre, effectuez l’une des opérations suivantes :
 
@@ -40,15 +40,15 @@ Vous pouvez appliquer autant de filtres que vous le souhaitez à une vue.<!-- Tr
 
      1. Définissez le filtre sur la colonne :
 
-        * (Filtres sans champs de saisie) Cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-expand.png "Flèche vers le bas") en regard du deuxième menu, puis cochez les cases en regard de chaque valeur à inclure.
+        * (Filtres sans champs de saisie) Cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-expand.png "Flèche vers le bas") à côté du deuxième menu, puis cochez les cases en regard de chaque valeur à inclure.
 
         * (Filtres avec champs de saisie) Sélectionnez un opérateur dans le deuxième menu, puis saisissez la valeur applicable.
 
-          Par exemple, si vous avez sélectionné la colonne « [!UICONTROL Clicks] » et que vous souhaitez renvoyer uniquement des lignes contenant plus de 100 clics, sélectionnez *[!UICONTROL greater than]* » et saisissez `100` dans le champ de saisie.
+          Par exemple, si vous avez sélectionné la colonne « [!UICONTROL Clicks] » et que vous souhaitez renvoyer uniquement des lignes contenant plus de 100 clics, sélectionnez « *[!UICONTROL greater than]* » et saisissez « `100` » dans le champ de saisie.
 
           Selon le type de données, les opérateurs disponibles peuvent inclure *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* ou *[!UICONTROL no date].*
 
-          **Remarque :** les valeurs de texte ne respectent pas la casse. Par exemple, si vous filtrez par campagnes avec « loan » dans le nom, les résultats incluent « Consumer Loans » et « loan applications » (demandes de prêt).
+          **Remarque :** les valeurs de texte ne sont pas sensibles à la casse. Par exemple, si vous filtrez par campagnes avec « loan » dans le nom, les résultats incluent « Consumer Loans » et « loan applications » (demandes de prêt).
 
    * Pour modifier un filtre existant, cliquez sur le filtre, puis modifiez la définition du filtre.
 
@@ -68,19 +68,19 @@ Vous pouvez appliquer autant de filtres que vous le souhaitez à une vue.<!-- Tr
 
      1. Définissez le filtre sur la colonne :
 
-        * (Filtres sans champs de saisie) Cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-expand.png "Flèche vers le bas") en regard du deuxième menu, puis cochez les cases en regard de chaque valeur à inclure.
+        * (Filtres sans champs de saisie) Cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-expand.png "Flèche vers le bas") à côté du deuxième menu, puis cochez les cases en regard de chaque valeur à inclure.
 
         * (Filtres avec champs de saisie) Sélectionnez un opérateur dans le deuxième menu, puis saisissez la valeur applicable.
 
-          Par exemple, si vous avez sélectionné la colonne « [!UICONTROL Clicks] » et que vous souhaitez renvoyer uniquement des lignes contenant plus de 100 clics, sélectionnez *[!UICONTROL greater than]* » et saisissez `100` dans le champ de saisie.
+          Par exemple, si vous avez sélectionné la colonne « [!UICONTROL Clicks] » et que vous souhaitez renvoyer uniquement des lignes contenant plus de 100 clics, sélectionnez « *[!UICONTROL greater than]* » et saisissez « `100` » dans le champ de saisie.
 
           Selon le type de données, les opérateurs disponibles peuvent inclure *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* ou *[!UICONTROL no date].*
 
-          **Remarque :** les valeurs de texte ne respectent pas la casse. Par exemple, si vous filtrez par campagnes avec « loan » dans le nom, les résultats incluent « Consumer Loans » et « loan applications » (demandes de prêt).
+          **Remarque :** les valeurs de texte ne sont pas sensibles à la casse. Par exemple, si vous filtrez par campagnes avec « loan » dans le nom, les résultats incluent « Consumer Loans » et « loan applications » (demandes de prêt).
 
-        * (vues [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Product Groups], [!UICONTROL Placements] et [!UICONTROL Auto Targets] uniquement ; facultatif) Définissez le paramètre sur « [!UICONTROL Include rows with performance data only] ».
+        * ([!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Product Groups], [!UICONTROL Placements] et [!UICONTROL Auto Targets] vues uniquement ; facultatif) Modifiez le paramètre sur « [!UICONTROL Include rows with performance data only] ».
 
-          **Avertissement :** si vous désélectionnez cette option et que la vue comprend de nombreuses entités sans données de performances, l&#39;affichage des données prend plus de temps.
+          **Avertissement :** Si vous désélectionnez l&#39;option et que la vue comprend de nombreuses entités sans données de performances, l&#39;affichage des données prend plus de temps.
 
    * Pour modifier un filtre existant, cliquez sur le filtre, puis modifiez la définition du filtre.
 
@@ -90,6 +90,6 @@ Vous pouvez appliquer autant de filtres que vous le souhaitez à une vue.<!-- Tr
 
 >[!MORELIKETHIS]
 >
->* [Appliquer un filtre de données à partir du menu d’en-tête de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
+>* [Appliquer un filtre de données à partir d&#39;un menu d&#39;en-tête de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
 >* [Modifier les filtres de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
 >* [Supprimer un filtre de colonne]&#x200B;(/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/

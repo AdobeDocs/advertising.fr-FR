@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: dabc3d714941ccecfae1646d554dd3f554a83adf
+source-git-commit: 3619dd14a392381c304d91e5cc8cd4da974ab053
 workflow-type: tm+mt
-source-wordcount: '5697'
+source-wordcount: '5722'
 ht-degree: 1%
 ---
 # Nouveautés de Search, Social et Commerce
@@ -38,6 +38,7 @@ Les fonctionnalités suivantes sont nouvelles ou ont été récemment modifiées
 
 | Date | Fonctionnalité | Description | Pour Plus D’Informations |
 | ---- | ------- | ----------- | -------------------- |
+| 16 Novembre 2026 | Nouvelle interface utilisateur | La plupart des fonctionnalités de l’interface utilisateur héritée sont désormais disponibles dans la nouvelle interface utilisateur. | Voir « [Organisation de l’interface utilisateur](/help/search-social-commerce/getting-started/user-interface.md) ». |
 | 4 Novembre 2026 | [!UICONTROL Portfolios], Optimisation | (Fonctionnalité d’opt-in pour les campagnes [!DNL Google Ads] dans les portfolios avec optimisation au niveau de la campagne ou du groupe publicitaire) Search, Social et Commerce peuvent désormais inclure des signaux provenant des recommandations de budget de campagne [!DNL Google Ads], y compris le montant du budget recommandé et l’effet élévateur de conversion prévu, pour éclairer ses propres décisions de pilotage du budget. Pour vous inscrire à la fonctionnalité, contactez l’équipe chargée de votre compte Adobe. | — |
 | | [!UICONTROL Accounts] | Pour les comptes d’API du réseau publicitaire, vous pouvez désormais identifier les autorisations d’authentification manquantes, consulter les avertissements d’expiration de jeton et obtenir des informations sur les étapes de récupération dans la vue [!UICONTROL Accounts]. | Voir « [Authentification du compte et statut d’accès](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md#authentication-status) ». |
 | 26 Octobre 2026 | [!UICONTROL Campaigns], [!UICONTROL Bulksheets] | ([!DNL Google Ads] campagnes avec [!DNL AI Max] activé) Vous pouvez désormais configurer les paramètres suivants dans la nouvelle interface utilisateur de Search, Social et Commerce :<ul><li>Au niveau de la campagne :<ul><li>**[!UICONTROL Brand inclusions]** et **[!UICONTROL Brand exclusions]:** spécifiez les listes de marques pour le compte qui peuvent être mises en correspondance dans les requêtes liées à la marque.</li><li>**[!UICONTROL URL inclusions]:** spécifiez les URL à exclure en tant que pages de destination générées à partir de l’extension d’URL finale. Ce paramètre est disponible lorsque [!UICONTROL Text customization] et [!UICONTROL Final URL expansion] sont activés.</li></ul></li><li>Au niveau du groupe publicitaire :<ul><li>**[!UICONTROL URL inclusions]:** spécifiez les URL à exclure en tant que pages de destination générées à partir de l’extension d’URL finale. Ce paramètre est disponible dans les campagnes pour lesquelles [!UICONTROL Text customization] est activé.</li></ul></li></ul>La prise en charge des feuilles d’envoi groupé est également disponible pour les paramètres . | Voir « [[!DNL Google Ads] paramètres de la campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md) », « [[!DNL Google Ads] paramètres du groupe publicitaire](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md) » et « [Données de feuille d’envoi groupé requises pour [!DNL Google Ads] comptes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md) ». |

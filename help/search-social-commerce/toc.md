@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 54920f5e0e08c1bf6f960b4d96aa4161dfa11143
+source-git-commit: 48ceda965e7ebd4a62bfcb497bd0ca489ebac726
 workflow-type: tm+mt
 source-wordcount: '2445'
 ht-degree: 2%
@@ -46,7 +46,7 @@ ht-degree: 2%
     + [Gestion des vues par défaut et personnalisées](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)
     + Paramètres des vues ad hoc {#ad-hoc-settings}
       + [Modifiez le jeu de colonnes à partir du menu d’en-tête de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)
-      + [Modifiez et triez le jeu de colonnes à partir de l’icône [!UICONTROL Custom Columns]](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
+      + [Modifier et trier le jeu de colonnes à partir du contrôle [!UICONTROL Custom Columns]](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
       + [Verrouiller et déverrouiller une configuration de colonne dans les vues de campagne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md)
       + [Réorganiser une colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)
       + [Filtrer les données par période](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)
