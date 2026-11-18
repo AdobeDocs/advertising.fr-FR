@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '500'
 ht-degree: 0%
 ---
 # Application de filtres de données à partir de la barre d’outils
@@ -28,7 +28,7 @@ Vous pouvez appliquer autant de filtres que vous le souhaitez à une vue.<!-- Tr
 
 ## (Nouvelle interface utilisateur) Appliquer des filtres de données à partir de la barre d’outils dans les vues de gestion
 
-1. Dans la barre d’outils, cliquez sur le contrôle ![Filtrer](/help/search-social-commerce/assets/filter-new.png "Filtrer") en mode icône uniquement avant la recherche par grille.
+1. Dans la barre d’outils, cliquez sur le contrôle ![Filtrer](/help/search-social-commerce/assets/filter-new.png "Filtrer") en regard du champ de recherche.
 
 1. Dans les paramètres de filtre, effectuez l’une des opérations suivantes :
 

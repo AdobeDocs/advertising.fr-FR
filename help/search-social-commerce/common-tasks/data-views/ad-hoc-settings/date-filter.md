@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '844'
 ht-degree: 0%
 ---
 # Filtrer les données par période
@@ -77,9 +77,9 @@ Pour arrêter la comparaison des périodes, ouvrez la commande de période, dés
 
 1. Sélectionnez **[!UICONTROL As percentage]** ou **[!UICONTROL As variance]**.
 
-   La sélection s’applique à toutes les mesures de comparaison de la grille et pas seulement à la colonne sélectionnée. Le contrôle de période est synchronisé avec la sélection et le format est partagé sur toutes les pages applicables pour l’annonceur actuel, y compris les vues avec des périodes enregistrées.
+   La sélection s’applique à toutes les mesures de comparaison du tableau de données, et pas seulement à la colonne sélectionnée. Le contrôle de période est synchronisé avec la sélection et le format est partagé sur toutes les pages applicables pour l’annonceur actuel, y compris les vues avec des périodes enregistrées.
 
-   Un message de confirmation s’affiche une fois la grille actualisée. Si la grille ne peut pas être actualisée avec le format sélectionné, un message d’erreur s’affiche à la place de cette action. Essayez de sélectionner à nouveau le format.
+   Un message de confirmation s’affiche une fois le tableau de données actualisé. Si le tableau de données ne peut pas être actualisé avec le format sélectionné, un message d’erreur s’affiche à la place ; essayez de sélectionner à nouveau le format.
 
 Les options de tri et de filtrage restent disponibles dans les menus de colonne, lorsqu’elles sont prises en charge.
 

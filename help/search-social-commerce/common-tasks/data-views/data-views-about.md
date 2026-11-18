@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2f170883b2876ea4a7b39e814df598d337f7ca07
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '570'
 ht-degree: 0%
 ---
 # À propos de la personnalisation des données dans les vues de gestion de campagne
@@ -36,7 +36,7 @@ Dans la plupart des vues de données de campagne, vous pouvez personnaliser les 
 
   * Accédez à vos vues par défaut, modifiez-les et réinitialisez-les, et accédez à vos vues personnalisées, modifiez-les et supprimez-les. Cliquez sur le nom d’une vue pour charger la vue appropriée.
 
-* Appliquez des filtres sur toutes les colonnes de données disponibles pour modifier les données affichées dans l’onglet actif. Vous pouvez créer des filtres [&#x200B; à partir des en-têtes de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) ou [&#x200B; à partir d’un bouton de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md). Pour les vues de gestion de campagne, les filtres sont conservés tels qu&#39;applicables lorsque vous ouvrez des entités enfants. Par exemple, si vous affichez des campagnes avec \> 100 clics, puis ouvrez un groupe publicitaire dans cette campagne, seuls les groupes publicitaires avec \> 100 clics s’affichent.
+* Appliquez des filtres sur toutes les colonnes de données disponibles pour modifier les données affichées dans l’onglet actif. Vous pouvez créer des filtres [ à partir des en-têtes de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) ou [ à partir d’un bouton de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md). Pour les vues de gestion de campagne, les filtres sont conservés tels qu&#39;applicables lorsque vous ouvrez des entités enfants. Par exemple, si vous affichez des campagnes avec \> 100 clics, puis ouvrez un groupe publicitaire dans cette campagne, seuls les groupes publicitaires avec \> 100 clics s’affichent.
 
 * [Modifiez la période](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md) utilisée dans toutes les vues personnalisées et par défaut pour lesquelles vous n&#39;avez pas enregistré de périodes spécifiques.
 
@@ -44,34 +44,23 @@ Dans la plupart des vues de données de campagne, vous pouvez personnaliser les 
 
 * Choisissez d&#39;afficher 25 lignes, 50 lignes, 100 lignes, (interface utilisateur héritée uniquement) 200 lignes ou (interface utilisateur héritée uniquement) [!UICONTROL Continuous Scroll] au bas d&#39;une page.
 
-<!--
 
-## (New UI) Data table tools {#grid-controls-new-ui}
+## (Nouvelle interface utilisateur) Contrôles de tableau de données {#data-table-tools-new-ui}
 
-In applicable management views, the toolbar includes the following controls:
+Utilisez la barre d’outils située au-dessus du tableau de données pour gérer les données et modifier leur affichage. Les outils disponibles dépendent de la vue et de vos autorisations.
 
-* On the left, the [!UICONTROL Filter] control appears before grid search. Where supported, the [!UICONTROL Conversion based on] selector follows search and lets you select [!UICONTROL Click Date] or [!UICONTROL Transaction Date].
+Si la barre d&#39;outils est trop étroite pour afficher un outil, recherchez-le dans le menu **[!UICONTROL Actions]**.
 
-* On the right, operational actions, such as [!UICONTROL Reports], appear alongside view and display controls. The available controls depend on the view and your permissions.
+Le cas échéant, vous pouvez :
 
-* When the available width is reduced, controls move into the [!UICONTROL Actions] menu. This can happen when you narrow the window or open the AI Assistant panel. If a control isn't visible in the toolbar, look for it in [!UICONTROL Actions]. In wider layouts, controls remain inline.
+* Sélectionnez *[!UICONTROL Click Date]* ou *[!UICONTROL Transaction Date]* dans [!UICONTROL Conversion based on] pour contrôler la manière dont les données de conversion sont rapportées.
 
-* Within [!UICONTROL Actions], a horizontal divider separates operational actions from view and display controls, such as the current view, [!UICONTROL Custom Columns], [!UICONTROL Compressed Mode], and [!UICONTROL Charts], where available.
+* Comparez les performances pour deux périodes et choisissez comment afficher la différence. Voir « [Filtrer les données par période](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#compare-periods-new-ui) ».
 
-* The primary create button remains outside [!UICONTROL Actions].
+* Activez ou désactivez l’espacement compact du tableau à l’aide de **[!UICONTROL Compressed Mode]** dans la barre d’outils ou le menu **[!UICONTROL Actions]**.
 
-The [!UICONTROL Refresh] icon is beside the page title in applicable views. The date range control is in the page header. For instructions on comparing two date ranges and changing the comparison format, see "[Filter data by date range](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#compare-periods-new-ui)."
+  Le bouton de la barre d’outils est sélectionné lorsque le mode compressé est activé. Dans [!UICONTROL Actions], un commutateur indique l&#39;état actuel.
 
-### Change the grid density
+* Afficher ou masquer les graphiques à l&#39;aide de **[!UICONTROL Charts]** dans la barre d&#39;outils ou le menu **[!UICONTROL Actions]**.
 
-* Where available, click **[!UICONTROL Compressed Mode]** in the toolbar or **[!UICONTROL Actions]** menu to turn compact grid spacing on or off.
-
-  The toolbar button is selected when compressed mode is on. In [!UICONTROL Actions], a switch indicates the current state.
-
-### Show or hide charts
-
-* Where available, click **[!UICONTROL Charts]** in the toolbar or **[!UICONTROL Actions]** menu.
-
-  The toolbar button is selected when charts are shown. In [!UICONTROL Actions], a switch indicates whether charts are shown. Click the control again to hide the charts.
-
--->
+  Le bouton de la barre d’outils est sélectionné lorsque les graphiques sont affichés. Dans [!UICONTROL Actions], un commutateur indique si les graphiques sont affichés. Cliquez à nouveau sur le contrôle pour masquer les graphiques.
