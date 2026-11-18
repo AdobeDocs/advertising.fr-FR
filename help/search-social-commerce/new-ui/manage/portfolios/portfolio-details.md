@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
+source-git-commit: 6b779d2f91a140cd69ed4a25ac97d376dd1ed48d
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1555'
 ht-degree: 0%
 ---
 # (Nouvelle interface utilisateur) Afficher les détails sur les performances du portefeuille
@@ -38,7 +38,7 @@ La vue détaillée du portefeuille comprend les informations suivantes sur un po
 
 * Données de précision du modèle pour les portefeuilles actifs, qui montrent dans quelle mesure les modèles se sont écartés des prédictions. Le rapport affiche la précision globale des coûts sur une période de sept jours, la précision des clics et la précision de la valeur objective.
 
-  Vous pouvez afficher les données par date de clic (valeur par défaut) ou par date de transaction. Vous pouvez également afficher les données sous la forme d’un graphique de tendances (valeur par défaut) ou d’un tableau.
+  Vous pouvez afficher les données sous la forme d’un graphique de tendances (valeur par défaut) ou d’un tableau.
 
 * Dépenses cibles par rapport aux dépenses réelles pour les portefeuilles actifs. Vous pouvez également inclure le total des budgets de campagne pour le portefeuille.
 
@@ -48,7 +48,7 @@ La vue détaillée du portefeuille comprend les informations suivantes sur un po
 
   Vous pouvez éventuellement ouvrir les paramètres du portfolio pour les modifier.
 
-* Listes des campagnes, groupes publicitaires et mots-clés du portfolio.
+* Listes des réseaux publicitaires, des comptes, des campagnes, des groupes publicitaires et des mots-clés du portfolio, avec données de performances.
 
   Pour des mots-clés individuels, vous pouvez afficher les détails des unités d&#39;enchères, y compris les prévisions, les informations historiques et les informations hiérarchiques. La vue [!UICONTROL Bid Unit Details] comprend les prévisions, les informations historiques et les informations hiérarchiques suivantes pour l&#39;unité d&#39;enchères sélectionnée :
 
@@ -64,11 +64,19 @@ La vue détaillée du portefeuille comprend les informations suivantes sur un po
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-1. Placez le curseur sur le nom du portfolio et cliquez sur (/help/search-social-commerce/assets/portfolio-overview.png « Présentation de Portfolio).
+1. Placez le curseur sur le nom du portfolio et cliquez sur ![Présentation de Portfolio](/help/search-social-commerce/assets/portfolio-overview.png "Présentation de Portfolio").
+
+1. (Facultatif) Pour modifier la période des détails du portefeuille, cliquez sur la période en haut à droite, spécifiez la période, puis cliquez sur **[!UICONTROL Apply]**.
 
 1. (Facultatif) Dans le menu **[!UICONTROL Data Aggregation]**, modifiez l’unité de temps des données incluses dans chaque ligne : *[!UICONTROL Daily],* *[!UICONTROL Weekly],* ou *[!UICONTROL Monthly].*
 
-1. (Facultatif) Pour modifier la période des détails du portefeuille, cliquez sur la période en haut à droite, spécifiez la période, puis cliquez sur **[!UICONTROL Apply]**.
+   Les options disponibles dépendent de la période sélectionnée. Si l’agrégation actuelle n’est pas disponible pour une nouvelle période, une autre agrégation disponible est sélectionnée automatiquement.
+
+1. (Facultatif) Dans le menu **[!UICONTROL Conversion Based On]** de l’en-tête de page, sélectionnez **[!UICONTROL Click Date]** ou **[!UICONTROL Transaction Date]**.
+
+   Ce paramètre s’applique aux données de conversion dans les rapports de portfolio et les listes de composants.
+
+Pour afficher les détails d&#39;un autre portefeuille, utilisez le sélecteur de portefeuille en regard du nom du portefeuille.
 
 ## Personnaliser l’onglet [!UICONTROL Portfolio Overview]
 
@@ -86,15 +94,19 @@ La vue détaillée du portefeuille comprend les informations suivantes sur un po
 
     * (Dans la vue graphique) Pour afficher les données d&#39;un point du graphique, placez le curseur sur ce point.
 
+    * (Dans la vue Graphique) Pour effectuer un zoom, sélectionnez une zone du graphique.
+
+    * (Lorsque les marqueurs de modification de paramètre de portfolio sont affichés) Pour afficher l&#39;historique des modifications du portfolio pour une date marquée, cliquez sur le marqueur sur le graphique. Pour plus d&#39;informations sur l&#39;historique, voir « [Afficher l&#39;historique des modifications d&#39;un portefeuille](portfolio-view-change-history.md#portfolio-change-history) ».
+
 * (Facultatif) Pour personnaliser le graphique de tendances [!UICONTROL Model accuracy], effectuez l&#39;une des opérations suivantes :
 
   * Basculez entre la vue graphique (![Vue graphique](/help/search-social-commerce/assets/chart-view.png "Vue graphique")) et la vue Tableau (![Vue Tableau](/help/search-social-commerce/assets/table-view.png "Vue Tableau")).
 
-  * Basculer entre l’affichage des données par *[!UICONTROL Click Date]* et *[!UICONTROL Transaction Date]*.
-
   * Basculer entre l’affichage des données sur le *[!UICONTROL Daily Accuracy]* et le *[!UICONTROL 7 Day Rolling Accuracy]*.
 
     [!UICONTROL 7 Day Rolling Accuracy] est l&#39;exactitude moyenne des prévisions pour les sept jours précédents, exprimée en pourcentage. Par exemple, la valeur pour 8 mai 2025 est la précision moyenne pour la période du 1er au 7 mai 2025.
+
+    [!UICONTROL 7 Day Rolling Accuracy] est disponible uniquement lorsque [!UICONTROL Data Aggregation] est défini sur [!UICONTROL Daily].
 
   * (Dans la vue graphique) Pour afficher les données d&#39;un point du graphique, placez le curseur sur ce point.
 
@@ -108,19 +120,50 @@ La vue détaillée du portefeuille comprend les informations suivantes sur un po
 
   * Remplacez la mesure signalée par *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* ou *[!UICONTROL Objective Value]*.
 
+  * Lorsque des données sont disponibles pour plusieurs réseaux, sélectionnez le réseau dans le menu en regard du menu des mesures.
+
   * Pour afficher les données de n’importe quel point du graphique, placez le curseur au-dessus de ce point.
 
-1. Cliquez sur **[!UICONTROL Download report]**.
+  * Pour effectuer un zoom, sélectionnez une zone du graphique.
+
+## Personnaliser les listes des composants de portfolio
+
+Les onglets [!UICONTROL Networks], [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] et [!UICONTROL Keywords] incluent les commandes suivantes :
+
+* Pour effectuer une recherche par nom, saisissez du texte dans le champ de recherche situé au-dessus du tableau, puis soumettez la recherche.
+
+* Pour [filtrer les données](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md), cliquez sur ![Filtrer](/help/search-social-commerce/assets/filter-new.png "Filtrer"). Vous pouvez modifier ou supprimer des filtres appliqués à l’aide des commandes de filtrage situées au-dessus du tableau.
+
+* Pour afficher les composants d’un réseau, d’un compte, d’une campagne ou d’un groupe publicitaire dans l’onglet suivant, cliquez sur son nom. Le parent sélectionné s’affiche dans le chemin de navigation au-dessus du tableau, et les filtres applicables sont reportés au fur et à mesure que vous analysez le tableau. Les sélections de parents peuvent continuer à restreindre la liste lorsque vous changez d’onglet.
+
+  Pour supprimer une sélection d’analyse (un nom de réseau ou de compte, par exemple), cliquez sur **[!UICONTROL X]** en regard du nom du composant dans le chemin de navigation au-dessus du tableau. Les sélections de parents de niveau supérieur peuvent rester en vigueur. Pour revenir à tous les composants du portfolio, supprimez les sélections de parents restantes et tous les autres filtres.
+
+* Pour actualiser les données, cliquez sur ![Actualiser](/help/search-social-commerce/assets/refresh-new.png "Actualiser").
+
+* ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] et [!UICONTROL Keywords] onglets uniquement) Pour modifier les colonnes affichées ou l’ordre de tri, cliquez sur ![Colonnes personnalisées](/help/search-social-commerce/assets/custom-columns-new.png "Colonnes personnalisées") et [modifiez le jeu de colonnes et les options de tri](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md).
+
+
+## Répertorier les réseaux publicitaires du portefeuille
+
+* Cliquez sur l’onglet **[!UICONTROL Networks]**.
+
+## Répertorier les comptes du portefeuille
+
+* Pour afficher tous les comptes du portefeuille, cliquez sur l&#39;onglet **[!UICONTROL Accounts]**.
+
+* Pour afficher les comptes d&#39;un réseau spécifique dans le portefeuille, cliquez sur l&#39;onglet **[!UICONTROL Networks]**, puis sur le nom du réseau.
 
 ## Répertorier les campagnes du portfolio
 
 Les détails de chaque campagne comprennent la stratégie d’enchères, le coût réel et prévu, les clics et la valeur de l’objectif, ainsi que la précision du coût, des clics et de la valeur de l’objectif.
 
-* Cliquez sur l’onglet **[!UICONTROL Campaigns]**.
+* Pour visualiser toutes les campagnes du portfolio, cliquez sur l&#39;onglet **[!UICONTROL Campaigns]**.
+
+* Pour afficher les campagnes d&#39;un compte spécifique du portefeuille, cliquez sur l&#39;onglet **[!UICONTROL Accounts]**, puis sur le nom du compte.
 
 ## Répertorier les groupes publicitaires du portfolio
 
-Les détails de chaque groupe publicitaire incluent le coût, les clics et la valeur de l’objectif.
+Les détails de chaque groupe publicitaire incluent le réseau, l’enchère par défaut, le coût, les clics, le coût par clic, les impressions, la valeur de l’objectif et les mesures de conversion utilisées dans l’objectif du portefeuille.
 
 * Pour afficher tous les groupes publicitaires du portfolio, cliquez sur l’onglet **[!UICONTROL Ad Groups]**.
 
@@ -160,23 +203,27 @@ Pour afficher l&#39;historique des enchères pour l&#39;ensemble du portefeuille
 
 Pour plus d’informations sur les paramètres du portfolio, consultez le Guide d’optimisation , disponible dans Search, Social et Commerce.
 
-## Téléchargez les rapports de performances du portefeuille et les listes des composants du portefeuille
+## Téléchargez les rapports sur les performances du portfolio et les listes des composants du portfolio
 
-* Pour télécharger tous les rapports :
+* Pour télécharger les rapports de performances et les listes de composants, procédez comme suit :
 
   1. Dans la barre d&#39;outils, cliquez sur **[!UICONTROL Download report]**.
 
   1. Cochez la case en regard de chaque rapport de performances et de chaque type de composant de portefeuille à inclure.
 
-     Pour certains rapports de performances, vous pouvez choisir de télécharger les données sous la forme d’un graphique ou d’un tableau.
+     Les composants de portfolio disponibles sont *[!UICONTROL Campaigns table]*, *[!UICONTROL Ad groups table]* et *[!UICONTROL Keywords table]*. Les tables [!UICONTROL Networks] et [!UICONTROL Accounts] ne sont pas incluses dans ce téléchargement.
+
+     Pour les rapports de performances avec les deux options, sélectionnez **[!UICONTROL As chart]**, **[!UICONTROL As table]** ou les deux. Le rapport [!UICONTROL Network accuracy chart] est disponible uniquement sous la forme d’un graphique.
 
   1. Cliquez sur **[!UICONTROL Download report]**.
 
-* Pour télécharger un rapport [!DNL model accuracy] avec des types de données spécifiques :
+* Pour télécharger un rapport [!UICONTROL Model accuracy] avec des types de données spécifiques :
 
-  1. Dans la barre d&#39;outils du rapport, cliquez sur **[!UICONTROL Download report]**.
+  1. Dans la barre d&#39;outils de [!UICONTROL Model accuracy], cliquez sur **[!UICONTROL Download report]**.
 
-  1. Cochez la case en regard de chaque type de données à inclure et comment ventiler les données (par unité d’enchère et/ou par volume de clics).
+  1. Sélectionnez **[!UICONTROL Cost Accuracy]**, **[!UICONTROL Objective Value Accuracy]** ou les deux.
+
+  1. Pour chaque type de données sélectionné, sélectionnez **[!UICONTROL By Bid Unit]**, **[!UICONTROL By Click Volume]** ou les deux.
 
   1. Cliquez sur **[!UICONTROL Download report]**.
 
