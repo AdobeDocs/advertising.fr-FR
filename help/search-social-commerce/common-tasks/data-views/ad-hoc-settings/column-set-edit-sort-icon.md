@@ -28,7 +28,7 @@ Vous pouvez modifier les colonnes visibles dans vos vues à l&#39;aide du contr�
 
 >[!NOTE]
 >
->Vous pouvez également modifier temporairement les colonnes d&#39;un affichage sans modifier l&#39;ordre de tri [ à partir de n&#39;importe quel en-tête de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) de l&#39;affichage.
+>Vous pouvez également modifier temporairement les colonnes d&#39;un affichage sans modifier l&#39;ordre de tri [&#x200B; à partir de n&#39;importe quel en-tête de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) de l&#39;affichage.
 >
 >Vous pouvez enregistrer les modifications apportées aux colonnes incluses pour un annonceur spécifique en modifiant la vue par défaut ou en [créant une vue personnalisée](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view).
 
