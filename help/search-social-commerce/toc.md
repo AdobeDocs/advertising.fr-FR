@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
+source-git-commit: 54920f5e0e08c1bf6f960b4d96aa4161dfa11143
 workflow-type: tm+mt
-source-wordcount: '2443'
+source-wordcount: '2445'
 ht-degree: 2%
 ---
 # Guide d’Advertising Search, Social et Commerce {#search-social-commerce}
@@ -141,6 +141,7 @@ ht-degree: 2%
         + [[!DNL Yandex] paramètres de mot-clé](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yandex.md)
     + [Gérer les groupes de produits d’achat](/help/search-social-commerce/new-ui/manage/product-groups-manage.md)
   + Rapports {#reports}
+    + [Informations sur Advertising](/help/search-social-commerce/new-ui/reports/insights.md)
     + Rapports planifiés {#scheduled}
       + [À propos des rapports planifiés](/help/search-social-commerce/new-ui/reports/report-about.md)
       + [Tâches de configuration initiales pour les rapports](/help/search-social-commerce/new-ui/reports/initial-setup.md)
