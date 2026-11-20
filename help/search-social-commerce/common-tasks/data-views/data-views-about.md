@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '672'
 ht-degree: 0%
 ---
 # À propos de la personnalisation des données dans les vues de gestion de campagne
@@ -44,7 +44,6 @@ Dans la plupart des vues de données de campagne, vous pouvez personnaliser les 
 
 * Choisissez d&#39;afficher 25 lignes, 50 lignes, 100 lignes, (interface utilisateur héritée uniquement) 200 lignes ou (interface utilisateur héritée uniquement) [!UICONTROL Continuous Scroll] au bas d&#39;une page.
 
-
 ## (Nouvelle interface utilisateur) Contrôles de tableau de données {#data-table-tools-new-ui}
 
 Utilisez la barre d’outils située au-dessus du tableau de données pour gérer les données et modifier leur affichage. Les outils disponibles dépendent de la vue et de vos autorisations.
@@ -64,3 +63,15 @@ Le cas échéant, vous pouvez :
 * Afficher ou masquer les graphiques à l&#39;aide de **[!UICONTROL Charts]** dans la barre d&#39;outils ou le menu **[!UICONTROL Actions]**.
 
   Le bouton de la barre d’outils est sélectionné lorsque les graphiques sont affichés. Dans [!UICONTROL Actions], un commutateur indique si les graphiques sont affichés. Cliquez à nouveau sur le contrôle pour masquer les graphiques.
+
+## (Nouvelle interface utilisateur) Largeurs de colonne et valeurs de tableau {#column-widths-values-new-ui}
+
+Dans les tables de données de Campaign :
+
+* Redimensionnez une colonne en faisant glisser la limite entre les en-têtes de colonne. Vous pouvez également redimensionner les [colonnes verrouillées](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md) éligibles sans les déverrouiller au préalable. Les largeurs minimales permettent de garder les valeurs lisibles. Certaines colonnes d’icône et d’action ont des largeurs fixes et ne peuvent pas être redimensionnées.
+
+* Placez le curseur sur un nom d’entité tronqué pour afficher le nom complet.
+
+* Pour ouvrir les détails d&#39;une entité dont le nom est un lien, appuyez sur **Tab** jusqu&#39;à ce que le nom soit mis en surbrillance, puis appuyez sur **Entrée**.
+
+* Un tiret fin (-) indique une valeur manquante, NULL ou non applicable. Les valeurs zéro et false restent visibles.
