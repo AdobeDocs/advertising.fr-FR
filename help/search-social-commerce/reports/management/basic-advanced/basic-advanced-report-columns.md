@@ -35,7 +35,7 @@ ht-degree: 0%
 
 | Colonne | Description |
 | ---- | ---- |
-| \[Mesures personnalisées (dérivées) spécifiques à l’annonceur\] | Valeur d&#39;une [ mesure personnalisée que vous avez créée](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) et qui est calculée à partir de mesures existantes. |
+| \[Mesures personnalisées (dérivées) spécifiques à l’annonceur\] | Valeur d&#39;une [&#x200B; mesure personnalisée que vous avez créée](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) et qui est calculée à partir de mesures existantes. |
 | \[classifications de libellés spécifiques à l’annonceur\] | Toutes les classifications de libellés actuellement appliquées à l’entité, au niveau de l’entité. Plusieurs classifications de libellés sont séparées par des virgules (,). |
 | \[Mesures de conversion spécifiques à l’annonceur\] | Nombre de conversions pour une mesure de conversion ou une mesure d’engagement du site spécifiée. |
 | \[conversions suivies par Google\] | Voir l’entrée pour « GGL\*, GGL_CT\* et GGL_XD_CT\* ». |
@@ -61,7 +61,7 @@ ht-degree: 0%
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL LY Ads] et [!DNL Microsoft Advertising] campagnes) Ajustement des enchères mobiles au niveau du groupe publicitaire actuel, qui détermine la manière dont les enchères sont ajustées lorsque la publicité est affichée sur un appareil mobile. |
 | [!UICONTROL Adobe Tech Fees] | ([!UICONTROL Search Engine Account Report], [!UICONTROL Campaign Report], [!UICONTROL Ad Group Report] et [!UICONTROL Ad Variation Report] ; [!DNL ChatGPT Ads] uniquement) Les [!DNL Adobe] frais de technologie pour les dépenses média, calculés à l’aide des taux de frais applicables. |
 | [!UICONTROL AI Max Bundling Required] | (Campagnes qui ciblent uniquement le réseau de recherche ; campagnes avec la fonctionnalité AI Max activée ; lecture seule) Si le regroupement est obligatoire : *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* ou nul. |
-| [!UICONTROL AI Max Enabled] | Indique si la fonctionnalité [[!UICONTROL AI Max] ](https://support.google.com/google-ads/answer/15910366) est activée : *[!UICONTROL true]*, *[!UICONTROL false]* ou est nulle. |
+| [!UICONTROL AI Max Enabled] | Indique si la fonctionnalité [[!UICONTROL AI Max] &#x200B;](https://support.google.com/google-ads/answer/15910366) est activée : *[!UICONTROL true]*, *[!UICONTROL false]* ou est nulle. |
 | [!UICONTROL AI Max Search Term Matching] | (Campagnes qui ciblent le réseau de recherche et pour lesquelles la fonctionnalité [AI Max](https://support.google.com/google-ads/answer/15910366) et la fonctionnalité de correspondance des termes de recherche au niveau de la campagne sont activées ; lecture seule) Si la correspondance des termes de recherche au niveau du groupe publicitaire est activée : *[!UICONTROL true]*, *[!UICONTROL false]* ou null. |
 | [!UICONTROL Advertiser] | Nom de l’annonceur. |
 | [!UICONTROL Advertiser ID] | Identifiant numérique du compte Search, Social et Commerce de l’annonceur. |
