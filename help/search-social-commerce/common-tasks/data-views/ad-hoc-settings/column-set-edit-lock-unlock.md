@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '149'
 ht-degree: 0%
 ---
 # Verrouiller et déverrouiller une configuration de colonne dans les vues de campagne
@@ -26,10 +26,10 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
 
-Le verrouillage d’une colonne « verrouille » cette colonne et toutes les autres colonnes à gauche de celle-ci dans un volet statique, et toutes les colonnes à droite dans un autre volet à travers lequel vous pouvez faire défiler horizontalement.
+Le verrouillage d’une colonne « verrouille » cette colonne et toutes les autres colonnes à gauche de celle-ci dans un volet statique, et toutes les colonnes à droite dans un autre volet à travers lequel vous pouvez faire défiler horizontalement. Dans la nouvelle interface utilisateur, vous pouvez redimensionner les colonnes verrouillées éligibles en faisant glisser la limite entre les en-têtes de colonne sans les déverrouiller au préalable.
 
 Un verrou fonctionne uniquement jusqu’à ce que vous vous éloigniez de la vue d’entité. Vous ne pouvez pas l’enregistrer dans la vue par défaut ou personnalisée.
 
-* (Pour verrouiller une configuration de colonne) Sur le côté droit de l’en-tête de colonne, cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-dropdown.png "Flèche vers le bas") puis sélectionnez **[!UICONTROL Lock Column]**.
+* (Pour verrouiller une configuration de colonne) Sur le côté droit de l’en-tête de colonne, cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-dropdown.png "Flèche vers le bas"), puis sélectionnez **[!UICONTROL Lock Column]**.
 
-* (Pour déverrouiller une configuration de colonne) Sur le côté droit de n’importe quel en-tête de colonne dans le jeu de colonnes verrouillé, cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-dropdown.png "Flèche vers le bas"), puis sélectionnez **[!UICONTROL Unlock Column]**.
+* (Pour déverrouiller une configuration de colonne) Sur le côté droit de tout en-tête de colonne dans l’ensemble de colonnes verrouillé, cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-dropdown.png "Flèche vers le bas"), puis sélectionnez **[!UICONTROL Unlock Column]**.
