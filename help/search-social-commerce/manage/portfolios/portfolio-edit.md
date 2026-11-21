@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* Pour modifier les paramètres de plusieurs portfolios à la fois, voir « [ (nouvelle interface utilisateur) Modifier en bloc les paramètres de portfolio à l’aide de fichiers de feuille d’envoi groupé ](portfolio-bulksheets.md) ».
+>* Pour modifier les paramètres de plusieurs portfolios à la fois, voir « [&#x200B; (nouvelle interface utilisateur) Modifier en bloc les paramètres de portfolio à l’aide de fichiers de feuille d’envoi groupé &#x200B;](portfolio-bulksheets.md) ».
 >* Pour renommer rapidement un portfolio sans ouvrir les paramètres complets du portfolio, voir « [Renommer un portfolio](/help/search-social-commerce/manage/portfolios/portfolio-rename.md) ».
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.

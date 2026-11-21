@@ -46,7 +46,7 @@ Pour générer des balises de conversion pour des conversions existantes, utilis
 
 1. Copiez la balise de conversion et implémentez-la sur les sites web à partir desquels vous souhaitez effectuer le suivi de la mesure de conversion.
 
-   Voir « Installation de la balise [!DNL Google] » dans l’aide de [!DNL Google Ads] pour « [2 ». Configurez votre balise Google ](https://support.google.com/google-ads/answer/12215519). »
+   Voir « Installation de la balise [!DNL Google] » dans l’aide de [!DNL Google Ads] pour « [2 ». Configurez votre balise Google &#x200B;](https://support.google.com/google-ads/answer/12215519). »
 
 1. Cliquez sur **[!UICONTROL Done].**
 
@@ -64,7 +64,7 @@ Une fois que vous avez ajouté les balises à votre site web et qu’elles comme
 
 **\[Type d’action\]:** Que l’objectif soit un *[!UICONTROL Primary action used for bidding optimization]* ou un *[!UICONTROL Secondary action not used for bidding optimization]*.
 
-**[!UICONTROL Value]:** Comment mesurer la valeur [ de chaque conversion](https://support.google.com/google-ads/answer/3419241) :
+**[!UICONTROL Value]:** Comment mesurer la valeur [&#x200B; de chaque conversion](https://support.google.com/google-ads/answer/3419241) :
 
 * *[!UICONTROL Use the same value for each conversion],*, ce qui nécessite de sélectionner une devise et de saisir la valeur pour chaque conversion.
 

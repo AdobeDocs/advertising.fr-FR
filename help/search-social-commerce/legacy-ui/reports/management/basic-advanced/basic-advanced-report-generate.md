@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >.[!UICONTROL Reports]**
 
-1. Dans la barre d&#39;outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Create Report]**, placez le curseur sur **[!UICONTROL Basic Reports]** ou **[!UICONTROL Advanced Reports]**, puis cliquez sur le type de rapport [4}.](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/basic-advanced-report-about.md)
+1. Dans la barre d&#39;outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Create Report]**, placez le curseur sur **[!UICONTROL Basic Reports]** ou **[!UICONTROL Advanced Reports]**, puis cliquez sur le type de rapport [4&rbrace;.](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/basic-advanced-report-about.md)
 
 1. (Facultatif) Dans la fenêtre [!UICONTROL Report Settings], modifiez les [paramètres de rapport](basic-advanced-report-settings.md) par défaut :
 

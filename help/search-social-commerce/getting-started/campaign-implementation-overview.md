@@ -49,7 +49,7 @@ Cette liste de contrôle fournit les détails du compte et de la campagne pour l
 
    * **Chargement de données :** [Créez les détails du compte et chargez les données de campagne et de performance](/help/search-social-commerce/manage/accounts/data-upload-accounts/data-upload-account-manage.md). Ces comptes ne se synchronisent pas avec le réseau publicitaire et ne prennent pas en charge l’optimisation du portfolio.
 
-   * **[!DNL Naver]suivi uniquement :** suivez le workflow du compte de suivi uniquement [](/help/search-social-commerce/manage/accounts/template-account-manage.md). Utilisez des feuilles d’envoi groupé pour générer des URL de tracking et les appliquer dans l’éditeur du réseau publicitaire ; le compte ne se synchronise pas et ne prend pas en charge l’optimisation du portfolio.
+   * **[!DNL Naver]suivi uniquement :** suivez le workflow du compte de suivi uniquement [&#128279;](/help/search-social-commerce/manage/accounts/template-account-manage.md). Utilisez des feuilles d’envoi groupé pour générer des URL de tracking et les appliquer dans l’éditeur du réseau publicitaire ; le compte ne se synchronise pas et ne prend pas en charge l’optimisation du portfolio.
 
 1. **Examinez ou créez une structure de campagne.**
 

@@ -43,7 +43,7 @@ Les fichiers de feuilles d’envoi groupé et les fichiers d’erreur sont autom
 
    Les mêmes paramètres s&#39;appliquent à tous les fichiers que vous publiez.
 
-Lorsque la tâche commence, le statut et la date de publication planifiée de la ligne sont mis à jour dans la vue [!UICONTROL Bulksheets]. Lorsque les notifications par e-mail pour les feuilles d’envoi groupé sont [ activées dans [!UICONTROL Notification Center]](/help/search-social-commerce/common-tasks/notifications-manage.md), une notification par e-mail avec un lien vers le fichier est envoyée lorsque le fichier est publié. Selon la quantité de données compilées, la notification par e-mail peut prendre plusieurs minutes ou plus. Si l&#39;une des données ne peut pas être publiée, un fichier d&#39;erreur est répertorié dans la vue [!UICONTROL Bulksheets] et une notification par e-mail est envoyée avec un lien vers le fichier d&#39;erreur.
+Lorsque la tâche commence, le statut et la date de publication planifiée de la ligne sont mis à jour dans la vue [!UICONTROL Bulksheets]. Lorsque les notifications par e-mail pour les feuilles d’envoi groupé sont [&#x200B; activées dans [!UICONTROL Notification Center]](/help/search-social-commerce/common-tasks/notifications-manage.md), une notification par e-mail avec un lien vers le fichier est envoyée lorsque le fichier est publié. Selon la quantité de données compilées, la notification par e-mail peut prendre plusieurs minutes ou plus. Si l&#39;une des données ne peut pas être publiée, un fichier d&#39;erreur est répertorié dans la vue [!UICONTROL Bulksheets] et une notification par e-mail est envoyée avec un lien vers le fichier d&#39;erreur.
 
 >[!NOTE]
 >

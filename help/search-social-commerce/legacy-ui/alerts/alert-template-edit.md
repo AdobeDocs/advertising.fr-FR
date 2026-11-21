@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. (Facultatif) Filtrez la vue afin d’inclure des lignes avec des noms spécifiques, une plage de données à évaluer ou d’autres critères.
 
-   Vous pouvez appliquer des filtres de données [ à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou [ à partir des en-têtes de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+   Vous pouvez appliquer des filtres de données [&#x200B; à partir de la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou [&#x200B; à partir des en-têtes de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 1. En regard du nom du modèle, cliquez sur ![Modifier](/help/search-social-commerce/assets/edit.png "Modifier").
 

@@ -396,7 +396,7 @@ Générez un rapport qui inclut les lignes de données d&#39;une ou plusieurs ca
 
 Vous pouvez supprimer n’importe quel rapport généré.
 
-Voir aussi « >* [ (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) » et « [ (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier d’envoi groupé du menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md) ».
+Voir aussi « >* [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) » et « [&#x200B; (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier d’envoi groupé du menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md) ».
 
 ### Générer un rapport avec les lignes de données filtrées
 
@@ -456,7 +456,7 @@ Le traitement peut prendre une heure ou plus.
 >* [Gérer les affectations de contraintes pour les groupes publicitaires](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md#ad-group-constraints)
 >* [Gérer les affectations de contraintes pour les mots-clés](/help/search-social-commerce/manage/keywords/keyword-manage.md#keyword-constraints)
 >* [Gérer les affectations de contraintes pour les emplacements](/help/search-social-commerce/targeting/placement-manage.md#placement-constraints)
->* [ (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(interface utilisateur héritée) Supprimez un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] paramètres de la campagne](/help/search-social-commerce/manage/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] paramètres de la campagne](/help/search-social-commerce/manage/campaigns/campaign-settings-google.md)

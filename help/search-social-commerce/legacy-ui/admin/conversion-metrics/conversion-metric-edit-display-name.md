@@ -23,7 +23,7 @@ ht-degree: 0%
 ---
 # Modification du nom d’affichage d’une mesure de conversion
 
-Vous pouvez éventuellement modifier le nom qui s’affiche dans les en-têtes de colonne pour la lisibilité lorsqu’une mesure de [conversion](/help/search-social-commerce/glossary.md#c-d) est [ disponible pour les vues de campagne et de gestion de portfolio et dans les rapports](conversion-metric-edit-available.md). Par exemple, si vous collectez des données d’enregistrement à l’aide d’une mesure de conversion nommée *reg*, vous pouvez éventuellement modifier le nom d’affichage pour qu’il s’affiche sous la forme « Enregistrements ».
+Vous pouvez éventuellement modifier le nom qui s’affiche dans les en-têtes de colonne pour la lisibilité lorsqu’une mesure de [conversion](/help/search-social-commerce/glossary.md#c-d) est [&#x200B; disponible pour les vues de campagne et de gestion de portfolio et dans les rapports](conversion-metric-edit-available.md). Par exemple, si vous collectez des données d’enregistrement à l’aide d’une mesure de conversion nommée *reg*, vous pouvez éventuellement modifier le nom d’affichage pour qu’il s’affiche sous la forme « Enregistrements ».
 
 Vous ne pouvez pas supprimer un nom d’affichage existant.
 

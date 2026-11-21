@@ -80,7 +80,7 @@ La prise en charge n’est pas disponible pour les comptes [!DNL Microsoft Adver
 
 **[!UICONTROL Preferred Action optimization]:** Que l’objectif soit un *[!UICONTROL Primary action used for bidding optimization]* ou un *[!UICONTROL Secondary action not used for bidding optimization]*.
 
-**[!UICONTROL Conversion Value]:** Comment mesurer la valeur [ de chaque conversion](https://support.google.com/google-ads/answer/13064207) :
+**[!UICONTROL Conversion Value]:** Comment mesurer la valeur [&#x200B; de chaque conversion](https://support.google.com/google-ads/answer/13064207) :
 
 * *[!UICONTROL Use the same value for each conversion],*, ce qui nécessite de sélectionner une devise et de saisir la valeur pour chaque conversion.
 

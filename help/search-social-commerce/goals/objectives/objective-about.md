@@ -91,7 +91,7 @@ Vous pouvez éventuellement [charger les objectifs des portefeuilles du compte v
 
 * [Appliquer des recommandations de poids à un objectif](objective-apply-weight-recommendations.md)
 
-* [Exporter une configuration d&#39;objectif vers une feuille de calcul  [!DNL Microsoft Excel] ](objective-export.md)
+* [Exporter une configuration d&#39;objectif vers une feuille de calcul  [!DNL Microsoft Excel] &#x200B;](objective-export.md)
 
 * [Télécharger les données de performances pour les objectifs](objective-download-performance-data.md)
 

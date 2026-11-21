@@ -84,7 +84,7 @@ Une fois que vous avez créé l’action de conversion et implémenté une balis
 
 **[!UICONTROL Preferred Action optimization]:** Que l’objectif soit un *[!UICONTROL Primary action used for bidding optimization]* ou un *[!UICONTROL Secondary action not used for bidding optimization]*.
 
-**[!UICONTROL Conversion Value]:** Comment mesurer la valeur [ de chaque conversion](https://support.google.com/google-ads/answer/13064207) :
+**[!UICONTROL Conversion Value]:** Comment mesurer la valeur [&#x200B; de chaque conversion](https://support.google.com/google-ads/answer/13064207) :
 
 * *[!UICONTROL Use the same value for each conversion],*, ce qui nécessite de sélectionner une devise et de saisir la valeur pour chaque conversion.
 
@@ -120,7 +120,7 @@ Une fois que vous avez créé l’action de conversion et implémenté une balis
 
    Créez la balise de conversion et implémentez-la si nécessaire sur les sites web à partir desquels vous souhaitez effectuer le suivi de la mesure de conversion. Pour obtenir des instructions, reportez-vous aux sections suivantes :
 
-   * Pour utiliser la balise [!DNL Google], reportez-vous aux instructions [!DNL Google Ads] pour « Configurer les paramètres de balise [!DNL Google] » dans « [Configurer des conversions améliorées pour les prospects avec la balise  [!DNL Google] 5} ».](https://support.google.com/google-ads/answer/11347292)
+   * Pour utiliser la balise [!DNL Google], reportez-vous aux instructions [!DNL Google Ads] pour « Configurer les paramètres de balise [!DNL Google] » dans « [Configurer des conversions améliorées pour les prospects avec la balise  [!DNL Google] 5&rbrace; ».](https://support.google.com/google-ads/answer/11347292)
 
    * Pour utiliser [!DNL Google Tag Manager], consultez les instructions [!DNL Google Ads] pour « Configurer [!DNL Google] paramètres de balise » et « Vérifier votre configuration et publier le conteneur » dans « [Configurer des conversions améliorées pour les prospects avec  [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11021502?#configure) ».
 
@@ -138,7 +138,7 @@ Une fois que vous avez créé l’action de conversion et implémenté une balis
 
 **\[Type d’action\]:** Que l’objectif soit un *[!UICONTROL Primary action used for bidding optimization]* ou un *[!UICONTROL Secondary action not used for bidding optimization]*.
 
-**[!UICONTROL Value]:** Comment mesurer la valeur [ de chaque conversion](https://support.google.com/google-ads/answer/13064207) :
+**[!UICONTROL Value]:** Comment mesurer la valeur [&#x200B; de chaque conversion](https://support.google.com/google-ads/answer/13064207) :
 
 * *[!UICONTROL Use the same value for each conversion],*, ce qui nécessite de sélectionner une devise et de saisir la valeur pour chaque conversion.
 

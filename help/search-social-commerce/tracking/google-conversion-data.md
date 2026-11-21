@@ -40,7 +40,7 @@ Toutes les mesures sont automatiquement disponibles dans les vues de gestion de 
 
 Search, Social et Commerce synchronise les données pour les conversions pour lesquelles l’option « [!DNL Include in 'Conversions'] » est activée, en extrayant les données des 35 derniers jours, puis en extrayant les modifications quotidiennes de 09:00-10:00 dans le fuseau horaire de l’annonceur. Les données historiques peuvent changer d’un jour à l’autre à mesure que de nouvelles conversions sont suivies pour chaque clic.
 
-Jusqu’à trois mesures pour chaque conversion [[!DNL Google Ads] suivie ](https://support.google.com/google-ads/answer/4677036) (que vous configurez dans [!DNL Google Ads]) sont automatiquement disponibles dans Search, Social et Commerce, en utilisant les noms de conversion configurés dans [!DNL Google Ads]. Les mesures de chaque conversion sont les suivantes :
+Jusqu’à trois mesures pour chaque conversion [[!DNL Google Ads] suivie &#x200B;](https://support.google.com/google-ads/answer/4677036) (que vous configurez dans [!DNL Google Ads]) sont automatiquement disponibles dans Search, Social et Commerce, en utilisant les noms de conversion configurés dans [!DNL Google Ads]. Les mesures de chaque conversion sont les suivantes :
 
 <!--
 

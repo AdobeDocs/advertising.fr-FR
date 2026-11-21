@@ -25,7 +25,7 @@ Chaque annonceur peut avoir jusqu’à 30 classifications de libellés, qui sont
 
 ### Valeurs des libellés
 
-Chaque classification de libellé peut contenir jusqu’à 2 000 valeurs. Une fois que vous avez créé des valeurs d’étiquette spécifiques pour une classification, vous pouvez les affecter à des campagnes, des groupes d’annonces, des mots-clés, des annonces, des emplacements et des groupes de produits [ à partir des vues de gestion de campagne](#classification-values-assign-campaign-management) ou [à l’aide de feuilles d’envoi groupé](#classification-values-assign-bulksheets).
+Chaque classification de libellé peut contenir jusqu’à 2 000 valeurs. Une fois que vous avez créé des valeurs d’étiquette spécifiques pour une classification, vous pouvez les affecter à des campagnes, des groupes d’annonces, des mots-clés, des annonces, des emplacements et des groupes de produits [&#x200B; à partir des vues de gestion de campagne](#classification-values-assign-campaign-management) ou [à l’aide de feuilles d’envoi groupé](#classification-values-assign-bulksheets).
 
 Chaque entité éligible peut avoir des valeurs de libellé pour plusieurs classifications, mais une seule valeur de libellé par classification. Les valeurs des libellés sont héritées par les entités enfants mais peuvent être remplacées. La valeur affectée au niveau le plus bas remplace toujours les valeurs affectées aux niveaux parents.
 
@@ -41,7 +41,7 @@ La vue [!UICONTROL Reports] > [!UICONTROL Labels Classifications] comprend [!UIC
 
 * [Créer une classification de libellé](#classification-create).
 
-* Attribuez des valeurs de classification aux composants de compte [ à partir des vues de gestion de campagne](#classification-values-assign-campaign-management) ou [à l’aide de feuilles d’envoi groupé](#classification-values-assign-bulksheets).
+* Attribuez des valeurs de classification aux composants de compte [&#x200B; à partir des vues de gestion de campagne](#classification-values-assign-campaign-management) ou [à l’aide de feuilles d’envoi groupé](#classification-values-assign-bulksheets).
 
 * [Supprimez les valeurs de classification de libellé des composants de compte](#classification-values-remove).
 
@@ -59,7 +59,7 @@ La vue [!UICONTROL Reports] > [!UICONTROL Labels Classifications] comprend [!UIC
 
 1. Saisissez un nom de classification de libellé unique, puis cliquez sur **[!UICONTROL Create]**.
 
-   Le nom doit être unique pour le compte de l’annonceur et se composer de [caractères ASCII 32 à 126](https://www.asciitable.com/), la longueur maximale étant de 27 caractères codés sur un seul octet. Le nom ne peut pas être identique au nom d&#39;une colonne de rapport existante ou d&#39;une colonne de feuille d&#39;envoi groupé existante. Voir les noms des colonnes de la feuille d’envoi groupé pour [Baidu](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Afficher le réseau ](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) et [Yandex](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+   Le nom doit être unique pour le compte de l’annonceur et se composer de [caractères ASCII 32 à 126](https://www.asciitable.com/), la longueur maximale étant de 27 caractères codés sur un seul octet. Le nom ne peut pas être identique au nom d&#39;une colonne de rapport existante ou d&#39;une colonne de feuille d&#39;envoi groupé existante. Voir les noms des colonnes de la feuille d’envoi groupé pour [Baidu](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Afficher le réseau &#x200B;](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) et [Yandex](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
 
 ## Attribuer des valeurs de classification aux composants de compte à partir des vues de gestion de campagne {#classification-values-assign-campaign-management}
 

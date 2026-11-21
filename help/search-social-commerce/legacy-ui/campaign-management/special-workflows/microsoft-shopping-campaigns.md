@@ -61,7 +61,7 @@ Vous pouvez configurer des campagnes d’achat à l’aide de [modèles de flux 
 
    Vous pouvez également ajouter l’URL de suivi aux données de produit dans le compte [!DNL Microsoft Merchant Center]. Pour ce faire, incluez l’URL de tracking, ainsi que la valeur dans le champ « link » ou « mobile_link », selon le cas, dans une colonne personnalisée « [bingads_redirect](https://help.ads.microsoft.com/#apex/3/en/51084) » dans le flux de produits. La valeur du champ « bingads_redirect » remplace les valeurs des champs « link » et « mobile_link ». Les URL générées à l’aide de cette méthode n’incluent aucun paramètre de tracking spécifié dans les paramètres du compte Search, Social et Commerce ou de la campagne.
 
-1. Surveillez les performances en générant [ le [!UICONTROL Product Group Report]](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/basic-advanced-report-generate.md).
+1. Surveillez les performances en générant [&#x200B; le [!UICONTROL Product Group Report]](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/basic-advanced-report-generate.md).
 
 1. Au besoin :
 

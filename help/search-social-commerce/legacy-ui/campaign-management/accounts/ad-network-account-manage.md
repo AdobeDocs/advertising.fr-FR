@@ -37,7 +37,7 @@ Vous trouverez ci-dessous des instructions pour créer et modifier les détails 
 
 Pour plus d’informations sur les fonctionnalités disponibles pour chaque réseau publicitaire, voir « [Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md) ».
 
-Pour obtenir des instructions sur la gestion des comptes de réseau publicitaire dans la nouvelle interface utilisateur, voir « [(Nouvelle interface utilisateur) Gérer les comptes de réseau publicitaire via la connexion API ](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md) ».
+Pour obtenir des instructions sur la gestion des comptes de réseau publicitaire dans la nouvelle interface utilisateur, voir « [(Nouvelle interface utilisateur) Gérer les comptes de réseau publicitaire via la connexion API &#x200B;](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md) ».
 
 ## Créer un compte réseau publicitaire {#create-account}
 
@@ -182,7 +182,7 @@ Pour les comptes [!DNL Microsoft Advertising], seules les connexions autorisées
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** (tous les réseaux publicitaires sauf [!DNL Naver]) Nom ou ID de connexion pour activer l’accès API au compte.
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token] :** ([!DNL Microsoft Advertising] activé pour [!DNL oAuth] et tous les autres réseaux à l’exception de [!DNL Meta] et [!DNL Yandex]) Jeton du compte permettant d’autoriser les connexions à l’aide du protocole d’autorisation [[!DNL OAuth] ](https://oauth.net/2/).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token] :** ([!DNL Microsoft Advertising] activé pour [!DNL oAuth] et tous les autres réseaux à l’exception de [!DNL Meta] et [!DNL Yandex]) Jeton du compte permettant d’autoriser les connexions à l’aide du protocole d’autorisation [[!DNL OAuth] &#x200B;](https://oauth.net/2/).
 
 **[!UICONTROL Login Details]: [!UICONTROL Password]:** (tous les réseaux publicitaires sauf [!DNL Naver]) Mot de passe du compte. Pour les comptes activés par mot de passe sur [!DNL LY Ads], [!DNL Microsoft Advertising] et [!DNL Yandex], ce champ est obligatoire. Pour les comptes activés pour [!DNL oAuth], ce champ est facultatif ; utilisez-le lorsque vous souhaitez chiffrer et enregistrer le mot de passe afin que le gestionnaire de compte puisse actualiser les jetons si nécessaire.
 

@@ -58,7 +58,7 @@ Pour utiliser cette fonctionnalité, procédez comme suit. Les étapes de créat
 
 1. Configurez et implémentez une balise pour effectuer le suivi de l’action de conversion.
 
-   Pour obtenir des instructions, consultez l’aide de [!DNL Google Ads] pour créer des balises pour des conversions améliorées pour les prospects [ à l’aide d’une  [!DNL Google] balise](https://support.google.com/google-ads/answer/11021502) ou [à l’aide de [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292).
+   Pour obtenir des instructions, consultez l’aide de [!DNL Google Ads] pour créer des balises pour des conversions améliorées pour les prospects [&#x200B; à l’aide d’une  [!DNL Google] balise](https://support.google.com/google-ads/answer/11021502) ou [à l’aide de [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292).
 
 1. Créez une action de conversion pour la conversion améliorée pour les prospects dans les publicités [Search, Social et Commerce](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-action-google.md) ou [Google](https://support.google.com/google-ads/answer/12216226).
 

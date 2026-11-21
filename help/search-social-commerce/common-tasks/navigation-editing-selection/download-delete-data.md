@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* La suppression d’un fichier de feuille d’envoi groupé le supprime de la liste [!UICONTROL Downloads] et également de la vue [!UICONTROL Bulksheets].
->* Consultez également l’aide sur le téléchargement de données dans la nouvelle interface utilisateur à partir de la vue « [[!UICONTROL Portfolios] ](/help/search-social-commerce/manage/portfolios/portfolio-view-report.md) », « [[!UICONTROL Campaigns] vue ](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-reports) » et « [[!UICONTROL Ad Groups] vue ](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md#ad-group-reports) ».
+>* Consultez également l’aide sur le téléchargement de données dans la nouvelle interface utilisateur à partir de la vue « [[!UICONTROL Portfolios] &#x200B;](/help/search-social-commerce/manage/portfolios/portfolio-view-report.md) », « [[!UICONTROL Campaigns] vue &#x200B;](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-reports) » et « [[!UICONTROL Ad Groups] vue &#x200B;](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md#ad-group-reports) ».
 
 1. Dans le menu principal, cliquez sur [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], puis ouvrez n’importe quelle vue d’entité.
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Portfolios]](/help/search-social-commerce/manage/portfolios/portfolio-view-report.md)
 >* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-reports)
 >* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ad Groups]](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md#ad-group-reports)

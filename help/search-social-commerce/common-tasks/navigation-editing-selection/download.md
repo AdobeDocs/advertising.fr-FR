@@ -34,7 +34,7 @@ Vous pouvez télécharger les données des vues [!UICONTROL Search, Social, & Co
 
 >[!NOTE]
 >
->Consultez également l’aide sur le téléchargement de données dans la nouvelle interface utilisateur à partir de la vue « [[!UICONTROL Portfolios] ](/help/search-social-commerce/manage/portfolios/portfolio-view-report.md) », « [[!UICONTROL Campaigns] vue ](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-reports) » et « [[!UICONTROL Ad Groups] vue ](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md#ad-group-reports) ».
+>Consultez également l’aide sur le téléchargement de données dans la nouvelle interface utilisateur à partir de la vue « [[!UICONTROL Portfolios] &#x200B;](/help/search-social-commerce/manage/portfolios/portfolio-view-report.md) », « [[!UICONTROL Campaigns] vue &#x200B;](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-reports) » et « [[!UICONTROL Ad Groups] vue &#x200B;](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md#ad-group-reports) ».
 
 1. (Facultatif) Sélectionnez les lignes individuelles à inclure dans le fichier.
 

@@ -33,7 +33,7 @@ Vous pouvez générer un rapport qui inclut les lignes de données d&#39;un ou d
 
 Vous pouvez supprimer n’importe quel rapport généré.
 
-Voir aussi « >* [ (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) » et « [ (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier d’envoi groupé du menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md) ».
+Voir aussi « >* [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) » et « [&#x200B; (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier d’envoi groupé du menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md) ».
 
 ## Générer un rapport avec les lignes de données filtrées
 
@@ -79,5 +79,5 @@ Voir aussi « >* [ (interface utilisateur héritée) Télécharger des données 
 >
 >* [À propos des portefeuilles](portfolio-about.md)
 >* [(Nouvelle interface utilisateur) Afficher les détails sur les performances du portfolio](portfolio-details.md)
->* [ (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(interface utilisateur héritée) Supprimez un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)

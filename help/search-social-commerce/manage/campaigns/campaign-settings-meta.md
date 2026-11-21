@@ -43,7 +43,7 @@ Vous ne pouvez pas créer de campagnes [!DNL Meta Ads] dans Search, Social et Co
 
 {{$include /help/_includes/override-account-tracking.md}}
 
-**[!UICONTROL Tracking Config]: [!UICONTROL Enable conversion reporting in Adobe Analytics]:** (annonceurs [ avec [!DNL Adobe Analytics for Advertising]](/help/integrations/analytics/overview.md) et avec une suite de rapports Adobe Analytics spécifiée dans les paramètres du compte) Ajoute le paramètre de suivi [AMO ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) à toutes les publicités de la campagne. Le paramètre permet à Adobe Analytics d’associer des conversions à des campagnes Meta Ads dans la suite de rapports spécifiée dans les paramètres du compte.
+**[!UICONTROL Tracking Config]: [!UICONTROL Enable conversion reporting in Adobe Analytics]:** (annonceurs [&#x200B; avec [!DNL Adobe Analytics for Advertising]](/help/integrations/analytics/overview.md) et avec une suite de rapports Adobe Analytics spécifiée dans les paramètres du compte) Ajoute le paramètre de suivi [AMO ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) à toutes les publicités de la campagne. Le paramètre permet à Adobe Analytics d’associer des conversions à des campagnes Meta Ads dans la suite de rapports spécifiée dans les paramètres du compte.
 
 >[!MORELIKETHIS]
 >

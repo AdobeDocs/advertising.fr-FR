@@ -28,7 +28,7 @@ Chaque annonceur peut avoir jusqu’à 30 classifications de libellés, qui sont
 
 ## Valeurs des libellés
 
-Chaque classification de libellé peut contenir jusqu’à 2 000 valeurs. Une fois que vous avez créé des valeurs d’étiquette spécifiques pour une classification, vous pouvez les affecter à des campagnes, des groupes d’annonces, des mots-clés, des annonces, des emplacements et des groupes de produits [ à partir des vues de gestion de campagne](classification-values-assign-campaign-management.md) ou [à l’aide de feuilles d’envoi groupé](classification-values-assign-bulksheets.md).
+Chaque classification de libellé peut contenir jusqu’à 2 000 valeurs. Une fois que vous avez créé des valeurs d’étiquette spécifiques pour une classification, vous pouvez les affecter à des campagnes, des groupes d’annonces, des mots-clés, des annonces, des emplacements et des groupes de produits [&#x200B; à partir des vues de gestion de campagne](classification-values-assign-campaign-management.md) ou [à l’aide de feuilles d’envoi groupé](classification-values-assign-bulksheets.md).
 
 Chaque entité éligible peut avoir des valeurs de libellé pour plusieurs classifications, mais une seule valeur de libellé par classification. Les valeurs des libellés sont héritées par les entités enfants mais peuvent être remplacées. La valeur affectée au niveau le plus bas remplace toujours les valeurs affectées aux niveaux parents.
 

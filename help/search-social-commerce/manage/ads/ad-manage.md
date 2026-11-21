@@ -131,7 +131,7 @@ Cependant, il n’est pas disponible pour les campagnes [!DNL Google Ads] de pub
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
-1. <!-- Add link to where to generate this once available to users-->(Achats d’annonces dans des campagnes avec suivi des conversions Adobe Advertising ; facultatif) Pour effectuer le suivi des clics sur l’annonce, ajoutez manuellement une URL de suivi aux paramètres du compte, de la campagne ou du groupe de produits.
+1. &#x200B;<!-- Add link to where to generate this once available to users-->(Achats d’annonces dans des campagnes avec suivi des conversions Adobe Advertising ; facultatif) Pour effectuer le suivi des clics sur l’annonce, ajoutez manuellement une URL de suivi aux paramètres du compte, de la campagne ou du groupe de produits.
 
 ## Renommer une publicité {#ad-rename}
 
@@ -159,7 +159,7 @@ Renommez rapidement une publicité sans ouvrir les paramètres complets de la pu
 
 1. Dans la barre d’outils des actions en bloc, cliquez sur **[!UICONTROL Edit]**.
 
-1. Modifiez les paramètres restants d’une [annonce de texte Baidu](ad-settings-baidu-text.md), d’une [[!DNL ChatGPT Ads] annonce](/help/search-social-commerce/manage/ads/ad-settings-chatgpt.md), de [annonce de recherche dynamique étendue Google Ads](ad-settings-google-dsa.md) (désormais appelée uniquement « annonce de recherche dynamique » dans Google Ads), d’une [annonce de recherche réactive Google Ads](ad-settings-google-rsa.md), d’une [annonce de recherche dynamique étendue Microsoft Advertising](ad-settings-microsoft-dsa.md), d’une [annonce multimédia Microsoft Advertising](ad-settings-microsoft-multimedia.md), d’une [annonce de produit Microsoft Advertising](ad-settings-microsoft-product.md), d’une [annonce de recherche réactive Microsoft (audience)](ad-settings-microsoft-responsive.md) ou d’une ](ad-settings-microsoft-rsa.md) [Paramètres de l’annonce textuelle Yandex](ad-settings-yandex-text.md).[
+1. Modifiez les paramètres restants d’une [annonce de texte Baidu](ad-settings-baidu-text.md), d’une [[!DNL ChatGPT Ads] annonce](/help/search-social-commerce/manage/ads/ad-settings-chatgpt.md), de [annonce de recherche dynamique étendue Google Ads](ad-settings-google-dsa.md) (désormais appelée uniquement « annonce de recherche dynamique » dans Google Ads), d’une [annonce de recherche réactive Google Ads](ad-settings-google-rsa.md), d’une [annonce de recherche dynamique étendue Microsoft Advertising](ad-settings-microsoft-dsa.md), d’une [annonce multimédia Microsoft Advertising](ad-settings-microsoft-multimedia.md), d’une [annonce de produit Microsoft Advertising](ad-settings-microsoft-product.md), d’une [annonce de recherche réactive Microsoft (audience)](ad-settings-microsoft-responsive.md) ou d’une [&#128279;](ad-settings-microsoft-rsa.md) [Paramètres de l’annonce textuelle Yandex](ad-settings-yandex-text.md).
 
 1. Cliquez sur **[!UICONTROL Review and Save]**.
 
@@ -203,7 +203,7 @@ Générez un rapport qui inclut les lignes de données pour une ou plusieurs pub
 
 Vous pouvez supprimer n’importe quel rapport généré.
 
-Consultez également la section « [ (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) » et « [ (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier d’envoi groupé du menu [!UICONTROL Downloads] ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md) ».
+Consultez également la section « [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md) » et « [&#x200B; (interface utilisateur héritée) Supprimer un rapport de données de performances ou un fichier d’envoi groupé du menu [!UICONTROL Downloads] &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md) ».
 
 ### Générer un rapport avec les lignes de données filtrées
 
