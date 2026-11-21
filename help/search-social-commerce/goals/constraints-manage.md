@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *Applicable aux unités d&#39;enchères dans les campagnes CPC des portefeuilles hérités de niveau mot-clé uniquement*
 
-Les contraintes d’unités d’offres sont des règles qui limitent les offres optimisées pour toutes les [unités d’offres](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html) avec les modèles de coût et de chiffre d’affaires associés à la contrainte.
+Les contraintes d’unités d’offres sont des règles qui limitent les offres optimisées pour toutes les [unités d’offres](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=fr) avec les modèles de coût et de chiffre d’affaires associés à la contrainte.
 
 ## À propos des contraintes
 

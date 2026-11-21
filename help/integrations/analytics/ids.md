@@ -70,13 +70,13 @@ Adobe Advertising fait la distinction entre une entrée de clic publicitaire ou 
 
 L’ID d’EF est un jeton unique utilisé par Adobe Advertising pour associer l’activité à une exposition de publicité ou de clic en ligne au niveau du navigateur ou de l’appareil concerné. Les identifiants EF agissent principalement comme des clés pour envoyer [!DNL Analytics] données et données Customer Journey Analytics à Adobe Advertising pour la création de rapports et l’optimisation des enchères dans Adobe Advertising.
 
-Pour [!DNL Analytics], l’ID d’EF est stocké dans la dimension [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou [!DNL rVar] (réservé [!DNL eVar]) (ID d’EF Adobe Advertising).
+Pour [!DNL Analytics], l’ID d’EF est stocké dans la dimension [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=fr) ou [!DNL rVar] (réservé [!DNL eVar]) (ID d’EF Adobe Advertising).
 
-Pour Customer Journey Analytics, l’ID d’EF est stocké dans la propriété `trackingIdentities` de l’objet `conversionDetails`, qui fait partie de [le [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
+Pour Customer Journey Analytics, l’ID d’EF est stocké dans la propriété `trackingIdentities` de l’objet `conversionDetails`, qui fait partie de [le [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
 
 ### Formats des ID EF {#ef-id-formats}
 
-Consultez les [formats des éléments de dimension ID EF](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id#dimension-items) dans le « Guide des composants Adobe Analytics ».
+Consultez les [formats des éléments de dimension ID EF](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-ef-id#dimension-items) dans le « Guide des composants Adobe Analytics ».
 
 >[!NOTE]
 >
@@ -177,7 +177,7 @@ Pour les rapports ou les audits dans [!DNL Analytics], la bonne pratique consist
 
 ## À propos de [!DNL Analytics] classifications
 
-Dans [!DNL Analytics], une [classification](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) est un élément de métadonnées pour un code de suivi donné, tel qu’un compte, une campagne ou une publicité. Adobe Advertising classe les données Adobe Advertising brutes à l’aide de classifications afin que vous puissiez afficher les données de différentes manières (par exemple par type d’annonce ou campagne) lorsque vous générez des rapports. Les classifications forment la base des rapports Adobe Advertising dans [!DNL Analytics] et peuvent être utilisées avec les mesures AMO, telles que [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] et [!UICONTROL AMO Clicks], ainsi qu’avec les événements sur site personnalisés et standard tels que [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] et [!UICONTROL Revenue].
+Dans [!DNL Analytics], une [classification](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=fr) est un élément de métadonnées pour un code de suivi donné, tel qu’un compte, une campagne ou une publicité. Adobe Advertising classe les données Adobe Advertising brutes à l’aide de classifications afin que vous puissiez afficher les données de différentes manières (par exemple par type d’annonce ou campagne) lorsque vous générez des rapports. Les classifications forment la base des rapports Adobe Advertising dans [!DNL Analytics] et peuvent être utilisées avec les mesures AMO, telles que [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] et [!UICONTROL AMO Clicks], ainsi qu’avec les événements sur site personnalisés et standard tels que [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] et [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >

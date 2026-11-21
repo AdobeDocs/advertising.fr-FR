@@ -27,10 +27,10 @@ ht-degree: 2%
   + [Inventaire pris en charge](/help/search-social-commerce/introduction/supported-inventory.md)
   + Intégration à Adobe CX Enterprise {#integrations}
     + [Intégration aux solutions et services Adobe CX Enterprise](/help/search-social-commerce/introduction/integrations.md)
-    + [Adobe [!DNL Analytics for Advertising] (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
-    + [Intégration avec Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
-  + [Prise en charge de la confidentialité des clients (lien)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-  + [Politiques et directives (lien)](https://experienceleague.adobe.com/en/docs/advertising/policies/ad-requirements-policy){target="_blank"}
+    + [Adobe [!DNL Analytics for Advertising] (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=fr){target="_blank"}
+    + [Intégration avec Adobe Audience Manager (lien)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=fr){target="_blank"}
+  + [Prise en charge de la confidentialité des clients (lien)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=fr){target="_blank"}
+  + [Politiques et directives (lien)](https://experienceleague.adobe.com/fr/docs/advertising/policies/ad-requirements-policy){target="_blank"}
 + Prise en main {#getting-started}
   + [Présentation de l’implémentation](/help/search-social-commerce/getting-started/implemention-overview.md)
   + [Configurer des comptes et des campagnes de réseau publicitaire](/help/search-social-commerce/getting-started/campaign-implementation-overview.md)
@@ -290,7 +290,7 @@ ht-degree: 2%
         + [Formats de suivi des clics pour  [!DNL Yahoo DSP]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
         + [Formats de suivi des clics pour  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
       + [Paramètres de tracking optionnels des URL de tracking des clics](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-    + [Cookies Adobe Advertising (lien)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
+    + [Cookies Adobe Advertising (lien)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=fr){target="_blank"}
     + [Le paramètre de tracking AMO ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
   + Suivi des conversions {#conversion-tracking}
     + [Options de suivi des conversions](/help/search-social-commerce/tracking/conversion-tracking-about.md)
