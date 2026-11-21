@@ -23,7 +23,7 @@ subfeature_v2:
     internal-label: Specialty reports
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
     internal-label: Reports
-source-git-commit: fbbc4aabc435023aafbef2443735a7fb285561be
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 6%
@@ -32,7 +32,7 @@ ht-degree: 6%
 
 Search, Social et Commerce comprend un ensemble complet de rapports de performances basés sur les données de clics et de conversion. Vous pouvez afficher des données de performances de base pour les différents composants d’un portefeuille ou d’un compte publicitaire à partir des vues [!UICONTROL Portfolios] et [!UICONTROL Campaigns], ainsi qu’en générant divers rapports de base et avancés.
 
-Les annonceurs qui utilisent le service de suivi des conversions d’Adobe Advertising peuvent également identifier le nombre de clics pour un emplacement géographique ou un nom de domaine d’un site web de référence, la manière dont les publicités dans chaque canal et les différents événements menant à une conversion contribuent au taux de conversion global, ainsi que la répartition des conversions pour une [mesure de conversion](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) unique par canal marketing. Les rapports disponibles varient selon le type de compte utilisateur. L’équipe du compte Adobe a accès à tous les rapports.
+Les annonceurs qui utilisent le service de suivi des conversions d’Adobe Advertising peuvent également identifier le nombre de clics pour un emplacement géographique ou un nom de domaine d’un site web de référence, la manière dont les publicités dans chaque canal et les différents événements menant à une conversion contribuent au taux de conversion global, ainsi que la répartition des conversions pour une [mesure de conversion](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md) unique par canal marketing. Les rapports disponibles varient selon le type de compte utilisateur. L’équipe du compte Adobe a accès à tous les rapports.
 
 La plupart des rapports peuvent être personnalisés pour afficher uniquement les informations souhaitées. Les mesures standard suivantes sont disponibles dans la plupart des rapports et sont calculées au niveau des annonces :
 
@@ -52,7 +52,7 @@ La plupart des rapports peuvent être personnalisés pour afficher uniquement le
 
 * **Mesures de conversion :** Nombre total de conversions pour chacune des mesures de conversion de l’annonceur ou des données de transaction suivies vers une mesure de conversion. Il peut s’agir de mesures d’engagement du site et de conversion, mais pas de mesures calculées ni de mesures calculées avancées, synchronisées à partir d’Adobe Analytics.
 
-  Cela peut également inclure les conversions [[!DNL Google Ads] suivies](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) et les conversions [[!DNL Google Analytics] suivies](/help/search-social-commerce/admin/data-sources/data-source-about.md) synchronisées pour le compte de l’annonceur.
+  Cela peut également inclure les conversions [[!DNL Google Ads] suivies](/help/search-social-commerce/tracking/google-conversion-data.md) et les conversions [[!DNL Google Analytics] suivies](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md) synchronisées pour le compte de l’annonceur.
 
 * **Mesures personnalisées :** vos propres mesures, que vous obtenez en créant des formules basées sur des mesures existantes (telles que le coût par commande).
 
@@ -79,5 +79,5 @@ Selon la règle d’attribution que vous spécifiez pour le rapport, les donnée
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports](/help/search-social-commerce/reports/report-about.md)
->* [Tâches de configuration initiale pour les rapports](/help/search-social-commerce/reports/initial-setup.md)
+>* [À propos des rapports](/help/search-social-commerce/legacy-ui/reports/report-about.md)
+>* [Tâches de configuration initiale pour les rapports](/help/search-social-commerce/legacy-ui/reports/initial-setup.md)

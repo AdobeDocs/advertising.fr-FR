@@ -1,0 +1,70 @@
+---
+title: Modifier les paramètres du flux de rapports d'une feuille de calcul
+description: Découvrez comment modifier les paramètres des flux de feuilles de calcul.
+exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
+feature: Search Reports
+TQID: 'https://experienceleague.adobe.com/xsq7qkYTc5p7Q4Q-LKHeCX7-W8DRW80ET6ylOWocYG0'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '315'
+ht-degree: 0%
+---
+# Modifier les paramètres du flux de rapports d&#39;une feuille de calcul
+
+*Pour les rapports de base et les rapports sur la précision des modèles uniquement*
+
+Vous pouvez modifier le modèle de rapport, le modèle [!DNL Microsoft Excel] et les autres paramètres utilisés pour un flux de feuille de calcul.
+
+>[!NOTE]
+>
+> Si vous modifiez les colonnes du modèle de rapport ou utilisez un nouveau modèle de rapport ou un modèle de rapport mis à jour, vous devez mettre à jour le modèle [!DNL Excel] en conséquence et le charger à nouveau.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >.[!UICONTROL Spreadsheet Feeds]**
+
+1. (Facultatif) Pour mettre à jour le modèle de rapport ou le modèle [!DNL Excel] utilisé pour le flux de feuille de calcul :
+
+   * (Facultatif) Pour utiliser un modèle de rapport différent ou mis à jour pour le flux, [créez un nouveau [!DNL Excel] modèle de rapport](spreadsheet-feed-create-excel-template.md).
+
+     Vous devrez charger le modèle de rapport et le nouveau fichier [!DNL Excel] à l&#39;étape suivante.
+
+   * (Facultatif) Pour ajouter simplement des colonnes personnalisées au modèle [!DNL Excel], insérez les colonnes à droite des colonnes du modèle de rapport, puis enregistrez le fichier en tant que feuille de calcul [!DNL Excel] au format .XLSX. Vous devrez charger le nouveau fichier [!DNL Excel] à l&#39;étape suivante.
+
+1. Modifiez les paramètres de flux de la feuille de calcul :
+
+   * Dans le menu principal, cliquez sur **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
+
+   * En regard du nom du flux de la feuille de calcul, cliquez sur ![Bouton Afficher/modifier les paramètres](/help/search-social-commerce/assets/settings.png "Bouton Afficher/modifier les paramètres").
+
+   * Dans la boîte de dialogue [!UICONTROL Edit Spreadsheet Feed], modifiez les [paramètres de flux de feuille de calcul](spreadsheet-feed-settings.md).
+
+   * Cliquez sur **[!UICONTROL Submit]**.
+
+   * (Facultatif) Une fois que le [!UICONTROL Update Status] du flux est *[!UICONTROL Finished]*, cliquez sur **[!UICONTROL XLSX]** en regard du flux, puis ouvrez ou enregistrez le fichier conformément à la procédure normale de votre navigateur.
+
+     >[!NOTE]
+     >
+     > Si le modèle de rapport associé au flux est supprimé ultérieurement, le flux est également supprimé.
+
+     Les flux des feuilles de calcul sont automatiquement actualisés à 8 h chaque jour dans le fuseau horaire de l’annonceur. Si le modèle de rapport inclut des adresses pour des destinataires d’e-mails, ces adresses reçoivent des notifications lorsque la feuille de calcul est actualisée.
+
+>[!MORELIKETHIS]
+>
+>* [À propos des flux de rapports de feuilles de calcul](spreadsheet-feed-about.md)
+>* [Créer un flux de rapports de feuille de calcul](spreadsheet-feed-create.md)
+>* [Créer un [!DNL Excel] modèle pour un flux de rapports de feuille de calcul](spreadsheet-feed-create-excel-template.md)
+>* [Modifier les paramètres de flux de rapports de feuille de calcul](spreadsheet-feed-edit.md)
+>* [Paramètres de flux de rapports de feuille de calcul](spreadsheet-feed-settings.md)
+>* [Afficher ou enregistrer un fichier de flux de rapports de feuille de calcul](spreadsheet-feed-view-or-save.md)
+>* [Actualiser manuellement les flux de rapports de feuille de calcul](spreadsheet-feed-refresh.md)

@@ -13,23 +13,23 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
 ---
-# (Interface utilisateur héritée) Supprimez un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads]
+# (IU héritée) Supprimer un rapport de données de performances ou un fichier de feuille d’envoi groupé du menu [!UICONTROL Downloads]
 
 *Interface utilisateur héritée*
 
 >[!NOTE]
 >
->* La suppression d’un fichier de feuille d’envoi groupé le supprime de [!UICONTROL Downloads] liste ainsi que de la vue [!UICONTROL Bulksheets].
->* Consultez également l’aide sur le téléchargement de données dans la nouvelle interface utilisateur à partir de la « vue [[!UICONTROL Portfolios] »](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md) de la « vue [[!UICONTROL Campaigns] »](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports) et de la « vue [[!UICONTROL Ad Groups] »](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md).
+>* La suppression d’un fichier de feuille d’envoi groupé le supprime de la liste [!UICONTROL Downloads] et également de la vue [!UICONTROL Bulksheets].
+>* Consultez également l’aide sur le téléchargement de données dans la nouvelle interface utilisateur à partir de la vue « [[!UICONTROL Portfolios] &#x200B;](/help/search-social-commerce/manage/portfolios/portfolio-view-report.md) », « [[!UICONTROL Campaigns] vue &#x200B;](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-reports) » et « [[!UICONTROL Ad Groups] vue &#x200B;](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md#ad-group-reports) ».
 
 1. Dans le menu principal, cliquez sur [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], puis ouvrez n’importe quelle vue d’entité.
 
-1. Sur le côté droit de la barre d’outils, cliquez sur ![Téléchargement du rapport](/help/search-social-commerce/assets/download.png "Téléchargement du rapport") pour afficher le panneau Téléchargements.
+1. Sur le côté droit de la barre d’outils, cliquez sur ![Téléchargement de rapports](/help/search-social-commerce/assets/download.png "Téléchargement de rapports") pour afficher le panneau Téléchargements.
 
 1. En regard du rapport ou de la feuille d’envoi groupé, cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete.png "Supprimer").
 
@@ -38,6 +38,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [&#x200B; (interface utilisateur héritée) Télécharger des données à partir d’une vue de gestion de campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
->* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
->* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)
->* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
+>* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Portfolios]](/help/search-social-commerce/manage/portfolios/portfolio-view-report.md)
+>* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Campaigns]](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-reports)
+>* [(Nouvelle interface utilisateur) Gérer les rapports de vue de données à partir de la vue [!UICONTROL Ad Groups]](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md#ad-group-reports)

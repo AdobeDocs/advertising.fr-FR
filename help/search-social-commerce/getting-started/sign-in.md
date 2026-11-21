@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Search, Social et Commerce passent au service Adobe Identity Management (IMS) pour l’authentification de la connexion. IMS fournit un accès SSO (authentification unique) à l’aide de Federated ID à tous les produits [!DNL Adobe] qui prennent en charge IMS, notamment Real-Time Customer Data Platform, Customer Journey Analytics, Target et Analytics. Avec la modification :
 
-* Vous pouvez utiliser une [!DNL Adobe ID] pour vous connecter à [!DNL Adobe] produits à partir de la page de connexion de CX Enterprise ou de la page de connexion héritée de Search, Social et Commerce. Votre [!DNL Adobe ID] permet de gérer les profils utilisateur et de basculer vers un autre produit [!DNL Adobe] à partir du menu supérieur. Dans une version ultérieure, vous pourrez modifier le compte Search, Social et Commerce ainsi que le compte d’organisation IMS à partir du menu supérieur.
+* Vous pouvez utiliser un [!DNL Adobe ID] pour vous connecter à [!DNL Adobe] produits à partir de la page de connexion de CX Enterprise ou de la page de connexion héritée de Search, Social et Commerce. Votre [!DNL Adobe ID] offre la gestion des profils utilisateur et la possibilité de passer à un autre produit [!DNL Adobe] à partir du menu supérieur. Dans une version ultérieure, vous pourrez modifier le compte Search, Social et Commerce ainsi que le compte d’organisation IMS à partir du menu supérieur.
 
 * L’authentification d’entreprise est prise en charge.
 
@@ -33,7 +33,7 @@ Search, Social et Commerce passent au service Adobe Identity Management (IMS) po
 
 Vos informations d’identification Search, Social et Commerce actuelles resteront actives pendant une courte période afin que vous puissiez vous préparer au changement.
 
-Pour plus d’informations sur l’interface de CX Enterprise, notamment sur la gestion de votre profil utilisateur, voir « Interface et administration de [CX Enterprise &#x200B;](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud) ».
+Pour plus d’informations sur l’interface de CX Enterprise, notamment sur la gestion de votre profil utilisateur, voir « [Interface et administration de CX Enterprise](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud) ».
 
 ## Connectez-vous à partir de la page de connexion héritée Search, Social et Commerce
 
@@ -49,7 +49,7 @@ Cette option est disponible pendant une courte période afin que vous puissiez v
 
 1. Accédez à [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) ou [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) et cliquez sur **[!UICONTROL Sign in with SSO]**.
 
-1. Saisissez votre ID de [!DNL Adobe], puis cliquez sur **[!UICONTROL Continue]**.
+1. Saisissez votre identifiant [!DNL Adobe], puis cliquez sur **[!UICONTROL Continue]**.
 
 1. À l’invite, sélectionnez **[!UICONTROL Personal Account] » ou &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
@@ -63,7 +63,7 @@ Cette option est disponible pendant une courte période afin que vous puissiez v
 
 1. Accédez à [experience.adobe.com](https://experience.adobe.com).
 
-1. Saisissez votre ID de [!DNL Adobe], puis cliquez sur **[!UICONTROL Continue]**.
+1. Saisissez votre identifiant [!DNL Adobe], puis cliquez sur **[!UICONTROL Continue]**..
 
 1. À l’invite, sélectionnez **[!UICONTROL Personal Account] » ou &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
@@ -79,5 +79,5 @@ La nouvelle interface utilisateur s’ouvre par défaut.
 >
 >* [Basculer entre les nouvelles interfaces utilisateur et les anciennes](ui-switch.md)
 >* [Se déconnecter](sign-out.md)
->* [Modifier votre mot de passe](/help/search-social-commerce/tools/password-change.md)
->* [Organisation de l’interface utilisateur](user-interface.md)
+>* [Modifier votre mot de passe](/help/search-social-commerce/legacy-ui/tools/password-change.md)
+>* [Organisation de l&#39;interface utilisateur](user-interface.md)

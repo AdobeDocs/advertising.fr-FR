@@ -1,0 +1,65 @@
+---
+title: '[!DNL Microsoft Advertising] paramètres des annonces responsive sur le Réseau de Recherche'
+description: Référencez les paramètres de [!DNL Microsoft Advertising] annonces de recherches réactives.
+exl-id: 470008e1-7c7d-49a6-b542-fe384c473c97
+feature: Search Campaign Management
+TQID: 'https://experienceleague.adobe.com/ojH4Eiwn2rZXy-j4ZuuM5zRELQXFqiiZgCPOQznrEOQ'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 0%
+---
+# [!DNL Microsoft Advertising] paramètres des annonces responsive sur le Réseau de Recherche
+
+Le format d’annonce responsive sur le Réseau de recherche est disponible pour les annonces sur le Réseau de recherche. Le réseau publicitaire assemble dynamiquement des annonces de recherches réactives en utilisant les combinaisons les plus efficaces d&#39;éléments publicitaires.
+
+>[!NOTE]
+>
+>Chaque groupe d’annonces peut inclure jusqu’à trois annonces responsive sur le Réseau de Recherche activées.
+
+## [!UICONTROL Responsive Search Ad Details]
+
+<!-- **[!UICONTROL Ad Titles]:** -->
+
+{{$include /help/_includes/ad-titles-rsa.md}}
+
+<!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
+
+{{$include /help/_includes/display-path1-2.md}}
+
+<!-- **[!UICONTROL Ad Descriptions]:** -->
+
+{{$include /help/_includes/ad-descriptions-rsa.md}}
+
+<!-- **[!UICONTROL Status]:** -->
+
+{{$include /help/_includes/status-ad.md}}
+
+## [!UICONTROL Tracking URLs]
+
+<!-- **[!UICONTROL Base URl]:** -->
+
+{{$include /help/_includes/base-url-keyword-ad-sitelink.md}}
+
+<!-- **[!UICONTROL Tracking Template]:** -->
+
+{{$include /help/_includes/tracking-template-microsoft.md}}
+
+
+>[!MORELIKETHIS]
+>
+>* [À propos des publicités](ad-about.md)
+>* [Gérer les publicités](ad-manage.md)
+>* [[!DNL Microsoft Advertising] paramètres d’annonce de recherche dynamique étendus](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] paramètres de publicité multimédia](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] paramètres de publicité du produit](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] paramètres d’annonce responsive (audience)](ad-settings-microsoft-responsive.md)

@@ -1,0 +1,41 @@
+---
+title: Exporter un fichier de feuille d’envoi groupé généré ou chargé
+description: Découvrez comment télécharger un fichier de feuille d’envoi groupé, y compris les fichiers d’erreur et les fichiers de validation de page de destination.
+exl-id: 25868c67-5e6e-4570-9d8f-1a56b9bb88ac
+feature: Search Bulksheets
+TQID: 'https://experienceleague.adobe.com/oZMa0CsCnMfae-Op8wp90vfpgPvnWKG-mDV5RZbcO34'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 0%
+---
+# Exporter localement un fichier de feuille d&#39;envoi groupé généré ou chargé
+
+Vous pouvez télécharger tout fichier de feuille d’envoi groupé généré ou chargé, y compris les fichiers d’erreur et les fichiers de validation de page de destination, pendant 30 jours. Les fichiers sont automatiquement supprimés 30 jours après leur chargement ou leur génération.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >.[!UICONTROL Bulksheets]**
+
+1. (Facultatif) Au-dessus de la liste de feuilles d’envoi groupé, [ajoutez des filtres](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) pour limiter les fichiers répertoriés.
+
+1. Dans la liste de feuilles d’envoi groupé, cliquez sur le nom du fichier.
+
+1. Ouvrez ou enregistrez le fichier selon la procédure normale de votre navigateur.
+
+   Pour plus d’informations, consultez l’aide en ligne de votre navigateur.
+
+>[!MORELIKETHIS]
+>
+>* [À propos de la gestion des données de campagne à l&#39;aide de feuilles d&#39;envoi groupé](bulksheet-about.md)
+>* [Télécharger/créer un fichier de feuille d&#39;envoi groupé](/help/search-social-commerce/legacy-ui/campaign-management/bulksheets/bulksheet-download.md)
+>* [Valider les pages de destination dans les fichiers de feuilles d&#39;envoi groupé](bulksheet-validate-landing-pages.md)
+>* [Publier des feuilles d&#39;envoi groupé ou des fichiers d&#39;erreur corrigés](bulksheet-post.md)
+>* [Configurer un compte FTP pour le chargement des feuilles d’envoi groupé](/help/search-social-commerce/legacy-ui/campaign-management/bulksheets/bulksheet-ftp-account.md)

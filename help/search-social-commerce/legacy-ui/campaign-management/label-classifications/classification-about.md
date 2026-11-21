@@ -1,0 +1,50 @@
+---
+title: À propos des classifications de libellés
+description: Découvrez comment utiliser les classifications d’étiquettes pour regrouper les composants de votre compte.
+exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
+feature: Search Label Classifications
+TQID: 'https://experienceleague.adobe.com/dZL-v9IRny6Q2rjXcEeFKicL8UHKhRofQS4bBEd0sX8'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 0%
+---
+# À propos des classifications de libellés
+
+Les classifications d’étiquettes vous permettent de regrouper vos composants de compte en ensembles significatifs. Par exemple, vous pouvez créer une classification d’étiquettes parente appelée « Geo », créer une valeur d’étiquette différente pour chaque zone géographique (par exemple, « United Kingdom » et « Japan ») au sein de la classification, puis affecter les valeurs d’étiquette à vos [unités d’enchères](/help/search-social-commerce/glossary.md#a-b) ou campagnes parentes. Vous pouvez ensuite inclure n’importe quelle valeur d’étiquette dans une colonne distincte dans vos vues et rapports, et faire pivoter vos rapports sur différents groupes et valeurs de classification.
+
+## Classifications des libellés
+
+Chaque annonceur peut avoir jusqu’à 30 classifications de libellés, qui sont des catégories de niveau supérieur.
+
+## Valeurs des libellés
+
+Chaque classification de libellé peut contenir jusqu’à 2 000 valeurs. Une fois que vous avez créé des valeurs d’étiquette spécifiques pour une classification, vous pouvez les affecter à des campagnes, des groupes d’annonces, des mots-clés, des annonces, des emplacements et des groupes de produits [&#x200B; à partir des vues de gestion de campagne](classification-values-assign-campaign-management.md) ou [à l’aide de feuilles d’envoi groupé](classification-values-assign-bulksheets.md).
+
+Chaque entité éligible peut avoir des valeurs de libellé pour plusieurs classifications, mais une seule valeur de libellé par classification. Les valeurs des libellés sont héritées par les entités enfants mais peuvent être remplacées. La valeur affectée au niveau le plus bas remplace toujours les valeurs affectées aux niveaux parents.
+
+## La vue Classifications des libellés
+
+Dans la nouvelle interface utilisateur, la vue [!UICONTROL Labels Classifications] est sur [!UICONTROL Reports] > [!UICONTROL Labels Classifications]. Dans l’interface utilisateur héritée, la vue [!UICONTROL Labels Classifications] se trouve dans [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications].
+
+La vue [!UICONTROL Labels Classifications] comprend [!UICONTROL Classifications] et [!UICONTROL Label Values] sous-vues. Vous pouvez afficher les données de vos classifications d’étiquettes, [créer](classification-create.md) et [supprimer](classification-delete.md) des classifications d’étiquettes et afficher les données de vos valeurs de classification d’étiquettes. Par défaut, les données s’affichent pour vos classifications et valeurs de libellés au niveau des mots-clés, mais vous pouvez éventuellement afficher les données pour vos classifications et valeurs au niveau des annonces.
+
+Dans la nouvelle interface utilisateur,
+
+>[!MORELIKETHIS]
+>
+>* [Créer une classification de libellé](classification-create.md)
+>* [Attribuer des valeurs de classification aux composants de compte à partir des vues de gestion de campagne](classification-values-assign-campaign-management.md)
+>* [Attribuer des valeurs de classification à des composants de compte à l’aide de feuilles d’envoi groupé](classification-values-assign-bulksheets.md)
+>* [Supprimer les valeurs de classification de libellé des composants de compte](classification-values-remove.md)
+>* [Supprimer les valeurs de classification de libellé](classification-values-delete.md)
+>* [Supprimer les classifications de libellés](classification-delete.md)

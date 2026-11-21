@@ -1,0 +1,45 @@
+---
+title: Paramètres du modèle d’alerte personnalisé
+description: Découvrez les paramètres des modèles d’alerte personnalisés.
+exl-id: c9cff26b-e6be-4dad-ac3a-b5a53387c4e6
+feature: Search Alerts
+TQID: 'https://experienceleague.adobe.com/zPTijDSnrxMys8g0qByEvfh1XyvnAzwwqpVmBHUDdLk'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '677'
+ht-degree: 0%
+---
+# Paramètres du modèle d’alerte personnalisé
+
+| Tabulation | Paramètre | Description |
+|--- |--- |--- |
+| [!UICONTROL Date Range] | [!UICONTROL Date] | Période pour laquelle il convient d’évaluer les conditions de l’alerte. Les mesures sont évaluées de manière agrégée sur l’ensemble de la période. Les options sont comprises entre *[!UICONTROL Yesterday]* et *[!UICONTROL Last 180 Days]*. |
+| [!UICONTROL Filters] |  | Conditions de déclenchement de l&#39;alerte à l&#39;heure spécifiée dans l&#39;onglet [!UICONTROL Scheduling and Delivery]. Les colonnes disponibles varient selon le type d’entité (campagne ou mot-clé, par exemple). Tous les filtres sont liés à l’aide de la fonction booléenne ET, ce qui signifie que toutes les conditions spécifiées doivent être remplies.<ul><li><p>Pour ajouter un filtre, cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-expand.png "Flèche vers le bas") en regard de ![Ajouter](/help/search-social-commerce/assets/add.png "Ajouter") **[!UICONTROL ADD FILTER]**, puis procédez comme suit :</p></li><ol><li><p>(Facultatif) Pour filtrer les noms des colonnes par chaîne de texte, saisissez la chaîne de recherche dans le champ de saisie **[!UICONTROL ADD FILTER]**.</p></li><li><p>Sélectionnez un nom de colonne dans le menu Colonne .</p></li><li><p>Définissez le filtre sur la colonne :</p></li><ul><li><p>(Filtres sans champs de saisie) Cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-expand.png "Flèche vers le bas") à côté du deuxième menu, puis cochez les cases en regard de chaque valeur à inclure.</p></li><li><p>(Colonnes de mesures pour lesquelles vous souhaitez suivre les augmentations ou les diminutions de valeur entre la période spécifiée et la période précédente) Pour l’opérateur, sélectionnez *augmentations de* ou *diminutions de*, puis saisissez la valeur de seuil.</p><p>Par exemple, si vous avez sélectionné la colonne « [!UICONTROL Cost] » et souhaitez être averti lorsque le coût d’une campagne augmente de 21 %, sélectionnez « [!UICONTROL increases by] » et saisissez 21 dans le champ de saisie. Dans le champ [!UICONTROL Date Comparison Format], indiquez que vous êtes intéressé par un changement de pourcentage (plutôt que par un changement d&#39;unités monétaires).</p><p>Lorsque vous sélectionnez cette option, deux colonnes supplémentaires sont ajoutées pour chaque colonne de données standard. Par exemple, au lieu d’inclure une seule colonne pour « Clics », le rapport inclut des colonnes pour « Clics R1 » (pour la plage 1) « Clics R2 » (pour la plage 2), et « Clics Diff » ou « ClicksDiff (%) », selon le paramètre [!UICONTROL Date Comparison Format] spécifié (voir ci-dessous).</p><p>**Notes :**</p><ul><li><p>La colonne de différence n’est pas renseignée pour les mesures dérivées.<p></li><li><p>Cette fonctionnalité n’est pas disponible pour les colonnes de mesure de conversion, d’ID ou de classification de libellés.</p></li><li><p>La génération des rapports qui comparent des périodes volumineuses peut prendre plus de temps.</p></li></ul></ul><li><p>(Tous les autres filtres avec champs de saisie) Sélectionnez un opérateur dans le deuxième menu, puis saisissez la valeur applicable.</p><p>Par exemple, si vous avez sélectionné la colonne « Clics » et que vous souhaitez renvoyer uniquement les lignes contenant plus de 100 clics, sélectionnez « supérieur à » et saisissez 100 dans le champ de saisie.</p><p>Selon le type de données, les opérateurs disponibles peuvent inclure <i>supérieur à</i>, <i>inférieur à</i>, <i>égal à</i>, <i>contient</i>, <i>ne contient pas</i>, <i>commence par</i>, <i>se termine par</i>, <i>aucune valeur</i>, <i>a une valeur</i>, <i>avant</i>, <i>après</i> ou <i>aucune date</i>.</p><p>**Remarque :** les valeurs de texte ne sont pas sensibles à la casse. Par exemple, si vous filtrez par campagnes avec « loan » dans le nom, les résultats peuvent inclure « Consumer Loans » et « loan applications » (demandes de prêt).</p></li></ol><li><p>Pour supprimer un filtre, cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete.png "Supprimer") en regard de la définition du filtre.</p></li></ul> |
+|  | [!UICONTROL Comparing] | (Disponible lorsque le suivi de l’alerte augmente ou diminue dans une ou plusieurs colonnes de mesures ; lecture seule) Les deux périodes pour lesquelles les données sont comparées. |
+|  | [!UICONTROL Date Comparison Format] | (Disponible lorsque le suivi de l’alerte augmente ou diminue dans une ou plusieurs colonnes de mesures) Comment exprimer la différence entre les données des deux périodes :<ul><li><p><i>[!UICONTROL Variance]</i> (valeur par défaut) — Affiche la différence sous forme de valeur numérique.</p></li><li><p><i>[!UICONTROL % Change]</i> — Affiche la différence en pourcentage.</p></li></ul> |
+| [!UICONTROL Scheduling and Delivery] | [!UICONTROL Name] | Nom de l’alerte. Il doit contenir au moins cinq caractères. |
+|  | [!UICONTROL Trigger this Alert] [ quand] | Fréquence à laquelle l’alerte vérifie les filtres de condition spécifiés et, lorsque toutes les conditions sont remplies, envoie des notifications par e-mail :<ul><li><p>[!UICONTROL Daily at <*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Weekly on <*Jour de la semaine*> à &lt;*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Every month on <*Jour NN*> à &lt;*NN*> `[AM\|PM]`]</p></li></ul>**Remarque :** Cette valeur n&#39;affecte pas la période d&#39;évaluation. |
+|  | [!UICONTROL Email Recipients] | (Modifiable uniquement par le créateur du modèle d’alerte ; en lecture seule pour tous les autres) Adresses e-mail auxquelles envoyer des notifications lorsqu’une alerte est générée. Par défaut, l’adresse du créateur ou de la créatrice du modèle est saisie.<br><br>Pour ajouter une adresse, saisissez-la, puis cliquez sur **[!UICONTROL Add]**. Pour spécifier plusieurs adresses, séparez-les par des virgules ou des espaces, ou ajoutez-les séparément.<br><br>Lorsque l&#39;alerte comprend jusqu&#39;à 1 000 enregistrements, une version CSV de l&#39;alerte est jointe à l&#39;e-mail. |
+
+>[!MORELIKETHIS]
+>
+>* [À propos des alertes personnalisées](alert-about.md)
+>* [Créer un modèle d’alerte personnalisé](alert-template-create.md)
+>* [Modifier un modèle d’alerte personnalisé](alert-template-edit.md)
+>* [Mettre en pause un modèle d’alerte personnalisé](alert-template-pause.md)
+>* [Activer un modèle d’alerte personnalisé](alert-template-activate.md)
+>* [Supprimer un modèle d’alerte personnalisé](alert-template-delete.md)
+>* [Afficher les alertes personnalisées](alert-view.md)
+>* [Exporter les données pour les alertes personnalisées](alert-export-data.md)

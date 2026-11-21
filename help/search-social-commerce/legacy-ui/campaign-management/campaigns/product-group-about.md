@@ -1,0 +1,74 @@
+---
+title: À propos des groupes de produits d’achat
+description: Découvrez les groupes de produits d’achat dans les campagnes d’achat.
+exl-id: ae270935-1464-4393-8b8c-745fee077522
+feature: Search Campaign Management
+TQID: 'https://experienceleague.adobe.com/P3QrbE-JI1XMVzAqA4Pb8jO1t9bRNN-x1q0ehpBvaPw'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 0%
+---
+# À propos des groupes de produits d’achat
+
+*[!DNL Google Ads]et [!DNL Microsoft Advertising] campagnes d’achats uniquement*
+
+Dans les campagnes d’achats, vos groupes de produits (et non les mots-clés) déterminent les produits de votre compte de centre commercial pour lesquels des annonces d’achats sont affichées. Chaque groupe de produits est basé sur un attribut de produit unique (tel que la catégorie, le type de produit, la marque, la condition, l’ID de produit ou les libellés personnalisés) et utilise la même enchère pour tous les produits correspondants. Vous pouvez inclure ou exclure des offres pour les produits de chaque groupe.
+
+Vous configurez des groupes de produits au niveau du groupe publicitaire afin de déterminer les produits de vos comptes de centre commercial qui apparaissent dans les annonces d’achat pour le groupe publicitaire. Même si le groupe publicitaire ne comprend pas d’entités publicitaires, le réseau publicitaire affiche toujours des annonces pour les produits.
+
+Lorsque le même produit est inclus dans plusieurs campagnes, le réseau publicitaire commence par utiliser la priorité de campagne pour déterminer la campagne (et l’enchère associée) éligible pour les enchères publicitaires. Lorsque toutes les campagnes ont la même priorité, la campagne ayant la meilleure enchère est éligible.
+
+Pour plus d’informations sur les [!DNL Google] campagnes d’achats et publicités, voir « [Implémenter [!DNL Google Ads] des campagnes d’achats](/help/search-social-commerce/legacy-ui/campaign-management/special-workflows/google-shopping-campaigns.md) » et la [documentation sur les publicités Google](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&rd=1). Pour plus d’informations sur les [!DNL Microsoft] campagnes d’achats, voir « [Implémenter [!DNL Microsoft Advertising] des campagnes d’achats](/help/search-social-commerce/legacy-ui/campaign-management/special-workflows/microsoft-shopping-campaigns.md) » et la [[!DNL Microsoft Advertising] documentation](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500).
+
+>[!NOTE]
+>
+>La prise en charge n’est pas disponible pour les groupes de listes [!DNL Google Ads] dans les campagnes Performance Max, qui remplacent les campagnes d’achats intelligents. Pour gérer et afficher des données pour les groupes de liste, utilisez l’éditeur [!DNL Google Ads].
+
+## Hiérarchie des groupes de produits
+
+Avant de pouvoir créer des groupes de produits avec des attributs spécifiques pour un groupe publicitaire, vous devez d&#39;abord créer un groupe de produits complet appelé « [!UICONTROL All Products] ». À partir de ce groupe de produits parent, vous pouvez créer des groupes de produits enfants pour des sous-ensembles de produits, ainsi que des petits-enfants à partir des groupes de produits enfants. Une fois que vous avez créé le premier groupe de produits enfant pour un groupe publicitaire, un autre groupe de produits appelé « [!UICONTROL Everything Else] » est automatiquement créé à l&#39;aide de l&#39;enchère du groupe publicitaire par défaut. À mesure que vous ajoutez d&#39;autres groupes de produits, le groupe « [!UICONTROL Everything Else] » est ajusté en conséquence afin qu&#39;il constitue tous les produits qui ne font pas partie d&#39;un autre groupe de produits.
+
+Au sein d’un groupe publicitaire, vous pouvez créer jusqu’à sept niveaux de groupes de produits (sans inclure « [!UICONTROL All Products] ») à inclure ou à exclure des enchères, avec un ou plusieurs groupes de produits ciblant le même attribut à chaque niveau (par exemple, [!UICONTROL Brand]=Acme pour un groupe de produits et [!UICONTROL Brand]=AcmePlus pour un autre au même niveau). Les groupes de produits parents sont appelés subdivisions et le niveau de subdivision le plus bas est appelé unité. Vous pouvez définir des offres et des modèles de suivi, ou exclure complètement les offres, au niveau de l’unité. L’ensemble complet des groupes de produits actifs pour un groupe publicitaire est appliqué de manière hiérarchique afin de déterminer les produits éligibles. Par exemple, si vous subdivisez [!UICONTROL All Products] en [!UICONTROL Brand]=AcmeBasic et [!UICONTROL Brand]=AcmePlus, puis que vous subdivisez davantage chacun de ces groupes de produits en [!UICONTROL Condition]=Nouveau et définissez des offres, seuls les nouveaux produits des marques AcmeBasic et AcmePlus peuvent faire l&#39;objet d&#39;une publicité ou être exclus des publicités.
+
+![Exemple d&#39;ensemble de groupes de produits](/help/search-social-commerce/assets/product-group-list.png "Exemple d&#39;ensemble de groupes de produits")
+
+![Exemple de hiérarchie de groupe de produits](/help/search-social-commerce/assets/product-group-tree.png "Exemple de hiérarchie de groupe de produits")
+
+## La vue [!UICONTROL Product Groups]
+
+Vous pouvez créer et modifier des groupes de produits, et supprimer des groupes de produits et leurs groupes de produits enfants, dans la vue [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups].
+
+## Données de suivi et de performance pour les groupes de produits d’achat
+
+(Comptes/campagnes avec l’option de suivi « [!UICONTROL EF Redirect] ») Pour permettre à Search, Social et Commerce de suivre les conversions des groupes de produits, [générez des URL de suivi pour les groupes de produits à l’aide de l’outil URL de suivi](/help/search-social-commerce/legacy-ui/tools/click-tracking-url-generate.md), puis effectuez l’une des opérations suivantes :
+
+* (Obligatoire pour [!DNL Google Ads] ; bonne pratique pour [!DNL Microsoft Advertising]) Ajoutez l’URL de tracking au champ [!DNL Tracking Template] dans le paramètre du compte, de la campagne ou du groupe de produits. Pour faciliter la maintenance, ajoutez-les au niveau le plus élevé possible. Les paramètres d’ajout spécifiés pour le compte ou la campagne ne sont pas inclus.
+
+  >[!CAUTION]
+  >
+  >([!DNL Microsoft Advertising]) Utilisez cette option uniquement lorsque vous n’incluez pas d’URL de suivi Search, Social et Commerce dans une colonne personnalisée du flux de produits. Si vous effectuez les deux, les URL incluront deux redirections et provoqueront des liens rompus.
+
+* ([!DNL Microsoft Advertising] uniquement) Ajoutez l’URL de suivi aux données de produit dans le compte [!DNL Microsoft Merchant Center]. Pour ce faire, incluez l’URL de suivi, ainsi que la valeur dans le champ `link` ou `mobile_link`, selon le cas, dans une colonne personnalisée appelée [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) dans le flux de produits. Les URL générées à l’aide de cette méthode n’incluent aucun paramètre de tracking spécifié dans les paramètres du compte ou de la campagne dans Search, Social et Commerce.
+
+Vous pouvez afficher des données sur les groupes de produits dans [le [!UICONTROL Product Group Report]](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/product-group-report.md).
+
+>[!MORELIKETHIS]
+>
+>* [Gérer les groupes de produits d&#39;achat](product-group-manage.md)
+>* [[!DNL Google Ads] paramètres du groupe de produits](product-group-settings-google.md)
+>* [Implémenter [!DNL Google Ads] des campagnes d’achat](/help/search-social-commerce/legacy-ui/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [[!DNL Microsoft Advertising] paramètres du groupe de produits](product-group-settings-microsoft.md)
+>* [Implémenter [!DNL Microsoft Advertising] des campagnes d’achat](/help/search-social-commerce/legacy-ui/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

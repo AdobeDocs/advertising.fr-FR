@@ -1,0 +1,105 @@
+---
+title: Propager les données de flux d’inventaire par le biais de modèles
+description: Découvrez comment propager les données de vos flux d’inventaire par le biais de modèles d’annonce pour gérer la structure de compte et diffuser des annonces dynamiques.
+exl-id: 9660af19-a517-4593-9a99-da600a0285a5
+feature: Search Inventory Feeds
+TQID: 'https://experienceleague.adobe.com/2MCDHOgRqhAgwKuT-drdVZCHZJhSYxX3F3wLAVnpXT0'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 0%
+---
+# Propager les données de flux d’inventaire par le biais de modèles
+
+*[!DNL Google Ads], [!DNL LY Ads] (actions de suppression uniquement), [!DNL Microsoft Advertising] et [!DNL Yandex] comptes uniquement*
+
+Après avoir créé un modèle de flux spécifique au réseau publicitaire et associé un fichier de flux ou un compte de centre commercial [!DNL Google] ou [!DNL Microsoft] à celui-ci, vous pouvez créer dynamiquement des publicités en propageant les données de flux à travers le modèle en fonction des [paramètres de données de flux](feed-settings-manage.md). Lors de la propagation, les noms des colonnes du modèle sont remplacés par les valeurs de données du flux. Les campagnes générées et leurs composants présentent les paramètres par défaut, sauf indication contraire du modèle. Selon les options du modèle, Search, Social et Commerce crée une structure de compte (campagnes, groupes publicitaires, mots-clés) pour les annonces ou mappe les annonces à la structure de compte existante.
+
+Lorsque de nouvelles données de flux contiennent de nouvelles valeurs de données pour un élément ou que le modèle a été modifié, les publicités existantes sont supprimées et de nouvelles publicités sont créées. Si la seule modification est la désignation de [!DNL Google Ads] paramètre 1 et paramètre 2, alors seules ces valeurs sont mises à jour. Les publicités en double (la même copie de publicité et la même page de destination) ne sont jamais créées.
+
+Lorsque vous propagez des données, vous pouvez éventuellement prévisualiser les données générées dans une vue hiérarchique de campagne, générer un fichier de feuille d&#39;envoi groupé pour révision ou générer un fichier de feuille d&#39;envoi groupé pour une validation immédiate sur le réseau publicitaire. Lorsque chaque action de propagation est terminée, un résumé de propagation est ajouté à l&#39;onglet Propagations, indiquant le nombre de chaque type d&#39;entité qui a été ou serait créé, mis en pause ou supprimé en fonction de la propagation. Si vous ne publiez pas les données immédiatement, vous pouvez les prévisualiser et les publier ultérieurement.
+
+## Propager les fichiers de flux depuis l&#39;onglet [!UICONTROL Templates]
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** pour ouvrir l’onglet [!UICONTROL Templates].
+
+1. Cochez la case en regard des modèles à propager.
+
+1. Dans la barre d&#39;outils, cliquez sur **[!UICONTROL Propagate]**, puis sélectionnez l&#39;une des options suivantes :
+
+   * **[!UICONTROL Propagate Only]:** Pour afficher les données propagées sur les onglets [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] et [!UICONTROL Ads]. Vous pouvez toujours publier les données de n’importe quel composant et ses sous-composants ultérieurement à partir de l’onglet [!UICONTROL Templates].
+
+   * **[!UICONTROL Propagate and Preview]:** Pour créer un fichier de feuille d&#39;envoi groupé (nommé « `<feed file name>_<template name>` »), disponible dans la vue [!UICONTROL Bulksheets] pour révision (mais pas dans les onglets [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] et [!UICONTROL Ads]). Vous pouvez ensuite publier le fichier de feuille d&#39;envoi groupé à partir de la vue [!UICONTROL Bulksheets].
+
+     Lorsque le fichier de feuille d’envoi groupé obtenu fait plus de 2 Mo, le fichier est au format ZIP. Vous n’avez pas besoin de décompresser le fichier pour le publier.
+
+   * **[!UICONTROL Propagate and Post to SE]:** Pour créer un fichier de feuille d&#39;envoi groupé (nommé « `<feed file name>_<template name>` ») qui est immédiatement mis en file d&#39;attente pour publication sur le réseau publicitaire. Le fichier de feuille d&#39;envoi groupé est disponible dans la vue [!UICONTROL Bulksheets], mais il n&#39;est pas disponible dans les onglets [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] et [!UICONTROL Ads].
+
+     Lorsque le fichier de feuille d’envoi groupé obtenu fait plus de 2 Mo, le fichier est au format ZIP.
+
+   La « Dernière Prop. Statut » indique le statut de la tâche pour les modèles applicables.
+
+   Une fois chaque action de propagation terminée, un résumé de la propagation est ajouté à l&#39;onglet [!UICONTROL Propagations], indiquant le nombre de chaque type d&#39;entité qui a été ou serait créé, mis en pause ou supprimé en fonction de la propagation. L’estimation n’inclut pas les modifications effectuées à partir du propre éditeur d’annonces du réseau publicitaire.
+
+## Propager les fichiers de flux de la liste [!UICONTROL Feeds]
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >.[!UICONTROL Advanced (ACM)]**
+
+1. Dans la barre d&#39;outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Feeds]**.
+
+1. Cochez la case en regard du fichier de flux.
+
+1. Au-dessus du tableau de données, cliquez sur **[!UICONTROL Propagate/Post Feed Data]**, puis sélectionnez l&#39;une des options suivantes :
+
+   * **[!UICONTROL Propagate Only]:** Pour afficher les données propagées sur les onglets [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] et [!UICONTROL Ads]. Vous pouvez toujours publier les données de n’importe quel composant et ses sous-composants ultérieurement à partir de l’onglet [!UICONTROL Templates].
+
+   * **[!UICONTROL Propagate and Preview]:** Pour créer un fichier de feuille d&#39;envoi groupé (nommé « `<feed file name>_<template name>` »), disponible dans la vue [!UICONTROL Bulksheets] pour révision (mais pas dans les onglets [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] et [!UICONTROL Ads]). Vous pouvez ensuite publier le fichier de feuille d&#39;envoi groupé à partir de la vue [!UICONTROL Bulksheets].
+
+     Lorsque le fichier de feuille d’envoi groupé obtenu fait plus de 2 Mo, le fichier est au format ZIP. Vous n’avez pas besoin de décompresser le fichier pour le publier.
+
+   * **[!UICONTROL Propagate and Post to SE]:** Pour créer un fichier de feuille d&#39;envoi groupé (nommé « `<feed file name>_<template name>` ») qui est immédiatement mis en file d&#39;attente pour publication sur le réseau publicitaire. Le fichier de feuille d&#39;envoi groupé est disponible dans la vue [!UICONTROL Bulksheets], mais il n&#39;est pas disponible dans les onglets [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] et [!UICONTROL Ads].
+
+     Lorsque le fichier de feuille d’envoi groupé obtenu fait plus de 2 Mo, le fichier est au format ZIP.
+
+1. Dans la fenêtre pop-up, cochez la case en regard de chaque modèle par lequel vous souhaitez propager les données du fichier de flux, puis cliquez sur **[!UICONTROL Propagate Feed]**.
+
+   Tous les modèles associés au fichier sont répertoriés.
+
+L’onglet [!UICONTROL Templates] s’ouvre et la colonne « [!UICONTROL Last Prop. Status] » affiche le statut de la tâche pour les modèles applicables.
+
+Une fois chaque action de propagation terminée, un résumé de la propagation est ajouté à l&#39;onglet [!UICONTROL Propagations], indiquant le nombre de chaque type d&#39;entité qui a été ou serait créé, mis en pause ou supprimé en fonction de la propagation. L’estimation n’inclut pas les modifications effectuées à partir du propre éditeur d’annonces du réseau publicitaire.
+
+## Affichage d&#39;un résumé de la propagation
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >.[!UICONTROL Advanced (ACM)]**
+
+1. Cliquez sur l’onglet **[!UICONTROL Propagations]**.
+
+1. En regard du nom du modèle, cliquez sur ![Icône Afficher/modifier les paramètres](/help/search-social-commerce/assets/settings.png "Icône Afficher/modifier les paramètres") .
+
+## Arrêt d&#39;un traitement de propagation
+
+Vous pouvez arrêter un traitement de propagation pour les données de flux d&#39;inventaire pendant que le traitement est toujours en file d&#39;attente.
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** pour ouvrir l’onglet [!UICONTROL Templates].
+
+1. Dans la colonne « [!UICONTROL Last Prop. Status] » en regard du nom du modèle, cliquez sur **[!UICONTROL Cancel]**.
+
+>[!MORELIKETHIS]
+>
+>* [À propos des flux d’inventaire](inventory-feeds-about.md)
+>* [Gérer les modèles de publicité pour les flux d&#39;inventaire](/help/search-social-commerce/legacy-ui/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
+>* [Afficher les données générées à partir des flux](propagated-data-view.md)
+>* [Modifier les données générées à partir des flux](propagated-data-edit.md)
+>* [Publier les données de campagne générées à partir des flux sur les réseaux publicitaires](propagated-data-post.md)
+>* [Arrêter une tâche de validation pour les données de flux d&#39;inventaire](stop-job.md)
+>* [Statuts des données générées à partir des flux](propagated-data-status.md)

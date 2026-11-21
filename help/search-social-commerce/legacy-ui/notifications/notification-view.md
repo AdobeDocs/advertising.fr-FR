@@ -1,0 +1,79 @@
+---
+title: Affichage des notifications
+description: Découvrez les différentes manières d’afficher vos notifications.
+exl-id: d449937a-02cf-4f4c-8171-da89c914c119
+feature: Search Notifications
+TQID: 'https://experienceleague.adobe.com/bUv28qmWvYXXv6RZO3mRqQf-rccr1xoXR-Nf7zFGIBY'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 0%
+---
+# Affichage des notifications
+
+*Fonctionnalité Beta*
+
+Lorsque vous êtes [abonné aux notifications](notification-edit.md) concernant les erreurs d’authentification du compte, les alertes personnalisées déclenchées et les [!UICONTROL Advertising Insights] générées, vous pouvez afficher vos notifications dans le panneau [!UICONTROL Notifications] ou [!UICONTROL Notification Center].
+
+## Afficher des notifications dans le panneau [!UICONTROL Notifications]
+
+1. Dans l’angle supérieur droit d’une page, cliquez sur ![Notifications](/help/search-social-commerce/assets/notifications-panel.png "Notifications").
+
+1. (Facultatif) Effectuez l’une des opérations suivantes :
+
+   * Pour afficher les détails d’une notification, cliquez sur son nom.
+
+     Dans certaines notifications, la section [!UICONTROL Action Recommended] peut inclure un lien qui ouvre une vue filtrée des entités affectées ou responsables.
+
+   * Pour marquer une notification comme *lue* ou *non lue*, placez le curseur sur le nom de l’alerte et cliquez sur ![Marquer comme lu ou non lu](/help/search-social-commerce/assets/notifications-read-unread.png "Marquer comme lu ou non lu").
+
+     Les notifications marquées comme *lues* se trouvent dans un texte plus clair, mais restent disponibles jusqu&#39;à ce que vous les supprimiez.
+
+   ![Notifications lues et non lues](/help/search-social-commerce/assets/notifications-read-vs-unread.png "Notifications lues et non lues")
+
+   * Pour modifier vos préférences d’abonnement pour le type de notification, cliquez sur ![Paramètres](/help/search-social-commerce/assets/settings-nc.png "Paramètres") en regard de la notification, modifiez vos paramètres, puis cliquez sur **[!UICONTROL Save]**.
+
+   * Pour supprimer une notification, cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete.png "Supprimer") en regard de la notification.
+
+   * Pour ouvrir [!UICONTROL Notification Center], cliquez sur **[!UICONTROL View All]**.
+
+## Afficher les notifications dans [!UICONTROL Notification Center]
+
+1. (Depuis Search, Social et Commerce) Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+
+1. (Facultatif) Pour filtrer vos notifications par type, cliquez sur *[!UICONTROL Notices], [!UICONTROL Recommendations], [!UICONTROL Warnings] ou[!UICONTROL Issues]*.
+
+1. (Facultatif) Effectuez l’une des opérations suivantes :
+
+   * Pour afficher les détails d’une notification, cliquez sur son nom.
+
+     Dans certaines notifications, la section [!UICONTROL Action Recommended] peut inclure un lien qui ouvre une vue filtrée des entités affectées ou responsables.
+
+   * Pour marquer une notification comme *lue* ou *non lue*, placez le curseur sur le nom de l’alerte et cliquez sur ![Marquer comme lu ou non lu](/help/search-social-commerce/assets/notifications-read-unread.png "Marquer comme lu ou non lu").
+
+     Les notifications marquées comme *lues* se trouvent dans un texte plus clair, mais restent disponibles jusqu&#39;à ce que vous les supprimiez.
+
+   * Pour modifier vos préférences d’abonnement pour le type de notification, cliquez sur ![Paramètres](/help/search-social-commerce/assets/settings-nc.png "Paramètres") en regard de la notification, modifiez vos paramètres, puis cliquez sur **[!UICONTROL Save]**.
+
+   * Pour supprimer une notification, cliquez sur ![Supprimer](/help/search-social-commerce/assets/delete.png "Supprimer") en regard de la notification.
+
+>[!MORELIKETHIS]
+>
+>* [À propos des notifications](/help/search-social-commerce/legacy-ui/notifications/notification-about.md)
+>* [Marquer une notification comme lue ou non lue](notification-mark-read-unread.md)
+>* [Supprimer une notification](notification-delete.md)
+>* [Modifier les paramètres de notification](notification-edit.md)
+>* [Activer et désactiver les notifications push depuis [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
+>* [Installer et désinstaller l’application web [!UICONTROL Notification Center]](notification-app-install-uninstall.md)

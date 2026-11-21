@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Les éléments suivants s’appliquent aux balises de suivi des conversions et a
 >[!NOTE]
 >
 >* Toutes les nouvelles mises en œuvre utilisent JavaScript version 3.
->* La balise JavaScript avec ECID utilise le service [Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) ainsi que l’ef_id et le gsurferid hérités pour mesurer les conversions. Cette dernière balise crée des [cookies s_ecid CX Enterprise propriétaires](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=fr) et permet une intégration plus étroite à d’autres produits CX Enterprise.
+>* La balise JavaScript avec ECID utilise le service [Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr) ainsi que l’ef_id et le gsurferid hérités pour mesurer les conversions. Cette dernière balise crée [des cookies s_ecid CX Enterprise propriétaires](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=fr) et offre une meilleure intégration avec d’autres produits CX Enterprise.
 >* N’utilisez les balises JavaScript version 2 que lorsqu’elles sont déjà implémentées sur les pages web de l’annonceur.
 >* La bonne pratique consiste à utiliser les balises JavaScript plutôt que les balises d’image, sauf si le site applique une politique qui interdit leur utilisation.
 >* Les balises JavaScript sont requises pour les annonceurs qui souhaitent cibler des audiences créées dans Adobe CX Enterprise, dans Adobe Audience Manager ou publiées sur Adobe CX Enterprise à partir d’Audience Manager ou d’Adobe Analytics.
@@ -48,10 +48,10 @@ Les éléments suivants s’appliquent aux balises de suivi des conversions et a
 >[!MORELIKETHIS]
 >
 >* [À propos des balises de suivi des conversions Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Générer une balise de conversion Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [Format des balises de suivi des conversions JavaScript version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
->* [Format des balises de suivi des conversions JavaScript version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
->* [Format des balises de tracking de conversion d’images](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
+>* [Générer une balise de conversion Adobe Advertising](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
+>* [Format des balises de suivi de conversion JavaScript version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
+>* [Format des balises de suivi de conversion JavaScript version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
+>* [Format des balises de suivi de conversion d’images](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 
 <!--
  add if I keep the file:  

@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Lorsque vous enregistrez une période spécifique pour une vue par défaut ou pe
 >[!NOTE]
 >
 >* Vous pouvez afficher les données des 13 derniers mois, mais toutes les vues personnalisées existantes ne peuvent inclure que les données des 180 derniers jours au maximum.
->* Pour afficher des données antérieures, accédez à la vue [[!UICONTROL Reports]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) et exécutez un rapport de base.
+>* Pour afficher des données antérieures, accédez à la vue [[!UICONTROL Reports]](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/basic-advanced-report-about.md) et exécutez un rapport de base.
 >* Vous pouvez également enregistrer une période pour une vue [par défaut ou personnalisée](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
 ## (interface utilisateur héritée) Modifier le filtre de date global dans les vues de campagne

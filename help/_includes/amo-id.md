@@ -1,30 +1,29 @@
 ---
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
-
 ---
 # ID AMO ADOBE ADVERTISING
 
 ## ID AMO ADOBE ADVERTISING {#amo-id}
 
-L’ID AMO suit chaque combinaison publicitaire unique à un niveau moins granulaire et est utilisé pour la classification des données [!DNL Analytics] et Customer Journey Analytics et l’ingestion des mesures publicitaires (telles que les impressions, les clics et les coûts) à partir d’Adobe Advertising.
+L’ID AMO suit chaque combinaison publicitaire unique à un niveau moins granulaire et est utilisé pour la classification de données [!DNL Analytics] et Customer Journey Analytics, ainsi que pour l’ingestion des mesures publicitaires (telles que les impressions, les clics et les coûts) à partir d’Adobe Advertising.
 
-Par [!DNL Analytics], l’AMO ID est stocké dans une dimension [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=fr) ou rVar (AMO ID).
+Pour [!DNL Analytics], l’AMO ID est stocké dans une dimension [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=fr) ou rVar (AMO ID).
 
-Pour Customer Journey Analytics, l’ID AMO est stocké dans la propriété `trackingCode` de l’objet `conversionDetails`, qui fait partie de [la [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
+Pour Customer Journey Analytics, l’ID AMO est stocké dans la propriété `trackingCode` de l’objet `conversionDetails`, qui fait partie de [le [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
 
-L’ID AMO est également appelé `s_kwcid`, ce qui se prononce parfois comme « [!DNL squid] ».
+L’ID AMO est également appelé `s_kwcid`, qui se prononce parfois comme « [!DNL squid] ».
 
 ### Formats d’ID AMO {#amo-id-formats}
 
-Consultez la [Formats des éléments de dimension ID AMO](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#dimension-items) dans le « Guide des composants d’Adobe Analytics ».
+Consultez les [formats des éléments de dimension ID AMO](https://experienceleague.adobe.com/fr/docs/analytics/components/dimensions/amo-id#dimension-items) dans le « Guide des composants d’Adobe Analytics ».
 
 <!--
 Legacy content:
 
-Notes for GGL Ads: Verify Creative description. Also, are there more networks now (audience and shopping?) Re "To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).: Update terminology there too.
+Notes for GGL Ads: Verify Creative description. Also, are there more networks now (audience and shopping?) Re "To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/legacy-ui/campaign-management/accounts/update-amo-id-google.md).: Update terminology there too.
 
 Note: ADD IN Meta:
 
@@ -103,7 +102,7 @@ where:
 >
 >* For dynamic search ads, {keyword} is populated with the auto target.
 >* When you generate tracking for [!DNL Google] shopping ads, a product ID parameter, `{adwords_producttargetid}`, is inserted before the keyword parameter. The product ID parameter doesn't appear in the [!DNL Google Ads] account-level and campaign-level tracking parameters.
->* To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)."
+>* To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/legacy-ui/campaign-management/accounts/update-amo-id-google.md)."
 
 ##### [!DNL Microsoft Advertising]
 

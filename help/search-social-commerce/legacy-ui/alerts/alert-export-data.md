@@ -1,0 +1,51 @@
+---
+title: Exporter les données pour les alertes personnalisées
+description: Découvrez comment exporter les données d’une alerte déclenchée vers un fichier .
+exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
+feature: Search Alerts
+TQID: 'https://experienceleague.adobe.com/JyEfHoeveq0ZA5buoLKJis4RECKBtHNCiJZ982uXSW0'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 0%
+---
+# Exporter les données pour les alertes personnalisées
+
+Vous pouvez exporter les données d’une alerte déclenchée ou les données de l’alerte déclenchée la plus récente d’un modèle d’alerte sous la forme d’un classeur [!DNL Microsoft Excel] (fichier [XLS](/help/search-social-commerce/glossary.md#w-x)), d’un fichier de valeurs séparées par des tabulations ([TSV](/help/search-social-commerce/glossary.md#s-t)) ou d’un fichier de valeurs séparées par des virgules ([CSV](/help/search-social-commerce/glossary.md#c-d)). Les rapports téléchargeables sont disponibles pendant dix jours après le déclenchement de l’alerte, puis sont automatiquement supprimés.
+
+1. Effectuez l’une des opérations suivantes :
+
+   * (Pour exporter les données de l’alerte la plus récemment déclenchée pour un modèle d’alerte) Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, qui ouvre la vue Modèles d’alerte .
+
+   * (Pour exporter des données pour une alerte déclenchée spécifique) Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**. Dans le sous-menu, cliquez sur **[!UICONTROL Triggered Alerts]**.
+
+1. Dans la colonne [!UICONTROL Export] en regard du nom du modèle ou du rapport, cliquez sur le nom d’un format, puis ouvrez ou enregistrez le fichier conformément à la procédure normale de votre navigateur :
+
+   * **[!UICONTROL XLS]:** Pour un classeur [!DNL Excel] avec une seule feuille de calcul (XLS). Le rapport comprend une feuille de calcul, intitulée en haut avec les paramètres, avec une ligne pour chaque composant inclus lorsque des données pour le composant sont disponibles. Les lignes sans données sont omises. Les rapports de base incluent un total pour chaque colonne numérique.
+
+   * **[!UICONTROL TSV]:** pour un fichier TSV. Le rapport comprend les paramètres et une ligne pour chaque composant inclus.
+
+   * **[!UICONTROL CSV]:** pour un fichier CSV. Le rapport comprend les paramètres et une ligne pour chaque composant inclus.
+
+>[!MORELIKETHIS]
+>
+>* [À propos des alertes personnalisées](alert-about.md)
+>* [Créer un modèle d’alerte personnalisé](alert-template-create.md)
+>* [Modifier un modèle d’alerte personnalisé](alert-template-edit.md)
+>* [Mettre en pause un modèle d’alerte personnalisé](alert-template-pause.md)
+>* [Activer un modèle d’alerte personnalisé](alert-template-activate.md)
+>* [Supprimer un modèle d’alerte personnalisé](alert-template-delete.md)
+>* [Paramètres du modèle d’alerte personnalisé](alert-template-settings.md)
+>* [Afficher les alertes personnalisées](alert-view.md)

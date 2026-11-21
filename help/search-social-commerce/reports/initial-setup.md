@@ -1,31 +1,28 @@
 ---
-title: Tâches de configuration initiales pour les rapports
+title: (Nouvelle interface utilisateur) Tâches de configuration initiales pour les rapports
 description: Découvrez comment rendre les mesures disponibles dans les rapports et comment automatiser les rapports.
-exl-id: c2e76c63-ddb8-4762-8628-30cf3f54b8fd
 feature: Search Reports
-TQID: 'https://experienceleague.adobe.com/N50b-O0oFBV6ZMXcFx8gRvLs3M1hN696d43VGlgkg44'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
   - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
     internal-label: Search Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+subfeature_v2:
+  - id: e246c273-d720-4ece-b29b-7aaba7d50169
+    internal-label: Reports
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '352'
 ht-degree: 0%
 ---
-# Tâches de configuration initiales pour les rapports
+# (Nouvelle interface utilisateur) Tâches de configuration initiales pour les rapports
 
 Les nouveaux utilisateurs doivent effectuer les tâches de configuration initiales suivantes :
 
-* Rendez les mesures de conversion suivies par Adobe Advertising pour un annonceur [disponibles pour les rapports et d’autres vues](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) et éventuellement [ renommez l’une des mesures de conversion]&#x200B;(/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) affichées dans les en-têtes de colonne pour en faciliter la lecture.
+* Rendez les mesures de conversion qu’Adobe Advertising suit pour un annonceur disponibles pour les rapports et d’autres vues. Vous pouvez également renommer les mesures de conversion affichées dans les en-têtes de colonne pour en faciliter la lecture. Voir « [Gérer les mesures de conversion d’un annonceur](/help/search-social-commerce/goals/conversions/conversion-metrics-manage.md) ».
 
   Les propriétés des transactions ne sont pas disponibles pour les rapports, sauf si vous les rendez spécifiquement disponibles.
 
@@ -33,13 +30,13 @@ Les nouveaux utilisateurs doivent effectuer les tâches de configuration initial
 
 * (Facultatif) Automatiser la génération de rapports :
 
-  * Si vous souhaitez générer régulièrement des données de rapport pour un incrément de temps spécifique, par exemple un [!UICONTROL Campaign Report] pour la semaine écoulée ou les 30 derniers jours, vous pouvez configurer des modèles de rapport [report](/help/search-social-commerce/reports/automation/templates/template-about.md) et planifier leur exécution quotidienne ou un jour spécifique de la semaine ou du mois. Chaque fois que l’exécution du rapport est planifiée, un nouveau rapport est généré. Vous avez la possibilité d’informer les adresses e-mail d’utilisateurs spécifiques des moteurs de recherche, des réseaux sociaux et de Commerce une fois le rapport terminé, en fonction des paramètres de notification [&#x200B; configurés dans [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md).
+  * Si vous souhaitez générer régulièrement des données de rapport pour un incrément de temps spécifique, par exemple un [!UICONTROL Campaign Report] pour la semaine écoulée ou les 30 derniers jours, vous pouvez configurer [modèles de rapport](report-templates-manage.md) et planifier leur exécution quotidienne ou un jour spécifique de la semaine ou du mois. Chaque fois que l’exécution du rapport est planifiée, un nouveau rapport est généré. Vous avez la possibilité d’informer les adresses e-mail d’utilisateurs spécifiques des moteurs de recherche, des réseaux sociaux et de Commerce une fois le rapport terminé, en fonction des [paramètres de notification configurés dans [!UICONTROL Notification Center]]&#x200B;[Manage custom alerts]&#x200B;(/help/search-social-commerce/common-tasks/notifications-manage.md).
 
-  * Si vous souhaitez afficher des données de rapports quotidiens à jour dans une feuille de calcul au format personnalisé, avec ou sans tableaux croisés dynamiques et toutes les colonnes supplémentaires dont vous avez besoin pour effectuer d&#39;autres calculs, vous pouvez configurer un flux de feuille de calcul quotidien [flux de feuille de calcul](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md). Les flux de feuilles de calcul sont actualisés quotidiennement avec les dernières données de performances et continuent à conserver les données des dates précédentes. Pour configurer des flux de feuilles de calcul, vous devez d&#39;abord créer un modèle de feuille de calcul personnalisé dans [!DNL Microsoft Excel]. Vous avez la possibilité d’informer les adresses e-mail d’utilisateurs spécifiques des moteurs de recherche, des réseaux sociaux et de Commerce lorsqu’un fichier de flux est disponible, en fonction des paramètres de notification [&#x200B; configurés dans [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md).
+  * Si vous souhaitez afficher des données de rapports quotidiens à jour dans une feuille de calcul au format personnalisé, avec ou sans tableaux croisés dynamiques et toutes les colonnes supplémentaires dont vous avez besoin pour effectuer d&#39;autres calculs, vous pouvez configurer un [flux de feuille de calcul](/help/search-social-commerce/legacy-ui/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) quotidien. Les flux de feuilles de calcul sont actualisés quotidiennement avec les dernières données de performances et continuent à conserver les données des dates précédentes. Pour configurer les flux de feuilles de calcul, vous devez d&#39;abord créer un modèle de feuille de calcul personnalisé dans [!DNL Microsoft Excel]. Vous avez la possibilité d’informer les adresses e-mail d’utilisateurs spécifiques des moteurs de recherche, des réseaux sociaux et de Commerce lorsqu’un fichier de flux est disponible, en fonction des paramètres de notification [&#x200B; configurés dans [!UICONTROL Notification Center]](/help/search-social-commerce/common-tasks/notifications-manage.md).
 
-  * Si vous souhaitez recevoir des rapports de base et avancés à un emplacement FTP, vous pouvez configurer l’accès [FTP aux rapports de base et avancés](/help/search-social-commerce/reports/automation/ftp-reports.md) en demandant un compte FTP et en configurant des modèles de rapport selon une convention de nommage spécifique.
+  * Si vous souhaitez recevoir des rapports de base et avancés à un emplacement FTP, vous pouvez configurer [l&#39;accès FTP aux rapports de base et avancés](/help/search-social-commerce/reports/ftp-reports.md) en demandant un compte FTP et en configurant des modèles de rapport selon une convention de nommage spécifique.
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports &#x200B;](report-about.md)
+>* [À propos des rapports](report-about.md)
 >* [Données utilisées pour les rapports](data-used-for-reports.md)

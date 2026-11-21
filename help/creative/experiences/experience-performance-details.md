@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -32,11 +32,11 @@ Vous pouvez afficher des données de performances détaillées pour n’importe 
 
 La vue Rapport inclut les données suivantes :
 
-* Onglet **Aperçu** : aperçu des performances de toutes les mesures de conversion pour l’ensemble de l’expérience<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." --> notamment :
+* Onglet **Aperçu** : aperçu des performances de toutes les mesures de conversion pour l’ensemble de l’expérience<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." -->, notamment :
 
-  * **Performance globale** section :
+  * **Section Performances globales** :
 
-    * **Performances globales** : nombre total d’impressions, de clics, de taux de clics publicitaires (CTR), de conversions d’affichage publicitaire et de conversions de clics publicitaires.
+    * **Performances globales** : nombre total d’impressions ; clics ; taux de clics ; et conversions d’affichage publicitaire et conversions de clics publicitaires.
 
     <!--
       ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
@@ -64,15 +64,15 @@ La vue Rapport inclut les données suivantes :
 
 * **Onglet Performances de Creative*** : aperçu des performances par élément créatif et lot ou balise publicitaire, y compris :
 
-  * **Contenu créatif** sous-onglet : nombre total d’impressions, de clics et de CTR pour chaque contenu créatif de l’expérience.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
+  * **Sous-onglet Contenus publicitaires** : nombre total d’impressions, de clics et de CTR pour chaque contenu publicitaire de l’expérience.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
-  * **Bundles/Balises** sous-onglet : nombre total d’impressions, de clics et de CTR pour des lots individuels (expériences avec ciblage d’arbre de décision) ou des balises d’annonce (expériences sans ciblage d’arbre de décision) dans l’expérience.
+  * **Sous-onglet Lots/Balises** : nombre total d’impressions, de clics et de CTR pour des lots individuels (expériences avec ciblage d’arbre de décision) ou des balises d’annonce publicitaire (expériences sans ciblage d’arbre de décision) dans l’expérience.
 
 ## Affichage des rapports de performances pour une expérience
 
 1. Dans le menu principal, cliquez sur **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
-1. (Facultatif) [Personnaliser la vue](/help/creative/introduction/customize-data-views.md) pour inclure des expériences spécifiques.
+1. (Facultatif) [Personnalisez la vue](/help/creative/introduction/customize-data-views.md) pour inclure des expériences spécifiques.
 
 1. Sélectionnez l’expérience :
 
@@ -86,25 +86,25 @@ La vue Rapport inclut les données suivantes :
 
    * (Facultatif) Pour modifier la période des données de performances, choisissez une option dans le menu de date :
 
-     * Pour spécifier une période prédéfinie, sélectionnez le rapport : (*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today]ou* *[!UICONTROL Yesterday]*.
+     * Pour spécifier une période prédéfinie, sélectionnez le rapport : (*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today],* ou *[!UICONTROL Yesterday]*.
 
-     * Pour spécifier une période personnalisée, saisissez la date de début et la date de fin, ou cliquez sur ![icône de calendrier](/help/search-social-commerce/assets/calendar.png) en regard d’un champ et sélectionnez une date.
+     * Pour spécifier une période personnalisée, saisissez la date de début et la date de fin ou cliquez sur ![icône de calendrier](/help/search-social-commerce/assets/calendar.png) à côté d’un champ et sélectionnez une date.
 
-   * (Facultatif) Pour modifier la règle utilisée pour attribuer des données de conversion dans une série d’événements qui entraînent une conversion, cliquez sur ![Paramètres](/help/creative/assets/settings.png) et modifiez la **[!UICONTROL Attribution Rule]**.
+   * (Facultatif) Pour modifier la règle utilisée pour attribuer les données de conversion dans une série d’événements qui entraînent une conversion, cliquez sur ![Paramètres](/help/creative/assets/settings.png) et modifiez le **[!UICONTROL Attribution Rule]**.
 
-     Pour plus d’informations sur les règles d’attribution, voir « [Calcul des règles d’attribution](/help/search-social-commerce/reports/attribution-rules.md) ».
+     Pour plus d’informations sur les règles d’attribution, voir « [Comment les règles d’attribution sont calculées](/help/search-social-commerce/reports/attribution-rules.md) ».
 
    * (Facultatif) Pour modifier les conversions signalées, cliquez sur ![Paramètres](/help/creative/assets/settings.png) et sélectionnez les noms de conversion dans le menu **[!UICONTROL Conversions]**. Actuellement, la seule mesure disponible est « Sélectionner tout » pour inclure toutes les mesures de conversion.
 
-     Les colonnes de conversion disponibles incluent les conversions disponibles dans Advertising Search, Social et Commerce, que vous soyez ou non client Search, Social et Commerce. La liste peut inclure des mesures d’engagement du site et de conversion synchronisées à partir d’Adobe Analytics lorsque l’annonceur dispose d’une [intégration [!DNL Adobe Analytics for Advertising] &#x200B;](/help/integrations/analytics/overview.md). [!DNL Analytics] mesures calculées et les mesures calculées avancées ne sont pas disponibles. Pour plus d’informations sur l’inclusion des conversions collectées dans les rapports, consultez la rubrique du guide Search, Social et Commerce intitulée « [&#x200B; À propos de la gestion des mesures de conversion d’un annonceur &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) ».
+     Les colonnes de conversion disponibles incluent les conversions disponibles dans Advertising Search, Social et Commerce, que vous soyez ou non client Search, Social et Commerce. La liste peut inclure des mesures de conversion et d’engagement du site synchronisées à partir d’Adobe Analytics lorsque l’annonceur dispose d’une [intégration [!DNL Adobe Analytics for Advertising] an](/help/integrations/analytics/overview.md). [!DNL Analytics] mesures calculées et mesures calculées avancées ne sont pas disponibles. Pour plus d’informations sur l’inclusion des conversions collectées dans les rapports, consultez la rubrique du guide Search, Social et Commerce « [À propos de la gestion des mesures de conversion d’un annonceur](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md) ».
 
-1. (Dans l’onglet [!UICONTROL Overview] ) :
+1. (Dans l’onglet [!UICONTROL Overview]) :
 
    * (Facultatif) Dans la section [!UICONTROL Overall Regional Performance], placez le curseur sur un point du graphique pour afficher les données relatives à ce point.
 
    * (Facultatif) Dans la section [!UICONTROL Regional Performance], effectuez l’une des opérations suivantes :
 
-     * Cliquez sur le nom d’une mesure (tel que [!UICONTROL Impressions]) pour l’afficher.
+     * Cliquez sur le nom d’une mesure (telle que [!UICONTROL Impressions]) pour l’afficher.
 
      * Sélectionnez la région dans le menu [!UICONTROL Region].
 
@@ -114,11 +114,11 @@ La vue Rapport inclut les données suivantes :
 
      * Placez le curseur sur la valeur de n’importe quelle catégorie d’appareils pour afficher les données de ce critère.
 
-     * Cliquez sur la valeur de n’importe quelle catégorie d’appareils pour afficher la liste des principaux talents créatifs diffusés selon ce critère<!-- NN-->
+     * Cliquez sur la valeur de n’importe quelle catégorie d’appareils pour afficher la liste des <!-- NN--> meilleurs contenus publicitaires diffusés selon ce critère.
 
-1. (Facultatif) Pour afficher les données par élément créatif et par lot ou balise publicitaire, cliquez sur l’onglet **[!UICONTROL Creative Performance]** .
+1. (Facultatif) Pour afficher les données par élément créatif et par lot ou balise publicitaire, cliquez sur l’onglet **[!UICONTROL Creative Performance]**.
 
-   * Dans le sous-onglet [!UICONTROL Creatives] , vous pouvez effectuer l’une des opérations suivantes :
+   * Dans le sous-onglet [!UICONTROL Creatives], vous pouvez effectuer l’une des opérations suivantes :
 
      * (Facultatif) Pour basculer entre les vues graphique et grille, cliquez respectivement sur ![Graphique](/help/creative/assets/chart-view-button.png "Graphique") et ![Grille](/help/creative/assets/table-view-button.png "Grille").
 
@@ -126,7 +126,7 @@ La vue Rapport inclut les données suivantes :
 
      * (Expériences avec ciblage d’arborescence de décision uniquement ; facultatif) Pour ventiler les performances pour chaque cible publicitaire appliquée, activez **[!UICONTROL Split targeting]**.
 
-1. Pour afficher les données par lot (expériences avec ciblage d’arbre de décision) ou balise publicitaire (expériences sans ciblage d’arbre de décision), cliquez sur le sous-onglet **[!UICONTROL Bundles]** . Vous pouvez effectuer l’une des opérations suivantes :
+1. Pour afficher les données par lot (expériences avec ciblage d’arbre de décision) ou balise publicitaire (expériences sans ciblage d’arbre de décision), cliquez sur le sous-onglet **[!UICONTROL Bundles]**. Vous pouvez effectuer l’une des opérations suivantes :
 
    * (Facultatif) Pour basculer entre les vues graphique et grille, cliquez respectivement sur ![Graphique](/help/creative/assets/chart-view-button.png "Graphique") et ![Grille](/help/creative/assets/table-view-button.png "Grille").
 
@@ -142,9 +142,9 @@ La vue Rapport inclut les données suivantes :
 
 >[!MORELIKETHIS]
 >
->* [Rapports personnalisés](/help/creative/reports/reports-about.md)
+>* [À propos des rapports personnalisés](/help/creative/reports/reports-about.md)
 >* [Gérer les rapports personnalisés](/help/creative/reports/report-manage.md)
 >* [Télécharger toutes les expériences de la vue](/help/creative/experiences/experience-download-view.md)
->* [Afficher le journal des modifications d’une expérience](/help/creative/experiences/experience-view-change-log.md)
+>* [Afficher le journal des modifications pour une expérience](/help/creative/experiences/experience-view-change-log.md)
 >* [À propos des expériences dans Advertising Creative](/help/creative/experiences/experience-about.md)
 >* [Afficher les alertes](/help/creative/reports/alerts-view.md)

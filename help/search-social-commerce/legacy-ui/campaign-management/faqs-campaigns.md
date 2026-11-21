@@ -1,0 +1,185 @@
+---
+title: Questions fréquentes sur les campagnes
+description: Voir les réponses aux questions sur la gestion des campagnes et les vues de données des campagnes.
+exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
+feature: Search Campaign Management
+TQID: 'https://experienceleague.adobe.com/5I3xvxMaW-VmMn1UhxtTgt7O68vi--W38VNpV1fE6Rs'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '1601'
+ht-degree: 0%
+---
+# Questions fréquentes sur la gestion de campagnes
+
+## Informations générales
+
++++Puis-je déplacer des campagnes et des composants d’un compte à un autre ?
+
+Ne déplacez pas et ne copiez pas une campagne ou un composant de campagne doté d’un identifiant unique vers un compte doté d’un identifiant différent. Cela entraîne des erreurs de données.
++++
+
++++Quand les données de clics sont-elles mises à jour à partir des réseaux publicitaires ?
+
+Le processus d&#39;extraction des données de clics de la veille des moteurs de recherche commence à 06:00 dans le fuseau horaire de l&#39;annonceur.
+
+En outre, les mesures de performances au niveau de la campagne [!DNL Google Ads] sur le réseau de recherche pour la journée en cours sont extraites à 8 h et à 16 h dans le fuseau horaire de l’annonceur.
++++
+
++++Quelles actions entraînent la perte de l’historique des mots-clés et des publicités ?
+
+>[!NOTE]
+>
+>(Annonceurs disposant de portefeuilles) Attendez-vous à ce que les performances des nouvelles combinaisons de mots-clés et de types de correspondance soient variables, tandis que Search, Social et Commerce collecte des données pour créer des modèles à leur intention.
+
+**Actions dans les vues [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], dans le processus de publication de feuilles d’envoi groupé et dans le propre éditeur du réseau publicitaire :**
+
+Le mot-clé ou l’annonce publicitaire existant est supprimé et un autre est créé lorsque :
+
+* ([!DNL Baidu], [!DNL Google Ads] et [!DNL Yandex]) Vous modifiez un nom de mot-clé.
+
+* ([!DNL Google Ads], [!DNL Microsoft Advertising] et [!DNL Yandex]) Vous modifiez le type de correspondance d’un mot-clé.
+
+* Vous déplacez un mot-clé entre les groupes publicitaires.
+
+* ([!DNL Google Ads] annonces de recherche dynamique, [!DNL Microsoft Advertising] annonces textuelles développées et tous les types d’annonces sur d’autres réseaux publicitaires pris en charge) Vous modifiez la copie publicitaire (titre/description) ou une image publicitaire.
+
+* Vous déplacez une annonce publicitaire entre des groupes publicitaires.
+
+**Événements dans le processus de validation du flux d&#39;inventaire des produits :**
+
+Une annonce ou un mot-clé existant est supprimé et un autre est créé lorsque :
+
+* Un fichier de flux contient une nouvelle valeur pour une colonne utilisée dans une variation publicitaire.
+
+* Les paramètres de modèle d’une annonce publicitaire ont été modifiés depuis la dernière propagation.
+
+* Un nouveau fichier de flux comprend une ligne pour une publicité ou un mot-clé qui a) se trouvait dans un fichier précédent, mais qui b) a été omis depuis et a été suspendu ou supprimé en fonction des paramètres de données de flux.
+
+Selon les [paramètres de données de flux](/help/search-social-commerce/legacy-ui/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings), une annonce publicitaire ou un mot-clé existant peut être supprimé lorsque :
+
+* Un nouveau fichier de flux n’inclut pas de ligne pour une annonce publicitaire ou un mot-clé existant.
+
+* La date de fin planifiée pour les composants d’un fichier de flux publié se produit.
+
+* Le niveau de stock d’un article tombe en dessous d’un minimum spécifié dans les paramètres des données de flux.
++++
+
++++(Campagnes [!DNL Google Ads]) Les modifications apportées aux noms d’affichage de mes conversions suivies par [!DNL Google] ont été annulées.
+
+Si vous modifiez les noms d’affichage des mesures de conversion dans Search, Social et Commerce, vos modifications sont remplacées par les noms configurés dans [!DNL Google Ads]. Apportez les modifications de nom dans [!DNL Google Ads].
++++
+
++++(Campagnes Google Ads) Puis-je utiliser un budget partagé pour les campagnes des portfolios ?
+
+Pour de meilleurs résultats, n’ajoutez pas [!DNL Google Ads] campagnes à un budget partagé [!DNL Google Ads] si elles se trouvent dans des portfolios optimisés configurés sur « [!UICONTROL Auto adjust campaign budget limits] ». Si vous le faites, [!DNL Google Ads] remplace les budgets de campagne optimisés pour Search, Social et Commerce, ce qui peut entraîner des inefficacités d’offres.
++++
+
++++([!DNL Google Ads] campagnes) Puis-je envoyer des utilisateurs mobiles et non mobiles vers différentes pages de destination ?
+
+Vous pouvez utiliser les paramètres [!DNL Google Ads] [!DNL ValueTrack] `{ifmobile}` et `{ifnotmobile}` pour déterminer le nom de domaine de la page de destination de deux façons, selon le cas pour vos sites :
+
+* Incluez la désignation de mobile comme serveur hôte à l’aide de `{ifmobile:m}{ifnotmobile:www}`.
+
+  Par exemple, `http://{ifmobile:m}{ifnotmobile:www}.example.com` redirige les utilisateurs mobiles vers m.example.com et les autres vers www.example.com.
+
+* Incluez la désignation mobile comme domaine de niveau supérieur à l’aide de `{ifmobile:mobi}{ifnotmobile:com}`.
+
+  Par exemple, `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` redirige les utilisateurs mobiles vers www.example.mobi et les autres vers www.example.com.
+
+Dans les deux cas, les URL de base avec suivi Search, Social et Commerce incluent les balises `{}` non codées et tous les paramètres supplémentaires ajoutés à l’URL de base.
+
+>[!NOTE]
+>
+>N’utilisez pas d’URL complète comme valeur pour les paramètres ifnotmobile et ifmobile. Utilisez uniquement la partie variable de l’URL (par exemple, « m » contre « www » ou « mobi » contre « com »).
+
++++
+
++++([!DNL Google Ads] campagnes sur le réseau de recherche) Pour quelles données s’affiche-t-on aujourd’hui ?
+
+Les mesures de performances au niveau de la campagne [!DNL Google Ads] sur le réseau de recherche pour la journée en cours sont extraites à 8 h et à 16 h dans le fuseau horaire de l’annonceur.
+
+Dans l’onglet [!UICONTROL Campaigns] de la vue [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] et de la vue [!UICONTROL Optimization] > [!UICONTROL Portfolios], lorsque vous créez un rapport le [!UICONTROL Today] ou dans une période personnalisée qui inclut le jour en cours, les données incluent les données synchronisées les plus récemment.
+
+>[!NOTE]
+>
+>Les données relatives aux clics, impressions et conversions sont retardées de trois heures et ne sont pas terminées tant que les données ne sont pas extraites.
+
++++
+
++++Quelle est la différence entre un modèle de tracking et un suffixe de page de destination ?
+
+Utilisez un suffixe de page de destination uniquement pour les réseaux publicitaires qui prennent en charge le suivi parallèle. Dans Search, Social et Commerce, les modèles de suivi et les suffixes de page de destination doivent inclure un identifiant de clic provenant du réseau publicitaire, mais les modèles de suivi incluent des paramètres de suivi supplémentaires.
+
+Pour plus d’informations sur le chargement des modèles de suivi et des suffixes de page de destination lorsqu’un utilisateur clique sur une annonce, consultez la prochaine FAQ sur la [prise en charge du suivi parallèle](#parallel-tracking).
+
++++
+
++++([!DNL Google Ads] et [!DNL Microsoft Advertising]) Search, Social et Commerce prennent-ils en charge le suivi parallèle des publicités dans [!DNL Google Ads] ou [!DNL Microsoft Advertising] ? {#parallel-tracking}
+
+Le suivi parallèle envoie directement les clients de votre publicité à votre URL finale, qui peut inclure des paramètres ajoutés à partir d’un suffixe d’URL final, ou « suffixe de page de destination ». L’URL de votre modèle de suivi (avec des paramètres supplémentaires pour la mesure des clics) est chargée séparément en arrière-plan. Votre page de destination est donc chargée plus rapidement.
+
+Search, Social et Commerce prend en charge le suivi parallèle pour les campagnes de recherche et d’achat à l’aide de l’identifiant de clic du réseau publicitaire (`msclkid` pour [!DNL Microsoft Advertising] ; `gclid` pour [!DNL Google Ads]). Utilisez un [niveau de compte](/help/search-social-commerce/legacy-ui/campaign-management/accounts/ad-network-account-manage.md#account-settings) ou un [niveau de campagne](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (appelé « [!DNL final URL suffix] » dans les réseaux publicitaires), qui est ajouté aux URL des pages de destination pour effectuer le suivi des clics sur les annonces enfants des navigateurs qui prennent en charge le suivi parallèle. Consultez les [formats de suffixes requis pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et les [formats de suffixes requis pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+
+Lorsque l’utilisateur consulte votre publicité sur un navigateur qui ne prend pas en charge le suivi parallèle, le réseau publicitaire utilise le suivi séquentiel. Les clients sont d’abord envoyés à l’URL de votre modèle de suivi, qui peut les rediriger vers des serveurs de suivi intermédiaires avant de les rediriger vers l’URL finale (qui peut inclure des paramètres supplémentaires dans un suffixe de page de destination). Tous les modèles de suivi pour un compte de réseau publicitaire doivent inclure le même paramètre d’identifiant de clic que celui que vous utilisez dans [!UICONTROL Landing Page Suffix]. Voir les [formats de modèle de suivi pour [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) et les [formats de modèle de suivi pour [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
++++
+
++++Pourquoi les URL de tracking de mes publicités incluent-elles « `&EV_HASH={<hash>}` » ?
+
+Lorsque vous téléchargez des publicités à l’aide d’un [flux d’inventaire de produits](/help/search-social-commerce/legacy-ui/campaign-management/inventory-feeds/inventory-feeds-about.md) pour un compte avec la redirection des pixels Search, Social et Commerce et avec un suivi au niveau des mots-clés et des créations, Search, Social et Commerce ajoute le paramètre de hachage et la valeur au modèle de suivi ou à l’URL de destination de la publicité afin d’identifier qu’elle a été créée à l’aide de la fonction de flux d’inventaire.
++++
+
+## Flux d’inventaire
+
++++(Flux d’inventaire de produits) Dois-je suspendre ou supprimer les publicités obsolètes ou concernant un produit dont le niveau de stock est inférieur à un minimum spécifié ?
+
+Cela dépend des exigences commerciales de l&#39;annonceur.
+
+Lorsque vous mettez des annonces en pause, elles sont réactivées si vous soumettez à nouveau la même annonce ou si le niveau de stock dépasse le minimum. Vous pouvez ainsi conserver l’historique de l’annonce publicitaire.
+
+Lorsque vous supprimez et soumettez à nouveau des annonces, de nouvelles annonces sont créées et des données historiques doivent être accumulées pour les nouvelles annonces. Toutefois, si vous ne prévoyez pas de soumettre à nouveau des publicités supprimées, il n’est pas important de disposer de données historiques.
++++
+
++++(Flux d’inventaire de produits) Si je supprime un modèle d’annonce publicitaire, puis en crée un nouveau identique, les éléments manquants du fichier de flux suivant sont-ils en pause (lorsque les paramètres du fichier de flux sont configurés pour cela) ?
+
+Si le fichier de flux suivant contient des éléments de ligne manquants et que vous n’avez pas validé ces éléments de ligne à partir du nouveau modèle via un fichier de flux précédent, les éléments de ligne manquants ne sont pas reconnus comme « manquants ». Ils ne sont donc pas créés. Pour éviter cela, propagez le fichier de flux précédent à travers le nouveau modèle et publiez les données avant de propager et de publier les données d’un nouveau fichier.
++++
+
++++(Flux d’inventaire de produits) Puis-je mettre à jour les prix de mes produits sans affecter le score de qualité d’une publicité ?
+
+Pour les campagnes [!DNL Google Ads], oui : les variables [!DNL Google Ads] `{Param 1}` et `{Param 2}` vous permettent d’insérer dynamiquement des valeurs numériques dans une variation publicitaire sans supprimer et recréer la publicité, et donc sans affecter le score de qualité.
+
+Pour utiliser une variable `{Param 1}` ou `{Param 2}` pour vos données de prix, mappez la colonne de prix de votre fichier de données à cette variable dans les modèles de flux appropriés, puis incluez la variable dans vos modèles de variation d’annonce publicitaire.
+
+Par exemple, si la colonne s’appelle « Prix », ouvrez le modèle de flux qui crée les annonces, cliquez dans le champ de saisie en regard de **[!UICONTROL Param 1]**, puis cliquez sur la colonne **[!UICONTROL Price]** de la liste [!UICONTROL Feeds/Available Columns], qui insère `[Price]` comme valeur pour [!UICONTROL Param 1]. Ensuite, dans le modèle de variation publicitaire au bas du modèle de flux, insérez `{param1:default text}`, où « texte par défaut » correspond au texte à utiliser si la colonne de paramètres du fichier de flux est vide pour une ligne publicitaire.
+
+Lorsque vous envoyez des données, les champs de données des colonnes [!UICONTROL Param1] et [!UICONTROL Param2] peuvent inclure jusqu’à 25 caractères, y compris des données numériques, des symboles de devise et des codes de devise, ainsi que les caractères non numériques suivants : `, . % + - /`
++++
+
++++Mes campagnes générées à partir des flux d’inventaire comportent de nombreuses transactions orphelines.
+
+Si les [paramètres de données de flux](/help/search-social-commerce/legacy-ui/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) sont configurés pour supprimer des publicités dans diverses situations, toute conversion différée qui se produit après des clics sur la publicité peut entraîner [transactions orphelines](/help/search-social-commerce/glossary.md#o-p). La bonne pratique consiste à suspendre les publicités au lieu de les supprimer. Si une publicité n’a toujours pas reçu de chiffre d’affaires après un long moment, vous pouvez la supprimer via une feuille d’envoi groupé ou la vue de gestion des publicités.
++++
+
+## Problèmes de performances liés au compte et à la campagne
+
++++Certaines de mes campagnes dépensent plus ou moins que les budgets de la campagne.
+
+* Ceci est normal dans un portfolio optimisé configuré avec l&#39;option « [!UICONTROL Auto adjust campaign budget limits] ». Lorsque cette option est activée, vous pouvez dépenser jusqu’à *N* fois le budget de chaque campagne, où *N* correspond à la valeur du paramètre « [!UICONTROL Multiple] ». Cette option permet à la fonctionnalité d’optimisation d’ajuster les dépenses des campagnes individuelles selon les besoins, tout en dirigeant l’ensemble du portefeuille pour atteindre sa cible.
+* Si [!DNL Google Ads] campagnes utilisent un budget partagé, [!DNL Google Ads] ajuste les dépenses de chaque campagne selon les besoins pour dépenser l’intégralité du budget partagé.
++++
