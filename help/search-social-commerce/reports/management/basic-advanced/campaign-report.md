@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Campaign Report]'
 description: En savoir plus sur le [!UICONTROL Campaign Report].
-exl-id: c0cbdacc-2fa3-4eca-9355-6b3547d83802
 feature: Search Reports, Search Basic Reports
-TQID: 'https://experienceleague.adobe.com/Sdnt9gsF4hBMolIqxlYJiNERnoIWjaYLAiJNuEAPA4o'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,20 +10,14 @@ feature_v2:
     internal-label: Search Reports
   - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
     internal-label: Search Basic Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '102'
 ht-degree: 0%
 ---
 # [!UICONTROL Campaign Report]
 
-La [!UICONTROL Campaign Report] inclut les données de coût, de clic et (éventuellement) de conversion pour une ou plusieurs campagnes avec des mots-clés. Par défaut, les données incluent une ligne pour chaque campagne applicable pour chaque unité de temps dans la période spécifiée. Les lignes sont dans l’ordre croissant, d’abord par campagne, puis (le cas échéant) par portefeuille.
+Le [!UICONTROL Campaign Report] inclut les données de coût, de clic et (éventuellement) de conversion pour une ou plusieurs campagnes avec des mots-clés. Par défaut, les données incluent une ligne pour chaque campagne applicable pour chaque unité de temps dans la période spécifiée. Les lignes sont dans l’ordre croissant, d’abord par campagne, puis (le cas échéant) par portefeuille.
 
 Vous pouvez éventuellement inclure des classifications de libellés spécifiques à l’annonceur.
 
@@ -33,7 +25,7 @@ Vous pouvez afficher les données des 36 mois précédents.
 
 ## Colonnes par défaut
 
-Pour la description de toutes les colonnes par défaut et personnalisées, voir « [Colonnes de rapport pour les rapports de base et avancés](basic-advanced-report-columns.md) ».
+Pour obtenir une description de toutes les colonnes par défaut et personnalisées, voir « [Colonnes de rapport pour les rapports de base et avancés](basic-advanced-report-columns.md) ».
 
 * [!UICONTROL Campaign]
 * [!UICONTROL Portfolio]
@@ -53,5 +45,5 @@ Pour la description de toutes les colonnes par défaut et personnalisées, voir 
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports de base et avancés](basic-advanced-report-about.md)
->* [Générer un rapport de base ou avancé](basic-advanced-report-generate.md)
+>* [Gérer les rapports planifiés](/help/search-social-commerce/reports/management/report-manage.md)
 >* [Paramètres de rapport de base et avancés](basic-advanced-report-settings.md)

@@ -1,31 +1,38 @@
 ---
-title: Données utilisées pour les rapports
+title: (Nouvelle interface utilisateur) Données utilisées pour les rapports
 description: Découvrez les différents types de données disponibles dans les vues de données et les rapports personnalisés.
-exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-TQID: 'https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
   - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
     internal-label: Search Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: fbbc4aabc435023aafbef2443735a7fb285561be
+subfeature_v2:
+  - id: ff99aaef-142d-4c93-a88c-011e979e3843
+    internal-label: Advanced reports
+  - id: c916feea-e212-4773-b673-4daed287b8a3
+    internal-label: Assist reports
+  - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+    internal-label: Basic reports
+  - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+    internal-label: Model accuracy reports
+  - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
+    internal-label: Specialty reports
+  - id: e246c273-d720-4ece-b29b-7aaba7d50169
+    internal-label: Reports
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '643'
 ht-degree: 6%
 ---
-# Données utilisées pour les rapports
+# (Nouvelle interface utilisateur) Données utilisées pour les rapports
 
 Search, Social et Commerce comprend un ensemble complet de rapports de performances basés sur les données de clics et de conversion. Vous pouvez afficher des données de performances de base pour les différents composants d’un portefeuille ou d’un compte publicitaire à partir des vues [!UICONTROL Portfolios] et [!UICONTROL Campaigns], ainsi qu’en générant divers rapports de base et avancés.
 
-Les annonceurs qui utilisent le service de suivi des conversions d’Adobe Advertising peuvent également identifier le nombre de clics pour un emplacement géographique ou un nom de domaine d’un site web de référence, la manière dont les publicités dans chaque canal et les différents événements menant à une conversion contribuent au taux de conversion global, ainsi que la répartition des conversions pour une [mesure de conversion](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) unique par canal marketing. Les rapports disponibles varient selon le type de compte utilisateur. L’équipe du compte Adobe a accès à tous les rapports.
+Les annonceurs qui utilisent le service de suivi des conversions d’Adobe Advertising peuvent également identifier le nombre de clics pour un emplacement géographique ou un nom de domaine d’un site web de référence, la manière dont les publicités dans chaque canal et les différents événements menant à une conversion contribuent au taux de conversion global, ainsi que la répartition des conversions pour une [mesure de conversion](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md) unique par canal marketing. Les rapports disponibles varient selon le type de compte utilisateur. L’équipe du compte Adobe a accès à tous les rapports.
 
 La plupart des rapports peuvent être personnalisés pour afficher uniquement les informations souhaitées. Les mesures standard suivantes sont disponibles dans la plupart des rapports et sont calculées au niveau des annonces :
 
@@ -45,7 +52,7 @@ La plupart des rapports peuvent être personnalisés pour afficher uniquement le
 
 * **Mesures de conversion :** Nombre total de conversions pour chacune des mesures de conversion de l’annonceur ou des données de transaction suivies vers une mesure de conversion. Il peut s’agir de mesures d’engagement du site et de conversion, mais pas de mesures calculées ni de mesures calculées avancées, synchronisées à partir d’Adobe Analytics.
 
-  Cela peut également inclure les conversions [[!DNL Google Ads] suivies](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) et les conversions [[!DNL Google Analytics] suivies](/help/search-social-commerce/admin/data-sources/data-source-about.md) synchronisées pour le compte de l’annonceur.
+  Cela peut également inclure les conversions [[!DNL Google Ads] suivies](/help/search-social-commerce/tracking/google-conversion-data.md) et les conversions [[!DNL Google Analytics] suivies](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md) synchronisées pour le compte de l’annonceur.
 
 * **Mesures personnalisées :** vos propres mesures, que vous obtenez en créant des formules basées sur des mesures existantes (telles que le coût par commande).
 
@@ -57,20 +64,20 @@ Selon la règle d’attribution que vous spécifiez pour le rapport, les donnée
 
 | Groupe de rapports | Rapport | Dates pour lesquelles des données sont disponibles |
 | --- | --- | --- |
-| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | Les 36 mois précédents. |
-| | Tous les autres [!UICONTROL Basic Reports] | Les 36 mois précédents. |
+| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | À compter du 15 mai 2021.<br><br><b>Exception :</b> Les données de mesures d’importance seront disponibles à compter du 8 septembre 2022. |
+| | Tous les autres [!UICONTROL Basic Reports] | Les 36 mois précédents.<br><br><b>Exception :</b> Les données de mesures d’importance sont disponibles à partir du 8 septembre 2022. |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | Les 45 jours précédents. |
 | | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | Les deux (2) mois précédents plus le mois en cours. |
 | [!UICONTROL Assist Reports] | Tous | Les 18 mois précédents. |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | L&#39;année précédente. |
-| | [!UICONTROL Google Asset Group Performance Report] | Les 36 mois précédents. |
+| | [!UICONTROL Google Asset Group Performance Report] | Aucune limitation |
 | | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | Les 180 derniers jours. |
-| | [!UICONTROL RSA Assets Report] | Les 36 mois précédents. |
+| | [!UICONTROL RSA Assets Report] | À partir du 10 août 2022. |
 | | Tous les autres [!UICONTROL Specialty Reports] | Les deux (2) mois précédents. |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | Les 18 mois précédents. |
 | [!UICONTROL Change History Report] | — | Les 31 jours précédents. |
 
 >[!MORELIKETHIS]
 >
->* [À propos des rapports](/help/search-social-commerce/reports/report-about.md)
->* [Tâches de configuration initiale pour les rapports](/help/search-social-commerce/reports/initial-setup.md)
+>* [À propos des rapports](report-about.md)
+>* [Tâches de configuration initiale pour les rapports](initial-setup.md)

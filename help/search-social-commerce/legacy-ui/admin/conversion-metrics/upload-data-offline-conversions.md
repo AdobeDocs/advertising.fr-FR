@@ -1,0 +1,84 @@
+---
+title: Chargement des données de conversion hors ligne pour les conversions améliorées
+description: Découvrez comment charger des données de conversion propriétaires hors ligne pour mapper vers des conversions améliorées [!DNL Google Ads] pour les prospects et des conversions améliorées [!DNL Microsoft Advertising].
+feature: Conversions
+exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
+TQID: 'https://experienceleague.adobe.com/Hfmc5VCw9682cYmOQIcoy1Yy6InkoSmE18qqILbD2oI'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '794'
+ht-degree: 0%
+---
+# Chargement des données de conversion hors ligne pour les conversions améliorées
+
+Comptes *[!DNL Google Ads]et [!DNL Microsoft Advertising] uniquement*
+
+Vous pouvez charger vos données de conversion hors ligne propriétaires, y compris les adresses e-mail et les numéros de téléphone hachés, pour les mapper à vos [[!DNL Google Ads] conversions améliorées existantes pour les prospects](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-action-google.md) et [[!DNL Microsoft Advertising] conversions améliorées](https://help.ads.microsoft.com/#apex/ads/en/60178). Toutes les données chargées sont synchronisées en temps réel avec le réseau publicitaire.
+
+## Charger des données pour des conversions améliorées
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, puis sur l’onglet **[!UICONTROL Upload]**.
+
+1. Sélectionnez le réseau publicitaire, puis le compte.
+
+1. (Facultatif) Pour télécharger un modèle contenant tous les [champs de données obligatoires](#enhanced-conversions-leads-data) au format [!DNL Microsoft Excel], cliquez sur **[!UICONTROL View Template]**, puis téléchargez le fichier conformément à la procédure normale de votre navigateur.
+
+   Vous pouvez modifier le fichier pour inclure vos données et enregistrer vos modifications, puis charger le fichier à l’étape suivante.
+
+1. Cliquez sur **[!UICONTROL Choose File]**, puis sélectionnez un fichier à charger à partir de votre appareil ou réseau.
+
+## Données requises pour les fichiers chargés {#enhanced-conversions-leads-data}
+
+### Données au-dessus du tableau
+
+`Parameters:TimeZone=insert_timezone`
+
+Entrez le fuseau horaire du compte à cet emplacement ou dans la colonne « [!UICONTROL Conversion Time] » pour chaque ligne. Utilisez a\) ([!DNL [!DNL Google Ads] uniquement]) le format d’ID de fuseau horaire [pris en charge](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) ou b\) le décalage GMT, comme indiqué par + ou - et la différence temporelle à 4 chiffres (comme -0500 pour New York, +0100 pour Berlin ou +0000 pour le temps universel coordonné).
+
+### Colonnes et valeurs du tableau pour [!DNL Google Ads]
+
+| Colonne | Description |
+| ------ | ----------- |
+| E-mail | L’adresse e-mail de l’utilisateur, qui doit être hachée à l’aide de l’algorithme SHA-256. Chaque ligne doit inclure une valeur E-mail ou Numéro de téléphone. |
+| Numéro de téléphone | Le numéro de téléphone de l’utilisateur ou de l’utilisatrice, qui doit être haché à l’aide de l’algorithme SHA-256. Il doit inclure un code de pays et peut contenir des tirets et d’autres symboles. Chaque ligne doit inclure une valeur E-mail ou Numéro de téléphone. |
+| Nom de la conversion | (Obligatoire) Nom de l’action de conversion. |
+| Heure de conversion | (Obligatoire) Heure à laquelle l’événement de conversion s’est produit dans un format d’heure [pris en charge](https://support.google.com/google-ads/answer/7014069#prepare_data). Si vous n’incluez pas l’identifiant de fuseau horaire du compte dans la ligne `Parameters:TimeZone=insert_timezone` au-dessus du tableau de données, incluez le fuseau horaire pour chaque ligne à l’aide de a\) le [format d’identifiant de fuseau horaire pris en charge](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) ou b\) le décalage GMT, comme indiqué par + ou - et la différence temporelle à 4 chiffres (comme -0500 pour New York, +0100 pour Berlin ou +0000 pour le temps universel coordonné). |
+| Valeur de conversion | (Obligatoire) Valeur de conversion numérique. |
+| Devise de conversion | Code de devise de l’événement de conversion. |
+| Ajouter des données utilisateur | (Applicable aux données relatives aux utilisateurs de l’Espace économique européen (EEE) ou du Royaume-Uni (UK)) Indique si l’utilisateur a donné son consentement pour envoyer des données utilisateur à [!DNL Google] à des fins de personnalisation publicitaire. Les valeurs peuvent inclure `Granted`, `Denied` ou \[null\] (envoyé à [!DNL Google Ads] en tant que `Unspecified`). **Remarque :** [!DNL Google Ads] n’applique pas actuellement le consentement pour les conversions améliorées de leads, mais il pourrait le faire à l’avenir. |
+| Personalization publicitaire | (Applicable aux données relatives aux utilisateurs de l&#39;Espace économique européen (EEE) ou du Royaume-Uni (UK)) Indique si l&#39;utilisateur a donné son consentement pour envoyer des données utilisateur à [!DNL Google] à des fins publicitaires. Les valeurs peuvent inclure `Granted`, `Denied` ou \[null\] (envoyé à [!DNL Google Ads] en tant que `Unspecified`). **Remarque :** [!DNL Google Ads] n’applique pas actuellement le consentement pour les conversions améliorées de leads, mais il pourrait le faire à l’avenir. |
+
+### Colonnes et valeurs du tableau pour [!DNL Microsoft Advertising]
+
+Pour plus d’informations sur le formatage et le hachage des données, consultez la documentation de [!DNL Microsoft Ads] sur les [conversions améliorées](https://help.ads.microsoft.com/#apex/ads/60178).
+
+| Colonne | Description |
+| ------ | ----------- |
+| [!UICONTROL Email] | L’adresse e-mail de l’utilisateur, qui doit être hachée à l’aide de l’algorithme SHA-256. Chaque ligne doit inclure une valeur [!UICONTROL Email] ou [!UICONTROL Phone Number]. |
+| [!UICONTROL Phone Number] | Le numéro de téléphone de l’utilisateur ou de l’utilisatrice, qui doit être haché à l’aide de l’algorithme SHA-256. Il doit inclure un code de pays et peut contenir des tirets et d’autres symboles. Pour les conversions hors ligne améliorées, chaque ligne doit inclure une valeur [!UICONTROL Email] ou [!UICONTROL Phone Number]. |
+| [!UICONTROL Conversion Name] | (Obligatoire) Nom de l’action de conversion. |
+| [!UICONTROL Conversion Time] | (Obligatoire) Heure à laquelle l’événement de conversion s’est produit. Si vous n’incluez pas l’identifiant de fuseau horaire du compte dans la ligne `Parameters:TimeZone=insert_timezone` au-dessus du tableau de données, incluez le fuseau horaire de chaque ligne à l’aide du décalage GMT, comme indiqué par + ou - et le décalage horaire à 4 chiffres (comme -0500 pour New York, +0100 pour Berlin ou +000 pour le temps universel coordonné). Pour obtenir la liste des fuseaux horaires de différentes villes, voir [https://learn.microsoft.com/en-us/advertising/guides/time-zones](https://learn.microsoft.com/en-us/advertising/guides/time-zones), mais veillez à utiliser le format spécifié ici au lieu du format de la liste des fuseaux horaires. |
+| [!UICONTROL Conversion Value] | (Obligatoire) Valeur de conversion numérique. |
+| [!UICONTROL Conversion Currency] | Code de devise de l’événement de conversion. |
+
+>[!MORELIKETHIS]
+>
+>* [Implémenter [!DNL Google Ads] des conversions améliorées pour les prospects](/help/search-social-commerce/legacy-ui/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
+>* [Implémenter [!DNL Microsoft Advertising] des conversions hors ligne améliorées](/help/search-social-commerce/legacy-ui/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
+>* [Créer une action de conversion pour une  [!DNL Google Ads] conversion améliorée des prospects](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-action-google.md)
+>* [Charger les mesures de conversion suivies par Search, Social et Commerce vers [!DNL Google Ads]](/help/search-social-commerce/legacy-ui/tools/conversion-metrics-upload-to-google.md)

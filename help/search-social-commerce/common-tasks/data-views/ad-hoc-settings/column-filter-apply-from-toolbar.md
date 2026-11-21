@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '489'
 ht-degree: 0%
 ---
 # Application de filtres de données à partir de la barre d’outils
@@ -92,4 +92,4 @@ Vous pouvez appliquer autant de filtres que vous le souhaitez à une vue.<!-- Tr
 >
 >* [Appliquer un filtre de données à partir d&#39;un menu d&#39;en-tête de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
 >* [Modifier les filtres de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
->* [Supprimer un filtre de colonne]&#x200B;(/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/
+>* [Supprimer un filtre de colonne](column-filter-remove.md)

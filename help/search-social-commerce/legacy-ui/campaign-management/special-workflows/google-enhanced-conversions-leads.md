@@ -1,0 +1,78 @@
+---
+title: Implémenter [!DNL Google Ads] conversions améliorées pour les prospects
+description: Découvrez le workflow de configuration des conversions améliorées [!DNL Google Ads] pour les prospects.
+feature: Search Campaign Management, Conversions
+exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
+TQID: 'https://experienceleague.adobe.com/yFJJ662wcsm2KLzCIpxXo6F8nPsklVItHMTBk1h6wHg'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 0%
+---
+# Implémenter [!DNL Google Ads] conversions améliorées pour les prospects
+
+*[!DNL Google Ads]comptes uniquement*
+
+[[!DNL Google Ads] les conversions améliorées pour les prospects](https://support.google.com/google-ads/answer/9888656) vous permettent de mapper les utilisateurs aux conversions hors ligne à l’aide de vos données de conversion propriétaires. Utilisez des conversions améliorées pour les prospects dans les environnements où les ID de clic ne sont pas disponibles, par exemple pour effectuer le suivi des ventes par téléphone ou par e-mail qui résultent des prospects du site web.
+
+Dans Search, Social et Commerce, vous pouvez :
+
+* Affichez vos conversions améliorées existantes pour les prospects.<!-- Where is this? -->
+
+  Search, Social et Commerce synchronise vos conversions améliorées existantes pour les prospects tous les jours à 05h00 dans le fuseau horaire de l’annonceur.
+
+* Créer des conversions améliorées pour les prospects.
+
+* Chargez des données de conversion propriétaires hors ligne pour les mapper à vos conversions améliorées pour les prospects.
+
+* Incluez vos conversions améliorées pour les prospects en tant que mesures dans les rapports et en tant que mesures pondérées dans les objectifs d’optimisation.
+
+Pour utiliser cette fonctionnalité, procédez comme suit. Les étapes de création des balises de suivi de conversion et de création d’actions de conversion peuvent éventuellement être inversées.
+
+1. Dans [!DNL Google Ads], inscrivez-vous aux conversions améliorées pour les prospects :
+
+   1. Ouvrez les paramètres de conversion du compte.
+
+   1. Sélectionnez l’option pour les conversions améliorées de prospects et acceptez les conditions d’utilisation.
+
+   1. Choisissez d’utiliser une balise [!DNL Google] ou [!DNL Google Tag Manager] pour créer la balise de conversion.
+
+1. Configurez et implémentez une balise pour effectuer le suivi de l’action de conversion.
+
+   Pour obtenir des instructions, consultez l’aide de [!DNL Google Ads] pour créer des balises pour des conversions améliorées pour les prospects [ à l’aide d’une  [!DNL Google] balise](https://support.google.com/google-ads/answer/11021502) ou [à l’aide de [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292).
+
+1. Créez une action de conversion pour la conversion améliorée pour les prospects dans les publicités [Search, Social et Commerce](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-action-google.md) ou [Google](https://support.google.com/google-ads/answer/12216226).
+
+   Si vous créez l’action de conversion dans Search, Social et Commerce, indiquez le **type de conversion** en tant que *Importer la conversion* ou *Importer.*
+
+1. Chargez aussi souvent que nécessaire des données propriétaires, y compris des adresses e-mail ou des numéros de téléphone hachés, à attribuer à la conversion pour un compte spécifié. Vous pouvez effectuer cette étape à partir de [Search, Social et Commerce](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/upload-data-offline-conversions.md) ou à l’aide de [!DNL Google Data Manager].
+
+   * Dans Search, Social et Commerce, vous pouvez télécharger un modèle au format [!DNL Microsoft Excel], saisir vos données de conversion et enregistrer le fichier localement, puis charger le fichier modifié. Le modèle inclut des colonnes pour indiquer si l&#39;utilisateur a donné son consentement pour charger des données vers [!DNL Google] à des fins publicitaires et de personnalisation publicitaire.
+
+     Toutes les données chargées sont synchronisées en temps réel avec [!DNL Google Ads].
+
+   * Pour plus d’informations sur le chargement de données à l’aide de [!DNL Google Data Manager], voir « [À propos du gestionnaire de données](https://support.google.com/google-ads/answer/14639041) ».
+
+>[!MORELIKETHIS]
+>
+>* [Créer une action de conversion pour une  [!DNL Google Ads] conversion améliorée des prospects](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-action-google.md)
+>* [Charger des données de conversion hors ligne pour les conversions améliorées](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/upload-data-offline-conversions.md)

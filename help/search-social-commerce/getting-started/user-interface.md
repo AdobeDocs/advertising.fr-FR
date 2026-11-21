@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7d9c610b13af9e4f64b9955fc89e71fcae708c45
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 Chaque page comprend le menu principal et d’autres menus basés sur des tâches et des informations.
 
-Votre [profil de produit](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles) détermine les options disponibles, y compris les fonctionnalités disponibles dans chaque vue.
+Votre [profil de produit](/help/search-social-commerce/user-administration.md#default-product-profiles) détermine les options disponibles, y compris les fonctionnalités disponibles dans chaque vue.
 
 ## Le menu principal
 
@@ -83,7 +83,7 @@ La nouvelle interface utilisateur affiche un nouveau menu principal à gauche, q
 
 * Sous-menu **[!UICONTROL Plan]** :
 
-  * **[!UICONTROL Simulations]** Ouvre une nouvelle vue [[!UICONTROL Simulations]](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md), à partir de laquelle vous pouvez afficher toutes vos simulations personnalisées créées par l’utilisateur et les simulations hebdomadaires générées automatiquement, générer de nouvelles simulations personnalisées et réexécuter les simulations existantes. Le bouton [!UICONTROL Spend Planner] ouvre l’outil [!UICONTROL Spend Recommendation] hérité sous [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+  * **[!UICONTROL Simulations]** Ouvre une nouvelle vue [[!UICONTROL Simulations]](/help/search-social-commerce/plan/simulations/simulation-about.md), à partir de laquelle vous pouvez afficher toutes vos simulations personnalisées créées par l’utilisateur et les simulations hebdomadaires générées automatiquement, générer de nouvelles simulations personnalisées et réexécuter les simulations existantes. Le bouton [!UICONTROL Spend Planner] ouvre l’outil [!UICONTROL Spend Recommendation] hérité sous [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
   * **[!UICONTROL Spend Planner]** Quitte le nouveau site et ouvre l&#39;ancienne vue [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 

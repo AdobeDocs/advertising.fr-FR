@@ -1,0 +1,70 @@
+---
+title: À propos des rapports spécialisés
+description: Découvrez les rapports spécialisés.
+exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
+feature: Search Reports, Search Specialty Reports
+TQID: 'https://experienceleague.adobe.com/Ryz4VVERj-pBZMgBMrEOUr66VlZpzqwMFUW1jRB9oBo'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 0%
+---
+# À propos des rapports spécialisés
+
+La plupart des rapports spécialisés ne contiennent que des données collectées par les réseaux publicitaires. Toutefois, les [!UICONTROL Google Ads Shopping Performance Report], [!UICONTROL Keyword Impression Share Report] et [!UICONTROL Campaign Impression Share Report] peuvent inclure les données de chiffre d’affaires collectées par [!DNL Adobe]. Des rapports spécialisés sont disponibles pour tous les utilisateurs.
+
+>[!NOTE]
+>
+>Pour la plupart des rapports spécialisés, les données sont extraites pour la journée précédente à 23 h (23 h) chaque jour. Par exemple, à 23 h le 18 juin, il extrait les données du 17 juin. Si vous exécutez le rapport le 19 juin à 09:00 (avant l’extraction des données du 18 juin), alors le rapport inclut les données jusqu’au 17 juin à 23:00. Cette synchronisation des données s’applique à tous les rapports spécialisés [!DNL Google Ads] et aux [!UICONTROL Bing Ads Geo Report] et [!UICONTROL Bing Ads Search Query Report].
+
+## Types de rapports spécialisés
+
+* [Le [!UICONTROL AdWords and Bing Audience Target Report]](/help/search-social-commerce/legacy-ui/reports/management/specialty/adwords-bing-audience-target-report.md)
+
+* [Le [!UICONTROL AdWords Conversion Report]](/help/search-social-commerce/legacy-ui/reports/management/specialty/adwords-conversion-report.md)
+
+* [Le [!UICONTROL AdWords Geo Report]](/help/search-social-commerce/legacy-ui/reports/management/specialty/adwords-geo-report.md)
+
+* [Le [!UICONTROL AdWords Search Query Report]](/help/search-social-commerce/legacy-ui/reports/management/specialty/adwords-search-query-report.md)
+
+* [Le [!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/legacy-ui/reports/management/specialty/adwords-shopping-performance-report.md)
+
+* [Le [!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/legacy-ui/reports/management/specialty/bing-ads-geo-report.md)
+
+* [Le [!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/legacy-ui/reports/management/specialty/bing-ads-search-query-report.md)
+
+* [Le [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/legacy-ui/reports/management/specialty/campaign-daily-impression-share-report.md)
+
+* [Le [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/legacy-ui/reports/management/specialty/keyword-daily-impression-share-report.md)
+
+* [Le [!UICONTROL RSA Asset Report]](/help/search-social-commerce/legacy-ui/reports/management/specialty/rsa-asset-report.md)
+
+* [Le [!UICONTROL MSA Ad Extension by Ad Report]](msa-ad-extension-detail-report.md)
+
+* [Le [!UICONTROL MSA Ad Extension by Keyword Report]](msa-ad-extension-by-keyword-report.md)
+
+* [Le [!UICONTROL MSA Ad Extension Detail Report]](msa-ad-extension-by-ad-report.md)
+
+* [Le [!UICONTROL MSA Network Performance Report]](msa-network-performance-report.md)
+
+* [Le [!UICONTROL MSA Network Impression Share Report]](msa-network-impression-share-report.md)
+
+>[!MORELIKETHIS]
+>
+>* [Générer un rapport spécialisé](/help/search-social-commerce/legacy-ui/reports/management/specialty/specialty-report-generate.md)
+>* [Paramètres des rapports spécialisés](/help/search-social-commerce/legacy-ui/reports/management/specialty/specialty-report-settings.md)
+>* [Colonnes de rapports pour les rapports spécialisés](/help/search-social-commerce/legacy-ui/reports/management/specialty/specialty-report-columns.md)

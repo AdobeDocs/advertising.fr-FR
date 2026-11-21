@@ -1,0 +1,62 @@
+---
+title: '[!UICONTROL Google Performance Max Placement Report]'
+description: En savoir plus sur le [!UICONTROL Google Performance Max Placement Report].
+feature: Search Reports, Search Specialty Reports
+exl-id: 6f36fe86-f797-4d0b-a966-e84e2077fad8
+TQID: 'https://experienceleague.adobe.com/57mENV64WH8KPyjiyjmpzlPxpIV8GJa62eWf5eVXPiQ'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 0%
+---
+# [!UICONTROL Google Performance Max Placement Report]
+
+*Applicable aux comptes [!DNL Google Ads] avec des campagnes Performance Max uniquement*
+
+Le [!UICONTROL Google Performance Max Placement Report] inclut des données d’impression pour les emplacements dans [!DNL Google Ads] campagnes Performance Max au sein d’un compte spécifié. Le rapport inclut les impressions pour chaque emplacement inclus par URL cible. Par défaut, les données incluent une ligne pour chaque combinaison d’emplacement et d’URL cible qui a reçu au moins une impression dans la plage de données spécifiée, même si l’emplacement a été supprimé pendant la période de création de rapports. Par défaut, les lignes sont classées par ordre croissant dans les campagnes.
+
+Utilisez ce rapport pour :
+
+* identifiez les sites web, les applications et les canaux [!DNL YouTube] qui diffusent vos publicités.
+
+* identifier et exclure les emplacements non pertinents ou peu performants pour améliorer le retour sur investissement de la campagne.
+
+* assurez-vous que vos publicités s’affichent uniquement dans des environnements sécurisés par la marque en créant des listes d’exclusion fiables.
+
+<!-- We're pulling data directly from GGL and not storing it, so no limitations on our end WRT date range. -->
+
+## Colonnes par défaut
+
+Pour obtenir une description de toutes les colonnes par défaut et personnalisées, voir « [Colonnes de rapports pour les rapports spécialisés](specialty-report-columns.md) ».
+
+* [!UICONTROL Campaign Name]
+* [!UICONTROL Account Name]
+* [!UICONTROL Placement Type]
+* [!UICONTROL Placement]
+* [!UICONTROL Target URL]
+* [!UICONTROL Start Date]
+* [!UICONTROL End Date]
+* [!UICONTROL Impressions]
+
+>[!MORELIKETHIS]
+>
+>* [À propos des rapports spécialisés](specialty-report-about.md)
+>* [Générer un rapport spécialisé](specialty-report-generate.md)
+>* [Paramètres des rapports spécialisés](specialty-report-settings.md)
+>* [Colonnes de rapports pour les rapports spécialisés](specialty-report-columns.md)

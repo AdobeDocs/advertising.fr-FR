@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '3919'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 | Colonne | Description |
 | ---- | ---- |
-| \[Mesures personnalisées (dérivées) spécifiques à l’annonceur\] | Valeur d&#39;une [&#x200B; mesure personnalisée que vous avez créée](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) et qui est calculée à partir de mesures existantes. |
+| \[Mesures personnalisées (dérivées) spécifiques à l’annonceur\] | Valeur d&#39;une [ mesure personnalisée que vous avez créée](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) et qui est calculée à partir de mesures existantes. |
 | \[classifications de libellés spécifiques à l’annonceur\] | Toutes les classifications de libellés actuellement appliquées à l’entité, au niveau de l’entité. Plusieurs classifications de libellés sont séparées par des virgules (,). |
 | \[Mesures de conversion spécifiques à l’annonceur\] | Nombre de conversions pour une mesure de conversion ou une mesure d’engagement du site spécifiée. |
 | \[conversions suivies par Google\] | Voir l’entrée pour « GGL\*, GGL_CT\* et GGL_XD_CT\* ». |
@@ -61,7 +61,7 @@ ht-degree: 0%
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL LY Ads] et [!DNL Microsoft Advertising] campagnes) Ajustement des enchères mobiles au niveau du groupe publicitaire actuel, qui détermine la manière dont les enchères sont ajustées lorsque la publicité est affichée sur un appareil mobile. |
 | [!UICONTROL Adobe Tech Fees] | ([!UICONTROL Search Engine Account Report], [!UICONTROL Campaign Report], [!UICONTROL Ad Group Report] et [!UICONTROL Ad Variation Report] ; [!DNL ChatGPT Ads] uniquement) Les [!DNL Adobe] frais de technologie pour les dépenses média, calculés à l’aide des taux de frais applicables. |
 | [!UICONTROL AI Max Bundling Required] | (Campagnes qui ciblent uniquement le réseau de recherche ; campagnes avec la fonctionnalité AI Max activée ; lecture seule) Si le regroupement est obligatoire : *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* ou nul. |
-| [!UICONTROL AI Max Enabled] | Indique si la fonctionnalité [[!UICONTROL AI Max] &#x200B;](https://support.google.com/google-ads/answer/15910366) est activée : *[!UICONTROL true]*, *[!UICONTROL false]* ou est nulle. |
+| [!UICONTROL AI Max Enabled] | Indique si la fonctionnalité [[!UICONTROL AI Max] ](https://support.google.com/google-ads/answer/15910366) est activée : *[!UICONTROL true]*, *[!UICONTROL false]* ou est nulle. |
 | [!UICONTROL AI Max Search Term Matching] | (Campagnes qui ciblent le réseau de recherche et pour lesquelles la fonctionnalité [AI Max](https://support.google.com/google-ads/answer/15910366) et la fonctionnalité de correspondance des termes de recherche au niveau de la campagne sont activées ; lecture seule) Si la correspondance des termes de recherche au niveau du groupe publicitaire est activée : *[!UICONTROL true]*, *[!UICONTROL false]* ou null. |
 | [!UICONTROL Advertiser] | Nom de l’annonceur. |
 | [!UICONTROL Advertiser ID] | Identifiant numérique du compte Search, Social et Commerce de l’annonceur. |
@@ -137,7 +137,7 @@ ht-degree: 0%
 | [!UICONTROL Exclude (yes/no)] | Indique si les enchères sont exclues (<i>[!UICONTROL Yes]</i>) ou autorisées (<i>[!UICONTROL No]</i>) pour les annonces de produits correspondants. |
 | [!UICONTROL First Page CPC] | (Campagnes Google uniquement) Coût par clic (CPC) pour les annonces qui apparaissent sur la première page des résultats de recherche pendant la période spécifiée. |
 | [!UICONTROL Frequency] | ([!DNL Meta] campagnes uniquement) Nombre moyen de fois où une personne a vu votre publicité. |
-| `GGL*`, `GGL_CT*` et `GGL_XD_CT*` [[!DNL Google Ads] conversions suivies] | (Campagnes [!DNL Google Ads] sur les réseaux de recherche et d’achat) Conversions suivies par [!DNL Google Ads], avec jusqu’à trois mesures distinctes pour chaque conversion :<ul><li>`GGL*` — (Lorsque vous le suivez) Valeur de conversion du mot-clé, commençant par le préfixe « GGL » (tel que GGL Purchase).</li><li>`GGL_CT*` - Nombre (nombre) de conversions commençant par le préfixe « GGL_CT » (tel que GGL_CT_Purchase).</li><li>`GGL_XD_CT*` - (Lorsque disponible pour le type de conversion, lorsque vous les suivez) Nombre (nombre) de conversions entre appareils, tel que mesuré par [!DNL Google Ads] en commençant par le préfixe « GGL_XD_CT_ » (tel que GGL_XD_CT_Purchase).</li></ul><br>Chaque conversion est enregistrée par unité d&#39;enchères et par date de clic ; elle n&#39;est pas disponible au niveau de l&#39;événement. Pour plus d’informations sur les conversions suivies par [!DNL Google Ads], voir « [[!DNL Google Ads] données de conversion dans Search, Social et Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) ». |
+| `GGL*`, `GGL_CT*` et `GGL_XD_CT*` [[!DNL Google Ads] conversions suivies] | (Campagnes [!DNL Google Ads] sur les réseaux de recherche et d’achat) Conversions suivies par [!DNL Google Ads], avec jusqu’à trois mesures distinctes pour chaque conversion :<ul><li>`GGL*` — (Lorsque vous le suivez) Valeur de conversion du mot-clé, commençant par le préfixe « GGL » (tel que GGL Purchase).</li><li>`GGL_CT*` - Nombre (nombre) de conversions commençant par le préfixe « GGL_CT » (tel que GGL_CT_Purchase).</li><li>`GGL_XD_CT*` - (Lorsque disponible pour le type de conversion, lorsque vous les suivez) Nombre (nombre) de conversions entre appareils, tel que mesuré par [!DNL Google Ads] en commençant par le préfixe « GGL_XD_CT_ » (tel que GGL_XD_CT_Purchase).</li></ul><br>Chaque conversion est enregistrée par unité d&#39;enchères et par date de clic ; elle n&#39;est pas disponible au niveau de l&#39;événement. Pour plus d’informations sur les conversions suivies par [!DNL Google Ads], voir « [[!DNL Google Ads] données de conversion dans Search, Social et Commerce](/help/search-social-commerce/tracking/google-conversion-data.md) ». |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] uniquement) Pourcentage de vos impressions d’annonce publicitaire affichées comme première annonce publicitaire au-dessus des résultats de recherche organiques. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] uniquement) Pourcentage de vos impressions d’annonce publicitaire affichées au-dessus des résultats de recherche organiques. |
 | [!UICONTROL Impressions] | Nombre d’impressions d’annonces publicitaires au cours de la période spécifiée. |
@@ -228,5 +228,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports de base et avancés](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
->* [Générer un rapport de base ou avancé](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
+>* [Générer un rapport de base ou avancé](/help/search-social-commerce/reports/management/report-manage.md#generate-a-new-report)
 >* [Paramètres de rapport de base et avancés](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)

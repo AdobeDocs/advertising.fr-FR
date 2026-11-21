@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL AdWords Shopping Performance Report]'
 description: En savoir plus sur le [!UICONTROL AdWords Shopping Performance Report].
-exl-id: 891c8940-bf92-455c-a6f3-92e2a0122b4a
 feature: Search Reports, Search Specialty Reports
-TQID: 'https://experienceleague.adobe.com/923ThJ4GB0iDIZH22x1WcSxEIX22v7cX0Pf9uC90lLk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,22 +10,16 @@ feature_v2:
     internal-label: Search Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '273'
 ht-degree: 0%
 ---
 # [!UICONTROL AdWords Shopping Performance Report]
 
-Comptes *[!DNL Google Ads]uniquement*
+*[!DNL Google Ads]comptes uniquement*
 
-Le [!UICONTROL AdWords Shopping Performance Report] comprend des données de coût, de clic et d’impression ; des données de clic et de conversion converties suivies par le [!DNL Google Ads Conversion Optimizer] ; et (facultativement) des données de conversion suivies par des données de mesure [!DNL Adobe] et dérivées agrégées au niveau de l’identifiant du produit pour un ou plusieurs groupes publicitaires dans les campagnes d’achat. Par défaut, les données incluent une ligne pour chaque ID de produit et catégorie de produits par groupe publicitaire pour chaque unité de temps de la période spécifiée. Les lignes sont classées par ordre croissant : par nom de compte, nom de campagne, puis nom du groupe publicitaire par défaut.
+Le [!UICONTROL AdWords Shopping Performance Report] inclut les données de coût, de clic et d’impression ; les données de clic et de conversion converties suivies par le [!DNL Google Ads Conversion Optimizer] ; et (facultativement) les données de conversion suivies par le [!DNL Adobe] et les données de mesure dérivées agrégées au niveau de l’ID de produit pour un ou plusieurs groupes publicitaires dans les campagnes d’achats. Par défaut, les données incluent une ligne pour chaque ID de produit et catégorie de produits par groupe publicitaire pour chaque unité de temps de la période spécifiée. Les lignes sont classées par ordre croissant : par nom de compte, nom de campagne, puis nom du groupe publicitaire par défaut.
 
 Vous pouvez afficher les données des deux mois précédents. Les données antérieures au 21 septembre 2018 peuvent être affichées sur deux lignes : une ligne avec les données de coût et de clic, et une ligne avec les données de conversion suivies par Adobe. Les données suivantes sont affichées sur une ligne.
 
@@ -38,7 +30,7 @@ Vous pouvez afficher les données des deux mois précédents. Les données anté
 
 ## Colonnes par défaut
 
-Pour la description de toutes les colonnes par défaut et personnalisées, voir « [Colonnes de rapport pour les rapports spécialisés](specialty-report-columns.md) ».
+Pour obtenir une description de toutes les colonnes par défaut et personnalisées, voir « [Colonnes de rapports pour les rapports spécialisés](specialty-report-columns.md) ».
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Campaign Name]
@@ -59,5 +51,5 @@ Pour la description de toutes les colonnes par défaut et personnalisées, voir 
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports spécialisés](specialty-report-about.md)
->* [Générer un rapport spécialisé](specialty-report-generate.md)
+>* [Gérer les rapports planifiés](/help/search-social-commerce/reports/management/report-manage.md)
 >* [Paramètres des rapports spécialisés](specialty-report-settings.md)

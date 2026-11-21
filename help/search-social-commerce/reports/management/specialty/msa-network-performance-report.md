@@ -2,8 +2,6 @@
 title: Le [!UICONTROL MSA Network Performance Report]
 description: En savoir plus sur le [!UICONTROL MSA Network Performance Report].
 feature: Search Reports, Search Specialty Reports
-exl-id: da2b85e9-5e78-4a1c-9268-8686f025e80c
-TQID: 'https://experienceleague.adobe.com/PXMA1k9x0zeHYSoMXfTgrWK9RxaCMDowsnqqr3CQIno'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,22 +10,16 @@ feature_v2:
     internal-label: Search Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 0%
 ---
 # Le [!UICONTROL MSA Network Performance Report]
 
-Comptes *[!DNL Microsoft Advertising]uniquement*
+*[!DNL Microsoft Advertising]comptes uniquement*
 
-Ce rapport présente les performances au niveau de la campagne (coût, clics, impressions et chiffre d’affaires suivi par l’[!DNL Microsoft Advertising]) par distribution publicitaire (recherche ou audience) pour des comptes [!DNL Microsoft Advertising] spécifiés.
+Ce rapport affiche les performances au niveau de la campagne (coût, clics, impressions et chiffre d’affaires suivi par [!DNL Microsoft Advertising]) par distribution publicitaire (recherche ou audience) pour les comptes [!DNL Microsoft Advertising] spécifiés.
 
 Lorsque vous exécutez un rapport avec uniquement des colonnes de mesures et sans dimensions, le rapport généré contient deux lignes en double : l’une avec des données agrégées et l’autre avec toutes les mesures.
 
@@ -39,7 +31,7 @@ Vous pouvez afficher les données des 180 derniers jours. Search, Social et Comm
 
 ## Colonnes par défaut
 
-Pour la description de toutes les colonnes par défaut et personnalisées, voir « [Colonnes de rapport pour les rapports spécialisés](specialty-report-columns.md) ».
+Pour obtenir une description de toutes les colonnes par défaut et personnalisées, voir « [Colonnes de rapports pour les rapports spécialisés](specialty-report-columns.md) ».
 
 * [!UICONTROL SE Account Name]
 * [!UICONTROL Campaign Name]
@@ -56,6 +48,6 @@ Pour la description de toutes les colonnes par défaut et personnalisées, voir 
 >[!MORELIKETHIS]
 >
 >* [À propos des rapports spécialisés](specialty-report-about.md)
->* [Générer un rapport spécialisé](specialty-report-generate.md)
+>* [Gérer les rapports planifiés](/help/search-social-commerce/reports/management/report-manage.md)
 >* [Paramètres des rapports spécialisés](specialty-report-settings.md)
->* [Colonnes de rapport pour les rapports spécialisés](specialty-report-columns.md)
+>* [Colonnes de rapports pour les rapports spécialisés](specialty-report-columns.md)

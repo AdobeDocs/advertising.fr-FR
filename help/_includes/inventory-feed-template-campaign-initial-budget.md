@@ -1,9 +1,8 @@
 ---
-source-git-commit: 119280f9a8ceffc1bdbc534b4b80f6fa268ceea3
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
-
 ---
 # Texte et modèle - Budget initial
 
@@ -11,4 +10,4 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[Ajoutez la campagne à un portefeuille](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md) et activez l’option de portefeuille sur « [!UICONTROL Auto adjust campaign budget limits] » pour permettre à Search, Social et Commerce d’ajuster automatiquement le budget afin d’optimiser les dépenses pour l’ensemble du portefeuille.
+>[Ajoutez la campagne à un portefeuille](/help/search-social-commerce/legacy-ui/campaign-management/campaign-assign-to-portfolio.md) et activez l’option de portefeuille sur « [!UICONTROL Auto adjust campaign budget limits] » pour permettre à Search, Social et Commerce d’ajuster automatiquement le budget afin d’optimiser les dépenses pour l’ensemble du portefeuille.

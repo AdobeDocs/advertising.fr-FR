@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Pour plus d’informations sur l’utilisation des balises d’image par rapport aux balises JavaScript, consultez la [FAQ sur les balises de suivi](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).
+>Pour plus d’informations sur l’utilisation des balises d’image par rapport aux balises JavaScript, consultez les [FAQ sur les balises de suivi](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).
 
 * Balises non sécurisées pour les sites utilisant le protocole HTTP :
 
@@ -36,18 +36,18 @@ où :
 
 * `<ef-userid>` est un identifiant utilisateur numérique unique attribué par Search, Social et Commerce à l’annonceur.
 
-* `<propertyname>` est la conversion à suivre. Par exemple, si vous effectuez le suivi d’une conversion appelée « enregistrement », la balise inclut le paramètre `ev_registration=<registration>` et vous devez transmettre le chiffre d’affaires réel pour chaque transaction (tel que `ev_registration=1`). Lorsque plusieurs propriétés sont suivies, elles sont reliées par une esperluette (`&`), telle que `ev_registration=<registration>&ev_sale=<sale>` (par exemple, `ev_registration=1&ev_sale=12.99`). **Remarque :** le nom de la propriété ne peut pas contenir de caractères spéciaux.
+* `<propertyname>` est la conversion à suivre. Par exemple, si vous suivez une conversion appelée « enregistrement », la balise inclut le paramètre `ev_registration=<registration>` et vous devez transmettre le chiffre d’affaires réel pour chaque transaction (tel que `ev_registration=1`). Lorsque plusieurs propriétés sont suivies, elles sont rejointes par une esperluette (`&`), telle que `ev_registration=<registration>&ev_sale=<sale>` (par exemple, `ev_registration=1&ev_sale=12.99`). **Remarque :** Le nom de la propriété ne peut pas contenir de caractères spéciaux.
 
-* `<transid>` est un ID de transaction unique (tel qu’un ID de commande réel) que l’annonceur génère et transmet pour identifier une transaction. Il n’est inclus que lorsque l’option « [!UICONTROL Include unique transaction IDs] » est sélectionnée.
+* `<transid>` est un ID de transaction unique (tel qu’un ID de commande réel) que l’annonceur génère et transmet pour identifier une transaction. Il est inclus uniquement lorsque l&#39;option « [!UICONTROL Include unique transaction IDs] » est sélectionnée.
 
-  Search, Social et Commerce utilisent l’ID de transaction pour éliminer les transactions en double avec le même ID de transaction et la même valeur de propriété. L’ID de transaction est inclus dans le [!UICONTROL Transaction Report]. Vous pouvez l’utiliser pour valider les données dans Adobe Advertising avec les données de l’annonceur. **Remarque :** si les données de l’annonceur n’incluent pas d’ID unique par transaction, Search, Social et Commerce en génère toujours un en fonction de l’heure de la transaction.
+  Search, Social et Commerce utilisent l’ID de transaction pour éliminer les transactions en double avec le même ID de transaction et la même valeur de propriété. L’ID de transaction est inclus dans le [!UICONTROL Transaction Report], que vous pouvez utiliser pour valider les données dans Adobe Advertising avec les données de l’annonceur. **Remarque :** Si les données de l&#39;annonceur n&#39;incluent pas d&#39;ID unique par transaction, Search, Social et Commerce en génère toujours un en fonction de la durée de la transaction.
 
 <!-- add more links -->
 
 >[!MORELIKETHIS]
 >
 >* [À propos des balises de suivi des conversions Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Générer une balise de conversion Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [FAQ sur les balises de suivi des conversions et des pages vues](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
->* [Format des balises de suivi des conversions JavaScript version 2](format-conversion-tag-jsv2.md)
->* [Format des balises de suivi des conversions JavaScript version 3](format-conversion-tag-jsv3.md)
+>* [Générer une balise de conversion Adobe Advertising](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
+>* [Questions fréquentes sur les balises de suivi des conversions et des pages vues](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
+>* [Format des balises de suivi de conversion JavaScript version 2](format-conversion-tag-jsv2.md)
+>* [Format des balises de suivi de conversion JavaScript version 3](format-conversion-tag-jsv3.md)

@@ -1,0 +1,45 @@
+---
+title: Tâches de configuration initiales pour les rapports
+description: Découvrez comment rendre les mesures disponibles dans les rapports et comment automatiser les rapports.
+exl-id: c2e76c63-ddb8-4762-8628-30cf3f54b8fd
+feature: Search Reports
+TQID: 'https://experienceleague.adobe.com/N50b-O0oFBV6ZMXcFx8gRvLs3M1hN696d43VGlgkg44'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '348'
+ht-degree: 0%
+---
+# Tâches de configuration initiales pour les rapports
+
+Les nouveaux utilisateurs doivent effectuer les tâches de configuration initiales suivantes :
+
+* Rendez les mesures de conversion qu’Adobe Advertising suit pour un annonceur [ disponibles pour les rapports et d’autres vues](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-edit-available.md) et [ renommez éventuellement les mesures de conversion]&#x200B;(/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-edit-display-name.md) affichées dans les en-têtes de colonne pour plus de lisibilité.
+
+  Les propriétés des transactions ne sont pas disponibles pour les rapports, sauf si vous les rendez spécifiquement disponibles.
+
+  Si vous commencez ultérieurement à effectuer le suivi d’une nouvelle mesure de conversion, vous devez répéter cette tâche.
+
+* (Facultatif) Automatiser la génération de rapports :
+
+  * Si vous souhaitez générer régulièrement des données de rapport pour un incrément de temps spécifique, par exemple un [!UICONTROL Campaign Report] pour la semaine écoulée ou les 30 derniers jours, vous pouvez configurer [modèles de rapport](/help/search-social-commerce/legacy-ui/reports/automation/templates/template-about.md) et planifier leur exécution quotidienne ou un jour spécifique de la semaine ou du mois. Chaque fois que l’exécution du rapport est planifiée, un nouveau rapport est généré. Vous avez la possibilité d’informer les adresses e-mail d’utilisateurs spécifiques des moteurs de recherche, des réseaux sociaux et de Commerce une fois le rapport terminé, en fonction des [paramètres de notification configurés dans [!UICONTROL Notification Center]](/help/search-social-commerce/legacy-ui/notifications/notification-about.md).
+
+  * Si vous souhaitez afficher des données de rapports quotidiens à jour dans une feuille de calcul au format personnalisé, avec ou sans tableaux croisés dynamiques et toutes les colonnes supplémentaires dont vous avez besoin pour effectuer d&#39;autres calculs, vous pouvez configurer un [flux de feuille de calcul](/help/search-social-commerce/legacy-ui/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) quotidien. Les flux de feuilles de calcul sont actualisés quotidiennement avec les dernières données de performances et continuent à conserver les données des dates précédentes. Pour configurer les flux de feuilles de calcul, vous devez d&#39;abord créer un modèle de feuille de calcul personnalisé dans [!DNL Microsoft Excel]. Vous avez la possibilité d’informer les adresses e-mail d’utilisateurs spécifiques des moteurs de recherche, des réseaux sociaux et de Commerce lorsqu’un fichier de flux est disponible, en fonction des paramètres de notification [ configurés dans [!UICONTROL Notification Center]](/help/search-social-commerce/legacy-ui/notifications/notification-about.md).
+
+  * Si vous souhaitez recevoir des rapports de base et avancés à un emplacement FTP, vous pouvez configurer [l&#39;accès FTP aux rapports de base et avancés](/help/search-social-commerce/legacy-ui/reports/automation/ftp-reports.md) en demandant un compte FTP et en configurant des modèles de rapport selon une convention de nommage spécifique.
+
+>[!MORELIKETHIS]
+>
+>* [À propos des rapports](report-about.md)
+>* [Données utilisées pour les rapports](data-used-for-reports.md)

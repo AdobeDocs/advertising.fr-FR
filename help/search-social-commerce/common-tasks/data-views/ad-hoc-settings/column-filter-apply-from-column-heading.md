@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '214'
 ht-degree: 0%
 ---
 # Application d’un filtre de données à partir d’un menu d’en-tête de colonne
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
-Vous pouvez appliquer autant de filtres que vous le souhaitez à une colonne, un par un.<!-- True only for entity names, I think: All filters are joined using the AND operator. --> Pour ajouter plusieurs filtres à la fois à l’aide de toutes les mesures disponibles, reportez-vous à « [&#x200B; Appliquer des filtres de données à partir de la barre d’outils &#x200B;](column-filter-apply-from-toolbar.md) ».
+Vous pouvez appliquer autant de filtres que vous le souhaitez à une colonne, un par un.<!-- True only for entity names, I think: All filters are joined using the AND operator. --> Pour ajouter plusieurs filtres à la fois à l’aide de toutes les mesures disponibles, reportez-vous à la section « [Appliquer des filtres de données à partir de la barre d’outils](column-filter-apply-from-toolbar.md) ».
 
 1. Sur le côté droit de l’en-tête de colonne, cliquez sur ![Flèche vers le bas](/help/search-social-commerce/assets/arrow-down-dropdown.png "Flèche vers le bas"), puis sur **[!UICONTROL Add Filter]**.
 
@@ -36,7 +36,7 @@ Vous pouvez appliquer autant de filtres que vous le souhaitez à une colonne, un
 
    * (Filtres avec champs de saisie) Sélectionnez un opérateur dans le deuxième menu, saisissez la valeur applicable, puis cliquez sur ![Mettre à jour le filtre](/help/search-social-commerce/assets/select.png "Ajouter").
 
-     Par exemple, si vous avez sélectionné la colonne « [!UICONTROL Clicks] » et que vous souhaitez renvoyer uniquement des lignes contenant plus de 100 clics, sélectionnez *[!UICONTROL greater than]* » et saisissez `100` dans le champ de saisie. Selon le type de données, les opérateurs disponibles peuvent inclure *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* ou *[!UICONTROL no date]*
+     Par exemple, si vous avez sélectionné la colonne « [!UICONTROL Clicks] » et que vous souhaitez renvoyer uniquement des lignes avec plus de 100 clics, sélectionnez « *[!UICONTROL greater than]* » et saisissez `100` dans le champ de saisie. Selon le type de données, les opérateurs disponibles peuvent inclure *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* ou *[!UICONTROL no date].*
 
      >[!NOTE]
      >
@@ -45,6 +45,6 @@ Vous pouvez appliquer autant de filtres que vous le souhaitez à une colonne, un
 
 >[!MORELIKETHIS]
 >
->* [Appliquer des filtres de données depuis la barre d’outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [Appliquer des filtres de données à partir de la barre d&#39;outils](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
 >* [Modifier les filtres de colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
->* [Supprimer un filtre de colonne]&#x200B;(/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/
+>* [Supprimer un filtre de colonne](column-filter-remove.md)

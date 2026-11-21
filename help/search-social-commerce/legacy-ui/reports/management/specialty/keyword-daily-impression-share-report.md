@@ -1,0 +1,66 @@
+---
+title: '[!UICONTROL Keyword Daily Impression Share Report]'
+description: En savoir plus sur le [!UICONTROL Keyword Daily Impression Share Report].
+exl-id: 761864db-a6ef-4155-8959-6c2c90f14a6b
+feature: Search Reports, Search Specialty Reports
+TQID: 'https://experienceleague.adobe.com/KS0R-I1Dr92T0AwQcWianuX7EtGQY65vIGinY3Lbm-k'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 0%
+---
+# [!UICONTROL Keyword Daily Impression Share Report]
+
+Comptes *[!DNL Google Ads]et [!DNL Microsoft Advertising] uniquement*
+
+[!UICONTROL Keyword Daily Impression Share Report] inclut des mesures de partage d’impression quotidiennes pour chaque mot-clé, le type de correspondance correspondant et le type d’appareil correspondant pour un ou plusieurs groupes publicitaires ou campagnes. Par défaut, les données incluent une ligne pour chaque mot-clé, type de correspondance et appareil qui a reçu au moins une impression ou un clic pour chaque groupe d’annonces applicable pour chaque jour de la période spécifiée. Par défaut, les lignes sont classées par ordre croissant de date. Le rapport peut éventuellement inclure des données suivies par [!DNL Adobe] et des mesures dérivées.
+
+Les mesures de taux d’impressions sont disponibles à 13 h 00 dans le fuseau horaire de l’annonceur pour la journée précédente. Vous pouvez afficher les données des deux mois précédents.
+
+## Colonnes par défaut
+
+Pour obtenir une description de toutes les colonnes par défaut et personnalisées, voir « [Colonnes de rapports pour les rapports spécialisés](specialty-report-columns.md) ».
+
+* [!UICONTROL Keyword]
+* [!UICONTROL Keyword Status]
+* [!UICONTROL Start Date]
+* [!UICONTROL End Date]
+* [!UICONTROL Portfolio]
+* [!UICONTROL Account]
+* [!UICONTROL Search Engine]
+* [!UICONTROL Campaign]
+* [!UICONTROL Ad Group]
+* [!UICONTROL Device]
+* [!UICONTROL Click Match Type]
+* [!UICONTROL Search IS%]
+* [!UICONTROL Search Exact Match IS% (Google)]
+* [!UICONTROL Search IS% Lost to Rank]
+* [!UICONTROL Search IS% Lost to Budget (Bing)]
+* [!UICONTROL Search IS% Lost to Bid (Bing)]
+* [!UICONTROL Search IS% Lost to Page Relevance (Bing)]
+* [!UICONTROL Search IS% Lost to Keyword Relevance (Bing)]
+* [!UICONTROL Content IS% Lost to Budget (Google)]
+* [!UICONTROL Content IS% (Google)]
+* [!UICONTROL Content IS% Lost to Rank (Google)]
+* [!UICONTROL Impr. (Abs. Top) %]
+* [!UICONTROL Impr. (Top) %]
+
+>[!MORELIKETHIS]
+>
+>* [À propos des rapports spécialisés](specialty-report-about.md)
+>* [Générer un rapport spécialisé](specialty-report-generate.md)
+>* [Paramètres des rapports spécialisés](specialty-report-settings.md)

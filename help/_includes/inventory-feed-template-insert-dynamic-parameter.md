@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%
@@ -8,4 +8,4 @@ ht-degree: 0%
 
 <!-- moved to snippet because used multiple times in one file, which ExL doesn't support -->
 
-Pour insérer un nom de colonne ou un groupe de modificateurs en tant que paramètre dynamique, cliquez dans le champ de saisie, puis cliquez sur un nom de colonne dans la liste Colonne ou sur un [nom de modificateur](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) dans la liste Modificateurs. Pour insérer la variable [!DNL Param1] ou [!DNL Param2], saisissez la valeur `{param1:default text}` ou `{param2:default text}`, où « texte par défaut » correspond au texte utilisé si la colonne de paramètres du fichier de flux est vide pour une ligne d’annonce.
+Pour insérer un nom de colonne ou un groupe de modificateurs en tant que paramètre dynamique, cliquez dans le champ de saisie, puis cliquez sur un nom de colonne dans la liste des colonnes ou sur un [nom de modificateur](/help/search-social-commerce/legacy-ui/campaign-management/inventory-feeds/modifiers-manage.md) dans la liste des modificateurs. Pour insérer la variable [!DNL Param1] ou [!DNL Param2], saisissez la valeur `{param1:default text}` ou `{param2:default text}`, où « texte par défaut » est le texte utilisé si la colonne de paramètres du fichier de flux est vide pour une ligne de publicité.

@@ -1,0 +1,56 @@
+---
+title: Implémenter [!DNL Google Ads] campagnes de performances maximales
+description: Découvrez le workflow de configuration de [!DNL Google Ads] campagnes Performance Max.
+exl-id: 4208774c-e4dd-499d-987e-933fe073c04f
+feature: Search Campaign Management
+TQID: 'https://experienceleague.adobe.com/2vNnyo0W66ZuIZ3cY1nlSYWTjEPOiNXkc-ppbuxNMnI'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 0%
+---
+# Implémenter [!DNL Google Ads] campagnes de performances maximales
+
+Dans les campagnes [!DNL Google Ads] Performance Max, vous ne configurez pas de groupes publicitaires, de publicités ou de mots-clés. Au lieu de cela, dans les paramètres de la campagne, vous spécifiez un ou plusieurs groupes de ressources, qui incluent des titres, des descriptions, des images chargées, des logos et [!DNL YouTube videos]. [!DNL Google Ads] combine automatiquement les ressources pour diffuser des annonces en fonction du canal (par exemple [!DNL YouTube], [!DNL Gmail] ou [!DNL Search]).
+
+Vous pouvez afficher vos campagnes « Performances max » existantes, avec des données de performances au format tableau et graphique de tendances, dans la vue [!DNL Campaigns] ; les données ne sont pas disponibles aux niveaux inférieurs. Les données de performances au niveau des campagnes sont également disponibles dans les rapports ainsi que dans Adobe Analytics (pour les annonceurs qui disposent d’une [intégration d’Analytics](/help/integrations/analytics/overview.md)). Pour afficher les données de performances des campagnes Performance Max dans [!DNL Analytics], la campagne doit utiliser le [code de suivi AMO ID mis à niveau](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) (qui suit l’identifiant de la campagne et l’identifiant du groupe publicitaire).
+
+>[!NOTE]
+>
+>* Vous devez charger manuellement tous les fichiers image. Les liens vers les flux de produits [!DNL Google Merchant Center] ne sont pas pris en charge.
+>* Seuls les paramètres requis sont disponibles. Pour obtenir des paramètres facultatifs, connectez-vous à l’éditeur [!DNL Google Ads].
+>* La prise en charge des groupes de listes n’est pas disponible. Pour gérer et afficher les données des groupes de la liste, connectez-vous à l&#39;éditeur [!DNL Google Ads].
+
+## Étapes de configuration de [!DNL Google Ads] campagnes de performances maximales
+
+Vous pouvez configurer des campagnes de performances maximales individuellement à partir de la vue [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+1. [Créez une campagne](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/campaign-manage.md) avec le type de campagne **[!UICONTROL Performance Max]**.
+
+   Spécifiez les valeurs [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Campaign Targeting] et [!UICONTROL URL Options]. Saisissez éventuellement [!UICONTROL Negative Keywords], saisissez [!UICONTROL Negative Websites] et/ou remplacez les options [!UICONTROL Campaign Tracking].
+
+1. Créez des groupes de ressources et chargez des ressources pour la campagne :
+
+   1. Au bas des paramètres de la campagne, cliquez sur **[!UICONTROL Manage Asset Groups]**.
+
+   1. Spécifiez les paramètres du premier groupe de ressources et chargez les images, les logos et les vidéos facultatives pour le groupe de ressources.
+
+      Consultez les [descriptions des paramètres du groupe de ressources](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/campaign-settings-google.md) pour comprendre les exigences et les spécifications.
+
+   1. Ajoutez d’autres groupes de ressources, le cas échéant.
+
+1. Cliquez sur **[!UICONTROL Post]**.
+
+1. (Facultatif) Ajoutez la campagne à un portfolio hybride à des fins d’optimisation.

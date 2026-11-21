@@ -1,0 +1,63 @@
+---
+title: Générer un rapport spécialisé
+description: Découvrez comment générer un rapport spécialisé.
+exl-id: 2428fafa-109a-4a17-9004-a32941cd5519
+feature: Search Reports, Search Specialty Reports
+TQID: 'https://experienceleague.adobe.com/07Y3trfC76LSKTfxMQig34wXASS1noGms2QHl3dEA1s'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 0%
+---
+# Générer un rapport spécialisé
+
+1. Dans le menu principal, cliquez sur **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >.[!UICONTROL Reports]**
+
+1. Dans la barre d&#39;outils située au-dessus du tableau de données, cliquez sur **[!UICONTROL Create Report]**, placez le curseur sur **[!UICONTROL Specialty Reports]**, puis cliquez sur le [type de rapport](/help/search-social-commerce/legacy-ui/reports/management/specialty/specialty-report-about.md).
+
+1. (Facultatif) Dans la fenêtre [!UICONTROL Report Settings], modifiez les [paramètres de rapport](specialty-report-settings.md) par défaut :
+
+   1. (Facultatif) Saisissez un nom personnalisé pour l’état et pour le modèle (si vous enregistrez l’état en tant que modèle).
+
+   1. (Facultatif) Pour enregistrer les paramètres du rapport en tant que modèle, cochez la case en regard de **[!UICONTROL Save as template]**.
+
+   1. (Facultatif) Sur l’onglet **[!UICONTROL Basic Settings]**, sélectionnez un modèle de rapport existant à utiliser ou modifiez les paramètres de base par défaut pour le rapport.
+
+   1. (Facultatif) Cliquez sur **[!UICONTROL Columns tab]** et modifiez les colonnes par défaut du rapport.
+
+      Par défaut, toutes les données monétaires des rapports sont présentées en dollars américains (par exemple 1 000,00). Pour afficher la valeur au format de devise approprié (mais sans aucun symbole de devise aux formats CSV et TSV), ajoutez la colonne « [!UICONTROL Currency] » au rapport. Si le rapport inclut des données pour des comptes ayant des devises différentes, les valeurs monétaires « [!UICONTROL Total] » représentent la somme de tous les nombres de la colonne, quelle que soit la devise.
+
+   1. (Facultatif) Cliquez sur l’onglet **[!UICONTROL Advanced Filters]** et modifiez les options avancées par défaut.
+
+   1. (Facultatif) Cliquez sur l’onglet **[!UICONTROL Attribution]** et modifiez la règle d’attribution par défaut.
+
+   1. (Facultatif) Cliquez sur l’onglet **[!UICONTROL Scheduling and Delivery]** et modifiez les options de planification et de diffusion par défaut.
+
+1. ([!UICONTROL AdWords Conversion Report] et [!UICONTROL AdWords Shopping Performance Report] uniquement ; facultatif) Pour prévisualiser les 50 premières lignes du rapport, cliquez sur **[!UICONTROL Preview]**. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Back]** pour revenir à la page des paramètres du rapport.
+
+1. Cliquez sur **[!UICONTROL Create]**.
+
+Si vous n&#39;avez pas spécifié de planning de rapport, le rapport est exécuté immédiatement ; dans le cas contraire, il l&#39;est selon le planning spécifié. Le nom du rapport est ajouté à la vue [[!UICONTROL Latest Reports]](/help/search-social-commerce/legacy-ui/reports/report-about.md). Si vous avez enregistré le rapport en tant que modèle, il est également ajouté à la vue [[!UICONTROL Templates]](/help/search-social-commerce/legacy-ui/reports/report-about.md). Une fois le rapport terminé, vous pouvez ouvrir ou enregistrer le fichier ; les modèles sont disponibles immédiatement.
+
+Si vous avez saisi des adresses e-mail pour la notification, chaque destinataire reçoit une notification lorsque la tâche de rapport est terminée ou échoue, en fonction des [paramètres de notification configurés](/help/search-social-commerce/legacy-ui/notifications/notification-edit.md) pour les rapports par l’utilisateur.
+
+>[!MORELIKETHIS]
+>
+>* [À propos des rapports spécialisés](/help/search-social-commerce/legacy-ui/reports/management/specialty/specialty-report-about.md)
+>* [Paramètres des rapports spécialisés](/help/search-social-commerce/legacy-ui/reports/management/specialty/specialty-report-settings.md)
+>* [Colonnes de rapports pour les rapports spécialisés](/help/search-social-commerce/legacy-ui/reports/management/specialty/specialty-report-columns.md)
+>* [Supprimer des rapports](/help/search-social-commerce/legacy-ui/reports/management/report-delete.md)

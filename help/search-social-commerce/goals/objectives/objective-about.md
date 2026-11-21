@@ -1,0 +1,108 @@
+---
+title: (Nouvelle interface utilisateur) À propos des objectifs
+description: Découvrez les objectifs permettant d’atteindre les objectifs de votre entreprise.
+feature: Search Objectives, Search Optimization
+exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
+autotag-review: '2026-04-14T00:06:19.870Z'
+TQID: 'https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+subfeature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 0%
+---
+# (Nouvelle interface utilisateur) À propos des objectifs
+
+<!-- no subfeature tag for objectives -->
+
+*Fonctionnalité Beta*
+
+Les objectifs sont des objectifs qu’un annonceur définit pour atteindre ses objectifs commerciaux, tels que maximiser les bénéfices ou atteindre un objectif de vente spécifique. Advertising Search, Social et Commerce et Advertising DSP utilisent tous deux des objectifs :
+
+* Chaque portfolio Search, Social et Commerce doit avoir un objectif afin que la fonctionnalité d’optimisation puisse créer des modèles de clic et de chiffre d’affaires pour le portfolio.
+
+* Dans DSP, les objectifs s’affichent en tant qu’objectifs personnalisés pour les comptes DSP liés aux comptes Search, Social et Commerce. Chaque package qui utilise les objectifs d’optimisation « Retour sur dépenses publicitaires le plus élevé » ou « Coût par acquisition le plus bas » doit inclure un objectif personnalisé qui permet d’atteindre l’objectif d’optimisation global.
+
+Un objectif se compose des mesures de conversion à suivre et à optimiser, ainsi que des poids relatifs de ces mesures. Supposons, par exemple, qu’un magazine en ligne avec deux niveaux d’abonnement en ligne et un niveau d’abonnement papier et l’objectif « maximiser les bénéfices » ait trois mesures : « abonnements en ligne de base » évalués à 20 USD, « abonnements en ligne premium » évalués à 40 USD et « abonnements en ligne imprimés » évalués à 30 USD. Si le magazine souhaite donner un poids en fonction de la valeur monétaire unique de l’abonnement, les poids relatifs des mesures seraient respectivement de 1, 2 et 1,5.
+
+Pour chaque mesure de l’objectif, vous pouvez :
+
+* Configurez des poids distincts pour les conversions à partir des appareils mobiles.
+
+* Étiqueter la mesure en tant que mesure [!UICONTROL Goal] ou mesure [!UICONTROL Assist].
+
+* Appliquez des recommandations de poids aux mesures.
+
+>[!NOTE]
+>* (Recherche, réseaux sociaux et Commerce) Vous pouvez associer un objectif à un portfolio lorsque vous [créez le portfolio](/help/search-social-commerce/manage/portfolios/portfolio-create.md) ou en [modifiant ultérieurement les paramètres du portfolio](/help/search-social-commerce/manage/portfolios/portfolio-edit.md).
+>* (Annonceurs disposant de comptes DSP liés à des comptes Search, Social et Commerce) Dans Advertising DSP, vous pouvez sélectionner un objectif en tant qu’[objectif d’optimisation personnalisé](/help/dsp/campaign-management/packages/package-settings.md) pour un package avec une fréquence au niveau du package.
+>* Vous pouvez utiliser le même objectif pour plusieurs portfolios Search, Social et Commerce et/ou plusieurs packages DSP.
+>* Les mesures de chaque objectif de la vue [!UICONTROL Objectives] n’incluent pas de données provenant de DSP.
+
+## Mesures disponibles
+
+Vous pouvez inclure l’un des éléments suivants dans vos objectifs :
+
+* Mesures suivies par Adobe Advertising à l’aide du [pixel de suivi de conversion d’Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md).
+
+* [Mesures suivies par l’annonceur à partir des fichiers de flux de conversion](/help/search-social-commerce/tracking/conversion-tracking-about.md).<!-- Search only, or might DSP-only clients also have these? -->
+
+* (Annonceurs avec [!DNL Adobe Analytics for Advertising]) [Mesures de conversion et d’engagement du site synchronisées à partir d’Adobe Analytics](/help/integrations/analytics/overview.md).
+
+  Dans Search, Social et Commerce, les [mesures d’engagement du site](/help/integrations/analytics/analytics-data-in-advertising.md) suivantes sont automatiquement prises en compte dans les algorithmes d’offres du portefeuille : `timespent_secs_1stvisit`, `timespent_secs_total`, `pageviews_1stvisit`, `pageviews_total` et `bounces`.
+
+* [!DNL Google] mesures :<!-- Search only, or might DSP-only clients also have these? -->
+
+  * Conversions [[!DNL Google Ads] suivies](/help/search-social-commerce/tracking/google-conversion-data.md) à partir de comptes [!DNL Google Ads] synchronisés.
+
+  * (Annonceurs avec [[!DNL Google Analytics] intégrations](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)) Pages vues, Sessions, Taux de rebond (calculé comme rebonds/sessions) et Durée de session.
+
+    Dans Search, Social et Commerce, ces mesures sont automatiquement prises en compte dans les algorithmes d’offres du portefeuille.
+
+## Option de chargement des objectifs sur les réseaux publicitaires
+
+Vous pouvez éventuellement [charger les objectifs des portefeuilles du compte vers [!DNL Google Ads] et/ou [!DNL Microsoft Advertising] sous forme de conversions](objective-upload-to-networks.md) afin de les utiliser pour l’optimisation au niveau de la campagne ou du groupe publicitaire. Lorsque vous activez cette option, Search, Social et Commerce transmettent quotidiennement au réseau publicitaire les données pondérées relatives au chiffre d’affaires au niveau de l’identifiant EF (identifiant de clic). Il omet toutes les mesures suivies par le réseau publicitaire.
+
+## Actions disponibles
+
+* [Créer un objectif](objective-create.md) ou [dupliquer un objectif existant](objective-create.md#objective-duplicate)
+
+* [Modification d’un objectif](objective-edit.md)
+
+* [Appliquer des recommandations de poids à un objectif](objective-apply-weight-recommendations.md)
+
+* [Exporter une configuration d&#39;objectif vers une feuille de calcul  [!DNL Microsoft Excel] ](objective-export.md)
+
+* [Télécharger les données de performances pour les objectifs](objective-download-performance-data.md)
+
+* [Supprimer un objectif](objective-delete.md)
+
+>[!MORELIKETHIS]
+>
+>* [Créer un objectif](objective-create.md)
+>* [Modifier un objectif](objective-edit.md)
+>* [Supprimer un objectif](objective-delete.md)
+>* [Appliquer des recommandations de poids à un objectif](objective-apply-weight-recommendations.md)
+>* [Paramètres des objectifs](objective-settings.md)
+>* [Exporter une configuration d&#39;objectif](objective-export.md)
+>* [Télécharger les données de performances pour les objectifs](objective-download-performance-data.md)
