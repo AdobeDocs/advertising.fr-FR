@@ -101,9 +101,9 @@ Vous pouvez afficher vos notifications, marquer les notifications comme lues ou 
 
     * [!UICONTROL Portfolios]
 
-      * **[!UICONTROL Portfolio Bulksheet Diagnostic Report]** : notifications à propos des tâches de modification en masse du portfolio [ via des feuilles d’envoi groupé](/help/search-social-commerce/manage/portfolios/portfolio-bulksheets.md).
+      * **[!UICONTROL Portfolio Bulksheet Diagnostic Report]** : notifications à propos des tâches de modification en masse du portfolio [&#x200B; via des feuilles d’envoi groupé](/help/search-social-commerce/manage/portfolios/portfolio-bulksheets.md).
 
-      * **[!UICONTROL Portfolio Settings]** : notifications sur les [ modifications apportées aux paramètres du portfolio](/help/search-social-commerce/manage/portfolios/portfolio-settings.md).
+      * **[!UICONTROL Portfolio Settings]** : notifications sur les [&#x200B; modifications apportées aux paramètres du portfolio](/help/search-social-commerce/manage/portfolios/portfolio-settings.md).
 
 <!--
 
