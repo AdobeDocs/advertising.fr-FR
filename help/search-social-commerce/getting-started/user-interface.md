@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+source-git-commit: d7f8cc382d053cc8acc5a81acf01c2058d4b1161
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1327'
 ht-degree: 0%
 ---
 # Organisation de l’interface utilisateur
@@ -47,77 +47,77 @@ La nouvelle interface utilisateur affiche un nouveau menu principal à gauche, q
 
 * Sous-menu **[!UICONTROL Dashboard]** :
 
-  * **[!UICONTROL Overview]** Ouvre une vue [!UICONTROL Dashboard] configurable avec des visualisations des performances pour tous vos portefeuilles.
+  * **[!UICONTROL Overview]** Visualisez les performances de tous vos portefeuilles, groupes de portefeuilles ou objectifs d’optimisation.
 
-  * **[!UICONTROL Recommendations]** : ouvre une vue en lecture seule de vos recommandations d’éditeur de [!DNL Google Ads] et [!DNL Microsoft Advertising] et des informations d’éditeur de [!DNL Microsoft Advertising.]. Pour afficher vos recommandations et informations et y répondre, utilisez la vue héritée [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]. Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Recommendations]** : répertoriez vos recommandations d’éditeur à partir de [!DNL Google Ads] et [!DNL Microsoft Advertising], ainsi que les informations d’éditeur à partir de [!DNL Microsoft Advertising.]. Vous pouvez éventuellement appliquer des recommandations.
 
 * Sous-menu **[!UICONTROL Manage]** :
 
-  * **[!UICONTROL Portfolios]:** Ouvre une nouvelle vue [!UICONTROL Portfolios] qui répertorie tous les portefeuilles pour l’annonceur. Vous pouvez gérer vos portefeuilles à partir de cette vue. Vous pouvez ouvrir une liste de contraintes affectées et afficher les détails de performance et de composition pour n’importe quel portfolio.
+  * **[!UICONTROL Portfolios]:** Répertoriez et gérez tous les portefeuilles pour l’annonceur. Vous pouvez ouvrir une liste de contraintes affectées et afficher les détails de performance et de composition pour n’importe quel portfolio.
 
     Les paramètres du portfolio comprennent des onglets pour affecter l’objectif et les campagnes, gérer les dépenses, gérer les contraintes et contrôler l’optimisation. Seuls les utilisateurs disposant du profil « optimisation experte » ou d’un niveau supérieur peuvent modifier les paramètres dans l’onglet [!UICONTROL Control Optimization].
 
-  * **[!UICONTROL Accounts]** : ouvre une nouvelle vue [!UICONTROL Accounts]. Vous pouvez gérer les comptes réseau publicitaires synchronisés par le biais d’une connexion API ou configurés par le biais du chargement de données. Vous pouvez également gérer les comptes [!UICONTROL Naver] existants.
+  * **[!UICONTROL Networks]** : (lecture seule) affichez le coût, les clics, le coût par clic (CPC), les impressions et la valeur d’objectif pour chaque combinaison de réseau et de devise de publicité synchronisée via une connexion API ou configurée via le chargement de données.
 
-  * **[!UICONTROL Campaigns]:** Ouvre une nouvelle vue [!UICONTROL Campaigns], qui affiche toutes les campagnes pour l’annonceur. Vous pouvez gérer des campagnes, affecter des campagnes à des portfolios et gérer les affectations de contraintes pour les campagnes sélectionnées. Vous pouvez également télécharger un rapport du contenu du tableau de données. En outre, vous pouvez répliquer [!DNL Google Ads] campagnes dans [!DNL Microsoft Advertising], <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
+  * **[!UICONTROL Accounts]** : répertoriez et gérez les comptes réseau d’annonces synchronisés via une connexion API ou configurés via le chargement de données. Vous pouvez également gérer les comptes [!UICONTROL Naver] existants.
 
-  * **[!UICONTROL Ad Groups]:** Ouvre une nouvelle vue [!UICONTROL Ad Groups], qui affiche tous les groupes publicitaires pour l’annonceur. Vous pouvez gérer les groupes publicitaires et les affectations de contraintes pour les groupes publicitaires sélectionnés. Vous pouvez également télécharger un rapport du contenu du tableau de données.
+  * **[!UICONTROL Campaigns]:** Répertoriez et gérez toutes les campagnes pour l’annonceur. Vous pouvez affecter des campagnes aux portfolios et gérer les affectations de libellés et de contraintes pour les campagnes sélectionnées. En outre, vous pouvez répliquer [!DNL Google Ads] campagnes dans [!DNL Microsoft Advertising].
 
-  * **[!UICONTROL Ads]** Ouvre une nouvelle vue [!UICONTROL Ads], qui affiche toutes les publicités pour l’annonceur. Vous pouvez gérer les annonces et les affectations de contraintes pour les annonces sélectionnées.
+  * **[!UICONTROL Ad Groups]:** Répertoriez et gérez tous les groupes publicitaires pour l’annonceur. Vous pouvez gérer les affectations d&#39;étiquettes et de contraintes pour les groupes publicitaires sélectionnés.
 
-  * **[!UICONTROL Keywords]** Ouvre une nouvelle vue [!UICONTROL Keywords], qui affiche les mots-clés existants et les mots-clés négatifs pour l’annonceur. Vous pouvez gérer les affectations de contraintes pour les mots-clés sélectionnés.
+  * **[!UICONTROL Ads]** Répertoriez et gérez toutes les publicités pour l’annonceur. Vous pouvez gérer les affectations d’étiquettes et de contraintes pour les annonces sélectionnées.
 
-    Pour créer, modifier et supprimer des mots-clés et des mots-clés négatifs, utilisez les vues héritées [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Keywords]** Répertoriez et gérez les mots-clés existants et les mots-clés négatifs pour l’annonceur. Vous pouvez gérer les affectations de libellés et de contraintes pour les mots-clés sélectionnés.
 
-  * **[!UICONTROL Product Groups]** Ouvre une nouvelle vue [!UICONTROL Keywords], qui affiche vos groupes de produits d&#39;achat existants. Vous pouvez gérer vos groupes de produits, y compris les affectations de contraintes et d&#39;étiquettes.
+  * **[!UICONTROL Product Groups]** Répertoriez et gérez vos groupes de produits d&#39;achat existants. Vous pouvez gérer les affectations d&#39;étiquettes et de contraintes pour les groupes de produits sélectionnés.
 
 * Sous-menu **[!UICONTROL Reports]** :
 
-  * **[!UICONTROL Insights]** : quitte le nouveau site et ouvre l’affichage hérité [!UICONTROL Insights & Reports] > [!UICONTROL Insights].
+  * **[!UICONTROL Insights]** : générez des données visuelles exploitables pour vous aider à évaluer les performances du portfolio, à identifier les problèmes d’optimisation et à comparer les données de conversion.
 
-  * **[!UICONTROL Reports]** : ouvre une nouvelle vue [!UICONTROL Reports], qui vous permet de générer et de gérer des rapports planifiés.
+  * **[!UICONTROL Reports]** : génération et gestion de rapports et de modèles de rapports personnalisés.
 
-  * **[!UICONTROL Spreadsheet Feeds]** : ouvre une nouvelle vue [!UICONTROL Spreadsheets Feeds], à partir de laquelle vous pouvez configurer les flux de rapports à mettre à jour quotidiennement.
+  * **[!UICONTROL Spreadsheet Feeds]** : affichez et configurez les flux de rapports à mettre à jour quotidiennement.
 
-  * **[!UICONTROL History Logs]** : ouvre une nouvelle vue [!UICONTROL History Logs] avec des détails sur les modifications récentes apportées au compte de l’annonceur.
+  * **[!UICONTROL History Logs]** : afficher les modifications récentes apportées au compte de l’annonceur.
 
 * Sous-menu **[!UICONTROL Plan]** :
 
-  * **[!UICONTROL Simulations]** Ouvre une nouvelle vue [[!UICONTROL Simulations]](/help/search-social-commerce/plan/simulations/simulation-about.md), à partir de laquelle vous pouvez afficher toutes vos simulations personnalisées créées par l’utilisateur et les simulations hebdomadaires générées automatiquement, générer de nouvelles simulations personnalisées et réexécuter les simulations existantes. Le bouton [!UICONTROL Spend Planner] ouvre l’outil [!UICONTROL Spend Recommendation] hérité sous [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+  * **[!UICONTROL Simulations]** Répertoriez toutes vos simulations personnalisées créées par l’utilisateur ou l’utilisatrice, ainsi que les simulations hebdomadaires générées automatiquement, générez de nouvelles simulations personnalisées et réexécutez les simulations existantes.
 
-  * **[!UICONTROL Spend Planner]** Quitte le nouveau site et ouvre l&#39;ancienne vue [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+  * **[!UICONTROL Spend Planner]** Générez et appliquez des recommandations de budget de portefeuille pour une distribution optimale des dépenses dans vos portefeuilles.
 
 * Sous-menu **[!UICONTROL Set Up]** :
 
-  * **[!UICONTROL Bulksheets]** : ouvre une nouvelle vue [!UICONTROL Bulksheets].
+  * **[!UICONTROL Bulksheets]** : téléchargez et chargez des fichiers de feuille d’envoi groupé contenant des données de campagne sur vos réseaux publicitaires.
 
-  * **[!UICONTROL Label Classification]** Ouvre une nouvelle vue pour gérer les classifications et affecter/annuler l’affectation de valeurs de classification à tout composant de compte applicable disponible dans la nouvelle interface utilisateur.
+  * **[!UICONTROL Label Classification]** Répertoriez et gérez les classifications, y compris l’affectation/l’annulation de l’affectation de valeurs de classification aux campagnes et composants de campagne.
 
-  * **[!UICONTROL Manager Accounts]** : ouvre une nouvelle vue pour répertorier et gérer les comptes du responsable sur vos réseaux publicitaires.
+  * **[!UICONTROL Manager Accounts]** : répertoriez et gérez les comptes du responsable sur vos réseaux publicitaires.
 
 * Sous-menu **[!UICONTROL Goals]** :
 
-  * **[!UICONTROL Objectives]** Ouvre une nouvelle vue à partir de laquelle vous pouvez afficher tous vos objectifs existants et créer, modifier et supprimer des objectifs.
+  * **[!UICONTROL Objectives]** Répertorier et gérer les objectifs d’optimisation.
 
-  * **[!UICONTROL Conversions]** Ouvre une nouvelle vue à partir de laquelle vous pouvez afficher les mesures de conversion d&#39;un annonceur et personnaliser les mesures disponibles pour les vues et les rapports de gestion.
+  * **[!UICONTROL Conversions]** Répertoriez les mesures de conversion suivies par l’annonceur et personnalisez les mesures disponibles pour les vues et les rapports de gestion.
 
-  * **[!UICONTROL Conversion Value Rules]** Ouvre une nouvelle vue pour répertorier et gérer les règles de valeur de conversion au niveau de la campagne et du compte pour les comptes [!DNL Google Ads].
+  * **[!UICONTROL Conversion Value Rules]** Répertoriez et gérez les règles de valeur de conversion au niveau de la campagne et du compte pour les comptes [!DNL Google Ads].
 
-  * **[!UICONTROL Constraints]** Ouvre une nouvelle vue pour répertorier et gérer les contraintes d&#39;offres.
+  * **[!UICONTROL Constraints]** Répertorie et gère les contraintes d&#39;enchères.
 
 * Sous-menu **[!UICONTROL Targeting]** :
 
-  * **[!UICONTROL Audiences]** : ouvre une nouvelle vue pour gérer les audiences de l’annonceur, toutes les cibles d’audience et toutes les exclusions d’audience.
+  * **[!UICONTROL Audiences]** : répertoriez et gérez les audiences, les cibles d’audience et les exclusions d’audience.
 
-  * **[!UICONTROL Auto Targets]** Ouvre une nouvelle vue qui affiche toutes les cibles automatiques existantes pour l’annonceur. Pour gérer vos cibles automatiques, utilisez la vue héritée [!UICONTROL Campaigns] > [!UICONTROL Auto Targets]. Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Auto Targets]** Répertorier et gérer les cibles automatiques. Vous pouvez gérer les affectations d&#39;étiquettes et de contraintes pour les cibles automatiques sélectionnées.
 
-  * **[!UICONTROL Placements]** Ouvre une nouvelle vue pour répertorier et gérer vos emplacements et emplacements négatifs pour l’annonceur.
+  * **[!UICONTROL Placements]** Répertoriez et gérez vos emplacements et emplacements négatifs. Vous pouvez gérer les affectations de libellés et de contraintes pour les emplacements sélectionnés.
 
 * Sous-menu **[!UICONTROL Library]** :
 
-  * **[!UICONTROL Assets]** Ouvre une nouvelle vue pour répertorier et gérer vos ressources créatives.
+  * **[!UICONTROL Assets]** Répertoriez et gérez vos ressources créatives.
 
-  * **[!UICONTROL Extensions]** Ouvre une nouvelle vue avec des onglets pour répertorier et gérer vos extensions de légende, extensions de lien de site et associations entre vos extensions d&#39;annonce et les entités de compte.
+  * **[!UICONTROL Extensions]** Répertoriez et gérez vos extensions d’appel, extensions sitelink et associations entre vos extensions d’annonce publicitaire et les entités de compte.
 
   * **[!UICONTROL Products]** Ouvre les vues en lecture seule de vos comptes et produits de centre commercial existants. Pour ajouter un compte de centre commercial, utilisez la vue héritée [!UICONTROL Campaigns] > [!UICONTROL Products]. Revenez à l’interface utilisateur héritée en cliquant sur le bouton [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
