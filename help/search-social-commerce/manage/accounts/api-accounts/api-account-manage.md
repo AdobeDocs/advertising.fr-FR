@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+source-git-commit: 002341eac7bccd7dd5213f399d5f12ecb91229ef
 workflow-type: tm+mt
-source-wordcount: '3141'
+source-wordcount: '3256'
 ht-degree: 0%
 ---
 # (Nouvelle interface utilisateur) Gérer les comptes réseau publicitaire via une connexion API
@@ -67,6 +67,22 @@ Les actions disponibles dépendent de vos autorisations et du type de compte.
 * [Afficher un graphique de performances dans la vue [!UICONTROL Accounts]](#account-performance-graph)
 
 * [Gérer les rapports de vue de données à partir de la vue [!UICONTROL Accounts]](#account-reports)
+
+## [!DNL Meta Ads] notifications d’extension et d’expiration de jeton {#meta-token-expiration}
+
+Pour les comptes [!DNL Meta Ads], Search, Social et Commerce tente automatiquement d’étendre le jeton d’authentification 14 jours avant son expiration. Si l’extension réussit, aucune alerte n’est envoyée et aucune action de l’utilisateur n’est nécessaire.
+
+Si l’extension échoue, la vue [!UICONTROL Accounts] affiche un avertissement d’expiration de jeton et [!UICONTROL Notification Center] envoie des notifications par e-mail à tous les utilisateurs ayant accès au compte à 7, 5, 2 et 1 jours avant l’expiration.
+
+Chaque e-mail comprend :
+
+* Nom du compte et nombre de jours avant l’expiration du jeton.
+
+* Le nom et l’adresse e-mail de l’utilisateur authentifié, afin que les destinataires sachent qui doit agir.
+
+* Lien direct vers [réauthentifier le compte](#reauthenticate).
+
+* Fonctionnalité qui cessera de fonctionner en cas d’expiration du jeton.
 
 ## Créer un compte réseau publicitaire {#create-account}
 

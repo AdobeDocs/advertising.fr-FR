@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
     internal-label: Search Notifications
-source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+source-git-commit: 002341eac7bccd7dd5213f399d5f12ecb91229ef
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1760'
 ht-degree: 0%
 ---
 # (Nouvelle interface utilisateur) Gérer les notifications
@@ -32,6 +32,10 @@ Vous pouvez configurer vos paramètres de notification pour vous abonner ou vous
   Lorsque vous activez les notifications push, elles s’affichent conformément aux conventions de notification du navigateur.
 
 Vous pouvez afficher vos notifications, marquer les notifications comme lues ou non lues et supprimer des notifications.
+
+>[!NOTE]
+>
+>Des notifications par e-mail sont également envoyées lorsque le jeton d’authentification d’un compte [!DNL Meta Ads] approche de son expiration et que l’extension automatique du jeton échoue. Ces notifications n’utilisent pas les paramètres de notification décrits ci-dessous. Pour plus d’informations, voir « [Notifications d’extension et d’expiration de jeton Meta](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#meta-token-expiration) ».
 
 ## Types de notification
 
