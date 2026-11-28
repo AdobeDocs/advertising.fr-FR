@@ -71,7 +71,7 @@ Voici quelques raisons de limiter les unités d&#39;enchères :
 
 Outre l’ouverture de la vue [[!UICONTROL Constraints]](#constraints-view), vous pouvez également afficher les informations relatives à vos contraintes des manières suivantes :
 
-* Toutes vos contraintes sont des valeurs de libellé pour une [classification de libellé](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/legacy-ui/campaign-management/label-classifications/classification-about.html) unique appelée « [!UICONTROL Constraints] ».
+* Toutes vos contraintes sont des valeurs de libellé pour une [classification de libellé](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/legacy-ui/campaign-management/label-classifications/classification-about.html?lang=fr) unique appelée « [!UICONTROL Constraints] ».
 
   * « [!UICONTROL Constraints] » est inclus dans la liste « [!UICONTROL Classifications] » dans vos paramètres d’affichage par défaut et personnalisés, ainsi que dans les rapports planifiés. Vous pouvez ajouter la colonne où vous souhaitez voir les contraintes affectées aux entités pertinentes.
 
